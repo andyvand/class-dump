@@ -9,7 +9,6 @@
 @interface IMChipList
 {
     void chipList;
-    _Bool replied;
 }
 
 + (id);
@@ -32,8 +31,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) NSArray *chipList;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) _Bool replied; // @synthesize replied;
 
 @end
 

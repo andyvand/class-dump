@@ -6,13 +6,11 @@
 
 #import <AppleAccount/AAResponse.h>
 
-@class NSData, NSString, NSValue;
+@class NSData;
 
 @interface AAPhotoResponse : AAResponse
 {
     NSData *_photoData;
-    NSValue *_cropRect;
-    NSString *_serverCacheTag;
 }
 
 - (id);
@@ -23,9 +21,7 @@
 'u'uk'uä'u¯'u 'uÎ'uA'uX'u×'u9'u¶'uý'ur'u'u'u7'u¸'uV'uÙ'u'u'uó'u|'uË'uD'uª'u%'un'uá'u'u'u¤'u+'uÅ'uJ'u'u'u`'uï'uÇ¢¹ÜóèêñÞ» ÅN+0UzacxW2)Lg|S6-HJ/4Q~ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSValue *cropRect; // @synthesize cropRect=_cropRect;
 @property(readonly, nonatomic) NSData *photoData; // @synthesize photoData=_photoData;
-@property(readonly, nonatomic) NSString *serverCacheTag; // @synthesize serverCacheTag=_serverCacheTag;
 
 @end
 

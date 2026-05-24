@@ -6,43 +6,37 @@
 
 #import <AppKit/NSPanel.h>
 
-@class NSBox, NSTabBar, NSTimer, _NSFullScreenModalStackController;
+@class _NSFullScreenModalStackController;
 
 __attribute__((visibility("hidden")))
 @interface _NSFullScreenModalCollapsedTabWindow : NSPanel
 {
     _NSFullScreenModalStackController *_stackController;
-    CDUnknownBlockType _additionalMoveBlock;
-    NSTabBar *_borrowedTabBar;
-    NSBox *_tabCenteringBox;
-    NSBox *_windowTopBorderBox;
-    _Bool _revealed;
-    NSTimer *_beginModalPollTimer;
 }
 
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)sConfigData *__single);
+- (void)scale;
+- (void)T;
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
+- (void)`;
 - (void);
+- (void)e - Failed munmap;
 - (void);
-- (void);
-- (void);
+- (_Bool)44@0:8@16@24i32@?36 /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)is there a specialization;
+- (void)ile:%s, errno:%d, desc:%s /* Error: Ran out of types for this method. */;
+- (_Bool)elect statement;
+- (_Bool)alt_service entries before date %@;
+- (id)ailure, bailing out;
 - (struct CGRect);
 - (void);
-- (_Bool)ow;
+- (_Bool)_gapRow;
 - (_Bool);
 
 @end

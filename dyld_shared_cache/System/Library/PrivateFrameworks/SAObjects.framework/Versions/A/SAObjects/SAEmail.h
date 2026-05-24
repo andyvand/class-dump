@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface SAEmail : AceObject
 {
@@ -14,32 +14,21 @@
 
 + (id);
 + (id);
+- (void);
 - (void);
 - (void);
-- (void);
+- (id);
+- (id)P;
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id));
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *emailAddress;
-@property(copy, nonatomic) NSNumber *favoriteFacetime;
-@property(copy, nonatomic) NSNumber *favoriteFacetimeAudio;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *label;
-@property(copy, nonatomic) NSNumber *pseudo;
-@property(readonly) Class superclass;
 
 @end
 

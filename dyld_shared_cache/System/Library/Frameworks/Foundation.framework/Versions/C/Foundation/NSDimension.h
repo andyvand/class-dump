@@ -6,13 +6,9 @@
 
 #import <Foundation/NSUnit.h>
 
-@class NSString, NSUnitConverter;
-
 @interface NSDimension : NSUnit
 {
     unsigned long long _reserved;
-    NSUnitConverter *_converter;
-    NSString *_icuSubtype;
 }
 
 + (_Bool);
@@ -24,18 +20,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)s;
 - (void);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)A;
 - (id)¨9;
 
 // Remaining properties
-@property(readonly, copy) NSUnitConverter *converter; // @synthesize converter=_converter;
-@property(readonly) NSString *icuSubtype; // @synthesize icuSubtype=_icuSubtype;
 @property(readonly) unsigned long long specifier; // @synthesize specifier=_reserved;
 
 @end

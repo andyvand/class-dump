@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEIKEv2AuthenticationProtocol, NEIKEv2EncryptionProtocol, NEIKEv2IKESPI, NEIKEv2IntegrityProtocol, NEIKEv2KEMProtocol, NEIKEv2PRFProtocol, NSArray, NSDictionary, NSSet;
+@class NSArray;
 
 @interface NEIKEv2IKESAProposal
 {
     unsigned char _proposalNumber;
-    NSDictionary *_chosenAdditionalKEMProtocols;
-    NSArray *_encryptionProtocols;
-    NSArray *_integrityProtocols;
-    NSArray *_prfProtocols;
-    NSArray *_kemProtocols;
-    NSDictionary *_additionalKEMProtocols;
-    NSArray *_eapProtocols;
-    unsigned long long _lifetimeSeconds;
-    NSSet *_unsupportedTransformTypes;
-    NEIKEv2IKESPI *_spi;
-    NEIKEv2IKESPI *_remoteSPI;
-    NEIKEv2EncryptionProtocol *_chosenEncryptionProtocol;
-    NEIKEv2IntegrityProtocol *_chosenIntegrityProtocol;
-    NEIKEv2PRFProtocol *_chosenPRFProtocol;
-    NEIKEv2KEMProtocol *_chosenKEMProtocol;
-    NSArray *_chosenAdditionalKETransforms;
-    NEIKEv2AuthenticationProtocol *_authenticationProtocol;
 }
 
 - (void);
@@ -34,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -42,22 +25,16 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)d;
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void)ationWithBundleID: /* Error: Ran out of types for this method. */;
-- (id)ss;
+- (void)setSourceApplicationWithBundleID: /* Error: Ran out of types for this method. */;
+- (id)AssignedAddress;
 
 // Remaining properties
-@property(retain) NSDictionary *additionalKEMProtocols; // @synthesize additionalKEMProtocols=_additionalKEMProtocols;
-@property(retain) NSArray *eapProtocols; // @synthesize eapProtocols=_eapProtocols;
 @property(retain) NSArray *encryptionProtocols; // @synthesize encryptionProtocols=_encryptionProtocols;
-@property(retain) NSArray *integrityProtocols; // @synthesize integrityProtocols=_integrityProtocols;
-@property(retain) NSArray *kemProtocols; // @synthesize kemProtocols=_kemProtocols;
-@property unsigned long long lifetimeSeconds; // @synthesize lifetimeSeconds=_lifetimeSeconds;
-@property(retain) NSArray *prfProtocols; // @synthesize prfProtocols=_prfProtocols;
 
 @end
 

@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     NSString *_itemId;
 }
 
-- (id);
+- (id)B;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)B;
 - (id);
 - (id);
 - (void)R,N,V_bundleID;

@@ -4,48 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol ABAssistantSyncDelegate, OS_xpc_object;
+@protocol ABAssistantSyncDelegate;
 
 @interface ABAssistantSyncWorker
 {
     id <ABAssistantSyncDelegate> _delegate;
-    struct __CFArray *_allRecords;
-    struct __CFArray *_changedIDs;
-    struct __CFArray *_changeTypes;
-    struct __CFArray *_sequenceNumbers;
-    long long _syncIndex;
-    long long _syncCount;
-    _Bool _addressBookNeedsSave;
-    NSObject<OS_xpc_object> *_abServiceConnection;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (long long);
-- (id);
-- (void);
-- (void);
+- (id){;
+- (void);
+- (long long);
+- (id);
 - (void);
 - (void);
+- (void)|;
+- (void);
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

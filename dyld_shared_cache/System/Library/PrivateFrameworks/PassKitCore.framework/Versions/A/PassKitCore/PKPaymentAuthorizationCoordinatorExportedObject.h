@@ -4,59 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKPaymentAuthorizationCoordinator;
-@protocol PKPaymentAuthorizationCoordinatorDelegate, PKPaymentAuthorizationCoordinatorPrivateDelegate, PKPaymentAuthorizationServiceProtocol;
+@protocol PKPaymentAuthorizationCoordinatorDelegate;
 
 @interface PKPaymentAuthorizationCoordinatorExportedObject
 {
     struct os_unfair_lock_s _delegateLock;
-    id <PKPaymentAuthorizationCoordinatorDelegate> _delegate;
-    id <PKPaymentAuthorizationCoordinatorPrivateDelegate> _privateDelegate;
-    PKPaymentAuthorizationCoordinator *_controller;
-    id <PKPaymentAuthorizationServiceProtocol> _serviceProxy;
 }
 
 - (void);
 - (void);
+- (void)Ax;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)	;
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void))5I)!;
+- (void)h;
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)x;
 - (void);
+- (id)�a;
 - (id);
-- (id);
-- (void);
+- (void)date;
 - (id)y;
 - (id)ümøÿ;
-- (void)sEnablementPercentage;
+- (void)deviceUpgradeTasksEnablementPercentage;
 - (void)caprieightball-DC5AC19A6D2D477D8765687C3C2D4CA5;
 
 // Remaining properties
-@property(nonatomic) __weak PKPaymentAuthorizationCoordinator *controller; // @synthesize controller=_controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <PKPaymentAuthorizationCoordinatorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <PKPaymentAuthorizationCoordinatorPrivateDelegate> privateDelegate; // @synthesize privateDelegate=_privateDelegate;
-@property(retain, nonatomic) id <PKPaymentAuthorizationServiceProtocol> serviceProxy; // @synthesize serviceProxy=_serviceProxy;
-@property(readonly) Class superclass;
 
 @end
 

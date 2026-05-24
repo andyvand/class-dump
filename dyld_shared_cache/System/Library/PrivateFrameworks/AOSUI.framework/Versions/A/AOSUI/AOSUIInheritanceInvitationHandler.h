@@ -4,29 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AABenefactorInfo, AOSUIOBBaseViewController, NSString, NSWindow;
+@class AOSUIOBBaseViewController;
 @protocol AOSUIAccountContactsSettingsDelegate;
 
 @interface AOSUIInheritanceInvitationHandler
 {
     AOSUIOBBaseViewController *_baseViewController;
-    NSWindow *_modalWindow;
-    NSWindow *_appWindow;
-    AABenefactorInfo *_benefactorInfo;
-    id <AOSUIAccountContactsSettingsDelegate> _settings_delegate;
 }
 
 - (id);
 - (void);
-- (void);
+- (void))
+K?11	3;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
@@ -37,14 +34,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak id <AOSUIAccountContactsSettingsDelegate> settings_delegate; // @synthesize settings_delegate=_settings_delegate;
-@property(readonly) Class superclass;
 
 @end
 

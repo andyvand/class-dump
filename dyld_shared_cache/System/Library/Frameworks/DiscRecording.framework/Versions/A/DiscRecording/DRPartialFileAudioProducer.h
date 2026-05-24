@@ -8,18 +8,17 @@ __attribute__((visibility("hidden")))
 @interface DRPartialFileAudioProducer
 {
     unsigned int bytesOfSilence;
-    void *fileProducer;
 }
 
 + (id);
-+ (id);
++ (id)setEndTime: /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)N,V_deviceMid;
 
 @end
 

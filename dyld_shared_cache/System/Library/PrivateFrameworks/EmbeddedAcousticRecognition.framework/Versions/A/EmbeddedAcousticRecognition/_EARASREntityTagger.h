@@ -7,18 +7,15 @@
 @interface _EARASREntityTagger
 {
     id earASRTaggerElectra;
-    id earASRTaggerCreateML;
-    id earASRTaggerFstLM;
-    id version;
 }
 
 + (void);
-+ (void);
++ (void);
 + (_Bool)t;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)*];
 - (void);
 - (id)Ì;
 

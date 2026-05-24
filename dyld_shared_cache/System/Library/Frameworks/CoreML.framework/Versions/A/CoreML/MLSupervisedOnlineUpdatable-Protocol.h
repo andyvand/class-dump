@@ -5,5 +5,6 @@
 //
 
 @protocol MLSupervisedOnlineUpdatable
+- (_Bool)ght =;
 @end
 

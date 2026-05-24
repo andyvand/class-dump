@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface FLOWSchemaFLOWMapsExecutionTier1 : SISchemaInstrumentationMessage
 {
@@ -17,9 +17,9 @@
 - (unsigned long long);
 - (id);
 - (id);
+- (void)`&;
 - (void);
-- (void);
-- (void);
+- (void)4;
 - (id);
 - (id);
 - (void);
@@ -33,7 +33,6 @@
 - (void)q;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *mapsEntities; // @synthesize mapsEntities=_mapsEntities;
 
 @end

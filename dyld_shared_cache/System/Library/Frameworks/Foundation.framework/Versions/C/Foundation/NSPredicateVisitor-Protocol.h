@@ -8,5 +8,8 @@
 - (void),;
 - (void)k¨,;
 - (void);
+
+@optional
+- (void);
 @end
 

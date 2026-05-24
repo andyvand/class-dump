@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
+- (_Bool)T(relative_path), best_artwork_token.artwork_type, media_type FROM item JOIN best_artwork_token ON item_pid = entity_pid AND entity_type = 0 JOIN artwork ON available_artwork_token = artwork_token;
 
 @end
 

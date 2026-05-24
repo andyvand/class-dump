@@ -4,32 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBContactEventTrigger, _INPBIntent, _INPBIntentMetadata, _INPBSpatialEventTrigger, _INPBTaskList, _INPBTemporalEventTrigger;
+@class _INPBContactEventTrigger, _INPBDataString, _INPBIntent, _INPBIntentMetadata, _INPBTemporalEventTrigger;
 
 @protocol _INPBAddTasksIntent
-- (_Bool)Values;
+- (_INPBTemporalEventTrigger *);
+- (_INPBDataString *)q`;
+- (_INPBIntentMetadata *)ibling links (%d):failed to get the path for fileid %llu /* Error: Ran out of types for this method. */;
+- (_Bool)@;
+- (void)F;
+- (_INPBIntent *)h;
+- (_Bool)_resultValues;
 - (int);
 
 // Remaining properties
 @property(retain, nonatomic) _INPBContactEventTrigger *contactEventTrigger;
-@property(readonly, nonatomic) _Bool hasContactEventTrigger;
-@property(readonly, nonatomic) _Bool hasIntent;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasPriority;
-@property(readonly, nonatomic) _Bool hasSpatialEventTrigger;
-@property(readonly, nonatomic) _Bool hasTargetTaskList;
-@property(nonatomic) _Bool hasTaskReference;
-@property(readonly, nonatomic) _Bool hasTemporalEventTrigger;
-@property(retain, nonatomic) _INPBIntent *intent;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(nonatomic) int priority;
-@property(retain, nonatomic) _INPBSpatialEventTrigger *spatialEventTrigger;
-@property(retain, nonatomic) _INPBTaskList *targetTaskList;
-@property(copy, nonatomic) NSArray *targetTaskListMembers;
-@property(readonly, nonatomic) unsigned long long targetTaskListMembersCount;
-@property(nonatomic) int taskReference;
-@property(copy, nonatomic) NSArray *taskTitles;
-@property(readonly, nonatomic) unsigned long long taskTitlesCount;
-@property(retain, nonatomic) _INPBTemporalEventTrigger *temporalEventTrigger;
 @end
 

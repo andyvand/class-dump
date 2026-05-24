@@ -6,7 +6,7 @@
 
 #import <SAObjects/SATTSSpeechSynthesisStreaming.h>
 
-@class NSData, SATTSSpeechSynthesisAudioInfo;
+@class NSData;
 
 @interface SATTSSpeechSynthesisStreamingChunk : SATTSSpeechSynthesisStreaming
 {
@@ -14,7 +14,7 @@
 
 + (id);
 + (id);
-- (void);
+- (void)C;
 - (void);
 - (id);
 - (id);
@@ -22,12 +22,10 @@
 - (id);
 - (long long);
 - (_Bool);
-- (void)viewItem;
+- (void)SASTMovieRatingReviewItem;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *audioData;
-@property(retain, nonatomic) SATTSSpeechSynthesisAudioInfo *audioInfo;
-@property(nonatomic) long long index;
 
 @end
 

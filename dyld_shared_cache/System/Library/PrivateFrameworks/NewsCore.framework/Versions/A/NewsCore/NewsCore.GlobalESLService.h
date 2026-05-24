@@ -7,10 +7,6 @@
 @interface NewsCore.GlobalESLService
 {
     id contentContext;
-    id contentVariantProvider;
-    id smarterFetchRequestFactory;
-    id smarterFetchService;
-    id feedItemFactory;
 }
 
 - (void);

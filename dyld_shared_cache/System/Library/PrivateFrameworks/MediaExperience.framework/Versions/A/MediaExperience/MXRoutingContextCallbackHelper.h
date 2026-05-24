@@ -4,22 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MXRoutingContextModificationMetrics, NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface MXRoutingContextCallbackHelper
 {
     id mFigRoutingContextToken;
-    id mHandleAuthDelegateToken;
-    NSString *mRouteConfigUpdateID;
-    NSString *mCorrelationID;
-    CDUnknownFunctionPointerType mCallback;
-    void *mContext;
-    MXRoutingContextModificationMetrics *mRoutingContextModificationMetrics;
-    NSArray *mPreviousRouteDescriptors;
-    NSArray *mCurrentRouteDescriptors;
-    struct OpaqueFigRoutingContext *mFigRoutingContext;
-    _Bool mDidRequireAuthorization;
 }
 
 + (id);
@@ -27,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)DEFy3;
 
 @end
 

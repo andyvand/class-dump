@@ -4,52 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCMapTable, NSString;
+@class NSString;
 @protocol FCFeedPersonalizing;
 
 @interface FCFeedTransformationPersonalizedSort
 {
     NSString *_feedTagID;
-    id <FCFeedPersonalizing> _feedPersonalizer;
-    FCMapTable *_feedItemScores;
-    long long _sortOptions;
-    long long _configurationSet;
 }
 
 + (id);
 + (id);
++ (id)@;
++ (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)setMaximumTerminationResistance:(id)arg1;
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)c;
+- (void)oes not respond to %@;
+- (id)_invoke_2;
 - (id);
 - (void);
 - (id);
 - (void);
 - (long long)@"NSFileCoordinator",R,N,V_fileCoordinator;
 - (long long)s:resultsLimit:queryPriority:networkEventType:edgeCacheHint:recordHandler:networkEventHandler:completionHandler:]_block_invoke_2 /* Error: Ran out of types for this method. */;
-- (void)ingHistory;
+- (void)_readingHistory;
 - (void);
 - (id)pïÿ;
 
 // Remaining properties
-@property(nonatomic) long long configurationSet; // @synthesize configurationSet=_configurationSet;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) FCMapTable *feedItemScores; // @synthesize feedItemScores=_feedItemScores;
 @property(retain, nonatomic) id <FCFeedPersonalizing> feedPersonalizer; // @synthesize feedPersonalizer=_feedPersonalizer;
-@property(copy, nonatomic) NSString *feedTagID; // @synthesize feedTagID=_feedTagID;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long sortOptions; // @synthesize sortOptions=_sortOptions;
-@property(readonly) Class superclass;
 
 @end
 

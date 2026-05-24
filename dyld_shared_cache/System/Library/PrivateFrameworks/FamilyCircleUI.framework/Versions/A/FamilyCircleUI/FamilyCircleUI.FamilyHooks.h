@@ -7,12 +7,6 @@
 @interface FamilyCircleUI.FamilyHooks
 {
     id hooks;
-    id continuation;
-    id _legacySheetURL;
-    id _dismissFANavSheet;
-    id window;
-    id appleAccount;
-    id purchaseController;
 }
 
 - (id);

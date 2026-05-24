@@ -7,7 +7,7 @@
 @class UIColor;
 
 @protocol _PKColorPickerImplementation
-- (void)ace:(UIColor *)arg1;
+- (void)set_wasAskedToReserveSpace:(UIColor *)arg1;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *selectedColor;

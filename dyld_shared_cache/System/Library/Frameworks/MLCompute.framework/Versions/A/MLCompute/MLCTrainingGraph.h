@@ -6,24 +6,11 @@
 
 #import <MLCompute/MLCGraph.h>
 
-@class MLCLayer, MLCOptimizer, NSMutableArray, NSSet;
-@protocol MLCLayerCompiling;
+@class MLCOptimizer;
 
 @interface MLCTrainingGraph : MLCGraph
 {
     _Bool _allocateResultGradientTensors;
-    _Bool _allocateOptimizerData;
-    _Bool _updateOptimizerTimeStep;
-    MLCOptimizer *_optimizer;
-    NSMutableArray *_optimizerUpdateLayerList;
-    NSMutableArray *_optimizerParameterList;
-    NSMutableArray *_rootSourceGradientTensor;
-    NSMutableArray *_lossLayersInTrainingGraph;
-    NSMutableArray *_stopGradientTensorList;
-    MLCLayer<MLCLayerCompiling> *_lossLayer;
-    MLCLayer *_dummyLayer;
-    unsigned long long _firstTrainableLayerIndex;
-    NSSet *_optimizerUpdateDeviceList;
 }
 
 + (id);
@@ -42,13 +29,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id));
 - (id);
 - (id);
 - (id);
@@ -56,7 +43,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)%;
 - (id);
 - (id);
 - (void);
@@ -67,9 +54,9 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -80,7 +67,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -92,9 +79,9 @@
 - (void);
 - (_Bool);
 - (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)T;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -102,26 +89,13 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)7;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allocateOptimizerData; // @synthesize allocateOptimizerData=_allocateOptimizerData;
-@property(nonatomic) _Bool allocateResultGradientTensors; // @synthesize allocateResultGradientTensors=_allocateResultGradientTensors;
-@property(readonly, nonatomic) unsigned long long deviceMemorySize;
-@property(readonly, nonatomic) MLCLayer *dummyLayer; // @synthesize dummyLayer=_dummyLayer;
-@property(nonatomic) unsigned long long firstTrainableLayerIndex; // @synthesize firstTrainableLayerIndex=_firstTrainableLayerIndex;
-@property(retain, nonatomic) MLCLayer<MLCLayerCompiling> *lossLayer; // @synthesize lossLayer=_lossLayer;
-@property(retain, nonatomic) NSMutableArray *lossLayersInTrainingGraph; // @synthesize lossLayersInTrainingGraph=_lossLayersInTrainingGraph;
 @property(retain, nonatomic) MLCOptimizer *optimizer; // @synthesize optimizer=_optimizer;
-@property(retain, nonatomic) NSMutableArray *optimizerParameterList; // @synthesize optimizerParameterList=_optimizerParameterList;
-@property(retain, nonatomic) NSSet *optimizerUpdateDeviceList; // @synthesize optimizerUpdateDeviceList=_optimizerUpdateDeviceList;
-@property(retain, nonatomic) NSMutableArray *optimizerUpdateLayerList; // @synthesize optimizerUpdateLayerList=_optimizerUpdateLayerList;
-@property(retain, nonatomic) NSMutableArray *rootSourceGradientTensor; // @synthesize rootSourceGradientTensor=_rootSourceGradientTensor;
-@property(retain, nonatomic) NSMutableArray *stopGradientTensorList; // @synthesize stopGradientTensorList=_stopGradientTensorList;
-@property(nonatomic) _Bool updateOptimizerTimeStep; // @synthesize updateOptimizerTimeStep=_updateOptimizerTimeStep;
 
 @end
 

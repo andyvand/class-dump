@@ -14,9 +14,5 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSAttributedString *attributedText;
-@property(readonly, nonatomic) long long lineBreakMode;
-@property(readonly, nonatomic) unsigned long long numberOfLines;
-@property(readonly, nonatomic) UITraitCollection *traitCollection;
-@property(readonly, nonatomic) struct CGSize withinSize;
 @end
 

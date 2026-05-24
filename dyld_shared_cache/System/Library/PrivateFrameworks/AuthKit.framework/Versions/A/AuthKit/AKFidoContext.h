@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSData;
 
 @interface AKFidoContext
 {
     _Bool _useAlternativeKeysIcon;
-    NSData *_challenge;
-    NSString *_originalChallenge;
-    NSString *_relyingPartyIdentifier;
-    NSData *_userIdentifier;
-    NSString *_displayName;
-    NSString *_credentialName;
-    NSArray *_credentials;
-    NSString *_promptTitle;
-    NSString *_promptHeader;
-    NSString *_promptBody;
-    NSString *_incorrectKeyPresentedMessage;
 }
 
 + (_Bool);
@@ -30,7 +19,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)*;
 - (id);
 - (id);
 - (id);
@@ -45,23 +34,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)`;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *challenge; // @synthesize challenge=_challenge;
-@property(readonly, nonatomic) NSString *credentialName; // @synthesize credentialName=_credentialName;
-@property(readonly, nonatomic) NSArray *credentials; // @synthesize credentials=_credentials;
-@property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy, nonatomic) NSString *incorrectKeyPresentedMessage; // @synthesize incorrectKeyPresentedMessage=_incorrectKeyPresentedMessage;
-@property(readonly, nonatomic) NSString *originalChallenge; // @synthesize originalChallenge=_originalChallenge;
-@property(copy, nonatomic) NSString *promptBody; // @synthesize promptBody=_promptBody;
-@property(copy, nonatomic) NSString *promptHeader; // @synthesize promptHeader=_promptHeader;
-@property(copy, nonatomic) NSString *promptTitle; // @synthesize promptTitle=_promptTitle;
-@property(readonly, nonatomic) NSString *relyingPartyIdentifier; // @synthesize relyingPartyIdentifier=_relyingPartyIdentifier;
-@property(nonatomic) _Bool useAlternativeKeysIcon; // @synthesize useAlternativeKeysIcon=_useAlternativeKeysIcon;
-@property(readonly, nonatomic) NSData *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
 
 @end
 

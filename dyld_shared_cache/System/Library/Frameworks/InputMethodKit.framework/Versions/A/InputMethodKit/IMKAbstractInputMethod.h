@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, NSTimer;
-@protocol IMKCandidateEngine, IMKInputMethod, IMKKeyboard, IMKTextDocument;
+@protocol IMKKeyboard;
 
 @interface IMKAbstractInputMethod
 {
     id <IMKKeyboard> _attachedKeyboard;
-    id <IMKTextDocument> _attachedTextDocument;
-    id <IMKInputMethod> _verbatimInputMethod;
-    id <IMKInputMethod> _chainedInputMethod;
-    id <IMKInputMethod> _composingInputMethod;
-    id <IMKCandidateEngine> _candidateEngine;
-    NSMutableArray *_textDocumentStack;
-    CDUnknownBlockType _compositionCompletionHandler;
-    NSTimer *_candidateFireTimer;
-    double _candidateDelayTimeInterval;
 }
 
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id)qI;
 - (void);
 - (id);
 - (id);
@@ -47,22 +37,22 @@
 - (void);
 - (void);
 - (void);
+- (void)(;
 - (void);
-- (void);
 - (id);
+- (_Bool)9n;
 - (_Bool);
-- (_Bool);
-- (id);
 - (id);
 - (id);
+- (id)9(;
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)^;
+- (void);
 - (_Bool);
 - (CDUnknownBlockType);
 - (id);
@@ -74,8 +64,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (double);
+- (void);
+- (double)`;
 - (void);
 - (void);
 - (_Bool);
@@ -83,7 +73,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -92,34 +82,12 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)_receiverSframeCryptor;
 - (void);
 - (id)öåÔ;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak id <IMKKeyboard> attachedKeyboard; // @synthesize attachedKeyboard=_attachedKeyboard;
-@property(retain, nonatomic) id <IMKTextDocument> attachedTextDocument; // @synthesize attachedTextDocument=_attachedTextDocument;
-@property(nonatomic) double candidateDelayTimeInterval; // @synthesize candidateDelayTimeInterval=_candidateDelayTimeInterval;
-@property(retain, nonatomic) id <IMKCandidateEngine> candidateEngine; // @synthesize candidateEngine=_candidateEngine;
-@property(readonly, nonatomic) id <IMKInputMethod> chainedInputMethod; // @synthesize chainedInputMethod=_chainedInputMethod;
-@property(retain, nonatomic) id <IMKInputMethod> composingInputMethod; // @synthesize composingInputMethod=_composingInputMethod;
-@property(readonly, nonatomic) id <IMKTextDocument> composingText;
-@property(copy, nonatomic) CDUnknownBlockType compositionCompletionHandler; // @synthesize compositionCompletionHandler=_compositionCompletionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isComposingInputMethod;
-@property(readonly, nonatomic) NSString *selectedText;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSMutableArray *textDocumentMutableStack;
-@property(readonly, nonatomic) NSArray *textDocumentStack;
-@property(readonly, nonatomic) _Bool tracksVerbatim;
-@property(readonly, nonatomic) _Bool tracksVerbatimAsComposingText;
-@property(readonly, nonatomic) NSString *verbatim;
-@property(readonly, nonatomic) id <IMKInputMethod> verbatimInputMethod; // @synthesize verbatimInputMethod=_verbatimInputMethod;
 
 @end
 

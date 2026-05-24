@@ -6,17 +6,11 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class NSArray, NSMutableDictionary, NSString;
+@class NSArray;
 
 @interface CKDFetchRecordVersionsRequest : CKDURLRequest
 {
     _Bool _shouldFetchAssetContent;
-    _Bool _isDeleted;
-    CDUnknownBlockType _recordVersionsFetchedBlock;
-    NSArray *_recordIDs;
-    NSArray *_desiredKeys;
-    NSString *_minimumVersionETag;
-    NSMutableDictionary *_recordIDByRequestID;
 }
 
 - (void);
@@ -26,13 +20,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (_Bool);
+- (void)has succeeded;
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id)uthInformation;
+- (id)authInformation;
 - (void)dentity cache missed an invalidation, dsid of backing account has changed;
 - (void)ting for adopter to read bytes for %@;
 - (id)brary/BuildRoots/4~CNqwugBiCB7YYOj9K-g_YLQNIMyKIpsYw_srFtQ/Library/Caches/com.apple.xbs/TemporaryDirectory.ch2LMp/Sources/CloudKitTools/Sources/CloudKitDaemon/Caches/DeviceCapability/CKDDeviceCapabilityLastSentCapabilitiesAndUsageTable.m;
@@ -40,19 +34,13 @@
 - (id)cessfully decrypted record %@. Continuing with save of that record;
 - (id)PushEnvironment, the account could not auth with CloudKit.  Falling back to default iCloud Environment value;
 - (void)since suspended account %@ last renewal date %@. Can%@ renew credentials;
-- (void)essionValidator;
+- (void)CKDSessionValidator;
 - (void)ø®;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *desiredKeys; // @synthesize desiredKeys=_desiredKeys;
-@property(nonatomic) _Bool isDeleted; // @synthesize isDeleted=_isDeleted;
-@property(retain, nonatomic) NSString *minimumVersionETag; // @synthesize minimumVersionETag=_minimumVersionETag;
-@property(retain, nonatomic) NSMutableDictionary *recordIDByRequestID; // @synthesize recordIDByRequestID=_recordIDByRequestID;
 @property(retain, nonatomic) NSArray *recordIDs; // @synthesize recordIDs=_recordIDs;
-@property(copy, nonatomic) CDUnknownBlockType recordVersionsFetchedBlock; // @synthesize recordVersionsFetchedBlock=_recordVersionsFetchedBlock;
-@property(nonatomic) _Bool shouldFetchAssetContent; // @synthesize shouldFetchAssetContent=_shouldFetchAssetContent;
 
 @end
 

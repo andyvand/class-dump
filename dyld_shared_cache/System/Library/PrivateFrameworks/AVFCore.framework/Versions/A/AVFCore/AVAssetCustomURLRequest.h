@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURLSessionTaskMetrics;
-
 __attribute__((visibility("hidden")))
 @interface AVAssetCustomURLRequest
 {
     unsigned long long _requestID;
-    struct __CFDictionary *_customURLRequest;
-    struct __CFDictionary *_customURLResponse;
-    NSURLSessionTaskMetrics *_metrics;
 }
 
 + (id);
-- (void);
+- (void)S;
 - (void);
 - (id);
-- (struct __CFDictionary *);
+- (struct __CFDictionary *) ;
 - (struct __CFDictionary *);
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void)scheduleRepeatingWithFireInterval:(id)arg1 repeatInterval:leewayInterval:queue:handler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSURLSessionTaskMetrics *metrics; // @synthesize metrics=_metrics;
 @property(readonly, nonatomic) unsigned long long requestID; // @synthesize requestID=_requestID;
 
 @end

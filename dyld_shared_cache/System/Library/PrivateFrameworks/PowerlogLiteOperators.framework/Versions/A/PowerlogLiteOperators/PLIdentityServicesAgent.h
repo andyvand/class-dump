@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableDictionary, PLXPCListenerOperatorComposition;
+@class PLXPCListenerOperatorComposition;
 
 @interface PLIdentityServicesAgent
 {
     PLXPCListenerOperatorComposition *_localMessageHandler;
-    PLXPCListenerOperatorComposition *_networkStatsHandler;
-    PLXPCListenerOperatorComposition *_infraWiFiRequestHandler;
-    PLXPCListenerOperatorComposition *_localLinkTypeHandler;
-    PLXPCListenerOperatorComposition *_ipsecLinkTypeHandler;
-    PLXPCListenerOperatorComposition *_cloudMessagingHandler;
-    PLXPCListenerOperatorComposition *_idsLinkPreferenceRequestHandler;
-    PLXPCListenerOperatorComposition *_idsOutgoingPushSentListener;
-    PLXPCListenerOperatorComposition *_idsIncomingPushReceivedListener;
-    PLXPCListenerOperatorComposition *_idsSessionListener;
-    NSMutableDictionary *_previousStatsByPriority;
-    NSDate *_initialEntryDate;
-    NSDate *_lastLocalDeliveryLogDate;
-    NSMutableDictionary *_lastEntryDatePerCategory;
 }
 
 + (id);
@@ -33,7 +20,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -61,40 +48,27 @@
 - (void);
 - (void);
 - (void);
+- (void)E;
+- (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
+- (id)f) != nullptr;
+- (void);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)@;
 - (void);
 - (void)ParseBufferToCxt:raidFailedVerify(417) cannot add 1 element to context /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) PLXPCListenerOperatorComposition *cloudMessagingHandler; // @synthesize cloudMessagingHandler=_cloudMessagingHandler;
-@property(retain) PLXPCListenerOperatorComposition *idsIncomingPushReceivedListener; // @synthesize idsIncomingPushReceivedListener=_idsIncomingPushReceivedListener;
-@property(retain) PLXPCListenerOperatorComposition *idsLinkPreferenceRequestHandler; // @synthesize idsLinkPreferenceRequestHandler=_idsLinkPreferenceRequestHandler;
-@property(retain) PLXPCListenerOperatorComposition *idsOutgoingPushSentListener; // @synthesize idsOutgoingPushSentListener=_idsOutgoingPushSentListener;
-@property(retain) PLXPCListenerOperatorComposition *idsSessionListener; // @synthesize idsSessionListener=_idsSessionListener;
-@property(retain) PLXPCListenerOperatorComposition *infraWiFiRequestHandler; // @synthesize infraWiFiRequestHandler=_infraWiFiRequestHandler;
-@property(retain) NSDate *initialEntryDate; // @synthesize initialEntryDate=_initialEntryDate;
-@property(retain) PLXPCListenerOperatorComposition *ipsecLinkTypeHandler; // @synthesize ipsecLinkTypeHandler=_ipsecLinkTypeHandler;
-@property(retain) NSMutableDictionary *lastEntryDatePerCategory; // @synthesize lastEntryDatePerCategory=_lastEntryDatePerCategory;
-@property(retain) NSDate *lastLocalDeliveryLogDate; // @synthesize lastLocalDeliveryLogDate=_lastLocalDeliveryLogDate;
-@property(retain) PLXPCListenerOperatorComposition *localLinkTypeHandler; // @synthesize localLinkTypeHandler=_localLinkTypeHandler;
 @property(retain) PLXPCListenerOperatorComposition *localMessageHandler; // @synthesize localMessageHandler=_localMessageHandler;
-@property(retain) PLXPCListenerOperatorComposition *networkStatsHandler; // @synthesize networkStatsHandler=_networkStatsHandler;
-@property(retain) NSMutableDictionary *previousStatsByPriority; // @synthesize previousStatsByPriority=_previousStatsByPriority;
 
 @end
 

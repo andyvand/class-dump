@@ -7,8 +7,6 @@
 @interface CoreSuggestionsInternals.TextUnderstandingImporter
 {
     id $defaultActor;
-    id documentEntityBuffer;
-    id store;
 }
 
 @end

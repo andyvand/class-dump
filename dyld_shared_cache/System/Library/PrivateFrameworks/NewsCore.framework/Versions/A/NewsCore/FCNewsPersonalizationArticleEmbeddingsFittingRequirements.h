@@ -9,13 +9,11 @@
 @interface FCNewsPersonalizationArticleEmbeddingsFittingRequirements
 {
     NSNumber *_minimumNumberOfEmbeddings;
-    NSNumber *_maximumNumberOfEmbeddings;
-    NSNumber *_minimumDuration;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)";
 - (id);
 - (void);
 - (id);
@@ -26,8 +24,6 @@
 - (id)addObserver:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *maximumNumberOfEmbeddings; // @synthesize maximumNumberOfEmbeddings=_maximumNumberOfEmbeddings;
-@property(retain, nonatomic) NSNumber *minimumDuration; // @synthesize minimumDuration=_minimumDuration;
 @property(retain, nonatomic) NSNumber *minimumNumberOfEmbeddings; // @synthesize minimumNumberOfEmbeddings=_minimumNumberOfEmbeddings;
 
 @end

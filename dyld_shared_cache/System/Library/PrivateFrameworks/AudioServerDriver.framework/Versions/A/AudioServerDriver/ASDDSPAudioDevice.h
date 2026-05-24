@@ -6,14 +6,11 @@
 
 #import <AudioServerDriver/ASDAudioDevice.h>
 
-@class ASDAudioDeviceDSPConfiguration, ASDAudioDeviceDSPDatabase, NSString;
+@class ASDAudioDeviceDSPConfiguration, NSString;
 
 @interface ASDDSPAudioDevice : ASDAudioDevice
 {
     NSString *_resourcePath;
-    ASDAudioDevice *_underlyingDevice;
-    ASDAudioDeviceDSPConfiguration *_currentDSPConfiguration;
-    ASDAudioDeviceDSPDatabase *_dspDatabase;
 }
 
 + (id);
@@ -25,55 +22,55 @@
 - (void);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int)=;
 - (unsigned int);
 - (int);
-- (id);
+- (id)9�;
 - (void);
 - (id);
 - (id);
 - (CDUnknownBlockType);
+- (_Bool)alue type:(double)arg1 "%s";
+- (unsigned int)!;
+- (void);
+- (_Bool)`;
+- (double)qhZ;
+- (void);
+- (unsigned int)h;
 - (_Bool);
-- (unsigned int);
+- (_Bool);
+- (CDUnknownBlockType);
+- (_Bool);
+- (id);
+- (id);
+- (void)];
+- (_Bool);
 - (void);
 - (_Bool);
+- (unsigned int);
+- (void);
+- (CDUnknownBlockType)tmap]:Requesting network bitmaps from symptoms with start time:%llu, end time:%llu. /* Error: Ran out of types for this method. */;
+- (int)ts;
+- (_Bool);
+- (unsigned int);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (unsigned int);
+- (unsigned int);
+- (int)al state;
+- (id);
+- (void);
+- (id);
+- (unsigned int);
 - (double);
 - (void);
-- (unsigned int);
-- (_Bool);
-- (_Bool);
-- (CDUnknownBlockType);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (unsigned int);
-- (void);
-- (CDUnknownBlockType);
-- (int);
-- (_Bool);
-- (unsigned int);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (unsigned int);
-- (unsigned int);
-- (int);
-- (id);
-- (void);
-- (id);
-- (unsigned int);
-- (double);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)N,V_ariadneSignposts;
+- (void)aks_kc_backup_wrap_key;
+- (id)ect getIdentitiesDatabaseHashForUser:client:replyBlock:] /* Error: Ran out of types for this method. */;
+- (id),3;
 - (void);
 - (unsigned int);
 - (void);
@@ -86,15 +83,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) ASDAudioDeviceDSPConfiguration *currentDSPConfiguration; // @synthesize currentDSPConfiguration=_currentDSPConfiguration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) ASDAudioDeviceDSPDatabase *dspDatabase; // @synthesize dspDatabase=_dspDatabase;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) ASDAudioDevice *underlyingDevice; // @synthesize underlyingDevice=_underlyingDevice;
 
 @end
 

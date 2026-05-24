@@ -7,10 +7,6 @@
 @interface CUIVectorGlyphEncapsulation
 {
     id shape;
-    id rect;
-    id canvasSize;
-    id representativePointSize;
-    id _samples;
 }
 
 + (id);

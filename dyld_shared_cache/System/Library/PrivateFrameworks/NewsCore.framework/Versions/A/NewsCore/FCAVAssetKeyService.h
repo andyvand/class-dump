@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFLazy, NFPromise;
+@class NFLazy;
 
 @interface FCAVAssetKeyService
 {
     NFLazy *_session;
-    NFLazy *_requestEncoder;
-    NFPromise *_fairPlayBaseURLPromise;
 }
 
 - (void);
 - (void);
 - (id);
-- (void)ndleFeedGroupKind;
+- (void)bestOfBundleFeedGroupKind;
 
 @end
 

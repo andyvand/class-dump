@@ -9,7 +9,6 @@
 @interface STYPendingDiagnostic
 {
     NSURL *_diagnosticUploadRequestFile;
-    unsigned long long _taskIdentifier;
 }
 
 - (id);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(readonly) NSURL *diagnosticUploadRequestFile; // @synthesize diagnosticUploadRequestFile=_diagnosticUploadRequestFile;
-@property(nonatomic) unsigned long long taskIdentifier; // @synthesize taskIdentifier=_taskIdentifier;
 
 @end
 

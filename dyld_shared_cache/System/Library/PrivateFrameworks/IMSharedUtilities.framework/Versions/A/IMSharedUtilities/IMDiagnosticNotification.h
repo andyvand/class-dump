@@ -9,9 +9,6 @@
 @interface IMDiagnosticNotification
 {
     _Bool _timeSensitive;
-    NSString *_title;
-    NSString *_body;
-    NSString *_identifier;
 }
 
 - (_Bool);
@@ -19,19 +16,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)stsSessionDidEndUnexpectedly:errorCode: /* Error: Ran out of types for this method. */;
+- (id)PKForceURLSessionRemoteAssetDownloadTaskFailureKey;
 - (void);
 - (void);
-- (id);
+- (id)(x;
 - (id);
 - (void)î9OG;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *body; // @synthesize body=_body;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool timeSensitive; // @synthesize timeSensitive=_timeSensitive;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

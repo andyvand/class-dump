@@ -7,13 +7,10 @@
 @interface AccountsDaemon.ACDAnalyticsSender
 {
     id $defaultActor;
-    id monthlyDefaultsKey;
-    id analyticsInterval;
-    id accountTypesToCount;
 }
 
 + (id);
-- (void);
+- (void)(;
 - (id);
 
 @end

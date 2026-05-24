@@ -4,42 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface _INVocabularyGenerationDocument
 {
     NSMutableDictionary *_itemsBySiriIDCache;
-    NSMutableDictionary *_itemsByStringCache;
-    _Bool _resetOnNextSync;
-    _Bool _haveAssignedAllSiriIDs;
-    NSString *_appBundleID;
-    NSString *_intentSlot;
-    NSString *_validity;
-    NSString *_thisGeneration;
-    NSArray *_vocabularyItems;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)	;
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)P;
 - (void);
 - (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (void);
 - (void);
 - (id);
-- (void);
+- (_Bool)s:failed reading bitmap file, pread returned %lld (expected %lld) /* Error: Ran out of types for this method. */;
 - (id);
+- (id);
+- (id)qH;
+- (id)stringByAppendingFormat:(SEL)arg1;
+- (void)rbysync] Rapport device lost (%{public}@);
+- (id);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -53,13 +45,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appBundleID; // @synthesize appBundleID=_appBundleID;
 @property(nonatomic) _Bool haveAssignedAllSiriIDs; // @synthesize haveAssignedAllSiriIDs=_haveAssignedAllSiriIDs;
-@property(copy, nonatomic) NSString *intentSlot; // @synthesize intentSlot=_intentSlot;
-@property(nonatomic) _Bool resetOnNextSync; // @synthesize resetOnNextSync=_resetOnNextSync;
-@property(copy, nonatomic) NSString *thisGeneration; // @synthesize thisGeneration=_thisGeneration;
-@property(copy, nonatomic) NSString *validity; // @synthesize validity=_validity;
-@property(copy, nonatomic) NSArray *vocabularyItems; // @synthesize vocabularyItems=_vocabularyItems;
 
 @end
 

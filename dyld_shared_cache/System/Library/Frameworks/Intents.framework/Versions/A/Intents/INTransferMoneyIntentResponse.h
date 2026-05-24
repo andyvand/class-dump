@@ -6,19 +6,17 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INCurrencyAmount, INDateComponentsRange, INPaymentAccount, INPaymentAmount, NSString;
-
 @interface INTransferMoneyIntentResponse : INIntentResponse
 {
 }
 
 + (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)setNSImageThumbnail:(long long)arg1;
++ (long long)setCompletionHandler:(int)arg1;
++ (_Bool)saveBestRepresentationForRequest:(long long)arg1 toFileAtURL:withContentType:completionHandler: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (id);
 - (void);
@@ -29,34 +27,22 @@
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (void);
 - (void);
 - (id);
+- (id)view:(id)arg1 makeReferenceToView: /* Error: Ran out of types for this method. */;
+- (id)RAM:AppSSO  PROJECT:AppSSO-483.120.4
+ /* Error: Ran out of types for this method. */;
+- (void)k=(%{public}@));
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (long long)Actions:count: /* Error: Ran out of types for this method. */;
+- (id)7;
+- (long long)setPayloadSettingActions:count: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) INPaymentAccount *fromAccount;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy) INPaymentAccount *toAccount;
-@property(copy) INPaymentAmount *transactionAmount;
-@property(copy) NSString *transactionNote;
-@property(copy) INDateComponentsRange *transactionScheduledDate;
-@property(copy) INCurrencyAmount *transferFee;
 
 @end
 

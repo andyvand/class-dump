@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface SCSchemaSCCheckCorrectionResult : SISchemaInstrumentationMessage
 {
     NSString *_correctedAttribute;
-    int _correctionType;
-    NSArray *_referredEntities;
-    NSArray *_incomingEntities;
-    CDStruct_be50a511 _has;
-    _Bool _hasCorrectedAttribute;
 }
 
 - (void);
@@ -40,27 +35,21 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)setEnableFindMyMacStatusTextField: /* Error: Ran out of types for this method. */;
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ker]:Connection failed:No mach service name provided /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)sage_join.message_id = OLD.message_id LIMIT 1); END;
 - (id);
 - (id);
-- (id)eTimeIntervalMatrix;
+- (id)clearCandidateTimeIntervalMatrix;
 - (id)ateApps;
-- (void)ormalized;
+- (void)isQueryNormalized;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *correctedAttribute; // @synthesize correctedAttribute=_correctedAttribute;
-@property(nonatomic) int correctionType; // @synthesize correctionType=_correctionType;
-@property(nonatomic) _Bool hasCorrectedAttribute; // @synthesize hasCorrectedAttribute=_hasCorrectedAttribute;
-@property(nonatomic) _Bool hasCorrectionType;
-@property(copy, nonatomic) NSArray *incomingEntities; // @synthesize incomingEntities=_incomingEntities;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *referredEntities; // @synthesize referredEntities=_referredEntities;
 
 @end
 

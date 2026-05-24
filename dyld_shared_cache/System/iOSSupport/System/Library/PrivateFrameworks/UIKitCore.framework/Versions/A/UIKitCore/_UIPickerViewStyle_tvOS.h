@@ -10,16 +10,16 @@
 {
 }
 
-- (_Bool);
+- (_Bool)unassignIdentifier:fromChatRecordWithGUID:forDomain:completionHandler: /* Error: Ran out of types for this method. */;
 - (double);
 - (double);
-- (double);
+- (double)nRequestIsPending"b1"collaboratorStatus"b1"storeRedownloadable"b1"isPinned"b1"hasAnyCleanTracks"b1"hasAnyCleanDownloadedTracks"b1"isLibraryAdded"b1"curator"{?="identifiers"b1"name"b1"handle"b1}};
 - (double)1Â0@ù
 × ;
 - (void)á	Ð!;
-- (id)sExpansionTextWhenTruncated: /* Error: Ran out of types for this method. */;
+- (id)setShowsExpansionTextWhenTruncated: /* Error: Ran out of types for this method. */;
 - (double)_setHostParentFullHeightUntransformedFrameForDepthLevel: /* Error: Ran out of types for this method. */;
-- (struct CGSize)ew;
+- (struct CGSize)__transformOfPresentedViewInContainerView;
 - (double)not be nil when creating the update map;
 
 @end

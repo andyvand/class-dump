@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSDictionary, NSString;
+@class CNContact;
 
 @interface SSContact
 {
     CNContact *_contact;
-    NSString *_matchingString;
-    NSDictionary *_idsIDsToIdentifiers;
 }
 
 + (id);
@@ -22,15 +20,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)!;
+- (id)_identifiersOfEligibleItems;
 - (void);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(copy) NSDictionary *idsIDsToIdentifiers; // @synthesize idsIDsToIdentifiers=_idsIDsToIdentifiers;
-@property(copy, nonatomic) NSString *matchingString; // @synthesize matchingString=_matchingString;
 
 @end
 

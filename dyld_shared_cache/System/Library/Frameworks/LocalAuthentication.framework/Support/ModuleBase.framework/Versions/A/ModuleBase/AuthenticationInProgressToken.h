@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface AuthenticationInProgressToken
 {
     int _pid;
-    long long _priority;
-    NSDate *_date;
 }
 
 - (id);
-- (id);
+- (id)!;
 - (void);
 - (int);
 - (id);
-- (void);
+- (void);
 - (long long);
 
 // Remaining properties
-@property(readonly) NSDate *date; // @synthesize date=_date;
-@property(readonly) int pid; // @synthesize pid=_pid;
 @property(readonly) long long priority; // @synthesize priority=_priority;
 
 @end

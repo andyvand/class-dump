@@ -11,27 +11,25 @@
 @interface AXMSceneDetectorNode : AXMEvaluationNode
 {
     unsigned int _taxonomyOptions;
-    VNSceneClassificationRequest *__sceneClassificationRequest;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)setTemplateActions: /* Error: Ran out of types for this method. */;
 + (id);
 + (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (unsigned int);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setSceneClassificationRequest:) VNSceneClassificationRequest *_sceneClassificationRequest; // @synthesize _sceneClassificationRequest=__sceneClassificationRequest;
-@property(nonatomic) unsigned int taxonomyOptions; // @synthesize taxonomyOptions=_taxonomyOptions;
 
 @end
 

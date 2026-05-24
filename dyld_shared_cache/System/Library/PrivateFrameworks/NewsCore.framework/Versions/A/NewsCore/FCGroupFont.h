@@ -9,18 +9,16 @@
 @interface FCGroupFont
 {
     NSString *_name;
-    NSString *_urlString;
 }
 
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)";
+- (void)videoCallToActionTitle;
 - (id)rk:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSString *urlString; // @synthesize urlString=_urlString;
 
 @end
 

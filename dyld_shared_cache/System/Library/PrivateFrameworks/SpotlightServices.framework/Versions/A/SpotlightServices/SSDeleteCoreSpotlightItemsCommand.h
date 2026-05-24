@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, SFCommandReference, SFTopic;
+@class NSArray;
 
 @interface SSDeleteCoreSpotlightItemsCommand
 {
     NSArray *_domainIdentifiers;
-    NSArray *_itemIdentifiers;
-    NSArray *_filesToDelete;
 }
 
 + (_Bool);
@@ -22,28 +20,13 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (void)xArraysCounts:arrayOfIndexArraysCount:queryTermCount:kTermCount: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)/);
+- (void)doesOrderedSpanExistWithArrayOfIndexArrays:arrayOfIndexArraysCounts:arrayOfIndexArraysCount:queryTermCount:kTermCount: /* Error: Ran out of types for this method. */;
 - (id)&,N,V_directivesManager;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *backendData;
-@property(copy, nonatomic) NSString *commandDetail;
-@property(retain, nonatomic) SFCommandReference *commandReference;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(copy, nonatomic) NSArray *domainIdentifiers; // @synthesize domainIdentifiers=_domainIdentifiers;
-@property(copy, nonatomic) NSArray *filesToDelete; // @synthesize filesToDelete=_filesToDelete;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *itemIdentifiers; // @synthesize itemIdentifiers=_itemIdentifiers;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFTopic *normalizedTopic;
-@property(readonly) Class superclass;
 
 @end
 

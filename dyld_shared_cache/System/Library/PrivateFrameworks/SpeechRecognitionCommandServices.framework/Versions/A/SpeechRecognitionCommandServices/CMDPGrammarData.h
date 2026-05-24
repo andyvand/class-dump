@@ -9,8 +9,6 @@
 @interface CMDPGrammarData
 {
     NSString *_commandIdentifier;
-    NSString *_builtInLMIdentifier;
-    NSString *_word;
 }
 
 - (id);
@@ -20,9 +18,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *builtInLMIdentifier; // @synthesize builtInLMIdentifier=_builtInLMIdentifier;
 @property(readonly) NSString *commandIdentifier; // @synthesize commandIdentifier=_commandIdentifier;
-@property(readonly) NSString *word; // @synthesize word=_word;
 
 @end
 

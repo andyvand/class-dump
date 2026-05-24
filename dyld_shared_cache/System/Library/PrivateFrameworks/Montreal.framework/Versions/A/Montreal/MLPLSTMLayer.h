@@ -6,29 +6,9 @@
 
 #import <Montreal/MLPLayer.h>
 
-@class MPSLSTMDescriptor, MPSRNNMatrixTrainingLayer, NSArray, NSMutableArray, NSString;
-
 @interface MLPLSTMLayer : MLPLayer
 {
     int _inputGateActivation;
-    int _forgetGateActivation;
-    int _cellGateActivation;
-    int _outputGateActivation;
-    int _cellToOutputActivation;
-    unsigned long long _inputSize;
-    unsigned long long _outputSize;
-    MPSLSTMDescriptor *_lstmDesc;
-    MPSRNNMatrixTrainingLayer *_filter;
-    NSMutableArray *_optimizers;
-    NSMutableArray *_weights;
-    NSMutableArray *_weightGradients;
-    NSMutableArray *_trainingStates;
-    float *_initialWeights_0;
-    float *_initialWeights_1;
-    float *_initialBias_0;
-    float *_initialBias_1;
-    unsigned long long _weightAttributes;
-    NSArray *_srcMatrices;
 }
 
 - (unsigned long long);
@@ -38,6 +18,7 @@
 - (void);
 - (void);
 - (void);
+- (void)@9E;
 - (void);
 - (void);
 - (void);
@@ -49,8 +30,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -87,33 +67,7 @@
 - (void);
 
 // Remaining properties
-@property int cellGateActivation; // @synthesize cellGateActivation=_cellGateActivation;
-@property int cellToOutputActivation; // @synthesize cellToOutputActivation=_cellToOutputActivation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) MPSRNNMatrixTrainingLayer *filter; // @synthesize filter=_filter;
-@property int forgetGateActivation; // @synthesize forgetGateActivation=_forgetGateActivation;
-@property(readonly) unsigned long long hash;
-@property float *initialBias_0; // @synthesize initialBias_0=_initialBias_0;
-@property float *initialBias_1; // @synthesize initialBias_1=_initialBias_1;
-@property float *initialWeights_0; // @synthesize initialWeights_0=_initialWeights_0;
-@property float *initialWeights_1; // @synthesize initialWeights_1=_initialWeights_1;
-@property int inputGateActivation; // @synthesize inputGateActivation=_inputGateActivation;
 @property unsigned long long inputSize; // @synthesize inputSize=_inputSize;
-@property(retain) MPSLSTMDescriptor *lstmDesc; // @synthesize lstmDesc=_lstmDesc;
-@property(readonly) NSArray *mlpOptimizers;
-@property(retain) NSMutableArray *optimizers; // @synthesize optimizers=_optimizers;
-@property int outputGateActivation; // @synthesize outputGateActivation=_outputGateActivation;
-@property unsigned long long outputSize; // @synthesize outputSize=_outputSize;
-@property(retain) NSArray *srcMatrices; // @synthesize srcMatrices=_srcMatrices;
-@property(readonly) Class superclass;
-@property(retain) NSMutableArray *trainingStates; // @synthesize trainingStates=_trainingStates;
-@property unsigned long long weightAttributes; // @synthesize weightAttributes=_weightAttributes;
-@property(retain) NSMutableArray *weightGradients; // @synthesize weightGradients=_weightGradients;
-@property(retain) NSMutableArray *weights; // @synthesize weights=_weights;
 
 @end
 

@@ -4,6 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSOutlineView;
+@protocol NSDraggingInfo, NSPasteboardWriting;
+
 @protocol NSOutlineViewDataSource
+
+@optional
+- (unsigned long long);
+- (void)was NULL;
+- (id)Config3SetManifest(struct __SysConfig3 *__single, struct __SysConfig3ManifestEntry *__single);
+- (id <NSPasteboardWriting>)) or manifest (0x%p) argument was null;
+- (id)ct __SysConfig3MetadataEntry *__single);
+- (long long)etadataEntry(struct __SysConfig3 *__single, struct __SysConfig3MetadataEntry *__single);
+- (NSArray *)sConfig3 *__single, struct __SysConfig3PayloadEntry *__single);
+- (id)lid argument. sysconfig and etnry cannot be NULL;
+- (_Bool)char *__single __terminated_by(0));
+- (void)gle, uint32_t);
+- (void)l _sysConfig3DeletePayloadEntryForKey(struct __SysConfig3 *__single, uint32_t);
+- (id)ingleallocSysConfig3Manifest(SysConfig3Version, const SysConfigData *__single, const SysConfigData *__single, const SysConfigData *__single);
+- (_Bool)yload ptr:(NSOutlineView *)arg1 %p metdata ptr:(id <NSDraggingInfo>)arg2 %p full ptr:(id)arg3 %p;
 @end
 

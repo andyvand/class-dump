@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool)E_ACTION_TITLE;
+- (_Bool)ADD_AS_DOWNTIME_ACTION_TITLE;
 
 @end
 

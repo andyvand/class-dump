@@ -4,37 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableString, NSString, UIPDFAnnotation;
+@class NSMutableString, UIPDFAnnotation;
 
 __attribute__((visibility("hidden")))
 @interface UIPDFAnnotationParserDelegate
 {
     NSMutableString *_characters;
-    _Bool _parseError;
-    UIPDFAnnotation *_annotation;
 }
 
-- (_Bool);
+- (_Bool)clearLocalCloudKitSyncState;
 - (void);
 - (void);
-- (void);
+- (void)_payloadADRestrictDDNS;
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)routeName;
+- (void)nalizedContentDescriptors;
 - (id);
 - (void);X;	<;
 
 // Remaining properties
 @property(retain, nonatomic) UIPDFAnnotation *annotation; // @synthesize annotation=_annotation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool parseError; // @synthesize parseError=_parseError;
-@property(readonly) Class superclass;
 
 @end
 

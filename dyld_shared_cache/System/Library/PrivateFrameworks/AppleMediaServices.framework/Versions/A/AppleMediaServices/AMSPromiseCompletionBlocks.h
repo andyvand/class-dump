@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface AMSPromiseCompletionBlocks
 {
     struct os_unfair_lock_s _completionBlockLock;
-    NSMutableArray *_completionBlocks;
-    _Bool _shouldCallImmediately;
 }
 
 - (void);

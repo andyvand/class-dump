@@ -4,31 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSHashTable, NSString, NUChannel, NUChannelData, NUChannelExpression, NUChannelFormat, _NUPipeline;
-@protocol NUChannelOutputPort;
+@class NSHashTable, _NUPipeline;
 
 @interface _NUChannelPort
 {
     NSHashTable *_outputPorts;
-    NSHashTable *_subports;
-    NSString *_fullName;
-    NUChannel *_channel;
-    _NUChannelPort *_inputPort;
-    _NUPipeline *_pipeline;
-    _NUChannelPort *_superport;
-    NUChannelData *_data;
-    NUChannelExpression *_expression;
-    NUChannelFormat *_specializedInputFormat;
-    NUChannelFormat *_specializedOutputFormat;
 }
 
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -49,7 +38,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -59,11 +48,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)bjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)}@] Queried record %@ that decoded into non-internal model:(id)arg1 %@;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -79,43 +68,10 @@
 - (id);
 - (void)!ìDùñá°1Â0@ù
 × ;
-- (void)e;
+- (void)IOPlatformExpertDevice;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *address;
-@property(readonly, nonatomic) NUChannel *channel; // @synthesize channel=_channel;
-@property(readonly, nonatomic) NSString *compactDescription;
-@property(readonly, copy, nonatomic) NSArray *connectedInputPorts;
-@property(readonly, nonatomic) id <NUChannelOutputPort> connectedOutputPort;
-@property(retain, nonatomic) NUChannelData *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NUChannelFormat *effectiveFormat;
-@property(readonly, nonatomic) _NUChannelPort *elementSubport;
-@property(retain, nonatomic) NUChannelExpression *expression; // @synthesize expression=_expression;
-@property(readonly, nonatomic) NSString *fullName;
-@property(readonly, nonatomic) _Bool hasConnectedSubport;
-@property(readonly, nonatomic) _Bool hasConnectedSuperport;
-@property(readonly, nonatomic) _Bool hasConnections;
-@property(readonly, nonatomic) _Bool hasData;
-@property(readonly, nonatomic) _Bool hasExpression;
-@property(readonly, nonatomic) _Bool hasSubConnections;
-@property(readonly, nonatomic) _Bool hasSuperConnections;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long inputConnectionCount;
-@property(readonly, nonatomic) _NUChannelPort *inputPort; // @synthesize inputPort=_inputPort;
-@property(readonly, nonatomic) _Bool isConnected;
-@property(readonly, nonatomic) unsigned long long outputConnectionCount;
 @property(nonatomic) _NUPipeline *pipeline; // @synthesize pipeline=_pipeline;
-@property(readonly, nonatomic) _NUChannelPort *rootPort;
-@property(retain, nonatomic) NUChannelFormat *specializedInputFormat; // @synthesize specializedInputFormat=_specializedInputFormat;
-@property(retain, nonatomic) NUChannelFormat *specializedOutputFormat; // @synthesize specializedOutputFormat=_specializedOutputFormat;
-@property(readonly, nonatomic) NSArray *subports;
-@property(readonly) Class superclass;
-@property(nonatomic) _NUChannelPort *superport; // @synthesize superport=_superport;
 
 @end
 

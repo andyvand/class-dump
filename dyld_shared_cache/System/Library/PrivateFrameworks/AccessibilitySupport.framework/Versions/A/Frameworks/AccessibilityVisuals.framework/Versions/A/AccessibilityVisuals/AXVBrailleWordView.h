@@ -6,18 +6,12 @@
 
 #import <AccessibilityVisuals/AXVView.h>
 
-@class AXVBrailleTextView, AXVBrailleWord, AXVTextView, NSString, NSTimer;
+@class AXVBrailleTextView;
 
 __attribute__((visibility("hidden")))
 @interface AXVBrailleWordView : AXVView
 {
     _Bool __currentlyBlinking;
-    AXVBrailleWord *_brailleWord;
-    AXVBrailleTextView *__brailleTextView;
-    AXVBrailleTextView *__unraisedBrailleTextView;
-    AXVTextView *__transliterationTextView;
-    NSTimer *__brailleCursorBlinkTimer;
-    NSString *__maskedBrailleString;
 }
 
 - (id);
@@ -25,13 +19,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -43,7 +37,7 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (_Bool);
 - (id);
-- (id);
+- (id)@qa;
 - (id);
 - (id);
 - (id);
@@ -51,20 +45,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)B;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setBrailleCursorBlinkTimer:) NSTimer *_brailleCursorBlinkTimer; // @synthesize _brailleCursorBlinkTimer=__brailleCursorBlinkTimer;
 @property(retain, nonatomic, setter=_setBrailleTextView:) AXVBrailleTextView *_brailleTextView; // @synthesize _brailleTextView=__brailleTextView;
-@property(nonatomic, setter=_setCurrentlyBlinking:) _Bool _currentlyBlinking; // @synthesize _currentlyBlinking=__currentlyBlinking;
-@property(copy, nonatomic, setter=_setMaskedBrailleString:) NSString *_maskedBrailleString; // @synthesize _maskedBrailleString=__maskedBrailleString;
-@property(retain, nonatomic, setter=_setTransliterationTextView:) AXVTextView *_transliterationTextView; // @synthesize _transliterationTextView=__transliterationTextView;
-@property(retain, nonatomic, setter=_setUnraisedBrailleTextView:) AXVBrailleTextView *_unraisedBrailleTextView; // @synthesize _unraisedBrailleTextView=__unraisedBrailleTextView;
-@property(copy, nonatomic) AXVBrailleWord *brailleWord; // @synthesize brailleWord=_brailleWord;
 
 @end
 

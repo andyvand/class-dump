@@ -6,35 +6,23 @@
 
 #import <PhotosGraph/PGGraphNodeCollection.h>
 
-@class NSSet, NSString, PGGraphBusinessNodeCollection, PGGraphFeatureNodeCollection, PGGraphMomentNodeCollection, PGGraphPerformerNodeCollection, PGGraphPublicEventCategoryNodeCollection;
+@class PGGraphMomentNodeCollection;
 
 @interface PGGraphPublicEventNodeCollection : PGGraphNodeCollection
 {
 }
 
-+ (id);
++ (id)AXKNotImplementedException;
 + (Class);
-- (id);
-- (id);
-- (id);
+- (id)setSelectedChildControllers: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)gkT;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) PGGraphBusinessNodeCollection *businessNodes;
-@property(readonly, nonatomic) PGGraphPublicEventCategoryNodeCollection *categoryNodes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSSet *eventNames;
-@property(readonly, nonatomic) PGGraphFeatureNodeCollection *featureNodeCollection;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) PGGraphMomentNodeCollection *momentNodes;
-@property(readonly, nonatomic) PGGraphPerformerNodeCollection *performerNodes;
-@property(readonly) Class superclass;
 
 @end
 

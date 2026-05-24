@@ -4,27 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSViewController;
-@protocol LSOpenWithMenuDelegate;
+@class NSArray;
 
 @interface LSOpenWithMenuConstructor
 {
     struct Options _options;
-    unsigned int _rolesMask;
-    NSArray *_URLs;
-    NSArray *_contentTypes;
-    NSViewController *_otherPanelAccessoryViewController;
-    id <LSOpenWithMenuDelegate> _delegate;
-    CDUnknownBlockType _selectionHandler;
 }
 
 + (void)but the target checked in before we could get into the list of waiters, so assume everything is ok.;
 - (_Bool);
 - (_Bool);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)Z;
 - (void);
 - (void);
 - (void);
@@ -35,7 +28,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
@@ -53,17 +46,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *URLs; // @synthesize URLs=_URLs;
-@property(nonatomic) _Bool allowMenuWithNoApplications;
-@property(copy, nonatomic) NSArray *contentTypes; // @synthesize contentTypes=_contentTypes;
-@property(nonatomic) __weak id <LSOpenWithMenuDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSViewController *otherPanelAccessoryViewController; // @synthesize otherPanelAccessoryViewController=_otherPanelAccessoryViewController;
-@property(nonatomic, getter=isOtherPanelAlwaysModal) _Bool otherPanelAlwaysModal;
-@property(nonatomic) unsigned int rolesMask; // @synthesize rolesMask=_rolesMask;
-@property(copy, nonatomic) CDUnknownBlockType selectionHandler; // @synthesize selectionHandler=_selectionHandler;
-@property(nonatomic) _Bool showAppStoreMenuItem;
-@property(nonatomic) _Bool showOtherMenuItem;
-@property(nonatomic, getter=isStronglyBoundApplicationIncluded) _Bool stronglyBoundApplicationIncluded;
-@property(nonatomic, getter=areUniversalLinksIncluded) _Bool universalLinksIncluded;
 
 @end
 

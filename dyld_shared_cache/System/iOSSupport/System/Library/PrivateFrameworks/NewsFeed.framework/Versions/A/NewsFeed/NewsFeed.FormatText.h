@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatText
 {
     id string;
-    id link;
 }
 
 @end

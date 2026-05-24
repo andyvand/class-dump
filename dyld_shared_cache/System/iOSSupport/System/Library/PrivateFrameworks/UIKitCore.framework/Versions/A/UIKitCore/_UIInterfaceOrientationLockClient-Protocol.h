@@ -5,6 +5,7 @@
 //
 
 @protocol _UIInterfaceOrientationLockClient
+- (long long);
 
 // Remaining properties
 @property(nonatomic) long long interfaceOrientationLockPreference;

@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void);
+- (void)_CHSOfsForVectorOfWidgetRelevancePropertiesBufProtocol;
 - (void);
 - (id);
 

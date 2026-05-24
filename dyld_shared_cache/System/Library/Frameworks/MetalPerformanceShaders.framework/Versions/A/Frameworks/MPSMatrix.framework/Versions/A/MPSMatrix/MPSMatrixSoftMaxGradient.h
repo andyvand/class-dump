@@ -9,12 +9,11 @@
 @interface MPSMatrixSoftMaxGradient : MPSMatrixBinaryKernel
 {
     unsigned long long _sourceColumns;
-    unsigned long long _sourceRows;
 }
 
 + (const struct MPSLibraryInfo *);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)!;
 - (void);
 - (void);
 - (void);
@@ -24,7 +23,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long sourceColumns; // @synthesize sourceColumns=_sourceColumns;
 @property(nonatomic) unsigned long long sourceRows; // @synthesize sourceRows=_sourceRows;
 
 @end

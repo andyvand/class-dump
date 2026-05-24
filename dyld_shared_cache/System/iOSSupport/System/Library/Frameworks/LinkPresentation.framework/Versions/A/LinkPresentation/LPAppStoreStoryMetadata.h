@@ -13,31 +13,25 @@
     NSString *_subtitle;
 }
 
-+ (id);
++ (id)snapshotView;
 + (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (unsigned long long);
+- (id)stickerTranscriptScrollDisplayLink;
+- (id)stickerTranscriptScrollDelta;
+- (id)stickerSizeScaledWithInitialSize:(id)arg1 imageScale:userScale:rectifiedScreenScale:maxWidth: /* Error: Ran out of types for this method. */;
+- (_Bool)sizeAttributeForController:(id)arg1 sizingAttribute: /* Error: Ran out of types for this method. */;
+- (id)acceptsFirstMouse:(id)arg1;
+- (unsigned long long)DV
+;
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)!;
 - (id);
 - (void)ø°!Bù°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
 
 @end
 

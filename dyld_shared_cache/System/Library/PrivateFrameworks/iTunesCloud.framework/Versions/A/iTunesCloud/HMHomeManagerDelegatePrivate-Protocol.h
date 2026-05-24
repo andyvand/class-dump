@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMHomeManager;
+
 @protocol HMHomeManagerDelegatePrivate
+
+@optional
+- (void);
+- (void)translateXBy:(HMHomeManager *)arg1 yBy: /* Error: Ran out of types for this method. */;
 @end
 

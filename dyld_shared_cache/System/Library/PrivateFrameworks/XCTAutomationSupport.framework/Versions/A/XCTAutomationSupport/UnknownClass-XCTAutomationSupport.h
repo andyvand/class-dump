@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface UnknownClass (XCTAutomationSupport)
 - (id);
 - (_Bool);
@@ -14,8 +12,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSSet *_xct_allExpressions;
-@property(readonly) _Bool _xct_containsBlockOrFunctionPredicatesOrExpressions;
 @property(readonly) _Bool _xct_supportsSecureCoding;
 @end
 

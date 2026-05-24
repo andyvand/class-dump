@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface PXMetadataUtilitiesCameraDevice
 {
     NSString *_displayName;
-    NSNumber *_focalLength;
-    NSNumber *_focalLengthIn35mm;
 }
 
 + (id);
-+ (id);
++ (id)C;
 + (id);
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)launchedTaskWithLaunchPath:arguments: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id)ssingView;
+- (id)FooterProcessingView;
 - (id)verride.plist;
 - (void)ô2úþ µð2úþ µì2úþ½ µlù>ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) NSNumber *focalLength; // @synthesize focalLength=_focalLength;
-@property(readonly, nonatomic) NSNumber *focalLengthIn35mm; // @synthesize focalLengthIn35mm=_focalLengthIn35mm;
 
 @end
 

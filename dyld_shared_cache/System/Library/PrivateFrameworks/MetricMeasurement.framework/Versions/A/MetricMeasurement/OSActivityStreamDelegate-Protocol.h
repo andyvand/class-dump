@@ -5,5 +5,9 @@
 //
 
 @protocol OSActivityStreamDelegate
+
+@optional
+- (void)__AUTH_CONST;
+- (void)ation.framework/Versions/C/Foundation;
 @end
 

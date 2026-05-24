@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface BMMiningTaskConfig
 {
     _Bool _interactionExtractedTopicFromAttachmentFactorInUse;
-    NSString *_trialID;
-    NSDictionary *_bmMiningTaskConfig;
 }
 
 - (void);
@@ -19,7 +17,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)&;
 - (id);
 - (void);
 - (void);
@@ -27,8 +25,6 @@
 
 // Remaining properties
 @property(retain) NSDictionary *bmMiningTaskConfig; // @synthesize bmMiningTaskConfig=_bmMiningTaskConfig;
-@property(nonatomic) _Bool interactionExtractedTopicFromAttachmentFactorInUse; // @synthesize interactionExtractedTopicFromAttachmentFactorInUse=_interactionExtractedTopicFromAttachmentFactorInUse;
-@property(retain, nonatomic) NSString *trialID; // @synthesize trialID=_trialID;
 
 @end
 

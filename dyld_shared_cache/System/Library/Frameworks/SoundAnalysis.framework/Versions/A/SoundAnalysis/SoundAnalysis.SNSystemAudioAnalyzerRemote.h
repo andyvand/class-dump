@@ -7,9 +7,6 @@
 @interface SoundAnalysis.SNSystemAudioAnalyzerRemote
 {
     id id;
-    id audioConfiguration;
-    id environment;
-    id state;
 }
 
 @end

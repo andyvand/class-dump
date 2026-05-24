@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSObject, WBSPasswordBreachContext, WBSPasswordBreachResults;
-@protocol OS_dispatch_queue, WBSPasswordBreachCredentialSource;
+@class NSDictionary, WBSPasswordBreachContext;
 
 @interface WBSPasswordBreachQueuedPasswordBagManager
 {
     WBSPasswordBreachContext *_context;
-    WBSPasswordBreachResults *_results;
-    id <WBSPasswordBreachCredentialSource> _credentialSource;
-    NSMutableDictionary *_queuedPasswordsByUUID;
-    long long _fillState;
-    NSObject<OS_dispatch_queue> *_internalQueue;
 }
 
 - (void);
 - (long long);
-- (id);
-- (id);
+- (id)mappingChannel;
+- (id)fs;
 - (id);
 - (void);
-- (id);
+- (id)_concretePointIsOnBorder:ofAnnotation:minimumBorderThickness: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -36,7 +30,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *allNonbreachedPasswords;
-@property(readonly, nonatomic) long long fillState;
 
 @end
 

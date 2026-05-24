@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFMutexLock, NFStateMachineState, NSMutableDictionary;
-
 @interface NFStateMachine
 {
     unsigned long long _status;
-    NFStateMachineState *_state;
-    id _owner;
-    NSMutableDictionary *_states;
-    NSMutableDictionary *_events;
-    NFMutexLock *_lock;
-    long long _statusToken;
 }
 
 - (long long);
@@ -26,14 +18,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)f;
 - (void);
 - (void);
 - (id);
 - (id);
+- (void)EntitlementsOverrideProviderType>",&,N,V_entitlementsOverrideProvider;
 - (void);
-- (void);
-- (void);
+- (void)topStoriesLocalNewsExpiration;
 - (id);
 - (id);
 - (unsigned long long);
@@ -44,13 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *events; // @synthesize events=_events;
-@property(retain, nonatomic) NFMutexLock *lock; // @synthesize lock=_lock;
 @property(nonatomic) __weak id owner; // @synthesize owner=_owner;
-@property(retain, nonatomic) NFStateMachineState *state; // @synthesize state=_state;
-@property(retain, nonatomic) NSMutableDictionary *states; // @synthesize states=_states;
-@property(nonatomic) unsigned long long status; // @synthesize status=_status;
-@property(nonatomic) long long statusToken; // @synthesize statusToken=_statusToken;
 
 @end
 

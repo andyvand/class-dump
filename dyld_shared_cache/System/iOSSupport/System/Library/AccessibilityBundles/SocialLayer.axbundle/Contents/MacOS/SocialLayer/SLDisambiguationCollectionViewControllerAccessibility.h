@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)_angle;
 + (void);
-- (_Bool);
+- (_Bool)GL_ARB_texture_env_add;
 
 @end
 

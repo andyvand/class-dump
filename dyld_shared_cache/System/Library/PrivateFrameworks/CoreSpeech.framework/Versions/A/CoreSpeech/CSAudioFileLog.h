@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSURL;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CSAudioFileLog
 {
     NSObject<OS_dispatch_queue> *_queue;
-    struct OpaqueExtAudioFile *_audioFile;
-    struct AudioStreamBasicDescription _asbd;
-    NSURL *_url;
-    unsigned int _audioLength;
 }
 
-+ (id)manualDuckingHandler;
++ (id)_manualDuckingHandler;
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)_requestDidBegin:progress:requestID: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)length;
 - (id);
-- (void)tectorAssetDownloading;
+- (void)allowLanguageDetectorAssetDownloading;
 
 @end
 

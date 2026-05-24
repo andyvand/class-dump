@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CNChangeHistoryRemoveMemberFromGroupEvent;
+
 @protocol CNChangeHistoryEventVisitor
+
+@optional
+- (void)t initWithProviderType:(CNChangeHistoryRemoveMemberFromGroupEvent *)arg1 loginName:] /* Error: Ran out of types for this method. */;
+- (void)us;
 @end
 

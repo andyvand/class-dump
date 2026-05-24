@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFObservable;
-
 @interface MCPowerSourceManager
 {
     struct __CFRunLoopSource *_runLoopSource;
-    _Bool _powerSourceIsLimited;
 }
 
 + (id);
 + (id);
-+ (id)tCommand:(struct _NSZone *)arg1;
++ (id)setCommand:(struct _NSZone *)arg1;
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool powerSourceIsLimited; // @synthesize powerSourceIsLimited=_powerSourceIsLimited;
-@property(readonly, nonatomic) EFObservable *powerSourceIsLimitedObservable;
 
 @end
 

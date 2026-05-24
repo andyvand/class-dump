@@ -9,19 +9,16 @@
 @interface PIAutoLoopVideoNode
 {
     int _loopStart;
-    int _loopPeriod;
-    int _fadeLength;
-    CDStruct_1b6d18a9 _frameDuration;
 }
 
-+ (int);
++ (int);
 + (int);
 + (id);
-+ (int);
++ (int);
 - (int);
 - (int);
 - (CDStruct_1b6d18a9);
-- (id);
+- (id)(;
 - (CDStruct_1b6d18a9);
 - (int);
 - (_Bool);
@@ -30,25 +27,17 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (CDStruct_1b6d18a9);
 - (CDStruct_1b6d18a9);
 - (CDStruct_1b6d18a9);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_1b6d18a9 fadeDuration;
-@property(readonly, nonatomic) int fadeLength; // @synthesize fadeLength=_fadeLength;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 fadeStartTime;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 frameDuration; // @synthesize frameDuration=_frameDuration;
 @property(readonly, nonatomic) NURenderNode *input;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 loopDuration;
-@property(readonly, nonatomic) int loopPeriod; // @synthesize loopPeriod=_loopPeriod;
-@property(readonly, nonatomic) int loopStart; // @synthesize loopStart=_loopStart;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 startTime;
 
 @end
 

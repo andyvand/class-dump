@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
+- (void)R;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)eRequest:signatures: /* Error: Ran out of types for this method. */;
+- (void)applyMergeResultToSaveRequest:signatures: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <CNUINavigationListStyle> navigationListStyle; // @synthesize navigationListStyle=_navigationListStyle;

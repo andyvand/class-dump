@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSString;
+@class CNContact;
 
 @interface CNMeCardSharingContactNameProvider
 {
     CNContact *_contact;
 }
 
-+ (id)queWhenScrolled: /* Error: Ran out of types for this method. */;
++ (id)setupNavBarAppearance:asOpaqueWhenScrolled: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (void)ontactIdentifier;
+- (void)_currentlyDisplayedPosterContactIdentifier;
 - (id)rgeUnifyActionHelper;
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

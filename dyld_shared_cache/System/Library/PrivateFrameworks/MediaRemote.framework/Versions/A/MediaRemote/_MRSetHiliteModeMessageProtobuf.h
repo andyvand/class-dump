@@ -7,9 +7,6 @@
 @interface _MRSetHiliteModeMessageProtobuf
 {
     _Bool _hiliteMode;
-    struct {
-        unsigned int hiliteMode:1;
-    } _has;
 }
 
 - (void);
@@ -19,16 +16,15 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)ss.000000Z;
+- (id)rovider;
 
 // Remaining properties
 @property(nonatomic) _Bool hasHiliteMode;
-@property(nonatomic) _Bool hiliteMode; // @synthesize hiliteMode=_hiliteMode;
 
 @end
 

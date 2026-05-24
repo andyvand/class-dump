@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)?;
 - (_Bool);
 - (_Bool);
 - (id)rchantRawAddress"b1"read_merchantRawCity"b1"read_merchantRawState"b1"read_merchantState"b1"read_merchantType"b1"read_merchantZip"b1"wrote_anyField"b1};
-- (id)on;
+- (id)_distanceToDestination;
 - (id)Ì ;
 - (void);
 

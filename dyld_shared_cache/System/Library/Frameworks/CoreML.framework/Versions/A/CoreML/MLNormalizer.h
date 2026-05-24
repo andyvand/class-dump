@@ -6,31 +6,22 @@
 
 #import <CoreML/MLModelEngine.h>
 
-@class NSString;
-
 @interface MLNormalizer : MLModelEngine
 {
     int _norm;
 }
 
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id)4;
 + (id);
 - (int);
 - (id);
-- (id);
+- (id)?;
 - (unsigned long long)H;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) int norm; // @synthesize norm=_norm;
-@property(readonly) Class superclass;
 
 @end
 

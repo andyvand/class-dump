@@ -4,29 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSavePanel, NSString, NSURL;
-@protocol UINSDocumentBrowserViewControllerDelegate, UINSWindow;
+@class NSSavePanel;
+@protocol UINSDocumentBrowserViewControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface UINSDocumentBrowserViewController
 {
     NSSavePanel *_savePanel;
-    _Bool _panelDidCreateNewDocument;
-    NSURL *_urlToImport;
-    unsigned long long _importMode;
-    NSArray *_customActions;
-    _Bool _allowsDocumentCreation;
-    _Bool _allowsPickingMultipleItems;
-    id <UINSDocumentBrowserViewControllerDelegate> _delegate;
-    NSArray *_documentTypes;
-    id <UINSWindow> _window;
-    NSString *_sceneIdentifier;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)c;
 - (void);
 - (void);
 - (_Bool);
@@ -34,10 +24,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -45,24 +35,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)initWithLocalPart:forNamespace: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsDocumentCreation; // @synthesize allowsDocumentCreation=_allowsDocumentCreation;
-@property(nonatomic) _Bool allowsPickingMultipleItems; // @synthesize allowsPickingMultipleItems=_allowsPickingMultipleItems;
-@property(copy, nonatomic) NSArray *customActions; // @synthesize customActions=_customActions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <UINSDocumentBrowserViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSArray *documentTypes; // @synthesize documentTypes=_documentTypes;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *sceneIdentifier; // @synthesize sceneIdentifier=_sceneIdentifier;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak id <UINSWindow> window; // @synthesize window=_window;
 
 @end
 

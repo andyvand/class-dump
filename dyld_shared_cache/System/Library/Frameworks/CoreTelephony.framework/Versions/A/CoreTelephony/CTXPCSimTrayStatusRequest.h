@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (id);
+- (id)operty "%@" of extension "%@" is inappropriately implemented with a backing ivar. Was this an accidental auto-synthesis?;
 - (int);
 
 @end

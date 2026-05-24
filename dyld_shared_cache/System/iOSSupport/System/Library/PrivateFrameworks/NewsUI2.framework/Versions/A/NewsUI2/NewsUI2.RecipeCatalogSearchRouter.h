@@ -7,11 +7,6 @@
 @interface NewsUI2.RecipeCatalogSearchRouter
 {
     id controller;
-    id resolver;
-    id tracker;
-    id navigator;
-    id recipeFilterSelectionManager;
-    id recipeFilterResultProvider;
 }
 
 @end

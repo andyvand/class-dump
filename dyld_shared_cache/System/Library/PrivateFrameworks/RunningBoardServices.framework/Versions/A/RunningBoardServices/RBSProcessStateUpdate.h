@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RBSProcessExitEvent, RBSProcessHandle, RBSProcessState;
+@class RBSProcessHandle;
 
 @interface RBSProcessStateUpdate
 {
     RBSProcessHandle *_process;
-    RBSProcessState *_state;
-    RBSProcessState *_previousState;
-    RBSProcessExitEvent *_exitEvent;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)<#;
 
 // Remaining properties
-@property(readonly, nonatomic) RBSProcessExitEvent *exitEvent; // @synthesize exitEvent=_exitEvent;
-@property(readonly, nonatomic) RBSProcessState *previousState; // @synthesize previousState=_previousState;
 @property(readonly, nonatomic) RBSProcessHandle *process; // @synthesize process=_process;
-@property(readonly, nonatomic) RBSProcessState *state; // @synthesize state=_state;
 
 @end
 

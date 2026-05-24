@@ -6,22 +6,17 @@
 
 #import <GeoServices/GEOComposedStringArgument.h>
 
-@class NSArray, NSDate, NSDictionary, NSString, NSTimeZone;
+@class NSArray, NSDate;
 
 @interface GEOComposedStringArgument_Countdown : GEOComposedStringArgument
 {
     NSArray *_timestampValues;
-    NSDictionary *_countdownFormatStrings;
-    NSString *_separator;
-    NSTimeZone *_defaultTimeZone;
-    NSDate *_overrideReferenceDate;
-    _Bool _rightToLeft;
 }
 
 + (_Bool){public}@':%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
-- (id);
+- (id):8@"_CNAmbObserver"16 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -29,12 +24,11 @@
 - (id);
 - (_Bool);
 - (void);
-- (id)tail:(struct _NSZone *)arg1;
+- (id)setDetail:(struct _NSZone *)arg1;
 - (void)Ùã;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *overrideReferenceDate; // @synthesize overrideReferenceDate=_overrideReferenceDate;
-@property(nonatomic) _Bool rightToLeft; // @synthesize rightToLeft=_rightToLeft;
 
 @end
 

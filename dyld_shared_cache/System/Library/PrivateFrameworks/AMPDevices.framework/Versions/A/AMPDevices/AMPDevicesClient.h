@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSMutableDictionary, NSXPCConnection;
+@class NSXPCConnection;
 
 @interface AMPDevicesClient
 {
     NSXPCConnection *_connection;
-    NSHashTable *_listeners;
-    NSMutableDictionary *_deviceStateFlagsMap;
 }
 
 - (void);
@@ -21,11 +19,50 @@
 - (void);
 - (unsigned long long);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)!;
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -35,37 +72,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)=;
 - (void);
 - (void);
 - (void);
@@ -95,21 +107,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
@@ -132,32 +130,30 @@
 - (void);
 - (id);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (id)setCenterCoordinate:altitude:yaw:pitch:duration:timingCurve:completion: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)losedCaptions;
+- (void)_showClosedCaptions;
 - (void)5;
 
 // Remaining properties
 @property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(retain, nonatomic) NSMutableDictionary *deviceStateFlagsMap; // @synthesize deviceStateFlagsMap=_deviceStateFlagsMap;
-@property(retain, nonatomic) NSHashTable *listeners; // @synthesize listeners=_listeners;
 
 @end
 

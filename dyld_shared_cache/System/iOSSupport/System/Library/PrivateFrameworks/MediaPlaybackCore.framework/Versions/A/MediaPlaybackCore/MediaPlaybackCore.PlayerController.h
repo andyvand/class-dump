@@ -9,46 +9,18 @@
 @interface MediaPlaybackCore.PlayerController
 {
     id delegate;
-    id mode;
-    id userActionTimeout;
-    id currentItemTransition;
-    id playbackCoordinatorObservation;
-    id player;
-    id playerID;
-    id audioSessionController;
-    id applicationMusicPlayerTransitionOptions;
-    id coordinatedPlaybackSuspension;
-    id;
-    id playbackStartSubscription;
-    id behavior;
-    id queue;
-    id fsm;
-    id playerObserver;
-    id playerSubscription;
-    id systemObserver;
-    id systemSubscription;
-    id didBecomeActiveSubscription;
-    id willResignActiveSubscription;
-    id videoPlayerBehavior;
-    id userEventsMonitor;
-    id reporter;
-    id leaseController;
-    id previousItemID;
-    id lastIntentionalSampleRateChangeTime;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (float);
-- (void);
-- (id);
-- (_Bool)diaPlaybackCore26PlaybackStatisticsConsumer;
+- (void)@9;
+- (id)Ț;
+- (_Bool)_TtC17MediaPlaybackCore26PlaybackStatisticsConsumer;
 
 // Remaining properties
-@property(nonatomic) _Bool isMuted;
-@property(nonatomic) float relativeVolume;
 @property(nonatomic, readonly) NSDictionary *stateDictionary;
 
 @end

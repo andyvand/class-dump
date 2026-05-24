@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PPPBFeedbackMetadata;
+@class NSString;
 
 @interface PPPBFeedbackLog
 {
     NSString *_assetVersion;
-    NSMutableArray *_experimentalGroups;
-    NSMutableArray *_extractedDonations;
-    PPPBFeedbackMetadata *_feedbackMetadata;
-    NSString *_homeLocationGeohash;
-    int _predictionType;
-    NSMutableArray *_scoredItems;
-    struct {
-        unsigned int predictionType:1;
-    } _has;
 }
 
 + (Class);
 + (Class);
-+ (Class);
++ (Class);
 - (void);
 - (void);
 - (void);
@@ -58,7 +49,7 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)";
 - (id);
 - (id);
 - (void);
@@ -68,17 +59,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *assetVersion; // @synthesize assetVersion=_assetVersion;
-@property(retain, nonatomic) NSMutableArray *experimentalGroups; // @synthesize experimentalGroups=_experimentalGroups;
-@property(retain, nonatomic) NSMutableArray *extractedDonations; // @synthesize extractedDonations=_extractedDonations;
-@property(retain, nonatomic) PPPBFeedbackMetadata *feedbackMetadata; // @synthesize feedbackMetadata=_feedbackMetadata;
-@property(readonly, nonatomic) _Bool hasAssetVersion;
 @property(readonly, nonatomic) _Bool hasFeedbackMetadata;
-@property(readonly, nonatomic) _Bool hasHomeLocationGeohash;
-@property(nonatomic) _Bool hasPredictionType;
-@property(retain, nonatomic) NSString *homeLocationGeohash; // @synthesize homeLocationGeohash=_homeLocationGeohash;
-@property(nonatomic) int predictionType; // @synthesize predictionType=_predictionType;
-@property(retain, nonatomic) NSMutableArray *scoredItems; // @synthesize scoredItems=_scoredItems;
 
 @end
 

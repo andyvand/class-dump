@@ -12,10 +12,10 @@
 
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)__bss;
++ (id))!;
 - (id);
-- (_Bool);
+- (_Bool)age;
 
 @end
 

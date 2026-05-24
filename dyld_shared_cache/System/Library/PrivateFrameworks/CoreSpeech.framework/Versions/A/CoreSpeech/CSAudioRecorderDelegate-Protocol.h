@@ -5,5 +5,8 @@
 //
 
 @protocol CSAudioRecorderDelegate
+
+@optional
+- (void)Y;
 @end
 

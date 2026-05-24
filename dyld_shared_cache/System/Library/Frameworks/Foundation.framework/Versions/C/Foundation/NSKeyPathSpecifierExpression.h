@@ -15,7 +15,7 @@
 
 + (_Bool)moveParamDescriptorWithKeyword:] called on invalid NSAppleEventDescriptor /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);

@@ -9,25 +9,21 @@
 @interface FMDAudioAccessoryInfo
 {
     NSString *_systemSerialNumber;
-    NSString *_leftSerialNumber;
-    NSString *_rightSerialNumber;
 }
 
 + (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)20;
+- (void)CGRect={CGPoint=dd}{CGSize=dd}}16{CGRect={CGPoint=dd}{CGSize=dd}}48d80{CGSize=dd}88B104B108B112B116B120B124;
+- (void)@24^@32;
+- (void)8@16d24@32;
+- (id)ue"I}};
+- (id)_shared_weak_count}};
+- (id)t}""{?="__cap_"^{PKMetalSDFPenStrokePoint}}};
+- (id)@"NSNumber",R,N,V_faceDetectionScore;
+- (void)apple.iOSTestReminders.xctrunner;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *leftSerialNumber; // @synthesize leftSerialNumber=_leftSerialNumber;
-@property(copy, nonatomic) NSString *rightSerialNumber; // @synthesize rightSerialNumber=_rightSerialNumber;
 @property(copy, nonatomic) NSString *systemSerialNumber; // @synthesize systemSerialNumber=_systemSerialNumber;
 
 @end

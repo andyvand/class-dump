@@ -6,18 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHAssistantDaemonAudioFetchRouteEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)re update descriptor provided on event info object;
+- (id)";
+- (void);
+- (void)oolean;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -26,14 +23,12 @@
 × ;
 - (id)aPNRODMetricDuration",&,N,V_queryDecorationTupleRankingDuration;
 - (id)maCNVIntentReformationEnded",&,N,V_ended;
-- (_Bool)EDBELLY;
+- (_Bool)CONNECTIONTYPE_LEDBELLY;
 - (_Bool)¦Æÿé¸;
 - (void)o°1I(;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

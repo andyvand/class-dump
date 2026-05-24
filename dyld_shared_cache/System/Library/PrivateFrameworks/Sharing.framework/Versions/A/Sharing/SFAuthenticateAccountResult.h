@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SFAuthenticateAccountResult
 {
     NSString *_preferredLanguageCode;
-    NSString *_localeIdentifier;
-    NSArray *_preferredLanguages;
-    NSArray *_keyboards;
-    NSArray *_authenticatedAccounts;
-    NSArray *_knownHomeUserIdentifiers;
 }
 
 - (void);
@@ -22,21 +17,16 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void)r;
+- (id));
+- (void)P;
+- (void)defaultChangedHandler;
 - (id)ÿW|Ýÿ;
 - (id)earbyParseNearbyActionPtr:end:fields:] /* Error: Ran out of types for this method. */;
 - (void)yCopyDataAndAttributes returned NULL attachedRecordContents
 ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *authenticatedAccounts; // @synthesize authenticatedAccounts=_authenticatedAccounts;
-@property(copy, nonatomic) NSArray *keyboards; // @synthesize keyboards=_keyboards;
-@property(readonly, nonatomic) NSArray *knownHomeUserIdentifiers; // @synthesize knownHomeUserIdentifiers=_knownHomeUserIdentifiers;
-@property(copy, nonatomic) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
 @property(copy, nonatomic) NSString *preferredLanguageCode; // @synthesize preferredLanguageCode=_preferredLanguageCode;
-@property(copy, nonatomic) NSArray *preferredLanguages; // @synthesize preferredLanguages=_preferredLanguages;
 
 @end
 

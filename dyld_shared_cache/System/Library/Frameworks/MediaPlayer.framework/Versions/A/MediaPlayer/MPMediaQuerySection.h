@@ -9,8 +9,6 @@
 @interface MPMediaQuerySection
 {
     NSString *_title;
-    unsigned long long _sectionIndexTitleIndex;
-    struct _NSRange _range;
 }
 
 + (_Bool);
@@ -18,19 +16,17 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)inhibitAutoScroll;
 - (id);
 - (struct _NSRange);
+- (void));
 - (void);
-- (void);
-- (void);
+- (void)`;
+- (id)A;
 - (id);
-- (id);
-- (void)te: /* Error: Ran out of types for this method. */;
+- (void)_addToLibraryComplete: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) struct _NSRange range; // @synthesize range=_range;
-@property(nonatomic) unsigned long long sectionIndexTitleIndex; // @synthesize sectionIndexTitleIndex=_sectionIndexTitleIndex;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

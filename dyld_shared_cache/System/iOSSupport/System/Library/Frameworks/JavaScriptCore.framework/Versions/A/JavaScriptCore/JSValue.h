@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class JSContext;
-
 @interface JSValue
 {
     struct OpaqueJSValue *m_value;
-    JSContext *_context;
 }
 
 + (id);
 + (id);
 + (id);
++ (id)�;
++ (id);
 + (id);
 + (id);
 + (id);
@@ -22,21 +21,19 @@
 + (id);
 + (id);
 + (id);
++ (id)hr9h2;
 + (id);
 + (id);
 + (id);
 + (id);
++ (id);
++ (id);
++ (id)@;
++ (id);
++ (id)R;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (SEL);
++ (SEL);
 + (SEL);
 
 @end

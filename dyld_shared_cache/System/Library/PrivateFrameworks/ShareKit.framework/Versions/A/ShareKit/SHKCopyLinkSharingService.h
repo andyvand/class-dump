@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)has not been implemented;
 - (_Bool);
 
 @end

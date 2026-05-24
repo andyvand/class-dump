@@ -4,28 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface FCLoadableFont
 {
     NSString *_fontName;
-    NSURL *_fontURL;
 }
 
-+ (id);
++ (id);
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (void);
-- (_Bool);
+- (void)_throughputCapacityMbps;
+- (_Bool)^q;
+- (id)d time:%@ - %f /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void)oPlaylistItem;
+- (void)AudioPlaylistItem;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *fontName; // @synthesize fontName=_fontName;
-@property(retain, nonatomic) NSURL *fontURL; // @synthesize fontURL=_fontURL;
 
 @end
 

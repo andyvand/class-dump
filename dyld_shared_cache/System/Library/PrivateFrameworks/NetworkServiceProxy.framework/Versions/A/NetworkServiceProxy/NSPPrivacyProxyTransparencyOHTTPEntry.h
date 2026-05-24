@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray;
-
 @interface NSPPrivacyProxyTransparencyOHTTPEntry
 {
     unsigned long long _configurationDeliveryEnd;
-    unsigned long long _configurationDeliveryStart;
-    NSData *_keyConfiguration;
-    NSMutableArray *_targetInformations;
 }
 
 + (Class);
@@ -31,18 +26,15 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)B;
+- (_Bool)t;
+- (void);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long configurationDeliveryEnd; // @synthesize configurationDeliveryEnd=_configurationDeliveryEnd;
 @property(nonatomic) unsigned long long configurationDeliveryStart; // @synthesize configurationDeliveryStart=_configurationDeliveryStart;
-@property(retain, nonatomic) NSData *keyConfiguration; // @synthesize keyConfiguration=_keyConfiguration;
-@property(retain, nonatomic) NSMutableArray *targetInformations; // @synthesize targetInformations=_targetInformations;
 
 @end
 

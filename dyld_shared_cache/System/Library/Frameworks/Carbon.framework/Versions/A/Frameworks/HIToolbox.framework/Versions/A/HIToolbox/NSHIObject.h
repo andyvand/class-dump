@@ -10,12 +10,12 @@ __attribute__((visibility("hidden")))
     unsigned char buffer[24];
 }
 
-+ (id)toInputSourceID;
++ (id)TISKeyboardIDtoInputSourceID;
 - (unsigned long long);
 - (id);
 - (oneway void);
 - (unsigned long long);
-- (id);
+- (id)t;
 - (void);
 - (_Bool);
 - (unsigned long long)ÔA_,ð!¤DùÑ601Â0@ù

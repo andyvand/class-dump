@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _INPBIntentSlotVocabularyPolicy
 {
     struct _has;
-    NSArray *_intentSlotNames;
-    NSArray *_intentSlotVocabularyConcepts;
 }
 
 + (Class);
@@ -28,27 +26,17 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)ST;
+- (void)LATEST;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *intentSlotNames; // @synthesize intentSlotNames=_intentSlotNames;
-@property(readonly, nonatomic) unsigned long long intentSlotNamesCount;
-@property(copy, nonatomic) NSArray *intentSlotVocabularyConcepts; // @synthesize intentSlotVocabularyConcepts=_intentSlotVocabularyConcepts;
-@property(readonly, nonatomic) unsigned long long intentSlotVocabularyConceptsCount;
-@property(readonly) Class superclass;
 
 @end
 

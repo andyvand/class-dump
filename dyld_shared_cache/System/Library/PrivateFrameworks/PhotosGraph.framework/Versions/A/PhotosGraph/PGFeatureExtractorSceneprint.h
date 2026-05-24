@@ -14,8 +14,8 @@
 - (id);
 - (long long);
 - (id);
-- (id);
-- (id)inentNodeCollection;
+- (id)iledDueToNetworkError:error:faviconInfoFromWebView: /* Error: Ran out of types for this method. */;
+- (id)PGGraphLocationSubcontinentNodeCollection;
 
 @end
 

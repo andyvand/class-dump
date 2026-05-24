@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @interface BPSPartialCompletion
 {
     long long _state;
-    id _value;
-    NSError *_error;
 }
 
 + (id);
@@ -18,16 +14,14 @@
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)setHasSessionState: /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) long long state; // @synthesize state=_state;
-@property(readonly, nonatomic) id value; // @synthesize value=_value;
 
 @end
 

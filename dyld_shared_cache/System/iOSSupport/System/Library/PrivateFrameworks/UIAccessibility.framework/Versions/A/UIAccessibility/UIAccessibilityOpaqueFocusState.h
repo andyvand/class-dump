@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
-
 @interface UIAccessibilityOpaqueFocusState
 {
     _Bool _hasFocus;
-    _Bool _hasBeenReused;
-    id _element;
-    UIView *_reusableView;
-    struct CGRect _sceneRelativeFrame;
 }
 
 - (void);
@@ -20,20 +14,16 @@
 - (void);
 - (struct CGRect);
 - (_Bool);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id)public}s forbids:%{public}s. Requires bundleWithIdentifier:@"com.apple.MapsSuggestions" /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak id element; // @synthesize element=_element;
-@property(nonatomic) _Bool hasBeenReused; // @synthesize hasBeenReused=_hasBeenReused;
-@property(nonatomic) _Bool hasFocus; // @synthesize hasFocus=_hasFocus;
-@property(retain, nonatomic) UIView *reusableView; // @synthesize reusableView=_reusableView;
-@property(nonatomic) struct CGRect sceneRelativeFrame; // @synthesize sceneRelativeFrame=_sceneRelativeFrame;
 
 @end
 

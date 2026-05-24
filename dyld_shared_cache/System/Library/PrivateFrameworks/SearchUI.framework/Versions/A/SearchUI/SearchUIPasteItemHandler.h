@@ -13,8 +13,8 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)__objc_methname;
+- (unsigned long long)rotateNorthEastSouthEast;
 
 @end
 

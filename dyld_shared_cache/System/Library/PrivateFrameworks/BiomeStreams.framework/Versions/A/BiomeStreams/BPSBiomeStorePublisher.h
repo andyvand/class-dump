@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMAccessClient, BMIndexSearch, BMStoreBookmark, BMStoreEnumerator, BMStreamDatastoreReader, NSString;
+@class BMStoreEnumerator;
 
 @interface BPSBiomeStorePublisher
 {
     double _startTime;
-    double _endTime;
-    unsigned long long _maxEvents;
-    unsigned long long _lastEventCount;
-    _Bool _reversed;
-    BMStoreBookmark *_bookmark;
-    BMIndexSearch *_indexSearch;
-    BMAccessClient *_accessClient;
-    BMStreamDatastoreReader *_streamDatastoreReader;
-    _Bool _finished;
-    BMStoreEnumerator *_enumerator;
 }
 
 + (id);
@@ -30,9 +20,9 @@
 - (id);
 - (id);
 - (_Bool);
+- (id) ;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -42,7 +32,7 @@
 - (void);
 - (id);
 - (id);
-- (id)s;
+- (id)_names;
 - (_Bool)4;
 - (id)B;
 - (id);
@@ -57,8 +47,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) BMStoreEnumerator *enumerator; // @synthesize enumerator=_enumerator;
-@property(nonatomic) _Bool finished; // @synthesize finished=_finished;
-@property(readonly, nonatomic) NSString *streamId;
 
 @end
 

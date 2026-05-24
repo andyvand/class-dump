@@ -5,5 +5,8 @@
 //
 
 @protocol ML3DatabaseConnectionPoolDelegate
+
+@optional
+- (void)iaType;
 @end
 

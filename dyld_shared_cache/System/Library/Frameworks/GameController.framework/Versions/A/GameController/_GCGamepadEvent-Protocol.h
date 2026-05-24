@@ -5,6 +5,7 @@
 //
 
 @protocol _GCGamepadEvent
+- (float);
 
 // Remaining properties
 @property(readonly) unsigned long long timestamp;

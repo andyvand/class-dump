@@ -4,39 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISDEntity, ISDRecordStore, NSDictionary, NSMutableArray, NSMutableDictionary, NSMutableSet, NSString;
+@class NSDictionary;
 
 @interface ISDChangeBuilder
 {
     NSDictionary *_supportedPropertyNames;
-    id _delegate;
-    NSString *_recordId;
-    NSString *_clientId;
-    unsigned int _fromGeneration;
-    unsigned int _toGeneration;
-    _Bool _produceDeletesForMissingNewValues;
-    _Bool _hasOldRecord;
-    _Bool _hasNewRecord;
-    _Bool _newRelationshipValuesAreTuples;
-    _Bool _takeMissingCodependentValuesFromOldValues;
-    ISDEntity *_entity;
-    NSMutableDictionary *_oldValues;
-    NSDictionary *_oldUnformattedRelationships;
-    NSMutableDictionary *_newValues;
-    NSMutableSet *_deletedPropertyNames;
-    NSMutableSet *_missingCodependentPropertyNames;
-    NSMutableArray *_deltas;
-    id _change;
-    _Bool _clientIsTrusted;
-    _Bool _isPushingTruth;
-    ISDRecordStore *_clientRecordStore;
-    NSMutableDictionary *_relationshipNewReferences;
-    NSMutableArray *_defaultPropertyNames;
 }
 
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -58,11 +35,12 @@
 - (void);
 - (int);
 - (void);
-- (id);
+- (id)
+;
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);

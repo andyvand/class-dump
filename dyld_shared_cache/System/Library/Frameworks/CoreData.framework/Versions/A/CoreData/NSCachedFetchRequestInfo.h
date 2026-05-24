@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSCachedFetchRequestInfo
 {
     NSArray *_substVarBindOrdering;
-    NSArray *_substIntarrayBindOrdering;
-    _Bool _isIneligibleForCaching;
 }
 
 - (void);

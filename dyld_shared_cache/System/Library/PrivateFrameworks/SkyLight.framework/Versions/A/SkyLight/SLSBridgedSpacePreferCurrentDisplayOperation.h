@@ -12,7 +12,7 @@
 }
 
 + (_Bool);
-- (void);
+- (void)ithManagedObjectContext:andObservedStore:error:] /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (id);

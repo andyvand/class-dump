@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, WBSDiagnosticStateCollector;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface WBSSafariSettingsSyncEngine
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    WBSDiagnosticStateCollector *_stateCollector;
 }
 
 - (void);
@@ -21,10 +20,10 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)_cellsCount;
 - (id);
 - (void);
-- (void);
+- (void).;
 - (void);
 
 @end

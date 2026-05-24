@@ -4,28 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface DDScannerServiceConfiguration
 {
     int _scannerType;
-    _Bool _spotlightSuggestionsEnabled;
-    _Bool _remoteScannerEnabled;
-    NSString *_recyclingIdentifier;
-    long long *_jobIdentifierPtr;
-    _Bool _noObjC;
-    _Bool _languageHighConfidence;
-    int _qos;
-    int _script;
-    double _timeout;
-    long long _resultsOptions;
-    long long _scannerOptions;
-    NSString *_language;
-    NSObject<OS_dispatch_queue> *_completionQueue;
-    NSArray *_mockMLResults;
-    NSArray *_supportedMLResults;
-    NSString *_country;
 }
 
 - (void);
@@ -38,20 +19,20 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)<< FigFilePlayer >>>> %s:setting ReversesMoreVideoFramesInMemory while this item is current or lame => will disturb playback /* Error: Ran out of types for this method. */;
+- (void)>> %s:(id)arg1 [%p|%{public}s] <%p|%{public}s>:add new item after <%p> /* Error: Ran out of types for this method. */;
+- (void)reamPlayer >>>> %s:(_Bool)arg1 [%p|%{public}s] <%p|%{public}s>:track %d inheriting cached discontinuityOffset %g /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (long long);
-- (void);
+- (void)P;
 - (void);
 - (id);
 - (void);
@@ -63,24 +44,11 @@
 - (int);
 - (int);
 - (double);
-- (void);
+- (void)getFileName;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *completionQueue; // @synthesize completionQueue=_completionQueue;
-@property(retain) NSString *country; // @synthesize country=_country;
-@property(retain, nonatomic) NSString *language; // @synthesize language=_language;
-@property(nonatomic) _Bool languageHighConfidence; // @synthesize languageHighConfidence=_languageHighConfidence;
-@property(retain, nonatomic) NSArray *mockMLResults; // @synthesize mockMLResults=_mockMLResults;
 @property(nonatomic) _Bool noObjC; // @synthesize noObjC=_noObjC;
-@property(nonatomic) int qos; // @synthesize qos=_qos;
-@property(nonatomic) _Bool remoteScannerEnabled;
-@property(nonatomic) long long resultsOptions; // @synthesize resultsOptions=_resultsOptions;
-@property(nonatomic) long long scannerOptions; // @synthesize scannerOptions=_scannerOptions;
-@property int script; // @synthesize script=_script;
-@property(nonatomic) _Bool spotlightSuggestionsEnabled;
-@property(retain, nonatomic) NSArray *supportedMLResults; // @synthesize supportedMLResults=_supportedMLResults;
-@property(nonatomic) double timeout; // @synthesize timeout=_timeout;
 
 @end
 

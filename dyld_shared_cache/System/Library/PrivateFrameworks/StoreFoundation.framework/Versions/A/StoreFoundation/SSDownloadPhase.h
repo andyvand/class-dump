@@ -23,17 +23,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)minimumThumbnailDimension;
 - (void);
 
 // Remaining properties
-@property(readonly) double estimatedSecondsRemaining;
 @property(readonly) SSOperationProgress *operationProgress;
-@property(readonly) long long phaseType;
-@property(readonly) float progressChangeRate;
-@property(readonly) long long progressUnits;
-@property(readonly) long long progressValue;
-@property(readonly) long long totalProgressValue;
 
 @end
 

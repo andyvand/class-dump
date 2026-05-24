@@ -8,8 +8,8 @@
 {
 }
 
-- (void);
-- (void);
+- (void)ext";
+- (void)ATSchemaGATImageResizingEventEnded";
 
 @end
 

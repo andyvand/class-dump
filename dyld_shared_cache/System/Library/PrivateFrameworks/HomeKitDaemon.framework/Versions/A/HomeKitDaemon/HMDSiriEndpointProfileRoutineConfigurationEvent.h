@@ -4,52 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDSiriEndpointProfileAccessorySettingFields, HMDSiriEndpointProfileFields, NSDictionary, NSString, NSUUID;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDSiriEndpointProfileRoutineConfigurationEvent
 {
     NSString *_accessoryCategoryType;
-    HMDSiriEndpointProfileFields *_profileFields;
-    HMDSiriEndpointProfileAccessorySettingFields *_accessorySettingFields;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)izy9_6YFCo7bFC3vDIeoaS1mU7llX-F0/Library/Caches/com.apple.xbs/TemporaryDirectory.nEUAsL/Sources/ScreenSharing/common/PerformSelectorOnThreadManager.m;
 - (id);
 - (id)rtion, but it isn't valid?;
 - (void)wn Value Update Time;
 
 // Remaining properties
 @property(readonly) NSString *accessoryCategoryType; // @synthesize accessoryCategoryType=_accessoryCategoryType;
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) HMDSiriEndpointProfileAccessorySettingFields *accessorySettingFields; // @synthesize accessorySettingFields=_accessorySettingFields;
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly) HMDSiriEndpointProfileFields *profileFields; // @synthesize profileFields=_profileFields;
-@property(readonly) Class superclass;
 
 @end
 

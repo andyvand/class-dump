@@ -9,14 +9,10 @@
 @interface PFStoryConcreteStyle
 {
     _Bool _isCustomized;
-    NSString *_identifier;
-    NSString *_originalColorGradeCategory;
-    long long _customColorGradeKind;
-    NSString *_songAssetIdentifier;
 }
 
 - (id);
-- (id);
+- (id)ork/Versions/A/Contacts;
 - (id);
 - (long long);
 - (_Bool);
@@ -25,15 +21,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)debugDescription;
 
 // Remaining properties
-@property(readonly, nonatomic) long long customColorGradeKind; // @synthesize customColorGradeKind=_customColorGradeKind;
-@property(readonly, nonatomic) NSString *diagnosticDescription;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isCustomized; // @synthesize isCustomized=_isCustomized;
-@property(readonly, nonatomic) NSString *originalColorGradeCategory; // @synthesize originalColorGradeCategory=_originalColorGradeCategory;
-@property(readonly, nonatomic) NSString *songAssetIdentifier; // @synthesize songAssetIdentifier=_songAssetIdentifier;
 
 @end
 

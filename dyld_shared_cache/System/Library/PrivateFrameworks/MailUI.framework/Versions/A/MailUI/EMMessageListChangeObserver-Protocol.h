@@ -5,5 +5,9 @@
 //
 
 @protocol EMMessageListChangeObserver
+- (void)�;
+
+@optional
+- (void);
 @end
 

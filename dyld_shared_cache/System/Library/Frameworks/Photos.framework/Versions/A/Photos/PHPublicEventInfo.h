@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PHPublicEventInfo
 {
     int _eventCategory;
-    NSString *_eventID;
-    NSString *_eventTitle;
 }
 
-+ (_Bool);
++ (_Bool)B;
 
 @end
 

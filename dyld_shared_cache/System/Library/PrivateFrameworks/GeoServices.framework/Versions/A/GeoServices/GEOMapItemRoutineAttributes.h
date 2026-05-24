@@ -4,46 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, PBDataReader, PBUnknownFields;
+@class NSUUID, PBDataReader;
 
 @interface GEOMapItemRoutineAttributes
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    double _eventDate;
-    NSString *_eventName;
-    NSString *_loiIdentifierString;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _loiType;
-    _Bool _isEventAllDay;
-    struct {
-        unsigned int has_eventDate:1;
-        unsigned int has_loiType:1;
-        unsigned int has_isEventAllDay:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_eventName:1;
-        unsigned int read_loiIdentifierString:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)Experience2022:(id)arg1;
++ (_Bool)setHasSupportsWalkingExperience2022:(id)arg1;
 
 // Remaining properties
-@property(nonatomic) double eventDate;
-@property(retain, nonatomic) NSString *eventName;
-@property(nonatomic) _Bool hasEventDate;
-@property(readonly, nonatomic) _Bool hasEventName;
-@property(nonatomic) _Bool hasIsEventAllDay;
-@property(readonly, nonatomic) _Bool hasLoiIdentifierString;
-@property(nonatomic) _Bool hasLoiType;
-@property(nonatomic) _Bool isEventAllDay;
 @property(retain, nonatomic) NSUUID *loiIdentifier;
-@property(retain, nonatomic) NSString *loiIdentifierString;
-@property(nonatomic) int loiType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

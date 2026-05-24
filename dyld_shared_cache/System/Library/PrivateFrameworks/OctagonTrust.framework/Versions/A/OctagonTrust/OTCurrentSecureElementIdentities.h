@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, OTSecureElementPeerIdentity;
+@class OTSecureElementPeerIdentity;
 
 @interface OTCurrentSecureElementIdentities
 {
     OTSecureElementPeerIdentity *_localPeerIdentity;
-    OTSecureElementPeerIdentity *_pendingLocalPeerIdentity;
-    NSMutableArray *_trustedPeerSecureElementIdentities;
 }
 
 + (Class);
@@ -20,29 +18,25 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)C;
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)	;
 - (void);
-- (void);
-- (unsigned long long);
+- (void)3;
+- (unsigned long long)8@"NSDictionary"16;
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)B;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasLocalPeerIdentity;
-@property(readonly, nonatomic) _Bool hasPendingLocalPeerIdentity;
-@property(retain, nonatomic) OTSecureElementPeerIdentity *localPeerIdentity; // @synthesize localPeerIdentity=_localPeerIdentity;
-@property(retain, nonatomic) OTSecureElementPeerIdentity *pendingLocalPeerIdentity; // @synthesize pendingLocalPeerIdentity=_pendingLocalPeerIdentity;
-@property(retain, nonatomic) NSMutableArray *trustedPeerSecureElementIdentities; // @synthesize trustedPeerSecureElementIdentities=_trustedPeerSecureElementIdentities;
 
 @end
 

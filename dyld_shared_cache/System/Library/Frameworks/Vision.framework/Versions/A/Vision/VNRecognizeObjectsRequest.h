@@ -6,8 +6,6 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray;
-
 @interface VNRecognizeObjectsRequest : VNImageBasedRequest
 {
 }
@@ -23,17 +21,12 @@
 - (float);
 - (unsigned long long);
 - (float);
-- (id);
+- (id)vatar %@, and target ExternalDetails:(unsigned long long)arg1 %@.;
 - (_Bool);
 - (id)ÿÝ§Tÿ®ÿÍ§Tl¯ÿ;
 
 // Remaining properties
 @property unsigned long long imageCropAndScaleOption;
-@property float modelMinimumDetectionConfidence;
-@property float modelNonMaximumSuppressionThreshold;
-@property(readonly, copy) NSArray *results; // @dynamic results;
-@property(copy) NSArray *targetedIdentifiers;
-@property _Bool useImageAnalyzerScaling;
 
 @end
 

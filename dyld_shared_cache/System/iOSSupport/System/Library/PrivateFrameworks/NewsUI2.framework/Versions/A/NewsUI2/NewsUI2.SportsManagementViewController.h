@@ -7,15 +7,10 @@
 @interface NewsUI2.SportsManagementViewController
 {
     id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id searchController;
-    id searchBar;
-    id selectionProvider;
-    id overscrollView;
 }
 
-- (void);
+- (void)nel Description
+;
 - (_Bool);
 - (void);
 - (void);

@@ -15,7 +15,7 @@
 + (id);
 + (id);
 - (id);
-- (void);
+- (void)$;
 - (void);
 - (id);
 - (id);
@@ -24,7 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *status;
-@property(copy, nonatomic) NSString *targetViewId;
 
 @end
 

@@ -7,19 +7,17 @@
 @interface RMSSample
 {
     double _RMSScore;
-    unsigned long long _lastSampleCount;
 }
 
 - (void);
 - (void);
 - (id);
-- (long long);
-- (unsigned long long);
+- (long long)Z];
+- (unsigned long long)__objc_superrefs__DATA_CONST;
 - (double);
 
 // Remaining properties
 @property(nonatomic) double RMSScore; // @synthesize RMSScore=_RMSScore;
-@property(nonatomic) unsigned long long lastSampleCount; // @synthesize lastSampleCount=_lastSampleCount;
 
 @end
 

@@ -4,40 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, NSString;
+@class AVAsset;
 
 @interface PFVideoMetadataVideoTrackFormatInfo
 {
     AVAsset *_asset;
-    _Bool _isHighDynamicRange;
-    _Bool _isHDR10;
-    _Bool _isProResLOG;
-    _Bool _hasDolby8_4Metadata;
-    _Bool _isSpatial;
-    _Bool _hasHEVCProfileTierLevelInfo;
-    unsigned char _hevcProfile;
-    unsigned char _hevcTier;
-    unsigned char _hevcLevel;
-    unsigned int _codec;
-    long long _bitsPerComponent;
-    NSString *_colorPrimaries;
-    NSString *_transferFunction;
-    struct CGSize _displaySize;
 }
 
 + (_Bool);
-+ (id);
++ (id);
 + (short);
-- (_Bool);
-- (_Bool);
+- (_Bool)ons/A/PlugInKit;
+- (_Bool)ork/Versions/A/MetadataUtilities;
 - (unsigned char);
 - (unsigned char);
 - (unsigned char);
-- (_Bool);
-- (_Bool);
+- (_Bool)indicesBatchStride;
+- (_Bool)graphContextEnableNanAndInfChecks;
 - (void);
 - (_Bool);
-- (id);
+- (id)H;
 - (id);
 - (struct CGSize);
 - (_Bool);
@@ -46,24 +32,10 @@
 - (id);
 - (id);
 - (unsigned int);
-- (void);
+- (void)setControlStyle: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) long long bitsPerComponent; // @synthesize bitsPerComponent=_bitsPerComponent;
 @property(readonly) unsigned int codec; // @synthesize codec=_codec;
-@property(readonly) NSString *colorPrimaries; // @synthesize colorPrimaries=_colorPrimaries;
-@property(readonly) struct CGSize displaySize; // @synthesize displaySize=_displaySize;
-@property(readonly) NSString *formatDebugDescription;
-@property(readonly) _Bool hasDolby8_4Metadata; // @synthesize hasDolby8_4Metadata=_hasDolby8_4Metadata;
-@property(readonly) _Bool hasHEVCProfileTierLevelInfo; // @synthesize hasHEVCProfileTierLevelInfo=_hasHEVCProfileTierLevelInfo;
-@property(readonly) unsigned char hevcLevel; // @synthesize hevcLevel=_hevcLevel;
-@property(readonly) unsigned char hevcProfile; // @synthesize hevcProfile=_hevcProfile;
-@property(readonly) unsigned char hevcTier; // @synthesize hevcTier=_hevcTier;
-@property(readonly) _Bool isHDR10; // @synthesize isHDR10=_isHDR10;
-@property(readonly) _Bool isHighDynamicRange; // @synthesize isHighDynamicRange=_isHighDynamicRange;
-@property(readonly) _Bool isProResLOG; // @synthesize isProResLOG=_isProResLOG;
-@property(readonly) _Bool isSpatial; // @synthesize isSpatial=_isSpatial;
-@property(readonly) NSString *transferFunction; // @synthesize transferFunction=_transferFunction;
 
 @end
 

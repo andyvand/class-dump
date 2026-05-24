@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INSettingMetadata, INSpeakableString;
+@class INSettingMetadata;
 
 @protocol INOpenSettingIntentExport
 
 // Remaining properties
-@property(copy) INSpeakableString *searchQuery;
 @property(copy) INSettingMetadata *settingMetadata;
 @end
 

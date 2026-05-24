@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface _DASWigetBudgetDecrementRequestResult
 {
     _Bool _successful;
-    NSString *_widgetBudgetID;
-    NSNumber *_balance;
 }
 
 - (id);
@@ -22,8 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *balance; // @synthesize balance=_balance;
-@property(nonatomic) _Bool successful; // @synthesize successful=_successful;
 @property(retain, nonatomic) NSString *widgetBudgetID; // @synthesize widgetBudgetID=_widgetBudgetID;
 
 @end

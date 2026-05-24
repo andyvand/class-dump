@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BTMAgentConnection, NSArray, NSDictionary, NSHashTable, NSObject, NSString;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class NSHashTable;
 
 __attribute__((visibility("hidden")))
 @interface SFLLoginItemList
 {
     id _internalObservers;
-    id _internalAgentConnection;
-    id _items;
-    unsigned long long _seed;
-    NSString *_identifier;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    struct os_unfair_lock_s _internalObserverLock;
-    NSObject<OS_dispatch_group> *_internalInitializeGroup;
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -34,18 +26,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id)utSizeLowerBoundOnly;
+- (_Bool)\-;
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)Q;
 - (void);
 - (id);
+- (void)g",C,N,V_operationID;
+- (void);
 - (id);
+- (id)compatible with exact rowbytes ratio.;
 - (void);
 - (id);
 - (_Bool);
@@ -54,20 +46,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)tems;
 
 // Remaining properties
-@property(readonly, copy) NSArray *allItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly) BTMAgentConnection *internalAgentConnection; // @synthesize internalAgentConnection=_internalAgentConnection;
 @property(readonly) NSHashTable *observers; // @synthesize observers=_internalObservers;
-@property(copy) NSDictionary *properties;
-@property(readonly) unsigned long long seed;
-@property(readonly, copy) NSArray *snapshotItems;
-@property(readonly) Class superclass;
 
 @end
 

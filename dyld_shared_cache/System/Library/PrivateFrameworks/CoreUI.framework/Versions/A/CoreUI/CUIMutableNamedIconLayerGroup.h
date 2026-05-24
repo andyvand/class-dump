@@ -13,13 +13,13 @@
     NSString *_appearance;
 }
 
+- (void)h;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void):(id)arg1 %s (%d);
 - (void);
 - (id);
 - (void);
@@ -27,7 +27,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 
 @end

@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _ICContact;
+@class NSString;
 
 @interface _ICContactRecord
 {
     unsigned char _changeType;
-    unsigned char _source;
-    NSString *_identifier;
-    _ICContact *_contact;
 }
 
 - (_Bool);
 - (id);
-- (id);
+- (id): /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (id);
-- (unsigned char);
+- (id)';
 - (id);
 - (unsigned char);
-- (void);
+- (id)TimeToLive;
+- (unsigned char)nload for %@ %@ (%lu);
+- (void))A;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned char changeType; // @synthesize changeType=_changeType;
-@property(readonly, nonatomic) _ICContact *contact; // @synthesize contact=_contact;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) unsigned char source; // @synthesize source=_source;
 
 @end
 

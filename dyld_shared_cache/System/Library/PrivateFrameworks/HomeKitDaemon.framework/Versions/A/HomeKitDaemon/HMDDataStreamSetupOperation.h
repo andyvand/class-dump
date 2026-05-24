@@ -4,51 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHAPAccessory, HMDService, NSMutableSet, NSObject, NSString;
-@protocol HMDDataStreamSetupOperationDelegate, OS_dispatch_queue;
+@class HMDHAPAccessory;
+@protocol HMDDataStreamSetupOperationDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HMDDataStreamSetupOperation
 {
     id <HMDDataStreamSetupOperationDelegate> _delegate;
-    HMDHAPAccessory *_accessory;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSString *_logIdentifier;
-    HMDService *_transferManagementService;
-    NSMutableSet *_pendingBulkSendListeners;
 }
 
 + (id);
 + (id);
+- (id)6;
+- (_Bool)haredTripCapabilityFetchingServer fetchCapabilitiesForContacts:(id)arg1 ];
+- (void);
+- (void)\;
+- (void);
+- (id)n;
+- (void);
 - (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (id)¡ß!ÔCù±ð1Â0@ù
 × ;
-- (id)ControllerUpdatedDestinationNotification: /* Error: Ran out of types for this method. */;
+- (id)handleMediaDestinationControllerUpdatedDestinationNotification: /* Error: Ran out of types for this method. */;
 - (void)y for home: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) HMDHAPAccessory *accessory; // @synthesize accessory=_accessory;
-@property(nonatomic) __weak id <HMDDataStreamSetupOperationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly, nonatomic) NSMutableSet *pendingBulkSendListeners; // @synthesize pendingBulkSendListeners=_pendingBulkSendListeners;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) HMDService *transferManagementService; // @synthesize transferManagementService=_transferManagementService;
 
 @end
 

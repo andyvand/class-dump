@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SecureBackupBeginPasscodeRequestResults
 {
     NSString *_iCloudEnvironment;
-    NSString *_escrowFederation;
-    NSData *_cert;
-    NSString *_dsid;
-    NSString *_uuid;
 }
 
-+ (_Bool);
++ (_Bool)qT{QZ;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)A;
 - (void);
-- (id);
+- (id)be inside <ttm:agent> /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSData *cert; // @synthesize cert=_cert;
-@property(readonly) NSString *dsid; // @synthesize dsid=_dsid;
-@property(readonly) NSString *escrowFederation; // @synthesize escrowFederation=_escrowFederation;
 @property(readonly) NSString *iCloudEnvironment; // @synthesize iCloudEnvironment=_iCloudEnvironment;
-@property(readonly) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

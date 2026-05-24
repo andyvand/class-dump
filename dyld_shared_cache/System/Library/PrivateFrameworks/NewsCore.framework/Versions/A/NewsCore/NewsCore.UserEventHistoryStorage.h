@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCUserEventHistoryMetadata, NSArray, NSDate;
+@class NSArray;
 
 @interface NewsCore.UserEventHistoryStorage
 {
     id privateZone;
-    id logger;
-    void prunedSessionIDs;
-    unsigned long long prunedSessionSize;
-    id _metadata;
 }
 
 - (void);
@@ -27,23 +23,16 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)aceholder _placeholderForInstallable:(id)arg1 client:(id)arg2 installType:metadata:isFromSerializedPlaceholder:location:error:] /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (_Bool);
-- (id)acheFallbackForArticleRecirculation;
-- (void)ndleConfig;
+- (id)enableCacheFallbackForArticleRecirculation;
+- (void)paidBundleConfig;
 - (id)¸;
 
 // Remaining properties
-@property(nonatomic, readonly) NSDate *earliestSessionDate;
-@property(nonatomic, readonly) _Bool isEmpty;
-@property(nonatomic, readonly) FCUserEventHistoryMetadata *metadata;
-@property(nonatomic, copy) NSArray *prunedSessionIDs;
-@property(nonatomic) unsigned long long prunedSessionSize; // @synthesize prunedSessionSize;
 @property(nonatomic, readonly) NSArray *sessionIDs;
-@property(nonatomic, readonly) NSArray *sessions;
-@property(nonatomic, readonly) unsigned long long size;
 
 @end
 

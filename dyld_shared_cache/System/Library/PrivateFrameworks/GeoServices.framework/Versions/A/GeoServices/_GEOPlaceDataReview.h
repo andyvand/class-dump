@@ -4,43 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDPlace, GEOPDReview, NSDate, NSString;
+@class GEOPDPlace;
 
 @interface _GEOPlaceDataReview
 {
     GEOPDPlace *_placeData;
-    GEOPDReview *_review;
 }
 
 - (id);
-- (double);
-- (id);
-- (id);
-- (double);
-- (double);
-- (id);
-- (id);
-- (id);
-- (id)_FORMAT_TYPE_TAPPABLE_ENTITY;
+- (double)insertNewObjectForEntityForName:inManagedObjectContext: /* Error: Ran out of types for this method. */;
+- (id)initWithUniqueId:managedObjectContext: /* Error: Ran out of types for this method. */;
+- (id)initWithURL:readOnly:legacyIdentifierRegistrar: /* Error: Ran out of types for this method. */;
+- (double)imageHash;
+- (double)getValue:forExtendendAttribute:url:error: /* Error: Ran out of types for this method. */;
+- (id)fetchRequestForAllStoresIncludingDisabled: /* Error: Ran out of types for this method. */;
+- (id)fetchRequestForAllStoresIncludingDisabled: /* Error: Ran out of types for this method. */;
+- (id)assignIOSLegacyIdentifiersToInsertedRecordsInManagedObjectContext:error: /* Error: Ran out of types for this method. */;
+- (id)PLACE_SUMMARY_FORMAT_TYPE_TAPPABLE_ENTITY;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_date) NSDate *date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=_identifier) NSString *identifier;
-@property(readonly, nonatomic, getter=_localizedSnippet) NSString *localizedSnippet;
-@property(readonly, nonatomic, getter=_localizedSnippetLocale) NSString *localizedSnippetLocale;
-@property(readonly, nonatomic, getter=_maxScore) double maxScore;
-@property(readonly, nonatomic, getter=_normalizedScore) double normalizedScore;
-@property(readonly, nonatomic, getter=_reviewerImageURLString) NSString *reviewerImageURLString;
-@property(readonly, nonatomic, getter=_reviewerName) NSString *reviewerName;
 @property(readonly, nonatomic, getter=_score) double score;
-@property(readonly) Class superclass;
 
 @end
 

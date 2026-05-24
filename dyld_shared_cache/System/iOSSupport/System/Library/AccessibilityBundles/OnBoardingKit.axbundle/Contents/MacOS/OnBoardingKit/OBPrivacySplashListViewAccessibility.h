@@ -10,9 +10,9 @@
 {
 }
 
-+ (Class);
++ (Class)raitCollection"16@0:8 /* Error: Ran out of types for this method. */;
 + (id);
-+ (void);
++ (void)(;
 - (void);
 - (void);
 - (id);

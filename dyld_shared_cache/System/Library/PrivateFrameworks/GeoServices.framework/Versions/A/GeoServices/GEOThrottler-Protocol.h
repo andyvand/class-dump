@@ -4,8 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary;
+
 @protocol GEOThrottler
-- (id)ypointTypeds;
+- (NSDictionary *)rigin"{CGPoint="x"d"y"d}"offset"{CGPoint="x"d"y"d}"position"q"desiredPoint"{CGPoint="x"d"y"d}"desiredBounds"{CGRect="origin"{CGPoint="x"d"y"d}"size"{CGSize="width"d"height"d}}};
+- (id)intermediateWaypointTypeds;
 - (_Bool)ion from maneuver:%{private}@ /* Error: Ran out of types for this method. */;
 - (double)BAJEcíï©P@;
 

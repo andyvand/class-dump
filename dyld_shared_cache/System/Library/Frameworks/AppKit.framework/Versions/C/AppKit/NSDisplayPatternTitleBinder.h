@@ -11,17 +11,17 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-- (Class);
-- (_Bool);
++ (id)ookie. Cookie = %@;
++ (_Bool)- ignoring it;
++ (id)HTTPProtocol;
++ (id)@;
++ (id)@;
+- (Class)R`V;
+- (_Bool)setTimeoutIntervalForRequest:(id)arg1;
+- (id)m response handle %p;
+- (void)kTubeTypeHTTP3;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)@ is %@ (%@);
 
 @end
 

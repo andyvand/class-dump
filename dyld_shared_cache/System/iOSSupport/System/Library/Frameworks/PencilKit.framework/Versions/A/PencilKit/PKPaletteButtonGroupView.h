@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLayoutConstraint, NSString, UIStackView;
+@class UIStackView;
 
 @interface PKPaletteButtonGroupView
 {
     _Bool _useEqualInterItemSpacing;
-    double _scalingFactor;
-    NSArray *_buttons;
-    UIStackView *_buttonStackView;
-    NSLayoutConstraint *_buttonStackViewTopConstraint;
-    NSLayoutConstraint *_buttonStackViewLeadingConstraint;
-    NSLayoutConstraint *_buttonStackViewBottomConstraint;
-    NSLayoutConstraint *_buttonStackViewTrailingConstraint;
-    struct NSDirectionalEdgeInsets _additionalContentMargins;
 }
 
 - (_Bool);
@@ -34,36 +26,20 @@
 - (void);
 - (struct NSDirectionalEdgeInsets);
 - (void);
-- (id);
+- (id);
 - (void);
+- (void)ontainerNode;
+- (void)additionalMessageHeadersForOutgoingPush;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)C;
 - (void);
 - (long long);
 - (id);
 - (double);
-- (void)r;
+- (void)_TtC9PencilKit25StrokeAnimationController;
 
 // Remaining properties
-@property(nonatomic) struct NSDirectionalEdgeInsets additionalContentMargins; // @synthesize additionalContentMargins=_additionalContentMargins;
-@property(nonatomic) long long axis;
 @property(retain, nonatomic) UIStackView *buttonStackView; // @synthesize buttonStackView=_buttonStackView;
-@property(retain, nonatomic) NSLayoutConstraint *buttonStackViewBottomConstraint; // @synthesize buttonStackViewBottomConstraint=_buttonStackViewBottomConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *buttonStackViewLeadingConstraint; // @synthesize buttonStackViewLeadingConstraint=_buttonStackViewLeadingConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *buttonStackViewTopConstraint; // @synthesize buttonStackViewTopConstraint=_buttonStackViewTopConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *buttonStackViewTrailingConstraint; // @synthesize buttonStackViewTrailingConstraint=_buttonStackViewTrailingConstraint;
-@property(copy, nonatomic) NSArray *buttons; // @synthesize buttons=_buttons;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double scalingFactor; // @synthesize scalingFactor=_scalingFactor;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useEqualInterItemSpacing; // @synthesize useEqualInterItemSpacing=_useEqualInterItemSpacing;
 
 @end
 

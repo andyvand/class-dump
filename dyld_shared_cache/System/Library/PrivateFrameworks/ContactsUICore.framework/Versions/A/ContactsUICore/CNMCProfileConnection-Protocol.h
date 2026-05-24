@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CNObservable;
+
 @protocol CNMCProfileConnection
+- (CNObservable *)q;
+- (_Bool)@9;
 @end
 

@@ -16,9 +16,9 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)softErrorUserConfirmationCounters;
 - (id);
-- (id)tionWithIdentifier:(id)arg1 transportIdentifier:completion: /* Error: Ran out of types for this method. */;
+- (id)carKeyGetProductPlanIdentifierRequestForInvitationWithIdentifier:(id)arg1 transportIdentifier:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;

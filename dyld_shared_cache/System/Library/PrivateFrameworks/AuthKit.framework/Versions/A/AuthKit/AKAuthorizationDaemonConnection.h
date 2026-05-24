@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection, NSXPCListenerEndpoint;
-@protocol AKAuthorizationClientProtocol;
+@class NSXPCListenerEndpoint;
 
 @interface AKAuthorizationDaemonConnection
 {
     struct os_unfair_lock_s _unfairLock;
-    NSXPCConnection *_connection;
-    id <AKAuthorizationClientProtocol> _contextManager;
-    NSXPCListenerEndpoint *_listenerEndpoint;
 }
 
 - (void);
@@ -20,9 +16,9 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id)elegate;
+- (id)w;
+- (id)P;
+- (id)AKServerBackoffControllerDelegate;
 - (void);
 - (id)S5péb/âOT]ÝªR*j¯G!	ª®9Ù4 ÷ogZóùÌÍÕóFkáÕÇ¬ËsdÏ´0lðóX&µnã®pÂ!w¸¿F@ÃXBC³	ð?I7¢òÿN¨Tb(1½2HV"pçZÊâúCÒhDµÆ½«Ö¡ÀÁ£¬\vI« ÐÏY mÐÙ£~9Úºvíðrç$ÉÉätmaHìcW:MBüÙ`qD¶ñÂw7Ê=vyªrÝ£ÑÐRoº/9÷J¢Ä¤]Ecqin·yÞô|d1	yÜÕ/û86°@4(×Cº;µò,òÄ^P±ªO/ÿÞÍÙêÂb;À{PáU¡Yz6üýngÄ W!Á?þ(ßN8Wê2ìÁE×!§S5¸iÈ½õ~}ÀÊÃ%Ï×GVÑ×W%ø¦3mÜôJ_K!CØ¿+@»(v²{hs½Ó¨©øT`æêÐ¦®ö¸O;Íî¨¼$>lÝp$déJ\oð¥jóeÈû,ÚÌ°ç-äîÇãh¹´KÒöêÆZjò&ÿä\ ËI©¤¸Îÿ¿B{\-ßP¬ãìO2Üà	EgþEu.æ»#2`ÿ¾ÌÇ#.Å±tôí»'ÏMø·W%MÅÚä;YÎïGWy«,fc\iwQw$bfÐÓ³Î¾Ú¦ÝÝÁ¥kA¸¯áxùCGÜthÓW¿¯Rv()G~LØC¡y<¶	ì`äèõéU¥µe·¨K+úU#Ü&Ô¶ân/õ³üû+²|£Ã|þ /* Error: Ran out of types for this method. */;
 

@@ -14,8 +14,8 @@
 
 + (Class);
 - (void);
-- (void);
-- (void);
+- (void)(;
+- (void)@;
 - (void);
 - (void);
 - (id);

@@ -4,31 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSManagedObjectModel, NSMutableArray, NSMutableDictionary, NSMutableSet, NSNumber, NSSQLModel;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface PFCloudKitMetadataMigrationContext
 {
     NSMutableArray *_migrationStatements;
-    NSMutableArray *_sqlEntitiesToCreate;
-    NSMutableSet *_constrainedEntitiesToPreflight;
-    NSMutableArray *_columnsToDrop;
-    NSMutableDictionary *_storeTableNameToColumnNames;
-    _Bool _hasWorkToDo;
-    _Bool _needsMetdataMigrationToNSCKRecordMetadata;
-    _Bool _needsOldTableDrop;
-    _Bool _needsMirroredRelationshipsLinkedToZone;
-    _Bool _needsImportAfterClientMigration;
-    _Bool _needsBatchUpdateForSystemFieldsAndLastExportedTransaction;
-    _Bool _needsAnalyzedHistoryCheck;
-    _Bool _needsCleanupFromNeedsNewShareInvitationBug;
-    _Bool _needsCleanupFromOrphanedMirroredRelationships;
-    NSManagedObjectModel *_currentModel;
-    NSSQLModel *_sqlModel;
-    NSManagedObjectModel *_storeMetadataModel;
-    NSSQLModel *_storeSQLModel;
-    NSNumber *_storeMetadataVersion;
-    NSDictionary *_storeMetadataVersionHashes;
 }
 
 - (void);

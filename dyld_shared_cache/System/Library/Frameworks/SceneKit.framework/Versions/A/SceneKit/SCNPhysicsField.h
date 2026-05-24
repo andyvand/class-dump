@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SCNNode, SCNPhysicsWorld;
-
 @interface SCNPhysicsField
 {
     struct SCNVector3 _halfExtent;
-    double _strength;
-    double _falloffExponent;
-    double _minimumDistance;
-    _Bool _active;
-    long long _scope;
-    _Bool _usesEllipsoidalExtent;
-    _Bool _exclusive;
-    struct SCNVector3 _offset;
-    struct SCNVector3 _direction;
-    unsigned long long _categoryBitMask;
-    SCNPhysicsWorld *_world;
-    SCNNode *_node;
-    struct c3dPhysicsField *_field;
 }
 
 + (id);
@@ -39,7 +24,7 @@
 + (id);
 + (id);
 + (_Bool);
-+ (id)od;
++ (id)shadow1DLod;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -51,16 +36,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (struct c3dPhysicsField *);
+- (void)C;
+- (struct c3dPhysicsField *);
 - (struct SCNVector3);
 - (unsigned long long);
 - (double);
 - (_Bool);
 - (void);
-- (void);
+- (void)s;
 - (id);
-- (double);
+- (double)e.;
 - (void);
 - (id);
 - (_Bool);
@@ -68,17 +53,17 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)te>",W,V_modalPresentationDelegate;
 - (void);
 - (double);
 - (struct c3dPhysicsField *);
-- (void);
+- (void), album_year, (CASE WHEN season_number > 0 THEN season_number ELSE IFNULL(sort_album, album) END), contains_classical_work, user_rating_is_derived, sync_id, classical_experience_available, store_id, liked_state_changed_date, cloud_library_id, editorial_notes FROM album ;
 - (id);
 - (struct SCNVector3);
 - (void);
 - (void);
-- (void);
-- (void)tiveType:primitiveCount:bytesPerIndex: /* Error: Ran out of types for this method. */;
+- (void)u;
+- (void)_optimizedGeometryElementWithData:primitiveType:primitiveCount:bytesPerIndex: /* Error: Ran out of types for this method. */;
 - (id){  
   return texture2D( s, tc + offset * u_inversePixelSize );
 }
@@ -169,17 +154,7 @@ void main (void)
 - (struct SCNVector3)%d:%@  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active;
-@property(nonatomic) unsigned long long categoryBitMask;
-@property(nonatomic) struct SCNVector3 direction;
-@property(nonatomic, getter=isExclusive) _Bool exclusive;
-@property(nonatomic) double falloffExponent;
-@property(nonatomic) struct SCNVector3 halfExtent;
-@property(nonatomic) double minimumDistance;
-@property(nonatomic) struct SCNVector3 offset;
-@property(nonatomic) long long scope;
 @property(nonatomic) double strength;
-@property(nonatomic) _Bool usesEllipsoidalExtent;
 
 @end
 

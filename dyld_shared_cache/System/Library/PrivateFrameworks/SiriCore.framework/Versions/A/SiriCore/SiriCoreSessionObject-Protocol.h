@@ -4,12 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSObject, NSString;
+@protocol OS_dispatch_data;
 
 @protocol SiriCoreSessionObject
+- (_Bool)@;
+- (_Bool)ps:%@ /* Error: Ran out of types for this method. */;
+- (void)ryRulesController didReceiveNewOldTimestamps:(NSString *)arg1 %@;
+- (NSObject<OS_dispatch_data> *)ations;
+- (NSString *)registered for new/old notifications;
+- (void)iated MCCCategoryRulesController and registered for new/old notifications;
+- (_Bool)c}@;
+- (_Bool)Population request failed:%{public}@ /* Error: Ran out of types for this method. */;
+- (_Bool)s cache;
+- (_Bool):Population request already fulfilled /* Error: Ran out of types for this method. */;
+- (void);
+- (NSString *);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *aceId;
-@property(copy, nonatomic) NSString *refId;
 @end
 

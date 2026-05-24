@@ -4,9 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMDNetworkRouterFirewallRuleConfiguration, HMFVersion, NSSet, NSString;
 @protocol HMDNetworkRouterFirewallRuleManagerInternal;
 
 @protocol HMDNetworkRouterFirewallRuleManagerBackingStoreCoordinator
+- (HMDNetworkRouterFirewallRuleConfiguration *);
+- (void)chargingStopNotificationSubtitle;
+- (NSSet *)capabilityFetchingQueue:(NSSet *)arg1 didFetchStatusForHandles:(long long)arg2;
+- (void)_workQueue;
+- (NSString *)_didChangeSourceWithNewState:(NSString *)arg1 context:(NSString *)arg2 inContainer:(HMFVersion *)arg3;
+- (NSString *)_defaultTransitType;
+- (void)_currentSendersByServiceName;
+- (_Bool)ata;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <HMDNetworkRouterFirewallRuleManagerInternal> firewallRuleManager;

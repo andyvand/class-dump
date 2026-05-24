@@ -10,7 +10,7 @@
 }
 
 - (id);
-- (id);
+- (id);
 - (id);
 - (struct CGRect);
 - (float);
@@ -18,7 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGRect bounds;
 @property(nonatomic) float opacity;
 
 @end

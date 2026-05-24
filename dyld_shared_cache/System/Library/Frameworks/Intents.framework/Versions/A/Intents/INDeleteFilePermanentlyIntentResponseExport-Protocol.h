@@ -7,13 +7,11 @@
 @class NSNumber;
 
 @protocol INDeleteFilePermanentlyIntentResponseExport
-- (NSNumber *)tSettingsInCar:completion: /* Error: Ran out of types for this method. */;
-- (long long)Selector;
-- (void)pLaunch;
+- (NSNumber *)resolveEnableCoolingForSetSeatSettingsInCar:completion: /* Error: Ran out of types for this method. */;
+- (long long)handleSelector;
+- (void)INPayBillIntentResponseCodeFailureRequiringAppLaunch;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSNumber *confirm;
-@property(copy) NSNumber *success;
 @end
 

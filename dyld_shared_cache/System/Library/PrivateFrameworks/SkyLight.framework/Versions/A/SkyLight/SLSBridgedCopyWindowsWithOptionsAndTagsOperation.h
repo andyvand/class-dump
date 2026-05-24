@@ -6,34 +6,28 @@
 
 #import <SkyLight/SLSSynchronousBridgedWindowManagementOperation.h>
 
-@class NSArray, NSData;
+@class NSData;
 
 @interface SLSBridgedCopyWindowsWithOptionsAndTagsOperation : SLSSynchronousBridgedWindowManagementOperation
 {
     NSData *_setTagsData;
-    NSData *_clearedTagsData;
-    unsigned int _owner;
-    unsigned int _options;
-    NSArray *_spaces;
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)tion variable for %@, must be a constant value;
+- (id)ty (%@) is not supported with NSBatchInsertRequest;
+- (id)DROP TABLE ZCHANGETRACKHISTORY;
+- (id)nance:(unsigned int)arg1 %@ override;
+- (void)SELECT TBL_NAME FROM %@ WHERE TBL_NAME = '%@';
+- (void)config for SQLITE_DBCONFIG_ENABLE_ATTACH_WRITE failed:(unsigned int [2])arg1 %d;
 - (id);
 - (unsigned int);
 - (void);
-- (unsigned int);
+- (unsigned int)!;
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned int options; // @synthesize options=_options;
 @property(readonly) unsigned int owner; // @synthesize owner=_owner;
-@property(readonly, copy) NSArray *spaces; // @synthesize spaces=_spaces;
 
 @end
 

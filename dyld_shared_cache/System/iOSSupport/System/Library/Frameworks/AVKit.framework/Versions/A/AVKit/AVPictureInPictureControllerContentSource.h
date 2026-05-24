@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPictureInPictureContentViewController, AVPictureInPictureVideoCallViewController, AVPlayerLayer, AVSampleBufferDisplayLayer, UIView;
-@protocol AVPictureInPictureContentSource, AVPictureInPictureSampleBufferPlaybackDelegate;
-
 @interface AVPictureInPictureControllerContentSource
 {
     struct CGSize _initialRenderSize;
-    AVSampleBufferDisplayLayer *_sampleBufferDisplayLayer;
-    id <AVPictureInPictureSampleBufferPlaybackDelegate> _sampleBufferPlaybackDelegate;
-    _Bool _hasInitialRenderSize;
-    UIView *_activeSourceView;
-    AVPictureInPictureContentViewController *_activeContentViewController;
-    AVPlayerLayer *_playerLayer;
-    id __activeVideoCallSourceView;
-    id <AVPictureInPictureContentSource> __activeVideoCallContentViewController;
 }
 
 + (long long);
@@ -44,18 +33,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <AVPictureInPictureContentSource> _activeVideoCallContentViewController; // @synthesize _activeVideoCallContentViewController=__activeVideoCallContentViewController;
-@property(readonly, nonatomic) __weak id _activeVideoCallSourceView; // @synthesize _activeVideoCallSourceView=__activeVideoCallSourceView;
-@property(readonly, nonatomic) AVPictureInPictureContentViewController *activeContentViewController;
-@property(readonly, nonatomic) __weak UIView *activeSourceView;
-@property(readonly, nonatomic) AVPictureInPictureVideoCallViewController *activeVideoCallContentViewController;
-@property(readonly, nonatomic) __weak UIView *activeVideoCallSourceView;
-@property(readonly, nonatomic) _Bool hasInitialRenderSize; // @synthesize hasInitialRenderSize=_hasInitialRenderSize;
 @property(readonly, nonatomic) struct CGSize initialRenderSize;
-@property(readonly, nonatomic) AVPlayerLayer *playerLayer; // @synthesize playerLayer=_playerLayer;
-@property(readonly, nonatomic) AVSampleBufferDisplayLayer *sampleBufferDisplayLayer;
-@property(readonly, nonatomic) __weak id <AVPictureInPictureSampleBufferPlaybackDelegate> sampleBufferPlaybackDelegate;
-@property(readonly, nonatomic) id <AVPictureInPictureContentSource> source;
 
 @end
 

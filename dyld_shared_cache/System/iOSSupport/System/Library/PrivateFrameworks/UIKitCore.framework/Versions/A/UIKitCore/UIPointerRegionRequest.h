@@ -7,8 +7,6 @@
 @interface UIPointerRegionRequest
 {
     long long _modifiers;
-    long long __pointerType;
-    struct CGPoint _location;
 }
 
 - (void);
@@ -21,9 +19,7 @@
 - (void)w	;
 
 // Remaining properties
-@property(nonatomic) long long _pointerType; // @synthesize _pointerType=__pointerType;
 @property(nonatomic) struct CGPoint location; // @synthesize location=_location;
-@property(nonatomic) long long modifiers; // @synthesize modifiers=_modifiers;
 
 @end
 

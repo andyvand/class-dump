@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _PSSuggestionFromTextPredictor;
-
 @interface _PSSuggestionFromTextPredictorDelegateWrapper
 {
     long long _delegateType;
-    _PSSuggestionFromTextPredictor *_textPredictor;
-    double _startSecondsFromQuery;
-    double _endSecondsFromQuery;
-    float _priorScoreThreshold;
-    _Bool _isEnabled;
-    long long _defaultConfidenceCategory;
 }
 
 - (id);
@@ -25,16 +17,10 @@
 - (void);
 - (void);
 - (void);
-- (void)roupActivities;
+- (void)_PSKnnModelRecencyMarginToRetainGroupActivities;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

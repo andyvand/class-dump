@@ -13,18 +13,18 @@
 
 + (Class);
 - (id);
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)B;
+- (_Bool)(1;
 - (_Bool);
-- (_Bool);
 - (id);
 - (unsigned long long);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void)mendationMappingsJson;
+- (void)hasSportsRecommendationMappingsJson;
 - (void)sPublisherPadApp;
 - (id)X;
 

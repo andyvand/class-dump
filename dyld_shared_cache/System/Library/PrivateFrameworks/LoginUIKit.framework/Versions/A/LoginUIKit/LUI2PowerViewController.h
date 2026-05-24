@@ -6,16 +6,11 @@
 
 #import <LoginUIKit/LUI2ViewController.h>
 
-@class NSMenu, NSPopUpButton;
+@class NSMenu;
 
 @interface LUI2PowerViewController : LUI2ViewController
 {
     _Bool _actionsWillPromptUser;
-    _Bool _restartHidden;
-    _Bool _shutdownHidden;
-    _Bool _sleepHidden;
-    NSMenu *_powerMenu;
-    NSPopUpButton *_powerButton;
 }
 
 - (void);
@@ -26,8 +21,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void))@y));
+- (_Bool)jN;
 - (id);
 - (id);
 - (_Bool);
@@ -40,12 +35,7 @@
 - (void);
 
 // Remaining properties
-@property _Bool actionsWillPromptUser; // @synthesize actionsWillPromptUser=_actionsWillPromptUser;
-@property(retain) NSPopUpButton *powerButton; // @synthesize powerButton=_powerButton;
 @property(retain) NSMenu *powerMenu; // @synthesize powerMenu=_powerMenu;
-@property _Bool restartHidden; // @synthesize restartHidden=_restartHidden;
-@property _Bool shutdownHidden; // @synthesize shutdownHidden=_shutdownHidden;
-@property _Bool sleepHidden; // @synthesize sleepHidden=_sleepHidden;
 
 @end
 

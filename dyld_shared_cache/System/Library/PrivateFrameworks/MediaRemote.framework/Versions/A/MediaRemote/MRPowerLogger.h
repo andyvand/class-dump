@@ -15,7 +15,7 @@
 + (id);
 - (void);
 - (id);
-- (id);
+- (id)y/Frameworks/CoreAudio.framework/CoreAudio;
 - (void)obuf",&,N,V_playbackSessionRequestMessage;
 
 // Remaining properties

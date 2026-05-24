@@ -8,13 +8,11 @@
 
 @protocol _INPBDataValue
 - (_Bool);
+- (_Bool)setPayloadFileShareModes:count: /* Error: Ran out of types for this method. */;
 - (void)rovide vocabulary per on-device-app support because app supports this;
 - (_INPBValueMetadata *)bute of type:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasValue;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
 @property(copy, nonatomic) NSData *value;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata;
 @end
 

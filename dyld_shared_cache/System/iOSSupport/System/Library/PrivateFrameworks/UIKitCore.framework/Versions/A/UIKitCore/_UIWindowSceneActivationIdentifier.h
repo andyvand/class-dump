@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIWindowSceneActivationIdentifier
@@ -13,24 +13,16 @@ __attribute__((visibility("hidden")))
     struct CGPoint _location;
 }
 
-+ (id);
++ (id);
 - (unsigned long long);
 - (_Bool)rivate"b1};
-- (id)orCache;
-- (id)SelectedRangeForCoalescedUndoRedo;
+- (id)_colorCache;
+- (id)_accumulatedSelectedRangeForCoalescedUndoRedo;
 - (struct CGPoint)istency:Unable to add a drop animation container view while another container view is already present. /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) struct CGPoint location; // @synthesize location=_location;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIView *view; // @synthesize view=_view;
 
 @end
 

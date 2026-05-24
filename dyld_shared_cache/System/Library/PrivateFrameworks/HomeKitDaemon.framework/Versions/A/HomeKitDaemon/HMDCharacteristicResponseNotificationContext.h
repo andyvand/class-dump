@@ -4,41 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDCharacteristicResponseNotificationContext
 {
     _Bool _pendingMultiPartResponses;
-    NSUUID *_requestIdentifier;
-    NSSet *_changedCharacteristics;
-    NSSet *_previouslyNilChangedCharacteristics;
-    NSDictionary *_notificationPayloadByAccessoryUUID;
-    NSSet *_responseCharacteristics;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-- (id);
+- (id)body (no destination name);
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id)tyStateMachineTransitionDelegate;
+- (id)HMDHomeActivityStateMachineTransitionDelegate;
 - (id)Home Activity State:%@ /* Error: Ran out of types for this method. */;
 - (void)gger;
 
 // Remaining properties
-@property(readonly, copy) NSSet *changedCharacteristics; // @synthesize changedCharacteristics=_changedCharacteristics;
-@property(readonly, copy) NSDictionary *notificationPayloadByAccessoryUUID; // @synthesize notificationPayloadByAccessoryUUID=_notificationPayloadByAccessoryUUID;
 @property(readonly, getter=hasPendingMultiPartResponses) _Bool pendingMultiPartResponses; // @synthesize pendingMultiPartResponses=_pendingMultiPartResponses;
-@property(readonly, copy) NSSet *previouslyNilChangedCharacteristics; // @synthesize previouslyNilChangedCharacteristics=_previouslyNilChangedCharacteristics;
-@property(readonly, copy) NSUUID *requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;
-@property(readonly, copy) NSSet *responseCharacteristics; // @synthesize responseCharacteristics=_responseCharacteristics;
 
 @end
 

@@ -10,9 +10,9 @@
 {
 }
 
-- (_Bool);
-- (id);
-- (id)atchingAlpha;
+- (_Bool)pressiveSendStyleIdentifier;
+- (id)with expected GUID %s already exists, cannot reset 1-1 chat GUID;
+- (id)viewForMatchingAlpha;
 
 @end
 

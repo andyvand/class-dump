@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class CNVSchemaCNVPreFlowPrepareEnded, CNVSchemaCNVPreFlowPrepareStarted, NSData;
+@class CNVSchemaCNVPreFlowPrepareStarted;
 
 @interface CNVSchemaCNVPreFlowPrepareContext : SISchemaInstrumentationMessage
 {
     CNVSchemaCNVPreFlowPrepareStarted *_startedOrChanged;
-    CNVSchemaCNVPreFlowPrepareEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -36,17 +32,12 @@
 - (_Bool);
 - (id);
 - (id)elOutputError";
-- (id)hemaMHCarplayLanguageMismatch;
+- (id)MHSchemaMHCarplayLanguageMismatch;
 - (id),;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CNVSchemaCNVPreFlowPrepareEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) CNVSchemaCNVPreFlowPrepareStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

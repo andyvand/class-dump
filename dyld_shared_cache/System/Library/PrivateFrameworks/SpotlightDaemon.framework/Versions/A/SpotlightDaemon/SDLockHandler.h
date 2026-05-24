@@ -9,15 +9,14 @@
 @interface SDLockHandler
 {
     id <SDLockHandlerDelegate> _delegate;
-    unsigned long long _options;
 }
 
 + (id);
-+ (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
++ (void)context;
+- (void)handleDidAddUserWithUserID: /* Error: Ran out of types for this method. */;
+- (_Bool)handleDidAddHome;
+- (_Bool)handleDarkPollRequestWithOverride: /* Error: Ran out of types for this method. */;
+- (void)handleCurrentNetworkDidChangeNotification: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (_Bool);

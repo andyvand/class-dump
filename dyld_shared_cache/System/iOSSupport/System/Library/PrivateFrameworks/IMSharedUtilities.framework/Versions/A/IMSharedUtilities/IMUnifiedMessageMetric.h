@@ -4,57 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString;
-
 @interface IMUnifiedMessageMetric
 {
     void messageGUID;
-    void conversationID;
-    long long direction;
-    long long transportType;
-    long long serviceType;
-    _Bool isReflection;
-    long long downgradedFromServiceType;
-    _Bool deferRCSMetricSubmission;
-    long long chatType;
-    _Bool isHybridGroup;
-    _Bool isChatBot;
-    _Bool isEmergencySOS;
-    _Bool isHybridMessage;
-    _Bool isEncrypted;
-    unsigned long long senderComposition;
-    unsigned long long participantComposition;
-    long long sendingSIMStatus;
-    void previewGenerationFailureReason;
-    long long previewGenerationStatus;
-    double timeSinceSend;
-    double messageLatency;
-    unsigned long long messageSize;
-    unsigned long long totalFileTransferSize;
-    void transferTypes;
-    long long messageType;
-    _Bool hasAttachments;
-    long long messageStatus;
-    unsigned int messageError;
-    void messageErrorDescription;
-    double timeSinceLastMessage;
-    unsigned long long lowQualityStatus;
-    long long ctErrorDomain;
-    long long ctErrorCode;
-    long long chatBotParsingStatus;
-    void chatBotParsingFailureReason;
-    long long imdnReceiveStatus;
-    void imdnErrorDomain;
-    long long imdnErrorCode;
-    id assetVersion;
-    id bytesSavedWithCompression;
-    id codecID;
-    long long keyExchangeStatus;
-    _Bool recipientIsPrimaryHandle;
-    _Bool recipientIsQualifiedHandle;
-    unsigned int satelliteMessageError;
-    id timeSinceSendViaSatellite;
-    _Bool strugglingMessageIndicationSent;
 }
 
 + (long long);
@@ -92,7 +44,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)(jn#)k;
 - (void);
 - (void);
 - (void);
@@ -102,13 +54,13 @@
 - (long long);
 - (unsigned long long);
 - (unsigned int);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (long long);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (long long);
 - (double);
@@ -143,7 +95,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)R;
 - (void);
 - (id);
 - (void);
@@ -155,7 +107,7 @@
 - (_Bool);
 - (long long);
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
@@ -167,54 +119,7 @@
 - (long long)in, skipping letting SafetyMonitorManager know of group photo change;
 
 // Remaining properties
-@property(nonatomic, retain) NSNumber *assetVersion;
-@property(nonatomic, retain) NSNumber *bytesSavedWithCompression;
-@property(nonatomic, copy) NSString *chatBotParsingFailureReason;
-@property(nonatomic) long long chatBotParsingStatus; // @synthesize chatBotParsingStatus;
-@property(nonatomic) long long chatType; // @synthesize chatType;
-@property(nonatomic, retain) NSNumber *codecID;
-@property(nonatomic, copy) NSString *conversationID;
-@property(nonatomic) long long ctErrorCode; // @synthesize ctErrorCode;
-@property(nonatomic) long long ctErrorDomain; // @synthesize ctErrorDomain;
-@property(nonatomic) _Bool deferRCSMetricSubmission; // @synthesize deferRCSMetricSubmission;
-@property(nonatomic) long long direction; // @synthesize direction;
-@property(nonatomic) long long downgradedFromServiceType; // @synthesize downgradedFromServiceType;
-@property(nonatomic) _Bool hasAttachments; // @synthesize hasAttachments;
-@property(nonatomic) long long imdnErrorCode; // @synthesize imdnErrorCode;
-@property(nonatomic, copy) NSString *imdnErrorDomain;
-@property(nonatomic) long long imdnReceiveStatus; // @synthesize imdnReceiveStatus;
-@property(nonatomic) _Bool isChatBot; // @synthesize isChatBot;
 @property(nonatomic, readonly) _Bool isEmergencyNumber;
-@property(nonatomic) _Bool isEmergencySOS; // @synthesize isEmergencySOS;
-@property(nonatomic) _Bool isEncrypted; // @synthesize isEncrypted;
-@property(nonatomic) _Bool isHybridGroup; // @synthesize isHybridGroup;
-@property(nonatomic) _Bool isHybridMessage; // @synthesize isHybridMessage;
-@property(nonatomic) _Bool isReflection; // @synthesize isReflection;
-@property(nonatomic) long long keyExchangeStatus; // @synthesize keyExchangeStatus;
-@property(nonatomic) unsigned long long lowQualityStatus; // @synthesize lowQualityStatus;
-@property(nonatomic) unsigned int messageError; // @synthesize messageError;
-@property(nonatomic, copy) NSString *messageErrorDescription;
-@property(nonatomic, copy) NSString *messageGUID;
-@property(nonatomic) double messageLatency; // @synthesize messageLatency;
-@property(nonatomic) unsigned long long messageSize; // @synthesize messageSize;
-@property(nonatomic) long long messageStatus; // @synthesize messageStatus;
-@property(nonatomic) long long messageType; // @synthesize messageType;
-@property(nonatomic) unsigned long long participantComposition; // @synthesize participantComposition;
-@property(nonatomic, copy) NSString *previewGenerationFailureReason;
-@property(nonatomic) long long previewGenerationStatus; // @synthesize previewGenerationStatus;
-@property(nonatomic) _Bool recipientIsPrimaryHandle; // @synthesize recipientIsPrimaryHandle;
-@property(nonatomic) _Bool recipientIsQualifiedHandle; // @synthesize recipientIsQualifiedHandle;
-@property(nonatomic) unsigned int satelliteMessageError; // @synthesize satelliteMessageError;
-@property(nonatomic) unsigned long long senderComposition; // @synthesize senderComposition;
-@property(nonatomic) long long sendingSIMStatus; // @synthesize sendingSIMStatus;
-@property(nonatomic) long long serviceType; // @synthesize serviceType;
-@property(nonatomic) _Bool strugglingMessageIndicationSent; // @synthesize strugglingMessageIndicationSent;
-@property(nonatomic) double timeSinceLastMessage; // @synthesize timeSinceLastMessage;
-@property(nonatomic) double timeSinceSend; // @synthesize timeSinceSend;
-@property(nonatomic, retain) NSNumber *timeSinceSendViaSatellite;
-@property(nonatomic) unsigned long long totalFileTransferSize; // @synthesize totalFileTransferSize;
-@property(nonatomic, copy) NSArray *transferTypes;
-@property(nonatomic) long long transportType; // @synthesize transportType;
 
 @end
 

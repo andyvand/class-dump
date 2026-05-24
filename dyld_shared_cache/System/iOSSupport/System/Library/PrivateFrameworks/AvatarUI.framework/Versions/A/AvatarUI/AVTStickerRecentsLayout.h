@@ -7,11 +7,6 @@
 @interface AVTStickerRecentsLayout
 {
     _Bool _laysOutVertically;
-    long long _numberOfItems;
-    long long _numberOfItemsPerRow;
-    long long _numberOfItemsPerColumn;
-    long long _interitemPadding;
-    long long _appButtonIndex;
 }
 
 + (struct CGSize);
@@ -20,18 +15,13 @@
 - (_Bool);
 - (long long);
 - (id);
-- (long long);
+- (long long)C;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)nted;
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long appButtonIndex; // @synthesize appButtonIndex=_appButtonIndex;
-@property(readonly, nonatomic) long long interitemPadding; // @synthesize interitemPadding=_interitemPadding;
-@property(readonly, nonatomic) _Bool laysOutVertically; // @synthesize laysOutVertically=_laysOutVertically;
 @property(readonly, nonatomic) long long numberOfItems; // @synthesize numberOfItems=_numberOfItems;
-@property(readonly, nonatomic) long long numberOfItemsPerColumn; // @synthesize numberOfItemsPerColumn=_numberOfItemsPerColumn;
-@property(readonly, nonatomic) long long numberOfItemsPerRow; // @synthesize numberOfItemsPerRow=_numberOfItemsPerRow;
 
 @end
 

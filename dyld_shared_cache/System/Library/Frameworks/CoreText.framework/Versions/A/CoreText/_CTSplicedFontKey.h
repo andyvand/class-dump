@@ -10,39 +10,26 @@ __attribute__((visibility("hidden")))
 @interface _CTSplicedFontKey
 {
     unsigned long long _hash;
-    _Bool _ignoreLegibilityWeight;
-    unsigned int _grade;
-    unsigned int _platform;
-    unsigned int _modifier;
-    NSString *_name;
-    NSString *_language;
-    double _lineHeightRatio;
-    double _lineSpacingOverride;
-    long long _legibilityWeight;
-    unsigned long long _sizeCategory;
-    NSString *_design;
-    double _weight;
-    double _width;
-    NSString *_variableSizeParameter;
 }
 
 - (long long);
 - (void);
-- (unsigned int);
+- (unsigned int)!!!!;
 - (void);
 - (void);
 - (double);
 - (id);
-- (void);
-- (id);
-- (double);
+- (void);
+- (id)xpc_connection_send_message_with_reply handler called back
+;
+- (double)oudStorage;
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (double);
 - (void);
@@ -51,7 +38,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned int);
 - (void);
-- (id);
+- (id)!!;
 - (id);
 - (double);
 - (void);
@@ -61,20 +48,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *design; // @synthesize design=_design;
-@property(nonatomic) unsigned int grade; // @synthesize grade=_grade;
-@property(nonatomic) _Bool ignoreLegibilityWeight; // @synthesize ignoreLegibilityWeight=_ignoreLegibilityWeight;
-@property(retain, nonatomic) NSString *language; // @synthesize language=_language;
-@property(nonatomic) long long legibilityWeight; // @synthesize legibilityWeight=_legibilityWeight;
-@property(nonatomic) double lineHeightRatio; // @synthesize lineHeightRatio=_lineHeightRatio;
-@property(nonatomic) double lineSpacingOverride; // @synthesize lineSpacingOverride=_lineSpacingOverride;
-@property(nonatomic) unsigned int modifier; // @synthesize modifier=_modifier;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned int platform; // @synthesize platform=_platform;
-@property(nonatomic) unsigned long long sizeCategory; // @synthesize sizeCategory=_sizeCategory;
-@property(nonatomic) NSString *variableSizeParameter; // @synthesize variableSizeParameter=_variableSizeParameter;
-@property(nonatomic) double weight; // @synthesize weight=_weight;
-@property(nonatomic) double width; // @synthesize width=_width;
 
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSImage, NSString, PXFaceTileImageCombiner, PXFaceTileImageCombinerContext, PXSharedLibraryFaceTileImageProviderModel;
+@class CNContact, PXSharedLibraryFaceTileImageProviderModel;
 
 @interface PXSharedLibraryFaceTileImageProvider
 {
     CNContact *_meContact;
-    PXFaceTileImageCombiner *_faceTileImageCombiner;
-    PXFaceTileImageCombinerContext *_context;
-    PXSharedLibraryFaceTileImageProviderModel *_providerModel;
-    NSImage *_combinedImage;
 }
 
 - (void);
@@ -27,15 +23,7 @@
 - (void)tsChangePublisher;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSImage *combinedImage; // @synthesize combinedImage=_combinedImage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) PXSharedLibraryFaceTileImageProviderModel *providerModel; // @synthesize providerModel=_providerModel;
-@property(readonly) Class superclass;
 
 @end
 

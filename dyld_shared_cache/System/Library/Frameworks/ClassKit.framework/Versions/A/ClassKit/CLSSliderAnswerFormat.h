@@ -6,57 +6,39 @@
 
 #import <ClassKit/CLSAnswerFormat.h>
 
-@class NSString;
-
 @interface CLSSliderAnswerFormat : CLSAnswerFormat
 {
     long long _maximum;
-    long long _minimum;
-    NSString *_leadingValueLabel;
-    NSString *_trailingValueLabel;
-    NSString *_midValueLabel;
-    long long _type;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)_delegate_startSignOutFlowForAccount:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)Xa;
+- (_Bool)8F;
+- (_Bool):(id *)arg1 %x 
+;
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (_Bool);
 - (void);
-- (long long);
+- (long long);
 - (id);
 - (void);
 - (void);
 - (long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *leadingValueLabel;
-@property(nonatomic) long long maximum;
-@property(copy, nonatomic) NSString *midValueLabel;
-@property(nonatomic) long long minimum;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *trailingValueLabel;
-@property(readonly, nonatomic) long long type;
 
 @end
 

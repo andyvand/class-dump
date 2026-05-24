@@ -6,13 +6,12 @@
 
 #import <ContactsUI/CNVisualIdentityPickerViewController.h>
 
-@class CNMutableContact, NSString;
+@class CNMutableContact;
 @protocol CNPhotoPickerViewControllerDelegate;
 
 @interface CNPhotoPickerViewController : CNVisualIdentityPickerViewController
 {
     id <CNPhotoPickerViewControllerDelegate> delegate;
-    CNMutableContact *_pendingEditContact;
 }
 
 + (id);
@@ -33,12 +32,10 @@
 - (void);
 - (id);
 - (void);
-- (void)Name:property: /* Error: Ran out of types for this method. */;
-- (void)tCardSwiftUIWrapper;
+- (void)_phoneticNameForValue:currentPhoneticName:property: /* Error: Ran out of types for this method. */;
+- (void)ContactCardSwiftUIWrapper;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *assignActionTitleOverride; // @dynamic assignActionTitleOverride;
-@property(nonatomic) __weak id <CNPhotoPickerViewControllerDelegate> delegate; // @synthesize delegate;
 @property(retain, nonatomic) CNMutableContact *pendingEditContact; // @synthesize pendingEditContact=_pendingEditContact;
 
 @end

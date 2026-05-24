@@ -6,19 +6,11 @@
 
 #import <MapsSuggestions/MapsSuggestionsBaseTrigger.h>
 
-@class CLLocation, MapsSuggestionsCanKicker, MapsSuggestionsQueue, NSString;
-@protocol MapsSuggestionsLocationUpdater;
+@class CLLocation, NSString;
 
 @interface MapsSuggestionsRangeTrigger : MapsSuggestionsBaseTrigger
 {
     CLLocation *_destinationLocation;
-    double _radius;
-    _Bool _onEnter;
-    double _forceUpdateTime;
-    id <MapsSuggestionsLocationUpdater> _locationUpdater;
-    id <MapsSuggestionsLocationUpdater> _forcingLocationUpdater;
-    MapsSuggestionsCanKicker *_locationForceUpdate;
-    MapsSuggestionsQueue *_queue;
 }
 
 - (_Bool);
@@ -31,13 +23,6 @@
 - (void)48d56d64d72Q80B88#92#100;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uniqueName;
 
 @end

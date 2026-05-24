@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, PGGraph;
+@class PGGraph;
 
 @interface PGGraphTimeDomainBuildingHelper
 {
     PGGraph *_graph;
-    NSMutableDictionary *_calendarUnitNodeByValueByUnit;
-    NSMutableDictionary *_seasonNodeBySeasonName;
-    NSMutableDictionary *_dayOfWeekNodeByDayOfWeek;
 }
 
 - (id);

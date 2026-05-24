@@ -4,50 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage, UIImageView, UILabel;
+@class UIImageView;
 
 __attribute__((visibility("hidden")))
 @interface CNContactSuggestionsCollectionViewCell
 {
     UIImageView *_avatarView;
-    UIImageView *_checkImageView;
-    UIImageView *_checkImageBackgroundView;
-    UILabel *_nameLabel;
 }
 
 + (id);
-- (_Bool);
+- (_Bool)	kc;
+- (void)@Q;
 - (void);
 - (void);
+- (void);
+- (id)k(;
+- (id)46;
 - (void);
 - (void);
 - (id);
+- (void);
+- (id)9;
+- (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)dataWithBytesNoCopy:(struct CGRect)arg1 length:freeWhenDone: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (void);
 - (void)!E°!8CùÑtð1Â0@ù
 × ;
-- (void)eLabel;
+- (void)_accountNameLabel;
 - (id)FMLHandle",&,N,V_handle;
 
 // Remaining properties
 @property(retain, nonatomic) UIImageView *avatarView; // @synthesize avatarView=_avatarView;
-@property(retain, nonatomic) UIImageView *checkImageBackgroundView; // @synthesize checkImageBackgroundView=_checkImageBackgroundView;
-@property(retain, nonatomic) UIImageView *checkImageView; // @synthesize checkImageView=_checkImageView;
-@property(retain, nonatomic) NSString *displayString;
-@property(retain, nonatomic) UIImage *image;
-@property(retain, nonatomic) UILabel *nameLabel; // @synthesize nameLabel=_nameLabel;
 
 @end
 

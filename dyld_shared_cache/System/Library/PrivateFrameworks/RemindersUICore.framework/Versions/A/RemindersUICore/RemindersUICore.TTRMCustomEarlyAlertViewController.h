@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPopUpButton, NSTextField;
+@class NSTextField;
 
 @interface RemindersUICore.TTRMCustomEarlyAlertViewController
 {
     id displayDate;
-    id viewModel;
-    void intervalTextField;
-    void intervalUnitPopup;
-    void earlyAlertWarningTextField;
-    id presenter;
-    id maxIntervalValue;
-    id $__lazy_storage_$_orderedUnits;
 }
 
 - (void);
@@ -34,9 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak NSTextField *earlyAlertWarningTextField; // @synthesize earlyAlertWarningTextField;
 @property(nonatomic) __weak NSTextField *intervalTextField; // @synthesize intervalTextField;
-@property(nonatomic) __weak NSPopUpButton *intervalUnitPopup; // @synthesize intervalUnitPopup;
 
 @end
 

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PSGExperimentResolver, PSGInputSuggesterMetricsLogger, _PASBundleIdResolver;
+@class NSString;
 @protocol PSGInputSuggesterProtocol;
 
 @interface PSGInputSuggesterServerRequestHandler
 {
     id <PSGInputSuggesterProtocol> _clientProxy;
-    PSGExperimentResolver *_experimentResolver;
-    PSGInputSuggesterMetricsLogger *_metricsLogger;
-    NSString *_clientProcessName;
-    _PASBundleIdResolver *_bundleIdResolver;
 }
 
 - (void);
@@ -21,17 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id).;
 - (id);
 - (void);
 - (void);
@@ -40,11 +26,20 @@
 - (void);
 - (void);
 - (void);
+- (id)handle RavenGnssAssistanceFileEvent;
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void)trackerForModelName:modelVersion:modelLocale: /* Error: Ran out of types for this method. */;
+- (void)t;
 - (void);
 - (id)Æ;
 
 // Remaining properties
-@property(retain, nonatomic) _PASBundleIdResolver *bundleIdResolver; // @synthesize bundleIdResolver=_bundleIdResolver;
 @property(copy, nonatomic) NSString *clientProcessName; // @synthesize clientProcessName=_clientProcessName;
 
 @end

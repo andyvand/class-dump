@@ -11,9 +11,6 @@
 @interface MCMotionTrigger : MCAction
 {
     NSString *_key;
-    double _duration;
-    double _easeIn;
-    double _easeOut;
 }
 
 + (id);
@@ -23,19 +20,16 @@
 - (double);
 - (void);
 - (void);
-- (double);
+- (double)S;
 - (id);
 - (id);
 - (id);
 - (double);
 - (void);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(nonatomic) double easeIn; // @synthesize easeIn=_easeIn;
-@property(nonatomic) double easeOut; // @synthesize easeOut=_easeOut;
 @property(copy) NSString *key; // @synthesize key=_key;
 
 @end

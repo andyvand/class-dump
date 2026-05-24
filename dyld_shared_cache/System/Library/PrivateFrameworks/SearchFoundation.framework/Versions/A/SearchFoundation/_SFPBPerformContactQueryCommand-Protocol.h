@@ -7,9 +7,11 @@
 @class NSData, NSString;
 
 @protocol _SFPBPerformContactQueryCommand
+- (void)_conversationGroupUUID;
+- (NSString *);
+- (NSData *)setDisplayName: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *contactIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

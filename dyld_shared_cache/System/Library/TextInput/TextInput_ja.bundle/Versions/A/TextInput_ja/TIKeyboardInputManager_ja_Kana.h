@@ -12,29 +12,19 @@
 {
     _Bool _is3x3;
     _Bool _isFlickOnly;
-    _Bool _knowInputMode;
-    _Bool _knowHardwareMode;
-    _Bool _knowSplitMode;
-    NSDictionary *_kanaFlickDirectionMap_current;
-    NSDictionary *_kanaFlickKeyMap_current;
-    _Bool _supportsFlickAutocorrection;
-    NSDictionary *_kanaFlickDirectionMap_3x3;
-    NSDictionary *_kanaFlickDirectionMap_50on;
-    NSDictionary *_kanaFlickKeyMap_3x3;
-    NSDictionary *_kanaFlickKeyMap_50on;
 }
 
 + (Class);
 - (_Bool);
 - (void);
 - (void);
+- (void)h;
 - (void);
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)H;
 - (id);
 - (id);
 - (unsigned short);
@@ -45,20 +35,17 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (struct _NSRange);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)function;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *kanaFlickDirectionMap_3x3; // @synthesize kanaFlickDirectionMap_3x3=_kanaFlickDirectionMap_3x3;
-@property(retain, nonatomic) NSDictionary *kanaFlickDirectionMap_50on; // @synthesize kanaFlickDirectionMap_50on=_kanaFlickDirectionMap_50on;
-@property(retain, nonatomic) NSDictionary *kanaFlickKeyMap_3x3; // @synthesize kanaFlickKeyMap_3x3=_kanaFlickKeyMap_3x3;
-@property(retain, nonatomic) NSDictionary *kanaFlickKeyMap_50on; // @synthesize kanaFlickKeyMap_50on=_kanaFlickKeyMap_50on;
 @property(nonatomic) _Bool supportsFlickAutocorrection; // @synthesize supportsFlickAutocorrection=_supportsFlickAutocorrection;
 
 @end

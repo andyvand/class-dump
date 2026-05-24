@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) id <CALNMailAccounts> mailAccounts; // @synthesize mailAccounts=_mailAccounts;

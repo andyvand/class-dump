@@ -4,41 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchQueryTagMetadata
 {
     PBDataReader *_reader;
-    NSMutableArray *_modelVersions;
-    double _normalizedScore;
-    double _score;
-    double _sigmoidScore;
-    NSMutableArray *_spanScores;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _rank;
-    struct {
-        unsigned int has_normalizedScore:1;
-        unsigned int has_score:1;
-        unsigned int has_sigmoidScore:1;
-        unsigned int has_rank:1;
-        unsigned int read_modelVersions:1;
-        unsigned int read_spanScores:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)0x;
+- (id)delayInSamplesRequiredForChannelSelection;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)ead_pathMapMatcherInstructions"b1"read_phoneticName"b1"read_restrictedZoneIds"b1"read_roadComplexitys"b1"read_routeID"b1"read_routeNames"b1"read_routeCameraInputInfos"b1"read_routeDescriptions"b1"read_routeLabelDetailText"b1"read_routeLineStyleInfos"b1"read_routePlanningDescription"b1"read_segmentNameInfos"b1"read_startingRouteInstructions"b1"read_stepGroups"b1"read_steps"b1"read_trafficColorInfos"b1"read_trafficDescriptionLong"b1"read_trafficDescription"b1"read_unpackedLatLngVertices"b1"read_updateLocations"b1"read_zilchPoints"b1"wrote_anyField"b1};
-- (id)sAttributeIntentsInRefinements;
+- (id)_queryHasAttributeIntentsInRefinements;
 - (id);;
 - (void)FI@;
 

@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer;
-
 __attribute__((visibility("hidden")))
 @interface MNWeakTimer
 {
     id _target;
-    SEL _selector;
-    NSTimer *_timer;
 }
 
 + (id);
@@ -28,9 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) SEL selector; // @synthesize selector=_selector;
 @property(nonatomic) __weak id target; // @synthesize target=_target;
-@property(readonly, nonatomic) NSTimer *timer; // @synthesize timer=_timer;
 
 @end
 

@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
+- (_Bool)d14WorkgroupStartEyyE3$_1JNSt3__15tupleIJPKciiPcEEEEEE;
 - (_Bool);
 - (id)X;
 

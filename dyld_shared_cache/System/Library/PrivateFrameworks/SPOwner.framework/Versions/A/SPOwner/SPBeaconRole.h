@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SPBeaconRole
 {
     long long _roleId;
-    NSString *_role;
-    NSString *_roleEmoji;
 }
 
 + (_Bool);
@@ -21,14 +17,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)LocalAccountNeedsUpdate;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *role; // @synthesize role=_role;
-@property(copy, nonatomic) NSString *roleEmoji; // @synthesize roleEmoji=_roleEmoji;
 @property(nonatomic) long long roleId; // @synthesize roleId=_roleId;
 
 @end

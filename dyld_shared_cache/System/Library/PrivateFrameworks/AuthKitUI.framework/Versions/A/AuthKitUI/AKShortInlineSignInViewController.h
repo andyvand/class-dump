@@ -6,30 +6,26 @@
 
 #import <AuthKitUI/AKInlineSignInViewController.h>
 
-@class NSButton, NSTextField;
+@class NSButton;
 
 @interface AKShortInlineSignInViewController : AKInlineSignInViewController
 {
     NSButton *_notNowButton;
-    NSButton *_createAccountButton;
-    NSTextField *_subtextLabel;
 }
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)0;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSButton *createAccountButton; // @synthesize createAccountButton=_createAccountButton;
 @property(retain, nonatomic) NSButton *notNowButton; // @synthesize notNowButton=_notNowButton;
-@property(retain, nonatomic) NSTextField *subtextLabel; // @synthesize subtextLabel=_subtextLabel;
 
 @end
 

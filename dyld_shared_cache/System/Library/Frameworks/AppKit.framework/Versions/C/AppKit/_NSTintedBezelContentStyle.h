@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
     NSColor *_bezelTintColor;
 }
 
-- (id);
-- (int);
-- (id);
+- (id);
+- (int)_taskIdentifier;
+- (id);
 - (unsigned long long);
 - (_Bool);
-- (id)itWithContainerSize:(struct _NSZone *)arg1;
-- (void)rUntitled;
+- (id)initWithContainerSize:(struct _NSZone *)arg1;
+- (void)NSDocumentHideAutosaveButtonForUntitled;
 
 @end
 

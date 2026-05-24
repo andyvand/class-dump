@@ -5,6 +5,9 @@
 //
 
 @protocol AAFlowPresenterProtocol
+- (void)s NO LONGER managed by profile with linkRef:(void (^)(NSError *))arg1 %s;
+- (void (^)(NSError *))ed ==> %@;
+- (void)CP_MDMOrgInfoChangedNotification;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType presentationCompletion;

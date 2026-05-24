@@ -9,7 +9,6 @@
 @interface _CDRateAndTotalLimiter : _CDRateLimiter
 {
     long long _totalCount;
-    long long _currentTotal;
 }
 
 - (_Bool);
@@ -18,12 +17,11 @@
 - (long long);
 - (id);
 - (long long);
-- (void);
-- (_Bool)owledgeStorage:didHaveInsertsAndDeletesWithCount: /* Error: Ran out of types for this method. */;
+- (void)id-pe;
+- (_Bool)knowledgeStorage:didHaveInsertsAndDeletesWithCount: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property long long currentTotal; // @synthesize currentTotal=_currentTotal;
-@property(readonly) long long totalCount; // @synthesize totalCount=_totalCount;
 
 @end
 

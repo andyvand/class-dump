@@ -9,7 +9,6 @@
 @protocol PGGraphIngestPlace
 
 // Remaining properties
-@property(readonly, nonatomic) double confidence;
 @property(readonly, nonatomic) NSString *placeInterestType;
 @end
 

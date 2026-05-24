@@ -11,7 +11,6 @@
 @interface MPChangeShuffleModeCommand : MPRemoteCommand
 {
     NSArray *_supportedShuffleTypes;
-    long long _currentShuffleType;
 }
 
 - (void);
@@ -20,7 +19,7 @@
 - (id);
 - (long long);
 - (id);
-- (void)odelPropertyPodcastEpisodeDescriptionText__MAPPING_MISSING__;
+- (void)__MPModelPropertyPodcastEpisodeDescriptionText__MAPPING_MISSING__;
 
 // Remaining properties
 @property(nonatomic) long long currentShuffleType; // @synthesize currentShuffleType=_currentShuffleType;

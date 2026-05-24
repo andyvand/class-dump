@@ -6,23 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface CHSchemaCHClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_chId;
-    SISchemaUUID *_sessionId;
-    SISchemaUUID *_requestId;
-    _Bool _hasChId;
-    _Bool _hasSessionId;
-    _Bool _hasRequestId;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)԰t;
 - (void);
 - (void);
 - (void);
@@ -34,9 +29,9 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)!;
 - (id)lable"b1"numAudioFilesSelected"b1"errorCode"b1};
-- (id)Canceled;
+- (id)ExecutorSiriSchemaExecutorRequestCanceled;
 - (id)`v;
 - (void)Æ
 ";
@@ -48,12 +43,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *chId; // @synthesize chId=_chId;
-@property(nonatomic) _Bool hasChId; // @synthesize hasChId=_hasChId;
-@property(nonatomic) _Bool hasRequestId; // @synthesize hasRequestId=_hasRequestId;
-@property(nonatomic) _Bool hasSessionId; // @synthesize hasSessionId=_hasSessionId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *requestId; // @synthesize requestId=_requestId;
-@property(retain, nonatomic) SISchemaUUID *sessionId; // @synthesize sessionId=_sessionId;
 
 @end
 

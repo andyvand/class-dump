@@ -4,38 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL;
+@class NSString;
 @protocol TRIAssetId;
 
 @interface TRIAssetDiffArtifact
 {
     NSString<TRIAssetId> *_sourceAssetId;
-    NSString<TRIAssetId> *_destAssetId;
-    NSString *_diffSignature;
-    NSURL *_diff;
-    long long _diffSize;
-    NSData *_publicCertificate;
 }
 
++ (id)bestAdaptiveCropRectForPosterClassification:(id)arg1 layoutConfiguration:(id)arg2 sourcePixelWidth:(id)arg3 sourcePixelHeight:(id)arg4 sourcePreferredCropRectNormalized:(long long)arg5 sourceAcceptableCropRectNormalized:(id)arg6 sourceFaceAreaRectNormalized: /* Error: Ran out of types for this method. */;
++ (id)averageOutputChunkBytes;
++ (_Bool)adjustmentBaseVideoURL;
 + (id);
-+ (id);
-+ (_Bool);
-+ (id);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)initWithVideoURL:adjustmentData: /* Error: Ran out of types for this method. */;
+- (id)initWithAVURL:(id)arg1 options:(id)arg2 timeZoneLookup:(id)arg3;
+- (long long)exifTimezoneOffsetFromDateString:offsetInSeconds: /* Error: Ran out of types for this method. */;
+- (id)exifTimezoneOffsetFromDateString:offsetInSeconds: /* Error: Ran out of types for this method. */;
+- (id)exifAuxDictionary;
+- (id)enablePretty;
+- (id)elementCount;
+- (id)durationForTransitionKind:(long long)arg1 songPace: /* Error: Ran out of types for this method. */;
+- (id)downloadProgressHandler;
+- (id)doesNotRecognizeSelector:(id)arg1;
+- (id)asset;
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)-o;
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -43,11 +38,6 @@
 - (id)!8;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString<TRIAssetId> *destAssetId; // @synthesize destAssetId=_destAssetId;
-@property(readonly, nonatomic) NSURL *diff; // @synthesize diff=_diff;
-@property(readonly, nonatomic) NSString *diffSignature; // @synthesize diffSignature=_diffSignature;
-@property(readonly, nonatomic) long long diffSize; // @synthesize diffSize=_diffSize;
-@property(readonly, nonatomic) NSData *publicCertificate; // @synthesize publicCertificate=_publicCertificate;
 @property(readonly, nonatomic) NSString<TRIAssetId> *sourceAssetId; // @synthesize sourceAssetId=_sourceAssetId;
 
 @end

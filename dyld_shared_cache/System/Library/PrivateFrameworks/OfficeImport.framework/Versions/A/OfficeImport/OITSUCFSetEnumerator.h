@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface OITSUCFSetEnumerator
 {
     void *mInlineObjects[16];
-    const void **mObjects;
-    long long mCount;
-    long long mIndex;
 }
 
 - (id);

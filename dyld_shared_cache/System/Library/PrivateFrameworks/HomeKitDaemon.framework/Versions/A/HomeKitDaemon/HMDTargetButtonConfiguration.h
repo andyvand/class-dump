@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDTargetButtonConfiguration
 {
     unsigned char _identifier;
-    long long _type;
-    NSString *_name;
 }
 
 - (id);
-- (id);
-- (id);
+- (id)h;
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
@@ -24,14 +20,12 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (_Bool);
 - (void)_errorCounts;
-- (unsigned char)ansaction;
+- (unsigned char)HMDAccessoryTransaction;
 - (void)ding the close message to client:(id)arg1 %@;
-- (void)yIdentifier;
+- (void)objectAccessoryIdentifier;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned char identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

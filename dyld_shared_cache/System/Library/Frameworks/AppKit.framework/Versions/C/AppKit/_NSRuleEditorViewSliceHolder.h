@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)n <%{public}@> background session setup reply received:session %@ with identifier %@ /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id));
 - (_Bool);
 - (id)iew"56Q64;
 

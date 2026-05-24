@@ -4,36 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFSiriActivationResult, NSError, NSString;
+@class AFSiriActivationResult;
 
 @interface _AFSiriActivationResultMutation
 {
     AFSiriActivationResult *_base;
-    long long _actionType;
-    NSError *_error;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasActionType:1;
-        unsigned int hasError:1;
-    } _mutationFlags;
 }
 
 - (id);
 - (long long);
-- (void);
+- (void)__swift5_fieldmd__TEXT;
 - (_Bool);
-- (void);
-- (id)undleId:(id)arg1;
-- (void)ansitionAssertion;
+- (void)6(;
+- (id)supportedForApplicationWithBundleId:(id)arg1;
+- (void)_presentationTransitionAssertion;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

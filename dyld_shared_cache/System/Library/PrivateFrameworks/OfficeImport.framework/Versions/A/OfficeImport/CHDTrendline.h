@@ -4,22 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHDTrendlineLabel, EDString, OADGraphicProperties;
-
 __attribute__((visibility("hidden")))
 @interface CHDTrendline
 {
     _Bool mDisplayEquation;
-    _Bool mDisplayRSquaredValue;
-    double mBackward;
-    double mForward;
-    double mInterceptYAxis;
-    int mPolynomialOrder;
-    long long mMovingAveragePeriod;
-    int mType;
-    OADGraphicProperties *mGraphicProperties;
-    CHDTrendlineLabel *mLabel;
-    EDString *mName;
 }
 
 + (id);
@@ -35,19 +23,19 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (double);
 - (id);
+- (id)	;
+- (int)q`j;
+- (double);
+- (void)Ԝ;
+- (double);
+- (id);
+- (id);
+- (id);
 - (id);
 - (int);
-- (double);
 - (void);
-- (double);
-- (id);
-- (id);
-- (id);
-- (id);
-- (int);
-- (void);
-- (void)ottomMarginTypeOverridden:(id)arg1;
-- (void);
+- (void)setBottomMarginTypeOverridden:(id)arg1;
+- (void)perspectiveAboveLeftFacing;
 - (void)È#;
 
 @end

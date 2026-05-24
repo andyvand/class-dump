@@ -10,13 +10,6 @@ __attribute__((visibility("hidden")))
 @interface StartPagePopoverTogglesDataSource
 {
     _Bool _isSeparator;
-    _Bool _isTitle;
-    NSString *_imageName;
-    NSString *_label;
-    NSString *_identifier;
-    NSString *_accessibilityLabel;
-    NSString *_onStateAccessibilityLabel;
-    NSString *_offStateAccessibilityLabel;
 }
 
 + (id);
@@ -35,7 +28,7 @@ __attribute__((visibility("hidden")))
 + (long long)¬;
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -44,19 +37,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)
 × ;
-- (id)nfigurationURL;
+- (id)remoteConfigurationURL;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessibilityLabel; // @synthesize accessibilityLabel=_accessibilityLabel;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(readonly, copy, nonatomic) NSString *imageName; // @synthesize imageName=_imageName;
-@property(readonly, nonatomic) _Bool isSeparator; // @synthesize isSeparator=_isSeparator;
-@property(readonly, nonatomic) _Bool isTitle; // @synthesize isTitle=_isTitle;
-@property(readonly, copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, copy, nonatomic) NSString *offStateAccessibilityLabel; // @synthesize offStateAccessibilityLabel=_offStateAccessibilityLabel;
-@property(readonly, copy, nonatomic) NSString *onStateAccessibilityLabel; // @synthesize onStateAccessibilityLabel=_onStateAccessibilityLabel;
 
 @end
 

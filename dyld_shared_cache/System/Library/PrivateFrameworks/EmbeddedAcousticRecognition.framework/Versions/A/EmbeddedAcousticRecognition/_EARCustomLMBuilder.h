@@ -7,7 +7,6 @@
 @interface _EARCustomLMBuilder
 {
     struct unique_ptr<quasar::CustomLMBuilder, std::default_delete<quasar::CustomLMBuilder>> _customLMBuilder;
-    unique_ptr_32eee79d _tokenizer;
 }
 
 + (void)4;

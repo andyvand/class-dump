@@ -6,27 +6,23 @@
 
 #import <UIKitCore/_UIVibrancyEffectImpl.h>
 
-@class NSString, UIColor;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _UIVibrancyEffectModernVibrancyImpl : _UIVibrancyEffectImpl
 {
     NSString *_filterType;
-    UIColor *_inputColor1;
-    UIColor *_inputColor2;
-    UIColor *_compositingColor;
-    _Bool _inputReversed;
 }
 
 - (unsigned long long);
 - (id)Ñ_Ð1Â0@ù
 × ;
 - (_Bool)aElement"16@"WebFrame"24;
-- (void)chInfo:(id)arg1 atPoint:executionContext: /* Error: Ran out of types for this method. */;
-- (id)rphDragItemUpdate:(id)arg1;
+- (void)touchDownWithKey:(id)arg1 withTouchInfo:atPoint:executionContext: /* Error: Ran out of types for this method. */;
+- (id)set_postMorphDragItemUpdate:(id)arg1;
 - (void)onBlock;
 - (void)FittingPriority:(id)arg1 which is not allowed. If you have implemented a custom content view, you need to add constraints inside it so that its size is not ambiguous, or you need to manually compute and return a valid size. Content view:%@ /* Error: Ran out of types for this method. */;
-- (void)IBarBackgroundLayoutCSg;
+- (void)So22_UIBarBackgroundLayoutCSg;
 
 @end
 

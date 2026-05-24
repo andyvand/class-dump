@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol HMDDataStreamBulkSendListener;
 
 __attribute__((visibility("hidden")))
 @interface HMDPendingBulkSendListener
 {
     id <HMDDataStreamBulkSendListener> _listener;
-    NSString *_fileType;
 }
 
-- (id);
+- (id)ting for pending contact %{private}@. falling back to messages;
 - (void);
 - (id);
 - (void);
-- (id)sForUser: /* Error: Ran out of types for this method. */;
-- (void)Identifier;
+- (id)supportsAccessCodesForUser: /* Error: Ran out of types for this method. */;
+- (void)idsMergeIdentifier;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *fileType; // @synthesize fileType=_fileType;
 @property(nonatomic) __weak id <HMDDataStreamBulkSendListener> listener; // @synthesize listener=_listener;
 
 @end

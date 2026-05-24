@@ -5,5 +5,7 @@
 //
 
 @protocol FMPromise
+- (_Bool)a;
+- (_Bool);
 @end
 

@@ -17,9 +17,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
-- (id);
+- (id)ck:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 

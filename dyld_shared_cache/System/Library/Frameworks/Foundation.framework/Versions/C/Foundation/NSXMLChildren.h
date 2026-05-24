@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSXMLChildren
 {
     NSMutableArray *_array;
-    _Bool _isStale;
 }
 
 - (void);
@@ -33,7 +32,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

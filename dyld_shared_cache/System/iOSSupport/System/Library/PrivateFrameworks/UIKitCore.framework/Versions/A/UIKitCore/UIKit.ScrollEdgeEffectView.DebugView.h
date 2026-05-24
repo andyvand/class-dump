@@ -9,18 +9,12 @@
 @interface UIKit.ScrollEdgeEffectView.DebugView : UIView
 {
     id overlays;
-    id bar;
-    id barRect;
-    id lumaLabel;
-    id luma;
-    id debugColor;
-    id pocketMaskPortal;
 }
 
 - (id);
 - (void);
-- (id)lStyleAttributes;
-- (void)2;
+- (id)UIStatusBarExternalStyleAttributes;
+- (void)UICTFontTextStyleExtraLargeTitle2;
 - (void)lþÅkÎHrl;
 
 @end

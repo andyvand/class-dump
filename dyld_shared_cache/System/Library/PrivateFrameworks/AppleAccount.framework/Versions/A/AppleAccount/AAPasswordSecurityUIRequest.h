@@ -11,10 +11,10 @@
     unsigned long long _spyglassOptionMask;
 }
 
-- (unsigned long long);
-- (void);
+- (unsigned long long)ment -expandPayloadVariables;
+- (void):(unsigned long long)arg1 %s;
 - (id);
-- (id)TLE;
+- (id)DISTRUSTED_RECOVERY_KEY_REPAIR_TITLE;
 
 // Remaining properties
 @property(nonatomic) unsigned long long spyglassOptionMask; // @synthesize spyglassOptionMask=_spyglassOptionMask;

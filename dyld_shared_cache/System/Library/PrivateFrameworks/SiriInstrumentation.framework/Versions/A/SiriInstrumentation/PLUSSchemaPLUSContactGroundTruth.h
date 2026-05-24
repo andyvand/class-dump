@@ -6,22 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PLUSSchemaPLUSContactGroundTruth : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_groundTruthId;
-    int _groundTruthSource;
-    _Bool _hasSiriResolvedContactForEntity;
-    int _siriResolvedAndPlusInferredContactComparison;
-    int _contactSuggestionUsedBySiri;
-    struct {
-        unsigned int groundTruthSource:1;
-        unsigned int hasSiriResolvedContactForEntity:1;
-        unsigned int siriResolvedAndPlusInferredContactComparison:1;
-        unsigned int contactSuggestionUsedBySiri:1;
-    } _has;
-    _Bool _hasGroundTruthId;
 }
 
 - (int);
@@ -31,8 +20,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)C;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -45,35 +34,25 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)4;
 - (int);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)V;
+- (_Bool);
+- (_Bool)D %@, syndicationIdentifier %@;
 - (id);
 - (id)
 × ;
-- (id)ation;
+- (id)_hasSampledSubsystemOperation;
 - (id)Parameters;
-- (void)mentType;
+- (void)experimentType;
 
 // Remaining properties
-@property(nonatomic) int contactSuggestionUsedBySiri; // @synthesize contactSuggestionUsedBySiri=_contactSuggestionUsedBySiri;
 @property(retain, nonatomic) SISchemaUUID *groundTruthId; // @synthesize groundTruthId=_groundTruthId;
-@property(nonatomic) int groundTruthSource; // @synthesize groundTruthSource=_groundTruthSource;
-@property(nonatomic) _Bool hasContactSuggestionUsedBySiri;
-@property(nonatomic) _Bool hasGroundTruthId; // @synthesize hasGroundTruthId=_hasGroundTruthId;
-@property(nonatomic) _Bool hasGroundTruthSource;
-@property(nonatomic) _Bool hasHasSiriResolvedContactForEntity;
-@property(nonatomic) _Bool hasSiriResolvedAndPlusInferredContactComparison;
-@property(nonatomic) _Bool hasSiriResolvedContactForEntity; // @synthesize hasSiriResolvedContactForEntity=_hasSiriResolvedContactForEntity;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int siriResolvedAndPlusInferredContactComparison; // @synthesize siriResolvedAndPlusInferredContactComparison=_siriResolvedAndPlusInferredContactComparison;
 
 @end
 

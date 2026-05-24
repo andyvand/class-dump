@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)_initWithConfiguration:(id)arg1;
 
 @end
 

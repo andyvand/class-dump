@@ -5,5 +5,8 @@
 //
 
 @protocol EDMessageChangeManagerSubClassMethods
+- (void);
+- (void);
+- (void)qa;
 @end
 

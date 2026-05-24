@@ -4,47 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, TSDCanvas, TSKDocumentRoot;
+@class NSArray;
 
 @interface TSDImager
 {
     NSArray *mInfos;
-    struct CGColor *mBackgroundColor;
-    struct CGRect mUnscaledClipRect;
-    double mViewScale;
-    struct CGSize mScaledImageSize;
-    struct CGSize mMaximumScaledImageSize;
-    _Bool mUseScaledImageSize;
-    _Bool mDistortedToMatch;
-    _Bool mImageMustHaveEvenDimensions;
-    _Bool mShouldReuseBitmapContext;
-    struct UIEdgeInsets mContentInset;
-    TSKDocumentRoot *mDocumentRoot;
-    TSDCanvas *mCanvas;
-    struct CGRect mActualScaledClipRect;
-    _Bool mDrawingIntoPDF;
-    _Bool mIsPrinting;
-    struct CGContext *mReusableBitmapContext;
-    struct CGRect mReusableBounds;
-    struct CGRect mReusableIntegralBounds;
-    struct CGRect mReusableActualScaledClipRect;
-    struct CGSize mReusableScaledImageSize;
-    CDUnknownBlockType mPostRenderAction;
 }
 
-- (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)inatorEvent.resetQueue - keepCurrentItem:(id)arg1;
+- (struct CGRect)o frame received from a non-current item;
 - (_Bool);
 - (void);
+- (void);
+- (void)InitialPreLoadingState;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (struct CGImage *);
+- (struct CGImage *);
 - (_Bool);
-- (struct CGSize);
+- (struct CGSize);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -54,7 +33,7 @@
 - (void);
 - (struct CGSize);
 - (void);
-- (struct CGImage *);
+- (struct CGImage *)-;
 - (_Bool);
 - (_Bool);
 - (double);
@@ -71,26 +50,7 @@
 - (struct CGColor *);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGRect actualScaledClipRect; // @synthesize actualScaledClipRect=mActualScaledClipRect;
-@property(nonatomic) struct CGColor *backgroundColor; // @synthesize backgroundColor=mBackgroundColor;
-@property(readonly, nonatomic) TSDCanvas *canvas; // @synthesize canvas=mCanvas;
-@property(nonatomic) struct UIEdgeInsets contentInset; // @synthesize contentInset=mContentInset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool distortedToMatch; // @synthesize distortedToMatch=mDistortedToMatch;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool imageMustHaveEvenDimensions; // @synthesize imageMustHaveEvenDimensions=mImageMustHaveEvenDimensions;
 @property(retain, nonatomic) NSArray *infos; // @synthesize infos=mInfos;
-@property(nonatomic) _Bool isPrinting; // @synthesize isPrinting=mIsPrinting;
-@property(nonatomic) struct CGSize maximumScaledImageSize;
-@property(nonatomic) struct CGSize scaledImageSize;
-@property(nonatomic) _Bool shouldReuseBitmapContext; // @synthesize shouldReuseBitmapContext=mShouldReuseBitmapContext;
-@property(readonly) Class superclass;
-@property(nonatomic) struct CGRect unscaledClipRect; // @synthesize unscaledClipRect=mUnscaledClipRect;
-@property(nonatomic) double viewScale;
 
 @end
 

@@ -11,21 +11,21 @@
     EKCalendarColorEditItem *_editItem;
 }
 
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
+- (void);
 - (id);
-- (long long);
-- (void);
-- (void);
+- (id);
+- (long long);
+- (void)@@;
+- (void);
 - (id);
 - (long long);
 - (void);
 - (struct CGSize);
 - (void);
-- (void)lector: /* Error: Ran out of types for this method. */;
+- (void)makeObjectsPerformSelector: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) EKCalendarColorEditItem *editItem; // @synthesize editItem=_editItem;

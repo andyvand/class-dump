@@ -4,35 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface Core_Audio_Driver_Registrar
 {
     void *_registrar;
-    shared_ptr_ca6133e4 _connection_infos;
 }
 
 - (void);
 - (void);
 - (void);
-- (shared_ptr_ca6133e4);
+- (shared_ptr_03e266bb);
 - (id);
 - (id);
-- (void *);
+- (void *);
 - (_Bool);
 - (void)-¤È/¸ì;
 
 // Remaining properties
-@property(nonatomic) shared_ptr_ca6133e4 connection_infos; // @synthesize connection_infos=_connection_infos;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) void *registrar; // @synthesize registrar=_registrar;
-@property(readonly) Class superclass;
 
 @end
 

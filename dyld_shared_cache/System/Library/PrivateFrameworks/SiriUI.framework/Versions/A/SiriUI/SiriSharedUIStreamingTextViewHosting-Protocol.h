@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSFont, NSString;
+@class NSFont;
 
 @protocol SiriSharedUIStreamingTextViewHosting
+- (_Bool);
+- (void);
+- (void)]q ;
+- (void)_defaultAppOrder;
+- (struct CGSize)tView configureShelfForPluginPayload:(struct CGSize)arg1 ];
 - (double)ewState",&,N,V_viewState;
-- (void)euePlayer;
+- (void)queuePlayer;
 
 // Remaining properties
-@property(nonatomic) _Bool animated;
-@property(nonatomic) double animationDuration;
 @property(retain, nonatomic) NSFont *font;
-@property(nonatomic) double hyphenationFactor;
-@property(nonatomic) _Bool renderEmojis;
-@property(nonatomic) _Bool renderEmojisOnly;
-@property(nonatomic) _Bool showChevron;
-@property(readonly, nonatomic) NSString *text;
-@property(copy, nonatomic) NSArray *words;
 @end
 

@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACUICredentialPromptViewController, NSMutableDictionary, NSMutableSet, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableSet;
 
 @interface CalUIPasswordPanelController
 {
     NSMutableSet *_authenticatingAccountUIDs;
-    NSMutableDictionary *_datesPasswordPanelWasShown;
-    NSObject<OS_dispatch_queue> *_checkAuthenticatingAccountUIDsSerialQueue;
-    ACUICredentialPromptViewController *_credentialPromptViewController;
-    NSObject<OS_dispatch_queue> *_showCredentialPromptSerialQueue;
 }
 
 + (id);
 - (void);
+- (void)qh;
 - (void);
 - (void);
 - (void);
@@ -25,24 +21,19 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void));
 - (id);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)(;
 - (void);
 
 // Remaining properties
 @property(retain) NSMutableSet *authenticatingAccountUIDs; // @synthesize authenticatingAccountUIDs=_authenticatingAccountUIDs;
-@property(retain) NSObject<OS_dispatch_queue> *checkAuthenticatingAccountUIDsSerialQueue; // @synthesize checkAuthenticatingAccountUIDsSerialQueue=_checkAuthenticatingAccountUIDsSerialQueue;
-@property(retain) ACUICredentialPromptViewController *credentialPromptViewController; // @synthesize credentialPromptViewController=_credentialPromptViewController;
-@property(retain) NSMutableDictionary *datesPasswordPanelWasShown; // @synthesize datesPasswordPanelWasShown=_datesPasswordPanelWasShown;
-@property(retain) NSObject<OS_dispatch_queue> *showCredentialPromptSerialQueue; // @synthesize showCredentialPromptSerialQueue=_showCredentialPromptSerialQueue;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol WebAVPlayerViewDelegate
+- (void)օ
+;
 @end
 

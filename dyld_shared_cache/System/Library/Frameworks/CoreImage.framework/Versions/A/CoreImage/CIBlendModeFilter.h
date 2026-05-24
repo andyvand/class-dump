@@ -12,19 +12,17 @@ __attribute__((visibility("hidden")))
 @interface CIBlendModeFilter : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputBackgroundImage;
 }
 
 + (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (id);
+- (id)MPSNeuralNetwork;
 - (id)¢¢¢¢f^w~[jfk/E6L.<,AOOOOggggvvvvgmgvYkcxi{zvvvvQaXf@TG]S\R^[b\ckkjkvvvv~~~~r}}}uluo{}}}}||||ai`oC\Njxxxxa{zOe^onnnnrsotalfyhzwTrk¢¦¦¯¯¯¯©©©©££££aohtjjbjRaWhB\Ri`g`mqqqqvvvv¡¡¡¡¢¢¢¢r~~~~~~ayvKdZszyv{j{{{{jjcjFXMbiiiiooookkkkgnnnwwwwvvvv^galahchgggg\dYi`kbs~|y~[up{_i`mDZNa^`UdQhaqk{y~z««««¬¬¬¬q}yivq~n¡¡¡¡||||=P@dM`Ule[rl}xxuxzzzz~~~~r}{Te^obb^b\\\\WWWWGRHX@XNg|¥¥¥¥§§§§¥¥¥¥_vp9SBm;
 - (id)}}}}Rgbv\f`o\b[iQe`lvvvvnxxxclirnnnnfgggNXN[UVKVeeee    ¬«¯¯¦¨Xsn_souNc\lQ\Qdkmjmyyyy}}}}]sp|o~uz{}rrqrllllkkfkmmmmllllpohp        lk||k}dd\kEYNf^tsw~~~myyyyWbZiiidipqpqqqqqccccNNFN@@1CHK?O`hfm<_WqR`Wlzzzzn~~~sssskkfkadYmkzv}\phxtsltjvryo}}}zzzztrktZjau~}z~C]SpK]Qj;
 
 // Remaining properties
-@property(retain, nonatomic) CIImage *inputBackgroundImage; // @synthesize inputBackgroundImage;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
 
 @end

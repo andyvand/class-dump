@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-@protocol MTLCommandQueue, MTLComputePipelineState, MTLDevice, MTLLibrary;
+@protocol MTLDevice;
 
 @interface BufferFillMetal
 {
     id <MTLDevice> _device;
-    id <MTLCommandQueue> _commandQueue;
-    id <MTLLibrary> _library;
-    id <MTLComputePipelineState> _fillBoundaryLeftRightLuma;
-    id <MTLComputePipelineState> _fillBoundaryLeftRightChroma;
-    id <MTLComputePipelineState> _fillBoundaryTopBottomCornersLuma;
-    id <MTLComputePipelineState> _fillBoundaryTopBottomCornersChroma;
-    id <MTLComputePipelineState> _preFillLuma;
-    id <MTLComputePipelineState> _preFillChroma;
-    _Bool _supportsNonuniformThreadgroups;
-    struct CF<__CVMetalTextureCache *> _textureCacheLuma;
-    struct CF<__CVMetalTextureCache *> _textureCacheChroma;
-    NSDictionary *_readWriteAttributes;
-    NSDictionary *_writeAttributes;
 }
 
 - (id);

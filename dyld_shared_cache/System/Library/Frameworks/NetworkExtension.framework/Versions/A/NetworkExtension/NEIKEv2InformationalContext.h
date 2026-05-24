@@ -6,21 +6,14 @@
 
 #import <NetworkExtension/NEIKEv2RequestContext.h>
 
-@class NSArray, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface NEIKEv2InformationalContext : NEIKEv2RequestContext
 {
     unsigned int _maxRetries;
-    NSArray *_privateNotifies;
-    unsigned long long _retryIntervalInMilliseconds;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    CDUnknownBlockType _callback;
 }
 
 - (void);
-- (id);
-- (void)etURLAppendStringMap: /* Error: Ran out of types for this method. */;
+- (id)nt;
+- (void)setURLAppendStringMap: /* Error: Ran out of types for this method. */;
 - (int)ing;
 
 @end

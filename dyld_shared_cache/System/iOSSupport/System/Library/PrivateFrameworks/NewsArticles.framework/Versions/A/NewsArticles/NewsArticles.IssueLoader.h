@@ -7,7 +7,6 @@
 @interface NewsArticles.IssueLoader
 {
     id model;
-    id issueManager;
 }
 
 @end

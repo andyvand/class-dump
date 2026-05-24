@@ -7,11 +7,6 @@
 @interface NewsUI2.AudioHistoryFeedDataManager
 {
     id delegate;
-    id feedServiceConfigFetcher;
-    id feedService;
-    id headlineService;
-    id readingHistory;
-    id accessQueue;
 }
 
 - (void);

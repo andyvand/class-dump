@@ -6,39 +6,35 @@
 
 #import <ChatKit/CKChatItem.h>
 
-@class IMUnavailabilityIndicatorChatItem, NSAttributedString;
+@class NSAttributedString;
 
 @interface CKUnavailabilityIndicatorChatItem : CKChatItem
 {
     NSAttributedString *_unavailableTitleLabelAttributedTextWhenDisplayingNotifyAnywayButton;
-    NSAttributedString *_unavailableTitleLabelAttributedTextWhenNotDisplayingNotifyAnywayButton;
 }
 
 - (void);
 - (id);
 - (id);
 - (BOOL);
-- (void);
-- (void);
+- (void)symbolicTraits;
+- (void)switchedToCustomPasswordModeInfoAlertWithAccount:(id)arg1;
+- (id)_drawClockwise;
+- (struct CGSize)_doneEdgeConstraint;
+- (id)V_lastAttachmentSize;
+- (id)ertionController",W,N,V_insertionController;
+- (_Bool);
 - (id);
-- (struct CGSize);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (void)t;
 - (_Bool);
 - (struct UIEdgeInsets);
 - (Class);
 - (unsigned long long)
 × ;
-- (void)cSharing;
+- (void)AppleMusicSharing;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool displayNotifyAnywayButton;
-@property(readonly, nonatomic) IMUnavailabilityIndicatorChatItem *imUnavailabilityIndicatorChatItem;
 @property(retain, nonatomic) NSAttributedString *unavailableTitleLabelAttributedTextWhenDisplayingNotifyAnywayButton; // @synthesize unavailableTitleLabelAttributedTextWhenDisplayingNotifyAnywayButton=_unavailableTitleLabelAttributedTextWhenDisplayingNotifyAnywayButton;
-@property(retain, nonatomic) NSAttributedString *unavailableTitleLabelAttributedTextWhenNotDisplayingNotifyAnywayButton; // @synthesize unavailableTitleLabelAttributedTextWhenNotDisplayingNotifyAnywayButton=_unavailableTitleLabelAttributedTextWhenNotDisplayingNotifyAnywayButton;
 
 @end
 

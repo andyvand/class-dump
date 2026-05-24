@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
+@class NSDictionary, PTProxySettingsDefinition;
 
 @protocol PTEditingServerDataSource
+- (PTProxySettingsDefinition *)C;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *domainInfoByID;
-@property(readonly, nonatomic) NSDictionary *testRecipeInfoByID;
 @end
 

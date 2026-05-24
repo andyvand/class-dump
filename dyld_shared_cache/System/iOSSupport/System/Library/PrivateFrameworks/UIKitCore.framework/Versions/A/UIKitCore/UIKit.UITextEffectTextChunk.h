@@ -8,7 +8,7 @@
 {
 }
 
-- (id);
+- (id)tions:filterExtensionName: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

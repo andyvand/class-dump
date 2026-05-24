@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (_Bool);
-- (void);
+- (id)overwriteHTTPOnlyCookies;
+- (_Bool)initWithRequest:delegate:startImmediately: /* Error: Ran out of types for this method. */;
+- (void)nection-%u;
 - (void);
 - (_Bool)ÿ!iØB;
 - (struct CGSize)Üÿ}&(çD;

@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateComponents;
 @protocol CalDAVCalendar;
 
 @interface CalDAVContainerSyncTaskGroup
 {
     int _fetchingEtagState;
-    _Bool _getScheduleTags;
-    _Bool _getScheduleChanges;
-    _Bool _syncEvents;
-    _Bool _syncTodos;
-    _Bool _supportsExtendedCalendarQuery;
-    _Bool _fallbackOnMultiGetError;
-    id <CalDAVCalendar> _calendar;
-    NSDateComponents *_eventFilterStartDate;
-    NSDateComponents *_eventFilterEndDate;
 }
 
 - (_Bool);
@@ -30,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)5;
 - (_Bool);
 - (id);
 - (id);
@@ -51,23 +41,15 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)registerContactsChangeObserver: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void)ù
 × ;
-- (id)eeBusySet;
+- (id)freeBusySet;
 
 // Remaining properties
 @property(retain, nonatomic) id <CalDAVCalendar> calendar; // @synthesize calendar=_calendar;
-@property(retain, nonatomic) NSDateComponents *eventFilterEndDate; // @synthesize eventFilterEndDate=_eventFilterEndDate;
-@property(retain, nonatomic) NSDateComponents *eventFilterStartDate; // @synthesize eventFilterStartDate=_eventFilterStartDate;
-@property(nonatomic) _Bool fallbackOnMultiGetError; // @synthesize fallbackOnMultiGetError=_fallbackOnMultiGetError;
-@property(nonatomic) _Bool getScheduleChanges; // @synthesize getScheduleChanges=_getScheduleChanges;
-@property(nonatomic) _Bool getScheduleTags; // @synthesize getScheduleTags=_getScheduleTags;
-@property(nonatomic) _Bool supportsExtendedCalendarQuery; // @synthesize supportsExtendedCalendarQuery=_supportsExtendedCalendarQuery;
-@property(nonatomic) _Bool syncEvents; // @synthesize syncEvents=_syncEvents;
-@property(nonatomic) _Bool syncTodos; // @synthesize syncTodos=_syncTodos;
 
 @end
 

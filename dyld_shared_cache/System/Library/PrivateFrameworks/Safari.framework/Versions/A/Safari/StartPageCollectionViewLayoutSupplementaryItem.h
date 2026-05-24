@@ -10,23 +10,19 @@ __attribute__((visibility("hidden")))
 @interface StartPageCollectionViewLayoutSupplementaryItem
 {
     NSString *_kind;
-    double _height;
-    struct NSDirectionalEdgeInsets _itemEdgeInsets;
 }
 
 + (id);
 + (id);
 - (void);
 - (struct NSDirectionalEdgeInsets);
-- (id);
+- (id);
 - (double);
 - (id);
 - (id)b UUID:%{public}@ does not match tab view item UUID:%{public}@ for tab:<%p> /* Error: Ran out of types for this method. */;
 - (void)¸;
 
 // Remaining properties
-@property(readonly, nonatomic) double height; // @synthesize height=_height;
-@property(nonatomic) struct NSDirectionalEdgeInsets itemEdgeInsets; // @synthesize itemEdgeInsets=_itemEdgeInsets;
 @property(readonly, copy, nonatomic) NSString *kind; // @synthesize kind=_kind;
 
 @end

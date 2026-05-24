@@ -11,8 +11,6 @@
 @interface CRTableGroupRegion : CRGroupRegion
 {
     NSArray *_rowQuads;
-    NSArray *_columnQuads;
-    NSArray *_cells;
 }
 
 - (id);
@@ -22,8 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *cells; // @synthesize cells=_cells;
-@property(readonly) NSArray *columnQuads; // @synthesize columnQuads=_columnQuads;
 @property(readonly) NSArray *rowQuads; // @synthesize rowQuads=_rowQuads;
 
 @end

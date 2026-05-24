@@ -6,22 +6,16 @@
 
 #import <MapKit/MKPlaceSectionViewController.h>
 
-@class MKMapItem, MKPlaceSectionRowView, NSMutableArray, NSString;
-@protocol MKPlaceActionManagerProtocol, _MKPlaceItem;
+@class NSMutableArray;
+@protocol _MKPlaceItem;
 
 __attribute__((visibility("hidden")))
 @interface MKPlaceInfoViewController : MKPlaceSectionViewController
 {
     NSMutableArray *_rows;
-    MKPlaceSectionRowView *_selectedRow;
-    _Bool _bottomHairlineHidden;
-    unsigned long long _placecardOptions;
-    MKMapItem *_mapItem;
-    id <MKPlaceActionManagerProtocol> _actionDelegate;
-    id <_MKPlaceItem> _placeItem;
 }
 
-- (_Bool);
+- (_Bool)Duration=%f, powerlevel3Duration=%f, linkType=%d, overallBytes=%f, overallDuration=%f TotalEnergy=%f, taskID=%@;
 - (void);
 - (void);
 - (void);
@@ -37,33 +31,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)__DATA_CONST;
+- (void)__objc_methlist;
+- (void)@16@24@32@40@48@56;
+- (void)0@0:(id)arg1 8@"CNRetry"16@"NSException"24q32;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
 - (id);
 - (_Bool);
 - (id);
+- (_Bool);
+- (id);
 - (void);
-- (void)ributedStringWithComponents:repeatedSeparator: /* Error: Ran out of types for this method. */;
+- (void)multiPartAttributedStringWithComponents:repeatedSeparator: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <MKPlaceActionManagerProtocol> actionDelegate; // @synthesize actionDelegate=_actionDelegate;
-@property(nonatomic) _Bool bottomHairlineHidden; // @synthesize bottomHairlineHidden=_bottomHairlineHidden;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasContent;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MKMapItem *mapItem; // @synthesize mapItem=_mapItem;
 @property(retain, nonatomic) id <_MKPlaceItem> placeItem; // @synthesize placeItem=_placeItem;
-@property(nonatomic) unsigned long long placecardOptions; // @synthesize placecardOptions=_placecardOptions;
-@property(readonly) Class superclass;
 
 @end
 

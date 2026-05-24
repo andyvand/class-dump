@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDCoreRoutineLocationAwarenessIntervalHistogram, AWDCoreRoutineLocationAwarenessLocationTimeHistograms, AWDCoreRoutineLocationAwarenessStatistics, NSDate;
+@class NSDate;
 
 @interface RTLocationAwarenessMetrics
 {
     NSDate *_startTimestamp;
-    AWDCoreRoutineLocationAwarenessStatistics *_heartbeatStats;
-    AWDCoreRoutineLocationAwarenessLocationTimeHistograms *_timeHistograms;
-    AWDCoreRoutineLocationAwarenessIntervalHistogram *_intervalHistogram;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)initWithGroupUUID:participantIdentifier:isKnown:participantURIObject:pushTokenObject: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id)ndar;
+- (id)isSuggestedEventCalendar;
 - (void), error, %@;
 
 // Remaining properties
-@property(retain, nonatomic) AWDCoreRoutineLocationAwarenessStatistics *heartbeatStats; // @synthesize heartbeatStats=_heartbeatStats;
-@property(retain, nonatomic) AWDCoreRoutineLocationAwarenessIntervalHistogram *intervalHistogram; // @synthesize intervalHistogram=_intervalHistogram;
 @property(readonly, nonatomic) NSDate *startTimestamp; // @synthesize startTimestamp=_startTimestamp;
-@property(retain, nonatomic) AWDCoreRoutineLocationAwarenessLocationTimeHistograms *timeHistograms; // @synthesize timeHistograms=_timeHistograms;
 
 @end
 

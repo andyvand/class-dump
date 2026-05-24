@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, StartPageCollectionViewController;
+@class StartPageCollectionViewController;
 
 __attribute__((visibility("hidden")))
 @interface StartPageCollectionViewControllerAnimator
@@ -26,8 +26,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id) ;
 - (void);
 - (long long);
 - (void);
@@ -40,18 +40,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id)ferenceDidChangeNotification;
+- (id)SmartSearchFieldShowsFullURLPreferenceDidChangeNotification;
 - (void)ÿÿ;
 - (id)=.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) StartPageCollectionViewController *target; // @synthesize target=_target;
 
 @end

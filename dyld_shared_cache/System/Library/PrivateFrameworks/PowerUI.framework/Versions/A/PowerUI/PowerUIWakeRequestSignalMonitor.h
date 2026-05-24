@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, _CDContextualChangeRegistration;
-@protocol OS_os_log, PowerUISignalMonitorDelegate, _CDContext;
+@protocol PowerUISignalMonitorDelegate;
 
 @interface PowerUIWakeRequestSignalMonitor
 {
     id <PowerUISignalMonitorDelegate> _delegate;
-    NSObject<OS_os_log> *_log;
-    id <_CDContext> _context;
-    _CDContextualChangeRegistration *_registration;
 }
 
 + (id);
@@ -34,17 +30,7 @@
 - (id)geDeadline;
 
 // Remaining properties
-@property(retain, nonatomic) id <_CDContext> context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(retain, nonatomic) id <PowerUISignalMonitorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(retain, nonatomic) _CDContextualChangeRegistration *registration; // @synthesize registration=_registration;
-@property(readonly) Class superclass;
 
 @end
 

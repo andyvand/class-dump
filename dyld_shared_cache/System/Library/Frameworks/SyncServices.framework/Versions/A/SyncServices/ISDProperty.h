@@ -6,39 +6,20 @@
 
 #import <SyncServices/ISDDataObject.h>
 
-@class ISDFileReference, NSArray, NSString;
+@class NSString;
 
 @interface ISDProperty : ISDDataObject
 {
     NSString *_name;
-    NSString *_fullName;
-    NSString *_type;
-    NSString *_subtype;
-    NSArray *_enumValues;
-    ISDFileReference *_bundleRef;
-    NSString *_uiHelperClassName;
-    NSString *_automagicConflictResolverClassName;
-    NSArray *_preferredClientTypesForAutomagicResolution;
-    struct {
-        unsigned int identityKey:1;
-        unsigned int required:1;
-        unsigned int excludeFromAirbagCount:1;
-        unsigned int recordTypeForAutomagicResolution:3;
-        unsigned int deleteRule:1;
-        unsigned int toMany:1;
-        unsigned int ordering:2;
-        unsigned int isMatchable:1;
-        unsigned int identityAlternative:5;
-    } _flags;
 }
 
-+ (void)eringThisClassAndCallingPrivateMethodsIsFunButMayLeadToCompleteAndIrrevocableDataLoss:atTheVeryLeastItWillCauseUnexpectedBehaviourForOtherApplications:youHaveBeenWarnedAgainstDoingSo: /* Error: Ran out of types for this method. */;
++ (void)attentionClassDumpUser:reverseEngineeringThisClassAndCallingPrivateMethodsIsFunButMayLeadToCompleteAndIrrevocableDataLoss:atTheVeryLeastItWillCauseUnexpectedBehaviourForOtherApplications:youHaveBeenWarnedAgainstDoingSo: /* Error: Ran out of types for this method. */;
 - (id);
 - (Class);
 - (void);
+- (void)R;
 - (void);
-- (void);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
@@ -66,23 +47,23 @@
 - (id);
 - (void);
 - (_Bool);
+- (id)U;
 - (id);
-- (id);
-- (id);
+- (id)ǽ;
 - (id);
 - (unsigned long long);
 - (id);
+- (id);
 - (id);
-- (id);
+- (_Bool);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
 - (id);
 - (id);
-- (void);
+- (void);
 
 @end
 

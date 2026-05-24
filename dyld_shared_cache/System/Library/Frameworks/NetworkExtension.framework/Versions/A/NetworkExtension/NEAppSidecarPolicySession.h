@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEPolicySession, NSMutableArray;
+@class NEPolicySession;
 
 @interface NEAppSidecarPolicySession
 {
     NEPolicySession *_policySession;
-    NSMutableArray *_policyIDList;
 }
 
 + (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)priority;
 
 @end
 

@@ -8,15 +8,14 @@
 {
     id tag;
     id currentConnection;
-    id connectionLock;
 }
 
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)qA;
 - (id);
 - (void);
-- (void);
+- (void)(;
 - (id);
 - (_Bool);
 - (id);

@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FCAdStatusCondition
 {
     unsigned long long _type;
-    NSString *_identifier;
 }
 
 + (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)ver.AppleIRController;
 - (id);
 - (id);
-- (void)ortsEventOpenInTVSupported;
+- (void)isSportsEventOpenInTVSupported;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

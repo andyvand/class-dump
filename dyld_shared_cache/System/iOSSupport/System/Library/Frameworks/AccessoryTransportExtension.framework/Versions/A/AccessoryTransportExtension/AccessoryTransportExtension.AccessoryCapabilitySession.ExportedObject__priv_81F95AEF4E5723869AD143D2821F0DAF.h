@@ -7,12 +7,13 @@
 @interface AccessoryTransportExtension.AccessoryCapabilitySession.ExportedObject__priv_81F95AEF4E5723869AD143D2821F0DAF
 {
     id capabilitySession;
+    id;
 }
 
 - (void);
+- (void)/';
 - (void);
-- (void);
-- (void);
+- (void)_setShouldUseDarkGridInDarkMode:(id)arg1;
 - (id);
 - (void);
 - (void);

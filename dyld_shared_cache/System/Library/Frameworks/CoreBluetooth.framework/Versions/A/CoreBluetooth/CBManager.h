@@ -4,33 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBPairingAgent, CBXpcConnection, NSData, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class CBXpcConnection;
 
 @interface CBManager
 {
     CBXpcConnection *_connection;
-    CBPairingAgent *_pairingAgent;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_cnxDict;
-    _Bool _tccComplete;
-    _Bool _tccApproved;
-    _Bool _tccRequired;
-    long long _state;
-    NSData *_advertisingAddress;
-    long long _advertisingAddressType;
-    NSData *_nonConnectableAdvertisingAddress;
-    long long _nonConnectableAdvertisingAddressType;
-    NSData *_nonConnectableSecondaryAdvertisingAddress;
-    long long _nonConnectableSecondaryAdvertisingAddressType;
-    NSString *_localAddressString;
-    NSString *_localName;
 }
 
 + (int);
 + (_Bool);
 + (unsigned short);
-+ (_Bool);
++ (_Bool)efused;
 + (long long)LMÜM(N;
 - (void);
 - (void);
@@ -44,15 +28,15 @@
 - (long long);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)R@;
+- (id)z;
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -66,17 +50,17 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)eventFilterSaved;
 - (void);
 - (_Bool);
 - (id);
+- (void)�;
+- (id)�;
 - (void);
 - (id);
-- (void);
+- (void)Ņ;
 - (id);
-- (void);
-- (id);
-- (long long);
+- (long long)getDiagnosticCaseSummariesWithIdentifiers:reply: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)Eùñ*°1Â0@ù
@@ -84,43 +68,23 @@
 - (void)@ù
 × ;
 - (id);
-- (void)e:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
-- (id)ForCharacteristic: /* Error: Ran out of types for this method. */;
-- (_Bool):(unsigned short)arg1 args:(id)arg2;
-- (void)nection;
-- (void)gedHandler;
+- (void)setValue:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (id)discoverDescriptorsForCharacteristic: /* Error: Ran out of types for this method. */;
+- (_Bool)addXPCDelayTiming:(unsigned short)arg1 args:(id)arg2;
+- (void)_xpcConnection;
+- (void)_bluetoothStateChangedHandler;
 - (long long)teryInfo;
 - (void)¨XÜ;
 - (id);
 - (void);
-- (_Bool)tCore;
-- (void);
+- (_Bool)kCBScanOptionAppleFilterTargetCore;
+- (void)2901;
 - (long long)ed local peripheral:%@ successfully for device:%@ /* Error: Ran out of types for this method. */;
 - (void)ïS;
 - (void)%à;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *advertisingAddress; // @synthesize advertisingAddress=_advertisingAddress;
-@property(readonly, nonatomic) long long advertisingAddressType; // @synthesize advertisingAddressType=_advertisingAddressType;
-@property(readonly, nonatomic) long long authorization;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *localAddressString; // @synthesize localAddressString=_localAddressString;
-@property(readonly) NSString *localName; // @synthesize localName=_localName;
-@property(copy, nonatomic) NSData *nonConnectableAdvertisingAddress; // @synthesize nonConnectableAdvertisingAddress=_nonConnectableAdvertisingAddress;
-@property(readonly, nonatomic) long long nonConnectableAdvertisingAddressType; // @synthesize nonConnectableAdvertisingAddressType=_nonConnectableAdvertisingAddressType;
-@property(copy, nonatomic) NSData *nonConnectableSecondaryAdvertisingAddress; // @synthesize nonConnectableSecondaryAdvertisingAddress=_nonConnectableSecondaryAdvertisingAddress;
-@property(readonly, nonatomic) long long nonConnectableSecondaryAdvertisingAddressType; // @synthesize nonConnectableSecondaryAdvertisingAddressType=_nonConnectableSecondaryAdvertisingAddressType;
-@property(readonly, retain, nonatomic) CBPairingAgent *sharedPairingAgent; // @dynamic sharedPairingAgent;
 @property(nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool tccApproved; // @synthesize tccApproved=_tccApproved;
-@property(nonatomic) _Bool tccComplete; // @synthesize tccComplete=_tccComplete;
-@property(nonatomic) _Bool tccRequired; // @synthesize tccRequired=_tccRequired;
 
 @end
 

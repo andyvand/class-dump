@@ -17,10 +17,10 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 - (void);
-- (id);
+- (id)iter.persistenceQueue;
 - (void);
-- (id);
-- (void)warding;
+- (id)A;
+- (void)responderForForwarding;
 - (void)2¨×;
 
 // Remaining properties

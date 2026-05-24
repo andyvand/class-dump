@@ -4,42 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNSensitiveContentAnalysisManager, UIButton, UIVisualEffectView;
+@class CNSensitiveContentAnalysisManager;
 @protocol CNSensitiveContentHelpButtonViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CNSensitiveContentHelpButtonView
 {
     id <CNSensitiveContentHelpButtonViewDelegate> _delegate;
-    CNSensitiveContentAnalysisManager *_sensitiveContentAnalysisManager;
-    UIButton *_button;
-    UIVisualEffectView *_vibrancyView;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)qa;
 - (void);
 - (id);
 - (id);
+- (void);
+- (void)75;
+- (void);
 - (id);
+- (id);
+- (id);
 - (void);
-- (void);
-- (void)derlyingContainerView;
+- (void)utableSet"28B36;
+- (void)_underlyingContainerView;
 - (id)%;
 
 // Remaining properties
-@property(retain, nonatomic) UIButton *button; // @synthesize button=_button;
-@property(nonatomic) __weak id <CNSensitiveContentHelpButtonViewDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) CNSensitiveContentAnalysisManager *sensitiveContentAnalysisManager; // @synthesize sensitiveContentAnalysisManager=_sensitiveContentAnalysisManager;
-@property(retain, nonatomic) UIVisualEffectView *vibrancyView; // @synthesize vibrancyView=_vibrancyView;
 
 @end
 

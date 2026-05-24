@@ -6,43 +6,29 @@
 
 #import <CoreMediaStream/MSMMCSProtocol.h>
 
-@class NSMutableDictionary, NSString;
 @protocol MSPublishStorageProtocolDelegate;
 
 @interface MSPublishMMCSProtocol : MSMMCSProtocol
 {
     id <MSPublishStorageProtocolDelegate> _delegate;
-    NSMutableDictionary *_itemIDToAssetDict;
-    unsigned long long *_itemIDs;
-    const char **_signatures;
-    char **_authTokens;
-    unsigned int *_itemFlags;
-    long long _itemsInFlight;
 }
 
+- (void)rrent device (probably logged out from iCloud).;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (int);
-- (id);
-- (void);
+- (void)c,uuid_t}.16P] Creating a snapshot session with HMDCameraSnapshotRemoteStreamReceiver;
+- (void)he request handler because snapshot file is present in cache for %@;
+- (void)apshotRemoteRelaySender;
+- (id)blic,uuid_t}.16P] Creating a snapshot session with HMDCameraStreamSnapshot;
+- (int)c}@[%{public,uuid_t}.16P] Accessory is not reachable and this is iOS device;
 - (id);
 - (void);
+- (id);
 - (void);
 - (void);
+- (void)T;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) id <MSPublishStorageProtocolDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,33 +6,20 @@
 
 #import <CoreBrightness/CBDisplayModule.h>
 
-@class NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface CBDisplayModuleMacOS : CBDisplayModule
 {
     _Bool _running;
-    struct DSDevice *_device;
-    NSString *_containerID;
-    NSObject<OS_dispatch_source> *_delayedBrightnessCommitTimer;
-    NSMutableDictionary *_properties;
-    _Bool _brightnessUpdatesDisabled;
-    float _magSafeFactor;
-    unsigned long long _vendorID;
-    unsigned long long _productID;
-    _Bool _builtIn;
-    unsigned long long _displayID;
 }
 
-- (_Bool);
+- (_Bool)ȢA9);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)h7;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -40,22 +27,21 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
+- (void);
+- (_Bool);
+- (void);;
+- (id)H1'ED�;
+- (void);
+- (void);
+- (id)StillImage_SushiRawAttachmentOptionEnabled;
 - (void);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)5;
 
 // Remaining properties
-@property(readonly) _Bool builtIn; // @synthesize builtIn=_builtIn;
 @property(readonly) unsigned long long displayID; // @synthesize displayID=_displayID;
 
 @end

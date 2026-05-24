@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NUVersion;
+@class NSString;
 
 @interface NUIdentifier
 {
     NSString *_namespace;
-    NSString *_name;
-    NUVersion *_version;
 }
 
 + (id);
++ (_Bool)oo;
 + (_Bool);
++ (id)&;
++ (id)@;
++ (id);
++ (_Bool)signatureRequestForCharacteristic:(id)arg1 requiresAuthentication:(out id *)arg2 error: /* Error: Ran out of types for this method. */;
++ (id)bPeripheral;
++ (id);
++ (id);
 + (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
++ (id)atalog failed. Error Code:%ld - %@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -43,10 +41,7 @@
 - (void)=dd}{CGSize=dd}}48;
 
 // Remaining properties
-@property(readonly) NSString *name; // @synthesize name=_name;
 @property(readonly) NSString *namespace; // @synthesize namespace=_namespace;
-@property(readonly) NSString *stringRepresentation;
-@property(readonly) NUVersion *version; // @synthesize version=_version;
 
 @end
 

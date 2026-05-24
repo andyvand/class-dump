@@ -9,18 +9,16 @@
 @interface EDRemoteContentCacheConfiguration
 {
     NSURL *_cacheURL;
-    unsigned long long _diskCapacity;
 }
 
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)4;
 - (void)ctID:threadScopeDatabaseID:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *cacheURL; // @synthesize cacheURL=_cacheURL;
-@property(readonly, nonatomic) unsigned long long diskCapacity; // @synthesize diskCapacity=_diskCapacity;
 
 @end
 

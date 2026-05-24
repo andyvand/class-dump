@@ -9,17 +9,6 @@
 @interface CRPerformanceMetric
 {
     NSString *_displayName;
-    NSString *_unit;
-    NSString *_serializationKey;
-    double _denominator;
-    double _sumX;
-    double _first;
-    double _min;
-    double _max;
-    unsigned long long _pcMetricID;
-    long long _numSamples;
-    double _M2;
-    double _welfordMean;
 }
 
 + (id);
@@ -36,14 +25,14 @@
 - (void);
 - (id);
 - (double);
-- (void);
+- (void);
 - (double);
 - (void);
 - (double);
 - (id);
-- (double);
-- (double);
-- (void);
+- (double)safari_registerForAssistiveTechnologyStateChangeNotifications;
+- (double): /* Error: Ran out of types for this method. */;
+- (void)_performReloadWithInvertedPrivateRelayEnabledSetting;
 - (void);
 - (void);
 - (void);
@@ -51,7 +40,7 @@
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)ignetteCorrectionCurve.  The values are major:(double)arg1 %s and minor:%s /* Error: Ran out of types for this method. */;
 - (id);
 - (double);
 - (double);
@@ -61,18 +50,6 @@
 
 // Remaining properties
 @property double M2; // @synthesize M2=_M2;
-@property double denominator; // @synthesize denominator=_denominator;
-@property(copy) NSString *displayName; // @synthesize displayName=_displayName;
-@property double first; // @synthesize first=_first;
-@property double max; // @synthesize max=_max;
-@property double min; // @synthesize min=_min;
-@property long long numSamples; // @synthesize numSamples=_numSamples;
-@property unsigned long long pcMetricID; // @synthesize pcMetricID=_pcMetricID;
-@property(copy) NSString *serializationKey; // @synthesize serializationKey=_serializationKey;
-@property double sumX; // @synthesize sumX=_sumX;
-@property(copy) NSString *unit; // @synthesize unit=_unit;
-@property(readonly) double variance;
-@property double welfordMean; // @synthesize welfordMean=_welfordMean;
 
 @end
 

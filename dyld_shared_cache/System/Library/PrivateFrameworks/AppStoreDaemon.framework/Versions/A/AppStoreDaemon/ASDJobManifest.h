@@ -12,8 +12,8 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)A;
+- (id)igationServiceLocalProxy navigationSessionManager:(struct _NSZone *)arg1 didUpdateHeading:accuracy:] /* Error: Ran out of types for this method. */;
 
 @end
 

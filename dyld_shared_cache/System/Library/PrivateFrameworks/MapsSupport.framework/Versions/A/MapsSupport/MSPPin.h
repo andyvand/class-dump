@@ -11,7 +11,7 @@
     MSPDroppedPin *_droppedPin;
 }
 
-- (void);
+- (void)l;
 - (_Bool);
 - (id);
 - (id);
@@ -25,7 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) MSPDroppedPin *droppedPin; // @synthesize droppedPin=_droppedPin;
 @property(readonly, nonatomic) _Bool hasDroppedPin;
 
 @end

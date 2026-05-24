@@ -7,8 +7,6 @@
 @interface SiriUI.SiriIconToggleButton.Model
 {
     id _isDisabled;
-    id onTap;
-    id _$observationRegistrar;
 }
 
 @end

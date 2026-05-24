@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OITSULinkedPointerSetEntry;
-
 __attribute__((visibility("hidden")))
 @interface OITSUMutableLinkedPointerSet
 {
     struct __CFDictionary *mDictionary;
-    OITSULinkedPointerSetEntry *mHead;
-    OITSULinkedPointerSetEntry *mTail;
 }
 
 - (id);
@@ -19,19 +15,19 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)__objc_methname;
+- (id)containerInfoDepthForURL: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)@"<MTLRenderPipelineState>"@"MTLRenderPipelineReflection"@"NSError">32;
 - (id);
 - (unsigned long long)0@ù
 × ;
 - (id);
-- (unsigned long long)lReader;
+- (unsigned long long)8XlReader;
 
 @end
 

@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaCDMServiceFailed : SISchemaInstrumentationMessage
 {
     int _code;
-    int _errorCode;
-    struct {
-        unsigned int code:1;
-        unsigned int errorCode:1;
-    } _has;
 }
 
 - (void);
@@ -23,9 +16,9 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
-- (void);
+- (void)ESS_CERT_ID_NEW_INIT;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -34,17 +27,13 @@
 × ;
 - (id),V_hasStringQueryLocationTime;
 - (id)llStarted",&,N,V_startedOrChanged;
-- (int)mUsersWithMatchingSiriLanguage;
-- (void)cScope;
+- (int)numUsersWithMatchingSiriLanguage;
+- (void)SISchemaMetricScope;
 - (void)hÁàÿ¶µì!;
 - (int)§¯ßó&;
 
 // Remaining properties
 @property(nonatomic) int code; // @synthesize code=_code;
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) _Bool hasCode;
-@property(nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

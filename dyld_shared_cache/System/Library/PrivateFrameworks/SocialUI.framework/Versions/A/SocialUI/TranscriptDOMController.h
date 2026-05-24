@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ChatItemDOMProvider, DOMDocument, DOMHTMLBodyElement, FileTransferDOMProvider, FileTransferEventHandler, IMMessage, IMTranscriptChatItem, NSAppearance, NSMutableDictionary, TranscriptDOMEventHandler, TranscriptStyleController;
-@protocol TranscriptDOMControllerDelegate;
+@class NSMutableDictionary;
 
 @interface TranscriptDOMController
 {
     _Bool _isAnimatingReceipt;
-    _Bool _allowsPlugins;
-    id <TranscriptDOMControllerDelegate> _delegate;
-    DOMDocument *_DOM;
-    DOMHTMLBodyElement *_body;
-    ChatItemDOMProvider *_domProvider;
-    FileTransferDOMProvider *_fileTransferDomProvider;
-    TranscriptStyleController *_styleController;
-    TranscriptDOMEventHandler *_eventHandler;
-    FileTransferEventHandler *_fileTransferEventHandler;
-    IMTranscriptChatItem *_lastChatItem;
-    IMMessage *_lastMessage;
-    NSMutableDictionary *_chatItemGUIDToDDElement;
 }
 
 - (void);
@@ -33,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -66,10 +53,10 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)eStopWatch;
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -79,20 +66,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) DOMDocument *DOM; // @synthesize DOM=_DOM;
-@property(nonatomic) _Bool allowsPlugins; // @synthesize allowsPlugins=_allowsPlugins;
-@property(retain, nonatomic) DOMHTMLBodyElement *body; // @synthesize body=_body;
 @property(retain, nonatomic) NSMutableDictionary *chatItemGUIDToDDElement; // @synthesize chatItemGUIDToDDElement=_chatItemGUIDToDDElement;
-@property(nonatomic) __weak id <TranscriptDOMControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) ChatItemDOMProvider *domProvider; // @synthesize domProvider=_domProvider;
-@property(readonly, nonatomic) NSAppearance *effectiveAppearance;
-@property(retain, nonatomic) TranscriptDOMEventHandler *eventHandler; // @synthesize eventHandler=_eventHandler;
-@property(retain, nonatomic) FileTransferDOMProvider *fileTransferDomProvider; // @synthesize fileTransferDomProvider=_fileTransferDomProvider;
-@property(retain, nonatomic) FileTransferEventHandler *fileTransferEventHandler; // @synthesize fileTransferEventHandler=_fileTransferEventHandler;
-@property(nonatomic) _Bool isAnimatingReceipt; // @synthesize isAnimatingReceipt=_isAnimatingReceipt;
-@property(retain, nonatomic) IMTranscriptChatItem *lastChatItem; // @synthesize lastChatItem=_lastChatItem;
-@property(retain, nonatomic) IMMessage *lastMessage; // @synthesize lastMessage=_lastMessage;
-@property(nonatomic) __weak TranscriptStyleController *styleController; // @synthesize styleController=_styleController;
 
 @end
 

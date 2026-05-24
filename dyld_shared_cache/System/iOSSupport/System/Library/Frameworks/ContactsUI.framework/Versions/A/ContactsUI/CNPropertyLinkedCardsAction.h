@@ -6,34 +6,30 @@
 
 #import <ContactsUI/CNPropertyAction.h>
 
-@class CNContactContentViewController, CNMutableContact;
+@class CNContactContentViewController;
 @protocol CNContactContentViewControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CNPropertyLinkedCardsAction : CNPropertyAction
 {
     id <CNContactContentViewControllerDelegate> _contactDelegate;
-    CNContactContentViewController *_contactController;
-    CNMutableContact *_linkedContact;
 }
 
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id)iB;
 - (id);
 - (void);
-- (id);
-- (void)ons;
+- (id)7;
+- (void);
+- (id)m:(id)arg1 0px; margin-left:0px;"> /* Error: Ran out of types for this method. */;
+- (void)_setupCustomActions;
 
 // Remaining properties
 @property(retain) CNContactContentViewController *contactController; // @synthesize contactController=_contactController;
-@property __weak id <CNContactContentViewControllerDelegate> contactDelegate; // @synthesize contactDelegate=_contactDelegate;
-@property(retain) CNMutableContact *linkedContact; // @synthesize linkedContact=_linkedContact;
 
 @end
 

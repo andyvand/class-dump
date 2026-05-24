@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISServiceProxy, NSArray;
+@class NSArray;
 
 @interface CKRestoreDownloadsRequest
 {
     NSArray *_archivedFiles;
-    ISServiceProxy *_serviceProxy;
-    _Bool _userInitiated;
 }
 
 - (_Bool);

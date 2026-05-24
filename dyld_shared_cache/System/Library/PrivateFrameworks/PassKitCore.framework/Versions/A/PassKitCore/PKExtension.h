@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSExtension, NSString, PKExtensionProvider;
+@class NSString, PKExtensionProvider;
 
 @interface PKExtension
 {
     NSString *_identifier;
-    NSString *_containingAppBundleIdentifier;
-    NSString *_containingApplicationIdentifier;
-    PKExtensionProvider *_provider;
-    NSExtension *_extension;
 }
 
 
 // Remaining properties
-@property(retain, nonatomic) NSString *containingAppBundleIdentifier; // @synthesize containingAppBundleIdentifier=_containingAppBundleIdentifier;
-@property(retain, nonatomic) NSString *containingApplicationIdentifier; // @synthesize containingApplicationIdentifier=_containingApplicationIdentifier;
-@property(retain, nonatomic) NSExtension *extension; // @synthesize extension=_extension;
-@property(readonly, nonatomic) NSString *extensionPointIdentifier;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(nonatomic) __weak PKExtensionProvider *provider; // @synthesize provider=_provider;
-@property(readonly, nonatomic) long long type;
 @end
 

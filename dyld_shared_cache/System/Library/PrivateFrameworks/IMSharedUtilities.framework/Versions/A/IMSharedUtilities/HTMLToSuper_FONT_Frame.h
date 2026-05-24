@@ -9,11 +9,10 @@
 @interface HTMLToSuper_FONT_Frame : HTMLToSuper_Default_Frame
 {
     _Bool _shouldPopFontName;
-    _Bool _shouldPopFontSize;
 }
 
-- (void);
-- (void);
+- (void);
+- (void);
 
 @end
 

@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (struct CGRect)endingAnimatedChanges: /* Error: Ran out of types for this method. */;
+- (struct CGRect)_addConstraintPendingAnimatedChanges: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

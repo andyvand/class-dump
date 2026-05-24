@@ -9,7 +9,6 @@
 @interface PKProtobufCommonSharingMessageTypeChecker
 {
     NSString *_messageType;
-    unsigned int _version;
 }
 
 - (unsigned int);
@@ -19,18 +18,16 @@
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (_Bool)i;
+- (_Bool)pact"b1"usrInput"b1"validState"b1};
+- (id)setHasCaptivePresentFailedCount: /* Error: Ran out of types for this method. */;
+- (void)tatus;
 - (void);
 - (id);
 - (id);
 - (void)lment without a merchant identifier;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasMessageType;
-@property(retain, nonatomic) NSString *messageType; // @synthesize messageType=_messageType;
 @property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end

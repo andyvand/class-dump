@@ -4,16 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol MTL4PipelineDataSetSerializer, MTLDevice, MTLDynamicLibrary;
+@protocol MTL4BinaryFunction, MTL4CompilerTask, MTLComputePipelineState, MTLDevice, MTLDynamicLibrary;
 
 @protocol MTL4Compiler
+- (id <MTL4CompilerTask>);
+- (id <MTL4CompilerTask>);
+- (id <MTL4CompilerTask>);
+- (id <MTLComputePipelineState>);
+- (id <MTLComputePipelineState>);
+- (id <MTL4BinaryFunction>)A�(;
 - (id <MTLDynamicLibrary>)coder has ended encoding;
 - (id <MTLDynamicLibrary>)oint buffer;
 
 // Remaining properties
 @property(readonly) id <MTLDevice> device;
-@property(readonly) NSString *label;
-@property(readonly) id <MTL4PipelineDataSetSerializer> pipelineDataSetSerializer;
 @end
 

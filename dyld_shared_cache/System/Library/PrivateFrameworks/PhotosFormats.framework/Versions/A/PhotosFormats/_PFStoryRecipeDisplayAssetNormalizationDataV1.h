@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface _PFStoryRecipeDisplayAssetNormalizationDataV1
 {
     CDStruct_3de61c9d _data;
@@ -14,30 +12,17 @@
 + (id)ÿ;
 - (id);
 - (id);
-- (id);
+- (id)x�(;
 - (const CDStruct_3de61c9d *);
 - (id);
-- (id);
+- (id)__TEXT;
 - (long long);
-- (unsigned long long);
+- (unsigned long long)performDiscoverUserIdentitiesOperation:withBlock: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (double);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSDictionary *highKeyProperties;
-@property(readonly, nonatomic) double score;
 @property(readonly, nonatomic) const CDStruct_3de61c9d *sliderNetPackedData;
-@property(readonly, nonatomic) NSDictionary *smartColorProperties;
-@property(readonly, nonatomic) NSDictionary *smartToneProperties;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSDictionary *tempTintProperties;
-@property(readonly, nonatomic) long long version;
 
 @end
 

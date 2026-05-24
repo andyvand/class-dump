@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPModelObject, MPSectionedIdentifierList, NSArray, NSString;
+@class NSString;
 
 @interface MPModelLibraryPlaylistEditChangeDetails
 {
     _Bool _isLastItem;
-    long long _type;
-    MPModelObject *_item;
-    NSString *_itemIdentifier;
-    NSString *_itemPositionIdentifier;
-    MPModelObject *_referenceItem;
-    NSString *_referenceItemIdentifier;
-    NSString *_referenceItemPositionIdentifier;
-    NSString *_playlistName;
-    NSString *_previousPositionIdentifier;
-    NSString *_previousReferenceIdentifier;
-    NSString *_previousPlaylistName;
-    NSArray *_changesApplied;
-    MPSectionedIdentifierList *_previousTrackIdentifierList;
-    MPSectionedIdentifierList *_nextTrackIdentifierList;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,13 +31,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
-- (id);
+- (void);
+- (id);
+- (void), user_rating, needs_restore, download_identifier, play_count_user, play_count_recent, has_been_played, date_played, date_skipped, date_accessed, is_alarm, skip_count_user, skip_count_recent, remember_bookmark, bookmark_time_ms, hidden, chosen_by_auto_fill, liked_state, liked_state_changed, user_rating_is_derived, liked_state_changed_date) SELECT item_pid, user_rating, needs_restore, download_identifier, play_count_user, play_count_recent, has_been_played, date_played, date_skipped, date_accessed, is_alarm, skip_count_user, skip_count_recent, remember_bookmark, bookmark_time_ms, hidden, chosen_by_auto_fill, liked_state, liked_state_changed, user_rating_is_derived, liked_state_changed_date FROM item_stats;
+- (id)AULT '', is_external_vendor_playlist INTEGER NOT NULL DEFAULT 0, sync_id INTEGER NOT NULL DEFAULT 0, cloud_is_sharing_disabled INTEGER NOT NULL DEFAULT 0, cloud_version_hash TEXT NOT NULL DEFAULT '', date_played_local NOT NULL DEFAULT 0, cloud_author_handle TEXT NOT NULL DEFAULT '', cloud_universal_library_id TEXT NOT NULL DEFAULT '', should_display_index INTEGER NOT NULL DEFAULT 0, date_downloaded INTEGER NOT NULL DEFAULT 0, category_type_mask INTEGER NOT NULL DEFAULT 0, grouping_sort_key TEXT NOT NULL DEFAULT '');
 - (id);
 - (void);
 - (id);
@@ -59,25 +45,11 @@
 - (void);
 - (id);
 - (id);
-- (void)Count;
+- (void)_artworkCatalogsCacheCount;
 - (id)reference item in change %{public}@;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *changesApplied; // @synthesize changesApplied=_changesApplied;
-@property(nonatomic) _Bool isLastItem; // @synthesize isLastItem=_isLastItem;
-@property(retain, nonatomic) MPModelObject *item; // @synthesize item=_item;
-@property(copy, nonatomic) NSString *itemIdentifier; // @synthesize itemIdentifier=_itemIdentifier;
-@property(copy, nonatomic) NSString *itemPositionIdentifier; // @synthesize itemPositionIdentifier=_itemPositionIdentifier;
-@property(retain, nonatomic) MPSectionedIdentifierList *nextTrackIdentifierList; // @synthesize nextTrackIdentifierList=_nextTrackIdentifierList;
-@property(copy, nonatomic) NSString *playlistName; // @synthesize playlistName=_playlistName;
-@property(copy, nonatomic) NSString *previousPlaylistName; // @synthesize previousPlaylistName=_previousPlaylistName;
 @property(copy, nonatomic) NSString *previousPositionIdentifier; // @synthesize previousPositionIdentifier=_previousPositionIdentifier;
-@property(copy, nonatomic) NSString *previousReferenceIdentifier; // @synthesize previousReferenceIdentifier=_previousReferenceIdentifier;
-@property(retain, nonatomic) MPSectionedIdentifierList *previousTrackIdentifierList; // @synthesize previousTrackIdentifierList=_previousTrackIdentifierList;
-@property(retain, nonatomic) MPModelObject *referenceItem; // @synthesize referenceItem=_referenceItem;
-@property(copy, nonatomic) NSString *referenceItemIdentifier; // @synthesize referenceItemIdentifier=_referenceItemIdentifier;
-@property(copy, nonatomic) NSString *referenceItemPositionIdentifier; // @synthesize referenceItemPositionIdentifier=_referenceItemPositionIdentifier;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

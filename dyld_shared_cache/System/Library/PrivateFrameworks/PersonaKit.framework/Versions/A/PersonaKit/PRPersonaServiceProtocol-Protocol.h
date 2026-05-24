@@ -5,5 +5,8 @@
 //
 
 @protocol PRPersonaServiceProtocol
+- (void)(;
+- (void);
+- (void)4H;
 @end
 

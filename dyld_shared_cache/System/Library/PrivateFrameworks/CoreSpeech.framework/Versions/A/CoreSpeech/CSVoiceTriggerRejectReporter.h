@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CSVoiceTriggerRejectReporter
@@ -12,7 +12,7 @@
     NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (id)tionReason;
++ (id)_pendingAudioSessionActivationReason;
 - (void);
 - (id);
 - (id);
@@ -23,22 +23,15 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)requestsThatLookedUpCachedResultsKey:(id)arg1;
 - (void);
 - (void);
 - (id);
-- (void)eMonitor;
+- (void)languageCodeUpdateMonitor;
 - (void)Time:(id)arg1 mhUUID:(id)arg2 ];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

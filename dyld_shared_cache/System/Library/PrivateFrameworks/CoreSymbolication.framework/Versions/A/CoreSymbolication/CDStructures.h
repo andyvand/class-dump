@@ -10,15 +10,6 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 
 #pragma mark Named Structures
 
-struct CSCppCoreFileMetadata;
-
-struct OrderedMemoryMappings {
-    struct set<CSMemoryMapping *, CompareMappedRegionNode, std::allocator<CSMemoryMapping *>> _map;
-    struct __tree_const_iterator<CSMemoryMapping *, std::__tree_node<CSMemoryMapping *, void *>*, long> {
-        void *__ptr_;
-    } _last_accessed_element;
-};
-
 struct _CSArchitecture {
     int _field1;
     int _field2;
@@ -27,41 +18,6 @@ struct _CSArchitecture {
 struct _CSRange {
     unsigned long long location;
     unsigned long long length;
-};
-
-struct mutex {
-    struct _opaque_pthread_mutex_t {
-        long long __sig;
-        char __opaque[56];
-    } __m_;
-};
-
-struct set<CSMemoryMapping *, CompareMappedRegionNode, std::allocator<CSMemoryMapping *>> {
-    struct __tree<CSMemoryMapping *, CompareMappedRegionNode, std::allocator<CSMemoryMapping *>> {
-        void *__begin_node_;
-        struct {
-            struct __tree_end_node<std::__tree_node_base<void *>*> {
-                void *__left_;
-            } __end_node_;
-        } ;
-        struct {
-            unsigned long long __size_;
-        } ;
-    } __tree_;
-};
-
-struct unique_ptr<CSCppCoreFileMetadata, std::default_delete<CSCppCoreFileMetadata>> {
-    struct {
-        struct CSCppCoreFileMetadata *__ptr_;
-    } ;
-};
-
-struct vector<CSMemoryMapping *, std::allocator<CSMemoryMapping *>> {
-    id *__begin_;
-    id *__end_;
-    struct {
-        id *__cap_;
-    } ;
 };
 
 struct vm_region_submap_info_64 {

@@ -10,14 +10,12 @@ __attribute__((visibility("hidden")))
 @interface _NSButtonImage
 {
     NSImage *image;
-    _Bool useDisabledEffect;
-    _Bool useHighlightEffect;
 }
 
-+ (id);
++ (id)ip preparing extraction to %{private}@;
 + (void)-<I;
 - (id);
-- (void);
+- (void)U;
 - (id)oller:(struct _NSZone *)arg1;
 - (void)ror:] /* Error: Ran out of types for this method. */;
 

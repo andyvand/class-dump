@@ -4,6 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSDictionary, UITextFormattingViewControllerChangeValue, UITextFormattingViewControllerFormattingDescriptor;
+
 @protocol _UITextFormattingResponder
+- (_Bool)canWriteFileOfEstimatedSize:refreshCachedValue: /* Error: Ran out of types for this method. */;
+- (void)_notifyWidgetKitTimeline:(id)arg1;
+
+@optional
+- (void)wasBatchFailure:(id)arg1;
+- (NSDictionary *)systemDidEnterDataProtectionLock;
+- (NSArray *)systemDidBecomeIdle;
+- (NSDictionary *)systemApplicationWillEnterForeground;
+- (void)setRetryToParticipant:(id)arg1;
+- (_Bool)setKnownRecordIDsFromList: /* Error: Ran out of types for this method. */;
+- (_Bool)setEnabledTopics:(UITextFormattingViewControllerChangeValue *)arg1;
+- (_Bool)serviceNamesSupportingCapability: /* Error: Ran out of types for this method. */;
+- (UITextFormattingViewControllerFormattingDescriptor *);
 @end
 

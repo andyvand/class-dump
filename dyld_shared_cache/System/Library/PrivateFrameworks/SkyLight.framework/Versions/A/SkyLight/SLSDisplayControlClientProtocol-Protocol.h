@@ -4,11 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString, SLSXPCService;
+
 @protocol SLSDisplayControlClientProtocol
+- (void)WHERE "%@" = '%@';
+- (SLSXPCService *)ct to a record zone. This usually means the object exists in a shared database and must be assigned to a zone using -[%@ %@]:(NSString *)arg1 %@;
+- (SLSXPCService *)text processAnalyzedHistoryInStore:(NSString *)arg1 inManagedObjectContext:(_Bool)arg2 error:(id *)arg3 ]_block_invoke_2;
+- (_Bool)PartialError:forStore:inMonitor:] /* Error: Ran out of types for this method. */;
+- (_Bool);
 
 // Remaining properties
-@property(readonly) _Bool configured;
 @property(readonly) _Bool enabled;
-@property(readonly, copy, nonatomic) CDUnknownBlockType notification;
 @end
 

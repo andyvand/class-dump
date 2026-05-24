@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCActivityMonitor, MCQuotaUsage, MFMailAccount, NSString;
+@class MCActivityMonitor;
 
 @interface MFSizeEngine
 {
     _Bool _isActive;
-    MFMailAccount *_account;
-    MCActivityMonitor *_monitor;
-    long long _monitorAccessKey;
-    MCQuotaUsage *_totalUsage;
 }
 
 - (_Bool);
 - (void);
 - (long long);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)R
+;
 - (void);
 - (id);
+- (id)16;
+- (void)_selectionRect;
 - (void);
+- (id);
+- (void)(;
 - (void);
 - (_Bool);
 - (void);
@@ -35,23 +32,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) MFMailAccount *account; // @synthesize account=_account;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *displayName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
 @property(retain, nonatomic) MCActivityMonitor *monitor; // @synthesize monitor=_monitor;
-@property(nonatomic) long long monitorAccessKey; // @synthesize monitorAccessKey=_monitorAccessKey;
-@property(readonly, nonatomic) _Bool shouldStartWorkerThread;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) MCQuotaUsage *totalUsage; // @synthesize totalUsage=_totalUsage;
 
 @end
 

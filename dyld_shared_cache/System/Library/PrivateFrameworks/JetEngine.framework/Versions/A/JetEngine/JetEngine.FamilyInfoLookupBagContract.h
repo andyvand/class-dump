@@ -11,7 +11,7 @@
     id backing;
 }
 
-- (id);
+- (id)+q;
 - (void);
 
 // Remaining properties

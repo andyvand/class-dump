@@ -9,19 +9,18 @@
 @interface GEOComposedStringArgument_Power : GEOComposedStringArgument
 {
     float _defaultValue;
-    float _overrideValue;
 }
 
 + (_Bool)doesn't match packed copy "%@", deleting - %@;
 - (void);
 - (id);
-- (float);
+- (float)ancelationToken"8;
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)setDevicePushToken:(struct _NSZone *)arg1;
 
 // Remaining properties
 @property(nonatomic) float overrideValue; // @synthesize overrideValue=_overrideValue;

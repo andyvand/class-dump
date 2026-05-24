@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSMPFullAccountIdentity, IDSMPFullAccountIdentityCluster, IDSMPFullServiceIdentityAdmin, IDSMPFullServiceIdentitySigning, IDSPublicAccountIdentity, NSString;
+@class IDSMPFullAccountIdentityCluster;
 
 @interface IDSAccountIdentity
 {
@@ -16,27 +16,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (id);
 - (void);
 - (id);
-- (id)oCopy:length:deallocator: /* Error: Ran out of types for this method. */;
+- (id)initWithBytesNoCopy:length:deallocator: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)oneybeed;
 
 // Remaining properties
-@property(readonly, nonatomic) IDSMPFullAccountIdentity *accountIdentity;
-@property(readonly, nonatomic) IDSPublicAccountIdentity *accountPublicKey;
-@property(readonly, nonatomic) IDSMPFullServiceIdentityAdmin *adminIdentity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) IDSMPFullAccountIdentityCluster *identityCluster; // @synthesize identityCluster=_identityCluster;
-@property(readonly, nonatomic) IDSMPFullServiceIdentitySigning *signingIdentity;
-@property(readonly) Class superclass;
 
 @end
 

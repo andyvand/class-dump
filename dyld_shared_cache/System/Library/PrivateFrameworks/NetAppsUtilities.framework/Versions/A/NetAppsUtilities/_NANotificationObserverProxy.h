@@ -6,28 +6,23 @@
 
 #import <NetAppsUtilities/_NAObserverProxy.h>
 
-@class NSOperationQueue, NSString;
+@class NSOperationQueue;
 
 __attribute__((visibility("hidden")))
 @interface _NANotificationObserverProxy : _NAObserverProxy
 {
     id _notificationObserver;
-    NSOperationQueue *_observerQueue;
-    CDUnknownBlockType _observerBlock;
-    NSString *_notificationName;
 }
 
-- (void);
+- (void)C;
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)scopeIdentifiersExcludedFromMingling;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *notificationName; // @synthesize notificationName=_notificationName;
-@property(readonly, copy, nonatomic) CDUnknownBlockType observerBlock; // @synthesize observerBlock=_observerBlock;
 @property(readonly, nonatomic) NSOperationQueue *observerQueue; // @synthesize observerQueue=_observerQueue;
 
 @end

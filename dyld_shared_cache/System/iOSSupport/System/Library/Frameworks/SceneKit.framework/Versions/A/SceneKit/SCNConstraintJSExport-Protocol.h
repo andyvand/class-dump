@@ -4,7 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CAAnimation, NSArray;
+
 @protocol SCNConstraintJSExport
+- (void);
+- (NSArray *)tokens;
+- (CAAnimation *)tokenTranslation;
+- (id)r;
 - (id)u_modelViewProjectionTransform * u_transform * vec4(a_position, 1.);
     v_vertexColor = u_color;
 }
@@ -12,7 +18,5 @@
 
 // Remaining properties
 @property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(nonatomic, getter=isIncremental) _Bool incremental;
-@property(nonatomic) double influenceFactor;
 @end
 

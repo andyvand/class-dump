@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol EFSQLValueExpressable;
+@class NSArray;
 
 @interface EFSQLIndexSchema
 {
     _Bool _unique;
-    NSString *_name;
-    NSString *_tableName;
-    NSArray *_indexedColumns;
-    id <EFSQLValueExpressable> _where;
 }
 
 - (_Bool);
 - (id);
 - (id);
+- (id)=	;
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *indexedColumns; // @synthesize indexedColumns=_indexedColumns;
-@property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) NSString *tableName; // @synthesize tableName=_tableName;
-@property(readonly, nonatomic) _Bool unique; // @synthesize unique=_unique;
-@property(readonly, nonatomic) id <EFSQLValueExpressable> where; // @synthesize where=_where;
 
 @end
 

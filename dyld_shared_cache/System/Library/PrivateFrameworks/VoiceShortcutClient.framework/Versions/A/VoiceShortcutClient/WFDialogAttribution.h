@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WFIcon, WFWorkflowIcon;
+@class NSString, WFWorkflowIcon;
 
 @interface WFDialogAttribution
 {
     NSString *_title;
-    WFIcon *_icon;
-    NSString *_appBundleIdentifier;
-    WFWorkflowIcon *_workflowIcon;
 }
 
-+ (id);
-+ (id);
-+ (_Bool);
++ (id)|;
++ (id){;
++ (_Bool)__objc_methlist;
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)|;
+- (id){;
+- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -32,9 +29,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *appBundleIdentifier; // @synthesize appBundleIdentifier=_appBundleIdentifier;
-@property(readonly, nonatomic) WFIcon *icon; // @synthesize icon=_icon;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 @property(retain, nonatomic) WFWorkflowIcon *workflowIcon; // @synthesize workflowIcon=_workflowIcon;
 
 @end

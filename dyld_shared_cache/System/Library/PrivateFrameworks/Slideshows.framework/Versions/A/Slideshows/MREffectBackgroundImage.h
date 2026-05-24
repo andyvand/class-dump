@@ -6,16 +6,15 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRImageProvider, NSString;
+@class MRImageProvider;
 
 @interface MREffectBackgroundImage : MREffect
 {
     MRImageProvider *mImageProvider;
-    NSString *mClampingMode;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)userSegmentationSegmentSetIDs;
 - (id);
 - (id);
 - (void);

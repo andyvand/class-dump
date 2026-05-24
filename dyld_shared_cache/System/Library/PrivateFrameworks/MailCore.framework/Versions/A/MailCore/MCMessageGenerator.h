@@ -4,27 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MEComposeContext, NSArray;
-@protocol MEMessageEncoder;
-
 @interface MCMessageGenerator
 {
     _Bool _shouldMarkNonresizableAttachmentData;
-    _Bool _createsMimeAlternatives;
-    _Bool _createsPlainTextOnly;
-    _Bool _alwaysCreatesRichText;
-    _Bool _allows8BitMimeParts;
-    _Bool _allowsBinaryMimeParts;
-    _Bool _allowsAppleDoubleAttachments;
-    unsigned long long _encodingHint;
-    id <MEMessageEncoder> _encoder;
-    MEComposeContext *_composeContext;
-    NSArray *_encryptionCertificates;
 }
 
-+ (id);
-+ (id);
-- (void);
++ (id)T;
++ (id)#;
+- (void)R;
 - (void);
 - (void);
 - (void);
@@ -39,21 +26,21 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (void)T_;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)9k`;
 - (id);
 - (id);
 - (id);
@@ -62,7 +49,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)2;
 - (id);
 - (void);
 - (void);
@@ -78,16 +65,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allows8BitMimeParts; // @synthesize allows8BitMimeParts=_allows8BitMimeParts;
-@property(nonatomic) _Bool allowsAppleDoubleAttachments; // @synthesize allowsAppleDoubleAttachments=_allowsAppleDoubleAttachments;
-@property(nonatomic) _Bool allowsBinaryMimeParts; // @synthesize allowsBinaryMimeParts=_allowsBinaryMimeParts;
-@property(nonatomic) _Bool alwaysCreatesRichText; // @synthesize alwaysCreatesRichText=_alwaysCreatesRichText;
-@property(retain, nonatomic) MEComposeContext *composeContext; // @synthesize composeContext=_composeContext;
-@property(nonatomic) _Bool createsMimeAlternatives; // @synthesize createsMimeAlternatives=_createsMimeAlternatives;
-@property(nonatomic) _Bool createsPlainTextOnly; // @synthesize createsPlainTextOnly=_createsPlainTextOnly;
-@property(retain, nonatomic) id <MEMessageEncoder> encoder; // @synthesize encoder=_encoder;
 @property(nonatomic) unsigned long long encodingHint; // @synthesize encodingHint=_encodingHint;
-@property(copy, nonatomic) NSArray *encryptionCertificates; // @synthesize encryptionCertificates=_encryptionCertificates;
 
 @end
 

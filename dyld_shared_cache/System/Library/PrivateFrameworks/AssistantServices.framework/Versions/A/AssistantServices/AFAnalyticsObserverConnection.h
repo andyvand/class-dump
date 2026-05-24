@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface AFAnalyticsObserverConnection
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_semaphore> *_semaphore;
-    NSXPCConnection *_connection;
-    CDUnknownBlockType _observationHandler;
 }
 
-- (void);
+- (void)7;
 - (id);
 - (oneway void);
 - (void);
+- (void)_passLibraryDataProvider;
+- (void)cannot register for null notification name.;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)riTether;
+- (void)AFSiriTether;
 - (void).Assistant.Failed;
 - (id)idRecognizePackage:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

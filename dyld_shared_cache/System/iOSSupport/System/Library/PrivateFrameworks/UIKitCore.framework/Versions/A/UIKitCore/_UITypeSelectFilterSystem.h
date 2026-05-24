@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableIndexSet, NSMutableString, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _UITypeSelectFilterSystem
 {
     long long _userInputLength;
-    NSArray *_words;
-    NSString *_lastCharacterFromUserInput;
-    NSString *_typeSelectString;
-    unsigned long long _mask;
-    NSMutableString *_acronym;
-    NSMutableArray *_wordsWithoutPunc;
-    NSMutableIndexSet *_matchingRanges;
-    NSString *_inputString;
 }
 
 - (id);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (_Bool);
+- (id)messagesThatNeedSyncWithCloudKitWithFilter:(id)arg1 limit: /* Error: Ran out of types for this method. */;
+- (id)_TtC12IMDaemonCore20ChatContactsProvider;
+- (long long)IMDCKChatSyncController;
+- (id)L;
+- (_Bool)h Could not trim DB with error %@ ;
 - (id);
 - (void);
 - (void)¹;

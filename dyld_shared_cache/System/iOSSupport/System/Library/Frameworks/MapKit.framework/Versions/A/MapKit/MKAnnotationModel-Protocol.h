@@ -5,5 +5,6 @@
 //
 
 @protocol MKAnnotationModel
+- (void);
 @end
 

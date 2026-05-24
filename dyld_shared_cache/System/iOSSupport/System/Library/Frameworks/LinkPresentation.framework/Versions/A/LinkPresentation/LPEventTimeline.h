@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)showUnknownContactPopover:(long long)arg1 isEmail:(id)arg2 shouldBypassScreenTimeShield:sourceRect:window:completion: /* Error: Ran out of types for this method. */;
 
 @end
 

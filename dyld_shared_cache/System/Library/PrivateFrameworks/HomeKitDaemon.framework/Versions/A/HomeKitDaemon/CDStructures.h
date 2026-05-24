@@ -123,23 +123,15 @@ typedef struct {
 } CDStruct_6ad76789;
 
 typedef struct {
-    long long value;
-    int timescale;
-    unsigned int flags;
-    long long epoch;
-} CDStruct_1b6d18a9;
+    long long _field1;
+    int _field2;
+    unsigned int _field3;
+    long long _field4;
+} CDStruct_198678f7;
 
 // Template types
 typedef struct shared_ptr<CtrXPC::Event> {
     struct Event *_field1;
     struct __shared_weak_count *_field2;
 } shared_ptr_f2e0615a;
-
-#pragma mark Typedef'd Unions
-
-typedef union {
-    struct sockaddr sa;
-    struct sockaddr_in v4;
-    struct sockaddr_in6 v6;
-} CDUnion_fab80606;
 

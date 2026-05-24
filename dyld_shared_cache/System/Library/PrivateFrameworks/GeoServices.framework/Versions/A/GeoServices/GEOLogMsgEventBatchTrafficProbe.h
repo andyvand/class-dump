@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLogMsgEventBatchTrafficProbe
 {
     PBUnknownFields *_unknownFields;
-    NSData *_locationCollection;
 }
 
-+ (_Bool)ndex:(id)arg1;
++ (_Bool)setHasSignDetailIndex:(id)arg1;
 - (void);
 - (id);
 - (_Bool);
@@ -27,7 +26,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)econdary:(struct _NSZone *)arg1;
+- (id)setResponseAlertSecondary:(struct _NSZone *)arg1;
 - (id)t",R,N;
 - (id)':%{public}@ /* Error: Ran out of types for this method. */;
 - (id)¬
@@ -37,8 +36,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasLocationCollection;
-@property(retain, nonatomic) NSData *locationCollection;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATOperation, CATOperationQueue, NSArray;
+@class CATOperation;
 
 @interface CRKSequentialOperation
 {
     CATOperation *_failedOperation;
-    unsigned long long _frontOfQueue;
-    NSArray *_operations;
-    CATOperationQueue *_queue;
 }
 
 + (id);
@@ -31,10 +28,7 @@
 - (_Bool)String"8@"NSNumber"16^B24;
 
 // Remaining properties
-@property(retain, nonatomic) CATOperation *failedOperation; // @synthesize failedOperation=_failedOperation;
 @property(nonatomic) unsigned long long frontOfQueue; // @synthesize frontOfQueue=_frontOfQueue;
-@property(readonly, nonatomic) NSArray *operations; // @synthesize operations=_operations;
-@property(readonly, nonatomic) CATOperationQueue *queue; // @synthesize queue=_queue;
 
 @end
 

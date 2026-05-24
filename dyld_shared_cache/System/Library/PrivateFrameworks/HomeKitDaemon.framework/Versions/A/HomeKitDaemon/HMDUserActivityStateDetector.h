@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDUserActivityReportValue, NSString;
-@protocol HMDHomeActivityStateManagerDataSource, HMDUserActivityStateDetectorStateChangeDelegate;
+@protocol HMDHomeActivityStateManagerDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDUserActivityStateDetector
 {
     long long _locationAuthorization;
-    id <HMDHomeActivityStateManagerDataSource> _dataSource;
-    HMDUserActivityReportValue *_latestReport;
-    id <HMDUserActivityStateDetectorStateChangeDelegate> _stateChangeDelegate;
 }
 
 + (_Bool);
@@ -25,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ߊ;
 - (void);
 - (id);
 - (void);
@@ -37,16 +33,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) id <HMDHomeActivityStateManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HMDUserActivityReportValue *latestReport; // @synthesize latestReport=_latestReport;
-@property(nonatomic) long long locationAuthorization; // @synthesize locationAuthorization=_locationAuthorization;
-@property(nonatomic) __weak id <HMDUserActivityStateDetectorStateChangeDelegate> stateChangeDelegate; // @synthesize stateChangeDelegate=_stateChangeDelegate;
-@property(readonly) Class superclass;
 
 @end
 

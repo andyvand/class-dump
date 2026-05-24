@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVRoutePickerView, MPAVLightweightRoutingController, MPVolumeSlider, NSString, UIButton, UIImage, UILabel;
+@class MPAVLightweightRoutingController;
 
 @interface MPVolumeView
 {
     MPAVLightweightRoutingController *_lightweightRoutingController;
-    _Bool _hasNonDefaultRouteButtonImages;
-    _Bool _hasNonDefaultMaxVolumeSliderImage;
-    _Bool _hasNonDefaultMinVolumeSliderImage;
-    _Bool _hidesRouteLabelWhenNoRouteChoice;
-    UIButton *_routeButton;
-    _Bool _routeDiscoveryEnabled;
-    UILabel *_routeLabel;
-    _Bool _showingButton;
-    _Bool _showingLabel;
-    _Bool _showingSlider;
-    _Bool _showsRouteButton;
-    _Bool _showsVolumeSlider;
-    long long _style;
-    AVRoutePickerView *_routePickerView;
-    MPVolumeSlider *_volumeSlider;
-    _Bool _volumeSliderShrinksFromBothEnds;
-    _Bool _wirelessRouteIsPicked;
-    _Bool _wirelessRoutesAvailable;
-    _Bool _pushedRouteDiscoveryModeState;
-    UIImage *_volumeWarningSliderImage;
 }
 
 - (id);
@@ -36,12 +16,12 @@
 - (id);
 - (struct CGRect);
 - (_Bool);
-- (_Bool);
+- (_Bool)qa;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -53,13 +33,13 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)9;
 - (id);
 - (void);
 - (void);
@@ -70,13 +50,13 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (long long);
 - (void);
-- (struct CGSize);
-- (id);
+- (struct CGSize)g clear notice %@ to %@ from %@;
+- (id)thumbsDownTapbackRemoved;
 - (void);
 - (id);
 - (void);
@@ -86,29 +66,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (void)classForTranslatorForITLibItem: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)_classForTranslatorForITLibItem: /* Error: Ran out of types for this method. */;
 - (_Bool)s.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hidesRouteLabelWhenNoRouteChoice;
-@property(readonly, nonatomic) _Bool isShowingRouteButton;
-@property(readonly, nonatomic) _Bool isVisible;
-@property(nonatomic) _Bool showsRouteButton;
-@property(nonatomic) _Bool showsVolumeSlider;
 @property(readonly, nonatomic) long long style;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) MPVolumeSlider *volumeSlider;
-@property(nonatomic) _Bool volumeSliderShrinksFromBothEnds;
-@property(retain, nonatomic) UIImage *volumeWarningSliderImage; // @synthesize volumeWarningSliderImage=_volumeWarningSliderImage;
-@property(readonly, nonatomic, getter=isWirelessRouteActive) _Bool wirelessRouteActive;
-@property(readonly, nonatomic, getter=areWirelessRoutesAvailable) _Bool wirelessRoutesAvailable;
 
 @end
 

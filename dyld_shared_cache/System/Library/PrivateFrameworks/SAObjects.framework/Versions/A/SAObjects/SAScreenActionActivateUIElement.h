@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)sing file path string when navigating to directory";
 
 // Remaining properties
 @property(copy, nonatomic) NSString *elementId;

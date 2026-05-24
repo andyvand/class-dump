@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface NGMPBFullDeviceIdentity
 {
     NSMutableArray *_prekeys;
-    NGMPBP256Key *_signingKey;
 }
 
 + (Class);
-- (void);
+- (void)P;
 - (id);
 - (void);
 - (void);
@@ -24,17 +23,16 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
+- (void)expire;
+- (id)%lu AND %lu);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *prekeys; // @synthesize prekeys=_prekeys;
 @property(retain, nonatomic) NGMPBP256Key *signingKey; // @synthesize signingKey=_signingKey;
 
 @end

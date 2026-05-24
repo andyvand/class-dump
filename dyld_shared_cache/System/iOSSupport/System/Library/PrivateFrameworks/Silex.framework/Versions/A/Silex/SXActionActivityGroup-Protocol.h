@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIView;
+@class NSString;
 
 @protocol SXActionActivityGroup
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *activities;
-@property(readonly, nonatomic) UIView *sourceView;
 @property(readonly, nonatomic) NSString *title;
 @end
 

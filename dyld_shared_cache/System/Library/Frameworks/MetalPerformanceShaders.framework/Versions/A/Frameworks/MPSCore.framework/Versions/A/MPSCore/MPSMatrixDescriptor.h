@@ -7,36 +7,26 @@
 @interface MPSMatrixDescriptor
 {
     unsigned long long _rows;
-    unsigned long long _columns;
-    unsigned long long _matrices;
-    unsigned long long _rowBytes;
-    unsigned long long _matrixBytes;
-    unsigned int _dataType;
 }
 
-+ (unsigned long long);
++ (unsigned long long)#;
 + (id);
 + (id);
-+ (unsigned long long);
-+ (id);
++ (unsigned long long)mlir:(unsigned long long)arg1:(unsigned int)arg2 FloatType::Trait<Empty>] /* Error: Ran out of types for this method. */;
++ (id)edTypeName = mlir:(unsigned long long)arg1:(unsigned long long)arg2 DataLayoutSpecInterface];
 - (unsigned long long);
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
+- (void)n implemented.;
+- (void)specify more than one option with cl:(unsigned long long)arg1:ConsumeAfter! /* Error: Ran out of types for this method. */;
+- (void)ing to block of a different region;
+- (unsigned long long)esults must be non-scalar;
+- (id)Z;
 - (unsigned int);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)a;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long columns; // @synthesize columns=_columns;
-@property(nonatomic) unsigned int dataType; // @synthesize dataType=_dataType;
-@property(readonly, nonatomic) unsigned long long matrices; // @synthesize matrices=_matrices;
-@property(readonly, nonatomic) unsigned long long matrixBytes; // @synthesize matrixBytes=_matrixBytes;
-@property(nonatomic) unsigned long long rowBytes; // @synthesize rowBytes=_rowBytes;
 @property(nonatomic) unsigned long long rows; // @synthesize rows=_rows;
 
 @end

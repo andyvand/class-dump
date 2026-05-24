@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHH2AutoMigrationEligibilityResult, NSDictionary, NSString, NSUUID;
+@class HMDHH2AutoMigrationEligibilityResult;
 
 __attribute__((visibility("hidden")))
 @interface HMDHH2AutoMigrationEligibilityStatusLogEvent
 {
     _Bool _didRunMigrationTaskOnCurrentBuild;
-    _Bool _currentBuildStartedOnHH1;
-    HMDHH2AutoMigrationEligibilityResult *_currentUserAutoMigrationEligibilityResult;
-    HMDHH2AutoMigrationEligibilityResult *_currentUserMigrationByOwnerManualEligibilityResult;
-    HMDHH2AutoMigrationEligibilityResult *_currentUserMigrationByOwnerAutoEligibilityResult;
 }
 
 - (id);
@@ -28,33 +24,7 @@ __attribute__((visibility("hidden")))
 - (void)];
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly) _Bool currentBuildStartedOnHH1; // @synthesize currentBuildStartedOnHH1=_currentBuildStartedOnHH1;
 @property(readonly) HMDHH2AutoMigrationEligibilityResult *currentUserAutoMigrationEligibilityResult; // @synthesize currentUserAutoMigrationEligibilityResult=_currentUserAutoMigrationEligibilityResult;
-@property(readonly) HMDHH2AutoMigrationEligibilityResult *currentUserMigrationByOwnerAutoEligibilityResult; // @synthesize currentUserMigrationByOwnerAutoEligibilityResult=_currentUserMigrationByOwnerAutoEligibilityResult;
-@property(readonly) HMDHH2AutoMigrationEligibilityResult *currentUserMigrationByOwnerManualEligibilityResult; // @synthesize currentUserMigrationByOwnerManualEligibilityResult=_currentUserMigrationByOwnerManualEligibilityResult;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool didRunMigrationTaskOnCurrentBuild; // @synthesize didRunMigrationTaskOnCurrentBuild=_didRunMigrationTaskOnCurrentBuild;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly) Class superclass;
 
 @end
 

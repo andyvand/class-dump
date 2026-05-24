@@ -7,8 +7,6 @@
 @interface SwiftUI.DocumentBrowserViewController
 {
     id documentConfigurations;
-    id rootModifier;
-    id configurationMap;
 }
 
 - (id);

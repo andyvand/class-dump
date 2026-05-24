@@ -6,23 +6,11 @@
 
 #import <CoreData/NSPersistentStoreRequest.h>
 
-@class NSArray, NSFetchRequest, NSNumber, NSPersistentHistoryToken;
+@class NSPersistentHistoryToken;
 
 @interface NSPersistentHistoryChangeRequest : NSPersistentStoreRequest
 {
     NSPersistentHistoryToken *_token;
-    long long _resultType;
-    NSArray *_transactionIDs;
-    NSNumber *_transactionNumber;
-    struct __persistentHistoryChangeRequestDescriptionFlags {
-        unsigned int _useQueryGenerationToken:1;
-        unsigned int _deleteHistoryRequest:1;
-        unsigned int _fetchTransactionForToken:1;
-        unsigned int _percentageDeleteHistoryRequest:1;
-        unsigned int _reservedPersistentHistoryChangeRequestDescription:28;
-    } _persistentHistoryChangeRequestDescriptionFlags;
-    id *_additionalPrivateIvars;
-    unsigned long long _percentageOfDB;
 }
 
 + (id);
@@ -32,41 +20,52 @@
 + (id);
 + (id);
 + (id);
++ (id)c%c%c
+;
++ (id)rs:(gdb) call (void) GDBPrintAECoercionTables()
+
+To view all contents install AppleEvent handlers:(gdb) call (void) GDBPrintAEHandlerTables()
+
+Additionally, to log information about AppleEvent manager calls,
+you can set environment variables that will produce debugging output
+to the console:%% setenv AEDebugSends    1            # print sent events
+  %% setenv AEDebugReceives 1            # print received events and replies
+
+
+ /* Error: Ran out of types for this method. */;
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)$;
 + (id);
 + (id)ÔÁ×.!(Cù1Ç21Â0@ù
 × ;
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
+- (id)h;
+- (void);
 - (id);
-- (void);
+- (_Bool);
 - (id);
+- (id);
+- (id)E;
+- (id);
+- (id);
+- (void);
+- (id);
+- (id)Q;
+- (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool)amework/Versions/C/Foundation;
+- (void);
 - (unsigned long long);
 - (void);
 - (id);
@@ -90,9 +89,7 @@
 - (unsigned long long)F;
 
 // Remaining properties
-@property(retain, nonatomic) NSFetchRequest *fetchRequest;
 @property long long resultType; // @synthesize resultType=_resultType;
-@property(readonly) NSPersistentHistoryToken *token; // @synthesize token=_token;
 
 @end
 

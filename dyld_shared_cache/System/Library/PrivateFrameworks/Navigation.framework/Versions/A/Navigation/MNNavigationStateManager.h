@@ -4,38 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOApplicationAuditToken, GEOObserverHashTable, MNNavigationState, NSString, geo_isolater;
-@protocol MNNavigationSessionManagerDelegate;
+@class GEOApplicationAuditToken;
 
 __attribute__((visibility("hidden")))
 @interface MNNavigationStateManager
 {
     _Bool _isStarted;
-    MNNavigationState *_currentState;
-    GEOObserverHashTable *_navigationStateObservers;
-    GEOApplicationAuditToken *_auditToken;
-    geo_isolater *_isolater;
-    id <MNNavigationSessionManagerDelegate> _navigationDelegate;
 }
 
-+ (id);
++ (id)est, but no client provided a splat scan completion block is available for request:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)_;
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (unsigned long long)iCloudAccountDetailsWebTabView;
+- (void);
+- (id);
+- (void)deviceSupportsSplatCryptex1SystemVersion;
+- (unsigned long long)ntents;
+- (id)actionResumeCurrentUpdateFailed:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -48,15 +42,15 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
+- (void)IAPLocationSendEphemeris;
+- (void)has occurred, tryLeft %d;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)eworks/CoreFoundation.framework/Versions/A/CoreFoundation;
+- (void):(unsigned long long)arg1 8;
+- (void)l %@;
+- (void)orNotification:(id)arg1 withCallback:andTimeout:] /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
 - (void);
 - (void)Áð!Bù1Â0@ù
@@ -74,10 +68,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)v24@0:(CDUnknownBlockType)arg1 8@"_MNLocationSimulationState"16;
 - (void)ntRoute:(_Bool)arg1;
-- (void)rimaryStep:(_Bool)arg1 instructions:shieldType:shieldText:drivingSide:maneuverStepIndex:isSynthetic: /* Error: Ran out of types for this method. */;
-- (void)eRouteInfoFrom:(_Bool)arg1;
-- (void)rtualGarageProvider;
-- (void);
+- (void)navigationSessionManager:(_Bool)arg1 displayPrimaryStep:instructions:shieldType:shieldText:drivingSide:maneuverStepIndex:isSynthetic: /* Error: Ran out of types for this method. */;
+- (void)_updateResumeRouteInfoFrom:(_Bool)arg1;
+- (void)_standardVirtualGarageProvider;
+- (void)_initWithGeoTrafficBannerText:(CDUnknownBlockType)arg1 mainRouteInfo:alternateRouteInfo: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ualGarageManager to get selected vehicle;
 - (void)%@;
@@ -442,23 +436,12 @@ CREATE VIEW route_creation_actions_view AS
     FROM
         custom_route_creation_actions;
  /* Error: Ran out of types for this method. */;
-- (void)4GEOPathMatcherCSg;
+- (void)So14GEOPathMatcherCSg;
 - (void);
 - (void)ÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) GEOApplicationAuditToken *auditToken; // @synthesize auditToken=_auditToken;
-@property(readonly, nonatomic) MNNavigationState *currentState;
-@property(readonly, nonatomic) unsigned long long currentStateType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isStarted;
-@property(nonatomic) __weak id <MNNavigationSessionManagerDelegate> navigationDelegate; // @synthesize navigationDelegate=_navigationDelegate;
-@property(readonly) Class superclass;
 
 @end
 

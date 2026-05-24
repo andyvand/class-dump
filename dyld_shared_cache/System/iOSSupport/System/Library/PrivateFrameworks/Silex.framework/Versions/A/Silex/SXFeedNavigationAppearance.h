@@ -12,16 +12,10 @@
 {
 }
 
-- (id);
+- (id)wsFeed.DebugFormatSelectionView;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *compactTitle; // @dynamic compactTitle;
-@property(readonly, nonatomic) NSString *icon1xImageIdentifier; // @dynamic icon1xImageIdentifier;
-@property(readonly, nonatomic) NSString *icon2xImageIdentifier; // @dynamic icon2xImageIdentifier;
-@property(readonly, nonatomic) NSString *icon3xImageIdentifier; // @dynamic icon3xImageIdentifier;
-@property(readonly, nonatomic) NSString *iconImageIdentifier;
-@property(readonly, nonatomic) NSString *subtitle; // @dynamic subtitle;
-@property(readonly, nonatomic) NSString *subtitleColor; // @dynamic subtitleColor;
 
 @end
 

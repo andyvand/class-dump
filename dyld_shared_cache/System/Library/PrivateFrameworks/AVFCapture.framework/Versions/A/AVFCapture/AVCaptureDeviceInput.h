@@ -6,25 +6,25 @@
 
 #import <AVFCapture/AVCaptureInput.h>
 
-@class AVCaptureDevice, AVCaptureDeviceInputInternal, AVExternalSyncDevice;
+@class AVCaptureDevice, AVCaptureDeviceInputInternal;
 
 @interface AVCaptureDeviceInput : AVCaptureInput
 {
     AVCaptureDeviceInputInternal *_internal;
 }
 
-+ (id);
++ (id)eFrameworks/TCC.framework/Versions/A/TCC;
 + (void)activeFormat.supportedDepthDataFormats;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)_backingAccountStore;
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (_Bool);
+- (void)LLMExtractionForRealtime:(id)arg1 keepAttributesForEvents:keepExceptions: /* Error: Ran out of types for this method. */;
+- (_Bool)%tu contacts;
 - (void);
 - (void);
 - (id);
@@ -39,16 +39,16 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (float);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)D;
 - (void);
-- (void);
+- (void)preloadColorFormat:flags: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -56,74 +56,59 @@
 - (void);
 - (void);
 - (_Bool);
+- (void)expectedLTMCurvesByPortType;
+- (_Bool)ds;
+- (_Bool)dataBufferSize;
+- (_Bool)FigCaptureDisplayLayoutMonitor;
+- (id);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
 - (void);
-- (id);
-- (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)bwbackpressurenode_trace;
+- (void)CFString=}8;
+- (void)>>> Fig;
+- (_Bool)ettings.requestedSettings;
+- (void)CinematicVideoRefinedCinematographyMetadata;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (float);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
+- (void)V;
+- (_Bool);
+- (void);
+- (_Bool);
+- (long long)d function %{public}p:%{public}s /* Error: Ran out of types for this method. */;
+- (_Bool)o compile network:%{public}s /* Error: Ran out of types for this method. */;
 - (long long);
-- (_Bool);
-- (long long);
-- (struct OpaqueCMClock *);
+- (struct OpaqueCMClock *)RNS4_13E5RTRefTraitsIT_E4typeEEUlOSA_E_F17e5rt_error_code_tRKNS4_13E5RTInterfaceEEEE;
 - (id);
 - (CDStruct_1b6d18a9);
 - (void);
-- (void)dateLivePhotoCaptureSupportedForSourceDevice:(float)arg1;
-- (void)ampleBuffer:(struct OpaqueFigCaptureSession *)arg1 previewPhotoSampleBuffer: /* Error: Ran out of types for this method. */;
+- (void)_updateLivePhotoCaptureSupportedForSourceDevice:(float)arg1;
+- (void)DNGPhotoDataRepresentationForRawSampleBuffer:(struct OpaqueFigCaptureSession *)arg1 previewPhotoSampleBuffer: /* Error: Ran out of types for this method. */;
 - (void)eDevice",R,W,N;
 - (void)wide camera:(struct OpaqueFigCaptureSession *)arg1 %@ on %@;
 - (_Bool)Ì;
 - (void)bolgvltbbolgtstbbolgcwhdbolgwshdbolgczambolgartdtpnifmofbolgmftfbolgmvtfbolgcssabolgccsabolglcmp****hnmpbolgenogbolg;
 - (CDStruct_1b6d18a9)aultDisabledNotification];
-- (float)ackingActiveListener;
+- (float)DockedTrackingActiveListener;
 - (void)ÓÑ;
 - (CDStruct_1b6d18a9)Ù;
 - (void)1;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_1b6d18a9 activeExternalSyncVideoFrameDuration;
-@property(nonatomic) CDStruct_1b6d18a9 activeLockedVideoFrameDuration;
-@property(nonatomic, getter=isAudioZoomEnabled) _Bool audioZoomEnabled;
-@property(readonly, nonatomic, getter=isAudioZoomSupported) _Bool audioZoomSupported;
-@property(nonatomic, getter=isCinematicVideoCaptureEnabled) _Bool cinematicVideoCaptureEnabled;
-@property(readonly, nonatomic, getter=isCinematicVideoCaptureSupported) _Bool cinematicVideoCaptureSupported;
 @property(readonly, nonatomic) AVCaptureDevice *device;
-@property(readonly, nonatomic) AVExternalSyncDevice *externalSyncDevice;
-@property(readonly, nonatomic, getter=isExternalSyncSupported) _Bool externalSyncSupported;
-@property(readonly, nonatomic, getter=isLockedVideoFrameDurationSupported) _Bool lockedVideoFrameDurationSupported;
-@property(nonatomic) long long multichannelAudioMode;
-@property(nonatomic) float simulatedAperture;
-@property(nonatomic) _Bool unifiedAutoExposureDefaultsEnabled;
-@property(nonatomic) CDStruct_1b6d18a9 videoMinFrameDurationOverride;
-@property(nonatomic, getter=isWindNoiseRemovalEnabled) _Bool windNoiseRemovalEnabled;
-@property(readonly, nonatomic, getter=isWindNoiseRemovalSupported) _Bool windNoiseRemovalSupported;
 
 @end
 

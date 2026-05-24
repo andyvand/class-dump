@@ -8,19 +8,19 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)Q;
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)ring"24@"NSURL"32;
+- (id)_loadHighlightsSectionProvider;
 - (id);
 - (void);
 - (id);

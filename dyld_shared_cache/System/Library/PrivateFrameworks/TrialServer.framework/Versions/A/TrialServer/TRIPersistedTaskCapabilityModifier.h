@@ -8,13 +8,10 @@
 {
 }
 
-+ (id);
++ (id)_SignpostAggregationCAPayloadGenerator;
 
 // Remaining properties
 @property(nonatomic) unsigned long long add; // @dynamic add;
-@property(nonatomic) _Bool hasAdd; // @dynamic hasAdd;
-@property(nonatomic) _Bool hasRemove; // @dynamic hasRemove;
-@property(nonatomic) unsigned long long remove; // @dynamic remove;
 
 @end
 

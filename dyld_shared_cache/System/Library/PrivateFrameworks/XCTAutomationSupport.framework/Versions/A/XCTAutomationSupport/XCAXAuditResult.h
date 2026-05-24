@@ -4,35 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, XCAccessibilityElement;
+@class NSString;
 
 @interface XCAXAuditResult
 {
     NSString *_compactDescription;
-    NSString *_detailedDescription;
-    XCAccessibilityElement *_element;
-    NSString *_auditType;
 }
 
 + (_Bool);
 - (void);
 - (void);
 - (id);
+- (void){;
+- (id);
+- (id)wo;
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)pB7g;
+- (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *auditType; // @synthesize auditType=_auditType;
 @property(copy, nonatomic) NSString *compactDescription; // @synthesize compactDescription=_compactDescription;
-@property(copy, nonatomic) NSString *detailedDescription; // @synthesize detailedDescription=_detailedDescription;
-@property(copy, nonatomic) XCAccessibilityElement *element; // @synthesize element=_element;
 
 @end
 

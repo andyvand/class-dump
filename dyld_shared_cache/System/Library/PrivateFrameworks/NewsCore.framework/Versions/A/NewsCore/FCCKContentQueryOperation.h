@@ -6,26 +6,11 @@
 
 #import <NewsCore/FCOperation.h>
 
-@class CKQuery, CKQueryCursor, FCCKContentDatabase, FCEdgeCacheHint, NSArray, NSDictionary;
+@class NSArray;
 
 @interface FCCKContentQueryOperation : FCOperation
 {
     _Bool _ignoreCache;
-    int _networkEventType;
-    FCCKContentDatabase *_database;
-    CKQuery *_query;
-    CKQueryCursor *_cursor;
-    unsigned long long _resultsLimit;
-    NSArray *_desiredKeys;
-    CDUnknownBlockType _recordFetchedBlock;
-    CDUnknownBlockType _queryCompletionBlock;
-    NSArray *_requestUUIDs;
-    NSDictionary *_additionalRequestHTTPHeaders;
-    FCEdgeCacheHint *_edgeCacheHint;
-    long long _optimizationPolicy;
-    unsigned long long _queryPriority;
-    NSArray *_networkEvents;
-    CDUnknownBlockType _networkActivityBlock;
 }
 
 + (id);
@@ -33,14 +18,108 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)55, -0.523) + 									
+	       pix.b * vec3(0.114, -0.321, 0.311);										
+    return vec4(pix2, pix.a);														
+}																					
+					 																
+kernel vec4 convertFromYIQToRGB(sampler src) __attribute__ ((preserves_opacity))	
+{																					
+    vec4 color, pix;																
+    pix = sample(src, samplerCoord(src));											
+    color.rgb = pix.r * vec3(1.00048, 0.999864, 0.999446) + 						
+				pix.g * vec3(0.955558, -0.271545, -1.10803) + 						
+				pix.b * vec3(0.619549, -0.646786, 1.70542);							
+    color.rgb = max(color.rgb, vec3(0.0));											
+    color.rgb = color.rgb*color.rgb;												
+    color.a = pix.a;																
+    return premultiply(color);														
+}																					
+																					
+vec2 CalEffectAmount(float slum, float lum,											
+	vec2 coeff1, vec2 coeff2, vec2 coeff3, vec2 coeff4, 							
+	vec2 coeff5, vec2 coeff6, vec2 coeff7)											
+{																					
+    vec2 base, gg, gg2, att;														
+    vec2 effectAmount;																
+    base = clamp(vec2(slum, 1.0 - (lum + slum) * 0.5), 0.0, 1.0);					
+    att = exp2(base*coeff2)*coeff1 + coeff5;										
+    gg = clamp(base*coeff6 + coeff3, 0.0, 1.0);										
+    gg2 = gg * gg;																	
+    effectAmount = att*(1.0 + gg2*(coeff4 + coeff7*gg));							
+    return effectAmount;															
+}																					
+																					
+// note:(id)arg1 operates in YIQ space (unpremultiplied)									
+kernel vec4 shadowHighlight3(sampler src, sampler srcblum,							
+	vec2 coeff1, vec2 coeff2, vec2 coeff3, vec2 coeff4,								
+	vec2 coeff5, vec2 coeff6, vec2 coeff7, vec4 k)									
+{																					
+    float midPix, slum, hltPix;														
+    vec2 effectAmount;																
+    vec4 opix, opix1, opix2, opix3, pix, spix, shdPix;								
+    pix = sample(src, samplerCoord(src));											
+	spix = sample(srcblum, samplerCoord(srcblum));									
+																					
+	slum = spix.r;																	
+	effectAmount = CalEffectAmount(slum, pix.r, coeff1, coeff2, coeff3, coeff4, coeff5, coeff6, coeff7);										
+    shdPix = pix * k.x;																
+    opix1 = mix(pix, shdPix, effectAmount.x);										
+    hltPix = mix(1.0, opix1.r, k.y);												
+    slum = mix(opix1.r, hltPix, effectAmount.y);									
+    midPix = mix(0.5, slum, k.z);													
+    opix1.rgb = mix(pix.rgb, opix1.rgb, k.w);										
+    opix1.r = mix(midPix, slum, (effectAmount.x + effectAmount.y));					
+																					
+	slum = spix.g;																	
+	effectAmount = CalEffectAmount(slum, pix.r, coeff1, coeff2, coeff3, coeff4, coeff5, coeff6, coeff7);										
+    shdPix = pix * k.x;																
+    opix2 = mix(pix, shdPix, effectAmount.x);										
+    hltPix = mix(1.0, opix2.r, k.y);												
+    slum = mix(opix2.r, hltPix, effectAmount.y);									
+    midPix = mix(0.5, slum, k.z);													
+    opix2.rgb = mix(pix.rgb, opix2.rgb, k.w);										
+    opix2.r = mix(midPix, slum, (effectAmount.x + effectAmount.y));					
+																					
+	slum = spix.b;																	
+	effectAmount = CalEffectAmount(slum, pix.r, coeff1, coeff2, coeff3, coeff4, coeff5, coeff6, coeff7);										
+    shdPix = pix * k.x;																
+    opix3 = mix(pix, shdPix, effectAmount.x);										
+    hltPix = mix(1.0, opix3.r, k.y);												
+    slum = mix(opix3.r, hltPix, effectAmount.y);									
+    midPix = mix(0.5, slum, k.z);													
+    opix3.rgb = mix(pix.rgb, opix3.rgb, k.w);										
+    opix3.r = mix(midPix, slum, (effectAmount.x + effectAmount.y));					
+																					
+	opix = (opix1 + opix2 + opix3) * 0.33333333;									
+	opix.a = pix.a;																	
+																					
+    return opix;																	
+}																					
+					 																
+kernel vec4 luminize (sampler src1, sampler src2, sampler src3)						
+	__attribute__ ((no_merge_sample))												
+{																					
+	vec4 pix, outv;																	
+	pix = unpremultiply(sample(src1, samplerCoord(src1)));							
+	pix.rgb = sqrt(max(pix.rgb, 0.0));												
+	outv.r   = dot(pix.rgb, vec3(0.299, 0.587, 0.114));								
+	pix = unpremultiply(sample(src2, samplerCoord(src2)));							
+	pix.rgb = sqrt(max(pix.rgb, 0.0));												
+	outv.g   = dot(pix.rgb, vec3(0.299, 0.587, 0.114));								
+	pix = unpremultiply(sample(src3, samplerCoord(src3)));							
+	pix.rgb = sqrt(max(pix.rgb, 0.0));												
+	outv.b   = dot(pix.rgb, vec3(0.299, 0.587, 0.114));								
+	outv.a   = 1.0;																	
+	return outv;																	
+}																					
+;
 - (void)-[FCCurrentMagazineContentFetchOperation init];
 - (void)from CK-at-Edge with last-modified %{public}@ via %{public}@;
 - (void)ingPurchaseEntry already exists for tagID:(id)arg1 %@ purchaseID:%@ productIdentifier:%@ /* Error: Ran out of types for this method. */;
 - (_Bool)W;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *networkEvents; // @synthesize networkEvents=_networkEvents;
 @property(copy, nonatomic) NSArray *requestUUIDs; // @synthesize requestUUIDs=_requestUUIDs;
 
 @end

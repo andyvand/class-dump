@@ -10,7 +10,6 @@
 @interface SOFaceTimeCallHandler
 {
     id <SOFaceTimeCallHandlerDelegate> _delegate;
-    NSTimer *_faceTimeMultiwayCallTimer;
 }
 
 - (void);
@@ -28,16 +27,14 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)P;
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <SOFaceTimeCallHandlerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) __weak NSTimer *faceTimeMultiwayCallTimer; // @synthesize faceTimeMultiwayCallTimer=_faceTimeMultiwayCallTimer;
-@property(readonly, nonatomic) _Bool hasActiveFaceTimeCall; // @dynamic hasActiveFaceTimeCall;
 
 @end
 

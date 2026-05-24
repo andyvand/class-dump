@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDAdamAppIdentifier
 {
     PBUnknownFields *_unknownFields;
-    NSString *_adamId;
 }
 
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)An;
 - (_Bool);
 - (id);
 - (id)R,N,V_episodeNumber;

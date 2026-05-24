@@ -5,5 +5,6 @@
 //
 
 @protocol BrowserContainerTargeting
+- (void);
 @end
 

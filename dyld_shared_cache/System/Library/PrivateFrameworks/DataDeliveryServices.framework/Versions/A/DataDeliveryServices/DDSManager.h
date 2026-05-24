@@ -4,34 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DDSMAAutoAssetManager, NSMutableDictionary, NSObject, NSString;
-@protocol DDSAssetObserving, DDSAssetProviding, DDSAssetTracking, DDSManagerDataSource, DDSManagingDelegate, OS_dispatch_queue;
+@protocol DDSAssetTracking;
 
 @interface DDSManager
 {
     struct os_unfair_lock_s _lock;
-    id <DDSManagingDelegate> _delegate;
-    NSString *_xpcServiceName;
-    id <DDSAssetTracking> _tracker;
-    id <DDSAssetProviding> _provider;
-    id <DDSAssetObserving> _assetObserver;
-    NSMutableDictionary *_remoteSyncStateByAssetType;
-    NSMutableDictionary *_pendingAssertionsToUpdateByAssetType;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <DDSManagerDataSource> _dataSource;
-    DDSMAAutoAssetManager *_autoAssetManager;
 }
 
-+ (id);
++ (id)setHasCompanionDeviceCommunicationContext:(id)arg1;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)7;
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id)FamilyMemberDetailsSync;
 - (id);
 - (void);
 - (long long);
@@ -44,7 +33,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void));
 - (id);
 - (void);
 - (void);
@@ -56,9 +45,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)/writer.h:32:MARISA_SIZE_ERROR:num_objs > (MARISA_SIZE_MAX / sizeof(T)) /* Error: Ran out of types for this method. */;
+- (void)FJ/J
+;
+- (id)t;
 - (long long);
 - (id);
 - (void);
@@ -70,29 +60,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)V__biggestCursorSize;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <DDSAssetObserving> assetObserver; // @synthesize assetObserver=_assetObserver;
-@property(readonly, nonatomic) DDSMAAutoAssetManager *autoAssetManager; // @synthesize autoAssetManager=_autoAssetManager;
-@property(readonly, nonatomic) id <DDSManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <DDSManagingDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableDictionary *pendingAssertionsToUpdateByAssetType; // @synthesize pendingAssertionsToUpdateByAssetType=_pendingAssertionsToUpdateByAssetType;
-@property(readonly, nonatomic) id <DDSAssetProviding> provider; // @synthesize provider=_provider;
-@property(readonly, nonatomic) NSMutableDictionary *remoteSyncStateByAssetType; // @synthesize remoteSyncStateByAssetType=_remoteSyncStateByAssetType;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) id <DDSAssetTracking> tracker; // @synthesize tracker=_tracker;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
-@property(readonly, copy) NSString *xpcServiceName; // @synthesize xpcServiceName=_xpcServiceName;
 
 @end
 

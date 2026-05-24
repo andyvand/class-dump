@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface SAUITemplateParagraphStyle : AceObject
 {
@@ -15,12 +15,12 @@
 + (id);
 + (id);
 - (void);
+- (id)C;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -39,22 +39,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *alignment;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSNumber *firstLineHeadIndent;
-@property(copy, nonatomic) NSNumber *getParagraphSpacingBefore;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *headIndent;
-@property(copy, nonatomic) NSNumber *lineHeightMultiple;
-@property(copy, nonatomic) NSNumber *lineSpacing;
-@property(copy, nonatomic) NSNumber *maximumLineHeight;
-@property(copy, nonatomic) NSNumber *minimumLineHeight;
-@property(copy, nonatomic) NSNumber *paragraphSpacing;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSNumber *tailIndent;
 
 @end
 

@@ -7,12 +7,10 @@
 @interface XCTSpindumpProvider
 {
     id $defaultActor;
-    id specification;
-    id spindumpFunction;
 }
 
 - (id);
-- (id);
+- (id)@@"_SWCServiceSpecifier";
 - (void);
 
 @end

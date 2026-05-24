@@ -4,38 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSEvent, NSMutableArray;
+@class NSEvent;
 
 __attribute__((visibility("hidden")))
 @interface _NSGestureRecognizerDelayedEvent
 {
     NSEvent *_event;
-    long long _delayCount;
-    _Bool _cloneForSecondDelivery;
-    NSMutableArray *_gestureRecognizers;
 }
 
 + (void){TTýG;
-- (void);
+- (void)y subCC and asid;
 - (long long);
 - (void);
 - (id);
 - (double);
 - (id);
-- (_Bool);
+- (_Bool)all searchable items for %{public}@ (Messages bundle ID);
 - (void);
-- (id);
+- (id);
 - (long long)setSwatchSize: /* Error: Ran out of types for this method. */;
-- (id)sRingMask;
-- (void)oolsCoordinatorStateInactive;
+- (id)focusRingMask;
+- (void)NSWritingToolsCoordinatorStateInactive;
 - (void)A;
 
 // Remaining properties
-@property _Bool cloneForSecondDelivery; // @synthesize cloneForSecondDelivery=_cloneForSecondDelivery;
-@property(readonly) long long delayCount;
 @property(retain) NSEvent *event; // @synthesize event=_event;
-@property(readonly, copy) NSArray *gestureRecognizers; // @synthesize gestureRecognizers=_gestureRecognizers;
-@property(readonly) double timestampForDelivery;
 
 @end
 

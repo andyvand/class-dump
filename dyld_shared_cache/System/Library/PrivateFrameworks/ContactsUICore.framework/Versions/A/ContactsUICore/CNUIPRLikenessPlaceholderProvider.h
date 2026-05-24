@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCache, NSString;
+@class CNCache;
 
 @interface CNUIPRLikenessPlaceholderProvider
 {
     _Bool _isForCompany;
-    CNCache *_cache;
 }
 
 + (id);
 + (id);
 - (void);
 - (struct CGImage *);
-- (struct CGImage *);
+- (struct CGImage *)!;
 - (_Bool);
 - (struct CGImage *);
 - (unsigned long long);
@@ -24,19 +23,11 @@
 - (struct CGImage *);
 - (id);
 - (id);
-- (id);
+- (id)CNPhotoLikenessPhotosSource;
 - (void)r>"24;
 
 // Remaining properties
 @property(readonly, nonatomic) CNCache *cache; // @synthesize cache=_cache;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isForCompany; // @synthesize isForCompany=_isForCompany;
-@property(readonly) Class superclass;
 
 @end
 

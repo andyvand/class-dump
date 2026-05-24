@@ -10,19 +10,17 @@
 @interface ABWorkQueue
 {
     NSObject<ABWorkQueueDelegate> *_delegate;
-    id <CNScheduler> _delegateScheduler;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)p;
 - (id);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain) NSObject<ABWorkQueueDelegate> *delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) id <CNScheduler> delegateScheduler; // @synthesize delegateScheduler=_delegateScheduler;
 
 @end

@@ -26,14 +26,6 @@ struct _NSRange {
     unsigned long long _field2;
 };
 
-struct _os_opaque_64_map_s {
-    void *data[3];
-};
-
-struct os_unfair_lock_s {
-    unsigned int _os_unfair_lock_opaque;
-};
-
 struct proc_bsdinfo {
     unsigned int _field1;
     unsigned int _field2;

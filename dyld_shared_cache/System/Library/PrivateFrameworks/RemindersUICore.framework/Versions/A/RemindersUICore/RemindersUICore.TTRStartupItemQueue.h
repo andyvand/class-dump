@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRStartupItemQueue
 {
     id unprocessedStartupItems;
-    id processItemsTask;
-    id isRunning;
 }
 
 @end

@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString, NSUUID, SPHandle;
+@class NSUUID;
 
 @interface SPCommand
 {
     _Bool _enableLostMode;
-    NSUUID *_identifier;
-    NSUUID *_beaconIdentifier;
-    long long _type;
-    NSDate *_expiration;
-    NSNumber *_duration;
-    long long _playSoundContext;
-    SPHandle *_handle;
-    NSString *_lostModeEmail;
-    NSString *_lostModeMessage;
-    NSString *_lostModePhoneNumber;
-    NSString *_obfuscatedIdentifier;
 }
 
 + (id);
@@ -28,6 +17,7 @@
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -40,14 +30,13 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)@;
 + (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)h;
 - (void);
 - (void);
 - (long long);
@@ -59,17 +48,17 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (long long);
-- (void);
-- (void);
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
+- (long long)c;
+- (void)`;
+- (void);
+- (id)initWithStickerID:stickerPackID:fileURL:accessibilityLabel:accessibilityName:searchText:sanitizedPrompt:moodCategory:stickerName:effectType:textToSpeechName: /* Error: Ran out of types for this method. */;
+- (id)IMCSfaultOnIndexingTimeout;
+- (void);
 - (id);
 - (id);
 - (void);
@@ -77,19 +66,7 @@
 - (void)pdateInterface;
 
 // Remaining properties
-@property(copy, nonatomic) NSUUID *beaconIdentifier; // @synthesize beaconIdentifier=_beaconIdentifier;
-@property(copy, nonatomic) NSNumber *duration; // @synthesize duration=_duration;
-@property(nonatomic) _Bool enableLostMode; // @synthesize enableLostMode=_enableLostMode;
-@property(copy, nonatomic) NSDate *expiration; // @synthesize expiration=_expiration;
-@property(copy, nonatomic) SPHandle *handle; // @synthesize handle=_handle;
 @property(copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *lostModeEmail; // @synthesize lostModeEmail=_lostModeEmail;
-@property(copy, nonatomic) NSString *lostModeMessage; // @synthesize lostModeMessage=_lostModeMessage;
-@property(copy, nonatomic) NSString *lostModePhoneNumber; // @synthesize lostModePhoneNumber=_lostModePhoneNumber;
-@property(copy, nonatomic) NSString *obfuscatedIdentifier; // @synthesize obfuscatedIdentifier=_obfuscatedIdentifier;
-@property(nonatomic) long long playSoundContext; // @synthesize playSoundContext=_playSoundContext;
-@property(readonly, copy, nonatomic) NSString *taskName;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

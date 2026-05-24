@@ -8,7 +8,6 @@
 {
     id handles;
     id semaphore;
-    id protocolLayerRef;
 }
 
 @end

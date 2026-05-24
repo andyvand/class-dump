@@ -10,11 +10,11 @@
 }
 
 - (void);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)64;
 - (void);
 - (id);
 - (void);

@@ -20,14 +20,14 @@ __attribute__((visibility("hidden")))
 - (long long)ÀñÿÿPhéÿF]þ;
 - (id){þÿ;
 - (_Bool)StateMachine(Legacy) setTransitionHandlerForState:withEvent:transitionHandler:postTransitionHandler:] /* Error: Ran out of types for this method. */;
-- (_Bool)ntTextStyleSubhead;
-- (unsigned long long)idBecomeApplicationKeyNotification;
+- (_Bool)UICTFontTextStyleSubhead;
+- (unsigned long long)_UIWindowDidBecomeApplicationKeyNotification;
 - (double)855982);
 - (struct CGRect)e file handle for archived UIScene state:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)FocusSystemEnabledStateDidChangeNotification;
+- (_Bool)_UIFocusSystemEnabledStateDidChangeNotification;
 - (id)viceOrientationSettingsDiffAction.m;
 - (id)d to the background view that renders a UIBackgroundConfiguration. Manually adding subviews to the background view is not allowed. Any view set to the customView property of the UIBackgroundConfiguration will be automatically added to the view hierarchy when necessary. Subview added:%@; Background view:%@ /* Error: Ran out of types for this method. */;
-- (void)ight;
+- (void)UIBlurEffectStyleSystemVibrantBackgroundThickLight;
 - (void).swift;
 - (void);
 - (id)_L03ySaySDyÃ×¾7ypGG²K03_pGIegg_;

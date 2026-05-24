@@ -7,6 +7,7 @@
 @class WebView;
 
 @protocol WebPluginContainerCheckController
+- (void)r;
 - (WebView *)ä;
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatBlueprintLayoutBuilder
 {
     id feedLayoutSolver;
-    id pluginData;
 }
 
 @end

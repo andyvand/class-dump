@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSEngagementMessageRequest, AMSEngagementRequest, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface AMSEngagementMessageEventServiceResponse
 {
     NSDictionary *_dictionaryRepresentation;
-    AMSEngagementRequest *_engagementRequest;
-    AMSEngagementMessageRequest *_fullScreenMessageRequest;
-    NSDictionary *_placementsMap;
-    NSString *_serviceType;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -36,11 +32,6 @@
 
 // Remaining properties
 @property(retain) NSDictionary *dictionaryRepresentation; // @synthesize dictionaryRepresentation=_dictionaryRepresentation;
-@property(retain) AMSEngagementRequest *engagementRequest; // @synthesize engagementRequest=_engagementRequest;
-@property(retain) AMSEngagementMessageRequest *fullScreenMessageRequest; // @synthesize fullScreenMessageRequest=_fullScreenMessageRequest;
-@property(retain) NSDictionary *placements;
-@property(retain) NSDictionary *placementsMap; // @synthesize placementsMap=_placementsMap;
-@property(retain) NSString *serviceType; // @synthesize serviceType=_serviceType;
 
 @end
 

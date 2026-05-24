@@ -4,36 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFMailbox, NSArray, NSString;
-@protocol EDMessageChangeHookResponder, MFAddProgressMonitor;
+@class NSArray;
 
 @interface MFLibraryMessageWriter
 {
     NSArray *_remoteIDs;
-    NSArray *_documentIDs;
-    NSArray *_updateRowIDs;
-    _Bool _fetchBodies;
-    _Bool _isInitialImport;
-    _Bool _isMailboxRebuild;
-    NSString *_dataDirectory;
-    NSArray *_messagesToWrite;
-    MFMailbox *_destinationMailbox;
-    id <MFAddProgressMonitor> _progressDelegate;
-    id <EDMessageChangeHookResponder> _hookResponder;
-    NSArray *_unsortedMessagesIndexesOrder;
 }
 
 - (id);
 - (id);
 - (id);
+- (void)h;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -41,9 +29,9 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)*;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)(;
 - (unsigned long long);
 - (void);
 - (void);
@@ -53,23 +41,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (void);
 - (void)Ì¬;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *dataDirectory; // @synthesize dataDirectory=_dataDirectory;
-@property(readonly, nonatomic) MFMailbox *destinationMailbox; // @synthesize destinationMailbox=_destinationMailbox;
-@property(copy, nonatomic) NSArray *documentIDs;
-@property(nonatomic) _Bool fetchBodies; // @synthesize fetchBodies=_fetchBodies;
-@property(retain, nonatomic) id <EDMessageChangeHookResponder> hookResponder; // @synthesize hookResponder=_hookResponder;
-@property(nonatomic) _Bool isInitialImport; // @synthesize isInitialImport=_isInitialImport;
-@property(nonatomic) _Bool isMailboxRebuild; // @synthesize isMailboxRebuild=_isMailboxRebuild;
-@property(readonly, copy, nonatomic) NSArray *messagesToWrite; // @synthesize messagesToWrite=_messagesToWrite;
-@property(retain, nonatomic) id <MFAddProgressMonitor> progressDelegate; // @synthesize progressDelegate=_progressDelegate;
-@property(copy, nonatomic) NSArray *remoteIDs;
 @property(readonly, copy, nonatomic) NSArray *unsortedMessagesIndexesOrder; // @synthesize unsortedMessagesIndexesOrder=_unsortedMessagesIndexesOrder;
-@property(copy, nonatomic) NSArray *updateRowIDs;
 
 @end
 

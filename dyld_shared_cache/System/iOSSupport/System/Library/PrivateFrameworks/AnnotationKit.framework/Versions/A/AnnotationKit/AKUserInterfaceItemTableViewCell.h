@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImageView;
+@class UIImageView;
 
 @interface AKUserInterfaceItemTableViewCell
 {
     UIImageView *_imageView;
-    double _lineWidth;
 }
 
-- (_Bool);
-- (id);
+- (_Bool)com;
+- (id)rsecd:%{private}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (double);
@@ -22,15 +21,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(nonatomic) double lineWidth; // @synthesize lineWidth=_lineWidth;
-@property(readonly) Class superclass;
 
 @end
 

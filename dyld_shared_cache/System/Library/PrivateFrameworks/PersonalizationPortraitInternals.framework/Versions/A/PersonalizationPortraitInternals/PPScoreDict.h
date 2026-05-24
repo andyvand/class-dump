@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSSet, PPBaseScoreInputSet;
+@class NSSet, PPBaseScoreInputSet;
 
 @interface PPScoreDict
 {
     PPBaseScoreInputSet *_scoreInputSet;
-    struct unique_ptr<std::vector<float>, std::default_delete<std::vector<float>>> _scalarValueStorage;
-    struct unique_ptr<std::vector<std::shared_ptr<std::vector<float>>>, std::default_delete<std::vector<std::shared_ptr<std::vector<float>>>>> _arrayValueStorage;
-    NSMutableArray *_objectStorage;
 }
 
 - (id);
@@ -22,21 +19,21 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)D;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (id);
-- (shared_ptr_60ebf058);
+- (shared_ptr_60ebf058);
 - (id);
 - (id);
 - (id);
 - (void)0@ù
 × ;
-- (id)MetadataWithShouldContinueBlock:database:client: /* Error: Ran out of types for this method. */;
+- (id)fixupDKEventsMetadataWithShouldContinueBlock:database:client: /* Error: Ran out of types for this method. */;
 - (id)s;
 
 // Remaining properties

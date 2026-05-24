@@ -5,5 +5,6 @@
 //
 
 @protocol CSAudioPowerService
+- (void);
 @end
 

@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapRegion, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOArrivalRegion
 {
     PBUnknownFields *_unknownFields;
-    GEOMapRegion *_arrivalRegion;
-    int _arrivalRegionAction;
-    unsigned int _endNavigationTimeoutThreshold;
-    unsigned int _routeEndDistanceThresholdCm;
-    struct {
-        unsigned int has_arrivalRegionAction:1;
-        unsigned int has_endNavigationTimeoutThreshold:1;
-        unsigned int has_routeEndDistanceThresholdCm:1;
-    } _flags;
 }
 
-+ (_Bool)ing:(id)arg1;
++ (_Bool)setHasMeanImageSpacing:(id)arg1;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
+- (void)@0:(_Bool)arg1 8@"NSURL"16@"NSArray"24Q32;
+- (void)tokenizeNameString:(_Bool)arg1 usingLocale:inferredNameOrder: /* Error: Ran out of types for this method. */;
+- (void)setObserverReceiving:(unsigned int)arg1;
+- (void)objectsAtIndexes:(int)arg1;
+- (void)objectWithData:(id)arg1 options:error: /* Error: Ran out of types for this method. */;
+- (unsigned int)initWithCollator:URL: /* Error: Ran out of types for this method. */;
+- (_Bool)ay"16@?0@?<B@?@>8;
+- (_Bool)4;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ATq;
 - (unsigned int);
 - (id);
 - (int);
@@ -43,31 +34,23 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)assetForCurrentLanguageOfType:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void)
 × ;
-- (id)tasCount;
+- (id)photoMetadatasCount;
 - (id)l;
-- (id)ropStyleSpecificRectangle;
+- (id)AMSMediaArtworkCropStyleSpecificRectangle;
 - (id)Ô
 ;
 - (void)Ïv5£6;
 
 // Remaining properties
-@property(retain, nonatomic) GEOMapRegion *arrivalRegion;
-@property(nonatomic) int arrivalRegionAction;
-@property(nonatomic) unsigned int endNavigationTimeoutThreshold;
 @property(readonly, nonatomic) _Bool hasArrivalRegion;
-@property(nonatomic) _Bool hasArrivalRegionAction;
-@property(nonatomic) _Bool hasEndNavigationTimeoutThreshold;
-@property(nonatomic) _Bool hasRouteEndDistanceThresholdCm;
-@property(nonatomic) unsigned int routeEndDistanceThresholdCm;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

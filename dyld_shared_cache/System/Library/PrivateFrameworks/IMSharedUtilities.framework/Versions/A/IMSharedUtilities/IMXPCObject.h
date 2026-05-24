@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)F7;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_xpc_object> *object; // @synthesize object=_object;

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASCPublicKeyCredentialDescriptor, NSData, NSString;
+@class ASCPublicKeyCredentialDescriptor;
 
 @interface ASAuthorizationPlatformPublicKeyCredentialDescriptor
 {
     struct os_unfair_lock_s _internalLock;
-    NSData *_credentialID;
 }
 
 + (_Bool);
@@ -19,19 +18,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)deleteChatGUIDs:(struct _NSZone *)arg1 context:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) ASCPublicKeyCredentialDescriptor *coreDescriptor;
-@property(copy, nonatomic) NSData *credentialID; // @synthesize credentialID=_credentialID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

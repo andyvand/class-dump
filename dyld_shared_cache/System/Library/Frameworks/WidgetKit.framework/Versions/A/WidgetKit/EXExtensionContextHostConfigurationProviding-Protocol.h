@@ -5,5 +5,8 @@
 //
 
 @protocol EXExtensionContextHostConfigurationProviding
+
+@optional
++ (_Bool)der = 0;
 @end
 

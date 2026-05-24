@@ -9,11 +9,6 @@
 @interface ConversationKit.RemoteParticipantVideoProvider
 {
     id features;
-    id _remoteVideoAttributes;
-    id _remoteScreenAttributes;
-    id avcRemoteVideoClient;
-    id avcRemoteVideoClientDelegate;
-    id oneToOneModeStateProvider;
 }
 
 - (void);

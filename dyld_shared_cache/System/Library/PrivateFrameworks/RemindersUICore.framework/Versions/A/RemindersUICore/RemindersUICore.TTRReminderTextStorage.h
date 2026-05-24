@@ -9,20 +9,12 @@
 @interface RemindersUICore.TTRReminderTextStorage : TTRReminderBaseTextStorage
 {
     id baseTextStyles;
-    id uncommittedHashtagTextStyles;
-    id committedHashtagTextStyles;
-    id foreignHashtagTextStyles;
-    id harvestedResultTextStyles;
-    id hashtagVisibility;
-    id showsAsTransparent;
-    id debug_nonEditableTextStyles;
-    id debug_highlightNonEditableTexts;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)_axAuditUpdateClippingStatusForReferenceMatches: /* Error: Ran out of types for this method. */;
 - (void)d from nil to nil;
 
 @end

@@ -6,14 +6,12 @@
 
 #import <OfficeImport/OCDDelayedMedia.h>
 
-@class NSData, NSString;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface OADSound : OCDDelayedMedia
 {
     NSData *mSoundData;
-    NSString *mName;
-    int mSizeInBytes;
 }
 
 - (id);
@@ -23,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void)erSetEntry";
-- (_Bool)alues: /* Error: Ran out of types for this method. */;
+- (_Bool)fixPropertiesForChangingParentPreservingEffectiveValues: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

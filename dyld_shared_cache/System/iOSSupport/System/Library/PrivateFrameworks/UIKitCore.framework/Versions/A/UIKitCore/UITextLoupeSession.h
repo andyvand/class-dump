@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITextGestureTuning, UIView, UIWindow;
-@protocol _UITextLoupeSessionDelegate, _UITextLoupeView;
+@class UIView;
 
 @interface UITextLoupeSession
 {
     _Bool _invalidated;
-    _Bool _isHidingStatusBar;
-    UITextGestureTuning *_gestureTuning;
-    UIView *_interactionView;
-    UIWindow *_containerWindow;
-    UIView<_UITextLoupeView> *_loupeView;
-    id <_UITextLoupeSessionDelegate> _delegate;
 }
 
 + (id);
 + (id);
 + (id);
-- (void);
-- (void);
-- (void);
+- (void)_editedMessagePartTranslation;
+- (void)essageDate;
+- (void)stenerAccountsProtocol>",N,R;
 - (void);
 - (id);
-- (void);
+- (void)g scheduled message update command processing;
 - (void);
 - (struct CGPoint);
 - (void);
@@ -36,7 +29,7 @@
 × ;
 - (void)Qg°1Â0@ù
 × ;
-- (void)attemptsToUseAncestorViewContainer;
+- (void)_attemptsToUseAncestorViewContainer;
 - (id)UITextSearchingWrapper;
 - (id)8ÿ;
 - (void)Ûÿ¯HÖ@`;
@@ -44,11 +37,7 @@
 - (id)7Òðg;
 
 // Remaining properties
-@property(nonatomic) __weak UIWindow *containerWindow; // @synthesize containerWindow=_containerWindow;
-@property(nonatomic) __weak id <_UITextLoupeSessionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) UITextGestureTuning *gestureTuning; // @synthesize gestureTuning=_gestureTuning;
 @property(nonatomic) __weak UIView *interactionView; // @synthesize interactionView=_interactionView;
-@property(retain, nonatomic) UIView<_UITextLoupeView> *loupeView; // @synthesize loupeView=_loupeView;
 
 @end
 

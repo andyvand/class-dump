@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSCoder;
+
 @protocol NSCoding
+- (void)-fetching contact matching contact %@, error:(NSCoder *)arg1 %{public}@;
 @end
 

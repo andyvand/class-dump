@@ -7,6 +7,9 @@
 @protocol MTLTexture;
 
 @protocol CIImageProcessorInput
+- (unsigned long long);
+- (id <MTLTexture>);
+- (unsigned long long)n;
 - (int)lorSpace=}16f24B28;
 - (struct __CVBuffer *)s. %{public}s;
 - (struct CGRect);
@@ -23,15 +26,6 @@
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) const void *baseAddress;
-@property(readonly, nonatomic) unsigned long long bytesPerRow;
-@property(readonly, nonatomic) unsigned long long digest;
-@property(readonly, nonatomic) int format;
-@property(readonly, nonatomic) id <MTLTexture> metalTexture;
-@property(readonly, nonatomic) struct __CVBuffer *pixelBuffer;
 @property(readonly, nonatomic) struct CGRect region;
-@property(readonly, nonatomic) unsigned long long roiTileCount;
-@property(readonly, nonatomic) unsigned long long roiTileIndex;
-@property(readonly, nonatomic) struct __IOSurface *surface;
 @end
 

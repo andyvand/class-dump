@@ -6,36 +6,24 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSString, UIVisualEffectView, _UITextSelectionRangeView;
+@class _UITextSelectionRangeView;
 
 @interface _UITextSelectionHighlightShimmerView : UIView
 {
     _UITextSelectionRangeView *_rangeView;
-    UIVisualEffectView *_shimmerView;
-    NSArray *_selectionRects;
-    double _selectionCornerRadius;
 }
 
-- (void);
+- (void);
 - (id);
-- (void);
-- (double);
+- (void)deleteChatZone;
+- (double)_serviceDomain;
 - (void);
 - (id)spondsToAttributedTitleForRow"b1"delegateRespondsToWidthForComponent"b1"delegateRespondsToRowHeightForComponent"b1"showsSelectionBar"b1"allowsMultipleSelection"b1"allowSelectingCells"b1"soundsDisabled"b1"usesCheckedSelection"b1"skipsBackground"b1"isInLayoutSubviews"b1"usesDynamicRowHeight"b1"selectionBarIgnoresInset"b1};
-- (id)ableLayoutArrangementsCreateIfNecessary;
+- (id)_mutableLayoutArrangementsCreateIfNecessary;
 - (void)#;
 
 // Remaining properties
 @property(nonatomic, setter=_setSelectionCornerRadius:) double _selectionCornerRadius; // @synthesize _selectionCornerRadius;
-@property(readonly, nonatomic) struct CGRect bounds;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *selectionRects; // @synthesize selectionRects=_selectionRects;
-@property(readonly) Class superclass;
 
 @end
 

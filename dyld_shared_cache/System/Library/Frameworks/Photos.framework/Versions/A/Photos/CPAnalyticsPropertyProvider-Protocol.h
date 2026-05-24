@@ -5,5 +5,6 @@
 //
 
 @protocol CPAnalyticsPropertyProvider
+- (void);
 @end
 

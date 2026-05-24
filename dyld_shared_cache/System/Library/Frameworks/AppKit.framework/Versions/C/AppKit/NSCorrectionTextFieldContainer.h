@@ -6,18 +6,12 @@
 
 #import <AppKit/NSView.h>
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface NSCorrectionTextFieldContainer : NSView
 {
     NSMutableArray *candidateTextFields;
-    NSMutableArray *intelligentMaskingViews;
-    unsigned long long selectedCandidate;
-    NSMutableDictionary *textAttributes;
-    long long correctionPanelType;
-    long long correctionPanelSourceType;
-    unsigned long long dismissButtonLocation;
 }
 
 - (void);
@@ -30,16 +24,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
+- (unsigned long long)utputStream"40;
+- (id)set_allowsCellular: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_conditionalRequest;
 - (void);
 - (unsigned long long);
-- (long long);
+- (long long)D/;
+- (id)viability (%ld) outside of expected range;
+- (id)0;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -47,7 +41,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)6j5;
 - (void);
 - (void);
 - (_Bool);
@@ -56,9 +50,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property long long correctionPanelSourceType; // @synthesize correctionPanelSourceType;
-@property(readonly) unsigned long long dismissButtonLocation; // @synthesize dismissButtonLocation;
-@property(readonly) _Bool hasSelection; // @dynamic hasSelection;
 @property(readonly) unsigned long long numberOfCandidates; // @dynamic numberOfCandidates;
 
 @end

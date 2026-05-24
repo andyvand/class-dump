@@ -7,8 +7,6 @@
 @interface SKDiskImageResizeParams
 {
     _Bool _stdinPassPhrase;
-    _Bool _shallow;
-    unsigned long long _size;
 }
 
 - (void);
@@ -17,12 +15,10 @@
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)`;
 
 // Remaining properties
-@property(nonatomic) _Bool shallow; // @synthesize shallow=_shallow;
 @property(nonatomic) unsigned long long size; // @synthesize size=_size;
-@property(nonatomic) _Bool stdinPassPhrase; // @synthesize stdinPassPhrase=_stdinPassPhrase;
 
 @end
 

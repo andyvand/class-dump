@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface HMCRedirectorStrongTuple
 {
     HMCRedirectorTuple *_tuple;
-    id _target;
-    SEL _selector;
 }
 
 - (id);

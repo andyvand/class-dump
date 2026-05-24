@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsynchronousVideoCompositionRequestInternal, AVVideoCompositionRenderContext, NSArray;
-@protocol AVVideoCompositionInstruction;
+@class AVAsynchronousVideoCompositionRequestInternal, AVVideoCompositionRenderContext;
 
 @interface AVAsynchronousVideoCompositionRequest
 {
@@ -39,11 +38,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_1b6d18a9 compositionTime;
 @property(readonly, nonatomic) AVVideoCompositionRenderContext *renderContext;
-@property(readonly, nonatomic) NSArray *sourceSampleDataTrackIDs;
-@property(readonly, nonatomic) NSArray *sourceTrackIDs;
-@property(readonly, nonatomic) id <AVVideoCompositionInstruction> videoCompositionInstruction;
 
 @end
 

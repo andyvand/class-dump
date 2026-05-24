@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, PAImageRenderRequest, PAImageRenderResponse, PAImageRenderService, PFCancelerObserver, PFDispatchQueue;
+@class NSObject, PAImageRenderRequest;
 @protocol OS_dispatch_queue;
 
 @interface PAImageRenderRequestHandler
 {
     NSObject<OS_dispatch_queue> *_queue;
-    PAImageRenderRequest *_request;
-    CDUnknownBlockType _responseHandler;
-    PFDispatchQueue *_responseQueue;
-    PAImageRenderResponse *_response;
-    PFCancelerObserver *_cancelObserver;
-    PAImageRenderService *_service;
 }
 
 - (id);
@@ -24,20 +18,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void)m.apple.xbs/TemporaryDirectory.ssEsu8/Sources/Photos_Apps/lib/paimaging/PhotoApps/Edit/PACropController.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) PAImageRenderRequest *request; // @synthesize request=_request;
-@property(nonatomic) __weak PAImageRenderService *service; // @synthesize service=_service;
-@property(readonly) Class superclass;
 
 @end
 

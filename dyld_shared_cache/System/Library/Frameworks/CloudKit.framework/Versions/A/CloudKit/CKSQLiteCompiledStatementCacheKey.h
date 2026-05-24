@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKSQLiteDatabase, NSString;
+@class CKSQLiteDatabase;
 
 @interface CKSQLiteCompiledStatementCacheKey
 {
     CKSQLiteDatabase *_db;
-    NSString *_dbTableName;
-    struct _CKSQLiteCompiledStatementLabel *_statementLabel;
 }
 
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)size_"Q}}};
 - (_Bool);
 - (id);
 - (void);

@@ -11,19 +11,17 @@
 @interface PGDejunkerDeduper_PHAsset : PGDejunkerDeduper_CLSCurationItem
 {
     NSDictionary *_personLocalIdentifiersByAssetUUID;
-    NSDictionary *_peopleScenesByAssetUUID;
-    NSDictionary *_faceQualityScoreByAssetUUID;
 }
 
-- (id);
+- (id)ActionDelegate>",W,N;
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void)aph/Framework/Graph/Ingest/Ingest Processing/PGGraphIngestNextEdgesProcessor.m;
 
 @end

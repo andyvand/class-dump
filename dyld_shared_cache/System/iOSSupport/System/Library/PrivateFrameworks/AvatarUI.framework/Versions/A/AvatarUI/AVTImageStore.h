@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileManager, NSObject, NSString, NSURL;
-@protocol AVTImageEncoder, AVTUILogger, OS_dispatch_queue;
+@class NSFileManager;
 
 @interface AVTImageStore
 {
     _Bool _validateImages;
-    NSURL *_location;
-    NSFileManager *_fileManager;
-    id <AVTImageEncoder> _imageEncoder;
-    NSObject<OS_dispatch_queue> *_stateLock;
-    id <AVTUILogger> _logger;
 }
 
 + (id);
@@ -24,7 +18,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
@@ -32,7 +26,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -41,23 +35,11 @@
 - (id);
 - (id);
 - (void);
-- (id)nItemLoadingTask;
+- (id)AVTSectionItemLoadingTask;
 - (id)gurationPreset"8Q16^B24;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSFileManager *fileManager; // @synthesize fileManager=_fileManager;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <AVTImageEncoder> imageEncoder; // @synthesize imageEncoder=_imageEncoder;
-@property(readonly, copy, nonatomic) NSURL *location; // @synthesize location=_location;
-@property(readonly, nonatomic) id <AVTUILogger> logger; // @synthesize logger=_logger;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *stateLock; // @synthesize stateLock=_stateLock;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool validateImages; // @synthesize validateImages=_validateImages;
 
 @end
 

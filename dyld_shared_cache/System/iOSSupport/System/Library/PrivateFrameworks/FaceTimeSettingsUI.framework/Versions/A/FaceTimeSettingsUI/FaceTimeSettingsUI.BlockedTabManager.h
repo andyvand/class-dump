@@ -8,7 +8,6 @@
 {
     id $defaultActor;
     id privacyManager;
-    id logger;
 }
 
 @end

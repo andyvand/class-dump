@@ -7,8 +7,6 @@
 @interface SwiftUI.DDUIPresentationController
 {
     id dduiWindow;
-    id presentingWindow;
-    id session;
 }
 
 @end

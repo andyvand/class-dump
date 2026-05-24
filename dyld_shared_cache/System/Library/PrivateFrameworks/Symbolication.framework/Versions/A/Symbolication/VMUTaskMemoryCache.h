@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSMemoryMappingCache, NSString;
+@class CSMemoryMappingCache;
 
 @interface VMUTaskMemoryCache
 {
     CSMemoryMappingCache *_memoryRegions;
-    unsigned long long _taskType;
-    unsigned int _taskPort;
-    _Bool _taskIs64Bit;
-    _Bool _taskIsTranslated;
-    _Bool _taskIsSelf;
-    NSString *_corePath;
-    int _pid;
-    struct __CFArray *_cfOriginalSymbolOwners;
-    struct _CSTypeRef *_originalSymbolOwners;
-    struct _CSTypeRef _minimalSymbolicator;
-    unsigned int _dyldPlatform;
-    _Bool _dyldPlatformIsValid;
-    _Bool _haveAttemptedDyldPlatformFetch;
-    unsigned long long _exclaveType;
-    CDUnknownBlockType _regionInfoBlock;
-    unsigned long long _pageSize;
 }
 
 + (id);
@@ -44,7 +28,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)`;
 - (_Bool);
 - (int);
 - (unsigned long long);
@@ -52,28 +36,26 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)R;
 - (CDUnknownBlockType);
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)R%;
 - (id);
-- (id);
+- (id)6;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (unsigned long long);
+- (void)_handleChangeToPolicy: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (_Bool)tDeclarationWithName:(unsigned int **)arg1 model:(unsigned int *)arg2;
+- (_Bool)parser:(unsigned int **)arg1 foundElementDeclarationWithName:(unsigned int *)arg2 model:(id *)arg3;
 - (unsigned int)re. The malloc heap of the target process was in an inconsistent state such as when being modified.;
 
 // Remaining properties
 @property(readonly, nonatomic) CSMemoryMappingCache *memoryRegions; // @synthesize memoryRegions=_memoryRegions;
-@property(readonly, nonatomic) unsigned long long pageSize; // @synthesize pageSize=_pageSize;
-@property(copy, nonatomic) CDUnknownBlockType regionInfoBlock; // @synthesize regionInfoBlock=_regionInfoBlock;
 
 @end
 

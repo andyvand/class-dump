@@ -7,14 +7,6 @@
 @interface ConversationKit.SensitiveContentController
 {
     id conversationController;
-    id delegate;
-    id currentCallUniqueProxyIdentifier;
-    id isReporting;
-    id participantAnalysisHistory;
-    id streamSettingsToRestore;
-    id analysisByParticipant;
-    id backingShieldView;
-    id callStatusCancellable;
 }
 
 @end

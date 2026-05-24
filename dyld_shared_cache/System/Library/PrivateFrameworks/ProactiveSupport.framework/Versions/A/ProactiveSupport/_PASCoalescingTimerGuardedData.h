@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableSet, NSObject;
+@class NSObject;
 @protocol OS_dispatch_source;
 
 @interface _PASCoalescingTimerGuardedData
 {
     NSObject<OS_dispatch_source> *coalescingSource;
-    unsigned long long currentCoalescingTimerId;
-    NSDate *nextCoalescedEventTime;
-    NSMutableSet *nonCoalescingSources;
-    unsigned long long currentNonCoalescingTimerGeneration;
-    id acc;
 }
 
-- (void);
+- (void)setFreebusy: /* Error: Ran out of types for this method. */;
 
 @end
 

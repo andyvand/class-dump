@@ -5,5 +5,6 @@
 //
 
 @protocol VCAudioToolboxAudioComponentMockCallbacks
+- (_Bool);
 @end
 

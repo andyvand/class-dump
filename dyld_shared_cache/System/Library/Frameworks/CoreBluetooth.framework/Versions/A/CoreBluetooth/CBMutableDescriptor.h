@@ -17,8 +17,8 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)T;
 
 // Remaining properties
 @property(retain) NSNumber *ID; // @synthesize ID=_ID;

@@ -4,25 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NTPBTagMetadata;
+@class NTPBTagMetadata;
 
 @interface NTPBArticleTagMetadata
 {
     NTPBTagMetadata *_channelTagMetadata;
-    NSMutableArray *_topicTagMetadatas;
 }
 
-+ (Class);
++ (Class)appendSegmentWithDurationInfo:clipCount:compositionInfo:configuration: /* Error: Ran out of types for this method. */;
+- (void);
+- (unsigned long long)egate_Rearranging>",R,N;
+- (void);
+- (id)h;
+- (id);
+- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -30,12 +29,10 @@
 - (id);
 - (_Bool);
 - (id);
-- (void)ListeningSource;
+- (void)hasListeningSource;
 
 // Remaining properties
-@property(retain, nonatomic) NTPBTagMetadata *channelTagMetadata; // @synthesize channelTagMetadata=_channelTagMetadata;
 @property(readonly, nonatomic) _Bool hasChannelTagMetadata;
-@property(retain, nonatomic) NSMutableArray *topicTagMetadatas; // @synthesize topicTagMetadatas=_topicTagMetadatas;
 
 @end
 

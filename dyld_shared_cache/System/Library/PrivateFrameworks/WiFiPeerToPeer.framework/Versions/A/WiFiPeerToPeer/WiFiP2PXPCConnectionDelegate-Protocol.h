@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSXPCInterface;
+
 @protocol WiFiP2PXPCConnectionDelegate
+
+@optional
+- (NSXPCInterface *);
 @end
 

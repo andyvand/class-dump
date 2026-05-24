@@ -15,9 +15,9 @@
 + (id)½;
 - (float);
 - (id);
+- (id)x@;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)D;
 - (void);
 - (id);
 

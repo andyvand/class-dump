@@ -12,17 +12,17 @@ __attribute__((visibility("hidden")))
     EKEvent *_event;
 }
 
-+ (_Bool);
-+ (id);
++ (_Bool)on] Reading %llu bytes from device=%{public}@(%{public}@) destination=%{public}@, session=%{public}@;
++ (id)t %{public}@<%{public}@> to destination <%@> with userInfo %@;
 - (_Bool);
-- (int);
+- (int)D;
+- (id);
+- (id);
+- (id)E;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)E;
 - (id);
 - (void)!Fù12'Ð1Â0@ù
 × ;

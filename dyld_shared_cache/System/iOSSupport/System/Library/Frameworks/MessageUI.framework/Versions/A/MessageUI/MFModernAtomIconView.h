@@ -9,8 +9,6 @@
 @interface MFModernAtomIconView
 {
     NSArray *_iconImages;
-    double _iconPadding;
-    struct CGPoint _drawingOffset;
 }
 
 - (void);
@@ -24,9 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGPoint drawingOffset; // @synthesize drawingOffset=_drawingOffset;
 @property(retain, nonatomic) NSArray *iconImages; // @synthesize iconImages=_iconImages;
-@property(nonatomic) double iconPadding; // @synthesize iconPadding=_iconPadding;
 
 @end
 

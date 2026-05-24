@@ -9,8 +9,6 @@
 @interface ABCardViewEditDisplayStyleCommand
 {
     id <ABCardViewDataSourceProvider> _dataSourceProvider;
-    unsigned long long _oldStyle;
-    unsigned long long _updatedStyle;
 }
 
 - (unsigned long long);
@@ -23,8 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <ABCardViewDataSourceProvider> dataSourceProvider; // @synthesize dataSourceProvider=_dataSourceProvider;
-@property(readonly, nonatomic) unsigned long long oldStyle; // @synthesize oldStyle=_oldStyle;
-@property(readonly, nonatomic) unsigned long long updatedStyle; // @synthesize updatedStyle=_updatedStyle;
 
 @end
 

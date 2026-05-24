@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void *);
 - (void);
-- (id);
+- (id)iX ;
 
 // Remaining properties
 @property(nonatomic) void *admLibrary; // @synthesize admLibrary=_admLibrary;

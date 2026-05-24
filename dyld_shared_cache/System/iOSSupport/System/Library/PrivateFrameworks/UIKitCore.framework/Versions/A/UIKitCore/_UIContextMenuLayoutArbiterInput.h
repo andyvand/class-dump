@@ -4,27 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UITargetedPreview;
-
 __attribute__((visibility("hidden")))
 @interface _UIContextMenuLayoutArbiterInput
 {
     _Bool _shouldUpdateAttachment;
-    _Bool _shouldAvoidInputViews;
-    _Bool _shouldConcealMenu;
-    _Bool _shouldMenuOverlapSourcePreview;
-    double _maximumMenuHeight;
-    double _preferredContentSpacing;
-    double _additionalAlignmentOffset;
-    unsigned long long _preferredPreviewFittingStrategy;
-    UITargetedPreview *_sourcePreview;
-    NSArray *_accessoryViews;
-    CDUnknownBlockType _computePreferredScrollTruncationDetentForHeight;
-    struct CGSize _preferredPreviewSize;
-    struct CGSize _preferredMenuSize;
-    struct CGPoint _preferredMenuAttachmentPoint;
-    struct UIEdgeInsets _preferredEdgeInsets;
-    CDStruct_17a0fc55 _preferredAnchor;
 }
 
 - (id);
@@ -32,31 +15,31 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (struct CGSize);
-- (struct CGPoint);
-- (struct UIEdgeInsets);
-- (double);
-- (double);
+- (void)hatProtocol>"16@0:(id)arg1 8;
+- (void):(_Bool)arg1 8@"NSString"16@"NSDictionary"24@"NSString"32@"NSNumber"40@"NSString"48;
+- (void)geItem"24@"NSString"32@"NSString"40C48@"NSString"52;
+- (void)edicate"16@"NSString"24;
+- (void)g"40;
+- (void)nt"24@"IDSIncomingBatchMessage"32;
+- (void)Account"24@"NSDictionary"32@"NSString"40@48;
+- (void)SString"32@"NSString"40q48@"NSError"56B64;
+- (void)8@56B64@68;
+- (void)q24;
+- (void)Context";
+- (void)0:(CDStruct_96a80611)arg1 8@16q24@32B40@44@?52;
+- (void)useDeprecatedApi;
+- (void)sendReadReceiptForMessage:(CDUnknownBlockType)arg1 toChatID:identifier:style:reflectOnly: /* Error: Ran out of types for this method. */;
+- (void)relayLegacySatelliteMessage:(double)arg1 toChat:localWatchOnly: /* Error: Ran out of types for this method. */;
+- (struct CGSize)handler:incomingMessage:originalEncryptionType:messageID:toIdentifier:fromIdentifier:fromToken:timeStamp:fromIDSID:incomingEngroup:needsDeliveryReceipt:deliveryContext:storageContext:batchContext:messageContext:isBeingReplayed:mergeID:wantsCheckpointing:isSnapTrustedUser: /* Error: Ran out of types for this method. */;
+- (struct CGSize)rageContext: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)handler:incomingDisplayPinCode:toIdentifier:fromIdentifier:fromToken:messageGUID:timeStamp:storageContext: /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)handleToIdentityMap;
+- (double)handleResults;
+- (double)GUID: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
 - (double);
 - (unsigned long long);
-- (CDStruct_17a0fc55);
+- (CDStruct_96a80611);
 - (id);
 - (void);
 - (_Bool);
@@ -64,22 +47,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *accessoryViews; // @synthesize accessoryViews=_accessoryViews;
-@property(nonatomic) double additionalAlignmentOffset; // @synthesize additionalAlignmentOffset=_additionalAlignmentOffset;
-@property(copy, nonatomic) CDUnknownBlockType computePreferredScrollTruncationDetentForHeight; // @synthesize computePreferredScrollTruncationDetentForHeight=_computePreferredScrollTruncationDetentForHeight;
-@property(nonatomic) double maximumMenuHeight; // @synthesize maximumMenuHeight=_maximumMenuHeight;
-@property(nonatomic) CDStruct_17a0fc55 preferredAnchor; // @synthesize preferredAnchor=_preferredAnchor;
-@property(nonatomic) double preferredContentSpacing; // @synthesize preferredContentSpacing=_preferredContentSpacing;
-@property(nonatomic) struct UIEdgeInsets preferredEdgeInsets; // @synthesize preferredEdgeInsets=_preferredEdgeInsets;
-@property(nonatomic) struct CGPoint preferredMenuAttachmentPoint; // @synthesize preferredMenuAttachmentPoint=_preferredMenuAttachmentPoint;
-@property(nonatomic) struct CGSize preferredMenuSize; // @synthesize preferredMenuSize=_preferredMenuSize;
-@property(nonatomic) unsigned long long preferredPreviewFittingStrategy; // @synthesize preferredPreviewFittingStrategy=_preferredPreviewFittingStrategy;
-@property(nonatomic) struct CGSize preferredPreviewSize; // @synthesize preferredPreviewSize=_preferredPreviewSize;
-@property(nonatomic) _Bool shouldAvoidInputViews; // @synthesize shouldAvoidInputViews=_shouldAvoidInputViews;
-@property(nonatomic) _Bool shouldConcealMenu; // @synthesize shouldConcealMenu=_shouldConcealMenu;
-@property(nonatomic) _Bool shouldMenuOverlapSourcePreview; // @synthesize shouldMenuOverlapSourcePreview=_shouldMenuOverlapSourcePreview;
 @property(nonatomic) _Bool shouldUpdateAttachment; // @synthesize shouldUpdateAttachment=_shouldUpdateAttachment;
-@property(retain, nonatomic) UITargetedPreview *sourcePreview; // @synthesize sourcePreview=_sourcePreview;
 
 @end
 

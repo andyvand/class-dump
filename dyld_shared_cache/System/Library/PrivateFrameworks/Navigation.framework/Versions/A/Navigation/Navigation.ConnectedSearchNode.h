@@ -7,11 +7,6 @@
 @interface Navigation.ConnectedSearchNode
 {
     id road;
-    id prev;
-    id depth;
-    id travelDistance;
-    id travelTime;
-    id pathSimilarity;
 }
 
 @end

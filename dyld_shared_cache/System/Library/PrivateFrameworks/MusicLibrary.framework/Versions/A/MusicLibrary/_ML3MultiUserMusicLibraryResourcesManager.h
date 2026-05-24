@@ -7,24 +7,21 @@
 #import <MusicLibrary/_ML3BaseMusicLibraryResourcesManager.h>
 
 @class NSObject, NSString;
-@protocol MLMediaLibraryResourcesServiceProtocol, OS_dispatch_queue;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface _ML3MultiUserMusicLibraryResourcesManager : _ML3BaseMusicLibraryResourcesManager
 {
     NSString *_cachedLibraryContainerPath;
-    NSString *_cachedMusicContainerPath;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    id <MLMediaLibraryResourcesServiceProtocol> _libraryResourcesServices;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)te the Call DB properties managed object;
+- (void)-};
 - (void);
-- (void);
-- (id);
-- (id);
+- (id);
+- (id)expressionType;
 - (void);
 - (id);
 - (void);
@@ -35,17 +32,7 @@ __attribute__((visibility("hidden")))
 - (id)¼;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *cachedLibraryContainerPath; // @synthesize cachedLibraryContainerPath=_cachedLibraryContainerPath;
-@property(copy, nonatomic) NSString *cachedMusicContainerPath; // @synthesize cachedMusicContainerPath=_cachedMusicContainerPath;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <MLMediaLibraryResourcesServiceProtocol> libraryResourcesServices; // @synthesize libraryResourcesServices=_libraryResourcesServices;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *serialQueue; // @synthesize serialQueue=_serialQueue;
-@property(readonly) Class superclass;
 
 @end
 

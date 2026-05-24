@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)handleSearchMenuItem:(struct CGRect)arg1;
+- (id)_handleSearchMenuItem:(struct CGRect)arg1;
 
 @end
 

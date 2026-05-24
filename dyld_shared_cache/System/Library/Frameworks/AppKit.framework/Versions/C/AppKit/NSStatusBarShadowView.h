@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
+- (void)set_appSSOFallback: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)preferJapaneseRomanjiTranscriptions;
 - (void)den);

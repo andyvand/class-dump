@@ -9,17 +9,10 @@
 @interface IMWallpaperMetadataColor_Impl
 {
     id redKey;
-    id greenKey;
-    id blueKey;
-    id alphaKey;
-    id red;
-    id green;
-    id blue;
-    id alpha;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool);
+- (id)A;
 - (id);
 - (_Bool);
 - (void);

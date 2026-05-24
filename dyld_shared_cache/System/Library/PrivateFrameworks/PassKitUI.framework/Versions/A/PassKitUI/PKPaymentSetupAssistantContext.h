@@ -4,27 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, PKPaymentWebServiceContext;
-@protocol PKPaymentSetupDelegate, PKPaymentWebServiceArchiver, PKPaymentWebServiceTargetDeviceProtocol;
-
 @interface PKPaymentSetupAssistantContext
 {
     _Bool isFollowupAction;
-    unsigned long long _setupAssistant;
-    NSData *_externalizedContext;
-    PKPaymentWebServiceContext *_webServiceContext;
-    id <PKPaymentWebServiceTargetDeviceProtocol> _targetDevice;
-    id <PKPaymentWebServiceArchiver> _archiver;
-    id <PKPaymentSetupDelegate> _delegate;
 }
 
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)ecureDecodingMode:[%@] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -35,21 +26,7 @@
 - (id)× ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsCachedCardRequirements;
-@property(readonly, nonatomic) id <PKPaymentWebServiceArchiver> archiver; // @synthesize archiver=_archiver;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKPaymentSetupDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSData *externalizedContext; // @synthesize externalizedContext=_externalizedContext;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isFollowupAction; // @synthesize isFollowupAction;
 @property(readonly, nonatomic) unsigned long long setupAssistant; // @synthesize setupAssistant=_setupAssistant;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <PKPaymentWebServiceTargetDeviceProtocol> targetDevice; // @synthesize targetDevice=_targetDevice;
-@property(readonly, nonatomic) PKPaymentWebServiceContext *webServiceContext; // @synthesize webServiceContext=_webServiceContext;
 
 @end
 

@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBMessage;
+@class _INPBMessage;
 
 @interface _INPBSendMessageIntentResponse
 {
     struct _has;
-    _INPBMessage *_sentMessage;
-    NSArray *_sentMessages;
 }
 
 + (Class);
 + (_Bool);
-- (void);
+- (void)8;
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -30,22 +28,12 @@
 - (_Bool);
 - (_Bool);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)INSpeakableStringResolutionResult;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasSentMessage;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBMessage *sentMessage; // @synthesize sentMessage=_sentMessage;
-@property(copy, nonatomic) NSArray *sentMessages; // @synthesize sentMessages=_sentMessages;
-@property(readonly, nonatomic) unsigned long long sentMessagesCount;
-@property(readonly) Class superclass;
 
 @end
 

@@ -13,7 +13,7 @@
     INShortcut *_shortcut;
 }
 
-+ (_Bool);
++ (_Bool)__constg_swiftt;
 
 // Remaining properties
 @property(readonly, nonatomic) INShortcut *shortcut; // @synthesize shortcut=_shortcut;

@@ -9,18 +9,14 @@
 @interface NewsUI2.ChannelCategoryView
 {
     id iconImageView;
-    id backgroundView;
-    id nameLabel;
-    id separatorView;
-    id token;
 }
 
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)_nowPlayingWithItem: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)8ÍVÿ;
-- (id)eedDatabaseGroupProcessor;
+- (id)AudioFeedDatabaseGroupProcessor;
 
 // Remaining properties
 @property(nonatomic, copy) NSString *accessibilityLabel;

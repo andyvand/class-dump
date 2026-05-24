@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDiffableDataSourceSnapshot, NSOrderedCollectionDifference;
+@class NSArray, NSDiffableDataSourceSnapshot;
 
 @interface NSDiffableDataSourceTransaction
 {
     NSDiffableDataSourceSnapshot *_initialSnapshot;
-    NSDiffableDataSourceSnapshot *_finalSnapshot;
-    NSOrderedCollectionDifference *_difference;
-    NSArray *_sectionTransactions;
-    NSArray *_reorderedItemIdentifiers;
-    long long _source;
 }
 
 + (id);
@@ -21,12 +16,12 @@
 + (id)!
 ð!Bù±f1Â0@ù
 × ;
-- (id);
+- (id)supportsFunctionPointersFromRender;
 - (long long);
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -40,14 +35,14 @@
 × ;
 - (long long)ð!´Dùñdð1Â0@ù
 × ;
-- (id)String: /* Error: Ran out of types for this method. */;
-- (_Bool)nitWithSessionIdentifier:(id)arg1 systemPolicy: /* Error: Ran out of types for this method. */;
-- (_Bool)eyRectCornerRadius;
-- (id)ontainerDirectory:(id)arg1 creatingIntermediateDirectoriesIfNecessary: /* Error: Ran out of types for this method. */;
-- (id)howRotaryIndicatorAfterDelay;
+- (id)updateDoubleSpacePeriodStateForString: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithSessionIdentifier:(id)arg1 systemPolicy: /* Error: Ran out of types for this method. */;
+- (_Bool)controlKeyRectCornerRadius;
+- (id)_siteFileInContainerDirectory:(id)arg1 creatingIntermediateDirectoriesIfNecessary: /* Error: Ran out of types for this method. */;
+- (id)_showRotaryIndicatorAfterDelay;
 - (id)g:,V_allowOwningViewSetting /* Error: Ran out of types for this method. */;
 - (id)IViewSpringAnimationBehaviorSettings",N,&,VmainEjectSpring;
-- (id)Effect;
+- (id)_UIGravityWellAdaptorEffect;
 - (long long)\»;
 - (id)kQueue.m;
 - (long long);
@@ -58,12 +53,7 @@
 - (void)(j;
 
 // Remaining properties
-@property(readonly, nonatomic) NSOrderedCollectionDifference *difference; // @synthesize difference=_difference;
-@property(readonly, nonatomic) NSDiffableDataSourceSnapshot *finalSnapshot; // @synthesize finalSnapshot=_finalSnapshot;
-@property(readonly, nonatomic) NSDiffableDataSourceSnapshot *initialSnapshot; // @synthesize initialSnapshot=_initialSnapshot;
 @property(readonly, nonatomic) NSArray *reorderedItemIdentifiers; // @synthesize reorderedItemIdentifiers=_reorderedItemIdentifiers;
-@property(readonly, nonatomic) NSArray *sectionTransactions; // @synthesize sectionTransactions=_sectionTransactions;
-@property(readonly, nonatomic) long long source; // @synthesize source=_source;
 
 @end
 

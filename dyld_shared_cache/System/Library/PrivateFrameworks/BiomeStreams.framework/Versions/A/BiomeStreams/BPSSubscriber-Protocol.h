@@ -5,8 +5,10 @@
 //
 
 @protocol BPSSubscriber
+- (void)@;
 
 @optional
-- (void)g_query__set_to_default__pack;
+- (void);
+- (void)pg_query__set_to_default__pack;
 @end
 

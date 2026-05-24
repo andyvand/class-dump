@@ -4,41 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMPowerAssertion, NSArray, NSDate, NSMutableArray, NSMutableDictionary;
+@class IMPowerAssertion, NSArray;
 
 @interface IMAVCallManager
 {
     IMPowerAssertion *_powerAssertion;
-    NSMutableArray *_chatArray;
-    NSMutableArray *_acChatProxyArray;
-    NSMutableArray *_avChatProxyArray;
-    NSMutableDictionary *_guidToACChatProxyMap;
-    NSMutableDictionary *_guidToAVChatProxyMap;
-    NSDate *_lastCallStateChange;
-    int _avToken;
-    int _acToken;
-    unsigned int _avCallState;
-    unsigned int _acCallState;
-    unsigned int _globalCallState;
 }
 
-+ (id);
-- (unsigned int);
++ (id)B;
+- (unsigned int));
 - (id);
 - (unsigned int);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)y/Frameworks/AppKit.framework/Versions/C/AppKit;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -47,20 +36,17 @@
 - (id);
 - (void);
 - (id);
+- (void):(unsigned int)arg1;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)W;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *_FTCalls;
-@property(readonly, nonatomic) unsigned int callState;
-@property(readonly, nonatomic) NSArray *calls;
-@property(readonly, nonatomic) _Bool hasActiveCall;
 
 @end
 

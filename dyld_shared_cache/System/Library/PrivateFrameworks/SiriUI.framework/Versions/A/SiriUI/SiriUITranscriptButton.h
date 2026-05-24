@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)ntrolTextColor;
+- (void)disabledControlTextColor;
 
 // Remaining properties
 @property(retain) NSView *backgroundView; // @synthesize backgroundView=_backgroundView;

@@ -9,31 +9,25 @@
 @interface STDebouncer
 {
     id <STDebouncerDelegate> _delegate;
-    double _minCoalescenceInterval;
-    double _maxCoalescenceInterval;
-    id _value;
 }
 
-- (void);
+- (void)Fx_sampler_wrap_common;
 - (double);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)th error:%{public}@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (id);
-- (double);
+- (double): /* Error: Ran out of types for this method. */;
 - (void);
 - (void)¸;
 
 // Remaining properties
-@property(nonatomic) __weak id <STDebouncerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) double maxCoalescenceInterval; // @synthesize maxCoalescenceInterval=_maxCoalescenceInterval;
 @property(nonatomic) double minCoalescenceInterval; // @synthesize minCoalescenceInterval=_minCoalescenceInterval;
-@property(retain) id value; // @synthesize value=_value;
 
 @end
 

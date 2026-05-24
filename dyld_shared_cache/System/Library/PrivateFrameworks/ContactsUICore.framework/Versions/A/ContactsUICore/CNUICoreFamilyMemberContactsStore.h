@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FAFamilyMember;
-@protocol CNScheduler, CNSchedulerProvider, CNUICoreContactStoreFacade, CNUICoreContactsSyncTrigger;
+@protocol CNUICoreContactStoreFacade;
 
 @interface CNUICoreFamilyMemberContactsStore
 {
     id <CNUICoreContactStoreFacade> _familyMemberScopedContactStore;
-    FAFamilyMember *_familyMember;
-    id <CNUICoreContactsSyncTrigger> _contactsSyncTrigger;
-    id <CNSchedulerProvider> _schedulerProvider;
 }
 
 - (id);
@@ -28,17 +24,13 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void)eIdentifier: /* Error: Ran out of types for this method. */;
+- (void)thirdPartyCallProviderWithBundleIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) id <CNScheduler> backgroundOrImmediateScheduler;
-@property(readonly, nonatomic) id <CNUICoreContactsSyncTrigger> contactsSyncTrigger; // @synthesize contactsSyncTrigger=_contactsSyncTrigger;
-@property(readonly, nonatomic) FAFamilyMember *familyMember; // @synthesize familyMember=_familyMember;
 @property(readonly, nonatomic) id <CNUICoreContactStoreFacade> familyMemberScopedContactStore; // @synthesize familyMemberScopedContactStore=_familyMemberScopedContactStore;
-@property(readonly, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
 
 @end
 

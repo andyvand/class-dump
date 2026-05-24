@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString;
+@class NSMutableArray, NSString;
 
 @interface NSPrefPanesCenter
 {
     NSMutableArray *_ppBundles;
-    NSMutableDictionary *_ppByIdentifier;
-    unsigned long long _numIOPrefPanes;
-    struct IONotificationPort *_notifyPort;
-    unsigned int _ioIterator[16];
 }
 
 + (void);
@@ -28,7 +24,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (unsigned long long);
@@ -47,9 +43,9 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)amework/Versions/C/AppKit;
 - (void);
 
 // Remaining properties

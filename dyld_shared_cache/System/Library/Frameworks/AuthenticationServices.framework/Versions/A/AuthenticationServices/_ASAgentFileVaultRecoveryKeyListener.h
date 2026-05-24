@@ -7,14 +7,13 @@
 @interface _ASAgentFileVaultRecoveryKeyListener
 {
     id listener;
-    id accountStoreLock;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)startUsingProfilesButton;
 - (_Bool);
 - (void);
 

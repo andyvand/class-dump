@@ -5,5 +5,6 @@
 //
 
 @protocol JetEngine.JSNotifyObjectExports__priv_CFF127709A25BF7B633E1F54F1AA24B8
+- (void);
 @end
 

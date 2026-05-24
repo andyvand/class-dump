@@ -6,15 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class GRPSchemaSiriEventTypeUnion, NSData;
-
 @interface GRPSchemaOrderedMessage : SISchemaInstrumentationMessage
 {
     long long _logicalEventTimestampInNs;
-    GRPSchemaSiriEventTypeUnion *_siriEventTypeUnion;
-    CDStruct_6df75016 _has;
-    _Bool _hasSiriEventTypeUnion;
-    unsigned long long _whichEvent_Type;
 }
 
 - (id);
@@ -26,27 +20,22 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)tonePickerController:didUpdateFooterTextOfTonePickerSectionItems: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id).fmf.fence.error;
 - (id)rationInMs"b1"isReply"b1"disambiguationRequired"b1"intercomTarget"b1};
-- (unsigned long long)ngFinalizeDuration;
-- (id)nstraintValue;
+- (unsigned long long)deleteRescoringFinalizeDuration;
+- (id)constraintValue;
 - (id)P¼¼;
 - (void)0Æÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLogicalEventTimestampInNs;
-@property(nonatomic) _Bool hasSiriEventTypeUnion; // @synthesize hasSiriEventTypeUnion=_hasSiriEventTypeUnion;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) long long logicalEventTimestampInNs; // @synthesize logicalEventTimestampInNs=_logicalEventTimestampInNs;
-@property(retain, nonatomic) GRPSchemaSiriEventTypeUnion *siriEventTypeUnion; // @synthesize siriEventTypeUnion=_siriEventTypeUnion;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

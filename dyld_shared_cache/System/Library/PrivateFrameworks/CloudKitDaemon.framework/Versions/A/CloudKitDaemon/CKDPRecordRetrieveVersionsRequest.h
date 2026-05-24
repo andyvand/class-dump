@@ -4,30 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPAssetsToDownload, CKDPRecordIdentifier, CKDPRequestedFields, NSString;
+@class CKDPAssetsToDownload;
 
 @interface CKDPRecordRetrieveVersionsRequest
 {
     CKDPAssetsToDownload *_assetsToDownload;
-    NSString *_minimumVersionEtag;
-    CKDPRecordIdentifier *_recordIdentifier;
-    CKDPRequestedFields *_requestedFields;
 }
 
 + (id);
 - (void);
-- (id);
+- (id)h;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)LURE for hose [%{ptr}] (%@) failure count:%u err = %d, 
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (unsigned int);
-- (void);
+- (void)setMinRxRetriesOverRxFrames:(id)arg1;
 - (void);
 - (_Bool);
 - (void);
@@ -37,18 +35,11 @@
 - (id);
 - (_Bool);
 - (id);
-- (Class)llapseIdKey;
+- (Class)hasCollapseIdKey;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CKDPAssetsToDownload *assetsToDownload; // @synthesize assetsToDownload=_assetsToDownload;
-@property(readonly, nonatomic) _Bool hasAssetsToDownload;
-@property(readonly, nonatomic) _Bool hasMinimumVersionEtag;
 @property(readonly, nonatomic) _Bool hasRecordIdentifier;
-@property(readonly, nonatomic) _Bool hasRequestedFields;
-@property(retain, nonatomic) NSString *minimumVersionEtag; // @synthesize minimumVersionEtag=_minimumVersionEtag;
-@property(retain, nonatomic) CKDPRecordIdentifier *recordIdentifier; // @synthesize recordIdentifier=_recordIdentifier;
-@property(retain, nonatomic) CKDPRequestedFields *requestedFields; // @synthesize requestedFields=_requestedFields;
 
 @end
 

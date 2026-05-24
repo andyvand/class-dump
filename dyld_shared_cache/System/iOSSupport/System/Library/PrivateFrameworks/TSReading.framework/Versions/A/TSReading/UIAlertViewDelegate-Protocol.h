@@ -5,5 +5,11 @@
 //
 
 @protocol UIAlertViewDelegate
+
+@optional
+- (void)minFeedItemsToFetch;
+- (_Bool)T/
+;
+- (void);
 @end
 

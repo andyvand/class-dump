@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSXPCConnection;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface IASUnifiedProgressConnection
 {
     NSXPCConnection *_connection;
-    NSMutableArray *_callers;
 }
 
 + (id);
@@ -20,15 +19,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)n certificate's notBefore field;
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)ngConference] claimed to have an active chat, but we really don't...;
 - (void);
 
 // Remaining properties
-@property(retain) NSMutableArray *callers; // @synthesize callers=_callers;
 @property(retain) NSXPCConnection *connection; // @synthesize connection=_connection;
 
 @end

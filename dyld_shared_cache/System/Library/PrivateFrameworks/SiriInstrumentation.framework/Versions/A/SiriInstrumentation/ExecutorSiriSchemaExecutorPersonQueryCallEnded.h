@@ -6,17 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ExecutorSiriSchemaExecutorPersonQueryCallEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
-- (id);
-- (void);
+- (id)TION:(id)arg1 Please use IAPAppConnectedAccessories and iterate through array
+ of accessory dictionaries looking for one with IAPAppBTPairingIsSupported key;
+- (void)PEM_def_callback;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -31,8 +29,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

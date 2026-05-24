@@ -8,9 +8,6 @@
 {
     id base;
     id basePartIndex;
-    id partIndex;
-    id treeSubpartOffset;
-    id treeAxisOffset;
 }
 
 @end

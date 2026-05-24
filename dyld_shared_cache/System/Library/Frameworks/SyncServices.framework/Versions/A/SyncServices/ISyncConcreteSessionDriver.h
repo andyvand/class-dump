@@ -6,28 +6,16 @@
 
 #import <SyncServices/ISyncSessionDriver.h>
 
-@class ISyncClient, ISyncSession, NSError, NSMutableArray, NSObject;
-@protocol ISyncSessionDriverDataSource;
+@class ISyncClient;
 
 @interface ISyncConcreteSessionDriver : ISyncSessionDriver
 {
     ISyncClient *_client;
-    ISyncSession *_session;
-    NSObject<ISyncSessionDriverDataSource> *_dataSource;
-    id _delegate;
-    long long _dataSourceSupportedMethodsHash;
-    long long _delegateSupportedMethodsHash;
-    NSMutableArray *_filteredEntityNames;
-    _Bool _inCallback;
-    _Bool _finishCalled;
-    _Bool _handlesSyncAlerts;
-    _Bool _failure;
-    NSError *_lastError;
 }
 
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -56,7 +44,7 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id)!êÐ!Ð@ù±ð1Â0@ù
 × ;
 

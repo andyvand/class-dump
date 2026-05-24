@@ -9,10 +9,6 @@
 @interface KTIDSIdentity
 {
     _Bool _ktCapable;
-    _Bool _supportConditionalEnforcement;
-    NSData *_pushToken;
-    NSData *_signature;
-    NSData *_ktLoggableData;
 }
 
 + (_Bool);
@@ -21,24 +17,20 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)_;
 - (id);
 - (id);
-- (id);
+- (id)ԙ;
 - (void);
 - (_Bool);
-- (void);
+- (void)4;
 - (id);
-- (void);
+- (void)H;
 - (void);
 - (id);
 
 // Remaining properties
-@property _Bool ktCapable; // @synthesize ktCapable=_ktCapable;
-@property(retain) NSData *ktLoggableData; // @synthesize ktLoggableData=_ktLoggableData;
 @property(retain) NSData *pushToken; // @synthesize pushToken=_pushToken;
-@property(retain) NSData *signature; // @synthesize signature=_signature;
-@property _Bool supportConditionalEnforcement; // @synthesize supportConditionalEnforcement=_supportConditionalEnforcement;
 
 @end
 

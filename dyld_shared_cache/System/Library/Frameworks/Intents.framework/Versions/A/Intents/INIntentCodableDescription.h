@@ -6,30 +6,24 @@
 
 #import <Intents/INRootCodableDescription.h>
 
-@class INCodableAttribute, NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface INIntentCodableDescription : INRootCodableDescription
 {
     _Bool _userConfirmationRequired;
-    _Bool _foreground;
-    _Bool _deprecated;
-    _Bool _configurable;
-    _Bool _eligibleForSuggestions;
-    _Bool _eligibleForWidgets;
-    NSString *_inputAttributeName;
-    NSString *_keyAttributeName;
-    NSString *_title;
-    NSString *_titleLocID;
-    NSString *_descriptiveText;
-    NSString *_descriptiveTextLocID;
-    NSString *_defaultImageName;
-    long long _intentCategory;
-    NSString *_verb;
-    NSArray *_phrases;
-    NSNumber *_versioningHash;
-    NSArray *_entityVerbs;
 }
 
++ (id)xternalThumbnailGeneratorData;
++ (id)e;
++ (id);
++ (id)",C,V_versionIdentifier;
++ (id),V_data;
++ (id)ages;
++ (id)_fileId;
++ (id)IOSurface",&,N,V_ioSurface;
++ (id)_externalThumbnailGeneratorData;
++ (id)_destinationURL;
++ (id)8R;
 + (id);
 + (id);
 + (id);
@@ -38,19 +32,8 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)umbnailsAgent:(id)arg1 %@;
++ (id)(%f, %f, %f), making a scaled size of (%f, %f). Will round values to (%f, %f, %f);
 + (id);
 + (id);
 + (id);
@@ -63,27 +46,6 @@
 
 // Remaining properties
 @property(copy, nonatomic, setter=_setInputAttributeName:) NSString *_inputAttributeName; // @synthesize _inputAttributeName;
-@property(copy, nonatomic, setter=_setKeyAttributeName:) NSString *_keyAttributeName; // @synthesize _keyAttributeName;
-@property(nonatomic, getter=isConfigurable) _Bool configurable; // @synthesize configurable=_configurable;
-@property(copy, nonatomic) NSString *defaultImageName; // @synthesize defaultImageName=_defaultImageName;
-@property(nonatomic, getter=isDeprecated) _Bool deprecated; // @synthesize deprecated=_deprecated;
-@property(copy, nonatomic) NSString *descriptiveText; // @synthesize descriptiveText=_descriptiveText;
-@property(copy, nonatomic) NSString *descriptiveTextLocID; // @synthesize descriptiveTextLocID=_descriptiveTextLocID;
-@property(nonatomic, getter=isEligibleForSuggestions) _Bool eligibleForSuggestions; // @synthesize eligibleForSuggestions=_eligibleForSuggestions;
-@property(nonatomic, getter=isEligibleForWidgets) _Bool eligibleForWidgets; // @synthesize eligibleForWidgets=_eligibleForWidgets;
-@property(copy, nonatomic) NSArray *entityVerbs; // @synthesize entityVerbs=_entityVerbs;
-@property(nonatomic, getter=isForeground) _Bool foreground; // @synthesize foreground=_foreground;
-@property(readonly, nonatomic) INCodableAttribute *inputAttribute;
-@property(nonatomic) long long intentCategory; // @synthesize intentCategory=_intentCategory;
-@property(readonly, nonatomic) INCodableAttribute *keyAttribute;
-@property(readonly, copy) NSString *localizedDescriptiveText;
-@property(readonly, copy) NSString *localizedTitle;
-@property(retain, nonatomic) NSArray *phrases; // @synthesize phrases=_phrases;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSString *titleLocID; // @synthesize titleLocID=_titleLocID;
-@property(nonatomic) _Bool userConfirmationRequired; // @synthesize userConfirmationRequired=_userConfirmationRequired;
-@property(copy, nonatomic) NSString *verb; // @synthesize verb=_verb;
-@property(copy, nonatomic) NSNumber *versioningHash; // @synthesize versioningHash=_versioningHash;
 
 @end
 

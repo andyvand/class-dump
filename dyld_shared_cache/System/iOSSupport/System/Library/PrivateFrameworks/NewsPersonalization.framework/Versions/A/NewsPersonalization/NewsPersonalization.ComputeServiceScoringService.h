@@ -7,13 +7,9 @@
 @interface NewsPersonalization.ComputeServiceScoringService
 {
     id isSubscribed;
-    id computeService;
-    id articleFeaturesFactory;
-    id userEmbeddingProvider;
-    id paidAccessChecker;
 }
 
-- (id);
+- (id);
 - (void);
 
 @end

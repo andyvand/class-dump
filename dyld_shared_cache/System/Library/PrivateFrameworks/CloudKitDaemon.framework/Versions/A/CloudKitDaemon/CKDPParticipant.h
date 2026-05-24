@@ -4,55 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPContactInformation, CKDPDate, CKDPIdentifier, CKDPProtectionInfo, NSData, NSString;
-
 @interface CKDPParticipant
 {
     long long _acceptTimestamp;
-    CKDPDate *_acceptedNSSecTimestampDate;
-    CKDPDate *_acceptedTimestampDate;
-    CKDPContactInformation *_contactInformation;
-    NSString *_customRole;
-    NSData *_encryptedContactInformation;
-    CKDPDate *_inviteNSSecTimestampDate;
-    CKDPDate *_inviteTimestampDate;
-    CKDPIdentifier *_inviterId;
-    int _keyHealth;
-    int _outOfNetworkKeyType;
-    NSData *_outOfNetworkPrivateKey;
-    CKDPIdentifier *_participantId;
-    int _participantType;
-    int _permission;
-    CKDPProtectionInfo *_protectionInfo;
-    NSData *_protectionInfoPublicKey;
-    CKDPProtectionInfo *_publicKey;
-    int _publicKeyVersion;
-    int _state;
-    CKDPIdentifier *_userId;
-    _Bool _acceptedInProcess;
-    _Bool _createdInProcess;
-    _Bool _isAnonymousInvitedParticipant;
-    _Bool _isApprovedRequester;
-    _Bool _isInNetwork;
-    _Bool _isOrgUser;
-    struct {
-        unsigned int acceptTimestamp:1;
-        unsigned int keyHealth:1;
-        unsigned int outOfNetworkKeyType:1;
-        unsigned int participantType:1;
-        unsigned int permission:1;
-        unsigned int publicKeyVersion:1;
-        unsigned int state:1;
-        unsigned int acceptedInProcess:1;
-        unsigned int createdInProcess:1;
-        unsigned int isAnonymousInvitedParticipant:1;
-        unsigned int isApprovedRequester:1;
-        unsigned int isInNetwork:1;
-        unsigned int isOrgUser:1;
-    } _has;
 }
 
 - (void);
+- (void)h;
 - (void);
 - (void);
 - (void);
@@ -66,14 +24,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (int);
 - (id);
 - (int);
@@ -109,120 +66,90 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@�H;
 - (id);
 - (void);
 - (long long);
 - (int);
 - (void);
 - (int);
-- (id);
-- (void);
+- (id)!;
+- (void) ;
 - (_Bool);
-- (int);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (id);
-- (id);
+- (int)EMMessageListItemQueryResultsObserver>"24@"EMObjectID"32@?<v@?@"<EFCancelable>">40;
+- (void)6;
+- (void)S;
+- (void)ivateFrameworks/DifferentialPrivacy.framework/DifferentialPrivacy;
+- (void)L;
+- (id)DELETE_MEMOJI_ALERT_CANCEL;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void)8Թ;
+- (void);
+- (void);
+- (void);
 - (int);
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (int);
+- (id);
+- (id);
+- (id);
+- (void)sortedArrayUsingDescriptors:(id)arg1;
 - (void);
+- (unsigned long long)= %u, format = %{asbd}
+;
+- (id)AirPlayStartEndpointManagerXPCServiceIfNeeded;
+- (_Bool);
+- (void)setDispatchQueue:(int)arg1;
 - (void);
 - (int);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (int);
+- (id);
+- (id);
+- (int)Activation
+issuer=/C=US/O=Apple Inc./OU=Apple Certification Authority/CN=Apple iPhone Certification Authority
+-----BEGIN CERTIFICATE-----
+MIIDZzCCAk+gAwIBAgIBAjANBgkqhkiG9w0BAQUFADB5MQswCQYDVQQGEwJVUzET
+MBEGA1UEChMKQXBwbGUgSW5jLjEmMCQGA1UECxMdQXBwbGUgQ2VydGlmaWNhdGlv
+biBBdXRob3JpdHkxLTArBgNVBAMTJEFwcGxlIGlQaG9uZSBDZXJ0aWZpY2F0aW9u
+IEF1dGhvcml0eTAeFw0wNzA0MTYyMjU1MDJaFw0xNDA0MTYyMjU1MDJaMFsxCzAJ
+BgNVBAYTAlVTMRMwEQYDVQQKEwpBcHBsZSBJbmMuMRUwEwYDVQQLEwxBcHBsZSBp
+UGhvbmUxIDAeBgNVBAMTF0FwcGxlIGlQaG9uZSBBY3RpdmF0aW9uMIGfMA0GCSqG
+SIb3DQEBAQUAA4GNADCBiQKBgQDFAXzRImArmoiHfbS2oPcqAfbEv0d1jk7GbnX7
++4YUlyIfprzBVdlmz2JHYv1+04IzJtL7cL97UI7fk0i0OMY0al8a+JPQa4Ug611T
+bqEt+njAmAkge3HXWDBdAXD9MhkC7T/9o77zOQ1oli4cUdzlnYWfzmW0PduOxuve
+AeYY4wIDAQABo4GbMIGYMA4GA1UdDwEB/wQEAwIHgDAMBgNVHRMBAf8EAjAAMB0G
+A1UdDgQWBBShoNL+t7Rz/psUaq/NPXNPH+/WlDAfBgNVHSMEGDAWgBTnNCouIt45
+YGu0lM53g2EvMaB8NTA4BgNVHR8EMTAvMC2gK6AphidodHRwOi8vd3d3LmFwcGxl
+LmNvbS9hcHBsZWNhL2lwaG9uZS5jcmwwDQYJKoZIhvcNAQEFBQADggEBAF9qmrUN
+dA+FROYGP7pWcYTAK+pLyOf9zOaE7aeVI885V8Y/BKHhlwAo+zEkiOU3FbEPCS9V
+tS18ZBcwD/+d5ZQTMFknhcUJwdPqqjnm9LqTfH/x4pw8ONHRDzxHdp96gOV3A4+8
+abkoASfcYqvIRypXnbur3bRRhTzAs4VILS6jTyFYymZeSewtBubmmigo1kCQiZGc
+76c5feDAyHb2bzEqtvx3WprljtS46QT5CR6YelinZnio32jAzRYTxtS6r3JsvZDi
+J07+EHcmfGdpxwgO+7btW1pFar0ZjF9/jYKKnOYNyvCrwszhafbSYwzAG5EJoXFB
+4d+piWHUDcPxtcc=
+-----END CERTIFICATE-----;
 - (id)N,V_requiredAdopterFeatures;
 - (void);
-- (void)KeysCount;
+- (void)desiredKeysCount;
 - (_Bool)e %{public}@;
 - (id)for outstanding operation %{public}@. Finishing it with an error;
 - (int)g;
 
 // Remaining properties
-@property(nonatomic) long long acceptTimestamp; // @synthesize acceptTimestamp=_acceptTimestamp;
-@property(nonatomic) _Bool acceptedInProcess; // @synthesize acceptedInProcess=_acceptedInProcess;
-@property(retain, nonatomic) CKDPDate *acceptedNSSecTimestampDate; // @synthesize acceptedNSSecTimestampDate=_acceptedNSSecTimestampDate;
-@property(retain, nonatomic) CKDPDate *acceptedTimestampDate; // @synthesize acceptedTimestampDate=_acceptedTimestampDate;
-@property(retain, nonatomic) CKDPContactInformation *contactInformation; // @synthesize contactInformation=_contactInformation;
-@property(nonatomic) _Bool createdInProcess; // @synthesize createdInProcess=_createdInProcess;
-@property(retain, nonatomic) NSString *customRole; // @synthesize customRole=_customRole;
-@property(retain, nonatomic) NSData *encryptedContactInformation; // @synthesize encryptedContactInformation=_encryptedContactInformation;
-@property(nonatomic) _Bool hasAcceptTimestamp;
-@property(nonatomic) _Bool hasAcceptedInProcess;
-@property(readonly, nonatomic) _Bool hasAcceptedNSSecTimestampDate;
-@property(readonly, nonatomic) _Bool hasAcceptedTimestampDate;
-@property(readonly, nonatomic) _Bool hasContactInformation;
-@property(nonatomic) _Bool hasCreatedInProcess;
-@property(readonly, nonatomic) _Bool hasCustomRole;
-@property(readonly, nonatomic) _Bool hasEncryptedContactInformation;
-@property(readonly, nonatomic) _Bool hasInviteNSSecTimestampDate;
-@property(readonly, nonatomic) _Bool hasInviteTimestampDate;
-@property(readonly, nonatomic) _Bool hasInviterId;
-@property(nonatomic) _Bool hasIsAnonymousInvitedParticipant;
-@property(nonatomic) _Bool hasIsApprovedRequester;
-@property(nonatomic) _Bool hasIsInNetwork;
-@property(nonatomic) _Bool hasIsOrgUser;
-@property(nonatomic) _Bool hasKeyHealth;
-@property(nonatomic) _Bool hasOutOfNetworkKeyType;
-@property(readonly, nonatomic) _Bool hasOutOfNetworkPrivateKey;
 @property(readonly, nonatomic) _Bool hasParticipantId;
-@property(nonatomic) _Bool hasParticipantType;
-@property(nonatomic) _Bool hasPermission;
-@property(readonly, nonatomic) _Bool hasProtectionInfo;
-@property(readonly, nonatomic) _Bool hasProtectionInfoPublicKey;
-@property(readonly, nonatomic) _Bool hasPublicKey;
-@property(nonatomic) _Bool hasPublicKeyVersion;
-@property(nonatomic) _Bool hasState;
-@property(readonly, nonatomic) _Bool hasUserId;
-@property(retain, nonatomic) CKDPDate *inviteNSSecTimestampDate; // @synthesize inviteNSSecTimestampDate=_inviteNSSecTimestampDate;
-@property(retain, nonatomic) CKDPDate *inviteTimestampDate; // @synthesize inviteTimestampDate=_inviteTimestampDate;
-@property(retain, nonatomic) CKDPIdentifier *inviterId; // @synthesize inviterId=_inviterId;
-@property(nonatomic) _Bool isAnonymousInvitedParticipant; // @synthesize isAnonymousInvitedParticipant=_isAnonymousInvitedParticipant;
-@property(nonatomic) _Bool isApprovedRequester; // @synthesize isApprovedRequester=_isApprovedRequester;
-@property(nonatomic) _Bool isInNetwork; // @synthesize isInNetwork=_isInNetwork;
-@property(nonatomic) _Bool isOrgUser; // @synthesize isOrgUser=_isOrgUser;
-@property(nonatomic) int keyHealth; // @synthesize keyHealth=_keyHealth;
-@property(nonatomic) int outOfNetworkKeyType; // @synthesize outOfNetworkKeyType=_outOfNetworkKeyType;
-@property(retain, nonatomic) NSData *outOfNetworkPrivateKey; // @synthesize outOfNetworkPrivateKey=_outOfNetworkPrivateKey;
-@property(retain, nonatomic) CKDPIdentifier *participantId; // @synthesize participantId=_participantId;
-@property(nonatomic) int participantType; // @synthesize participantType=_participantType;
-@property(nonatomic) int permission; // @synthesize permission=_permission;
-@property(retain, nonatomic) CKDPProtectionInfo *protectionInfo; // @synthesize protectionInfo=_protectionInfo;
-@property(retain, nonatomic) NSData *protectionInfoPublicKey; // @synthesize protectionInfoPublicKey=_protectionInfoPublicKey;
-@property(retain, nonatomic) CKDPProtectionInfo *publicKey; // @synthesize publicKey=_publicKey;
-@property(nonatomic) int publicKeyVersion; // @synthesize publicKeyVersion=_publicKeyVersion;
-@property(nonatomic) int state; // @synthesize state=_state;
-@property(retain, nonatomic) CKDPIdentifier *userId; // @synthesize userId=_userId;
 
 @end
 

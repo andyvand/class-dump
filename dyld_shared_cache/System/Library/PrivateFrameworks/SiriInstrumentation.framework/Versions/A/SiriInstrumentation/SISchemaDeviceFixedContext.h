@@ -6,42 +6,39 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaSiriUISettings, SISchemaVoiceSettings;
+@class NSString;
 
 @interface SISchemaDeviceFixedContext : SISchemaInstrumentationMessage
 {
     NSString *_deviceType;
-    NSString *_systemBuild;
-    NSString *_siriInputLanguage;
-    NSString *_siriVoiceLanguage;
-    NSString *_systemLocale;
-    NSString *_siriDeviceID;
-    NSString *_speechID;
-    SISchemaSiriUISettings *_siriUISettings;
-    _Bool _isSatellitePaired;
-    SISchemaVoiceSettings *_voiceSettings;
-    struct {
-        unsigned int isSatellitePaired:1;
-    } _has;
-    _Bool _hasDeviceType;
-    _Bool _hasSystemBuild;
-    _Bool _hasSiriInputLanguage;
-    _Bool _hasSiriVoiceLanguage;
-    _Bool _hasSystemLocale;
-    _Bool _hasSiriDeviceID;
-    _Bool _hasSpeechID;
-    _Bool _hasSiriUISettings;
-    _Bool _hasVoiceSettings;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)!;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)9;
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -53,71 +50,33 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (void)B;
 - (_Bool);
 - (void);
 - (id);
+- (void);
 - (id);
-- (id)labilityFromBootDigestReported;
-- (id)nguals;
+- (void);
+- (void);
+- (id)emoji.automobile;
+- (_Bool);
 - (id);
-- (void)n;
+- (id);
+- (void);
+- (unsigned long long)berResult;
+- (_Bool)t configure ABEmailCertificateSearchOperation with an email address;
+- (_Bool)id, properties, chat_identifier, service_name, guid, room_name, account_login, participants FROM   madrid_chat_legacy WHERE   room_name = ?     OR   chat_identifier = ? LIMIT 1;
+- (void);
+- (id);
+- (id);
+- (id)deleteAssetAvailabilityFromBootDigestReported;
+- (id)_isMultiLinguals;
+- (id)_cdmAssetsReported;
+- (void)beepLocation;
 - (void)æ";
 
 // Remaining properties
 @property(copy, nonatomic) NSString *deviceType; // @synthesize deviceType=_deviceType;
-@property(nonatomic) _Bool hasDeviceType; // @synthesize hasDeviceType=_hasDeviceType;
-@property(nonatomic) _Bool hasIsSatellitePaired;
-@property(nonatomic) _Bool hasSiriDeviceID; // @synthesize hasSiriDeviceID=_hasSiriDeviceID;
-@property(nonatomic) _Bool hasSiriInputLanguage; // @synthesize hasSiriInputLanguage=_hasSiriInputLanguage;
-@property(nonatomic) _Bool hasSiriUISettings; // @synthesize hasSiriUISettings=_hasSiriUISettings;
-@property(nonatomic) _Bool hasSiriVoiceLanguage; // @synthesize hasSiriVoiceLanguage=_hasSiriVoiceLanguage;
-@property(nonatomic) _Bool hasSpeechID; // @synthesize hasSpeechID=_hasSpeechID;
-@property(nonatomic) _Bool hasSystemBuild; // @synthesize hasSystemBuild=_hasSystemBuild;
-@property(nonatomic) _Bool hasSystemLocale; // @synthesize hasSystemLocale=_hasSystemLocale;
-@property(nonatomic) _Bool hasVoiceSettings; // @synthesize hasVoiceSettings=_hasVoiceSettings;
-@property(nonatomic) _Bool isSatellitePaired; // @synthesize isSatellitePaired=_isSatellitePaired;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *siriDeviceID; // @synthesize siriDeviceID=_siriDeviceID;
-@property(copy, nonatomic) NSString *siriInputLanguage; // @synthesize siriInputLanguage=_siriInputLanguage;
-@property(retain, nonatomic) SISchemaSiriUISettings *siriUISettings; // @synthesize siriUISettings=_siriUISettings;
-@property(copy, nonatomic) NSString *siriVoiceLanguage; // @synthesize siriVoiceLanguage=_siriVoiceLanguage;
-@property(copy, nonatomic) NSString *speechID; // @synthesize speechID=_speechID;
-@property(copy, nonatomic) NSString *systemBuild; // @synthesize systemBuild=_systemBuild;
-@property(copy, nonatomic) NSString *systemLocale; // @synthesize systemLocale=_systemLocale;
-@property(retain, nonatomic) SISchemaVoiceSettings *voiceSettings; // @synthesize voiceSettings=_voiceSettings;
 
 @end
 

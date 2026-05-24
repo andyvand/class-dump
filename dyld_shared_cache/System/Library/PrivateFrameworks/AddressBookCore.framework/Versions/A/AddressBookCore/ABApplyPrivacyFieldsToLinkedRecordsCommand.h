@@ -6,14 +6,11 @@
 
 #import <AddressBookCore/ABBookUndoableCommand.h>
 
-@class ABAddressBook, NSMutableArray, NSString;
+@class NSString;
 
 @interface ABApplyPrivacyFieldsToLinkedRecordsCommand : ABBookUndoableCommand
 {
     NSString *_personIdentifier;
-    ABAddressBook *_addressBook;
-    NSMutableArray *_privatizedFields;
-    _Bool ignoresGuardianRestrictions;
 }
 
 + (id);
@@ -22,12 +19,12 @@
 - (id);
 - (id);
 - (void);
+- (void)9;
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)u_;
+- (void)s without observers;
 
 @end
 

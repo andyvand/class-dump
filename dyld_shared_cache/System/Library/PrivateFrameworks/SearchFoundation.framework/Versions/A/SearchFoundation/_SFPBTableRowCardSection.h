@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBTableAlignmentSchema;
+@class NSArray;
 
 @interface _SFPBTableRowCardSection
 {
     _Bool _canBeHidden;
-    _Bool _hasTopPadding;
-    _Bool _hasBottomPadding;
-    _Bool _isSubHeader;
-    _Bool _reducedRowHeight;
-    _Bool _alignRowsToHeader;
-    int _separatorStyle;
-    int _verticalAlign;
-    NSArray *_punchoutOptions;
-    NSString *_punchoutPickerTitle;
-    NSString *_punchoutPickerDismissText;
-    NSString *_type;
-    _SFPBColor *_backgroundColor;
-    NSArray *_richDatas;
-    NSString *_tableIdentifier;
-    _SFPBTableAlignmentSchema *_alignmentSchema;
-    NSArray *_datas;
-    NSString *_tabGroupIdentifier;
 }
 
 - (id);
@@ -66,8 +49,8 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)_asyncServerPlaybackContextDataCreationHandler;
+- (_Bool)_activeLockerAccountHistory;
 - (id);
 - (void);
 - (void);
@@ -79,8 +62,8 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)@40@0:8@16B24B28@32 /* Error: Ran out of types for this method. */;
+- (id)setDidSendPendingInvitations:(id)arg1;
 - (id);
 - (void);
 - (id);
@@ -90,32 +73,7 @@
 - (int)âÿ:1Wt /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool alignRowsToHeader; // @synthesize alignRowsToHeader=_alignRowsToHeader;
-@property(retain, nonatomic) _SFPBTableAlignmentSchema *alignmentSchema; // @synthesize alignmentSchema=_alignmentSchema;
-@property(retain, nonatomic) _SFPBColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) _Bool canBeHidden; // @synthesize canBeHidden=_canBeHidden;
-@property(copy, nonatomic) NSArray *datas; // @synthesize datas=_datas;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasBottomPadding; // @synthesize hasBottomPadding=_hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding; // @synthesize hasTopPadding=_hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isSubHeader; // @synthesize isSubHeader=_isSubHeader;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions; // @synthesize punchoutOptions=_punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText; // @synthesize punchoutPickerDismissText=_punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle; // @synthesize punchoutPickerTitle=_punchoutPickerTitle;
-@property(nonatomic) _Bool reducedRowHeight; // @synthesize reducedRowHeight=_reducedRowHeight;
-@property(copy, nonatomic) NSArray *richDatas; // @synthesize richDatas=_richDatas;
-@property(nonatomic) int separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *tabGroupIdentifier; // @synthesize tabGroupIdentifier=_tabGroupIdentifier;
-@property(copy, nonatomic) NSString *tableIdentifier; // @synthesize tableIdentifier=_tableIdentifier;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
-@property(nonatomic) int verticalAlign; // @synthesize verticalAlign=_verticalAlign;
 
 @end
 

@@ -4,33 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface HMDCHIPHomeStorage
 {
     NSNumber *_fabricID;
-    NSNumber *_lastNodeID;
-    NSData *_rootCertificate;
-    NSData *_operationalCertificate;
-    NSData *_intermediateCertificate;
-    NSDictionary *_keyValueStore;
 }
 
 + (_Bool)$1°;
 + (id)ÔB;
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)_requestedHandles;
+- (void)_failedGeoDirectionsSettingsPath;
+- (void)blic}@ %{private}@ 
+	route:(id)arg1 routingPathLegs:%{public}@, coordinates:%{public}@, trafficColors:%{public}@, trafficOffsets:%{public}@, referenceFrame:%{public}@
+================ /* Error: Ran out of types for this method. */;
+- (void)to update from;
+- (void)message_for_non_routable;
+- (void)nt sharing identity;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (unsigned long long);
@@ -39,26 +36,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)à!Dù1ð1Â0@ù
 × ;
-- (id)moveAllZonesFromDatabase:(struct _NSZone *)arg1;
+- (id)fetchAndRemoveAllZonesFromDatabase:(struct _NSZone *)arg1;
 - (id)ager was asked to start but it isn't idle:%ld /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSDictionary *debugDictionaryRepresentation;
-@property(readonly, copy) NSString *description;
 @property(copy) NSNumber *fabricID; // @synthesize fabricID=_fabricID;
-@property(readonly) unsigned long long hash;
-@property(copy) NSData *intermediateCertificate; // @synthesize intermediateCertificate=_intermediateCertificate;
-@property(copy) NSDictionary *keyValueStore; // @synthesize keyValueStore=_keyValueStore;
-@property(copy) NSNumber *lastNodeID; // @synthesize lastNodeID=_lastNodeID;
-@property(copy) NSData *operationalCertificate; // @synthesize operationalCertificate=_operationalCertificate;
-@property(copy) NSData *rootCertificate; // @synthesize rootCertificate=_rootCertificate;
-@property(readonly) Class superclass;
 
 @end
 

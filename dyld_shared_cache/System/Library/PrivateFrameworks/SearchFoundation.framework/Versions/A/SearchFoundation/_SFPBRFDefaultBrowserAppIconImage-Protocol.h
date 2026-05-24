@@ -7,9 +7,11 @@
 @class NSData;
 
 @protocol _SFPBRFDefaultBrowserAppIconImage
+- (void);
+- (NSData *)rash;
+- (id));
 
 // Remaining properties
 @property(nonatomic) int image_style;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

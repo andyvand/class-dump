@@ -4,32 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSXPCConnection, NSXPCInterface, SPExecutionPolicyExportedObject;
+@class NSXPCInterface;
 
 @interface SPExecutionPolicy
 {
     NSXPCInterface *_interface;
-    NSXPCConnection *_connection;
-    NSLock *_lock;
-    CDUnknownBlockType _progressBlock;
-    SPExecutionPolicyExportedObject *_exportedObject;
 }
 
+- (_Bool)H
+IJKLMNO;
 - (_Bool);
+- (_Bool)zR;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool);
+- (id);
+- (id);
 - (_Bool);
 - (CDUnknownBlockType);
 - (_Bool);
-- (id);
+- (id);
+- (_Bool)X;
+- (_Bool)F;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)6;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -41,7 +38,7 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);

@@ -30,11 +30,11 @@
 - (void);
 - (void);
 - (id);
+- (id)k";
 - (id);
+- (id)֏;
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)W;
 - (_Bool);
 - (_Bool);
 - (long long);
@@ -45,13 +45,13 @@
 - (id);
 - (unsigned short);
 - (id);
-- (id);
+- (id)kK;
 - (void);
 - (void);
 - (id);
+- (id)B;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)setModelLoadError: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
@@ -61,7 +61,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSDictionary *attributeToSparseVector;
 @property(readonly, nonatomic) NSDictionary *mutableAttributeToSparseVector; // @synthesize mutableAttributeToSparseVector=_mutableAttributeToSparseVector;
 
 @end

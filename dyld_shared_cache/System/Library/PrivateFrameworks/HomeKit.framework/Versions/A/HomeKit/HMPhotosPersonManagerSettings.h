@@ -7,7 +7,6 @@
 @interface HMPhotosPersonManagerSettings
 {
     _Bool _importingFromPhotoLibraryEnabled;
-    _Bool _sharingFaceClassificationsEnabled;
 }
 
 + (id);

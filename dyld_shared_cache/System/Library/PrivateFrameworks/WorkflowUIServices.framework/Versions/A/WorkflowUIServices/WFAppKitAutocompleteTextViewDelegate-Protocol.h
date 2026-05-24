@@ -5,5 +5,9 @@
 //
 
 @protocol WFAppKitAutocompleteTextViewDelegate
+
+@optional
+- (_Bool)T;
+- (_Bool);
 @end
 

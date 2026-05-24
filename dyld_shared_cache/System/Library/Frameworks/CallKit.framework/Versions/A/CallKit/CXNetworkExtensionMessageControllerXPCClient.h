@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection;
-
 __attribute__((visibility("hidden")))
 @interface CXNetworkExtensionMessageControllerXPCClient
 {
     struct os_unfair_lock_s _accessorLock;
-    NSXPCConnection *_connection;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)%;
 - (id);
 - (void);
 - (id);
@@ -25,14 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) struct os_unfair_lock_s accessorLock; // @synthesize accessorLock=_accessorLock;
-@property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

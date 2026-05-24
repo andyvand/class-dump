@@ -6,17 +6,11 @@
 
 #import <AppKit/NSPanel.h>
 
-@class NSButton, NSProgressIndicator, NSTextField;
+@class NSButton, NSTextField;
 
 @interface NSProgressPanel : NSPanel
 {
     NSButton *_cancelButton;
-    NSTextField *_captionTextField;
-    NSProgressIndicator *_progressIndicator;
-    id _cancellationDelegate;
-    SEL _cancellationSelector;
-    void *_cancellationContextInfo;
-    _Bool _wasCancelled;
 }
 
 + (id);
@@ -24,15 +18,13 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void)ibilityDidChange;
+- (id)FURLSessionConnection"16@"NSURLRequest"24q32@?<v@?@"NSInputStream">40;
+- (void)@"__NSCFURLSessionDelegateWrapper";
+- (void)_placementVisibilityDidChange;
 - (id)d changes. Do you want to review these changes before quitting?;
 
 // Remaining properties
-@property NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
 @property NSTextField *captionTextField; // @synthesize captionTextField=_captionTextField;
-@property NSProgressIndicator *progressIndicator; // @synthesize progressIndicator=_progressIndicator;
 
 @end
 

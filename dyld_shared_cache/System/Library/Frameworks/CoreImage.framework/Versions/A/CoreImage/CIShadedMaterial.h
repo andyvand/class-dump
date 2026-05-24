@@ -6,14 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIShadedMaterial : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputShadingImage;
-    NSNumber *inputScale;
 }
 
 + (id);
@@ -29,8 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputScale; // @synthesize inputScale;
-@property(retain, nonatomic) CIImage *inputShadingImage; // @synthesize inputShadingImage;
 
 @end
 

@@ -7,28 +7,22 @@
 @interface AWDCoreRoutineRankRoutesRequestedInstance
 {
     unsigned long long _timestamp;
-    int _highestRankedRouteScore;
-    int _numberOfInputRoutes;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int highestRankedRouteScore:1;
-        unsigned int numberOfInputRoutes:1;
-    } _has;
 }
 
 - (void);
+- (void)H;
 - (void);
 - (void);
-- (void);
+- (int)	j!;
 - (int);
-- (int);
-- (_Bool);
+- (_Bool)A;
 - (_Bool);
 - (id);
 - (void);
 - (void);
+- (unsigned long long)a
+;
 - (unsigned long long);
-- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -36,15 +30,10 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)j;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHighestRankedRouteScore;
-@property(nonatomic) _Bool hasNumberOfInputRoutes;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) int highestRankedRouteScore; // @synthesize highestRankedRouteScore=_highestRankedRouteScore;
-@property(nonatomic) int numberOfInputRoutes; // @synthesize numberOfInputRoutes=_numberOfInputRoutes;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

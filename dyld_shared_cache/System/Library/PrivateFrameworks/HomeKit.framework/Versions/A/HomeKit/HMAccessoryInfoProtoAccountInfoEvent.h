@@ -9,12 +9,6 @@
 @interface HMAccessoryInfoProtoAccountInfoEvent
 {
     NSString *_aaAltDSID;
-    NSString *_amsAltDSID;
-    NSString *_username;
-    _Bool _signedIn;
-    struct {
-        unsigned int signedIn:1;
-    } _has;
 }
 
 - (_Bool);
@@ -27,30 +21,23 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool):%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void)#;
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)(;
+- (_Bool)decertification;
 - (void);
 - (id);
 - (id);
 - (id)! @ùqY1Â0@ù
 × ;
-- (void);
+- (void)isAtLeastVersion:(id)arg1;
 - (void)}@Unable to find service with unique identifier %@ on accessories %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *aaAltDSID; // @synthesize aaAltDSID=_aaAltDSID;
-@property(retain, nonatomic) NSString *amsAltDSID; // @synthesize amsAltDSID=_amsAltDSID;
-@property(readonly, nonatomic) _Bool hasAaAltDSID;
-@property(readonly, nonatomic) _Bool hasAmsAltDSID;
-@property(nonatomic) _Bool hasSignedIn;
 @property(readonly, nonatomic) _Bool hasUsername;
-@property(nonatomic) _Bool signedIn; // @synthesize signedIn=_signedIn;
-@property(retain, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end
 

@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary;
-
 @interface UnknownClass (MTAdditions)
 + (id);
-+ (_Bool);
++ (_Bool)P;
 + (_Bool);
 + (_Bool);
 + (void);
@@ -30,9 +28,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, copy) NSDictionary *episodeListSortTypeDictionary;
-@property(nonatomic) long long fairPlayMigrationRetryCount;
-@property(nonatomic, copy) NSDate *lastAppUseDate;
 @property(nonatomic) _Bool showListShowsAllShows;
 @end
 

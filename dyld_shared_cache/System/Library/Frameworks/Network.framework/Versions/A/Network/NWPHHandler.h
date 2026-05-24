@@ -10,19 +10,17 @@ __attribute__((visibility("hidden")))
 @interface NWPHHandler
 {
     NSArray *_allowedEntitlementGroup;
-    CDUnknownFunctionPointerType _handlerFunction;
 }
 
 - (void);
 - (id);
 - (id);
-- (CDUnknownFunctionPointerType);
+- (CDUnknownFunctionPointerType)W;
 - (void);
 - (void)@;
 
 // Remaining properties
 @property(retain) NSArray *allowedEntitlementGroup; // @synthesize allowedEntitlementGroup=_allowedEntitlementGroup;
-@property CDUnknownFunctionPointerType handlerFunction; // @synthesize handlerFunction=_handlerFunction;
 
 @end
 

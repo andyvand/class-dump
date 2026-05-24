@@ -7,20 +7,18 @@
 @interface CBDeviceRequest
 {
     unsigned int _requestFlags;
-    double _timeoutSeconds;
 }
 
-- (void);
-- (unsigned int);
+- (void)M;
+- (unsigned int)setLaunchOptions: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)cs:(double)arg1:enum_ims_reg_type_IsValid(value) /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)fp_invalidArgumentError:(id)arg1;
 - (double);
 
 // Remaining properties
 @property(nonatomic) unsigned int requestFlags; // @synthesize requestFlags=_requestFlags;
-@property(nonatomic) double timeoutSeconds; // @synthesize timeoutSeconds=_timeoutSeconds;
 
 @end
 

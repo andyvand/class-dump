@@ -7,12 +7,9 @@
 @interface ConversationKit.ConversationControlsNoticeCoordinator
 {
     id conversationManager;
-    id unblockTimer;
-    id _activeNotice;
-    id $__lazy_storage_$_noticeQueue;
 }
 
-- (id);
+- (id)ification/SearchPartyAccountNotificationPlugin.bundle/Contents/MacOS/SearchPartyAccountNotificationPlugin;
 - (void);
 
 @end

@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSMutableDictionary;
-
 @interface IMChorosMonitor
 {
     _Bool _needsShowConnectionUI;
-    _Bool _monitorStarted;
-    _Bool _didPresentBannerForStrugglingMessage;
-    NSDictionary *_emergencyHandles;
-    long long _showConnectionUIRetryCount;
-    NSDate *_lastFringeNetworkCheckRequestDate;
-    NSMutableDictionary *_activeSendTimers;
 }
 
 + (_Bool);
@@ -23,20 +15,20 @@
 - (void);
 - (void);
 - (void);
+- (long long)W;
+- (_Bool);
+- (void);
+- (void);
+- (void)�(;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (long long);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (long long);
-- (_Bool);
-- (void);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -46,7 +38,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -56,13 +48,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *activeSendTimers; // @synthesize activeSendTimers=_activeSendTimers;
-@property(nonatomic) _Bool didPresentBannerForStrugglingMessage; // @synthesize didPresentBannerForStrugglingMessage=_didPresentBannerForStrugglingMessage;
-@property(retain, nonatomic) NSDictionary *emergencyHandles; // @synthesize emergencyHandles=_emergencyHandles;
-@property(retain, nonatomic) NSDate *lastFringeNetworkCheckRequestDate; // @synthesize lastFringeNetworkCheckRequestDate=_lastFringeNetworkCheckRequestDate;
-@property(nonatomic) _Bool monitorStarted; // @synthesize monitorStarted=_monitorStarted;
 @property(nonatomic) _Bool needsShowConnectionUI; // @synthesize needsShowConnectionUI=_needsShowConnectionUI;
-@property(nonatomic) long long showConnectionUIRetryCount; // @synthesize showConnectionUIRetryCount=_showConnectionUIRetryCount;
 
 @end
 

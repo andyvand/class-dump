@@ -13,7 +13,7 @@
 
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)';
 - (id);
 - (void);
 - (id);
@@ -23,7 +23,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)drawInRect:withAttributes: /* Error: Ran out of types for this method. */;
 - (void)0@ù
 × ;
 

@@ -4,47 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSString;
+@class NSString;
 
 @interface _PSContactPrior
 {
     float _priorScore;
-    unsigned int _rank;
-    NSString *_contactIdentifier;
-    CNContact *_contact;
-    NSString *_modelName;
-    NSString *_modelVersion;
 }
 
 + (_Bool);
-- (void);
-- (id);
+- (void)_eventEntities;
+- (id)_autoShortcutTemplateUsed;
 - (float);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)C;
 - (unsigned long long);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)1F'
+;
 - (id);
 - (id);
 - (void);
 - (unsigned int);
 - (id);
 - (void);
-- (id)s;
+- (id)metricsForImpressions;
 
 // Remaining properties
-@property(copy, nonatomic) CNContact *contact; // @synthesize contact=_contact;
 @property(copy, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(copy, nonatomic) NSString *modelName; // @synthesize modelName=_modelName;
-@property(copy, nonatomic) NSString *modelVersion; // @synthesize modelVersion=_modelVersion;
-@property(nonatomic) float priorScore; // @synthesize priorScore=_priorScore;
-@property(nonatomic) unsigned int rank; // @synthesize rank=_rank;
 
 @end
 

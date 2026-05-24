@@ -9,26 +9,18 @@
 @interface TIKeyboardLayoutState
 {
     _Bool _hasCandidateKey;
-    _Bool _hasAccentKey;
-    _Bool _canMultitap;
-    _Bool _isAlphabeticPlane;
-    _Bool _isKanaPlane;
-    _Bool _diacriticForwardCompose;
-    NSString *_inputMode;
-    NSString *_layoutTag;
-    long long _userInterfaceIdiom;
 }
 
-+ (_Bool);
++ (_Bool)`;
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)requestCurationOfLength:(_Bool)arg1 forMemoryForLocalIdentifier:withOptions:error: /* Error: Ran out of types for this method. */;
+- (id)predicateToExcludeHiddenAssetsWithHiddenKeyPath: /* Error: Ran out of types for this method. */;
+- (id)etry:identifier %hhu _syndicationIngestClientIdentifier %hhu blockingLibrary %p /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
-- (unsigned long long);
+- (unsigned long long)`;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -37,7 +29,7 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id)?'$M$?2A3M3;
@@ -54,22 +46,12 @@
 ;
 - (void)	°	£	;
 - (_Bool)up ;
-- (void)raldine;
-- (id)agrant;
-- (_Bool)ntemptible;
+- (void)emeraldine;
+- (id)flagrant;
+- (_Bool)contemptible;
 
 // Remaining properties
-@property(nonatomic) _Bool canMultitap; // @synthesize canMultitap=_canMultitap;
-@property(nonatomic) _Bool diacriticForwardCompose; // @synthesize diacriticForwardCompose=_diacriticForwardCompose;
-@property(readonly, nonatomic) NSString *hardwareLayout;
-@property(nonatomic) _Bool hasAccentKey; // @synthesize hasAccentKey=_hasAccentKey;
-@property(nonatomic) _Bool hasCandidateKey; // @synthesize hasCandidateKey=_hasCandidateKey;
 @property(copy, nonatomic) NSString *inputMode; // @synthesize inputMode=_inputMode;
-@property(nonatomic) _Bool isAlphabeticPlane; // @synthesize isAlphabeticPlane=_isAlphabeticPlane;
-@property(nonatomic) _Bool isKanaPlane; // @synthesize isKanaPlane=_isKanaPlane;
-@property(copy, nonatomic) NSString *layoutTag; // @synthesize layoutTag=_layoutTag;
-@property(readonly, nonatomic) NSString *softwareLayout;
-@property(nonatomic) long long userInterfaceIdiom; // @synthesize userInterfaceIdiom=_userInterfaceIdiom;
 
 @end
 

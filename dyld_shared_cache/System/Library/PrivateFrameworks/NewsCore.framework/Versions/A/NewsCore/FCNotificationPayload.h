@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NTPBNotificationItem;
-@protocol FCHeadlineProviding;
+@class NTPBNotificationItem;
 
 @interface FCNotificationPayload
 {
     NTPBNotificationItem *_notificationItem;
-    id <FCHeadlineProviding> _headline;
-    NSString *_bodyText;
 }
 
 - (id);
@@ -19,13 +16,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)A;
 - (id);
 - (void)eedRelativeDictionaryFromResultsArray:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bodyText; // @synthesize bodyText=_bodyText;
-@property(readonly, nonatomic) id <FCHeadlineProviding> headline; // @synthesize headline=_headline;
 @property(readonly, nonatomic) NTPBNotificationItem *notificationItem; // @synthesize notificationItem=_notificationItem;
 
 @end

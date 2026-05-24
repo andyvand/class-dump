@@ -7,27 +7,22 @@
 @interface AXMVisionColor
 {
     unsigned char _red;
-    unsigned char _green;
-    unsigned char _blue;
-    unsigned char _hue;
-    unsigned char _saturation;
-    unsigned char _brightness;
 }
 
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)timeIntervalSince1970;
 - (double);
 - (_Bool);
 - (double);
 - (double);
+- (double);
 - (double);
-- (double);
-- (double);
-- (double);
-- (void);
-- (void);
+- (double){;
+- (double)=\|;
+- (void);
+- (void){;
 - (double);
 - (double);
 - (id);
@@ -38,12 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) double blueFloat;
-@property(readonly, nonatomic) double brightnessFloat;
-@property(readonly, nonatomic) double greenFloat;
-@property(readonly, nonatomic) double hueFloat;
 @property(readonly, nonatomic) double redFloat;
-@property(readonly, nonatomic) double saturationFloat;
 
 @end
 

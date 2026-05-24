@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
+@class NSString;
 
 @interface SNFileDeletionResult
 {
@@ -17,7 +17,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSError *error;
 @property(nonatomic, readonly) NSString *fileName;
 
 @end

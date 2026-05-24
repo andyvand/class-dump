@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FMXPCServiceDescription, FMXPCSession, NSObject, NSString, SPAccessoryDiscoverySessionState;
-@protocol OS_dispatch_queue, SPAccessoryDiscoveryXPCProtocol;
+@class NSObject, SPAccessoryDiscoverySessionState;
+@protocol OS_dispatch_queue;
 
 @interface SPAccessoryDiscoveryAndPairingSession
 {
     SPAccessoryDiscoverySessionState *_state;
-    CDUnknownBlockType _sessionInvalidatedCallback;
-    CDUnknownBlockType _accessoryDiscoveredCallback;
-    CDUnknownBlockType _accessoryDiscoveryErrorCallback;
-    CDUnknownBlockType _pairingAccessoryDetectionCallback;
-    CDUnknownBlockType _proximityPairingCompletedCallback;
-    CDUnknownBlockType _proximityPairingErrorCallback;
-    CDUnknownBlockType _notifyPairingAccessoryChanged;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    FMXPCServiceDescription *_serviceDescription;
-    FMXPCSession *_session;
-    id <SPAccessoryDiscoveryXPCProtocol> _proxy;
 }
 
 + (id);
@@ -37,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
@@ -47,32 +35,32 @@
 - (CDUnknownBlockType);
 - (void);
 - (CDUnknownBlockType);
+- (void);
+- (void);
+- (void)JJ;
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (CDUnknownBlockType);
+- (void);
+- (void);
+- (CDUnknownBlockType);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id)S;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)P;
 - (void);
 - (id);
 - (void);
@@ -81,26 +69,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType accessoryDiscoveredCallback; // @synthesize accessoryDiscoveredCallback=_accessoryDiscoveredCallback;
-@property(copy, nonatomic) CDUnknownBlockType accessoryDiscoveryErrorCallback; // @synthesize accessoryDiscoveryErrorCallback=_accessoryDiscoveryErrorCallback;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType notifyPairingAccessoryChanged; // @synthesize notifyPairingAccessoryChanged=_notifyPairingAccessoryChanged;
-@property(copy, nonatomic) CDUnknownBlockType pairingAccessoryDetectionCallback; // @synthesize pairingAccessoryDetectionCallback=_pairingAccessoryDetectionCallback;
-@property(copy, nonatomic) CDUnknownBlockType proximityPairingCompletedCallback; // @synthesize proximityPairingCompletedCallback=_proximityPairingCompletedCallback;
-@property(copy, nonatomic) CDUnknownBlockType proximityPairingErrorCallback; // @synthesize proximityPairingErrorCallback=_proximityPairingErrorCallback;
-@property(retain, nonatomic) id <SPAccessoryDiscoveryXPCProtocol> proxy; // @synthesize proxy=_proxy;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) FMXPCServiceDescription *serviceDescription; // @synthesize serviceDescription=_serviceDescription;
-@property(retain, nonatomic) FMXPCSession *session; // @synthesize session=_session;
-@property(copy, nonatomic) CDUnknownBlockType sessionInvalidatedCallback; // @synthesize sessionInvalidatedCallback=_sessionInvalidatedCallback;
-@property(copy, nonatomic) SPAccessoryDiscoverySessionState *state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

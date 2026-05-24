@@ -7,12 +7,6 @@
 @interface Network.NetworkStorage.InternalStorage__priv_6FEE2748074394A1FD56B79DFE5A066E.HTTPEarlyDataStateInternal
 {
     id _expirationDate;
-    id _reversedPartition;
-    id _reversedHost;
-    id _port;
-    id _state;
-    id _$backingData;
-    id _$observationRegistrar;
 }
 
 @end

@@ -7,16 +7,6 @@
 @interface CoreKnowledge.Connection
 {
     id _handle;
-    id busyTimeout;
-    id busyHandler;
-    id trace;
-    id updateHook;
-    id commitHook;
-    id rollbackHook;
-    id functions;
-    id collations;
-    id queue;
-    id $__lazy_storage_$_queueContext;
 }
 
 @end

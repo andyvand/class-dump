@@ -6,21 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface IFTSchemaIFTValueDisambiguation : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    NSArray *_items;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
+- (void)presentingSceneIdentifier;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -28,23 +24,20 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)__swift5_fieldmd__TEXT;
 - (id)0@ù
 × ;
-- (void)rtiesReported: /* Error: Ran out of types for this method. */;
+- (void)setWatchOSDevicePropertiesReported: /* Error: Ran out of types for this method. */;
 - (id)rentAction;
-- (void)EventMetadata;
-- (id)chemaHALContextCollectorFetchFailed;
-- (_Bool)or;
+- (void)SRSTSchemaSRSTClientEventMetadata;
+- (id)HALSchemaHALContextCollectorFetchFailed;
+- (_Bool)SISchemaPNRSpeechError;
 - (void)!û";
 - (_Bool)w¹ÿpÚ}At%;
 - (void));
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(copy, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

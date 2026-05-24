@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPProfileManager, NSMutableSet;
+@class CPProfileManager;
 
 __attribute__((visibility("hidden")))
 @interface CWFConfigurationProfileManager
 {
     CPProfileManager *_profileManager;
-    NSMutableSet *_mdmManagedProfileUUIDs;
 }
 
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)a;
+- (void)NANData;
 
 @end
 

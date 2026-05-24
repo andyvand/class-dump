@@ -9,9 +9,6 @@
 @interface AKRemoteViewServiceConfiguration
 {
     NSString *_hostBundleID;
-    NSString *_hostSceneID;
-    NSString *_remoteBundleID;
-    NSString *_remoteClassName;
 }
 
 + (id);
@@ -28,16 +25,13 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void)H,;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *hostBundleID; // @synthesize hostBundleID=_hostBundleID;
-@property(copy, nonatomic) NSString *hostSceneID; // @synthesize hostSceneID=_hostSceneID;
-@property(copy, nonatomic) NSString *remoteBundleID; // @synthesize remoteBundleID=_remoteBundleID;
-@property(copy, nonatomic) NSString *remoteClassName; // @synthesize remoteClassName=_remoteClassName;
 
 @end
 

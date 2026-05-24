@@ -18,15 +18,15 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)he ambient display overrides found, setting hasOverrides TRUE on display 0x%0x
+;
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)A;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SGGeoListSnippet *geoList; // @synthesize geoList=_geoList;
 @property(readonly, nonatomic) _Bool hasGeoList;
 
 @end

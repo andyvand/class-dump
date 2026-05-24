@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @protocol PLRegionsClusteringItem
+- (double)_maxTitleWidthPercentage;
+- (NSDate *)m0;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CLLocationCoordinate2D pl_coordinate;
-@property(readonly, nonatomic) NSDate *pl_date;
-@property(readonly, nonatomic) double pl_gpsHorizontalAccuracy;
-@property(readonly, nonatomic) NSString *pl_uuid;
 @end
 

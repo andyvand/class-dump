@@ -4,23 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface VNFgBgE5MLInstanceFeature
 {
     int _queryID;
-    float _miyoshiConfidence;
-    float _cocoConfidence;
-    float _IoU;
-    float _stabilityScore;
-    int _miyoshiCategory;
-    int _cocoCategory;
-    NSString *_miyoshiCategoryName;
-    NSString *_cocoCategoryName;
-    struct CGSize _mapSize;
-    vector_9651d273 _segmentation;
-    struct CGRect _bbox;
 }
 
 - (float);
@@ -34,10 +21,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (vector_9651d273);
-- (float);
-- (id);
-- (id);
+- (vector_52a4e7e1);
+- (float);
+- (id);
+- (id)P;
 - (float);
 - (id);
 - (int);
@@ -52,18 +39,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property float IoU; // @synthesize IoU=_IoU;
-@property(nonatomic) struct CGRect bbox; // @synthesize bbox=_bbox;
-@property int cocoCategory; // @synthesize cocoCategory=_cocoCategory;
-@property(retain) NSString *cocoCategoryName; // @synthesize cocoCategoryName=_cocoCategoryName;
-@property float cocoConfidence; // @synthesize cocoConfidence=_cocoConfidence;
-@property struct CGSize mapSize; // @synthesize mapSize=_mapSize;
-@property int miyoshiCategory; // @synthesize miyoshiCategory=_miyoshiCategory;
-@property(retain) NSString *miyoshiCategoryName; // @synthesize miyoshiCategoryName=_miyoshiCategoryName;
-@property float miyoshiConfidence; // @synthesize miyoshiConfidence=_miyoshiConfidence;
 @property int queryID; // @synthesize queryID=_queryID;
-@property vector_9651d273 segmentation; // @synthesize segmentation=_segmentation;
-@property float stabilityScore; // @synthesize stabilityScore=_stabilityScore;
 
 @end
 

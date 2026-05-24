@@ -5,5 +5,7 @@
 //
 
 @protocol TIAssistantSettings
+- (void)stringByTrimmingCharactersInSet:(long long)arg1;
+- (void);
 @end
 

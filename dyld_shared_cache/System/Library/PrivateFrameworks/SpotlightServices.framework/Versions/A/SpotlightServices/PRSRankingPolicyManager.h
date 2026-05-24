@@ -8,16 +8,16 @@
 {
 }
 
-+ (double);
-+ (double);
-+ (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
++ (double)determinateProgressSpinnerStyle";
++ (double)loudServiceController";
++ (id)bezierPathWithOvalInRect: /* Error: Ran out of types for this method. */;
+- (void)touchesCancelled:(long long)arg1 withEvent:(id)arg2;
+- (_Bool)needsDominantBackgroundColor;
+- (id)loadValuesAsynchronouslyForKeys:(id)arg1 keysForCollectionKeys:(id)arg2 completionHandler:(double)arg3;
+- (id)listener:(id)arg1 shouldAcceptNewConnection:(id)arg2;
+- (void)largestIconSizeInPoints;
+- (void)isiTunesStoreOrAdjacentURL:(id)arg1;
+- (void)isTwitterSummaryLargeImageCardMetadata:(id)arg1;
 
 @end
 

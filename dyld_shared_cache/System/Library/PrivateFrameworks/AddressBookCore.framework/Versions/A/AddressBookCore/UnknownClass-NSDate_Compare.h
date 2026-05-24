@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (NSDate_Compare)
-+ (id);
++ (id);
 - (double);
 - (double);
 - (double);

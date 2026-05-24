@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, UIResponder, UIWindow;
+@class NSMutableArray, UIResponder;
 @protocol _UIGestureRecognizerContainer;
 
 @protocol _UIResponderForwardableEventComponent
 - (_Bool)¡ð! FùQcÐ1Â0@ù
 × ;
-- (NSMutableArray *)t_visibleItems: /* Error: Ran out of types for this method. */;
+- (NSMutableArray *)set_visibleItems: /* Error: Ran out of types for this method. */;
 - (UIResponder<_UIGestureRecognizerContainer> *)n;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setResponder:) UIResponder<_UIGestureRecognizerContainer> *_responder;
-@property(readonly, nonatomic) NSArray *gestureRecognizers;
-@property(readonly, nonatomic) UIWindow *window;
 @end
 

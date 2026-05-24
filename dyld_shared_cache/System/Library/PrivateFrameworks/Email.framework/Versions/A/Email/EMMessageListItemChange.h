@@ -4,59 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECMessageFlags, NSArray, NSDate, NSNumber, NSString;
-@protocol EMCollectionItemID, EMMessageListItemChangeBrandIndicatorLocation, EMMessageListItemChangeBusinessLogoID, EMMessageListItemChangeCategory, EMMessageListItemChangeFlagColors, EMMessageListItemChangeFollowUp, EMMessageListItemChangeGeneratedSummary, EMMessageListItemChangeReadLater, EMMessageListItemChangeSendLaterDate, EMMessageListItemChangeSubject, EMMessageListItemChangeSummary;
+@class NSArray, NSDate;
 
 @interface EMMessageListItemChange
 {
     NSArray *_mailboxObjectIDs;
-    NSArray *_mailboxes;
-    _Bool _isToMe;
-    _Bool _isCCMe;
-    NSDate *_date;
-    NSDate *_displayDate;
-    id <EMMessageListItemChangeSubject> _subject;
-    id <EMMessageListItemChangeSummary> _summary;
-    id <EMMessageListItemChangeGeneratedSummary> _generatedSummary;
-    NSArray *_senderList;
-    NSArray *_toList;
-    NSArray *_ccList;
-    ECMessageFlags *_flags;
-    NSNumber *_hasUnflagged;
-    id <EMMessageListItemChangeFlagColors> _flagColors;
-    NSNumber *_isVIP;
-    NSNumber *_isBlocked;
-    NSNumber *_searchResultType;
-    NSNumber *_searchRelevanceScore;
-    NSNumber *_unsubscribeType;
-    NSNumber *_hasAttachments;
-    NSNumber *_isAuthenticated;
-    NSNumber *_allowAuthenticationWarning;
-    NSNumber *_isUrgent;
-    NSNumber *_conversationNotificationLevel;
-    id <EMMessageListItemChangeBrandIndicatorLocation> _brandIndicatorLocation;
-    id <EMMessageListItemChangeReadLater> _readLater;
-    id <EMMessageListItemChangeSendLaterDate> _sendLaterDate;
-    id <EMMessageListItemChangeFollowUp> _followUp;
-    NSNumber *_businessID;
-    id <EMMessageListItemChangeBusinessLogoID> _businessLogoID;
-    id <EMMessageListItemChangeCategory> _category;
-    NSArray *_groupedSenderMessageListItems;
-    NSNumber *_count;
-    NSNumber *_conversationID;
-    id <EMCollectionItemID> _displayMessageItemID;
-    NSNumber *_messageSize;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)B;
 + (id);
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)ce_ids_identifier;
 - (void);
 - (void);
 - (void);
@@ -75,31 +38,32 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)@;
+- (id)L@;
 - (id);
 - (id);
 - (id);
 - (_Bool);
+- (_Bool);
+- (id);
+- (id)
+A;
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool)9;
+- (id);
+- (id)mA;
 - (void);
 - (id);
-- (void);
+- (void)a;
 - (void);
 - (void);
 - (id);
@@ -123,8 +87,8 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)setPersistAPSAfterShutdown:(id)arg1;
+- (void)da;
 - (id);
 - (id);
 - (void);
@@ -133,7 +97,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)MSASModel:(id)arg1 didMarkAssetCollection:asHavingUnreadComments:inAlbum: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -144,55 +108,7 @@
 - (id)°;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *allowAuthenticationWarning; // @synthesize allowAuthenticationWarning=_allowAuthenticationWarning;
-@property(retain, nonatomic) id <EMMessageListItemChangeBrandIndicatorLocation> brandIndicatorLocation; // @synthesize brandIndicatorLocation=_brandIndicatorLocation;
-@property(retain, nonatomic) NSNumber *businessID; // @synthesize businessID=_businessID;
-@property(retain, nonatomic) id <EMMessageListItemChangeBusinessLogoID> businessLogoID; // @synthesize businessLogoID=_businessLogoID;
-@property(retain, nonatomic) id <EMMessageListItemChangeCategory> category; // @synthesize category=_category;
-@property(copy, nonatomic) NSArray *ccList; // @synthesize ccList=_ccList;
-@property(retain, nonatomic) NSNumber *conversationID; // @synthesize conversationID=_conversationID;
-@property(retain, nonatomic) NSNumber *conversationNotificationLevel; // @synthesize conversationNotificationLevel=_conversationNotificationLevel;
-@property(retain, nonatomic) NSNumber *count; // @synthesize count=_count;
 @property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDate *displayDate; // @synthesize displayDate=_displayDate;
-@property(retain, nonatomic) id <EMCollectionItemID> displayMessageItemID; // @synthesize displayMessageItemID=_displayMessageItemID;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(copy, nonatomic) id <EMMessageListItemChangeFlagColors> flagColors; // @synthesize flagColors=_flagColors;
-@property(retain, nonatomic) ECMessageFlags *flags; // @synthesize flags=_flags;
-@property(retain, nonatomic) id <EMMessageListItemChangeFollowUp> followUp; // @synthesize followUp=_followUp;
-@property(copy, nonatomic) id <EMMessageListItemChangeGeneratedSummary> generatedSummary; // @synthesize generatedSummary=_generatedSummary;
-@property(copy, nonatomic) NSArray *groupedSenderMessageListItems; // @synthesize groupedSenderMessageListItems=_groupedSenderMessageListItems;
-@property(retain, nonatomic) NSNumber *hasAttachments; // @synthesize hasAttachments=_hasAttachments;
-@property(retain, nonatomic) NSNumber *hasUnflagged; // @synthesize hasUnflagged=_hasUnflagged;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSNumber *isAuthenticated; // @synthesize isAuthenticated=_isAuthenticated;
-@property(retain, nonatomic) NSNumber *isBlocked; // @synthesize isBlocked=_isBlocked;
-@property _Bool isCCMe; // @synthesize isCCMe=_isCCMe;
-@property _Bool isToMe; // @synthesize isToMe=_isToMe;
-@property(retain, nonatomic) NSNumber *isUrgent; // @synthesize isUrgent=_isUrgent;
-@property(retain, nonatomic) NSNumber *isVIP; // @synthesize isVIP=_isVIP;
-@property(copy, nonatomic) NSArray *mailboxObjectIDs;
-@property(copy, nonatomic) NSArray *mailboxes;
-@property(retain, nonatomic) NSNumber *messageSize; // @synthesize messageSize=_messageSize;
-@property(retain, nonatomic) id <EMMessageListItemChangeReadLater> readLater; // @synthesize readLater=_readLater;
-@property(retain, nonatomic) NSNumber *searchRelevanceScore; // @synthesize searchRelevanceScore=_searchRelevanceScore;
-@property(retain, nonatomic) NSNumber *searchResultType; // @synthesize searchResultType=_searchResultType;
-@property(retain, nonatomic) id <EMMessageListItemChangeSendLaterDate> sendLaterDate; // @synthesize sendLaterDate=_sendLaterDate;
-@property(copy, nonatomic) NSArray *senderList; // @synthesize senderList=_senderList;
-@property(retain, nonatomic) id <EMMessageListItemChangeSubject> subject; // @synthesize subject=_subject;
-@property(copy, nonatomic) id <EMMessageListItemChangeSummary> summary; // @synthesize summary=_summary;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *toList; // @synthesize toList=_toList;
-@property(retain, nonatomic) NSNumber *unsubscribeType; // @synthesize unsubscribeType=_unsubscribeType;
 
 @end
 

@@ -7,31 +7,6 @@
 @interface AWDWiFiLTECoexBin
 {
     unsigned long long _ctsnotrxafterrts;
-    unsigned long long _rxframe;
-    unsigned long long _rxrtry;
-    unsigned long long _txassocreq;
-    unsigned long long _txassocrsp;
-    unsigned long long _txdeauth;
-    unsigned long long _txframe;
-    unsigned long long _txnocts;
-    unsigned long long _txreassocreq;
-    unsigned long long _txreassocrsp;
-    unsigned long long _txretrans;
-    unsigned long long _txrts;
-    struct {
-        unsigned int ctsnotrxafterrts:1;
-        unsigned int rxframe:1;
-        unsigned int rxrtry:1;
-        unsigned int txassocreq:1;
-        unsigned int txassocrsp:1;
-        unsigned int txdeauth:1;
-        unsigned int txframe:1;
-        unsigned int txnocts:1;
-        unsigned int txreassocreq:1;
-        unsigned int txreassocrsp:1;
-        unsigned int txretrans:1;
-        unsigned int txrts:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -43,6 +18,7 @@
 - (unsigned long long);
 - (void);
 - (void);
+- (void)	;
 - (void);
 - (void);
 - (void);
@@ -58,8 +34,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)<	;
 - (void);
 - (void);
 - (void);
@@ -73,50 +48,27 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (unsigned long long);
+- (unsigned long long)H;
 - (_Bool);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long)!;
 - (_Bool);
 - (id);
-- (void);
+- (void));
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long ctsnotrxafterrts; // @synthesize ctsnotrxafterrts=_ctsnotrxafterrts;
-@property(nonatomic) _Bool hasCtsnotrxafterrts;
 @property(nonatomic) _Bool hasRxframe;
-@property(nonatomic) _Bool hasRxrtry;
-@property(nonatomic) _Bool hasTxassocreq;
-@property(nonatomic) _Bool hasTxassocrsp;
-@property(nonatomic) _Bool hasTxdeauth;
-@property(nonatomic) _Bool hasTxframe;
-@property(nonatomic) _Bool hasTxnocts;
-@property(nonatomic) _Bool hasTxreassocreq;
-@property(nonatomic) _Bool hasTxreassocrsp;
-@property(nonatomic) _Bool hasTxretrans;
-@property(nonatomic) _Bool hasTxrts;
-@property(nonatomic) unsigned long long rxframe; // @synthesize rxframe=_rxframe;
-@property(nonatomic) unsigned long long rxrtry; // @synthesize rxrtry=_rxrtry;
-@property(nonatomic) unsigned long long txassocreq; // @synthesize txassocreq=_txassocreq;
-@property(nonatomic) unsigned long long txassocrsp; // @synthesize txassocrsp=_txassocrsp;
-@property(nonatomic) unsigned long long txdeauth; // @synthesize txdeauth=_txdeauth;
-@property(nonatomic) unsigned long long txframe; // @synthesize txframe=_txframe;
-@property(nonatomic) unsigned long long txnocts; // @synthesize txnocts=_txnocts;
-@property(nonatomic) unsigned long long txreassocreq; // @synthesize txreassocreq=_txreassocreq;
-@property(nonatomic) unsigned long long txreassocrsp; // @synthesize txreassocrsp=_txreassocrsp;
-@property(nonatomic) unsigned long long txretrans; // @synthesize txretrans=_txretrans;
-@property(nonatomic) unsigned long long txrts; // @synthesize txrts=_txrts;
 
 @end
 

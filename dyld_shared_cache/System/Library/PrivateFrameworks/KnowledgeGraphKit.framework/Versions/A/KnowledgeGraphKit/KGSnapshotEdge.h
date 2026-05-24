@@ -4,42 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet, NSString;
 @protocol KGNode;
 
 @interface KGSnapshotEdge
 {
     unsigned long long _identifier;
-    NSSet *_labels;
-    NSDictionary *_properties;
-    id <KGNode> _sourceNode;
-    id <KGNode> _targetNode;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)ic}s; %{public}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSSet *labels; // @synthesize labels=_labels;
-@property(readonly, copy, nonatomic) NSDictionary *properties; // @synthesize properties=_properties;
-@property(readonly, nonatomic) id <KGNode> sourceNode; // @synthesize sourceNode=_sourceNode;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) id <KGNode> targetNode; // @synthesize targetNode=_targetNode;
 
 @end

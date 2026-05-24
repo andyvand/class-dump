@@ -6,25 +6,24 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SAUISetSuggestedUtterances : SABaseClientBoundCommand
 {
 }
 
-+ (id);
++ (id)�;
 + (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (void)iUserTestRequestWithDictionary:(id)arg1 context: /* Error: Ran out of types for this method. */;
+- (id)i&;
+- (_Bool)2;
+- (void)startMultiUserTestRequestWithDictionary:(id)arg1 context: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *language;
-@property(copy, nonatomic) NSArray *utterances;
 
 @end
 

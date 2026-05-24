@@ -6,21 +6,17 @@
 
 #import <AudioSession/AVAudioHardwareControl.h>
 
-@class NSArray;
-
 @interface AVAudioHardwareSelectorControl : AVAudioHardwareControl
 {
 }
 
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)"NSURL",C,V_packetProviderURL;
+- (_Bool)NEIKEv2InformationalContext;
+- (_Bool)NEURLFilterConfiguration;
+- (id)_TtC16NetworkExtension45NEHotspotEvaluationProviderHostExportedObject;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *activeValues;
-@property(readonly, nonatomic) NSArray *availableValues;
 @property(readonly, nonatomic, getter=isMultiValue) _Bool multiValue;
 
 @end

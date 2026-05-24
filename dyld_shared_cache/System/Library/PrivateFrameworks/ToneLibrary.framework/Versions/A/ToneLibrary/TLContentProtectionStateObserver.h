@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface TLContentProtectionStateObserver
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSString *_accessQueueLabel;
-    NSMutableDictionary *_blocksScheduledForProtectedContentUnlockedEvent;
-    long long _contentProtectionStatus;
-    long long _unlockedSinceBootStatus;
 }
 
 + (id);
@@ -21,12 +17,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)testingIdentityStoreWithSingleWriterService:(CDUnknownBlockType)arg1;
 - (id);
 - (long long);
-- (void);
-- (void);
-- (id);
+- (void)isLibraryServerDisabled;
+- (void)serverModificationDate;
+- (id)fetch devices by user:(CDUnknownBlockType)arg1 %{public}s;
 - (void);
 - (void);
 

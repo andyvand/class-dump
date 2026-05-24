@@ -11,7 +11,6 @@
 @interface IMAPAttachmentsDownload : IMAPCompoundDownload
 {
     unsigned int _bytesFetchedForCompletedSubdownlaods;
-    id <IMAPMessage> _message;
 }
 
 - (void);
@@ -20,7 +19,7 @@
 - (unsigned int);
 - (void);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain) id <IMAPMessage> message; // @synthesize message=_message;

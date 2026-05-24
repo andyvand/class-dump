@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFont;
-
 __attribute__((visibility("hidden")))
 @interface _NSControlStorage
 {
@@ -16,13 +14,6 @@ __attribute__((visibility("hidden")))
         unsigned int highlighted:1;
         unsigned int continuous:1;
     } _flags;
-    unsigned long long __configuredSendActionMask;
-    NSFont *__font;
-    id __representedObject;
-    unsigned long long __controlSize;
-    unsigned long long __lineBreakMode;
-    long long __baseWritingDirection;
-    long long __textAlignment;
 }
 
 - (void);

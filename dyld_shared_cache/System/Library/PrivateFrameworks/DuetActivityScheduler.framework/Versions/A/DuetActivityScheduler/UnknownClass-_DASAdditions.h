@@ -6,7 +6,7 @@
 
 @interface UnknownClass (_DASAdditions)
 + (id);
-- (double);
+- (double);
 - (_Bool);
 - (_Bool);
 - (_Bool);

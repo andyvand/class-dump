@@ -5,6 +5,8 @@
 //
 
 @protocol PowerUISmartChargeManaging
-- (void)below_90_30days:(void (^)(NSDictionary *))arg1;
+- (void);
+- (void)ublic}@:(void (^)(NSDictionary *, NSError *))arg1 [%{public}@] Ignoring extended validation (EV) for trust;
+- (void)setN_drain_below_90_30days:(void (^)(NSDictionary *))arg1;
 @end
 

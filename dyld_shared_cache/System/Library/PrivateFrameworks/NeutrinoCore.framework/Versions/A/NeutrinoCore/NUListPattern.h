@@ -22,7 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void)"max"b1"mean"b1"geomean"b1"median"b1"variance"b1"stddev"b1"stderr"b1"ci95"b1"cv"b1"mad"b1};
 

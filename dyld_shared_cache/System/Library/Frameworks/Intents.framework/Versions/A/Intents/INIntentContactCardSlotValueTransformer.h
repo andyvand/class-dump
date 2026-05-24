@@ -13,7 +13,7 @@
 + (Class);
 + (long long)ay",C,N,V_resolutionResults;
 - (id);
-- (id)ationResolutionResult;
+- (id)INJoinCallGroupConversationResolutionResult;
 
 @end
 

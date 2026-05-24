@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PKPassViewController;
-
 @interface PKPassScrollView
 {
     _Bool _scrollEnabled;
-    _Bool _disregardFurtherScrolling;
-    _Bool _inMomentumScrolling;
-    PKPassViewController *_selectedViewController;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)b c`;
 - (_Bool);
 - (void);
 - (id);
@@ -25,10 +20,7 @@
 - (void);
 
 // Remaining properties
-@property _Bool disregardFurtherScrolling; // @synthesize disregardFurtherScrolling=_disregardFurtherScrolling;
-@property(readonly) _Bool inMomentumScrolling; // @synthesize inMomentumScrolling=_inMomentumScrolling;
 @property _Bool scrollEnabled; // @synthesize scrollEnabled=_scrollEnabled;
-@property(retain) PKPassViewController *selectedViewController; // @synthesize selectedViewController=_selectedViewController;
 
 @end
 

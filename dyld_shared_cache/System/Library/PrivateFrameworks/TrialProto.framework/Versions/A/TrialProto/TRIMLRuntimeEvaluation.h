@@ -6,7 +6,7 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSString, TRIMLRuntimeSchedulingPolicy;
+@class NSString;
 
 @interface TRIMLRuntimeEvaluation : TRIPBMessage
 {
@@ -15,16 +15,7 @@
 + (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *evaluationId; // @dynamic evaluationId;
-@property(nonatomic) _Bool hasEvaluationId; // @dynamic hasEvaluationId;
-@property(nonatomic) _Bool hasPluginId; // @dynamic hasPluginId;
-@property(nonatomic) _Bool hasPluginProjectId; // @dynamic hasPluginProjectId;
-@property(nonatomic) _Bool hasPluginProjectName; // @dynamic hasPluginProjectName;
-@property(nonatomic) _Bool hasSchedulingPolicy; // @dynamic hasSchedulingPolicy;
 @property(copy, nonatomic) NSString *pluginId; // @dynamic pluginId;
-@property(nonatomic) int pluginProjectId; // @dynamic pluginProjectId;
-@property(copy, nonatomic) NSString *pluginProjectName; // @dynamic pluginProjectName;
-@property(retain, nonatomic) TRIMLRuntimeSchedulingPolicy *schedulingPolicy; // @dynamic schedulingPolicy;
 
 @end
 

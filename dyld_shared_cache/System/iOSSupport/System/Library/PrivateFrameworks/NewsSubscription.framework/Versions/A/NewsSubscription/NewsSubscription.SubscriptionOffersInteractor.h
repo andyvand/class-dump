@@ -7,17 +7,6 @@
 @interface NewsSubscription.SubscriptionOffersInteractor
 {
     id delegate;
-    id dataManager;
-    id tagController;
-    id purchaseController;
-    id receiptRefresher;
-    id stateMachine;
-    id networkReachability;
-    id tag;
-    id routeModel;
-    id webAccessAuthenticatorFactory;
-    id webAccessAuthenticator;
-    id webAccessConversionEventReporter;
 }
 
 @end

@@ -4,30 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSString;
 
 @interface PKExtensionProvider
 {
     _Bool _isBeginningMatching;
-    NSString *_extensionPoint;
-    NSDictionary *_passKitExtensions;
-    id _matchingContext;
-    NSMutableArray *_beginMatchingCompletions;
-    NSObject<OS_dispatch_source> *_extensionMatchTimer;
-    NSObject<OS_dispatch_queue> *_extensionQueue;
 }
 
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *beginMatchingCompletions; // @synthesize beginMatchingCompletions=_beginMatchingCompletions;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *extensionMatchTimer; // @synthesize extensionMatchTimer=_extensionMatchTimer;
 @property(copy, nonatomic) NSString *extensionPoint; // @synthesize extensionPoint=_extensionPoint;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *extensionQueue; // @synthesize extensionQueue=_extensionQueue;
-@property(nonatomic) _Bool isBeginningMatching; // @synthesize isBeginningMatching=_isBeginningMatching;
-@property(retain, nonatomic) id matchingContext; // @synthesize matchingContext=_matchingContext;
-@property(retain, nonatomic) NSDictionary *passKitExtensions; // @synthesize passKitExtensions=_passKitExtensions;
 
 @end
 

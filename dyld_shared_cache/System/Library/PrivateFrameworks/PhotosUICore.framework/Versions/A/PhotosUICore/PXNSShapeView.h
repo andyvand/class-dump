@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBezierPath, NSColor;
+@class NSBezierPath;
 
 @interface PXNSShapeView
 {
     NSBezierPath *_path;
-    NSColor *_fillColor;
 }
 
 + (Class);
-- (id);
+- (id)&;
 - (id);
 - (id);
 - (void);
-- (id)oryScrubberContentLayout;
+- (id)PXStoryScrubberContentLayout;
 - (id)for inactive filter;
 - (void)asset collection was passed in to setNotificationsEnabled:(id)arg1;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSColor *fillColor; // @synthesize fillColor=_fillColor;
 @property(copy, nonatomic) NSBezierPath *path; // @synthesize path=_path;
 
 @end

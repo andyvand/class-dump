@@ -7,7 +7,6 @@
 @interface IOGPUMetal4CommandBuffer
 {
     struct IOGPUMetalCommandBufferStorage *_storage;
-    unsigned long long _protectionOptions;
 }
 
 - (void);
@@ -22,9 +21,9 @@
 - (void);
 - (void);
 - (void);
+- (void)sDataAttachedEvE3$_0;
 - (void);
-- (void);
-- (void);
+- (void)4;
 - (void);
 - (void);
 - (struct IOGPUMetalCommandBufferStorage *);
@@ -38,7 +37,7 @@
 - (void);
 - (void);
 - (void *);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -47,10 +46,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)CoreDAVContainerSyncTaskGroup.m;
 - (id);
 - (unsigned long long)egmentResourceDescriptorGroup}{IOGPUResourceList=[114I]^I^Q^(?)IIIIIIII^{IOGPUSegmentResourceDescriptorGroup}QQIIIIIII^?^v}@@QQ^@^{IOGPUMetalCommandBufferResourceInfo}Q^@IQ^{IOGPUSegmentListShmemHeader}^{IOGPUSegmentKernelCommmandListHeader}IIiiI^{IOGPUSegmentResourceListHeader}^{IOGPUSegmentResourceDescriptorGroup}I@**^{sIOGPUKernelCommandSetResourceGroupsArgs}[2@]B};
-- (void);
+- (void)Texture;
 - (void)or;
 
 @end

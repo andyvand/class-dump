@@ -4,38 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface NTPBTrendingConfig
 {
     NSString *_fallbackLanguageTag;
-    NSMutableArray *_languageConfigs;
 }
 
-+ (Class);
-- (void);
-- (void);
-- (unsigned long long);
++ (Class)_simulateSlowTextLayout;
+- (void)initWithCornerRadius:(id)arg1 continuousCorners:maskColor: /* Error: Ran out of types for this method. */;
+- (void)generateTestImages:(id)arg1 fromLocation:toLocation:atEnd: /* Error: Ran out of types for this method. */;
+- (unsigned long long)fadeOutVolumeAnimator;
+- (id)fadeOutOverlayVisibilityFractionAnimator;
+- (_Bool)detailsViewGridContent;
+- (id)currentZoomLevelSignpost;
+- (void)creationRequestForShareParticipantWithEmailAddress:permission: /* Error: Ran out of types for this method. */;
+- (void)copyLogConfigurationFrom:(id)arg1;
+- (id)configureItemLayout:forChangedItemFromIndexPath:inDataSource:toIndexPath:inDataSource: /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
-- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)@0:8f16 /* Error: Ran out of types for this method. */;
+- (_Bool)USER_HOME_SIZES;
+- (_Bool)Subscription= %@;
 - (id);
 - (id);
 - (void)sUserSubscribedToParentFeed"b1"isVideoInFeed"b1"subscriptionOnlyArticle"b1"viewFromNotificationDirectOpen"b1};
 
 // Remaining properties
-@property(retain, nonatomic) NSString *fallbackLanguageTag; // @synthesize fallbackLanguageTag=_fallbackLanguageTag;
 @property(readonly, nonatomic) _Bool hasFallbackLanguageTag;
-@property(retain, nonatomic) NSMutableArray *languageConfigs; // @synthesize languageConfigs=_languageConfigs;
 
 @end
 

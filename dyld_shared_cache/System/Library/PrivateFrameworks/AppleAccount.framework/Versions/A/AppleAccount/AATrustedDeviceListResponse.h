@@ -6,23 +6,21 @@
 
 #import <AppleAccount/AAResponse.h>
 
-@class NSArray, NSNumber;
+@class NSArray;
 
 @interface AATrustedDeviceListResponse : AAResponse
 {
     NSArray *_devices;
-    NSNumber *_defaultNumberOfDevicesToShow;
 }
 
-+ (id);
++ (id)turned %d;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)ible: /* Error: Ran out of types for this method. */;
+- (void)setInvisible: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *defaultNumberOfDevicesToShow; // @synthesize defaultNumberOfDevicesToShow=_defaultNumberOfDevicesToShow;
 @property(readonly, nonatomic) NSArray *devices; // @synthesize devices=_devices;
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXExperimentationStoreItems;
+@class SXExperimentationStoreItems;
 
 @interface SXExperimentationStore
 {
@@ -18,19 +18,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)0;
 - (void);
 - (void)wController"16@"<SVVideoProviding>"24;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) SXExperimentationStoreItems *store; // @synthesize store=_store;
-@property(readonly) Class superclass;
 
 @end
 

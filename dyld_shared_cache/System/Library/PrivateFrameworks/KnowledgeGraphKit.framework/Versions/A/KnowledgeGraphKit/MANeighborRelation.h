@@ -6,12 +6,9 @@
 
 #import <KnowledgeGraphKit/MARelation.h>
 
-@class MAEdgeFilter;
-
 @interface MANeighborRelation : MARelation
 {
     unsigned long long _edgeType;
-    MAEdgeFilter *_edgeFilter;
 }
 
 + (id);
@@ -25,12 +22,11 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MAEdgeFilter *edgeFilter; // @synthesize edgeFilter=_edgeFilter;
 @property(readonly, nonatomic) unsigned long long edgeType; // @synthesize edgeType=_edgeType;
 
 @end

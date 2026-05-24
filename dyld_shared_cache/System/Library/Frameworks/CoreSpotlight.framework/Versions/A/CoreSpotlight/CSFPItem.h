@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSearchableItem, FPItem, NSString;
+@class FPItem, NSString;
 
 @interface CSFPItem
 {
@@ -16,13 +16,11 @@
 - (id);
 - (id);
 - (void);
-- (id)unt:reason: /* Error: Ran out of types for this method. */;
-- (id)on;
+- (id)_addToDictionary:bundleID:itemCount:reason: /* Error: Ran out of types for this method. */;
+- (id)kMDItemPhotosLocationPrivateEncryptedComputeAnalysisVersion;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *itemIdentifier;
 @property(readonly, nonatomic) NSString *providerIdentifier;
-@property(readonly, nonatomic) CSSearchableItem *searchableItem;
 
 @end
 

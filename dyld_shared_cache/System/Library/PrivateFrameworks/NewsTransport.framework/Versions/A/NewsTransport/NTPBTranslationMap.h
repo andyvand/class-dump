@@ -9,35 +9,33 @@
 @interface NTPBTranslationMap
 {
     NSMutableArray *_favoritesLanguageBuckets;
-    NSMutableArray *_topicLanguageBuckets;
 }
 
-+ (Class);
-+ (Class);
-- (unsigned long long);
++ (Class)assetCollectionActionPerformer:playMovieForAssetCollection: /* Error: Ran out of types for this method. */;
++ (Class)_promptSuggestionRefreshOnReload;
+- (unsigned long long)initWithTime:fadeInKeyTimeOffsets:fadeInKeyGainValues: /* Error: Ran out of types for this method. */;
+- (id)initWithTilingController:(unsigned long long)arg1 mediaProvider:dataSourceManager:selectionManager:delegate: /* Error: Ran out of types for this method. */;
+- (id)initWithTilingController:mediaProvider:dataSourceManager:selectionManager:delegate: /* Error: Ran out of types for this method. */;
+- (void)initWithPhotoLibrary:(id)arg1 presentationStyle: /* Error: Ran out of types for this method. */;
+- (void)generateImageWithStoryConfiguration:(id)arg1 size:displayScale:convertToYUV:storyLoadTimeOut:nonDegradedTimeout: /* Error: Ran out of types for this method. */;
+- (unsigned long long)currentVideoHighlightCompositionTrack;
+- (id)currentValueIfLoaded;
+- (id)currentValue;
+- (void)curatedLibraryAssetsDataSourceManager:didTransitionFromZoomLevel:toZoomLevel: /* Error: Ran out of types for this method. */;
+- (void)creationRequestForCollectionListWithTitle: /* Error: Ran out of types for this method. */;
+- (void)countForCurationType:(id)arg1;
+- (void)convertTileGeometry:(id)arg1 toCoordinateSpaceIdentifier: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)wrappedVideoPlayerForPlayer: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)is not equal to bundleSubscription:(id)arg1 %{public}@;
 - (id);
 - (id);
 - (void)tionArticle"b1"isFreeArticle"b1"isGroupedArticle"b1"isNativeAd"b1"isNewUserToArticle"b1"isPaidSubscriberToFeed"b1"isPaidSubscriberToSourceChannel"b1"isSharedSubscriptionOnlyArticle"b1"isSubscribedToGroupFeed"b1"isSubscribedToSourceChannel"b1"isTopStoryArticle"b1"isUserSubscribedToParentFeed"b1"isVideoInFeed"b1"subscriptionOnlyArticle"b1"viewFromNotificationDirectOpen"b1};
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *favoritesLanguageBuckets; // @synthesize favoritesLanguageBuckets=_favoritesLanguageBuckets;
 @property(retain, nonatomic) NSMutableArray *topicLanguageBuckets; // @synthesize topicLanguageBuckets=_topicLanguageBuckets;
 
 @end

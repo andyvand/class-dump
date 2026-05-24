@@ -10,12 +10,11 @@ __attribute__((visibility("hidden")))
 @interface SLAbsintheSigningSession
 {
     NSString *_certURL;
-    NSString *_sessionURL;
 }
 
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);

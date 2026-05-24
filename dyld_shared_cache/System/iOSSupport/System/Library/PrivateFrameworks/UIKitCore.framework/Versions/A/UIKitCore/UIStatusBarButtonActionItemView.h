@@ -6,33 +6,30 @@
 
 #import <UIKitCore/UIStatusBarItemView.h>
 
-@class CALayer, UIButton;
+@class UIButton;
 
 __attribute__((visibility("hidden")))
 @interface UIStatusBarButtonActionItemView : UIStatusBarItemView
 {
     UIButton *_button;
-    UIButton *_externalButton;
-    _Bool _selected;
-    CALayer *_ringLayer;
 }
 
 - (_Bool);
-- (double);
-- (_Bool);
+- (double):fallbackFilterSubCategory: /* Error: Ran out of types for this method. */;
+- (_Bool)Timer",&,N,V_codeInvalidationTimer;
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)d groupPhotoGuid %@, leaving as is.;
+- (_Bool)dy ran completion block, not doing anything;
+- (void)om the share;
 - (void);
 - (void);
 - (void);
 - (struct CGRect);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)buildWithIdentifier:withLogoutEject:withMountControls:withUnmountControls: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool)ØÐ{;
 - (void)to enter new reordering session whilst an existing session was active. Collection view:(id)arg1 %@;
@@ -45,8 +42,6 @@ __attribute__((visibility("hidden")))
 - (long long)LÃ»ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool extendsHitTestingFrame;
-@property(retain, nonatomic) CALayer *ringLayer; // @synthesize ringLayer=_ringLayer;
 @property(nonatomic) _Bool selected; // @synthesize selected=_selected;
 
 @end

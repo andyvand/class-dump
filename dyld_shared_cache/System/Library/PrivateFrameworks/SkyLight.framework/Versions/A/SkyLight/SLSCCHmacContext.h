@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     unique_ptr_77531153 _digester;
 }
 
-+ (id);
-- (void);
-- (void);
-- (id);
++ (id)UE;
+- (void)s device.;
+- (void)itialize because there is no user signed in to this device.;
+- (id)An internal error occurred while configuring migration functions in the SQLite database.;
 - (void);
 - (id);
 - (void)LÈ;

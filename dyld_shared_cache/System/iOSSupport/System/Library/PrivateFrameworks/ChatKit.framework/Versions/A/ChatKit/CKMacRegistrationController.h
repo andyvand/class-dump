@@ -4,42 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CKMacRegistrationController
 {
     CDUnknownBlockType _onboardingBlock;
-    CDUnknownBlockType _loginCompletion;
-    long long _lastRegistrationStatus;
-    struct __SCNetworkReachability *_reachability;
 }
 
 + (void);
++ (void)TTParagraphStyleCG15paragraphStylestG;
++ (id)ICCloudSyncingObjectDidUpdateShare;
++ (_Bool)sSwitchMigrationPromptIfSupportedForAccount:window:completionHandler:] /* Error: Ran out of types for this method. */;
++ (_Bool)tes.locked-notes-mode-migrator;
++ (_Bool)ICLockedNotesModeMigratorDidMigrateNote;
++ (_Bool)hentication allowed while attempting primary authentication;
 + (void);
-+ (id);
++ (void);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
 + (void);
 + (void);
-+ (_Bool);
-+ (_Bool);
++ (void);
++ (void);
 + (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
-+ (void);
++ (void);
++ (void)DefaultGestureRecognizerRepresentableCoordinator;
 + (id));
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)sentOptionalFeatures:requiredFeaturesRequested:optionalFeaturesRequested:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)ic_mutableDefaultParagraphStyle;
+- (void)ributeSet",R,N;
+- (void)ICHashtagColor;
+- (void);
 - (long long);
-- (void);
+- (void)l;
 - (void);
 - (void);
 - (void);
@@ -54,22 +49,12 @@
 - (id);
 - (void);
 - (void);
-- (struct __SCNetworkReachability *)geEntryRichTextViewShouldBeDisabled: /* Error: Ran out of types for this method. */;
+- (struct __SCNetworkReachability *)messageEntryRichTextViewShouldBeDisabled: /* Error: Ran out of types for this method. */;
 - (void)\À;
 - (_Bool)lÔ»§ÿlpsGÿUlø»§ÿldsGÿl`sGÿl\sGÿElXsGÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long lastRegistrationStatus; // @synthesize lastRegistrationStatus=_lastRegistrationStatus;
 @property(copy, nonatomic) CDUnknownBlockType loginCompletion; // @synthesize loginCompletion=_loginCompletion;
-@property(copy, nonatomic) CDUnknownBlockType onboardingBlock; // @synthesize onboardingBlock=_onboardingBlock;
-@property(nonatomic) struct __SCNetworkReachability *reachability; // @synthesize reachability=_reachability;
-@property(readonly) Class superclass;
 
 @end
 

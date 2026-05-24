@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPRecordIdentifier, NSMutableArray, NSString;
+@class NSString;
 
 @interface CKDPRecordDeleteRequest
 {
     NSString *_etag;
-    NSMutableArray *_pluginFields;
-    NSMutableArray *_publicKeys;
-    CKDPRecordIdentifier *_recordIdentifier;
-    _Bool _participantKeyLost;
-    struct {
-        unsigned int participantKeyLost:1;
-    } _has;
 }
 
 + (Class);
-+ (Class);
++ (Class)#;
 + (id);
 - (void);
 - (void);
@@ -27,24 +20,25 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)R;
 - (void);
+- (void)h;
+- (unsigned long long);
+- (id)UsoTask_checkExistence_common_Email;
+- (id);
+- (id);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)0x%04X] Found TrimAtStart attachment with duration %1.3f seconds, sbuf_pts:%1.3f, sbuf_opts:%1.3f, sbuf_dur:%1.3f, sbuf_odur:%1.3f  trimAtStartEndPTS=%1.3f(%lld/%d) 
+ /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (_Bool);
 - (unsigned int);
-- (void);
+- (void)setIsColocatedRoam:(id)arg1;
 - (_Bool);
 - (void);
 - (id);
@@ -53,18 +47,11 @@
 - (id);
 - (_Bool);
 - (void);
-- (Class)ler: /* Error: Ran out of types for this method. */;
+- (Class)globalPerUserBoundaryKeyWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (void)uddy is not complete;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *etag; // @synthesize etag=_etag;
-@property(readonly, nonatomic) _Bool hasEtag;
-@property(nonatomic) _Bool hasParticipantKeyLost;
 @property(readonly, nonatomic) _Bool hasRecordIdentifier;
-@property(nonatomic) _Bool participantKeyLost; // @synthesize participantKeyLost=_participantKeyLost;
-@property(retain, nonatomic) NSMutableArray *pluginFields; // @synthesize pluginFields=_pluginFields;
-@property(retain, nonatomic) NSMutableArray *publicKeys; // @synthesize publicKeys=_publicKeys;
-@property(retain, nonatomic) CKDPRecordIdentifier *recordIdentifier; // @synthesize recordIdentifier=_recordIdentifier;
 
 @end
 

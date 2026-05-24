@@ -7,9 +7,6 @@
 @interface NewsPersonalization.ArticleDislikeEventHistorySupplement
 {
     id readingHistory;
-    id headlineService;
-    id lazyDatabase;
-    id reprocessingContinuation;
 }
 
 - (void);

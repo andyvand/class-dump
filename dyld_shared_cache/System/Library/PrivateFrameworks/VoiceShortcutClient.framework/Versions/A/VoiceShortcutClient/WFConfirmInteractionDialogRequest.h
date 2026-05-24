@@ -6,13 +6,11 @@
 
 #import <VoiceShortcutClient/WFDialogRequest.h>
 
-@class INInteraction, WFDialogButton;
+@class INInteraction;
 
 @interface WFConfirmInteractionDialogRequest : WFDialogRequest
 {
     INInteraction *_interaction;
-    WFDialogButton *_confirmButton;
-    WFDialogButton *_cancelButton;
 }
 
 + (_Bool);
@@ -26,8 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) WFDialogButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(readonly, copy, nonatomic) WFDialogButton *confirmButton; // @synthesize confirmButton=_confirmButton;
 @property(readonly, copy, nonatomic) INInteraction *interaction; // @synthesize interaction=_interaction;
 
 @end

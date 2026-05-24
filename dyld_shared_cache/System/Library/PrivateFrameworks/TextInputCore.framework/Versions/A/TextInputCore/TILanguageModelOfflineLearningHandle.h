@@ -4,39 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, TIInputMode, TILanguageModelAdaptationContext;
+@class TIInputMode;
 
 __attribute__((visibility("hidden")))
 @interface TILanguageModelOfflineLearningHandle
 {
     _Bool _valid;
-    TIInputMode *_inputMode;
-    NSDate *_lastAdaptationDate;
-    TILanguageModelAdaptationContext *_currentAdaptationContext;
 }
 
 + (id);
 + (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)setObject:(id)arg1 forKeyedSubscript: /* Error: Ran out of types for this method. */;
+- (void)currentCalls;
+- (void)activeSubscriptionsDidChange;
+- (id)rgency announce;
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (void);
+- (id);
+- (_Bool);
+- (void)O;
 - (void)aÐ!8EùQið1Â0@ù
 × ;
-- (void)l;
+- (void)loadNewLanguageModel;
 - (id)R,N,V_key;
 
 // Remaining properties
-@property(copy, nonatomic) TILanguageModelAdaptationContext *currentAdaptationContext; // @synthesize currentAdaptationContext=_currentAdaptationContext;
 @property(readonly, nonatomic) TIInputMode *inputMode; // @synthesize inputMode=_inputMode;
-@property(copy, nonatomic) NSDate *lastAdaptationDate; // @synthesize lastAdaptationDate=_lastAdaptationDate;
-@property(nonatomic, getter=isValid) _Bool valid; // @synthesize valid=_valid;
 
 @end
 

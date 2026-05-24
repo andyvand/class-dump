@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class INDateComponentsRange, NSString;
-
 @interface INSetTemporalSettingIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)}16^{CGColorSpace=}32@?40;
++ (int)removeAllAdditionsForNamespaces:(long long)arg1 completionHandler: /* Error: Ran out of types for this method. */;
++ (long long)pendingGenerationRequests;
++ (_Bool)maximumPixelSize;
 + (_Bool);
 - (id);
 - (void);
@@ -28,26 +26,16 @@
 - (void);
 - (void);
 - (id);
+- (id)setDetailedProductCategory:(id)arg1;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)lable;
 - (id);
 - (id);
 - (long long)ntResponse;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSString *errorDetail;
-@property(readonly) unsigned long long hash;
-@property(copy) INDateComponentsRange *oldValue;
-@property(readonly) Class superclass;
-@property(copy) INDateComponentsRange *updatedValue;
 
 @end
 

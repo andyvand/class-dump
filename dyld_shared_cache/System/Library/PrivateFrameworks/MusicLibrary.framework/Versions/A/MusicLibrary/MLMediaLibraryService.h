@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, NSXPCConnection;
-@protocol MLMediaLibraryServiceProtocol, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface MLMediaLibraryService
 {
     NSObject<OS_dispatch_queue> *_serialQueue;
-    NSObject<OS_dispatch_queue> *_replyQueue;
-    NSXPCConnection *_serviceConnection;
-    id <MLMediaLibraryServiceProtocol> _serviceProxy;
-    NSMutableDictionary *_progressBlocksByUUID;
 }
 
 + (id);
@@ -29,19 +25,19 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
+- (id)whitespaceCharacterSet;
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void)_;
 - (void);
 - (id);
 - (void);
@@ -54,13 +50,7 @@
 - (void)DEFAULT 0, classical_experience_available INTEGER NOT NULL DEFAULT 0, favorite_state INTEGER NOT NULL DEFAULT 0, date_favorited INTEGER NOT NULL DEFAULT 0, store_id INTEGER NOT NULL DEFAULT 0, cloud_library_id TEXT NOT NULL DEFAULT '', cloud_universal_library_id TEXT NOT NULL DEFAULT '');
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

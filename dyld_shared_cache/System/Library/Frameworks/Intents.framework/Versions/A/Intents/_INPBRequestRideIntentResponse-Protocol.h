@@ -9,7 +9,6 @@
 @protocol _INPBRequestRideIntentResponse
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasRideStatus;
 @property(retain, nonatomic) _INPBRideStatus *rideStatus;
 @end
 

@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)oSearch"b1};
-- (id)tion;
+- (id)_formattedDescription;
 - (id)¦Ø¦;
 - (void)uWvÁà÷?S<.ªEt@;
 

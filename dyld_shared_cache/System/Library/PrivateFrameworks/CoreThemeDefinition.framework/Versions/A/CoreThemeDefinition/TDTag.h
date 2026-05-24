@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface TDTag
 {
@@ -13,6 +13,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *identifier; // @dynamic identifier;
-@property(retain, nonatomic) NSSet *productions; // @dynamic productions;
 @end
 

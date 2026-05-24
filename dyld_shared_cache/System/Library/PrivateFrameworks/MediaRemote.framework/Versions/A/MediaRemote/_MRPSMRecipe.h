@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRCommandInfo, NSError, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _MRPSMRecipe
 {
     int _type;
-    NSError *_error;
-    NSString *_playbackSessionType;
-    MRCommandInfo *_destinationSetPlaybackSessionCommandInfo;
 }
 
 + (id);
@@ -21,14 +16,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (int);
-- (void);
-- (void)repeatMode;
+- (int)allowed in non Messages processes;
+- (void)ePropertyListSerialization _propertyListWithTreeNode:(int)arg1 itemPropertyListCreation:] /* Error: Ran out of types for this method. */;
+- (void)_repeatMode;
 
 // Remaining properties
-@property(readonly, nonatomic) MRCommandInfo *destinationSetPlaybackSessionCommandInfo; // @synthesize destinationSetPlaybackSessionCommandInfo=_destinationSetPlaybackSessionCommandInfo;
-@property(readonly, copy, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, copy, nonatomic) NSString *playbackSessionType; // @synthesize playbackSessionType=_playbackSessionType;
 @property(nonatomic) int type; // @synthesize type=_type;
 
 @end

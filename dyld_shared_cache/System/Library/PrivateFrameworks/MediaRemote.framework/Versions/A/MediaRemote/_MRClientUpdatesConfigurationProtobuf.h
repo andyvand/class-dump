@@ -9,20 +9,6 @@
 @interface _MRClientUpdatesConfigurationProtobuf
 {
     NSMutableArray *_subscribedPlayerPaths;
-    _Bool _artworkUpdates;
-    _Bool _keyboardUpdates;
-    _Bool _nowPlayingUpdates;
-    _Bool _outputDeviceUpdates;
-    _Bool _systemEndpointUpdates;
-    _Bool _volumeUpdates;
-    struct {
-        unsigned int artworkUpdates:1;
-        unsigned int keyboardUpdates:1;
-        unsigned int nowPlayingUpdates:1;
-        unsigned int outputDeviceUpdates:1;
-        unsigned int systemEndpointUpdates:1;
-        unsigned int volumeUpdates:1;
-    } _has;
 }
 
 + (Class);
@@ -49,38 +35,26 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)T;
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)hhx;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)one=}16;
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)thFallback:] /* Error: Ran out of types for this method. */;
 - (void)ifier;
 
 // Remaining properties
-@property(nonatomic) _Bool artworkUpdates; // @synthesize artworkUpdates=_artworkUpdates;
-@property(nonatomic) _Bool hasArtworkUpdates;
-@property(nonatomic) _Bool hasKeyboardUpdates;
 @property(nonatomic) _Bool hasNowPlayingUpdates;
-@property(nonatomic) _Bool hasOutputDeviceUpdates;
-@property(nonatomic) _Bool hasSystemEndpointUpdates;
-@property(nonatomic) _Bool hasVolumeUpdates;
-@property(nonatomic) _Bool keyboardUpdates; // @synthesize keyboardUpdates=_keyboardUpdates;
-@property(nonatomic) _Bool nowPlayingUpdates; // @synthesize nowPlayingUpdates=_nowPlayingUpdates;
-@property(nonatomic) _Bool outputDeviceUpdates; // @synthesize outputDeviceUpdates=_outputDeviceUpdates;
-@property(retain, nonatomic) NSMutableArray *subscribedPlayerPaths; // @synthesize subscribedPlayerPaths=_subscribedPlayerPaths;
-@property(nonatomic) _Bool systemEndpointUpdates; // @synthesize systemEndpointUpdates=_systemEndpointUpdates;
-@property(nonatomic) _Bool volumeUpdates; // @synthesize volumeUpdates=_volumeUpdates;
 
 @end
 

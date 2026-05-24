@@ -4,31 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMPBTombstoneEvent
 {
     double _eventTimestamp;
-    unsigned int _length;
-    unsigned int _offset;
-    NSString *_policyID;
-    NSString *_processName;
-    int _reason;
-    NSString *_segmentName;
-    struct {
-        unsigned int eventTimestamp:1;
-        unsigned int length:1;
-        unsigned int offset:1;
-        unsigned int reason:1;
-    } _has;
 }
 
 - (id);
-- (void);
-- (unsigned long long);
+- (void)C;
+- (unsigned long long)ryptoKit.framework/Versions/A/CryptoKit;
+- (_Bool)SGNestedArray;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)?;
 - (id);
 - (void);
 

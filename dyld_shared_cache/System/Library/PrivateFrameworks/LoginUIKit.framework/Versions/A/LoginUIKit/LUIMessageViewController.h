@@ -6,16 +6,15 @@
 
 #import <LoginUIKit/LUIViewController.h>
 
-@class LUIGoodSamaritanMessageView, NSString;
+@class LUIGoodSamaritanMessageView;
 
 @interface LUIMessageViewController : LUIViewController
 {
     LUIGoodSamaritanMessageView *_messageView;
-    NSString *_currentMessage;
 }
 
 + (id);
-+ (id);
++ (id)P;
 - (void);
 - (void);
 - (void);

@@ -4,44 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSSet, NSString, NSURL;
+@class NSDictionary, NSMutableDictionary;
 
 @interface FBSOpenApplicationOptions
 {
     NSMutableDictionary *_payload;
 }
 
-+ (id);
++ (id)suspendLimits;
 + (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
+- (id)h;
 - (id);
 - (id);
+- (void);
+- (id);
+- (id);
+- (void)h;
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)callHistory;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *actions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSDictionary *dictionary; // @synthesize dictionary=_payload;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSURL *url;
 
 @end
 

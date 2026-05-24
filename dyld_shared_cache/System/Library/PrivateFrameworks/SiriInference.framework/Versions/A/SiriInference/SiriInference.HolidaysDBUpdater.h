@@ -9,14 +9,6 @@
 @interface SiriInference.HolidaysDBUpdater : SiriInference.HolidaysDatabase
 {
     id state;
-    id localDBVersion;
-    id lastCheck;
-    id requeueFunction;
-    id delayedRequeueFunction;
-    id catalogUpdateFunction;
-    id findUpdatesFunction;
-    id downloadFunction;
-    id installUpdateFunction;
 }
 
 @end

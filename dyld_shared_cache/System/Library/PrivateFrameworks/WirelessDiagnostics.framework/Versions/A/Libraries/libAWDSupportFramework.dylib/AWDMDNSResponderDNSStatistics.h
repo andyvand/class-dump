@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface AWDMDNSResponderDNSStatistics
 {
     unsigned long long _timestamp;
-    NSMutableArray *_stats;
-    CDStruct_b5306035 _has;
 }
 
 + (Class);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void)a;
 - (void);
 - (id);
 - (void);
@@ -26,19 +22,17 @@
 - (unsigned long long);
 - (id);
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)H;
+- (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSMutableArray *stats; // @synthesize stats=_stats;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

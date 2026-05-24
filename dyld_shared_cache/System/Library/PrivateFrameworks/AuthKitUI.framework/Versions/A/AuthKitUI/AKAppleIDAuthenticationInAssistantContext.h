@@ -6,62 +6,20 @@
 
 #import <AuthKitUI/AKAppleIDAuthenticationInAppContext.h>
 
-@class AKAuthWebTabView, AKInAssistantSecondFactorCodeEntry, AKMacOSRemoteUIProvider, AKiCDPDeviceValidationFlowViewController, AKiCDPRecoveryKeyViewController, ASWebAuthenticationSession, CDPRemoteDeviceSecretValidator, NSArray, NSLayoutConstraint, NSMutableArray, NSMutableDictionary, NSObject, NSProgressIndicator, NSSecureTextField, NSString, NSTextField, NSView, NSWindow;
-@protocol AKAppleIDAuthenticationAssistant, CDPRecoveryKeyValidator;
-
 @interface AKAppleIDAuthenticationInAssistantContext : AKAppleIDAuthenticationInAppContext
 {
     _Bool layoutOnceToken;
-    ASWebAuthenticationSession *_webAuthenticationSession;
-    _Bool _hasButtonControl;
-    _Bool _continueMeansOptOut;
-    _Bool _offerRemoteApproval;
-    _Bool _offerToUseRecoveryKey;
-    NSObject<AKAppleIDAuthenticationAssistant> *_assistant;
-    unsigned long long _state;
-    id _previousButtonTarget;
-    SEL _previousButtonAction;
-    CDUnknownBlockType _previousBlock;
-    NSMutableArray *_previousBlockNavigationStack;
-    id _nextButtonTarget;
-    SEL _nextButtonAction;
-    CDUnknownBlockType _nextBlock;
-    NSMutableArray *_nextBlockNavigationStack;
-    id _alternateButtonTarget;
-    SEL _alternateButtonAction;
-    CDUnknownBlockType _alternateBlock;
-    NSMutableArray *_alternateBlockNavigationStack;
-    CDUnknownBlockType _forgotBlock;
-    CDUnknownBlockType _createBlock;
-    NSTextField *_usernameField;
-    NSSecureTextField *_passwordField;
-    NSLayoutConstraint *_containerViewHeight;
-    NSProgressIndicator *_spinner;
-    AKAuthWebTabView *_webViewUI;
-    AKInAssistantSecondFactorCodeEntry *_secondFactorUI;
-    AKiCDPDeviceValidationFlowViewController *_flowController;
-    AKiCDPRecoveryKeyViewController *_recoveryViewController;
-    NSMutableArray *_clientDevices;
-    NSMutableDictionary *_cdpDevices;
-    CDPRemoteDeviceSecretValidator *_deviceValidator;
-    id <CDPRecoveryKeyValidator> _recoveryKeyValidator;
-    CDUnknownBlockType _recoveryKeyValidationCompletionBlock;
-    CDUnknownBlockType _passwordHandler;
-    NSWindow *_assistantWindow;
-    AKMacOSRemoteUIProvider *_remoteUIProvider;
-    NSView *_remoteUIView;
-    NSArray *_serverUIHiddenViews;
 }
 
 + (_Bool);
+- (id);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)u;
 - (void);
 - (void);
 - (void);
@@ -100,7 +58,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)	;
 - (void);
 - (void);
 - (void);
@@ -113,15 +71,15 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (CDUnknownBlockType);
-- (id);
+- (id)@;
 - (void);
 - (SEL);
 - (id);
 - (CDUnknownBlockType);
-- (id);
+- (id)4;
 - (void);
 - (void);
 - (void);
@@ -133,6 +91,7 @@
 - (void);
 - (SEL);
 - (id);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -142,9 +101,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -166,7 +124,7 @@
 - (id);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)R\;
 - (_Bool);
 - (void);
 - (id);
@@ -176,18 +134,18 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)T*!;
 - (SEL);
 - (id);
 - (CDUnknownBlockType);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -198,7 +156,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (double);
 - (id);
 - (void);
@@ -207,99 +165,45 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)H;
 - (id);
 - (void);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (CDUnknownBlockType);
+- (void)pty line;
+- (void)ection;
+- (void)equired for serializing;
+- (void)representation data;
+- (void)representation data:(id)arg1 %@;
+- (void)led to deserialize subscribed calendar external representation data:(CDUnknownBlockType)arg1 %@;
+- (void)2;
+- (void)-XX02;
+- (void)th-XX02;
+- (void)accountsWithSpecificContainers;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)Brown;
+- (void)text;
+- (void)olor already defined for "%@";
+- (void)hFormat:(id)arg1 timeZone:(CDUnknownBlockType)arg2 ];
+- (void)th timezone information);
+- (void)@ to %@;
+- (void)MMMEEEEd;
+- (_Bool)chiveForURL(__strong id, NSURL *__strong, BOOL, NSError *__autoreleasing *);
 - (id);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowCancel;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(copy, nonatomic) CDUnknownBlockType alternateBlock; // @synthesize alternateBlock=_alternateBlock;
-@property(retain, nonatomic) NSMutableArray *alternateBlockNavigationStack; // @synthesize alternateBlockNavigationStack=_alternateBlockNavigationStack;
-@property(nonatomic) SEL alternateButtonAction; // @synthesize alternateButtonAction=_alternateButtonAction;
-@property(retain, nonatomic) id alternateButtonTarget; // @synthesize alternateButtonTarget=_alternateButtonTarget;
-@property(readonly, nonatomic) _Bool approvalOnlyMode;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) __weak NSObject<AKAppleIDAuthenticationAssistant> *assistant; // @synthesize assistant=_assistant;
-@property(nonatomic) NSWindow *assistantWindow; // @synthesize assistantWindow=_assistantWindow;
-@property(retain, nonatomic) NSMutableDictionary *cdpDevices; // @synthesize cdpDevices=_cdpDevices;
-@property(retain, nonatomic) NSMutableArray *clientDevices; // @synthesize clientDevices=_clientDevices;
-@property(retain, nonatomic) NSLayoutConstraint *containerViewHeight; // @synthesize containerViewHeight=_containerViewHeight;
-@property(nonatomic) _Bool continueMeansOptOut; // @synthesize continueMeansOptOut=_continueMeansOptOut;
-@property(copy, nonatomic) CDUnknownBlockType createBlock; // @synthesize createBlock=_createBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CDPRemoteDeviceSecretValidator *deviceValidator; // @synthesize deviceValidator=_deviceValidator;
-@property(readonly, nonatomic) NSArray *devices;
-@property(retain, nonatomic) AKiCDPDeviceValidationFlowViewController *flowController; // @synthesize flowController=_flowController;
-@property(copy, nonatomic) CDUnknownBlockType forgotBlock; // @synthesize forgotBlock=_forgotBlock;
-@property(nonatomic) _Bool hasButtonControl; // @synthesize hasButtonControl=_hasButtonControl;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType nextBlock; // @synthesize nextBlock=_nextBlock;
-@property(retain, nonatomic) NSMutableArray *nextBlockNavigationStack; // @synthesize nextBlockNavigationStack=_nextBlockNavigationStack;
-@property(nonatomic) SEL nextButtonAction; // @synthesize nextButtonAction=_nextButtonAction;
-@property(retain, nonatomic) id nextButtonTarget; // @synthesize nextButtonTarget=_nextButtonTarget;
-@property(nonatomic) _Bool offerRemoteApproval; // @synthesize offerRemoteApproval=_offerRemoteApproval;
-@property(readonly, nonatomic) _Bool offerServerRecovery;
-@property(nonatomic) _Bool offerToUseRecoveryKey; // @synthesize offerToUseRecoveryKey=_offerToUseRecoveryKey;
-@property(retain, nonatomic) NSSecureTextField *passwordField; // @synthesize passwordField=_passwordField;
-@property(copy, nonatomic) CDUnknownBlockType passwordHandler; // @synthesize passwordHandler=_passwordHandler;
-@property(copy, nonatomic) CDUnknownBlockType previousBlock; // @synthesize previousBlock=_previousBlock;
-@property(retain, nonatomic) NSMutableArray *previousBlockNavigationStack; // @synthesize previousBlockNavigationStack=_previousBlockNavigationStack;
-@property(nonatomic) SEL previousButtonAction; // @synthesize previousButtonAction=_previousButtonAction;
-@property(retain, nonatomic) id previousButtonTarget; // @synthesize previousButtonTarget=_previousButtonTarget;
-@property(copy, nonatomic) CDUnknownBlockType recoveryKeyValidationCompletionBlock; // @synthesize recoveryKeyValidationCompletionBlock=_recoveryKeyValidationCompletionBlock;
-@property(retain, nonatomic) id <CDPRecoveryKeyValidator> recoveryKeyValidator; // @synthesize recoveryKeyValidator=_recoveryKeyValidator;
-@property(retain, nonatomic) AKiCDPRecoveryKeyViewController *recoveryViewController; // @synthesize recoveryViewController=_recoveryViewController;
-@property(retain, nonatomic) AKMacOSRemoteUIProvider *remoteUIProvider; // @synthesize remoteUIProvider=_remoteUIProvider;
-@property(retain, nonatomic) NSView *remoteUIView; // @synthesize remoteUIView=_remoteUIView;
-@property(retain, nonatomic) AKInAssistantSecondFactorCodeEntry *secondFactorUI; // @synthesize secondFactorUI=_secondFactorUI;
-@property(retain, nonatomic) NSArray *serverUIHiddenViews; // @synthesize serverUIHiddenViews=_serverUIHiddenViews;
-@property(retain, nonatomic) NSProgressIndicator *spinner; // @synthesize spinner=_spinner;
 @property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSTextField *usernameField; // @synthesize usernameField=_usernameField;
-@property(retain, nonatomic) AKAuthWebTabView *webViewUI; // @synthesize webViewUI=_webViewUI;
 
 @end
 

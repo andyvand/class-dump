@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKSystemIconConfigurationColor;
+@class NSString;
 
 @interface PKSystemIconConfiguration
 {
     NSString *_imageName;
-    unsigned long long _style;
-    PKSystemIconConfigurationColor *_color1;
-    PKSystemIconConfigurationColor *_color2;
-    PKSystemIconConfigurationColor *_color3;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -30,19 +26,15 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (id)InFourMerchandising;
-- (void)33739;
+- (id)payLaterPayInFourMerchandising;
+- (void)12523575549507233739;
 
 // Remaining properties
-@property(retain, nonatomic) PKSystemIconConfigurationColor *color1; // @synthesize color1=_color1;
-@property(retain, nonatomic) PKSystemIconConfigurationColor *color2; // @synthesize color2=_color2;
-@property(retain, nonatomic) PKSystemIconConfigurationColor *color3; // @synthesize color3=_color3;
 @property(copy, nonatomic) NSString *imageName; // @synthesize imageName=_imageName;
-@property(nonatomic) unsigned long long style; // @synthesize style=_style;
 
 @end
 

@@ -4,87 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOStructuredAddress
 {
     PBUnknownFields *_unknownFields;
-    CDStruct_5df41632 _geoIds;
-    NSString *_administrativeAreaCode;
-    NSString *_administrativeArea;
-    NSMutableArray *_areaOfInterests;
-    NSString *_countryCode;
-    NSString *_country;
-    NSMutableArray *_dependentLocalitys;
-    NSString *_fullThoroughfare;
-    NSString *_inlandWater;
-    NSString *_locality;
-    NSString *_ocean;
-    NSString *_postCodeExtension;
-    NSString *_postCodeFull;
-    NSString *_postCode;
-    NSString *_premises;
-    NSString *_premise;
-    NSString *_subAdministrativeArea;
-    NSString *_subLocality;
-    NSMutableArray *_subPremises;
-    NSString *_subThoroughfare;
-    NSString *_thoroughfare;
 }
 
 + (Class);
-+ (_Bool)tteryCharge:(id)arg1;
++ (_Bool)setMaxBatteryCharge:(id)arg1;
 + (Class)om can only be called once per object;
-+ (Class);
++ (Class)maxDepartureFrequency;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *administrativeArea;
-@property(retain, nonatomic) NSString *administrativeAreaCode;
-@property(retain, nonatomic) NSMutableArray *areaOfInterests;
-@property(retain, nonatomic) NSString *country;
-@property(retain, nonatomic) NSString *countryCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) NSMutableArray *dependentLocalitys;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *fullThoroughfare;
-@property(readonly, nonatomic) long long *geoIds;
-@property(readonly, nonatomic) unsigned long long geoIdsCount;
-@property(readonly, nonatomic) _Bool hasAdministrativeArea;
-@property(readonly, nonatomic) _Bool hasAdministrativeAreaCode;
-@property(readonly, nonatomic) _Bool hasCountry;
-@property(readonly, nonatomic) _Bool hasCountryCode;
-@property(readonly, nonatomic) _Bool hasFullThoroughfare;
-@property(readonly, nonatomic) _Bool hasInlandWater;
-@property(readonly, nonatomic) _Bool hasLocality;
-@property(readonly, nonatomic) _Bool hasOcean;
-@property(readonly, nonatomic) _Bool hasPostCode;
-@property(readonly, nonatomic) _Bool hasPostCodeExtension;
-@property(readonly, nonatomic) _Bool hasPostCodeFull;
-@property(readonly, nonatomic) _Bool hasPremise;
-@property(readonly, nonatomic) _Bool hasPremises;
-@property(readonly, nonatomic) _Bool hasSubAdministrativeArea;
-@property(readonly, nonatomic) _Bool hasSubLocality;
-@property(readonly, nonatomic) _Bool hasSubThoroughfare;
-@property(readonly, nonatomic) _Bool hasThoroughfare;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *inlandWater;
-@property(retain, nonatomic) NSString *locality;
-@property(retain, nonatomic) NSString *ocean;
-@property(retain, nonatomic) NSString *postCode;
-@property(retain, nonatomic) NSString *postCodeExtension;
-@property(retain, nonatomic) NSString *postCodeFull;
-@property(retain, nonatomic) NSString *premise;
-@property(retain, nonatomic) NSString *premises;
-@property(retain, nonatomic) NSString *subAdministrativeArea;
-@property(retain, nonatomic) NSString *subLocality;
-@property(retain, nonatomic) NSMutableArray *subPremises;
-@property(retain, nonatomic) NSString *subThoroughfare;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *thoroughfare;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

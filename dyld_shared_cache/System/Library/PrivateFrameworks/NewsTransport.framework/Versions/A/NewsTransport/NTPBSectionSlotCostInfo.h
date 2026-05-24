@@ -7,13 +7,6 @@
 @interface NTPBSectionSlotCostInfo
 {
     double _headlineSlotCost;
-    double _sectionFooterSlotCost;
-    double _sectionTitleSlotCost;
-    struct {
-        unsigned int headlineSlotCost:1;
-        unsigned int sectionFooterSlotCost:1;
-        unsigned int sectionTitleSlotCost:1;
-    } _has;
 }
 
 - (_Bool);
@@ -22,28 +15,23 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
-- (double);
-- (void);
-- (unsigned long long);
+- (double)if %@ needs post processing:%@ /* Error: Ran out of types for this method. */;
+- (void)';
+- (unsigned long long)__currentRequestID;
+- (_Bool)rules engine database.;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/NSArray+FCAdditions.m;
 - (_Bool);
 - (void);
 - (double);
 - (id);
 - (id);
-- (void)esRefreshRate:(double)arg1;
+- (void)setHasOptionalTopStoriesRefreshRate:(double)arg1;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHeadlineSlotCost;
-@property(nonatomic) _Bool hasSectionFooterSlotCost;
 @property(nonatomic) _Bool hasSectionTitleSlotCost;
-@property(nonatomic) double headlineSlotCost; // @synthesize headlineSlotCost=_headlineSlotCost;
-@property(nonatomic) double sectionFooterSlotCost; // @synthesize sectionFooterSlotCost=_sectionFooterSlotCost;
-@property(nonatomic) double sectionTitleSlotCost; // @synthesize sectionTitleSlotCost=_sectionTitleSlotCost;
 
 @end
 

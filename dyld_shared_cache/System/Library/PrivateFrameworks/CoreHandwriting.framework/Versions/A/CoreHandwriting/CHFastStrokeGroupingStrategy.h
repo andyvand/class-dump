@@ -6,12 +6,11 @@
 
 #import <CoreHandwriting/CHStrokeGroupingStrategy.h>
 
-@class CHStrokeClutterFilter, NSArray;
+@class NSArray;
 
 @interface CHFastStrokeGroupingStrategy : CHStrokeGroupingStrategy
 {
     NSArray *_locales;
-    CHStrokeClutterFilter *_clutterFilter;
 }
 
 - (id);
@@ -20,7 +19,7 @@
 - (id);
 - (id);
 - (id);
-- (vector_4fc0f236);
+- (vector_4fc0f236)rI;
 - (void);
 
 @end

@@ -5,5 +5,7 @@
 //
 
 @protocol LSRegistrantDatabaseContext
+- (_Bool);
+- (unsigned int);
 @end
 

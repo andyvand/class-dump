@@ -4,27 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXFeedItemDecorationSource, PXFeedViewModel, PXGStackedSublayoutComposition, PXSectionedDataSource;
+@class PXGStackedSublayoutComposition;
 
 @interface PXFeedContentLayout
 {
     CDStruct_af00bf4e _updateFlags;
-    PXFeedViewModel *_viewModel;
-    PXFeedItemDecorationSource *_decorationSource;
-    PXSectionedDataSource *_presentedDataSource;
 }
 
 - (long long);
 - (void);
 - (long long);
-- (id);
+- (id);
 - (id);
 - (struct CGSize);
 - (id);
 - (id);
 - (struct PXSimpleIndexPath);
 - (id);
-- (long long);
+- (long long)x;
 - (void);
 - (void);
 - (void);
@@ -33,7 +30,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void)l;
@@ -41,16 +38,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PXGStackedSublayoutComposition *composition; // @dynamic composition;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) PXFeedItemDecorationSource *decorationSource; // @synthesize decorationSource=_decorationSource;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PXSectionedDataSource *presentedDataSource; // @synthesize presentedDataSource=_presentedDataSource;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXFeedViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

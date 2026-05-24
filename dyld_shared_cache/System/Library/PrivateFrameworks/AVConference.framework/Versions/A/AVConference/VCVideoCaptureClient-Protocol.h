@@ -5,5 +5,9 @@
 //
 
 @protocol VCVideoCaptureClient
+
+@optional
+- (void)!;
+- (void);
 @end
 

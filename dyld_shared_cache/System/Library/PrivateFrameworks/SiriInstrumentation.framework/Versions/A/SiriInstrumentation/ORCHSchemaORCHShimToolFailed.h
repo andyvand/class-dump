@@ -6,50 +6,39 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ORCHSchemaORCHShimToolFailed : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    int _errorDomain;
-    int _errorCode;
-    CDStruct_8409a264 _has;
 }
 
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)"40;
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (void);
+- (void)@;
+- (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)icker:(id)arg1 %@ is %lld;
 - (int);
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)turesAtEndpoint;
+- (id)_endpointFeaturesAtEndpoint;
 - (id)usKitRequestContext;
-- (_Bool)ON_RENDERING_ERROR;
+- (_Bool)FLOWSTATUSREASON_RENDERING_ERROR;
 - (void)ÿÿÿÿ;
-- (_Bool)eLevel;
+- (_Bool)MHSchemaMHEndpointerAccessibleLevel;
 - (void)É½ÿ;
 - (int)ìê;
 
 // Remaining properties
-@property(nonatomic) int errorCode; // @synthesize errorCode=_errorCode;
-@property(nonatomic) int errorDomain; // @synthesize errorDomain=_errorDomain;
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasErrorCode;
-@property(nonatomic) _Bool hasErrorDomain;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

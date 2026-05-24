@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapItem, MKTransitSectionPagingFilter, NSDate, NSSet;
+@class MKMapItem;
 @protocol GEOTransitSystem;
 
 @interface MKTransitSectionController
 {
     MKMapItem *_mapItem;
-    MKTransitSectionPagingFilter *__pagingFilter;
-    NSSet *_linesToShow;
-    unsigned long long _numberOfRows;
-    unsigned long long _numberOfFilteredRows;
-    unsigned long long _numberOfFilteredLines;
-    _Bool _needsBuildRows;
-    id <GEOTransitSystem> _system;
-    NSDate *_departureCutoffDate;
-    NSDate *_expiredHighFrequencyCutoffDate;
-    NSSet *_incidentEntitiesToExclude;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)g networkEnergySnapshot=%@;
+- (void)0@"NSDictionary"8;
+- (void)owerlog_%@_%@.PLSQL;
 - (unsigned long long);
 - (id);
 - (id);
@@ -32,23 +22,18 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)#;
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)s;
 - (id);
-- (id);
+- (id)print distance;
 - (unsigned long long)× ;
 - (void)retry;
 
 // Remaining properties
-@property(readonly, nonatomic) MKTransitSectionPagingFilter *_pagingFilter; // @synthesize _pagingFilter=__pagingFilter;
-@property(retain, nonatomic) NSDate *departureCutoffDate; // @synthesize departureCutoffDate=_departureCutoffDate;
-@property(retain, nonatomic) NSDate *expiredHighFrequencyCutoffDate; // @synthesize expiredHighFrequencyCutoffDate=_expiredHighFrequencyCutoffDate;
-@property(retain, nonatomic) NSSet *incidentEntitiesToExclude; // @synthesize incidentEntitiesToExclude=_incidentEntitiesToExclude;
-@property(readonly, nonatomic) unsigned long long numberOfFilteredLines; // @synthesize numberOfFilteredLines=_numberOfFilteredLines;
 @property(readonly, nonatomic) id <GEOTransitSystem> system; // @synthesize system=_system;
 
 @end

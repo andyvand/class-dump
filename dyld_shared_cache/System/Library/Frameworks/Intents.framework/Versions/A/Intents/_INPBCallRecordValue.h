@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBCallMetrics, _INPBContactValue, _INPBDateTime, _INPBInteger;
-
 @interface _INPBCallRecordValue
 {
     struct {
@@ -15,24 +13,11 @@
         unsigned int preferredCallProvider:1;
         unsigned int unseen:1;
     } _has;
-    _Bool _isCallerIdBlocked;
-    _Bool _unseen;
-    int _callCapability;
-    int _callType;
-    int _preferredCallProvider;
-    _INPBCallMetrics *_callMetrics;
-    _INPBContactValue *_caller;
-    _INPBDateTime *_dateCreated;
-    NSString *_identifier;
-    _INPBInteger *_numberOfCalls;
-    NSArray *_participants;
-    NSString *_providerBundleId;
-    NSString *_providerId;
 }
 
 + (Class);
 + (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -58,7 +43,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (void);
@@ -66,7 +51,7 @@
 - (int);
 - (void);
 - (int);
-- (void);
+- (void)O;
 - (void);
 - (id);
 - (_Bool);
@@ -75,60 +60,28 @@
 - (int);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)v36@0:(id)arg1 8B16@20@28;
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
+- (_Bool)@"NSSet"32@"CWFRequestParameters"40@?<v@?@"NSError">48;
+- (void)i] PRIVATE MAC:(id)arg1 Private MAC setting updated for network (%{public}@);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void)ganicCompoundDensity;
+- (void)volatileOrganicCompoundDensity;
 
 // Remaining properties
 @property(nonatomic) int callCapability; // @synthesize callCapability=_callCapability;
-@property(retain, nonatomic) _INPBCallMetrics *callMetrics; // @synthesize callMetrics=_callMetrics;
-@property(nonatomic) int callType; // @synthesize callType=_callType;
-@property(retain, nonatomic) _INPBContactValue *caller; // @synthesize caller=_caller;
-@property(retain, nonatomic) _INPBDateTime *dateCreated; // @synthesize dateCreated=_dateCreated;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasCallCapability;
-@property(readonly, nonatomic) _Bool hasCallMetrics;
-@property(nonatomic) _Bool hasCallType;
-@property(readonly, nonatomic) _Bool hasCaller;
-@property(readonly, nonatomic) _Bool hasDateCreated;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(nonatomic) _Bool hasIsCallerIdBlocked;
-@property(readonly, nonatomic) _Bool hasNumberOfCalls;
-@property(nonatomic) _Bool hasPreferredCallProvider;
-@property(readonly, nonatomic) _Bool hasProviderBundleId;
-@property(readonly, nonatomic) _Bool hasProviderId;
-@property(nonatomic) _Bool hasUnseen;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isCallerIdBlocked; // @synthesize isCallerIdBlocked=_isCallerIdBlocked;
-@property(retain, nonatomic) _INPBInteger *numberOfCalls; // @synthesize numberOfCalls=_numberOfCalls;
-@property(copy, nonatomic) NSArray *participants; // @synthesize participants=_participants;
-@property(readonly, nonatomic) unsigned long long participantsCount;
-@property(nonatomic) int preferredCallProvider; // @synthesize preferredCallProvider=_preferredCallProvider;
-@property(copy, nonatomic) NSString *providerBundleId; // @synthesize providerBundleId=_providerBundleId;
-@property(copy, nonatomic) NSString *providerId; // @synthesize providerId=_providerId;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool unseen; // @synthesize unseen=_unseen;
 
 @end
 

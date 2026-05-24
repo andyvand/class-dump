@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCAction, NSObject;
+@class NSObject;
 @protocol MPActionSupport;
 
 @interface MPAction
 {
     NSObject<MPActionSupport> *_parentObject;
-    MCAction *_action;
-    NSObject *_targetObject;
 }
 
 + (_Bool);

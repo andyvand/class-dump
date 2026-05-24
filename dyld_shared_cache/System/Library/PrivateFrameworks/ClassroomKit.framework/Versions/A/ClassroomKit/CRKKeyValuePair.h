@@ -7,7 +7,6 @@
 @interface CRKKeyValuePair
 {
     id _key;
-    id _value;
 }
 
 - (id);
@@ -17,7 +16,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id key; // @synthesize key=_key;
-@property(readonly, nonatomic) id value; // @synthesize value=_value;
 
 @end
 

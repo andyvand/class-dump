@@ -8,37 +8,27 @@ __attribute__((visibility("hidden")))
 @interface _MLVNFrameworkHandle
 {
     _Bool _validForSceneprint;
-    _Bool _validForObjectprint;
-    CDUnknownFunctionPointerType _scenePrintsFromPixelBuffersImpl;
-    CDUnknownFunctionPointerType _scenePrintsFromPixelBuffersUsesCPUOnlyImpl;
-    CDUnknownFunctionPointerType _scenePrintElementCountImpl;
-    CDUnknownFunctionPointerType _scenePrintLengthImpl;
-    Class _VNImageBufferClass;
-    CDUnknownFunctionPointerType _detectionPrintsFromPixelBuffersImpl;
-    CDUnknownFunctionPointerType _detectionPrintsFromPixelBuffersUsesCPUOnlyImpl;
-    CDUnknownFunctionPointerType _detectionPrintShapesImpl;
-    CDUnknownFunctionPointerType _detectionPrintSupportedRevisionsImpl;
 }
 
 + (id);
 + (id);
-- (CDUnknownFunctionPointerType);
-- (id);
-- (CDUnknownFunctionPointerType);
-- (CDUnknownFunctionPointerType);
+- (CDUnknownFunctionPointerType)extractMTLGenericBVHLeafNodesKernel_1_1;
+- (id)extractMTLGenericBVHHeaderKernel_1_1;
+- (CDUnknownFunctionPointerType)extractMTLBVHPrimitivesKernel;
+- (CDUnknownFunctionPointerType)getSerializedGeometryPrimitiveCountKernel;
+- (unsigned long long)ount %d vs %d;
 - (unsigned long long);
-- (unsigned long long);
 - (CDUnknownFunctionPointerType);
 - (CDUnknownFunctionPointerType);
 - (id);
 - (CDUnknownFunctionPointerType);
 - (id);
-- (CDUnknownFunctionPointerType);
+- (CDUnknownFunctionPointerType);
 - (id);
+- (struct __CVBuffer *);
 - (struct __CVBuffer *);
-- (struct __CVBuffer *);
-- (struct __CVBuffer *);
-- (Class);
+- (struct __CVBuffer *)8X;
+- (Class)x;
 - (CDUnknownFunctionPointerType);
 - (id);
 - (_Bool);
@@ -46,17 +36,7 @@ __attribute__((visibility("hidden")))
 - (void)cause the implementation supports only %s function.;
 
 // Remaining properties
-@property(readonly, nonatomic) Class VNImageBufferClass; // @synthesize VNImageBufferClass=_VNImageBufferClass;
-@property(readonly, nonatomic) CDUnknownFunctionPointerType detectionPrintShapesImpl; // @synthesize detectionPrintShapesImpl=_detectionPrintShapesImpl;
-@property(readonly, nonatomic) CDUnknownFunctionPointerType detectionPrintSupportedRevisionsImpl; // @synthesize detectionPrintSupportedRevisionsImpl=_detectionPrintSupportedRevisionsImpl;
-@property(readonly, nonatomic) CDUnknownFunctionPointerType detectionPrintsFromPixelBuffersImpl; // @synthesize detectionPrintsFromPixelBuffersImpl=_detectionPrintsFromPixelBuffersImpl;
-@property(readonly, nonatomic) CDUnknownFunctionPointerType detectionPrintsFromPixelBuffersUsesCPUOnlyImpl; // @synthesize detectionPrintsFromPixelBuffersUsesCPUOnlyImpl=_detectionPrintsFromPixelBuffersUsesCPUOnlyImpl;
-@property(readonly, nonatomic) CDUnknownFunctionPointerType scenePrintElementCountImpl; // @synthesize scenePrintElementCountImpl=_scenePrintElementCountImpl;
-@property(readonly, nonatomic) CDUnknownFunctionPointerType scenePrintLengthImpl; // @synthesize scenePrintLengthImpl=_scenePrintLengthImpl;
 @property(readonly, nonatomic) CDUnknownFunctionPointerType scenePrintsFromPixelBuffersImpl; // @synthesize scenePrintsFromPixelBuffersImpl=_scenePrintsFromPixelBuffersImpl;
-@property(readonly, nonatomic) CDUnknownFunctionPointerType scenePrintsFromPixelBuffersUsesCPUOnlyImpl; // @synthesize scenePrintsFromPixelBuffersUsesCPUOnlyImpl=_scenePrintsFromPixelBuffersUsesCPUOnlyImpl;
-@property(readonly, nonatomic, getter=isValid) _Bool validForObjectprint; // @synthesize validForObjectprint=_validForObjectprint;
-@property(readonly, nonatomic, getter=isValid) _Bool validForSceneprint; // @synthesize validForSceneprint=_validForSceneprint;
 
 @end
 

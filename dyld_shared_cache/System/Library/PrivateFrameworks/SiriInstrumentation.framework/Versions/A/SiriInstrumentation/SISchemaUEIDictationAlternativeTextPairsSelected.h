@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface SISchemaUEIDictationAlternativeTextPairsSelected : SISchemaInstrumentationMessage
 {
@@ -23,18 +23,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)addDownloadWithID: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)essage.ROWID = (select j.message_id FROM chat c INNER JOIN chat_message_join j ON c.rowid = j.chat_id WHERE c.room_name IS NOT NULL); ;
 - (id);
 - (id);
-- (id)EmergencyCallType;
-- (id)t;
-- (void)orical;
+- (id)deleteEmergencyCallType;
+- (id)_hasAdjacentEdit;
+- (void)symptomsCellularHistorical;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *alternativeSelections; // @synthesize alternativeSelections=_alternativeSelections;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

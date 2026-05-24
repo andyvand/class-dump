@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+@protocol PGFeatureAugmenter;
+
 @protocol PGFeatureAugmenter
++ (id <PGFeatureAugmenter>);
+- (NSArray *)AXKInputMarkingSessionTracker";
 @end
 

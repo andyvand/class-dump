@@ -4,29 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AUAudioUnit, AUParameterTree, NSMutableArray, NSObject, NSUUID, NSXPCConnection;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_voucher;
+@class AUAudioUnit, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface AURemoteHost
 {
     AUAudioUnit *_audioUnit;
-    NSXPCConnection *_remoteHostXPCConnection;
-    struct optional<AUOOPRenderingServerUser> _renderServerUser;
-    NSObject<OS_voucher> *_initializationVoucher;
-    AUParameterTree *_cachedParameterTree;
-    struct reply_watchdog_factory _replyWatchdogFactory;
-    NSObject<OS_dispatch_queue> *_presetMonitoringQueue;
-    NSObject<OS_dispatch_source> *_presetFolderWatcher;
-    NSMutableArray *_userPresets;
-    NSUUID *_audioUnitUUID;
-    struct shared_ptr<auoop::WorkgroupMirror> _workgroupMirror;
-    struct KVOAggregator _kvoAggregator;
-    struct vector<AURemoteMessageChannel *, std::allocator<AURemoteMessageChannel *>> _remoteMessageChannels;
-    struct unique_ptr<XOSTransactor, std::default_delete<XOSTransactor>> _transactorIO;
-    _Bool _localCachingDisabled;
-    int _deferPropertyChangeNotifications;
-    NSObject<OS_dispatch_queue> *_propertyObserverQueue;
-    NSMutableArray *_pendingChangedProperties;
 }
 
 + (void);
@@ -36,8 +19,8 @@
 - (void);
 - (void);
 - (void);
-- (CDStruct_6ad76789);
-- (void);
+- (CDStruct_6ad76789)path length;
+- (void)^;
 - (void);
 - (void);
 - (void);
@@ -48,19 +31,19 @@
 - (void);
 - (void);
 - (void);
+- (void)@;
 - (void);
-- (void);
-- (void);
+- (void)/;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)EEEE4typeERKNS2_7AddressERKNS6_INS3_6PlugInEEEjEUlNS7_21Has_Property_FunctionEE_FbSJ_EEE;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -74,19 +57,20 @@
 - (int);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)L;
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
+- (void)iViet-Regular;
 - (void);
+- (void)�
+;
 - (void);
 - (id);
 - (_Bool);
@@ -97,11 +81,6 @@
 - (void)B)BÁéÀT*¸Á)¡Âx§&ÂúYÂMÁ¢þ@çÙÁÔBªÜ-Àµ=Bç^Â{ÜAvÏ|Bú@ò`Á,nBÉ4AÍAüáÁK±AÆ«>^>Tg{>Üè>uÙx>ì!>fñ>mï>õ>4ÛM>¡d>Ìm>ú>·>é\d>*>-¬>;p>ã>q>3>·É>ê>/`>Óí>Rk>å>Xó>>Â>t>ãW>ª>¥^>3Ë\>Y¸>%>/WY>Ë;x>6>-Õ>FI>>¥_>£ß>âí>{>÷0>í>;
 
 // Remaining properties
-@property(readonly) NSUUID *audioUnitUUID; // @synthesize audioUnitUUID=_audioUnitUUID;
-@property(nonatomic) int deferPropertyChangeNotifications; // @synthesize deferPropertyChangeNotifications=_deferPropertyChangeNotifications;
-@property(readonly, nonatomic) CDStruct_6ad76789 hostAuditToken;
-@property(nonatomic) _Bool localCachingDisabled; // @synthesize localCachingDisabled=_localCachingDisabled;
-@property(readonly, nonatomic) NSMutableArray *pendingChangedProperties; // @synthesize pendingChangedProperties=_pendingChangedProperties;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *propertyObserverQueue; // @synthesize propertyObserverQueue=_propertyObserverQueue;
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPTLVUnsignedNumberValue, NSString;
+@class HAPTLVUnsignedNumberValue;
 
 @interface HAPHardwareFinish
 {
@@ -16,22 +16,15 @@
 - (id);
 - (id);
 - (id);
+- (id)P;
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)writeEventWithEventBody:(id)arg1 timestamp:outBookmark: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (id);
 - (void)AP2AccessoryServerCoordinatorPrivate>";
 
 // Remaining properties
 @property(retain, nonatomic) HAPTLVUnsignedNumberValue *RGBColorValue; // @synthesize RGBColorValue=_RGBColorValue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

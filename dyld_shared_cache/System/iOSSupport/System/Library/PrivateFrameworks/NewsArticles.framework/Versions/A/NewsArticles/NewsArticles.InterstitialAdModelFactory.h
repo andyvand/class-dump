@@ -7,7 +7,6 @@
 @interface NewsArticles.InterstitialAdModelFactory
 {
     id viewManager;
-    id journal;
 }
 
 @end

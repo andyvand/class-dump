@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 __attribute__((visibility("hidden")))
 @interface __CFN_SocksHandshake
 {
     _Bool _finished;
-    unsigned short _port;
-    NSString *_host;
-    NSDictionary *_credentials;
 }
 
 - (_Bool);

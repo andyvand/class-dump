@@ -4,8 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol UIKeyInput
-- (void)nerViewOrdering;
+- (void)favoriteEntityWithPersistentID:(NSString *)arg1 storeID:entityType:time:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)ensureCorrectContainerViewOrdering;
 - (_Bool)apple.SafariViewService;
 
 // Remaining properties

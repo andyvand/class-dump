@@ -12,16 +12,16 @@
     NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (id);
++ (id)EnvKaku4;
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)notification center, mediaserver has not been reset;
 - (id);
 - (void);
-- (id);
+- (id)initWithNotificationCenter:(id)arg1 sessionCollectionProvider:(id)arg2 sessionNotificationHandler:(id)arg3;
 
 @end
 

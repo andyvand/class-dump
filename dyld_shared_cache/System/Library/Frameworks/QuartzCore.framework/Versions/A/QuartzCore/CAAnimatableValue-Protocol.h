@@ -5,5 +5,8 @@
 //
 
 @protocol CAAnimatableValue
+
+@optional
+- (id);
 @end
 

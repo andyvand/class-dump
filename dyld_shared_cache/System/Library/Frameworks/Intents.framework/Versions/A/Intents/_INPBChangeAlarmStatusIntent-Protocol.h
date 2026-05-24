@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBAlarmSearch, _INPBIntentMetadata;
+@class NSArray, NSString, _INPBAlarmSearch, _INPBIntentMetadata;
 
 @protocol _INPBChangeAlarmStatusIntent
-- (_Bool)trainNumber;
-- (NSArray *)nsCollectionForListRideOptions:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
-- (int)PayBill: /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (unsigned long long);
+- (_INPBIntentMetadata *)oots/4~COUiugCUeOdUPJKBmC2cje3Ex1DzGwiw5z-foFo/Library/Caches/com.apple.xbs/TemporaryDirectory.ecuqJw/Sources/backupd/TimeMachine-Framework/IPC/TMXPCListener.m;
+- (_Bool)_trainNumber;
+- (NSArray *)providePickupLocationOptionsCollectionForListRideOptions:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (int)defaultDueDateForPayBill: /* Error: Ran out of types for this method. */;
 - (void)work/Contacts;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBAlarmSearch *alarmSearch;
-@property(copy, nonatomic) NSArray *alarms;
-@property(readonly, nonatomic) unsigned long long alarmsCount;
-@property(readonly, nonatomic) _Bool hasAlarmSearch;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasOperation;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(nonatomic) int operation;
 @end
 

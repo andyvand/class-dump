@@ -9,7 +9,6 @@
 @interface GEOLabelGeometry
 {
     _Bool _hasSelectionPolygon;
-    NSArray *_labelShape;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 - (void)"Z4;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasSelectionPolygon; // @synthesize hasSelectionPolygon=_hasSelectionPolygon;
 @property(readonly, nonatomic) NSArray *labelShape; // @synthesize labelShape=_labelShape;
 
 @end

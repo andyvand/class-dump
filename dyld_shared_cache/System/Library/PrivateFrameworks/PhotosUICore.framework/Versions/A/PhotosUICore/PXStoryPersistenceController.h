@@ -6,39 +6,28 @@
 
 #import <PhotosUICore/PXStoryController.h>
 
-@class NSError, NSProgress, PXStoryConfiguration, PXStoryModel, PXStoryPersistableRecipeManager, PXStoryRecipeAssetEdits;
-@protocol PFStoryRecipe, PXStoryErrorReporter, PXStoryPersistableRecipeWriter;
+@class PXStoryConfiguration;
 
 @interface PXStoryPersistenceController : PXStoryController
 {
     _Bool _isActive;
-    _Bool _persisted;
-    PXStoryModel *_model;
-    PXStoryConfiguration *_configuration;
-    id <PXStoryErrorReporter> _errorReporter;
-    PXStoryPersistableRecipeManager *_persistableRecipeManager;
-    id <PFStoryRecipe> _persistableRecipe;
-    PXStoryRecipeAssetEdits *_recipeAssetEdits;
-    id <PXStoryPersistableRecipeWriter> _writer;
-    NSProgress *_writerProgress;
-    NSError *_error;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
+- (void)U;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -50,9 +39,9 @@
 - (void);
 - (_Bool);
 - (id);
+- (id)P;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)setLayouts: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id)dler: /* Error: Ran out of types for this method. */;
@@ -63,16 +52,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) PXStoryConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) id <PXStoryErrorReporter> errorReporter; // @synthesize errorReporter=_errorReporter;
-@property(readonly, nonatomic) _Bool isActive; // @synthesize isActive=_isActive;
-@property(readonly, nonatomic) __weak PXStoryModel *model; // @synthesize model=_model;
-@property(retain, nonatomic) id <PFStoryRecipe> persistableRecipe; // @synthesize persistableRecipe=_persistableRecipe;
-@property(retain, nonatomic) PXStoryPersistableRecipeManager *persistableRecipeManager; // @synthesize persistableRecipeManager=_persistableRecipeManager;
-@property(nonatomic) _Bool persisted; // @synthesize persisted=_persisted;
-@property(retain, nonatomic) PXStoryRecipeAssetEdits *recipeAssetEdits; // @synthesize recipeAssetEdits=_recipeAssetEdits;
-@property(readonly, nonatomic) id <PXStoryPersistableRecipeWriter> writer; // @synthesize writer=_writer;
-@property(retain, nonatomic) NSProgress *writerProgress; // @synthesize writerProgress=_writerProgress;
 
 @end
 

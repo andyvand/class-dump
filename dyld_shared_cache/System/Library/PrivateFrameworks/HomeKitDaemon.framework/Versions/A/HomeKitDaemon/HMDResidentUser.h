@@ -6,32 +6,29 @@
 
 #import <HomeKitDaemon/HMDUser.h>
 
-@class HMDDevice, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDResidentUser : HMDUser
 {
     struct os_unfair_lock_s _residentUserLock;
-    HMDDevice *_device;
-    unsigned long long _configurationState;
 }
 
 + (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id):8q16 /* Error: Ran out of types for this method. */;
+- (id)ȇ;
 - (id);
 - (void);
-- (void);
-- (id);
+- (void),;
+- (id)_fillProcessingLevelStatisticsWithGraph:(id)arg1 progressReporter: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)shouldUpdateURLOptionsWithAddresses: /* Error: Ran out of types for this method. */;
+- (_Bool),V_showMessageToUser;
+- (id)removeRSAPublicKeyWithLabel:(id)arg1 ];
 - (id);
-- (id);
-- (void);
+- (void)
+;
 - (id);
 - (void)ndle",R,C,N;
 - (id)ublic}@;
@@ -41,10 +38,7 @@ __attribute__((visibility("hidden")))
 - (void)@"NSObject<OS_dispatch_queue>"16;
 
 // Remaining properties
-@property(readonly, getter=isBlocked) _Bool blocked;
-@property unsigned long long configurationState;
-@property(readonly) HMDDevice *device; // @synthesize device=_device;
-@property(readonly, copy) NSString *deviceIdentifier;
+@property unsigned long long configurationState; // @synthesize configurationState=_configurationState;
 
 @end
 

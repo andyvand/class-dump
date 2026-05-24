@@ -9,8 +9,8 @@
 @protocol UIGestureRecognizerDelegate
 
 @optional
-- (_Bool)Config;
-- (_Bool)ipelineProcessor;
+- (_Bool)shadowGreatStoriesYouMissedScoringConfig;
+- (_Bool)_TtC8NewsFeed33FeedItemRendererPipelineProcessor;
 - (_Bool)er=%{public}@;
 - (_Bool):(UIGestureRecognizer *)arg1 ,y;
 @end

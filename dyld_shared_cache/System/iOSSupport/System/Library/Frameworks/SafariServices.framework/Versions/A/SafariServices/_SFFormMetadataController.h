@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WBSBlockCoalescer, WBSFormMetadata, WKWebProcessPlugInFrame, WKWebProcessPlugInScriptWorld, _SFWebProcessPlugInPageController;
-@protocol SFFormMetadataObserver;
+@class WKWebProcessPlugInScriptWorld;
 
 @interface _SFFormMetadataController
 {
     WKWebProcessPlugInScriptWorld *_scriptWorld;
-    _SFWebProcessPlugInPageController *_pageController;
-    id <SFFormMetadataObserver> _observer;
-    _Bool _preFillingAlreadyDone;
-    WBSFormMetadata *_unsubmittedForm;
-    WKWebProcessPlugInFrame *_unsubmittedFormFrame;
-    _Bool _pendingBeginningInputSessionForControlAfterFilling;
-    WBSBlockCoalescer *_textDidChangeEventCoalescer;
 }
 
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)SecureLocationsKeyUpdateAckEnvelope;
 - (_Bool);
 - (void);
 - (void);
@@ -38,29 +30,22 @@
 - (void);
 - (void);
 - (void);
+- (id)alignTextAndMediaHorizontalEdges;
+- (void)SI;
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) WKWebProcessPlugInScriptWorld *scriptWorld;
-@property(readonly) Class superclass;
 
 @end
 

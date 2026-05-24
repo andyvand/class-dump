@@ -9,7 +9,7 @@
 }
 
 - (_Bool);
-- (id);
+- (id)IconServices;
 - (id);
 
 @end

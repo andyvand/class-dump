@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ITMediaLibrary, MPMediaQueryCriteria;
+@class ITMediaLibrary;
 
 __attribute__((visibility("hidden")))
 @interface ITMediaLibraryQuery
 {
     int foo;
-    ITMediaLibrary *_library;
-    MPMediaQueryCriteria *_criteria;
 }
 
 - (id);
@@ -23,7 +21,6 @@ __attribute__((visibility("hidden")))
 - (void)d,R,N,V_endTime;
 
 // Remaining properties
-@property(retain, nonatomic) MPMediaQueryCriteria *criteria; // @synthesize criteria=_criteria;
 @property(retain, nonatomic) ITMediaLibrary *library; // @synthesize library=_library;
 
 @end

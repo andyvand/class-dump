@@ -7,6 +7,7 @@
 @interface Charts.MetalView.CaptureManager
 {
     id captureImageClosure;
+    id;
 }
 
 @end

@@ -7,16 +7,9 @@
 @interface TSTimeErrorAnalysis
 {
     _Bool _calculated;
-    long long _numberOfErrors;
-    double *_timestamps;
-    double *_timeErrors;
-    double _averagePeriod;
-    long long _lowestWindowSize;
-    long long _highestWindowSize;
-    long long _calculatedStepSize;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -33,10 +26,10 @@
 - (void);
 - (void);
 - (long long);
-- (long long);
+- (long long)b;
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -46,22 +39,12 @@
 - (long long);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (double *);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long analysisLimit; // @dynamic analysisLimit;
-@property(readonly, nonatomic) double averagePeriod; // @synthesize averagePeriod=_averagePeriod;
-@property(readonly, nonatomic) _Bool calculated; // @synthesize calculated=_calculated;
-@property(readonly, nonatomic) long long calculatedStepSize; // @synthesize calculatedStepSize=_calculatedStepSize;
-@property(readonly, nonatomic) long long highestWindowSize; // @synthesize highestWindowSize=_highestWindowSize;
-@property(readonly, nonatomic) long long lowestWindowSize; // @synthesize lowestWindowSize=_lowestWindowSize;
 @property(readonly, nonatomic) long long numberOfErrors; // @synthesize numberOfErrors=_numberOfErrors;
-@property(readonly, nonatomic) long long threadingLimit; // @dynamic threadingLimit;
-@property(readonly, nonatomic) long long threadingSegment; // @dynamic threadingSegment;
-@property(readonly, nonatomic) double *timeErrors; // @synthesize timeErrors=_timeErrors;
-@property(readonly, nonatomic) double *timestamps; // @synthesize timestamps=_timestamps;
 
 @end
 

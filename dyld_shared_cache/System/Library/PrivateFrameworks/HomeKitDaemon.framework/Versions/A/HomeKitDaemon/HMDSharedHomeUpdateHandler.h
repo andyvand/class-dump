@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, HMDSharedHomeUpdateSession, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class HMDHome;
 
 __attribute__((visibility("hidden")))
 @interface HMDSharedHomeUpdateHandler
 {
     struct os_unfair_lock_s _lock;
-    _Bool _pendingRequestDataFromResident;
-    _Bool _firstFetchComplete;
-    _Bool _suspended;
-    HMDSharedHomeUpdateSession *_pendingRequestDataFromResidentSession;
-    HMDHome *_home;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (id)ìñÿñÈ LB;
@@ -28,40 +21,28 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)ameworks/DeviceIdentity.framework/DeviceIdentity;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)?;
 - (_Bool)áÐ!èDùQÐ1Â0@ù
 × ;
 - (id)
 × ;
-- (void)haracteristicTypes:forServiceType: /* Error: Ran out of types for this method. */;
-- (void)rintsForFaceCropsWithUUIDs:(_Bool)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void)entTriggersField;
+- (void)getStatusCharacteristicTypes:forServiceType: /* Error: Ran out of types for this method. */;
+- (void)fetchFaceprintsForFaceCropsWithUUIDs:(_Bool)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)recordingEventTriggersField;
 - (void)home.uuid;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool firstFetchComplete; // @synthesize firstFetchComplete=_firstFetchComplete;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak HMDHome *home; // @synthesize home=_home;
-@property(nonatomic) _Bool pendingRequestDataFromResident; // @synthesize pendingRequestDataFromResident=_pendingRequestDataFromResident;
-@property(retain, nonatomic) HMDSharedHomeUpdateSession *pendingRequestDataFromResidentSession; // @synthesize pendingRequestDataFromResidentSession=_pendingRequestDataFromResidentSession;
-@property(readonly) Class superclass;
-@property(getter=isSuspended) _Bool suspended; // @synthesize suspended=_suspended;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

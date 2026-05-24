@@ -7,6 +7,7 @@
 @interface CookingKit.EndOfRecipeContainerViewController__priv_6C32768279A34A304DA1EE2F1863B55F
 {
     id endOfRecipeViewController;
+    id;
 }
 
 - (id);

@@ -4,35 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKCalendar, NSDate, NSTimeZone;
-
 @interface EKUIAutocompleteTracker
 {
     _Bool _hasTrackedZKWQuery;
-    _Bool _hasTrackedZKWResultShown;
-    _Bool _hasTrackedAutocompleteQuery;
-    _Bool _hasTrackedAutocompleteResultsShown;
-    _Bool _hasTrackedNLResultShown;
-    _Bool _hasFinalizedTracking;
-    _Bool _initialIsAllDay;
-    unsigned long long _finalNumberOfAutocompleteResults;
-    NSDate *_initialStartDate;
-    NSDate *_initialEndDate;
-    NSTimeZone *_initialTimeZone;
-    EKCalendar *_initialCalendar;
 }
 
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)s;
 + (id);
 - (void);
+- (void)%s;
+- (void)%s;
+- (void);
+- (void)s;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)s;
 - (void);
 - (void);
 - (void);
@@ -40,21 +27,16 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)s;
 - (_Bool);
+- (id)n;
 - (id);
-- (id);
-- (void)darForICSPreview;
+- (void)showsUpdateCalendarForICSPreview;
 
 // Remaining properties
 @property unsigned long long finalNumberOfAutocompleteResults; // @synthesize finalNumberOfAutocompleteResults=_finalNumberOfAutocompleteResults;
-@property(retain) EKCalendar *initialCalendar; // @synthesize initialCalendar=_initialCalendar;
-@property(retain) NSDate *initialEndDate; // @synthesize initialEndDate=_initialEndDate;
-@property _Bool initialIsAllDay; // @synthesize initialIsAllDay=_initialIsAllDay;
-@property(retain) NSDate *initialStartDate; // @synthesize initialStartDate=_initialStartDate;
-@property(retain) NSTimeZone *initialTimeZone; // @synthesize initialTimeZone=_initialTimeZone;
 
 @end
 

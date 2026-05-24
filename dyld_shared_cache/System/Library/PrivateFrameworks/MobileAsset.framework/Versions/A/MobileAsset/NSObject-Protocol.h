@@ -7,15 +7,16 @@
 @class NSString;
 
 @protocol NSObject
+- (id)8);
+- (_Bool)AuthFailedEAP;
+- (unsigned long long)_motionActivityManager;
+- (_Bool)`;
 - (struct _NSZone *);
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *)NSt3__120__shared_ptr_pointerIPN3ctu20FirstBootAfterUpdateEZNS1_20SharedSynchronizableIS2_E15make_shared_ptrIS2_EENS_10shared_ptrIT_EEPS8_EUlS3_E_NS_9allocatorIS2_EEEE;
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

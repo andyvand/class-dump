@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSectionedIdentifierList, MPSectionedIdentifierListEntry, NSMutableArray;
+@class MPSectionedIdentifierList;
 
 __attribute__((visibility("hidden")))
 @interface MPSectionedIdentifierListEnumerator
 {
     MPSectionedIdentifierList *_sectionedIdentifierList;
-    unsigned long long _options;
-    NSMutableArray *_contexts;
-    NSMutableArray *_nextEmittableEnumerationResults;
-    MPSectionedIdentifierListEntry *_endEntry;
 }
 
 - (void);
@@ -23,19 +19,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)A;
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
-- (void)nSong__MAPPING_MISSING__;
+- (id)locator == kCFAllocatorNull;
+- (void)__MPModelRelationshipLibraryPinSong__MAPPING_MISSING__;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *contexts; // @synthesize contexts=_contexts;
-@property(retain, nonatomic) MPSectionedIdentifierListEntry *endEntry; // @synthesize endEntry=_endEntry;
-@property(retain, nonatomic) NSMutableArray *nextEmittableEnumerationResults; // @synthesize nextEmittableEnumerationResults=_nextEmittableEnumerationResults;
 @property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly, nonatomic) MPSectionedIdentifierList *sectionedIdentifierList; // @synthesize sectionedIdentifierList=_sectionedIdentifierList;
 
 @end
 

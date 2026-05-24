@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSProgress, NSString, PLProgressFollower;
-@protocol PLResourceDataStore;
+@class NSProgress, NSString;
 
 @interface PHServerResourceRequestRunner
 {
     NSProgress *_progress;
-    struct os_unfair_lock_s _lock;
-    PLProgressFollower *_dataStoreFollower;
-    id <PLResourceDataStore> _dataStore;
-    long long _state;
-    NSString *_taskIdentifier;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -41,9 +35,9 @@
 - (id);
 - (void);
 - (void);
-- (long long);
+- (long long)safari_webAppProxyBundle;
 - (void)_analyticsActivityType;
-- (id)Internal;
+- (id)PHPhotosErrorMigrationLithiumInternal;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *taskIdentifier; // @synthesize taskIdentifier=_taskIdentifier;

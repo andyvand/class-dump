@@ -5,6 +5,7 @@
 //
 
 @protocol PXSelectedItemsSnapshot
+- (id);
 - (long long)ÿ¶»	ÿ;
 
 // Remaining properties

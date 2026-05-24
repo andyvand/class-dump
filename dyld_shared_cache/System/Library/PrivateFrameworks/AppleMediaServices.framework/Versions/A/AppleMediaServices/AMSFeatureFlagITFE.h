@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AMSFeatureFlagITFE
 {
     _Bool _enabled;
-    _Bool _readonly;
-    NSString *_value;
 }
 
 + (void);
@@ -23,7 +19,7 @@
 + (void);
 + (id);
 + (void);
-+ (_Bool)E;
++ (_Bool)PE;
 + (id)vQ_é¢NrC¹{ÆIïo85¤0E$sæR4éOgHÁR û¹åmÏ¢-úÞÇrÓä&Ûæk¤ß¥£¨vÔ´IßáÈ å	¢ó®VÉOÿ¾µÈòã)ýË4_*##gâUdK`ÍI",½|^aÂ
 k?eT*.þµøümÅUX¹R
 q³£DÿþÜ2¸uÄ7hìÖÁÙi¾¯.zR1H³hÐáðS|7Å/$oÅ°9ÏOTifz("9SÃfnï)oF%UG[Î¦òûøë¿
@@ -36,7 +32,7 @@ $¸ÃA{ù Ò¤í­ÒÂç¾ØEö%9ìÃYtµ:bÞe©X?Ì$r³êcß
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)setITunesStoreSubscriptionIdentifier:(id)arg1;
 - (id);
 - (void);
 - (void)¤º¨x¤º¨¤º¨¤º¨ó¤º¨þ¤º¨¤º¨¤º¨¤º¨¤º¨ò¤º¨ÿ¤º¨è¤º¨å¤º¨¤º¨¤º¨¤º¨¤º¨é¤º¨äøIÅ	¨^Ñ­<Ëá©n÷·ïÙÃJØ¿ø¯HM?©úumçÀ«dÕy[³¶!0<Q~+¨ôI¹5HHQÛ·8õjçüË÷ÇÌìÆËº:è+®\°¡öM?í tR.ß|_dÓ-àÕ|Ct§.ÍÒô	,¨cî»hC7ÛþOfHÑÄvI÷b¸JÈâ¥l;~{ÓP¬÷Ú~ÃÿÍÒ·ª7Ke¯¡«gÝ¿Ò{ótëÃBGÓHo°(!TÆBÚTº¸Üí<ÎõÈpË¼d¢x³°1æ)ìÙpÁ¨i´)¯ë	5:}
@@ -50,8 +46,6 @@ W à /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic, getter=isReadonly) _Bool readonly; // @synthesize readonly=_readonly;
-@property(copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

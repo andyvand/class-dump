@@ -13,7 +13,7 @@
 + (id);
 + (id)mage;
 + (void)t:metadataNodeOutput toInput:metadataFunnelNode.inputs[metadataFunnelNodeInputIndex++] pipelineStage:pipelineStage] /* Error: Ran out of types for this method. */;
-- (void);
+- (void)for %@";
 
 @end
 

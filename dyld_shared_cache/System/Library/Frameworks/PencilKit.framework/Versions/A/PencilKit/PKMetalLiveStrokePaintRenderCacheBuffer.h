@@ -9,11 +9,6 @@
 @interface PKMetalLiveStrokePaintRenderCacheBuffer
 {
     id <MTLBuffer> _strokePointBuffer;
-    unsigned long long _strokePointBufferOffset;
-    id <MTLBuffer> _liveStrokePointBuffer;
-    unsigned long long _liveStrokePointBufferOffset;
-    unsigned long long _numVertices;
-    unsigned long long _numPoints;
 }
 
 - (unsigned long long);
@@ -27,12 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <MTLBuffer> liveStrokePointBuffer; // @synthesize liveStrokePointBuffer=_liveStrokePointBuffer;
-@property(readonly, nonatomic) unsigned long long liveStrokePointBufferOffset; // @synthesize liveStrokePointBufferOffset=_liveStrokePointBufferOffset;
-@property(readonly, nonatomic) unsigned long long numPoints; // @synthesize numPoints=_numPoints;
-@property(readonly, nonatomic) unsigned long long numVertices; // @synthesize numVertices=_numVertices;
 @property(readonly, nonatomic) id <MTLBuffer> strokePointBuffer; // @synthesize strokePointBuffer=_strokePointBuffer;
-@property(readonly, nonatomic) unsigned long long strokePointBufferOffset; // @synthesize strokePointBufferOffset=_strokePointBufferOffset;
 
 @end
 

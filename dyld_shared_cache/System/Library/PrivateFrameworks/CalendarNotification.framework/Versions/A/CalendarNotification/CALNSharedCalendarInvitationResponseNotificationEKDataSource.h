@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol CALNEKCalendarNotificationReferenceProvider, CALNInboxNotificationProvider, EKEventStoreProvider, EKNotificationPreferences;
+@protocol EKEventStoreProvider;
 
 @interface CALNSharedCalendarInvitationResponseNotificationEKDataSource
 {
     id <EKEventStoreProvider> _eventStoreProvider;
-    id <CALNInboxNotificationProvider> _inboxNotificationProvider;
-    id <CALNEKCalendarNotificationReferenceProvider> _notificationReferenceProvider;
-    id <EKNotificationPreferences> _preferences;
 }
 
 - (id);
@@ -29,17 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) id <EKEventStoreProvider> eventStoreProvider; // @synthesize eventStoreProvider=_eventStoreProvider;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <CALNInboxNotificationProvider> inboxNotificationProvider; // @synthesize inboxNotificationProvider=_inboxNotificationProvider;
-@property(readonly, nonatomic) id <CALNEKCalendarNotificationReferenceProvider> notificationReferenceProvider; // @synthesize notificationReferenceProvider=_notificationReferenceProvider;
-@property(readonly, nonatomic) id <EKNotificationPreferences> preferences; // @synthesize preferences=_preferences;
-@property(readonly) Class superclass;
 
 @end
 

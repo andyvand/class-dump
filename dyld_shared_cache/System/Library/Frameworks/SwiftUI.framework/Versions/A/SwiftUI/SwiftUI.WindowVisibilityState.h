@@ -7,9 +7,6 @@
 @interface SwiftUI.WindowVisibilityState
 {
     id id;
-    id title;
-    id _isVisible;
-    id _$observationRegistrar;
 }
 
 @end

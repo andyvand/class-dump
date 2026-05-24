@@ -9,12 +9,11 @@
 @interface SLSBridgedSpaceSetInterTileSpacingOperation : SLSAsynchronousBridgedWindowManagementOperation
 {
     unsigned long long _spaceID;
-    struct CGSize _spacing;
 }
 
-+ (_Bool);
-- (void);
-- (id);
++ (_Bool);
+- (void)(rtree indexes can only be created on attributes).;
+- (id)pple.coredata.cloudkit.zone;
 - (unsigned long long);
 - (id);
 - (void);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(readonly) unsigned long long spaceID; // @synthesize spaceID=_spaceID;
-@property(readonly) struct CGSize spacing; // @synthesize spacing=_spacing;
 
 @end
 

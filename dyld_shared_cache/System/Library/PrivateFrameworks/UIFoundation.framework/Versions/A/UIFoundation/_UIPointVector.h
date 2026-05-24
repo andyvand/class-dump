@@ -8,20 +8,19 @@ __attribute__((visibility("hidden")))
 @interface _UIPointVector
 {
     unsigned long long _count;
-    unsigned long long _capacity;
-    id *_vectors;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)k9l#K
+kkl}S;
 - (id *);
 - (void);
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)(;
+- (unsigned long long)ectory.WBOEkW/Sources/boringssl/ssl/ssl_buffer.cc;
 - (void);
 - (void);
 - (void);
@@ -29,8 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) unsigned long long capacity; // @synthesize capacity=_capacity;
-@property(nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(nonatomic) id *vectors; // @synthesize vectors=_vectors;
 
 @end
 

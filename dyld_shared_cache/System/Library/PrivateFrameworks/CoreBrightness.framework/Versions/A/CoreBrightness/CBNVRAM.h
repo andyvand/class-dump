@@ -11,10 +11,6 @@ __attribute__((visibility("hidden")))
 @interface CBNVRAM
 {
     NSObject<OS_os_log> *_logHandle;
-    unsigned int _NVRAM;
-    float _backlightNitsMin;
-    float _backlightNitsMax;
-    float _backlightNitsDefault;
 }
 
 - (void);
@@ -27,8 +23,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly) float backlightNitsDefault; // @synthesize backlightNitsDefault=_backlightNitsDefault;
-@property float backlightNitsMax; // @synthesize backlightNitsMax=_backlightNitsMax;
 @property(readonly) float backlightNitsMin; // @synthesize backlightNitsMin=_backlightNitsMin;
 
 @end

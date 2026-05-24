@@ -12,7 +12,7 @@
 - (id);
 - (CDStruct_1b6d18a9);
 - (_Bool);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly) CDStruct_1b6d18a9 duration; // @synthesize duration=_duration;

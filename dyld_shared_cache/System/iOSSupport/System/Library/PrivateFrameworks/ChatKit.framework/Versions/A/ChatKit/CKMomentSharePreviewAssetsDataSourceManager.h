@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMMomentShareCache, NSURL, PHMomentShare, PXStaticDisplayAssetsDataSource;
+@class IMMomentShareCache, NSURL;
 
 __attribute__((visibility("hidden")))
 @interface CKMomentSharePreviewAssetsDataSourceManager
 {
     IMMomentShareCache *_momentShareCache;
-    PXStaticDisplayAssetsDataSource *_currentDataSource;
-    NSURL *_momentShareURL;
-    PHMomentShare *_momentShare;
 }
 
-- (id);
+- (id)L";
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)OutlineUpdateOperation;
 - (void);
 - (id);
 - (id);
 - (void)ôÌ;
 
 // Remaining properties
-@property(readonly, nonatomic) PHMomentShare *momentShare; // @synthesize momentShare=_momentShare;
 @property(readonly, nonatomic) NSURL *momentShareURL; // @synthesize momentShareURL=_momentShareURL;
 
 @end

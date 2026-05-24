@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPDEmbeddingModelMetadata
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_modelId;
-    NSString *_modelVersion;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_modelId:1;
-        unsigned int read_modelVersion:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)DisplayName:(id)arg1;
++ (_Bool)setHeaderDisplayName:(id)arg1;
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)G;
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)setWithObjects: /* Error: Ran out of types for this method. */;
+- (void)yAtPath:(id)arg1 error:] /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -41,8 +29,8 @@
 - (id);
 - (void);
 - (id)nableMapsIntelligenceFrameworkForRanking"b1"has_enableRap"b1"has_enableStructuredRapAffordance"b1"has_isNoResultFromNegativeCache"b1"has_isTopSectionTypeQuery"b1"has_shouldDifferentiateClientAndServerResults"b1"has_shouldDisplayNoResults"b1"has_shouldEnableGrayscaleHighlighting"b1"has_shouldUseDistanceFeatureServerResults"b1"read_unknownFields"b1"read_autocompleteSessionData"b1"read_clientRankingFeatureMetadatas"b1"read_parsecQueryRankingFeatures"b1"read_placeSummaryLayoutMetadata"b1"read_sections"b1"read_sortPriorityMappings"b1"wrote_anyField"b1};
-- (_Bool)er;
-- (id)toryIsolater;
+- (_Bool)_geoMapItemIsolater;
+- (id)_createdExternalDataDirectoryIsolater;
 - (void)ategory;
 - (id))-	¤/	Ü2<3ä3d6
 ä6
@@ -55,10 +43,6 @@ p7h89
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasModelId;
-@property(readonly, nonatomic) _Bool hasModelVersion;
-@property(retain, nonatomic) NSString *modelId;
-@property(retain, nonatomic) NSString *modelVersion;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

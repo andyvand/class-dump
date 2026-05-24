@@ -9,20 +9,18 @@
 @interface FCNewsPersonalizationAggregateModificationConfiguration
 {
     FCNewsPersonalizationAggregateModificationData *_baselineModificationData;
-    FCNewsPersonalizationAggregateModificationData *_aggregateModificationData;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id)ÁÐ!PDùq(	°1Â0@ù
 × ;
-- (id)ChannelID;
+- (id)sourceChannelID;
 - (void)setupWithArticleDatabase:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) FCNewsPersonalizationAggregateModificationData *aggregateModificationData; // @synthesize aggregateModificationData=_aggregateModificationData;
 @property(retain, nonatomic) FCNewsPersonalizationAggregateModificationData *baselineModificationData; // @synthesize baselineModificationData=_baselineModificationData;
 
 @end

@@ -6,32 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class ExecutorSiriSchemaExecutorAppIntentCallContext, ExecutorSiriSchemaExecutorClientEventMetadata, ExecutorSiriSchemaExecutorIdentifierQueryCallContext, ExecutorSiriSchemaExecutorPersonQueryCallContext, ExecutorSiriSchemaExecutorRequestContext, ExecutorSiriSchemaExecutorSearchToolQueryCallContext, ExecutorSiriSchemaExecutorStringQueryEntityCallContext, ExecutorSiriSchemaExecutorStringQueryEntityMatcherCallContext, ExecutorSiriSchemaExecutorStringQueryLocationCallContext, NSData, SISchemaInstrumentationMessage;
+@class ExecutorSiriSchemaExecutorClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface ExecutorSiriSchemaExecutorClientEvent : SISchemaTopLevelUnionType
 {
     ExecutorSiriSchemaExecutorClientEventMetadata *_eventMetadata;
-    ExecutorSiriSchemaExecutorAppIntentCallContext *_executorAppIntentCallContext;
-    ExecutorSiriSchemaExecutorSearchToolQueryCallContext *_executorSearchToolQueryCallContext;
-    ExecutorSiriSchemaExecutorPersonQueryCallContext *_executorPersonQueryCallContext;
-    ExecutorSiriSchemaExecutorStringQueryLocationCallContext *_executorStringQueryLocationCallContext;
-    ExecutorSiriSchemaExecutorStringQueryEntityMatcherCallContext *_executorStringQueryEntityMatcherCallContext;
-    ExecutorSiriSchemaExecutorStringQueryEntityCallContext *_executorStringQueryEntityCallContext;
-    ExecutorSiriSchemaExecutorIdentifierQueryCallContext *_executorIdentifierQueryCallContext;
-    ExecutorSiriSchemaExecutorRequestContext *_executorRequestContext;
-    _Bool _hasEventMetadata;
-    _Bool _hasExecutorAppIntentCallContext;
-    _Bool _hasExecutorSearchToolQueryCallContext;
-    _Bool _hasExecutorPersonQueryCallContext;
-    _Bool _hasExecutorStringQueryLocationCallContext;
-    _Bool _hasExecutorStringQueryEntityMatcherCallContext;
-    _Bool _hasExecutorStringQueryEntityCallContext;
-    _Bool _hasExecutorIdentifierQueryCallContext;
-    _Bool _hasExecutorRequestContext;
-    unsigned long long _whichEvent_Type;
 }
 
-+ (int);
++ (int)4;
 + (id);
 - (unsigned long long);
 - (void);
@@ -46,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -54,11 +36,12 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (_Bool)!ɚ;
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -66,8 +49,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -77,48 +59,29 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)p;
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (int);
-- (id);
+- (id)eceived an XPC_ERROR_CONNECTION_INTERRUPTED error.
+;
+- (int)Y;
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)MTSchemaMTLanguageDisambiguationUISelected";
-- (id);
+- (id)hasHasCountryCode;
 - (unsigned long long)setUndoChecked: /* Error: Ran out of types for this method. */;
-- (id)CorrectionChecked;
+- (id)SCSchemaSCCorrectionChecked;
 - (id)è.$/;
-- (int)IN_REQUIRED;
+- (int)EXECUTORAPPINTENTERROR_ACTIONREQUIREMENT_APP_REQUIREMENT_SIGN_IN_REQUIRED;
 - (void)ºV%;
 
 // Remaining properties
-@property(retain, nonatomic) ExecutorSiriSchemaExecutorClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(retain, nonatomic) ExecutorSiriSchemaExecutorAppIntentCallContext *executorAppIntentCallContext; // @synthesize executorAppIntentCallContext=_executorAppIntentCallContext;
-@property(retain, nonatomic) ExecutorSiriSchemaExecutorIdentifierQueryCallContext *executorIdentifierQueryCallContext; // @synthesize executorIdentifierQueryCallContext=_executorIdentifierQueryCallContext;
-@property(retain, nonatomic) ExecutorSiriSchemaExecutorPersonQueryCallContext *executorPersonQueryCallContext; // @synthesize executorPersonQueryCallContext=_executorPersonQueryCallContext;
-@property(retain, nonatomic) ExecutorSiriSchemaExecutorRequestContext *executorRequestContext; // @synthesize executorRequestContext=_executorRequestContext;
-@property(retain, nonatomic) ExecutorSiriSchemaExecutorSearchToolQueryCallContext *executorSearchToolQueryCallContext; // @synthesize executorSearchToolQueryCallContext=_executorSearchToolQueryCallContext;
-@property(retain, nonatomic) ExecutorSiriSchemaExecutorStringQueryEntityCallContext *executorStringQueryEntityCallContext; // @synthesize executorStringQueryEntityCallContext=_executorStringQueryEntityCallContext;
-@property(retain, nonatomic) ExecutorSiriSchemaExecutorStringQueryEntityMatcherCallContext *executorStringQueryEntityMatcherCallContext; // @synthesize executorStringQueryEntityMatcherCallContext=_executorStringQueryEntityMatcherCallContext;
-@property(retain, nonatomic) ExecutorSiriSchemaExecutorStringQueryLocationCallContext *executorStringQueryLocationCallContext; // @synthesize executorStringQueryLocationCallContext=_executorStringQueryLocationCallContext;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasExecutorAppIntentCallContext; // @synthesize hasExecutorAppIntentCallContext=_hasExecutorAppIntentCallContext;
-@property(nonatomic) _Bool hasExecutorIdentifierQueryCallContext; // @synthesize hasExecutorIdentifierQueryCallContext=_hasExecutorIdentifierQueryCallContext;
-@property(nonatomic) _Bool hasExecutorPersonQueryCallContext; // @synthesize hasExecutorPersonQueryCallContext=_hasExecutorPersonQueryCallContext;
-@property(nonatomic) _Bool hasExecutorRequestContext; // @synthesize hasExecutorRequestContext=_hasExecutorRequestContext;
-@property(nonatomic) _Bool hasExecutorSearchToolQueryCallContext; // @synthesize hasExecutorSearchToolQueryCallContext=_hasExecutorSearchToolQueryCallContext;
-@property(nonatomic) _Bool hasExecutorStringQueryEntityCallContext; // @synthesize hasExecutorStringQueryEntityCallContext=_hasExecutorStringQueryEntityCallContext;
-@property(nonatomic) _Bool hasExecutorStringQueryEntityMatcherCallContext; // @synthesize hasExecutorStringQueryEntityMatcherCallContext=_hasExecutorStringQueryEntityMatcherCallContext;
-@property(nonatomic) _Bool hasExecutorStringQueryLocationCallContext; // @synthesize hasExecutorStringQueryLocationCallContext=_hasExecutorStringQueryLocationCallContext;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

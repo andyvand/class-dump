@@ -11,27 +11,25 @@
 @interface EMGroupedSenderChange : EMMessageListItemChange
 {
     NSNumber *_unreadCount;
-    NSNumber *_unseenCount;
 }
 
 + (id);
-+ (id);
++ (id);
 + (_Bool);
-- (id);
+- (id)RestrictedGuestInfoLogEvent;
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *unreadCount; // @synthesize unreadCount=_unreadCount;
-@property(retain, nonatomic) NSNumber *unseenCount; // @synthesize unseenCount=_unseenCount;
 
 @end
 

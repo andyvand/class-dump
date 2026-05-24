@@ -7,7 +7,6 @@
 @interface IDSFoundation.IDSGLP2PLinkEngine
 {
     id linkEngine;
-    id qualityReportPlugin;
 }
 
 @end

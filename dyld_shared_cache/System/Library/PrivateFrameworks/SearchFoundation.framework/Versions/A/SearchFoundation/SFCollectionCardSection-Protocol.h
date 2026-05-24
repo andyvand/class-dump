@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, SFCollectionStyle, SFCommandButtonItem, SFRichText;
+@class NSString, SFCommandButtonItem;
 
 @protocol SFCollectionCardSection
-- (SFCommandButtonItem *)LayoutCardSection: /* Error: Ran out of types for this method. */;
+- (void);
+- (SFCommandButtonItem *)setMaximumTVShowRatingForAgeGate: /* Error: Ran out of types for this method. */;
+- (SFCommandButtonItem *)setVerticalLayoutCardSection: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) SFCommandButtonItem *buttonItem;
-@property(copy, nonatomic) NSArray *cardSections;
-@property(retain, nonatomic) SFCollectionStyle *collectionStyle;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFRichText *title;
-@property(retain, nonatomic) SFCommandButtonItem *titleButtonItem;
 @property(copy, nonatomic) NSString *type;
 @end
 

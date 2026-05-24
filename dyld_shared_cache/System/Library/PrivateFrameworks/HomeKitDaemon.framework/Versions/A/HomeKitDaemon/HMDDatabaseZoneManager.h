@@ -4,43 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBCloudZone, HMBLocalZone, HMDCloudShareMessenger, HMDCloudShareParticipantsManager, HMDDatabaseZoneManagerConfiguration, HMDHome, NSObject, NSString, NSUUID;
-@protocol HMDCloudShareManaging, HMDDatabase, HMDDatabaseZoneManagerDataSource, HMDDatabaseZoneManagerDelegate, OS_dispatch_queue;
+@protocol HMDDatabaseZoneManagerDataSource;
 
 __attribute__((visibility("hidden")))
 @interface HMDDatabaseZoneManager
 {
     id <HMDDatabaseZoneManagerDataSource> _dataSource;
-    id <HMDDatabaseZoneManagerDelegate> _delegate;
-    NSString *_zoneName;
-    HMDHome *_home;
-    HMBLocalZone *_localZone;
-    HMBCloudZone *_cloudZone;
-    HMDDatabaseZoneManagerConfiguration *_defaultConfiguration;
-    long long _state;
-    HMDCloudShareMessenger *_shareMessenger;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <HMDDatabase> _database;
-    id <HMDCloudShareManaging> _shareManager;
-    HMDCloudShareParticipantsManager *_participantsManager;
-    CDUnknownBlockType _participantsManagerFactory;
 }
 
 + (id)ñ
 L¬B;
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)setHasMatchedCoordinateOffset:(id)arg1;
+- (id)isUserVisibleDuplicateOfEntry: /* Error: Ran out of types for this method. */;
+- (id)isSharingWithContact: /* Error: Ran out of types for this method. */;
+- (void)_directionsCachePath;
+- (void)_didStartSharingWithContact:(id)arg1 withCapabilityType:serviceName:error:queue:completion: /* Error: Ran out of types for this method. */;
 - (CDUnknownBlockType);
-- (id);
+- (id)Gh;
+- (void);
+- (void)֧;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)I;
 - (void);
 - (_Bool);
 - (id);
@@ -57,7 +43,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)PIRepairOffsetAutoCalculator;
 - (id);
 - (void);
 - (id);
@@ -68,7 +54,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)0@ù
 × ;
-- (void)identDeviceModel;
+- (void)HMDResidentDeviceModel;
 - (id)ing write requests with identifier:%{public,uuid_t}.16P from event trigger execution session:%{public}@ count:%lu /* Error: Ran out of types for this method. */;
 - (id){public}@Mark begin stage:%@ error:%@ /* Error: Ran out of types for this method. */;
 - (id)onfiguration with Bit rate:%@kbps, Sample rate:%@kHz /* Error: Ran out of types for this method. */;
@@ -82,30 +68,7 @@ __attribute__((visibility("hidden")))
 - (id)ì¶ÿ;
 
 // Remaining properties
-@property(retain) HMBCloudZone *cloudZone; // @synthesize cloudZone=_cloudZone;
-@property(readonly, copy) NSString *containerIdentifier;
-@property __weak id <HMDDatabaseZoneManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly) id <HMDDatabase> database; // @synthesize database=_database;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy) HMDDatabaseZoneManagerConfiguration *defaultConfiguration; // @synthesize defaultConfiguration=_defaultConfiguration;
-@property __weak id <HMDDatabaseZoneManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly, getter=isStartedUp) _Bool isStartedUp;
-@property(retain) HMBLocalZone *localZone; // @synthesize localZone=_localZone;
-@property(readonly, copy) NSUUID *messageTargetUUID;
-@property(retain) HMDCloudShareParticipantsManager *participantsManager; // @synthesize participantsManager=_participantsManager;
-@property(copy) CDUnknownBlockType participantsManagerFactory; // @synthesize participantsManagerFactory=_participantsManagerFactory;
-@property(readonly) id <HMDCloudShareManaging> shareManager; // @synthesize shareManager=_shareManager;
-@property(readonly) HMDCloudShareMessenger *shareMessenger; // @synthesize shareMessenger=_shareMessenger;
 @property long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
-@property(readonly, copy) NSString *zoneName; // @synthesize zoneName=_zoneName;
 
 @end
 

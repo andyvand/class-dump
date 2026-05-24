@@ -6,29 +6,26 @@
 
 #import <PhotosGraph/PGAssetCollectionFeatureExtractor.h>
 
-@class MAFeatureExtractor, NSArray, NSString;
+@class MAFeatureExtractor;
 
 @interface PGFeatureExtractorAssetCollectionAverage : PGAssetCollectionFeatureExtractor
 {
     MAFeatureExtractor *_assetFeatureExtractor;
-    NSArray *_assetFetchOptionPropertySet;
-    NSString *_name;
 }
 
 - (id);
 - (id);
-- (long long);
+- (long long)h;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)eneEdge;
-- (void)moryUpgrade;
+- (id)removeExtensionBundleIDFromArrayOfBlocklistedExtensions: /* Error: Ran out of types for this method. */;
+- (id)PGGraphEntityNetSceneEdge;
+- (void)PGMemoryPlannerNumberOfDaysSinceMemoryUpgrade;
 
 // Remaining properties
 @property(readonly, nonatomic) MAFeatureExtractor *assetFeatureExtractor; // @synthesize assetFeatureExtractor=_assetFeatureExtractor;
-@property(readonly, nonatomic) NSArray *assetFetchOptionPropertySet; // @synthesize assetFetchOptionPropertySet=_assetFetchOptionPropertySet;
 
 @end
 

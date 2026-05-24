@@ -9,9 +9,6 @@
 @interface RemindersUICore.TTRShowRecentlyDeletedDataModelSource : RemindersUICore.TTRRemindersListDataModelSourceBase
 {
     id delegate;
-    id account;
-    id store;
-    id dataViewMonitor;
 }
 
 @end

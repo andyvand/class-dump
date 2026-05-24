@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSNumber, NSString;
+@class NSArray, NSData, NSString;
 
 @protocol IMPriorityMessageCommandProcessingParameter
+- (NSArray *)B9;
+- (NSData *)  ;
+- (_Bool)SymptomReporterOptionalIsLocalSideOnly;
+- (NSString *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *GUID;
-@property(readonly, nonatomic) NSData *fromToken;
-@property(readonly, nonatomic) _Bool isFromMe;
-@property(readonly, nonatomic) _Bool isFromStorage;
-@property(readonly, nonatomic) _Bool isLastFromStorage;
-@property(readonly, copy, nonatomic) NSArray *priorityMessageGUIDs;
-@property(copy, nonatomic) NSString *replicationSourceServiceName;
-@property(readonly, nonatomic) NSNumber *timestamp;
 @end
 

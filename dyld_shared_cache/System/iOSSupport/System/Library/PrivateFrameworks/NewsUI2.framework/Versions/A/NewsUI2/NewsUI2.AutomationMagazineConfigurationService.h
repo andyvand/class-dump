@@ -7,7 +7,6 @@
 @interface NewsUI2.AutomationMagazineConfigurationService
 {
     id testDataLoader;
-    id paidBundleConfigurationManager;
 }
 
 @end

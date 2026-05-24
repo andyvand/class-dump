@@ -14,8 +14,8 @@
 
 - (void);
 - (id);
-- (_Bool);
-- (id)tion: /* Error: Ran out of types for this method. */;
+- (_Bool)reply: /* Error: Ran out of types for this method. */;
+- (id)_compositeFlipped:atPoint:fromRect:operation:fraction: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) CALayer *rootLayer;

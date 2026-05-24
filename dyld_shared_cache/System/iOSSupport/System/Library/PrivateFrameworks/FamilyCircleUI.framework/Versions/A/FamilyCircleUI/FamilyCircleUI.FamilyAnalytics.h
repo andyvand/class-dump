@@ -7,6 +7,7 @@
 @interface FamilyCircleUI.FamilyAnalytics
 {
     id sendFunction;
+    id;
 }
 
 @end

@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection;
-@protocol OS_dispatch_queue, SSRVTUITrainingServiceDelegate;
+@class NSObject, NSString;
+@protocol OS_dispatch_queue;
 
 @interface SSRVTUITrainingServiceClient
 {
     NSString *_localeIdentifier;
-    NSString *_appDomain;
-    NSString *_siriSharedUserId;
-    _Bool _requireResetup;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSXPCConnection *_xpcConnection;
-    id _remoteObjectProxy;
-    id <SSRVTUITrainingServiceDelegate> _delegate;
-    CDUnknownBlockType _prepareCompletion;
-    CDUnknownBlockType _cleanupCompletion;
-    CDUnknownBlockType _trainCompletion;
-    CDUnknownBlockType _trainCompletionWithResult;
 }
 
 - (void);
@@ -52,11 +41,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)oxy>",&,D,N;
+- (void)ActiveObjectINS1_13TimeMarkEventEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
+- (id));
 - (id);
-- (id);
-- (void);
+- (void)getSignalStrength:subscriptionCount: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -69,25 +58,10 @@
 - (id)ð1Â0@ù
 × ;
 - (void)epared remote device successfully;
-- (void)LegacyUpload;
+- (void)SATLegacyUpload;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType cleanupCompletion; // @synthesize cleanupCompletion=_cleanupCompletion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SSRVTUITrainingServiceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType prepareCompletion; // @synthesize prepareCompletion=_prepareCompletion;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) id remoteObjectProxy; // @synthesize remoteObjectProxy=_remoteObjectProxy;
-@property(nonatomic) _Bool requireResetup; // @synthesize requireResetup=_requireResetup;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType trainCompletion; // @synthesize trainCompletion=_trainCompletion;
-@property(copy, nonatomic) CDUnknownBlockType trainCompletionWithResult; // @synthesize trainCompletionWithResult=_trainCompletionWithResult;
-@property(retain, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end
 

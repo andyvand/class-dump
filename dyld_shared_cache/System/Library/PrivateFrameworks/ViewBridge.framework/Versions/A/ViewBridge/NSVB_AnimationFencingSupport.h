@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (void);
-+ (unsigned int);
++ (unsigned int)H#H9;
 
 @end
 

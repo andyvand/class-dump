@@ -4,38 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMPBAccessoryReference, NSData;
+@class HMPBAccessoryReference;
 
 @interface HMPBServiceReference
 {
     HMPBAccessoryReference *_accessoryReference;
-    NSData *_uniqueIdentifier;
 }
 
-+ (id);
++ (id);
 + (id);
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)leisure;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void)¸4\7¨9:Ø; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) HMPBAccessoryReference *accessoryReference; // @synthesize accessoryReference=_accessoryReference;
 @property(readonly, nonatomic) _Bool hasAccessoryReference;
-@property(readonly, nonatomic) _Bool hasUniqueIdentifier;
-@property(retain, nonatomic) NSData *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end
 

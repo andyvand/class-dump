@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_xpc_object;
 
 @interface BSXPCCoder
 {
     NSObject<OS_xpc_object> *_message;
-    NSObject<OS_xpc_object> *_xpcConnection;
-    NSObject<OS_xpc_object> *_codingContext;
-    int _finalized;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)C;
 + (id);
 + (_Bool);
 - (id);
@@ -28,13 +25,13 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
+- (void)A;
 - (void);
-- (void);
 - (id);
-- (id);
+- (id)!;
 - (id);
 - (void);
 - (void);
@@ -45,15 +42,15 @@
 - (struct CGPoint);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)1	?נ;
+- (id);
 - (void);
 - (void);
 - (struct CGSize);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)NT %{public}s/%{public}s from %s timeout=%g seconds;
 - (_Bool);
 - (void);
 - (long long);
@@ -66,15 +63,7 @@
 - (void)À;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSObject<OS_xpc_object> *XPCConnection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, retain, nonatomic) NSObject<OS_xpc_object> *message;
-@property(readonly) Class superclass;
 
 @end
 

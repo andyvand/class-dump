@@ -7,16 +7,11 @@
 @interface NewsFeed.LayeredMediaViewDisplayStateCoordinator
 {
     id isEnabled;
-    id visibilityTracking;
-    id onChangeBlock;
-    id isBackgrounded;
-    id backingView;
-    id lastDisplayState;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 
 @end

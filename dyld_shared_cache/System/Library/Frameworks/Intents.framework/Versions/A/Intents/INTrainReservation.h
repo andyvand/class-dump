@@ -6,17 +6,15 @@
 
 #import <Intents/INReservation.h>
 
-@class INSeat, INTrainTrip;
+@class INSeat;
 
 @interface INTrainReservation : INReservation
 {
     INSeat *_reservedSeat;
-    INTrainTrip *_trainTrip;
 }
 
 
 // Remaining properties
 @property(readonly, copy) INSeat *reservedSeat; // @synthesize reservedSeat=_reservedSeat;
-@property(readonly, copy) INTrainTrip *trainTrip; // @synthesize trainTrip=_trainTrip;
 @end
 

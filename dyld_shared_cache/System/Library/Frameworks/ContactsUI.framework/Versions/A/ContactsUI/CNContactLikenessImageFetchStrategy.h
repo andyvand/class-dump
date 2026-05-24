@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSString;
-@protocol CNUIParentContainerCache;
+@class CNContact;
 
 @interface CNContactLikenessImageFetchStrategy
 {
     CNContact *_contact;
-    id <CNUIParentContainerCache> _parentContainerCache;
 }
 
 - (void);
@@ -24,14 +22,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <CNUIParentContainerCache> parentContainerCache; // @synthesize parentContainerCache=_parentContainerCache;
-@property(readonly) Class superclass;
 
 @end
 

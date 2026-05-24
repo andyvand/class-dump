@@ -5,6 +5,7 @@
 //
 
 @protocol NSContextMenuWindowProtocol
+- (struct CGRect);
 
 // Remaining properties
 @property(readonly) struct CGRect frame;

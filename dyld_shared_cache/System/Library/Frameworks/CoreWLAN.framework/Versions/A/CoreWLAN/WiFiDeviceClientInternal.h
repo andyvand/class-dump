@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AWDLServiceDiscoveryManager, CWInterface, NSString, WiFiManagerClientInternal;
+@class CWInterface, NSString;
 
 __attribute__((visibility("hidden")))
 @interface WiFiDeviceClientInternal
 {
     NSString *_interfaceName;
-    WiFiManagerClientInternal *_internalClient;
-    AWDLServiceDiscoveryManager *_awdlServiceManager;
-    struct WiFiDeviceClientInternalCallbacks _callbacks;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void)A;
 - (id);
 - (id);
 - (id);
-- (struct WiFiDeviceClientInternalCallbacks *)ToPage;
+- (struct WiFiDeviceClientInternalCallbacks *)_antennaRequestedDueToPage;
 
 // Remaining properties
-@property(retain) AWDLServiceDiscoveryManager *awdlServiceManager; // @synthesize awdlServiceManager=_awdlServiceManager;
-@property struct WiFiDeviceClientInternalCallbacks *callbacks; // @dynamic callbacks;
 @property(readonly) CWInterface *interface; // @dynamic interface;
-@property(readonly) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
-@property(readonly) WiFiManagerClientInternal *internalClient; // @synthesize internalClient=_internalClient;
 
 @end
 

@@ -11,12 +11,11 @@
 @interface ASAuthorizationAppleIDRequest : ASAuthorizationOpenIDRequest
 {
     NSString *_user;
-    struct os_unfair_lock_s _internalLock;
 }
 
-- (id);
+- (id)swapProcessesOnNavigation;
 - (void);
-- (id)hExtension:oneTimeCodeCredentialRequest: /* Error: Ran out of types for this method. */;
+- (id)initWithExtension:oneTimeCodeCredentialRequest: /* Error: Ran out of types for this method. */;
 - (void)3bþ5¥;
 
 // Remaining properties

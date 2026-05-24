@@ -7,7 +7,7 @@
 @class HMDRemoteDeviceConfirmationHandler, HMFTimer;
 
 @protocol HMDRemoteDeviceMonitorFactory
-- (HMDRemoteDeviceConfirmationHandler *)yResident;
+- (HMDRemoteDeviceConfirmationHandler *)_discoverPrimaryResident;
 - (HMFTimer *)s not support reconfiguring to a higher video tier;
 @end
 

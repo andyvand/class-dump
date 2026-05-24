@@ -6,7 +6,7 @@
 
 #import <Contacts/CNActivityAlert.h>
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface CNMutableActivityAlert : CNActivityAlert
 {
@@ -15,10 +15,7 @@
 - (id)ts:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property _Bool ignoreMute; // @dynamic ignoreMute;
 @property(copy) NSString *sound; // @dynamic sound;
-@property(copy) NSDictionary *userInfo; // @dynamic userInfo;
-@property(copy) NSString *vibration; // @dynamic vibration;
 
 @end
 

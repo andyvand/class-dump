@@ -9,13 +9,12 @@
 @interface PKPendingInvitationRequest
 {
     CDUnknownBlockType _completion;
-    PKAppletSubcredentialSharingInvitation *_invitation;
 }
 
 - (void);
 - (id);
 - (id);
-- (void)G_PASS;
+- (void)TEMPLATE_NAME_LOWERCASE_BOARDING_PASS;
 
 // Remaining properties
 @property(readonly, nonatomic) PKAppletSubcredentialSharingInvitation *invitation; // @synthesize invitation=_invitation;

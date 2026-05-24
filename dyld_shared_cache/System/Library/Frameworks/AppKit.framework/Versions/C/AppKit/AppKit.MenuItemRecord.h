@@ -7,12 +7,6 @@
 @interface AppKit.MenuItemRecord
 {
     id id;
-    id title;
-    id keyEquivalent;
-    id _keyEquivalentModifierMask;
-    id isEnabled;
-    id hasCustomView;
-    id submenuID;
 }
 
 @end

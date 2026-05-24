@@ -4,9 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class HAPPairingIdentity, NSArray, NSData, NSString;
 
 @protocol HAPKeyStore
+- (_Bool)initWithTagSchemes:(NSString *)arg1 options: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (NSData *)FACIALHAIR_ONE_COLOR_MESSAGE;
+- (NSString *)displayCallPromptForContact:withCompletion: /* Error: Ran out of types for this method. */;
+- (_Bool)initiate:(NSData *)arg1 transferLog:(NSString *)arg2 withOptions:(id *)arg3 job: /* Error: Ran out of types for this method. */;
+- (HAPPairingIdentity *)G;
+- (_Bool)e=0x%x;
+
+@optional
+- (_Bool);
+- (_Bool);
+- (NSArray *)ILMessageFilterExtensionVendorProtocol;
+- (HAPPairingIdentity *)ssl/libressl-2.6/crypto/evp/e_chacha20poly1305.c;
+- (NSArray *)ID (%{public}lu);
+- (_Bool)fileXPCClient;
+- (_Bool);
+- (_Bool);
+- (_Bool)D;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *activeControllerPairingIdentifier;

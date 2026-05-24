@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BOSOperation, BOSRequest, BridgeOSSoftwareUpdateController, NSDate, NSError, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface BOSOperationController
 {
     NSObject<OS_dispatch_queue> *_operationQueue;
-    BOSRequest *_request;
-    CDUnknownBlockType _progressHandler;
-    BridgeOSSoftwareUpdateController *_controller;
-    NSMutableArray *_operations;
-    BOSOperation *_currentOperation;
-    NSError *_error;
-    NSObject<OS_dispatch_source> *_progressTimer;
-    double _completedTime;
-    double _totalEstimatedTime;
-    NSDate *_lastTimeRemainingEstimate;
 }
 
 + (double);
@@ -51,25 +41,25 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)5;
 - (void);
 - (id);
 - (double);
-- (void);
-- (void);
-- (id);
+- (void)nt;
 - (void);
 - (id);
 - (void);
+- (id)__TEXT;
+- (void)setColorSpace:(id)arg1;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)r;
 - (id);
 - (void);
 - (id);
@@ -80,24 +70,7 @@
 - (void)le package component's bridge version (%@) doesn't satisfy minimum requirement (%@):(CDUnknownBlockType)arg1 %lu;
 
 // Remaining properties
-@property double completedTime; // @synthesize completedTime=_completedTime;
-@property(retain) BridgeOSSoftwareUpdateController *controller; // @synthesize controller=_controller;
-@property(retain) BOSOperation *currentOperation; // @synthesize currentOperation=_currentOperation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property(retain) NSDate *lastTimeRemainingEstimate; // @synthesize lastTimeRemainingEstimate=_lastTimeRemainingEstimate;
 @property(retain) NSObject<OS_dispatch_queue> *operationQueue; // @synthesize operationQueue=_operationQueue;
-@property(retain) NSMutableArray *operations; // @synthesize operations=_operations;
-@property(copy) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
-@property(retain) NSObject<OS_dispatch_source> *progressTimer; // @synthesize progressTimer=_progressTimer;
-@property(retain) BOSRequest *request; // @synthesize request=_request;
-@property(readonly) Class superclass;
-@property double totalEstimatedTime; // @synthesize totalEstimatedTime=_totalEstimatedTime;
 
 @end
 

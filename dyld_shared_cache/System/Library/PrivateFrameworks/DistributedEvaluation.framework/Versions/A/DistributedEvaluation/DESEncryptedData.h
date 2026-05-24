@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface DESEncryptedData
 {
     NSString *_algorithm;
-    NSData *_data;
-    NSData *_encryptedKey;
-    int _version;
-    struct {
-        unsigned int version:1;
-    } _has;
 }
 
-- (_Bool);
-- (void);
+- (_Bool)cturedSearch.returnType.collection.values.entity.typeIdentifier.custom.bundleId;
+- (void){;
 - (id);
 - (int);
 - (_Bool);
@@ -27,27 +21,22 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)c;
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)BJ
+;
 - (void);
 - (id);
-- (id);
+- (id)d;
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *algorithm; // @synthesize algorithm=_algorithm;
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(retain, nonatomic) NSData *encryptedKey; // @synthesize encryptedKey=_encryptedKey;
-@property(readonly, nonatomic) _Bool hasAlgorithm;
-@property(readonly, nonatomic) _Bool hasEncryptedKey;
 @property(nonatomic) _Bool hasVersion;
-@property(nonatomic) int version; // @synthesize version=_version;
 
 @end
 

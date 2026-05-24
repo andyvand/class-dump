@@ -9,8 +9,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
-- (id);
+- (id)chable for initial state;
+- (id)etaController:(id)arg1 sharedTripDidBecomeAvailable:(id)arg2 ];
 - (id);
 - (void);
 

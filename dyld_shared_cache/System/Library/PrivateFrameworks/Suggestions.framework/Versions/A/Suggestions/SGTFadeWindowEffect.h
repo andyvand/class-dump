@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SGTFadeWindowEffect : SGTAnimationWindowEffect
 {
     double _initialAlpha;
-    double _finalAlpha;
 }
 
 + (id);

@@ -6,52 +6,34 @@
 
 #import <AppleMediaServicesUI/AMSUIAppearance.h>
 
-@class NSColor, NSFont, NSImage, NSImageSymbolConfiguration, NSString;
+@class NSColor;
 
 @interface AMSUIBubbleTipAppearance : AMSUIAppearance
 {
     NSColor *_accessoryButtonBackgroundColor;
-    NSColor *_accessoryButtonColor;
-    NSFont *_accessoryButtonFont;
-    NSString *_anchorIdentifier;
-    NSColor *_backgroundColor;
-    NSImage *_backgroundImage;
-    NSColor *_footerButtonBackgroundColor;
-    NSColor *_footerButtonColor;
-    NSFont *_footerButtonFont;
-    long long _iconAnimationPlayCount;
-    unsigned long long _imageStyle;
-    NSImageSymbolConfiguration *_imageSymbolConfiguration;
-    NSColor *_imageTintColor;
-    NSFont *_messageFont;
-    NSColor *_messageTextColor;
-    long long _primaryImageRenderingMode;
-    NSColor *_separatorColor;
-    NSFont *_titleFont;
-    NSColor *_titleTextColor;
 }
 
+- (void)D;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)_֩;
+- (void);
 - (void);
 - (long long);
 - (id);
-- (long long);
+- (long long)!;
+- (id);
+- (id)C;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)$;
+- (void)<';
 - (void);
 - (id);
 - (void);
@@ -61,40 +43,22 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)%@;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)onal.sse3;
 - (id)0@ù
 × ;
 - (void)setLastAccountsExport: /* Error: Ran out of types for this method. */;
-- (id)askPromise;
+- (id)taskPromise;
 - (void)úÿP;
 
 // Remaining properties
 @property(retain) NSColor *accessoryButtonBackgroundColor; // @synthesize accessoryButtonBackgroundColor=_accessoryButtonBackgroundColor;
-@property(retain) NSColor *accessoryButtonColor; // @synthesize accessoryButtonColor=_accessoryButtonColor;
-@property(retain) NSFont *accessoryButtonFont; // @synthesize accessoryButtonFont=_accessoryButtonFont;
-@property(retain) NSString *anchorIdentifier; // @synthesize anchorIdentifier=_anchorIdentifier;
-@property(retain) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain) NSImage *backgroundImage; // @synthesize backgroundImage=_backgroundImage;
-@property(retain) NSColor *footerButtonBackgroundColor; // @synthesize footerButtonBackgroundColor=_footerButtonBackgroundColor;
-@property(retain) NSColor *footerButtonColor; // @synthesize footerButtonColor=_footerButtonColor;
-@property(retain) NSFont *footerButtonFont; // @synthesize footerButtonFont=_footerButtonFont;
-@property long long iconAnimationPlayCount; // @synthesize iconAnimationPlayCount=_iconAnimationPlayCount;
-@property unsigned long long imageStyle; // @synthesize imageStyle=_imageStyle;
-@property(retain) NSImageSymbolConfiguration *imageSymbolConfiguration; // @synthesize imageSymbolConfiguration=_imageSymbolConfiguration;
-@property(retain) NSColor *imageTintColor; // @synthesize imageTintColor=_imageTintColor;
-@property(retain) NSFont *messageFont; // @synthesize messageFont=_messageFont;
-@property(retain) NSColor *messageTextColor; // @synthesize messageTextColor=_messageTextColor;
-@property long long primaryImageRenderingMode; // @synthesize primaryImageRenderingMode=_primaryImageRenderingMode;
-@property(retain) NSColor *separatorColor; // @synthesize separatorColor=_separatorColor;
-@property(retain) NSFont *titleFont; // @synthesize titleFont=_titleFont;
-@property(retain) NSColor *titleTextColor; // @synthesize titleTextColor=_titleTextColor;
 
 @end
 

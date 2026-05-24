@@ -8,16 +8,6 @@ __attribute__((visibility("hidden")))
 @interface BWStereoVideoCaptureSceneMonitor
 {
     _Bool _oneShotFocusScanInProgress;
-    _Bool _sceneTooDarkMonitoringEnabled;
-    _Bool _subjectTooCloseMonitoringEnabled;
-    _Bool _sceneIsTooDark;
-    _Bool _subjectIsTooClose;
-    double _wideMinimumValidFocusDistance;
-    float _normalizedSNRThreshold;
-    int _luxLevelThreshold;
-    double _focusDistanceThreshold;
-    double _lastWideFocusDistance;
-    double _lastSuperWideFocusDistance;
 }
 
 + (void)eMachineWithPauseMarkerBuffer:forInputIndex:inputStagingQueue:sampleBufferAlreadyAtHeadOfQueue:] /* Error: Ran out of types for this method. */;
@@ -25,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)OADVector3D;
 
 @end
 

@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLComputePipelineReflection, NSString;
-@protocol MTLDevice, MTLFunctionHandle;
+@class NSString;
+@protocol MTLFunctionHandle;
 
 @protocol MTLComputePipelineState
+- (unsigned long long);
 - (struct MTLResourceID)0@ù
 × ;
 - (unsigned long long)startBottom;
-- (MTLComputePipelineReflection *);
 - (id <MTLFunctionHandle>)±ÿ£jxÿÿÿÅ£jl±ÿ;
 - (id <MTLFunctionHandle>);
 - (long long).;
 
 // Remaining properties
-@property(readonly) id <MTLDevice> device;
-@property(readonly) struct MTLResourceID gpuResourceID;
 @property(readonly) NSString *label;
-@property(readonly) unsigned long long maxTotalThreadsPerThreadgroup;
-@property(readonly) MTLComputePipelineReflection *reflection;
-@property(readonly) CDStruct_aa0b146f requiredThreadsPerThreadgroup;
-@property(readonly, nonatomic) long long shaderValidation;
-@property(readonly) unsigned long long staticThreadgroupMemoryLength;
-@property(readonly) _Bool supportIndirectCommandBuffers;
-@property(readonly) unsigned long long threadExecutionWidth;
 @end
 

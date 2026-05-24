@@ -11,14 +11,14 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
++ (_Bool)quest!;
++ (id)tring"12;
 + (id);
 + (id);
 + (id);
-+ (id);
+- (_Bool)esponselNS_8WhatToDoE;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)nloadTask in a non-background session;
 - (unsigned long long);
 - (unsigned long long);
 

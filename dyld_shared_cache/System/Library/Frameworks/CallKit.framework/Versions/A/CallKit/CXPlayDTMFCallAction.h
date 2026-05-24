@@ -11,24 +11,22 @@
 @interface CXPlayDTMFCallAction : CXCallAction
 {
     NSString *_digits;
-    long long _type;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)e"d"glFlushTime"d"waitDisplayLinkTime"d"drawableWaitTime"d"gpuTime"d"lastDisplayLinkTime"d"prgCount"I"texCount"I"fboCount"I"vboCount"I"rboCount"I"iboCount"I"cboCount"I"vaoCount"I"fboMemory"I"rboMemory"I"vboMemory"I"iboMemory"I"cboMemory"I"texMemory"I"backBufferMemory"I"depthBuffersMemory"I"onlineShaderCount"I"onlineShaderCompilationTime"d"renderPipelineCount"I"renderPipelineCompilationTime"d"computePipelineCount"I"computePipelineCompilationTime"d"frmAvgTime"d"frmMinTime"d"frmMaxTime"d"frameTimeHistory"[60d]"frameTimeCurrentIndex"I"startTime"d"lastFrameTime"d}};
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void)enumerator with MPSectionedIdentifierListEnumerationOptionReverse set;
 - (id);
-- (void);
+- (void)y;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *digits; // @synthesize digits=_digits;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

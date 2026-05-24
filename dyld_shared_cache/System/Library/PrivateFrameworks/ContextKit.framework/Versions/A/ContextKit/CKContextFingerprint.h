@@ -15,7 +15,7 @@
 - (long long);
 - (void);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
 @property(nonatomic) long long type; // @synthesize type=_type;

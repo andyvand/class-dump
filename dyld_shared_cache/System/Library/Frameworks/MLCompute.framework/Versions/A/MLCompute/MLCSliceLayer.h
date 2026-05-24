@@ -11,8 +11,6 @@
 @interface MLCSliceLayer : MLCLayer
 {
     NSArray *_start;
-    NSArray *_end;
-    NSArray *_stride;
 }
 
 + (id);
@@ -30,9 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *end; // @synthesize end=_end;
 @property(readonly, copy, nonatomic) NSArray *start; // @synthesize start=_start;
-@property(readonly, copy, nonatomic) NSArray *stride; // @synthesize stride=_stride;
 
 @end
 

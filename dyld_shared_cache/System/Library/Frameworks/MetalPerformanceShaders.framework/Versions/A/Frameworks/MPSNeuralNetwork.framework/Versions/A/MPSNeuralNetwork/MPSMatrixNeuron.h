@@ -9,13 +9,6 @@
 @interface MPSMatrixNeuron
 {
     id <MTLBuffer> neuronAParamBuf;
-    int _neuronType;
-    float _neuronA;
-    float _neuronB;
-    float _neuronC;
-    unsigned long long _sourceNumberOfFeatureVectors;
-    unsigned long long _sourceInputFeatureChannels;
-    double _alpha;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -45,14 +38,6 @@
 @property(nonatomic) int neuronType; // @synthesize neuronType=_neuronType;
 - (void)trideInPixelsY:(id)arg1 dilationRateX:dilationRateY]:kernelWidth may not be 0 /* Error: Ran out of types for this method. */;
 - (id)nRecurrentOutputFeatures;
-
-// Remaining properties
-@property(nonatomic) double alpha; // @synthesize alpha=_alpha;
-@property(nonatomic) float neuronA; // @synthesize neuronA=_neuronA;
-@property(nonatomic) float neuronB; // @synthesize neuronB=_neuronB;
-@property(nonatomic) float neuronC; // @synthesize neuronC=_neuronC;
-@property(nonatomic) unsigned long long sourceInputFeatureChannels; // @synthesize sourceInputFeatureChannels=_sourceInputFeatureChannels;
-@property(nonatomic) unsigned long long sourceNumberOfFeatureVectors; // @synthesize sourceNumberOfFeatureVectors=_sourceNumberOfFeatureVectors;
 
 @end
 

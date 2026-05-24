@@ -6,42 +6,33 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSData, NSString;
-
 @interface INResolveObjectReferenceIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
-+ (_Bool);
++ (int)thumbnailWasJustAutomaticallyGenerated;
++ (int)imageForDescriptor:(long long)arg1;
++ (long long)generateRepresentationsForRequest:(int)arg1 updateHandler:(int)arg2;
++ (_Bool)errorWithCode:(long long)arg1 request:additionalUserInfo: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (void);
-- (void);
+- (void)=;
 - (id);
+- (id);
+- (long long)9h;
 - (id);
 - (long long);
 - (id);
-- (long long);
+- (id)initFeedbackWithStartPosition:(id)arg1 resistiveStrength: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)d state we are not in pre AJ data eval zone
+;
 - (id);
 - (id);
 - (long long)N,V_conflictingParameters;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSData *resolvedReferences;
-@property(readonly) Class superclass;
 
 @end
 

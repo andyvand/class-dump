@@ -5,5 +5,6 @@
 //
 
 @protocol BSNSXPCSending
+- (void);
 @end
 

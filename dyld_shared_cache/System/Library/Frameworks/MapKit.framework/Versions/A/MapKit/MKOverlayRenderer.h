@@ -4,25 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapView, NSMutableDictionary, NSObject, VKOverlay;
-@protocol MKOverlay, OS_dispatch_queue;
+@protocol MKOverlay;
 
 @interface MKOverlayRenderer
 {
     id <MKOverlay> _overlay;
-    CDStruct_02837cd9 _boundingMapRect;
-    VKOverlay *_renderer;
-    NSObject<OS_dispatch_queue> *_isolationQueue;
-    MKMapView *_mapView;
-    double _contentScaleFactor;
-    struct os_unfair_lock_s _runningAnimationsLock;
-    NSMutableDictionary *_runningAnimations;
-    int _blendMode;
-    double _alpha;
-    long long _extendedBlendMode;
 }
 
-- (id);
+- (id)letion:(id)arg1 ]_block_invoke;
 - (_Bool);
 - (void);
 - (void);
@@ -31,13 +20,13 @@
 - (id);
 - (struct CGPoint);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool)*;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (CDStruct_c3b9c2ee);
+- (CDStruct_2c43369c);
 - (id);
 - (void);
 - (id);
@@ -48,36 +37,32 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (long long);
 - (void);
 - (void);
 - (_Bool);
-- (CDStruct_02837cd9);
-- (void);
-- (struct CGRect);
-- (CDStruct_02837cd9);
-- (CDStruct_c3b9c2ee);
-- (void);
-- (id);
+- (CDStruct_2f492f29);
+- (void)"16@"NSString"24@?<v@?@"NSDictionary">32;
+- (struct CGRect)icReporter:(CDStruct_2f492f29)arg1 Resetting API rate limiter;
+- (CDStruct_2f492f29)case;
+- (CDStruct_2c43369c)ested session was not found;
 - (void);
 - (id);
+- (void)ityIdentificationModel"16;
+- (id)this image;
 - (double);
 - (int);
 - (void);
-- (void);
+- (void)];
 - (double);
-- (void)nsionLookupPolicy:updateHandler: /* Error: Ran out of types for this method. */;
+- (void)managerWithExtensionLookupPolicy:updateHandler: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property double alpha; // @synthesize alpha=_alpha;
-@property(nonatomic) int blendMode; // @synthesize blendMode=_blendMode;
-@property(readonly) double contentScaleFactor;
 @property(nonatomic, getter=_extendedBlendMode, setter=_setExtendedBlendMode:) long long extendedBlendMode; // @synthesize extendedBlendMode=_extendedBlendMode;
-@property(readonly, nonatomic) id <MKOverlay> overlay; // @synthesize overlay=_overlay;
 
 @end
 

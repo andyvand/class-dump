@@ -4,30 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSTextField;
+@class NSTextField;
 
 @interface RemindersUICore.TTRMComponentViewToggleComponentView
 {
     void titleTextField;
-    void checkbox;
 }
 
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
+- (void)doneFirstLayout"b1"loadingOffscreenViews"b1"updating"b1"accessibilityDelegateShouldPrepareAccessibilitySection"b1"accessibilityDelegateAXRoleDescription"b1"viewIsPrepared"b1"performingHitTest"b1};
+- (id)v32@0:8@"UXCollectionView"16@"NSIndexPath"24 /* Error: Ran out of types for this method. */;
+- (void)te;
 - (id);
 - (_Bool);
 - (id);
+- (_Bool)c;
 - (id);
 - (id);
 - (id);
+- (id)initWithURL: /* Error: Ran out of types for this method. */;
 - (void)ä!ùÿÜ\ÿ¤;
 - (id)collapse;
 
 // Remaining properties
-@property(nonatomic) __weak NSButton *checkbox; // @synthesize checkbox;
 @property(nonatomic) __weak NSTextField *titleTextField; // @synthesize titleTextField;
 
 @end

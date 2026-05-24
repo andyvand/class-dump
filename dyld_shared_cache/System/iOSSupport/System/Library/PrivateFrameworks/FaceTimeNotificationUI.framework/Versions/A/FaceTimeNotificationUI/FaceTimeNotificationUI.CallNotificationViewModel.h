@@ -8,42 +8,6 @@
 {
     id logger;
     id callCenter;
-    id call;
-    id callsReminder;
-    id callConfirmationHelper;
-    id forwardCallAction;
-    id callCenterFacade;
-    id _statusViewModel;
-    id __controlsRecipe;
-    id __trailingControlRecipe;
-    id __callHoldingAnalytics;
-    id _showingRTT;
-    id _moreMenuViewModel;
-    id _showingSecondaryMoreMenuView;
-    id _keypadViewModel;
-    id _showingKeypad;
-    id _waveformViewModel;
-    id _posterViewModel;
-    id _liveVoicemailViewController;
-    id isScreenLocked;
-    id changesCancellable;
-    id recordingCancellable;
-    id smartHoldingCancellable;
-    id waitOnHoldStatusMessageCancellable;
-    id _waitOnHoldController;
-    id _waitOnHoldService;
-    id _waitOnHoldStatusMessage;
-    id _waitOnHoldPickUpTitle;
-    id _isHoldDetected;
-    id _showWaitOnHoldErrorSymbol;
-    id _userHasDeclinedSmartHolding;
-    id _waitingForAskToShare;
-    id featureFlags;
-    id _callScreeningViewModel;
-    id _callTranslationViewModel;
-    id _audioCallRecordingViewModel;
-    id $__lazy_storage_$_controlsManager;
-    id _$observationRegistrar;
 }
 
 @end

@@ -16,7 +16,7 @@
 + (id);
 + (unsigned short);
 + (unsigned short);
-- (id);
+- (id)AMSPurchaseSIWATask;
 - (void);
 
 @end

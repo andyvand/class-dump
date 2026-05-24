@@ -7,15 +7,13 @@
 @interface IMManualUpdater
 {
     id _target;
-    SEL _action;
-    unsigned int _needsUpdate:1;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)N3ctu30DispatchRestResourceConnectionE;
 - (void);
 - (id);
 - (SEL);
@@ -24,8 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) SEL action; // @synthesize action=_action;
-@property(nonatomic) _Bool needsUpdate; // @dynamic needsUpdate;
 @property(nonatomic) __weak id target; // @synthesize target=_target;
 
 @end

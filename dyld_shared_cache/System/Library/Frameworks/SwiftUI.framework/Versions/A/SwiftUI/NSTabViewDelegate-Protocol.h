@@ -5,5 +5,8 @@
 //
 
 @protocol NSTabViewDelegate
+
+@optional
+- (void);
 @end
 

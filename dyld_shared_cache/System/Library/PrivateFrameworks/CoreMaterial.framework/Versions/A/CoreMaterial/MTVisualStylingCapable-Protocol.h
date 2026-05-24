@@ -7,10 +7,10 @@
 @class NSString;
 
 @protocol MTVisualStylingCapable
+- (void);
+- (NSString *);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *category;
 @property(copy, nonatomic) NSString *recipe;
-@property(copy, nonatomic) NSString *visualStyle;
 @end
 

@@ -5,22 +5,18 @@
 //
 
 @class NSString;
-@protocol PXDisplayAsset;
 
 @protocol PXMutableMemoryViewModel
+- (void);
+- (long long);
+- (void):(NSString *)arg1 %{public}@, entity:%{public}@):%{public}@ /* Error: Ran out of types for this method. */;
 - (void)downloadVideo(from:(struct NSEdgeInsets)arg1 );
 - (long long)­ç±';
 - (struct NSEdgeInsets);
-- (_Bool)lotProviding;
+- (_Bool)LemonadeMemoriesEntryCardTimeSlotProviding;
 - (NSString *)A¶ØrGÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool isHighlighted;
-@property(retain, nonatomic) id <PXDisplayAsset> keyAsset;
-@property(nonatomic) struct NSEdgeInsets layoutMargins;
 @property(retain, nonatomic) NSString *localizedDateText;
-@property(retain, nonatomic) NSString *localizedTitle;
-@property(nonatomic) long long specSet;
-@property(nonatomic) long long variant;
 @end
 

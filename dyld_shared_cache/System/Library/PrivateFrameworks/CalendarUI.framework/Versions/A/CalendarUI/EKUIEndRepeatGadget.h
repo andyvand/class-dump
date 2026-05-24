@@ -6,24 +6,19 @@
 
 #import <CalendarUI/EKUIDateTimeGadget.h>
 
-@class CalUIResizingTextField, EKUIPopUpButton, NSArray, NSNumber, NSString, NSTextField, NSView;
+@class NSView;
 
 @interface EKUIEndRepeatGadget : EKUIDateTimeGadget
 {
     NSView *_endRepeatContainerView;
-    EKUIPopUpButton *_endRepeatTypePicker;
-    CalUIResizingTextField *_numberOfTimesField;
-    NSTextField *_numberOfTimesLabel;
-    NSArray *_endConstraints;
-    NSNumber *_selectedWidth;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)q`;
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -33,16 +28,16 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (double);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)(;
 - (id);
 - (id);
 - (id);
@@ -55,19 +50,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSArray *endConstraints; // @synthesize endConstraints=_endConstraints;
 @property(retain) NSView *endRepeatContainerView; // @synthesize endRepeatContainerView=_endRepeatContainerView;
-@property(retain) EKUIPopUpButton *endRepeatTypePicker; // @synthesize endRepeatTypePicker=_endRepeatTypePicker;
-@property(readonly) unsigned long long hash;
-@property(retain) CalUIResizingTextField *numberOfTimesField; // @synthesize numberOfTimesField=_numberOfTimesField;
-@property(retain) NSTextField *numberOfTimesLabel; // @synthesize numberOfTimesLabel=_numberOfTimesLabel;
-@property(retain) NSNumber *selectedWidth; // @synthesize selectedWidth=_selectedWidth;
-@property(readonly) Class superclass;
 
 @end
 

@@ -10,8 +10,8 @@
 }
 
 - (id);
-- (void);
-- (void)ionDetails: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)updateWithStartNavigationDetails: /* Error: Ran out of types for this method. */;
 
 @end
 

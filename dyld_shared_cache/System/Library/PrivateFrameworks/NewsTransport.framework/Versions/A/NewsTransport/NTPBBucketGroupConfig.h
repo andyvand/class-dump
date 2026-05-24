@@ -7,32 +7,26 @@
 @interface NTPBBucketGroupConfig
 {
     long long _byteCount;
-    long long _numberOfBuckets;
-    long long _validUntilDate;
-    int _version;
 }
 
-- (void);
-- (void);
+- (void)commenterFullName;
+- (void)changeDetailsWithChangedIndexRange:(long long)arg1;
 - (void);
 - (long long);
 - (long long);
 - (int);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (long long);
+- (long long)A;
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long byteCount; // @synthesize byteCount=_byteCount;
-@property(nonatomic) long long numberOfBuckets; // @synthesize numberOfBuckets=_numberOfBuckets;
-@property(nonatomic) long long validUntilDate; // @synthesize validUntilDate=_validUntilDate;
 @property(nonatomic) int version; // @synthesize version=_version;
 
 @end

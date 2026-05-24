@@ -5,9 +5,18 @@
 //
 
 @protocol PLAssetsdLibraryInternalServiceProtocol
-- (id)ifiersWithBundleIDs:destURLs:options:resultHandler:completionHandler: /* Error: Ran out of types for this method. */;
-- (id)ateAttribute:inRange:options:usingBlock: /* Error: Ran out of types for this method. */;
-- (id)¬4	;
+- (id)k for path (%@), _fileDescriptor=%d, numAttempts=%d;
+- (id);
+- (id)clearDiagnosticMessages: /* Error: Ran out of types for this method. */;
+- (id)removeCachedThumbnailsFromUninstalledFileProvidersWithIdentifiers: /* Error: Ran out of types for this method. */;
+- (id)'3*E2,F'
+;
+- (id)s;
+- (id)mForceActivate;
+- (id)PLAudioAgent_EventInterval_ShazamRecording;
+- (id)provideFileURLAndUnwrapLivePhotoIfNeededForItemIdentifiersWithBundleIDs:destURLs:options:resultHandler:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)enumerateAttribute:inRange:options:usingBlock: /* Error: Ran out of types for this method. */;
+- (BOOL)¬4	;
 - (id)n:Keeping asset %@ /* Error: Ran out of types for this method. */;
 - (id):(%d) /* Error: Ran out of types for this method. */;
 @end

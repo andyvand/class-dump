@@ -6,21 +6,19 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class ACAccount, NSArray, NSURL;
+@class ACAccount;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebCampaignAttributionAction : AMSUIWebAction
 {
     ACAccount *_account;
-    NSArray *_additionalQueryItems;
-    NSURL *_URL;
 }
 
 + (id);
+- (id)DeviceClassNumber;
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)PLCloudPhotoLibraryEnableErrorStorageInfoKey;
+- (id)UploadedCount:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -28,9 +26,7 @@ __attribute__((visibility("hidden")))
 - (void)^v^v}iQQ^{_xmlParserNodeInfo}ii^{_xmlParserNodeInfo}iQ}16;
 
 // Remaining properties
-@property(retain) NSURL *URL; // @synthesize URL=_URL;
 @property(retain) ACAccount *account; // @synthesize account=_account;
-@property(retain) NSArray *additionalQueryItems; // @synthesize additionalQueryItems=_additionalQueryItems;
 
 @end
 

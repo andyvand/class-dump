@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface PKiCloudPrinter
 {
@@ -21,29 +21,17 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)(;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)e layout %@:base address is missing /* Error: Ran out of types for this method. */;
+- (void)tionController:,V__focusedApplicationController /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSString *customLocation;
-@property(readonly) NSString *customName;
-@property(readonly) NSString *displayName;
-@property(readonly) NSString *dnssdName;
-@property(readonly) NSArray *endPoints;
 @property(retain) NSDictionary *iCloudInfo; // @synthesize iCloudInfo=_iCloudInfo;
-@property(readonly) _Bool isFromMCProfile;
-@property(readonly) NSDate *lastUsedDate;
-@property(readonly) NSString *location;
-@property(readonly) NSData *printerImageData;
-@property(readonly) long long printerType;
-@property(readonly) NSArray *printerURLs;
-@property(readonly) NSString *uuid;
 
 @end
 

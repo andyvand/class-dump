@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, PHFeatureAvailabilityConfig, PHMediaProcessingAlgorithmVersionProvider, PHPhotoLibrary;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PHPhotoLibraryFeatureAvailabilityTask
 {
     struct os_unfair_lock_s _lock;
-    NSString *_taskID;
-    PHPhotoLibrary *_photoLibrary;
-    unsigned long long _feature;
-    NSObject<OS_dispatch_queue> *_queue;
-    PHFeatureAvailabilityConfig *_availabilityConfig;
-    PHMediaProcessingAlgorithmVersionProvider *_versionProvider;
 }
 
 + (id);
-- (id);
-- (void);
+- (id)V;
+- (void)9;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -34,15 +28,10 @@
 - (void);
 - (void)AssetsWithScenesInIndex;
 - (id)%@ ==> FOUND;
-- (unsigned long long)esourceTypeOriginalSpatialOverCapture;
+- (unsigned long long)_PHResourceLocalAvailabilityRequestResourceTypeOriginalSpatialOverCapture;
 
 // Remaining properties
-@property(readonly, nonatomic) PHFeatureAvailabilityConfig *availabilityConfig; // @synthesize availabilityConfig=_availabilityConfig;
-@property(readonly, nonatomic) unsigned long long feature; // @synthesize feature=_feature;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) NSString *taskID; // @synthesize taskID=_taskID;
-@property(readonly, nonatomic) PHMediaProcessingAlgorithmVersionProvider *versionProvider; // @synthesize versionProvider=_versionProvider;
 
 @end
 

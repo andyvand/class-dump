@@ -4,12 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @protocol XCTLogArchiveRequesting
++ (id);
+- (NSDate *);
 
 // Remaining properties
-@property(readonly, copy) NSString *outputPath;
 @property(readonly, copy) NSDate *startDate;
 @end
 

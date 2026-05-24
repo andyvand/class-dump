@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNScrollableContainerView, NSMutableArray, NSStackView, NSString;
-@protocol ABCardCollectionViewPresentationDelegate;
+@class NSStackView;
 
 @interface ABCardCollectionStackViewController
 {
     NSStackView *_stackView;
-    NSMutableArray *_items;
-    id <ABCardCollectionViewPresentationDelegate> _delegate;
-    CNScrollableContainerView *_container;
-    long long _contentInset;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -29,11 +24,11 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)ested to register the key.;
 - (long long);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -43,18 +38,7 @@
 - (void)n;
 
 // Remaining properties
-@property(retain, nonatomic) CNScrollableContainerView *container; // @synthesize container=_container;
-@property(nonatomic) long long contentInset; // @synthesize contentInset=_contentInset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <ABCardCollectionViewPresentationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableArray *items; // @synthesize items=_items;
 @property(retain, nonatomic) NSStackView *stackView; // @synthesize stackView=_stackView;
-@property(readonly) Class superclass;
 
 @end
 

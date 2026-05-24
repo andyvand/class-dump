@@ -7,7 +7,6 @@
 @interface ChatKit.DetailsConfiguredViewModel
 {
     id _config;
-    id _$observationRegistrar;
 }
 
 @end

@@ -16,9 +16,9 @@ __attribute__((visibility("hidden")))
 
 + (long long);
 - (id);
+- (void)_canUpgradeExistingMessageItem:(id)arg1 replacementReplicatedMessageItem: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void)mory;
 - (id)O;
 - (void);
 

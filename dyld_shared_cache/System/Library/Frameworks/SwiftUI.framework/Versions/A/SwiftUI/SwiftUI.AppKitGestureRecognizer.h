@@ -4,26 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SwiftUI.AppKitGestureRecognizer
 {
     id eventBridge;
-    id responder;
-    id consumptionDelegate;
-    id gestureCategory;
-    id _name;
-    id isDeterminingDynamicFailureRequirement;
-    id mouseSeeds;
-    id magnifySeed;
-    id accumulatedMagnification;
-    id rotateSeed;
-    id accumulatedRotation;
-    id potentialWindowDragEvent;
-    id isDraggingWindow;
-    id potentialAutoScrollEvent;
-    id currentAutoScrollTargetView;
-    id currentAutoScrollTask;
 }
 
 - (void);
@@ -36,15 +19,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (long long);
-- (void);
+- (void)x*x)x);
 - (long long);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)AutoFillFromiCloudKeychain;
+- (void)SupportsConditionalPasskeyRegistration;
+- (void)l-identities;
+- (void)shouldStartTrackingRegion: /* Error: Ran out of types for this method. */;
 - (long long);
 - (_Bool);
 - (id);
@@ -59,13 +42,10 @@
 - (void)Ý{N7Ä;
 - (void)nfoVisibilityKey;
 - (void);
-- (void);
+- (void)4A;
 
 // Remaining properties
 @property(nonatomic, readonly) long long buttonMask;
-@property(nonatomic, copy) NSString *name;
-@property(nonatomic, readonly) long long numberOfClicksRequired;
-@property(nonatomic, readonly) long long numberOfTouchesRequired;
 
 @end
 

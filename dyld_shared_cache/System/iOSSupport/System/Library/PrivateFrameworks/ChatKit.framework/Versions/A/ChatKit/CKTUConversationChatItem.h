@@ -6,22 +6,20 @@
 
 #import <ChatKit/CKMessagePartChatItem.h>
 
-@class NSUUID;
-
 @interface CKTUConversationChatItem : CKMessagePartChatItem
 {
     _Bool _senderUnknown;
 }
 
-- (long long);
+- (long long)removeLockWithCompletionHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)o;
+- (_Bool)l;
 - (Class);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (unsigned long long);
@@ -30,15 +28,12 @@
 - (_Bool);
 - (_Bool);
 - (BOOL);
-- (id)isplayNameForDisplayContext: /* Error: Ran out of types for this method. */;
-- (id)lcomeViewConfirmButtonFont;
+- (id)displayNameForDisplayContext: /* Error: Ran out of types for this method. */;
+- (id)ckShouldUpdatewelcomeViewConfirmButtonFont;
 - (id)¼üÿ¦üÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) BOOL color;
-@property(readonly, nonatomic) unsigned long long conversationAVMode;
-@property(readonly, nonatomic, getter=isSenderUnknown) _Bool senderUnknown; // @synthesize senderUnknown=_senderUnknown;
-@property(readonly, nonatomic) __weak NSUUID *tuConversationUUID;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNFutureCompletionBlocks, CNFutureResult, CNTask, NSConditionLock, NSString;
+@class NSConditionLock;
 
 @interface CNFutureTask
 {
     NSConditionLock *_stateLock;
-    CNFutureResult *_futureResult;
-    CNTask *_task;
-    CNFutureCompletionBlocks *_completionBlocks;
 }
 
 - (CDUnknownBlockType);
@@ -25,12 +22,12 @@
 - (CDUnknownBlockType);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool))A;
 - (_Bool);
 - (CDUnknownBlockType);
 - (id);
 - (CDUnknownBlockType);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (_Bool);
@@ -38,20 +35,12 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool)ountsAndContainers:(id)arg1;
+- (_Bool)setFilteredAccountsAndContainers:(id)arg1;
 - (void)KTK4L<LN¬O´O;
 - (void)ounts found;
 
 // Remaining properties
-@property(readonly, getter=isCancelled) _Bool cancelled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, getter=isFinished) _Bool finished;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

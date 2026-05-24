@@ -7,6 +7,7 @@
 @protocol MFMessageComposeViewControllerHelperDelegate;
 
 @protocol MFMessageComposeViewControllerHelper
+- (void)enableCacheFallbackForArticleRecirculation;
 
 // Remaining properties
 @property(nonatomic) __weak id <MFMessageComposeViewControllerHelperDelegate> delegate;

@@ -6,89 +6,25 @@
 
 #import <AVConference/VCMediaStream.h>
 
-@class AVCStatisticsCollector, NSNumber, NSObject, NSString, VCImageQueue, VCRedundancyControllerVideo, VCVideoCaptureConverter, VCVideoReceiverBase, VCVideoRule, VCVideoTransmitterBase, VideoAttributes;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore, VCVideoReceiverFeedbackDelegate;
+@class VCVideoReceiverBase;
 
 __attribute__((visibility("hidden")))
 @interface VCVideoStream : VCMediaStream
 {
     VCVideoReceiverBase *_videoReceiver;
-    long long _type;
-    NSObject<OS_dispatch_queue> *_lastDecodedFrameQueue;
-    unsigned int _uplinkOperatingBitrate;
-    struct __CVBuffer *_cachedRemoteVideoFrame;
-    VCImageQueue *_remoteQueue;
-    VCVideoTransmitterBase *_videoTransmitter;
-    VCVideoRule *_videoRule;
-    int _reportingModuleID;
-    unsigned int _reportingDefaultRealtimePeriod;
-    NSObject<OS_dispatch_semaphore> *_bufferQueueSemaphore;
-    struct opaqueCMBufferQueue *_bufferQueue;
-    VCVideoCaptureConverter *_captureConverter;
-    _Bool _isServerBasedBandwidthProbingEnabled;
-    _Bool _isEndToEndBasedBandwidthProbingEnabled;
-    unsigned char _lastMediaPriority;
-    NSNumber *_targetStreamID;
-    unsigned short _currentStreamID;
-    NSNumber *_sendingStreamID;
-    _Bool _isCompoundStreamIDsIncreased;
-    _Bool _shouldEnableFaceZoom;
-    _Bool _didReceiveFirstFrame;
-    _Bool _shouldCacheRemoteVideoFrame;
-    _Atomic _Bool _isVideoCaptureRegistered;
-    double _fecRatio;
-    int _captureSource;
-    int _streamInputCaptureSource;
-    long long _captureSourceID;
-    unsigned int _mediaQueueSizeInMillisecond;
-    unsigned int _screenDisplayID;
-    unsigned int _customWidth;
-    unsigned int _customHeight;
-    unsigned int _tilesPerFrame;
-    unsigned int _initialTargetBitrate;
-    struct OpaqueFigCFWeakReference *_weakStream;
-    AVCStatisticsCollector *_statisticsCollector;
-    VCRedundancyControllerVideo *_redundancyController;
-    int _lastDisplayedFromImageQueueCount;
-    int _lastDroppedFromImageQueueCount;
-    double _lastDecodedVideoFrameTime;
-    double _lastStatisticsCollectorVideoStallTotalUpdateTime;
-    _Bool _isRemoteMediaStalled;
-    double _lastMediaStallReportTime;
-    double _mediaStallTimeout;
-    double _mediaStallReportRepeatInterval;
-    _Bool _sendContinuousStallMessages;
-    unsigned int _rtpTimestampRate;
-    unsigned short _temporalScalingBaseLayerStreamID;
-    _Bool _isTemporalScalingEnabled;
-    CDStruct_1b6d18a9 _lastSentFrameHostTimeBeforeStop;
-    unsigned int _lastSentFrameRTPTimestampBeforeStop;
-    id _videoStreamDelegate;
-    struct tagVCVideoStreamDelegateRealtimeInstanceVTable _videoStreamDelegateFunctions;
-    struct OpaqueFigCFWeakReference *_videoReceiverFeedbackDelegateWeak;
-    id <VCVideoReceiverFeedbackDelegate> _videoReceiverFeedbackDelegateStrong;
-    struct __CFDictionary *_colorInfo;
-    unsigned int _baseQualityIndex;
-    unsigned int _cachedConnectionMTU;
-    unsigned int _constantTransportOverhead;
-    double _externalOutputVideoLatency;
-    double _initTime;
-    _Bool _haveReportedPerfTimers;
-    VideoAttributes *_cachedRemoteScreenAttributes;
-    _Bool _isListeningForThermalEvents;
 }
 
 + (void);
 + (id);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (_Bool);
++ (_Bool)C;
 + (_Bool);
 + (_Bool);
 + (id);
-- (id);
++ (_Bool);
++ (_Bool)C;
++ (_Bool);
++ (id);
+- (id);
 - (struct tagVCVideoStreamReceiverConfig);
 - (double);
 - (struct tagVCVideoReceiverDelegateRealtimeInstanceVTable);
@@ -115,7 +51,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
@@ -126,6 +62,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)s;
 - (void);
 - (void);
 - (void);
@@ -136,7 +73,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)94;
+- (void);
 - (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)6;
 - (void);
 - (void);
 - (void);
@@ -144,18 +91,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)v;
 - (void);
 - (int);
 - (int);
@@ -175,9 +111,9 @@ __attribute__((visibility("hidden")))
 - (struct tagVCNACKGeneratorStoreBagsConfig);
 - (void);
 - (void);
-- (void);
+- (void);
 - (int);
-- (void);
+- (void);
 - (int);
 - (_Bool);
 - (void);
@@ -198,8 +134,8 @@ __attribute__((visibility("hidden")))
 - (double);
 - (unsigned int);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)4_;
+- (_Bool)!;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -216,12 +152,12 @@ __attribute__((visibility("hidden")))
 - (struct __CFString *);
 - (struct __CFString *);
 - (id);
-- (unsigned int);
+- (unsigned int)";
 - (struct __CFDictionary *);
 - (void);
 - (void);
 - (double);
-- (void);
+- (void)B;
 - (void);
 - (_Bool);
 - (unsigned int);
@@ -236,16 +172,16 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (_Bool);
 - (void);
-- (void);
+- (void)k;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (double);
@@ -267,37 +203,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double activeVideoStallDuration;
-@property(nonatomic) unsigned int customHeight; // @synthesize customHeight=_customHeight;
-@property(nonatomic) unsigned int customWidth; // @synthesize customWidth=_customWidth;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didReceiveFirstFrame;
-@property(nonatomic) double fecRatio;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isCompoundStreamIDsIncreased; // @synthesize isCompoundStreamIDsIncreased=_isCompoundStreamIDsIncreased;
-@property(nonatomic) _Bool isEndToEndBasedBandwidthProbingEnabled; // @synthesize isEndToEndBasedBandwidthProbingEnabled=_isEndToEndBasedBandwidthProbingEnabled;
-@property(nonatomic) _Bool isServerBasedBandwidthProbingEnabled; // @synthesize isServerBasedBandwidthProbingEnabled=_isServerBasedBandwidthProbingEnabled;
-@property(readonly, nonatomic) _Bool isTemporalScalingEnabled; // @synthesize isTemporalScalingEnabled=_isTemporalScalingEnabled;
-@property(readonly, nonatomic) unsigned int lastDisplayedFrameRTPTimestamp;
-@property double lastSentAudioHostTime;
-@property unsigned int lastSentAudioSampleTime;
 @property(readonly) unsigned int networkMTU;
-@property(readonly, nonatomic) VCRedundancyControllerVideo *redundancyController; // @synthesize redundancyController=_redundancyController;
-@property(nonatomic) unsigned int screenDisplayID; // @synthesize screenDisplayID=_screenDisplayID;
-@property(readonly, nonatomic) NSNumber *sendingStreamID; // @synthesize sendingStreamID=_sendingStreamID;
-@property(nonatomic) _Bool shouldEnableFaceZoom; // @synthesize shouldEnableFaceZoom=_shouldEnableFaceZoom;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned int targetBitrateChangeCounter;
-@property(nonatomic) unsigned int targetEncoderBitrate;
-@property(retain, nonatomic) NSNumber *targetStreamID; // @synthesize targetStreamID=_targetStreamID;
-@property(readonly) VCVideoReceiverBase *videoReceiver; // @synthesize videoReceiver=_videoReceiver;
-@property(nonatomic, getter=getVideoReceiverFeedbackDelegate) id <VCVideoReceiverFeedbackDelegate> videoReceiverFeedbackDelegate;
-@property(readonly) double videoRxFrameRate;
-@property(readonly) VCVideoTransmitterBase *videoTransmitter; // @synthesize videoTransmitter=_videoTransmitter;
 
 @end
 

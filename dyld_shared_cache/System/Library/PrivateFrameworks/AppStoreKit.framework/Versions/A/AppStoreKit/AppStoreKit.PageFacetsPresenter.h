@@ -7,10 +7,6 @@
 @interface AppStoreKit.PageFacetsPresenter
 {
     id onFacetStateDidChange;
-    id onPerformPageFacetsChangeAction;
-    id onSelectedFacetOptionsChanged;
-    id state;
-    id workQueue;
 }
 
 @end

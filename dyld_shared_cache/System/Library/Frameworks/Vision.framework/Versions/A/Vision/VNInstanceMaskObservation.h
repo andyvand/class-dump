@@ -6,35 +6,29 @@
 
 #import <Vision/VNObservation.h>
 
-@class NSArray, NSIndexSet, _VNInstanceMaskObservationMaskProductionResources, _VNLowResAlphaMask;
+@class _VNLowResAlphaMask;
 
 @interface VNInstanceMaskObservation : VNObservation
 {
     _VNLowResAlphaMask *_lowResAlphaMask;
-    struct __CVBuffer *_instanceMask;
-    unsigned long long _numComponents;
-    struct CGRect _regionOfInterest;
-    _VNInstanceMaskObservationMaskProductionResources *_maskProductionResources_DO_NOT_DIRECTLY_ACCESS;
-    NSArray *_instanceSegmentationMaskFeatureMap;
-    NSArray *_instanceCategoriesMap;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (struct __CVBuffer *);
-- (id);
-- (id);
+- (id);
+- (struct __CVBuffer *);
 - (id);
 - (id);
+- (id);
+- (id);
 - (struct __CVBuffer *);
 - (struct __CVBuffer *);
 - (struct __CVBuffer *);
 - (struct __CVBuffer *);
 - (struct __CVBuffer *);
-- (struct __CVBuffer *);
+- (struct __CVBuffer *);
 - (struct __CVBuffer *);
 - (struct __CVBuffer *);
 - (struct __CVBuffer *);
@@ -42,7 +36,7 @@
 - (id);
 - (struct __CVBuffer *);
 - (void);
-- (id);
+- (id)fileManager:(id)arg1 shouldLinkItemAtPath:toPath: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -50,7 +44,6 @@
 - (void)ackerBBox.height = %f; ;
 
 // Remaining properties
-@property(readonly, copy) NSIndexSet *allInstances;
 @property(readonly, nonatomic) struct __CVBuffer *instanceMask; // @synthesize instanceMask=_instanceMask;
 
 @end

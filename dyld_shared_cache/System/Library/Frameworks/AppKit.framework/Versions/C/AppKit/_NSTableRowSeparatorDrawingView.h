@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
+- (void)CIPHER_HAS_NO_OBJECT_IDENTIFIER;
 - (_Bool);
 
 @end

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface MSVArtworkServiceRequest
 {
     NSMutableDictionary *_sandboxExtensions;
-    NSMutableArray *_sandboxHandles;
 }
 
 + (_Bool);
@@ -22,12 +21,11 @@
 - (Class);
 - (id);
 - (id);
-- (void);
+- (void)_suggestionsProvider;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) Class operationClass;
-@property(readonly, nonatomic) long long operationPriority;
 
 @end
 

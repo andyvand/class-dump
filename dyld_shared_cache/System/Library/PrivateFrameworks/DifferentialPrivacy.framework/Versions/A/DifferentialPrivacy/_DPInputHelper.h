@@ -11,14 +11,14 @@
     NSNumberFormatter *_fmt;
 }
 
+- (id),L;
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)_remoteAppID;
 - (id);
 
 // Remaining properties

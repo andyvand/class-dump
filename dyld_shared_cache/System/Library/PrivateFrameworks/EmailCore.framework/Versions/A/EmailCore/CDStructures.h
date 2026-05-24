@@ -17,12 +17,8 @@ struct EFAtomicObject {
 };
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
-};
-
-struct os_unfair_lock_s {
-    unsigned int _os_unfair_lock_opaque;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct sasl_callback {
@@ -38,11 +34,6 @@ struct sasl_interact {
     char *_field4;
     void *_field5;
     unsigned int _field6;
-};
-
-struct sasl_secret {
-    unsigned long long _field1;
-    unsigned char _field2[1];
 };
 
 #pragma mark Named Unions

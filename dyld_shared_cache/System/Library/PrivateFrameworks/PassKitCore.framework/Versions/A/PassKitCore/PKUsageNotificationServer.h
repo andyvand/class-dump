@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString, NSXPCListener;
-
 @interface PKUsageNotificationServer
 {
     struct os_unfair_lock_s _lock;
-    NSXPCListener *_listener;
-    NSMutableSet *_connections;
 }
 
-- (void);
-- (void);
+- (void)iB;
+- (void);
 - (id);
-- (void);
+- (void)S!;
 - (void);
 - (_Bool);
 - (void)pass after successful download;
-- (void)edential;
-- (void)PPLICATION_TYPE_TRANSIT;
+- (void)shareablecredential;
+- (void)PAYMENT_APPLICATION_TYPE_TRANSIT;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

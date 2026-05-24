@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebJSRequest
 {
     NSString *_logKey;
-    NSDictionary *_options;
-    NSString *_service;
 }
 
 + (_Bool);
+- (id)DDSAutoAssetProviderErrorDomain;
 - (id);
 - (id);
+- (void)<	M	6	>	;
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void)_notifyDelegateOfUpdatedMediaSession:(id)arg1;
 - (id);
 - (void);
 - (void)ebPageRenderMetricsPresenterWrapper";
 
 // Remaining properties
 @property(retain) NSString *logKey; // @synthesize logKey=_logKey;
-@property(retain) NSDictionary *options; // @synthesize options=_options;
-@property(readonly) NSString *service; // @synthesize service=_service;
 
 @end
 

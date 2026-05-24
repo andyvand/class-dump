@@ -6,43 +6,38 @@
 
 #import <ClassKit/CLSInsightEvent.h>
 
-@class NSArray, NSDate, NSString;
+@class NSString;
 
 @interface CLSHandoutEvent : CLSInsightEvent
 {
     NSString *_classID;
-    NSString *_handoutID;
-    NSDate *_dueDate;
-    NSArray *_recipientIDs;
-    NSArray *_attachmentDetails;
 }
 
-+ (_Bool);
++ (_Bool)_custodianUUID;
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)EDevice=0x%p programRequest=%p requestCallback=%p 
+;
+- (void)numOutputBuffers = 0 or numOutputBuffers > kANEMaxBuffers numOutputBuffers = %d
+;
+- (id)parameter = NULL;
+- (id)zd does not match available bytes %u 
+;
+- (id)l2_read_intra_conflict_cycle;
+- (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *attachmentDetails; // @synthesize attachmentDetails=_attachmentDetails;
 @property(copy, nonatomic) NSString *classID; // @synthesize classID=_classID;
-@property(retain, nonatomic) NSDate *dueDate; // @synthesize dueDate=_dueDate;
-@property(copy, nonatomic) NSString *handoutID; // @synthesize handoutID=_handoutID;
-@property(copy, nonatomic) NSArray *recipientIDs; // @synthesize recipientIDs=_recipientIDs;
 
 @end
 

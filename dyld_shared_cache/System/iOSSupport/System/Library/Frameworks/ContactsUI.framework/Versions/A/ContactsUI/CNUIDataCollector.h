@@ -4,36 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNMetricsUIReporter, NSString;
-@protocol CNUIDataCollectorSGLogger;
+@class CNMetricsUIReporter;
 
 @interface CNUIDataCollector
 {
     CNMetricsUIReporter *_metricsReporter;
-    NSString *_appIdentifier;
-    id <CNUIDataCollectorSGLogger> _sgLogger;
 }
 
 + (id);
 + (_Bool);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)(4;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void)es;
+- (id);
+- (id)setSortOrder: /* Error: Ran out of types for this method. */;
+- (id)%02hhx;
+- (void)allSupportedActionTypes;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *appIdentifier; // @synthesize appIdentifier=_appIdentifier;
 @property(readonly, nonatomic) CNMetricsUIReporter *metricsReporter; // @synthesize metricsReporter=_metricsReporter;
-@property(readonly, nonatomic) id <CNUIDataCollectorSGLogger> sgLogger; // @synthesize sgLogger=_sgLogger;
 
 @end
 

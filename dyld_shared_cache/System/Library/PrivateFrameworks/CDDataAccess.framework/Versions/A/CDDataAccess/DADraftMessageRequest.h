@@ -11,20 +11,18 @@
 @interface DADraftMessageRequest : DAMailboxRequest
 {
     _Bool _send;
-    DAMailMessage *_message;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)`B;
 - (id);
 - (id);
 - (void);
-- (_Bool)erverId: /* Error: Ran out of types for this method. */;
+- (_Bool)setServerId: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) DAMailMessage *message; // @synthesize message=_message;
-@property(nonatomic) _Bool send; // @synthesize send=_send;
 
 @end
 

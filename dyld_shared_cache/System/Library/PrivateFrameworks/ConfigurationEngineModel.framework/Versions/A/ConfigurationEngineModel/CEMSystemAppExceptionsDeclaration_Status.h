@@ -11,11 +11,11 @@
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)rChannelStreams(input.GetStreamFormat())=%u; kAudio_ParamError;
 
 @end
 

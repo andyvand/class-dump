@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface WBSBrowsingDataExportController
 {
     unsigned long long _selectedBrowsingDataExportTypes;
-    NSSet *_profileIdentifiersToExportFrom;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -39,10 +38,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *exportErrorAlertMessage;
 @property(readonly, copy, nonatomic) NSString *exportErrorAlertTitle;
-@property(copy, nonatomic) NSSet *profileIdentifiersToExportFrom; // @synthesize profileIdentifiersToExportFrom=_profileIdentifiersToExportFrom;
-@property(nonatomic) unsigned long long selectedBrowsingDataExportTypes; // @synthesize selectedBrowsingDataExportTypes=_selectedBrowsingDataExportTypes;
 
 @end
 

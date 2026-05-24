@@ -9,13 +9,12 @@
 @interface IPATrimOperation : IPAVideoOperation
 {
     CDStruct_1b6d18a9 _startTime;
-    CDStruct_1b6d18a9 _endTime;
 }
 
-- (id);
-- (CDStruct_e83c9415);
-- (_Bool);
-- (id);
+- (id)So17OS_dispatch_queueC;
+- (CDStruct_e83c9415)So29AVMetricEventStreamSubscriber_p;
+- (_Bool)status;
+- (id)AVFoundation;
 - (id);
 - (CDStruct_1b6d18a9);
 - (id);
@@ -26,9 +25,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_1b6d18a9 endTime; // @synthesize endTime=_endTime;
 @property(readonly, nonatomic) CDStruct_1b6d18a9 startTime; // @synthesize startTime=_startTime;
-@property(readonly, nonatomic) CDStruct_e83c9415 trimRange;
 
 @end
 

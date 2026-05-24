@@ -9,13 +9,6 @@
 @interface Network.NWProtocolQUICConnection.Options : Network._NWProtocolOptions
 {
     id _idleTimeout;
-    id _maxUDPPayloadSize;
-    id _initialMaxData;
-    id _initialMaxStreamDataBidirectionalRemote;
-    id _initialMaxStreamDataBidirectionalLocal;
-    id _initialMaxStreamDataUnidirectional;
-    id _initialMaxStreamsBidirectional;
-    id _initialMaxStreamsUnidirectional;
 }
 
 @end

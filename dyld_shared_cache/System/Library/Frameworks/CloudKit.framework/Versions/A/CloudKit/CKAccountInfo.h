@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CKAccountInfo
 {
     _Bool _hasValidCredentials;
-    _Bool _needsToVerifyTerms;
-    _Bool _isFromCache;
-    _Bool _bypassPCSEncryption;
-    _Bool _hasEncryptionIdentity;
-    long long _validationCounter;
-    long long _accountStatus;
-    long long _accountPartition;
-    long long _deviceToDeviceEncryptionAvailability;
-    long long _walrusStatus;
-    long long _accountAccessAuthorization;
-    NSString *_identifier;
 }
 
 + (long long);
@@ -29,7 +16,7 @@
 + (long long);
 + (id);
 + (_Bool);
-+ (void)nceAction;
++ (void)referenceAction;
 - (_Bool);
 - (void);
 - (void);
@@ -40,18 +27,18 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)?;
+- (unsigned long long)newComputePipelineStateWithFunction:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (long long);
-- (void);
+- (void);
 - (long long);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (long long);
+- (long long)Z;
 - (void);
 - (_Bool);
 - (void);
@@ -59,23 +46,12 @@
 - (id);
 - (_Bool);
 - (void);
-- (void)neFetchCompletionBlock_wrapper;
+- (void)recordZoneFetchCompletionBlock_wrapper;
 - (long long)$;
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long accountPartition; // @synthesize accountPartition=_accountPartition;
-@property(nonatomic) long long accountStatus; // @synthesize accountStatus=_accountStatus;
-@property(nonatomic) _Bool bypassPCSEncryption; // @synthesize bypassPCSEncryption=_bypassPCSEncryption;
-@property(readonly, nonatomic) long long deviceToDeviceDataPrivacyStatus;
-@property(nonatomic) long long deviceToDeviceEncryptionAvailability; // @synthesize deviceToDeviceEncryptionAvailability=_deviceToDeviceEncryptionAvailability;
-@property _Bool hasEncryptionIdentity; // @synthesize hasEncryptionIdentity=_hasEncryptionIdentity;
-@property(nonatomic) _Bool hasValidCredentials; // @synthesize hasValidCredentials=_hasValidCredentials;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(nonatomic) _Bool isFromCache; // @synthesize isFromCache=_isFromCache;
-@property(readonly, nonatomic) _Bool needsToVerifyTerms; // @synthesize needsToVerifyTerms=_needsToVerifyTerms;
-@property(nonatomic) _Bool supportsDeviceToDeviceEncryption;
-@property(readonly, nonatomic) long long walrusStatus; // @synthesize walrusStatus=_walrusStatus;
 
 @end
 

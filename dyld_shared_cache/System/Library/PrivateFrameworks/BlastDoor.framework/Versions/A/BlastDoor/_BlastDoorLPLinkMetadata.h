@@ -4,55 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSItemProvider, NSString, NSURL, _BlastDoorLPARAsset, _BlastDoorLPARAssetMetadata, _BlastDoorLPAudio, _BlastDoorLPAudioMetadata, _BlastDoorLPIconMetadata, _BlastDoorLPImage, _BlastDoorLPImageMetadata, _BlastDoorLPPlatformColor, _BlastDoorLPSpecializationMetadata, _BlastDoorLPVideo, _BlastDoorLPVideoMetadata, _SWCollaborationMetadata;
-
 @interface _BlastDoorLPLinkMetadata
 {
     _Bool _usesActivityPub;
-    unsigned int _version;
-    NSURL *_originalURL;
-    NSURL *_URL;
-    NSString *_title;
-    NSItemProvider *_iconProvider;
-    NSItemProvider *_imageProvider;
-    NSItemProvider *_videoProvider;
-    NSURL *_remoteVideoURL;
-    NSString *_summary;
-    NSString *_selectedText;
-    NSString *_siteName;
-    NSString *_itemType;
-    NSURL *_relatedURL;
-    NSString *_creator;
-    NSString *_creatorFacebookProfile;
-    NSString *_creatorTwitterUsername;
-    NSString *_twitterCard;
-    NSString *_appleContentID;
-    NSString *_appleSummary;
-    _BlastDoorLPPlatformColor *_themeColor;
-    _BlastDoorLPARAsset *_arAsset;
-    _BlastDoorLPARAssetMetadata *_arAssetMetadata;
-    _BlastDoorLPImage *_icon;
-    _BlastDoorLPIconMetadata *_iconMetadata;
-    _BlastDoorLPImage *_image;
-    NSArray *_alternateImages;
-    NSArray *_contentImages;
-    NSArray *_contentImagesMetadata;
-    _BlastDoorLPImageMetadata *_imageMetadata;
-    _BlastDoorLPVideo *_video;
-    _BlastDoorLPVideoMetadata *_videoMetadata;
-    _BlastDoorLPAudio *_audio;
-    _BlastDoorLPAudioMetadata *_audioMetadata;
-    NSArray *_arAssets;
-    NSArray *_icons;
-    NSArray *_images;
-    NSArray *_availableContentImages;
-    NSArray *_videos;
-    NSArray *_streamingVideos;
-    NSArray *_audios;
-    _SWCollaborationMetadata *_collaborationMetadata;
-    _BlastDoorLPSpecializationMetadata *_specialization;
-    NSURL *_albumURL;
-    NSURL *_artistURL;
 }
 
 + (id);
@@ -66,6 +20,7 @@
 - (void);
 - (void);
 - (void);
+- (void)4;
 - (void);
 - (void);
 - (void);
@@ -74,8 +29,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -92,11 +46,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)2
+
+Jy;
 - (id);
 - (id);
 - (_Bool);
@@ -111,21 +67,21 @@
 - (id);
 - (id);
 - (void);
+- (void)IDropSession>"24;
+- (id);
+- (id)setQueuedMediaObjects: /* Error: Ran out of types for this method. */;
+- (id)L;
+- (void);
+- (id)dateCloseButtonSpacing;
+- (void)totalSpaceOfNonPurgeableAttachments;
+- (id)troller) Filter mode selected with command:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
 - (void);
 - (id);
 - (id);
-- (id);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)T	;
 - (void);
 - (id);
 - (void);
@@ -148,11 +104,11 @@
 - (id);
 - (_Bool);
 - (void);
+- (id)U;
+- (void)3;
 - (id);
-- (void);
 - (id);
-- (id);
-- (id)edRichCards;
+- (id)attributedRichCards;
 - (void);
 - (id)0;
 - (void)W=
@@ -162,52 +118,7 @@
 - (id)¥ü;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;
 @property(readonly, nonatomic) unsigned long long _encodedSize;
-@property(copy, nonatomic) NSURL *albumURL; // @synthesize albumURL=_albumURL;
-@property(copy, nonatomic) NSArray *alternateImages; // @synthesize alternateImages=_alternateImages;
-@property(copy, nonatomic) NSString *appleContentID; // @synthesize appleContentID=_appleContentID;
-@property(copy, nonatomic) NSString *appleSummary; // @synthesize appleSummary=_appleSummary;
-@property(retain, nonatomic) _BlastDoorLPARAsset *arAsset; // @synthesize arAsset=_arAsset;
-@property(retain, nonatomic) _BlastDoorLPARAssetMetadata *arAssetMetadata; // @synthesize arAssetMetadata=_arAssetMetadata;
-@property(copy, nonatomic) NSArray *arAssets; // @synthesize arAssets=_arAssets;
-@property(copy, nonatomic) NSURL *artistURL; // @synthesize artistURL=_artistURL;
-@property(retain, nonatomic) _BlastDoorLPAudio *audio; // @synthesize audio=_audio;
-@property(retain, nonatomic) _BlastDoorLPAudioMetadata *audioMetadata; // @synthesize audioMetadata=_audioMetadata;
-@property(copy, nonatomic) NSArray *audios; // @synthesize audios=_audios;
-@property(copy, nonatomic) NSArray *availableContentImages; // @synthesize availableContentImages=_availableContentImages;
-@property(copy, nonatomic) _SWCollaborationMetadata *collaborationMetadata; // @synthesize collaborationMetadata=_collaborationMetadata;
-@property(copy, nonatomic) NSArray *contentImages; // @synthesize contentImages=_contentImages;
-@property(copy, nonatomic) NSArray *contentImagesMetadata; // @synthesize contentImagesMetadata=_contentImagesMetadata;
-@property(copy, nonatomic) NSString *creator; // @synthesize creator=_creator;
-@property(copy, nonatomic) NSString *creatorFacebookProfile; // @synthesize creatorFacebookProfile=_creatorFacebookProfile;
-@property(copy, nonatomic) NSString *creatorTwitterUsername; // @synthesize creatorTwitterUsername=_creatorTwitterUsername;
-@property(retain, nonatomic) _BlastDoorLPImage *icon; // @synthesize icon=_icon;
-@property(retain, nonatomic) _BlastDoorLPIconMetadata *iconMetadata; // @synthesize iconMetadata=_iconMetadata;
-@property(retain, nonatomic) NSItemProvider *iconProvider; // @synthesize iconProvider=_iconProvider;
-@property(copy, nonatomic) NSArray *icons; // @synthesize icons=_icons;
-@property(retain, nonatomic) _BlastDoorLPImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) _BlastDoorLPImageMetadata *imageMetadata; // @synthesize imageMetadata=_imageMetadata;
-@property(retain, nonatomic) NSItemProvider *imageProvider; // @synthesize imageProvider=_imageProvider;
-@property(copy, nonatomic) NSArray *images; // @synthesize images=_images;
-@property(copy, nonatomic) NSString *itemType; // @synthesize itemType=_itemType;
-@property(retain, nonatomic) NSURL *originalURL; // @synthesize originalURL=_originalURL;
-@property(copy, nonatomic) NSURL *relatedURL; // @synthesize relatedURL=_relatedURL;
-@property(retain, nonatomic) NSURL *remoteVideoURL; // @synthesize remoteVideoURL=_remoteVideoURL;
-@property(copy, nonatomic) NSString *selectedText; // @synthesize selectedText=_selectedText;
-@property(copy, nonatomic) NSString *siteName; // @synthesize siteName=_siteName;
-@property(copy, nonatomic) _BlastDoorLPSpecializationMetadata *specialization; // @synthesize specialization=_specialization;
-@property(copy, nonatomic) NSArray *streamingVideos; // @synthesize streamingVideos=_streamingVideos;
-@property(copy, nonatomic) NSString *summary; // @synthesize summary=_summary;
-@property(copy, nonatomic) _BlastDoorLPPlatformColor *themeColor; // @synthesize themeColor=_themeColor;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSString *twitterCard; // @synthesize twitterCard=_twitterCard;
-@property(nonatomic) _Bool usesActivityPub; // @synthesize usesActivityPub=_usesActivityPub;
-@property(readonly, nonatomic) unsigned int version; // @synthesize version=_version;
-@property(retain, nonatomic) _BlastDoorLPVideo *video; // @synthesize video=_video;
-@property(retain, nonatomic) _BlastDoorLPVideoMetadata *videoMetadata; // @synthesize videoMetadata=_videoMetadata;
-@property(retain, nonatomic) NSItemProvider *videoProvider; // @synthesize videoProvider=_videoProvider;
-@property(copy, nonatomic) NSArray *videos; // @synthesize videos=_videos;
 
 @end
 

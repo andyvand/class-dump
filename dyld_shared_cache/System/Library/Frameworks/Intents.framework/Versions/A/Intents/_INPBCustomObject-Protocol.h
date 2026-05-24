@@ -7,23 +7,17 @@
 @class NSArray, NSString, _INPBImageValue;
 
 @protocol _INPBCustomObject
-- (void)tTTYType:(NSString *)arg1;
-- (NSString *)UTIs;
++ (Class);
+- (NSString *)fetchCollectionItemsWithCompletion: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void);
+- (void)odingKeys33_06FE7286EE86D3BAB68533216BA86AE9LLO;
+- (void)setTTYType:(NSString *)arg1;
+- (NSString *)CustomUTIs;
 - (void)n:(_INPBImageValue *)arg1;
 - (_INPBImageValue *)hP?A;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *alternatives;
-@property(readonly, nonatomic) unsigned long long alternativesCount;
-@property(retain, nonatomic) _INPBImageValue *displayImage;
-@property(copy, nonatomic) NSString *displayString;
-@property(readonly, nonatomic) _Bool hasDisplayImage;
-@property(readonly, nonatomic) _Bool hasDisplayString;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasPronunciationHint;
-@property(readonly, nonatomic) _Bool hasSubtitleString;
-@property(copy, nonatomic) NSString *identifier;
-@property(copy, nonatomic) NSString *pronunciationHint;
-@property(copy, nonatomic) NSString *subtitleString;
 @end
 

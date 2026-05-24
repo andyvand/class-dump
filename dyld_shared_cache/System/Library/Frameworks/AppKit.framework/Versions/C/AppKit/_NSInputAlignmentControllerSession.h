@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSInputAlignmentController, NSInputAlignmentFilter, _NSInputAlignmentItem;
+@class _NSInputAlignmentItem;
 
 @interface _NSInputAlignmentControllerSession
 {
     _NSInputAlignmentItem *_item;
-    NSInputAlignmentController *_controller;
-    NSArray *_alignmentGuidesAffectingItem;
-    NSInputAlignmentFilter *_activeFilter;
 }
 
-- (void);
+- (void)VolumeDownButtonNormalizedCGRect;
 - (id);
 - (id);
-- (void);
+- (void);
 
 @end
 

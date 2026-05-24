@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id)nteraction"16q24;
-- (SEL)iting;
+- (SEL)UIClearsOnBeginEditing;
 - (void);
 
 // Remaining properties

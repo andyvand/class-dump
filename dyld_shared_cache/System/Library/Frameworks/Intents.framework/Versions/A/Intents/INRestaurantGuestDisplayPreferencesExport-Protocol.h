@@ -5,15 +5,12 @@
 //
 
 @protocol INRestaurantGuestDisplayPreferencesExport
+- (void);
+- (void)j;
+- (_Bool);
+- (_Bool);
 
 // Remaining properties
-@property _Bool emailAddressEditable;
-@property _Bool emailAddressFieldShouldBeDisplayed;
-@property _Bool nameEditable;
 @property _Bool nameFieldFirstNameOptional;
-@property _Bool nameFieldLastNameOptional;
-@property _Bool nameFieldShouldBeDisplayed;
-@property _Bool phoneNumberEditable;
-@property _Bool phoneNumberFieldShouldBeDisplayed;
 @end
 

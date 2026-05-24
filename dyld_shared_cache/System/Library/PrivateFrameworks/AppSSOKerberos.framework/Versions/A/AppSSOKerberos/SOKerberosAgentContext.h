@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, SOADSiteDiscovery, SOAuthorizationWrapper, SOFullProfile, SOKerberosExtensionData, SOKerberosRealmSettings, SONetworkIdentity;
+@class SOFullProfile;
 
 @interface SOKerberosAgentContext
 {
     _Bool _authRequestPending;
-    _Bool _discoveryInProgress;
-    NSOperationQueue *_contextNetworkWorkQueue;
-    NSOperationQueue *_contextKerberosWorkQueue;
-    SOFullProfile *_profile;
-    SOKerberosRealmSettings *_settings;
-    SOKerberosExtensionData *_extensionData;
-    SONetworkIdentity *_identity;
-    SOADSiteDiscovery *_siteDiscovery;
-    SOAuthorizationWrapper *_authWrapper;
-    SOAuthorizationWrapper *_receivedTGTAuthWrapper;
-    SOAuthorizationWrapper *_passwordSyncAuthWrapper;
-    SOAuthorizationWrapper *_passwordChangeAuthWrapper;
 }
 
 - (id);
@@ -42,28 +30,16 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
+- (id)?;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property _Bool authRequestPending; // @synthesize authRequestPending=_authRequestPending;
-@property(retain) SOAuthorizationWrapper *authWrapper; // @synthesize authWrapper=_authWrapper;
-@property(readonly) NSOperationQueue *contextKerberosWorkQueue; // @synthesize contextKerberosWorkQueue=_contextKerberosWorkQueue;
-@property(readonly) NSOperationQueue *contextNetworkWorkQueue; // @synthesize contextNetworkWorkQueue=_contextNetworkWorkQueue;
-@property _Bool discoveryInProgress; // @synthesize discoveryInProgress=_discoveryInProgress;
-@property(retain) SOKerberosExtensionData *extensionData; // @synthesize extensionData=_extensionData;
-@property(retain) SONetworkIdentity *identity; // @synthesize identity=_identity;
-@property(retain) SOAuthorizationWrapper *passwordChangeAuthWrapper; // @synthesize passwordChangeAuthWrapper=_passwordChangeAuthWrapper;
-@property(retain) SOAuthorizationWrapper *passwordSyncAuthWrapper; // @synthesize passwordSyncAuthWrapper=_passwordSyncAuthWrapper;
 @property(retain) SOFullProfile *profile; // @synthesize profile=_profile;
-@property(retain) SOAuthorizationWrapper *receivedTGTAuthWrapper; // @synthesize receivedTGTAuthWrapper=_receivedTGTAuthWrapper;
-@property(retain) SOKerberosRealmSettings *settings; // @synthesize settings=_settings;
-@property(retain) SOADSiteDiscovery *siteDiscovery; // @synthesize siteDiscovery=_siteDiscovery;
 
 @end
 

@@ -8,14 +8,6 @@ __attribute__((visibility("hidden")))
 @interface VCMediaNegotiationBlobMomentsSettings
 {
     unsigned int _capabilities;
-    unsigned int _multiwayCapabilities;
-    unsigned int _supportedImageTypes;
-    unsigned int _supportedVideoCodecs;
-    struct {
-        unsigned int multiwayCapabilities:1;
-        unsigned int supportedImageTypes:1;
-        unsigned int supportedVideoCodecs:1;
-    } _has;
 }
 
 + (unsigned int);
@@ -23,38 +15,32 @@ __attribute__((visibility("hidden")))
 - (unsigned int);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (unsigned int);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)H;
 - (id);
 - (void);
-- (void);
+- (void)T;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (unsigned int);
+- (void);
+- (unsigned int);
 - (id);
 - (unsigned int);
 - (id);
 
 // Remaining properties
 @property(nonatomic) unsigned int capabilities; // @synthesize capabilities=_capabilities;
-@property(nonatomic) _Bool hasMultiwayCapabilities;
-@property(nonatomic) _Bool hasSupportedImageTypes;
-@property(nonatomic) _Bool hasSupportedVideoCodecs;
-@property(nonatomic) unsigned int multiwayCapabilities; // @synthesize multiwayCapabilities=_multiwayCapabilities;
-@property(nonatomic) unsigned int supportedImageTypes; // @synthesize supportedImageTypes=_supportedImageTypes;
-@property(nonatomic) unsigned int supportedVideoCodecs; // @synthesize supportedVideoCodecs=_supportedVideoCodecs;
 
 @end
 

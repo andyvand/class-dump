@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMServiceReachabilityRequest, IMServiceReachabilityResult, NSArray, NSDate, NSMapTable, NSString;
+@class IMServiceReachabilityRequest, NSMapTable;
 
 @interface _IMDRelayPendingServiceReachabilityRequest
 {
     NSMapTable *_responseHandlers;
-    NSArray *_sentToDevices;
-    IMServiceReachabilityResult *_lastResult;
-    NSDate *_lastUpdateTime;
-    IMServiceReachabilityRequest *_originalRequest;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)y;
 - (id);
-- (id);
+- (id)_featureListStringFixedPositionH264;
 - (void);
 - (id);
 - (void);
@@ -32,12 +28,7 @@
 - (id)nslation command on service:%s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) IMServiceReachabilityResult *lastResult; // @synthesize lastResult=_lastResult;
-@property(retain, nonatomic) NSDate *lastUpdateTime; // @synthesize lastUpdateTime=_lastUpdateTime;
 @property(retain, nonatomic) IMServiceReachabilityRequest *originalRequest; // @synthesize originalRequest=_originalRequest;
-@property(readonly, nonatomic) NSString *requestID;
-@property(retain, nonatomic) NSMapTable *responseHandlers; // @synthesize responseHandlers=_responseHandlers;
-@property(retain, nonatomic) NSArray *sentToDevices; // @synthesize sentToDevices=_sentToDevices;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UICarPlayApplicationSceneSettings, UIScene, UITraitCollection;
+@class UICarPlayApplicationSceneSettings, UIScene;
 
 __attribute__((visibility("hidden")))
 @interface _UICarPlaySceneComponent
@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (id);
-- (_Bool);
-- (void);
-- (id)ions:emojiList:inlineCompletionList:proactiveTriggers: /* Error: Ran out of types for this method. */;
+- (_Bool)SDySSSo18NSAttributedStringCG;
+- (void)is enabled;
+- (id)listWithCorrections:predictions:emojiList:inlineCompletionList:proactiveTriggers: /* Error: Ran out of types for this method. */;
 - (id);
 - (void):0 /* Error: Ran out of types for this method. */;
 - (id)O ;
@@ -24,21 +24,7 @@ __attribute__((visibility("hidden")))
 - (id)ÿ£úØ@wd;
 
 // Remaining properties
-@property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene; // @synthesize _scene;
-@property(readonly, nonatomic) UITraitCollection *_traitOverrides;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UITraitCollection",?,R,N
-
-@property(readonly, nonatomic) _Bool blackWallpaperModeEnabled;
 @property(readonly, nonatomic) UICarPlayApplicationSceneSettings *carPlaySceneSettings;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool disableFiveRowKeyboards;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

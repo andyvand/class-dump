@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor;
-
 @protocol AKStrokedAnnotationProtocol
+- (_Bool)g wallet keys:%@ /* Error: Ran out of types for this method. */;
+- (_Bool);
 
 // Remaining properties
-@property long long brushStyle;
-@property(getter=isDashed) _Bool dashed;
-@property _Bool hasShadow;
-@property(copy) NSColor *strokeColor;
-@property(retain) NSColor *strokeColorHDR;
-@property(retain) NSColor *strokeColorSDR;
 @property double strokeWidth;
 @end
 

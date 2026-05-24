@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void)layConfig;
+- (void)displayConfig;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *titleText;

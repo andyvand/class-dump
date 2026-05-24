@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol NSISEngineDelegate;
-
 @protocol _NSToolbarItemLayoutWrapper
 - (struct CGSize)
 × ;
 - (struct CGSize):%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) struct CGSize maxSize;
 @property(readonly) struct CGSize minSize;
-@property __weak NSObject<NSISEngineDelegate> *secondaryEngineDelegate;
 @end
 

@@ -4,57 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKCameraDeviceViewHandler, IKPathPopupButton, NSButton, NSPopover, NSSegmentedControl, NSSlider, NSTextField, NSView;
+@class IKCameraDeviceViewHandler;
 
 __attribute__((visibility("hidden")))
 @interface IKCameraBackgroundView
 {
     IKCameraDeviceViewHandler *_cameraViewHandler;
-    NSSlider *_iconSlider;
-    NSSegmentedControl *_modeSwitch;
-    NSSegmentedControl *_rotateLeftButton;
-    NSSegmentedControl *_deleteButton;
-    _Bool _hideDeleteButton;
-    _Bool _statusAsWindowSubtitle;
-    _Bool _hasBottomFiller;
-    _Bool _hasBottomSeparator;
-    _Bool _sliderEnabled;
-    _Bool _sliderHidden;
-    NSView *_container;
-    NSTextField *_downloadToLabel;
-    IKPathPopupButton *_downloadToPopupButton;
-    NSTextField *_statusInfo1;
-    NSTextField *_statusInfo2;
-    NSSlider *_xibIconSizeControl;
-    NSSegmentedControl *_xibModeControl;
-    NSSegmentedControl *_xibRotateControl;
-    NSSegmentedControl *_xibDeleteControl;
-    NSButton *_xibDownloadControl;
-    NSButton *_xibDownloadAllControl;
-    id _auxIconSizeControl;
-    id _auxModeControl;
-    id _auxActionControl;
-    id _auxRotateControl;
-    id _auxDeleteControl;
-    id _auxDownloadControl;
-    id _auxDownloadAllControl;
-    NSSlider *_iconSizeControl;
-    NSSegmentedControl *_modeControl;
-    NSSegmentedControl *_actionControl;
-    NSSegmentedControl *_rotateControl;
-    NSSegmentedControl *_deleteControl;
-    NSButton *_downloadControl;
-    NSButton *_downloadAllControl;
-    double _sliderMaxValue;
-    double _sliderValue;
-    NSPopover *_popover;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)i;
 - (id);
 - (void);
 - (void);
@@ -82,8 +44,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)
+;
 - (void);
 - (void);
 - (void);
@@ -105,7 +68,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -115,9 +78,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
-- (struct CGRect);
+- (struct CGRect));
 - (void);
 - (id);
 - (id);
@@ -148,7 +111,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)transientAssetCollectionWithAssetFetchResult:(id)arg1 title: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)ið!,BùQîÐ1Â0@ù
 × ;
@@ -156,41 +119,7 @@ __attribute__((visibility("hidden")))
 - (void)¼Ë¬;
 
 // Remaining properties
-@property NSSegmentedControl *actionControl; // @synthesize actionControl=_actionControl;
-@property id auxActionControl; // @synthesize auxActionControl=_auxActionControl;
-@property id auxDeleteControl; // @synthesize auxDeleteControl=_auxDeleteControl;
-@property id auxDownloadAllControl; // @synthesize auxDownloadAllControl=_auxDownloadAllControl;
-@property id auxDownloadControl; // @synthesize auxDownloadControl=_auxDownloadControl;
-@property id auxIconSizeControl; // @synthesize auxIconSizeControl=_auxIconSizeControl;
-@property id auxModeControl; // @synthesize auxModeControl=_auxModeControl;
-@property id auxRotateControl; // @synthesize auxRotateControl=_auxRotateControl;
 @property IKCameraDeviceViewHandler *cameraViewHandler; // @synthesize cameraViewHandler=_cameraViewHandler;
-@property NSView *container; // @synthesize container=_container;
-@property NSSegmentedControl *deleteControl; // @synthesize deleteControl=_deleteControl;
-@property NSButton *downloadAllControl; // @synthesize downloadAllControl=_downloadAllControl;
-@property NSButton *downloadControl; // @synthesize downloadControl=_downloadControl;
-@property NSTextField *downloadToLabel; // @synthesize downloadToLabel=_downloadToLabel;
-@property IKPathPopupButton *downloadToPopupButton; // @synthesize downloadToPopupButton=_downloadToPopupButton;
-@property _Bool hasBottomFiller; // @synthesize hasBottomFiller=_hasBottomFiller;
-@property _Bool hasBottomSeparator; // @synthesize hasBottomSeparator=_hasBottomSeparator;
-@property(nonatomic) _Bool hideDeleteButton; // @synthesize hideDeleteButton=_hideDeleteButton;
-@property NSSlider *iconSizeControl; // @synthesize iconSizeControl=_iconSizeControl;
-@property NSSegmentedControl *modeControl; // @synthesize modeControl=_modeControl;
-@property NSPopover *popover; // @synthesize popover=_popover;
-@property NSSegmentedControl *rotateControl; // @synthesize rotateControl=_rotateControl;
-@property(nonatomic) _Bool sliderEnabled; // @synthesize sliderEnabled=_sliderEnabled;
-@property(nonatomic) _Bool sliderHidden; // @synthesize sliderHidden=_sliderHidden;
-@property(nonatomic) double sliderMaxValue; // @synthesize sliderMaxValue=_sliderMaxValue;
-@property(nonatomic) double sliderValue; // @synthesize sliderValue=_sliderValue;
-@property _Bool statusAsWindowSubtitle; // @synthesize statusAsWindowSubtitle=_statusAsWindowSubtitle;
-@property NSTextField *statusInfo1; // @synthesize statusInfo1=_statusInfo1;
-@property NSTextField *statusInfo2; // @synthesize statusInfo2=_statusInfo2;
-@property NSSegmentedControl *xibDeleteControl; // @synthesize xibDeleteControl=_xibDeleteControl;
-@property NSButton *xibDownloadAllControl; // @synthesize xibDownloadAllControl=_xibDownloadAllControl;
-@property NSButton *xibDownloadControl; // @synthesize xibDownloadControl=_xibDownloadControl;
-@property NSSlider *xibIconSizeControl; // @synthesize xibIconSizeControl=_xibIconSizeControl;
-@property NSSegmentedControl *xibModeControl; // @synthesize xibModeControl=_xibModeControl;
-@property NSSegmentedControl *xibRotateControl; // @synthesize xibRotateControl=_xibRotateControl;
 
 @end
 

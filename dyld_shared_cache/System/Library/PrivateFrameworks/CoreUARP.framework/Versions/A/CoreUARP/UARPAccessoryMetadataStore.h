@@ -4,54 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableDictionary, NSObject, NSURL;
-@protocol OS_dispatch_queue, OS_os_log;
+@class NSURL;
 
 @interface UARPAccessoryMetadataStore
 {
     _Bool _isReadOnly;
-    NSURL *_metadataDirectoryURL;
-    NSURL *_tokenFileURL;
-    NSData *_iCloudChangeToken;
-    NSMutableDictionary *_metadataCache;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_os_log> *_log;
 }
 
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
-- (id);
+- (id)1";
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
+- (id)fer mirrors. No files will be transfered for this request. Error:(id)arg1 %@;
+- (_Bool)s %s is not from an active CT subscription. set hasAccountsOnService=%{bool}d;
+- (id)ing for observation changes with initial hasObserver value:(id)arg1 %{bool}d;
+- (id)unction correctly:(unsigned long long)arg1 %@;
+- (id)nguage, translation skipped;
+- (id)MRXPC_CLIENT_ERROR_DATA_KEY;
+- (id)AMSMediaRestrictionsPerformer;
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)B;
 - (id);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly) NSObject<OS_dispatch_queue> *accessQueue; // @synthesize accessQueue=_accessQueue;
-@property(copy) NSData *iCloudChangeToken; // @synthesize iCloudChangeToken=_iCloudChangeToken;
-@property(readonly) _Bool isReadOnly; // @synthesize isReadOnly=_isReadOnly;
-@property(readonly) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(readonly) NSMutableDictionary *metadataCache; // @synthesize metadataCache=_metadataCache;
 @property(readonly) NSURL *metadataDirectoryURL; // @synthesize metadataDirectoryURL=_metadataDirectoryURL;
-@property(readonly) NSURL *tokenFileURL; // @synthesize tokenFileURL=_tokenFileURL;
 
 @end
 

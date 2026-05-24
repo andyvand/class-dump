@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _NSXMLDocumentExtraIvars
 {
     NSString *_MIMEType;
-    NSSet *_allowedEntityURLs;
 }
 
 @end

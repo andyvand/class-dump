@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSWindow, NSWindowController, UAScrollZoomSheet;
+@class NSWindow;
 
 @interface UAScrollZoomSheetController
 {
     NSWindow *HostWindow;
-    UAScrollZoomSheet *_scrollZoomSheet;
-    _Bool _hideModifiersEditor;
-    _Bool _hideScrollZoomCheckbox;
-    NSWindowController *_zoomWindowController;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ent";
+- (void)OMMESSchemaPOMMESClientEvent";
+- (void)enCount"b1"draftModelTotalInferenceLatencyMillis"b1"targetModelTotalInferenceLatencyMillis"b1"draftSteps"b1};
+- (void)isWebSearchUsed"b1"isUserSignedIn"b1"modelParty"b1"modelLocation"b1"useCase"b1"externalPartner"b1"genAIAgentUsed"b1};
 - (id);
 - (id);
 - (void);

@@ -6,20 +6,15 @@
 
 #import <NetworkExtension/NEAppProxyProviderContainer.h>
 
-@class NEFlowDivertFileHandle, NEPolicySession, NSMutableArray;
-
 @interface NEGuardProxy : NEAppProxyProviderContainer
 {
     _Bool _started;
-    NEFlowDivertFileHandle *_flowDivertControlHandle;
-    NEPolicySession *_session;
-    NSMutableArray *_policyIDs;
 }
 
 - (void);
 - (id);
 - (void);
-- (void)Parameters:errorStr: /* Error: Ran out of types for this method. */;
+- (void)setHotspotProviderParameters:errorStr: /* Error: Ran out of types for this method. */;
 
 @end
 

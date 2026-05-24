@@ -9,10 +9,6 @@
 @interface FLHSA2PasswordResetNotification
 {
     NSString *_title;
-    NSString *_informativeText;
-    NSString *_approveButtonTitle;
-    NSString *_dismissButtonTitle;
-    NSString *_appleID;
 }
 
 + (_Bool);
@@ -24,19 +20,15 @@
 - (id);
 - (id);
 - (void);
+- (void)setProductProperties:(id)arg1 forProducts: /* Error: Ran out of types for this method. */;
+- (void)^;
 - (void);
-- (void);
-- (void);
+- (id)(;
 - (id);
-- (id);
-- (id);
+- (id)t) (DegC) (TG1d);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appleID; // @synthesize appleID=_appleID;
-@property(copy, nonatomic) NSString *approveButtonTitle; // @synthesize approveButtonTitle=_approveButtonTitle;
-@property(copy, nonatomic) NSString *dismissButtonTitle; // @synthesize dismissButtonTitle=_dismissButtonTitle;
-@property(copy, nonatomic) NSString *informativeText; // @synthesize informativeText=_informativeText;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

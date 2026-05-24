@@ -4,48 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBString;
+@class NSArray;
 
 @interface _INPBActivity
 {
     struct _has;
-    NSArray *_activityDescriptors;
-    _INPBString *_activityType;
 }
 
 + (Class);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)@0:(id)arg1 8;
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
+- (_Bool)sortDescriptorWithKey:(id)arg1 ascending:comparator: /* Error: Ran out of types for this method. */;
+- (void)earby device (%{public}@);
 - (_Bool);
-- (void);
-- (_Bool);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void)REEN;
+- (void)CARPLAY_HOME_SCREEN;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *activityDescriptors; // @synthesize activityDescriptors=_activityDescriptors;
-@property(readonly, nonatomic) unsigned long long activityDescriptorsCount;
-@property(retain, nonatomic) _INPBString *activityType; // @synthesize activityType=_activityType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasActivityType;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

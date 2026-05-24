@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliFileCryptoMaterial, NSNumber, NSString, NSURL;
+@class NSNumber, NSString;
 
 @interface CTLazuliFileThumbnailInformation
 {
     NSNumber *_fileSizeInBytes;
-    NSString *_untrustedContentType;
-    NSURL *_dataUrl;
-    NSString *_validUntil;
-    CTLazuliFileCryptoMaterial *_cryptoMaterial;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)mediaSegmentRequestEvents;
+- (id)h;
 - (id);
 - (void);
 - (void);
@@ -28,7 +24,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)A;
 - (id);
 - (_Bool);
 - (void);
@@ -40,11 +36,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *contentType;
-@property(retain, nonatomic) CTLazuliFileCryptoMaterial *cryptoMaterial; // @synthesize cryptoMaterial=_cryptoMaterial;
-@property(retain, nonatomic) NSURL *dataUrl; // @synthesize dataUrl=_dataUrl;
-@property(retain, nonatomic) NSNumber *fileSizeInBytes; // @synthesize fileSizeInBytes=_fileSizeInBytes;
-@property(retain, nonatomic) NSString *untrustedContentType; // @synthesize untrustedContentType=_untrustedContentType;
-@property(retain, nonatomic) NSString *validUntil; // @synthesize validUntil=_validUntil;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol SiriUITalkGestureTargetDelegate
+- (long long)m.apple.MobileSMS.EntryViewEmptyAction.changed;
 @end
 

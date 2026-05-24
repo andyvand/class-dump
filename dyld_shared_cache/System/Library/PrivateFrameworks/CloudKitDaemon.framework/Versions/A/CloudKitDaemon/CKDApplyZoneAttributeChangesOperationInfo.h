@@ -11,7 +11,7 @@
     CKRecordZone *_zone;
 }
 
-- (void);
+- (void)ROd;
 - (id);
 - (void)ove operation get a non-move handler?;
 - (id)a;

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSNumber, NSString;
+@class NSString;
 
 @interface LASecureIOScene
 {
     NSString *_name;
-    NSString *_language;
-    NSNumber *_sceneID;
-    NSNumber *_operationID;
-    NSArray *_assets;
-    long long _secureIO;
-    NSMutableArray *_anchorPoints;
 }
 
 + (id);
@@ -25,26 +19,20 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (id);
 - (id);
 - (void);
+- (void)ithError:(id)arg1;
+- (id);
 - (void);
+- (void)detectFingerWithOptions:(id)arg1;
 
 // Remaining properties
-@property(retain) NSMutableArray *anchorPoints; // @synthesize anchorPoints=_anchorPoints;
-@property(retain) NSArray *assets; // @synthesize assets=_assets;
-@property(retain) NSString *language; // @synthesize language=_language;
 @property(retain) NSString *name; // @synthesize name=_name;
-@property(retain) NSNumber *operationID; // @synthesize operationID=_operationID;
-@property(retain) NSNumber *sceneID; // @synthesize sceneID=_sceneID;
-@property long long secureIO; // @synthesize secureIO=_secureIO;
 
 @end
 

@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, PGGraphPersonNode;
+@class PGGraphPersonNode;
 
 @interface PGGraphBuilderInsertedIdentifiedPerson
 {
     PGGraphPersonNode *_personNode;
-    NSDate *_birthdayDate;
-    NSDate *_anniversaryDate;
-    unsigned long long _relationship;
 }
 
-- (id);
+- (id)_layoutHash;
 - (id);
 - (void);
 - (void);
@@ -22,13 +19,10 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void)ntPerspectiveScore;
+- (void)PleasantPerspectiveScore;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *anniversaryDate; // @synthesize anniversaryDate=_anniversaryDate;
-@property(retain, nonatomic) NSDate *birthdayDate; // @synthesize birthdayDate=_birthdayDate;
 @property(readonly) PGGraphPersonNode *personNode; // @synthesize personNode=_personNode;
-@property(nonatomic) unsigned long long relationship; // @synthesize relationship=_relationship;
 
 @end
 

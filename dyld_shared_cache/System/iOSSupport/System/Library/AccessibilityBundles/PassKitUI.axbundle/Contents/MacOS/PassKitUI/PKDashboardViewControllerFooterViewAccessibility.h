@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)setHighlightSelectableItems:animated: /* Error: Ran out of types for this method. */;
 + (void);
 - (id);
 - (_Bool);

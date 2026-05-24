@@ -10,7 +10,6 @@
 @interface PXStoryDummyRelatedProducer
 {
     unsigned long long _targetUpNextCount;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (id);
@@ -21,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long targetUpNextCount; // @synthesize targetUpNextCount=_targetUpNextCount;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

@@ -6,12 +6,9 @@
 
 #import <Mail/MFLibraryUpgradeStep.h>
 
-@class NSArray;
-
 @interface MFRemoveMessagesUpgradeStep : MFLibraryUpgradeStep
 {
     _Bool _shouldRecalculateMessageCounts;
-    NSArray *_accounts;
 }
 
 - (_Bool);
@@ -24,7 +21,6 @@
 - (void),;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *accounts; // @synthesize accounts=_accounts;
 @property(nonatomic) _Bool shouldRecalculateMessageCounts; // @synthesize shouldRecalculateMessageCounts=_shouldRecalculateMessageCounts;
 
 @end

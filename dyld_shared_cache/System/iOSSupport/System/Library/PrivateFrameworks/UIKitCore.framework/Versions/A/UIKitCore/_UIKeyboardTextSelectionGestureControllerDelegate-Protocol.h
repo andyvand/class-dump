@@ -8,13 +8,13 @@
 
 @protocol _UIKeyboardTextSelectionGestureControllerDelegate
 - (_UIKeyboardTextSelectionController *)Òîÿ;
-- (UIKeyboardTaskQueue *)yle;
+- (UIKeyboardTaskQueue *)_ParagraphStyle;
 
 @optional
-- (void)ed:onComplete: /* Error: Ran out of types for this method. */;
+- (void)queue_keyboardChanged:onComplete: /* Error: Ran out of types for this method. */;
 - (void)0;
 - (_Bool)fo.plist%s:(_Bool)arg1;
-- (double)TestEventsIfTransparent;
+- (double)shouldPassthroughHitTestEventsIfTransparent;
 - (_Bool);
 - (void)±¶33xKþ;
 - (_Bool);
@@ -22,10 +22,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) UIKeyboardTaskQueue *taskQueue;
-@property(readonly, nonatomic) _UIKeyboardTextSelectionController *textSelectionController;
-@property(readonly, nonatomic) double timestampOfLastTouchesEnded;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
 @end
 

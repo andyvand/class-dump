@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface RGSiriSchemaRGHallucinationDetectionEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)pple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDMigrationRequest_macOS.m:34 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)L);
+- (id)";
 - (id);
-- (id);
-- (id)oreActivationTimeDiffInNs:(id)arg1;
+- (id)addPhsRejectBeforeActivationTimeDiffInNs:(id)arg1;
 - (id),N,V_delayFromLastBiomeBookmarkInSecond;
-- (_Bool)tsReported;
+- (_Bool)dictationExperimentDigestsReported;
 - (_Bool)meters.candidate.value.collection.typeIdentifier.custom.bundleId;
 - (void)×ÿl°%Ô";
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

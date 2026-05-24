@@ -6,24 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLOWSchemaFLOWAppContext, FLOWSchemaFLOWPlatformContext, FLOWSchemaFLOWState, NSArray, NSData;
-
 @interface FLOWSchemaFLOWStep : SISchemaInstrumentationMessage
 {
     unsigned int _sequenceNum;
-    long long _timestampMs;
-    FLOWSchemaFLOWState *_flowState;
-    FLOWSchemaFLOWAppContext *_appContext;
-    NSArray *_domainContexts;
-    NSArray *_platformContexts;
-    FLOWSchemaFLOWPlatformContext *_platformRelatedContext;
-    struct {
-        unsigned int sequenceNum:1;
-        unsigned int timestampMs:1;
-    } _has;
-    _Bool _hasFlowState;
-    _Bool _hasAppContext;
-    _Bool _hasPlatformRelatedContext;
 }
 
 - (long long);
@@ -41,10 +26,10 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)?הG;
 - (id);
 - (unsigned long long);
 - (id);
@@ -56,7 +41,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -68,7 +53,7 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)q24@?0@"NSString"8@"NSString"16;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -78,19 +63,7 @@
 - (void){ª$;
 
 // Remaining properties
-@property(retain, nonatomic) FLOWSchemaFLOWAppContext *appContext; // @synthesize appContext=_appContext;
-@property(copy, nonatomic) NSArray *domainContexts; // @synthesize domainContexts=_domainContexts;
-@property(retain, nonatomic) FLOWSchemaFLOWState *flowState; // @synthesize flowState=_flowState;
-@property(nonatomic) _Bool hasAppContext; // @synthesize hasAppContext=_hasAppContext;
-@property(nonatomic) _Bool hasFlowState; // @synthesize hasFlowState=_hasFlowState;
-@property(nonatomic) _Bool hasPlatformRelatedContext; // @synthesize hasPlatformRelatedContext=_hasPlatformRelatedContext;
-@property(nonatomic) _Bool hasSequenceNum;
-@property(nonatomic) _Bool hasTimestampMs;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *platformContexts; // @synthesize platformContexts=_platformContexts;
-@property(retain, nonatomic) FLOWSchemaFLOWPlatformContext *platformRelatedContext; // @synthesize platformRelatedContext=_platformRelatedContext;
 @property(nonatomic) unsigned int sequenceNum; // @synthesize sequenceNum=_sequenceNum;
-@property(nonatomic) long long timestampMs; // @synthesize timestampMs=_timestampMs;
 
 @end
 

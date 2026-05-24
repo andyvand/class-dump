@@ -7,17 +7,13 @@
 @interface AXMCameraFrameContext
 {
     float _videoFieldOfView;
-    float _videoZoomFactor;
-    long long _videoSourceWidth;
-    long long _videoSourceHeight;
-    double _presentationTimestamp;
 }
 
-+ (_Bool);
++ (_Bool)forIntentParam:predict: /* Error: Ran out of types for this method. */;
 - (long long);
 - (long long);
 - (id);
-- (double);
+- (double);
 - (float);
 - (id);
 - (void);
@@ -25,11 +21,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) double presentationTimestamp; // @synthesize presentationTimestamp=_presentationTimestamp;
 @property(readonly, nonatomic) float videoFieldOfView; // @synthesize videoFieldOfView=_videoFieldOfView;
-@property(readonly, nonatomic) long long videoSourceHeight; // @synthesize videoSourceHeight=_videoSourceHeight;
-@property(readonly, nonatomic) long long videoSourceWidth; // @synthesize videoSourceWidth=_videoSourceWidth;
-@property(readonly, nonatomic) float videoZoomFactor; // @synthesize videoZoomFactor=_videoZoomFactor;
 
 @end
 

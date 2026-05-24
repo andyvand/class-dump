@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _MRDeviceInfoMessageProtobuf, _MRNowPlayingClientProtobuf;
+@class _MRNowPlayingClientProtobuf;
 
 @interface _MRApplicationConnectionRequestInfoProtobuf
 {
     _MRNowPlayingClientProtobuf *_client;
-    _MRDeviceInfoMessageProtobuf *_deviceInfo;
 }
 
 - (id);
@@ -17,22 +16,19 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)userSelection;
+- (id)@;
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)sten After Speaking Disabled;
 - (_Bool);
 - (id);
 - (void)ickY;
 - (void)ssage;
 
 // Remaining properties
-@property(retain, nonatomic) _MRNowPlayingClientProtobuf *client; // @synthesize client=_client;
-@property(retain, nonatomic) _MRDeviceInfoMessageProtobuf *deviceInfo; // @synthesize deviceInfo=_deviceInfo;
-@property(readonly, nonatomic) _Bool hasClient;
 @property(readonly, nonatomic) _Bool hasDeviceInfo;
 
 @end

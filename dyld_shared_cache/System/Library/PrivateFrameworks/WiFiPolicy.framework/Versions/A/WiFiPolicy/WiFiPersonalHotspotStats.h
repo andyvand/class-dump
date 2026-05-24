@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface WiFiPersonalHotspotStats
 {
     _Bool _successfulJoinAttempt;
-    double _joinStartedAt;
-    double _personalHotspotDiscoveryEndedAt;
-    double _joinEndedAt;
-    double _latency;
-    NSString *_joinReason;
-    NSString *_failureReporter;
-    long long _joinFailureCode;
-    long long _band;
-    NSString *_deviceName;
 }
 
 + (id)fÐ!ÐGùQ¥Ð1Â0@ù
@@ -42,16 +31,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long band; // @synthesize band=_band;
-@property(readonly, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(readonly, nonatomic) NSString *failureReporter; // @synthesize failureReporter=_failureReporter;
-@property(readonly, nonatomic) double joinEndedAt; // @synthesize joinEndedAt=_joinEndedAt;
-@property(readonly, nonatomic) long long joinFailureCode; // @synthesize joinFailureCode=_joinFailureCode;
-@property(readonly, nonatomic) NSString *joinReason; // @synthesize joinReason=_joinReason;
 @property(readonly, nonatomic) double joinStartedAt; // @synthesize joinStartedAt=_joinStartedAt;
-@property(readonly, nonatomic) double latency; // @synthesize latency=_latency;
-@property(nonatomic) double personalHotspotDiscoveryEndedAt; // @synthesize personalHotspotDiscoveryEndedAt=_personalHotspotDiscoveryEndedAt;
-@property(readonly, nonatomic) _Bool successfulJoinAttempt; // @synthesize successfulJoinAttempt=_successfulJoinAttempt;
 
 @end
 

@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEORPRunningTrackFeedback
 {
     PBUnknownFields *_unknownFields;
-    NSString *_trackFeatureId;
 }
 
-+ (_Bool)etListType:(id)arg1;
++ (_Bool)setListType:(id)arg1;
 - (id);
 - (void);
 - (_Bool);
@@ -21,22 +20,20 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)SSVCASignalToSigmoidMusicSteepnessDeviceDefault;
 - (id);
-- (unsigned long long);
+- (unsigned long long)`B;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)"b1"read_walkingSupportedFeatures"b1"wrote_anyField"b1};
-- (id)ription;
+- (id)contentsDescription;
 - (id)ÌE GH;
-- (id)AVIGATIONAL;
+- (id)GLOBAL_NAVIGATIONAL;
 - (void)^ÔîýO@;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasTrackFeatureId;
-@property(retain, nonatomic) NSString *trackFeatureId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

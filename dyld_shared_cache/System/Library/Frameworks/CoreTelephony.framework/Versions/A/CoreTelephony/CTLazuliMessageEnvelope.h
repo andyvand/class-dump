@@ -4,43 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliDestination, CTLazuliMessageID;
-
 @interface CTLazuliMessageEnvelope
 {
     _Bool _secure;
-    long long _type;
-    CTLazuliDestination *_from;
-    CTLazuliMessageID *_messageID;
-    id _content;
 }
 
-+ (_Bool);
++ (_Bool)didSucceed;
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)h;
+- (id);
 - (id);
 - (_Bool);
 - (long long);
 - (_Bool);
-- (void);
+- (void)lures;
 - (id);
-- (void);
+- (void)onDownloadTask"32;
 - (void);
 - (void);
 - (id);
 - (void)ª)°1Â0@ù
 × ;
-- (id)UIMID;
+- (id)kCTMobileEquipmentInfoEUIMID;
 - (void)·>;
 
 // Remaining properties
-@property(retain, nonatomic) id content; // @synthesize content=_content;
-@property(retain, nonatomic) CTLazuliDestination *from; // @synthesize from=_from;
-@property(retain, nonatomic) CTLazuliMessageID *messageID; // @synthesize messageID=_messageID;
-@property(nonatomic) _Bool secure; // @synthesize secure=_secure;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

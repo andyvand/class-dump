@@ -4,25 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryTransportReachabilityReport
 {
     _Bool _reachable;
-    _Bool _hasAdvertisement;
-    NSDate *_reachableLastChangedTime;
-    long long _reason;
-    NSString *_linkType;
-    NSString *_protocol;
-    NSString *_protocolVersion;
 }
 
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (long long);
+- (long long)e - SharePlay connection;
 - (id);
 - (void)°W=;
 - (id)õî
@@ -30,13 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasAdvertisement; // @synthesize hasAdvertisement=_hasAdvertisement;
-@property(readonly, copy, nonatomic) NSString *linkType; // @synthesize linkType=_linkType;
-@property(readonly, copy, nonatomic) NSString *protocol; // @synthesize protocol=_protocol;
-@property(readonly, copy, nonatomic) NSString *protocolVersion; // @synthesize protocolVersion=_protocolVersion;
 @property(readonly, nonatomic) _Bool reachable; // @synthesize reachable=_reachable;
-@property(readonly, nonatomic) NSDate *reachableLastChangedTime; // @synthesize reachableLastChangedTime=_reachableLastChangedTime;
-@property(readonly, nonatomic) long long reason; // @synthesize reason=_reason;
 
 @end
 

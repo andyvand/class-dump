@@ -4,31 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDReselectedVideoParameters, HMDSessionControl, NSData;
+@class HMDSessionControl;
 
 __attribute__((visibility("hidden")))
 @interface HMDReselectedStreamConfigurationWrite
 {
     HMDSessionControl *_sessionControl;
-    HMDReselectedVideoParameters *_videoParameters;
 }
 
 + (_Bool)¤å;
 - (id);
-- (id);
-- (id);
+- (id)sRAPReportingOnly;
+- (id)navigationWasInterrupted;
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)p is messages;
 - (void);
 - (void)od Generation 2 In Odeon;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) HMDSessionControl *sessionControl; // @synthesize sessionControl=_sessionControl;
-@property(readonly, copy) NSData *tlvData;
-@property(readonly, copy, nonatomic) HMDReselectedVideoParameters *videoParameters; // @synthesize videoParameters=_videoParameters;
 
 @end
 

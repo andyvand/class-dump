@@ -4,35 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSObject, NSString, _DKObjectType;
+@class NSObject;
 
 @interface _CDEventStreamProperties
 {
     _Bool isAvailable;
-    _Bool dataCollectionEnabled;
-    _Bool setupOnDemand;
-    _Bool isInstant;
-    _Bool isHistorical;
-    _Bool shouldSaveCurrentEventOnShutdown;
-    NSString *name;
-    NSString *formattedName;
-    NSString *knowledgeBaseName;
-    NSString *knowledgeBaseMetadataClass;
-    NSString *descriptionString;
-    unsigned long long domainAvailability;
-    NSString *monitorClass;
-    _DKObjectType *valueType;
-    double timeToLive;
-    double temporalPrecision;
-    long long eventCountLimit;
-    double period;
-    long long eventsPerPeriod;
-    long long pollingPeriod;
-    NSObject *_dataCollectionObject;
-    NSNumber *_dataCollectionEnabledNum;
-    NSObject *_platformObject;
-    NSNumber *_isAvailableNum;
-    NSNumber *_domainAvailabilityNum;
 }
 
 + (id);
@@ -42,7 +18,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (double);
 - (long long);
@@ -61,38 +37,14 @@
 - (_Bool);
 - (id);
 - (double);
-- (long long);
+- (long long)ing;
 - (id);
 - (_Bool);
 - (void)ª3Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool dataCollectionEnabled; // @synthesize dataCollectionEnabled;
-@property(readonly, nonatomic) NSNumber *dataCollectionEnabledNum; // @synthesize dataCollectionEnabledNum=_dataCollectionEnabledNum;
 @property(readonly, nonatomic) NSObject *dataCollectionObject; // @synthesize dataCollectionObject=_dataCollectionObject;
-@property(readonly, nonatomic) NSString *descriptionString; // @synthesize descriptionString;
-@property(readonly, nonatomic) unsigned long long domainAvailability; // @synthesize domainAvailability;
-@property(readonly, nonatomic) NSNumber *domainAvailabilityNum; // @synthesize domainAvailabilityNum=_domainAvailabilityNum;
-@property(readonly, nonatomic) long long eventCountLimit; // @synthesize eventCountLimit;
-@property(readonly, nonatomic) long long eventsPerPeriod; // @synthesize eventsPerPeriod;
-@property(readonly, nonatomic) NSString *formattedName; // @synthesize formattedName;
-@property(readonly, nonatomic) _Bool isAvailable; // @synthesize isAvailable;
-@property(readonly, nonatomic) NSNumber *isAvailableNum; // @synthesize isAvailableNum=_isAvailableNum;
-@property(readonly, nonatomic) _Bool isHistorical; // @synthesize isHistorical;
-@property(readonly, nonatomic) _Bool isInstant; // @synthesize isInstant;
-@property(readonly, nonatomic) NSString *knowledgeBaseMetadataClass; // @synthesize knowledgeBaseMetadataClass;
-@property(readonly, nonatomic) NSString *knowledgeBaseName; // @synthesize knowledgeBaseName;
-@property(readonly, nonatomic) NSString *monitorClass; // @synthesize monitorClass;
-@property(readonly, nonatomic) NSString *name; // @synthesize name;
-@property(readonly, nonatomic) double period; // @synthesize period;
-@property(readonly, nonatomic) NSObject *platformObject; // @synthesize platformObject=_platformObject;
-@property(readonly, nonatomic) long long pollingPeriod; // @synthesize pollingPeriod;
-@property(readonly, nonatomic) _Bool setupOnDemand; // @synthesize setupOnDemand;
-@property(readonly, nonatomic) _Bool shouldSaveCurrentEventOnShutdown; // @synthesize shouldSaveCurrentEventOnShutdown;
-@property(readonly, nonatomic) double temporalPrecision; // @synthesize temporalPrecision;
-@property(readonly, nonatomic) double timeToLive; // @synthesize timeToLive;
-@property(readonly, nonatomic) _DKObjectType *valueType; // @synthesize valueType;
 
 @end
 

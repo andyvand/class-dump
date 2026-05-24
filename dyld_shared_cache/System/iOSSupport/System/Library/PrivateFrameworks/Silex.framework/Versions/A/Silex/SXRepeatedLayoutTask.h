@@ -9,7 +9,6 @@
 @interface SXRepeatedLayoutTask : SXLayoutTask
 {
     unsigned long long _repeatCount;
-    double _elapsedDuration;
 }
 
 - (id);
@@ -17,7 +16,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) double elapsedDuration; // @synthesize elapsedDuration=_elapsedDuration;
 @property(readonly, nonatomic) unsigned long long repeatCount; // @synthesize repeatCount=_repeatCount;
 
 @end

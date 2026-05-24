@@ -5,5 +5,8 @@
 //
 
 @protocol CryptoTokenKit.IntermediateKeyProtocol
+- (void);
+- (void)P;
+- (void)(;
 @end
 

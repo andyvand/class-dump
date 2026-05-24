@@ -7,10 +7,6 @@
 @interface ConversationKit.ScreeningCaptions
 {
     id logger;
-    id onUpdateCaptions;
-    id captionHistory;
-    id isGibberish;
-    id badCaptionCountThreshold;
 }
 
 @end

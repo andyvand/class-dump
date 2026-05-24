@@ -11,7 +11,7 @@
     RTDefaultsManager *_defaultsManager;
 }
 
-- (_Bool);
+- (_Bool)rks/CoreServices.framework/Versions/A/CoreServices;
 - (id);
 - (_Bool);
 - (id);

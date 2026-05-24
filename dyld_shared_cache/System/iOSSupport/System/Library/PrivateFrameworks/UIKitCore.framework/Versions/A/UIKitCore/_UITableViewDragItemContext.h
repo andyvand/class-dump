@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
     NSIndexPath *_indexPath;
 }
 
-- (id);
+- (id)Database]:(id)arg1 %@, service:(id)arg2 %@;
 - (id)Á°!Dù±\ð1Â0@ù
 × ;
-- (void)ButtonPressData:(id)arg1 canceled: /* Error: Ran out of types for this method. */;
+- (void)__trampolineButtonPressData:(id)arg1 canceled: /* Error: Ran out of types for this method. */;
 - (void)üpþ;
 - (void);
 - (id);

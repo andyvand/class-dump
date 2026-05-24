@@ -5,17 +5,15 @@
 //
 
 @protocol BWFigVideoCaptureDeviceManualCinematicFramingDelegate
+- (void);
+- (struct CGRect)dn;
+- (double)}~: /* Error: Ran out of types for this method. */;
 - (void)ÂóùÿËòùÿÔòøÿÜñøÿãñ÷ÿêñ÷ÿððöÿöðöÿüðôÿÿïòÿÿïñÿ;
 - (void)ÿØÿÿØÿ¨ÿ×ÿ´ÿ×ÿ¿ÿÖÿËÿÕÿÔÿÕÿÝÿÔÿæÿÔÿîÿÔÿõÿÔÿûÿÔÿÿÿÔÿÿÿÓÿ;
 - (void)ÒÈ×ÿØÉØÿÞÉÙÿãÈÙÿçÈÚÿéÇÚÿéÆÚÿZÅÎÿZÅÎÿZÅÎÿZÅÎÿZÅÎÿZÄÎÿZÄÎÿZÄÎÿZÄÎÿZÄÎÿZÄÍÿ]ÄÎÿgÄÎÿpÅÏÿ{ÆÐÿÇÑÿÇÒÿÈÓÿÉÔÿ¨ÊÕÿ°ËÖÿ¸Ì×ÿÀÍØÿÉÎÙÿÐÐÙÿÖÒÚÿÛÓÛÿáÓÜÿæÓÝÿêÒÝÿíÒÞÿíÑÞÿbÌÐÿbÌÐÿbÌÐÿbÌÐÿbÌÐÿbÌÐÿbÌÐÿbËÐÿbËÐÿbËÐÿbËÏÿbËÏÿlÌÐÿuÌÑÿÍÒÿÎÓÿÏÔÿÐÕÿ¥ÑÖÿ®Ò×ÿ¶ÓØÿ¾ÔÙÿÅÖÚÿÍ×ÛÿÔØÜÿÚÚÝÿÞÛÞÿãÜßÿéÜàÿíÜáÿðÜáÿñÛáÿjÒÒÿjÒÒÿjÒÒÿjÒÒÿjÒÒÿjÒÒÿjÒÒÿjÒÒÿiÒÒÿiÒÒÿiÒÑÿiÒÑÿoÒÒÿyÓÓÿÔÔÿÕÕÿÖÖÿ ××ÿªØØÿ³ÙÙÿ»ÚÚÿÃÜÜÿËÝÝÿÓÞÞÿÙààÿÞááÿâââÿçããÿìääÿðååÿôååÿõååÿoØÓÿoØÓÿoØÓÿoØÓÿoØÓÿoØÓÿoØÓÿoØÓÿoØÓÿoØÓÿoØÓÿo×Óÿp×ÓÿzØÔÿÙÕÿÚÖÿÜ×ÿ¢ÝØÿ¬ÞÚÿ¶àÛÿ¾áÝÿÇâÞÿÏäàÿ×åâÿÝçãÿâèåÿçêçÿëëèÿïìèÿôíéÿ÷îéÿùîéÿsÜÕÿsÜÕÿsÜÕÿsÜÔÿsÜÔÿsÜÔÿsÜÔÿsÜÔÿsÜÔÿsÜÔÿsÜÔÿsÜÔÿsÜÔÿyÜÕÿÞÖÿß×ÿàØÿ¢áÚÿ­ãÛÿ·äÝÿÀæßÿÈçàÿÐéâÿØëäÿÞíæÿäîèÿéðéÿîñêÿóóëÿ÷ôìÿúõìÿûõëÿvßÕÿvßÕÿvßÕÿvßÕÿvßÕÿvßÕÿvßÕÿvßÕÿvßÕÿvßÕÿvßÕÿvßÕÿvßÕÿwßÕÿàÖÿâØÿãÙÿ¡äÚÿ¬æÜÿ¶èÞÿ¿éàÿÈëâÿÐíäÿÙïæÿßñèÿæóêÿëõëÿñöìÿõøìÿùùíÿüúíÿýúíÿxáÖÿxáÖÿxáÖÿxáÖÿxáÖÿxáÖÿxáÖÿxáÖÿxáÖÿxáÖÿxáÖÿxáÕÿxáÕÿxáÕÿâÖÿã×ÿåÙÿæÚÿªèÜÿ´êÞÿ¾ëàÿÇîãÿÏðåÿØòçÿßôèÿæöêÿìøìÿòúíÿöûíÿúüíÿýýîÿþýíÿyâÖÿyâÖÿyâÖÿyâÖÿyâÖÿyâÖÿyâÖÿyâÕÿyâÕÿyâÕÿyâÕÿyâÕÿyâÕÿyâÕÿyâÕÿãÖÿäØÿæÙÿ¦èÛÿ°éÝÿºëßÿÄîâÿÍðäÿÖòæÿÝôèÿäöéÿëøëÿñúìÿöüìÿúýìÿýþíÿþþìÿ;
-- (void)ageDepthDataType;
+- (void)stillImageDepthDataType;
 
 // Remaining properties
-@property(nonatomic) CDStruct_a536cad7 cinematicFramingControls;
-@property(nonatomic) _Bool cinematicFramingControlsSuspended;
 @property(nonatomic) double manualFramingVideoZoomFactor;
-@property(readonly, nonatomic) struct CGRect regionOfInterestForCameraControls;
-@property(nonatomic) CDUnknownBlockType regionOfInterestForCameraControlsChangedHandler;
-@property(nonatomic, getter=isRegionOfInterestForCameraControlsFeedbackEnabled) _Bool regionOfInterestForCameraControlsFeedbackEnabled;
 @end
 

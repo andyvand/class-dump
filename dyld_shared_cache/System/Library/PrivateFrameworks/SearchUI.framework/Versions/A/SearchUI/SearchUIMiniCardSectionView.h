@@ -6,13 +6,11 @@
 
 #import <SearchUI/SearchUICardSectionView.h>
 
-@class SearchUIImageView, SearchUILabel;
+@class SearchUIImageView;
 
 @interface SearchUIMiniCardSectionView : SearchUICardSectionView
 {
     SearchUIImageView *_imageView;
-    SearchUILabel *_titleLabel;
-    SearchUILabel *_subtitleLabel;
 }
 
 + (_Bool);
@@ -25,14 +23,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)TRIPurgeableOnDemandFactorsEnumerating;
 - (void);
 - (id);
 
 // Remaining properties
 @property(retain) SearchUIImageView *imageView; // @synthesize imageView=_imageView;
-@property(retain) SearchUILabel *subtitleLabel; // @synthesize subtitleLabel=_subtitleLabel;
-@property(retain) SearchUILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

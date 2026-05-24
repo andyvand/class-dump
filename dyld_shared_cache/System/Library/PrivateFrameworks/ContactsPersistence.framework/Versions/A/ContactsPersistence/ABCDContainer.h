@@ -4,39 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCDContainerPermissions, ABCDProviderMetadata, NSDate, NSString, NSURL;
+@class NSString;
 
 @interface ABCDContainer
 {
     _Bool _guardianRestricted;
-    int _iOSLegacyIdentifier;
-    NSString *_identifier;
-    NSString *_name;
-    long long _type;
-    NSURL *_persistentStoreURL;
-    NSString *_persistentStoreIdentifier;
-    NSDate *_lastSyncDate;
-    NSString *_externalIdentifier;
-    ABCDContainerPermissions *_permissions;
-    NSString *_providerIdentifier;
-    ABCDProviderMetadata *_providerMetadata;
 }
 
 + (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (int);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)resolve the resource ID of the URL (%@). Error:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (long long);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (void);
@@ -44,18 +33,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *externalIdentifier; // @synthesize externalIdentifier=_externalIdentifier;
-@property(readonly, getter=isGuardianRestricted) _Bool guardianRestricted; // @synthesize guardianRestricted=_guardianRestricted;
-@property(readonly) int iOSLegacyIdentifier; // @synthesize iOSLegacyIdentifier=_iOSLegacyIdentifier;
 @property(readonly, copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSDate *lastSyncDate; // @synthesize lastSyncDate=_lastSyncDate;
-@property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly, copy) ABCDContainerPermissions *permissions; // @synthesize permissions=_permissions;
-@property(readonly, copy) NSString *persistentStoreIdentifier; // @synthesize persistentStoreIdentifier=_persistentStoreIdentifier;
-@property(readonly, copy) NSURL *persistentStoreURL; // @synthesize persistentStoreURL=_persistentStoreURL;
-@property(retain, nonatomic) NSString *providerIdentifier; // @synthesize providerIdentifier=_providerIdentifier;
-@property(retain, nonatomic) ABCDProviderMetadata *providerMetadata; // @synthesize providerMetadata=_providerMetadata;
-@property(readonly) long long type; // @synthesize type=_type;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface RemindersUICore.TTRMReminderDetailLocationPickerRouter
 {
     id delegate;
-    id textField;
-    id items;
-    id textFieldLastCommand;
-    id $__lazy_storage_$_suggestionWindowController;
 }
 
 @end

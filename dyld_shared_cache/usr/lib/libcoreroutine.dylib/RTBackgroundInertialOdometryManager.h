@@ -6,12 +6,11 @@
 
 #import <coreroutine/RTService.h>
 
-@class CLLocationManagerRoutine, NSString, RTBackgroundInertialOdometryStore;
+@class CLLocationManagerRoutine;
 
 @interface RTBackgroundInertialOdometryManager : RTService
 {
     CLLocationManagerRoutine *_routineLocationManager;
-    RTBackgroundInertialOdometryStore *_inertialOdometryStore;
 }
 
 + (long long);
@@ -19,27 +18,19 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)0;
+- (id)PCSRestoreCKBackupWithCompletion;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)ice:(id)arg1 account:(CDUnknownBlockType)arg2 receivedGroupSessionParticipantUpdate:context: /* Error: Ran out of types for this method. */;
+- (void)service:(id)arg1 account:(CDUnknownBlockType)arg2 receivedGroupSessionParticipantUpdate:context: /* Error: Ran out of types for this method. */;
 - (void)oreServiceNameKey];
 - (void));
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) RTBackgroundInertialOdometryStore *inertialOdometryStore; // @synthesize inertialOdometryStore=_inertialOdometryStore;
 @property(retain, nonatomic) CLLocationManagerRoutine *routineLocationManager; // @synthesize routineLocationManager=_routineLocationManager;
-@property(readonly) Class superclass;
 
 @end
 

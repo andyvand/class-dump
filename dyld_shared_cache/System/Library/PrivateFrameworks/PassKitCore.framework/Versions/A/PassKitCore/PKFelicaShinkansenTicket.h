@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber;
+@class NSArray;
 
 @interface PKFelicaShinkansenTicket
 {
     NSArray *_trains;
-    NSNumber *_validityStartDate;
-    NSNumber *_validityTerm;
 }
 
 + (_Bool);
@@ -20,13 +18,11 @@
 - (id);
 - (id);
 - (void);
-- (id)tomaticSelection;
-- (void)lename;
+- (id)_supportsAutomaticSelection;
+- (void)bundleAssetFilename;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *trains; // @synthesize trains=_trains;
-@property(readonly, copy, nonatomic) NSNumber *validityStartDate; // @synthesize validityStartDate=_validityStartDate;
-@property(readonly, copy, nonatomic) NSNumber *validityTerm; // @synthesize validityTerm=_validityTerm;
 
 @end
 

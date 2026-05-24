@@ -4,39 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPLBeforeUploadCheckItems, CPLFingerprintContext, CPLRecordChange, CPLRecordTarget, CPLResourceTypeSet, CPLScopedIdentifier, NSMutableDictionary, NSMutableSet, NSString;
+@class NSMutableSet;
 
 @interface CPLBeforeUploadCheckItem
 {
     NSMutableSet *_rulesForRecordFetch;
-    NSMutableDictionary *_rulesForOtherRecordFetches;
-    _Bool _hasCachedResultOfServerCheck;
-    _Bool _recordExistsOnServer;
-    CPLRecordChange *_recordOnServer;
-    _Bool _checked;
-    NSString *_dropReason;
-    CPLResourceTypeSet *_resourcesToGenerateImageDerivatives;
-    CPLResourceTypeSet *_resourcesToGenerateVideoComplementDerivatives;
-    _Bool _needsToGenerateImageDerivatives;
-    _Bool _needsToGenerateVideoComplementDerivatives;
-    _Bool _isTrashedOrDeletedAsset;
-    _Bool _isAsset;
-    long long _ruleGroups;
-    CPLScopedIdentifier *_scopedIdentifier;
-    CPLRecordChange *_change;
-    Class _changeClass;
-    CPLBeforeUploadCheckItems *_items;
-    unsigned long long _pushRepositoryPriority;
 }
 
-+ (void);
++ (void)&;
 + (_Bool);
 - (void);
 - (long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -48,38 +30,26 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (Class);
+- (Class);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
+- (void);
 - (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id)5ï,;
 - (id);
 - (id);
+- (id);
 - (id);
 - (void);
 - (_Bool)nal/Library/BuildRoots/4~CNqxugDMzZbpGPPFXa8nb0E6XlRUL-OSm3IbHa0/Library/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/cloudphotolibrary/Engine/CPLTransaction.m;
 
 // Remaining properties
-@property(readonly, nonatomic) CPLRecordChange *change; // @synthesize change=_change;
-@property(readonly, nonatomic) Class changeClass; // @synthesize changeClass=_changeClass;
-@property(readonly, nonatomic) unsigned long long estimatedResourceUploadSize;
-@property(readonly, nonatomic) CPLFingerprintContext *fingerprintContext;
-@property(readonly, nonatomic) _Bool hasRequestedRecordFetch;
-@property(readonly, nonatomic) _Bool isAsset; // @synthesize isAsset=_isAsset;
-@property(readonly, nonatomic) _Bool isTrashedOrDeletedAsset; // @synthesize isTrashedOrDeletedAsset=_isTrashedOrDeletedAsset;
-@property(readonly, nonatomic) __weak CPLBeforeUploadCheckItems *items; // @synthesize items=_items;
-@property(readonly, nonatomic) _Bool needsToGenerateDerivatives;
-@property(readonly, nonatomic) unsigned long long pushRepositoryPriority; // @synthesize pushRepositoryPriority=_pushRepositoryPriority;
 @property(readonly, nonatomic) long long ruleGroups; // @synthesize ruleGroups=_ruleGroups;
-@property(readonly, nonatomic) CPLScopedIdentifier *scopedIdentifier; // @synthesize scopedIdentifier=_scopedIdentifier;
-@property(readonly, nonatomic) CPLRecordTarget *target;
 
 @end
 

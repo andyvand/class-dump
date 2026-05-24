@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapItemDetailSelectionAccessoryPresentationStyle;
-
 @interface MKSelectionAccessory
 {
     long long _style;
-    MKMapItemDetailSelectionAccessoryPresentationStyle *_mapItemDetailPresentationStyle;
 }
 
 + (id);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (_Bool);
-- (void)eight: /* Error: Ran out of types for this method. */;
-- (long long)tionId;
+- (_Bool)_;
+- (void)placeViewControllerDidUpdateHeight: /* Error: Ran out of types for this method. */;
+- (long long)correlationId;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=_mapItemDetailPresentationStyle) MKMapItemDetailSelectionAccessoryPresentationStyle *mapItemDetailPresentationStyle; // @synthesize mapItemDetailPresentationStyle=_mapItemDetailPresentationStyle;
 @property(readonly, nonatomic, getter=_style) long long style; // @synthesize style=_style;
 
 @end

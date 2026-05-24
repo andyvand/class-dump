@@ -13,10 +13,10 @@
     VMUDominatorGraph *_dominatorGraph;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)SG;
 
 @end
 

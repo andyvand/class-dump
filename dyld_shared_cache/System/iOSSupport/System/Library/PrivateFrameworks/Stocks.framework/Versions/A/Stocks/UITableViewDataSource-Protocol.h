@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString, UITableViewCell;
+
 @protocol UITableViewDataSource
+
+@optional
+- (NSString *);
+- (UITableViewCell *);
+- (_Bool){m;
+- (_Bool)m;
+- (NSArray *);
+- (long long)LX${;
 @end
 

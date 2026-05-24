@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, VCMediaStream;
+@class VCMediaStream;
 
 __attribute__((visibility("hidden")))
 @interface VCSessionParticipantMediaStreamInfo
 {
     VCMediaStream *_stream;
-    NSMutableArray *_streamConfigs;
-    _Bool _isOneToOneSupported;
 }
 
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)B;
 - (id);
 - (id)ILED;
 - (void)âq?ôr?§#r?6Dr? dr?är?¥r?üÄr?Ðär?~s?$s?jCs?¨bs?Ás?³ s?¿s?(Þs?ªüs?t?>9t?OWt?:(id)arg1 ut?;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isOneToOneSupported; // @synthesize isOneToOneSupported=_isOneToOneSupported;
 @property(retain, nonatomic) VCMediaStream *stream; // @synthesize stream=_stream;
-@property(readonly, nonatomic) NSArray *streamConfigs; // @synthesize streamConfigs=_streamConfigs;
 
 @end
 

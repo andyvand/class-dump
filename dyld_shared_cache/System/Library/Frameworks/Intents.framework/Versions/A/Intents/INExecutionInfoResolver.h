@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INExecutionCounterpartMapper, INExecutionFrameworkMapper, NSDictionary;
+@class INExecutionCounterpartMapper, NSDictionary;
 
 @interface INExecutionInfoResolver
 {
     INExecutionCounterpartMapper *_counterpartMapper;
-    INExecutionFrameworkMapper *_frameworkMapper;
-    NSDictionary *__counterpartMapping;
 }
 
 + (id);
@@ -18,6 +16,10 @@
 - (id);
 - (id);
 - (id);
+- (id)Am;
+- (id);
+- (id);
+- (id)|;
 - (id);
 - (id);
 - (id);
@@ -28,16 +30,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)letion: /* Error: Ran out of types for this method. */;
+- (void)provideCallRecordToCallBackOptionsForStartCall:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) INExecutionCounterpartMapper *_counterpartMapper; // @synthesize _counterpartMapper;
 @property(readonly, copy, nonatomic) NSDictionary *_counterpartMapping; // @synthesize _counterpartMapping=__counterpartMapping;
-@property(readonly, nonatomic) INExecutionFrameworkMapper *_frameworkMapper; // @synthesize _frameworkMapper;
 
 @end
 

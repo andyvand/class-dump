@@ -9,21 +9,19 @@
 @interface SPDelegatedShareImportContext
 {
     NSString *_inputUrl;
-    NSString *_callbackValue;
 }
 
-+ (_Bool);
++ (_Bool)0;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)messages;
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *callbackValue; // @synthesize callbackValue=_callbackValue;
 @property(readonly, copy, nonatomic) NSString *inputUrl; // @synthesize inputUrl=_inputUrl;
 
 @end

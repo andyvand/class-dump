@@ -17,11 +17,10 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)%d};
 - (void);
 
 // Remaining properties
-@property(readonly) NSArray *allPackageReferences;
 @property(retain) NSArray *modifiedPackageReferences; // @synthesize modifiedPackageReferences=_modifiedPackageReferences;
 
 @end

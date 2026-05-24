@@ -4,23 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _UINSToolbarConfiguration
 {
     _Bool _isBeingAddedToWindow;
-    _Bool _needsUpdate;
-    NSString *_customizationIdentifier;
-    NSArray *_toolbarAllowedItems;
-    NSArray *_toolbarCurrentItems;
-    NSArray *_toolbarDefaultItems;
-    NSSet *_toolbarFixedItems;
-    NSSet *_toolbarMoveOnlyItems;
-    NSSet *_centeredItems;
-    long long _minCustomizationIndex;
-    long long _maxCustomizationIndex;
-    unsigned long long _displayMode;
 }
 
 - (id);
@@ -28,20 +15,20 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)IMAVControlIdentifier;
+- (void)IMHighLevelVideoDataSourceLock;
+- (void)IMAVManagerURLToShareChanged;
+- (void)IMAVManagerListenerRegistered;
+- (void)Height;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (long long);
-- (long long);
-- (_Bool);
-- (id);
+- (long long)ring"32;
+- (_Bool)ate";
+- (id)cloudKitSyncingEnabled;
 - (void);
 - (void);
 - (id);
@@ -52,18 +39,7 @@ __attribute__((visibility("hidden")))
 - (id)`;
 
 // Remaining properties
-@property(retain) NSSet *centeredItems; // @synthesize centeredItems=_centeredItems;
-@property(retain) NSString *customizationIdentifier; // @synthesize customizationIdentifier=_customizationIdentifier;
-@property unsigned long long displayMode; // @synthesize displayMode=_displayMode;
 @property _Bool isBeingAddedToWindow; // @synthesize isBeingAddedToWindow=_isBeingAddedToWindow;
-@property long long maxCustomizationIndex; // @synthesize maxCustomizationIndex=_maxCustomizationIndex;
-@property long long minCustomizationIndex; // @synthesize minCustomizationIndex=_minCustomizationIndex;
-@property _Bool needsUpdate; // @synthesize needsUpdate=_needsUpdate;
-@property(retain) NSArray *toolbarAllowedItems; // @synthesize toolbarAllowedItems=_toolbarAllowedItems;
-@property(retain) NSArray *toolbarCurrentItems; // @synthesize toolbarCurrentItems=_toolbarCurrentItems;
-@property(retain) NSArray *toolbarDefaultItems; // @synthesize toolbarDefaultItems=_toolbarDefaultItems;
-@property(retain) NSSet *toolbarFixedItems; // @synthesize toolbarFixedItems=_toolbarFixedItems;
-@property(retain) NSSet *toolbarMoveOnlyItems; // @synthesize toolbarMoveOnlyItems=_toolbarMoveOnlyItems;
 
 @end
 

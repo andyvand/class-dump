@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSString;
+@class NSIndexPath;
 
 __attribute__((visibility("hidden")))
 @interface _UICollectionViewItemKey
 {
     NSIndexPath *_indexPath;
-    NSString *_identifier;
-    _Bool _isClone;
-    unsigned long long _type;
 }
 
 + (id);
@@ -30,15 +27,12 @@ __attribute__((visibility("hidden")))
 - (id)@ù
 × ;
 - (_Bool);
-- (_Bool)availableItems:(id)arg1;
+- (_Bool)setTabBar:(id)arg1 currentItems:availableItems: /* Error: Ran out of types for this method. */;
 - (id)elButtonPlatterView;
 - (id)¬	|;
 - (void)éÒÂ];
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, retain, nonatomic) NSIndexPath *indexPath; // @synthesize indexPath=_indexPath;
-@property(readonly, nonatomic) _Bool isClone; // @synthesize isClone=_isClone;
 @property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

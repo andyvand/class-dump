@@ -12,12 +12,12 @@
 }
 
 + (_Bool);
-- (void);
+- (void)@9	;
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)ATS;
+- (void);
 - (void);
 - (id);
 - (_Bool);

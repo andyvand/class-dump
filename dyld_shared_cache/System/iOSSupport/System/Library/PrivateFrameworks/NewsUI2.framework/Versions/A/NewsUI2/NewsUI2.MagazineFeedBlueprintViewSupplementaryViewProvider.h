@@ -7,8 +7,6 @@
 @interface NewsUI2.MagazineFeedBlueprintViewSupplementaryViewProvider
 {
     id delegate;
-    id feedItemSupplementaryRenderer;
-    id embeddedSupplementaryRenderer;
 }
 
 @end

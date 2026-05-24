@@ -4,34 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDAssetCache, CKDMMCSEngineContext, NSMutableSet, NSURL;
+@class NSMutableSet;
 
 @interface CKDMMCS
 {
     NSMutableSet *_trackedItemIDs;
-    _Bool _didDrop;
-    NSURL *_path;
-    NSURL *_temporaryDirectory;
-    CKDAssetCache *_assetCache;
-    long long _checkoutCount;
-    CKDMMCSEngineContext *_MMCSEngineContext;
 }
 
++ (id)SV;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (long long);
++ (id);
 + (id);
 + (id);
 + (id);
 + (long long);
++ (id);
++ (id)nsRoamCandidateCount;
++ (id)error:(id)arg1 %{public}@;
 + (long long);
-+ (void);
 + (long long);
-+ (id)owKRSToBePerformed;
++ (void);
++ (long long);
++ (id)DisallowKRSToBePerformed;
 - (id);
 - (id);
 - (long long);
@@ -44,20 +38,20 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)(=;
 - (void);
 - (unsigned int);
 - (id);
 - (void);
+- (id)initLibraryWithDelegate:(id)arg1;
+- (void);
+- (void);
+- (void)apsession_ensureSessionStarted;
+- (id);
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)e:(id)arg1 ]_block_invoke;
 - (id);
 - (void);
 - (struct _mmcs_engine *);
@@ -75,13 +69,7 @@
 - (void)Óçÿ;
 
 // Remaining properties
-@property(retain, nonatomic) CKDMMCSEngineContext *MMCSEngineContext; // @synthesize MMCSEngineContext=_MMCSEngineContext;
-@property(retain, nonatomic) CKDAssetCache *assetCache; // @synthesize assetCache=_assetCache;
-@property(nonatomic) long long checkoutCount; // @synthesize checkoutCount=_checkoutCount;
 @property(nonatomic) _Bool didDrop; // @synthesize didDrop=_didDrop;
-@property(readonly, nonatomic, getter=getMaxChunkCountForSection) unsigned int maxChunkCountForSection;
-@property(readonly, nonatomic) NSURL *path; // @synthesize path=_path;
-@property(readonly, nonatomic) NSURL *temporaryDirectory; // @synthesize temporaryDirectory=_temporaryDirectory;
 
 @end
 

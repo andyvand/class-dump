@@ -10,19 +10,18 @@
 {
 }
 
-+ (id);
++ (id)A;
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)ShazamPublicEvents;
 
 // Remaining properties
 @property(readonly, nonatomic) NURenderNode *inputNode;
-@property(readonly, nonatomic) NURenderNode *retouchNode;
 
 @end
 

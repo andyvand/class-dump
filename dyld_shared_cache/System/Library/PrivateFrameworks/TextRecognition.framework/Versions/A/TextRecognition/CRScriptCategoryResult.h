@@ -10,7 +10,6 @@
 @interface CRScriptCategoryResult
 {
     float _probability;
-    NSObject<CRScriptCategory> *_scriptCategory;
 }
 
 - (id);
@@ -21,9 +20,7 @@
 - (void)>, std::allocator<std::tuple<double, CRFormFieldLabelPosition, CROutputRegion *>>>=^v^v{?=^v}}32@0:8@16@24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) float probability; // @synthesize probability=_probability;
 @property(readonly) NSObject<CRScriptCategory> *scriptCategory; // @synthesize scriptCategory=_scriptCategory;
-@property(readonly) _Bool valid;
 
 @end
 

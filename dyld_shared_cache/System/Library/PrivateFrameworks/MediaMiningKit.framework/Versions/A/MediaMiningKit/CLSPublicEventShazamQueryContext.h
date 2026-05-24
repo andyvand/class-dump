@@ -9,7 +9,7 @@
     id service;
 }
 
-- (id);
+- (id)@;
 - (void);
 
 @end

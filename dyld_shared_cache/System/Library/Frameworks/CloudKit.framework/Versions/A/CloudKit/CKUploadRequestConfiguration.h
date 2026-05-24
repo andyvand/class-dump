@@ -4,46 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecordZoneID, NSString;
+@class NSString;
 
 @interface CKUploadRequestConfiguration
 {
     NSString *_containerIdentifier;
-    NSString *_applicationBundleIdentifierOverride;
-    CKRecordZoneID *_repairZoneID;
 }
 
 + (id);
 + (_Bool);
 + (id)× ;
-- (id);
-- (void);
+- (id);
+- (void);
 - (unsigned long long);
-- (id);
+- (id)`";
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id)!l-Ð!FùG1ð1Â0@ù
 × ;
-- (void)x:(id)arg1;
-- (void)sEvent;
+- (void)bindText:(id)arg1 atIndex: /* Error: Ran out of types for this method. */;
+- (void)CKSyncEngineDidFetchChangesEvent;
 - (id)essed with current vector %@, server vector %@;
-- (void)serIdentityCG;
+- (void)SDySSSo14CKUserIdentityCG;
 
 // Remaining properties
-@property(copy) NSString *applicationBundleIdentifierOverride; // @synthesize applicationBundleIdentifierOverride=_applicationBundleIdentifierOverride;
 @property(copy) NSString *containerIdentifier; // @synthesize containerIdentifier=_containerIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) CKRecordZoneID *repairZoneID; // @synthesize repairZoneID=_repairZoneID;
-@property(readonly) Class superclass;
 
 @end
 

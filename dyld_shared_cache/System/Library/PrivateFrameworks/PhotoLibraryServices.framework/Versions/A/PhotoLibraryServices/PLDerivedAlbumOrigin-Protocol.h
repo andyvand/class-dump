@@ -5,5 +5,7 @@
 //
 
 @protocol PLDerivedAlbumOrigin
+- (id)P;
+- (id)kC;
 @end
 

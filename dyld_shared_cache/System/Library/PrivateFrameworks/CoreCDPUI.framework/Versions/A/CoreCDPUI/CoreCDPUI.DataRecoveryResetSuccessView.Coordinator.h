@@ -7,9 +7,6 @@
 @interface CoreCDPUI.DataRecoveryResetSuccessView.Coordinator
 {
     id view;
-    id templateView;
-    id viewController;
-    id delegate;
 }
 
 - (void);

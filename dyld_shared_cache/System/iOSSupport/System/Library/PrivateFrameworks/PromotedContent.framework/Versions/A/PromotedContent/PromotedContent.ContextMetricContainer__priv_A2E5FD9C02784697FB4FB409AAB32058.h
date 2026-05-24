@@ -7,7 +7,6 @@
 @interface PromotedContent.ContextMetricContainer__priv_A2E5FD9C02784697FB4FB409AAB32058
 {
     id contextHandler;
-    id promotedContentHandlers;
 }
 
 @end

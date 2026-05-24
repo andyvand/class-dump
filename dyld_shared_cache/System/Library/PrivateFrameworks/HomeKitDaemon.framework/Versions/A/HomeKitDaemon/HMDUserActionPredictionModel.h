@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDUserActionPredictionModel
@@ -12,18 +12,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-+ (id);
++ (id)asrE3VectorDbApi;
 - (id);
 - (id);
 
 // Remaining properties
-@property(copy) NSNumber *groupType; // @dynamic groupType;
-@property(copy) NSNumber *predictionScore; // @dynamic predictionScore;
 @property(copy) NSUUID *predictionTargetUUID; // @dynamic predictionTargetUUID;
-@property(copy) NSUUID *targetGroupUUID; // @dynamic targetGroupUUID;
-@property(copy) NSUUID *targetServiceGroupUUID; // @dynamic targetServiceGroupUUID;
-@property(copy) NSUUID *targetServiceUUID; // @dynamic targetServiceUUID;
-@property(copy) NSNumber *type; // @dynamic type;
 
 @end
 

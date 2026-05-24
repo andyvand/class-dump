@@ -6,64 +6,16 @@
 
 #import <AppKit/NSCocoaMenuImpl.h>
 
-@class NSGlassView, NSMenu, NSMenuScrollView, NSMutableArray, NSObject, NSPriorityQueue, NSString, NSView, NSWindow;
-@protocol NSContextMenuWindowProtocol, NSMenuContextProtocol, NSMenuLifecycleDelegate, NSMenuLifecycleProtocol, NSMenuRepresentable><NSMenuBatchUpdateSupporting;
+@class NSObject, NSWindow;
+@protocol NSMenuRepresentable><NSMenuBatchUpdateSupporting;
 
 __attribute__((visibility("hidden")))
 @interface NSContextMenuImpl : NSCocoaMenuImpl
 {
     NSObject<NSMenuRepresentable><NSMenuBatchUpdateSupporting> *_representationView;
-    NSView *_rootView;
-    NSMenuScrollView *_scrollView;
-    NSGlassView *_glassView;
-    NSView *_topScrollIndicator;
-    NSView *_bottomScrollIndicator;
-    NSPriorityQueue *_titleWidths;
-    NSPriorityQueue *_keWidths;
-    NSPriorityQueue *_customViewWidths;
-    NSMutableArray *_preferredHeights;
-    NSMutableArray *_indentsBySharedWidth;
-    struct CGSize _preferredSize;
-    double _measuredWidth;
-    struct CGSize _lastVisibleSize;
-    long long _pendingAsyncUpdates;
-    long long _maxTitleWidthMenuIndex;
-    long long _maxKEWidthMenuIndex;
-    long long _maxCustomViewWidthMenuIndex;
-    long long _preferredHeightsNumberOfItems;
-    unsigned long long _effectiveControlSize;
-    double _maxTitleWidth;
-    double _maxKEWidth;
-    double _maxCustomViewWidth;
-    double _estimatedTotalHeight;
-    double _minFilteringWidth;
-    double __sharedImageWidth;
-    double _minUnsharedImageWidth;
-    double _maxUnsharedImageWidth;
-    double _maxSubmenuScreenTimeIndicatorWidth;
-    double _maxCommandKeyWidth;
-    double _maxModifiersWidth;
-    double _maxMarkWidth;
-    double _maxMarkWidthIncludingIndent;
-    double _lastRenderedMarkWidth;
-    unsigned int _markAtIndentLevel;
-    _Bool _haveSeenMarkAtIndentZero;
-    _Bool _shouldIgnorePopupCallbacks;
-    _Bool _shouldIgnoreScrollChanges;
-    _Bool _needsProcessMenuInsertion;
-    _Bool _needsSharedImageWidthPass;
-    _Bool _hasSharedIndent;
-    _Bool _isGroupingWidth;
-    _Bool _isGroupingHeight;
-    _Bool _hasDeferredHighlight;
-    _Bool _hasNonEmptyWindow;
-    _Bool _isKey;
-    _Bool _isRunLoopNested;
-    _Bool _isOperationCompleted;
-    NSObject<NSContextMenuWindowProtocol> *_windowProxy;
 }
 
-+ (void);
++ (void)6;
 - (id);
 - (void);
 - (void);
@@ -77,11 +29,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)have a server address;
+- (_Bool)etworkextension.fallback-default;
 - (void);
-- (void);
-- (void);
+- (void)C;
+- (void);
 - (long long);
 - (void);
 - (void);
@@ -89,48 +41,55 @@ __attribute__((visibility("hidden")))
 - (double);
 - (void);
 - (_Bool);
+- (void)AuthenticationChallenge"24;
+- (void)set_updatedStreamingZipModificationDate:(unsigned long long)arg1;
+- (void)set_trackerContext:(unsigned long long)arg1;
+- (double)set_onBehalfOfPairedDevice:(id)arg1;
+- (id)set_internalDelegate:(long long)arg1;
+- (double)setPersonaUniqueString: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithExplanation:target:attributes: /* Error: Ran out of types for this method. */;
+- (_Bool)errorWithDomain:code:userInfo: /* Error: Ran out of types for this method. */;
+- (_Bool)currentRequest_mainDocumentURL;
+- (void)y;
+- (void)_didIssueWaitingForConnectivity;
+- (id)SURLSessionConfiguration",R,C;
+- (void)NSURLSessionTaskDependencyTree;
+- (id)NSSecureCoding;
+- (id)__NSURLSessionLocal;
+- (_Bool)0x;
 - (void);
-- (void);
-- (void);
-- (double);
-- (id);
-- (double);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (struct CGRect);
-- (_Bool);
 - (_Bool);
 - (void);
-- (double);
-- (double);
+- (void)";
 - (id);
+- (id)5;
 - (void);
+- (struct CGRect)ting for setup of Connection %lld;
+- (_Bool)ol}d;
+- (_Bool)%d via env;
+- (void)has been invalidated;
 - (double);
-- (id);
 - (double);
-- (double);
-- (double);
-- (_Bool);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (void);
+- (double)c;
+- (id)ownload.mm;
+- (double):%d process-sharing:%d ident:%@, cache = %p, cookies = %p, auth = %p, hsts = %p } /* Error: Ran out of types for this method. */;
+- (double)CFURLStorageSession;
+- (double)httpMessage;
+- (_Bool)tion Established;
+- (double)a:DB=%@ index on request_key - %s. ErrCode:%d. /* Error: Ran out of types for this method. */;
+- (void)oalescingSupport.mm;
+- (void)m %p>;
+- (void)Partition=%@
+ Path=%@
+ Expiry=%@
+ Secure=%d
+ HttpOnly=%d
+ HostOnly=%d
+ sameSite=%ld
+>;
+- (void), flags=0x%x, stream_id=%d> error_code=%d;
 - (struct CGRect);
 - (void);
 - (id);
@@ -141,21 +100,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)@;
+- (void);
+- (void);
+- (void)@;
+- (void)@;
+- (void);
+- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)@;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -169,60 +128,41 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct CGSize);
 - (id);
-- (void);
+- (void)@;
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
-- (int);
+- (int)@;
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (struct CGRect);
+- (double)?;
+- (void)@;
+- (void);
+- (void)@;
 - (double);
 - (void);
-- (void);
-- (void);
-- (double);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (struct CGRect)ê/Ð!@ùß3Ð1Â0@ù
 × ;
 - (void)ge"b1"delegate_didChangeToDirectory"b1"delegate_isValidFilename"b1"delegate_userEnteredFilename"b1"delegate_panel_willExpand"b1"delegate_panel_newDocumentCustomization"b1"delegate_panel_customActionInvoked"b1"delegate_safeToCall"b1};
-- (void)chedSidebandUpdaters;
-- (id)ontentViewWithFrame: /* Error: Ran out of types for this method. */;
+- (void)_releaseCachedSidebandUpdaters;
+- (id)_createContentViewWithFrame: /* Error: Ran out of types for this method. */;
 - (void)7;
 
 // Remaining properties
-@property(setter=_setSharedImageWidth:) double _sharedImageWidth;
-@property(readonly) struct CGRect contentBounds;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak NSObject<NSMenuLifecycleDelegate> *delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) struct CGRect frame;
-@property(readonly) unsigned long long hash;
-@property(setter=setBottomScrollPositionIndicatorHidden:) _Bool isBottomScrollPositionIndicatorHidden;
-@property(setter=setTopScrollPositionIndicatorHidden:) _Bool isTopScrollPositionIndicatorHidden;
-@property(readonly) __weak NSMenu *menu;
-@property(retain) NSObject<NSMenuContextProtocol> *presentationContext;
-@property(readonly) __weak NSObject<NSMenuLifecycleProtocol> *presentationParent;
-@property(readonly) _Bool shouldSendLifecycleNotifications;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSView *view;
 @property(readonly) __weak NSWindow *window;
-@property __weak NSObject<NSContextMenuWindowProtocol> *windowProxy; // @synthesize windowProxy=_windowProxy;
 
 @end
 

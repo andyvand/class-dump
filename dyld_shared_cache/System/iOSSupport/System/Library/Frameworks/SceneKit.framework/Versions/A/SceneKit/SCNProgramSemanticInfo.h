@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SCNProgramSemanticInfo
 {
     NSString *_semantic;
-    NSDictionary *_options;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)taJSController.setControlsAsAutoFilled(controlIDs, false);formMetadataJSController.clearControls(controlIDs);;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)initWithArray:(id)arg1;
 - (id);
-- (void);
+- (void)%;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *options; // @synthesize options=_options;
 @property(copy, nonatomic) NSString *semantic; // @synthesize semantic=_semantic;
 
 @end

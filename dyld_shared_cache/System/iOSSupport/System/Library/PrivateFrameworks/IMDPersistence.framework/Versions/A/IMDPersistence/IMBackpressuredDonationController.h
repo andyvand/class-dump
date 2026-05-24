@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableOrderedSet, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface IMBackpressuredDonationController
 {
     _Bool _donationInProgress;
-    long long _donationCount;
-    long long _maxBackpressureSize;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _donationBlock;
-    NSMutableOrderedSet *_pendingDonations;
-    NSMapTable *_pendingGroups;
 }
 
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)Є;
+- (id)E;
 - (id);
 - (long long);
 - (id);
@@ -40,12 +34,6 @@
 - (void)frame.;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType donationBlock; // @synthesize donationBlock=_donationBlock;
-@property(readonly, nonatomic) long long donationCount; // @synthesize donationCount=_donationCount;
-@property(nonatomic) _Bool donationInProgress; // @synthesize donationInProgress=_donationInProgress;
-@property(readonly, nonatomic) long long maxBackpressureSize; // @synthesize maxBackpressureSize=_maxBackpressureSize;
-@property(retain, nonatomic) NSMutableOrderedSet *pendingDonations; // @synthesize pendingDonations=_pendingDonations;
-@property(readonly, nonatomic) NSMapTable *pendingGroups; // @synthesize pendingGroups=_pendingGroups;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

@@ -9,7 +9,6 @@
 @interface IGPopupWindow
 {
     NSView *_controlView;
-    _Bool _hasCloseBox;
 }
 
 + (id);
@@ -19,10 +18,10 @@
 - (void);
 - (_Bool);
 - (double);
-- (void);
+- (void);
 - (_Bool);
-- (void);
-- (id)Value:(id)arg1;
+- (void)6@?<v@?B@"NSError">24;
+- (id)setAlphaValue:(id)arg1;
 - (_Bool)scannerWithString: /* Error: Ran out of types for this method. */;
 
 @end

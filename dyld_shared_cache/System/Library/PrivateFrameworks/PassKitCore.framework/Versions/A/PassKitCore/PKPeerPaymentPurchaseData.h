@@ -9,7 +9,6 @@
 @interface PKPeerPaymentPurchaseData : PKServiceProviderPurchaseData
 {
     _Bool _requiresInteraction;
-    unsigned long long _status;
 }
 
 + (_Bool);
@@ -17,16 +16,15 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)%;
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)dReason"b1"blacklistedSubreason"b1"networkFlags"b1"securityType"b1"unblacklistingReason"b1};
+- (void)tionTime;
 - (unsigned long long);
-- (id)ifier:(id)arg1;
+- (id)initWithKey:(id)arg1 altDSID:originType:originIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool requiresInteraction; // @synthesize requiresInteraction=_requiresInteraction;
 @property(nonatomic) unsigned long long status; // @synthesize status=_status;
 
 @end

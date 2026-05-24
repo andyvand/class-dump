@@ -4,31 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol ICLegacyContext, ICLegacyFolder;
+@protocol ICLegacyContext;
 
 @interface ICCreateHTMLNoteAction
 {
     id <ICLegacyContext> _context;
-    id <ICLegacyFolder> _folder;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)ialLayout;
+- (void)_hasPerformedInitialLayout;
 
 // Remaining properties
 @property(readonly, nonatomic) id <ICLegacyContext> context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <ICLegacyFolder> folder; // @synthesize folder=_folder;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

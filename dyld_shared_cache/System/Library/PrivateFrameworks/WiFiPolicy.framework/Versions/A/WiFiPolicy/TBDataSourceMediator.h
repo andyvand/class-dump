@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, TBCoreDataSource, TBDataSource;
+@class TBCoreDataSource;
 
 @interface TBDataSourceMediator
 {
     TBCoreDataSource *_local;
-    TBDataSource *_remote;
-    NSOperationQueue *_fetchQueue;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -21,16 +19,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)updated RouteUUID with our ID %@;
 - (id);
 - (void);
 - (void);
 - (id)TBQualityScore;
 
 // Remaining properties
-@property(retain, nonatomic) NSOperationQueue *fetchQueue; // @synthesize fetchQueue=_fetchQueue;
 @property(retain, nonatomic) TBCoreDataSource *local; // @synthesize local=_local;
-@property(retain, nonatomic) TBDataSource *remote; // @synthesize remote=_remote;
 
 @end
 

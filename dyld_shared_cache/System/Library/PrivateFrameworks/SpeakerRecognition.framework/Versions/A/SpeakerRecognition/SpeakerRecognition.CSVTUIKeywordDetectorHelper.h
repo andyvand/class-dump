@@ -7,19 +7,15 @@
 @interface SpeakerRecognition.CSVTUIKeywordDetectorHelper
 {
     id keywordAnalyzer;
-    id lastKeywordScore;
-    id keywordThreshold;
-    id audioBuffer;
-    id extraSamplesAtStart;
 }
 
 - (id);
 - (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)ZN11cnframework12ActiveObjectIN5raven39RavenActivityStateEstimatorActiveObjectEE41CreateAndStoreEventHandlerForActiveObjectINS1_16RavenSystemEventEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
 - (id);
 - (void);
 - (id) ;

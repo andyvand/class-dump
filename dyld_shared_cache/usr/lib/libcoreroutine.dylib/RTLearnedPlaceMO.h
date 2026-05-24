@@ -6,7 +6,6 @@
 
 #import <coreroutine/RTCloudManagedObject.h>
 
-@class NSData, NSNumber, NSSet, NSString, RTMapItemMO;
 @protocol GEOMapItem;
 
 @interface RTLearnedPlaceMO : RTCloudManagedObject
@@ -14,20 +13,13 @@
 }
 
 + (id);
-+ (id);
++ (id)GO_AWAY_INDICATION;
 + (id);
 + (id)imeAvg,%{public}.3lf;
-- (void);
+- (void)EventTracingCodableError;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *customLabel; // @dynamic customLabel;
-@property(retain, nonatomic) RTMapItemMO *mapItem; // @dynamic mapItem;
 @property(retain, nonatomic) id <GEOMapItem> mapItemGeoMapItem; // @dynamic mapItemGeoMapItem;
-@property(retain, nonatomic) NSData *mapItemGeoMapItemHandle; // @dynamic mapItemGeoMapItemHandle;
-@property(copy, nonatomic) NSNumber *mapItemSource; // @dynamic mapItemSource;
-@property(copy, nonatomic) NSNumber *type; // @dynamic type;
-@property(copy, nonatomic) NSNumber *typeSource; // @dynamic typeSource;
-@property(retain, nonatomic) NSSet *visits; // @dynamic visits;
 
 @end
 

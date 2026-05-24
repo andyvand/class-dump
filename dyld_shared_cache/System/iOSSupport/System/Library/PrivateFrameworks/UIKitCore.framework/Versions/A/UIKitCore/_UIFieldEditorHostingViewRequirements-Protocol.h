@@ -7,16 +7,14 @@
 @class UIView;
 
 @protocol _UIFieldEditorHostingViewRequirements
-- (struct CGRect)ementProviderWithInitialResponder:(struct CGRect)arg1;
+- (_Bool)ranscriptBackgroundCommand;
+- (long long)?;
+- (struct CGRect)_currentElementProviderWithInitialResponder:(struct CGRect)arg1;
 - (_Bool)@CD8E E(GìG¸I JK;
 - (UIView *)ÿê$ªþ;
-- (UIView *)aitCollectionCSg;
+- (UIView *)So17UITraitCollectionCSg;
 
 // Remaining properties
-@property(readonly, nonatomic) UIView *_backgroundView;
-@property(readonly, nonatomic) long long _blurEffectStyleForAppearance;
 @property(readonly, nonatomic) UIView *_contentView;
-@property(readonly, nonatomic) _Bool _fieldEditorAttached;
-@property(readonly, nonatomic) _Bool _hasContent;
 @end
 

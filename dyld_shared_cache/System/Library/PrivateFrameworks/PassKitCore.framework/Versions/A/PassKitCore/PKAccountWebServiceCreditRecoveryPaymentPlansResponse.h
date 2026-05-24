@@ -14,8 +14,8 @@
 }
 
 - (id);
-- (id);
-- (void)nion;
+- (id)_;
+- (void)automaticToCompanion;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *paymentPlans; // @synthesize paymentPlans=_paymentPlans;

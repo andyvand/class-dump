@@ -7,11 +7,9 @@
 @class NSSet, NSURL;
 
 @protocol WBSSandboxExtensionToken
+- (NSURL *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *requestURL;
-@property(readonly, nonatomic) NSURL *shortestAccessibleURL;
-@property(readonly, nonatomic) _Bool stopAccessingRequestURLWhenDone;
 @property(readonly, copy, nonatomic) NSSet *urls;
 @end
 

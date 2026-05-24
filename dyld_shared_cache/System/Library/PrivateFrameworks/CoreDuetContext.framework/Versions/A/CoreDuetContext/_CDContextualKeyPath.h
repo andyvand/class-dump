@@ -9,22 +9,18 @@
 @interface _CDContextualKeyPath
 {
     _Bool _isUserCentric;
-    _Bool _isEphemeral;
-    _Bool _sensitiveContents;
-    NSString *_key;
-    NSString *_deviceID;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 + (id);
+- (id)h( with (me|us|them)?)?( tomorrow| today)?;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)RemoveReason;
 - (void);
 - (id);
 - (_Bool);
@@ -32,9 +28,9 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)_requiresUserConfirmation;
+- (void)FULL_CONFIDENCE;
+- (_Bool)INGetCarLockStatusIntentResponseCodeFailure;
 - (id);
 - (void);
 - (id);
@@ -45,11 +41,7 @@
 - (_Bool)reDuet:ClientContext addObjects:toArrayAtKeyPath: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *deviceID; // @synthesize deviceID=_deviceID;
-@property(nonatomic) _Bool isEphemeral; // @synthesize isEphemeral=_isEphemeral;
-@property(nonatomic) _Bool isUserCentric; // @synthesize isUserCentric=_isUserCentric;
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) _Bool sensitiveContents; // @synthesize sensitiveContents=_sensitiveContents;
 
 @end
 

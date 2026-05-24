@@ -7,7 +7,6 @@
 @interface NewsArticles.ReadingListObserver
 {
     id readingList;
-    id onSaveObservers;
 }
 
 - (void);

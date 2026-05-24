@@ -10,14 +10,6 @@ __attribute__((visibility("hidden")))
 @interface UIDocumentErrorRecoveryAttempter
 {
     UIDocument *_document;
-    id _wrappedRecoveryAttempter;
-    CDUnknownBlockType _continuerOrNil;
-    long long _silentRecoveryOptionIndex;
-    CDUnknownBlockType _appModalRecoveryAttempter;
-    CDUnknownBlockType _recoveryCancelerOrNil;
-    struct {
-        unsigned int attemptedRecovery:1;
-    } _errorRecoveryAttempterFlags;
 }
 
 - (id);

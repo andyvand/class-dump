@@ -5,5 +5,6 @@
 //
 
 @protocol DESDPRecorderProtocol
+- (_Bool)ionRequest.statementResults.payload.outcome.parameterCandidatesNotFounds.value.value.primitive.app.bundleId;
 @end
 

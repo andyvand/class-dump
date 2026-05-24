@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FAFamilySuggesterFeedbackContext, NSArray, NSString;
+@class FAFamilySuggesterFeedbackContext, NSArray;
 
 @interface FAInviteSuggestions
 {
     FAFamilySuggesterFeedbackContext *_feedbackContext;
-    NSArray *_suggesters;
 }
 
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (long long);
-- (id);
-- (id);
+- (id)value;
+- (void)emphasized;
+- (void)assistantid;
+- (id)upNextQueueInsertLocation;
+- (id)SkipToNext;
+- (id)AddressCity;
+- (long long)motionConfidence;
+- (id)dynamicURLImageResourceData;
+- (id)packetNumber;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) FAFamilySuggesterFeedbackContext *feedbackContext; // @synthesize feedbackContext=_feedbackContext;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSArray *suggesters; // @synthesize suggesters=_suggesters;
-@property(readonly) Class superclass;
 
 @end
 

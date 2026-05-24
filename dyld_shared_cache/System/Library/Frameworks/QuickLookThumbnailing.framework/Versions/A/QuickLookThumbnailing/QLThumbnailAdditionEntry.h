@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString, NSURL;
-
 @interface QLThumbnailAdditionEntry
 {
     unsigned long long _documentID;
-    long long _size;
-    NSDate *_lastHitDate;
-    NSURL *_lastSeenURL;
-    NSData *_vol_uuid;
 }
 
 + (_Bool);
@@ -21,31 +15,19 @@
 - (void);
 - (id);
 - (id);
+- (void);
+- (void)#;
 - (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)!;
 - (id);
-- (id);
+- (id));
 - (long long);
-- (void);
+- (void)A6;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property unsigned long long documentID; // @synthesize documentID=_documentID;
 @property(readonly) unsigned long long hash;
-@property(retain) NSDate *lastHitDate; // @synthesize lastHitDate=_lastHitDate;
-@property(retain) NSURL *lastSeenURL; // @synthesize lastSeenURL=_lastSeenURL;
-@property long long size; // @synthesize size=_size;
-@property(readonly) Class superclass;
-@property(readonly) NSString *unparsedVolumeUUID;
-@property(retain) NSData *vol_uuid; // @synthesize vol_uuid=_vol_uuid;
 
 @end
 

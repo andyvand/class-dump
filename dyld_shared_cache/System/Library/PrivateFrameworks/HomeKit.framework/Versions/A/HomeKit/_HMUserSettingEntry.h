@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface _HMUserSettingEntry
 {
     NSString *_keyPath;
-    NSArray *_constraints;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (void)oPreferences",&,V_videoPreferences;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *constraints; // @synthesize constraints=_constraints;
 @property(readonly, nonatomic) NSString *keyPath; // @synthesize keyPath=_keyPath;
 
 @end

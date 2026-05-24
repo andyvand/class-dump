@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CXTransactionGroup, CXTransactionManager, NSArray, NSMutableDictionary, NSObject, NSString, NSXPCListener;
-@protocol CXCallSourceManagerDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CXCallSourceManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id <CXCallSourceManagerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    NSMutableDictionary *_identifierToCallSource;
-    CXTransactionManager *_transactionManager;
-    CXTransactionGroup *_uncommittedTransactionGroup;
-    NSXPCListener *_xpcListener;
 }
 
+- (void)3DRuntime/Utils/C3DUtils.c;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)H;
 - (id);
 - (void);
 - (void);
@@ -40,42 +34,28 @@
 - (void);
 - (void);
 - (void);
+- (id)error=%{public}@;
+- (void)er] Failed to find ML3 equivalents for all properties [no MusicLibrary.framework]:(id)arg1 %{public}@;
+- (void);
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)Account Modified;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)t:(CDUnknownBlockType)arg1 ];
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *callSources;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) __weak id <CXCallSourceManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSMutableDictionary *identifierToCallSource; // @synthesize identifierToCallSource=_identifierToCallSource;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CXTransactionManager *transactionManager; // @synthesize transactionManager=_transactionManager;
-@property(retain, nonatomic) CXTransactionGroup *uncommittedTransactionGroup; // @synthesize uncommittedTransactionGroup=_uncommittedTransactionGroup;
-@property(readonly, nonatomic) NSXPCListener *xpcListener; // @synthesize xpcListener=_xpcListener;
 
 @end
 

@@ -4,49 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOLogMsgEventRideBookedSession
 {
     PBDataReader *_reader;
-    NSMutableArray *_intentResponseFailures;
-    NSString *_rideAppId;
-    NSString *_rideAppVersion;
-    NSString *_rideBookedSessionId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _statusIssue;
-    _Bool _bookedUsingMaps;
-    _Bool _cancelled;
-    _Bool _contactedDriver;
-    _Bool _invalidVehicleLocation;
-    _Bool _missingVehicleLocation;
-    _Bool _tappedProactiveTrayItem;
-    _Bool _viewedDetails;
-    _Bool _viewedInProactiveTray;
-    struct {
-        unsigned int has_statusIssue:1;
-        unsigned int has_bookedUsingMaps:1;
-        unsigned int has_cancelled:1;
-        unsigned int has_contactedDriver:1;
-        unsigned int has_invalidVehicleLocation:1;
-        unsigned int has_missingVehicleLocation:1;
-        unsigned int has_tappedProactiveTrayItem:1;
-        unsigned int has_viewedDetails:1;
-        unsigned int has_viewedInProactiveTray:1;
-        unsigned int read_intentResponseFailures:1;
-        unsigned int read_rideAppId:1;
-        unsigned int read_rideAppVersion:1;
-        unsigned int read_rideBookedSessionId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)Time:(id)arg1;
++ (_Bool)setHasStaticTravelTime:(id)arg1;
 - (_Bool);
-- (_Bool);
+- (_Bool)|;
 - (_Bool);
 - (id);
 - (int);
@@ -55,7 +23,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
@@ -78,6 +46,8 @@
 - (unsigned long long);
 - (id);
 - (id);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -88,11 +58,9 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)numberWithUnsignedLongLong: /* Error: Ran out of types for this method. */;
+- (void)_token;
+- (void)_CNBlockFutureImpl;
 - (_Bool);
 - (_Bool);
 - (int);
@@ -100,15 +68,15 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)disabled (we will switch to audioTap if Siri is still enabled);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)connected;
+- (_Bool)q;
 - (id);
 - (void);
-- (id)ionTraversalPercent:(struct _NSZone *)arg1;
+- (id)setTriggeredLocationTraversalPercent:(struct _NSZone *)arg1;
 - (id)ns;
 - (void)ðw;
 - (id)um concurrent tile requests is limited to %llu;
@@ -116,31 +84,7 @@
 - (void)ßª7ÊÇ3;
 
 // Remaining properties
-@property(nonatomic) _Bool bookedUsingMaps;
-@property(nonatomic) _Bool cancelled;
-@property(nonatomic) _Bool contactedDriver;
 @property(nonatomic) _Bool hasBookedUsingMaps;
-@property(nonatomic) _Bool hasCancelled;
-@property(nonatomic) _Bool hasContactedDriver;
-@property(nonatomic) _Bool hasInvalidVehicleLocation;
-@property(nonatomic) _Bool hasMissingVehicleLocation;
-@property(readonly, nonatomic) _Bool hasRideAppId;
-@property(readonly, nonatomic) _Bool hasRideAppVersion;
-@property(readonly, nonatomic) _Bool hasRideBookedSessionId;
-@property(nonatomic) _Bool hasStatusIssue;
-@property(nonatomic) _Bool hasTappedProactiveTrayItem;
-@property(nonatomic) _Bool hasViewedDetails;
-@property(nonatomic) _Bool hasViewedInProactiveTray;
-@property(retain, nonatomic) NSMutableArray *intentResponseFailures;
-@property(nonatomic) _Bool invalidVehicleLocation;
-@property(nonatomic) _Bool missingVehicleLocation;
-@property(retain, nonatomic) NSString *rideAppId;
-@property(retain, nonatomic) NSString *rideAppVersion;
-@property(retain, nonatomic) NSString *rideBookedSessionId;
-@property(nonatomic) int statusIssue;
-@property(nonatomic) _Bool tappedProactiveTrayItem;
-@property(nonatomic) _Bool viewedDetails;
-@property(nonatomic) _Bool viewedInProactiveTray;
 
 @end
 

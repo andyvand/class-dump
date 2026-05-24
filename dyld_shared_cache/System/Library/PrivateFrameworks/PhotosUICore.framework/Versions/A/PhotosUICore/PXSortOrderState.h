@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface PXSortOrderState
 {
     unsigned long long _sortOrder;
-    NSArray *_possibleSortOrders;
 }
 
 - (id);
@@ -17,10 +14,9 @@
 - (void);
 - (void);
 - (unsigned long long)Íþÿ8ðýÿ«ýÿ;
-- (void)bject;
+- (void)BackingObject;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *possibleSortOrders; // @synthesize possibleSortOrders=_possibleSortOrders;
 @property(readonly, nonatomic) unsigned long long sortOrder; // @synthesize sortOrder=_sortOrder;
 
 @end

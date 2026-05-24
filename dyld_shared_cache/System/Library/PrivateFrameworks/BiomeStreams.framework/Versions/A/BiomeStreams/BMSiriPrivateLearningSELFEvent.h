@@ -4,48 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface BMSiriPrivateLearningSELFEvent
 {
     NSString *_uniqueId;
-    double _absoluteTimestamp;
-    NSData *_eventData;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (unsigned int);
 - (id);
 - (id);
-- (id);
+- (id)k;
 - (_Bool);
 - (id);
 - (double);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)removeObject:(id)arg1;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)ends_stmt__pack_to_buffer;
+- (id)pg_query__alter_object_depends_stmt__pack_to_buffer;
 - (void)¬­®¯°±;
 
 // Remaining properties
-@property(readonly, nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSData *eventData; // @synthesize eventData=_eventData;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end

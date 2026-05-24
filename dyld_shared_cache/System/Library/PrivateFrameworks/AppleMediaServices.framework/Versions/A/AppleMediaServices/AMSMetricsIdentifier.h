@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AMSMetricsIdentifierStore, AMSProcessInfo, NSString;
+@class ACAccount, AMSMetricsIdentifierStore;
 
 @interface AMSMetricsIdentifier
 {
@@ -12,26 +12,23 @@
 }
 
 + (id);
-+ (void);
++ (void)@>;
 + (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)_reloadOneChatForceDisabled;
+- (id)error during download:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (double);
 - (void);
 - (id);
 - (id);
-- (void)f:(id)arg1 width:height: /* Error: Ran out of types for this method. */;
+- (void)_createRGBImageRefForGreyScaleImageRef:(id)arg1 width:height: /* Error: Ran out of types for this method. */;
 - (id)\DþöU´§Í°éªsÃC8ÇØÜz®±> ¸}Y¹ã3­0AE¶xðÒÞîæ4íj¾e(ô9ÔPû7ýgïtºÏÎøWÝ'+Äõbh!ìIF[w|Kè«Ö-Qç/~;¦pH{v;
 - (void)ÖÒJ&G¤(>]õÀÑUÞ.s^;
 
 // Remaining properties
 @property(retain) ACAccount *account;
-@property(retain) AMSProcessInfo *clientInfo;
-@property(retain) NSString *domain;
-@property double duration;
 
 @end
 

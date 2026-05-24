@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface RealityKit.__EntityAccessibilityWrapper
 {
     id entity;
     RealityKit.__EntityAccessibilityWrapper *rootEntityWrapper;
 }
 
-- (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (id);
+- (unsigned long long);
 - (id);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (id);
+- (id)?;
 - (struct CGRect);
 - (id);
 - (id);
@@ -33,18 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *entityAccessibilityCustomActions;
-@property(nonatomic, readonly) NSArray *entityAccessibilityCustomContent;
-@property(nonatomic, readonly) NSArray *entityAccessibilityCustomRotors;
-@property(nonatomic, readonly) unsigned long long entityAccessibilityTraits;
-@property(nonatomic, readonly) NSString *entityDescription;
-@property(nonatomic, readonly) NSString *entityLabel;
-@property(nonatomic, readonly) _Bool entitySupportsAccessibilityActivateAction;
-@property(nonatomic, readonly) NSString *entityValue;
 @property(nonatomic, readonly) unsigned long long identifier;
-@property(nonatomic, readonly) _Bool isEntityAccessible;
-@property(nonatomic, readonly) _Bool isEntityActive;
-@property(nonatomic, readonly) _Bool isEntityRoot;
 @property(nonatomic, readonly) RealityKit.__EntityAccessibilityWrapper *rootEntityWrapper; // @synthesize rootEntityWrapper;
 
 @end

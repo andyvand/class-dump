@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInputInitializationContext
 {
     _GCDevicePhysicalInputBase *_implementation;
-    struct __CFArray *_views;
-    id _viewConfiguration;
-    id _viewProperties;
-    id _viewState;
 }
 
 - (unsigned long long);

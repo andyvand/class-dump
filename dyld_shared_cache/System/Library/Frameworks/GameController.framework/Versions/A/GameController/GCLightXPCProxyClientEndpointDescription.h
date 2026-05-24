@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCDeviceLight, GCLightXPCProxyClientEndpoint, NSString;
+@class GCDeviceLight;
 @protocol NSObject><NSCopying><NSSecureCoding;
 
 __attribute__((visibility("hidden")))
 @interface GCLightXPCProxyClientEndpointDescription
 {
     GCDeviceLight *_initialLight;
-    GCLightXPCProxyClientEndpoint *_materializedObject;
-    id <NSObject><NSCopying><NSSecureCoding> _identifier;
 }
 
 + (_Bool);
@@ -25,14 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) id <NSObject><NSCopying><NSSecureCoding> identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileHandle;
-
 __attribute__((visibility("hidden")))
 @interface DRBINFileProducer
 {
     unsigned int blocksOfSilence;
-    NSFileHandle *fd;
 }
 
-+ (id);
++ (id)setDomainId: /* Error: Ran out of types for this method. */;
 - (unsigned int);
-- (unsigned int);
+- (unsigned int);
 - (unsigned int);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)covery key for context:%@ /* Error: Ran out of types for this method. */;
 
 @end
 

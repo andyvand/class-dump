@@ -7,18 +7,14 @@
 @interface AXMOutputManagerConfiguration
 {
     _Bool _usesPrivateAudioSession;
-    _Bool _hapticEngineUsesAutoShutdown;
-    _Bool _hapticEngineUsesHapticsOnly;
-    unsigned long long _components;
-    double _hapticEngineAutoShutdownTimeout;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)|;
+- (_Bool)#z;
 - (double);
 - (void);
 - (id);
@@ -27,10 +23,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long components; // @synthesize components=_components;
-@property(nonatomic) double hapticEngineAutoShutdownTimeout; // @synthesize hapticEngineAutoShutdownTimeout=_hapticEngineAutoShutdownTimeout;
-@property(nonatomic) _Bool hapticEngineUsesAutoShutdown; // @synthesize hapticEngineUsesAutoShutdown=_hapticEngineUsesAutoShutdown;
-@property(nonatomic) _Bool hapticEngineUsesHapticsOnly; // @synthesize hapticEngineUsesHapticsOnly=_hapticEngineUsesHapticsOnly;
-@property(nonatomic) _Bool usesPrivateAudioSession; // @synthesize usesPrivateAudioSession=_usesPrivateAudioSession;
 
 @end
 

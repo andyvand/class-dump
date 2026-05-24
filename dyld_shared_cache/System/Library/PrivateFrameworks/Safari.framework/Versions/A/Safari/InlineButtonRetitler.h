@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface InlineButtonRetitler
 {
     NSButton *_button;
-    double _horizontalPadding;
 }
 
 + (Class);

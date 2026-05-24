@@ -4,31 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWFScanResult, NSDate, NSDictionary, NSNumber, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface CWFJITTDImpactEstimator
 {
     _Bool __legacyAccountingComplete;
-    CDUnknownBlockType _scanForNetworkHandler;
-    CDUnknownBlockType _gatherCellularDataStats;
-    long long __rssi;
-    long long __activity;
-    CWFScanResult *__tdNetwork;
-    NSDate *__startTime;
-    NSObject<OS_dispatch_queue> *__timerQueue;
-    NSObject<OS_dispatch_queue> *__serviceQueue;
-    long long __boundaryTime;
-    NSObject<OS_dispatch_source> *__boundaryTimer;
-    NSObject<OS_dispatch_source> *__periodicTimer;
-    NSNumber *__totalCellularInBytes;
-    NSNumber *__totalCellularOutBytes;
-    NSNumber *__totalCellularInPackets;
-    NSNumber *__totalCellularOutPackets;
-    NSDate *__lastSubmissionTimePreAJ;
-    NSDate *__lastSubmissionTimePostTD;
-    NSDictionary *__previousCellularDataUsageInPostTD;
-    NSDictionary *__cellularDataUsageInLegacyBoundary;
 }
 
 + (id);
@@ -50,7 +28,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)h;
 - (void);
 - (void);
 - (void);
@@ -67,7 +45,7 @@
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)@;
 - (_Bool);
 - (id);
 - (id);
@@ -98,26 +76,7 @@
 - (void)ceAt;
 
 // Remaining properties
-@property(nonatomic) long long _activity; // @synthesize _activity=__activity;
-@property(nonatomic) long long _boundaryTime; // @synthesize _boundaryTime=__boundaryTime;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *_boundaryTimer; // @synthesize _boundaryTimer=__boundaryTimer;
-@property(retain, nonatomic) NSDictionary *_cellularDataUsageInLegacyBoundary; // @synthesize _cellularDataUsageInLegacyBoundary=__cellularDataUsageInLegacyBoundary;
-@property(retain, nonatomic) NSDate *_lastSubmissionTimePostTD; // @synthesize _lastSubmissionTimePostTD=__lastSubmissionTimePostTD;
-@property(retain, nonatomic) NSDate *_lastSubmissionTimePreAJ; // @synthesize _lastSubmissionTimePreAJ=__lastSubmissionTimePreAJ;
-@property(nonatomic) _Bool _legacyAccountingComplete; // @synthesize _legacyAccountingComplete=__legacyAccountingComplete;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *_periodicTimer; // @synthesize _periodicTimer=__periodicTimer;
-@property(retain, nonatomic) NSDictionary *_previousCellularDataUsageInPostTD; // @synthesize _previousCellularDataUsageInPostTD=__previousCellularDataUsageInPostTD;
 @property(nonatomic) long long _rssi; // @synthesize _rssi=__rssi;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *_serviceQueue; // @synthesize _serviceQueue=__serviceQueue;
-@property(retain, nonatomic) NSDate *_startTime; // @synthesize _startTime=__startTime;
-@property(retain, nonatomic) CWFScanResult *_tdNetwork; // @synthesize _tdNetwork=__tdNetwork;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *_timerQueue; // @synthesize _timerQueue=__timerQueue;
-@property(retain, nonatomic) NSNumber *_totalCellularInBytes; // @synthesize _totalCellularInBytes=__totalCellularInBytes;
-@property(retain, nonatomic) NSNumber *_totalCellularInPackets; // @synthesize _totalCellularInPackets=__totalCellularInPackets;
-@property(retain, nonatomic) NSNumber *_totalCellularOutBytes; // @synthesize _totalCellularOutBytes=__totalCellularOutBytes;
-@property(retain, nonatomic) NSNumber *_totalCellularOutPackets; // @synthesize _totalCellularOutPackets=__totalCellularOutPackets;
-@property(copy) CDUnknownBlockType gatherCellularDataStats; // @synthesize gatherCellularDataStats=_gatherCellularDataStats;
-@property(copy) CDUnknownBlockType scanForNetworkHandler; // @synthesize scanForNetworkHandler=_scanForNetworkHandler;
 
 @end
 

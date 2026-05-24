@@ -12,16 +12,15 @@
 + (id);
 + (_Bool);
 + (id)@};
-- (unsigned long long);
+- (unsigned long long)(;
 - (id);
+- (void)s on connectionInfo;
 - (void);
-- (void);
-- (id);
+- (id)=;
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) unsigned long long error; // @synthesize error=_error;
 @property(readonly, nonatomic) _Bool success;
 
 @end

@@ -6,54 +6,30 @@
 
 #import <SearchFoundation/SFImage.h>
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface SFPhotosMemoryImage : SFImage
 {
     NSString *_memoryIdentifier;
-    NSString *_applicationBundleIdentifier;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)setSubtitleShort:(id)arg1;
+- (unsigned long long);
 - (_Bool);
+- (void)TLContentProtectionStateObserver;
+- (id);
+- (id)SOrderedSet",&,N;
+- (id)PHPhotosErrorShareBusy;
+- (id)eRequest"8;
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)leNote;
+- (void)_titleNote;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityLabel;
-@property(copy, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property(retain, nonatomic) SFImage *badgingImage;
-@property(copy, nonatomic) NSString *contentType;
-@property(nonatomic) double cornerRadius;
-@property(nonatomic) int cornerRoundingStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier;
-@property(copy) NSData *imageData;
-@property(nonatomic) _Bool isTemplate;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *keyColor;
 @property(copy, nonatomic) NSString *memoryIdentifier; // @synthesize memoryIdentifier=_memoryIdentifier;
-@property(nonatomic) double scale;
-@property(nonatomic) _Bool shouldCropToCircle;
-@property(nonatomic) struct CGSize size;
-@property(nonatomic) int source;
-@property(readonly) Class superclass;
 
 @end
 

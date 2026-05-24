@@ -8,9 +8,9 @@
 {
 }
 
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)STViewAllActivityCoreAnalyticsEvent;
+- (id)G;
+- (id)�;
 - (_Bool);
 - (_Bool);
 

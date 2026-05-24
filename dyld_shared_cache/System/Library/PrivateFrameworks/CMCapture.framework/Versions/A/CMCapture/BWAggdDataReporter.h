@@ -10,7 +10,6 @@
 @interface BWAggdDataReporter
 {
     NSObject<OS_dispatch_queue> *_aggdDispatchQueue;
-    int _lastShutterLag;
 }
 
 + (id)eSenderService _newSampleBufferToSendFromSampleBuffer:] /* Error: Ran out of types for this method. */;
@@ -19,8 +18,8 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)replaceObjectsInRange:(_Bool)arg1 withObjectsFromArray:(int)arg2;
+- (void)d@;
 - (void);
 - (void);
 - (void);
@@ -36,18 +35,18 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)(;
 - (int);
+- (void)_nonSyncableItems;
+- (void);
+- (void)mentServer";
+- (void)initWithContainer:(int)arg1 recordZoneName:(id)arg2;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)$;
 - (void);
 - (void);
 - (void);
@@ -60,7 +59,7 @@
 - (void)nAttachedSessionManager created.;
 - (void)YÿB¥ZÿN¥ZÿY¥[ÿc¥[ÿo¥\ÿx¤]ÿ¤^ÿ¤_ÿ¤`ÿ¤aÿ¤¤bÿ¬¤bÿ´¤aÿ½£`ÿÅ£`ÿÍ£`ÿÔ£_ÿÝ£_ÿå£_ÿì£_ÿô£_ÿö¢_ÿ;
 - (id);
-- (void)maticFramingOutputHeight;
+- (void)CinematicFramingOutputHeight;
 - (id)bgraph ports;
 
 @end

@@ -10,21 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDFactoidReference
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _factoidItemIndex;
-    int _style;
-    struct {
-        unsigned int has_factoidItemIndex:1;
-        unsigned int has_style:1;
-    } _flags;
 }
 
-- (id);
+- (id)P;
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id)toZooms"b1"read_countryCode3A"b1"read_countryCode"b1"read_state"b1"read_vectorPoiDisplayDv"b1"wrote_anyField"b1};
-- (id)it;
+- (id)_diagnosticsOnly_forwardSpeedLimit;
 - (id)34459à: /* Error: Ran out of types for this method. */;
 - (void);
 

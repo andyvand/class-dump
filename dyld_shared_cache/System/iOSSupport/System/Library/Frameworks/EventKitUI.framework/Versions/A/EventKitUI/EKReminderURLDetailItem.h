@@ -13,8 +13,8 @@
 + (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)&s;
+- (id)3%s;
 - (_Bool);
 
 @end

@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSNumber, NSString;
+@class NSString;
 
 @interface IDSKTState
 {
     int _registrationType;
-    int _status;
-    NSString *_userID;
-    NSData *_ktAccountKey;
-    NSDate *_ktAccountKeyTimestamp;
-    NSNumber *_ktAccountKeyErrorCode;
-    NSData *_deviceSignature;
-    NSData *_ktDataForRegistration;
-    unsigned long long _optedIn;
-    NSDate *_ktOptInTimestamp;
-    NSNumber *_ktOptInErrorCode;
-    NSString *_dsid;
 }
 
 + (_Bool);
@@ -30,17 +19,17 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
+- (void)lrcFedSerializedEscrowRecord;
 - (void);
 - (void);
 - (void);
@@ -50,21 +39,10 @@
 - (id);
 - (void),Ð1Â0@ù
 × ;
-- (int)MainThread: /* Error: Ran out of types for this method. */;
+- (int)initWithTarget:connection:protocol:forceSecureCoding:offMainThread: /* Error: Ran out of types for this method. */;
 - (void)itations;
 
 // Remaining properties
-@property(retain) NSData *deviceSignature; // @synthesize deviceSignature=_deviceSignature;
-@property(retain) NSString *dsid; // @synthesize dsid=_dsid;
-@property(retain) NSData *ktAccountKey; // @synthesize ktAccountKey=_ktAccountKey;
-@property(retain) NSNumber *ktAccountKeyErrorCode; // @synthesize ktAccountKeyErrorCode=_ktAccountKeyErrorCode;
-@property(retain) NSDate *ktAccountKeyTimestamp; // @synthesize ktAccountKeyTimestamp=_ktAccountKeyTimestamp;
-@property(retain) NSData *ktDataForRegistration; // @synthesize ktDataForRegistration=_ktDataForRegistration;
-@property(retain) NSNumber *ktOptInErrorCode; // @synthesize ktOptInErrorCode=_ktOptInErrorCode;
-@property(retain) NSDate *ktOptInTimestamp; // @synthesize ktOptInTimestamp=_ktOptInTimestamp;
-@property unsigned long long optedIn; // @synthesize optedIn=_optedIn;
-@property int registrationType; // @synthesize registrationType=_registrationType;
-@property int status; // @synthesize status=_status;
 @property(retain) NSString *userID; // @synthesize userID=_userID;
 
 @end

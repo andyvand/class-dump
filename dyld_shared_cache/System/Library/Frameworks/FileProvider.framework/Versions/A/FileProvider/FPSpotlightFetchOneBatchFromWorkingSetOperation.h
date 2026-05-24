@@ -6,30 +6,23 @@
 
 #import <FileProvider/FPOperation.h>
 
-@class FPSpotlightIndexState, FPSpotlightIndexer, FPXDomainContext, NSArray, NSData, NSError;
+@class FPSpotlightIndexer, NSArray;
 
 __attribute__((visibility("hidden")))
 @interface FPSpotlightFetchOneBatchFromWorkingSetOperation : FPOperation
 {
     FPSpotlightIndexer *_indexer;
-    FPXDomainContext *_domainContext;
-    FPSpotlightIndexState *_indexState;
-    _Bool _hasMore;
-    NSArray *_updatedItems;
-    NSArray *_deletedItemIDs;
-    NSData *_nextAnchor;
-    NSError *_error;
 }
 
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (void);
@@ -41,10 +34,6 @@ __attribute__((visibility("hidden")))
 - (void)ð;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *deletedItemIDs; // @synthesize deletedItemIDs=_deletedItemIDs;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) _Bool hasMore; // @synthesize hasMore=_hasMore;
-@property(retain, nonatomic) NSData *nextAnchor; // @synthesize nextAnchor=_nextAnchor;
 @property(retain, nonatomic) NSArray *updatedItems; // @synthesize updatedItems=_updatedItems;
 
 @end

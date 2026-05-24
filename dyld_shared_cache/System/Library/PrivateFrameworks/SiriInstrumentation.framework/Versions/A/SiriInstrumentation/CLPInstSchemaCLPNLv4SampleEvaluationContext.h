@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class CLPInstSchemaCLPNLv4SampleEvaluationEnded, CLPInstSchemaCLPNLv4SampleEvaluationFailed, CLPInstSchemaCLPNLv4SampleEvaluationStarted, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface CLPInstSchemaCLPNLv4SampleEvaluationContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    CLPInstSchemaCLPNLv4SampleEvaluationStarted *_startedOrChanged;
-    CLPInstSchemaCLPNLv4SampleEvaluationEnded *_ended;
-    CLPInstSchemaCLPNLv4SampleEvaluationFailed *_failed;
-    _Bool _hasContextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -26,14 +18,14 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)@9hR;
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -45,10 +37,10 @@
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)dioStationContextTier1";
-- (id)Presented;
+- (id)GATSchemaGATConfirmationSnippetPresented;
 - (id)ØQ;
 - (void)0µ±ÿ&eÆ4&;
 - (void)5®,;
@@ -56,15 +48,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) CLPInstSchemaCLPNLv4SampleEvaluationEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) CLPInstSchemaCLPNLv4SampleEvaluationFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) CLPInstSchemaCLPNLv4SampleEvaluationStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

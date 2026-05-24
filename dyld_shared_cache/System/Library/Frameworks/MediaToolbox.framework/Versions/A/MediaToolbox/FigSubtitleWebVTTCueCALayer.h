@@ -6,8 +6,6 @@
 
 #import <MediaToolbox/FigSubtitleBackdropCALayer.h>
 
-@class NSString;
-
 @interface FigSubtitleWebVTTCueCALayer : FigSubtitleBackdropCALayer
 {
     struct OpaqueFigSubtitleWebVTTCueCALayerInternal *layerInternal;
@@ -19,21 +17,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)h;
 - (id);
 - (unsigned char);
-- (void);
+- (void)H;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

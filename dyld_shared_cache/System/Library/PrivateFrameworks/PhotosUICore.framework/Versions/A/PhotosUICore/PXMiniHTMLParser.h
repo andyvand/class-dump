@@ -9,10 +9,6 @@
 @interface PXMiniHTMLParser
 {
     CDUnknownBlockType _parsedCharactersBlock;
-    CDUnknownBlockType _parsedMarkupElementStartBlock;
-    CDUnknownBlockType _parsedMarkupElementEndBlock;
-    CDUnknownBlockType _parsedErrorBlock;
-    NSString *__string;
 }
 
 + (id);
@@ -33,10 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *_string; // @synthesize _string=__string;
-@property(copy, nonatomic) CDUnknownBlockType parsedCharactersBlock; // @synthesize parsedCharactersBlock=_parsedCharactersBlock;
-@property(copy, nonatomic) CDUnknownBlockType parsedErrorBlock; // @synthesize parsedErrorBlock=_parsedErrorBlock;
-@property(copy, nonatomic) CDUnknownBlockType parsedMarkupElementEndBlock; // @synthesize parsedMarkupElementEndBlock=_parsedMarkupElementEndBlock;
-@property(copy, nonatomic) CDUnknownBlockType parsedMarkupElementStartBlock; // @synthesize parsedMarkupElementStartBlock=_parsedMarkupElementStartBlock;
 
 @end
 

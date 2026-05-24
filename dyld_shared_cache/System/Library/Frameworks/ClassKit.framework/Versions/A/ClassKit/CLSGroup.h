@@ -6,37 +6,18 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class NSPersonNameComponents, NSString;
+@class NSString;
 
 @interface CLSGroup : CLSObject
 {
     NSString *_groupName;
-    NSString *_locationID;
-    NSString *_emailAddress;
-    NSString *_searchText;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)_cropRect;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSString *displayName;
-@property(copy) NSString *emailAddress; // @synthesize emailAddress=_emailAddress;
-@property(readonly) NSString *groupIdentifier;
-@property(copy, nonatomic) NSString *groupName; // @synthesize groupName=_groupName;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *locationID; // @synthesize locationID=_locationID;
-@property(readonly) NSPersonNameComponents *nameComponents;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSPersonNameComponents",?,R
-
-@property(copy, nonatomic) NSString *searchText; // @synthesize searchText=_searchText;
-@property(readonly) Class superclass;
 
 @end
 

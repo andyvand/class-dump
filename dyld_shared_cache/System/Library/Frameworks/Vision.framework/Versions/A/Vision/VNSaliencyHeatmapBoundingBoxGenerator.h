@@ -11,11 +11,11 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id);
 + (unsigned int);
-+ (void);
++ (void)ssionDataTask"24@"NSURLResponse"32@?<v@?q>40;
 + (unsigned long long);
-+ (id);
++ (id)",R,N,V_groupIdentifiers;
 + (id);
 - (_Bool);
 - (id);

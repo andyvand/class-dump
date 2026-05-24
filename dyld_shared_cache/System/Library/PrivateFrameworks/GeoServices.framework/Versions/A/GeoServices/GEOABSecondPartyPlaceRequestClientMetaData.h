@@ -4,31 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDABClientDatasetMetadata, NSMutableArray, PBDataReader, PBUnknownFields;
+@class NSMutableArray, PBDataReader;
 
 @interface GEOABSecondPartyPlaceRequestClientMetaData
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_clientConfigs;
-    GEOPDABClientDatasetMetadata *_clientDatasetMetadata;
-    NSMutableArray *_serverAbAssignments;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_clientConfigs:1;
-        unsigned int read_clientDatasetMetadata:1;
-        unsigned int read_serverAbAssignments:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
++ (Class)omponents %@;
 + (Class);
-+ (Class);
-+ (_Bool)d:(id)arg1;
-- (void);
++ (_Bool)setHasMapSettingsIsHandsFreeProfileEnabled:(id)arg1;
+- (void)A;
 - (id);
 - (void);
 - (void);
@@ -36,7 +22,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_hasTriggerPending;
 - (id);
 - (void);
 - (void);
@@ -45,7 +31,7 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)s are too deeply nested (stack check);
 - (unsigned long long);
 - (void);
 - (_Bool);
@@ -54,10 +40,10 @@
 × ;
 - (_Bool)Â0@ù
 × ;
-- (id)ocalizedChangeListsCount;
-- (id)CountryCode:(unsigned long long)arg1 auditToken:callback: /* Error: Ran out of types for this method. */;
+- (id)localizedChangeListsCount;
+- (id)fetchGEOIPCountryCode:(unsigned long long)arg1 auditToken:callback: /* Error: Ran out of types for this method. */;
 - (id)ä÷¸ø ùtú`û4ü ýðýÈÿ;
-- (id)entBucketGUIDTimestamp;
+- (id)ExperimentBucketGUIDTimestamp;
 - (id);
 - (id)t;
 - (id)ÿÿ;
@@ -65,11 +51,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *clientConfigs;
-@property(retain, nonatomic) GEOPDABClientDatasetMetadata *clientDatasetMetadata;
-@property(readonly, nonatomic) _Bool hasClientDatasetMetadata;
 @property(retain, nonatomic) NSMutableArray *serverAbAssignments;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

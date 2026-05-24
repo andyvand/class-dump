@@ -7,7 +7,7 @@
 @protocol SXResourceDataSource;
 
 @protocol SXResourceDataSourceProvider
-- (id <SXResourceDataSource>)DOMObjectProvider:layoutOptions: /* Error: Ran out of types for this method. */;
+- (id <SXResourceDataSource>)initWithComponent:componentLayout:componentStyle:DOMObjectProvider:layoutOptions: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXResourceDataSource> resourceDataSource;

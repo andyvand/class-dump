@@ -6,6 +6,6 @@
 
 @interface UnknownClass (SCRCLocaleExtras)
 + (id);
-- (_Bool);
+- (_Bool);
 @end
 

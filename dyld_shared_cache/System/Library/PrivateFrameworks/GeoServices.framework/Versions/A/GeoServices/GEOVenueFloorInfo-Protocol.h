@@ -5,9 +5,9 @@
 //
 
 @protocol GEOVenueFloorInfo
+- (unsigned long long)isTemporaryID;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long levelID;
 @property(readonly, nonatomic) short ordinal;
 @end
 

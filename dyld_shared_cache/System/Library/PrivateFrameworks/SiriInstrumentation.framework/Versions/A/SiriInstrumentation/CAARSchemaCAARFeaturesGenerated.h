@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface CAARSchemaCAARFeaturesGenerated : SISchemaInstrumentationMessage
 {
@@ -16,14 +16,15 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (unsigned long long)97;
+- (id);
+- (id)S
+;
+- (id);
+- (id);
 - (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
+- (unsigned long long)!;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -34,7 +35,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *actionFeatureSets; // @synthesize actionFeatureSets=_actionFeatureSets;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

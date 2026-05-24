@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, PKCurrencyAmount;
-
 @interface PKPaymentRewardsRedemptionUnit
 {
     unsigned long long _type;
-    NSDecimalNumber *_value;
-    PKCurrencyAmount *_monetaryValue;
 }
 
 + (_Bool);
@@ -20,22 +16,20 @@
 - (void);
 - (id);
 - (id);
+- (unsigned long long)C;
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
+- (_Bool)setWifiInfraPhyMode:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id)sionsWithContainingApplicationIdentifiers:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (id)extensionsWithContainingApplicationIdentifiers:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (void)k.peerpayment.activation.buddy-identity-verification-required;
 
 // Remaining properties
-@property(copy, nonatomic) PKCurrencyAmount *monetaryValue; // @synthesize monetaryValue=_monetaryValue;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(copy, nonatomic) NSDecimalNumber *value; // @synthesize value=_value;
 
 @end
 

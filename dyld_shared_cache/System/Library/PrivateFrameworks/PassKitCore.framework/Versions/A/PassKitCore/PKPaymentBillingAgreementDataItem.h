@@ -12,7 +12,7 @@
 {
 }
 
-+ (long long);
++ (long long)a;
 - (id);
 - (long long);
 - (_Bool)er:(id *)arg1 unarchived with %lu passes.;

@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppearance, NSString, NSTextField;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface StartPageHeadingViewItem
 {
     NSTextField *_label;
-    NSString *_initialTitle;
-    NSAppearance *_appearance;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)generation;
 - (id);
 - (void)4;
 

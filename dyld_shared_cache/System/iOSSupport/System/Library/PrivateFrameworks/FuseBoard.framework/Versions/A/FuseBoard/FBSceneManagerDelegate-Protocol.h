@@ -5,5 +5,8 @@
 //
 
 @protocol FBSceneManagerDelegate
+
+@optional
+- (void);
 @end
 

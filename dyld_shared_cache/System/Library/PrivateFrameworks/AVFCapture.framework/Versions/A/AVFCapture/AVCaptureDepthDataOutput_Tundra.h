@@ -6,8 +6,8 @@
 
 #import <AVFCapture/AVCaptureOutput_Tundra.h>
 
-@class AVCaptureDepthDataOutputInternal_Tundra, NSObject;
-@protocol AVCaptureDepthDataOutputDelegate_Tundra, OS_dispatch_queue;
+@class AVCaptureDepthDataOutputInternal_Tundra;
+@protocol AVCaptureDepthDataOutputDelegate_Tundra;
 
 @interface AVCaptureDepthDataOutput_Tundra : AVCaptureOutput_Tundra
 {
@@ -16,25 +16,22 @@
 
 + (id);
 + (void)Observe;
-- (void);
-- (void);
-- (void);
+- (void)if the current parent is a dictionary;
+- (void)bject type.;
+- (void)rror serializing state capture:(id)arg1 %@;
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)G>;
 - (void);
-- (void);
+- (void)ac_mapNullable: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id)d,N,V_distance;
-- (id)eOnBoardingManager;
+- (id)AVContinuityCaptureOnBoardingManager;
 
 // Remaining properties
-@property(nonatomic) _Bool alwaysDiscardsLateDepthData;
 @property(readonly, nonatomic) id <AVCaptureDepthDataOutputDelegate_Tundra> delegate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateCallbackQueue;
-@property(nonatomic, getter=isFilteringEnabled) _Bool filteringEnabled;
 
 @end
 

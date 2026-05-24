@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class INAnnouncement, NSArray, NSNumber, NSString;
+@class INAnnouncement;
 
 @interface INSendAnnouncementIntent : INIntent
 {
@@ -21,12 +21,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)i;
 - (long long);
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)typesForWhichUpdateBlockHasBeenCalled;
 - (id);
 - (id);
 - (void);
@@ -39,16 +39,6 @@
 
 // Remaining properties
 @property(readonly, copy) INAnnouncement *announcement;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSNumber *isReply;
-@property(readonly, copy) NSArray *recipients;
-@property(copy) NSString *sharedUserID;
-@property(readonly) Class superclass;
 
 @end
 

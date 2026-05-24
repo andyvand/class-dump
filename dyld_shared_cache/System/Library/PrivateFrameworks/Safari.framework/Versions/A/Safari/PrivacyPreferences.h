@@ -6,25 +6,12 @@
 
 #import <Safari/PreferencesModule.h>
 
-@class AcceptedSiteDataSheetController, AuthorizationRequest, NSButton, NSGridRow, NSGridView, NSPopUpButton, NSTextField;
+@class AuthorizationRequest, NSGridView;
 
 __attribute__((visibility("hidden")))
 @interface PrivacyPreferences : PreferencesModule
 {
     AuthorizationRequest *_lockPrivateBrowsingAuthorizationRequest;
-    NSGridView *_contentGridView;
-    NSGridRow *_websiteTrackingRow;
-    NSGridRow *_hideInternetAddressRow;
-    NSGridRow *_hideInternetAddressSubtextRow;
-    NSGridRow *_manageWebsiteDataRow;
-    NSGridRow *_lockPrivateBrowsingRow;
-    NSButton *_policyEnabledButton;
-    NSButton *_hideInternetAddressCheckbox;
-    NSTextField *_hideInternetAddressSubtext;
-    NSPopUpButton *_hideInternetAddressState;
-    NSButton *_manageWebsiteDataButton;
-    AcceptedSiteDataSheetController *_siteDataEditor;
-    NSButton *_lockPrivateBrowsingCheckbox;
 }
 
 - (id);
@@ -65,29 +52,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (int);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)P;
 - (void);
 - (void)À;
 
 // Remaining properties
 @property(nonatomic) __weak NSGridView *contentGridView; // @synthesize contentGridView=_contentGridView;
-@property(nonatomic) __weak NSButton *hideInternetAddressCheckbox; // @synthesize hideInternetAddressCheckbox=_hideInternetAddressCheckbox;
-@property(nonatomic) __weak NSGridRow *hideInternetAddressRow; // @synthesize hideInternetAddressRow=_hideInternetAddressRow;
-@property(nonatomic) __weak NSPopUpButton *hideInternetAddressState; // @synthesize hideInternetAddressState=_hideInternetAddressState;
-@property(nonatomic) __weak NSTextField *hideInternetAddressSubtext; // @synthesize hideInternetAddressSubtext=_hideInternetAddressSubtext;
-@property(nonatomic) __weak NSGridRow *hideInternetAddressSubtextRow; // @synthesize hideInternetAddressSubtextRow=_hideInternetAddressSubtextRow;
-@property(nonatomic) __weak NSButton *lockPrivateBrowsingCheckbox; // @synthesize lockPrivateBrowsingCheckbox=_lockPrivateBrowsingCheckbox;
-@property(nonatomic) __weak NSGridRow *lockPrivateBrowsingRow; // @synthesize lockPrivateBrowsingRow=_lockPrivateBrowsingRow;
-@property(nonatomic) __weak NSButton *manageWebsiteDataButton; // @synthesize manageWebsiteDataButton=_manageWebsiteDataButton;
-@property(nonatomic) __weak NSGridRow *manageWebsiteDataRow; // @synthesize manageWebsiteDataRow=_manageWebsiteDataRow;
-@property(nonatomic) __weak NSButton *policyEnabledButton; // @synthesize policyEnabledButton=_policyEnabledButton;
-@property(retain, nonatomic) AcceptedSiteDataSheetController *siteDataEditor; // @synthesize siteDataEditor=_siteDataEditor;
-@property(nonatomic) __weak NSGridRow *websiteTrackingRow; // @synthesize websiteTrackingRow=_websiteTrackingRow;
 
 @end
 

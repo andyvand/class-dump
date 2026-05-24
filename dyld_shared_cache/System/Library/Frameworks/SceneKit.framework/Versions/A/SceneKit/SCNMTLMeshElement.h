@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SCNMTLBuffer;
-@protocol MTLBuffer;
-
 __attribute__((visibility("hidden")))
 @interface SCNMTLMeshElement
 {
     unsigned long long _primitiveType;
-    long long _indexCount;
-    unsigned long long _instanceCount;
-    long long _sharedIndexBufferOffset;
-    SCNMTLBuffer *_indexBuffer;
-    id <MTLBuffer> _drawIndexedPrimitivesIndirectBuffer;
-    unsigned long long _indexType;
-    long long _effectiveIndexOffset;
-    long long _effectiveIndexCount;
-    long long _drawIndexedPrimitivesIndirectBufferOffset;
 }
 
 - (void);
 - (id);
-- (id);
+- (id);
 
 @end
 

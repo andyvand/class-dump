@@ -10,23 +10,23 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class);
++ (id)_accessibilityClearChildren;
 + (void);
 - (void);
 - (void);
 - (void);
-- (struct CGPoint);
-- (_Bool);
+- (struct CGPoint)B;
+- (_Bool)ct:avoniaRegular:begonia: /* Error: Ran out of types for this method. */;
 - (struct CGRect);
-- (void);
+- (void)x;
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)updateContainer: /* Error: Ran out of types for this method. */;
+- (id)isAccessibilityElement;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)WBSStartPageBackgroundImageDescription;
 
 @end
 

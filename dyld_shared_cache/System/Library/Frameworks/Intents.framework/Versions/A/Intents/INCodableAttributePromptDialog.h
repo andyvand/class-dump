@@ -12,27 +12,27 @@
 }
 
 + (_Bool);
-+ (id)EntityType:(id)arg1 entityName:(id *)arg2 destinationType:destinationName: /* Error: Ran out of types for this method. */;
++ (id)initWithEntityType:(id)arg1 entityName:(id *)arg2 destinationType:destinationName: /* Error: Ran out of types for this method. */;
 - (id);
+- (id)GCMotionXPCProxyServiceRemoteClientInterface;
 - (id);
+- (id)"16^B24;
+- (id);
 - (id);
-- (id);
+- (unsigned long long);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool)SSLocationAccuracy;
+- (void)acknowledgedConnectedAPUpdateCounter;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id)× ;
-- (void);
+- (void)startCallIntentCallCapabilityUnsupportedReason;
 - (id)»PÀõ;
 
 // Remaining properties

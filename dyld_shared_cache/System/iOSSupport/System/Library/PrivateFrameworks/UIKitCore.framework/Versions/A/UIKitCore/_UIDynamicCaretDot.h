@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)ewTopConstraits;
-- (void)ontainer;
+- (id)_containerViewTopConstraits;
+- (void)_UIColorPickerColorQueueContainer;
 
 @end
 

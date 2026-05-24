@@ -20,7 +20,7 @@
 - (struct CGSize);
 - (struct CGSize);
 - (void);
-- (double);
+- (double)!`;
 - (_Bool);
 - (double);
 

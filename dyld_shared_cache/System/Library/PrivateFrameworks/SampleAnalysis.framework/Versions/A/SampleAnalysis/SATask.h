@@ -4,74 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSMutableSet, NSString, SABinary, SABinaryLoadInfo, SASharedCache, SAThread, SATimestamp;
+@class NSMutableArray;
 
 @interface SATask
 {
     NSMutableArray *_taskStates;
-    NSMutableDictionary *_threads;
-    NSMutableDictionary *_dispatchQueues;
-    NSMutableDictionary *_swiftTasks;
-    NSString *_mainBinaryPath;
-    SABinary *_mainBinary;
-    NSString *_name;
-    _Bool _alreadyAttemptedToGetLoadInfoFromLiveProcess;
-    BOOL _developerType;
-    _Bool _isBeta;
-    _Bool _isUnresponsive;
-    _Bool _usesSuddenTermination;
-    _Bool _allowsIdleExit;
-    _Bool _isTranslocated;
-    _Bool _hardenedHeap;
-    _Bool _isRunningBoardManaged;
-    _Bool _alreadyGatheredDataFromLiveProcess;
-    _Bool _hasNoSharedCache;
-    _Bool _mteCheckedAllocationsEnabled;
-    _Bool _mteUserDataAllocationsTagged;
-    _Bool _mteSoftModeEnabled;
-    _Bool _mteInheritanceTurnedOn;
-    _Bool _assumeBinaryLoadInfosContainsMainBinary;
-    int _pid;
-    int _ppid;
-    int _rpid;
-    unsigned int _uid;
-    unsigned long long _uniquePid;
-    NSString *_bundleName;
-    NSString *_bundleBuildVersion;
-    NSString *_bundleProjectName;
-    NSString *_bundleSourceVersion;
-    NSString *_bundleProductBuildVersion;
-    unsigned long long _resourceCoalitionID;
-    NSString *_resourceCoalitionName;
-    unsigned long long _adamID;
-    NSString *_installerVersionID;
-    NSString *_vendorID;
-    NSString *_distributorID;
-    NSString *_cohortID;
-    NSString *_appType;
-    NSString *_commerceAppID;
-    NSString *_commerceExternalID;
-    SATimestamp *_forkTimestamp;
-    SATimestamp *_execTimestamp;
-    SATimestamp *_exitTimestamp;
-    double _timeOfLastResponse;
-    NSArray *_binaryLoadInfos;
-    SASharedCache *_sharedCache;
-    SAThread *_mainThread;
-    NSMutableSet *_rootFrames;
-    struct _CSArchitecture _architecture;
-    NSArray *_aotInfos;
 }
 
 + (id);
-+ (id);
++ (id)accessibilityMapSmartDescriptionDictionary;
+- (id);
+- (id)ed :(id)arg1 %{public}d;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)(;
 - (id);
 - (id);
 - (void);
@@ -98,18 +46,18 @@
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)24@32;
+- (unsigned long long)?=[16C][8S][4I])}I})}{coap_address_t=I(?={sockaddr=CC[14c]}{sockaddr_in=CCS{in_addr=I}[8c]}{sockaddr_in6=CCSI{in6_addr=(?=[16C][8S][4I])}I})}}i{coap_socket_t=iS^{coap_session_t}^{coap_endpoint_t}}^{coap_endpoint_t}^{coap_context_t}^vSCi^{coap_queue_t}Q[8C]Q^{coap_pdu_t}QQQQQ*Q*Q^vI{coap_fixed_point_t=SS}{coap_fixed_point_t=SS}Ii}16Q24;
 - (unsigned int);
 - (_Bool);
 - (int);
 - (unsigned long long);
 - (double);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)";
 - (id);
 - (id);
 - (_Bool);
@@ -117,9 +65,9 @@
 - (BOOL);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)intersectsRegion: /* Error: Ran out of types for this method. */;
+- (id)ge",R,N,V_image;
+- (id)ed. %@;
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
@@ -131,9 +79,9 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (id);
+- (id)set_done: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -143,61 +91,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) unsigned long long adamID;
-@property(readonly) _Bool allowsIdleExit;
-@property(readonly) NSString *appType;
-@property(readonly) NSArray *binaryLoadInfos; // @synthesize binaryLoadInfos=_binaryLoadInfos;
-@property(readonly) NSString *bundleBuildVersion;
-@property(readonly) NSString *bundleIdentifier;
-@property(readonly) NSString *bundleName;
-@property(readonly) NSString *bundleProductBuildVersion;
-@property(readonly) NSString *bundleProjectName;
-@property(readonly) NSString *bundleShortVersion;
-@property(readonly) NSString *bundleSourceVersion;
-@property(readonly) NSString *bundleVersion;
-@property(readonly) NSString *codesigningID;
-@property(readonly) NSString *cohortID;
-@property(readonly) NSString *commerceAppID; // @synthesize commerceAppID=_commerceAppID;
-@property(readonly) NSString *commerceExternalID; // @synthesize commerceExternalID=_commerceExternalID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) BOOL developerType; // @synthesize developerType=_developerType;
-@property(readonly) NSDictionary *dispatchQueues; // @synthesize dispatchQueues=_dispatchQueues;
-@property(readonly) NSString *distributorID;
-@property(readonly) SATimestamp *execTimestamp;
-@property(readonly) SATimestamp *exitTimestamp;
-@property(readonly) SATimestamp *forkTimestamp;
-@property(readonly) _Bool hardenedHeap;
 @property(readonly) unsigned long long hash;
-@property(readonly) NSString *installerVersionID;
-@property(readonly) _Bool isBeta;
-@property(readonly) _Bool isRunningBoardManaged;
-@property(readonly) _Bool isTranslocated; // @synthesize isTranslocated=_isTranslocated;
-@property(readonly) _Bool isUnresponsive; // @synthesize isUnresponsive=_isUnresponsive;
-@property(readonly) SABinary *mainBinary;
-@property(readonly) SABinaryLoadInfo *mainBinaryLoadInfo;
-@property(copy) NSString *mainBinaryPath;
-@property(readonly) SAThread *mainThread;
-@property(readonly, copy) NSString *name;
-@property(readonly) int pid;
-@property(readonly) int ppid;
-@property(readonly) unsigned long long resourceCoalitionID;
-@property(readonly) NSString *resourceCoalitionName;
-@property(readonly) int rpid;
-@property(readonly) SASharedCache *sharedCache;
-@property(readonly) Class superclass;
-@property(readonly) NSDictionary *swiftTasks; // @synthesize swiftTasks=_swiftTasks;
-@property(readonly) NSArray *taskStates; // @synthesize taskStates=_taskStates;
-@property(readonly) NSString *teamID;
-@property(readonly) NSDictionary *threads; // @synthesize threads=_threads;
-@property(readonly) double timeOfLastResponse; // @synthesize timeOfLastResponse=_timeOfLastResponse;
-@property(readonly) unsigned int uid; // @synthesize uid=_uid;
-@property(readonly) unsigned long long uniquePid; // @synthesize uniquePid=_uniquePid;
-@property(readonly) _Bool usesSuddenTermination;
-@property(readonly) NSString *vendorID;
 
 @end
 

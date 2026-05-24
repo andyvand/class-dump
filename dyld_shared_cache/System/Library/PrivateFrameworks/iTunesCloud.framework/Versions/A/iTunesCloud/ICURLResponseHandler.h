@@ -8,7 +8,15 @@
 {
 }
 
-- (void);
+- (void)ler0;
+uniform sampler2DRect textureSampler1;
+varying vec2 TexCoord;
+
+
+void main (void)
+{	
+	gl_FragColor = texture2DRect(textureSampler0,TexCoord) + texture2DRect(textureSampler1,TexCoord);
+};
 - (void);
 
 @end

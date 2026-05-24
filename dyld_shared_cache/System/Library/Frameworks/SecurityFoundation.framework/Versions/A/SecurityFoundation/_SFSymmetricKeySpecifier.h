@@ -12,7 +12,7 @@
 }
 
 - (long long);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) long long keyLengthInBytes;

@@ -9,8 +9,8 @@
 }
 
 - (id);
-- (id);
-- (id);
+- (id)ImportSessionAlbums:(id)arg1 ];
+- (id)ectContext"8;
 
 @end
 

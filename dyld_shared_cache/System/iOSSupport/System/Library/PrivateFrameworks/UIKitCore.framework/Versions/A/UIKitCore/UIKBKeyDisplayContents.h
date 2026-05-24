@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIImage;
+@class NSString;
 
 @interface UIKBKeyDisplayContents
 {
     _Bool _fillPath;
-    _Bool _force1xImages;
-    _Bool _stringKeycapOverImage;
-    _Bool _flipImageHorizontally;
-    _Bool _forceImageKeycap;
-    NSString *_displayString;
-    NSString *_displayStringImage;
-    NSArray *_secondaryDisplayStrings;
-    NSArray *_secondaryDisplayStringImages;
-    NSArray *_variantDisplayContents;
-    NSArray *_highlightedVariantsList;
-    long long _displayPathType;
-    UIKBKeyDisplayContents *_fallbackContents;
-    NSString *_bundlePathOverride;
-    UIImage *_displayImage;
 }
 
 + (id)ô©«Ô«h®ô®¯¨¶¿¬ÀÜÃÐÅ$ÇHÇ4ÌXÍÌÙìèëí¸íî0óó;
@@ -32,7 +18,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)relationID="%@";
 - (void);
 - (id);
 - (id);
@@ -42,16 +28,16 @@
 - (_Bool)Â0@ù
 × ;
 - (void)Error"32;
-- (_Bool)tsFocusDeferralIfSupported;
-- (void)edIndexPathForItemAtGlobalIndex:(_Bool)arg1;
-- (void)rts:(id)arg1;
-- (void)resenting;
-- (long long)LForIdentifier: /* Error: Ran out of types for this method. */;
-- (void)AnimationsByDecomposingGeometricTypes:(_Bool)arg1 animations: /* Error: Ran out of types for this method. */;
+- (_Bool)wantsFocusDeferralIfSupported;
+- (void)validatedIndexPathForItemAtGlobalIndex:(_Bool)arg1;
+- (void)sectionIndexAfterShadowUpdates:(id)arg1 allowingAppendingInserts: /* Error: Ran out of types for this method. */;
+- (void)isPresenting;
+- (long long)_uiktest_unregisterURLForIdentifier: /* Error: Ran out of types for this method. */;
+- (void)_modifyAnimationsByDecomposingGeometricTypes:(_Bool)arg1 animations: /* Error: Ran out of types for this method. */;
 - (_Bool)lyChangesBlock: /* Error: Ran out of types for this method. */;
-- (void)orItem:(id)arg1;
+- (void)_sendHandedOffDragImageForItem:(id)arg1;
 - (id);
-- (void)mation;
+- (void)statusBarAnimation;
 - (void)o¹;
 - (void);
 - (void)þ¤L;
@@ -62,21 +48,7 @@
 - (id)Sû;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundlePathOverride; // @synthesize bundlePathOverride=_bundlePathOverride;
-@property(retain, nonatomic) UIImage *displayImage; // @synthesize displayImage=_displayImage;
-@property(nonatomic) long long displayPathType; // @synthesize displayPathType=_displayPathType;
 @property(retain, nonatomic) NSString *displayString; // @synthesize displayString=_displayString;
-@property(retain, nonatomic) NSString *displayStringImage; // @synthesize displayStringImage=_displayStringImage;
-@property(retain, nonatomic) UIKBKeyDisplayContents *fallbackContents; // @synthesize fallbackContents=_fallbackContents;
-@property(nonatomic) _Bool fillPath; // @synthesize fillPath=_fillPath;
-@property(nonatomic) _Bool flipImageHorizontally; // @synthesize flipImageHorizontally=_flipImageHorizontally;
-@property(nonatomic) _Bool force1xImages; // @synthesize force1xImages=_force1xImages;
-@property(nonatomic) _Bool forceImageKeycap; // @synthesize forceImageKeycap=_forceImageKeycap;
-@property(retain, nonatomic) NSArray *highlightedVariantsList; // @synthesize highlightedVariantsList=_highlightedVariantsList;
-@property(retain, nonatomic) NSArray *secondaryDisplayStringImages; // @synthesize secondaryDisplayStringImages=_secondaryDisplayStringImages;
-@property(retain, nonatomic) NSArray *secondaryDisplayStrings; // @synthesize secondaryDisplayStrings=_secondaryDisplayStrings;
-@property(nonatomic) _Bool stringKeycapOverImage; // @synthesize stringKeycapOverImage=_stringKeycapOverImage;
-@property(retain, nonatomic) NSArray *variantDisplayContents; // @synthesize variantDisplayContents=_variantDisplayContents;
 
 @end
 

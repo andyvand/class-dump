@@ -7,10 +7,6 @@
 @protocol MPCModelPlaybackRequest
 
 // Remaining properties
-@property(nonatomic) _Bool disableImplicitSectioning;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
 @property(nonatomic) _Bool supportsPaginatedResults;
 // Preceding property had unknown attributes: ?
 // Original attribute string: TB,?,N

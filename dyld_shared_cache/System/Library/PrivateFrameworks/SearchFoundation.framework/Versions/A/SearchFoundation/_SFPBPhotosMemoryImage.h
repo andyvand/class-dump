@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBPhotosMemoryImage
 {
     NSString *_memoryIdentifier;
-    NSString *_applicationBundleIdentifier;
 }
 
 - (void);
@@ -18,26 +17,17 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool)JA;
+- (id)predicateToIncludeOnlyAllowedForAnalysisAndProcessedToFaceVersion:(id)arg1 noindex: /* Error: Ran out of types for this method. */;
+- (id)_copyUserSpecificMetadataFromAsset: /* Error: Ran out of types for this method. */;
+- (id)context (%lu participants, message string available:%d) /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void)ramPrefixMatchInAttachmentNames"b1};
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationBundleIdentifier; // @synthesize applicationBundleIdentifier=_applicationBundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *memoryIdentifier; // @synthesize memoryIdentifier=_memoryIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

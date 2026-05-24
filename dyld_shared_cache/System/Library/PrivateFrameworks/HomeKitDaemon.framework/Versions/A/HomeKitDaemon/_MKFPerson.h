@@ -6,32 +6,22 @@
 
 #import <HomeKitDaemon/_MKFModel.h>
 
-@class MKFPersonDatabaseID, NSDate, NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _MKFPerson : _MKFModel
 {
 }
 
-+ (id);
++ (id)#;
 + (id);
 - (void);
-- (id);
+- (id)UserConfirmationOfSharingIdentity failed with error:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFPersonDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(copy, nonatomic) NSString *name; // @dynamic name;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
+@property(copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
 
 @end
 

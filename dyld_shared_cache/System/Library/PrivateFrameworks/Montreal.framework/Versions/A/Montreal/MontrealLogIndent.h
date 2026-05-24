@@ -9,23 +9,19 @@
 @interface MontrealLogIndent
 {
     NSString *_step;
-    unsigned long long _factor;
-    NSString *_level;
 }
 
 + (id);
 + (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)!;
+- (unsigned long long)@;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly) unsigned long long factor; // @synthesize factor=_factor;
-@property(readonly) NSString *level; // @synthesize level=_level;
 @property(readonly) NSString *step; // @synthesize step=_step;
 
 @end

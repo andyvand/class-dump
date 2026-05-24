@@ -6,13 +6,11 @@
 
 #import <PackageKit/PKInstallOperation.h>
 
-@class NSString, PKPackageSpecifier;
+@class PKPackageSpecifier;
 
 @interface PKRelocateComponentsInstallOperation : PKInstallOperation
 {
     PKPackageSpecifier *_currentPackageSpecifier;
-    NSString *_currentOldBundlePath;
-    NSString *_currentNewBundlePath;
 }
 
 - (id);

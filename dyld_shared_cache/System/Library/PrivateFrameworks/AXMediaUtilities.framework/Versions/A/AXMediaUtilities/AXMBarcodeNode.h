@@ -10,7 +10,7 @@
 {
 }
 
-+ (_Bool);
++ (_Bool)errorWithDomain:code:userInfo: /* Error: Ran out of types for this method. */;
 + (id);
 + (_Bool);
 

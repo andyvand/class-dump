@@ -6,54 +6,47 @@
 
 #import <WirelessProximity/WPClient.h>
 
-@class NSMutableArray, NSMutableDictionary;
 @protocol WPDeviceScannerDelegate;
 
 @interface WPDeviceScanner : WPClient
 {
     _Bool _anyScanResultsRequested;
-    id <WPDeviceScannerDelegate> _delegate;
-    NSMutableArray *_liveDevices;
-    NSMutableDictionary *_activeScans;
 }
 
-- (void);
+- (void)of type MSVArtworkServiceConversionRequest;
 - (void);
 - (id);
+- (void)setSwapRectX:(id)arg1 y:(id)arg2 w:h: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
+- (void)oft.word.openxml.document;
 - (void);
 - (id);
 - (id);
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)signatureForText:withKey: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)B;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)Info;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)processInfo;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *activeScans; // @synthesize activeScans=_activeScans;
-@property(nonatomic) _Bool anyScanResultsRequested; // @synthesize anyScanResultsRequested=_anyScanResultsRequested;
 @property(nonatomic) __weak id <WPDeviceScannerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) NSMutableArray *liveDevices; // @synthesize liveDevices=_liveDevices;
 
 @end
 

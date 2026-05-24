@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol PGTitleSpecDelegate;
+@class NSArray;
 
 @interface PGTitleSpec
 {
     _Bool _hasLineBreak;
-    _Bool _insertNonBreakableSpace;
-    _Bool _hasSpecArgumentHandlingLineBreakBehavior;
-    NSString *_format;
-    NSArray *_arguments;
-    unsigned long long _weekdayCriteria;
-    long long _titleCategory;
-    id <PGTitleSpecDelegate> _delegate;
 }
 
-+ (id);
++ (id)elementSupportsSearch:(id)arg1;
 + (long long);
 - (id);
 - (id);
@@ -29,10 +21,10 @@
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)setAccessibilityFrontmost: /* Error: Ran out of types for this method. */;
+- (id)aclRequiresPasscodeInternal;
+- (_Bool)X-u1IqZKLW_mNYfMLZQ/Library/Caches/com.apple.xbs/TemporaryDirectory.phJDKU/Sources/AppleCredentialManager_ClientLibs/common/LibCallBlock.c;
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -41,19 +33,12 @@
 - (id);
 - (void);
 - (id);
-- (id)k: /* Error: Ran out of types for this method. */;
-- (void)ityScore;
+- (id)enumerateHolidayEdgesAndNodesUsingBlock: /* Error: Ran out of types for this method. */;
+- (void)popularityScore;
 - (void)ÿ8sÿÿ;
 
 // Remaining properties
 @property(retain) NSArray *arguments; // @synthesize arguments=_arguments;
-@property __weak id <PGTitleSpecDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) NSString *format; // @synthesize format=_format;
-@property _Bool hasLineBreak; // @synthesize hasLineBreak=_hasLineBreak;
-@property _Bool hasSpecArgumentHandlingLineBreakBehavior; // @synthesize hasSpecArgumentHandlingLineBreakBehavior=_hasSpecArgumentHandlingLineBreakBehavior;
-@property _Bool insertNonBreakableSpace; // @synthesize insertNonBreakableSpace=_insertNonBreakableSpace;
-@property(readonly) long long titleCategory; // @synthesize titleCategory=_titleCategory;
-@property unsigned long long weekdayCriteria; // @synthesize weekdayCriteria=_weekdayCriteria;
 
 @end
 

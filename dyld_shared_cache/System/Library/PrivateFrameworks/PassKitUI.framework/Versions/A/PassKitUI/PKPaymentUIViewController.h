@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSViewController, PKInAppPaymentService, PKPaymentRequest;
-@protocol PKPaymentAuthorizationHostProtocol;
+@class PKInAppPaymentService;
 
 @interface PKPaymentUIViewController
 {
     _Bool _delayingSleep;
-    unsigned int _sleepAssertionID;
-    id <PKPaymentAuthorizationHostProtocol> _delegate;
-    PKInAppPaymentService *_inAppPaymentService;
-    NSViewController *_activeViewController;
-    NSArray *_activeViewConstraints;
-    CDUnknownBlockType _pendingPrepareCompletionBlock;
-    PKPaymentRequest *_paymentRequest;
-    id _serviceDelegate;
 }
 
-- (unsigned int);
+- (unsigned int);
 - (void);
 - (void);
 - (void);
@@ -34,50 +25,50 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (id)0;
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
+- (id)i;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)u;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)arContent;
 - (id);
 - (id);
 - (void);
@@ -85,22 +76,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *activeViewConstraints; // @synthesize activeViewConstraints=_activeViewConstraints;
-@property(retain, nonatomic) NSViewController *activeViewController; // @synthesize activeViewController=_activeViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) _Bool delayingSleep; // @synthesize delayingSleep=_delayingSleep;
-@property(nonatomic) __weak id <PKPaymentAuthorizationHostProtocol> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) PKInAppPaymentService *inAppPaymentService; // @synthesize inAppPaymentService=_inAppPaymentService;
-@property(retain, nonatomic) PKPaymentRequest *paymentRequest; // @synthesize paymentRequest=_paymentRequest;
-@property(copy, nonatomic) CDUnknownBlockType pendingPrepareCompletionBlock; // @synthesize pendingPrepareCompletionBlock=_pendingPrepareCompletionBlock;
-@property(retain, nonatomic) id serviceDelegate; // @synthesize serviceDelegate=_serviceDelegate;
-@property(nonatomic) unsigned int sleepAssertionID; // @synthesize sleepAssertionID=_sleepAssertionID;
-@property(readonly) Class superclass;
 
 @end
 

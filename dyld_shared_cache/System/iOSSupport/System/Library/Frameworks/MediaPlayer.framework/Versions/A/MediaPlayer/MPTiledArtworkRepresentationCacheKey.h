@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface MPTiledArtworkRepresentationCacheKey
 {
     id _entityIdentifier;
-    id _namespaceIdentifier;
-    unsigned long long _numberOfColumns;
-    unsigned long long _numberOfRows;
-    id _revisionIdentifier;
-    struct CGSize _scaledFittingSize;
-    double _tileSpacing;
 }
 
+- (id)T,\-;
 - (id);
+- (id)b#;
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)AutoDonating"b1"isPrimary"b1"isTopKResult"b1};
 - (_Bool);
 - (id);
-- (void)workCatalogsCache;
+- (void)_artworkCatalogsCache;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

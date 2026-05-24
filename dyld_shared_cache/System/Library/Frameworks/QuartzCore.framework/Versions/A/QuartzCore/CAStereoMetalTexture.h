@@ -9,17 +9,15 @@
 @interface CAStereoMetalTexture
 {
     id <MTLTexture> _textureArray;
-    struct CGColorSpace *_colorSpace;
 }
 
-+ (id);
-- (id);
++ (id)	2�;
+- (id);
 - (void);
 - (struct CGColorSpace *);
-- (struct Object *);
+- (struct Object *)migrateGuestUserVolume:withError: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) struct CGColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;
 @property(readonly) id <MTLTexture> textureArray; // @synthesize textureArray=_textureArray;
 
 @end

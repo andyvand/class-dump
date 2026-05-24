@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/MKFCKModel.h>
 
-@class NSDate, NSString, NSUUID;
+@class NSUUID;
 @protocol HMDHomeMember;
 
 __attribute__((visibility("hidden")))
@@ -18,14 +18,10 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 - (id);
-- (void)oller;
+- (void)ConfiguringStateController;
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *flags; // @dynamic flags;
-@property(copy, nonatomic) NSUUID *homeModelID; // @dynamic homeModelID;
-@property(copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
-@property(copy, nonatomic) NSString *writerVersion; // @dynamic writerVersion;
 
 @end
 

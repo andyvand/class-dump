@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMSpotlightClientState, NSLock, NSObject;
-@protocol OS_dispatch_queue;
+@class IMSpotlightClientState;
 
 @interface IMSpotlightClientStateMonitor
 {
     int _clientStateToken;
-    IMSpotlightClientState *_clientState;
-    NSLock *_lock;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _changeHandler;
 }
 
-- (int);
+- (int)";
 - (void);
 - (id);
 - (void);
@@ -24,17 +19,13 @@
 - (id);
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)n;
 - (id);
 - (id)R,N;
 - (void): /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType changeHandler; // @synthesize changeHandler=_changeHandler;
 @property(copy, nonatomic) IMSpotlightClientState *clientState; // @synthesize clientState=_clientState;
-@property(readonly, nonatomic) int clientStateToken; // @synthesize clientStateToken=_clientStateToken;
-@property(readonly, nonatomic) NSLock *lock; // @synthesize lock=_lock;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

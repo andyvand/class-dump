@@ -6,24 +6,18 @@
 
 #import <UIKitCore/UITextLinkInteraction.h>
 
-@class UILongPressGestureRecognizer, UITapGestureRecognizer, _UITextInteractableItem;
+@class UITapGestureRecognizer;
 
 __attribute__((visibility("hidden")))
 @interface _UITextSimpleLinkInteraction : UITextLinkInteraction
 {
     UITapGestureRecognizer *_linkTap;
-    UILongPressGestureRecognizer *_highlighter;
-    _UITextInteractableItem *_highlightedItem;
-    _Bool _presentingFromSimpleTap;
-    _Bool _didCheckViewProtocolConformance;
-    _Bool _viewConformsToTextItemInteracting;
-    _Bool _shouldProxyContextMenuDelegate;
 }
 
-- (id);
+- (id)m7;
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)N;
 - (_Bool)ô;
 - (void)þ°þÿ;
 - (void)¡;

@@ -8,8 +8,8 @@
 {
 }
 
-+ (void);
-+ (void);
++ (void)locationWithAppDescriptor:(id)arg1;
++ (void)interactionControllerWithURL:(id)arg1;
 
 @end
 

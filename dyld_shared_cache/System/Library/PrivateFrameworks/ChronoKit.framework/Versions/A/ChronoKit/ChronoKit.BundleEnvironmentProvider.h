@@ -9,9 +9,6 @@
 @interface ChronoKit.BundleEnvironmentProvider : ChronoKit.EnvironmentProvider
 {
     id _extensionManager;
-    id _extensionIdentity;
-    id _systemProvider;
-    id _subscriptions;
 }
 
 @end

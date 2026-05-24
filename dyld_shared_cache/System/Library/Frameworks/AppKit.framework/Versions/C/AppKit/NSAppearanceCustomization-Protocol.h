@@ -7,9 +7,9 @@
 @class NSAppearance;
 
 @protocol NSAppearanceCustomization
+- (NSAppearance *)tasks completed getting auth headers, sending did finish app wake for session %@ with identifier %@;
 
 // Remaining properties
 @property(retain) NSAppearance *appearance;
-@property(readonly) NSAppearance *effectiveAppearance;
 @end
 

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMethodSignature, NSString;
-
 @interface CLIntersiloInterfaceSelectorInfo
 {
     int _lastArgBlockIndex;
-    int _returnAddressIndex;
-    SEL _sel;
-    NSMethodSignature *_sig;
 }
 
 - (SEL);
@@ -24,11 +19,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) int lastArgBlockIndex; // @synthesize lastArgBlockIndex=_lastArgBlockIndex;
-@property(readonly, nonatomic) int returnAddressIndex; // @synthesize returnAddressIndex=_returnAddressIndex;
 @property(readonly, nonatomic) SEL sel; // @synthesize sel=_sel;
-@property(readonly, retain, nonatomic) NSMethodSignature *sig; // @synthesize sig=_sig;
-@property(readonly, copy, nonatomic) NSString *typeStr; // @dynamic typeStr;
 
 @end
 

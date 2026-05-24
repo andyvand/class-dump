@@ -6,14 +6,12 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSNumber, NSString;
-
 @interface INDeleteFilePermanentlyIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
++ (int)_inlinePreviewMode;
++ (int)QLThumbnailServiceProxy;
 + (long long);
 + (_Bool);
 + (_Bool);
@@ -25,26 +23,17 @@
 - (long long);
 - (id);
 - (id);
+- (id)erButtonInput",R,N,V_button2;
 - (id);
-- (id);
-- (void);
+- (void).53ae41b8-d474-11eb-805d-f45c89abb0d9;
 - (id);
 - (id);
 - (id)ring",C,N,V_reservationHolderName;
-- (long long)nnection;
+- (long long)_INVocabularyConnection;
 - (void);
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSNumber *confirm;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSNumber *success;
-@property(readonly) Class superclass;
 
 @end
 

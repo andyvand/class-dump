@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PARResponse, WBSJSONMutator, WBSParsecDSession;
+@class NSString, WBSParsecDSession;
 
 @interface WBSPegasusResponseFuzzer
 {
     NSString *_query;
-    unsigned long long _indexOfCurrentResponse;
-    NSArray *_validJSONPARResponse;
-    PARResponse *_currentResponse;
-    WBSJSONMutator *_jsonMutator;
-    _Bool _shouldAttachMutatedJSONToTestResultKeys;
-    id _lastSimulatedJSON;
-    WBSParsecDSession *_parsecSession;
 }
 
 + (id);

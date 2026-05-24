@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSTableView, _NSIntegerArray;
+@class _NSIntegerArray;
 
 __attribute__((visibility("hidden")))
 @interface NSTableRowAndCellTracker
 {
     _NSIntegerArray *_specifierComponents;
-    NSMapTable *_mapTable;
-    long long _deleteCount;
-    long long _nextSpecifierComponent;
-    long long _deleteForMoveIndex;
-    long long _deleteForMoveShift;
-    NSTableView *_tableView;
 }
 
 - (void);
@@ -30,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (id);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (id);

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCNewsPersonalizationArticleEmbeddingsFittingRequirements, FCNewsPersonalizationLogisticRegressionClassifierConfiguration, NSNumber;
+@class FCNewsPersonalizationArticleEmbeddingsFittingRequirements;
 
 @interface FCNewsPersonalizationArticleEmbeddingsFittingConfiguration
 {
     _Bool _haltEmbeddingProcessingAfterEncounteringNonMatchingEmbeddingsInSession;
-    FCNewsPersonalizationArticleEmbeddingsFittingRequirements *_articleReadRequirements;
-    FCNewsPersonalizationArticleEmbeddingsFittingRequirements *_articleSeenRequirements;
-    NSNumber *_maximumRatioOfArticleSeenEmbeddingsToArticleReadEmbeddings;
-    long long _embeddingType;
-    FCNewsPersonalizationLogisticRegressionClassifierConfiguration *_logisticRegressionClassifierConfiguration;
-    double _earliestAllowedEmbeddingEventTimestamp;
 }
 
 - (void);
@@ -26,11 +20,11 @@
 - (id);
 - (_Bool);
 - (double);
-- (id);
+- (id)n;
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id)X#;
 - (id);
 - (id)1Â0@ù
 × ;
@@ -38,12 +32,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) FCNewsPersonalizationArticleEmbeddingsFittingRequirements *articleReadRequirements; // @synthesize articleReadRequirements=_articleReadRequirements;
-@property(retain, nonatomic) FCNewsPersonalizationArticleEmbeddingsFittingRequirements *articleSeenRequirements; // @synthesize articleSeenRequirements=_articleSeenRequirements;
-@property(nonatomic) double earliestAllowedEmbeddingEventTimestamp; // @synthesize earliestAllowedEmbeddingEventTimestamp=_earliestAllowedEmbeddingEventTimestamp;
-@property(nonatomic) long long embeddingType; // @synthesize embeddingType=_embeddingType;
-@property(nonatomic) _Bool haltEmbeddingProcessingAfterEncounteringNonMatchingEmbeddingsInSession; // @synthesize haltEmbeddingProcessingAfterEncounteringNonMatchingEmbeddingsInSession=_haltEmbeddingProcessingAfterEncounteringNonMatchingEmbeddingsInSession;
-@property(retain, nonatomic) FCNewsPersonalizationLogisticRegressionClassifierConfiguration *logisticRegressionClassifierConfiguration; // @synthesize logisticRegressionClassifierConfiguration=_logisticRegressionClassifierConfiguration;
-@property(readonly, nonatomic) NSNumber *maximumRatioOfArticleSeenEmbeddingsToArticleReadEmbeddings; // @synthesize maximumRatioOfArticleSeenEmbeddingsToArticleReadEmbeddings=_maximumRatioOfArticleSeenEmbeddingsToArticleReadEmbeddings;
 
 @end
 

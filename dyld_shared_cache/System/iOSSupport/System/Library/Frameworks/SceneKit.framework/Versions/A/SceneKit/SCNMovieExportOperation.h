@@ -6,17 +6,12 @@
 
 #import <SceneKit/_SCNExportOperation.h>
 
-@class AVAssetWriter, AVAssetWriterInput, AVAssetWriterInputPixelBufferAdaptor;
+@class AVAssetWriterInput;
 
 __attribute__((visibility("hidden")))
 @interface SCNMovieExportOperation : _SCNExportOperation
 {
     AVAssetWriterInput *_assetWriterInput;
-    AVAssetWriterInputPixelBufferAdaptor *_avAdaptor;
-    AVAssetWriter *_assetWriter;
-    float _rate;
-    _Bool _mirrored;
-    float _supersampling;
 }
 
 - (void);

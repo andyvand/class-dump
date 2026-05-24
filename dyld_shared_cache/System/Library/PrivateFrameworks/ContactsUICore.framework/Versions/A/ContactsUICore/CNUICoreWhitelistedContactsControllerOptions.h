@@ -7,7 +7,6 @@
 @interface CNUICoreWhitelistedContactsControllerOptions
 {
     _Bool _shouldPrepopulateEmptyWhitelist;
-    _Bool _shouldRequireConfirmationOfChanges;
 }
 
 + (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool shouldPrepopulateEmptyWhitelist; // @synthesize shouldPrepopulateEmptyWhitelist=_shouldPrepopulateEmptyWhitelist;
-@property(readonly, nonatomic) _Bool shouldRequireConfirmationOfChanges; // @synthesize shouldRequireConfirmationOfChanges=_shouldRequireConfirmationOfChanges;
 
 @end
 

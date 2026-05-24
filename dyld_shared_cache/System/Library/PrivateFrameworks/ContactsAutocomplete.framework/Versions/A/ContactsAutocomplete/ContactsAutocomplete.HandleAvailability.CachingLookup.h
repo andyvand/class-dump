@@ -7,8 +7,6 @@
 @interface ContactsAutocomplete.HandleAvailability.CachingLookup
 {
     id wrapping;
-    id cache;
-    id statuses;
 }
 
 @end

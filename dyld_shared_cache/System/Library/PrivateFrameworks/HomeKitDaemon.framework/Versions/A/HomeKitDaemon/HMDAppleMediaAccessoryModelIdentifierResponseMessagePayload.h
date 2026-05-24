@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDAppleMediaAccessoryModelIdentifierResponseMessagePayload
@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id)âaÿ;
-- (id);
+- (id)setSuggestionSubtypeBlocklist: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -23,14 +23,7 @@ __attribute__((visibility("hidden")))
 - (id)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSUUID *modelIdentifier; // @synthesize modelIdentifier=_modelIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

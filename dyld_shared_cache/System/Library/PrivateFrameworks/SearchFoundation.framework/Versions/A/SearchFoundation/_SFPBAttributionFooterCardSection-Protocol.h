@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBCommand, _SFPBPunchout, _SFPBRichText;
+@class NSArray;
 
 @protocol _SFPBAttributionFooterCardSection
-- (int);
+- (void);
+- (_Bool)A*;
+- (void)`;
+- (void);
+- (_Bool)encodeInteger:forKey: /* Error: Ran out of types for this method. */;
+- (_Bool)dictionaryRepresentation;
+- (void)XA;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBRichText *leadingAttribution;
-@property(retain, nonatomic) _SFPBPunchout *leadingAttributionPunchout;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) int separatorStyle;
-@property(retain, nonatomic) _SFPBRichText *trailingAttribution;
-@property(retain, nonatomic) _SFPBCommand *trailingAttributionCommand;
-@property(retain, nonatomic) _SFPBPunchout *trailingAttributionPunchout;
-@property(copy, nonatomic) NSString *type;
 @end
 

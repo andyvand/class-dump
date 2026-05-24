@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SMTSchemaSMTAppLanguageModelProfileRebuildFailed : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
-- (void);
+- (void);
 - (id);
+- (void)ncy:%d ms /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)receivedTransactions: /* Error: Ran out of types for this method. */;
+- (_Bool)ABBookAggregateUndoableCommandBuilder;
+- (_Bool)IMDCoreSpotlightCreateCoreSpotlightPerson;
 - (id);
 - (id);
-- (id)r;
-- (id)ocalePairResolved;
-- (_Bool)ntType;
-- (_Bool);
+- (id)deleteIsFromContextCollector;
+- (id)_hasLocalePairResolved;
+- (_Bool)endpointType;
+- (_Bool)counterfactualSummary;
 - (void)Væÿfxù;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

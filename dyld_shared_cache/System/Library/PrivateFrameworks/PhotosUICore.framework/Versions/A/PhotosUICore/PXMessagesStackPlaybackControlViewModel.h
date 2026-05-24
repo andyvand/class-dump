@@ -4,34 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXGDisplayAssetVideoPresentationController;
-
 @interface PXMessagesStackPlaybackControlViewModel
 {
     _Bool _settled;
-    long long _currentItem;
-    PXGDisplayAssetVideoPresentationController *_videoController;
 }
 
 - (void);
 - (id);
 - (long long);
 - (void);
-- (_Bool);
+- (_Bool)RejectedCodingKeys;
 - (void)trong id<PXPresentationEnvironment> _Nonnull);
-- (void)viePresenter;
+- (void)PhotosMoviePresenter;
 
 // Remaining properties
-@property(readonly, nonatomic) long long currentItem; // @synthesize currentItem=_currentItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic, getter=isSettled) _Bool settled; // @synthesize settled=_settled;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXGDisplayAssetVideoPresentationController *videoController; // @synthesize videoController=_videoController;
 
 @end
 

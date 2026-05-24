@@ -4,33 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface BMPBPhotosPhotoViewEvent
 {
     double _absoluteTimestamp;
-    NSString *_contentProtection;
-    NSMutableArray *_locations;
-    NSString *_personaId;
-    NSString *_uniqueId;
-    CDStruct_d3e759b0 _has;
 }
 
 + (Class);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)r;
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (double);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)setOriginatingAddressString: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
@@ -49,15 +44,7 @@
 - (void)VWXY;
 
 // Remaining properties
-@property(nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(retain, nonatomic) NSString *contentProtection; // @synthesize contentProtection=_contentProtection;
-@property(nonatomic) _Bool hasAbsoluteTimestamp;
-@property(readonly, nonatomic) _Bool hasContentProtection;
-@property(readonly, nonatomic) _Bool hasPersonaId;
-@property(readonly, nonatomic) _Bool hasUniqueId;
 @property(retain, nonatomic) NSMutableArray *locations; // @synthesize locations=_locations;
-@property(retain, nonatomic) NSString *personaId; // @synthesize personaId=_personaId;
-@property(retain, nonatomic) NSString *uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end
 

@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAppearance, NSArray, NSString, StartPagePasswordBreachWarningCollectionViewItem;
-@protocol StartPageCollectionSectionProviderDelegate;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface StartPagePasswordBreachSectionProvider
 {
     NSArray *_accountsWithBreachedPasswords;
-    StartPagePasswordBreachWarningCollectionViewItem *_collectionViewItemTemplate;
-    _Bool _usesPrivateBrowsing;
-    _Bool _usesCompactAppearance;
-    id <StartPageCollectionSectionProviderDelegate> _sectionProviderDelegate;
-    NSString *_identifier;
 }
 
 - (_Bool);
@@ -35,34 +29,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long)!;
 - (long long)"WKWindowFeatures";
-- (id)edSetting: /* Error: Ran out of types for this method. */;
+- (id)reloadWithInvertedPrivateRelayEnabledSetting: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void)äÿJNÈT.;
 
 // Remaining properties
-@property(retain, nonatomic) NSAppearance *backgroundAppearance;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSAppearance",?,&,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSArray *draggedTypes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) __weak id <StartPageCollectionSectionProviderDelegate> sectionProviderDelegate; // @synthesize sectionProviderDelegate=_sectionProviderDelegate;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool usesCompactAppearance; // @synthesize usesCompactAppearance=_usesCompactAppearance;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,V_usesCompactAppearance
-
-@property(nonatomic) _Bool usesPrivateBrowsing; // @synthesize usesPrivateBrowsing=_usesPrivateBrowsing;
 
 @end
 

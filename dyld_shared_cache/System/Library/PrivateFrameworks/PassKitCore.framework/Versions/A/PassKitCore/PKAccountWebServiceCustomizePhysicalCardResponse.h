@@ -11,20 +11,16 @@
 @interface PKAccountWebServiceCustomizePhysicalCardResponse : PKAccountWebServiceResponse
 {
     NSArray *_artworkOptions;
-    NSArray *_nameOptions;
-    NSArray *_priceOptions;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)externalProvisioningOptionDevice;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *artworkOptions; // @synthesize artworkOptions=_artworkOptions;
-@property(readonly, copy, nonatomic) NSArray *nameOptions; // @synthesize nameOptions=_nameOptions;
-@property(readonly, copy, nonatomic) NSArray *priceOptions; // @synthesize priceOptions=_priceOptions;
 
 @end
 

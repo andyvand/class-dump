@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface FigCaptureSourceFormat
 {
     NSDictionary *_formatDictionary;
-    NSString *_uniqueID;
-    unsigned int _pixelFormatOverride;
-    NSArray *_highResStillImageDimensions;
 }
 
-- (void);
+- (void)_formattingChanged;
 - (unsigned int);
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (struct opaqueCMFormatDescription *);
 - (id);
 - (unsigned int)rence;
@@ -26,28 +23,16 @@
 - (id)ÿ¬ÿ;
 - (CDStruct_1ef3fb1f)99ÿA99ÿI77ÿT88ÿ^99ÿg99ÿp99ÿx98ÿ88ÿ77ÿ66ÿ44ÿ¤22ÿ¬00ÿ´-.ÿ»*+ÿÃ'(ÿÌ#$ÿÔ!ÿÜÿåÿîÿöÿöÿöÿöÿ;
 - (id)ia.videodatasink.streaming-filtering-metal-command-queue;
-- (int)PairingDisabled;
-- (float)onForRecording;
+- (int)ispChromaNoiseReductionForPairingDisabled;
+- (float)CaptureSessionMovieFileSink_BravoCameraSelectionConfigurationForRecording;
 - (id)newRotationDegrees >= 0 ) && ( newRotationDegrees <= 270 ) );
-- (id)llbackCaptureSourceDeviceTypes;
-- (_Bool)ecordingCount;
+- (id)SupportedFallbackCaptureSourceDeviceTypes;
+- (_Bool)videoRecordingCount;
 - (_Bool)le.gdc;
 - (float)sions not found;
 
 // Remaining properties
-@property(readonly, getter=isDefaultActiveFormat) _Bool defaultActiveFormat;
-@property(readonly) CDStruct_1ef3fb1f defaultHighResStillImageDimensions;
-@property(readonly) CDStruct_1ef3fb1f dimensions;
-@property(readonly, getter=isExperimental) _Bool experimental;
-@property(readonly) unsigned int format;
-@property(readonly) struct opaqueCMFormatDescription *formatDescription;
-@property(readonly) NSArray *highResStillImageDimensions; // @synthesize highResStillImageDimensions=_highResStillImageDimensions;
-@property(readonly) int maxPoints;
-@property(readonly) float maxSupportedFrameRate;
 @property(readonly) unsigned int mediaType;
-@property(readonly) float minSupportedFrameRate;
-@property(readonly) CDStruct_1ef3fb1f soleHighResStillImageDimensions;
-@property(readonly) NSString *uniqueID;
 
 @end
 

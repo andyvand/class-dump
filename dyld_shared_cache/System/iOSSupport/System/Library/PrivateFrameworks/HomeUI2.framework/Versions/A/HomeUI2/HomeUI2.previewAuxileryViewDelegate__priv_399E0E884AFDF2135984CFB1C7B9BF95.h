@@ -8,35 +8,6 @@
 {
     id isGridForecastSupportedInHomeRegion;
     id linkedApplicationView;
-    id linkedApplicationViewCoordinator;
-    id canAddKeyToWallet;
-    id suggestedRoomNames;
-    id editRoomView;
-    id ecosystemCount;
-    id matterConnectedServicesView;
-    id diagnosticView;
-    id suggestedAutomationsView;
-    id suggestedAutomationsViewCoordinator;
-    id internalDebuggingView;
-    id scenesView;
-    id supportsNotifications;
-    id supportsStatus;
-    id statusAndNotificationsView;
-    id bridgeView;
-    id manageAccessView;
-    id removalAlertTitle;
-    id removalAlertRemovalActionTitle;
-    id removalAlertResetAllActionTitle;
-    id removalAlertRemovalActionConfirmationTitle;
-    id removalAlertRemovalActionConfirmationButtonTitle;
-    id removalAlertResetAllActionConfirmationTitle;
-    id removalAlertResetAllActionConfirmationButtonTitle;
-    id removalAlertShouldUseEcosystemRemovalConfirmation;
-    id existingSceneCount;
-    id suggestedSceneCount;
-    id supportsContainedServices;
-    id containedServicesCount;
-    id containedServicesView;
 }
 
 @end

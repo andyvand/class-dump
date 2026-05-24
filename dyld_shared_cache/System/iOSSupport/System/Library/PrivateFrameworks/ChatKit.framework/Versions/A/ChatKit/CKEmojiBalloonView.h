@@ -10,7 +10,7 @@
 {
 }
 
-- (struct CGSize);
+- (struct CGSize)N,V_frameOffset;
 - (void);
 - (id);
 - (void);

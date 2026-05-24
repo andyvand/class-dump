@@ -9,12 +9,12 @@
 }
 
 + (id);
++ (id)y#|$|c@Cc;
++ (id)ShieldDebug;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id)eOutgoingInteraction;
++ (id)requireOutgoingInteraction;
 + (id);
 
 @end

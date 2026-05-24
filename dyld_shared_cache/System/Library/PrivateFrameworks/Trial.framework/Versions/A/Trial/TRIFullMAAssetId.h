@@ -9,18 +9,16 @@
 @interface TRIFullMAAssetId
 {
     NSString *_type;
-    NSString *_specifier;
-    NSString *_version;
 }
 
-+ (id);
++ (id).;
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (id);
+- (id)ramework/Versions/A/BaseBoard;
 - (id);
 - (unsigned long long);
 - (id);
@@ -33,9 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *specifier; // @synthesize specifier=_specifier;
 @property(readonly, nonatomic) NSString *type; // @synthesize type=_type;
-@property(readonly, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

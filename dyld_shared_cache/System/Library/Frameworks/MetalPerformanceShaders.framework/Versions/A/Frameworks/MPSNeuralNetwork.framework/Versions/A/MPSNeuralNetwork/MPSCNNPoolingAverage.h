@@ -9,7 +9,6 @@
 @interface MPSCNNPoolingAverage : MPSCNNPooling
 {
     unsigned long long _zeroPadSizeX;
-    unsigned long long _zeroPadSizeY;
 }
 
 - (id);
@@ -19,7 +18,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)/Sources/AppleFSCompression/Common/ThrottlingAllocator.c;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long zeroPadSizeX; // @synthesize zeroPadSizeX=_zeroPadSizeX;
-@property(nonatomic) unsigned long long zeroPadSizeY; // @synthesize zeroPadSizeY=_zeroPadSizeY;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol PPStringDonationProtocol
+- (void)essageUpdateProcessingPipelineParameter> Started processing;
 @end
 

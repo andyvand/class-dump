@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EspressoProfilingANEcompilerAnalytics, EspressoProfilingNetworkANEInfo, NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface EspressoProfilingNetworkInfo
 {
     NSMutableArray *_layers;
-    NSString *_network_at_path;
-    EspressoProfilingNetworkANEInfo *_ane_performance_info;
-    EspressoProfilingANEcompilerAnalytics *_ane_compiler_analytics;
 }
 
 - (void);
@@ -20,15 +17,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)setDateType:(id)arg1;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) EspressoProfilingANEcompilerAnalytics *ane_compiler_analytics; // @synthesize ane_compiler_analytics=_ane_compiler_analytics;
-@property(retain) EspressoProfilingNetworkANEInfo *ane_performance_info; // @synthesize ane_performance_info=_ane_performance_info;
 @property(retain) NSMutableArray *layers; // @synthesize layers=_layers;
-@property(retain) NSString *network_at_path; // @synthesize network_at_path=_network_at_path;
 
 @end
 

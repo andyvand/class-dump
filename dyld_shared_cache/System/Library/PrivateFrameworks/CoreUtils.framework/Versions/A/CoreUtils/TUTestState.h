@@ -9,13 +9,12 @@
 @interface TUTestState
 {
     NSMutableDictionary *_objects;
-    int _signalCount;
 }
 
 - (int);
 - (void);
 - (void);
-- (id);
+- (id)setExcludedCredentials: /* Error: Ran out of types for this method. */;
 - (int);
 - (id);
 - (void);

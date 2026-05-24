@@ -4,80 +4,53 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface NTPBTopStoriesConfig
 {
     long long _badgesTimeout;
-    long long _cutoffTime;
-    long long _maximumArticleCount;
-    NSString *_channelId;
-    NSMutableArray *_styleConfigs;
-    _Bool _pinningEnabled;
-    _Bool _promotingEnabled;
-    struct {
-        unsigned int badgesTimeout:1;
-        unsigned int cutoffTime:1;
-        unsigned int maximumArticleCount:1;
-        unsigned int pinningEnabled:1;
-        unsigned int promotingEnabled:1;
-    } _has;
 }
 
-+ (Class);
-- (unsigned long long);
++ (Class)animation:doubleSidedAnimatedSpriteIndexesForModifiedSpriteIndexes:rootLayout:presentedGeometries:styles:infos: /* Error: Ran out of types for this method. */;
+- (unsigned long long)initWithSectionObject:itemObject:subitemObject:indexPath: /* Error: Ran out of types for this method. */;
 - (id);
+- (id)ontroller:zoomLevel:spec: /* Error: Ran out of types for this method. */;
+- (void)initWithMemoriesInPhotoLibrary:(id)arg1 layoutKind:viewControllerSetupBlock: /* Error: Ran out of types for this method. */;
+- (void)initWithIdentifier:(_Bool)arg1 offset:availableForScrollingGesture: /* Error: Ran out of types for this method. */;
+- (void)initWithFormat:(_Bool)arg1 arguments: /* Error: Ran out of types for this method. */;
+- (void)initWithCuratedAudioAssets:(long long)arg1 currentAsset: /* Error: Ran out of types for this method. */;
+- (void)indexPathSetWithItemIndexes:(_Bool)arg1 dataSourceIdentifier:section: /* Error: Ran out of types for this method. */;
+- (void)Changed:(_Bool)arg1;
+- (void)imageRenderRequestWithComposition:(_Bool)arg1 fillInSize:wideGamut: /* Error: Ran out of types for this method. */;
+- (void)handleHeight;
+- (void)firstTimeExperienceMaxNonProcessedAssets;
+- (_Bool)fetchMemoryCreationButtonAvailabilityWithCompletionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)haringFilter:error: /* Error: Ran out of types for this method. */;
+- (long long)fallbackEntryForContentType:size: /* Error: Ran out of types for this method. */;
+- (_Bool)elementWithWidget:scrollViewController: /* Error: Ran out of types for this method. */;
+- (_Bool)editorPreviewSong;
+- (_Bool)dismissalProgress;
+- (_Bool)declineInvitationToSharedAlbum:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)creationRequestForSocialGroupWithMembers:userAction: /* Error: Ran out of types for this method. */;
+- (long long)createDataSourceWithAssetsAtIndexPaths: /* Error: Ran out of types for this method. */;
+- (void)copyPath:(id)arg1 toDestinationDir:zipped: /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool);
+- (id);
 - (id);
+- (void)g;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)videoLayerReadyForDisplayChangeHandler;
+- (_Bool)allFirmlinkPaths;
+- (_Bool)nnelIDsDidChangeWithChannelIDs  bundleSubscription= %@;
 - (id);
 - (id);
 - (void)dSubscriptionOrigin"b1"groupArticleCountInForYou"b1"groupDisplayRankInForYou"b1"groupFormationReason"b1"groupLocation"b1"groupPresentationReason"b1"groupType"b1"heroArticleType"b1"loadFailureReason"b1"maxActiveTimeSpent"b1"maxVerticalScrollPositionEnding"b1"moduleEventType"b1"moduleItemCount"b1"moduleItemPosition"b1"moduleLocation"b1"nextArticleAffordanceType"b1"paidSubscriberToFeedType"b1"parentFeedType"b1"previousArticleHostViewTypeIfSwipe"b1"previousWebEmbedLocation"b1"publisherArticleVersion"b1"rankInVideoPlaylist"b1"role"b1"topStoryMandatoryArticleCount"b1"topStoryOptionalArticleCount"b1"topStoryType"b1"widgetArticleRank"b1"widgetSection"b1"widgetSectionArticleRank"b1"adSupportedChannel"b1"articleLoaded"b1"badgeExposure"b1"didBounce"b1"didExpandDuringView"b1"didOpenInSafari"b1"isAudioEligible"b1"isAudioEngaged"b1"isBreakingNewsArticle"b1"isCoverArticle"b1"isDigitalReplicaAd"b1"isExplorationArticle"b1"isFreeArticle"b1"isGroupedArticle"b1"isNativeAd"b1"isNewUserToArticle"b1"isPaidSubscriberToFeed"b1"isPaidSubscriberToSourceChannel"b1"isSharedSubscriptionOnlyArticle"b1"isSubscribedToGroupFeed"b1"isSubscribedToSourceChannel"b1"isTopStoryArticle"b1"isUserSubscribedToParentFeed"b1"isVideoInFeed"b1"subscriptionOnlyArticle"b1"viewFromNotificationDirectOpen"b1};
 - (void)Reason"b1};
-- (void)icSelections;
-- (long long)s: /* Error: Ran out of types for this method. */;
-- (_Bool);
+- (void)totalTopicSelections;
+- (long long)setPublisherPaidDescriptionStrings: /* Error: Ran out of types for this method. */;
+- (_Bool)orderFeedEndpointEnabled;
 
 // Remaining properties
-@property(nonatomic) long long badgesTimeout; // @synthesize badgesTimeout=_badgesTimeout;
-@property(retain, nonatomic) NSString *channelId; // @synthesize channelId=_channelId;
-@property(nonatomic) long long cutoffTime; // @synthesize cutoffTime=_cutoffTime;
-@property(nonatomic) _Bool hasBadgesTimeout;
-@property(readonly, nonatomic) _Bool hasChannelId;
-@property(nonatomic) _Bool hasCutoffTime;
-@property(nonatomic) _Bool hasMaximumArticleCount;
 @property(nonatomic) _Bool hasPinningEnabled;
-@property(nonatomic) _Bool hasPromotingEnabled;
-@property(nonatomic) long long maximumArticleCount; // @synthesize maximumArticleCount=_maximumArticleCount;
-@property(nonatomic) _Bool pinningEnabled; // @synthesize pinningEnabled=_pinningEnabled;
-@property(nonatomic) _Bool promotingEnabled; // @synthesize promotingEnabled=_promotingEnabled;
-@property(retain, nonatomic) NSMutableArray *styleConfigs; // @synthesize styleConfigs=_styleConfigs;
 
 @end
 

@@ -4,61 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSError, NSMutableDictionary, NSSet, NSString, NSURL, NSUUID, SFPeerDevice, UAUserActivityAnalyticsInfo;
+@class NSMutableDictionary, NSUUID;
 
 @interface UAUserActivityInfo
 {
     NSMutableDictionary *_payloads;
-    _Bool _eligibleForHandoff;
-    _Bool _eligibleForSearch;
-    _Bool _eligibleForPublicIndexing;
-    _Bool _eligibleForReminders;
-    _Bool _eligibleForPrediction;
-    _Bool _eligibleToAdvertise;
-    _Bool _eligibleToAlwaysAdvertise;
-    _Bool _dirty;
-    _Bool _payloadAvailable;
-    _Bool _payloadRequested;
-    _Bool _active;
-    _Bool _universalLink;
-    NSUUID *_uuid;
-    unsigned long long _type;
-    NSString *_title;
-    NSString *_activityType;
-    NSString *_dynamicActivityType;
-    NSString *_teamIdentifier;
-    NSURL *_webpageURL;
-    NSURL *_referrerURL;
-    NSString *_targetContentIdentifier;
-    NSDictionary *_options;
-    NSError *_encodedUserInfoError;
-    NSSet *_requiredUserInfoKeys;
-    NSDate *_when;
-    NSDate *_lastInterestingTime;
-    NSDictionary *_encodingOptions;
-    NSString *_contentUserAction;
-    NSSet *_keywords;
-    NSDate *_expirationDate;
-    NSString *_persistentIdentifier;
-    NSError *_error;
-    SFPeerDevice *_peerDevice;
-    NSString *_peerDeviceType;
-    NSString *_bundleIdentifier;
-    UAUserActivityAnalyticsInfo *_wasContinuedInfo;
 }
 
 + (id);
 + (_Bool);
 - (id);
+- (id)ly raised an error: /* Error: Ran out of types for this method. */;
+- (void)0b;
+- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -68,7 +32,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -81,11 +45,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)ng RoutingContext UUID %{public}@;
+- (void)FBPCreateOption_CustomURLLoader;
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void)h;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -103,20 +67,20 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)ɱr;
 - (void);
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -124,65 +88,29 @@
 - (_Bool);
 - (id);
 - (id);
+- (id);
 - (id);
+- (void)@;
+- (void);
+- (void)!;
+- (id);
+- (id);
+- (id);
+- (void)J!;
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (_Bool)I	J);
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
 - (_Bool);
 - (void);
-- (void)ndevous:(_Bool)arg1 domain:active: /* Error: Ran out of types for this method. */;
-- (id)e;
+- (void)rendevous:(_Bool)arg1 domain:active: /* Error: Ran out of types for this method. */;
+- (id)isRemotePasteboardAvailable;
 - (id);
 
 // Remaining properties
-@property _Bool active; // @synthesize active=_active;
-@property(copy) NSString *activityType; // @synthesize activityType=_activityType;
-@property(copy) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy) NSString *contentUserAction; // @synthesize contentUserAction=_contentUserAction;
-@property(readonly, getter=isDirty) _Bool dirty; // @synthesize dirty=_dirty;
-@property(copy) NSString *dynamicActivityType; // @synthesize dynamicActivityType=_dynamicActivityType;
-@property _Bool eligibleForHandoff; // @synthesize eligibleForHandoff=_eligibleForHandoff;
-@property _Bool eligibleForPrediction; // @synthesize eligibleForPrediction=_eligibleForPrediction;
-@property _Bool eligibleForPublicIndexing; // @synthesize eligibleForPublicIndexing=_eligibleForPublicIndexing;
-@property _Bool eligibleForReminders; // @synthesize eligibleForReminders=_eligibleForReminders;
-@property _Bool eligibleForSearch; // @synthesize eligibleForSearch=_eligibleForSearch;
-@property(readonly) _Bool eligibleToAdvertise; // @synthesize eligibleToAdvertise=_eligibleToAdvertise;
-@property(readonly) _Bool eligibleToAlwaysAdvertise; // @synthesize eligibleToAlwaysAdvertise=_eligibleToAlwaysAdvertise;
-@property(copy) NSError *encodedUserInfoError; // @synthesize encodedUserInfoError=_encodedUserInfoError;
-@property(copy) NSDictionary *encodingOptions; // @synthesize encodingOptions=_encodingOptions;
-@property(copy) NSError *error; // @synthesize error=_error;
-@property(copy) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(copy) NSSet *keywords; // @synthesize keywords=_keywords;
-@property(copy) NSDate *lastInterestingTime; // @synthesize lastInterestingTime=_lastInterestingTime;
-@property(copy) NSDictionary *options; // @synthesize options=_options;
-@property(getter=isPayloadAvailable) _Bool payloadAvailable; // @synthesize payloadAvailable=_payloadAvailable;
-@property(getter=isPayloadRequested) _Bool payloadRequested; // @synthesize payloadRequested=_payloadRequested;
-@property(copy) NSDictionary *payloads;
-@property(retain) SFPeerDevice *peerDevice; // @synthesize peerDevice=_peerDevice;
-@property(copy) NSString *peerDeviceType; // @synthesize peerDeviceType=_peerDeviceType;
-@property(copy) NSString *persistentIdentifier; // @synthesize persistentIdentifier=_persistentIdentifier;
-@property(copy) NSURL *referrerURL; // @synthesize referrerURL=_referrerURL;
-@property(copy) NSSet *requiredUserInfoKeys; // @synthesize requiredUserInfoKeys=_requiredUserInfoKeys;
-@property(copy) NSString *targetContentIdentifier; // @synthesize targetContentIdentifier=_targetContentIdentifier;
-@property(copy) NSString *teamIdentifier; // @synthesize teamIdentifier=_teamIdentifier;
-@property(copy) NSString *title; // @synthesize title=_title;
-@property unsigned long long type; // @synthesize type=_type;
-@property(getter=isUniversalLink) _Bool universalLink; // @synthesize universalLink=_universalLink;
 @property(copy) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(retain) UAUserActivityAnalyticsInfo *wasContinuedInfo; // @synthesize wasContinuedInfo=_wasContinuedInfo;
-@property(copy) NSURL *webpageURL; // @synthesize webpageURL=_webpageURL;
-@property(copy) NSDate *when; // @synthesize when=_when;
 
 @end
 

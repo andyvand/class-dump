@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPWebRTCStreamingControlStatusWrapper, NSData, NSString;
+@class NSData;
 
 @interface HAPWebRTCStreamingControlResponse
 {
     NSData *_sessionIdentifier;
-    HAPWebRTCStreamingControlStatusWrapper *_status;
 }
 
 + (id);
@@ -21,21 +20,13 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void)_addr=I}[8c]}{sockaddr_in6=CCSI{in6_addr=(?=[16C][8S][4I])}I})}16;
 - (id)Ì¨¸;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSData *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(retain, nonatomic) HAPWebRTCStreamingControlStatusWrapper *status; // @synthesize status=_status;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,8 +6,6 @@
 
 #import <AppKit/_NSBinderPlugin.h>
 
-@class NSIndexPath, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _NSValueBinderPlugin : _NSBinderPlugin
 {
@@ -17,32 +15,31 @@ __attribute__((visibility("hidden")))
         unsigned int _isObjectValueInvalidationCapable:1;
         unsigned int _reservedValueBinderPlugin:29;
     } _valueBinderPluginFlags;
-    unsigned long long _affectedIndex;
-    NSIndexPath *_affectedIndexPath;
-    Class _valueClass;
 }
 
-+ (_Bool);
++ (_Bool)errno}d;
 - (id);
 - (Class);
-- (Class);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (Class);
+- (_Bool)"^;
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)DeviceSupportsHypertensivePatternMeasurements;
+- (id)diagnostics;
+- (id)kQ8nm82jb5iTBUwT2M3aIQ;
+- (_Bool)Cfg;
+- (_Bool)silver;
+- (_Bool);
+- (void);
+- (id)qa;
+- (id)9
+
+9*c;
 - (id);
 - (void);
 - (void);
@@ -50,7 +47,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct __NSKeyValueCodingControllerModeType);
 - (void);
-- (void);
+- (void)#;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -61,18 +58,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (Class);
 - (void);
-- (void);
+- (void)G;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

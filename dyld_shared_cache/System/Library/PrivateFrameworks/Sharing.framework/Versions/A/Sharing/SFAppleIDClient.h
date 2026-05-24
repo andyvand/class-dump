@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SFAppleIDClient
 {
     NSObject<OS_dispatch_queue> *_dispatchQueue;
-    _Bool _invalidateCalled;
-    _Bool _invalidateDone;
-    NSXPCConnection *_syncXPCCnx;
-    NSXPCConnection *_xpcCnx;
-    NSXPCConnection *_xpcAuthCnx;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (struct __SecIdentity *);
 - (void);
 - (void);
-- (void);
+- (void)qa;
 - (void);
 - (void);
 - (void);
@@ -51,12 +44,10 @@
 - (void);
 - (void)ôÿÿÿ
 þÿØÂóÿØ;
-- (id)se;
+- (id)waitingForContactShareBackResponse;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
 
 @end
 

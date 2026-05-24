@@ -5,5 +5,7 @@
 //
 
 @protocol CKConversationListCellIntroductionsDelegate
+- (_Bool)
+P;
 @end
 

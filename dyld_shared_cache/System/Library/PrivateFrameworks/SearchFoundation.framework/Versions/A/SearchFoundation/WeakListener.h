@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void)ier: /* Error: Ran out of types for this method. */;
+- (void)initWithType:identifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) id <SFFeedbackListener> strongListener;

@@ -6,12 +6,11 @@
 
 #import <QuartzCore/CAStateElement.h>
 
-@class CAAnimation, NSString;
+@class NSString;
 
 @interface CAStateAddAnimation : CAStateElement
 {
     NSString *_key;
-    CAAnimation *_animation;
 }
 
 + (_Bool);
@@ -19,9 +18,9 @@
 - (id);
 - (id);
 - (id);
+- (id)string;
 - (id);
-- (id);
-- (void);
+- (void)h;
 - (void);
 - (void);
 - (void);
@@ -31,7 +30,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CAAnimation *animation; // @synthesize animation=_animation;
 @property(copy, nonatomic) NSString *key; // @synthesize key=_key;
 
 @end

@@ -4,36 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSPopUpButton, NSString, NSView, OpenPageWithSimulatorMenuController, ResponsiveDesignPresetConfiguration, ResponsiveDesignViewportPresetMenuController, TextFieldWithVibrancy;
+@class ResponsiveDesignPresetConfiguration, TextFieldWithVibrancy;
 
 __attribute__((visibility("hidden")))
 @interface ResponsiveDesignShelfViewController
 {
     TextFieldWithVibrancy *_widthTextField;
-    TextFieldWithVibrancy *_heightTextField;
-    TextFieldWithVibrancy *_zoomLevelLabel;
-    NSPopUpButton *_pixelRatioButton;
-    NSPopUpButton *_openPageWithSimulatorPopupMenuButton;
-    OpenPageWithSimulatorMenuController *_openPageWithSimulatorMenuController;
-    NSPopUpButton *_viewportPresetPopUpMenuButton;
-    ResponsiveDesignViewportPresetMenuController *_viewportPresetMenuController;
-    NSButton *_rotateViewportButton;
-    _Bool _doNotUpdateBrowserSizeTextFields;
-    _Bool _isApplyingPreset;
-    _Bool _doNotUpdatePresetConfigurationBrowserSize;
-    _Bool _savingLastConfigurationSoon;
-    _Bool _savingCustomPresetConfigurationsSoon;
-    ResponsiveDesignPresetConfiguration *_selectedPresetConfiguration;
-    double _displayZoomLevel;
-    unsigned long long _displayPixelRatio;
-    NSString *_displayUserAgent;
-    struct CGSize _displayBrowserSize;
 }
 
+- (void);
+- (void){;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -46,11 +28,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)E;
 - (void);
 - (void);
 - (id);
-- (double);
+- (double)@;
 - (void);
 - (void);
 - (void);
@@ -59,19 +41,7 @@ __attribute__((visibility("hidden")))
 - (void)ìÈ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct CGSize displayBrowserSize; // @synthesize displayBrowserSize=_displayBrowserSize;
-@property(nonatomic) unsigned long long displayPixelRatio; // @synthesize displayPixelRatio=_displayPixelRatio;
-@property(copy, nonatomic) NSString *displayUserAgent; // @synthesize displayUserAgent=_displayUserAgent;
-@property(nonatomic) double displayZoomLevel; // @synthesize displayZoomLevel=_displayZoomLevel;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSView *lastKeyView;
 @property(retain, nonatomic) ResponsiveDesignPresetConfiguration *selectedPresetConfiguration; // @synthesize selectedPresetConfiguration=_selectedPresetConfiguration;
-@property(readonly) Class superclass;
 
 @end
 

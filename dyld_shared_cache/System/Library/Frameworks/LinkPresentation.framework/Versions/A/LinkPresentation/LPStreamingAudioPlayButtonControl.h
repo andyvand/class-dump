@@ -6,14 +6,12 @@
 
 #import <LinkPresentation/LPPlayButtonControl.h>
 
-@class LPAudioPlayerMediaPlayableAdaptor;
 @protocol LPAudioPlayer;
 
 __attribute__((visibility("hidden")))
 @interface LPStreamingAudioPlayButtonControl : LPPlayButtonControl
 {
     id <LPAudioPlayer> _player;
-    LPAudioPlayerMediaPlayableAdaptor *_playableAdaptor;
 }
 
 - (id);
@@ -21,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 

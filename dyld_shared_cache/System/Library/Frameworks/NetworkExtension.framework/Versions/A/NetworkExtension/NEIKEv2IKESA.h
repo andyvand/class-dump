@@ -4,107 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEIKEv2AuthenticationProtocol, NEIKEv2ConfigurationMessage, NEIKEv2EAP, NEIKEv2GSPM, NEIKEv2IKESAConfiguration, NEIKEv2IKESAProposal, NEIKEv2IKESPI, NEIKEv2Identifier, NEIKEv2InitiatorIdentifierPayload, NEIKEv2KEMProtocol, NEIKEv2KeyExchangeHandler, NEIKEv2NotifyPayload, NEIKEv2ResponderIdentifierPayload, NEIKEv2SecurityContext, NEIKEv2SessionConfiguration, NEIKEv2Transport, NSArray, NSData, NSError, NSMutableArray, NSObject, NSSet, NSString, NWAddressEndpoint;
-@protocol NEIKEv2ConfigurationDelegate, NEIKEv2PacketDelegate, NEIKEv2TransportDelegate, OS_dispatch_queue;
-
 @interface NEIKEv2IKESA
 {
     _Bool _shouldSendStateUpdate;
-    _Bool _isInitiator;
-    _Bool _fragmentationSupported;
-    _Bool _mobikeSupported;
-    _Bool _useNATTraversal;
-    _Bool _useTCPEncapsulation;
-    _Bool _detectedOutgoingNAT;
-    _Bool _detectedIncomingNAT;
-    _Bool _isRekeying;
-    _Bool _processingEAPOrGSPM;
-    _Bool _peerAuthenticated;
-    _Bool _ppkAuthenticated;
-    _Bool _eapAuthenticationSuccess;
-    _Bool _reportShortDPD;
-    _Bool _localCertificateIsModernSystem;
-    _Bool _useChildlessSA;
-    _Bool _usePPK;
-    _Bool _usesPacketDelegate;
-    unsigned short _shortDPDCounter;
-    unsigned int _firstAuthMessageID;
-    NEIKEv2IKESPI *_localSPI;
-    NEIKEv2IKESPI *_remoteSPI;
-    unsigned long long _state;
-    NSError *_error;
-    NWAddressEndpoint *_localAddress;
-    NWAddressEndpoint *_remoteAddress;
-    NEIKEv2IKESAConfiguration *_configuration;
-    NEIKEv2SessionConfiguration *_sessionConfiguration;
-    NEIKEv2IKESAProposal *_chosenProposal;
-    NEIKEv2AuthenticationProtocol *_remoteSecurePasswordMethod;
-    NSSet *_remoteSignHashSet;
-    double _lastReceivedDPD;
-    NSData *_localNonce;
-    NSData *_remoteNonce;
-    NEIKEv2KEMProtocol *_remotePreferredKEMProtocol;
-    NSData *_remoteKeyExchangeData;
-    NEIKEv2KeyExchangeHandler *_currentKEHandler;
-    NSData *_primarySharedSecret;
-    NEIKEv2NotifyPayload *_additionalKENotify;
-    NSMutableArray *_followupSharedSecrets;
-    NSData *_intAuthI;
-    NSData *_intAuthR;
-    NEIKEv2SecurityContext *_securityContext;
-    NSData *_skD;
-    NSData *_skDPrime;
-    NSData *_skPi;
-    NSData *_skPiPrime;
-    NSData *_skPr;
-    NSData *_skPrPrime;
-    NSData *_localCertificateIdentity;
-    NSData *_localCertificateKey;
-    NSData *_cookie;
-    NSData *_responderCookie2;
-    NSData *_initiatorCookie2;
-    NSString *_outgoingInterfaceName;
-    NSData *_localFirstMessage;
-    NSData *_remoteFirstMessage;
-    NEIKEv2InitiatorIdentifierPayload *_initiatorIdentifierPayload;
-    NEIKEv2ResponderIdentifierPayload *_responderIdentifierPayload;
-    NEIKEv2Identifier *_localIdentifierFromPacket;
-    NEIKEv2Identifier *_remoteIdentifierFromPacket;
-    unsigned long long _childSAModeFromPacket;
-    NSArray *_childSAProposalsFromPacket;
-    NEIKEv2AuthenticationProtocol *_authProtocolFromPacket;
-    NSData *_authenticationDataFromPacket;
-    NSData *_primeAuthenticationDataFromPacket;
-    NEIKEv2ConfigurationMessage *_configMessageFromPacket;
-    NSArray *_initiatorTrafficSelectorsFromPacket;
-    NSArray *_responderTrafficSelectorsFromPacket;
-    unsigned long long _ppkIDTypeFromPacket;
-    NSData *_ppkIDFromPacket;
-    NEIKEv2AuthenticationProtocol *_localAuthProtocolUsed;
-    NEIKEv2AuthenticationProtocol *_remoteAuthProtocolUsed;
-    NEIKEv2EAP *_eapClient;
-    NEIKEv2GSPM *_gspmHandler;
-    NEIKEv2Transport *_transport;
-    NEIKEv2Transport *_natTransport;
-    NEIKEv2Transport *_tcpTransport;
-    NEIKEv2ConfigurationMessage *_activeConfiguration;
-    NSData *_receivedDestinationHash;
-    NEIKEv2Identifier *_fallbackLocalIdentifier;
-    NSData *_fetchedPassword;
-    NSData *_fetchedSharedSecret;
-    NSData *_fetchedPPK;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <NEIKEv2TransportDelegate> _transportDelegate;
-    CDUnknownBlockType _socketGetBlock;
-    id <NEIKEv2PacketDelegate> _packetDelegate;
-    id <NEIKEv2ConfigurationDelegate> _configurationDelegate;
-    unsigned long long _ikeSessionUniqueIndex;
-    unsigned long long _ikeSAUniqueIndex;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)setRequiredInterface: /* Error: Ran out of types for this method. */;
 
 @end
 

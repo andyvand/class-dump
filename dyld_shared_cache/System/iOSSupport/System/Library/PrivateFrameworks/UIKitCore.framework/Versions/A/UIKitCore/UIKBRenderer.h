@@ -4,80 +4,61 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, UIColor, UIImage;
-
 __attribute__((visibility("hidden")))
 @interface UIKBRenderer
 {
     struct CGContext *_cachingContext;
-    CDUnknownBlockType _cachingContextCompletion;
-    long long _forceColorFormat;
-    UIColor *_singleColor;
-    int _colorCount;
-    _Bool _opaque;
-    _Bool _colorDetectMode;
-    _Bool _disableInternalCaching;
-    struct CGContext *_ctx;
-    double _scale;
-    long long _renderFlags;
-    NSString *_cacheKey;
-    UIImage *_renderedImage;
-    long long _contentColorFormat;
-    long long _assetIdiom;
-    double __layerRoundRectRadius;
-    struct CGSize _size;
-    struct CGRect __layerPaddedFrame;
 }
 
 + (id);
-+ (struct CGContext *);
++ (struct CGContext *)A;
 + (void);
-- (id);
+- (id)listener;
 - (long long);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)ag results for aux video big %lu small %lu ;
+- (void)ot found in cache;
+- (void)guid %@;
+- (void)mberOfBatches %@;
+- (unsigned long long)d ********;
+- (_Bool)ved messages as max batch attempt limit reached ********;
+- (unsigned long long)rchived messages:(id)arg1 %@;
+- (void)token has expired;
+- (void)defaults to fetch archived records;
+- (void)more archived records to fetch. Resetting defaults to fetch archived records;
+- (void)re more changes to fetch from archived zone. Kicking off another batch of fetching;
+- (void)Coming %@ recordZoneError %@;
+- (id)Type:(id)arg1 %lu, scheduleState:%lu, audio:%{BOOL}d played:%{BOOL}d from-me:%{BOOL}d DD results:%{BOOL}d DD Scanned:%{BOOL}d Downgraded:%{BOOL}d emote:%{BOOL}d expirable:%{BOOL}d expire-state:%d balloon-bundle-id:%@ expressive-send-style-id:%@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (id)BOOL}d delivered:(id)arg1 %{BOOL}d scheduleType:%lu, scheduleState:%lu, audio:%{BOOL}d played:%{BOOL}d from-me:%{BOOL}d DD results:%{BOOL}d DD Scanned:%{BOOL}d Downgraded:%{BOOL}d emote:%{BOOL}d expirable:%{BOOL}d expire-state:%d balloon-bundle-id:%@ expressive-send-style-id:%@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (id)fer guids:(double)arg1 '%@' empty:(double)arg2 %{BOOL}d finished:(double)arg3 %{BOOL}d sent:(struct CGPoint)arg4 %{BOOL}d read:(double)arg5 %{BOOL}d delivered:(double)arg6 %{BOOL}d scheduleType:%lu, scheduleState:%lu, audio:%{BOOL}d played:%{BOOL}d from-me:%{BOOL}d DD results:%{BOOL}d DD Scanned:%{BOOL}d Downgraded:%{BOOL}d emote:%{BOOL}d expirable:%{BOOL}d expire-state:%d balloon-bundle-id:%@ expressive-send-style-id:%@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (id)%f' date-read:(id)arg1 '%f' date-played:'%f' transfer guids:'%@' empty:%{BOOL}d finished:%{BOOL}d sent:%{BOOL}d read:%{BOOL}d delivered:%{BOOL}d scheduleType:%lu, scheduleState:%lu, audio:%{BOOL}d played:%{BOOL}d from-me:%{BOOL}d DD results:%{BOOL}d DD Scanned:%{BOOL}d Downgraded:%{BOOL}d emote:%{BOOL}d expirable:%{BOOL}d expire-state:%d balloon-bundle-id:%@ expressive-send-style-id:%@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (id)ID:(id)arg1 %lu date:'%f' date-delivered:'%f' date-read:'%f' date-played:'%f' transfer guids:'%@' empty:%{BOOL}d finished:%{BOOL}d sent:%{BOOL}d read:%{BOOL}d delivered:%{BOOL}d scheduleType:%lu, scheduleState:%lu, audio:%{BOOL}d played:%{BOOL}d from-me:%{BOOL}d DD results:%{BOOL}d DD Scanned:%{BOOL}d Downgraded:%{BOOL}d emote:%{BOOL}d expirable:%{BOOL}d expire-state:%d balloon-bundle-id:%@ expressive-send-style-id:%@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (id)mName='%@'; flags=0x%llx; messageID:(id)arg1 %lld sortID:%lu date:'%f' date-delivered:'%f' date-read:'%f' date-played:'%f' transfer guids:'%@' empty:%{BOOL}d finished:%{BOOL}d sent:%{BOOL}d read:%{BOOL}d delivered:%{BOOL}d scheduleType:%lu, scheduleState:%lu, audio:%{BOOL}d played:%{BOOL}d from-me:%{BOOL}d DD results:%{BOOL}d DD Scanned:%{BOOL}d Downgraded:%{BOOL}d emote:%{BOOL}d expirable:%{BOOL}d expire-state:%d balloon-bundle-id:%@ expressive-send-style-id:%@ time-expressive-send-played:%@ bizIntent:%@ locale:%@ biaReferenceID:%@ error:%d sync-state %lli corrupt:%{BOOL}d shouldSendMeCard:%{BOOL}d isSpam:%{BOOL}d hasUnseenMention:%{BOOL}d threadIdentifier:%@, threadOriginator:%@, replyCountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (_Bool)and cleaning up:(id)arg1 %@;
+- (id)%@;
+- (void)chats:(long long)arg1 %@;
+- (void)orage:%@, isLastFromStorage:%@, isFromMe:%@, output messageItems:%lu} /* Error: Ran out of types for this method. */;
+- (void)ipt background command;
+- (void)t command;
+- (_Bool)NicknameWallpaperDataTag;
+- (void)"CKRecord"8@"NSError"16;
+- (void)BackfillAttachmentSync;
+- (void)PeriodicAttachmentSync;
+- (id)ize=dd}32@"NSError"48@"NSString"56;
 - (long long);
 - (struct CGPoint);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)W;
 - (struct CGPath *);
 - (struct CGPath *);
 - (void);
-- (double);
+- (double);
 - (struct CGRect);
 - (_Bool);
 - (void);
@@ -92,11 +73,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (double);
+- (double)_;
 - (struct CGSize)1Â0@ù
 × ;
 - (struct CGContext *)startedAnimationTest: /* Error: Ran out of types for this method. */;
-- (id)singKeyboardForTextFormatting: /* Error: Ran out of types for this method. */;
+- (id)_startSuppressingKeyboardForTextFormatting: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (long long)ËÅ;
 - (long long);
@@ -105,20 +86,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) struct CGRect _layerPaddedFrame; // @synthesize _layerPaddedFrame=__layerPaddedFrame;
-@property(nonatomic) double _layerRoundRectRadius; // @synthesize _layerRoundRectRadius=__layerRoundRectRadius;
-@property(readonly, nonatomic) long long assetIdiom; // @synthesize assetIdiom=_assetIdiom;
-@property(retain, nonatomic) NSString *cacheKey; // @synthesize cacheKey=_cacheKey;
-@property(nonatomic) _Bool colorDetectMode; // @synthesize colorDetectMode=_colorDetectMode;
-@property(readonly, nonatomic) long long contentColorFormat; // @synthesize contentColorFormat=_contentColorFormat;
-@property(readonly, nonatomic) struct CGContext *context; // @synthesize context=_ctx;
-@property(readonly, nonatomic) NSData *contextData;
-@property(nonatomic) _Bool disableInternalCaching; // @synthesize disableInternalCaching=_disableInternalCaching;
-@property(readonly, nonatomic) _Bool opaque; // @synthesize opaque=_opaque;
-@property(readonly, nonatomic) long long renderFlags; // @synthesize renderFlags=_renderFlags;
-@property(readonly, nonatomic) UIImage *renderedImage; // @synthesize renderedImage=_renderedImage;
-@property(readonly, nonatomic) double scale; // @synthesize scale=_scale;
-@property(readonly, nonatomic) UIColor *singleColor;
-@property(readonly, nonatomic) struct CGSize size; // @synthesize size=_size;
 
 @end
 

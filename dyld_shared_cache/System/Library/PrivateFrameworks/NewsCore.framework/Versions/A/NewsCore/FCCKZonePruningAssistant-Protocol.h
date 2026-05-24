@@ -5,5 +5,7 @@
 //
 
 @protocol FCCKZonePruningAssistant
+- (_Bool);
+- (unsigned long long)IXPresentErrorHighlightingLocalizedAppName_block_invoke_3;
 @end
 

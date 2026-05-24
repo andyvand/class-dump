@@ -5,5 +5,8 @@
 //
 
 @protocol RTIInputSystemSessionResponseProtocol
+
+@optional
+- (oneway void)sp == 0;
 @end
 

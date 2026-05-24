@@ -6,15 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CILightTunnel : CIFilter
 {
     CIImage *inputImage;
-    CIVector *inputCenter;
-    NSNumber *inputRotation;
-    NSNumber *inputRadius;
 }
 
 + (id);
@@ -22,18 +19,15 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)(;
 - (void);
-- (id);
-- (void);
+- (id)XQ;
+- (void);
 - (id);
 - (id)KWOY5A2GCD7DGM@Odfefsx§§§§¡©®®¨¨¨¨Rld{mzw|u{{{{hhhhYYYYXXXXddddqqqqwwwwxxxxm}p}Qc]pRYP[OOGO9L@Ullll{{{{lrovbh`puutuyyyyftsxvvvvssssppnpssssuuuullllH[SerrprQphvyrl}s{yGhaxkrnwi{z|yuzv~zwpzXvo©©©©nnnnV_VbkkkkUicrVZO`KSGVZZTZ`ebeimipXpk^zxoevrxxxxO`Xe[bYf||||vsYjduqqqqqqqqtttttyx|l~cyyjxw~h{|~viyy~bsoybnguwpgww~¦¦¦¦zzzzL_XcAK=VP\Uc}}}}¢¢¢¢ftn}?UEjNdZpZurzmmgmenhp~~~~sspsVibs¡¡¡¡¢¢¢^vt}}}}Wh`p_cZkepjpnzzzeqoxiidlbb_bMXP\^`Z``gakQnj~°°°°¥¯¯l}zapjssrs8PB_AQE[eeeefihiU`Yd;
 
 // Remaining properties
-@property(retain, nonatomic) CIVector *inputCenter; // @synthesize inputCenter;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputRadius; // @synthesize inputRadius;
-@property(retain, nonatomic) NSNumber *inputRotation; // @synthesize inputRotation;
 
 @end
 

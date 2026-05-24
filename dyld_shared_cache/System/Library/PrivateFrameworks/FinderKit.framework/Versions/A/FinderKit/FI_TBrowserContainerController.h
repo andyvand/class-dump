@@ -6,71 +6,12 @@
 
 #import <FinderKit/FI_TViewController.h>
 
-@class FI_TBrowserViewController, FI_TBrowserViewDataSource, FI_TBrowserViewSwitchAnimator, FI_TContainerLayoutManager, FI_TEphemeralPathBarDisplayController, FI_TICloudQuotaObserver, FI_TNodeViewSettings, FI_TSidebarSplitViewController, FI_TWindowHistory, NSObject, NSSplitViewItemAccessoryViewController, NSString, NSTimer, TBackupContainerDelegate, TStatusBarController;
-@protocol BrowserContainerTargeting><BrowserContainerSearching><BrowserContainerDelegate;
+@class FI_TContainerLayoutManager;
 
 __attribute__((visibility("hidden")))
 @interface FI_TBrowserContainerController : FI_TViewController
 {
     _Bool _containerIsBeingCreated;
-    _Bool _browserViewIsBeingCreated;
-    _Bool _browserViewIsBeingDestroyed;
-    _Bool _switchingViewStyleBeforeRecreatingBrowserView;
-    struct TNSWeakPtr<NSObject<BrowserContainerDelegate, BrowserContainerSearching, BrowserContainerTargeting>> _weakDelegate;
-    FI_TBrowserViewController *_browserViewController;
-    struct TFENodeVector _targetPath;
-    struct shared_ptr<TNodeObserverCocoaBridge> _targetPathObserver;
-    _Bool _targetNodeIsBrowsable;
-    FI_TNodeViewSettings *_viewSettings;
-    FI_TBrowserViewDataSource *_dataSource;
-    NSSplitViewItemAccessoryViewController *_bannerViewController;
-    FI_TBrowserViewSwitchAnimator *_viewSwitchAnimator;
-    _Bool _isSwitchingViewStyle;
-    FI_TWindowHistory *_history;
-    struct TFENodeVector _springRememberedTargetPath;
-    int _springRememberedViewStyle;
-    unsigned long long _itemCount;
-    unsigned long long _selectedNodesCount;
-    int _viewStyle;
-    int _previousViewStyleSeenByDelegates;
-    int _defaultViewStyle;
-    struct TFENode _initialTarget;
-    _Bool _forceSetTargetPath;
-    _Bool _targetIsPopulated;
-    int _groupBy;
-    _Bool _binding;
-    _Bool _doNotResetFirstResponder;
-    _Bool _isPopulationInProgress;
-    _Bool _isSearchInProgress;
-    _Bool _smartDiscardTargetIsStored;
-    _Bool _smartDiscardRebuildView;
-    int _smartDiscardSearchAction;
-    struct TFENodeVector _smartDiscardTargetPath;
-    int _smartDiscardViewStyle;
-    struct shared_ptr<TNodeObserverCocoaBridge> _publishedFolderNodeObserver;
-    unsigned long long _serialID;
-    struct TString _suggestionsScopeQuery;
-    _Bool _usesSuggestions;
-    NSTimer *_loadingUIStartTimer;
-    NSTimer *_loadingUIEndCheckTimer;
-    _Bool _wantToShowLoadingUI;
-    FI_TContainerLayoutManager *_containerLayoutManager;
-    FI_TICloudQuotaObserver *_iCloudQuotaObserver;
-    struct vector<TNotificationCenterObserver, std::allocator<TNotificationCenterObserver>> _notificationCenterObservers;
-    struct TNotificationCenterObserver _viewDidMoveToWindowObserver;
-    struct TNotificationCenterObserver _dataSourceBusyObserver;
-    struct TKeyValueBinder _groupByBinder;
-    struct TKeyValueBinder _selectedNodesCountBinder;
-    struct TKeyValueBinder _itemCountBinder;
-    FI_TSidebarSplitViewController *_sidebarSplitViewController;
-    struct TNotificationCenterObserver _isSidebarCollapsedObserver;
-    _Bool _flushDataSourceAllowed;
-    FI_TEphemeralPathBarDisplayController *_ephemeralPathBarDisplayController;
-    _Bool _isStatusBarVisible;
-    _Bool _isTornDown;
-    _Bool _showsSidebar;
-    TBackupContainerDelegate *_backupDelegate;
-    TStatusBarController *_statusBarController;
 }
 
 + (_Bool);
@@ -110,13 +51,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)y	?%@qa;
 - (struct TFENode);
 - (_Bool);
 - (_Bool);
@@ -124,14 +65,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)_ӋJ-
++;
 - (id);
 - (void);
 - (id);
 - (const struct TFENode *);
 - (int);
 - (struct TFENode);
-- (id);
+- (id);
 - (void);
 - (struct CGRect);
 - (void);
@@ -140,14 +82,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -157,7 +99,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
@@ -171,10 +113,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void *);
-- (_Bool);
+- (_Bool)qA;
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void *);
 - (void);
@@ -183,8 +125,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)�;
+- (void)C;
 - (struct TFENodeVector);
 - (void);
 - (_Bool);
@@ -195,20 +137,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct TFENode);
 - (_Bool);
+- (void)J;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)?;
+- (void);
 - (void);
 - (id);
+- (void)i;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (struct TFENodeVector);
@@ -219,18 +161,18 @@ __attribute__((visibility("hidden")))
 - (struct TFENode);
 - (void);
 - (struct TFENode);
-- (struct TFENode);
+- (struct TFENode)c;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)QC9J;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -239,20 +181,20 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (Class);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (unsigned long long);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (int);
-- (unsigned int);
+- (unsigned int)	;
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
@@ -261,6 +203,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)S	;
+- (void);
+- (void);
+- (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
@@ -272,33 +219,31 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct TFENode);
+- (struct TFENode)A;
 - (int);
 - (struct TFENode);
 - (struct TFENode);
 - (void);
 - (void);
+- (_Bool)1&;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (int);
+- (int)
+J,
+
+*;
 - (void);
-- (void);
+- (void)A;
 - (_Bool);
 - (id);
 - (id);
@@ -309,7 +254,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)9;
 - (_Bool);
 - (void);
 - (void);
@@ -339,31 +284,31 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (const struct TFENode *);
 - (int);
-- (void);
-- (void);
+- (void)userSessionObserverSessionDidMoveOffConsole:(_Bool)arg1;
+- (void)systemFontOfSize: /* Error: Ran out of types for this method. */;
 - (const void *);
 - (_Bool);
 - (void);
 - (int);
 - (void);
 - (_Bool);
+- (_Bool)8;
+- (void)xType:(int)arg1;
+- (void)_originalMessageCategorySubtype;
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
+- (id)ISearchSenderQueryManager";
+- (_Bool)didFinishLoadViewController;
 - (_Bool);
 - (struct TFENode);
 - (id);
+- (void)H;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)v;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -372,43 +317,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)8;
 - (void)configureView]E3$_8FvvEEE;
-- (id)_details20callable_holder_baseIvJEEE;
+- (id)N4fstd16callable_details20callable_holder_baseIvJEEE;
 - (_Bool)unique_functionIFS5_vEEEEUlvE_vJEEE;
 - (int)ntrollerTargetForView:]E4$_18 /* Error: Ran out of types for this method. */;
-- (void)gAction;
+- (void)16TRemoveTagAction;
 - (id)*;
 - (_Bool)ÿª.C;
 
 // Remaining properties
-@property(retain, nonatomic) TBackupContainerDelegate *backupDelegate; // @synthesize backupDelegate=_backupDelegate;
-@property(nonatomic) _Bool binding; // @synthesize binding=_binding;
-@property(readonly, retain, nonatomic) FI_TBrowserViewController *browserViewController;
-@property(readonly, nonatomic) _Bool containerIsBeingCreated; // @synthesize containerIsBeingCreated=_containerIsBeingCreated;
 @property(retain, nonatomic) FI_TContainerLayoutManager *containerLayoutManager; // @synthesize containerLayoutManager=_containerLayoutManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) int defaultViewStyle; // @synthesize defaultViewStyle=_defaultViewStyle;
-@property(nonatomic) __weak NSObject<BrowserContainerTargeting><BrowserContainerSearching><BrowserContainerDelegate> *delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool flushDataSourceAllowed; // @synthesize flushDataSourceAllowed=_flushDataSourceAllowed;
-@property(nonatomic) int groupBy;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isPopulationInProgress; // @synthesize isPopulationInProgress=_isPopulationInProgress;
-@property(nonatomic) _Bool isSearchInProgress; // @synthesize isSearchInProgress=_isSearchInProgress;
-@property(readonly, nonatomic) _Bool isTimeMachineBrowser;
-@property(nonatomic) unsigned long long itemCount; // @synthesize itemCount=_itemCount;
-@property(nonatomic) unsigned long long selectedNodesCount; // @synthesize selectedNodesCount=_selectedNodesCount;
-@property(nonatomic) _Bool showsSidebar; // @synthesize showsSidebar=_showsSidebar;
-@property(readonly, nonatomic) FI_TSidebarSplitViewController *sidebarSplitViewController;
-@property(nonatomic) int smartDiscardSearchAction; // @synthesize smartDiscardSearchAction=_smartDiscardSearchAction;
-@property(retain, nonatomic) TStatusBarController *statusBarController; // @synthesize statusBarController=_statusBarController;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool targetIsPopulated; // @synthesize targetIsPopulated=_targetIsPopulated;
-@property(getter=isTornDown) _Bool tornDown; // @synthesize tornDown=_isTornDown;
-@property(retain, nonatomic) FI_TNodeViewSettings *viewSettings; // @synthesize viewSettings=_viewSettings;
-@property(nonatomic) int viewStyle;
 
 @end
 

@@ -4,27 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface KextAuditKext
 {
     NSData *_cdHash;
-    NSData *_bundleIDHash;
-    NSString *_teamID;
-    NSString *_version;
 }
 
 + (id);
 + (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)I;
 - (void);
 - (id);
 - (id);
+- (id);
+- (void);
+- (id)tionTriggerTime,%{public}@,timeSinceLastPeriodicLocRequest,%{public}.3lf;
+- (id)event;
 - (id);
 - (void);
 - (void);
@@ -33,10 +30,7 @@
 - (id);
 
 // Remaining properties
-@property(retain) NSData *bundleIDHash; // @synthesize bundleIDHash=_bundleIDHash;
 @property(retain) NSData *cdHash; // @synthesize cdHash=_cdHash;
-@property(retain) NSString *teamID; // @synthesize teamID=_teamID;
-@property(retain) NSString *version; // @synthesize version=_version;
 
 @end
 

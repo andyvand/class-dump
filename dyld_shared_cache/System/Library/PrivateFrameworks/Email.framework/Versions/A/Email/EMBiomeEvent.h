@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface EMBiomeEvent
 {
     unsigned int _dataVersion;
-    NSString *_eventName;
-    NSString *_messageId;
-    NSDictionary *_payload;
 }
 
 + (id);
@@ -21,7 +18,7 @@
 - (unsigned int);
 - (id);
 - (id);
-- (id);
+- (id)btDeviceConnectionNotification:forDevice: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -30,17 +27,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int dataVersion; // @synthesize dataVersion=_dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy, nonatomic) NSString *eventName; // @synthesize eventName=_eventName;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *messageId; // @synthesize messageId=_messageId;
-@property(readonly, copy, nonatomic) NSDictionary *payload; // @synthesize payload=_payload;
-@property(readonly) Class superclass;
 
 @end
 

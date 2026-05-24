@@ -7,10 +7,6 @@
 @interface NewsUI2.PurchaseTransactionTracker
 {
     id tracker;
-    id channelDataFactory;
-    id articleDataFactory;
-    id headlineService;
-    id sanitizer;
 }
 
 @end

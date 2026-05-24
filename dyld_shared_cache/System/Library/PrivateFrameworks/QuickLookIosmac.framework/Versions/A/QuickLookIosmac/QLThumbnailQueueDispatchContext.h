@@ -11,17 +11,15 @@ __attribute__((visibility("hidden")))
 @interface QLThumbnailQueueDispatchContext
 {
     NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _completion;
 }
 
+- (void)time;
 - (void);
-- (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)(;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completion; // @synthesize completion=_completion;
 @property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

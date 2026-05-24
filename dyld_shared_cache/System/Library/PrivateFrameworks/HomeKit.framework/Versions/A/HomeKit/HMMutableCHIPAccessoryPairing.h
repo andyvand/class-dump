@@ -6,7 +6,7 @@
 
 #import <HomeKit/HMCHIPAccessoryPairing.h>
 
-@class HMCHIPHome, NSUUID;
+@class HMCHIPHome;
 
 @interface HMMutableCHIPAccessoryPairing : HMCHIPAccessoryPairing
 {
@@ -16,7 +16,6 @@
 
 // Remaining properties
 @property(copy) HMCHIPHome *home; // @dynamic home;
-@property(copy) NSUUID *systemCommissionerPairingUUID; // @dynamic systemCommissionerPairingUUID;
 
 @end
 

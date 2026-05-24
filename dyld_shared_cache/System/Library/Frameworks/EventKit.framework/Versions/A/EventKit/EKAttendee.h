@@ -6,24 +6,12 @@
 
 #import <EventKit/EKParticipant.h>
 
-@class NSDate;
-
 @interface EKAttendee : EKParticipant
 {
 }
 
 
 // Remaining properties
-@property(nonatomic) _Bool commentChanged;
-@property(readonly, nonatomic) NSDate *lastModifiedParticipationStatus;
-@property(nonatomic) long long participantRole;
-@property(nonatomic) long long participantStatus;
-@property(nonatomic) long long participantType;
-@property(nonatomic) long long pendingStatus;
-@property(nonatomic) _Bool proposedStartDateChanged;
-@property(nonatomic) int proposedStartDateStatus;
-@property(readonly, nonatomic) _Bool rsvpRequested;
-@property(nonatomic) _Bool statusChanged;
 @property(readonly, nonatomic) int statusRaw;
 @end
 

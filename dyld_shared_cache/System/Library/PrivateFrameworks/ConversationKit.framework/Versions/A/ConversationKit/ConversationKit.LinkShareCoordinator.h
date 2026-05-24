@@ -7,20 +7,14 @@
 @interface ConversationKit.LinkShareCoordinator
 {
     id delegate;
-    id originatingView;
-    id invalidateWhenCancelled;
-    id type;
-    id originatingViewOffset;
-    id sharingServicePicker;
-    id $__lazy_storage_$_isMailFirstParty;
 }
 
-- (id);
+- (id)I{;
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)tionNotice";
+- (id);
 - (void);
 
 @end

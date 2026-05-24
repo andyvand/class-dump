@@ -6,13 +6,12 @@
 
 #import <AppleMediaServicesUI/AMSUICommonView.h>
 
-@class NSProgressIndicator, NSTextField;
+@class NSProgressIndicator;
 
 __attribute__((visibility("hidden")))
 @interface AMSUILoadingView : AMSUICommonView
 {
     NSProgressIndicator *_activityIndicator;
-    NSTextField *_label;
 }
 
 - (void);
@@ -23,14 +22,13 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (void);
 - (void);
-- (id);
+- (id)C;
 - (id);
 - (void);
 - (void)updatePublishedObjects:toReferenceLayersInTree:ratherThanLayersInTree: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) NSProgressIndicator *activityIndicator; // @synthesize activityIndicator=_activityIndicator;
-@property(retain) NSTextField *label; // @synthesize label=_label;
 
 @end
 

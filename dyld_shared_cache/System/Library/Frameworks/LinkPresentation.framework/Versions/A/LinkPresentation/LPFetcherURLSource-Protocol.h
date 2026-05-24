@@ -7,6 +7,7 @@
 @class NSURL;
 
 @protocol LPFetcherURLSource
+- (NSURL *)volumeUUID;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *URL;

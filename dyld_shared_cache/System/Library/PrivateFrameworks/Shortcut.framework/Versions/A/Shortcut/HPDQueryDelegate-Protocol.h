@@ -5,5 +5,8 @@
 //
 
 @protocol HPDQueryDelegate
+
+@optional
+- (void)c;
 @end
 

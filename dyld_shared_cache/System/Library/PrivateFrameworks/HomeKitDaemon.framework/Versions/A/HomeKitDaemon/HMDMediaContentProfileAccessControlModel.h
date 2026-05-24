@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)grandfatherMothersFatherHindi;
 
 // Remaining properties
 @property(retain) NSArray *accessories; // @dynamic accessories;

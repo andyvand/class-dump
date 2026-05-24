@@ -6,21 +6,19 @@
 
 #import <PhotosGraph/PGGraphNodeCollection.h>
 
-@class NSDateInterval, NSDictionary, NSSet, NSString, PGGraphAddressNodeCollection, PGGraphBusinessNodeCollection, PGGraphDateNodeCollection, PGGraphEntityNetSceneNodeCollection, PGGraphFeatureNodeCollection, PGGraphFrequentLocationNodeCollection, PGGraphHighlightNodeCollection, PGGraphHolidayNodeCollection, PGGraphLocationCityNodeCollection, PGGraphMeaningNodeCollection, PGGraphMemoryNodeCollection, PGGraphMobilityNodeCollection, PGGraphPOINodeCollection, PGGraphPartOfWeekNodeCollection, PGGraphPersonNodeCollection, PGGraphPetNodeCollection, PGGraphPublicEventNodeCollection, PGGraphROINodeCollection, PGGraphSceneNodeCollection, PGGraphSocialGroupNodeCollection, PGGraphWeekdayNodeCollection, PGGraphWeekendNodeCollection;
-
 @interface PGGraphMomentNodeCollection : PGGraphNodeCollection
 {
 }
 
 + (id);
++ (id);
++ (id)[;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)q;
 + (id);
 + (id);
 + (id);
@@ -30,6 +28,7 @@
 - (id);
 - (id);
 - (id);
+- (id)tem/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage;
 - (id);
 - (id);
 - (id);
@@ -48,38 +47,37 @@
 - (id);
 - (id);
 - (id);
+- (id)ventTapManager"16^{__CGEvent=}24I32^{__CGEventTapProxy=}36;
+- (id)8@"AXEEventTapManager"16@"AXEMouseEvent"24^{__CGEvent=}32^{__CGEventTapProxy=}40;
+- (id)^{__CGEvent=}32^{__CGEventTapProxy=}40;
+- (id)setFocusChainLock: /* Error: Ran out of types for this method. */;
+- (id)setElementWindowRect: /* Error: Ran out of types for this method. */;
+- (id)selectedRangeWithinLineContent;
+- (id)replaceCharactersInRange:withString: /* Error: Ran out of types for this method. */;
+- (id)removeObserver:(id)arg1 selector:name:element:application: /* Error: Ran out of types for this method. */;
+- (id)previousNavigableResult;
+- (id)performAction: /* Error: Ran out of types for this method. */;
+- (id)numberWithFloat: /* Error: Ran out of types for this method. */;
+- (id)lineBreakTokenizerWithString:locale: /* Error: Ran out of types for this method. */;
+- (unsigned long long)addOperationWithBlock: /* Error: Ran out of types for this method. */;
+- (unsigned long long)addAttribute:value:range: /* Error: Ran out of types for this method. */;
+- (id)actionWithName:uiElement: /* Error: Ran out of types for this method. */;
+- (id)_totalCharacterCount:exceedsLimit: /* Error: Ran out of types for this method. */;
+- (id)_signalForElement:stringInserted:wordCompleted:editTracker: /* Error: Ran out of types for this method. */;
+- (id)_setDockProcessSwitcherListElementController: /* Error: Ran out of types for this method. */;
+- (id)_runningApplicationsDidChange:(unsigned long long)arg1;
+- (id)_roleDescriptionToExclude;
+- (id)_refreshKeyboardFocusedApplication:(double)arg1;
+- (id)_observerQueue;
+- (id)_navigationOrderChildControllersToIncludeInPromotedHierarchy;
+- (id)_mapIntoListsWithColumns:columnRanges:rowRanges: /* Error: Ran out of types for this method. */;
+- (id)_dockProcessSwitcherListSelectedElementChanged: /* Error: Ran out of types for this method. */;
+- (id)patch_queue>",&,N,V_syncQueue;
+- (id)atch_queue>",&,N,V__observerQueue;
+- (id)topLevelElement;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)9;
 - (_Bool);
 - (id);
 - (id);
@@ -122,82 +120,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) PGGraphAddressNodeCollection *addressNodes;
-@property(readonly, nonatomic) PGGraphMeaningNodeCollection *alternativeMeaningNodes;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *anniversaryPersonNodes;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *authorNodes;
-@property(readonly, nonatomic) PGGraphROINodeCollection *beachRoiNodes;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *birthdayPersonNodes;
-@property(readonly, nonatomic) PGGraphBusinessNodeCollection *businessNodes;
-@property(readonly, nonatomic) PGGraphHolidayNodeCollection *celebratedHolidayNodes;
-@property(readonly, nonatomic) PGGraphLocationCityNodeCollection *cityNodes;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *consolidatedPersonNodes;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *consolidatedPersonNodesPresentInAssets;
-@property(readonly, nonatomic) PGGraphDateNodeCollection *dateNodes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PGGraphFeatureNodeCollection *featureNodeCollection;
-@property(readonly, nonatomic) PGGraphFeatureNodeCollection *featureNodes;
-@property(readonly, nonatomic) PGGraphFrequentLocationNodeCollection *frequentLocationNodes;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PGGraphSceneNodeCollection *highConfidenceSceneNodes;
-@property(readonly, nonatomic) PGGraphHighlightNodeCollection *highlightNodes;
-@property(readonly, nonatomic) PGGraphPOINodeCollection *improvedPOINodes;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *interestingForMemoriesSubset;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *interestingSubset;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *interestingWithAlternateJunkingSubset;
-@property(readonly, nonatomic) NSDateInterval *localDateInterval;
-@property(readonly, nonatomic) NSSet *localIdentifiers;
-@property(readonly, nonatomic) NSSet *localStartDates;
-@property(readonly, nonatomic) PGGraphMeaningNodeCollection *meaningNodes;
-@property(readonly, nonatomic) PGGraphMemoryNodeCollection *memoryNodes;
-@property(readonly, nonatomic) PGGraphMobilityNodeCollection *mobilityNodes;
-@property(readonly, nonatomic) PGGraphROINodeCollection *mountainRoiNodes;
-@property(readonly, nonatomic) PGGraphROINodeCollection *natureRoiNodes;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *nextMomentNodes;
-@property(readonly) unsigned long long numberOfAssets;
-@property(readonly) NSDictionary *numberOfAssetsByMomentUUID;
-@property(readonly) unsigned long long numberOfAssetsInExtendedCuration;
-@property(readonly) unsigned long long numberOfAssetsWithPersons;
-@property(readonly, nonatomic) PGGraphPartOfWeekNodeCollection *partOfWeekNodes;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *personNodes;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *personNodesInProximity;
-@property(readonly, nonatomic) PGGraphPetNodeCollection *petNodes;
-@property(readonly, nonatomic) PGGraphPOINodeCollection *poiNodes;
-@property(readonly, nonatomic) PGGraphPOINodeCollection *poiNodesWithNonzeroConfidence;
-@property(readonly, nonatomic) PGGraphAddressNodeCollection *preciseAddressNodes;
-@property(readonly, nonatomic) PGGraphPersonNodeCollection *presentPersonNodes;
 @property(readonly, nonatomic) PGGraphMomentNodeCollection *previousMomentNodes;
-@property(readonly, nonatomic) PGGraphPublicEventNodeCollection *publicEventNodes;
-@property(readonly, nonatomic) PGGraphMeaningNodeCollection *reliableMeaningNodes;
-@property(readonly, nonatomic) PGGraphSceneNodeCollection *reliableSceneNodes;
-@property(readonly, nonatomic) PGGraphAddressNodeCollection *remoteAddressNodes;
-@property(readonly, nonatomic) PGGraphROINodeCollection *roiNodes;
-@property(readonly, nonatomic) PGGraphSceneNodeCollection *sceneNodes;
-@property(readonly, nonatomic) PGGraphEntityNetSceneNodeCollection *searchConfidenceEntityNetSceneNodes;
-@property(readonly, nonatomic) PGGraphSceneNodeCollection *searchConfidenceSceneNodes;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *smartInterestingSubset;
-@property(readonly, nonatomic) PGGraphSocialGroupNodeCollection *socialGroupNodes;
-@property(readonly, nonatomic) PGGraphPOINodeCollection *specialPOINodes;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *subsetHappeningAtSensitiveLocation;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *subsetWithBothPrivateAndSharedAssets;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *subsetWithOnlyPrivateAssets;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *subsetWithOnlySharedAssets;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *subsetWithPrivateAssets;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *subsetWithSharedAssets;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSDateInterval *universalDateInterval;
-@property(readonly, nonatomic) NSSet *universalDateIntervals;
-@property(readonly, nonatomic) NSSet *universalEndDates;
-@property(readonly, nonatomic) NSSet *universalStartDates;
-@property(readonly, nonatomic) PGGraphROINodeCollection *urbanRoiNodes;
-@property(readonly, nonatomic) NSSet *uuids;
-@property(readonly, nonatomic) PGGraphROINodeCollection *waterRoiNodes;
-@property(readonly, nonatomic) PGGraphWeekdayNodeCollection *weekdayNodes;
-@property(readonly, nonatomic) PGGraphWeekendNodeCollection *weekendNodes;
 
 @end
 

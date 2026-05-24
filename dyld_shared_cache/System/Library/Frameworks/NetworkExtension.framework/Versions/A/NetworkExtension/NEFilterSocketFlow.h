@@ -6,26 +6,15 @@
 
 #import <NetworkExtension/NEFilterFlow.h>
 
-@class NSObject, NSString, NSUUID, NWEndpoint;
+@class NSObject;
 @protocol OS_nw_endpoint;
 
 @interface NEFilterSocketFlow : NEFilterFlow
 {
     long long _generateIdentifierOnce;
-    int _socketFamily;
-    int _socketType;
-    int _socketProtocol;
-    NSObject<OS_nw_endpoint> *_remoteFlowEndpoint;
-    NSString *_remoteHostname;
-    NSObject<OS_nw_endpoint> *_localFlowEndpoint;
-    unsigned long long _socketID;
-    NSUUID *_socketUUID;
-    NSUUID *_uuid;
-    NSUUID *_euuid;
-    NSUUID *_ruuid;
 }
 
-+ (_Bool);
++ (_Bool)setPasswordManager: /* Error: Ran out of types for this method. */;
 - (int);
 - (int);
 - (void);
@@ -44,13 +33,13 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (int);
+- (int);
 - (id);
-- (id);
+- (id)ignature required for service:%d /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)_linkContexts;
 - (id);
 - (id);
 - (void);
@@ -58,17 +47,7 @@
 - (id)id;
 
 // Remaining properties
-@property(copy, nonatomic) NSUUID *euuid; // @synthesize euuid=_euuid;
-@property(readonly) NWEndpoint *localEndpoint;
 @property(copy) NSObject<OS_nw_endpoint> *localFlowEndpoint; // @synthesize localFlowEndpoint=_localFlowEndpoint;
-@property(readonly) NWEndpoint *remoteEndpoint;
-@property(copy) NSObject<OS_nw_endpoint> *remoteFlowEndpoint; // @synthesize remoteFlowEndpoint=_remoteFlowEndpoint;
-@property(copy) NSString *remoteHostname; // @synthesize remoteHostname=_remoteHostname;
-@property(copy, nonatomic) NSUUID *ruuid; // @synthesize ruuid=_ruuid;
-@property int socketFamily; // @synthesize socketFamily=_socketFamily;
-@property int socketProtocol; // @synthesize socketProtocol=_socketProtocol;
-@property int socketType; // @synthesize socketType=_socketType;
-@property(copy, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

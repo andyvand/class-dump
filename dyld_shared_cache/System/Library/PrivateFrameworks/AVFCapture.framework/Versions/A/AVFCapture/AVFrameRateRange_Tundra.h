@@ -14,8 +14,8 @@
 + (id);
 + (CDStruct_1b6d18a9);
 + (void);
-- (id);
-- (double);
+- (id)R,N,GisDebug,V_debug;
+- (double)ement;
 - (void);
 - (CDStruct_1b6d18a9);
 - (id);
@@ -26,9 +26,6 @@
 - (double);
 
 // Remaining properties
-@property(readonly) CDStruct_1b6d18a9 maxFrameDuration;
-@property(readonly) double maxFrameRate;
-@property(readonly) CDStruct_1b6d18a9 minFrameDuration;
 @property(readonly) double minFrameRate;
 
 @end

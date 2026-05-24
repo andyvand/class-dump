@@ -9,7 +9,6 @@
 @interface CSBluetoothWirelessSplitterMonitorImplDarwin : CSBluetoothWirelessSplitterMonitor
 {
     unsigned long long _splitterState;
-    _Bool _shouldDisableSpeakerVerificationInSplitterMode;
 }
 
 - (void);

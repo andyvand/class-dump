@@ -4,32 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, PLEntryNotificationOperatorComposition;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface PLTimer
 {
     _Bool _repeats;
-    NSDate *_fireDate;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _block;
-    NSObject<OS_dispatch_source> *_timer;
-    double _interval;
-    double _tolerance;
-    id _userInfo;
-    PLEntryNotificationOperatorComposition *_sleepEntryNotification;
-    PLEntryNotificationOperatorComposition *_wakeEntryNotification;
-    NSDate *_lastSleepTime;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
-- (double);
+- (id);
+- (double);
 - (void);
 - (void);
-- (void);
+- (void)parentalControlItem;
 - (id);
 - (void);
 - (void);
@@ -41,33 +31,23 @@
 - (double);
 - (void);
 - (id);
+- (void)B>32;
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)J
+;
+- (void)e;
 - (id);
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void);
+- (void)16;
+- (void));
 - (void)@(#)PROGRAM:(_Bool)arg1 PowerlogCore  PROJECT:powerlog-3031.121.1
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType block; // @synthesize block=_block;
-@property(retain, nonatomic) NSDate *fireDate; // @synthesize fireDate=_fireDate;
-@property double interval; // @synthesize interval=_interval;
-@property(retain) NSDate *lastSleepTime; // @synthesize lastSleepTime=_lastSleepTime;
 @property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property _Bool repeats; // @synthesize repeats=_repeats;
-@property(retain) PLEntryNotificationOperatorComposition *sleepEntryNotification; // @synthesize sleepEntryNotification=_sleepEntryNotification;
-@property(retain) NSObject<OS_dispatch_source> *timer; // @synthesize timer=_timer;
-@property(nonatomic) _Bool timerActive;
-@property double tolerance; // @synthesize tolerance=_tolerance;
-@property(retain) id userInfo; // @synthesize userInfo=_userInfo;
-@property(retain) PLEntryNotificationOperatorComposition *wakeEntryNotification; // @synthesize wakeEntryNotification=_wakeEntryNotification;
 
 @end
 

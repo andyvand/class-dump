@@ -7,6 +7,7 @@
 @class SXRenderingConfiguration;
 
 @protocol SXRenderingConfigurationProvider
+- (SXRenderingConfiguration *);
 
 // Remaining properties
 @property(readonly, nonatomic) SXRenderingConfiguration *configuration;

@@ -11,25 +11,16 @@
 @interface IKImageBrowserCoverFlowGrid : IKImageBrowserFloatingGroupGrid
 {
     NSEvent *_lastScrollEvent;
-    double _scrollVelocity;
-    float _scrollPosition;
-    float _scrollOffset;
-    id _reserved;
-    id _currentAnimation;
-    struct __CFDictionary *_indexToOrderedIndex;
-    struct __CFDictionary *_indexToVisibleIndex;
-    double _cachedOffset;
-    unsigned int _cachedOffsetValid:1;
 }
 
+- (double);
 - (double);
 - (double);
 - (double);
-- (double);
+- (void)#;
 - (void);
-- (void);
 - (double);
-- (int);
+- (int);
 - (float);
 - (void);
 - (void);
@@ -46,7 +37,7 @@
 - (id);
 - (id);
 - (int);
-- (void);
+- (void);
 - (struct CGSize);
 - (void);
 - (void);
@@ -56,18 +47,17 @@
 - (double);
 - (struct _NSRange);
 - (void);
+- (void)setStartTime:(double)arg1 endTime:forDay: /* Error: Ran out of types for this method. */;
+- (void)setStartHour:(double)arg1 startMinute:endHour:endMinute: /* Error: Ran out of types for this method. */;
+- (double)_appsRatingForcedToDoNotAllow;
 - (void);
-- (void);
-- (double);
-- (void);
-- (int);
+- (int)_identifyResourceURLs:outImageURL:outVideoURL:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (double);
 - (double)e;
-- (struct CGSize)mageBrowserCellSelectionLayer;
+- (struct CGSize)IKImageBrowserCellSelectionLayer;
 
 // Remaining properties
-@property double scrollOffset;
 @property double scrollPosition;
 
 @end

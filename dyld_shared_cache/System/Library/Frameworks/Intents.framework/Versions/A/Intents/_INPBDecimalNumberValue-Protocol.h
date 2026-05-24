@@ -7,18 +7,14 @@
 @class _INPBValueMetadata;
 
 @protocol _INPBDecimalNumberValue
+- (void)K;
+- (_Bool);
+- (void)	J?!;
 - (_Bool),C,V_endDate;
 - (void)ing image with identifier %@ over XPC in intents_helper;
 - (_INPBValueMetadata *)luating storage services %@ for image %@;
 
 // Remaining properties
 @property(nonatomic) int exponent;
-@property(nonatomic) _Bool hasExponent;
-@property(nonatomic) _Bool hasIsNegative;
-@property(nonatomic) _Bool hasMantissa;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(nonatomic) _Bool isNegative;
-@property(nonatomic) unsigned long long mantissa;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata;
 @end
 

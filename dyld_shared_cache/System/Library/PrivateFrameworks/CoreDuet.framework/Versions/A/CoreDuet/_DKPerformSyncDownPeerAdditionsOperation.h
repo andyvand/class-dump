@@ -6,31 +6,17 @@
 
 #import <CoreDuet/_DKSyncCompositeOperation.h>
 
-@class NSArray, NSDate, _DKSync2Policy, _DKSyncHistory, _DKSyncPeer, _DKSyncType;
-@protocol _DKKeyValueStore, _DKSyncLocalKnowledgeStorage, _DKSyncRemoteKnowledgeStorage;
+@protocol _DKSyncLocalKnowledgeStorage;
 
 @interface _DKPerformSyncDownPeerAdditionsOperation : _DKSyncCompositeOperation
 {
     id <_DKSyncLocalKnowledgeStorage> _localStorage;
-    id <_DKSyncRemoteKnowledgeStorage> _transport;
-    _DKSyncPeer *_peer;
-    _DKSync2Policy *_policy;
-    _DKSyncType *_type;
-    NSArray *_streamNames;
-    _Bool _highPriority;
-    _DKSyncHistory *_history;
-    id <_DKKeyValueStore> _keyValueStore;
-    NSDate *_startDate;
-    NSDate *_highWaterMark;
-    unsigned long long _batchNumber;
-    NSArray *_overlappingWindows;
-    _Bool _foundAdditions;
 }
 
 - (void);
+- (void)@;
 - (void);
-- (void);
-- (_Bool)lable;
+- (_Bool)next_day_prediction_not_available;
 
 @end
 

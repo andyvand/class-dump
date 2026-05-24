@@ -4,11 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotification, NSWindow;
+@class NSArray, NSNotification, NSWindow;
 
 @protocol NSWindowDelegate
 
 @optional
+- (void);
+- (NSArray *)	;
+- (void)t a vehicle that is not in the garage.;
+- (void)Vehicle displayedBatteryPercentage];
+- (void)f;
+- (void)0:(NSNotification *)arg1 8@"NSTableView"16@"NSArray"24;
+- (void)allowsMultipleSelection;
+- (void)P;
+- (void)t;
 - (void);
 - (void)opover",&,V_passwordPolicyPopover;
 - (_Bool)PÏ;

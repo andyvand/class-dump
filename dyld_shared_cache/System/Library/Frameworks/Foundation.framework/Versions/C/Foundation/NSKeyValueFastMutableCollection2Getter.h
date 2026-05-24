@@ -6,13 +6,12 @@
 
 #import <Foundation/NSKeyValueProxyGetter.h>
 
-@class NSKeyValueGetter, NSKeyValueMutatingCollectionMethodSet;
+@class NSKeyValueGetter;
 
 __attribute__((visibility("hidden")))
 @interface NSKeyValueFastMutableCollection2Getter : NSKeyValueProxyGetter
 {
     NSKeyValueGetter *_baseGetter;
-    NSKeyValueMutatingCollectionMethodSet *_mutatingMethods;
 }
 
 - (void);

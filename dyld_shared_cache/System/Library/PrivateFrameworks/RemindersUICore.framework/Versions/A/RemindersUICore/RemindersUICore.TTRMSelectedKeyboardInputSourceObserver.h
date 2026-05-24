@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRMSelectedKeyboardInputSourceObserver
 {
     id observer;
-    id passthroughSubject;
-    id selectedInputSourceLocaleChangePublisher;
 }
 
 @end

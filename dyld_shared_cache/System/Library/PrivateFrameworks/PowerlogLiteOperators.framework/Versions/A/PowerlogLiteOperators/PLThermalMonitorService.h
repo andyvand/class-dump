@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, PLEntryNotificationOperatorComposition, PLNSNotificationOperatorComposition, PLXPCResponderOperatorComposition;
+@class PLEntryNotificationOperatorComposition;
 
 @interface PLThermalMonitorService
 {
     PLEntryNotificationOperatorComposition *_smcNotification;
-    PLXPCResponderOperatorComposition *_sysdiagnoseResponder;
-    PLXPCResponderOperatorComposition *_powerHUDResponder;
-    PLNSNotificationOperatorComposition *_thermalNotification;
-    NSDate *_lastSMCThermalTrigger;
-    NSDate *_sustainedStartDate;
 }
 
 + (void)s;
@@ -26,25 +21,20 @@
 - (id);
 - (void);
 - (id);
+- (void)";
+- (id);
+- (id);
+- (id);
 - (void);
+- (void)лядунья;
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void)T@"NSNumber",&,V_avgPower;
 - (void)zeSlc(549):Cannot add 10 elements to context /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSDate *lastSMCThermalTrigger; // @synthesize lastSMCThermalTrigger=_lastSMCThermalTrigger;
-@property(retain) PLXPCResponderOperatorComposition *powerHUDResponder; // @synthesize powerHUDResponder=_powerHUDResponder;
 @property(retain) PLEntryNotificationOperatorComposition *smcNotification; // @synthesize smcNotification=_smcNotification;
-@property(retain) NSDate *sustainedStartDate; // @synthesize sustainedStartDate=_sustainedStartDate;
-@property(retain) PLXPCResponderOperatorComposition *sysdiagnoseResponder; // @synthesize sysdiagnoseResponder=_sysdiagnoseResponder;
-@property(retain) PLNSNotificationOperatorComposition *thermalNotification; // @synthesize thermalNotification=_thermalNotification;
 
 @end
 

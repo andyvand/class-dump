@@ -7,12 +7,6 @@
 @interface CalendarWidget.NarrowMultidayLayout.SingleDayViewModel.ConflictingEventsViewModel
 {
     id id;
-    id events;
-    id maxEventsToShow;
-    id conflictCountHeight;
-    id conflictEventTitleHeight;
-    id spacingBetweenEachSubview;
-    id conflictTimeHeight;
 }
 
 @end

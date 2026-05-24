@@ -4,9 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFFuture;
+@class EFFuture, EMObjectID;
 
 @protocol EMCollection
+- (EMObjectID *)CleanEnergyAutomationReducedEnergyLogEvent;
+- (_Bool);
+- (EFFuture *)B;
 
 // Remaining properties
 @property(readonly, nonatomic) EFFuture *allItemIDs;

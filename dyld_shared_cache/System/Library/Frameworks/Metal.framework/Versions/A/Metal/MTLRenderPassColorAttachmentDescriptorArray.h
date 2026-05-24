@@ -10,7 +10,7 @@
 
 + (id);
 - (id);
-- (void)tualAddress;
+- (void)_controlPointIndexBufferGPUVirtualAddress;
 - (id)JÌÿÿ;
 
 @end

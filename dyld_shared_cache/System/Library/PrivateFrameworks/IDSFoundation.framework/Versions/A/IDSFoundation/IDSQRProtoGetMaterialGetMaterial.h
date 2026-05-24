@@ -13,8 +13,9 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)unregisterForUSBPairingNotifications;
+- (void)%@
+;
 - (id);
 - (id);
 

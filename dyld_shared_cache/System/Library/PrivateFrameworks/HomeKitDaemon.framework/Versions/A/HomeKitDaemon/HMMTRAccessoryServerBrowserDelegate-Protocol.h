@@ -5,5 +5,6 @@
 //
 
 @protocol HMMTRAccessoryServerBrowserDelegate
+- (void)r Contacts;
 @end
 

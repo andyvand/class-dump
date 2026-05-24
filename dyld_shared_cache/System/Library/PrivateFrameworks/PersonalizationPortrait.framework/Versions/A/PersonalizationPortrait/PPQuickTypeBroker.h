@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PPClientFeedbackHelper, PPXPCClientHelper;
+@class NSString, PPXPCClientHelper;
 
 @interface PPQuickTypeBroker
 {
     PPXPCClientHelper *_clientHelper;
-    PPClientFeedbackHelper *_clientFeedbackHelper;
 }
 
-+ (id);
++ (id);
 - (void);
 - (id);
 - (void);

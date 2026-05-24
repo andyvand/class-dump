@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, PKCurrencyAmount;
+@class NSString;
 
 @interface PKPaymentOffersSessionTransactionDetails
 {
     NSString *_serviceIdentifier;
-    NSString *_paymentHash;
-    NSDate *_timestamp;
-    NSString *_merchantName;
-    PKCurrencyAmount *_currencyAmount;
-    NSString *_transactionSourceIdentifier;
 }
 
 + (_Bool)áW"ð!(Dùqî%Ð1Â0@ù
@@ -21,8 +16,8 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)H;
+- (void)(;
 - (id);
 - (void);
 - (id);
@@ -31,22 +26,17 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)setQbssSTACount:(id)arg1;
+- (void)AWDWiFiMetricsManagerWifidAvailability;
 - (void);
 - (id);
 - (id);
 - (void);
-- (id)ccountUserCollection: /* Error: Ran out of types for this method. */;
+- (id)_isEqualToAccountUserCollection: /* Error: Ran out of types for this method. */;
 - (void)tokenfetch;
 
 // Remaining properties
-@property(retain, nonatomic) PKCurrencyAmount *currencyAmount; // @synthesize currencyAmount=_currencyAmount;
-@property(copy, nonatomic) NSString *merchantName; // @synthesize merchantName=_merchantName;
-@property(copy, nonatomic) NSString *paymentHash; // @synthesize paymentHash=_paymentHash;
 @property(copy, nonatomic) NSString *serviceIdentifier; // @synthesize serviceIdentifier=_serviceIdentifier;
-@property(copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(retain, nonatomic) NSString *transactionSourceIdentifier; // @synthesize transactionSourceIdentifier=_transactionSourceIdentifier;
 
 @end
 

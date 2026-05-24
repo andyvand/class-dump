@@ -5,5 +5,6 @@
 //
 
 @protocol _NSModalWindowProtocol
+- (long long)AVAssetDownloadSessionMediaSelectionArrayKey;
 @end
 

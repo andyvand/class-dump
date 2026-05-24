@@ -9,14 +9,6 @@
 @interface HIDEventSystemClient
 {
     struct __IOHIDEventSystemClient *_client;
-    CDUnknownBlockType _eventHandler;
-    CDUnknownBlockType _resetHandler;
-    CDUnknownBlockType _filterHandler;
-    CDUnknownBlockType _serviceHandler;
-    CDUnknownBlockType _propertyChangedHandler;
-    CDUnknownBlockType _cancelHandler;
-    _Bool _activated;
-    struct os_unfair_recursive_lock_s _handlerLock;
 }
 
 - (id);
@@ -32,12 +24,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)h;
 - (id);
-- (id);
+- (id)ErrorMoveCopyFailed;
 - (void);
-- (void);
+- (void)"16@"NSDictionary"24;
 
 // Remaining properties
 @property(readonly) NSArray *services;

@@ -7,32 +7,6 @@
 @interface SiriOntology.Com_Apple_Siri_Product_Proto_MatchingSpan._StorageClass__priv_FC4EE5074104C85BFB570AF81C8E8EC6
 {
     id _label;
-    id _serializedValue;
-    id _input;
-    id _matchedTerm;
-    id _prefix;
-    id _suffix;
-    id _start;
-    id _end;
-    id _startWithoutPrefix;
-    id _endWithoutSuffix;
-    id _confidence;
-    id _prefixSuffixConfidence;
-    id _explicit;
-    id _isSuffixVariableMatch;
-    id _isPrefixVariableMatch;
-    id _isPayloadVariableMatch;
-    id _locale;
-    id _numWords;
-    id _matchType;
-    id _appID;
-    id _matcherNames;
-    id _tags;
-    id _altInterpretationConfidences;
-    id _altInterpretationPhoneSequences;
-    id _metadata;
-    id _preItnphrasesStartTime;
-    id _preItnphrasesEndTime;
 }
 
 @end

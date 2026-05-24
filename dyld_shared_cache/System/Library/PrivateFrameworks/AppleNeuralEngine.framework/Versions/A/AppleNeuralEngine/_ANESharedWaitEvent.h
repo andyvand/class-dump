@@ -9,16 +9,14 @@
 @interface _ANESharedWaitEvent
 {
     unsigned long long _value;
-    unsigned long long _eventType;
-    IOSurfaceSharedEvent *_sharedEvent;
 }
 
 + (id);
-+ (id);
++ (id)ntSnapshot";
 + (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
@@ -26,9 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long eventType; // @synthesize eventType=_eventType;
 @property(readonly, nonatomic) IOSurfaceSharedEvent *sharedEvent; // @synthesize sharedEvent=_sharedEvent;
-@property(nonatomic) unsigned long long value; // @synthesize value=_value;
 
 @end
 

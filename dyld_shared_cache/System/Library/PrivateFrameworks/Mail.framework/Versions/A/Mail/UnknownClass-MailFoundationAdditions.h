@@ -7,7 +7,7 @@
 @class NSString;
 
 @interface UnknownClass (MailFoundationAdditions)
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *completePath;

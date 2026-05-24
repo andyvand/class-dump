@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface RMManagedDevice
 {
 }
@@ -15,15 +13,12 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)p;
 - (_Bool);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isMDMEnrolled;
-@property(readonly, nonatomic) _Bool isSharediPad;
 @property(readonly, nonatomic) _Bool isSupervised;
-@property(readonly, nonatomic) NSString *mdmProfileIdentifier;
 
 @end
 

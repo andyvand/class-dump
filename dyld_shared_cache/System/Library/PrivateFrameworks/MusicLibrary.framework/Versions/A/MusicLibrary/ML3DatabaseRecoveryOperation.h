@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
+@class NSString;
 
 @interface ML3DatabaseRecoveryOperation
 {
     NSString *_path;
-    NSError *_error;
 }
 
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)V_isContinuation;
+- (void)ber;
+- (void)memoriesForDuetDelete;
+- (id)analyzeAssets:forFeature:reply: /* Error: Ran out of types for this method. */;
+- (id)&,N,V_moc;
 - (id);
 - (void);
 - (id);
 - (void)n (container_item_reaction_pid, container_item_pid, person_pid, reaction, date) VALUES (?, ?, ?, ?, ?);
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) NSString *path; // @synthesize path=_path;
 
 @end

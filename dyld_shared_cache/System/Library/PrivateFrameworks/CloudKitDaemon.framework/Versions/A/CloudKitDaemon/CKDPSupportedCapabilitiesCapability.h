@@ -4,39 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface CKDPSupportedCapabilitiesCapability
 {
     NSString *_key;
-    NSMutableArray *_values;
 }
 
 + (Class);
-- (id);
+- (id);
 - (void);
 - (id);
 - (unsigned long long);
+- (void)?;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)seObjectRef, Boolean);
 - (_Bool);
-- (id);
+- (id)TileMO removeAllTilesInMOC:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
+- (void);
 - (void);
-- (void);
+- (id)D;
 - (id);
 - (id);
-- (id);
-- (_Bool)xpires: /* Error: Ran out of types for this method. */;
-- (void)lockedFetchesAreReady;
+- (_Bool)setHasExpires: /* Error: Ran out of types for this method. */;
+- (void)_lockedFetchesAreReady;
 - (void)¸;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasKey;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSMutableArray *values; // @synthesize values=_values;
 
 @end
 

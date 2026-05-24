@@ -6,7 +6,6 @@
 
 #import <UIKitCore/_UISearchBarLayoutBase.h>
 
-@class UIBarButtonItem, UIImageView, UISearchBarTextField, UIView;
 @protocol _UISearchBarContainerSublayoutDelegate;
 
 __attribute__((visibility("hidden")))
@@ -27,49 +26,16 @@ __attribute__((visibility("hidden")))
         unsigned int searchFieldRespectsReadableWidth:1;
         unsigned int searchFieldWidthIsReduced:1;
     } _searchContainerLayoutFlags;
-    double _searchFieldForegroundFadeAlpha;
-    double _searchFieldBackgroundFadeAlpha;
-    id <_UISearchBarContainerSublayoutDelegate> _delegate;
-    double _defaultMinimumWidth;
-    double _defaultInactiveWidth;
-    double _defaultActiveWidth;
-    double _overrideInactiveWidth;
-    double _overrideActiveWidth;
-    UISearchBarTextField *_searchField;
-    UIImageView *_floatingSearchIconView;
-    UIView *_floatingSearchIconBackgroundView;
-    UIView *_cancelButton;
-    UIView *_deleteButton;
-    UIView *_leftButton;
-    double _searchBarReadableWidth;
-    UIBarButtonItem *_searchIconBarButtonItem;
-    long long _representedLayoutState;
-    double _searchBarFieldHeight;
-    double _floatingSearchIconAlpha;
-    double _floatingSearchIconBackgroundAlpha;
-    double _mainContentAlpha;
-    CDUnknownBlockType _delegateSearchFieldFrameForProposedFrame;
-    CDUnknownBlockType _layoutCustomizationDelegateSearchFieldContainerWillLayoutSubviewsCallback;
-    double _additionalPaddingForCancelButtonAtLeadingEdge;
-    double _additionalPaddingForSearchFieldAtLeadingEdge;
-    struct UIOffset _searchFieldBackgroundPositionAdjustment;
-    struct CGRect _searchFieldLayoutFrame;
-    struct CGRect _cancelButtonLayoutFrame;
-    struct CGRect _deleteButtonLayoutFrame;
-    struct CGRect _leftButtonLayoutFrame;
-    struct CGRect _visibleCancelButtonSearchFieldLayoutFrame;
-    struct CGRect _floatingSearchIconLayoutFrame;
-    struct CGRect _floatingSearchIconBackgroundLayoutFrame;
 }
 
 - (double);
-- (void);
+- (void)K;
 - (struct CGRect);
 - (_Bool);
 - (struct CGRect);
 - (void);
 - (_Bool);
-- (void);
+- (void)ithRatingTVShows:(long long)arg1 withAllowExplicitContent:withAllowShowingUndownloadedTV:withAllowShowingUndownloadedMovies: /* Error: Ran out of types for this method. */;
 - (double);
 - (double);
 - (void);
@@ -79,7 +45,7 @@ __attribute__((visibility("hidden")))
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (double);
+- (double)m;
 - (double);
 - (_Bool);
 - (struct CGRect);
@@ -100,20 +66,20 @@ __attribute__((visibility("hidden")))
 - (void)8@?16Q24Q32;
 - (struct CGRect)ViewController"16@"UIViewController"24@"UIViewController"32q40;
 - (_Bool)@"UISearchController"16B24;
-- (struct CGRect)atusBarHiddenForInterfaceOrientation:onDisplay:withUserInterfaceIdiom: /* Error: Ran out of types for this method. */;
+- (struct CGRect)statusBarHiddenForInterfaceOrientation:onDisplay:withUserInterfaceIdiom: /* Error: Ran out of types for this method. */;
 - (void)setNeedsInputModeSwitchKey:(id)arg1;
-- (_Bool)eyplane: /* Error: Ran out of types for this method. */;
-- (struct CGRect)inator: /* Error: Ran out of types for this method. */;
-- (struct CGRect)moveAllItems;
-- (void)ColorSettings;
-- (double)ewControllers:validRange: /* Error: Ran out of types for this method. */;
-- (void)ntentSizeCategoryChange;
-- (_Bool)ionNavigationBar:hidden:edge:center:offset: /* Error: Ran out of types for this method. */;
-- (double)tivity;
-- (void)sUpOrDown;
-- (_Bool)rchIconBackgroundAlpha;
-- (void)rStateIfNeeded:(_Bool)arg1;
-- (id)ionToDeputyFromHostObject:(struct _NSZone *)arg1 replyHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)setImage:cachedWidth:keyplane: /* Error: Ran out of types for this method. */;
+- (struct CGRect)runAlongsideTransitionToPresentationController:transitionCoordinator: /* Error: Ran out of types for this method. */;
+- (struct CGRect)removeAllItems;
+- (void)computesColorSettings;
+- (double)_validatedViewControllersForPresentationOfViewControllers:validRange: /* Error: Ran out of types for this method. */;
+- (void)_updateForPreferredContentSizeCategoryChange;
+- (_Bool)_positionNavigationBar:hidden:edge:center:offset: /* Error: Ran out of types for this method. */;
+- (double)_pendingTransitionActivity;
+- (void)_layoutArrowRimShadowViewsUpOrDown;
+- (_Bool)_floatingSearchIconBackgroundAlpha;
+- (void)_actuateFeedbackForStateIfNeeded:(_Bool)arg1;
+- (id)__prototype_requestConnectionToDeputyFromHostObject:(struct _NSZone *)arg1 replyHandler: /* Error: Ran out of types for this method. */;
 - (void)apiVersion;
 - (void)Ð´;
 - (double)L;
@@ -121,12 +87,12 @@ __attribute__((visibility("hidden")))
 - (double)hit tested that had no children. This indicates UIKit is not properly cleaning up the container view. tableView:%@; responder chain:%@ /* Error: Ran out of types for this method. */;
 - (void)k expired while clearing all WebKit geolocation policy caches.;
 - (struct UIOffset)llers (%ld) for split view controller '%@'. Expected at least %ld view controllers to be present, to perform a push segue for index %ld.;
-- (id)ISplitViewControllerPreferredDisplayMode;
+- (id)UISplitViewControllerPreferredDisplayMode;
 - (id)on"24@?0q8@"<NSCollectionLayoutEnvironment>"16;
 - (void)SString *getAFUIAutoFillPossibleRespondersKey(void);
 - (_Bool)already deferred invalidation context. Collection View:%@, Layout:%@ /* Error: Ran out of types for this method. */;
 - (double)ndler.m;
-- (_Bool)rSceneContextSystemShellHostingSpaceIdentifier;
+- (_Bool)_UIRemoteViewControllerSceneContextSystemShellHostingSpaceIdentifier;
 - (id)filters.glassBackground.inputRefractionOpacity;
 - (void);
 - (double);
@@ -138,10 +104,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)Ýq13=Þ;
 - (long long);
-- (void)temProtectionDidChangeMessage;
+- (void)SystemProtectionDidChangeMessage;
 - (void);
-- (id)edEffectHandle;
-- (double)PointerShape;
+- (id)SharedEffectHandle;
+- (double)UIPointerShape;
 - (id);
 - (void);
 - (double)743wþ;
@@ -162,54 +128,7 @@ __attribute__((visibility("hidden")))
 - (void)ÀKÊÿq;
 
 // Remaining properties
-@property(nonatomic) double additionalPaddingForCancelButtonAtLeadingEdge; // @synthesize additionalPaddingForCancelButtonAtLeadingEdge=_additionalPaddingForCancelButtonAtLeadingEdge;
-@property(nonatomic) double additionalPaddingForSearchFieldAtLeadingEdge; // @synthesize additionalPaddingForSearchFieldAtLeadingEdge=_additionalPaddingForSearchFieldAtLeadingEdge;
-@property(nonatomic) _Bool allowSearchFieldShrinkage;
-@property(retain, nonatomic) UIView *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(readonly, nonatomic) struct CGRect cancelButtonLayoutFrame; // @synthesize cancelButtonLayoutFrame=_cancelButtonLayoutFrame;
-@property(nonatomic) double defaultActiveWidth; // @synthesize defaultActiveWidth=_defaultActiveWidth;
-@property(nonatomic) double defaultInactiveWidth; // @synthesize defaultInactiveWidth=_defaultInactiveWidth;
-@property(nonatomic) double defaultMinimumWidth; // @synthesize defaultMinimumWidth=_defaultMinimumWidth;
 @property(nonatomic) __weak id <_UISearchBarContainerSublayoutDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) CDUnknownBlockType delegateSearchFieldFrameForProposedFrame; // @synthesize delegateSearchFieldFrameForProposedFrame=_delegateSearchFieldFrameForProposedFrame;
-@property(retain, nonatomic) UIView *deleteButton; // @synthesize deleteButton=_deleteButton;
-@property(readonly, nonatomic) struct CGRect deleteButtonLayoutFrame; // @synthesize deleteButtonLayoutFrame=_deleteButtonLayoutFrame;
-@property(nonatomic) _Bool drawsSearchIconOnly;
-@property(readonly, nonatomic) double floatingSearchIconAlpha; // @synthesize floatingSearchIconAlpha=_floatingSearchIconAlpha;
-@property(readonly, nonatomic) double floatingSearchIconBackgroundAlpha; // @synthesize floatingSearchIconBackgroundAlpha=_floatingSearchIconBackgroundAlpha;
-@property(readonly, nonatomic) struct CGRect floatingSearchIconBackgroundLayoutFrame; // @synthesize floatingSearchIconBackgroundLayoutFrame=_floatingSearchIconBackgroundLayoutFrame;
-@property(retain, nonatomic) UIView *floatingSearchIconBackgroundView; // @synthesize floatingSearchIconBackgroundView=_floatingSearchIconBackgroundView;
-@property(readonly, nonatomic) struct CGRect floatingSearchIconLayoutFrame; // @synthesize floatingSearchIconLayoutFrame=_floatingSearchIconLayoutFrame;
-@property(retain, nonatomic) UIImageView *floatingSearchIconView; // @synthesize floatingSearchIconView=_floatingSearchIconView;
-@property(nonatomic) _Bool hasCancelButton;
-@property(nonatomic) _Bool hasDeleteButton;
-@property(nonatomic) _Bool hasFloatingSearchIconBackgroundView;
-@property(nonatomic) _Bool hasLeftButton;
-@property(nonatomic, getter=isHostedInlineByNavigationBar) _Bool hostedInlineByNavigationBar;
-@property(nonatomic, getter=isHostedInlineByToolbar) _Bool hostedInlineByToolbar;
-@property(readonly, nonatomic) double idealWidth;
-@property(copy, nonatomic) CDUnknownBlockType layoutCustomizationDelegateSearchFieldContainerWillLayoutSubviewsCallback; // @synthesize layoutCustomizationDelegateSearchFieldContainerWillLayoutSubviewsCallback=_layoutCustomizationDelegateSearchFieldContainerWillLayoutSubviewsCallback;
-@property(retain, nonatomic) UIView *leftButton; // @synthesize leftButton=_leftButton;
-@property(readonly, nonatomic) struct CGRect leftButtonLayoutFrame; // @synthesize leftButtonLayoutFrame=_leftButtonLayoutFrame;
-@property(readonly, nonatomic) double mainContentAlpha; // @synthesize mainContentAlpha=_mainContentAlpha;
-@property(readonly, nonatomic) double naturalContainerHeight;
-@property(readonly, nonatomic) double naturalSearchFieldHeight;
-@property(nonatomic) double overrideActiveWidth; // @synthesize overrideActiveWidth=_overrideActiveWidth;
-@property(nonatomic) double overrideInactiveWidth; // @synthesize overrideInactiveWidth=_overrideInactiveWidth;
-@property(readonly, nonatomic) double prescribedWidth;
-@property(nonatomic) long long representedLayoutState; // @synthesize representedLayoutState=_representedLayoutState;
-@property(nonatomic) double searchBarFieldHeight; // @synthesize searchBarFieldHeight=_searchBarFieldHeight;
-@property(nonatomic) double searchBarReadableWidth; // @synthesize searchBarReadableWidth=_searchBarReadableWidth;
-@property(retain, nonatomic) UISearchBarTextField *searchField; // @synthesize searchField=_searchField;
-@property(nonatomic) struct UIOffset searchFieldBackgroundPositionAdjustment; // @synthesize searchFieldBackgroundPositionAdjustment=_searchFieldBackgroundPositionAdjustment;
-@property(nonatomic) _Bool searchFieldEffectivelySupportsDynamicType;
-@property(readonly, nonatomic) struct CGRect searchFieldLayoutFrame; // @synthesize searchFieldLayoutFrame=_searchFieldLayoutFrame;
-@property(nonatomic) _Bool searchFieldRespectsReadableWidth;
-@property(nonatomic) _Bool searchFieldUsesCustomBackgroundImage;
-@property(readonly, nonatomic) _Bool searchFieldWidthIsReduced;
-@property(retain, nonatomic) UIBarButtonItem *searchIconBarButtonItem; // @synthesize searchIconBarButtonItem=_searchIconBarButtonItem;
-@property(nonatomic, getter=isTextFieldManagedInNSToolbar) _Bool textFieldManagedInNSToolbar;
-@property(readonly, nonatomic) struct CGRect visibleCancelButtonSearchFieldLayoutFrame; // @synthesize visibleCancelButtonSearchFieldLayoutFrame=_visibleCancelButtonSearchFieldLayoutFrame;
 
 @end
 

@@ -13,18 +13,18 @@ __attribute__((visibility("hidden")))
 
 - (int);
 - (struct CGSize);
-- (_Bool);
+- (_Bool);
 - (void);
 - (struct NSEdgeInsets);
 - (struct CGRect);
-- (struct NSEdgeInsets);
+- (struct NSEdgeInsets)!;
 - (struct CGRect);
-- (id);
-- (id);
-- (id);
-- (id);
-- (double);
-- (id);
+- (id)dependencyTreeDefaultWeb;
+- (id)deletesFileUponFailure;
+- (id)decodeInt64ForKey:(CDStruct_6f593a28)arg1;
+- (id)_dataTaskWithURL:delegate:completionHandler: /* Error: Ran out of types for this method. */;
+- (double)_dataTaskWithURL:delegate:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_daemon_discretionary;
 
 @end
 

@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface IMPowerAssertion
 {
     unsigned int _assertion;
-    NSString *_identifier;
-    NSDictionary *_properties;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Rc;
 - (void);
 
 @end

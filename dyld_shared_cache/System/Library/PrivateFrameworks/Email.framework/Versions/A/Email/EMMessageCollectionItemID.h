@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface EMMessageCollectionItemID
 {
     long long _globalMessageID;
@@ -18,20 +16,13 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)registerConcernedRemindersParty:(id)arg1 withChangedBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long globalMessageID; // @synthesize globalMessageID=_globalMessageID;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

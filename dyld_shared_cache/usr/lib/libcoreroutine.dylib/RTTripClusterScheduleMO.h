@@ -12,13 +12,11 @@
 {
 }
 
-+ (id);
-+ (id);
++ (id)_PCSKeyData}^{__CFData}^{_PCSKeyData}^{__CFDictionary}II{PCSAttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16@0:(id)arg1 8;
++ (id)annelDataConnectionForH2:cancelled /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *clusterID; // @dynamic clusterID;
-@property(nonatomic) unsigned short count; // @dynamic count;
-@property(nonatomic) unsigned short timeID; // @dynamic timeID;
 
 @end
 

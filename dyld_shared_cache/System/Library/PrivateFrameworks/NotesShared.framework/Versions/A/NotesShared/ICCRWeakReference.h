@@ -4,24 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCRDocument, NSString, NSUUID;
+@class ICCRDocument, NSUUID;
 
 @interface ICCRWeakReference
 {
     NSUUID *_identifier;
-    ICCRDocument *_document;
 }
 
-- (id);
-- (id);
+- (id)setDownloader:(id)arg1;
+- (id)remoteObjectProxy;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -31,16 +30,7 @@
 - (void)awing set image up-to-date;
 
 // Remaining properties
-@property(readonly, nonatomic) id contents;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) __weak ICCRDocument *document; // @synthesize document=_document;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

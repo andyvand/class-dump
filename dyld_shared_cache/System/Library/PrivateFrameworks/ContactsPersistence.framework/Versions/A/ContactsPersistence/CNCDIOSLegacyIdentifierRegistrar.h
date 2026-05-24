@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCDIOSLegacyIdentifierRegistrarState, CNUnfairLock, NSString;
-@protocol CNCDIOSLegacyIdentifierRegistrarPersistence;
+@class CNCDIOSLegacyIdentifierRegistrarState;
 
 @interface CNCDIOSLegacyIdentifierRegistrar
 {
     CNCDIOSLegacyIdentifierRegistrarState *_state;
-    id <CNCDIOSLegacyIdentifierRegistrarPersistence> _persistence;
-    CNUnfairLock *_lock;
 }
 
++ (id)a;
 + (id);
-+ (id);
 - (id);
 - (id);
-- (id);
+- (id)String, Number, Date, Boolean.;
 - (void);
 - (void);
 - (id);
@@ -28,17 +25,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CNUnfairLock *lock; // @synthesize lock=_lock;
-@property(readonly, nonatomic) NSString *namespaceIdentifier;
-@property(retain, nonatomic) id <CNCDIOSLegacyIdentifierRegistrarPersistence> persistence; // @synthesize persistence=_persistence;
 @property(retain, nonatomic) CNCDIOSLegacyIdentifierRegistrarState *state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

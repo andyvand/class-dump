@@ -6,23 +6,11 @@
 
 #import <AppKit/NSView.h>
 
-@class NSAutounbinder, NSImageView, NSTextField, NSTintConfiguration;
+@class NSAutounbinder;
 
 @interface NSTableCellView : NSView
 {
     NSAutounbinder *_autounbinder;
-    NSTextField *_textField;
-    NSImageView *_imageView;
-    id _objectValue;
-    NSTintConfiguration *_tintConfiguration;
-    long long _rowSizeStyle;
-    long long _backgroundStyle;
-    struct {
-        unsigned int doingLayout:1;
-        unsigned int isGroupRow:1;
-        unsigned int isSourceList:1;
-        unsigned int followsKeyState:1;
-    } _cellFlags;
 }
 
 @end

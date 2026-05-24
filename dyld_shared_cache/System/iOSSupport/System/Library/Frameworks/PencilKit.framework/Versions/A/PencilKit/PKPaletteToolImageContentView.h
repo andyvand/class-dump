@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIImageView, UIView;
+@class UIImageView;
 
 @interface PKPaletteToolImageContentView
 {
     _Bool _selected;
-    UIImageView *_imageView;
-    UIView *_selectedView;
 }
 
 - (void);
@@ -19,13 +17,11 @@
 - (id);
 - (id);
 - (void);
-- (void)PopoverUpdating;
+- (void)PKPalettePopoverUpdating;
 - (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(nonatomic) _Bool selected; // @synthesize selected=_selected;
-@property(retain, nonatomic) UIView *selectedView; // @synthesize selectedView=_selectedView;
 
 @end
 

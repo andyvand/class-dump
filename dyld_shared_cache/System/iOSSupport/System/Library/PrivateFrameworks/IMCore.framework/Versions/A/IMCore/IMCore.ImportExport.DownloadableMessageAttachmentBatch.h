@@ -7,9 +7,6 @@
 @interface IMCore.ImportExport.DownloadableMessageAttachmentBatch
 {
     id exportOptions;
-    id messageAttachmentPairs;
-    id exportStatistics;
-    id progress;
 }
 
 @end

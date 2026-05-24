@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, PGCurationManager, PGGraph, PGMemoryGenerationContext, PHPhotoLibrary;
-@protocol OS_os_log;
+@class PGGraph, PHPhotoLibrary;
 
 @interface PGMemoryController
 {
     PGGraph *_graph;
-    NSMutableDictionary *_momentsByMomentIDs;
-    PHPhotoLibrary *_photoLibrary;
-    PGCurationManager *_curationManager;
-    PGMemoryGenerationContext *_memoryGenerationContext;
-    NSObject<OS_os_log> *_loggingConnection;
 }
 
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)};
+- (id)_inlineSessionString;
 - (id);
 - (id);
 - (void)e Enrichment Profile;
-- (id)urHundredMeters;
+- (id)twentyFourHundredMeters;
 - (id)ÿ;
 - (id);
 
 // Remaining properties
-@property(readonly) PGCurationManager *curationManager; // @synthesize curationManager=_curationManager;
-@property(readonly) NSObject<OS_os_log> *loggingConnection; // @synthesize loggingConnection=_loggingConnection;
-@property(retain, nonatomic) PGMemoryGenerationContext *memoryGenerationContext; // @synthesize memoryGenerationContext=_memoryGenerationContext;
 @property(readonly) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
 
 @end

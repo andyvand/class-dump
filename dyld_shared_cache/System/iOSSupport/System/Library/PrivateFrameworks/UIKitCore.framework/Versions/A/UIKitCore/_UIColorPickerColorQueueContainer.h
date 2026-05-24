@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor;
+@class UIColor;
 
 __attribute__((visibility("hidden")))
 @interface _UIColorPickerColorQueueContainer
 {
     _Bool _isVolatile;
-    UIColor *_color;
-    NSString *_colorSpace;
 }
 
-- (void);
-- (id);
+- (void)setUnformattedNumber:(_Bool)arg1;
+- (id)`b;
 - (id)emMenuConfiguration"32@0:8@"_UITextInteractableItem"16@"UIMenu"24 /* Error: Ran out of types for this method. */;
-- (void)WithConfiguration:(id)arg1 selectedFonts: /* Error: Ran out of types for this method. */;
+- (void)_presentFontPickerWithConfiguration:(id)arg1 selectedFonts: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool)çéÿúØa;
 
 // Remaining properties
 @property(retain, nonatomic) UIColor *color; // @synthesize color=_color;
-@property(retain, nonatomic) NSString *colorSpace; // @synthesize colorSpace=_colorSpace;
-@property(nonatomic) _Bool isVolatile; // @synthesize isVolatile=_isVolatile;
 
 @end
 

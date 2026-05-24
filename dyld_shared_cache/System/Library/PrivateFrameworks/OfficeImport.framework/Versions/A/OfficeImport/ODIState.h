@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, OADDrawingTheme, OADGroup, OADOrientedBounds, OADShapeStyle, ODDDiagram;
+@class ODDDiagram;
 
 __attribute__((visibility("hidden")))
 @interface ODIState
 {
     ODDDiagram *mDiagram;
-    OADOrientedBounds *mDiagramOrientedBounds;
-    struct CGRect mLogicalBounds;
-    double mScale;
-    OADGroup *mGroup;
-    NSMutableArray *mPresentationNames;
-    NSMutableArray *mDefaultStyleLabelNames;
-    int mPointCount;
-    int mPointIndex;
-    OADShapeStyle *mTextStyle;
-    OADDrawingTheme *mDrawingTheme;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (struct CGRect);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)_;
 - (void);
 - (void);
 - (int);

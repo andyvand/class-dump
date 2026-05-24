@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (id);
+- (id)externalURI;
 - (void)8;
 
 // Remaining properties

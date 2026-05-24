@@ -7,7 +7,6 @@
 @interface PhotosUICore.PXVideoFormatMetadata
 {
     unsigned long long videoHDRType;
-    _Bool isProResLog;
 }
 
 - (unsigned long long);
@@ -15,7 +14,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool isProResLog; // @synthesize isProResLog;
 @property(nonatomic, readonly) unsigned long long videoHDRType; // @synthesize videoHDRType;
 
 @end

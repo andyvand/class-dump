@@ -7,14 +7,12 @@
 @interface IKAnimationData
 {
     id _initialValue;
-    id _finalValue;
-    id _currentValue;
 }
 
 - (void);
-- (id);
+- (id)compareByPosition: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)PHQueryForAssetCollectionType_ImportSession_block_invoke_113;
 - (void);
 - (id);
 - (void);

@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBContact;
+@class NSString, _INPBContact;
 
 @protocol _INPBEventParticipant
-- (void)icValue:(_Bool)arg1 boundedValue:binaryValue:labeledValue: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (_Bool)setUIDelegate: /* Error: Ran out of types for this method. */;
+- (NSString *);
+- (_INPBContact *)6;
+- (void)initWithSettingMetadata:(_Bool)arg1 numericValue:boundedValue:binaryValue:labeledValue: /* Error: Ran out of types for this method. */;
 - (void)sambiguation",&,N,V_payloadNeedsDisambiguation;
-- (int);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsEventOrganizer;
-@property(nonatomic) _Bool hasIsUser;
-@property(readonly, nonatomic) _Bool hasPerson;
-@property(nonatomic) _Bool hasStatus;
 @property(nonatomic) _Bool isEventOrganizer;
-@property(nonatomic) _Bool isUser;
-@property(retain, nonatomic) _INPBContact *person;
-@property(nonatomic) int status;
 @end
 

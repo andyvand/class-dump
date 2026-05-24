@@ -6,20 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PSESchemaPSEAppIntentInteractionEngagement, PSESchemaPSECommonSignal;
+@class PSESchemaPSECommonSignal;
 
 @interface PSESchemaPSEAppIntentSignalGenerated : SISchemaInstrumentationMessage
 {
     PSESchemaPSECommonSignal *_commonSignal;
-    PSESchemaPSEAppIntentInteractionEngagement *_engagementSignal;
-    _Bool _hasCommonSignal;
-    _Bool _hasEngagementSignal;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -29,21 +26,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDJobManagerOptions_macOS.m:40 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)executing:(id)arg1 deleting chat with ROWID %ld;
 - (id);
 - (id);
-- (id)echId;
+- (id)_speechId;
 - (id)hadowLogging;
-- (void)TE_TUNE_FROM_SPORTS;
+- (void)FLOWSTATETYPE_PLAY_REMOTE_TUNE_FROM_SPORTS;
 
 // Remaining properties
 @property(retain, nonatomic) PSESchemaPSECommonSignal *commonSignal; // @synthesize commonSignal=_commonSignal;
-@property(retain, nonatomic) PSESchemaPSEAppIntentInteractionEngagement *engagementSignal; // @synthesize engagementSignal=_engagementSignal;
-@property(nonatomic) _Bool hasCommonSignal; // @synthesize hasCommonSignal=_hasCommonSignal;
-@property(nonatomic) _Bool hasEngagementSignal; // @synthesize hasEngagementSignal=_hasEngagementSignal;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

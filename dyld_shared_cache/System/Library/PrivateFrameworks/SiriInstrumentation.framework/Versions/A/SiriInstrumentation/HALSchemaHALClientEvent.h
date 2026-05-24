@@ -6,27 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class HALSchemaHALClientEventMetadata, HALSchemaHALCompanionDeviceCommunicationContext, HALSchemaHALCompanionDeviceDiscoveryContext, HALSchemaHALContextCollectorFetchContext, HALSchemaHALCrossDeviceCommandExecutionContext, HALSchemaHALForceFetchContext, HALSchemaHALLocalFetchContext, HALSchemaHALNearbyPersonalDevicesReported, NSData, SISchemaInstrumentationMessage;
+@class HALSchemaHALClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface HALSchemaHALClientEvent : SISchemaTopLevelUnionType
 {
     HALSchemaHALClientEventMetadata *_eventMetadata;
-    HALSchemaHALCrossDeviceCommandExecutionContext *_crossDeviceCommandContext;
-    HALSchemaHALLocalFetchContext *_localFetchContext;
-    HALSchemaHALContextCollectorFetchContext *_contextCollectorFetchContext;
-    HALSchemaHALForceFetchContext *_forceFetchContext;
-    HALSchemaHALCompanionDeviceDiscoveryContext *_companionDeviceDiscoveryContext;
-    HALSchemaHALCompanionDeviceCommunicationContext *_companionDeviceCommunicationContext;
-    HALSchemaHALNearbyPersonalDevicesReported *_nearbyPersonalDevicesReported;
-    _Bool _hasEventMetadata;
-    _Bool _hasCrossDeviceCommandContext;
-    _Bool _hasLocalFetchContext;
-    _Bool _hasContextCollectorFetchContext;
-    _Bool _hasForceFetchContext;
-    _Bool _hasCompanionDeviceDiscoveryContext;
-    _Bool _hasCompanionDeviceCommunicationContext;
-    _Bool _hasNearbyPersonalDevicesReported;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -34,11 +18,11 @@
 - (unsigned long long);
 - (void);
 - (void);
+- (void)@;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (void);
@@ -67,15 +51,15 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)};
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
-- (int);
+- (int)setEqIndex: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (unsigned long long);
@@ -83,33 +67,15 @@
 - (_Bool);
 - (id);
 - (id)nalScore"b1"suggestionTier"b1"channel"b1"channelScore"b1"smartSuppressionScore"b1"numWordsInSuggestion"b1"numCharactersInSuggestion"b1};
-- (id)tentEagerExecutionContext;
+- (id)intentEagerExecutionContext;
 - (unsigned long long)tring",C,N,V_personalDomainFallback;
-- (id)Ns;
+- (id)deleteTriggerFireTimeOffsetInNs;
 - (id)°$;
-- (int)_VOCABULARY;
+- (int)INFERENCESEARCHPROVIDER_SIRI_VOCABULARY;
 - (void)d¿Çÿ;
 
 // Remaining properties
-@property(retain, nonatomic) HALSchemaHALCompanionDeviceCommunicationContext *companionDeviceCommunicationContext; // @synthesize companionDeviceCommunicationContext=_companionDeviceCommunicationContext;
-@property(retain, nonatomic) HALSchemaHALCompanionDeviceDiscoveryContext *companionDeviceDiscoveryContext; // @synthesize companionDeviceDiscoveryContext=_companionDeviceDiscoveryContext;
-@property(retain, nonatomic) HALSchemaHALContextCollectorFetchContext *contextCollectorFetchContext; // @synthesize contextCollectorFetchContext=_contextCollectorFetchContext;
-@property(retain, nonatomic) HALSchemaHALCrossDeviceCommandExecutionContext *crossDeviceCommandContext; // @synthesize crossDeviceCommandContext=_crossDeviceCommandContext;
-@property(retain, nonatomic) HALSchemaHALClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(retain, nonatomic) HALSchemaHALForceFetchContext *forceFetchContext; // @synthesize forceFetchContext=_forceFetchContext;
-@property(nonatomic) _Bool hasCompanionDeviceCommunicationContext; // @synthesize hasCompanionDeviceCommunicationContext=_hasCompanionDeviceCommunicationContext;
-@property(nonatomic) _Bool hasCompanionDeviceDiscoveryContext; // @synthesize hasCompanionDeviceDiscoveryContext=_hasCompanionDeviceDiscoveryContext;
-@property(nonatomic) _Bool hasContextCollectorFetchContext; // @synthesize hasContextCollectorFetchContext=_hasContextCollectorFetchContext;
-@property(nonatomic) _Bool hasCrossDeviceCommandContext; // @synthesize hasCrossDeviceCommandContext=_hasCrossDeviceCommandContext;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasForceFetchContext; // @synthesize hasForceFetchContext=_hasForceFetchContext;
-@property(nonatomic) _Bool hasLocalFetchContext; // @synthesize hasLocalFetchContext=_hasLocalFetchContext;
-@property(nonatomic) _Bool hasNearbyPersonalDevicesReported; // @synthesize hasNearbyPersonalDevicesReported=_hasNearbyPersonalDevicesReported;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) HALSchemaHALLocalFetchContext *localFetchContext; // @synthesize localFetchContext=_localFetchContext;
-@property(retain, nonatomic) HALSchemaHALNearbyPersonalDevicesReported *nearbyPersonalDevicesReported; // @synthesize nearbyPersonalDevicesReported=_nearbyPersonalDevicesReported;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

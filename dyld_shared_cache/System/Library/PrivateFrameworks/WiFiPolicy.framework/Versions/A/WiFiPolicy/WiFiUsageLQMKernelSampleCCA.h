@@ -11,16 +11,6 @@
 @interface WiFiUsageLQMKernelSampleCCA : WiFiUsageLQMSample
 {
     NSDate *_timestamp;
-    double _duration;
-    unsigned long long _selfCca;
-    unsigned long long _otherCca;
-    unsigned long long _interference;
-    unsigned long long _selfCcaSleepPerc;
-    unsigned long long _otherCcaSleepPerc;
-    unsigned long long _interferenceSleepPerc;
-    unsigned long long _selfCcaWakePerc;
-    unsigned long long _otherCcaWakePerc;
-    unsigned long long _interferenceWakePerc;
 }
 
 + (id);
@@ -32,7 +22,7 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (double);
+- (double)logRequestingPreLoadingTask:forIndex:section: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
@@ -42,16 +32,6 @@
 × ;
 
 // Remaining properties
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(readonly, nonatomic) unsigned long long interference; // @synthesize interference=_interference;
-@property(readonly, nonatomic) unsigned long long interferenceSleepPerc; // @synthesize interferenceSleepPerc=_interferenceSleepPerc;
-@property(readonly, nonatomic) unsigned long long interferenceWakePerc; // @synthesize interferenceWakePerc=_interferenceWakePerc;
-@property(readonly, nonatomic) unsigned long long otherCca; // @synthesize otherCca=_otherCca;
-@property(readonly, nonatomic) unsigned long long otherCcaSleepPerc; // @synthesize otherCcaSleepPerc=_otherCcaSleepPerc;
-@property(readonly, nonatomic) unsigned long long otherCcaWakePerc; // @synthesize otherCcaWakePerc=_otherCcaWakePerc;
-@property(readonly, nonatomic) unsigned long long selfCca; // @synthesize selfCca=_selfCca;
-@property(readonly, nonatomic) unsigned long long selfCcaSleepPerc; // @synthesize selfCcaSleepPerc=_selfCcaSleepPerc;
-@property(readonly, nonatomic) unsigned long long selfCcaWakePerc; // @synthesize selfCcaWakePerc=_selfCcaWakePerc;
 @property(retain, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end

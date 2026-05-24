@@ -9,10 +9,9 @@
 @interface ChatKit.TapbackPickerPickerPillView : ChatKit.TapbackPickerButtonView
 {
     id delegate;
-    id showsContent;
 }
 
-- (void)emoteViewTracker;
+- (void)AppCardRemoteViewTracker;
 
 @end
 

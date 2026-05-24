@@ -7,15 +7,11 @@
 @interface NewsArticles.ArticleListeningProgressManager
 {
     id readingHistory;
-    id listeningProgressObservations;
-    id paidBundleConfigManager;
-    id cachedArticleTextRanges;
-    id commandCenter;
 }
 
 - (void);
 - (id);
-- (void)cipeFactory;
+- (void)recipeFactory;
 
 @end
 

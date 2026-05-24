@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INTimer, NSNumber;
+@class INTimer;
 
 @protocol INDeleteTimerIntentExport
+- (id)";
 
 // Remaining properties
-@property(copy) NSNumber *deleteMultiple;
 @property(copy) INTimer *targetTimer;
 @end
 

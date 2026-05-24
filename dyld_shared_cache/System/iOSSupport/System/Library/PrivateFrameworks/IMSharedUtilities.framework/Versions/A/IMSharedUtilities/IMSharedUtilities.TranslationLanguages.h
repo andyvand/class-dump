@@ -7,12 +7,6 @@
 @interface IMSharedUtilities.TranslationLanguages
 {
     id languagesOrderPrivate;
-    id languagesDictPrivate;
-    id queue;
-    id orderQueue;
-    id needsSetup;
-    id languageStatus;
-    id firstObservationClosures;
 }
 
 @end

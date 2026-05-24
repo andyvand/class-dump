@@ -4,37 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface AFSiriAudioRoute
 {
     NSString *_productID;
-    NSString *_btAddress;
-    NSString *_uid;
-    NSString *_name;
-    unsigned long long _availableAnnouncementRequestTypes;
-    NSDictionary *_avscRouteDescription;
-    long long _announcePlatformForRoute;
-    NSString *_connectedBTProductID;
-    long long _ringerSwitchState;
-    _Bool _hearingAidsAnnounceEnabled;
-    _Bool _builtInSpeakerAnnounceEnabled;
-    _Bool _isRouteCurrentlyPicked;
-    _Bool _isDoAPCapable;
-    _Bool _isHeadsetInEar;
-    _Bool _headsetSupportsIED;
-    _Bool _headsetSupportsFauxIED;
-    _Bool _inEarDetectEnabledSpecified;
-    _Bool _inEarDetectEnabled;
-    _Bool _headsetSupportsAnnounceCalls;
-    _Bool _isTipiRoute;
-    _Bool _isOtherDeviceConnected;
-    _Bool _isInTriangleMode;
-    _Bool _shouldTakeRouteFromOtherConnectedDevice;
-    _Bool _shouldDeferToOtherConnectedDevice;
-    _Bool _isHearingAidsRoute;
-    _Bool _isBuiltInSpeakerRoute;
-    _Bool _isGenuineAppleAccessory;
 }
 
 - (void);
@@ -60,13 +34,13 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)initWithDisplayUUID:(id)arg1 style: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void)Td,R,N,V_snr;
@@ -74,14 +48,7 @@
 - (void)uest %p;
 
 // Remaining properties
-@property(nonatomic) long long announcePlatformForRoute; // @synthesize announcePlatformForRoute=_announcePlatformForRoute;
-@property(nonatomic) unsigned long long availableAnnouncementRequestTypes; // @synthesize availableAnnouncementRequestTypes=_availableAnnouncementRequestTypes;
-@property(retain, nonatomic) NSDictionary *avscRouteDescription; // @synthesize avscRouteDescription=_avscRouteDescription;
-@property(retain, nonatomic) NSString *btAddress; // @synthesize btAddress=_btAddress;
-@property(retain, nonatomic) NSString *connectedBTProductID; // @synthesize connectedBTProductID=_connectedBTProductID;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
 @property(retain, nonatomic) NSString *productID; // @synthesize productID=_productID;
-@property(retain, nonatomic) NSString *uid; // @synthesize uid=_uid;
 
 @end
 

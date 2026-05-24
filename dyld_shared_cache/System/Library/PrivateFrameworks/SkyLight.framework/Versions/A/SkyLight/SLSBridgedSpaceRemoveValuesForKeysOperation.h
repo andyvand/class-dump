@@ -6,25 +6,21 @@
 
 #import <SkyLight/SLSAsynchronousBridgedWindowManagementOperation.h>
 
-@class NSArray;
-
 @interface SLSBridgedSpaceRemoveValuesForKeysOperation : SLSAsynchronousBridgedWindowManagementOperation
 {
     unsigned long long _spaceID;
-    NSArray *_keys;
 }
 
-+ (_Bool);
-- (void);
-- (id);
++ (_Bool);
+- (void)@"NSArray"16^B24;
+- (id)entityId;
 - (unsigned long long);
-- (id);
-- (id);
+- (id)T;
+- (id)M;
 - (void);
 - (void)P$À;
 
 // Remaining properties
-@property(readonly, copy) NSArray *keys; // @synthesize keys=_keys;
 @property(readonly) unsigned long long spaceID; // @synthesize spaceID=_spaceID;
 
 @end

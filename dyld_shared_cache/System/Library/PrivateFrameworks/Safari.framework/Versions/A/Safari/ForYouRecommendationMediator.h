@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SiriSuggestionsStartPageBookmarksDataSource, SiriSuggestionsStartPageCloudTabsDataSource, SiriSuggestionsStartPageReadingListDataSource;
+@class SiriSuggestionsStartPageBookmarksDataSource;
 
 __attribute__((visibility("hidden")))
 @interface ForYouRecommendationMediator
 {
     SiriSuggestionsStartPageBookmarksDataSource *_bookmarksDataSource;
-    SiriSuggestionsStartPageCloudTabsDataSource *_cloudTabsDataSource;
-    SiriSuggestionsStartPageReadingListDataSource *_readingListDataSource;
 }
 
 - (void);

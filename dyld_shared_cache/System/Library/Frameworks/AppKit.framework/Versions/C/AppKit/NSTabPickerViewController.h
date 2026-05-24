@@ -6,18 +6,12 @@
 
 #import <AppKit/NSViewController.h>
 
-@class NSArray, NSMapTable, NSString, NSTabBarItem, NSVisualTabPickerRootViewController;
-@protocol NSTabPickerDelegate;
+@class NSArray, NSVisualTabPickerRootViewController;
 
 __attribute__((visibility("hidden")))
 @interface NSTabPickerViewController : NSViewController
 {
     NSArray *_exposeItems;
-    _Bool _isShown;
-    NSVisualTabPickerRootViewController *_tabPickerController;
-    id <NSTabPickerDelegate> _delegate;
-    NSTabBarItem *_selectedItem;
-    NSMapTable *_windowSnapshots;
 }
 
 - (void);
@@ -25,9 +19,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
+- (id)ɚ(;
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
@@ -36,27 +30,27 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)ks/SystemConfiguration.framework/Versions/A/SystemConfiguration;
+- (void)__const;
 - (struct CGRect);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (_Bool)rtificate is invalid;
+- (id)olicyManager";
+- (id)parentTask;
+- (void)default handling for %{public}@;
+- (id)%{public}@;
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)`";
+- (_Bool);
+- (id);
+- (void)derivedIntentIdentifier;
+- (void);
 - (id);
 - (void);
 - (void);
-- (_Bool):userInfo: /* Error: Ran out of types for this method. */;
-- (void)tResult;
+- (_Bool)initWithDomain:code:userInfo: /* Error: Ran out of types for this method. */;
+- (void)bestResult;
 - (void);
 - (void)$Md;
 - (void);
@@ -67,19 +61,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿKtÕ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <NSTabPickerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isClosing; // @dynamic isClosing;
-@property _Bool isShown; // @synthesize isShown=_isShown;
-@property __weak NSTabBarItem *selectedItem; // @synthesize selectedItem=_selectedItem;
-@property(readonly) Class superclass;
 @property(retain) NSVisualTabPickerRootViewController *tabPickerController; // @synthesize tabPickerController=_tabPickerController;
-@property(readonly) NSMapTable *windowSnapshots; // @synthesize windowSnapshots=_windowSnapshots;
 
 @end
 

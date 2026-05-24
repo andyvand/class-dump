@@ -11,7 +11,6 @@
 @interface AKFillableShapeStylePicker : AKModernToolbarPicker
 {
     NSArray *_buttons;
-    _Bool _showFill;
 }
 
 - (_Bool);

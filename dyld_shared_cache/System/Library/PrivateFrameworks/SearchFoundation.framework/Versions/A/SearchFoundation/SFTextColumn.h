@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSArray;
 
 @interface SFTextColumn
 {
@@ -12,29 +12,20 @@
 }
 
 + (_Bool);
-- (id);
+- (id)48;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)t:(id)arg1 intoSinglePerTopicPreferenceWithSuffix:usingPreferencesScope: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)in DB since last check, %@ is not a dup;
+- (id)video_cmpl_over;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void)Ratio;
+- (void);
+- (void)hasLeadingToTrailingRatio;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *sections; // @synthesize sections=_sections;
-@property(readonly) Class superclass;
 
 @end
 

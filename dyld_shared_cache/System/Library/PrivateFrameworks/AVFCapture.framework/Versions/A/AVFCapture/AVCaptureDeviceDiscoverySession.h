@@ -4,34 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface AVCaptureDeviceDiscoverySession
 {
     NSArray *_deviceTypes;
-    long long _position;
-    NSString *_mediaType;
-    NSArray *_devices;
-    NSArray *_supportedMultiCamDeviceSets;
 }
 
 + (id);
 + (id);
 + (id);
++ (id)ProfileIdentifiers                WHERE socialProfileIdentifier IN _pas_nsarray(:socialProfileIdentifiers)        ) /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
 + (id);
++ (id)preparedOutputPixelBufferPoolForAttachedMediaKey:format: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)D;
 + (id);
 + (id);
 + (void)Sources to discover valid sources;
 + (id);
-- (void);
+- (void)_accountTypeWithIdentifier: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -41,7 +37,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *devices; // @synthesize devices=_devices;
-@property(readonly, nonatomic) NSArray *supportedMultiCamDeviceSets;
 
 @end
 

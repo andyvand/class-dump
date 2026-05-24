@@ -5,12 +5,9 @@
 //
 
 @protocol PHCollectionPresentationHints
+- (long long)(;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long forbiddenMoods;
-@property(readonly, nonatomic) long long qualityCategory;
-@property(readonly, nonatomic) unsigned long long recommendedMoods;
 @property(readonly, nonatomic) unsigned long long socialRelationships;
-@property(readonly, nonatomic) long long tripType;
 @end
 

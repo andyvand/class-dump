@@ -5,5 +5,7 @@
 //
 
 @protocol CADCalendarToolInterface
+- (void)Begin loading data.;
+- (void)stablished to remote view controller.;
 @end
 

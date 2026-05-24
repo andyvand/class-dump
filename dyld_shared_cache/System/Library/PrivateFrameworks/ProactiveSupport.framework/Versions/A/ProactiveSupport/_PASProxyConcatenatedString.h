@@ -9,17 +9,15 @@
 @interface _PASProxyConcatenatedString
 {
     NSArray *_components;
-    unsigned long long *_startIndices;
-    unsigned long long _length;
 }
 
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
+- (void)supportsAddingAttachments;
+- (void)@];
+- (unsigned long long)ertyRefreshDelegate>",D,N;
+- (id)_kMDItemServerVersion;
 - (id);
 - (unsigned short);
-- (void);
+- (void)substringWithRange: /* Error: Ran out of types for this method. */;
 - (id)ter 0x%lx at ofs 0x%lx points to region with size 0x%lx exceeding mmap range;
 
 @end

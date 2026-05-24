@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface AVTAssetLibrary
 {
     NSMutableArray *_assets[42];
-    NSMutableDictionary *_assetsByName[42];
 }
 
 + (id);
 - (id);
 - (void);
-- (void);
+- (void)monocle;
 
 @end
 

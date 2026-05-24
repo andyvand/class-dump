@@ -18,10 +18,10 @@
 + (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)9_d;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *payloadTVDeviceID; // @synthesize payloadTVDeviceID=_payloadTVDeviceID;

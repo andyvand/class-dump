@@ -6,7 +6,7 @@
 
 #import <CloudKit/CKSubscription.h>
 
-@class CKRecordZoneID, NSString;
+@class CKRecordZoneID;
 
 @interface CKRecordZoneSubscription : CKSubscription
 {
@@ -14,18 +14,17 @@
 
 + (_Bool);
 + (void)erver http 429 reply. Retry after %.1f seconds. (Other operations may be allowed.);
-- (id);
+- (id)`;
 - (void);
 - (id);
-- (id);
+- (id)#;
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
-@property(copy) NSString *recordType; // @dynamic recordType;
 @property(readonly, copy, nonatomic) CKRecordZoneID *zoneID; // @dynamic zoneID;
 
 @end

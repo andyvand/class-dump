@@ -4,30 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader;
+@class PBDataReader;
 
 @interface GEOPDPlaceSummaryLayoutUnitHours
 {
     PBDataReader *_reader;
-    CDStruct_95bda58d _allowedHoursStates;
-    NSMutableArray *_linkedServiceCategoryIds;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _type;
-    struct {
-        unsigned int has_type:1;
-        unsigned int read_allowedHoursStates:1;
-        unsigned int read_linkedServiceCategoryIds:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)RouteLegs:(id)arg1;
++ (Class)width;
++ (_Bool)setIncidentsOnRouteLegs:(id)arg1;
+- (void)D;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 - (void);
@@ -38,37 +26,33 @@
 - (void);
 - (void);
 - (int);
-- (id);
+- (id)@9;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)_prewarmModelGraph;
+- (void)Trigger is disabled;
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (int);
 - (_Bool);
 - (id);
 - (void);
 - (id)ubmissionURL"b1"read_junctionImageServiceURL"b1"read_logMessageUsageURL"b1"read_logMessageUsageV3URL"b1"read_mapsURLShortenerURL"b1"read_muninBaseURL"b1"read_networkSelectionHarvestURL"b1"read_offlineDataBatchListURL"b1"read_offlineDataDownloadBaseURL"b1"read_offlineDataSizeURL"b1"read_poiBusynessActivityCollectionURL"b1"read_polyLocationShiftURL"b1"read_pressureProbeDataURL"b1"read_proactiveAppClipURL"b1"read_proactiveRoutingURL"b1"read_problemCategoriesURL"b1"read_problemOptInURL"b1"read_problemStatusURL"b1"read_problemSubmissionURL"b1"read_rapWebBundleURL"b1"read_realtimeTrafficProbeURL"b1"read_resourcesURL"b1"read_reverseGeocoderVersionsURL"b1"read_searchAttributionManifestURL"b1"read_simpleETAURL"b1"read_spatialLookupURL"b1"read_tokenAuthenticationURL"b1"read_ugcLogDiscardURL"b1"read_webModuleBaseURL"b1"read_wifiConnectionQualityProbeURL"b1"read_wifiQualityTileURL"b1"read_wifiQualityURL"b1"wrote_anyField"b1};
-- (void)ddStop:(int)arg1;
-- (id)lts;
+- (void)addStop:(int)arg1;
+- (id)_litePlaceResults;
 - (int)¤d,g;
 - (id)¼£À¯±P³Ðµ@¹Üº½À;
-- (id)t_address;
+- (id)merchant_address;
 - (id)ÿÿÿÿ;
 - (_Bool)Íx[éµ5P@;
 - (void)®±BAï%;
 - (void)33333³A@;
 
 // Remaining properties
-@property(readonly, nonatomic) int *allowedHoursStates;
-@property(readonly, nonatomic) unsigned long long allowedHoursStatesCount;
 @property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSMutableArray *linkedServiceCategoryIds;
-@property(nonatomic) int type;
 
 @end
 

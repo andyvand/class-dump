@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void)ll be deleted and your other changes will be saved.;
 

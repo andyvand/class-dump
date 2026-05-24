@@ -11,9 +11,6 @@
 @interface CEMNetworkVPNDeclaration_VendorConfig : CEMPayloadBase
 {
     NSString *_payloadRealm;
-    NSString *_payloadRole;
-    NSString *_payloadGroup;
-    NSString *_payloadLoginGroupOrDomain;
 }
 
 + (id);
@@ -28,15 +25,12 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)tion ;
 - (id);
-- (void);
+- (void)TLS1_EXPORT_KEYING_MATERIAL;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *payloadGroup; // @synthesize payloadGroup=_payloadGroup;
-@property(copy, nonatomic) NSString *payloadLoginGroupOrDomain; // @synthesize payloadLoginGroupOrDomain=_payloadLoginGroupOrDomain;
 @property(copy, nonatomic) NSString *payloadRealm; // @synthesize payloadRealm=_payloadRealm;
-@property(copy, nonatomic) NSString *payloadRole; // @synthesize payloadRole=_payloadRole;
 
 @end
 

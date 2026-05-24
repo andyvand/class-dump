@@ -11,7 +11,7 @@
     NSMutableArray *_blocks;
 }
 
-- (void);
+- (void)center; text-decoration:(long long)arg1 none; font-size:(id)arg2 14px; color:#007AFF; display:block; margin:40px 10px 0px">%@</a><div style="text-align:center; font-size:12px; color:#808080"><div style="margin:4px 10px 0px">%@</div><div style="margin:3px 10px 0px">%@</div></div></div> /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);

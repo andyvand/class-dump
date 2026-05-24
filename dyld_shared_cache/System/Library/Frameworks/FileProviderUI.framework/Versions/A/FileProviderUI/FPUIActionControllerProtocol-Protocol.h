@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol FPUIActionControllerProtocol
++ (id)_calculateThrottleInterval;
+- (NSString *);
 - (NSString *)V_setupError;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *actionIdentifier;
-@property(readonly, nonatomic) NSString *domainIdentifier;
-@property(readonly, nonatomic) NSArray *items;
 @property(readonly, nonatomic) NSString *providerIdentifier;
 @end
 

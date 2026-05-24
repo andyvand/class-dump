@@ -4,45 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _MLCGPUConvolutionTransposePadding
 {
     unsigned long long _topAmount;
-    unsigned long long _bottomAmount;
-    unsigned long long _leftAmount;
-    unsigned long long _rightAmount;
-    unsigned long long _outputPaddingX;
-    unsigned long long _outputPaddingY;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (unsigned long long)1;
+- (id)(M;
+- (id).;
 - (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long bottomAmount; // @synthesize bottomAmount=_bottomAmount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long leftAmount; // @synthesize leftAmount=_leftAmount;
-@property(readonly, nonatomic) unsigned long long outputPaddingX; // @synthesize outputPaddingX=_outputPaddingX;
-@property(readonly, nonatomic) unsigned long long outputPaddingY; // @synthesize outputPaddingY=_outputPaddingY;
-@property(readonly, nonatomic) unsigned long long rightAmount; // @synthesize rightAmount=_rightAmount;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) unsigned long long topAmount; // @synthesize topAmount=_topAmount;
 
 @end

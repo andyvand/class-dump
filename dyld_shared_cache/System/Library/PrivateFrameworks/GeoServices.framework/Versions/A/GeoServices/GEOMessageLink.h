@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDMessageLink, NSString, NSTimeZone;
+@class GEOPDMessageLink, NSTimeZone;
 
 @interface GEOMessageLink
 {
     GEOPDMessageLink *_messageLink;
-    NSTimeZone *_timeZone;
 }
 
 - (id);
@@ -17,18 +16,13 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)VNRemoveBackgroundProcessor;
 - (void)zþ;
 - (int)8;
 - (id)8;
 - (id)ìê;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isVerified;
-@property(readonly, nonatomic) NSString *messageID;
-@property(readonly, nonatomic) NSString *messageURLString;
-@property(readonly, nonatomic) NSString *navBackgroundColorString;
-@property(readonly, nonatomic) NSString *navTintColorString;
 @property(readonly, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
 
 @end

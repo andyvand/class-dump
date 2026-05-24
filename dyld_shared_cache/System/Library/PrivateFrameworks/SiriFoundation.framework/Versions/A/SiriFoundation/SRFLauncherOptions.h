@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SRFTextRequest;
-
 @interface SRFLauncherOptions
 {
     long long _screenID;
-    SRFTextRequest *_textRequest;
-    struct CGRect _originFrame;
 }
 
-+ (_Bool);
++ (_Bool)addAttributes:range: /* Error: Ran out of types for this method. */;
 - (struct CGRect);
 - (void);
 - (void);
@@ -27,8 +23,6 @@
 
 // Remaining properties
 @property(nonatomic) struct CGRect originFrame; // @synthesize originFrame=_originFrame;
-@property(nonatomic) long long screenID; // @synthesize screenID=_screenID;
-@property(copy, nonatomic) SRFTextRequest *textRequest; // @synthesize textRequest=_textRequest;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKCurrencyAmount;
+@class NSString;
 
 @interface PKTransactionAmount
 {
     _Bool _pending;
-    NSString *_label;
-    PKCurrencyAmount *_amount;
-    NSString *_unitIdentifier;
 }
 
 + (_Bool);
@@ -28,20 +25,17 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void)addCompleteHttpInfos:(id)arg1;
 - (void);
 - (id);
 - (_Bool);
 - (id);
-- (id)uthorizationCoordinator:(id)arg1 didRequestMerchantSessionUpdate: /* Error: Ran out of types for this method. */;
+- (id)paymentAuthorizationCoordinator:(id)arg1 didRequestMerchantSessionUpdate: /* Error: Ran out of types for this method. */;
 - (void)ppleIDs are %@;
 - (void)m/bphoto/PKY8lr10v6UM2xkFDvJLeA/o.jpg;
 
 // Remaining properties
-@property(retain, nonatomic) PKCurrencyAmount *amount; // @synthesize amount=_amount;
 @property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(nonatomic, getter=isPending) _Bool pending; // @synthesize pending=_pending;
-@property(copy, nonatomic) NSString *unitIdentifier; // @synthesize unitIdentifier=_unitIdentifier;
 
 @end
 

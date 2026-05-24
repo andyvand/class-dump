@@ -4,36 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPCharacteristicValueLinearDerivedTransition, HAPCharacteristicValueLinearTransition, HAPCharacteristicValueTransitionEndBehaviorWrapper, HAPTLVUnsignedNumberValue, NSData, NSString;
+@class HAPTLVUnsignedNumberValue;
 
 @interface HAPCharacteristicValueTransition
 {
     HAPTLVUnsignedNumberValue *_HAPInstanceID;
-    NSData *_controllerContext;
-    HAPCharacteristicValueTransitionEndBehaviorWrapper *_endBehavior;
-    HAPCharacteristicValueLinearTransition *_linearTransition;
-    HAPCharacteristicValueLinearDerivedTransition *_linearDerivedTransition;
-    HAPTLVUnsignedNumberValue *_valueUpdateTimeInterval;
-    NSData *_notifyValueChangeThreshold;
-    HAPTLVUnsignedNumberValue *_notifyTimeIntervalThreshold;
 }
 
 
 // Remaining properties
 @property(retain, nonatomic) HAPTLVUnsignedNumberValue *HAPInstanceID; // @synthesize HAPInstanceID=_HAPInstanceID;
-@property(retain, nonatomic) NSData *controllerContext; // @synthesize controllerContext=_controllerContext;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) HAPCharacteristicValueTransitionEndBehaviorWrapper *endBehavior; // @synthesize endBehavior=_endBehavior;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HAPCharacteristicValueLinearDerivedTransition *linearDerivedTransition; // @synthesize linearDerivedTransition=_linearDerivedTransition;
-@property(retain, nonatomic) HAPCharacteristicValueLinearTransition *linearTransition; // @synthesize linearTransition=_linearTransition;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *notifyTimeIntervalThreshold; // @synthesize notifyTimeIntervalThreshold=_notifyTimeIntervalThreshold;
-@property(retain, nonatomic) NSData *notifyValueChangeThreshold; // @synthesize notifyValueChangeThreshold=_notifyValueChangeThreshold;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *valueUpdateTimeInterval; // @synthesize valueUpdateTimeInterval=_valueUpdateTimeInterval;
 @end
 

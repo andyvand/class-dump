@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIColor, NSUUID;
+@class CIColor;
 
 @interface IFColor
 {
     CIColor *_ciColor;
-    NSUUID *_digest;
 }
 
 
 // Remaining properties
 @property(readonly) struct CGColor *cgColor; // @dynamic cgColor;
-@property(readonly) CIColor *ciColor; // @synthesize ciColor=_ciColor;
-@property(readonly) NSUUID *digest; // @synthesize digest=_digest;
 @end
 

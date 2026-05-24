@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSURL;
+@class NSURL;
 
 @interface FMDataArchiver
 {
     _Bool _backedUp;
-    _Bool _createDirectories;
-    long long _dataProtectionClass;
-    NSURL *_fileURL;
-    NSData *_unitTestData;
 }
 
 + (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)AWDCoreRoutineTrafficConditions;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)ring",C,N,V_termsDataFileName;
+- (_Bool)!;
 - (id);
-- (id);
+- (id)l;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -40,11 +36,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool backedUp; // @synthesize backedUp=_backedUp;
-@property(nonatomic) _Bool createDirectories; // @synthesize createDirectories=_createDirectories;
-@property(nonatomic) long long dataProtectionClass; // @synthesize dataProtectionClass=_dataProtectionClass;
 @property(retain, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(copy, nonatomic) NSData *unitTestData; // @synthesize unitTestData=_unitTestData;
 
 @end
 

@@ -6,41 +6,18 @@
 
 #import <HMFoundation/HMFObject.h>
 
-@class HMFMessageTransport, NSArray, NSMapTable, NSMutableOrderedSet, NSObject, NSSet, NSString;
-@protocol OS_dispatch_queue;
+@class NSMapTable;
 
 @interface HMFMessageDispatcher : HMFObject
 {
     struct hmf_unfair_data_lock_s _lock;
-    NSMutableOrderedSet *_handlers;
-    _Bool _didRegisterWithMemoryMonitor;
-    CDUnknownBlockType _resolveHook;
-    NSArray *_orderedFilterClasses;
-    HMFMessageTransport *_transport;
-    NSMapTable *_receiverCache;
-    NSMapTable *_msgBindingsCache;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (id)@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool didRegisterWithMemoryMonitor; // @synthesize didRegisterWithMemoryMonitor=_didRegisterWithMemoryMonitor;
-@property(copy) NSSet *filterClasses;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMapTable *msgBindingsCache; // @synthesize msgBindingsCache=_msgBindingsCache;
-@property(copy) NSArray *orderedFilterClasses; // @synthesize orderedFilterClasses=_orderedFilterClasses;
 @property(retain, nonatomic) NSMapTable *receiverCache; // @synthesize receiverCache=_receiverCache;
-@property(copy, nonatomic) CDUnknownBlockType resolveHook; // @synthesize resolveHook=_resolveHook;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) HMFMessageTransport *transport; // @synthesize transport=_transport;
-@property(readonly, retain) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

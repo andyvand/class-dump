@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMAccessClient, BMStoreConfig, NSString, _PASLock;
+@class BMStoreConfig;
 
 @interface BMStorePublisherManager
 {
     BMStoreConfig *_config;
-    NSString *_streamIdentifier;
-    BMAccessClient *_accessClient;
-    Class _eventDataClass;
-    NSString *_useCase;
-    _PASLock *_protectedState;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (id);
 - (void)yz{|}~;

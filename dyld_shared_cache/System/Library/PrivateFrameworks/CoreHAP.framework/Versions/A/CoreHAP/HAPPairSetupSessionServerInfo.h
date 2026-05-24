@@ -9,10 +9,9 @@
 @interface HAPPairSetupSessionServerInfo
 {
     int _maxTries;
-    NSString *_productData;
 }
 
-- (void);
+- (void);
 - (int);
 - (id);
 - (void);
@@ -20,7 +19,6 @@
 - (void)_t}^vSCi^{coap_queue_t}Q[8C]Q^{coap_pdu_t}QQQQQ*Q*Q^vI{coap_fixed_point_t=SS}{coap_fixed_point_t=SS}Ii}16Q24;
 
 // Remaining properties
-@property(nonatomic) int maxTries; // @synthesize maxTries=_maxTries;
 @property(retain, nonatomic) NSString *productData; // @synthesize productData=_productData;
 
 @end

@@ -17,7 +17,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NUIContainerView *containerView; // @synthesize containerView=_containerView;

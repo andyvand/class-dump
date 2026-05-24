@@ -10,20 +10,16 @@ __attribute__((visibility("hidden")))
 @interface NSDocumentDifferenceSizeTriple
 {
     NSDocumentDifferenceSize *_dueToRecentChangesBeforeSaving;
-    NSDocumentDifferenceSize *_betweenPreservingPreviousVersionAndSaving;
-    NSDocumentDifferenceSize *_betweenPreviousSavingAndSaving;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDocumentDifferenceSize *betweenPreservingPreviousVersionAndSaving; // @synthesize betweenPreservingPreviousVersionAndSaving=_betweenPreservingPreviousVersionAndSaving;
-@property(readonly, nonatomic) NSDocumentDifferenceSize *betweenPreviousSavingAndSaving; // @synthesize betweenPreviousSavingAndSaving=_betweenPreviousSavingAndSaving;
 @property(readonly, nonatomic) NSDocumentDifferenceSize *dueToRecentChangesBeforeSaving; // @synthesize dueToRecentChangesBeforeSaving=_dueToRecentChangesBeforeSaving;
 
 @end

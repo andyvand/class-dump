@@ -5,9 +5,9 @@
 //
 
 @interface UnknownClass (Encryption)
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)TextFieldWithLimitedMaxLengthFormatter;
+- (id)StartPageFeatureAvailabilityCollectionViewItem;
+- (id)RemoteNotificationCenterDelegate;
+- (id)ReadingListTableCellView;
 @end
 

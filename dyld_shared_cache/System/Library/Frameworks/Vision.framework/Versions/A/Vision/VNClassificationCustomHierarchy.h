@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, VNRequestSpecifier;
+@class NSDictionary;
 
 @interface VNClassificationCustomHierarchy
 {
     shared_ptr_eb20c8f2 _hierarchicalModel_DO_NOT_ACCESS_DIRECTLY;
-    NSDictionary *_additionalRelationships;
-    VNRequestSpecifier *_originatingRequestSpecifier;
-    unsigned long long _originatingRequestDetectionLevel;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 - (unsigned long long);
 - (id);
@@ -25,9 +22,9 @@
 - (id);
 - (id);
 - (_Bool);
+- (id)_itemPendingReconciliationJobCode;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)u;
 - (id);
 - (Class);
 - (_Bool);
@@ -35,13 +32,10 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (void)resenceScore;
+- (void)intrusiveObjectPresenceScore;
 
 // Remaining properties
-@property(readonly) VNRequestSpecifier *originatingRequestSpecifier;
 @property(readonly, copy, nonatomic) NSDictionary *relationships;
-@property(readonly, copy) NSString *requestClassName;
-@property(readonly, nonatomic) unsigned long long requestRevision;
 
 @end
 

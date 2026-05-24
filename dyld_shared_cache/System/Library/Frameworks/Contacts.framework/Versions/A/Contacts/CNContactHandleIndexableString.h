@@ -5,37 +5,32 @@
 //
 
 @class NSString;
-@protocol _CNContactHandleStringEquivalenceStrategy;
 
 __attribute__((visibility("hidden")))
 @interface CNContactHandleIndexableString
 {
     NSString *_indexKey;
-    NSString *_stringValue;
-    id <_CNContactHandleStringEquivalenceStrategy> _equivalenceStrategy;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (_Bool);
-- (_Bool);
+- (_Bool);
+- (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)ng connection from ;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)networkEnergy;
 - (id);
 - (void)"16@0:8 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) id <_CNContactHandleStringEquivalenceStrategy> equivalenceStrategy; // @synthesize equivalenceStrategy=_equivalenceStrategy;
-@property(readonly, copy, nonatomic) NSString *indexKey; // @synthesize indexKey=_indexKey;
 @property(readonly, copy, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
 
 @end

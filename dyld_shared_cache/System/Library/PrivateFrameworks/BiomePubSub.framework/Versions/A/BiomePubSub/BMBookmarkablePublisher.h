@@ -6,7 +6,7 @@
 
 #import <BiomePubSub/BPSPublisher.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface BMBookmarkablePublisher : BPSPublisher
 {
@@ -14,46 +14,39 @@
 
 + (_Bool);
 + (id);
-+ (id);
++ (id)A;
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)oken;
+- (id)ing",&,N,V_host;
+- (id)validation timer fired for container:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)B;
+- (id)stringByAppendingPathComponent: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)"16@0:8 /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool)_upstreamFinished;
 - (void)ompletion at index:(id)arg1 %lu;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *bookmarkableUpstreams;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

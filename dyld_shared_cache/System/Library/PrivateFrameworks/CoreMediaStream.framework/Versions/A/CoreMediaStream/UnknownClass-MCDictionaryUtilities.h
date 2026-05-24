@@ -5,16 +5,16 @@
 //
 
 @interface UnknownClass (MCDictionaryUtilities)
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)}.16P] Failed to create snapshot session with HMDCameraSnapshotRemoteStreamReceiver:(struct _NSZone *)arg1 accessory reference is nil;
+- (id)ver;
+- (id)hot file is present in cache for %@;
+- (id)t handler because snapshot file is present in cache for %@;
+- (_Bool)ing current local session %@:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ry at path %@:%@ /* Error: Ran out of types for this method. */;
+- (id)pshot directory at path:%@ /* Error: Ran out of types for this method. */;
+- (id)story completed with error:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ationState:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)ate callback. regionState:%@, vacationState:%@ /* Error: Ran out of types for this method. */;
+- (id)pdated to %@;
 @end
 

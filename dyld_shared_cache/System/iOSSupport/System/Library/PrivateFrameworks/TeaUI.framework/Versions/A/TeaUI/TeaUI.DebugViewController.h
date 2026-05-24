@@ -7,9 +7,6 @@
 @interface TeaUI.DebugViewController
 {
     id settingsPresenter;
-    id debugApp;
-    id tableView;
-    id tableViewSource;
 }
 
 - (void);

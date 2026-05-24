@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (void);
+- (void)__mainThreadPostNotificationName:object: /* Error: Ran out of types for this method. */;
 
 @end
 

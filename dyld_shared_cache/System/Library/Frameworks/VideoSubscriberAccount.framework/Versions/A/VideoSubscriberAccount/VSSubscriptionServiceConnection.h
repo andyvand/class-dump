@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     NSXPCConnection *_connection;
 }
 
-- (void);
+- (void)B;
 - (id);
-- (id);
-- (void);
+- (id)ComputerOptions;
+- (void)__funcIZZN18TSidebarControllerC1ERNS_6vectorINS_8functionIFvvEEENS_9allocatorIS6_EEEEENK3$_0clEvEUlvE_S5_EE;
 - (id);
 - (void);
 

@@ -6,55 +6,34 @@
 
 #import <HomeKitDaemon/_MKFModel.h>
 
-@class HMDAccountIdentifier, MKFAccountDatabaseID, NSArray, NSDate, NSNumber, NSSet, NSString, NSUUID;
-@protocol MKFHomeManager;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _MKFAccount : _MKFModel
 {
 }
 
-+ (id);
++ (id)F
+;
 + (Class);
 + (id);
 + (id);
+- (id)ror:(id)arg1 (%@);
 - (id);
-- (id);
-- (id);
+- (id)setBlurFilter: /* Error: Ran out of types for this method. */;
+- (void)uch feedback layer;
 - (void);
-- (void);
 - (id);
 - (id);
-- (id)Reschedule;
+- (id)_shouldReschedule;
 - (id)soryBrowser;
 - (id)lly enabled recording while synchronizing cloud storage;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFAccountDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, retain, nonatomic) NSArray *devices;
-@property(retain, nonatomic) NSSet *devices_; // @dynamic devices_;
-@property(readonly, retain, nonatomic) NSArray *handles;
-@property(retain, nonatomic) NSSet *handles_; // @dynamic handles_;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSUUID",?,R,C,N
 
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, retain, nonatomic) id <MKFHomeManager> homeManager; // @dynamic homeManager;
-@property(retain, nonatomic) HMDAccountIdentifier *identifier; // @dynamic identifier;
-@property(copy, nonatomic) NSNumber *local; // @dynamic local;
-@property(readonly, copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
 
 @end
 

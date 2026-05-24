@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVConferenceXPCClient, NSObject, VCScreenShare;
-@protocol AVCScreenCaptureDelegate, OS_dispatch_queue;
+@protocol AVCScreenCaptureDelegate;
 
 @interface AVCScreenCapture
 {
     id _delegate;
-    AVConferenceXPCClient *_connection;
-    NSObject<OS_dispatch_queue> *_avConferenceScreenCaptureQueue;
-    _Bool _isInProcess;
-    VCScreenShare *_screenShare;
-    long long _captureSourceID;
 }
 
 + (unsigned char);
@@ -23,7 +17,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)!;
 - (long long);
 - (void);
 - (void);
@@ -32,7 +26,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) long long captureSourceID; // @synthesize captureSourceID=_captureSourceID;
 @property(readonly, nonatomic) id <AVCScreenCaptureDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end

@@ -9,23 +9,22 @@
 @interface _NSConstraintBasedLayoutHostingView : NSView
 {
     NSView *_hostedView;
-    _Bool _hasAddedConstraints;
 }
 
 + (_Bool);
-- (void);
+- (void)set_expectedProgressTarget: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
+- (void)(;
 - (struct CGSize);
+- (void)_constrainDirections;
 - (void);
 - (void);
 - (void);
-- (void);
-- (CDStruct_507282ca);
-- (void);
+- (CDStruct_c3b9c2ee);
+- (void)P;
 - (struct CGSize);
-- (id)ingCreator:returningID: /* Error: Ran out of types for this method. */;
+- (id)findVoiceByIdentifier:returningCreator:returningID: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool)AudioToolbox.framework/AudioToolbox;
 - (struct NSEdgeInsets)CAKeyframeAnimation`).;

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLTensor;
-
 @protocol MTLTensorSPI
+- (_Bool);
 - (unsigned long long)dÈè  d¡;
 
 // Remaining properties
-@property(readonly) unsigned long long offset;
-@property(readonly) id <MTLTensor> parentTensor;
 @property(readonly, nonatomic) unsigned long long resourceIndex;
 @end
 

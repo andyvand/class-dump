@@ -14,8 +14,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
-- (struct CGSize);
+- (id)ey from SecKeyCopyExternalRepresentation into ccec:%i /* Error: Ran out of types for this method. */;
+- (struct CGSize),;
 
 @end
 

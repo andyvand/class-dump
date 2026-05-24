@@ -7,8 +7,6 @@
 @interface UIKit.ScrollPocketContainerModel
 {
     id _targetScrollPocket;
-    id _glassGroupGroupName;
-    id _$observationRegistrar;
 }
 
 @end

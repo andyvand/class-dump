@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FAAppAndWebActivity, FACommunicationLimits, FACommunicationSafety, FAScreenDistance, NSDictionary, NSNumber;
+@class NSDictionary;
 
 @interface FASettingsPresetConfiguration
 {
     NSDictionary *_values;
-    NSDictionary *_computedProperties;
-    FACommunicationLimits *_communicationLimits;
-    FACommunicationSafety *_communicationSafety;
-    FAAppAndWebActivity *_appAndWebActivity;
-    FAScreenDistance *_screenDistance;
-    NSNumber *_strictPolicy;
 }
 
-+ (id);
-+ (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
++ (id)VL0;
++ (_Bool)S;
+- (id)HomeMemberInfo;
+- (id)ImageMarkup;
+- (id)buttonsViewStyle;
+- (id)Nike;
+- (id)GetCurrentDisplayRouteClientState;
+- (_Bool)LEDBELLY;
+- (_Bool)SYSTEM_DNS;
+- (id)ResolveAppForIntentResponse;
+- (id)needsConfirmation;
+- (id)headsetId;
+- (id)Invalid;
+- (id)Dismissed;
 - (id);
 - (id);
 - (id);
@@ -42,15 +36,9 @@
 - (id);
 - (id);
 - (void);
-- (id)eardownFollowUpWithContext:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (id)teardownFollowUpWithContext:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) FAAppAndWebActivity *appAndWebActivity; // @synthesize appAndWebActivity=_appAndWebActivity;
-@property(readonly, nonatomic) FACommunicationLimits *communicationLimits; // @synthesize communicationLimits=_communicationLimits;
-@property(readonly, nonatomic) FACommunicationSafety *communicationSafety; // @synthesize communicationSafety=_communicationSafety;
-@property(readonly, copy, nonatomic) NSDictionary *computedProperties; // @synthesize computedProperties=_computedProperties;
-@property(readonly, nonatomic) FAScreenDistance *screenDistance; // @synthesize screenDistance=_screenDistance;
-@property(readonly, nonatomic) NSNumber *strictPolicy; // @synthesize strictPolicy=_strictPolicy;
 @property(readonly, copy, nonatomic) NSDictionary *values; // @synthesize values=_values;
 
 @end

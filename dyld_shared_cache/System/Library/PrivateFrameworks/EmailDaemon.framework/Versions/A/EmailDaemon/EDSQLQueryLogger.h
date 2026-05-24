@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EFQueryLogger, NSFileHandle, NSMutableArray, NSMutableDictionary, NSString;
 @protocol EFAssertableScheduler;
 
 @interface EDSQLQueryLogger
 {
     _Bool _queryLoggingEnabled;
-    EFQueryLogger *_performanceLogger;
-    EFQueryLogger *_uniqueQueryLogger;
-    id <EFAssertableScheduler> _queryLoggingScheduler;
-    NSString *_queryLogDirectoryPath;
-    NSString *_queryLogFilePath;
-    NSString *_queryCountLogFilePath;
-    NSFileHandle *_rawQueryLogInputFileHandle;
-    NSMutableDictionary *_queryCountDict;
-    NSMutableArray *_queryStatisticsArray;
 }
 
 + (id);
@@ -47,7 +37,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
@@ -59,20 +49,7 @@
 - (void)ctThreadScopesWithDatabaseIDs:completionBlock:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *queryCountDict; // @synthesize queryCountDict=_queryCountDict;
-@property(retain, nonatomic) NSString *queryCountLogFilePath; // @synthesize queryCountLogFilePath=_queryCountLogFilePath;
-@property(retain, nonatomic) NSString *queryLogDirectoryPath; // @synthesize queryLogDirectoryPath=_queryLogDirectoryPath;
-@property(retain, nonatomic) NSString *queryLogFilePath; // @synthesize queryLogFilePath=_queryLogFilePath;
 @property(readonly, nonatomic) id <EFAssertableScheduler> queryLoggingScheduler; // @synthesize queryLoggingScheduler=_queryLoggingScheduler;
-@property(retain, nonatomic) NSMutableArray *queryStatisticsArray; // @synthesize queryStatisticsArray=_queryStatisticsArray;
-@property(retain, nonatomic) NSFileHandle *rawQueryLogInputFileHandle; // @synthesize rawQueryLogInputFileHandle=_rawQueryLogInputFileHandle;
-@property(readonly) Class superclass;
 
 @end
 

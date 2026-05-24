@@ -6,203 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
-
 @interface MHSchemaMHVoiceTriggerEventInfo : SISchemaInstrumentationMessage
 {
     unsigned long long _secondPassAnalyerStartSampleCount;
-    unsigned long long _secondPassAnalyerEndSampleCount;
-    float _satScore;
-    unsigned int _satNumTrainingUtterances;
-    float _satThreshold;
-    _Bool _satTriggered;
-    float _tdSpeakerRecognizerScore;
-    float _tdSpeakerRecognizerCombinedScore;
-    float _tdSpeakerRecognizerCombinedThreshold;
-    float _tdSpeakerRecognizerCombinationWeight;
-    int _biometricClue;
-    _Bool _satBeingTrained;
-    unsigned int _lastConsecutivePHSRejects;
-    unsigned long long _deltaTimeInNsFromlastPHSReject;
-    float _triggerExplicitSatScore;
-    float _triggerExplicitTDSRSatScore;
-    float _shadowMicScore;
-    float _shadowMicScoreThresholdForVAD;
-    float _remoteMicVADScore;
-    float _remoteMicVADThreshold;
-    float _remoteMicVADMyriadThreshold;
-    int _enhancedCarplayTriggerMode;
-    unsigned long long _triggerStartSampleCount;
-    unsigned long long _clientStartSampleCount;
-    unsigned long long _triggerEndSampleCount;
-    unsigned long long _triggerFireSampleCount;
-    unsigned long long _triggerStartNs;
-    unsigned long long _triggerEndNs;
-    unsigned long long _triggerFireNs;
-    unsigned long long _extraSamplesAtStart;
-    unsigned long long _analyzerPrependingSamples;
-    unsigned long long _analyzerTrailingSamples;
-    _Bool _isTriggerEvent;
-    unsigned long long _totalSampleCount;
-    float _triggerScore;
-    _Bool _isMaximized;
-    float _effectiveThreshold;
-    float _recognizerScore;
-    float _recognizerThresholdOffset;
-    unsigned long long _recognizerWaitTimeInNs;
-    float _recognizerScaleFactor;
-    float _threshold;
-    unsigned long long _triggerStartTimeOffsetInNs;
-    unsigned long long _triggerEndTimeOffsetInNs;
-    unsigned long long _triggerFireTimeOffsetInNs;
-    double _triggerStartTime;
-    double _triggerEndTime;
-    double _triggerFiredTime;
-    unsigned int _hardwareSamplerate;
-    _Bool _isContinuous;
-    float _triggerDurationInNs;
-    unsigned long long _totalSamplesAtTriggerStart;
-    unsigned long long _totalSamplesAtTriggerEnd;
-    unsigned long long _totalSamplesAtEndOfCapture;
-    NSString *_configVersion;
-    NSString *_configPath;
-    _Bool _isSecondChance;
-    _Bool _deviceHandheld;
-    unsigned int _activeChannel;
-    unsigned long long _twoShotAudibleFeedbackDelayInNs;
-    float _cumulativeUptimeInSec;
-    float _cumulativeDowntimeInSec;
-    int _hostPowerStateAtTrigger;
-    _Bool _isMediaPlaying;
-    float _mediaVolume;
-    SISchemaUUID *_audioProviderUUID;
-    _Bool _onBatteryPower;
-    _Bool _didWakeAP;
-    float _uptimeInSec;
-    float _downtimeInSec;
-    unsigned int _lastConsecutiveVTRejects;
-    NSString *_captureFilePath;
-    NSString *_configDataHash;
-    _Bool _siriIsActiveOrOtherAssertion;
-    _Bool _didAudioStall;
-    _Bool _isBargeIn;
-    _Bool _isWakeFromSleep;
-    unsigned long long _secondPassAssetQueryStartTimeInNs;
-    unsigned long long _secondPassAssetQueryCompleteTimeInNs;
-    unsigned long long _secondPassAssetLoadStartTimeInNs;
-    unsigned long long _secondPassAssetLoadCompleteTimeInNs;
-    unsigned long long _secondPassAudioStreamStartTimeInNs;
-    unsigned long long _secondPassAudioStreamReadyTimeInNs;
-    unsigned long long _secondPassFirstAudioPacketReceptionTimeInNs;
-    unsigned long long _secondPassLastAudioPacketReceptionTimeInNs;
-    unsigned long long _secondPassCheckerModelKeywordDetectionStartTimeInNs;
-    unsigned long long _secondPassCheckerModelKeywordDetectionEndTimeInNs;
-    NSString *_triggerPhrase;
-    double _lastDisplayWakeTimeOffsetInNs;
-    _Bool _isHSJSTriggerFromAlwaysOnMicBuffer;
-    unsigned long long _displayWakeTimeOffsetInNs;
-    float _neptuneDetectionApiScore;
-    struct {
-        unsigned int secondPassAnalyerStartSampleCount:1;
-        unsigned int secondPassAnalyerEndSampleCount:1;
-        unsigned int satScore:1;
-        unsigned int satNumTrainingUtterances:1;
-        unsigned int satThreshold:1;
-        unsigned int satTriggered:1;
-        unsigned int tdSpeakerRecognizerScore:1;
-        unsigned int tdSpeakerRecognizerCombinedScore:1;
-        unsigned int tdSpeakerRecognizerCombinedThreshold:1;
-        unsigned int tdSpeakerRecognizerCombinationWeight:1;
-        unsigned int biometricClue:1;
-        unsigned int satBeingTrained:1;
-        unsigned int lastConsecutivePHSRejects:1;
-        unsigned int deltaTimeInNsFromlastPHSReject:1;
-        unsigned int triggerExplicitSatScore:1;
-        unsigned int triggerExplicitTDSRSatScore:1;
-        unsigned int shadowMicScore:1;
-        unsigned int shadowMicScoreThresholdForVAD:1;
-        unsigned int remoteMicVADScore:1;
-        unsigned int remoteMicVADThreshold:1;
-        unsigned int remoteMicVADMyriadThreshold:1;
-        unsigned int enhancedCarplayTriggerMode:1;
-        unsigned int triggerStartSampleCount:1;
-        unsigned int clientStartSampleCount:1;
-        unsigned int triggerEndSampleCount:1;
-        unsigned int triggerFireSampleCount:1;
-        unsigned int triggerStartNs:1;
-        unsigned int triggerEndNs:1;
-        unsigned int triggerFireNs:1;
-        unsigned int extraSamplesAtStart:1;
-        unsigned int analyzerPrependingSamples:1;
-        unsigned int analyzerTrailingSamples:1;
-        unsigned int isTriggerEvent:1;
-        unsigned int totalSampleCount:1;
-        unsigned int triggerScore:1;
-        unsigned int isMaximized:1;
-        unsigned int effectiveThreshold:1;
-        unsigned int recognizerScore:1;
-        unsigned int recognizerThresholdOffset:1;
-        unsigned int recognizerWaitTimeInNs:1;
-        unsigned int recognizerScaleFactor:1;
-        unsigned int threshold:1;
-        unsigned int triggerStartTimeOffsetInNs:1;
-        unsigned int triggerEndTimeOffsetInNs:1;
-        unsigned int triggerFireTimeOffsetInNs:1;
-        unsigned int triggerStartTime:1;
-        unsigned int triggerEndTime:1;
-        unsigned int triggerFiredTime:1;
-        unsigned int hardwareSamplerate:1;
-        unsigned int isContinuous:1;
-        unsigned int triggerDurationInNs:1;
-        unsigned int totalSamplesAtTriggerStart:1;
-        unsigned int totalSamplesAtTriggerEnd:1;
-        unsigned int totalSamplesAtEndOfCapture:1;
-        unsigned int isSecondChance:1;
-        unsigned int deviceHandheld:1;
-        unsigned int activeChannel:1;
-        unsigned int twoShotAudibleFeedbackDelayInNs:1;
-        unsigned int cumulativeUptimeInSec:1;
-        unsigned int cumulativeDowntimeInSec:1;
-        unsigned int hostPowerStateAtTrigger:1;
-        unsigned int isMediaPlaying:1;
-        unsigned int mediaVolume:1;
-        unsigned int onBatteryPower:1;
-        unsigned int didWakeAP:1;
-        unsigned int uptimeInSec:1;
-        unsigned int downtimeInSec:1;
-        unsigned int lastConsecutiveVTRejects:1;
-        unsigned int siriIsActiveOrOtherAssertion:1;
-        unsigned int didAudioStall:1;
-        unsigned int isBargeIn:1;
-        unsigned int isWakeFromSleep:1;
-        unsigned int secondPassAssetQueryStartTimeInNs:1;
-        unsigned int secondPassAssetQueryCompleteTimeInNs:1;
-        unsigned int secondPassAssetLoadStartTimeInNs:1;
-        unsigned int secondPassAssetLoadCompleteTimeInNs:1;
-        unsigned int secondPassAudioStreamStartTimeInNs:1;
-        unsigned int secondPassAudioStreamReadyTimeInNs:1;
-        unsigned int secondPassFirstAudioPacketReceptionTimeInNs:1;
-        unsigned int secondPassLastAudioPacketReceptionTimeInNs:1;
-        unsigned int secondPassCheckerModelKeywordDetectionStartTimeInNs:1;
-        unsigned int secondPassCheckerModelKeywordDetectionEndTimeInNs:1;
-        unsigned int lastDisplayWakeTimeOffsetInNs:1;
-        unsigned int isHSJSTriggerFromAlwaysOnMicBuffer:1;
-        unsigned int displayWakeTimeOffsetInNs:1;
-        unsigned int neptuneDetectionApiScore:1;
-    } _has;
-    _Bool _hasConfigVersion;
-    _Bool _hasConfigPath;
-    _Bool _hasAudioProviderUUID;
-    _Bool _hasCaptureFilePath;
-    _Bool _hasConfigDataHash;
-    _Bool _hasTriggerPhrase;
 }
 
 - (float);
 - (unsigned long long);
 - (double);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (float);
 - (id);
 - (double);
@@ -221,9 +34,10 @@
 - (float);
 - (float);
 - (float);
-- (float);
+- (float)˿;
 - (_Bool);
 - (void);
+- (void)A;
 - (void);
 - (void);
 - (void);
@@ -232,6 +46,7 @@
 - (void);
 - (void);
 - (void);
+- (void)s;
 - (void);
 - (void);
 - (void);
@@ -249,11 +64,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)R";
 - (void);
 - (void);
 - (void);
@@ -334,15 +151,19 @@
 - (void);
 - (void);
 - (void);
+- (void)Z;
+- (void);
 - (void);
 - (void);
 - (void);
+- (void)9Yc�W[�U;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)F;
 - (void);
 - (void);
 - (void);
@@ -355,15 +176,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -399,7 +212,7 @@
 - (float);
 - (_Bool);
 - (float);
-- (double);
+- (double);
 - (unsigned int);
 - (unsigned int);
 - (_Bool);
@@ -407,6 +220,35 @@
 - (_Bool);
 - (_Bool);
 - (int);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)(=;
+- (_Bool);
+- (_Bool)֐u;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool)`;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -422,6 +264,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -437,37 +280,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -508,11 +321,14 @@
 - (void);
 - (void);
 - (void);
+- (void)#;
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -521,6 +337,8 @@
 - (void);
 - (void);
 - (void);
+- (void)R;
+- (void)6;
 - (void);
 - (void);
 - (void);
@@ -537,12 +355,14 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)(˩#;
 - (void);
 - (void);
 - (void);
@@ -562,17 +382,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -606,7 +419,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -623,13 +436,13 @@
 - (id);
 - (float);
 - (float);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void)[;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (float);
 - (float);
 - (float);
@@ -642,220 +455,609 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)IMULATE] adding event:(id)arg1 %@;
+- (void)c}@;
 - (id);
 - (id);
-- (void);
+- (void)ECDH_DATA_new_method;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
+- (void)ring>mail-diags</string>
+				</array>
+				<key>mediaanalysisd</key>
+				<array>
+					<string>photo-diags</string>
+				</array>
+				<key>medialibraryd</key>
+				<array>
+					<string>mediaplayer-diags</string>
+				</array>
+				<key>mstreamd</key>
+				<array>
+					<string>photo-diags</string>
+				</array>
+				<key>photoanalysisd</key>
+				<array>
+					<string>photo-diags</string>
+				</array>
+				<key>photolibraryd</key>
+				<array>
+					<string>photo-diags</string>
+				</array>
+				<key>ptpd</key>
+				<array>
+					<string>photo-diags</string>
+				</array>
+				<key>searchd</key>
+				<array>
+					<string>search-diags</string>
+				</array>
+				<key>managedcorespotlightd</key>
+				<array>
+					<string>search-diags-osx</string>
+				</array>
+				<key>corespotlightd</key>
+				<array>
+					<string>search-diags-osx</string>
+				</array>
+				<key>sharingd</key>
+				<array>
+					<string>sharingd-diags</string>
+					<string>mdns-diags</string>
+				</array>
+				<key>spotlightknowledged</key>
+				<array>
+					<string>search-diags</string>
+				</array>
+			</dict>
+			<key>Duet</key>
+			<dict>
+				<key>Activities Significantly Overdue</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>duet-diags</string>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+			<key>Energy</key>
+			<dict>
+				<key>Assertion</key>
+				<dict>
+					<key>LongAssertion</key>
+					<dict>
+						<key>DEFAULTS</key>
+						<dict>
+							<key>alwaysRun</key>
+							<array>
+								<string>powerlog-syslogfilter</string>
+							</array>
+						</dict>
+					</dict>
+					<key>LongTerm</key>
+					<dict>
+						<key>locationd</key>
+						<array>
+							<string>locationd-verbose</string>
+						</array>
+					</dict>
+					<key>TotalAssertion</key>
+					<dict>
+						<key>DEFAULTS</key>
+						<dict>
+							<key>alwaysRun</key>
+							<array>
+								<string>powerlog-syslogfilter</string>
+							</array>
+						</dict>
+					</dict>
+				</dict>
+				<key>CPU</key>
+				<dict>
+					<key>LongTerm</key>
+					<dict>
+						<key>DEFAULTS</key>
+						<dict>
+							<key>alwaysRun</key>
+							<array>
+								<string>powerlog-syslogfilter</string>
+							</array>
+						</dict>
+					</dict>
+				</dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>powerlog-diags</string>
+						<string>microstackshot-diags</string>
+					</array>
+				</dict>
+			</dict>
+			<key>Location</key>
+			<dict>
+				<key>GNSS</key>
+				<dict>
+					<key>Emergency</key>
+					<dict>
+						<key>long_EEM</key>
+						<dict>
+							<key>locationd</key>
+							<array>
+								<string>cellularDE</string>
+							</array>
+						</dict>
+						<key>non_emergency_NILR_CPlane</key>
+						<dict>
+							<key>locationd</key>
+							<array>
+								<string>cellularDE</string>
+							</array>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+			<key>MediaPlayer</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>mediaplayer-diags</string>
+					</array>
+				</dict>
+			</dict>
+			<key>MediaAnalysis</key>
+			<dict>
+				<key>Timeout</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>tailspin-diags</string>
+							<string>tailspin-diags-osx</string>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+			<key>MediaRemote</key>
+			<dict>
+				<key>HostedRouting</key>
+				<dict>
+					<key>Performance</key>
+					<array>
+						<string>tailspin-diags</string>
+						<string>tailspin-diags-osx</string>
+					</array>
+				</dict>
+			</dict>
+			<key>MobileBluetoothServices</key>
+			<dict>
+				<key>HIDTimeStampSync</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>bluetoothABC-diags</string>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+			<key>MobileMail</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>mobilemail-diags</string>
+					</array>
+				</dict>
+				<key>Spotlight</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>search-diags</string>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+			<key>Music</key>
+			<dict>
+				<key>SharePlay</key>
+				<dict>
+					<key>Performance</key>
+					<dict>
+						<key>DEFAULTS</key>
+						<dict>
+							<key>alwaysRun</key>
+							<array>
+								<string>tailspin-diags</string>
+							</array>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+			<key>NetworkRelay</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array/>
+				</dict>
+				<key>NRLinkBluetooth</key>
+				<dict>
+					<key>Data stall</key>
+					<dict>
+						<key>DEFAULTS</key>
+						<dict>
+							<key>alwaysRun</key>
+							<array>
+								<string>bluetoothABC-diags</string>
+							</array>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+			<key>Networking</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>libnetcore</string>
+						<string>tuscany</string>
+						<string>networking-wifi</string>
+						<string>symptomsd</string>
+					</array>
+				</dict>
+				<key>Energy</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>powerlog-diags</string>
+							<string>microstackshot-diags</string>
+						</array>
+					</dict>
+				</dict>
+				<key>Functional</key>
+				<dict>
+					<key>DHCP Address Acquisition Failed</key>
+					<dict>
+						<key>DEFAULTS</key>
+						<dict>
+							<key>alwaysRun</key>
+							<array>
+								<string>IPConfiguration-logs</string>
+							</array>
+						</dict>
+					</dict>
+					<key>Primary uniqueness rule failed</key>
+					<dict>
+						<key>System</key>
+						<array>
+							<string>symptomsd</string>
+						</array>
+					</dict>
+				</dict>
+				<key>Operational</key>
+				<dict>
+					<key>Wi-Fi LQM Callback rate is too low</key>
+					<array>
+						<string>tailspin-diags</string>
+					</array>
+				</dict>
+				<key>Performance</key>
+				<dict>
+					<key>AirPlay</key>
+					<array>
+						<string>airplay-diags</string>
+						<string>networking-wifi</string>
+					</array>
+					<key>AirPlay Connection Stalled</key>
+					<array>
+						<string>airplay-diags</string>
+						<string>networking-wifi</string>
+					</array>
+					<key>UI Impact</key>
+					<array>
+						<string>tailspin-diags</string>
+						<string>tailspin-diags-osx</string>
+					</array>
+				</dict>
+			</dict>
+			<key>Proximity</key>
+			<dict>
+				<key>Stability</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>rose-diags</string>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+			<key>Responsiveness</key>
+			<dict>
+				<key>CoreAnimation</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>tailspin-diags</string>
+							<string>tailspin-diags-osx</string>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+			<key>SiriAssistant</key>
+			<dict>
+				<key>client.request-failed</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>networking-wifi</string>
+						</array>
+					</dict>
+				</dict>
+				<key>siricore_nw_connection</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>networking-wifi</string>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+			<key>SpotlightIndex</key>
+			<dict>
+				<key>IndexCorruption</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>search-diags</string>
+							<string>search-diags-osx</string>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+			<key>Telephony</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>cellularDE</string>
+					</array>
+				</dict>
+			</dict>
+			<key>TestDomain</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>libnetcore</string>
+					</array>
+				</dict>
+				<key>TestType</key>
+				<dict>
+					<key>symptomsd</key>
+					<array>
+						<string>libnetcore</string>
+						<string>tuscany</string>
+						<string>symptomsd</string>
+						<string>networking-wifi</string>
+						<string>powerlog-diags</string>
+						<string>microstackshot-diags</string>
+					</array>
+				</dict>
+			</dict>
+			<key>ThreadSW</key>
+			<dict>
+				<key>Performance</key>
+				<dict>
+					<key>Data Stall</key>
+					<dict>
+						<key>DEFAULTS</key>
+						<dict>
+							<key>alwaysRun</key>
+							<array>
+								<string>networking-wifi</string>
+							</array>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+			<key>Tuscany</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>networking-wifi</string>
+					</array>
+				</dict>
+			</dict>
+			<key>UIPerformance</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>tailspin-diags</string>
+						<string>tailspin-diags-osx</string>
+					</array>
+				</dict>
+			</dict>
+			<key>WiFi</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>networking-wifi</string>
+					</array>
+				</dict>
+				<key>IMS Call KPI</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>cellularDE</string>
+						</array>
+					</dict>
+				</dict>
+				<key>IMS Reg</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>cellularDE</string>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+			<key>iCloudDrive</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>clouddocs-diags</string>
+						<string>fileprovider-diags</string>
+					</array>
+				</dict>
+			</dict>
+			<key>AccessoryInteraction</key>
+			<dict>
+				<key>FirmwareUpdate</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>AirTagDE</string>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+			<key>ULPN</key>
+			<dict>
+				<key>DEFAULTS</key>
+				<dict>
+					<key>alwaysRun</key>
+					<array>
+						<string>networking-wifi</string>
+					</array>
+				</dict>
+				<key>Heuristics</key>
+				<dict>
+					<key>RxQueueDelayExceeded</key>
+					<array>
+						<string>cellularDE</string>
+					</array>
+					<key>TxQueueDelayExceeded</key>
+					<array>
+						<string>cellularDE</string>
+					</array>
+					<key>RxPktDropExceeded</key>
+					<array>
+						<string>cellularDE</string>
+					</array>
+					<key>TxPktDropExceeded</key>
+					<array>
+						<string>cellularDE</string>
+					</array>
+					<key>FailureThresholdExceeded</key>
+					<array>
+						<string>cellularDE</string>
+					</array>
+				</dict>
+			</dict>
+			<key>StorageDrivers</key>
+			<dict>
+				<key>AppleSDXC</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>storagedrivers-SDXC-diags</string>
+						</array>
+					</dict>
+				</dict>
+				<key>IONVMeFamily</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>storagedrivers-SSD-diags</string>
+						</array>
+					</dict>
+				</dict>
+				<key>IOSCSIFamily</key>
+				<dict>
+					<key>DEFAULTS</key>
+					<dict>
+						<key>alwaysRun</key>
+						<array>
+							<string>storagedrivers-SSD-diags</string>
+						</array>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+	</dict>
+	<key>CONFIG_IDENTIFIER</key>
+	<string>diagnostic_actions</string>
+	<key>CONFIG_VERSION</key>
+	<integer>0</integer>
+</dict>
+</plist>
+;
 - (_Bool);
-- (id);
+- (id)K;
 - (_Bool);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (float);
+- (float);
 - (id);
 - (id);
 - (id)othPermissionRequired;
 - (id)dleEndedData;
 - (void)hTier1;
-- (void)etectionSource;
+- (void)STSchemaSTHallucinationDetectionSource;
 - (id)í°%;
 - (float)ú';
 - (void)Y§ÿÝU±';
 - (unsigned int)é';
 
 // Remaining properties
-@property(nonatomic) unsigned int activeChannel; // @synthesize activeChannel=_activeChannel;
-@property(nonatomic) unsigned long long analyzerPrependingSamples; // @synthesize analyzerPrependingSamples=_analyzerPrependingSamples;
-@property(nonatomic) unsigned long long analyzerTrailingSamples; // @synthesize analyzerTrailingSamples=_analyzerTrailingSamples;
-@property(retain, nonatomic) SISchemaUUID *audioProviderUUID; // @synthesize audioProviderUUID=_audioProviderUUID;
-@property(nonatomic) int biometricClue; // @synthesize biometricClue=_biometricClue;
-@property(copy, nonatomic) NSString *captureFilePath; // @synthesize captureFilePath=_captureFilePath;
-@property(nonatomic) unsigned long long clientStartSampleCount; // @synthesize clientStartSampleCount=_clientStartSampleCount;
-@property(copy, nonatomic) NSString *configDataHash; // @synthesize configDataHash=_configDataHash;
-@property(copy, nonatomic) NSString *configPath; // @synthesize configPath=_configPath;
-@property(copy, nonatomic) NSString *configVersion; // @synthesize configVersion=_configVersion;
-@property(nonatomic) float cumulativeDowntimeInSec; // @synthesize cumulativeDowntimeInSec=_cumulativeDowntimeInSec;
-@property(nonatomic) float cumulativeUptimeInSec; // @synthesize cumulativeUptimeInSec=_cumulativeUptimeInSec;
-@property(nonatomic) unsigned long long deltaTimeInNsFromlastPHSReject; // @synthesize deltaTimeInNsFromlastPHSReject=_deltaTimeInNsFromlastPHSReject;
-@property(nonatomic) _Bool deviceHandheld; // @synthesize deviceHandheld=_deviceHandheld;
-@property(nonatomic) _Bool didAudioStall; // @synthesize didAudioStall=_didAudioStall;
-@property(nonatomic) _Bool didWakeAP; // @synthesize didWakeAP=_didWakeAP;
-@property(nonatomic) unsigned long long displayWakeTimeOffsetInNs; // @synthesize displayWakeTimeOffsetInNs=_displayWakeTimeOffsetInNs;
-@property(nonatomic) float downtimeInSec; // @synthesize downtimeInSec=_downtimeInSec;
-@property(nonatomic) float effectiveThreshold; // @synthesize effectiveThreshold=_effectiveThreshold;
-@property(nonatomic) int enhancedCarplayTriggerMode; // @synthesize enhancedCarplayTriggerMode=_enhancedCarplayTriggerMode;
-@property(nonatomic) unsigned long long extraSamplesAtStart; // @synthesize extraSamplesAtStart=_extraSamplesAtStart;
-@property(nonatomic) unsigned int hardwareSamplerate; // @synthesize hardwareSamplerate=_hardwareSamplerate;
-@property(nonatomic) _Bool hasActiveChannel;
-@property(nonatomic) _Bool hasAnalyzerPrependingSamples;
-@property(nonatomic) _Bool hasAnalyzerTrailingSamples;
-@property(nonatomic) _Bool hasAudioProviderUUID; // @synthesize hasAudioProviderUUID=_hasAudioProviderUUID;
-@property(nonatomic) _Bool hasBiometricClue;
-@property(nonatomic) _Bool hasCaptureFilePath; // @synthesize hasCaptureFilePath=_hasCaptureFilePath;
-@property(nonatomic) _Bool hasClientStartSampleCount;
-@property(nonatomic) _Bool hasConfigDataHash; // @synthesize hasConfigDataHash=_hasConfigDataHash;
-@property(nonatomic) _Bool hasConfigPath; // @synthesize hasConfigPath=_hasConfigPath;
-@property(nonatomic) _Bool hasConfigVersion; // @synthesize hasConfigVersion=_hasConfigVersion;
-@property(nonatomic) _Bool hasCumulativeDowntimeInSec;
-@property(nonatomic) _Bool hasCumulativeUptimeInSec;
-@property(nonatomic) _Bool hasDeltaTimeInNsFromlastPHSReject;
-@property(nonatomic) _Bool hasDeviceHandheld;
-@property(nonatomic) _Bool hasDidAudioStall;
-@property(nonatomic) _Bool hasDidWakeAP;
-@property(nonatomic) _Bool hasDisplayWakeTimeOffsetInNs;
-@property(nonatomic) _Bool hasDowntimeInSec;
-@property(nonatomic) _Bool hasEffectiveThreshold;
-@property(nonatomic) _Bool hasEnhancedCarplayTriggerMode;
-@property(nonatomic) _Bool hasExtraSamplesAtStart;
-@property(nonatomic) _Bool hasHardwareSamplerate;
-@property(nonatomic) _Bool hasHostPowerStateAtTrigger;
-@property(nonatomic) _Bool hasIsBargeIn;
-@property(nonatomic) _Bool hasIsContinuous;
-@property(nonatomic) _Bool hasIsHSJSTriggerFromAlwaysOnMicBuffer;
-@property(nonatomic) _Bool hasIsMaximized;
-@property(nonatomic) _Bool hasIsMediaPlaying;
-@property(nonatomic) _Bool hasIsSecondChance;
-@property(nonatomic) _Bool hasIsTriggerEvent;
-@property(nonatomic) _Bool hasIsWakeFromSleep;
-@property(nonatomic) _Bool hasLastConsecutivePHSRejects;
-@property(nonatomic) _Bool hasLastConsecutiveVTRejects;
-@property(nonatomic) _Bool hasLastDisplayWakeTimeOffsetInNs;
-@property(nonatomic) _Bool hasMediaVolume;
-@property(nonatomic) _Bool hasNeptuneDetectionApiScore;
-@property(nonatomic) _Bool hasOnBatteryPower;
-@property(nonatomic) _Bool hasRecognizerScaleFactor;
-@property(nonatomic) _Bool hasRecognizerScore;
-@property(nonatomic) _Bool hasRecognizerThresholdOffset;
-@property(nonatomic) _Bool hasRecognizerWaitTimeInNs;
-@property(nonatomic) _Bool hasRemoteMicVADMyriadThreshold;
-@property(nonatomic) _Bool hasRemoteMicVADScore;
-@property(nonatomic) _Bool hasRemoteMicVADThreshold;
-@property(nonatomic) _Bool hasSatBeingTrained;
-@property(nonatomic) _Bool hasSatNumTrainingUtterances;
-@property(nonatomic) _Bool hasSatScore;
-@property(nonatomic) _Bool hasSatThreshold;
-@property(nonatomic) _Bool hasSatTriggered;
-@property(nonatomic) _Bool hasSecondPassAnalyerEndSampleCount;
-@property(nonatomic) _Bool hasSecondPassAnalyerStartSampleCount;
-@property(nonatomic) _Bool hasSecondPassAssetLoadCompleteTimeInNs;
-@property(nonatomic) _Bool hasSecondPassAssetLoadStartTimeInNs;
-@property(nonatomic) _Bool hasSecondPassAssetQueryCompleteTimeInNs;
-@property(nonatomic) _Bool hasSecondPassAssetQueryStartTimeInNs;
-@property(nonatomic) _Bool hasSecondPassAudioStreamReadyTimeInNs;
-@property(nonatomic) _Bool hasSecondPassAudioStreamStartTimeInNs;
-@property(nonatomic) _Bool hasSecondPassCheckerModelKeywordDetectionEndTimeInNs;
-@property(nonatomic) _Bool hasSecondPassCheckerModelKeywordDetectionStartTimeInNs;
-@property(nonatomic) _Bool hasSecondPassFirstAudioPacketReceptionTimeInNs;
-@property(nonatomic) _Bool hasSecondPassLastAudioPacketReceptionTimeInNs;
-@property(nonatomic) _Bool hasShadowMicScore;
-@property(nonatomic) _Bool hasShadowMicScoreThresholdForVAD;
-@property(nonatomic) _Bool hasSiriIsActiveOrOtherAssertion;
-@property(nonatomic) _Bool hasTdSpeakerRecognizerCombinationWeight;
-@property(nonatomic) _Bool hasTdSpeakerRecognizerCombinedScore;
-@property(nonatomic) _Bool hasTdSpeakerRecognizerCombinedThreshold;
-@property(nonatomic) _Bool hasTdSpeakerRecognizerScore;
-@property(nonatomic) _Bool hasThreshold;
-@property(nonatomic) _Bool hasTotalSampleCount;
-@property(nonatomic) _Bool hasTotalSamplesAtEndOfCapture;
-@property(nonatomic) _Bool hasTotalSamplesAtTriggerEnd;
-@property(nonatomic) _Bool hasTotalSamplesAtTriggerStart;
-@property(nonatomic) _Bool hasTriggerDurationInNs;
-@property(nonatomic) _Bool hasTriggerEndNs;
-@property(nonatomic) _Bool hasTriggerEndSampleCount;
-@property(nonatomic) _Bool hasTriggerEndTime;
-@property(nonatomic) _Bool hasTriggerEndTimeOffsetInNs;
-@property(nonatomic) _Bool hasTriggerExplicitSatScore;
-@property(nonatomic) _Bool hasTriggerExplicitTDSRSatScore;
-@property(nonatomic) _Bool hasTriggerFireNs;
-@property(nonatomic) _Bool hasTriggerFireSampleCount;
-@property(nonatomic) _Bool hasTriggerFireTimeOffsetInNs;
-@property(nonatomic) _Bool hasTriggerFiredTime;
-@property(nonatomic) _Bool hasTriggerPhrase; // @synthesize hasTriggerPhrase=_hasTriggerPhrase;
-@property(nonatomic) _Bool hasTriggerScore;
-@property(nonatomic) _Bool hasTriggerStartNs;
-@property(nonatomic) _Bool hasTriggerStartSampleCount;
-@property(nonatomic) _Bool hasTriggerStartTime;
-@property(nonatomic) _Bool hasTriggerStartTimeOffsetInNs;
-@property(nonatomic) _Bool hasTwoShotAudibleFeedbackDelayInNs;
-@property(nonatomic) _Bool hasUptimeInSec;
-@property(nonatomic) int hostPowerStateAtTrigger; // @synthesize hostPowerStateAtTrigger=_hostPowerStateAtTrigger;
-@property(nonatomic) _Bool isBargeIn; // @synthesize isBargeIn=_isBargeIn;
-@property(nonatomic) _Bool isContinuous; // @synthesize isContinuous=_isContinuous;
-@property(nonatomic) _Bool isHSJSTriggerFromAlwaysOnMicBuffer; // @synthesize isHSJSTriggerFromAlwaysOnMicBuffer=_isHSJSTriggerFromAlwaysOnMicBuffer;
-@property(nonatomic) _Bool isMaximized; // @synthesize isMaximized=_isMaximized;
-@property(nonatomic) _Bool isMediaPlaying; // @synthesize isMediaPlaying=_isMediaPlaying;
-@property(nonatomic) _Bool isSecondChance; // @synthesize isSecondChance=_isSecondChance;
-@property(nonatomic) _Bool isTriggerEvent; // @synthesize isTriggerEvent=_isTriggerEvent;
-@property(nonatomic) _Bool isWakeFromSleep; // @synthesize isWakeFromSleep=_isWakeFromSleep;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int lastConsecutivePHSRejects; // @synthesize lastConsecutivePHSRejects=_lastConsecutivePHSRejects;
-@property(nonatomic) unsigned int lastConsecutiveVTRejects; // @synthesize lastConsecutiveVTRejects=_lastConsecutiveVTRejects;
-@property(nonatomic) double lastDisplayWakeTimeOffsetInNs; // @synthesize lastDisplayWakeTimeOffsetInNs=_lastDisplayWakeTimeOffsetInNs;
-@property(nonatomic) float mediaVolume; // @synthesize mediaVolume=_mediaVolume;
-@property(nonatomic) float neptuneDetectionApiScore; // @synthesize neptuneDetectionApiScore=_neptuneDetectionApiScore;
-@property(nonatomic) _Bool onBatteryPower; // @synthesize onBatteryPower=_onBatteryPower;
-@property(nonatomic) float recognizerScaleFactor; // @synthesize recognizerScaleFactor=_recognizerScaleFactor;
-@property(nonatomic) float recognizerScore; // @synthesize recognizerScore=_recognizerScore;
-@property(nonatomic) float recognizerThresholdOffset; // @synthesize recognizerThresholdOffset=_recognizerThresholdOffset;
-@property(nonatomic) unsigned long long recognizerWaitTimeInNs; // @synthesize recognizerWaitTimeInNs=_recognizerWaitTimeInNs;
-@property(nonatomic) float remoteMicVADMyriadThreshold; // @synthesize remoteMicVADMyriadThreshold=_remoteMicVADMyriadThreshold;
-@property(nonatomic) float remoteMicVADScore; // @synthesize remoteMicVADScore=_remoteMicVADScore;
-@property(nonatomic) float remoteMicVADThreshold; // @synthesize remoteMicVADThreshold=_remoteMicVADThreshold;
-@property(nonatomic) _Bool satBeingTrained; // @synthesize satBeingTrained=_satBeingTrained;
-@property(nonatomic) unsigned int satNumTrainingUtterances; // @synthesize satNumTrainingUtterances=_satNumTrainingUtterances;
-@property(nonatomic) float satScore; // @synthesize satScore=_satScore;
-@property(nonatomic) float satThreshold; // @synthesize satThreshold=_satThreshold;
-@property(nonatomic) _Bool satTriggered; // @synthesize satTriggered=_satTriggered;
-@property(nonatomic) unsigned long long secondPassAnalyerEndSampleCount; // @synthesize secondPassAnalyerEndSampleCount=_secondPassAnalyerEndSampleCount;
 @property(nonatomic) unsigned long long secondPassAnalyerStartSampleCount; // @synthesize secondPassAnalyerStartSampleCount=_secondPassAnalyerStartSampleCount;
-@property(nonatomic) unsigned long long secondPassAssetLoadCompleteTimeInNs; // @synthesize secondPassAssetLoadCompleteTimeInNs=_secondPassAssetLoadCompleteTimeInNs;
-@property(nonatomic) unsigned long long secondPassAssetLoadStartTimeInNs; // @synthesize secondPassAssetLoadStartTimeInNs=_secondPassAssetLoadStartTimeInNs;
-@property(nonatomic) unsigned long long secondPassAssetQueryCompleteTimeInNs; // @synthesize secondPassAssetQueryCompleteTimeInNs=_secondPassAssetQueryCompleteTimeInNs;
-@property(nonatomic) unsigned long long secondPassAssetQueryStartTimeInNs; // @synthesize secondPassAssetQueryStartTimeInNs=_secondPassAssetQueryStartTimeInNs;
-@property(nonatomic) unsigned long long secondPassAudioStreamReadyTimeInNs; // @synthesize secondPassAudioStreamReadyTimeInNs=_secondPassAudioStreamReadyTimeInNs;
-@property(nonatomic) unsigned long long secondPassAudioStreamStartTimeInNs; // @synthesize secondPassAudioStreamStartTimeInNs=_secondPassAudioStreamStartTimeInNs;
-@property(nonatomic) unsigned long long secondPassCheckerModelKeywordDetectionEndTimeInNs; // @synthesize secondPassCheckerModelKeywordDetectionEndTimeInNs=_secondPassCheckerModelKeywordDetectionEndTimeInNs;
-@property(nonatomic) unsigned long long secondPassCheckerModelKeywordDetectionStartTimeInNs; // @synthesize secondPassCheckerModelKeywordDetectionStartTimeInNs=_secondPassCheckerModelKeywordDetectionStartTimeInNs;
-@property(nonatomic) unsigned long long secondPassFirstAudioPacketReceptionTimeInNs; // @synthesize secondPassFirstAudioPacketReceptionTimeInNs=_secondPassFirstAudioPacketReceptionTimeInNs;
-@property(nonatomic) unsigned long long secondPassLastAudioPacketReceptionTimeInNs; // @synthesize secondPassLastAudioPacketReceptionTimeInNs=_secondPassLastAudioPacketReceptionTimeInNs;
-@property(nonatomic) float shadowMicScore; // @synthesize shadowMicScore=_shadowMicScore;
-@property(nonatomic) float shadowMicScoreThresholdForVAD; // @synthesize shadowMicScoreThresholdForVAD=_shadowMicScoreThresholdForVAD;
-@property(nonatomic) _Bool siriIsActiveOrOtherAssertion; // @synthesize siriIsActiveOrOtherAssertion=_siriIsActiveOrOtherAssertion;
-@property(nonatomic) float tdSpeakerRecognizerCombinationWeight; // @synthesize tdSpeakerRecognizerCombinationWeight=_tdSpeakerRecognizerCombinationWeight;
-@property(nonatomic) float tdSpeakerRecognizerCombinedScore; // @synthesize tdSpeakerRecognizerCombinedScore=_tdSpeakerRecognizerCombinedScore;
-@property(nonatomic) float tdSpeakerRecognizerCombinedThreshold; // @synthesize tdSpeakerRecognizerCombinedThreshold=_tdSpeakerRecognizerCombinedThreshold;
-@property(nonatomic) float tdSpeakerRecognizerScore; // @synthesize tdSpeakerRecognizerScore=_tdSpeakerRecognizerScore;
-@property(nonatomic) float threshold; // @synthesize threshold=_threshold;
-@property(nonatomic) unsigned long long totalSampleCount; // @synthesize totalSampleCount=_totalSampleCount;
-@property(nonatomic) unsigned long long totalSamplesAtEndOfCapture; // @synthesize totalSamplesAtEndOfCapture=_totalSamplesAtEndOfCapture;
-@property(nonatomic) unsigned long long totalSamplesAtTriggerEnd; // @synthesize totalSamplesAtTriggerEnd=_totalSamplesAtTriggerEnd;
-@property(nonatomic) unsigned long long totalSamplesAtTriggerStart; // @synthesize totalSamplesAtTriggerStart=_totalSamplesAtTriggerStart;
-@property(nonatomic) float triggerDurationInNs; // @synthesize triggerDurationInNs=_triggerDurationInNs;
-@property(nonatomic) unsigned long long triggerEndNs; // @synthesize triggerEndNs=_triggerEndNs;
-@property(nonatomic) unsigned long long triggerEndSampleCount; // @synthesize triggerEndSampleCount=_triggerEndSampleCount;
-@property(nonatomic) double triggerEndTime; // @synthesize triggerEndTime=_triggerEndTime;
-@property(nonatomic) unsigned long long triggerEndTimeOffsetInNs; // @synthesize triggerEndTimeOffsetInNs=_triggerEndTimeOffsetInNs;
-@property(nonatomic) float triggerExplicitSatScore; // @synthesize triggerExplicitSatScore=_triggerExplicitSatScore;
-@property(nonatomic) float triggerExplicitTDSRSatScore; // @synthesize triggerExplicitTDSRSatScore=_triggerExplicitTDSRSatScore;
-@property(nonatomic) unsigned long long triggerFireNs; // @synthesize triggerFireNs=_triggerFireNs;
-@property(nonatomic) unsigned long long triggerFireSampleCount; // @synthesize triggerFireSampleCount=_triggerFireSampleCount;
-@property(nonatomic) unsigned long long triggerFireTimeOffsetInNs; // @synthesize triggerFireTimeOffsetInNs=_triggerFireTimeOffsetInNs;
-@property(nonatomic) double triggerFiredTime; // @synthesize triggerFiredTime=_triggerFiredTime;
-@property(copy, nonatomic) NSString *triggerPhrase; // @synthesize triggerPhrase=_triggerPhrase;
-@property(nonatomic) float triggerScore; // @synthesize triggerScore=_triggerScore;
-@property(nonatomic) unsigned long long triggerStartNs; // @synthesize triggerStartNs=_triggerStartNs;
-@property(nonatomic) unsigned long long triggerStartSampleCount; // @synthesize triggerStartSampleCount=_triggerStartSampleCount;
-@property(nonatomic) double triggerStartTime; // @synthesize triggerStartTime=_triggerStartTime;
-@property(nonatomic) unsigned long long triggerStartTimeOffsetInNs; // @synthesize triggerStartTimeOffsetInNs=_triggerStartTimeOffsetInNs;
-@property(nonatomic) unsigned long long twoShotAudibleFeedbackDelayInNs; // @synthesize twoShotAudibleFeedbackDelayInNs=_twoShotAudibleFeedbackDelayInNs;
-@property(nonatomic) float uptimeInSec; // @synthesize uptimeInSec=_uptimeInSec;
 
 @end
 

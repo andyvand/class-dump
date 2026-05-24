@@ -6,13 +6,12 @@
 
 #import <AuthenticationServices/_ASExtensionViewController.h>
 
-@class NSString, _ASIncomingCallObserver;
+@class _ASIncomingCallObserver;
 @protocol _ASCredentialListViewControllerDelegate;
 
 @interface _ASCredentialListViewController : _ASExtensionViewController
 {
     _ASIncomingCallObserver *_callObserver;
-    id <_ASCredentialListViewControllerDelegate> _delegate;
 }
 
 - (void);
@@ -27,14 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <_ASCredentialListViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

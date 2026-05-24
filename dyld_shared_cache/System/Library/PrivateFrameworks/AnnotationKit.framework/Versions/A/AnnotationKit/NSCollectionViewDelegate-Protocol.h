@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol NSPasteboardWriting;
+
 @protocol NSCollectionViewDelegate
+
+@optional
+- (id <NSPasteboardWriting>);
+- (void)4;
 @end
 

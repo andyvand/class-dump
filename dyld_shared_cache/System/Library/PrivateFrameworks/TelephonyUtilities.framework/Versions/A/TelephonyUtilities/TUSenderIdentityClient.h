@@ -5,12 +5,11 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_queue, TUCoreTelephonyClient;
+@protocol OS_dispatch_queue;
 
 @interface TUSenderIdentityClient
 {
     NSObject<OS_dispatch_queue> *_queue;
-    id <TUCoreTelephonyClient> _client;
 }
 
 - (id);
@@ -36,11 +35,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (void)ilStartCallIntentByHandleForHandles: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)voicemailStartCallIntentByHandleForHandles: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) id <TUCoreTelephonyClient> client; // @synthesize client=_client;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end

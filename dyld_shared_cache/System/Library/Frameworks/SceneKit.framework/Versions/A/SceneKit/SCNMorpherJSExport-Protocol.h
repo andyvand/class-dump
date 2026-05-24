@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, SCNMorpher;
+@class NSArray, NSString;
 
 @protocol SCNMorpherJSExport
+- (NSArray *);
+- (long long)endocannibalism;
+- (void)hasAccentKey = %s;
+- (id)initWithMACAddress:(NSString *)arg1 SSID:BSSID:gatewayIPAddress:gatewayMACAddress: /* Error: Ran out of types for this method. */;
 - (void)"32@0:(NSString *)arg1 8@"MTLStitchedLibraryDescriptor"16^@24;
 - (void)py of the Apache License at
 //
@@ -2116,13 +2120,6 @@ static void OsdComputePerPatchVertexGregory(int3 patchParam, unsigned ID, unsign
 ;
 
 // Remaining properties
-@property(nonatomic) long long calculationMode;
-@property(retain, nonatomic) NSArray *channelTargetCounts;
-@property(retain, nonatomic) NSArray *channelTargetWeights;
-@property(copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) SCNMorpher *presentationMorpher;
 @property(copy, nonatomic) NSArray *targets;
-@property _Bool unifiesNormals;
-@property(retain, nonatomic) NSArray *weights;
 @end
 

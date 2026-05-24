@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject, NSTimer, NSURL;
-@protocol OS_dispatch_queue;
+@class NSTimer, NSURL;
 
 __attribute__((visibility("hidden")))
 @interface WFWeatherStoreCache
 {
     NSURL *_URL;
-    NSTimer *_cacheStoreTimer;
-    NSObject<OS_dispatch_queue> *_cacheConcurrentQueue;
-    NSMutableDictionary *_cacheForDomain;
-    NSMutableSet *_dirtyCacheDomains;
 }
 
 + (id);
@@ -53,18 +48,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)ion menu item or button title (columns layout);
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(retain) NSObject<OS_dispatch_queue> *cacheConcurrentQueue; // @synthesize cacheConcurrentQueue=_cacheConcurrentQueue;
-@property(retain) NSMutableDictionary *cacheForDomain; // @synthesize cacheForDomain=_cacheForDomain;
 @property(retain, nonatomic) NSTimer *cacheStoreTimer; // @synthesize cacheStoreTimer=_cacheStoreTimer;
-@property(retain) NSMutableSet *dirtyCacheDomains; // @synthesize dirtyCacheDomains=_dirtyCacheDomains;
 
 @end
 

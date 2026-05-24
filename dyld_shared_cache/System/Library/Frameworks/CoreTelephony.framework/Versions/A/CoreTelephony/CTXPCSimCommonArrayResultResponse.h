@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
     NSArray *_result;
 }
 
-+ (_Bool);
++ (_Bool)flushSegment can be called only if the delegate method to output segment data is implemented.;
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)b;
+- (void)SData"24@0:(id)arg1 8^@16;
+- (id)unretained Class, __unsafe_unretained Class);
 - (id);
 - (void);
 - (void);

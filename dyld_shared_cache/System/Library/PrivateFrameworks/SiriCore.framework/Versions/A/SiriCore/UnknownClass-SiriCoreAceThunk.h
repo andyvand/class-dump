@@ -4,18 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UnknownClass (SiriCoreAceThunk)
-- (void);
+- (void)Generated Summary:%@ (isUrgent = %@)
+	Flags:%@
+	ConversationNotificationLevel:%ld
+	Category:%@
+	BusinessLogoID:%@
+	IsVIP:%@
+	IsBlocked:%@
+	SearchResultType:%ld
+	SearchRelevanceScore:%@
+	UnsubscribeType:%ld
+	Date:%@
+	DisplayDate:%@
+	Mailboxes:%@
+	Count:%lu
+	SupportsArchiving:%@ 
+	ShouldArchive:%@
+	displayMessageItemID:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

@@ -6,8 +6,7 @@
 
 #import <Silex/SXJSONObject.h>
 
-@class NSString;
-@protocol SXConditionHints, SXConditionalHints;
+@protocol SXConditionHints;
 
 @interface SXHints : SXJSONObject
 {
@@ -16,15 +15,7 @@
 + (Class);
 
 // Remaining properties
-@property(readonly, nonatomic) id <SXConditionalHints> conditionals; // @dynamic conditionals;
 @property(readonly, nonatomic) id <SXConditionHints> conditions; // @dynamic conditions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

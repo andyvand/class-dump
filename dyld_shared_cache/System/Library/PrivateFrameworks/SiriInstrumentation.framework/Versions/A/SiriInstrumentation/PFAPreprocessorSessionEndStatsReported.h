@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PFAProcessedClockStatistics;
+@class PFAProcessedClockStatistics;
 
 @interface PFAPreprocessorSessionEndStatsReported : SISchemaInstrumentationMessage
 {
     PFAProcessedClockStatistics *_offDeviceClockStatistics;
-    _Bool _hasOffDeviceClockStatistics;
 }
 
 - (void);
@@ -24,17 +23,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ts for transfer:(id)arg1 %@;
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)erface;
+- (id)_hasNetworkInterface;
 - (id)rorDomain;
-- (void)l;
+- (void)backgroundNoiseLevel;
 
 // Remaining properties
-@property(nonatomic) _Bool hasOffDeviceClockStatistics; // @synthesize hasOffDeviceClockStatistics=_hasOffDeviceClockStatistics;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) PFAProcessedClockStatistics *offDeviceClockStatistics; // @synthesize offDeviceClockStatistics=_offDeviceClockStatistics;
 
 @end

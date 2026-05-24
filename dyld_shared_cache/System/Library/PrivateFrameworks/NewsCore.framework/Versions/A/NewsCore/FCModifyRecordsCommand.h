@@ -11,8 +11,6 @@
 @interface FCModifyRecordsCommand : FCCommand
 {
     _Bool _merge;
-    CDUnknownBlockType _localRecordsGenerator;
-    NSArray *_localRecords;
 }
 
 + (_Bool);
@@ -33,8 +31,6 @@
 - (void)ask"8@"PARResponse"16@"NSError"24;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *createdOrModifiedRecordIDs;
-@property(readonly, nonatomic) NSArray *deletedRecordIDs;
 @property(readonly, nonatomic) NSArray *t_localRecords;
 
 @end

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _MRNowPlayingPlayerPathProtobuf;
-
 @interface _MRAudioFadeMessageProtobuf
 {
     int _fadeType;
-    _MRNowPlayingPlayerPathProtobuf *_playerPath;
-    struct {
-        unsigned int fadeType:1;
-    } _has;
 }
 
 - (void);
@@ -25,21 +19,18 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)viewDidLoad;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)r NL;
 - (void);
 - (void)r;
 
 // Remaining properties
-@property(nonatomic) int fadeType; // @synthesize fadeType=_fadeType;
-@property(nonatomic) _Bool hasFadeType;
 @property(readonly, nonatomic) _Bool hasPlayerPath;
-@property(retain, nonatomic) _MRNowPlayingPlayerPathProtobuf *playerPath; // @synthesize playerPath=_playerPath;
 
 @end
 

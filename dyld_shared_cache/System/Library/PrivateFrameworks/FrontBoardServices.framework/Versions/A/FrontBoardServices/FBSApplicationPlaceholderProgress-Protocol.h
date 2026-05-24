@@ -7,7 +7,6 @@
 @protocol FBSApplicationPlaceholderProgress
 
 // Remaining properties
-@property(readonly, nonatomic) double percentComplete;
 @property(readonly, nonatomic) long long state;
 @end
 

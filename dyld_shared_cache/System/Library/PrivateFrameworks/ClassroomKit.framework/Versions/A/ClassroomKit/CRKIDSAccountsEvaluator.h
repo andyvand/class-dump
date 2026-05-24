@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKIDSAccountsState, NSArray, NSObject;
+@class CRKIDSAccountsState, NSObject;
 @protocol CRKIDSLocalPrimitives;
 
 @interface CRKIDSAccountsEvaluator
 {
     CRKIDSAccountsState *_state;
-    NSObject<CRKIDSLocalPrimitives> *_IDSLocalPrimitives;
-    NSArray *_observedAccounts;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -28,13 +26,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void)IdentifierWasDeclined: /* Error: Ran out of types for this method. */;
+- (void)6;
+- (void)transferWithIdentifierWasDeclined: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<CRKIDSLocalPrimitives> *IDSLocalPrimitives; // @synthesize IDSLocalPrimitives=_IDSLocalPrimitives;
-@property(copy, nonatomic) NSArray *observedAccounts; // @synthesize observedAccounts=_observedAccounts;
-@property(retain, nonatomic) CRKIDSAccountsState *state; // @synthesize state=_state;
 
 @end
 

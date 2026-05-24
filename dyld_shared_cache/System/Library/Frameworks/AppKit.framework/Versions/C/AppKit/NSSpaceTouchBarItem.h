@@ -6,12 +6,9 @@
 
 #import <AppKit/NSTouchBarItem.h>
 
-@class NSString;
-
 @interface NSSpaceTouchBarItem : NSTouchBarItem
 {
     double _minimumWidth;
-    double _maximumWidth;
 }
 
 + (double);
@@ -21,16 +18,7 @@
 + (id);
 
 // Remaining properties
-@property _Bool appearsInCustomization;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) double maximumWidth; // @synthesize maximumWidth=_maximumWidth;
-@property(readonly) double minimumWidth; // @synthesize minimumWidth=_minimumWidth;
-@property(readonly) Class superclass;
 
 @end
 

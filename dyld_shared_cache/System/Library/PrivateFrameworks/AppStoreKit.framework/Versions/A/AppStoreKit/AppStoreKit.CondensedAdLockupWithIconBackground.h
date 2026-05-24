@@ -7,9 +7,6 @@
 @interface AppStoreKit.CondensedAdLockupWithIconBackground
 {
     id lockup;
-    id backgroundArtwork;
-    id impressionMetrics;
-    id automationMetadata;
 }
 
 @end

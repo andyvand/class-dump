@@ -7,10 +7,6 @@
 @interface PhotosUICore.GenerativeStoryVisualDiagnosticsProvider
 {
     id assets;
-    id photoLibrary;
-    id mediaProvider;
-    id fileName;
-    id maxAssetsToDraw;
 }
 
 - (void);

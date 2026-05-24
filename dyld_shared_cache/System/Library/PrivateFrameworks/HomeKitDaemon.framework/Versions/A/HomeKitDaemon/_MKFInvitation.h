@@ -6,23 +6,23 @@
 
 #import <HomeKitDaemon/_MKFModel.h>
 
-@class MKFInvitationDatabaseID, NSArray, NSDate, NSNumber, NSSet, NSString, NSUUID;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface _MKFInvitation : _MKFModel
 {
 }
 
-+ (id);
++ (id);
 + (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)initWithRawData:(id)arg1 elevationModel: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -31,23 +31,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFInvitationDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSDate *expiryDate; // @dynamic expiryDate;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSUUID *idsIdentifier; // @dynamic idsIdentifier;
-@property(copy, nonatomic) NSNumber *invitationState; // @dynamic invitationState;
-@property(readonly, copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(readonly) Class superclass;
-@property(readonly, retain, nonatomic) NSArray *weekDayScheduleRules;
-@property(retain, nonatomic) NSSet *weekDayScheduleRules_; // @dynamic weekDayScheduleRules_;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
-@property(readonly, retain, nonatomic) NSArray *yearDayScheduleRules;
-@property(retain, nonatomic) NSSet *yearDayScheduleRules_; // @dynamic yearDayScheduleRules_;
 
 @end
 

@@ -6,44 +6,37 @@
 
 #import <AppKit/NSView.h>
 
-@class NSColor, NSImageView, _NSTouchBarColorPickerSwatch;
+@class NSColor, _NSTouchBarColorPickerSwatch;
 
 __attribute__((visibility("hidden")))
 @interface _NSTouchBarColorPickerDoubleTapButton : NSView
 {
     _NSTouchBarColorPickerSwatch *_swatchView;
-    NSImageView *_armedImageView;
-    NSImageView *_successImageView;
-    long long _state;
-    _Bool _prearmed;
-    CDUnknownBlockType _actionHandler;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)copyDeviceTreeProperty:withFirstChar:propertyName:withPropertyFirstChar: /* Error: Ran out of types for this method. */;
+- (_Bool)m.apple.xbs/TemporaryDirectory.0cDdlr/Sources/MobileGestalt/libMobileGestalt/IORegistryUtilities/sysconfig.c;
 - (id);
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long)initWithResponse:dataArray:userInfo:storagePolicy: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (long long);
-- (void);
-- (id);
+- (long long)numPr;
+- (void)NSAppearanceDocumentAttribute;
+- (id)SwiftUITextAnimationProviderClass;
 - (void)Ñä3ð1Â0@ù
 × ;
 - (void)Next aligned value was not aligned. origin = %llu interval = %llu reference = %llu;
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType actionHandler; // @synthesize actionHandler=_actionHandler;
 @property(copy) NSColor *color;
-@property _Bool prearmed; // @synthesize prearmed=_prearmed;
 
 @end
 

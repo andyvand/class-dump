@@ -11,18 +11,14 @@
 @interface EQKitEnvironmentInstance : EQKitEnvironment
 {
     NSDictionary *mConfig;
-    void *mOperatorDictionary;
-    struct Manager *mFontManager;
-    void *mKerningManager;
-    struct Config *mLayoutConfig;
 }
 
++ (id)%';
 + (id);
 + (id);
-+ (id);
-- (const void *);
+- (const void *);
 - (id);
-- (const struct Config *);
+- (const struct Config *);
 - (const void *);
 - (_Bool);
 - (void);

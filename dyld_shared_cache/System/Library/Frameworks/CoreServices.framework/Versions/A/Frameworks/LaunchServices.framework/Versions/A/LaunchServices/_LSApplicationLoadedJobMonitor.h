@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _LSApplicationLoadedJobMonitor
 {
     OSLaunchdJob *_job;
-    CDUnknownBlockType _block;
 }
 
 + (id);
@@ -22,7 +21,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, retain) CDUnknownBlockType block; // @synthesize block=_block;
 @property(readonly, retain) OSLaunchdJob *job; // @synthesize job=_job;
 
 @end

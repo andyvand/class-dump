@@ -20,17 +20,13 @@
 - (id);
 - (id);
 - (void);
-- (void)nWeight3;
+- (void)_locationWeight3;
 - (void)G6È¤G;
-- (struct CGPoint)ter;
-- (void)SearchOverlay;
+- (struct CGPoint)PXCuratedLibraryActionSetAllLibrariesFilter;
+- (void)LemonadeSearchOverlay;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *colors; // @synthesize colors=_colors;
-@property(nonatomic) struct CGPoint endPoint;
 @property(readonly, nonatomic) CAGradientLayer *gradientLayer;
-@property(copy, nonatomic) NSArray *locations;
-@property(nonatomic) struct CGPoint startPoint;
 
 @end
 

@@ -6,15 +6,13 @@
 
 #import <Safari/VisualTabPickerShadowTileView.h>
 
-@class BackgroundColorView, ConfigurableVibrancyImageView;
+@class BackgroundColorView;
 @protocol VisualTabPickerNewTabViewDelegate;
 
 __attribute__((visibility("hidden")))
 @interface VisualTabPickerNewTabView : VisualTabPickerShadowTileView
 {
     BackgroundColorView *_contentView;
-    ConfigurableVibrancyImageView *_imageView;
-    id <VisualTabPickerNewTabViewDelegate> _delegate;
 }
 
 - (void);
@@ -23,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id)ken with error:%{public}@ /* Error: Ran out of types for this method. */;
 - (id)ion tryToTerminate];

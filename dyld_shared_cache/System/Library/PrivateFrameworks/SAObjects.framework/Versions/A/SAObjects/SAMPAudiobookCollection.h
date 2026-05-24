@@ -17,13 +17,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)`;
 - (id);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *artist;
-@property(copy, nonatomic) NSString *sortArtist;
 
 @end
 

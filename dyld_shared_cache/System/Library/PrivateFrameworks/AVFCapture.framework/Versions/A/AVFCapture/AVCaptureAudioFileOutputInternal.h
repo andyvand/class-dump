@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakReference, NSArray, NSDictionary, NSMutableArray, NSString;
+@class AVWeakReference;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureAudioFileOutputInternal
 {
     AVWeakReference *weakReference;
-    NSMutableArray *recordingDelegatesArray;
-    NSArray *availableOutputFileTypes;
-    NSString *lastFileType;
-    NSArray *metadata;
-    NSDictionary *audioSettings;
-    _Bool recording;
-    _Bool paused;
 }
 
 - (void);

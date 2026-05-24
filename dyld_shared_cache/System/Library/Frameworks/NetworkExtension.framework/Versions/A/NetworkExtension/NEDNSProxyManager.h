@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NEConfiguration, NEConfigurationManager, NEDNSProxyProviderProtocol, NEProfileIngestionPayloadInfo, NEVPNConnection, NSObject, NSString, NSUUID;
-@protocol NEDNSProxyManagerDelegate;
+@class NEConfiguration;
 
 @interface NEDNSProxyManager
 {
     _Bool _hasLoaded;
-    NEConfigurationManager *_configurationManager;
-    NEVPNConnection *_connection;
-    NSObject *_statusObserver;
-    NEConfiguration *_configuration;
-    id <NEDNSProxyManagerDelegate> _delegate;
 }
 
 + (void);
@@ -29,32 +23,23 @@
 - (void);
 - (id);
 - (void);
+- (void)p;
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)setOsSupportsAutoHotspot: /* Error: Ran out of types for this method. */;
+- (id)empts;
+- (id)ources/Sharing/Framework/XPC/SFXPCAsyncSequence.swift;
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void)Index: /* Error: Ran out of types for this method. */;
+- (id)_copyForEnumerating;
+- (void)removeObjectAtIndex: /* Error: Ran out of types for this method. */;
 - (id)figurationManager removeConfigurationFromDisk:(int)arg1 completionQueue:(unsigned long long)arg2 completionHandler:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *appBundleIdentifier;
 @property(retain) NEConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) NEProfileIngestionPayloadInfo *configurationPayloadInfo;
-@property __weak id <NEDNSProxyManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(getter=isEnabled) _Bool enabled;
-@property(readonly, nonatomic) NSUUID *identifier;
-@property(readonly, nonatomic, getter=isFromMDM) _Bool isFromMDM;
-@property(readonly, nonatomic, getter=isFromProfile) _Bool isFromProfile;
-@property(copy) NSString *localizedDescription;
-@property(retain) NEDNSProxyProviderProtocol *providerProtocol;
 
 @end
 

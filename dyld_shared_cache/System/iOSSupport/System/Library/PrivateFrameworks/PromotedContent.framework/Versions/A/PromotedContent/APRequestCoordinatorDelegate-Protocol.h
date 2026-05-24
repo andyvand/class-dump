@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSUUID;
+
 @protocol APRequestCoordinatorDelegate
+- (void);
+- (void);
+- (NSUUID *)transferAttributeArraySource:forSourceRange:toDestStorage:objectContext:dolcContext:flags: /* Error: Ran out of types for this method. */;
 @end
 

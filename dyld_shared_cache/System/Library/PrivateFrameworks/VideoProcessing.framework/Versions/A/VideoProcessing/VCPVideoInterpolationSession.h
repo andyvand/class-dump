@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, VCPVideoInterpolationConfiguration;
-@protocol OS_dispatch_queue;
-
 @interface VCPVideoInterpolationSession
 {
     struct VCPCNNVideoEnhancer _enhancer;
-    VCPVideoInterpolationConfiguration *_config;
-    _Bool _scaling;
-    NSObject<OS_dispatch_queue> *_queue;
-    struct CF<__CVPixelBufferPool *> buf_pool_;
-    _Bool _initialized;
-    struct CF<OpaqueVTPixelTransferSession *> transferSession_;
 }
 
 - (void);
 - (int);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)':(id)arg1 JJ
+;
 - (void);
 - (id);
 - (void);

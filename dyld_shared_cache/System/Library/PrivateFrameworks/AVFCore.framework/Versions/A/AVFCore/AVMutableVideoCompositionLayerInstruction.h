@@ -13,14 +13,14 @@
     AVMutableVideoCompositionLayerInstructionInternal *_mutableLayerInstruction;
 }
 
++ (id)@;
 + (id);
-+ (id);
+- (void)EMTAlignmentResult;
+- (void)_EARPronunciationRecognition;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)XE;
 - (void);
 - (int)9ß;
 

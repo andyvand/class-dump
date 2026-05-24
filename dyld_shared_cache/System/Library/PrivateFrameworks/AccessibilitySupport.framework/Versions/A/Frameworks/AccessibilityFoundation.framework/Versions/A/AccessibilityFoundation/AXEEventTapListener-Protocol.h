@@ -5,5 +5,9 @@
 //
 
 @protocol AXEEventTapListener
+
+@optional
+- (void);
+- (struct __CGEvent *);
 @end
 

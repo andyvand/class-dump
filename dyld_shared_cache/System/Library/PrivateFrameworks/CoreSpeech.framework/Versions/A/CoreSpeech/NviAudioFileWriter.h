@@ -9,16 +9,13 @@
 @interface NviAudioFileWriter
 {
     struct OpaqueExtAudioFile *fFile;
-    struct AudioStreamBasicDescription inASBD;
-    struct AudioStreamBasicDescription outASBD;
-    NSURL *_fileURL;
 }
 
 - (id);
+- (void)z!;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void)ges;
+- (void)multilingualKeyboardLanguages;
 - (id)n=%d;
 
 // Remaining properties

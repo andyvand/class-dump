@@ -11,9 +11,6 @@
 @interface PKFelicaAppletHistoryRecord : PKTransitAppletHistoryRecord
 {
     NSNumber *_transactionType;
-    NSNumber *_sectorCombination;
-    NSNumber *_amountType;
-    NSString *_transactionID;
 }
 
 + (_Bool);
@@ -26,18 +23,15 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)addAppearanceStreamOfAnnotation:forPage:toDictionary: /* Error: Ran out of types for this method. */;
+- (void)mailboxRepresentedObjectsForSuggestion:(id)arg1;
 - (void);
-- (void);
 - (id);
-- (id)ns;
+- (id)_supportedBLEUWBProtocolVersions;
 - (void)or"20;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *amountType; // @synthesize amountType=_amountType;
-@property(copy, nonatomic) NSNumber *sectorCombination; // @synthesize sectorCombination=_sectorCombination;
 @property(copy, nonatomic) NSString *transactionID; // @synthesize transactionID=_transactionID;
-@property(copy, nonatomic) NSNumber *transactionType; // @synthesize transactionType=_transactionType;
 
 @end
 

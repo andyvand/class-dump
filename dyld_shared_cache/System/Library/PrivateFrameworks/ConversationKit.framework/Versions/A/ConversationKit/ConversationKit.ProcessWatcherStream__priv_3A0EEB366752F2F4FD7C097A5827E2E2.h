@@ -7,8 +7,6 @@
 @interface ConversationKit.ProcessWatcherStream__priv_3A0EEB366752F2F4FD7C097A5827E2E2
 {
     id displayLayoutMonitor;
-    id watchedBundleIdentifier;
-    id currentStream;
 }
 
 @end

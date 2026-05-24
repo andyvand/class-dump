@@ -7,14 +7,11 @@
 @interface AuthenticationServices.ASAuthorizationAccountCreationPlatformPublicKeyCredential
 {
     id name;
-    id credentialRegistration;
-    id email;
-    id phoneNumber;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)startWatchingTabIfUnverified: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);

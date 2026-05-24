@@ -4,12 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDMediaBrowser;
+@class HMDMediaBrowser, NSArray;
 
 @protocol HMDMediaBrowserDelegate
+- (void)er extractCropRect:(HMDMediaBrowser *)arg1 fromStabilizationResultAttributes:(NSArray *)arg2 error:] /* Error: Ran out of types for this method. */;
 - (void);
 
 @optional
-- (void)ForOperation:(HMDMediaBrowser *)arg1;
+- (void)completeProcessingForOperation:(HMDMediaBrowser *)arg1;
 @end
 

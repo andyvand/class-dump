@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     CKGradientReferenceView *_gradientReferenceView;
 }
 
-- (id);
+- (id);
 - (id)Â0@ù
 × ;
 - (void)ù

@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCollectionLayoutSize, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _NSCollectionLayoutVisualFormatItem
 {
     NSString *_name;
-    NSCollectionLayoutSize *_size;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void)e/internal AppKit method _checkLoaded:rect:highlight:, which is now no longer used. You probably shouldn't have been calling it, but probably needed to for various reasons. <rdar://problem/2152933>. You get one warning. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSCollectionLayoutSize *size; // @synthesize size=_size;
 
 @end
 

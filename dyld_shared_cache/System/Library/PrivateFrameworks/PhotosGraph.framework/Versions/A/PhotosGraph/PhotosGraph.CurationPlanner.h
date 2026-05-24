@@ -7,9 +7,6 @@
 @interface PhotosGraph.CurationPlanner
 {
     id logger;
-    id photoLibrary;
-    id curationPlannerContext;
-    id sources;
 }
 
 @end

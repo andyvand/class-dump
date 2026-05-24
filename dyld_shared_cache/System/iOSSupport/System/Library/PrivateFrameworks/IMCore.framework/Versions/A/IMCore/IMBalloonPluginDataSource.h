@@ -4,42 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DDScannerResult, IMChat, IMPluginDataSourceStagingContext, IMPluginPayload, NSArray, NSMutableSet, NSString, NSURL;
-@protocol IMBalloonPluginDataSourceDelegate;
-
 @interface IMBalloonPluginDataSource
 {
     _Bool _payloadInShelf;
-    _Bool _initialMessageIsFromMe;
-    _Bool _allowedByScreenTime;
-    _Bool _isLast;
-    _Bool _sendEnabled;
-    _Bool _isShowingLatestMessageAsBreadcrumb;
-    _Bool _hasInvalidatedSize;
-    _Bool _parentChatHasAllUnknownRecipients;
-    _Bool _showingLatestMessageAsBreadcrumb;
-    IMChat *_chat;
-    IMPluginPayload *_pluginPayload;
-    NSArray *_associatedPluginPayloads;
-    NSString *_messageGUID;
-    NSString *_sessionGUID;
-    NSURL *_url;
-    DDScannerResult *_dataDetectedResult;
-    NSArray *_attachmentGUIDs;
-    NSURL *_URLToOpenOnTapAction;
-    CDUnknownBlockType _willOpenHandler;
-    NSArray *_pendingAttachmentData;
-    NSMutableSet *_temporaryAttachmentURLs;
-    NSString *__imMessageGUID;
-    NSString *_bundleID;
-    NSArray *_consumedPayloads;
-    IMPluginDataSourceStagingContext *_stagingContext;
-    id <IMBalloonPluginDataSourceDelegate> _pluginDataSourceDelegate;
-    NSString *_guidOfLastMessageInSession;
-    long long _messageIDOfLastMessageInSession;
 }
 
-+ (id);
++ (id)n;
 + (_Bool);
 + (id);
 + (id);

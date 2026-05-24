@@ -6,12 +6,11 @@
 
 #import <TextRecognition/CRTextDetectorModelV3Output.h>
 
-@class VisionCoreE5RTInferenceFunctionDescriptor, VisionCoreNamedObjects;
+@class VisionCoreNamedObjects;
 
 @interface CRTextDetectorModelV3OutputLazy : CRTextDetectorModelV3Output
 {
     VisionCoreNamedObjects *_outputObjects;
-    VisionCoreE5RTInferenceFunctionDescriptor *_functionDescriptor;
 }
 
 - (id);
@@ -19,10 +18,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void)e=dd}}16q24@32d40d48d56d64d72;
 
 @end

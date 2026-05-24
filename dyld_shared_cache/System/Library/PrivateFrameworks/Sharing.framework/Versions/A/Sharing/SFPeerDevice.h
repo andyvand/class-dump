@@ -9,16 +9,6 @@
 @interface SFPeerDevice
 {
     _Bool _defaultPairedDevice;
-    _Bool _validKey;
-    NSString *_uniqueID;
-    NSString *_modelIdentifier;
-    NSString *_productName;
-    NSString *_productVersion;
-    NSString *_productBuildVersion;
-    NSString *_name;
-    NSString *_deviceColor;
-    NSString *_enclosureColor;
-    long long _keyCounter;
 }
 
 + (_Bool);
@@ -31,7 +21,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (unsigned long long);
@@ -43,8 +33,8 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void)tDetection:(id)arg1;
+- (id);
+- (void)setSupportsCounterfeitDetection:(id)arg1;
 - (void);
 - (void);
 - (id);
@@ -52,17 +42,7 @@
 - (id)%s allowDisabledExtensions:%s isCollaborative:%s collaborationCloudSharingRequest:%@ > /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(getter=isDefaultPairedDevice) _Bool defaultPairedDevice; // @synthesize defaultPairedDevice=_defaultPairedDevice;
-@property(copy) NSString *deviceColor; // @synthesize deviceColor=_deviceColor;
-@property(copy) NSString *enclosureColor; // @synthesize enclosureColor=_enclosureColor;
-@property long long keyCounter; // @synthesize keyCounter=_keyCounter;
-@property(copy) NSString *modelIdentifier; // @synthesize modelIdentifier=_modelIdentifier;
-@property(copy) NSString *name; // @synthesize name=_name;
-@property(copy) NSString *productBuildVersion; // @synthesize productBuildVersion=_productBuildVersion;
-@property(copy) NSString *productName; // @synthesize productName=_productName;
-@property(copy) NSString *productVersion; // @synthesize productVersion=_productVersion;
 @property(copy) NSString *uniqueID; // @synthesize uniqueID=_uniqueID;
-@property _Bool validKey; // @synthesize validKey=_validKey;
 
 @end
 

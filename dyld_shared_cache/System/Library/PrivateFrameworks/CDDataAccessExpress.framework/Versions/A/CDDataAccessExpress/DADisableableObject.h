@@ -10,7 +10,7 @@
 }
 
 - (void);
-- (void);
+- (void);
 - (_Bool);
 
 // Remaining properties

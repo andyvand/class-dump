@@ -9,8 +9,6 @@
 @interface PGMusicCurationInflationContext
 {
     id cache;
-    id shouldForceMetadataRefetch;
-    void actionSource;
 }
 
 + (id);

@@ -6,14 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIHexagonalPixellate : CIFilter
 {
     CIImage *inputImage;
-    CIVector *inputCenter;
-    NSNumber *inputScale;
 }
 
 + (id);
@@ -27,9 +25,7 @@ __attribute__((visibility("hidden")))
 - (id)n||ssosnnnnYmfud|}}y|cvu~hlip_kkkC[Uc;MAaipnvfxtmh_mG[QcJc\jbtstttttJ^TkL`Wn~~~~~~~~ttttwvuwyzw}yvr|~`mg{Wsoo~}Zh_rXaVmdlet}}}}]uoZlevNd\nttttttttjhcjGWN^LUMVQQGQKSJS[[U[4SHfRke{Lkb{arkyppppDXO_SYQ\bb`bllgltvsy¢¡¢¢­­­­©ªªªdh_nNaVmv§§§§r}zsmfs]icossssyyyyuuuueeeeQTQTPPOPMVRVCXP_N_VlJf_|l}yr}¡ukup]oi{{zx{x~~~}}}}jsssP`XjJc]pp~;
 
 // Remaining properties
-@property(retain, nonatomic) CIVector *inputCenter; // @synthesize inputCenter;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputScale; // @synthesize inputScale;
 
 @end
 

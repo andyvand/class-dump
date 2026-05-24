@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
-- (_Bool);
+- (id)set_TCPAdaptiveReadTimeout:(id)arg1;
+- (_Bool)ctedToWrite:(id)arg1;
 
 @end
 

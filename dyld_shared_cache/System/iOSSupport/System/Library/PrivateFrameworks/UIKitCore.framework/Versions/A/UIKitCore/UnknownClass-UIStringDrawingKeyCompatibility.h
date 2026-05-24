@@ -9,7 +9,7 @@
 - (id);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 @end

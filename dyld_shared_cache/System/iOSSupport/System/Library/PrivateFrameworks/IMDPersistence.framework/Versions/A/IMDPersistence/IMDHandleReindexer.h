@@ -7,8 +7,6 @@
 @interface IMDHandleReindexer
 {
     id configuration;
-    id handles;
-    id reason;
 }
 
 - (id);

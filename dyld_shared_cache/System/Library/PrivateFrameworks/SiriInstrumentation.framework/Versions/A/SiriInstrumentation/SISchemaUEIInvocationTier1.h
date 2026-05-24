@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface SISchemaUEIInvocationTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSString *_typedText;
-    _Bool _hasLinkId;
-    _Bool _hasTypedText;
 }
 
 - (id);
@@ -22,28 +19,24 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)reauthenticate:(id)arg1 callback:__JS_EXPORT_AS__reauthenticate: /* Error: Ran out of types for this method. */;
+- (void)prepareImageForDescriptor:(_Bool)arg1;
+- (id)initWithBeneficiaryName:accessKeyShareType: /* Error: Ran out of types for this method. */;
+- (_Bool)codeView;
+- (id);
+- (id);
 - (void);
-- (void);
-- (id);
+- (unsigned long long)encodeInt32:forKey: /* Error: Ran out of types for this method. */;
 - (_Bool);
+- (_Bool)dRoots/4~CN4kugAG2sfPAn4RIPhda0kDGxz-sNUlGSu45C4/Library/Caches/com.apple.xbs/TemporaryDirectory.sfEDjv/Sources/MessagesCore/IMCore/IMDPersistence/Source/IMDSqlOperationUtilities.m;
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id)ailureResponseCount;
+- (id)deleteFailureResponseCount;
 - (id)_hasCarModel;
-- (void)APPINTENT_GENERATE_RICH_CONTENT_FROM_MEDIA_INTENT_TOOL;
+- (void)NLROUTERDECISIONGENAIAPPINTENT_GENERATE_RICH_CONTENT_FROM_MEDIA_INTENT_TOOL;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasTypedText; // @synthesize hasTypedText=_hasTypedText;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSString *typedText; // @synthesize typedText=_typedText;
 
 @end
 

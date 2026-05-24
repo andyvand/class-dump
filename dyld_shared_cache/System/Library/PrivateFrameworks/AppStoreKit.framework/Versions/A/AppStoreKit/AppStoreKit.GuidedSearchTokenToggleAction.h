@@ -9,7 +9,6 @@
 @interface AppStoreKit.GuidedSearchTokenToggleAction : AppStoreKit.Action
 {
     id targetToken;
-    id searchOrigin;
 }
 
 @end

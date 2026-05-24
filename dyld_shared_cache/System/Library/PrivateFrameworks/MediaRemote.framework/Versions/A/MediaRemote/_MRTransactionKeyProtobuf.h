@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _MRTransactionKeyProtobuf
 {
     NSString *_identifier;
-    NSData *_userData;
 }
 
 - (_Bool);
@@ -17,23 +16,20 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)te buffer with size %zu;
+- (id)pare.end;
+- (id);
 - (_Bool);
-- (void)hip;
+- (void)canModifyGroupMembership;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasUserData;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSData *userData; // @synthesize userData=_userData;
 
 @end
 

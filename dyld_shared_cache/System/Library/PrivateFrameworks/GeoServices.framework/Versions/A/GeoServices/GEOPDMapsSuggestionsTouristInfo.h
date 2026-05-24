@@ -10,19 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDMapsSuggestionsTouristInfo
 {
     PBUnknownFields *_unknownFields;
-    double _isTourist;
-    struct {
-        unsigned int has_isTourist:1;
-    } _flags;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)C;
 - (_Bool);
 - (id)DymSuggestion"b1"has_supportSearchEnrichment"b1"has_supportSearchResultSection"b1"has_supportStructuredRapAffordance"b1"has_supportUnresolvedDirectionIntent"b1"read_unknownFields"b1"read_knownRefinementTypes"b1"read_supportedPlaceSummaryFormatTypes"b1"read_supportedRelatedEntitySectionTypes"b1"read_supportedSearchSectionTypes"b1"read_supportedSearchTierTypes"b1"read_enrichmentCampaignNamespace"b1"read_etaFilter"b1"read_evChargingParameters"b1"read_inferredSignals"b1"read_mostRecentAutocompleteRequestSessionData"b1"read_paginationParameters"b1"read_previousSearchViewport"b1"read_punchInHints"b1"read_recentRouteInfo"b1"read_resultRefinementQuery"b1"read_retainedSearch"b1"read_searchEnrichmentRequestMetadata"b1"read_searchEnrichmentRevisionMetadatas"b1"read_searchFilter"b1"read_searchLocationParameters"b1"read_searchLocation"b1"read_searchOriginationInfo"b1"read_searchSessionData"b1"read_searchString"b1"read_searchStructureIntentType"b1"read_sessionUserActionMetadata"b1"read_suggestionEntryMetadata"b1"read_suggestionEntry"b1"read_suggestionMetadata"b1"read_viewportInfo"b1"wrote_anyField"b1};
-- (id)e:scale:outSize: /* Error: Ran out of types for this method. */;
+- (id)_fromgeod_maximumZoomLevelForStyle:scale:outSize: /* Error: Ran out of types for this method. */;
 - (id)";
 - (void)¾Á&Sñ?ôÛ×s	@;
 

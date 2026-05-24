@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSSet;
+@class NSIndexSet;
 
 @interface AMSURLResponseDecoder
 {
     NSIndexSet *_allowedStatusCodes;
-    NSSet *_allowedContentTypes;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)V_authorizationStyle;
+- (id)@"NSIndexSet",&,N,V_itemsIndices;
 - (id);
 - (void)dÔùp ~º#ObÑ~¤[äE¦«§jQ¡¥÷é+X\\ùìò;
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *allowedContentTypes; // @synthesize allowedContentTypes=_allowedContentTypes;
 @property(copy, nonatomic) NSIndexSet *allowedStatusCodes; // @synthesize allowedStatusCodes=_allowedStatusCodes;
 
 @end

@@ -6,42 +6,37 @@
 
 #import <UIKitCore/_UIKBRTKeyboardTouchObserver.h>
 
-@class NSMapTable, NSMutableDictionary, UIView, _UIKBRTFingerDetectionView, _UIKBRTFingerInfo;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIKBRTFingerDetection : _UIKBRTKeyboardTouchObserver
 {
     UIView *_feedbackParentView;
-    _UIKBRTFingerDetectionView *_feedbackView;
-    NSMapTable *_fingerFeedbackViewMap;
-    NSMutableDictionary *_touches;
-    _UIKBRTFingerInfo *_fakeLeftIndex;
-    _UIKBRTFingerInfo *_fakeRightIndex;
 }
 
-- (void);
+- (void)ndation;
 - (struct CGPoint);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)unreadMessagesWithHandles:(id)arg1 onServices:(struct CGPoint)arg2 limit:(double)arg3 fallbackGUID:(double)arg4;
+- (id)handleRelayEncryptionFailureForRelayMessageID:(id)arg1;
+- (id)handleRecoverJunkCommandWithPipeline:input:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)groupPhotoUploadFailureCount;
+- (id)groupParticipantConvergenceResultForUpdateType:context: /* Error: Ran out of types for this method. */;
+- (id)getCollaborationHighlightForURL:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)getCollaborationHighlightForURL:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_adaptiveImageGlyphFileTransferGUIDsInMessageItem:(struct CGPoint)arg1;
+- (void)T@"IMDOffGridAvailabilityTracker",R,N;
+- (void)tore",R,N,V_messageStore;
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)s !!, idsAccount %@ registeredURIs %@;
+- (unsigned long long)le:(id)arg1 italic;;
 - (id);
 - (void);
 - (void);
@@ -51,12 +46,7 @@ __attribute__((visibility("hidden")))
 - (void)0ÒR0=43À`;
 
 // Remaining properties
-@property(retain, nonatomic) _UIKBRTFingerInfo *fakeLeftIndex; // @synthesize fakeLeftIndex=_fakeLeftIndex;
-@property(retain, nonatomic) _UIKBRTFingerInfo *fakeRightIndex; // @synthesize fakeRightIndex=_fakeRightIndex;
 @property(nonatomic) UIView *feedbackParentView; // @synthesize feedbackParentView=_feedbackParentView;
-@property(retain, nonatomic) _UIKBRTFingerDetectionView *feedbackView; // @synthesize feedbackView=_feedbackView;
-@property(retain, nonatomic) NSMapTable *fingerFeedbackViewMap; // @synthesize fingerFeedbackViewMap=_fingerFeedbackViewMap;
-@property(retain, nonatomic) NSMutableDictionary *touches; // @synthesize touches=_touches;
 
 @end
 

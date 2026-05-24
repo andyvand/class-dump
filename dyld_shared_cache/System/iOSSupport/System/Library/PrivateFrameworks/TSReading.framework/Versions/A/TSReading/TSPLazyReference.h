@@ -4,36 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TSPComponent, TSPObject;
+@class TSPObject;
 @protocol TSPLazyReferenceDelegate;
 
 @interface TSPLazyReference
 {
     TSPObject *_strongObject;
-    TSPObject *_weakObject;
-    _Bool _isWeak;
-    _Bool _allowUnknownObject;
-    id <TSPLazyReferenceDelegate> _delegate;
-    long long _identifier;
-    TSPComponent *_component;
 }
 
 + (id);
+- (id)bagWaitTime;
+- (void)issing from delegate info:(id)arg1;
+- (void)ompleting monitored event if required [Pausing in ;
+- (_Bool)interstitialDidEnd:(id)arg1;
 - (id);
-- (void);
+- (_Bool)chapters;
+- (id);
+- (id);
+- (_Bool);
+- (void) %;
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (void);
@@ -45,14 +39,7 @@
 - (id)Ó*;
 
 // Remaining properties
-@property(nonatomic) __weak TSPComponent *component; // @synthesize component=_component;
 @property(nonatomic) __weak id <TSPLazyReferenceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) long long identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isWeak; // @synthesize isWeak=_isWeak;
-@property(readonly, nonatomic) id object;
-@property(readonly, nonatomic) id objectIfLoaded;
-@property(retain, nonatomic) TSPObject *strongObject;
-@property(readonly, nonatomic) TSPObject *weakObject;
 
 @end
 

@@ -9,26 +9,20 @@
 @interface NSStoryboardSegueTemplate
 {
     NSString *_identifier;
-    NSString *_segueClassName;
-    NSStoryboard *_storyboard;
-    id _controller;
-    NSString *_destinationControllerIdentifier;
-    _Bool _performOnViewLoad;
-    NSString *_destinationControllerCreationSelectorName;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)C;
 - (_Bool);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (Class);
+- (Class);
 - (id);
-- (void);
-- (id);
+- (void)ppWakeUUID %@ does not match uuid %@ for session %@ with identifier %@;
+- (id)@;
 - (id);
 - (void);
 - (void);
@@ -38,11 +32,6 @@
 - (void)¡;
 
 // Remaining properties
-@property __weak id controller; // @synthesize controller=_controller;
-@property(readonly) NSString *destinationControllerCreationSelectorName; // @synthesize destinationControllerCreationSelectorName=_destinationControllerCreationSelectorName;
-@property(readonly) NSString *destinationControllerIdentifier; // @synthesize destinationControllerIdentifier=_destinationControllerIdentifier;
-@property(readonly) NSString *identifier; // @synthesize identifier=_identifier;
-@property _Bool performOnViewLoad; // @synthesize performOnViewLoad=_performOnViewLoad;
 @property(retain) NSStoryboard *storyboard; // @synthesize storyboard=_storyboard;
 
 @end

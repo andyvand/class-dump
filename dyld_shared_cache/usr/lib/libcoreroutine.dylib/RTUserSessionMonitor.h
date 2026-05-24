@@ -23,7 +23,6 @@
 - (void)cy, %.2f;
 
 // Remaining properties
-@property(readonly, getter=activeUser) _Bool activeUser;
 @property(nonatomic) _Bool previouslyActiveUser; // @synthesize previouslyActiveUser=_previouslyActiveUser;
 
 @end

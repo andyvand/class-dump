@@ -9,7 +9,7 @@
 @protocol UIScrollViewDelegate
 
 @optional
-- (void)edTextForFittingSize:(UIScrollView *)arg1 boundsSize: /* Error: Ran out of types for this method. */;
+- (void)_updateAttributedTextForFittingSize:(UIScrollView *)arg1 boundsSize: /* Error: Ran out of types for this method. */;
 - (UIView *)erforming action for shortcut item:(UIScrollView *)arg1 %@;
 - (void);
 @end

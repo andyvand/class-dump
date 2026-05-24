@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id)
 × ;
-- (id)ot:(id)arg1;
+- (id)_transformSectionIndex:(id)arg1 applyingUpdateItem:(id)arg2 withSnapshot: /* Error: Ran out of types for this method. */;
 - (id);
 - (id)0ìg;
 

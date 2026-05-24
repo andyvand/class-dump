@@ -15,7 +15,7 @@
 + (id);
 + (id);
 - (id);
-- (_Bool);
+- (_Bool)l request personal voice TCC:(id)arg1 %@;
 
 @end
 

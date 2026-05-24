@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PGMeaningPeopleCriteria
 {
     _Bool _requiresPetPresence;
-    _Bool _requiresChildPresence;
-    _Bool _requiresPartnerPresence;
-    unsigned long long _minimumNumberOfPeople;
 }
 
++ (id)P;
 + (id);
-+ (id);
 - (void);
 - (void);
 - (void);
@@ -25,22 +20,12 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)ect={CGPoint=dd}{CGSize=dd}}16;
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long minimumNumberOfPeople; // @synthesize minimumNumberOfPeople=_minimumNumberOfPeople;
-@property(nonatomic) _Bool requiresChildPresence; // @synthesize requiresChildPresence=_requiresChildPresence;
-@property(nonatomic) _Bool requiresPartnerPresence; // @synthesize requiresPartnerPresence=_requiresPartnerPresence;
-@property(nonatomic) _Bool requiresPetPresence; // @synthesize requiresPetPresence=_requiresPetPresence;
-@property(readonly) Class superclass;
 
 @end
 

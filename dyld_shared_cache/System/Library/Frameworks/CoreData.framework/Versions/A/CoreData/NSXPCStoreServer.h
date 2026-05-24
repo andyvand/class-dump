@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSManagedObjectModel, NSMapTable, NSMutableDictionary, NSString, NSURL, NSXPCListener, NSXPCStoreServerRequestHandlingPolicy;
 @protocol NSXPCStoreServerDelegate;
 
 @interface NSXPCStoreServer
 {
     id _delegate;
-    NSURL *_modelURL;
-    NSManagedObjectModel *_model;
-    NSURL *_storeURL;
-    NSDictionary *_storeOptions;
-    NSArray *_entitlementNames;
-    NSXPCListener *_listener;
-    NSXPCStoreServerRequestHandlingPolicy *_policy;
-    NSMapTable *_connectionToCoordinatorMap;
-    NSMutableDictionary *_cacheIDtoCoordinatorMap;
 }
 
-+ (unsigned long long);
++ (unsigned long long);
 + (void)madeChanges:error:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
@@ -31,21 +21,14 @@
 - (void);
 - (_Bool);
 - (id);
-- (void)rdBytesMetric;
+- (void)PFCloudKitFetchedRecordBytesMetric;
 - (void)ta:error:Prefetching inverse to-one relationship "%@".
  /* Error: Ran out of types for this method. */;
 - (id)ort a failure reason.
 ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(retain, nonatomic) id <NSXPCStoreServerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

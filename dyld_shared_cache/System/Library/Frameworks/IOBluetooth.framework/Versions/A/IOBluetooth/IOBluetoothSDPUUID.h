@@ -9,7 +9,6 @@
 @interface IOBluetoothSDPUUID
 {
     NSData *mUUIDData;
-    void *_mReserved;
 }
 
 + (id);
@@ -25,15 +24,15 @@
 - (id);
 - (Class);
 - (id);
-- (unsigned long long);
+- (unsigned long long)!;
+- (Class)$;
 - (Class);
-- (Class);
-- (const void *);
-- (void);
+- (const void *);
+- (void)*;
 - (id);
 - (void);
 - (id)16Q24^Q32;
-- (_Bool)ndFileProgress:(id)arg1 transferProgress: /* Error: Ran out of types for this method. */;
+- (_Bool)fileTransferServicesSendFileProgress:(id)arg1 transferProgress: /* Error: Ran out of types for this method. */;
 
 @end
 

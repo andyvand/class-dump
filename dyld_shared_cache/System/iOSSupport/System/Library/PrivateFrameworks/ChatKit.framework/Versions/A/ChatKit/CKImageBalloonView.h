@@ -6,81 +6,65 @@
 
 #import <ChatKit/CKObscurableBalloonView.h>
 
-@class CAGradientLayer, CKAnimatedImage, ChatKit.CKBalloonLayer, ChatKit.CKBalloonMaskLayer, NSArray, NSString, UIImageView, UIView;
-
 @interface CKImageBalloonView : CKObscurableBalloonView
 {
     _Bool _suppressMask;
-    _Bool _userExplicitlyUnpausedAnimation;
-    _Bool _isIrisAsset;
-    _Bool _isMonoskiAsset;
-    _Bool _scheduled;
-    CKAnimatedImage *_animatedImage;
-    UIImageView *_irisBadgeView;
-    UIView *_monoskiBadgeView;
-    NSArray *_frames;
-    UIImageView *_imageContentView;
-    UIView *_gradientView;
-    CAGradientLayer *_gradientLayer;
-    unsigned long long _animationFrameOffset;
-    ChatKit.CKBalloonMaskLayer *_imageContentViewMaskLayer;
-    ChatKit.CKBalloonLayer *_imageContentBackdropBalloonLayer;
 }
 
 + (_Bool);
+- (void)frameByApplyingVerticalReductionTo:edge: /* Error: Ran out of types for this method. */;
+- (void)forcesBiometricAuthentication;
+- (_Bool)applicationDocumentsURL;
+- (struct CGSize)_shouldIncludeMathNotes;
+- (_Bool)_collaborationAnalyticsTracker;
+- (_Bool)_clickGestureRecognizer;
+- (void)Highlights,V_aboveExistingHighlights;
+- (void)hTable",&,N,V_inlineDrawingViews;
+- (void)ControllerDelegate>",W,N,V_delegate;
+- (void);
+- (void)_TtC7NotesUIP33_7B61C87D5F1EF51EE56142734628054A12ShareMetrics;
+- (void)ICCollaborationAnalyticsTrackerInternal;
+- (void)NoteAttachmentPresentation;
 - (void);
 - (void);
 - (_Bool);
-- (struct CGSize);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (Class);
+- (_Bool)w;
+- (id)b;
+- (void)e;
+- (void)n;
+- (void)L;
+- (Class)l;
+- (id)e;
+- (id)";
+- (struct CKBalloonDescriptor_t)u;
 - (id);
-- (id);
-- (struct CKBalloonDescriptor_t);
-- (id);
-- (struct CKBalloonDescriptor_t);
+- (struct CKBalloonDescriptor_t)U;
 - (double);
+- (id)";
+- (void);
+- (void)dex should greater than 0 and less than arrangedObjects.count.;
+- (void)ew using `ic_animateFromArrangedObjects:(id)arg1 toArrangedObjects:duration:completion:`. Calling reloadData instead. %@ /* Error: Ran out of types for this method. */;
+- (void)indexableText.length=%ld;
+- (void)dexable text for %@;
+- (void)hment:(id)arg1 %@;
+- (void):%@ /* Error: Ran out of types for this method. */;
+- (void)chment"8{_NSRange=QQ}16^B32;
+- (unsigned long long)ons;
+- (_Bool)ne state;
+- (struct UIEdgeInsets)SFont"8{_NSRange=QQ}16^B32;
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (struct UIEdgeInsets);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (BOOL);
 - (void);
 - (void);
 - (void);
 - (id);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)R;
 - (void);
 - (void);
 - (id);
@@ -89,7 +73,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)9;
 - (void);
 - (id);
 - (void);
@@ -101,37 +85,14 @@
 - (id);
 - (_Bool);
 - (id);
-- (void)ts;
-- (void);
+- (void)parts;
+- (void)CKKeyTransparencyStatusChatItem;
 - (struct UIEdgeInsets);
 - (void)Ä;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CKAnimatedImage *animatedImage; // @synthesize animatedImage=_animatedImage;
-@property(nonatomic) unsigned long long animationFrameOffset; // @synthesize animationFrameOffset=_animationFrameOffset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *frames; // @synthesize frames=_frames;
-@property(retain, nonatomic) CAGradientLayer *gradientLayer; // @synthesize gradientLayer=_gradientLayer;
-@property(retain, nonatomic) UIView *gradientView; // @synthesize gradientView=_gradientView;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double imageAlpha;
-@property(retain, nonatomic) ChatKit.CKBalloonLayer *imageContentBackdropBalloonLayer; // @synthesize imageContentBackdropBalloonLayer=_imageContentBackdropBalloonLayer;
-@property(retain, nonatomic) UIImageView *imageContentView; // @synthesize imageContentView=_imageContentView;
-@property(retain, nonatomic) ChatKit.CKBalloonMaskLayer *imageContentViewMaskLayer; // @synthesize imageContentViewMaskLayer=_imageContentViewMaskLayer;
-@property(readonly, nonatomic) struct UIEdgeInsets imageInsets;
-@property(retain, nonatomic) UIImageView *irisBadgeView; // @synthesize irisBadgeView=_irisBadgeView;
-@property(nonatomic) _Bool isIrisAsset; // @synthesize isIrisAsset=_isIrisAsset;
-@property(nonatomic) _Bool isMonoskiAsset; // @synthesize isMonoskiAsset=_isMonoskiAsset;
-@property(retain, nonatomic) UIView *monoskiBadgeView; // @synthesize monoskiBadgeView=_monoskiBadgeView;
-@property(nonatomic, getter=isScheduled) _Bool scheduled; // @synthesize scheduled=_scheduled;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool suppressMask; // @synthesize suppressMask=_suppressMask;
-@property(nonatomic) _Bool userExplicitlyUnpausedAnimation; // @synthesize userExplicitlyUnpausedAnimation=_userExplicitlyUnpausedAnimation;
+@property(nonatomic) _Bool suppressMask;
 
 @end
 

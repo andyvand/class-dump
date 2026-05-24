@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString;
+@class NSArray;
 
 @interface CSInlineDonation
 {
     _Bool _deleteAllItems;
-    _Bool _isInlineCacheEnabled;
-    unsigned long long _donationTimestamp;
-    NSArray *_addOrUpdateItems;
-    NSArray *_deleteItemIdentifiers;
-    NSArray *_deleteDomainIdentifiers;
-    NSDictionary *_associatedTextContent;
-    NSDictionary *_associatedHTMLContent;
-    NSString *_clientStateName;
-    NSData *_updatedClientState;
-    NSData *_expectedClientState;
-    unsigned long long _itemsDataSize;
-    NSString *_sourceIdentifier;
-    long long _donationType;
-    NSString *_donationName;
 }
 
 + (_Bool);
@@ -32,7 +18,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)__DATA_CONST;
 - (id);
 - (void);
 - (unsigned long long);
@@ -47,7 +33,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -61,20 +47,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *addOrUpdateItems; // @synthesize addOrUpdateItems=_addOrUpdateItems;
-@property(readonly, nonatomic) NSDictionary *associatedHTMLContent; // @synthesize associatedHTMLContent=_associatedHTMLContent;
-@property(readonly, nonatomic) NSDictionary *associatedTextContent; // @synthesize associatedTextContent=_associatedTextContent;
-@property(readonly, nonatomic) NSString *clientStateName; // @synthesize clientStateName=_clientStateName;
-@property(readonly, nonatomic) _Bool deleteAllItems; // @synthesize deleteAllItems=_deleteAllItems;
-@property(readonly, nonatomic) NSArray *deleteDomainIdentifiers; // @synthesize deleteDomainIdentifiers=_deleteDomainIdentifiers;
-@property(readonly, nonatomic) NSArray *deleteItemIdentifiers; // @synthesize deleteItemIdentifiers=_deleteItemIdentifiers;
-@property(readonly, nonatomic) NSString *donationName; // @synthesize donationName=_donationName;
-@property(readonly, nonatomic) unsigned long long donationTimestamp; // @synthesize donationTimestamp=_donationTimestamp;
-@property(readonly, nonatomic) long long donationType; // @synthesize donationType=_donationType;
-@property(readonly, nonatomic) NSData *expectedClientState; // @synthesize expectedClientState=_expectedClientState;
-@property(readonly, nonatomic) _Bool isInlineCacheEnabled; // @synthesize isInlineCacheEnabled=_isInlineCacheEnabled;
-@property(readonly, nonatomic) unsigned long long itemsDataSize; // @synthesize itemsDataSize=_itemsDataSize;
-@property(readonly, nonatomic) NSString *sourceIdentifier; // @synthesize sourceIdentifier=_sourceIdentifier;
-@property(readonly, nonatomic) NSData *updatedClientState; // @synthesize updatedClientState=_updatedClientState;
 
 @end
 

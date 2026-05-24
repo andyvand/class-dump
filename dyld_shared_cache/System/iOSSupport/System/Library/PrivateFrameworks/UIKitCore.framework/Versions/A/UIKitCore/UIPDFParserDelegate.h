@@ -4,35 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface UIPDFParserDelegate
 {
     struct CGPoint _p[4];
-    struct CGPath *_path;
-    _Bool _parserError;
 }
 
 - (void);
-- (void);
-- (void);
+- (void)R";
+- (void)_payloadAllowTVProviderModification;
 - (void);
 - (id);
-- (_Bool)Delegate;
+- (_Bool)UISceneDelegate;
 - (void)xQ¼Q;
 - (struct CGPath *);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool parserError; // @synthesize parserError=_parserError;
 @property(readonly) struct CGPath *path; // @dynamic path;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,7 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class EKEvent, NSString;
+
 @protocol DockableEventContainerControllerDelegate
+- (EKEvent *);
+- (NSString *)&s;
 
 // Remaining properties
 @property(nonatomic) _Bool dockable;

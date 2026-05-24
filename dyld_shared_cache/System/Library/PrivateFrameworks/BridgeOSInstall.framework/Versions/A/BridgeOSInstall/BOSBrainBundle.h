@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BOSBundleComponentVersion, NSBundle, NSString;
+@class NSBundle, NSString;
 
 @interface BOSBrainBundle
 {
     NSString *_bundleIdentifier;
-    BOSBundleComponentVersion *_bundleVersion;
-    NSBundle *_bundle;
 }
 
 - (id);
@@ -26,9 +24,6 @@
 
 // Remaining properties
 @property(retain) NSBundle *bundle; // @synthesize bundle=_bundle;
-@property(retain) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain) BOSBundleComponentVersion *bundleVersion; // @synthesize bundleVersion=_bundleVersion;
-@property(readonly) NSString *payloadArchivePath;
 
 @end
 

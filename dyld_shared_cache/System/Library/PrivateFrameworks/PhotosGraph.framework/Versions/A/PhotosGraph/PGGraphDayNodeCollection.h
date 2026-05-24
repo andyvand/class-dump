@@ -12,7 +12,8 @@
 
 + (id);
 + (id);
-+ (unsigned long long);
++ (unsigned long long)must be an unsigned 16-bit quantity
+;
 
 @end
 

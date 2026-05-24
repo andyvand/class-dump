@@ -9,15 +9,14 @@
 @interface GEOLogMsgEventNetworkEventSummary
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_groups;
 }
 
-+ (Class);
-+ (_Bool)alidDistanceOffsetCm:(id)arg1;
++ (Class)*;
++ (_Bool)setHasStartValidDistanceOffsetCm:(id)arg1;
 - (unsigned long long);
 - (id);
-- (void);
-- (void);
+- (void)initWithQueue: /* Error: Ran out of types for this method. */;
+- (void)_cn_any:(id)arg1;
 - (void);
 - (id);
 - (id);
@@ -26,10 +25,10 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ID %@;
 - (_Bool);
 - (void);
-- (id)ields:(struct _NSZone *)arg1;
+- (id)setSupportsGuidanceEventsInlineShields:(struct _NSZone *)arg1;
 - (id)dataDefault",&,N;
 - (id)e. Returning.;
 - (id)ÿÿ;
@@ -39,7 +38,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *groups;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

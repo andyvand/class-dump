@@ -9,8 +9,6 @@
 @interface EMTAlternativeSelectionSpan
 {
     NSArray *_alternatives;
-    struct _NSRange _source;
-    struct _NSRange _projection;
 }
 
 - (id);
@@ -21,8 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *alternatives; // @synthesize alternatives=_alternatives;
-@property(readonly, nonatomic) struct _NSRange projection; // @synthesize projection=_projection;
 @property(readonly, nonatomic) struct _NSRange source; // @synthesize source=_source;
 
 @end

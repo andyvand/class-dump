@@ -6,32 +6,18 @@
 
 #import <Metal/MTLArgument.h>
 
-@class MTLPointerType, MTLStructType, MTLStructTypeInternal, MTLType, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MTLBindingInternal : MTLArgument
 {
     NSString *_name;
-    long long _type;
-    unsigned long long _access;
-    unsigned long long _index;
-    _Bool _isUsed;
-    unsigned long long _arrayLength;
-    MTLType *_typeInfo;
-    _Bool _argument;
-    _Bool _aliasImplicitImageBlock;
-    _Bool _vertexDescriptorBuffer;
-    unsigned long long _builtInType;
-    unsigned long long _builtInDataType;
-    unsigned long long _imageBlockKind;
-    unsigned long long _imageBlockDataSize;
-    MTLStructTypeInternal *_imageBlockMasterStructMembers;
-    unsigned long long _aliasImplicitImageBlockRenderTarget;
-    unsigned long long _threadgroupMemoryDataType;
-    MTLStructType *_threadgroupMemoryStructType;
 }
 
-- (void);
+- (void)abs(c.rgb - c2.rgb);
+  return vec4(ad.rgb, c.a) * c2.a;
+}
+;
 - (id);
 - (void);
 - (_Bool);
@@ -39,13 +25,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id)';
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)u;
 - (unsigned long long);
 - (unsigned long long);
 - (id);
@@ -57,7 +43,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (long long);
+- (long long)qA;
 - (id);
 - (unsigned long long);
 - (id);
@@ -65,7 +51,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)usWidthClass;
 - (void);
 - (unsigned long long);
 - (id);
@@ -83,56 +69,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) unsigned long long access; // @synthesize access=_access;
-@property(readonly, getter=isActive) _Bool active;
-@property(readonly) _Bool aliasImplicitImageBlock; // @synthesize aliasImplicitImageBlock=_aliasImplicitImageBlock;
-@property(readonly) unsigned long long aliasImplicitImageBlockRenderTarget; // @synthesize aliasImplicitImageBlockRenderTarget=_aliasImplicitImageBlockRenderTarget;
-@property(getter=isArgument, setter=setIsArgument:) _Bool argument; // @synthesize argument=_argument;
-@property(readonly) unsigned long long arrayLength; // @synthesize arrayLength=_arrayLength;
-@property(readonly) unsigned long long bufferALUType; // @dynamic bufferALUType;
-@property(readonly) unsigned long long bufferAlignment;
-@property(readonly) unsigned long long bufferDataSize;
-@property(readonly) unsigned long long bufferDataType;
-@property(readonly) MTLArgument *bufferIndirectArgumentType;
-@property(readonly) unsigned long long bufferPixelFormat; // @dynamic bufferPixelFormat;
-@property(readonly) MTLPointerType *bufferPointerType;
-@property(readonly) MTLStructType *bufferStructType;
-@property(readonly) unsigned long long builtInDataType; // @synthesize builtInDataType=_builtInDataType;
-@property(readonly) unsigned long long builtInType; // @synthesize builtInType=_builtInType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned long long imageBlockDataSize; // @synthesize imageBlockDataSize=_imageBlockDataSize;
-@property(readonly) unsigned long long imageBlockKind; // @synthesize imageBlockKind=_imageBlockKind;
-@property(readonly) MTLStructTypeInternal *imageBlockMasterStructMembers; // @synthesize imageBlockMasterStructMembers=_imageBlockMasterStructMembers;
-@property(readonly) unsigned long long index; // @synthesize index=_index;
-@property(readonly) unsigned long long indirectConstantAlignment;
-@property(readonly) unsigned long long indirectConstantDataSize;
-@property(readonly) unsigned long long indirectConstantDataType;
-@property(readonly) _Bool isDepthTexture;
 @property _Bool isUsed;
-@property(readonly) unsigned long long meshPrimitiveCount;
-@property(readonly) MTLStructTypeInternal *meshPrimitiveStruct;
-@property(readonly) unsigned long long meshTopologyType;
-@property(readonly) unsigned long long meshVertexCount;
-@property(readonly) MTLStructTypeInternal *meshVertexStruct;
-@property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) unsigned long long objectPayloadAlignment;
-@property(readonly) unsigned long long objectPayloadDataSize;
-@property(readonly) MTLStructType *structType; // @dynamic structType;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long textureDataType;
-@property(readonly) unsigned long long textureType;
-@property(readonly) unsigned long long threadgroupMemoryAlignment;
-@property(readonly) unsigned long long threadgroupMemoryDataSize;
-@property(readonly) unsigned long long threadgroupMemoryDataType; // @synthesize threadgroupMemoryDataType=_threadgroupMemoryDataType;
-@property(readonly) MTLStructType *threadgroupMemoryStructType; // @synthesize threadgroupMemoryStructType=_threadgroupMemoryStructType;
-@property(readonly) long long type; // @synthesize type=_type;
-@property(readonly, getter=isUsed) _Bool used;
-@property(readonly, getter=isVertexDescriptorBuffer) _Bool vertexDescriptorBuffer; // @synthesize vertexDescriptorBuffer=_vertexDescriptorBuffer;
 
 @end
 

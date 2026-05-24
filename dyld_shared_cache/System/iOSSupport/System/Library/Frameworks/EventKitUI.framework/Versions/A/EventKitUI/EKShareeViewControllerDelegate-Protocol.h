@@ -5,5 +5,6 @@
 //
 
 @protocol EKShareeViewControllerDelegate
+- (void);
 @end
 

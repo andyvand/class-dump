@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface ACDAuthenticationDialogRequest
 {
     _Bool _confirmationRequired;
-    NSURL *_url;
-    ACAccount *_account;
-    NSString *_authDelegateClassName;
-    NSString *_authDelegateClassBundlePath;
-    CDUnknownBlockType _completion;
 }
 
 - (void);
@@ -23,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)VERIFIED_CONTACT_ACCESSIBILITY_LABEL;
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -32,11 +27,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) ACAccount *account; // @synthesize account=_account;
-@property(copy, nonatomic) NSString *authDelegateClassBundlePath; // @synthesize authDelegateClassBundlePath=_authDelegateClassBundlePath;
-@property(copy, nonatomic) NSString *authDelegateClassName; // @synthesize authDelegateClassName=_authDelegateClassName;
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(nonatomic) _Bool confirmationRequired; // @synthesize confirmationRequired=_confirmationRequired;
 @property(copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

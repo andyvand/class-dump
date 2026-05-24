@@ -4,34 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSWindow;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CPKHorizontalPopupMenu
 {
     _Bool _doubleClicked;
-    NSWindow *_observedParentWindow;
-    NSString *_selectedCharacter;
 }
 
 + (id);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)j;
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) _Bool doubleClicked; // @synthesize doubleClicked=_doubleClicked;
-@property(retain, nonatomic) NSWindow *observedParentWindow; // @synthesize observedParentWindow=_observedParentWindow;
 @property(copy) NSString *selectedCharacter; // @synthesize selectedCharacter=_selectedCharacter;
 
 @end

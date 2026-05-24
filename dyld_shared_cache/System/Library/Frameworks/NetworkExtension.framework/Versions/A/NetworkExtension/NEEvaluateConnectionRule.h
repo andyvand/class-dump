@@ -4,39 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSURL;
-
 @interface NEEvaluateConnectionRule
 {
     long long _action;
-    NSArray *_matchDomains;
-    NSArray *_useDNSServers;
-    NSURL *_probeURL;
 }
 
-+ (_Bool);
++ (_Bool)setLinkSelectionStrategyWithData:forSessionWithUniqueID: /* Error: Ran out of types for this method. */;
 - (id);
+- (void);
+- (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)content version found
+;
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (long long);
 - (id);
-- (void)ation: /* Error: Ran out of types for this method. */;
-- (_Bool)ject:(id)arg1;
-- (id)String;
-- (id)omains;
+- (void)saveIngestedConfiguration: /* Error: Ran out of types for this method. */;
+- (_Bool)encodeObject:(id)arg1;
+- (id)lowercaseString;
+- (id)SearchDomains;
 
 // Remaining properties
 @property(readonly) long long action; // @synthesize action=_action;
-@property(readonly) NSArray *matchDomains; // @synthesize matchDomains=_matchDomains;
-@property(copy) NSURL *probeURL; // @synthesize probeURL=_probeURL;
-@property(copy) NSArray *useDNSServers; // @synthesize useDNSServers=_useDNSServers;
 
 @end
 

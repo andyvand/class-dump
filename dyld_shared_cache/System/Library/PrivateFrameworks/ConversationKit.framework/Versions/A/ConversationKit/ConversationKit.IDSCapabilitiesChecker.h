@@ -7,10 +7,6 @@
 @interface ConversationKit.IDSCapabilitiesChecker
 {
     id participantCapabilities;
-    id participantCapabilitiesByDestination;
-    id delegate;
-    id participantDestinations;
-    id lookupManager;
 }
 
 - (void);

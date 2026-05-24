@@ -9,28 +9,22 @@
 @interface _UIContextMenuAccessoryView : UIView
 {
     unsigned long long _location;
-    unsigned long long _trackingAxis;
-    struct CGPoint _offset;
-    CDStruct_17a0fc55 _anchor;
 }
 
 - (unsigned long long);
 - (void);
-- (void);
-- (struct CGPoint);
+- (void)ring"24@"NSArray"32B40@?<v@?B>44;
+- (struct CGPoint);
 - (id);
 - (void)ranceForStyle:(struct CGPoint)arg1 ] to reset appearance values;
-- (unsigned long long)ionElementKindCell;
-- (CDStruct_17a0fc55)ÇïÙøk^;
+- (unsigned long long)UICollectionElementKindCell;
+- (CDStruct_96a80611)ÇïÙøk^;
 - (struct CGPoint)øú`;
 - (void)a×à"d;
 - (void)¯d;
 
 // Remaining properties
-@property(nonatomic) CDStruct_17a0fc55 anchor; // @synthesize anchor=_anchor;
 @property(nonatomic) unsigned long long location; // @synthesize location=_location;
-@property(nonatomic) struct CGPoint offset; // @synthesize offset=_offset;
-@property(nonatomic) unsigned long long trackingAxis; // @synthesize trackingAxis=_trackingAxis;
 
 @end
 

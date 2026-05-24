@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccount, NSNumber;
-
 @interface ABRecord
 {
     id _databaseImpl;
-    id _reserved1;
-    id _reserved2;
-    id _reserved3;
-    NSNumber *_isReadOnlyStorage;
-    ABAccount *_account;
 }
 
 @end

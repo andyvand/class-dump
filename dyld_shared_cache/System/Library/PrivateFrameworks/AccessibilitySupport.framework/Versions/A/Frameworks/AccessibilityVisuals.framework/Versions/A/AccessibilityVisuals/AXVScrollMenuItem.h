@@ -11,29 +11,23 @@
 @interface AXVScrollMenuItem : AXVHighlightView
 {
     unsigned long long _direction;
-    double _cornerRadiusFactor;
-    double _imageInsetFactor;
-    NSImageView *__imageView;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (double);
+- (double)%@qa;
 - (double);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)matchedCSSRules;
+- (unsigned long long);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSImageView *_imageView; // @synthesize _imageView=__imageView;
-@property(nonatomic) double cornerRadiusFactor; // @synthesize cornerRadiusFactor=_cornerRadiusFactor;
-@property(nonatomic) unsigned long long direction; // @synthesize direction=_direction;
-@property(nonatomic) double imageInsetFactor; // @synthesize imageInsetFactor=_imageInsetFactor;
 
 @end
 

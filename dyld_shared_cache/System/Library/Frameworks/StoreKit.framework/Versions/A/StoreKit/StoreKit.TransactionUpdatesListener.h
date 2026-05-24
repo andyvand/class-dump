@@ -7,10 +7,6 @@
 @interface StoreKit.TransactionUpdatesListener
 {
     id $defaultActor;
-    id clientOverride;
-    id lastUpdated;
-    id updateTask;
-    id stream;
 }
 
 @end

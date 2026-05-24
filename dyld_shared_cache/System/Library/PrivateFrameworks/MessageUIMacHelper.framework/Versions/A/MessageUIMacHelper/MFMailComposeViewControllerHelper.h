@@ -4,53 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, NSWindow;
+@class NSWindow;
 @protocol MFMailComposeViewControllerHelperDelegate;
 
 @interface MFMailComposeViewControllerHelper
 {
     id <MFMailComposeViewControllerHelperDelegate> delegate;
-    NSWindow *_appNSWindow;
-    NSMutableDictionary *_parameters;
-    NSString *_body;
 }
 
 + (id);
+- (id)setAbsoluteContentViewFrame: /* Error: Ran out of types for this method. */;
+- (void)serialQueue;
+- (void);
+- (void);
+- (void)engagementCohortsExpField;
+- (void)duration;
+- (void)cancelHandler;
+- (void)PXSharedLibraryAssistant_LegacyDevices_Warning_iOS;
+- (void)PXSharedLibrarySharingSuggestionAddPeopleFailureAlertTitle;
+- (void);
+- (id);
+- (void))2;
+- (void);
 - (id);
+- (id)9a `;
+- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)positeSource removeChildSource:(id)arg1 ];
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak NSWindow *appNSWindow; // @synthesize appNSWindow=_appNSWindow;
-@property(retain, nonatomic) NSString *body; // @synthesize body=_body;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <MFMailComposeViewControllerHelperDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *parameters; // @synthesize parameters=_parameters;
-@property(readonly) Class superclass;
 
 @end
 

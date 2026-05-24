@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSDictionary;
-@protocol PIParallaxFilterCache;
-
 @interface PIParallaxFilter
 {
     double _renderScale;
-    NSDictionary *_localLightData;
-    id <PIParallaxFilterCache> _cache;
-    CIImage *_inputForegroundImage;
-    CIImage *_inputBackgroundImage;
-    CIImage *_inputMatteImage;
-    CIImage *_inputGuideImage;
-    struct CGRect _visibleFrame;
 }
 
 - (void);
@@ -24,7 +14,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)y
+;
 - (id);
 - (double);
 - (void);
@@ -33,25 +24,15 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)t path evaluator;
+- (id)#;
 - (id);
 - (id);
 - (struct CGRect);
-- (void);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)eworks/AddressBook.framework/Versions/A/AddressBook;
+- (void)setInputScale: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) id <PIParallaxFilterCache> cache; // @synthesize cache=_cache;
-@property(retain, nonatomic) CIImage *inputBackgroundImage; // @synthesize inputBackgroundImage=_inputBackgroundImage;
-@property(retain, nonatomic) CIImage *inputForegroundImage; // @synthesize inputForegroundImage=_inputForegroundImage;
-@property(retain, nonatomic) CIImage *inputGuideImage; // @synthesize inputGuideImage=_inputGuideImage;
-@property(retain, nonatomic) CIImage *inputMatteImage; // @synthesize inputMatteImage=_inputMatteImage;
-@property(copy, nonatomic) NSDictionary *localLightData; // @synthesize localLightData=_localLightData;
-@property(readonly, nonatomic) CIImage *outputBackgroundImage;
-@property(readonly, nonatomic) CIImage *outputForegroundImage;
-@property(readonly, nonatomic) CIImage *outputMatteImage;
-@property(nonatomic) double renderScale; // @synthesize renderScale=_renderScale;
 @property(nonatomic) struct CGRect visibleFrame; // @synthesize visibleFrame=_visibleFrame;
 
 @end

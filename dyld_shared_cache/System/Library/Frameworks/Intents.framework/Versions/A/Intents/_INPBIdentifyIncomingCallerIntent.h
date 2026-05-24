@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentMetadata;
+@class _INPBIntentMetadata;
 
 @interface _INPBIdentifyIncomingCallerIntent
 {
     struct _has;
-    _INPBIntentMetadata *_intentMetadata;
 }
 
 + (_Bool);
@@ -19,23 +18,15 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)c}s:(id)arg1 %u) Still within throttle interval;
+- (id);
 - (id);
-- (id);
-- (void);
-- (_Bool)luesCount;
-- (void);
+- (void);
+- (_Bool)payloadDateTimeRangeValuesCount;
+- (void)INIntentParameterMetadataDefaultValueID;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(readonly) Class superclass;
 
 @end
 

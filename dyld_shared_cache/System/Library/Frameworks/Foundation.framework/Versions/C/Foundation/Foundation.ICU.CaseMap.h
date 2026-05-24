@@ -7,7 +7,6 @@
 @interface Foundation.ICU.CaseMap
 {
     id casemap;
-    id lock;
 }
 
 @end

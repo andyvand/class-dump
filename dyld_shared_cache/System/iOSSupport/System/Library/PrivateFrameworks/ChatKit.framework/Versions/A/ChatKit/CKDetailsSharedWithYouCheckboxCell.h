@@ -6,38 +6,31 @@
 
 #import <ChatKit/CKTranscriptDetailsResizableCell.h>
 
-@class NSString, UILabel, UISwitch;
+@class UILabel, UISwitch;
 
 __attribute__((visibility("hidden")))
 @interface CKDetailsSharedWithYouCheckboxCell : CKTranscriptDetailsResizableCell
 {
     UISwitch *_controlSwitch;
-    UILabel *_titleLabel;
 }
 
 + (_Bool);
-+ (id);
++ (id);
 - (void);
-- (id);
+- (id)rypt your locked notes and work with Touch ID and Face ID. No one can access your locked notes without your device passcode—not even Apple.
+
+Do you still want to know more about how your information is secured? ;
 - (void);
 - (void);
 - (void);
 - (struct CGSize);
 - (void);
 - (void);
-- (id)thOptions:(long long)arg1;
-- (void)rlayModifier;
+- (id)audioPlayerEndInterruption:(long long)arg1 withOptions:(id)arg2;
+- (void)AvatarAttributionOverlayModifier;
 - (id)ãÿDÿ;
 
 // Remaining properties
-@property(retain, nonatomic) UISwitch *controlSwitch; // @synthesize controlSwitch=_controlSwitch;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end

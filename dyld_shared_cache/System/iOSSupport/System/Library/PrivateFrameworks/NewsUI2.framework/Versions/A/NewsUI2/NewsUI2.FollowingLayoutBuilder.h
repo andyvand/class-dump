@@ -7,12 +7,6 @@
 @interface NewsUI2.FollowingLayoutBuilder
 {
     id titleViewLayoutAttributesFactory;
-    id followingFooterViewLayoutAttributesFactory;
-    id browseButtonViewLayoutAttributesFactory;
-    id settingsButtonViewLayoutAttributesFactory;
-    id tagViewLayoutAttributesFactory;
-    id followingEngagementViewLayoutAttributesFactory;
-    id bundleSubscriptionManager;
 }
 
 @end

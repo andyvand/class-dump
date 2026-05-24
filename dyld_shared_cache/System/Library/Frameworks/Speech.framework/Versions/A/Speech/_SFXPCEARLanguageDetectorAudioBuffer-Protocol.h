@@ -5,5 +5,6 @@
 //
 
 @protocol _SFXPCEARLanguageDetectorAudioBuffer
+- (oneway void);
 @end
 

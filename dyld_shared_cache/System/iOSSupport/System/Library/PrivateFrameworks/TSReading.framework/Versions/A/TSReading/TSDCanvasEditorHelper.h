@@ -4,36 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TSKChangeNotifier;
-@protocol TSDCanvasEditor;
+@class TSKChangeNotifier;
 
 @interface TSDCanvasEditorHelper
 {
     TSKChangeNotifier *mChangeNotifier;
-    id <TSDCanvasEditor> mCanvasEditor;
-    _Bool mTornDown;
 }
 
 + (Class);
 + (_Bool);
 + (id);
-+ (id);
++ (id)A;
 - (void);
-- (_Bool);
+- (_Bool);
 - (Class);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (Class);
 - (Class);
 - (id);
 - (id);
-- (id);
+- (id);
 - (int);
 - (int);
 - (int);
@@ -48,10 +45,10 @@
 - (int);
 - (id);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -60,16 +57,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)__G;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

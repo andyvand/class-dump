@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableArray, NSString;
+@class NSDictionary;
 
 @interface IMDPredicateToSQLConverter
 {
     NSDictionary *_keyPathsToColumns;
-    NSString *_columnPrefix;
-    NSString *_expression;
-    NSMutableArray *_foundParameters;
 }
 
 - (id);
@@ -19,16 +16,13 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (void)includeSupplementaryReports;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *columnPrefix; // @synthesize columnPrefix=_columnPrefix;
-@property(readonly, copy, nonatomic) NSString *expression; // @synthesize expression=_expression;
 @property(readonly, copy, nonatomic) NSDictionary *keyPathsToColumns; // @synthesize keyPathsToColumns=_keyPathsToColumns;
-@property(readonly, copy, nonatomic) NSArray *parameters;
 
 @end
 

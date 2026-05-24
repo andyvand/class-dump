@@ -9,19 +9,17 @@
 @interface TICompositionMapItem
 {
     NSString *_key;
-    NSString *_value;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)à;
 - (void)ð!Aùi°1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *key; // @synthesize key=_key;
-@property(readonly, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

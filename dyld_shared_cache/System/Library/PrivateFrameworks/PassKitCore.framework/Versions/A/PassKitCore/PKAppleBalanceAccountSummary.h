@@ -16,13 +16,13 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (id)?;
+- (unsigned long long);
+- (_Bool)connectionInitToIncomingFirstPacket;
 - (void);
-- (id);
-- (id)edName;
-- (void);
+- (id)_;
+- (id)_hostAppLocalizedName;
+- (void)platformData;
 
 // Remaining properties
 @property(copy, nonatomic) NSDecimalNumber *currentBalance; // @synthesize currentBalance=_currentBalance;

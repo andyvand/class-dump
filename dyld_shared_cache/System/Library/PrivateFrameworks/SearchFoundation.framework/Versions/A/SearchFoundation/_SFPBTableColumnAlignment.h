@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _SFPBTableColumnAlignment
 {
     _Bool _isEqualWidth;
-    int _columnAlignment;
-    int _dataAlignment;
 }
 
 - (_Bool);
@@ -24,23 +20,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)setDatesWithNegativeFeedback:(id)arg1;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) int columnAlignment; // @synthesize columnAlignment=_columnAlignment;
-@property(nonatomic) int dataAlignment; // @synthesize dataAlignment=_dataAlignment;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isEqualWidth; // @synthesize isEqualWidth=_isEqualWidth;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

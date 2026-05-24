@@ -16,11 +16,11 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (id);
-- (id);
++ (id)J;
+- (id);
 - (void);
 - (void);
-- (void);
+- (void)@?0@"NSNumber"8;
 - (id);
 
 // Remaining properties

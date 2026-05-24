@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (void);
+- (void)umWidth;
+- (void)ed;
 - (long long);
 
 @end

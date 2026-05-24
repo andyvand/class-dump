@@ -7,12 +7,6 @@
 @interface NewsFeed.DebugFormatSnapshotView
 {
     id isSelected;
-    id isRoot;
-    id isContent;
-    id onTap;
-    id view;
-    id image;
-    id children;
 }
 
 - (id);

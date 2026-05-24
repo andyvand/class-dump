@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class JSValue;
+
 @protocol PodcastsUI.JSLocalizerExport__priv_3C4E783A8FFBD95D004ED56D8040DD43
+- (JSValue *);
+- (JSValue *)htaphtap;
 @end
 

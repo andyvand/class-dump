@@ -9,9 +9,6 @@
 @interface MPRandomDistribution
 {
     id <MPRandom> _source;
-    long long _lowestValue;
-    long long _highestValue;
-    unsigned long long _numberOfPossibleOutcomes;
 }
 
 + (_Bool);
@@ -20,15 +17,13 @@
 - (long long);
 - (id);
 - (long long);
-- (id);
+- (id)nversationID:(id)arg1 ];
 - (id);
 - (void);
-- (void)mber__MAPPING_MISSING__;
+- (void)__MPModelPropertySongDiscNumber__MAPPING_MISSING__;
 
 // Remaining properties
-@property(readonly, nonatomic) long long highestValue; // @synthesize highestValue=_highestValue;
 @property(readonly, nonatomic) long long lowestValue; // @synthesize lowestValue=_lowestValue;
-@property(readonly, nonatomic) unsigned long long numberOfPossibleOutcomes; // @synthesize numberOfPossibleOutcomes=_numberOfPossibleOutcomes;
 
 @end
 

@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface CNVSchemaCNVFlowPluginLoadContextStarted : SISchemaInstrumentationMessage
 {
     int _plugin;
-    CDStruct_8777a98f _has;
 }
 
 - (void);
@@ -21,17 +18,15 @@
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)__DATA;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)yRequestFailed";
-- (id)emaJRAnonymizedHistoryAndContextTuple;
+- (id)JRSchemaJRAnonymizedHistoryAndContextTuple;
 - (id)Èäå;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPlugin;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int plugin; // @synthesize plugin=_plugin;
 
 @end

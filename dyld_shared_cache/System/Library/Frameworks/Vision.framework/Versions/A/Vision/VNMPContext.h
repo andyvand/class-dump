@@ -4,22 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface VNMPContext
 {
     _Bool _useTimestampAdjustedDistances;
-    _Bool _performClustersPostprocessing;
-    _Bool _performSceneClassification;
-    int _debugMode;
-    int _timerMode;
-    int _clusterSplitDistanceType;
-    float _roiAreaThreshold;
-    float _inliersRatioThreshold;
-    int _numberOfKeypointsToConsider;
-    float _naturalClusteringDistanceThreshold;
-    NSArray *_qualityCriteriaList;
 }
 
 - (_Bool);
@@ -38,26 +26,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (int);
-- (float);
+- (float)RJ;
 - (float);
 - (int);
 - (void);
 - (void);
 - (int);
-- (void)eContourEnd;
+- (void)mergeContourEnd;
 
 // Remaining properties
-@property int clusterSplitDistanceType; // @synthesize clusterSplitDistanceType=_clusterSplitDistanceType;
 @property int debugMode; // @synthesize debugMode=_debugMode;
-@property float inliersRatioThreshold; // @synthesize inliersRatioThreshold=_inliersRatioThreshold;
-@property float naturalClusteringDistanceThreshold; // @synthesize naturalClusteringDistanceThreshold=_naturalClusteringDistanceThreshold;
-@property int numberOfKeypointsToConsider; // @synthesize numberOfKeypointsToConsider=_numberOfKeypointsToConsider;
-@property _Bool performClustersPostprocessing; // @synthesize performClustersPostprocessing=_performClustersPostprocessing;
-@property _Bool performSceneClassification; // @synthesize performSceneClassification=_performSceneClassification;
-@property(retain) NSArray *qualityCriteriaList; // @synthesize qualityCriteriaList=_qualityCriteriaList;
-@property float roiAreaThreshold; // @synthesize roiAreaThreshold=_roiAreaThreshold;
-@property int timerMode; // @synthesize timerMode=_timerMode;
-@property _Bool useTimestampAdjustedDistances; // @synthesize useTimestampAdjustedDistances=_useTimestampAdjustedDistances;
 
 @end
 

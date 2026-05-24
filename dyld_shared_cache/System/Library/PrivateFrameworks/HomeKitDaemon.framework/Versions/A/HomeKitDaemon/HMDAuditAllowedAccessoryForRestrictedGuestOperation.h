@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/HMDAddAccessoryPairingOperation.h>
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDAuditAllowedAccessoryForRestrictedGuestOperation : HMDAddAccessoryPairingOperation
@@ -26,14 +26,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy, nonatomic) NSUUID *guestUUID;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

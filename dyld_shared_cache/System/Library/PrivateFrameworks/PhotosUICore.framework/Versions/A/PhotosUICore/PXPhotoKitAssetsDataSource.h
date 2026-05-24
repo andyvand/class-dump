@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSDictionary, NSMutableDictionary, PXPhotosDataSource, PXSectionedDataSourceChangeDetails;
+@class NSMutableDictionary, PXSectionedDataSourceChangeDetails;
 
 @interface PXPhotoKitAssetsDataSource
 {
     NSMutableDictionary *_layoutItemByAssetCache;
-    NSCache *_fetchedKeyAssetByAssetCollectionLocalIdentifierCache;
-    NSCache *_assetReferenceNearestToAssetCache;
-    PXPhotosDataSource *_photosDataSource;
-    NSDictionary *_userInfo;
-    PXSectionedDataSourceChangeDetails *_changeDetails;
 }
 
 + (id);
++ (id)3;
 + (id);
-+ (id);
-+ (id);
++ (id);
 - (id);
 - (id);
 - (unsigned long long);
@@ -32,14 +27,14 @@
 - (void);
 - (id);
 - (id);
+- (id)@;
 - (id);
-- (id);
 - (long long);
 - (long long);
 - (long long);
 - (long long);
 - (long long);
-- (long long);
+- (long long)T;
 - (id);
 - (id);
 - (id);
@@ -48,8 +43,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)#;
+- (id);
 - (id);
 - (id);
 - (struct PXSimpleIndexPath);
@@ -58,8 +53,8 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)R;
 - (id);
 - (unsigned long long);
 - (long long);
@@ -69,7 +64,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)5;
 - (id);
 - (id);
 - (id);
@@ -86,25 +81,23 @@
 - (struct PXSimpleIndexPath);
 - (long long);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)&;
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (void);
-- (long long)yer: /* Error: Ran out of types for this method. */;
+- (long long)setGradientLayer: /* Error: Ran out of types for this method. */;
 - (long long)ÿÿÿÿÜ;
 - (_Bool)ä#,$;
 - (id)eason;
-- (id)ViewController;
+- (id)LemonadeViewController;
 - (long long)Ó;
 - (void)Ñ¨´¡;
 
 // Remaining properties
 @property(readonly, nonatomic) PXSectionedDataSourceChangeDetails *changeDetails; // @synthesize changeDetails=_changeDetails;
-@property(readonly, nonatomic) PXPhotosDataSource *photosDataSource; // @synthesize photosDataSource=_photosDataSource;
-@property(retain, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

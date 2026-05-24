@@ -9,10 +9,6 @@
 @interface IMDCoreSpotlightDispatchObject
 {
     _Bool _allowsOverrideOfObjects;
-    _Bool _shouldAddToSuggestions;
-    _Bool _shouldAddToSpotlight;
-    _Bool _shouldAddToCoreRecents;
-    CRRecentContactsLibrary *_recentsInstance;
 }
 
 + (id)AND c.service_name = ?) ;
@@ -30,11 +26,7 @@
 - (void)s;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsOverrideOfObjects; // @synthesize allowsOverrideOfObjects=_allowsOverrideOfObjects;
 @property(retain) CRRecentContactsLibrary *recentsInstance; // @synthesize recentsInstance=_recentsInstance;
-@property(nonatomic) _Bool shouldAddToCoreRecents; // @synthesize shouldAddToCoreRecents=_shouldAddToCoreRecents;
-@property(nonatomic) _Bool shouldAddToSpotlight; // @synthesize shouldAddToSpotlight=_shouldAddToSpotlight;
-@property(nonatomic) _Bool shouldAddToSuggestions; // @synthesize shouldAddToSuggestions=_shouldAddToSuggestions;
 
 @end
 

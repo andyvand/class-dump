@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (Building)
-+ (id);
-+ (id);
++ (id)oauthToken;
++ (id)numberWithInteger:(id)arg1;
 @end
 

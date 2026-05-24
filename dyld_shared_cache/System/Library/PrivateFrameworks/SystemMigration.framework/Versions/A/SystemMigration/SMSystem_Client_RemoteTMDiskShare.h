@@ -11,8 +11,6 @@
 @interface SMSystem_Client_RemoteTMDiskShare : SMSystem_Client
 {
     long long sharedSystems;
-    NSString *shareName;
-    NSString *humanName;
 }
 
 + (id);
@@ -20,7 +18,7 @@
 + (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (void);
@@ -37,9 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSString *humanName; // @synthesize humanName;
 @property(retain) NSString *shareName; // @synthesize shareName;
-@property(readonly) long long sharedSystems; // @synthesize sharedSystems;
 
 @end
 

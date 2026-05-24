@@ -9,7 +9,6 @@
 @interface _PKRemoteNetworkPaymentCoordinator
 {
     id paymentSession;
-    void wrapper;
 }
 
 - (void);

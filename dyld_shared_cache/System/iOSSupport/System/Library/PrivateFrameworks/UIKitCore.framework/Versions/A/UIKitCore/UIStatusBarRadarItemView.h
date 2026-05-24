@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
-- (double);
-- (id);
+- (_Bool)arrayWithObjects:count: /* Error: Ran out of types for this method. */;
+- (double)nger the default text app, routing to %@;
+- (id)essage qos is (%u);
 - (id);
 - (long long)Pîh;
 

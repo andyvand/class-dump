@@ -5,9 +5,9 @@
 //
 
 @protocol MTLAccelerationStructure
+- (struct MTLResourceID)vmsize;
 
 // Remaining properties
-@property(readonly) struct MTLResourceID gpuResourceID;
 @property(readonly, nonatomic) unsigned long long size;
 @end
 

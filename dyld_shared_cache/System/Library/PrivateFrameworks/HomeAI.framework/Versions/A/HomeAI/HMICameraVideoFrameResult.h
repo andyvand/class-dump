@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMICameraVideoFrame, NSArray, NSDictionary, NSSet;
+@class HMICameraVideoFrame;
 
 @interface HMICameraVideoFrameResult
 {
     HMICameraVideoFrame *_frame;
-    NSDictionary *_annotationScores;
-    long long _events;
-    NSArray *_detections;
-    NSSet *_faceClassifications;
-    NSSet *_analyzerEvents;
-    struct CGRect _regionOfInterest;
 }
 
 + (id);
 + (long long);
 + (id);
-+ (id);
++ (id)yIq(;
 + (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)a;
 - (struct CGRect);
 - (id);
 - (unsigned long long);
@@ -36,16 +30,10 @@
 - (id);
 - (void);
 - (long long);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly) NSSet *analyzerEvents; // @synthesize analyzerEvents=_analyzerEvents;
-@property(readonly) NSDictionary *annotationScores; // @synthesize annotationScores=_annotationScores;
-@property(readonly) NSArray *detections; // @synthesize detections=_detections;
-@property(readonly) long long events; // @synthesize events=_events;
-@property(readonly) NSSet *faceClassifications; // @synthesize faceClassifications=_faceClassifications;
 @property(readonly) HMICameraVideoFrame *frame; // @synthesize frame=_frame;
-@property(readonly) struct CGRect regionOfInterest; // @synthesize regionOfInterest=_regionOfInterest;
 
 @end
 

@@ -9,14 +9,13 @@
 @interface AVMetadataHumanBodyObject : AVMetadataBodyObject
 {
     _Bool _hasConfidence;
-    double _confidence;
 }
 
 + (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id),N,V_tertiaryDropShadowColor;
+- (id)eak;
+- (id)titled;
+- (id)ct;
 - (_Bool);
 - (id);
 - (id);

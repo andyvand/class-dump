@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIWindow;
+@class UIWindow;
 
 __attribute__((visibility("hidden")))
 @interface UIEditingOverlayGestureView : UIView
@@ -18,20 +18,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id)á	!$Gù1fÐ1Â0@ù
 × ;
-- (int)tate;
+- (int)__typeSelectState;
 - (void);
 - (void)`Éÿ;
 - (id)°ÿÙäèi;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak UIWindow *previousWindow; // @synthesize previousWindow=_previousWindow;
-@property(readonly) Class superclass;
 
 @end
 

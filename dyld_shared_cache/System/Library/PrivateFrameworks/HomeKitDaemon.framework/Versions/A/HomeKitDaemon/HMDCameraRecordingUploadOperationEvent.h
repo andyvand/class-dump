@@ -4,30 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingUploadOperationEvent
 {
     _Bool _didCausePreviousClipToFinalizeDueToDurationLimit;
-    double _runTime;
-    unsigned long long _operationType;
-    double _totalClipDuration;
-    unsigned long long _retryCount;
-    NSUUID *_clipModelID;
-    unsigned long long _startTimestamp;
 }
 
-- (unsigned long long);
-- (double);
-- (void);
-- (void);
+- (unsigned long long)container:didEditWithNewContents:orderedEdits:cause:context: /* Error: Ran out of types for this method. */;
+- (double)contactsFromVirtualReceiverHandles: /* Error: Ran out of types for this method. */;
+- (void)Q;
+- (void)flag to migrate;
 - (id);
 - (_Bool);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id)a;
 - (id);
 - (void);
 - (double);
@@ -40,37 +32,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy) NSUUID *clipModelID; // @synthesize clipModelID=_clipModelID;
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool didCausePreviousClipToFinalizeDueToDurationLimit; // @synthesize didCausePreviousClipToFinalizeDueToDurationLimit=_didCausePreviousClipToFinalizeDueToDurationLimit;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property unsigned long long operationType; // @synthesize operationType=_operationType;
-@property unsigned long long retryCount; // @synthesize retryCount=_retryCount;
 @property double runTime; // @synthesize runTime=_runTime;
-@property(readonly) unsigned long long runTimeInMilliseconds;
-@property(readonly) unsigned long long startTimestamp; // @synthesize startTimestamp=_startTimestamp;
-@property(readonly) Class superclass;
-@property double totalClipDuration; // @synthesize totalClipDuration=_totalClipDuration;
-@property(readonly) unsigned long long totalClipDurationMilliseconds;
 
 @end
 

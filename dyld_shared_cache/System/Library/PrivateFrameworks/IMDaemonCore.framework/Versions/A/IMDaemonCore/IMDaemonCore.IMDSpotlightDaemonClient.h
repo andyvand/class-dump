@@ -7,14 +7,9 @@
 @interface IMDaemonCore.IMDSpotlightDaemonClient
 {
     id importer;
-    id indexesLock;
-    id interestingProtectionClasses;
-    id queue;
-    id pendingFileURLRequests;
-    id coalescingQueue;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

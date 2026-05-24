@@ -7,27 +7,11 @@
 @interface NewsUI2.TagFeedViewController
 {
     id _lastImpression;
-    id searchCoordinator;
-    id feedDescriptor;
-    id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id commands;
-    id refreshStateMachine;
-    id refreshControl;
-    id sharingActivityProviderFactory;
-    id didAppearCompletions;
-    id impressionObservers;
-    id gameCenterService;
-    id tipManager;
-    id tipConfigFactory;
-    id tracker;
-    id searchBarInsetsController;
 }
 
 - (void);
-- (void);
-- (void);
+- (void)s.dylib;
+- (void)lendarDaemon;
 - (void);
 - (id);
 - (id);

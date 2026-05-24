@@ -5,5 +5,7 @@
 //
 
 @protocol MNIdleTimerUpdaterDelegate
+- (void)^
+;
 @end
 

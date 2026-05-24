@@ -10,8 +10,8 @@
 {
 }
 
-+ (Class);
-+ (id);
++ (Class);
++ (id)ute set to nil;
 + (void);
 - (void);
 - (_Bool);
@@ -19,7 +19,7 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id)_lineSelectionForSelection: /* Error: Ran out of types for this method. */;
 
 @end
 

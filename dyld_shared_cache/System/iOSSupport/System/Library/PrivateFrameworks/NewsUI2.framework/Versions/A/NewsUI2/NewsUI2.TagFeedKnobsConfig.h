@@ -7,8 +7,6 @@
 @interface NewsUI2.TagFeedKnobsConfig
 {
     id groupKnobs;
-    id maxGroups;
-    id refreshStrategy;
 }
 
 @end

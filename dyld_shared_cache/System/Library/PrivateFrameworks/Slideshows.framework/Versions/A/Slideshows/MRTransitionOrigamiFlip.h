@@ -11,12 +11,11 @@
 @interface MRTransitionOrigamiFlip : MRTransition
 {
     MROrigamiAnimationPath *mBigSwing;
-    MROrigamiAnimationPath *mSideSwing;
 }
 
 - (void);
 - (_Bool);
-- (id);
+- (id)endpointConnection;
 - (_Bool);
 - (void);
 - (void);

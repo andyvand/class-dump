@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDIDSFirewallManagerContext, NSArray, NSString;
+@class HMDIDSFirewallManagerContext;
 
 __attribute__((visibility("hidden")))
 @interface HMDIDSFirewallManager
@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id)¼TB;
-- (void);
+- (void)listener:(id)arg1 shouldAcceptNewConnection: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -22,21 +22,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)LargeSpatialContentView;
 - (id);
 - (id)ge due to no target accessory;
-- (void)h;
+- (void)accessorySetupHash;
 
 // Remaining properties
 @property(readonly) HMDIDSFirewallManagerContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSArray *userIDs;
 
 @end
 

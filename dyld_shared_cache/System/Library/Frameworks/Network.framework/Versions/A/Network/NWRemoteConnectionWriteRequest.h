@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSUUID;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface NWRemoteConnectionWriteRequest
 {
     NSData *_data;
-    NSUUID *_clientID;
 }
 
 - (id);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 - (void)@;
 
 // Remaining properties
-@property(retain) NSUUID *clientID; // @synthesize clientID=_clientID;
 @property(retain) NSData *data; // @synthesize data=_data;
 
 @end

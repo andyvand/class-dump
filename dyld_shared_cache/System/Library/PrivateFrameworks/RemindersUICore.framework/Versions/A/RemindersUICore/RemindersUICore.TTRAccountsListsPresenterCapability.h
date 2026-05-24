@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRAccountsListsPresenterCapability
 {
     id delegate;
-    id pinnedListsContactsData;
-    id contactsProvider;
 }
 
 @end

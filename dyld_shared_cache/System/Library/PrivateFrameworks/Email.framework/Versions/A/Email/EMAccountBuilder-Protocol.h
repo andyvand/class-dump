@@ -16,11 +16,9 @@
 	DisplayDate:%@
 	Mailboxes:%@
 	Count:%lu /* Error: Ran out of types for this method. */;
-- (void);
+- (void)EFPropertyKey_unsubscribeType;
 
 // Remaining properties
-@property(copy) NSString *hostname;
-@property(getter=isPrimaryiCloudAccount) _Bool primaryiCloudAccount;
 @property(copy) NSString *username;
 @end
 

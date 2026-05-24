@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface VSAutoSignInToken
 {
     long long _authorization;
-    NSString *_value;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)_lastHistoryVisitForHighLevelDomain:(id)arg1;
 - (id);
 - (void);
-- (long long)tionObject: /* Error: Ran out of types for this method. */;
+- (long long)setNotificationObject: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long authorization; // @synthesize authorization=_authorization;
-@property(readonly, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

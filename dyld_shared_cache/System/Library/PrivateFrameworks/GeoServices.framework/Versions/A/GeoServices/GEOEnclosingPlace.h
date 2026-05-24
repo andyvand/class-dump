@@ -5,7 +5,6 @@
 //
 
 @class GEOMapItemIdentifier, GEOPDContainmentPlace;
-@protocol GEOServerFormattedString;
 
 @interface GEOEnclosingPlace
 {
@@ -13,12 +12,11 @@
 }
 
 - (id);
-- (id);
+- (id)_CNLazyArrayOperatorMap;
 - (id);
 - (void)D[þþ¬k;
 
 // Remaining properties
-@property(readonly, nonatomic) id <GEOServerFormattedString> containmentTextTemplate;
 @property(readonly, nonatomic) GEOMapItemIdentifier *parentIdentifier;
 
 @end

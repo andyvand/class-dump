@@ -12,7 +12,7 @@
 {
 }
 
-- (id);
+- (id)EmergencyContactsOnOff;
 - (id);
 - (void);
 

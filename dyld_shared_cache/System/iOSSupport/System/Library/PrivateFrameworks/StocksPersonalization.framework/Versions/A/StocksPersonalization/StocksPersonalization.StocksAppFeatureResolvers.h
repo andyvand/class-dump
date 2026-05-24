@@ -7,6 +7,7 @@
 @interface StocksPersonalization.StocksAppFeatureResolvers
 {
     id featureResolvers;
+    id;
 }
 
 @end

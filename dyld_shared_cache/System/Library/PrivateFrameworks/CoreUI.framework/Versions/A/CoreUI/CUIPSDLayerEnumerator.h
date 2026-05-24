@@ -9,8 +9,6 @@
 @interface CUIPSDLayerEnumerator
 {
     CUIPSDLayerGroupRef *_layerGroup;
-    unsigned int _currentIndex;
-    _Bool _isImageFile;
 }
 
 + (id);
@@ -19,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)_serviceRequestsResize:animate:async:completion: /* Error: Ran out of types for this method. */;
 
 @end
 

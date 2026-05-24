@@ -11,17 +11,17 @@
     RTPersistenceManager *_persistenceManager;
 }
 
+- (_Bool);
+- (_Bool);
+- (_Bool)";
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id)seedFromMnemonic:(id)arg1;
+- (id)l;
 - (id);
 - (id);
 - (void)s:%d) /* Error: Ran out of types for this method. */;

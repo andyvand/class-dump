@@ -10,23 +10,19 @@ __attribute__((visibility("hidden")))
 @interface AVTrackView
 {
     _Bool _updatesDuringLiveResize;
-    AVPlayerController *_playerController;
-    double _allowedScrollAmount;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (double);
-- (id);
+- (double)#;
+- (id)_hasAnyEnabledContentBlockers;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) double allowedScrollAmount; // @synthesize allowedScrollAmount=_allowedScrollAmount;
 @property(retain) AVPlayerController *playerController; // @synthesize playerController=_playerController;
-@property _Bool updatesDuringLiveResize; // @synthesize updatesDuringLiveResize=_updatesDuringLiveResize;
 
 @end
 

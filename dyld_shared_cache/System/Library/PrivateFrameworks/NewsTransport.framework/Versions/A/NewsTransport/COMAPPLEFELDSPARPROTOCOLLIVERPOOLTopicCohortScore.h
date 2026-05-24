@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList, NSString;
+@class COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList;
 
 @interface COMAPPLEFELDSPARPROTOCOLLIVERPOOLTopicCohortScore
 {
     COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList *_cohorts;
-    NSString *_tagId;
 }
 
-- (_Bool);
+- (_Bool)_startHeadroomMonitoringIfPossible;
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -27,13 +26,10 @@
 - (id);
 - (_Bool);
 - (id);
-- (void)tSend;
+- (void)comscoreEventSend;
 
 // Remaining properties
-@property(retain, nonatomic) COMAPPLEFELDSPARPROTOCOLLIVERPOOLCohortList *cohorts; // @synthesize cohorts=_cohorts;
-@property(readonly, nonatomic) _Bool hasCohorts;
 @property(readonly, nonatomic) _Bool hasTagId;
-@property(retain, nonatomic) NSString *tagId; // @synthesize tagId=_tagId;
 
 @end
 

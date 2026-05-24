@@ -6,7 +6,7 @@
 
 #import <NotesShared/ICCloudSyncingObject.h>
 
-@class ICAccount, NSDate, NSString;
+@class ICAccount;
 
 @interface ICDeviceMigrationState : ICCloudSyncingObject
 {
@@ -23,11 +23,11 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
++ (id);
+- (void)ervers:(id)arg1;
+- (void)Deleting locale '%@';
+- (void)%@.%@;
+- (_Bool);
 - (id);
 - (_Bool);
 - (id);
@@ -40,9 +40,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) ICAccount *account; // @dynamic account;
-@property(retain, nonatomic) NSString *deviceIdentifier; // @dynamic deviceIdentifier;
-@property(nonatomic) short state; // @dynamic state;
-@property(retain, nonatomic) NSDate *stateModificationDate; // @dynamic stateModificationDate;
 
 @end
 

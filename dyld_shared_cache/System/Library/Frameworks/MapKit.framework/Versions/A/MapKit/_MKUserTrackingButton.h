@@ -4,39 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapView, NSButton, NSColor;
+@class MKMapView, NSButton;
 
 __attribute__((visibility("hidden")))
 @interface _MKUserTrackingButton
 {
     NSButton *_button;
-    _Bool _selectsWhenTracking;
-    MKMapView *_mapView;
-    unsigned long long _controlSize;
 }
 
-+ (id);
++ (id)x;
 - (void);
-- (_Bool);
+- (_Bool)networkEnergy;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)cB@;
 - (id);
 - (void)0@ù
 × ;
-- (void)taSource;
-- (id)rInfo: /* Error: Ran out of types for this method. */;
-- (void)String;
+- (void)shieldDataSource;
+- (id)initWithRect:options:owner:userInfo: /* Error: Ran out of types for this method. */;
+- (void)_rawDistanceString;
 - (void)tePositionWithRouteMatch:(id)arg1;
 
 // Remaining properties
-@property(retain, nonatomic, getter=_contentTintColor, setter=_setContentTintColor:) NSColor *contentTintColor;
-@property(nonatomic) unsigned long long controlSize; // @synthesize controlSize=_controlSize;
 @property(nonatomic) __weak MKMapView *mapView; // @synthesize mapView=_mapView;
-@property(nonatomic) _Bool selectsWhenTracking; // @synthesize selectsWhenTracking=_selectsWhenTracking;
 
 @end
 

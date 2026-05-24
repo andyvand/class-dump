@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHDrawing, NSCharacterSet;
+@class CHDrawing;
 
 @interface CHClassifiableDrawing
 {
     _Bool _expandCodePoints;
-    CHDrawing *_drawing;
-    NSCharacterSet *_characterSet;
-    unsigned long long _maxCandidateCount;
-    struct CGRect _normalizationContext;
 }
 
 - (struct CGRect);
@@ -24,11 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSCharacterSet *characterSet; // @synthesize characterSet=_characterSet;
 @property(readonly, nonatomic) CHDrawing *drawing; // @synthesize drawing=_drawing;
-@property(readonly, nonatomic) _Bool expandCodePoints; // @synthesize expandCodePoints=_expandCodePoints;
-@property(readonly, nonatomic) unsigned long long maxCandidateCount; // @synthesize maxCandidateCount=_maxCandidateCount;
-@property(readonly, nonatomic) struct CGRect normalizationContext; // @synthesize normalizationContext=_normalizationContext;
 
 @end
 

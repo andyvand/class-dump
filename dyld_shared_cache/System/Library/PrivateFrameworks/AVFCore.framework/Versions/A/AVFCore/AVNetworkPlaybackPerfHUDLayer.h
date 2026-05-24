@@ -4,61 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayer, AVPlayerLayer, NSMutableDictionary, NSNumber, NSObject;
+@class AVPlayer, NSObject;
 @protocol OS_dispatch_source;
 
 __attribute__((visibility("hidden")))
 @interface AVNetworkPlaybackPerfHUDLayer
 {
     NSObject<OS_dispatch_source> *_hudTimer;
-    AVPlayer *_player;
-    AVPlayerLayer *_playerLayer;
-    _Bool _showHud;
-    _Bool _spatialDiagnostics;
-    int _colorId;
-    double _opacity;
-    int _fontSizeInt;
-    _Bool _updateUISettings;
-    int _hudXoffset;
-    int _hudYoffset;
-    float _hudUpdateInterval;
-    _Bool _showCompleteURI;
-    long long _prevVariantIdx;
-    long long _prevStallCount;
-    long long _totalStallCount;
-    NSNumber *_displayResolutionHeight;
-    NSNumber *_displayResolutionWidth;
-    NSNumber *_audioSpatializationMode;
-    _Bool _requestInFlight;
-    NSMutableDictionary *_loadingStatusCache;
 }
 
 - (void);
+- (void)a;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)hR;
 - (void);
 - (id);
 - (float);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)datePlaybackFinished;
+- (void)contentListWithDictionary:(id)arg1 context: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
-- (void)terSchedule;
-- (void)readyToPlay:suspensionReasons: /* Error: Ran out of types for this method. */;
-- (void)nary: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void)parameterSchedule;
+- (void)initWithParticipantIdentifier:readyToPlay:suspensionReasons: /* Error: Ran out of types for this method. */;
+- (void)audioOutputSettingsWithAudioSettingsDictionary: /* Error: Ran out of types for this method. */;
 - (_Bool)meDurationKey is not convertible to a numeric CMTime.;
 - (void)°ÂG#þ;
 
 // Remaining properties
 @property __weak AVPlayer *player; // @synthesize player=_player;
-@property __weak AVPlayerLayer *playerLayer; // @synthesize playerLayer=_playerLayer;
 
 @end
 

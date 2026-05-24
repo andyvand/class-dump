@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol BMXPCConnectionFactoryDelegate;
 
 @interface BMXPCConnectionFactory
 {
     unsigned long long _serviceType;
-    unsigned long long _domain;
-    NSString *_path;
-    unsigned int _user;
-    NSString *_useCase;
-    unsigned char _options;
-    id <BMXPCConnectionFactoryDelegate> _delegate;
 }
 
 + (id);
@@ -27,7 +20,7 @@
 + (id);
 + (void);
 + (id);
-+ (void);
++ (void)C;
 + (id);
 - (id);
 - (id);
@@ -42,7 +35,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (void);
 - (void);
 - (id);

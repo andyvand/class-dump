@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (vector_ec872ea8);
-- (id);
+- (vector_5d44c0e6)setSeparator:(id)arg1;
+- (id)_vshSource;
 - (id)AL TABLE %@ USING %@;;
 
 @end

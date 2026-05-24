@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUEISiriCarCommandCancelled, SISchemaUEISiriCarCommandEnded, SISchemaUEISiriCarCommandFailed, SISchemaUEISiriCarCommandStarted;
+@class SISchemaUEISiriCarCommandStarted;
 
 @interface SISchemaUEISiriCarCommandContext : SISchemaInstrumentationMessage
 {
     SISchemaUEISiriCarCommandStarted *_startedOrChanged;
-    SISchemaUEISiriCarCommandEnded *_ended;
-    SISchemaUEISiriCarCommandFailed *_failed;
-    SISchemaUEISiriCarCommandCancelled *_cancelled;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    _Bool _hasCancelled;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -27,7 +19,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void){B;
 - (void);
 - (void);
 - (void);
@@ -41,30 +33,21 @@
 - (id);
 - (id);
 - (id);
+- (void);
+- (_Bool);
+- (unsigned long long)extensionsWithMatchingAttributes:error: /* Error: Ran out of types for this method. */;
+- (id);
+- (_Bool);
+- (_Bool)rom %@ to %@;
+- (id);
+- (id);
 - (void);
-- (_Bool);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id)rstPartyAudioInterfaceProductId;
-- (id)ctionResponse;
-- (void)a;
+- (id)deleteFirstPartyAudioInterfaceProductId;
+- (id)_hasCheckCorrectionResponse;
+- (void)nlRouterSubComponentHandleEndedData;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUEISiriCarCommandCancelled *cancelled; // @synthesize cancelled=_cancelled;
-@property(retain, nonatomic) SISchemaUEISiriCarCommandEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) SISchemaUEISiriCarCommandFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasCancelled; // @synthesize hasCancelled=_hasCancelled;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUEISiriCarCommandStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

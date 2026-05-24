@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString;
+@class NSString;
 
 @interface IAAccountSetupInput
 {
     NSString *_password;
-    NSString *_description;
-    NSString *_userName;
-    NSDictionary *_autoconfigDefaults;
-    NSString *_iaAListPluginID;
-    NSString *_acAccountID;
-    NSString *_acAccountTypeID;
-    NSString *_configProfileIdentifier;
-    NSMutableDictionary *_context;
-    _Bool _continueThroughError;
-    _Bool _continueWithoutSSL;
-    _Bool _createDeactivated;
 }
 
 - (void);
@@ -28,39 +17,28 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id)/AXCoreUtilities/source/Logging/AXLoggingSubsystem.m;
+- (void)7;
+- (id);
+- (id);
+- (void)setHasGeoLocationCoordinates:(id)arg1;
+- (void);
 
 // Remaining properties
-@property(retain) NSString *acAccountID; // @synthesize acAccountID=_acAccountID;
-@property(retain) NSString *acAccountTypeID; // @synthesize acAccountTypeID=_acAccountTypeID;
-@property(retain) NSString *accountDescription; // @synthesize accountDescription=_description;
-@property(retain, nonatomic) NSDictionary *autoconfigDefaults; // @synthesize autoconfigDefaults=_autoconfigDefaults;
-@property(retain) NSString *configProfileIdentifier; // @synthesize configProfileIdentifier=_configProfileIdentifier;
-@property(readonly) NSMutableDictionary *context; // @synthesize context=_context;
-@property _Bool continueThroughError; // @synthesize continueThroughError=_continueThroughError;
-@property _Bool continueWithoutSSL; // @synthesize continueWithoutSSL=_continueWithoutSSL;
-@property _Bool createDeactivated; // @synthesize createDeactivated=_createDeactivated;
-@property(retain) NSString *iaAListPluginID; // @synthesize iaAListPluginID=_iaAListPluginID;
 @property(retain) NSString *password; // @synthesize password=_password;
-@property(retain) NSString *userName; // @synthesize userName=_userName;
 
 @end
 

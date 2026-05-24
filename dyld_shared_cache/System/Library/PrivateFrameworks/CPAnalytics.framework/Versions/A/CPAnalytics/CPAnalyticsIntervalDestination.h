@@ -11,23 +11,21 @@
 @interface CPAnalyticsIntervalDestination : CPAnalyticsDashboardDestination
 {
     NSSet *_trackedIntervalNames;
-    NSSet *_ignoredIntervalNames;
 }
 
 - (void);
-- (id);
+- (id)cations count;
 - (void);
-- (id);
+- (id)_destinationDesiredPixelBufferColorPrimaries;
 - (void);
-- (void);
+- (void)isRegisteredForSMS;
 - (id);
-- (id);
+- (id)locationManager:didRangeBeacons:inRegion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *ignoredIntervalNames; // @synthesize ignoredIntervalNames=_ignoredIntervalNames;
 @property(retain, nonatomic) NSSet *trackedIntervalNames; // @synthesize trackedIntervalNames=_trackedIntervalNames;
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol AVMobileContentTabSelectionViewDelegate
+- (void);
 @end
 

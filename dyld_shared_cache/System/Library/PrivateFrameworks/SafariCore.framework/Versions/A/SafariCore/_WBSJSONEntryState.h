@@ -9,12 +9,10 @@
 @interface _WBSJSONEntryState
 {
     NSMutableSet *_encodedKeys;
-    long long _kind;
-    unsigned long long _numberOfEntries;
 }
 
 - (void);
-- (unsigned long long);
+- (unsigned long long)have either a name array or an IDREF array;
 - (id);
 - (_Bool);
 - (void);
@@ -24,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) long long kind; // @synthesize kind=_kind;
-@property(readonly, nonatomic) unsigned long long numberOfEntries; // @synthesize numberOfEntries=_numberOfEntries;
 
 @end
 

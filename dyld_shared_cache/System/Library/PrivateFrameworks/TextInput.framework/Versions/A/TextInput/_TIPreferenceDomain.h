@@ -10,33 +10,25 @@ __attribute__((visibility("hidden")))
 @interface _TIPreferenceDomain
 {
     _Bool _needsGetSync;
-    _Bool _needsSetSync;
-    NSString *_domain;
-    NSString *_notification;
-    double _lastSynchronizedTime;
 }
 
 + (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (double);
 - (id);
-- (id);
+- (id)T;
 - (void)¾
 °
 ;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(nonatomic) double lastSynchronizedTime; // @synthesize lastSynchronizedTime=_lastSynchronizedTime;
-@property(nonatomic) _Bool needsGetSync; // @synthesize needsGetSync=_needsGetSync;
-@property(nonatomic) _Bool needsSetSync; // @synthesize needsSetSync=_needsSetSync;
-@property(retain, nonatomic) NSString *notification; // @synthesize notification=_notification;
 
 @end
 

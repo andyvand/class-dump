@@ -10,11 +10,11 @@
 {
 }
 
-+ (Class);
++ (Class);
 + (id);
 + (void);
 - (unsigned long long);
-- (id);
+- (id)ylib;
 
 @end
 

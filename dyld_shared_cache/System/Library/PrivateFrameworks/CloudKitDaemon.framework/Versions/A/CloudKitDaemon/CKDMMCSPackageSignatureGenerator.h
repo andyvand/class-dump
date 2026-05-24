@@ -9,9 +9,6 @@
 @interface CKDMMCSPackageSignatureGenerator
 {
     NSDictionary *_generatorResults;
-    _Bool _usesMMCSV2;
-    _Bool _valid;
-    void *_generator;
 }
 
 - (id);
@@ -20,15 +17,14 @@
 - (id);
 - (void);
 - (void *);
-- (_Bool);
-- (void);
-- (void)MCSEncryptionV2;
+- (_Bool)setAutoHotspotClientConnectCount: /* Error: Ran out of types for this method. */;
+- (void)inCellularFallbackDuration;
+- (void)_useMMCSEncryptionV2;
 - (void),V_subscription;
 - (void)orage/CKDPCSSQLCache.m;
 
 // Remaining properties
 @property(nonatomic) void *generator; // @synthesize generator=_generator;
-@property(nonatomic, getter=isValid) _Bool valid; // @synthesize valid=_valid;
 
 @end
 

@@ -6,12 +6,11 @@
 
 #import <ContactsAutocompleteUI/CNComposeTableViewCell.h>
 
-@class UIImageView, UIView;
+@class UIImageView;
 
 @interface CNAutocompleteDisambiguatingTableViewCell : CNComposeTableViewCell
 {
     _Bool _checkmarkVisible;
-    UIImageView *_checkmarkImageView;
 }
 
 + (id);
@@ -20,8 +19,8 @@
 - (double);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void)grade macOS to view this table.;
+- (id)rogram yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in ";
 - (id);
 - (id);
 - (void);
@@ -31,8 +30,6 @@
 
 // Remaining properties
 @property(retain) UIImageView *checkmarkImageView; // @synthesize checkmarkImageView=_checkmarkImageView;
-@property(readonly) UIView *checkmarkView;
-@property(nonatomic, getter=isCheckmarkVisible) _Bool checkmarkVisible; // @synthesize checkmarkVisible=_checkmarkVisible;
 
 @end
 

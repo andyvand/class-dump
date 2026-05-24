@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol GCIPCConnection
+- (id)$;
+- (id)	;
+- (void)s/StreamingZip.framework/Versions/A/StreamingZip;
+- (id)?Q@"NSError">16;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isInvalid) _Bool invalid;
-@property(readonly) int peerAuditSessionIdentifier;
-@property(readonly) CDStruct_4c969caf peerAuditToken;
-@property(readonly) NSString *peerBundleIdentifier;
-@property(readonly) unsigned int peerEffectiveGroupIdentifier;
-@property(readonly) unsigned int peerEffectiveUserIdentifier;
-@property(readonly) int peerProcessIdentifier;
 @end
 

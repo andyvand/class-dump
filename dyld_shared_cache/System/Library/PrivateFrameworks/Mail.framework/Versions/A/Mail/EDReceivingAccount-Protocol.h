@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL;
-@protocol ECMailbox;
+@class NSArray;
 
 @protocol EDReceivingAccount
-- (NSArray *)åH#tîÿÕH#¬îÿÅH#¨îÿ;
 - (_Bool);
+- (NSArray *)åH#tîÿÕH#¬îÿÅH#¨îÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *accountURL;
-@property(readonly) NSArray *emailAddresses;
-@property(readonly) _Bool isLocalAccount;
 @property(readonly) _Bool isManaged;
-@property(readonly) id <ECMailbox> rootMailbox;
-@property(readonly) _Bool shouldArchiveByDefault;
-@property(readonly, copy) NSString *smtpIdentifier;
-@property(readonly) _Bool sourceIsManaged;
 @end
 

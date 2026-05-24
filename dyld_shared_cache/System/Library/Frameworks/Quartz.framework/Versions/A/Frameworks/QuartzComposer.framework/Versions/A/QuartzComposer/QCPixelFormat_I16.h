@@ -11,7 +11,7 @@
     unsigned long long _compatibilities;
 }
 
-- (unsigned long long);
+- (unsigned long long);
 - (int);
 - (unsigned int);
 - (unsigned int);

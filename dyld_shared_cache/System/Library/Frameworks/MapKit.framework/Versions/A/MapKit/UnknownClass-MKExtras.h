@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (MKExtras)
-+ (_Bool);
++ (_Bool);
 @end
 

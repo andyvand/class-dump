@@ -16,10 +16,10 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
-- (void)sDisabledWhileSuspended;
+- (id)\;
+- (void)wantsCallNotificationsDisabledWhileSuspended;
 
 // Remaining properties
 @property(readonly, nonatomic) id <TUSimulatedConversationControllerDataSource> dataSource; // @synthesize dataSource=_dataSource;

@@ -9,13 +9,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (unsigned long long);
+- (unsigned long long) ;
 - (oneway void);
+- (id)eceiverProtocol>"16@?<v@?@"NSError">24;
+- (_Bool)<;
 - (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (id)H;
 
 @end
 

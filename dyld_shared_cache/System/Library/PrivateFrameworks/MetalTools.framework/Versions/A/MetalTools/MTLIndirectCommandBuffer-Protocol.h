@@ -4,10 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol MTLIndirectRenderCommand;
+
 @protocol MTLIndirectCommandBuffer
+- (id <MTLIndirectRenderCommand>);
+- (void);
 
 // Remaining properties
-@property(readonly) struct MTLResourceID gpuResourceID;
 @property(readonly) unsigned long long size;
 @end
 

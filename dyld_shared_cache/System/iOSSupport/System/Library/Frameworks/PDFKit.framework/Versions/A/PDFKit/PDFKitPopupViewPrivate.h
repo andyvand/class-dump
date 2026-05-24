@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUndoManager, PDFAnnotation, PDFPageView, PDFView, UITextView, UIViewController;
+@class PDFAnnotation;
 
 __attribute__((visibility("hidden")))
 @interface PDFKitPopupViewPrivate
 {
     PDFAnnotation *parentAnnotation;
-    PDFPageView *pageView;
-    PDFView *view;
-    UITextView *popupTextView;
-    NSUndoManager *popupTextViewUndoManager;
-    UIViewController *popupController;
-    NSString *contents;
-    _Bool deviceIsiPhone;
-    _Bool deviceIsiPad;
-    id savedFirstResponder;
 }
 
 - (void);

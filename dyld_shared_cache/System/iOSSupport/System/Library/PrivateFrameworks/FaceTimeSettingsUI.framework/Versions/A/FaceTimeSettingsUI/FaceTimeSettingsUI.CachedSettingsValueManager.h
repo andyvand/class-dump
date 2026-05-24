@@ -8,15 +8,6 @@
 {
     id account;
     id accountInformation;
-    id isCaptioningSupported;
-    id captioningAccessibilitySettingEnabled;
-    id isFaceTimePhotosAllowed;
-    id isFaceTimePhotosEnabled;
-    id toneKitPicker;
-    id telHandlerOptions;
-    id telHandlerImages;
-    id hasFetchedValues;
-    id queue;
 }
 
 @end

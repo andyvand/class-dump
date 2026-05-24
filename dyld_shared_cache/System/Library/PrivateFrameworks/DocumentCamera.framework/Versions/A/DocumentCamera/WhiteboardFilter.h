@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface WhiteboardFilter
 {
     CIImage *_inputImage;
-    NSNumber *_stride;
 }
 
 + (id);
@@ -24,7 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(copy, nonatomic) NSNumber *stride; // @synthesize stride=_stride;
 
 @end
 

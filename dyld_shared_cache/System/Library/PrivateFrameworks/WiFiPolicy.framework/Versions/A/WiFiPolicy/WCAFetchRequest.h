@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WCAAsset;
-
 @interface WCAFetchRequest
 {
     CDUnknownBlockType _completionHandler;
-    WCAAsset *_asset;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)%d, new value:%d
+ /* Error: Ran out of types for this method. */;
+- (id)_donateToBiome:(id)arg1;
 - (void);
 - (CDUnknownBlockType);
 - (void);
@@ -23,7 +21,6 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) WCAAsset *asset; // @synthesize asset=_asset;
 @property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
 
 @end

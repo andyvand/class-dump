@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _NAUINamedViewConstraints
 {
     NSString *_name;
-    NSArray *_constraints;
-    id _stalenessToken;
 }
 
+- (id);
+- (id)Vl;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)e;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *constraints; // @synthesize constraints=_constraints;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) id stalenessToken; // @synthesize stalenessToken=_stalenessToken;
 
 @end
 

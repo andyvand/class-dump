@@ -9,19 +9,10 @@
 @interface GEORestrictionZoneInfo
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_restrictedZoneIds;
-    int _environmentalCongestionZoneImpact;
-    int _licensePlateRestrictionImpact;
-    int _tollCongestionZoneImpact;
-    struct {
-        unsigned int has_environmentalCongestionZoneImpact:1;
-        unsigned int has_licensePlateRestrictionImpact:1;
-        unsigned int has_tollCongestionZoneImpact:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)verEndBasicIndex:(id)arg1;
++ (Class)_CNObservableTakeUntilInputObserver;
++ (_Bool)setManeuverEndBasicIndex:(id)arg1;
 - (id);
 - (int);
 - (void);
@@ -33,13 +24,13 @@
 - (unsigned long long);
 - (id);
 - (id);
+- (id)moveFilesystemPhotosIntoCoreData;
+- (int)moveAsideDatabaseIfNeeded;
+- (_Bool);
+- (_Bool)com.apple.private.contacts.use-remote-persistence;
+- (_Bool)|TDp;
 - (id);
 - (int);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (int);
 - (void);
 - (void);
 - (void);
@@ -51,28 +42,22 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)ECT:(id)arg1 AssetCacheServices-140.120.2
+;
+- (void)_analyzerTrailingSamples;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)rActive"b1"has_roundTripTimeVar"b1"has_rssi"b1"has_snr"b1"has_sslConnectionCount"b1"has_sslErrorCount"b1"has_topDLRate"b1"has_type"b1"has_wasCaptiveFlag"b1"has_hotspot20"b1"has_isEdgeBSS"b1"has_isKnownGood"b1"has_lowInternetDL"b1"has_lowInternetUL"b1"read_authTraits"b1"read_nameAttributes"b1"read_traits"b1"read_beaconInfo"b1"read_essMembers"b1"read_feedbacks"b1"read_hotspotHelperProviders"b1"read_identifier"b1"read_label"b1"read_location"b1"read_nearbyBSSs"b1"read_passpointInfo"b1"read_roamStates"b1"read_speedTests"b1"read_uniqueID"b1"wrote_anyField"b1};
-- (id)conds;
+- (id)expectedDurationSeconds;
 - (id)°ãZþÿÿÿÿ¸;
-- (id)equest_data;
+- (id)request_data;
 - (void);
 
 // Remaining properties
-@property(nonatomic) int environmentalCongestionZoneImpact;
-@property(nonatomic) _Bool hasEnvironmentalCongestionZoneImpact;
-@property(nonatomic) _Bool hasLicensePlateRestrictionImpact;
-@property(nonatomic) _Bool hasTollCongestionZoneImpact;
-@property(nonatomic) int licensePlateRestrictionImpact;
 @property(retain, nonatomic) NSMutableArray *restrictedZoneIds;
-@property(nonatomic) int tollCongestionZoneImpact;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol EDCategoryChangeHookResponder
+
+@optional
+- (void);
+- (void);
+- (void);
+- (void)setIntroducersByCategorys:(NSArray *)arg1;
 @end
 

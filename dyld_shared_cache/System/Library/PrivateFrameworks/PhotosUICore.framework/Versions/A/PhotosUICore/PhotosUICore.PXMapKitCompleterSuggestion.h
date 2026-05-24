@@ -7,10 +7,6 @@
 @interface PhotosUICore.PXMapKitCompleterSuggestion
 {
     id uuid;
-    id title;
-    id subtitle;
-    id completion;
-    id location;
 }
 
 @end

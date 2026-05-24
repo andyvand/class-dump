@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol WBSOrderedTab;
-
 @protocol WBSTabOrderProvider
 - (unsigned long long);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long indexOfSelectedTab;
-@property(readonly, nonatomic) unsigned long long numberOfTabs;
-@property(readonly, nonatomic) id <WBSOrderedTab> selectedTabForTabOrderProvider;
 @end
 

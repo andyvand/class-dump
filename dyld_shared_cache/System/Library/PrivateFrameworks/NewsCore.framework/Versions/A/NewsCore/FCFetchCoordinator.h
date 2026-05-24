@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCBoostableOperationThrottler, FCMapTable, NFMutexLock, NSCountedSet, NSHashTable, NSString;
 @protocol FCFetchCoordinatorDelegate;
 
 @interface FCFetchCoordinator
 {
     id <FCFetchCoordinatorDelegate> _delegate;
-    unsigned long long _maxConcurrentFetchCount;
-    NSHashTable *_fetchGroups;
-    NSCountedSet *_allKeys;
-    FCMapTable *_fetchOperationsByGroup;
-    NFMutexLock *_accessLock;
-    FCBoostableOperationThrottler *_fetchThrottler;
 }
 
 - (unsigned long long);
@@ -25,20 +18,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)storageKitUsersForUsers:(id)arg1 ];
 - (void);
 - (void)j9Å;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <FCFetchCoordinatorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property unsigned long long maxConcurrentFetchCount; // @synthesize maxConcurrentFetchCount=_maxConcurrentFetchCount;
-@property(readonly) Class superclass;
 
 @end
 

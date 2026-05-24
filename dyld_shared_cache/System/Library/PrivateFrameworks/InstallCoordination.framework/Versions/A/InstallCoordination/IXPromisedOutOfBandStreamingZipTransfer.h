@@ -6,16 +6,15 @@
 
 #import <InstallCoordination/IXOpaqueDataPromise.h>
 
-@class IXPromisedOutOfBandStreamingZipTransferSeed, NSString, NSURL, SZExtractor;
+@class IXPromisedOutOfBandStreamingZipTransferSeed;
 @protocol SZExtractorDelegate;
 
 @interface IXPromisedOutOfBandStreamingZipTransfer : IXOpaqueDataPromise
 {
     id <SZExtractorDelegate> _extractorDelegate;
-    SZExtractor *_extractor;
 }
 
-+ (_Bool);
++ (_Bool)i/;
 - (_Bool);
 - (void);
 - (Class);
@@ -30,7 +29,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,24 +44,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long archiveBytesConsumed; // @dynamic archiveBytesConsumed;
-@property(nonatomic, getter=isComplete) _Bool complete; // @dynamic complete;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool doesConsumeExtractedData;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) NSURL *extractionPath; // @dynamic extractionPath;
-@property(retain, nonatomic) SZExtractor *extractor; // @synthesize extractor=_extractor;
-@property(nonatomic) __weak id <SZExtractorDelegate> extractorDelegate; // @synthesize extractorDelegate=_extractorDelegate;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) IXPromisedOutOfBandStreamingZipTransferSeed *seed; // @dynamic seed;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool useProgressFromSZExtractor;
 
 @end
 

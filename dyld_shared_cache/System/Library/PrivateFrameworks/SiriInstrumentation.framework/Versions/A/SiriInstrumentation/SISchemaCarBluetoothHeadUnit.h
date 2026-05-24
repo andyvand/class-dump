@@ -6,27 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SISchemaCarBluetoothHeadUnit : SISchemaInstrumentationMessage
 {
     NSString *_headUnitVendorId;
-    NSString *_headUnitProductId;
-    NSString *_carMake;
-    NSString *_carModel;
-    unsigned int _carYear;
-    NSString *_organizationallyUniqueId;
-    struct {
-        unsigned int carYear:1;
-    } _has;
-    _Bool _hasHeadUnitVendorId;
-    _Bool _hasHeadUnitProductId;
-    _Bool _hasCarMake;
-    _Bool _hasCarModel;
-    _Bool _hasOrganizationallyUniqueId;
 }
 
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -51,36 +38,25 @@
 - (id);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)ASDRestoreDemotedApplicationsRequest;
+- (_Bool)T_TRAILING, AB_NAMEVIEW_COMPANYCHECKBOX_HEIGHT, AB_HEADERVIEW_PRIVACY_LABEL_INSET_TRAILING, AB_CARDVIEW_COLLECTION_INSET_TRAILING, AB_COLLECTION_ROW_STACKVIEW_MIN_HEIGHT, AB_COLLECTION_CENTER_COLUMN_WIDTH, AB_COLLECTION_MINUS_BUTTON_LEADING_INSET, AB_COLLECTION_SPACING_BTWN_MINUS_PLUS_BUTTONS, AB_COLLECTION_MAIL_GLYPH_HEIGHT;
+- (_Bool)e = 0  AND (m.balloon_bundle_id IS NULL OR m.balloon_bundle_id != 'com.apple.messages.chatbot')  UNION ALL SELECT c.guid, rmp.message_id, m.guid, rmp.delete_date, rmp.part_index, rmp.part_text  FROM recoverable_message_part AS rmp  JOIN chat AS c   ON c.ROWID = rmp.chat_id  JOIN message AS m   ON m.ROWID = rmp.message_id  WHERE rmp.ck_sync_state = 0  AND (m.balloon_bundle_id IS NULL OR m.balloon_bundle_id != 'com.apple.messages.chatbot') LIMIT ?;;
 - (id);
-- (id);
-- (id)RequestsPerWeek;
-- (id)Received;
-- (void)SIONCATEGORY_RINGTONE_PREVIEW;
+- (id)fer_InitWithCGImage failed:unable to convert image mask to image format (%d)
+ /* Error: Ran out of types for this method. */;
+- (id)daysWithTwoAssistantSpeechRequestsPerWeek;
+- (id)_appContactAffinityScoreForPhoneCallReceived;
+- (void)MHAUDIOSESSIONCATEGORY_RINGTONE_PREVIEW;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *carMake; // @synthesize carMake=_carMake;
-@property(copy, nonatomic) NSString *carModel; // @synthesize carModel=_carModel;
-@property(nonatomic) unsigned int carYear; // @synthesize carYear=_carYear;
-@property(nonatomic) _Bool hasCarMake; // @synthesize hasCarMake=_hasCarMake;
-@property(nonatomic) _Bool hasCarModel; // @synthesize hasCarModel=_hasCarModel;
-@property(nonatomic) _Bool hasCarYear;
-@property(nonatomic) _Bool hasHeadUnitProductId; // @synthesize hasHeadUnitProductId=_hasHeadUnitProductId;
-@property(nonatomic) _Bool hasHeadUnitVendorId; // @synthesize hasHeadUnitVendorId=_hasHeadUnitVendorId;
-@property(nonatomic) _Bool hasOrganizationallyUniqueId; // @synthesize hasOrganizationallyUniqueId=_hasOrganizationallyUniqueId;
-@property(copy, nonatomic) NSString *headUnitProductId; // @synthesize headUnitProductId=_headUnitProductId;
 @property(copy, nonatomic) NSString *headUnitVendorId; // @synthesize headUnitVendorId=_headUnitVendorId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *organizationallyUniqueId; // @synthesize organizationallyUniqueId=_organizationallyUniqueId;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface HMDNetworkInfoController
 {
     id logger;
-    id store;
-    id dataSource;
 }
 
 - (id);

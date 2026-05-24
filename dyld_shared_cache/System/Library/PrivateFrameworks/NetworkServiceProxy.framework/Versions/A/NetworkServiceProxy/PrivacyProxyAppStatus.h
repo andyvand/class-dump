@@ -4,39 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface PrivacyProxyAppStatus
 {
     unsigned long long _appStatus;
-    NSString *_bundleIdentifier;
-    NSString *_path;
-    NSDate *_activeDate;
 }
 
-+ (_Bool);
++ (_Bool)forceSyncForScopeIdentifiers:reply: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)initWithData:refreshIntervalKey:minRefreshInterval:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id)etAuthInfo:(int)arg1;
+- (id)setAuthInfo:(int)arg1;
 
 // Remaining properties
-@property(retain) NSDate *activeDate; // @synthesize activeDate=_activeDate;
 @property unsigned long long appStatus; // @synthesize appStatus=_appStatus;
-@property(retain) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain) NSString *path; // @synthesize path=_path;
 
 @end
 

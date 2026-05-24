@@ -7,19 +7,6 @@
 @interface AppStoreKit.EditorialCard
 {
     id adamId;
-    id caption;
-    id title;
-    id subtitle;
-    id artwork;
-    id clickAction;
-    id shelfBackground;
-    id lockup;
-    id mediaOverlayStyle;
-    id appEventFormattedDates;
-    id decorations;
-    id id;
-    id impressionMetrics;
-    id automationMetadata;
 }
 
 @end

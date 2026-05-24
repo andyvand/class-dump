@@ -6,30 +6,23 @@
 
 #import <MailUI/MessageListSectionDataSource.h>
 
-@class EMObjectID, MUICategoryMailboxCount, MUICategoryMailboxCountHelper;
-
 @interface MUIMessageListOnboardingTipDataSource : MessageListSectionDataSource
 {
     long long _selectedBucket;
-    MUICategoryMailboxCountHelper *_helper;
-    MUICategoryMailboxCount *_count;
-    EMObjectID *_itemIdentifier;
 }
 
 - (void);
 - (long long);
-- (id);
+- (id)k;
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void)ighLevel;
 - (id);
-- (void)entationWithOptions:delegate:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)requestRepresentationWithOptions:delegate:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) MUICategoryMailboxCount *count; // @synthesize count=_count;
-@property(retain, nonatomic) MUICategoryMailboxCountHelper *helper; // @synthesize helper=_helper;
 @property(nonatomic) long long selectedBucket; // @synthesize selectedBucket=_selectedBucket;
 
 @end

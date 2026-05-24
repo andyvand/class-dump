@@ -6,13 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class CEMApplicationControlDeclaration_InstallSchedule, CEMApplicationControlDeclaration_UpdateSchedule, NSString;
+@class CEMApplicationControlDeclaration_InstallSchedule;
 
 @interface CEMApplicationControlDeclaration : CEMConfigurationBase
 {
     CEMApplicationControlDeclaration_InstallSchedule *_payloadInstallSchedule;
-    NSString *_payloadUpdatePolicy;
-    CEMApplicationControlDeclaration_UpdateSchedule *_payloadUpdateSchedule;
 }
 
 + (id);
@@ -24,7 +22,7 @@
 + (id);
 - (void);
 - (void);
-- (void);
+- (void)c;
 - (id);
 - (id);
 - (id);
@@ -35,19 +33,10 @@
 - (int);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) CEMApplicationControlDeclaration_InstallSchedule *payloadInstallSchedule; // @synthesize payloadInstallSchedule=_payloadInstallSchedule;
-@property(copy, nonatomic) NSString *payloadUpdatePolicy; // @synthesize payloadUpdatePolicy=_payloadUpdatePolicy;
-@property(copy, nonatomic) CEMApplicationControlDeclaration_UpdateSchedule *payloadUpdateSchedule; // @synthesize payloadUpdateSchedule=_payloadUpdateSchedule;
-@property(readonly) Class superclass;
 
 @end
 

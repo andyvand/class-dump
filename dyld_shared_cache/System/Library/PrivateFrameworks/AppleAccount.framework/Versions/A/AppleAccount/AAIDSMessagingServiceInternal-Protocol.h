@@ -7,9 +7,10 @@
 @class NSMutableArray;
 
 @protocol AAIDSMessagingServiceInternal
+- (NSMutableArray *)ontroller returned NO for validation;
+- (NSMutableArray *)ProfileManager.installProfile pluginController returned NO for validation;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSMutableArray *pendingCustodianMessages;
 @property(readonly, copy, nonatomic) NSMutableArray *pendingInheritanceMessages;
 @end
 

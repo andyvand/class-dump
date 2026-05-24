@@ -6,13 +6,9 @@
 
 #import <Foundation/NSExpression.h>
 
-@class NSPredicate;
-
 @interface NSSubqueryExpression : NSExpression
 {
     NSExpression *_collection;
-    NSExpression *_variableExpression;
-    NSPredicate *_subpredicate;
 }
 
 + (_Bool)archived.;

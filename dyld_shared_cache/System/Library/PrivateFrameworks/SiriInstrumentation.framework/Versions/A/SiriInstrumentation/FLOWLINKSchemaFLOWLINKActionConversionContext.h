@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLOWLINKSchemaFLOWLINKActionConversionEnded, FLOWLINKSchemaFLOWLINKActionConversionFailed, FLOWLINKSchemaFLOWLINKActionConversionStarted, NSData;
+@class FLOWLINKSchemaFLOWLINKActionConversionStarted;
 
 @interface FLOWLINKSchemaFLOWLINKActionConversionContext : SISchemaInstrumentationMessage
 {
     FLOWLINKSchemaFLOWLINKActionConversionStarted *_startedOrChanged;
-    FLOWLINKSchemaFLOWLINKActionConversionEnded *_ended;
-    FLOWLINKSchemaFLOWLINKActionConversionFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -29,13 +23,13 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)recording_deinit(hwtrace_recording_t);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)setupPauseOnHeadphoneDisconnectChangedCallback:(id)arg1 withContext:andRunLoop: /* Error: Ran out of types for this method. */;
+- (id)_stringValueOfEntitlement:(id)arg1 secTask: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (unsigned long long);
@@ -43,19 +37,12 @@
 - (_Bool);
 - (id);
 - (id)DMSystemInformed";
-- (id)UGEngagementReported;
+- (id)SUGSchemaSUGEngagementReported;
 - (id)´Ê;
 - (void)3%;
 
 // Remaining properties
-@property(retain, nonatomic) FLOWLINKSchemaFLOWLINKActionConversionEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) FLOWLINKSchemaFLOWLINKActionConversionFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) FLOWLINKSchemaFLOWLINKActionConversionStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

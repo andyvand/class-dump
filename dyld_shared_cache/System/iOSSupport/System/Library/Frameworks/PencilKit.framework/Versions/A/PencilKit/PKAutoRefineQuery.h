@@ -6,18 +6,17 @@
 
 #import <PencilKit/PKQuery.h>
 
-@class CHAutoRefineQuery, NSString;
+@class CHAutoRefineQuery;
 @protocol PKAutoRefineQueryDelegate;
 
 @interface PKAutoRefineQuery : PKQuery
 {
     id <PKAutoRefineQueryDelegate> _autoRefineDelegate;
-    CHAutoRefineQuery *_query;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)9;
 - (void);
 - (void);
 - (void);
@@ -28,15 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <PKAutoRefineQueryDelegate> autoRefineDelegate; // @synthesize autoRefineDelegate=_autoRefineDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) CHAutoRefineQuery *query; // @synthesize query=_query;
-@property(readonly) Class superclass;
 
 @end
 

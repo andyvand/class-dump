@@ -10,22 +10,17 @@ __attribute__((visibility("hidden")))
 @interface UIViewPropertyAnimatorTrackingState
 {
     _Bool _startPaused;
-    _Bool _scrubsLinearly;
-    _Bool _userInteractionEnabled;
-    _Bool _optimizationsEnabled;
-    _Bool _shouldLayoutSubviews;
-    NSUUID *_uuid;
 }
 
-- (_Bool);
-- (id);
+- (_Bool);
+- (id);
 - (_Bool)!ð!lGùQaÐ1Â0@ù
 × ;
 - (void)
 × ;
-- (void)ntentResolver:(_Bool)arg1;
+- (void)_setIntentResolver:(_Bool)arg1;
 - (_Bool)ingFactor;
-- (void)ack:(_Bool)arg1;
+- (void)setHostWindowDidResizeCallback:(_Bool)arg1;
 - (id)Please use UIWebView in place of UIWebDocumentView.;
 - (_Bool);
 - (_Bool);
@@ -34,11 +29,6 @@ __attribute__((visibility("hidden")))
 - (void)¸kÊÿ¯ÌÀÜc;
 
 // Remaining properties
-@property(nonatomic) _Bool optimizationsEnabled; // @synthesize optimizationsEnabled=_optimizationsEnabled;
-@property(nonatomic) _Bool scrubsLinearly; // @synthesize scrubsLinearly=_scrubsLinearly;
-@property(nonatomic) _Bool shouldLayoutSubviews; // @synthesize shouldLayoutSubviews=_shouldLayoutSubviews;
-@property(nonatomic) _Bool startPaused; // @synthesize startPaused=_startPaused;
-@property(nonatomic) _Bool userInteractionEnabled; // @synthesize userInteractionEnabled=_userInteractionEnabled;
 @property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

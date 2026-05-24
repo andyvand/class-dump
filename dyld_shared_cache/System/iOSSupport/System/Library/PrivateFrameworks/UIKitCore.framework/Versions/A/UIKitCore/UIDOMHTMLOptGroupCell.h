@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (double);
+- (double)er _getDevicesForBothNicknameServices:(struct CGRect)arg1 removeNewServiceURIsFromIMessageList:completionHandler:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

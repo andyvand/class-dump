@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor;
+@class NSArray;
 
 @interface _SFPBStrokeAnimationCardSection
 {
     _Bool _canBeHidden;
-    _Bool _hasTopPadding;
-    _Bool _hasBottomPadding;
-    int _separatorStyle;
-    NSArray *_punchoutOptions;
-    NSString *_punchoutPickerTitle;
-    NSString *_punchoutPickerDismissText;
-    NSString *_type;
-    _SFPBColor *_backgroundColor;
-    NSString *_strokeAnimationRepresentation;
-    NSArray *_strokeNames;
-    NSArray *_characters;
-    NSArray *_pronunciations;
 }
 
 - (unsigned long long);
@@ -51,12 +39,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)URLSessionDidFinishEventsForBackgroundURLSession: /* Error: Ran out of types for this method. */;
+- (_Bool)s=I},R,N,V_lock;
 - (id);
 - (void);
 - (void);
@@ -65,9 +53,9 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)ID:%@ /* Error: Ran out of types for this method. */;
+- (id)setCollectionUUIDsForSuggestions:(id)arg1;
+- (id)rk access allowed - warning, result may block for a long time;
 - (void);
 - (id);
 - (void);
@@ -77,27 +65,7 @@
 - (int);
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) _Bool canBeHidden; // @synthesize canBeHidden=_canBeHidden;
-@property(copy, nonatomic) NSArray *characters; // @synthesize characters=_characters;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasBottomPadding; // @synthesize hasBottomPadding=_hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding; // @synthesize hasTopPadding=_hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *pronunciations; // @synthesize pronunciations=_pronunciations;
 @property(copy, nonatomic) NSArray *punchoutOptions; // @synthesize punchoutOptions=_punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText; // @synthesize punchoutPickerDismissText=_punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle; // @synthesize punchoutPickerTitle=_punchoutPickerTitle;
-@property(nonatomic) int separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(copy, nonatomic) NSString *strokeAnimationRepresentation; // @synthesize strokeAnimationRepresentation=_strokeAnimationRepresentation;
-@property(copy, nonatomic) NSArray *strokeNames; // @synthesize strokeNames=_strokeNames;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

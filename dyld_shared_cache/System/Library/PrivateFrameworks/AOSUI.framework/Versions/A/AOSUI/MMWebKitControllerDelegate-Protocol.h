@@ -5,5 +5,10 @@
 //
 
 @protocol MMWebKitControllerDelegate
+
+@optional
+- (void);
+- (void);
+- (void)l;
 @end
 

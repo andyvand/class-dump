@@ -7,11 +7,6 @@
 @interface RemindersUICore.TTRReminderTitleAttributesInteractor
 {
     id $__lazy_storage_$_resultsPublisher;
-    id harvester;
-    id styler;
-    id contactsProvider;
-    id locationOptionsProvider;
-    id requestSubject;
 }
 
 @end

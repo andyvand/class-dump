@@ -9,29 +9,21 @@
 @interface MPSRNNDescriptor
 {
     _Bool _useLayerInputUnitTransformMode;
-    _Bool _useFloat32Weights;
-    unsigned long long _inputFeatureChannels;
-    unsigned long long _outputFeatureChannels;
-    id <MPSCNNConvolutionDataSource> _inputTransform;
-    id <MPSCNNConvolutionDataSource> _outputTransform;
-    id <MPSCNNConvolutionDataSource> _recurrentOutputTransform;
-    unsigned long long _layerSequenceDirection;
-    unsigned long long _internalKernelSelector;
 }
 
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)=);
 - (void);
-- (void);
-- (void);
+- (void)[;
 - (void);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id)� ;
 - (void);
 - (void);
 - (id);
@@ -41,15 +33,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long inputFeatureChannels; // @synthesize inputFeatureChannels=_inputFeatureChannels;
 @property(retain, nonatomic) id <MPSCNNConvolutionDataSource> inputTransform; // @synthesize inputTransform=_inputTransform;
-@property(nonatomic) unsigned long long internalKernelSelector; // @synthesize internalKernelSelector=_internalKernelSelector;
-@property(nonatomic) unsigned long long layerSequenceDirection; // @synthesize layerSequenceDirection=_layerSequenceDirection;
-@property(nonatomic) unsigned long long outputFeatureChannels; // @synthesize outputFeatureChannels=_outputFeatureChannels;
-@property(retain, nonatomic) id <MPSCNNConvolutionDataSource> outputTransform; // @synthesize outputTransform=_outputTransform;
-@property(retain, nonatomic) id <MPSCNNConvolutionDataSource> recurrentOutputTransform; // @synthesize recurrentOutputTransform=_recurrentOutputTransform;
-@property(nonatomic) _Bool useFloat32Weights; // @synthesize useFloat32Weights=_useFloat32Weights;
-@property(nonatomic) _Bool useLayerInputUnitTransformMode; // @synthesize useLayerInputUnitTransformMode=_useLayerInputUnitTransformMode;
 
 @end
 

@@ -20,12 +20,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
+- (id)U;
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void);
+- (id)*
+;
 - (id);
 
 @end

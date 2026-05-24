@@ -7,18 +7,15 @@
 #import <ExchangeWebServices/EWSSubscription.h>
 
 @class EWSExchangeServiceBindingTask;
-@protocol EWSStreamingSubscriptionDelegate;
 
 @interface EWSStreamingSubscription : EWSSubscription
 {
     _Bool _shouldStream;
-    EWSExchangeServiceBindingTask *_streamTask;
-    id <EWSStreamingSubscriptionDelegate> _streamingDelegate;
 }
 
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -27,16 +24,14 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)]] KRBCredAddReferenceAndLabel () = %d (label %s);
+- (void)indexesOfNameTokens:(id)arg1 matchingSearchToken: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property _Bool shouldStream; // @synthesize shouldStream=_shouldStream;
 @property(retain) EWSExchangeServiceBindingTask *streamTask; // @synthesize streamTask=_streamTask;
-@property __weak id <EWSStreamingSubscriptionDelegate> streamingDelegate; // @synthesize streamingDelegate=_streamingDelegate;
 
 @end
 

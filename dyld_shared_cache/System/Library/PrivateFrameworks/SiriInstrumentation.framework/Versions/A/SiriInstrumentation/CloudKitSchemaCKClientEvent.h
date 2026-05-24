@@ -6,17 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class CloudKitSchemaCKChangeReported, CloudKitSchemaCKErrorReported, CloudKitSchemaCloudKitEventMetadata, NSData, SISchemaInstrumentationMessage;
+@class CloudKitSchemaCloudKitEventMetadata, SISchemaInstrumentationMessage;
 
 @interface CloudKitSchemaCKClientEvent : SISchemaTopLevelUnionType
 {
     CloudKitSchemaCloudKitEventMetadata *_eventMetadata;
-    CloudKitSchemaCKErrorReported *_cloudKitErrorReported;
-    CloudKitSchemaCKChangeReported *_cloudKitChangeReported;
-    _Bool _hasEventMetadata;
-    _Bool _hasCloudKitErrorReported;
-    _Bool _hasCloudKitChangeReported;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
@@ -28,7 +22,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
@@ -41,30 +35,22 @@
 - (id);
 - (id);
 - (int);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)arameterConfirmation";
-- (id)sAppContactFreqForMessages;
+- (id)hasAppContactFreqForMessages;
 - (unsigned long long)layProperties",&,N,V_carPlay;
-- (id)onEnrollmentDataReportedTier1;
+- (id)MHSchemaMHSpeakerIdDataCollectionEnrollmentDataReportedTier1;
 - (id)´`äìT;
-- (int)opTenRelevance;
+- (int)isAppInTopTenRelevance;
 - (void)Iú;
 
 // Remaining properties
-@property(retain, nonatomic) CloudKitSchemaCKChangeReported *cloudKitChangeReported; // @synthesize cloudKitChangeReported=_cloudKitChangeReported;
-@property(retain, nonatomic) CloudKitSchemaCKErrorReported *cloudKitErrorReported; // @synthesize cloudKitErrorReported=_cloudKitErrorReported;
-@property(retain, nonatomic) CloudKitSchemaCloudKitEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasCloudKitChangeReported; // @synthesize hasCloudKitChangeReported=_hasCloudKitChangeReported;
-@property(nonatomic) _Bool hasCloudKitErrorReported; // @synthesize hasCloudKitErrorReported=_hasCloudKitErrorReported;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

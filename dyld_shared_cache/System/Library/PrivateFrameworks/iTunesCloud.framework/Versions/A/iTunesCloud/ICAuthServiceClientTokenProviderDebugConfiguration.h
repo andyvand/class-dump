@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface ICAuthServiceClientTokenProviderDebugConfiguration
 {
     unsigned long long _commandOption;
-    _Bool _allDSIDsShouldError;
-    _Bool _allDSIDsShouldSucceed;
-    NSArray *_errorDSIDs;
 }
 
-+ (_Bool);
++ (_Bool)B;
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void)¨;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allDSIDsShouldError; // @synthesize allDSIDsShouldError=_allDSIDsShouldError;
-@property(readonly, nonatomic) _Bool allDSIDsShouldSucceed; // @synthesize allDSIDsShouldSucceed=_allDSIDsShouldSucceed;
 @property(readonly, nonatomic) unsigned long long commandOption; // @synthesize commandOption=_commandOption;
-@property(readonly, nonatomic) NSArray *errorDSIDs; // @synthesize errorDSIDs=_errorDSIDs;
 
 @end
 

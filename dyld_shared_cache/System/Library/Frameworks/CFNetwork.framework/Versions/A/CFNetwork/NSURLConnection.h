@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURLConnectionInternal, NSURLRequest;
+@class NSURLConnectionInternal;
 
 @interface NSURLConnection
 {
@@ -14,10 +14,10 @@
 - (id);
 - (id);
 - (id);
+- (void)ernal/Library/BuildRoots/4~CNqLugCBYi6921YV9ugORKvqpngzP57BMNeee8E/Library/Caches/com.apple.xbs/TemporaryDirectory.apq7lo/Sources/CoreGraphics/CoreGraphics/PDF/Text/Unicode/CGPDFUnicodeTable.c;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)`;
 - (id);
 - (id);
 - (void);
@@ -29,24 +29,17 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)8
+;
 - (void);
 - (_Bool);
-- (void);
+- (void)Ru&;
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSURLRequest *currentRequest;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy) NSURLRequest *originalRequest;
-@property(readonly) Class superclass;
 
 @end
 

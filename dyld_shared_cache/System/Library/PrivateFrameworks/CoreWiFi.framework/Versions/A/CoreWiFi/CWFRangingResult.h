@@ -4,20 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSString;
 
 @interface CWFRangingResult
 {
     int _status;
-    NSString *_MACAddress;
-    NSData *_identifier;
-    double _distance;
-    double _standardDeviation;
-    unsigned long long _numberOfValidMeasurements;
-    NSArray *_measurements;
 }
 
-+ (_Bool);
++ (_Bool)@;
 - (void);
 - (void);
 - (void);
@@ -28,27 +22,21 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)Name:(double)arg1 %@);
 - (double);
 - (_Bool);
 - (void);
-- (void);
+- (void)X;
 - (id);
 - (int);
 - (id);
-- (double);
+- (double);
 - (void)ectiveIdentifier;
-- (id);
+- (id)BSSIDThresholds;
 - (void)ø;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *MACAddress; // @synthesize MACAddress=_MACAddress;
-@property(nonatomic) double distance; // @synthesize distance=_distance;
-@property(copy, nonatomic) NSData *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSArray *measurements; // @synthesize measurements=_measurements;
-@property(nonatomic) unsigned long long numberOfValidMeasurements; // @synthesize numberOfValidMeasurements=_numberOfValidMeasurements;
-@property(nonatomic) double standardDeviation; // @synthesize standardDeviation=_standardDeviation;
-@property(nonatomic) int status; // @synthesize status=_status;
 
 @end
 

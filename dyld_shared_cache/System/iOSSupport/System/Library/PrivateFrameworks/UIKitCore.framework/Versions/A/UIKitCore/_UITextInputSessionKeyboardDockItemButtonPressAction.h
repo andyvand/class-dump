@@ -10,40 +10,28 @@ __attribute__((visibility("hidden")))
 @interface _UITextInputSessionKeyboardDockItemButtonPressAction : _UITextInputSessionAction
 {
     unsigned long long _buttonPressResult;
-    unsigned long long _buttonType;
-    long long _uiOrientation;
-    double _touchDuration;
-    struct CGSize _buttonSize;
-    struct CGPoint _touchDownPoint;
-    struct CGPoint _touchUpPoint;
 }
 
-- (struct CGPoint);
+- (struct CGPoint);
 - (void);
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)y"24;
 - (struct CGSize);
-- (struct CGPoint);
-- (void);
+- (struct CGPoint)>;
+- (void)setIsEmphasized:(struct CGSize)arg1;
 - (id);
 - (void);
 - (long long);
 - (long long)Dù±[ð1Â0@ù
 × ;
-- (void)indowSafeAreaAspectFitLayoutGuideAspectRatio;
+- (void)_UIWindowSafeAreaAspectFitLayoutGuideAspectRatio;
 - (double)Æ?Ù?;
 - (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) unsigned long long buttonPressResult; // @synthesize buttonPressResult=_buttonPressResult;
-@property(nonatomic) struct CGSize buttonSize; // @synthesize buttonSize=_buttonSize;
-@property(nonatomic) unsigned long long buttonType; // @synthesize buttonType=_buttonType;
-@property(nonatomic) struct CGPoint touchDownPoint; // @synthesize touchDownPoint=_touchDownPoint;
-@property(nonatomic) double touchDuration; // @synthesize touchDuration=_touchDuration;
-@property(nonatomic) struct CGPoint touchUpPoint; // @synthesize touchUpPoint=_touchUpPoint;
-@property(nonatomic) long long uiOrientation; // @synthesize uiOrientation=_uiOrientation;
 
 @end
 

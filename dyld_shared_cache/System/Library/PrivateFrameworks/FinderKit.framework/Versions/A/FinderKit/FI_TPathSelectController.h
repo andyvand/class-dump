@@ -4,29 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMenu, NSMenuItem, NSProgressIndicator, NSString, NSView;
-@protocol FI_TPathSelectDelegate;
-
 __attribute__((visibility("hidden")))
 @interface FI_TPathSelectController
 {
     struct TFENodeSortedMap _nodeMap;
-    struct shared_ptr<TCoalescingNodeObserverCocoaBridge> _nodeObserver;
-    struct TFENode _parentNode;
-    struct TFENode _openedNode;
-    struct optional<CGRect> _presentationRect;
-    NSMenuItem *_currentMenuItem;
-    NSMenuItem *_loadingMenuItem;
-    NSView *_referenceView;
-    optional_fcefa02e _iconScaleFactor;
-    optional_34114161 _darkBackground;
-    TNSWeakPtr_db0eab6c _slowLoadingToken;
-    struct function<bool (const TFENode &)> _shouldShowNode;
-    _Bool _tornDown;
-    _Bool _populated;
-    id <FI_TPathSelectDelegate> _delegate;
-    NSMenu *_peerMenu;
-    NSProgressIndicator *_loadingSpinner;
 }
 
 - (void);
@@ -38,12 +19,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (struct TFENodeVector);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)_canProvideDocumentSource;
 - (void);
 - (void);
 - (id);
@@ -51,8 +32,8 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (long long);
-- (void);
+- (long long)6;
+- (void)_;
 - (_Bool);
 - (struct CGRect);
 - (struct TFENode);
@@ -64,20 +45,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <FI_TPathSelectDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak NSProgressIndicator *loadingSpinner; // @synthesize loadingSpinner=_loadingSpinner;
-@property(readonly, nonatomic) struct TFENode openedNode; // @synthesize openedNode=_openedNode;
-@property(readonly, nonatomic) struct TFENode parentNode; // @synthesize parentNode=_parentNode;
-@property(retain, nonatomic) NSMenu *peerMenu; // @synthesize peerMenu=_peerMenu;
 @property(getter=isPopulated) _Bool populated; // @synthesize populated=_populated;
-@property(readonly) Class superclass;
-@property(getter=isTornDown) _Bool tornDown; // @synthesize tornDown=_tornDown;
 
 @end
 

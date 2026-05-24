@@ -24,9 +24,7 @@
 - (id)long;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *deploymentID;
 @property(readonly, nonatomic) NSString *experimentID;
-@property(readonly, nonatomic) NSString *treatmentID;
 
 @end
 

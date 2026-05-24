@@ -6,25 +6,21 @@
 
 #import <LinkPresentation/LPFetcher.h>
 
-@class NSMutableData, NSString, NSURL, WKWebView;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface LPRawURLContentsFetcher : LPFetcher
 {
     CDUnknownBlockType _completionHandler;
-    WKWebView *_webView;
-    NSMutableData *_data;
-    NSString *_MIMEType;
-    NSURL *_URL;
 }
 
+- (void)tapbackPickerCanOverflowPresentationBounds;
+- (void)stopRecordingForRaiseGestureWithFailure:(long long)arg1;
+- (void)stickerGUIDsHiddenDuringStickerAddAnimation;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void)0@ù
@@ -32,13 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

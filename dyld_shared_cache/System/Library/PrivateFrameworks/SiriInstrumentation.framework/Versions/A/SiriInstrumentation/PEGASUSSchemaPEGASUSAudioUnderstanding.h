@@ -6,19 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface PEGASUSSchemaPEGASUSAudioUnderstanding : SISchemaInstrumentationMessage
 {
     int _audioVerb;
-    int _requestedMediaType;
-    NSArray *_audioAttributes;
-    int _audioDecade;
-    struct {
-        unsigned int audioVerb:1;
-        unsigned int requestedMediaType:1;
-        unsigned int audioDecade:1;
-    } _has;
 }
 
 - (void);
@@ -43,26 +33,19 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)B;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)entitlement for message:(id)arg1 %@  (%@:%d) /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id)rviceSetupTime;
+- (id)_fullPlannerServiceSetupTime;
 - (id)Completed;
 - (void)firmation.item.collection.values.entity.typeIdentifier.custom.bundleId;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *audioAttributes; // @synthesize audioAttributes=_audioAttributes;
-@property(nonatomic) int audioDecade; // @synthesize audioDecade=_audioDecade;
 @property(nonatomic) int audioVerb; // @synthesize audioVerb=_audioVerb;
-@property(nonatomic) _Bool hasAudioDecade;
-@property(nonatomic) _Bool hasAudioVerb;
-@property(nonatomic) _Bool hasRequestedMediaType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int requestedMediaType; // @synthesize requestedMediaType=_requestedMediaType;
 
 @end
 

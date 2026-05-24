@@ -9,26 +9,22 @@
 @interface CHKWidgetPersonality
 {
     void extensionBundleIdentifier;
-    void kind;
 }
 
 + (_Bool);
 - (id);
+- (id);
 - (id);
-- (id);
-- (long long);
+- (long long)H;
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void)initWithCLWorkoutMets:(id)arg1;
+- (id)R;
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
 @property(nonatomic, readonly) NSString *extensionBundleIdentifier;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) NSString *kind;
 
 @end
 

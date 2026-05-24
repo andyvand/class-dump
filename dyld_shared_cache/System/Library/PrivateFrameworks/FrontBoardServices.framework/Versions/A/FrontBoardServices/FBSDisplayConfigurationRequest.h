@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FBSDisplayConfigurationRequest
 {
     struct CGSize _nativePixelSize;
-    struct CGSize _logicalScale;
-    double _pointScale;
-    double _refreshRate;
-    long long _overscanCompensation;
-    long long _hdrMode;
-    _Bool _disableFrameDoubling;
 }
 
-+ (_Bool);
-- (_Bool);
++ (_Bool)s %p>;
+- (_Bool)N3fst13StateIteratorINS_10ReplaceFstINS_6ArcTplINS_17TropicalWeightTplIfEEiEENS_24DefaultReplaceStateTableIS5_lEENS_17DefaultCacheStoreIS5_EEEEEE;
 - (void);
 - (id);
 - (struct CGSize);
@@ -35,26 +27,13 @@
 - (id);
 - (_Bool);
 - (void);
-- (double);
-- (id);
-- (double);
-- (id);
+- (double)";
+- (id)applicationVersion;
+- (double)ѭ;
+- (id)G;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool disableFrameDoubling; // @synthesize disableFrameDoubling=_disableFrameDoubling;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long hdrMode; // @synthesize hdrMode=_hdrMode;
-@property(readonly, nonatomic) struct CGSize logicalScale; // @synthesize logicalScale=_logicalScale;
-@property(readonly, nonatomic) struct CGSize nativePixelSize; // @synthesize nativePixelSize=_nativePixelSize;
 @property(readonly, nonatomic) long long overscanCompensation; // @synthesize overscanCompensation=_overscanCompensation;
-@property(readonly, nonatomic) double pointScale; // @synthesize pointScale=_pointScale;
-@property(readonly, nonatomic) double refreshRate; // @synthesize refreshRate=_refreshRate;
-@property(readonly) Class superclass;
 
 @end
 

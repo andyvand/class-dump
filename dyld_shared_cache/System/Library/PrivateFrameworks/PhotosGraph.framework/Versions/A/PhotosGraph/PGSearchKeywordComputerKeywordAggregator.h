@@ -11,10 +11,10 @@
     NSMutableDictionary *_keywordsByCategoryMaskByDateIntervalByMomentUUID;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
+- (id)quirementDataPasscodeValidated;
+- (void)ACMRequirement;
+- (void)ACMCredential;
+- (void)MatchAttempted;
 - (id);
 - (void)?0@"PGGraphMobilityNode"8^@16;
 

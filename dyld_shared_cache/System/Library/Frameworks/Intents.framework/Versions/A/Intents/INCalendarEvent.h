@@ -4,57 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLPlacemark, INDateComponentsRange, NSArray, NSNumber, NSString;
+@class NSString;
 
 @interface INCalendarEvent
 {
     NSString *_eventIdentifier;
-    NSString *_title;
-    INDateComponentsRange *_dateTimeRange;
-    NSArray *_participants;
-    CLPlacemark *_location;
-    NSNumber *_isContactBirthday;
-    NSString *_calendarPunchoutURI;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)P.T/5;
+- (id);
+- (unsigned long long)ons/A/IOKit;
+- (id);
+- (_Bool)er;
+- (void)_IPv4AssignedAt;
+- (id);
+- (void));
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id)aymentAmountValueType;
-- (id)GeographicalFeatureListType;
+- (id)payloadPaymentAmountValueType;
+- (id)payloadGeographicalFeatureListType;
 - (id)launchId:(unsigned long long)arg1;
 - (void)eFileIntent;
 - (id)XÇÿ9P»m;
 
 // Remaining properties
-@property(readonly, copy) NSString *calendarPunchoutURI; // @synthesize calendarPunchoutURI=_calendarPunchoutURI;
-@property(readonly, copy) INDateComponentsRange *dateTimeRange; // @synthesize dateTimeRange=_dateTimeRange;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSString *eventIdentifier; // @synthesize eventIdentifier=_eventIdentifier;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy) NSNumber *isContactBirthday; // @synthesize isContactBirthday=_isContactBirthday;
-@property(readonly, copy) CLPlacemark *location; // @synthesize location=_location;
-@property(readonly, copy) NSArray *participants; // @synthesize participants=_participants;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSString *title; // @synthesize title=_title;
 
 @end
 

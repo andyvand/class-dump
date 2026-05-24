@@ -7,18 +7,6 @@
 @interface UIKit.NavigationBarLayout
 {
     id requestedBackgroundViewAlpha;
-    id clientWantsBackgroundHidden;
-    id hasInlineSearchBar;
-    id clientWantsToPreserveSearchBarAcrossTransitions;
-    id stacksSearchBarViewInOtherLayout;
-    id _restingHeights;
-    id layoutIsValid;
-    id views;
-    id inputs;
-    id outputs;
-    id layoutStorage;
-    id priorityOrderedLayout;
-    id stackingOrderedLayout;
 }
 
 @end

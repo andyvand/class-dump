@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EQKitEnvironment, NSData;
 @protocol EQKitExpression;
 
 @interface EQKitEquation
 {
     id <EQKitExpression> mRoot;
-    NSData *mSource;
-    EQKitEnvironment *mEnvironment;
 }
 
 + (id);
@@ -24,18 +21,17 @@
 + (int);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)�]Dg;
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
+- (id)H;
 - (id);
-- (id);
-- (id)edLayoutForAnchoredDrawable: /* Error: Ran out of types for this method. */;
+- (id)validatedLayoutForAnchoredDrawable: /* Error: Ran out of types for this method. */;
 - (id)ognizer;
 
 // Remaining properties
-@property(readonly, nonatomic) EQKitEnvironment *environment; // @synthesize environment=mEnvironment;
 @property(readonly, nonatomic) id <EQKitExpression> root; // @synthesize root=mRoot;
 
 @end

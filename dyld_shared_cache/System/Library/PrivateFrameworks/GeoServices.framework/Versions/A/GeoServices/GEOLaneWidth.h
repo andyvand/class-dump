@@ -9,38 +9,30 @@
 @interface GEOLaneWidth
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _offset;
-    unsigned int _width;
-    unsigned int _zilchPathIndex;
-    struct {
-        unsigned int has_offset:1;
-        unsigned int has_width:1;
-        unsigned int has_zilchPathIndex:1;
-    } _flags;
 }
 
-+ (_Bool)nIndex:(id)arg1;
++ (_Bool)setHasServerSearchCompletionSectionIndex:(id)arg1;
 - (unsigned int);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)";
 - (_Bool);
-- (unsigned int);
+- (unsigned int)stringWithString: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
-- (id)nalSuggestedRoute:(struct _NSZone *)arg1;
-- (id)izes: /* Error: Ran out of types for this method. */;
+- (id)setOriginalSuggestedRoute:(struct _NSZone *)arg1;
+- (id)StringAsPhotoSizes: /* Error: Ran out of types for this method. */;
 - (id)questresponseV3/pbcodable}.*P;
-- (_Bool)aRequest;
+- (_Bool)DataRequest;
 - (void)ÿÿ;
 - (id);
 - (void)á9;
@@ -50,13 +42,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasOffset;
 @property(nonatomic) _Bool hasWidth;
-@property(nonatomic) _Bool hasZilchPathIndex;
-@property(nonatomic) unsigned int offset;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) unsigned int width;
-@property(nonatomic) unsigned int zilchPathIndex;
 
 @end
 

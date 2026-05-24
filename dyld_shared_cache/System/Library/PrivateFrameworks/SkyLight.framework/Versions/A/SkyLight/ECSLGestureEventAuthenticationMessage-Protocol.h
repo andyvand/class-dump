@@ -5,9 +5,10 @@
 //
 
 @protocol ECSLGestureEventAuthenticationMessage
+- (unsigned char)luate to a constant integer value.;
+- (unsigned int), right expression must evaluate to a constant integer value.;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int gestureHidType;
-@property(readonly, nonatomic) unsigned char gesturePhase;
 @end
 

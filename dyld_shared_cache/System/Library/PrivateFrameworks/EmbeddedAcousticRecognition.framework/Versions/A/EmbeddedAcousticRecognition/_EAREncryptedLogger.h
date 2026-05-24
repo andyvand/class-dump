@@ -11,8 +11,8 @@
 
 + (id);
 - (void);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)valuesDefaultUnitsCount;
 - (_Bool);
 - (void)ü;
 

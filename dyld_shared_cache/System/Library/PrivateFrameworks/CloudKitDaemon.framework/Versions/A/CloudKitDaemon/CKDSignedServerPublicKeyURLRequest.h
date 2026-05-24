@@ -6,16 +6,11 @@
 
 #import <CloudKitDaemon/CKDURLRequest.h>
 
-@class CKPublicKey, NSDate, NSURL;
+@class NSURL;
 
 @interface CKDSignedServerPublicKeyURLRequest : CKDURLRequest
 {
     _Bool _requiresProtectionSource;
-    _Bool _verifyFullIntegers;
-    CKPublicKey *_verifiedPublicKey;
-    NSDate *_expirationDateOverride;
-    NSURL *_plistURL;
-    struct __SecPolicy *_certificateTrustPolicy;
 }
 
 + (_Bool);
@@ -25,8 +20,8 @@
 + (struct __SecTrust *);
 + (id);
 - (_Bool);
-- (id);
-- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -40,10 +35,10 @@
 - (id);
 - (struct __SecPolicy *);
 - (_Bool);
-- (long long);
+- (long long)checkExistence::common_NotebookList /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (id);
+- (id)CFTypeRef);
 - (id);
 - (void)Hºd»;
 - (void)ed share PCS %@ from record PCS %@.;
@@ -51,12 +46,7 @@
 - (_Bool)=/QzG;
 
 // Remaining properties
-@property(readonly, nonatomic) struct __SecPolicy *certificateTrustPolicy; // @synthesize certificateTrustPolicy=_certificateTrustPolicy;
-@property(retain, nonatomic) NSDate *expirationDateOverride; // @synthesize expirationDateOverride=_expirationDateOverride;
 @property(readonly, nonatomic) NSURL *plistURL; // @synthesize plistURL=_plistURL;
-@property(nonatomic) _Bool requiresProtectionSource; // @synthesize requiresProtectionSource=_requiresProtectionSource;
-@property(retain) CKPublicKey *verifiedPublicKey; // @synthesize verifiedPublicKey=_verifiedPublicKey;
-@property(nonatomic) _Bool verifyFullIntegers; // @synthesize verifyFullIntegers=_verifyFullIntegers;
 
 @end
 

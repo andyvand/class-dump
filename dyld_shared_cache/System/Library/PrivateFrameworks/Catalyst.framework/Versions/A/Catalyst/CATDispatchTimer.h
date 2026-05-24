@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CATDispatchTimer
 {
     NSString *mIdentifier;
-    NSObject<OS_dispatch_queue> *mWorkQueue;
-    NSObject<OS_dispatch_queue> *mDelegateQueue;
-    double mTimeInterval;
-    unsigned long long mTotalFires;
-    _Bool mFiresForever;
-    CDUnknownBlockType mFireHandler;
-    NSObject<OS_dispatch_source> *mTimerSource;
-    unsigned long long mFireCount;
 }
 
 + (id);
@@ -27,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 
 @end

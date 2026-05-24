@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface DialogExecutionResult
 {
     NSString *_catId;
-    NSDictionary *_meta;
-    NSArray *_dialog;
 }
 
 @end

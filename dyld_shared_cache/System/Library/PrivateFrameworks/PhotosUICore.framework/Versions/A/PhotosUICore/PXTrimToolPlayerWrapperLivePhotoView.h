@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISVideoPlayerNSView, ISWrappedAVPlayer, NSString, UXView;
-@protocol PXLivePhotoView, PXTrimToolPlayerObserver;
+@class ISWrappedAVPlayer;
 
 @interface PXTrimToolPlayerWrapperLivePhotoView
 {
     CDStruct_42e984b2 _delegateFlags;
-    _Bool _needsPlayerUpdate;
-    id <PXTrimToolPlayerObserver> _playerObserver;
-    UXView *_loupePlayerView;
-    ISVideoPlayerNSView *_videoPlayerView;
-    ISWrappedAVPlayer *_wrappedAVPlayer;
-    id <PXLivePhotoView> _livePhotoView;
-    id _periodicTimeObserver;
-    CDStruct_1b6d18a9 _periodicTimeObservationInterval;
 }
 
 - (void);
@@ -29,9 +20,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -61,24 +52,6 @@
 - (void)#ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) ISVideoPlayerNSView *_videoPlayerView; // @synthesize _videoPlayerView;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 currentTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <PXLivePhotoView> livePhotoView; // @synthesize livePhotoView=_livePhotoView;
-@property(readonly, nonatomic) UXView *loupePlayerView; // @synthesize loupePlayerView=_loupePlayerView;
-@property(nonatomic) _Bool needsPlayerUpdate; // @synthesize needsPlayerUpdate=_needsPlayerUpdate;
-@property(nonatomic) CDStruct_1b6d18a9 periodicTimeObservationInterval; // @synthesize periodicTimeObservationInterval=_periodicTimeObservationInterval;
-@property(retain, nonatomic) id periodicTimeObserver; // @synthesize periodicTimeObserver=_periodicTimeObserver;
-@property(nonatomic) __weak id <PXTrimToolPlayerObserver> playerObserver; // @synthesize playerObserver=_playerObserver;
-@property(readonly, nonatomic, getter=isPlaying) _Bool playing;
-@property(readonly, nonatomic, getter=isReadyToPlay) _Bool readyToPlay;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CDStruct_e83c9415 trimRange;
 @property(retain, nonatomic) ISWrappedAVPlayer *wrappedAVPlayer; // @synthesize wrappedAVPlayer=_wrappedAVPlayer;
 
 @end

@@ -7,11 +7,6 @@
 @interface NewsAds.ModalAdContentInfo
 {
     id identifier;
-    id metricsHelper;
-    id promotedContentInfo;
-    id placementIdentifier;
-    id adFrame;
-    id tracker;
 }
 
 @end

@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface CKActionMenuWindow
 {
     _Bool _shouldDismissOnTap;
-    CKActionMenuView *_actionMenuView;
 }
 
 + (id)`Û;
@@ -25,11 +24,10 @@ __attribute__((visibility("hidden")))
 × ;
 - (_Bool);
 - (_Bool)on in indexPath %@;
-- (void)e;
+- (void)StrokeStyle;
 
 // Remaining properties
 @property(retain, nonatomic) CKActionMenuView *actionMenuView; // @synthesize actionMenuView=_actionMenuView;
-@property(nonatomic) _Bool shouldDismissOnTap; // @synthesize shouldDismissOnTap=_shouldDismissOnTap;
 
 @end
 

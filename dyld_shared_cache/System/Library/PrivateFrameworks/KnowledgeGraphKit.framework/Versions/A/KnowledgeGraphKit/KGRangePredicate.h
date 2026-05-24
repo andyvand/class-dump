@@ -7,8 +7,6 @@
 @interface KGRangePredicate
 {
     unsigned long long _comparator;
-    id _value1;
-    id _value2;
 }
 
 - (id);
@@ -17,13 +15,11 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long)1`;
+- (void)c}s;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long comparator; // @synthesize comparator=_comparator;
-@property(readonly, nonatomic) id value1; // @synthesize value1=_value1;
-@property(readonly, nonatomic) id value2; // @synthesize value2=_value2;
 
 @end
 

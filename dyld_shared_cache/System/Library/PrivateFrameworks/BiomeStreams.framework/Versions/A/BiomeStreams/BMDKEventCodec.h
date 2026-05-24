@@ -13,10 +13,10 @@
 - (void);
 - (id);
 - (_Bool);
+- (id)x�&;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool decodeMetadata; // @synthesize decodeMetadata=_decodeMetadata;

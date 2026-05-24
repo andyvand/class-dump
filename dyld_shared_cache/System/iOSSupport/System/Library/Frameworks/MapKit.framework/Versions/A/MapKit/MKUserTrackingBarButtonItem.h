@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKMapView, NSString, UIButton, UIImage, UINavigationBar, UIToolbar, UIView, _MKUserTrackingButton, _MKUserTrackingButtonController;
-@protocol MKUserTrackingView;
-
 @interface MKUserTrackingBarButtonItem
 {
     _Bool _hasCustomAssociatedView;
-    UIButton *_customButton;
-    _MKUserTrackingButtonController *_controller;
-    _MKUserTrackingButton *_userTrackingButton;
-    _Bool _explicitlyEnabled;
-    _Bool _internallyEnabled;
-    UIImage *_trackingEmptyImage;
-    UIImage *_trackingNoneImage;
-    UIImage *_trackingFollowImage;
-    UIImage *_trackingFollowWithHeadingImage;
-    MKMapView *_mapView;
-    UIToolbar *_toolbar;
-    UINavigationBar *_navigationBar;
-    UIView *_associatedView;
 }
 
 + (Class);
@@ -33,7 +17,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)G;
 - (void);
 - (void);
 - (void);
@@ -45,43 +29,30 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id)Y;
 - (id);
 - (id);
 - (id);
 - (id);
+- (long long)numberWithUnsignedLongLong: /* Error: Ran out of types for this method. */;
 - (id);
+- (id);
+- (id)h;
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (_Bool)(;
 - (long long);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (long long);
-- (void);
-- (void);
-- (void)hDarkMode:isbuttonEnabled: /* Error: Ran out of types for this method. */;
-- (id)loorPicker: /* Error: Ran out of types for this method. */;
-- (void)sUI;
+- (void)extraShadowLayerBackgroundColorWithDarkMode:isbuttonEnabled: /* Error: Ran out of types for this method. */;
+- (id)_setCompassSuppressedForFloorPicker: /* Error: Ran out of types for this method. */;
+- (void)MapsUI;
 
 // Remaining properties
-@property(retain, nonatomic) UIView *_associatedView; // @synthesize _associatedView;
-@property(retain, nonatomic) UINavigationBar *_navigationBar; // @synthesize _navigationBar;
 @property(nonatomic, setter=_setState:) long long _state;
-@property(retain, nonatomic) UIToolbar *_toolbar; // @synthesize _toolbar;
-@property(retain, nonatomic, setter=_setUserTrackingView:) id <MKUserTrackingView> _userTrackingView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MKMapView *mapView;
-@property(nonatomic, getter=_selectsWhenTracking, setter=_setSelectsWhenTracking:) _Bool selectsWhenTracking;
-@property(readonly) Class superclass;
 
 @end
 

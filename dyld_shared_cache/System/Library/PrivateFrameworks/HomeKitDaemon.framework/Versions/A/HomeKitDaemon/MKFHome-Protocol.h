@@ -4,10 +4,69 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, HMDHomeNFCReaderKey, HMDNaturalLightingContext, HMFSoftwareVersion, MKFHomeDatabaseID, NSArray, NSData, NSDate, NSDictionary, NSNumber, NSString, NSTimeZone;
-@protocol MKFApplicationData, MKFDevice, MKFHomeThreadNetwork, MKFRoom, MKFUser;
+@class CLLocation, NSArray, NSData, NSDate, NSNumber, NSString, NSTimeZone, NSUUID, Protocol;
+@protocol MKFAccessory, MKFActionSet, MKFAirPlayAccessory, MKFAppleMediaAccessory, MKFEventTrigger, MKFFaceprint, MKFGuest, MKFGuestAccessCode, MKFHAPAccessory, MKFHomeMediaSetting, MKFHomeNetworkRouterManagingDeviceSetting, MKFHomeNetworkRouterSetting, MKFHomePersonManagerSetting, MKFHomeSoftwareUpdateSetting, MKFMatterLocalKeyValuePair, MKFOutgoingInvitation, MKFRemovedUserAccessCode, MKFResident, MKFResidentSelection, MKFRoom, MKFServiceGroup, MKFStatusChannel, MKFTimerTrigger, MKFTrigger, MKFUser, MKFZone;
 
 @protocol MKFHome
+- (void);
+- (void);
+- (NSNumber *)E;
+- (id <MKFHomeNetworkRouterSetting>);
+- (NSArray *)tionary";
+- (NSArray *)DSBatchIDQueryController";
+- (NSDate *)updatedImmutableObject;
+- (id <MKFZone>)unifiedContactWithIdentifier:(NSUUID *)arg1 keysToFetch:error: /* Error: Ran out of types for this method. */;
+- (id <MKFUser>)truncatedTrafficFromRouteCoordinate:(NSUUID *)arg1;
+- (id <MKFTimerTrigger>)totalUnitCount;
+- (id <MKFEventTrigger>)timeIntervalSinceReferenceDate;
+- (id <MKFHomeSoftwareUpdateSetting>)ticketForFeedbackRequestParameters:mapItem:traits: /* Error: Ran out of types for this method. */;
+- (id <MKFHomePersonManagerSetting>)ticketForFeedbackRequest: /* Error: Ran out of types for this method. */;
+- (id <MKFHomeNetworkRouterSetting>)tdmUserInfo;
+- (id <MKFHomeNetworkRouterManagingDeviceSetting>)supportsWaypointRouteSharing;
+- (id <MKFHomeMediaSetting>)supportsSecureCoding;
+- (id <MKFServiceGroup>)subscribeToUpdatesToSharedTrip:(NSUUID *)arg1 error: /* Error: Ran out of types for this method. */;
+- (id <MKFRoom>)subscribeToSharedTripUpdatesWithIdentifier:(NSUUID *)arg1 completion: /* Error: Ran out of types for this method. */;
+- (id <MKFResident>)submitWithHandler:(NSUUID *)arg1 networkActivity: /* Error: Ran out of types for this method. */;
+- (id <MKFStatusChannel>)subdataWithRange:(NSUUID *)arg1;
+- (id <MKFResidentSelection>)stripForSendingUpdatedTraffic;
+- (id <MKFRemovedUserAccessCode>)stripForSendingUpdatedETA;
+- (id <MKFMatterLocalKeyValuePair>)stopSharingWithContact:(NSString *)arg1 completion: /* Error: Ran out of types for this method. */;
+- (id <MKFOutgoingInvitation>)stopSharingTripWithContacts:(NSUUID *)arg1 reason:completion: /* Error: Ran out of types for this method. */;
+- (id <MKFGuest>)stopLiveUpdatesForCapabilityVersion:(NSUUID *)arg1;
+- (id <MKFGuestAccessCode>)stopAllSharingWithReason:(NSUUID *)arg1 completion: /* Error: Ran out of types for this method. */;
+- (id <MKFFaceprint>)stateSnapshotFromData:(NSUUID *)arg1;
+- (id <MKFActionSet>)setWaypointIndex:(NSUUID *)arg1;
+- (id <MKFHAPAccessory>)setUniqueIdentifier:(NSUUID *)arg1;
+- (id <MKFAppleMediaAccessory>)setTransitLineItem:(NSUUID *)arg1;
+- (id <MKFAirPlayAccessory>)setTrafficColors:(NSUUID *)arg1 count: /* Error: Ran out of types for this method. */;
+- (NSArray *)scheduledTimerWithTimeInterval:queue:repeating:block: /* Error: Ran out of types for this method. */;
+- (NSNumber *)initWithContactHandle: /* Error: Ran out of types for this method. */;
+- (NSNumber *)favoritesSyncedMarkerFile;
+- (id <MKFRoom>)addMessagesIdentifier: /* Error: Ran out of types for this method. */;
+- (NSNumber *)_reloadBlockedIdentifiersFromSync;
+- (id <MKFTimerTrigger>)_invalidated;
+- (id <MKFEventTrigger>)_intermediateArrivalWaypointPostedNotifications;
+- (id <MKFTrigger>)_installStateObservers;
+- (id <MKFHAPAccessory>)@"NSString",&,N,V_originatorIdentifier;
+- (id <MKFAppleMediaAccessory>)eForRoutePlanning;
+- (id <MKFAirPlayAccessory>)g",&,N,V_locationDisplayString;
+- (id <MKFAccessory>)setIsAppleCard:(Protocol *)arg1;
+- (void)ints;
+- (void)dRoute from %lu routingPathLegs and %lu waypoints;
+- (void)u leading waypoints;
+- (void)nue anyway;
+- (void)ed GEOPolylineCoordinateInvalid;
+- (void)nd;
+- (void)ers:(id <MKFGuest>)arg1 %@;
+- (void)e | will purge %lu/%lu blocked identifiers:(id <MKFGuestAccessCode>)arg1 %@;
+- (void)@;
+- (NSDate *)restore %@;
+- (NSDate *)%@;
+- (NSDate *)u, etaInPast %{public}@);
+- (NSNumber *)6	;
+- (NSNumber *);
+- (NSNumber *)isCelebratingForEventRule:momentNode:momentLocalDate:withGraph:loggingConnection:localeCountryCode:keyboardLanguageCodes: /* Error: Ran out of types for this method. */;
+- (void)insertMePersonNodeForPerson:(NSNumber *)arg1;
 - (id <MKFUser>)!à!tGùq°1Â0@ù
 × ;
 - (NSData *)er"24@"NSError"32@"HMMTRAccessoryPairingEndContext"40;
@@ -17,82 +76,11 @@
 - (void)tNaturalLightingEnabledForLightProfiles responsePayload:(NSString *)arg1 %@;
 - (void)ic}@Camera access bulletin notification registrations are not supported for guests :(NSTimeZone *)arg1 %@;
 - (NSArray *)l lighting for light profile %@:%@ /* Error: Ran out of types for this method. */;
-- (NSData *)aProfileSettingsSynchronizeCloudStorageWithRecordingAccessModesMessage;
+- (NSData *)HMDCameraProfileSettingsSynchronizeCloudStorageWithRecordingAccessModesMessage;
 - (NSTimeZone *)<æþÑm&tæþ;
 - (void)³ýu=;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSArray *accessories;
-@property(readonly, retain, nonatomic) NSArray *actionSets;
 @property(copy, nonatomic) NSNumber *activityState;
-@property(copy, nonatomic) NSDate *activityStateChangedTimestamp;
-@property(copy, nonatomic) NSNumber *activityStateEnabledContributors;
-@property(copy, nonatomic) NSDate *activityStateHoldEndDate;
-@property(copy, nonatomic) NSDate *activityStateTransitionalStateEndDate;
-@property(copy, nonatomic) NSNumber *analysisOptions;
-@property(retain, nonatomic) id <MKFApplicationData> applicationData;
-@property(copy, nonatomic) NSDate *creationDate;
-@property(copy, nonatomic) NSNumber *currentMobileAssetVersion;
-@property(readonly, copy, nonatomic) MKFHomeDatabaseID *databaseID;
-@property(retain, nonatomic) id <MKFRoom> defaultRoom;
-@property(copy, nonatomic) NSNumber *didOnboardAnalysis;
-@property(copy, nonatomic) NSNumber *didOnboardLocationServices;
-@property(copy, nonatomic) NSNumber *doorbellChimeEnabled;
-@property(readonly, retain, nonatomic) NSArray *faceprints;
-@property(copy, nonatomic) NSDate *firstHAPAccessoryAddedDate;
-@property(readonly, retain, nonatomic) NSArray *guestAccessCodes;
-@property(readonly, retain, nonatomic) NSArray *guests;
-@property(copy, nonatomic) NSNumber *hasAnyUserAcknowledgedCameraRecordingOnboarding;
-@property(copy, nonatomic) NSNumber *hasOnboardedForAccessCode;
-@property(copy, nonatomic) NSNumber *hasOnboardedForWalletKey;
-@property(readonly, retain, nonatomic) NSArray *invitations;
-@property(copy, nonatomic) NSNumber *isActivityStateHoldActive;
-@property(copy, nonatomic) NSNumber *isAllowedToEnableAdaptiveTemperatureAutomations;
-@property(retain, nonatomic) CLLocation *location;
-@property(copy, nonatomic) NSNumber *locationServicesEnabled;
-@property(copy, nonatomic) NSNumber *locationSource;
-@property(copy, nonatomic) NSDate *locationUpdateTimeStamp;
-@property(retain, nonatomic) NSData *matCredGRK;
-@property(readonly, retain, nonatomic) NSArray *matterControllerLocalKeyValuePairs;
-@property(copy, nonatomic) NSNumber *matterControllerNodeID;
-@property(copy, nonatomic) NSNumber *matterFabricID;
-@property(retain, nonatomic) NSDictionary *matterKeyValueStore;
-@property(copy, nonatomic) NSNumber *multiUserEnabled;
-@property(copy, nonatomic) NSString *name;
-@property(retain, nonatomic) HMDNaturalLightingContext *naturalLightingContext;
-@property(readonly, retain, nonatomic) NSArray *networkProtectionGroups;
-@property(copy, nonatomic) NSNumber *networkProtectionMode;
-@property(retain, nonatomic) HMDHomeNFCReaderKey *nfcReaderKey;
-@property(copy, nonatomic) NSNumber *numberOfCameras;
-@property(copy, nonatomic) NSNumber *owned;
-@property(retain, nonatomic) id <MKFUser> owner;
-@property(retain, nonatomic) NSData *ownerPublicKey;
-@property(readonly, retain, nonatomic) NSArray *persons;
-@property(copy, nonatomic) NSNumber *presenceAuthorizationStatus;
-@property(copy, nonatomic) NSNumber *presenceComputeStatus;
-@property(retain, nonatomic) NSData *primaryIPv4NetworkSignature;
-@property(retain, nonatomic) NSData *primaryIPv6NetworkSignature;
-@property(retain, nonatomic) id <MKFDevice> primaryResident;
-@property(copy, nonatomic) NSNumber *primaryWiFiRequiresPassword;
-@property(copy, nonatomic) NSString *primaryWiFiSSID;
-@property(readonly, retain, nonatomic) NSArray *removedAccessCodes;
-@property(copy, nonatomic) NSNumber *residentSelectionVersion;
-@property(readonly, retain, nonatomic) NSArray *residentSelections;
-@property(readonly, retain, nonatomic) NSArray *residentStatusChannels;
-@property(readonly, retain, nonatomic) NSArray *residents;
-@property(readonly, retain, nonatomic) NSArray *rooms;
-@property(readonly, retain, nonatomic) NSArray *serviceGroups;
-@property(readonly, retain, nonatomic) NSArray *settings;
-@property(retain, nonatomic) HMFSoftwareVersion *sharedHomeSourceVersion;
-@property(copy, nonatomic) NSNumber *siriPhraseOptions;
-@property(copy, nonatomic) NSNumber *soundCheckEnabled;
-@property(copy, nonatomic) NSDictionary *stagingConfiguration;
-@property(retain, nonatomic) id <MKFHomeThreadNetwork> threadNetwork;
-@property(retain, nonatomic) NSData *threadOperationalDataset;
-@property(retain, nonatomic) NSTimeZone *timeZone;
-@property(readonly, retain, nonatomic) NSArray *triggers;
-@property(readonly, retain, nonatomic) NSArray *users;
-@property(copy, nonatomic) NSDate *writerTimestamp;
-@property(readonly, retain, nonatomic) NSArray *zones;
 @end
 

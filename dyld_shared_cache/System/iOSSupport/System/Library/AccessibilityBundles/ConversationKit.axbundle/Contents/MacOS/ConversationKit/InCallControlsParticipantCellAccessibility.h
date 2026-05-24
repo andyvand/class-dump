@@ -20,7 +20,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)keyboardInput:(struct CGRect)arg1 shouldInsertText:isMarkedText: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

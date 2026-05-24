@@ -7,12 +7,6 @@
 @interface NewsArticles.EndOfRecipeDataManager
 {
     id delegate;
-    id config;
-    id feedPluginManager;
-    id feedService;
-    id feedServiceConfigFetcher;
-    id recipeService;
-    id offlineManager;
 }
 
 @end

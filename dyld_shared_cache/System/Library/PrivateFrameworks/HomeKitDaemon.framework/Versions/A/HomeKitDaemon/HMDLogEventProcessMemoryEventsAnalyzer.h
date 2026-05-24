@@ -7,19 +7,17 @@
 #import <HomeKitDaemon/HMDLogEventAnalyzer.h>
 
 @class HMDEventCountersManager;
-@protocol HMMRadarInitiating;
 
 __attribute__((visibility("hidden")))
 @interface HMDLogEventProcessMemoryEventsAnalyzer : HMDLogEventAnalyzer
 {
     HMDEventCountersManager *_eventCountersManager;
-    id <HMMRadarInitiating> _radarInitiator;
 }
 
 + (id);
 - (void);
-- (id);
-- (id);
+- (id)V_viewerAppMinorVersion;
+- (id){;
 - (unsigned long long);
 - (void);
 - (void)as granted.;
@@ -31,7 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) HMDEventCountersManager *eventCountersManager; // @synthesize eventCountersManager=_eventCountersManager;
-@property(readonly) id <HMMRadarInitiating> radarInitiator; // @synthesize radarInitiator=_radarInitiator;
 
 @end
 

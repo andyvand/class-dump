@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, TRIPBMessage;
+@class TRIPBMessage;
 
 @interface TRIPBAutocreatedDictionary
 {
     TRIPBMessage *_autocreator;
-    NSMutableDictionary *_dictionary;
 }
 
 - (void);
@@ -17,10 +16,10 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)ourceLocalAvailabilityRequest] Found no video complement resource to share for asset (uuid:(struct _NSZone *)arg1 %{public}@):%@, resources:%@, options:%@, useOriginalResources:%d, knownUnsupported:%d /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id);
+- (id)spotlightEmbeddingState;
 - (id);
 - (id);
 - (void);

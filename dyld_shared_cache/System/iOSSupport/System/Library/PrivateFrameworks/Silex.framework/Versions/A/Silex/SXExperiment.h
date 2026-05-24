@@ -6,7 +6,7 @@
 
 #import <Silex/SXJSONObject.h>
 
-@class NSArray, NSDate, NSString;
+@class NSArray;
 
 @interface SXExperiment : SXJSONObject
 {
@@ -15,8 +15,6 @@
 + (id)ataSource>",W,N,VaccessibilityDataSource;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *expirationDate; // @dynamic expirationDate;
-@property(readonly, nonatomic) NSString *identifier; // @dynamic identifier;
 @property(readonly, nonatomic) NSArray *treatmentGroups; // @dynamic treatmentGroups;
 
 @end

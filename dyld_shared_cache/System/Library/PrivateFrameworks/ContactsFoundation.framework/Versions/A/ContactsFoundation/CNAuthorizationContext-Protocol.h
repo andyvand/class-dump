@@ -5,9 +5,9 @@
 //
 
 @protocol CNAuthorizationContext
+- (_Bool)R;
 
 // Remaining properties
-@property(readonly) _Bool isAddressingGrammarAccessGranted;
 @property(readonly) _Bool isNotesAccessGranted;
 @end
 

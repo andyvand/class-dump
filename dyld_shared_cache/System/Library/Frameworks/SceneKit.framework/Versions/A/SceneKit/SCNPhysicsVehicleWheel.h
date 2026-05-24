@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SCNNode, SCNPhysicsVehicle;
+@class SCNNode;
 
 @interface SCNPhysicsVehicleWheel
 {
     SCNNode *_node;
-    SCNPhysicsVehicle *_vehicle;
-    int _wheelIndex;
-    double _suspensionStiffness;
-    double _suspensionCompression;
-    double _suspensionDamping;
-    double _maximumSuspensionTravel;
-    double _frictionSlip;
-    double _maximumSuspensionForce;
-    struct SCNVector3 _connectionPosition;
-    struct SCNVector3 _steeringAxis;
-    struct SCNVector3 _axle;
-    double _radius;
-    double _suspensionRestLength;
-    _Bool _isFront;
 }
 
 + (id);
@@ -34,7 +20,7 @@
 - (struct SCNVector3);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -52,12 +38,12 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)6;
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)D;
 - (double);
 - (id)Coc, 1.);
     }
@@ -68,18 +54,7 @@
 - (id);
 
 // Remaining properties
-@property struct SCNVector3 axle;
-@property struct SCNVector3 connectionPosition;
-@property double frictionSlip;
-@property double maximumSuspensionForce;
-@property double maximumSuspensionTravel;
 @property(readonly) SCNNode *node;
-@property double radius;
-@property struct SCNVector3 steeringAxis;
-@property double suspensionCompression;
-@property double suspensionDamping;
-@property double suspensionRestLength;
-@property double suspensionStiffness;
 
 @end
 

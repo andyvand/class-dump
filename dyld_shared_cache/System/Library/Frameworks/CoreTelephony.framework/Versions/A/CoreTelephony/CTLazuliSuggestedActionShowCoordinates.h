@@ -9,16 +9,15 @@
 @interface CTLazuliSuggestedActionShowCoordinates
 {
     NSNumber *_latitude;
-    NSNumber *_longitude;
 }
 
-+ (_Bool);
++ (_Bool)%f variants:%@> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)authorizeOperation:(id)arg1 protectedBy:options:reply: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *latitude; // @synthesize latitude=_latitude;
-@property(retain, nonatomic) NSNumber *longitude; // @synthesize longitude=_longitude;
 
 @end
 

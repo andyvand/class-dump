@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVDispatchOnce, NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface AVMediaSelectionOptionInternal
 {
     NSString *_displayName;
-    NSString *_displayNameLocaleIdentifier;
-    NSArray *_groupMediaCharacteristics;
-    NSArray *_optionMediaCharacteristics;
-    AVDispatchOnce *_synthesizeMediaCharacteristicsOnce;
 }
 
 @end

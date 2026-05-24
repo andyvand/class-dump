@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableSet, NSObject, NSString, NSURL, WBSHistoryCrypto, WBSHistoryObjectCache, WBSPeriodicActivityScheduler;
-@protocol OS_dispatch_queue, OS_dispatch_source, WBSHistoryConnectionProxy, WBSHistoryServiceDatabaseProtocol, WBSHistoryStoreDelegate;
+@protocol WBSHistoryServiceDatabaseProtocol;
 
 @interface WBSHistoryServiceStore
 {
     Class _historyItemClass;
-    unsigned long long _itemCountLimit;
-    struct atomic<WBSHistoryServiceStoreState> _state;
-    id <WBSHistoryConnectionProxy> _connection;
-    NSObject<OS_dispatch_queue> *_databaseQueue;
-    WBSHistoryObjectCache *_cache;
-    long long _nextTemporaryDatabaseID;
-    long long _lastTemporaryDatabaseID;
-    CDUnknownBlockType _loadCompletionBlock;
-    NSDate *_lastMaintenanceDate;
-    WBSPeriodicActivityScheduler *_maintenanceScheduler;
-    NSObject<OS_dispatch_source> *_sendDeltaToServiceTimer;
-    struct unique_ptr<SafariShared::SuddenTerminationDisabler, std::default_delete<SafariShared::SuddenTerminationDisabler>> _suddenTerminationDisabler;
-    NSMutableSet *_pendingAddsOrUpdates;
-    NSString *_databaseID;
-    NSURL *_databaseURL;
-    id <WBSHistoryStoreDelegate> _delegate;
-    double _historyAgeLimit;
-    WBSHistoryCrypto *_crypto;
-    id <WBSHistoryServiceDatabaseProtocol> _databaseProxy;
 }
 
 - (void);
@@ -40,10 +20,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)c
+;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -104,30 +85,17 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
 - (void);
 - (void)èêdëÀì<íîïpðìðHòÄò ôôøõtöp÷ øÈø`ùðùpúìúû,ü¼ü<ý¸ý	þ	Dÿôÿ;
-- (void);
+- (void)c;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) WBSHistoryCrypto *crypto; // @synthesize crypto=_crypto;
-@property(readonly, nonatomic) NSString *databaseID; // @synthesize databaseID=_databaseID;
 @property(retain) id <WBSHistoryServiceDatabaseProtocol> databaseProxy; // @synthesize databaseProxy=_databaseProxy;
-@property(retain, nonatomic) NSURL *databaseURL; // @synthesize databaseURL=_databaseURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <WBSHistoryStoreDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double historyAgeLimit; // @synthesize historyAgeLimit=_historyAgeLimit;
-@property(readonly, nonatomic) _Bool isUsingInMemoryDatabase;
-@property(readonly) Class superclass;
 
 @end
 

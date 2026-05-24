@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface UnknownClass (APProperties)
 - (_Bool);
-- (id);
+- (id)A;
 - (_Bool);
-- (id);
+- (id)9;
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *adIdentifier;
-@property(readonly, nonatomic) _Bool hasRecursiveRequestFlag;
 @property(readonly, nonatomic) NSNumber *maximumRequestCount;
-@property(readonly, nonatomic) _Bool recursiveRequestFlag;
-@property(readonly, nonatomic) long long requestType;
 @end
 

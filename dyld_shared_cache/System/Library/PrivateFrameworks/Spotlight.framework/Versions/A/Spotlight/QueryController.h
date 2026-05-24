@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface QueryController
 {
     NSString *_userId;
-    double _gSessionStartTime;
-    NSDictionary *_cep_server_values;
 }
 
 - (void);
@@ -21,31 +19,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)B;
+- (id)setAttachmentElementEnabled: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)ialized in process:[%@] /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
-- (double);
+- (double)ay at index %ld:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)߫;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *applicationNameForUserAgent;
-@property(retain) NSDictionary *cep_server_values; // @synthesize cep_server_values=_cep_server_values;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic, getter=isEnabled) _Bool enabled;
-@property(readonly, nonatomic) NSArray *excludedDomainIdentifiers;
 @property double gSessionStartTime; // @synthesize gSessionStartTime=_gSessionStartTime;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double sessionStartTime;
-@property(readonly) Class superclass;
 
 @end
 

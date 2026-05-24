@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface UIAvoidanceCoordinator
 {
     NSMutableDictionary *_blockades;
-    NSMutableSet *_clients;
-    int _recurseCount;
-    struct CGRect _avoidanceFrame;
 }
 
+- (void)bility;
+- (void)ants (%lu, max = %lu), should drop message;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Filename;
+- (void)UID = %@; timestamp = %@; isFromStorage = %@; isLastFromStorage = %@; idsTrustedData = %@; OUTPUT chat = %@; numMessageItems = %lu};
 - (id);
 - (id);
 - (id);

@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MDLMaterial, MDLSubmeshTopology, NSArray, NSString;
-@protocol MDLMeshBuffer, MDLMeshBufferAllocator;
+@class MDLMaterial, NSArray;
 
 @interface MDLSubmesh
 {
     MDLMaterial *_material;
-    unsigned long long _indexCount;
-    id <MDLMeshBuffer> _indexBuffer;
-    NSString *_name;
-    long long _geometryType;
-    unsigned long long _indexType;
-    MDLSubmeshTopology *_topology;
-    id <MDLMeshBufferAllocator> _allocator;
-    NSArray *_faceIndexing;
 }
 
 - (void);
@@ -32,25 +23,18 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)@;
 - (void);
 - (id);
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)h;
 - (unsigned long long);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *faceIndexing; // @synthesize faceIndexing=_faceIndexing;
-@property(readonly, nonatomic) long long geometryType; // @synthesize geometryType=_geometryType;
-@property(readonly, retain, nonatomic) id <MDLMeshBuffer> indexBuffer; // @synthesize indexBuffer=_indexBuffer;
-@property(readonly, nonatomic) unsigned long long indexCount; // @synthesize indexCount=_indexCount;
-@property(readonly, nonatomic) unsigned long long indexType; // @synthesize indexType=_indexType;
-@property(retain, nonatomic) MDLMaterial *material; // @synthesize material=_material;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) MDLSubmeshTopology *topology; // @synthesize topology=_topology;
 
 @end
 

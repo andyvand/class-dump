@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPListPosition, NSMutableArray;
+@class CKDPListPosition;
 
 @interface CKDPFieldActionInsertIntoList
 {
     CKDPListPosition *_position;
-    NSMutableArray *_values;
-    _Bool _insertAfter;
-    struct {
-        unsigned int insertAfter:1;
-    } _has;
 }
 
 + (Class);
@@ -24,15 +19,16 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
+- (void)getCommutePlanIdentifier:(id)arg1;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)ProtocolDriverHoseControlSetCryptor failed for hose [%{ptr}] with err= %d 
+ ;
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -42,11 +38,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasInsertAfter;
 @property(readonly, nonatomic) _Bool hasPosition;
-@property(nonatomic) _Bool insertAfter; // @synthesize insertAfter=_insertAfter;
-@property(retain, nonatomic) CKDPListPosition *position; // @synthesize position=_position;
-@property(retain, nonatomic) NSMutableArray *values; // @synthesize values=_values;
 
 @end
 

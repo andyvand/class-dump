@@ -10,44 +10,34 @@ __attribute__((visibility("hidden")))
 @interface NSTextFieldAquaduckVisualProvider
 {
     NSTextFieldBezelConfiguration *bezelConfiguration;
-    id textFieldCell;
-    id textField;
-    id $__lazy_storage_$_hostingView;
-    id $__lazy_storage_$_labelView;
-    id cellOverridesDrawingMethods;
-    id textFieldOverridesDrawingMethods;
 }
 
 - (_Bool);
 - (int);
-- (void);
-- (void);
+- (void)NSURLSessionDataTaskSubclass;
+- (void)_ZN12SocketStream5writeEP15__CFWriteStreamPKhlP13CFStreamError;
+- (id)s Off;
+- (int)%@ with identifier %@;
 - (id);
-- (int);
-- (id);
-- (struct CGRect);
+- (struct CGRect)ceptable;
+- (void)Diagnostics;
+- (void)d}{%p};
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)NOT NULL,        is_secure int NOT NULL,        is_hostOnly int NOT NULL,        is_httponly int NOT NULL,        same_site int NOT NULL,        creation_time int NOT NULL,        expires_time int NOT NULL,        last_access_time int NOT NULL,        UNIQUE(domain, path, name, partition)        );;
 - (struct CGSize);
-- (id);
-- (double);
+- (id)kCFStreamPropertyFTPFileTransferOffset;
+- (double)kCFStreamPropertyFTPUsePassiveMode;
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (CDStruct_507282ca)nu should have been unscheduled for updating;
+- (CDStruct_c3b9c2ee)nu should have been unscheduled for updating;
 - (void)ÐA;
 - (void)¬yÿ±È;
 - (struct NSEdgeInsets)$hÿÝ	¤G;
 
 // Remaining properties
-@property(nonatomic, readonly) struct NSEdgeInsets alignmentRectInsets;
-@property(nonatomic, readonly) _Bool allowsTextTightening;
-@property(nonatomic, readonly) double bezelCellSizeHeightPadding;
 @property(nonatomic, retain) NSTextFieldBezelConfiguration *bezelConfiguration; // @synthesize bezelConfiguration;
-@property(nonatomic, readonly) _Bool wantsSeparatedSubviews;
 
 @end
 

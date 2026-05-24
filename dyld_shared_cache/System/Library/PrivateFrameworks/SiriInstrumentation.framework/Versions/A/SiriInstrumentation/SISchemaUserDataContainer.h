@@ -11,29 +11,26 @@
 @interface SISchemaUserDataContainer : SISchemaInstrumentationMessage
 {
     _Bool _hasC;
-    NSData *_c;
 }
 
 - (void);
 - (_Bool);
 - (void);
+- (id)back Splat...;
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)installReceiptData:atBundleURL:withReplyHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)BETWEEN;
 - (id);
-- (void);
+- (void);
 - (id);
-- (id)uestInvoked;
-- (id)ExperimentFixedDimensions;
-- (void)GTYPE_OVERRIDES_SETUP;
+- (id)deleteIfPlatformRequestInvoked;
+- (id)_hasExperimentFixedDimensions;
+- (void)CDMXPCEVENTPROCESSINGTYPE_OVERRIDES_SETUP;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *c; // @synthesize c=_c;
-@property(nonatomic) _Bool hasC; // @synthesize hasC=_hasC;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

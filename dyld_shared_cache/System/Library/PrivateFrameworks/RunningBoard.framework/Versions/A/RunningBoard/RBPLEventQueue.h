@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface RBPLEventQueue
 {
     NSMutableArray *_eventQueue;
-    struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    _Bool _scheduled;
 }
 
 - (void);

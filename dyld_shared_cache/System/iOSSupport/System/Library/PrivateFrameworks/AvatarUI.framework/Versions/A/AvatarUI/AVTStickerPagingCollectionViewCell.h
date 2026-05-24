@@ -9,20 +9,18 @@
 @interface AVTStickerPagingCollectionViewCell
 {
     UIView *_pageContentView;
-    struct UIEdgeInsets _additionalContentInsets;
 }
 
 + (id);
-- (void);
+- (void);
 - (void);
 - (struct UIEdgeInsets);
 - (id);
-- (void);
+- (void)qosDirectToTLC;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct UIEdgeInsets additionalContentInsets; // @synthesize additionalContentInsets=_additionalContentInsets;
 @property(retain, nonatomic) UIView *pageContentView; // @synthesize pageContentView=_pageContentView;
 
 @end

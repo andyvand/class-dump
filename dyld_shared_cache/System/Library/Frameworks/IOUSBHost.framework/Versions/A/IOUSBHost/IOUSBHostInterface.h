@@ -9,18 +9,16 @@
 @interface IOUSBHostInterface : IOUSBHostObject
 {
     const struct IOUSBConfigurationDescriptor *_configurationDescriptor;
-    unsigned long long _interfaceNumber;
-    unsigned long long _lastKnownAlternateSetting;
 }
 
 + (struct __CFDictionary *);
-- (void);
-- (void);
+- (void)s;
+- (void)`;
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
-- (const struct IOUSBInterfaceDescriptor *);
+- (const struct IOUSBInterfaceDescriptor *)м;
 - (id);
 - (id);
 - (const struct IOUSBConfigurationDescriptor *);
@@ -29,10 +27,6 @@
 
 // Remaining properties
 @property const struct IOUSBConfigurationDescriptor *configurationDescriptor; // @synthesize configurationDescriptor=_configurationDescriptor;
-@property(readonly) double idleTimeout;
-@property(readonly) const struct IOUSBInterfaceDescriptor *interfaceDescriptor;
-@property unsigned long long interfaceNumber; // @synthesize interfaceNumber=_interfaceNumber;
-@property unsigned long long lastKnownAlternateSetting; // @synthesize lastKnownAlternateSetting=_lastKnownAlternateSetting;
 
 @end
 

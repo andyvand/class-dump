@@ -4,38 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSString, UITraitCollection, _UISystemIconAppearance;
+@class _UISystemIconAppearance;
 
 @interface UIImageConfiguration
 {
     struct {
         unsigned int hasSystemIconAppearance:1;
     } _flags;
-    _Bool _ignoresDynamicType;
-    UITraitCollection *_traitCollection;
-    NSLocale *_locale;
 }
 
 + (id);
 + (id);
 + (id);
-+ (_Bool)FONT_NAME_WITH_STYLE;
++ (_Bool)FONT_PICKER_DEFAULT_FONT_NAME_WITH_STYLE;
 + (id)G\ÿºgÜ;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)radioStreamAssetInfoList;
+- (id)initWithRootViewController: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (id)1Â0@ù
 × ;
-- (_Bool)ctionType:(id)arg1 timeSinceLastAction: /* Error: Ran out of types for this method. */;
+- (_Bool)hapticEventParameterForActionType:(id)arg1 timeSinceLastAction: /* Error: Ran out of types for this method. */;
 - (id)defaultContext;
-- (void)NoninteractiveCompletion:(id)arg1;
-- (id)rchFieldAccessoryViewP33_44477F16EA4C43AC7BD163D47CACAD0711PlatterView;
+- (void)addNoninteractiveCompletion:(id)arg1;
+- (id)_TtCE5UIKitCSo49_UISearchControllerInlineSearchFieldAccessoryViewP33_44477F16EA4C43AC7BD163D47CACAD0711PlatterView;
 - (id)Ô	;
 - (id)st have distinct view controllers. Found duplicates:(id)arg1 %@;
 - (_Bool);
@@ -51,18 +48,7 @@
 - (id)ÈJo;
 
 // Remaining properties
-@property(readonly, nonatomic) UITraitCollection *_effectiveTraitCollectionForImageLookup;
-@property(readonly, nonatomic) _Bool _ignoresDynamicType; // @synthesize _ignoresDynamicType;
 @property(readonly, nonatomic) _UISystemIconAppearance *_systemIconAppearance;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UITraitCollection *traitCollection; // @synthesize traitCollection=_traitCollection;
 
 @end
 

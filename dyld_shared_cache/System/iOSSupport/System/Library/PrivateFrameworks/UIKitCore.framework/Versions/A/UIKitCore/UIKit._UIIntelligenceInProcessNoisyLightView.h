@@ -12,9 +12,9 @@
     id lightView;
 }
 
-- (id);
+- (id);
 - (void);
-- (id)PlayRadarTimeItemView;
+- (id)UIStatusBarCarPlayRadarTimeItemView;
 - (void)l;
 
 @end

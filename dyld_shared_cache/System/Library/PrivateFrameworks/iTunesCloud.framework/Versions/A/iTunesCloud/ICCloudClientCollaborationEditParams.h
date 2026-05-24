@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface ICCloudClientCollaborationEditParams
 {
     long long _type;
-    NSString *_itemUUID;
-    NSString *_itemPositionUUID;
-    NSString *_referencePositionUUID;
-    long long _positionType;
-    unsigned long long _itemAdamID;
-    NSString *_reactionString;
-    NSDate *_timestamp;
 }
 
 + (id);
@@ -25,8 +18,8 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)triggerWithUUID:(unsigned long long)arg1;
++ (id)supportsStereoOdeonTTSUBypassingPrimary;
 + (_Bool);
 - (void);
 - (id);
@@ -35,7 +28,7 @@
 - (id);
 - (unsigned long long);
 - (long long);
-- (id);
+- (id)Kh;
 - (id);
 - (id);
 - (long long);
@@ -43,14 +36,7 @@
 - (void)låüå;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long itemAdamID; // @synthesize itemAdamID=_itemAdamID;
-@property(readonly, copy, nonatomic) NSString *itemPositionUUID; // @synthesize itemPositionUUID=_itemPositionUUID;
-@property(readonly, copy, nonatomic) NSString *itemUUID; // @synthesize itemUUID=_itemUUID;
-@property(readonly, nonatomic) long long positionType; // @synthesize positionType=_positionType;
 @property(copy, nonatomic) NSString *reactionString; // @synthesize reactionString=_reactionString;
-@property(readonly, copy, nonatomic) NSString *referencePositionUUID; // @synthesize referencePositionUUID=_referencePositionUUID;
-@property(readonly, copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

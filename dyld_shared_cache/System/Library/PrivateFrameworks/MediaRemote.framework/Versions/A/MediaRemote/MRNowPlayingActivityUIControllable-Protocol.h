@@ -5,5 +5,7 @@
 //
 
 @protocol MRNowPlayingActivityUIControllable
+- (void);
+- (void);
 @end
 

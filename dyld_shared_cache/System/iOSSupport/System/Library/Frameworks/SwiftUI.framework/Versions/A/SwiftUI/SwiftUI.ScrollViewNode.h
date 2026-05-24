@@ -7,21 +7,6 @@
 @interface SwiftUI.ScrollViewNode
 {
     id host;
-    id attribute;
-    id uniqueId;
-    id modelOffset;
-    id presentationOffset;
-    id behavior;
-    id isInitialized;
-    id resetSeed;
-    id config;
-    id contentSize;
-    id containerSize;
-    id decelerationTarget;
-    id container;
-    id topScrollIndicatorFollowsContentOffset;
-    id pixelLength;
-    id propertySeed;
 }
 
 @end

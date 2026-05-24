@@ -14,21 +14,20 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)nst CFStringRef, APPairingType, Boolean, Boolean, CFStringRef, CFStringRef *, CFDataRef *, CFDataRef *, CFTypeRef *);
+- (unsigned long long)ecessary(FigEndpointStreamAudioEngineRef, Boolean);
+- (_Bool);
+- (id)LqmRssi60to65Duration;
 - (void);
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id);
+- (id)W;
 - (void)ÿÿ
 X;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasRecordZone;
-@property(retain, nonatomic) CKDPZone *recordZone; // @synthesize recordZone=_recordZone;
 
 @end
 

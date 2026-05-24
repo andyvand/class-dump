@@ -7,33 +7,28 @@
 @interface AWDCoreRoutineModelDominantPlaceCount
 {
     unsigned long long _timestamp;
-    unsigned int _count;
-    CDStruct_eca94db9 _has;
 }
 
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
+- (unsigned long long)1;
 - (unsigned long long);
-- (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
 - (void);
-- (unsigned int);
+- (unsigned int)0:8@"NSControl"16@24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned int count; // @synthesize count=_count;
-@property(nonatomic) _Bool hasCount;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage;
+@class NSString;
 
 @interface _ASAccountManagerTipContent
 {
     _Bool _hasBorderedImage;
-    NSString *_imageName;
-    UIImage *_image;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_buttonTitle;
-    NSString *_declineButtonTitle;
 }
 
 + (id);
@@ -30,20 +24,14 @@
 - (id);
 - (id);
 - (id);
+- (id)bottomResizeView;
 - (id);
-- (id);
-- (id);
+- (id)mChatWithGUIDIfNeeded [ChatGUID:%@] [MessageGUID:%@] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *buttonTitle; // @synthesize buttonTitle=_buttonTitle;
-@property(readonly, copy, nonatomic) NSString *declineButtonTitle; // @synthesize declineButtonTitle=_declineButtonTitle;
-@property(readonly, nonatomic) _Bool hasBorderedImage; // @synthesize hasBorderedImage=_hasBorderedImage;
-@property(readonly, copy, nonatomic) UIImage *image; // @synthesize image=_image;
 @property(readonly, copy, nonatomic) NSString *imageName; // @synthesize imageName=_imageName;
-@property(readonly, copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

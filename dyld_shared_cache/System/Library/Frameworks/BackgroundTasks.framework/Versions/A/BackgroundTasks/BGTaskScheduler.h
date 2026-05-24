@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableDictionary, NSMutableSet, NSString, _BGTaskIdentifierRegistry;
 @protocol _DASActivityBackgroundTasksScheduler;
 
 @interface BGTaskScheduler
 {
     struct os_unfair_lock_s __lock;
-    id <_DASActivityBackgroundTasksScheduler> __scheduler;
-    NSMutableSet *__queuedLaunchActivities;
-    NSMutableSet *__queuedExpiredLaunchActivities;
-    NSMutableDictionary *__registrations;
-    _BGTaskIdentifierRegistry *__identifierRegistry;
-    NSMapTable *__runningTasksMap;
 }
 
 + (_Bool);
@@ -25,35 +18,35 @@
 + (long long);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)ord (%@) does not match local record (%@);
 + (_Bool);
 + (void);
 + (void);
 - (id);
 - (void);
+- (void)=;
+- (id);
+- (id);
+- (void)(=;
+- (void);
+- (void);
+- (id);
+- (id)k&;
+- (id);
 - (void);
 - (id);
 - (id);
+- (_Bool)WFWeatherDataServiceAPIConfiguration;
+- (struct os_unfair_lock_s)memoryToolsDefaultConfiguration;
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
 - (_Bool);
-- (struct os_unfair_lock_s);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void):(id)arg1 %@};
 - (void);
 - (_Bool);
 - (void);
@@ -70,20 +63,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setIdentifierRegistry:) _BGTaskIdentifierRegistry *_identifierRegistry; // @synthesize _identifierRegistry=__identifierRegistry;
-@property(nonatomic, setter=_setLock:) struct os_unfair_lock_s _lock; // @synthesize _lock=__lock;
-@property(retain, nonatomic, setter=_setQueuedExpiredLaunchActivities:) NSMutableSet *_queuedExpiredLaunchActivities; // @synthesize _queuedExpiredLaunchActivities=__queuedExpiredLaunchActivities;
-@property(retain, nonatomic, setter=_setQueuedLaunchActivities:) NSMutableSet *_queuedLaunchActivities; // @synthesize _queuedLaunchActivities=__queuedLaunchActivities;
-@property(retain, nonatomic, setter=_setRegistrations:) NSMutableDictionary *_registrations; // @synthesize _registrations=__registrations;
-@property(retain, nonatomic, setter=_setRunningTasksMap:) NSMapTable *_runningTasksMap; // @synthesize _runningTasksMap=__runningTasksMap;
 @property(retain, nonatomic, setter=_setScheduler:) id <_DASActivityBackgroundTasksScheduler> _scheduler; // @synthesize _scheduler=__scheduler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
-
 __attribute__((visibility("hidden")))
 @interface _PFEvanescentData
 {
     unsigned long long _length;
-    NSURL *_fileURL;
-    int _openfd;
-    const void *_activeMap;
-    int _mapRefCount;
 }
 
 + (Class)ce ID:%d /* Error: Ran out of types for this method. */;
@@ -25,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (const void *);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);

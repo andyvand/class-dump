@@ -9,11 +9,11 @@
     id registrar;
 }
 
-- (void);
+- (void)K;
 - (void);
 - (void);
 - (id);
-- (void)didResolveMediaSelection: /* Error: Ran out of types for this method. */;
+- (void)assetDownloadSession:didResolveMediaSelection: /* Error: Ran out of types for this method. */;
 
 @end
 

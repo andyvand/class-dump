@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (TSDCAAnimationAdditions)
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (double);

@@ -14,13 +14,13 @@
 }
 
 + (unsigned long long);
++ (_Bool);
 + (_Bool);
-+ (_Bool);
+- (id)C;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)descriptorObserver;
 - (_Bool);
 - (void);
 - (void);

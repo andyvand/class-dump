@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol WBSPerSitePreferenceManagerDelegate;
 
 __attribute__((visibility("hidden")))
@@ -15,22 +14,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <WBSPerSitePreferenceManagerDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasDynamicPreferenceValues;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool shouldDeleteUnrecognizedPreference;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly) Class superclass;
 
 @end
 

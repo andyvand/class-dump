@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSPersistentStoreCoordinator, NSSQLCore;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface _NSSQLCoreConnectionObserver
 {
     NSObject<OS_dispatch_queue> *_queue;
-    int _token;
-    NSSQLCore *_core;
-    NSPersistentStoreCoordinator *_psc;
 }
 
 - (void);

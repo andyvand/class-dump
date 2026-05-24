@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSAccount, IDSIncomingBatchMessageContext, IDSService, IMPacketTracker, NSMutableDictionary, NSNumber;
+@class IDSAccount;
 
 @interface IMBatchSetTrackingContext
 {
     IDSAccount *_account;
-    IDSService *_service;
-    NSNumber *_totalExpectedBatches;
-    IMPacketTracker *_batchTracker;
-    NSMutableDictionary *_trackingContexts;
-    IDSIncomingBatchMessageContext *_contextWithSSM;
 }
 
+- (id)R#;
+- (void);
+- (void)!00琐搆;
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -33,11 +28,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) IDSAccount *account; // @synthesize account=_account;
-@property(readonly, nonatomic) IMPacketTracker *batchTracker; // @synthesize batchTracker=_batchTracker;
-@property(retain, nonatomic) IDSIncomingBatchMessageContext *contextWithSSM; // @synthesize contextWithSSM=_contextWithSSM;
-@property(readonly, nonatomic) IDSService *service; // @synthesize service=_service;
-@property(readonly, nonatomic) NSNumber *totalExpectedBatches; // @synthesize totalExpectedBatches=_totalExpectedBatches;
-@property(readonly, nonatomic) NSMutableDictionary *trackingContexts; // @synthesize trackingContexts=_trackingContexts;
 
 @end
 

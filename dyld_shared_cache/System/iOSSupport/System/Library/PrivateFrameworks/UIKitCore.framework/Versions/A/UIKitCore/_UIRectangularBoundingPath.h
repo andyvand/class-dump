@@ -12,11 +12,11 @@ __attribute__((visibility("hidden")))
     struct CGRect _boundingRect;
 }
 
-+ (_Bool)ContinuationProgressWindowSuppressed;
++ (_Bool)ActivityContinuationProgressWindowSuppressed;
 - (struct UIEdgeInsets);
 - (id);
 - (id);
-- (id);
+- (id)initWithAttributedString:(id)arg1;
 - (id);
 - (id);
 - (struct CGRect)Áÿð!0@ùÑX°1Â0@ù
@@ -25,10 +25,10 @@ __attribute__((visibility("hidden")))
 × ;
 - (struct CGRect)ù
 × ;
-- (struct CGRect)VFD;
-- (void)ly:(id)arg1;
+- (struct CGRect)velocityUsableForVFD;
+- (void)setShouldUpdateLayoutAutomatically:(id)arg1;
 - (id);
-- (_Bool)WithZone:(struct CGRect)arg1;
+- (_Bool)copyWithZone:(struct CGRect)arg1;
 - (_Bool)be imported.;
 - (void)Impl._needsStyleMaskUpdates;
 - (struct CGRect)rB0C_ytÌ±;

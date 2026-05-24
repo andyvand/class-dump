@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPPadding, LPPointUnit, LPTextViewStyle, NSColor;
+@class LPPadding;
 
 __attribute__((visibility("hidden")))
 @interface LPCollaborationFooterStyle
 {
     _Bool _showSeparator;
-    _Bool _useFullWidth;
-    _Bool _useInlineIndicator;
-    _Bool _useFullWidthDuringSizing;
-    _Bool _ignoreSafeAreaInset;
-    _Bool _useSafeAreaInsetWithPadding;
-    LPPadding *_margin;
-    LPPadding *_separatorMargin;
-    LPPadding *_padding;
-    LPPointUnit *_indicatorSpacing;
-    LPPointUnit *_cornerRadius;
-    LPTextViewStyle *_options;
-    LPTextViewStyle *_handle;
-    NSColor *_backgroundColor;
 }
 
 - (_Bool);
@@ -45,7 +32,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)H5;
 - (void)
 × ;
 - (id)deferred fetch of subresources;
@@ -53,20 +40,7 @@ __attribute__((visibility("hidden")))
 - (id)DìóÿVÚüd;
 
 // Remaining properties
-@property(retain, nonatomic) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain, nonatomic) LPPointUnit *cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(readonly, nonatomic) LPTextViewStyle *handle; // @synthesize handle=_handle;
-@property(nonatomic) _Bool ignoreSafeAreaInset; // @synthesize ignoreSafeAreaInset=_ignoreSafeAreaInset;
-@property(retain, nonatomic) LPPointUnit *indicatorSpacing; // @synthesize indicatorSpacing=_indicatorSpacing;
 @property(readonly, retain, nonatomic) LPPadding *margin; // @synthesize margin=_margin;
-@property(readonly, nonatomic) LPTextViewStyle *options; // @synthesize options=_options;
-@property(readonly, retain, nonatomic) LPPadding *padding; // @synthesize padding=_padding;
-@property(readonly, retain, nonatomic) LPPadding *separatorMargin; // @synthesize separatorMargin=_separatorMargin;
-@property(nonatomic) _Bool showSeparator; // @synthesize showSeparator=_showSeparator;
-@property(nonatomic) _Bool useFullWidth; // @synthesize useFullWidth=_useFullWidth;
-@property(nonatomic) _Bool useFullWidthDuringSizing; // @synthesize useFullWidthDuringSizing=_useFullWidthDuringSizing;
-@property(nonatomic) _Bool useInlineIndicator; // @synthesize useInlineIndicator=_useInlineIndicator;
-@property(nonatomic) _Bool useSafeAreaInsetWithPadding; // @synthesize useSafeAreaInsetWithPadding=_useSafeAreaInsetWithPadding;
 
 @end
 

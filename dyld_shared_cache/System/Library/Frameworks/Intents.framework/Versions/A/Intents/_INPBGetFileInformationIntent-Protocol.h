@@ -7,19 +7,15 @@
 @class _INPBIntentMetadata, _INPBString;
 
 @protocol _INPBGetFileInformationIntent
-- (_Bool)ithPHAssetId: /* Error: Ran out of types for this method. */;
+- (void);
+- (int);
+- (void)FLFollowUpActionLaunchArgumentsKey;
+- (_Bool)nheritanceContactController.m;
+- (_INPBIntentMetadata *)L '%@' failed with error:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)attachmentWithPHAssetId: /* Error: Ran out of types for this method. */;
 - (_INPBString *)nt;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBString *entityName;
-@property(nonatomic) int entityType;
-@property(readonly, nonatomic) _Bool hasEntityName;
-@property(nonatomic) _Bool hasEntityType;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasPropertyName;
-@property(nonatomic) _Bool hasQualifier;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(nonatomic) int propertyName;
-@property(nonatomic) int qualifier;
 @end
 

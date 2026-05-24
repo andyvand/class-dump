@@ -6,19 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PLUSSchemaPLUSSuggestionMetadata, PLUSSchemaPLUSSuggestionValue;
+@class PLUSSchemaPLUSSuggestionMetadata;
 
 @interface PLUSSchemaPLUSSuggestion : SISchemaInstrumentationMessage
 {
     PLUSSchemaPLUSSuggestionMetadata *_suggestionMetadata;
-    PLUSSchemaPLUSSuggestionValue *_suggestionValue;
-    _Bool _hasSuggestionMetadata;
-    _Bool _hasSuggestionValue;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)9;
 - (_Bool);
 - (void);
 - (void);
@@ -31,19 +28,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ng to be donated, going to donate %llu more;
 - (id);
 - (id);
-- (id)Invoked;
+- (id)_ifPlatformRequestInvoked;
 - (id)TB,N,V_hasLoadScreenContentContext;
 - (void)MClientEvent;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSuggestionMetadata; // @synthesize hasSuggestionMetadata=_hasSuggestionMetadata;
-@property(nonatomic) _Bool hasSuggestionValue; // @synthesize hasSuggestionValue=_hasSuggestionValue;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) PLUSSchemaPLUSSuggestionMetadata *suggestionMetadata; // @synthesize suggestionMetadata=_suggestionMetadata;
-@property(retain, nonatomic) PLUSSchemaPLUSSuggestionValue *suggestionValue; // @synthesize suggestionValue=_suggestionValue;
 
 @end
 

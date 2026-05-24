@@ -7,18 +7,12 @@
 @interface ContactsUICore.PosterVariableBlurLayer
 {
     id expandedBlurOpacity;
-    id offset;
-    id blurRadius;
-    id maskLayer;
-    id variableImageLayer;
-    id constantColorLayer;
-    id backdropLayer;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)r;
 - (void);
 
 @end

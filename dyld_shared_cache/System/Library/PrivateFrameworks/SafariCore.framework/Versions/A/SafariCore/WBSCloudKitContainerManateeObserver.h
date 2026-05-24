@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainer, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue, WBSAppleAccountInformationProviding;
+@class NSObject, NSString;
+@protocol OS_dispatch_queue;
 
 @interface WBSCloudKitContainerManateeObserver
 {
     NSObject<OS_dispatch_queue> *_queue;
-    CKContainer *_container;
-    _Bool _determiningManateeState;
-    long long _currentManateeState;
-    long long _currentAccountTermsState;
-    CDUnknownBlockType _stateChangeObserver;
-    NSMutableArray *_stateDeterminationCompletionBlocks;
-    id <WBSAppleAccountInformationProviding> _appleAccountInformationProvider;
-    NSString *_containerIdentifier;
 }
 
 - (void);
@@ -31,14 +23,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *containerIdentifier; // @synthesize containerIdentifier=_containerIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType stateChangeObserver;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SHKRemoteWindowController;
-
 __attribute__((visibility("hidden")))
 @interface SHKRemoteViewController
 {
     _Bool _disconnectRequested;
-    SHKRemoteWindowController *_remoteWindowController;
 }
 
 + (void);
@@ -18,10 +15,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)0;
 - (void);
 - (void);
 - (id);
@@ -30,15 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property _Bool disconnectRequested; // @synthesize disconnectRequested=_disconnectRequested;
-@property(readonly) unsigned long long hash;
-@property __weak SHKRemoteWindowController *remoteWindowController; // @synthesize remoteWindowController=_remoteWindowController;
-@property(readonly) Class superclass;
 
 @end
 

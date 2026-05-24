@@ -10,10 +10,9 @@ __attribute__((visibility("hidden")))
 @interface FI_TFPFSDomainProgress
 {
     struct TFENode _domainRootNode;
-    FI_TCloudProgressObserver *_cloudProgress;
 }
 
-- (optional_fcefa02e);
+- (optional_4f9e39db);
 - (id);
 - (id);
 - (id);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) FI_TCloudProgressObserver *cloudProgress; // @synthesize cloudProgress=_cloudProgress;
-@property(readonly, nonatomic) optional_fcefa02e currentProgressPercentage;
 
 @end
 

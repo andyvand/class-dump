@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLayoutConstraint, NSString, NSTableView, NSTextField, NSTrackingArea;
+@class NSArray, NSTableView;
 
 __attribute__((visibility("hidden")))
 @interface SOActionsListViewController
 {
     NSArray *_items;
-    _Bool _keyInWindow;
-    _Bool _doShowHints;
-    NSTableView *_actionsTableView;
-    NSTextField *_titleTextField;
-    NSTextField *_hintsTextField;
-    NSLayoutConstraint *_actionsTableHeightConstraint;
-    CDUnknownBlockType _completionBlock;
-    NSTrackingArea *_trackingArea;
 }
 
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)@;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id)dlerForActiveObjectINS1_16RavenSystemEventEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
+- (id)udeChangeEventEEEvvEUlPNS2_16ActiveObjectBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
+- (id)ZN11cnframework12ActiveObjectIN5raven31RavenDeviceAttitudeActiveObjectEE41CreateAndStoreEventHandlerForActiveObjectINS1_13UserGaitEventEEEvvEUlPNS_16ActiveObjectBaseERKNS_12GenericEventEE_;
 - (long long);
 - (void);
 - (void);
@@ -42,24 +34,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain) NSLayoutConstraint *actionsTableHeightConstraint; // @synthesize actionsTableHeightConstraint=_actionsTableHeightConstraint;
 @property(retain) NSTableView *actionsTableView; // @synthesize actionsTableView=_actionsTableView;
-@property(copy) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property _Bool doShowHints; // @synthesize doShowHints=_doShowHints;
-@property(readonly) unsigned long long hash;
-@property(retain) NSTextField *hintsTextField; // @synthesize hintsTextField=_hintsTextField;
-@property(readonly) _Bool keyInWindow; // @synthesize keyInWindow=_keyInWindow;
-@property(readonly) Class superclass;
-@property(retain) NSTextField *titleTextField; // @synthesize titleTextField=_titleTextField;
-@property(retain) NSTrackingArea *trackingArea; // @synthesize trackingArea=_trackingArea;
 
 @end
 

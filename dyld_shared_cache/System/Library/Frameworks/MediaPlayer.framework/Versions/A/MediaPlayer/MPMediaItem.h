@@ -6,7 +6,7 @@
 
 #import <MediaPlayer/MPMediaEntity.h>
 
-@class MPMediaItemArtwork, NSArray, NSDate, NSString, NSURL;
+@class NSArray;
 
 @interface MPMediaItem : MPMediaEntity
 {
@@ -14,7 +14,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -37,7 +37,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id).;
 - (void);
 - (void);
 - (void);
@@ -61,7 +61,7 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (void);
 - (id);
@@ -72,36 +72,36 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long)C;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)HMFLocking;
+- (id)0;
+- (void)27ML3ProtoSyncAlbumImportItem;
+- (id)5;
 - (double);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)])}f}]{btVector3=(?=[4f])}{btVector3=(?=[4f])}iffB{btConstraintSetting=fff}};
+- (unsigned long long)6{CATransform3D=dddddddddddddddd}24;
 - (_Bool);
 - (id);
 - (_Bool);
 - (double);
 - (double);
 - (id);
+- (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (unsigned long long);
+- (unsigned long long)j;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (id);
+- (unsigned long long);
+- (_Bool)geOverlayController;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -116,61 +116,7 @@
 - (id)À.;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *albumArtist;
-@property(readonly, nonatomic) unsigned long long albumArtistPersistentID;
-@property(readonly, nonatomic) unsigned long long albumPersistentID;
-@property(readonly, nonatomic) NSString *albumTitle;
-@property(readonly, nonatomic) unsigned long long albumTrackCount;
-@property(readonly, nonatomic) unsigned long long albumTrackNumber;
-@property(readonly, nonatomic) NSString *artist;
-@property(readonly, nonatomic) unsigned long long artistPersistentID;
-@property(readonly, nonatomic) MPMediaItemArtwork *artwork;
-@property(readonly, nonatomic) NSURL *assetURL;
-@property(readonly, nonatomic) unsigned long long beatsPerMinute;
-@property(readonly, nonatomic) double bookmarkTime;
 @property(readonly, nonatomic) NSArray *chapters;
-@property(readonly, nonatomic, getter=isCloudItem) _Bool cloudItem;
-@property(readonly, nonatomic) NSString *comments;
-@property(readonly, nonatomic, getter=isCompilation) _Bool compilation;
-@property(readonly, nonatomic) NSString *composer;
-@property(readonly, nonatomic) unsigned long long composerPersistentID;
-@property(copy, nonatomic) NSDate *dateAccessed;
-@property(readonly, nonatomic) NSDate *dateAdded;
-@property(readonly, nonatomic) NSDate *dateDownloaded;
-@property(readonly, nonatomic) unsigned long long discCount;
-@property(readonly, nonatomic) unsigned long long discNumber;
-@property(readonly, nonatomic) NSString *effectiveAlbumArtist;
-@property(readonly, nonatomic) double effectiveStopTime;
-@property(readonly, nonatomic, getter=isExplicitItem) _Bool explicitItem;
-@property(readonly, nonatomic) NSString *genre;
-@property(readonly, nonatomic) unsigned long long genrePersistentID;
-@property(nonatomic) _Bool hasBeenPlayed;
-@property(readonly, nonatomic) _Bool isITunesU;
-@property(readonly, nonatomic) _Bool isRental;
-@property(readonly, nonatomic) _Bool isUsableAsRepresentativeItem;
-@property(copy, nonatomic) NSDate *lastPlayedDate;
-@property(copy, nonatomic) NSDate *lastSkippedDate;
-@property(readonly, nonatomic) NSString *lyrics;
-@property(readonly, nonatomic) unsigned long long mediaType;
-@property(readonly, nonatomic) unsigned long long persistentID; // @dynamic persistentID;
-@property(readonly, nonatomic) unsigned long long playCount;
-@property(nonatomic) unsigned long long playCountSinceSync;
-@property(readonly, nonatomic) double playbackDuration;
-@property(readonly, nonatomic) NSString *playbackStoreID;
-@property(readonly, nonatomic) unsigned long long podcastPersistentID;
-@property(readonly, nonatomic) NSString *podcastTitle;
-@property(readonly, nonatomic, getter=isPreorder) _Bool preorder;
-@property(readonly, nonatomic, getter=hasProtectedAsset) _Bool protectedAsset;
-@property(readonly, nonatomic) unsigned long long rating;
-@property(readonly, nonatomic) NSDate *releaseDate;
-@property(readonly, nonatomic) _Bool rememberBookmarkTime;
-@property(readonly, nonatomic) unsigned long long skipCount;
-@property(nonatomic) unsigned long long skipCountSinceSync;
-@property(readonly, nonatomic) double startTime;
-@property(readonly, nonatomic) double stopTime;
-@property(readonly, nonatomic) NSString *title;
-@property(readonly, nonatomic) NSString *userGrouping;
-@property(readonly, nonatomic) unsigned long long year;
 
 @end
 

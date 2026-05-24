@@ -4,40 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFHardwareSecureElementInfo, NSNumber, NSString;
+@class NFHardwareSecureElementInfo, NSString;
 
 @interface NFSecureElement
 {
     NFHardwareSecureElementInfo *_info;
-    _Bool _isDirty;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 + (unsigned int);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
 - (unsigned int);
 - (id);
-- (void);
+- (void)quest response body:(id)arg1 %@;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)synchronousRemoteObjectProxyWithErrorHandler:(CDUnknownBlockType)arg1;
 - (void);
 - (unsigned int);
 - (id);
@@ -46,18 +45,7 @@
 - (_Bool)p;
 
 // Remaining properties
-@property(readonly) unsigned long long OSVersion;
-@property(readonly) _Bool available;
-@property(readonly) NSString *eccCertificate;
-@property(readonly) NSString *eckaCertificate;
-@property(readonly) unsigned long long fullOSVersion;
-@property(readonly) _Bool isInRestrictedMode;
-@property(readonly) _Bool isProductionSigned;
-@property(readonly) NSString *rsaCertificate;
-@property(readonly) NSNumber *sequenceCounter;
 @property(readonly) NSString *serialNumber;
-@property(readonly) unsigned int supportedTechnologies;
-@property(readonly) NSString *systemOSSerialNumber;
 
 @end
 

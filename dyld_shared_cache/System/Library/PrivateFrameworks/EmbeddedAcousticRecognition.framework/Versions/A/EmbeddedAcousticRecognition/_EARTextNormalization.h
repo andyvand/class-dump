@@ -9,7 +9,6 @@
 @interface _EARTextNormalization
 {
     _EARTokenizer *_tokenizer;
-    struct unique_ptr<quasar::Munger, std::default_delete<quasar::Munger>> _munger;
 }
 
 - (id);
@@ -17,9 +16,9 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (id);

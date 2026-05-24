@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SLVirtualDisplayConfiguration, SLVirtualDisplaySettings;
-@protocol SLVirtualDisplayDelegate;
-
 @interface SLVirtualDisplay
 {
     unsigned int _displayID;
-    id <SLVirtualDisplayDelegate> _delegate;
-    CDUnknownBlockType _zeroWeakSelf;
-    SLVirtualDisplayConfiguration *_config;
-    SLVirtualDisplaySettings *_settings;
 }
 
 + (id);
-- (_Bool);
+- (_Bool)description requires a NSPropertyDescription;
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned int)}24;
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <SLVirtualDisplayDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) unsigned int displayID; // @synthesize displayID=_displayID;
 
 @end

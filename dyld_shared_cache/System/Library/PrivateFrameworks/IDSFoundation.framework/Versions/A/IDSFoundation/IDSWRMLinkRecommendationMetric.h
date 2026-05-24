@@ -4,38 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface IDSWRMLinkRecommendationMetric
 {
     unsigned int _recommendedLinkType;
-    unsigned int _primaryLinkType;
-    unsigned int _magnetState;
-    unsigned int _infraWiFiState;
 }
 
 - (unsigned int);
 - (unsigned int);
-- (id);
+- (id)9;
 - (unsigned int);
 - (unsigned int);
-- (id);
-- (id);
+- (id)hF;
+- (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned int infraWiFiState; // @synthesize infraWiFiState=_infraWiFiState;
-@property(readonly, nonatomic) unsigned int magnetState; // @synthesize magnetState=_magnetState;
-@property(readonly) NSString *name;
-@property(readonly, nonatomic) unsigned int primaryLinkType; // @synthesize primaryLinkType=_primaryLinkType;
 @property(readonly, nonatomic) unsigned int recommendedLinkType; // @synthesize recommendedLinkType=_recommendedLinkType;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,22 +6,16 @@
 
 #import <Metal/MTLBindingInternal.h>
 
-@class MTLStructTypeInternal;
-
 __attribute__((visibility("hidden")))
 @interface MTLImageBlockArgument : MTLBindingInternal
 {
     unsigned long long _kind;
-    unsigned int _dataSize;
-    MTLStructTypeInternal *_masterStructMembers;
-    _Bool _aliasImplicitImageBlock;
-    unsigned int _aliasImplicitImageBlockRenderTarget;
 }
 
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)Q 1H;
 - (id);
 - (unsigned long long);
 - (_Bool);

@@ -4,74 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKEffectSelectionCollectionViewCell, CKFullScreenEffectManager, NSArray, NSMutableDictionary, NSString, UICollectionView, UICollectionViewDiffableDataSource, UIColor;
-@protocol CKEffectSelectionViewControllerDelegate;
+@class UICollectionView;
 
 @interface CKEffectSelectionViewController
 {
     _Bool _labelUsesDarkVibrancy;
-    id <CKEffectSelectionViewControllerDelegate> _delegate;
-    UICollectionView *_collectionView;
-    UICollectionViewDiffableDataSource *_dataSource;
-    CKFullScreenEffectManager *_fsem;
-    NSArray *_sendEffects;
-    UIColor *_labelColor;
-    double _cellMaxHeight;
-    CKEffectSelectionCollectionViewCell *_sizingCell;
-    NSMutableDictionary *_identifierToHeightMap;
 }
 
-+ (id);
++ (id)n inline attachment (%@) that we haven't downloaded yet for an attachment (%@). Creating a temporary one.;
+- (void)dataWithContentsOfFile:(struct UIEdgeInsets)arg1 options:error: /* Error: Ran out of types for this method. */;
+- (id)tType;
+- (void)ObjectsNotFromDestinationFolderInSource;
+- (void)lightsTextStorage;
+- (void);
+- (void)4;
+- (void);
+- (void);
+- (id);
+- (id);
+- (_Bool)r;
+- (id);
+- (id)e;
+- (id)bserving System Paper notes for changes;
+- (id)ey:(id)arg1 %@, error:%s} /* Error: Ran out of types for this method. */;
+- (double)SearchIndexer;
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (double);
-- (void);
-- (void);
+- (void){;
 - (void);
 - (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double cellMaxHeight; // @synthesize cellMaxHeight=_cellMaxHeight;
 @property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(retain, nonatomic) UICollectionViewDiffableDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKEffectSelectionViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CKFullScreenEffectManager *fsem; // @synthesize fsem=_fsem;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *identifierToHeightMap; // @synthesize identifierToHeightMap=_identifierToHeightMap;
-@property(retain, nonatomic) UIColor *labelColor; // @synthesize labelColor=_labelColor;
-@property(nonatomic) _Bool labelUsesDarkVibrancy; // @synthesize labelUsesDarkVibrancy=_labelUsesDarkVibrancy;
-@property(retain, nonatomic) NSString *selectedEffectIdentifier;
-@property(retain, nonatomic) NSArray *sendEffects; // @synthesize sendEffects=_sendEffects;
-@property(retain, nonatomic) CKEffectSelectionCollectionViewCell *sizingCell; // @synthesize sizingCell=_sizingCell;
-@property(readonly) Class superclass;
 
 @end
 

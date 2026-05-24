@@ -10,7 +10,7 @@
 {
 }
 
-- (void)sertedAndUpdatedContactsForSaveRequest:(id)arg1;
+- (void)insertedAndUpdatedContactsForSaveRequest:(id)arg1;
 
 @end
 

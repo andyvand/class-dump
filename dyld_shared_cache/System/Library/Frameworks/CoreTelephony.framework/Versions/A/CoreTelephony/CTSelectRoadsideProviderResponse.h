@@ -7,23 +7,21 @@
 @interface CTSelectRoadsideProviderResponse
 {
     _Bool _success;
-    _Bool _conversationResumed;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)d to an AVAssetReader.;
+- (void)#;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)initWithUUID:(id)arg1 token:senderAuditTokenData:context: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (void)LineIdRestrictionValue:(_Bool)arg1;
+- (void)fetchConnectedLineIdRestrictionValue:(_Bool)arg1;
 
 // Remaining properties
-@property(nonatomic) _Bool conversationResumed; // @synthesize conversationResumed=_conversationResumed;
 @property(nonatomic) _Bool success; // @synthesize success=_success;
 
 @end

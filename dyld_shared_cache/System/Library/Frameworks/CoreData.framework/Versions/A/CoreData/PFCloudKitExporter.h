@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCloudKitMirroringRequest, NSMutableDictionary, NSObject, PFCloudKitExportContext, PFCloudKitExporterOptions, PFCloudKitStoreMonitor;
-@protocol OS_dispatch_queue, PFCloudKitExporterDelegate;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface PFCloudKitExporter
 {
     NSMutableDictionary *_operationIDToResult;
-    CDUnknownBlockType _exportCompletionBlock;
-    PFCloudKitExporterOptions *_options;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSCloudKitMirroringRequest *_request;
-    NSObject<PFCloudKitExporterDelegate> *_delegate;
-    PFCloudKitExportContext *_exportContext;
-    PFCloudKitStoreMonitor *_monitor;
 }
 
-- (void);
+- (void)#g;
 - (id);
 - (void)Äv XwY¸u¨YÌuìYø{Z$|ðZø{[ wÈ[w\¬{´\Äu¨]vØ]Üv;
 

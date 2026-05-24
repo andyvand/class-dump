@@ -4,34 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSObject, NSString, NSXPCConnection;
+@class NSObject, NSString;
 @protocol OS_dispatch_queue;
 
 @interface TIImageCacheClient
 {
     NSString *_path;
-    NSString *_imagePath;
-    _Bool _hasLocalAccess;
-    int _remoteQueryCount;
-    _Bool _shouldIdleWhenDone;
-    NSCache *_cache;
-    NSString *_versionPath;
-    NSObject<OS_dispatch_queue> *_serialQueueRemoveImagesBackground;
-    NSObject<OS_dispatch_queue> *_serialQueueRemoveImagesDefault;
-    NSObject<OS_dispatch_queue> *_storeImageQueue;
-    NSObject<OS_dispatch_queue> *_requestQueue;
-    NSXPCConnection *_connection;
-    _Bool _lockOnRead;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (struct _img);
-- (void);
-- (_Bool);
-- (void);
+- (struct _img)userRemovedAssetUUIDs;
+- (void)_streamableVideos;
+- (_Bool)UIDs:(id)arg1;
+- (void)avalancheUUID;
 - (void);
 - (void);
 - (void *);
@@ -40,9 +28,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)<;
 - (int);
 - (struct CGImage *);
 - (int);
@@ -57,9 +45,6 @@
 ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long cacheItemLimit;
-@property(readonly, nonatomic) int cacheVersion;
-@property(nonatomic) _Bool lockOnRead; // @synthesize lockOnRead=_lockOnRead;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *storeImageQueue;
 
 @end

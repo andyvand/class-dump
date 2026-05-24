@@ -7,7 +7,6 @@
 @interface Foundation._PropertyListEncoder
 {
     id options;
-    id optionsLock;
 }
 
 @end

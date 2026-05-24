@@ -7,10 +7,6 @@
 @interface AppKit.NSScreenManager
 {
     id _coordinator;
-    id _behaviors;
-    id _observer;
-    id _lock;
-    id _latestConfiguration;
 }
 
 @end

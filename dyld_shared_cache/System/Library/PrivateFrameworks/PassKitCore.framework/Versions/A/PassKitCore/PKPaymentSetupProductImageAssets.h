@@ -7,9 +7,6 @@
 @interface PKPaymentSetupProductImageAssets
 {
     struct CGImage *_digitalCardImage;
-    struct CGImage *_plasticCardImage;
-    struct CGImage *_thumbnailImage;
-    struct CGImage *_logoImage;
 }
 
 - (void);
@@ -25,9 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) struct CGImage *digitalCardImage; // @synthesize digitalCardImage=_digitalCardImage;
-@property(nonatomic) struct CGImage *logoImage; // @synthesize logoImage=_logoImage;
-@property(nonatomic) struct CGImage *plasticCardImage; // @synthesize plasticCardImage=_plasticCardImage;
-@property(nonatomic) struct CGImage *thumbnailImage; // @synthesize thumbnailImage=_thumbnailImage;
 
 @end
 

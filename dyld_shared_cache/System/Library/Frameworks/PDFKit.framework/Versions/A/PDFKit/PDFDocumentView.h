@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PDFDocumentViewPrivate;
+@class PDFDocumentViewPrivate;
 
 __attribute__((visibility("hidden")))
 @interface PDFDocumentView
@@ -39,26 +39,26 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (struct CGPoint);
+- (struct CGPoint)<;
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (void){public}@[%{public,uuid_t}.16P] Video stream has stopped;
+- (id)ProvisionAnisetteDataRequest:%@] /* Error: Ran out of types for this method. */;
+- (id)t) fetchWalletKeyEncodedPKPassWithIgnoredErrorCodes:completion:] /* Error: Ran out of types for this method. */;
+- (id)ssedWelcomeUI;
+- (id)%ld;
+- (id)kRenameAccessoryRequestKey;
+- (id)HMClusterIDKey;
+- (unsigned long long)ReachableTransports;
 - (struct CGRect);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)R(;
 - (void);
 - (void);
 - (id);
@@ -67,13 +67,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

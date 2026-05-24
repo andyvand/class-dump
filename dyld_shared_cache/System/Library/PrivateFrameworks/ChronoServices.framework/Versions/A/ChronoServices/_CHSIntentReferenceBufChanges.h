@@ -7,13 +7,6 @@
 @interface _CHSIntentReferenceBufChanges
 {
     unsigned char _changeTypeStableHash;
-    long long _replacementStableHash;
-    unsigned char _changeTypeIntentData;
-    unsigned int _replacementIntentData;
-    unsigned char _changeTypeSchemaData;
-    unsigned int _replacementSchemaData;
-    unsigned char _changeTypePartialIntentData;
-    unsigned int _replacementPartialIntentData;
 }
 
 - (void);
@@ -23,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)K;
 - (void);
 - (void);
 - (void);

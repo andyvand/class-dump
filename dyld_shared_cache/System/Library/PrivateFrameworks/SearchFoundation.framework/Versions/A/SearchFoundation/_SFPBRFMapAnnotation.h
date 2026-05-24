@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBLatLng, _SFPBRFMapPoint, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class _SFPBLatLng;
 
 @interface _SFPBRFMapAnnotation
 {
     _SFPBLatLng *_coordinate;
-    _SFPBRFVisualProperty *_content;
-    NSString *_title;
-    _SFPBRFMapPoint *_anchor;
-    _SFPBRFTextProperty *_label;
 }
 
 - (void);
@@ -24,32 +20,20 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)queryForMomentsInPhotosHighlight:(id)arg1;
+- (id)ack:Adding multiple pieces of feedback to the same memory is not supported. Will not add feedback for memory feature %@ /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void)"RFSimpleItemVisualElementCardSection";
-- (id)SFCardSection: /* Error: Ran out of types for this method. */;
+- (id)initWithSFCardSection: /* Error: Ran out of types for this method. */;
 - (void)WN;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBRFMapPoint *anchor; // @synthesize anchor=_anchor;
-@property(retain, nonatomic) _SFPBRFVisualProperty *content; // @synthesize content=_content;
 @property(retain, nonatomic) _SFPBLatLng *coordinate; // @synthesize coordinate=_coordinate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBRFTextProperty *label; // @synthesize label=_label;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

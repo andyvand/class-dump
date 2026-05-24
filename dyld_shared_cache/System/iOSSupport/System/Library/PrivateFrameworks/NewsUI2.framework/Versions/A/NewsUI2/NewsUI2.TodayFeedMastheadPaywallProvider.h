@@ -7,8 +7,6 @@
 @interface NewsUI2.TodayFeedMastheadPaywallProvider
 {
     id bundleSubscriptionManager;
-    id configurationManager;
-    id offerManager;
 }
 
 @end

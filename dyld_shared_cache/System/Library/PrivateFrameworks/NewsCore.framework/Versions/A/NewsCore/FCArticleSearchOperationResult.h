@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCArticleSearchOperationFeedbackResult, FCArticleStreamingResults;
+@class FCArticleStreamingResults;
 
 @interface FCArticleSearchOperationResult
 {
     FCArticleStreamingResults *_articles;
-    FCArticleSearchOperationFeedbackResult *_feedBack;
 }
 
 - (id);
 - (id);
 - (void);
 - (void)@"FCHLSPlaylist"@@"NSError">24;
-- (void)dow;
+- (void)liveCoverageActiveWindow;
 
 // Remaining properties
 @property(retain, nonatomic) FCArticleStreamingResults *articles; // @synthesize articles=_articles;
-@property(retain, nonatomic) FCArticleSearchOperationFeedbackResult *feedBack; // @synthesize feedBack=_feedBack;
 
 @end
 

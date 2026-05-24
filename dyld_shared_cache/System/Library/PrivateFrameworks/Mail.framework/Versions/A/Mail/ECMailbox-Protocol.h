@@ -7,11 +7,11 @@
 @class NSString, NSURL;
 
 @protocol ECMailbox
+- (NSString *);
+- (NSURL *)Q;
+- (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *URL;
-@property(readonly, copy) NSString *name;
 @property(readonly, copy, nonatomic) NSString *persistentID;
-@property(readonly) long long type;
 @end
 

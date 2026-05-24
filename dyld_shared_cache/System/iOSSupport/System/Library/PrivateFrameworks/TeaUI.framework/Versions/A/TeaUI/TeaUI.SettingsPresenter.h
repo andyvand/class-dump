@@ -7,7 +7,6 @@
 @interface TeaUI.SettingsPresenter
 {
     id resolver;
-    id layout;
 }
 
 @end

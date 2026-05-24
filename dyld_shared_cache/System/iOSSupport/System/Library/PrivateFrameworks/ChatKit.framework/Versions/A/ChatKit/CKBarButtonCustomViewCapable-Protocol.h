@@ -7,6 +7,8 @@
 @class UIBarButtonItem;
 
 @protocol CKBarButtonCustomViewCapable
+- (void)showAttachmentCompatibilityAlertInAccountIfNeeded:(UIBarButtonItem *)arg1 completion: /* Error: Ran out of types for this method. */;
+- (UIBarButtonItem *)fetchThumbnailImageWithMinSize:scale:appearanceInfo:cache:cacheKey:processingBlock:completionBlock:fallbackBlock:aboutToLoadHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak UIBarButtonItem *parentBarButtonItem;

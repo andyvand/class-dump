@@ -6,44 +6,10 @@
 
 #import <Metal/MTLRenderPipelineReflection.h>
 
-@class NSArray, NSData, NSDictionary;
-@protocol MTLBinding;
-
 __attribute__((visibility("hidden")))
 @interface MTLRenderPipelineReflectionInternal : MTLRenderPipelineReflection
 {
     CDStruct_d04b17dd _flags;
-    NSArray *_vertexBuiltInArguments;
-    unsigned long long _postVertexDumpStride;
-    NSArray *_postVertexDumpOutputs;
-    NSArray *_vertexArguments;
-    NSArray *_fragmentArguments;
-    NSArray *_tileArguments;
-    NSArray *_tileBuiltInArguments;
-    id <MTLBinding> _imageBlockDataReturn;
-    NSDictionary *_performanceStatistics;
-    unsigned int _traceBufferIndex;
-    NSData *_vertexPluginReturnData;
-    NSData *_fragmentPluginReturnData;
-    NSArray *_constantSamplerUniqueIdentifiers;
-    NSArray *_constantSamplerDescriptors;
-    NSDictionary *_vertexResourceBindingIndexRemappingTable;
-    NSDictionary *_fragmentResourceBindingIndexRemappingTable;
-    NSDictionary *_objectResourceBindingIndexRemappingTable;
-    NSDictionary *_meshResourceBindingIndexRemappingTable;
-    NSArray *_objectArguments;
-    NSArray *_meshArguments;
-    NSArray *_objectBuiltInArguments;
-    NSArray *_meshBuiltInArguments;
-    NSData *_objectPluginReturnData;
-    NSData *_meshPluginReturnData;
-    NSArray *_vertexBindings;
-    NSArray *_fragmentBindings;
-    NSArray *_tileBindings;
-    NSArray *_objectBindings;
-    NSArray *_meshBindings;
-    NSDictionary *_tileResourceBindingIndexRemappingTable;
-    unsigned long long _printStyle;
 }
 
 - (id);
@@ -58,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)_;
 - (id);
 - (id);
 - (id);

@@ -4,31 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUICatalog, CUIMutableCatalog, NSBundle, NSData, NSMapTable, NSString, UITraitCollection, _UICache;
+@class _UICache;
 
 @interface _UIAssetManager
 {
     _UICache *_imageCache;
-    CUICatalog *_catalog;
-    NSString *_assetManagerName;
-    long long _preferredIdiom;
-    double _preferredScale;
-    unsigned long long _preferredIdiomSubtype;
-    long long _preferredGamut;
-    long long _preferredLayoutDirectionTrait;
-    NSBundle *_bundle;
-    NSMapTable *_assetMap;
-    CUIMutableCatalog *_runtimeCatalog;
-    struct os_unfair_lock_s _runtimeCatalogCreationLock;
-    UITraitCollection *_preferredTraitCollection;
-    struct os_unfair_lock_s _assetMapLock;
-    NSData *_assetData;
-    unsigned long long _type;
-    struct {
-        unsigned int isStandaloneAssetManager:1;
-        unsigned int gotHasMacAppearanceNames:1;
-        unsigned int hasMacAppearanceNames:1;
-    } _assetManagerFlags;
 }
 
 + (void);
@@ -39,10 +19,10 @@
 + (void);
 + (id);
 + (id);
-+ (id)angedSelection:(id)arg1;
-+ (id)tmentInteraction;
-+ (void)roperties;
-+ (id);
++ (id)smartExtendRangedSelection:(id)arg1;
++ (id)rangeAdjustmentInteraction;
++ (void)_imageLoadingProperties;
++ (id)_friction;
 + (id)igation bar with no stack entries;
 + (id)UØ¯a;
 + (long long);
@@ -60,16 +40,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_kCFStreamErrorDomainMach;
 - (void);
-- (id);
-- (id);
-- (_Bool);
+- (id)snapshotWithElapsedTime:(id)arg1 duration:(id)arg2 rate:(_Bool)arg3 atTimestamp:state: /* Error: Ran out of types for this method. */;
+- (id)loadArtworkInfoForPurchaseHistoryID:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)scriptionStatusObject:%@> /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)i;
 - (id)Â0@ù
 × ;
 - (id)ð!´EùqZð1Â0@ù
@@ -88,12 +68,12 @@
 - (id);
 - (id)setMaximumRelativeValue:(id)arg1;
 - (id)encodeInt32:(id)arg1 forKey:(id)arg2;
-- (void)uches;
-- (id)icNavBarButtonItem:(id)arg1 trailingPosition:(_Bool)arg2;
-- (id)etHeading:(id)arg1;
+- (void)_shouldInterdictServiceViewTouches;
+- (id)_setStaticNavBarButtonItem:(id)arg1 trailingPosition:(_Bool)arg2;
+- (id)_setHeading:(id)arg1;
 - (id);
 - (_Bool)_UIScrollPocketContainerInteraction",R,N,V_bottomBarViewPocketContainerInteraction;
-- (id)rProxy;
+- (id)_responderProxy;
 - (id);
 - (id)input destination protocol for %@, remote:%@, exported:%@ /* Error: Ran out of types for this method. */;
 - (id);
@@ -107,13 +87,7 @@
 - (void)à¡ÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSBundle *bundle; // @synthesize bundle=_bundle;
-@property(readonly, nonatomic) NSString *carFileName;
-@property(readonly, nonatomic, getter=_managingCoreGlyphs) _Bool managingCoreGlyphs;
-@property(readonly, nonatomic, getter=_managingUIKitAssets) _Bool managingUIKitAssets;
 @property(nonatomic) double preferredScale; // @synthesize preferredScale=_preferredScale;
-@property(retain, nonatomic) UITraitCollection *preferredTraitCollection; // @synthesize preferredTraitCollection=_preferredTraitCollection;
-@property(readonly, nonatomic) CUIMutableCatalog *runtimeCatalog;
 
 @end
 

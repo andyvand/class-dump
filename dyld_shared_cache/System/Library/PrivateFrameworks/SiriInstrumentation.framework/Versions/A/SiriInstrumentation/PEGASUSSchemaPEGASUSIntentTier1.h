@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PEGASUSSchemaPEGASUSIntentTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSArray *_intentArgs;
-    _Bool _hasLinkId;
 }
 
 - (void);
@@ -23,27 +21,24 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
+- (void)ButtonTitle:(id)arg1 alternateButtonTitle:icon:iconLabel:] /* Error: Ran out of types for this method. */;
+- (void)s/#customdomain;
+- (id)8;
+- (_Bool)lowControllerDelegate signOutFlowController:showAlertWithTitle:message:completion:] /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)HC;
+- (void)i;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)be the same. Prepare for lots of debugging pain. ;
 - (id);
 - (id)!EùÑÝ°1Â0@ù
 × ;
-- (id)ssedBufferDetected;
+- (id)_hasAssistantDaemonAudioRecordingMissedBufferDetected;
 - (id)SchemaUEISiriCarCommandStarted",&,N,V_startedOrChanged;
 - (void)t.deviceFixedContext.siriDeviceID;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(copy, nonatomic) NSArray *intentArgs; // @synthesize intentArgs=_intentArgs;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
 
 @end

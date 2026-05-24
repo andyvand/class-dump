@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccountStore, AOSUIProfilePictureStore, CNAvatarImageRenderer, CNContact, CNContactStore, NSCache, NSMutableDictionary, _ASAccountSharingGroupMemberData;
+@class ACAccountStore, _ASAccountSharingGroupMemberData;
 
 @interface _ASAccountSharingGroupMemberDataManager
 {
     ACAccountStore *_accountStore;
-    CNAvatarImageRenderer *_avatarImageRenderer;
-    CNContactStore *_contactStore;
-    NSMutableDictionary *_avatarImageDiameterToRenderingScopes;
-    AOSUIProfilePictureStore *_profilePictureStore;
-    CNContact *_contactForCurrentUser;
-    NSCache *_contactsCache;
 }
 
 + (id);
@@ -28,7 +22,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -36,13 +30,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)textView:shouldChangeTypingAttributes:toAttributes: /* Error: Ran out of types for this method. */;
+- (void);
 - (double)m â%@â?;
 - (id)bþ5°¾ùÿbþ5Uóÿbþ5iýÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
 @property(readonly, nonatomic) _ASAccountSharingGroupMemberData *groupMemberDataForPrimaryAccount;
 
 @end

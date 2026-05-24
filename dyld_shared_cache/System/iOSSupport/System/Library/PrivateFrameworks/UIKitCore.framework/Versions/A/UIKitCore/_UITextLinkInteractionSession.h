@@ -19,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (_Bool);
-- (void)ctingC0t;
+- (void)So6UIMenuC12existingMenu_AB011conflictingC0t;
 
 @end
 

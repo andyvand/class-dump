@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOWaypointUUID
 {
     PBUnknownFields *_unknownFields;
-    unsigned long long _high;
-    unsigned long long _low;
-    CDStruct_583788c5 _flags;
 }
 
 - (id);
@@ -22,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id)!¨Eùñ¹*°1Â0@ù
 × ;
-- (id)LocationUsed;
+- (id)isCoarseLocationUsed;
 - (id)mapsCategoryMUID;
 - (void);
 

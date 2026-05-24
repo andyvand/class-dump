@@ -9,11 +9,9 @@
 @interface AVCMediaStreamConfigRemoteDeviceInfo
 {
     NSString *_deviceName;
-    NSString *_deviceUID;
-    NSString *_modelUID;
 }
 
-- (void);
+- (void)@;
 - (id);
 - (id)attachment;
 - (id)rmat: /* Error: Ran out of types for this method. */;
@@ -24,8 +22,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(copy, nonatomic) NSString *deviceUID; // @synthesize deviceUID=_deviceUID;
-@property(copy, nonatomic) NSString *modelUID; // @synthesize modelUID=_modelUID;
 
 @end
 

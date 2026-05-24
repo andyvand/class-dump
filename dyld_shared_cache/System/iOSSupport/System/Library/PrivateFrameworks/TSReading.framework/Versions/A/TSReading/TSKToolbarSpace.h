@@ -9,14 +9,13 @@
     double _width;
 }
 
-+ (id);
++ (id)KR;
 - (void);
 - (_Bool);
 - (double);
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isEnabled) _Bool enabled;
 @property(nonatomic) double width; // @synthesize width=_width;
 
 @end

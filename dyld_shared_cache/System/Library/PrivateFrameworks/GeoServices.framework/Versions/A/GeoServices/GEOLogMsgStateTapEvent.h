@@ -9,27 +9,22 @@
 @interface GEOLogMsgStateTapEvent
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_searchResults;
-    int _pinType;
-    struct {
-        unsigned int has_pinType:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)nditioning:(id)arg1;
++ (Class);
++ (_Bool)setHasSupportsEvRoutingPreconditioning:(id)arg1;
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (void);
-- (int);
+- (void)setMinimumSignificantDigits:(id)arg1;
+- (int)verDelegate>",R,W,V_delegate;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (id);
@@ -37,21 +32,19 @@
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id)R
+;
+- (void)Xw;
 - (id)ntRawAddress:(struct _NSZone *)arg1 merchantCountryCode:merchantType:merchantCleanConfidenceLevel:merchantAdditionalData:merchantCanl:fuzzyMatched:coarseLocationUsed:traits: /* Error: Ran out of types for this method. */;
-- (void):(id)arg1;
-- (id)avigationFriendliness: /* Error: Ran out of types for this method. */;
+- (void)setLowInternetDL:(id)arg1;
+- (id)StringAsNavigationFriendliness: /* Error: Ran out of types for this method. */;
 - (id)Unarchive] Failed to read bytes for archive entry;
 - (id)@;
 - (void)¦63;
 - (int);
 
 // Remaining properties
-@property(nonatomic) _Bool hasPinType;
-@property(nonatomic) int pinType;
 @property(retain, nonatomic) NSMutableArray *searchResults;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

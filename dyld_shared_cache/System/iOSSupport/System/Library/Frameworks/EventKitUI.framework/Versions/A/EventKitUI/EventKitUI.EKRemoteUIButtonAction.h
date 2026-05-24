@@ -10,9 +10,9 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)s;
 - (id);
-- (void)PathForPreferredFocusedViewInTableView: /* Error: Ran out of types for this method. */;
+- (void)indexPathForPreferredFocusedViewInTableView: /* Error: Ran out of types for this method. */;
 
 @end
 

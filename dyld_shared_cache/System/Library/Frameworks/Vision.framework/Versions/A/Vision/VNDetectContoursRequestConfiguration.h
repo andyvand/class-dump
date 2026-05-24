@@ -6,23 +6,16 @@
 
 #import <Vision/VNImageBasedRequestConfiguration.h>
 
-@class NSNumber;
-
 __attribute__((visibility("hidden")))
 @interface VNDetectContoursRequestConfiguration : VNImageBasedRequestConfiguration
 {
     _Bool _detectsDarkOnLight;
-    _Bool _inHierarchy;
-    _Bool _forceUseInputCVPixelBufferDirectly;
-    float _contrastAdjustment;
-    NSNumber *_contrastPivot;
-    unsigned long long _maximumImageDimension;
 }
 
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -37,11 +30,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) float contrastAdjustment; // @synthesize contrastAdjustment=_contrastAdjustment;
-@property(retain, nonatomic) NSNumber *contrastPivot; // @synthesize contrastPivot=_contrastPivot;
-@property(nonatomic) _Bool detectsDarkOnLight; // @synthesize detectsDarkOnLight=_detectsDarkOnLight;
-@property(nonatomic) _Bool forceUseInputCVPixelBufferDirectly; // @synthesize forceUseInputCVPixelBufferDirectly=_forceUseInputCVPixelBufferDirectly;
-@property(nonatomic) _Bool inHierarchy; // @synthesize inHierarchy=_inHierarchy;
-@property(nonatomic) unsigned long long maximumImageDimension; // @synthesize maximumImageDimension=_maximumImageDimension;
 
 @end
 

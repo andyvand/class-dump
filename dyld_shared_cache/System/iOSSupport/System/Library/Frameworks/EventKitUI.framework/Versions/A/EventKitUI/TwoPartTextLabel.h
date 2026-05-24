@@ -9,24 +9,20 @@
 @interface TwoPartTextLabel
 {
     NSString *_secondTextPart;
-    struct CGSize _part2Size;
-    double _minPart2Width;
-    _Bool _strikethroughPart1;
-    _Bool _strikethroughPart2;
 }
 
-- (struct CGSize);
+- (struct CGSize);
+- (_Bool)Y%s;
 - (_Bool);
-- (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (double);
-- (_Bool);
+- (double).%s;
+- (_Bool)Y%s;
 - (struct CGSize);
-- (struct CGSize);
+- (struct CGSize);
 - (void);
 - (id);
 - (id);
@@ -34,7 +30,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool strikethroughPart1; // @synthesize strikethroughPart1=_strikethroughPart1;
-@property(nonatomic) _Bool strikethroughPart2; // @synthesize strikethroughPart2=_strikethroughPart2;
 
 @end
 

@@ -7,11 +7,10 @@
 @class NSData, NSString;
 
 @protocol _SFPBOpenCalculationCommand
+- (NSString *)upportsVoicemail=%d;
+- (NSData *)ion;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *input;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *output;
-@property(nonatomic) _Bool shouldOpenCurrencyConversionProvider;
 @end
 

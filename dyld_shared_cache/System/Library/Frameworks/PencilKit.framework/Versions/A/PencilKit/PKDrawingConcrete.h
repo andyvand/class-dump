@@ -6,19 +6,11 @@
 
 #import <PencilKit/PKDrawing.h>
 
-@class NSMutableArray, NSMutableDictionary, NSUUID, PKVectorTimestamp;
+@class NSUUID;
 
 @interface PKDrawingConcrete : PKDrawing
 {
     NSUUID *_uuid;
-    NSMutableDictionary *_strokesIdentifierMap;
-    NSMutableArray *_allStrokes;
-    struct CGRect __canvasBounds;
-    struct CGRect __bounds;
-    NSUUID *_replicaUUID;
-    PKVectorTimestamp *_version;
-    shared_ptr_ad015234 _unknownFields;
-    struct _PKStrokeID _boundsVersion;
 }
 
 + (struct CGAffineTransform);
@@ -34,13 +26,13 @@
 - (id);
 - (id);
 - (id);
+- (id)T;
+- (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)x;
 - (Class);
-- (Class);
-- (void);
+- (Class);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -50,7 +42,7 @@
 - (id);
 - (id);
 - (unsigned int);
-- (long long);
+- (long long);
 - (void);
 - (struct _PKStrokeID);
 - (id);
@@ -89,7 +81,7 @@
 - (void);
 - (id);
 - (id);
-- (CDStruct_5f3a0cd7);
+- (CDStruct_33dcf794);
 - (id);
 - (double);
 - (void);
@@ -98,7 +90,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)olicy:finalizing local policies for local and remote nonces update /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -107,7 +99,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)_buttonItemsAreBottom;
 - (struct CGRect);
 - (_Bool);
 - (id);
@@ -115,19 +107,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)8;
 - (long long);
 - (void);
 - (id)ounds;
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setAllStrokes:) NSMutableArray *_allStrokes;
-@property(readonly, nonatomic) _Bool _hasReplicaUUID;
-@property(readonly, nonatomic) shared_ptr_ad015234 _unknownFields; // @synthesize _unknownFields;
 @property(nonatomic) struct _PKStrokeID boundsVersion; // @synthesize boundsVersion=_boundsVersion;
-@property(readonly, nonatomic) NSUUID *nsuuid;
-@property(readonly, nonatomic) NSUUID *replicaUUID; // @synthesize replicaUUID=_replicaUUID;
-@property(retain, nonatomic) PKVectorTimestamp *version; // @synthesize version=_version;
 
 @end
 

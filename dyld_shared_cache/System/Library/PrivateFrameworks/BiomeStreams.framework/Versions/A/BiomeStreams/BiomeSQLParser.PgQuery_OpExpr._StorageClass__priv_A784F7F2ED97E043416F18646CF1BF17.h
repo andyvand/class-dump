@@ -7,14 +7,6 @@
 @interface BiomeSQLParser.PgQuery_OpExpr._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _xpr;
-    id _opno;
-    id _opfuncid;
-    id _opresulttype;
-    id _opretset;
-    id _opcollid;
-    id _inputcollid;
-    id _args;
-    id _location;
 }
 
 @end

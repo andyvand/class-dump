@@ -11,14 +11,13 @@
 @interface AAUpdateNameRequest : AAAppleIDSettingsRequest
 {
     NSString *_newFirstName;
-    NSString *_newLastName;
 }
 
 + (Class);
+- (id)PayloadIdentifier;
 - (id);
-- (id);
-- (void);
-- (id)edClass;
+- (void)setShouldShowAccountContacts: /* Error: Ran out of types for this method. */;
+- (id)deviceQualifiedClass;
 
 @end
 

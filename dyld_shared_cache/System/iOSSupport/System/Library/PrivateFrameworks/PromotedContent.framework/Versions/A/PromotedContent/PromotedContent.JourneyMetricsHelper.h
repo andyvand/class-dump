@@ -7,56 +7,16 @@
 @interface PromotedContent.JourneyMetricsHelper
 {
     id promotedContent;
-    id adIdentifier;
-    id journeyIdentifier;
-    id primitiveCreator;
-    id contextIdentifier;
-    id hasBeenOnScreen;
-    id isCurrentlyOnScreen;
-    id wasCollapsedOnScreen;
-    id didUnload;
-    id didImpress;
-    id impressionStartDate;
-    id impressionDuration;
-    id isClickImpression;
-    id internalImpressionStartDate;
-    id internalAccumulatedImpressionDuration;
-    id diagnostics;
-    id orderVendor;
-    id impressionThresholdDuration;
-    id unloadManager;
-    id originalContentIdentifier;
-    id newsSupplementalContext;
-    id serverUnfilledReason;
-    id notificationOwner;
-    id clientSource;
-    id interactionThreshold;
-    id interactionThresholdVOEnabled;
-    id interactionTime;
-    id viewReady;
-    id wasCreated;
-    id hasBeenPlaced;
-    id stop;
-    id unfilledReasons;
-    id placedProperties;
-    id eventCount;
-    id $__lazy_storage_$_shownSet;
-    id $__lazy_storage_$_partiallyShownSet;
-    id leftAdDestinationWasReported;
-    id adServerEnvironment;
-    id percentVisible;
-    id unloadReason;
-    id onPromotedContentComplete;
 }
 
-- (void);
+- (void)FloatingTabGroup;
 - (void);
 - (void);
 - (void);
 - (id);
+- (void)AudioFeedMastheadModelProvider;
 - (void);
-- (void);
-- (id);
+- (id)D;
 - (void);
 
 @end

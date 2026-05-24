@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSpeechSynthesizer, NSString, NSURL;
+@class NSSpeechSynthesizer;
 
 __attribute__((visibility("hidden")))
 @interface SiriUISynthesizeSoundFileOperation
 {
     _Bool _executing;
-    _Bool _finished;
-    _Bool _speakingCompletedNormally;
-    NSSpeechSynthesizer *_synthesizer;
-    NSString *_string;
-    NSURL *_url;
 }
 
 - (_Bool);
@@ -30,17 +25,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool speakingCompletedNormally; // @synthesize speakingCompletedNormally=_speakingCompletedNormally;
-@property(readonly, copy) NSString *string; // @synthesize string=_string;
-@property(readonly) Class superclass;
 @property(readonly) NSSpeechSynthesizer *synthesizer; // @synthesize synthesizer=_synthesizer;
-@property(readonly, copy) NSURL *url; // @synthesize url=_url;
 
 @end
 

@@ -4,53 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet, NSString, NSUserActivity, UIActivityContinuationManager, UIScene;
+@class UIActivityContinuationManager, UIScene;
 
 __attribute__((visibility("hidden")))
 @interface _UISceneUserActivityManager
 {
     UIScene *_weakScene;
-    NSUserActivity *_restorationActivity;
-    NSDictionary *_connectionOptionsRestorationActivityDictionary;
-    UIActivityContinuationManager *_activityContinuationManager;
-    NSSet *_activityTypesForDefaultProgressUI;
-    _Bool _initialRestorationIsFinished;
-    _Bool _isDisplayingActivityContinuationUI;
 }
 
 + (id);
 + (void);
 + (void);
++ (void)#;
++ (_Bool)&';
 + (void);
 + (_Bool);
-+ (void);
-+ (_Bool);
 + (id);
 + (void);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (void);
++ (void).;
 + (void);
 + (id);
-- (id);
+- (id)initWithOutgoingMessage:(id)arg1 transportType:serviceType:recipients:sendingHandle: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithObjectsAndKeys:(id)arg1;
+- (void)D:(id)arg1 failed:(CDUnknownBlockType)arg2 fromMe: /* Error: Ran out of types for this method. */;
+- (void)initWithName:(id)arg1 sender:(id)arg2 service:groupID:originalGroupID:guid:destinationCallerID:failed:fromMe: /* Error: Ran out of types for this method. */;
+- (void)initWithMessageStore:(id)arg1 storageController:(id)arg2;
+- (_Bool)initWithMessageStore:(id)arg1 filteringContext:(id)arg2;
+- (void)initWithMessageStore:(id)arg1 chatRegistry:(id)arg2 recents:IDSService:storageController:messageContext: /* Error: Ran out of types for this method. */;
+- (void)",&,N,V_guidToListenersCache;
+- (void);
+- (void),;
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)l sync device conditions check if CloudKit sync is enabled:%d /* Error: Ran out of types for this method. */;
+- (id)%@ for message GUID %@;
+- (void)r %@;
+- (_Bool)romID:(id)arg1 %@, ;
+- (void)<;
 - (void)Index:(id)arg1 voiceCommandDisambiguationTargetCount:(long long)arg2;
 - (id)ÿJÏþ;
 - (void);
@@ -60,16 +54,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_activityContinuationManager) UIActivityContinuationManager *_activityContinuationManager;
-@property(readonly, nonatomic) _Bool _initialRestorationIsFinished; // @synthesize _initialRestorationIsFinished;
-@property(nonatomic, getter=_scene, setter=_setScene:) __weak UIScene *_scene;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=_isDisplayingActivityContinuationUI, setter=_setIsDisplayingActivityContinuationUI:) _Bool isDisplayingActivityContinuationUI; // @synthesize isDisplayingActivityContinuationUI=_isDisplayingActivityContinuationUI;
-@property(readonly) Class superclass;
 
 @end
 

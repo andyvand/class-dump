@@ -6,29 +6,26 @@
 
 #import <ChatKit/CKDetailsCell.h>
 
-@class UILabel, UIView;
+@class UILabel;
 
 @interface CKEnableEnhancedProtectionCell : CKDetailsCell
 {
     _Bool _shouldShowMacHeader;
-    UILabel *_ktTitleLabel;
-    UILabel *_macHeaderLabel;
-    UIView *_separatorView;
 }
 
 + (_Bool);
 + (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (_Bool)setUserChangedWritingDirection: /* Error: Ran out of types for this method. */;
+- (void)ContentText;
+- (void)ic_isTabPressed;
+- (void)ICAccountPassphraseManager;
 - (void);
 - (id);
+- (id)c;
 - (void);
+- (id);
 - (void);
+- (void)`;
 - (void);
 - (id);
 - (struct CGSize);
@@ -37,9 +34,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) UILabel *ktTitleLabel; // @synthesize ktTitleLabel=_ktTitleLabel;
-@property(retain, nonatomic) UILabel *macHeaderLabel; // @synthesize macHeaderLabel=_macHeaderLabel;
-@property(retain, nonatomic) UIView *separatorView; // @synthesize separatorView=_separatorView;
-@property(readonly, nonatomic) _Bool shouldShowMacHeader; // @synthesize shouldShowMacHeader=_shouldShowMacHeader;
 
 @end
 

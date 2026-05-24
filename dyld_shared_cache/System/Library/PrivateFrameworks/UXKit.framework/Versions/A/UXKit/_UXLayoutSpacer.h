@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutConstraint, NSLayoutDimension, NSLayoutYAxisAnchor, NSString;
+@class NSLayoutConstraint;
 
 @interface _UXLayoutSpacer
 {
     NSLayoutConstraint *_counterDimensionConstraint;
-    NSLayoutConstraint *_dimensionConstraint;
-    _Bool _horizontal;
-    CDUnknownBlockType _lengthUpdateBlock;
 }
 
 + (id);
@@ -29,19 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSLayoutYAxisAnchor *bottomAnchor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSLayoutDimension *heightAnchor;
-@property(nonatomic) _Bool horizontal; // @synthesize horizontal=_horizontal;
 @property(nonatomic) double length;
-@property(copy, nonatomic) CDUnknownBlockType lengthUpdateBlock; // @synthesize lengthUpdateBlock=_lengthUpdateBlock;
-@property(readonly) Class superclass;
-@property(readonly) NSLayoutYAxisAnchor *topAnchor;
 
 @end
 

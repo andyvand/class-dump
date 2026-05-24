@@ -5,10 +5,10 @@
 //
 
 @protocol NSValidatedUserInterfaceItem
+- (long long);
 - (SEL)À;
 
 // Remaining properties
 @property(readonly) SEL action;
-@property(readonly) long long tag;
 @end
 

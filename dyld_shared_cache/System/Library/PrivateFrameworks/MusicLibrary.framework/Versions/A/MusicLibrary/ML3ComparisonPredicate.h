@@ -6,48 +6,38 @@
 
 #import <MusicLibrary/ML3PropertyPredicate.h>
 
-@class NSString;
-
 @interface ML3ComparisonPredicate : ML3PropertyPredicate
 {
     _Bool _caseInsensitive;
-    int _comparison;
-    id _value;
-    NSString *_treatNullAsString;
-    NSString *_transformFunction;
 }
 
 + (id);
 + (id);
++ (id)PV;
++ (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
 + (_Bool);
-+ (id)D_VIDEO_KIND;
-- (id);
++ (id)PROTECTED_VIDEO_KIND;
+- (id)X;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)__objc_dictobj;
 - (id);
 - (_Bool);
 - (void);
 - (int);
+- (id)initWithAccount:freeSetting:paidSetting:delegate:bag: /* Error: Ran out of types for this method. */;
 - (id);
+- (id)3;
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (void)pe:(id)arg1 canonicalizeCollections:(Class)arg2 persistentIDs:count: /* Error: Ran out of types for this method. */;
+- (_Bool)updateSchema;
+- (void)deleteFromLibrary:(id)arg1 deletionType:(Class)arg2 canonicalizeCollections:persistentIDs:count: /* Error: Ran out of types for this method. */;
 - (void)AND entity_pid;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool caseInsensitive; // @synthesize caseInsensitive=_caseInsensitive;
-@property(readonly, nonatomic) int comparison; // @synthesize comparison=_comparison;
-@property(readonly, copy, nonatomic) NSString *transformFunction; // @synthesize transformFunction=_transformFunction;
-@property(readonly, copy, nonatomic) NSString *treatNullAsString; // @synthesize treatNullAsString=_treatNullAsString;
 @property(readonly, nonatomic) id value; // @synthesize value=_value;
 
 @end

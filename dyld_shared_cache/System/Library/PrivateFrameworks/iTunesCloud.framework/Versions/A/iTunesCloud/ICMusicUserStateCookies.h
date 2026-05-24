@@ -9,15 +9,23 @@
 @interface ICMusicUserStateCookies
 {
     _Bool _frozen;
-    NSString *_xpab;
-    NSString *_itfe;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (void);
-- (void);
-- (_Bool);
+- (void)QCPatchClassDescription;
+- (_Bool)y + 2.0)) * 0.7788;		
+	accum +=	texture2DRect(textureSampler0, vec2(TexCoord.x ,TexCoord.y + 3.0)) * 0.5697;		
+	accum +=	texture2DRect(textureSampler0, vec2(TexCoord.x ,TexCoord.y + 4.0)) * 0.3678;	
+		
+	accum +=	texture2DRect(textureSampler0, vec2(TexCoord.x ,TexCoord.y + 5.0)) * 0.20965;		
+	accum +=	texture2DRect(textureSampler0, vec2(TexCoord.x ,TexCoord.y + 6.0)) * 0.1053;		
+	accum +=	texture2DRect(textureSampler0, vec2(TexCoord.x ,TexCoord.y + 7.0)) * 0.0467;		
+	accum +=	texture2DRect(textureSampler0, vec2(TexCoord.x ,TexCoord.y + 8.0)) * 0.0183;		
+
+	gl_FragColor =	accum / 7.0712;
+};
 - (void);
 - (void);
 - (id);
@@ -27,15 +35,6 @@
 - (void)eLinkPlaybackCoordinatorMedium",&,N,V_playbackCoordinatorMedium;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isFrozen) _Bool frozen; // @synthesize frozen=_frozen;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *itfe; // @synthesize itfe=_itfe;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *xpab; // @synthesize xpab=_xpab;
 
 @end

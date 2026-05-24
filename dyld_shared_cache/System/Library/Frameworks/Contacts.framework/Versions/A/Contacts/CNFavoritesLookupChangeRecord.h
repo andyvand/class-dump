@@ -9,31 +9,23 @@
 @interface CNFavoritesLookupChangeRecord
 {
     NSString *_name;
-    NSString *_value;
-    NSString *_label;
-    NSString *_contactIdentifier;
-    NSString *_labeledValueIdentifier;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)`;
+- (id);
 - (id);
+- (void)signalEnumeratorForMaterializedItemsWithCompletionHandler:(id)arg1;
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)I}Si)	Yix;
 - (void);
 - (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(retain) NSString *label; // @synthesize label=_label;
-@property(retain) NSString *labeledValueIdentifier; // @synthesize labeledValueIdentifier=_labeledValueIdentifier;
 @property(retain) NSString *name; // @synthesize name=_name;
-@property(retain) NSString *value; // @synthesize value=_value;
 
 @end
 

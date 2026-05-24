@@ -7,13 +7,9 @@
 @interface UIKit.ToolbarKeyboardAssistant
 {
     id base;
-    id alwaysAvoidsKeyboard;
-    id toolbarModel;
-    id view;
-    id observationEnabled;
 }
 
-- (void);
+- (void)hat participants before converge %@;
 - (void);
 - (void);
 - (id);

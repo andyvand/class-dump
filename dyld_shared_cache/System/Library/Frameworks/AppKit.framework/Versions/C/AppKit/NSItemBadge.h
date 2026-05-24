@@ -4,33 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSString;
+@class NSString;
 
 @interface NSItemBadge
 {
     unsigned long long _count;
-    NSColor *_badgeBackgroundColor;
-    NSColor *_badgeForegroundColor;
-    NSString *_text;
-    NSColor *_backgroundColor;
-    NSColor *_foregroundColor;
 }
 
++ (id);
++ (id)CFURLCredential;
 + (id);
-+ (id);
-+ (id);
-- (void);
-- (void);
+- (void)n unknown value;
+- (void)h %s;
 - (id);
+- (id)PWXX;
 - (id);
-- (id);
-- (void);
+- (void)ents=%@,;
 - (id);
 - (id);
 - (_Bool);
 - (void)0@ù
 × ;
-- (id)lGestureMask;
+- (id)_originalGestureMask;
 - (id)accessibilitySplittersAttribute;
 - (void);
 - (id)$P;
@@ -40,10 +35,7 @@
 - (id)G;
 
 // Remaining properties
-@property(retain, nonatomic) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain, nonatomic) NSColor *foregroundColor; // @synthesize foregroundColor=_foregroundColor;
 @property(readonly, copy) NSString *stringValue;
-@property(readonly, copy) NSString *text; // @synthesize text=_text;
 
 @end
 

@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage;
+@class NSDictionary, NSImage;
 
 @protocol NSPopUpButtonVisualProvider
+- (NSDictionary *)eIterateTrustObjectTrustedBegin failed;
+- (struct CGPoint)o dictionary (%@);
 
 // Remaining properties
 @property(readonly, copy) NSImage *indicatorImage;

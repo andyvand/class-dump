@@ -8,10 +8,9 @@
 {
 }
 
-+ (id);
++ (id)SignpostStatisticsAggregation;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRetryCount; // @dynamic hasRetryCount;
 @property(nonatomic) int retryCount; // @dynamic retryCount;
 
 @end

@@ -7,10 +7,6 @@
 @interface CUIKTextProviderUtils
 {
     _Bool _designatorRequiresWhitespace;
-    _Bool _dropLeftRedundantDesignator;
-    _Bool _keepRedundantDesignator;
-    _Bool _keepZeroMinutes;
-    _Bool _smallCapsAllowed;
 }
 
 + (id);
@@ -24,17 +20,13 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)ibbleIBeamActive;
 
 // Remaining properties
 @property(nonatomic) _Bool designatorRequiresWhitespace; // @synthesize designatorRequiresWhitespace=_designatorRequiresWhitespace;
-@property(nonatomic) _Bool dropLeftRedundantDesignator; // @synthesize dropLeftRedundantDesignator=_dropLeftRedundantDesignator;
-@property(nonatomic) _Bool keepRedundantDesignator; // @synthesize keepRedundantDesignator=_keepRedundantDesignator;
-@property(nonatomic) _Bool keepZeroMinutes; // @synthesize keepZeroMinutes=_keepZeroMinutes;
-@property(nonatomic) _Bool smallCapsAllowed; // @synthesize smallCapsAllowed=_smallCapsAllowed;
 
 @end
 

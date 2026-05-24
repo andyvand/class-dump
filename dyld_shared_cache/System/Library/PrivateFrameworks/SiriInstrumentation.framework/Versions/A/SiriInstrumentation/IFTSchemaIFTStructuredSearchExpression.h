@@ -6,30 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTTypeInstance, NSArray, NSData;
-
 @interface IFTSchemaIFTStructuredSearchExpression : SISchemaInstrumentationMessage
 {
     _Bool _isExpanded;
-    NSArray *_properties;
-    IFTSchemaIFTTypeInstance *_returnType;
-    NSArray *_parameters;
-    struct {
-        unsigned int isExpanded:1;
-    } _has;
-    _Bool _hasReturnType;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)AOSUIPrivateEmailService;
 - (void);
 - (void);
 - (unsigned long long);
@@ -49,22 +40,16 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)@;
 - (id)1àð1Â0@ù
 × ;
 - (id);
 - (id)PNLv4SampleEvaluationContext",&,N,V_nlv4SampleEvaluationContext;
-- (id)iriSchemaEXPSiriPegasusResponseSummary;
+- (id)EXPSiriSchemaEXPSiriPegasusResponseSummary;
 - (void)Ä#;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsExpanded;
-@property(nonatomic) _Bool hasReturnType; // @synthesize hasReturnType=_hasReturnType;
 @property(nonatomic) _Bool isExpanded; // @synthesize isExpanded=_isExpanded;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *parameters; // @synthesize parameters=_parameters;
-@property(copy, nonatomic) NSArray *properties; // @synthesize properties=_properties;
-@property(retain, nonatomic) IFTSchemaIFTTypeInstance *returnType; // @synthesize returnType=_returnType;
 
 @end
 

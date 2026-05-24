@@ -8,11 +8,11 @@
 {
 }
 
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ts.payload.outcome.success.returnValue.value.primitive.app.bundleId;
+- (id)nseGenerationRequest.statementResults.payload.outcome.success.returnValue.value.primitive.app.bundleId;
+- (id)Identifier.custom.bundleId;
+- (id).value.collection.values.query.typeIdentifier.custom.bundleId;
+- (id)y.typeIdentifier.custom.bundleId;
 
 @end
 

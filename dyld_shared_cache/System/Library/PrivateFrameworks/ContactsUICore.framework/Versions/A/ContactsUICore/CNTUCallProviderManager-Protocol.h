@@ -10,7 +10,5 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *defaultCallingAppsBundleIdentifierScorer;
-@property(readonly, copy, nonatomic) NSDictionary *defaultVideoAppsBundleIdentifierScorer;
-@property(readonly, nonatomic) _Bool hasDefaultCallProvider;
 @end
 

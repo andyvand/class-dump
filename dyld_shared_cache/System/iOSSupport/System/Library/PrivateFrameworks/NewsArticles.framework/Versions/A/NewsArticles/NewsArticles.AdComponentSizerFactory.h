@@ -9,20 +9,15 @@
 @interface NewsArticles.AdComponentSizerFactory
 {
     void type;
-    int role;
-    id layoutStore;
-    id bannerAdLayoutAttributesFactory;
-    id bannerAdFactory;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (int);
-- (void);
+- (void)delegate;
 
 // Remaining properties
-@property(nonatomic, readonly) int role; // @synthesize role;
 @property(nonatomic, readonly) NSString *type;
 
 @end

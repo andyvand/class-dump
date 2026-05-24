@@ -9,12 +9,9 @@
 @interface NEIKEv2AddressList
 {
     NSMutableArray *_ipv6AddressList;
-    NSMutableArray *_ipv4AddressList;
-    unsigned long long _ipv6AddressIndex;
-    unsigned long long _ipv4AddressIndex;
 }
 
-- (void)tNatTraversalSrcPort: /* Error: Ran out of types for this method. */;
+- (void)setNatTraversalSrcPort: /* Error: Ran out of types for this method. */;
 
 @end
 

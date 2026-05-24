@@ -6,23 +6,17 @@
 
 #import <MusicLibrary/ML3QueryResultSet.h>
 
-@class ML3QueryResultSet_BackingStore;
-
 __attribute__((visibility("hidden")))
 @interface ML3ContainerQueryResultSet : ML3QueryResultSet
 {
     _Bool _needsSorting;
-    _Bool _needsReversing;
-    ML3QueryResultSet_BackingStore *_sortedBackingStore;
-    long long _containerPID;
-    unsigned long long _entityLimit;
 }
 
-- (id);
-- (void);
-- (_Bool);
-- (long long);
-- (unsigned long long);
+- (id)_abortFromMocExecFail_NSMOC_SQLITE_EMPTY_16_withCode: /* Error: Ran out of types for this method. */;
+- (void)_mergeTimestamp;
+- (_Bool),V_delegate;
+- (long long)o delete %{public}@ for bundleID %{public}@;
+- (unsigned long long)ownload for identifier:%{public}@, primary url:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);

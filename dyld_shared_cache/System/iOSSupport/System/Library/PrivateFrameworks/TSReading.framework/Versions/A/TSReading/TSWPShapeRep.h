@@ -6,40 +6,37 @@
 
 #import <TSReading/TSDShapeRep.h>
 
-@class CALayer, NSObject, NSString, TSWPRep;
-@protocol TSDContainerInfo;
+@class TSWPRep;
 
 @interface TSWPShapeRep : TSDShapeRep
 {
     _Bool _editingContainedRep;
-    CALayer *_overflowGlyphLayer;
-    TSWPRep *_containedRep;
 }
 
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (id);
+- (void)nt item.;
+- (void)playbackSessionArchive;
+- (_Bool)= <%@>, SenderPID = <%i>;
+- (_Bool)DelayMusicServerConnection;
+- (void)es not support RW;
+- (_Bool)collection] index=%ld/%ld changeDetails=%@;
+- (_Bool)owPlayingContentItem"8Q16^B24;
+- (_Bool)m.m;
+- (void)keyServerURL;
+- (_Bool)nd:%@ /* Error: Ran out of types for this method. */;
+- (void)or ;
+- (id)vior;
 - (double);
+- (id)PlayerController;
+- (_Bool)nsertion;
+- (_Bool)AVStackResettable;
 - (id);
-- (_Bool);
-- (_Bool);
 - (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
 - (int);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool)MPCPlaybackEngineEventItemAssetLoadInfoKey;
 - (id);
 - (void);
 - (_Bool);
@@ -57,14 +54,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) TSWPRep *containedRep; // @synthesize containedRep=_containedRep;
-@property(readonly, nonatomic) NSObject<TSDContainerInfo> *containerInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

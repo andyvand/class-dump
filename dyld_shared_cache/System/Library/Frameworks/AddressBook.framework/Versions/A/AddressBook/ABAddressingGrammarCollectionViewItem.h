@@ -11,7 +11,6 @@
 @interface ABAddressingGrammarCollectionViewItem : ABCollectionViewItem
 {
     IPPronounPickerButtonController *_pronounPickerController;
-    ABCollectionRowViewFactory *_rowViewFactory;
 }
 
 - (void);
@@ -23,14 +22,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)=;
 - (id);
 - (void);
 - (void)á@ð!¤GùQª1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) IPPronounPickerButtonController *pronounPickerController; // @synthesize pronounPickerController=_pronounPickerController;
 @property(retain, nonatomic) ABCollectionRowViewFactory *rowViewFactory; // @synthesize rowViewFactory=_rowViewFactory;
 
 @end

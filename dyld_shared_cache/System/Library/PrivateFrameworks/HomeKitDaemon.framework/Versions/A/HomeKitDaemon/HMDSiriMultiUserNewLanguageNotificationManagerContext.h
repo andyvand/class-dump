@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDUser, NSArray, NSObject, NSString;
-@protocol HMDSiriMultiUserNewLanguageNotificationManagerContextDelegate, OS_dispatch_queue;
+@protocol HMDSiriMultiUserNewLanguageNotificationManagerContextDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HMDSiriMultiUserNewLanguageNotificationManagerContext
 {
     _Bool _cachedHasCurrentUserSeenNotification;
-    id <HMDSiriMultiUserNewLanguageNotificationManagerContextDelegate> _delegate;
-    HMDUser *_user;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
-+ (id);
++ (id)?0@"NSString"8@"NSString"16;
 + (id)¯KÿZFB;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)hk;
 - (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool)2@40Q48;
+- (id)stripArrivedOrClosedTrip;
+- (_Bool)Participant no sender for %{public}@;
+- (void)exit:(id)arg1 no composed route;
 - (id);
 - (_Bool);
 - (id);
@@ -39,21 +35,7 @@ __attribute__((visibility("hidden")))
 - (id)Future"16@?0q8;
 
 // Remaining properties
-@property(readonly, getter=isRMVEnabledForCurrentUser) _Bool RMVEnabledForCurrentUser;
-@property _Bool cachedHasCurrentUserSeenNotification; // @synthesize cachedHasCurrentUserSeenNotification=_cachedHasCurrentUserSeenNotification;
-@property(readonly) NSString *currentDeviceSiriLanguage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property __weak id <HMDSiriMultiUserNewLanguageNotificationManagerContextDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool hasCurrentUserSeenNotification;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSArray *mediaAccessories;
-@property(readonly) Class superclass;
-@property(readonly) __weak HMDUser *user; // @synthesize user=_user;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

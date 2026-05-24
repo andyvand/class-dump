@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface JRSchemaRiskTuple : SISchemaInstrumentationMessage
 {
@@ -17,7 +17,7 @@
 - (unsigned long long);
 - (unsigned int);
 - (id);
-- (void);
+- (void)yIA	*;
 - (void);
 - (void);
 - (id);
@@ -29,11 +29,10 @@
 - (id)!lEù±ßÐ1Â0@ù
 × ;
 - (id)antDimensions",&,N,V_assistantDimensions;
-- (id)STGlobalSearchRequestStarted;
+- (id)STSchemaSTGlobalSearchRequestStarted;
 - (void)Ô>X";
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *risks; // @synthesize risks=_risks;
 
 @end

@@ -5,6 +5,7 @@
 //
 
 @interface UnknownClass (CUNSXPC)
-- (id);
+- (id)
+;
 @end
 

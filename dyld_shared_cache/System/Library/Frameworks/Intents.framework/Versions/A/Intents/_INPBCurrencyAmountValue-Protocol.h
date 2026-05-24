@@ -7,16 +7,12 @@
 @class NSString, _INPBDecimalNumberValue, _INPBValueMetadata;
 
 @protocol _INPBCurrencyAmountValue
-- (_Bool)asUserConfirmationRequired: /* Error: Ran out of types for this method. */;
+- (void)rted=%{public,signpost.telemetry:(NSString *)arg1 number2,name=isSupported}d ;
+- (_Bool)setHasUserConfirmationRequired: /* Error: Ran out of types for this method. */;
 - (void)not found;
 - (_INPBValueMetadata *)staging at %@;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDecimalNumberValue *amount;
-@property(copy, nonatomic) NSString *currencyCode;
-@property(readonly, nonatomic) _Bool hasAmount;
-@property(readonly, nonatomic) _Bool hasCurrencyCode;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata;
 @end
 

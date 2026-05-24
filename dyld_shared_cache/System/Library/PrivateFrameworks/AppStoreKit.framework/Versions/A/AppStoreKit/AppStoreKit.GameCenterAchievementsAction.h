@@ -9,7 +9,6 @@
 @interface AppStoreKit.GameCenterAchievementsAction : AppStoreKit.Action
 {
     id bundleId;
-    id achievementIdsToHighlight;
 }
 
 @end

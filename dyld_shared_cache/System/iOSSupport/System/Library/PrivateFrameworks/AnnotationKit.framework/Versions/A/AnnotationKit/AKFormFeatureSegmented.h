@@ -6,29 +6,25 @@
 
 #import <AnnotationKit/AKFormFeature.h>
 
-@class AKFormFeatureLine, NSArray;
+@class AKFormFeatureLine;
 
 @interface AKFormFeatureSegmented : AKFormFeature
 {
     AKFormFeatureLine *_baseline;
-    NSArray *_characterSegmentRects;
-    struct CGRect _enclosingRegionRect;
 }
 
 + (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (struct CGRect);
 - (id);
 - (void);
-- (id);
+- (id)documentDidFindMatch: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) AKFormFeatureLine *baseline; // @synthesize baseline=_baseline;
-@property(retain, nonatomic) NSArray *characterSegmentRects; // @synthesize characterSegmentRects=_characterSegmentRects;
-@property(nonatomic) struct CGRect enclosingRegionRect; // @synthesize enclosingRegionRect=_enclosingRegionRect;
 
 @end
 

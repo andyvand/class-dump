@@ -16,8 +16,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)k;
+- (id)_;
 - (void)quest:%@  (%p) /* Error: Ran out of types for this method. */;
 
 @end

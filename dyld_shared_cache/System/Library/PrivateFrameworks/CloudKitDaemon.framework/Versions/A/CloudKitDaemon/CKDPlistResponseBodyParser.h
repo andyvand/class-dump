@@ -10,7 +10,7 @@
 {
 }
 
-- (void)tDevice;
+- (void)testDevice;
 
 @end
 

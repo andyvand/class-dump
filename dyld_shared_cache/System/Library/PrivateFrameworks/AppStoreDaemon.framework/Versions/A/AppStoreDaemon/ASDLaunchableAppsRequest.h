@@ -12,7 +12,7 @@
 
 - (void);
 - (id);
-- (id);
+- (id)iCLOUDDRIVE_DISABLE_STOP_TITLE;
 
 @end
 

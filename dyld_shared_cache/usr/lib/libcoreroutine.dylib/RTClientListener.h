@@ -6,52 +6,11 @@
 
 #import <coreroutine/RTXPCListener.h>
 
-@class NSMutableDictionary, NSString, NSXPCInterface, RTAccountManager, RTAssetManager, RTAuthorizationManager, RTAuthorizedLocationManager, RTBackgroundInertialOdometryManager, RTBluePOITileManager, RTContactsManager, RTDefaultsManager, RTDeviceLocationPredictor, RTDiagnostics, RTElevationManager, RTEventAgentManager, RTEventModelProvider, RTFingerprintManager, RTHealthKitManager, RTHintManager, RTIntermittentGNSSManager, RTLearnedLocationManager, RTLearnedLocationStore, RTLocationContextManager, RTLocationManager, RTLocationStore, RTMapServiceManager, RTMetricManager, RTMotionActivityManager, RTPeopleDiscoveryProvider, RTPlaceInferenceManager, RTPredictedContextManager, RTPurgeManager, RTScenarioTriggerManager, RTTimerManager, RTTripClusterManager, RTTripSegmentManager, RTUserCurationManager, RTVehicleLocationProvider, RTVehicleStore, RTVisitConsolidator, RTVisitManager, RTWiFiManager;
+@class NSMutableDictionary, NSXPCInterface;
 
 @interface RTClientListener : RTXPCListener
 {
     NSXPCInterface *_frameworkInterface;
-    NSXPCInterface *_daemonInterface;
-    NSMutableDictionary *_persistedClients;
-    RTScenarioTriggerManager *_scenarioTriggerManager;
-    RTVehicleLocationProvider *_vehicleLocationProvider;
-    RTVehicleStore *_vehicleStore;
-    RTAuthorizationManager *_authorizationManager;
-    RTBluePOITileManager *_bluePOITileManager;
-    RTDefaultsManager *_defaultsManager;
-    RTDeviceLocationPredictor *_deviceLocationPredictor;
-    RTHealthKitManager *_healthKitManager;
-    RTPurgeManager *_purgeManager;
-    RTEventModelProvider *_eventModelProvider;
-    RTAuthorizedLocationManager *_authorizedLocationManager;
-    RTVisitManager *_visitManager;
-    RTTripSegmentManager *_tripSegmentManager;
-    RTAssetManager *_assetManager;
-    RTHintManager *_hintManager;
-    RTLocationStore *_locationStore;
-    RTLocationManager *_locationManager;
-    RTLocationContextManager *_locationContextManager;
-    RTEventAgentManager *_eventAgentManager;
-    RTDiagnostics *_diagnostics;
-    RTLearnedLocationManager *_learnedLocationManager;
-    RTLearnedLocationStore *_learnedLocationStore;
-    RTPlaceInferenceManager *_placeInferenceManager;
-    RTPeopleDiscoveryProvider *_peopleDiscoveryProvider;
-    RTPredictedContextManager *_predictedContextManager;
-    RTAccountManager *_accountManager;
-    RTMetricManager *_metricManager;
-    RTMotionActivityManager *_motionActivityManager;
-    RTFingerprintManager *_fingerprintManager;
-    RTWiFiManager *_wifiManager;
-    RTMapServiceManager *_mapServiceManager;
-    RTContactsManager *_contactsManager;
-    RTTimerManager *_timerManager;
-    RTElevationManager *_elevationManager;
-    RTBackgroundInertialOdometryManager *_backgroundInertialOdometryManager;
-    RTIntermittentGNSSManager *_intermittentGNSSManager;
-    RTTripClusterManager *_tripClusterManager;
-    RTUserCurationManager *_userCurationManager;
-    RTVisitConsolidator *_visitConsolidator;
 }
 
 + (id);
@@ -86,7 +45,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
@@ -107,27 +66,27 @@
 - (void)
 × ;
 - (void)0:(id)arg1 8d16d24@?<v@?@"NSArray"@"NSArray"@"NSArray"@"NSError">32;
-- (void)vice;
-- (void)ObjectWithEmergencyContact:(id)arg1 inManagedObjectContext: /* Error: Ran out of types for this method. */;
-- (void)likelihood:(id)arg1;
-- (void)nsformation;
-- (void)ne;
+- (void)predicateForObjectsNotFromCurrentDevice;
+- (void)managedObjectWithEmergencyContact:(id)arg1 inManagedObjectContext: /* Error: Ran out of types for this method. */;
+- (void)initWithCluster:(id)arg1 likelihood: /* Error: Ran out of types for this method. */;
+- (void)allowsReverseTransformation;
+- (void)_activeSessionZone;
 - (id);
 - (void)tring",R,N,G_walletCategoryIdentifier;
 - (id)@"NSMutableArray",&,N,V_histogramBins;
 - (id)`{;
-- (id);
+- (id)PUs;
 - (id);
 - (id)dè;
 - (id)';
 - (id)Àì;
-- (void)rnedPlaceKnownTypeCandidates;
+- (void)numberOfLearnedPlaceKnownTypeCandidates;
 - (void)ate:(id)arg1 ]_block_invoke;
-- (id)eMask;
-- (void)onEntryTimeCfatSecIdentifier;
+- (id)RTDefaultsMapItemProviderLearnedPlaceRevGeoSourceMask;
+- (void)zdrLocationEntryTimeCfatSecIdentifier;
 - (void)ired.;
 - (void)e convertedCandidate for visit, %@;
-- (id)cketed;
+- (id)percentage_of_days_with_uninterrupted_WiFi_connection_others_bucketed;
 - (id)in processTripSegmentData,procError,%@,procSemaError,%@;
 - (void)current activity date, %@, after transition end date, %@;
 - (id)date scan timers for unsettled state;
@@ -149,53 +108,7 @@
 - (id)¾-;
 
 // Remaining properties
-@property(retain, nonatomic) RTAccountManager *accountManager; // @synthesize accountManager=_accountManager;
-@property(retain, nonatomic) RTAssetManager *assetManager; // @synthesize assetManager=_assetManager;
-@property(retain, nonatomic) RTAuthorizationManager *authorizationManager; // @synthesize authorizationManager=_authorizationManager;
-@property(retain, nonatomic) RTAuthorizedLocationManager *authorizedLocationManager; // @synthesize authorizedLocationManager=_authorizedLocationManager;
-@property(retain, nonatomic) RTBackgroundInertialOdometryManager *backgroundInertialOdometryManager; // @synthesize backgroundInertialOdometryManager=_backgroundInertialOdometryManager;
-@property(retain, nonatomic) RTBluePOITileManager *bluePOITileManager; // @synthesize bluePOITileManager=_bluePOITileManager;
-@property(retain, nonatomic) RTContactsManager *contactsManager; // @synthesize contactsManager=_contactsManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) RTDeviceLocationPredictor *deviceLocationPredictor; // @synthesize deviceLocationPredictor=_deviceLocationPredictor;
-@property(retain, nonatomic) RTDiagnostics *diagnostics; // @synthesize diagnostics=_diagnostics;
-@property(retain, nonatomic) RTElevationManager *elevationManager; // @synthesize elevationManager=_elevationManager;
-@property(retain, nonatomic) RTEventAgentManager *eventAgentManager; // @synthesize eventAgentManager=_eventAgentManager;
-@property(retain, nonatomic) RTEventModelProvider *eventModelProvider; // @synthesize eventModelProvider=_eventModelProvider;
-@property(retain, nonatomic) RTFingerprintManager *fingerprintManager; // @synthesize fingerprintManager=_fingerprintManager;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) RTHealthKitManager *healthKitManager; // @synthesize healthKitManager=_healthKitManager;
-@property(retain, nonatomic) RTHintManager *hintManager; // @synthesize hintManager=_hintManager;
-@property(retain, nonatomic) RTIntermittentGNSSManager *intermittentGNSSManager; // @synthesize intermittentGNSSManager=_intermittentGNSSManager;
-@property(retain, nonatomic) RTLearnedLocationManager *learnedLocationManager; // @synthesize learnedLocationManager=_learnedLocationManager;
-@property(retain, nonatomic) RTLearnedLocationStore *learnedLocationStore; // @synthesize learnedLocationStore=_learnedLocationStore;
-@property(retain, nonatomic) RTLocationContextManager *locationContextManager; // @synthesize locationContextManager=_locationContextManager;
-@property(retain, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(retain, nonatomic) RTLocationStore *locationStore; // @synthesize locationStore=_locationStore;
-@property(retain, nonatomic) RTMapServiceManager *mapServiceManager; // @synthesize mapServiceManager=_mapServiceManager;
-@property(retain, nonatomic) RTMetricManager *metricManager; // @synthesize metricManager=_metricManager;
-@property(retain, nonatomic) RTMotionActivityManager *motionActivityManager; // @synthesize motionActivityManager=_motionActivityManager;
-@property(retain, nonatomic) RTPeopleDiscoveryProvider *peopleDiscoveryProvider; // @synthesize peopleDiscoveryProvider=_peopleDiscoveryProvider;
 @property(retain, nonatomic) NSMutableDictionary *persistedClients; // @synthesize persistedClients=_persistedClients;
-@property(retain, nonatomic) RTPlaceInferenceManager *placeInferenceManager; // @synthesize placeInferenceManager=_placeInferenceManager;
-@property(retain, nonatomic) RTPredictedContextManager *predictedContextManager; // @synthesize predictedContextManager=_predictedContextManager;
-@property(retain, nonatomic) RTPurgeManager *purgeManager; // @synthesize purgeManager=_purgeManager;
-@property(retain, nonatomic) RTScenarioTriggerManager *scenarioTriggerManager; // @synthesize scenarioTriggerManager=_scenarioTriggerManager;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) RTTimerManager *timerManager; // @synthesize timerManager=_timerManager;
-@property(retain, nonatomic) RTTripClusterManager *tripClusterManager; // @synthesize tripClusterManager=_tripClusterManager;
-@property(retain, nonatomic) RTTripSegmentManager *tripSegmentManager; // @synthesize tripSegmentManager=_tripSegmentManager;
-@property(retain, nonatomic) RTUserCurationManager *userCurationManager; // @synthesize userCurationManager=_userCurationManager;
-@property(retain, nonatomic) RTVehicleLocationProvider *vehicleLocationProvider; // @synthesize vehicleLocationProvider=_vehicleLocationProvider;
-@property(retain, nonatomic) RTVehicleStore *vehicleStore; // @synthesize vehicleStore=_vehicleStore;
-@property(retain, nonatomic) RTVisitConsolidator *visitConsolidator; // @synthesize visitConsolidator=_visitConsolidator;
-@property(retain, nonatomic) RTVisitManager *visitManager; // @synthesize visitManager=_visitManager;
-@property(retain, nonatomic) RTWiFiManager *wifiManager; // @synthesize wifiManager=_wifiManager;
 
 @end
 

@@ -11,8 +11,6 @@
 @interface RBSMacAppProcessIdentity : RBSProcessIdentity
 {
     NSString *_embeddedApplicationIdentifier;
-    NSString *_applicationJobLabel;
-    NSString *_personaString;
 }
 
 - (_Bool);
@@ -33,7 +31,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)d; missing portReference.;
 - (void);
 - (id);
 

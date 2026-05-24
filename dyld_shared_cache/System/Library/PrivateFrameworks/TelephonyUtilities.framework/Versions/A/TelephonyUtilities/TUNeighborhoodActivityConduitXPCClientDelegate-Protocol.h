@@ -5,5 +5,10 @@
 //
 
 @protocol TUNeighborhoodActivityConduitXPCClientDelegate
+- (void);
+- (void);
+
+@optional
+- (void);
 @end
 

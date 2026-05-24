@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface SCNCommonProfileProgramCache
 {
     struct __C3DFXProgram *_program;
-    struct __CFSet *_owners;
 }
 
 - (void);

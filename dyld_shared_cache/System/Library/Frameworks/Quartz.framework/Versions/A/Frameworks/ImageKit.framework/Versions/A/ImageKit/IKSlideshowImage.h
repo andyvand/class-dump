@@ -6,23 +6,13 @@
 
 #import <ImageKit/IKSlideshowElement.h>
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface IKSlideshowImage : IKSlideshowElement
 {
     struct CGImageSource *_tempISR;
-    int _tempISRUseCount;
-    NSData *_tempData;
-    _Bool _tempISRIsDataBased;
-    struct CGImage *_image;
-    struct CGSize _imageSize;
-    struct CGSize _imageSizeScaledToFit;
-    int _orientation;
-    _Bool _imageIsLargerThanScreen;
 }
 
-+ (void)alDelegateMethods;
++ (void)IKImageBrowserViewOptionalDelegateMethods;
 - (void);
 - (void);
 - (void);
@@ -35,24 +25,24 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (struct CGSize);
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (void);
 - (void);
 - (void);
-- (struct CGRect);
+- (struct CGRect)-shouldRequestMoreTime.;
 - (void);
-- (void);
-- (id);
+- (void)een Search Result Thumbnails;
+- (id)ted for parsing context as string.;
 - (void);
 - (id);
 - (struct CGImage *);
 - (int);
 - (void);
-- (void);
+- (void);
 - (void);
 - (struct CGSize);
-- (void);
+- (void);
 - (struct CGImage *);
 - (void)ð1Â0@ù
 × ;
@@ -60,10 +50,7 @@ __attribute__((visibility("hidden")))
 - (void)	ü~ü;
 
 // Remaining properties
-@property _Bool imageIsLargerThanScreen; // @synthesize imageIsLargerThanScreen=_imageIsLargerThanScreen;
 @property struct CGSize imageSize; // @synthesize imageSize=_imageSize;
-@property struct CGSize imageSizeScaledToFit; // @synthesize imageSizeScaledToFit=_imageSizeScaledToFit;
-@property int orientation; // @synthesize orientation=_orientation;
 
 @end
 

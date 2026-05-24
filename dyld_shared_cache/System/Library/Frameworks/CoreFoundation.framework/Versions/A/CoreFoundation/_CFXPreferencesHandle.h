@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, _CFXPreferences;
-@protocol OS_voucher;
+@class _CFXPreferences;
 
 __attribute__((visibility("hidden")))
 @interface _CFXPreferencesHandle
 {
     _CFXPreferences *prefs;
-    _CFXPreferences *nonLaunchPersonaPrefs;
-    struct os_unfair_lock_s lock;
-    unsigned int overrideEUID;
-    unsigned int nonLaunchPersonaID;
-    _Bool cachedUseLaunchPersona;
-    NSObject<OS_voucher> *lastCheckedVoucher;
-    _Bool processCanHaveMultiplePersonas;
 }
 
 - (void);
@@ -25,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void)tionary"@"NSError">36;
-- (void)sedTabStateHolder;
+- (void)ClosedTabStateHolder;
 
 @end
 

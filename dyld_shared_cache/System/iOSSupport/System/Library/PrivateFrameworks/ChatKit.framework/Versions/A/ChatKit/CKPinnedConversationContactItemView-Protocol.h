@@ -7,6 +7,8 @@
 @protocol CKPinnedConversationContactItem;
 
 @protocol CKPinnedConversationContactItemView
+- (void)updateAttachmentChangeCountAndSave:(id <CKPinnedConversationContactItem>)arg1;
+- (id <CKPinnedConversationContactItem>)ic_setImageWithSystemImageName:symbolFont:symbolScale: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) id <CKPinnedConversationContactItem> pinnedConversationContactItem;

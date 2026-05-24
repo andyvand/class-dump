@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccountHandle, NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _HMDDeviceHandle
@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 + (_Bool)0VÌ;
 + (id)equest to remove client configuration %@ failed with error:%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)e reconnected, removing run loop source;
 - (id);
 - (id);
 - (_Bool);
@@ -25,16 +25,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool)
 × ;
-- (id)hannelState;
-- (id)CoreDataTransformerProfilePhotoCropRect;
-- (void)n;
+- (id)receivedInitialChannelState;
+- (id)HMDCoreDataTransformerProfilePhotoCropRect;
+- (void)HMDUserPresenceRegionStatusUnknown;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) HMDAccountHandle *accountHandle;
-@property(readonly, copy, nonatomic) NSString *destination;
-@property(readonly, nonatomic, getter=isGlobal) _Bool global;
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic, getter=isLocal) _Bool local;
 
 @end
 

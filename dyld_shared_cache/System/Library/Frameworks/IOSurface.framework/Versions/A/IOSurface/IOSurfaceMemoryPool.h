@@ -7,7 +7,6 @@
 @interface IOSurfaceMemoryPool
 {
     unsigned long long _poolId;
-    unsigned int _poolPort;
 }
 
 - (void);
@@ -15,7 +14,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (int);
+- (int)TLLoaderSliceIdentifier=ii}16Q24B32;
 
 // Remaining properties
 @property(readonly) unsigned long long poolId;

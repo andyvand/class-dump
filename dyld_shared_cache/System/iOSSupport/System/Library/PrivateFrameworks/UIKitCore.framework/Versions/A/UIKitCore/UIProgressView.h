@@ -6,44 +6,32 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSObservation, NSProgress, UIColor, UIImage;
-@protocol UIProgressViewVisualElement;
-
 @interface UIProgressView : UIView
 {
     long long _progressViewStyle;
-    float _progress;
-    long long _barStyle;
-    UIColor *_progressTintColor;
-    UIColor *_trackTintColor;
-    NSProgress *_observedProgress;
-    NSObservation *_progressObservation;
-    UIView<UIProgressViewVisualElement> *_visualElement;
-    UIImage *_trackImage;
-    UIImage *_progressImage;
 }
 
-+ (Class);
++ (Class)e Interval:(id)arg1 %f) - similar to:%@ /* Error: Ran out of types for this method. */;
 + (id);
 + (struct CGSize)ns;
-- (id);
-- (id);
+- (id)_didReceivePotentialCollaborationMessage:forChat:style:account: /* Error: Ran out of types for this method. */;
+- (id)tocol>",R,N,V_replyProxy;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (long long);
+- (id)X;
 - (id);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool)s:%@ error %@ /* Error: Ran out of types for this method. */;
+- (id)ranges;
+- (void)\h;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)Q;
 - (void);
 - (void);
 - (id);
@@ -52,9 +40,9 @@
 - (id);
 - (void);
 - (void);
-- (long long)RectangularCoordinateSpace:orientation:scale: /* Error: Ran out of types for this method. */;
-- (void)e:(id)arg1 rightSegmentState: /* Error: Ran out of types for this method. */;
-- (void)Warnings;
+- (long long)initWithRectangularCoordinateSpace:orientation:scale: /* Error: Ran out of types for this method. */;
+- (void)dividerImageForLeftSegmentState:(id)arg1 rightSegmentState: /* Error: Ran out of types for this method. */;
+- (void)_disableAutolayoutWarnings;
 - (id)tModifierListener",R,N,V_modifierKeyListener;
 - (void)¤0;
 - (struct CGSize)tion steps.;
@@ -67,14 +55,6 @@
 
 // Remaining properties
 @property(nonatomic) long long barStyle;
-@property(retain, nonatomic) NSProgress *observedProgress; // @synthesize observedProgress=_observedProgress;
-@property(nonatomic) float progress; // @synthesize progress=_progress;
-@property(retain, nonatomic, getter=_progressColor, setter=_setProgressColor:) UIColor *progressColor;
-@property(retain, nonatomic) UIImage *progressImage; // @synthesize progressImage=_progressImage;
-@property(retain, nonatomic) UIColor *progressTintColor; // @synthesize progressTintColor=_progressTintColor;
-@property(nonatomic) long long progressViewStyle; // @synthesize progressViewStyle=_progressViewStyle;
-@property(retain, nonatomic) UIImage *trackImage; // @synthesize trackImage=_trackImage;
-@property(retain, nonatomic) UIColor *trackTintColor; // @synthesize trackTintColor=_trackTintColor;
 
 @end
 

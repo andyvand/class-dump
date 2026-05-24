@@ -5,5 +5,7 @@
 //
 
 @protocol CookingKit.KeyCommandFormatOptions
+- (void);
+- (void);
 @end
 

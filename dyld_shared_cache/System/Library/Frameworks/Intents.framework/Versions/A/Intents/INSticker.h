@@ -9,10 +9,6 @@
 @interface INSticker
 {
     long long _type;
-    NSString *_emoji;
-    NSString *_avatarDescriptor;
-    NSString *_appBundleID;
-    NSString *_stickerDescription;
 }
 
 + (id);
@@ -21,34 +17,23 @@
 - (id);
 - (id);
 - (id);
+- (id)initWithDBName:withConfiguration:withWriteOptions: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)stopBuffering;
+- (id)A;
+- (id)4;
 - (unsigned long long);
-- (long long);
-- (_Bool);
-- (void);
+- (long long);
+- (_Bool)setInternetSharingDiscoveryStateExt:(id)arg1 request:error: /* Error: Ran out of types for this method. */;
+- (void)@' (nearby=%{public}s, directed=%{public}s, MRUChannelsForCurrentLocation=%{public}@, MRUChannelsForCurrentLocationExceedingMaxBSSCount=%{public}@, MRUChannelsForCurrentLocationExceedingMaxBSSAge=%{public}@, MRUChannels=%{public}@, MRUChannelsExceedingMaxBSSCount=%{public}@, MRUChannelsExceedingMaxBSSAge=%{public}@, anqpIDs=%{public}@);
+- (id)7;
 - (id);
-- (id);
-- (id)AlarmSearch:(unsigned long long)arg1 alarmSearchType:alarms: /* Error: Ran out of types for this method. */;
-- (void)ideUnitOptionsForQueryHealthSample:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)initWithAlarmSearch:(unsigned long long)arg1 alarmSearchType:alarms: /* Error: Ran out of types for this method. */;
+- (void)provideUnitOptionsForQueryHealthSample:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)¡¹ÿ>¥;
 
 // Remaining properties
-@property(readonly, copy) NSString *appBundleID; // @synthesize appBundleID=_appBundleID;
 @property(readonly, copy) NSString *avatarDescriptor; // @synthesize avatarDescriptor=_avatarDescriptor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSString *emoji; // @synthesize emoji=_emoji;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *stickerDescription; // @synthesize stickerDescription=_stickerDescription;
-@property(readonly) Class superclass;
-@property(readonly) long long type; // @synthesize type=_type;
 
 @end
 

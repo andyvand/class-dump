@@ -5,6 +5,10 @@
 //
 
 @protocol NSFileProviderEnumerationObserver
+- (void)9;
+
+@optional
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long suggestedPageSize;

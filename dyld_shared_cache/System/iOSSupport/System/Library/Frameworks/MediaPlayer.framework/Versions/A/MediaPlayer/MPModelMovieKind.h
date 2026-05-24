@@ -9,7 +9,6 @@
 @interface MPModelMovieKind : MPModelKind
 {
     unsigned long long _variants;
-    unsigned long long _options;
 }
 
 + (id);
@@ -18,15 +17,14 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (unsigned long long);
-- (id);
+- (id)ta"8@"NSError"16;
+- (unsigned long long)memoryFootprintEstimate;
+- (id)sharedInstance;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
 @property(readonly, nonatomic) unsigned long long variants; // @synthesize variants=_variants;
 
 @end

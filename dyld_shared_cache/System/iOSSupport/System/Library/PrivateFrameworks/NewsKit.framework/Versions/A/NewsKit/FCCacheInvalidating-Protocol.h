@@ -5,5 +5,6 @@
 //
 
 @protocol FCCacheInvalidating
+- (void)J;
 @end
 

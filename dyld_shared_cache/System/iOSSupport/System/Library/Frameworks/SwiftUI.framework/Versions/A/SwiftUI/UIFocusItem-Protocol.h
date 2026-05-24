@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIFocusEffect;
-
 @protocol UIFocusItem
 
 @optional
@@ -13,22 +11,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool canBecomeFocused;
-@property(readonly, copy, nonatomic) UIFocusEffect *focusEffect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIFocusEffect",?,R,C,N
-
-@property(readonly, nonatomic) long long focusGroupPriority;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) long long focusItemDeferralMode;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(readonly, nonatomic) struct CGRect frame;
-@property(readonly, nonatomic) _Bool isTransparentFocusItem;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @end
 

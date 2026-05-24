@@ -5,5 +5,10 @@
 //
 
 @protocol UISceneDelegate
+
+@optional
+- (void);
+- (void)�		;
+- (void);
 @end
 

@@ -7,15 +7,6 @@
 @interface AppStoreKit.PrivacyType
 {
     id title;
-    id detail;
-    id artwork;
-    id categories;
-    id style;
-    id wantsScrollFocus;
-    id clickAction;
-    id id;
-    id impressionMetrics;
-    id automationMetadata;
 }
 
 @end

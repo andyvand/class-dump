@@ -7,15 +7,15 @@
 @class NSString;
 
 @protocol NSObject
-- (struct _NSZone *)er;
+- (Class)!;
+- (_Bool)accessControlForConstraints:tokenID:error: /* Error: Ran out of types for this method. */;
+- (NSString *))A;
+- (_Bool)?;
+- (_Bool)ate, mask.hash}sCreated new TLS connection %s;
+- (_Bool)s.framework/Versions/A/GeoServices;
+- (struct _NSZone *)Newer;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

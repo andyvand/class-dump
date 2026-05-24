@@ -13,14 +13,14 @@
     } _embeddings;
 }
 
-- (float);
-- (void);
+- (float)Type;
+- (void)tNavigating;
 - (void);
 - (float *);
-- (unsigned long long);
+- (unsigned long long)T;
 - (void);
 - (void);
-- (id);
+- (id)P;
 - (void);
 - (void);
 - (unsigned long long);
@@ -31,7 +31,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) float *embeddings;
 @property(readonly, nonatomic) unsigned long long embeddingsCount;
 
 @end

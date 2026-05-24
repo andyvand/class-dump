@@ -8,7 +8,7 @@
 {
 }
 
-+ (unsigned long long);
++ (unsigned long long)=;
 + (unsigned long long);
 + (_Bool);
 + (unsigned long long);

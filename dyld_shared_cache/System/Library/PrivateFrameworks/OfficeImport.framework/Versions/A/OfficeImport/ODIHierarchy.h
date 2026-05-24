@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, ODIState;
-
 __attribute__((visibility("hidden")))
 @interface ODIHierarchy
 {
     int mType;
-    int mMaxMappableTreeDepth;
-    ODIState *mState;
-    NSMutableDictionary *mNodeInfoMap;
 }
 
 + (_Bool);
-- (void);
+- (void)&;
 - (void *);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (void);
 

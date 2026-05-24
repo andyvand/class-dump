@@ -9,46 +9,36 @@
 @interface GEOEVStateInfo
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _remainingBatteryCharge;
-    unsigned int _remainingBatteryPercentage;
-    struct {
-        unsigned int has_remainingBatteryCharge:1;
-        unsigned int has_remainingBatteryPercentage:1;
-    } _flags;
 }
 
-+ (_Bool)BatteryCharge:(id)arg1;
++ (_Bool)setHasRemainingBatteryCharge:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
+- (unsigned int)teFrameworks/ContactsFoundation.framework/Versions/A/ContactsFoundation;
 - (unsigned int);
-- (unsigned int);
-- (_Bool);
-- (_Bool);
+- (_Bool)processInfo;
+- (_Bool)probabilityUtility;
 - (void);
 - (id);
-- (id);
+- (id)A;
 - (void);
-- (void);
+- (void)vendorID;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)avedCollectionsCount:(struct _NSZone *)arg1;
-- (id)emStatusResponse;
+- (id)setHasSavedCollectionsCount:(struct _NSZone *)arg1;
+- (id)GEORPProblemStatusResponse;
 - (id);
 - (id);
 - (void)¬ÇÞÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRemainingBatteryCharge;
 @property(nonatomic) _Bool hasRemainingBatteryPercentage;
-@property(nonatomic) unsigned int remainingBatteryCharge;
-@property(nonatomic) unsigned int remainingBatteryPercentage;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

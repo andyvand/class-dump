@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AALocalContactInfo, ACAccount, AOSUIInviteMessagesFlowController, NSString, NSWindow;
+@class ACAccount, AOSUIInviteMessagesFlowController;
 
 __attribute__((visibility("hidden")))
 @interface AOSUIMyBeneficiaryActionHandler
 {
     ACAccount *_appleAccount;
-    AALocalContactInfo *_contactInfo;
-    AOSUIInviteMessagesFlowController *_inviteFlowController;
-    NSWindow *_modalWindow;
 }
 
 - (void);
@@ -30,17 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) ACAccount *appleAccount; // @synthesize appleAccount=_appleAccount;
-@property(readonly, nonatomic) AALocalContactInfo *contactInfo; // @synthesize contactInfo=_contactInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) AOSUIInviteMessagesFlowController *inviteFlowController; // @synthesize inviteFlowController=_inviteFlowController;
-@property(retain) NSWindow *modalWindow; // @synthesize modalWindow=_modalWindow;
-@property(readonly) Class superclass;
 
 @end
 

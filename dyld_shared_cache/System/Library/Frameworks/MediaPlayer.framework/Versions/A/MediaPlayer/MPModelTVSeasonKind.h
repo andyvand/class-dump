@@ -16,15 +16,15 @@
 + (id);
 + (id);
 + (_Bool);
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)_animatePopoverToNewSize;
 - (void);
-- (void)ion;
+- (void)_currentQueueEndAction;
 
 // Remaining properties
 @property(readonly, nonatomic) MPModelTVEpisodeKind *episodeKind; // @synthesize episodeKind=_episodeKind;

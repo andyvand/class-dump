@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWFigCaptureStream;
-
 @interface BWDeferredMetadataCache
 {
     struct OpaqueFigSimpleMutex *_lock;
-    BWFigCaptureStream *_stream;
-    int _numberOfExpectedSampleBuffersForEachPTS;
-    struct BWDeferredMetadataCacheEntry _cache[5];
 }
 
 - (void);

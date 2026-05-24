@@ -12,7 +12,7 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)AXValidationManager"8;
 - (void);
 
 @end

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, WBSHistoryConnectionProxy;
-@protocol OS_dispatch_queue, WBSURLCompletionSessionProtocol;
+@class WBSHistoryConnectionProxy;
 
 @interface WBSURLCompletionSessionProxy
 {
     WBSHistoryConnectionProxy *_historyConnectionProxy;
-    id <WBSURLCompletionSessionProtocol> _completionSession;
-    NSObject<OS_dispatch_queue> *_completionSessionAccessQueue;
 }
 
 - (void);

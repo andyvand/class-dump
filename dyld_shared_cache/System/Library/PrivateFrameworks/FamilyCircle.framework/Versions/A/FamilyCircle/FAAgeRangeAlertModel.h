@@ -4,41 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FAAgeRangeResponse, NSString;
+@class FAAgeRangeResponse;
 
 @interface FAAgeRangeAlertModel
 {
     _Bool _shouldPrompt;
-    FAAgeRangeResponse *_ageRangeResponse;
-    long long _flowType;
-    NSString *_title;
-    NSString *_message;
-    NSString *_primaryButtonText;
-    NSString *_secondaryButtonText;
 }
 
-+ (_Bool);
-- (_Bool);
-- (id);
-- (id);
++ (_Bool);
+- (_Bool)addedFrequency;
+- (id)PCM_Mono_16Bit_8000Hz;
+- (id)packetNumber;
 - (id);
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
-- (id);
-- (id);
+- (id)U;
+- (id)_setupAssistantIfNoPointingDevice;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) FAAgeRangeResponse *ageRangeResponse; // @synthesize ageRangeResponse=_ageRangeResponse;
-@property(readonly, nonatomic) long long flowType; // @synthesize flowType=_flowType;
-@property(readonly, nonatomic) NSString *message; // @synthesize message=_message;
-@property(readonly, nonatomic) NSString *primaryButtonText; // @synthesize primaryButtonText=_primaryButtonText;
-@property(readonly, nonatomic) NSString *secondaryButtonText; // @synthesize secondaryButtonText=_secondaryButtonText;
-@property(readonly, nonatomic) _Bool shouldPrompt; // @synthesize shouldPrompt=_shouldPrompt;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

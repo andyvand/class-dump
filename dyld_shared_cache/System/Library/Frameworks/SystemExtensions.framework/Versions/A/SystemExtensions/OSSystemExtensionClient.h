@@ -8,28 +8,32 @@
 {
 }
 
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)airResourceTransferReceiver:(id)arg1 already done with this resource! messageUUID %@;
+- (_Bool)e than expected %llu to file %@;
+- (id)d writing all %llu  bytes to file %@;
+- (_Bool)SocketPairResourceTransferReceiver:(id)arg1 finished writing all %llu  bytes to file %@;
+- (_Bool)eTransferReceiver:(id)arg1 wrote %lu (received %llu out of %llu total) bytes to file %@ at %llu;
+- (_Bool)only wrote %ld/%lu bytes to file %@;
+- (_Bool)rrno:(id)arg1 %d (%s));
+- (_Bool)iting %lu (%llu total) to file %@ (errno:(id)arg1 %d (%s));
+- (_Bool)DSSocketPairMessage.m;
+- (_Bool)IDSSocketPairResourceTransferReceiver;
+- (id)tedMessages:(id)arg1 made cmd %u length %u from %u pieces;
+- (id)expected);
+- (id)create NSMutableData of %u length (have %u pieces, %u expected);
+- (id)0 length;
+- (id)u;
+- (id)ge:(id *)arg1 ID:%u, index:%u, total:%u /* Error: Ran out of types for this method. */;
+- (id)iryDate, offset %u packet length %u
+;
+- (id)tobuf message truncated before expiryDate, offset %u packet length %u
+;
+- (_Bool)maining data, offset %u packet length %u
+;
+- (_Bool)t for header:(id)arg1 %lu bytes, need at least %lu
+;
+- (_Bool)ass %u priority %u sequenceNumber %u;
+- (_Bool)rypted %@ shouldEncrypt %@ version %u streamID %u protectionClass %u priority %u sequenceNumber %u;
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);

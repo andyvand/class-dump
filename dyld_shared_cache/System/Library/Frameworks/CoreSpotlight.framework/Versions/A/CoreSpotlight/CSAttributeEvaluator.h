@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface CSAttributeEvaluator
 {
     _Bool _matchOncePerTerm;
-    _Bool _isCJK;
-    _Bool _fuzzyMatching;
-    NSString *_queryString;
-    long long _queryID;
-    NSString *_language;
-    long long _countQPUSpecialToken;
-    NSArray *_itemQPQUOutputTokenInfo;
-    unsigned long long _options;
-    unsigned long long _matcherCount;
-    const void **_matchers;
-    unsigned long long _queryTermCount;
-    unsigned long long _matchersPerTerm;
-    void *_tokenizer;
-    NSArray *_tokenizedQueryTerms;
 }
 
 + (void);
@@ -44,49 +28,34 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (long long);
 - (unsigned long long);
 - (void);
 - (const void **);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)?;
 - (id);
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void)`;
 - (_Bool)0@ù
 × ;
-- (void)tor:(id)arg1;
-- (void *)s;
+- (void)setSelector:(id)arg1;
+- (void *)publishers;
 
 // Remaining properties
-@property(nonatomic) long long countQPUSpecialToken; // @synthesize countQPUSpecialToken=_countQPUSpecialToken;
-@property(nonatomic) _Bool fuzzyMatching; // @synthesize fuzzyMatching=_fuzzyMatching;
-@property(nonatomic) _Bool isCJK; // @synthesize isCJK=_isCJK;
-@property(retain, nonatomic) NSArray *itemQPQUOutputTokenInfo; // @synthesize itemQPQUOutputTokenInfo=_itemQPQUOutputTokenInfo;
-@property(retain, nonatomic) NSString *language; // @synthesize language=_language;
-@property(nonatomic) _Bool matchOncePerTerm; // @synthesize matchOncePerTerm=_matchOncePerTerm;
-@property(nonatomic) unsigned long long matcherCount; // @synthesize matcherCount=_matcherCount;
-@property(nonatomic) const void **matchers; // @synthesize matchers=_matchers;
-@property(nonatomic) unsigned long long matchersPerTerm; // @synthesize matchersPerTerm=_matchersPerTerm;
 @property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(nonatomic) long long queryID; // @synthesize queryID=_queryID;
-@property(readonly, nonatomic) NSString *queryString; // @synthesize queryString=_queryString;
-@property(nonatomic) unsigned long long queryTermCount; // @synthesize queryTermCount=_queryTermCount;
-@property(readonly, nonatomic) NSArray *queryTerms;
-@property(retain, nonatomic) NSArray *tokenizedQueryTerms; // @synthesize tokenizedQueryTerms=_tokenizedQueryTerms;
-@property(nonatomic) void *tokenizer; // @synthesize tokenizer=_tokenizer;
 
 @end
 

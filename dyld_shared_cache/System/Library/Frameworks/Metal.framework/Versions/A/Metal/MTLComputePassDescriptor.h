@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLComputePassSampleBufferAttachmentDescriptorArray;
-
 @interface MTLComputePassDescriptor
 {
 }
@@ -17,7 +15,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long dispatchType; // @dynamic dispatchType;
-@property(readonly) MTLComputePassSampleBufferAttachmentDescriptorArray *sampleBufferAttachments; // @dynamic sampleBufferAttachments;
 
 @end
 

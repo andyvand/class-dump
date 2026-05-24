@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface DGColorCastCorrectionFilter
 {
     CIImage *inputImage;
-    NSNumber *inputBlackUOffset;
-    NSNumber *inputBlackVOffset;
-    NSNumber *inputGrayBrightness;
-    NSNumber *inputGrayUOffset;
-    NSNumber *inputGrayVOffset;
-    NSNumber *inputWhiteUOffset;
-    NSNumber *inputWhiteVOffset;
 }
 
 + (id);

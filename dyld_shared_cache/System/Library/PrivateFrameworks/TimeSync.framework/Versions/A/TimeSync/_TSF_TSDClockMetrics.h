@@ -7,10 +7,6 @@
 @interface _TSF_TSDClockMetrics
 {
     unsigned long long _clockIdentity;
-    unsigned long long _gmChangesCount;
-    unsigned long long _timeToChangeGm;
-    unsigned long long _timeToLock;
-    unsigned long long _coreAudioReanchors;
 }
 
 - (unsigned long long);
@@ -22,17 +18,13 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)a;
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) unsigned long long clockIdentity; // @synthesize clockIdentity=_clockIdentity;
-@property(nonatomic) unsigned long long coreAudioReanchors; // @synthesize coreAudioReanchors=_coreAudioReanchors;
-@property(nonatomic) unsigned long long gmChangesCount; // @synthesize gmChangesCount=_gmChangesCount;
-@property(nonatomic) unsigned long long timeToChangeGm; // @synthesize timeToChangeGm=_timeToChangeGm;
-@property(nonatomic) unsigned long long timeToLock; // @synthesize timeToLock=_timeToLock;
 
 @end
 

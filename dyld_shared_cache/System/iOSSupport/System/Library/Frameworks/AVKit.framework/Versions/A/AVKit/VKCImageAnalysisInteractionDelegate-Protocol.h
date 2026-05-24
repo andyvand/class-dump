@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol VKCImageAnalysisInteractionDelegate
+
+@optional
+- (void)K2L._p;
+- (void)y28LandmarkIntentNodeContainingP;
+- (_Bool)g;
+- (void).G;
+- (void);
+- (NSString *)yӞL.G;
 @end
 

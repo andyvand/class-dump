@@ -15,21 +15,14 @@
 + (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)__const;
+- (id)troller _openWithAnimation:(id)arg1 ];
 - (id);
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSString *messageId;
-@property(readonly) Class superclass;
 
 @end
 

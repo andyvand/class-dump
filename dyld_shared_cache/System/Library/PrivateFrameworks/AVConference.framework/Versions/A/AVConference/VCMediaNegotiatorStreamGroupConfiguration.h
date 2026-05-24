@@ -4,20 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableOrderedSet, NSOrderedSet, VCMediaNegotiatorStreamGroupU1Configuration;
-
 __attribute__((visibility("hidden")))
 @interface VCMediaNegotiatorStreamGroupConfiguration
 {
     unsigned int _groupID;
-    unsigned int _mediaType;
-    unsigned int _mediaSubtype;
-    unsigned int _syncGroupID;
-    unsigned int _cipherSuite;
-    VCMediaNegotiatorStreamGroupU1Configuration *_u1Config;
-    NSMutableOrderedSet *_streamConfigs;
-    NSMutableOrderedSet *_codecConfigs;
-    _Bool _enableACC24ForGFT;
 }
 
 + (id);
@@ -36,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int), geo::allocator_adapter<std::pair<gss::StyleAttribute, unsigned short>, gss::zone_mallocator>>=^v^v{?=^v{allocator_adapter<std::pair<gss::StyleAttribute, unsigned short>, gss::zone_mallocator>={zone_mallocator=}}}}},R,N /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned int);
 - (id);
@@ -45,17 +35,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (unsigned int)ML Enhance is disabled by default.;
-- (void)deoStreamTxMaxBitrate;
+- (void)forceVideoStreamTxMaxBitrate;
 
 // Remaining properties
-@property(readonly, nonatomic) NSOrderedSet *codecConfigs; // @synthesize codecConfigs=_codecConfigs;
-@property(nonatomic) _Bool enableACC24ForGFT; // @synthesize enableACC24ForGFT=_enableACC24ForGFT;
 @property(nonatomic) unsigned int groupID; // @synthesize groupID=_groupID;
-@property(nonatomic) unsigned int mediaSubtype; // @synthesize mediaSubtype=_mediaSubtype;
-@property(nonatomic) unsigned int mediaType; // @synthesize mediaType=_mediaType;
-@property(readonly, nonatomic) NSOrderedSet *streamConfigs; // @synthesize streamConfigs=_streamConfigs;
-@property(nonatomic) unsigned int syncGroupID; // @synthesize syncGroupID=_syncGroupID;
-@property(retain, nonatomic) VCMediaNegotiatorStreamGroupU1Configuration *u1Config; // @synthesize u1Config=_u1Config;
 
 @end
 

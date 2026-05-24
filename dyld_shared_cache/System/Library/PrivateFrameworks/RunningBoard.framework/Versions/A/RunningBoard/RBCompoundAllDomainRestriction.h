@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
+- (id)"NSMutableDictionary",R,N,V_mutableSignatureToAccumulatorEntry;
 - (unsigned long long);
 - (id);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)%@;
 - (id);
 - (void);
 

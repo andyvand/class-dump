@@ -7,9 +7,6 @@
 @interface PodcastsFoundation.PushRestrictions
 {
     id uppPushGracePeriodBagKey;
-    id uppPushGracePeriodDefaultValue;
-    id bag;
-    id userDefaults;
 }
 
 @end

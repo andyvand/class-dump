@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EWSBaseRequestType, EWSExchangeServiceBinding, EWSServerVersionInfo, NSConditionLock, NSData, NSError, NSMutableData, NSString, SOAPParser;
-@protocol EWSExchangeServiceBindingTaskDelegate;
+@class NSMutableData, SOAPParser;
 
 @interface EWSExchangeServiceBindingTask
 {
     NSMutableData *_loggingData;
-    int _retryCount;
-    _Bool _logActivity;
-    double _timeout;
-    NSString *_schemaVersion;
-    NSString *_clientRequestID;
-    SOAPParser *_parser;
-    NSConditionLock *_finishedConditionLock;
-    NSError *_error;
-    id <EWSExchangeServiceBindingTaskDelegate> _delegate;
-    CDUnknownBlockType _completionHandler;
-    EWSExchangeServiceBinding *_binding;
-    EWSBaseRequestType *_request;
-    id _ewsResponse;
-    EWSServerVersionInfo *_serverInfo;
 }
 
 - (void);
@@ -31,7 +16,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -48,47 +33,27 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)x;
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)getNumberOfEntriesInDB;
+- (void)ster;
+- (void)O;
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id)lue;
 - (void);
 - (void);
 - (double);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
-@property __weak EWSExchangeServiceBinding *binding; // @synthesize binding=_binding;
-@property(copy) NSString *clientRequestID; // @synthesize clientRequestID=_clientRequestID;
-@property(copy) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <EWSExchangeServiceBindingTaskDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain) id ewsResponse; // @synthesize ewsResponse=_ewsResponse;
-@property(retain, nonatomic) NSConditionLock *finishedConditionLock; // @synthesize finishedConditionLock=_finishedConditionLock;
-@property(readonly) unsigned long long hash;
-@property _Bool logActivity; // @synthesize logActivity=_logActivity;
 @property(readonly, nonatomic) SOAPParser *parser; // @synthesize parser=_parser;
-@property(retain) EWSBaseRequestType *request; // @synthesize request=_request;
-@property(readonly, copy) NSData *requestData;
-@property(copy) NSString *schemaVersion; // @synthesize schemaVersion=_schemaVersion;
-@property(retain) EWSServerVersionInfo *serverInfo; // @synthesize serverInfo=_serverInfo;
-@property(readonly) Class superclass;
-@property double timeout; // @synthesize timeout=_timeout;
 
 @end
 

@@ -11,11 +11,10 @@
 @interface NUCISourceNode : NUSourceNode
 {
     CIImage *_image;
-    long long _orientation;
 }
 
 - (_Bool);
-- (long long);
+- (long long);
 - (_Bool);
 - (id);
 - (CDStruct_912cb5d2);
@@ -24,7 +23,7 @@
 - (id);
 - (id);
 - (id);
-- (void)r: /* Error: Ran out of types for this method. */;
+- (void)validateContents:error: /* Error: Ran out of types for this method. */;
 
 @end
 

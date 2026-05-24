@@ -7,8 +7,6 @@
 @interface HomeKitDaemon.NetworkDiagnosticsSymptomReporter
 {
     id homeUUID;
-    id symptomReporter;
-    id lastReportedState;
 }
 
 @end

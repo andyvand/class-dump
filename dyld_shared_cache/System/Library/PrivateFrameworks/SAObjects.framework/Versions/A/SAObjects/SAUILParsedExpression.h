@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSString, SAUILParseableExpression;
+@class SAUILParseableExpression;
 
 @interface SAUILParsedExpression : SADomainObject
 {
@@ -19,11 +19,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
 @property(retain, nonatomic) SAUILParseableExpression *parseableExpression;
-@property(copy, nonatomic) NSString *parsedOutput;
 
 @end
 

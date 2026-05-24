@@ -4,12 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _SFPBImage;
+@class _SFPBImage;
 
 @protocol _SFPBAddToPhotosLibraryCommand
+- (void)MediaPlayer;
+- (id)`;
 
 // Remaining properties
 @property(retain, nonatomic) _SFPBImage *image;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCPlaybackEngineEventStream, MPPlaceholderAVItem, MPPlaybackContext, NSString;
-@protocol MPCQueueControllerBehaviorMusicDataSource><MPCQueueControllerDataSourceStateRestoring;
+@class NSString;
 
 @interface _MPCQueueControllerBehaviorMusicDataSourceState
 {
@@ -25,19 +24,6 @@
         unsigned int dataSourceUpdatedPlaybackContext:1;
         unsigned int dataSourceContainsRadioContent:1;
     } _supportedMethods;
-    _Bool _frozen;
-    struct os_unfair_lock_s _stateLock;
-    MPPlaceholderAVItem *_tailPlaceholderItem;
-    id <MPCQueueControllerBehaviorMusicDataSource><MPCQueueControllerDataSourceStateRestoring> _dataSource;
-    MPPlaybackContext *_playbackContext;
-    MPPlaybackContext *_originalPlaybackContext;
-    long long _state;
-    NSString *_sectionIdentifier;
-    NSString *_preferredStartItemIdentifier;
-    NSString *_playerID;
-    MPCPlaybackEngineEventStream *_eventStream;
-    long long _supplementalPlaybackContextBehavior;
-    MPPlaybackContext *_supplementalPlaybackContext;
 }
 
 + (_Bool);
@@ -47,15 +33,15 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)8@"ACAccount"16i24@"ACDAccountStore"28@"ACAccount"36;
 - (long long);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)removeObjectAtIndex: /* Error: Ran out of types for this method. */;
+- (id)_processAppleAccount:didChangeWithType:inStore:oldAccount: /* Error: Ran out of types for this method. */;
+- (void)ccount change:(long long)arg1 Account wasn't modified;
+- (id)4@?0@"NSDictionary"8@"NSError"16;
+- (void)erProvidedFeatures:(id)arg1 forAccount:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -63,13 +49,13 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)eGestalt.dylib;
 - (unsigned long long);
 - (void);
-- (void);
+- (void)works/Accounts.framework/Versions/A/Accounts;
 - (id);
 - (void);
-- (id);
+- (id)windowWithContentViewController: /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
 - (_Bool);
@@ -79,7 +65,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)";
 - (void);
 - (id);
 - (void);
@@ -90,29 +76,7 @@
 - (void)t [transitionsEnabled toggled] fromRemoteCommand=%{public}@;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool containsLiveStream;
-@property(readonly, nonatomic) id <MPCQueueControllerBehaviorMusicDataSource><MPCQueueControllerDataSourceStateRestoring> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak MPCPlaybackEngineEventStream *eventStream; // @synthesize eventStream=_eventStream;
-@property(nonatomic, getter=isFrozen) _Bool frozen; // @synthesize frozen=_frozen;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) MPPlaybackContext *originalPlaybackContext; // @synthesize originalPlaybackContext=_originalPlaybackContext;
-@property(readonly, nonatomic) MPPlaybackContext *playbackContext; // @synthesize playbackContext=_playbackContext;
-@property(copy, nonatomic) NSString *playerID; // @synthesize playerID=_playerID;
 @property(readonly, copy, nonatomic) NSString *preferredStartContentItemID;
-@property(readonly, nonatomic) NSString *preferredStartItemIdentifier; // @synthesize preferredStartItemIdentifier=_preferredStartItemIdentifier;
-@property(readonly, nonatomic) NSString *sectionIdentifier; // @synthesize sectionIdentifier=_sectionIdentifier;
-@property(readonly, nonatomic) _Bool shouldAddOriginalPlaybackContextAfterReplacement;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(readonly, nonatomic) struct os_unfair_lock_s stateLock; // @synthesize stateLock=_stateLock;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) MPPlaybackContext *supplementalPlaybackContext; // @synthesize supplementalPlaybackContext=_supplementalPlaybackContext;
-@property(readonly, nonatomic) long long supplementalPlaybackContextBehavior; // @synthesize supplementalPlaybackContextBehavior=_supplementalPlaybackContextBehavior;
-@property(readonly, nonatomic) MPPlaceholderAVItem *tailPlaceholderItem; // @synthesize tailPlaceholderItem=_tailPlaceholderItem;
 
 @end
 

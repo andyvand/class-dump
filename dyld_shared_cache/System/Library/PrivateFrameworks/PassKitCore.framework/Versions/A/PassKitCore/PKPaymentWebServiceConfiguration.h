@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSURL;
+@class NSDictionary;
 
 @interface PKPaymentWebServiceConfiguration
 {
     struct os_unfair_lock_s _lock;
-    NSNumber *_version;
-    NSDictionary *_configuration;
-    NSURL *_configurationURL;
 }
 
 + (_Bool);
@@ -20,19 +17,19 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (double);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id)q;
 - (id);
 - (_Bool);
+- (id);
 - (id);
+- (id);
+- (_Bool);
+- (id);
 - (id);
 - (id);
 - (double);
@@ -51,7 +48,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
@@ -59,8 +56,8 @@
 - (id);
 - (_Bool);
 - (double);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)!;
 - (_Bool);
 - (id);
 - (id);
@@ -68,8 +65,8 @@
 - (double);
 - (double);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)�;
+- (id)@z ;
 - (id);
 - (id);
 - (_Bool);
@@ -80,12 +77,12 @@
 - (_Bool);
 - (id);
 - (double);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)ellDenied"b1"mptcpCellProxy"b1"mptcpFirstPartyAggregateAttempt"b1"mptcpFirstPartyHandoverAttempt"b1"mptcpFirstPartyInteractiveAttempt"b1"mptcpHandoverAllBytes"b1"mptcpHandoverAttempts"b1"mptcpHandoverCellBytes"b1"mptcpHandoverCellSubflowFromWiFi"b1"mptcpHandoverWiFiSubflowFromCell"b1"mptcpHandshakeAggregateSuccess"b1"mptcpHandshakeAggregateSuccessFirstParty"b1"mptcpHandshakeHandoverSuccessCell"b1"mptcpHandshakeHandoverSuccessCellFirstParty"b1"mptcpHandshakeHandoverSuccessWiFi"b1"mptcpHandshakeHandoverSuccessWiFiFirstParty"b1"mptcpHandshakeInteractiveSuccess"b1"mptcpHandshakeInteractiveSuccessFirstParty"b1"mptcpHeuristicFallback"b1"mptcpHeuristicFallbackFirstParty"b1"mptcpInteractiveAllBytes"b1"mptcpInteractiveAttempt"b1"mptcpInteractiveCellBytes"b1"mptcpInteractiveCellUsage"b1"mptcpTriggeredCell"b1"mptcpWiFiProxy"b1};
+- (id)psmWDAtIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)_suppressedParkingEvents;
+- (_Bool)_distanceToOtherPlaces;
+- (_Bool)rant;
+- (void)clearTxFWDelays;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -94,17 +91,16 @@
 - (id);
 - (_Bool);
 - (_Bool){CGContext=};
-- (id)ccountResults;
-- (_Bool)es;
+- (id)_topHitAccountResults;
+- (_Bool)_pendingPassUpgrades;
 - (id)N,V_invitation;
 - (double)dentialProvisioningControllerDelegate>",W,N,V_delegate;
 - (void)organizationName:'%@';  /* Error: Ran out of types for this method. */;
-- (id)NilVehicleDataInPreTrackRequestKey;
+- (id)PKSharingForceNilVehicleDataInPreTrackRequestKey;
 - (id)tion.fetchAllComplete;
 
 // Remaining properties
 @property(readonly, copy) NSDictionary *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSURL *configurationURL; // @synthesize configurationURL=_configurationURL;
 
 @end
 

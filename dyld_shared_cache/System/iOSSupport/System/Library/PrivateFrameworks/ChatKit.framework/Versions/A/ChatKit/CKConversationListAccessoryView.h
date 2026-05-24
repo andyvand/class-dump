@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, UIImageSymbolConfiguration, UIImageView, UIView, UIVisualEffectView;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface CKConversationListAccessoryView
 {
     _Bool _imageNeedsEdgeAntiAliasing;
-    _Bool _needsVisualEffects;
-    _Bool _needsVibrancy;
-    NSDictionary *_configStateMap;
-    UIView *_colorView;
-    UIVisualEffectView *_backgroundView;
-    UIVisualEffectView *_vibrancyView;
-    UIImageView *_imageView;
-    NSNumber *_lastKnownState;
 }
 
 + (id);
@@ -29,34 +21,34 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)websiteSuggestions;
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)e;
+- (_Bool)o;
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (_Bool)Fetched record from share %@;
+- (id)Show notes that match the selected tag:%@. /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void);
 - (id);
+- (id)A;
 - (void);
-- (id);
+- (id);
 - (id);
 - (id)!@ùÑð1Â0@ù
 × ;
-- (_Bool)etKtEnhancedProtectionStatusCellState:(struct CGPoint)arg1;
-- (void)mForKeyboard;
+- (_Bool)setKtEnhancedProtectionStatusCellState:(struct CGPoint)arg1;
+- (void)_isPresentingChatItemForKeyboard;
 - (void)V_labelMarginGuide;
-- (void)t29Fall2024SendMenuOrderProvider;
+- (void)_TtC7ChatKit29Fall2024SendMenuOrderProvider;
 - (void)$¢Ð¢°£T¤\¥|¦;
 - (void)AAyAAyAAyAAyAAyü÷'[GñI\GÛ[y/;
 - (id)%@ so refreshing service for sending.;
@@ -64,16 +56,7 @@ __attribute__((visibility("hidden")))
 - (void)x|ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) UIVisualEffectView *backgroundView; // @synthesize backgroundView=_backgroundView;
-@property(retain, nonatomic) UIView *colorView; // @synthesize colorView=_colorView;
 @property(retain, nonatomic) NSDictionary *configStateMap; // @synthesize configStateMap=_configStateMap;
-@property(nonatomic) _Bool imageNeedsEdgeAntiAliasing; // @synthesize imageNeedsEdgeAntiAliasing=_imageNeedsEdgeAntiAliasing;
-@property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(retain, nonatomic) NSNumber *lastKnownState; // @synthesize lastKnownState=_lastKnownState;
-@property(nonatomic) _Bool needsVibrancy; // @synthesize needsVibrancy=_needsVibrancy;
-@property(nonatomic) _Bool needsVisualEffects; // @synthesize needsVisualEffects=_needsVisualEffects;
-@property(retain, nonatomic) UIImageSymbolConfiguration *preferredSymbolConfiguration;
-@property(retain, nonatomic) UIVisualEffectView *vibrancyView; // @synthesize vibrancyView=_vibrancyView;
 
 @end
 

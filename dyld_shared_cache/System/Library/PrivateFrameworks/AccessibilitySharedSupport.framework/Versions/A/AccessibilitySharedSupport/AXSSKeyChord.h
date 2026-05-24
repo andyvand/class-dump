@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber;
+@class NSNumber;
 
 @interface AXSSKeyChord
 {
     NSNumber *_cachedIsFunctionKey;
-    NSNumber *_cachedContainsModifier;
-    NSArray *_keys;
 }
 
 @end

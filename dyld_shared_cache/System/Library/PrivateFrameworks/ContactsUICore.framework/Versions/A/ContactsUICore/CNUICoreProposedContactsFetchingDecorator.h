@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol CNSchedulerProvider, CNUICoreFamilyInfoFetching, CNUICoreFamilyMemberContactsModelFetching;
+@protocol CNUICoreFamilyMemberContactsModelFetching;
 
 @interface CNUICoreProposedContactsFetchingDecorator
 {
     id <CNUICoreFamilyMemberContactsModelFetching> _modelFetcher;
-    id <CNUICoreFamilyInfoFetching> _familyInfoFetcher;
-    id <CNSchedulerProvider> _schedulerProvider;
 }
 
 + (id);
@@ -23,19 +20,10 @@
 - (id);
 - (id);
 - (id);
-- (void)movingContacts: /* Error: Ran out of types for this method. */;
+- (void)updateListByRemovingContacts: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <CNUICoreFamilyInfoFetching> familyInfoFetcher; // @synthesize familyInfoFetcher=_familyInfoFetcher;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <CNUICoreFamilyMemberContactsModelFetching> modelFetcher; // @synthesize modelFetcher=_modelFetcher;
-@property(readonly, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
-@property(readonly) Class superclass;
 
 @end
 

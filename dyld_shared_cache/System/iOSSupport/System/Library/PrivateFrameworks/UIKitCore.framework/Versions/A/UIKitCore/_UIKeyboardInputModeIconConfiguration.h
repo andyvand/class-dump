@@ -8,23 +8,19 @@ __attribute__((visibility("hidden")))
 @interface _UIKeyboardInputModeIconConfiguration
 {
     _Bool _background;
-    _Bool _softwareLayout;
-    long long _weight;
-    double _scaleFactor;
-    struct CGSize _size;
 }
 
 + (id)e.UICoreHostingKeyboardTrackingElement;
 - (void);
-- (id);
+- (id)ֿ;
 - (unsigned long long);
 - (struct CGSize)1Â0@ù
 × ;
 - (void)Ð!üDùcð1Â0@ù
 × ;
-- (_Bool)aints;
-- (_Bool): /* Error: Ran out of types for this method. */;
-- (long long);
+- (_Bool)updateContentLayoutGuideConstraints;
+- (_Bool)_setSearchBarViewItem: /* Error: Ran out of types for this method. */;
+- (long long)_UIStatistics;
 - (void)oÄp;
 - (double);
 - (void)erviceSessionActivityRecord"8;
@@ -32,11 +28,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool background; // @synthesize background=_background;
-@property(nonatomic) double scaleFactor; // @synthesize scaleFactor=_scaleFactor;
 @property(nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(nonatomic) _Bool softwareLayout; // @synthesize softwareLayout=_softwareLayout;
-@property(nonatomic) long long weight; // @synthesize weight=_weight;
 
 @end
 

@@ -4,30 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface VCModeSpecificHardwareSettings
 {
     unsigned int _vcpEncoderUsageMode;
-    unsigned char _hardwareSettingsMode;
-    _Bool _supportVCPDecoderHEVC;
-    _Bool _supportVCPEncoderHEVC;
-    _Bool _vcpInitializedForHEVC;
-    NSString *_featureListStringHEVC;
-    NSString *_featureListStringH264;
-    NSString *_featureListStringFixedPositionHEVC;
-    NSString *_featureListStringFixedPositionH264;
-    unsigned int _tilesPerVideoFrame;
 }
 
-+ (unsigned int);
-- (_Bool);
++ (unsigned int));
+- (_Bool)!;
 - (_Bool);
 - (_Bool);
 - (void);
 - (unsigned int);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (unsigned int);
 - (id);
@@ -39,14 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *featureListStringFixedPositionH264; // @synthesize featureListStringFixedPositionH264=_featureListStringFixedPositionH264;
-@property(readonly, nonatomic) NSString *featureListStringFixedPositionHEVC; // @synthesize featureListStringFixedPositionHEVC=_featureListStringFixedPositionHEVC;
-@property(readonly, nonatomic) NSString *featureListStringH264; // @synthesize featureListStringH264=_featureListStringH264;
-@property(readonly, nonatomic) NSString *featureListStringHEVC; // @synthesize featureListStringHEVC=_featureListStringHEVC;
 @property(readonly, nonatomic) _Bool supportVCPDecoderHEVC; // @synthesize supportVCPDecoderHEVC=_supportVCPDecoderHEVC;
-@property(readonly, nonatomic) _Bool supportVCPEncoderHEVC; // @synthesize supportVCPEncoderHEVC=_supportVCPEncoderHEVC;
-@property(readonly, nonatomic) unsigned int tilesPerVideoFrame; // @synthesize tilesPerVideoFrame=_tilesPerVideoFrame;
-@property(readonly, nonatomic) _Bool vcpInitializedForHEVC; // @synthesize vcpInitializedForHEVC=_vcpInitializedForHEVC;
 
 @end
 

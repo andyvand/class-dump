@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PRLexiconCursor
 {
     PRLexicon *_lexicon;
-    struct _LXCursor *_cursor;
 }
 
 - (void);
@@ -23,9 +22,9 @@ __attribute__((visibility("hidden")))
 - (double);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)T;
 - (_Bool);
 
 @end

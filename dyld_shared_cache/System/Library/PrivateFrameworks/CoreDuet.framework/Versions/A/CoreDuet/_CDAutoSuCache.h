@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary;
+@class NSDictionary;
 
 @interface _CDAutoSuCache
 {
     NSDictionary *_predictedSleep;
-    NSDate *_predictedSleepValidityStartDate;
-    NSDate *_predictedSleepValidityEndDate;
 }
 
 + (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)l5;
+- (id)qg;
 - (id);
 - (id);
 - (id);
@@ -28,8 +26,6 @@
 
 // Remaining properties
 @property(retain) NSDictionary *predictedSleep; // @synthesize predictedSleep=_predictedSleep;
-@property(retain) NSDate *predictedSleepValidityEndDate; // @synthesize predictedSleepValidityEndDate=_predictedSleepValidityEndDate;
-@property(retain) NSDate *predictedSleepValidityStartDate; // @synthesize predictedSleepValidityStartDate=_predictedSleepValidityStartDate;
 
 @end
 

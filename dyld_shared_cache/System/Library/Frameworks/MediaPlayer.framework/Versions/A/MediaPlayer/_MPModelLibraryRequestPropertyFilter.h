@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _MPModelLibraryRequestPropertyFilter
 {
     NSArray *_keys;
-    NSString *_value;
-    long long _comparisonType;
 }
 
 + (_Bool);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)p;
+- (_Bool)centersWithPrincipleItems;
 - (void);
 - (id);
 - (id);
 - (long long);
-- (void)onWithTitle:type:commandEvent: /* Error: Ran out of types for this method. */;
+- (void)actionWithTitle:type:commandEvent: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long comparisonType; // @synthesize comparisonType=_comparisonType;
 @property(readonly, copy, nonatomic) NSArray *keys; // @synthesize keys=_keys;
-@property(readonly, copy, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

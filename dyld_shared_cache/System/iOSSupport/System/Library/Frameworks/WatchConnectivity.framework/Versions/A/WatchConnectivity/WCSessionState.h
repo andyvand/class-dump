@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, NSURL;
-
 @interface WCSessionState
 {
     _Bool _reachable;
-    _Bool _paired;
-    _Bool _appInstalled;
-    _Bool _complicationEnabled;
-    _Bool _standalone;
-    _Bool _companionAppInstalled;
-    _Bool _iOSDeviceNeedsFirstUnlock;
-    unsigned long long _remainingComplicationUserInfoTransfers;
-    NSString *_pairingID;
-    NSSet *_pairedDevicesPairingIDs;
-    NSString *_appInstallationID;
 }
 
 + (_Bool);
@@ -44,18 +32,7 @@
 ;
 
 // Remaining properties
-@property(readonly, copy) NSString *appInstallationID; // @synthesize appInstallationID=_appInstallationID;
-@property(readonly, getter=isAppInstalled) _Bool appInstalled; // @synthesize appInstalled=_appInstalled;
-@property(readonly, getter=isCompanionAppInstalled) _Bool companionAppInstalled; // @synthesize companionAppInstalled=_companionAppInstalled;
-@property(readonly, getter=isComplicationEnabled) _Bool complicationEnabled; // @synthesize complicationEnabled=_complicationEnabled;
-@property(readonly) _Bool iOSDeviceNeedsFirstUnlock; // @synthesize iOSDeviceNeedsFirstUnlock=_iOSDeviceNeedsFirstUnlock;
-@property(readonly, getter=isPaired) _Bool paired; // @synthesize paired=_paired;
-@property(readonly, copy) NSSet *pairedDevicesPairingIDs; // @synthesize pairedDevicesPairingIDs=_pairedDevicesPairingIDs;
-@property(readonly, copy) NSString *pairingID; // @synthesize pairingID=_pairingID;
 @property(readonly, getter=isReachable) _Bool reachable; // @synthesize reachable=_reachable;
-@property(readonly) unsigned long long remainingComplicationUserInfoTransfers; // @synthesize remainingComplicationUserInfoTransfers=_remainingComplicationUserInfoTransfers;
-@property(readonly, getter=isStandaloneApp) _Bool standalone; // @synthesize standalone=_standalone;
-@property(readonly, copy) NSURL *watchDirectoryURL;
 
 @end
 

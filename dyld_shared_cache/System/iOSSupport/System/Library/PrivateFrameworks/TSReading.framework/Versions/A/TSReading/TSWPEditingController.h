@@ -4,273 +4,217 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSDictionary, NSMutableDictionary, NSSet, NSString, TSDAutoscroll, TSDInteractiveCanvasController, TSDMultiPaneController, TSKFidgetResolver, TSKPopoverBasedViewController, TSKSelection, TSWPCharacterStyle, TSWPInteractiveCanvasController, TSWPSelection, TSWPStorage, TSWPTextKnobTracker, UIPopoverController, UIView;
-@protocol TSDAnnotationHosting, TSDEditor, TSDTextSelection, TSWPDismissBlockPopover;
+@class TSWPStorage;
 
 @interface TSWPEditingController
 {
     TSWPStorage *_storage;
-    unsigned long long _initialStorageChangeCount;
-    TSWPInteractiveCanvasController *_interactiveCanvasController;
-    UIPopoverController *_definitionPopoverController;
-    TSKPopoverBasedViewController<TSWPDismissBlockPopover> *_rubyTextViewController;
-    _Bool _cancelRubyText;
-    TSWPSelection *_selection;
-    struct _NSRange _markedRange;
-    NSAttributedString *_markedText;
-    TSWPCharacterStyle *_insertionStyle;
-    unsigned long long _selectionAnchor;
-    _Bool _coalescingText;
-    _Bool _canCoalesce;
-    _Bool _selectionLastModifiedWithKnob;
-    _Bool _selectionLastModifiedWithKeyboard;
-    _Bool _knobTracking;
-    _Bool _tapAndLongPressIsPossible;
-    _Bool _ignoreFutureImmediatePresses;
-    unsigned long long _knobTag;
-    struct CGPoint _knobTrackingDragPoint;
-    unsigned int _knobTrackingTapCount;
-    _Bool _isBecomingActive;
-    struct _NSRange _originalSelectionRange;
-    TSDAutoscroll *_autoscroll;
-    struct CGPoint _autoscrollPoint;
-    _Bool _magnifying;
-    NSArray *_suggestions;
-    id <TSDEditor> _hostEditor;
-    _Bool _suppressBreaks;
-    _Bool _suppressTabs;
-    _Bool _suppressPhonetics;
-    _Bool _disableInspector;
-    _Bool _supportsDataDetectors;
-    _Bool _isEditingPlainText;
-    _Bool _suppressEditMenu;
-    unsigned long long _initialPressTextSelectionGranularity;
-    _Bool _shouldShowEditMenuForInsertionPoint;
-    _Bool _showNextEditMenu;
-    struct CGPoint _knobToTouchOffset;
-    TSWPTextKnobTracker *_knobTracker;
-    _Bool _readyToEnd;
-    _Bool _shouldDisplayKeyboard;
-    TSKFidgetResolver *_fidgetResolver;
-    _Bool _editMenuIsVisible;
-    NSString *_mostRecentGestureKind;
-    _Bool _gestureBeganWhenEditingBegan;
-    _Bool _annotationWasShowingAtStartOfGesture;
-    unsigned long long _currentSelectionFlags;
-    NSDictionary *_tapInfo;
-    TSDMultiPaneController *_insertBreakPopoverController;
-    NSMutableDictionary *_dictationInterpretations;
-    NSMutableDictionary *_autocorrectedEntries;
-    id <TSDAnnotationHosting> _previousSelectedAnnotation;
-    UIView *_inputViewForHidingKeyboard;
-    _Bool _suppressDataDetectorsOnResignTextInput;
-    _Bool _canCoalesceBreakingCharacters;
 }
 
 + (id);
++ (id)n;
 + (id);
 + (id);
 + (id);
-+ (id);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
+- (long long)tring"8;
+- (void)nsportableExtension>"8;
+- (void)"16@?0@"<MPCQueueControllerBehaviorTransportableExtension>"8;
+- (void)estorableImplementation>"8;
+- (void)ent (unknown subclass %@);
 - (_Bool);
-- (double);
-- (int);
-- (void);
-- (void);
-- (id);
+- (double)deleted) for Radio tracklist;
+- (int)ath"16^B24;
+- (void)canPlayEncryptedProgressiveDownloadAssets;
+- (void)msc_nwTime;
+- (id)tack current item and queue controller current item;
+- (struct _NSRange)ttempt to compute playabilty of playlistEntity;
+- (id)erties for %@;
+- (_Bool)ricAVItem.LyricsOperationQueue;
+- (id)eam-provider-id;
+- (_Bool)ag"8@"ICURLAggregatedPerformanceMetrics"16@"NSError"24;
+- (unsigned long long);
+- (_Bool)privacy acknowledgement required] account=%@;
+- (id)with invalidationReason=%ld;
+- (id)rsonalizationContentDescriptor"8q16^B24;
+- (_Bool)ired] account=%@;
+- (id)=%@;
+- (struct CGRect)essful StorePlatform lookup:(id)arg1 %@;
+- (double)st is not for the paginated operation;
+- (void)^B24;
+- (_Bool)ullable __strong, MPModelGenericObject * _Nullable __strong);
+- (_Bool)msRequestAccumulation.m;
+- (_Bool);
+- (_Bool)AccumulatorProgressiveResult"8;
+- (_Bool)t from potentialModelClass | potentialModelClass=%@ identifierSet=%@;
+- (_Bool)led to create generic object from potentialModelClass | potentialModelClass=%@ identifierSet=%@;
+- (void)backRequestEnvironment=%@;
+- (id)ld;
 - (struct _NSRange);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (struct CGRect);
-- (double);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (struct _NSRange);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)from an existing shared queue.;
+- (_Bool):%@ /* Error: Ran out of types for this method. */;
+- (void)rt transitions;
+- (void)areForCreateStation;
+- (void)e tracklist.;
+- (void)bled;
+- (void)ueueControllerBehaviorMusic.m;
+- (void)etwork-operation-reason;
+- (void)a-wait-time;
+- (void)pe;
+- (void)em-performance-metrics;
+- (void)d-pause;
+- (void)te;
+- (void)rendering-mode;
+- (void)activation-end;
+- (void)emote-control-timeout;
+- (void)al-attenuation-statistics;
+- (void)time overflows int64 size:(id)arg1 %llu < %lld;
+- (void)mrGroupSessionID;
+- (void)ke;
+- (void)ICStoreServerError;
+- (void)typeUnknown;
+- (_Bool)Hz;
+- (_Bool)ChangeRate;
+- (_Bool)Downloaded;
+- (id)FirstAudioFrameBeforeItemBegin;
+- (id)can't be nil;
+- (void)checkpointAssetLoadEnd;
+- (_Bool)16@?0@"MRAVOutputDevice"8;
+- (struct _NSRange)Queue;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (struct _NSRange);
-- (void);
-- (void);
-- (id);
+- (id)trigger ;
 - (int);
+- (id)ailed to retrieve accessLog for player item ;
 - (id);
+- (void)playback type returned from player ;
+- (struct CGRect)Resetting stack;
+- (void);
+- (void)tion.;
+- (void)e [commandID:(id)arg1;
+- (void)ller - Attempting to set queue without a player - Stack:(struct CGPoint)arg1;
+- (void);
+- (void):(id)arg1;
+- (void)nternalPlayerController - Seek to time clamped to seekable time ranges ;
+- (_Bool)rget time: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (id)leted [playbackStartTimeOverride set on queue item] - target time:(id)arg1;
+- (void)ile idle [no player item, no pre-setQueue item] - time:(id)arg1;
+- (unsigned long long)- category:(id)arg1;
+- (_Bool)kground task - ;
+- (_Bool)ask started - ;
+- (_Bool)om.apple.amp.MediaFoundation.;
+- (void)playbackStall;
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (const void *);
-- (int);
-- (unsigned long long);
-- (const void *);
-- (const void *);
-- (unsigned long long);
-- (id);
+- (void)dioSessionController:(unsigned long long)arg1 -[AVAudioSession setActive:false] failed with error  /* Error: Ran out of types for this method. */;
+- (id)on are identical - No setup required;
+- (void)an now overlap playback;
+- (const void *)from interruption);
+- (int)R EVENT INJECTED   〔;
 - (unsigned long long);
 - (const void *);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (const void *);
+- (unsigned long long);
 - (id);
-- (_Bool);
+- (unsigned long long)IGNPOST                  ;
+- (const void *)end:(unsigned long long)arg1;
+- (_Bool)rent item ;
+- (_Bool)ntTime is too far back in the past and can't be use to generate a playbackTimeDidChange event;
+- (_Bool)ation received:(unsigned long long)arg1;
+- (_Bool)AVPlayerItemTimeJumpedReasonInterstitialResumptionOffset;
+- (_Bool)AVPlayerItemTimeJumpedReasonClientInitiated;
+- (_Bool)AVPlayerItemTimeJumpedReasonUnknown;
+- (void)aiting to minimize stalls;
 - (id);
+- (_Bool)eadyToPlay - timeStamp:(unsigned long long)arg1;
+- (id)itemDidFailToPlayToEnd:(id)arg1;
+- (void)itemDidFailToLoad:(struct _NSRange)arg1;
+- (void)ackDidEnd:(id)arg1 cancelled: /* Error: Ran out of types for this method. */;
+- (void):(id)arg1;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)timeStamp:(id)arg1;
 - (unsigned long long);
 - (unsigned long long);
-- (struct CGRect);
+- (struct CGRect)e time;
 - (id);
 - (struct _NSRange);
-- (double);
+- (double)tarting asset reload #############;
+- (id)Queue;
+- (id)setTask contentItemID: /* Error: Ran out of types for this method. */;
+- (void)ults with batchNumber=;
+- (struct __CFStringTokenizer *)lightweightPlus;
+- (void);
 - (id);
-- (id);
-- (void);
-- (struct __CFStringTokenizer *);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
-- (void);
+- (id)ue-source.catalog;
+- (id)nable to insert into queue;
+- (void)ue;
+- (void)dditionalUpcomingItems;
+- (unsigned long long)ntifiers in queue. Aborting.;
+- (unsigned long long)ybackQueue;
+- (unsigned long long)_allowsQueueModifications;
+- (void)hasUserMutations;
+- (void)IMAVPlayerPlaybackSpeedUserDefaultKey;
+- (_Bool)PlaybackRateMigrationAttempted;
+- (int)SkipForwardInterval;
 - (_Bool);
-- (int);
-- (_Bool);
-- (_Bool);
+- (_Bool)ybackCore.PodcastsArtworkDataSourceVisualIdenticalityToken;
 - (void);
 - (void);
-- (void);
-- (void);
-- (struct CGRect);
-- (unsigned long long);
+- (void)initialTransitionsMode;
+- (void)initialPrivateListeningMode;
+- (struct CGRect)playStartPosition;
+- (unsigned long long)newsSubscriptionData;
 - (struct _NSRange);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)smentConsumer;
+- (void)long playback stall;
+- (void)nsupported on macOS;
+- (void)tXSchemeURLPlaybackQueue;
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (struct CGRect);
-- (void);
-- (id);
+- (void)JumpScannerConfiguration;
+- (id)TransitionOffsetData;
 - (unsigned int);
-- (struct CGPoint);
+- (struct CGPoint)PausedAtQueueEndState;
+- (_Bool)MediaServicesResumingState;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)AssetTask;
+- (void)p;
 - (id);
-- (id);
+- (id)AsyncAssetReaderSequence;
 - (void);
 - (void);
-- (void);
+- (void)PlaybackStatisticsConsumer;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
+- (void);
+- (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)NMPCAssistantXSchemeURLErrorCode;
 - (void);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)NMPCPlaybackSessionManagerErrorCode;
 - (unsigned long long);
 - (id);
 - (unsigned long long);
@@ -279,26 +223,26 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (void);
+- (unsigned long long)0;
+- (void)4>;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)4;
+- (_Bool)=;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
+- (id)9;
 - (void);
 - (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (id)~;
 - (id);
 - (void);
 - (void);
@@ -306,19 +250,19 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (struct CGPoint);
-- (unsigned long long);
-- (_Bool);
 - (void);
 - (struct CGPoint);
+- (unsigned long long);
 - (_Bool);
+- (void);
+- (struct CGPoint);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -327,8 +271,8 @@
 - (void);
 - (id);
 - (id);
-- (struct _NSRange);
-- (void);
+- (struct _NSRange)eID=%{public}@;
+- (void)HistoryFeedPrewarmResult;
 - (void);
 - (void);
 - (unsigned long long);
@@ -340,13 +284,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)z;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)_;
 - (void);
 - (void);
 - (void);
@@ -356,10 +300,10 @@
 - (id);
 - (id)0@ù
 × ;
-- (long long)tWithBox:offset: /* Error: Ran out of types for this method. */;
-- (id);
-- (id)tion;
-- (id)ndleLookupClass;
+- (long long)initWithBox:offset: /* Error: Ran out of types for this method. */;
+- (id)contentsLayer;
+- (id)_duration;
+- (id)TSWPBundleLookupClass;
 - (void)d;
 - (struct _NSRange)Cache _createFontWithName:size:weight:] /* Error: Ran out of types for this method. */;
 - (struct CGRect);
@@ -368,99 +312,7 @@
 - (id)¼ïÿtÒW²;
 
 // Remaining properties
-@property(retain, nonatomic) TSDAutoscroll *autoscroll; // @synthesize autoscroll=_autoscroll;
-@property(nonatomic) struct CGPoint autoscrollPoint; // @synthesize autoscrollPoint=_autoscrollPoint;
-@property(nonatomic) _Bool canCoalesce; // @synthesize canCoalesce=_canCoalesce;
-@property(nonatomic) _Bool canCoalesceBreakingCharacters; // @synthesize canCoalesceBreakingCharacters=_canCoalesceBreakingCharacters;
 @property(nonatomic) _Bool coalescingText; // @synthesize coalescingText=_coalescingText;
-@property(readonly, nonatomic) unsigned long long currentSelectionFlags; // @synthesize currentSelectionFlags=_currentSelectionFlags;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableInspector; // @synthesize disableInspector=_disableInspector;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) id <TSDEditor> hostEditor; // @synthesize hostEditor=_hostEditor;
-@property(readonly, nonatomic) TSDInteractiveCanvasController *icc;
-@property(readonly, retain) UIView *inputAccessoryView;
-@property(readonly, retain) UIView *inputView;
-@property(nonatomic) unsigned long long insertionPoint;
-@property(readonly, nonatomic) TSWPCharacterStyle *insertionStyle; // @synthesize insertionStyle=_insertionStyle;
-@property(readonly, nonatomic) TSWPInteractiveCanvasController *interactiveCanvasController; // @synthesize interactiveCanvasController=_interactiveCanvasController;
-@property(nonatomic) _Bool isBecomingActive; // @synthesize isBecomingActive=_isBecomingActive;
-@property(nonatomic) _Bool isEditingPlainText; // @synthesize isEditingPlainText=_isEditingPlainText;
-@property(nonatomic) unsigned long long knobTag; // @synthesize knobTag=_knobTag;
-@property(nonatomic) _Bool knobTracking; // @synthesize knobTracking=_knobTracking;
-@property(nonatomic) struct CGPoint knobTrackingDragPoint; // @synthesize knobTrackingDragPoint=_knobTrackingDragPoint;
-@property(nonatomic) unsigned int knobTrackingTapCount; // @synthesize knobTrackingTapCount=_knobTrackingTapCount;
-@property(readonly, nonatomic) struct _NSRange markedRange;
-@property(readonly, nonatomic) NSAttributedString *markedText; // @synthesize markedText=_markedText;
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingConnectionLineAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingEndpoints;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingFill;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingOpacity;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingReflection;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingResize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingShadow;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingShrinkTextToFit;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingSmartShapeAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingStroke;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(readonly, nonatomic) NSSet *selectedObjectsSupportingTextInset;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R,N
-
-@property(retain, nonatomic) TSWPSelection *selection; // @synthesize selection=_selection;
-@property(retain, nonatomic) TSKSelection<TSDTextSelection> *selectionForArrowKeys;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"TSKSelection<TSDTextSelection>",?,&,N
-
-@property(readonly, nonatomic) _Bool selectionLastModifiedWithKeyboard; // @synthesize selectionLastModifiedWithKeyboard=_selectionLastModifiedWithKeyboard;
-@property(readonly, nonatomic) _Bool selectionLastModifiedWithKnob; // @synthesize selectionLastModifiedWithKnob=_selectionLastModifiedWithKnob;
-@property(nonatomic) _Bool shouldDisplayKeyboard; // @synthesize shouldDisplayKeyboard=_shouldDisplayKeyboard;
-@property(readonly, retain, nonatomic) TSWPStorage *storage; // @synthesize storage=_storage;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsDataDetectors; // @synthesize supportsDataDetectors=_supportsDataDetectors;
-@property(nonatomic) _Bool suppressBreaks; // @synthesize suppressBreaks=_suppressBreaks;
-@property(readonly, nonatomic) _Bool suppressDataDetectorsOnResignTextInput; // @synthesize suppressDataDetectorsOnResignTextInput=_suppressDataDetectorsOnResignTextInput;
-@property(nonatomic) _Bool suppressPhonetics; // @synthesize suppressPhonetics=_suppressPhonetics;
-@property(nonatomic) _Bool suppressTabs; // @synthesize suppressTabs=_suppressTabs;
-@property(readonly, nonatomic) _Bool suppressesTextInspector;
-@property(readonly, retain, nonatomic) TSKSelection<TSDTextSelection> *textInputSelection;
-@property(readonly) _Bool wantsRawArrowKeyEvents;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 
 @end
 

@@ -15,14 +15,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (double);
+- (id)Count [%@] and deviceConditionstoCheck is set to IMCheckNoDeviceConditions, changing it to IMCheckAllDeviceConditions;
+- (id)nloading purged attachments for chat %@;
+- (struct CGSize)s Failed to retrieve local file URL for %@:%@ /* Error: Ran out of types for this method. */;
+- (double)RELAY_ENROLLMENT_TEXT_MESSAGE_FORWARDING;
 - (id);
 - (id);
-- (struct CGSize);
 - (double);
-- (id);
-- (id);
-- (double);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)8-SHA256;
 - (void)ülÿ	ÏÚPNg;
 
 @end

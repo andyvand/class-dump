@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKProvisioningAnalyticsSessionCampaignAttributionSubjectHandle, PKProvisioningAnalyticsSessionMarketingSubjectHandle, PKProvisioningAnalyticsSessionProvisioningSubjectHandle, PKProvisioningAnalyticsState;
+@class PKProvisioningAnalyticsState;
 
 @interface PKProvisioningAnalyticsSession
 {
     PKProvisioningAnalyticsState *_state;
-    PKProvisioningAnalyticsSessionProvisioningSubjectHandle *_provisioningSubjectHandle;
-    PKProvisioningAnalyticsSessionMarketingSubjectHandle *_marketingSubjectHandle;
-    PKProvisioningAnalyticsSessionCampaignAttributionSubjectHandle *_campaignAttributionSubjectHandle;
-    _Bool _didBeginWalletProvisioningSubject;
 }
 
 + (id);
@@ -26,38 +22,33 @@
 - (void);
 - (void);
 - (void);
+- (void)TiL;
 - (void);
 - (void);
+- (void)iL;
 - (void);
 - (void);
+- (void)TIL;
+- (void);
+- (void)TIL;
+- (void)TIL;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void)suerInstallmentSetupExplanation;
+- (void)
+kB;
+- (void)!;
+- (void)issuerInstallmentSetupExplanation;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

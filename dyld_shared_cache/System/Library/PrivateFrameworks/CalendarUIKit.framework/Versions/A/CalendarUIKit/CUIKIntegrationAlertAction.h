@@ -9,18 +9,15 @@
 @interface CUIKIntegrationAlertAction
 {
     CDUnknownBlockType _handler;
-    NSString *_title;
-    long long _style;
 }
 
-- (void)Ráªâªãª4Êú;
+- (void);
 - (id);
 - (long long);
 - (id);
 - (void)@24;
 
 // Remaining properties
-@property(readonly, nonatomic) long long style; // @synthesize style=_style;
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

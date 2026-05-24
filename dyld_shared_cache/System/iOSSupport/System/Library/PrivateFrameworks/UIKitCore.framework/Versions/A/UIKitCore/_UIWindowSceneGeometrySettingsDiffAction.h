@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIApplicationSceneSettingsDiffInspector;
+@class UIApplicationSceneSettingsDiffInspector;
 
 __attribute__((visibility("hidden")))
 @interface _UIWindowSceneGeometrySettingsDiffAction
@@ -15,19 +15,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)g°1Â0@ù
 × ;
-- (id)letion: /* Error: Ran out of types for this method. */;
-- (void)plicationDidResume:(id)arg1;
+- (id)_internal_prewarmUnderlyingPlayerWithCompletion: /* Error: Ran out of types for this method. */;
+- (void)_applicationDidResume:(id)arg1;
 - (void)¬Ðþÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UIApplicationSceneSettingsDiffInspector *sceneSettingsGeometryMutationDiffInspector; // @synthesize sceneSettingsGeometryMutationDiffInspector=_sceneSettingsGeometryMutationDiffInspector;
-@property(readonly) Class superclass;
 
 @end
 

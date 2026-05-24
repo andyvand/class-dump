@@ -6,20 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PNRODSchemaPNRODMetricDuration, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PNRODSchemaPNRODPQAMetrics : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_searchToolId;
-    PNRODSchemaPNRODMetricDuration *_overallTime;
-    PNRODSchemaPNRODMetricDuration *_llmQUTotalTime;
-    PNRODSchemaPNRODMetricDuration *_spotlightTotalTime;
-    PNRODSchemaPNRODMetricDuration *_answerSynthesisTime;
-    _Bool _hasSearchToolId;
-    _Bool _hasOverallTime;
-    _Bool _hasLlmQUTotalTime;
-    _Bool _hasSpotlightTotalTime;
-    _Bool _hasAnswerSynthesisTime;
 }
 
 - (id);
@@ -35,16 +26,16 @@
 - (id);
 - (id);
 - (id);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
@@ -52,25 +43,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)HasAttachments %@ isPlugin %@ isCMM %@ messageSupportsIndexing %@;
 - (id);
 - (id);
-- (id)ricClassified;
+- (id)_manualEditMetricClassified;
 - (id)nse;
-- (void)TCOME_DIFF_DOMAIN;
+- (void)EXPSIRIDIFFOUTCOME_DIFF_DOMAIN;
 
 // Remaining properties
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *answerSynthesisTime; // @synthesize answerSynthesisTime=_answerSynthesisTime;
-@property(nonatomic) _Bool hasAnswerSynthesisTime; // @synthesize hasAnswerSynthesisTime=_hasAnswerSynthesisTime;
-@property(nonatomic) _Bool hasLlmQUTotalTime; // @synthesize hasLlmQUTotalTime=_hasLlmQUTotalTime;
-@property(nonatomic) _Bool hasOverallTime; // @synthesize hasOverallTime=_hasOverallTime;
-@property(nonatomic) _Bool hasSearchToolId; // @synthesize hasSearchToolId=_hasSearchToolId;
-@property(nonatomic) _Bool hasSpotlightTotalTime; // @synthesize hasSpotlightTotalTime=_hasSpotlightTotalTime;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *llmQUTotalTime; // @synthesize llmQUTotalTime=_llmQUTotalTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *overallTime; // @synthesize overallTime=_overallTime;
 @property(retain, nonatomic) SISchemaUUID *searchToolId; // @synthesize searchToolId=_searchToolId;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *spotlightTotalTime; // @synthesize spotlightTotalTime=_spotlightTotalTime;
 
 @end
 

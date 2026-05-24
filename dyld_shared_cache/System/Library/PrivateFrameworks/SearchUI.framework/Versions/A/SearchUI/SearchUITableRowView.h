@@ -9,13 +9,9 @@
 @interface SearchUITableRowView
 {
     _Bool _alwaysEmphasized;
-    _Bool _nextRowIsGroup;
-    int _separatorStyle;
-    NSView *_separatorView;
-    NSView *_selectionView;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -23,14 +19,14 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)_AMAuthInstallMonetStitchMav25Chunk;
 - (id);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)8"B8!b@;
 - (_Bool);
 - (void);
 - (void);
@@ -38,10 +34,6 @@
 - (int);
 
 // Remaining properties
-@property(nonatomic) _Bool alwaysEmphasized; // @synthesize alwaysEmphasized=_alwaysEmphasized;
-@property(nonatomic) _Bool nextRowIsGroup; // @synthesize nextRowIsGroup=_nextRowIsGroup;
-@property(retain, nonatomic) NSView *selectionView; // @synthesize selectionView=_selectionView;
-@property(nonatomic) int separatorStyle; // @synthesize separatorStyle=_separatorStyle;
 @property(retain, nonatomic) NSView *separatorView; // @synthesize separatorView=_separatorView;
 
 @end

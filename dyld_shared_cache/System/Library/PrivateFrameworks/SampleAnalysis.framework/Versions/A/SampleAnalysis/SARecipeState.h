@@ -4,37 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SAThread, SAThreadState;
+@class SAThread;
 
 __attribute__((visibility("hidden")))
 @interface SARecipeState
 {
     SAThread *_thread;
-    unsigned long long _threadStateIndex;
 }
 
 + (id);
-+ (id);
++ (id)accessibilityLanguage;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void)C;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly) SAThread *thread; // @synthesize thread=_thread;
-@property(readonly) SAThreadState *threadState;
-@property(readonly) unsigned long long threadStateIndex;
 
 @end
 

@@ -4,18 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @protocol _CPSearchSuggestionForFeedback
+- (void)sedTimeline>>, Traits = WTF:(NSString *)arg1:HashTraits<WTF::Ref<WebKit::RemoteProgressBasedTimeline>>, KeyTraits = WTF::HashTraits<WTF::Ref<WebKit::RemoteProgressBasedTimeline>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void);
+- (NSString *)CompletionHandler<void (bool)> &&);
+- (NSString *)working for background view(s);
+- (void)a;
+- (NSString *)i;
+- (double)rror"16;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *fbr;
 @property(copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *query;
-@property(nonatomic) double score;
-@property(copy, nonatomic) NSString *suggestion;
-@property(copy, nonatomic) NSString *topicIdentifier;
-@property(nonatomic) int type;
 @end
 

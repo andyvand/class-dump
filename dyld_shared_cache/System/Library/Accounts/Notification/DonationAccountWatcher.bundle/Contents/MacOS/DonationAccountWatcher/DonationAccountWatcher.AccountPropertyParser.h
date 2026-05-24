@@ -7,7 +7,6 @@
 @interface DonationAccountWatcher.AccountPropertyParser
 {
     id donationDate;
-    id expirationDate;
 }
 
 - (id);

@@ -13,7 +13,7 @@
     NSArray *_insertedRecords;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);

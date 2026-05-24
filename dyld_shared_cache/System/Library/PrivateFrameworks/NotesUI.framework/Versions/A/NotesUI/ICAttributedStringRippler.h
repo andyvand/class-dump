@@ -4,39 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSAttributedString, NSFont;
+@class NSAttributedString;
 
 @interface ICAttributedStringRippler
 {
     _Bool _reduceMotion;
-    NSAttributedString *_string;
-    NSArray *_colors;
-    NSArray *_shadowColors;
-    NSArray *_scales;
-    double _startTime;
-    unsigned long long _preFrames;
-    unsigned long long _animateFrames;
-    unsigned long long _postFrames;
-    unsigned long long _delayFrames;
-    NSFont *_initialFont;
-    double _initialFontSize;
-    struct _NSRange _animatedRange;
 }
 
 + (_Bool);
 + (unsigned long long);
-+ (double);
++ (double)policyAttributeMinutesUntilFailedAuthenticationReset;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)A;
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -46,40 +34,26 @@
 - (void);
 - (double);
 - (void);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (double);
+- (unsigned long long)4;
 - (unsigned long long);
 - (id);
 - (double);
+- (unsigned long long);
+- (id);
+- (double)16topLevelReminderSi0bcD5IndexSayAAG8subtaskst;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)h6�;
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (void)ndAlpha;
 
 // Remaining properties
-@property(nonatomic) unsigned long long animateFrames; // @synthesize animateFrames=_animateFrames;
-@property(nonatomic) struct _NSRange animatedRange; // @synthesize animatedRange=_animatedRange;
-@property(copy, nonatomic) NSArray *colors; // @synthesize colors=_colors;
-@property(readonly, nonatomic) unsigned long long currentTimeIndex;
-@property(nonatomic) unsigned long long delayFrames; // @synthesize delayFrames=_delayFrames;
-@property(readonly, nonatomic) unsigned long long finishedTimeIndex;
-@property(retain, nonatomic) NSFont *initialFont; // @synthesize initialFont=_initialFont;
-@property(nonatomic) double initialFontSize; // @synthesize initialFontSize=_initialFontSize;
-@property(nonatomic) unsigned long long postFrames; // @synthesize postFrames=_postFrames;
-@property(nonatomic) unsigned long long preFrames; // @synthesize preFrames=_preFrames;
-@property(nonatomic) _Bool reduceMotion; // @synthesize reduceMotion=_reduceMotion;
-@property(copy, nonatomic) NSArray *scales; // @synthesize scales=_scales;
-@property(copy, nonatomic) NSArray *shadowColors; // @synthesize shadowColors=_shadowColors;
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
 @property(copy, nonatomic) NSAttributedString *string; // @synthesize string=_string;
 
 @end

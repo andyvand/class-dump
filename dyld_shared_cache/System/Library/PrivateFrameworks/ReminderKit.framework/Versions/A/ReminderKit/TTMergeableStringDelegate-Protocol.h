@@ -5,5 +5,6 @@
 //
 
 @protocol TTMergeableStringDelegate
+- (void)A;
 @end
 

@@ -7,8 +7,6 @@
 @interface IDSFoundation.IDSConnectRelayLinksByInterfaceTypePlugin
 {
     id name;
-    id state;
-    id nowProvider;
 }
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface VCCommandCollectionObjC
 {
@@ -18,14 +18,11 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)"CHDatabaseClientHandleManager",R,N;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSArray *commandIdentifiers;
-@property(nonatomic, readonly) NSArray *commandIdentifiersForCurrentDevice;
 @property(nonatomic, readonly) NSString *identifier;
-@property(nonatomic, readonly) _Bool showInSettings;
 
 @end
 

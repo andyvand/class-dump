@@ -5,5 +5,11 @@
 //
 
 @protocol UIScrollViewDelegate
+
+@optional
+- (void);
+- (void)ddFinal;
+- (void)TSCHChartSeriesDefaultSeriesTypeProperty;
+- (void);
 @end
 

@@ -9,7 +9,6 @@
 @interface PXStoryConcreteResource
 {
     NSString *_identifier;
-    long long _kind;
 }
 
 - (long long);
@@ -22,15 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *px_storyResourceIdentifier; // @synthesize px_storyResourceIdentifier=_identifier;
-@property(readonly, nonatomic) long long px_storyResourceKind; // @synthesize px_storyResourceKind=_kind;
-@property(readonly) Class superclass;
 
 @end
 

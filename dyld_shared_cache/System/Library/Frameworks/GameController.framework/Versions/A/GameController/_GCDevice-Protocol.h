@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-@protocol NSObject><NSCopying><NSSecureCoding, _GCDeviceManager;
+@protocol NSObject><NSCopying><NSSecureCoding;
 
 @protocol _GCDevice
+- (id);
 
 // Remaining properties
-@property(readonly) NSSet *components;
 @property(readonly, copy) id <NSObject><NSCopying><NSSecureCoding> identifier;
-@property(readonly) __weak id <_GCDeviceManager> manager;
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICAccount, NSWindow;
+@class ICAccount;
 
 @interface ICAccountPassphraseManager
 {
     ICAccount *_account;
-    NSWindow *_window;
 }
 
 - (void);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) ICAccount *account; // @synthesize account=_account;
-@property(nonatomic) __weak NSWindow *window; // @synthesize window=_window;
 
 @end
 

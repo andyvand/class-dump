@@ -14,7 +14,6 @@
 - (struct opaqueCMFormatDescription *);
 
 // Remaining properties
-@property(readonly) struct opaqueCMFormatDescription *formatDescription;
 @property(readonly) unsigned int mediaType;
 
 @end

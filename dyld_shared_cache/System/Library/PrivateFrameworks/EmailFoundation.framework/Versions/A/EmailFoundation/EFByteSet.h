@@ -16,8 +16,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)setUntranslatedLocale: /* Error: Ran out of types for this method. */;
+- (id)out of device identity
+;
 - (id)Â0@ù
 × ;
 

@@ -7,14 +7,6 @@
 @interface AWDProactiveModelFittingSparseFloatMatrix
 {
     CDStruct_62a50c50 _columnIndices;
-    CDStruct_62a50c50 _rowIndices;
-    CDStruct_fae3dc92 _values;
-    unsigned long long _columnLength;
-    unsigned long long _rowLength;
-    struct {
-        unsigned int columnLength:1;
-        unsigned int rowLength:1;
-    } _has;
 }
 
 + (id);
@@ -27,47 +19,38 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned long long *);
+- (unsigned long long *);
 - (_Bool);
 - (unsigned long long);
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long *);
-- (void);
+- (unsigned long long *);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
+- (void)!;
 - (unsigned long long);
 - (float);
 - (void);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)tableGroup;
+- (unsigned long long)in DeviceCapabilityUsageSQLTable for containerID %@:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
+- (void)@;
 - (float *);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long *columnIndices;
 @property(readonly, nonatomic) unsigned long long columnIndicesCount;
-@property(nonatomic) unsigned long long columnLength; // @synthesize columnLength=_columnLength;
-@property(nonatomic) _Bool hasColumnLength;
-@property(nonatomic) _Bool hasRowLength;
-@property(readonly, nonatomic) unsigned long long *rowIndices;
-@property(readonly, nonatomic) unsigned long long rowIndicesCount;
-@property(nonatomic) unsigned long long rowLength; // @synthesize rowLength=_rowLength;
-@property(readonly, nonatomic) float *values;
-@property(readonly, nonatomic) unsigned long long valuesCount;
 
 @end
 

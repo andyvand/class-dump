@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, NSURL, TRIAppContainer;
+@class NSURL;
 
 @interface TRINamespaceOptionalParams
 {
     _Bool _expensiveNetworkingAllowed;
-    _Bool _enableFetchDuringSetupAssistant;
-    _Bool _availableToRootUser;
-    int _cloudKitContainerId;
-    int _purgeabilityLevel;
-    NSURL *_factorsURL;
-    TRIAppContainer *_appContainer;
-    NSSet *_upgradeNCVs;
-    NSString *_resourceAttributionIdentifier;
 }
 
 - (void);
 - (void);
 - (_Bool);
+- (id).apple.ScreenTime.communicationSafetyChanged;
+- (void);
+- (void)_removeBlockingEntriesWithData:(int)arg1 startIndex:count:extensionID:error: /* Error: Ran out of types for this method. */;
+- (int)t zlib;
 - (id);
 - (void);
-- (void);
-- (int);
-- (id);
-- (void);
-- (void);
+- (void)getUnattenuatedCutoffFrequency = %f;
 - (id);
 - (id);
 - (void);
@@ -42,15 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) TRIAppContainer *appContainer; // @synthesize appContainer=_appContainer;
-@property(nonatomic) _Bool availableToRootUser; // @synthesize availableToRootUser=_availableToRootUser;
-@property(nonatomic) int cloudKitContainerId; // @synthesize cloudKitContainerId=_cloudKitContainerId;
-@property(nonatomic) _Bool enableFetchDuringSetupAssistant; // @synthesize enableFetchDuringSetupAssistant=_enableFetchDuringSetupAssistant;
-@property(nonatomic) _Bool expensiveNetworkingAllowed; // @synthesize expensiveNetworkingAllowed=_expensiveNetworkingAllowed;
 @property(copy, nonatomic) NSURL *factorsURL; // @synthesize factorsURL=_factorsURL;
-@property(nonatomic) int purgeabilityLevel; // @synthesize purgeabilityLevel=_purgeabilityLevel;
-@property(copy, nonatomic) NSString *resourceAttributionIdentifier; // @synthesize resourceAttributionIdentifier=_resourceAttributionIdentifier;
-@property(copy, nonatomic) NSSet *upgradeNCVs; // @synthesize upgradeNCVs=_upgradeNCVs;
 
 @end
 

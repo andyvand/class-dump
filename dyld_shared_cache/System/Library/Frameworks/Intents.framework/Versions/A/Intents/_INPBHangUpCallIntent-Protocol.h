@@ -7,12 +7,10 @@
 @class NSString, _INPBIntentMetadata;
 
 @protocol _INPBHangUpCallIntent
-- (_Bool)luetoothIdentifier;
+- (_INPBIntentMetadata *)@?0@"TMBackup"8Q16;
+- (_Bool)bluetoothIdentifier;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *callIdentifier;
-@property(readonly, nonatomic) _Bool hasCallIdentifier;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
 @end
 

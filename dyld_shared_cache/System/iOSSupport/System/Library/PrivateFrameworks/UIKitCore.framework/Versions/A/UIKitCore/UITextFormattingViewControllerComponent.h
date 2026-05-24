@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool)nBoundingBoxForTextInput:(id)arg1;
+- (_Bool)selectionBoundingBoxForTextInput:(id)arg1;
 - (void)initWithSourceArchivePath:(id)arg1 destinationExtractionRootPath: /* Error: Ran out of types for this method. */;
 - (id)&,VblurOutSpring;
 - (void)LÆ;ÿú hUa;

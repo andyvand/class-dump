@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol HAP2Accessory;
+
 @protocol HAP2AccessoryDelegate
+
+@optional
+- (void)h:(id <HAP2Accessory>)arg1 sourcePixelHeight:sourcePreferredCropRectNormalized:sourceAcceptableCropRectNormalized:sourceFaceAreaRectNormalized: /* Error: Ran out of types for this method. */;
 @end
 

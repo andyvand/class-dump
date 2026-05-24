@@ -7,9 +7,6 @@
 @interface NewsFeed.NotificationsFeaturePromotionEligibilityProvider
 {
     id notification;
-    id userNotificationSettingsManager;
-    id subscriptionController;
-    id tagService;
 }
 
 @end

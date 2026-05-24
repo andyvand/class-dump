@@ -4,22 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber;
-
 @interface UARPManifestProperties
 {
     _Bool _securityMode;
-    _Bool _productionMode;
-    _Bool _effectiveProductionMode;
-    _Bool _effectiveSecurityMode;
-    _Bool _supportsImg4;
-    unsigned int _boardID;
-    unsigned int _chipID;
-    unsigned long long _securityDomain;
-    NSNumber *_ecID;
-    NSData *_nonce;
-    NSNumber *_chipEpoch;
-    NSNumber *_enableMixMatch;
 }
 
 + (_Bool);
@@ -31,11 +18,11 @@
 - (void);
 - (void);
 - (const char *);
-- (unsigned long long);
+- (unsigned long long)T;
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)T;
 - (_Bool);
 - (id);
 - (id);
@@ -43,27 +30,17 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (unsigned int);
 - (_Bool);
 - (void);
-- (id);
+- (id)Jۢrj
+J;
 - (void);
-- (id);
+- (id)COMPLETED;
 
 // Remaining properties
 @property(readonly) unsigned int boardID; // @synthesize boardID=_boardID;
-@property(retain) NSNumber *chipEpoch; // @synthesize chipEpoch=_chipEpoch;
-@property(readonly) unsigned int chipID; // @synthesize chipID=_chipID;
-@property(retain) NSNumber *ecID; // @synthesize ecID=_ecID;
-@property _Bool effectiveProductionMode; // @synthesize effectiveProductionMode=_effectiveProductionMode;
-@property _Bool effectiveSecurityMode; // @synthesize effectiveSecurityMode=_effectiveSecurityMode;
-@property(retain) NSNumber *enableMixMatch; // @synthesize enableMixMatch=_enableMixMatch;
-@property(copy) NSData *nonce; // @synthesize nonce=_nonce;
-@property(readonly) _Bool productionMode; // @synthesize productionMode=_productionMode;
-@property(readonly) unsigned long long securityDomain; // @synthesize securityDomain=_securityDomain;
-@property(readonly) _Bool securityMode; // @synthesize securityMode=_securityMode;
-@property _Bool supportsImg4; // @synthesize supportsImg4=_supportsImg4;
 
 @end
 

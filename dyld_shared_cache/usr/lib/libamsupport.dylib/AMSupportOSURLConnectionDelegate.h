@@ -4,40 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSError, NSMutableData, NSString, NSURLResponse;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface AMSupportOSURLConnectionDelegate
 {
     _Bool requestComplete;
-    NSDictionary *options;
-    NSURLResponse *response;
-    NSMutableData *_data;
-    NSError *_error;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);;
 - (id);
-- (id);
+- (id)(;
+- (void)with error:(id)arg1 %@;
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)B	;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HIDEventSystemClient, HIDManager, NSObject, NSPointerArray;
-@protocol OS_dispatch_queue;
+@class HIDEventSystemClient;
 
 @interface AXEPhysicalKeyboard
 {
     _Bool _isFnDown;
-    HIDEventSystemClient *__hidEventSystemClient;
-    HIDManager *__hidManager;
-    NSObject<OS_dispatch_queue> *__physicalKeyboardQueue;
-    NSPointerArray *__listeners;
 }
 
 + (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)Q;
 - (id);
 - (void);
 - (void);
@@ -37,22 +32,13 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) HIDEventSystemClient *_hidEventSystemClient; // @synthesize _hidEventSystemClient=__hidEventSystemClient;
-@property(retain, nonatomic) HIDManager *_hidManager; // @synthesize _hidManager=__hidManager;
-@property(retain, nonatomic) NSPointerArray *_listeners; // @synthesize _listeners=__listeners;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *_physicalKeyboardQueue; // @synthesize _physicalKeyboardQueue=__physicalKeyboardQueue;
-@property(readonly, nonatomic) _Bool isCapsLockDown;
-@property(readonly, nonatomic) _Bool isCommandDown;
-@property(readonly, nonatomic) _Bool isControlDown;
-@property(readonly, nonatomic) _Bool isFnDown; // @synthesize isFnDown=_isFnDown;
-@property(readonly, nonatomic) _Bool isOptionDown;
-@property(readonly, nonatomic) _Bool isShiftDown;
 
 @end
 

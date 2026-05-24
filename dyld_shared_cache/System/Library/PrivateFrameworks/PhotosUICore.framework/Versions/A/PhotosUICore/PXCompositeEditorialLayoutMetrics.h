@@ -9,9 +9,6 @@
 @interface PXCompositeEditorialLayoutMetrics
 {
     _Bool _useSaliency;
-    double _interTileSpacing;
-    PXCompositeEditorialLayoutSpec *_editorialLayoutSpec;
-    struct NSEdgeInsets _padding;
 }
 
 - (_Bool);
@@ -20,16 +17,13 @@
 - (id);
 - (void);
 - (id);
-- (id)nitWithSpec:(struct _NSZone *)arg1 viewModel: /* Error: Ran out of types for this method. */;
+- (id)initWithSpec:(struct _NSZone *)arg1 viewModel: /* Error: Ran out of types for this method. */;
 - (void);
 - (struct NSEdgeInsets)MN¬ð>;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) PXCompositeEditorialLayoutSpec *editorialLayoutSpec; // @synthesize editorialLayoutSpec=_editorialLayoutSpec;
-@property(nonatomic) double interTileSpacing; // @synthesize interTileSpacing=_interTileSpacing;
-@property(nonatomic) struct NSEdgeInsets padding; // @synthesize padding=_padding;
-@property(nonatomic) _Bool useSaliency; // @synthesize useSaliency=_useSaliency;
 
 @end
 

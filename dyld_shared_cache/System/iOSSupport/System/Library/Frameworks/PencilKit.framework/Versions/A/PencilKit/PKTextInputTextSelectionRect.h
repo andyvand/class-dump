@@ -9,7 +9,7 @@
     struct CGRect _rect;
 }
 
-- (struct CGRect);
+- (struct CGRect)�#;
 - (id);
 
 @end

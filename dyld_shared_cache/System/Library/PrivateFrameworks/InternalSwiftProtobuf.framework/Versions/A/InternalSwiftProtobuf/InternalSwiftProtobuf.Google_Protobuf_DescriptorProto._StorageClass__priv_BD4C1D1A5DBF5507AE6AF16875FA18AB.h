@@ -7,16 +7,6 @@
 @interface InternalSwiftProtobuf.Google_Protobuf_DescriptorProto._StorageClass__priv_BD4C1D1A5DBF5507AE6AF16875FA18AB
 {
     id _name;
-    id _field;
-    id _extension;
-    id _nestedType;
-    id _enumType;
-    id _extensionRange;
-    id _oneofDecl;
-    id _options;
-    id _reservedRange;
-    id _reservedName;
-    id _visibility;
 }
 
 @end

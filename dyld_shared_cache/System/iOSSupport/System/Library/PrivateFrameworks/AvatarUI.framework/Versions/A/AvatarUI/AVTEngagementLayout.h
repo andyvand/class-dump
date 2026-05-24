@@ -9,11 +9,6 @@
 @interface AVTEngagementLayout
 {
     _Bool _useEngagementSpacing;
-    CDUnknownBlockType _interItemSpacingProvider;
-    id <AVTUILogger> _logger;
-    struct CGSize _defaultCellSize;
-    struct CGSize _engagedCellSize;
-    struct UIEdgeInsets _engagementBoundsInsets;
 }
 
 + (double);
@@ -53,12 +48,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGSize defaultCellSize; // @synthesize defaultCellSize=_defaultCellSize;
-@property(readonly, nonatomic) struct CGSize engagedCellSize; // @synthesize engagedCellSize=_engagedCellSize;
-@property(nonatomic) struct UIEdgeInsets engagementBoundsInsets; // @synthesize engagementBoundsInsets=_engagementBoundsInsets;
-@property(readonly, copy, nonatomic) CDUnknownBlockType interItemSpacingProvider; // @synthesize interItemSpacingProvider=_interItemSpacingProvider;
 @property(readonly, nonatomic) id <AVTUILogger> logger; // @synthesize logger=_logger;
-@property(nonatomic) _Bool useEngagementSpacing; // @synthesize useEngagementSpacing=_useEngagementSpacing;
 
 @end
 

@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTileLoader, NSString, _GEOMapFeatureAccessRequest, _GEOMapFeatureAccessRequestParameters;
+@class _GEOMapFeatureAccessRequestParameters;
 
 __attribute__((visibility("hidden")))
 @interface GEOMapFeatureTileFinder
 {
     _GEOMapFeatureAccessRequestParameters *_requestParameters;
-    unsigned long long _zoomLevel;
-    int _tileSize;
-    int _tileScale;
-    int _tileSetStyle;
-    NSString *_tileLoaderClientIdentifier;
-    GEOTileLoader *_tileLoader;
-    _GEOMapFeatureAccessRequest *_tileFinderRequest;
 }
 
 - (void);
@@ -25,10 +18,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (struct _GEOTileKey);
+- (id)setUnknown: /* Error: Ran out of types for this method. */;
+- (id)setTimeZone: /* Error: Ran out of types for this method. */;
+- (id)nextBufferedObject;
+- (struct _GEOTileKey)addressingGrammarAccessStatusLock;
 - (void)B3;
 
 @end

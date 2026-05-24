@@ -9,9 +9,6 @@
 @interface NFCardMigrationPaymentInfo
 {
     unsigned char _merchantCapabilities;
-    NSString *_appletIdentifier;
-    NSString *_currencyCode;
-    NSString *_countryCode;
 }
 
 + (_Bool);
@@ -29,9 +26,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *appletIdentifier; // @synthesize appletIdentifier=_appletIdentifier;
-@property(retain, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(retain, nonatomic) NSString *currencyCode; // @synthesize currencyCode=_currencyCode;
-@property(nonatomic) unsigned char merchantCapabilities; // @synthesize merchantCapabilities=_merchantCapabilities;
 
 @end
 

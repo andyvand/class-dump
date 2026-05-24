@@ -7,13 +7,11 @@
 @interface AWDSafariSafeBrowsingUserActionAfterSeeingWarningEvent
 {
     unsigned long long _timestamp;
-    int _action;
-    CDStruct_399b966a _has;
 }
 
 - (void);
 - (_Bool);
-- (int);
+- (int);
 - (id);
 - (id);
 - (void);
@@ -23,19 +21,16 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void)?;
 - (void);
-- (void);
-- (void);
+- (void).;
 - (id);
 - (id);
 - (int);
 - (void);
 
 // Remaining properties
-@property(nonatomic) int action; // @synthesize action=_action;
-@property(nonatomic) _Bool hasAction;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

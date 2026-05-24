@@ -7,18 +7,15 @@
 @interface MUIManualSummaryController
 {
     id underlying;
-    id messages;
-    id isInlineSummary;
-    id donationManager;
 }
 
 + (_Bool);
 + (_Bool);
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void)zedStringForKey:value:table: /* Error: Ran out of types for this method. */;
+- (void)localizedStringForKey:value:table: /* Error: Ran out of types for this method. */;
 
 @end
 

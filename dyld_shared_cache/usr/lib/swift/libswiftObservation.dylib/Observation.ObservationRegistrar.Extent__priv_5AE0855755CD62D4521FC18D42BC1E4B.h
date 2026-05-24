@@ -7,6 +7,7 @@
 @interface Observation.ObservationRegistrar.Extent__priv_5AE0855755CD62D4521FC18D42BC1E4B
 {
     id context;
+    id;
 }
 
 @end

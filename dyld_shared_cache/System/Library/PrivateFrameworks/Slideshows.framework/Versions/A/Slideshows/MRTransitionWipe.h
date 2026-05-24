@@ -9,14 +9,6 @@
 @interface MRTransitionWipe : MRTransition
 {
     double _progressInternal;
-    double _progressAim;
-    double _angle;
-    double _angleAim;
-    double _x;
-    double _y;
-    _Bool _isManuallyTransitioning;
-    _Bool _isFinishing;
-    _Bool _isCanceling;
 }
 
 + (void)è;
@@ -25,9 +17,9 @@
 - (double);
 - (double);
 - (double);
-- (_Bool);
+- (_Bool)cellularRadioAccessTechnology;
 - (double);
-- (_Bool);
+- (_Bool)=;
 - (void);
 - (void);
 

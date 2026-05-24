@@ -4,32 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDecimalNumber, NSString, PKAuthorizedPeerPaymentQuote, PKPeerPaymentPerformResponse, PKPeerPaymentQuote, PKPeerPaymentQuoteCertificatesResponse, PKPeerPaymentQuoteRequest, PKPeerPaymentRecipient, PKPeerPaymentRequestToken;
-
 @interface PKPeerPaymentControllerInternalState
 {
     unsigned long long state;
-    unsigned long long mode;
-    unsigned long long peerPaymentType;
-    NSString *senderAddress;
-    PKPeerPaymentRecipient *recipient;
-    PKPeerPaymentRequestToken *requestToken;
-    PKPeerPaymentQuote *quote;
-    PKAuthorizedPeerPaymentQuote *authorizedQuote;
-    PKPeerPaymentPerformResponse *performQuoteResponse;
-    _Bool supportsPreserveCurrentBalance;
-    PKPeerPaymentQuoteCertificatesResponse *quoteCertificatesResponse;
-    NSString *accountName;
-    NSString *accountNumber;
-    NSString *routingNumber;
-    PKPeerPaymentQuoteRequest *quoteRequest;
-    NSString *recurringPaymentIdentifier;
-    NSDate *startDate;
-    unsigned long long frequency;
-    NSDecimalNumber *threshold;
-    _Bool supportsGroupMessage;
-    unsigned long long messagesContext;
-    NSArray *recipientAddresses;
 }
 
 + (_Bool)áW"Ð!üEùqî%°1Â0@ù
@@ -38,8 +15,8 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)"triggerTrafficClass"b1"triggerType"b1"userAuthenMethod"b1"appVpnUsed"b1"connectFailed"b1"proxyInstalled"b1};
+- (void)annelFlags;
 - (void)NFValidityStartDate;
 
 @end

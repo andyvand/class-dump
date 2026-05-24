@@ -9,37 +9,6 @@
 @interface CKTapbackPlatterView
 {
     id parentView;
-    id gradientView;
-    id materialView;
-    id gradientReferenceView;
-    id backgroundSolidStroke;
-    id backgroundBackdrop;
-    id backgroundVibrancy;
-    id contentBackground;
-    id tapbackView;
-    id contentView;
-    id mediumTailSolidStroke;
-    id mediumTailBackdrop;
-    id mediumTailVibrancy;
-    id mediumTail;
-    id smallTailSolidStroke;
-    id smallTailBackdrop;
-    id smallTailVibrancy;
-    id smallTail;
-    id tapback;
-    id $__lazy_storage_$_backgroundStrokeViews;
-    id $__lazy_storage_$_mediumStrokeViews;
-    id $__lazy_storage_$_smallStrokeViews;
-    id $__lazy_storage_$_backgroundViews;
-    id $__lazy_storage_$_mediumTailViews;
-    id $__lazy_storage_$_smallTailViews;
-    id wantsMaterialBackground;
-    id wantsBorderDestOut;
-    id isSent;
-    id showTail;
-    id useRightTailDirection;
-    id materialColorType;
-    id backgroundLuminance;
 }
 
 - (struct CGRect);
@@ -47,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)title;
 - (void);
 
 // Remaining properties

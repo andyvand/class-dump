@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSObject;
+@class NSObject;
 @protocol OS_os_activity;
 
 __attribute__((visibility("hidden")))
 @interface C2MultipeerServerContext
 {
     NSObject<OS_os_activity> *_osActivity;
-    NSData *_chunkData;
 }
 
 - (void);
@@ -22,7 +21,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *chunkData; // @synthesize chunkData=_chunkData;
 @property(retain, nonatomic) NSObject<OS_os_activity> *osActivity; // @synthesize osActivity=_osActivity;
 
 @end

@@ -7,7 +7,6 @@
 @interface FMPair
 {
     id _first;
-    id _second;
 }
 
 + (id);
@@ -18,7 +17,6 @@
 
 // Remaining properties
 @property(readonly) id first; // @synthesize first=_first;
-@property(readonly) id second; // @synthesize second=_second;
 
 @end
 

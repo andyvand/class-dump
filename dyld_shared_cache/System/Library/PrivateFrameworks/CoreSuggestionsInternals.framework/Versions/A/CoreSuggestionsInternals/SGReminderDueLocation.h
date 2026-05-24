@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SGReminderDueLocation
 {
     unsigned char _locationType;
-    unsigned char _trigger;
-    NSString *_name;
 }
 
 + (id);
 - (_Bool);
-- (id);
+- (id)rangeOfCharacterFromSet:(unsigned char)arg1 options:(unsigned char)arg2 range:(id)arg3;
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (unsigned char)g;
+- (unsigned char)SGDPLogging;
 - (void)ÿÿÿÿð;
 - (unsigned char)ü;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned char locationType; // @synthesize locationType=_locationType;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) unsigned char trigger; // @synthesize trigger=_trigger;
 
 @end
 

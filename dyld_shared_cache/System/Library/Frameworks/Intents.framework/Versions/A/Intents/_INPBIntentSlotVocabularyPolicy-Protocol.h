@@ -7,11 +7,11 @@
 @class NSArray;
 
 @protocol _INPBIntentSlotVocabularyPolicy
+- (void);
+- (void);
+- (NSArray *)Aj;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *intentSlotNames;
-@property(readonly, nonatomic) unsigned long long intentSlotNamesCount;
-@property(copy, nonatomic) NSArray *intentSlotVocabularyConcepts;
-@property(readonly, nonatomic) unsigned long long intentSlotVocabularyConceptsCount;
 @end
 

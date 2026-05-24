@@ -9,7 +9,6 @@
 @interface ASDViewPresentationRequest
 {
     NSDictionary *_configuration;
-    long long _viewIdentifier;
 }
 
 + (_Bool);
@@ -18,12 +17,11 @@
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)q!;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) long long viewIdentifier; // @synthesize viewIdentifier=_viewIdentifier;
 
 @end
 

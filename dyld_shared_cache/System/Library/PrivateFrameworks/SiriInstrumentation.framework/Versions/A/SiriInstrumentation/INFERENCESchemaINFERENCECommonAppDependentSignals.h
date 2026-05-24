@@ -6,34 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class INFERENCESchemaINFERENCECommonAppDependentEntityFrequencyAndRecencySignals, INFERENCESchemaINFERENCECommonAppDependentFrequencyAndRecencySignals, NSString;
+@class NSString;
 
 @interface INFERENCESchemaINFERENCECommonAppDependentSignals : SISchemaInstrumentationMessage
 {
     NSString *_appBundleId;
-    _Bool _isFirstPartyBundle;
-    _Bool _isForegroundApp;
-    _Bool _isResolvedApp;
-    float _appScoreFromModel;
-    double _compoundActiveBundleScore;
-    unsigned int _totalTimeSpentByUserInAppPerDay;
-    unsigned int _timeSpentByUserInAppToday;
-    int _timeSinceAppLastLaunchedInSec;
-    INFERENCESchemaINFERENCECommonAppDependentFrequencyAndRecencySignals *_appDependentFrequencyAndRecencySignals;
-    INFERENCESchemaINFERENCECommonAppDependentEntityFrequencyAndRecencySignals *_appDependentEntityFrequencyAndRecencySignals;
-    struct {
-        unsigned int isFirstPartyBundle:1;
-        unsigned int isForegroundApp:1;
-        unsigned int isResolvedApp:1;
-        unsigned int appScoreFromModel:1;
-        unsigned int compoundActiveBundleScore:1;
-        unsigned int totalTimeSpentByUserInAppPerDay:1;
-        unsigned int timeSpentByUserInAppToday:1;
-        unsigned int timeSinceAppLastLaunchedInSec:1;
-    } _has;
-    _Bool _hasAppBundleId;
-    _Bool _hasAppDependentFrequencyAndRecencySignals;
-    _Bool _hasAppDependentEntityFrequencyAndRecencySignals;
 }
 
 @end

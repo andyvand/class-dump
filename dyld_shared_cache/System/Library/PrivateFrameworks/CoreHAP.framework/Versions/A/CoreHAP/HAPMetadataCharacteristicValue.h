@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber;
+@class NSNumber;
 
 @interface HAPMetadataCharacteristicValue
 {
     NSNumber *_minValue;
-    NSNumber *_maxValue;
-    NSNumber *_stepValue;
-    NSNumber *_minLength;
-    NSNumber *_maxLength;
-    NSArray *_validValues;
 }
 
 + (id);
@@ -23,10 +18,10 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)V2I_CRLD;
 - (void);
-- (void);
-- (_Bool);
+- (void)moteObjectProxy;
+- (_Bool)0:(id)arg1 8@16^@24;
 - (id);
 - (id);
 - (void);
@@ -38,12 +33,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *maxLength; // @synthesize maxLength=_maxLength;
-@property(retain, nonatomic) NSNumber *maxValue; // @synthesize maxValue=_maxValue;
-@property(retain, nonatomic) NSNumber *minLength; // @synthesize minLength=_minLength;
 @property(retain, nonatomic) NSNumber *minValue; // @synthesize minValue=_minValue;
-@property(retain, nonatomic) NSNumber *stepValue; // @synthesize stepValue=_stepValue;
-@property(readonly, nonatomic) NSArray *validValues; // @synthesize validValues=_validValues;
 
 @end
 

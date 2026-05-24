@@ -10,11 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _NSAxisAlignedVolumeColorGamut : NSColorGamut
 {
     double _minX;
-    double _maxX;
-    double _minY;
-    double _maxY;
-    double _minZ;
-    double _maxZ;
 }
 
 + (id);
@@ -29,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (double)qå3ð1Â0@ù
 × ;
-- (id)crementScrollPocketCount;
+- (id)decrementScrollPocketCount;
 - (_Bool);
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CNCDIOSLegacyIdentifierRegistration, CNOpenDirectoryFacade;
+@protocol CNCDIOSLegacyIdentifierRegistration;
 
 @interface UnknownClass (ContactsPersistence)
 - (void);
@@ -12,6 +12,5 @@
 
 // Remaining properties
 @property(retain) id <CNCDIOSLegacyIdentifierRegistration> legacyIdentifierRegistrar; // @dynamic legacyIdentifierRegistrar;
-@property(retain) id <CNOpenDirectoryFacade> openDirectory; // @dynamic openDirectory;
 @end
 

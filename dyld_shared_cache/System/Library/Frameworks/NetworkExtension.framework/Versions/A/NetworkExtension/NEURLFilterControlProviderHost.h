@@ -19,8 +19,8 @@
 - (void);
 - (id);
 - (void);
-- (id);
-- (void)thNetworkAgentClass: /* Error: Ran out of types for this method. */;
+- (id)hN;
+- (void)initWithNetworkAgentClass: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, retain) NetworkExtension.NEURLFilterControlProviderHostExportedObject *exportedObject; // @synthesize exportedObject;

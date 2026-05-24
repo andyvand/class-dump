@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSItemProvider;
+@class NSItemProvider;
 
 @protocol UITextPasteItem
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *defaultAttributes;
 @property(readonly, nonatomic) NSItemProvider *itemProvider;
 @property(readonly, nonatomic) id localObject;
 @end

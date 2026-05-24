@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSGameControllerNavigationSession, NSMutableDictionary;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface NSGameControllerNavigationDispatcher
 {
     _Bool _shouldRepeat;
-    NSMutableDictionary *_bindings;
-    NSGameControllerNavigationSession *_session;
-    double _lastDispatch;
 }
 
-- (void);
+- (void)iled mmap <fd %d, size %d>;
 - (void);
 - (double);
-- (void);
-- (id);
+- (void)geTimeout"d};
+- (id)ray"24@?<v@?>32;
 - (id);
 - (void);
 - (id);
@@ -30,8 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy) NSMutableDictionary *bindings; // @synthesize bindings=_bindings;
-@property double lastDispatch; // @synthesize lastDispatch=_lastDispatch;
-@property __weak NSGameControllerNavigationSession *session; // @synthesize session=_session;
 
 @end
 

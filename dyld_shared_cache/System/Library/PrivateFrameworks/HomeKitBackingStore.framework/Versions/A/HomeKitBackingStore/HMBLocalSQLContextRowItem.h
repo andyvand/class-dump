@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface HMBLocalSQLContextRowItem
 {
     unsigned long long _itemRow;
-    NSData *_modelData;
-    unsigned long long _modelEncoding;
-    NSData *_externalID;
-    NSData *_externalData;
 }
 
 - (id);
@@ -27,11 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *externalData; // @synthesize externalData=_externalData;
-@property(readonly, nonatomic) NSData *externalID; // @synthesize externalID=_externalID;
 @property(readonly, nonatomic) unsigned long long itemRow; // @synthesize itemRow=_itemRow;
-@property(readonly, nonatomic) NSData *modelData; // @synthesize modelData=_modelData;
-@property(readonly, nonatomic) unsigned long long modelEncoding; // @synthesize modelEncoding=_modelEncoding;
 
 @end
 

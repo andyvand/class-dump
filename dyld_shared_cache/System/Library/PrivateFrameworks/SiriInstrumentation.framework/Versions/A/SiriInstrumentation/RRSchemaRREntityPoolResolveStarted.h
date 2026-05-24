@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, USOSchemaUSOGraph;
+@class USOSchemaUSOGraph;
 
 @interface RRSchemaRREntityPoolResolveStarted : SISchemaInstrumentationMessage
 {
     USOSchemaUSOGraph *_usoQuery;
-    _Bool _hasUsoQuery;
 }
 
 - (id);
@@ -22,18 +21,16 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)oreDaemon/Libraries/AppStoreDaemon/Stubs/ASDCreatePlaceholdersRequest_macOS.m:24 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)AND message_id IN (SELECT m.ROWID FROM message m WHERE m.guid ;
 - (id);
 - (id);
-- (id)Requirement;
+- (id)appRequirement;
 - (id)ThresholdOffset;
-- (void)omTypeName;
+- (void)customTypeName;
 
 // Remaining properties
-@property(nonatomic) _Bool hasUsoQuery; // @synthesize hasUsoQuery=_hasUsoQuery;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) USOSchemaUSOGraph *usoQuery; // @synthesize usoQuery=_usoQuery;
 
 @end

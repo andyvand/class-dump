@@ -6,14 +6,14 @@
 
 #import <QuartzCore/CAAnimation.h>
 
-@class CALayer, NSArray, NSString;
+@class CALayer;
 
 @interface CAMatchMoveAnimation : CAAnimation
 {
 }
 
 + (id);
-+ (id);
++ (id)26TStaticFontFamilyNameIndex;
 - (void);
 - (void);
 - (_Bool);
@@ -21,8 +21,8 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)handleAssetPublishCompletionForRecordID:(id)arg1 publishedAsset:(id)arg2 recordKey:error: /* Error: Ran out of types for this method. */;
+- (void)CKSyncEngineSentRecordZoneChangesEvent;
 - (void);
 - (void);
 - (void);
@@ -39,9 +39,9 @@
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
-- (_Bool)aceObject:withObject: /* Error: Ran out of types for this method. */;
-- (void *)vior;
+- (_Bool);
+- (_Bool)archiver:willReplaceObject:withObject: /* Error: Ran out of types for this method. */;
+- (void *)CAEmitterBehavior;
 - (unsigned int)c2 texcoord12, texcoord13;
 void main() {
   lowp vec4 q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12;
@@ -77,18 +77,7 @@ void main() {
 ;
 
 // Remaining properties
-@property(getter=isAdditive) _Bool additive;
-@property _Bool appliesRotation;
-@property _Bool appliesScale;
-@property _Bool appliesX;
-@property _Bool appliesY;
-@property(copy) NSString *keyPath;
-@property unsigned int sourceContextId;
 @property __weak CALayer *sourceLayer;
-@property unsigned long long sourceLayerRenderId;
-@property(copy) NSArray *sourcePoints;
-@property _Bool targetsSuperlayer;
-@property _Bool usesNormalizedCoordinates;
 
 @end
 

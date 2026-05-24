@@ -6,7 +6,7 @@
 
 #import <PhotosGraph/PGGraphNodeCollection.h>
 
-@class NSSet, PGGraphMemoryNodeCollection, PGGraphMomentNodeCollection;
+@class NSSet;
 
 @interface PGGraphFeatureNodeCollection : PGGraphNodeCollection
 {
@@ -16,17 +16,14 @@
 + (id);
 + (id);
 + (id);
-- (id);
+- (id)ElementController;
 - (id);
 - (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) PGGraphNodeCollection *anyFeatureNodes;
 @property(readonly, nonatomic) NSSet *featureIdentifiers;
-@property(readonly, nonatomic) PGGraphMemoryNodeCollection *memoryNodes;
-@property(readonly, nonatomic) PGGraphMomentNodeCollection *momentNodes;
 
 @end
 

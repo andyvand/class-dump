@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @protocol SWLocation
+- (NSString *)BundleSoftPaywallStyler;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *URL;
 @property(readonly, copy, nonatomic) NSString *context;
 @end
 

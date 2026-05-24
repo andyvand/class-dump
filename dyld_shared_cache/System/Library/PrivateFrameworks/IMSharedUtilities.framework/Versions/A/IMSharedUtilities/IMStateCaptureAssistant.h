@@ -10,10 +10,10 @@
 }
 
 + (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void)Døÿ;
 
 // Remaining properties

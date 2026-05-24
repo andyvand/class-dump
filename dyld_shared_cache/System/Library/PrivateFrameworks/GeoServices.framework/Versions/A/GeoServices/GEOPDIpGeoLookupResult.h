@@ -4,35 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDIpGeoLookupResult
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_countryCode;
-    NSString *_ipAddress;
-    GEOLatLng *_location;
-    NSString *_timeZome;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _status;
-    struct {
-        unsigned int has_status:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_countryCode:1;
-        unsigned int read_ipAddress:1;
-        unsigned int read_location:1;
-        unsigned int read_timeZome:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)InMs;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);

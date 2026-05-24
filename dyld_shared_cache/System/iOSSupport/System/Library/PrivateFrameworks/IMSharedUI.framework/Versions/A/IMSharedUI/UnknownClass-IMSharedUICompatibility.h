@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (IMSharedUICompatibility)
-- (id);
+- (id)s;
 @end
 

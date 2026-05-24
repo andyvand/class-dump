@@ -6,8 +6,6 @@
 
 #import <UIKitCore/UIDragGestureRecognizer.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface UIDropInteractionGestureRecognizer : UIDragGestureRecognizer
 {
@@ -15,19 +13,13 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (_Bool);
-- (_Bool)iewOffset;
-- (void);
-- (void)ompletion:(id)arg1;
+- (_Bool)candidateViewOffset;
+- (void)_popoverKeyboardDidShow:(id)arg1;
+- (void)_asynchronouslyDeliverScrollEvent:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (void)d; levelsAreDifferent:(id)arg1 %d;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

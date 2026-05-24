@@ -7,7 +7,6 @@
 @interface BSUIAnimationFactorySettings
 {
     _Bool _slowAnimations;
-    double _slowDownFactor;
 }
 
 + (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool slowAnimations; // @synthesize slowAnimations=_slowAnimations;
-@property(nonatomic) double slowDownFactor; // @synthesize slowDownFactor=_slowDownFactor;
 
 @end
 

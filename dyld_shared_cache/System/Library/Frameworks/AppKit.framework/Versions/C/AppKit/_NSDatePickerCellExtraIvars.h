@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButtonCell, NSColor, NSDate, NSDateComponents, NSNumberFormatter, NSTimer, _NSDatePickerArrowCell;
+@class _NSDatePickerArrowCell;
 
 __attribute__((visibility("hidden")))
 @interface _NSDatePickerCellExtraIvars
 {
     _NSDatePickerArrowCell *_arrowLeftCell;
-    _NSDatePickerArrowCell *_arrowRightCell;
-    NSButtonCell *_returnToHomeMonthButtonCell;
-    NSDateComponents *_calendarDisplayedMonthDateComponents;
-    NSColor *_disabledTextColor;
-    NSNumberFormatter *_numberFormatter;
-    NSTimer *_changeMonthTimer;
-    NSDate *_lastFireDateForChangeMonthTimer;
 }
 
+- (id)6nyNhwNInsg;
+- (oneway void);
 - (id);
-- (oneway void);
 - (id);
-- (id);
-- (id);
+- (id)aFromDataArray:(id)arg1 ERROR.  Failed to allocate a CFDataRef of size %ld.;
 - (void);
 - (void);
 - (id);

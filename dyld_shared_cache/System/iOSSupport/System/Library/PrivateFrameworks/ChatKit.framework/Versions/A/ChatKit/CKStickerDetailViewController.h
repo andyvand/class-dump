@@ -4,47 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UITableView, UIVisualEffectView;
-@protocol CKStickerDetailViewControllerDelegate;
+@class NSArray;
 
 @interface CKStickerDetailViewController
 {
     _Bool _wantsWindowedPresentation;
-    _Bool _preserveModalPresentationStyle;
-    id <CKStickerDetailViewControllerDelegate> _delegate;
-    NSArray *_stickerDetailsItems;
-    long long _stickerDetailsItemType;
-    UITableView *_tableView;
-    UIVisualEffectView *_visualEffectView;
 }
 
-+ (id);
-+ (id);
-+ (_Bool);
++ (id)oldShare;
++ (id)your login password?;
++ (_Bool)r preview creation for %@;
 - (_Bool);
-- (void);
+- (void)visibilityTestingType;
+- (id)referenceDate;
+- (long long)referenceAttributesForLocation:textStorage:currentParagraphStart: /* Error: Ran out of types for this method. */;
+- (void)recentObjectId;
+- (_Bool)localizedFrameworkStringForKey:(id)arg1 value:table:allowSiri: /* Error: Ran out of types for this method. */;
+- (void)isDescendantOfFolder:(_Bool)arg1;
+- (void)initWithAttributedString:(id)arg1 replicaID: /* Error: Ran out of types for this method. */;
+- (void)initWithAttributedString:(long long)arg1 originalString:originalRange:rangeMapping: /* Error: Ran out of types for this method. */;
+- (void)ic_interpolateSelectedObjectsWithArrangedObject:(_Bool)arg1;
+- (void)_snippetAttributedStringInsideFrame;
+- (_Bool),V_contentView;
 - (id);
-- (long long);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)o9NSRunLoopCG;
+- (_Bool)n;
+- (_Bool)i;
+- (_Bool)a;
+- (void)ked notes can provide additional security, but if you forget this password, there is no way to recover access to these locked notes.;
+- (void)ebody** was added to the note;
+- (id)ask;
+- (void)tWithTopic:(id)arg1 ];
+- (id)d-with-notes-ipadfeea407c/ipados;
+- (id)CustomPasswordMessage;
+- (id)v;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -67,24 +60,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKStickerDetailViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool preserveModalPresentationStyle; // @synthesize preserveModalPresentationStyle=_preserveModalPresentationStyle;
-@property(nonatomic) _Bool shouldHidePresentingWindow;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,N
-
-@property(nonatomic) long long stickerDetailsItemType; // @synthesize stickerDetailsItemType=_stickerDetailsItemType;
 @property(retain, nonatomic) NSArray *stickerDetailsItems; // @synthesize stickerDetailsItems=_stickerDetailsItems;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UITableView *tableView; // @synthesize tableView=_tableView;
-@property(retain, nonatomic) UIVisualEffectView *visualEffectView; // @synthesize visualEffectView=_visualEffectView;
-@property(nonatomic) _Bool wantsWindowedPresentation; // @synthesize wantsWindowedPresentation=_wantsWindowedPresentation;
 
 @end
 

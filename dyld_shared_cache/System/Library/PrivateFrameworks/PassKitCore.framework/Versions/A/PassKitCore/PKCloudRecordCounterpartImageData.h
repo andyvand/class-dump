@@ -20,10 +20,10 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)8;
 - (id);
 - (void);
-- (long long)ce;
+- (long long)_remainingStatementBalance;
 - (void)s://www.apple.com/legal/privacy/ /* Error: Ran out of types for this method. */;
 
 // Remaining properties

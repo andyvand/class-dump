@@ -6,46 +6,11 @@
 
 #import <MetalTools/MTLToolsRenderCommandEncoder.h>
 
-@class MTLLegacySVCommandBuffer, MTLLegacySVRenderPipelineState, MTLToolsDepthStencilState, NSString;
-@protocol MTLBuffer;
+@class MTLLegacySVCommandBuffer;
 
 @interface MTLLegacySVRenderCommandEncoder : MTLToolsRenderCommandEncoder
 {
     unsigned int useResourceIteration;
-    _Bool _tileStageActive;
-    _Bool _tileStageUsed;
-    _Bool _fragmentStageActive;
-    _Bool _vertexStageActive;
-    _Bool _objectStageActive;
-    _Bool _meshStageActive;
-    _Bool _enableUseResourceValidation;
-    MTLLegacySVCommandBuffer *_commandBuffer;
-    struct MTLLegacySVStageBufferHandles _vertexHandles;
-    struct MTLLegacySVStageBufferHandles _fragmentHandles;
-    struct MTLLegacySVStageBufferHandles _tileHandles;
-    struct MTLLegacySVTileThreadgroup _tileThreadgroup;
-    struct MTLLegacySVStageBufferHandles _objectHandles;
-    struct MTLLegacySVStageBufferHandles _meshHandles;
-    struct MTLLegacySVThreadgroupLengths _meshThreadgroup;
-    struct Options *_options;
-    struct GPUDebugEventUUIDPacket _drawID;
-    unsigned long long _encoderType;
-    MTLLegacySVRenderPipelineState *_currentPipeline;
-    MTLToolsDepthStencilState *_currentDepthStencil;
-    struct MTLLegacySVBufferSubAlloc _vertexReportBuffer;
-    struct MTLLegacySVBufferSubAlloc _fragmentReportBuffer;
-    struct MTLLegacySVBufferSubAlloc _tileReportBuffer;
-    struct MTLLegacySVBufferSubAlloc _objectReportBuffer;
-    struct MTLLegacySVBufferSubAlloc _meshReportBuffer;
-    CDStruct_dc0525a1 _vertexAmpState;
-    id <MTLBuffer> _vertexBufferUsageTable;
-    id <MTLBuffer> _vertexTextureUsageTable;
-    id <MTLBuffer> _fragmentBufferUsageTable;
-    id <MTLBuffer> _fragmentTextureUsageTable;
-    id <MTLBuffer> _objectBufferUsageTable;
-    id <MTLBuffer> _objectTextureUsageTable;
-    id <MTLBuffer> _meshBufferUsageTable;
-    id <MTLBuffer> _meshTextureUsageTable;
 }
 
 - (void);
@@ -72,6 +37,7 @@
 - (void);
 - (void);
 - (void);
+- (void)U;
 - (void);
 - (void);
 - (void);
@@ -84,15 +50,14 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)b;
 - (void);
 - (void);
+- (void)(;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -115,6 +80,15 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)(;
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -122,45 +96,37 @@
 - (void);
 - (void);
 - (void);
+- (void)RKSD_SI_mSL_E_;
+- (void);
+- (void);
+- (void);
+- (void)";
+- (void);
+- (void)ctorizations.
+;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)k";
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void)R;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)1 ;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)M ;
+- (void):(const id *)arg1;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -169,14 +135,6 @@
 
 // Remaining properties
 @property(readonly) MTLLegacySVCommandBuffer *commandBuffer; // @dynamic commandBuffer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned int encoderID;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface NewsFeed.FormatIssue
 {
     id identifier;
-    id overrides;
-    id _selectors;
-    id _properties;
 }
 
 @end

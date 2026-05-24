@@ -5,5 +5,7 @@
 //
 
 @protocol BRTokenProtocol
+- (void)|;
+- (oneway void);
 @end
 

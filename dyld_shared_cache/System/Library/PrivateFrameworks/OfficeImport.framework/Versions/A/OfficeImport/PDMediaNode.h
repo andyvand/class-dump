@@ -12,10 +12,6 @@ __attribute__((visibility("hidden")))
 @interface PDMediaNode : PDTimeNode
 {
     PDAnimationTarget *mTarget;
-    _Bool mIsMuted;
-    _Bool mIsShowWhenStopped;
-    long long mNumberOfSlides;
-    long long mVolume;
 }
 
 - (void);
@@ -23,11 +19,11 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (_Bool);
 - (void);
+- (id)setCachedShouldDisplay: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (void)highlightedLabeledValueIdentifiers;
 - (void);
-- (void);
-- (long long);
+- (long long);
 - (_Bool)T}è~¼;
 - (void);
 

@@ -7,13 +7,6 @@
 @interface SSScreenInfo
 {
     _Bool _isGlobalScreen;
-    unsigned long long _identifier;
-    unsigned long long _index;
-    unsigned long long _flags;
-    double _UIResolution;
-    struct CGRect _frame;
-    struct CGRect _destinationFrame;
-    struct SSRect _scaledFrame;
 }
 
 - (void);
@@ -21,12 +14,12 @@
 - (void);
 - (id);
 - (struct SSRect);
-- (_Bool);
+- (_Bool)#;
 - (double);
-- (void);
+- (void);
 - (id);
 - (struct CGRect);
-- (id);
+- (id)_negativeROIs;
 - (id);
 - (struct CGRect);
 - (void);
@@ -39,14 +32,7 @@
 - (void)ternal/Library/BuildRoots/4~CNrdugCizy9_6YFCo7bFC3vDIeoaS1mU7llX-F0/Library/Caches/com.apple.xbs/TemporaryDirectory.nEUAsL/Sources/ScreenSharing/RFBCommon/NetBuffer.c;
 
 // Remaining properties
-@property double UIResolution; // @synthesize UIResolution=_UIResolution;
-@property struct CGRect destinationFrame; // @synthesize destinationFrame=_destinationFrame;
-@property unsigned long long flags; // @synthesize flags=_flags;
 @property struct CGRect frame; // @synthesize frame=_frame;
-@property unsigned long long identifier; // @synthesize identifier=_identifier;
-@property unsigned long long index; // @synthesize index=_index;
-@property _Bool isGlobalScreen; // @synthesize isGlobalScreen=_isGlobalScreen;
-@property struct SSRect scaledFrame; // @synthesize scaledFrame=_scaledFrame;
 
 @end
 

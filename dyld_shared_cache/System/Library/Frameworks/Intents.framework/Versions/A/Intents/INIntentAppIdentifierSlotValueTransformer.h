@@ -13,7 +13,7 @@
 + (Class);
 + (long long),N,V_payloadPrimitiveBools;
 - (id);
-- (id)onnectorPowerSlotValueTransformer;
+- (id)INIntentCarChargingConnectorPowerSlotValueTransformer;
 
 @end
 

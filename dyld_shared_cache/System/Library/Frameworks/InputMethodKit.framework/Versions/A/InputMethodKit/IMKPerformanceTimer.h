@@ -9,10 +9,6 @@
 @interface IMKPerformanceTimer
 {
     NSString *_annotation;
-    double _limit;
-    NSDate *_startingTime;
-    NSDate *_stoppingTime;
-    NSString *_name;
 }
 
 + (id);
@@ -22,29 +18,24 @@
 - (void);
 - (_Bool);
 - (void);
+- (id)_contactsOverTheAirSyncSource;
+- (void)r:(id)arg1 %@;
+- (void)CNqRugD-iyv6YGTkX35bTGSZommcUtxVPEtFxhE/Library/Caches/com.apple.xbs/TemporaryDirectory.vrZUgA/Sources/HDRProcessing/Metal/DisplayManagement/DolbyVisionDisplayManagement.mm" at line 3414
+;
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)_vtableC;
+- (id)kaSsfUVQQQ/Library/Caches/com.apple.xbs/TemporaryDirectory.ZMSfoZ/Sources/AVConference/AVConference.subproj/Sources/Others/RTPLRP.c:%d:Invalid aggregation unit length (%d) for H264NALU_STAP_A packet, discarded. /* Error: Ran out of types for this method. */;
+- (void)t;
+- (void)erSpectrumForStreamToken:] /* Error: Ran out of types for this method. */;
 - (double);
+- (void)size report...;
 - (void);
-- (void);
-- (double)r: /* Error: Ran out of types for this method. */;
+- (double)initWithCandidateController: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *annotation; // @synthesize annotation=_annotation;
-@property(readonly, nonatomic) double elapsedTime;
-@property(nonatomic) double limit; // @synthesize limit=_limit;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) _Bool passedLimit;
 @property(retain) NSDate *startingTime; // @synthesize startingTime=_startingTime;
-@property(retain) NSDate *stoppingTime; // @synthesize stoppingTime=_stoppingTime;
 
 @end
 

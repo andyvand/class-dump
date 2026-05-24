@@ -6,7 +6,7 @@
 
 @protocol UIKeyboardPinchGestureRecognizerDelegate
 - (_Bool)the bitmap data node array.;
-- (void)rController;
+- (void)UITabBarController;
 - (void)*þÿ;
 @end
 

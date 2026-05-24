@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDNetworkRouterICMPTypeList, HMDNetworkRouterIPAddress, HMDNetworkRouterLANIdentifierList, HMDNetworkRouterRuleDirection, NSString;
+@class HMDNetworkRouterRuleDirection;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterStaticICMPRule
 {
     HMDNetworkRouterRuleDirection *_direction;
-    HMDNetworkRouterLANIdentifierList *_lanIdentifierList;
-    HMDNetworkRouterIPAddress *_destinationIPAddress;
-    HMDNetworkRouterICMPTypeList *_icmpTypeList;
 }
 
 + (id);
-+ (id);
++ (id)momentOfReliableMeaning;
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (void);
+- (id)_hasScheduledDelayedCommitForCoalescedEdits;
+- (id)inerStateSnapshot>"8;
 - (id);
 - (id);
 - (void);
@@ -30,23 +27,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (id)nInProgress;
+- (id)isMigrationInProgress;
 - (id)Øbôe<fm0n;
 - (void)ting context->_relevantBulletinRegistrations to:(id)arg1 %{public}@ for targetDeviceAddress:%@ /* Error: Ran out of types for this method. */;
-- (void)PostCleanupRecord;
+- (void)HMDResetConfigPostCleanupRecord;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) HMDNetworkRouterIPAddress *destinationIPAddress; // @synthesize destinationIPAddress=_destinationIPAddress;
-@property(retain, nonatomic) HMDNetworkRouterRuleDirection *direction; // @synthesize direction=_direction;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) HMDNetworkRouterICMPTypeList *icmpTypeList; // @synthesize icmpTypeList=_icmpTypeList;
-@property(retain, nonatomic) HMDNetworkRouterLANIdentifierList *lanIdentifierList; // @synthesize lanIdentifierList=_lanIdentifierList;
-@property(readonly) Class superclass;
 
 @end
 

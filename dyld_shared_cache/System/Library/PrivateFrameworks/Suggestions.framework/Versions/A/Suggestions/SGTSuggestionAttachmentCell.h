@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMenu, NSString, NSView, SGTSuggestion;
+@class NSString, SGTSuggestion;
 
 __attribute__((visibility("hidden")))
 @interface SGTSuggestionAttachmentCell
 {
     NSString *_lastKnownScopeString;
-    struct CGSize _scopeSize;
-    NSMenu *_popMenu;
-    NSView *viewForMenu;
-    struct CGRect frameForMenu;
-    int useShorterName;
-    _Bool _leftClicked;
-    NSView *_controlView;
 }
 
 - (struct CGRect);
@@ -27,11 +20,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect)�;
 - (struct CGRect);
 - (id);
 - (id);
@@ -47,13 +40,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)l;
 - (id);
 - (id);
 - (long long);
 - (id);
-- (void);
-- (_Bool);
+- (void)createPDFDateString: /* Error: Ran out of types for this method. */;
+- (_Bool)ore tidying them, as on rare occasions the result may not be what you expect. ;
 
 // Remaining properties
 @property(readonly) SGTSuggestion *suggestion;

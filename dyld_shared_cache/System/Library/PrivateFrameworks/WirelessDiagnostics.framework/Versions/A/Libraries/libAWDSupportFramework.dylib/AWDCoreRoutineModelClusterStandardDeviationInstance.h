@@ -7,16 +7,11 @@
 @interface AWDCoreRoutineModelClusterStandardDeviationInstance
 {
     int _entryStandardDeviation;
-    int _exitStandardDeviation;
-    struct {
-        unsigned int entryStandardDeviation:1;
-        unsigned int exitStandardDeviation:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)7;
+- (void)K;
+- (void)J?ka;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -33,10 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) int entryStandardDeviation; // @synthesize entryStandardDeviation=_entryStandardDeviation;
-@property(nonatomic) int exitStandardDeviation; // @synthesize exitStandardDeviation=_exitStandardDeviation;
 @property(nonatomic) _Bool hasEntryStandardDeviation;
-@property(nonatomic) _Bool hasExitStandardDeviation;
 
 @end
 

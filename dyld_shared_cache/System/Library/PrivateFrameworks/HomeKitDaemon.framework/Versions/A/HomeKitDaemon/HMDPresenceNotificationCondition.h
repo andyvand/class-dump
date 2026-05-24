@@ -6,36 +6,30 @@
 
 #import <HomeKitDaemon/HMDNotificationCondition.h>
 
-@class NSSet;
-
 __attribute__((visibility("hidden")))
 @interface HMDPresenceNotificationCondition : HMDNotificationCondition
 {
     unsigned long long _presenceEventType;
-    unsigned long long _presenceEventUserType;
-    NSSet *_userUUIDs;
 }
 
-+ (id);
++ (id);
 + (_Bool)¸uÐÐvÑlwÒxp|H}ÓÀ¼Ô<ÕÄd;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (id);
-- (unsigned long long);
+- (id)kSSServerProtocolError;
+- (unsigned long long);
 - (_Bool);
 - (void);
-- (id)astMigrationFailure;
+- (id)lastMigrationFailure;
 - (id)ate: /* Error: Ran out of types for this method. */;
 - (id)ection sender is set up;
-- (void)PrimaryClientDisconnected;
+- (void)hmd_numberOfTimesPrimaryClientDisconnected;
 
 // Remaining properties
 @property(readonly) unsigned long long presenceEventType; // @synthesize presenceEventType=_presenceEventType;
-@property(readonly) unsigned long long presenceEventUserType; // @synthesize presenceEventUserType=_presenceEventUserType;
-@property(readonly, copy) NSSet *userUUIDs; // @synthesize userUUIDs=_userUUIDs;
 
 @end
 

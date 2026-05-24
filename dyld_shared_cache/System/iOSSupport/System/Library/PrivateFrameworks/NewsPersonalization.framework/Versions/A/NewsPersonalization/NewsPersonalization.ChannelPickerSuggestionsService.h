@@ -7,12 +7,6 @@
 @interface NewsPersonalization.ChannelPickerSuggestionsService
 {
     id isSubscribed;
-    id computeService;
-    id userEventHistory;
-    id userContextProvider;
-    id localAreasManager;
-    id locationDetectionManager;
-    id configurationManager;
 }
 
 @end

@@ -8,9 +8,9 @@
 {
 }
 
-- (void);
-- (void);
-- (void);
+- (void)PDATE item SET is_video = (((item.media_type & ~65280) = 0) OR (item.media_type = 1032)), is_podcast = ((item.media_type & (4 | 256)) != 0), is_itunes_u = ((item.media_type & (32 | 4096)) != 0) ;
+- (void)NTEGER NOT NULL DEFAULT 0, store_genre_id INTEGER NOT NULL DEFAULT 0, store_playlist_id INTEGER NOT NULL DEFAULT 0, storefront_id INTEGER NOT NULL DEFAULT 0, redownload_action_params TEXT, artwork_url TEXT, store_xid TEXT, store_flavor TEXT, store_saga_id INTEGER NOT NULL DEFAULT 0, store_matched_status INTEGER NOT NULL DEFAULT 0, store_redownloaded_status INTEGER NOT NULL DEFAULT 0, audio_format INTEGER NOT NULL DEFAULT 0, sample_rate REAL NOT NULL DEFAULT 0, duration INTEGER NOT NULL DEFAULT 0, gapless_heuristic_info INTEGER NOT NULL DEFAULT 0, gapless_encoding_delay INTEGER NOT NULL DEFAULT 0, gapless_encoding_drain INTEGER NOT NULL DEFAULT 0, gapless_last_frame_resynch INTEGER NOT NULL DEFAULT 0, analysis_inhibit_flags INTEGER NOT NULL DEFAULT 0, audio_fingerprint INTEGER NOT NULL DEFAULT 0, volume_normalization_energy INTEGER NOT NULL DEFAULT 0, is_rental INTEGER NOT NULL DEFAULT 0, is_demo INTEGER NOT NULL DEFAULT 0, rental_duration INTEGER NOT NULL DEFAULT 0, rental_playback_duration INTEGER NOT NULL DEFAULT 0, rental_playback_date_started INTEGER NOT NULL DEFAULT 0, rental_date_started INTEGER  NOT NULL DEFAULT 0, has_alternate_audio INTEGER NOT NULL DEFAULT 0, has_subtitles INTEGER NOT NULL DEFAULT 0, is_hd INTEGER NOT NULL DEFAULT 0, season_number INTEGER NOT NULL DEFAULT 0, audio_language INTEGER NOT NULL DEFAULT 0, audio_track_index INTEGER NOT NULL DEFAULT 0, audio_track_id INTEGER NOT NULL DEFAULT 0, subtitle_language INTEGER NOT NULL DEFAULT 0, subtitle_track_index INTEGER NOT NULL DEFAULT 0, subtitle_track_id INTEGER NOT NULL DEFAULT 0, episode_id TEXT NOT NULL DEFAULT '', network_name TEXT NOT NULL DEFAULT '', extended_content_rating TEXT NOT NULL DEFAULT '', movie_info TEXT NOT NULL DEFAULT '', bit_rate INTEGER NOT NULL DEFAULT 0, pending_genius_checksum INTEGER NOT NULL DEFAULT 0, jalisco_token INTEGER NOT NULL DEFAULT 0, codec_type INTEGER NOT NULL DEFAULT 0, codec_subtype INTEGER NOT NULL DEFAULT 0, format TEXT, data_kind INTEGER NOT NULL DEFAULT 0, data_url TEXT, has_video INTEGER NOT NULL DEFAULT 0, key_id_2 INTEGER NOT NULL DEFAULT 0, has_chapter_data INTEGER NOT NULL DEFAULT 0, purchase_history_id INTEGER NOT NULL DEFAULT 0;
+- (void)le_list_new RENAME TO purgeable_list;
 
 @end
 

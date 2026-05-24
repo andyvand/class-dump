@@ -6,31 +6,27 @@
 
 #import <TrialServer/TRIExperimentBaseTask.h>
 
-@class NSArray, NSDate, NSString, TRITrialSystemTelemetry;
-@protocol TRITaskAttributing, TRITaskQueueStateProviding;
+@protocol TRITaskAttributing;
 
 @interface TRIFetchExperimentTask : TRIExperimentBaseTask
 {
     id <TRITaskAttributing> _taskAttributing;
-    TRITrialSystemTelemetry *_trialSystemTelemetry;
-    _Bool wasDeferred;
-    int retryCount;
 }
 
 + (id);
 + (id);
 + (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)itemsByRemovingMetadataItemForIdentifier:(id)arg1 fromArray:(id)arg2;
+- (id)getGeometries:(int)arg1 count: /* Error: Ran out of types for this method. */;
+- (id)Removed accessory server does not own unpaired server;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)s;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void)0@ù
 × ;
 - (id)!(@ùQ!°1Â0@ù
@@ -44,21 +40,7 @@
 - (id)ÿs;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSArray *dependencies;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) int retryCount; // @synthesize retryCount;
-@property(copy, nonatomic) NSDate *startTime;
-@property(nonatomic) __weak id <TRITaskQueueStateProviding> stateProvider;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *tags;
-@property(readonly, nonatomic) NSString *taskName;
-@property(readonly, nonatomic) int taskType;
-@property _Bool wasDeferred; // @synthesize wasDeferred;
 
 @end
 

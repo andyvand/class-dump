@@ -9,16 +9,16 @@
     long long _type;
 }
 
-+ (_Bool);
++ (_Bool)uestEvents:%@ contentKeyRequestEvents:%@> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (long long);
 - (_Bool);
-- (void);
+- (void)LASRPVerificationResult;
 - (id);
-- (void);
+- (void)AVAssetWriterInputMetadataAdaptor";
 
 // Remaining properties
 @property(nonatomic) long long type; // @synthesize type=_type;

@@ -7,6 +7,8 @@
 @class NSImage;
 
 @protocol CNKRoundedImageButtonProtocol
+- (void);
+- (NSImage *);
 
 // Remaining properties
 @property(retain, nonatomic) NSImage *symbolImage;

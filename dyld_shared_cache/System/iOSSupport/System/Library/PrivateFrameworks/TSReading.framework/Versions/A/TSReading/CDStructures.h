@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, TSTCell;
+@class NSString;
 
 #pragma mark Function Pointers and Blocks
 
@@ -15,31 +15,31 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct CATransform3D {
-    double m11;
-    double m12;
-    double m13;
-    double m14;
-    double m21;
-    double m22;
-    double m23;
-    double m24;
-    double m31;
-    double m32;
-    double m33;
-    double m34;
-    double m41;
-    double m42;
-    double m43;
-    double m44;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
+    double _field7;
+    double _field8;
+    double _field9;
+    double _field10;
+    double _field11;
+    double _field12;
+    double _field13;
+    double _field14;
+    double _field15;
+    double _field16;
 };
 
 struct CGAffineTransform {
-    double a;
-    double b;
-    double c;
-    double d;
-    double tx;
-    double ty;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
 };
 
 struct CGColor;
@@ -81,12 +81,6 @@ struct Manager {
     struct EQKitCacheLRUCounter _field3;
 };
 
-struct PATHSEGMENT {
-    unsigned int :4;
-    unsigned int :60;
-    struct CGPoint _field1;
-};
-
 struct Path {
     int _field1;
     int _field2;
@@ -121,17 +115,6 @@ struct TSTCellStorage {
         unsigned int :16;
     } _field1;
     unsigned char _field2[0];
-};
-
-struct TSTStrokeRun {
-    unsigned int _field1;
-    unsigned int _field2;
-    id _field3;
-    double _field4;
-    unsigned int :1;
-    unsigned int :1;
-    unsigned int :2;
-    unsigned int :2;
 };
 
 struct TSTTableRBTreeNode_s {
@@ -192,8 +175,6 @@ struct TSWPDrawingState;
 
 struct TSWPLineFragment;
 
-struct TSWPLineFragmentArray;
-
 struct TSWPParagraphAttributeArray {
     CDUnknownFunctionPointerType *_field1;
     unsigned int _field2;
@@ -220,30 +201,21 @@ struct TSWPParagraphEnumerator {
 struct TSWPParagraphTypesetter;
 
 struct TSWPRangeVector {
-    struct _NSRange *__begin_;
-    struct _NSRange *__end_;
+    struct _NSRange *_field1;
+    struct _NSRange *_field2;
     struct {
-        struct _NSRange *__cap_;
-    } ;
-};
-
-struct TSWPTopicNumberHints {
-    struct map<const TSWPListStyle *, std::vector<TSWPTopicNumberEntry>, std::less<const TSWPListStyle *>, std::allocator<std::pair<const TSWPListStyle *const, std::vector<TSWPTopicNumberEntry>>>> _numbersForListStyle;
-    unsigned long long _charIndex;
-    unsigned long long _validThroughCharIndex;
-    NSObject *_styleProvider;
+        struct _NSRange *_field1;
+    } _field3;
 };
 
 struct UIEdgeInsets {
-    double top;
-    double left;
-    double bottom;
-    double right;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
 };
 
 struct WHCCol;
-
-struct WHCRow;
 
 struct _NSRange {
     unsigned long long location;
@@ -257,20 +229,6 @@ struct _TSDStrokeOutsets {
     double _field4;
 };
 
-struct _TSKThreadInfo {
-    struct _opaque_pthread_t *threadId;
-    unsigned int count;
-};
-
-struct _TSTDefaultCellBlock {
-    TSTCell *defaultBodyCell;
-    TSTCell *defaultHeaderRowCell;
-    TSTCell *defaultHeaderColumnCell;
-    TSTCell *defaultFooterRowCell;
-};
-
-struct _TSWPCharIndexAndAffinity;
-
 struct _TSWPCharIndexAndPosition {
     unsigned long long _field1;
     int _field2;
@@ -279,15 +237,8 @@ struct _TSWPCharIndexAndPosition {
     double _field5;
 };
 
-struct __shared_weak_count;
-
 struct __wrap_iter<double *> {
     double *_field1;
-};
-
-struct _opaque_pthread_rwlock_t {
-    long long __sig;
-    char __opaque[192];
 };
 
 struct _xmlDoc {
@@ -347,29 +298,6 @@ struct _xmlNs {
     struct _xmlDoc *_field6;
 };
 
-struct array<unsigned char, 20UL> {
-    unsigned char __elems_[20];
-};
-
-struct atomic<int> {
-    struct __cxx_atomic_impl<int, std::__cxx_atomic_base_impl<int>> {
-        _Atomic int __a_value;
-    } __a_;
-};
-
-struct deque<EQKitMathMLParserState, std::allocator<EQKitMathMLParserState>> {
-    struct __split_buffer<EQKitMathMLParserState *, std::allocator<EQKitMathMLParserState *>> {
-        int **__first_;
-        int **__begin_;
-        int **__end_;
-        struct {
-            int **__cap_;
-        } ;
-    } __map_;
-    unsigned long long __start_;
-    CDStruct_a7186859 ;
-};
-
 struct list<unsigned long, std::allocator<unsigned long>> {
     struct __list_node_base<unsigned long, void *> {
         void *__prev_;
@@ -378,32 +306,12 @@ struct list<unsigned long, std::allocator<unsigned long>> {
     CDStruct_a7186859 ;
 };
 
-struct map<const TSWPListStyle *, std::vector<TSWPTopicNumberEntry>, std::less<const TSWPListStyle *>, std::allocator<std::pair<const TSWPListStyle *const, std::vector<TSWPTopicNumberEntry>>>> {
-    struct __tree<std::__value_type<const TSWPListStyle *, std::vector<TSWPTopicNumberEntry>>, std::__map_value_compare<const TSWPListStyle *, std::pair<const TSWPListStyle *const, std::vector<TSWPTopicNumberEntry>>, std::less<const TSWPListStyle *>>, std::allocator<std::pair<const TSWPListStyle *const, std::vector<TSWPTopicNumberEntry>>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
-struct map<unsigned long, TSWPFontHeightCacheEntry, std::less<unsigned long>, std::allocator<std::pair<const unsigned long, TSWPFontHeightCacheEntry>>> {
-    struct __tree<std::__value_type<unsigned long, TSWPFontHeightCacheEntry>, std::__map_value_compare<unsigned long, std::pair<const unsigned long, TSWPFontHeightCacheEntry>, std::less<unsigned long>>, std::allocator<std::pair<const unsigned long, TSWPFontHeightCacheEntry>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-};
-
 struct map<unsigned long, std::shared_ptr<TSWPParagraphTypesetter>, std::less<unsigned long>, std::allocator<std::pair<const unsigned long, std::shared_ptr<TSWPParagraphTypesetter>>>> {
     struct __tree<std::__value_type<unsigned long, std::shared_ptr<TSWPParagraphTypesetter>>, std::__map_value_compare<unsigned long, std::pair<const unsigned long, std::shared_ptr<TSWPParagraphTypesetter>>, std::less<unsigned long>>, std::allocator<std::pair<const unsigned long, std::shared_ptr<TSWPParagraphTypesetter>>>> {
         void *__begin_node_;
         CDStruct_09bd28e6 ;
         CDStruct_a7186859 ;
     } __tree_;
-};
-
-struct os_unfair_lock_s {
-    unsigned int _os_unfair_lock_opaque;
 };
 
 struct path_descr;
@@ -432,60 +340,15 @@ struct set<id<TSWPStorageObserver>, std::less<id<TSWPStorageObserver>>, std::all
     } __tree_;
 };
 
-struct shared_ptr<TSWPLineFragmentArray> {
-    struct TSWPLineFragmentArray *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-};
-
 struct shared_ptr<TSWPParagraphTypesetter> {
     struct TSWPParagraphTypesetter *_field1;
     struct __shared_weak_count *_field2;
-};
-
-struct stack<EQKitMathMLParserState, std::deque<EQKitMathMLParserState>> {
-    struct deque<EQKitMathMLParserState, std::allocator<EQKitMathMLParserState>> c;
 };
 
 struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowCoordinate>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowCoordinate>, void *>*>*>>> {
     struct {
         void **__ptr_;
         struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowCoordinate>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowSize>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowSize>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowSize>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const long long, NSMutableArray *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const long long, NSMutableArray *>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const long long, NSMutableArray *>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const long long, TSPData *__weak>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const long long, TSPData *__weak>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const long long, TSPData *__weak>, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const std::array<unsigned char, 20>, TSPData *__weak>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const std::array<unsigned char, 20>, TSPData *__weak>, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const std::array<unsigned char, 20>, TSPData *__weak>, void *>*>*>> {
             CDStruct_a7186859 ;
         } __deleter_;
     } ;
@@ -500,59 +363,9 @@ struct unordered_map<TSUColumnRowCoordinate, TSUColumnRowCoordinate, TSTCellIDHa
             } __first_node_;
         } ;
         CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<TSUColumnRowCoordinate, TSUColumnRowSize, TSTCellIDHasher, std::equal_to<TSUColumnRowCoordinate>, std::allocator<std::pair<const TSUColumnRowCoordinate, TSUColumnRowSize>>> {
-    struct __hash_table<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowSize>, std::__unordered_map_hasher<TSUColumnRowCoordinate, std::pair<const TSUColumnRowCoordinate, TSUColumnRowSize>, TSTCellIDHasher, std::equal_to<TSUColumnRowCoordinate>>, std::__unordered_map_equal<TSUColumnRowCoordinate, std::pair<const TSUColumnRowCoordinate, TSUColumnRowSize>, std::equal_to<TSUColumnRowCoordinate>, TSTCellIDHasher>, std::allocator<std::pair<const TSUColumnRowCoordinate, TSUColumnRowSize>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowSize>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowSize>, void *>*>*>>> __bucket_list_;
         struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<TSUColumnRowCoordinate, TSUColumnRowSize>, void *>*> {
-                void *__next_;
-            } __first_node_;
+            float __max_load_factor_;
         } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<const long long, NSMutableArray *, TSP::IdentifierHash, std::equal_to<const long long>, std::allocator<std::pair<const long long, NSMutableArray *>>> {
-    struct __hash_table<std::__hash_value_type<const long long, NSMutableArray *>, std::__unordered_map_hasher<const long long, std::pair<const long long, NSMutableArray *>, TSP::IdentifierHash, std::equal_to<const long long>>, std::__unordered_map_equal<const long long, std::pair<const long long, NSMutableArray *>, std::equal_to<const long long>, TSP::IdentifierHash>, std::allocator<std::pair<const long long, NSMutableArray *>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const long long, NSMutableArray *>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const long long, NSMutableArray *>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<const long long, NSMutableArray *>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<const long long, TSPData *__weak, TSP::ObjectIdentifierHash, std::equal_to<const long long>, std::allocator<std::pair<const long long, TSPData *__weak>>> {
-    struct __hash_table<std::__hash_value_type<const long long, TSPData *__weak>, std::__unordered_map_hasher<const long long, std::pair<const long long, TSPData *__weak>, TSP::ObjectIdentifierHash, std::equal_to<const long long>>, std::__unordered_map_equal<const long long, std::pair<const long long, TSPData *__weak>, std::equal_to<const long long>, TSP::ObjectIdentifierHash>, std::allocator<std::pair<const long long, TSPData *__weak>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const long long, TSPData *__weak>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const long long, TSPData *__weak>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<const long long, TSPData *__weak>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_map<const std::array<unsigned char, 20>, TSPData *__weak, TSP::DataDigestHash, TSP::DataDigestEqualTo, std::allocator<std::pair<const std::array<unsigned char, 20>, TSPData *__weak>>> {
-    struct __hash_table<std::__hash_value_type<const std::array<unsigned char, 20>, TSPData *__weak>, std::__unordered_map_hasher<const std::array<unsigned char, 20>, std::pair<const std::array<unsigned char, 20>, TSPData *__weak>, TSP::DataDigestHash, TSP::DataDigestEqualTo>, std::__unordered_map_equal<const std::array<unsigned char, 20>, std::pair<const std::array<unsigned char, 20>, TSPData *__weak>, TSP::DataDigestEqualTo, TSP::DataDigestHash>, std::allocator<std::pair<const std::array<unsigned char, 20>, TSPData *__weak>>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const std::array<unsigned char, 20>, TSPData *__weak>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<const std::array<unsigned char, 20>, TSPData *__weak>, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<std::__hash_value_type<const std::array<unsigned char, 20>, TSPData *__weak>, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
     } __table_;
 };
 
@@ -572,27 +385,11 @@ struct vector<TSTWidthHeightCache_Private::WHCCol, std::allocator<TSTWidthHeight
     } ;
 };
 
-struct vector<TSTWidthHeightCache_Private::WHCRow, std::allocator<TSTWidthHeightCache_Private::WHCRow>> {
-    struct WHCRow *__begin_;
-    struct WHCRow *__end_;
-    struct {
-        struct WHCRow *__cap_;
-    } ;
-};
-
 struct vector<TSWPRepBoundsAnalyzer::Info, std::allocator<TSWPRepBoundsAnalyzer::Info>> {
     struct Info *__begin_;
     struct Info *__end_;
     struct {
         struct Info *__cap_;
-    } ;
-};
-
-struct vector<_TSWPCharIndexAndAffinity, std::allocator<_TSWPCharIndexAndAffinity>> {
-    struct _TSWPCharIndexAndAffinity *__begin_;
-    struct _TSWPCharIndexAndAffinity *__end_;
-    struct {
-        struct _TSWPCharIndexAndAffinity *__cap_;
     } ;
 };
 
@@ -605,11 +402,11 @@ struct vector<boost::polygon::segment_data<double>, std::allocator<boost::polygo
 };
 
 struct vector<double, std::allocator<double>> {
-    double *__begin_;
-    double *__end_;
+    double *_field1;
+    double *_field2;
     struct {
-        double *__cap_;
-    } ;
+        double *_field1;
+    } _field3;
 };
 
 struct vector<unsigned long, std::allocator<unsigned long>> {
@@ -644,9 +441,13 @@ typedef struct {
 } CDStruct_7bd98050;
 
 typedef struct {
-    unsigned int column;
-    unsigned int row;
-} CDStruct_e5a208c7;
+    unsigned int _field1;
+    unsigned int _field2;
+} CDStruct_c0454aff;
+
+typedef struct {
+    unsigned int _field1;
+} CDStruct_6238c8e0;
 
 typedef struct {
     unsigned long long _field1;
@@ -662,9 +463,9 @@ typedef struct {
 } CDStruct_7549c2a6;
 
 typedef struct {
-    unsigned long long x;
-    unsigned long long y;
-} CDStruct_73b5d383;
+    unsigned long long _field1;
+    unsigned long long _field2;
+} CDStruct_4bcfbbae;
 
 typedef struct {
     unsigned long long _field1;
@@ -683,14 +484,15 @@ typedef struct {
 } CDStruct_a7186859;
 
 typedef struct {
-    unsigned short row;
-    unsigned char column;
-    unsigned char reserved;
-} CDStruct_0441cfb5;
+    unsigned short _field1;
+    unsigned char _field2;
+    unsigned char _field3;
+} CDStruct_bd4d8e6b;
 
 typedef struct {
-    id columns[4];
-} CDStruct_95fa7c00;
+    unsigned short _field1;
+    unsigned short _field2;
+} CDStruct_d65e47c4;
 
 typedef struct {
     double _field1;
@@ -713,14 +515,20 @@ typedef struct {
 typedef struct {
     double _field1;
     double _field2;
+    double _field3;
+} CDStruct_39925896;
+
+typedef struct {
+    double _field1;
+    double _field2;
 } CDStruct_c3b9c2ee;
 
 typedef struct {
-    float r;
-    float g;
-    float b;
-    float a;
-} CDStruct_83984b6f;
+    float _field1;
+    float _field2;
+    float _field3;
+    float _field4;
+} CDStruct_818bb265;
 
 typedef struct {
     float _field1;
@@ -729,13 +537,9 @@ typedef struct {
 } CDStruct_869f9c67;
 
 typedef struct {
-    float x;
-    float y;
-} CDStruct_6e3f967a;
-
-typedef struct {
-    float __max_load_factor_;
-} CDStruct_717dde41;
+    float _field1;
+    float _field2;
+} CDStruct_b2fbf00d;
 
 typedef struct {
     int _field1;
@@ -744,9 +548,9 @@ typedef struct {
 } CDStruct_b9fbe577;
 
 typedef struct {
-    int width;
-    int height;
-} CDStruct_79c71658;
+    int _field1;
+    int _field2;
+} CDStruct_1ef3fb1f;
 
 typedef struct CDStruct_183601bc;
 
@@ -781,22 +585,19 @@ typedef struct {
 } CDStruct_64113493;
 
 typedef struct {
-    CDStruct_e5a208c7 topLeft;
-    CDStruct_e5a208c7 bottomRight;
-} CDStruct_58eae27c;
+    CDStruct_c0454aff _field1;
+    CDStruct_c0454aff _field2;
+} CDStruct_3178b2de;
 
 typedef struct {
-    CDStruct_73b5d383 topLeft;
-    CDStruct_73b5d383 bottomRight;
-} CDStruct_2d1207dd;
+    CDStruct_4bcfbbae _field1;
+    CDStruct_4bcfbbae _field2;
+} CDStruct_7470134b;
 
 typedef struct {
-    CDStruct_0441cfb5 origin;
-    struct {
-        unsigned short numberOfColumns;
-        unsigned short numberOfRows;
-    } size;
-} CDStruct_5f1f7aa9;
+    CDStruct_bd4d8e6b _field1;
+    CDStruct_d65e47c4 _field2;
+} CDStruct_f5d1269f;
 
 typedef struct {
     struct CGPoint _field1;
@@ -830,42 +631,29 @@ typedef struct {
 
 typedef struct {
     union {
+        CDStruct_6238c8e0 _field1;
+        CDStruct_d65e47c4 _field2;
+        CDStruct_d65e47c4 _field3;
         struct {
-            unsigned int listStart;
-        } ;
-        struct {
-            unsigned short level;
-            unsigned short flags;
-        } ;
-        struct {
-            unsigned short row;
-            unsigned short column;
-        } ;
-        struct {
-            int writingDirection;
-        } ;
-        struct {
-            unsigned int _singleValue;
-        } ;
-        struct {
-            unsigned short _first;
-            unsigned short _second;
-        } ;
-    } ;
-} CDStruct_8a5ee6e3;
+            int _field1;
+        } _field4;
+        CDStruct_6238c8e0 _field5;
+        CDStruct_d65e47c4 _field6;
+    } _field1;
+} CDStruct_2c7f7274;
 
 typedef struct {
-    CDStruct_0441cfb5 mPreviousCellID;
-    CDStruct_0441cfb5 mCellID;
-    TSTCell *mCell;
-    struct TSTCellStorage *mCellRef;
-    CDStruct_5f1f7aa9 mMergeRange;
-    _Bool mStyleOnly;
-    _Bool mCommentStorageOnly;
-    _Bool mHidden;
-    _Bool mHiddenRow;
-    _Bool mHiddenColumn;
-} CDStruct_6188ab8e;
+    CDStruct_bd4d8e6b _field1;
+    CDStruct_bd4d8e6b _field2;
+    id _field3;
+    struct TSTCellStorage *_field4;
+    CDStruct_f5d1269f _field5;
+    _Bool _field6;
+    _Bool _field7;
+    _Bool _field8;
+    _Bool _field9;
+    _Bool _field10;
+} CDStruct_5c2ac53f;
 
 typedef struct {
     struct CGRect _field1;
@@ -938,18 +726,7 @@ typedef struct {
     } ;
 } CDStruct_95e644ef;
 
-// Ambiguous groups
-typedef struct {
-    unsigned short _field1;
-    unsigned short _field2;
-} CDStruct_d65e47c4;
-
-typedef struct {
-    double _field1;
-    double _field2;
-    double _field3;
-} CDStruct_39925896;
-
+// Template types
 typedef struct __wrap_iter<double *> {
     double *_field1;
 } __wrap_iter_8fb6ff7c;
@@ -968,10 +745,10 @@ typedef struct vector<boost::polygon::segment_data<double>, std::allocator<boost
 } vector_fa770ee9;
 
 typedef struct vector<double, std::allocator<double>> {
-    double *__begin_;
-    double *__end_;
+    double *_field1;
+    double *_field2;
     struct {
-        double *__cap_;
-    } ;
-} vector_3f2cadd7;
+        double *_field1;
+    } _field3;
+} vector_e69d0719;
 

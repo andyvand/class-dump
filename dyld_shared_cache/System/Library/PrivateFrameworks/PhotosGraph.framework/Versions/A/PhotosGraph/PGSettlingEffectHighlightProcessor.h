@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PHPhotoLibrary;
+@class NSObject;
 @protocol OS_os_log;
 
 @interface PGSettlingEffectHighlightProcessor
 {
     NSObject<OS_os_log> *_loggingConnection;
-    PHPhotoLibrary *_photoLibrary;
-    CDStruct_bd54fcdc _statistics;
 }
 
 + (_Bool);
 - (void);
+- (id)_setMenuBarOwningApplicationObserver:(id)arg1;
 - (id);
-- (id);
-- (CDStruct_bd54fcdc);
-- (void)Extension;
+- (CDStruct_8321e18f);
+- (void)semanticalDedupingMaximumTimeGroupExtension;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_bd54fcdc statistics; // @synthesize statistics=_statistics;
+@property(readonly, nonatomic) CDStruct_8321e18f statistics; // @synthesize statistics=_statistics;
 
 @end
 

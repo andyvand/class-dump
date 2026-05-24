@@ -7,19 +7,17 @@
 @interface CHHapticParameterCurveControlPoint
 {
     float _value;
-    double _time;
 }
 
 - (void);
 - (double);
 - (id);
-- (void);
+- (void);
 - (id);
 - (float);
 
 // Remaining properties
 @property double relativeTime; // @synthesize relativeTime=_time;
-@property float value; // @synthesize value=_value;
 
 @end
 

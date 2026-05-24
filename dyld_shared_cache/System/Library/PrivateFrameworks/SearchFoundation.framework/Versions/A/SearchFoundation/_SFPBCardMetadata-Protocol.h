@@ -7,10 +7,11 @@
 @class NSData, NSString;
 
 @protocol _SFPBCardMetadata
+- (NSString *);
+- (_Bool);
+- (NSData *)PLChangeRequestCore;
 
 // Remaining properties
 @property(nonatomic) _Bool isServerEntity;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *queryToSearchAcrossAllDomains;
 @end
 

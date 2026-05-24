@@ -6,12 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaUEISiriCarCommandCancelled : SISchemaInstrumentationMessage
 {
     _Bool _isSiriDigitalCarKeyRequest;
-    CDStruct_b9429cd9 _has;
 }
 
 - (void);
@@ -21,18 +18,16 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ngID:remoteDeviceID:withResultHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)ss]];
 - (id);
 - (id);
-- (id)tTimeOffsetInNs;
-- (id)AttemptFailed;
+- (id)deleteFirstBufferReceiptTimeOffsetInNs;
+- (id)_hasCdmSingleServiceWarmupAttemptFailed;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsSiriDigitalCarKeyRequest;
 @property(nonatomic) _Bool isSiriDigitalCarKeyRequest; // @synthesize isSiriDigitalCarKeyRequest=_isSiriDigitalCarKeyRequest;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

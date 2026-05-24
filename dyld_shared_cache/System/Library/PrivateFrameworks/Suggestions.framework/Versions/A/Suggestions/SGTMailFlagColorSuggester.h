@@ -23,7 +23,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)tionController;
 
 // Remaining properties
 @property(copy) NSArray *mailFlagColors; // @synthesize mailFlagColors;

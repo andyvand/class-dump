@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRFormAnalyzerConfiguration, CRFormDetectorModel;
+@class CRFormAnalyzerConfiguration;
 
 @interface CRFormDetector
 {
     CRFormAnalyzerConfiguration *_configuration;
-    CRFormDetectorModel *_model;
 }
 
 + (_Bool);
@@ -18,14 +17,13 @@
 + (id);
 - (id);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void)eight;
+- (void)textlineHeight;
 
 // Remaining properties
 @property(readonly) CRFormAnalyzerConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly) CRFormDetectorModel *model; // @synthesize model=_model;
 
 @end
 

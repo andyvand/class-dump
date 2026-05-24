@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface VNCluster
 {
     _Bool _shouldUpdateRepresentative;
-    NSArray *_objects;
-    unsigned long long _clusterId;
-    unsigned long long _totalObjectCount;
-    NSArray *_suggestedIdsForRepresentative;
-    NSDictionary *_representativenessById;
 }
 
 + (_Bool);
@@ -27,23 +22,18 @@
 - (void);
 - (id);
 - (unsigned long long);
+- (id)_lastEditorNameComponents;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)	?ր;
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)inputBottomRight;
 
 // Remaining properties
-@property(nonatomic) unsigned long long clusterId; // @synthesize clusterId=_clusterId;
 @property(retain, nonatomic) NSArray *objects; // @synthesize objects=_objects;
-@property(retain, nonatomic) NSDictionary *representativenessById; // @synthesize representativenessById=_representativenessById;
-@property(nonatomic) _Bool shouldUpdateRepresentative; // @synthesize shouldUpdateRepresentative=_shouldUpdateRepresentative;
-@property(retain, nonatomic) NSArray *suggestedIdsForRepresentative; // @synthesize suggestedIdsForRepresentative=_suggestedIdsForRepresentative;
-@property(nonatomic) unsigned long long totalObjectCount; // @synthesize totalObjectCount=_totalObjectCount;
 
 @end
 

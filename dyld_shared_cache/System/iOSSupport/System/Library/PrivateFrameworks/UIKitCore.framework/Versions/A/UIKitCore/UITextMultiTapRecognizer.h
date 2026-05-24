@@ -6,30 +6,21 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class NSArray, NSString, UITapRecognizer, UIView;
-
 @interface UITextMultiTapRecognizer : UIGestureRecognizer
 {
     id _target;
-    SEL _tapAction;
-    UITapRecognizer *_tapRecognizer;
-    unsigned long long _tapCount;
-    unsigned long long _touchDownCount;
-    _Bool _sendTapAction;
-    _Bool _recognizesOnSubsequentTouchDowns;
-    long long _requiredButtonMask;
 }
 
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)SSL3_SEND_CLIENT_VERIFY;
 - (void);
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)usesFallbackCache;
+- (id)nowPlayingIdentifiers;
 - (double);
 - (void);
 - (void);
@@ -39,42 +30,25 @@
 × ;
 - (void);
 - (_Bool);
-- (struct CGPoint)enu:(id)arg1 didPickDocumentPicker: /* Error: Ran out of types for this method. */;
-- (void)th;
-- (unsigned long long)Multiplier: /* Error: Ran out of types for this method. */;
-- (void)owingDeleteConfirmation:(id)arg1 rowWidth:(id)arg2;
+- (struct CGPoint)documentMenu:(id)arg1 didPickDocumentPicker: /* Error: Ran out of types for this method. */;
+- (void)createShapeLayerPath;
+- (unsigned long long)_setSliderSpeedMultiplier: /* Error: Ran out of types for this method. */;
+- (void)_legacy_contentRectForCell:(id)arg1 forEditingState:(id)arg2 showingDeleteConfirmation:rowWidth: /* Error: Ran out of types for this method. */;
 - (void)ayoutSynchronously;
 - (void)S_setUniqueWritingToolsAnimatedLayoutInfo:(double)arg1;
-- (void)IDiffableDataSourceSectionControllerInternal;
+- (void)_UIDiffableDataSourceSectionControllerInternal;
 - (long long)èD;
 - (double)-[UIDocumentBrowserViewControllerDelegate documentBrowser:didRequestDocumentCreationWithHandler:]. /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (unsigned long long)boardIdentifier;
-- (_Bool)ButtonAddress;
+- (unsigned long long)UIStateRestorationViewControllerStoryboardIdentifier;
+- (_Bool)_UIFocusGesturePageButtonAddress;
 - (struct CGPoint)TÓþÿz\þÿx\þÿÅþÿÅþÿ6Óþÿ8Óþÿ;
 - (void);
 - (void) tþ;
 - (void)´;
 
 // Remaining properties
-@property double allowableMovement;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) struct CGPoint location;
-@property double maximumIntervalBetweenTaps;
-@property double maximumTouchDownDuration;
-@property unsigned long long minimumNumberOfTapsRequired;
-@property unsigned long long numberOfTouchesRequired;
-@property _Bool recognizesOnSubsequentTouchDowns; // @synthesize recognizesOnSubsequentTouchDowns=_recognizesOnSubsequentTouchDowns;
-@property long long requiredButtonMask; // @synthesize requiredButtonMask=_requiredButtonMask;
-@property(readonly) Class superclass;
 @property(readonly) unsigned long long tapCount;
-@property(readonly) NSArray *touchesForTap;
-@property(readonly, nonatomic) UIView *view;
 
 @end
 

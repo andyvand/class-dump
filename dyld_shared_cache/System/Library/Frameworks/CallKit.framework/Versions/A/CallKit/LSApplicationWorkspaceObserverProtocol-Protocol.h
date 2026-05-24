@@ -4,6 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol LSApplicationWorkspaceObserverProtocol
+
+@optional
+- (_Bool)ialized data;
+- (void)C3DAnimationGroupReplaceAnimationChannelAtIndex;
+- (void)C3DAnimationGroupInsertAnimationChannelAtIndex;
+- (void);
+- (void);
+- (void)initWithEndpointFeatures:(NSArray *)arg1;
+- (void)firstItem;
+- (void)EQ_LOUNGE;
+- (void)+V;
 @end
 

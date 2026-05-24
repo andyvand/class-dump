@@ -6,13 +6,11 @@
 
 #import <Metal/MTL4PipelineDescriptor.h>
 
-@class MTL4FunctionDescriptor, NSString;
+@class MTL4FunctionDescriptor;
 
 @interface MTL4MachineLearningPipelineDescriptor : MTL4PipelineDescriptor
 {
     MTL4FunctionDescriptor *_machineLearningFunctionDescriptor;
-    void *_extents;
-    long long _deviceSelection;
 }
 
 - (void);
@@ -22,17 +20,15 @@
 - (long long);
 - (void);
 - (id);
-- (void);
+- (void)kCIImageProcessorAllowCompressedInputsAndOutputs;
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)`;
 - (_Bool);
-- (id);
+- (id)ׂ;
 
 // Remaining properties
 @property long long deviceSelection;
-@property(copy, nonatomic) NSString *label;
-@property(copy, nonatomic) MTL4FunctionDescriptor *machineLearningFunctionDescriptor; // @synthesize machineLearningFunctionDescriptor=_machineLearningFunctionDescriptor;
 
 @end
 

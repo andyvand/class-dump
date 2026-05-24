@@ -7,15 +7,14 @@
 @class NSString;
 
 @protocol NSObject
+- (oneway void);
+- (id)ry}I^{__CFDictionary}^{ktrace_chunk}*Q@?@?@?qqBBBBBB},N,V_ktfile;
 - (struct _NSZone *)¼z;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *)kdebug_disabling_event_mask;
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

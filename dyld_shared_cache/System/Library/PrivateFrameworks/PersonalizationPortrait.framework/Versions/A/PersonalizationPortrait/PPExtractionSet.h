@@ -9,14 +9,13 @@
 @interface PPExtractionSet
 {
     NSArray *_namedEntityRecords;
-    NSArray *_topicRecords;
 }
 
-+ (_Bool);
++ (_Bool)A;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)addBlockToCallAfterPresenting:(id)arg1;
 - (id);
 - (void);
 - (id);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *namedEntityRecords; // @synthesize namedEntityRecords=_namedEntityRecords;
-@property(readonly, nonatomic) NSArray *topicRecords; // @synthesize topicRecords=_topicRecords;
 
 @end
 

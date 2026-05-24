@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     CKNicknamePreviewView *_nicknamePreviewView;
 }
 
-- (void);
+- (void)_surroundingAttributes;
 - (id);
 - (double);
 - (void);

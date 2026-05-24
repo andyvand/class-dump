@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
-
 __attribute__((visibility("hidden")))
 @interface NSColorProfile
 {
     void *_profile;
-    void *_header;
-    NSURL *_location;
-    void *_md5;
-    NSString *_name;
-    void *_reserved;
 }
 
-+ (id);
-- (id);
-- (id);
-- (id);
-- (void *);
++ (id)quires the use of a secure connection.;
+- (id)URLSession:(id)arg1 downloadTask:didWriteData:totalBytesWritten:totalBytesExpectedToWrite: /* Error: Ran out of types for this method. */;
+- (id)ionary;
+- (id)hContent;
+- (void *)leted;
 - (long long);
 - (unsigned int);
 - (unsigned int);
-- (long long);
+- (long long)h;
 - (id);
 - (void *);
 - (void);
-- (id);
+- (id)2 * alpha) - ((BN_ULLONG)v * beta);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)_layoutOrientation;
 - (_Bool);
 - (void)¡ë/!TBùà31Â0@ù
 × ;

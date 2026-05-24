@@ -11,13 +11,13 @@
     unsigned long long _interfaceOrientations;
 }
 
-- (void);
-- (unsigned long long);
+- (void)fetchUnreadChatsOlderThan:(unsigned long long)arg1 predicate:limit:completionHandler: /* Error: Ran out of types for this method. */;
+- (unsigned long long)IMStateLoggable;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool)LastVisibleIndexRange:(id)arg1;
-- (long long)omponent;
+- (_Bool)setLastVisibleIndexRange:(id)arg1;
+- (long long)UIParentModifierTransitionComponent;
 
 // Remaining properties
 @property(nonatomic) unsigned long long interfaceOrientations; // @synthesize interfaceOrientations=_interfaceOrientations;

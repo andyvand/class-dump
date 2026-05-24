@@ -4,26 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICAppearanceInfo, ICAttachmentPreviewImageLoader, ICAttachmentThumbnailOperationQueue, ICThumbnailDataCache, NSManagedObjectID, NSMutableArray, NSString, NSURL;
-
 @interface ICAttachmentThumbnailOperation
 {
     _Bool _attachmentPropertiesCaptured;
-    _Bool _showAsFileIcon;
-    _Bool _isMovie;
-    double _scale;
-    ICAppearanceInfo *_appearanceInfo;
-    ICThumbnailDataCache *_cache;
-    NSString *_cacheKey;
-    CDUnknownBlockType _fallbackBlock;
-    CDUnknownBlockType _processingBlock;
-    ICAttachmentThumbnailOperationQueue *_queue;
-    NSMutableArray *_completionBlocks;
-    NSManagedObjectID *_attachmentID;
-    ICAttachmentPreviewImageLoader *_attachmentPreviewImageLoader;
-    NSURL *_mediaURL;
-    unsigned long long _imageScaling;
-    struct CGSize _minSize;
 }
 
 - (void);
@@ -32,7 +15,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
@@ -55,36 +38,21 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)(<;
 - (void);
-- (id);
+- (id)	;
 - (CDUnknownBlockType);
 - (void)ü°!àDù1
 1Â0@ù
 × ;
-- (void)oundQueue;
+- (void)_backgroundQueue;
 - (void)ximumNumberOfNotesPerAccount;
 - (struct CGSize);
 - (id)D4åÿøi?Zd
 ;
 
 // Remaining properties
-@property(retain, nonatomic) ICAppearanceInfo *appearanceInfo; // @synthesize appearanceInfo=_appearanceInfo;
-@property(retain, nonatomic) NSManagedObjectID *attachmentID; // @synthesize attachmentID=_attachmentID;
-@property(retain, nonatomic) ICAttachmentPreviewImageLoader *attachmentPreviewImageLoader; // @synthesize attachmentPreviewImageLoader=_attachmentPreviewImageLoader;
-@property(nonatomic) _Bool attachmentPropertiesCaptured; // @synthesize attachmentPropertiesCaptured=_attachmentPropertiesCaptured;
-@property(retain, nonatomic) ICThumbnailDataCache *cache; // @synthesize cache=_cache;
-@property(retain, nonatomic) NSString *cacheKey; // @synthesize cacheKey=_cacheKey;
-@property(retain, nonatomic) NSMutableArray *completionBlocks; // @synthesize completionBlocks=_completionBlocks;
-@property(copy, nonatomic) CDUnknownBlockType fallbackBlock; // @synthesize fallbackBlock=_fallbackBlock;
-@property(nonatomic) unsigned long long imageScaling; // @synthesize imageScaling=_imageScaling;
-@property(nonatomic) _Bool isMovie; // @synthesize isMovie=_isMovie;
-@property(retain, nonatomic) NSURL *mediaURL; // @synthesize mediaURL=_mediaURL;
 @property(nonatomic) struct CGSize minSize; // @synthesize minSize=_minSize;
-@property(copy, nonatomic) CDUnknownBlockType processingBlock; // @synthesize processingBlock=_processingBlock;
-@property(nonatomic) __weak ICAttachmentThumbnailOperationQueue *queue; // @synthesize queue=_queue;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
-@property(nonatomic) _Bool showAsFileIcon; // @synthesize showAsFileIcon=_showAsFileIcon;
 
 @end
 

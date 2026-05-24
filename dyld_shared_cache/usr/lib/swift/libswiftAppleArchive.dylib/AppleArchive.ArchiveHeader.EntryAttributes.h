@@ -7,6 +7,7 @@
 @interface AppleArchive.ArchiveHeader.EntryAttributes
 {
     id aaObject;
+    id;
 }
 
 @end

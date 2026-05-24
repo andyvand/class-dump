@@ -7,9 +7,6 @@
 @interface MailUI.MessageContentLoader
 {
     id cachedRepresentation;
-    id cachedBody;
-    id cachedAttachments;
-    id loadTask;
 }
 
 @end

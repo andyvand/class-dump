@@ -9,8 +9,6 @@
 @interface PGNeighborScoreComputer
 {
     NSMutableDictionary *_momentNodeCachedValuesByIdentifier;
-    unsigned long long _numberOfMomentNodes;
-    struct os_unfair_lock_s _numberOfMomentNodesLock;
 }
 
 - (id);

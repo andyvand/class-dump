@@ -8,18 +8,13 @@ __attribute__((visibility("hidden")))
 @interface CBDigitizerHotspot
 {
     int _orientation;
-    float _center_X;
-    float _center_Y;
-    float _touchTriggerDelay;
-    float _touchReleaseTime;
-    long long _triggered;
 }
 
 - (float);
 - (float);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (_Bool);
 - (float);
@@ -32,12 +27,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property float center_X; // @synthesize center_X=_center_X;
-@property float center_Y; // @synthesize center_Y=_center_Y;
 @property int orientation; // @synthesize orientation=_orientation;
-@property float touchReleaseTime; // @synthesize touchReleaseTime=_touchReleaseTime;
-@property float touchTriggerDelay; // @synthesize touchTriggerDelay=_touchTriggerDelay;
-@property long long triggered; // @synthesize triggered=_triggered;
 
 @end
 

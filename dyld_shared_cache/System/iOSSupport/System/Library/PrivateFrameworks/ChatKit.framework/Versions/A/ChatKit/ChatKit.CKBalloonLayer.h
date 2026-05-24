@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIView;
-@protocol CKBalloonViewAnimationDelegate, CKGradientReferenceView;
+@protocol CKBalloonViewAnimationDelegate;
 
 @interface ChatKit.CKBalloonLayer
 {
     void animationDelegate;
-    id sublayerConfiguration;
-    _Bool isBeingUsedInThrowAnimation;
-    _Bool isBeingUsedForSnapshot;
-    void gradientReferenceView;
-    id gradientOverrideFrame;
-    id configuration;
 }
 
 - (void);
 - (struct UIEdgeInsets);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (void)setFormatter:(_Bool)arg1;
+- (void)setAuthDFRPrompt:(struct CGRect)arg1;
+- (void)predicateForPendingInvitationsInAccount:(_Bool)arg1 receivedSince: /* Error: Ran out of types for this method. */;
+- (void)initWithAttachmentObjectID:context: /* Error: Ran out of types for this method. */;
+- (_Bool)vailable;
+- (_Bool),N,V_usesBiometricAuthenticationIfAvailable;
+- (id)troller",W,N,V_authorHighlightsController;
+- (void)session {note:(_Bool)arg1 %@};
 - (void);
 - (id);
 - (id);
@@ -41,17 +34,12 @@
 × ;
 - (void)!PEù°1Â0@ù
 × ;
-- (void)rentConversationsManager;
-- (void)gIndication;
+- (void)CKCurrentConversationsManager;
+- (void)NSBridgedApplyTextCheckingIndication;
 - (id):(id)arg1 xú.;
 
 // Remaining properties
 @property(nonatomic) __weak id <CKBalloonViewAnimationDelegate> animationDelegate; // @synthesize animationDelegate;
-@property(nonatomic) struct CGRect frame;
-@property(nonatomic) __weak UIView<CKGradientReferenceView> *gradientReferenceView; // @synthesize gradientReferenceView;
-@property(nonatomic) _Bool isBeingUsedForSnapshot; // @synthesize isBeingUsedForSnapshot;
-@property(nonatomic) _Bool isBeingUsedInThrowAnimation; // @synthesize isBeingUsedInThrowAnimation;
-@property(nonatomic, readonly) struct UIEdgeInsets tailInsets;
 
 @end
 

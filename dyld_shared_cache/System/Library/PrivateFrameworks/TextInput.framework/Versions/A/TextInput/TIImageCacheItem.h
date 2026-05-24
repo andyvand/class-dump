@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface TIImageCacheItem
 {
     unsigned char _format;
-    double _scale;
-    struct CGColor *_formatColor;
-    NSData *_data;
-    CDUnknownBlockType _dataReleaseHandler;
-    struct CGSize _size;
 }
 
-+ (id);
-+ (id);
++ (id)clientIdentifiers;
++ (id)TCHES %@);
 + (_Bool);
 - (void);
-- (id);
+- (id)q};
 - (double);
 - (void);
 - (struct CGSize);
 - (void);
 - (void);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
+- (void)h;
 - (unsigned char);
 - (void)!?;
 - (void);
@@ -42,11 +35,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(copy, nonatomic) CDUnknownBlockType dataReleaseHandler; // @synthesize dataReleaseHandler=_dataReleaseHandler;
-@property(nonatomic) unsigned char format; // @synthesize format=_format;
-@property(nonatomic) struct CGColor *formatColor; // @synthesize formatColor=_formatColor;
-@property(nonatomic) double scale; // @synthesize scale=_scale;
 @property(nonatomic) struct CGSize size; // @synthesize size=_size;
 
 @end

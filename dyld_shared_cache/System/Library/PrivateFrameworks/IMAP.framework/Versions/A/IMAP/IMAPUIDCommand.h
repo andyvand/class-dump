@@ -6,13 +6,11 @@
 
 #import <IMAP/IMAPSingleCommand.h>
 
-@class NSIndexSet, NSString;
+@class NSIndexSet;
 
 @interface IMAPUIDCommand : IMAPSingleCommand
 {
     NSIndexSet *_UIDs;
-    NSString *_mailboxName;
-    CDStruct_f792af56 _range;
 }
 
 - (id);
@@ -20,18 +18,16 @@
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)?rI;
 - (id);
-- (id);
-- (CDStruct_f792af56);
+- (id)il != fullPath;
+- (CDStruct_4bcfbbae);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy) NSIndexSet *UIDs; // @synthesize UIDs=_UIDs;
-@property(readonly, copy) NSString *mailboxName; // @synthesize mailboxName=_mailboxName;
-@property CDStruct_f792af56 range; // @synthesize range=_range;
 
 @end
 

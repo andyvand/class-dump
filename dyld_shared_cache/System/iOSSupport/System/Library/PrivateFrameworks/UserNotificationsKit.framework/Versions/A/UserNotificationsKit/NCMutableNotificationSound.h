@@ -6,35 +6,25 @@
 
 #import <UserNotificationsKit/NCNotificationSound.h>
 
-@class NSDictionary, NSString, TLAlertConfiguration;
-
 @interface NCMutableNotificationSound : NCNotificationSound
 {
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)uired;
+- (void)ollectionParameterDefinition.m;
+- (void)inkActionPhotoItemCollectionParameterDefinition localizedTitleForLinkValue:(unsigned long long)arg1 ];
+- (void)Descriptor"8Q16^B24;
+- (void)uf:(id)arg1 ];
+- (void)ger updatePolicyWithXPCActivity:(id)arg1 completionHandler:]_block_invoke_2 /* Error: Ran out of types for this method. */;
+- (void)ocalizedString:(id)arg1 ];
 - (void);
 - (void);
 - (id);
 - (void)¶|ÚFÈ;
 
 // Remaining properties
-@property(copy, nonatomic) TLAlertConfiguration *alertConfiguration; // @dynamic alertConfiguration;
-@property(copy, nonatomic) NSDictionary *controllerAttributes; // @dynamic controllerAttributes;
-@property(nonatomic) double maxDuration; // @dynamic maxDuration;
-@property(nonatomic, getter=isRepeating) _Bool repeats; // @dynamic repeats;
-@property(copy, nonatomic) NSString *ringtoneName; // @dynamic ringtoneName;
-@property(copy, nonatomic) NSString *songPath; // @dynamic songPath;
-@property(nonatomic) unsigned long long soundBehavior; // @dynamic soundBehavior;
 @property(nonatomic) long long soundType; // @dynamic soundType;
 @property(nonatomic) unsigned int systemSoundID; // @dynamic systemSoundID;
-@property(copy, nonatomic) NSDictionary *vibrationPattern; // @dynamic vibrationPattern;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface RemindersUICore.TTRSECreateRemindersEditingSessionProvider
 {
     id obtainInteractor;
-    id viewModelSource;
-    id undoContextProvider;
-    id displayUpdater;
-    id capability;
 }
 
 @end

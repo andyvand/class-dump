@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID;
+@class NSUUID;
 
 @interface OSLogBootEntry
 {
     NSUUID *_uuid;
-    unsigned long long _unixTimeNs;
-    struct timezone _tz;
-    struct mach_timebase_info _mach_info;
 }
 
 - (unsigned long long);
@@ -23,11 +20,7 @@
 - (id)1) < 255" -> %llu;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *bootDate;
-@property(readonly, nonatomic) struct mach_timebase_info mach_info; // @synthesize mach_info=_mach_info;
-@property(readonly, nonatomic) struct timezone tz; // @synthesize tz=_tz;
 @property(readonly, nonatomic) unsigned long long unixTimeNs; // @synthesize unixTimeNs=_unixTimeNs;
-@property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end
 

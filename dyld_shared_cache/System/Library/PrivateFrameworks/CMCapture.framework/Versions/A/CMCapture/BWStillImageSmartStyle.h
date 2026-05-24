@@ -10,34 +10,21 @@ __attribute__((visibility("hidden")))
 @interface BWStillImageSmartStyle
 {
     NSString *_cast;
-    float _intensity;
-    float _toneBias;
-    float _colorBias;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id):(id)arg1 !;
 - (float);
 - (float);
 - (id);
 - (void);
-- (void);
+- (void)EDPivotField;
 - (float);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *cast; // @synthesize cast=_cast;
-@property(nonatomic) float colorBias; // @synthesize colorBias=_colorBias;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) float intensity; // @synthesize intensity=_intensity;
-@property(readonly) Class superclass;
-@property(nonatomic) float toneBias; // @synthesize toneBias=_toneBias;
 
 @end
 

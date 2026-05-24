@@ -6,26 +6,11 @@
 
 #import <MapKit/MKAnnotationView.h>
 
-@class GEOFeatureStyleAttributes, MKMarkerBalloonView, MKMarkerDotView, MKMarkerStyle, MKWalletMerchantStylingInfo, NSString, UIColor, UIImage, UIView;
+@class MKMarkerBalloonView, MKWalletMerchantStylingInfo;
 
 @interface MKMarkerAnnotationView : MKAnnotationView
 {
     MKMarkerBalloonView *_markerView;
-    MKMarkerDotView *_selectedDotView;
-    MKMarkerBalloonView *_selectedMarkerView;
-    MKMarkerStyle *_selectedMarkerStyle;
-    MKMarkerStyle *_unselectedMarkerStyle;
-    UIView *_selectedContentView;
-    GEOFeatureStyleAttributes *_customStyleAttributes;
-    MKWalletMerchantStylingInfo *_walletMerchantStylingInfo;
-    _Bool _isObserving;
-    struct CGSize _size;
-    _Bool _animatesWhenAdded;
-    UIColor *_markerTintColor;
-    UIColor *_glyphTintColor;
-    NSString *_glyphText;
-    UIImage *_glyphImage;
-    UIImage *_selectedGlyphImage;
 }
 
 + (Class);
@@ -40,20 +25,20 @@
 - (void);
 - (void);
 - (void);
+- (id)!;
+- (id);
+- (void);
+- (_Bool);
+- (id)r;
 - (id);
 - (id);
-- (void);
+- (id);
+- (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -68,7 +53,7 @@
 - (id);
 - (id);
 - (id);
-- (CDStruct_ef33c3d5);
+- (CDStruct_7cd60665);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -87,8 +72,8 @@
 - (void);
 - (void);
 - (struct CGPoint);
-- (id);
-- (double);
+- (id);
+- (double);
 - (void);
 - (void);
 - (void);
@@ -100,23 +85,13 @@
 - (void);
 - (void);
 - (id);
+- (void)B24@"NSArray"28;
 - (void);
-- (void);
-- (void)ngCellular;
+- (void)allowPhoneNumberLookupUsingCellular;
 - (void)e;
 - (struct UIEdgeInsets)wLocationId;
 
 // Remaining properties
-@property(nonatomic) _Bool animatesWhenAdded; // @synthesize animatesWhenAdded=_animatesWhenAdded;
-@property(copy, nonatomic) UIImage *glyphImage; // @synthesize glyphImage=_glyphImage;
-@property(copy, nonatomic) NSString *glyphText; // @synthesize glyphText=_glyphText;
-@property(copy, nonatomic) UIColor *glyphTintColor; // @synthesize glyphTintColor=_glyphTintColor;
-@property(copy, nonatomic) UIColor *markerTintColor; // @synthesize markerTintColor=_markerTintColor;
-@property(retain, nonatomic) UIView *selectedContentView;
-@property(copy, nonatomic) UIImage *selectedGlyphImage; // @synthesize selectedGlyphImage=_selectedGlyphImage;
-@property(retain, nonatomic, getter=_styleAttributes, setter=_setStyleAttributes:) GEOFeatureStyleAttributes *styleAttributes; // @synthesize styleAttributes=_customStyleAttributes;
-@property(nonatomic) long long subtitleVisibility; // @dynamic subtitleVisibility;
-@property(nonatomic) long long titleVisibility; // @dynamic titleVisibility;
 @property(retain, nonatomic, getter=_walletMerchantStylingInfo, setter=_setWalletMerchantStylingInfo:) MKWalletMerchantStylingInfo *walletMerchantStylingInfo;
 
 @end

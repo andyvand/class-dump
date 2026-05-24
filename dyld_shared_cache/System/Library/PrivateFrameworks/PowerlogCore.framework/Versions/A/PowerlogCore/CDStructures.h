@@ -11,8 +11,8 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct _PLTimeIntervalRange {
-    double location;
-    double length;
+    double _field1;
+    double _field2;
 };
 
 struct __sFILE {

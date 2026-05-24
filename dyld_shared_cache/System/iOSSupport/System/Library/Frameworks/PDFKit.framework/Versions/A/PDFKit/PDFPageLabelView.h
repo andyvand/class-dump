@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     PDFPageLabelViewPrivate *_private;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);

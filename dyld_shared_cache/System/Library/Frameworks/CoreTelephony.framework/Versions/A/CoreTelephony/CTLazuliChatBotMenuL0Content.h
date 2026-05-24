@@ -7,26 +7,24 @@
 @interface CTLazuliChatBotMenuL0Content
 {
     long long _type;
-    id _item;
 }
 
-+ (_Bool);
++ (_Bool)teRange:(%lu,%lu) readFromCache:%d networkTransactionMetrics:%@> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (long long);
 - (_Bool);
-- (void);
+- (void)lP;
 - (id);
-- (void);
+- (void):(long long)arg1 8;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) id item; // @synthesize item=_item;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

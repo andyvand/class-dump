@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, SXLayoutOptions;
-@protocol SXComponent, SXComponentLayout, SXComponentState, SXComponentStyle, SXDOMObjectProviding;
+@protocol SXComponent;
 
 @interface SXComponentSizer
 {
     id <SXComponent> _component;
-    id <SXComponentLayout> _componentLayout;
-    id <SXComponentStyle> _componentStyle;
-    id <SXDOMObjectProviding> _DOMObjectProvider;
-    id <SXComponentState> _componentState;
-    SXLayoutOptions *_layoutOptions;
-    NSMutableDictionary *_infoForRendering;
-    struct CGSize _suggestedSize;
 }
 
 - (id);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)5;
 - (struct UIEdgeInsets);
 - (struct UIEdgeInsets);
 - (struct UIEdgeInsets);
@@ -45,13 +37,6 @@
 - (void)oint=dd}{CGSize=dd}}72@0:8@"SXFullscreenCanvasController"16@"<SXFullscreenCanvasShowable>"24Q32{CGRect={CGPoint=dd}{CGSize=dd}}40 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) id <SXDOMObjectProviding> DOMObjectProvider; // @synthesize DOMObjectProvider=_DOMObjectProvider;
-@property(readonly, nonatomic) id <SXComponent> component; // @synthesize component=_component;
-@property(readonly, nonatomic) id <SXComponentLayout> componentLayout; // @synthesize componentLayout=_componentLayout;
-@property(retain, nonatomic) id <SXComponentState> componentState; // @synthesize componentState=_componentState;
-@property(readonly, nonatomic) id <SXComponentStyle> componentStyle; // @synthesize componentStyle=_componentStyle;
-@property(readonly, nonatomic) NSMutableDictionary *infoForRendering; // @synthesize infoForRendering=_infoForRendering;
-@property(readonly, nonatomic) SXLayoutOptions *layoutOptions; // @synthesize layoutOptions=_layoutOptions;
 @property(nonatomic) struct CGSize suggestedSize; // @synthesize suggestedSize=_suggestedSize;
 
 @end

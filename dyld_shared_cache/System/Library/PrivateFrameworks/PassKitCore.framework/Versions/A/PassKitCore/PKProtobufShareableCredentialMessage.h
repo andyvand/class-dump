@@ -4,26 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableArray, NSString;
+@class NSString;
 
 @interface PKProtobufShareableCredentialMessage
 {
     NSString *_dataString;
-    NSString *_messageCaption;
-    NSData *_passThumbnailImage;
-    NSString *_policyIdentifier;
-    NSMutableArray *_shareableCredentials;
-    unsigned int _version;
-    _Bool _isPassInLibrary;
-    struct {
-        unsigned int isPassInLibrary:1;
-    } _has;
 }
 
 + (Class);
-- (unsigned long long);
-- (id);
-- (id);
+- (unsigned long long)h;
+- (id)	;
+- (id)};
 - (void);
 - (void);
 - (void);
@@ -36,38 +27,27 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (id);
-- (void);
+- (void)_;
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (unsigned int);
-- (id);
+- (id)6;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)_hePhyCapSubfields;
 - (void);
 - (id);
 - (id);
-- (void)rrorText;
+- (void)errorText;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *dataString; // @synthesize dataString=_dataString;
-@property(readonly, nonatomic) _Bool hasDataString;
-@property(nonatomic) _Bool hasIsPassInLibrary;
-@property(readonly, nonatomic) _Bool hasMessageCaption;
-@property(readonly, nonatomic) _Bool hasPassThumbnailImage;
-@property(readonly, nonatomic) _Bool hasPolicyIdentifier;
-@property(nonatomic) _Bool isPassInLibrary; // @synthesize isPassInLibrary=_isPassInLibrary;
-@property(retain, nonatomic) NSString *messageCaption; // @synthesize messageCaption=_messageCaption;
-@property(retain, nonatomic) NSData *passThumbnailImage; // @synthesize passThumbnailImage=_passThumbnailImage;
-@property(retain, nonatomic) NSString *policyIdentifier; // @synthesize policyIdentifier=_policyIdentifier;
-@property(retain, nonatomic) NSMutableArray *shareableCredentials; // @synthesize shareableCredentials=_shareableCredentials;
 @property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end

@@ -4,37 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CAShapeLayer, NSString, UIPDFPageView, UIView, UIWindow;
+@class UIPDFPageView, UIWindow;
 
 __attribute__((visibility("hidden")))
 @interface UIPDFMagnifierController
 {
     UIWindow *_textEffectsWindow;
-    UIView *_textEffectsSubView;
-    CALayer *_loLayer;
-    CALayer *_hiLayer;
-    CALayer *_imageContainer;
-    CALayer *_imageLayer;
-    CAShapeLayer *_selectionLayer;
-    CALayer *_maskLayer;
-    double _power;
-    struct CGSize _magnifierSize;
-    _Bool _loupe;
-    struct CGPoint _touchPoint;
-    struct CGPoint _pointToMagnify;
-    double _enlargementScale;
-    CALayer *_leftBar;
-    CALayer *_leftGrabber;
-    CALayer *_rightBar;
-    CALayer *_rightGrabber;
-    struct CGSize _controlPointSize;
-    struct CGColor *_grabberColor;
-    unsigned long long _pageRotation;
-    _Bool _visible;
-    UIPDFPageView *pageView;
 }
 
-- (struct CGPoint);
+- (struct CGPoint)dentifier;
 - (void);
 - (void);
 - (void);
@@ -44,39 +22,32 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)};
 - (void);
 - (void);
-- (void);
-- (struct CGPoint);
-- (void);
-- (void);
-- (_Bool);
+- (struct CGPoint)re-authenticate (Environment:%@) account:%@ /* Error: Ran out of types for this method. */;
+- (void)ng adding to group:%@ /* Error: Ran out of types for this method. */;
+- (void)eciept Message;
+- (_Bool)n't create a change stamp, since the name hasn't meaningfully changed.;
+- (id)ConversationID:(id)arg1 %ld, syndicationRanges:(id)arg2 %@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (struct CGPoint)ive notification response for bundleID [%@];
+- (struct CGRect)neComponent> Found chat:(struct CGRect)arg1 %@;
+- (struct CGRect)essingPipelineComponent will create it.;
+- (struct CGPoint)s:(struct CGPoint)arg1 %@;
+- (struct CGPoint)sage has too many participants (%lu, max = %lu), should drop message;
+- (void)timestamp:%@, isFromStorage:%@, isLastFromStorage:%@, output messageItems:%lu} /* Error: Ran out of types for this method. */;
+- (void).db;
 - (id);
-- (struct CGPoint);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGPoint);
-- (struct CGPoint);
 - (void);
 - (void);
+- (void)_payloadAllowAssistant;
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void)ntariesInCurrentUpdate: /* Error: Ran out of types for this method. */;
-- (void);
+- (void)_updatePreferredAttributesForSupplementariesInCurrentUpdate: /* Error: Ran out of types for this method. */;
+- (void)G1R1_;
 - (_Bool)áÿÉ¼Ñ8k;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) UIPDFPageView *pageView; // @synthesize pageView;
-@property(readonly) Class superclass;
 
 @end
 

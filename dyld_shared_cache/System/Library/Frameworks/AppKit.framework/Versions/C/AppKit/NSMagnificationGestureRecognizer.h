@@ -6,18 +6,9 @@
 
 #import <AppKit/NSGestureRecognizer.h>
 
-@class NSArray, _NSGestureRecognizerTransformAnalyzer;
-
 @interface NSMagnificationGestureRecognizer : NSGestureRecognizer
 {
     struct CGPoint _location;
-    struct CGPoint _translation;
-    double _magnification;
-    id _touchID1;
-    id _touchID2;
-    double _initialTouchDistance;
-    _NSGestureRecognizerTransformAnalyzer *_transformAnalyzer;
-    NSArray *_currentTouches;
 }
 
 - (void);
@@ -30,7 +21,7 @@
 - (void);
 - (double);
 - (void);
-- (void);
+- (void)P;
 - (id);
 - (struct CGPoint);
 - (_Bool);
@@ -40,7 +31,7 @@
 × ;
 - (struct CGPoint)!4@ù1á3Ð1Â0@ù
 × ;
-- (void)tes;
+- (void)routes;
 
 // Remaining properties
 @property double magnification; // @synthesize magnification=_magnification;

@@ -13,7 +13,7 @@
 
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
@@ -23,10 +23,9 @@
 - (void);
 - (id);
 - (id);
-- (void)RATION_BADGE_VALUE_TOMORROW;
+- (void)PEER_PAYMENT_PENDING_REQUEST_EXPIRATION_BADGE_VALUE_TOMORROW;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *appName; // @synthesize appName=_appName;
 @property(readonly, nonatomic) _Bool hasAppName;
 
 @end

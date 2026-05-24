@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSImageView, NSPopUpButton, NSTextField, NSTrackingArea, NSVisualEffectView;
-@protocol AssistantPopoverViewControllerDelegate;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface AssistantPopoverPageMenuItem
 {
     NSTextField *_titleLabel;
-    NSTextField *_subtitleLabel;
-    NSImageView *_imageView;
-    NSVisualEffectView *_backgroundView;
-    NSPopUpButton *_zoomPercentagePicker;
-    NSButton *_button;
-    id <AssistantPopoverViewControllerDelegate> _popoverDelegate;
-    NSTrackingArea *_trackingArea;
 }
 
-+ (id): /* Error: Ran out of types for this method. */;
++ (id)closeTabsAutomaticallyIfNecessaryEnsuringOcclusion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -30,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)sk[%s]:Attempted to cancel task which is already marked complete. /* Error: Ran out of types for this method. */;
 - (void);
 - (void)<ð;
 

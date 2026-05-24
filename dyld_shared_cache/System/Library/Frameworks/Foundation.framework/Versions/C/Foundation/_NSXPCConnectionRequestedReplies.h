@@ -8,14 +8,11 @@ __attribute__((visibility("hidden")))
 @interface _NSXPCConnectionRequestedReplies
 {
     struct __CFDictionary *_replyDictionaryTable;
-    struct __CFDictionary *_replyTransactionTable;
-    struct __CFDictionary *_progressTable;
-    struct os_unfair_lock_s _lock;
-    unsigned char _invalid;
 }
 
 - (void);
-- (id);
+- (id)?
+;
 
 @end
 

@@ -7,9 +7,9 @@
 @interface UnknownClass (CalUIAdditions)
 + (_Bool);
 + (_Bool);
++ (_Bool);
 + (_Bool);
-+ (_Bool);
-- (_Bool);
+- (_Bool)!;
 - (_Bool);
 - (_Bool);
 - (_Bool);

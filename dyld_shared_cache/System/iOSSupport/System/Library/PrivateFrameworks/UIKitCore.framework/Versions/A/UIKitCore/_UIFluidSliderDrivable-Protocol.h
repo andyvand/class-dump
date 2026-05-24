@@ -11,12 +11,6 @@
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) double currentTrackLength;
-@property(readonly, nonatomic, getter=isLocked) _Bool locked;
-@property(readonly, nonatomic) double maxValue;
-@property(readonly, nonatomic) double minValue;
-@property(readonly, nonatomic) double presentationValue;
-@property(readonly, nonatomic) unsigned long long stepCount;
 @property(nonatomic) double value;
 @end
 

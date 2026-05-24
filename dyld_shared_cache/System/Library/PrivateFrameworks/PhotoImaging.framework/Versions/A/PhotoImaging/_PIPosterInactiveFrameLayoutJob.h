@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, PFParallaxLayoutConfiguration, PFPosterOrientedLayout, PIPosterInactiveFrameLayoutRequest;
+@class PFPosterOrientedLayout, PIPosterInactiveFrameLayoutRequest;
 
 @interface _PIPosterInactiveFrameLayoutJob
 {
     PFPosterOrientedLayout *_layout;
-    PFParallaxLayoutConfiguration *_layoutConfiguration;
-    CIImage *_matteImage;
-    struct CGRect _inactiveRect;
-    struct CGRect _adaptiveInactiveRect;
 }
 
 - (void);
@@ -29,10 +25,10 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)K;
 - (void);
 - (id);
 - (id);
@@ -40,12 +36,7 @@
 - (void)B80@0:8@16{CGPoint=dd}24{CGRect={CGPoint=dd}{CGSize=dd}}40o^@72 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) struct CGRect adaptiveInactiveRect; // @synthesize adaptiveInactiveRect=_adaptiveInactiveRect;
-@property(nonatomic) struct CGRect inactiveRect; // @synthesize inactiveRect=_inactiveRect;
-@property(retain, nonatomic) PFPosterOrientedLayout *layout; // @synthesize layout=_layout;
-@property(retain, nonatomic) PFParallaxLayoutConfiguration *layoutConfiguration; // @synthesize layoutConfiguration=_layoutConfiguration;
 @property(readonly, nonatomic) PIPosterInactiveFrameLayoutRequest *layoutInactiveFrameRequest;
-@property(retain, nonatomic) CIImage *matteImage; // @synthesize matteImage=_matteImage;
 
 @end
 

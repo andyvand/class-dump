@@ -7,14 +7,6 @@
 @interface AppStoreKit.ArcadeShowcase
 {
     id unsubscribedAction;
-    id unsubscribedDescription;
-    id subscribedAction;
-    id subscribedDescription;
-    id iconArtworks;
-    id offerDisplayProperties;
-    id id;
-    id impressionMetrics;
-    id automationMetadata;
 }
 
 @end

@@ -5,5 +5,7 @@
 //
 
 @protocol _UIQueuingScrollViewDelegate
+- (_Bool);
+- (void);
 @end
 

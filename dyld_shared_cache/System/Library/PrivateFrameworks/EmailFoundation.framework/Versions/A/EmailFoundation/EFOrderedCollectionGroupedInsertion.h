@@ -9,16 +9,14 @@
 @interface EFOrderedCollectionGroupedInsertion
 {
     NSArray *_objects;
-    unsigned long long _index;
 }
 
 - (id);
-- (id);
-- (unsigned long long);
+- (id).2.840.113635.100.6.52;
+- (unsigned long long);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long index; // @synthesize index=_index;
 @property(readonly, copy, nonatomic) NSArray *objects; // @synthesize objects=_objects;
 
 @end

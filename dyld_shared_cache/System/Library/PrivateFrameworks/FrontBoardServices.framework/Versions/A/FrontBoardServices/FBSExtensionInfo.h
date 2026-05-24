@@ -11,7 +11,6 @@
 @interface FBSExtensionInfo : FBSBundleInfo
 {
     NSString *_typeIdentifier;
-    NSString *_extensionIdentifier;
 }
 
 - (id);
@@ -22,7 +21,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *extensionIdentifier; // @synthesize extensionIdentifier=_extensionIdentifier;
 @property(readonly, copy, nonatomic) NSString *typeIdentifier; // @synthesize typeIdentifier=_typeIdentifier;
 
 @end

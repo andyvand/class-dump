@@ -6,26 +6,22 @@
 
 #import <Vision/VNImageBasedRequest.h>
 
-@class NSArray;
-
 @interface VNImageBlurScoreRequest : VNImageBasedRequest
 {
 }
 
-+ (Class);
++ (Class)NSFileProviderExtensionNonMaterializingProcessNames;
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void)BCDAddressingGrammar"8;
 - (_Bool);
 - (id);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) unsigned long long blurDeterminationMethod;
 @property(nonatomic) unsigned long long maximumIntermediateSideLength;
-@property(readonly, copy) NSArray *results; // @dynamic results;
 
 @end
 

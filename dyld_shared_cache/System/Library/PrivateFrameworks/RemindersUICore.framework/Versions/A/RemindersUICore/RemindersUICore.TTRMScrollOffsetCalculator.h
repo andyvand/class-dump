@@ -7,13 +7,6 @@
 @interface RemindersUICore.TTRMScrollOffsetCalculator
 {
     id documentVisibleRect;
-    id targetRectInDocument;
-    id scrollPosition;
-    id userInterfaceDirection;
-    id documentViewIsFlipped;
-    id contentViewIsFlipped;
-    id contentViewDisplayScale;
-    id computedScrollOffset;
 }
 
 @end

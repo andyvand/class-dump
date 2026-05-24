@@ -7,11 +7,11 @@
 @class MPCFuture, MPCMediaRemoteController;
 
 @protocol MPCMediaRemoteMiddlewareControllerProviding
+- (MPCFuture *);
 - (MPCMediaRemoteController *)T°!4Bù±`°1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) MPCMediaRemoteController *controller;
 @property(readonly, nonatomic) MPCFuture *controllerFuture;
 @end
 

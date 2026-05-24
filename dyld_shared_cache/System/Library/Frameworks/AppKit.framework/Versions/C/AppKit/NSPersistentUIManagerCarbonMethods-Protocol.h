@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPersistentUIManager;
+@class NSArray, NSPersistentUIManager;
 
 @protocol NSPersistentUIManagerCarbonMethods
++ (NSArray *);
 + (NSPersistentUIManager *)dà;
+- (void)3;
 @end
 

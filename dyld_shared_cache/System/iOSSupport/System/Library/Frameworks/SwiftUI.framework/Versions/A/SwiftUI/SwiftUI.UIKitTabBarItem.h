@@ -14,7 +14,7 @@
 
 - (void);
 - (id);
-- (id);
+- (id)translationApplicationObject;
 - (void)|òkÿ;
 
 @end

@@ -19,12 +19,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)deserializeParameter:(id)arg1 forKey:error: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *trackedGradients; // @dynamic trackedGradients;
-@property(readonly, nonatomic) NSArray *trackedWeights; // @dynamic trackedWeights;
 
 @end
 

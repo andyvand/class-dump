@@ -6,32 +6,27 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface RSSSchemaRSSSiriVocabSyncDataDownloadFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    CDStruct_6555f803 _has;
 }
 
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)1l;
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)Not supported on macOS;
 - (_Bool);
-- (_Bool);
+- (_Bool)CFDictionaryRef, CFDictionaryRef, Boolean, int64_t, CFDataRef, CFStringRef, CFStringRef, int64_t, CFStringRef, CFStringRef, int64_t);
 - (void);
 - (id);
 - (id);
-- (id)Tier1;
+- (id)assistantDaemonAudioRecordingInterruptionStartedTier1;
 - (id)p;
-- (void)E_HARDWARE_BUTTON;
+- (void)INVOCATIONSOURCE_HARDWARE_BUTTON;
 
 // Remaining properties
-@property(nonatomic) _Bool hasReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end

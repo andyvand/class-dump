@@ -5,5 +5,6 @@
 //
 
 @protocol _UIBarPositioningInternal
+- (void)_gaussianishBlurKernel;
 @end
 

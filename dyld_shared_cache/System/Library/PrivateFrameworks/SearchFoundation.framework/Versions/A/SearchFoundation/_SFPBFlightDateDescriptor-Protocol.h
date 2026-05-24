@@ -7,12 +7,10 @@
 @class NSData, _SFPBDate;
 
 @protocol _SFPBFlightDateDescriptor
+- (NSData *)NSArray",&,N,V_resolvedParticipants;
 - (_SFPBDate *)må;
 
 // Remaining properties
-@property(nonatomic) float bufferMinutes;
-@property(retain, nonatomic) _SFPBDate *current;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBDate *scheduled;
 @end
 

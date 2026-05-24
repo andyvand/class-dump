@@ -5,21 +5,15 @@
 //
 
 @protocol _UIViewConfigurationStateReadonly
-- (long long)preferredContentSizeForItem: /* Error: Ran out of types for this method. */;
+- (long long)_preferredContentSizeForItem: /* Error: Ran out of types for this method. */;
 - (_Bool)|Å;
-- (unsigned long long)Key;
-- (_Bool)inspectorPreference;
-- (_Bool)ion_t;
+- (unsigned long long)kScrollViewEffectiveContentInsetKey;
+- (_Bool)_inspectorPreference;
+- (_Bool)Sg16cornerAdaptation_t;
 - (_Bool)þ;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) long long _contextMenuGroupLocation;
-@property(readonly, nonatomic) unsigned long long _viewConfigurationState;
 @property(readonly, nonatomic, getter=isDisabled) _Bool disabled;
-@property(readonly, nonatomic, getter=isFocused) _Bool focused;
-@property(readonly, nonatomic, getter=isHighlighted) _Bool highlighted;
-@property(readonly, nonatomic, getter=isPinned) _Bool pinned;
-@property(readonly, nonatomic, getter=isSelected) _Bool selected;
 @end
 

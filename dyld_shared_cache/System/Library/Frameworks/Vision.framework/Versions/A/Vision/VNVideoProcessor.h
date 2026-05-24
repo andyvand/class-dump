@@ -17,8 +17,8 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (void)umanDetectorFullBody;
+- (id)searchBase;
+- (void)VNANFDMultiDetectorProcessingOption_HumanDetectorFullBody;
 
 @end
 

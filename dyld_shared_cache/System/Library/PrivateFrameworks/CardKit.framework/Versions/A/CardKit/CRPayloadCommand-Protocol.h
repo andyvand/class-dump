@@ -7,6 +7,7 @@
 @protocol NSSecureCoding><NSCopying;
 
 @protocol CRPayloadCommand
+- (void)mber",&,V_flightCode;
 
 // Remaining properties
 @property(retain, nonatomic) id <NSSecureCoding><NSCopying> payload;

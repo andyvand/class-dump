@@ -6,7 +6,7 @@
 
 #import <UIKitCore/_UIFeedback.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface _UIFeedbackHapticFilePattern : _UIFeedback
 {
@@ -19,24 +19,16 @@
 + (_Bool)ticsSendEventLazy(NSString *__strong, NSDictionary<NSString *,NSObject *> *(^__strong)(void));
 - (unsigned long long);
 - (_Bool);
-- (_Bool)Description;
+- (_Bool)styleDescription;
 - (id)acScrollingEnabled:(struct _NSZone *)arg1 ,V_iOSMacScrollingEnabled;
 - (id)|huþÿÿÿÿl;
-- (id)putPageUp;
-- (id)riantType;
+- (id)UIKeyInputPageUp;
+- (id)UIKBAttributeNameVariantType;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isHighPriority) _Bool highPriority; // @synthesize highPriority=_highPriority;
-@property(readonly) Class superclass;
 
 @end
 

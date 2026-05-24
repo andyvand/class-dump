@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MapsSuggestionsDarwinNotificationTrigger, MapsSuggestionsLimitedDictionary, MapsSuggestionsLocaleChangedTrigger, MapsSuggestionsMeCard, MapsSuggestionsObservers, NSString;
-@protocol MapsSuggestionsContactsConnector, MapsSuggestionsNetworkRequester;
+@class NSString;
 
 @interface MapsSuggestionsContacts
 {
     struct Queue _queue;
-    id <MapsSuggestionsContactsConnector> _connector;
-    id <MapsSuggestionsNetworkRequester> _networkRequester;
-    MapsSuggestionsLimitedDictionary *_cache;
-    MapsSuggestionsObservers *_meCardObservers;
-    MapsSuggestionsMeCard *_currMeCard;
-    MapsSuggestionsLocaleChangedTrigger *_localeChangedTrigger;
-    MapsSuggestionsDarwinNotificationTrigger *_geoActiveTileGroupChangedTrigger;
 }
 
 - (void);
-- (id);
+- (id)	;
 - (id);
 - (BOOL);
 - (id);
@@ -37,13 +29,6 @@
 - (void)8@"MapsSuggestionsEntry"16q24;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uniqueName;
 
 @end

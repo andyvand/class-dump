@@ -7,6 +7,7 @@
 @interface CookingKit.InTextMeasurementProcessor
 {
     id unitCustomizer;
+    id;
 }
 
 @end

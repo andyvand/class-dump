@@ -9,7 +9,6 @@
 @interface MLCControlTreeNode
 {
     _Bool _needToNegate;
-    MLCTensor *_predicate;
 }
 
 + (id);
@@ -18,10 +17,9 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)r of rows in coefficient matrix exceeds coefficient matrix size.;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool needToNegate; // @synthesize needToNegate=_needToNegate;
 @property(readonly, nonatomic) MLCTensor *predicate; // @synthesize predicate=_predicate;
 
 @end

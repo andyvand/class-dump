@@ -6,39 +6,22 @@
 
 #import <TSReading/TSDMediaInfo.h>
 
-@class NSURL, TSDMediaStyle, TSPData;
+@class TSPData;
 
 @interface TSDMovieInfo : TSDMediaInfo
 {
     TSPData *mMovieData;
-    NSURL *mMovieRemoteURL;
-    TSPData *mImportedAuxiliaryMovieData;
-    TSPData *mAudioOnlyImageData;
-    double mStartTime;
-    double mEndTime;
-    double mPosterTime;
-    TSPData *mPosterImageData;
-    struct CGSize mNaturalSize;
-    unsigned long long mLoopOption;
-    float mVolume;
-    _Bool mStreaming;
-    int mControlStyle;
-    _Bool mAllowsAirPlayVideo;
-    _Bool mUsesAirPlayVideoWhileAirPlayScreenIsActive;
-    NSURL *mURLForMPMPC;
-    TSDMediaStyle *mStyle;
-    _Bool mAudioOnly;
 }
 
 + (id);
 + (double);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (id)rController - pause completed - AVPlayer current rate: /* Error: Ran out of types for this method. */;
+- (id)relativeVolumeDidChange:(id)arg1;
+- (_Bool)inished - identifier=;
+- (_Bool)ErrorResolutionState];
 - (Class);
-- (void);
-- (void);
+- (void)OpenMusicCodingKeys;
+- (void)OpenURLCodingKeys;
 - (void);
 - (void);
 - (void);
@@ -48,7 +31,7 @@
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -69,18 +52,18 @@
 - (void);
 - (id);
 - (Class);
-- (id);
+- (id);
 - (float);
 - (double);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (int);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)H멣;
 - (void);
 - (void);
 - (_Bool);
@@ -94,29 +77,14 @@
 - (void);
 - (id);
 - (float);
-- (double);
+- (double)loadedUserEmbedding;
 - (id);
-- (_Bool)Negative;
+- (_Bool)toggleNegative;
 - (void)legal selection type;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsAirPlayVideo;
-@property(nonatomic, getter=isAudioOnly) _Bool audioOnly;
-@property(retain, nonatomic) TSPData *audioOnlyImageData;
-@property(nonatomic) int controlStyle;
-@property(nonatomic) double endTime;
-@property(retain, nonatomic) TSPData *importedAuxiliaryMovieData;
-@property(nonatomic) unsigned long long loopOption;
 @property(retain, nonatomic) TSPData *movieData;
-@property(retain, nonatomic) NSURL *movieRemoteURL;
-@property(retain, nonatomic) TSPData *posterImageData; // @synthesize posterImageData=mPosterImageData;
-@property(nonatomic) double posterTime;
-@property(nonatomic) double startTime;
-@property(nonatomic, getter=isStreaming) _Bool streaming; // @synthesize streaming=mStreaming;
-@property(retain, nonatomic) NSURL *urlForMPMPC;
-@property(nonatomic) _Bool usesAirPlayVideoWhileAirPlayScreenIsActive;
-@property(nonatomic) float volume;
 
 @end
 

@@ -5,6 +5,7 @@
 //
 
 @protocol HMDEventCounterContext
+- (void)setCurrentDeviceBecamePrimaryTime: /* Error: Ran out of types for this method. */;
 - (void);
 @end
 

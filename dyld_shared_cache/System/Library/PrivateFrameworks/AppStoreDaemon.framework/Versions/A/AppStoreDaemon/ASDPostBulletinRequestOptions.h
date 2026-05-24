@@ -6,22 +6,15 @@
 
 #import <AppStoreDaemon/ASDRequestOptions.h>
 
-@class NSDate, NSString, NSURL;
+@class NSString;
 
 @interface ASDPostBulletinRequestOptions : ASDRequestOptions
 {
     NSString *_actionButtonTitle;
-    NSURL *_actionButtonURL;
-    NSDate *_creationDate;
-    unsigned long long _destinations;
-    NSURL *_launchURL;
-    NSString *_message;
-    NSString *_recordID;
-    NSString *_title;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -31,23 +24,16 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)navigationSessionManager:(id)arg1 didUpdateETAResponseForRoute: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)MSUDASymbolicPathResolverError;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *actionButtonTitle; // @synthesize actionButtonTitle=_actionButtonTitle;
-@property(copy, nonatomic) NSURL *actionButtonURL; // @synthesize actionButtonURL=_actionButtonURL;
-@property(copy, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(nonatomic) unsigned long long destinations; // @synthesize destinations=_destinations;
-@property(copy, nonatomic) NSURL *launchURL; // @synthesize launchURL=_launchURL;
-@property(copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(copy, nonatomic) NSString *recordID; // @synthesize recordID=_recordID;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

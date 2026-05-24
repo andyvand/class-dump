@@ -5,5 +5,6 @@
 //
 
 @protocol _NSEditorBinderPlugin
+- (_Bool)%s;
 @end
 

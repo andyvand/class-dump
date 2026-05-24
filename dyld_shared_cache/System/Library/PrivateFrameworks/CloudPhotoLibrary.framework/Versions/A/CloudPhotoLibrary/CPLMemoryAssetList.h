@@ -9,22 +9,20 @@
 @interface CPLMemoryAssetList
 {
     NSMutableArray *_assets;
-    unsigned int _version;
-    CDStruct_f20694ce _has;
 }
 
-+ (Class)ogress: /* Error: Ran out of types for this method. */;
++ (Class)notifyAttachedObjectsUploadTask:didProgress: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (unsigned int);
-- (id);
+- (id)T;
 - (void);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool)àªºAýªòýó;
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -38,8 +36,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *assets; // @synthesize assets=_assets;
-@property(nonatomic) _Bool hasVersion;
-@property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end
 

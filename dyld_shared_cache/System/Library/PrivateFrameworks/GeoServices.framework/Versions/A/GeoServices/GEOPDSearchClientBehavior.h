@@ -10,12 +10,6 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSearchClientBehavior
 {
     PBUnknownFields *_unknownFields;
-    _Bool _shouldAllowManualRedoButton;
-    _Bool _shouldEnableRedoSearch;
-    struct {
-        unsigned int has_shouldAllowManualRedoButton:1;
-        unsigned int has_shouldEnableRedoSearch:1;
-    } _flags;
 }
 
 - (id);
@@ -24,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)attedString"b1"wrote_anyField"b1};
-- (id)ptorResolutionParameters;
+- (id)_placeDescriptorResolutionParameters;
 - (id)té;
 - (void);
 

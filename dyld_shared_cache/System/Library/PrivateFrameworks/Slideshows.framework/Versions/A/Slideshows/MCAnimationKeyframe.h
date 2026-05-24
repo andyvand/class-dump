@@ -11,11 +11,6 @@
 @interface MCAnimationKeyframe : MCObjectLight
 {
     MCAnimationPathKeyframed *mAnimationPath;
-    _Bool mIsSnapshot;
-    int mTimeOffsetKind;
-    float mPreControl;
-    float mPostControl;
-    double mTimeOffset;
 }
 
 + (id);
@@ -35,14 +30,10 @@
 - (id);
 - (double);
 - (void);
-- (_Bool)In;
+- (_Bool)mTimeIn;
 
 // Remaining properties
 @property MCAnimationPathKeyframed *animationPath; // @synthesize animationPath=mAnimationPath;
-@property(nonatomic) float postControl; // @synthesize postControl=mPostControl;
-@property(nonatomic) float preControl; // @synthesize preControl=mPreControl;
-@property(nonatomic) double timeOffset; // @synthesize timeOffset=mTimeOffset;
-@property(nonatomic) int timeOffsetKind; // @synthesize timeOffsetKind=mTimeOffsetKind;
 
 @end
 

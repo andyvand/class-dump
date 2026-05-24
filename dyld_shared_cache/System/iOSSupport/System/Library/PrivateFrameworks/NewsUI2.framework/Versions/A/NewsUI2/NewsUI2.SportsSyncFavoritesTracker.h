@@ -7,7 +7,6 @@
 @interface NewsUI2.SportsSyncFavoritesTracker
 {
     id tracker;
-    id privacySampler;
 }
 
 @end

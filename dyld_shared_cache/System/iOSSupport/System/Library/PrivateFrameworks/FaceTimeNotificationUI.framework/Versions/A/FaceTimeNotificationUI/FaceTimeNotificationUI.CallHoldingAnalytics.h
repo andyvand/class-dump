@@ -8,10 +8,6 @@
 {
     id lock;
     id holdDetectionStartedTimestamp;
-    id tipPresentedTimestamp;
-    id tipFeedbackLatency;
-    id tipPreviewLatency;
-    id observation;
 }
 
 @end

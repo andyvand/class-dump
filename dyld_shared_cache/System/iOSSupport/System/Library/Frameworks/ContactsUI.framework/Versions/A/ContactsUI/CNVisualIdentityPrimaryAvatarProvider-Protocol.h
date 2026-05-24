@@ -5,5 +5,6 @@
 //
 
 @protocol CNVisualIdentityPrimaryAvatarProvider
+- (void);
 @end
 

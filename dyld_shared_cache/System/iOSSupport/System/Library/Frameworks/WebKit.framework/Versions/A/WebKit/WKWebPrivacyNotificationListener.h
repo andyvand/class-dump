@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface WKWebPrivacyNotificationListener
 {
     struct BlockPtr<void ()> _callback;
-    long long _resourceType;
 }
 
 - (id);

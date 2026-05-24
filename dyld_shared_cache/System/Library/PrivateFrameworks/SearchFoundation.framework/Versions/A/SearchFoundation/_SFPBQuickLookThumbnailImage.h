@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBURL;
+@class _SFPBURL;
 
 @interface _SFPBQuickLookThumbnailImage
 {
     _SFPBURL *_filePath;
-    NSString *_coreSpotlightIdentifier;
-    NSString *_fileProviderIdentifier;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)Z;
 - (id);
 - (void);
 - (unsigned long long);
@@ -23,25 +21,15 @@
 - (void);
 - (id);
 - (_Bool);
+- (id)essingTypes:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)or asset %@;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)`;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *coreSpotlightIdentifier; // @synthesize coreSpotlightIdentifier=_coreSpotlightIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) _SFPBURL *filePath; // @synthesize filePath=_filePath;
-@property(copy, nonatomic) NSString *fileProviderIdentifier; // @synthesize fileProviderIdentifier=_fileProviderIdentifier;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

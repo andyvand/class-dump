@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCInterface;
+@class NSString;
 
 @interface FMXPCServiceDescription
 {
     NSString *_machService;
-    unsigned long long _options;
-    NSObject *_exportedObject;
-    NSXPCInterface *_exportedInterface;
-    NSXPCInterface *_remoteObjectInterface;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
 }
 
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)device type:%ld > /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (void);
@@ -37,13 +31,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSXPCInterface *exportedInterface; // @synthesize exportedInterface=_exportedInterface;
-@property(retain, nonatomic) NSObject *exportedObject; // @synthesize exportedObject=_exportedObject;
-@property(copy, nonatomic) CDUnknownBlockType interruptionHandler; // @synthesize interruptionHandler=_interruptionHandler;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
 @property(copy, nonatomic) NSString *machService; // @synthesize machService=_machService;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(retain, nonatomic) NSXPCInterface *remoteObjectInterface; // @synthesize remoteObjectInterface=_remoteObjectInterface;
 
 @end
 

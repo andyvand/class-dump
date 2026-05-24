@@ -7,8 +7,6 @@
 @interface NewsUI2.OfflineFeedsCacheRetainer
 {
     id contentContext;
-    id offlineFeedsSupervisor;
-    id _interestToken;
 }
 
 @end

@@ -11,7 +11,7 @@
     CKContainerID *_containerID;
 }
 
-+ (Class);
++ (Class)UsoTask_play_common_PhotoMemory;
 + (id);
 - (_Bool);
 - (id);

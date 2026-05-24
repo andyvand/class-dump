@@ -9,21 +9,19 @@
 @interface EWSActiveDirectoryLookup
 {
     NSString *_emailAddress;
-    NSArray *_discoveredRecords;
 }
 
 + (void);
 - (void);
-- (id);
+- (id)@;
 - (_Bool);
-- (id);
+- (id)kAXSOpaqueTouchTapSpeedPreference;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *discoveredRecords; // @synthesize discoveredRecords=_discoveredRecords;
-@property(readonly, copy, nonatomic) NSString *emailAddress; // @synthesize emailAddress=_emailAddress;
 
 @end
 

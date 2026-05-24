@@ -6,19 +6,10 @@
 
 #import <UIKitCore/UIView.h>
 
-@class _UIPreviewPresentationEffectView;
-
 __attribute__((visibility("hidden")))
 @interface _UIPreviewPresentationPlatterView : UIView
 {
     _Bool _dropShadowEnabled;
-    UIView *_contentView;
-    _UIPreviewPresentationEffectView *_contentEffectView;
-    _UIPreviewPresentationEffectView *_contentClipView;
-    UIView *_contentTransformView;
-    UIView *_contentShadowView;
-    struct CGSize _contentSize;
-    struct CGSize _contentClippingSize;
 }
 
 - (void);
@@ -27,36 +18,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)postHubbleDownloadFinishedIfNeededForTransfer: /* Error: Ran out of types for this method. */;
+- (id)sDidSync: /* Error: Ran out of types for this method. */;
+- (id)phoneAliasForDominentPhoneAlias:registeredPhoneNumbers:preferredCallerID:CTPhoneNumber: /* Error: Ran out of types for this method. */;
+- (_Bool)_submitStorageMetricsWithError:(id)arg1;
+- (id)have shouldForceToSMS = YES;
 - (void);
 - (struct CGSize);
 - (void);
 - (void);
-- (double)style:renderConfig:size: /* Error: Ran out of types for this method. */;
+- (double)tokenTemplateForKey:style:renderConfig:size: /* Error: Ran out of types for this method. */;
 - (void)lidationReportFormatter;
 - (double)%@;
 - (void)annot place a sublayout relative to both the top and bottom edge of a sibling layout;
 - (void)nvalid frame %@ generated when rounding frame %@ to screen scale (%g).;
 - (id)lingP;
-- (void)iner;
+- (void)BackgroundExtensionContainer;
 - (id) ^;
 - (struct CGSize)tçþ;
 
 // Remaining properties
-@property(nonatomic) double blurRadius; // @dynamic blurRadius;
-@property(retain, nonatomic) _UIPreviewPresentationEffectView *contentClipView; // @synthesize contentClipView=_contentClipView;
-@property(nonatomic) struct CGSize contentClippingSize; // @synthesize contentClippingSize=_contentClippingSize;
-@property(retain, nonatomic) _UIPreviewPresentationEffectView *contentEffectView; // @synthesize contentEffectView=_contentEffectView;
-@property(retain, nonatomic) UIView *contentShadowView; // @synthesize contentShadowView=_contentShadowView;
-@property(nonatomic) struct CGSize contentSize; // @synthesize contentSize=_contentSize;
-@property(retain, nonatomic) UIView *contentTransformView; // @synthesize contentTransformView=_contentTransformView;
 @property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(nonatomic) double cornerRadius; // @dynamic cornerRadius;
-@property(nonatomic, getter=isDropShadowEnabled) _Bool dropShadowEnabled; // @synthesize dropShadowEnabled=_dropShadowEnabled;
 
 @end
 

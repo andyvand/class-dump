@@ -4,22 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface SGEventMetadata
 {
     unsigned char _type;
-    NSString *_categoryDescription;
-    NSString *_originBundleId;
-    double _confidence;
-    NSArray *_schemaOrg;
-    NSArray *_participants;
-    NSArray *_eventActivities;
 }
 
 + (unsigned char);
++ (id)RPAccessory",R,V_accessory;
 + (id);
-+ (id);
 - (id);
 - (id);
 - (id);
@@ -27,19 +19,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)&;
 - (unsigned char);
-- (double);
+- (double);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *categoryDescription; // @synthesize categoryDescription=_categoryDescription;
-@property(readonly, nonatomic) double confidence; // @synthesize confidence=_confidence;
-@property(readonly, nonatomic) NSArray *eventActivities; // @synthesize eventActivities=_eventActivities;
-@property(readonly, nonatomic) NSString *originBundleId; // @synthesize originBundleId=_originBundleId;
-@property(readonly, nonatomic) NSArray *participants; // @synthesize participants=_participants;
-@property(readonly, nonatomic) NSArray *schemaOrg; // @synthesize schemaOrg=_schemaOrg;
 @property(readonly, nonatomic) unsigned char type; // @synthesize type=_type;
 
 @end

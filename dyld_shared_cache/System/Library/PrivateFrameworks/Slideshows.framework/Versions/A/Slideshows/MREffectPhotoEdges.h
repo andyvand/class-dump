@@ -6,27 +6,21 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRCAMLBezierData, MRImage, MRImageProvider, MRTextRenderer, NSMutableDictionary;
+@class MRImageProvider;
 
 @interface MREffectPhotoEdges : MREffect
 {
     MRImageProvider *mFrameProvider;
-    MRImageProvider *mBreakProvider[12];
-    _Bool mIsLoaded;
-    NSMutableDictionary *mSprites;
-    MRTextRenderer *mText0Renderer;
-    MRImage *mText0Image;
-    MRCAMLBezierData *mBezierEaseIn;
-    MRCAMLBezierData *mBezierEaseOut;
 }
 
+- (void)setUploadScheduler:(double)arg1;
 - (void);
-- (void);
 - (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (_Bool)ewsAppConfiguration>"8@"NSError"16;
+- (id)2@?0@"NSArray"8@"NSDictionary"16@"NSError"24;
+- (_Bool);
+- (id)d  PROJECT:(struct CGPoint)arg1 Feldspar-1
+;
 - (struct CGSize);
 - (long long);
 - (void);

@@ -10,10 +10,9 @@
 @interface LADFR
 {
     NSObject<OS_dispatch_queue> *_xpcQueue;
-    NSXPCConnection *_agentConnection;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);

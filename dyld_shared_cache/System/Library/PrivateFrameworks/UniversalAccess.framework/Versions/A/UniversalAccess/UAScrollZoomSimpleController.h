@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSComboBox, UAModifiersController;
+@class NSButton;
 
 @interface UAScrollZoomSimpleController
 {
     NSButton *ScrollZoomCheckBox;
-    NSComboBox *ModifiersComboBox;
-    _Bool _didAwakeFromNib;
-    UAModifiersController *_modifiersController;
 }
 
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)t";
+- (id)";
+- (id)logicalEventTimestampInNs"b1};
+- (void)ATSchemaGATRequestStarted";
+- (void)aSizeInKBs"b1};
 - (void);
 - (void);
 - (void);

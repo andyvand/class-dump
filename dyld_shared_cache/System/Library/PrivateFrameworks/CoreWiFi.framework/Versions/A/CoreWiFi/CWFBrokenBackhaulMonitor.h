@@ -4,25 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface CWFBrokenBackhaulMonitor
 {
     int _bbhNotifyToken;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    unsigned long long _initialIndicationTimestamp;
-    NSMutableDictionary *_pendingMetricSubmissionPayload;
-    NSObject<OS_dispatch_source> *_metricAutoSubmissionTimer;
-    long long _brokenBackhaulState;
-    NSDate *_brokenBackhaulStateUpdatedAt;
-    NSObject<OS_dispatch_queue> *_targetQueue;
-    CDUnknownBlockType _updatedBrokenBackhaulState;
 }
 
-- (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType)(C;
+- (void);
 - (void);
 - (id);
 - (void);
@@ -36,18 +25,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (long long);
+- (long long);
 - (void);
 - (id)ù
 × ;
 - (void)_startTime;
-- (void)UserNotificationCenterDelegate;
+- (void)UNUserNotificationCenterDelegate;
 
 // Remaining properties
 @property long long brokenBackhaulState; // @synthesize brokenBackhaulState=_brokenBackhaulState;
-@property(readonly, copy) NSDate *brokenBackhaulStateUpdatedAt; // @synthesize brokenBackhaulStateUpdatedAt=_brokenBackhaulStateUpdatedAt;
-@property(retain) NSObject<OS_dispatch_queue> *targetQueue; // @synthesize targetQueue=_targetQueue;
-@property(copy) CDUnknownBlockType updatedBrokenBackhaulState; // @synthesize updatedBrokenBackhaulState=_updatedBrokenBackhaulState;
 
 @end
 

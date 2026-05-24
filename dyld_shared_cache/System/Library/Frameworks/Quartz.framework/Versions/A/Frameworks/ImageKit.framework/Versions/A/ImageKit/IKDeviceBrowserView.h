@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICDevice;
-@protocol IKDeviceBrowserViewDelegate;
-
 @interface IKDeviceBrowserView
 {
     id _privateData;
@@ -20,27 +17,27 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void)initWithDataRepresentation:(_Bool)arg1;
 - (void);
 - (void);
 - (long long);
+- (id)rmChangesRequest"24@"<PLClientAuthorization>"32;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -51,15 +48,7 @@
 - (_Bool);
 
 // Remaining properties
-@property id <IKDeviceBrowserViewDelegate> delegate;
-@property _Bool displaysAccessoryView;
-@property _Bool displaysLocalCameras;
-@property _Bool displaysLocalScanners;
-@property _Bool displaysNetworkCameras;
-@property _Bool displaysNetworkScanners;
 @property _Bool isInitialized;
-@property long long mode;
-@property(readonly) ICDevice *selectedDevice;
 
 @end
 

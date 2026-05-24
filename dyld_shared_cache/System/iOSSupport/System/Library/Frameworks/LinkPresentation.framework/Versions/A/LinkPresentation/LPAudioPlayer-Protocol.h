@@ -5,11 +5,11 @@
 //
 
 @protocol LPAudioPlayer
-- (void)Sg;
+- (void)p"8;
+- (void)So20LPLinkViewComponentsCSg;
 - (void)¤;
 
 // Remaining properties
 @property(readonly, nonatomic) float progress;
-@property(readonly, nonatomic) unsigned long long state;
 @end
 

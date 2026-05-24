@@ -6,7 +6,7 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSString, TRIPBTimestamp, TRIPBUInt32Array;
+@class NSString;
 
 @interface TRIExperimentUpdatePushNotification : TRIPBMessage
 {
@@ -15,12 +15,7 @@
 + (id);
 
 // Remaining properties
-@property(retain, nonatomic) TRIPBUInt32Array *deploymentIdArray; // @dynamic deploymentIdArray;
-@property(readonly, nonatomic) unsigned long long deploymentIdArray_Count; // @dynamic deploymentIdArray_Count;
 @property(copy, nonatomic) NSString *experimentId; // @dynamic experimentId;
-@property(nonatomic) _Bool hasExperimentId; // @dynamic hasExperimentId;
-@property(nonatomic) _Bool hasNewEndDate; // @dynamic hasNewEndDate;
-@property(retain, nonatomic) TRIPBTimestamp *newEndDate; // @dynamic newEndDate;
 
 @end
 

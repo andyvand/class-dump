@@ -9,7 +9,6 @@
 @interface IMRuntimeTest
 {
     IMRuntimeTestRun *_testRun;
-    CDUnknownBlockType _completion;
 }
 
 + (void);
@@ -30,10 +29,9 @@
 - (void)@ÿÿ8@ÿÿè?ÿÿ;
 - (id)ith ID:%@ /* Error: Ran out of types for this method. */;
 - (void)led to write to %@ with error %@!;
-- (void)s;
+- (void)ReindexSchedulingInProgress;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completion; // @synthesize completion=_completion;
 @property(retain) IMRuntimeTestRun *testRun; // @synthesize testRun=_testRun;
 
 @end

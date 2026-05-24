@@ -9,96 +9,42 @@
 @interface AATrustedDevice
 {
     _Bool _fmipEnabled;
-    _Bool _currentDevice;
-    _Bool _showFMIPLink;
-    _Bool _showBackupRow;
-    _Bool _showFMIPRow;
-    _Bool _showAppleCareRow;
-    _Bool _injectNativeHeader;
-    NSString *_deviceID;
-    NSString *_name;
-    NSString *_model;
-    NSString *_osVersion;
-    NSString *_modelDisplayName;
-    NSString *_modelSmallPhotoURL3x;
-    NSString *_modelSmallPhotoURL2x;
-    NSString *_modelSmallPhotoURL1x;
-    NSString *_modelLargePhotoURL3x;
-    NSString *_modelLargePhotoURL2x;
-    NSString *_modelLargePhotoURL1x;
-    NSString *_deviceDetailUri;
-    NSString *_deviceDetailHttpMethod;
-    NSString *_pushToken;
-    NSString *_FMIPDeviceID;
-    NSString *_detailDeviceName;
-    NSString *_detailSubLabel;
-    NSString *_deviceQualifiedClass;
-    NSString *_rawLatestBackup;
-    NSString *_backupUUID;
-    NSString *_serialNumber;
 }
 
-- (void);
+- (void)anager.installProfile CF notification wait...;
+- (_Bool)ager.profilesForUserRecord _______________________________________________;
+- (_Bool)____________;
+- (_Bool)______________________________________;
+- (_Bool)rofilesForUser ____________________________________________________;
+- (id)ization from data:%d /* Error: Ran out of types for this method. */;
+- (id)romData:] unable to create authorization from data:%d /* Error: Ran out of types for this method. */;
+- (id)a:] /* Error: Ran out of types for this method. */;
+- (id)CPProfile setAuthorizationFromData:] /* Error: Ran out of types for this method. */;
+- (id)l authorization data passed to -[CPProfile setAuthorizationFromData:] /* Error: Ran out of types for this method. */;
+- (id)CMSCertificatesInfo;
+- (_Bool)oadUUID;
+- (_Bool)ecking cache;
+- (id)hit returns NO;
+- (id)nfig:Device enrollment record info unavailable - cache hit returns NO /* Error: Ran out of types for this method. */;
+- (id)d returned inProgress:%d  registered:%d /* Error: Ran out of types for this method. */;
+- (id)MPORARY] CPHasActivationRecord returned inProgress:%d  registered:%d /* Error: Ran out of types for this method. */;
+- (id)ptions = %x;
+- (id)usingpayload returned %d;
+- (id)len = %d;
+- (id)Block no connection;
+- (id);
+- (id);
+- (id);
+- (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void)e: /* Error: Ran out of types for this method. */;
+- (void)setGivenName: /* Error: Ran out of types for this method. */;
 - (id)4k³ÀIï@ÒÖXbñMB?Ñ=VèçQ@¥ßü¶o6ó%×(Np% lS¾ºñiCÌ$È¡+[3¿ïÜ6øà¦+±JØÖùÑíÍZÔÜÒÏ-ðrRu#Ã]^w)£`	gf¹FÈM¹Dbmbõ\	x¨¥.<±D£Êd/ª!X*äGqá~¬ÿãïIúûÒ9;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *FMIPDeviceID; // @synthesize FMIPDeviceID=_FMIPDeviceID;
-@property(readonly, nonatomic) NSString *backupUUID; // @synthesize backupUUID=_backupUUID;
-@property(readonly, nonatomic) _Bool currentDevice; // @synthesize currentDevice=_currentDevice;
-@property(readonly, nonatomic) NSString *detailDeviceName; // @synthesize detailDeviceName=_detailDeviceName;
-@property(readonly, nonatomic) NSString *detailSubLabel; // @synthesize detailSubLabel=_detailSubLabel;
-@property(readonly, nonatomic) NSString *deviceDetailHttpMethod; // @synthesize deviceDetailHttpMethod=_deviceDetailHttpMethod;
-@property(readonly, nonatomic) NSString *deviceDetailUri; // @synthesize deviceDetailUri=_deviceDetailUri;
 @property(readonly, nonatomic) NSString *deviceID; // @synthesize deviceID=_deviceID;
-@property(readonly, nonatomic) NSString *deviceQualifiedClass; // @synthesize deviceQualifiedClass=_deviceQualifiedClass;
-@property(readonly, nonatomic) _Bool fmipEnabled; // @synthesize fmipEnabled=_fmipEnabled;
-@property(readonly, nonatomic) _Bool injectNativeHeader; // @synthesize injectNativeHeader=_injectNativeHeader;
-@property(readonly, nonatomic) NSString *model; // @synthesize model=_model;
-@property(readonly, nonatomic) NSString *modelDisplayName; // @synthesize modelDisplayName=_modelDisplayName;
-@property(readonly, nonatomic) NSString *modelLargePhotoURL1x; // @synthesize modelLargePhotoURL1x=_modelLargePhotoURL1x;
-@property(readonly, nonatomic) NSString *modelLargePhotoURL2x; // @synthesize modelLargePhotoURL2x=_modelLargePhotoURL2x;
-@property(readonly, nonatomic) NSString *modelLargePhotoURL3x; // @synthesize modelLargePhotoURL3x=_modelLargePhotoURL3x;
-@property(readonly, nonatomic) NSString *modelSmallPhotoURL1x; // @synthesize modelSmallPhotoURL1x=_modelSmallPhotoURL1x;
-@property(readonly, nonatomic) NSString *modelSmallPhotoURL2x; // @synthesize modelSmallPhotoURL2x=_modelSmallPhotoURL2x;
-@property(readonly, nonatomic) NSString *modelSmallPhotoURL3x; // @synthesize modelSmallPhotoURL3x=_modelSmallPhotoURL3x;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSString *osVersion; // @synthesize osVersion=_osVersion;
-@property(readonly, nonatomic) NSString *pushToken; // @synthesize pushToken=_pushToken;
-@property(readonly, nonatomic) NSString *rawLatestBackup; // @synthesize rawLatestBackup=_rawLatestBackup;
-@property(readonly, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(readonly, nonatomic) _Bool showAppleCareRow; // @synthesize showAppleCareRow=_showAppleCareRow;
-@property(readonly, nonatomic) _Bool showBackupRow; // @synthesize showBackupRow=_showBackupRow;
-@property(readonly, nonatomic) _Bool showFMIPLink; // @synthesize showFMIPLink=_showFMIPLink;
-@property(readonly, nonatomic) _Bool showFMIPRow; // @synthesize showFMIPRow=_showFMIPRow;
 
 @end
 

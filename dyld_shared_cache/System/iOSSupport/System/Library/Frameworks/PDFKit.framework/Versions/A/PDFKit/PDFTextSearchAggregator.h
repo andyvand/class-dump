@@ -5,35 +5,24 @@
 //
 
 @class NSString;
-@protocol UITextSearchAggregator;
 
 __attribute__((visibility("hidden")))
 @interface PDFTextSearchAggregator
 {
     _Bool _isActive;
-    NSString *_searchString;
-    id <UITextSearchAggregator> _aggregator;
 }
 
-- (id);
+- (id)%;
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)drawing;
 - (id);
 - (void);
-- (id)onViewLayout: /* Error: Ran out of types for this method. */;
+- (id)setCollectionViewLayout: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) id <UITextSearchAggregator> aggregator; // @synthesize aggregator=_aggregator;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *searchString; // @synthesize searchString=_searchString;
-@property(readonly) Class superclass;
 
 @end
 

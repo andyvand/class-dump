@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactStore, NSSet, NSString;
+@class CNContactStore;
 @protocol CNUIUserActivityRestorerDelegate;
 
 @interface CNUIUserActivityRestorer
 {
     id <CNUIUserActivityRestorerDelegate> _delegate;
-    NSSet *_restorableActivityTypes;
-    CNContactStore *_contactStore;
-    NSString *_activityTypeCreateContactIntent;
-    NSString *_activityTypeSpotlightQueryContinuation;
-    NSString *_activityTypeSpotlightSearchableItem;
 }
 
 + (id);
@@ -38,12 +33,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *activityTypeCreateContactIntent; // @synthesize activityTypeCreateContactIntent=_activityTypeCreateContactIntent;
-@property(readonly, nonatomic) NSString *activityTypeSpotlightQueryContinuation; // @synthesize activityTypeSpotlightQueryContinuation=_activityTypeSpotlightQueryContinuation;
-@property(readonly, nonatomic) NSString *activityTypeSpotlightSearchableItem; // @synthesize activityTypeSpotlightSearchableItem=_activityTypeSpotlightSearchableItem;
 @property(readonly, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(nonatomic) __weak id <CNUIUserActivityRestorerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) NSSet *restorableActivityTypes; // @synthesize restorableActivityTypes=_restorableActivityTypes;
 
 @end
 

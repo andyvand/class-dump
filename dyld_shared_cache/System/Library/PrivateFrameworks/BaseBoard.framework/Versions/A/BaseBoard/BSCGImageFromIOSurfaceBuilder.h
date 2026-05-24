@@ -9,9 +9,6 @@
 @interface BSCGImageFromIOSurfaceBuilder
 {
     IOSurface *_surface;
-    struct CGImage *_image;
-    _Bool _isDirty;
-    _Bool _isOpaque;
 }
 
 - (struct CGImage *);

@@ -9,18 +9,14 @@
 @interface MCActivityAggregator
 {
     MCActivityAggregate *_in;
-    MCActivityAggregate *_out;
-    MCActivityAggregate *_save;
-    MCActivityAggregate *_synchronizingActivityAggregate;
-    MCActivityAggregate *_downloadingContentAggregate;
 }
 
 + (id);
-+ (id)String:(struct _NSZone *)arg1;
++ (id)scanString:(struct _NSZone *)arg1 intoString: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)7E;
 - (id);
 - (void);
 - (id);
@@ -28,11 +24,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) MCActivityAggregate *downloadingContentAggregate; // @synthesize downloadingContentAggregate=_downloadingContentAggregate;
 @property(readonly, nonatomic) MCActivityAggregate *in; // @synthesize in=_in;
-@property(readonly, nonatomic) MCActivityAggregate *out; // @synthesize out=_out;
-@property(readonly, nonatomic) MCActivityAggregate *save; // @synthesize save=_save;
-@property(readonly, nonatomic) MCActivityAggregate *synchronizingActivityAggregate; // @synthesize synchronizingActivityAggregate=_synchronizingActivityAggregate;
 
 @end
 

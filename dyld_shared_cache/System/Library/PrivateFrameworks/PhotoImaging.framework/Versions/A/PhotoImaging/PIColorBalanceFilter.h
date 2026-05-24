@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 @interface PIColorBalanceFilter
 {
     CIImage *_inputImage;
-    NSNumber *_inputWarmTemp;
-    NSNumber *_inputWarmTint;
-    NSNumber *_inputStrength;
-    NSNumber *_inputHasFace;
-    NSNumber *_inputIsRaw;
 }
 
 + (id);
@@ -36,15 +31,10 @@
 - (id);
 - (void);
 - (id);
-- (void)ar;
+- (void)portraitForceLightMapLinear;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputHasFace; // @synthesize inputHasFace=_inputHasFace;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(retain, nonatomic) NSNumber *inputIsRaw; // @synthesize inputIsRaw=_inputIsRaw;
-@property(retain, nonatomic) NSNumber *inputStrength; // @synthesize inputStrength=_inputStrength;
-@property(retain, nonatomic) NSNumber *inputWarmTemp; // @synthesize inputWarmTemp=_inputWarmTemp;
-@property(retain, nonatomic) NSNumber *inputWarmTint; // @synthesize inputWarmTint=_inputWarmTint;
 
 @end
 

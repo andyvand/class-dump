@@ -6,20 +6,17 @@
 
 #import <Foundation/NSKeyValueMutableOrderedSet.h>
 
-@class NSKeyValueGetter, NSKeyValueSetter;
+@class NSKeyValueGetter;
 
 __attribute__((visibility("hidden")))
 @interface NSKeyValueSlowMutableOrderedSet : NSKeyValueMutableOrderedSet
 {
     NSKeyValueGetter *_valueGetter;
-    NSKeyValueSetter *_valueSetter;
-    _Bool _treatNilValuesLikeEmptyOrderedSets;
-    char _padding[3];
 }
 
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)ile for displayID = 0x%08x ;
 - (void);
 - (id);
 - (void);

@@ -5,5 +5,6 @@
 //
 
 @protocol MKAnnotationSelector
+- (long long (^)(struct));
 @end
 

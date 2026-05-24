@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSXPCConnection;
-@protocol OS_dispatch_queue;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface AMSHTTPArchiveService
 {
     NSXPCConnection *_connection;
-    CDUnknownBlockType _errorHandler;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (id);
@@ -22,9 +19,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)!;
 - (id);
 - (id);
 - (CDUnknownBlockType)§úpJüY<´M0±3.:5h1ù>üãIæ=+oAê#â~@>ãÔüð!ìSÀÀ})üï?ÅñßÇÐ·/=Ù²P²á3©$#ÅíÌæ¶­ úqIhRÐºÙ±¡¨õì<V5]ìçK3V0·ÄnkÏ÷ÚôH+C²¯{Sv`êÄçÏ3.wFpSk·Ï²Ü +toS;^8md4N-U¸¢Á	ñêxRqYI!@*µ®ÔþÝõNx[sÿ'
@@ -35,8 +32,6 @@ oß¾²·ZìÑx)n+MYô#Wx9s}·Æ<ÏÅñtKñ:%`oß,Þý?XàÉ±ÌV Î%«M
 
 // Remaining properties
 @property(retain) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(copy) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
 
 @end
 

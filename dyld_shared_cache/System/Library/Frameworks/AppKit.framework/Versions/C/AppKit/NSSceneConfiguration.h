@@ -7,23 +7,21 @@
 @interface NSSceneConfiguration
 {
     void delegateClass;
-    void sceneClass;
 }
 
 + (_Bool)4¬;
-- (void);
+- (void)_urlCache;
 - (id);
 - (Class);
 - (id);
-- (void);
+- (void);
 - (void)â31Â0@ù
 × ;
-- (id)edRect:(void *)arg1 radius:continuousCorners: /* Error: Ran out of types for this method. */;
-- (Class)PageableNameList;
+- (id)_bezierPathWithRoundedRect:(void *)arg1 radius:continuousCorners: /* Error: Ran out of types for this method. */;
+- (Class)NSColorPickerPageableNameList;
 
 // Remaining properties
 @property(nonatomic) Class delegateClass;
-@property(nonatomic) Class sceneClass;
 
 @end
 

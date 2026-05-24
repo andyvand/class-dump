@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSError;
+
 @protocol CKSQLiteKeyValueStorage
+- (NSError *));
+- (NSError *)	}H}Hl;
+- (NSError *)	;
 @end
 

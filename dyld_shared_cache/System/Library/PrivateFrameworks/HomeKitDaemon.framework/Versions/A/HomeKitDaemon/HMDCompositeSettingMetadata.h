@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCompositeSettingPrivileges, NSString;
 @protocol HMDCompositeSettingConstraint;
 
 __attribute__((visibility("hidden")))
 @interface HMDCompositeSettingMetadata
 {
     id <HMDCompositeSettingConstraint> _constraint;
-    HMDCompositeSettingPrivileges *_privileges;
-    NSString *_keyPath;
 }
 
+- (id)#;
 - (id);
-- (id);
-- (id);
+- (id)`;
 - (id)R,N,V_mustReplay;
 - (void)mmandEvent;
 
 // Remaining properties
 @property(readonly) id <HMDCompositeSettingConstraint> constraint; // @synthesize constraint=_constraint;
-@property(readonly, copy) NSString *keyPath; // @synthesize keyPath=_keyPath;
-@property(readonly) HMDCompositeSettingPrivileges *privileges; // @synthesize privileges=_privileges;
 
 @end
 

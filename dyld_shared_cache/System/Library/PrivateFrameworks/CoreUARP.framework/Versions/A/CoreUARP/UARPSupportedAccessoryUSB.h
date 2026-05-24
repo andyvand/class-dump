@@ -12,8 +12,8 @@
 
 + (id);
 + (unsigned short);
-+ (unsigned short);
-- (id);
++ (unsigned short)9{3;
+- (id)AMSSecureCodableError;
 
 @end
 

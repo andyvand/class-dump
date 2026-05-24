@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSAudioProvider;
+@class CSAudioProvider, CSAudioRecordContext;
 
 @protocol CSAudioProviderSelecting
-- (CSAudioProvider *)topRecordingHostTime;
+- (CSAudioProvider *)computeTransform:(CSAudioRecordContext *)arg1 forRegisteringImageSignature:(id *)arg2 withSignature:minimumOverlap:error: /* Error: Ran out of types for this method. */;
+- (CSAudioProvider *)_stopRecordingHostTime;
 @end
 

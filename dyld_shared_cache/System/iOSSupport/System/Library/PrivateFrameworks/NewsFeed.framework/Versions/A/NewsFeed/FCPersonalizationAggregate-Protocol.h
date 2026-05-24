@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSDictionary, NSString;
 
 @protocol FCPersonalizationAggregate
-- (unsigned long long)leAccessProvider;
+- (unsigned long long)puzzleAccessProvider;
 - (double)ü;
 - (NSDictionary *)xÄëÿÆëÿhÇëÿÈëÿPÊëÿ|Ìëÿ0Îëÿ(ÖëÿØÖëÿÜÚëÿàëÿdáëÿ¬ãëÿÄåëÿ@æëÿæëÿçëÿÈéëÿtëëÿíëÿ,òëÿxòëÿü÷ëÿ¨øëÿàùëÿPûëÿüëÿ0ÿëÿhìÿìÿ ìÿDìÿìÿ ìÿ¸ìÿðìÿ¼	ìÿðìÿXìÿlìÿünìÿoìÿrìÿ¬wìÿÜwìÿyìÿ°zìÿX{ìÿ ìÿ°ìÿ,ìÿ8ìÿ|ìÿäìÿ8ìÿ4ìÿ\ìÿ¼ìÿìÿìÿìÿèìÿ¤ìÿÌìÿp ìÿ`¡ìÿ(¢ìÿ£ìÿP¤ìÿÈªìÿ0¬ìÿ¤¬ìÿ\­ìÿd®ìÿ8¯ìÿh°ìÿø³ìÿLµìÿ°¶ìÿ,¹ìÿìºìÿl¼ìÿÌ¿ìÿÐÀìÿÂìÿpÂìÿÈìÿ¸ËìÿèÏìÿÑìÿìÑìÿDÒìÿäÓìÿ4Öìÿp×ìÿXØìÿÙìÿÚìÿÛìÿÛìÿÄÞìÿáìÿâìÿäìÿåìÿ éìÿëìÿ ììÿíìÿðìÿ¨òìÿ\÷ìÿDøìÿðøìÿ;
 - (double);
 - (double)?;
 
 // Remaining properties
-@property(readonly, nonatomic) double clicks;
-@property(readonly, nonatomic) double confidence;
-@property(readonly, nonatomic) double ctr;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) unsigned long long eventCount;
 @property(readonly, nonatomic) NSString *featureKey;
-@property(readonly, nonatomic) double impressions;
-@property(readonly, nonatomic) NSDate *lastModified;
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol SOTimerMutating
+- (void);
 @end
 

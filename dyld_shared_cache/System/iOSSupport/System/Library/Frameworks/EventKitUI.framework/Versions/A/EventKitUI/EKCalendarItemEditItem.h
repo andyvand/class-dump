@@ -4,82 +4,70 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKCalendarItem, EKEventStore, NSString, UIResponder, UIViewController;
-@protocol EKCalendarItemEditItemDelegate, EKEditItemViewControllerProtocol;
+@class EKEventStore;
+@protocol EKCalendarItemEditItemDelegate;
 
 __attribute__((visibility("hidden")))
 @interface EKCalendarItemEditItem
 {
     EKEventStore *_store;
-    UIViewController<EKEditItemViewControllerProtocol> *_viewController;
-    EKCalendarItem *_calendarItem;
-    id <EKCalendarItemEditItemDelegate> _delegate;
-    UIResponder *_selectedResponder;
 }
 
 + (double);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
-- (void);
+- (void)%s;
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void)&s;
+- (id);
 - (_Bool);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)&s;
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (double);
+- (double)(s;
 - (void);
-- (void);
+- (void)c%s;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)s;
+- (void)s;
 - (id);
+- (_Bool)%s;
 - (_Bool);
+- (void);
+- (id)S%s;
+- (_Bool)q;
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (unsigned long long)_sourceContext;
+- (id);
+- (void);
+- (void)__objc_methlist;
+- (id)eTypingSlots;
 - (_Bool);
-- (void);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void)ask;
+- (void)mask;
 - (_Bool)1) || (emailAddresses.@count == 0 && phoneNumbers.@count == 1);
 - (double)UïÿCú;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <EKCalendarItemEditItemDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIResponder *selectedResponder; // @synthesize selectedResponder=_selectedResponder;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSActionResponder, FBSSceneSnapshotContext;
-
 @interface FBSSceneSnapshotRequestHandle
 {
     unsigned long long _type;
-    FBSSceneSnapshotContext *_context;
-    BSActionResponder *_responder;
-    _Bool _canceled;
 }
 
 + (id);
 - (void);
+- (void)`;
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)_installationKeyForBundleID:(unsigned long long)arg1;
+- (void)Ƞ;
 
 @end
 

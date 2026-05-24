@@ -10,15 +10,14 @@
 @interface HMFDispatchContext
 {
     NSObject<OS_dispatch_queue> *_queue;
-    _Bool _alwaysDispatch;
 }
 
 + (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void);
 - (id);
 - (void);
 

@@ -9,21 +9,19 @@
 @interface RTMotionActivityHistogram
 {
     NSMutableDictionary *_bins;
-    double _totalInterval;
 }
 
 - (double);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)7;
+- (id)#;
 - (void);
 - (id);
-- (id);
+- (id)";
 - (void)sitive}@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *bins; // @synthesize bins=_bins;
 @property(nonatomic) double totalInterval; // @synthesize totalInterval=_totalInterval;
 
 @end

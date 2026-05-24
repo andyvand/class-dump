@@ -8,10 +8,6 @@
 {
     id _preflightConfiguration;
     id _completion;
-    id _extensionConfiguration;
-    id _isConnectedToRemote;
-    id _xpcConnection;
-    id _$observationRegistrar;
 }
 
 - (_Bool);

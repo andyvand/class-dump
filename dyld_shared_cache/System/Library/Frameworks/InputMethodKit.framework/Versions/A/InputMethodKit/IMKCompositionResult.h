@@ -10,7 +10,7 @@
 }
 
 + (id);
-- (id);
+- (id)lment;
 - (_Bool);
 
 // Remaining properties

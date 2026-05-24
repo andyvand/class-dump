@@ -4,32 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPSImageAreaMax, MPSImageConvolution, MPSImageGaussianBlur;
-
 @interface MPSImageEDLines
 {
     float _gaussianSigma;
-    unsigned short _minLineLength;
-    unsigned long long _maxLines;
-    unsigned short _detailRatio;
-    float _gradientThreshold;
-    float _lineErrorThreshold;
-    float _mergeLocalityThreshold;
-    CDStruct_1e3be3a8 _clipRectSource;
-    unsigned short _gradientNormalizationRadius;
-    MPSImageGaussianBlur *gaussianBlurKernel;
-    MPSImageConvolution *sobel3XHKernel;
-    MPSImageConvolution *sobel3XVKernel;
-    MPSImageConvolution *sobel3YVKernel;
-    MPSImageConvolution *sobel3YHKernel;
-    MPSImageAreaMax *gradientNormalizeAreaMaxKernel;
 }
 
 + (const struct MPSLibraryInfo *);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)\;
 - (unsigned short);
 - (float);
 - (float);
@@ -43,23 +27,16 @@
 - (CDStruct_1e3be3a8);
 - (void);
 - (float);
-- (void);
+- (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (id)#;
+- (void)initMDQueryWithQueryString:(id)arg1 queryContext: /* Error: Ran out of types for this method. */;
+- (void)b;
+- (unsigned long long);
 - (id)dÃDÆ¸?ðmË8 Ä?ñ³Åh¸·?m=Ö³àÁ·?»,K¼þ®?;
 
 // Remaining properties
 @property(nonatomic) CDStruct_1e3be3a8 clipRectSource; // @synthesize clipRectSource=_clipRectSource;
-@property(nonatomic) unsigned short detailRatio; // @synthesize detailRatio=_detailRatio;
-@property(readonly, nonatomic) float gaussianSigma; // @synthesize gaussianSigma=_gaussianSigma;
-@property(nonatomic) float gradientThreshold; // @synthesize gradientThreshold=_gradientThreshold;
-@property(nonatomic) float lineErrorThreshold; // @synthesize lineErrorThreshold=_lineErrorThreshold;
-@property(nonatomic) unsigned long long maxLines; // @synthesize maxLines=_maxLines;
-@property(nonatomic) float mergeLocalityThreshold; // @synthesize mergeLocalityThreshold=_mergeLocalityThreshold;
-@property(nonatomic) unsigned short minLineLength; // @synthesize minLineLength=_minLineLength;
 
 @end
 

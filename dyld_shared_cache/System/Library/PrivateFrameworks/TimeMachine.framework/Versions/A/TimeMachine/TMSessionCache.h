@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface TMSessionCache
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_regularExpressions;
 }
 
 - (id);
-- (void);
+- (void)#;
 
 @end
 

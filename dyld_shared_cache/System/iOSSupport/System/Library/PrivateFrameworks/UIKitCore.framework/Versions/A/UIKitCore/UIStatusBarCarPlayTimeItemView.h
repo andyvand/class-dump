@@ -14,13 +14,13 @@ __attribute__((visibility("hidden")))
     NSString *_timeString;
 }
 
-- (_Bool);
+- (_Bool)_storePublicNickname:(id)arg1 nicknameLocation:(int)arg2 encryptionKey:wallpaperDataTag:wallpaperLowResDataTag:wallpaperMetadataTag:avatarRecipeDataTag: /* Error: Ran out of types for this method. */;
 - (double);
-- (double);
-- (double);
+- (double)unknown service name %@;
+- (double)ssage part;
+- (id)Record hasAsset %@;
 - (id);
-- (id);
-- (id);
+- (id)ervice; %@;
 - (void)EÚÐøb;
 - (long long)Àa;
 

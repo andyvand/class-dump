@@ -7,53 +7,23 @@
 @protocol MTLBuffer, MTLResource, MTLTexture;
 
 @protocol MTLTexture
+- (id <MTLTexture>)X;
+- (unsigned long long)ic"b1"requiresAlpha"b1"usingHardExpirationDate"b1"usingExpirationDate"b1"usingHistory"b1"unused"b1"requiresSymbol"b1"noModifyPasswordforSelf"b1"newPasswordRequired"b1"requiresMixedCase"b1"hcLowBits"b3"expirationDateGMT"{BSDTimeStructCopy="tm_sec"i"tm_min"i"tm_hour"i"tm_mday"i"tm_mon"i"tm_year"i"tm_wday"i"tm_yday"i"tm_isdst"i"tm_gmtoff"i"tm_zone"I}"hardExpireDateGMT"{BSDTimeStructCopy="tm_sec"i"tm_min"i"tm_hour"i"tm_mday"i"tm_mon"i"tm_year"i"tm_wday"i"tm_yday"i"tm_isdst"i"tm_gmtoff"i"tm_zone"I}"maxMinutesUntilChangePassword"I"maxMinutesUntilDisabled"I"maxMinutesOfNonUse"I"maxFailedLoginAttempts"S"minChars"S"maxChars"S}"origAccess"{PWGlobalAccessFeatures="hcHighBit"b1"passwordCannotBeName"b1"passwordIsHash"b1"requiresNumeric"b1"requiresAlpha"b1"usingHardExpirationDate"b1"usingExpirationDate"b1"usingHistory"b1"unused"b1"requiresSymbol"b1"noModifyPasswordforSelf"b1"newPasswordRequired"b1"requiresMixedCase"b1"hcLowBits"b3"expirationDateGMT"{BSDTimeStructCopy="tm_sec"i"tm_min"i"tm_hour"i"tm_mday"i"tm_mon"i"tm_year"i"tm_wday"i"tm_yday"i"tm_isdst"i"tm_gmtoff"i"tm_zone"I}"hardExpireDateGMT"{BSDTimeStructCopy="tm_sec"i"tm_min"i"tm_hour"i"tm_mday"i"tm_mon"i"tm_year"i"tm_wday"i"tm_yday"i"tm_isdst"i"tm_gmtoff"i"tm_zone"I}"maxMinutesUntilChangePassword"I"maxMinutesUntilDisabled"I"maxMinutesOfNonUse"I"maxFailedLoginAttempts"S"minChars"S"maxChars"S}"weakAuthMethods"[25{AuthMethName="method"[21c]}]"origWeakAuthMethods"[25{AuthMethName="method"[21c]}]"publicKeyLen"I"publicKey"[1024C]"origPublicKey"[1024C]"privateKeyLen"I"privateKey"[2048C]"origPrivateKey"[2048C]"extraAccess"{PWGlobalMoreAccessFeatures="minutesUntilFailedLoginReset"I"notGuessablePattern"I}"origExtraAccess"{PWGlobalMoreAccessFeatures="minutesUntilFailedLoginReset"I"notGuessablePattern"I}};
+- (long long)q;
+- (_Bool)u;
+- (unsigned long long)`;
 - (unsigned long long)l;
 - (id <MTLBuffer>)¼;
-- (unsigned long long);
 - (unsigned long long)5;
 - (CDStruct_a06f635e)¤;
 - (_Bool)ke with Identifier %@ not found in stroke provider.;
 - (unsigned long long)ol to %@;
 - (unsigned long long)textbox;
 
+@optional
+- (void);
+
 // Remaining properties
-@property(readonly) _Bool allowGPUOptimizedContents;
-@property(readonly) unsigned long long arrayLength;
-@property(readonly) id <MTLBuffer> buffer;
-@property(readonly) unsigned long long bufferBytesPerRow;
-@property(readonly) unsigned long long bufferOffset;
-@property(readonly) long long compressionType;
-@property(readonly) unsigned long long depth;
-@property(readonly) unsigned long long firstMipmapInTail;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(readonly, getter=isFramebufferOnly) _Bool framebufferOnly;
-@property(readonly) struct MTLResourceID gpuResourceID;
-@property(readonly) unsigned long long height;
-@property(readonly) struct __IOSurface *iosurface;
-@property(readonly) unsigned long long iosurfacePlane;
-@property(readonly) _Bool isSparse;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) unsigned long long mipmapLevelCount;
-@property(readonly) unsigned long long parentRelativeLevel;
-@property(readonly) unsigned long long parentRelativeSlice;
-@property(readonly) id <MTLTexture> parentTexture;
-@property(readonly) unsigned long long pixelFormat;
-@property(readonly) id <MTLTexture> remoteStorageTexture;
 @property(readonly) id <MTLResource> rootResource;
-@property(readonly) unsigned long long sampleCount;
-@property(readonly, getter=isShareable) _Bool shareable;
-@property(readonly) long long sparseTextureTier;
-@property(readonly, nonatomic) CDStruct_a06f635e swizzle;
-@property(readonly) unsigned long long tailSizeInBytes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R
-
-@property(readonly) unsigned long long textureType;
-@property(readonly) unsigned long long usage;
-@property(readonly) unsigned long long width;
 @end
 

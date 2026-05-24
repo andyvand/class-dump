@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)SAccount"24@"NSString"32@"NSString"40q48@"NSError"56B64@"IDSMessageContext"68;
+- (void)4@68;
+- (void)performCapabilitiesQueryRequest:(id)arg1 completion:(id)arg2;
+- (_Bool)QB;
 - (void);
 - (id);
 

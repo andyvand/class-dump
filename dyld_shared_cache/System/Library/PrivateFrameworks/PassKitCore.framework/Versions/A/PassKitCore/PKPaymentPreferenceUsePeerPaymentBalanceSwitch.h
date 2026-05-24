@@ -6,30 +6,24 @@
 
 #import <PassKitCore/PKPaymentPreference.h>
 
-@class PKCurrencyAmount, PKPaymentPass;
+@class PKPaymentPass;
 
 @interface PKPaymentPreferenceUsePeerPaymentBalanceSwitch : PKPaymentPreference
 {
     _Bool _on;
-    _Bool _enabled;
-    PKPaymentPass *_peerPaymentPass;
-    PKCurrencyAmount *_peerPaymentBalance;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)P@9;
 - (_Bool);
 - (void);
 - (_Bool)ÿÿ$ÿÿ<ÿÿøÿÿPÿÿÿÿ ÿÿ¸ÿÿ;
 - (void)yment.reader-mode-provisioning.ingest-card-session-token;
 
 // Remaining properties
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic, getter=isOn) _Bool on; // @synthesize on=_on;
-@property(retain, nonatomic) PKCurrencyAmount *peerPaymentBalance; // @synthesize peerPaymentBalance=_peerPaymentBalance;
 @property(retain, nonatomic) PKPaymentPass *peerPaymentPass; // @synthesize peerPaymentPass=_peerPaymentPass;
 
 @end

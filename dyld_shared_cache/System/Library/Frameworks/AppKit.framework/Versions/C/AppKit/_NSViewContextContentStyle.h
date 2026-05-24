@@ -10,15 +10,13 @@ __attribute__((visibility("hidden")))
 @interface _NSViewContextContentStyle : NSAppearanceContentStyle
 {
     long long _backgroundStyle;
-    long long _semanticContext;
-    unsigned long long _windowStyleMask;
 }
 
 - (id);
-- (int);
+- (int)on;
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)`;
+- (id)initWithNSCollectionView:(struct _NSZone *)arg1 itemProvider:dataSource: /* Error: Ran out of types for this method. */;
 
 @end
 

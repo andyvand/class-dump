@@ -5,10 +5,10 @@
 //
 
 @protocol INActivateCarSignalIntentResponseExport
-- (long long)esOperator;
+- (void)8;
+- (long long)geographicalFeaturesOperator;
 
 // Remaining properties
 @property(readonly) long long code;
-@property unsigned long long signals;
 @end
 

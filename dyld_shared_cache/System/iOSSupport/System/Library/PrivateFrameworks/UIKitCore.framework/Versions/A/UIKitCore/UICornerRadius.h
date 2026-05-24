@@ -11,16 +11,16 @@
     id impl;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (_Bool)Context(void)_block_invoke;
 - (id);
-- (id);
+- (id)resetForRepresentationKinds: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
-- (_Bool)xtPositionByCharacterOffset:(id)arg1;
-- (void)leAlpha:(id)arg1;
+- (_Bool)adjustTextPositionByCharacterOffset:(id)arg1;
+- (void)_setPasscodeStyleAlpha:(id)arg1;
 - (id)(ÕÕDÖ°Ö;
 
 // Remaining properties

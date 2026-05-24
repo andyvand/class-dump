@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SMAppService
 {
     unsigned char _type;
-    NSString *_identifier;
-    NSString *_plistName;
 }
 
 + (long long);
 + (int);
 + (void);
 + (id);
++ (id)!;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)T9;
 - (void);
 - (_Bool);
 - (_Bool);

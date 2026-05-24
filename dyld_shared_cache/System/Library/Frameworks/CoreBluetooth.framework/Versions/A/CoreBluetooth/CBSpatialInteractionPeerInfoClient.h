@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
-
 __attribute__((visibility("hidden")))
 @interface CBSpatialInteractionPeerInfoClient
 {
     unsigned int _peerID;
-    unsigned int _uwbTokenFlags;
-    NSData *_tokenData;
-    NSDictionary *_userInfo;
 }
 
 - (id);
-- (unsigned int);
+- (unsigned int)externalPlaybackActive;
 - (void);
 - (unsigned int);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)unsignedLongLongValue;
+- (void)d.XPCService.xpc;
 
 // Remaining properties
 @property(nonatomic) unsigned int peerID; // @synthesize peerID=_peerID;
-@property(copy, nonatomic) NSData *tokenData; // @synthesize tokenData=_tokenData;
-@property(copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
-@property(nonatomic) unsigned int uwbTokenFlags; // @synthesize uwbTokenFlags=_uwbTokenFlags;
 
 @end
 

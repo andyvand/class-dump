@@ -5,6 +5,7 @@
 //
 
 @protocol TTouchBarGoToViewDelegate
+- (void);
 - (void)taSource _modifyChildrenOfContainerAsync:(id)arg1 withUnlockedFunctor:]ENK4$_28clEvEUlvE0_vJEEE /* Error: Ran out of types for this method. */;
 @end
 

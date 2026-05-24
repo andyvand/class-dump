@@ -15,9 +15,9 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)Ta;
 - (void);
-- (void);
+- (void)$-;
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *organizationsByIdentifier; // @synthesize organizationsByIdentifier=_organizationsByIdentifier;

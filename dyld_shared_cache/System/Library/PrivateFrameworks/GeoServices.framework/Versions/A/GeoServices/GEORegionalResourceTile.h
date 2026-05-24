@@ -4,34 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORegionalResourceTile
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_attributions;
-    NSMutableArray *_childrens;
-    NSMutableArray *_iconChecksums;
-    NSMutableArray *_icons;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _x;
-    unsigned int _y;
-    unsigned int _z;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_attributions:1;
-        unsigned int read_childrens:1;
-        unsigned int read_iconChecksums:1;
-        unsigned int read_icons:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (Class);
++ (Class);
 + (Class);
 + (Class);
 + (_Bool)setLocationType:(id)arg1;
@@ -48,7 +29,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)ceProductVersion;
 - (id);
 - (unsigned long long);
 - (void);
@@ -61,16 +42,16 @@
 - (void)!GùQ¸*1Â0@ù
 × ;
 - (id)lors"b1"read_chargingStations"b1"read_routingPathLegs"b1"wrote_anyField"b1};
-- (void)ientFix;
-- (id)otification:forDestination:fromClient: /* Error: Ran out of types for this method. */;
+- (void)userLibUserNoteClientFix;
+- (id)didPostUINotification:forDestination:fromClient: /* Error: Ran out of types for this method. */;
 - (id)|P ;
 - (void)¼8;
-- (id)_restaurant_menu_text_filter;
-- (unsigned int)_user_action_metadata;
+- (id)simple_restaurant_menu_text_filter;
+- (unsigned int)session_user_action_metadata;
 - (void)ÿÿ;
 - (void)ÿÿÀ;
 - (id)Ì¤´´¬.t;
-- (void)orTileENS1_17allocator_adapterIS3_NS2_15zone_mallocatorEEEEE;
+- (void)NSt3__120__shared_ptr_emplaceIN3geo5codec10VectorTileENS1_17allocator_adapterIS3_NS2_15zone_mallocatorEEEEE;
 - (unsigned long long)/;
 - (id);
 - (id)õÁBA§lu9UQ@;
@@ -87,14 +68,7 @@
 - (void)¬Þÿi8bï4;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *attributions;
-@property(retain, nonatomic) NSMutableArray *childrens;
-@property(retain, nonatomic) NSMutableArray *iconChecksums;
-@property(retain, nonatomic) NSMutableArray *icons;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 @property(nonatomic) unsigned int x;
-@property(nonatomic) unsigned int y;
-@property(nonatomic) unsigned int z;
 
 @end
 

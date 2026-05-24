@@ -7,6 +7,7 @@
 @class NSManagedObjectID;
 
 @protocol PHBatchFetchedObject
+- (NSManagedObjectID *)mandCenter";
 
 // Remaining properties
 @property(readonly, nonatomic) NSManagedObjectID *objectID;

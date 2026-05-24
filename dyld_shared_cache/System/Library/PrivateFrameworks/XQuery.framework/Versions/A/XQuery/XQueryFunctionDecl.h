@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, XQueryProlog, XQueryQName, XQueryTypeDeclaration;
+@class XQueryQName;
 
 __attribute__((visibility("hidden")))
 @interface XQueryFunctionDecl
 {
     XQueryQName *_name;
-    XQueryTypeDeclaration *_type;
-    NSArray *_params;
-    id _expr;
-    XQueryProlog *_prolog;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)J);
+- (id)@;
 - (void);
 - (id);
 - (id);

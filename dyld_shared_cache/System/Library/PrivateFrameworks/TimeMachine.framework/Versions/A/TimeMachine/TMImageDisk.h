@@ -11,7 +11,6 @@
 @interface TMImageDisk : TMTestDisk
 {
     unsigned int _imageType;
-    NSString *_imagePath;
 }
 
 - (id);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(retain) NSString *imagePath; // @synthesize imagePath=_imagePath;
-@property(readonly) unsigned int imageType; // @synthesize imageType=_imageType;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol CNACAccountProvider
+- (_Bool);
 @end
 

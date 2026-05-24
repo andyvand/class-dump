@@ -21,11 +21,11 @@
 - (id);
 - (_Bool)!tEùq^ð1Â0@ù
 × ;
-- (id)rentDragTabOriginalIndex;
-- (id)pPreviews;
+- (id)_currentDragTabOriginalIndex;
+- (id)_containerViewForDropPreviews;
 - (id)@"NSTimer",&,N,V_autoNavigationTimer;
 - (_Bool)%{public}p>; contextId:0x%{public}X /* Error: Ran out of types for this method. */;
-- (_Bool)ontentSizeCategoryL;
+- (_Bool)UICTContentSizeCategoryL;
 - (id)ocumentInfo=%@. Use UIGraphicsPDFRenderer to avoid this assert.;
 - (void);
 - (_Bool);

@@ -11,19 +11,17 @@
 @interface HAPArrayWrapper : HAPFieldWrapper
 {
     NSArray *_field;
-    CDUnknownBlockType _objectCreator;
 }
 
 + (id);
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void)ress;
-- (id)r: /* Error: Ran out of types for this method. */;
+- (void)wakeAddress;
+- (id)_nextPacketWithMaximumLength:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *field; // @synthesize field=_field;
-@property(copy, nonatomic) CDUnknownBlockType objectCreator; // @synthesize objectCreator=_objectCreator;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol IMUnavailabilityIndicatorChatItemDelegate
+- (void)=;
 @end
 

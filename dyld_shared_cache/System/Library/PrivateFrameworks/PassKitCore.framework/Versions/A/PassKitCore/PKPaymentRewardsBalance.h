@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDecimalNumber, NSString, NSURL, PKCurrencyAmount;
+@class NSString;
 
 @interface PKPaymentRewardsBalance
 {
     NSString *_identifier;
-    unsigned long long _type;
-    NSDecimalNumber *_value;
-    PKCurrencyAmount *_monetaryValue;
-    NSDecimalNumber *_conversionRate;
-    unsigned long long _roundingStrategy;
-    unsigned long long _eligibility;
-    NSString *_programName;
-    NSURL *_programURL;
-    NSDate *_lastFetchedAt;
 }
 
 + (id);
@@ -29,61 +20,48 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (id)9;
+- (id)R;
 - (id);
-- (id);
-- (id);
+- (_Bool)@;
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)	k�	;
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)qa;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
+- (unsigned long long)o;
+- (_Bool);
 - (unsigned long long);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setVehicleConnected:(id)arg1;
+- (void)enableTelephony;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id)expiryDateString;
 - (void)e.passbook.peerpayment.cip.failed;
 - (unsigned long long);
 
 // Remaining properties
-@property(copy, nonatomic) NSDecimalNumber *conversionRate; // @synthesize conversionRate=_conversionRate;
-@property(nonatomic) unsigned long long eligibility; // @synthesize eligibility=_eligibility;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isPositive;
-@property(readonly, nonatomic) _Bool isQuantitative;
-@property(readonly, nonatomic) _Bool isRedeemable;
-@property(readonly, nonatomic) _Bool isValid;
-@property(copy, nonatomic) NSDate *lastFetchedAt; // @synthesize lastFetchedAt=_lastFetchedAt;
-@property(retain, nonatomic) PKCurrencyAmount *monetaryValue; // @synthesize monetaryValue=_monetaryValue;
-@property(copy, nonatomic) NSString *programName; // @synthesize programName=_programName;
-@property(copy, nonatomic) NSURL *programURL; // @synthesize programURL=_programURL;
-@property(nonatomic) unsigned long long roundingStrategy; // @synthesize roundingStrategy=_roundingStrategy;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(copy, nonatomic) NSDecimalNumber *value; // @synthesize value=_value;
 
 @end
 

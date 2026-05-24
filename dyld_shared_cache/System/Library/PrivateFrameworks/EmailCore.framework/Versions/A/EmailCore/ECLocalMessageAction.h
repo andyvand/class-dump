@@ -4,35 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECLocalMessageActionID, NSString, NSURL;
+@class ECLocalMessageActionID;
 
 @interface ECLocalMessageAction
 {
     _Bool _userInitiated;
-    ECLocalMessageActionID *_persistentID;
-    NSURL *_mailboxURL;
 }
 
+- (void)leChromelessControlsView.;
+- (id)abled()!;
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)H;
 - (id);
 - (void);
 - (_Bool);
-- (void)dToEncoding:(_Bool)arg1;
+- (void)canBeConvertedToEncoding:(_Bool)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSURL *mailboxURL; // @synthesize mailboxURL=_mailboxURL;
 @property(retain, nonatomic) ECLocalMessageActionID *persistentID; // @synthesize persistentID=_persistentID;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool userInitiated; // @synthesize userInitiated=_userInitiated;
 
 @end
 

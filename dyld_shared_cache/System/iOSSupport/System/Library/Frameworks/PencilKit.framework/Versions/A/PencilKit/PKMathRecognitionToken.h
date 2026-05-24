@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSUUID, PKMathRecognitionItem;
+@class NSUUID;
 
 @interface PKMathRecognitionToken
 {
     _Bool _isTrigonometric;
-    NSUUID *_uuid;
-    PKMathRecognitionItem *_item;
-    long long _type;
-    NSString *_text;
-    long long _columnIndex;
-    NSArray *_errors;
-    NSArray *_alternatives;
-    NSArray *_renderableAlternatives;
-    struct _NSRange _characterRange;
-    struct CGRect _bounds;
 }
 
 - (void);
@@ -26,38 +16,28 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)�-;
 - (long long);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id),;
 - (id);
 - (void);
 - (long long);
 - (struct CGRect);
 - (void);
 - (id);
-- (void);
+- (void)",&,N,V_headerController;
 - (void);
 - (id);
 - (id)&ð1Â0@ù
 × ;
-- (struct _NSRange)hChange: /* Error: Ran out of types for this method. */;
+- (struct _NSRange)_newInk:withChange: /* Error: Ran out of types for this method. */;
 - (void)Hp;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *alternatives; // @synthesize alternatives=_alternatives;
-@property(nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;
-@property(nonatomic) struct _NSRange characterRange; // @synthesize characterRange=_characterRange;
-@property(nonatomic) long long columnIndex; // @synthesize columnIndex=_columnIndex;
-@property(copy, nonatomic) NSArray *errors; // @synthesize errors=_errors;
-@property(nonatomic) _Bool isTrigonometric; // @synthesize isTrigonometric=_isTrigonometric;
-@property(nonatomic) __weak PKMathRecognitionItem *item; // @synthesize item=_item;
-@property(copy, nonatomic) NSArray *renderableAlternatives; // @synthesize renderableAlternatives=_renderableAlternatives;
-@property(copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(nonatomic) long long type; // @synthesize type=_type;
 @property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

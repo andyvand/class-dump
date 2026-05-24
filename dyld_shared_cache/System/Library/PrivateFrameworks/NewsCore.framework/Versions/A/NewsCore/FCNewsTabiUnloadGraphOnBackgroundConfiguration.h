@@ -9,24 +9,20 @@
 @interface FCNewsTabiUnloadGraphOnBackgroundConfiguration
 {
     _Bool _enabled;
-    NSDictionary *_dictionary;
-    long long _graphIdleDuration;
 }
 
-- (void);
+- (void);
 - (long long);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool)hips;
+- (_Bool)resultTagRelationships;
 - (void)Log-Level;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic) long long graphIdleDuration; // @synthesize graphIdleDuration=_graphIdleDuration;
 
 @end
 

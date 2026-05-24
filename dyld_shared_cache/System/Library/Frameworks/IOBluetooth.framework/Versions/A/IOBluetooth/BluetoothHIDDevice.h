@@ -4,36 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOBluetoothDevice, NSString;
-
 @interface BluetoothHIDDevice
 {
     unsigned int _objectID;
-    unsigned int _hidDevice;
-    struct IOHIDDeviceInterface **_hidDeviceInterface;
-    _Bool _hidDeviceInterfaceOpen;
-    IOBluetoothDevice *_bluetoothDevice;
-    unsigned short _vendorIDSource;
-    unsigned short _vendorID;
-    unsigned short _productID;
-    unsigned int _classOfDevice;
-    struct BluetoothDeviceAddress _address;
-    struct IOHIDQueueInterface **_queue;
-    struct __CFRunLoopSource *_runLoopSource;
-    struct UnsignedWide _timestamp;
-    unsigned int _interestNotification;
-    float _batteryPercent;
 }
 
 + (id);
 + (id);
-- (_Bool);
+- (_Bool)RG;
 - (_Bool);
 - (void);
 - (struct UnsignedWide);
+- (_Bool)(;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
@@ -46,12 +30,12 @@
 - (unsigned int);
 - (float);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (unsigned short);
 - (id);
 - (id);
@@ -61,9 +45,9 @@
 - (unsigned int);
 - (unsigned short);
 - (struct BluetoothDeviceAddress *);
-- (id);
+- (id);
 - (void);
-- (unsigned short);
+- (unsigned short)y;
 - (int)TCùÀ+Ð1Â0@ù
 × ;
 - (unsigned short)x;
@@ -71,22 +55,7 @@
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSString *addressString;
 @property(readonly) float batteryPercent; // @synthesize batteryPercent=_batteryPercent;
-@property(readonly) unsigned int classOfDevice;
-@property(readonly) NSString *driverClass;
-@property(readonly) _Bool isKeyboardDevice;
-@property(readonly) _Bool isMouseDevice;
-@property(readonly) _Bool isTrackpadDevice;
-@property(readonly) NSString *manufacturer;
-@property(readonly) NSString *name;
-@property(readonly) unsigned short primaryUsage;
-@property(readonly) unsigned short primaryUsagePage;
-@property(readonly) NSString *product;
-@property(readonly) unsigned short productID;
-@property(readonly) unsigned short vendorID;
-@property(readonly) unsigned short vendorIDSource;
-@property(readonly) unsigned short version;
 
 @end
 

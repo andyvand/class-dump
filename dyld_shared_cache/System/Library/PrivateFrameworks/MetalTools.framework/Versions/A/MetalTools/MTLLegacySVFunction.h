@@ -11,8 +11,6 @@
 @interface MTLLegacySVFunction : MTLToolsFunction
 {
     MTLLegacySVImageData *data;
-    struct mutex _argumentLayoutsMutex;
-    struct unordered_map<unsigned int, std::unique_ptr<LegacySVArgumentEncoderLayout>, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<const unsigned int, std::unique_ptr<LegacySVArgumentEncoderLayout>>>> _argumentLayouts;
 }
 
 + (id);
@@ -25,13 +23,13 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)";
 - (id);
 - (id);
 - (id);
 - (id)"24{MTL4BufferRange=QQ}32;
 - (void)b1"mergeAccessChecks"b1"convertToAB"b1"arraysOfBuffersAB"b1"noInlineTrivialFunctions"b1"unrollMemCpyWA"b1"checkGlobalConstants"b1"enableTextureChecks"b1"demoteGlobalConstantsToArg"b1"argumentPointerIndirection"b1"enableThreadgroupMemoryChecks"b1"mergeThreadgroupGlobals"b1"mergeThreadgroupArguments"b1"tagThreadgroupPointers"b1"enableJumpThreading"b1"enableICBSupport"b1"enableGlobalRelocations"b1"enableTrapReporting"b1"enableRaytracing"b1"enableResourceUsageValidation"b1"enableStackOverflow"b1"enableDumpToStderr"b1"enableAccelerationStructureChecking"b1"enableRelaxedTextureArrayBindings"b1}};
-- (id)ript:(unsigned long long)arg1;
+- (id)setObject:(unsigned long long)arg1 forKeyedSubscript:(id *)arg2;
 
 @end
 

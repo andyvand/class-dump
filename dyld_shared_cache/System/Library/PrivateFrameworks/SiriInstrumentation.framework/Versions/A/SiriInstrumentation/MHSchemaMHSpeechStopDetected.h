@@ -6,22 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface MHSchemaMHSpeechStopDetected : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_trpId;
-    _Bool _hasTrpId;
 }
 
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ve over a 239 bit prime field;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -32,8 +31,6 @@
 - (void)¬7æÿGØQQ!;
 
 // Remaining properties
-@property(nonatomic) _Bool hasTrpId; // @synthesize hasTrpId=_hasTrpId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *trpId; // @synthesize trpId=_trpId;
 
 @end

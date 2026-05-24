@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
+@class NSDate;
 
 @interface AMSAccountCachedServerBoolCore
 {
     id cachedValue;
-    id token;
 }
 
+- (id)CloudKitAttachmentsSyncedCount;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (id);
@@ -22,11 +21,7 @@
 - (id)Û°]ipD©ùÍ 9Ôàf¿RK¦p[¾T±ã-È"Ç	ìê$Á+Î;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
 @property(nonatomic, readonly) NSDate *expiration;
-@property(nonatomic, readonly) _Bool isStale;
-@property(nonatomic, retain) id token; // @synthesize token;
-@property(nonatomic, readonly) NSNumber *value;
 
 @end
 

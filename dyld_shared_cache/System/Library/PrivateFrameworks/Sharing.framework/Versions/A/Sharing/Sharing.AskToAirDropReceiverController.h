@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, OS_dispatch_queue;
+@class OS_dispatch_queue;
 
 @interface Sharing.AskToAirDropReceiverController
 {
     OS_dispatch_queue *queue;
-    _Bool isNearbyDeviceClose;
-    _Bool hasPendingOrActiveConnections;
-    _Bool isLegacyMode;
-    void nearbyDevicesDisplayName;
-    long long connectionState;
-    void stateChangedHandler;
-    void connectionStateChangedHandler;
-    void pendingOrActiveConnectionsChangedHandler;
-    void nearbyDeviceCloseChangedHandler;
-    void errorHandler;
-    void connectedNearbyDeviceNames;
-    void sharingName;
-    id airDropClient;
-    id privacyRemoteDeviceNames;
-    id hasReceivedStateUpdate;
 }
 
 - (void);
@@ -36,7 +21,7 @@
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (_Bool);
+- (_Bool)q;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -48,13 +33,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)P;
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (id);
 - (void);
-- (long long);
+- (long long)b;
 - (id);
 - (id);
 - (CDUnknownBlockType)¯ÿÿÊ÷þÿ;
@@ -62,20 +47,7 @@
 - (void)ÀRW_pIeghHrzo_;
 
 // Remaining properties
-@property(nonatomic, copy) NSArray *connectedNearbyDeviceNames;
-@property(nonatomic) long long connectionState; // @synthesize connectionState;
-@property(nonatomic, copy) CDUnknownBlockType connectionStateChangedHandler;
-@property(nonatomic, copy) CDUnknownBlockType errorHandler;
-@property(nonatomic) _Bool hasPendingOrActiveConnections; // @synthesize hasPendingOrActiveConnections;
-@property(nonatomic) _Bool hasSeenPrivacyPrompt;
-@property(nonatomic) _Bool isLegacyMode; // @synthesize isLegacyMode;
-@property(nonatomic) _Bool isNearbyDeviceClose; // @synthesize isNearbyDeviceClose;
-@property(nonatomic, copy) CDUnknownBlockType nearbyDeviceCloseChangedHandler;
-@property(nonatomic, copy) NSString *nearbyDevicesDisplayName;
-@property(nonatomic, copy) CDUnknownBlockType pendingOrActiveConnectionsChangedHandler;
 @property(nonatomic, readonly) OS_dispatch_queue *queue; // @synthesize queue;
-@property(nonatomic, copy) NSString *sharingName;
-@property(nonatomic, copy) CDUnknownBlockType stateChangedHandler;
 
 @end
 

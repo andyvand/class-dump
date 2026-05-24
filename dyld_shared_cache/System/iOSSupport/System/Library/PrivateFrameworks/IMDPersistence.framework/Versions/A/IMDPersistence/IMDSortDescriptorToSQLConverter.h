@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface IMDSortDescriptorToSQLConverter
 {
     NSDictionary *_keyPathsToColumns;
-    NSString *_expression;
 }
 
 - (id);
@@ -21,7 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *expression; // @synthesize expression=_expression;
 @property(readonly, copy, nonatomic) NSDictionary *keyPathsToColumns; // @synthesize keyPathsToColumns=_keyPathsToColumns;
 
 @end

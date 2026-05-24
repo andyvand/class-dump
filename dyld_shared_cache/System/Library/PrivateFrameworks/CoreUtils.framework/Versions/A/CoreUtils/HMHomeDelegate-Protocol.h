@@ -5,5 +5,12 @@
 //
 
 @protocol HMHomeDelegate
+
+@optional
+- (void)9;
+- (void);
+- (void);
+- (void)6;
+- (void)ring",C,N,V_customShieldDetailText;
 @end
 

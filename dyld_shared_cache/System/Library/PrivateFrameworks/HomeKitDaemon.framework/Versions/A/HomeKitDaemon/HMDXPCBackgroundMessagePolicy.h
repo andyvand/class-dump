@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 - (_Bool);
-- (id);
+- (id)file at "%@":(_Bool)arg1 "%@";
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id)ublicPairingIdentity;
+- (id)publicPairingIdentity;
 
 // Remaining properties
 @property(readonly) _Bool requiresEntitlement; // @synthesize requiresEntitlement=_requiresEntitlement;

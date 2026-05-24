@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKAddPassMetadataPreview, PKPushProvisioningTarget;
+@class NSString, PKPushProvisioningTarget;
 
 @interface PKIdentityDocumentMetadata
 {
     PKPushProvisioningTarget *_provisioningTarget;
-    PKAddPassMetadataPreview *_underlyingPreview;
-    NSString *_serverEnvironmentIdentifier;
 }
 
 + (_Bool)î%1Â0@ù
@@ -30,30 +28,15 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)h;
 - (id);
 - (id);
-- (void);
+- (void)horizontalAccuracy;
 - (id);
 - (void)@"PKRemoteDevice"16;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *cardConfigurationIdentifier;
-@property(readonly, nonatomic) NSString *cardTemplateIdentifier;
 @property(readonly, nonatomic) NSString *credentialIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long documentType;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *issuingCountryCode;
-@property(retain, nonatomic) PKPushProvisioningTarget *provisioningTarget;
-@property(retain, nonatomic) NSString *serverEnvironmentIdentifier; // @synthesize serverEnvironmentIdentifier=_serverEnvironmentIdentifier;
-@property(readonly, nonatomic) NSString *sharingInstanceIdentifier;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) PKAddPassMetadataPreview *underlyingPreview;
 
 @end
 

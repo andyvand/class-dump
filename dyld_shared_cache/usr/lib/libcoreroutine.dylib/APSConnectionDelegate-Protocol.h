@@ -4,10 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class APSConnection;
+
 @protocol APSConnectionDelegate
 - (void)ifier;
 
 @optional
+- (void);
+- (void)nceInMS:(APSConnection *)arg1 %u is out of scope;
 - (void)1Â0@ù
 × ;
 - (void)outState, %@, LC FSM inState, %@, LC FSM outState, %@, points left, %lu, %@;

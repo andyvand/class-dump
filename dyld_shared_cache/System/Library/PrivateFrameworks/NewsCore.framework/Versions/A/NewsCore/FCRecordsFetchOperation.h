@@ -6,16 +6,11 @@
 
 #import <NewsCore/FCFetchOperation.h>
 
-@class FCInterestToken, FCRecordSource, NSArray, NSDictionary;
+@class FCRecordSource;
 
 @interface FCRecordsFetchOperation : FCFetchOperation
 {
     FCRecordSource *_recordSource;
-    NSArray *_recordIdentifiers;
-    NSArray *_ignoreCacheForRecordIDs;
-    NSDictionary *_holdTokens;
-    FCInterestToken *_fetchToken;
-    FCInterestToken *_refreshToken;
 }
 
 - (void)yCheckAccessToItem:] /* Error: Ran out of types for this method. */;

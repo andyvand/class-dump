@@ -4,37 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSString, _UIChildRemoteContentRegistry, _UIScenePresenter;
-@protocol _UIRemoteContentParent;
+@class _UIScenePresenter;
 
 __attribute__((visibility("hidden")))
 @interface _UISceneRelationshipManagementHostComponent
 {
     _UIScenePresenter *_prioritizedPresenter;
-    NSHashTable *_observers;
-    id <_UIRemoteContentParent> _parent;
-    _UIChildRemoteContentRegistry *_associatedRemoteContentRegistry;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)handleNotificationResponse:(id)arg1 userNotificationCenter:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
-- (void)etURL:(id)arg1 suggestedActions: /* Error: Ran out of types for this method. */;
-- (void)gController;
+- (void)webView:(id)arg1 actionsForLinkElement:withTargetURL:suggestedActions: /* Error: Ran out of types for this method. */;
+- (void)UIDocumentSharingController;
 - (void)v8r^Q1624^B56;
-- (void)roughStyleAttribute;
+- (void)StrikethroughStyleAttribute;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

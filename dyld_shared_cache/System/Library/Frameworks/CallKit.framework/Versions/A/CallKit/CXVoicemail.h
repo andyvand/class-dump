@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CXHandle, NSDate, NSURL, NSUUID;
+@class NSUUID;
 
 @interface CXVoicemail
 {
     _Bool _played;
-    _Bool _trashed;
-    NSUUID *_UUID;
-    CXHandle *_sender;
-    NSDate *_dateReceived;
-    NSURL *_audioFileURL;
 }
 
 + (_Bool);
@@ -30,26 +25,21 @@
 - (void);
 - (id);
 - (id);
+- (id);
+- (id){public}@;
+- (unsigned long long)p:Received ClientInfo action with no matching completion %{public}@ /* Error: Ran out of types for this method. */;
+- (_Bool)_homekitInitSignpostId;
+- (void)oupingType:(id)arg1 loadEntityBlock:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(copy, nonatomic) NSURL *audioFileURL; // @synthesize audioFileURL=_audioFileURL;
-@property(copy, nonatomic) NSDate *dateReceived; // @synthesize dateReceived=_dateReceived;
-@property(nonatomic, getter=isPlayed) _Bool played; // @synthesize played=_played;
-@property(copy, nonatomic) CXHandle *sender; // @synthesize sender=_sender;
-@property(nonatomic, getter=isTrashed) _Bool trashed; // @synthesize trashed=_trashed;
 
 @end
 

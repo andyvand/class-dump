@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CNUIFamilyMemberDowntimeContactSection
 {
     NSArray *_contactItems;
-    NSString *_title;
 }
 
 - (id);
 - (id);
 - (id);
-- (void)ntactLegacyIdentifier;
+- (void)anyContactLegacyIdentifier;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *contactItems; // @synthesize contactItems=_contactItems;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

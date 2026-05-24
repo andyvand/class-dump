@@ -4,33 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSString, NSTimeZone;
+@class NSLocale;
 
 @interface GEORegionInfo
 {
     NSLocale *_locale;
-    NSTimeZone *_timeZone;
-    unsigned int _type;
-    unsigned int _order;
-    unsigned long long _regionId;
-    unsigned long long _muid;
-    NSString *_isoCode;
-    NSString *_ianaTimeZoneName;
-    NSString *_name;
-    NSString *_localeName;
-    NSString *_format;
-    CDStruct_2c43369c _representativeCoordinate;
 }
 
 + (_Bool)@;
-- (CDStruct_c3b9c2ee);
+- (CDStruct_c3b9c2ee)supportedCustomPropertyNames;
+- (id)alertTonesDictionary;
+- (id);
+- (id)Check file permissions.;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)reateAudioLogDirectory];
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned int);
@@ -42,18 +31,7 @@
 - (id)×ÞÿF6hì4;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *format; // @synthesize format=_format;
-@property(readonly, nonatomic) NSString *ianaTimeZoneName; // @synthesize ianaTimeZoneName=_ianaTimeZoneName;
-@property(readonly, nonatomic) NSString *isoCode; // @synthesize isoCode=_isoCode;
-@property(readonly, nonatomic) NSLocale *locale;
-@property(readonly, nonatomic) NSString *localeName; // @synthesize localeName=_localeName;
 @property(readonly, nonatomic) unsigned long long muid; // @synthesize muid=_muid;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) unsigned int order; // @synthesize order=_order;
-@property(readonly, nonatomic) unsigned long long regionId; // @synthesize regionId=_regionId;
-@property(readonly, nonatomic) CDStruct_c3b9c2ee representativeCoordinate; // @synthesize representativeCoordinate=_representativeCoordinate;
-@property(readonly, nonatomic) NSTimeZone *timeZone;
-@property(readonly, nonatomic) unsigned int type; // @synthesize type=_type;
 
 @end
 

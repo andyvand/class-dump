@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObject, NSString, RTDarwinNotificationHelper, SMSessionStore;
+@class NSObject;
 @protocol OS_dispatch_queue, SMTriggerManagerProtocol;
 
 @interface SMTriggerSOS
 {
     id <SMTriggerManagerProtocol> sessionMonitorDelegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_sosEvents;
-    NSArray *_SOSNotifications;
-    SMSessionStore *_sessionStore;
-    RTDarwinNotificationHelper *_darwinSOSNotificationHelper;
 }
 
 - (void);
@@ -29,34 +24,19 @@
 - (void);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)holdAssertion:(id)arg1;
+- (void)ta=},R,V_identities;
+- (id)setValuesForKeysWithDictionary: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)entinel zone setup;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *SOSNotifications; // @synthesize SOSNotifications=_SOSNotifications;
-@property(retain, nonatomic) RTDarwinNotificationHelper *darwinSOSNotificationHelper; // @synthesize darwinSOSNotificationHelper=_darwinSOSNotificationHelper;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) __weak id <SMTriggerManagerProtocol> sessionMonitorDelegate; // @synthesize sessionMonitorDelegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<SMTriggerManagerProtocol>",?,W,N,VsessionMonitorDelegate
-
-@property(retain, nonatomic) SMSessionStore *sessionStore; // @synthesize sessionStore=_sessionStore;
-@property(retain, nonatomic) NSMutableDictionary *sosEvents; // @synthesize sosEvents=_sosEvents;
-@property(readonly) Class superclass;
 
 @end
 

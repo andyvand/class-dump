@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet;
-
 @interface WPZoneTrackingRequest
 {
     unsigned char _clientType;
-    _Bool _scanWhenScreenOff;
-    NSMutableSet *_zones;
-    CDStruct_9e3626a3 _scanningRates;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (CDStruct_9e3626a3);
+- (CDStruct_2ec95fd7);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)S#A�{;
 - (id);
 - (void);
 - (void);
@@ -31,9 +26,6 @@
 
 // Remaining properties
 @property unsigned char clientType; // @synthesize clientType=_clientType;
-@property _Bool scanWhenScreenOff; // @synthesize scanWhenScreenOff=_scanWhenScreenOff;
-@property CDStruct_9e3626a3 scanningRates; // @synthesize scanningRates=_scanningRates;
-@property(retain) NSMutableSet *zones; // @synthesize zones=_zones;
 
 @end
 

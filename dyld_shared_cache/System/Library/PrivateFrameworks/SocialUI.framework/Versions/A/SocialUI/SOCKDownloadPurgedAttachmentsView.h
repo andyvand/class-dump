@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSLayoutConstraint, NSStackView, NSTextField, NSView;
+@class NSTextField;
 
 @interface SOCKDownloadPurgedAttachmentsView
 {
     _Bool _iCloudLogoHidden;
-    _Bool _didScheduleTextUpdate;
-    unsigned long long _buttonState;
-    unsigned long long _countOfAttachments;
-    CDUnknownBlockType _downloadButtonPressedCallback;
-    NSTextField *_downloadDescriptionTextField;
-    NSButton *_downloadButton;
-    NSStackView *_stackView;
-    NSView *_imageView;
-    NSLayoutConstraint *_heightConstraint;
 }
 
 - (void);
@@ -42,10 +33,10 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)_currentPlaybackStyle;
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)Z;
 - (void);
 - (id);
 - (void);
@@ -53,16 +44,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long buttonState; // @synthesize buttonState=_buttonState;
-@property(nonatomic) unsigned long long countOfAttachments; // @synthesize countOfAttachments=_countOfAttachments;
-@property(nonatomic) _Bool didScheduleTextUpdate; // @synthesize didScheduleTextUpdate=_didScheduleTextUpdate;
-@property(retain, nonatomic) NSButton *downloadButton; // @synthesize downloadButton=_downloadButton;
-@property(copy, nonatomic) CDUnknownBlockType downloadButtonPressedCallback; // @synthesize downloadButtonPressedCallback=_downloadButtonPressedCallback;
 @property(retain, nonatomic) NSTextField *downloadDescriptionTextField; // @synthesize downloadDescriptionTextField=_downloadDescriptionTextField;
-@property(retain, nonatomic) NSLayoutConstraint *heightConstraint; // @synthesize heightConstraint=_heightConstraint;
-@property(nonatomic) _Bool iCloudLogoHidden; // @synthesize iCloudLogoHidden=_iCloudLogoHidden;
-@property(retain, nonatomic) NSView *imageView; // @synthesize imageView=_imageView;
-@property(retain, nonatomic) NSStackView *stackView; // @synthesize stackView=_stackView;
 
 @end
 

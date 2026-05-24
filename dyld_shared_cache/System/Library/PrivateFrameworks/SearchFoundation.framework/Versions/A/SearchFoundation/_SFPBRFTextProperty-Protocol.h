@@ -7,10 +7,10 @@
 @class NSArray, NSData;
 
 @protocol _SFPBRFTextProperty
+- (void);
+- (NSData *)l2Score;
 
 // Remaining properties
-@property(nonatomic) _Bool is_safe_for_logging;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *text_elements;
 @end
 

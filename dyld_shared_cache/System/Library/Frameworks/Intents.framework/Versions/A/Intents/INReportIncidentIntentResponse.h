@@ -6,48 +6,36 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class CLPlacemark, NSArray, NSString;
-
 @interface INReportIncidentIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)thumbnailImagesDictionary;
++ (int)getAllThumbnailsInfoForCacheAtURL:(long long)arg1 completionHandler: /* Error: Ran out of types for this method. */;
++ (long long)failedToGenerateThumbnailOfType:(int)arg1 forRequestWithUUID:(int)arg2 error:(_Bool)arg3;
++ (_Bool)downloadOrGenerateThumbnailAtURL:(long long)arg1;
 + (_Bool);
 - (void);
 - (void);
 - (id);
 - (long long);
-- (id);
-- (long long);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id);
+- (long long);
 - (id);
 - (void);
+- (id);
+- (id)gameWithBundleIdentifier:(id)arg1;
+- (id);
+- (void)d asset lock operation as it was never locked.;
 - (unsigned long long);
 - (id);
 - (id);
-- (id)nfirm: /* Error: Ran out of types for this method. */;
+- (id)setItemToConfirm: /* Error: Ran out of types for this method. */;
 - (long long)tTrigger",R,C;
 - (void);
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) CLPlacemark *location;
-@property(readonly) Class superclass;
-@property(copy) NSArray *supportedTypes;
-@property unsigned long long transportTypes;
 
 @end
 

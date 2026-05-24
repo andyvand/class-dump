@@ -11,14 +11,12 @@ __attribute__((visibility("hidden")))
 @interface _UICollectionViewLayoutInteractionStateModule
 {
     NSMutableDictionary *_processingCellsMap;
-    Class _invalidationContextClass;
-    UICollectionViewLayout<_UICollectionViewLayoutInteractionStateModuleHost> *_host;
 }
 
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)CCCCCCi^{__CFUUID}dd^{__CFError}^{__CFHTTPMessage}CQQ^{_mmcs_http_request_options}dd^{__CFHTTPMessage}C^{__CFData}C^{__sFILE}^{__sFILE}{Metricsinfo__SocketInfo={ProtobufCMessage=^{ProtobufCMessageDescriptor}I^{ProtobufCMessageUnknownField}}**Ii}^{mmcs_metrics_http_info}^?^?^?^?^?^?^?^?^?^v^v^{os_activity_s}^{voucher_s}^{mmcs_read_stream_pool}^{_mmcs_perform_target}^{__CFData}(?=^{mmcs_cfnetwork_http_context}^{mmcs_nsurlsession_http_context}^{mmcs_curl_http_context}^v)}16@0:(id)arg1 8;
+- (id)=;
 - (Class);
 - (id);
 - (unsigned long long);
@@ -26,9 +24,9 @@ __attribute__((visibility("hidden")))
 - (_Bool)Â0@ù
 × ;
 - (id)× ;
-- (_Bool)ressNonModifierKey:(id)arg1;
-- (id)dateTimes;
-- (_Bool)ntrolEventObservers;
+- (_Bool)modifierListenerDidPressNonModifierKey:(id)arg1;
+- (id)_updateTimes;
+- (_Bool)_remoteControlEventObservers;
 - (long long)e:(id)arg1;
 - (void)l\;
 - (void)es:(id)arg1 %@; effectiveInsets:(id)arg2 %@; safeAreaInsets:%@ /* Error: Ran out of types for this method. */;

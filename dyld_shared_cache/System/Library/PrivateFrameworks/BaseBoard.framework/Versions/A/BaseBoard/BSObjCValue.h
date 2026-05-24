@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface BSObjCValue
 {
     NSString *_unqualifiedEncoding;
-    Class _objectClass;
-    NSArray *_objectProtocols;
-    NSArray *_objectContainedClasses;
-    int _nullability;
-    long long _argumentIndex;
-    NSString *_argumentName;
-    _Bool _block;
-    BSObjCValue *_blockReturnValue;
-    NSArray *_blockArguments;
-    BOOL _type;
-    BOOL _typeQualifier;
-    unsigned char _typeQualifiers;
-    NSString *_encoding;
-    unsigned long long _size;
 }
 
 + (id);
@@ -40,11 +26,11 @@
 - (id);
 - (id);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)!;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -60,7 +46,7 @@
 - (id);
 - (long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (BOOL);
 - (_Bool);
 - (id);
@@ -69,14 +55,10 @@
 - (_Bool);
 - (id);
 - (Class);
-- (void);
+- (void)л;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *encoding; // @synthesize encoding=_encoding;
-@property(readonly, nonatomic) unsigned long long size; // @synthesize size=_size;
 @property(readonly, nonatomic) BOOL type; // @synthesize type=_type;
-@property(readonly, nonatomic) BOOL typeQualifier; // @synthesize typeQualifier=_typeQualifier;
-@property(readonly, nonatomic) unsigned char typeQualifiers; // @synthesize typeQualifiers=_typeQualifiers;
 
 @end
 

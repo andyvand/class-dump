@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSManagedObjectID, NSNumber, NSString;
+@class NSManagedObjectID;
 
 @protocol PFHistoryAnalyzerObjectState
+- (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) NSManagedObjectID *analyzedObjectID;
-@property(readonly, nonatomic) long long estimatedSizeInBytes;
-@property(readonly, nonatomic) NSString *finalChangeAuthor;
-@property(readonly, nonatomic) long long finalChangeType;
-@property(readonly, nonatomic) NSNumber *finalTransactionNumber;
-@property(readonly, nonatomic) long long originalChangeType;
-@property(readonly, nonatomic) NSNumber *originalTransactionNumber;
-@property(readonly, nonatomic) NSDictionary *tombstone;
 @end
 

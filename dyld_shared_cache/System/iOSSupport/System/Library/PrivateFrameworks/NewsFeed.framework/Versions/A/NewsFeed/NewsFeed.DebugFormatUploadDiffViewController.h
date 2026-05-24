@@ -7,17 +7,6 @@
 @interface NewsFeed.DebugFormatUploadDiffViewController
 {
     id diff;
-    id $__lazy_storage_$_navigationItemManager;
-    id editor;
-    id styler;
-    id statusView;
-    id remoteDiffView;
-    id remoteDiffGutterView;
-    id localDiffView;
-    id localDiffGutterView;
-    id changeSetLabel;
-    id $__lazy_storage_$_changeSetBarButtonItem;
-    id $__lazy_storage_$_dismissBarButtonItem;
 }
 
 - (void);

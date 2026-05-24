@@ -4,28 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL, NUColorSpace, NUVersion;
-@protocol NUFlexRangeProperties, NURAWImageProperties, NUSemanticStyleProperties;
+@class NSURL;
 
 @protocol NUImageProperties
+- (long long);
+- (_Bool);
+- (NSURL *);
 - (_Bool)¨(;
 
 // Remaining properties
-@property(readonly) long long alphaInfo;
-@property(readonly) NUColorSpace *colorSpace;
-@property(readonly) long long componentInfo;
-@property(readonly) float contentHeadroom;
-@property(readonly) NSString *fileUTI;
-@property(readonly) id <NUFlexRangeProperties> flexRangeProperties;
-@property(readonly) double gainMapHeadroom;
-@property(readonly) _Bool hasGainMap;
-@property(readonly) _Bool isHDR;
-@property(readonly) NSDictionary *metadata;
-@property(readonly) NUVersion *meteorPlusGainMapVersion;
-@property(readonly) long long orientation;
-@property(readonly) id <NURAWImageProperties> rawProperties;
-@property(readonly) id <NUSemanticStyleProperties> semanticStyleProperties;
-@property(readonly) CDStruct_912cb5d2 size;
 @property(readonly) NSURL *url;
 @end
 

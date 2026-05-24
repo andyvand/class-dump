@@ -9,7 +9,6 @@
 @interface CKDPQueryRetrieveResponse
 {
     NSData *_continuationMarker;
-    NSMutableArray *_queryResults;
 }
 
 + (Class);
@@ -17,16 +16,16 @@
 - (void);
 - (id);
 - (void);
+- (void)r";
 - (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)%{ptr}] Device already activated with features 0x%llx;
+- (unsigned long long)resulted in negative value.;
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)Persistence addAddresses:toSender:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -34,8 +33,6 @@
 - (void)CKDResetUserPrivacySettingsOperation;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *continuationMarker; // @synthesize continuationMarker=_continuationMarker;
-@property(readonly, nonatomic) _Bool hasContinuationMarker;
 @property(retain, nonatomic) NSMutableArray *queryResults; // @synthesize queryResults=_queryResults;
 
 @end

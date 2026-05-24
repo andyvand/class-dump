@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)eapBytesDelta;
++ (_Bool)heapBytesDelta;
 - (_Bool);
 - (_Bool);
 - (_Bool);

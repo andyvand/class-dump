@@ -9,28 +9,19 @@
 @interface WFTTSSpokenVariant
 {
     NSString *_displayString;
-    NSString *_spokenString;
 }
 
 + (id);
-- (id);
+- (id)�P3|;
 - (id);
 - (id);
 - (_Bool);
 - (void)
 × ;
-- (id)etionBlock;
+- (id)stepCompletionBlock;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSString *displayString; // @synthesize displayString=_displayString;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *spokenString; // @synthesize spokenString=_spokenString;
-@property(readonly) Class superclass;
 
 @end
 

@@ -13,13 +13,12 @@
 
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)sharedInstance;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSData *sharePData; // @synthesize sharePData=_sharePData;
 
 @end
 

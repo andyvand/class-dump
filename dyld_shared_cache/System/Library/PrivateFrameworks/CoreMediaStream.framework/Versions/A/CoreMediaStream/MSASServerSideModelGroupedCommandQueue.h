@@ -13,22 +13,22 @@
     MSASEnqueuedCommand *_lastEnqueuedCommand;
 }
 
-+ (CDUnknownBlockType);
++ (CDUnknownBlockType)to be enabled for non-doorbell, non-motion characteristic;
+- (void);
 - (void);
 - (void);
 - (void);
+- (void)h;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void)TEXT segment not start of mach-o;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)deleteInteractionsWithIdentifiers:bundleID:protectionClass:client: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ÔA÷ð!¼Dù4Ð1Â0@ù
 × ;

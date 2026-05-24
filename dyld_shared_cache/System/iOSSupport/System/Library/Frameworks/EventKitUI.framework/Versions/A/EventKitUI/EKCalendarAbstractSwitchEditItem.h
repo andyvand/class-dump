@@ -6,49 +6,40 @@
 
 #import <EventKitUI/EKCalendarEditItem.h>
 
-@class NSMutableArray, UILabel, UISwitch;
+@class UILabel;
 
 @interface EKCalendarAbstractSwitchEditItem : EKCalendarEditItem
 {
     UILabel *_descriptionLabel;
-    _Bool _underlyingCalendarState;
-    _Bool _switchState;
-    _Bool _allowEventAlerts;
-    NSMutableArray *_cells;
-    UISwitch *_toggleSwitch;
 }
 
 - (_Bool);
 - (id);
+- (_Bool)s;
+- (void);
+- (void);
+- (void);
+- (void)&s;
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
-- (id);
+- (id)s;
+- (_Bool);
+- (void)(s;
+- (id)U)s;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)g";
 - (unsigned long long);
-- (void)ivateEventSharedToMe;
+- (void)isPrivateEventSharedToMe;
 
 // Remaining properties
 @property(nonatomic) _Bool allowEventAlerts; // @synthesize allowEventAlerts=_allowEventAlerts;
-@property(retain, nonatomic) NSMutableArray *cells; // @synthesize cells=_cells;
-@property(nonatomic) _Bool switchState; // @synthesize switchState=_switchState;
-@property(retain, nonatomic) UISwitch *toggleSwitch; // @synthesize toggleSwitch=_toggleSwitch;
-@property(nonatomic) _Bool underlyingCalendarState; // @synthesize underlyingCalendarState=_underlyingCalendarState;
 
 @end
 

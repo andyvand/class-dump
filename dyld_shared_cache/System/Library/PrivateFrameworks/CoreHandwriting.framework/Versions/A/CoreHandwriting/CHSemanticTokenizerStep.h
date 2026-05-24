@@ -6,12 +6,9 @@
 
 #import <CoreHandwriting/CHPostprocessingStep.h>
 
-@class CHStringOVSChecker;
-
 @interface CHSemanticTokenizerStep : CHPostprocessingStep
 {
     ObjectRef_49a81d6f _wordLanguageModel;
-    CHStringOVSChecker *_ovsStringChecker;
 }
 
 - (id);

@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SATimestamp;
-
 @interface SAMemoryPressureEvent
 {
     unsigned char _memoryStatusLevel;
-    SATimestamp *_timestamp;
-    unsigned long long _availableBytes;
 }
 
 + (id);
-+ (id);
++ (id)accessibilityExpanded;
 - (unsigned long long);
-- (id);
+- (id)HAPAccessoryServerDelegate;
 - (_Bool);
 - (unsigned long long);
 - (void);
@@ -25,16 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long availableBytes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) unsigned char memoryStatusLevel;
-@property(readonly) Class superclass;
-@property(readonly) SATimestamp *timestamp;
 
 @end
 

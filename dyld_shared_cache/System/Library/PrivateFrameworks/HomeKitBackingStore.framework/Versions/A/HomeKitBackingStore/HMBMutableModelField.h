@@ -6,20 +6,14 @@
 
 #import <HomeKitBackingStore/HMBModelField.h>
 
-@class HMFVersion;
-
 @interface HMBMutableModelField : HMBModelField
 {
 }
 
-- (id);
+- (id)activities;
 
 // Remaining properties
-@property(retain, nonatomic) id defaultValue; // @dynamic defaultValue;
-@property(nonatomic) unsigned long long loggingVisibility; // @dynamic loggingVisibility;
 @property(nonatomic, getter=isOptional) _Bool optional; // @dynamic optional;
-@property(copy, nonatomic) HMFVersion *readonlyVersion; // @dynamic readonlyVersion;
-@property(copy, nonatomic) HMFVersion *unavailableVersion; // @dynamic unavailableVersion;
 
 @end
 

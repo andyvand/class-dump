@@ -4,58 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KGElementIdentifierSet, MAGraphReference, NSSet;
-@protocol MAGraphProxy;
+@class MAGraphReference;
 
 @interface MAElementCollection
 {
     MAGraphReference *_graphReference;
-    KGElementIdentifierSet *_elementIdentifiers;
 }
 
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
+- (id);
 - (id);
 - (id);
+- (void)__auth_stubs;
 - (id);
-- (void);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)decodeFrame: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (id)øN;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) KGElementIdentifierSet *elementIdentifiers; // @synthesize elementIdentifiers=_elementIdentifiers;
-@property(readonly) id <MAGraphProxy> graph;
 @property(readonly) MAGraphReference *graphReference; // @synthesize graphReference=_graphReference;
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(readonly, nonatomic) NSSet *labels;
 
 @end
 

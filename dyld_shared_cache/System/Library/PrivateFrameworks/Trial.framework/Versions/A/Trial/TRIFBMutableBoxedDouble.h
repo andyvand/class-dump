@@ -9,8 +9,6 @@
 @interface TRIFBMutableBoxedDouble : TRIFBBoxedDouble
 {
     struct BoxedDouble *_ptr;
-    _Bool _deleteWhenDone;
-    _Bool _allowMutation;
 }
 
 + (id);

@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMCPartition, NSMapTable, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMCRedirector
 {
     struct hmf_unfair_data_lock_s _lock;
-    NSString *_label;
-    NSMapTable *_insertClass;
-    NSMapTable *_updateClass;
-    NSMapTable *_updateModelID;
-    NSMapTable *_deleteClass;
-    NSMapTable *_deleteModelID;
-    HMCPartition *_partition;
 }
 
 + (id)_ÿ;
@@ -31,14 +24,7 @@ __attribute__((visibility("hidden")))
 - (void)=;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) NSString *label; // @synthesize label=_label;
-@property(readonly) Class superclass;
 
 @end
 

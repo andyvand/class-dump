@@ -6,8 +6,6 @@
 
 #import <SAObjects/SAStartRequest.h>
 
-@class NSString;
-
 @interface SAUIGetResponseAlternatives : SAStartRequest
 {
 }
@@ -17,7 +15,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool locallyResolved;
-@property(copy, nonatomic) NSString *requestId;
 
 @end
 

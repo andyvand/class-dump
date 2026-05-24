@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class HMEPersistentConnectionServer, NSArray, NSSet, NSString;
 
 @protocol HMEPersistentConnectionServerDataSource
+- (NSSet *)postEvent:(HMEPersistentConnectionServer *)arg1 atStart:(NSString *)arg2;
 - (NSArray *)× ;
 @end
 

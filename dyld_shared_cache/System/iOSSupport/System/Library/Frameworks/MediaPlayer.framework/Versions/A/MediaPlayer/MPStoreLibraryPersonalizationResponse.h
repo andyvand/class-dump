@@ -6,33 +6,24 @@
 
 #import <MediaPlayer/MPModelResponse.h>
 
-@class MPSectionedCollection, NSString;
+@class MPSectionedCollection;
 
 @interface MPStoreLibraryPersonalizationResponse : MPModelResponse
 {
     MPSectionedCollection *_representedObjectResults;
-    MPModelResponse *_libraryResponse;
 }
 
-- (void);
-- (void);
+- (void)q	;
+- (void)U;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)_pktable;
 - (void);
-- (void)edItemPropertyVolumeNormalizationOfEntity:withDefaultValue: /* Error: Ran out of types for this method. */;
+- (void)_adjustedItemPropertyVolumeNormalizationOfEntity:withDefaultValue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MPModelResponse *libraryResponse; // @synthesize libraryResponse=_libraryResponse;
 @property(retain, nonatomic) MPSectionedCollection *representedObjectResults; // @synthesize representedObjectResults=_representedObjectResults;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface WiFiAwareDataSessionIssueReport
 {
     NSNumber *_rtpSequenceNumber;
-    NSNumber *_rtpStartTime;
 }
 
 + (_Bool);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *rtpSequenceNumber; // @synthesize rtpSequenceNumber=_rtpSequenceNumber;
-@property(copy, nonatomic) NSNumber *rtpStartTime; // @synthesize rtpStartTime=_rtpStartTime;
 
 @end
 

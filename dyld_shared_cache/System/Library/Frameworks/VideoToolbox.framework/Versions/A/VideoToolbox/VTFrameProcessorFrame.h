@@ -9,19 +9,16 @@
 @interface VTFrameProcessorFrame
 {
     VEFrame *_veFrame;
-    struct __CVBuffer *_buffer;
-    CDStruct_1b6d18a9 _presentationTimeStamp;
 }
 
 - (id);
 - (id);
-- (void);
-- (CDStruct_1b6d18a9);
+- (void)t;
+- (CDStruct_198678f7)T;
 - (struct __CVBuffer *);
 
 // Remaining properties
 @property(readonly, nonatomic) struct __CVBuffer *buffer; // @synthesize buffer=_buffer;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 presentationTimeStamp; // @synthesize presentationTimeStamp=_presentationTimeStamp;
 
 @end
 

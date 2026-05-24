@@ -25,19 +25,19 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)_CNDHostExtensionContext;
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)P;
+- (_Bool)5;
 - (_Bool)1Â0@ù
 × ;
 - (_Bool)× ;
-- (id)w:(id)arg1;
-- (_Bool)tion;
-- (_Bool)cord;
+- (id)initWithTimeIntervalSinceNow:(id)arg1;
+- (_Bool)_eventNameRecordsCompletion;
+- (_Bool)PPMutableTopicRecord;
 - (_Bool)un immediately for key %@ (handlers:(id *)arg1 1);
 - (_Bool)@"EKSequenceToken"12@"NSArray"20;
-- (void)c0;
+- (void)sup_cc0;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *clientIdentifier;

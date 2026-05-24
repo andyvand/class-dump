@@ -7,9 +7,6 @@
 @interface RTLearnedLocationStoreMetrics
 {
     unsigned long long _visitCountDevice;
-    unsigned long long _visitCountTotal;
-    unsigned long long _placeCountDevice;
-    unsigned long long _placeCountTotal;
 }
 
 - (unsigned long long);
@@ -22,10 +19,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long placeCountDevice; // @synthesize placeCountDevice=_placeCountDevice;
-@property(nonatomic) unsigned long long placeCountTotal; // @synthesize placeCountTotal=_placeCountTotal;
 @property(nonatomic) unsigned long long visitCountDevice; // @synthesize visitCountDevice=_visitCountDevice;
-@property(nonatomic) unsigned long long visitCountTotal; // @synthesize visitCountTotal=_visitCountTotal;
 
 @end
 

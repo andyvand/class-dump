@@ -6,16 +6,16 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface SACreateVOXListItem : AceObject
 {
 }
 
 + (id);
-+ (id);
++ (id)7;
 - (id);
-- (id);
+- (id)$;
 - (void);
 - (void);
 - (void);
@@ -24,16 +24,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSArray *displayHints;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *speakableInSequence;
-@property(copy, nonatomic) NSString *speakableStandalone;
-@property(readonly) Class superclass;
 
 @end
 

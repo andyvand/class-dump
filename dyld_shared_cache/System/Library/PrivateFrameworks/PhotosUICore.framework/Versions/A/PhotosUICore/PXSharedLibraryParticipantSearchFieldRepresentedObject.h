@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSString;
+@class CNContact;
 
 @interface PXSharedLibraryParticipantSearchFieldRepresentedObject
 {
     CNContact *_contact;
-    NSString *_address;
-    long long _kind;
 }
 
 + (_Bool)$;
@@ -23,9 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *address; // @synthesize address=_address;
 @property(readonly, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, nonatomic) long long kind; // @synthesize kind=_kind;
 
 @end
 

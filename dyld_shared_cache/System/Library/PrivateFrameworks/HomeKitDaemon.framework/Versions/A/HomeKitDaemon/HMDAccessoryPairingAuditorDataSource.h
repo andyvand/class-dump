@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotificationCenter, NSString;
-@protocol HAPKeyStore;
-
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryPairingAuditorDataSource
 {
@@ -19,18 +16,7 @@ __attribute__((visibility("hidden")))
 - (id)G:ÿåýLâA /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isDesignatedFMFDevice;
-@property(readonly, nonatomic) _Bool isHH2KeyRollingEnabled;
 @property(readonly, nonatomic) _Bool isiOSDevice;
-@property(readonly, nonatomic) id <HAPKeyStore> keyStore;
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter;
-@property(readonly) Class superclass;
 
 @end
 

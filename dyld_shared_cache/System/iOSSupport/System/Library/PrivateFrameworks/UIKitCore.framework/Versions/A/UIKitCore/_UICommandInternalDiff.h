@@ -4,38 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSMutableSet, NSSet;
+@class NSMutableSet, NSSet;
 
 __attribute__((visibility("hidden")))
 @interface _UICommandInternalDiff
 {
     NSMutableSet *_menuDeletes;
-    NSMutableDictionary *_itemDeletes;
-    NSMutableDictionary *_inserts;
-    NSMutableDictionary *_replacements;
 }
 
+- (void)initWithRequestID:(id)arg1 pushToken:(id)arg2 fromIdentifier:(id)arg3 toIdentifier: /* Error: Ran out of types for this method. */;
+- (id)blocklistObserver;
+- (id)_storeSpamCompletionBlock:forMessageGUID: /* Error: Ran out of types for this method. */;
+- (void)_postHubbleDownloadFailedForTransfer:(id)arg1 error:(id)arg2;
+- (void)_populateAttachmentInfo:(id)arg1 fromFileTransferGUIDs:(id)arg2 transferInfoProvider:(id)arg3 completionBlock:(id)arg4;
+- (void)_pipelineResources;
 - (void);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)oredDeviceUUIDs count:(id)arg1 %d;
+- (id)r message:(id)arg1 %@;
+- (id)ocal-message-delivered;
 - (id);
 - (id)!xFùÑ[Ð1Â0@ù
 × ;
 - (void)HXþ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *inserts; // @synthesize inserts=_inserts;
-@property(readonly, nonatomic) NSDictionary *itemDeletes; // @synthesize itemDeletes=_itemDeletes;
 @property(readonly, nonatomic) NSSet *menuDeletes; // @synthesize menuDeletes=_menuDeletes;
-@property(readonly, nonatomic) NSDictionary *replacements; // @synthesize replacements=_replacements;
 
 @end
 

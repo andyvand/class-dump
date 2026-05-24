@@ -6,7 +6,7 @@
 
 #import <HomeKit/HMCameraControl.h>
 
-@class HMCharacteristic, _HMCameraSettingsControl;
+@class _HMCameraSettingsControl;
 
 @interface HMCameraSettingsControl : HMCameraControl
 {
@@ -16,28 +16,20 @@
 - (id);
 - (id);
 - (void);
+- (id){;
+- (id)};
+- (id);
+- (id)#;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)'
+;
 - (void)ü;
 
 // Remaining properties
-@property(readonly, nonatomic) HMCharacteristic *currentHorizontalTilt;
-@property(readonly, nonatomic) HMCharacteristic *currentVerticalTilt;
-@property(readonly, nonatomic) HMCharacteristic *digitalZoom;
-@property(readonly, nonatomic) HMCharacteristic *imageMirroring;
-@property(readonly, nonatomic) HMCharacteristic *imageRotation;
-@property(readonly, nonatomic) HMCharacteristic *nightVision;
-@property(readonly, nonatomic) HMCharacteristic *opticalZoom;
 @property(retain, nonatomic) _HMCameraSettingsControl *settingsControl; // @synthesize settingsControl=_settingsControl;
-@property(readonly, nonatomic) HMCharacteristic *targetHorizontalTilt;
-@property(readonly, nonatomic) HMCharacteristic *targetVerticalTilt;
 
 @end
 

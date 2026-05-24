@@ -4,32 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface PPNamedEntityMetadata
 {
     unsigned short _impressionCount;
-    unsigned short _occurrencesInSource;
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id)bounds;
+- (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)cacheActivationMatrix:(id)arg1 strokeIndexMapping:strokeEndings:principalPoints:drawing:recognitionEngineCachingKey: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (unsigned short);
 - (id);
 - (id);
-- (id);
+- (id)ibswift_Builtin_float.dylib;
 - (unsigned short);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(readonly, nonatomic) unsigned short impressionCount; // @synthesize impressionCount=_impressionCount;
-@property(readonly, nonatomic) unsigned short occurrencesInSource; // @synthesize occurrencesInSource=_occurrencesInSource;
 
 @end
 

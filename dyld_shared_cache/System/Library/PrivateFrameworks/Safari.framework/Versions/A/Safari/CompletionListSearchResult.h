@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SFSearchResult, WBSQuerySuggestion;
+@class NSString, SFSearchResult;
 
 __attribute__((visibility("hidden")))
 @interface CompletionListSearchResult
 {
     SFSearchResult *_sfSearchResultValue;
-    NSString *_parsecDomainIdentifier;
-    long long _parsecQueryID;
 }
 
 - (id);
@@ -23,21 +21,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long engagementDestination;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *parsecDomainIdentifier; // @synthesize parsecDomainIdentifier=_parsecDomainIdentifier;
-@property(nonatomic) long long parsecQueryID; // @synthesize parsecQueryID=_parsecQueryID;
-@property(readonly, nonatomic) SFSearchResult *sfSearchResultValue; // @synthesize sfSearchResultValue=_sfSearchResultValue;
-@property(retain, nonatomic) WBSQuerySuggestion *siriSuggestion;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"WBSQuerySuggestion",?,&,N
-
-@property(readonly) Class superclass;
 
 @end
 

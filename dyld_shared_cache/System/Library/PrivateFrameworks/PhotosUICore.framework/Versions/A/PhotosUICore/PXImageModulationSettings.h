@@ -6,37 +6,12 @@
 
 #import <PhotosUICore/PXSettings.h>
 
-@class NSString;
-
 @interface PXImageModulationSettings : PXSettings
 {
     _Bool _enabled;
-    _Bool _gainBoostEnabled;
-    _Bool _showGainMapBorder;
-    _Bool _animateGainMapAppearance;
-    _Bool _useThresholdForVideos;
-    _Bool _forceCurrentScreenSupportsHDR;
-    _Bool _usePreferredDynamicRangeAPI;
-    _Bool _enableHeadroomMonitoring;
-    long long _filterType;
-    long long _HDRConsideration;
-    double _gainMapAnimationDuration;
-    NSString *_gainMapAnimationTimingFunction;
-    double _gainMapAnimationActivationThreshold;
-    double _HDRModulationIntensity;
-    double _SDRModulationIntensity;
-    double _videoComplementModulationIntensity;
-    long long _EDRHeadroomRequestScheme;
-    long long _EDRHeadroomUsageScheme;
-    double _manualEDRHeadroomRequestStops;
-    double _EDRHeadroomRequestHDRThreshold;
-    double _EDRHeadroomRequestSustainDuration;
-    double _lowEDRRequestedHeadroomStops;
-    double _highEDRRequestedHeadroomStops;
-    double _deviceMaximumEDRHeadroomStops;
 }
 
-+ (id);
++ (id)setOrderedComponentIdentifiers: /* Error: Ran out of types for this method. */;
 + (id);
 - (double);
 - (_Bool);
@@ -55,7 +30,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (void);
 - (void);
@@ -82,39 +57,16 @@
 - (long long);
 - (double);
 - (double);
-- (id);
+- (id)sts,NewsSubscription,NewsSubscriptionTests,NewsAnalytics,NewsAnalyticsTests,NewsPersonalization,NewsPersonalizationTests,NewsDemo,NewsEngagement,NewsEngagementTests,TodayFeedConfigDecoder,NewsScoringService,NewsUserEvents,NewsUserEventsTests,NewsUI2,NewsUI2Tests,NewsFeed,NewsFeedTests,NewsKit,NewsKitTests,NewsKitDemo,NewsLiveActivitiesCore,NewsLiveActivitiesCoreTests,NewsArticles,NewsArticlesTests,NewsAds,NewsAdsTests,NewsFormat,NewsFormatTests,NewsSubscription,NewsSubscriptionTests,NewsAnalytics,NewsAnalyticsTests,NewsTag,NewsToday2,NewsTodayIntents,NewsEngagement,NewsEngagementTests,NewsEngagementExtension,NewsDiagnosticExtension,NewsScoringService,NewsArticles,NewsArticlesTests,NewsAds,NewsAdsTests,NewsFeed,NewsFeedTests,Stocks,StocksAnalytics,StocksAnalyticsTests,StocksCore,StocksCoreTests,StocksTests,StocksToday,StocksUI,StocksUITests,NewsSubscription,StocksDiagnosticExtension,StocksWidget,StocksPersonalization,Weather,WeatherTests;
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (long long)e;
-- (void)ShelfPlaceholderView;
+- (long long)_avPlayerCurrentTimeNeedsUpdate;
+- (void)LemonadeShelfPlaceholderView;
 
 // Remaining properties
-@property(nonatomic) double EDRHeadroomRequestHDRThreshold; // @synthesize EDRHeadroomRequestHDRThreshold=_EDRHeadroomRequestHDRThreshold;
-@property(nonatomic) long long EDRHeadroomRequestScheme; // @synthesize EDRHeadroomRequestScheme=_EDRHeadroomRequestScheme;
-@property(nonatomic) double EDRHeadroomRequestSustainDuration; // @synthesize EDRHeadroomRequestSustainDuration=_EDRHeadroomRequestSustainDuration;
-@property(nonatomic) long long EDRHeadroomUsageScheme; // @synthesize EDRHeadroomUsageScheme=_EDRHeadroomUsageScheme;
-@property(nonatomic) long long HDRConsideration; // @synthesize HDRConsideration=_HDRConsideration;
-@property(nonatomic) double HDRModulationIntensity; // @synthesize HDRModulationIntensity=_HDRModulationIntensity;
-@property(nonatomic) double SDRModulationIntensity; // @synthesize SDRModulationIntensity=_SDRModulationIntensity;
-@property(nonatomic) _Bool animateGainMapAppearance; // @synthesize animateGainMapAppearance=_animateGainMapAppearance;
-@property(nonatomic) double deviceMaximumEDRHeadroomStops; // @synthesize deviceMaximumEDRHeadroomStops=_deviceMaximumEDRHeadroomStops;
-@property(nonatomic) _Bool enableHeadroomMonitoring; // @synthesize enableHeadroomMonitoring=_enableHeadroomMonitoring;
 @property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(nonatomic) long long filterType; // @synthesize filterType=_filterType;
-@property(nonatomic) _Bool forceCurrentScreenSupportsHDR; // @synthesize forceCurrentScreenSupportsHDR=_forceCurrentScreenSupportsHDR;
-@property(nonatomic) _Bool gainBoostEnabled; // @synthesize gainBoostEnabled=_gainBoostEnabled;
-@property(nonatomic) double gainMapAnimationActivationThreshold; // @synthesize gainMapAnimationActivationThreshold=_gainMapAnimationActivationThreshold;
-@property(nonatomic) double gainMapAnimationDuration; // @synthesize gainMapAnimationDuration=_gainMapAnimationDuration;
-@property(copy, nonatomic) NSString *gainMapAnimationTimingFunction; // @synthesize gainMapAnimationTimingFunction=_gainMapAnimationTimingFunction;
-@property(nonatomic) double highEDRRequestedHeadroomStops; // @synthesize highEDRRequestedHeadroomStops=_highEDRRequestedHeadroomStops;
-@property(nonatomic) double lowEDRRequestedHeadroomStops; // @synthesize lowEDRRequestedHeadroomStops=_lowEDRRequestedHeadroomStops;
-@property(nonatomic) double manualEDRHeadroomRequestStops; // @synthesize manualEDRHeadroomRequestStops=_manualEDRHeadroomRequestStops;
-@property(nonatomic) _Bool showGainMapBorder; // @synthesize showGainMapBorder=_showGainMapBorder;
-@property(nonatomic) _Bool usePreferredDynamicRangeAPI; // @synthesize usePreferredDynamicRangeAPI=_usePreferredDynamicRangeAPI;
-@property(nonatomic) _Bool useThresholdForVideos; // @synthesize useThresholdForVideos=_useThresholdForVideos;
-@property(nonatomic) double videoComplementModulationIntensity; // @synthesize videoComplementModulationIntensity=_videoComplementModulationIntensity;
 
 @end
 

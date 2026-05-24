@@ -9,7 +9,6 @@
 @interface BSProcessDeathWatcher
 {
     BSDispatchSource *_source;
-    CDUnknownBlockType _deathHandler;
 }
 
 - (void);

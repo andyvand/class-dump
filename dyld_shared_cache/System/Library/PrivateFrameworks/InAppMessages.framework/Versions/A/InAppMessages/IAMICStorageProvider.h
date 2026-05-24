@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol IAMMessageEntryProvider, IAMMessageMetadataStorage, IAMPropertyStorage;
+@protocol IAMMessageEntryProvider;
 
 @interface IAMICStorageProvider
 {
     id <IAMMessageEntryProvider> _messageEntryProvider;
-    id <IAMMessageMetadataStorage> _messageMetadataStorage;
-    id <IAMPropertyStorage> _propertyStorage;
 }
 
 - (id);
@@ -20,8 +18,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <IAMMessageEntryProvider> messageEntryProvider; // @synthesize messageEntryProvider=_messageEntryProvider;
-@property(readonly, nonatomic) id <IAMMessageMetadataStorage> messageMetadataStorage; // @synthesize messageMetadataStorage=_messageMetadataStorage;
-@property(readonly, nonatomic) id <IAMPropertyStorage> propertyStorage; // @synthesize propertyStorage=_propertyStorage;
 
 @end
 

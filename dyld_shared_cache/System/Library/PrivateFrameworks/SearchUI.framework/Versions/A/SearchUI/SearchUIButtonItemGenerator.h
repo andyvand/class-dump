@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol SearchUIButtonItemGeneratorViewDelegate, SearchUIFeedbackDelegate;
+@protocol SearchUIButtonItemGeneratorViewDelegate;
 
 @interface SearchUIButtonItemGenerator
 {
     id <SearchUIButtonItemGeneratorViewDelegate> _delegate;
-    id <SearchUIFeedbackDelegate> _feedbackDelegate;
 }
 
 + (_Bool);
 - (void);
-- (id);
+- (id)T;
 - (void);
 - (id);
-- (void);
+- (void)ber=II}28@36;
 - (void);
 
 // Remaining properties
 @property __weak id <SearchUIButtonItemGeneratorViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property __weak id <SearchUIFeedbackDelegate> feedbackDelegate; // @synthesize feedbackDelegate=_feedbackDelegate;
 
 @end
 

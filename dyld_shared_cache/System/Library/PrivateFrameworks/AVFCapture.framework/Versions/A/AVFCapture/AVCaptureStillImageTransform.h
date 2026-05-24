@@ -8,16 +8,14 @@ __attribute__((visibility("hidden")))
 @interface AVCaptureStillImageTransform
 {
     struct opaqueCMSampleBuffer *_sourceBuffer;
-    struct opaqueCMSampleBuffer *_resultBuffer;
-    int _status;
 }
 
-+ (id);
-- (struct opaqueCMSampleBuffer *);
-- (void);
-- (void);
-- (struct opaqueCMSampleBuffer *);
-- (void);
++ (id)B;
+- (struct opaqueCMSampleBuffer *)dateFormatter;
+- (void)bindDoubleValue:(struct opaqueCMSampleBuffer *)arg1 toParameterNamed: /* Error: Ran out of types for this method. */;
+- (void)attributedSubstringFromRange:(struct opaqueCMSampleBuffer *)arg1;
+- (struct opaqueCMSampleBuffer *)_bindNoCopyDataValue:toParameterNamed: /* Error: Ran out of types for this method. */;
+- (void)@?44;
 - (void);
 - (int);
 

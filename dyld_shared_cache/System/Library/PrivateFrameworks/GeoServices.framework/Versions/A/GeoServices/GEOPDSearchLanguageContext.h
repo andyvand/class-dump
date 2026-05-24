@@ -4,39 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchLanguageContext
 {
     PBDataReader *_reader;
-    NSString *_deviceDisplayLanguage;
-    NSString *_deviceKeyboardLanguage;
-    NSString *_deviceSpokenLanguage;
-    NSMutableArray *_displayLanguages;
-    NSMutableArray *_spokenLanguages;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_deviceDisplayLanguage:1;
-        unsigned int read_deviceKeyboardLanguage:1;
-        unsigned int read_deviceSpokenLanguage:1;
-        unsigned int read_displayLanguages:1;
-        unsigned int read_spokenLanguages:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
-- (unsigned long long);
+- (void)rototypeTools.domainserver;
+- (id)contextForRemoraVoiceTriggerWithDeviceId: /* Error: Ran out of types for this method. */;
+- (unsigned long long)a@9;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)alidatorVersion"b1"read_unknownFields"b1"read_licensePlate"b1"read_powerTypeKey"b1"read_vehicleTypeKey"b1"read_versionId"b1"wrote_anyField"b1};
-- (id)ocationSecondQueryToken;
+- (id)_prefixTokenMatchLocationSecondQueryToken;
 - (id)$<(X*ð+,;
 - (void);
 

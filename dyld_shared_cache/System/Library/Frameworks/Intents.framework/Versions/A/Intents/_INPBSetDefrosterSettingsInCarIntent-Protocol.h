@@ -7,16 +7,12 @@
 @class _INPBDataString, _INPBIntentMetadata;
 
 @protocol _INPBSetDefrosterSettingsInCarIntent
-- (_Bool)pSelectionEnabled:appInferred:audioSearchResults:privateMediaIntentData:appSelectionSignalsEnabled:appSelectionSignalsFrequencyDenominator:shouldSuppressCommonWholeHouseAudioRoutes: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)V_suspendHandler;
+- (_INPBIntentMetadata *)TMBackupDataSource;
+- (_Bool)initWithAppSelectionEnabled:appInferred:audioSearchResults:privateMediaIntentData:appSelectionSignalsEnabled:appSelectionSignalsFrequencyDenominator:shouldSuppressCommonWholeHouseAudioRoutes: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDataString *carName;
-@property(nonatomic) int defroster;
-@property(nonatomic) _Bool enable;
-@property(readonly, nonatomic) _Bool hasCarName;
-@property(nonatomic) _Bool hasDefroster;
-@property(nonatomic) _Bool hasEnable;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
 @end
 

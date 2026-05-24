@@ -9,10 +9,10 @@
     id parent;
 }
 
+- (void)ons/A/DataDetectorsCore;
 - (void);
-- (void);
-- (id);
-- (void)cationFromMapsURL;
+- (id)eak;
+- (void)locationFromMapsURL;
 
 @end
 

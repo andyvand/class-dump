@@ -4,31 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSObject, NSString, Protocol;
+@class NSObject;
 @protocol NSXPCProxyCreating;
 
 @interface FPXPCAutomaticErrorProxy
 {
     NSObject<NSXPCProxyCreating> *_target;
-    Protocol *_protocol;
-    NSError *_error;
-    CDUnknownBlockType _requestWillBeginBlock;
-    CDUnknownBlockType _requestDidBeginBlock;
-    NSString *_name;
-    id _retainSelfWhileMessageIsPending;
-    _Bool _isSynchronous;
-    _Atomic unsigned long long _retainCounter;
-    _Bool _sanitizeErrors;
-    _Bool _generateSignposts;
-    int _pid;
-    unsigned long long _timeoutState;
 }
 
-+ (_Bool)c;
++ (_Bool)deviceSpecific;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)P;
 - (id);
 - (id);
 - (id);
@@ -37,7 +25,7 @@
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
@@ -47,16 +35,13 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)octagonCapableRecordsExist;
 - (void)1Â0@ù
 × ;
 - (_Bool)!= "%@"c);
 
 // Remaining properties
-@property(nonatomic) _Bool generateSignposts; // @synthesize generateSignposts=_generateSignposts;
 @property(nonatomic) int requestEffectivePid; // @synthesize requestEffectivePid=_pid;
-@property(nonatomic) _Bool sanitizeErrors; // @synthesize sanitizeErrors=_sanitizeErrors;
-@property unsigned long long timeoutState; // @synthesize timeoutState=_timeoutState;
 
 @end
 

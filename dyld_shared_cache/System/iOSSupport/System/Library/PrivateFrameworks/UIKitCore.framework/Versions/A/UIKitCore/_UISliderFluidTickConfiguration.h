@@ -6,42 +6,32 @@
 
 #import <UIKitCore/_UISliderFluidConfiguration.h>
 
-@class NSArray;
-
 @interface _UISliderFluidTickConfiguration : _UISliderFluidConfiguration
 {
     id _behavior;
-    id _ticks;
-    id _ticksAreEvenlySpaced;
-    long long tickStyle;
-    double neutralPosition;
-    float snappingDistance;
 }
 
-- (_Bool);
-- (id);
-- (long long);
-- (float);
-- (void);
-- (void);
-- (void);
+- (_Bool)ssing;
+- (id)ent> Started processing;
+- (long long)ength %llu;
+- (float)ty array;
+- (void)tap here to file a radar. This is a serious issue that needs to be identified and addressed.;
+- (void)%@
+decryptionKey:(float)arg1 %@
+error:%@ /* Error: Ran out of types for this method. */;
+- (void)IncomingClientConnectionListening;
 - (id);
 - (_Bool);
 - (double);
 - (id);
 - (id);
 - (long long);
-- (_Bool)nitialPositionFromTopOfCaret:(id)arg1 distanceFromCaret: /* Error: Ran out of types for this method. */;
+- (_Bool)assertInitialPositionFromTopOfCaret:(id)arg1 distanceFromCaret: /* Error: Ran out of types for this method. */;
 - (id)àTÈ<°$ôhÜPÄ8¬  ,¡ ¡°;
 - (void)@Ó¤ÿ¯;
 
 // Remaining properties
 @property(nonatomic, readonly) long long behavior;
-@property(nonatomic) double neutralPosition; // @synthesize neutralPosition;
-@property(nonatomic) float snappingDistance; // @synthesize snappingDistance;
-@property(nonatomic) long long tickStyle; // @synthesize tickStyle;
-@property(nonatomic, readonly) NSArray *ticks;
-@property(nonatomic, readonly) _Bool ticksAreEvenlySpaced;
 
 @end
 

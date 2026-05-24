@@ -12,13 +12,12 @@ __attribute__((visibility("hidden")))
 @interface AVAudioPlaybackControlsViewController : AVPlayerControlsViewController
 {
     NSView *_initialFirstResponder;
-    CDUnknownBlockType _nextKeyViewSetupBlock;
 }
 
 - (void);
 - (long long);
 - (double);
-- (long long);
+- (long long)__AUTH;
 - (struct CGSize);
 - (long long);
 - (id);

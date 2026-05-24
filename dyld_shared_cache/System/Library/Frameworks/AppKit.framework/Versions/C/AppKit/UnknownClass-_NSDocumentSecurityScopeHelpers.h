@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface UnknownClass (_NSDocumentSecurityScopeHelpers)
-+ (unsigned long long);
-+ (id);
-+ (id);
-+ (id);
++ (unsigned long long)connection:(id)arg1 _willSendRequestForEstablishedConnection:(id)arg2 completion: /* Error: Ran out of types for this method. */;
++ (id)connection:(id)arg1 _willSendRequestForEstablishedConnection:completion: /* Error: Ran out of types for this method. */;
++ (id)@;
++ (id);
 + (id);
 + (id);
 - (unsigned long long);
@@ -18,20 +16,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (long long);
-- (void);
-- (id);
-- (void);
+- (id)s/A/FTServices;
+- (_Bool)System/Library/PrivateFrameworks/AOSKit.framework/Versions/A/AOSKit;
+- (long long)ached maximum of %u;
+- (void)u has had an error;
+- (id)= LQRHS_ERROR;
+- (void)for stream %llu is blocked;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

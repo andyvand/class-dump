@@ -7,11 +7,6 @@
 @interface NewsUI2.RecipeFilterDataManager
 {
     id context;
-    id recipeFilterConfigManager;
-    id recipeFilterResultProvider;
-    id recipeFilterSelectionManager;
-    id recipeFeaturesConfiguration;
-    id delegate;
 }
 
 @end

@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface NSMorphology
 {
     NSMutableDictionary *_customPronouns;
-    long long _adjectival;
-    long long _clusivity;
-    long long _grammaticalGender;
-    long long _partOfSpeech;
-    long long _number;
-    long long _grammaticalCase;
-    long long _determination;
-    long long _grammaticalPerson;
-    long long _pronounType;
-    long long _definiteness;
 }
 
 - (void);
@@ -42,7 +32,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -56,7 +46,7 @@
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id)disposeGlyphStack;
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -64,19 +54,6 @@
 - (id)redicate";
 
 // Remaining properties
-@property(nonatomic) long long _adjectival;
-@property(nonatomic) long long _clusivity;
-@property(copy, setter=_setCustomPronouns:) NSDictionary *_customPronouns;
-@property(readonly, nonatomic) NSData *_externalRepresentation;
-@property(readonly, nonatomic) NSDictionary *_externalRepresentationDictionary;
-@property(nonatomic) long long definiteness; // @synthesize definiteness=_definiteness;
-@property(nonatomic) long long determination; // @synthesize determination=_determination;
-@property(nonatomic) long long grammaticalCase; // @synthesize grammaticalCase=_grammaticalCase;
-@property(nonatomic) long long grammaticalGender; // @synthesize grammaticalGender=_grammaticalGender;
-@property(nonatomic) long long grammaticalPerson; // @synthesize grammaticalPerson=_grammaticalPerson;
-@property(nonatomic) long long number; // @synthesize number=_number;
-@property(nonatomic) long long partOfSpeech; // @synthesize partOfSpeech=_partOfSpeech;
-@property(nonatomic) long long pronounType; // @synthesize pronounType=_pronounType;
 @property(readonly, getter=isUnspecified) _Bool unspecified;
 
 @end

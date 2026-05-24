@@ -7,7 +7,6 @@
 @interface NewsUI2.FollowingNotificationsSectionFooterViewLayoutAttributesFactory
 {
     id styler;
-    id cache;
 }
 
 @end

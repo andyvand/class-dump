@@ -7,9 +7,6 @@
 @interface MediaPlaybackCore.PlaybackSessionSummaryConsumer
 {
     id currentSession;
-    id playbackEngine;
-    id subscription;
-    id store;
 }
 
 + (unsigned int);

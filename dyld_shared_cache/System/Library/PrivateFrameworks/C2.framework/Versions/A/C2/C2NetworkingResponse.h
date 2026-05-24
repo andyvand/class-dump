@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSHTTPURLResponse;
+@class NSHTTPURLResponse;
 
 @interface C2NetworkingResponse
 {
     NSHTTPURLResponse *_urlResponse;
-    NSData *_body;
 }
 
 + (id);
-+ (id);
++ (id)[;
 - (id);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *body; // @synthesize body=_body;
 @property(readonly, copy, nonatomic) NSHTTPURLResponse *urlResponse; // @synthesize urlResponse=_urlResponse;
 
 @end

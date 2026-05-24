@@ -17,11 +17,7 @@
 + (id);
 
 // Remaining properties
-@property(getter=isAsynchronous) _Bool asynchronous;
-@property struct CGColorSpace *colorspace;
-@property unsigned long long maximumDrawableCount;
 @property float maximumFrameRate;
-@property _Bool wantsExtendedDynamicRangeContent; // @dynamic wantsExtendedDynamicRangeContent;
 
 @end
 

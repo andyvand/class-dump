@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection, _EXExtensionIdentity;
-@protocol OS_dispatch_queue, PrintServiceExtension_com_apple_printing_PrintServiceExtensionProtocol;
+@class NSString, NSXPCConnection;
 
 @interface PMPrintServiceExtension_Context
 {
     NSXPCConnection *_xpc;
-    _EXExtensionIdentity *_instance;
-    id <PrintServiceExtension_com_apple_printing_PrintServiceExtensionProtocol> _proxy;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSString *_extensionBundleIdentifier;
 }
 
 + (void);
 + (void);
 + (id);
++ (id)J;
 + (id);
-+ (id);
+- (void);
 - (void);
 - (void);
 - (void);
+- (id)Rb;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)ating TTPP from %f to %f;
 - (id);
 - (void);
 

@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AMSMetricsLoadURLEventTimingData
 {
     _Bool _clampingEnabled;
-    NSNumber *_earliestTimestamp;
 }
 
 - (void);
@@ -18,14 +17,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void)³PgB¦v~ZT/O^þ*EÈë;3bÜÊh¼Ó^}­¥ôJ\Ì/w=úÙ	%+P0!îøIªò¸\ ®Õµ¤k}¬Ox]¹iaEK0PA=ÞéÌ(øðÔÚ¡ÁÐ	k¿Ð]~®¦÷I_dS<v±BJn`{j¥³ÿÈ§í*	ÙÑõûàñ>(M®ö¼{X¤ªÑ± oyúÍ¢è/ÜÔðþåô;-g³ÜQr¢ªûES/ÌûÞ:êâÆÈ³ÓÂî:UØû+#	rÌÚ]¾æ¬kH´ºÁ¡°ix¬ÃNm½µäZL¤GpU±aiMC8XIh_0z½NFblwf©¿0ÓäÁ%õýÙ×¬ÌÝèß°ú=ÎÆâì÷æ)?;ØïÊ.þöÒÜ§ÇÖ|K$n©ZRvxcr½«Ë(p:ýÞ",W7&éÿû/@
 Íî>6gÙÏ)ÊýØ<ìäÀÎµÕÄõÂ­ç ÓÛÿñêû4"y­ÂOl¼´å[Mý)FËè80aßÉïØ·ý:ÉÁåëðá.8×4l&áÂ>0K+:õãÖ5m'àÃ?1J*;ôâtC,f¡RZ~pkzµ£cT;q¶EMig|m¢´*ÉþÛ?ïçÃÍ¶ÖÇþÉ¦ì+ØÐôúáð?)W´ì¦aB¾°Ë«ºuc^½å¯hK·¹Â¢³|jf²ÝPs£«úDRü(GÊé91` /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property _Bool clampingEnabled; // @synthesize clampingEnabled=_clampingEnabled;
 @property(copy) NSNumber *earliestTimestamp; // @synthesize earliestTimestamp=_earliestTimestamp;
 
 @end

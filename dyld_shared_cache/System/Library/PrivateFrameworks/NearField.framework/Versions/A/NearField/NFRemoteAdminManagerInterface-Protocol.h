@@ -5,5 +5,21 @@
 //
 
 @protocol NFRemoteAdminManagerInterface
+- (oneway void)kId IN %@;
+- (oneway void);
+- (oneway void)ARDVIEW_INSET_Y_TOP, AB_CARDVIEW_MINIMUM_WIDTH, AB_CARDVIEW_SEPARATOR_INSET_FROM_HEADER, AB_NAMEVIEW_PHOTO_NAME_SPACING, AB_NAMEVIEW_NAME_INSET_TRAILING, AB_NAMEVIEW_COMPANYCHECKBOX_HEIGHT, AB_HEADERVIEW_PRIVACY_LABEL_INSET_TRAILING, AB_CARDVIEW_COLLECTION_INSET_TRAILING, AB_COLLECTION_ROW_STACKVIEW_MIN_HEIGHT, AB_COLLECTION_CENTER_COLUMN_WIDTH, AB_COLLECTION_MINUS_BUTTON_LEADING_INSET, AB_COLLECTION_SPACING_BTWN_MINUS_PLUS_BUTTONS, AB_COLLECTION_MAIL_GLYPH_HEIGHT;
+- (oneway void)instantMessageAddresses;
+- (oneway void)addressingGrammars;
+- (oneway void)N-[displayView]|;
+- (oneway void)CNDelegateRetainingEditAuthorizationViewController;
+- (oneway void)CLEAR_IMAGE;
+- (oneway void)dded to address book;
+- (oneway void)ssCountryKey(void);
+- (oneway void)actionFor_;
+- (oneway void)selector;
+- (oneway void)ionAutovalidator.m;
+- (oneway void)om;
+- (oneway void)to find class %s;
+- (oneway void)Async%@;
 @end
 

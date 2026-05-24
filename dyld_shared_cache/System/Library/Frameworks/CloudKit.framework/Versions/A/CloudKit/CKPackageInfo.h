@@ -6,21 +6,15 @@
 
 #import <CloudKit/CKSQLiteTableEntry.h>
 
-@class CKAssetTransferOptions, CKPackageReference, NSData, NSDate, NSNumber;
+@class NSNumber;
 
 @interface CKPackageInfo : CKSQLiteTableEntry
 {
     NSNumber *_packageID;
-    NSData *_signature;
-    NSData *_verificationKey;
-    CKPackageReference *_packageReference;
-    CKAssetTransferOptions *_assetTransferOptions;
-    NSData *_boundaryKey;
-    NSDate *_expirationDate;
 }
 
 + (Class);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -38,13 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CKAssetTransferOptions *assetTransferOptions; // @synthesize assetTransferOptions=_assetTransferOptions;
-@property(copy, nonatomic) NSData *boundaryKey; // @synthesize boundaryKey=_boundaryKey;
-@property(copy, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
 @property(retain, nonatomic) NSNumber *packageID; // @synthesize packageID=_packageID;
-@property(retain, nonatomic) CKPackageReference *packageReference; // @synthesize packageReference=_packageReference;
-@property(copy, nonatomic) NSData *signature; // @synthesize signature=_signature;
-@property(copy, nonatomic) NSData *verificationKey; // @synthesize verificationKey=_verificationKey;
 
 @end
 

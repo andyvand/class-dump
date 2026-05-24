@@ -10,24 +10,17 @@
 @interface PowerUIPagedArray
 {
     NSMutableDictionary *_chunks;
-    CDUnknownBlockType _getChunkHandler;
-    long long _chunkSize;
-    NSObject<OS_os_log> *_log;
-    long long _endChunkIndex;
-    long long _currentChunkIndex;
-    long long _highestIndexInMemory;
-    long long _numberOfQueries;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)C;
 - (long long);
 - (long long);
 - (long long);
@@ -37,7 +30,7 @@
 - (long long);
 - (CDUnknownBlockType);
 - (long long);
-- (id);
+- (id)tionary"16@?0@"NSMutableDictionary"8;
 - (id);
 - (id);
 - (void)0@ù
@@ -46,14 +39,7 @@
 - (id)ain_below_90_30days:(long long)arg1 n_drain_above_100_30days:n_drain_below_100_30days:n_drain_above_50_15days:n_drain_below_50_15days:n_drain_above_60_15days:n_drain_below_60_15days:n_drain_above_70_15days:n_drain_below_70_15days:n_drain_above_80_15days:n_drain_below_80_15days:n_drain_above_90_15days:n_drain_below_90_15days:n_drain_above_100_15days:n_drain_below_100_15days:n_drain_above_50_7days:n_drain_below_50_7days:n_drain_above_60_7days:n_drain_below_60_7days:n_drain_above_70_7days:n_drain_below_70_7days:n_drain_above_80_7days:n_drain_below_80_7days:n_drain_above_90_7days:n_drain_below_90_7days:n_drain_above_100_7days:n_drain_below_100_7days:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long chunkSize; // @synthesize chunkSize=_chunkSize;
-@property(readonly, nonatomic) NSMutableDictionary *chunks; // @synthesize chunks=_chunks;
-@property(nonatomic) long long currentChunkIndex; // @synthesize currentChunkIndex=_currentChunkIndex;
-@property(nonatomic) long long endChunkIndex; // @synthesize endChunkIndex=_endChunkIndex;
-@property(readonly, nonatomic) CDUnknownBlockType getChunkHandler; // @synthesize getChunkHandler=_getChunkHandler;
-@property(nonatomic) long long highestIndexInMemory; // @synthesize highestIndexInMemory=_highestIndexInMemory;
 @property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(nonatomic) long long numberOfQueries; // @synthesize numberOfQueries=_numberOfQueries;
 
 @end
 

@@ -9,12 +9,6 @@
 @interface AVCRTCPReceiverReport : AVCRTCPPacket
 {
     unsigned int _reportedSourceSSRC;
-    unsigned char _fractionLost;
-    unsigned int _cumulativePacketsLost;
-    unsigned int _extendedHighestSequenceNumber;
-    unsigned int _interarrivalJitter;
-    unsigned int _lastSRTimestamp;
-    unsigned int _delaySinceLastSR;
 }
 
 - (void);
@@ -24,9 +18,9 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)k";
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)";
 - (unsigned char);
 - (unsigned int);
 - (unsigned int);
@@ -35,12 +29,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned int cumulativePacketsLost; // @synthesize cumulativePacketsLost=_cumulativePacketsLost;
-@property(nonatomic) unsigned int delaySinceLastSR; // @synthesize delaySinceLastSR=_delaySinceLastSR;
-@property(nonatomic) unsigned int extendedHighestSequenceNumber; // @synthesize extendedHighestSequenceNumber=_extendedHighestSequenceNumber;
-@property(nonatomic) unsigned char fractionLost; // @synthesize fractionLost=_fractionLost;
-@property(nonatomic) unsigned int interarrivalJitter; // @synthesize interarrivalJitter=_interarrivalJitter;
-@property(nonatomic) unsigned int lastSRTimestamp; // @synthesize lastSRTimestamp=_lastSRTimestamp;
 @property(nonatomic) unsigned int reportedSourceSSRC; // @synthesize reportedSourceSSRC=_reportedSourceSSRC;
 
 @end

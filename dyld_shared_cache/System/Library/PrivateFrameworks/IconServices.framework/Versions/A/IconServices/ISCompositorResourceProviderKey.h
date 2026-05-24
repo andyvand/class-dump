@@ -9,10 +9,9 @@
 @interface ISCompositorResourceProviderKey
 {
     NSString *_name;
-    unsigned long long _flags;
 }
 
-+ (id);
++ (id)}{__DDQueryRange={__DDQueryOffset=b16b16b32}{__DDQueryOffset=b16b16b32}}{?=qq}q^{__CFArray}^{__CFString}^{__CFString}^v^{__CFDictionary}qCf}16;
 - (id);
 - (unsigned long long);
 - (void);
@@ -20,15 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property unsigned long long flags; // @synthesize flags=_flags;
-@property(readonly) unsigned long long hash;
 @property(retain) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
 
 @end
 

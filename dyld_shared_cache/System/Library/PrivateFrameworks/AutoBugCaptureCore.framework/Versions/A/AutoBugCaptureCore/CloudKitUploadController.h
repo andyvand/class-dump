@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AnalyticsWorkspace, DiagnosticCaseStorageAnalytics, DiagnosticCaseSummaryAnalytics, NSObject, UploadRecordAnalytics;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CloudKitUploadController
 {
     NSObject<OS_dispatch_queue> *_queue;
-    AnalyticsWorkspace *_workspace;
-    DiagnosticCaseStorageAnalytics *_caseStorageAnalytics;
-    DiagnosticCaseSummaryAnalytics *_caseSummaryAnalytics;
-    UploadRecordAnalytics *_uploadRecordAnalytics;
-    unsigned long long _outstandingOperationCount;
-    _Bool _aggregateOperationResult;
 }
 
 + (void);
@@ -28,39 +22,39 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)controllerWithTargetWalrusStatus:(id)arg1;
+- (id)};
 - (_Bool);
 - (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (void);
+- (void)`;
+- (void);
+- (void)setSplatProductVersionExtra: /* Error: Ran out of types for this method. */;
+- (void)RestoreVersionPlistContents;
+- (void);
+- (void);
+- (void);
+- (id)setFormatter:(id)arg1;
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (_Bool)! Ignoring will not sleep message.;
+- (void)size_t, uint32_t, APSCryptorRef, APSRTPPassThroughJitterBufferRef, APSRTPShouldProcessPacketCallback, APSRTPEnqueueNodeCallback, void *);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)A;
+- (void)setEstablishesActiveAccount:(id)arg1;
 - (id);
 - (id);
-- (id);
+- (id)loadImageForEmails:(unsigned long long)arg1 name:options:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);

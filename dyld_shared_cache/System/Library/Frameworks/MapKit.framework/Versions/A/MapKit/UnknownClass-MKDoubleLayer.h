@@ -10,12 +10,12 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)$;
 - (struct CGPoint);
 - (struct CGRect);
-- (id);
+- (id)o;
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)p;
 - (struct CGPoint);
 - (struct CGPoint);
 - (void);
@@ -24,7 +24,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) CALayer *_mapKit_mapLayer;
 @property(readonly, retain, nonatomic) CALayer *currentLayer;
 @end
 

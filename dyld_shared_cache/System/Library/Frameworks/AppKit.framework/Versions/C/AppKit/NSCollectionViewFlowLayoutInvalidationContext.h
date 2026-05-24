@@ -17,11 +17,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)CGSize=dd}}56;
 
 // Remaining properties
-@property _Bool invalidateFlowLayoutAttributes;
 @property _Bool invalidateFlowLayoutDelegateMetrics;
 
 @end

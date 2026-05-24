@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSView;
+@class NSView;
 
 @interface LUIController
 {
     CDUnknownBlockType _actionHandler;
-    NSView *_contentView;
-    int _style;
-    NSDictionary *_attributes;
-    NSDictionary *_pressedAttributes;
 }
 
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -29,11 +25,10 @@
 - (void);
 - (void);
 - (id);
-- (id)ontrolSize;
+- (id)_controlSize;
 
 // Remaining properties
 @property(readonly) NSView *contentView; // @synthesize contentView=_contentView;
-@property(readonly) int style; // @synthesize style=_style;
 
 @end
 

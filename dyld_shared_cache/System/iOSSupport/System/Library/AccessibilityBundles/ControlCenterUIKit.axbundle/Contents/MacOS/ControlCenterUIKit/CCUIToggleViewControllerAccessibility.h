@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)D;
 + (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);

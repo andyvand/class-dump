@@ -4,47 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPBTransitArtwork, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDTransitLabel
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPBTransitArtwork *_labelArtwork;
-    NSString *_labelTextString;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _labelType;
-    struct {
-        unsigned int has_labelType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_labelArtwork:1;
-        unsigned int read_labelTextString:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)ailureDetails:(id)arg1;
-- (void);
-- (void);
-- (void);
++ (_Bool)setInitializationFailureDetails:(id)arg1;
+- (void)BCDContainer",&,VcontainerRepresentation;
+- (void)T@"<CNOpenDirectoryFacade>",R;
+- (void)ore with URL %{public}@ - consolidated them.;
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (int);
-- (void);
+- (void)C;
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)setFrameRateRange:(id)arg1 highFrameRateReason: /* Error: Ran out of types for this method. */;
+- (id)initWithData:hash:locale:digest:signature:certificate: /* Error: Ran out of types for this method. */;
+- (void)%@;
 - (void);
 - (id);
 - (unsigned long long);
@@ -56,27 +42,12 @@ __attribute__((visibility("hidden")))
 - (id)alBodyData";
 - (id)teTripCount: /* Error: Ran out of types for this method. */;
 - (id)ôxü;
-- (id)_SILENT;
+- (id)SELECT_AUDIO_VOLUME_SILENT;
 - (void)6HJ@;
 - (int)Z«4;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasLabelArtwork;
-@property(readonly, nonatomic) _Bool hasLabelTextString;
-@property(nonatomic) _Bool hasLabelType;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) GEOPBTransitArtwork *labelArtwork;
-@property(readonly, nonatomic) NSString *labelString;
-@property(retain, nonatomic) NSString *labelTextString;
-@property(nonatomic) int labelType;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) unsigned long long type;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

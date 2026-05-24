@@ -4,35 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTextInputContext, __NSDelegateObservingTextView;
+@class NSTextInputContext;
 
 __attribute__((visibility("hidden")))
 @interface NSBridgedTextSubstitutionController
 {
     NSTextInputContext *_inputContext;
-    __NSDelegateObservingTextView *_textView;
-    _Bool contentsValid;
 }
 
+- (void)a;
+- (void)};
+- (void)initWithTask:(id)arg1 cachedResponse:client: /* Error: Ran out of types for this method. */;
+- (void)initWithResponse:(id)arg1 data: /* Error: Ran out of types for this method. */;
+- (void)initWithProtectionSpace:(id)arg1 proposedCredential:previousFailureCount:failureResponse:error:sender: /* Error: Ran out of types for this method. */;
+- (void)_responseEndTime;
+- (void)__shouldSkipPreferredClientCertificateLookup;
+- (id)4!;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)_kCFNTimingDataRemoteAddressAndPort;
+- (void)@;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (void);
 - (void)3Ð1Â0@ù
@@ -42,13 +40,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(getter=isContentsValid) _Bool contentsValid; // @synthesize contentsValid;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

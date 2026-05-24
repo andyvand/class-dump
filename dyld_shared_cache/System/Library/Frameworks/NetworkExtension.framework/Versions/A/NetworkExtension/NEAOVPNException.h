@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface NEAOVPNException
 {
     NSString *_serviceName;
-    NSString *_bundleIdentifier;
-    NSArray *_limitToProtocols;
-    long long _action;
 }
 
-+ (_Bool);
++ (_Bool)setInterestingRegistrationProperties: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)rollerStandard.%{ptr}.notification;
+- (id);
 - (id);
 - (void);
 - (void);
@@ -27,14 +24,11 @@
 - (long long);
 - (void);
 - (void);
-- (void)dentifier;
-- (_Bool)nsURL;
-- (id)xchangeMode;
+- (void)matchSigningIdentifier;
+- (_Bool)builtInPlugInsURL;
+- (id)ExchangeMode;
 
 // Remaining properties
-@property long long action; // @synthesize action=_action;
-@property(copy) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy) NSArray *limitToProtocols; // @synthesize limitToProtocols=_limitToProtocols;
 @property(copy) NSString *serviceName; // @synthesize serviceName=_serviceName;
 
 @end

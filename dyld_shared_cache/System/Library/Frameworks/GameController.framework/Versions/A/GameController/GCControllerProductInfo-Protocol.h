@@ -7,18 +7,14 @@
 @class NSDictionary, NSNumber, NSString;
 
 @protocol GCControllerProductInfo
+- (NSDictionary *)3;
+- (NSNumber *)H;
 - (NSString *);
 
-// Remaining properties
-@property(readonly, copy) NSString *anonymizedIdentifier;
-@property(readonly, copy, getter=isAttachedToDevice) NSNumber *attachedToDevice;
-@property(readonly, copy) NSString *detailedProductCategory;
-@property(copy, nonatomic) NSDictionary *miscellaneous;
-@property(readonly, copy) NSString *productCategory;
-@property(readonly, copy) NSString *uniformTypeIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *)_orgAdminUserFetchError;
 
-@property(readonly, copy) NSString *vendorName;
+// Remaining properties
+@property(readonly, copy) NSString *productCategory;
 @end
 

@@ -6,23 +6,14 @@
 
 #import <WiFiPolicy/WiFiUsageSession.h>
 
-@class NSDate, NSMutableSet, NSObject, WiFiUsageNetworkDetails;
-@protocol OS_dispatch_queue;
+@class WiFiUsageNetworkDetails;
 
 @interface WiFiUsageNetworkSession : WiFiUsageSession
 {
     WiFiUsageNetworkDetails *_lastNetworkDetails;
-    _Bool _linkUp;
-    NSDate *_lastLinkUpTime;
-    NSDate *_lastLinkDownTime;
-    double _networkUsageDuration;
-    _Bool _dnuEnabled;
-    NSMutableSet *_neighborBssList;
-    NSMutableSet *_otherBssList;
-    NSObject<OS_dispatch_queue> *_WiFiLinkStateBiomeEventQueue;
 }
 
-- (_Bool);
+- (_Bool)P;
 - (_Bool);
 - (void);
 - (void);

@@ -6,12 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CEMAccountmacOSServerDeclaration_ConfiguredAccountsItem : CEMPayloadBase
 {
     NSString *_payloadType;
-    NSNumber *_payloadPort;
 }
 
 + (id);
@@ -23,11 +22,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)!;
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *payloadPort; // @synthesize payloadPort=_payloadPort;
 @property(copy, nonatomic) NSString *payloadType; // @synthesize payloadType=_payloadType;
 
 @end

@@ -159,13 +159,8 @@ struct SGUnixTimestamp_ {
 };
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
-};
-
-struct _opaque_pthread_mutex_t {
-    long long __sig;
-    char __opaque[56];
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct objc_method_description {
@@ -186,12 +181,4 @@ typedef struct {
     double _field1;
     double _field2;
 } CDStruct_c3b9c2ee;
-
-// Ambiguous groups
-typedef struct {
-    unsigned int extracted:1;
-    unsigned int extractionModelVersion:1;
-    unsigned int type:1;
-    unsigned int uiType:1;
-} CDStruct_698c174b;
 

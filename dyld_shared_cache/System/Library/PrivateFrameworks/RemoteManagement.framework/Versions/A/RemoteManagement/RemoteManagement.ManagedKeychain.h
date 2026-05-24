@@ -12,18 +12,18 @@
 + (id);
 + (id);
 + (id);
+- (_Bool)(;
+- (_Bool)+;
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);;
+- (id)~;
 - (struct __SecCertificate *);
 - (id);
 - (id);
@@ -31,10 +31,10 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 
 @end
 

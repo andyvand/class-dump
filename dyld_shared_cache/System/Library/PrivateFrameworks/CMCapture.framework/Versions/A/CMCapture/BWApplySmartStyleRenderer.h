@@ -5,15 +5,12 @@
 //
 
 @class NSString;
-@protocol CMISmartStyleProcessor, MTLCommandQueue;
+@protocol CMISmartStyleProcessor;
 
 __attribute__((visibility("hidden")))
 @interface BWApplySmartStyleRenderer
 {
     id <CMISmartStyleProcessor> _smartStyleProcessor;
-    id <MTLCommandQueue> _mtlCommandQueue;
-    int _smartStyleRenderingVersion;
-    Class _smartStyleProcessorInputOutputClass;
 }
 
 + (void)onizedStreamsGroup:bwFigCaptureStreams:figCaptureStreams:] /* Error: Ran out of types for this method. */;
@@ -28,17 +25,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)];
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool adjustsMetadata;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, copy, nonatomic) NSString *displayName;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsAnimation;
-@property(readonly, nonatomic) short type;
 
 @end
 

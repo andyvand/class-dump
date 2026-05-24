@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError;
+@class NSError;
 
 @interface CBWriteRequest
 {
     NSError *_error;
-    struct iovec _iov[16];
-    struct iovec *_iop;
-    int _ion;
-    unsigned long long _offset;
-    _Bool _endOfData;
-    CDUnknownBlockType _completion;
-    NSArray *_dataArray;
 }
 
 - (void);
@@ -25,13 +18,10 @@
 - (id);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)UsageTimes;
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(retain, nonatomic) NSArray *dataArray; // @synthesize dataArray=_dataArray;
-@property(nonatomic) _Bool endOfData; // @synthesize endOfData=_endOfData;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 
 @end
 

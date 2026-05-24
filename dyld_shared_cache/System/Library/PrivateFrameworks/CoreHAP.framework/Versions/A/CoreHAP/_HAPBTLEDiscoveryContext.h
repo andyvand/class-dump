@@ -4,37 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface _HAPBTLEDiscoveryContext
 {
     _Bool _discovering;
-    long long _discoveryType;
-    NSMutableArray *_discoveringServices;
-    NSMutableArray *_discoveringCharacteristics;
-    NSMutableArray *_readingCharacteristics;
-    NSMutableArray *_discoveringDescriptors;
-    NSMutableArray *_readingDescriptors;
-    NSMutableArray *_readingSignatureCharacteristics;
-    NSMutableArray *_readingSignatureServices;
-    NSMapTable *_characteristicSignatures;
-    NSMapTable *_serviceSignatures;
-    CDUnknownBlockType _completionHandler;
 }
 
+- (id)!;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)�H;
 - (id);
 - (id);
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)ionId = %ld;
 - (id);
 - (void);
 - (CDUnknownBlockType);
@@ -45,19 +32,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)olver",&,N,V_nameResolver;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMapTable *characteristicSignatures; // @synthesize characteristicSignatures=_characteristicSignatures;
-@property(readonly, nonatomic, getter=isComplete) _Bool complete;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(nonatomic, getter=isDiscovering) _Bool discovering; // @synthesize discovering=_discovering;
-@property(readonly, nonatomic) NSMutableArray *discoveringCharacteristics; // @synthesize discoveringCharacteristics=_discoveringCharacteristics;
-@property(readonly, nonatomic) NSMutableArray *discoveringDescriptors; // @synthesize discoveringDescriptors=_discoveringDescriptors;
-@property(readonly, nonatomic) NSMutableArray *discoveringServices; // @synthesize discoveringServices=_discoveringServices;
 @property(readonly, nonatomic) long long discoveryType; // @synthesize discoveryType=_discoveryType;
-@property(readonly, nonatomic) NSMutableArray *readingCharacteristics; // @synthesize readingCharacteristics=_readingCharacteristics;
-@property(readonly, nonatomic) NSMutableArray *readingDescriptors; // @synthesize readingDescriptors=_readingDescriptors;
-@property(readonly, nonatomic) NSMutableArray *readingSignatureCharacteristics; // @synthesize readingSignatureCharacteristics=_readingSignatureCharacteristics;
-@property(readonly, nonatomic) NSMutableArray *readingSignatureServices; // @synthesize readingSignatureServices=_readingSignatureServices;
-@property(readonly, nonatomic) NSMapTable *serviceSignatures; // @synthesize serviceSignatures=_serviceSignatures;
 
 @end
 

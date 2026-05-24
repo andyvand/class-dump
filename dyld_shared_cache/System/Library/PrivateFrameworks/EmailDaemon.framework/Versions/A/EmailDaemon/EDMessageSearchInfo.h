@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMInstantAnswer, NSDictionary;
+@class EMInstantAnswer;
 
 @interface EDMessageSearchInfo
 {
     EMInstantAnswer *_instantAnswer;
-    NSDictionary *_snippetsByObjectID;
-    NSDictionary *_snippetMessageObjectIDsByConversation;
 }
 
-+ (id);
++ (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)PowerLog.framework/Contents/MacOS/PowerLog;
 
 // Remaining properties
 @property(readonly, nonatomic) EMInstantAnswer *instantAnswer; // @synthesize instantAnswer=_instantAnswer;
-@property(readonly, copy, nonatomic) NSDictionary *snippetMessageObjectIDsByConversation; // @synthesize snippetMessageObjectIDsByConversation=_snippetMessageObjectIDsByConversation;
-@property(readonly, copy, nonatomic) NSDictionary *snippetsByObjectID; // @synthesize snippetsByObjectID=_snippetsByObjectID;
 
 @end
 

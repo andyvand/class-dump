@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, _PASLock;
-@protocol OS_dispatch_queue;
+@class _PASLock;
 
 @interface PPPeopleSuggester
 {
     _PASLock *_lock;
-    NSObject<OS_dispatch_queue> *_serialQueueForSweeping;
 }
 
-+ (id)RecordsSourcedFromBundleId:txnWitness: /* Error: Ran out of types for this method. */;
++ (id)rowIdsForRecordsSourcedFromBundleId:txnWitness: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -21,7 +19,7 @@
 - (id);
 - (void)1Â0@ù
 × ;
-- (void)oEvaluate;
+- (void)_argumentsToEvaluate;
 
 @end
 

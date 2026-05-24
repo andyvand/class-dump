@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UNUserNotificationCenter;
-@protocol HMDUserNotificationCenterDelegate, HMMLogEventSubmitting;
+@class UNUserNotificationCenter;
+@protocol HMDUserNotificationCenterDelegate;
 
 __attribute__((visibility("hidden")))
 @interface HMDUserNotificationCenter
 {
     id <HMDUserNotificationCenterDelegate> _delegate;
-    UNUserNotificationCenter *_userNotificationCenter;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
 }
 
 + (id)q;
@@ -33,15 +31,6 @@ __attribute__((visibility("hidden")))
 - (void)r~&<¼ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDUserNotificationCenterDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
-@property(readonly) Class superclass;
 @property(readonly) UNUserNotificationCenter *userNotificationCenter; // @synthesize userNotificationCenter=_userNotificationCenter;
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PDFAction, PDFDestination, PDFDocument, PDFOutlinePrivate;
+@class PDFDocument, PDFOutlinePrivate;
 
 @interface PDFOutline
 {
@@ -23,18 +23,18 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)i>�(1?�;
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)setPaperTextureOnRenderEncoder:fragmentUniforms: /* Error: Ran out of types for this method. */;
+- (void)ace active;
 - (id);
 - (void);
 - (void);
@@ -46,18 +46,11 @@
 - (id);
 - (void)0@ù
 × ;
-- (void)DocPasswordView;
+- (void)_uiDocPasswordView;
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) PDFAction *action;
-@property(retain, nonatomic) PDFDestination *destination;
 @property(readonly, nonatomic) __weak PDFDocument *document;
-@property(readonly, nonatomic) unsigned long long index;
-@property(nonatomic) _Bool isOpen;
-@property(copy, nonatomic) NSString *label;
-@property(readonly, nonatomic) unsigned long long numberOfChildren;
-@property(readonly, nonatomic) PDFOutline *parent;
 
 @end
 

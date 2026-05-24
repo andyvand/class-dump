@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CWFXPCListener;
+
 @protocol CWFXPCListenerDelegate
+- (void)4l6;
+- (void):(CWFXPCListener *)arg1 8{CGSize=dd}16;
+- (void)setShouldMonitorBackgroundEvents:(CWFXPCListener *)arg1;
+- (void);
 @end
 

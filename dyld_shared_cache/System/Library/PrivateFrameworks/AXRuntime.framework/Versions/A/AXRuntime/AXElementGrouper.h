@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface AXElementGrouper
 {
     double _thresholdForDeterminingEqualSize;
-    long long _heuristics;
 }
 
 - (id);
@@ -18,7 +15,7 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
@@ -27,16 +24,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (long long);
 
 // Remaining properties
 @property(nonatomic) long long heuristics; // @synthesize heuristics=_heuristics;
-@property(readonly, nonatomic) unsigned long long maximumGroupSize;
-@property(readonly, nonatomic) unsigned long long minimumGroupSize;
-@property(readonly, nonatomic) unsigned long long preferredGroupSize;
-@property(readonly, nonatomic) double thresholdForDeterminingEqualSize; // @synthesize thresholdForDeterminingEqualSize=_thresholdForDeterminingEqualSize;
-@property(readonly, nonatomic) NSArray *transformationPasses;
 
 @end
 

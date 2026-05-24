@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UTType;
+@class NSString;
 
 @interface GCDeviceType
 {
@@ -13,18 +13,16 @@
 + (id);
 + (id);
 + (id):(struct _NSZone *)arg1 didUpdateValueForDescriptor:(%@) '%@' /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)flushCache;
 - (id);
 
 // Remaining properties
 @property(readonly) NSString *identifier;
-@property(readonly) NSString *localizedDescription;
-@property(readonly) UTType *type;
 
 @end
 

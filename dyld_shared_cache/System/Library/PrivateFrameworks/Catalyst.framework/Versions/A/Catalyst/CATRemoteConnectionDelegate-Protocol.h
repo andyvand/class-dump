@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CATRemoteConnection, CATRemoteConnectionTrustDecision;
+
 @protocol CATRemoteConnectionDelegate
 
 @optional
+- (void);
+- (void);
+- (void)encodedStrokeIdentifiersFromStrokes:(CATRemoteConnection *)arg1 withStrokeProvider:(CATRemoteConnectionTrustDecision *)arg2 shouldCancel: /* Error: Ran out of types for this method. */;
 - (void)1Â0@ù
 × ;
 @end

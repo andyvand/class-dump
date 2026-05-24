@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface VCVideoFrameBufferPool
 {
     int _maxBufferCount;
-    NSMutableDictionary *_bufferPool;
 }
 
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)aB;
 
 @end
 

@@ -5,5 +5,9 @@
 //
 
 @protocol CATTransportDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

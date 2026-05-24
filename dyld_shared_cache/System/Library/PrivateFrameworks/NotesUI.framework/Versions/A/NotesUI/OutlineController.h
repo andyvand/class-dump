@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICTTTextStorage, NSArray, NSSet, NSString;
+@class ICTTTextStorage;
 
 @interface OutlineController
 {
     void textStorage;
-    id _collapsedUUIDs;
-    id _interactedUUIDs;
-    _Bool isAsynchronous;
-    id _index;
-    id cache;
-    id isPerformingMerge;
-    id selectorDelayer;
-    id $__lazy_storage_$_updateQueue;
 }
 
 - (id);
@@ -37,27 +29,27 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)�\;
 - (void);
 - (void);
 - (id);
-- (struct _NSRange);
+- (struct _NSRange)C;
 - (void);
 - (long long);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (struct _NSRange);
+- (struct _NSRange)setEntryId: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)bundleIdentifier;
 - (void);
 - (void)N,V_attachmentContentIDs;
 - (void);
@@ -65,17 +57,7 @@
 ;
 
 // Remaining properties
-@property(nonatomic, copy) NSSet *collapsedUUIDs;
-@property(nonatomic, readonly) long long collapsibleSectionAffordanceUsages;
-@property(nonatomic, readonly) NSString *debugDescription;
-@property(nonatomic, copy) NSSet *interactedUUIDs;
-@property(nonatomic, readonly) NSArray *invisibleRangeValues;
-@property(nonatomic) _Bool isAsynchronous; // @synthesize isAsynchronous;
-@property(nonatomic, readonly) NSArray *rangesValuesContainingCollapsedRanges;
-@property(nonatomic, readonly) NSArray *rangesValuesContainingExpandedRanges;
 @property(nonatomic) __weak ICTTTextStorage *textStorage; // @synthesize textStorage;
-@property(nonatomic, readonly) struct _NSRange visibleRange;
-@property(nonatomic, readonly) NSArray *visibleRangeValues;
 
 @end
 

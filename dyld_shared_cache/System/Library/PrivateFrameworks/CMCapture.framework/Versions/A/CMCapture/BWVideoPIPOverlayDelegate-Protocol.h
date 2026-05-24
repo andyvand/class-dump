@@ -5,5 +5,6 @@
 //
 
 @protocol BWVideoPIPOverlayDelegate
+- (void);
 @end
 

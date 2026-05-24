@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSData;
 
 @interface PAOpenGLColorCube
 {
     NSData *_data;
-    unsigned int _gridSize;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_texturesByDevice;
 }
 
 + (id);

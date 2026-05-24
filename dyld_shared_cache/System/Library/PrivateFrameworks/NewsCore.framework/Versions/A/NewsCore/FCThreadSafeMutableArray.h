@@ -4,34 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFUnfairLock, NSArray, NSMutableArray;
+@class NFUnfairLock;
 
 @interface FCThreadSafeMutableArray
 {
     NFUnfairLock *_lock;
-    NSMutableArray *_array;
 }
 
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)A;
 - (void);
 - (void);
 - (void);
 - (id);
-- (unsigned long long)dren: /* Error: Ran out of types for this method. */;
-- (void)essionValue;
+- (void)H;
+- (void);
+- (void);
+- (id);
+- (unsigned long long)setIncludeChildren: /* Error: Ran out of types for this method. */;
+- (void)dislikeBaselineImpressionValue;
 - (id)%@;
 
 // Remaining properties
 @property(readonly) unsigned long long count;
-@property(readonly, nonatomic) id firstObject;
-@property(readonly, nonatomic) id lastObject;
-@property(readonly, copy, nonatomic) NSArray *readOnlyArray;
 
 @end
 

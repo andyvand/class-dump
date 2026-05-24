@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, PXMagazineRectArray;
+@class NSArray, PXMagazineRectArray;
 
 @interface PXMagazineLayoutCoordinator
 {
     PXMagazineRectArray *_fallbackLayout;
-    double _currentBestScore;
-    _Bool _stopIfAnyGoodLayout;
-    _Bool _stop;
-    NSArray *_paddingInputs;
-    double _tileAspectRatio;
-    NSMutableArray *_qualifiedLayouts;
-    PXMagazineRectArray *_currentLayout;
-    unsigned long long _currentIndex;
 }
 
 - (_Bool);
 - (_Bool);
 - (void);
 - (double);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
@@ -31,21 +23,20 @@
 - (void);
 - (double);
 - (void);
-- (id);
+- (id)ing Failed: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)e; 
+			highp vec2 p2 = ((p1 - shadowOffset) * invShadowSize), absP2 = abs(p2); 
+			borderAlphaXY = 1. - relP * invRadii; 
+			shadowStrengthXY = max((absP2-.5)*shadowHardness+1., 0.); 
+		} 
+		;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long currentIndex; // @synthesize currentIndex=_currentIndex;
-@property(retain, nonatomic) PXMagazineRectArray *currentLayout; // @synthesize currentLayout=_currentLayout;
 @property(readonly, nonatomic) NSArray *paddingInputs; // @synthesize paddingInputs=_paddingInputs;
-@property(retain, nonatomic) NSMutableArray *qualifiedLayouts; // @synthesize qualifiedLayouts=_qualifiedLayouts;
-@property(nonatomic) _Bool stop; // @synthesize stop=_stop;
-@property(readonly, nonatomic) _Bool stopIfAnyGoodLayout; // @synthesize stopIfAnyGoodLayout=_stopIfAnyGoodLayout;
-@property(readonly, nonatomic) double tileAspectRatio; // @synthesize tileAspectRatio=_tileAspectRatio;
 
 @end
 

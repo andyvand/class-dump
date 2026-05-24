@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface POMMESSchemaPOMMESKnowledgeFallbackTurnOffAlwaysPromptConfirmationShown : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_pommesSessionId;
-    _Bool _hasPommesSessionId;
 }
 
 - (void);
@@ -22,18 +21,16 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)ASDSubscriptionEntitlementsNewsDidChangeNotification;
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id)ummary;
+- (_Bool)adding incompatible group photo to delete table;
+- (id);
+- (id);
+- (id)_pnrodIntelligenceFlowSessionSummary;
 - (id)engthInCharactersTargetContact;
 - (void)targetAttribute;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPommesSessionId; // @synthesize hasPommesSessionId=_hasPommesSessionId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *pommesSessionId; // @synthesize pommesSessionId=_pommesSessionId;
 
 @end

@@ -5,5 +5,8 @@
 //
 
 @protocol FamilyControls.FamilyControlsAgentDataAccess
+- (void)Format (WFDateFormatStyle);
+- (void)rmat patterns from Unicode Technical Standard #35 (unicode.org/reports/tr35/tr35-31/tr35-dates.html#Date_Format_Patterns).;
+- (void)WFTakeScreenshotActionInteractiveSelectionType;
 @end
 

@@ -7,14 +7,15 @@
 @class UIColor;
 
 @protocol AKStrokedAnnotationProtocol
+- (UIColor *)oogle.ba;
+- (UIColor *)knowledgegraphshares;
+- (UIColor *)r"16;
+- (void)MG;
+- (void)PS;
+- (void)k_invoke;
+- (void);
 
 // Remaining properties
-@property long long brushStyle;
-@property(getter=isDashed) _Bool dashed;
-@property _Bool hasShadow;
-@property(copy) UIColor *strokeColor;
-@property(retain) UIColor *strokeColorHDR;
-@property(retain) UIColor *strokeColorSDR;
 @property double strokeWidth;
 @end
 

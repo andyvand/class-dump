@@ -7,20 +7,18 @@
 @interface BPSApproxPercentileDigestCentroid
 {
     float _mean;
-    unsigned int _weight;
 }
 
 - (id);
 - (void);
 - (float);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)AVPlaybackRouteSelecting_Private;
 - (unsigned int);
 - (void);
 
 // Remaining properties
 @property(nonatomic) float mean; // @synthesize mean=_mean;
-@property(nonatomic) unsigned int weight; // @synthesize weight=_weight;
 
 @end
 

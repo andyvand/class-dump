@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PGGraphMeaningNode;
+@class PGGraphMeaningNode;
 
 @interface PGZeroKeywordMapping
 {
     PGGraphMeaningNode *_displayNode;
-    NSArray *_mappedMeaningNodes;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)_workspaceManager;
 - (void)odal-V1.0_DEPRECATED;
 
 // Remaining properties
 @property(readonly, nonatomic) PGGraphMeaningNode *displayNode; // @synthesize displayNode=_displayNode;
-@property(readonly, nonatomic) NSArray *mappedMeaningNodes; // @synthesize mappedMeaningNodes=_mappedMeaningNodes;
 
 @end
 

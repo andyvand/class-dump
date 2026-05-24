@@ -6,23 +6,19 @@
 
 #import <HomeKitBackingStore/HMBLocalZoneQueryResultRecordColumns.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMBLocalZoneQueryResultAllOfType : HMBLocalZoneQueryResultRecordColumns
 {
     int _modelClassNameOffset;
-    NSString *_modelClassName;
 }
 
 - (int);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)P;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *modelClassName; // @synthesize modelClassName=_modelClassName;
 @property(readonly, nonatomic) int modelClassNameOffset; // @synthesize modelClassNameOffset=_modelClassNameOffset;
 
 @end

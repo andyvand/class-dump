@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBundle, NSImage, NSObject;
-@protocol OS_dispatch_queue;
+@class NSImage;
 
 @interface BUIImage
 {
     NSImage *_splitBatteryEndImage;
-    NSImage *_splitBatteryHeadImage;
-    NSImage *_splitBatteryStretchImage;
-    NSImage *_batLevelBlackCapLeftImage;
-    NSImage *_batLevelBlackCapRightImage;
-    NSImage *_batLevelBlackMiddleImage;
-    NSImage *_batLevelRedCapLeftImage;
-    NSImage *_batLevelRedCapRightImage;
-    NSImage *_batLevelRedMiddleImage;
-    NSBundle *_bundle;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (id);
@@ -40,7 +29,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)R;
 - (id);
 - (id);
 - (id);
@@ -56,31 +45,14 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)P;
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSImage *badBatteryImage; // @dynamic badBatteryImage;
-@property(retain) NSImage *batLevelBlackCapLeftImage; // @synthesize batLevelBlackCapLeftImage=_batLevelBlackCapLeftImage;
-@property(retain) NSImage *batLevelBlackCapRightImage; // @synthesize batLevelBlackCapRightImage=_batLevelBlackCapRightImage;
-@property(retain) NSImage *batLevelBlackMiddleImage; // @synthesize batLevelBlackMiddleImage=_batLevelBlackMiddleImage;
-@property(retain) NSImage *batLevelRedCapLeftImage; // @synthesize batLevelRedCapLeftImage=_batLevelRedCapLeftImage;
-@property(retain) NSImage *batLevelRedCapRightImage; // @synthesize batLevelRedCapRightImage=_batLevelRedCapRightImage;
-@property(retain) NSImage *batLevelRedMiddleImage; // @synthesize batLevelRedMiddleImage=_batLevelRedMiddleImage;
-@property(readonly) NSImage *batteryChargedImage; // @dynamic batteryChargedImage;
-@property(readonly) NSImage *batteryChargingImage; // @dynamic batteryChargingImage;
-@property(readonly) NSImage *batteryChimeFill;
-@property(readonly) NSImage *batteryChimeOutline;
-@property(retain) NSBundle *bundle; // @synthesize bundle=_bundle;
-@property(readonly) NSImage *emptyBatteryImage;
-@property(readonly) NSImage *noBatteriesImage; // @dynamic noBatteriesImage;
 @property(retain) NSImage *splitBatteryEndImage; // @synthesize splitBatteryEndImage=_splitBatteryEndImage;
-@property(retain) NSImage *splitBatteryHeadImage; // @synthesize splitBatteryHeadImage=_splitBatteryHeadImage;
-@property(retain) NSImage *splitBatteryStretchImage; // @synthesize splitBatteryStretchImage=_splitBatteryStretchImage;
-@property(retain) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

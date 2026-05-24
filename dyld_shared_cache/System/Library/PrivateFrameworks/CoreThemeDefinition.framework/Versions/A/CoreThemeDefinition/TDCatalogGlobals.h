@@ -7,12 +7,6 @@
 @interface TDCatalogGlobals
 {
     unsigned long long _defaultBlendMode;
-    _Bool _allowsVibrancy;
-    _Bool _supportsWhitePointAdjustments;
-    _Bool _supportsBrightnessAdjustments;
-    _Bool _allowsSystemTintColors;
-    _Bool _allowsCustomTintColors;
-    _Bool _supportsMultipleAppearancesForEffects;
 }
 
 - (_Bool);
@@ -21,10 +15,10 @@
 - (void);
 - (void);
 - (void);
+- (void)w;
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -32,13 +26,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsCustomTintColors;
-@property(nonatomic) _Bool allowsSystemTintColors;
-@property(nonatomic) _Bool allowsVibrancy;
 @property(nonatomic) unsigned long long defaultBlendMode;
-@property(nonatomic) _Bool supportsBrightnessAdjustments;
-@property(nonatomic) _Bool supportsMultipleAppearancesForEffects;
-@property(nonatomic) _Bool supportsWhitePointAdjustments;
 
 @end
 

@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface _SNClassificationResult
 {
     id impl;
-    id cachedClassifications;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void)F9;
 - (id);
 - (id);
 - (id);
@@ -25,7 +24,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (long long);
 - (_Bool);
 - (void);
@@ -35,10 +34,6 @@
 
 // Remaining properties
 @property(nonatomic, copy) NSDictionary *classificationDictionary;
-@property(nonatomic, copy) NSString *classifierIdentifier;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic) CDStruct_3c1748cc timeRange;
 
 @end
 

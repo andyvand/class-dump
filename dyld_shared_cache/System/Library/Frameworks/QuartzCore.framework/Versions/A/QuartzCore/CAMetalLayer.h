@@ -6,48 +6,16 @@
 
 #import <QuartzCore/CALayer.h>
 
-@class CADisplay, CAEDRMetadata, NSDictionary;
-@protocol MTLDevice, MTLResidencySet;
-
 @interface CAMetalLayer : CALayer
 {
     void *_priv;
-    CADisplay *_cachedDisplay;
 }
 
 + (_Bool);
 + (id);
 
 // Remaining properties
-@property(retain) CAEDRMetadata *EDRMetadata;
-@property(nonatomic) _Bool allowsDisplayCompositingWithCopy;
-@property _Bool allowsNextDrawableTimeout;
-@property(retain, nonatomic) CADisplay *cachedDisplay; // @synthesize cachedDisplay=_cachedDisplay;
-@property struct CGColorSpace *colorspace;
-@property(copy) NSDictionary *developerHUDProperties;
-@property(retain) id <MTLDevice> device;
-@property(nonatomic) _Bool disableFIFO;
-@property(readonly, nonatomic) unsigned long long displayCompositingInternalStatus;
-@property _Bool displaySyncEnabled;
-@property struct CGSize drawableSize;
-@property(nonatomic) double drawableTimeoutSeconds;
 @property(nonatomic) _Bool fenceEnabled;
-@property _Bool framebufferOnly;
-@property(nonatomic) _Bool lowLatency;
-@property(nonatomic) _Bool lowWorkload;
-@property unsigned long long maximumDrawableCount;
-@property(nonatomic) _Bool muxLockEnabled;
-@property(nonatomic) _Bool nonDefaultColorspace;
-@property unsigned long long pixelFormat;
-@property(readonly) id <MTLDevice> preferredDevice;
-@property(nonatomic) _Bool premultiplied;
-@property _Bool presentsWithTransaction;
-@property(nonatomic) unsigned long long protectionOptions;
-@property(readonly) id <MTLResidencySet> residencySet;
-@property(nonatomic) _Bool serverSyncEnabled;
-@property(nonatomic) unsigned long long textureUsage;
-@property _Bool wantsExtendedDynamicRangeContent; // @dynamic wantsExtendedDynamicRangeContent;
-@property(nonatomic) _Bool wantsIOSurfaceCompression;
 
 @end
 

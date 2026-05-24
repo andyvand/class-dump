@@ -5,5 +5,7 @@
 //
 
 @protocol CNGeminiLogger
+- (void);
+- (void)T;
 @end
 

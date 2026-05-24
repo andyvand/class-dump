@@ -11,7 +11,7 @@
     QCPort *_port;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);

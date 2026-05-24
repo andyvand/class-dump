@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SILogicalTimestamp, SIOrderedEventInternal;
+@class SIOrderedEventInternal;
 
 @interface SIOrderedEvent
 {
     SIOrderedEventInternal *_underlying;
-    SILogicalTimestamp *_underlyingTimestamp;
 }
 
 @end

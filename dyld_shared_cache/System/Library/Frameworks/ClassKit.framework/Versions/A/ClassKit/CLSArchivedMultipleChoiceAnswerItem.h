@@ -6,21 +6,19 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CLSArchivedMultipleChoiceAnswerItem : CLSObject
 {
     NSString *_itemText;
-    long long _displayOrder;
-    NSArray *assets;
 }
 
 + (id);
-+ (_Bool);
-- (void);
++ (_Bool)_bodyDictionaryWithProtocolVersion: /* Error: Ran out of types for this method. */;
+- (void)erf tracer category;
 - (id);
-- (long long);
-- (id);
+- (long long);
+- (id)`;
 - (void);
 - (id);
 - (id);
@@ -29,16 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *assets; // @synthesize assets;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long displayOrder;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *itemText;
-@property(readonly) Class superclass;
 
 @end
 

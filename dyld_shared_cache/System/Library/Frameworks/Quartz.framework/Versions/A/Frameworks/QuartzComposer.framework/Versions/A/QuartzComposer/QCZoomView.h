@@ -7,14 +7,9 @@
 @interface QCZoomView
 {
     struct CGPoint _cachedCenter;
-    double _cachedZoomFactorX;
-    double _cachedZoomFactorY;
-    double _zoomFactorX;
-    double _zoomFactorY;
-    void *_unused[4];
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

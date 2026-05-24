@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, _DKDataProtectionMonitor;
+@class _DKDataProtectionMonitor;
 
 @interface _DKDataProtectionStateMonitor
 {
     _DKDataProtectionMonitor *_main;
-    NSUUID *_handlerUUID;
-    CDUnknownBlockType _changeHandler;
 }
 
 - (void);
 - (_Bool);
-- (id);
-- (void);
+- (id)CARenderUpdateSetSecureIndicatorsEnabled;
+- (void)_AMFDRDecodeEvaluateCertificateProperties;
 - (CDUnknownBlockType);
 - (void)0@ù
 × ;

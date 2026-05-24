@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDNetworkRouterClientConfiguration, HMDNetworkRouterControlOperation, NSString;
+@class HMDNetworkRouterControlOperation;
 
 __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterClientControlOperation
 {
     HMDNetworkRouterControlOperation *_operation;
-    HMDNetworkRouterClientConfiguration *_configuration;
 }
 
-+ (id);
-- (id);
++ (id)momentIsLongTimeNoSeeForPeopleWithMomentNode:(id)arg1;
+- (id)d %lu routingPathLegs for %lu waypoints, dropping %lu leading waypoints;
 - (id);
 - (id);
 - (id);
@@ -22,21 +21,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (id)oContributeActivityStates;
+- (id)isAllowedToContributeActivityStates;
 - (void)ekit.location-feedback-debug;
 - (id)ESIDENT_LOCATION_AWAY;
 - (void)SÿWg"ÜÓ>;
 
 // Remaining properties
-@property(retain, nonatomic) HMDNetworkRouterClientConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) HMDNetworkRouterControlOperation *operation; // @synthesize operation=_operation;
-@property(readonly) Class superclass;
 
 @end
 

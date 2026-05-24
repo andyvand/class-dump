@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IFJS_Context, NSMutableSet, NSObject, NSString, PKDistributionScript, PKDistributionValueNode;
-@protocol OS_dispatch_group, OS_dispatch_queue;
-
 @interface PKDistributionEvaluator
 {
     struct OpaqueJSContext *_context;
-    IFJS_Context *_globalObject;
-    NSObject<OS_dispatch_queue> *_evaluationQueue;
-    NSObject<OS_dispatch_group> *_evaluationGroup;
-    NSObject<OS_dispatch_queue> *_notifyQueue;
-    PKDistributionValueNode *_nodeBeingEvaluated;
-    PKDistributionScript *_unevaluatedTopScript;
-    NSMutableSet *_registeredNodes;
-    _Bool _isTerminating;
-    _Bool _isEnabled;
 }
 
 - (void);
@@ -30,27 +18,20 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (struct OpaqueJSContext *);
+- (id)roup>";
+- (struct OpaqueJSContext *)PLManagedObjectContextFinishedRemoteMergeNotification;
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)`;
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property _Bool enabled; // @synthesize enabled=_isEnabled;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

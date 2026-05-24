@@ -6,21 +6,19 @@
 
 #import <LinkPresentation/LPPlayButtonControl.h>
 
-@class LPAudioPlayerMediaPlayableAdaptor;
 @protocol LPAudioPlayer;
 
 __attribute__((visibility("hidden")))
 @interface LPStreamingAudioPlayButtonControl : LPPlayButtonControl
 {
     id <LPAudioPlayer> _player;
-    LPAudioPlayerMediaPlayableAdaptor *_playableAdaptor;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)textDroppableView:(id)arg1 dropSessionDidUpdate:(id)arg2;
+- (void)tableView:(id)arg1 willDisplayContextMenuWithConfiguration:animator: /* Error: Ran out of types for this method. */;
+- (void)tableView:(id)arg1 willDisplayCell:(unsigned long long)arg2 forRowAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)tableView:(id)arg1 willDeselectRowAtIndexPath:(float)arg2;
+- (void)MKMapService;
 - (void);
 - (id);
 - (void)0@ù

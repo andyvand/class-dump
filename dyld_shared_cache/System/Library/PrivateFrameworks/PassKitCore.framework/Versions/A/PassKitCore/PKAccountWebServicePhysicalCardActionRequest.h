@@ -6,18 +6,11 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class NSData, NSString, NSURL, PKApplePayTrustHashResponse, PKPaymentDeviceMetadata, PKPhysicalCardAction;
+@class NSString, NSURL;
 
 @interface PKAccountWebServicePhysicalCardActionRequest : PKAccountWebServiceRequest
 {
     NSURL *baseURL;
-    PKApplePayTrustHashResponse *hashResponse;
-    NSData *_publicKeyHash;
-    NSString *_accountIdentifier;
-    NSString *_accountUserAltDSID;
-    NSString *_physicalCardIdentifier;
-    PKPhysicalCardAction *_action;
-    PKPaymentDeviceMetadata *_deviceMetadata;
 }
 
 + (_Bool);
@@ -36,31 +29,17 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)a;
 - (id)unts;
 - (void)4**l-;
 - (id)pe for the best;
-- (void)_DELETED_TITLE;
+- (void)NEARBY_ERROR_RECEIVER_WALLET_DELETED_TITLE;
 - (void);
 - (id)ô#iX+;
 - (void)l(µ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(copy, nonatomic) NSString *accountUserAltDSID; // @synthesize accountUserAltDSID=_accountUserAltDSID;
-@property(retain, nonatomic) PKPhysicalCardAction *action; // @synthesize action=_action;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) PKPaymentDeviceMetadata *deviceMetadata; // @synthesize deviceMetadata=_deviceMetadata;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PKApplePayTrustHashResponse *hashResponse; // @synthesize hashResponse;
-@property(copy, nonatomic) NSString *physicalCardIdentifier; // @synthesize physicalCardIdentifier=_physicalCardIdentifier;
-@property(copy, nonatomic) NSData *publicKeyHash; // @synthesize publicKeyHash=_publicKeyHash;
-@property(readonly) Class superclass;
 
 @end
 

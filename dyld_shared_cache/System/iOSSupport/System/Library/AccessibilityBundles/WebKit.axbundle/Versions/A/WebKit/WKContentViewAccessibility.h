@@ -21,13 +21,13 @@
 - (void);
 - (struct CGPoint);
 - (struct CGRect);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (id);
 - (int);
 - (void);
-- (id);
+- (id)	;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -36,7 +36,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (long long);
@@ -47,21 +47,21 @@
 - (_Bool);
 - (void);
 - (void);
-- (struct CGRect);
+- (struct CGRect)_EXHostSessionStateViewControllerRequested;
 - (void);
 - (void);
-- (void);
+- (void)B;
 - (id);
 - (unsigned long long);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void)racters;
+- (void)_characters;
 - (void)hÓÿÿÌ;
 
 @end

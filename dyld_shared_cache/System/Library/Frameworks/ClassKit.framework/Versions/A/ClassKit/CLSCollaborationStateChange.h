@@ -6,75 +6,74 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class NSArray, NSMutableArray, NSMutableSet, NSSet, NSString;
+@class NSString;
 
 @interface CLSCollaborationStateChange : CLSObject
 {
     NSString *_ownerPersonID;
-    NSString *_targetObjectID;
-    NSString *_targetEntityName;
-    NSString *_targetClassID;
-    NSString *_senderPersonID;
-    NSString *_recipientPersonID;
-    NSMutableSet *_changedDomains;
-    NSMutableArray *_states;
-    NSSet *_deletedDomains;
 }
 
-+ (_Bool);
++ (_Bool)_codeLength;
+- (id), transactionId:%llx, statusType:0x%x, status:0x%x
+ /* Error: Ran out of types for this method. */;
+- (id)cesIn:%s programHanlde:0x%llx, transactionId:%llx, statusType:0x%x, status:0x%x
+ /* Error: Ran out of types for this method. */;
+- (id)ed
+;
+- (void)Multi-ANE System) Could not open ANEServices device at index %d. Skipping device...
+;
+- (void)es device at index %d
+;
+- (void)ANE System) Skipping ANEServices device at index %d
+;
+- (_Bool)Multi-ANE System) ANEServices device not powered, retry %d out of %d
+;
+- (void)r - status=0x%x
+;
+- (void)sed from ProgramDefinition :(id)arg1 %s;
+- (void)x
+;
+- (_Bool)D:(id)arg1 0x%llx, statsBufferPool->allocateBuffer failed:(long long)arg2 0x%x
+;
+- (_Bool)lback=%p 
+;
+- (_Bool)ningActiveParams=%p
+;
+- (_Bool)wering priority to kANEProgramPriority2 0x%08X;
+- (void)ULL
+;
+- (_Bool):(id)arg1 %s:(long long)arg2 Failed to write file %s:(Count %ld, expected count %d), errno:%d
+ /* Error: Ran out of types for this method. */;
+- (void)atch expected value (expected %ld, recv %lld)
+;
+- (_Bool)reqCb->programHandle=0x%llx;
+- (id)x procid=%x transid=%llx reqcallBackData=%llx;
+- (void)ANEServicesDeviceProgramDestroy;
+- (id)ing customer FW;
+- (id)acc_stall;
+- (void)latency_product;
+- (id)omputeProgramSection *);
 - (id);
 - (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (_Bool);
+- (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
+- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)l;
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool)7;
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *changedDomains; // @synthesize changedDomains=_changedDomains;
-@property(copy, nonatomic) NSSet *deletedDomains; // @synthesize deletedDomains=_deletedDomains;
-@property(copy, nonatomic) NSString *ownerPersonID; // @synthesize ownerPersonID=_ownerPersonID;
-@property(copy, nonatomic) NSString *recipientPersonID; // @synthesize recipientPersonID=_recipientPersonID;
-@property(copy, nonatomic) NSString *senderPersonID; // @synthesize senderPersonID=_senderPersonID;
-@property(copy, nonatomic) NSArray *states; // @synthesize states=_states;
-@property(copy, nonatomic) NSString *targetClassID; // @synthesize targetClassID=_targetClassID;
-@property(copy, nonatomic) NSString *targetEntityName; // @synthesize targetEntityName=_targetEntityName;
 @property(copy, nonatomic) NSString *targetObjectID; // @synthesize targetObjectID=_targetObjectID;
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol IMDaemonRemoteIntentProtocol
+- (void);
 @end
 

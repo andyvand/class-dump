@@ -7,19 +7,9 @@
 @interface AppStoreKit.InAppPurchaseOfferButtonPresenter
 {
     id view;
-    id buttonAction;
-    id offerDisplayProperties;
-    id restrictions;
-    id parentAppStateMachine;
-    id iapPurchaseStateMachine;
-    id theme;
-    id alignment;
-    id subtitlePosition;
-    id currentState;
-    id hasParentBeenPurchased;
 }
 
-- (void);
+- (void);
 - (void);
 
 @end

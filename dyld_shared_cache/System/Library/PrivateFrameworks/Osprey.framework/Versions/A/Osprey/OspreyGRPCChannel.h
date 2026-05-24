@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AbsintheAuthenticationDurations, NSMapTable, NSObject, NSString, NSURL, NSURLSession, OspreyMessageWriter;
-@protocol OS_dispatch_queue;
+@class AbsintheAuthenticationDurations, NSURLSession;
 
 __attribute__((visibility("hidden")))
 @interface OspreyGRPCChannel
 {
     NSURLSession *_session;
-    NSURL *_baseURL;
-    OspreyMessageWriter *_messageWriter;
-    NSMapTable *_taskToContext;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _connectionMetricsHandler;
-    AbsintheAuthenticationDurations *_absintheDurations;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -35,9 +28,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)- %p;
 - (void);
-- (void);
-- (void);
+- (void)te8NSObjectEEE;
 - (void);
 - (void);
 - (void);
@@ -46,14 +39,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) AbsintheAuthenticationDurations *absintheDurations; // @synthesize absintheDurations=_absintheDurations;
-@property(copy, nonatomic) CDUnknownBlockType connectionMetricsHandler; // @synthesize connectionMetricsHandler=_connectionMetricsHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

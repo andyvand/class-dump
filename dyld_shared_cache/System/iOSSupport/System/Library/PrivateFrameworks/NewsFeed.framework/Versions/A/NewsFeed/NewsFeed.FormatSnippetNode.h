@@ -7,12 +7,6 @@
 @interface NewsFeed.FormatSnippetNode
 {
     id _identifier;
-    id snippetIdentifier;
-    id _name;
-    id _description;
-    id _selectors;
-    id _options;
-    id _blocks;
 }
 
 @end

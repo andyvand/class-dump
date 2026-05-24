@@ -4,39 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-@protocol VCAudioIOControllerDelegate;
-
 __attribute__((visibility("hidden")))
 @interface VCAudioIOControllerClient
 {
     id _delegate;
-    struct tagVCAudioFrameFormat _clientFormat;
-    struct tagVCAudioFrameFormat _controllerFormat;
-    int _deviceRole;
-    _Bool _allowAudioRecording;
-    int _operatingMode;
-    _Bool _isRemoteCodecInfoValid;
-    unsigned int _remoteCodecType;
-    double _remoteCodecSampleRate;
-    _Bool _isRemoteVersionInfoValid;
-    struct VoiceIOFarEndVersionInfo _farEndVersionInfo;
-    int _clientPid;
-    _Bool _isInputMeteringEnabled;
-    _Bool _isOutputMeteringEnabled;
-    unsigned char _direction;
-    struct _VCAudioIOControllerClientIO _sinkIO;
-    struct _VCAudioIOControllerClientIO _sourceIO;
-    unsigned int _audioSessionId;
-    _Bool _isPrewarmingClient;
-    unsigned long long _spatialToken;
-    _Bool _networkUplinkClockUsesBaseband;
-    NSArray *_processIdentifiersForAudioTap;
-    long long _muteBehaviorForAudioTap;
-    _Bool _spatialAudioDisabled;
-    _Bool _optOutOfSmartRouting;
-    _Bool _prefersRealtimeCatchUp;
-    unsigned int _channelIndex;
 }
 
 - (unsigned long long);
@@ -47,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -63,12 +34,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (id);
-- (_Bool);
+- (_Bool)(;
 - (_Bool);
 - (int);
 - (_Bool);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -79,7 +50,7 @@ __attribute__((visibility("hidden")))
 - (struct VoiceIOFarEndVersionInfo);
 - (int);
 - (const struct tagVCAudioFrameFormat *);
-- (const struct tagVCAudioFrameFormat *);
+- (const struct tagVCAudioFrameFormat *)}\;
 - (unsigned int);
 - (_Bool);
 - (unsigned int);
@@ -88,40 +59,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (unsigned char)entType: /* Error: Ran out of types for this method. */;
-- (int)ts: /* Error: Ran out of types for this method. */;
+- (unsigned char)setReportingClientType: /* Error: Ran out of types for this method. */;
+- (int)enqueueFrame:atTime:cameraStatusBits: /* Error: Ran out of types for this method. */;
 - (void)raZoom not available;
 
 // Remaining properties
-@property(nonatomic) _Bool allowAudioRecording; // @synthesize allowAudioRecording=_allowAudioRecording;
-@property(readonly, nonatomic) unsigned int audioSessionId; // @synthesize audioSessionId=_audioSessionId;
-@property(nonatomic) unsigned int channelIndex; // @synthesize channelIndex=_channelIndex;
-@property(readonly, nonatomic) const struct tagVCAudioFrameFormat *clientFormat;
 @property(readonly, nonatomic) int clientPid; // @synthesize clientPid=_clientPid;
-@property(nonatomic) const struct tagVCAudioFrameFormat *controllerFormat;
-@property(readonly, nonatomic) id <VCAudioIOControllerDelegate> delegate;
-@property(nonatomic) int deviceRole; // @synthesize deviceRole=_deviceRole;
-@property(nonatomic) unsigned char direction; // @synthesize direction=_direction;
-@property(readonly, nonatomic) struct VoiceIOFarEndVersionInfo farEndVersionInfo; // @synthesize farEndVersionInfo=_farEndVersionInfo;
-@property(nonatomic, getter=isInputMeteringEnabled) _Bool inputMeteringEnabled; // @synthesize inputMeteringEnabled=_isInputMeteringEnabled;
-@property(nonatomic) _Bool isMediaPriorityEnabled;
-@property(readonly, nonatomic) _Bool isPrewarmingClient; // @synthesize isPrewarmingClient=_isPrewarmingClient;
-@property(readonly, nonatomic) _Bool isRemoteCodecInfoValid; // @synthesize isRemoteCodecInfoValid=_isRemoteCodecInfoValid;
-@property(readonly, nonatomic) _Bool isRemoteVersionInfoValid; // @synthesize isRemoteVersionInfoValid=_isRemoteVersionInfoValid;
-@property(nonatomic) _Bool isVoiceActivityEnabled;
-@property(nonatomic) long long muteBehaviorForAudioTap; // @synthesize muteBehaviorForAudioTap=_muteBehaviorForAudioTap;
-@property(nonatomic) _Bool networkUplinkClockUsesBaseband; // @synthesize networkUplinkClockUsesBaseband=_networkUplinkClockUsesBaseband;
-@property(nonatomic) int operatingMode; // @synthesize operatingMode=_operatingMode;
-@property(nonatomic) _Bool optOutOfSmartRouting; // @synthesize optOutOfSmartRouting=_optOutOfSmartRouting;
-@property(nonatomic, getter=isOuputMeteringEnabled) _Bool outputMeteringEnabled; // @synthesize outputMeteringEnabled=_isOutputMeteringEnabled;
-@property(nonatomic) _Bool prefersRealtimeCatchUp; // @synthesize prefersRealtimeCatchUp=_prefersRealtimeCatchUp;
-@property(copy, nonatomic) NSArray *processIdentifiersForAudioTap; // @synthesize processIdentifiersForAudioTap=_processIdentifiersForAudioTap;
-@property(readonly, nonatomic) double remoteCodecSampleRate; // @synthesize remoteCodecSampleRate=_remoteCodecSampleRate;
-@property(readonly, nonatomic) unsigned int remoteCodecType; // @synthesize remoteCodecType=_remoteCodecType;
-@property(readonly, nonatomic) struct _VCAudioIOControllerClientIO *sinkIO;
-@property(readonly, nonatomic) struct _VCAudioIOControllerClientIO *sourceIO;
-@property(nonatomic) _Bool spatialAudioDisabled; // @synthesize spatialAudioDisabled=_spatialAudioDisabled;
-@property(nonatomic) unsigned long long spatialToken; // @synthesize spatialToken=_spatialToken;
 
 @end
 

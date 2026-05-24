@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface NSTMatrix
 {
     long long fRows;
-    long long fColumns;
-    double **fValues;
 }
 
 + (id);

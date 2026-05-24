@@ -9,8 +9,6 @@
 @interface PPFeatureRedactorGuardedData
 {
     NSDictionary *_allowedFeatures;
-    _Bool _shouldRedactFeatures;
-    _Bool _shouldTranslateAllowedFeatures;
 }
 
 - (void)ontact";

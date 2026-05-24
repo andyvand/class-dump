@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class INFERENCESchemaINFERENCEPervasiveEntityResolutionCommonSignals, NSArray, NSData;
+@class INFERENCESchemaINFERENCEPervasiveEntityResolutionCommonSignals;
 
 @interface INFERENCESchemaINFERENCEPervasiveEntityResolutionGroundTruthGenerated : SISchemaInstrumentationMessage
 {
     INFERENCESchemaINFERENCEPervasiveEntityResolutionCommonSignals *_commonSignals;
-    NSArray *_choiceDependentSignals;
-    _Bool _hasCommonSignals;
 }
 
 - (void);
@@ -28,7 +26,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)#;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -37,14 +35,11 @@
 - (id)!\BùÑßð1Â0@ù
 × ;
 - (id)denyListedCategories;
-- (id)SSchemaPEGASUSRequestStarted;
+- (id)PEGASUSSchemaPEGASUSRequestStarted;
 - (void)s_";
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *choiceDependentSignals; // @synthesize choiceDependentSignals=_choiceDependentSignals;
 @property(retain, nonatomic) INFERENCESchemaINFERENCEPervasiveEntityResolutionCommonSignals *commonSignals; // @synthesize commonSignals=_commonSignals;
-@property(nonatomic) _Bool hasCommonSignals; // @synthesize hasCommonSignals=_hasCommonSignals;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

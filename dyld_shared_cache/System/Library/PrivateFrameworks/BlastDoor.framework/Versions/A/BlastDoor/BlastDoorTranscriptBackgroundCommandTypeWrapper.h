@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorBackgroundRequestInfo, BlastDoorBackgroundUpdateInfo, NSString;
+@class NSString;
 
 @interface BlastDoorTranscriptBackgroundCommandTypeWrapper
 {
@@ -17,16 +17,11 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)sharedInstanceQueue;
 - (void)\?;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) BlastDoorBackgroundUpdateInfo *refresh;
-@property(nonatomic, readonly) BlastDoorBackgroundRequestInfo *request;
-@property(nonatomic, readonly) BlastDoorBackgroundUpdateInfo *requestResponse;
-@property(nonatomic, readonly) unsigned long long type;
-@property(nonatomic, readonly) BlastDoorBackgroundUpdateInfo *update;
 
 @end
 

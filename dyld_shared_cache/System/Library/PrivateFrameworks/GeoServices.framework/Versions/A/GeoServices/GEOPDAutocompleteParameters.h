@@ -4,56 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDAutocompleteFilter, GEOPDAutocompleteParametersAddressOnly, GEOPDAutocompleteParametersAllEntries, GEOPDAutocompleteParametersAllEntriesWithBrowse, GEOPDAutocompleteParametersBrandProfileSearch, GEOPDAutocompleteParametersCollectionOnly, GEOPDAutocompleteParametersFullEntriesOnly, GEOPDAutocompleteParametersLocalitiesAndLandmarks, GEOPDAutocompleteParametersOfflineRegionSearch, GEOPDAutocompleteParametersPoiAddressOnly, GEOPDAutocompleteParametersSiriSearch, GEOPDAutocompleteParametersVenueSearch, GEOPDAutocompleteSessionData, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPDAutocompleteParameters
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _supportedClientResolvedTypeWithSetupPrompts;
-    GEOPDAutocompleteParametersAddressOnly *_addressOnly;
-    GEOPDAutocompleteParametersAllEntriesWithBrowse *_allEntriesWithBrowse;
-    GEOPDAutocompleteParametersAllEntries *_allEntries;
-    GEOPDAutocompleteFilter *_autocompleteFilter;
-    GEOPDAutocompleteSessionData *_autocompleteSessionData;
-    GEOPDAutocompleteParametersBrandProfileSearch *_brandProfileSearch;
-    GEOPDAutocompleteParametersCollectionOnly *_collectionOnly;
-    GEOPDAutocompleteParametersFullEntriesOnly *_fullEntries;
-    GEOPDAutocompleteParametersLocalitiesAndLandmarks *_localitiesAndLandmarks;
-    GEOPDAutocompleteParametersOfflineRegionSearch *_offlineRegionSearch;
-    GEOPDAutocompleteParametersPoiAddressOnly *_poiAddressOnly;
-    GEOPDAutocompleteParametersSiriSearch *_siriSearch;
-    GEOPDAutocompleteParametersVenueSearch *_venueSearch;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _requestType;
-    _Bool _shouldPopulateMapsIdentifier;
-    _Bool _supportAutocompleteSessionData;
-    struct {
-        unsigned int has_requestType:1;
-        unsigned int has_shouldPopulateMapsIdentifier:1;
-        unsigned int has_supportAutocompleteSessionData:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_supportedClientResolvedTypeWithSetupPrompts:1;
-        unsigned int read_addressOnly:1;
-        unsigned int read_allEntriesWithBrowse:1;
-        unsigned int read_allEntries:1;
-        unsigned int read_autocompleteFilter:1;
-        unsigned int read_autocompleteSessionData:1;
-        unsigned int read_brandProfileSearch:1;
-        unsigned int read_collectionOnly:1;
-        unsigned int read_fullEntries:1;
-        unsigned int read_localitiesAndLandmarks:1;
-        unsigned int read_offlineRegionSearch:1;
-        unsigned int read_poiAddressOnly:1;
-        unsigned int read_siriSearch:1;
-        unsigned int read_venueSearch:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)own:(id)arg1;
++ (_Bool)setHasWeatherShown:(id)arg1;
 - (id);
 - (unsigned long long);
 - (id);
@@ -69,17 +27,18 @@
 - (void);
 - (void);
 - (void);
+- (void)I;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
+- (_Bool)B;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -92,8 +51,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
@@ -116,18 +74,18 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)CSSoftwareUpdateCheckingMonitor:didReceiveStateChanged: /* Error: Ran out of types for this method. */;
+- (void)lingXPCClient processRCWithId:(id)arg1 requestId:speechPackage:taskId:forceAccept:completionHandler:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)rfc5054_8192;
 - (id)Locations"b1"read_lastKnownRoadLocation"b1"wrote_anyField"b1};
 - (_Bool)leKey=b6b64b14b4(?={?=b10b10b12}{?=b10b22}I)}{_GEORegionalResourceKey=b32b8b6b8b8b1b57}{_GEOSputnikMetadataKey=b32b24b14b8b42}{_GEOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24(?=I{?=b8(?={?=b14b4b4b2}{?=b8b16})})32@36C44@48@56;
-- (id)equest;
+- (id)_addedSpecialRequest;
 - (id)@¸2;
 - (id)FROM shiftresponse                WHERE time < @time    ) AND data.rowid NOT IN (            SELECT data_pk                FROM subscription_data_refs    );;
 - (int);
@@ -180,41 +138,7 @@ deprecated (:false
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) GEOPDAutocompleteParametersAddressOnly *addressOnly;
-@property(retain, nonatomic) GEOPDAutocompleteParametersAllEntries *allEntries;
-@property(retain, nonatomic) GEOPDAutocompleteParametersAllEntriesWithBrowse *allEntriesWithBrowse;
-@property(retain, nonatomic) GEOPDAutocompleteFilter *autocompleteFilter;
-@property(retain, nonatomic) GEOPDAutocompleteSessionData *autocompleteSessionData;
-@property(retain, nonatomic) GEOPDAutocompleteParametersBrandProfileSearch *brandProfileSearch;
-@property(retain, nonatomic) GEOPDAutocompleteParametersCollectionOnly *collectionOnly;
-@property(retain, nonatomic) GEOPDAutocompleteParametersFullEntriesOnly *fullEntries;
-@property(readonly, nonatomic) _Bool hasAddressOnly;
-@property(readonly, nonatomic) _Bool hasAllEntries;
-@property(readonly, nonatomic) _Bool hasAllEntriesWithBrowse;
-@property(readonly, nonatomic) _Bool hasAutocompleteFilter;
-@property(readonly, nonatomic) _Bool hasAutocompleteSessionData;
-@property(readonly, nonatomic) _Bool hasBrandProfileSearch;
-@property(readonly, nonatomic) _Bool hasCollectionOnly;
-@property(readonly, nonatomic) _Bool hasFullEntries;
-@property(readonly, nonatomic) _Bool hasLocalitiesAndLandmarks;
-@property(readonly, nonatomic) _Bool hasOfflineRegionSearch;
-@property(readonly, nonatomic) _Bool hasPoiAddressOnly;
 @property(nonatomic) _Bool hasRequestType;
-@property(nonatomic) _Bool hasShouldPopulateMapsIdentifier;
-@property(readonly, nonatomic) _Bool hasSiriSearch;
-@property(nonatomic) _Bool hasSupportAutocompleteSessionData;
-@property(readonly, nonatomic) _Bool hasVenueSearch;
-@property(retain, nonatomic) GEOPDAutocompleteParametersLocalitiesAndLandmarks *localitiesAndLandmarks;
-@property(retain, nonatomic) GEOPDAutocompleteParametersOfflineRegionSearch *offlineRegionSearch;
-@property(retain, nonatomic) GEOPDAutocompleteParametersPoiAddressOnly *poiAddressOnly;
-@property(nonatomic) int requestType;
-@property(nonatomic) _Bool shouldPopulateMapsIdentifier;
-@property(retain, nonatomic) GEOPDAutocompleteParametersSiriSearch *siriSearch;
-@property(nonatomic) _Bool supportAutocompleteSessionData;
-@property(readonly, nonatomic) int *supportedClientResolvedTypeWithSetupPrompts;
-@property(readonly, nonatomic) unsigned long long supportedClientResolvedTypeWithSetupPromptsCount;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(retain, nonatomic) GEOPDAutocompleteParametersVenueSearch *venueSearch;
 
 @end
 

@@ -8,9 +8,9 @@
 {
 }
 
-+ (_Bool);
-+ (struct _NSRange);
-+ (id);
++ (_Bool)_appEntityQueryResponseTime;
++ (struct _NSRange)_anonymizedSelectedEntityIdentifier;
++ (id)dictationModel;
 
 @end
 

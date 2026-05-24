@@ -32,7 +32,7 @@
 + (long long);
 + (id);
 + (id);
-+ (void)SaveTransactionWithBlock: /* Error: Ran out of types for this method. */;
++ (void)executeSaveTransactionWithBlock: /* Error: Ran out of types for this method. */;
 
 @end
 

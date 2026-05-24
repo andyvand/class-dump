@@ -5,12 +5,11 @@
 //
 
 @protocol HMDAudioStreamInterfaceDataSource
+- (void)e}@, we haven't fetched both services yet;
 - (void)Ü;
 - (_Bool)d currentSuggestedPresetHandle:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(getter=isMuted) _Bool muted;
-@property(readonly) _Bool supportsPHASE;
 @property(readonly) _Bool usesGlobalMuting;
 @end
 

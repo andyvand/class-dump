@@ -13,7 +13,7 @@
 + (Class);
 + (Class);
 + (id);
-+ (Class);
++ (Class)h.;
 + (Class);
 + (Class);
 + (id)kCADisplayNone(void);

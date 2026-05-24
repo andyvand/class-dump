@@ -15,7 +15,7 @@
 + (void);
 - (void);
 - (void);
-- (id);
+- (id)iew";
 - (void);
 - (void);
 - (id);

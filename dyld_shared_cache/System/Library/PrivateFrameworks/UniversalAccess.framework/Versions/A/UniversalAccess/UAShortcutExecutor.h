@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface UAShortcutExecutor
@@ -13,26 +13,19 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
+- (void)iled";
+- (void)itSchemaHKClientEvent";
+- (id)okenInSeconds"b1"responseCharactersCount"b1"responseTimeInMilliseconds"b1};
+- (void)ATPnRMetrics";
+- (void)TLoadScreenContentEventEnded";
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)setupArrayForTableName:(id)arg1 forColumnNamed:(id)arg2 withValueType:(id)arg3 withShouldIndexFKID:(_Bool)arg4;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *_stateByIdentifier; // @synthesize _stateByIdentifier=__stateByIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

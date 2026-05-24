@@ -8,13 +8,13 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)stOptions";
++ (id)NSDictionary"16;
++ (id)ror"16;
++ (id)6;
++ (id)0:8@16@24 /* Error: Ran out of types for this method. */;
++ (id)userProfilePersonaId;
++ (id)errorWithDomain:code:userInfo: /* Error: Ran out of types for this method. */;
 
 @end
 

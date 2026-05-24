@@ -6,29 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class LRSchemaLRPreprocessorInfo, NSArray, NSData;
-
 @interface LRSchemaLRRedactionSummaryReported : SISchemaInstrumentationMessage
 {
     _Bool _hasRedactedEvents;
-    NSArray *_redactionWindows;
-    NSArray *_redactionSignals;
-    unsigned long long _summaryCreationTimeSince1970;
-    LRSchemaLRPreprocessorInfo *_preProcessorInfo;
-    double _messageCreationTimeSince1970;
-    NSArray *_dataClassificationManifests;
-    struct {
-        unsigned int hasRedactedEvents:1;
-        unsigned int summaryCreationTimeSince1970:1;
-        unsigned int messageCreationTimeSince1970:1;
-    } _has;
-    _Bool _hasPreProcessorInfo;
 }
 
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,7 +31,7 @@
 - (id);
 - (double);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -72,7 +58,7 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)!d@ù±ß1Â0@ù
 × ;
 - (id)RCHMUXEphemeralToAggregationIdentifierMapContext",&,N,V_ephemeralToAggregationIdentifierMap;
@@ -80,18 +66,7 @@
 - (void)ôÞßÿÎ}­;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *dataClassificationManifests; // @synthesize dataClassificationManifests=_dataClassificationManifests;
-@property(nonatomic) _Bool hasHasRedactedEvents;
-@property(nonatomic) _Bool hasMessageCreationTimeSince1970;
-@property(nonatomic) _Bool hasPreProcessorInfo; // @synthesize hasPreProcessorInfo=_hasPreProcessorInfo;
 @property(nonatomic) _Bool hasRedactedEvents; // @synthesize hasRedactedEvents=_hasRedactedEvents;
-@property(nonatomic) _Bool hasSummaryCreationTimeSince1970;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) double messageCreationTimeSince1970; // @synthesize messageCreationTimeSince1970=_messageCreationTimeSince1970;
-@property(retain, nonatomic) LRSchemaLRPreprocessorInfo *preProcessorInfo; // @synthesize preProcessorInfo=_preProcessorInfo;
-@property(copy, nonatomic) NSArray *redactionSignals; // @synthesize redactionSignals=_redactionSignals;
-@property(copy, nonatomic) NSArray *redactionWindows; // @synthesize redactionWindows=_redactionWindows;
-@property(nonatomic) unsigned long long summaryCreationTimeSince1970; // @synthesize summaryCreationTimeSince1970=_summaryCreationTimeSince1970;
 
 @end
 

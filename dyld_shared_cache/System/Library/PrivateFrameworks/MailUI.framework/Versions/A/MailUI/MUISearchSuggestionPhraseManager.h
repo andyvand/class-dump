@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSuggestion, NSArray, NSDictionary, NSString;
-@protocol EMVIPManager;
+@class NSString;
 
 @interface MUISearchSuggestionPhraseManager
 {
     _Bool _includeTopHitsAndInstantAnswers;
-    NSString *_phrase;
-    NSArray *_selectedSuggestions;
-    id <EMVIPManager> _vipManager;
-    CSSuggestion *_updatedSuggestion;
-    NSString *_scopeIdentifierForPeopleSuggestions;
-    NSArray *_inputLanguages;
-    NSDictionary *_customFlags;
-    NSArray *_implicitSuggestions;
-    NSString *_filterQuery;
-    NSArray *_excludedMailboxes;
-    unsigned long long _signpostID;
-    long long _feedbackQueryID;
 }
 
 + (id);
@@ -42,25 +29,11 @@
 - (id);
 - (id);
 - (long long);
-- (void)ssibilitySharedTextUIElements: /* Error: Ran out of types for this method. */;
+- (void)setAccessibilitySharedTextUIElements: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *customFlags; // @synthesize customFlags=_customFlags;
-@property(readonly, copy, nonatomic) NSArray *excludedMailboxes; // @synthesize excludedMailboxes=_excludedMailboxes;
-@property(readonly, nonatomic) long long feedbackQueryID; // @synthesize feedbackQueryID=_feedbackQueryID;
-@property(readonly, copy, nonatomic) NSString *filterQuery; // @synthesize filterQuery=_filterQuery;
-@property(readonly, nonatomic) _Bool hasPhraseOrSuggestions;
-@property(readonly, copy, nonatomic) NSArray *implicitSuggestions; // @synthesize implicitSuggestions=_implicitSuggestions;
-@property(nonatomic) _Bool includeTopHitsAndInstantAnswers; // @synthesize includeTopHitsAndInstantAnswers=_includeTopHitsAndInstantAnswers;
-@property(readonly, copy, nonatomic) NSArray *inputLanguages; // @synthesize inputLanguages=_inputLanguages;
 @property(readonly, copy, nonatomic) NSString *phrase; // @synthesize phrase=_phrase;
-@property(readonly, nonatomic) unsigned char phraseKind;
-@property(readonly, copy, nonatomic) NSString *scopeIdentifierForPeopleSuggestions; // @synthesize scopeIdentifierForPeopleSuggestions=_scopeIdentifierForPeopleSuggestions;
-@property(readonly, copy, nonatomic) NSArray *selectedSuggestions; // @synthesize selectedSuggestions=_selectedSuggestions;
-@property(readonly, nonatomic) unsigned long long signpostID; // @synthesize signpostID=_signpostID;
-@property(readonly, nonatomic) CSSuggestion *updatedSuggestion; // @synthesize updatedSuggestion=_updatedSuggestion;
-@property(readonly, nonatomic) id <EMVIPManager> vipManager; // @synthesize vipManager=_vipManager;
 
 @end
 

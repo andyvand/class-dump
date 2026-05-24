@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface NSAKSerializerStream
 {
     void *memory;
-    unsigned long long current;
-    unsigned long long max;
-    struct __CFDictionary *roomForIntLocations;
 }
 
 - (_Bool);

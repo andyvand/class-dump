@@ -7,11 +7,10 @@
 @interface (extension in LinkPresentation):__C.LPCustomizationPickerViewController.TransitionAnimator
 {
     id viewController;
-    id reversed;
 }
 
 - (double);
-- (id);
+- (id)Upgrade;
 - (void);
 - (void);
 

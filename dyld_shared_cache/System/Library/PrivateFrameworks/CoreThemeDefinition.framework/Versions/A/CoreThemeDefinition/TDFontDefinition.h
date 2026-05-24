@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString, TDMetafontSelector;
+@class NSNumber;
 
 @interface TDFontDefinition
 {
@@ -13,8 +13,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *baselineOffset; // @dynamic baselineOffset;
-@property(retain, nonatomic) NSDate *dateOfLastChange; // @dynamic dateOfLastChange;
-@property(retain, nonatomic) NSString *postscriptName; // @dynamic postscriptName;
-@property(retain, nonatomic) TDMetafontSelector *selector; // @dynamic selector;
 @end
 

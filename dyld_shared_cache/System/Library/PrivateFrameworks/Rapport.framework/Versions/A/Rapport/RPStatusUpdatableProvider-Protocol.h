@@ -5,5 +5,6 @@
 //
 
 @protocol RPStatusUpdatableProvider
+- (void);
 @end
 

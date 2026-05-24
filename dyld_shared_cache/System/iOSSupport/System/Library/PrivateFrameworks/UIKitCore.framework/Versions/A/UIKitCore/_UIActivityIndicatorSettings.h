@@ -8,11 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _UIActivityIndicatorSettings
 {
     _Bool _customColor;
-    double _fullLoopDuration;
-    double _redValue;
-    double _greenValue;
-    double _blueValue;
-    double _alphaValue;
 }
 
 + (id);
@@ -20,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (double);
 - (double);
-- (void)ateViewOffset:(double)arg1;
+- (void)setCandidateViewOffset:(double)arg1;
 - (void)maximumContentWidthForLayoutMargins;
 - (double)TB,N,S_setPrefersZoomTransitions:,V__prefersZoomTransitions /* Error: Ran out of types for this method. */;
 - (double),V_highlightHoverGestureRecognizer;
@@ -31,12 +26,7 @@ __attribute__((visibility("hidden")))
 - (void)ËÿwðØûc;
 
 // Remaining properties
-@property(nonatomic) double alphaValue; // @synthesize alphaValue=_alphaValue;
-@property(nonatomic) double blueValue; // @synthesize blueValue=_blueValue;
-@property(nonatomic) _Bool customColor; // @synthesize customColor=_customColor;
 @property(nonatomic) double fullLoopDuration; // @synthesize fullLoopDuration=_fullLoopDuration;
-@property(nonatomic) double greenValue; // @synthesize greenValue=_greenValue;
-@property(nonatomic) double redValue; // @synthesize redValue=_redValue;
 
 @end
 

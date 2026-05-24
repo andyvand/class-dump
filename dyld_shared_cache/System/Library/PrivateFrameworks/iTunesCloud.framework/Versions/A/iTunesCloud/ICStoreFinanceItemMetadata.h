@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSNumber, NSString;
+@class NSDictionary;
 
 @interface ICStoreFinanceItemMetadata
 {
     NSDictionary *_metadataDictionary;
-    NSNumber *_playlistID;
 }
 
 - (id);
@@ -26,6 +25,15 @@
 - (id);
 - (id);
 - (id);
+- (id)on";
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)(item_pid, bookkeeper_identifier, metadata_timestamp, metadata_entity_revision) SELECT item_pid, storebookmark_identifier, store_bookmark_timestamp, store_bookmark_entity_revision FROM item JOIN item_storebookmark_identifier USING(item_pid) JOIN item_stats USING(item_pid);;
+- (id);
+- (id);
+- (id)ndex == 0;
 - (id);
 - (id);
 - (id);
@@ -37,19 +45,10 @@
 - (id);
 - (id);
 - (id);
+- (id)�;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)[;
 - (id)0@ù
 × ;
 - (void)ence",C,N,V_seedContentReference;
@@ -60,46 +59,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *albumSortName;
-@property(readonly, copy, nonatomic) NSNumber *artistID;
-@property(readonly, copy, nonatomic) NSString *artistName;
-@property(readonly, copy, nonatomic) NSString *artistSortName;
-@property(readonly, copy, nonatomic) NSNumber *bitrate;
-@property(readonly, copy, nonatomic) NSString *comments;
-@property(readonly, copy, nonatomic) NSString *composerName;
-@property(readonly, copy, nonatomic) NSString *composerSortName;
-@property(readonly, copy, nonatomic) NSString *copyright;
-@property(readonly, copy, nonatomic) NSDate *dateAdded;
-@property(readonly, copy, nonatomic) NSNumber *discCount;
-@property(readonly, copy, nonatomic) NSNumber *discNumber;
-@property(readonly, copy, nonatomic) NSNumber *drmVersionNumber;
-@property(readonly, copy, nonatomic) NSNumber *duration;
-@property(readonly, copy, nonatomic) NSString *fileExtension;
-@property(readonly, copy, nonatomic) NSString *genre;
-@property(readonly, copy, nonatomic) NSNumber *genreID;
-@property(readonly, copy, nonatomic) NSNumber *isCompilation;
-@property(readonly, copy, nonatomic) NSNumber *isExplicit;
-@property(readonly, copy, nonatomic) NSNumber *isGapless;
-@property(readonly, copy, nonatomic) NSNumber *isMasteredForITunes;
-@property(readonly, copy, nonatomic) NSNumber *itemAdamID;
-@property(readonly, copy, nonatomic) NSNumber *itemCloudID;
-@property(readonly, copy, nonatomic) NSString *itemName;
-@property(readonly, copy, nonatomic) NSString *itemSortName;
-@property(readonly, copy, nonatomic) NSString *kind;
 @property(readonly, copy, nonatomic) NSDictionary *metadataDictionary; // @synthesize metadataDictionary=_metadataDictionary;
-@property(readonly, copy, nonatomic) NSString *playlistArtistName;
-@property(readonly, copy, nonatomic) NSNumber *playlistID; // @synthesize playlistID=_playlistID;
-@property(readonly, copy, nonatomic) NSString *playlistName;
-@property(readonly, copy, nonatomic) NSNumber *rank;
-@property(readonly, copy, nonatomic) NSDate *releaseDate;
-@property(readonly, copy, nonatomic) NSNumber *sampleRate;
-@property(readonly, copy, nonatomic) NSNumber *storefrontID;
-@property(readonly, copy, nonatomic) NSNumber *trackCount;
-@property(readonly, copy, nonatomic) NSNumber *trackNumber;
-@property(readonly, copy, nonatomic) NSNumber *vendorID;
-@property(readonly, copy, nonatomic) NSNumber *versionRestrictions;
-@property(readonly, copy, nonatomic) NSString *xid;
-@property(readonly, copy, nonatomic) NSNumber *year;
 
 @end
 

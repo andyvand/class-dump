@@ -7,9 +7,6 @@
 @interface SwiftUI.WindowPlacementBridge
 {
     id item;
-    id currentEnvironment;
-    id windowLayoutSeed;
-    id windowLayoutValues;
 }
 
 @end

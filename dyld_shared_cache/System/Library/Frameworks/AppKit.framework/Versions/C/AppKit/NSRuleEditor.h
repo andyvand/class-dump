@@ -6,53 +6,14 @@
 
 #import <AppKit/NSControl.h>
 
-@class NSDictionary, NSIndexSet, NSMutableArray, NSPredicate, NSString, NSView, NSViewAnimation;
 @protocol NSRuleEditorDelegate;
 
 @interface NSRuleEditor : NSControl
 {
     id _ruleDataSource;
-    id _ruleDelegate;
-    NSIndexSet *_draggingRows;
-    NSMutableArray *_rowCache;
-    NSView *_slicesHolder;
-    NSMutableArray *_slices;
-    double _sliceHeight;
-    double _alignmentGridWidth;
-    long long _subviewIndexOfDropLine;
-    id _dropLineView;
-    NSViewAnimation *_currentAnimation;
-    NSString *_stringsFileName;
-    id _standardLocalizer;
-    id _headerLocalizer;
-    NSPredicate *_predicate;
-    long long _nestingMode;
-    struct {
-        unsigned int elideUpdating:1;
-        unsigned int lastAlternateKeyValue:1;
-        unsigned int extendedDelegateCalls:1;
-        unsigned int editable:1;
-        unsigned int settingSize:1;
-        unsigned int suppressKeyDown:1;
-        unsigned int dropWasSuccessful:1;
-        unsigned int delegateWantsValidation:1;
-        unsigned int disallowEmpty:1;
-        unsigned int lastDrewWithFRAppearance:1;
-        unsigned int allowsEmptyCompoundRows:1;
-        unsigned int dropChangedRowCount:1;
-        unsigned int reserved:20;
-    } _ruleEditorFlags;
-    NSString *_typeKeyPath;
-    NSString *_itemsKeyPath;
-    NSString *_valuesKeyPath;
-    NSString *_subrowsArrayKeyPath;
-    Class _rowClass;
-    id _boundArrayOwner;
-    NSString *_boundArrayKeyPath;
-    long long _lastRow;
 }
 
-+ (_Bool);
++ (_Bool)3h5MjAwNi5hcHBsZS5jb22jggPIMIIDxKADAgEXoQMCAQuiggO2BIIDsr462JTRgOjDtOBS82RF5fsT81I+xb2M7e2roBBr/iiPw7ceB94eq1yqTjfHFDlScm96toANdWSwRyAXDc5zpV6IE4+R4i3rDAAAiESAEThFXkIIm1A9oDDkvdbRYxpQ7ZxQTIRnf9scj2NMcQYJjeZgcoevQmRw1anhxXQPyTwNXGlz4XHVmS8hC4uoDOH0IhSkT3grri1c/GwQnHSmQdP82oKGjU9NKN4a3I/daTWoAXoX+Rx/Pi8zvT1DJiarcC9R4r50z4/hSZHo72jVY+BfbekKuzGPPVULO3NZMh2bGTq+1wsVCk86GVhq21BQZPS7ovvAu7yMj2pDUPLDDiuXUEwBdtZj6UR64VZE8MVY75cgOXU89QjVkA4cJVp7wmWVPiJRYDos2NhHvdfza2PM5uAi3wxpj3u4SUvWdrnl3T6mGIvzP+rle+osabo+votkD6bewAYPgzIHmZ8EdbzjADBsziSQGZu7zVU6nxm/6dfsRkX368s/jnIhAjZjLp34o5uTqA4LfSzuUf4zC5hE1q/PSD8DNTK/LH4pMApZqCN03hbugMsf2Ya1irOY/7/uHsfA0Vv/GbsQmbXxDfdao3H5iiAolGCJZqEyxafxOqywa0BoVO0J/6CjX0BqQh3jed8yax1Jz71vxPMoMGweNpCNI1ulpb4kMsImqVk0LJjNxxE46KwfK/zsmXvuc6yJU7BQihVAwNctXsdFMpFYYfI7CUYqH8LaKPkdUoDAdrC/Zn6v0kPEhNhuGzh5wkDg9hTEK9IJGcTBpEnGEVqeOhcuFFALI0Mmd+DJYFRMMquQdB6GbgYt2So7YCs38JZPRgyQUUpLsLUNXlEimS0YwlpCADI8WXOAFSgUdbs0uRIm0pa8ssyoVn+IzsnhQ/gddWhQyTQ4tJAC5usZiF6/908uhvQKJS8+MCIFOimX6+S10eqm5MV2SeIoaTJVtGDzxLY2gMfNxJUvVXK+QMJ2ly88cnpQHtABsh9dj+DpoqIZVfP11N3Or97YIYaS/dAIh4OVbJw9CjtAr8cmTnqawAjx17GjSrgaypAFK9mY/5drH3tK1/0GS3qfFztzGpftUDa99Xu2Ng0aGym6vJB0E6kkLhjzw52j4yGeFAHuqIBqaQbDa82/fZ5QyRRaKTU0m9gTXliSItlz6BmO8NpcyzctJOMLvfUP4taX6GI2RPKtfp/1zo0psYf7MxCmhjiDcqapl3xSXJQAiZjYO6DU4rmf/9BZ9onEAqeu/kQzuR2kgfEwge6gAwIBF6KB5gSB40BGa9ED5dL4EHIZ7m2dXyqCbIx0GY156nfIaYzYEOL2xfCWprXuAk8nDhtlA7/CVlWsendDD6RjrlRF8OWYh3iZrAaubRbKspEMh0VP3whzlA4cLgfHEdiaDxiQ1DOEL3ihaUROZ+HGB1HQ+UnRZsg1FS8HouYobZRjPGAtFUb8YumcB1wJUaML9bWcGtYvPuAyvihjOJ6euVyfmW5bF0niB6xSSMOgHkS508UaSEU3R7FeblWauQiUpECiPXioOPzgZ40y2Ib2C8gy+ObWoOSrimBeMXY9RCMTKMXfU9tjbDHt;
 - (_Bool);
 - (id);
 - (id);
@@ -65,7 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)k;
 - (id);
 - (void);
 - (id);
@@ -73,12 +34,12 @@
 - (long long);
 - (Class);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (long long);
-- (unsigned long long);
+- (unsigned long long)__TEXT;
 - (void);
 - (id);
 - (id);
@@ -87,79 +48,85 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (_Bool)uest"^{HTTPRequest}"fFlags"{Flags="_flag_SHOULD_HANDLE_HTTP_COOKIES"b1"_flag_IS_MUTABLE"b1"_flag_SHOULD_START_SYNCHRONOUSLY"b1"_flag_ALLOW_CELLULAR"b1"_flag_PREVENTSIDLESYSTEMSLEEP"b1"_flag_SET_EXPLICIT_SHOULD_HANDLE_COOKIES"b1"_flag_SET_EXPLICIT_NETWORK_SERVICE_TYPE"b1"_flag_SET_EXPLICIT_ALLOWS_CELLULAR"b1"_flag_SET_EXPLICIT_PREVENTS_IDLE_SYSTEM_SLEEP"b1"_flag_SET_EXPLICIT_SHOULD_PIPELINE"b1"_flag_SET_EXPLICIT_CACHE_POLICY"b1"_flag_SET_EXPLICIT_TIMEOUT"b1"_flag_SET_EXPLICIT_PROXY_DICT"b1"_flag_SET_EXPLICIT_SSL_PROPERTIES"b1"_flag_SET_EXPLICIT_SHOULD_START_SYNCHRONOUSLY"b1}"fSSLProps"^{__CFDictionary}"fContentDispositionHeaderEncodingFallbackArray"^{__CFArray}"fRequestPriority"q"fAllowedProtocolTypes"Q"fNetworkServiceType"i"fBoundInterfaceIdentifier"^{__CFString}"fTrackerContext"^{__CFString}"fCookiePartitionIdentifier"^{__CFString}"fTimeWindowDelay"d"fTimeWindowDuration"d"fStartTimeoutTime"d"fRequiresShortConnectionTimeout"C"fPreventHSTSStorage"C"fIgnoreHSTS"C"fSchemeWasUpgradedDueToDynamicHSTS"C"fAssumesHTTP3Capable"C"fKnownTracker"C"fPrivacyProxyFailClosed"C"fPrivacyProxyStrictFailClosed"C"fPrivacyProxyFailClosedForUnreachableNonMainHosts"C"fPrivacyProxyFailClosedForUnreachableHosts"C"fProhibitPrivacyProxy"C"fAllowPrivateAccessTokensForThirdParty"C"fUseEnhancedPrivacyMode"C"fBlockTrackers"C"fFailInsecureLoadWithHTTPSDNSRecord"C"fIsWebSearchContent"C"fAllowOnlyPartitionedCookies"C"fUnsafeAllowedInEarlyData"C"fRequiresDNSSECValidation"C"fAllowsPersistentDNS"C"fAttribution"Q"fPayloadTransmissionTimeout"d"fATSOverrides"^{__CFDictionary}"fHSTSPolicy"{unique_ptr<_CFHSTSPolicy, Deleter_CFRelease>=""{?="__ptr_"^{_CFHSTSPolicy}}}"fAllowsExpensiveNetworkAccess"C"fAllowsConstrainedNetworkAccess"C"fAllowsUltraConstrainedNetworkAccess"C"_explicitStorageSession"^{__CFURLStorageSession}};
+- (void)_"^{HTTPProtocol}"__cntrl_"^{__shared_weak_count}};
+- (id)download:didReceiveAuthenticationChallenge: /* Error: Ran out of types for this method. */;
+- (void)_phskip_credStorage;
+- (void)_onqueue_connectionEstablishedWithError:callbackReferent: /* Error: Ran out of types for this method. */;
+- (_Bool)_isTopLevelNavigation;
+- (_Bool)_internal;
+- (_Bool)_cfurlprtotectionspace;
+- (void)}^{__CFDictionary}i^{__CFData}^{HTTPResponse}{os_unfair_lock_s=I}},R,D;
+- (void)ring}^{__CFString}qdd^{__CFDictionary}^{__CFDictionary}i^{__CFData}^{HTTPResponse}{os_unfair_lock_s=I}},R,D;
+- (void)FHTTPCookieStorage=},&,V_cfCookies;
+- (void)penFiles;
+- (void)lenges;
+- (unsigned long long)ay",R,C;
+- (id)NSStreamDelegate;
+- (id);
 - (id);
 - (_Bool);
+- (id);
+- (unsigned long long)a;
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void)- failure path cleanup also failed to rename the current cache dir %s to new cache dir %s.  Errno=%{errno}d;
+- (void)s;
+- (void)ased on Prefix rules. Cookie = %@;
+- (void)t the insert statement;
+- (void)nd received server trust, marking as secure;
+- (void)unavailable;
+- (void)ic}@> client was launched for background session;
+- (void)ation error %@ when attempting to connect to background transfer daemon;
+- (id)ection %llu:encountered write timeout event /* Error: Ran out of types for this method. */;
+- (id)nd the partition (%@) to the delete statement;
+- (_Bool)t location is unavailable or too old. Falling back to builtin;
+- (long long)DefaultCredForProtSpace - Error removing cred.  Error=%d, query=%@, attrs=%@;
+- (id)FNetwork I/O Path Preference Forcing Stream I/O;
+- (id)which finished decoding for task %@, but we received more bytes.  Dropping %lu bytes.;
+- (void)- preparing for extraction to %@ for task %@;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
 - (long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void));
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (double);
-- (id);
-- (void);
-- (id);
-- (long long);
-- (long long);
-- (long long);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (id);
+- (id)ded header for stream %llu; dynamic table not referenced;
+- (void)_enableOAuthBearerTokenChallenges;
+- (id)d) %s
+(Multipath) %s
+;
+- (long long)Cellular) %s
+(Expensive) %s
+(Constrained) %s
+(Multipath) %s
+;
+- (long long)CFNETWORK_IO_LOG_STDERR;
+- (long long)_decodedHeader;
+- (id)kCFProxyPasswordKey;
+- (void)ay;
+- (id)ted to set the shared CFHTTPCookieStorage after it has already been faulted in!;
+- (id)resPowerPluggedIn=%d;
+- (id)ion();
+- (void)%@:(id *)arg1 %d}%@;
+- (id)m@%p> %s;
+- (id)stream error { %ld, %d };
+- (void)onseStream;
+- (void)prepareTransmission;
+- (_Bool)kCFURLConnectionProhibitAuthChallengeUI;
+- (id)* from alt_services WHERE host = ? AND partition = ? AND port = ? AND expires_time > strftime('%s','now');
 - (id);
 - (_Bool);
 - (unsigned long long);
@@ -170,7 +137,7 @@
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -180,11 +147,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)@;
 - (void);
+- (id)@;
 - (id);
-- (id);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -194,16 +161,16 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)do_send_second_client_hello;
 - (struct CGSize);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)ent element cache state. Elements for range %@ are not cached while trying to insert;
 - (double);
 - (void);
-- (void);
+- (void)8;
 - (void)¡ð/ð!ìAùQç3°1Â0@ù
 × ;
 - (id);
@@ -214,21 +181,7 @@
 - (void)äE;
 
 // Remaining properties
-@property _Bool canRemoveAllRows;
-@property(copy) NSString *criteriaKeyPath;
 @property __weak id <NSRuleEditorDelegate> delegate;
-@property(copy) NSString *displayValuesKeyPath;
-@property(getter=isEditable) _Bool editable;
-@property(copy) NSDictionary *formattingDictionary;
-@property(copy) NSString *formattingStringsFilename;
-@property unsigned long long nestingMode;
-@property(readonly) long long numberOfRows;
-@property(readonly) NSPredicate *predicate;
-@property Class rowClass;
-@property double rowHeight;
-@property(copy) NSString *rowTypeKeyPath;
-@property(readonly, copy) NSIndexSet *selectedRowIndexes;
-@property(copy) NSString *subrowsKeyPath;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol NSCopying
+- (unsigned int :(null));
 @end
 

@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, SFInfoTuple, SearchUIRowModel;
-@protocol SearchUIFeedbackDelegate, SearchUIInfoSizingDelegate;
-
 @interface SearchUIInfoValueFlowView
 {
     _Bool _isExpanded;
-    id <SearchUIFeedbackDelegate> _feedbackDelegate;
-    id <SearchUIInfoSizingDelegate> _sizingDelegate;
-    SearchUIRowModel *_rowModel;
-    SFInfoTuple *_tuple;
-    NSMutableArray *_infoValueViewControllers;
 }
 
 - (void);
@@ -23,32 +15,20 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)initWithBytesNoCopy:length:deallocator: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)(;
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)clickAttributionWithReportEndpoint:(id)arg1;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <SearchUIFeedbackDelegate> feedbackDelegate; // @synthesize feedbackDelegate=_feedbackDelegate;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableArray *infoValueViewControllers; // @synthesize infoValueViewControllers=_infoValueViewControllers;
 @property(nonatomic) _Bool isExpanded; // @synthesize isExpanded=_isExpanded;
-@property(retain, nonatomic) SearchUIRowModel *rowModel; // @synthesize rowModel=_rowModel;
-@property(nonatomic) __weak id <SearchUIInfoSizingDelegate> sizingDelegate; // @synthesize sizingDelegate=_sizingDelegate;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) SFInfoTuple *tuple; // @synthesize tuple=_tuple;
 
 @end
 

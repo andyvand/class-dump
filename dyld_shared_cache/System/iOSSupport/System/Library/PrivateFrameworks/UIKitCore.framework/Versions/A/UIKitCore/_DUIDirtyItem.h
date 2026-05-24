@@ -11,8 +11,8 @@
 
 + (_Bool)e imported.;
 - (id);
-- (id);
-- (void)y:(id)arg1 inStorageDirection:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)locally;
+- (void)moveSelectionAtBoundary:(id)arg1 inStorageDirection:completionHandler: /* Error: Ran out of types for this method. */;
 - (unsigned long long)UIKBTreePropertyRepresentedString;
 - (void);
 

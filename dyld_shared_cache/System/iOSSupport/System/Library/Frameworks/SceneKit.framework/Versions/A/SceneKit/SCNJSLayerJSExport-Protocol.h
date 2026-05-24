@@ -8,10 +8,11 @@
 
 @protocol SCNJSLayerJSExport
 + (CALayer *)Channels:bytesPerIndex: /* Error: Ran out of types for this method. */;
+- (void)A;
+- (void);
+- (void)pages should be inserted from PDF Document;
 
 // Remaining properties
-@property struct CGRect bounds;
 @property(retain) id contents;
-@property struct CGRect frame;
 @end
 

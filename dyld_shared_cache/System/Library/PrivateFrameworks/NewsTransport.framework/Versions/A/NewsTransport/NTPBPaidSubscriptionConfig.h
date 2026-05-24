@@ -7,43 +7,31 @@
 @interface NTPBPaidSubscriptionConfig
 {
     long long _maxGroupSizeIPad;
-    long long _maxGroupSizeIPhone;
-    long long _maxTimesHeadlineInGroup;
-    struct {
-        unsigned int maxGroupSizeIPad:1;
-        unsigned int maxGroupSizeIPhone:1;
-        unsigned int maxTimesHeadlineInGroup:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (long long);
-- (long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)dynamicHeaderDebugOverlay;
+- (void)durationForVerticallyPanningPortraitAsset:(long long)arg1 atSpeed:motionInfo:minimumDuration:croppingContext: /* Error: Ran out of types for this method. */;
+- (void)durationForVerticallyPanningPortraitAsset:(long long)arg1 atSpeed:motionInfo:minimumDuration:croppingContext: /* Error: Ran out of types for this method. */;
+- (void)dataSectionForAssetsInCollections:(_Bool)arg1;
+- (void)dataForObject:(_Bool)arg1 exportAsMaster:stripLocation:allowsResourceDownload: /* Error: Ran out of types for this method. */;
+- (void)dataForObject:(_Bool)arg1 exportAsMaster:stripLocation: /* Error: Ran out of types for this method. */;
+- (long long)clipForDisplayAsset: /* Error: Ran out of types for this method. */;
+- (long long)clipCompositionFallback;
+- (long long)clipAssetIndexes;
+- (_Bool)axContainingGroup;
+- (_Bool)avatarFromParticipantWithID:withPhotoLibrary:plPhotoLibrary: /* Error: Ran out of types for this method. */;
+- (_Bool)avatarFromOwnerOfPendingSharedAlbumWithGUID:withPhotoLibrary:plPhotoLibrary: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)P;
 - (void);
 - (unsigned long long);
+- (_Bool)Software Update, moving on.;
 - (_Bool);
-- (_Bool);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool hasMaxGroupSizeIPad;
-@property(nonatomic) _Bool hasMaxGroupSizeIPhone;
-@property(nonatomic) _Bool hasMaxTimesHeadlineInGroup;
-@property(nonatomic) long long maxGroupSizeIPad; // @synthesize maxGroupSizeIPad=_maxGroupSizeIPad;
-@property(nonatomic) long long maxGroupSizeIPhone; // @synthesize maxGroupSizeIPhone=_maxGroupSizeIPhone;
-@property(nonatomic) long long maxTimesHeadlineInGroup; // @synthesize maxTimesHeadlineInGroup=_maxTimesHeadlineInGroup;
 
 @end
 

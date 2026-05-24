@@ -19,12 +19,12 @@
 + (_Bool)ation type:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setHasFrameErasureRateMean:(id)arg1;
+- (void)sidecarBssSteering;
 - (void)ppIntents.framework/AppIntents;
 
 // Remaining properties

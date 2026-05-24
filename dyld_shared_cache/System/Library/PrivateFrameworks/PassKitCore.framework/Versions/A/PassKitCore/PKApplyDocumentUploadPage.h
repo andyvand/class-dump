@@ -6,29 +6,23 @@
 
 #import <PassKitCore/PKDynamicProvisioningPageContent.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface PKApplyDocumentUploadPage : PKDynamicProvisioningPageContent
 {
     _Bool _requiresCoreIDVImageCaptureUpload;
-    NSArray *_acceptableDocuments;
-    NSArray *_imageCaptureEncryptionCertificates;
-    NSString *_imageCaptureEncryptionVersion;
 }
 
 - (void);
 - (_Bool);
 - (id);
+- (id)9m;
 - (id);
 - (id);
-- (id);
-- (void)E_REQUIRED_ALERT_TITLE;
+- (void)PASSCODE_REQUIRED_ALERT_TITLE;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *acceptableDocuments; // @synthesize acceptableDocuments=_acceptableDocuments;
-@property(readonly, copy, nonatomic) NSArray *imageCaptureEncryptionCertificates; // @synthesize imageCaptureEncryptionCertificates=_imageCaptureEncryptionCertificates;
-@property(readonly, copy, nonatomic) NSString *imageCaptureEncryptionVersion; // @synthesize imageCaptureEncryptionVersion=_imageCaptureEncryptionVersion;
-@property(readonly, nonatomic) _Bool requiresCoreIDVImageCaptureUpload; // @synthesize requiresCoreIDVImageCaptureUpload=_requiresCoreIDVImageCaptureUpload;
 
 @end
 

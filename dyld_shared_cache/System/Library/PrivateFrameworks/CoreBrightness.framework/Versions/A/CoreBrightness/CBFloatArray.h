@@ -8,21 +8,19 @@ __attribute__((visibility("hidden")))
 @interface CBFloatArray
 {
     float *_data;
-    unsigned long long _count;
-    unsigned long long _size;
 }
 
 - (float *);
 - (id);
 - (float);
 - (float *);
-- (id);
+- (id))A;
 - (const float *);
 - (void);
-- (id);
+- (id)'F;
 - (id);
 - (const float *);
-- (unsigned long long);
+- (unsigned long long)Th;
 - (id)0@ù
 × ;
 

@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SearchUIAsyncSectionLoader, SearchUISection;
-
 @interface SearchUISectionModel
 {
     _Bool _drawPlattersIfNecessary;
-    NSArray *_rowModels;
-    SearchUISection *_section;
-    SearchUIAsyncSectionLoader *_asyncLoader;
-    unsigned long long _numberOfSections;
 }
 
 + (id);
 + (id);
 + (id);
-+ (long long)ue;
-- (_Bool);
-- (void);
++ (long long)fromValue;
+- (_Bool)setCompletion:(id)arg1;
+- (void)P;
 - (id);
 - (_Bool);
 - (long long);
@@ -29,7 +23,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (struct NSDirectionalEdgeInsets);
+- (struct NSDirectionalEdgeInsets);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -42,28 +36,24 @@
 - (_Bool);
 - (id);
 - (int);
+- (_Bool)AggregationGroupDuration"16^B24;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)pack since pack file is nil;
 - (void);
 - (id);
 - (id);
 - (void);
-- (_Bool)hCompletion:receiveInput: /* Error: Ran out of types for this method. */;
-- (void)AllowsAnimation:(id)arg1;
-- (void)xis:(id)arg1 forProposedDestination:currentOrigin:initialOrigin:velocity: /* Error: Ran out of types for this method. */;
-- (void)ew;
-- (_Bool)ributes:frame: /* Error: Ran out of types for this method. */;
+- (_Bool)sinkWithCompletion:receiveInput: /* Error: Ran out of types for this method. */;
+- (void)setAllowsAnimation:(id)arg1;
+- (void)scrollView:(id)arg1 pageAlignedOriginOnAxis:forProposedDestination:currentOrigin:initialOrigin:velocity: /* Error: Ran out of types for this method. */;
+- (void)linkView;
+- (_Bool)applyForcedFrameToAttributes:frame: /* Error: Ran out of types for this method. */;
 - (void)GC÷i,GAXG;
 - (int)hed;
-- (_Bool)crollButton;
+- (_Bool)ScrollButton;
 
 // Remaining properties
-@property(retain, nonatomic) SearchUIAsyncSectionLoader *asyncLoader; // @synthesize asyncLoader=_asyncLoader;
 @property(nonatomic) _Bool drawPlattersIfNecessary; // @synthesize drawPlattersIfNecessary=_drawPlattersIfNecessary;
-@property(nonatomic) unsigned long long numberOfSections; // @synthesize numberOfSections=_numberOfSections;
-@property(retain, nonatomic) NSArray *rowModels; // @synthesize rowModels=_rowModels;
-@property(retain, nonatomic) SearchUISection *section; // @synthesize section=_section;
 
 @end
 

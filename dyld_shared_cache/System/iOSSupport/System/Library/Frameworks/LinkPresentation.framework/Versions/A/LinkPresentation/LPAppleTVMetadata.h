@@ -6,23 +6,21 @@
 
 #import <LinkPresentation/LPSpecializationMetadata.h>
 
-@class LPImage, NSString;
+@class NSString;
 
 @interface LPAppleTVMetadata : LPSpecializationMetadata
 {
     NSString *_title;
-    NSString *_subtitle;
-    LPImage *_artwork;
 }
 
-+ (id);
++ (id)sortedHandles;
 + (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
+- (id)stringByAddingPercentEncodingWithAllowedCharacters:(id)arg1;
+- (id)stringArrayForKey:(id)arg1;
+- (id)streamStorage;
+- (_Bool)smallTailSolidStroke;
+- (void)shouldShowTapbackPicker;
+- (id)applicationWillBecomeActive:(id)arg1;
 - (id);
 - (unsigned long long);
 - (id);
@@ -30,23 +28,14 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) LPImage *artwork; // @synthesize artwork=_artwork;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

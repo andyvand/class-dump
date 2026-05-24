@@ -6,21 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString, SISchemaISOLocale;
-
 @interface ODDSiriSchemaODDVoiceProperties : SISchemaInstrumentationMessage
 {
     int _gender;
-    SISchemaISOLocale *_accent;
-    int _name;
-    NSArray *_installedVoices;
-    NSString *_voiceName;
-    struct {
-        unsigned int gender:1;
-        unsigned int name:1;
-    } _has;
-    _Bool _hasAccent;
-    _Bool _hasVoiceName;
 }
 
 - (void);
@@ -33,7 +21,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)�;
 - (void);
 - (void);
 - (void);
@@ -41,13 +29,13 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)!;
 - (void);
 - (int);
 - (unsigned long long);
@@ -57,22 +45,13 @@
 - (id);
 - (id)nType;
 - (id)s;
-- (void)ializationStarted;
+- (void)ASRSchemaASRAppleNeuralEngineModelInitializationStarted;
 - (void);
-- (int)ClientEvent;
+- (int)dimClientEvent;
 - (void).speakerIdEnrollmentDataReportedTier1;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaISOLocale *accent; // @synthesize accent=_accent;
 @property(nonatomic) int gender; // @synthesize gender=_gender;
-@property(nonatomic) _Bool hasAccent; // @synthesize hasAccent=_hasAccent;
-@property(nonatomic) _Bool hasGender;
-@property(nonatomic) _Bool hasName;
-@property(nonatomic) _Bool hasVoiceName; // @synthesize hasVoiceName=_hasVoiceName;
-@property(copy, nonatomic) NSArray *installedVoices; // @synthesize installedVoices=_installedVoices;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *voiceName; // @synthesize voiceName=_voiceName;
 
 @end
 

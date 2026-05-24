@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface TransparencyIDSRegistrationRequest
 {
     _Bool _dontWaitForKeySigning;
-    double _initialTimeout;
-    NSString *_traceUUID;
-    NSDictionary *_requests;
 }
 
 + (_Bool);
@@ -20,19 +15,26 @@
 - (void);
 - (id);
 - (_Bool);
+- (void)gb, weq); 
+  float maxRGB = max(max(im.r, im.g), im.b); 
+  luma = 0.5 * (luma + maxRGB); 
+  luma = log2(1.0 + luma); 
+  float light = dot(lm.rgb, weq); 
+  light = log2(1.0 +light); 
+  float glog2 = a.x * light + a.y * luma; 
+  float g = exp2(glog2) - 1.0; 
+  return vec4(g, g, g, 1.0); 
+}
+;
+- (double)nel encodeToCommandBuffer:destinationTexture:] /* Error: Ran out of types for this method. */;
 - (void);
-- (double);
-- (void);
-- (id);
+- (id)_singlePassVideoExportRangeCoordinator;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property _Bool dontWaitForKeySigning; // @synthesize dontWaitForKeySigning=_dontWaitForKeySigning;
 @property double initialTimeout; // @synthesize initialTimeout=_initialTimeout;
-@property(retain) NSDictionary *requests; // @synthesize requests=_requests;
-@property(retain) NSString *traceUUID; // @synthesize traceUUID=_traceUUID;
 
 @end
 

@@ -9,11 +9,6 @@
 @interface AFSiriPhoneticContactNames
 {
     NSString *_givenName;
-    NSString *_middleName;
-    NSString *_familyName;
-    NSString *_nickname;
-    NSString *_organizationName;
-    NSString *_languageCode;
 }
 
 - (id);
@@ -21,24 +16,19 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)registerForNotificationName: /* Error: Ran out of types for this method. */;
+- (void)consumeCodeWithMessageGUID:(id)arg1;
 - (void);
 - (void);
 - (void)te;
 - (id)ConnectionServiceDelegate speechRecognitionDidFinishWithError:] /* Error: Ran out of types for this method. */;
 - (id)d = %@, instanceContext = %@, acquisitionContext = %@};
-- (id)SiriServerLogging;
+- (id)allowSiriServerLogging;
 - (id)5_
 ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *familyName; // @synthesize familyName=_familyName;
 @property(copy, nonatomic) NSString *givenName; // @synthesize givenName=_givenName;
-@property(copy, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;
-@property(copy, nonatomic) NSString *middleName; // @synthesize middleName=_middleName;
-@property(copy, nonatomic) NSString *nickname; // @synthesize nickname=_nickname;
-@property(copy, nonatomic) NSString *organizationName; // @synthesize organizationName=_organizationName;
 
 @end
 

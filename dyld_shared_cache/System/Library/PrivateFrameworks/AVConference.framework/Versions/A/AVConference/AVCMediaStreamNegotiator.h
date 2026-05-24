@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCMediaStreamNegotiatorSettings, NSData, NSString, VCMediaNegotiator;
+@class NSData;
 
 @interface AVCMediaStreamNegotiator
 {
     long long _errorDetailCode;
-    long long _videoHeight;
-    long long _videoWidth;
-    long long _dpiFactor;
-    unsigned char _deviceRole;
-    NSData *_mediaBlobCompressed;
-    NSData *_mediaBlobNegotiated;
-    NSString *_dataSessionID;
-    long long _mediaStreamMode;
-    VCMediaNegotiator *_mediaNegotiator;
-    NSData *_remoteCallInfoBlob;
-    unsigned long long _videoHDRMode;
-    long long _mediaStreamTransportType;
-    long long _mediaStreamAccessNetworkType;
-    long long _mediaStreamTransportProtocolType;
-    AVCMediaStreamNegotiatorSettings *_negotiatorSettings;
-    long long _negotiatedDirection;
-    NSData *_offer;
-    NSData *_answer;
 }
 
 + (_Bool);
@@ -43,30 +25,29 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (unsigned int)Y(x;
 - (unsigned int);
-- (unsigned int);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
+- (id);
+- (id);
 - (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)il8_k";
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *answer; // @synthesize answer=_answer;
 @property(readonly, nonatomic) NSData *offer; // @synthesize offer=_offer;
 
 @end

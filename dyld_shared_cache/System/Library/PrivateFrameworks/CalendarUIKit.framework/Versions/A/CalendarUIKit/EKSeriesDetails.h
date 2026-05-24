@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEvent, NSArray, NSSet;
+@class EKEvent;
 
 @interface EKSeriesDetails
 {
     EKEvent *_masterEvent;
-    NSArray *_detachedEvents;
-    NSSet *_exceptionDates;
 }
 
-- (void)ªóæýô;
-- (id)¢uÐB Ã;
-- (id)ªñªQüò1	?×ô;
-- (void)ªÑÚ10@ù
-?×è;
 - (void);
 - (id);
+- (id);
+- (void);
+- (void)_enqueueValueUpdateIfNecessary;
+- (id)/u;
 - (id);
 - (id);
 - (id);
@@ -27,8 +24,6 @@
 × ;
 
 // Remaining properties
-@property(retain) NSArray *detachedEvents; // @synthesize detachedEvents=_detachedEvents;
-@property(retain) NSSet *exceptionDates; // @synthesize exceptionDates=_exceptionDates;
 @property(retain) EKEvent *masterEvent; // @synthesize masterEvent=_masterEvent;
 
 @end

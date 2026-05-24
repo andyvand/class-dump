@@ -9,12 +9,9 @@
 @interface NewsUI2.CoinButton
 {
     id linkedToggle;
-    id toggleState;
-    id isBouncingEnabled;
-    id onTap;
 }
 
-- (id);
+- (id)G;
 - (void);
 - (id);
 - (void);
@@ -24,13 +21,11 @@
 - (id);
 - (void);
 - (void);
-- (void)IDValidationStartupTask;
+- (void)UserIDValidationStartupTask;
 - (id);
 
 // Remaining properties
-@property(nonatomic, copy) NSString *accessibilityHint;
 @property(nonatomic, copy) NSString *accessibilityLabel;
-@property(nonatomic, copy) NSString *accessibilityValue;
 
 @end
 

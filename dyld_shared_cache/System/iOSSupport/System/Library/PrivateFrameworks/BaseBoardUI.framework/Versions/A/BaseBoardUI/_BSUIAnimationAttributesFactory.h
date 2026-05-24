@@ -16,7 +16,7 @@
 - (id);
 - (double);
 - (unsigned long long);
-- (id);
+- (id)initWithPolicy:(id)arg1 configuration:description:completionHandler: /* Error: Ran out of types for this method. */;
 - (double);
 - (_Bool);
 - (void);

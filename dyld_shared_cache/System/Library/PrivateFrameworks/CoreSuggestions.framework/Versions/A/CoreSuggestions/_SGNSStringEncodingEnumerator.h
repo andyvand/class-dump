@@ -9,10 +9,6 @@
 @interface _SGNSStringEncodingEnumerator
 {
     NSString *_string;
-    unsigned long long _encoding;
-    struct _NSRange _remaining;
-    _Bool _needsBOM;
-    _Bool _needsNullTermination;
 }
 
 - (id);

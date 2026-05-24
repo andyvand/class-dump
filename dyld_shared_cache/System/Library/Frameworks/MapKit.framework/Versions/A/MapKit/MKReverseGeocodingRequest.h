@@ -4,38 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSLocale;
 @protocol MKMapServiceTicket;
 
 @interface MKReverseGeocodingRequest
 {
     id <MKMapServiceTicket> _ticket;
-    struct os_unfair_lock_s _stateLock;
-    _Bool _loading;
-    _Bool _cancelled;
-    CLLocation *_location;
-    NSLocale *_preferredLocale;
 }
 
+- (void)PowerlogEnergyReportedPrevious;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)T;
 - (void);
 - (id);
 - (void);
 - (id);
 - (_Bool)
 × ;
-- (void)ager:didSelectAddToExistingContactWithEnvironment: /* Error: Ran out of types for this method. */;
-- (id)oordinate:(id)arg1 maxDistance: /* Error: Ran out of types for this method. */;
-- (_Bool)pkit_ID;
+- (void)placeActionManager:didSelectAddToExistingContactWithEnvironment: /* Error: Ran out of types for this method. */;
+- (id)annotationContainer:(id)arg1 pinDropDistanceForCoordinate:maxDistance: /* Error: Ran out of types for this method. */;
+- (_Bool)_mapkit_ID;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;
-@property(readonly, nonatomic, getter=isLoading) _Bool loading;
-@property(readonly, copy, nonatomic) CLLocation *location; // @synthesize location=_location;
-@property(retain, nonatomic) NSLocale *preferredLocale; // @synthesize preferredLocale=_preferredLocale;
 
 @end
 

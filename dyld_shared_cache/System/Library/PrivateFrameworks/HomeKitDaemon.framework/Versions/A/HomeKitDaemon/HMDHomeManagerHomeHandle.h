@@ -10,14 +10,13 @@ __attribute__((visibility("hidden")))
 @interface HMDHomeManagerHomeHandle
 {
     NSUUID *_backingStoreUUID;
-    NSUUID *_homeUUID;
 }
 
 + (_Bool)';
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)rve mode in content view - but haven't set cursor;
 - (id);
 - (void);
 - (id)file (%@);
@@ -25,7 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSUUID *backingStoreUUID; // @synthesize backingStoreUUID=_backingStoreUUID;
-@property(readonly) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
 
 @end
 

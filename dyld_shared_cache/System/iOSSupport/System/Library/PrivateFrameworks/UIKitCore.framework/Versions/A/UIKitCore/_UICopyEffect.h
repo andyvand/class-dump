@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (long long);
-- (id);
-- (void)ntentProvider:(id)arg1;
+- (id)-;
+- (void)renditionWithContentProvider:(id)arg1;
 - (void)tIndices;
-- (_Bool)ferredCornerRadius;
+- (_Bool)preferredCornerRadius;
 - (void)%];
 
 @end

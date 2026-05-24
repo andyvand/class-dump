@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CNComposeRecipient;
+
 @protocol CNAutocompleteResultsTableViewControllerDelegate
+
+@optional
+- (void);
+- (void){;
+- (CNComposeRecipient *);
+- (void){;
+- (void)z;
+- (void)tm;
 @end
 

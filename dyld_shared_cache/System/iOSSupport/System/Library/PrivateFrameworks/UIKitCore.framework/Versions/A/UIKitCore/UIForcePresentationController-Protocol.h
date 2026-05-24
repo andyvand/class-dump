@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIGestureRecognizer, UIView, _UIStatesFeedbackGenerator;
-@protocol _UIForcePresentationControllerDelegate;
+@class UIView, _UIStatesFeedbackGenerator;
 
 @protocol UIForcePresentationController
-- (void)gXw;
+- (void);
+- (void);
+- (_Bool)submitAndOpenTapToRadarWithNotificationIdentifier:notificationTitle:notificationBody:draftTitle:problemDescription:attachments:deviceClasses:classification:reproducibility: /* Error: Ran out of types for this method. */;
+- (UIView *)handleFailureInMethod:object:file:lineNumber:description: /* Error: Ran out of types for this method. */;
+- (void)So20UICollectionViewCellCSgXw;
 - (_UIStatesFeedbackGenerator *)À\;
 
 // Remaining properties
-@property(readonly, nonatomic) UIView *_revealContainerView;
-@property(nonatomic) _Bool _sourceViewSnapshotAndScaleTransformSuppressed;
-@property(retain, nonatomic) _UIStatesFeedbackGenerator *feedbackGenerator;
-@property(nonatomic) __weak id <_UIForcePresentationControllerDelegate> forcePresentationControllerDelegate;
-@property(retain, nonatomic) UIGestureRecognizer *panningGestureRecognizer;
 @property(copy, nonatomic) CDUnknownBlockType presentationPhaseCompletionBlock;
 @end
 

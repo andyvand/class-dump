@@ -9,23 +9,13 @@
 @interface GEOPlaceIdDetails
 {
     PBUnknownFields *_unknownFields;
-    unsigned long long _basemapId;
-    unsigned long long _businessId;
-    unsigned int _localSearchProviderId;
-    unsigned int _resultIndex;
-    struct {
-        unsigned int has_basemapId:1;
-        unsigned int has_businessId:1;
-        unsigned int has_localSearchProviderId:1;
-        unsigned int has_resultIndex:1;
-    } _flags;
 }
 
-+ (_Bool)ntactWithLiveLocation:(id)arg1;
-- (void);
-- (void);
-- (void);
-- (void);
++ (_Bool)setIsContactWithLiveLocation:(id)arg1;
+- (void)initWithAccount:(unsigned int)arg1;
+- (void)dentifierRegistrarState",&,N,V_state;
+- (void)So13CNFileManager_p;
+- (void)rom MOC %{public}@;
 - (unsigned int);
 - (_Bool);
 - (_Bool);
@@ -40,32 +30,24 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)Updating %@ asset with language:(id)arg1 %@;
 - (id);
 - (unsigned long long);
+- (_Bool)p;
+- (unsigned int)rence date update in %#.1lfs;
 - (_Bool);
-- (unsigned int);
-- (_Bool);
-- (void);
+- (void)@;
 - (void)
 × ;
 - (id)sionDownloadTask"24q32q40q48;
 - (unsigned long long)@0:8^i16Q24 /* Error: Ran out of types for this method. */;
-- (id)tChanged;
+- (id)_timeSinceMapViewportChanged;
 - (id)D#;
 - (id)6, 2);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long basemapId;
-@property(nonatomic) unsigned long long businessId;
-@property(nonatomic) _Bool hasBasemapId;
 @property(nonatomic) _Bool hasBusinessId;
-@property(nonatomic) _Bool hasLocalSearchProviderId;
-@property(nonatomic) _Bool hasResultIndex;
-@property(nonatomic) unsigned int localSearchProviderId;
-@property(nonatomic) unsigned int resultIndex;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

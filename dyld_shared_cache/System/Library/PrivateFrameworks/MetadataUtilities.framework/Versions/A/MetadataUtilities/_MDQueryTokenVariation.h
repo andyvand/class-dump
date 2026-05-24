@@ -9,21 +9,17 @@
 @interface _MDQueryTokenVariation
 {
     float _confidence;
-    NSString *_variation;
-    long long _type;
 }
 
 - (id);
 - (id);
 - (void);
-- (long long);
+- (long long)ʚ;
 - (void);
 - (float);
 - (void);
 
 // Remaining properties
-@property(nonatomic) float confidence; // @synthesize confidence=_confidence;
-@property(nonatomic) long long type; // @synthesize type=_type;
 @property(readonly, copy, nonatomic) NSString *variation; // @synthesize variation=_variation;
 
 @end

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString, SXViewport;
+@class NSMapTable;
 
 @interface SXComponentInteractionHandlerManager
 {
     NSMapTable *_interactionHandlers;
-    SXViewport *_viewport;
 }
 
 - (void);
@@ -20,19 +19,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void)ructions";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSMapTable *interactionHandlers; // @synthesize interactionHandlers=_interactionHandlers;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) SXViewport *viewport; // @synthesize viewport=_viewport;
 
 @end
 

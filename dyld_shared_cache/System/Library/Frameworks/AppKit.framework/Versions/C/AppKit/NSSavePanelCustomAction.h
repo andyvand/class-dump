@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol _NSSavePanelCommonIPI;
+@class NSString;
 
 @interface NSSavePanelCustomAction
 {
     _Bool _supportsMultipleItems;
-    _Bool __propChangeWatcher;
-    NSArray *_supportedContentTypes;
-    NSString *_identifier;
-    NSString *_localizedTitle;
-    id <_NSSavePanelCommonIPI> _owningPanel;
 }
 
-+ (id);
-+ (id);
++ (id)d X-mobile me auth to request;
++ (id)0x%s;
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)@;
+- (void);
 - (void);
 - (id);
 - (void);
@@ -39,12 +33,7 @@
 - (id)LÿãÐ"C;
 
 // Remaining properties
-@property _Bool _propChangeWatcher; // @synthesize _propChangeWatcher=__propChangeWatcher;
 @property(copy) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property __weak id <_NSSavePanelCommonIPI> owningPanel; // @synthesize owningPanel=_owningPanel;
-@property(copy) NSArray *supportedContentTypes; // @synthesize supportedContentTypes=_supportedContentTypes;
-@property _Bool supportsMultipleItems; // @synthesize supportsMultipleItems=_supportsMultipleItems;
 
 @end
 

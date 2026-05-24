@@ -7,8 +7,6 @@
 @interface SCNTextureSource
 {
     id _mtlTextureCache;
-    id _glTextureCache;
-    id _size;
 }
 
 - (_Bool);
@@ -27,7 +25,7 @@
 - (id);
 - (double);
 - (void);
-- (void);
+- (void)annotationWillBeginEditing: /* Error: Ran out of types for this method. */;
 
 @end
 

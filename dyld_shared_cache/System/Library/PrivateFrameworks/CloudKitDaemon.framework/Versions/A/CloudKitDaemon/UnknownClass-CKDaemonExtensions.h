@@ -7,8 +7,8 @@
 @interface UnknownClass (CKDaemonExtensions)
 - (void);
 - (void);
-- (_Bool);
-- (struct _OpaquePCSShareProtection *);
+- (_Bool);
+- (struct _OpaquePCSShareProtection *)ot harvesting.;
 - (void);
 @end
 

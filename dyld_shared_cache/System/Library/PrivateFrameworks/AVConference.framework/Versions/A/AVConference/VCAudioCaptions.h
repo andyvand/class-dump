@@ -6,74 +6,10 @@
 
 #import <AVConference/VCObject.h>
 
-@class ASBDWrapper, AVAudioFormat, NSLocale, NSMutableArray, NSNumber, NSObject, NSSet, NSString, NSUUID, VCCaptionTaskInfo, VCCaptionsConfig;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore, VCAudioCaptionsDelegate;
-
 __attribute__((visibility("hidden")))
 @interface VCAudioCaptions : VCObject
 {
     _Bool _isEnabled;
-    _Bool _isPrewarmed;
-    _Bool _isStarted;
-    _Bool _isLocal;
-    _Bool _useSpeechAnalyzerV2API;
-    _Bool _enableSpeechDetector;
-    _Bool _languageDetectorEnabled;
-    unsigned int _lastVoiceAcitivty;
-    unsigned char _frameworkType;
-    int _recognizerState;
-    VCCaptionTaskInfo *_currentTaskInfo;
-    NSNumber *_languageDetectorReportingFrequency;
-    NSObject<OS_dispatch_queue> *_captionsQueue;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
-    struct __CFAllocator *_copyBufferAllocator;
-    struct __CFAllocator *_audioBufferAllocator;
-    struct __CFAllocator *_pcmCopyBufferAllocator;
-    AVAudioFormat *_frameworkAudioFormat;
-    struct __CFAllocator *_avAudioPCMAudioBufferAllocator;
-    long long _currentTime;
-    int _timescale;
-    long long _epoch;
-    VCCaptionsConfig *_config;
-    NSLocale *_locale;
-    NSLocale *_sourceLocale;
-    NSString *_taskIdentifier;
-    unsigned char _taskHint;
-    _Bool _explicitLanguageFilterEnabled;
-    unsigned char _callType;
-    id <VCAudioCaptionsDelegate> _delegate;
-    unsigned long long _captioningRequestCount;
-    _Bool _formatForNewLinesEnabled;
-    unsigned char _translatorMode;
-    NSUUID *_translatorIdentifier;
-    struct opaqueRTCReporting *_reportingAgent;
-    double _captionsEnabledDuration;
-    double _lastCaptionsEnabledTime;
-    CDStruct_1b6d18a9 _lastAudioProcessedTime;
-    double _captionedAudioDuration;
-    unsigned int _captionTaskCount;
-    double _captionsLastUtteranceStart;
-    double _captionsUtteranceDuration;
-    double _translatedLatencyAverage;
-    void *_previousConverterSamples;
-    struct __CFAllocator *_previousConverterSamplesAllocator;
-    struct OpaqueAudioConverter *_audioConverter;
-    _Bool _isAudioConverterActive;
-    ASBDWrapper *_captionsFormat;
-    ASBDWrapper *_inputFormat;
-    NSSet *_localLanguages;
-    NSSet *_remoteLanguages;
-    _Bool _remoteCanDisplay;
-    unsigned int _currentUtteranceNumber;
-    unsigned int _translatedUtteranceNumber;
-    NSObject<OS_dispatch_semaphore> *_teardownSemaphore;
-    _Bool _inputFormatDidChange;
-    NSMutableArray *_captionTasks;
-    long long _streamToken;
-    void *_logCaptionsDump;
-    _Bool _isCaptionsDebugDumpEnabled;
-    unsigned int _logMessageCounter;
-    NSString *_detectedLanguageCode;
 }
 
 + (long long);
@@ -81,7 +17,7 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (_Bool);
 + (_Bool);
-- (_Bool);
+- (_Bool);
 - (unsigned char);
 - (id);
 - (_Bool);
@@ -93,27 +29,27 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
+- (_Bool)a;
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)C;
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
+- (_Bool);
+- (void)|;
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
@@ -128,7 +64,7 @@ __attribute__((visibility("hidden")))
 - (unsigned char);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -150,7 +86,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)preferredPathConfigUri;
 - (void);
 - (void);
 - (id);
@@ -158,7 +94,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (long long);
-- (unsigned char);
+- (unsigned char)C;
 - (void);
 - (void);
 - (void);
@@ -168,38 +104,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
-- (void)tMode:(id)arg1;
+- (id)j#Ț	;
+- (void)setLayerHostMode:(id)arg1;
 - (_Bool)Q/Library/Caches/com.apple.xbs/TemporaryDirectory.ZMSfoZ/Sources/AVConference/AVConference.subproj/Sources/Others/VideoUtil.m:%d:FigVideoFormatDescriptionCopyAsBigEndianImageDescriptionBlockBuffer %d /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned char callType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <VCAudioCaptionsDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool enableV2SpeechAPI;
-@property(readonly, nonatomic) _Bool enabled;
-@property(nonatomic, getter=isExplicitLanguageFilterEnabled) _Bool explicitLanguageFilterEnabled;
-@property(nonatomic, getter=isFormatForNewLinesEnabled) _Bool formatForNewLinesEnabled;
 @property(readonly, nonatomic) unsigned char frameworkType; // @synthesize frameworkType=_frameworkType;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool languageDetectorEnabled; // @synthesize languageDetectorEnabled=_languageDetectorEnabled;
-@property(retain, nonatomic) NSNumber *languageDetectorReportingFrequency; // @synthesize languageDetectorReportingFrequency=_languageDetectorReportingFrequency;
-@property(retain, nonatomic) NSSet *localLanguages; // @synthesize localLanguages=_localLanguages;
-@property(copy, nonatomic) NSLocale *locale;
-@property(nonatomic) _Bool remoteCanDisplay; // @synthesize remoteCanDisplay=_remoteCanDisplay;
-@property(retain, nonatomic) NSSet *remoteLanguages; // @synthesize remoteLanguages=_remoteLanguages;
-@property(copy, nonatomic) NSLocale *sourceLocale;
-@property(nonatomic) long long streamToken; // @synthesize streamToken=_streamToken;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned char taskHint;
-@property(retain, nonatomic) NSString *taskIdentifier; // @synthesize taskIdentifier=_taskIdentifier;
-@property(copy, nonatomic) NSUUID *translatorIdentifier; // @synthesize translatorIdentifier=_translatorIdentifier;
-@property(nonatomic) unsigned char translatorMode; // @synthesize translatorMode=_translatorMode;
 
 @end
 

@@ -10,14 +10,11 @@ __attribute__((visibility("hidden")))
 @interface ISVectorVariantResource
 {
     NSString *_variantName;
-    unsigned long long _flags;
-    struct CGPDFDocument *_pdfDocument;
-    NSURL *_URL;
 }
 
 + (id);
 - (id);
-- (id);
+- (id)/;
 - (struct CGImage *);
 - (void);
 - (void);
@@ -30,16 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long flags; // @synthesize flags=_flags;
-@property(readonly) unsigned long long hash;
-@property(readonly) struct CGPDFDocument *pdfDocument; // @synthesize pdfDocument=_pdfDocument;
-@property(readonly) Class superclass;
-@property(readonly) NSString *variantName; // @synthesize variantName=_variantName;
 
 @end
 

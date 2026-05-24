@@ -12,9 +12,9 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)t be an NSNull or NSString;
+- (id)onnection %p attempting to reopen snapshot:%p /* Error: Ran out of types for this method. */;
+- (id);
 - (unsigned long long);
 - (id);
 - (void);

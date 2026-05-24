@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
+@class NSArray;
 @protocol UINSDropSessionHandler;
 
 __attribute__((visibility("hidden")))
 @interface UINSDropSession
 {
     id <UINSDropSessionHandler> _handler;
-    unsigned long long _lastDropOperation;
-    NSMutableArray *_filePromiseReaders;
-    unsigned int _sessionID;
-    NSArray *_items;
-    unsigned long long _operationMask;
 }
 
 - (void);
@@ -25,20 +20,18 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (void);
-- (unsigned long long);
-- (void);
+- (unsigned long long)#;
+- (void)rB;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (unsigned int);
+- (unsigned int);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(readonly, nonatomic) unsigned long long operationMask; // @synthesize operationMask=_operationMask;
-@property(readonly, nonatomic) unsigned int sessionID; // @synthesize sessionID=_sessionID;
 
 @end
 

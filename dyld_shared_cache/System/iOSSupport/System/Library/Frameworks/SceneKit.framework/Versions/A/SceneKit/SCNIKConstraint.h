@@ -6,22 +6,20 @@
 
 #import <SceneKit/SCNConstraint.h>
 
-@class NSMutableDictionary, SCNNode;
+@class SCNNode;
 
 @interface SCNIKConstraint : SCNConstraint
 {
     SCNNode *_chainRootNode;
-    struct SCNVector3 _ikTarget;
-    NSMutableDictionary *_jointsPerNode;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)fieldLabelMapMatcher;
 - (struct SCNVector3);
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)=;
 - (id);
 - (id);
 - (id);
@@ -29,14 +27,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id)`;
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) SCNNode *chainRootNode;
-@property(nonatomic) struct SCNVector3 targetPosition;
 
 @end
 

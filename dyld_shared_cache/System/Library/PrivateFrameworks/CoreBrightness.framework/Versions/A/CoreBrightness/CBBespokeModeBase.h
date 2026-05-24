@@ -4,31 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol CBAABCurveProtocol;
-
 __attribute__((visibility("hidden")))
 @interface CBBespokeModeBase
 {
     long long _type;
-    id <CBAABCurveProtocol> _aab;
 }
 
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)b;
 - (long long);
 
 // Remaining properties
-@property(copy) id <CBAABCurveProtocol> aab; // @synthesize aab=_aab;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

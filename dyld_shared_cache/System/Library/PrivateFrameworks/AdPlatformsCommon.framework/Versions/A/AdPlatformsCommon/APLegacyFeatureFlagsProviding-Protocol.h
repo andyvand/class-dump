@@ -4,21 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APDeviceCapabilityEngine;
-
 @protocol APLegacyFeatureFlagsProviding
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool actionStoreEnabled;
-@property(readonly, nonatomic) _Bool attributionV2Enabled;
-@property(readonly, nonatomic) _Bool attributionV3Enabled;
-@property(readonly, nonatomic) APDeviceCapabilityEngine *capabilityEngine;
-@property(readonly, nonatomic) _Bool devicePipelinesEnabled;
 @property(readonly, nonatomic) _Bool odcaP0;
-@property(readonly, nonatomic) _Bool odcaP0u1;
-@property(readonly, nonatomic) _Bool odcaP1;
-@property(readonly, nonatomic) _Bool policyEnforcement;
-@property(readonly, nonatomic) _Bool toroIDPartialSuppression;
-@property(readonly, nonatomic) _Bool unifiedRegulatedAppAdFilter;
 @end
 

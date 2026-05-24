@@ -11,7 +11,7 @@
     WBSRemotelyUpdatableDataController *_remotelyUpdatableDataController;
 }
 
-+ (id);
++ (id)SignDataWithIdentityResponse>"8;
 - (void);
 - (id);
 - (void);

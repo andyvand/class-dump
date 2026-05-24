@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet;
+@class NSMutableArray;
 
 @interface _MFRoutingDictionaryContext
 {
     NSMutableArray *_transferredOrDeleted;
-    NSMutableArray *_rejectedMessages;
-    NSMutableArray *_messagesToBeDeleted;
-    NSMutableSet *_destinationStores;
 }
 
 - (id);
@@ -21,14 +18,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)m;
+- (id)_doNotStartObservingNetworkReachability;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *destinationStores; // @synthesize destinationStores=_destinationStores;
-@property(retain, nonatomic) NSMutableArray *messagesToBeDeleted; // @synthesize messagesToBeDeleted=_messagesToBeDeleted;
-@property(retain, nonatomic) NSMutableArray *rejectedMessages; // @synthesize rejectedMessages=_rejectedMessages;
 @property(retain, nonatomic) NSMutableArray *transferredOrDeleted; // @synthesize transferredOrDeleted=_transferredOrDeleted;
 
 @end

@@ -5,6 +5,7 @@
 //
 
 @protocol _UIWindowSceneTransitionCoordinator
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool allowedAsMorphTransitionSource;

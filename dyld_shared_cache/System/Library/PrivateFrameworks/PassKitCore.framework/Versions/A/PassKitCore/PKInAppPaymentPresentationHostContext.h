@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString, PKPaymentRequest;
+@class PKPaymentRequest;
 
 @interface PKInAppPaymentPresentationHostContext
 {
     _Bool _awaitingRemoteNetworkPaymentRequest;
-    _Bool _omitPresentationTarget;
-    _Bool _hasIssuerInstallmentsHandoffViewOpenAssertion;
-    PKPaymentRequest *_request;
-    NSString *_applicationName;
-    NSString *_applicationIdentifier;
-    NSString *_bundleIdentifier;
-    NSString *_identifier;
-    NSString *_sceneIdentifier;
-    NSString *_sceneBundleIdentifier;
-    NSString *_teamID;
-    NSNumber *_orientation;
-    NSString *_analyticsSubject;
-    NSData *_analyticsArchivedSessionToken;
 }
 
 + (_Bool)X"!èGùî%1Â0@ù
@@ -29,55 +16,43 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)RJSj
+*;
 - (void);
 - (void);
 - (id);
+- (_Bool)	k`;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)k;
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
+- (unsigned long long);
+- (_Bool)setAdhocNetsCount:(id)arg1;
+- (void)recordsChanged;
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)	@9;
 - (id);
-- (id)gate: /* Error: Ran out of types for this method. */;
-- (void)t;
+- (id)createSessionWithDelegate: /* Error: Ran out of types for this method. */;
+- (void)_registrationResult;
 - (void)anager:(id)arg1 credential requested descriptor:%@ /* Error: Ran out of types for this method. */;
 - (void)tails:(id)arg1;
-- (id)dFallback;
+- (id)disablePasswordFallback;
 - (void)ctionStatus:'%lu';  /* Error: Ran out of types for this method. */;
 - (id);
 - (void)*Ùlþ× ;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *analyticsArchivedSessionToken; // @synthesize analyticsArchivedSessionToken=_analyticsArchivedSessionToken;
-@property(copy, nonatomic) NSString *analyticsSubject; // @synthesize analyticsSubject=_analyticsSubject;
-@property(copy, nonatomic) NSString *applicationIdentifier; // @synthesize applicationIdentifier=_applicationIdentifier;
-@property(copy, nonatomic) NSString *applicationName; // @synthesize applicationName=_applicationName;
-@property(nonatomic) _Bool awaitingRemoteNetworkPaymentRequest; // @synthesize awaitingRemoteNetworkPaymentRequest=_awaitingRemoteNetworkPaymentRequest;
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(nonatomic) _Bool hasIssuerInstallmentsHandoffViewOpenAssertion; // @synthesize hasIssuerInstallmentsHandoffViewOpenAssertion=_hasIssuerInstallmentsHandoffViewOpenAssertion;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool omitPresentationTarget; // @synthesize omitPresentationTarget=_omitPresentationTarget;
-@property(copy, nonatomic) NSNumber *orientation; // @synthesize orientation=_orientation;
 @property(retain, nonatomic) PKPaymentRequest *request; // @synthesize request=_request;
-@property(copy, nonatomic) NSString *sceneBundleIdentifier; // @synthesize sceneBundleIdentifier=_sceneBundleIdentifier;
-@property(copy, nonatomic) NSString *sceneIdentifier; // @synthesize sceneIdentifier=_sceneIdentifier;
-@property(copy, nonatomic) NSString *teamID; // @synthesize teamID=_teamID;
 
 @end
 

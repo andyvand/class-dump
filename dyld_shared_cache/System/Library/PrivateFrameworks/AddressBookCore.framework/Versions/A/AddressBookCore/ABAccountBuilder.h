@@ -4,41 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABACAccount, ABAccount, ABAccountPersistence, NSArray, NSNumber, NSString;
-@protocol ABACAccountStore, ABAccountCustomizationPolicy;
+@class NSString;
 
 @interface ABAccountBuilder
 {
     NSString *_identifier;
-    NSString *_name;
-    NSString *_basePath;
-    Class _sourceClass;
-    NSArray *_childAccounts;
-    NSNumber *_dsid;
-    NSString *_altDSID;
-    CDUnknownBlockType _sourceCreationBlock;
-    id <ABAccountCustomizationPolicy> _customizationPolicy;
-    _Bool _isMainAccount;
-    _Bool _supportsDistributionLists;
-    Class _configurationClass;
-    CDUnknownBlockType _searchPolicyBlock;
-    ABAccountPersistence *_persistence;
-    ABACAccount *_acAccount;
-    ABACAccount *_parentACAccount;
-    id <ABACAccountStore> _accountStore;
-    ABAccount *_parentAccount;
-    ABACAccount *_acParentAccount;
 }
 
 - (CDUnknownBlockType);
+- (void)`b;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -51,21 +32,21 @@
 - (_Bool);
 - (CDUnknownBlockType);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)T9;
 - (void);
 - (id);
 - (id);
 - (Class);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -77,27 +58,13 @@
 - (void);
 - (void)!Gù±0*°1Â0@ù
 × ;
-- (id)ITemplatesByServiceKey;
+- (id)textChatURITemplatesByServiceKey;
 - (void),V_departmentName;
 - (id)¬Ðü;
 - (id).B3;
 
 // Remaining properties
-@property(retain, nonatomic) ABACAccount *acAccount; // @synthesize acAccount=_acAccount;
-@property(retain, nonatomic) ABACAccount *acParentAccount; // @synthesize acParentAccount=_acParentAccount;
-@property(retain, nonatomic) id <ABACAccountStore> accountStore; // @synthesize accountStore=_accountStore;
-@property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(copy, nonatomic) NSString *basePath; // @synthesize basePath=_basePath;
-@property(nonatomic) Class configurationClass; // @synthesize configurationClass=_configurationClass;
-@property(retain, nonatomic) id <ABAccountCustomizationPolicy> customizationPolicy; // @synthesize customizationPolicy=_customizationPolicy;
-@property(copy, nonatomic) NSNumber *dsid; // @synthesize dsid=_dsid;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isMainAccount; // @synthesize isMainAccount=_isMainAccount;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) ABAccount *parentAccount; // @synthesize parentAccount=_parentAccount;
-@property(retain, nonatomic) ABAccountPersistence *persistence;
-@property(nonatomic) Class primitiveSourceClass; // @synthesize primitiveSourceClass=_sourceClass;
-@property(copy, nonatomic) CDUnknownBlockType primitiveSourceCreationBlock; // @synthesize primitiveSourceCreationBlock=_sourceCreationBlock;
 
 @end
 

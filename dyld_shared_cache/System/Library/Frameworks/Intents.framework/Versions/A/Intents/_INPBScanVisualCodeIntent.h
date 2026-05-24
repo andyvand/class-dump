@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentMetadata;
+@class _INPBIntentMetadata;
 
 @interface _INPBScanVisualCodeIntent
 {
     struct _has;
-    _INPBIntentMetadata *_intentMetadata;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)R;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -22,20 +21,12 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)?;
 - (_Bool)pdate;
-- (void)odeSuccess;
+- (void)INSetTimerAttributeIntentResponseCodeSuccess;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(readonly) Class superclass;
 
 @end
 

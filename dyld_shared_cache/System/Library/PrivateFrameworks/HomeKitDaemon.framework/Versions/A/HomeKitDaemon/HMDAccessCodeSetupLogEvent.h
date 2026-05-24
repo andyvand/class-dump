@@ -4,49 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDAccessCodeSetupLogEvent
 {
     _Bool _success;
-    unsigned long long _failureReason;
 }
 
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)(;
 - (id);
 - (id);
 - (id);
-- (unsigned long long)or: /* Error: Ran out of types for this method. */;
+- (unsigned long long)initWithFullPlist:hapMetadata:error: /* Error: Ran out of types for this method. */;
 - (_Bool)@?0@"MKFResidentDatabaseID"8^B16;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long failureReason; // @synthesize failureReason=_failureReason;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
 @property(readonly) _Bool success; // @synthesize success=_success;
-@property(readonly) Class superclass;
 
 @end
 

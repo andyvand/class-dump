@@ -4,62 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOGPUMetalCommandBuffer, IOGPUMetalCommandEncoder, IOGPUMetalDevice, IOGPUMetalDeviceShmem, IOGPUMetalIOCommandQueue, NSMutableArray, NSObject;
-@protocol MTLBlitCommandEncoder, MTLCommandBuffer, MTLDevice, OS_dispatch_group;
+@class IOGPUMetalDevice;
+@protocol MTLDevice;
 
 @interface IOGPUMetalIOCommandBuffer
 {
     IOGPUMetalDevice<MTLDevice> *_device;
-    IOGPUMetalIOCommandQueue *_queue;
-    IOGPUMetalDeviceShmem *_ioKernelCommandShmem;
-    char *_ioKernelCommandShmemStart;
-    char *_ioKernelCommandShmemCurrent;
-    char *_ioKernelCommandShmemEnd;
-    struct IOGPUIOKernelCommandListHeader *_commandListHeader;
-    IOGPUMetalCommandBuffer<MTLCommandBuffer> *_gpuCommandBuffer;
-    IOGPUMetalCommandEncoder<MTLBlitCommandEncoder> *_gpuBlitEncoder;
-    NSMutableArray *_stagingBuffers;
-    NSObject<OS_dispatch_group> *_ioCompletionGroup;
-    _Atomic unsigned int _notificationCount;
-    unsigned int _lastBarrierNotificationCount;
-    unsigned int _commandBufferID;
-    unsigned long long _globalTraceObjectID;
-    _Bool _hasFollowOnGPUWork;
-    _Bool _committed;
-    _Bool _tryCancel;
-    struct vector<IOGPUIOCommandQueueCommandBufferCallbackBlock, std::allocator<IOGPUIOCommandQueueCommandBufferCallbackBlock>> _commandCallbackBlocks;
 }
 
 - (_Bool);
 - (void *);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)U+Д ;
+- (void);
+- (void)2;
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
+- (id)r %p has no last shown likeness for %@;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)/%@%@;
 - (void);
 - (unsigned long long);
 - (void);
-- (void)ate;
+- (void)IOGPUMetalResidencySetListDuplicate;
 
 @end
 

@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
+- (void)r:'%c' /* Error: Ran out of types for this method. */;
 
 @end
 

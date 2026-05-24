@@ -5,30 +5,19 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_data, OS_dispatch_queue, OS_nw_connection, OS_nw_error;
+@protocol OS_dispatch_queue, OS_nw_connection;
 
 @interface IDSCapsuleParser
 {
     NSObject<OS_dispatch_queue> *_queue;
-    unsigned long long _state;
-    unsigned long long _currentCapsuleType;
-    unsigned long long _currentCapsuleLength;
-    unsigned long long _currentCapsuleHeaderLength;
-    unsigned long long _waitingBodySize;
-    unsigned char _headerBuffer[16];
-    unsigned char _headerBufferSize;
-    NSObject<OS_dispatch_data> *_pendingData;
-    NSObject<OS_nw_error> *_pendingError;
-    _Bool _processingReadCall;
-    NSObject<OS_nw_connection> *_connection;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)uS	;
 - (_Bool);
-- (void);
+- (void)4;
 - (id);
 - (id);
 - (void);

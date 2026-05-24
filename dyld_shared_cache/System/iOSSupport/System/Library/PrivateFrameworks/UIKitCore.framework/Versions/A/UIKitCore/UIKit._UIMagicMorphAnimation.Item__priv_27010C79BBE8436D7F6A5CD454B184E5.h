@@ -7,11 +7,6 @@
 @interface UIKit._UIMagicMorphAnimation.Item__priv_27010C79BBE8436D7F6A5CD454B184E5
 {
     id preview;
-    id tracksPresentationLayer;
-    id reparentingView;
-    id morphView;
-    id alongsideAnimations;
-    id completion;
 }
 
 - (id);

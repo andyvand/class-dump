@@ -7,20 +7,20 @@
 @interface UnknownClass (TSUAdditions)
 + (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (CDStruct_d65e47c4);
 - (void);
+- (id)A;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_d65e47c4 tsu_DOSTime;

@@ -6,19 +6,12 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaSSUUserRequestMatchInfo : SISchemaInstrumentationMessage
 {
     int _matchingUtteranceCandidateType;
-    unsigned int _numEntities;
-    struct {
-        unsigned int matchingUtteranceCandidateType:1;
-        unsigned int numEntities:1;
-    } _has;
 }
 
-- (void);
+- (void)s;
 - (void);
 - (void);
 - (unsigned int);
@@ -40,11 +33,7 @@
 - (id)dCorrectionExperimentPostAnalysis;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMatchingUtteranceCandidateType;
-@property(nonatomic) _Bool hasNumEntities;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int matchingUtteranceCandidateType; // @synthesize matchingUtteranceCandidateType=_matchingUtteranceCandidateType;
-@property(nonatomic) unsigned int numEntities; // @synthesize numEntities=_numEntities;
 
 @end
 

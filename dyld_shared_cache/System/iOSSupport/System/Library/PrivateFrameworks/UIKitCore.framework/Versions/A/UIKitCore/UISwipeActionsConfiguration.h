@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface UISwipeActionsConfiguration
 {
     _Bool _performsFirstActionWithFullSwipe;
-    _Bool _autosizesButtons;
-    NSArray *_actions;
-    long long __swipeActionsStyle;
-    double __roundedStyleCornerRadius;
 }
 
 + (id);
-- (void);
-- (_Bool);
-- (long long);
-- (void);
-- (void);
+- (void)IMCheckInMessagePipelineParameter;
+- (_Bool)H;
+- (long long)is FALSE as iCloud and iMessage accounts do not match up;
+- (void)0@"CKRecordZoneID"8@"CKServerChangeToken"16@"NSData"24;
+- (void)chatBotRecoverableMessageDeleteZone;
 - (void);
 - (double);
 - (_Bool);
@@ -31,11 +25,7 @@
 - (void)Ïäb;
 
 // Remaining properties
-@property(nonatomic, getter=_roundedStyleCornerRadius, setter=_setRoundedStyleCornerRadius:) double _roundedStyleCornerRadius; // @synthesize _roundedStyleCornerRadius=__roundedStyleCornerRadius;
-@property(nonatomic, getter=_swipeActionsStyle, setter=_setSwipeActionsStyle:) long long _swipeActionsStyle; // @synthesize _swipeActionsStyle=__swipeActionsStyle;
-@property(readonly, copy, nonatomic) NSArray *actions; // @synthesize actions=_actions;
 @property(nonatomic, getter=_autosizesButtons, setter=_setAutosizesButtons:) _Bool autosizesButtons; // @synthesize autosizesButtons=_autosizesButtons;
-@property(nonatomic) _Bool performsFirstActionWithFullSwipe; // @synthesize performsFirstActionWithFullSwipe=_performsFirstActionWithFullSwipe;
 
 @end
 

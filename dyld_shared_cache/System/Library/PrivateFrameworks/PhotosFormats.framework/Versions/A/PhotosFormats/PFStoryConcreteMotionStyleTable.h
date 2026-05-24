@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface PFStoryConcreteMotionStyleTable
 {
     NSDictionary *_motionStylesByColorGrade;
-    NSArray *_defaultFrequencies;
 }
 
 - (id);
-- (id);
+- (id)_TtCO10Accelerate4BNNSP33_0647BF09B7CC46762C8799D029904E5619NearestNeighborsRef;
 - (void);
 
 @end

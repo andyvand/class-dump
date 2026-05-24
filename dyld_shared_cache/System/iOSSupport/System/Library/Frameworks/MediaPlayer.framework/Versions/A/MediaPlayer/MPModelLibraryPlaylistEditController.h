@@ -4,42 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPMediaLibrary, MPModelLibraryPlaylistEditTransactionDetails, MPModelPlaylist, MPModelSocialPerson, MPPropertySet, MPSectionedCollection, MPSectionedIdentifierList, NSArray, NSMutableArray, NSMutableDictionary, NSNumber, NSObject, NSOperationQueue, NSString, UIImage;
-@protocol OS_dispatch_queue;
+@class NSOperationQueue;
 
 @interface MPModelLibraryPlaylistEditController
 {
     NSOperationQueue *_operationQueue;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    MPModelPlaylist *_playlist;
-    MPMediaLibrary *_library;
-    MPSectionedCollection *_initialTrackList;
-    NSArray *_initialTrackObjectList;
-    NSString *_initialDataSourceIdentifier;
-    MPSectionedIdentifierList *_trackIdentifierList;
-    MPPropertySet *_playlistProperties;
-    MPPropertySet *_playlistEntryProperties;
-    MPModelSocialPerson *_authorProfile;
-    NSMutableDictionary *_playlistEntriesByIdentifier;
-    NSMutableDictionary *_dataSources;
-    MPModelLibraryPlaylistEditTransactionDetails *_currentTransaction;
-    NSMutableArray *_completedTransactions;
-    NSString *_currentLastItemIdentifier;
-    NSMutableDictionary *_itemIdentifierToPositionIdentifierMap;
-    NSMutableDictionary *_positionIdentifierToItemIdentifierMap;
-    long long _lastAppliedTransactionIndex;
-    _Bool _notificationsSuspended;
-    NSString *_newName;
-    NSString *_newDescriptionText;
-    MPModelPlaylist *_newParentPlaylist;
-    UIImage *_newUserImage;
-    NSNumber *_publicPlaylist;
-    NSNumber *_visiblePlaylist;
-    NSNumber *_curatorPlaylist;
-    NSString *_coverArtworkRecipe;
-    NSString *_editSessionID;
-    _Bool _addInsertedTracksToLibrary;
-    unsigned long long _maxUndoLimit;
 }
 
 - (id);
@@ -48,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)0E;
 - (void);
 - (void);
 - (void);
@@ -80,6 +49,7 @@
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -91,39 +61,38 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)sqlite_compileoption_used;
+- (void)noCheckOption;
+- (void)objectTabconstraint;
+- (void)objectStatisticExt;
+- (void)objectSubscription;
+- (void)objectOperator;
+- (_Bool)isXmlparse;
+- (void)alterDatabaseStmt;
+- (void)constraintsSetStmt;
+- (id)nextValueExpr;
+- (id);
+- (void)newTablespacename;
+- (id)newValIsAfter;
+- (id)schemaElts;
+- (id)oids;
+- (id)notnull;
+- (id)_ctecoltypes;
+- (_Bool)_extraUpdatedCols;
+- (void)_defaction;
+- (id)_partitionClause;
+- (void)_refcontainertype;
+- (id);
+- (id)keyedFirstMatchingRecord;
+- (id)bookmark;
+- (void)updatedTimestampColumn;
+- (void)maxBatchSize;
+- (_Bool);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -139,27 +108,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool addInsertedTracksToLibrary; // @synthesize addInsertedTracksToLibrary=_addInsertedTracksToLibrary;
-@property(copy, nonatomic) NSString *coverArtworkRecipe;
-@property(copy, nonatomic, getter=isCuratorPlaylist) NSNumber *curatorPlaylist;
-@property(readonly, copy, nonatomic) MPSectionedCollection *currentTrackList;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *descriptionText;
-@property(copy, nonatomic) NSString *editSessionID;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSArray *initialTrackList;
-@property(nonatomic) unsigned long long maxUndoLimit; // @synthesize maxUndoLimit=_maxUndoLimit;
-@property(copy, nonatomic) NSString *name;
-@property(retain, nonatomic) MPModelPlaylist *parentPlaylist;
-@property(copy, nonatomic, getter=isPublicPlaylist) NSNumber *publicPlaylist;
-@property(readonly, nonatomic, getter=isRedoAvailable) _Bool redoAvailable;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=isUndoAvailable) _Bool undoAvailable;
-@property(retain, nonatomic) UIImage *userImage;
-@property(copy, nonatomic, getter=isVisiblePlaylist) NSNumber *visiblePlaylist;
 
 @end
 

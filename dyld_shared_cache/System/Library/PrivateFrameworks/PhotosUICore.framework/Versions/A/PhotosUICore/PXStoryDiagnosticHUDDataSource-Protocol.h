@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXObservable, PXStoryModel, PXStoryRelatedController;
+@class PXObservable, PXStoryModel;
 
 @protocol PXStoryDiagnosticHUDDataSource
+- (PXStoryModel *);
+- (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long HUDContentChangeDescriptor;
 @property(readonly, nonatomic) PXObservable *HUDObservable;
-@property(readonly, nonatomic) PXStoryRelatedController *HUDRelatedController;
-@property(readonly, nonatomic) PXStoryModel *HUDStoryModel;
-@property(readonly, nonatomic) unsigned long long HUDStoryModelChangeDescriptor;
-@property(readonly, nonatomic) unsigned long long HUDVisibiltyChangeDescriptor;
-@property(readonly, nonatomic) long long diagnosticHUDType;
-@property(readonly, nonatomic) _Bool isHUDVisible;
 @end
 

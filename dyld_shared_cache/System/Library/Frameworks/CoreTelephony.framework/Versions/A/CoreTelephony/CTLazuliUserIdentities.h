@@ -4,31 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CTLazuliUserIdentities
 {
     NSString *_impi;
-    NSArray *_impus;
 }
 
-+ (_Bool);
++ (_Bool)^{OpaqueFigMetricEventTimeline=}8@"NSError"16;
 - (void);
-- (void);
+- (void))K;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool);
+- (void)checkOwnershipInVolume:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)|};
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *impi; // @synthesize impi=_impi;
-@property(retain, nonatomic) NSArray *impus; // @synthesize impus=_impus;
 
 @end
 

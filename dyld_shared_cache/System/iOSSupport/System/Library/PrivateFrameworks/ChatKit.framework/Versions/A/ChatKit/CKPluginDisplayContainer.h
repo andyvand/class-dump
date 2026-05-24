@@ -4,31 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMPluginPayload, UIImage;
+@class IMPluginPayload;
 
 @interface CKPluginDisplayContainer
 {
     IMPluginPayload *_pluginPayload;
-    UIImage *_composeImage;
 }
 
++ (id)k audio:(id)arg1 timed out - attachment:(id)arg2 %s;
 + (id);
-+ (id);
-+ (_Bool)ginForAvatarView;
++ (_Bool)conversationListCellAdditionalLeftMarginForAvatarView;
+- (id)setForceFullSizeImage:(id)arg1;
+- (void)_htmlSourceObjects;
+- (id)@"ICTagDetailItemIdentifier",R,N;
+- (id)c;
+- (void)ionComplete expected to find attachment range in note;
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)�I;
 - (id);
 - (void);
 - (void)üà¤ø;
 
 // Remaining properties
-@property(retain, nonatomic) UIImage *composeImage; // @synthesize composeImage=_composeImage;
 @property(retain, nonatomic) IMPluginPayload *pluginPayload; // @synthesize pluginPayload=_pluginPayload;
 
 @end

@@ -7,10 +7,9 @@
 @class NSDateInterval;
 
 @protocol BMEventTimeElapsing
+- (void)in image size cache. Falling back to asking the image;
 
 // Remaining properties
-@property(nonatomic) double absoluteTimestamp;
 @property(copy, nonatomic) NSDateInterval *dateInterval;
-@property(nonatomic) double duration;
 @end
 

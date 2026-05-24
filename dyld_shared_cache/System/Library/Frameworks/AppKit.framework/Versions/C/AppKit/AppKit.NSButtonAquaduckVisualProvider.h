@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButtonCell, NSColor;
+@class NSButtonCell;
 
 @interface AppKit.NSButtonAquaduckVisualProvider
 {
     void buttonCell;
-    id button;
-    id _hostingViewIfExists;
-    id cellOverrides;
-    id bezelConfiguration;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)setObject:(id)arg1 atIndexedSubscript:(id)arg2;
 - (unsigned long long);
 - (int);
 - (void);
@@ -25,55 +21,53 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (struct CGRect);
-- (void);
-- (void);
-- (id);
-- (int);
-- (void);
+- (struct CGRect)T_SHOULD_PIPELINE"b1"_flag_SET_EXPLICIT_CACHE_POLICY"b1"_flag_SET_EXPLICIT_TIMEOUT"b1"_flag_SET_EXPLICIT_PROXY_DICT"b1"_flag_SET_EXPLICIT_SSL_PROPERTIES"b1"_flag_SET_EXPLICIT_SHOULD_START_SYNCHRONOUSLY"b1}"fSSLProps"^{__CFDictionary}"fContentDispositionHeaderEncodingFallbackArray"^{__CFArray}"fRequestPriority"q"fAllowedProtocolTypes"Q"fNetworkServiceType"i"fBoundInterfaceIdentifier"^{__CFString}"fTrackerContext"^{__CFString}"fCookiePartitionIdentifier"^{__CFString}"fTimeWindowDelay"d"fTimeWindowDuration"d"fStartTimeoutTime"d"fRequiresShortConnectionTimeout"C"fPreventHSTSStorage"C"fIgnoreHSTS"C"fSchemeWasUpgradedDueToDynamicHSTS"C"fAssumesHTTP3Capable"C"fKnownTracker"C"fPrivacyProxyFailClosed"C"fPrivacyProxyStrictFailClosed"C"fPrivacyProxyFailClosedForUnreachableNonMainHosts"C"fPrivacyProxyFailClosedForUnreachableHosts"C"fProhibitPrivacyProxy"C"fAllowPrivateAccessTokensForThirdParty"C"fUseEnhancedPrivacyMode"C"fBlockTrackers"C"fFailInsecureLoadWithHTTPSDNSRecord"C"fIsWebSearchContent"C"fAllowOnlyPartitionedCookies"C"fUnsafeAllowedInEarlyData"C"fRequiresDNSSECValidation"C"fAllowsPersistentDNS"C"fAttribution"Q"fPayloadTransmissionTimeout"d"fATSOverrides"^{__CFDictionary}"fHSTSPolicy"{unique_ptr<_CFHSTSPolicy, Deleter_CFRelease>=""{?="__ptr_"^{_CFHSTSPolicy}}}"fAllowsExpensiveNetworkAccess"C"fAllowsConstrainedNetworkAccess"C"fAllowsUltraConstrainedNetworkAccess"C"_explicitStorageSession"^{__CFURLStorageSession}};
+- (void)n;
+- (void)l;
+- (id)ed protocol property key %@ in %@;
+- (int)public}@ AppSSO default deliverying response recorded(%d, %zu);
+- (void)ntial - Error add cred.  Error=%d, attrs=%@;
 - (long long);
 - (struct CGRect);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect)unexpected write event %ld
+;
 - (void);
-- (struct CGRect);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
+- (struct CGRect)_readBufferConsume;
+- (void)onditionalRequirementsChanged:(struct CGRect)arg1 ];
+- (void)ck:(id)arg1 ];
+- (void)readevent;
+- (void)DynamicStackTracing;
+- (void)t/x-mixed-replace;
+- (void)te %s - COMPLETED, expected body length %ld  }>;
+- (struct CGSize)AVURLAssetRemoteCustomURLHandlerContextKey;
+- (id)TE FROM alt_services WHERE ROWID in (SELECT ROWID FROM alt_services ORDER BY ROWID DESC LIMIT -1 OFFSET %ld);
+- (int)-;
+- (struct NSEdgeInsets)444)48455
+5555)5856	66(67	77(78	88(89	99(966
+6666)68677
+7777)78788
+8888)88899
+9999)989;
 - (id);
-- (int);
-- (struct NSEdgeInsets);
-- (id);
-- (struct CGSize);
-- (void);
+- (struct CGSize))?;
+- (void)6;o;
 - (id);
 - (void);
-- (void);
-- (CDStruct_507282ca)d;
+- (void)SString",R;
+- (CDStruct_c3b9c2ee)d;
 - (void)LPA;
 - (void)ÈjE;
 
 // Remaining properties
-@property(nonatomic, readonly) int blendModeForImageContent;
 @property(nonatomic) __weak NSButtonCell *buttonCell; // @synthesize buttonCell;
-@property(nonatomic, readonly) _Bool hasBezelTint;
-@property(nonatomic, readonly) _Bool hasDestructiveAppearance;
-@property(nonatomic, readonly) _Bool hasInactiveAppearance;
-@property(nonatomic, readonly) _Bool hasRolloverAppearance;
-@property(nonatomic, readonly) _Bool hasSubviews;
-@property(nonatomic, readonly) long long interiorBackgroundStyle;
-@property(nonatomic, readonly) NSColor *preferredTemplateImageFillColor;
 
 @end
 

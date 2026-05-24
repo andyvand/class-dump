@@ -7,10 +7,10 @@
 @class NSData, NSDictionary, SFCommandButtonItem;
 
 @protocol RFVisualPropertyWithAction
+- (NSData *);
+- (NSDictionary *);
 
 // Remaining properties
 @property(retain, nonatomic) SFCommandButtonItem *commandItem;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

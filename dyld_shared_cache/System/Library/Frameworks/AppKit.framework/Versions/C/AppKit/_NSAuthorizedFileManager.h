@@ -13,11 +13,11 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (_Bool);
+- (_Bool)_onqueue_didReceiveResponse:(int)arg1 completion:(id)arg2;
+- (_Bool)_delegate_willSendRequestForEstablishedConnection;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 
 @end

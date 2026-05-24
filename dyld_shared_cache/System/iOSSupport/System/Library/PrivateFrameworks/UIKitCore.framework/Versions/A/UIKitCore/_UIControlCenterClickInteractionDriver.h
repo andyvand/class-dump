@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 
 + (_Bool)q^°1Â0@ù
 × ;
-- (id);
+- (id)P;
 - (double)v@?@"_UIKeyboardChangedInformation"@"_UIKeyboardUIInformation"qB>40;
-- (double)bviews;
+- (double)_allSubviews;
 
 @end
 

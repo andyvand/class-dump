@@ -6,15 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IFTSchemaASTPickType : SISchemaInstrumentationMessage
 {
     long long _index;
-    _Bool _none;
-    _Bool _hasIndex;
-    _Bool _hasNone;
-    unsigned long long _whichOneof_Astpicktype;
 }
 
 - (unsigned long long);
@@ -23,14 +17,14 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)badge;
+- (_Bool)ervice mmWebKitViewControllerDidCancel:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)standardUserDefaults;
 - (id)1Â0@ù
 × ;
 - (_Bool)t;
@@ -40,12 +34,7 @@
 - (void)P(;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIndex; // @synthesize hasIndex=_hasIndex;
-@property(nonatomic) _Bool hasNone; // @synthesize hasNone=_hasNone;
 @property(nonatomic) long long index; // @synthesize index=_index;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool none; // @synthesize none=_none;
-@property(readonly, nonatomic) unsigned long long whichOneof_Astpicktype; // @synthesize whichOneof_Astpicktype=_whichOneof_Astpicktype;
 
 @end
 

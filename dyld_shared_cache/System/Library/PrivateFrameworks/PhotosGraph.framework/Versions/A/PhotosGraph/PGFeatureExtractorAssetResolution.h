@@ -11,9 +11,9 @@
 }
 
 - (id);
-- (long long);
-- (id);
-- (id)emoryTitleGenerator;
+- (long long)s;
+- (id)removeItemAtURL:error: /* Error: Ran out of types for this method. */;
+- (id)PGThrowbackThursdayMemoryTitleGenerator;
 
 @end
 

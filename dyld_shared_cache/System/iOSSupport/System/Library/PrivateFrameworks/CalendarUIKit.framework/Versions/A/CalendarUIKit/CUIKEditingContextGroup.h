@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIKObjectGroup, EKEventStore, NSMutableArray, NSNumber, NSSet, NSString;
+@class CUIKObjectGroup;
 
 @interface CUIKEditingContextGroup
 {
     CUIKObjectGroup *_objectGroup;
-    NSSet *_openContexts;
-    EKEventStore *_eventStore;
-    NSMutableArray *_additionalObjectGroups;
-    NSNumber *_spanDecisionAsNumber;
-    NSNumber *_earlyCommitDecisionAsNumber;
 }
 
 - (void);
@@ -40,30 +35,18 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)@;
+- (void)";
 - (void);
-- (void);
-- (void)oups: /* Error: Ran out of types for this method. */;
+- (void)setAdditionalObjectGroups: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSMutableArray *additionalObjectGroups; // @synthesize additionalObjectGroups=_additionalObjectGroups;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSNumber *earlyCommitDecisionAsNumber; // @synthesize earlyCommitDecisionAsNumber=_earlyCommitDecisionAsNumber;
-@property __weak EKEventStore *eventStore; // @synthesize eventStore=_eventStore;
-@property(readonly) unsigned long long hash;
 @property(retain) CUIKObjectGroup *objectGroup; // @synthesize objectGroup=_objectGroup;
-@property(retain) NSSet *openContexts; // @synthesize openContexts=_openContexts;
-@property(retain) NSNumber *spanDecisionAsNumber; // @synthesize spanDecisionAsNumber=_spanDecisionAsNumber;
-@property(readonly) Class superclass;
 
 @end
 

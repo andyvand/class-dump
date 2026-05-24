@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/HMDActionModel.h>
 
-@class NSNumber, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDAppleMediaAccessoryPowerActionModel : HMDActionModel
 {
@@ -17,18 +15,10 @@ __attribute__((visibility("hidden")))
 + (Class)× ;
 - (id);
 - (id);
-- (void);
+- (void)__TEXT;
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *accessoryUUID; // @dynamic accessoryUUID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSNumber *targetSleepWakeState; // @dynamic targetSleepWakeState;
 
 @end
 

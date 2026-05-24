@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSBitmapImageRep, NSView;
+@class NSView;
 
 @interface LUIFocusRingView
 {
     NSView *_focusedView;
-    NSBitmapImageRep *_focusRingImageRep;
 }
 
-+ (void);
++ (void);
 - (id);
 - (void);
 - (void);

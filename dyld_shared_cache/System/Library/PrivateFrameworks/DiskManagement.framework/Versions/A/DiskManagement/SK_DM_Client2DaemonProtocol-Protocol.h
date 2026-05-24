@@ -7,6 +7,20 @@
 @protocol SK_DM_Daemon2ClientProtocol;
 
 @protocol SK_DM_Client2DaemonProtocol
+- (id <SK_DM_Daemon2ClientProtocol>);
+- (void);
+- (void)-;
+- (void)A\;
+- (void);
+- (void);
+- (void)H;
+- (void)�zJ;
+- (void)�;
+- (void);
+- (void)))a;
+- (void)`;
+- (void)�;
+- (void)c|b;
 
 // Remaining properties
 @property(retain, nonatomic) id <SK_DM_Daemon2ClientProtocol> callbackDelegate;

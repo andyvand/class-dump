@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _INPBSearchForNotebookItemsIntentResponse
 {
     struct {
         unsigned int sortType:1;
     } _has;
-    int _sortType;
-    NSArray *_notes;
-    NSArray *_taskLists;
-    NSArray *_tasks;
 }
 
 + (Class);
@@ -40,7 +36,7 @@
 - (_Bool);
 - (int);
 - (void);
-- (id);
+- (id)__got;
 - (void);
 - (void);
 - (unsigned long long);
@@ -56,21 +52,7 @@
 - (void)t Hours;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasSortType;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *notes; // @synthesize notes=_notes;
-@property(readonly, nonatomic) unsigned long long notesCount;
-@property(nonatomic) int sortType; // @synthesize sortType=_sortType;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *taskLists; // @synthesize taskLists=_taskLists;
-@property(readonly, nonatomic) unsigned long long taskListsCount;
-@property(copy, nonatomic) NSArray *tasks; // @synthesize tasks=_tasks;
-@property(readonly, nonatomic) unsigned long long tasksCount;
 
 @end
 

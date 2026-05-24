@@ -7,34 +7,15 @@
 @interface ChatKit.DetailsViewConfiguration
 {
     id conversation;
-    id _delegate;
-    id _recipientSelectionControllerDelegate;
-    id _participants;
-    id _hasLeftConversation;
-    id _isGroupConversation;
-    id _presentedSheetType;
-    id _contactsManager;
-    id _hasBlockedParticipant;
-    id _ktEnhancedProtectionStatusCellState;
-    id _ktHandlesForKTChatStatus;
-    id _ktChatState;
-    id _isParticipantListCollapsible;
-    id _assetDownloadState;
-    id _isParticipantListExpanded;
-    id _visibleConversationDetailsSections;
-    id _participantListBehaviors;
-    id _showAllSearchViewController;
-    id _presentationState;
-    id _$observationRegistrar;
 }
 
+- (void)Color",C,N,V_overrideTintColor;
 - (void);
 - (void);
+- (void)l;
+- (void)So25ICActivityStreamSelectionC;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)Found a token text attachment that we could not create a text attachment for:(id)arg1 %@ at %@;
 - (id);
 - (void)ac-TapToRadarIcon;
 

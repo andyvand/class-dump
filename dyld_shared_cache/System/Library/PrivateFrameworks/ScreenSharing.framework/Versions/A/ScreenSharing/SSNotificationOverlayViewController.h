@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImageView, NSTextField, SSReconnectProgressIndicator;
+@class NSImageView, SSReconnectProgressIndicator;
 
 __attribute__((visibility("hidden")))
 @interface SSNotificationOverlayViewController
 {
     NSImageView *_notificationImageView;
-    NSTextField *_notificationLabelView;
-    SSReconnectProgressIndicator *_progressIndicator;
-    double _defaultFillColorAlpha;
-    double _defaultImageAlpha;
 }
 
 - (void);
@@ -27,19 +23,15 @@ __attribute__((visibility("hidden")))
 - (double);
 - (double);
 - (double);
-- (void);
-- (void);
+- (void)_setMenuPluginTypes:(_Bool)arg1;
+- (void)FIFinderSyncExtensionHost_Badging;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Questions/Survey/ExternalAssetRelevance/PGExternalAssetRelevanceQuestionFactory.m;
 - (id);
 
 // Remaining properties
-@property double defaultFillColorAlpha; // @synthesize defaultFillColorAlpha=_defaultFillColorAlpha;
-@property double defaultImageAlpha; // @synthesize defaultImageAlpha=_defaultImageAlpha;
-@property NSImageView *notificationImageView; // @synthesize notificationImageView=_notificationImageView;
-@property NSTextField *notificationLabelView; // @synthesize notificationLabelView=_notificationLabelView;
 @property(retain) SSReconnectProgressIndicator *progressIndicator; // @synthesize progressIndicator=_progressIndicator;
 
 @end

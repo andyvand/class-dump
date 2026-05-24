@@ -7,13 +7,6 @@
 @interface PhotosGraph.MomentRelevanceData
 {
     id numberOfAssets;
-    id startDate;
-    id endDate;
-    id deltaTimeInHours;
-    id density;
-    id _densityRatio;
-    id _assetRatio;
-    id _finalScore;
 }
 
 @end

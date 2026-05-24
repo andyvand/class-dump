@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AFOpportuneSpeakingModuleDataCollection
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_speakableMap;
 }
 
 + (id);

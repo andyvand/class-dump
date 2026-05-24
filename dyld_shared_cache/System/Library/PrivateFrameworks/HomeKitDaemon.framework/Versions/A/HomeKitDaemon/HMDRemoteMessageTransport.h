@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccountRegistry, HMFFuture, HMFPromise, NSString;
-@protocol HMDHomeMembershipVerifier, HMDRemoteMessageTransportReachabilityDelegate;
+@class HMFFuture;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteMessageTransport
 {
     int _transportType;
-    unsigned long long _maximumNumberOfRetries;
-    HMDAccountRegistry *_accountRegistry;
-    long long _qualityOfService;
-    id <HMDRemoteMessageTransportReachabilityDelegate> _reachabilityDelegate;
-    id <HMDHomeMembershipVerifier> _homeMembershipVerifier;
-    HMFFuture *_startFuture;
-    HMFPromise *_startPromise;
 }
 
 + (id);
@@ -25,53 +17,35 @@ __attribute__((visibility("hidden")))
 + (unsigned long long);
 + (id)ØzC;
 - (void);
-- (id);
-- (id);
+- (id)setStoreSubscriptionTypes:(id)arg1;
+- (id)ame:%@> /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (long long);
 - (unsigned long long);
 - (double);
 - (id);
-- (long long);
+- (long long)B;
+- (void)setInputWhiteDstRGB:(id)arg1;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)SQLITE_CANTOPEN_NOTEMPDIR;
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)_dataSourceCoalescingTimer;
 - (id)d 2 event name components from eventName:(id)arg1 %@;
 - (id)cessory UUID:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)e_p;
-- (_Bool)dentUnknown;
+- (_Bool)So13HMDIDSService_p;
+- (_Bool)HMDCompositeSettingControllerManagerRunStatePrimaryResidentUnknown;
 - (double)numIPAccessories;
 - (void)$SECONDARYKEY;
-- (int)ceAuthorizationStatus;
+- (int)presenceAuthorizationStatus;
 - (unsigned long long)q;
 
 // Remaining properties
-@property(readonly, nonatomic) HMDAccountRegistry *accountRegistry; // @synthesize accountRegistry=_accountRegistry;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) double defaultTimeout;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak id <HMDHomeMembershipVerifier> homeMembershipVerifier; // @synthesize homeMembershipVerifier=_homeMembershipVerifier;
-@property(readonly, nonatomic) unsigned long long maximumNumberOfRetries; // @synthesize maximumNumberOfRetries=_maximumNumberOfRetries;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
-@property(nonatomic) __weak id <HMDRemoteMessageTransportReachabilityDelegate> reachabilityDelegate; // @synthesize reachabilityDelegate=_reachabilityDelegate;
-@property(readonly, nonatomic) double retryInterval;
-@property(readonly, nonatomic, getter=isSecure) _Bool secure;
 @property(readonly, nonatomic) HMFFuture *startFuture; // @synthesize startFuture=_startFuture;
-@property(readonly, nonatomic) HMFPromise *startPromise; // @synthesize startPromise=_startPromise;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) int transportType; // @synthesize transportType=_transportType;
 
 @end
 

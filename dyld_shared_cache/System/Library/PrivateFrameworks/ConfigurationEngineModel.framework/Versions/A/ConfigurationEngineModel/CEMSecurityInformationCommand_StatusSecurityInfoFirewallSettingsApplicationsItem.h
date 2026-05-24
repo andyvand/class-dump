@@ -6,18 +6,16 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMSecurityInformationCommand_StatusSecurityInfoFirewallSettingsApplicationsItem : CEMPayloadBase
 {
     NSNumber *_statusAllowed;
-    NSString *_statusBundleID;
-    NSString *_statusName;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
@@ -25,14 +23,12 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)ue invalidation during allocate, rebuilding. aqErr:(id)arg1 %@;
 - (id);
-- (void);
+- (void)3WSH_B;
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *statusAllowed; // @synthesize statusAllowed=_statusAllowed;
-@property(copy, nonatomic) NSString *statusBundleID; // @synthesize statusBundleID=_statusBundleID;
-@property(copy, nonatomic) NSString *statusName; // @synthesize statusName=_statusName;
 
 @end
 

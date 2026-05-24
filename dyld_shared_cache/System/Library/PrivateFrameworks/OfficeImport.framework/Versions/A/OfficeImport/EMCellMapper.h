@@ -6,25 +6,15 @@
 
 #import <OfficeImport/CMMapper.h>
 
-@class EDReference;
-
 __attribute__((visibility("hidden")))
 @interface EMCellMapper : CMMapper
 {
     struct EDCellHeader *edCell;
-    EDReference *edMergedCellReference;
-    int rowNumber;
-    int firstColumn;
-    int lastColumn;
-    int columnSpan;
-    _Bool firstCellFlag;
-    _Bool spreadLeftFlag;
-    double columnWidth;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (id);
 - (void);
@@ -38,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (int);
-- (int);
+- (int);
 - (id);
 - (double);
 - (void);

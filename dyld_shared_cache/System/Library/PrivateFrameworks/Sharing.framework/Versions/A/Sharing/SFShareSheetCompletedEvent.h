@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface SFShareSheetCompletedEvent
 {
     _Bool _isCollaborative;
-    _Bool _success;
-    NSString *_sessionID;
-    NSString *_activityType;
-    unsigned long long _presentationMs;
-    unsigned long long _totalShareTimeMs;
 }
 
 + (id);
@@ -34,20 +29,7 @@
 - (void)g transaction on deactivate;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *activityType; // @synthesize activityType=_activityType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSDictionary *eventPayload;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isCollaborative; // @synthesize isCollaborative=_isCollaborative;
-@property(nonatomic) unsigned long long presentationMs; // @synthesize presentationMs=_presentationMs;
 @property(copy, nonatomic) NSString *sessionID; // @synthesize sessionID=_sessionID;
-@property(nonatomic) _Bool success; // @synthesize success=_success;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long totalShareTimeMs; // @synthesize totalShareTimeMs=_totalShareTimeMs;
 
 @end
 

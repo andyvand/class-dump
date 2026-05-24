@@ -7,15 +7,16 @@
 @class NSArray, NSString;
 
 @protocol CNKCallParticipantLabelDescriptorProtocol
+- (void);
+- (_Bool)Qr;
+- (void)'p;
+- (void)m;
+- (NSString *);
+- (void)n;
+- (NSString *)){;
+- (void)ReadRowContents;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *durationString;
-@property(nonatomic) _Bool isCallIdentification;
-@property(nonatomic) _Bool isDynamic;
-@property(nonatomic) long long layoutState;
-@property(copy, nonatomic) NSString *localizedSenderIdentity;
-@property(copy, nonatomic) NSString *secondaryString;
-@property(copy, nonatomic) NSString *sourceString;
 @property(copy, nonatomic) NSArray *strings;
 @end
 

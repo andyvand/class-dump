@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSObject, NSString, NSXPCSpellServerClient;
-@protocol OS_dispatch_semaphore;
+@class NSXPCSpellServerClient;
 
 __attribute__((visibility("hidden")))
 @interface NSXPCSpellServerClientContext
 {
     NSXPCSpellServerClient *_client;
-    NSString *_messageName;
-    NSObject<OS_dispatch_semaphore> *_waiter;
-    NSError *_error;
-    _Bool _hasProxy;
-    _Bool _incrementIndexOnTimeout;
-    _Bool _isPostEditing;
 }
 
 + (void);
@@ -24,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)eventWithInteraction:bundleIdentifier:storeKeyImage: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);

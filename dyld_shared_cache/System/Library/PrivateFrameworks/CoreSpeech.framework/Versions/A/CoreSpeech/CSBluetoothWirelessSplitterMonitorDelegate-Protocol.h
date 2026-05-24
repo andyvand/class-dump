@@ -5,5 +5,6 @@
 //
 
 @protocol CSBluetoothWirelessSplitterMonitorDelegate
+- (void)!(#b1;
 @end
 

@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SCSchemaSCCheckUndoResponse;
+@class SCSchemaSCCheckUndoResponse;
 
 @interface SCSchemaSCUndoChecked : SISchemaInstrumentationMessage
 {
     SCSchemaSCCheckUndoResponse *_checkUndoResponse;
-    _Bool _hasCheckUndoResponse;
 }
 
 - (void);
@@ -22,19 +21,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)@;
+- (_Bool);
+- (_Bool)from chat_handle_join WHERE handle_id = OLD.handle_id LIMIT 1) IS NULL     AND         (SELECT 1 from message WHERE handle_id = OLD.handle_id LIMIT 1) IS NULL     AND         (SELECT 1 from message WHERE other_handle = OLD.handle_id LIMIT 1) IS NULL; END;
 - (id);
 - (id);
-- (id)esults;
+- (id)clearEntityScoreResults;
 - (id)chByNameType;
-- (void)NowPlayingCoreDuet;
+- (void)isRawLastNowPlayingCoreDuet;
 
 // Remaining properties
 @property(retain, nonatomic) SCSchemaSCCheckUndoResponse *checkUndoResponse; // @synthesize checkUndoResponse=_checkUndoResponse;
-@property(nonatomic) _Bool hasCheckUndoResponse; // @synthesize hasCheckUndoResponse=_hasCheckUndoResponse;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

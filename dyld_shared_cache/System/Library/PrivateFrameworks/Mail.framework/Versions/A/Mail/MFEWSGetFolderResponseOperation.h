@@ -6,12 +6,11 @@
 
 #import <Mail/MFEWSResponseOperation.h>
 
-@class EWSGetFolderResponseType, NSArray;
+@class NSArray;
 
 @interface MFEWSGetFolderResponseOperation : MFEWSResponseOperation
 {
     NSArray *_EWSFolders;
-    NSArray *_EWSFolderIdsRequested;
 }
 
 - (void);
@@ -26,8 +25,6 @@
 
 // Remaining properties
 @property(copy) NSArray *EWSFolderIdsRequested; // @synthesize EWSFolderIdsRequested=_EWSFolderIdsRequested;
-@property(copy) NSArray *EWSFolders; // @synthesize EWSFolders=_EWSFolders;
-@property(retain) EWSGetFolderResponseType *response;
 
 @end
 

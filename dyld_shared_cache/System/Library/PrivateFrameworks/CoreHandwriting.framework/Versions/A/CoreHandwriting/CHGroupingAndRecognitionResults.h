@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHStrokeClassificationResult, CHStrokeGroupingResult, NSDictionary, NSMutableDictionary, NSMutableSet, NSSet;
+@class CHStrokeGroupingResult, NSMutableDictionary;
 
 @interface CHGroupingAndRecognitionResults
 {
     NSMutableDictionary *_intermediateCachedRecognitionResults;
-    NSMutableDictionary *_refreshedCachedResultsFromPostProcessing;
-    CHStrokeGroupingResult *_strokeGroupingResult;
-    NSDictionary *_recognitionResultsByGroupID;
-    CHStrokeClassificationResult *_strokeClassificationResult;
-    CHStrokeGroupingResult *_previousProcessedStrokeGroupingResult;
-    NSDictionary *_previousProcessedRecognizedResultsByGroupID;
-    NSSet *_strokeGroupReplacements;
-    NSMutableSet *__intermediateStrokeGroups;
-    NSMutableDictionary *__intermediateRecognitionResults;
 }
 
 - (id);
@@ -28,16 +19,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)JQ;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *cachedRecognitionResultsFromPostProcessing;
-@property(readonly, nonatomic) NSDictionary *previousProcessedRecognizedResultsByGroupID;
-@property(readonly, nonatomic) CHStrokeGroupingResult *previousProcessedStrokeGroupingResult;
-@property(readonly, nonatomic) NSDictionary *recognitionResultsByGroupID;
-@property(readonly, nonatomic) CHStrokeClassificationResult *strokeClassificationResult;
-@property(readonly, nonatomic) NSSet *strokeGroupReplacements; // @synthesize strokeGroupReplacements=_strokeGroupReplacements;
 @property(readonly, nonatomic) CHStrokeGroupingResult *strokeGroupingResult;
 
 @end

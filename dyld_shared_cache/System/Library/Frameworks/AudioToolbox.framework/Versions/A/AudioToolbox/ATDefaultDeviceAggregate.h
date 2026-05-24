@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ATDefaultDeviceAggregate
 {
     shared_ptr_68c1e1c6 _impl;
@@ -17,7 +15,7 @@
 - (void);
 - (id);
 - (id);
-- (unsigned int);
+- (unsigned int);
 - (id);
 - (unsigned int);
 - (id);
@@ -26,14 +24,13 @@
 - (void);
 - (unsigned int);
 - (shared_ptr_4c923a7b);
-- (double);
+- (double)d;
 - (int);
 - (void);
 - (id)Ä7;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int deviceID;
-@property(readonly, nonatomic) NSString *deviceUID;
 
 @end
 

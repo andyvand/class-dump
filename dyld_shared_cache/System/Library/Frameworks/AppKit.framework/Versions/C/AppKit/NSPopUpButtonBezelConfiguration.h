@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSPopUpButtonBezelConfiguration : NSButtonBezelConfiguration
 {
     _Bool _pullsDown;
-    _Bool _wantsLegacyHorizontalBorderlessInset;
-    long long _arrowPosition;
 }
 
 - (_Bool);
@@ -19,12 +17,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (long long);
+- (long long)credentialWithIdentity:certificates:persistence: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long arrowPosition; // @synthesize arrowPosition=_arrowPosition;
 @property(nonatomic) _Bool pullsDown; // @synthesize pullsDown=_pullsDown;
-@property(nonatomic) _Bool wantsLegacyHorizontalBorderlessInset; // @synthesize wantsLegacyHorizontalBorderlessInset=_wantsLegacyHorizontalBorderlessInset;
 
 @end
 

@@ -12,7 +12,7 @@
 {
 }
 
-- (_Bool);
+- (_Bool)honesty;
 
 // Remaining properties
 @property(readonly, nonatomic) HMAttributeRequest *request; // @dynamic request;

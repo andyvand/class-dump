@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, RTLearnedLocationOfInterest, RTLocation;
+@class RTLocation;
 
 @interface RTSignificantRegionHintInjectionMetrics
 {
     _Bool _hintSubmitted;
-    RTLocation *_region;
-    RTLearnedLocationOfInterest *_locationOfInterest;
-    long long _hintSource;
-    NSError *_matchingError;
 }
 
 + (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (long long);
-- (id);
+- (id)}^{__CFDictionary}II{PCSAttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16@0:8 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void)%@, Couldn't cancel xpc activity %@;
 - (id)ying:bluePOITileStore /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long hintSource; // @synthesize hintSource=_hintSource;
-@property(nonatomic) _Bool hintSubmitted; // @synthesize hintSubmitted=_hintSubmitted;
-@property(readonly, nonatomic) RTLearnedLocationOfInterest *locationOfInterest; // @synthesize locationOfInterest=_locationOfInterest;
-@property(retain, nonatomic) NSError *matchingError; // @synthesize matchingError=_matchingError;
 @property(readonly, nonatomic) RTLocation *region; // @synthesize region=_region;
 
 @end

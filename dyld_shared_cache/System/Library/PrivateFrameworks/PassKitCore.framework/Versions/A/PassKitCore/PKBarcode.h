@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSData;
 
 @interface PKBarcode
 {
     _Bool _shouldRemoveQuietZone;
-    unsigned int _messageEncoding;
-    NSData *_messageData;
-    NSDictionary *_options;
-    NSString *_header;
-    NSString *_altText;
-    long long _format;
 }
 
 + (id);
@@ -22,15 +16,7 @@
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *altText; // @synthesize altText=_altText;
-@property(nonatomic) long long format; // @synthesize format=_format;
-@property(copy, nonatomic) NSString *header; // @synthesize header=_header;
-@property(readonly, nonatomic) _Bool isTall;
-@property(readonly, nonatomic) NSString *message;
 @property(copy, nonatomic) NSData *messageData; // @synthesize messageData=_messageData;
-@property(nonatomic) unsigned int messageEncoding; // @synthesize messageEncoding=_messageEncoding;
-@property(copy, nonatomic) NSDictionary *options; // @synthesize options=_options;
-@property(nonatomic) _Bool shouldRemoveQuietZone; // @synthesize shouldRemoveQuietZone=_shouldRemoveQuietZone;
 
 @end
 

@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
+- (void)source transfer cancel message does not have enought bytes for reason;
 - (void);
 
 @end

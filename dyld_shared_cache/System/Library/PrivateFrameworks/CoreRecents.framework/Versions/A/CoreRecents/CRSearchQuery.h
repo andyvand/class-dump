@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRSearchPredicate, NSArray, NSPredicate, NSString;
+@class NSPredicate, NSString;
 
 @interface CRSearchQuery
 {
     NSPredicate *_predicate;
-    _Bool _searchPredicateExpansionAttempted;
-    CRSearchPredicate *_searchPredicate;
-    NSArray *_domains;
-    unsigned long long _implicitGroupThreshold;
-    unsigned long long _options;
-    CDUnknownBlockType _weightDecayer;
-    CDUnknownBlockType _comparator;
-    NSString *_uuid;
-    struct _NSRange _pageRange;
 }
 
-+ (CDUnknownBlockType);
-+ (CDUnknownBlockType);
++ (CDUnknownBlockType)#;
++ (CDUnknownBlockType);
 + (CDUnknownBlockType);
 + (id);
-+ (_Bool);
++ (_Bool)sionTextInfoDrawInRectCallback;
+- (id);
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (unsigned long long);
+- (unsigned long long)_SIIssueSplit called;
 - (id);
 - (struct _NSRange);
 - (unsigned long long);
@@ -40,8 +31,8 @@
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)responderProxySearchingFromAppWithTargetForAction:(CDUnknownBlockType)arg1 sender: /* Error: Ran out of types for this method. */;
+- (unsigned long long)d, dequeuing resumed.;
 - (void);
 - (id);
 - (void);
@@ -51,15 +42,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType comparator; // @synthesize comparator=_comparator;
-@property(copy, nonatomic) NSArray *domains; // @synthesize domains=_domains;
-@property(nonatomic) unsigned long long implicitGroupThreshold; // @synthesize implicitGroupThreshold=_implicitGroupThreshold;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(nonatomic) struct _NSRange pageRange; // @synthesize pageRange=_pageRange;
-@property(retain, nonatomic) NSPredicate *predicate;
-@property(retain, nonatomic) CRSearchPredicate *searchPredicate; // @synthesize searchPredicate=_searchPredicate;
 @property(readonly, copy, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
-@property(copy, nonatomic) CDUnknownBlockType weightDecayer; // @synthesize weightDecayer=_weightDecayer;
 
 @end
 

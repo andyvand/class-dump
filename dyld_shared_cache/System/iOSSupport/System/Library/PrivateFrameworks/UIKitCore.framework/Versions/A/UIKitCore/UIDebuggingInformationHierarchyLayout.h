@@ -6,21 +6,17 @@
 
 #import <UIKitCore/UICollectionViewLayout.h>
 
-@class NSDictionary, NSMutableArray, NSMutableDictionary;
-@protocol UIDebuggingInformationHierarchyLayoutDelegate;
+@class NSDictionary, NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface UIDebuggingInformationHierarchyLayout : UICollectionViewLayout
 {
     NSMutableArray *_indexPathsToDelete;
-    id <UIDebuggingInformationHierarchyLayoutDelegate> _delegate;
-    NSDictionary *_allAttributes;
-    NSMutableDictionary *_allLineAttributes;
 }
 
-+ (Class)onHandler;
-- (void);
-- (void);
++ (Class)actionHandler;
+- (void)No more attachments to pull down. Setting IMCKFinishedFetchingAttachmentsFromCloudKit and kicking off a write;
+- (void)etching attachments in initial fetch;
 - (id);
 - (void);
 - (id);
@@ -29,9 +25,9 @@ __attribute__((visibility("hidden")))
 × ;
 - (id);
 - (void)reGroup"16@0:(id)arg1 8;
-- (void)ock: /* Error: Ran out of types for this method. */;
+- (void)_scheduleSceneEventResponseForScene:withResponseBlock: /* Error: Ran out of types for this method. */;
 - (struct CGSize)%@; index path:%@; supplementary view:%@ /* Error: Ran out of types for this method. */;
-- (_Bool)ySo12UISliderTickCG;
+- (_Bool)SaySo12UISliderTickCG;
 - (id)«ªªªªª@UUUUUU@«ªªªªª@«ªªªªªþ?«ªªªªª1@«ªªªªª3@UUUUUU0@ºI+?B`åÐ"Ûí?uVÍ?¬Zd;ßß?ú~j¼tè?²ï§ÆK×?J+í?Å °rhÕ?þÔxé&1è?ìQ¸ëé?R¸ëQè?²ï§ÆKß?þÔxé&1ä?´Èv¾ë?oÀÊ¡é?®Gáz®ã?Zd;ßOï?¼tVÖ?`åÐ"Ûù¾?Ñ"Ûù~jÔ?ÙÎ÷Sã¥ë?Év¾/­?Zd;ßO·?PnÀ?=
 ×£p=î?¢E¶óýÔØ?Clçûé?®GázÖ?#Ûù~j¼è?¾/Ý$Þ?¢E¶óýÔÐ?é&1¬Ú?7A`åÐÒ?¬Zd;ï?¬Zd;ë?7A`åÐâ?;
 - (void);
@@ -41,8 +37,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *allAttributes; // @synthesize allAttributes=_allAttributes;
-@property(retain, nonatomic) NSMutableDictionary *allLineAttributes; // @synthesize allLineAttributes=_allLineAttributes;
-@property(nonatomic) __weak id <UIDebuggingInformationHierarchyLayoutDelegate> delegate; // @synthesize delegate=_delegate;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol PXGMutableHostingControllerPresenter
+- (void)attributeForAssetAtPath:(void (^)(id <PXGMutableHostingControllerPresenterMutator>))arg1 forKey: /* Error: Ran out of types for this method. */;
 @end
 

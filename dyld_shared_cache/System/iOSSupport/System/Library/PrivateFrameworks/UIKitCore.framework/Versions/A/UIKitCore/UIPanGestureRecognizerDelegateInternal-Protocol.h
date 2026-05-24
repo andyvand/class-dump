@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIPanGestureRecognizer;
+
 @protocol UIPanGestureRecognizerDelegateInternal
+
+@optional
+- (_Bool)0:(UIPanGestureRecognizer *)arg1 8B16;
 @end
 

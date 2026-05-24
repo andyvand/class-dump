@@ -11,14 +11,12 @@
 @interface RBSPreventLaunchLimitation : RBSLimitation
 {
     RBSProcessPredicate *_predicate;
-    RBSProcessPredicate *_allow;
 }
 
 + (id);
 + (id);
 
 // Remaining properties
-@property(readonly, nonatomic) RBSProcessPredicate *allow; // @synthesize allow=_allow;
 @property(readonly, nonatomic) RBSProcessPredicate *predicate; // @synthesize predicate=_predicate;
 
 @end

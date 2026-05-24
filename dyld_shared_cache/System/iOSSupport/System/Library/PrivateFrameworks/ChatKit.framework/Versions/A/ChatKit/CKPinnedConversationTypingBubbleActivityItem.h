@@ -4,39 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMMessage, NSString;
+@class IMMessage;
 
 @interface CKPinnedConversationTypingBubbleActivityItem
 {
     double _activityItemContentScale;
-    NSString *_attachedContactItemIdentifier;
-    IMMessage *_message;
 }
 
+- (id)So14ICTTAttachment_p;
+- (id)encilKit data for %@;
+- (id)ned **%@**;
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (double);
-- (_Bool);
+- (_Bool)rself**;
+- (double)oned **you**;
+- (_Bool)d a checklist item;
 - (id)tem:messageSummaryInfo: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool activityItemAppearsWithAnimation;
-@property(readonly, nonatomic) double activityItemContentScale; // @synthesize activityItemContentScale=_activityItemContentScale;
-@property(readonly, nonatomic) _Bool activityItemDisappearsWithAnimation;
-@property(readonly, nonatomic) NSString *activityItemIdentifier;
-@property(readonly, nonatomic) NSString *attachedContactItemIdentifier; // @synthesize attachedContactItemIdentifier=_attachedContactItemIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) IMMessage *message; // @synthesize message=_message;
-@property(readonly) Class superclass;
 
 @end
 

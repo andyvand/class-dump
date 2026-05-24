@@ -10,7 +10,7 @@
 }
 
 - (double);
-- (id);
+- (id)m;
 
 // Remaining properties
 @property(readonly, nonatomic) double minIntervalSinceLastSync; // @synthesize minIntervalSinceLastSync=_minIntervalSinceLastSync;

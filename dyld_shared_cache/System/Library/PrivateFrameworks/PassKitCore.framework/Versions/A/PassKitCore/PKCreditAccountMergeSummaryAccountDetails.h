@@ -4,41 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSString;
+@class NSString;
 
 @interface PKCreditAccountMergeSummaryAccountDetails
 {
     NSString *_accountIdentifier;
-    NSString *_ownerAltDSID;
-    NSDecimalNumber *_statementBalance;
-    NSDecimalNumber *_currentBalance;
 }
 
 + (_Bool)0@ù
 × ;
 - (id);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
+- (void)A;
 - (id);
 - (_Bool);
-- (id);
+- (id)j6B9j;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)hasPowerConsumptionDueToUserScan;
 - (void);
 - (id);
-- (id)viousState;
+- (id)_previousState;
 - (id)entAuthorizationCoordinator.;
 - (void)ion?addPass;
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(retain, nonatomic) NSDecimalNumber *currentBalance; // @synthesize currentBalance=_currentBalance;
-@property(copy, nonatomic) NSString *ownerAltDSID; // @synthesize ownerAltDSID=_ownerAltDSID;
-@property(retain, nonatomic) NSDecimalNumber *statementBalance; // @synthesize statementBalance=_statementBalance;
 
 @end
 

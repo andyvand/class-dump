@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _LSChangeObserver
 {
     CDUnknownBlockType block;
-    unsigned int uid;
-    struct NotifyToken notifyToken;
-    int coalescingFlag;
 }
 
 - (id);

@@ -4,27 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISDDataManager, ISDSyncManager, NSConnection, NSDate, NSMachPort, NSMutableDictionary, NSString, NSTimer;
+@class ISDDataManager;
 
 @interface ISDServer
 {
     ISDDataManager *_dataManager;
-    ISDSyncManager *_syncManager;
-    NSMutableDictionary *_clientConnections;
-    NSDate *_launchDate;
-    NSTimer *_inactivityTimer;
-    double _inactivityInterval;
-    _Bool _isPrivateInstance;
-    id _fileLocker;
-    NSTimer *_fileLockerTimer;
-    long long _tickCount;
-    NSConnection *_uiHandlerConnection;
-    NSMachPort *_calendarRequestPort;
-    NSDate *_timerRefreshDate;
 }
 
 + (id);
-+ (void)e;
++ (void)attributeType;
 - (void);
 - (void);
 - (id);
@@ -60,7 +48,7 @@
 - (bycopy id);
 - (void);
 - (oneway void);
-- (_Bool);
+- (_Bool)`;
 - (bycopy id);
 - (oneway void);
 - (bycopy id);
@@ -81,8 +69,8 @@
 - (oneway void);
 - (void);
 - (void);
-- (void);
-- (CDStruct_4c969caf);
+- (void);
+- (CDStruct_6ad76789);
 - (bycopy id);
 - (bycopy id);
 - (void);
@@ -97,10 +85,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (bycopy id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (oneway void);
@@ -119,13 +107,7 @@
 - (bycopy id)ning:the lock directory at %@ had to be renamed because it couldn't be removed /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

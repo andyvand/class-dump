@@ -4,42 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSSet, NSString, WBSOpenSearchURLTemplate, WBSURLSuffixChecker;
+@class WBSURLSuffixChecker;
 
 @interface WBSSearchProvider
 {
     WBSURLSuffixChecker *_suffixChecker;
-    NSString *_queryKey;
-    NSString *_templateStringWithGroupIdentifier;
-    NSString *_templateStringWithoutGroupIdentifier;
-    NSString *_templateStringGroupIdentifierParameterName;
-    NSDictionary *_templateStringParameterValues;
-    _Bool _usesSearchTermsFromFragment;
-    _Bool _usesSecureSearchURL;
-    int _parsecSearchResultType;
-    long long _searchID;
-    NSString *_searchEngineIdentifier;
-    NSString *_shortName;
-    NSString *_displayName;
-    WBSOpenSearchURLTemplate *_searchURLTemplate;
-    WBSOpenSearchURLTemplate *_safeSearchURLTemplate;
-    NSDictionary *_safeSearchURLQueryParameters;
-    WBSOpenSearchURLTemplate *_suggestionsURLTemplate;
-    NSArray *_hostSuffixes;
-    NSArray *_pathPrefixes;
-    NSString *_carrierInfo;
-    NSSet *_homepageURLs;
-    NSArray *_languages;
-    NSArray *_userRegions;
-    NSDictionary *_topLevelDomains;
-    NSString *_scriptName;
-    NSString *_groupIdentifierQueryStringKey;
-    NSString *_parsecSearchIdentifier;
-    NSString *_parsecSearchSuggestionIdentifier;
-    unsigned long long _parsecSearchEndpointType;
 }
 
-+ (id);
++ (id)T)2	;
 + (id);
 + (id);
 + (_Bool);
@@ -49,14 +21,14 @@
 - (id);
 - (_Bool);
 - (id);
+- (id)#;
 - (id);
-- (id);
-- (id);
+- (id);
 - (int);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -65,7 +37,7 @@
 - (int);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (long long);
 - (_Bool);
 - (id);
@@ -82,52 +54,22 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)(;
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)4;
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)t;
+- (void)_initiallyVisibleParagraphCount;
 - (id)S_END_SENTINEL||r==t&&e[r-1]==CHARACTER_CLASS_END_SENTINEL?(n.pop(),[n,r]):r<t&&e[r]==CHARACTER_CLASS_END_SENTINEL?[n,r+1]:[null,r]}function _parsePasswordRequiredOrAllowedPropertyValue(e,r){let t=e.length,a=[];for(;;){if(_isIdentifierCharacter(e[r])){let t=r;var[n,r]=_parseIdentifier(e,r);if(!_isValidRequiredOrAllowedPropertyValueIdentifier(n))return[null,t];a.push(new NamedCharacterClass(n))}else{if(e[r]!=CHARACTER_CLASS_START_SENTINEL)return[null,r];var[n,r]=_parseCustomCharacterClass(e,r);n&&n.length&&a.push(new CustomCharacterClass(n))}if((r=_indexOfNonWhitespaceCharacter(e,r))>=t||e[r]===PROPERTY_SEPARATOR)break;if(e[r]!==PROPERTY_VALUE_SEPARATOR)return[null,r];if((r=_indexOfNonWhitespaceCharacter(e,r+1))>=t)return[null,r]}return[a,r]}function _parsePasswordRule(e,r){let t=e.length;var a=r,[n,r]=_parseIdentifier(e,r);if(!Object.values(RuleName).includes(n))return[null,a];if(r>=t)return[null,r];if(e[r]!==PROPERTY_VALUE_START_SENTINEL)return[null,r];let i={name:n,value:null};if((r=_indexOfNonWhitespaceCharacter(e,r+1))>=t||e[r]===PROPERTY_SEPARATOR)return[new Rule(i.name,i.value),r];switch(n){case RuleName.ALLOWED:case RuleName.REQUIRED:var[l,r]=_parsePasswordRequiredOrAllowedPropertyValue(e,r);return l&&(i.value=l),[new Rule(i.name,i.value),r];case RuleName.MAX_CONSECUTIVE:var[l,r]=_parseMaxConsecutivePropertyValue(e,r);return l&&(i.value=l),[new Rule(i.name,i.value),r];case RuleName.MIN_LENGTH:case RuleName.MAX_LENGTH:var[l,r]=_parseMinLengthMaxLengthPropertyValue(e,r);return l&&(i.value=l),[new Rule(i.name,i.value),r]}}function _parseMinLengthMaxLengthPropertyValue(e,r){return _parseInteger(e,r)}function _parseMaxConsecutivePropertyValue(e,r){return _parseInteger(e,r)}function _parseInteger(e,r){if(!_isASCIIDigit(e[r]))return[null,r];let t=e.length,a=0;do{a=10*a+parseInt(e[r],10),++r}while(r<t&&e[r]!==PROPERTY_SEPARATOR&&_isASCIIDigit(e[r]));return r>=t||e[r]===PROPERTY_SEPARATOR?[a,r]:[null,r]}function _parsePasswordRulesInternal(e){let r=[],t=e.length;for(var a=_indexOfNonWhitespaceCharacter(e);a<t;){if(!_isIdentifierCharacter(e[a]))return r;var[n,a]=_parsePasswordRule(e,a);if(n&&n.value&&r.push(n),(a=_indexOfNonWhitespaceCharacter(e,a))>=t)break;if(e[a]!==PROPERTY_SEPARATOR)return null;if((a=_indexOfNonWhitespaceCharacter(e,a+1))>=t)return r}return r}function parsePasswordRules(e,r){let t=_parsePasswordRulesInternal(e)||[],a=r,n=[],i=[],l=null,s=0,u=null;for(let e of t)switch(e.name){case RuleName.MAX_CONSECUTIVE:l=l?Math.min(e.value,l):e.value;break;case RuleName.MIN_LENGTH:s=Math.max(e.value,s);break;case RuleName.MAX_LENGTH:u=u?Math.min(e.value,u):e.value;break;case RuleName.REQUIRED:e.value=_canonicalizedPropertyValues(e.value,r),n.push(e),a||(i=i.concat(e.value));break;case RuleName.ALLOWED:i=i.concat(e.value)}return i=_canonicalizedPropertyValues(i,a),a||i.length||(i=[new NamedCharacterClass(Identifier.ASCII_PRINTABLE)]),i.length&&n.push(new Rule(RuleName.ALLOWED,i)),null!==l&&n.push(new Rule(RuleName.MAX_CONSECUTIVE,l)),s>0&&n.push(new Rule(RuleName.MIN_LENGTH,s)),null!==u&&n.push(new Rule(RuleName.MAX_LENGTH,u)),n}console||(console={assert:function(){},error:function(){},warn:function(){}});const Identifier={ASCII_PRINTABLE:"ascii-printable",DIGIT:"digit",LOWER:"lower",SPECIAL:"special",UNICODE:"unicode",UPPER:"upper"},RuleName={ALLOWED:"allowed",MAX_CONSECUTIVE:"max-consecutive",REQUIRED:"required",MIN_LENGTH:"minlength",MAX_LENGTH:"maxlength"},HTMLEntity={"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#x27;"},CHARACTER_CLASS_START_SENTINEL="[",CHARACTER_CLASS_END_SENTINEL="]",PROPERTY_VALUE_SEPARATOR=",",PROPERTY_SEPARATOR=";",PROPERTY_VALUE_START_SENTINEL=":",SPACE_CODE_POINT=" ".codePointAt(0),SHOULD_NOT_BE_REACHED="Should not be reached";class Rule{constructor(e,r){this._name=e,this.value=r}get name(){return this._name}toString(){return JSON.stringify(this)}}class NamedCharacterClass{constructor(e){this._name=e}get name(){return this._name.toLowerCase()}toString(){return this._name}toHTMLString(){return this._name}}class CustomCharacterClass{constructor(e){this._characters=e}get characters(){return this._characters}toString(){return`[${this._characters.join("")}]`}toHTMLString(){return`[${this._characters.join("").replace(/[&<>"']/g,(e=>HTMLEntity[e]))}]`}}
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *carrierInfo; // @synthesize carrierInfo=_carrierInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, copy, nonatomic) NSString *groupIdentifierQueryStringKey; // @synthesize groupIdentifierQueryStringKey=_groupIdentifierQueryStringKey;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSSet *homepageURLs; // @synthesize homepageURLs=_homepageURLs;
-@property(readonly, copy, nonatomic) NSArray *hostSuffixes; // @synthesize hostSuffixes=_hostSuffixes;
-@property(readonly, copy, nonatomic) NSArray *languages; // @synthesize languages=_languages;
 @property(readonly, nonatomic) unsigned long long parsecSearchEndpointType; // @synthesize parsecSearchEndpointType=_parsecSearchEndpointType;
-@property(readonly, copy, nonatomic) NSString *parsecSearchIdentifier; // @synthesize parsecSearchIdentifier=_parsecSearchIdentifier;
-@property(readonly, nonatomic) int parsecSearchResultType; // @synthesize parsecSearchResultType=_parsecSearchResultType;
-@property(readonly, copy, nonatomic) NSString *parsecSearchSuggestionIdentifier; // @synthesize parsecSearchSuggestionIdentifier=_parsecSearchSuggestionIdentifier;
-@property(readonly, copy, nonatomic) NSArray *pathPrefixes; // @synthesize pathPrefixes=_pathPrefixes;
-@property(readonly, copy, nonatomic) NSDictionary *safeSearchURLQueryParameters; // @synthesize safeSearchURLQueryParameters=_safeSearchURLQueryParameters;
-@property(readonly, nonatomic) WBSOpenSearchURLTemplate *safeSearchURLTemplate; // @synthesize safeSearchURLTemplate=_safeSearchURLTemplate;
-@property(readonly, copy, nonatomic) NSString *scriptName; // @synthesize scriptName=_scriptName;
-@property(readonly, copy, nonatomic) NSString *searchEngineIdentifier; // @synthesize searchEngineIdentifier=_searchEngineIdentifier;
-@property(readonly, nonatomic) long long searchID; // @synthesize searchID=_searchID;
-@property(readonly, nonatomic) _Bool searchShouldUseSafeSearchTemplate;
-@property(readonly, nonatomic) WBSOpenSearchURLTemplate *searchURLTemplate; // @synthesize searchURLTemplate=_searchURLTemplate;
-@property(readonly, copy, nonatomic) NSString *shortName; // @synthesize shortName=_shortName;
-@property(readonly, nonatomic) WBSOpenSearchURLTemplate *suggestionsURLTemplate; // @synthesize suggestionsURLTemplate=_suggestionsURLTemplate;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSDictionary *topLevelDomains; // @synthesize topLevelDomains=_topLevelDomains;
-@property(readonly, copy, nonatomic) NSArray *userRegions; // @synthesize userRegions=_userRegions;
-@property(readonly, nonatomic) _Bool usesSearchTermsFromFragment; // @synthesize usesSearchTermsFromFragment=_usesSearchTermsFromFragment;
-@property(readonly, nonatomic) _Bool usesSecureSearchURL; // @synthesize usesSecureSearchURL=_usesSecureSearchURL;
 
 @end
 

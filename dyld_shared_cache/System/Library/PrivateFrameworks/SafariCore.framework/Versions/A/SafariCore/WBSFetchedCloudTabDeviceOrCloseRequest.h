@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface WBSFetchedCloudTabDeviceOrCloseRequest
 {
     NSString *_uuidString;
-    NSDictionary *_deviceOrCloseRequestDictionary;
 }
 
 + (_Bool);
-- (id);
+- (id)(T;
 - (id);
 - (id);
 - (id);
@@ -23,7 +22,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *deviceOrCloseRequestDictionary; // @synthesize deviceOrCloseRequestDictionary=_deviceOrCloseRequestDictionary;
 @property(readonly, copy, nonatomic) NSString *uuidString; // @synthesize uuidString=_uuidString;
 
 @end

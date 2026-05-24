@@ -6,17 +6,16 @@
 
 #import <FileProvider/FPActionOperation.h>
 
-@class FPProviderDomain, NSProgress;
+@class NSProgress;
 
 @interface FPDisconnectDomainOperation : FPActionOperation
 {
     NSProgress *_remoteProgress;
-    FPProviderDomain *_domain;
 }
 
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)AVAssetAnalysisMovieParsingMessageTypeInvalidTrackAtom;
 - (void);
 - (void)0@ù
 × ;

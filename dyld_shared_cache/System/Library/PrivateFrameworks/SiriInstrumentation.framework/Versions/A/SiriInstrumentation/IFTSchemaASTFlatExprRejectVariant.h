@@ -6,22 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
-
 @interface IFTSchemaASTFlatExprRejectVariant : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    SISchemaUUID *_rawEventId;
-    CDStruct_b33ad018 _has;
-    _Bool _hasRawEventId;
 }
 
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)@;
+- (void)7;
 - (id);
 - (id);
 - (void);
@@ -29,7 +24,7 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)setHandle: /* Error: Ran out of types for this method. */;
 - (id)0@ù
 × ;
 - (id)onTier1",&,N,V_sportsExecutionTier1;
@@ -41,10 +36,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasRawEventId; // @synthesize hasRawEventId=_hasRawEventId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *rawEventId; // @synthesize rawEventId=_rawEventId;
 
 @end
 

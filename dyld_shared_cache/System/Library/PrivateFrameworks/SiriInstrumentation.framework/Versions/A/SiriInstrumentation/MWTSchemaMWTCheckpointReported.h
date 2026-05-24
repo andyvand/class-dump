@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MWTSchemaMWTCheckpointReported : SISchemaInstrumentationMessage
 {
     int _stepType;
-    struct {
-        unsigned int stepType:1;
-    } _has;
 }
 
 - (void);
@@ -21,11 +16,11 @@
 - (void);
 - (void);
 - (int);
-- (id);
-- (void);
+- (id)D;
+- (void)nsCaRevocationUrl;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)h;
 - (id);
 - (id)0@ù
 × ;
@@ -33,8 +28,6 @@
 - (id)ng",C,N,V_catFamily;
 
 // Remaining properties
-@property(nonatomic) _Bool hasStepType;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int stepType; // @synthesize stepType=_stepType;
 
 @end

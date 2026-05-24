@@ -6,70 +6,55 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSMutableArray, UIPageControl, UIScrollView, UIView;
+@class NSMutableArray;
 @protocol UIPageControllerDelegate;
 
 @interface UIPageController : UIViewController
 {
     NSMutableArray *_viewControllers;
-    UIView *_wrapperViews[3];
-    int _notificationState[3];
-    UIScrollView *_scrollView;
-    UIPageControl *_pageControl;
-    id <UIPageControllerDelegate> _delegate;
-    int _pageSpacing;
-    long long _visibleIndex;
-    long long _pageCount;
-    struct {
-        unsigned int delegateViewControllerAtIndex:1;
-        unsigned int delegateWillBeginPaging:1;
-        unsigned int delegateDidEndPaging:1;
-        unsigned int displaysPageControl:1;
-        unsigned int wraps:1;
-    } _pageControllerFlags;
 }
 
+- (void)@"NSObject<OS_dispatch_queue>",R,N,V_noticeDataQueue;
+- (void)vationQueue;
+- (id)ributionInfoArray;
+- (long long)familyContactsNotificationToken;
+- (void),N,V_recentsController;
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (void);
-- (double);
-- (long long);
-- (_Bool);
-- (void);
-- (int);
-- (id);
-- (_Bool);
-- (void);
+- (void)ort system workload:(long long)arg1 %@;
+- (double)qual TUConversation remoteMembers (%@);
+- (long long)D Handle ID Mismatch:(id)arg1 %{BOOL}d  Repaired Blank Service Name:%{BOOL}d  Repaired Chat Identifier:%{BOOL}d  Repaired Participant V2:%{BOOL}d  Repaired GUID:%{BOOL}d  Repaired GUID V2:%{BOOL}d)  Domain Identifiers:%@  Participants:%@] /* Error: Ran out of types for this method. */;
+- (_Bool)ng parent chat ID for merged business thread for message guid %@ as %@;
+- (void)fully;
+- (int)chivedNicknamesKeyStore.db;
+- (id)eyStore.db;
+- (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct CGRect);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (int);
-- (id);
-- (id);
-- (void);
+- (struct CGRect);
 - (void);
 - (void);
 - (void);
 - (void);
 - (int);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (int);
+- (id)";
 - (_Bool);
 - (_Bool);
 - (id);
@@ -88,15 +73,15 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)_payloadDisconnectOnIdle;
+- (void).error.on.failure;
 - (id)
 × ;
 - (void)Ñg°1Â0@ù
 × ;
 - (void)nnectingConfiguration"b1};
-- (void)nsWithAnimation:(_Bool)arg1;
-- (void)RestorableStateWithCoder: /* Error: Ran out of types for this method. */;
+- (void)__swift_performWithStartingVelocity:(_Bool)arg1 actionsWithAnimation: /* Error: Ran out of types for this method. */;
+- (void)encodeRestorableStateWithCoder: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id)çÍ¬Va;
@@ -109,12 +94,6 @@
 
 // Remaining properties
 @property(nonatomic) id <UIPageControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool displaysPageControl;
-@property(nonatomic) long long pageCount;
-@property(nonatomic) double pageSpacing;
-@property(nonatomic) long long visibleIndex;
-@property(readonly, retain, nonatomic) UIViewController *visibleViewController;
-@property(nonatomic) _Bool wraps;
 
 @end
 

@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)setSimple_item_rich_card_section:(CDUnknownBlockType)arg1;
 - (_Bool);
 
 @end

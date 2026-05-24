@@ -4,34 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOTransitSignInstruction
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_commandFormatteds;
-    NSMutableArray *_detailFormatteds;
-    NSMutableArray *_noticeFormatteds;
-    NSMutableArray *_priceFormatteds;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_commandFormatteds:1;
-        unsigned int read_detailFormatteds:1;
-        unsigned int read_noticeFormatteds:1;
-        unsigned int read_priceFormatteds:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
 + (Class);
 + (Class);
-+ (_Bool)Navigating:(id)arg1;
++ (_Bool)setNavigating:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -41,22 +25,22 @@
 - (unsigned long long);
 - (id);
 - (id);
+- (unsigned long long)currentGregorianYearInGMT;
+- (id)currentEnvironment;
+- (id)cropRectHash;
 - (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)_delegate;
+- (void)timestampedWithValue:timestamp: /* Error: Ran out of types for this method. */;
+- (void)mPropertyDefinitionsToDelete;
+- (void)",C,N;
+- (void)nce?;
+- (void)not build persistent store coordinator:(id)arg1 %{public}@;
+- (void)e permissions.;
+- (void)pe %{public}@-%{public}@;
+- (void)0@8@16^B24;
+- (_Bool)customValues;
 - (id);
 - (void);
 - (id);
@@ -64,7 +48,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)Ns:(id)arg1;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -73,24 +57,13 @@
 - (void);
 - (id)¡	'Ð!@Aù1º*ð1Â0@ù
 × ;
-- (id)hBuildingID:floorInfo:unitID: /* Error: Ran out of types for this method. */;
+- (id)initWithBuildingID:floorInfo:unitID: /* Error: Ran out of types for this method. */;
 - (id)",&,N,V_auditToken;
 - (id)alid Track Lane Type (%u)>;
 - (void)áz®GÑQ@;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *commandFormatteds;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableArray *detailFormatteds;
 @property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableArray *noticeFormatteds;
-@property(retain, nonatomic) NSMutableArray *priceFormatteds;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

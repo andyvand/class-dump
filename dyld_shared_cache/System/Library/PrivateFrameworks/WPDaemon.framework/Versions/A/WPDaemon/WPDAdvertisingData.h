@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableData, NSMutableDictionary, NSMutableSet;
+@class NSMutableData;
 
 @interface WPDAdvertisingData
 {
     _Bool _enableEPAForAdvertisement;
-    _Bool _isRanging;
-    _Bool _assertPower;
-    long long _advertRate;
-    NSMutableDictionary *_advDataPerType;
-    NSMutableSet *_types;
-    NSMutableData *_internalData;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (long long);
+- (long long);
 - (id);
 - (_Bool);
 - (void);
@@ -30,7 +24,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)RCSGroupIdentityVersion;
 - (void);
 - (void);
 - (_Bool);
@@ -41,14 +35,7 @@
 × ;
 
 // Remaining properties
-@property(readonly) NSMutableDictionary *advDataPerType; // @synthesize advDataPerType=_advDataPerType;
-@property long long advertRate; // @synthesize advertRate=_advertRate;
-@property _Bool assertPower; // @synthesize assertPower=_assertPower;
-@property(readonly, getter=getData) NSData *data;
-@property _Bool enableEPAForAdvertisement; // @synthesize enableEPAForAdvertisement=_enableEPAForAdvertisement;
 @property(retain) NSMutableData *internalData; // @synthesize internalData=_internalData;
-@property _Bool isRanging; // @synthesize isRanging=_isRanging;
-@property(retain) NSMutableSet *types; // @synthesize types=_types;
 
 @end
 

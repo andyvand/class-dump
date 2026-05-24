@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSOrderedSet, PHAsset, PLVideoEditSource, PTCinematographyScript;
-@protocol PTCinematographyScriptChanges, PXCinematicEditControllerDelegate, PXFocusTimelineController;
+@class PHAsset;
+@protocol PXCinematicEditControllerDelegate;
 
 @interface PXCinematicEditController
 {
     id <PXCinematicEditControllerDelegate> _delegate;
-    id <PTCinematographyScriptChanges> _scriptChangesDelegate;
-    id <PXFocusTimelineController> _focusTimelineDelegate;
-    PTCinematographyScript *_cinematographyScript;
-    PHAsset *_asset;
-    PLVideoEditSource *_editSource;
-    double _metadataAperture;
-    NSDictionary *_savedManualFocusCinematographyState;
-    NSArray *_uneditedUserDecisions;
-    NSOrderedSet *_focusEventTimes;
 }
 
 - (void);
@@ -36,7 +27,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -54,11 +45,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)*;
 - (id);
 - (id);
 - (id);
@@ -70,21 +61,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) PHAsset *asset; // @synthesize asset=_asset;
-@property(nonatomic) _Bool cinematicAdjustmentActive;
-@property(nonatomic) double cinematicAperture;
-@property(nonatomic) long long cinematicDebugMode;
-@property(retain, nonatomic) PTCinematographyScript *cinematographyScript; // @synthesize cinematographyScript=_cinematographyScript;
-@property(nonatomic) __weak id <PXCinematicEditControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) PLVideoEditSource *editSource; // @synthesize editSource=_editSource;
-@property(retain, nonatomic) NSOrderedSet *focusEventTimes; // @synthesize focusEventTimes=_focusEventTimes;
-@property(nonatomic) __weak id <PXFocusTimelineController> focusTimelineDelegate; // @synthesize focusTimelineDelegate=_focusTimelineDelegate;
-@property(readonly, nonatomic) double maximumCinematicAperture;
-@property(nonatomic) double metadataAperture; // @synthesize metadataAperture=_metadataAperture;
-@property(readonly, nonatomic) double minimumCinematicAperture;
-@property(readonly, nonatomic) double originalAperture;
-@property(retain, nonatomic) NSDictionary *savedManualFocusCinematographyState; // @synthesize savedManualFocusCinematographyState=_savedManualFocusCinematographyState;
-@property(nonatomic) __weak id <PTCinematographyScriptChanges> scriptChangesDelegate; // @synthesize scriptChangesDelegate=_scriptChangesDelegate;
-@property(retain, nonatomic) NSArray *uneditedUserDecisions; // @synthesize uneditedUserDecisions=_uneditedUserDecisions;
 
 @end
 

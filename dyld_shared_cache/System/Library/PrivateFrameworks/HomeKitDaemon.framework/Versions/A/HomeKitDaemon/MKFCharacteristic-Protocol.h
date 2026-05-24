@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFCharacteristicDatabaseID, NSArray, NSData, NSNumber, NSString, NSUUID;
+@class NSArray, NSData, NSString, NSUUID;
 @protocol MKFHome, MKFService;
 
 @protocol MKFCharacteristic
+- (NSArray *)ticipantDidJoin discard invalid %@;
+- (id <MKFService>);
+- (NSUUID *);
 - (id <MKFHome>)Ð1Â0@ù
 × ;
-- (void)postSyncDataUpdatedNotification;
+- (void)_postSyncDataUpdatedNotification;
 - (NSString *)D;
 - (NSData *)blic}@Invalid access mode enum value received:%ld /* Error: Ran out of types for this method. */;
 - (void)lj=;
 
 // Remaining properties
 @property(retain, nonatomic) NSData *authorizationData;
-@property(readonly, retain, nonatomic) NSArray *bulletinRegistrations;
-@property(readonly, copy, nonatomic) MKFCharacteristicDatabaseID *databaseID;
-@property(copy, nonatomic) NSString *format;
-@property(readonly) id <MKFHome> home;
-@property(readonly, copy, nonatomic) NSNumber *instanceID;
-@property(copy, nonatomic) NSString *manufacturerDescription;
-@property(readonly, retain, nonatomic) NSArray *notificationRegistrations;
-@property(copy, nonatomic) NSNumber *properties;
-@property(readonly, retain, nonatomic) id <MKFService> service;
-@property(copy, nonatomic) NSUUID *type;
-@property(copy, nonatomic) NSString *units;
 @end
 

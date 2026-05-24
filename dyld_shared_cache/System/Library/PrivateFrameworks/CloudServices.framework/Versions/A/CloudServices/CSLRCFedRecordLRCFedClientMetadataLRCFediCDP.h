@@ -8,14 +8,14 @@
 {
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long):%@. /* Error: Ran out of types for this method. */;
+- (_Bool)/f;
+- (_Bool)C;
 - (void);
-- (id);
+- (id);
 - (id);
 
 @end

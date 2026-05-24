@@ -9,28 +9,26 @@
 @interface CTCellularConfigUpdateInfo
 {
     NSString *_configType;
-    NSString *_updatedTime;
-    NSString *_updatedDetails;
 }
 
-+ (_Bool);
++ (_Bool)Time(%lld, %d)
+	matchDescription:%@
+} /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
+- (id)`;
 - (id);
-- (id);
-- (void);
+- (void)AccessControl on %{public}@ cid:(id)arg1 %u returned %{public}@;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *configType; // @synthesize configType=_configType;
-@property(retain, nonatomic) NSString *updatedDetails; // @synthesize updatedDetails=_updatedDetails;
-@property(retain, nonatomic) NSString *updatedTime; // @synthesize updatedTime=_updatedTime;
 
 @end
 

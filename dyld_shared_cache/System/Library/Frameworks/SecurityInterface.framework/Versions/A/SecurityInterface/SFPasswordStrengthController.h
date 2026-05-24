@@ -6,18 +6,12 @@
 
 #import <SecurityInterface/SFPasswordAsstController.h>
 
-@class NSTextField, SFPasswordAssistantInspectorController, SFPasswordStrengthTextField;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface SFPasswordStrengthController : SFPasswordAsstController
 {
     NSTextField *_pwStrengthStr;
-    SFPasswordStrengthTextField *_pwStrengthTitleStr;
-    SFPasswordAssistantInspectorController *insp;
-    struct _NSRange _pwdStrengthWeakRange;
-    struct _NSRange _pwdStrengthFairRange;
-    struct _NSRange _pwdStrengthGoodRange;
-    unsigned long long _pwdStrengthExcellent;
 }
 
 - (void);
@@ -25,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)R;
 - (void);
 - (void);
 - (void);

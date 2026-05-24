@@ -7,20 +7,19 @@
 @interface CKInputView
 {
     long long _lastContentSizeInterfaceOrientation;
-    struct CGSize _lastContentSize;
 }
 
++ (struct CGSize)5
+;
 + (struct CGSize);
-+ (struct CGSize);
-- (void);
-- (void);
-- (long long);
+- (void)"NSDate",C,N,V_receivedSince;
+- (void)isCalculateResultAttachmentView;
+- (long long)tGSg;
 - (struct CGSize);
 - (struct CGSize);
 
 // Remaining properties
 @property(nonatomic) struct CGSize lastContentSize; // @synthesize lastContentSize=_lastContentSize;
-@property(nonatomic) long long lastContentSizeInterfaceOrientation; // @synthesize lastContentSizeInterfaceOrientation=_lastContentSizeInterfaceOrientation;
 
 @end
 

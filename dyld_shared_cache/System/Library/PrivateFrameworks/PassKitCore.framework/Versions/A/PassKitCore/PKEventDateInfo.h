@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSTimeZone;
+@class NSDate;
 
 @interface PKEventDateInfo
 {
     _Bool _ignoreTimeComponents;
-    _Bool _unannounced;
-    _Bool _undetermined;
-    NSDate *_date;
-    NSTimeZone *_timeZone;
 }
 
 + (_Bool)î%°1Â0@ù
 × ;
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)@9?);
 - (id);
 - (id);
-- (void);
-- (id)eriaIdentifier;
+- (void)HV;
+- (id)_sessionIdentifierForCriteriaIdentifier;
 - (void)"8;
 - (id)Ûl4Ë ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, nonatomic) _Bool ignoreTimeComponents; // @synthesize ignoreTimeComponents=_ignoreTimeComponents;
-@property(readonly, copy, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
-@property(readonly, nonatomic, getter=isUnannounced) _Bool unannounced; // @synthesize unannounced=_unannounced;
-@property(readonly, nonatomic, getter=isUndetermined) _Bool undetermined; // @synthesize undetermined=_undetermined;
 
 @end
 

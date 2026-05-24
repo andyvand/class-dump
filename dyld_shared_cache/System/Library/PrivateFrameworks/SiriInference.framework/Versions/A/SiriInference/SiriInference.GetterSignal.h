@@ -7,7 +7,6 @@
 @interface SiriInference.GetterSignal
 {
     id name;
-    id valueGetter;
 }
 
 @end

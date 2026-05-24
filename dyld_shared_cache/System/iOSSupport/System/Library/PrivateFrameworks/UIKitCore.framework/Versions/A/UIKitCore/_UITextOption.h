@@ -6,30 +6,12 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSLayoutConstraint, NSString, TIKeyboardCandidate, UIColor, UIImageView, UILabel, UILayoutGuide, UIVisualEffectView;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _UITextOption : UIView
 {
     unsigned long long _state;
-    long long _type;
-    NSString *_originalText;
-    UIColor *_optionalTintColor;
-    TIKeyboardCandidate *_sourceCandidate;
-    NSLayoutConstraint *_symbolImageViewYConstraint;
-    NSString *_textChoice;
-    UILabel *_contentsLabel;
-    UIImageView *_symbolImageView;
-    UIView *_lineView;
-    UIView *_secureCandidateLabel;
-    UIVisualEffectView *_selectionVibrancyView;
-    UIView *_contentsLabelEffectView;
-    double _horizontalPadding;
-    NSArray *_insetConstraints;
-    NSLayoutConstraint *_minimumLabelWidth;
-    UILayoutGuide *_accessorySymbolSpacingGuide;
-    struct CGSize _secureCandidateSize;
-    struct NSDirectionalEdgeInsets _currentEdgeInsets;
 }
 
 + (double);
@@ -41,25 +23,25 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (struct CGSize);
-- (id);
-- (id);
-- (double);
+- (id);
+- (id)height;
+- (double)IMAVManagerImpl;
 - (double);
 - (id);
 - (id);
@@ -68,11 +50,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (struct NSDirectionalEdgeInsets);
-- (id);
+- (id)DRelayEnrollmentController";
+- (void)rl %@;
+- (id)legacy service session, please file a radar-------*/;
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)ChatIdentifier:(id)arg1 %@, style:(long long)arg2 %d, accountID:%@, userInfo:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -86,8 +68,8 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)!ðAùqd1Â0@ù
 × ;
 - (id)int=dd}{CGSize=dd}}24B56;
-- (void)peAccessoryViewWithCellAccessory:(id)arg1 orConfiguration:updatedForState: /* Error: Ran out of types for this method. */;
-- (id)ionalSafeAreaInsets;
+- (void)_createSystemTypeAccessoryViewWithCellAccessory:(id)arg1 orConfiguration:updatedForState: /* Error: Ran out of types for this method. */;
+- (id)_additionalSafeAreaInsets;
 - (id)ndantSheets: /* Error: Ran out of types for this method. */;
 - (void),N,V_delegate;
 - (void);
@@ -99,32 +81,7 @@ __attribute__((visibility("hidden")))
 - (id)¡;Ù\;
 
 // Remaining properties
-@property(retain, nonatomic) UILayoutGuide *accessorySymbolSpacingGuide; // @synthesize accessorySymbolSpacingGuide=_accessorySymbolSpacingGuide;
-@property(retain, nonatomic) UILabel *contentsLabel; // @synthesize contentsLabel=_contentsLabel;
-@property(retain, nonatomic) UIView *contentsLabelEffectView; // @synthesize contentsLabelEffectView=_contentsLabelEffectView;
-@property(nonatomic) struct NSDirectionalEdgeInsets currentEdgeInsets; // @synthesize currentEdgeInsets=_currentEdgeInsets;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double horizontalPadding; // @synthesize horizontalPadding=_horizontalPadding;
-@property(retain, nonatomic) NSArray *insetConstraints; // @synthesize insetConstraints=_insetConstraints;
-@property(retain, nonatomic) UIView *lineView; // @synthesize lineView=_lineView;
-@property(retain, nonatomic) NSLayoutConstraint *minimumLabelWidth; // @synthesize minimumLabelWidth=_minimumLabelWidth;
-@property(nonatomic) UIColor *optionalTintColor; // @synthesize optionalTintColor=_optionalTintColor;
-@property(nonatomic) NSString *originalText; // @synthesize originalText=_originalText;
-@property(retain, nonatomic) UIView *secureCandidateLabel; // @synthesize secureCandidateLabel=_secureCandidateLabel;
-@property(nonatomic) struct CGSize secureCandidateSize; // @synthesize secureCandidateSize=_secureCandidateSize;
-@property(retain, nonatomic) UIVisualEffectView *selectionVibrancyView; // @synthesize selectionVibrancyView=_selectionVibrancyView;
-@property(retain, nonatomic) TIKeyboardCandidate *sourceCandidate; // @synthesize sourceCandidate=_sourceCandidate;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIImageView *symbolImageView; // @synthesize symbolImageView=_symbolImageView;
-@property(retain, nonatomic) NSLayoutConstraint *symbolImageViewYConstraint; // @synthesize symbolImageViewYConstraint=_symbolImageViewYConstraint;
 @property(retain, nonatomic) NSString *textChoice; // @synthesize textChoice=_textChoice;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

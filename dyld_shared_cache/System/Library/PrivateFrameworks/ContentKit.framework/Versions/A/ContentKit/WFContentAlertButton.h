@@ -6,27 +6,23 @@
 
 #import <ContentKit/WFSelectableAlertButton.h>
 
-@class NSObject, NSString, WFContentItem;
+@class NSObject;
 @protocol OS_dispatch_group;
 
 @interface WFContentAlertButton : WFSelectableAlertButton
 {
     _Bool _hasContentSubtitle;
-    _Bool _hideSubtitle;
-    NSString *_subtitle;
-    WFContentItem *_contentItem;
-    NSObject<OS_dispatch_group> *_group;
 }
 
 + (void);
-+ (id);
++ (id)A;
 + (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id)meHeaderCollectionViewCell"16B24;
 - (void);
 - (void);
 - (id);
@@ -36,11 +32,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) WFContentItem *contentItem; // @synthesize contentItem=_contentItem;
 @property(retain, nonatomic) NSObject<OS_dispatch_group> *group; // @synthesize group=_group;
-@property(readonly, nonatomic) _Bool hasContentSubtitle; // @synthesize hasContentSubtitle=_hasContentSubtitle;
-@property(nonatomic) _Bool hideSubtitle; // @synthesize hideSubtitle=_hideSubtitle;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
 
 @end
 

@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class SFCard;
+
 @protocol SiriSharedUISAEViewStateDelegate
+- (SFCard *)<;
+- (_Bool)`;
+
+@optional
+- (void);
+- (void);
+- (void)0;
 @end
 

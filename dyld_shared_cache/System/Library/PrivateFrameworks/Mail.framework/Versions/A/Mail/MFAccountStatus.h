@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableArray, NSMutableDictionary, NSMutableSet, NSString, NSTimer;
+@class NSMutableDictionary, NSTimer;
 
 @interface MFAccountStatus
 {
     NSMutableDictionary *_states;
-    NSMutableDictionary *_stateDetails;
-    NSMapTable *_clients;
-    NSMutableSet *_allRegisteredAccounts;
-    unsigned long long _allRegisteredTypes;
-    NSMutableArray *_accountRefreshQueue;
-    NSTimer *_refreshTimer;
 }
 
 + (id);
@@ -25,7 +19,7 @@
 - (void);
 - (long long);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -38,7 +32,7 @@
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void)(;
 - (void);
 - (id);
 - (void);
@@ -46,18 +40,7 @@
 - (void)À<;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *displayName;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSTimer *refreshTimer; // @synthesize refreshTimer=_refreshTimer;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DMFControlGroupIdentifier, NSString;
+@class DMFControlGroupIdentifier;
 
 @interface CRKDisconnectIDSConnectionRequest
 {
     DMFControlGroupIdentifier *_courseIdentifier;
-    NSString *_instructorIdentifier;
 }
 
-+ (_Bool);
++ (_Bool));
 - (void);
 - (void);
 - (id);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) DMFControlGroupIdentifier *courseIdentifier; // @synthesize courseIdentifier=_courseIdentifier;
-@property(copy, nonatomic) NSString *instructorIdentifier; // @synthesize instructorIdentifier=_instructorIdentifier;
 
 @end
 

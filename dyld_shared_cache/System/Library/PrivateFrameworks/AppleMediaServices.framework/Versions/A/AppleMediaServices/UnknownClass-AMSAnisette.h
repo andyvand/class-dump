@@ -4,18 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface UnknownClass (AMSAnisette)
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)Ͱ;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -28,21 +28,5 @@
 
 // Remaining properties
 @property(readonly) NSData *ams_actionData;
-@property(readonly) NSData *ams_actionDataV1;
-@property(readonly) NSData *ams_actionDataV1_5;
-@property(readonly) NSString *ams_actionName;
-@property(readonly) NSString *ams_actionNameV1;
-@property(readonly) NSString *ams_actionNameV1_5;
-@property(readonly) NSString *ams_fsrAnonymousID;
-@property(readonly) NSString *ams_fsrCallbackUrl;
-@property(readonly) NSString *ams_fsrData;
-@property(readonly) NSString *ams_fsrInitUrl;
-@property(readonly) NSString *ams_fsrKeyID;
-@property(readonly) NSString *ams_fsrNameSpace;
-@property(readonly) NSString *ams_fsrRequestInterval;
-@property(readonly) NSString *ams_fsrTransactionID;
-@property(readonly) _Bool ams_isFraudReportCallbackResponse;
-@property(readonly) _Bool ams_isFraudReportInitURLResponse;
-@property(readonly) _Bool ams_isFraudReportRetryResponse;
 @end
 

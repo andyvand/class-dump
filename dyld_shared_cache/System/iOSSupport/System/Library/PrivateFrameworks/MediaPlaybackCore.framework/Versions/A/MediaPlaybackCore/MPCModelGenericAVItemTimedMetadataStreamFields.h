@@ -4,38 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MPCModelGenericAVItemTimedMetadataStreamFields
 {
     _Bool _explicitContent;
-    NSString *_title;
-    NSString *_artist;
-    NSString *_album;
-    NSArray *_artworkDictionaries;
 }
 
 - (void);
-- (id);
+- (id)ework/Versions/A/PhotoLibraryServices;
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (void)4~;
 - (_Bool);
-- (void);
+- (void)?@;
 - (id)
 × ;
 - (void)u;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *album; // @synthesize album=_album;
-@property(copy, nonatomic) NSString *artist; // @synthesize artist=_artist;
-@property(copy, nonatomic) NSArray *artworkDictionaries; // @synthesize artworkDictionaries=_artworkDictionaries;
-@property(nonatomic, getter=isExplicitContent) _Bool explicitContent; // @synthesize explicitContent=_explicitContent;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

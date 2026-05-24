@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, TRIClientExperiment, TRISystemConfiguration;
-@protocol TRISystemCovariateProviding;
+@class TRISystemConfiguration;
 
 @interface TRIExperimentDependentSystemCovariates
 {
     TRISystemConfiguration *_sysConfig;
-    TRIClientExperiment *_clientExperiment;
-    id <TRISystemCovariateProviding> _baseSystemCovariates;
-    NSDate *_experimentEndDate;
 }
 
-- (id);
-- (id);
+- (id)veHeadroom:(id)arg1 maxClockShift:(id)arg2 layoutVariant:(id)arg3 notificationRoom:(id)arg4;
+- (id)initWithVisibleRect:(id)arg1 adaptiveVisibleRect:(id)arg2 cropScore:(id)arg3 layoutScore:(id)arg4 clockOverlapAcceptable:headroomEngaged:adaptiveHeadroom:maxClockShift:layoutVariant:notificationRoom: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);

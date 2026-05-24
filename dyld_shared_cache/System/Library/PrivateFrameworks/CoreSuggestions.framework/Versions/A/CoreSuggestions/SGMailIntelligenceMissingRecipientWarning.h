@@ -11,23 +11,21 @@
 @interface SGMailIntelligenceMissingRecipientWarning : SGMailIntelligenceComposeWarning
 {
     NSString *_handle;
-    NSString *_matchFoundInBCC;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)x;
 - (id);
 - (void);
-- (id);
+- (id)ta, WTF::RefPtr<WebKit::StorageAreaImpl>>::KeyValuePairTraits, WTF::HashTraits<WebCore::SecurityOriginData>>::validateKey(const ValueType &) [Key = WebCore::SecurityOriginData, Value = WTF::KeyValuePair<WebCore::SecurityOriginData, WTF::RefPtr<WebKit::StorageAreaImpl>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebCore::SecurityOriginData, WTF::RefPtr<WebKit::StorageAreaImpl>>>, HashFunctions = WTF::DefaultHash<WebCore::SecurityOriginData>, Traits = WTF::HashMap<WebCore::SecurityOriginData, WTF::RefPtr<WebKit::StorageAreaImpl>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::SecurityOriginData>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *handle; // @synthesize handle=_handle;
-@property(readonly, nonatomic) NSString *matchFoundInBCC; // @synthesize matchFoundInBCC=_matchFoundInBCC;
 
 @end
 

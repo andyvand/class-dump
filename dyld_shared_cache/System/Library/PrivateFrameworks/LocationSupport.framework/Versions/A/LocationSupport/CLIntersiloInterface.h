@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)dateTime day %u (RFC 8011 section 5.1.15).;
 - (_Bool);
 - (void);
 - (id);

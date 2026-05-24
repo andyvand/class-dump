@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAuthorizationContext, CNContactProviderSupportManager, CNContactsEnvironment, CNManagedConfiguration, NSObject;
-@protocol OS_tcc_identity;
+@class CNContactsEnvironment;
 
 @interface CNDataMapperConfiguration
 {
     _Bool _isContactProvider;
-    CNContactsEnvironment *_environment;
-    CNManagedConfiguration *_managedConfiguration;
-    NSObject<OS_tcc_identity> *_assumedIdentity;
-    long long _identifierAuditMode;
-    CNAuthorizationContext *_authorizationContext;
-    CNContactProviderSupportManager *_contactProviderManager;
 }
 
 - (void);
 - (void);
+- (id)alize BSF Transport;
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void).*;
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (long long);
+- (void)Max;
+- (long long)SM;
 - (id);
 - (id)!tAù1*1Â0@ù
 × ;
@@ -38,13 +31,7 @@
 - (void)public}@;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_tcc_identity> *assumedIdentity; // @synthesize assumedIdentity=_assumedIdentity;
-@property(retain, nonatomic) CNAuthorizationContext *authorizationContext; // @synthesize authorizationContext=_authorizationContext;
-@property(retain, nonatomic) CNContactProviderSupportManager *contactProviderManager; // @synthesize contactProviderManager=_contactProviderManager;
 @property(retain, nonatomic) CNContactsEnvironment *environment; // @synthesize environment=_environment;
-@property(nonatomic) long long identifierAuditMode; // @synthesize identifierAuditMode=_identifierAuditMode;
-@property(nonatomic) _Bool isContactProvider; // @synthesize isContactProvider=_isContactProvider;
-@property(retain, nonatomic) CNManagedConfiguration *managedConfiguration; // @synthesize managedConfiguration=_managedConfiguration;
 
 @end
 

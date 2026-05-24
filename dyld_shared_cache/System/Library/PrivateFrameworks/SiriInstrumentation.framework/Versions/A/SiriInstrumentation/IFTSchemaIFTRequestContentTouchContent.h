@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IFTSchemaIFTRequestContentTouchContent : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
-- (id);
-- (void);
+- (id)D;
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)rameworks/IMSharedUtilities.framework/Versions/A/IMSharedUtilities;
 - (id)!;
 - (id)@"ASRSchemaASRJitLanguageModelEnrollmentStarted",&,N,V_startedOrChanged;
-- (id)chemaCNVExecutionOverridesEvaluated;
+- (id)CNVSchemaCNVExecutionOverridesEvaluated;
 - (_Bool)¼"æÿ;
 - (_Bool)«%;
 - (void)Í);
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

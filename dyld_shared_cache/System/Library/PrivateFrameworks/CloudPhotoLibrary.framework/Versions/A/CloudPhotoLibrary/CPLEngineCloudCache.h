@@ -6,13 +6,13 @@
 
 #import <CloudPhotoLibrary/CPLEngineStorage.h>
 
-@class CPLPlatformObject, NSString;
+@class CPLPlatformObject;
 
 @interface CPLEngineCloudCache : CPLEngineStorage
 {
 }
 
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -30,17 +30,17 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)edTasksIncludingBackground:(id)arg1;
-- (_Bool)2à;
-- (void)ªàªNàªL;
-- (_Bool)N´àªý{G©ôOF©ÿÿ#ÕÐÊP;
 - (id);
+- (_Bool);
+- (void);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
+- (_Bool);
 - (id);
 - (id);
+- (id)?9;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -52,14 +52,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) CPLPlatformObject *platformObject;
-@property(readonly) Class superclass;
 
 @end
 

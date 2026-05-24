@@ -9,8 +9,6 @@
 @interface AKURLConfiguration
 {
     _Bool _isBaaEnabled;
-    NSURL *_url;
-    unsigned long long _uiType;
 }
 
 + (_Bool);
@@ -19,13 +17,11 @@
 - (id);
 - (id);
 - (void);
+- (id)JUNIPER_FIBRECHANNEL;
 - (id);
-- (id);
-- (void)tProtocol;
+- (void)AKAppleIDAuthenticationClientProtocol;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isBaaEnabled; // @synthesize isBaaEnabled=_isBaaEnabled;
-@property(readonly, nonatomic) unsigned long long uiType; // @synthesize uiType=_uiType;
 @property(readonly, copy, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

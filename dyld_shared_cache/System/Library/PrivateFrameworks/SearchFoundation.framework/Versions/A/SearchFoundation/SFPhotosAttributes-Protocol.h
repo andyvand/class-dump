@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary;
-
 @protocol SFPhotosAttributes
+- (unsigned long long);
+- (void)GL_MAX_CLIP_PLANES_index;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) _Bool isEmbeddingMatched;
-@property(nonatomic) _Bool isFavorite;
-@property(nonatomic) _Bool isMetadataMatched;
-@property(nonatomic) _Bool isVideo;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int photosSuggestionType;
 @property(nonatomic) unsigned long long positionIndex;
 @end
 

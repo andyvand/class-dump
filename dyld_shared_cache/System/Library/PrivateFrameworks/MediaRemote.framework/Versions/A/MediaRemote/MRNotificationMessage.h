@@ -6,7 +6,7 @@
 
 #import <MediaRemote/MRProtocolMessage.h>
 
-@class MRPlayerPath, NSDictionary, NSString;
+@class NSString;
 
 @interface MRNotificationMessage : MRProtocolMessage
 {
@@ -14,14 +14,12 @@
 
 - (id);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)transcodeOptionAssetURI;
+- (id);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *notification;
-@property(readonly, nonatomic) MRPlayerPath *playerPath;
-@property(readonly, nonatomic) NSDictionary *userInfo;
 
 @end
 

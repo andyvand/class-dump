@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class SGStorageEvent;
+
 @protocol SGJournalCalendarObserver
+- (void)hasPrefix:(SGStorageEvent *)arg1;
+- (void)fileSystemRepresentation;
+- (void);
+- (void)L;
 @end
 

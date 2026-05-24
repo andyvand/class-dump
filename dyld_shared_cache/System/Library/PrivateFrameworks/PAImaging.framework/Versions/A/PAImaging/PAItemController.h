@@ -4,53 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSObject, NSString, PACompositionEditController, PAImageItem, PEAutoAdjustmentController, PELivePortraitBehaviorController, PEModelDeliveryManager, PEValuesCalculator, PHAdjustmentData, PHAsset, PHContentEditingInput, PICompositionController, PLEditSource, PXCinematicEditController;
-@protocol NUImageProperties, OS_dispatch_group, OS_dispatch_queue, PAAdjustmentFactory, PAItemControllerDelegate, PAItemControllerSettingsDelegate;
+@class PAImageItem;
+@protocol NUImageProperties;
 
 @interface PAItemController
 {
     PAImageItem *_item;
-    NSObject<OS_dispatch_queue> *_editQueue;
-    unsigned long long _pendingEdits;
-    _Bool _saveTrimAsNewVideo;
-    NSObject<OS_dispatch_group> *_editGroup;
-    NSObject<OS_dispatch_group> *_commitGroup;
-    PHContentEditingInput *_originalContentEditingInput;
-    PHContentEditingInput *_currentContentEditingInput;
-    unsigned long long _currentContentEditingInputRequestID;
-    NSMutableArray *_compositionControllerStack;
-    PACompositionEditController *_compositionEditController;
-    _Bool _subscribedToCompositionEditController;
-    PICompositionController *_transientCompositionController;
-    struct PFIntSize_st _transientInputSize;
-    PICompositionController *_unadjustedCompositionController;
-    struct PFIntSize_st _originalInputSize;
-    long long _originalOrientation;
-    PLEditSource *_unadjustedEditSource;
-    unsigned short _originalVideoComplementVisibility;
-    unsigned short _internalVideoComplementVisibility;
-    NSObject<OS_dispatch_group> *_imagePropertiesGroup;
-    NSMutableDictionary *_cachedContentEditingInputsByOriginalChoice;
-    PXCinematicEditController *_cinematicEditController;
-    _Bool _hasCheckedPortraitVideo;
-    _Bool _isAssetPortraitVideo;
-    _Bool _hasCheckedSpatialAudio;
-    _Bool _isAssetSpatialAudio;
-    NSArray *_playbackRateOptions;
-    PICompositionController *_lastSavedCompositionController;
-    PICompositionController *_asShotCompositionController;
-    PEModelDeliveryManager *_modelDeliveryManager;
-    CDUnknownBlockType _saveTrimAsNewVideoHandler;
-    PHContentEditingInput *_assetContentEditingInput;
-    PHAdjustmentData *_assetAdjustmentData;
-    id <PAAdjustmentFactory> _adjustmentFactory;
-    id <PAItemControllerDelegate> _delegate;
-    id <PAItemControllerSettingsDelegate> _settingsDelegate;
-    NSString *_adjustmentIdentifierAndVersion;
-    PELivePortraitBehaviorController *_livePortraitBehaviorController;
-    PEValuesCalculator *_valuesCalculator;
-    PEAutoAdjustmentController *_autoAdjustmentController;
-    id <NUImageProperties> _imageProperties;
 }
 
 + (long long);
@@ -63,16 +22,16 @@
 + (long long);
 + (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (void);
 - (struct PFIntSize_st);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)+;
 - (id);
 - (void);
 - (void);
@@ -94,7 +53,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (id);
@@ -107,45 +66,45 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)];
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
+- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (_Bool);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -175,7 +134,7 @@
 - (_Bool);
 - (long long);
 - (_Bool);
-- (void);
+- (void)cs.people.detailView.keyPhotoChanged;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -183,38 +142,11 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)C;
 - (id)culatorContext apertureRedEyeCompletionBlock]_block_invoke;
 
 // Remaining properties
-@property(retain) id <PAAdjustmentFactory> adjustmentFactory; // @synthesize adjustmentFactory=_adjustmentFactory;
-@property(retain, nonatomic) NSString *adjustmentIdentifierAndVersion; // @synthesize adjustmentIdentifierAndVersion=_adjustmentIdentifierAndVersion;
-@property(retain, nonatomic) PICompositionController *asShotCompositionController;
-@property(readonly) PHAsset *asset;
-@property(retain) PHAdjustmentData *assetAdjustmentData; // @synthesize assetAdjustmentData=_assetAdjustmentData;
-@property(retain) PHContentEditingInput *assetContentEditingInput; // @synthesize assetContentEditingInput=_assetContentEditingInput;
-@property(retain, nonatomic) PEAutoAdjustmentController *autoAdjustmentController; // @synthesize autoAdjustmentController=_autoAdjustmentController;
-@property(readonly, getter=isAvailableForEditing) _Bool availableForEditing;
-@property(retain, nonatomic) PXCinematicEditController *cinematicEditController;
-@property(retain) PHContentEditingInput *currentContentEditingInput;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PAItemControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool hideVideoComplement;
-@property(readonly, nonatomic) PAImageItem *imageItem;
 @property(retain) id <NUImageProperties> imageProperties; // @synthesize imageProperties=_imageProperties;
-@property(readonly, nonatomic) _Bool isEditingOriginal;
-@property(retain, nonatomic) PICompositionController *lastSavedCompositionController; // @synthesize lastSavedCompositionController=_lastSavedCompositionController;
-@property(retain, nonatomic) PELivePortraitBehaviorController *livePortraitBehaviorController; // @synthesize livePortraitBehaviorController=_livePortraitBehaviorController;
-@property(readonly, nonatomic) PEModelDeliveryManager *modelDeliveryManager;
-@property(copy, nonatomic) CDUnknownBlockType saveTrimAsNewVideoHandler; // @synthesize saveTrimAsNewVideoHandler=_saveTrimAsNewVideoHandler;
-@property(nonatomic) __weak id <PAItemControllerSettingsDelegate> settingsDelegate; // @synthesize settingsDelegate=_settingsDelegate;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) PEValuesCalculator *valuesCalculator; // @synthesize valuesCalculator=_valuesCalculator;
 
 @end
 

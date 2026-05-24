@@ -7,11 +7,6 @@
 @interface Navigation.MapMatcher.RouteMatch
 {
     id routeCoordinate;
-    id routeStep;
-    id locationCoordinate;
-    id course;
-    id distance;
-    id pathSegment;
 }
 
 @end

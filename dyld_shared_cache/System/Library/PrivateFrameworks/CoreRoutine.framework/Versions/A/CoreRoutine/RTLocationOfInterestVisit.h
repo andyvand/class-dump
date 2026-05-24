@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID, RTLocation;
+@class RTLocation;
 
 @interface RTLocationOfInterestVisit
 {
     RTLocation *_location;
-    NSUUID *_identifier;
-    NSDate *_entryDate;
-    NSDate *_exitDate;
-    double _locationOfInterestConfidence;
-    unsigned long long _locationOfInterestSource;
 }
 
 @end

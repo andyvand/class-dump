@@ -4,32 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFCommandReference, SFTopic;
+@class NSString;
 
 @interface SFCommand
 {
     NSString *_commandDetail;
-    SFTopic *_normalizedTopic;
-    NSData *_backendData;
-    SFCommandReference *_commandReference;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *backendData; // @synthesize backendData=_backendData;
 @property(copy, nonatomic) NSString *commandDetail; // @synthesize commandDetail=_commandDetail;
-@property(retain, nonatomic) SFCommandReference *commandReference; // @synthesize commandReference=_commandReference;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFTopic *normalizedTopic; // @synthesize normalizedTopic=_normalizedTopic;
-@property(readonly) Class superclass;
 
 @end
 

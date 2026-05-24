@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)_clearGraphicsQualityOverride;
 - (_Bool)system HUD due to system HUD presentation;
 - (void)26UIWindowScenePushPlacementCG;
 - (void)äþðZ;

@@ -4,36 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PGGraphUpdateJetsamIndicator, PGManager;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PGGraphUpdateManager
 {
     unsigned char _processingState;
-    _Bool _stopRequested;
-    NSObject<OS_dispatch_queue> *_processingQueue;
-    NSObject<OS_dispatch_queue> *_stateQueue;
-    PGManager *_manager;
-    PGGraphUpdateJetsamIndicator *_jetsamIndicator;
-    long long _executionContext;
 }
 
 - (_Bool);
+- (void)rks/AccessibilityKit.framework/Versions/A/AccessibilityKit;
+- (void);
+- (_Bool)_parseAttributes:intoAttributedString:font:fontColor:backgroundColor:fontSize:shouldUseOriginalAlpha: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (_Bool);
+- (void);
+- (_Bool)t;
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (unsigned char);
+- (unsigned char)v;
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (long long);
 - (id);
 - (void);
@@ -44,13 +38,7 @@
 - (void)vncpct;
 
 // Remaining properties
-@property long long executionContext; // @synthesize executionContext=_executionContext;
-@property(readonly, nonatomic) PGGraphUpdateJetsamIndicator *jetsamIndicator; // @synthesize jetsamIndicator=_jetsamIndicator;
-@property(readonly, nonatomic) PGManager *manager; // @synthesize manager=_manager;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *processingQueue; // @synthesize processingQueue=_processingQueue;
-@property(nonatomic) unsigned char processingState; // @synthesize processingState=_processingState;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *stateQueue; // @synthesize stateQueue=_stateQueue;
-@property(nonatomic) _Bool stopRequested; // @synthesize stopRequested=_stopRequested;
 
 @end
 

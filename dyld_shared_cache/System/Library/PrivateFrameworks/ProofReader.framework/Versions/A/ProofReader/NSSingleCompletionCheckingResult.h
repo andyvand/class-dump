@@ -4,20 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet;
-
 __attribute__((visibility("hidden")))
 @interface NSSingleCompletionCheckingResult
 {
     _Bool _isPromoted;
-    NSIndexSet *_completeWordIndexes;
 }
 
 + (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -29,8 +26,6 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, copy) NSIndexSet *completeWordIndexes; // @synthesize completeWordIndexes=_completeWordIndexes;
-@property(readonly) _Bool isPromoted; // @synthesize isPromoted=_isPromoted;
 @property(readonly) unsigned long long stopCompletingIndex;
 
 @end

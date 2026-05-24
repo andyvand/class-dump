@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSURL;
+@class NSURL;
 
 @interface SCNAssetCatalog
 {
     NSURL *_catalogURL;
-    NSDictionary *_db;
-    NSMutableDictionary *_cache;
 }
 
 + (id);
@@ -27,7 +25,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)LPDownloadProgress;
 - (void);
 
 // Remaining properties

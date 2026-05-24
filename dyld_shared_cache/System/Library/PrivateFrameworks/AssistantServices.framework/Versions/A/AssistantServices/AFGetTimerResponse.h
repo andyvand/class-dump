@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)Bi;
 - (void)allDestinationID;
 
 // Remaining properties

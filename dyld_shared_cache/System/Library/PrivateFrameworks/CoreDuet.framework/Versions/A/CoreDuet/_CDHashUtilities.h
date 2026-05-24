@@ -13,9 +13,9 @@
 + (id);
 + (id);
 + (id);
++ (id)_Bool _sysConfig3SetManifest(struct __SysConfig3 *__single, struct __SysConfig3ManifestEntry *__single);
 + (id);
-+ (id);
-+ (id)ngNightFri:(id)arg1;
++ (id)setCallLongNightFri:(id)arg1;
 
 @end
 

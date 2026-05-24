@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class OADColor, OADFontReference;
+@class OADFontReference;
 
 __attribute__((visibility("hidden")))
 @interface OADTableTextStyle
 {
     OADFontReference *mFontReference;
-    OADColor *mColor;
-    int mBold;
-    int mItalic;
 }
 
 + (id);
@@ -22,9 +19,9 @@ __attribute__((visibility("hidden")))
 + (int);
 - (void);
 - (void);
-- (int);
+- (int)T;
 - (id);
-- (void);
+- (void);
 - (void);
 - (int);
 - (id);

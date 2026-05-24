@@ -12,17 +12,17 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (void)JA;
+- (void)Ty;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)System/Library/PrivateFrameworks/MSUDataAccessor.framework/MSUDataAccessor;
+- (void)/NearField.framework/NearField;
+- (void)yKeyBagsDataClasses (%d) earlyKeyBagsAllowUnsealed (%d);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)t was issued by trusted key %d;
 - (struct CGSize);
 - (struct CGPoint);
 - (void);
@@ -31,17 +31,17 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)ve an error;
 - (void);
 - (id);
-- (struct CGRect);
+- (struct CGRect)registerDefaults: /* Error: Ran out of types for this method. */;
 - (struct CGRect);
 - (void);
 - (void)astCellUpdate"b1"doneFirstLayout"b1"loadingOffscreenViews"b1"updating"b1"updatingVisibleCells"b1"preRotationBoundsSet"b1"updateFocusAfterItemAnimations"b1"remembersLastFocusedIndexPath"b1"updateFocusAfterLoadingCells"b1"performingLayout"b1"keepsFirstResponderVisibleOnBoundsChange"b1"inCreateTemplateCell"b1"editing"b1"shouldDeriveVisibleBoundsFromContainingScrollView"b1"usingCustomLayoutMargins"b1"settingDefaultLayoutMargins"b1"shouldPrefetchCellsWhenPerformingReloadData"b1"scheduledReloadPrefetchDuringNextLayoutPass"b1"visMode"b1"invokingDelegateDidEndDisplayingItem"b1"invokingDelegateWillDisplayItem"b1"finishesBatchUpdateBeforeInvokingCompletionHandler"b1"tellCompletionHandlerAnimationsDidFinish"b1"isApplyingDiffableUpdate"b1};
-- (void)rThenContinue:(struct CGRect)arg1;
+- (void)_handleOtherFromDocumentTitlebarPopoverThenContinue:(struct CGRect)arg1;
 - (void);
 - (void)ðüÿ;
-- (void)anelToFront:(double)arg1;
+- (void)orderFontPanelToFront:(double)arg1;
 
 @end
 

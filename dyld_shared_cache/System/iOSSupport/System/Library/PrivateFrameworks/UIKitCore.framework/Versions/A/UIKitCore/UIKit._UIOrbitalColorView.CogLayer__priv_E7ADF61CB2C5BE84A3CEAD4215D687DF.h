@@ -7,8 +7,6 @@
 @interface UIKit._UIOrbitalColorView.CogLayer__priv_E7ADF61CB2C5BE84A3CEAD4215D687DF
 {
     id spokes;
-    id meshingOffset;
-    id rootEdge;
 }
 
 - (id);

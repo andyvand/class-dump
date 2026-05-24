@@ -9,19 +9,12 @@
 @interface TSTTableTileRowInfo : TSPContainedObject
 {
     struct __CFData *mStorageBuffer;
-    unsigned short mStorageOffsets[255];
-    unsigned short mBufferSize;
-    unsigned short mTileRowIndex;
-    unsigned short mCellCount;
-    unsigned char mMaxTileColumnIndex;
-    _Bool mMaxTileColumnIndexValid;
-    unsigned char mStorageVersion;
 }
 
-- (unsigned short);
-- (void);
+- (unsigned short)et not usable for vocal attenuation [HLS file];
+- (void)itial-event-time;
 - (id);
-- (id);
+- (id)imeControlStatus;
 - (void);
 - (unsigned short);
 - (void);
@@ -30,7 +23,6 @@
 - (void)¼Ã;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned short cellCount; // @synthesize cellCount=mCellCount;
 @property(nonatomic) unsigned short tileRowIndex; // @synthesize tileRowIndex=mTileRowIndex;
 
 @end

@@ -16,18 +16,18 @@ __attribute__((visibility("hidden")))
     } _drawerBinderFlags;
 }
 
-+ (id);
-+ (_Bool);
-+ (id);
++ (id)@;
++ (_Bool)hould not occur on this application's main thread as it may lead to UI unresponsiveness. Please switch to an asynchronous networking API such as URLSession.;
++ (id)PConnectionCache.cpp;
 - (Class);
 - (_Bool);
+- (void)col;
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (unsigned long long);
-- (void);
+- (void)ences for Siri Learning toggles.;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSNumber, NSString, NSURL, SACalendar, SAUIAppPunchOut;
+@class NSURL;
 
 @interface SARestaurantOpening : AceObject
 {
@@ -22,21 +22,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *bookingId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SAUIAppPunchOut *makeReservationPunchOut;
-@property(copy, nonatomic) NSNumber *partySize;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) SACalendar *timeSlot;
 
 @end
 

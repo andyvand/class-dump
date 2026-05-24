@@ -13,7 +13,7 @@
 }
 
 - (void);
-- (id);
+- (id)_convertReproducibility: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

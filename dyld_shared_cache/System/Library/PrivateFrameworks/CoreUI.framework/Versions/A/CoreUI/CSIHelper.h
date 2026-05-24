@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _CSIRenditionBlockData, _CUIThemePixelRendition;
-
 __attribute__((visibility("hidden")))
 @interface CSIHelper
 {
@@ -15,21 +13,6 @@ __attribute__((visibility("hidden")))
         unsigned int width;
         unsigned int height;
     } slice;
-    NSData *csiData;
-    struct _csibitmap *bmp;
-    struct os_unfair_lock_s renditionLock;
-    _CUIThemePixelRendition *rendition;
-    _CSIRenditionBlockData *sharedBlockDataBGRX;
-    _CSIRenditionBlockData *sharedBlockDataRGBX;
-    _CSIRenditionBlockData *sharedBlockDataGray;
-    _CSIRenditionBlockData *retainedBlockData;
-    NSString *blockDataCacheKeyBGRX;
-    NSString *blockDataCacheKeyRGBX;
-    NSString *blockDataCacheKeyGray;
-    unsigned long long sourceRowbytes;
-    unsigned int shouldCache:1;
-    unsigned int usedForDataProvider:1;
-    unsigned int _reserved:30;
 }
 
 - (void);

@@ -9,8 +9,6 @@
 @interface CUIVectorGlyphLayerDrawAttachmentStore
 {
     NSData *_data;
-    const struct CUIVectorGlyphLayerDrawAttachment **_attachments;
-    unsigned long long _count;
 }
 
 - (id);
@@ -19,11 +17,10 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (const struct CUIVectorGlyphLayerDrawAttachment **)ases;
+- (const struct CUIVectorGlyphLayerDrawAttachment **)name_aliases;
 
 // Remaining properties
 @property(readonly, nonatomic) const struct CUIVectorGlyphLayerDrawAttachment **attachments; // @synthesize attachments=_attachments;
-@property(readonly, nonatomic) unsigned long long count; // @synthesize count=_count;
 
 @end
 

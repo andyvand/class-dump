@@ -10,9 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSBoxSeparatorVisualProvider
 {
     id configuration;
-    void box;
-    id separatorView;
-    id cachedAxis;
 }
 
 - (_Bool);
@@ -20,11 +17,41 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
+- (struct CGRect)rt) %@
+(Domain Lookup End) %@
+(Connect Start) %@
+(Secure Connection Start) %@
+(Secure Connection End) %@
+(Connect End) %@
+(Request Start) %@
+(Request End) %@
+(Response Start) %@
+(Response End) %@
+(Protocol Name) %@
+(Proxy Connection) %s
+(Reused Connection) %s
+(Fetch Type) %s
+(Request Header Bytes) %lld
+(Request Body Transfer Bytes) %lld
+(Request Body Bytes) %lld
+(Response Header Bytes) %lld
+(Response Body Transfer Bytes) %lld
+(Response Body Bytes) %lld
+(Local Address) %@
+(Local Port) %@
+(Remote Address) %@
+(Remote Port) %@
+(TLS Protocol Version) 0x%04hX
+(TLS Cipher Suite) 0x%04hX
+(Cellular) %s
+(Expensive) %s
+(Constrained) %s
+(Multipath) %s
+;
+- (void)c) ConnAuth(%c)};
 - (struct CGRect);
-- (void);
-- (struct CGRect);
-- (void);
-- (id);
+- (void)6xb;
+- (id)6ku;
 - (struct CGRect);
 - (void);
 - (id);
@@ -35,14 +62,7 @@ __attribute__((visibility("hidden")))
 - (struct NSEdgeInsets)ÿE';
 
 // Remaining properties
-@property(nonatomic, readonly) struct NSEdgeInsets alignmentRectInsets;
-@property(nonatomic, readonly) struct CGRect borderRect;
 @property(nonatomic) __weak NSBox *box; // @synthesize box;
-@property(nonatomic, readonly) struct CGSize intrinsicContentSize;
-@property(nonatomic, readonly) _Bool isFixedHeight;
-@property(nonatomic, readonly) _Bool isFixedWidth;
-@property(nonatomic, readonly) struct CGRect titleRect;
-@property(nonatomic, readonly) _Bool wantsSubviews;
 
 @end
 

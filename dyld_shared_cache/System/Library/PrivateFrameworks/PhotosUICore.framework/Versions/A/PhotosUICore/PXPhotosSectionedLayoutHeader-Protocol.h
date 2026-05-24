@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXPhotosLayoutSpec, PXSelectionSnapshot;
+@class PXPhotosLayoutSpec;
 
 @protocol PXPhotosSectionedLayoutHeader
+- (void);
 
 // Remaining properties
-@property(nonatomic) _Bool isInSelectMode;
-@property(retain, nonatomic) PXSelectionSnapshot *selectionSnapshot;
 @property(retain, nonatomic) PXPhotosLayoutSpec *spec;
 @end
 

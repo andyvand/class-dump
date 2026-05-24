@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor;
+@class NSString;
 
 @interface _UIShareParticipantDetails
 {
     NSString *_participantID;
-    NSString *_detailText;
-    UIColor *_participantColor;
 }
 
 + (_Bool)lePosition;
@@ -20,13 +18,11 @@
 - (id);
 - (id);
 - (id);
-- (void)parentState:(id)arg1 start:completion: /* Error: Ran out of types for this method. */;
+- (void)setupWithDuration:(id)arg1 delay:view:options:factory:parentState:start:completion: /* Error: Ran out of types for this method. */;
 - (id)R,N,V_changes;
 - (void)þÔX?;
 
 // Remaining properties
-@property(copy) NSString *detailText; // @synthesize detailText=_detailText;
-@property(copy) UIColor *participantColor; // @synthesize participantColor=_participantColor;
 @property(copy) NSString *participantID; // @synthesize participantID=_participantID;
 
 @end

@@ -7,10 +7,6 @@
 @interface NewsUI2.MagazineFeedServiceConfigFetcher
 {
     id logName;
-    id appConfigManager;
-    id magazineConfigurationService;
-    id bundlePurchasePrewarmer;
-    id subscriptionController;
 }
 
 @end

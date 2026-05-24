@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface AMSBadgeRequest
 {
     _Bool _enabled;
-    NSDictionary *_actionMetricsEvent;
-    NSString *_badgeIdentifier;
-    NSString *_bundleIdentifier;
-    NSDictionary *_metrics;
 }
 
 + (_Bool);
@@ -28,10 +24,6 @@
 
 // Remaining properties
 @property(readonly) NSDictionary *actionMetricsEvent; // @synthesize actionMetricsEvent=_actionMetricsEvent;
-@property(readonly) NSString *badgeIdentifier; // @synthesize badgeIdentifier=_badgeIdentifier;
-@property(readonly) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) NSDictionary *metrics; // @synthesize metrics=_metrics;
 
 @end
 

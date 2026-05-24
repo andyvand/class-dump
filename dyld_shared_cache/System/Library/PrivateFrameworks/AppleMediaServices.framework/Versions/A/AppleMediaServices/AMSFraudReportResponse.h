@@ -9,12 +9,6 @@
 @interface AMSFraudReportResponse
 {
     NSString *_nameSpace;
-    long long _reportedScore;
-    long long _newScore;
-    NSString *_finalizedElement;
-    NSString *_keyID;
-    NSData *_proofData;
-    NSData *_evaluatedElementData;
 }
 
 + (_Bool);
@@ -44,15 +38,7 @@
 - (void)Ñ¿;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *evaluatedElement;
-@property(readonly, nonatomic) NSData *evaluatedElementData; // @synthesize evaluatedElementData=_evaluatedElementData;
-@property(readonly, nonatomic) NSString *finalizedElement; // @synthesize finalizedElement=_finalizedElement;
-@property(readonly, nonatomic) NSString *keyID; // @synthesize keyID=_keyID;
-@property(readonly, nonatomic) NSString *nameSpace; // @synthesize nameSpace=_nameSpace;
-@property(readonly, nonatomic) long long newScore; // @synthesize newScore=_newScore;
-@property(copy, nonatomic) NSString *proof;
 @property(readonly, nonatomic) NSData *proofData; // @synthesize proofData=_proofData;
-@property(readonly, nonatomic) long long reportedScore; // @synthesize reportedScore=_reportedScore;
 
 @end
 

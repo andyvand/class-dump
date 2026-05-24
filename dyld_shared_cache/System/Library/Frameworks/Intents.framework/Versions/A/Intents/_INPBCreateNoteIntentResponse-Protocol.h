@@ -7,9 +7,9 @@
 @class _INPBNote;
 
 @protocol _INPBCreateNoteIntentResponse
+- (_INPBNote *);
 
 // Remaining properties
 @property(retain, nonatomic) _INPBNote *createdNote;
-@property(readonly, nonatomic) _Bool hasCreatedNote;
 @end
 

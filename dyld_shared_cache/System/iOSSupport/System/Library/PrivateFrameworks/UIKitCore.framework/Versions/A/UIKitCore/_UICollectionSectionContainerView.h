@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
+- (void)IMResolveFallbackHashesProcessingParameter;
 - (void);
 - (void);
-- (void);
-- (void)uestedScaleFactor:(id)arg1;
+- (void)setRequestedScaleFactor:(id)arg1;
 - (id);
 - (void)der(struct ui_archive *, struct ui_archive_entry *);
 - (void);

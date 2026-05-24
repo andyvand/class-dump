@@ -4,48 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSNumber, NSString, NSURL, YARARule;
+@class NSURL;
 
 @interface XProtectScanResult
 {
     int _assessmentResult;
-    NSURL *_fileURL;
-    NSNumber *_signatureVersion;
-    NSString *_signatureName;
-    NSDate *_scanTime;
-    YARARule *_matchedRule;
-    NSArray *_errors;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void)R;
 - (id);
 - (id);
 - (int);
-- (void);
+- (void)";
 - (id);
 - (void);
 - (id);
+- (void)areePublicKeyData;
+- (id);
+- (id));
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property int assessmentResult; // @synthesize assessmentResult=_assessmentResult;
-@property(retain) NSArray *errors; // @synthesize errors=_errors;
 @property(retain) NSURL *fileURL; // @synthesize fileURL=_fileURL;
-@property(retain) YARARule *matchedRule; // @synthesize matchedRule=_matchedRule;
-@property(retain) NSDate *scanTime; // @synthesize scanTime=_scanTime;
-@property(retain) NSString *signatureName; // @synthesize signatureName=_signatureName;
-@property(retain) NSNumber *signatureVersion; // @synthesize signatureVersion=_signatureVersion;
 
 @end
 

@@ -4,39 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _UIAnimatedTextSpacerAnimationInfo;
+@class _UIAnimatedTextSpacerAnimationInfo;
 
 __attribute__((visibility("hidden")))
 @interface _UIConcreteAnimatedTextSpacerAnimation
 {
     _Bool _isFinalized;
-    float _progress;
-    _UIAnimatedTextSpacerAnimationInfo *_animationInfo;
-    CDUnknownBlockType _updateBlock;
-    CDUnknownBlockType _finalizeBlock;
 }
 
+- (id)_availabilityOffGridRecipientEncryptionValidationToken;
 - (id);
-- (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void)apshotter",&,N,V_initialSnapshot;
-- (float)ceOrientation;
+- (float)interfaceOrientation;
 - (void)ollerDetentResolutionContext>"8;
 - (void)î×ÿbá§;
 
 // Remaining properties
 @property(readonly, nonatomic) _UIAnimatedTextSpacerAnimationInfo *animationInfo; // @synthesize animationInfo=_animationInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) CDUnknownBlockType finalizeBlock; // @synthesize finalizeBlock=_finalizeBlock;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) float progress; // @synthesize progress=_progress;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) CDUnknownBlockType updateBlock; // @synthesize updateBlock=_updateBlock;
 
 @end
 

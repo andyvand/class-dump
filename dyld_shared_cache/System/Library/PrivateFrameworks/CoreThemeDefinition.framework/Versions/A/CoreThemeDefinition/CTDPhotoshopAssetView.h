@@ -9,17 +9,6 @@
 @interface CTDPhotoshopAssetView
 {
     CTDPSDPreviewRef *_psdImageRef;
-    struct _PSDImageInfo _imageInfo;
-    unsigned long long _layerCount;
-    long long _sliceCount;
-    long long _columnWidth;
-    long long _rowHeight;
-    NSArray *_layerIndexLayout;
-    NSArray *_layerNames;
-    long long _sliceRowCount;
-    long long _sliceColumnCount;
-    NSArray *_sliceRects;
-    long long _channelIndex;
 }
 
 - (void);
@@ -41,15 +30,13 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *layerIndexLayout; // @synthesize layerIndexLayout=_layerIndexLayout;
 @property(copy, nonatomic) NSArray *layerNames; // @synthesize layerNames=_layerNames;
-@property(retain, nonatomic) CTDPSDPreviewRef *psdImageRef; // @synthesize psdImageRef=_psdImageRef;
 
 @end
 

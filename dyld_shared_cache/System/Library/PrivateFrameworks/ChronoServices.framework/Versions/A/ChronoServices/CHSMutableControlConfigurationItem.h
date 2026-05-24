@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)?;
 - (unsigned long long);
 - (id);
 - (id);
@@ -26,11 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool canAppearInSecureEnvironment;
-@property(nonatomic) long long location;
 @property(nonatomic) unsigned long long pushPolicy;
-@property(nonatomic) unsigned long long supportedColorSchemes;
-@property(nonatomic) _Bool supportsLowLuminance;
 
 @end
 

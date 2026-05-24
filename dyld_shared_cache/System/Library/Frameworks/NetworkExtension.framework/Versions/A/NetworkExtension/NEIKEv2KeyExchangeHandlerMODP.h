@@ -9,7 +9,6 @@
 @interface NEIKEv2KeyExchangeHandlerMODP : NEIKEv2KeyExchangeHandler
 {
     unsigned long long _primeLength;
-    struct OpaqueSecDHContext *_context;
 }
 
 - (_Bool);

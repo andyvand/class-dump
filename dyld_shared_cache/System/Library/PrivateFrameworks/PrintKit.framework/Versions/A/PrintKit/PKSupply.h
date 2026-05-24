@@ -4,47 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface PKSupply
 {
     int _level;
-    int _lowLevel;
-    int _highLevel;
-    NSArray *_colors;
-    NSString *_name;
-    NSString *_markerType;
-    long long _supplyType;
 }
 
 + (_Bool);
 - (id);
 - (long long);
-- (int);
+- (int);
 - (id);
-- (int);
-- (id);
-- (id);
+- (int);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (void)__roleDescriptionToInclude;
 - (int);
 
 // Remaining properties
 @property(readonly) NSArray *colors; // @synthesize colors=_colors;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) int highLevel; // @synthesize highLevel=_highLevel;
-@property(readonly) int level; // @synthesize level=_level;
-@property(readonly) int lowLevel; // @synthesize lowLevel=_lowLevel;
-@property(readonly) NSString *markerType; // @synthesize markerType=_markerType;
-@property(readonly) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
-@property(readonly) long long supplyType; // @synthesize supplyType=_supplyType;
 
 @end
 

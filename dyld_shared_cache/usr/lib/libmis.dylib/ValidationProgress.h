@@ -4,27 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableDictionary;
-
 @interface ValidationProgress
 {
     long long _current;
-    long long _total;
-    NSMutableDictionary *_progressSizes;
-    NSMutableDictionary *_progressPercents;
-    NSLock *_lock;
 }
 
 - (void);
 - (id);
 - (long long);
-- (void);
+- (void)!;
 - (long long)online_auth
 WHERE uuid = ?1 AND cdhash = ?2;
 
 // Remaining properties
 @property(readonly, nonatomic) long long current; // @synthesize current=_current;
-@property(readonly, nonatomic) long long total; // @synthesize total=_total;
 
 @end
 

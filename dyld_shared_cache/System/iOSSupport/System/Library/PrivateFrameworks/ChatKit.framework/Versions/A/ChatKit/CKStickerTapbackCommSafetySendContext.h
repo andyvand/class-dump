@@ -6,27 +6,23 @@
 
 #import <ChatKit/CKCommSafetySendContext.h>
 
-@class CKMediaObject, CKMessagePartChatItem, IMStickerTapback;
+@class IMStickerTapback;
 
 __attribute__((visibility("hidden")))
 @interface CKStickerTapbackCommSafetySendContext : CKCommSafetySendContext
 {
     IMStickerTapback *_stickerTapback;
-    CKMediaObject *_mediaObject;
-    CKMessagePartChatItem *_parentMessagePartChatItem;
 }
 
 + (id);
 + (id);
+- (id)V_avatarStackView;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id) @9;
 - (void)T¤	;
 
 // Remaining properties
-@property(readonly, nonatomic) CKMediaObject *mediaObject; // @synthesize mediaObject=_mediaObject;
-@property(readonly, nonatomic) CKMessagePartChatItem *parentMessagePartChatItem; // @synthesize parentMessagePartChatItem=_parentMessagePartChatItem;
 @property(readonly, nonatomic) IMStickerTapback *stickerTapback; // @synthesize stickerTapback=_stickerTapback;
 
 @end

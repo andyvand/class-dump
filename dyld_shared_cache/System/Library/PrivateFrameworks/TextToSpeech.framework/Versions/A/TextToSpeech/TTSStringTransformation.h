@@ -9,9 +9,6 @@
 @interface TTSStringTransformation
 {
     NSString *_replacement;
-    unsigned long long _offsetFromEnd;
-    struct _NSRange _range;
-    struct _NSRange _finalRange;
 }
 
 - (void);
@@ -23,14 +20,11 @@
 - (void);
 - (id);
 - (struct _NSRange);
-- (void);
+- (void)experiment for call when participantID is nil;
 - (void)$;
 
 // Remaining properties
-@property(nonatomic) struct _NSRange finalRange; // @synthesize finalRange=_finalRange;
-@property(nonatomic) unsigned long long offsetFromEnd; // @synthesize offsetFromEnd=_offsetFromEnd;
 @property(nonatomic) struct _NSRange range; // @synthesize range=_range;
-@property(retain, nonatomic) NSString *replacement; // @synthesize replacement=_replacement;
 
 @end
 

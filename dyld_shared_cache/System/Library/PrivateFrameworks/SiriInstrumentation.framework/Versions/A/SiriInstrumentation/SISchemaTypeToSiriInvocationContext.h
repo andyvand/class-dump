@@ -6,35 +6,32 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SISchemaTypeToSiriInvocationContext : SISchemaInstrumentationMessage
 {
     NSString *_backgroundAppBundleId;
-    _Bool _hasBackgroundAppBundleId;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)@yIA	**;
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)_updateState;
 - (_Bool);
-- (_Bool);
+- (_Bool)nt_id));;
 - (id);
 - (id);
-- (id)questSeconds;
-- (id)on;
-- (void)ways;
+- (id)deleteDurationFromBootToFirstRequestSeconds;
+- (id)_hasActionConfirmation;
+- (void)pathGateways;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *backgroundAppBundleId; // @synthesize backgroundAppBundleId=_backgroundAppBundleId;
-@property(nonatomic) _Bool hasBackgroundAppBundleId; // @synthesize hasBackgroundAppBundleId=_hasBackgroundAppBundleId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

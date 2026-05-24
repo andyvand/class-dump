@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MAMutableFloatVector;
-
 @interface PGParallelProgress
 {
     struct os_unfair_lock_s _lock;
-    CDUnknownBlockType _progressBlock;
-    MAMutableFloatVector *_progressValues;
 }
 
-- (CDUnknownBlockType);
-- (id);
+- (CDUnknownBlockType)__DATA_CONST;
+- (id)offsetFromPosition:(unsigned long long)arg1;
 - (void);
 
 @end

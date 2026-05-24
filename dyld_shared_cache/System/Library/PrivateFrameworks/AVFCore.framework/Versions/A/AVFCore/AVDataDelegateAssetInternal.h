@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetInspectorLoader, AVWeakReference, NSArray, NSObject;
-@protocol OS_dispatch_queue;
+@class AVWeakReference;
 
 __attribute__((visibility("hidden")))
 @interface AVDataDelegateAssetInternal
 {
     AVWeakReference *_weakReferenceToDataDelegate;
-    AVAssetInspectorLoader *_loader;
-    NSObject<OS_dispatch_queue> *_syncQueue;
-    NSArray *_tracks;
 }
 
 @end

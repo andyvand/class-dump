@@ -4,42 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISVisibilityOffsetHelper, NSDate, NSHashTable, UIScrollView;
+@class UIScrollView;
 
 @interface ISScrollViewVitalityController
 {
     _Bool _enabled;
-    _Bool __isPerformingChanges;
-    _Bool _scrolling;
-    _Bool _decelerating;
-    _Bool _hasTargetContentOffset;
-    UIScrollView *__scrollView;
-    NSHashTable *__playerViews;
-    NSDate *_estimatedScrollEndDate;
-    ISVisibilityOffsetHelper *_visibilityOffsetHelper;
-    struct CGPoint _targetContentOffset;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)_left;
+- (void)_headerHeight;
+- (void)_hasRenderedContents;
+- (void)_hasAnimation;
+- (void)_fonts;
+- (_Bool)_componentsGroupedByMaximumWidth;
+- (id)_componentToComponentStylesMap;
+- (void)_componentTextStyleReferences;
+- (void)_componentHost;
+- (_Bool)_componentExposureEvent;
+- (void)_articleURLFactory;
+- (void)_analyticsReporter;
+- (void)URLByAppendingPathComponent:(_Bool)arg1;
+- (id)nentContentInset=BBBBB},R,D,N;
+- (id)n;
+- (_Bool)e;
 - (_Bool);
-- (id);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (struct CGPoint);
+- (void)a';
+- (struct CGPoint);
 - (void);
 - (_Bool);
 - (id);
@@ -50,17 +41,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, setter=_setPerformingChanges:) _Bool _isPerformingChanges; // @synthesize _isPerformingChanges=__isPerformingChanges;
-@property(readonly, nonatomic) NSHashTable *_playerViews; // @synthesize _playerViews=__playerViews;
 @property(nonatomic, setter=_setScrollView:) __weak UIScrollView *_scrollView; // @synthesize _scrollView=__scrollView;
-@property(readonly, nonatomic) _Bool canPerformVitality;
-@property(nonatomic, getter=isDecelerating) _Bool decelerating; // @synthesize decelerating=_decelerating;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(retain, nonatomic) NSDate *estimatedScrollEndDate; // @synthesize estimatedScrollEndDate=_estimatedScrollEndDate;
-@property(nonatomic) _Bool hasTargetContentOffset; // @synthesize hasTargetContentOffset=_hasTargetContentOffset;
-@property(nonatomic, getter=isScrolling) _Bool scrolling; // @synthesize scrolling=_scrolling;
-@property(nonatomic) struct CGPoint targetContentOffset; // @synthesize targetContentOffset=_targetContentOffset;
-@property(readonly, nonatomic) ISVisibilityOffsetHelper *visibilityOffsetHelper; // @synthesize visibilityOffsetHelper=_visibilityOffsetHelper;
 
 @end
 

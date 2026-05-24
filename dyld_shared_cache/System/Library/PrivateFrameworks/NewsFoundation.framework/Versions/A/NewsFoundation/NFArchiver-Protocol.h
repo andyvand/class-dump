@@ -5,5 +5,6 @@
 //
 
 @protocol NFArchiver
+- (_Bool);
 @end
 

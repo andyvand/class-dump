@@ -4,25 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString;
-
 @interface SFRemoteHotspotDevice
 {
     unsigned char _networkType;
-    _Bool _osSupportsAutoHotspot;
-    _Bool _cellularSlicingIsEnabled;
-    _Bool _handoffActive;
-    _Bool _supportsCompanionLink;
-    _Bool _hasDuplicates;
-    _Bool _cachedDevice;
-    NSString *_deviceName;
-    NSString *_deviceIdentifier;
-    NSNumber *_batteryLife;
-    NSNumber *_signalStrength;
-    NSString *_model;
-    long long _group;
-    NSData *_advertisementData;
-    double _lastSeen;
 }
 
 + (_Bool);
@@ -59,31 +43,18 @@
 - (unsigned char);
 - (void);
 - (_Bool);
-- (void);
+- (void)8;
 - (double);
-- (id);
-- (id);
-- (long long);
+- (id)HMZone"24;
+- (id)BluetoothHCIBroadcomDownloadMiniDriver;
+- (long long)on][sendCommandFormatted] ### ERROR:[self sendDataToTransport] failed (err=0x%x)
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (id)péÿÿÿÿÿø;
 - (void);
 - (void)Üÿ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *advertisementData; // @synthesize advertisementData=_advertisementData;
-@property(retain) NSNumber *batteryLife; // @synthesize batteryLife=_batteryLife;
-@property(nonatomic) _Bool cachedDevice; // @synthesize cachedDevice=_cachedDevice;
-@property _Bool cellularSlicingIsEnabled; // @synthesize cellularSlicingIsEnabled=_cellularSlicingIsEnabled;
-@property(copy) NSString *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
-@property(copy) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property long long group; // @synthesize group=_group;
-@property _Bool handoffActive; // @synthesize handoffActive=_handoffActive;
-@property _Bool hasDuplicates; // @synthesize hasDuplicates=_hasDuplicates;
-@property(nonatomic) double lastSeen; // @synthesize lastSeen=_lastSeen;
-@property(retain) NSString *model; // @synthesize model=_model;
-@property unsigned char networkType; // @synthesize networkType=_networkType;
-@property _Bool osSupportsAutoHotspot; // @synthesize osSupportsAutoHotspot=_osSupportsAutoHotspot;
-@property(retain) NSNumber *signalStrength; // @synthesize signalStrength=_signalStrength;
 @property(nonatomic) _Bool supportsCompanionLink; // @synthesize supportsCompanionLink=_supportsCompanionLink;
 
 @end

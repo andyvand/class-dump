@@ -6,25 +6,19 @@
 
 #import <HomeKit/_HMEventOrTimerTriggerBuilder.h>
 
-@class HMActionSetBuilder, HMHome, HMTriggerPolicy, NSArray, NSMutableArray, NSPredicate, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface _HMEventTriggerBuilder : _HMEventOrTimerTriggerBuilder
 {
     _Bool _executeOnce;
-    NSPredicate *_predicate;
-    unsigned long long _recurrenceDays;
-    NSMutableArray *_events;
-    NSMutableArray *_endEvents;
 }
 
 + (void)MHome(HMMediaProfile) updateMediaPassword:completionHandler:] /* Error: Ran out of types for this method. */;
+- (void).;
 - (void);
-- (void);
-- (void);
+- (void)8;
 - (unsigned long long);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (id);
 - (id);
@@ -46,35 +40,14 @@ __attribute__((visibility("hidden")))
 - (Class);
 - (void);
 - (id);
-- (void);
+- (void)$M.5?6M5>8;
 - (id);
 - (void);
 - (void);
 - (void)ccessCode;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *actionSets;
-@property(readonly, copy, nonatomic) NSString *configuredName;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(copy, nonatomic) NSArray *endEvents;
-@property(copy, nonatomic) NSArray *events;
-@property(nonatomic) _Bool executeOnce;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) HMHome *home;
-@property(copy, nonatomic) NSString *name;
-@property(readonly, nonatomic) _Bool nameIsConfigured;
-@property(retain, nonatomic) HMTriggerPolicy *policy;
-@property(copy, nonatomic) NSPredicate *predicate;
 @property(nonatomic) unsigned long long recurrenceDays;
-@property(copy, nonatomic) NSArray *recurrences;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) HMActionSetBuilder *triggerOwnedActionSet;
-@property(readonly, nonatomic) NSUUID *uniqueIdentifier;
 
 @end
 

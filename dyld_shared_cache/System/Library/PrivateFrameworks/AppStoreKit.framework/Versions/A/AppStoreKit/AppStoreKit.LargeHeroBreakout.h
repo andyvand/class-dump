@@ -7,19 +7,6 @@
 @interface AppStoreKit.LargeHeroBreakout
 {
     id heading;
-    id details;
-    id detailsDisplayProperties;
-    id artwork;
-    id video;
-    id backgroundColor;
-    id lockup;
-    id collectionIcons;
-    id editorialDisplayOptions;
-    id isMediaDark;
-    id clickAction;
-    id id;
-    id impressionMetrics;
-    id automationMetadata;
 }
 
 @end

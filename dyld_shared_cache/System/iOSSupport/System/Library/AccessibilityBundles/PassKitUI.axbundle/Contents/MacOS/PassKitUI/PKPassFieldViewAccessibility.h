@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class);
 + (id);
 - (_Bool);
 - (id);

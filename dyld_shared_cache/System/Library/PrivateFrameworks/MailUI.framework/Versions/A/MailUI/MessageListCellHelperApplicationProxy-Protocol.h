@@ -7,9 +7,9 @@
 @class MUIAddressListFormatter;
 
 @protocol MessageListCellHelperApplicationProxy
+- (_Bool)J	;
 
 // Remaining properties
 @property(readonly, nonatomic) MUIAddressListFormatter *addressListFormatter;
-@property(readonly, nonatomic) _Bool showToCCIndicators;
 @end
 

@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (void);
+- (id)unacceptedPolicy;
+- (id)edModel->numLoadedChanges + serializedModel->numExecutions));
+- (void)PRSRankingItemAdditions_movieStarRating;
 - (void)!ÈCùQið1Â0@ù
 × ;
-- (id)isSimulation: /* Error: Ran out of types for this method. */;
+- (id)dynamicallyDetectedInputModesForPrimaryInputMode:isSimulation: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) TIKeyboardState *keyboardState; // @synthesize keyboardState=_keyboardState;

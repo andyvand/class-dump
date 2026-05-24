@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IOKService, NSObject, NSPointerArray, _TSF_IODConnection;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface _TSF_TSDClockSync
 {
     NSObject<OS_dispatch_queue> *_notificationsQueue;
-    NSPointerArray *_updateClients;
-    struct os_unfair_lock_s _updateClientsLock;
-    IOKService *_service;
-    _TSF_IODConnection *_connection;
-    struct os_unfair_lock_s _serviceLock;
-    _Bool _logNotifyTest;
-    unsigned long long _referenceCount;
-    unsigned long long _asyncCallbackRefcon;
-    unsigned long long _clockIdentifier;
 }
 
 + (id);

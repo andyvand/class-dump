@@ -9,7 +9,6 @@
 @interface IKMultipleSegmentedRawDataBuffer
 {
     NSMutableArray *_buffers;
-    unsigned int _blockSize;
 }
 
 - (unsigned int);

@@ -9,29 +9,14 @@
 @interface (extension in UIKit):__C.UIView.HybridPropertyAnimator
 {
     id backgroundProgressValue;
-    id mainProgressValue;
-    id isProgressValueReversed;
-    id springBehavior;
-    id springBehaviorWhenContinued;
-    id completionPosition;
-    id propertyAnimator;
-    id c2Animations;
-    id completionHandlers;
-    id keyframes;
-    id isC2Finished;
-    id _fractionComplete;
-    id _state;
-    id _isRunning;
-    id _isReversed;
-    id _pausesOnCompletion;
 }
 
+- (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (id)0G;
 - (id);
-- (id);
-- (long long)t: /* Error: Ran out of types for this method. */;
+- (long long)setActionsByContext: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void)rameworks/RecapPerformanceTesting.framework/RecapPerformanceTesting;
@@ -50,12 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool _canAddAnimations;
-@property(nonatomic) double fractionComplete;
 @property(nonatomic, readonly) UIViewFloatAnimatableProperty *progressValue;
-@property(nonatomic) _Bool reversed;
-@property(nonatomic, readonly) _Bool running;
-@property(nonatomic, readonly) long long state;
 
 @end
 

@@ -6,29 +6,26 @@
 
 #import <TSReading/TSDPathSource.h>
 
-@class NSArray, NSMutableArray, TSDBezierNode;
+@class NSMutableArray;
 
 @interface TSDEditableBezierPathSource : TSDPathSource
 {
     NSMutableArray *mSubpaths;
-    unsigned long long mActiveSubpath;
-    _Bool mHasLockedFlipTransform;
-    struct CGAffineTransform mLockedFlipTransform;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 - (void);
 - (void);
-- (id);
+- (id)PlayerItemTransitionFactory;
 - (struct CGPath *);
 - (void);
 - (void);
-- (id);
+- (id)StateProvidingDelegate;
 - (void);
-- (void);
-- (void);
+- (void)State;
+- (void)SeekingState;
 - (void);
 - (void);
 - (void);
@@ -64,21 +61,21 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)& ;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)localeIdentifier;
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (void);
 - (void);
+- (void)h\;
 - (_Bool);
 - (void);
 - (void);
@@ -91,7 +88,7 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)Q;
 - (id);
 - (void)ð;
 - (struct CGSize);
@@ -99,20 +96,6 @@
 - (_Bool)0ÒÖÿ][t;;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allNodesSelected;
-@property(readonly, nonatomic) _Bool canDeleteSelectedNodes;
-@property(readonly, nonatomic) _Bool closeIfEndpointsAreEqual;
-@property(nonatomic, getter=isClosed) _Bool closed;
-@property(readonly, nonatomic) _Bool deletingSelectedNodesWillDeleteShape;
-@property(readonly, nonatomic) TSDBezierNode *firstNode;
-@property(readonly, nonatomic) _Bool hasSelectedNode;
-@property(readonly, nonatomic) _Bool isCompound;
-@property(readonly, nonatomic) _Bool isOpen;
-@property(readonly, nonatomic) TSDBezierNode *lastNode;
-@property(readonly, nonatomic) struct CGRect nodeBounds;
-@property(retain, nonatomic) NSArray *nodeTypes;
-@property(retain, nonatomic) NSMutableArray *nodes;
-@property(readonly, nonatomic) struct CGPath *subpathForSelection;
 @property(retain, nonatomic) NSMutableArray *subpaths; // @synthesize subpaths=mSubpaths;
 
 @end

@@ -7,7 +7,6 @@
 @interface ChronoKit.PowerlogSuggestionService
 {
     id provider;
-    id lock;
 }
 
 @end

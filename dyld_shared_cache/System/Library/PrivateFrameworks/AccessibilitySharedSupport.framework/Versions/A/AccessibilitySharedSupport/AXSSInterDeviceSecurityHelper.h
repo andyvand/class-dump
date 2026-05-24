@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface AXSSInterDeviceSecurityHelper
 {
     struct __SecIdentity *_cachedAppleIDIdentity;
-    NSArray *_cachedCertificateChain;
-    NSArray *_cachedSecurityIdentity;
 }
 
 - (void);

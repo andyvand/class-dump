@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, _PASLRUCache;
+@class NSDictionary;
 
 @interface PRELocaleDetection
 {
     NSDictionary *_preferredLocales;
-    _PASLRUCache *_lastConfidentLocaleForSender;
-    unsigned long long _languageLimit;
 }
 
 + (_Bool);
@@ -25,7 +23,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)T;
 
 @end
 

@@ -10,8 +10,8 @@
 {
 }
 
-- (void);
-- (void);
+- (void)o;
+- (void);
 
 @end
 

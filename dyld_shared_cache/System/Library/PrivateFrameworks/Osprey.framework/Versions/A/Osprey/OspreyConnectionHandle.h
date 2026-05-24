@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface OspreyConnectionHandle
 {
     CDUnknownBlockType _willRelease;
-    id _connectionKey;
 }
 
 - (id);

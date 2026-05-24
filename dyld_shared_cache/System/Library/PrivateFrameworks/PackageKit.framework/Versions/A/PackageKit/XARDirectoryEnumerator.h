@@ -4,27 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface XARDirectoryEnumerator
 {
     struct __xar_t *_xar;
-    struct __xar_iter_t *_xar_iter;
-    struct __xar_file_t *_current_xar_file;
-    _Bool _didPeek;
-    _Bool _isDone;
-    NSString *_basePath;
 }
 
-- (struct __xar_file_t *);
+- (struct __xar_file_t *)#;
 - (id);
 - (struct __xar_file_t *);
 - (_Bool);
-- (void);
+- (void)&;
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)ouldn't infer template argument %0;
 
 @end
 

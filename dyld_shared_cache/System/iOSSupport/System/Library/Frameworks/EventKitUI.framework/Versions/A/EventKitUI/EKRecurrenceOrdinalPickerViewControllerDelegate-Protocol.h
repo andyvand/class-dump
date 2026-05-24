@@ -5,5 +5,6 @@
 //
 
 @protocol EKRecurrenceOrdinalPickerViewControllerDelegate
+- (void);
 @end
 

@@ -4,37 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPAppearanceDependentValue, LPCaptionBarStyle, LPContactsBadgeStyle, LPImageViewStyle, LPIndeterminateProgressSpinnerStyle, LPLinkRendererSizeClassParameters, LPPointUnit, LPQuotedTextViewStyle, LPTapToLoadViewStyle, LPVisualMediaViewStyle, NSColor, NSFont;
+@class LPPointUnit;
 
 @interface LPTheme
 {
     long long _style;
-    unsigned long long _sizeClass;
-    LPLinkRendererSizeClassParameters *_sizeClassParameters;
-    long long _platform;
-    _Bool _isFallbackIcon;
-    _Bool _hasButton;
-    double _leadingScalingFactor;
-    LPPointUnit *_cornerRadius;
-    NSColor *_backgroundColor;
-    NSColor *_highlightColor;
-    LPAppearanceDependentValue *_highlightCompositingFilter;
-    LPCaptionBarStyle *_captionBar;
-    LPQuotedTextViewStyle *_quotedText;
-    LPImageViewStyle *_mediaImage;
-    LPImageViewStyle *_placeholderImage;
-    LPVisualMediaViewStyle *_mediaVideo;
-    NSColor *_mediaBackgroundColor;
-    LPCaptionBarStyle *_mediaTopCaptionBar;
-    LPCaptionBarStyle *_mediaBottomCaptionBar;
-    LPTapToLoadViewStyle *_tapToLoad;
-    NSFont *_domainNameIndicatorFont;
-    NSFont *_domainNameIndicatorIconFont;
-    LPImageViewStyle *_backgroundImage;
-    LPContactsBadgeStyle *_contactsBadgeStyle;
-    LPIndeterminateProgressSpinnerStyle *_progressSpinner;
-    LPPointUnit *_maximumWidth;
-    double _widthFractionForTallMedia;
 }
 
 + (id);
@@ -42,16 +16,16 @@
 + (id);
 + (double);
 + (long long);
-+ (double);
++ (double);
 + (double);
 + (void);
 + (double);
-+ (id);
++ (id);
 + (double);
 + (id);
-+ (void);
++ (void)FIER] || [_modelTypeName isEqualToString:(id)arg1 SG_QUICK_RESPONSES_BINARY_LOGISTIC_MULTI_LABEL];
 + (void)c¸ü~Ç;
-- (double);
+- (double)N;
 - (id);
 - (id);
 - (void);
@@ -83,34 +57,15 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)is enabled. Name:(id)arg1 %@, Exp:%@; Trt:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(readonly, nonatomic) LPImageViewStyle *backgroundImage; // @synthesize backgroundImage=_backgroundImage;
-@property(readonly, nonatomic) LPCaptionBarStyle *captionBar; // @synthesize captionBar=_captionBar;
-@property(readonly, nonatomic) LPContactsBadgeStyle *contactsBadgeStyle; // @synthesize contactsBadgeStyle=_contactsBadgeStyle;
 @property(retain, nonatomic) LPPointUnit *cornerRadius; // @synthesize cornerRadius=_cornerRadius;
-@property(readonly, nonatomic) NSFont *domainNameIndicatorFont; // @synthesize domainNameIndicatorFont=_domainNameIndicatorFont;
-@property(readonly, nonatomic) NSFont *domainNameIndicatorIconFont; // @synthesize domainNameIndicatorIconFont=_domainNameIndicatorIconFont;
-@property(retain, nonatomic) NSColor *highlightColor; // @synthesize highlightColor=_highlightColor;
-@property(retain, nonatomic) LPAppearanceDependentValue *highlightCompositingFilter; // @synthesize highlightCompositingFilter=_highlightCompositingFilter;
-@property(retain, nonatomic) LPPointUnit *maximumWidth; // @synthesize maximumWidth=_maximumWidth;
-@property(retain, nonatomic) NSColor *mediaBackgroundColor; // @synthesize mediaBackgroundColor=_mediaBackgroundColor;
-@property(readonly, nonatomic) LPCaptionBarStyle *mediaBottomCaptionBar; // @synthesize mediaBottomCaptionBar=_mediaBottomCaptionBar;
-@property(readonly, nonatomic) LPImageViewStyle *mediaImage; // @synthesize mediaImage=_mediaImage;
-@property(readonly, nonatomic) LPCaptionBarStyle *mediaTopCaptionBar; // @synthesize mediaTopCaptionBar=_mediaTopCaptionBar;
-@property(readonly, nonatomic) LPVisualMediaViewStyle *mediaVideo; // @synthesize mediaVideo=_mediaVideo;
-@property(readonly, nonatomic) LPImageViewStyle *placeholderImage; // @synthesize placeholderImage=_placeholderImage;
-@property(readonly, nonatomic) LPIndeterminateProgressSpinnerStyle *progressSpinner; // @synthesize progressSpinner=_progressSpinner;
-@property(readonly, nonatomic) LPQuotedTextViewStyle *quotedText; // @synthesize quotedText=_quotedText;
-@property(readonly, nonatomic) LPTapToLoadViewStyle *tapToLoad; // @synthesize tapToLoad=_tapToLoad;
-@property(nonatomic) double widthFractionForTallMedia; // @synthesize widthFractionForTallMedia=_widthFractionForTallMedia;
 
 @end
 

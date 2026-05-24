@@ -6,27 +6,19 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class CADisplayLink, UIDelayedAction, _UIWeakGestureTarget;
+@class CADisplayLink;
 
 __attribute__((visibility("hidden")))
 @interface _UITouchDurationObservingGestureRecognizer : UIGestureRecognizer
 {
     _Bool _hasExceededAllowableMovement;
-    CADisplayLink *_displayLink;
-    _UIWeakGestureTarget *_weakTarget;
-    double _minimumDurationRequired;
-    double _allowableMovement;
-    double _touchForce;
-    double _touchStartTimestamp;
-    UIDelayedAction *_delayedAction;
-    struct CGPoint _originalCentroid;
 }
 
 - (void);
 - (struct CGPoint);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)__objc_imageinfo__DATA_CONST;
+- (id)_gaussianishBlur_metal:inputTexture:outputTexture:offset: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (double);
@@ -36,37 +28,28 @@ __attribute__((visibility("hidden")))
 - (id)!Aùqg°1Â0@ù
 × ;
 - (double)24@0:8@?<v@?qQ>16 /* Error: Ran out of types for this method. */;
-- (void)ntentOffsetChanges:(id)arg1;
-- (void)le;
-- (void)sSizeAnimation;
-- (void)ationInfo:(double)arg1 forDismissMode: /* Error: Ran out of types for this method. */;
+- (void)setIgnoreContentOffsetChanges:(id)arg1;
+- (void)automaticStyle;
+- (void)_labelLayerToClipDuringBoundsSizeAnimation;
+- (void)_fillInNotificationInfo:(double)arg1 forDismissMode: /* Error: Ran out of types for this method. */;
 - (void)ler;
-- (void)onHighlighter;
-- (_Bool);
-- (double)Result;
-- (void);
+- (void)UIRevealInteractionHighlighter;
+- (_Bool)_UILumaTrackingBackdropView;
+- (double)_UITypeSelectResult;
+- (void)animatesBackground;
 - (id)blurEffectStyle;
 - (void)(returned %@ from -resignFirstResponder):%@ inside containing view:%@ at index path:%@
 Current first responder:%@ inside containing view:%@ at index path:%@ /* Error: Ran out of types for this method. */;
 - (void)eneWindowingControlClientSettings>"8@"FBSSceneTransitionContext"16;
 - (void)þÿ;
 - (double)³µ;
-- (void)UIHoverEffect_p;
+- (void)So13UIHoverEffect_p;
 - (double);
-- (_Bool)gnment;
+- (_Bool)TitleAlignment;
 - (id)¹¨^;
 
 // Remaining properties
-@property(readonly, nonatomic) _UIWeakGestureTarget *_weakTarget; // @synthesize _weakTarget;
-@property(nonatomic) double allowableMovement; // @synthesize allowableMovement=_allowableMovement;
-@property(readonly, nonatomic) UIDelayedAction *delayedAction; // @synthesize delayedAction=_delayedAction;
 @property(readonly, nonatomic) CADisplayLink *displayLink; // @synthesize displayLink=_displayLink;
-@property(readonly, nonatomic) _Bool hasExceededAllowableMovement; // @synthesize hasExceededAllowableMovement=_hasExceededAllowableMovement;
-@property(nonatomic) double minimumDurationRequired; // @synthesize minimumDurationRequired=_minimumDurationRequired;
-@property(nonatomic) struct CGPoint originalCentroid; // @synthesize originalCentroid=_originalCentroid;
-@property(readonly, nonatomic) double touchDuration;
-@property(readonly, nonatomic) double touchForce; // @synthesize touchForce=_touchForce;
-@property(nonatomic) double touchStartTimestamp; // @synthesize touchStartTimestamp=_touchStartTimestamp;
 
 @end
 

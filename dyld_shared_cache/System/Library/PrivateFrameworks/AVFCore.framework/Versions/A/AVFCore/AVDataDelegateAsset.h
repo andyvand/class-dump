@@ -17,12 +17,12 @@
 + (_Bool);
 + (id);
 - (id);
-- (id);
-- (id);
+- (id)0ƽ;
+- (id)ɟ;
 - (void);
 - (Class);
 - (id);
-- (struct OpaqueFigFormatReader *);
+- (struct OpaqueFigFormatReader *)@;
 - (id);
 
 // Remaining properties

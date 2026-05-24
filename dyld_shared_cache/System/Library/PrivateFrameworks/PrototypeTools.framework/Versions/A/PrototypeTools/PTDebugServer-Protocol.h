@@ -5,5 +5,6 @@
 //
 
 @protocol PTDebugServer
+- (void);
 @end
 

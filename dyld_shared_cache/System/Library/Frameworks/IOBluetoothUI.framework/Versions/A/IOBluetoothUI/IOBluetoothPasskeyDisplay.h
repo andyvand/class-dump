@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSImageView, NSLayoutConstraint, NSMutableArray, NSString, NSTextField, NSView;
+@class NSImageView;
 
 @interface IOBluetoothPasskeyDisplay
 {
     NSImageView *mReturnImageView;
-    NSImage *mReturnImage;
-    NSImage *mReturnHighlightImage;
-    NSImageView *mBackgroundImage;
-    _Bool usePasskeyNotifications;
-    _Bool isIncomingRequest;
-    _Bool showFeedback;
-    NSString *passkey;
-    NSTextField *mPasskeyString;
-    NSMutableArray *mPasskeyCharacters;
-    unsigned long long mPasskeyIndex;
-    NSLayoutConstraint *backgroundImageConstraint;
-    NSView *centeredView;
 }
 
 + (id);
@@ -58,18 +46,12 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property NSLayoutConstraint *backgroundImageConstraint; // @synthesize backgroundImageConstraint;
-@property NSView *centeredView; // @synthesize centeredView;
-@property _Bool isIncomingRequest; // @synthesize isIncomingRequest;
-@property(copy) NSString *passkey; // @synthesize passkey;
-@property(retain) NSImage *returnHighlightImage; // @synthesize returnHighlightImage=mReturnHighlightImage;
-@property(retain) NSImage *returnImage; // @synthesize returnImage=mReturnImage;
 @property _Bool usePasskeyNotificaitons; // @synthesize usePasskeyNotificaitons=usePasskeyNotifications;
 
 @end

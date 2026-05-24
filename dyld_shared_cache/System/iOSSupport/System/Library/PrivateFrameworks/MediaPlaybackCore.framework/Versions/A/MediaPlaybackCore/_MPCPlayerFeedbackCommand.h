@@ -6,23 +6,15 @@
 
 #import <MediaPlaybackCore/_MPCPlayerItemCommand.h>
 
-@class MPModelObject, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _MPCPlayerFeedbackCommand : _MPCPlayerItemCommand
 {
     _Bool _value;
-    _Bool _isDislikingFavoritableModelObject;
-    unsigned int _command;
-    NSString *_localizedTitle;
-    NSString *_localizedShortTitle;
-    long long _presentationStyle;
-    MPModelObject *_favoritableModelObject;
 }
 
+- (void);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)P;
 - (id);
 - (id);
 - (id);
@@ -33,25 +25,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (unsigned int);
-- (long long)rocessor: /* Error: Ran out of types for this method. */;
+- (long long)setAudioTapProcessor: /* Error: Ran out of types for this method. */;
 - (void)nHead to PositionSpecified after deferredNextContentItem [head (current item was placeholder)] deferredNextContentItem=%{public}@;
 - (id)16@?0@"MPIdentifierSet<MPMutableIdentifierSet>"8;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int command; // @synthesize command=_command;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) MPModelObject *favoritableModelObject; // @synthesize favoritableModelObject=_favoritableModelObject;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isDislikingFavoritableModelObject; // @synthesize isDislikingFavoritableModelObject=_isDislikingFavoritableModelObject;
-@property(copy, nonatomic) NSString *localizedShortTitle; // @synthesize localizedShortTitle=_localizedShortTitle;
-@property(copy, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(nonatomic) long long presentationStyle; // @synthesize presentationStyle=_presentationStyle;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool value; // @synthesize value=_value;
 
 @end
 

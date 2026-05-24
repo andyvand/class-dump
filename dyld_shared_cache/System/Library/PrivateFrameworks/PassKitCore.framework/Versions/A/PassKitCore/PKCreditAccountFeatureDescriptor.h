@@ -6,24 +6,9 @@
 
 #import <PassKitCore/PKAccountFeatureDescriptor.h>
 
-@class NSArray, NSDate, NSDecimalNumber, NSString, PKAccountMinimumOSVersions;
-
 @interface PKCreditAccountFeatureDescriptor : PKAccountFeatureDescriptor
 {
     unsigned long long _paymentFundingSourceTypes;
-    unsigned long long _paymentPresets;
-    unsigned long long _paymentFrequencies;
-    NSArray *_supportedFileFormatsForTransactionData;
-    NSString *_paymentTermsIdentifier;
-    unsigned long long _maximumAccountUsers;
-    unsigned long long _minimumOwnerAge;
-    unsigned long long _minimumParticipantAge;
-    NSDate *_minimumDate;
-    NSArray *_supportedDestinations;
-    NSDecimalNumber *_savingsAPY;
-    NSDecimalNumber *_savingsInterestRate;
-    PKAccountMinimumOSVersions *_savingsCurrentMinimumOSVersions;
-    PKAccountMinimumOSVersions *_savingsFutureMinimumOSVersions;
 }
 
 + (_Bool)î%Ð1Â0@ù
@@ -35,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -56,32 +41,20 @@
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void))
+*;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)hasPhySearchDuration;
 - (void);
 - (id);
-- (id)hLocale:(id)arg1;
-- (void)Controls;
+- (id)_preformattedStringForMultipleAmountsWithLocale:(id)arg1;
+- (void)PurchaseControls;
 
 // Remaining properties
-@property(nonatomic) unsigned long long maximumAccountUsers; // @synthesize maximumAccountUsers=_maximumAccountUsers;
-@property(copy, nonatomic) NSDate *minimumDate; // @synthesize minimumDate=_minimumDate;
-@property(nonatomic) unsigned long long minimumOwnerAge; // @synthesize minimumOwnerAge=_minimumOwnerAge;
-@property(nonatomic) unsigned long long minimumParticipantAge; // @synthesize minimumParticipantAge=_minimumParticipantAge;
-@property(nonatomic) unsigned long long paymentFrequencies; // @synthesize paymentFrequencies=_paymentFrequencies;
 @property(nonatomic) unsigned long long paymentFundingSourceTypes; // @synthesize paymentFundingSourceTypes=_paymentFundingSourceTypes;
-@property(nonatomic) unsigned long long paymentPresets; // @synthesize paymentPresets=_paymentPresets;
-@property(copy, nonatomic) NSString *paymentTermsIdentifier; // @synthesize paymentTermsIdentifier=_paymentTermsIdentifier;
-@property(copy, nonatomic) NSDecimalNumber *savingsAPY; // @synthesize savingsAPY=_savingsAPY;
-@property(copy, nonatomic) PKAccountMinimumOSVersions *savingsCurrentMinimumOSVersions; // @synthesize savingsCurrentMinimumOSVersions=_savingsCurrentMinimumOSVersions;
-@property(copy, nonatomic) PKAccountMinimumOSVersions *savingsFutureMinimumOSVersions; // @synthesize savingsFutureMinimumOSVersions=_savingsFutureMinimumOSVersions;
-@property(copy, nonatomic) NSDecimalNumber *savingsInterestRate; // @synthesize savingsInterestRate=_savingsInterestRate;
-@property(copy, nonatomic) NSArray *supportedDestinations; // @synthesize supportedDestinations=_supportedDestinations;
-@property(copy, nonatomic) NSArray *supportedFileFormatsForTransactionData; // @synthesize supportedFileFormatsForTransactionData=_supportedFileFormatsForTransactionData;
 
 @end
 

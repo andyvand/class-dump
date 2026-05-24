@@ -11,8 +11,8 @@
 }
 
 + (id);
-+ (_Bool);
-+ (unsigned int);
++ (_Bool)T;
++ (unsigned int)q;
 + (int);
 - (id);
 

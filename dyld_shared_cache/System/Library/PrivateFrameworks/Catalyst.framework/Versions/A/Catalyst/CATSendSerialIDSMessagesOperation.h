@@ -6,23 +6,16 @@
 
 #import <Catalyst/CATOperation.h>
 
-@class CATIDSMessageOptions, NSArray, NSObject, NSString;
-@protocol CATIDSPrimitives, OS_dispatch_queue;
+@protocol CATIDSPrimitives;
 
 __attribute__((visibility("hidden")))
 @interface CATSendSerialIDSMessagesOperation : CATOperation
 {
     id <CATIDSPrimitives> mPrimitives;
-    NSObject<OS_dispatch_queue> *mWorkQueue;
-    NSArray *mMessages;
-    NSString *mDestinationAddress;
-    NSString *mSourceAppleID;
-    CATIDSMessageOptions *mOptions;
-    struct os_unfair_lock_s mLock;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);

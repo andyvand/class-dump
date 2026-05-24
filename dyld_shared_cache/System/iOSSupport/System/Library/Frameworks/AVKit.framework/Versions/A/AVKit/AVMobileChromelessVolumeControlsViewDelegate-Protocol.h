@@ -5,5 +5,8 @@
 //
 
 @protocol AVMobileChromelessVolumeControlsViewDelegate
+
+@optional
+- (void);
 @end
 

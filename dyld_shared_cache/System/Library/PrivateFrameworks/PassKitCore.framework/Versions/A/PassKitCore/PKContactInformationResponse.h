@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void)kansenCarNumber;
+- (void)shinkansenCarNumber;
 
 // Remaining properties
 @property(readonly, nonatomic) PKContactInformation *contactInformation; // @synthesize contactInformation=_contactInformation;

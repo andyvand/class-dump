@@ -6,26 +6,15 @@
 
 #import <AppKit/NSButton.h>
 
-@class NSBox, NSColor, NSImageView, NSLayoutConstraint, NSString, NSTitlebarSeparatorView, NSTrackingArea, NSView;
-@protocol NSTabBarSyncedButtonDelegate;
+@class NSTrackingArea;
 
 __attribute__((visibility("hidden")))
 @interface NSTabBarNewTabButton : NSButton
 {
     NSTrackingArea *_trackingArea;
-    NSColor *_backgroundColor;
-    NSImageView *_addImageView;
-    NSTitlebarSeparatorView *_topBorderView;
-    NSBox *_leadingBorderView;
-    NSView *_backgroundHighlightView;
-    NSLayoutConstraint *_backgroundHighlightLeadingConstraint;
-    _Bool _mouseIsOverButton;
-    _Bool _forcesActiveWindowState;
-    id <NSTabBarSyncedButtonDelegate> _buttonInTabSyncGroupDelegate;
-    _Bool _syncedWithOtherButton;
 }
 
-+ (id);
++ (id)ata task with identifier %lu;
 + (double);
 - (_Bool);
 - (void);
@@ -36,47 +25,38 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)number of nodes;
+- (void);
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void)	;
+- (id)stem/libsystem_c.dylib;
 - (void);
-- (id);
+- (void)taskDependencyDescriptionWithURLPath:(_Bool)arg1 parentURLPath:(_Bool)arg2;
+- (void)taskDependencyDescriptionWithURLPath:(_Bool)arg1 parentMimeType:(_Bool)arg2;
+- (void)taskDependencyDescriptionWithParentURLPath: /* Error: Ran out of types for this method. */;
+- (void)NSMutableHTTPURLRequest;
+- (id)xX;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)8^{__CFString=}16;
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)bs/TemporaryDirectory.WBOEkW/Sources/boringssl/crypto/evp/evp_ctx.c;
 - (_Bool);
 - (id);
 - (void);
-- (id)String:(struct CGRect)arg1 options:range: /* Error: Ran out of types for this method. */;
-- (void)ass;
+- (id)rangeOfString:(struct CGRect)arg1 options:range: /* Error: Ran out of types for this method. */;
+- (void)_validationClass;
 - (void)P;
 - (void)ÿ)¸0E;
 
 // Remaining properties
-@property(nonatomic) __weak id <NSTabBarSyncedButtonDelegate> buttonInTabSyncGroupDelegate; // @synthesize buttonInTabSyncGroupDelegate=_buttonInTabSyncGroupDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool forcesActiveWindowState; // @dynamic forcesActiveWindowState;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isSyncedWithOtherButton) _Bool syncedWithOtherButton; // @synthesize syncedWithOtherButton=_syncedWithOtherButton;
 
 @end
 

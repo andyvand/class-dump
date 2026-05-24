@@ -5,6 +5,11 @@
 //
 
 @protocol TSDSmartPathSource
+- (unsigned long long)ion options due to missing persistentID for action key: /* Error: Ran out of types for this method. */;
+- (struct CGPoint);
+
+@optional
+- (struct CGPath *);
 
 // Remaining properties
 @property(readonly) unsigned long long numberOfControlKnobs;

@@ -5,5 +5,8 @@
 //
 
 @protocol _NSDatePickerCalendarOverlayDelegate
+- (void)_dynamic_bin_2;
+- (void)amic_bin_4;
+- (void)V_drain_depth_p_0_90_at_charge_start_secs_curr_dynamic_bin_1;
 @end
 

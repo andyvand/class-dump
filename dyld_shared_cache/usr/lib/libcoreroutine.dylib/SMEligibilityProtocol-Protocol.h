@@ -5,5 +5,7 @@
 //
 
 @protocol SMEligibilityProtocol
+- (void);
+- (void);
 @end
 

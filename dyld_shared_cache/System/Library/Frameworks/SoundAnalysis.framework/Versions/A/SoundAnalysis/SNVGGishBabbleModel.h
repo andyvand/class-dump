@@ -12,18 +12,18 @@
 }
 
 + (void);
-+ (id);
++ (id)tmt__descriptor;
 + (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)SourceServerConnection send event with identifier %@, event %@;
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)ed is %@ on this config;
 - (id);
 - (id);
 - (void)pÆúÿ¼ÆúÿÇúÿTÇúÿ ÇúÿìÇúÿ8ÈúÿÈúÿÐÈúÿÉúÿhÉúÿ´Éúÿ;

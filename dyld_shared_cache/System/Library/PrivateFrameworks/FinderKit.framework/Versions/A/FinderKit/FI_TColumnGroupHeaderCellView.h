@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage;
-
 __attribute__((visibility("hidden")))
 @interface FI_TColumnGroupHeaderCellView
 {
     _Bool _isInFloatingHeader;
 }
 
-- (void);
+- (void)@@y	?%@q;
 - (void);
 - (_Bool);
 - (id);
@@ -21,7 +19,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, getter=isInFloatingHeader) _Bool inFloatingHeader; // @synthesize inFloatingHeader=_isInFloatingHeader;
-@property(retain, nonatomic) NSImage *tagImage;
 
 @end
 

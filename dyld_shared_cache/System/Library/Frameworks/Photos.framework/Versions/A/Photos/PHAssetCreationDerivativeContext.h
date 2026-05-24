@@ -4,31 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, NSURL, PLManagedAsset, PLThumbnailManager;
-
 @interface PHAssetCreationDerivativeContext
 {
     _Bool _thumbnailWriteSucceeded;
-    short _assetKind;
-    long long _nextAvailableThumbnailIndex;
-    PLThumbnailManager *_thumbnailManager;
-    NSString *_thumbnailIdentifier;
-    NSURL *_fileURLForThumbnailFile;
-    NSData *_originalHash;
-    PLManagedAsset *_asset;
-    NSString *_assetUUID;
-    NSString *_originalUTI;
-    long long _assetOrientation;
-    long long _maxPixelSize;
-    NSString *_assetExtension;
-    NSData *_imageData;
-    NSString *_fullsizeRenderImagePath;
-    NSString *_pathForOriginalFile;
-    NSString *_pathForVideoPreviewFile;
-    NSString *_fullsizeRenderVideoPath;
-    NSArray *_auxiliaryImageRecords;
-    struct CGSize _assetOrientedImageSize;
-    struct CGSize _embeddedThumbnailSize;
 }
 
 - (_Bool);
@@ -48,12 +26,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)T;
 - (id);
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (long long);
 - (id);
 - (id);
@@ -63,41 +41,21 @@
 - (struct CGSize);
 - (long long);
 - (short);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)EnablePasswordsEvaluationsCaching;
 - (id);
+- (id)`;
 - (id);
-- (id);
-- (void);
+- (void);
 - (id)1Â0@ù
 × ;
 - (void),V_countOfExclusiveAssets;
 
 // Remaining properties
-@property(retain, nonatomic) PLManagedAsset *asset; // @synthesize asset=_asset;
-@property(copy, nonatomic) NSString *assetExtension; // @synthesize assetExtension=_assetExtension;
-@property(nonatomic) short assetKind; // @synthesize assetKind=_assetKind;
-@property(nonatomic) long long assetOrientation; // @synthesize assetOrientation=_assetOrientation;
-@property(nonatomic) struct CGSize assetOrientedImageSize; // @synthesize assetOrientedImageSize=_assetOrientedImageSize;
-@property(copy, nonatomic) NSString *assetUUID; // @synthesize assetUUID=_assetUUID;
-@property(retain, nonatomic) NSArray *auxiliaryImageRecords; // @synthesize auxiliaryImageRecords=_auxiliaryImageRecords;
-@property(nonatomic) struct CGSize embeddedThumbnailSize; // @synthesize embeddedThumbnailSize=_embeddedThumbnailSize;
-@property(retain, nonatomic) NSURL *fileURLForThumbnailFile; // @synthesize fileURLForThumbnailFile=_fileURLForThumbnailFile;
-@property(copy, nonatomic) NSString *fullsizeRenderImagePath; // @synthesize fullsizeRenderImagePath=_fullsizeRenderImagePath;
-@property(copy, nonatomic) NSString *fullsizeRenderVideoPath; // @synthesize fullsizeRenderVideoPath=_fullsizeRenderVideoPath;
-@property(retain, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
-@property(nonatomic) long long maxPixelSize; // @synthesize maxPixelSize=_maxPixelSize;
 @property(nonatomic) long long nextAvailableThumbnailIndex; // @synthesize nextAvailableThumbnailIndex=_nextAvailableThumbnailIndex;
-@property(retain, nonatomic) NSData *originalHash; // @synthesize originalHash=_originalHash;
-@property(copy, nonatomic) NSString *originalUTI; // @synthesize originalUTI=_originalUTI;
-@property(copy, nonatomic) NSString *pathForOriginalFile; // @synthesize pathForOriginalFile=_pathForOriginalFile;
-@property(copy, nonatomic) NSString *pathForVideoPreviewFile; // @synthesize pathForVideoPreviewFile=_pathForVideoPreviewFile;
-@property(copy, nonatomic) NSString *thumbnailIdentifier; // @synthesize thumbnailIdentifier=_thumbnailIdentifier;
-@property(retain, nonatomic) PLThumbnailManager *thumbnailManager; // @synthesize thumbnailManager=_thumbnailManager;
-@property(nonatomic) _Bool thumbnailWriteSucceeded; // @synthesize thumbnailWriteSucceeded=_thumbnailWriteSucceeded;
 
 @end
 

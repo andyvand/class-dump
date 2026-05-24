@@ -8,10 +8,9 @@ __attribute__((visibility("hidden")))
 @interface ODDShapeAdjustment
 {
     unsigned int mIndex;
-    double mValue;
 }
 
-- (void);
+- (void)tact"16^B24;
 - (id);
 - (double);
 - (unsigned int);

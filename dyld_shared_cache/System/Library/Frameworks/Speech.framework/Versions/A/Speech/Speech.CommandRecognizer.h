@@ -7,15 +7,6 @@
 @interface Speech.CommandRecognizer
 {
     id _results;
-    id transcriber;
-    id activeSet;
-    id wantsVolatile;
-    id wantsContextualized;
-    id dropAlternatives;
-    id wantsLoggableResults;
-    id assetConfig;
-    id _workerWithLocked;
-    id resultsBuilder;
 }
 
 @end

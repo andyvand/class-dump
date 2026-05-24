@@ -7,8 +7,6 @@
 @interface NewsSubscription.HideMyEmailSignupRouter
 {
     id controller;
-    id resolver;
-    id tracker;
 }
 
 @end

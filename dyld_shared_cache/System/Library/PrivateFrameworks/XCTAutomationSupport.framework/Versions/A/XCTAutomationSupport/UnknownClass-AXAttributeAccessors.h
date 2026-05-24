@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (AXAttributeAccessors)
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (struct __AXUIElement *);

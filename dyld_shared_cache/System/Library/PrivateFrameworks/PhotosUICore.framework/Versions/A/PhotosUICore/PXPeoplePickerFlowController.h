@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, UXBarButtonItem, UXViewController;
-@protocol PXPeopleFlowDelegate, PXPeopleFlowViewController;
+@class NSArray;
+@protocol PXPeopleFlowDelegate;
 
 @interface PXPeoplePickerFlowController
 {
     id <PXPeopleFlowDelegate> _flowDelegate;
-    NSMutableArray *_bootstrappedSourceUUIDs;
-    NSArray *_people;
-    NSArray *_viewControllers;
-    NSArray *_contexts;
-    long long _viewControllerIndex;
-    double _backingScaleFactor;
 }
 
 + (id);
@@ -40,39 +34,14 @@
 - (id);
 - (void);
 - (id);
-- (void)der;
-- (void)udioMixSuccessTitle;
+- (void)currentShelvesOrder;
+- (void)PhotoEditAudioMixSuccessTitle;
 - (id);
 - (void)EÂ¼¹;
 - (void)ÿ¤¬;
 
 // Remaining properties
-@property(nonatomic) double backingScaleFactor; // @synthesize backingScaleFactor=_backingScaleFactor;
-@property(retain, nonatomic) NSMutableArray *bootstrappedSourceUUIDs; // @synthesize bootstrappedSourceUUIDs=_bootstrappedSourceUUIDs;
-@property(copy, nonatomic) NSArray *contexts; // @synthesize contexts=_contexts;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak id <PXPeopleFlowDelegate> flowDelegate; // @synthesize flowDelegate=_flowDelegate;
-@property(readonly, nonatomic) _Bool hasNextViewController;
-@property(readonly, nonatomic) _Bool hasPreviousViewController;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UXBarButtonItem *leftBarButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UXBarButtonItem",?,R,N
-
-@property(readonly, nonatomic) UXViewController<PXPeopleFlowViewController> *nextViewController;
 @property(readonly, copy, nonatomic) NSArray *people; // @synthesize people=_people;
-@property(readonly, nonatomic) UXViewController<PXPeopleFlowViewController> *previousViewController;
-@property(readonly) Class superclass;
-@property(nonatomic) long long viewControllerIndex; // @synthesize viewControllerIndex=_viewControllerIndex;
-@property(copy, nonatomic) NSArray *viewControllers; // @synthesize viewControllers=_viewControllers;
-@property(readonly, nonatomic) _Bool wantsCancelButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 
 @end
 

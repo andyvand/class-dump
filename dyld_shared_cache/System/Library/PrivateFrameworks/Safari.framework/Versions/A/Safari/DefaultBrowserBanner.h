@@ -6,57 +6,39 @@
 
 #import <Safari/Banner.h>
 
-@class NSButton, NSImageView, NSString, NSTextField, RolloverImageButton;
-@protocol DefaultBrowserBannerDelegate;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface DefaultBrowserBanner : Banner
 {
     unsigned long long _availableDataTypes;
-    RolloverImageButton *_closeButton;
-    NSTextField *_promptLabel;
-    NSButton *_setAsDefaultButton;
-    NSImageView *_safariIcon;
-    NSTextField *_bannerSubheading;
 }
 
-+ (int);
++ (int);
+- (void)`;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (void)X;
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id)ontrollerIfNeededForFrame:textFieldMetadata:formMetadata: /* Error: Ran out of types for this method. */;
+- (id)_createFormCompletionControllerIfNeededForFrame:textFieldMetadata:formMetadata: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ÿÿg;
 
 // Remaining properties
-@property(nonatomic) __weak NSTextField *bannerSubheading; // @synthesize bannerSubheading=_bannerSubheading;
-@property(nonatomic) __weak RolloverImageButton *closeButton; // @synthesize closeButton=_closeButton;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <DefaultBrowserBannerDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak NSTextField *promptLabel; // @synthesize promptLabel=_promptLabel;
-@property(nonatomic) __weak NSImageView *safariIcon; // @synthesize safariIcon=_safariIcon;
-@property(nonatomic) __weak NSButton *setAsDefaultButton; // @synthesize setAsDefaultButton=_setAsDefaultButton;
-@property(readonly) Class superclass;
 
 @end
 

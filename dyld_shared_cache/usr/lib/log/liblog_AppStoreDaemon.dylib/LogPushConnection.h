@@ -11,15 +11,14 @@ __attribute__((visibility("hidden")))
 {
     NSString *_environment;
     NSMutableArray *_messages;
-    NSString *_token;
 }
 
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool).MSG:(id)arg1 Length too small <%u>;
 - (id);
 - (id);
 - (void);

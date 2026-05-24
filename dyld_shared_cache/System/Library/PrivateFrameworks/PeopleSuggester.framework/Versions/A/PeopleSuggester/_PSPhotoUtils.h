@@ -8,14 +8,14 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)_assistantDaemonAudioRecordingFirstBufferContext;
++ (id)_assistantDaemonAudioRecordingContext;
++ (id)_appUsageCountForEntityFromSiri28Days;
++ (id)_appTimeSpentInSec;
++ (id)Ti,N,V_contactSuggestionRedundancyState;
++ (id)tionMode;
++ (id)lientTreatment;
++ (id)i,N,V_clientHourOfDay;
 
 @end
 

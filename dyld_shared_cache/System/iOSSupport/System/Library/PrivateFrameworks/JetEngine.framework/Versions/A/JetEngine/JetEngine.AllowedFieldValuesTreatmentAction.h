@@ -11,8 +11,8 @@
     id allowList;
 }
 
-- (id);
-- (id);
+- (id)@@;
+- (id)P;
 - (void),ø³ÿ;
 
 @end

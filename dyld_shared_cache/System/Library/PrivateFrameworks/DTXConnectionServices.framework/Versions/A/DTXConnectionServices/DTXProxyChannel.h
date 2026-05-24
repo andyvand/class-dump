@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DTXChannel, NSSet, Protocol;
+@class DTXChannel, Protocol;
 
 @interface DTXProxyChannel
 {
     Protocol *_remoteInterface;
-    Protocol *_exportedInterface;
-    DTXChannel *_channel;
-    NSSet *_additionalAllowedClassesForProtocolMethods;
-    _Atomic _Bool _hasProcessedMessage;
 }
 
 - (void);
@@ -23,7 +19,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -32,10 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *additionalAllowedClassesForProtocolMethods; // @synthesize additionalAllowedClassesForProtocolMethods=_additionalAllowedClassesForProtocolMethods;
 @property(retain, nonatomic) DTXChannel *channel; // @synthesize channel=_channel;
-@property(retain) Protocol *remoteInterface; // @synthesize remoteInterface=_remoteInterface;
-@property(readonly) id remoteObjectProxy;
 
 @end
 

@@ -10,9 +10,6 @@
 @interface AVApplicationStateMonitor
 {
     NSObject<OS_dispatch_queue> *_ivarAccessQueue;
-    _Bool _hostApplicationInForeground;
-    id _didEnterBackgroundNotificationToken;
-    id _willEnterForegroundNotificationToken;
 }
 
 + (id);

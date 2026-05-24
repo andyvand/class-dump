@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @protocol FCPersonalizationExternalSignal
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *content;
-@property(readonly, nonatomic) NSDate *date;
 @property(readonly, nonatomic) long long type;
 @end
 

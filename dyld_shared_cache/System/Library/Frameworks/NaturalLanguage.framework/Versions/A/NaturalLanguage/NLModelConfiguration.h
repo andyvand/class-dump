@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface NLModelConfiguration
 {
     long long _type;
-    unsigned long long _revision;
-    NSString *_language;
-    NSDictionary *_options;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)renderVerticies:(long long)arg1 size:(id)arg2 numRenderedVertices:(id *)arg3 vertexSize:numIndices:localClipRect:animatingStroke:secondaryParticles:renderEncoder: /* Error: Ran out of types for this method. */;
 + (unsigned long long);
-+ (_Bool);
++ (_Bool)@;
 - (id);
 - (id);
 - (id);
@@ -26,8 +21,8 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (long long);
-- (_Bool);
+- (long long)`;
+- (_Bool)m;
 - (void);
 - (id);
 - (id);
@@ -35,8 +30,6 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, copy) NSString *language;
-@property(readonly) unsigned long long revision;
 @property(readonly) long long type;
 
 @end

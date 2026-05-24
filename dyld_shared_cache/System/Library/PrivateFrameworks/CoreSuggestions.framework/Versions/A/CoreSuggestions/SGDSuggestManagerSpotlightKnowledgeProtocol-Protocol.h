@@ -5,5 +5,6 @@
 //
 
 @protocol SGDSuggestManagerSpotlightKnowledgeProtocol
+- (void);
 @end
 

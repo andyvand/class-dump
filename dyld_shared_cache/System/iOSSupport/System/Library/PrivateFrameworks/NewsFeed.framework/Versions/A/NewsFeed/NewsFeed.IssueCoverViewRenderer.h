@@ -7,11 +7,6 @@
 @interface NewsFeed.IssueCoverViewRenderer
 {
     id rendererEnvironment;
-    id styler;
-    id coverImageImageCache;
-    id layeredCoverViewProvider;
-    id layeredCoverLayerProviderFactory;
-    id layeredCoverViewRenderer;
 }
 
 @end

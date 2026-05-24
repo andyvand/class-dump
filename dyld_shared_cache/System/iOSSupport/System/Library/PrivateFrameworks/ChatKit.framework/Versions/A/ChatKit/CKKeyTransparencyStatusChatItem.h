@@ -10,9 +10,9 @@
 {
 }
 
+- (id)ic_addNonNilItem: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (struct CGSize);
+- (struct CGSize)7ySo7CKShareCSgG;
 - (Class);
 
 @end

@@ -6,31 +6,25 @@
 
 #import <PassKitCore/PKPaymentWebServiceRequest.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PKRegisterMerchantTokenPublicKeyRequest : PKPaymentWebServiceRequest
 {
     NSString *_primaryAccountIdentifier;
-    NSString *_merchantTokenIdentifier;
-    NSData *_currentMerchantTokenPublicKeyHash;
-    NSData *_merchantTokenPublicKey;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)V;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)xternalDevice;
+- (void)provisionExternalDevice;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *currentMerchantTokenPublicKeyHash; // @synthesize currentMerchantTokenPublicKeyHash=_currentMerchantTokenPublicKeyHash;
-@property(copy, nonatomic) NSString *merchantTokenIdentifier; // @synthesize merchantTokenIdentifier=_merchantTokenIdentifier;
-@property(copy, nonatomic) NSData *merchantTokenPublicKey; // @synthesize merchantTokenPublicKey=_merchantTokenPublicKey;
 @property(copy, nonatomic) NSString *primaryAccountIdentifier; // @synthesize primaryAccountIdentifier=_primaryAccountIdentifier;
 
 @end

@@ -9,14 +9,13 @@
 @interface TSTLayoutTask
 {
     TSTMasterLayout *mMasterLayout;
-    NSMutableArray *mCellStatesToLayout;
 }
 
-- (void);
+- (void)to;
+- (id)AssetSlidingQueueController;
+- (void)NAVPlayerStatus;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)@;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *cellStatesToLayout; // @synthesize cellStatesToLayout=mCellStatesToLayout;

@@ -7,10 +7,6 @@
 @interface RemindersUICore.TTRMDynamicTypeSizeObserver
 {
     id symbolSizeCategory;
-    id accessibilityFontSize;
-    id cancellable;
-    id contentSizeCategorySubject;
-    id symbolSizeSubject;
 }
 
 @end

@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface NSContainerConcentricGlassEffectView : NSGlassEffectView
 {
     double _concentricMinimumCornerRadius;
-    _Bool _allowsNonuniformCornerRadii;
 }
 
 - (void);
-- (double);
-- (_Bool);
+- (double)%@ in %@;
+- (_Bool)RLResponse;
 - (void);
-- (id)ComponentArithmetic;
+- (id)NSWrapsDateComponentArithmetic;
 
 // Remaining properties
-@property _Bool allowsNonuniformCornerRadii;
 @property double concentricMinimumCornerRadius;
 
 @end

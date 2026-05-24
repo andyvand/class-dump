@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)entPayload: /* Error: Ran out of types for this method. */;
+- (_Bool)ractionSession setAdvertiseRate:timeout:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 - (Class)ÔAq&!Dù1*ð1Â0@ù
 × ;
 

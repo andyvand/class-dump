@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKSQLitePackage, NSData, NSNumber;
+@class CKSQLitePackage, NSNumber;
 
 @interface CKPackageSection
 {
     CKSQLitePackage *_package;
-    NSData *_signature;
-    NSData *_verificationKey;
-    unsigned long long _manifestSize;
-    NSNumber *_sectionID;
 }
 
 - (unsigned long long);
@@ -30,17 +26,12 @@
 - (void);
 - (id)ùQG11Â0@ù
 × ;
-- (void)ctAtArgumentIndex:(id)arg1;
+- (void)_classForObjectAtArgumentIndex:(id)arg1;
 - (void)ÿÿÿÿ¤;
-- (id)ySo14CKSubscriptionCG;
+- (id)SaySo14CKSubscriptionCG;
 
 // Remaining properties
-@property(nonatomic) unsigned long long manifestSize; // @synthesize manifestSize=_manifestSize;
-@property(retain, nonatomic) CKSQLitePackage *package; // @synthesize package=_package;
 @property(retain, nonatomic) NSNumber *sectionID; // @synthesize sectionID=_sectionID;
-@property(readonly, nonatomic) unsigned long long sectionIndex;
-@property(copy, nonatomic) NSData *signature; // @synthesize signature=_signature;
-@property(copy, nonatomic) NSData *verificationKey; // @synthesize verificationKey=_verificationKey;
 
 @end
 

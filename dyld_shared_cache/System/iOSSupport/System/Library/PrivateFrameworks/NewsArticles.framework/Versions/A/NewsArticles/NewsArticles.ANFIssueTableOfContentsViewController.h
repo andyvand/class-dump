@@ -7,18 +7,16 @@
 @interface NewsArticles.ANFIssueTableOfContentsViewController
 {
     id viewController;
-    id issue;
-    id commandContainer;
 }
 
 - (unsigned long long);
+- (id)=;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void)tType;
+- (void)assetType;
 
 // Remaining properties
 @property(nonatomic, readonly) unsigned long long viewingLocation;

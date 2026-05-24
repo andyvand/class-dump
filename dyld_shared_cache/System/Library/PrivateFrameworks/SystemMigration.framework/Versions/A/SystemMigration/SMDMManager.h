@@ -9,13 +9,12 @@
 @interface SMDMManager
 {
     DMManager *_dm;
-    struct __DASession *_daSession;
 }
 
 + (id);
 + (void)newUser;
 - (struct __DADisk *);
-- (struct __DASession *);
+- (struct __DASession *);
 - (id);
 - (id);
 - (void)!Eùñ	Ð1Â0@ù

@@ -6,13 +6,9 @@
 
 #import <AppKit/NSCollectionViewCompositionalLayout.h>
 
-@class NSArray;
-
 @interface _NSCollectionViewCompositionalLayout : NSCollectionViewCompositionalLayout
 {
     long long _scrollDirection;
-    NSArray *_boundarySupplementaryItems;
-    NSArray *_supplementaryItems;
 }
 
 - (id);
@@ -21,21 +17,19 @@
 - (id);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (long long)tion: /* Error: Ran out of types for this method. */;
-- (void)lentVisualEffectMaterial:(id)arg1;
+- (long long)setImageInterpolation: /* Error: Ran out of types for this method. */;
+- (void)_getSemanticallyEquivalentVisualEffectMaterial:(id)arg1;
 - (id)f(itemBounds), NULL, &itemBounds);
 - (void)only once for %@ cache mismatched frame;
 - (id);
-- (id);
+- (id)NSUserInterfaceLayoutDirection;
 - (id)pk@;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *boundarySupplementaryItems; // @synthesize boundarySupplementaryItems=_boundarySupplementaryItems;
 @property(readonly, nonatomic) long long scrollDirection; // @synthesize scrollDirection=_scrollDirection;
-@property(copy, nonatomic) NSArray *supplementaryItems; // @synthesize supplementaryItems=_supplementaryItems;
 
 @end
 

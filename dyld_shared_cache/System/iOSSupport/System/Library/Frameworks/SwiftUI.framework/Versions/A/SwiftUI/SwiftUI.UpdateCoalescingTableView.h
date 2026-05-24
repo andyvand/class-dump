@@ -7,19 +7,6 @@
 @interface SwiftUI.UpdateCoalescingTableView
 {
     id isSidebarStyle;
-    id cachedIdealSize;
-    id rowSpacing;
-    id safeAreaTransitionState;
-    id visibleCellsUpdate;
-    id ignoreGraphUpdates;
-    id pendingGraphUpdate;
-    id pendingScrollTarget;
-    id previousHorizontalMargin;
-    id _lastUpdateSeed;
-    id bridgedState;
-    id shouldDetermineInsetStyle;
-    id needsUpdateAlignmentInsets;
-    id lastConfigurationHash;
 }
 
 + (_Bool);
@@ -29,8 +16,8 @@
 - (double);
 - (struct CGSize);
 - (id);
-- (void);
-- (struct CGRect);
+- (void)e;
+- (struct CGRect)text: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (double);
@@ -38,7 +25,7 @@
 - (id)»üÿþ
 úÿ;
 - (void)ate;
-- (void)bstring;
+- (void)NSSwiftAttributedSubstring;
 
 // Remaining properties
 @property(nonatomic) struct CGRect bounds;

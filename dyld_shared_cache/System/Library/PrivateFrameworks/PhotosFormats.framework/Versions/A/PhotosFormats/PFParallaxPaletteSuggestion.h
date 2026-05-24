@@ -9,25 +9,23 @@
 @interface PFParallaxPaletteSuggestion
 {
     PFParallaxColor *_primaryColor;
-    PFParallaxColor *_secondaryColor;
 }
 
 + (id);
 + (id);
 + (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)PIPPanel;
 
 // Remaining properties
 @property(readonly, nonatomic) PFParallaxColor *primaryColor; // @synthesize primaryColor=_primaryColor;
-@property(readonly, nonatomic) PFParallaxColor *secondaryColor; // @synthesize secondaryColor=_secondaryColor;
 
 @end
 

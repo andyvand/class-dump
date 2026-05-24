@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PETSchemaPETAggregationKey, PETSchemaPETDistribution;
+@class PETSchemaPETAggregationKey;
 
 @interface PETSchemaPETAggregatedMessage : SISchemaInstrumentationMessage
 {
     PETSchemaPETAggregationKey *_key;
-    unsigned int _count;
-    PETSchemaPETDistribution *_distribution;
-    CDStruct_bbadad30 _has;
-    _Bool _hasKey;
-    _Bool _hasDistribution;
 }
 
 - (void);
@@ -31,28 +26,22 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
-- (void);
-- (_Bool);
+- (id)D	;
+- (void)IMDCoreSpotlightMessageAttachmentIndexer;
+- (_Bool)ranges for message with GUID %@;
 - (id);
 - (id);
 - (id)!Eù±Ý°1Â0@ù
 × ;
-- (id)ocationContext;
+- (id)_hasHardwareButtonInvocationContext;
 - (id)ionStarted",&,N,V_iterationStarted;
-- (void)bratedEmbeddingSimilarity;
-- (unsigned int)mBackoffs: /* Error: Ran out of types for this method. */;
+- (void)unCalibratedEmbeddingSimilarity;
+- (unsigned int)addNumBackoffs: /* Error: Ran out of types for this method. */;
 - (_Bool)LÔ;
-- (void)ARTY;
-- (void)terResume;
+- (void)PEGASUSVIDEOVERB_SEARCH_THIRD_PARTY;
+- (void)isAfterResume;
 
 // Remaining properties
-@property(nonatomic) unsigned int count; // @synthesize count=_count;
-@property(retain, nonatomic) PETSchemaPETDistribution *distribution; // @synthesize distribution=_distribution;
-@property(nonatomic) _Bool hasCount;
-@property(nonatomic) _Bool hasDistribution; // @synthesize hasDistribution=_hasDistribution;
-@property(nonatomic) _Bool hasKey; // @synthesize hasKey=_hasKey;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) PETSchemaPETAggregationKey *key; // @synthesize key=_key;
 
 @end

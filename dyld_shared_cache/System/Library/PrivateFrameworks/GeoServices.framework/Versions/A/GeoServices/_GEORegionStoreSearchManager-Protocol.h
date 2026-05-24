@@ -4,7 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol _GEORegionStoreSearchManager
-- (_Bool)tsToBeIncluded;
+- (id)asyncWriteData:(NSString *)arg1 toURL:(NSString *)arg2 options: /* Error: Ran out of types for this method. */;
+- (_Bool)_basicPointsToBeIncluded;
 @end
 

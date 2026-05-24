@@ -15,7 +15,7 @@
 - (void);
 - (struct CGSize);
 - (id);
-- (struct CGSize);
+- (struct CGSize)webView:(struct CGSize)arg1 didReplaceStateWithinPageForFrame:(float)arg2;
 - (void);
 - (id);
 

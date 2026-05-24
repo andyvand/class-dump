@@ -26,7 +26,7 @@
 - (id);
 - (void)0@ù
 × ;
-- (void)abled;
+- (void)zelkovaOnWatchEnabled;
 - (void)ControllerServiceInfoProvidingP;
 
 // Remaining properties

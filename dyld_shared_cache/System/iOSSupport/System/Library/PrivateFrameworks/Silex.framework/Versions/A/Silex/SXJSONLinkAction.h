@@ -6,7 +6,7 @@
 
 #import <Silex/SXJSONAction.h>
 
-@class NSString, NSURL, SXJSONDictionary;
+@class NSURL;
 
 @interface SXJSONLinkAction : SXJSONAction
 {
@@ -15,15 +15,5 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *URL; // @dynamic URL;
-@property(readonly, nonatomic) SXJSONDictionary *analytics;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool openInBrowser; // @dynamic openInBrowser;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *type;
 @end
 

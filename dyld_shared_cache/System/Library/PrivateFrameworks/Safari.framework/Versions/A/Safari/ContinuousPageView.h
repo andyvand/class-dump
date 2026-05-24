@@ -4,26 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView;
-@protocol ContinuousPageViewDelegate;
-
 __attribute__((visibility("hidden")))
 @interface ContinuousPageView
 {
     _Bool _inMiddleOfGesture;
-    _Bool _swipingToThePreviousPage;
-    struct CGRect _currentPageViewFrameBeforeSwipe;
-    _Bool _didDeferNoteItemsChanged;
-    unsigned long long _transitionToNextPageCount;
-    _Bool _handlingPageTransition;
-    _Bool _loadingPageItem;
-    id <ContinuousPageViewDelegate> _delegate;
-    id _currentPageItem;
-    id _nextPageItem;
-    NSView *_currentPageView;
-    NSView *_nextPageView;
-    NSView *_previousPageView;
-    id _previousPageItem;
 }
 
 - (void);
@@ -42,14 +26,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)a;
 - (void);
 - (void);
 - (void);
@@ -57,20 +41,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)server value:%{bool}d /* Error: Ran out of types for this method. */;
 - (void)üô;
 
 // Remaining properties
 @property(retain, nonatomic) id currentPageItem; // @synthesize currentPageItem=_currentPageItem;
-@property(retain, nonatomic) NSView *currentPageView; // @synthesize currentPageView=_currentPageView;
-@property(readonly, nonatomic) __weak id <ContinuousPageViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic, getter=isHandlingPageTransition) _Bool handlingPageTransition; // @synthesize handlingPageTransition=_handlingPageTransition;
-@property(readonly, nonatomic, getter=isLoadingPageItem) _Bool loadingPageItem; // @synthesize loadingPageItem=_loadingPageItem;
-@property(retain, nonatomic) id nextPageItem; // @synthesize nextPageItem=_nextPageItem;
-@property(retain, nonatomic) NSView *nextPageView; // @synthesize nextPageView=_nextPageView;
-@property(retain, nonatomic) id previousPageItem; // @synthesize previousPageItem=_previousPageItem;
-@property(retain, nonatomic) NSView *previousPageView; // @synthesize previousPageView=_previousPageView;
-@property(readonly, nonatomic) _Bool shouldPreloadContinousReadingListWebView;
 
 @end
 

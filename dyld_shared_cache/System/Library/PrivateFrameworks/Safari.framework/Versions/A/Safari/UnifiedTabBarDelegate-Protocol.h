@@ -8,9 +8,9 @@
 @protocol TabPreviewDataSource;
 
 @protocol UnifiedTabBarDelegate
-- (void)ults:(UnifiedTabBar *)arg1 forQuery:(UnifiedTabBarItem *)arg2;
+- (void)session:(UnifiedTabBar *)arg1 didReceiveResults:(UnifiedTabBarItem *)arg2 forQuery:(void (^)(NSImage *))arg3;
 - (id <TabPreviewDataSource>)VALUES (?, ?, ?);
-- (void)editCardMasterCardLarge;
+- (void)CreditCardMasterCardLarge;
 - (_Bool)È$;
 - (_Bool)¨,ø;
 - (NSColor *);

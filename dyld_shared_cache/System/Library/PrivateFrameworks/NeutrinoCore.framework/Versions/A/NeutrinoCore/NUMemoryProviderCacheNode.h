@@ -13,7 +13,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id)GInfoDictionary;
+- (id)auxCGInfoDictionary;
 
 @end
 

@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CRKSession;
+
 @protocol CRKSessionDelegate
+- (void);
+- (void)SPFTLParseBufferToCxt:(CRKSession *)arg1 poDetectGBBedTotalCost(1196):Cannot add 5 elements to context /* Error: Ran out of types for this method. */;
 @end
 

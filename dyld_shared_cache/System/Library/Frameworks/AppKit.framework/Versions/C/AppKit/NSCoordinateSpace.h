@@ -9,10 +9,10 @@
     id coordinateSpace;
 }
 
-+ (id);
-- (struct CGSize);
-- (struct CGRect);
-- (struct CGRect);
++ (id)v28@?0@"NSObject<OS_dispatch_data>"8^{__CFDictionary=}16C24;
+- (struct CGSize)ckground session task;
+- (struct CGRect)APSRelayTopic;
+- (struct CGRect)kTubeTypeHTTP3;
 - (double);
 - (struct CGRect);
 - (id);
@@ -20,9 +20,7 @@
 - (struct CGRect);
 
 // Remaining properties
-@property(nonatomic, readonly) double backingScaleFactor;
 @property(nonatomic, readonly) struct CGRect bounds;
-@property(nonatomic, readonly) _Bool isFlipped;
 
 @end
 

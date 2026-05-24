@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, NSString;
-
 @interface USOSchemaUSOEntitySpanTier1 : SISchemaInstrumentationMessage
 {
     unsigned int _index;
-    NSString *_originAppId;
-    NSArray *_properties;
-    NSArray *_alternatives;
-    NSString *_originEntityId;
-    CDStruct_bde79ab9 _has;
-    _Bool _hasOriginAppId;
-    _Bool _hasOriginEntityId;
 }
 
 - (void);
@@ -30,12 +21,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
+- (id);
 - (id);
-- (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
@@ -44,33 +35,25 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
+- (void)24@32;
+- (_Bool)_horizontalSpacing;
 - (void);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)ted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m WHERE   m.is_from_me = 1   AND m.is_sent = 0   AND m.error = 0   AND m.item_type = 0   AND m.schedule_type = 0   AND m.ROWID > ? ;
 - (void);
 - (id);
 - (id);
 - (id);
-- (unsigned long long)udioSessionSetInactiveContext;
-- (id)tedScoreKnockOut;
-- (unsigned int)rmRequestId;
-- (id)guageModelEnrollmentDataStreams;
+- (unsigned long long)hasAssistantDaemonAudioSessionSetInactiveContext;
+- (id)deleteSortedScoreKnockOut;
+- (unsigned int)deleteOriginatingPrewarmRequestId;
+- (id)_numLanguageModelEnrollmentDataStreams;
 - (void)rawMessage;
 - (void)me.parameterNotAllowed.value.collection.values.query.typeIdentifier.custom.bundleId;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *alternatives; // @synthesize alternatives=_alternatives;
-@property(nonatomic) _Bool hasIndex;
-@property(nonatomic) _Bool hasOriginAppId; // @synthesize hasOriginAppId=_hasOriginAppId;
-@property(nonatomic) _Bool hasOriginEntityId; // @synthesize hasOriginEntityId=_hasOriginEntityId;
 @property(nonatomic) unsigned int index; // @synthesize index=_index;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *originAppId; // @synthesize originAppId=_originAppId;
-@property(copy, nonatomic) NSString *originEntityId; // @synthesize originEntityId=_originEntityId;
-@property(copy, nonatomic) NSArray *properties; // @synthesize properties=_properties;
 
 @end
 

@@ -11,14 +11,10 @@
 @interface IMBlockedConversationChatItem : IMTranscriptChatItem
 {
     _Bool _canLeaveChat;
-    _Bool _isGroupMessage;
-    NSArray *_blockedRecipients;
 }
 
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *blockedRecipients; // @synthesize blockedRecipients=_blockedRecipients;
-@property(readonly, nonatomic) _Bool canLeaveChat; // @synthesize canLeaveChat=_canLeaveChat;
-@property(readonly, nonatomic) _Bool isGroupMessage; // @synthesize isGroupMessage=_isGroupMessage;
 @end
 

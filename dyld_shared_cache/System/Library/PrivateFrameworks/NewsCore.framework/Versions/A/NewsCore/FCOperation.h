@@ -4,28 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCOnce, NFUnfairLock, NSDictionary, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_group;
-
 @interface FCOperation
 {
     _Atomic _Bool _executing;
-    _Atomic _Bool _finished;
-    _Bool _childOperationsCancelled;
-    NSString *_shortOperationDescription;
-    long long _relativePriority;
-    unsigned long long _retryCount;
-    double _timeoutDuration;
-    long long _flags;
-    NSString *_purpose;
-    NSString *_operationID;
-    double _operationStartTime;
-    CDUnknownBlockType _timedOutTest;
-    NSMutableArray *_childOperations;
-    NFUnfairLock *_childOperationsLock;
-    FCOnce *_startOnce;
-    NSObject<OS_dispatch_group> *_finishedGroup;
-    id _retentionToken;
 }
 
 - (_Bool);
@@ -40,17 +21,17 @@
 - (void);
 - (void);
 - (double);
-- (void);
-- (double);
+- (void)",R,C,N,V_localizedQueryString;
+- (double)_collectionTitleAccessoryAction;
 - (id);
 - (void);
+- (void)@;
+- (id);
+- (void)@;
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -77,26 +58,7 @@
 - (_Bool)$ÏÊÿßE@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSDictionary *errorUserInfo;
-@property(nonatomic) long long flags; // @synthesize flags=_flags;
-@property(readonly, nonatomic) _Bool hasOperationStarted;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *longOperationDescription;
-@property(readonly, nonatomic) unsigned long long maxRetries;
-@property(readonly, copy, nonatomic) NSString *operationID; // @synthesize operationID=_operationID;
 @property(nonatomic) double operationStartTime; // @synthesize operationStartTime=_operationStartTime;
-@property(readonly, nonatomic) FCOperation *proxyOperation;
-@property(copy, nonatomic) NSString *purpose; // @synthesize purpose=_purpose;
-@property(nonatomic) long long relativePriority; // @synthesize relativePriority=_relativePriority;
-@property(nonatomic) unsigned long long retryCount; // @synthesize retryCount=_retryCount;
-@property(readonly, nonatomic) NSString *shortOperationDescription; // @synthesize shortOperationDescription=_shortOperationDescription;
-@property(readonly) Class superclass;
-@property(nonatomic) double timeoutDuration; // @synthesize timeoutDuration=_timeoutDuration;
 
 @end
 

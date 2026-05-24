@@ -7,7 +7,6 @@
 @interface RemindersUICore.TTRListToCustomSmartListConverter
 {
     id store;
-    id committer;
 }
 
 - (id);

@@ -7,11 +7,12 @@
 @protocol SLDataTimelineSessionProcessCollection;
 
 @protocol SLDataTimelineSession
+- (id <SLDataTimelineSessionProcessCollection>)UpdateTriggerDataBlobOperator:malloc failure /* Error: Ran out of types for this method. */;
+- (_Bool)voke;
+- (unsigned int)ta.cloudkit.metadata.reset;
+- (int)h CloudKit in this process.;
 
 // Remaining properties
-@property(readonly, nonatomic) int auditID;
 @property(readonly, nonatomic) unsigned int cgID;
-@property(readonly, nonatomic) _Bool currentSnapshotMember;
-@property(readonly, nonatomic) id <SLDataTimelineSessionProcessCollection> processData;
 @end
 

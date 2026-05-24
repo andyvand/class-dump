@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDManagedObjectContext, NSArray, NSPersistentStore, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDSharedUserAccessorySettingsDataController
 {
     NSUUID *_userModelID;
-    NSUUID *_homeModelID;
-    NSPersistentStore *_privateStore;
-    HMDManagedObjectContext *_moc;
 }
 
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)setHeaderArtwork:(id)arg1;
+- (void)trigger updates for both services;
+- (void)st data in iCloud KVS, will migrate in background;
+- (void)cess] %{private}@ (id %@ state %@);
+- (void)ne the access.;
 - (void);
 - (_Bool);
 - (id);
@@ -30,10 +27,7 @@ __attribute__((visibility("hidden")))
 - (void)HMDFetchedAccessorySettingsControllerSettingsUpdateNotification;
 
 // Remaining properties
-@property(readonly, copy) NSArray *assistantAccessControlAccessoriesToEncode;
 @property(readonly) _Bool assistantAccessControlActivityNotificationsEnabledForPersonalRequests;
-@property(readonly, copy) NSArray *mediaContentProfileAccessControlAccessoriesToEncode;
-@property(readonly, copy) NSArray *userListeningHistoryUpdateControlModelAccessoriesToEncode;
 
 @end
 

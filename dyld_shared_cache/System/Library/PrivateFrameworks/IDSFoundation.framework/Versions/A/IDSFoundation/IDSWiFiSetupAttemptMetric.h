@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface IDSWiFiSetupAttemptMetric
 {
     unsigned long long _attemptType;
-    unsigned long long _msDuration;
-    unsigned long long _result;
-    NSString *_client;
 }
 
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long),C,N,V_timestamp;
@@ -25,18 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long attemptType; // @synthesize attemptType=_attemptType;
-@property(readonly, nonatomic) NSString *client; // @synthesize client=_client;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long msDuration; // @synthesize msDuration=_msDuration;
-@property(readonly) NSString *name;
-@property(readonly, nonatomic) unsigned long long result; // @synthesize result=_result;
-@property(readonly) Class superclass;
 
 @end
 

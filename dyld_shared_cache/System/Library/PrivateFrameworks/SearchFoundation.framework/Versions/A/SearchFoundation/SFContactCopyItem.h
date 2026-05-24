@@ -6,28 +6,17 @@
 
 #import <SearchFoundation/SFCopyItem.h>
 
-@class NSData, NSDictionary, NSString, NSURL, SFPerson;
+@class SFPerson;
 
 @interface SFContactCopyItem : SFCopyItem
 {
     SFPerson *_person;
-    NSURL *_contactFileLocation;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSURL *contactFileLocation; // @synthesize contactFileLocation=_contactFileLocation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SFPerson *person; // @synthesize person=_person;
-@property(readonly) Class superclass;
 
 @end
 

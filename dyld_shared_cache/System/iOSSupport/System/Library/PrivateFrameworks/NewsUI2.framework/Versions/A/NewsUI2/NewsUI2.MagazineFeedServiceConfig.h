@@ -7,14 +7,6 @@
 @interface NewsUI2.MagazineFeedServiceConfig
 {
     id context;
-    id appConfig;
-    id contentConfig;
-    id baseContentConfig;
-    id paidBundleConfig;
-    id subscriptionController;
-    id cachePolicy;
-    id refreshInterval;
-    id cacheKey;
 }
 
 @end

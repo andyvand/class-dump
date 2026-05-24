@@ -11,11 +11,11 @@
     struct CGRect _rect;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)(;
+- (id)$;
 - (void);
 - (struct CGRect);
-- (id);
+- (id)@9 @yi@9)})!I);
 
 // Remaining properties
 @property(readonly) struct CGRect rect; // @synthesize rect=_rect;

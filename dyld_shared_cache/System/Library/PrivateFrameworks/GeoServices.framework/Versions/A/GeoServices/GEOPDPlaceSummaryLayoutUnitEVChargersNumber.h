@@ -8,20 +8,20 @@
 {
 }
 
-+ (_Bool)entId:(id)arg1;
++ (_Bool)setIncidentId:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)d as default input device;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)ifestURL"b1"read_simpleETAURL"b1"read_spatialLookupURL"b1"read_styleSheetChecksums"b1"read_styleSheets"b1"read_textureChecksums"b1"read_textures"b1"read_tileGroups"b1"read_tileSets"b1"read_urlInfoSets"b1"read_versionManifest"b1"read_wifiConnectionQualityProbeURL"b1"read_xmlChecksums"b1"read_xmls"b1"wrote_anyField"b1};
-- (id)nZoom;
+- (id)_lastUsedTileKeysMinZoom;
 - (id)d£Ð¤¼¦d¨ª°«;
-- (id)s;
+- (id)collection_suggestion_parameters;
 
 @end
 

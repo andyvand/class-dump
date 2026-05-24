@@ -6,17 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSDictionary, NSNumber;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface CIDisparityRefinementV3 : CIFilter
 {
     NSNumber *inputScale;
-    CIImage *inputImage;
-    CIImage *inputMainImage;
-    CIImage *inputMatteImage;
-    NSDictionary *inputTuningParameters;
-    NSNumber *inputDraftMode;
 }
 
 + (id);
@@ -27,21 +22,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (id)££££uuuucccc[[[[YYYY^^^^oooo~~Oe\qrrnrzzzzu}|thmjnSb]ginnnwwwwgxwyuzx~sa~|on{zUpin~hzuboe{dvo}~xgrhv¦¦¦¦±±±±©©©©zzzznnnnK_WgISG`;QE_Xd]k¢¢¢Zne{|x¢¢¢¢££££lxt~ws~}qmgt\`Wi^b[fhiiijjjjccccVZQ\eeaew}}}¥¥¥¥d}lzv~±±±±¼¼¼¼¶¶¶¶¥¥¥¥nMf[rrum}a{wPql~wwwwvvvvmyyzx~}p}~dg^v]iau}YohyWjbssssspsmtTg^n>ZMhMg_oakevFaXtyyyymmmmMTI[U^VdVhcn;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputDraftMode; // @synthesize inputDraftMode;
-@property(retain) CIImage *inputImage; // @synthesize inputImage;
-@property(retain) CIImage *inputMainImage; // @synthesize inputMainImage;
-@property(retain) CIImage *inputMatteImage; // @synthesize inputMatteImage;
 @property(copy) NSNumber *inputScale; // @synthesize inputScale;
-@property(retain) NSDictionary *inputTuningParameters; // @synthesize inputTuningParameters;
 
 @end
 

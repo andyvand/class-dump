@@ -10,7 +10,7 @@
 
 + (id);
 - (void);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets);;
 - (void);
 
 @end

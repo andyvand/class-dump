@@ -12,7 +12,7 @@
 
 + (void)to decompress %@ with error %@;
 - (_Bool);
-- (id);
+- (id)ID for member %s;
 
 @end
 

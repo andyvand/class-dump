@@ -5,5 +5,7 @@
 //
 
 @protocol CSRemoteControlClientProtocolV1
+- (void)";
+- (void);
 @end
 

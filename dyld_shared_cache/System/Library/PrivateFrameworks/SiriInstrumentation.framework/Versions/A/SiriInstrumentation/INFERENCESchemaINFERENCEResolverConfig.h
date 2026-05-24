@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class INFERENCESchemaINFERENCEContactResolverConfig, NSData;
+@class INFERENCESchemaINFERENCEContactResolverConfig;
 
 @interface INFERENCESchemaINFERENCEResolverConfig : SISchemaInstrumentationMessage
 {
     INFERENCESchemaINFERENCEContactResolverConfig *_contactConfig;
-    _Bool _hasContactConfig;
-    unsigned long long _whichConfigurationtype;
 }
 
 - (unsigned long long);
@@ -22,23 +20,20 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)P;
 - (_Bool);
 - (id);
 - (id)!xDùÑßÐ1Â0@ù
 × ;
 - (id)estTranscripts;
-- (id)SSchemaPLUSSuggesterSuggestionRedundancyReported;
+- (id)PLUSSchemaPLUSSuggesterSuggestionRedundancyReported;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) INFERENCESchemaINFERENCEContactResolverConfig *contactConfig; // @synthesize contactConfig=_contactConfig;
-@property(nonatomic) _Bool hasContactConfig; // @synthesize hasContactConfig=_hasContactConfig;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly, nonatomic) unsigned long long whichConfigurationtype; // @synthesize whichConfigurationtype=_whichConfigurationtype;
 
 @end
 

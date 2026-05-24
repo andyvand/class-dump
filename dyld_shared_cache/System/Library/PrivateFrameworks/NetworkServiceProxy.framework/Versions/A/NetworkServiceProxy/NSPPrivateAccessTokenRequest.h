@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface NSPPrivateAccessTokenRequest
 {
     unsigned char _configKeyID;
-    unsigned short _tokenType;
-    unsigned short _issuerKEMID;
-    unsigned short _issuerKDFID;
-    unsigned short _issuerAEADID;
-    NSData *_requestData;
-    NSData *_blindedRequest;
-    NSData *_issuerEncapKey;
-    NSData *_truncatedTokenKeyID;
-    NSData *_issuerEncapKeyID;
-    NSString *_originName;
-    NSData *_encryptedTokenRequest;
-    NSData *_requestKey;
-    NSData *_requestSignature;
-    struct __SecKey *_ephemeralPrivateKey;
-    struct cchpke_initiator *_hpkeContext;
-    NSData *_hpkeEnc;
 }
 
 - (void);

@@ -4,33 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AAAppleAccountInformationCache
 {
 }
 
-- (void);
-- (void);
-- (id);
-- (long long);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (long long);
+- (void)tr2 have bad type;
+- (void)%d;
+- (id)alControls unable to get server port;
+- (long long)ult = %d;
+- (void)mcxUsr_createeapclientprofile profileID = %s;
+- (_Bool)debug override;
+- (void)class;
+- (void)identity certificate found;
+- (id)parse XML content (%d);
+- (void)ecordViaManagedClient async returned;
+- (id)nseFlags = %d;
+- (_Bool)%s);
+- (long long)g account record in profile for payload %s (%s);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accountFullName;
-@property(readonly) _Bool isSignedIn;
 @property(readonly, nonatomic) long long primaryAccountSignInState;
-@property(readonly, nonatomic) NSString *profilePictureCacheURL;
 
 @end
 

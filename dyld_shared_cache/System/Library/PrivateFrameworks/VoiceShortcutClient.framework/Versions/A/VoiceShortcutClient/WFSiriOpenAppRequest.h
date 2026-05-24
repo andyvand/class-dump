@@ -13,11 +13,11 @@
     NSString *_bundleIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)__objc_doubleobj__AUTH_CONST;
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)kACAccountChangeTypeModified;
+- (id)H;
 - (void);
 
 // Remaining properties

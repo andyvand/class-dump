@@ -10,13 +10,12 @@ __attribute__((visibility("hidden")))
 @interface _NSTouchBarItemOverlayTouchInterceptionView : NSView
 {
     _Bool _strictInterception;
-    CDUnknownBlockType _touchInterceptor;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (CDUnknownBlockType);
 - (_Bool);
 - (void);
@@ -27,7 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property _Bool strictInterception; // @synthesize strictInterception=_strictInterception;
-@property(copy) CDUnknownBlockType touchInterceptor;
 
 @end
 

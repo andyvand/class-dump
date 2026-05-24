@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface WFChangeForecast
 {
     NSDate *_date;
-    NSString *_descriptionSameTimeZone;
-    NSString *_descriptionDifferentTimeZone;
 }
 
 + (_Bool);
@@ -20,13 +18,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)!;
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, nonatomic) NSString *descriptionDifferentTimeZone; // @synthesize descriptionDifferentTimeZone=_descriptionDifferentTimeZone;
-@property(readonly, nonatomic) NSString *descriptionSameTimeZone; // @synthesize descriptionSameTimeZone=_descriptionSameTimeZone;
 
 @end
 

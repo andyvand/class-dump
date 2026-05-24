@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSString;
 
 @interface PPPasteboardLocationItem
 {
     NSString *_text;
-    NSString *_bundleIdentifier;
-    NSDate *_createdAt;
-    NSDictionary *_addressComponents;
 }
 
-- (unsigned long long);
-- (void);
+- (unsigned long long)Ri;
+- (void)DocumentCamera;
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)updateTemporaryTransferGUIDsIfNeeded:(id)arg1;
+- (id)s;
 - (void);
 - (void);
 - (void)1Â0@ù
@@ -27,9 +24,6 @@
 - (id)òÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *addressComponents; // @synthesize addressComponents=_addressComponents;
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(copy, nonatomic) NSDate *createdAt; // @synthesize createdAt=_createdAt;
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

@@ -4,27 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DDActionContext, DDButtonBar, DDDataDetectorsViewHost, NSMapTable, NSProgressIndicator, NSRemoteView, NSURL;
-@protocol DDActionViewPresenter;
+@class NSRemoteView;
 
 @interface DDActionViewController
 {
     struct __DDResult *_ddResult;
-    NSURL *_url;
-    _Bool _local;
-    NSRemoteView *_remoteView;
-    _Bool _isObserving;
-    _Bool _bridgeBurnt;
-    _Bool _presentationEndedSignaled;
-    unsigned long long _actionType;
-    DDDataDetectorsViewHost *_localViewController;
-    NSMapTable *_localBridge;
-    DDActionContext *_actionContext;
-    DDButtonBar *_buttonBar;
-    id <DDActionViewPresenter> _presenter;
-    _Bool _editionMode;
-    _Bool _editedContent;
-    NSProgressIndicator *_spinner;
 }
 
 + (unsigned long long);
@@ -38,14 +22,14 @@
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
+- (void)G;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -59,7 +43,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)setConnectionTimeoutInterval:(_Bool)arg1;
 - (struct CGSize);
 - (void);
 - (void);
@@ -68,15 +52,7 @@
 - (_Bool);
 
 // Remaining properties
-@property _Bool editedContent; // @synthesize editedContent=_editedContent;
-@property _Bool editionMode; // @synthesize editionMode=_editionMode;
-@property _Bool local;
-@property __weak id <DDActionViewPresenter> presenter; // @synthesize presenter=_presenter;
 @property(retain) NSRemoteView *remoteView; // @synthesize remoteView=_remoteView;
-@property(readonly) _Bool shouldRetainExportedObject;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 
 @end
 

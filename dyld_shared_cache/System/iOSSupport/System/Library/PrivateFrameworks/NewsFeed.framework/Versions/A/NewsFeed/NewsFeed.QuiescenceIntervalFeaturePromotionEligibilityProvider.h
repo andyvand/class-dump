@@ -7,7 +7,6 @@
 @interface NewsFeed.QuiescenceIntervalFeaturePromotionEligibilityProvider
 {
     id requiredQuiescenceInterval;
-    id presentationArchive;
 }
 
 @end

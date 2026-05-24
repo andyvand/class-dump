@@ -4,26 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDAutocompleteEntry, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOStorageCompletion
 {
     PBUnknownFields *_unknownFields;
-    GEOPDAutocompleteEntry *_autocompleteEntry;
 }
 
 + (id);
-+ (_Bool)tion:(id)arg1;
++ (_Bool)setMatchedUsingOrganization:(id)arg1;
 - (void);
 - (id);
-- (void);
+- (void)J;
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)audioSessionController:(id)arg1 didReceiveAudioSessionMediaServicesWereResetNotificationWithUserInfo: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (void);
@@ -31,15 +30,13 @@
 - (_Bool);
 - (void);
 - (id)rsion="_layer"i"_version"Q"_has"{?="layer"b1"version"b1}};
-- (id)ypeSupported;
+- (id)hasMaxManeuverTypeSupported;
 - (id)GEOVLPrecision;
-- (id)D;
+- (id)CURRENTLY_CLOSED;
 - (void)$}ZEQ@;
 
 // Remaining properties
-@property(retain, nonatomic) GEOPDAutocompleteEntry *autocompleteEntry;
 @property(readonly, nonatomic) _Bool hasAutocompleteEntry;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface (extension in UIKit):__C.UIView.HybridPropertyAnimator.Keyframe__priv_951652591F802488C3A1E19FBAD6684F
 {
     id relativeStartTime;
-    id relativeDuration;
-    id animations;
-    id relativeFractionComplete;
 }
 
 @end

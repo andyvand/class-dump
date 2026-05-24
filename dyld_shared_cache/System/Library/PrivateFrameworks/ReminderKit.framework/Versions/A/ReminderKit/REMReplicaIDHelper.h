@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, REMReplicaIDSource, REMReplicaManager;
-@protocol REMReplicaClockProviding, REMReplicaIDHelperOwner, REMReplicaManagerProviding;
+@class REMReplicaIDSource;
+@protocol REMReplicaClockProviding;
 
 @interface REMReplicaIDHelper
 {
     id <REMReplicaClockProviding> _replicaClockProvider;
-    REMReplicaIDSource *_replicaIDSource;
-    id <REMReplicaIDHelperOwner> _owner;
-    NSUUID *_acquiredReplicaUUID;
-    id <REMReplicaManagerProviding> _lazilyCachedReplicaManagerProvider;
 }
 
 + (id);
@@ -35,27 +31,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)gramLibrary";
 - (id);
 - (void)Ñr ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *acquiredReplicaUUID; // @synthesize acquiredReplicaUUID=_acquiredReplicaUUID;
-@property(readonly, nonatomic) NSString *crdtID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <REMReplicaManagerProviding> lazilyCachedReplicaManagerProvider; // @synthesize lazilyCachedReplicaManagerProvider=_lazilyCachedReplicaManagerProvider;
-@property(nonatomic) __weak id <REMReplicaIDHelperOwner> owner; // @synthesize owner=_owner;
-@property(retain, nonatomic) id <REMReplicaClockProviding> replicaClockProvider; // @synthesize replicaClockProvider=_replicaClockProvider;
 @property(retain, nonatomic) REMReplicaIDSource *replicaIDSource; // @synthesize replicaIDSource=_replicaIDSource;
-@property(readonly, nonatomic) REMReplicaManager *replicaManager;
-@property(readonly, nonatomic) NSUUID *replicaUUID;
-@property(readonly) Class superclass;
 
 @end
 

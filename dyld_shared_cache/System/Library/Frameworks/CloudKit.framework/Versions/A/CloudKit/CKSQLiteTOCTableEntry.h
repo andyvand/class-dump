@@ -6,47 +6,33 @@
 
 #import <CloudKit/CKSQLiteTableEntry.h>
 
-@class NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @interface CKSQLiteTOCTableEntry : CKSQLiteTableEntry
 {
     NSNumber *_tableID;
-    NSString *_logicalTableName;
-    NSString *_dbTableName;
-    NSNumber *_groupID;
-    NSString *_schema;
-    NSNumber *_dbVersion;
-    NSString *_creatingClass;
-    NSDictionary *_propertyData;
 }
 
 + (Class);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)xgboost;
 - (id);
-- (void);
+- (void)�;
 - (void);
 - (void);
 - (id);
 - (void)$;
-- (id)tions;
+- (id)subscriptions;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *creatingClass; // @synthesize creatingClass=_creatingClass;
-@property(copy, nonatomic) NSString *dbTableName; // @synthesize dbTableName=_dbTableName;
-@property(retain, nonatomic) NSNumber *dbVersion; // @synthesize dbVersion=_dbVersion;
-@property(retain, nonatomic) NSNumber *groupID; // @synthesize groupID=_groupID;
-@property(copy, nonatomic) NSString *logicalTableName; // @synthesize logicalTableName=_logicalTableName;
-@property(retain, nonatomic) NSDictionary *propertyData; // @synthesize propertyData=_propertyData;
-@property(copy, nonatomic) NSString *schema; // @synthesize schema=_schema;
 @property(retain, nonatomic) NSNumber *tableID; // @synthesize tableID=_tableID;
 
 @end

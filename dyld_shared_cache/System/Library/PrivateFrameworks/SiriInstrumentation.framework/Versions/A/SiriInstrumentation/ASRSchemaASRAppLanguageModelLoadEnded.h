@@ -6,43 +6,32 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ASRSchemaASRAppLanguageModelLoadEnded : SISchemaInstrumentationMessage
 {
     unsigned long long _loadTimeInNs;
-    unsigned long long _foregroundCheckTimeInNs;
-    struct {
-        unsigned int loadTimeInNs:1;
-        unsigned int foregroundCheckTimeInNs:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)%;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (unsigned long long);
 - (void);
 - (void);
+- (_Bool);
+- (id)ionary",C,V_protocolDetails;
+- (void);
+- (unsigned long long);
+- (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id)iggerStart: /* Error: Ran out of types for this method. */;
+- (id)setTotalSamplesAtTriggerStart: /* Error: Ran out of types for this method. */;
 - (id)¨ä¬ ­;
 - (id)EN-ID;
 
 // Remaining properties
-@property(nonatomic) unsigned long long foregroundCheckTimeInNs; // @synthesize foregroundCheckTimeInNs=_foregroundCheckTimeInNs;
-@property(nonatomic) _Bool hasForegroundCheckTimeInNs;
-@property(nonatomic) _Bool hasLoadTimeInNs;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) unsigned long long loadTimeInNs; // @synthesize loadTimeInNs=_loadTimeInNs;
 
 @end

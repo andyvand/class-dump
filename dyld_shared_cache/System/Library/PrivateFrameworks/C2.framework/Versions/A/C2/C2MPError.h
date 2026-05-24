@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface C2MPError
 {
     long long _errorCode;
-    NSString *_errorDescription;
-    NSString *_errorDomain;
-    C2MPError *_underlyingError;
-    struct {
-        unsigned int errorCode:1;
-    } _has;
 }
 
-- (_Bool);
+- (_Bool)@9	;
 - (_Bool);
 - (id);
 - (void);
@@ -36,21 +28,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)Ŧ1;
 - (_Bool);
+- (void)_initWithAdditionsPresentOnURLDirectly:(long long)arg1 error: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (long long)Internal;
+- (long long)isAppleInternal;
 
 // Remaining properties
-@property(nonatomic) long long errorCode; // @synthesize errorCode=_errorCode;
-@property(retain, nonatomic) NSString *errorDescription; // @synthesize errorDescription=_errorDescription;
-@property(retain, nonatomic) NSString *errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) _Bool hasErrorDescription;
 @property(readonly, nonatomic) _Bool hasErrorDomain;
-@property(readonly, nonatomic) _Bool hasUnderlyingError;
-@property(retain, nonatomic) C2MPError *underlyingError; // @synthesize underlyingError=_underlyingError;
 
 @end
 

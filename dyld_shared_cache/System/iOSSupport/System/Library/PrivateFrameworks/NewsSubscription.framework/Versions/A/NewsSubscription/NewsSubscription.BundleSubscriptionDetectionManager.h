@@ -7,18 +7,12 @@
 @interface NewsSubscription.BundleSubscriptionDetectionManager
 {
     id completionEventManager;
-    id configurationManager;
-    id bundleSubscriptionManager;
-    id postPurchaseOnboardingManager;
-    id router;
-    id presentationOperationManager;
-    id userInfo;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)id='%@_bounds'];
 - (void);
 
 @end

@@ -6,35 +6,11 @@
 
 #import <PencilKit/PKPaletteToolView.h>
 
-@class NSLayoutConstraint, NSString, PKInk, PKPaletteAttributeViewController, PKToolConfiguration, UIImage, UIImageView, UILabel;
-@protocol PKPaletteErasingTool, PKPaletteHandwritingTool, PKPaletteInkingTool;
+@class PKInk, PKPaletteAttributeViewController;
 
 @interface PKPaletteInkingToolView : PKPaletteToolView
 {
     PKPaletteAttributeViewController *_attributeViewController;
-    PKInk *_ink;
-    UIImageView *_colorIndicatorImageView;
-    UIImage *_colorIndicatorImageUp;
-    UIImage *_colorIndicatorImageRight;
-    UIImage *_colorIndicatorImageLeft;
-    UIImageView *_colorIndicatorContourImageView;
-    UIImage *_colorIndicatorContourImageUp;
-    UIImage *_colorIndicatorContourImageRight;
-    UIImage *_colorIndicatorContourImageLeft;
-    UIImageView *_tipIndicatorImageView;
-    UIImage *_toolTipImageUp;
-    UIImage *_toolTipImageRight;
-    UIImage *_toolTipImageLeft;
-    UIImageView *_tipIndicatorContourImageView;
-    UIImage *_toolTipContourImageUp;
-    UIImage *_toolTipContourImageRight;
-    UIImage *_toolTipContourImageLeft;
-    UILabel *_opacityLabel;
-    NSLayoutConstraint *_opacityLabelTopConstraint;
-    NSLayoutConstraint *_opacityLabelLeftConstraint;
-    NSLayoutConstraint *_opacityLabelRightConstraint;
-    NSLayoutConstraint *_opacityLabelCenterXConstraint;
-    NSLayoutConstraint *_opacityLabelCenterYConstraint;
 }
 
 - (id);
@@ -122,43 +98,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UIImage *colorIndicatorContourImageLeft; // @synthesize colorIndicatorContourImageLeft=_colorIndicatorContourImageLeft;
-@property(retain, nonatomic) UIImage *colorIndicatorContourImageRight; // @synthesize colorIndicatorContourImageRight=_colorIndicatorContourImageRight;
-@property(retain, nonatomic) UIImage *colorIndicatorContourImageUp; // @synthesize colorIndicatorContourImageUp=_colorIndicatorContourImageUp;
-@property(retain, nonatomic) UIImageView *colorIndicatorContourImageView; // @synthesize colorIndicatorContourImageView=_colorIndicatorContourImageView;
-@property(retain, nonatomic) UIImage *colorIndicatorImageLeft; // @synthesize colorIndicatorImageLeft=_colorIndicatorImageLeft;
-@property(retain, nonatomic) UIImage *colorIndicatorImageRight; // @synthesize colorIndicatorImageRight=_colorIndicatorImageRight;
-@property(retain, nonatomic) UIImage *colorIndicatorImageUp; // @synthesize colorIndicatorImageUp=_colorIndicatorImageUp;
-@property(retain, nonatomic) UIImageView *colorIndicatorImageView; // @synthesize colorIndicatorImageView=_colorIndicatorImageView;
-@property(readonly, nonatomic) PKToolConfiguration *configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <PKPaletteErasingTool> erasingTool;
-@property(readonly, nonatomic) id <PKPaletteHandwritingTool> handwritingTool;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) PKInk *ink; // @synthesize ink=_ink;
-@property(readonly, nonatomic) id <PKPaletteInkingTool> inkingTool;
-@property(readonly, nonatomic) NSString *itemIdentifier;
-@property(retain, nonatomic) UILabel *opacityLabel; // @synthesize opacityLabel=_opacityLabel;
-@property(retain, nonatomic) NSLayoutConstraint *opacityLabelCenterXConstraint; // @synthesize opacityLabelCenterXConstraint=_opacityLabelCenterXConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *opacityLabelCenterYConstraint; // @synthesize opacityLabelCenterYConstraint=_opacityLabelCenterYConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *opacityLabelLeftConstraint; // @synthesize opacityLabelLeftConstraint=_opacityLabelLeftConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *opacityLabelRightConstraint; // @synthesize opacityLabelRightConstraint=_opacityLabelRightConstraint;
-@property(retain, nonatomic) NSLayoutConstraint *opacityLabelTopConstraint; // @synthesize opacityLabelTopConstraint=_opacityLabelTopConstraint;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIImageView *tipIndicatorContourImageView; // @synthesize tipIndicatorContourImageView=_tipIndicatorContourImageView;
-@property(retain, nonatomic) UIImageView *tipIndicatorImageView; // @synthesize tipIndicatorImageView=_tipIndicatorImageView;
-@property(readonly, nonatomic) NSString *toolIdentifier;
-@property(retain, nonatomic) UIImage *toolTipContourImageLeft; // @synthesize toolTipContourImageLeft=_toolTipContourImageLeft;
-@property(retain, nonatomic) UIImage *toolTipContourImageRight; // @synthesize toolTipContourImageRight=_toolTipContourImageRight;
-@property(retain, nonatomic) UIImage *toolTipContourImageUp; // @synthesize toolTipContourImageUp=_toolTipContourImageUp;
-@property(retain, nonatomic) UIImage *toolTipImageLeft; // @synthesize toolTipImageLeft=_toolTipImageLeft;
-@property(retain, nonatomic) UIImage *toolTipImageRight; // @synthesize toolTipImageRight=_toolTipImageRight;
-@property(retain, nonatomic) UIImage *toolTipImageUp; // @synthesize toolTipImageUp=_toolTipImageUp;
-@property(readonly, nonatomic) NSString *toolVariant;
 
 @end
 

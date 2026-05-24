@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
 @protocol CRKTransportProviding;
 
 @interface CRKFailIfSimulatorTransportProvider
 {
     id <CRKTransportProviding> _baseProvider;
-    NSError *_failureError;
 }
 
 - (id);
@@ -22,14 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <CRKTransportProviding> baseProvider; // @synthesize baseProvider=_baseProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSError *failureError; // @synthesize failureError=_failureError;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

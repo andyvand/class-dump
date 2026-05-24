@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface WebSharingServicePickerController
 {
     struct WebSharingServicePickerClient *_pickerClient;
-    struct RetainPtr<NSSharingServicePicker> _picker;
-    _Bool _includeEditorServices;
-    _Bool _handleEditingReplacement;
 }
 
 - (id);
@@ -20,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (struct CGRect);
@@ -30,16 +25,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)
 × ;
-- (id)tactPickerAPIEnabled;
+- (id)contactPickerAPIEnabled;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -10,11 +10,11 @@
 {
 }
 
-+ (Class);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
++ (Class)_positionTime;
+- (void)v28@0:(_Bool)arg1 8B16@20;
+- (void)updateReceivedBlackholeError:(_Bool)arg1;
+- (_Bool)didFailToHandleMappingPacket:error: /* Error: Ran out of types for this method. */;
+- (_Bool)deleteBIAContext;
 - (id);
 
 // Remaining properties

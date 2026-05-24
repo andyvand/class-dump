@@ -6,12 +6,11 @@
 
 #import <Mail/MFEWSResponseOperation.h>
 
-@class EWSGetUserOofSettingsResponseType, EWSUserOofSettingsType;
+@class EWSUserOofSettingsType;
 
 @interface MFEWSGetUserOofSettingsResponseOperation : MFEWSResponseOperation
 {
     EWSUserOofSettingsType *_oofSettings;
-    long long _allowExternalOof;
 }
 
 - (void);
@@ -25,9 +24,7 @@
 - (void);
 
 // Remaining properties
-@property long long allowExternalOof; // @synthesize allowExternalOof=_allowExternalOof;
 @property(retain) EWSUserOofSettingsType *oofSettings; // @synthesize oofSettings=_oofSettings;
-@property(retain) EWSGetUserOofSettingsResponseType *response;
 
 @end
 

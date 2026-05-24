@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKAvailabilitySpan, NSDate;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface EKAvailabilityCachedSpan
 {
     NSDate *_creationDate;
-    EKAvailabilitySpan *_span;
 }
 
-- (void);
-- (id);
+- (void)ySession] NotifyOutputDevicesChanged took %lf seconds;
+- (id)Destination;
 - (id);
 - (id);
 - (id);
@@ -24,7 +23,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(retain, nonatomic) EKAvailabilitySpan *span; // @synthesize span=_span;
 
 @end
 

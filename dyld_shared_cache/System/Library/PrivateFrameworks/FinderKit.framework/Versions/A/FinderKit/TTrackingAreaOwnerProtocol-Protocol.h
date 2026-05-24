@@ -5,5 +5,8 @@
 //
 
 @protocol TTrackingAreaOwnerProtocol
+
+@optional
+- (void)_TtCFC4Mail18PersistenceAdaptorP33_611B079A647E910E896E9F7831BE795340downloadMessagesForCrossAccountTransfersFGSaCSo20ECLocalMessageAction_T_L_14TransferResult;
 @end
 

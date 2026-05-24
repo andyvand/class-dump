@@ -9,8 +9,8 @@
     CDUnknownBlockType _throughputReportBlock;
 }
 
-+ (id);
-+ (id);
++ (id)__AUTH_CONST;
++ (id);
 + (id);
 - (_Bool);
 - (id);
@@ -21,13 +21,12 @@
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)rsion;
+- (id)metadata;
 - (void);
 
 // Remaining properties
 @property(readonly) _Bool isCancelled;
-@property(copy, nonatomic) CDUnknownBlockType throughputReportBlock; // @synthesize throughputReportBlock=_throughputReportBlock;
 
 @end
 

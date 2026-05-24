@@ -9,10 +9,6 @@
 @interface SKPurchaseIntent
 {
     id bundleID;
-    id productID;
-    id appName;
-    id productName;
-    void additionalBuyParams;
 }
 
 - (void);

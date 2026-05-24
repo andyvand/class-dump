@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (float);
+- (float);
 
 @end
 

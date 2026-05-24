@@ -5,5 +5,9 @@
 //
 
 @protocol NSCloudSharingServiceDelegate
+
+@optional
+- (void);
+- (unsigned long long)FDR failed to decode multi combined Data img4;
 @end
 

@@ -4,43 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface BWTOFAssistedAutoFocusEstimatorAnalyticsPayload
 {
     NSString *_portType;
-    NSString *_clientApplicationID;
-    NSDictionary *_estimatorResults;
-    unsigned int _streamingTime;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)PDRootTimeNode;
 - (unsigned int);
 - (void);
 - (id);
-- (void);
+- (void)ject reminder from other device;
 - (id);
-- (id);
+- (id)ta:%{public}@ /* Error: Ran out of types for this method. */;
 - (id)?-#ÿG+ ÿR+ÿ\-!ÿf."ÿo."ÿw."ÿ-"ÿ,!ÿ+ ÿ*ÿ£(ÿ«%ÿ³"ÿ»ÿÃÿÌÿÔ;
 - (id)abilizationMethod:stabilizationType:ispProcessingSession:maxSupportedFrameRate:activeMaxFrameRate:gpuPriority:metalSubmissionAndCompletionQueuePriority:motionAttachmentsSource:fillExtendedRowsOfOutputBuffer:overCaptureEnabled:stereoMode:videoStabilizationOverscanOverride:videoStabilizationStrength:zoomSmoothingEnabled:applyFrameCropOffset:motionMetadataPreloadingEnabled:visExecutionMode:livePhotoCleanOutputRect:cameraInfoByPortType:cvisExtendedLookAheadDuration:distortionCorrectionEnabledPortTypes:distortionCompensationEnabledPortTypes:minDistanceForBravoParallaxShift:videoGreenGhostOfflineMetadataEnabled:videoGreenGhostOfflineLightSourceMaskEnabled:lightSourceMaskAndKeypointDescriptorDataEnabled:attachStabilizedOutputCameraTrajectory:systemIsUnderCriticalThermalPressure:faceAwareVideoStabilizationEnabled:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *clientApplicationID; // @synthesize clientApplicationID=_clientApplicationID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDictionary *estimatorResults; // @synthesize estimatorResults=_estimatorResults;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSString *portType; // @synthesize portType=_portType;
-@property(nonatomic) unsigned int streamingTime; // @synthesize streamingTime=_streamingTime;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBPayloadConfirmation, _INPBPayloadNeedsDisambiguation, _INPBPayloadNeedsExecuteIntent, _INPBPayloadNeedsValue, _INPBPayloadSuccess, _INPBPayloadUnsupported;
+@class _INPBPayloadConfirmation;
 
 @interface _INPBIntentSlotResolutionResult
 {
     CDStruct_f953fb60 _has;
-    int _type;
-    _INPBPayloadConfirmation *_payloadConfirmation;
-    _INPBPayloadNeedsDisambiguation *_payloadNeedsDisambiguation;
-    _INPBPayloadNeedsExecuteIntent *_payloadNeedsExecuteIntent;
-    _INPBPayloadNeedsValue *_payloadNeedsValue;
-    _INPBPayloadSuccess *_payloadSuccess;
-    _INPBPayloadUnsupported *_payloadUnsupported;
 }
 
 + (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)/;
 - (void);
 - (void);
 - (void);
@@ -44,37 +37,17 @@
 - (int);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id);
 - (int);
-- (id);
-- (_Bool)ssage;
+- (id)_intentExecution;
+- (_Bool)_INPBMessage;
 - (void)° ¢;
-- (void)nd;
+- (void)INDeleteHealthSampleIntentResponseCodeFailureUUIDNotFound;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasPayloadConfirmation;
-@property(readonly, nonatomic) _Bool hasPayloadNeedsDisambiguation;
-@property(readonly, nonatomic) _Bool hasPayloadNeedsExecuteIntent;
-@property(readonly, nonatomic) _Bool hasPayloadNeedsValue;
-@property(readonly, nonatomic) _Bool hasPayloadSuccess;
-@property(readonly, nonatomic) _Bool hasPayloadUnsupported;
-@property(nonatomic) _Bool hasType;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBPayloadConfirmation *payloadConfirmation; // @synthesize payloadConfirmation=_payloadConfirmation;
-@property(retain, nonatomic) _INPBPayloadNeedsDisambiguation *payloadNeedsDisambiguation; // @synthesize payloadNeedsDisambiguation=_payloadNeedsDisambiguation;
-@property(retain, nonatomic) _INPBPayloadNeedsExecuteIntent *payloadNeedsExecuteIntent; // @synthesize payloadNeedsExecuteIntent=_payloadNeedsExecuteIntent;
-@property(retain, nonatomic) _INPBPayloadNeedsValue *payloadNeedsValue; // @synthesize payloadNeedsValue=_payloadNeedsValue;
-@property(retain, nonatomic) _INPBPayloadSuccess *payloadSuccess; // @synthesize payloadSuccess=_payloadSuccess;
-@property(retain, nonatomic) _INPBPayloadUnsupported *payloadUnsupported; // @synthesize payloadUnsupported=_payloadUnsupported;
-@property(readonly) Class superclass;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

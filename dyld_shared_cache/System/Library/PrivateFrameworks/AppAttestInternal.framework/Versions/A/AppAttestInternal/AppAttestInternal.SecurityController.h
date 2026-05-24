@@ -7,9 +7,6 @@
 @interface AppAttestInternal.SecurityController
 {
     id logger;
-    id auditToken;
-    id $__lazy_storage_$_secTask;
-    id $__lazy_storage_$_selfSecTask;
 }
 
 - (id);

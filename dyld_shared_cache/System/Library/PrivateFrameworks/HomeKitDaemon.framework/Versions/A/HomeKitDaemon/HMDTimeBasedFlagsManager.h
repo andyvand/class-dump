@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDPersistentStore, HMMDateProvider, NSMutableDictionary, NSObject, NSString;
-@protocol HMDTimeBasedFlagsStoring, OS_dispatch_queue;
+@class HMDPersistentStore, HMMDateProvider;
 
 __attribute__((visibility("hidden")))
 @interface HMDTimeBasedFlagsManager
 {
     HMDPersistentStore *_persistentStore;
-    struct os_unfair_lock_s _lock;
-    HMMDateProvider *_dateProvider;
-    NSMutableDictionary *_flags;
-    id <HMDTimeBasedFlagsStoring> _flagsStorage;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (id);
@@ -23,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -31,27 +25,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void)Áß!ÐFùñ°1Â0@ù
 × ;
-- (id)dentifier: /* Error: Ran out of types for this method. */;
-- (void)Submitter;
+- (id)getAccessoryCacheForIdentifier: /* Error: Ran out of types for this method. */;
+- (void)HMDHH2AutoMigrationEligibilityLogEventSubmitter;
 - (void)>BCHEôH;
 - (id)ta request, no primary home;
 - (id)configured group update for accessory:(id)arg1 %{uuid_t}.16P;
 - (id)s;
-- (void)ayloadError;
+- (void)HMDDataStreamMessageStatusPayloadError;
 - (id)startNotificationHandlerTasks();
 
 // Remaining properties
 @property(retain) HMMDateProvider *dateProvider; // @synthesize dateProvider=_dateProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableDictionary *flags; // @synthesize flags=_flags;
-@property(readonly) id <HMDTimeBasedFlagsStoring> flagsStorage; // @synthesize flagsStorage=_flagsStorage;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 - (double);
 - (struct CGSize);
 - (struct CGSize);
-- (id);
+- (id)_list_deallocator<std:(struct CGRect)arg1:allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<SwiftFieldKey, unsigned int>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<SwiftFieldKey, unsigned int>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<SwiftFieldKey, unsigned int>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -12,8 +12,8 @@
 
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)`;
+- (void)A;
 
 @end
 

@@ -11,25 +11,21 @@
 @interface AKAuthorizationRVSWindowController : AKPromptWindowController
 {
     AKCredentialRequestContext *_credentialRequestContext;
-    AKAuthorizationRVSBootstrapper *_helper;
-    CDUnknownBlockType _completion;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)tore>";
+- (void)spotlightActivityMonitorQueryProviderWithBlock:(id)arg1;
+- (void)setInitialTotalChats:(CDUnknownBlockType)arg1;
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(readonly, nonatomic) AKCredentialRequestContext *credentialRequestContext; // @synthesize credentialRequestContext=_credentialRequestContext;
 @property(retain, nonatomic) AKAuthorizationRVSBootstrapper *helper; // @synthesize helper=_helper;
 
 @end

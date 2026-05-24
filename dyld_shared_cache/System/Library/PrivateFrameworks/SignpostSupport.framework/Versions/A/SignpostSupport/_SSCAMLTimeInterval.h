@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface _SSCAMLTimeInterval
 {
     NSDate *_startDate;
-    NSDate *_endDate;
-    unsigned long long _startMachContinuousTime;
-    unsigned long long _endMachContinuousTime;
-    double _timebaseRatio;
 }
 
-- (double);
+- (double);
 - (double);
 - (unsigned long long);
 - (id);
@@ -25,7 +21,7 @@
 - (unsigned long long);
 - (double);
 - (id);
-- (double);
+- (double);
 - (float);
 - (unsigned long long);
 - (unsigned long long);
@@ -38,18 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, nonatomic) unsigned long long endMachContinuousTime; // @synthesize endMachContinuousTime=_endMachContinuousTime;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 @property(readonly, nonatomic) unsigned long long startMachContinuousTime; // @synthesize startMachContinuousTime=_startMachContinuousTime;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) double timebaseRatio; // @synthesize timebaseRatio=_timebaseRatio;
 
 @end
 

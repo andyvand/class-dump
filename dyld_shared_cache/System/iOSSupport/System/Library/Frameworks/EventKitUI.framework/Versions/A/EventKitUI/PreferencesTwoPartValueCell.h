@@ -6,30 +6,24 @@
 
 #import <EventKitUI/EKUITableViewCell.h>
 
-@class TwoPartTextLabel, UIColor, UILabel;
-@protocol EKCellShortener;
+@class TwoPartTextLabel;
 
 @interface PreferencesTwoPartValueCell : EKUITableViewCell
 {
     TwoPartTextLabel *_twoPartLabel;
-    unsigned int _notifiedShort;
-    UILabel *_largePart2TextLabel;
-    _Bool _strikeThroughLargeDetailTextLabel;
-    _Bool _strikeThroughLargePart2TextLabel;
-    id <EKCellShortener> _shortener;
 }
 
-- (id);
-- (id);
+- (id)Y%s;
+- (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
+- (void)Y%s;
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
+- (id)D%s;
+- (void)s;
 - (void);
 - (void);
 - (struct CGSize);
@@ -38,12 +32,7 @@
 - (void)4i28;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) UILabel *largePart2TextLabel;
-@property(nonatomic) __weak id <EKCellShortener> shortener; // @synthesize shortener=_shortener;
-@property(nonatomic) _Bool strikeThroughLargeDetailTextLabel; // @synthesize strikeThroughLargeDetailTextLabel=_strikeThroughLargeDetailTextLabel;
-@property(nonatomic) _Bool strikeThroughLargePart2TextLabel; // @synthesize strikeThroughLargePart2TextLabel=_strikeThroughLargePart2TextLabel;
 @property(readonly, retain, nonatomic) TwoPartTextLabel *twoPartTextLabel;
-@property(readonly, retain, nonatomic) UIColor *valueColor;
 
 @end
 

@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet;
-
 __attribute__((visibility("hidden")))
 @interface _NSServiceRequestorInfo
 {
     id requestor;
-    NSMutableSet *sendTypes;
-    NSMutableArray *serviceEntries;
 }
 
-- (id);
+- (id)�;
 - (void);
 
 @end

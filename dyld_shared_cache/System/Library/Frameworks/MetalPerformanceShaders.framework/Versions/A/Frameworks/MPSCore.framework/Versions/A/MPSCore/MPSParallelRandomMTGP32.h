@@ -11,32 +11,21 @@
 @interface MPSParallelRandomMTGP32 : MPSParallelRandom
 {
     id <MTLBuffer> _state;
-    id <MTLBuffer> _pShift1;
-    id <MTLBuffer> _pShift2;
-    id <MTLBuffer> _pMR;
-    id <MTLBuffer> _pMT;
-    id <MTLBuffer> _pM;
-    id <MTLBuffer> _pStateIdx;
-    float _bernoulliParameter;
-    float _uniformMin;
-    float _uniformMax;
-    float _normalMean;
-    float _normalStandardDeviation;
 }
 
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)?;
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
+- (void);
+- (id)�;
 
 @end
 

@@ -5,5 +5,9 @@
 //
 
 @protocol GEOTileDBObserver
+
+@optional
+- (void);
+- (void)];
 @end
 

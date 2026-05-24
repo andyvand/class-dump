@@ -11,7 +11,7 @@
 }
 
 - (void);
-- (id);
+- (id)getting shared services!;
 - (void);
 
 @end

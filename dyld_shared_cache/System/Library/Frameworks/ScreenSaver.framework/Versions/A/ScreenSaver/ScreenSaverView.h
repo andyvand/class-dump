@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer, NSWindow;
+@class NSTimer;
 @protocol ScreenSaverViewDelegate;
 
 @interface ScreenSaverView
 {
     NSTimer *_animationTimer;
-    double _timeInterval;
-    _Bool _isPreview;
-    void *_reserved1;
-    void *_reserved2;
-    void *_reserved3;
-    id <ScreenSaverViewDelegate> _delegate;
 }
 
 + (_Bool);
@@ -39,30 +33,25 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
+- (void)effectSelectedWithIdentifier:(_Bool)arg1;
+- (_Bool)re flag is turned off;
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
+- (_Bool)!;
 - (_Bool);
+- (id)systemBecameInactive;
 - (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, getter=isAnimating) _Bool animating;
-@property double animationTimeInterval;
-@property(readonly) NSWindow *configureSheet;
 @property(nonatomic) __weak id <ScreenSaverViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) _Bool hasConfigureSheet;
-@property(readonly, getter=isPreview) _Bool preview;
 
 @end
 

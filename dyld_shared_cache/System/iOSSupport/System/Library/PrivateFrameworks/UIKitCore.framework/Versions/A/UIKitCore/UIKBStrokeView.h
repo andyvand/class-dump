@@ -14,10 +14,10 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_points;
 }
 
+- (void)ileTransfer_CKRecord ***** Failed to grab hash of file at path:%@ with exception:%@ when validating attachment /* Error: Ran out of types for this method. */;
+- (void);
 - (void);
-- (void);
-- (void);
-- (id)ortFormatter;
+- (id)_shortFormatter;
 - (void);
 
 @end

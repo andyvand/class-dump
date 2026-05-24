@@ -6,14 +6,12 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INDeleteAlarmIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
++ (int)_iconVariant;
++ (int);
 + (long long);
 + (_Bool);
 + (_Bool);
@@ -23,22 +21,15 @@
 - (id);
 - (long long);
 - (id);
+- (id)_miceCollection;
+- (id)X;
+- (void)pple.Orange_pl.5ceb0a5e-d474-11eb-a924-f45c89abb0d9;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)adataINIntentParameterMetadataCurrencyCodes;
+- (long long)__INCodableCurrencyAmountAttributeMetadataINIntentParameterMetadataCurrencyCodes;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

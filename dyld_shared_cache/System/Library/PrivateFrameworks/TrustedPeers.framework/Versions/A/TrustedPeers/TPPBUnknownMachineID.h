@@ -10,12 +10,13 @@
 
 - (id);
 - (void);
-- (void);
+- (void)__DATA_CONST;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void)ed to get the denylisted information for Suica, invalid (block2) block:(id)arg1 %@;
+- (id)n artwork MIME type %'@.
+;
 - (id);
 
 @end

@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IATextInputActionsInputMode, NSDictionary, NSString, NSUUID;
+@class NSDictionary, NSString;
 
 @protocol IATextInputActionsMetadataObserving
+- (void)l;
+- (NSString *);
 - (void)¡ì/Ð!L@ùñá3°1Â0@ù
 × ;
-- (long long)iew;
-- (void)lTouchesRemoving:(NSString *)arg1;
-- (NSDictionary *)ismissType: /* Error: Ran out of types for this method. */;
-- (NSString *);
+- (long long)designatedFocusRingView;
+- (void)_cancelAllTouchesRemoving:(NSString *)arg1;
+- (NSDictionary *)setDismissType: /* Error: Ran out of types for this method. */;
 - (void)archFieldWidth)];
 - (void)x%08x;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appBundleId;
-@property(nonatomic) long long flagOptions;
-@property(retain, nonatomic) IATextInputActionsInputMode *inputMode;
-@property(copy, nonatomic) NSDictionary *keyboardTrialParameters;
-@property(copy, nonatomic) NSString *processBundleId;
-@property(retain, nonatomic) NSUUID *sessionIdentifier;
 @property(nonatomic) long long source;
 @end
 

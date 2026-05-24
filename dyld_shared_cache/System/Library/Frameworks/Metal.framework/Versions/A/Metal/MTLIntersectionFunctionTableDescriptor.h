@@ -11,13 +11,24 @@
 + (id);
 + (id);
 + (id)L;
-- (void);
+- (void):cLo;
+  cHi = (mLo > 0.5) ? c2 :cHi;
+  cLo = (mLo > 1.500) ? c2 :cLo;
+  cHi = (mLo > 1.500) ? c3 :cHi;
+  cLo = (mLo > 2.500) ? c3 :cLo;
+  cHi = (mLo > 2.500) ? c4 :cHi;
+  cLo = (mLo > 3.500) ? c4 :cLo;
+  cHi = (mLo > 3.500) ? c5 :cHi;
+  cLo = (mLo > 4.500) ? c5 :cLo;
+  cHi = (mLo > 4.500) ? c6 :cHi;
+  cLo = (mLo > 5.500) ? c6 :cLo;
+  return mix(cLo, cHi, m - mLo);
+}
+ /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
 @property(nonatomic) _Bool forceResourceIndex; // @dynamic forceResourceIndex;
-@property(nonatomic) unsigned long long functionCount; // @dynamic functionCount;
-@property(nonatomic) unsigned long long resourceIndex; // @dynamic resourceIndex;
 
 @end
 

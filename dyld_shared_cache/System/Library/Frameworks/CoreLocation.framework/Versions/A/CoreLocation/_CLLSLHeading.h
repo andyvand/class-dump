@@ -4,52 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _CLLSLHeadingSupplInfo, _CLLSLLocation;
-
 @interface _CLLSLHeading
 {
     double _timestamp;
-    double _confidence;
-    unsigned long long _globalReferenceFrame;
-    _CLLSLLocation *_location;
-    _CLLSLHeadingSupplInfo *_supplemantaryInfo;
-    id _rotationalAccuracyInRadians;
-    CDStruct_1fe29af2 _rotationFromGlobalToDeviceFrame;
-    CDStruct_1fe29af2 _rotationFromGlobalToCameraFrame;
 }
 
 + (_Bool);
-- (id);
+- (id);
+- (void)v;
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
+- (id)5;
 - (unsigned long long);
 - (id);
-- (CDStruct_1fe29af2);
+- (CDStruct_c27faaab);
 - (void);
-- (CDStruct_1fe29af2);
-- (void);
+- (CDStruct_c27faaab);
+- (void)scale image (cs:%d)
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (double);
 - (void);
 - (void);
-- (id);
+- (id)setPreprocessorMacros:(struct _NSZone *)arg1;
 - (double);
 - (void);
 - (id);
 - (void)\3&¦<;
 
 // Remaining properties
-@property(nonatomic) double confidence; // @synthesize confidence=_confidence;
-@property(nonatomic) unsigned long long globalReferenceFrame; // @synthesize globalReferenceFrame=_globalReferenceFrame;
-@property(copy, nonatomic) _CLLSLLocation *location; // @synthesize location=_location;
-@property(nonatomic) CDStruct_1fe29af2 rotationFromGlobalToCameraFrame; // @synthesize rotationFromGlobalToCameraFrame=_rotationFromGlobalToCameraFrame;
-@property(nonatomic) CDStruct_1fe29af2 rotationFromGlobalToDeviceFrame; // @synthesize rotationFromGlobalToDeviceFrame=_rotationFromGlobalToDeviceFrame;
-@property(nonatomic) id rotationalAccuracyInRadians; // @synthesize rotationalAccuracyInRadians=_rotationalAccuracyInRadians;
-@property(copy, nonatomic) _CLLSLHeadingSupplInfo *supplemantaryInfo; // @synthesize supplemantaryInfo=_supplemantaryInfo;
 @property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end

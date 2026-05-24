@@ -9,7 +9,7 @@
 }
 
 + (id);
-+ (id);
++ (id)container %@:%@ /* Error: Ran out of types for this method. */;
 
 @end
 

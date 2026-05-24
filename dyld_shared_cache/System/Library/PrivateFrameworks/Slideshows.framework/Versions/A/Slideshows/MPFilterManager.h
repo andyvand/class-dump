@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface MPFilterManager
 {
     NSMutableDictionary *mFilters;
-    NSArray *mFilterCategories;
-    NSMutableDictionary *mFilterPresets;
 }
 
 + (void);
-+ (void);
++ (void)h;
 + (id);
-- (id);
+- (id)N,V_envelopeStore;
 - (id);
 - (id);
 - (id);

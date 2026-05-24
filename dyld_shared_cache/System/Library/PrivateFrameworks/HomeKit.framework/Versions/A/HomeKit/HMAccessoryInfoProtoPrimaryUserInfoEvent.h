@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface HMAccessoryInfoProtoPrimaryUserInfoEvent
 {
     int _selectionType;
-    NSString *_uuidString;
-    struct {
-        unsigned int selectionType:1;
-    } _has;
 }
 
 - (void);
@@ -24,22 +18,19 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool)B;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)differentiable;
 - (void);
 - (void);
 - (id);
-- (id);
-- (void)rUser:(id)arg1;
+- (id)-;
+- (void)_notifyDelegateOfAccessoryInvitationsUpdateForUser:(id)arg1;
 - (id)SNumber",C,V_nodeID;
 - (void)file accessory;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSelectionType;
 @property(readonly, nonatomic) _Bool hasUuidString;
-@property(nonatomic) int selectionType; // @synthesize selectionType=_selectionType;
-@property(retain, nonatomic) NSString *uuidString; // @synthesize uuidString=_uuidString;
 
 @end
 

@@ -4,64 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnectionEndpointInjector, NSMutableArray, NSString, RBSTarget, UIView, UIWindow;
+@class RBSTarget;
 @protocol UIInteractionEffect;
 
 @interface _UIVisibilityPropagationInteraction
 {
     RBSTarget *_visibilityLock_target;
-    UIView *_visibilityLock_view;
-    UIWindow *_visibilityLock_window;
-    NSMutableArray *_visibilityLock_windowChangeNotifications;
-    NSString *_visibilityLock_windowEnvironment;
-    NSString *_visibilityLock_sourceEnvironment;
-    RBSTarget *_visibilityProcessingLock_target;
-    NSString *_visibilityProcessingLock_sourceEnvironment;
-    BSServiceConnectionEndpointInjector *_visibilityProcessingLock_endpointInjector;
-    struct os_unfair_lock_s _visibilityLock;
-    struct os_unfair_lock_s _visibilityProcessingLock;
-    _Bool _visibilityLock_enabled;
-    _Bool _visibilityLock_isTrackingView;
-    _Bool _visibilityLock_isViewVisible;
-    _Bool _visibilityLock_isTrackingWindow;
-    _Bool _visibilityLock_updateEnqueued;
-    _Bool _visibilityLock_invalidated;
 }
 
 + (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (void)SDictionary"@"NSError">24;
+- (void)8;
+- (void)Array"16@"IMDIndexingContext"24@?<v@?@"NSError">32;
+- (_Bool)@?<v@?@"NSNumber">16;
+- (_Bool)lientState"@"NSError">16;
+- (void)v64@0:8@16Q24Q32q40@48@?56 /* Error: Ran out of types for this method. */;
+- (void)isOffGridModeWithCompletion:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (_Bool);
-- (void)w: /* Error: Ran out of types for this method. */;
-- (id)ewIsAppearing:skipWindowCheck: /* Error: Ran out of types for this method. */;
+- (void)_updateTextEffectsGeometries:textEffectsWindow: /* Error: Ran out of types for this method. */;
+- (id)__viewIsAppearing:skipWindowCheck: /* Error: Ran out of types for this method. */;
 - (void)n of enforcing column preferences for scene resize;
 - (void);
 - (void)w;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) id <UIInteractionEffect> interactionEffect;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"<UIInteractionEffect>",?,&,N
 
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIView *view;
 
 @end
 

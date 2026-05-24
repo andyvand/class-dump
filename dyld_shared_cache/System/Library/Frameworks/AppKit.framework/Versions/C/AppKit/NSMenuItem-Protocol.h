@@ -4,17 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSMenu, NSString;
+@class NSAttributedString, NSImage, NSMenu, NSMenuItem, NSString;
 
 @protocol NSMenuItem
++ (NSMenuItem *)@;
+- (NSString *);
+- (void);
+- (void)1;
+- (void)JJKJ	KJ=IJs2;
+- (void)H	;
+- (NSImage *)FaceTimePreferredDecoding;
+- (NSImage *)ExtendedLOMMacAddress;
+- (unsigned long long)on to CommCenter;
+- (NSString *)ot establish connection to CommCenter;
+- (_Bool)1xs1bQ+9eTk8tlRvG9UKw;
+- (NSMenu *)_allowsConstrainedNetworkAccess;
+- (NSImage *)NSURLSessionSubclass;
+- (NSString *)a;
+- (NSString *)@;
 - (void)0@ù
 × ;
 - (void);
 - (SEL)x¼;
 - (void);
 - (NSString *)¥ýÿÔ¥ýÿ@¦ýÿ¦ýÿÌ¦ýÿd§ýÿ§ýÿü§ýÿ¬©ýÿpªýÿ¨ªýÿàªýÿ$«ýÿh«ýÿ(¬ýÿX¬ýÿ¬ýÿÔ¬ýÿ­ýÿ@­ýÿd­ýÿ¸­ýÿ<®ýÿ®ýÿÈ®ýÿà®ýÿø®ýÿ¯ýÿ(¯ýÿ@¯ýÿX¯ýÿ¯ýÿ´¯ýÿÌ¯ýÿä¯ýÿ,°ýÿp°ýÿ´±ýÿ$²ýÿ²ýÿ³ýÿ¼³ýÿø³ýÿ<´ýÿh´ýÿ´ýÿ¬´ýÿÐ´ýÿü´ýÿµýÿ8µýÿdµýÿµýÿ¼µýÿàµýÿ;
-- (NSAttributedString *)iewIndentationPerLevelKey;
-- (NSMenu *);
+- (NSAttributedString *)NSOutlineViewIndentationPerLevelKey;
+- (NSMenu *)AXTextTableCell;
 - (void)er %@. Ignoring...;
 - (void)link:(NSAttributedString *)arg1 o:path:/System/Library/PrivateFrameworks/VoiceShortcutClient.framework/VoiceShortcutClient /* Error: Ran out of types for this method. */;
 @end

@@ -7,7 +7,6 @@
 @interface ChatKit.CKDebugTickHUDView__priv_1CDF9E619B3482BCE1E7C40D34D4226E
 {
     id tickCountLabel;
-    id tickCounter;
 }
 
 - (struct CGSize);

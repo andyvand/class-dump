@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)_isTrustedAccessorySupported;
 
 @end
 

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TSUZipArchive, TSUZipEntry;
-@protocol TSUReadChannel;
+@class TSUZipEntry;
 
 __attribute__((visibility("hidden")))
 @interface TSUZipReadChannel
 {
     TSUZipEntry *_entry;
-    TSUZipArchive *_archive;
-    _Bool _validateCRC;
-    id <TSUReadChannel> _archiveReadChannel;
 }
 
 - (void);
@@ -21,24 +17,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)j@;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void)ITSUWeakReference init];
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool isValid;
-@property(readonly) Class superclass;
 
 @end
 

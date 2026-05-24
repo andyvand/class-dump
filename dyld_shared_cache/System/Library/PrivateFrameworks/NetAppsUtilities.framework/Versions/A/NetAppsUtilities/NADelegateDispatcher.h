@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NADelegateMethodLogSettings, NSArray, NSHashTable, NSMapTable, Protocol;
-
 @interface NADelegateDispatcher
 {
     struct os_unfair_lock_s _lock;
-    NADelegateMethodLogSettings *_logSettings;
-    Protocol *_protocol;
-    NSHashTable *_observerTable;
-    NSMapTable *_cachedMethodMetadataBySelector;
-    NSArray *_overrideObservers;
 }
 
 + (id);
@@ -21,18 +14,18 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -43,25 +36,18 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)urces/SDAPI/libtextproc/libmrec/src/dfutil/dfile.cpp;
+- (void)%u %u;
+- (id)ting all batches;
 - (id);
 - (_Bool);
 - (void);
 - (struct os_unfair_lock_s);
-- (void);
-- (id);
+- (void);
+- (id)ation;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMapTable *cachedMethodMetadataBySelector; // @synthesize cachedMethodMetadataBySelector=_cachedMethodMetadataBySelector;
 @property(readonly, nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
-@property(retain, nonatomic) NADelegateMethodLogSettings *logSettings; // @synthesize logSettings=_logSettings;
-@property(readonly, nonatomic) NSHashTable *observerTable; // @synthesize observerTable=_observerTable;
-@property(readonly, nonatomic) NSArray *observers;
-@property(retain, nonatomic) NSArray *overrideObservers; // @synthesize overrideObservers=_overrideObservers;
-@property(readonly, nonatomic) Protocol *protocol; // @synthesize protocol=_protocol;
-@property(readonly, nonatomic) id proxy;
 
 @end
 

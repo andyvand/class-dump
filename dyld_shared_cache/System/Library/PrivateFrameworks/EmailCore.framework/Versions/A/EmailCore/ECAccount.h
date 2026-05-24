@@ -4,61 +4,56 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, ACAccountCredential, ACAccountStore, EFLazyCache, NSArray, NSDictionary, NSString;
+@class ACAccount;
 
 @interface ECAccount
 {
     _Bool _sslIsDirectIsSet;
-    ACAccountStore *_accountStore;
-    NSString *_accountDescription;
-    NSString *_accountDirectoryTildeAbbreviatedPath;
-    ACAccount *_systemAccount;
-    NSDictionary *_properties;
-    EFLazyCache *_cache;
 }
 
 + (id);
++ (id)C;
 + (id);
-+ (id);
 - (id);
 - (id);
 - (long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
+- (_Bool);
+- (void);
+- (_Bool)staticExpression: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)lRUL-OSm3IbHa0/Library/Caches/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/neutrino/Core/Pipeline/NURenderPipeline.m;
+- (_Bool)etting isValid:] /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (id);
+- (id)@;
+- (id);
+- (id);
 - (id);
 - (void);
+- (_Bool);
+- (id);
+- (id);
+- (_Bool)iate;
+- (void)cursorImage;
+- (id);
+- (void)%'llu WARNING:(_Bool)arg1 KPerf had an error getting user stack for task %s thread 0x%llx
+;
 - (id);
 - (long long);
 - (void);
-- (void);
-- (id);
+- (void)a;
+- (id)hB;
 - (_Bool);
 - (long long);
 - (void);
 - (long long);
-- (_Bool);
+- (_Bool)x_;
 - (id);
 - (_Bool);
 - (void);
@@ -69,10 +64,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)@"SignpostSupportValueStats",R,N,V_offscreenPassCount;
 - (long long);
-- (id);
-- (id);
+- (id)_imageDimensions;
+- (id)TRINotificationReactionChecker;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -90,7 +85,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)s;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -101,7 +96,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -112,69 +107,10 @@
 - (id)°1Â0@ù
 × ;
 - (void);
-- (void)ttribute:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)initWithAttribute:(id)arg1 error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accountDescription; // @synthesize accountDescription=_accountDescription;
-@property(copy, nonatomic) NSString *accountDirectoryTildeAbbreviatedPath; // @synthesize accountDirectoryTildeAbbreviatedPath=_accountDirectoryTildeAbbreviatedPath;
-@property(readonly, nonatomic) ACAccountStore *accountStore; // @synthesize accountStore=_accountStore;
-@property(readonly, copy, nonatomic) NSString *accountTypeIdentifier;
-@property(nonatomic) _Bool allowInsecureAuthentication;
-@property(copy, nonatomic) NSString *archiveMailboxName;
-@property(copy, nonatomic) NSString *authenticationScheme;
-@property(readonly, nonatomic) EFLazyCache *cache; // @synthesize cache=_cache;
-@property(nonatomic) _Bool configureDynamically;
-@property(readonly, copy, nonatomic) ACAccountCredential *credential;
-@property(readonly, copy, nonatomic) NSDictionary *dataclassProperties;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) long long defaultPortNumber;
-@property(readonly, nonatomic) long long defaultSecurePortNumber;
-@property(nonatomic) _Bool deleteMessagesInPlace;
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *draftsMailboxName;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) _Bool hasPasswordCredential;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *hostname;
-@property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool isAOLAccount;
-@property(readonly, nonatomic) _Bool isAppleAccount;
-@property(readonly, nonatomic) _Bool isAppleEmployeeAccount;
-@property(readonly, nonatomic) _Bool isAuthenticated;
-@property(nonatomic) _Bool isEnabled;
-@property(readonly, nonatomic) _Bool isExchangeAccount;
-@property(readonly, nonatomic) _Bool isGmailAccount;
-@property(readonly, nonatomic) _Bool isOutlookAccount;
-@property(readonly, nonatomic) _Bool isPersonaAccount;
-@property(readonly, nonatomic) _Bool isYahooAccount;
-@property(copy, nonatomic) NSString *junkMailboxName;
-@property(copy, nonatomic) NSString *notesMailboxName;
-@property(nonatomic) long long numberOfDaysToKeepJunk;
-@property(nonatomic) long long numberOfDaysToKeepTrash;
-@property(readonly, copy, nonatomic) NSString *oauthToken;
-@property(copy, nonatomic) NSString *outboxMailboxName;
-@property(copy, nonatomic) NSString *password;
-@property(readonly, nonatomic) NSString *personaIdentifier;
-@property(nonatomic) long long portNumber;
-@property(readonly, copy, nonatomic) NSDictionary *properties; // @synthesize properties=_properties;
-@property(copy, nonatomic) NSString *sentMessagesMailboxName;
-@property(nonatomic) _Bool sslIsDirect;
-@property(readonly, nonatomic) _Bool sslIsDirectIsSet; // @synthesize sslIsDirectIsSet=_sslIsDirectIsSet;
-@property(readonly, copy, nonatomic) NSArray *standardPorts;
-@property(readonly, copy, nonatomic) NSArray *standardSSLPorts;
-@property(readonly) Class superclass;
 @property(retain) ACAccount *systemAccount; // @synthesize systemAccount=_systemAccount;
-@property(copy, nonatomic) NSString *toDosMailboxName;
-@property(copy, nonatomic) NSString *trashMailboxName;
-@property(readonly, copy, nonatomic) NSString *username;
-@property(nonatomic) _Bool usesSSL;
 
 @end
 

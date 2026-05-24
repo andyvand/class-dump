@@ -11,10 +11,10 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
-- (void);
-- (void);
++ (id)cking.visionData;
++ (void);
+- (void)9	;
+- (void)!;
 - (void);
 
 @end

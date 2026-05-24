@@ -7,6 +7,7 @@
 @interface GenerativeAssistantSettings.GenerativeAssistantEnablementNavigationController
 {
     id enablementNavigationController;
+    id;
 }
 
 - (id);

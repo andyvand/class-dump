@@ -7,7 +7,6 @@
 @interface CRTextFeatureOrderV2
 {
     long long _textFeatureOrderMode;
-    double _angleThresholdForRotatedCrops;
 }
 
 - (long long);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property double angleThresholdForRotatedCrops; // @synthesize angleThresholdForRotatedCrops=_angleThresholdForRotatedCrops;
-@property long long textFeatureOrderMode; // @synthesize textFeatureOrderMode=_textFeatureOrderMode;
 
 @end
 

@@ -4,63 +4,56 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, RBAnimationSequencer, RBTransition;
-
 @interface RBDisplayList
 {
     // Error: parsing type: '{Builder="_crop_seed"I"_layer_id"I"_contents"{refcounted_ptr<RB::DisplayList::Contents>="_p"^{Contents}}"_free_states"^{State}"_free_layer_states"^{LayerState}"_active_layer"^{LayerState}"_root_state"{State="_next"^{State}"_context"^v"_ctm"{AffineTransform="ab""cd""txy"}"_identity"{Identity="identifier"I"ns"{UUID="bytes"[16C]}}"_transition"{refcounted_ptr<const RB::Transition>="_p"^{Transition}}"_clip"^{ClipNode}"_style"^{Style}"_copied_ctm"^{AffineTransform}"_copied_metadata"^{Metadata}"_crop"{Rect="origin""size"}"_layer_id"I"_crop_seed"I"_numeric_value"{optional_float="_value_or_nan"f}"_default_color_space"{optional<RB::ColorSpace>=""(?="__null_state_"c"__val_"{ColorSpace="primaries"b4"transfer_fn"b4})"__engaged_"B}"_text_identity"^{TextIdentity}"_animation_layer"{AnimationLayer="layer_index"I"layer_count"I}"_target_headroom" "_draw_flags"C}"_root_layer_state"{LayerState="_layer"^{Layer}"_next_layer"^{LayerState}"_crop"{Rect="origin""size"}"_crop_seed"I}"_state"^{State}"_profile"C}', name: _list
-    struct unique_ptr<RB::XML::Document, std::default_delete<RB::XML::Document>> _xml_document;
-    struct objc_ptr<void (^)(_RBDrawingState *, unsigned long)> _cgStyleHandler;
-    struct vector<std::pair<RB::cf_ptr<CGContext *>, RB::ContextDelegate *>, 1UL, unsigned int> _contexts;
-    unsigned int _active_states;
-    double _deviceScale;
 }
 
 + (id);
 - (void);
-- (void);
-- (void);
+- (void)L2;
+- (void)h model input dimensions (%i,%i);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (struct CGRect);
-- (void);
+- (void)DO;
 - (float);
 - (id);
 - (void);
+- (void)%s:(float)arg1 %s isn't set;
+- (void)sourceImage;
+- (void)JSONObjectWithData:(double)arg1 options:(struct CGRect)arg2 error:(unsigned int)arg3;
+- (void)EWSIndexBasePointTypeDefinition;
+- (void)StandardTimeZonesForWindowsTimeZones;
+- (void)RecurringMasterItemId;
+- (void);
+- (void);
+- (void);
+- (void);
+- (double)handleFailureInFunction:file:lineNumber:description: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void)v40@0:(float)arg1 8@"NSString"16@"NSString"24@?<v@?@"NSError">32;
+- (void)i;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_totalNumberOfDecimalPlaceholdersInFormat;
+- (void)_currentDataIntersectionWithOffset:(float)arg1 length:(CDStruct_818bb265)arg2 isReadDone:(int)arg3;
+- (void)WideStringCat;
 - (id);
+- (void)el>"24@?0@"<TSUStreamReadChannel>"8@"NSArray"16;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)$;
 - (void);
 - (void);
 - (void);
@@ -75,7 +68,7 @@
 - (struct CGContext *);
 - (void);
 - (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
 - (void);
 - (id);
@@ -88,23 +81,23 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
+- (void)outputFromPackedJSMailMessage:(float)arg1;
+- (void)_personToRecipientsProbability;
+- (void)ctory for storing journals:(double)arg1 %@;
+- (void)RecordIds (%lu ids);
+- (void)SELECT id, title, content, contentRangeOfInterest FROM entity WHERE entityType = :(CDStruct_818bb265)arg1 entityType ;
+- (unsigned int)cateKeyHashBlob) VALUES (:tag, :entityKey, :entityType, :parentKey, '-', :duplicateKeyHash) /* Error: Ran out of types for this method. */;
 - (void);
 - (struct CGContext *);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)E;
 - (struct CGRect);
 - (void);
 - (void);
-- (unsigned int);
+- (unsigned int));
 - (void);
 - (void);
 - (_Bool);
@@ -122,49 +115,24 @@
 - (void);
 - (void);
 - (const void *);
+- (void)conformsToProtocol:(unsigned int)arg1;
+- (struct CGRect)ZTZoneExit;
 - (void);
-- (struct CGRect);
+- (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)utSystemServiceSession bundleIdentifier];
 - (id);
 - (void);
 - (void);
 - (void)olUpdate=}16;
 - (void)ize=dd}}80i112{?=ffff}116i132I136;
-- (id)ctivateBackground: /* Error: Ran out of types for this method. */;
+- (id)activateBackground: /* Error: Ran out of types for this method. */;
 - (void)%g);
 - (void)à;
 - (struct CGAffineTransform)©?UUUUUUõ¿UUUUUU@UUUUUUÅ?;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType CGStyleHandler;
-@property(nonatomic) struct CGAffineTransform CTM;
-@property(readonly, nonatomic) const void *_rb_contents;
-@property(readonly, nonatomic) const void *_rb_xml_document;
-@property(readonly, nonatomic) struct CGRect boundingRect;
-@property(readonly, nonatomic) struct CGRect clipBoundingBox;
-@property(readonly, nonatomic) float contentHeadroom;
-@property(nonatomic) struct CGRect contentRect;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) int defaultColorSpace;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double deviceScale; // @synthesize deviceScale=_deviceScale;
-@property(readonly, nonatomic, getter=isEmpty) _Bool empty;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned int identifier;
-@property(readonly, copy, nonatomic) NSUUID *identifierNamespace;
-@property(copy, nonatomic) RBAnimationSequencer *layerAnimationSequencer;
 @property(nonatomic) _Bool linearColors;
-@property(nonatomic) unsigned int profile;
-@property(readonly) Class superclass;
-@property(nonatomic) float targetHeadroom;
-@property(copy, nonatomic) RBTransition *transition;
-@property(readonly, copy, nonatomic) NSString *xmlDescription;
 
 @end
 

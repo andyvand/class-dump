@@ -5,5 +5,10 @@
 //
 
 @protocol CRKCardSectionViewControllerDelegate
+
+@optional
+- (long long);
+- (void)	k`;
+- (void);
 @end
 

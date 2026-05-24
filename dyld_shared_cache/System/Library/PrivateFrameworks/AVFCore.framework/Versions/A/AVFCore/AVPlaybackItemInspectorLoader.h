@@ -6,32 +6,27 @@
 
 #import <AVFCore/AVAssetMakeReadyForInspectionLoader.h>
 
-@class NSArray;
-
 __attribute__((visibility("hidden")))
 @interface AVPlaybackItemInspectorLoader : AVAssetMakeReadyForInspectionLoader
 {
     struct OpaqueFigPlaybackItem *_playbackItem;
-    NSArray *_trackIDs;
-    _Bool _shouldCacheDuration;
-    CDStruct_1b6d18a9 _cachedDuration;
 }
 
 - (void);
 - (id);
-- (void);
-- (struct OpaqueFigFormatReader *);
+- (void)qa;
+- (struct OpaqueFigFormatReader *)!	;
 - (Class);
 - (CDStruct_1b6d18a9);
-- (unsigned long long);
+- (unsigned long long)0 ;
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)ion:(id)arg1 ];
 - (struct OpaqueFigPlaybackItem *);
-- (id);
+- (id)",R,C,N;
 - (void);
 
 // Remaining properties

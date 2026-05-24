@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaVersion;
+@class SISchemaVersion;
 
 @interface RGSiriSchemaRGInferenceStarted : SISchemaInstrumentationMessage
 {
     SISchemaVersion *_modelVersion;
-    SISchemaVersion *_promptVersion;
-    _Bool _hasModelVersion;
-    _Bool _hasPromptVersion;
 }
 
 - (void);
@@ -22,28 +19,24 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)__TEXT;
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)freeTrialPeriodId;
 - (_Bool);
-- (_Bool);
+- (_Bool)(IMDSqlOperationBlock);
 - (id);
 - (id);
-- (id)es:(id)arg1;
+- (id)addSimilarityScoresShapes:(id)arg1;
 - (id)_primitiveDouble;
 - (void);
-- (void)sSelected;
-- (id)E_CRICKET;
+- (void)isSelected;
+- (id)FLOWSPORTNAME_CRICKET;
 
 // Remaining properties
-@property(nonatomic) _Bool hasModelVersion; // @synthesize hasModelVersion=_hasModelVersion;
-@property(nonatomic) _Bool hasPromptVersion; // @synthesize hasPromptVersion=_hasPromptVersion;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaVersion *modelVersion; // @synthesize modelVersion=_modelVersion;
-@property(retain, nonatomic) SISchemaVersion *promptVersion; // @synthesize promptVersion=_promptVersion;
 
 @end
 

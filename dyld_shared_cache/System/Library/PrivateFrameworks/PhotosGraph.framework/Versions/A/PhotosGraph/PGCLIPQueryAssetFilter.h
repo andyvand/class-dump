@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSArray;
 
 @interface PGCLIPQueryAssetFilter
 {
     NSArray *_positiveQueryEmbeddings;
-    NSDictionary *_cosineSimilarityThresholdByVersion;
 }
 
-+ (id);
++ (id)didFailSiteIconDownloadForFetchType:iconURL:iconSize:didUseOffScreenWebView:response:error: /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
+- (_Bool)ACMGlobalContextCredentialGetProperty;
 - (id);
 - (id);
 - (id);
@@ -22,15 +21,7 @@
 - (void)aces/photoanalysis/PhotosGraph/Framework/Memories/MemoryTriggers/PGMemoryTriggerRecentHighlights.m;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *cosineSimilarityThresholdByVersion; // @synthesize cosineSimilarityThresholdByVersion=_cosineSimilarityThresholdByVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSArray *positiveQueryEmbeddings; // @synthesize positiveQueryEmbeddings=_positiveQueryEmbeddings;
-@property(readonly) Class superclass;
 
 @end
 

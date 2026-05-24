@@ -6,30 +6,9 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, AMSMetricsLoadURLOverlay, AMSProcessInfo, NSArray, NSDictionary, NSString;
-@protocol AMSBagProtocol;
-
 @interface AMSMediaTask : AMSTask
 {
     _Bool _charts;
-    _Bool _URLKnownToBeTrusted;
-    ACAccount *_account;
-    NSArray *_additionalPlatforms;
-    NSDictionary *_additionalQueryParams;
-    NSString *_appDistributionCountryCodeOverride;
-    id <AMSBagProtocol> _bag;
-    NSArray *_bundleIdentifiers;
-    NSString *_clientIdentifier;
-    AMSProcessInfo *_clientInfo;
-    NSString *_clientVersion;
-    long long _environment;
-    NSDictionary *_filters;
-    NSArray *_includedResultKeys;
-    NSArray *_itemIdentifiers;
-    NSString *_logKey;
-    NSString *_searchTerm;
-    long long _type;
-    AMSMetricsLoadURLOverlay *_loadURLOverlay;
 }
 
 + (id);
@@ -51,7 +30,7 @@ $C²Í&C²£8C²:C²$C²3&C²8C²v:C²$C²{&C²®8C²Â:C²lÄL²`ÆL²ÄØ
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)en a task is cancelled it is expected to be marked as complete in the calling context.;
 - (void);
 - (id);
 - (void);
@@ -62,7 +41,7 @@ $C²Í&C²£8C²:C²$C²3&C²8C²v:C²$C²{&C²®8C²Â:C²lÄL²`ÆL²ÄØ
 - (id);
 - (id);
 - (id);
-- (void)hesURLForCachePath:(id)arg1;
+- (void)_cachesURLForCachePath:(id)arg1;
 - (void)ØÀ¤ÿÿÿÿÿ;
 - (void);
 - (long long);
@@ -84,31 +63,6 @@ W à /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property _Bool URLKnownToBeTrusted; // @synthesize URLKnownToBeTrusted=_URLKnownToBeTrusted;
-@property(retain) ACAccount *account; // @synthesize account=_account;
-@property(retain) NSArray *additionalPlatforms; // @synthesize additionalPlatforms=_additionalPlatforms;
-@property(retain) NSDictionary *additionalQueryParams; // @synthesize additionalQueryParams=_additionalQueryParams;
-@property(retain) NSString *appDistributionCountryCodeOverride; // @synthesize appDistributionCountryCodeOverride=_appDistributionCountryCodeOverride;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(retain) NSArray *bundleIdentifiers; // @synthesize bundleIdentifiers=_bundleIdentifiers;
-@property _Bool charts; // @synthesize charts=_charts;
-@property(readonly) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
-@property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(readonly) NSString *clientVersion; // @synthesize clientVersion=_clientVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property long long environment; // @synthesize environment=_environment;
-@property(retain) NSDictionary *filters; // @synthesize filters=_filters;
-@property(readonly) unsigned long long hash;
-@property(retain) NSArray *includedResultKeys; // @synthesize includedResultKeys=_includedResultKeys;
-@property(retain) NSArray *itemIdentifiers; // @synthesize itemIdentifiers=_itemIdentifiers;
-@property(retain) AMSMetricsLoadURLOverlay *loadURLOverlay; // @synthesize loadURLOverlay=_loadURLOverlay;
-@property(retain) NSString *logKey; // @synthesize logKey=_logKey;
-@property(retain) NSString *searchTerm; // @synthesize searchTerm=_searchTerm;
-@property(readonly) Class superclass;
-@property(readonly) long long type; // @synthesize type=_type;
 
 @end
 

@@ -10,12 +10,10 @@ __attribute__((visibility("hidden")))
 @interface FI_TColumnNameTextField : FI_TTextField
 {
     function_e88ba8d7 _renameFunc;
-    _Bool _becomingFirstResponder;
-    _Bool _shouldEdit;
 }
 
 + (Class);
-- (_Bool);
+- (_Bool)�hnM9;
 - (void);
 - (void);
 - (_Bool);

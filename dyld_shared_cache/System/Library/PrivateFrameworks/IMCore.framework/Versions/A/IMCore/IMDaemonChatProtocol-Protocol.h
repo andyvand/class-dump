@@ -5,5 +5,14 @@
 //
 
 @protocol IMDaemonChatProtocol
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)9;
+- (void)Z;
+- (void)(7;
+- (void)1;
+- (void)!;
 @end
 

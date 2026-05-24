@@ -13,7 +13,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool callManagementMuteControl;
-@property(readonly, nonatomic, getter=isChannelEnabled) _Bool channelEnabled;
 
 @end
 

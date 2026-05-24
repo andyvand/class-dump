@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSExtensionIdentity, NSString;
+@class CHSExtensionIdentity;
 
 @interface CHSWidgetRelevanceKey
 {
     CHSExtensionIdentity *_extensionIdentity;
-    NSString *_kind;
 }
 
 + (_Bool);
@@ -22,12 +21,11 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) CHSExtensionIdentity *extensionIdentity; // @synthesize extensionIdentity=_extensionIdentity;
-@property(readonly, nonatomic) NSString *kind; // @synthesize kind=_kind;
 
 @end
 

@@ -6,47 +6,32 @@
 
 #import <HomeKitDaemon/HMDCameraParameterSelection.h>
 
-@class HAPAudioStreamTier, HAPSupportedAudioStreamTiers, HMDAudioCodecGroup, HMDAudioSampleRate, HMDBitRateSetting, HMDCameraAudioParameterCombination, HMDSelectedAudioParameters, HMDStreamingCapabilities, HMDSupportedAudioStreamConfiguration, HMDSupportedRTPConfiguration, NSArray, NSNumber;
+@class HMDSupportedAudioStreamConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraAudioParameterSelection : HMDCameraParameterSelection
 {
     HMDSupportedAudioStreamConfiguration *_supportedAudioStreamConfiguration;
-    HMDSupportedRTPConfiguration *_rtpConfiguration;
-    HMDSelectedAudioParameters *_selectedAudioParameters;
-    HMDStreamingCapabilities *_streamingCapabilities;
-    NSArray *_audioCodecsPreference;
-    NSArray *_bitrateSettingsPreference;
-    NSArray *_sampleRatesPreference;
-    NSArray *_validAudioParameterCombinations;
-    HMDAudioCodecGroup *_selectedCodecGroupType;
-    HMDBitRateSetting *_selectedBitRateSetting;
-    HMDAudioSampleRate *_selectedSampleRate;
-    NSNumber *_selectedAudioChannelCount;
-    HMDCameraAudioParameterCombination *_selectedAudioParameterCombination;
-    NSNumber *_comfortNoiseSupported;
-    HAPSupportedAudioStreamTiers *_supportedAudioStreamTiers;
-    HAPAudioStreamTier *_selectedAudioStreamTier;
 }
 
 + (id)ËB;
-- (id);
-- (id);
-- (id);
+- (id)_sharingService;
+- (id)ItemStorage",&,N,V_placeMapItemStorage;
+- (id)MSPMapsInstallStateObserver;
+- (void)e will not retry sharing for pending handle %{private}@ as it was removed from the pending set;
+- (void)ndle %@ with MSPSharedTripCapabilityType_Unknown. Will wait for response.;
+- (void)lready waiting for response.;
+- (void)h MSPSharedTripCapabilityType_Unknown. Already waiting for response.;
+- (void)ithContactValue called for handle %@ with MSPSharedTripCapabilityType_Unknown. Already waiting for response.;
+- (void)Invalid. Exiting Early.;
+- (void)andle %@ with MSPSharedTripCapabilityType_Invalid. Exiting Early.;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)z;
+- (id){;
+- (id)Y!{;
 - (id);
 - (id);
 - (_Bool);
@@ -57,7 +42,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -67,22 +52,7 @@ __attribute__((visibility("hidden")))
 - (void)+º;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *audioCodecsPreference; // @synthesize audioCodecsPreference=_audioCodecsPreference;
-@property(readonly, nonatomic) NSArray *bitrateSettingsPreference; // @synthesize bitrateSettingsPreference=_bitrateSettingsPreference;
-@property(retain, nonatomic) NSNumber *comfortNoiseSupported; // @synthesize comfortNoiseSupported=_comfortNoiseSupported;
-@property(readonly, nonatomic) HMDSupportedRTPConfiguration *rtpConfiguration; // @synthesize rtpConfiguration=_rtpConfiguration;
-@property(readonly, nonatomic) NSArray *sampleRatesPreference; // @synthesize sampleRatesPreference=_sampleRatesPreference;
-@property(retain, nonatomic) NSNumber *selectedAudioChannelCount; // @synthesize selectedAudioChannelCount=_selectedAudioChannelCount;
-@property(retain, nonatomic) HMDCameraAudioParameterCombination *selectedAudioParameterCombination; // @synthesize selectedAudioParameterCombination=_selectedAudioParameterCombination;
-@property(retain, nonatomic) HMDSelectedAudioParameters *selectedAudioParameters; // @synthesize selectedAudioParameters=_selectedAudioParameters;
-@property(retain, nonatomic) HAPAudioStreamTier *selectedAudioStreamTier; // @synthesize selectedAudioStreamTier=_selectedAudioStreamTier;
-@property(retain, nonatomic) HMDBitRateSetting *selectedBitRateSetting; // @synthesize selectedBitRateSetting=_selectedBitRateSetting;
-@property(retain, nonatomic) HMDAudioCodecGroup *selectedCodecGroupType; // @synthesize selectedCodecGroupType=_selectedCodecGroupType;
-@property(retain, nonatomic) HMDAudioSampleRate *selectedSampleRate; // @synthesize selectedSampleRate=_selectedSampleRate;
-@property(readonly, nonatomic) HMDStreamingCapabilities *streamingCapabilities; // @synthesize streamingCapabilities=_streamingCapabilities;
 @property(readonly, nonatomic) HMDSupportedAudioStreamConfiguration *supportedAudioStreamConfiguration; // @synthesize supportedAudioStreamConfiguration=_supportedAudioStreamConfiguration;
-@property(readonly, nonatomic) HAPSupportedAudioStreamTiers *supportedAudioStreamTiers; // @synthesize supportedAudioStreamTiers=_supportedAudioStreamTiers;
-@property(readonly, nonatomic) NSArray *validAudioParameterCombinations; // @synthesize validAudioParameterCombinations=_validAudioParameterCombinations;
 
 @end
 

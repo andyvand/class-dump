@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSNumber;
+@class NSError;
 
 @interface UnknownClass (HomeKitDaemonError)
 + (id);
@@ -13,26 +13,18 @@
 + (id);
 + (id);
 + (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)directionsListAddress;
+- (_Bool)deleteContentsObjectAtIndexes: /* Error: Ran out of types for this method. */;
+- (_Bool)deleteContentsObjectAtIndex: /* Error: Ran out of types for this method. */;
+- (_Bool)defaultTransitType;
+- (_Bool)defaultManager;
+- (_Bool)currentThread;
+- (id)createDirectoryAtURL:withIntermediateDirectories:attributes:error: /* Error: Ran out of types for this method. */;
+- (id)container:didEditWithNewContents:orderedEdits:cause:context: /* Error: Ran out of types for this method. */;
+- (id)container:didEditWithNewContents:orderedEdits:cause:context: /* Error: Ran out of types for this method. */;
+- (id)contactIsActive:(id)arg1;
 
 // Remaining properties
-@property(readonly, getter=hmd_isCKError) _Bool hmd_ckError;
 @property(readonly, copy) NSError *hmd_conciseCKError;
-@property(readonly, copy) NSError *hmd_convertedCKError;
-@property(readonly, copy) NSError *hmd_hmErrorFromCKError;
-@property(readonly, getter=hmd_isUnknownItemCKError) _Bool hmd_isUnknownItemCKError;
-@property(readonly, getter=hmd_isNonRecoverableCKError) _Bool hmd_nonRecoverableCKError;
-@property(readonly, getter=hmd_isRecordConflictCKError) _Bool hmd_recordConflictCKError;
-@property(readonly, copy) NSNumber *hmd_retryAfterCKError;
-@property(readonly, getter=hmd_isUnderlyingCKError) _Bool hmd_underlyingCKError;
 @end
 

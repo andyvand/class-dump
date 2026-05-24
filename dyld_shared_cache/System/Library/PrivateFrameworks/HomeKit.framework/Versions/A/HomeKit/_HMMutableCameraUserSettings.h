@@ -6,7 +6,7 @@
 
 #import <HomeKit/_HMCameraUserSettings.h>
 
-@class HMCameraUserNotificationSettings, NSSet, NSUUID;
+@class NSUUID;
 
 @interface _HMMutableCameraUserSettings : _HMCameraUserSettings
 {
@@ -16,15 +16,6 @@
 
 // Remaining properties
 @property(copy) NSUUID *UUID; // @dynamic UUID;
-@property unsigned long long accessModeAtHome; // @dynamic accessModeAtHome;
-@property unsigned long long accessModeNotAtHome; // @dynamic accessModeNotAtHome;
-@property(copy) NSSet *activityZones; // @dynamic activityZones;
-@property(getter=areActivityZonesIncludedForSignificantEventDetection) _Bool activityZonesIncludedForSignificantEventDetection; // @dynamic activityZonesIncludedForSignificantEventDetection;
-@property(getter=isCameraManuallyDisabled) _Bool cameraManuallyDisabled; // @dynamic cameraManuallyDisabled;
-@property unsigned long long currentAccessMode; // @dynamic currentAccessMode;
-@property(copy) HMCameraUserNotificationSettings *notificationSettings; // @dynamic notificationSettings;
-@property unsigned long long recordingEventTriggers; // @dynamic recordingEventTriggers;
-@property unsigned long long supportedFeatures; // @dynamic supportedFeatures;
 
 @end
 

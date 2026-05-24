@@ -7,9 +7,6 @@
 @interface NewsFeed.RecipeFactory
 {
     id appConfigManager;
-    id tagService;
-    id recipeFeaturesConfigurationFactory;
-    id externalRecipeConverter;
 }
 
 @end

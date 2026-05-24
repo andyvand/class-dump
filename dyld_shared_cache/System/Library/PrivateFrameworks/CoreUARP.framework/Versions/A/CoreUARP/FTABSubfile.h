@@ -9,16 +9,13 @@
 @interface FTABSubfile
 {
     NSData *_data;
-    unsigned int _dataLength;
-    NSString *_tag;
-    const char *_dataPointer;
 }
 
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)iptions:%{bool}d alias:%s sim:%s /* Error: Ran out of types for this method. */;
+- (id)age enabled for multiple subscriptions:%{bool}d alias:%s sim:%s /* Error: Ran out of types for this method. */;
+- (id)ailable;
 - (id);
 - (id);
 - (id);
@@ -27,9 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSData *data;
-@property(readonly) unsigned int dataLength; // @synthesize dataLength=_dataLength;
-@property(readonly) const char *dataPointer; // @synthesize dataPointer=_dataPointer;
 @property(readonly) NSString *tag; // @synthesize tag=_tag;
 
 @end

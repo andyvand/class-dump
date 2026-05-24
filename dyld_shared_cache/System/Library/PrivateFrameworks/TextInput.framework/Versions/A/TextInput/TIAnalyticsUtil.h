@@ -14,9 +14,9 @@
 + (_Bool);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (_Bool);
++ (id)sharedMappings;
++ (id)_neighborsAtIndex:(double)arg1 withDistancesFlatMatrix:(int)arg2 datasetSize: /* Error: Ran out of types for this method. */;
++ (_Bool)(;
 + (_Bool);
 + (id);
 + (_Bool);

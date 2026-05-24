@@ -4,85 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTimeZone, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOTimestampData
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_formatPattern;
-    NSString *_timezone;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _timestampVal;
-    _Bool _displayTimezone;
-    struct {
-        unsigned int has_timestampVal:1;
-        unsigned int has_displayTimezone:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_formatPattern:1;
-        unsigned int read_timezone:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)yCode:(id)arg1;
++ (_Bool)setMerchantCountryCode:(id)arg1;
 - (unsigned int);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (_Bool)managedObjectModelForName: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithObjectsAndKeys: /* Error: Ran out of types for this method. */;
+- (id)_replacePersistentStoreAtURL:destinationOptions:withPersistentStoreFromURL:sourceOptions:storeType:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
-- (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (double);
+- (double)detectDiacritics;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
-- (_Bool);
+- (void)getFiringTimerIDsWithCompletion:(id)arg1;
+- (_Bool)ttending Remote Object Proxy returned error :%{public}ld (%{public}@) /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id)LogMsgStateDetailLookAroundLog";
-- (id)ationId;
-- (id)s;
-- (id)tworkDefault;
-- (id)uild;
+- (id)hasStatusNotificationId;
+- (id)Entitlements;
+- (id)DepartureCutoffGracePeriodNetworkDefault;
+- (id)osBuild;
 - (void);
 - (void)2P@;
 - (id)<ÑþAÎ4·3;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool displayTimezone;
-@property(retain, nonatomic) NSString *formatPattern;
-@property(nonatomic) _Bool hasDisplayTimezone;
-@property(readonly, nonatomic) _Bool hasFormatPattern;
-@property(nonatomic) _Bool hasTimestampVal;
-@property(readonly, nonatomic) _Bool hasTimezone;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) double timeStamp;
-@property(readonly, nonatomic) NSTimeZone *timeZone;
-@property(nonatomic) unsigned int timestampVal;
-@property(retain, nonatomic) NSString *timezone;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

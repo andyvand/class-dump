@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCalendar, NSMutableIndexSet, NSMutableOrderedSet, _UIDatePickerCalendarMonth;
+@class NSCalendar;
 
 __attribute__((visibility("hidden")))
 @interface _UIDatePickerCalendarMonthSet
 {
     NSCalendar *_calendar;
-    unsigned long long _rangeLength;
-    _UIDatePickerCalendarMonth *_referenceMonth;
-    NSMutableIndexSet *_loadedMonthOffsets;
-    NSMutableOrderedSet *_loadedMonths;
 }
 
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)noteRecentMessageForPeople:(id)arg1;
+- (id)existingChatsFilteredUsingPredicate:(unsigned long long)arg1 sortedUsingLastMessageDateAscending:limit: /* Error: Ran out of types for this method. */;
+- (id)delayedSynchronize;
+- (void)appendTranslation:(id)arg1 toMessageItem:(struct _NSRange *)arg2 partIndex:toChatIdentifier:style:account: /* Error: Ran out of types for this method. */;
+- (id)_networkChanged:(id)arg1;
+- (unsigned long long)_lastMessage;
 - (unsigned long long);
-- (unsigned long long);
-- (struct __UISignedRange);
-- (struct _NSRange);
-- (void);
-- (void);
+- (struct __UISignedRange)ding muted chat list.;
+- (struct _NSRange)n %@, token of last publisher %@, same? %@;
+- (void)Reading deletion preference as:(id)arg1 %{BOOL}d;
+- (void)SyncCompleteRecord;
 - (id);
 - (void);
 

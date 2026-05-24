@@ -5,5 +5,6 @@
 //
 
 @protocol VisualTabPickerGridViewTransitionCoordinatorDataSource
+- (struct CGRect);
 @end
 

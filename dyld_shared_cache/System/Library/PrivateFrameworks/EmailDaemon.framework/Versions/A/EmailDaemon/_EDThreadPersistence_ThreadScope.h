@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDMessagePersistence, _EDThreadPersistence_SQLHelper;
 @protocol EFSQLExpressable;
 
 @interface _EDThreadPersistence_ThreadScope
 {
     _Bool _didCreateTempScopeView;
-    EDMessagePersistence *_messagePersistence;
-    long long _threadScopeDatabaseID;
-    id <EFSQLExpressable> _threadScopeExpression;
-    _EDThreadPersistence_SQLHelper *_sqlHelper;
 }
 
 - (id);
@@ -28,9 +23,6 @@
 - (void)mail;
 
 // Remaining properties
-@property(readonly, nonatomic) EDMessagePersistence *messagePersistence; // @synthesize messagePersistence=_messagePersistence;
-@property(readonly, nonatomic) _EDThreadPersistence_SQLHelper *sqlHelper; // @synthesize sqlHelper=_sqlHelper;
-@property(readonly, nonatomic) long long threadScopeDatabaseID; // @synthesize threadScopeDatabaseID=_threadScopeDatabaseID;
 @property(readonly, nonatomic) id <EFSQLExpressable> threadScopeExpression; // @synthesize threadScopeExpression=_threadScopeExpression;
 
 @end

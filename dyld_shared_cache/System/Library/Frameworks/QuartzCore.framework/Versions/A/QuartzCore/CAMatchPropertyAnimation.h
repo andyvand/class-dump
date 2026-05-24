@@ -6,7 +6,7 @@
 
 #import <QuartzCore/CAAnimation.h>
 
-@class CALayer, NSString;
+@class CALayer;
 
 @interface CAMatchPropertyAnimation : CAAnimation
 {
@@ -19,12 +19,12 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (unsigned int);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)2v;
 - (void *)p (&slab_ops) && slab_ops.prev == sop;
 - (unsigned int);
   q7 = texture2DRect(texture0, texcoord7);
@@ -53,11 +53,7 @@
 ;
 
 // Remaining properties
-@property(getter=isAdditive) _Bool additive;
-@property(copy) NSString *keyPath;
-@property unsigned int sourceContextId;
 @property __weak CALayer *sourceLayer;
-@property unsigned long long sourceLayerRenderId;
 
 @end
 

@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURLAuthenticationChallenge, NSURLSession;
+
 @protocol NSURLSessionDelegate
+
+@optional
+- (void)iner:(NSURLSession *)arg1:(NSURLAuthenticationChallenge *)arg2 basic_string<char, std:(void (^)(long long, NSURLCredential *))arg3:char_traits<char>, boost::interprocess::allocator<char, boost::interprocess::segment_manager<char, boost::interprocess::rbtree_best_fit<boost::interprocess::null_mutex_family>, boost::interprocess::iset_index>>>, pf::SceneGeographyNode>>, long, unsigned long, 0UL>=(offset_ptr_internal<unsigned long, 0UL>=Q(aligned_struct_wrapper<8UL, 1UL>={aligned_struct<8UL, 1UL>=[8C]}[8C]))}}24@0:8@16 /* Error: Ran out of types for this method. */;
 @end
 

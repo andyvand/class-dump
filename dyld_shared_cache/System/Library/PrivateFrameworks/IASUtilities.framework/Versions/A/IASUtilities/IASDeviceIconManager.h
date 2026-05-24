@@ -11,9 +11,9 @@
     NSMutableDictionary *_iconCache;
 }
 
-+ (id);
++ (id)q;
 - (id);
-- (id);
+- (id),;
 - (id);
 - (id);
 - (void);

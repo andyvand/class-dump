@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHTextSize, NSArray, NSString;
+@class NSString;
 
 @interface CHReflowableTextToken
 {
     _Bool _hasPrecedingSpace;
-    NSString *_string;
-    NSArray *_principalPoints;
-    CHTextSize *_textSize;
-    struct CGRect _bounds;
-    CDStruct_9bc45644 _principalLines;
 }
 
 + (CDStruct_9bc45644);
 - (void);
-- (double);
+- (double)k;
 - (CDStruct_9bc45644);
 - (id);
 - (id);
@@ -29,19 +24,12 @@
 - (id);
 - (_Bool);
 - (id);
-- (struct CGRect);
-- (void);
+- (struct CGRect)ement required for on-demand factor status:<key>%@</key><array>...</array> /* Error: Ran out of types for this method. */;
+- (void)setPixelSize:(struct CGRect)arg1 actualSize: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;
-@property(nonatomic) _Bool hasPrecedingSpace; // @synthesize hasPrecedingSpace=_hasPrecedingSpace;
-@property(readonly, nonatomic) _Bool hasValidPrincipalLines;
-@property(readonly, nonatomic) CDStruct_9bc45644 principalLines; // @synthesize principalLines=_principalLines;
-@property(readonly, nonatomic) double principalOrientation;
-@property(readonly, copy, nonatomic) NSArray *principalPoints; // @synthesize principalPoints=_principalPoints;
 @property(readonly, copy, nonatomic) NSString *string; // @synthesize string=_string;
-@property(readonly, copy, nonatomic) CHTextSize *textSize; // @synthesize textSize=_textSize;
 
 @end
 

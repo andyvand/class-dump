@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNComposeHeaderLabelView, NSString, UILabel, UIView;
 @protocol CNComposeHeaderViewDelegate;
 
 @interface CNComposeHeaderView
 {
     _Bool _showsHighlightWhenTouched;
-    NSString *_navTitle;
-    CNComposeHeaderLabelView *_labelView;
-    id <CNComposeHeaderViewDelegate> _delegate;
-    NSString *_composeFieldInfoText;
-    id <CNComposeHeaderViewDelegate> _internalDelegate;
-    UILabel *_composeFieldInfoLabel;
-    UIView *_separator;
-    UIView *_highlightedBackgroundView;
-    struct NSDirectionalEdgeInsets _separatorDirectionalEdgeInsets;
-    struct UIEdgeInsets _overrideContentMargins;
 }
 
 + (id);
@@ -27,9 +16,9 @@
 + (double);
 + (id);
 + (double);
-+ (id);
-+ (double);
-- (void);
++ (id)rationSettings",&,N,V_configurationSettings;
++ (double)P;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -48,7 +37,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)R;
 - (_Bool);
 - (struct UIEdgeInsets);
 - (void);
@@ -59,7 +48,7 @@
 - (id);
 - (struct CGRect);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -82,18 +71,7 @@
 - (void)sition"16;
 
 // Remaining properties
-@property(retain, nonatomic) UILabel *composeFieldInfoLabel; // @synthesize composeFieldInfoLabel=_composeFieldInfoLabel;
-@property(copy, nonatomic) NSString *composeFieldInfoText; // @synthesize composeFieldInfoText=_composeFieldInfoText;
-@property(nonatomic) __weak id <CNComposeHeaderViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) UIView *highlightedBackgroundView; // @synthesize highlightedBackgroundView=_highlightedBackgroundView;
 @property(nonatomic) __weak id <CNComposeHeaderViewDelegate> internalDelegate; // @synthesize internalDelegate=_internalDelegate;
-@property(copy, nonatomic) NSString *label; // @dynamic label;
-@property(retain, nonatomic) CNComposeHeaderLabelView *labelView; // @synthesize labelView=_labelView;
-@property(copy, nonatomic) NSString *navTitle; // @synthesize navTitle=_navTitle;
-@property(nonatomic) struct UIEdgeInsets overrideContentMargins; // @synthesize overrideContentMargins=_overrideContentMargins;
-@property(retain, nonatomic) UIView *separator; // @synthesize separator=_separator;
-@property(nonatomic) struct NSDirectionalEdgeInsets separatorDirectionalEdgeInsets; // @synthesize separatorDirectionalEdgeInsets=_separatorDirectionalEdgeInsets;
-@property(nonatomic) _Bool showsHighlightWhenTouched; // @synthesize showsHighlightWhenTouched=_showsHighlightWhenTouched;
 
 @end
 

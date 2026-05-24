@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _DPPrioPlusPlusValueRandomizer
 {
     double _epsilon;
-    double _delta;
-    unsigned long long _n;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
@@ -27,16 +23,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) double delta; // @synthesize delta=_delta;
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) double epsilon; // @synthesize epsilon=_epsilon;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long n; // @synthesize n=_n;
-@property(readonly) Class superclass;
 
 @end
 

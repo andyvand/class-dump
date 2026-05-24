@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDRelatedSearchSuggestion, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDPublisherViewResultFilterKeyword
 {
     PBUnknownFields *_unknownFields;
-    GEOPDRelatedSearchSuggestion *_relatedSearchSuggestion;
 }
 
 - (id);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)@?<v@?B>24;
-- (id)ents: /* Error: Ran out of types for this method. */;
+- (id)_matchedSegmentsInRange:ofMatchedSegments: /* Error: Ran out of types for this method. */;
 - (id)èo;
 - (void)©ÚnoF@;
 

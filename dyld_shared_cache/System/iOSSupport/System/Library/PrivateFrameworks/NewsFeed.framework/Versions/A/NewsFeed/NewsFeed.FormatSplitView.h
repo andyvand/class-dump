@@ -7,11 +7,10 @@
 @interface NewsFeed.FormatSplitView
 {
     id splitView;
-    id model;
 }
 
 - (id);
-- (void);
+- (void)directory comments;
 - (id)LHighlightCenter"16;
 - (void)!R:¤^ /* Error: Ran out of types for this method. */;
 

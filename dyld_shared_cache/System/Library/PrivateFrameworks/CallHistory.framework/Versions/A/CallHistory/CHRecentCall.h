@@ -4,71 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHHandle, CHPhoneBookIOSManager, CNContact, NSArray, NSDate, NSNumber, NSSet, NSString, NSURL, NSUUID;
-
 @interface CHRecentCall
 {
     _Bool _hasMessage;
-    _Bool _wasAutoAnswered;
-    _Bool _usedEmergencyVideoStreaming;
-    _Bool _wasEmergencyCall;
-    _Bool _read;
-    _Bool _multiCall;
-    _Bool _answered;
-    _Bool _mobileOriginated;
-    unsigned int _callStatus;
-    unsigned int _callerIdAvailability;
-    unsigned int _callCategory;
-    unsigned int _callType;
-    NSString *_name;
-    NSURL *_imageURL;
-    NSUUID *_localParticipantUUID;
-    NSUUID *_outgoingLocalParticipantUUID;
-    NSSet *_remoteParticipantHandles;
-    NSSet *_emergencyMediaItems;
-    CHHandle *_initiator;
-    unsigned long long _screenSharingType;
-    NSUUID *_reminderUUID;
-    NSString *_uniqueId;
-    NSString *_serviceProvider;
-    NSNumber *_bytesOfDataUsed;
-    NSDate *_date;
-    double _duration;
-    NSString *_isoCountryCode;
-    NSNumber *_disconnectedCause;
-    NSNumber *_filteredOutReason;
-    NSString *_junkIdentificationCategory;
-    NSString *_callerIdLabel;
-    NSString *_callerIdLocation;
-    unsigned long long _unreadCount;
-    NSArray *_callOccurrences;
-    long long _mediaType;
-    long long _ttyType;
-    long long _handleType;
-    NSUUID *_conversationID;
-    NSNumber *_timeToEstablish;
-    long long _callDirectoryIdentityType;
-    NSString *_addressBookRecordId;
-    NSString *_addressBookCallerIDMultiValueId;
-    NSString *_callerId;
-    NSString *_contactIdentifier;
-    NSString *_devicePhoneId;
-    NSString *_mobileCountryCode;
-    NSString *_mobileNetworkCode;
-    CNContact *_contactRef;
-    long long _junkConfidence;
-    NSString *_blockedByExtension;
-    NSString *_blockedByExtensionName;
-    NSString *_identityExtension;
-    long long _verificationStatus;
-    long long _autoAnsweredReason;
-    long long _communicationTrustScore;
-    long long _originatingUIType;
-    NSString *_originatingDeviceName;
-    NSString *_callerName;
-    NSUUID *_participantGroupUUID;
-    CHPhoneBookIOSManager *_phoneBookManager;
-    NSString *_callerIdFormatted;
 }
 
 @end

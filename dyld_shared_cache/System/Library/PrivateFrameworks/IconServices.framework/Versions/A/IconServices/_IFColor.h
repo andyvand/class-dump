@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 - (void);
-- (id);
-- (struct CGColor *);
+- (id)`@=;
+- (struct CGColor *);
 - (void);
-- (struct CGColor *);
+- (struct CGColor *)updateMXSystemControllerList;
 
 // Remaining properties
 @property struct CGColor *color; // @synthesize color=_color;

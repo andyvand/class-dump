@@ -7,7 +7,6 @@
 @interface ChronoKit.ControlsPowerlogProvider
 {
     id owner;
-    id workQueue;
 }
 
 @end

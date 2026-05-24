@@ -9,11 +9,6 @@
 @interface IKDatasourceDiffResult
 {
     NSMutableIndexSet *indexesToAdd;
-    NSMutableIndexSet *indexesToRemove;
-    _Bool _needToExchangeItems;
-    long long *_oldIndexToNewIndex;
-    long long *_newIndexToOldIndex;
-    int _indexBufferLength;
 }
 
 - (void);
@@ -29,7 +24,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)`;
 
 @end
 

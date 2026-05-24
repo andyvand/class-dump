@@ -4,11 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CALayer;
 @protocol CAAction;
 
 @protocol CALayerDelegate
 
 @optional
+- (void)er invalidateWithError:(CALayer *)arg1 ];
 - (id <CAAction>)Ü?ßÞÞÞÞÞî?;
 @end
 

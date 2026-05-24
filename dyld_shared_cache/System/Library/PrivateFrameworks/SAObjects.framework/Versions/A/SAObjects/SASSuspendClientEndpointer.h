@@ -24,7 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSNumber *audioProcessedMs;
-@property(copy, nonatomic) NSNumber *suspendDurationMs;
 
 @end
 

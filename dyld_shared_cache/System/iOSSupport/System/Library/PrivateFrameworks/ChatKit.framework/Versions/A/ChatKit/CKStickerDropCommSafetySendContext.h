@@ -6,22 +6,19 @@
 
 #import <ChatKit/CKCommSafetySendContext.h>
 
-@class CKComposition, CKMediaObject, CKMessagePartChatItem, IMSticker, NSDictionary;
+@class IMSticker;
 
 __attribute__((visibility("hidden")))
 @interface CKStickerDropCommSafetySendContext : CKCommSafetySendContext
 {
     IMSticker *_sticker;
-    CKComposition *_composition;
-    CKMediaObject *_mediaObject;
-    CKMessagePartChatItem *_parentMessagePartChatItem;
-    NSDictionary *_messageSummaryInfo;
 }
 
++ (id)
+;
 + (id);
-+ (id);
-- (id);
-- (id);
+- (id)",C,N,V_itemIDs;
+- (id)67;
 - (id);
 - (id);
 - (id);
@@ -29,10 +26,6 @@ __attribute__((visibility("hidden")))
 - (void)ü;
 
 // Remaining properties
-@property(readonly, nonatomic) CKComposition *composition; // @synthesize composition=_composition;
-@property(readonly, nonatomic) CKMediaObject *mediaObject; // @synthesize mediaObject=_mediaObject;
-@property(readonly, nonatomic) NSDictionary *messageSummaryInfo; // @synthesize messageSummaryInfo=_messageSummaryInfo;
-@property(readonly, nonatomic) CKMessagePartChatItem *parentMessagePartChatItem; // @synthesize parentMessagePartChatItem=_parentMessagePartChatItem;
 @property(readonly, nonatomic) IMSticker *sticker; // @synthesize sticker=_sticker;
 
 @end

@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface CAMSchemaCAMRequestReceived : SISchemaInstrumentationMessage
 {
@@ -26,14 +26,13 @@
 - (id);
 - (id);
 - (id)vityEnded";
-- (id)RPreheatFailed;
+- (id)ASRSchemaASRPreheatFailed;
 - (id)LTÿÿhTÿÿTÿÿ Tÿÿ¼TÿÿØTÿÿôTÿÿUÿÿ,UÿÿHUÿÿdUÿÿUÿÿUÿÿ¸UÿÿÔUÿÿðUÿÿVÿÿ(VÿÿDVÿÿ`Vÿÿ|VÿÿVÿÿ´VÿÿÐVÿÿìVÿÿWÿÿ$Wÿÿ@Wÿÿ\WÿÿxWÿÿWÿÿ°WÿÿÌWÿÿèWÿÿXÿÿ Xÿÿ<XÿÿXXÿÿtXÿÿXÿÿ¬XÿÿÈXÿÿäXÿÿ;
 - (void);
 - (void)f¶÷u&;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *features; // @synthesize features=_features;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

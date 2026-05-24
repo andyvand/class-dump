@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCondition, NSMutableArray;
-
 @interface TSUDateParserLibrary
 {
     unsigned long long mMaxPermittedParsers;
-    unsigned long long mNumberOfUses;
-    unsigned long long mParsersCreated;
-    NSMutableArray *mAvailableDateParsers;
-    NSCondition *mParserLibraryConditionVariable;
 }
 
-+ (id);
++ (id)anagerDelegateP;
 + (id);
 + (id)ÑÏ1Â0@ù
 × ;

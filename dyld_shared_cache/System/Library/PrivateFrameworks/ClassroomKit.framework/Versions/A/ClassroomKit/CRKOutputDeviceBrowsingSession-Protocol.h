@@ -7,6 +7,7 @@
 @class NSArray;
 
 @protocol CRKOutputDeviceBrowsingSession
+- (void)S;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *outputDevices;

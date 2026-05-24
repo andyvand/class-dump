@@ -6,7 +6,7 @@
 
 #import <WebKitLegacy/DOMHTMLElement.h>
 
-@class DOMHTMLCollection, NSString;
+@class NSString;
 
 @interface DOMHTMLTableSectionElement : DOMHTMLElement
 {
@@ -14,7 +14,7 @@
 
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -26,10 +26,6 @@
 
 // Remaining properties
 @property(copy) NSString *align;
-@property(copy) NSString *ch;
-@property(copy) NSString *chOff;
-@property(readonly) DOMHTMLCollection *rows;
-@property(copy) NSString *vAlign;
 
 @end
 

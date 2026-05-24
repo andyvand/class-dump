@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, _SFPBStringDictionary;
+@class NSArray, NSData, _SFPBTableColumnAlignment;
 
 @protocol _SFPBTableAlignmentSchema
+- (_SFPBTableColumnAlignment *);
+- (NSData *)@"PHPhotoLibrary",R,N;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBStringDictionary *metadata;
 @property(copy, nonatomic) NSArray *tableColumnAlignments;
 @end
 

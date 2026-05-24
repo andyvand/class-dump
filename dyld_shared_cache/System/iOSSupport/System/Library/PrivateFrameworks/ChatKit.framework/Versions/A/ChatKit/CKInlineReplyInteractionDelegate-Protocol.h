@@ -4,6 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKChatInputController;
+
 @protocol CKInlineReplyInteractionDelegate
+- (struct UIEdgeInsets)hashValue;
+- (long long)_dataFileURLError;
+- (void)_customCancelButtonTitle;
+- (void)_currentRecordingManager;
+- (void)_currentRecordingDuration;
+- (void)_currentAuthenticationController;
+- (CKChatInputController *)_csEvaluatorMatchString;
+- (_Bool)_costlyGeneratorQueue;
+- (void)_convertAttributes;
+- (void)_contentSizeWidthConstraint;
+- (void)_contentIDURL;
+- (struct CGRect)_contactsRequestQueue;
+- (_Bool)_configureEmptyInput;
+- (void)_completionBlock;
 @end
 

@@ -9,22 +9,22 @@
 }
 
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (void);
-+ (void);
-+ (_Bool);
-+ (void);
-+ (_Bool);
-+ (void);
-+ (void);
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (void);
-+ (_Bool);
-+ (_Bool);
-+ (long long);
++ (_Bool)ode PCSBackupDBRv2EscrowContents;
++ (_Bool)dentity missing:(id)arg1 sp->identity;
++ (void)for service:(id)arg1 %d;
++ (void)sion 1.5 or 2:(id)arg1 sp->version == VERSION2 || sp->version == VERSION1_5;
++ (_Bool)ignature of wrong length;
++ (void)t contain any of the identities [%@], it contained [%@];
++ (_Bool)ve;
++ (void)pppcs signature;
++ (void)l master key;
++ (_Bool)wrappedKeySize;
++ (_Bool)try:%p:identity %@ flags:0x%08x> /* Error: Ran out of types for this method. */;
++ (_Bool):(id)arg1 %@ PCSKey:%@ PCSPublic:%@ validated:%@ version2:%@ light:%@ readwrite:%@] > /* Error: Ran out of types for this method. */;
++ (void)o-masterkey>;
++ (_Bool)ateeShareInvitation;
++ (_Bool)found;
++ (long long)ObjectSignature;
 + (id);
 
 @end

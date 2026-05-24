@@ -4,44 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString;
-
 @interface AMSSubscriptionEntitlement
 {
     _Bool _autoRenewEnabled;
-    _Bool _familySubscription;
-    _Bool _freeTrialEligible;
-    _Bool _inFreePeriod;
-    _Bool _purchaser;
-    unsigned int _source;
-    unsigned int _status;
-    unsigned int _carrierStatus;
-    NSNumber *_chargeStoreFrontID;
-    NSDate *_expiration;
-    NSString *_entitlementOriginType;
-    NSNumber *_entitlementSourceAdamId;
-    NSString *_externalSubscriptionID;
-    NSNumber *_familyRank;
-    NSNumber *_featureAccessTypeId;
-    NSNumber *_freeTrialPeriodId;
-    NSNumber *_inAppAdamId;
-    NSString *_inAppVersion;
-    double _initialPurchaseTimestamp;
-    NSString *_offerId;
-    unsigned long long _period;
-    NSString *_poolType;
-    NSNumber *_promoScenarioId;
-    NSDate *_renewDate;
-    double _serviceBeginsTimestamp;
-    NSDate *_startDate;
-    NSDate *_studentExpirationDate;
-    NSNumber *_subscriptionBundleId;
-    NSString *_vendorAdHocOfferId;
-    NSString *_vendorId;
-    long long _carrierErrorCode;
-    NSString *_carrierOperatorName;
-    NSString *_carrierPhoneNumber;
-    NSString *_carrierSessionId;
 }
 
 - (id);
@@ -55,13 +20,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -81,11 +46,11 @@
 - (id);
 - (id);
 - (unsigned int);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -94,23 +59,23 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)om the CN fetch request. Error:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)isReportJunkEverywhereEnabled;
 - (id);
 - (void);
-- (void);
+- (void)`;
 - (double);
 - (double);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)64@0:(id)arg1 8@"IDSService"16@"IDSAccount"24@"NSURL"32@"NSDictionary"40@"NSString"48@"IDSMessageContext"56;
 - (id);
-- (void);
+- (void)P;
 - (void);
 - (unsigned int);
 - (unsigned int);
 - (void);
-- (void);
+- (void))C;
 - (void)Ð!Fù§&1Â0@ù
 × ;
 - (void);
@@ -119,39 +84,6 @@
 
 // Remaining properties
 @property _Bool autoRenewEnabled; // @synthesize autoRenewEnabled=_autoRenewEnabled;
-@property long long carrierErrorCode; // @synthesize carrierErrorCode=_carrierErrorCode;
-@property(retain) NSString *carrierOperatorName; // @synthesize carrierOperatorName=_carrierOperatorName;
-@property(retain) NSString *carrierPhoneNumber; // @synthesize carrierPhoneNumber=_carrierPhoneNumber;
-@property(retain) NSString *carrierSessionId; // @synthesize carrierSessionId=_carrierSessionId;
-@property unsigned int carrierStatus; // @synthesize carrierStatus=_carrierStatus;
-@property(retain) NSNumber *chargeStoreFrontID; // @synthesize chargeStoreFrontID=_chargeStoreFrontID;
-@property(retain) NSString *entitlementOriginType; // @synthesize entitlementOriginType=_entitlementOriginType;
-@property(retain) NSNumber *entitlementSourceAdamId; // @synthesize entitlementSourceAdamId=_entitlementSourceAdamId;
-@property(retain) NSDate *expiration; // @synthesize expiration=_expiration;
-@property(retain) NSString *externalSubscriptionID; // @synthesize externalSubscriptionID=_externalSubscriptionID;
-@property(retain) NSNumber *familyRank; // @synthesize familyRank=_familyRank;
-@property _Bool familySubscription; // @synthesize familySubscription=_familySubscription;
-@property(retain) NSNumber *featureAccessTypeId; // @synthesize featureAccessTypeId=_featureAccessTypeId;
-@property _Bool freeTrialEligible; // @synthesize freeTrialEligible=_freeTrialEligible;
-@property(retain) NSNumber *freeTrialPeriodId; // @synthesize freeTrialPeriodId=_freeTrialPeriodId;
-@property(retain) NSNumber *inAppAdamId; // @synthesize inAppAdamId=_inAppAdamId;
-@property(retain) NSString *inAppVersion; // @synthesize inAppVersion=_inAppVersion;
-@property _Bool inFreePeriod; // @synthesize inFreePeriod=_inFreePeriod;
-@property double initialPurchaseTimestamp; // @synthesize initialPurchaseTimestamp=_initialPurchaseTimestamp;
-@property(retain) NSString *offerId; // @synthesize offerId=_offerId;
-@property unsigned long long period; // @synthesize period=_period;
-@property(retain) NSString *poolType; // @synthesize poolType=_poolType;
-@property(retain) NSNumber *promoScenarioId; // @synthesize promoScenarioId=_promoScenarioId;
-@property _Bool purchaser; // @synthesize purchaser=_purchaser;
-@property(retain) NSDate *renewDate; // @synthesize renewDate=_renewDate;
-@property double serviceBeginsTimestamp; // @synthesize serviceBeginsTimestamp=_serviceBeginsTimestamp;
-@property unsigned int source; // @synthesize source=_source;
-@property(retain) NSDate *startDate; // @synthesize startDate=_startDate;
-@property unsigned int status; // @synthesize status=_status;
-@property(retain) NSDate *studentExpirationDate; // @synthesize studentExpirationDate=_studentExpirationDate;
-@property(retain) NSNumber *subscriptionBundleId; // @synthesize subscriptionBundleId=_subscriptionBundleId;
-@property(retain) NSString *vendorAdHocOfferId; // @synthesize vendorAdHocOfferId=_vendorAdHocOfferId;
-@property(retain) NSString *vendorId; // @synthesize vendorId=_vendorId;
 
 @end
 

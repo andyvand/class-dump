@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _CUIMultisizeImageSetSizeAndIndex
 {
     struct CGSize _size;
-    unsigned int _index;
-    long long _idiom;
-    unsigned long long _subtype;
 }
 
 - (id);
@@ -19,16 +16,13 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (unsigned int);
 - (unsigned long long);
 - (void).square;
 
 // Remaining properties
-@property(nonatomic) long long idiom; // @synthesize idiom=_idiom;
-@property(nonatomic) unsigned int index; // @synthesize index=_index;
 @property(nonatomic) struct CGSize size; // @synthesize size=_size;
-@property(nonatomic) unsigned long long subtype; // @synthesize subtype=_subtype;
 
 @end
 

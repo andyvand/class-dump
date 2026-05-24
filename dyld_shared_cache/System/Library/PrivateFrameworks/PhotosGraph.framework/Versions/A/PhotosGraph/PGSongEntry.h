@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSNumber, NSSet, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface PGSongEntry
@@ -15,22 +15,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic, copy) NSString *adamID; // @dynamic adamID;
-@property(nonatomic, copy) NSString *album; // @dynamic album;
-@property(nonatomic, retain) NSNumber *arousal; // @dynamic arousal;
-@property(nonatomic, copy) NSString *artist; // @dynamic artist;
-@property(nonatomic, copy) NSString *audioLocaleIdentifier; // @dynamic audioLocaleIdentifier;
-@property(nonatomic, retain) NSNumber *clearedForPhotosMemoriesExport; // @dynamic clearedForPhotosMemoriesExport;
-@property(nonatomic, retain) NSNumber *duration; // @dynamic duration;
-@property(nonatomic, copy) NSData *genreNamesAsData; // @dynamic genreNamesAsData;
-@property(nonatomic, retain) NSNumber *isExplicit; // @dynamic isExplicit;
-@property(nonatomic, copy) NSDate *lastRefreshAttemptDate; // @dynamic lastRefreshAttemptDate;
-@property(nonatomic, copy) NSSet *playbackInfo; // @dynamic playbackInfo;
-@property(nonatomic, retain) NSNumber *preferenceScore; // @dynamic preferenceScore;
-@property(nonatomic, copy) NSSet *sources; // @dynamic sources;
-@property(nonatomic, copy) NSString *title; // @dynamic title;
-@property(nonatomic, retain) NSNumber *unitagMemoryAppropriateScore; // @dynamic unitagMemoryAppropriateScore;
-@property(nonatomic, retain) NSNumber *unitagMemoryNotAppropriateScore; // @dynamic unitagMemoryNotAppropriateScore;
-@property(nonatomic, retain) NSNumber *valence; // @dynamic valence;
 
 @end
 

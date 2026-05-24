@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (void)_TITLE;
+- (void)PEER_PAYMENT_ERROR_CANNOT_PERFORM_ACTION_TITLE;
 
 // Remaining properties
 @property(retain, nonatomic) PKPaymentPass *pass; // @synthesize pass=_pass;

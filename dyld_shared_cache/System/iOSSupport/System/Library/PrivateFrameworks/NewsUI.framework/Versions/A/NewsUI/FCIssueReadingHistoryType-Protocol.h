@@ -4,14 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray, NSDate, NSString;
 
 @protocol FCIssueReadingHistoryType
+- (void);
+- (NSDate *);
+- (void)!;
+- (void)dropped;
+- (NSArray *)using URL:%s. /* Error: Ran out of types for this method. */;
+- (NSDate *)subheadlineFrame;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allEngagedIssueIDs;
 @property(readonly, nonatomic) NSString *mostRecentlyVisitedIssueID;
-@property(readonly, nonatomic) NSArray *recentlyEngagedIssueIDs;
-@property(readonly, nonatomic) NSArray *recentlyVisitedIssueIDs;
 @end
 

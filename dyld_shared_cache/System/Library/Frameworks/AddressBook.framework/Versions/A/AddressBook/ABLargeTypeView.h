@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-
 @interface ABLargeTypeView
 {
     struct CGRect _windowRect;
-    struct CGRect _textRect;
-    NSString *_string;
-    NSMutableDictionary *_attributes;
 }
 
 - (struct CGRect);
-- (id);
+- (id)`;
 - (void);
 - (_Bool);
 - (_Bool);

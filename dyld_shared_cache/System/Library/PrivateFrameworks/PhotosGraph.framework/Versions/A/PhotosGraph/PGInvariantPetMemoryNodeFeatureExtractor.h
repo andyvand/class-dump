@@ -12,9 +12,9 @@
 
 + (id);
 + (id);
-+ (id);
-- (id);
-- (id);
++ (id);
+- (id)seOriginalAlpha:(long long)arg1;
+- (id);
 
 @end
 

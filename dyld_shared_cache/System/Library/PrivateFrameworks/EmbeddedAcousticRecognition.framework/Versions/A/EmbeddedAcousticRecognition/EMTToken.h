@@ -9,10 +9,6 @@
 @interface EMTToken
 {
     _Bool _precededBySpace;
-    _Bool _followedBySpace;
-    float _confidence;
-    float _score;
-    NSString *_text;
 }
 
 - (id);
@@ -20,19 +16,15 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)(;
+- (id)setRelevantShortcuts:completionHandler: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (float);
-- (float);
+- (float)keyPathForAppWebUsageDataDictionaries;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) float confidence; // @synthesize confidence=_confidence;
-@property(readonly, nonatomic) _Bool followedBySpace; // @synthesize followedBySpace=_followedBySpace;
-@property(readonly, nonatomic) _Bool precededBySpace; // @synthesize precededBySpace=_precededBySpace;
-@property(readonly, nonatomic) float score; // @synthesize score=_score;
 @property(readonly, nonatomic) NSString *text; // @synthesize text=_text;
 
 @end

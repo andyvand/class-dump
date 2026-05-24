@@ -6,7 +6,7 @@
 
 #import <CalendarNotification/CALNNotificationContent.h>
 
-@class CALNNotificationSound, NSArray, NSDate, NSDictionary, NSString, NSURL;
+@class NSString;
 
 @interface CALNMutableNotificationContent : CALNNotificationContent
 {
@@ -18,43 +18,25 @@
 - (void);
 - (void);
 - (void);
+- (void)A9;
 - (void);
 - (void);
+- (id)@;
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
+- (void)5:(id)arg1;
+- (void)kDataContextStateActive;
 - (void);
 - (void);
+- (id)addTableColumn:(struct _NSZone *)arg1;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appEntityIdentifier; // @dynamic appEntityIdentifier;
-@property(copy, nonatomic) NSString *body; // @dynamic body;
-@property(copy, nonatomic) NSString *categoryIdentifier; // @dynamic categoryIdentifier;
-@property(copy, nonatomic) NSDate *date; // @dynamic date;
-@property(copy, nonatomic) NSURL *defaultActionURL; // @dynamic defaultActionURL;
-@property(nonatomic) long long entityType; // @dynamic entityType;
-@property(copy, nonatomic) NSDate *expirationDate; // @dynamic expirationDate;
-@property(copy, nonatomic) NSString *filterCriteria; // @dynamic filterCriteria;
-@property(copy, nonatomic) NSString *iconIdentifier; // @dynamic iconIdentifier;
-@property(nonatomic) unsigned long long interruptionLevel; // @dynamic interruptionLevel;
-@property(copy, nonatomic) NSArray *peopleIdentifiers; // @dynamic peopleIdentifiers;
-@property(copy, nonatomic) NSString *sectionIdentifier; // @dynamic sectionIdentifier;
-@property(nonatomic) _Bool shouldHideTime; // @dynamic shouldHideTime;
-@property(nonatomic) _Bool shouldSuppressSyncDismissalWhenRemoved; // @dynamic shouldSuppressSyncDismissalWhenRemoved;
-@property(copy, nonatomic) CALNNotificationSound *sound; // @dynamic sound;
-@property(copy, nonatomic) NSString *subtitle; // @dynamic subtitle;
-@property(copy, nonatomic) NSString *threadIdentifier; // @dynamic threadIdentifier;
 @property(copy, nonatomic) NSString *title; // @dynamic title;
-@property(copy, nonatomic) NSDictionary *userInfo; // @dynamic userInfo;
 
 @end
 

@@ -6,21 +6,18 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIEdgePreserveUpsampleFilter : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputSmallImage;
-    NSNumber *inputSpatialSigma;
-    NSNumber *inputLumaSigma;
 }
 
 + (id);
 - (void);
+- (void)9h;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -28,16 +25,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (void);
 - (id)|yhxumtrwitsvzzzzRlezutmuyyyy{}nvs{J_UgGWK]5RD^Nd[oavpmzw|to}Piavgsnw}}|}_zyz|¦¦¦¦  syvr|elgoppopnvvvzzzzYtr|uuuullllU[OcM`Ti~~~~w¡¡¡²²²²°°°°Jc[oVaYbiiiiruuwutttt=NDS-;*ABF:FUZYZggggffefIWIdTf\qy~`qhff    |^~v¢ £«ªª««    zxxxxYaaaFNENIICIKLILAPHQLZT_ttst|{|Ypl|tvtyzzzzvyyyktpw~{x~r}uuuuppppkicm_bYmWg_u~trnwYkfqssssfjcn=XJm{\un}z~y~Ti]wDdWyu¡wwwwlrqu~~~~svrOja~¥¥¥¥­­­­t{?dZyD\OnMg_shyy|zzzzXhckAOB[9I<UJQFS=K?O6E5IGN?P^_Ug{¦¦¦¦¡¨¨w|w©©©©¯¯¯¯©©©©|lkbl:P>]ah^meqmuuuuu}}}}YmjtBUHgM`Wl||||}}}}hkdoMYKeD]QhanfrttntI\NlX]Pjvvvv}}}}mqmxXjeumqqqJ]U`%C3Vdhck{Ee_w /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputLumaSigma; // @synthesize inputLumaSigma;
-@property(retain, nonatomic) CIImage *inputSmallImage; // @synthesize inputSmallImage;
-@property(retain, nonatomic) NSNumber *inputSpatialSigma; // @synthesize inputSpatialSigma;
 
 @end
 

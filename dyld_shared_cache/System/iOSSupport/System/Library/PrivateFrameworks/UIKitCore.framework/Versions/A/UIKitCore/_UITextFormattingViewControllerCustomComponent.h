@@ -6,38 +6,30 @@
 
 #import <UIKitCore/UITextFormattingViewControllerComponent.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface _UITextFormattingViewControllerCustomComponent : UITextFormattingViewControllerComponent
 {
     NSString *_title;
-    NSString *_accessibilityHint;
-    NSString *_systemImageName;
-    NSArray *__subcomponents;
-    NSString *__textAnimationName;
 }
 
 + (_Bool)a.m;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)loadHistoryForChatWithGUID:chatIdentifiers:style:services:limit:beforeGUID:afterGUID:threadIdentifier:reply: /* Error: Ran out of types for this method. */;
+- (id)initWithMemberStatusChanges:chatStatusChanges: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool)ation"@"_UIKeyboardUIInformation"qB>48;
-- (void)ame:(id)arg1;
-- (id)ontroller;
+- (void)tableView:(id)arg1 frameForSectionIndexGivenProposedFrame: /* Error: Ran out of types for this method. */;
+- (id)_baseNavController;
 - (id)_strong, NSData *__strong, NSObject<UIApplicationDelegate> *__strong, NSURL *__strong, NSString *__strong, __strong UIStateRestorationRestoreStateBeginHandler)_block_invoke;
 - (void)acementCG;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *_subcomponents; // @synthesize _subcomponents=__subcomponents;
-@property(readonly, copy, nonatomic) NSString *_textAnimationName; // @synthesize _textAnimationName=__textAnimationName;
-@property(readonly, copy, nonatomic) NSString *accessibilityHint; // @synthesize accessibilityHint=_accessibilityHint;
-@property(readonly, copy, nonatomic) NSString *systemImageName; // @synthesize systemImageName=_systemImageName;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

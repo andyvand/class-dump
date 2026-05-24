@@ -7,19 +7,6 @@
 @interface (extension in PhotosUICore):__C.PXPhotosAppGridViewModel.AssociatedData
 {
     id bannerModel;
-    id bannerProvider;
-    id additionalLeadingNavigationBarButtonItemsAfterExisting;
-    id additionalTrailingNavigationBarButtonItemsBeforeExisting;
-    id additionalTrailingNavigationBarButtonItemsAfterExisting;
-    id additionalCenterToolbarBarButtonItemsAfterExisting;
-    id searchQueryFetcher;
-    id currentCurationKind;
-    id defaultCurationKind;
-    id availableCurationKinds;
-    id curationModel;
-    id needsUpdateLenses;
-    id sortOrderPersistenceController;
-    id storyConfigurationProvider;
 }
 
 - (id);

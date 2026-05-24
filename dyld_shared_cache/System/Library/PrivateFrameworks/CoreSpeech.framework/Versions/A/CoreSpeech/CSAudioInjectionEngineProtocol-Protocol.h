@@ -5,6 +5,8 @@
 //
 
 @protocol CSAudioInjectionEngineProtocol
+- (id);
+- (unsigned long long)K];
 - (_Bool)pected!! Received dir for NviConfig:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties

@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (int);
-- (id);
+- (id)defaultHeadersWithClientID:(unsigned long long)arg1 includingAnisette: /* Error: Ran out of types for this method. */;
 - (long long);
 
 @end

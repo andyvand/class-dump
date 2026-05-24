@@ -10,9 +10,6 @@
 @interface _DASBMMinimumSpanConfiguration
 {
     CDUnknownBlockType _aggregationKeyBlock;
-    CDUnknownBlockType _spanMarkerBlock;
-    double _minimumSpanDuration;
-    NSObject<OS_os_log> *_log;
 }
 
 + (id);
@@ -34,10 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType aggregationKeyBlock; // @synthesize aggregationKeyBlock=_aggregationKeyBlock;
 @property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(nonatomic) double minimumSpanDuration; // @synthesize minimumSpanDuration=_minimumSpanDuration;
-@property(copy, nonatomic) CDUnknownBlockType spanMarkerBlock; // @synthesize spanMarkerBlock=_spanMarkerBlock;
 
 @end
 

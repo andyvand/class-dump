@@ -7,6 +7,6 @@
 @protocol ABCardViewMultiValue;
 
 @protocol ABFaceTimeDataSource
-- (id <ABCardViewMultiValue>)n:identifier: /* Error: Ran out of types for this method. */;
+- (id <ABCardViewMultiValue>)menuItemForActionResponder:person:identifier: /* Error: Ran out of types for this method. */;
 @end
 

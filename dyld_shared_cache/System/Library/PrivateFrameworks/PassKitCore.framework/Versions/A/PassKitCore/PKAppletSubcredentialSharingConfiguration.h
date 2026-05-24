@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PKPassShareActivationOptions;
+@class NSArray;
 
 @interface PKAppletSubcredentialSharingConfiguration
 {
     NSArray *_entitlements;
-    _Bool _sharingRequiresPassword;
-    unsigned long long _maxNumberOfSharedCredentials;
-    unsigned long long _numberOfShareableCredentials;
-    PKPassShareActivationOptions *_activationOptions;
-    unsigned long long _sharingPasswordLength;
 }
 
 + (_Bool)0@ù
 × ;
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -28,19 +23,15 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
-- (id)tifier:(id)arg1 numberOfKeys:canLocallyInvalidateRegistrationState:canLocallyValidateRegistrationState: /* Error: Ran out of types for this method. */;
-- (void)ass;
+- (id)_initWithIdentifier:(id)arg1 numberOfKeys:canLocallyInvalidateRegistrationState:canLocallyValidateRegistrationState: /* Error: Ran out of types for this method. */;
+- (void)semanticBoardingPass;
 
 // Remaining properties
-@property(retain, nonatomic) PKPassShareActivationOptions *activationOptions; // @synthesize activationOptions=_activationOptions;
 @property(nonatomic) unsigned long long maxNumberOfSharedCredentials; // @synthesize maxNumberOfSharedCredentials=_maxNumberOfSharedCredentials;
-@property(nonatomic) unsigned long long numberOfShareableCredentials; // @synthesize numberOfShareableCredentials=_numberOfShareableCredentials;
-@property(nonatomic) unsigned long long sharingPasswordLength; // @synthesize sharingPasswordLength=_sharingPasswordLength;
-@property(nonatomic) _Bool sharingRequiresPassword; // @synthesize sharingRequiresPassword=_sharingRequiresPassword;
 
 @end
 

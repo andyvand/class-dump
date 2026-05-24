@@ -6,29 +6,19 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class AMSUIWebClientContext, NSString;
-
 __attribute__((visibility("hidden")))
 @interface AMSUIWebOTPAction : AMSUIWebAction
 {
     _Bool _enabled;
 }
 
-- (id);
-- (id);
+- (id)g asset analytic for %@;
+- (id)D:(id)arg1 clientID:(id)arg2 ];
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly) AMSUIWebClientContext *context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

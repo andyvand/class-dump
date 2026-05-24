@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     NSMutableArray *_cachedEvents;
 }
 
-+ (Class);
++ (Class)ingestLocationFeaturesForTripNodes:graph:loggingConnection:progressBlock:isResumingFullAnalysis: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (unsigned long long);
@@ -27,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void)!¸Gùq°1Â0@ù
 × ;
-- (id)steredGroups:(struct _NSZone *)arg1;
+- (id)locationFromKMeansClusteredGroups:(struct _NSZone *)arg1;
 - (id)ring",&,N,V_clientIdentifier;
 - (void)til.encode-remote-same.;
 

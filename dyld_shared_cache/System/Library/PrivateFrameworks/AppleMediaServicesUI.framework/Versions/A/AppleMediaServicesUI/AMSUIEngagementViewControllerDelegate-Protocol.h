@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AMSDelegateAction, AMSUIEngagementViewController, NSDictionary, NSView;
+@protocol AMSUIDynamicContentViewProtocol;
+
 @protocol AMSUIEngagementViewControllerDelegate
+
+@optional
+- (void)ublic}lu, status:(AMSUIEngagementViewController *)arg1 %{public}lu);
+- (_Bool)or asset type:(AMSUIEngagementViewController *)arg1 %{public}@ (date:(AMSDelegateAction *)arg2 %{public}@, buildVersion:(void (^)(id, NSError *))arg3 %{public}@, attempts:%{public}lu, status:%{public}lu) /* Error: Ran out of types for this method. */;
+- (void)sting retry...;
+- (void)@;
+- (NSView<AMSUIDynamicContentViewProtocol> *)quest seems to have failed;
+- (void)build version:(AMSUIEngagementViewController *)arg1 %@, previously on:(NSDictionary *)arg2 %@;
 @end
 

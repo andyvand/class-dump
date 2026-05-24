@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString, SAFrame, SATimestamp;
+@class NSMutableArray;
 
 @interface SAThread
 {
     NSMutableArray *_threadStates;
-    _Bool _isGlobalForcedIdle;
-    _Bool _isMainThread;
-    unsigned long long _threadId;
-    SATimestamp *_creationTimestamp;
-    SATimestamp *_exitTimestamp;
-    SAFrame *_resampledLeafUserFrame;
-    SAFrame *_resampledleafOfCRootFramesReplacedBySwiftAsync;
 }
 
 + (id);
-+ (id);
++ (id)accessibilityMarkerTypeDescription;
 - (id);
 - (id);
 - (unsigned long long);
@@ -48,20 +41,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) SATimestamp *creationTimestamp;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) SATimestamp *exitTimestamp;
 @property(readonly) unsigned long long hash;
-@property(readonly) _Bool isGlobalForcedIdle;
-@property(readonly) _Bool isMainThread;
-@property(readonly) _Bool isProcessorIdleThread;
-@property(readonly) Class superclass;
-@property(readonly) unsigned long long threadId; // @synthesize threadId=_threadId;
-@property(readonly) NSArray *threadStates; // @synthesize threadStates=_threadStates;
 
 @end
 

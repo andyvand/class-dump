@@ -5,5 +5,8 @@
 //
 
 @protocol CNAvatarCardActionsViewDelegate
+
+@optional
+- (void) ;
 @end
 

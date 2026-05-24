@@ -14,9 +14,9 @@
 
 + (id);
 + (id);
-- (void);
+- (void)El;
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 

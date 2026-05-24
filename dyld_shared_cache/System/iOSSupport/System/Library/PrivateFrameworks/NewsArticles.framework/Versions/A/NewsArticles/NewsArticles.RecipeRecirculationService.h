@@ -7,13 +7,6 @@
 @interface NewsArticles.RecipeRecirculationService
 {
     id recipeService;
-    id recipeAccessProvider;
-    id recipeRecirculationConfigService;
-    id recipeHistory;
-    id personalizationService;
-    id tagService;
-    id appConfigManager;
-    id subscriptionController;
 }
 
 @end

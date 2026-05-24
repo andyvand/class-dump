@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, NSURL, SFUserActivityData;
+@class NSURL;
 
 @interface SFPunchout
 {
@@ -13,48 +13,38 @@
         unsigned int hasClip:1;
         unsigned int forceOpenInBrowser:1;
     } _has;
-    _Bool _isRunnableInBackground;
-    _Bool _hasClip;
-    _Bool _forceOpenInBrowser;
-    NSString *_name;
-    NSString *_bundleIdentifier;
-    NSString *_label;
-    NSArray *_urls;
-    SFUserActivityData *_userActivityData;
-    NSString *_actionTarget;
-    NSURL *_cachedOpenableURL;
 }
 
-+ (id);
++ (id);
 + (id);
 + (_Bool);
 - (void);
 - (void);
 - (void);
+- (void)+;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id)A';
+- (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
-- (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool);
+- (id)setVideoTaskToCacheStoragePolicy:(id)arg1;
+- (id)initWithVolumeID:serialNumber:recoveryKey:displayName: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)ror",C,N,V_error;
 - (id);
-- (id);
-- (id);
+- (id)PHPhotosErrorSearchPSIDatabaseOpenError;
+- (id)Semibold;
 - (id);
 - (void);
 - (void);
@@ -63,29 +53,10 @@
 × ;
 - (id)@ù
 × ;
-- (void)Commands: /* Error: Ran out of types for this method. */;
+- (void)addCommands: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *actionTarget; // @synthesize actionTarget=_actionTarget;
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain, nonatomic) NSURL *cachedOpenableURL; // @synthesize cachedOpenableURL=_cachedOpenableURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) _Bool forceOpenInBrowser; // @synthesize forceOpenInBrowser=_forceOpenInBrowser;
-@property(nonatomic) _Bool hasClip; // @synthesize hasClip=_hasClip;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isRunnableInBackground; // @synthesize isRunnableInBackground=_isRunnableInBackground;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 @property(readonly, nonatomic) NSURL *preferredOpenableURL;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *urls; // @synthesize urls=_urls;
-@property(retain, nonatomic) SFUserActivityData *userActivityData; // @synthesize userActivityData=_userActivityData;
 
 @end
 

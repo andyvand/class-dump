@@ -9,6 +9,8 @@
 @protocol UIAdaptivePresentationControllerDelegate
 
 @optional
-- (void)ation:(UIPresentationController *)arg1 animator: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (long long)s/A/AVKit;
+- (void)collectionView:(UIPresentationController *)arg1 willDisplayContextMenuWithConfiguration:animator: /* Error: Ran out of types for this method. */;
 @end
 

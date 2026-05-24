@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSURL;
-@protocol RKDisplayStringsProvider;
+@class NSMutableDictionary;
 
 @interface RKResponseCollection
 {
     NSMutableDictionary *_responseCatalog;
-    NSMutableDictionary *_personalizersByLanguageID;
-    NSURL *_dynamicDataURL;
-    id <RKDisplayStringsProvider> _displayStringsProvider;
 }
 
 + (id);
@@ -23,22 +19,20 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)v
+;
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) id <RKDisplayStringsProvider> displayStringsProvider; // @synthesize displayStringsProvider=_displayStringsProvider;
-@property(readonly) NSURL *dynamicDataURL; // @synthesize dynamicDataURL=_dynamicDataURL;
-@property(retain) NSMutableDictionary *personalizersByLanguageID; // @synthesize personalizersByLanguageID=_personalizersByLanguageID;
 @property(retain) NSMutableDictionary *responseCatalog; // @synthesize responseCatalog=_responseCatalog;
 
 @end

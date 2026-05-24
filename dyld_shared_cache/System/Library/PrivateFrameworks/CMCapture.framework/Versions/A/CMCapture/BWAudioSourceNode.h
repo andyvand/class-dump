@@ -6,84 +6,18 @@
 
 #import <CMCapture/BWSourceNode.h>
 
-@class AVAudioFormat, BWNodeOutput, NSArray, NSDictionary, NSNumber, NSObject, NSString;
-@protocol OS_dispatch_group, OS_dispatch_queue, OS_dispatch_source;
+@class BWNodeOutput, NSArray;
 
 @interface BWAudioSourceNode : BWSourceNode
 {
     BWNodeOutput *_outputsByMicSourcePosition[3];
-    NSDictionary *_sourceRequirements;
-    _Bool _useAUHAL;
-    NSString *_HALDeviceUID;
-    NSString *_AVAudioSessionMode;
-    _Bool _listeningForDefaultInputDeviceChanges;
-    _Bool _isConfiguredForContinuityCapture;
-    _Bool _didBeginInterruption;
-    _Bool _doEndInterruption;
-    _Bool _isAppAudioSession;
-    _Bool _configuresSession;
-    _Bool _mixWithOthersEnabled;
-    _Bool _allowHQBluetoothRecording;
-    double _sessionRequiredSampleRate;
-    CDStruct_4c969caf _clientAuditToken;
-    int _clientPID;
-    unsigned long long _clientSDKVersionToken;
-    NSString *_clientAudioClockDeviceUID;
-    NSNumber *_preferredIOBufferDuration;
-    struct OpaqueCMClock *_clock;
-    unsigned int _audioDeviceID;
-    struct opaqueCMFormatDescription *_auOutputFormatDescription;
-    unsigned int _pullDuration;
-    struct ComponentInstanceRecord *_audioUnit;
-    unsigned int _auSubType;
-    struct opaqueCMSimpleQueue *_renderProcErrorQueue;
-    struct opaqueCMSimpleQueue *_inactiveBuffersQueue;
-    struct opaqueCMSimpleQueue *_activeBuffersQueue;
-    unsigned long long _nextExpectedHostTime;
-    CDStruct_1b6d18a9 _nextExpectedSampleTime;
-    CDStruct_1b6d18a9 _ioprocTimeStampDeltaLimit;
-    CDStruct_1b6d18a9 _prevPTS;
-    unsigned int _prevNumFrames;
-    NSObject<OS_dispatch_queue> *_generateSamplesDispatchQueue;
-    _Bool _streamStarted;
-    _Bool _endOfDataMarkerSent;
-    _Bool _levelMeteringEnabled;
-    int _audioLevelUnits;
-    CDStruct_1b6d18a9 _latencyOffset;
-    NSObject<OS_dispatch_source> *_silenceTimer;
-    long long _auRenderCount;
-    long long _silenceFramesGeneratedSinceLastAURenderProc;
-    struct TimestampedAudioBufferList _currentSilenceBuffer;
-    NSObject<OS_dispatch_queue> *_preparedToRecordHandlerCallbackQueue;
-    _Bool _livePhotoCaptureEnabled;
-    int _audioCaptureMode;
-    _Bool _windNoiseRemovalEnabled;
-    _Bool _cinematicVideoCaptureEnabled;
-    _Bool _videoRecordingEnabled;
-    _Bool _flipStereoAudioCaptureChannels;
-    float _stereoAudioCapturePairedCameraBaseFieldOfView;
-    float _stereoAudioCapturePairedCameraZoomFactor;
-    NSObject<OS_dispatch_queue> *_zoomHandlerQueue;
-    long long _maxZoomFrequencyNanos;
-    long long _nextZoomTime;
-    NSObject<OS_dispatch_source> *_zoomTimer;
-    float _nextZoomFactor;
-    struct os_unfair_lock_s _zoomLock;
-    _Bool _silenceFramesFillingDisabled;
-    _Bool _audioPlayingToBuiltinSpeaker;
-    _Bool _isAudioOnlyRecordingSession;
-    _Bool _stopSourceAsynchronously;
-    struct os_unfair_lock_s _startGroupLock;
-    NSObject<OS_dispatch_group> *_startGroup;
-    AVAudioFormat *_remoteIOOutputFormat;
-    _Bool _keepAudioSessionActiveOnStop;
 }
 
 + (id);
-+ (void)ssifierPipelineUpstreamOutput;
++ (void)_sceneClassifierPipelineUpstreamOutput;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)indexOfRowBlockForRowNumber: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (float);
@@ -101,23 +35,24 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (void)isSearchableItemPartOfReimport:(float)arg1;
+- (_Bool)State;
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool)x-7.4.25
+;
 - (void);
 - (id);
 - (id);
 - (void)1Â0@ù
 × ;
-- (_Bool)nEnhancedResolutionDimensions: /* Error: Ran out of types for this method. */;
-- (_Bool)ingForInputTransForm:nodeName: /* Error: Ran out of types for this method. */;
+- (_Bool)setDowngradedDeepFusionEnhancedResolutionDimensions: /* Error: Ran out of types for this method. */;
+- (_Bool)requiresScalingForInputTransForm:nodeName: /* Error: Ran out of types for this method. */;
 - (void)z&ÿ&ÿ 'ÿ (ÿ!(ÿ ")ÿ§#*ÿ¯$+ÿ·%,ÿ¿'-ÿÇ(.ÿÎ)/ÿÖ+0ÿÞ-2ÿ%ÿ%ÿ%ÿ%ÿ%ÿ%ÿ%%ÿ+%ÿ2%ÿ9%ÿ@%ÿG% ÿN%!ÿT%"ÿ\%#ÿc&$ÿk&$ÿr&%ÿz'&ÿ''ÿ((ÿ))ÿ)*ÿ *+ÿ§+,ÿ¯,,ÿ·--ÿ¿./ÿÆ00ÿÎ11ÿÕ22ÿÞ44ÿ-ÿ	-ÿ-ÿ-ÿ,ÿ,ÿ%-ÿ,-ÿ2-ÿ:-ÿ@-ÿG- ÿN-!ÿU-"ÿ]-#ÿd.$ÿk.%ÿr.&ÿz/'ÿ/(ÿ0)ÿ0*ÿ1+ÿ 2,ÿ¨3-ÿ¯4.ÿ·4/ÿ¿60ÿÆ71ÿÎ82ÿÕ94ÿÝ:5ÿ5ÿ5ÿ4ÿ4ÿ4ÿ!4ÿ&4ÿ,4ÿ35ÿ:5ÿA5 ÿH5!ÿO5!ÿU5"ÿ]6$ÿd6$ÿl6%ÿs6&ÿ{7(ÿ7)ÿ8*ÿ8+ÿ9,ÿ¡:-ÿ¨:.ÿ¯;/ÿ·<0ÿ¿=2ÿÇ>3ÿÎ?4ÿÕ@5ÿÝB7ÿ<ÿ<ÿ<ÿ<ÿ<ÿ"<ÿ(<ÿ.<ÿ4<ÿ;=ÿA= ÿH=!ÿO="ÿV=#ÿ^>$ÿe>%ÿl>&ÿs>'ÿ{?(ÿ?)ÿ@*ÿ@+ÿA-ÿ¡A.ÿ¨B/ÿ°C0ÿ·D1ÿ¿E3ÿÇF4ÿÎF6ÿÕH7ÿÞI9ÿEÿEÿEÿEÿEÿ$Eÿ)Eÿ/Eÿ5Eÿ<F ÿBF!ÿIF"ÿPF#ÿWF$ÿ_G%ÿfG&ÿmG'ÿtH(ÿ|H)ÿH*ÿI+ÿI-ÿJ.ÿ¡J/ÿ©K0ÿ°L2ÿ¸L3ÿÀM4ÿÇN6ÿÎO7ÿÖP9ÿÞQ:ÿMÿMÿMÿMÿ Mÿ&Mÿ+Mÿ1Mÿ7Mÿ=M!ÿDN"ÿJN#ÿQN$ÿWN%ÿ_O&ÿfO'ÿmO(ÿtP)ÿ}P*ÿQ+ÿQ-ÿQ.ÿR/ÿ¢R0ÿ©S2ÿ±T3ÿ¸T4ÿÀU6ÿÈV7ÿÏW9ÿÖX:ÿÞY<ÿUÿUÿUÿUÿ#Uÿ(Uÿ-Uÿ3Uÿ8U ÿ?U!ÿEV#ÿKV$ÿRV%ÿXW&ÿ`W'ÿgW(ÿnX)ÿuX*ÿ}X+ÿY-ÿY.ÿY/ÿZ0ÿ¢[2ÿª[3ÿ±\4ÿ¸\6ÿÁ]7ÿÈ^9ÿÏ_:ÿÖ_<ÿß`=ÿ]ÿ]ÿ]ÿ!]ÿ%]ÿ*]ÿ/]ÿ5]ÿ:]!ÿA]"ÿG^#ÿM^%ÿS^&ÿY^'ÿa_(ÿh_)ÿo`*ÿv`+ÿ~`-ÿa.ÿa/ÿb0ÿb1ÿ£c3ÿªc4ÿ²d5ÿ¹d7ÿÁe8ÿÉf:ÿÐf<ÿ×g=ÿßh?ÿeÿeÿ"eÿ%eÿ(eÿ-eÿ2eÿ7e ÿ<e!ÿBe#ÿHf$ÿNf%ÿTf'ÿ[f(ÿbg)ÿig+ÿph,ÿwh-ÿh.ÿi/ÿi0ÿj2ÿj3ÿ¤k4ÿ«k6ÿ²l7ÿºl8ÿÂm:ÿÉn;ÿÐn=ÿ×o?ÿàp@ÿ"nÿ#nÿ%nÿ(nÿ+nÿ0nÿ4nÿ9n ÿ?n"ÿEn#ÿJo%ÿPo&ÿVo(ÿ]p)ÿdp+ÿjp,ÿqq-ÿxq.ÿr0ÿr1ÿr2ÿs3ÿs4ÿ¤t6ÿ¬t7ÿ³u8ÿºu:ÿÃv<ÿÊw=ÿÑw?ÿØx@ÿàyBÿ&vÿ'vÿ)vÿ+vÿ/vÿ3vÿ7v ÿ<v!ÿAv"ÿGw$ÿMw&ÿRw'ÿXw)ÿ^x*ÿex,ÿlx-ÿry/ÿyy0ÿz1ÿz2ÿ{4ÿ{5ÿ{6ÿ¥|7ÿ¬|9ÿ´}:ÿ»};ÿÃ~=ÿÊ>ÿÒ@ÿÙBÿáCÿ)~ÿ+~ÿ-~ÿ/~ÿ2~ÿ6~ÿ:~ ÿ?!ÿC#ÿI%ÿO&ÿT(ÿZ*ÿ`+ÿg-ÿm/ÿt0ÿz1ÿ3ÿ4ÿ5ÿ6ÿ8ÿ¦9ÿ­:ÿ´<ÿ¼=ÿÄ?ÿË@ÿÒAÿÙCÿáEÿ-ÿ/ÿ0ÿ2ÿ5ÿ9ÿ=!ÿA"ÿF#ÿL%ÿQ'ÿW)ÿ\*ÿb,ÿi.ÿo0ÿu1ÿ|3ÿ4ÿ6ÿ7ÿ8ÿ9ÿ§;ÿ®<ÿµ=ÿ¼?ÿÅ@ÿÌBÿÓCÿÚEÿâFÿ2ÿ3ÿ5ÿ7ÿ9ÿ= ÿA!ÿE#ÿI$ÿO&ÿT(ÿY*ÿ_+ÿe-ÿk/ÿq1ÿw3ÿ~4ÿ6ÿ7ÿ9ÿ:ÿ ;ÿ¨=ÿ¯>ÿ¶?ÿ½@ÿÅBÿÍCÿÔEÿÛFÿãHÿ6ÿ7ÿ9ÿ:ÿ=ÿ@ ÿD"ÿH#ÿL%ÿQ'ÿW(ÿ\*ÿa,ÿg.ÿm0ÿs2ÿy4ÿ5ÿ7ÿ9ÿ:ÿ<ÿ¡=ÿ©>ÿ°@ÿ·Aÿ¾BÿÆDÿÍ EÿÕ FÿÜ¡Hÿä¡Iÿ:ÿ; ÿ< ÿ> ÿA  ÿD !ÿG "ÿK $ÿO %ÿT¡'ÿY¡)ÿ^¡+ÿd¡-ÿi¡/ÿp¢1ÿv¢3ÿ{¢5ÿ£7ÿ£8ÿ£:ÿ¤<ÿ¤=ÿ£¥>ÿª¥@ÿ±¦Aÿ¸¦Cÿ¿§DÿÇ§EÿÎ¨GÿÕ¨HÿÜ¨Iÿä©Kÿ>¨ÿ?¨ÿA¨ÿB¨ÿD¨ ÿG¨!ÿK¨#ÿN©$ÿR©&ÿW©(ÿ\©*ÿa©,ÿf©.ÿlª0ÿrª2ÿxª4ÿ~ª6ÿ«8ÿ«:ÿ¬;ÿ¬=ÿ¬?ÿ¤­@ÿ¬­Bÿ²®Cÿ¹®DÿÀ¯EÿÈ¯GÿÏ°HÿÖ°JÿÝ°Kÿå±LÿC°ÿD°ÿE°ÿF° ÿH°!ÿK±"ÿN±#ÿR±%ÿV±'ÿZ±)ÿ_±+ÿd±-ÿi±/ÿn²1ÿu²3ÿz²5ÿ³7ÿ³9ÿ³;ÿ´=ÿ´>ÿ´@ÿ¦µBÿ­µCÿ´¶Eÿ»¶FÿÁ·GÿÉ·IÿÐ¸Jÿ×¸KÿÞ¸Lÿæ¹NÿGºÿHºÿIºÿKº ÿMº!ÿPº"ÿRº$ÿVº&ÿYº'ÿ^º)ÿcº+ÿg»-ÿl»/ÿq»2ÿw»4ÿ}»6ÿ¼8ÿ¼:ÿ¼<ÿ½>ÿ½@ÿ¡½Aÿ¨¾Cÿ¯¾Eÿ¶¿Fÿ¼¿HÿÃÀIÿÊÀJÿÑÀLÿØÁMÿßÁNÿçÂPÿLÂÿMÂÿNÂÿOÂ ÿQÂ!ÿSÂ#ÿVÂ$ÿYÂ&ÿ]Â(ÿaÂ*ÿfÃ,ÿjÃ.ÿoÃ0ÿtÃ2ÿzÃ5ÿÄ7ÿÄ9ÿÄ;ÿÄ=ÿÅ?ÿÅAÿ£ÅCÿªÆDÿ±ÆFÿ·ÇHÿ¾ÇIÿÄÇKÿÌÈLÿÒÈMÿÙÉOÿàÉPÿèÉQÿPÊÿQÊÿRÊÿSÊ ÿUÊ!ÿWÊ#ÿZÊ%ÿ]Ê'ÿaÊ(ÿeË+ÿiË-ÿmË/ÿrË1ÿwË3ÿ}Ë6ÿÌ8ÿÌ:ÿÌ<ÿÍ>ÿÍ@ÿÍBÿ¥ÍDÿ«ÎFÿ²ÎHÿ¹ÏIÿ¿ÏKÿÆÏLÿÍÐNÿÔÐOÿÚÑPÿáÑQÿéÑSÿTÒÿUÒÿVÒÿWÒ ÿYÒ"ÿ[Ò#ÿ^Ò%ÿaÒ'ÿdÒ)ÿhÓ+ÿlÓ-ÿqÓ0ÿuÓ2ÿzÓ4ÿÔ6ÿÔ9ÿÔ;ÿÔ=ÿÕ?ÿÕAÿ¡ÕCÿ§ÕEÿ­ÖGÿ´ÖIÿ»×JÿÁ×LÿÇ×MÿÏØOÿÕØPÿÜØRÿâÙSÿêÙTÿZÛÿZÛÿ[Ûÿ\Û ÿ^Û!ÿ`Û#ÿcÛ%ÿeÛ'ÿhÜ*ÿlÜ,ÿpÜ.ÿtÜ1ÿyÜ3ÿ}Ü5ÿÝ7ÿÝ:ÿÝ<ÿÝ>ÿÞ@ÿÞBÿ¤ÞDÿªÞFÿ°ßHÿ·ßJÿ½ßLÿÃàMÿÉàOÿÐàPÿ×áRÿÝáSÿäáTÿëâUÿ^ãÿ_ãÿ`ãÿaãÿbã!ÿdã#ÿgã%ÿiã(ÿlä*ÿpä-ÿtä/ÿxä1ÿ|ä4ÿä6ÿå8ÿå;ÿå=ÿå?ÿæAÿ¡æCÿ¦æEÿ¬æGÿ²çIÿ¹çKÿ¿çMÿÅèNÿËèPÿÒèRÿØèSÿÞéTÿåéVÿìéWÿcëÿcëÿdëÿeëÿgëÿië#ÿkë%ÿmë(ÿpì*ÿtì-ÿwì/ÿ{ì2ÿì4ÿì7ÿí9ÿí;ÿí>ÿí@ÿîBÿ£îDÿ©îFÿ®îHÿ´ïJÿ»ïLÿÀïNÿÆïPÿÌðQÿÓðSÿÚðTÿàðUÿæñWÿìñXÿgóÿhóÿióÿjóÿkóÿmó!ÿoó$ÿqó(ÿtô*ÿxô-ÿ{ô0ÿô3ÿô5ÿô7ÿõ:ÿõ<ÿõ?ÿõAÿ õCÿ¦öEÿ«öGÿ±öIÿ¶öKÿ½÷MÿÂ÷OÿÈ÷QÿÎ÷RÿÕøTÿÛøUÿáøVÿèøXÿìùYÿlüÿmüÿnüÿoüÿpüÿrüÿtü!ÿvü&ÿyü*ÿ|ý-ÿý0ÿý3ÿý6ÿý8ÿý;ÿþ=ÿþ?ÿþBÿ£þDÿ©þFÿ®ÿHÿ³ÿJÿ¹ÿLÿ¿ÿNÿÅÿPÿËÿRÿÐÿSÿ×ÿUÿÝÿVÿãÿWÿéÿYÿìÿZÿ /* Error: Ran out of types for this method. */;
 - (struct OpaqueCMClock *)b	ÿj
 ÿqÿyÿÿÿ ÿ!ÿ "ÿ¨#ÿ°$ÿ·%ÿÀ'ÿÈ(ÿÏ)ÿ×+!ÿß,#ÿ%;
@@ -130,15 +65,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *audioLevels;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool keepAudioSessionActiveOnStop; // @synthesize keepAudioSessionActiveOnStop=_keepAudioSessionActiveOnStop;
-@property(nonatomic) _Bool stopSourceAsynchronously;
-@property(readonly) Class superclass;
 
 @end
 

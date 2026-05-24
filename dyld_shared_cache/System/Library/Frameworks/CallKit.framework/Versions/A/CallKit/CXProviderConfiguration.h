@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CXSandboxExtendedURL, NSArray, NSData, NSOrderedSet, NSSet, NSString;
+@class NSString;
 
 @interface CXProviderConfiguration
 {
     _Bool _includesCallsInRecents;
-    _Bool _supportsVideo;
-    _Bool _supportsAudioTranslation;
-    _Bool _supportsAudioOnly;
-    _Bool _supportsEmergency;
-    _Bool _supportsVoicemail;
-    _Bool _supportsCurrentPlatform;
-    _Bool _supportsRinging;
-    _Bool _supportsDynamicSystemUI;
-    unsigned int _audioSessionID;
-    NSString *_localizedName;
-    NSData *_iconTemplateImageData;
-    unsigned long long _maximumCallGroups;
-    unsigned long long _maximumCallsPerCallGroup;
-    NSSet *_supportedHandleTypes;
-    NSArray *_emergencyHandles;
-    NSArray *_emergencyLabeledHandles;
-    NSArray *_handoffIdentifiers;
-    NSOrderedSet *_prioritizedSenderIdentities;
-    CXSandboxExtendedURL *_ringtoneSoundURL;
 }
 
 + (_Bool);
@@ -39,18 +20,18 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)bytes still remain;
+- (_Bool)RROR;
+- (_Bool)ATCS_SERVER_FAILURE;
+- (_Bool)CM_CALL_CMD_ERR_SUPS_SRV_ON_PROHIBITED_LINE_S;
+- (void)QMI_ERR_UIM_NOT_INITIALIZED;
+- (void)QMI_ERR_INVALID_SERVICE_TYPE;
+- (void)QMI_ERR_INVALID_TX_ID;
+- (void)QMI_ERR_GENERIC_0014;
+- (void)QMI_ERR_NOT_PROVISIONED;
+- (void)QMI_ERR_NO_NETWORK_FOUND;
+- (void)QMI_ERR_INCORRECT_PIN;
+- (void)QMI_ERR_NO_THRESHOLDS;
 - (void);
 - (void);
 - (void);
@@ -70,18 +51,18 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)_discardPendingGPUFrameCompletedHandlers;
+- (id)_directionForScreenPoint:viewport: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (id)llocated. wasObservingSubscriptionStatus=%{BOOL}u;
+- (unsigned long long)lic}@ with url %{public}@;
+- (id);
+- (_Bool)_dispatchMediaRemoteCommand:(id)arg1 withOptions:completion: /* Error: Ran out of types for this method. */;
+- (void)isExecuting;
 - (_Bool);
 - (id);
 - (void);
@@ -89,38 +70,10 @@
 - (unsigned int)AðÐ!ÌFùQr1Â0@ù
 × ;
 - (void)16;
-- (_Bool)pportsCurrentPlatform:(id)arg1;
+- (_Bool)setSupportsCurrentPlatform:(id)arg1;
 
 // Remaining properties
-@property(nonatomic) unsigned int audioSessionID; // @synthesize audioSessionID=_audioSessionID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSArray *emergencyHandles; // @synthesize emergencyHandles=_emergencyHandles;
-@property(copy, nonatomic) NSArray *emergencyLabeledHandles; // @synthesize emergencyLabeledHandles=_emergencyLabeledHandles;
-@property(copy, nonatomic) NSArray *handoffIdentifiers; // @synthesize handoffIdentifiers=_handoffIdentifiers;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSData *iconTemplateImageData; // @synthesize iconTemplateImageData=_iconTemplateImageData;
-@property(nonatomic) _Bool includesCallsInRecents; // @synthesize includesCallsInRecents=_includesCallsInRecents;
 @property(copy, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(nonatomic) unsigned long long maximumCallGroups; // @synthesize maximumCallGroups=_maximumCallGroups;
-@property(nonatomic) unsigned long long maximumCallsPerCallGroup; // @synthesize maximumCallsPerCallGroup=_maximumCallsPerCallGroup;
-@property(copy, nonatomic) NSOrderedSet *prioritizedSenderIdentities; // @synthesize prioritizedSenderIdentities=_prioritizedSenderIdentities;
-@property(retain, nonatomic) NSString *ringtoneSound;
-@property(copy, nonatomic) CXSandboxExtendedURL *ringtoneSoundURL; // @synthesize ringtoneSoundURL=_ringtoneSoundURL;
-@property(copy, nonatomic) NSSet *senderIdentities;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSSet *supportedHandleTypes; // @synthesize supportedHandleTypes=_supportedHandleTypes;
-@property(nonatomic) _Bool supportsAudioOnly; // @synthesize supportsAudioOnly=_supportsAudioOnly;
-@property(nonatomic) _Bool supportsAudioTranslation; // @synthesize supportsAudioTranslation=_supportsAudioTranslation;
-@property(nonatomic) _Bool supportsCurrentPlatform; // @synthesize supportsCurrentPlatform=_supportsCurrentPlatform;
-@property(nonatomic) _Bool supportsDynamicSystemUI; // @synthesize supportsDynamicSystemUI=_supportsDynamicSystemUI;
-@property(nonatomic) _Bool supportsEmergency; // @synthesize supportsEmergency=_supportsEmergency;
-@property(nonatomic) _Bool supportsRinging; // @synthesize supportsRinging=_supportsRinging;
-@property(nonatomic) _Bool supportsVideo; // @synthesize supportsVideo=_supportsVideo;
-@property(nonatomic) _Bool supportsVoicemail; // @synthesize supportsVoicemail=_supportsVoicemail;
 
 @end
 

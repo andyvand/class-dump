@@ -9,12 +9,11 @@
 @interface _PKProvisioningRequirementsContainer
 {
     id requirements;
-    void provisioningSID;
 }
 
 + (_Bool)±î%°1Â0@ù
 × ;
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (id);

@@ -4,34 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVContentKey, AVContentKeyRequestInternal, AVContentKeySpecifier, NSData, NSDictionary, NSError;
-@protocol AVContentKeyRecipient;
+@class AVContentKeyRequestInternal;
 
 @interface AVContentKeyRequest
 {
     AVContentKeyRequestInternal *_contentKeyRequest;
-    _Bool _canBeFulfilledWithAdvisoryKey;
 }
 
 + (void);
 + (void);
 + (void);
 + (_Bool);
++ (id);
++ (id)p;
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)^;
 
 // Remaining properties
-@property(readonly) _Bool canBeFulfilledWithAdvisoryKey; // @synthesize canBeFulfilledWithAdvisoryKey=_canBeFulfilledWithAdvisoryKey;
-@property(readonly) _Bool canProvidePersistableContentKey;
-@property(readonly) AVContentKey *contentKey;
-@property(readonly) AVContentKeySpecifier *contentKeySpecifier;
-@property(readonly) NSError *error;
-@property(readonly) id identifier;
-@property(readonly, nonatomic) NSData *initializationData;
-@property(readonly, copy) NSDictionary *options;
-@property(readonly) __weak id <AVContentKeyRecipient> originatingRecipient;
 @property(readonly) long long status;
 
 @end

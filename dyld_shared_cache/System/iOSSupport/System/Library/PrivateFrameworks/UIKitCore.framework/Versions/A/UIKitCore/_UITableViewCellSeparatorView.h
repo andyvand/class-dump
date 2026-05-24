@@ -6,22 +6,18 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIVisualEffect, UIVisualEffectView;
+@class UIVisualEffect;
 
 __attribute__((visibility("hidden")))
 @interface _UITableViewCellSeparatorView : UIView
 {
     UIView *_backgroundView;
-    UIView *_overlayView;
-    UIVisualEffect *_separatorEffect;
-    UIVisualEffectView *_effectView;
-    _Bool _drawsWithVibrantLightMode;
 }
 
 - (void);
 - (_Bool)0@ù
 × ;
-- (id);
+- (id)_lfld_addConstraintsAffectingVariableValueChange:(struct CGRect)arg1;
 - (void)Dè,;
 - (void)ÿ¶ýoþ;
 - (void)Ð|¤\;

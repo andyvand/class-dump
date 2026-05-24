@@ -4,32 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSTimerGate, NSObject, NSString, NSXPCConnection;
+@class NSObject, NSString;
 @protocol OS_dispatch_queue;
 
 @interface MSClientSidePauseContext
 {
     NSString *_UUID;
-    NSObject<OS_dispatch_queue> *_timerQueue;
-    NSXPCConnection *_server;
-    MSTimerGate *_gate;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)ge",&,N,V_defaultPunchoutAppIconImage;
+- (void)PBDefaultPunchoutAppIconImage",&,N,V_defaultPunchoutAppIconImage;
+- (void)ate;
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) MSTimerGate *gate; // @synthesize gate=_gate;
-@property(retain, nonatomic) NSXPCConnection *server; // @synthesize server=_server;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *timerQueue; // @synthesize timerQueue=_timerQueue;
 
 @end

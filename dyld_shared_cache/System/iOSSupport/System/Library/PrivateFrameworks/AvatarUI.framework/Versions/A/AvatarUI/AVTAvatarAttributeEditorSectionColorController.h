@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAttributeEditorSectionHeaderView, AVTAvatarAttributeEditorSectionColorDataSource, AVTAvatarColorSliderContainerView, AVTUIEnvironment, NSString, UICollectionView, UICollectionViewFlowLayout, UIView;
-@protocol AVTAvatarAttributeEditorControllerSubSelectionDelegate, AVTAvatarAttributeEditorSection;
+@class AVTAvatarAttributeEditorSectionColorDataSource;
 
 @interface AVTAvatarAttributeEditorSectionColorController
 {
     _Bool _showsHeader;
-    _Bool _dontAnimateSelection;
-    _Bool _needsScrollToSelected;
-    id <AVTAvatarAttributeEditorSection> _section;
-    long long _selectedIndex;
-    id <AVTAvatarAttributeEditorControllerSubSelectionDelegate> delegate;
-    AVTAvatarAttributeEditorSectionColorDataSource *_dataSource;
-    UIView *_containerView;
-    UICollectionView *_collectionView;
-    UICollectionViewFlowLayout *_collectionViewLayout;
-    AVTAvatarColorSliderContainerView *_sliderContainerView;
-    AVTUIEnvironment *_environment;
-    AVTAttributeEditorSectionHeaderView *_headerView;
 }
 
 + (_Bool);
@@ -41,7 +28,7 @@
 - (struct CGSize);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -80,59 +67,39 @@
 - (id);
 - (struct CGSize);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (unsigned long long);
 - (void);
+- (id)B;
+- (long long)ableDictionary",&,V_localPortOnlyLookupMap;
 - (id);
+- (void);
+- (void);
+- (id)%08x%s
+;
+- (id)deleteSearchableItemsWithDomainIdentifiers:protectionClass:forBundleID:fromClient:options:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)deleteActionsWithIdentifiers:(id)arg1;
+- (void);
+- (long long);
+- (long long)t exists DownloadQueueGeneralOrder on DownloadQueue (isThumbnail asc, albumGUID asc, batchCreationDate asc, photoCreationDate asc);;
+- (void);
+- (void);
+- (void);
+- (void);
 - (long long);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (long long);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (id);
-- (void);
-- (void);
-- (id)tonBackgroundColor;
-- (id)ackingLayout;
+- (id)splashScreenButtonBackgroundColor;
+- (id)backingLayout;
 - (id)¤úPã;
 - (id)¯;
 - (void)üÿçú;
 
 // Remaining properties
-@property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(retain, nonatomic) UICollectionViewFlowLayout *collectionViewLayout; // @synthesize collectionViewLayout=_collectionViewLayout;
-@property(retain, nonatomic) UIView *containerView; // @synthesize containerView=_containerView;
-@property(nonatomic) double currentRelativeContentOffsetX;
 @property(readonly, nonatomic) AVTAvatarAttributeEditorSectionColorDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVTAvatarAttributeEditorControllerSubSelectionDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool dontAnimateSelection; // @synthesize dontAnimateSelection=_dontAnimateSelection;
-@property(readonly, nonatomic) AVTUIEnvironment *environment; // @synthesize environment=_environment;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) AVTAttributeEditorSectionHeaderView *headerView; // @synthesize headerView=_headerView;
-@property(nonatomic) _Bool needsScrollToSelected; // @synthesize needsScrollToSelected=_needsScrollToSelected;
-@property(readonly, nonatomic) id <AVTAvatarAttributeEditorSection> section; // @synthesize section=_section;
-@property(readonly, nonatomic) UIView *sectionView;
-@property(nonatomic) long long selectedIndex; // @synthesize selectedIndex=_selectedIndex;
-@property(readonly, nonatomic) _Bool showsHeader; // @synthesize showsHeader=_showsHeader;
-@property(retain, nonatomic) AVTAvatarColorSliderContainerView *sliderContainerView; // @synthesize sliderContainerView=_sliderContainerView;
-@property(readonly) Class superclass;
 
 @end
 

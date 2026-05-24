@@ -17,7 +17,7 @@
 + (unsigned short);
 + (id);
 + (unsigned short);
-- (id);
+- (id)NSNotification;
 - (void);
 
 @end

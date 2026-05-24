@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, OADBlip;
-
 __attribute__((visibility("hidden")))
 @interface OADBlipRef
 {
     int mIndex;
-    NSString *mName;
-    NSMutableArray *mEffects;
-    OADBlip *mBlip;
 }
 
 + (id);
 + (int);
 + (int);
 + (int);
-+ (id);
++ (id)a;
 + (id);
 - (void);
 - (void);
@@ -38,9 +33,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (int);
-- (void)essage;
+- (void)tsu_localizedAlertMessage;
 - (void),È;
-- (_Bool)TripCompositeMasterIdAtom;
+- (_Bool)33PptRoundTripCompositeMasterIdAtom;
 - (void)iDEN¬hßs;
 
 @end

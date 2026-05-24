@@ -7,34 +7,28 @@
 @interface NEVPNIKEv1ProposalParameters
 {
     int _diffieHellmanGroup;
-    int _lifetimeSeconds;
-    long long _encryptionAlgorithm;
-    long long _integrityAlgorithm;
 }
 
-+ (_Bool);
++ (_Bool)setTrafficClassTLVProcessed: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (long long);
 - (int);
 - (int);
 - (id);
-- (id);
+- (id)nceContainer;
 - (id);
 - (id);
 - (void);
 - (id);
-- (_Bool)uginUpgradeInfo:(id)arg1;
+- (_Bool)setPluginUpgradeInfo:(id)arg1;
 - (id)alSignatureAlgorithmIdentifier:(int)arg1 ];
 
 // Remaining properties
-@property int diffieHellmanGroup; // @synthesize diffieHellmanGroup=_diffieHellmanGroup;
 @property long long encryptionAlgorithm; // @synthesize encryptionAlgorithm=_encryptionAlgorithm;
-@property long long integrityAlgorithm; // @synthesize integrityAlgorithm=_integrityAlgorithm;
-@property int lifetimeSeconds; // @synthesize lifetimeSeconds=_lifetimeSeconds;
 
 @end
 

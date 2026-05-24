@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface CacheIndex
 {
     unsigned short _fileIndex;
-    long long _chunk_offset;
 }
 
 - (_Bool);
@@ -20,7 +19,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) long long chunk_offset; // @synthesize chunk_offset=_chunk_offset;
 @property(readonly, nonatomic) unsigned short fileIndex; // @synthesize fileIndex=_fileIndex;
 
 @end

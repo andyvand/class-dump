@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXAppleMusicAsset, PXAudioRequestOptions;
-
 @interface _PXAppleMusicMediaProviderRequest
 {
     long long _requestID;
-    PXAppleMusicAsset *_asset;
-    PXAudioRequestOptions *_options;
-    long long _signpostID;
-    CDUnknownBlockType _resultHandler;
 }
 
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (long long);
-- (id);
+- (id)whitespaceCharacterSet;
 - (void)R;
 - (id)nd creating intervention view controller:%s. /* Error: Ran out of types for this method. */;
-- (CDUnknownBlockType)TRIPS;
+- (CDUnknownBlockType)DESTINATION_TRIPS;
 - (void)°uÿ ;
 
 // Remaining properties
-@property(readonly, nonatomic) PXAppleMusicAsset *asset; // @synthesize asset=_asset;
-@property(readonly, nonatomic) PXAudioRequestOptions *options; // @synthesize options=_options;
 @property(readonly, nonatomic) long long requestID; // @synthesize requestID=_requestID;
-@property(readonly, nonatomic) CDUnknownBlockType resultHandler; // @synthesize resultHandler=_resultHandler;
-@property(nonatomic) long long signpostID; // @synthesize signpostID=_signpostID;
 
 @end
 

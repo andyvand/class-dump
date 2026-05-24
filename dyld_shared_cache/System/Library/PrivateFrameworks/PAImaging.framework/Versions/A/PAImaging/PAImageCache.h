@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSObject;
-@protocol OS_dispatch_queue;
-
 @interface PAImageCache
 {
     unsigned long long _partitions;
-    id *_contents;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMapTable *_invalidationKeys;
-    _Bool _enabled;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)P;
 - (id);
 - (id);
 - (id);

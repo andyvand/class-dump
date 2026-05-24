@@ -18,13 +18,13 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id);
-- (void);
-- (void);
+- (void)_onChangeTokenUpdated:(long long *)arg1 token:(long long *)arg2 data:(_Bool)arg3;
+- (void)IMFindAccountProcessingParameter;
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)r %@;
 - (id);
 - (id);
 - (void)àA»ÿ;

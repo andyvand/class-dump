@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPropertyDescription, NSString;
+@class NSPropertyDescription;
 
 __attribute__((visibility("hidden")))
 @interface HMDPropertyCodingDescription
 {
     NSPropertyDescription *_property;
-    NSString *_codingKey;
-    unsigned long long _conditions;
 }
 
 - (_Bool);
@@ -20,14 +18,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id)t to current query generation:%{public}@ /* Error: Ran out of types for this method. */;
-- (void)AnalyzerReadWriteIPFailureEventCounter;
+- (void)HMDLogEventUserActivityAnalyzerReadWriteIPFailureEventCounter;
 
 // Remaining properties
-@property(readonly) NSString *codingKey;
-@property(readonly, getter=isConditional) _Bool conditional;
-@property(readonly) NSString *name;
 @property(readonly) NSPropertyDescription *property;
-@property(readonly) NSString *shortDescription;
 
 @end
 

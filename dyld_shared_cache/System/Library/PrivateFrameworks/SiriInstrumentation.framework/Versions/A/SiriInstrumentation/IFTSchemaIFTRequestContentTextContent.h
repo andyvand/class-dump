@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTStatementId, NSData, SISchemaUUID;
+@class IFTSchemaIFTStatementId;
 
 @interface IFTSchemaIFTRequestContentTextContent : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTStatementId *_statementId;
-    SISchemaUUID *_linkId;
-    _Bool _hasStatementId;
-    _Bool _hasLinkId;
 }
 
 - (id);
@@ -26,23 +23,19 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)$;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)ns/A/login;
 - (id);
 - (id)ntext",&,N,V_fullPayloadCorrectionContext;
-- (id)emaCMSearchFailed;
+- (id)CMSchemaCMSearchFailed;
 - (void)e¸%w4#;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasStatementId; // @synthesize hasStatementId=_hasStatementId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
 @property(retain, nonatomic) IFTSchemaIFTStatementId *statementId; // @synthesize statementId=_statementId;
 
 @end

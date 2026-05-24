@@ -6,26 +6,19 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString, UIImpactFeedbackGenerator;
-@protocol UISwitchControl;
-
 @interface UISwitchVisualElement : UIView
 {
     _Bool _enabled;
-    NSString *_title;
-    id <UISwitchControl> _switchControl;
-    UIImpactFeedbackGenerator *_impactFeedbackGenerator;
-    double _enabledAlpha;
 }
 
-+ (struct CGSize)xtReplacementsMenuWithMenuElements: /* Error: Ran out of types for this method. */;
-+ (struct UIEdgeInsets)entViewController;
++ (struct CGSize)updatedTextReplacementsMenuWithMenuElements: /* Error: Ran out of types for this method. */;
++ (struct UIEdgeInsets)_documentViewController;
 + (_Bool)ll;
-- (id);
+- (id)_localDeviceSupportsSMSAndDoesNotHaveAPhoneNumberForSIMID: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
-- (double);
+- (void)(;
+- (id)ched, spawn TTR if needed;
+- (double)action required. Subscription:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -35,23 +28,19 @@
 - (struct CGSize)ù
 × ;
 - (void)nsChanged"b1"delegateSupportsDeprecatedWindowSupportedOrientationsChanged"b1};
-- (void)n;
-- (void)ithClickPresentation:(id)arg1;
+- (void)revealTabBarSelection;
+- (void)initWithClickPresentation:(id)arg1;
 - (void)ine:(id)arg1 scale:displayScale:offset: /* Error: Ran out of types for this method. */;
 - (id)includeMenuControllerItems;
 - (void)¸\¸;
 - (void)ïÿ¬ïÿ`ïÿ;
-- (_Bool)neHostingControllerC;
-- (id)ringC;
+- (_Bool)So41UIKeyboardCandidateSceneHostingControllerC;
+- (id)So18NSAttributedStringC;
 - (void)4!ÿ;
 - (void)clÝlKi;
 
 // Remaining properties
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
 @property(nonatomic) double enabledAlpha; // @synthesize enabledAlpha=_enabledAlpha;
-@property(retain, nonatomic) UIImpactFeedbackGenerator *impactFeedbackGenerator; // @synthesize impactFeedbackGenerator=_impactFeedbackGenerator;
-@property(nonatomic) __weak id <UISwitchControl> switchControl; // @synthesize switchControl=_switchControl;
-@property(copy) NSString *title; // @synthesize title=_title;
 
 @end
 

@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SGContact, SGContactMatch;
+@class SGContact, SGContactMatch;
 
 @interface CNContactSuggestionMatch
 {
     SGContact *_contact;
-    SGContactMatch *_contactMatch;
-    NSString *_mainStoreLinkedIdentifier;
 }
 
-+ (id);
++ (id);
 + (void);
 + (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void)0:8@"CNRetry"16@"NSError"24q32 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) SGContact *contact; // @synthesize contact=_contact;
 @property(retain, nonatomic) SGContactMatch *contactMatch; // @synthesize contactMatch=_contactMatch;
-@property(retain, nonatomic) NSString *mainStoreLinkedIdentifier; // @synthesize mainStoreLinkedIdentifier=_mainStoreLinkedIdentifier;
 
 @end
 

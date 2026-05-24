@@ -6,20 +6,16 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRCroppingSprite, MRImage, MRTextRenderer;
+@class MRTextRenderer;
 
 @interface MREffectJustAText : MREffect
 {
     MRTextRenderer *mTextRenderer;
-    MRImage *mTextImage;
-    MRCroppingSprite *mTextSprite;
-    _Bool mTextWasUpdatedSinceLastRendering;
-    struct CGSize mSizeOfText;
 }
 
-- (void);
+- (void)returning;
 - (_Bool);
-- (_Bool);
+- (_Bool)eeded:(double)arg1 ];
 - (_Bool);
 - (id);
 - (struct CGSize);

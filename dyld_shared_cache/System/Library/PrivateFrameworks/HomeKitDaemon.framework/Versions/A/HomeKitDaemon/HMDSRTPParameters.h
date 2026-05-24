@@ -4,34 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDSRTPCryptoSuite, NSData;
+@class HMDSRTPCryptoSuite;
 
 __attribute__((visibility("hidden")))
 @interface HMDSRTPParameters
 {
     HMDSRTPCryptoSuite *_srtpCryptoSuite;
-    NSData *_srtpMasterKey;
-    NSData *_srtpMasterSalt;
 }
 
 + (_Bool)(ô;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)setMapUiShownActiveNavMode:(id)arg1;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)unreachableSubnodeNamesAndReturnError:(id)arg1 error:%ld, %s /* Error: Ran out of types for this method. */;
 - (void);
 - (void)UnassociatedWACAccessory _configureDevice];
 
 // Remaining properties
 @property(readonly, copy, nonatomic) HMDSRTPCryptoSuite *srtpCryptoSuite; // @synthesize srtpCryptoSuite=_srtpCryptoSuite;
-@property(readonly, copy, nonatomic) NSData *srtpMasterKey; // @synthesize srtpMasterKey=_srtpMasterKey;
-@property(readonly, copy, nonatomic) NSData *srtpMasterSalt; // @synthesize srtpMasterSalt=_srtpMasterSalt;
-@property(readonly, copy) NSData *tlvData;
 
 @end
 

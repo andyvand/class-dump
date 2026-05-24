@@ -9,43 +9,31 @@
 @interface CASDFGlassHighlightEffect : CASDFEffect
 {
     _Bool _global;
-    struct CGColor *_color;
-    double _height;
-    double _angle;
-    double _spread;
-    double _amount;
-    double _curvature;
 }
 
 + (id);
 + (id);
 + (id);
 - (double);
+- (void)q#;
 - (void);
-- (void);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (_Bool);
-- (double);
+- (double)!;
 - (void);
 - (double);
 - (void);
 - (double);
 - (struct CGColor *);
 - (void);
-- (double);
-- (id);
+- (double)SSparseVector *, NSISPlaceValue_t, NSISFloat_t, NSISFloat_t, CFIndex);
+- (id)C;
 - (void);
 
 // Remaining properties
-@property(nonatomic) double amount; // @synthesize amount=_amount;
-@property(nonatomic) double angle; // @synthesize angle=_angle;
 @property(retain, nonatomic) struct CGColor *color; // @synthesize color=_color;
-@property(nonatomic) double curvature; // @synthesize curvature=_curvature;
-@property(nonatomic) _Bool global; // @synthesize global=_global;
-@property(nonatomic) double height; // @synthesize height=_height;
-@property(nonatomic) double spread; // @synthesize spread=_spread;
 
 @end
 

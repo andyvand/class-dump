@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet;
+@class NSMutableDictionary;
 
 @interface MPBaseEntityTranslator
 {
     NSMutableDictionary *_propertiesToTranslators;
-    NSMutableDictionary *_relationshipsToTranslators;
-    CDUnknownBlockType _sourcePreprocessorBlock;
-    NSMutableSet *_unsupportedKeys;
-    struct {
-        unsigned int _relationshipPreparesSource:1;
-    } _optionalHooks;
-    Class _MPModelClass;
 }
 
 + (id);
-+ (id);
++ (id);
 + (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)alterPublicationStmt;
 - (Class);
 - (id);
-- (id);
+- (id)G;
 - (id);
 - (Class);
 - (id);

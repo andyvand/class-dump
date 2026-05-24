@@ -8,9 +8,9 @@
 {
 }
 
-+ (unsigned long long)Fôýèª	Jøô;
-+ (_Bool)A©àªáª]ôýâ;
-+ (_Bool);
++ (unsigned long long)";
++ (_Bool);
++ (_Bool);
 + (id);
 
 @end

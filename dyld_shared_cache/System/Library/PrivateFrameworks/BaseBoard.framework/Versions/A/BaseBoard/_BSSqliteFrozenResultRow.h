@@ -6,27 +6,19 @@
 
 #import <BaseBoard/BSSqliteResultRow.h>
 
-@class NSArray;
-
 @interface _BSSqliteFrozenResultRow : BSSqliteResultRow
 {
     unsigned long long _count;
-    NSArray *_frozenColumnNames;
-    NSArray *_frozenObjects;
-    NSArray *_frozenIntegers;
-    NSArray *_frozenDoubles;
-    NSArray *_frozenStrings;
-    NSArray *_frozenDatas;
 }
 
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)ks/Foundation.framework/Versions/C/Foundation;
 - (void);
 - (double)ilure *);
 

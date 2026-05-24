@@ -13,17 +13,16 @@
     NSData *_lumaHistogramData;
 }
 
-+ (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
++ (id)an array as the root object or if the current parent is an array. To stream an array into the value of a dictionary key use startArrayForKey:(id)arg1;
+- (id)allowedApplicationBundleIDs;
+- (unsigned long long)allValues;
+- (id)_currentIntervalStartDate;
+- (id),N,V_keyboardType;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly) unsigned long long lumaHistogramBinCount;
 @property(readonly) NSData *lumaHistogramData; // @synthesize lumaHistogramData=_lumaHistogramData;
 
 @end

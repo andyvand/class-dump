@@ -11,12 +11,11 @@
 @interface PKPeerPaymentRecurringPaymentActionRequest : PKPeerPaymentWebServiceRequest
 {
     NSString *_recurringPaymentIdentifier;
-    NSString *_action;
 }
 
 - (id);
 - (id);
-- (id)entaryData;
+- (id)_supplementaryData;
 - (void)irstName;
 - (void)agnostics;
 

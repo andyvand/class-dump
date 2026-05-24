@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKConversationListEmbeddedCollectionViewCell;
+
 @protocol CKConversationListEmbeddedCollectionViewCellDelegate
+- (void)ic_attributedStringByFlatteningInlineAttachmentsWithContext:(CKConversationListEmbeddedCollectionViewCell *)arg1 flattenUnsupportedInlineAttachmentsOnly:updateRangeValueToObjectMapBlock:replacementAttributedStringBlock: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)*(2G;
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol _DUIServerSessionDestination
+- (oneway void);
+- (oneway void)__objc_imageinfo__DATA_CONST;
 @end
 

@@ -7,18 +7,16 @@
 @interface UARPAccessoryHIDPersonality
 {
     unsigned short _vendorID;
-    unsigned short _productID;
 }
 
-- (id);
-- (unsigned long long);
+- (id)};
+- (unsigned long long)CS:%s /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (unsigned short);
 - (unsigned short);
 
 // Remaining properties
-@property(readonly) unsigned short productID; // @synthesize productID=_productID;
 @property(readonly) unsigned short vendorID; // @synthesize vendorID=_vendorID;
 
 @end

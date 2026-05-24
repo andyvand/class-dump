@@ -12,7 +12,7 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)_NSRange=QQ}24@0:(id)arg1 8@16;
 - (_Bool);
 - (id);
 

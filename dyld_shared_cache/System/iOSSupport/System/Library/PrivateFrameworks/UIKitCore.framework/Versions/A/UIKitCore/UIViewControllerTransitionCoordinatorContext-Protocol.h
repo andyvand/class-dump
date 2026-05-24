@@ -8,32 +8,21 @@
 
 @protocol UIViewControllerTransitionCoordinatorContext
 - (UIView *)tion of text completion:(NSString *)arg1 %@;
-- (long long)tEnd;
-- (_Bool)stureArrowButtonAddress;
+- (long long)UIKBColorWildcatKeyActiveBlueGradientEnd;
+- (_Bool)_UIFocusGestureArrowButtonAddress;
 - (double)eted from that section (%d inserted, %d deleted) and plus or minus the number of items moved into or out of that section (%d moved in, %d moved out). Collection view:%@ /* Error: Ran out of types for this method. */;
 - (UIViewController *)pplementary view:(NSString *)arg1 %@;
 - (_Bool)ator.State.inactive;
-- (struct CGAffineTransform)ustomized_font;
+- (struct CGAffineTransform)UILabelConfiguration_hasCustomized_font;
 - (_Bool)}24@?0{CGPoint=dd}8;
 - (_Bool)nÄþÿ*Äþÿ;
 - (_Bool)7G;
 - (UIView *);
 - (double)Unkick;
-- (double)ator;
-- (long long)ccessibilityHUDAssistant;
+- (double)Iterator;
+- (long long)DvR0ToolbarAccessibilityHUDAssistant;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isAnimated) _Bool animated;
-@property(readonly, nonatomic, getter=isCancelled) _Bool cancelled;
-@property(readonly, nonatomic) long long completionCurve;
-@property(readonly, nonatomic) double completionVelocity;
-@property(readonly, nonatomic) UIView *containerView;
-@property(readonly, nonatomic) _Bool initiallyInteractive;
-@property(readonly, nonatomic, getter=isInteractive) _Bool interactive;
-@property(readonly, nonatomic) _Bool isInterruptible;
-@property(readonly, nonatomic) double percentComplete;
-@property(readonly, nonatomic) long long presentationStyle;
-@property(readonly, nonatomic) struct CGAffineTransform targetTransform;
-@property(readonly, nonatomic) double transitionDuration;
 @end
 

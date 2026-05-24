@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)implemented with a backing ivar. Was this an accidental auto-synthesis?;
 - (int);
 
 // Remaining properties

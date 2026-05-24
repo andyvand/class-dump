@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATTaskClient, DMFControlGroupIdentifier, NSData, NSDictionary, NSString;
+@class CATTaskClient;
 
 @interface CRKShareTarget
 {
     _Bool _group;
-    _Bool _course;
-    _Bool _instructor;
-    _Bool _supportsFileURLs;
-    DMFControlGroupIdentifier *_courseIdentifier;
-    NSString *_type;
-    NSString *_identifier;
-    NSString *_displayName;
-    NSString *_secondaryName;
-    NSData *_iconImageData;
-    CATTaskClient *_taskClient;
 }
 
 + (id);
@@ -26,47 +16,36 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)RC;
 - (void);
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
-- (void);
-- (void);
+- (void)#;
+- (void)';
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)`_h_;
 - (_Bool);
 - (void);
 - (id);
+- (void)setRemovedItemsHandler:(id)arg1;
+- (id)IndicatorLocation;
+- (id);
+- (id)@;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id)upportsVerboseOutput;
+- (id)supportsVerboseOutput;
 
 // Remaining properties
-@property(nonatomic, getter=isCourse) _Bool course; // @synthesize course=_course;
-@property(copy, nonatomic) DMFControlGroupIdentifier *courseIdentifier; // @synthesize courseIdentifier=_courseIdentifier;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(nonatomic, getter=isGroup) _Bool group; // @synthesize group=_group;
-@property(retain, nonatomic) NSData *iconImageData; // @synthesize iconImageData=_iconImageData;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic, getter=isInstructor) _Bool instructor; // @synthesize instructor=_instructor;
-@property(copy, nonatomic) NSString *secondaryName; // @synthesize secondaryName=_secondaryName;
-@property(nonatomic) _Bool supportsFileURLs; // @synthesize supportsFileURLs=_supportsFileURLs;
 @property(retain, nonatomic) CATTaskClient *taskClient; // @synthesize taskClient=_taskClient;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface NewsFeed.SportsDataConfigurationManager
 {
     id configService;
-    id _configuration;
-    id _previousConfiguration;
-    id fetchDeduper;
 }
 
 @end

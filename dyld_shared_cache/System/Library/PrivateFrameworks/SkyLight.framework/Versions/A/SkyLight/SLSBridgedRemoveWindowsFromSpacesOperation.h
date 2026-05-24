@@ -11,20 +11,18 @@
 @interface SLSBridgedRemoveWindowsFromSpacesOperation : SLSAsynchronousBridgedWindowManagementOperation
 {
     NSArray *_windows;
-    NSArray *_spaces;
 }
 
-+ (_Bool);
++ (_Bool)k;
+- (id)_INDEX ON %@(%@,COUNT);;
+- (void)';
+- (id)ENTITYID, PRIMEKEY, TYPE,  group_concat(ATTRIBUTENAME) FROM %@ GROUP BY ENTITYID, PRIMEKEY;
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSArray *spaces; // @synthesize spaces=_spaces;
 @property(readonly, copy) NSArray *windows; // @synthesize windows=_windows;
 
 @end

@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDUser, NSDate, NSString;
+@class HMDUser;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemovedUser
 {
     _Bool _removalInProgress;
-    HMDUser *_user;
-    NSDate *_expirationDate;
 }
 
 + (id);
 + (_Bool)ÑxÒ;
 - (void);
+- (_Bool)joinLiveModeFromHandle:fromAccountID:error: /* Error: Ran out of types for this method. */;
+- (id)activeCapabilityTypeForContact:(id)arg1 serviceName:(id)arg2;
 - (_Bool);
 - (id);
-- (_Bool);
+- (id)for connection %s;
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)showStabilizationWatermark;
 - (void);
 - (id)l(;
 - (_Bool)airing;
@@ -31,9 +29,6 @@ __attribute__((visibility("hidden")))
 - (id)a"8;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(readonly, nonatomic) NSString *mergeID;
-@property(getter=isRemovalInProgress) _Bool removalInProgress; // @synthesize removalInProgress=_removalInProgress;
 @property(readonly, nonatomic) HMDUser *user; // @synthesize user=_user;
 
 @end

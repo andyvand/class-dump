@@ -5,6 +5,6 @@
 //
 
 @protocol EFInvocable
-- (void)terfaceDistantObject;
+- (void)_EMRemoteInterfaceDistantObject;
 @end
 

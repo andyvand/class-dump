@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BPSSubscription;
-
 @interface BPSSubscriptionStatus
 {
     long long _state;
-    BPSSubscription *_subscription;
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)Calls;
++ (id)key;
 - (void);
 - (id);
 - (void);
 - (long long);
 - (id);
-- (void);
+- (void)n4;
 
 // Remaining properties
 @property(nonatomic) long long state; // @synthesize state=_state;
-@property(retain, nonatomic) BPSSubscription *subscription; // @synthesize subscription=_subscription;
 
 @end
 

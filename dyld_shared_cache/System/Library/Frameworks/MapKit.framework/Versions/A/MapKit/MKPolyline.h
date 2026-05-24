@@ -6,8 +6,6 @@
 
 #import <MapKit/MKMultiPoint.h>
 
-@class NSString;
-
 @interface MKPolyline : MKMultiPoint
 {
     _Bool _needsElevationCorrection;
@@ -19,36 +17,18 @@
 + (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
-- (CDStruct_02837cd9);
-- (_Bool);
+- (CDStruct_2f492f29)__text;
+- (_Bool),N,V_controlFlags;
 - (id);
 - (void);
-- (struct CLLocationCoordinate2D);
+- (struct CLLocationCoordinate2D)deactivateForReason:options:context:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_02837cd9 boundingMapRect;
-@property(readonly, nonatomic) struct CLLocationCoordinate2D coordinate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool needsElevationCorrection; // @synthesize needsElevationCorrection=_needsElevationCorrection;
-@property(readonly, nonatomic, getter=_requiresModernMap) _Bool requiresModernMap;
-@property(readonly, copy, nonatomic) NSString *subtitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSString *title;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
 
 @end
 

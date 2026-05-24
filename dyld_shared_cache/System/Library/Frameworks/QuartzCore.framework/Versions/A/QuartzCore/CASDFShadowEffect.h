@@ -9,10 +9,6 @@
 @interface CASDFShadowEffect : CASDFEffect
 {
     _Bool _punchout;
-    _Bool _invert;
-    struct CGColor *_color;
-    double _radius;
-    struct CGSize _offset;
 }
 
 + (id);
@@ -20,24 +16,20 @@
 + (id);
 - (void);
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)=;
+- (void)9H;
+- (void);
 - (void);
 - (struct CGColor *);
 - (void);
 - (id);
-- (double);
+- (double)maintainProcessNotificationEventMonitor: /* Error: Ran out of types for this method. */;
 - (void);
 - (struct CGSize)nd ();
-- (_Bool)entEDRStrength;
+- (_Bool)kCGContentEDRStrength;
 
 // Remaining properties
 @property(retain, nonatomic) struct CGColor *color; // @synthesize color=_color;
-@property(nonatomic) _Bool invert; // @synthesize invert=_invert;
-@property(nonatomic) struct CGSize offset; // @synthesize offset=_offset;
-@property(nonatomic) _Bool punchout; // @synthesize punchout=_punchout;
-@property(nonatomic) double radius; // @synthesize radius=_radius;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface BWPairedBufferSynchronizer
 {
     struct os_unfair_lock_s _stateLock;
-    struct opaqueCMSimpleQueue *_primarySampleBufferQueue;
-    struct opaqueCMSimpleQueue *_secondarySampleBufferQueue;
-    struct opaqueCMSampleBuffer *_secondaryFallbackSampleBuffer;
-    _Bool _secondaryStreamComplete;
 }
 
 + (void)tTime:withSettings:] /* Error: Ran out of types for this method. */;

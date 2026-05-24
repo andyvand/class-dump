@@ -8,7 +8,6 @@
 {
     id $defaultActor;
     id sharedContext;
-    id appTrackerModel;
 }
 
 @end

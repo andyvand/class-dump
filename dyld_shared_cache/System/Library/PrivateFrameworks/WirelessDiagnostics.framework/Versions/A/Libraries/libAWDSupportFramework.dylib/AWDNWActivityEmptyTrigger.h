@@ -7,11 +7,10 @@
 @interface AWDNWActivityEmptyTrigger
 {
     unsigned long long _timestamp;
-    CDStruct_b5306035 _has;
 }
 
 - (id);
-- (void);
+- (void)Ȅ;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
@@ -20,13 +19,12 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (id);
-- (id);
+- (id)"(b@ `;
 
 // Remaining properties
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

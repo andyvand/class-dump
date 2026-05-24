@@ -4,57 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessCodeDemoDataMocker, HMDBulletinBoard, HMDDevice, HMDHome, HMDHomeAdministratorHandler, HMDRemoteMessageForwarder, HMFMessageDispatcher, NSArray, NSNotificationCenter, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class HMDAccessCodeDemoDataMocker, HMDHome;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessCodeManagerContext
 {
     HMDHome *_home;
-    HMFMessageDispatcher *_messageDispatcher;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSUUID *_UUID;
-    HMDBulletinBoard *_bulletinBoard;
-    HMDRemoteMessageForwarder *_remoteMessageForwarder;
-    HMDAccessCodeDemoDataMocker *_demoDataMocker;
 }
 
 + (id)îB;
-- (id);
+- (id)edTripDidBecomeAvailable:(id)arg1 ];
 - (double);
 - (long long);
 - (id);
 - (id);
 - (void);
 - (_Bool);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (double);
+- (id);
+- (double);
+- (long long)";
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (double);
-- (id);
-- (double);
-- (long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (double);
-- (id);
-- (id);
-- (id);
+- (id)setSourceNode:(id)arg1;
+- (id)keywords;
+- (id)tervalByTriggerType:creationDate:uniqueMemoryIdentifier:photosGraphVersion: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
@@ -69,134 +62,7 @@ __attribute__((visibility("hidden")))
 - (id)x7B;
 
 // Remaining properties
-@property(readonly, copy) NSUUID *UUID; // @synthesize UUID=_UUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,V_UUID
-
-@property(readonly) NSArray *UUIDsOfAccessoriesSupportingAccessCodes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R
-
-@property(readonly) NSArray *UUIDsOfHAPAccessoriesSupportingAccessCodes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R
-
-@property(readonly) NSArray *UUIDsOfMatterAccessoriesSupportingAccessCodes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R
-
-@property(readonly) NSArray *accessoriesSupportingAccessCodes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R
-
-@property(readonly) long long accessoryReadWriteRetries;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R
-
-@property(readonly) double accessoryReadWriteRetryTimeInterval;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) HMDHomeAdministratorHandler *administratorHandler;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"HMDHomeAdministratorHandler",?,R
-
-@property(readonly) HMDBulletinBoard *bulletinBoard; // @synthesize bulletinBoard=_bulletinBoard;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"HMDBulletinBoard",?,R,V_bulletinBoard
-
-@property(readonly, getter=isCurrentDeviceOwnerController) _Bool currentDeviceOwnerController;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,GisCurrentDeviceOwnerController
-
-@property(readonly, getter=isCurrentDeviceOwnerUser) _Bool currentDeviceOwnerUser;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,GisCurrentDeviceOwnerUser
-
-@property(readonly, getter=isCurrentDevicePrimaryResident) _Bool currentDevicePrimaryResident;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,GisCurrentDevicePrimaryResident
-
-@property(readonly, getter=isCurrentDeviceResidentCapable) _Bool currentDeviceResidentCapable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,GisCurrentDeviceResidentCapable
-
-@property(readonly, getter=isCurrentDeviceWatch) _Bool currentDeviceWatch;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,GisCurrentDeviceWatch
-
-@property(readonly) double dataCleanUpCheckTimerInterval;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly) HMDAccessCodeDemoDataMocker *demoDataMocker; // @synthesize demoDataMocker=_demoDataMocker;
-@property(readonly, getter=isDemoDataMockerEnabled) _Bool demoDataMockerEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,GisDemoDataMockerEnabled
-
-@property(readonly, copy) NSString *description;
-@property(readonly, getter=isFeatureEnabled) _Bool featureEnabled;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,GisFeatureEnabled
-
-@property(readonly) unsigned long long hash;
-@property(readonly) __weak HMDHome *home; // @synthesize home=_home;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"HMDHome",?,R,W,V_home
-
-@property(readonly, getter=isHomeAppForegrounded) _Bool homeAppForegrounded;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,GisHomeAppForegrounded
-
-@property(readonly, getter=hasHomeOnboardedForAccessCodes) _Bool homeOnboardedForAccessCodes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,GhasHomeOnboardedForAccessCodes
-
-@property(readonly) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"HMFMessageDispatcher",?,R,V_messageDispatcher
-
-@property(readonly) NSNotificationCenter *notificationCenter;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSNotificationCenter",?,R
-
-@property(readonly) _Bool primaryResidentSupportsAccessCodes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) HMDRemoteMessageForwarder *remoteMessageForwarder; // @synthesize remoteMessageForwarder=_remoteMessageForwarder;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"HMDRemoteMessageForwarder",?,R,V_remoteMessageForwarder
-
-@property(readonly) double removedUserAccessCodeTimeToLive;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly) HMDDevice *residentCommunicationHandlerPreferredDevice;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"HMDDevice",?,R
-
-@property(readonly) long long residentDataSyncVerificationRetries;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R
-
-@property(readonly) double residentDataSyncVerificationRetryTimeInterval;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R
-
-@property(readonly, getter=isResidentSupported) _Bool residentSupported;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,GisResidentSupported
-
-@property(readonly) Class superclass;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,V_workQueue
-
 
 @end
 

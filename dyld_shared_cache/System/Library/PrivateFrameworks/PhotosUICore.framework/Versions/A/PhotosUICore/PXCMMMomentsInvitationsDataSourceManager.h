@@ -6,17 +6,12 @@
 
 #import <PhotosUICore/PXCMMInvitationsDataSourceManager.h>
 
-@class NSMutableOrderedSet, NSObject, NSString, PHPhotoLibrary, PXCMMMomentsInvitationsDataSourceState;
+@class NSObject, PHPhotoLibrary;
 @protocol OS_dispatch_queue;
 
 @interface PXCMMMomentsInvitationsDataSourceManager : PXCMMInvitationsDataSourceManager
 {
     NSObject<OS_dispatch_queue> *_workerQueue;
-    _Bool _isLoading;
-    _Bool _hasCreatedInitialDataSource;
-    PHPhotoLibrary *_photoLibrary;
-    PXCMMMomentsInvitationsDataSourceState *__state;
-    NSMutableOrderedSet *__remainingAssetCollectionObjectIDsToFetch;
 }
 
 - (void);
@@ -39,16 +34,7 @@
 - (id))~;
 
 // Remaining properties
-@property(retain) NSMutableOrderedSet *_remainingAssetCollectionObjectIDsToFetch; // @synthesize _remainingAssetCollectionObjectIDsToFetch=__remainingAssetCollectionObjectIDsToFetch;
-@property(retain, nonatomic) PXCMMMomentsInvitationsDataSourceState *_state; // @synthesize _state=__state;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly) Class superclass;
 
 @end
 

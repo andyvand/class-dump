@@ -12,10 +12,6 @@ __attribute__((visibility("hidden")))
 @interface KeyboardBacklightHIDCurve : KeyboardBacklight
 {
     int _color;
-    float _curveVersion;
-    float _chicletCurveCoefficient;
-    float _chicletCurvePower;
-    float _luxHysteresis;
 }
 
 - (void);
@@ -28,9 +24,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (float);
-- (float);
-- (float);
-- (float);
+- (float)S@;
+- (float)R";
+- (float);
 - (float);
 - (float);
 - (float);
@@ -45,15 +41,15 @@ __attribute__((visibility("hidden")))
 - (float);
 - (float);
 - (void);
-- (void);
+- (void)!;
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
+- (id)*;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void);
 - (_Bool);
 - (int);
 - (void);
@@ -118,14 +114,6 @@ W>B`e>F¶s>7>9´>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=
 
 // Remaining properties
 @property(readonly) NSDictionary *brightnessCurve;
-@property(readonly) float chicletCurveCoefficient; // @synthesize chicletCurveCoefficient=_chicletCurveCoefficient;
-@property(readonly) float chicletCurvePower; // @synthesize chicletCurvePower=_chicletCurvePower;
-@property(readonly) float level;
-@property float luxHysteresis; // @synthesize luxHysteresis=_luxHysteresis;
-@property(readonly) float maxCapableNits;
-@property(readonly) float maxCurveNits;
-@property(readonly) float maxLevelPercentage;
-@property(readonly) float minCapableNits;
 
 @end
 

@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSSet, UIEvent;
+@class NSMapTable;
 
 __attribute__((visibility("hidden")))
 @interface _UIRIPDeliveryRecord
 {
     NSMapTable *_receivers;
-    long long _phase;
-    UIEvent *_event;
-    NSSet *_presses;
 }
 
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)setLoginStatus:(id)arg1 message:(id)arg2 reason:properties: /* Error: Ran out of types for this method. */;
+- (id)nThread:%@ /* Error: Ran out of types for this method. */;
 - (long long);
 - (id);
 - (id)sBackgroundView"b1"isHandlingClearButton"b1"textLayoutManagerEnabled"b1"extremeSizingEnabled"b1"sizingRule"b1"shouldDisplayDictationPlaceholderMessage"b1"supportsKeyboardNavigationForSuggestions"b1"didSetSupportsAdaptiveImageGlyph"b1"didCacheSupportsImagePaste"b1"supportsImagePasteCached"b1"shouldUpdatePlaceholderTextAlignmentWhenOverridden"b1"hasDictationButton"b1};
 - (void)êzþ­23ôRvþ23ÐRvþ;
 
 // Remaining properties
-@property(readonly, nonatomic) UIEvent *event; // @synthesize event=_event;
 @property(readonly, nonatomic) long long phase; // @synthesize phase=_phase;
-@property(readonly, nonatomic) NSSet *presses; // @synthesize presses=_presses;
 
 @end
 

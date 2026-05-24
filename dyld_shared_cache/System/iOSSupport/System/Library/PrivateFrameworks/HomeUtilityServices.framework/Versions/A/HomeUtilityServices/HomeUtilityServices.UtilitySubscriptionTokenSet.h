@@ -8,9 +8,6 @@
 {
     id accessToken;
     id expiresIn;
-    id idToken;
-    id refreshToken;
-    id tokenType;
 }
 
 - (id);

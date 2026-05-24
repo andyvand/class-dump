@@ -4,28 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDButtonItem, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDActionBarModuleConfiguration
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDButtonItem *_primaryButtonItem;
-    NSMutableArray *_secondaryButtonItems;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_primaryButtonItem:1;
-        unsigned int read_secondaryButtonItems:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
+- (void)tem/Library/Frameworks/Foundation.framework/Versions/C/Foundation;
 - (id);
 - (unsigned long long);
 - (_Bool);

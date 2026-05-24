@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)failed to allocate chunk list;
 
 @end
 

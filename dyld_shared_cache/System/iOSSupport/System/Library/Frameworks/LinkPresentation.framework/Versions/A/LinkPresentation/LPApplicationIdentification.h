@@ -9,12 +9,12 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
-+ (id);
-+ (long long);
-+ (_Bool);
-+ (id);
-+ (_Bool);
++ (id)suggestionCategoryBackgroundVisualEffectView;
++ (id)suggestionCategoryBackgroundColor;
++ (long long)sourceRect;
++ (_Bool)snapshotExistsForGUID:(long long)arg1;
++ (id)showInspectorViewForChatItems:(long long)arg1 parallelIndexes: /* Error: Ran out of types for this method. */;
++ (_Bool)setupDetailsSearchController: /* Error: Ran out of types for this method. */;
 
 @end
 

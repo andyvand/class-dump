@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, NSObject, PHImportDeviceSource;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_source;
 
 @interface ICCameraDeviceRemovedItemsCoalescer
 {
     NSObject<OS_dispatch_source> *_timer;
-    NSDate *_lastNotify;
-    PHImportDeviceSource *_source;
-    NSMutableArray *_items;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _block;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)PHAssetCreationDerivativeContext;
 
 @end
 

@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSNumber, NSString;
+@class NSMutableDictionary;
 
 @interface CNAutocompleteCoreAnalyticsUsageMonitorProbe
 {
     NSMutableDictionary *_coreAnalyticsDictionary;
-    NSNumber *_selectedIndex;
-    NSNumber *_selectedPredictionIndex;
-    NSNumber *_lengthOfSearchString;
-    NSNumber *_sourceType;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@a;
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)8;
+- (void);
 - (id);
 - (id);
 - (id);
@@ -44,17 +40,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableDictionary *coreAnalyticsDictionary; // @synthesize coreAnalyticsDictionary=_coreAnalyticsDictionary;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSNumber *lengthOfSearchString; // @synthesize lengthOfSearchString=_lengthOfSearchString;
-@property(retain, nonatomic) NSNumber *selectedIndex; // @synthesize selectedIndex=_selectedIndex;
-@property(retain, nonatomic) NSNumber *selectedPredictionIndex; // @synthesize selectedPredictionIndex=_selectedPredictionIndex;
-@property(retain, nonatomic) NSNumber *sourceType; // @synthesize sourceType=_sourceType;
-@property(readonly) Class superclass;
 
 @end
 

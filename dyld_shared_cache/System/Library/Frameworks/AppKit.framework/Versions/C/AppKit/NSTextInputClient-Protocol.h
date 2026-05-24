@@ -7,25 +7,23 @@
 @class NSAttributedString;
 
 @protocol NSTextInputClient
-- (void)ent;
+- (void);
+- (void)6pLBiPP4pVJ24g;
+- (unsigned long long)_referenceLocationUUID;
+- (struct _NSRange)NSCGLSurfaceCheckFramebufferStatus;
+- (void)IAPayloadKeySmartRepliesSelectedIntent;
 - (struct _NSRange)class];
 - (void)d-ÿ;
 - (_Bool)|¿;
 
 @optional
+- (NSAttributedString *);
+- (struct CGRect)NSURLDownloadInternal;
+- (double)@y	qA;
 - (NSAttributedString *),R,G_isMultiLevelAcceleratorButton;
-- (struct _NSRange);
 - (_Bool)?;
 
 // Remaining properties
-@property(readonly) struct CGRect documentVisibleRect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R
-
-@property(readonly) _Bool supportsAdaptiveImageGlyph;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 @property(readonly) struct CGRect unionRectInVisibleSelectedRange;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R

@@ -5,5 +5,11 @@
 //
 
 @protocol CPKCharactersViewDelegate
+
+@optional
+- (void);
+- (void);
+- (void)T;
+- (void)q;
 @end
 

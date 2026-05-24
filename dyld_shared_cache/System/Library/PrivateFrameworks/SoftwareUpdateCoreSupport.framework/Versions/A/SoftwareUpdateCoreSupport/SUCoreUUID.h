@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)outlineView:(id)arg1 objectValueForTableColumn:byItem: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);

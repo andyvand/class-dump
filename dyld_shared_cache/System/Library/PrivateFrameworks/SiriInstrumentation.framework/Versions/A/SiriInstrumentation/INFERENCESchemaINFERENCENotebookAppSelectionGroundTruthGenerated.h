@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class INFERENCESchemaINFERENCENotebookAppSelectionTrainingIndependentSignals, NSArray;
+@class INFERENCESchemaINFERENCENotebookAppSelectionTrainingIndependentSignals;
 
 @interface INFERENCESchemaINFERENCENotebookAppSelectionGroundTruthGenerated : SISchemaInstrumentationMessage
 {
     INFERENCESchemaINFERENCENotebookAppSelectionTrainingIndependentSignals *_inferenceNotebookAppSelectionTrainingAppIndependentSignals;
-    NSArray *_inferenceNotebookAppSelectionTrainingAppDependentSignals;
-    _Bool _hasInferenceNotebookAppSelectionTrainingAppIndependentSignals;
 }
 
 @end

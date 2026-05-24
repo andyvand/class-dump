@@ -13,24 +13,24 @@
 
 - (void);
 - (struct CGPoint);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (struct CGAffineTransform);
-- (void);
+- (void){;
 - (double);
-- (void);
+- (void)q;
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (double);
@@ -44,13 +44,12 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 
 // Remaining properties
 @property(nonatomic) double gradientAngle; // @synthesize gradientAngle=mAngle;
-@property(readonly, nonatomic) double gradientAngleInDegrees;
 
 @end
 

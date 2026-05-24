@@ -6,39 +6,29 @@
 
 #import <Photos/PHObject.h>
 
-@class NSDate, NSString;
-
 @interface PHCloudFeedEntry : PHObject
 {
     _Bool _entryIsMine;
-    long long _entryType;
-    NSDate *_entryDate;
-    NSString *_entryAlbumGUID;
-    NSString *_entryInvitationRecordGUID;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)enumerateSectionsUsingBlock: /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
 + (id)ÿ>ÁÜ;
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (long long);
 - (id);
 - (id);
-- (void)ExpiredShares;
+- (void)predicateToExcludeExpiredShares;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *entryAlbumGUID; // @synthesize entryAlbumGUID=_entryAlbumGUID;
-@property(readonly, nonatomic) NSDate *entryDate; // @synthesize entryDate=_entryDate;
-@property(readonly, nonatomic) NSString *entryInvitationRecordGUID; // @synthesize entryInvitationRecordGUID=_entryInvitationRecordGUID;
 @property(readonly, nonatomic) _Bool entryIsMine; // @synthesize entryIsMine=_entryIsMine;
-@property(readonly, nonatomic) long long entryType; // @synthesize entryType=_entryType;
 
 @end
 

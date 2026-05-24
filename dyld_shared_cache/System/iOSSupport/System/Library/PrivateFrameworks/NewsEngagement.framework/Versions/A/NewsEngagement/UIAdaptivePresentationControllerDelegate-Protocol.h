@@ -9,6 +9,7 @@
 @protocol UIAdaptivePresentationControllerDelegate
 
 @optional
+- (long long);
 - (void)stories from the channels you follow.",
         "title":(UIPresentationController *)arg1 "Keep Up with Your News",
         "display":{

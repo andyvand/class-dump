@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRContentItemMetadataAudioRoute, NSString;
+@class MRContentItemMetadataAudioRoute;
 
 @interface MPNowPlayingInfoAudioRoute
 {
@@ -21,14 +21,10 @@
 - (long long);
 - (void);
 - (void);
-- (void)ING_MISSING__;
+- (void)__MPModelPropertyPlaylistCollaborationInvitationURL__MAPPING_MISSING__;
 
 // Remaining properties
 @property(readonly, nonatomic) MRContentItemMetadataAudioRoute *mediaRemoteAudioRoute; // @synthesize mediaRemoteAudioRoute=_mediaRemoteAudioRoute;
-@property(copy, nonatomic) NSString *name;
-@property(nonatomic, getter=isSpatializationEnabled) _Bool spatializationEnabled;
-@property(nonatomic) _Bool supportsSpatialization;
-@property(nonatomic) long long type;
 
 @end
 

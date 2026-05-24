@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FASettingsPreset, NSArray;
+@class NSArray;
 
 @interface FASettingsPresetsResponse
 {
     NSArray *_availablePresets;
-    FASettingsPreset *_expectedPreset;
-    FASettingsPreset *_currentPreset;
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)offIconDynamicImage;
+- (id)confidenceScoresByLanguage;
+- (id)*;
+- (id)CTXPCServiceCellularUsagePolicyInterface;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *availablePresets; // @synthesize availablePresets=_availablePresets;
-@property(readonly, nonatomic) FASettingsPreset *currentPreset; // @synthesize currentPreset=_currentPreset;
-@property(readonly, nonatomic) FASettingsPreset *expectedPreset; // @synthesize expectedPreset=_expectedPreset;
 
 @end
 

@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSTouchBarItemTreeItemNode, NSTouchBarItemTreeNode;
+@class NSTouchBarItemTreeNode;
 @protocol NSTouchBarItemTreeParentNode;
 
 __attribute__((visibility("hidden")))
 @interface _NSTouchBarItemTreeSeenItemIdentifierValue
 {
     NSTouchBarItemTreeNode<NSTouchBarItemTreeParentNode> *_parentNode;
-    NSTouchBarItemTreeItemNode *_itemNode;
-    long long _responderBarLevel;
-    NSMutableArray *_nodeList;
 }
 
 - (void);
-- (void);
-- (void);
-- (long long);
+- (void)		=;
+- (void);
+- (long long)ayloadEntry *__single);
+- (id)sQwlfROu8fcD1Qwm8YJVeg;
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)throughput_kbps=%lld, response_bytes=%lld, response_throughput_kbps=%lld, cache_hit=%{bool}d};
+- (id)using SZExtractor which finished decoding for task %@, but we received more bytes.  Dropping %lu bytes.;
 - (void);
 
 // Remaining properties
-@property(retain) NSTouchBarItemTreeItemNode *itemNode; // @synthesize itemNode=_itemNode;
-@property(retain) NSMutableArray *nodeList; // @synthesize nodeList=_nodeList;
 @property(retain) NSTouchBarItemTreeNode<NSTouchBarItemTreeParentNode> *parentNode; // @synthesize parentNode=_parentNode;
-@property long long responderBarLevel; // @synthesize responderBarLevel=_responderBarLevel;
 
 @end
 

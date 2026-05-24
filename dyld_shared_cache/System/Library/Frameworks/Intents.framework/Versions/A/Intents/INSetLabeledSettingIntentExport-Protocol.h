@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INSettingMetadata, INTemporalEventTrigger, NSString;
+@class INSettingMetadata;
 
 @protocol INSetLabeledSettingIntentExport
+- (void);
+- (void);
 
 // Remaining properties
-@property(copy) NSString *labeledValue;
 @property(copy) INSettingMetadata *settingMetadata;
-@property(copy) INTemporalEventTrigger *temporalEventTrigger;
 @end
 

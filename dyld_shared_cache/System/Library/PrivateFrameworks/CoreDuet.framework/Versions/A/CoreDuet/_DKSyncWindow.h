@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, _DKEvent;
+@class _DKEvent;
 
 @interface _DKSyncWindow
 {
     _DKEvent *_event;
-    NSDate *_startDate;
-    NSDate *_endDate;
 }
 
-+ (id);
++ (id);
 - (id);
 - (unsigned long long);
 - (_Bool);

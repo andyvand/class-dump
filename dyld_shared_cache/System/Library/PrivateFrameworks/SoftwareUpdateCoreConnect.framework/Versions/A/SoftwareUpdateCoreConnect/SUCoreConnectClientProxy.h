@@ -4,33 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface SUCoreConnectClientProxy
 {
     int _clientProcessIdentifier;
-    NSString *_clientID;
-    NSString *_clientIDRaw;
-    NSObject<OS_dispatch_queue> *_completionQueue;
-    CDUnknownBlockType _genericBlock;
-    CDUnknownBlockType _progressBlock;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (id);
+- (id)e>",R,V_xpcQueue;
+- (void)%d) with delay %ld, error %s;
+- (id);
+- (CDUnknownBlockType);
+- (id);
 - (id);
 - (void);
 - (id);
 - (CDUnknownBlockType);
-- (id);
-- (id);
-- (void);
-- (id);
-- (CDUnknownBlockType);
-- (void);
+- (void)valueWithRect:(id)arg1;
 - (id);
 - (void);
 - (void);
@@ -38,19 +33,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSString *clientID; // @synthesize clientID=_clientID;
-@property(readonly, retain, nonatomic) NSString *clientIDRaw; // @synthesize clientIDRaw=_clientIDRaw;
-@property(readonly, nonatomic) int clientProcessIdentifier; // @synthesize clientProcessIdentifier=_clientProcessIdentifier;
 @property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *completionQueue; // @synthesize completionQueue=_completionQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) CDUnknownBlockType genericBlock; // @synthesize genericBlock=_genericBlock;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CDUnknownBlockType progressBlock; // @synthesize progressBlock=_progressBlock;
-@property(readonly) Class superclass;
 
 @end
 

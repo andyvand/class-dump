@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBLocalZone, NSString, NSUUID;
+@class HMBLocalZone, NSUUID;
 
 @interface HMBModelReference
 {
     NSUUID *_hmbModelID;
-    HMBLocalZone *_localZone;
 }
 
++ (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
++ (_Bool)teger PRIMARY KEY AUTOINCREMENT NOT NULL, sessionId integer NOT NULL, domainIdentifier char(128) NOT NULL, bundleIdentifier char(128), FOREIGN KEY (sessionId) REFERENCES sessions (id) ON DELETE CASCADE );
 - (id);
 - (id);
 - (id);
@@ -33,15 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *hmbModelID; // @synthesize hmbModelID=_hmbModelID;
 @property(nonatomic) __weak HMBLocalZone *localZone; // @synthesize localZone=_localZone;
-@property(readonly) Class superclass;
 
 @end
 

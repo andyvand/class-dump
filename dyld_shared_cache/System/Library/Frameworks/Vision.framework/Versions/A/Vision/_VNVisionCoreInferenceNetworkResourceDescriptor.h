@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void)RectangleTracking_BottomRightTracker;
+- (void)VNRectangleTracking_BottomRightTracker;
 - (id)Ü¹ÿRäPIV^	;
 
 @end

@@ -4,6 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class ChatKit.CKLinkPreviewTextAttachment, UIViewController;
+
 @protocol ChatKit.CKLinkPreviewTextAttachmentDelegate
+- (_Bool);
+- (double)ic_attributedStringByHighlightingRegex:(ChatKit.CKLinkPreviewTextAttachment *)arg1 withHighlightColor:attributeName: /* Error: Ran out of types for this method. */;
+- (void)fixedWidthAttributesWithContentSizeCategory:(ChatKit.CKLinkPreviewTextAttachment *)arg1;
+- (void)fixUnwantedCharactersInAttributedString:(ChatKit.CKLinkPreviewTextAttachment *)arg1;
+- (void)fixTextStorage:(ChatKit.CKLinkPreviewTextAttachment *)arg1 afterProcessingEditing:range:changeInLength: /* Error: Ran out of types for this method. */;
+- (void)fixModelAttributesInTextStorage:(ChatKit.CKLinkPreviewTextAttachment *)arg1 inRange: /* Error: Ran out of types for this method. */;
+- (void)fixListWritingDirectionInAttributedString:(ChatKit.CKLinkPreviewTextAttachment *)arg1 forListItemsInRange: /* Error: Ran out of types for this method. */;
+- (void)fixDashedListsInAttributedString:(ChatKit.CKLinkPreviewTextAttachment *)arg1;
+- (void)ardizedText:(ChatKit.CKLinkPreviewTextAttachment *)arg1;
+- (void)fixAttachmentForAttributedString:(ChatKit.CKLinkPreviewTextAttachment *)arg1 range:(UIViewController *)arg2 forPlainText:forStandardizedText: /* Error: Ran out of types for this method. */;
+- (double)ic_enumerateContentLineRangesInRange:(ChatKit.CKLinkPreviewTextAttachment *)arg1 usingBlock: /* Error: Ran out of types for this method. */;
+- (void)generateMissingOrOutdatedAttachmentMetaDataIfNeededInContext:(ChatKit.CKLinkPreviewTextAttachment *)arg1;
+- (void)generateImagePreviewsForAttachment:(ChatKit.CKLinkPreviewTextAttachment *)arg1 withFallbackPDFData: /* Error: Ran out of types for this method. */;
+- (void)generateImageForAttachment:(ChatKit.CKLinkPreviewTextAttachment *)arg1 fullResolution:appearanceInfo: /* Error: Ran out of types for this method. */;
+- (void)generateImageForAttachment:(ChatKit.CKLinkPreviewTextAttachment *)arg1 fromDrawing:fullResolution:appearanceInfo: /* Error: Ran out of types for this method. */;
+- (void)generateHardLinkURLIfNecessaryForURL:(ChatKit.CKLinkPreviewTextAttachment *)arg1;
+- (void)a:(ChatKit.CKLinkPreviewTextAttachment *)arg1 imageOrientation:(UIViewController *)arg2 imageFilterType:mediaDecryptedData:mediaURL:mediaSize:croppingQuad: /* Error: Ran out of types for this method. */;
+- (void)generateFullSizePreviewWithAttachmentIdentifier:(ChatKit.CKLinkPreviewTextAttachment *)arg1 existingPreviewImage:(long long)arg2 markupModelData:imageOrientation:imageFilterType:mediaDecryptedData:mediaURL:mediaSize:croppingQuad: /* Error: Ran out of types for this method. */;
+- (void)generateFallbackPDFDataForAttachment:(ChatKit.CKLinkPreviewTextAttachment *)arg1;
 @end
 

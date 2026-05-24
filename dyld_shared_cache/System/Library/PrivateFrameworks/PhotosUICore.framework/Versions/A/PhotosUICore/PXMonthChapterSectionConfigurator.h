@@ -6,12 +6,11 @@
 
 #import <PhotosUICore/PXCuratedLibraryAssetsSectionConfigurator.h>
 
-@class PXCuratedLibraryChapterHeaderLayoutSpec, PXMonthCardSectionBodyLayoutSpec;
+@class PXCuratedLibraryChapterHeaderLayoutSpec;
 
 @interface PXMonthChapterSectionConfigurator : PXCuratedLibraryAssetsSectionConfigurator
 {
     PXCuratedLibraryChapterHeaderLayoutSpec *_chapterHeaderSpec;
-    PXMonthCardSectionBodyLayoutSpec *_cardBodySpec;
 }
 
 - (id);
@@ -23,7 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) PXMonthCardSectionBodyLayoutSpec *cardBodySpec; // @synthesize cardBodySpec=_cardBodySpec;
 @property(readonly, nonatomic) PXCuratedLibraryChapterHeaderLayoutSpec *chapterHeaderSpec; // @synthesize chapterHeaderSpec=_chapterHeaderSpec;
 
 @end

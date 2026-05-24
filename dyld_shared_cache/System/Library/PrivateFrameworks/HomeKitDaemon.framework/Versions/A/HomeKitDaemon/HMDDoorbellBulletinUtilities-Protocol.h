@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSSet, NSString;
+
 @protocol HMDDoorbellBulletinUtilities
+- (NSString *);
+- (NSString *);
+- (void)_msp_currentAccount;
+- (NSSet *)ceiverETAController initialized;
 @end
 

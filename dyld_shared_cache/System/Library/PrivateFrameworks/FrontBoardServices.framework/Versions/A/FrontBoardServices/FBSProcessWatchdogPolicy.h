@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface FBSProcessWatchdogPolicy
 {
     NSString *_name;
-    NSArray *_provisions;
 }
 
 + (id);
@@ -18,24 +17,16 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)9h;
 - (id);
+- (id)clientFlowUpdateScriptsCommandWithDictionary:context: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)AVCFPlayerItemPresentationSize;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSArray *provisions; // @synthesize provisions=_provisions;
-@property(readonly) Class superclass;
 
 @end
 

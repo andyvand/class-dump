@@ -5,15 +5,10 @@
 //
 
 @class SXComponentView;
-@protocol SWInteractionProvider, SXComponentInteractionHandler, SXComponentInteractionHandlerManager, SXWebContentComponentInteractionHandlerFactory;
 
 @interface SXWebContentComponentInteractionManager
 {
     SXComponentView *_componentView;
-    id <SWInteractionProvider> _interactionProvider;
-    id <SXComponentInteractionHandlerManager> _interactionHandlerManager;
-    id <SXWebContentComponentInteractionHandlerFactory> _componentInteractionHandlerFactory;
-    id <SXComponentInteractionHandler> _currentInteractionHandler;
 }
 
 - (void);
@@ -23,16 +18,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)\%;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) id <SXWebContentComponentInteractionHandlerFactory> componentInteractionHandlerFactory; // @synthesize componentInteractionHandlerFactory=_componentInteractionHandlerFactory;
 @property(readonly, nonatomic) __weak SXComponentView *componentView; // @synthesize componentView=_componentView;
-@property(retain, nonatomic) id <SXComponentInteractionHandler> currentInteractionHandler; // @synthesize currentInteractionHandler=_currentInteractionHandler;
-@property(readonly, nonatomic) __weak id <SXComponentInteractionHandlerManager> interactionHandlerManager; // @synthesize interactionHandlerManager=_interactionHandlerManager;
-@property(readonly, nonatomic) id <SWInteractionProvider> interactionProvider; // @synthesize interactionProvider=_interactionProvider;
 
 @end
 

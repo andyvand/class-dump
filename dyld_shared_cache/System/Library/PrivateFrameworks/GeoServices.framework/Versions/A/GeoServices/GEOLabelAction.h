@@ -9,50 +9,40 @@
 @interface GEOLabelAction
 {
     PBUnknownFields *_unknownFields;
-    int _artworkAction;
-    int _detailTextAction;
-    struct {
-        unsigned int has_artworkAction:1;
-        unsigned int has_detailTextAction:1;
-    } _flags;
 }
 
-+ (_Bool)eNumber:(id)arg1;
++ (_Bool)setHasSelectionFromQuerySequenceNumber:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
+- (_Bool)shouldUseIslamicSpecificFormattersForLocale: /* Error: Ran out of types for this method. */;
+- (_Bool)selector;
+- (id)dataWithPropertyList:(int)arg1 format:options:error: /* Error: Ran out of types for this method. */;
+- (int)dataWithObject:error: /* Error: Ran out of types for this method. */;
+- (id),R,N,V_strategy;
+- (int)_fileDescriptor;
+- (int)rk/AppSandbox;
+- (int);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (unsigned long long)I;
 - (_Bool);
 - (_Bool);
-- (id);
-- (int);
-- (id);
-- (int);
-- (int);
-- (int);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id)fReroutes:(struct _NSZone *)arg1;
+- (id)setNumberOfReroutes:(struct _NSZone *)arg1;
 - (id)s;
 - (id);
 - (id);
 - (void)({yÿ§ý5@\4;
 
 // Remaining properties
-@property(nonatomic) int artworkAction;
-@property(nonatomic) int detailTextAction;
-@property(nonatomic) _Bool hasArtworkAction;
 @property(nonatomic) _Bool hasDetailTextAction;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

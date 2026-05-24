@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol _NSBridgedSearchField
+- (void)_classic_time_between_uses_std_dur_24;
+- (unsigned long long);
 - (void)Aù'1Â0@ù
 × ;
 
 // Remaining properties
-@property(setter=_setFocusRingAnimationType:) long long _focusRingAnimationType;
-@property unsigned long long controlSize;
 @property(getter=isEnabled) _Bool enabled;
-@property(readonly) NSString *stringValue;
 @end
 

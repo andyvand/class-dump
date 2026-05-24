@@ -4,27 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface MRClientDiagnosticsDataSource
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_map;
 }
 
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)4;
 - (void);
 - (void);
-- (struct os_unfair_lock_s)ex: /* Error: Ran out of types for this method. */;
+- (struct os_unfair_lock_s)outputDeviceUIDsAtIndex: /* Error: Ran out of types for this method. */;
 - (void)atedArtworkAssetURLFormats;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *diagnostic;
-@property(readonly, nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
 @property(readonly, nonatomic) NSMutableDictionary *map; // @synthesize map=_map;
 
 @end

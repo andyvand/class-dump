@@ -6,24 +6,20 @@
 
 #import <Slideshows/MRTransition.h>
 
-@class NSDictionary, NSMutableArray;
-
 @interface MRTransitionShatter : MRTransition
 {
     _Bool mIsLoaded;
-    NSDictionary *mLayout;
-    NSMutableArray *mMasks;
 }
 
 + (id);
 + (void)\;
 - (void);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)osInstallVariant;
+- (id)fc_dictionaryOfSortedObjectsWithKeyBlock:(id)arg1;
 - (void);
 - (void);
-- (void);
+- (void);
 
 @end
 

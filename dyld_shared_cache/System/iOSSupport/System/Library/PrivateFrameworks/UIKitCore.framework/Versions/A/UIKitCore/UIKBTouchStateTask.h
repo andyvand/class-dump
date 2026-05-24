@@ -10,24 +10,20 @@ __attribute__((visibility("hidden")))
 @interface UIKBTouchStateTask
 {
     UIKBTouchState *_touchState;
-    CDUnknownBlockType _task;
-    _Bool _isBusy;
 }
 
-+ (id);
-- (id);
++ (id)ved from:(id)arg1 %@;
+- (id)re-indexing %ld messages due to preview generation state change;
 - (id);
 - (CDUnknownBlockType);
 - (void)Ð!CùQ\1Â0@ù
 × ;
-- (id)eedback;
+- (id)_UICustomDiscreteFeedback;
 - (long long)ternal inconsistency:(id)arg1 unknown cell prominence (;
 - (void);
 - (_Bool)mÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool isBusy; // @synthesize isBusy=_isBusy;
-@property(readonly, copy, nonatomic) CDUnknownBlockType task; // @synthesize task=_task;
 @property(readonly, nonatomic) UIKBTouchState *touchState; // @synthesize touchState=_touchState;
 
 @end

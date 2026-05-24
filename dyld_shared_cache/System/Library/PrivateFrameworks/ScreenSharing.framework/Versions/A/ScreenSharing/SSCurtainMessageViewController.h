@@ -5,14 +5,10 @@
 //
 
 @class NSString, NSTextField;
-@protocol SSCurtainMessageViewControllerDelegate;
 
 @interface SSCurtainMessageViewController
 {
     NSString *_machineName;
-    _Bool runningAsSheet;
-    id <SSCurtainMessageViewControllerDelegate> delegate;
-    NSTextField *_curtainMessageTextField;
 }
 
 - (void);
@@ -27,18 +23,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)socialGroupKeyAssetLocalIdentifierWithPersonLocalIdentifiers:(id)arg1;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy) NSString *curtainMessage;
 @property NSTextField *curtainMessageTextField; // @synthesize curtainMessageTextField=_curtainMessageTextField;
-@property id <SSCurtainMessageViewControllerDelegate> delegate; // @synthesize delegate;
-@property(retain) NSString *machineName;
-@property(getter=isRunningAsSheet) _Bool runningAsSheet; // @synthesize runningAsSheet;
 
 @end
 

@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class RTIInputViewInfo;
-
 __attribute__((visibility("hidden")))
 @interface UIRemoteInputViewInfo
 {
     _Bool _shouldShowDockView;
-    int _processId;
-    unsigned int _contextId;
-    struct CGSize _size;
-    struct NSEdgeInsets _insets;
 }
 
 - (id);
@@ -25,18 +19,13 @@ __attribute__((visibility("hidden")))
 - (_Bool)qe°1Â0@ù
 × ;
 - (void);
-- (struct NSEdgeInsets)Type: /* Error: Ran out of types for this method. */;
+- (struct NSEdgeInsets)setDisplayPathType: /* Error: Ran out of types for this method. */;
 - (void);
 - (int)q;
 - (void)4j;
 - (unsigned int)Lfïþ¬#Óhk;
 
 // Remaining properties
-@property(nonatomic) unsigned int contextId; // @synthesize contextId=_contextId;
-@property(nonatomic) struct NSEdgeInsets insets; // @synthesize insets=_insets;
-@property(nonatomic) int processId; // @synthesize processId=_processId;
-@property(readonly, nonatomic) RTIInputViewInfo *rtiInputViewInfo;
-@property(nonatomic) _Bool shouldShowDockView; // @synthesize shouldShowDockView=_shouldShowDockView;
 @property(nonatomic) struct CGSize size; // @synthesize size=_size;
 
 @end

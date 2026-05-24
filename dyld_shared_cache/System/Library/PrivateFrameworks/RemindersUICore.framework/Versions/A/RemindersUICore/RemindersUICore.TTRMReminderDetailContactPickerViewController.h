@@ -7,11 +7,10 @@
 @interface RemindersUICore.TTRMReminderDetailContactPickerViewController
 {
     id selectionHandler;
-    id dismissalHandler;
 }
 
-- (void);
-- (void);
+- (void)_scrollRect:(id)arg1 toScrollPosition:withInsets:animated:userInteractivelyScrolling: /* Error: Ran out of types for this method. */;
+- (void)_scrollAmountForMovingRect:(id)arg1 toScrollPosition:(id)arg2 inDestinationRect:(id)arg3;
 - (id);
 - (id);
 - (void)0Ìÿÿ;

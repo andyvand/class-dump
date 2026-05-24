@@ -9,13 +9,11 @@
 @interface SLSBridgedSpaceSetTransformOperation : SLSAsynchronousBridgedWindowManagementOperation
 {
     unsigned int _options;
-    unsigned long long _spaceID;
-    struct CGAffineTransform _transform;
 }
 
-+ (_Bool);
-- (void);
-- (id);
++ (_Bool)j!;
+- (void)ion requires a NSFetchIndexDescription;
+- (id)oke;
 - (unsigned long long);
 - (id);
 - (struct CGAffineTransform);
@@ -23,9 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned int options; // @synthesize options=_options;
 @property(readonly) unsigned long long spaceID; // @synthesize spaceID=_spaceID;
-@property(readonly) struct CGAffineTransform transform; // @synthesize transform=_transform;
 
 @end
 

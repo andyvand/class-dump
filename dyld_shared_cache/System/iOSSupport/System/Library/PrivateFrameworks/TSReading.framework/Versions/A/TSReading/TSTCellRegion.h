@@ -4,56 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet;
-
 @interface TSTCellRegion
 {
     unsigned long long mCellRangesCount;
-    CDStruct_5f1f7aa9 *mCellRanges;
-    CDStruct_5f1f7aa9 mBoundingCellRange;
-    unsigned long long mCellCount;
-    NSIndexSet *mIntersectingColumnsIndexSet;
-    NSIndexSet *mIntersectingRowsIndexSet;
-    CDStruct_0441cfb5 mUpperLeftCellID;
-    CDStruct_0441cfb5 mBottomRightCellID;
 }
 
++ (id)PlayerObserver;
++ (id);
++ (id);
++ (id)A;
++ (id);
++ (id)R;
++ (id);
++ (id)T;
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
+- (id)back-behavior-metadata;
+- (CDStruct_bd4d8e6b)e.MediaPlaybackCore.MPCPlaybackEngineEventStream/access;
+- (CDStruct_bd4d8e6b)_MPCPlaybackEngineEventStreamMaxDeferralDuration;
+- (id)QueueWithItem starting - queue item: /* Error: Ran out of types for this method. */;
+- (id)nsition info;
+- (id)olve outgoing itemID while fetching transition info;
+- (id)ier playerItemInfo ;
+- (id)SeekToTransitionStartTimeFirst;
+- (id)tracks duration ;
+- (id)n duration is too short;
+- (id)ems not being able to overlap;
+- (id)iled to setup smart transition due to items not being able to overlap;
+- (id)missingAudioEditList;
+- (id)p smart transition;
 - (id);
-- (CDStruct_0441cfb5);
-- (CDStruct_0441cfb5);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (_Bool)reload #############;
+- (void)PlayerSpatializationFormat;
 - (void);
 - (void);
 - (void);
 - (unsigned short);
 - (unsigned short);
-- (_Bool);
+- (_Bool)SystemEvent;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -62,17 +53,17 @@
 - (void);
 - (void);
 - (_Bool);
+- (_Bool)d;
+- (void)Ӊ;
+- (void)|$;
+- (void);
+- (void);
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
-- (_Bool);
-- (CDStruct_5f1f7aa9);
-- (CDStruct_0441cfb5);
-- (CDStruct_0441cfb5);
+- (CDStruct_f5d1269f);
+- (CDStruct_bd4d8e6b);
+- (CDStruct_bd4d8e6b);
 - (id);
 - (id);
 - (void);
@@ -90,14 +81,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_0441cfb5 bottomRightCellID;
-@property(readonly, nonatomic) CDStruct_5f1f7aa9 boundingCellRange;
-@property(readonly, nonatomic) unsigned long long cellCount;
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(readonly, nonatomic) _Bool isRectangle;
-@property(readonly, nonatomic) unsigned short numberOfIntersectingColumns;
-@property(readonly, nonatomic) unsigned short numberOfIntersectingRows;
-@property(readonly, nonatomic) CDStruct_0441cfb5 upperLeftCellID;
+@property(readonly, nonatomic) CDStruct_f5d1269f boundingCellRange;
 
 @end
 

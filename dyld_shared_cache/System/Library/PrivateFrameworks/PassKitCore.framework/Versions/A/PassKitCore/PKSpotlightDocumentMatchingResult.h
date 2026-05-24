@@ -9,27 +9,21 @@
 @interface PKSpotlightDocumentMatchingResult
 {
     NSString *_matchingAttribute;
-    id _matchingValue;
-    NSString *_mdSearchableItemAttribute;
-    long long _statusCode;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
+- (id)	k;
 - (id);
-- (id);
-- (id);
+- (id);
 - (void)%g megabytes) is larger than the allowed limit of %g megabytes;
 - (long long);
 - (void)@;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *matchingAttribute; // @synthesize matchingAttribute=_matchingAttribute;
-@property(retain, nonatomic) id matchingValue; // @synthesize matchingValue=_matchingValue;
-@property(retain, nonatomic) NSString *mdSearchableItemAttribute; // @synthesize mdSearchableItemAttribute=_mdSearchableItemAttribute;
-@property(nonatomic) long long statusCode; // @synthesize statusCode=_statusCode;
 
 @end
 

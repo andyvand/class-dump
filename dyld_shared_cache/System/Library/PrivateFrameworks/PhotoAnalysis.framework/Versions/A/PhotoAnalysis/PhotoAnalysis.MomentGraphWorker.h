@@ -7,10 +7,6 @@
 @interface PhotoAnalysis.MomentGraphWorker
 {
     id $defaultActor;
-    id graphManager;
-    id taskRecorder;
-    id changeReader;
-    id requirements;
 }
 
 @end

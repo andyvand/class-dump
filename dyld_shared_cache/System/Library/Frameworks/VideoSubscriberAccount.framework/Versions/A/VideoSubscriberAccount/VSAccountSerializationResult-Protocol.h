@@ -5,5 +5,6 @@
 //
 
 @protocol VSAccountSerializationResult
+- (void)tps://yandex.com/search?clid=1906725&text={searchTerms} /* Error: Ran out of types for this method. */;
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBRFImageSource;
+@class _SFPBRFImageSource;
 
 @interface _SFPBRFBadgedImage
 {
     _SFPBRFImageSource *_image;
-    _SFPBRFImageSource *_badge;
 }
 
 - (id);
@@ -19,25 +18,16 @@
 - (_Bool);
 - (id);
 - (_Bool);
+- (id)ary:(id)arg1 forAnimatedImageRequestFromAsset: /* Error: Ran out of types for this method. */;
+- (void)_importRecord:(id)arg1 createdAlbumIdentifiers:createdFolderIdentifiers: /* Error: Ran out of types for this method. */;
+- (id)H:%@ <%p> /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void)rCardSection"16@0:8 /* Error: Ran out of types for this method. */;
 - (id)l;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBRFImageSource *badge; // @synthesize badge=_badge;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _SFPBRFImageSource *image; // @synthesize image=_image;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

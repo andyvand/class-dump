@@ -9,12 +9,11 @@
 @interface IMActionDialVideo
 {
     void phoneNumber;
-    void fallbackUrl;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)maps-result-code;
 - (long long);
 - (_Bool);
 - (id);
@@ -23,8 +22,6 @@
 - (void)ÿ-;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *fallbackUrl;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic, readonly) NSString *phoneNumber;
 
 @end

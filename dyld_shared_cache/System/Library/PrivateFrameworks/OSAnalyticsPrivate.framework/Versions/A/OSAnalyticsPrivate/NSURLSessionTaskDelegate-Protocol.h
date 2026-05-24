@@ -7,6 +7,9 @@
 @protocol NSURLSessionTaskDelegate
 
 @optional
+- (void);
+- (void)imumSize;
+- (void);
 - (void)ÔÁK!\Bù±1Â0@ù
 × ;
 - (void)meout set to %.0f secs;

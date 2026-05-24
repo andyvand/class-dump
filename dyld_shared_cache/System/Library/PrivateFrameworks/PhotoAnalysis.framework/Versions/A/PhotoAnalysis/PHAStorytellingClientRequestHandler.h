@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, PGManager, PHPhotoLibrary;
-@protocol OS_dispatch_queue, OS_os_log;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface PHAStorytellingClientRequestHandler
 {
     NSObject<OS_dispatch_queue> *_executionQueue;
-    NSMutableDictionary *_progressReporterByQueryID;
-    PGManager *_graphManager;
-    PHPhotoLibrary *_photoLibrary;
-    NSObject<OS_os_log> *_loggingConnection;
-    NSObject<OS_dispatch_queue> *_musicRequestQueue;
 }
 
 + (unsigned long long);
@@ -44,11 +39,49 @@
 - (void);
 - (void);
 - (void);
+- (void)V;
+- (void)
+J(;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)`;
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)"�;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)specialPOIOfMoment;
+- (void)highlightEstimatesDescriptionWithCurationContext:(id)arg1;
+- (void)_kMeanTimeClusterer;
+- (void)SDate",R,V_potentialBirthdayDate;
+- (void);
+- (void)4;
+- (void)[d[;
+- (void);
+- (void)%@;
+- (void)social group ingest;
+- (void)otoanalysis/PhotosGraph/Framework/Memories/MemoryTriggers/PGMemoryTriggerLastWeekend.m;
+- (void)etUp":(id)arg1 [;
+- (void)preferencesAlgorithmsDiagnostics;
 - (void);
 - (void);
 - (id);
@@ -64,7 +97,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -74,50 +107,13 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)P;
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -129,24 +125,14 @@
 - (void);
 - (void);
 - (void);
-- (void)ntainsUnverifiedPersons;
+- (void)containsUnverifiedPersons;
 - (void)ifierRange;
 - (void);
 - (id)ping syndication library resource %s;
-- (id)osGraphOptionPersonLocalIdentifiersToFocus;
+- (id)PHPhotosGraphOptionPersonLocalIdentifiersToFocus;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PGManager *graphManager; // @synthesize graphManager=_graphManager;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSObject<OS_os_log> *loggingConnection; // @synthesize loggingConnection=_loggingConnection;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *musicRequestQueue; // @synthesize musicRequestQueue=_musicRequestQueue;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly) Class superclass;
 
 @end
 

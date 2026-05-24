@@ -10,9 +10,9 @@
 }
 
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id)A;
 + (id);
 + (id);
 + (id);
@@ -26,7 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

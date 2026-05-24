@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString, QCSCN_EdgeAntialiasingOptions;
-
 @interface QCSCN_GeometryReserved
 {
     struct __C3DScene *_sceneRef;
-    struct __C3DGeometry *_geometry;
-    unsigned int _presentationInstance:1;
-    NSMutableArray *_materials;
-    NSMutableDictionary *_animations;
-    QCSCN_EdgeAntialiasingOptions *_edgeAntialiasing;
-    NSString *_name;
-    NSString *_identifier;
 }
 
 - (void);

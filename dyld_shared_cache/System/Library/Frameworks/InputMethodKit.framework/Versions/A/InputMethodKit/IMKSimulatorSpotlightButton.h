@@ -11,8 +11,8 @@
 
 - (void);
 - (_Bool);
-- (void);
-- (void)tSource;
+- (void)SLTS;
+- (void)doubleSpaceSubstitionStringForCurrentInputSource;
 
 // Remaining properties
 @property(nonatomic) _Bool pressed; // @synthesize pressed=_pressed;

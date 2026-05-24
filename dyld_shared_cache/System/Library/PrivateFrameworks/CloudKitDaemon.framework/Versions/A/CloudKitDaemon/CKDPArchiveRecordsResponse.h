@@ -11,11 +11,11 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)pleBufferConsumerRef);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (id);
 
 @end

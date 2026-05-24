@@ -6,20 +6,15 @@
 
 #import <PhotosUICore/PXAssistantTemplateViewController.h>
 
-@class NSArray, NSString, NSTableView, NSTextField, PXSharedLibraryAssistantViewModel;
-@protocol PXAssistantViewControllerDelegate;
+@class NSString, NSTableView;
 
 @interface PXSharedLibraryAssistantRulesViewController : PXAssistantTemplateViewController
 {
     NSTableView *_tableView;
-    NSArray *_listViewItems;
-    NSTextField *_footerLabel;
-    id <PXAssistantViewControllerDelegate> assistantViewControllerDelegate;
-    PXSharedLibraryAssistantViewModel *_viewModel;
 }
 
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
@@ -37,23 +32,14 @@
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)c;
 - (id);
-- (void)TriggerDelay;
+- (void)slideshowTriggerDelay;
 - (void);
 - (id)h©ÿBK¶;;
 
 // Remaining properties
-@property(nonatomic) __weak id <PXAssistantViewControllerDelegate> assistantViewControllerDelegate; // @synthesize assistantViewControllerDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSString *footerText;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PXSharedLibraryAssistantViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

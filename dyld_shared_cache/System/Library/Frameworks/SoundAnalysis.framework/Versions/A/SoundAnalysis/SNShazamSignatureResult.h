@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SHSignature;
-
 @interface SNShazamSignatureResult
 {
     id impl;
@@ -13,7 +11,7 @@
 
 + (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)up:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -23,7 +21,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)yM;
 - (CDStruct_3c1748cc)¡´Ð!DùÑ
 1Â0@ù
 × ;
@@ -31,10 +29,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic) unsigned long long sequenceNum;
-@property(nonatomic, retain) SHSignature *signature;
 @property(nonatomic) CDStruct_3c1748cc timeRange;
 
 @end

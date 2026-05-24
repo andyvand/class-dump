@@ -10,6 +10,6 @@
 - (struct CGRect);
 - (struct CGRect);
 - (struct CGSize);
-- (struct CGPoint);
+- (struct CGPoint);
 @end
 

@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOResource, NSArray, NSData, NSString;
+@class GEOResource, NSArray;
 
 @interface GEOResourceInfo
 {
     GEOResource *_resource;
-    NSArray *_equivalentResources;
-    NSString *_eTag;
 }
 
 - (int);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)ndPolicyIOS RecordState queue;
 - (id);
 - (id);
 - (int);
 - (_Bool);
-- (id);
+- (id)ticketForPhoneNumbers:allowCellularDataForLookup:traits: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void)0:(id)arg1 8;
@@ -30,13 +28,7 @@
 - (id)¸øöþ5ÌÞ2;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *checksum;
-@property(copy, nonatomic) NSString *eTag; // @synthesize eTag=_eTag;
 @property(copy, nonatomic) NSArray *equivalentResources; // @synthesize equivalentResources=_equivalentResources;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) GEOResource *resource; // @synthesize resource=_resource;
-@property(readonly, nonatomic) int type;
-@property(readonly, nonatomic) int validationMethod;
 
 @end
 

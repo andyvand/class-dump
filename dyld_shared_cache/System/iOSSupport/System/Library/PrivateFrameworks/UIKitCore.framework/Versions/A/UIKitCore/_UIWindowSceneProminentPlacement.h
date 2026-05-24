@@ -13,7 +13,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)Ļ;
 
 // Remaining properties
 @property(nonatomic) _Bool preferLargeSize;

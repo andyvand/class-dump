@@ -8,11 +8,14 @@
 - (void)\køÿfkøÿ;
 
 @optional
+- (void)jM9i;
+- (void);
+- (void)q;
 - (void)0@ù
 × ;
 - (void)ng"24@?<v@?>32;
 - (void)s %@;
-- (void)EXPIRED_UNKNOWN_REQUEST_TOKEN_ERROR_TITLE;
+- (void)PEER_PAYMENT_EXPIRED_UNKNOWN_REQUEST_TOKEN_ERROR_TITLE;
 - (void)8;
 @end
 

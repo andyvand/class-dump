@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface TUConversationVirtualParticipantConfig
 {
     _Bool _serverCertValidationEnabled;
-    unsigned long long _connectionRetryIntervalMillis;
-    unsigned long long _connectionMaxAttempts;
-    unsigned long long _rpcStreamRetryIntervalMillis;
-    unsigned long long _rpcStreamMaxAttempts;
-    NSString *_serverCertHostnameOverride;
-    NSString *_serverCertLeafMarkerOIDOverride;
-    NSData *_idsAliasingSalt;
 }
 
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)@;
 - (void);
 - (_Bool);
 - (id);
@@ -34,22 +25,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)sB;
 - (void)setSelectedIntelligentCallScreeningMenuOptionForFaceTime: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long connectionMaxAttempts; // @synthesize connectionMaxAttempts=_connectionMaxAttempts;
 @property(readonly, nonatomic) unsigned long long connectionRetryIntervalMillis; // @synthesize connectionRetryIntervalMillis=_connectionRetryIntervalMillis;
-@property(copy, nonatomic) NSData *idsAliasingSalt; // @synthesize idsAliasingSalt=_idsAliasingSalt;
-@property(readonly, nonatomic) unsigned long long rpcStreamMaxAttempts; // @synthesize rpcStreamMaxAttempts=_rpcStreamMaxAttempts;
-@property(readonly, nonatomic) unsigned long long rpcStreamRetryIntervalMillis; // @synthesize rpcStreamRetryIntervalMillis=_rpcStreamRetryIntervalMillis;
-@property(readonly, copy, nonatomic) NSString *serverCertHostnameOverride; // @synthesize serverCertHostnameOverride=_serverCertHostnameOverride;
-@property(readonly, copy, nonatomic) NSString *serverCertLeafMarkerOIDOverride; // @synthesize serverCertLeafMarkerOIDOverride=_serverCertLeafMarkerOIDOverride;
-@property(readonly, nonatomic) _Bool serverCertValidationEnabled; // @synthesize serverCertValidationEnabled=_serverCertValidationEnabled;
 
 @end
 

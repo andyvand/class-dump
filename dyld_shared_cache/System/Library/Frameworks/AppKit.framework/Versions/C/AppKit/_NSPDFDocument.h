@@ -8,18 +8,16 @@ __attribute__((visibility("hidden")))
 @interface _NSPDFDocument
 {
     struct CGPDFDocument *_document;
-    struct CGRect _bounds;
-    long long _currentPage;
 }
 
 - (struct CGPDFDocument *);
 - (void);
 - (void);
 - (long long);
-- (struct CGRect);
+- (struct CGRect)characterIndexForPoint: /* Error: Ran out of types for this method. */;
 - (id)
 × ;
-- (long long)ction;
+- (long long)HighlightMenuItemAction;
 
 @end
 

@@ -7,12 +7,10 @@
 @interface PhotosUICore.LemonadePickerView.Coordinator
 {
     id photoLibrary;
-    id configuration;
-    id selectionHandler;
 }
 
 - (void);
-- (id);
+- (id)k;
 - (void)ËQ<;
 
 @end

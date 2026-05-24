@@ -9,8 +9,8 @@
     long long _format;
 }
 
-- (id);
-- (long long);
+- (id)timestamp;
+- (long long)AppleSelectedHandwritingLanguage;
 - (void);
 
 // Remaining properties

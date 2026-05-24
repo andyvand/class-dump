@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (id);
-- (void);
+- (id)I;
+- (void)initWithBusiness: /* Error: Ran out of types for this method. */;
 
 @end
 

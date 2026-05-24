@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBDateTimeRangeValue, _INPBIntentMetadata, _INPBLocation;
+@class NSString, _INPBDateTimeRangeValue, _INPBIntentMetadata, _INPBLocation;
 
 @protocol _INPBCreateEventIntent
++ (Class)*A;
+- (_Bool)#;
+- (_INPBDateTimeRangeValue *);
+- (_INPBIntentMetadata *)photoslibrary;
+- (void);
+- (void);
 - (NSString *)Q¾(1Â0@ù
 × ;
 - (_INPBLocation *);
-- (_Bool)nentNames: /* Error: Ran out of types for this method. */;
-- (_Bool)payloadHomeUserTask;
+- (_Bool)addIntentPermanentNames: /* Error: Ran out of types for this method. */;
+- (_Bool)_payloadHomeUserTask;
 - (void)[;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDateTimeRangeValue *dateTimeRange;
-@property(readonly, nonatomic) _Bool hasDateTimeRange;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasLocation;
-@property(readonly, nonatomic) _Bool hasTitle;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBLocation *location;
-@property(copy, nonatomic) NSArray *participants;
-@property(readonly, nonatomic) unsigned long long participantsCount;
-@property(copy, nonatomic) NSString *title;
 @end
 

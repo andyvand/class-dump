@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFUserActivityStatusDatabaseID, NSDate, NSNumber;
-@protocol MKFGuest, MKFUser;
+@class NSDate;
+@protocol MKFUser;
 
 @protocol MKFUserActivityStatus
-- (void)pter;
-- (id <MKFUser>)edBool;
 - (void);
+- (void)_registryAdapter;
+- (id <MKFUser>)isCurrentDeviceResidentEnabledBool;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFUserActivityStatusDatabaseID *databaseID;
-@property(retain, nonatomic) id <MKFGuest> guest;
 @property(copy, nonatomic) NSDate *lastReportTimestamp;
-@property(copy, nonatomic) NSNumber *state;
-@property(copy, nonatomic) NSNumber *statusChangeReason;
-@property(copy, nonatomic) NSDate *statusChangedTimestamp;
-@property(copy, nonatomic) NSDate *transitionTimestamp;
-@property(copy, nonatomic) NSNumber *type;
-@property(retain, nonatomic) id <MKFUser> user;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

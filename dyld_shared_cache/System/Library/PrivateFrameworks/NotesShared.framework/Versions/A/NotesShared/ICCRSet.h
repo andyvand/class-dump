@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCRDictionary, ICCRDocument, NSArray, NSHashTable, NSString;
+@class ICCRDictionary;
 
 @interface ICCRSet
 {
     ICCRDictionary *_dictionary;
-    NSHashTable *_observers;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)connectionLock;
+- (id)componentsSeparatedByString:(id)arg1;
+- (id)actualInstallPathForBundleIdentifier:(id)arg1;
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -31,8 +30,8 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)*;
+- (_Bool)isLikelyCarryGroupNum;
 - (id);
 - (id);
 - (void);
@@ -52,18 +51,7 @@
 - (unsigned long long), keyData.sha256:(CDStruct_70511ce9 *)arg1 %@, metadata:(id *)arg2 %@>;
 
 // Remaining properties
-@property(readonly, copy) NSArray *allObjects;
-@property(readonly) unsigned long long count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) ICCRDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property(nonatomic) __weak ICCRDocument *document;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(readonly) Class superclass;
 
 @end
 

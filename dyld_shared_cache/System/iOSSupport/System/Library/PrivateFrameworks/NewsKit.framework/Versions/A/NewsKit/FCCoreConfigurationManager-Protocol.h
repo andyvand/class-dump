@@ -7,8 +7,12 @@
 @protocol FCCoreConfiguration;
 
 @protocol FCCoreConfigurationManager
+- (void)rPipelineState>";
 
 // Remaining properties
 @property(readonly, nonatomic) id <FCCoreConfiguration> configuration;
+// Error: Property attributes should begin with the type ('T') attribute, property name: v24@0:8@"<FCCoreConfigurationObserving>"16
+// Property attributes: v32@0:8@"OS_dispatch_queue"16@?<v@?@"<FCCoreConfiguration>"@"NSError">24
+
 @end
 

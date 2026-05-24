@@ -4,71 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOFormattedString, GEOTransitExitPlanInfo, GEOTransitListTimeInstruction, GEOTransitOccupancyInfo, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOTransitBoardingInfoEntry
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOFormattedString *_alternativeText;
-    GEOTransitListTimeInstruction *_alternativeTimeInstruction;
-    GEOTransitExitPlanInfo *_exitPlanInfoOverride;
-    GEOFormattedString *_mainText;
-    GEOTransitListTimeInstruction *_mainTimeInstruction;
-    GEOTransitOccupancyInfo *_occupancyInfo;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _expectedDepartureTime;
-    _Bool _clearExitPlanInfo;
-    struct {
-        unsigned int has_expectedDepartureTime:1;
-        unsigned int has_clearExitPlanInfo:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_alternativeText:1;
-        unsigned int read_alternativeTimeInstruction:1;
-        unsigned int read_exitPlanInfoOverride:1;
-        unsigned int read_mainText:1;
-        unsigned int read_mainTimeInstruction:1;
-        unsigned int read_occupancyInfo:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)X:(id)arg1;
++ (_Bool)setMinX:(id)arg1;
+- (void);
+- (void);
+- (void);
+- (void)6;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
+- (_Bool)strarPersistence>";
+- (_Bool)DIOSLegacyIdentifierRegistrarPersistence>";
+- (_Bool)setMiddleName: /* Error: Ran out of types for this method. */;
+- (_Bool)setMaxInfoSequenceNumberInUse: /* Error: Ran out of types for this method. */;
+- (_Bool)optionsForPersistentStoreWithOptions:url:fileUtilities: /* Error: Ran out of types for this method. */;
+- (_Bool)loadManagedObjectModel;
+- (_Bool)linkedRecordIdentifiersString;
+- (unsigned int)calendarWithOffsetFromGMT: /* Error: Ran out of types for this method. */;
+- (id)bundleWithURL: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned int);
+- (id)emPhoto ;
 - (id);
-- (_Bool);
+- (void);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
 - (void);
 - (id);
-- (void);
+- (void)initWithRMSScore:(id)arg1 lastSampleCount: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -76,29 +52,13 @@
 - (id);
 - (void);
 - (id)b1"has_chosen"b1};
-- (id)intTyped;
-- (id)lutionResultSet;
-- (id)TIVE_WAYPOINT;
+- (id)hasWaypointTyped;
+- (id)GEOPhoneNumberResolutionResultSet;
+- (id)ACTIVE_WAYPOINT;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) GEOFormattedString *alternativeText;
-@property(retain, nonatomic) GEOTransitListTimeInstruction *alternativeTimeInstruction;
-@property(nonatomic) _Bool clearExitPlanInfo;
-@property(retain, nonatomic) GEOTransitExitPlanInfo *exitPlanInfoOverride;
-@property(nonatomic) unsigned int expectedDepartureTime;
-@property(readonly, nonatomic) _Bool hasAlternativeText;
-@property(readonly, nonatomic) _Bool hasAlternativeTimeInstruction;
-@property(nonatomic) _Bool hasClearExitPlanInfo;
-@property(readonly, nonatomic) _Bool hasExitPlanInfoOverride;
 @property(nonatomic) _Bool hasExpectedDepartureTime;
-@property(readonly, nonatomic) _Bool hasMainText;
-@property(readonly, nonatomic) _Bool hasMainTimeInstruction;
-@property(readonly, nonatomic) _Bool hasOccupancyInfo;
-@property(retain, nonatomic) GEOFormattedString *mainText;
-@property(retain, nonatomic) GEOTransitListTimeInstruction *mainTimeInstruction;
-@property(retain, nonatomic) GEOTransitOccupancyInfo *occupancyInfo;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -5,5 +5,7 @@
 //
 
 @protocol ReviewService
+- (void);
+- (void);
 @end
 

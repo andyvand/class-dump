@@ -4,71 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICDeviceBrowser, ICScannerDevice, ICScannerFunctionalUnit, IKScan, IKScanUIControllerAdvanced, IKScanUIControllerSimple, IKScanUIViewAdvanced, IKScanUIViewSimple, IKScannerDeviceView, IKScannerNoDeviceView, NSArray, NSMutableArray, NSString, NSURL;
-@protocol ICDeviceDelegate><IKScannerDeviceViewDelegate, ICDeviceDelegate><IKScannerDeviceViewDelegate><IKScannerDeviceViewDelegateExtended;
+@class IKScannerDeviceView;
 
 @interface IKScannerDeviceViewHandler
 {
     IKScannerDeviceView *_scannerView;
-    ICScannerDevice *_scannerDevice;
-    ICScannerFunctionalUnit *_scannerFunctionalUnit;
-    id <ICDeviceDelegate><IKScannerDeviceViewDelegate><IKScannerDeviceViewDelegateExtended> _delegate;
-    IKScan *_ikScan;
-    IKScanUIViewAdvanced *_advancedView;
-    IKScanUIViewSimple *_simpleView;
-    IKScannerNoDeviceView *_noDeviceView;
-    IKScanUIControllerSimple *_simpleController;
-    IKScanUIControllerAdvanced *_advancedController;
-    long long _mode;
-    long long _lastValidMode;
-    _Bool _hasDisplayModeSimple;
-    _Bool _hasDisplayModeAdvanced;
-    _Bool _displaysDownloadsDirectoryControl;
-    _Bool _displaysPostProcessApplicationControl;
-    long long _transferMode;
-    NSURL *_downloadsDirectory;
-    NSURL *_postProcessApplication;
-    NSURL *_userSelectedURL;
-    NSString *_scanControlLabel;
-    NSString *_overviewControlLabel;
-    NSString *_documentName;
-    _Bool _displaysDocumentNameControl;
-    _Bool _displaysFileFormatControl;
-    NSString *_fileFormat;
-    NSArray *_supportedFileFormats;
-    _Bool _displaysImageCorrectionControl;
-    _Bool _displaysDeviceSelectorControl;
-    _Bool _displaysScanSizeControl;
-    _Bool _addAutoDetectionToScanSizeControl;
-    _Bool _displaysDoneButton;
-    _Bool _reviewSimpleScanResults;
-    unsigned long long _simpleScanDocumentType;
-    unsigned long long _simpleScanOverviewResolution;
-    NSString *_simpleScanFileFormat;
-    NSString *_scanControlLabelDisplay;
-    NSString *_overviewControlLabelDisplay;
-    NSString *_statusText;
-    NSMutableArray *_statusTextArray;
-    _Bool _hideStatusText;
-    NSString *_noScannerAvailableText;
-    long long _errorCondition;
-    _Bool _scannerIsReady;
-    NSMutableArray *_scanAreas;
-    _Bool _scanInProgress;
-    _Bool _overviewScanInProgress;
-    _Bool _finalScanInProgress;
-    _Bool _isInInterfaceBuilderApp;
-    _Bool _isInInterfaceBuilderSimulator;
-    _Bool _virtualScannerMode;
-    _Bool _noDeviceViewMode;
-    _Bool _preferPostProcessApplication;
-    _Bool _windowNotificationsInstalled;
-    _Bool _switchingToLastUsedFunctionalUnit;
-    ICDeviceBrowser *_deviceBrowser;
-    long long _pendingICACall;
-    double _compressionQuality;
-    NSArray *_scannerNotAvailableTLO;
-    double _timerStart;
 }
 
 - (void);
@@ -90,6 +30,16 @@
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
@@ -104,17 +54,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
@@ -142,14 +82,14 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (int);
 - (int);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -184,7 +124,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)M;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -225,11 +165,11 @@
 - (void);
 - (void);
 - (void);
-- (double);
+- (double);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)	;
 - (long long);
 - (void);
 - (id);
@@ -238,66 +178,11 @@
 - (void);
 - (void);
 - (void);
-- (void)ter;
-- (void)geView;
+- (void)nextCounter;
+- (void)IKAutolayoutImageView;
 
 // Remaining properties
-@property(nonatomic) _Bool addAutoDetectionToScanSizeControl; // @synthesize addAutoDetectionToScanSizeControl=_addAutoDetectionToScanSizeControl;
-@property double compressionQuality; // @synthesize compressionQuality=_compressionQuality;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property id <ICDeviceDelegate><IKScannerDeviceViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) ICDeviceBrowser *deviceBrowser; // @synthesize deviceBrowser=_deviceBrowser;
-@property(nonatomic) _Bool displaysDeviceSelectorControl; // @synthesize displaysDeviceSelectorControl=_displaysDeviceSelectorControl;
-@property(nonatomic) _Bool displaysDocumentNameControl; // @synthesize displaysDocumentNameControl=_displaysDocumentNameControl;
-@property(nonatomic) _Bool displaysDoneButton; // @synthesize displaysDoneButton=_displaysDoneButton;
-@property(nonatomic) _Bool displaysDownloadsDirectoryControl; // @synthesize displaysDownloadsDirectoryControl=_displaysDownloadsDirectoryControl;
-@property(nonatomic) _Bool displaysFileFormatControl; // @synthesize displaysFileFormatControl=_displaysFileFormatControl;
-@property(nonatomic) _Bool displaysImageCorrectionControl; // @synthesize displaysImageCorrectionControl=_displaysImageCorrectionControl;
-@property(nonatomic) _Bool displaysPostProcessApplicationControl; // @synthesize displaysPostProcessApplicationControl=_displaysPostProcessApplicationControl;
-@property(nonatomic) _Bool displaysScanSizeControl; // @synthesize displaysScanSizeControl=_displaysScanSizeControl;
-@property(copy, nonatomic) NSString *documentName; // @synthesize documentName=_documentName;
-@property(retain) NSURL *downloadsDirectory; // @synthesize downloadsDirectory=_downloadsDirectory;
-@property long long errorCondition; // @synthesize errorCondition=_errorCondition;
-@property(copy, nonatomic) NSString *fileFormat; // @synthesize fileFormat=_fileFormat;
-@property _Bool finalScanInProgress; // @synthesize finalScanInProgress=_finalScanInProgress;
-@property(nonatomic) _Bool hasDisplayModeAdvanced; // @synthesize hasDisplayModeAdvanced=_hasDisplayModeAdvanced;
-@property(nonatomic) _Bool hasDisplayModeSimple; // @synthesize hasDisplayModeSimple=_hasDisplayModeSimple;
-@property(readonly) unsigned long long hash;
-@property _Bool hideStatusText; // @synthesize hideStatusText=_hideStatusText;
-@property(retain) IKScan *ikScan; // @synthesize ikScan=_ikScan;
-@property _Bool isInInterfaceBuilderApp; // @synthesize isInInterfaceBuilderApp=_isInInterfaceBuilderApp;
-@property _Bool isInInterfaceBuilderSimulator; // @synthesize isInInterfaceBuilderSimulator=_isInInterfaceBuilderSimulator;
-@property long long lastValidMode; // @synthesize lastValidMode=_lastValidMode;
-@property(nonatomic) long long mode; // @synthesize mode=_mode;
-@property(copy) NSString *noScannerAvailableText; // @synthesize noScannerAvailableText=_noScannerAvailableText;
-@property(copy, nonatomic) NSString *overviewControlLabel; // @synthesize overviewControlLabel=_overviewControlLabel;
-@property(copy, nonatomic) NSString *overviewControlLabelDisplay; // @synthesize overviewControlLabelDisplay=_overviewControlLabelDisplay;
-@property _Bool overviewScanInProgress; // @synthesize overviewScanInProgress=_overviewScanInProgress;
-@property long long pendingICACall; // @synthesize pendingICACall=_pendingICACall;
-@property(retain, nonatomic) NSURL *postProcessApplication; // @synthesize postProcessApplication=_postProcessApplication;
-@property _Bool preferPostProcessApplication; // @synthesize preferPostProcessApplication=_preferPostProcessApplication;
-@property(nonatomic) _Bool reviewSimpleScanResults; // @synthesize reviewSimpleScanResults=_reviewSimpleScanResults;
-@property(retain) NSMutableArray *scanAreas; // @synthesize scanAreas=_scanAreas;
-@property(copy, nonatomic) NSString *scanControlLabel; // @synthesize scanControlLabel=_scanControlLabel;
-@property(copy, nonatomic) NSString *scanControlLabelDisplay; // @synthesize scanControlLabelDisplay=_scanControlLabelDisplay;
-@property _Bool scanInProgress; // @synthesize scanInProgress=_scanInProgress;
-@property(nonatomic) ICScannerDevice *scannerDevice; // @synthesize scannerDevice=_scannerDevice;
-@property ICScannerFunctionalUnit *scannerFunctionalUnit; // @synthesize scannerFunctionalUnit=_scannerFunctionalUnit;
-@property _Bool scannerIsReady; // @synthesize scannerIsReady=_scannerIsReady;
-@property(retain) NSArray *scannerNotAvailableTLO; // @synthesize scannerNotAvailableTLO=_scannerNotAvailableTLO;
 @property(readonly) IKScannerDeviceView *scannerView; // @synthesize scannerView=_scannerView;
-@property unsigned long long simpleScanDocumentType; // @synthesize simpleScanDocumentType=_simpleScanDocumentType;
-@property(copy) NSString *simpleScanFileFormat; // @synthesize simpleScanFileFormat=_simpleScanFileFormat;
-@property unsigned long long simpleScanOverviewResolution; // @synthesize simpleScanOverviewResolution=_simpleScanOverviewResolution;
-@property(copy) NSString *statusText; // @synthesize statusText=_statusText;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSArray *supportedFileFormats; // @synthesize supportedFileFormats=_supportedFileFormats;
-@property(nonatomic) long long transferMode; // @synthesize transferMode=_transferMode;
-@property(retain) NSURL *userSelectedURL; // @synthesize userSelectedURL=_userSelectedURL;
 
 @end
 

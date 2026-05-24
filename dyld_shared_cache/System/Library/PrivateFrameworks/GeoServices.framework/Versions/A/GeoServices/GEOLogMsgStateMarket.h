@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLogMsgStateMarket
 {
     PBUnknownFields *_unknownFields;
-    NSString *_market;
 }
 
-+ (_Bool)pportSfSymbol:(id)arg1;
++ (_Bool)setHasSupportSfSymbol:(id)arg1;
 - (void);
 - (id);
 - (id);
@@ -23,8 +22,8 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id)sInlineShields;
+- (void)rray"8;
+- (id)supportsGuidanceEventsInlineShields;
 - (id);
 - (id)ser_session_entity (%{private}@) from queryString (%{private}@).;
 - (id);
@@ -35,8 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasMarket;
-@property(retain, nonatomic) NSString *market;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

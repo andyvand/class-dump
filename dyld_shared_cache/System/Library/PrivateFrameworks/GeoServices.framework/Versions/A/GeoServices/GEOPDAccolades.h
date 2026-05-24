@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDAccolades
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_accolades;
 }
 
 + (id);
 + (id);
 - (id);
-- (void);
+- (void)stalt.dylib;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);

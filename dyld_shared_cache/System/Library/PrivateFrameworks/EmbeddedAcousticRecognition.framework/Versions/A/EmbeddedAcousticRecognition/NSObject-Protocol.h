@@ -7,20 +7,17 @@
 @class NSString;
 
 @protocol NSObject
+- (Class);
+- (_Bool)monReady];
+- (id)"24@"NSString"32@?<v@?@"INObjectCollection"@"NSError">40;
 - (id)id SegmentationBlock state, mode = ;
 - (_Bool)è;
-- (struct _NSZone *)ssee8internal40ManagedImmutableSortedArrayStlVectorImplIxEE;
+- (struct _NSZone *)N6quasar9tennessee8internal40ManagedImmutableSortedArrayStlVectorImplIxEE;
 
 @optional
 - (NSString *)output dimension mismatch;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

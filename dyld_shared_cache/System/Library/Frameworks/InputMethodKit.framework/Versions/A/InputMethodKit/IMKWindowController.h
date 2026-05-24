@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMKClipView, NSAppearance, NSString;
+@class IMKClipView;
 
 @interface IMKWindowController
 {
@@ -15,24 +15,15 @@
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void));
 - (id);
-- (id);
-- (void);
+- (id)checkMediaQualityDegradedForParticipantID: /* Error: Ran out of types for this method. */;
+- (void)AFRCSetReceiveQueueSize;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSAppearance *appearance;
 @property(retain, nonatomic) IMKClipView *clipView; // @synthesize clipView=_clipView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) long long windowLevel;
 
 @end
 

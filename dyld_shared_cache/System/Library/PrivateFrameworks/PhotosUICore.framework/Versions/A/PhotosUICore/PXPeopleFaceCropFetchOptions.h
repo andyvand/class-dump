@@ -4,24 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PHAsset, PHFace, PHPerson, PHPhotoLibrary;
-
 @interface PXPeopleFaceCropFetchOptions
 {
     _Bool _wantsFlippedContentsRect;
-    _Bool _isSynchronous;
-    _Bool _shouldCacheResult;
-    _Bool _wantsSmallFaceRect;
-    _Bool _useLowMemoryMode;
-    PHPerson *_person;
-    PHFace *_face;
-    double _displayScale;
-    PHAsset *_asset;
-    long long _cropFactor;
-    long long _cornerStyle;
-    long long _deliveryMode;
-    struct CGSize _targetPixelSize;
-    struct CGSize _clientTargetSize;
 }
 
 + (long long);
@@ -46,7 +31,7 @@
 - (struct CGSize);
 - (id);
 - (long long);
-- (long long);
+- (long long);
 - (_Bool);
 - (id);
 - (void);
@@ -54,7 +39,7 @@
 - (void);
 - (double)1Â0@ù
 × ;
-- (id)splayType:(struct _NSZone *)arg1 postedByUserOrSubjectWithFullName:atDate:nameAttributes:dateAttributes: /* Error: Ran out of types for this method. */;
+- (id)px_localizedAttributedStringForPostAttributionOfAssetWithDisplayType:(struct _NSZone *)arg1 postedByUserOrSubjectWithFullName:atDate:nameAttributes:dateAttributes: /* Error: Ran out of types for this method. */;
 - (id)ÿ;
 - (void)utablePhotosViewOptionsModel>"8;
 - (id)ulate Remote UI Failure;
@@ -65,22 +50,7 @@
 - (id)+¸ÿ©ÊR`y>;
 
 // Remaining properties
-@property(retain, nonatomic) PHAsset *asset; // @synthesize asset=_asset;
-@property(readonly, nonatomic) NSString *cacheKey;
 @property(readonly, nonatomic) struct CGSize clientTargetSize; // @synthesize clientTargetSize=_clientTargetSize;
-@property(nonatomic) long long cornerStyle; // @synthesize cornerStyle=_cornerStyle;
-@property(nonatomic) long long cropFactor; // @synthesize cropFactor=_cropFactor;
-@property(nonatomic) long long deliveryMode; // @synthesize deliveryMode=_deliveryMode;
-@property(readonly, nonatomic) double displayScale; // @synthesize displayScale=_displayScale;
-@property(readonly, nonatomic) PHFace *face; // @synthesize face=_face;
-@property(nonatomic) _Bool isSynchronous; // @synthesize isSynchronous=_isSynchronous;
-@property(readonly, nonatomic) PHPerson *person; // @synthesize person=_person;
-@property(readonly, nonatomic) PHPhotoLibrary *photoLibrary;
-@property(nonatomic) _Bool shouldCacheResult; // @synthesize shouldCacheResult=_shouldCacheResult;
-@property(readonly, nonatomic) struct CGSize targetPixelSize; // @synthesize targetPixelSize=_targetPixelSize;
-@property(nonatomic) _Bool useLowMemoryMode; // @synthesize useLowMemoryMode=_useLowMemoryMode;
-@property(nonatomic) _Bool wantsFlippedContentsRect; // @synthesize wantsFlippedContentsRect=_wantsFlippedContentsRect;
-@property(nonatomic) _Bool wantsSmallFaceRect; // @synthesize wantsSmallFaceRect=_wantsSmallFaceRect;
 
 @end
 

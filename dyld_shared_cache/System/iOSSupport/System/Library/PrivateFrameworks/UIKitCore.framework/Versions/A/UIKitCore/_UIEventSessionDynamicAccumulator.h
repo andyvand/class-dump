@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
+- (void)er:(id)arg1 options:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)0@ù
 × ;

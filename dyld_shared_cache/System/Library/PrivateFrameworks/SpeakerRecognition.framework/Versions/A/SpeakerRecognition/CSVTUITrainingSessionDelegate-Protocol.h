@@ -5,5 +5,8 @@
 //
 
 @protocol CSVTUITrainingSessionDelegate
+
+@optional
+- (_Bool)eB;
 @end
 

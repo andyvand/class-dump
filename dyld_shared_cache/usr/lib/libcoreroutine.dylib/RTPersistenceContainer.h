@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSPersistentStoreCoordinator, NSString;
-@protocol OS_dispatch_queue, RTPersistenceContainerDelegate;
+@class NSArray, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface RTPersistenceContainer
 {
     NSArray *_configurations;
-    _Bool _serveContexts;
-    _Bool _setupFailed;
-    id <RTPersistenceContainerDelegate> _delegate;
-    NSString *_name;
-    NSObject<OS_dispatch_queue> *_contextRequestsQueue;
-    NSPersistentStoreCoordinator *_coordinator;
 }
 
 - (_Bool);
@@ -29,16 +23,16 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)PCSCKKSEnsurePCSFieldsOperation;
 - (_Bool);
-- (id);
-- (_Bool);
+- (id)situate;
+- (_Bool)ate wrappedMaster:FillOctetString(&share.tbs.shareList.val[n].wrappedMaster, wrappedKey) /* Error: Ran out of types for this method. */;
+- (void)ailed to get anonymous wrapped key:(_Bool)arg1 wrappedKey != NULL;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (void);
 - (id);
@@ -48,12 +42,6 @@
 
 // Remaining properties
 @property(retain) NSObject<OS_dispatch_queue> *contextRequestsQueue; // @synthesize contextRequestsQueue=_contextRequestsQueue;
-@property(retain) NSPersistentStoreCoordinator *coordinator; // @synthesize coordinator=_coordinator;
-@property(nonatomic) __weak id <RTPersistenceContainerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) NSString *name; // @synthesize name=_name;
-@property _Bool serveContexts; // @synthesize serveContexts=_serveContexts;
-@property _Bool setupFailed; // @synthesize setupFailed=_setupFailed;
-@property(readonly) _Bool storesNeedSetup;
 
 @end
 

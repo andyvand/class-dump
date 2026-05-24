@@ -5,5 +5,12 @@
 //
 
 @protocol SXLinkActionURLQualifier
+- (_Bool)hRef
+;
+- (_Bool)%d fileName is invalid
+;
+
+@optional
+- (_Bool)malloc memory for valueArray;
 @end
 

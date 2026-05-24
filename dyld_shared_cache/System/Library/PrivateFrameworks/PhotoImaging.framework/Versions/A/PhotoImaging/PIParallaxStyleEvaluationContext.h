@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage, NSDictionary;
-@protocol PIParallaxFilterCache;
+@class NSDictionary;
 
 @interface PIParallaxStyleEvaluationContext
 {
     NSDictionary *_parameters;
-    CIImage *_inputImage;
-    CIImage *_outputImage;
-    CIImage *_guideImage;
-    CIImage *_matteImage;
-    CIImage *_backgroundImage;
-    NSDictionary *_localLightData;
-    id <PIParallaxFilterCache> _cache;
-    double _renderScale;
-    struct CGRect _visibleRect;
 }
 
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)3;
 - (id);
 - (id);
 - (id);
@@ -35,28 +25,18 @@
 - (void);
 - (struct CGRect);
 - (void);
-- (id);
-- (id);
+- (id)E;
+- (id)canShowAccessibilitySheetManuallyTriggered:outLocalizedDisabledReason: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)s1: /* Error: Ran out of types for this method. */;
+- (void)setRadius1: /* Error: Ran out of types for this method. */;
 - (void)kaPH/Sources/Photos/workspaces/neutrino/PhotoImaging/Adjustments/PITempTintFilter.m;
 
 // Remaining properties
-@property(retain, nonatomic) CIImage *backgroundImage; // @synthesize backgroundImage=_backgroundImage;
-@property(retain, nonatomic) id <PIParallaxFilterCache> cache; // @synthesize cache=_cache;
-@property(retain, nonatomic) CIImage *guideImage; // @synthesize guideImage=_guideImage;
-@property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(readonly, nonatomic) CIImage *lightMapImage;
-@property(copy, nonatomic) NSDictionary *localLightData; // @synthesize localLightData=_localLightData;
-@property(retain, nonatomic) CIImage *matteImage; // @synthesize matteImage=_matteImage;
-@property(retain, nonatomic) CIImage *outputImage; // @synthesize outputImage=_outputImage;
 @property(copy, nonatomic) NSDictionary *parameters; // @synthesize parameters=_parameters;
-@property(nonatomic) double renderScale; // @synthesize renderScale=_renderScale;
-@property(nonatomic) struct CGRect visibleRect; // @synthesize visibleRect=_visibleRect;
 
 @end
 

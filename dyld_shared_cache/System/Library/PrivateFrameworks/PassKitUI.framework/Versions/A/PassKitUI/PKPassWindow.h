@@ -12,7 +12,7 @@
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)ateFromString:(struct CGRect)arg1 possibleFormats:(unsigned long long)arg2 ];
 - (_Bool);
 
 // Remaining properties

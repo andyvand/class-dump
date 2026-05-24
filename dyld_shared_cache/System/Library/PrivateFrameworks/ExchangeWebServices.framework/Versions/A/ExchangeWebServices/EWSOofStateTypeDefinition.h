@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id);
+- (id),V_primaryVocalText;
 
 @end
 

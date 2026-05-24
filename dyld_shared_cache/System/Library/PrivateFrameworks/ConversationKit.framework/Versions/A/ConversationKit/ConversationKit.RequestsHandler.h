@@ -7,8 +7,6 @@
 @interface ConversationKit.RequestsHandler
 {
     id cachedHandlesToIsUnknown;
-    id featureFlags;
-    id $__lazy_storage_$_contactStore;
 }
 
 @end

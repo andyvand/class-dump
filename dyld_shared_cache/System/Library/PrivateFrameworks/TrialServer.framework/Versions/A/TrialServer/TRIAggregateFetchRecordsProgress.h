@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, _PASLock;
-@protocol OS_dispatch_queue;
-
 @interface TRIAggregateFetchRecordsProgress
 {
     CDUnknownBlockType _progress;
-    _PASLock *_lock;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
 - (double);
 - (double);
 - (void);
-- (void);
+- (void)ourceNode.load;
+- (id)pple.quicktime.cinematic-video.rendering;
 - (id);
-- (id);
 - (void);
 - (void);
-- (void);
+- (void)h";
 - (void);
 - (void);
 - (void)"16@"NSString<TRIFactorPackSetId>"24;

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface PFMediaStreamedAssetCache
 {
     void sourceURL;
-    void pathExtension;
-    void cacheLocation;
-    int purgeability;
-    id sourceURLMD5;
-    id phase;
 }
 
 - (id);
@@ -26,15 +21,12 @@
 - (id);
 - (id);
 - (void);
+- (id)G;
 - (id);
-- (id);
-- (id);
+- (id)upsellViewModelDidRequestFlowCancellationWithContext: /* Error: Ran out of types for this method. */;
 - (void)CGGSgG;
 
 // Remaining properties
-@property(nonatomic, readonly) NSURL *cacheLocation;
-@property(nonatomic, readonly) NSString *pathExtension;
-@property(nonatomic, readonly) int purgeability; // @synthesize purgeability;
 @property(nonatomic, readonly) NSURL *sourceURL;
 
 @end

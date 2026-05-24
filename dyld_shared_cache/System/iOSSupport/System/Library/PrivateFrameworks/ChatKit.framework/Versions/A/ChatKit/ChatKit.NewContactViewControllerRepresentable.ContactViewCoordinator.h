@@ -7,15 +7,13 @@
 @interface ChatKit.NewContactViewControllerRepresentable.ContactViewCoordinator
 {
     id parent;
-    id navigationController;
-    id _config;
 }
 
 - (_Bool);
 - (id);
 - (void);
-- (void):animated:completion: /* Error: Ran out of types for this method. */;
-- (void)w;
+- (void)beginSuppressingActivityWithReason:animated:completion: /* Error: Ran out of types for this method. */;
+- (void)AcceptedContactBannerView;
 
 @end
 

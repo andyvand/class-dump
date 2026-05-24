@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCInterestToken, NSArray, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface FCHeldRecords
 {
     NSDictionary *_recordsByID;
-    NSDictionary *_interestTokensByID;
 }
 
 + (id);
@@ -21,7 +20,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)MapsSuggestionsDistanceTitleFormatter;
 - (id);
 - (id);
 - (id);
@@ -29,18 +28,11 @@
 - (id);
 - (id);
 - (id)ovider"16;
-- (unsigned long long)hName:value: /* Error: Ran out of types for this method. */;
+- (unsigned long long)initWithName:value: /* Error: Ran out of types for this method. */;
 - (id)rServices/feldsparcore/Classes/FCPuzzleRank.m;
-- (void)ctMetadata;
+- (void)nameImageCompactMetadata;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allRecordIDs;
-@property(readonly, nonatomic) NSArray *allRecords;
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) NSDictionary *interestTokensByID; // @synthesize interestTokensByID=_interestTokensByID;
-@property(readonly, nonatomic) FCInterestToken *onlyInterestToken;
-@property(readonly, nonatomic) id onlyRecord;
-@property(readonly, nonatomic) NSString *onlyRecordID;
 @property(readonly, nonatomic) NSDictionary *recordsByID; // @synthesize recordsByID=_recordsByID;
 
 @end

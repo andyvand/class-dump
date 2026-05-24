@@ -14,9 +14,7 @@
 + (unsigned long long);
 
 // Remaining properties
-@property _Bool becomesKeyOnlyIfNeeded;
 @property(getter=isFloatingPanel) _Bool floatingPanel;
-@property _Bool worksWhenModal;
 
 @end
 

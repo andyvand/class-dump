@@ -7,8 +7,6 @@
 @interface AppStoreKit.ASKBagContract
 {
     id bag;
-    id isOfflineBag;
-    id bagOfflinePolicy;
 }
 
 @end

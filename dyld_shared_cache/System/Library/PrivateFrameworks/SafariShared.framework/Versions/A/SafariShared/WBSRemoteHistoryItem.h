@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSURL;
+@class NSURL;
 
 @interface WBSRemoteHistoryItem
 {
     NSURL *_url;
-    NSString *_title;
-    NSDate *_lastVisitTime;
 }
 
 + (_Bool);
-- (id);
-- (id);
+- (id)$;
+- (id)IKSFEffectDescriptionParametersKey;
 - (id);
 - (id);
 - (id);
@@ -26,8 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *lastVisitTime; // @synthesize lastVisitTime=_lastVisitTime;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

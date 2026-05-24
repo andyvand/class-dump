@@ -7,15 +7,12 @@
 @interface NTPBLocalNotificationReceived
 {
     int _localNotificationNumberReceived;
-    struct {
-        unsigned int localNotificationNumberReceived:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (_Bool);
-- (int);
+- (void)decorationViewClass;
+- (void)contextMenuForInvitations:(_Bool)arg1 presentationEnvironment: /* Error: Ran out of types for this method. */;
+- (_Bool)anchoringViewForSharingService:showRelativeToRect:preferredEdge: /* Error: Ran out of types for this method. */;
+- (int)_updateOriginalPersistableRecipe;
 - (id);
 - (void);
 - (void);
@@ -27,7 +24,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasLocalNotificationNumberReceived;
-@property(nonatomic) int localNotificationNumberReceived; // @synthesize localNotificationNumberReceived=_localNotificationNumberReceived;
 
 @end
 

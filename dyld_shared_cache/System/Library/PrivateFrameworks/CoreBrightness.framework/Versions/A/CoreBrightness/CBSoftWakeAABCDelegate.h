@@ -8,12 +8,11 @@ __attribute__((visibility("hidden")))
 @interface CBSoftWakeAABCDelegate
 {
     long long _state;
-    struct CustomCurve _curve;
 }
 
 + (_Bool);
 - (long long);
-- (struct CustomCurve);
+- (struct CustomCurve)y;
 - (id);
 - (_Bool);
 

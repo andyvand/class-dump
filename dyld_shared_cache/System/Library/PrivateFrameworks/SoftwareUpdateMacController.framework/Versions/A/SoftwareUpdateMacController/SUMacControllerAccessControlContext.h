@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface SUMacControllerAccessControlContext
 {
     _Bool _clientDisconnectOccurred;
-    NSString *_clientID;
-    long long _priority;
-    NSDictionary *_additionalContext;
-    NSString *_event;
-    long long _eventType;
 }
 
 + (long long);
@@ -31,21 +26,16 @@
 - (id);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool)K;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)|G;
 - (long long)ublic}@ - %{public}@ Client did not provide a progress block:%{public}@ /* Error: Ran out of types for this method. */;
 - (void)ºB´;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *additionalContext; // @synthesize additionalContext=_additionalContext;
-@property(nonatomic) _Bool clientDisconnectOccurred; // @synthesize clientDisconnectOccurred=_clientDisconnectOccurred;
 @property(readonly, retain, nonatomic) NSString *clientID; // @synthesize clientID=_clientID;
-@property(retain, nonatomic) NSString *event; // @synthesize event=_event;
-@property(nonatomic) long long eventType; // @synthesize eventType=_eventType;
-@property(readonly, nonatomic) long long priority; // @synthesize priority=_priority;
 
 @end
 

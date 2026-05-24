@@ -8,15 +8,6 @@ __attribute__((visibility("hidden")))
 @interface SECSFAVersion
 {
     long long _build;
-    long long _major;
-    long long _minor;
-    int _productName;
-    struct {
-        unsigned int build:1;
-        unsigned int major:1;
-        unsigned int minor:1;
-        unsigned int productName:1;
-    } _has;
 }
 
 - (void);
@@ -35,27 +26,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)Key Toggle:(long long)arg1;
 - (_Bool);
 - (long long);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)?;
 - (_Bool);
 - (_Bool);
 - (int);
-- (long long);
+- (long long)JSONObject;
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long build; // @synthesize build=_build;
-@property(nonatomic) _Bool hasBuild;
-@property(nonatomic) _Bool hasMajor;
-@property(nonatomic) _Bool hasMinor;
 @property(nonatomic) _Bool hasProductName;
-@property(nonatomic) long long major; // @synthesize major=_major;
-@property(nonatomic) long long minor; // @synthesize minor=_minor;
-@property(nonatomic) int productName; // @synthesize productName=_productName;
 
 @end
 

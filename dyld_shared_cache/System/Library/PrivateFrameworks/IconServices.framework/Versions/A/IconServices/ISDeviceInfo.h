@@ -8,10 +8,6 @@ __attribute__((visibility("hidden")))
 @interface ISDeviceInfo
 {
     int _deviceClass;
-    int _screenClass;
-    double _screenScale;
-    long long _rawDeviceIdiom;
-    unsigned long long _deviceSubtype;
 }
 
 + (id);
@@ -21,21 +17,13 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (double);
-- (struct CGSize);
+- (struct CGSize)_forcedBrightnessUpdate;
 - (int);
 - (unsigned long long);
-- (struct CGSize);
+- (struct CGSize)uid;
 
 // Remaining properties
-@property(readonly) int deviceClass; // @synthesize deviceClass=_deviceClass;
-@property(readonly) unsigned long long deviceSubtype; // @synthesize deviceSubtype=_deviceSubtype;
-@property(readonly) struct CGSize homeScreenIconSize;
-@property(readonly) unsigned long long ideom;
-@property(readonly) struct CGSize largeHomeScreenIconSize;
-@property(readonly) struct CGSize messagesLauncherIconSize;
-@property(readonly) long long rawDeviceIdiom; // @synthesize rawDeviceIdiom=_rawDeviceIdiom;
 @property(readonly) int screenClass; // @synthesize screenClass=_screenClass;
-@property(readonly) double screenScale; // @synthesize screenScale=_screenScale;
 
 @end
 

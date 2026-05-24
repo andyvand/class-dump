@@ -6,28 +6,25 @@
 
 #import <VoiceShortcutClient/WFSiriActionRequest.h>
 
-@class NSData, NSString, NSUserActivity;
+@class NSData;
 
 @interface WFSiriUserActivityRequest : WFSiriActionRequest
 {
     NSData *_userActivityData;
-    NSString *_bundleIdentifier;
 }
 
 + (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void).hash:(id)arg1 %{mask.hash}@];
 - (id);
-- (id);
+- (id)3;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, nonatomic) NSUserActivity *userActivity;
 @property(retain, nonatomic) NSData *userActivityData; // @synthesize userActivityData=_userActivityData;
 
 @end

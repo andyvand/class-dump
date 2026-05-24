@@ -9,8 +9,6 @@
 @interface CUSPAKEProver
 {
     NSData *_passwordData;
-    NSData *_sessionKey;
-    struct ccspake_ctx *_spakeContext;
 }
 
 - (id);
@@ -20,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)terminationAssertionContext;
 
 @end
 

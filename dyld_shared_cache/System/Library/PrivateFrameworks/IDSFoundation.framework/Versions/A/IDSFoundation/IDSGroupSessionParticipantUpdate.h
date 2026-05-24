@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSURI, NSArray, NSData, NSDate, NSDictionary, NSString, NSUUID;
+@class NSData, NSUUID;
 
 @interface IDSGroupSessionParticipantUpdate
 {
     NSUUID *_groupUUID;
-    _Bool _isInitiator;
-    unsigned long long _participantIdentifier;
-    IDSURI *_participantDestinationURI;
-    unsigned long long _participantUpdateType;
-    unsigned long long _participantUpdateSubtype;
-    _Bool _fromServer;
-    NSDate *_serverDate;
-    NSData *_participantData;
-    NSData *_clientContextData;
-    NSArray *_members;
-    NSDictionary *_participantIDs;
-    NSUUID *_relaySessionID;
-    NSString *_participantDestinationID;
-    NSData *_allocationData;
 }
 
 - (unsigned long long);
@@ -30,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (unsigned long long);
@@ -38,13 +24,13 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
+- (id);
+- (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (id);
+- (id);
+- (unsigned long long);
 - (id);
 - (id);
 - (id)!TCùQæ+1Â0@ù
@@ -53,20 +39,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *allocationData; // @synthesize allocationData=_allocationData;
-@property(readonly, nonatomic) NSData *clientContextData; // @synthesize clientContextData=_clientContextData;
-@property(readonly, nonatomic) _Bool fromServer; // @synthesize fromServer=_fromServer;
-@property(readonly, nonatomic) NSUUID *groupUUID; // @synthesize groupUUID=_groupUUID;
-@property(readonly, nonatomic) _Bool isInitiator; // @synthesize isInitiator=_isInitiator;
-@property(readonly, nonatomic) NSArray *members; // @synthesize members=_members;
-@property(readonly, nonatomic) NSData *participantData; // @synthesize participantData=_participantData;
-@property(readonly, nonatomic) NSString *participantDestinationID; // @synthesize participantDestinationID=_participantDestinationID;
-@property(readonly, nonatomic) IDSURI *participantDestinationURI; // @synthesize participantDestinationURI=_participantDestinationURI;
-@property(readonly, nonatomic) NSDictionary *participantIDs; // @synthesize participantIDs=_participantIDs;
-@property(readonly, nonatomic) unsigned long long participantIdentifier; // @synthesize participantIdentifier=_participantIdentifier;
-@property(readonly, nonatomic) unsigned long long participantUpdateSubtype; // @synthesize participantUpdateSubtype=_participantUpdateSubtype;
-@property(readonly, nonatomic) unsigned long long participantUpdateType; // @synthesize participantUpdateType=_participantUpdateType;
-@property(readonly, nonatomic) NSUUID *relaySessionID; // @synthesize relaySessionID=_relaySessionID;
-@property(readonly, nonatomic) NSDate *serverDate; // @synthesize serverDate=_serverDate;
 
 @end
 

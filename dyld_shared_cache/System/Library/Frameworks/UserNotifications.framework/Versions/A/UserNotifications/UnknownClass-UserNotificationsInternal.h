@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface UnknownClass (UserNotificationsInternal)
 + (id);
@@ -12,13 +12,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)B;
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *un_localizedStringArguments;
-@property(readonly, copy, nonatomic) NSString *un_localizedStringKey;
-@property(readonly, copy, nonatomic) NSString *un_localizedStringValue;
 @end
 

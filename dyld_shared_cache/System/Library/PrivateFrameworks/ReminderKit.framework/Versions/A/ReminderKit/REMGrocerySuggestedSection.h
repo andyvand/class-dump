@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface REMGrocerySuggestedSection
 {
     float _confidenceScore;
-    long long _labelIndex;
-    NSString *_sectionCanonicalName;
 }
 
 + (_Bool);
 - (id);
 - (long long);
 - (id);
-- (float);
+- (float)imageWithSystemSymbolName:accessibilityDescription: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (void);
+- (void));
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) float confidenceScore; // @synthesize confidenceScore=_confidenceScore;
 @property(readonly, nonatomic) long long labelIndex; // @synthesize labelIndex=_labelIndex;
-@property(readonly, nonatomic) NSString *sectionCanonicalName; // @synthesize sectionCanonicalName=_sectionCanonicalName;
 
 @end
 

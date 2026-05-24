@@ -4,24 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AAContactsManager, AAInheritanceController;
+@class AAInheritanceController;
 
 @interface AAInheritanceContactsViewModel
 {
     AAInheritanceController *_inheritanceController;
-    AAContactsManager *_contactsManager;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)%s:(CDUnknownBlockType)arg1 CS[%u] deleted (contextDestroyed=%s).
+;
+- (void)Usr_setqosconfiguration returned %d;
+- (void)%d;
+- (id)ror:(id)arg1;
+- (id)'t implement -getSharedWebCredentialsInfoReturningError:(id)arg1;
+- (id)egacyPkgInfo:(id)arg1 %@;
+- (void)ot as root!;
+- (void)rap_parent:(CDUnknownBlockType)arg1 %d;
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void)ingPurchases;
+- (void)isSharingPurchases;
 
 @end
 

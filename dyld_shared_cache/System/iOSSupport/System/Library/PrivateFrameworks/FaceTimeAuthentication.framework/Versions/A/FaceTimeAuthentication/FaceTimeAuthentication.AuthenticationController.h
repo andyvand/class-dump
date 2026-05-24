@@ -7,6 +7,7 @@
 @interface FaceTimeAuthentication.AuthenticationController
 {
     id logger;
+    id;
 }
 
 @end

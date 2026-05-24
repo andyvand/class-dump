@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, CAShapeLayer, CRColor, NSMutableArray;
+@class CALayer;
 
 @interface DiagnosticHUDLayer
 {
     CALayer *_previewLayer;
-    CRColor *_freshPointColor;
-    CRColor *_stalePointColor;
-    NSMutableArray *_pointLayers;
-    CAShapeLayer *_cameraAreaLayer;
-    CAShapeLayer *_focusIndicatorLayer;
-    CAShapeLayer *_focusPointLayer;
-    CAShapeLayer *_frameIndicator;
-    struct CGSize _cameraResolution;
-    struct CGRect _previewLayerVisibleRect;
 }
 
 + (id);
@@ -27,11 +18,11 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (struct CGRect);
@@ -41,25 +32,16 @@
 - (struct CGSize);
 - (void);
 - (id);
+- (id)6)@9;
+- (id)q;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)kAllowedWithFlexPolicy;
+- (void)	;
 - (void);
 
 // Remaining properties
-@property(retain) CAShapeLayer *cameraAreaLayer; // @synthesize cameraAreaLayer=_cameraAreaLayer;
-@property struct CGSize cameraResolution; // @synthesize cameraResolution=_cameraResolution;
-@property(retain) CAShapeLayer *focusIndicatorLayer; // @synthesize focusIndicatorLayer=_focusIndicatorLayer;
-@property(retain) CAShapeLayer *focusPointLayer; // @synthesize focusPointLayer=_focusPointLayer;
-@property(retain) CAShapeLayer *frameIndicator; // @synthesize frameIndicator=_frameIndicator;
-@property(retain) CRColor *freshPointColor; // @synthesize freshPointColor=_freshPointColor;
-@property(retain) NSMutableArray *pointLayers; // @synthesize pointLayers=_pointLayers;
 @property(retain) CALayer *previewLayer; // @synthesize previewLayer=_previewLayer;
-@property struct CGRect previewLayerVisibleRect; // @synthesize previewLayerVisibleRect=_previewLayerVisibleRect;
-@property(retain) CRColor *stalePointColor; // @synthesize stalePointColor=_stalePointColor;
 
 @end
 

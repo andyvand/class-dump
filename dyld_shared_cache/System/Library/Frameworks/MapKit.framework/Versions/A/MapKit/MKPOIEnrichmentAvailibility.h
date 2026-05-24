@@ -14,12 +14,12 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
++ (_Bool)R6;
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool)not eligible for the requested operation;
 + (_Bool);
 
 @end

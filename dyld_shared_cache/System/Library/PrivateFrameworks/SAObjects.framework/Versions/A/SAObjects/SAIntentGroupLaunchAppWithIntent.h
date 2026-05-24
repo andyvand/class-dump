@@ -6,8 +6,6 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSString, SAIntentGroupProtobufMessage;
-
 @interface SAIntentGroupLaunchAppWithIntent : SABaseClientBoundCommand
 {
 }
@@ -17,10 +15,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool doNotDismissSiri;
-@property(retain, nonatomic) SAIntentGroupProtobufMessage *handledIntent;
-@property(retain, nonatomic) SAIntentGroupProtobufMessage *handledIntentResponse;
-@property(copy, nonatomic) NSString *jsonEncodedHandledIntent;
-@property(copy, nonatomic) NSString *jsonEncodedHandledIntentResponse;
 
 @end
 

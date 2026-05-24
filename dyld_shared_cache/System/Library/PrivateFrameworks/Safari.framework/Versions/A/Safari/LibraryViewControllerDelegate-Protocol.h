@@ -7,6 +7,7 @@
 @class NSMenu;
 
 @protocol LibraryViewControllerDelegate
+- (void);
 - (NSMenu *);
 @end
 

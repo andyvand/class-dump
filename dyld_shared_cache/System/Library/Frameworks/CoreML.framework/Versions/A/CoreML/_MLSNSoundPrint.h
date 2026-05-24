@@ -11,10 +11,9 @@ __attribute__((visibility("hidden")))
 @interface _MLSNSoundPrint
 {
     id <MLCustomModel> _featureEmbeddingModel;
-    MLModelDescription *_modelDescription;
 }
 
-- (id);
+- (id)atomic_fetch_add;
 - (id);
 - (id);
 - (void)port profiling options on the current device.;

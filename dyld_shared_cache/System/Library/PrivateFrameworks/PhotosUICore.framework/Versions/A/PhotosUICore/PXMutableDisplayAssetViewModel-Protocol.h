@@ -4,31 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, NSImage, NSString;
+@class NSArray;
 @protocol PXDisplayAsset;
 
 @protocol PXMutableDisplayAssetViewModel
+- (_Bool);
+- (NSArray *);
+- (NSArray *)";
+- (float)assetWriterWithURL:fileType:error: /* Error: Ran out of types for this method. */;
 - (void)@) failed with error:(id <PXDisplayAsset>)arg1 %@.;
 - (id <PXDisplayAsset>)Library invitation:Exiting iCloud Photos %{public}@ /* Error: Ran out of types for this method. */;
-- (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsTextSelection;
 @property(retain, nonatomic) id <PXDisplayAsset> asset;
-@property(copy, nonatomic) NSArray *audioIdentifiersToHighlight;
-@property(nonatomic) long long contentMode;
-@property(nonatomic) struct NSEdgeInsets contentSafeAreaInsets;
-@property(copy, nonatomic) NSString *contextualVideoThumbnailID;
-@property(retain, nonatomic) NSImage *currentImage;
-@property(copy, nonatomic) NSArray *humanActionIdentifiersToHighlight;
-@property(nonatomic) _Bool isDisplayingFullQualityContent;
-@property(copy, nonatomic) NSError *loadingError;
-@property(nonatomic) float loadingProgress;
-@property(copy, nonatomic) NSArray *personLocalIdentifiersToHighlight;
-@property(copy, nonatomic) NSArray *sceneIdentifiersToHighlight;
-@property(nonatomic) struct CGRect stillImageContentsRect;
-@property(copy, nonatomic) NSArray *stringsToHighlight;
-@property(copy, nonatomic) NSArray *timeRangesToHighlight;
-@property(nonatomic) _Bool wantsLivePhotoPlayback;
 @end
 

@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MRClientApplicationConnectionManager
 {
     struct os_unfair_lock_s _lock;
-    NSMapTable *_connections;
-    NSMapTable *_listeners;
-    NSMapTable *_listenerPendingConnections;
-    NSMapTable *_handoffSessionHandlers;
 }
 
 + (id);
@@ -21,16 +17,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (CDUnknownBlockType);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)@ù&°1Â0@ù
 × ;
-- (struct os_unfair_lock_s)l: /* Error: Ran out of types for this method. */;
+- (struct os_unfair_lock_s)outputDevice:didReceiveData:fromCommunicationChannel: /* Error: Ran out of types for this method. */;
 - (void)ReceivedMessages;
 - (id){
    configuration=      %@   allocationDate=     %@ (%lf seconds ago)
@@ -48,10 +44,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSMapTable *connections; // @synthesize connections=_connections;
-@property(readonly, nonatomic) NSMapTable *handoffSessionHandlers; // @synthesize handoffSessionHandlers=_handoffSessionHandlers;
-@property(readonly, nonatomic) NSMapTable *listenerPendingConnections; // @synthesize listenerPendingConnections=_listenerPendingConnections;
-@property(readonly, nonatomic) NSMapTable *listeners; // @synthesize listeners=_listeners;
-@property(readonly, nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
 
 @end
 

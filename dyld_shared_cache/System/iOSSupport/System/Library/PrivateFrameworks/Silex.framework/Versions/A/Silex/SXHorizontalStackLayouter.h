@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXContainerComponentBlueprint, SXLayouterFactory;
-@protocol SXColumnCalculator, SXLayoutContextFactory, SXLayouterDelegate, SXUnitConverterFactory;
+@protocol SXLayouterDelegate;
 
 @interface SXHorizontalStackLayouter
 {
     id <SXLayouterDelegate> delegate;
-    SXContainerComponentBlueprint *_containerComponentBlueprint;
-    SXLayouterFactory *_layouterFactory;
-    id <SXColumnCalculator> _columnCalculator;
-    id <SXLayoutContextFactory> _layoutContextFactory;
-    id <SXUnitConverterFactory> _unitConverterFactory;
 }
 
 - (void);
@@ -23,14 +17,7 @@
 - (void)int=dd}{CGSize=dd}}16Q24r^{CGRect={CGPoint=dd}{CGSize=dd}}32Q40d48;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <SXLayouterDelegate> delegate; // @synthesize delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

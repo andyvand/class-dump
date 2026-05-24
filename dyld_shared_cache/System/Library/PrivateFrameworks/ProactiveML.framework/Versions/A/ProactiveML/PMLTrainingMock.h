@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSMutableDictionary, NSString;
+@class NSArray, NSMutableArray;
 
 @interface PMLTrainingMock
 {
     NSMutableArray *_internalCollectedSessions;
-    NSMutableDictionary *_lastTrainingFeaturizations;
-    NSArray *_collectedSessions;
 }
 
 - (id);
@@ -18,25 +16,18 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)`;
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)#;
+- (void)#4;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *collectedSessions; // @synthesize collectedSessions=_collectedSessions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

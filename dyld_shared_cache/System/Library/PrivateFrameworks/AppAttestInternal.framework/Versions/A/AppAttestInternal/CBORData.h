@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (int);
-- (id);
-- (void);
+- (id)dataWithBytesNoCopy:(id)arg1 length:freeWhenDone: /* Error: Ran out of types for this method. */;
+- (void)Z;
 
 @end
 

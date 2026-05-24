@@ -9,13 +9,12 @@
 @interface BMPBUserActivityMetadataTopic
 {
     NSString *_title;
-    NSString *_topicIdentifier;
 }
 
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)/swift/libswiftObjectiveC.dylib;
+- (id)P;
 - (void);
 - (void);
 - (unsigned long long);
@@ -30,10 +29,7 @@
 - (void)67;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasTitle;
 @property(readonly, nonatomic) _Bool hasTopicIdentifier;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) NSString *topicIdentifier; // @synthesize topicIdentifier=_topicIdentifier;
 
 @end
 

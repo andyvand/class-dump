@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AKServerRequestConfiguration;
+
 @protocol AKAppleIDServerAuthenticationUIProvider
+- (void)_getValue:(AKServerRequestConfiguration *)arg1 forDomain:(void (^)(NSHTTPURLResponse *, NSDictionary *, NSError *))arg2 key: /* Error: Ran out of types for this method. */;
+- (void)A;
 @end
 

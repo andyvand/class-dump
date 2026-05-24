@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSString;
-
 @interface IMDMessageFilterQueryResponse
 {
     long long _action;
-    long long _subAction;
-    NSString *_version;
-    NSError *_error;
 }
 
 - (long long);
 - (void);
-- (id);
+- (id)Bz;
 - (id);
 - (id);
 - (void);
@@ -28,9 +23,6 @@
 
 // Remaining properties
 @property(nonatomic) long long action; // @synthesize action=_action;
-@property(copy, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) long long subAction; // @synthesize subAction=_subAction;
-@property(copy, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end
 

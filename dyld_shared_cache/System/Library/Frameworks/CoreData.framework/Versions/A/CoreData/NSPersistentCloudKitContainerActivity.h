@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSError, NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface NSPersistentCloudKitContainerActivity
 {
     NSUUID *_identifier;
-    NSString *_storeIdentifier;
-    NSError *_error;
-    NSUUID *_parentActivityIdentifier;
-    unsigned long long _activityType;
-    NSDate *_startDate;
-    NSDate *_endDate;
 }
 
-- (id);
+- (id)@9;
 - (id);
 - (void);
-- (void);
+- (void)('B907x;
 
 @end
 

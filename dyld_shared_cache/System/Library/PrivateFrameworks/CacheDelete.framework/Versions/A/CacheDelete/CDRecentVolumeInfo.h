@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CacheDeleteVolume, NSDate, NSDictionary, NSMutableDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface CDRecentVolumeInfo
 {
     _Bool _hasSnapshot;
-    NSString *_volume;
-    CacheDeleteVolume *_cdVolume;
-    NSDate *_timestamp;
-    NSNumber *_freespace;
-    unsigned long long _reserve;
-    NSString *_bsdDisk;
-    NSMutableDictionary *_services;
-    long long _volumeState;
-    NSDictionary *_thresholds;
-    NSMutableDictionary *_diagnostics;
 }
 
-+ (_Bool);
++ (_Bool)H;
 + (id);
 - (id);
 - (void);
@@ -31,18 +21,18 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)Failed to create IKE AUTH packet (receive);
+- (id)E SA Init reply (connect);
 - (id);
 - (_Bool);
 - (id);
+- (id)_fetchStoredBackgroundInertialOdometrySamplesWithContext:handler: /* Error: Ran out of types for this method. */;
+- (id)X<>;
 - (id);
-- (id);
-- (id);
+- (void)H;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -66,20 +56,10 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bsdDisk; // @synthesize bsdDisk=_bsdDisk;
-@property(retain, nonatomic) CacheDeleteVolume *cdVolume; // @synthesize cdVolume=_cdVolume;
-@property(retain, nonatomic) NSMutableDictionary *diagnostics; // @synthesize diagnostics=_diagnostics;
-@property(retain) NSNumber *freespace; // @synthesize freespace=_freespace;
-@property _Bool hasSnapshot; // @synthesize hasSnapshot=_hasSnapshot;
-@property unsigned long long reserve; // @synthesize reserve=_reserve;
-@property(retain, nonatomic) NSMutableDictionary *services; // @synthesize services=_services;
-@property(retain, nonatomic) NSDictionary *thresholds; // @synthesize thresholds=_thresholds;
-@property(retain) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 @property(retain, nonatomic) NSString *volume; // @synthesize volume=_volume;
-@property(nonatomic) long long volumeState; // @synthesize volumeState=_volumeState;
 
 @end
 

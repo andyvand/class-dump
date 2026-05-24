@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDExternalTransitLookupResult
 {
     PBUnknownFields *_unknownFields;
-    NSString *_providerId;
 }
 
 - (id);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)ead_name"b1"read_publisherIds"b1"wrote_anyField"b1};
-- (id)ations;
+- (id)_deviceHistoricalLocations;
 - (id)Ô;
 - (void)ö(\Â7z@;
 

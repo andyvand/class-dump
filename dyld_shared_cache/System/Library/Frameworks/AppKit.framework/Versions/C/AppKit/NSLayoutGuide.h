@@ -4,36 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSISVariable, NSLayoutDimension, NSLayoutXAxisAnchor, NSLayoutYAxisAnchor, NSString;
-
 @interface NSLayoutGuide
 {
     id _owningView;
-    NSString *_identifier;
-    NSISVariable *_minYVariable;
-    NSISVariable *_minXVariable;
-    NSISVariable *_widthVariable;
-    NSISVariable *_heightVariable;
-    NSLayoutXAxisAnchor *_left;
-    NSLayoutXAxisAnchor *_right;
-    NSLayoutXAxisAnchor *_leading;
-    NSLayoutXAxisAnchor *_trailing;
-    NSLayoutYAxisAnchor *_top;
-    NSLayoutYAxisAnchor *_bottom;
-    NSLayoutDimension *_width;
-    NSLayoutDimension *_height;
-    NSLayoutXAxisAnchor *_centerX;
-    NSLayoutYAxisAnchor *_centerY;
-    struct CGRect _frame;
-    struct CGRect _internalFrame;
-    long long _piercingToken;
-    id _systemConstraints;
-    unsigned int _shouldBeArchived:1;
-    unsigned int _frameNeedsUpdate:1;
-    unsigned int _frameIsObserved:1;
-    unsigned int _lockedToOwner:1;
-    unsigned int _internalFrameDiverged:1;
-    unsigned int _reservedFlags:27;
 }
 
 + (void);

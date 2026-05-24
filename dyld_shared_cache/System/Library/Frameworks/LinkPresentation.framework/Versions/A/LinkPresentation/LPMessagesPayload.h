@@ -9,9 +9,6 @@
 @interface LPMessagesPayload
 {
     _Bool _placeholder;
-    _Bool _needsSubresourceFetch;
-    _Bool _needsCompleteFetch;
-    LPLinkMetadata *_metadata;
 }
 
 + (id);
@@ -25,19 +22,16 @@
 - (_Bool);
 - (_Bool);
 - (id);
+- (id)esume without a suspend;
 - (id);
-- (id);
-- (void);
-- (void);
+- (void)!;
+- (void)i;
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) LPLinkMetadata *metadata; // @synthesize metadata=_metadata;
-@property(nonatomic) _Bool needsCompleteFetch; // @synthesize needsCompleteFetch=_needsCompleteFetch;
-@property(nonatomic) _Bool needsSubresourceFetch; // @synthesize needsSubresourceFetch=_needsSubresourceFetch;
-@property(nonatomic, getter=isPlaceholder) _Bool placeholder; // @synthesize placeholder=_placeholder;
 
 @end
 

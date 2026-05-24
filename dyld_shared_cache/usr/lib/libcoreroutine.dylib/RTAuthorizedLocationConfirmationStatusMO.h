@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface RTAuthorizedLocationConfirmationStatusMO
 {
 }
 
-+ (id);
-+ (id);
++ (id)_deleteEscrowKey;
++ (id)teTo:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property long long confirmationStatus; // @dynamic confirmationStatus;
-@property long long confirmationStatusCode; // @dynamic confirmationStatusCode;
-@property(copy, nonatomic) NSDate *confirmationStatusTime; // @dynamic confirmationStatusTime;
-@property long long zdrConfirmationStatus; // @dynamic zdrConfirmationStatus;
-@property long long zdrConfirmationStatusCode; // @dynamic zdrConfirmationStatusCode;
-@property(copy, nonatomic) NSDate *zdrConfirmationStatusTime; // @dynamic zdrConfirmationStatusTime;
 
 @end
 

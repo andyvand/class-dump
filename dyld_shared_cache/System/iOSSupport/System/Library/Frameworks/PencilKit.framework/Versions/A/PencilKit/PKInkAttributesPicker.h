@@ -6,18 +6,11 @@
 
 #import <PencilKit/PKPaletteAttributeViewController.h>
 
-@class NSString, PKInk, UIStackView, UIView, UIViewController, _PKInkAttributesPickerView;
-@protocol PKInkAttributesPickerDelegate;
+@class UIStackView, _PKInkAttributesPickerView;
 
 @interface PKInkAttributesPicker : PKPaletteAttributeViewController
 {
     UIStackView *_stackView;
-    UIView *_topViewControllerViewWrapper;
-    _Bool _updatingOpacityValue;
-    UIViewController *_topViewController;
-    id <PKInkAttributesPickerDelegate> _delegate;
-    _PKInkAttributesPickerView *_pickerView;
-    double _minimumOpacityValue;
 }
 
 + (double);
@@ -50,21 +43,7 @@
 - (unsigned long long)à;
 
 // Remaining properties
-@property(nonatomic) long long colorUserInterfaceStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) id <PKInkAttributesPickerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long displayMode;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double minimumOpacityValue; // @synthesize minimumOpacityValue=_minimumOpacityValue;
 @property(retain, nonatomic) _PKInkAttributesPickerView *pickerView; // @synthesize pickerView=_pickerView;
-@property(retain, nonatomic) PKInk *selectedInk;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIViewController *topViewController; // @synthesize topViewController=_topViewController;
-@property(readonly, nonatomic, getter=isUpdatingOpacityValue) _Bool updatingOpacityValue; // @synthesize updatingOpacityValue=_updatingOpacityValue;
 
 @end
 

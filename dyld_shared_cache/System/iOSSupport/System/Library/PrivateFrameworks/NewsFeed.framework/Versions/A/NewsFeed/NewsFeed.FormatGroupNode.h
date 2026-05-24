@@ -7,19 +7,6 @@
 @interface NewsFeed.FormatGroupNode
 {
     id _identifier;
-    id _size;
-    id resize;
-    id _adjustments;
-    id _zIndex;
-    id _visibility;
-    id _isUserInteractionEnabled;
-    id style;
-    id _children;
-    id accessibilityRole;
-    id _selectors;
-    id animation;
-    id mask;
-    id flex;
 }
 
 @end

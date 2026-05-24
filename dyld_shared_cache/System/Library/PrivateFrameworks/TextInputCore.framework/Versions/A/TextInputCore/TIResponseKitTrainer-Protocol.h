@@ -5,5 +5,6 @@
 //
 
 @protocol TIResponseKitTrainer
+- (void)not subscribed to %@;
 @end
 

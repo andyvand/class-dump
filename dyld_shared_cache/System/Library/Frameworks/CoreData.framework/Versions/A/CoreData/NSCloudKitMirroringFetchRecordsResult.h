@@ -6,12 +6,11 @@
 
 #import <CoreData/NSCloudKitMirroringResult.h>
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface NSCloudKitMirroringFetchRecordsResult : NSCloudKitMirroringResult
 {
     NSArray *_updatedObjectIDs;
-    NSDictionary *_failedObjectIDsToError;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *failedObjectIDsToError; // @synthesize failedObjectIDsToError=_failedObjectIDsToError;
 @property(readonly, nonatomic) NSArray *updatedObjectIDs; // @synthesize updatedObjectIDs=_updatedObjectIDs;
 
 @end

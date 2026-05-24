@@ -8,11 +8,11 @@
 {
 }
 
-+ (_Bool);
-+ (_Bool);
-+ (_Bool);
-+ (struct apfs_label_purgeable_request);
-+ (id);
++ (_Bool)_currentBulkSendSessionReader;
++ (_Bool)_controllerPrivateStorage;
++ (_Bool)_controllerNodeID;
++ (struct apfs_label_purgeable_request)_clearCHIPStorageWithCompletion:(unsigned long long)arg1;
++ (id)_clearAccessoryNetworkProtectionStateWithTransaction:(struct apfs_label_purgeable_request)arg1;
 + (id);
 
 @end

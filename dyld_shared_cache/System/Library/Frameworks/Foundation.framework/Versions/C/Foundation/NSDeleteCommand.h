@@ -18,8 +18,8 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)Wingdings;
+- (void)h;
 
 // Remaining properties
 @property(readonly, retain) NSScriptObjectSpecifier *keySpecifier;

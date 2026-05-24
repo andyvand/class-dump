@@ -9,7 +9,6 @@
 @interface PMLDataChunk
 {
     NSData *_backingData;
-    NSData *_superdata;
 }
 
 + (id);

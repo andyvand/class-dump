@@ -8,10 +8,10 @@
 {
 }
 
-+ (long long);
-+ (long long);
-+ (_Bool);
-+ (_Bool);
++ (long long)CleanupMCXLockFileInHomeDir():close(%d) called = %d (%s) /* Error: Ran out of types for this method. */;
++ (long long)e the file - no work to do;
++ (_Bool)for %s was unable to be created;
++ (_Bool)omConfigProfileUUID keychain item for %s was unable to be created;
 + (_Bool);
 
 @end

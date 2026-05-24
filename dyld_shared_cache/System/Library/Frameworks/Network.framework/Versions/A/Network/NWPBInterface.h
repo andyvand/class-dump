@@ -4,28 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface NWPBInterface
 {
     unsigned int _delegateIndex;
-    unsigned int _generation;
-    unsigned int _index;
-    unsigned int _mtu;
-    NSString *_name;
-    int _subtype;
-    int _type;
-    _Bool _expensive;
-    struct {
-        unsigned int delegateIndex:1;
-        unsigned int generation:1;
-        unsigned int index:1;
-        unsigned int mtu:1;
-        unsigned int subtype:1;
-        unsigned int type:1;
-        unsigned int expensive:1;
-    } _has;
 }
 
 - (id);
@@ -33,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id)er:(struct _NSZone *)arg1;
+- (id)_downloadTaskWithURL:(struct _NSZone *)arg1 delegate:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)Üp;
 - (void)@;
 

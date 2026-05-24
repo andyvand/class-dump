@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @protocol PXMutableMessagesStackItemsLayoutHelper
 
 // Remaining properties
-@property(nonatomic) double normalizedContentInsets;
-@property(copy, nonatomic) NSArray *normalizedStackHorizontalOffsets;
-@property(nonatomic) double normalizedStackSizeTransform;
-@property(nonatomic) double normalizedStackVerticalOffset;
-@property(nonatomic) double rotationAngle;
 @property(nonatomic) unsigned long long stackedItemsCount;
 @end
 

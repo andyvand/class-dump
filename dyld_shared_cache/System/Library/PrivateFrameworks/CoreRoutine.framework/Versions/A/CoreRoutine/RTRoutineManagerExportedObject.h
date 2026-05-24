@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RTRoutineManager;
+@class RTRoutineManager;
 
 __attribute__((visibility("hidden")))
 @interface RTRoutineManagerExportedObject
@@ -12,29 +12,22 @@ __attribute__((visibility("hidden")))
     RTRoutineManager *_routineManager;
 }
 
-- (void);
+- (void)validateMipmap:(id)arg1 withModel:(id)arg2 withQuality: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void)PerSitePreferencesUseReader;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak RTRoutineManager *routineManager; // @synthesize routineManager=_routineManager;
-@property(readonly) Class superclass;
 
 @end
 

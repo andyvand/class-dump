@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, PXUpdater;
-@protocol OS_dispatch_queue;
+@class PXUpdater;
 
 @interface PXStoryProducerMonitor
 {
     _Bool _isLikelyToKeepUp;
-    float _estimatedFractionCompletedPlaybackSpeed;
-    float _lastFractionCompleted;
-    NSObject<OS_dispatch_queue> *_storyQueue;
-    PXUpdater *_updater;
-    double _startTime;
-    double _lastTime;
 }
 
 + (void);
@@ -30,35 +23,21 @@
 - (id);
 - (float);
 - (void);
-- (void);
+- (void);
 - (void);
 - (double);
 - (void);
-- (void);
-- (void);
+- (void)fullScreenCanvasController:willHideShowable:viewIndex: /* Error: Ran out of types for this method. */;
+- (void)testingConditionEnabled;
 - (id);
 - (void);
 - (void);
 - (double);
-- (double)Duration;
+- (double)audioFadeMinDuration;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double currentTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) float estimatedFractionCompletedPlaybackSpeed; // @synthesize estimatedFractionCompletedPlaybackSpeed=_estimatedFractionCompletedPlaybackSpeed;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isLikelyToKeepUp; // @synthesize isLikelyToKeepUp=_isLikelyToKeepUp;
-@property(readonly, nonatomic) float lastFractionCompleted; // @synthesize lastFractionCompleted=_lastFractionCompleted;
-@property(readonly, nonatomic) double lastTime; // @synthesize lastTime=_lastTime;
-@property(readonly, nonatomic) double startTime; // @synthesize startTime=_startTime;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *storyQueue; // @synthesize storyQueue=_storyQueue;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) PXUpdater *updater; // @synthesize updater=_updater;
 
 @end

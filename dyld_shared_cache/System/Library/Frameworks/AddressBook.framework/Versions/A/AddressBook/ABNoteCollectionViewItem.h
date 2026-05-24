@@ -6,18 +6,15 @@
 
 #import <AddressBook/ABCollectionViewItem.h>
 
-@class ABUndoManager;
 @protocol CNCancelable;
 
 @interface ABNoteCollectionViewItem : ABCollectionViewItem
 {
     _Bool mHasSuspendedSuddenTermination;
-    ABUndoManager *_undoManager;
-    id <CNCancelable> _deferredSaveToken;
 }
 
-+ (id);
-- (_Bool);
++ (id)e.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDJob_macOS.m:28 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool)@9�C;
 - (_Bool);
 - (void);
 - (void);
@@ -36,7 +33,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)tmt [%p] sql [%s] at depth [%d];
 - (void);
 
 // Remaining properties

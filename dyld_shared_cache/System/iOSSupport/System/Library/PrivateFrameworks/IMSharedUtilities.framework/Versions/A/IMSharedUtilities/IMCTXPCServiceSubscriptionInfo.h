@@ -9,24 +9,9 @@
 @interface IMCTXPCServiceSubscriptionInfo
 {
     NSArray *_phoneNumbersOfActiveSubscriptions;
-    CTXPCServiceSubscriptionInfo *_subscriptionInfo;
 }
 
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
 - (id);
 - (id);
 - (_Bool);
@@ -34,6 +19,20 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -49,7 +48,6 @@
 - (void)s30RemoteIntentRequestDispatchingP;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *phoneNumbersOfActiveSubscriptions; // @synthesize phoneNumbersOfActiveSubscriptions=_phoneNumbersOfActiveSubscriptions;
 @property(retain, nonatomic) CTXPCServiceSubscriptionInfo *subscriptionInfo; // @synthesize subscriptionInfo=_subscriptionInfo;
 
 @end

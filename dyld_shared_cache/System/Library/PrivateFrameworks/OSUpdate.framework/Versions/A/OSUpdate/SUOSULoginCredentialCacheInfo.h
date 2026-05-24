@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface SUOSULoginCredentialCacheInfo
 {
     _Bool _downloadedAndPrepared;
-    _Bool _bootstrapTokenAvailable;
-    SUMacControllerDescriptor *_descriptor;
 }
 
 - (void);
@@ -24,9 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property _Bool bootstrapTokenAvailable; // @synthesize bootstrapTokenAvailable=_bootstrapTokenAvailable;
 @property(retain) SUMacControllerDescriptor *descriptor; // @synthesize descriptor=_descriptor;
-@property _Bool downloadedAndPrepared; // @synthesize downloadedAndPrepared=_downloadedAndPrepared;
 
 @end
 

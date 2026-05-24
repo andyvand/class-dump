@@ -4,14 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSUUID;
+@class HMMTRFabric, NSNumber, NSSet, NSUUID;
 
 @protocol HMMTRStorageDataSource
+- (void)service:(_Bool (^)(id <HMMTRFabricStorageDataSource>))arg1 linkedDevicesChanged: /* Error: Ran out of types for this method. */;
+- (NSNumber *)hasTrackedTransportType;
+- (NSUUID *)T@"NSString",&,N,V_shieldText;
+- (HMMTRFabric *)up %@;
+- (NSSet *)hing all received trips:%@ /* Error: Ran out of types for this method. */;
+- (NSSet *)erver] %@ already subscribed to trip %@;
+- (NSSet *)aring trip with Maps/Messages contacts:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *allFabricIDs;
 @property(readonly, copy, nonatomic) NSSet *allPairedHAPServerIdentifiers;
-@property(readonly, copy, nonatomic) NSSet *allTargetFabricUUIDs;
-@property(readonly, copy) NSUUID *currentFabricUUID;
 @end
 

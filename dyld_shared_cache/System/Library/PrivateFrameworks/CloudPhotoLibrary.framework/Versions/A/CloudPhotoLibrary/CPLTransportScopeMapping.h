@@ -10,20 +10,17 @@
 @interface CPLTransportScopeMapping
 {
     NSMutableDictionary *_scopeMapping;
-    NSMutableDictionary *_concreteScopeMapping;
-    _Bool _hasStagingScopes;
-    id <CPLTransportScopeTranslator> _translator;
 }
 
+- (void)commute20MinWarningEntityRelevanceUserFocusModeFeatures;
+- (id)appEntityRelevanceMicroLocationFeatures;
+- (id);
+- (_Bool);
+- (_Bool)q;
 - (void);
-- (id);
-- (id);
+- (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
@@ -32,14 +29,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)e;
 - (unsigned long long);
 - (void)aÂ!pCù±ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, nonatomic) _Bool hasStagingScopes; // @synthesize hasStagingScopes=_hasStagingScopes;
 @property(readonly, nonatomic) id <CPLTransportScopeTranslator> translator; // @synthesize translator=_translator;
 
 @end

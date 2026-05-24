@@ -11,7 +11,7 @@
 
 - (_Bool);
 - (struct CGRect);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties

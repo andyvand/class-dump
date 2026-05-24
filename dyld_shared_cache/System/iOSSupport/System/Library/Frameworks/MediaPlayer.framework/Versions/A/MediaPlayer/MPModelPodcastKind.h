@@ -13,14 +13,14 @@
     MPModelPodcastEpisodeKind *_episodeKind;
 }
 
-+ (id);
++ (id)failedToExecute;
 + (id);
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)IMPinnedConversationsController;
+- (unsigned long long)namedEntityBatch:isLast:error:queryId:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);

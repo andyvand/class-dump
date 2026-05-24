@@ -5,5 +5,8 @@
 //
 
 @protocol CNAutocompleteFetchDelegate
+
+@optional
+- (_Bool);
 @end
 

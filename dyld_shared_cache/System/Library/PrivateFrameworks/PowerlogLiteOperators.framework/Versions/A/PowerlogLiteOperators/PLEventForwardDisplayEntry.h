@@ -9,8 +9,8 @@
 }
 
 + (id);
-+ (void);
-- (id);
++ (void)EnergyModel;
+- (id)_didUpdateReachabilityDueToNonNetworkStateChangeReason;
 
 @end
 

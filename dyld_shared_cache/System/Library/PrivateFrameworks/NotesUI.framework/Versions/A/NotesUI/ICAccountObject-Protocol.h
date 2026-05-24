@@ -7,10 +7,11 @@
 @class NSString;
 
 @protocol ICAccountObject
+- (_Bool);
+- (NSString *);
+- (NSString *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *emailAddress;
-@property(readonly, nonatomic) _Bool isLocalAccount;
 @property(readonly, nonatomic) NSString *localizedName;
 @end
 

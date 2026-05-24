@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSItemProvider, NSSet, NSURL, REMObjectID;
+@class REMObjectID;
 
 @interface REMFamilyChecklistSharedGroceryList
 {
     REMObjectID *_listID;
-    NSSet *_participants;
-    NSURL *_URL;
-    NSItemProvider *_itemProvider;
 }
 
 + (_Bool);
@@ -19,22 +16,19 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)_characterLevel;
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(retain, nonatomic) NSItemProvider *itemProvider; // @synthesize itemProvider=_itemProvider;
 @property(readonly, nonatomic) REMObjectID *listID; // @synthesize listID=_listID;
-@property(readonly, nonatomic) NSSet *participants; // @synthesize participants=_participants;
 
 @end
 

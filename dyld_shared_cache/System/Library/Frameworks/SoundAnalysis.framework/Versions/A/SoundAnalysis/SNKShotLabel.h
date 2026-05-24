@@ -12,7 +12,7 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)onboardDeleteVerificationCodesIfNeededWithMessage:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, readonly) long long type;

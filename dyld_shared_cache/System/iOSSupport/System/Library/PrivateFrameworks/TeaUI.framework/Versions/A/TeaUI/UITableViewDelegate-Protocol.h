@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol UITableViewDelegate
+
+@optional
+- (void);
+- (_Bool);
+- (NSArray *);
+- (void)_Daemon_SKDiskBased, will create SMSystem_Daemon instead.;
 @end
 

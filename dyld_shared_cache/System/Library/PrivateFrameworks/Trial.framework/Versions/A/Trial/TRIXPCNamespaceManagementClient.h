@@ -9,19 +9,17 @@
 @interface TRIXPCNamespaceManagementClient
 {
     _PASXPCClientHelper *_helper;
-    _PASXPCClientHelper *_internalHelper;
-    _PASXPCClientHelper *_internalAgentToSystemHelper;
 }
 
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)ifier==%{public}@;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);

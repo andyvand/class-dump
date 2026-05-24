@@ -4,57 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBCloudZone, HMBLocalZone, HMDAppleAccountSettings, HMDBulletinBoard, HMDCameraRecordingReachabilityEventModel, HMDHAPAccessory, HMFMessageDispatcher, HMFTimer, NAFuture, NSDate, NSHashTable, NSNotificationCenter, NSObject, NSString, NSUUID, _HMCameraUserSettings;
-@protocol HMDFeaturesDataSource, HMMLogEventSubmitting, OS_dispatch_queue;
+@class HMDHAPAccessory;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingReachabilityEventManager
 {
     _Bool _currentDeviceConfirmedPrimaryResident;
-    _Bool _currentDeviceConnectedToNetwork;
-    _Bool _lastKnownCameraReachability;
-    _Bool _currentCameraReachability;
-    _HMCameraUserSettings *_currentSettings;
-    HMDHAPAccessory *_hapAccessory;
-    NSUUID *_uniqueIdentifier;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    HMDBulletinBoard *_bulletinBoard;
-    HMDAppleAccountSettings *_accountSettings;
-    id <HMDFeaturesDataSource> _featuresDataSource;
-    NSNotificationCenter *_notificationCenter;
-    HMFMessageDispatcher *_messageDispatcher;
-    NSHashTable *_clientConnections;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
-    NAFuture *_didHandleInitialReachabilityFuture;
-    unsigned long long _reachabilityChangeDebounceCount;
-    HMDCameraRecordingReachabilityEventModel *_mostRecentReachabilityEventModel;
-    HMBLocalZone *_localZone;
-    HMBCloudZone *_cloudZone;
-    HMFTimer *_initialReachabilityTimer;
-    HMFTimer *_reachabilityChangeDebounceTimer;
-    NSDate *_reachabilityChangeDebounceStartDate;
-    NSDate *_suppressNotificationsBeforeDate;
-    CDUnknownBlockType _initialReachabilityTimerFactory;
-    CDUnknownBlockType _reachabilityChangeDebounceTimerFactory;
 }
 
 + (id);
+- (void)hasIconAttributeValue;
+- (void),V_directionsSettingsPath;
+- (_Bool)ctionsSearch",&,N,V_directionsSearch;
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)on for identifier %@;
+- (void)playName:(id)arg1 %@;
+- (void)startService:(id)arg1 %@, active alias:%@, account:%@, displayName:%@ /* Error: Ran out of types for this method. */;
+- (void)rivate}s;
+- (void)long;
+- (void)[%{public}@] _sendStoppedUpdate;
+- (void)}@] _sendResumingToNextDestinationUpdate;
+- (void)WAYPOINT_CONTACT_CUSTOM_LABEL_ADDRESS;
+- (void)nstalled:(id)arg1 %@, hasContactsAuthorisation:%@, processEntitledToShare:%@, processEntitledToReceive:%@ /* Error: Ran out of types for this method. */;
+- (void)ed edit with new snapshot:(_Bool)arg1 %@;
+- (void)al contents %@, transfer error if any %@;
+- (void)ck:(_Bool)arg1 context:completionQueue:completion:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (double);
@@ -63,10 +37,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)&;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -82,10 +56,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)";
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -113,17 +87,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)SError"16;
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)9	;
 - (id);
 - (id);
 - (id)1Â0@ù
 × ;
 - (id)ger>"16q24@"CLRegion"32;
-- (id)AccessoryReachabilityChangedCount;
+- (id)_ipAccessoryReachabilityChangedCount;
 - (void)A;
 - (id)ut we are not the designated writer for home:%@ /* Error: Ran out of types for this method. */;
 - (id):%@ /* Error: Ran out of types for this method. */;
@@ -139,47 +113,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly) HMDAppleAccountSettings *accountSettings; // @synthesize accountSettings=_accountSettings;
-@property(readonly) HMDBulletinBoard *bulletinBoard; // @synthesize bulletinBoard=_bulletinBoard;
-@property(retain) NSHashTable *clientConnections; // @synthesize clientConnections=_clientConnections;
-@property(retain) HMBCloudZone *cloudZone; // @synthesize cloudZone=_cloudZone;
-@property _Bool currentCameraReachability; // @synthesize currentCameraReachability=_currentCameraReachability;
-@property(nonatomic, getter=isCurrentDeviceConfirmedPrimaryResident) _Bool currentDeviceConfirmedPrimaryResident; // @synthesize currentDeviceConfirmedPrimaryResident=_currentDeviceConfirmedPrimaryResident;
-@property(nonatomic, getter=isCurrentDeviceConnectedToNetwork) _Bool currentDeviceConnectedToNetwork; // @synthesize currentDeviceConnectedToNetwork=_currentDeviceConnectedToNetwork;
-@property(copy) _HMCameraUserSettings *currentSettings; // @synthesize currentSettings=_currentSettings;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NAFuture *didHandleInitialReachabilityFuture; // @synthesize didHandleInitialReachabilityFuture=_didHandleInitialReachabilityFuture;
-@property(readonly) id <HMDFeaturesDataSource> featuresDataSource; // @synthesize featuresDataSource=_featuresDataSource;
 @property(readonly) __weak HMDHAPAccessory *hapAccessory; // @synthesize hapAccessory=_hapAccessory;
-@property(readonly) unsigned long long hash;
-@property(readonly) double initialReachabilityTimeout;
-@property(retain) HMFTimer *initialReachabilityTimer; // @synthesize initialReachabilityTimer=_initialReachabilityTimer;
-@property(copy) CDUnknownBlockType initialReachabilityTimerFactory; // @synthesize initialReachabilityTimerFactory=_initialReachabilityTimerFactory;
-@property _Bool lastKnownCameraReachability; // @synthesize lastKnownCameraReachability=_lastKnownCameraReachability;
-@property(retain) HMBLocalZone *localZone; // @synthesize localZone=_localZone;
-@property(retain) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
-@property(retain) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(copy) HMDCameraRecordingReachabilityEventModel *mostRecentReachabilityEventModel; // @synthesize mostRecentReachabilityEventModel=_mostRecentReachabilityEventModel;
-@property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property unsigned long long reachabilityChangeDebounceCount; // @synthesize reachabilityChangeDebounceCount=_reachabilityChangeDebounceCount;
-@property(copy) NSDate *reachabilityChangeDebounceStartDate; // @synthesize reachabilityChangeDebounceStartDate=_reachabilityChangeDebounceStartDate;
-@property(retain) HMFTimer *reachabilityChangeDebounceTimer; // @synthesize reachabilityChangeDebounceTimer=_reachabilityChangeDebounceTimer;
-@property(copy) CDUnknownBlockType reachabilityChangeDebounceTimerFactory; // @synthesize reachabilityChangeDebounceTimerFactory=_reachabilityChangeDebounceTimerFactory;
-@property(readonly) double reachabilityChangeReachableDebounceTimeout;
-@property(readonly) double reachabilityChangeUnreachableDebounceTimeout;
-@property(readonly) Class superclass;
-@property(copy) NSDate *suppressNotificationsBeforeDate; // @synthesize suppressNotificationsBeforeDate=_suppressNotificationsBeforeDate;
-@property(readonly) NSUUID *uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
-@property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

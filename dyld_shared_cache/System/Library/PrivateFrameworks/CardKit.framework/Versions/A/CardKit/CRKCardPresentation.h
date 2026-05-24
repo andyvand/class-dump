@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKCardPresentationConfiguration, CRProtocolRestrictedInvocationChain, NSString, NSViewController, _CRKCardSectionViewLoader;
-@protocol CRCard, CRKCardPresentationDelegate, CRKCardViewControllerDelegate, CRKCardViewControlling, CRKIdentifiedProviding;
+@class _CRKCardSectionViewLoader;
 
 @interface CRKCardPresentation
 {
     _CRKCardSectionViewLoader *_cardSectionViewLoader;
-    id <CRKIdentifiedProviding> _loadedCardViewControllerProvider;
-    CRProtocolRestrictedInvocationChain *_cardViewControllerDelegateChain;
-    id <CRKCardViewControllerDelegate> _externalCardViewControllerDelegate;
-    _Bool _debugModeEnabled;
-    CRKCardPresentationConfiguration *_configuration;
-    NSViewController<CRKCardViewControlling> *_cardViewController;
-    id <CRKCardPresentationDelegate> _delegate;
 }
 
 + (void);
@@ -26,7 +18,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)p;
 - (void);
 - (void);
 - (id);
@@ -43,26 +35,15 @@
 - (_Bool);
 - (id);
 - (void);
+- (id)<;
 - (id);
-- (id);
-- (id);
+- (id)_preExtractedCardType;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <CRCard> card;
-@property(readonly, nonatomic) NSViewController<CRKCardViewControlling> *cardViewController; // @synthesize cardViewController=_cardViewController;
-@property(copy, nonatomic) CRKCardPresentationConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) _Bool debugModeEnabled; // @synthesize debugModeEnabled=_debugModeEnabled;
-@property(nonatomic) __weak id <CRKCardPresentationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

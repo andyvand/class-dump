@@ -4,10 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURLSession;
+
 @protocol NSURLSessionTaskDelegate
 
 @optional
+- (void)>;
+- (void)ionInternal>"16@0:(NSURLSession *)arg1 8;
 - (void);
+- (void)exer session '%{public}@' was not found in a list of active sessions. Can't invalidate session.;
 - (void)eldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NAUAnalyticsEnvelopeTracker.m;
 @end
 

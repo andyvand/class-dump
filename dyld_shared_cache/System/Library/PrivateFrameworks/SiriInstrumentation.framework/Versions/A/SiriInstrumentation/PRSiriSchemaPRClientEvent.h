@@ -6,27 +6,19 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, PRSiriSchemaPRClientEventMetadata, PRSiriSchemaPRJointResolverCallContext, PRSiriSchemaPRRequestContext, PRSiriSchemaPRResponseGenerationRequestContext, SISchemaInstrumentationMessage;
+@class PRSiriSchemaPRClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface PRSiriSchemaPRClientEvent : SISchemaTopLevelUnionType
 {
     PRSiriSchemaPRClientEventMetadata *_eventMetadata;
-    PRSiriSchemaPRRequestContext *_requestContext;
-    PRSiriSchemaPRResponseGenerationRequestContext *_rgRequestContext;
-    PRSiriSchemaPRJointResolverCallContext *_jrCallContext;
-    _Bool _hasEventMetadata;
-    _Bool _hasRequestContext;
-    _Bool _hasRgRequestContext;
-    _Bool _hasJrCallContext;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
 + (id);
 - (unsigned long long);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -48,14 +40,14 @@
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)reDaemon/Libraries/AppStoreDaemon/Stubs/ASDDownloadQueueRequestOptions_macOS.m:18 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)r quick chat export;
 - (id);
 - (id);
 - (id)lowUpSource"b1"isFollowUpInSameContainerAsSiriRequest"b1"followUpDayOfWeek"b1"followUpHourOfDay"b1"followUpDurationSinceSiriRequestInSeconds"b1};
-- (unsigned long long)IsDiscretionary;
-- (id)ioPacketReceptionTimeInNs;
+- (unsigned long long)deleteIsDiscretionary;
+- (id)_secondPassFirstAudioPacketReceptionTimeInNs;
 - (id),N,V_isRawMediaCategoryVideoSignal;
 - (int)(ª;
 - (void)CHServerFallbackContext;
@@ -63,17 +55,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) PRSiriSchemaPRClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasJrCallContext; // @synthesize hasJrCallContext=_hasJrCallContext;
-@property(nonatomic) _Bool hasRequestContext; // @synthesize hasRequestContext=_hasRequestContext;
-@property(nonatomic) _Bool hasRgRequestContext; // @synthesize hasRgRequestContext=_hasRgRequestContext;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(retain, nonatomic) PRSiriSchemaPRJointResolverCallContext *jrCallContext; // @synthesize jrCallContext=_jrCallContext;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) PRSiriSchemaPRRequestContext *requestContext; // @synthesize requestContext=_requestContext;
-@property(retain, nonatomic) PRSiriSchemaPRResponseGenerationRequestContext *rgRequestContext; // @synthesize rgRequestContext=_rgRequestContext;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

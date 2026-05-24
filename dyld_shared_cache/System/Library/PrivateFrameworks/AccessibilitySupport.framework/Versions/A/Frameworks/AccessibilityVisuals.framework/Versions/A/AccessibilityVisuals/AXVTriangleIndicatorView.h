@@ -6,24 +6,21 @@
 
 #import <AccessibilityVisuals/AXVView.h>
 
-@class CAShapeLayer, NSColor;
+@class CAShapeLayer;
 
 __attribute__((visibility("hidden")))
 @interface AXVTriangleIndicatorView : AXVView
 {
     _Bool _enabled;
-    long long _direction;
-    NSColor *_color;
-    CAShapeLayer *__triangleLayer;
 }
 
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
+- (void);
+- (void)@;
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -34,9 +31,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setTriangleLayer:) CAShapeLayer *_triangleLayer; // @synthesize _triangleLayer=__triangleLayer;
-@property(retain, nonatomic) NSColor *color; // @synthesize color=_color;
-@property(nonatomic) long long direction; // @synthesize direction=_direction;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
 
 @end
 

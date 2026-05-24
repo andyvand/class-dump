@@ -21,14 +21,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)@y	;
 - (id);
 - (long long);
 - (long long);
 - (id);
-- (id);
-- (id);
+- (id)?E;
+- (id)|;
 
 // Remaining properties
 @property(readonly) long long statusType;

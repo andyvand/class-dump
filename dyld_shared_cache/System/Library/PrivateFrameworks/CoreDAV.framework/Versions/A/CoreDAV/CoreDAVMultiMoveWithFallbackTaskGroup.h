@@ -6,30 +6,21 @@
 
 #import <CoreDAV/CoreDAVTaskGroup.h>
 
-@class NSDictionary, NSMutableArray, NSMutableDictionary, NSMutableSet, NSSet, NSURL;
+@class NSMutableArray, NSSet;
 
 @interface CoreDAVMultiMoveWithFallbackTaskGroup : CoreDAVTaskGroup
 {
     NSSet *_sourceURLs;
-    NSURL *_destinationURL;
-    int _overwrite;
-    _Bool _useFallback;
-    NSDictionary *_sourceEntityDataPayloads;
-    NSDictionary *_sourceEntityDataContentTypes;
-    NSDictionary *_sourceEntityETags;
-    NSMutableSet *_destinationURLs;
-    NSMutableDictionary *_destinationEntityETags;
-    NSMutableArray *_outstandingSourceURLsToMove;
 }
 
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)Y;
 - (id);
 - (void);
-- (void);
+- (void)P;
 - (id);
 - (void);
 - (id);
@@ -40,22 +31,13 @@
 - (void);
 - (id);
 - (int);
-- (void);
-- (id);
+- (void)matic.subtitles.when.muted;
+- (id)_weeklyIntervalValue;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *destinationEntityETags; // @synthesize destinationEntityETags=_destinationEntityETags;
-@property(readonly, nonatomic) NSURL *destinationURL; // @synthesize destinationURL=_destinationURL;
-@property(readonly, nonatomic) NSMutableSet *destinationURLs; // @synthesize destinationURLs=_destinationURLs;
 @property(retain, nonatomic) NSMutableArray *outstandingSourceURLsToMove; // @synthesize outstandingSourceURLsToMove=_outstandingSourceURLsToMove;
-@property(readonly, nonatomic) int overwrite; // @synthesize overwrite=_overwrite;
-@property(readonly, nonatomic) NSDictionary *sourceEntityDataContentTypes; // @synthesize sourceEntityDataContentTypes=_sourceEntityDataContentTypes;
-@property(readonly, nonatomic) NSDictionary *sourceEntityDataPayloads; // @synthesize sourceEntityDataPayloads=_sourceEntityDataPayloads;
-@property(readonly, nonatomic) NSDictionary *sourceEntityETags; // @synthesize sourceEntityETags=_sourceEntityETags;
-@property(readonly, nonatomic) NSSet *sourceURLs; // @synthesize sourceURLs=_sourceURLs;
-@property(readonly, nonatomic) _Bool useFallback; // @synthesize useFallback=_useFallback;
 
 @end
 

@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(readonly, copy) NSError *error;
-@property(readonly) long long siriEndpointCertificationReason;
 @end
 

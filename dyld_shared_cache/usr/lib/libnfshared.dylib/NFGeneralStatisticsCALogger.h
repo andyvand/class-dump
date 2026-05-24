@@ -14,11 +14,11 @@
 + (void);
 + (void);
 + (void);
-+ (long long);
++ (long long);
++ (void);
 + (void);
 + (void);
-+ (void);
-+ (void);
++ (void)׈;
 + (void);
 
 @end

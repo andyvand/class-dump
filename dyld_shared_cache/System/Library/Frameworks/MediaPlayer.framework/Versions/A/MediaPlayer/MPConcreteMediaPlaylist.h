@@ -6,16 +6,13 @@
 
 #import <MediaPlayer/MPMediaPlaylist.h>
 
-@class MPMediaQuery, NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface MPConcreteMediaPlaylist : MPMediaPlaylist
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSMutableDictionary *_properties;
-    MPMediaQuery *_itemsQuery;
-    void *_clusterPlaylist;
 }
 
 + (_Bool);
@@ -23,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -44,24 +41,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
-- (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (void);
-- (id);
+- (unsigned long long)?^?^?^?^?^?^?}^{_CGLPrivateObject}^v}24;
 - (id);
 - (id);
 - (unsigned long long);
-- (void)ropertySocialPersonArtwork__MAPPING_MISSING__;
+- (void)@;
+- (_Bool)handleBackTabInTextEditorForAnnotation:(id)arg1 forAnnotationController: /* Error: Ran out of types for this method. */;
+- (void);
+- (id);
+- (id);
+- (id);
+- (unsigned long long);
+- (void)__MPModelPropertySocialPersonArtwork__MAPPING_MISSING__;
 
 @end
 

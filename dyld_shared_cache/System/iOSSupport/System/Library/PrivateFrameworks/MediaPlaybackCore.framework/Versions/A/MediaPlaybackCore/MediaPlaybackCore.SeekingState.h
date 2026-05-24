@@ -9,7 +9,6 @@
 @interface MediaPlaybackCore.SeekingState : MediaPlaybackCore.State
 {
     id startTime;
-    id metadata;
 }
 
 @end

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CDPContext;
 @protocol CDPRemoteDeviceSecretValidatorProtocol;
 
 @interface CDPRemoteDeviceSecretValidator
 {
     id <CDPRemoteDeviceSecretValidatorProtocol> _validator;
-    CDPContext *_context;
 }
 
 - (void);
@@ -18,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -27,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 
 @end

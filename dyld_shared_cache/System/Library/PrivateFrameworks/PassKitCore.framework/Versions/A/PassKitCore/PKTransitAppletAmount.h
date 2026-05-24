@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSString;
+@class NSString;
 
 @interface PKTransitAppletAmount
 {
     NSString *_balanceIdentifier;
-    NSString *_currency;
-    long long _exponent;
-    NSDecimalNumber *_amount;
 }
 
 + (_Bool);
@@ -25,16 +22,13 @@
 - (long long);
 - (void);
 - (id);
-- (void);
+- (void)allowsPowerNapScheduling;
 - (id);
-- (id)on:(id)arg1;
+- (id)paymentPassForVPANID:(id)arg1 andLoadImages:completion: /* Error: Ran out of types for this method. */;
 - (void)g;
 
 // Remaining properties
-@property(copy, nonatomic) NSDecimalNumber *amount; // @synthesize amount=_amount;
 @property(copy, nonatomic) NSString *balanceIdentifier; // @synthesize balanceIdentifier=_balanceIdentifier;
-@property(copy, nonatomic) NSString *currency; // @synthesize currency=_currency;
-@property(nonatomic) long long exponent; // @synthesize exponent=_exponent;
 
 @end
 

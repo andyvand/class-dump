@@ -7,26 +7,21 @@
 @class NSString, _INPBDataString;
 
 @protocol _INPBTimer
+- (double);
+- (void);
+- (int)@;
+- (int)t;
+- (void)(;
+- (_Bool)(;
 - (void)
 × ;
-- (NSString *):(int)arg1;
-- (void)dStoppedAnnouncementRecords:(_INPBDataString *)arg1;
-- (_Bool)ection:completionHandler: /* Error: Ran out of types for this method. */;
-- (void)NameKey;
+- (NSString *)setIntentResponse:(int)arg1;
+- (void)addStoppedAnnouncementRecords:(_INPBDataString *)arg1;
+- (_Bool)_startSendingUpdatesForIntent:toObserver:fromConnection:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)__INCodableDescriptionDisplayNameKey;
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) double duration;
-@property(nonatomic) _Bool hasDuration;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasLabel;
-@property(nonatomic) _Bool hasRemainingTime;
-@property(nonatomic) _Bool hasState;
-@property(nonatomic) _Bool hasType;
-@property(copy, nonatomic) NSString *identifier;
-@property(retain, nonatomic) _INPBDataString *label;
-@property(nonatomic) double remainingTime;
-@property(nonatomic) int state;
-@property(nonatomic) int type;
 @end
 

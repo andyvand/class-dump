@@ -9,8 +9,6 @@
 @interface SNResultsCollector
 {
     void results;
-    void errors;
-    long long completeCount;
 }
 
 + (_Bool)CounttGGGG;
@@ -25,13 +23,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)activeCallForConversationUUID:(id)arg1;
 - (void);
 - (void)ðüÿJ®üÿÈüÿ|'üÿÏüÿ;
 
 // Remaining properties
-@property(nonatomic) long long completeCount; // @synthesize completeCount;
-@property(nonatomic, copy) NSArray *errors;
 @property(nonatomic, copy) NSArray *results;
 
 @end

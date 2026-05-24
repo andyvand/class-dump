@@ -7,6 +7,9 @@
 @protocol UIKeyInput
 
 // Remaining properties
+// Error: Property attributes should begin with the type ('T') attribute, property name: B16@0:8
+// Property attributes: v16@0:8
+
 @property(readonly, nonatomic) _Bool hasText;
 @end
 

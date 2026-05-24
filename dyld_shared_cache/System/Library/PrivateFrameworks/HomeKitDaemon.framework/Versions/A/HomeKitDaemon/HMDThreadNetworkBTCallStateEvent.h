@@ -10,8 +10,8 @@ __attribute__((visibility("hidden")))
     long long _callState;
 }
 
-- (id);
-- (long long);
+- (id)"NSString",R,N,V_serviceName;
+- (long long)tedSceneImperativeCount;
 
 // Remaining properties
 @property(readonly, nonatomic) long long callState; // @synthesize callState=_callState;

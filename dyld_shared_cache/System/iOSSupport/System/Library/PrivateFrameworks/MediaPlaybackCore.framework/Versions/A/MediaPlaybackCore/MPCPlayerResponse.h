@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICMusicSubscriptionStatus, MPCMediaRemoteController, MPCPlayerPath, MPCPlayerResponseTracklist, NSArray, UIView;
-@protocol MPCPlayerResponseBuilder, MPCVideoOutput, MPCVideoView;
+@protocol MPCPlayerResponseBuilder;
 
 @interface MPCPlayerResponse
 {
     _Bool _sharedListeningSession;
-    MPCPlayerResponseTracklist *_tracklist;
-    long long _state;
-    NSArray *_participants;
-    MPCMediaRemoteController *_controller;
-    ICMusicSubscriptionStatus *_requestingUserSubscriptionStatus;
-    MPCPlayerPath *_playerPath;
-    UIView<MPCVideoView> *_videoView;
-    id <MPCVideoOutput> _videoOutput;
 }
 
 + (id);
@@ -27,12 +18,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -49,15 +40,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <MPCPlayerResponseBuilder> builder; // @dynamic builder;
-@property(readonly, nonatomic) MPCMediaRemoteController *controller; // @synthesize controller=_controller;
-@property(readonly, nonatomic) NSArray *participants; // @synthesize participants=_participants;
-@property(retain, nonatomic) MPCPlayerPath *playerPath; // @synthesize playerPath=_playerPath;
-@property(readonly, nonatomic) ICMusicSubscriptionStatus *requestingUserSubscriptionStatus; // @synthesize requestingUserSubscriptionStatus=_requestingUserSubscriptionStatus;
-@property(readonly, nonatomic, getter=isSharedListeningSession) _Bool sharedListeningSession; // @synthesize sharedListeningSession=_sharedListeningSession;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
-@property(readonly, nonatomic) MPCPlayerResponseTracklist *tracklist; // @synthesize tracklist=_tracklist;
-@property(retain, nonatomic) id <MPCVideoOutput> videoOutput; // @synthesize videoOutput=_videoOutput;
-@property(retain, nonatomic) UIView<MPCVideoView> *videoView; // @synthesize videoView=_videoView;
 
 @end
 

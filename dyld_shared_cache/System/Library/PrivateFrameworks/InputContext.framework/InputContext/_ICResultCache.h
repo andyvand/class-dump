@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
+@class NSArray;
 
 @interface _ICResultCache
 {
     NSArray *_cachedResults;
-    NSDate *_start;
-    double _ttlInSeconds;
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)_otherScopedIdentifierForCloudScopedIdentifier:(id)arg1 sharedScoped: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 

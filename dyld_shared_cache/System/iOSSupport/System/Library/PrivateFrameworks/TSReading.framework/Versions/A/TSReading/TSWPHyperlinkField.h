@@ -6,7 +6,7 @@
 
 #import <TSReading/TSWPSmartField.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface TSWPHyperlinkField : TSWPSmartField
 {
@@ -18,14 +18,14 @@
 + (_Bool);
 + (int);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-- (id);
-- (id);
-- (void);
++ (id);
+- (id)PerformanceMetrics"16@"NSError"24;
+- (id)nse"8@"ICURLAggregatedPerformanceMetrics"16@"NSError"24;
+- (void)ack;
 - (id);
 - (void);
 - (id);
@@ -40,10 +40,9 @@
 - (id);
 - (id);
 - (int);
-- (int)ygonWithScalar:naturalSize: /* Error: Ran out of types for this method. */;
+- (int)regularPolygonWithScalar:naturalSize: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *displayText;
 @property(retain, nonatomic, setter=setURL:) NSURL *url;
 
 @end

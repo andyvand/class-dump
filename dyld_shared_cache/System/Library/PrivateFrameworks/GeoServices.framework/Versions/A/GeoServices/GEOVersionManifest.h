@@ -9,11 +9,10 @@
 @interface GEOVersionManifest
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_serviceVersions;
 }
 
-+ (Class);
-+ (_Bool)ceResponseIndex:(id)arg1;
++ (Class)numberWithBool: /* Error: Ran out of types for this method. */;
++ (_Bool)setOccurrenceResponseIndex:(id)arg1;
 - (void);
 - (id);
 - (void);
@@ -21,26 +20,25 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)setIsTimerPlayingOnAccessory:(id)arg1 isTimerPlaying: /* Error: Ran out of types for this method. */;
+- (id)set(SmartSiriVolume) SSVCADeviceSimpleASVOffMinTTSVolume];
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)16;
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id)
 × ;
 - (id)ID: /* Error: Ran out of types for this method. */;
 - (unsigned long long)GeoCodecsDaVinciMaterialMap}^SSSSSC},R,N;
 - (id)o",&,N,V_waypointInfo;
-- (id)ne_offset_from_gmt_in_hours;
+- (id)timezone_offset_from_gmt_in_hours;
 - (void)ÿÿÿÿÿÿÿÿ;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *serviceVersions;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

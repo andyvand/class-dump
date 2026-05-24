@@ -7,18 +7,16 @@
 #import <AppleMediaServices/AMSTask.h>
 
 @class ACAccount;
-@protocol AMSBagProtocol;
 
 @interface AMSSyncAccountFlagsTask : AMSTask
 {
     ACAccount *_account;
-    id <AMSBagProtocol> _bag;
 }
 
+- (id);
 - (id);
 - (id);
-- (id);
-- (void)t:(id)arg1 bag: /* Error: Ran out of types for this method. */;
+- (void)_promiseOfListOfStoresInNamespaceList:(id)arg1 forAccount:bag: /* Error: Ran out of types for this method. */;
 - (void)¿zâÅM ù1®ñôô=&áØûÂyóÓ×´Ë¼qM;[ªw?Ò7[¢¸N]È¥fidÎ«v6ñ¨}u(ð*-Õuký11ÖuËÀNgOÒø¿ÿûrh8©ÇpîVFC£Ë]ÿlù~Wz¿/Í±=ëÛuñöé/.L¸[ðWFè7ñásìl|
 õ<%$UÕeò¸}wéy)s?0ü¡E|C¾Á}«qÛX	èÇh]¦w«]+gæí\p÷)¸Ö £Ê¯³P¿VóG²'r^^p)A3	" íÎI¨ÀjÖßíéðA:ëû?8>o"é; }X¢æLôî§úpJüY<´M0±3.:5h1ù>üãIæ=+oAê#â~@>ãÔüð!ìSÀÀ})üï?ÅñßÇÐ·/=Ù²P²á3©$#ÅíÌæ¶­ úqIhRÐºÙ±¡¨õì<V5]ìçK3V0·ÄnkÏ÷ÚôH+C²¯{Sv`êÄçÏ3.wFpSk·Ï²Ü +toS;^8md4N-U¸¢Á	ñêxRqYI!@*µ®ÔþÝõNx[sÿ'
 $³®Ú´×¿cKnH
@@ -35,7 +33,6 @@ wÕÉ¬kÉVÅ&âáäÃ{Dì6(YnTÅïËKé hìG«Y(ûÑK¹z
 
 // Remaining properties
 @property(retain) ACAccount *account; // @synthesize account=_account;
-@property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
 
 @end
 

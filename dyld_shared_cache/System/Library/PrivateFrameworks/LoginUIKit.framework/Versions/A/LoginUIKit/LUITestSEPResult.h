@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface LUITestSEPResult
 {
     NSString *_uuid;
-    NSDate *_backoffEndDate;
-    long long _failureCount;
 }
 
 - (void);
@@ -27,10 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSDate *backoffEndDate; // @synthesize backoffEndDate=_backoffEndDate;
-@property(readonly) double backoffSeconds;
-@property(readonly) long long failedAttempts;
-@property long long failureCount; // @synthesize failureCount=_failureCount;
 @property(retain) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end

@@ -8,12 +8,6 @@
 {
     id _donationController;
     id _scoreController;
-    id _onboardingController;
-    id _stateController;
-    id _debugController;
-    id _dismissHandler;
-    id _lastAction;
-    id _$observationRegistrar;
 }
 
 @end

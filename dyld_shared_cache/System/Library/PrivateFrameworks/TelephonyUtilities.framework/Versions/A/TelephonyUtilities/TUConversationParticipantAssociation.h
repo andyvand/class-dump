@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface TUConversationParticipantAssociation
 {
     unsigned long long _identifier;
-    NSString *_avcIdentifier;
 }
 
 + (id);
@@ -21,7 +18,7 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -29,13 +26,12 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
+- (void)`';
 - (id);
-- (unsigned long long);
-- (void)etProviderDelegate:completionHandler: /* Error: Ran out of types for this method. */;
+- (unsigned long long)Џ;
+- (void)setProviderDelegate:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *avcIdentifier; // @synthesize avcIdentifier=_avcIdentifier;
 @property(nonatomic) unsigned long long identifier; // @synthesize identifier=_identifier;
 
 @end

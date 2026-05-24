@@ -7,21 +7,19 @@
 @interface KTQueryOptions
 {
     unsigned long long _flags;
-    double _timeout;
 }
 
 + (_Bool);
 - (void);
+- (id)getSignatureString:(id)arg1 filenameSummary:forDictionaryRepresentation: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
+- (void)ation"16@"NSArray"24;
 - (unsigned long long);
 - (void);
 - (double);
 
 // Remaining properties
 @property unsigned long long flags; // @synthesize flags=_flags;
-@property double timeout; // @synthesize timeout=_timeout;
 
 @end
 

@@ -4,54 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NLTagger, NSLocale, NSObject, NSString, TITransientLexiconManager;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface TISmartSelector
 {
     struct unique_ptr<KB::StaticDictionary, std::default_delete<KB::StaticDictionary>> _staticDictionary;
-    struct _LXLexicon *_contactDictionary;
-    CDUnknownBlockType _contactObserver;
-    unsigned long long _options;
-    NSLocale *_locale;
-    TITransientLexiconManager *_transientLexiconManager;
-    NLTagger *_namedEntityTagger;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _dataChangedHandler;
 }
 
 - (struct _NSRange);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)r=}16;
 - (void);
 - (struct _NSRange);
-- (void);
-- (id);
-- (id);
+- (void)g;
+- (id));
+- (id)AND e.eventSecondsFromEpoch > :threshold /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (struct _NSRange);
+- (struct _NSRange)mSectionInsets;
 - (id);
-- (id);
-- (id);
+- (id)setSelectedTokenPercentage: /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void)ckingKeyForStatistic:(id)arg1;
+- (void)usageTrackingKeyForStatistic:(id)arg1;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType dataChangedHandler; // @synthesize dataChangedHandler=_dataChangedHandler;
-@property(retain) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(retain) NSString *language;
-@property(retain) NSLocale *locale; // @synthesize locale=_locale;
-@property(retain) NLTagger *namedEntityTagger; // @synthesize namedEntityTagger=_namedEntityTagger;
 @property unsigned long long options; // @synthesize options=_options;
-@property(retain) TITransientLexiconManager *transientLexiconManager; // @synthesize transientLexiconManager=_transientLexiconManager;
 
 @end
 

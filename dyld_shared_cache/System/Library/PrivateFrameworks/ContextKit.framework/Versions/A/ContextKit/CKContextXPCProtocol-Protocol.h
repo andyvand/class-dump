@@ -5,5 +5,14 @@
 //
 
 @protocol CKContextXPCProtocol
+- (void)pingKeyCacheCount=%lld, artist=%zu, album=%zu, albumArtist=%zu, composer=%zu, genre=%zu;
+- (void)ring cached collection data groupingKeyCacheCount=%lld, artist=%zu, album=%zu, albumArtist=%zu, composer=%zu, genre=%zu;
+- (void)not find album to pin;
+- (void)e playlist;
+- (void)te - ignoring;
+- (void)ith pid %lld;
+- (void)_curveHullColor;
+- (void)or MPModelPropertyRadioStationEditorNotes;
+- (void)ind"8;
 @end
 

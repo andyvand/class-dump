@@ -4,69 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCStatisticsCollector, NSObject, VCConnectionManager, VCTransportStreamGFT;
-@protocol OS_dispatch_queue, OS_dispatch_source, VCSessionStatsControllerDelegate;
+@protocol VCSessionStatsControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface VCSessionStatsController
 {
     id <VCSessionStatsControllerDelegate> _weakDelegate;
-    AVCStatisticsCollector *_uplinkStatisticsCollector;
-    AVCStatisticsCollector *_downlinkStatisticsCollector;
-    struct {
-        double responseTime;
-        unsigned char linkID;
-        unsigned short statsIdentifier;
-        unsigned short remoteTimestamp;
-        unsigned short serverPacketInterval;
-        unsigned short uplinkBandwidthSample;
-        unsigned short totalRemoteMediaPacketSent;
-        unsigned short totalRemoteMediaPacketReceived;
-    } _remoteStats;
-    NSObject<OS_dispatch_queue> *_statsRequestQueue;
-    NSObject<OS_dispatch_source> *_localSessionStatsTimemoutSource;
-    unsigned int _statsRequestCounter;
-    VCConnectionManager *_connectionManager;
-    VCTransportStreamGFT *_transportStream;
-    double _lastTriggerRateControlTime;
-    id _reportingAgentWeak;
-    unsigned int _uplinkServerStatsByteUsed;
-    unsigned int _downlinkServerStatsByteUsed;
-    struct tagVCRealTimeThread *_statsReceiveThread;
-    unsigned short _streamID;
-    unsigned short _statsArrayIndex;
-    _Bool _enableStatsReceiveThread;
-    unsigned int _previousTotalPacketSent;
-    unsigned int _previousTotalPacketReceived;
-    unsigned int _uplinkMostRecentSendTimestamp;
-    unsigned int _downlinkMostRecentSendTimestamp;
-    _Bool _didReceiveServerStatsResponse;
-    _Bool _enableStatsReporting;
-    double _statsReportingInterval;
-    double _lastStatsReportTime;
-    int _lastProcessedBytesSent;
-    int _bytesSentToReport;
-    int _maxSentRate;
-    int _minSentRate;
-    int _lastProcessedBytesReceived;
-    int _bytesReceivedToReport;
-    int _maxReceivedRate;
-    int _minReceivedRate;
-    double _lastUpdateTime;
-    double _lastTimeReceiveStatsFailed;
-    unsigned int _statsNoResponseCounter;
-    unsigned int _statsResponseCounter;
-    unsigned int _numStatsDroppedDueToStatsID;
-    unsigned int _numStatsDroppedDueToLinkID;
-    unsigned int _numStatsDroppedDueToTooLate;
-    unsigned int _numStatsProcessed;
-    unsigned int _numStatsTriggeredForUplink;
-    unsigned int _numStatsTriggeredForDownlink;
-    double _averageInterCallbackDuration;
-    double _lastPacketReceiveCallbackTime;
-    double _totalStatsTransportStreamQueueTime;
-    double _maxStatsTransportStreamQueueTime;
-    double _lastHealthPrintTime;
 }
 
 - (unsigned short);
@@ -75,10 +18,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void);
+- (void)`;
 - (void);
 - (id);
 - (void);
@@ -88,9 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool didReceiveServerStatsResponse; // @synthesize didReceiveServerStatsResponse=_didReceiveServerStatsResponse;
 @property(readonly) id reportingAgent;
-@property(nonatomic) double statsReportingInterval; // @synthesize statsReportingInterval=_statsReportingInterval;
 
 @end
 

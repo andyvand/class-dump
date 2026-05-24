@@ -7,11 +7,9 @@
 @interface SwiftUI.SwiftUIMenuItem
 {
     id onHover;
-    id platformItemAction;
-    id isPickerOption;
 }
 
-- (id);
+- (id)seed is with wrong length!;
 - (id);
 - (void)MatchedTransitionSourceConfiguration;
 

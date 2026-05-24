@@ -5,5 +5,6 @@
 //
 
 @protocol CUByteCodable
++ (id);
 @end
 

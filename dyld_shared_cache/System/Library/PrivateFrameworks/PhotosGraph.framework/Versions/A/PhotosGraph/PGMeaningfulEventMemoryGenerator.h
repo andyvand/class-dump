@@ -6,43 +6,33 @@
 
 #import <PhotosGraph/PGFeaturedMemoryGenerator.h>
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface PGMeaningfulEventMemoryGenerator : PGFeaturedMemoryGenerator
 {
     _Bool _skipsCollectionTitle;
-    NSDate *_lowerBoundLocalDate;
-    unsigned long long _eventType;
-    unsigned long long _meaning;
-    NSString *_meaningfulEventUUID;
-    unsigned long long _memoryCategory;
 }
 
 + (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (unsigned long long)er"24;
+- (id)@16@24;
+- (id)showDialogWithCompletionBlock: /* Error: Ran out of types for this method. */;
+- (id)screenRightOfScreen:(id)arg1 closestToPoint:(id)arg2;
+- (id)ElementController",&,N,S_setFocusedElementController:(id)arg1 ,V__focusedElementController;
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
 - (unsigned long long);
 - (void);
-- (void)ding;
+- (void)snowboarding;
 
 // Remaining properties
-@property(nonatomic) unsigned long long eventType; // @synthesize eventType=_eventType;
 @property(retain, nonatomic) NSDate *lowerBoundLocalDate; // @synthesize lowerBoundLocalDate=_lowerBoundLocalDate;
-@property(nonatomic) unsigned long long meaning; // @synthesize meaning=_meaning;
-@property(retain, nonatomic) NSString *meaningfulEventUUID; // @synthesize meaningfulEventUUID=_meaningfulEventUUID;
-@property(nonatomic) unsigned long long memoryCategory; // @synthesize memoryCategory=_memoryCategory;
-@property(nonatomic) _Bool skipsCollectionTitle; // @synthesize skipsCollectionTitle=_skipsCollectionTitle;
 
 @end
 

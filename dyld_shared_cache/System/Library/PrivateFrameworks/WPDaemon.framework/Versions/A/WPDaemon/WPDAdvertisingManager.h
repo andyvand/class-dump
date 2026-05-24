@@ -6,31 +6,11 @@
 
 #import <WPDaemon/WPDManager.h>
 
-@class AdvMetrics, CBPeripheralManager, CBStackBLEAdvertiserBTStack, NSMutableDictionary, NSMutableIndexSet, NSMutableSet, NSString, WPAdvertisingRequestsQueue, WPDAdvertisingData;
+@class CBStackBLEAdvertiserBTStack, WPAdvertisingRequestsQueue;
 
 @interface WPDAdvertisingManager : WPDManager
 {
     CBStackBLEAdvertiserBTStack *_advStackAdaptor[3];
-    NSMutableDictionary *_clientStackAdvertisers;
-    _Bool _heySiriAdvEnabled;
-    _Bool _allowCompoundAdvertisements;
-    WPAdvertisingRequestsQueue *_advertisingRequests;
-    NSMutableDictionary *_clientAdvertisingRequests;
-    NSMutableIndexSet *_currentAdvertisers;
-    NSMutableSet *_clientsToNotifyOnAddressChange;
-    NSMutableDictionary *_publishedServices;
-    CBPeripheralManager *_connectablePeripheralManager;
-    CBPeripheralManager *_nonConnectablePeripheralManager;
-    CBPeripheralManager *_nonConnectableSecondaryPeripheralManager;
-    WPDAdvertisingData *_currentConnectableAdvertisingData;
-    WPDAdvertisingData *_currentNonConnectableAdvertisingData;
-    WPDAdvertisingData *_currentNonConnectableSecondaryAdvertisingData;
-    NSMutableDictionary *_preallocatedServices;
-    unsigned long long _nonConnectableAdvDropCount;
-    unsigned long long _nonConnectableAdvTotalCount;
-    unsigned long long _connectableAdvDropCount;
-    unsigned long long _connectableAdvTotalCount;
-    AdvMetrics *_advMetrics;
 }
 
 - (id);
@@ -45,7 +25,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -72,7 +52,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)]@�;
 - (id);
 - (int);
 - (id);
@@ -84,16 +64,16 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)b	;
 - (unsigned long long);
 - (void);
 - (id);
+- (void)t"24@"IDSGroupSessionParticipantUpdate"32;
+- (_Bool)canMarkPurgeableWithCKSyncState:(id)arg1 transferState:(id)arg2 isAudio:isSticker:isGroupPhoto: /* Error: Ran out of types for this method. */;
 - (void);
+- (id);
+- (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
 - (id);
 - (void);
 - (void);
@@ -102,12 +82,12 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void)public}@;
 - (void);
 - (id);
 - (void);
@@ -120,32 +100,7 @@
 × ;
 
 // Remaining properties
-@property(retain) AdvMetrics *advMetrics; // @synthesize advMetrics=_advMetrics;
 @property(retain) WPAdvertisingRequestsQueue *advertisingRequests; // @synthesize advertisingRequests=_advertisingRequests;
-@property _Bool allowCompoundAdvertisements; // @synthesize allowCompoundAdvertisements=_allowCompoundAdvertisements;
-@property(retain) NSMutableDictionary *clientAdvertisingRequests; // @synthesize clientAdvertisingRequests=_clientAdvertisingRequests;
-@property(retain) NSMutableSet *clientsToNotifyOnAddressChange; // @synthesize clientsToNotifyOnAddressChange=_clientsToNotifyOnAddressChange;
-@property(nonatomic) unsigned long long connectableAdvDropCount; // @synthesize connectableAdvDropCount=_connectableAdvDropCount;
-@property(nonatomic) unsigned long long connectableAdvTotalCount; // @synthesize connectableAdvTotalCount=_connectableAdvTotalCount;
-@property(retain, nonatomic) CBPeripheralManager *connectablePeripheralManager; // @synthesize connectablePeripheralManager=_connectablePeripheralManager;
-@property(retain) NSMutableIndexSet *currentAdvertisers; // @synthesize currentAdvertisers=_currentAdvertisers;
-@property(retain, nonatomic) WPDAdvertisingData *currentConnectableAdvertisingData; // @synthesize currentConnectableAdvertisingData=_currentConnectableAdvertisingData;
-@property(retain, nonatomic) WPDAdvertisingData *currentNonConnectableAdvertisingData; // @synthesize currentNonConnectableAdvertisingData=_currentNonConnectableAdvertisingData;
-@property(retain, nonatomic) WPDAdvertisingData *currentNonConnectableSecondaryAdvertisingData; // @synthesize currentNonConnectableSecondaryAdvertisingData=_currentNonConnectableSecondaryAdvertisingData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isRanging;
-@property(nonatomic) unsigned long long nonConnectableAdvDropCount; // @synthesize nonConnectableAdvDropCount=_nonConnectableAdvDropCount;
-@property(nonatomic) unsigned long long nonConnectableAdvTotalCount; // @synthesize nonConnectableAdvTotalCount=_nonConnectableAdvTotalCount;
-@property(retain, nonatomic) CBPeripheralManager *nonConnectablePeripheralManager; // @synthesize nonConnectablePeripheralManager=_nonConnectablePeripheralManager;
-@property(retain, nonatomic) CBPeripheralManager *nonConnectableSecondaryPeripheralManager; // @synthesize nonConnectableSecondaryPeripheralManager=_nonConnectableSecondaryPeripheralManager;
-@property(retain) NSMutableDictionary *preallocatedServices; // @synthesize preallocatedServices=_preallocatedServices;
-@property(retain) NSMutableDictionary *publishedServices; // @synthesize publishedServices=_publishedServices;
-@property(readonly) Class superclass;
 
 @end
 

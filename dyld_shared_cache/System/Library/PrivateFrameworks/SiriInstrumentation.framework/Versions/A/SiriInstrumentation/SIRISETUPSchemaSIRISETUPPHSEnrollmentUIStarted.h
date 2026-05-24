@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaISOLocale;
-
 @interface SIRISETUPSchemaSIRISETUPPHSEnrollmentUIStarted : SISchemaInstrumentationMessage
 {
     int _enrollmentMode;
-    int _voiceTriggerType;
-    SISchemaISOLocale *_locale;
-    struct {
-        unsigned int enrollmentMode:1;
-        unsigned int voiceTriggerType:1;
-    } _has;
-    _Bool _hasLocale;
 }
 
 - (int);
@@ -25,36 +16,30 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)lic}@] Failed to post due to error:%{public}@ /* Error: Ran out of types for this method. */;
+- (_Bool)CNUIVCardSharingTask;
 - (void);
-- (_Bool);
+- (_Bool)ndication_ranges, m.was_delivered_quietly, m.did_notify_recipient, m.date_retracted, m.date_edited, m.date_recovered, m.was_detonated, m.part_count, m.is_stewie, m.is_sos, m.is_critical, m.bia_reference_id, m.is_kt_verified, m.fallback_hash, m.associated_message_emoji, m.is_pending_satellite_send, m.needs_relay, m.schedule_type, m.schedule_state, m.sent_or_received_off_grid, m.is_time_sensitive, m.ck_chat_id, m.index_state FROM message m JOIN chat_message_join AS cmj ON m.ROWID = cmj.message_id WHERE m.guid = ?;;
+- (id)nil when attempting to update a message;
 - (id);
 - (id);
-- (id);
-- (id)s;
+- (id)clearTupleInteractionsCandidatesShapes;
 - (id)ountForEntityInUsingApp7Days;
-- (void)alAppCount10Min;
+- (void)entityPartialAppCount10Min;
 
 // Remaining properties
 @property(nonatomic) int enrollmentMode; // @synthesize enrollmentMode=_enrollmentMode;
-@property(nonatomic) _Bool hasEnrollmentMode;
-@property(nonatomic) _Bool hasLocale; // @synthesize hasLocale=_hasLocale;
-@property(nonatomic) _Bool hasVoiceTriggerType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaISOLocale *locale; // @synthesize locale=_locale;
-@property(nonatomic) int voiceTriggerType; // @synthesize voiceTriggerType=_voiceTriggerType;
 
 @end
 

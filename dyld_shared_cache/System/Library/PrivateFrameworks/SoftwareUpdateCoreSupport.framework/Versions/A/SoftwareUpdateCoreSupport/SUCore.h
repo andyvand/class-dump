@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface SUCore
 {
     NSString *_baseDomain;
-    NSString *_filesystemBaseDir;
-    NSObject<OS_dispatch_queue> *_completionQueue;
-    NSObject<OS_dispatch_queue> *_delegateCallbackQueue;
-    NSObject<OS_dispatch_queue> *_waitedOperationQueue;
-    NSObject<OS_dispatch_queue> *_miscellaneousTaksQueue;
 }
 
 + (id);
@@ -40,7 +34,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -55,11 +49,6 @@
 
 // Remaining properties
 @property(retain) NSString *baseDomain; // @synthesize baseDomain=_baseDomain;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *completionQueue; // @synthesize completionQueue=_completionQueue;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateCallbackQueue; // @synthesize delegateCallbackQueue=_delegateCallbackQueue;
-@property(retain) NSString *filesystemBaseDir; // @synthesize filesystemBaseDir=_filesystemBaseDir;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *miscellaneousTaksQueue; // @synthesize miscellaneousTaksQueue=_miscellaneousTaksQueue;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *waitedOperationQueue; // @synthesize waitedOperationQueue=_waitedOperationQueue;
 
 @end
 

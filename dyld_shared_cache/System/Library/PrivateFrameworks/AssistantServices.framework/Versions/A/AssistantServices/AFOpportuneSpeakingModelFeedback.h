@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary;
+@class NSDate;
 
 @interface AFOpportuneSpeakingModelFeedback
 {
     NSDate *_lastNegativeFeedback;
-    NSDictionary *_negativeFeedbackByContact;
 }
 
 + (_Bool);
@@ -19,11 +18,10 @@
 - (id);
 - (id);
 - (void);
-- (void)ent;
+- (void)content;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *lastNegativeFeedback; // @synthesize lastNegativeFeedback=_lastNegativeFeedback;
-@property(retain, nonatomic) NSDictionary *negativeFeedbackByContact; // @synthesize negativeFeedbackByContact=_negativeFeedbackByContact;
 
 @end
 

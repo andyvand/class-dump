@@ -5,9 +5,11 @@
 //
 
 @protocol PLSidecar
-- (id)ithPerson:relationType:relationTypeConfidence: /* Error: Ran out of types for this method. */;
-- (id)resholdRatio;
-- (id)ryKey:withDate: /* Error: Ran out of types for this method. */;
+- (id)J
+;
+- (in)initWithPerson:relationType:relationTypeConfidence: /* Error: Ran out of types for this method. */;
+- (id)cloudResourceSmallLibraryThresholdRatio;
+- (unsigned int :(null))addIsBeforeDateQueryKey:withDate: /* Error: Ran out of types for this method. */;
 - (id)°^¸^;
 - (id)$;
 - (id)it has the same fingerprint as another resource on this asset. Skipped resource:%@, asset:%@ /* Error: Ran out of types for this method. */;

@@ -4,45 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXETrackingGestureEvent, AXFThrottler, NSArray, NSString;
-@protocol AXETrackingTouchInputDeviceDelegate;
-
 @interface AXETrackingTrackpadDevice
 {
     _Bool _swallowAllGestureEvents;
-    _Bool _ignorePalmEevnts;
-    _Bool __eventCaptureStarted;
-    struct os_unfair_lock_s __lock;
-    NSArray *__availableTrackpadInfos;
-    id <AXETrackingTouchInputDeviceDelegate> _delegate;
-    AXFThrottler *__throttler;
-    AXETrackingGestureEvent *__previousGestureEvent;
 }
 
 - (_Bool);
 - (void);
+- (void)%@q@+;
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)h;
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)I;
 - (_Bool);
 - (id);
 - (id);
-- (struct __CGEvent *);
+- (struct __CGEvent *);
 - (struct __CGEvent *);
 - (void);
 - (void);
@@ -53,21 +43,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic, getter=_availableTrackpadInfos, setter=_setAvailableTrackpadInfos:) NSArray *_availableTrackpadInfos; // @synthesize _availableTrackpadInfos=__availableTrackpadInfos;
 @property(nonatomic) _Bool _eventCaptureStarted; // @synthesize _eventCaptureStarted=__eventCaptureStarted;
-@property(nonatomic) struct os_unfair_lock_s _lock; // @synthesize _lock=__lock;
-@property(retain, nonatomic) AXETrackingGestureEvent *_previousGestureEvent; // @synthesize _previousGestureEvent=__previousGestureEvent;
-@property(retain, nonatomic) AXFThrottler *_throttler; // @synthesize _throttler=__throttler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AXETrackingTouchInputDeviceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool ignorePalmEevnts; // @synthesize ignorePalmEevnts=_ignorePalmEevnts;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool swallowAllGestureEvents; // @synthesize swallowAllGestureEvents=_swallowAllGestureEvents;
 
 @end
 

@@ -5,6 +5,6 @@
 //
 
 @protocol PLXPCPhotoLibraryStorePolicy
-- (id)son merge:%@ /* Error: Ran out of types for this method. */;
+- (_Complex)son merge:%@ /* Error: Ran out of types for this method. */;
 @end
 

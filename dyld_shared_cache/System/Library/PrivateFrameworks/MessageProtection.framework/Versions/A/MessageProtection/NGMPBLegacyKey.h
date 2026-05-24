@@ -10,19 +10,18 @@ __attribute__((visibility("hidden")))
 @interface NGMPBLegacyKey
 {
     NSData *_encryptionKey;
-    NSData *_signingKey;
 }
 
 - (id);
-- (void);
+- (void)UsoTask_delete_common_HealthLog;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void)__kIMDMessageServicesScheduledMessagesDictionaryKey;
+- (id)oMigrateAttachments",1);
 - (id);
 - (void);
 - (void);
@@ -30,7 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSData *encryptionKey; // @synthesize encryptionKey=_encryptionKey;
-@property(retain, nonatomic) NSData *signingKey; // @synthesize signingKey=_signingKey;
 
 @end
 

@@ -4,68 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString, RTPOIHarvestParameters;
-
 @interface RTMapItemProviderBluePOIParameters
 {
     _Bool _earlyStop;
-    _Bool _performServerWithLocal;
-    double _baseDuration;
-    NSString *_injectedPlistPath;
-    double _aoiDistanceThreshold;
-    double _poiDistanceThreshold;
-    double _aoiConfidencePassThroughThreshold;
-    double _aoiConfidenceConsiderThreshold;
-    double _poiConfidencePassThroughThreshold;
-    double _poiConfidenceConsiderThreshold;
-    unsigned long long _maxNumberOfQueries;
-    double _noFingerprintMinVisitDuration;
-    double _minVisitLength;
-    double _tileSize;
-    RTPOIHarvestParameters *_harvestParameters;
-    NSSet *_aoiCategoriesToSuppressContainingPOIs;
 }
 
 - (double);
 - (double);
 - (id);
 - (double);
+- (id)e:%zu /* Error: Ran out of types for this method. */;
+- (double)ceTransferReceiver:cannot get system attributes (%d) for path %@ /* Error: Ran out of types for this method. */;
+- (id)BatchState;
 - (id);
-- (double);
-- (id);
-- (id);
-- (id);
-- (double);
-- (double);
 - (id);
 - (double);
 - (double);
+- (id)tControllerDelegate>",N,V_delegate;
+- (double);
+- (double);
 - (id);
 - (double);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool)ance:distanceUnc:tripLocations:routeRoads: /* Error: Ran out of types for this method. */;
-- (double)gestDwellTimeFromLocationsOfInterest:dwellTimePercentageThreshold: /* Error: Ran out of types for this method. */;
+- (double)_selectLocationOfInterestWithLargestDwellTimeFromLocationsOfInterest:dwellTimePercentageThreshold: /* Error: Ran out of types for this method. */;
 - (void)%@, predictionEventMetrics, %{sensitive}@;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *aoiCategoriesToSuppressContainingPOIs; // @synthesize aoiCategoriesToSuppressContainingPOIs=_aoiCategoriesToSuppressContainingPOIs;
-@property(readonly, nonatomic) double aoiConfidenceConsiderThreshold; // @synthesize aoiConfidenceConsiderThreshold=_aoiConfidenceConsiderThreshold;
-@property(readonly, nonatomic) double aoiConfidencePassThroughThreshold; // @synthesize aoiConfidencePassThroughThreshold=_aoiConfidencePassThroughThreshold;
-@property(readonly, nonatomic) double aoiDistanceThreshold; // @synthesize aoiDistanceThreshold=_aoiDistanceThreshold;
 @property(readonly, nonatomic) double baseDuration; // @synthesize baseDuration=_baseDuration;
-@property(readonly, nonatomic) _Bool earlyStop; // @synthesize earlyStop=_earlyStop;
-@property(readonly, nonatomic) RTPOIHarvestParameters *harvestParameters; // @synthesize harvestParameters=_harvestParameters;
-@property(readonly, nonatomic) NSString *injectedPlistPath; // @synthesize injectedPlistPath=_injectedPlistPath;
-@property(readonly, nonatomic) unsigned long long maxNumberOfQueries; // @synthesize maxNumberOfQueries=_maxNumberOfQueries;
-@property(readonly, nonatomic) double minVisitLength; // @synthesize minVisitLength=_minVisitLength;
-@property(readonly, nonatomic) double noFingerprintMinVisitDuration; // @synthesize noFingerprintMinVisitDuration=_noFingerprintMinVisitDuration;
-@property(readonly, nonatomic) _Bool performServerWithLocal; // @synthesize performServerWithLocal=_performServerWithLocal;
-@property(readonly, nonatomic) double poiConfidenceConsiderThreshold; // @synthesize poiConfidenceConsiderThreshold=_poiConfidenceConsiderThreshold;
-@property(readonly, nonatomic) double poiConfidencePassThroughThreshold; // @synthesize poiConfidencePassThroughThreshold=_poiConfidencePassThroughThreshold;
-@property(readonly, nonatomic) double poiDistanceThreshold; // @synthesize poiDistanceThreshold=_poiDistanceThreshold;
-@property(readonly, nonatomic) double tileSize; // @synthesize tileSize=_tileSize;
 
 @end
 

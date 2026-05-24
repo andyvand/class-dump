@@ -4,40 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet, NSString, NSUUID, SPBeaconRole, SPDiscoveredAccessoryProductInformation, SPHandle, SPLostModeInfo;
+@class NSString;
 
 @interface SPApplicationBeacon
 {
     _Bool _isAppleAudioAccessory;
-    _Bool _isZeus;
-    _Bool _canBeLeashedByHost;
-    _Bool _connected;
-    NSString *_name;
-    NSUUID *_identifier;
-    NSUUID *_groupIdentifier;
-    NSString *_type;
-    long long _batteryLevel;
-    NSUUID *_productUUID;
-    NSString *_model;
-    long long _partIdentifier;
-    SPLostModeInfo *_lostModeInfo;
-    NSDictionary *_taskInformation;
-    SPHandle *_owner;
-    SPBeaconRole *_role;
-    NSString *_serialNumber;
-    NSString *_systemVersion;
-    NSSet *_safeLocations;
-    SPDiscoveredAccessoryProductInformation *_accessoryProductInfo;
-    long long _vendorId;
-    long long _productId;
-    NSString *_discoveryId;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -68,8 +46,8 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)ust be the first time we're creating a cache;
+- (id);
 - (void);
 - (id);
 - (id);
@@ -83,29 +61,7 @@
 - (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) SPDiscoveredAccessoryProductInformation *accessoryProductInfo; // @synthesize accessoryProductInfo=_accessoryProductInfo;
-@property(nonatomic) long long batteryLevel; // @synthesize batteryLevel=_batteryLevel;
-@property(nonatomic) _Bool canBeLeashedByHost; // @synthesize canBeLeashedByHost=_canBeLeashedByHost;
-@property(nonatomic) _Bool connected; // @synthesize connected=_connected;
-@property(nonatomic) NSString *discoveryId; // @synthesize discoveryId=_discoveryId;
-@property(copy, nonatomic) NSUUID *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
-@property(copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isAppleAudioAccessory; // @synthesize isAppleAudioAccessory=_isAppleAudioAccessory;
-@property(nonatomic) _Bool isZeus; // @synthesize isZeus=_isZeus;
-@property(copy, nonatomic) SPLostModeInfo *lostModeInfo; // @synthesize lostModeInfo=_lostModeInfo;
-@property(copy, nonatomic) NSString *model; // @synthesize model=_model;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) SPHandle *owner; // @synthesize owner=_owner;
-@property(nonatomic) long long partIdentifier; // @synthesize partIdentifier=_partIdentifier;
-@property(nonatomic) long long productId; // @synthesize productId=_productId;
-@property(copy, nonatomic) NSUUID *productUUID; // @synthesize productUUID=_productUUID;
-@property(copy, nonatomic) SPBeaconRole *role; // @synthesize role=_role;
-@property(copy, nonatomic) NSSet *safeLocations; // @synthesize safeLocations=_safeLocations;
-@property(copy, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(copy, nonatomic) NSString *systemVersion; // @synthesize systemVersion=_systemVersion;
-@property(copy, nonatomic) NSDictionary *taskInformation; // @synthesize taskInformation=_taskInformation;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
-@property(nonatomic) long long vendorId; // @synthesize vendorId=_vendorId;
 
 @end
 

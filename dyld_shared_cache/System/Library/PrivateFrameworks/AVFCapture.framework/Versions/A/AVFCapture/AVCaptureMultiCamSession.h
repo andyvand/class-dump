@@ -9,28 +9,27 @@
 @interface AVCaptureMultiCamSession : AVCaptureSession
 {
     float _hardwareCost;
-    float _systemPressureCost;
 }
 
 + (_Bool);
-- (float);
-- (void);
-- (void);
+- (float)gTagData;
+- (void),&,N,V_session;
+- (void)%@ 
+;
+- (_Bool)artistId;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)description;
 - (id);
-- (void);
+- (void)b;
 - (void);
 - (float);
 
 // Remaining properties
 @property(readonly, nonatomic) float hardwareCost;
-@property(readonly, nonatomic) float systemPressureCost;
 
 @end
 

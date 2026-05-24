@@ -7,6 +7,8 @@
 @protocol NSGestureRecognizerDelegate
 
 @optional
+- (_Bool)evronButton";
+- (_Bool)updateTargetAlphaForVisibleChatItems;
 - (_Bool)Ð1Â0@ù
 × ;
 @end

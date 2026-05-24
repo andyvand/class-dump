@@ -6,39 +6,20 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSString;
-
 @interface UIKit.ScrollEdgeEffectView : UIView
 {
     id backgroundCapture;
-    id pocketMask;
-    id pocketMaskedBlur;
-    id luminanceAdjustment;
-    id additionalDimming;
-    id touchBlocker;
-    id debugOverlay;
-    id previousEffectiveLuma;
-    id lumaUpdateSettleTimer;
-    id effect;
-    id edge;
-    id reducedTransparency;
-    id isOwningViewEffectivelyHidden;
-    id blurAlpha;
-    id scrollVelocity;
-    id owningView;
-    id elementModel;
-    id observableState;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)setActiveRoute:reason:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)ontPickerViewControllerDelegate>";
-- (id)rtLoadWithRequest:(struct CGRect)arg1 navigationType: /* Error: Ran out of types for this method. */;
-- (void)hes;
-- (id)PickerMode_DateWithOptionalYear;
+- (id)webView:(struct CGRect)arg1 shouldStartLoadWithRequest:navigationType: /* Error: Ran out of types for this method. */;
+- (void)_numberOfActiveTouches;
+- (id)_UIDatePickerMode_DateWithOptionalYear;
 - (void)nvoke;
 - (void)íl	m;
 - (struct UIEdgeInsets)M;
@@ -46,8 +27,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) struct UIEdgeInsets alignmentRectInsets;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) _Bool isTransparentFocusItem;
 
 @end
 

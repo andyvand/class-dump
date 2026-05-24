@@ -6,23 +6,17 @@
 
 #import <UXKit/UXView.h>
 
-@class NSArray, NSMutableArray, NSString;
+@class NSArray, NSMutableArray;
 
 @interface _UXToolbarItemsContainer : UXView
 {
     NSMutableArray *__addedConstraints;
-    _Bool _singleItemMode;
-    _Bool _isTransitioning;
-    NSArray *_items;
-    double _interitemSpacing;
-    double _baselineOffsetFromBottom;
-    struct NSEdgeInsets _layoutMargins;
 }
 
-+ (id);
++ (id);
 - (_Bool);
-- (void);
-- (double);
+- (void)orwardListItem"24;
+- (double)Gesture>"32;
 - (void);
 - (void);
 - (double);
@@ -35,18 +29,7 @@
 - (struct NSEdgeInsets);
 
 // Remaining properties
-@property(nonatomic) double baselineOffsetFromBottom; // @synthesize baselineOffsetFromBottom=_baselineOffsetFromBottom;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool hidesGlobalTrailingView;
-@property(nonatomic) double interitemSpacing; // @synthesize interitemSpacing=_interitemSpacing;
 @property(readonly, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(nonatomic) struct NSEdgeInsets layoutMargins; // @synthesize layoutMargins=_layoutMargins;
-@property(readonly) Class superclass;
 
 @end
 

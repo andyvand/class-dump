@@ -10,10 +10,10 @@
 {
 }
 
-+ (Class);
-+ (id);
-+ (void);
-- (_Bool);
++ (Class)"�;
++ (id)accessibilityFrame;
++ (void));
+- (_Bool);
 - (id);
 
 @end

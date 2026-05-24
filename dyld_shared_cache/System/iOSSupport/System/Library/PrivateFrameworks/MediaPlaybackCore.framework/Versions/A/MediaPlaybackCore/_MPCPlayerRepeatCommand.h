@@ -6,15 +6,10 @@
 
 #import <MediaPlaybackCore/_MPCPlayerCommand.h>
 
-@class NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface _MPCPlayerRepeatCommand : _MPCPlayerCommand
 {
     _Bool _supportsChangeRepeat;
-    _Bool _supportsAdvanceRepeat;
-    long long _currentRepeatType;
-    NSArray *_supportedRepeatTypes;
 }
 
 - (_Bool);
@@ -31,16 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) long long currentRepeatType; // @synthesize currentRepeatType=_currentRepeatType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSArray *supportedRepeatTypes; // @synthesize supportedRepeatTypes=_supportedRepeatTypes;
-@property(nonatomic) _Bool supportsAdvanceRepeat; // @synthesize supportsAdvanceRepeat=_supportsAdvanceRepeat;
-@property(nonatomic) _Bool supportsChangeRepeat; // @synthesize supportsChangeRepeat=_supportsChangeRepeat;
 
 @end
 

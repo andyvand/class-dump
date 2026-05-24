@@ -18,8 +18,8 @@
 + (void);
 + (_Bool);
 - (id);
-- (id);
-- (void)ry;
+- (id)credentialIdentifier;
+- (void)suggestedAmountCategory;
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *images; // @synthesize images=_images;

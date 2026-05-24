@@ -4,28 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIActivityIndicatorView, UIImageView, _MKUserTrackingButton;
 @protocol MKUserTrackingButtonTarget, MKUserTrackingView;
 
 __attribute__((visibility("hidden")))
 @interface _MKUserTrackingButtonController
 {
     id <MKUserTrackingButtonTarget> _target;
-    id <MKUserTrackingView> _userTrackingView;
-    long long _state;
-    UIImageView *_imageView;
-    _MKUserTrackingButton *_button;
-    UIActivityIndicatorView *_activityIndicatorView;
-    unsigned long long _buttonBehavior;
-    unsigned long long _controlSize;
 }
 
 - (void);
-- (id);
-- (id);
+- (id)B;
+- (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)"B-;
 - (double);
 - (void);
 - (id);
@@ -33,32 +25,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id);
 - (long long);
 - (_Bool);
+- (id)44;
 - (id);
-- (id);
-- (id);
+- (id)F;
 - (unsigned long long);
 - (void);
-- (void)electedGuideLocation;
-- (void)ntifier: /* Error: Ran out of types for this method. */;
-- (void);
-- (void)_STOP_LEFT;
+- (void)selectedGuideLocation;
+- (void)initWithPublisherIdentifier: /* Error: Ran out of types for this method. */;
+- (void)_currentAnimationAttributes;
+- (void)WAYPOINT_STOP_LEFT;
 
 // Remaining properties
-@property(nonatomic) unsigned long long buttonBehavior; // @synthesize buttonBehavior=_buttonBehavior;
-@property(nonatomic) unsigned long long controlSize; // @synthesize controlSize=_controlSize;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 @property(nonatomic) __weak id <MKUserTrackingView> userTrackingView; // @synthesize userTrackingView=_userTrackingView;
 
 @end

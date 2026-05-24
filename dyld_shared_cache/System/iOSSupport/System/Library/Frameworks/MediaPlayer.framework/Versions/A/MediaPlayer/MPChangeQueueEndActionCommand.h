@@ -6,24 +6,20 @@
 
 #import <MediaPlayer/MPRemoteCommand.h>
 
-@class NSArray;
-
 @interface MPChangeQueueEndActionCommand : MPRemoteCommand
 {
     long long _currentQueueEndAction;
-    NSArray *_supportedQueueEndActions;
 }
 
-- (void);
+- (void);
+- (id)G;
 - (id);
-- (id);
-- (void);
-- (long long);
+- (void);
+- (long long)P;
 - (void)ommand;
 
 // Remaining properties
 @property(nonatomic) long long currentQueueEndAction; // @synthesize currentQueueEndAction=_currentQueueEndAction;
-@property(copy, nonatomic) NSArray *supportedQueueEndActions; // @synthesize supportedQueueEndActions=_supportedQueueEndActions;
 
 @end
 

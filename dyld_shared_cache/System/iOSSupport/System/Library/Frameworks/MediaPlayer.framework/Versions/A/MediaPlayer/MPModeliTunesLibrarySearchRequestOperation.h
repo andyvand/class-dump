@@ -6,24 +6,21 @@
 
 #import <MediaPlayer/MPAsyncOperation.h>
 
-@class ITLibrary, MPModelLibrarySearchRequest, NSMutableDictionary;
+@class ITLibrary, MPModelLibrarySearchRequest;
 
 __attribute__((visibility("hidden")))
 @interface MPModeliTunesLibrarySearchRequestOperation : MPAsyncOperation
 {
     ITLibrary *_library;
-    NSMutableDictionary *_scopesMap;
-    MPModelLibrarySearchRequest *_request;
-    CDUnknownBlockType _responseHandler;
 }
 
-- (id);
-- (id);
-- (Class);
-- (Class);
+- (id)atAddIndex;
+- (id)svfopCurrentTimestampN;
+- (Class)groupingSetRollup;
+- (Class)_defnamespace;
 - (id);
 - (CDUnknownBlockType);
-- (id);
+- (id){Z;
 - (id);
 - (void);
 - (void);
@@ -32,7 +29,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) MPModelLibrarySearchRequest *request; // @synthesize request=_request;
-@property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
 
 @end
 

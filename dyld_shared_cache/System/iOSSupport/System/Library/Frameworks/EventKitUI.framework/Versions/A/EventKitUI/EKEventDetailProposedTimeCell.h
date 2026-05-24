@@ -6,28 +6,23 @@
 
 #import <EventKitUI/EKEventDetailCell.h>
 
-@class EKCalendarEventInvitationNotificationAttendee, EKEvent, EKEventDetailsHighlightControl, UIView;
+@class EKCalendarEventInvitationNotificationAttendee;
 
 __attribute__((visibility("hidden")))
 @interface EKEventDetailProposedTimeCell : EKEventDetailCell
 {
     EKCalendarEventInvitationNotificationAttendee *_attendee;
-    EKEventDetailsHighlightControl *_control;
-    UIView *_topSeparator;
-    EKEvent *_event;
-    UIView *_bgView;
-    _Bool _showsTopSeparator;
 }
 
 + (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool);
+- (id)%s;
+- (_Bool)m;
+- (void)r;
 - (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
-- (void)etAutomaticallyUpdatesBackgroundConfiguration: /* Error: Ran out of types for this method. */;
+- (void)setAutomaticallyUpdatesBackgroundConfiguration: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool showsTopSeparator; // @synthesize showsTopSeparator=_showsTopSeparator;

@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class TIKeyboardTouchEvent;
+
 @protocol TISKEventProtocol
+- (TIKeyboardTouchEvent *);
+- (void);
+- (TIKeyboardTouchEvent *)_updateConversationControllerWithTranslatedTranscription:translation:type:callUUID: /* Error: Ran out of types for this method. */;
 @end
 

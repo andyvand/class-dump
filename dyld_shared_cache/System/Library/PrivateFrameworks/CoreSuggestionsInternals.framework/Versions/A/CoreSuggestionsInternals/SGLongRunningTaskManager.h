@@ -9,7 +9,6 @@
 @interface SGLongRunningTaskManager
 {
     NSHashTable *_tasks;
-    struct _opaque_pthread_mutex_t _lock;
 }
 
 + (id)Ð	;

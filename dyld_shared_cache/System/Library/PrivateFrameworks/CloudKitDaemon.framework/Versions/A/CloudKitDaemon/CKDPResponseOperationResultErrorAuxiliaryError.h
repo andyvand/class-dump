@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface CKDPResponseOperationResultErrorAuxiliaryError
 {
     int _code;
-    NSString *_domain;
-    NSMutableArray *_userInfos;
-    CDStruct_9ab06576 _has;
 }
 
 + (Class);
@@ -22,29 +17,26 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)tR�t;
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)ing hose [%{ptr}] (%@) Resetting index from %u to index / seq # %u / %u
+;
+- (_Bool)y;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
-- (int)sSerializedParameters;
+- (id);
+- (int)hasSerializedParameters;
 - (void)T;
 - (void)$ID AND dataSeparationHash = $HASH;
 
 // Remaining properties
-@property(nonatomic) int code; // @synthesize code=_code;
-@property(retain, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(nonatomic) _Bool hasCode;
 @property(readonly, nonatomic) _Bool hasDomain;
-@property(retain, nonatomic) NSMutableArray *userInfos; // @synthesize userInfos=_userInfos;
 
 @end
 

@@ -4,40 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDNWDurationAccumulationState
 {
     unsigned long long _duration;
-    NSString *_state;
-    struct {
-        unsigned int duration:1;
-    } _has;
 }
 
 - (_Bool);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long));
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)x;
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long duration; // @synthesize duration=_duration;
-@property(nonatomic) _Bool hasDuration;
 @property(readonly, nonatomic) _Bool hasState;
-@property(retain, nonatomic) NSString *state; // @synthesize state=_state;
 
 @end
 

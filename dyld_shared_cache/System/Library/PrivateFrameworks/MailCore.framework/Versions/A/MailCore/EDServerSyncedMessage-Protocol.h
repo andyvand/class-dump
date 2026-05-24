@@ -7,9 +7,10 @@
 @class EDMessageCategorizationResult;
 
 @protocol EDServerSyncedMessage
+- (void)$;
+- (long long);
 
 // Remaining properties
-@property(nonatomic) long long authenticationState;
 @property(retain, nonatomic) EDMessageCategorizationResult *categorizationResult;
 @end
 

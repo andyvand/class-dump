@@ -5,6 +5,7 @@
 //
 
 @protocol CKDOperationInfoDelegate
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isInvalidated) _Bool invalidated;

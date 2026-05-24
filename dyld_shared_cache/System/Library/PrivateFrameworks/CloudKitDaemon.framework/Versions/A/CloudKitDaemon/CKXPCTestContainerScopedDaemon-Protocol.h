@@ -5,6 +5,7 @@
 //
 
 @protocol CKXPCTestContainerScopedDaemon
+- (void)6;
 - (void);
 @end
 

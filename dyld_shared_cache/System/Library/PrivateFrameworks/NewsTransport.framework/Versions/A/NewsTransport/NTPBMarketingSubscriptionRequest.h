@@ -4,53 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NTPBDeviceInfo;
+@class NTPBDeviceInfo;
 
 @interface NTPBMarketingSubscriptionRequest
 {
     NTPBDeviceInfo *_deviceInfo;
-    NSString *_dsid;
-    int _subscriptionAction;
-    int _subscriptionType;
-    struct {
-        unsigned int subscriptionAction:1;
-        unsigned int subscriptionType:1;
-    } _has;
 }
 
-- (int);
-- (void);
-- (void);
-- (_Bool);
+- (int)engineDrivenLayout:contentsRectForItemAtIndexPath:forAspectRatio: /* Error: Ran out of types for this method. */;
+- (void)distanceBetweenWidgetContentBottomAndFooterBaseline;
+- (void)curationDebugInformationForAssetCollectionWithLocalIdentifier:(_Bool)arg1 options:error: /* Error: Ran out of types for this method. */;
+- (_Bool)audioRequestID;
 - (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)__LINKEDIT;
+- (void)h;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)P;
 - (int);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (void)rrorMessage: /* Error: Ran out of types for this method. */;
+- (void)setErrorMessage: /* Error: Ran out of types for this method. */;
 - (void)paidSubscriptionConversionPointType;
 
 // Remaining properties
-@property(retain, nonatomic) NTPBDeviceInfo *deviceInfo; // @synthesize deviceInfo=_deviceInfo;
-@property(retain, nonatomic) NSString *dsid; // @synthesize dsid=_dsid;
-@property(readonly, nonatomic) _Bool hasDeviceInfo;
-@property(readonly, nonatomic) _Bool hasDsid;
-@property(nonatomic) _Bool hasSubscriptionAction;
 @property(nonatomic) _Bool hasSubscriptionType;
-@property(nonatomic) int subscriptionAction; // @synthesize subscriptionAction=_subscriptionAction;
-@property(nonatomic) int subscriptionType; // @synthesize subscriptionType=_subscriptionType;
 
 @end
 

@@ -4,49 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMCContext, HMDBackgroundTaskManager, HMDBulletinBoard, HMDHome, HMDHomeAdministratorHandler, HMDLocation, HMDResidentDevice, HMDUser, HMFMessageDispatcher, NSDate, NSNotificationCenter, NSObject, NSString;
-@protocol HMDFeaturesDataSource, HMDPreferences, HMFLogging, HMMLogEventSubmitting, OS_dispatch_queue;
+@class HMDHomeAdministratorHandler;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomeActivityStateManagerDataSource
 {
     HMDHomeAdministratorHandler *_administratorHandler;
-    HMDBulletinBoard *_bulletinBoard;
-    HMDResidentDevice *_currentPrimaryResident;
-    id <HMDFeaturesDataSource> _featuresDataSource;
-    HMDHome *_home;
-    id <HMMLogEventSubmitting> _logEventSubmitter;
-    NSString *_logIdentifier;
-    HMFMessageDispatcher *_messageDispatcher;
-    NSObject<OS_dispatch_queue> *_queue;
-    double _reportValidityInterval;
-    id <HMFLogging> _loggerWithTTL;
 }
 
 - (id);
 - (_Bool);
 - (_Bool);
-- (double);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (double)tring",&,N,V_labeledValueIdentifier;
+- (id)FN0WgMxNTViDjE1NSBIZXJtYW5uIFN0agQ2MTMwciNVbml0ZWQgU3RhdGVzIE1pbnQgb2YgU2FuIEZyYW5jaXNjb4oBDVNhbiBGcmFuY2lzY2+KAQhCYXkgQXJlYYoBDEhheWVzIFZhbGxleYoBD0R1Ym9jZSBUcmlhbmdsZYoBCk5vcnRoIFBhcmuiAQo5NDEwMi02MTMwShIJAxDSrp3iQkARZK2h1F6bXsBYAGISCTbpONCh4kJAEbt3Pwxfm17AcMI7;
+- (id)KQ2FsaWZvcm5pYSICQ0EqDVNhbiBGcmFuY2lzY28yDVNhbiBGcmFuY2lzY286BTk0MTAyQgpOb3J0aCBQYXJrUgpIZXJtYW5uIFN0WgMxNTViDjE1NSBIZXJtYW5uIFN0agQ2MTMwciNVbml0ZWQgU3RhdGVzIE1pbnQgb2YgU2FuIEZyYW5jaXNjb4oBDVNhbiBGcmFuY2lzY2+KAQhCYXkgQXJlYYoBDEhheWVzIFZhbGxleYoBD0R1Ym9jZSBUcmlhbmdsZYoBCk5vcnRoIFBhcmuiAQo5NDEwMi02MTMwShIJAxDSrp3iQkARZK2h1F6bXsBYAGISCTbpONCh4kJAEbt3Pwxfm17AcMI7;
+- (id)g1Vbml0ZWQgU3RhdGVzevYBCg1Vbml0ZWQgU3RhdGVzEgJVUxoKQ2FsaWZvcm5pYSICQ0EqDVNhbiBGcmFuY2lzY28yDVNhbiBGcmFuY2lzY286BTk0MTAyQgpOb3J0aCBQYXJrUgpIZXJtYW5uIFN0WgMxNTViDjE1NSBIZXJtYW5uIFN0agQ2MTMwciNVbml0ZWQgU3RhdGVzIE1pbnQgb2YgU2FuIEZyYW5jaXNjb4oBDVNhbiBGcmFuY2lzY2+KAQhCYXkgQXJlYYoBDEhheWVzIFZhbGxleYoBD0R1Ym9jZSBUcmlhbmdsZYoBCk5vcnRoIFBhcmuiAQo5NDEwMi02MTMwShIJAxDSrp3iQkARZK2h1F6bXsBYAGISCTbpONCh4kJAEbt3Pwxfm17AcMI7;
+- (id)Maps.tripsharing.receiving;
+- (id)supersededSearchIdentifier;
+- (id)provided sharing handle does not match the current sharing identity;
+- (id)ay:accountStatusChanged:] /* Error: Ran out of types for this method. */;
+- (id)ForSenderController:] /* Error: Ran out of types for this method. */;
+- (id)r:] /* Error: Ran out of types for this method. */;
+- (id)gesGroup:completion:] /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/neutrino/PhotoImaging/Render/PIPortraitVideoRenderNode.m;
 - (_Bool);
 - (id);
 - (id);
@@ -54,52 +43,20 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)
 × ;
-- (id)eWoWAssertion;
-- (id)rtRules;
+- (id)takeWoWAssertion;
+- (id)_staticPortRules;
 - (id)vider>",R,V_timeProvider;
 - (id)d to create action, model is missing light profile UUID:%@ /* Error: Ran out of types for this method. */;
 - (id)creating BulletinBoardNotifications, cannot read partslist without accessory;
-- (void)onKey;
-- (id)MF;
+- (void)HMDHomeNameNotificationKey;
+- (id)CLIMATE_BULLETIN_BODY_ADAPTIVE_TEMPERATURE_DISCLOSURE_NOT_FMF;
 - (id)>;
 - (id);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) HMDHomeAdministratorHandler *administratorHandler; // @synthesize administratorHandler=_administratorHandler;
-@property(readonly, nonatomic) HMDBackgroundTaskManager *backgroundTaskManager;
-@property(readonly, nonatomic) HMDBulletinBoard *bulletinBoard; // @synthesize bulletinBoard=_bulletinBoard;
-@property(readonly, copy, nonatomic) NSDate *currentDate;
-@property(readonly, nonatomic) HMDResidentDevice *currentPrimaryResident; // @synthesize currentPrimaryResident=_currentPrimaryResident;
-@property(readonly, nonatomic) HMDUser *currentUser;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <HMDFeaturesDataSource> featuresDataSource; // @synthesize featuresDataSource=_featuresDataSource;
 @property(readonly, nonatomic) _Bool hasFinishedLoadingHomeData;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly, nonatomic, getter=isHomeAppHomeActivityStateIndicatorInternalSettingEnabled) _Bool homeAppHomeActivityStateIndicatorInternalSettingEnabled;
-@property(readonly, nonatomic) _Bool isCurrentDeviceConfirmedPrimaryResident;
-@property(readonly, nonatomic) _Bool isDesignatedFMFDevice;
-@property(readonly, nonatomic) _Bool isEligibleForFMFDesignation;
-@property(readonly, nonatomic) _Bool isResidentCapable;
-@property(readonly, nonatomic) HMDLocation *location;
-@property(readonly, nonatomic) id <HMMLogEventSubmitting> logEventSubmitter; // @synthesize logEventSubmitter=_logEventSubmitter;
-@property(readonly, nonatomic) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly, nonatomic) id <HMFLogging> loggerWithTTL; // @synthesize loggerWithTTL=_loggerWithTTL;
-@property(readonly, nonatomic) HMFMessageDispatcher *messageDispatcher; // @synthesize messageDispatcher=_messageDispatcher;
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter;
-@property(readonly, nonatomic) id <HMDPreferences> preferences;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) double reportValidityInterval; // @synthesize reportValidityInterval=_reportValidityInterval;
-@property(readonly, nonatomic) _Bool someHomeAccessorySupportsAdaptiveTemperatureAutomations;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsUserActivityVacationStateDetector;
-@property(readonly, nonatomic) HMCContext *workingStoreContext;
 
 @end
 

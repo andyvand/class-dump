@@ -15,7 +15,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool flipped;
-@property(nonatomic, readonly) _Bool opaque;
 
 @end
 

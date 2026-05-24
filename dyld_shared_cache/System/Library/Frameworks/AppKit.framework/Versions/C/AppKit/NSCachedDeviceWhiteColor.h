@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (oneway void);
 - (id);
-- (id)nator:(struct _NSZone *)arg1 coordinateReadingContentsAndWritingItemAtURL:byAccessor: /* Error: Ran out of types for this method. */;
+- (id)_fileCoordinator:(struct _NSZone *)arg1 coordinateReadingContentsAndWritingItemAtURL:byAccessor: /* Error: Ran out of types for this method. */;
 - (_Bool)µþÿ;
 - (id)unt;
 - (id)b³ÿF¬D;

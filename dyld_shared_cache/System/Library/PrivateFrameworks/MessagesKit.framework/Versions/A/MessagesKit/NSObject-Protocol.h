@@ -4,17 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (Class)cted Dictionary, found:%@ /* Error: Ran out of types for this method. */;
+- (id)to parse %@. Expected Dictionary, found:%@ /* Error: Ran out of types for this method. */;
+- (id)fers from other elements (%u);
+- (id)imary channel in 6GhzOp IE (%u) that differs from other elements (%u);
+- (id)h:(SEL)arg1 endOfBuffer:] /* Error: Ran out of types for this method. */;
+- (Class)eHTOp:length:endOfBuffer:] /* Error: Ran out of types for this method. */;
+- (unsigned long long)h;
+- (unsigned long long);
+- (id)submitted CKEventMetric %@.;
+- (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

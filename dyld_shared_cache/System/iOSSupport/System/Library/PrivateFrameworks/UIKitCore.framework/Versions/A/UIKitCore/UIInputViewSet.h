@@ -4,44 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIInputViewController, UIKBRenderConfig, UIKeyboard, UIResponder, UIView;
-
 __attribute__((visibility("hidden")))
 @interface UIInputViewSet
 {
     _Bool _isSplit;
-    double _splitHeightDelta;
-    UIResponder *_restorableResponder;
-    UIKBRenderConfig *_restorableRenderConfig;
-    UIResponder *_accessoryViewNextResponder;
-    UIResponder *_accessoryControllerNextResponder;
-    _Bool _restoreUsingBecomeFirstResponder;
-    UIView *_inputView;
-    UIView *_inputAccessoryView;
-    UIView *_inputAssistantView;
-    UIInputViewController *_inputViewController;
-    UIInputViewController *_accessoryViewController;
-    UIInputViewController *_assistantViewController;
-    _Bool _isNullInputView;
-    _Bool _isCustomInputView;
-    _Bool _shouldShowDockView;
-    _Bool _isRemoteKeyboard;
-    _Bool _shouldShowInputSwitcherView;
-    UIResponder *_accessorControllerNextResponder;
-    UIView *_inputSwitcherView;
-    UIView *_hostedCustomInputView;
-    double _bottomPaddingForPortrait;
-    double _bottomPaddingForLandscape;
-    struct CGRect _inputAssistantViewBounds;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id)lectSelectedImageForCellStyle:(id)arg1 traitCollection:(_Bool)arg2 checkmarkColor:(_Bool)arg3 backgroundColor:(_Bool)arg4;
++ (id)defaultMultiSelectSelectedImageForCellStyle:(id)arg1 traitCollection:(_Bool)arg2 checkmarkColor:(_Bool)arg3 backgroundColor:(_Bool)arg4;
 + (id)ionBarHidingEnabled;
 + (id)de;
-+ (id)roundColorIsOpaque;
++ (id)_popoverBackgroundColorIsOpaque;
 + (id),¬e;
 + (id)ÈÿW÷ÚÛe;
 - (double);
@@ -49,20 +24,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)oadSSIDSTR;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (double);
+- (void)ld",&,N,V_topTextField;
+- (double)o;
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (_Bool);
+- (void)roviderClass:(_Bool)arg1;
+- (void)_supportedRepeatTypes;
+- (_Bool)lTimeMarkers;
 - (_Bool);
 - (id);
 - (void);
@@ -101,19 +76,19 @@ __attribute__((visibility("hidden")))
 - (struct CGRect)e"b1"selectionIndicatorDragged"b1"adjustsForContentSizeCategory"b1"hovered"b1"animatingSelectionIndicator"b1"hasCustomInfoView"b1"hasMaterial"b1"useSpringBoardVibrancy"b1};
 - (double)@40@0:8@16@24N^{_NSRange=QQ}32 /* Error: Ran out of types for this method. */;
 - (void)eters=Qq{CGRect={CGPoint=dd}{CGSize=dd}}d{CACornerRadii={CGSize=dd}{CGSize=dd}{CGSize=dd}{CGSize=dd}}dddd}16;
-- (_Bool)tical;
-- (_Bool)bleFrameInRemoteKeyboardWindow: /* Error: Ran out of types for this method. */;
-- (void);
-- (_Bool)h:withSelectionGrouping:considerNextCellGrouping:interactionState: /* Error: Ran out of types for this method. */;
-- (id)teVisibleChildControllers:includePresentedChildren:usingBlock: /* Error: Ran out of types for this method. */;
-- (void)erViewUpdateToFocusUpdate;
-- (_Bool)Edge;
+- (_Bool)hostTextIsVertical;
+- (_Bool)_visibleFrameInRemoteKeyboardWindow: /* Error: Ran out of types for this method. */;
+- (void)_transitionAnimationSettings;
+- (_Bool)_separatorConfigurationForItemAtIndexPath:withSelectionGrouping:considerNextCellGrouping:interactionState: /* Error: Ran out of types for this method. */;
+- (id)_enumerateVisibleChildControllers:includePresentedChildren:usingBlock: /* Error: Ran out of types for this method. */;
+- (void)_deferViewUpdateToFocusUpdate;
+- (_Bool)_boundaryEdge;
 - (void)gress;
 - (struct CGRect)wController;
 - (_Bool)putMode",&,N,V_inputMode;
 - (void),&,VzoomIn;
 - (id)onstraint;
-- (_Bool)viceViewControllerOperator;
+- (_Bool)_UIViewServiceViewControllerOperator;
 - (id)G	¼G
 ÄHäIäJXMìO;
 - (void)¤þ;
@@ -123,11 +98,11 @@ __attribute__((visibility("hidden")))
 - (void)X`¥þDþÿ;
 - (double)Da]þ´Éþÿ;
 - (_Bool)hidden;
-- (_Bool)temViewPerformButtonActionNotification;
+- (_Bool)UIStatusBarItemViewPerformButtonActionNotification;
 - (void)mapDataCorner _createCornerWithRadius(const _UIBoundingPathBitmapDataCornerLocation, const NSInteger);
 - (id)d or use a child class.;
 - (long long)onent.m;
-- (_Bool)kSubtype;
+- (_Bool)artworkSubtype;
 - (struct CGRect)cannot animate the effects property alongside the contentEffects property. Switch to using contentEffects exclusively.;
 - (id);
 - (_Bool)ySo27UIListContentTextPropertiesCG;
@@ -155,45 +130,7 @@ __attribute__((visibility("hidden")))
 - (void)\Án;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _inputViewIsSplit;
-@property(nonatomic) __weak UIResponder *accessoryControllerNextResponder; // @synthesize accessoryControllerNextResponder=_accessorControllerNextResponder;
-@property(retain, nonatomic) UIInputViewController *accessoryViewController; // @synthesize accessoryViewController=_accessoryViewController;
-@property(nonatomic) __weak UIResponder *accessoryViewNextResponder; // @synthesize accessoryViewNextResponder=_accessoryViewNextResponder;
-@property(retain, nonatomic) UIInputViewController *assistantViewController; // @synthesize assistantViewController=_assistantViewController;
-@property(nonatomic) double bottomPaddingForLandscape; // @synthesize bottomPaddingForLandscape=_bottomPaddingForLandscape;
 @property(nonatomic) double bottomPaddingForPortrait; // @synthesize bottomPaddingForPortrait=_bottomPaddingForPortrait;
-@property(readonly, nonatomic, getter=isEmpty) _Bool empty;
-@property(readonly, nonatomic) _Bool hasNonPlaceholderViews;
-@property(retain, nonatomic) UIView *hostedCustomInputView; // @synthesize hostedCustomInputView=_hostedCustomInputView;
-@property(retain, nonatomic) UIView *inputAccessoryView; // @synthesize inputAccessoryView=_inputAccessoryView;
-@property(readonly, nonatomic) struct CGRect inputAccessoryViewBounds;
-@property(retain, nonatomic) UIView *inputAssistantView; // @synthesize inputAssistantView=_inputAssistantView;
-@property(readonly, nonatomic) struct CGRect inputAssistantViewBounds; // @synthesize inputAssistantViewBounds=_inputAssistantViewBounds;
-@property(readonly, nonatomic) UIView *inputSwitcherView; // @synthesize inputSwitcherView=_inputSwitcherView;
-@property(retain, nonatomic) UIView *inputView; // @synthesize inputView=_inputView;
-@property(readonly, nonatomic) struct CGRect inputViewBounds;
-@property(retain, nonatomic) UIInputViewController *inputViewController; // @synthesize inputViewController=_inputViewController;
-@property(readonly, nonatomic) _Bool inputViewKeyboardCanSplit;
-@property(nonatomic) _Bool isCustomInputView; // @synthesize isCustomInputView=_isCustomInputView;
-@property(readonly, nonatomic) _Bool isInputAccessoryViewPlaceholder;
-@property(readonly, nonatomic) _Bool isInputAssistantViewPlaceholder;
-@property(readonly, nonatomic) _Bool isInputViewPlaceholder;
-@property(readonly, nonatomic) _Bool isLocalMinimumHeightInputView;
-@property(readonly, nonatomic) _Bool isNullInputView; // @synthesize isNullInputView=_isNullInputView;
-@property(nonatomic) _Bool isRemoteKeyboard; // @synthesize isRemoteKeyboard=_isRemoteKeyboard;
-@property(readonly, nonatomic) _Bool isSplit; // @synthesize isSplit=_isSplit;
-@property(readonly, nonatomic) UIKeyboard *keyboard;
-@property(readonly, nonatomic) UIView *layeringView;
-@property(retain, nonatomic) UIKBRenderConfig *restorableRenderConfig; // @synthesize restorableRenderConfig=_restorableRenderConfig;
-@property(nonatomic) __weak UIResponder *restorableResponder; // @synthesize restorableResponder=_restorableResponder;
-@property(nonatomic) _Bool restoreUsingBecomeFirstResponder;
-@property(nonatomic) _Bool shouldShowDockView; // @synthesize shouldShowDockView=_shouldShowDockView;
-@property(nonatomic) _Bool shouldShowInputSwitcherView; // @synthesize shouldShowInputSwitcherView=_shouldShowInputSwitcherView;
-@property(readonly, nonatomic) UIView *splitExemptSubview;
-@property(nonatomic) double splitHeightDelta; // @synthesize splitHeightDelta=_splitHeightDelta;
-@property(readonly, nonatomic) _Bool supportsSplit;
-@property(readonly, nonatomic) _Bool usesKeyClicks;
-@property(readonly, nonatomic) _Bool visible;
 
 @end
 

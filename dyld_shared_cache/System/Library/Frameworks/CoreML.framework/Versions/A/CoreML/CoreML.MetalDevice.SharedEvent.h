@@ -7,11 +7,6 @@
 @interface CoreML.MetalDevice.SharedEvent
 {
     id dispatchQueue;
-    id metalDevice;
-    id mtlSharedEvent;
-    id sharedEventListener;
-    id id;
-    id eventValue;
 }
 
 @end

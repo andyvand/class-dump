@@ -8,8 +8,6 @@ __attribute__((visibility("hidden")))
 @interface HMDWatchConnectivityLogEvent
 {
     _Bool _reportComplete;
-    unsigned long long _watchAddedNotificationCount;
-    unsigned long long _watchRemovedNotificationCount;
 }
 
 - (unsigned long long);
@@ -21,9 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic, getter=isReportComplete) _Bool reportComplete; // @synthesize reportComplete=_reportComplete;
 @property(nonatomic) unsigned long long watchAddedNotificationCount; // @synthesize watchAddedNotificationCount=_watchAddedNotificationCount;
-@property(nonatomic) unsigned long long watchRemovedNotificationCount; // @synthesize watchRemovedNotificationCount=_watchRemovedNotificationCount;
 
 @end
 

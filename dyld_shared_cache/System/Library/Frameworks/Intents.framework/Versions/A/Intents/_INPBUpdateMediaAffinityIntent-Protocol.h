@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBIntentMetadata, _INPBMediaSearch, _INPBPrivateUpdateMediaAffinityIntentData;
+@class _INPBIntentMetadata;
 
 @protocol _INPBUpdateMediaAffinityIntent
-- (_Bool)rtwork:artist:topics:namedEntities: /* Error: Ran out of types for this method. */;
+- (void)i;
+- (void);
+- (_INPBIntentMetadata *)_diskType;
+- (_Bool)initWithIdentifier:title:type:artwork:artist:topics:namedEntities: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) int affinityType;
-@property(nonatomic) _Bool hasAffinityType;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasMediaSearch;
-@property(readonly, nonatomic) _Bool hasPrivateUpdateMediaAffinityIntentData;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(copy, nonatomic) NSArray *mediaItems;
-@property(readonly, nonatomic) unsigned long long mediaItemsCount;
-@property(retain, nonatomic) _INPBMediaSearch *mediaSearch;
-@property(retain, nonatomic) _INPBPrivateUpdateMediaAffinityIntentData *privateUpdateMediaAffinityIntentData;
 @end
 

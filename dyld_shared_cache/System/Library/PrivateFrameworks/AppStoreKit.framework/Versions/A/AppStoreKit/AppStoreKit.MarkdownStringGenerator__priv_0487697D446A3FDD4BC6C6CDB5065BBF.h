@@ -7,21 +7,18 @@
 @interface AppStoreKit.MarkdownStringGenerator__priv_0487697D446A3FDD4BC6C6CDB5065BBF
 {
     id parser;
-    id configuration;
-    id accumulator;
-    id didParseEverything;
 }
 
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)initWithContentsOfURL:(id)arg1 error:(id)arg2;
 - (id);
 - (void);
 - (void);

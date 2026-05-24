@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMCDAppleMediaDeviceModel, HMCDHomeModel, HMCDRoomModel, NSString, NSUUID;
+@class NSUUID;
 
 @interface HMCDAccessoryModel
 {
@@ -13,14 +13,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, retain) HMCDAppleMediaDeviceModel *appleMediaDevice; // @dynamic appleMediaDevice;
-@property(nonatomic) long long category; // @dynamic category;
-@property(nonatomic, copy) NSString *firmwareVersion; // @dynamic firmwareVersion;
-@property(nonatomic, retain) HMCDHomeModel *home; // @dynamic home;
-@property(nonatomic, copy) NSString *model; // @dynamic model;
 @property(nonatomic, copy) NSUUID *modelID; // @dynamic modelID;
-@property(nonatomic, copy) NSString *name; // @dynamic name;
-@property(nonatomic, retain) HMCDRoomModel *room; // @dynamic room;
 
 @end
 

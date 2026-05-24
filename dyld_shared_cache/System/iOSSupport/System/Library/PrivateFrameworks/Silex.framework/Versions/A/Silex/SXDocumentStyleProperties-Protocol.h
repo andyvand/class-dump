@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SXJSONLinearGradient, UIColor;
+@class UIColor;
 
 @protocol SXDocumentStyleProperties
 
 // Remaining properties
-@property(readonly, nonatomic) UIColor *backgroundColor;
 @property(readonly, nonatomic) UIColor *topBackgroundColor;
-@property(readonly, nonatomic) SXJSONLinearGradient *topBackgroundGradient;
 @end
 

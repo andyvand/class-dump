@@ -9,8 +9,6 @@
 @interface MLCPaddingGPUDeviceOps : MLCGPUDeviceOps
 {
     int _paddingType;
-    float _paddingValue;
-    id _paddingGradientAccumulateKernel;
 }
 
 + (id);
@@ -21,12 +19,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)SDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}{MPSDeviceSpecificInfo=^{MPSKernelInfo}^?Q}}24@0:8^v16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) id paddingGradientAccumulateKernel; // @synthesize paddingGradientAccumulateKernel=_paddingGradientAccumulateKernel;
 @property(nonatomic) int paddingType; // @synthesize paddingType=_paddingType;
-@property(nonatomic) float paddingValue; // @synthesize paddingValue=_paddingValue;
 
 @end
 

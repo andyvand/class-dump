@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PFCopyOnWriteHolder;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface PFCopyOnWriteInterest
 {
     NSObject<OS_dispatch_queue> *_queue;
-    PFCopyOnWriteHolder *_holder;
-    CDUnknownBlockType _copyOnWriteHandler;
 }
 
 - (void);

@@ -7,9 +7,6 @@
 @interface NewsUI2.ArticleLinkActionHandler
 {
     id navigator;
-    id urlHandler;
-    id contextBuilder;
-    id featureAvailability;
 }
 
 @end

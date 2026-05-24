@@ -4,54 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImageView;
+@class UIImageView;
 
 @interface CKEditableCollectionViewCell
 {
     _Bool _wantsDrawerLayout;
-    BOOL _orientation;
-    _Bool _isAnimatingInDarkEffect;
-    _Bool _isInReplyContext;
-    _Bool __ck_editing;
-    _Bool _shouldReturnActualVEV;
-    double _drawerPercentRevealed;
-    double _associatedItemOffset;
-    long long _editingStyle;
-    UIImageView *_checkmark;
-    struct CGRect _contentAlignmentRect;
-    struct UIEdgeInsets _contentInsets;
-    struct UIEdgeInsets _marginInsets;
 }
 
 + (Class)øÄGAByACõÄGAByACòÄGAByACïÄGAByACìÄGAByACéÄGtG;
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool)fetchAndAcceptShareMetadataWithURL:managedObjectContext:alertBlock:showObjectBlock: /* Error: Ran out of types for this method. */;
+- (void)contentType;
+- (_Bool)r;
+- (void)Share",R,N;
+- (void)tlineController",&,N,V_outlineController;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)z;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)AJGtGGAGGACyADyAEyA10__A11_AWyAEyA13__AWyAEyAX_AKA19_tGGtGGAJtGGAGGG_G;
 - (void);
 - (struct UIEdgeInsets);
+- (void)f;
 - (void);
-- (void);
-- (void);
+- (void));
 - (_Bool);
-- (_Bool);
+- (_Bool)T;
+- (double)nvitations… {accountID:%@, receivedSince:%@}%s:%d /* Error: Ran out of types for this method. */;
+- (struct CGRect)sword;
+- (struct UIEdgeInsets)Password;
+- (id)lities showReauthenticateTouchIDSheetInWindow:completionHandler:] /* Error: Ran out of types for this method. */;
 - (double);
-- (struct CGRect);
-- (struct UIEdgeInsets);
-- (id);
-- (double);
 - (void);
 - (struct UIEdgeInsets);
 - (void);
@@ -64,7 +52,7 @@
 - (void);
 - (void);
 - (void);
-- (struct UIEdgeInsets);
+- (struct UIEdgeInsets)=;
 - (void);
 - (void);
 - (BOOL);
@@ -76,27 +64,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, getter=_ck_isEditing, setter=_ck_setEditing:) _Bool _ck_editing; // @synthesize _ck_editing=__ck_editing;
-@property(nonatomic) double associatedItemOffset; // @synthesize associatedItemOffset=_associatedItemOffset;
 @property(retain, nonatomic) UIImageView *checkmark; // @synthesize checkmark=_checkmark;
-@property(readonly, nonatomic) struct UIEdgeInsets contentAlignmentInsets;
-@property(nonatomic) struct CGRect contentAlignmentRect; // @synthesize contentAlignmentRect=_contentAlignmentRect;
-@property(nonatomic) struct UIEdgeInsets contentInsets; // @synthesize contentInsets=_contentInsets;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) double drawerPercentRevealed; // @synthesize drawerPercentRevealed=_drawerPercentRevealed;
-@property(nonatomic) long long editingStyle; // @synthesize editingStyle=_editingStyle;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isAnimatingInDarkEffect; // @synthesize isAnimatingInDarkEffect=_isAnimatingInDarkEffect;
-@property(nonatomic) _Bool isInReplyContext; // @synthesize isInReplyContext=_isInReplyContext;
-@property(nonatomic) struct UIEdgeInsets marginInsets; // @synthesize marginInsets=_marginInsets;
-@property(nonatomic) BOOL orientation; // @synthesize orientation=_orientation;
-@property(nonatomic) _Bool shouldReturnActualVEV; // @synthesize shouldReturnActualVEV=_shouldReturnActualVEV;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool wantsDrawerLayout; // @synthesize wantsDrawerLayout=_wantsDrawerLayout;
 
 @end
 

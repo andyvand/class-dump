@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarConfigurationImageRenderer, AVTAvatarRemoteImageRenderer, AVTCoreEnvironment, AVTCoreModel, AVTDeviceResourceManager, AVTMemoji, NSNotificationCenter, NSObject, NSURL, NSUserDefaults;
-@protocol AVTImageCache, AVTUILogger, AVTUsageTrackingSession, OS_dispatch_queue;
+@class AVTCoreEnvironment;
 
 @interface AVTUIEnvironment
 {
     unsigned long long _platform;
-    AVTCoreModel *_editorCoreModel;
-    AVTAvatarConfigurationImageRenderer *_renderer;
-    AVTAvatarRemoteImageRenderer *_remoteRenderer;
-    AVTMemoji *_editorThumbnailAvatar;
-    id <AVTImageCache> _inMemoryImageCache;
-    id <AVTUsageTrackingSession> _usageTrackingSession;
-    _Bool _deviceIsPad;
-    _Bool _deviceIsMac;
-    _Bool _deviceIsVision;
-    AVTCoreEnvironment *_coreEnvironment;
-    double _mainScreenScale;
-    long long _userInterfaceLayoutDirection;
-    NSObject<OS_dispatch_queue> *_backgroundQueue;
-    NSObject<OS_dispatch_queue> *_backgroundRenderingQueue;
-    NSObject<OS_dispatch_queue> *_backgroundEncodingQueue;
-    AVTDeviceResourceManager *_deviceResourceManager;
-    double _actionAnimationsMultiplier;
-    struct CGSize _mainScreenSize;
 }
 
 + (id);
@@ -66,38 +47,11 @@
 - (id);
 - (id);
 - (void);
-- (id)oup:symbolNames: /* Error: Ran out of types for this method. */;
+- (id)initWithSectionProviders:localizedName:previewMode:modelGroup:symbolNames: /* Error: Ran out of types for this method. */;
 - (id),;
 
 // Remaining properties
-@property(nonatomic) double actionAnimationsMultiplier; // @synthesize actionAnimationsMultiplier=_actionAnimationsMultiplier;
-@property(readonly, copy, nonatomic) NSObject<OS_dispatch_queue> *backgroundEncodingQueue; // @synthesize backgroundEncodingQueue=_backgroundEncodingQueue;
-@property(readonly, copy, nonatomic) NSObject<OS_dispatch_queue> *backgroundQueue; // @synthesize backgroundQueue=_backgroundQueue;
-@property(readonly, copy, nonatomic) NSObject<OS_dispatch_queue> *backgroundRenderingQueue; // @synthesize backgroundRenderingQueue=_backgroundRenderingQueue;
 @property(readonly, nonatomic) AVTCoreEnvironment *coreEnvironment; // @synthesize coreEnvironment=_coreEnvironment;
-@property(readonly, nonatomic) _Bool deviceIsMac; // @synthesize deviceIsMac=_deviceIsMac;
-@property(readonly, nonatomic) _Bool deviceIsPad; // @synthesize deviceIsPad=_deviceIsPad;
-@property(readonly, nonatomic) _Bool deviceIsVision; // @synthesize deviceIsVision=_deviceIsVision;
-@property(readonly, nonatomic) AVTDeviceResourceManager *deviceResourceManager; // @synthesize deviceResourceManager=_deviceResourceManager;
-@property(readonly, nonatomic) AVTCoreModel *editorCoreModel;
-@property(readonly, nonatomic) AVTMemoji *editorThumbnailAvatar;
-@property(readonly, copy, nonatomic) NSURL *imageCacheStoreLocation;
-@property(readonly, copy, nonatomic) NSURL *imageStoreLocation;
-@property(readonly, nonatomic) id <AVTImageCache> inMemoryImageCache;
-@property(readonly, copy, nonatomic) CDUnknownBlockType lockProvider;
-@property(readonly, nonatomic) id <AVTUILogger> logger;
-@property(readonly, nonatomic) double mainScreenScale; // @synthesize mainScreenScale=_mainScreenScale;
-@property(readonly, nonatomic) struct CGSize mainScreenSize; // @synthesize mainScreenSize=_mainScreenSize;
-@property(readonly, nonatomic) NSNotificationCenter *notificationCenter;
-@property(readonly, nonatomic) unsigned long long platform; // @synthesize platform=_platform;
-@property(readonly, nonatomic) AVTAvatarRemoteImageRenderer *remoteRenderer;
-@property(readonly, nonatomic) AVTAvatarConfigurationImageRenderer *renderer;
-@property(readonly, copy, nonatomic) CDUnknownBlockType serialQueueProvider;
-@property(readonly, copy, nonatomic) NSURL *stickerImageStoreLocation;
-@property(readonly, copy, nonatomic) NSURL *storeLocation;
-@property(readonly, nonatomic) id <AVTUsageTrackingSession> usageTrackingSession;
-@property(readonly, nonatomic) NSUserDefaults *userDefaults;
-@property(readonly, nonatomic) long long userInterfaceLayoutDirection; // @synthesize userInterfaceLayoutDirection=_userInterfaceLayoutDirection;
 
 @end
 

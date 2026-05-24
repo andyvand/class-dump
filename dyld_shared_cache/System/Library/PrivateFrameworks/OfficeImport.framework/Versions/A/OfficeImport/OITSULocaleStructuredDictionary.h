@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSLocale, NSMutableDictionary;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface OITSULocaleStructuredDictionary
 {
     NSDictionary *_dictionary;
-    NSMutableDictionary *_cldrLanguageScriptRegionForKey;
-    NSMutableDictionary *_cldrLanguageScriptForKey;
-    NSMutableDictionary *_workingDictionary;
-    NSLocale *_workingLocale;
-    _Bool _workingLocaleIsAutoUpdating;
-    unsigned long long _autoUpdatingCount;
 }
 
 + (id);
 + (id);
 + (id);
-- (void);
+- (void))	;
 - (id);
 - (_Bool);
 - (id);

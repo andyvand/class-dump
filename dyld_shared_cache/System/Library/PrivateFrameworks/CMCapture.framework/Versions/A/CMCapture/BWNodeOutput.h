@@ -4,59 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWDataBufferPool, BWFormat, BWFormatRequirements, BWMemoryPool, BWNode, BWNodeConnection, BWNodeOutputMediaConfiguration, BWNodeOutputMediaProperties, BWPixelBufferPool, BWPointCloudFormat, BWVideoFormat, NSArray, NSMutableArray, NSMutableDictionary, NSObject, NSString;
-@protocol BWNodeOutputConsumer, OS_dispatch_semaphore;
+@class BWFormatRequirements, NSString;
 
 @interface BWNodeOutput
 {
     NSString *_name;
-    id <BWNodeOutputConsumer> _consumer;
-    _Bool _consumerIsANodeConnection;
-    _Bool _mediaTypeIsVideo;
-    _Bool _mediaTypeIsPointCloud;
-    unsigned int _mediaType;
-    BWNode *_node;
-    float _maxSampleDataOutputRate;
-    _Bool _dropsSampleBuffersWithUnexpectedPTS;
-    long long _requestedConfigurationID;
-    long long _liveConfigurationID;
-    _Bool _discardsSampleData;
-    unsigned int _numberOfBuffersReceived;
-    unsigned int _numberOfBuffersDropped;
-    unsigned int _numberOfConfigurationDidBecomeLiveMessagesReceived;
-    unsigned int _numberOfConfigurationEndOfDataReceived;
-    unsigned int _numberOfEndOfDataMessagesReceived;
-    unsigned int _numberOfDataDroppedMessagesReceived;
-    CDStruct_1b6d18a9 _lastValidPTS;
-    CDStruct_1b6d18a9 _lastEmittedPTS;
-    struct OpaqueFigSimpleMutex *_poolPreallocationMutex;
-    NSMutableArray *_poolPreallocationCompletionHandlers;
-    _Bool _poolPreallocationEnabled;
-    _Bool _poolPreallocationDone;
-    _Bool _receivedEOD;
-    BWNodeOutputMediaConfiguration *_primaryMediaConfiguration;
-    BWNodeOutputMediaConfiguration *_unspecifiedAttachedMediaConfiguration;
-    NSMutableDictionary *_attachedMediaConfigurations;
-    BWNodeOutputMediaProperties *_primaryMediaProperties;
-    NSMutableDictionary *_attachedMediaProperties;
-    BWMemoryPool *_memoryPool;
-    NSObject<OS_dispatch_semaphore> *_sourceEmitSemaphore;
-    unsigned int _numberOfBuffersEmitted;
-    long long _preparedConfigurationID;
 }
 
 + (void)iterAction_Start );
-- (id);
+- (id)lu;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (float);
-- (id);
-- (void);
+- (void);
+- (void)lastColumn;
+- (float)fillFocusRight;
+- (id)TSUAssetColorMap;
+- (void)HF	,H;
 - (long long);
 - (void);
 - (id);
@@ -74,7 +40,7 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long)A;
 - (id);
 - (void);
 - (id);
@@ -91,24 +57,24 @@
 - (long long);
 - (void);
 - (int);
+- (void);
+- (void);
+- (_Bool)normalizedDigits: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)d;
+- (id);
 - (_Bool);
-- (void);
-- (void);
-- (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)`;
 - (void)0@ù
 × ;
 - (void)WPixelBufferPool",R,N;
@@ -121,14 +87,14 @@
 - (int)F¼#ÿU¼'ÿe½,ÿr½1ÿ½6ÿ¾;ÿ¾Aÿ£¿Fÿ­ÀJÿ¸ÁNÿÂÂQÿÊÀOÿÒ¿NÿÚ¿Kÿã¾Iÿí¾Gÿ÷¾Fÿÿ¿Fÿÿ¿Gÿÿ¿Gÿ;
 - (void)'§;
 - (_Bool)es.count || fullBinSIFRFormatUltraHighResStillImageNondisruptiveSwitchingFormatIndices.count;
-- (id)ticFieldCount;
+- (id)BackHighMagneticFieldCount;
 - (unsigned int)e.detected-dog-head;
 - (void)s YES.;
-- (void)xtensionPropertyAttributeSettable;
-- (void)veFormat;
+- (void)CMIOExtensionPropertyAttributeSettable;
+- (void)AppliesSessionPresetMaxIntegrationTimeOverrideToActiveFormat;
 - (_Bool)st for inputs;
-- (int);
-- (id);
+- (int)_stopSupported;
+- (id)captureDeviceTypeBravo;
 - (void)ackgroundBlurSession;
 - (id)smartStyleCastType;
 - (int)GhostMitigationEnabled:] /* Error: Ran out of types for this method. */;
@@ -141,53 +107,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) BWNodeConnection *connection;
-@property(nonatomic) id <BWNodeOutputConsumer> consumer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool discardsSampleData; // @synthesize discardsSampleData=_discardsSampleData;
-@property(nonatomic) _Bool dropsSampleBuffersWithUnexpectedPTS; // @synthesize dropsSampleBuffersWithUnexpectedPTS=_dropsSampleBuffersWithUnexpectedPTS;
-@property(copy, nonatomic) BWFormat *format;
 @property(copy, nonatomic) BWFormatRequirements *formatRequirements;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int indexOfInputWhichDrivesThisOutput;
-@property(readonly, nonatomic) long long liveConfigurationID; // @synthesize liveConfigurationID=_liveConfigurationID;
-@property(readonly, nonatomic) BWDataBufferPool *liveDataBufferPool;
-@property(readonly, nonatomic) BWFormat *liveFormat;
-@property(readonly, nonatomic) BWPixelBufferPool *livePixelBufferPool;
-@property(nonatomic) float maxSampleDataOutputRate; // @synthesize maxSampleDataOutputRate=_maxSampleDataOutputRate;
-@property(readonly, nonatomic) unsigned int mediaType; // @synthesize mediaType=_mediaType;
-@property(readonly, nonatomic) _Bool mediaTypeIsPointCloud; // @synthesize mediaTypeIsPointCloud=_mediaTypeIsPointCloud;
-@property(readonly, nonatomic) _Bool mediaTypeIsVideo; // @synthesize mediaTypeIsVideo=_mediaTypeIsVideo;
-@property(retain, nonatomic) BWMemoryPool *memoryPool; // @synthesize memoryPool=_memoryPool;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) BWNode *node; // @synthesize node=_node;
-@property(readonly, nonatomic) unsigned int numberOfBuffersDropped; // @synthesize numberOfBuffersDropped=_numberOfBuffersDropped;
-@property(readonly, nonatomic) unsigned int numberOfBuffersEmitted; // @synthesize numberOfBuffersEmitted=_numberOfBuffersEmitted;
-@property(nonatomic) int owningNodeRetainedBufferCount;
-@property(nonatomic) int passthroughMode;
-@property(nonatomic) _Bool pixelBufferPoolProvidesBackPressure;
-@property(nonatomic) _Bool pixelBufferPoolReportSlowBackPressureAllocations;
-@property(readonly, nonatomic) BWPointCloudFormat *pointCloudFormat;
-@property(nonatomic) _Bool poolPreallocationEnabled; // @synthesize poolPreallocationEnabled=_poolPreallocationEnabled;
-@property(nonatomic) long long preparedConfigurationID; // @synthesize preparedConfigurationID=_preparedConfigurationID;
-@property(readonly, nonatomic) BWDataBufferPool *preparedDataBufferPool;
-@property(readonly, nonatomic) BWPixelBufferPool *preparedPixelBufferPool;
-@property(readonly, nonatomic) BWNodeOutputMediaConfiguration *primaryMediaConfiguration; // @synthesize primaryMediaConfiguration=_primaryMediaConfiguration;
-@property(readonly, nonatomic) BWNodeOutputMediaProperties *primaryMediaProperties; // @synthesize primaryMediaProperties=_primaryMediaProperties;
-@property(nonatomic) _Bool providesDataBufferPool;
-@property(nonatomic) _Bool providesPixelBufferPool;
-@property(nonatomic) long long requestedConfigurationID; // @synthesize requestedConfigurationID=_requestedConfigurationID;
-@property(readonly, nonatomic) NSArray *resolvedAttachedMediaKeys;
-@property(nonatomic) int retainedBufferCount;
-@property(retain, nonatomic) NSObject<OS_dispatch_semaphore> *sourceEmitSemaphore; // @synthesize sourceEmitSemaphore=_sourceEmitSemaphore;
-@property(readonly, nonatomic) NSArray *specifiedAttachedMediaKeys;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) BWNodeOutputMediaConfiguration *unspecifiedAttachedMediaConfiguration; // @synthesize unspecifiedAttachedMediaConfiguration=_unspecifiedAttachedMediaConfiguration;
-@property(readonly, nonatomic) BWVideoFormat *videoFormat;
 
 @end
 

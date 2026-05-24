@@ -6,7 +6,6 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, SAUINanoImageResource;
 @protocol SASTTemplateAction;
 
 @interface SASTAttributionItem : AceObject
@@ -16,7 +15,7 @@
 + (id);
 + (id);
 - (void);
-- (void);
+- (void)e;
 - (id);
 - (id);
 - (id);
@@ -24,20 +23,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)?;
 
 // Remaining properties
 @property(retain, nonatomic) id <SASTTemplateAction> action;
-@property(copy, nonatomic) NSString *attributionPosition;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SAUINanoImageResource *imageResource;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *text;
 
 @end
 

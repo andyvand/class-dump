@@ -6,35 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ASRSpeechProfileSchemaASRSpeechProfileUpdateFailed : SISchemaInstrumentationMessage
 {
     int _speechProfileUpdateFailureReason;
-    struct {
-        unsigned int speechProfileUpdateFailureReason:1;
-    } _has;
 }
 
 - (int);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)5;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)esize;
+- (id)whichMessagesize;
 - (id)	
 ;
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasSpeechProfileUpdateFailureReason;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int speechProfileUpdateFailureReason; // @synthesize speechProfileUpdateFailureReason=_speechProfileUpdateFailureReason;
 
 @end

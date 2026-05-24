@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECMessageFlags, EMSearchableMessageID, NSArray, NSDate, NSString;
-@protocol ECEmailAddressConvertible;
+@class EMSearchableMessageID;
 
 @interface EMOriginalContentMessage
 {
     EMSearchableMessageID *_searchableMessageID;
-    NSString *_bodyText;
-    NSString *_subject;
-    id <ECEmailAddressConvertible> _sender;
-    NSArray *_toList;
-    NSArray *_ccList;
-    NSDate *_date;
-    ECMessageFlags *_flags;
 }
 
 + (_Bool);
-- (id);
+- (id)HMDRemoteConnectivityMonitor;
 - (id);
 - (id);
 - (id);
@@ -30,36 +22,17 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)0;
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)ed uploads.;
 - (void)
 × ;
 - (id)È;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *bodyText; // @synthesize bodyText=_bodyText;
-@property(readonly, copy, nonatomic) NSArray *ccList; // @synthesize ccList=_ccList;
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) ECMessageFlags *flags; // @synthesize flags=_flags;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) EMSearchableMessageID *searchableMessageID; // @synthesize searchableMessageID=_searchableMessageID;
-@property(readonly, nonatomic) id <ECEmailAddressConvertible> sender; // @synthesize sender=_sender;
-@property(readonly, copy, nonatomic) NSString *subject; // @synthesize subject=_subject;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSArray *toList; // @synthesize toList=_toList;
 
 @end
 

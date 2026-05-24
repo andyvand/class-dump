@@ -8,5 +8,8 @@
 - (void)History Tracking Option - Batch Update Only Tracks Modified Properties;
 - (void)constraint;
 - (void)NSManagedObjectContextConcurrencyType;
+
+@optional
+- (void);
 @end
 

@@ -7,12 +7,10 @@
 @interface NewsFeed.FormatLayeredMediaView
 {
     id identifier;
-    id layeredMediaView;
-    id lastRenderedBounds;
 }
 
 - (id);
-- (void);
+- (void)red/utility/TSUZipReadChannel.m;
 - (id);
 - (void);
 

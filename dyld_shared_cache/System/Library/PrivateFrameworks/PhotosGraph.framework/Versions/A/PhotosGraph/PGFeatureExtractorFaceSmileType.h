@@ -10,12 +10,12 @@
 {
 }
 
-- (id);
+- (id)y;
 - (long long);
 - (id);
 - (id);
-- (id);
-- (id)ph;
+- (id)replaceFormsMetadataUsingBlock:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)PGMutableGraph;
 
 @end
 

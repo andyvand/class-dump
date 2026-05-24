@@ -10,30 +10,21 @@ __attribute__((visibility("hidden")))
 @interface NSBlurryAlleywayView : NSView
 {
     long long edge;
-    struct NSEdgeInsets punchOutEdgeInsets;
-    struct CACornerRadii punchOutCornerRadii;
-    id length;
-    id blurRadius;
-    id backdropView;
-    id gradientLayer;
-    id punchOutLayer;
 }
 
-- (void);
-- (void);
+- (void)_clientBufferLength;
+- (void)_childAssetDownloadTasksSessionIdentifier;
 - (struct NSEdgeInsets);
-- (struct CACornerRadii);
+- (struct CACornerRadii)invalidated by closed connection;
 - (void);
 - (id);
-- (id)dDrawDragged;
+- (id)_shouldDrawDragged;
 - (void)@ðòÿbí;
 - (void)«E;
 - (long long)è4pGI;
 
 // Remaining properties
 @property(nonatomic) long long edge; // @synthesize edge;
-@property(nonatomic) struct CACornerRadii punchOutCornerRadii; // @synthesize punchOutCornerRadii;
-@property(nonatomic) struct NSEdgeInsets punchOutEdgeInsets; // @synthesize punchOutEdgeInsets;
 
 @end
 

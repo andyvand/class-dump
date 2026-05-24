@@ -7,15 +7,6 @@
 @interface SoundAnalysis.SNForwardPassAudioStreamAnalyzer
 {
     id processorCache;
-    id processingContexts;
-    id processingTree;
-    id currentFormat;
-    id requests;
-    id analyzerInfos;
-    id shouldRebuildProcessingTree;
-    id totalReceivedTime;
-    id mostRecentReceivedTimeRange;
-    id latestResultEndTime;
 }
 
 @end

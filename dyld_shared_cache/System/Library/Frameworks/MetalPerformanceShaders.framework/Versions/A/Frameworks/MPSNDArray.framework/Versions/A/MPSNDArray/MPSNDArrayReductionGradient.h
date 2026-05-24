@@ -9,7 +9,6 @@
 @interface MPSNDArrayReductionGradient : MPSNDArrayUnaryGradientKernel
 {
     int _operation;
-    unsigned long long _axis;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long axis; // @synthesize axis=_axis;
-@property(readonly, nonatomic) int operation; // @synthesize operation=_operation;
 
 @end
 

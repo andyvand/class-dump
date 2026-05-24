@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol GCLinearInput, GCPressedStateInput><GCLinearInput, GCTouchedStateInput;
+@protocol GCLinearInput, GCPressedStateInput><GCLinearInput;
 
 @protocol GCButtonElement
+- (id <GCLinearInput>);
 
 // Remaining properties
-@property(readonly) id <GCLinearInput> forceInput;
 @property(readonly) id <GCPressedStateInput><GCLinearInput> pressedInput;
-@property(readonly) id <GCTouchedStateInput> touchedInput;
 @end
 

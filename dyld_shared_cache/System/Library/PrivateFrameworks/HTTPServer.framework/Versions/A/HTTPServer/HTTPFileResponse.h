@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HTTPConnection, NSString;
+@class HTTPConnection;
 
 @interface HTTPFileResponse
 {
     HTTPConnection *connection;
-    NSString *filePath;
-    unsigned long long fileLength;
-    unsigned long long fileOffset;
-    _Bool aborted;
-    int fileFD;
-    void *buffer;
-    unsigned long long bufferSize;
 }
 
 + (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)hasSPIAccess;
 - (unsigned long long);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)Trigger;
 - (unsigned long long);
 
 @end

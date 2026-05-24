@@ -11,22 +11,22 @@
     NSMutableArray *_scores;
 }
 
-+ (Class);
++ (Class)_storyQueue_advanceLayoutToStoryTime: /* Error: Ran out of types for this method. */;
 - (id);
+- (void)dInformation;
 - (void);
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)ing player to not have currentItem set;
+- (_Bool)ronizeAndReturnError failed, error %@;
 - (id);
-- (_Bool);
+- (_Bool)registryTornDown;
 - (unsigned long long);
 - (id);
 - (id);
 - (id)TPBAdEngagement";
 - (void)setModificationDate:(id)arg1;
-- (void)t: /* Error: Ran out of types for this method. */;
+- (void)setLastEntrySnapshot: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *scores; // @synthesize scores=_scores;

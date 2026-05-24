@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (OSAXformAugment)
-- (id);
+- (id)rator;
 @end
 

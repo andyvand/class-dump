@@ -11,7 +11,6 @@
 @interface QCStringMD5 : QCPatch
 {
     QCStringPort *inputString;
-    QCStringPort *outputString;
 }
 
 + (_Bool);

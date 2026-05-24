@@ -7,13 +7,10 @@
 @interface NewsUI2.ChannelPickerDetailViewController
 {
     id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id model;
-    id pickerType;
 }
 
-- (void);
+- (void)ive tap is fBusy Active 2 entry:%u
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);

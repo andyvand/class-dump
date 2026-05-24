@@ -5,5 +5,8 @@
 //
 
 @protocol AVMobileGlassVolumeControlsViewDelegate
+
+@optional
+- (void);
 @end
 

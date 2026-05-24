@@ -15,7 +15,7 @@
 }
 
 - (void);
-- (id);
+- (id)reporter:(id)arg1;
 - (id);
 - (unsigned long long);
 - (unsigned int);

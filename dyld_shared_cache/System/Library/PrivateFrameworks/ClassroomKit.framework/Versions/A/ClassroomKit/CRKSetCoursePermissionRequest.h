@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DMFControlGroupIdentifier, NSNumber, NSString;
+@class DMFControlGroupIdentifier;
 
 @interface CRKSetCoursePermissionRequest
 {
     DMFControlGroupIdentifier *_courseIdentifier;
-    NSString *_feature;
-    NSNumber *_permission;
 }
 
 + (_Bool);
 - (void);
+- (id)c;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void)Connectable:(id)arg1 withFlags: /* Error: Ran out of types for this method. */;
+- (void)browser:(id)arg1 classSessionDidBecomeConnectable:withFlags: /* Error: Ran out of types for this method. */;
 - (id)h;
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) DMFControlGroupIdentifier *courseIdentifier; // @synthesize courseIdentifier=_courseIdentifier;
-@property(retain, nonatomic) NSString *feature; // @synthesize feature=_feature;
-@property(retain, nonatomic) NSNumber *permission; // @synthesize permission=_permission;
 
 @end
 

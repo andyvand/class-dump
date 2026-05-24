@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID;
+@class NSUUID;
 
 @interface REMTimestampedUUID
 {
     NSUUID *_identifier;
-    NSDate *_modifiedOn;
 }
 
 + (_Bool);
@@ -17,8 +16,8 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)Granularity;
+- (void)7;
 - (id);
 - (id);
 - (void)0@ù
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSDate *modifiedOn; // @synthesize modifiedOn=_modifiedOn;
 
 @end
 

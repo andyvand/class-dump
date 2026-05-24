@@ -8,7 +8,6 @@
 {
     id cloudKeyValueStore;
     id offlineKeyValueStore;
-    id cloudKeyValueStoreManager;
 }
 
 @end

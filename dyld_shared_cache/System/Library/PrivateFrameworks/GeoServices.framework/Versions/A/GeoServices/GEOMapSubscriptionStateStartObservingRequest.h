@@ -6,36 +6,27 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface GEOMapSubscriptionStateStartObservingRequest : GEOXPCRequest
 {
     _Bool _sendInitialUpdate;
-    NSArray *_identifiers;
 }
 
-+ (Class);
++ (Class)bind:toObject:withKeyPath:options: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)parser:foundUnparsedEntityDeclarationWithName:publicID:systemID:notationName: /* Error: Ran out of types for this method. */;
+- (void)canSpeakWrittenAddresses;
 - (void)¥2;
 - (id)ìê;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSArray *identifiers; // @synthesize identifiers=_identifiers;
-@property(nonatomic) _Bool sendInitialUpdate; // @synthesize sendInitialUpdate=_sendInitialUpdate;
-@property(readonly) Class superclass;
 
 @end
 

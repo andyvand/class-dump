@@ -6,24 +6,16 @@
 
 #import <AVFCore/AVDelegatingPlaybackCoordinatorPlaybackControlCommand.h>
 
-@class AVCoordinatedPlaybackParticipant, AVDelegatingPlaybackCoordinator, NSDate, NSString;
+@class AVDelegatingPlaybackCoordinator;
 
 @interface AVDelegatingPlaybackCoordinatorSeekCommand : AVDelegatingPlaybackCoordinatorPlaybackControlCommand
 {
     AVDelegatingPlaybackCoordinator *_coordinator;
-    AVCoordinatedPlaybackParticipant *_originator;
-    NSString *_expectedCurrentItemIdentifier;
-    long long _commandOrderIndex;
-    CDStruct_1b6d18a9 _itemTime;
-    _Bool _shouldPause;
-    _Bool _shouldBufferInAnticipationOfPlayback;
-    float _anticipatedPlaybackRate;
-    NSDate *_completionDueDate;
 }
 
 - (_Bool);
 - (CDStruct_1b6d18a9);
-- (id);
+- (id)];
 - (id);
 - (id);
 - (float);
@@ -32,10 +24,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) float anticipatedPlaybackRate; // @synthesize anticipatedPlaybackRate=_anticipatedPlaybackRate;
-@property(readonly, nonatomic) NSDate *completionDueDate; // @synthesize completionDueDate=_completionDueDate;
 @property(readonly, nonatomic) CDStruct_1b6d18a9 itemTime; // @synthesize itemTime=_itemTime;
-@property(readonly, nonatomic) _Bool shouldBufferInAnticipationOfPlayback; // @synthesize shouldBufferInAnticipationOfPlayback=_shouldBufferInAnticipationOfPlayback;
 
 @end
 

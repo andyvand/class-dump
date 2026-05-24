@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue, OS_xpc_object, XPCClientConnectionDelegate;
+@class NSString;
+@protocol XPCClientConnectionDelegate;
 
 @interface XPCClientConnection
 {
     NSString *_serviceName;
-    NSObject<OS_xpc_object> *_connection;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <XPCClientConnectionDelegate> _delegate;
 }
 
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)d a non-boolean value for 'PPQCheck'.;
 - (void);
 - (id);
 - (void);

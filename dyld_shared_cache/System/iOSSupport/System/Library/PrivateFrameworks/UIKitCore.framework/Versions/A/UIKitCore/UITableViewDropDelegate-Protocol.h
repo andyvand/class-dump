@@ -5,5 +5,8 @@
 //
 
 @protocol UITableViewDropDelegate
+
+@optional
+- (void);
 @end
 

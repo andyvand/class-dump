@@ -13,7 +13,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id))@8);
 - (void)item %s should not be translated.;
 
 @end

@@ -11,21 +11,19 @@
 @interface EWSAttachmentIdType : EWSRequestAttachmentIdType
 {
     NSString *_RootItemId;
-    NSString *_RootItemChangeKey;
 }
 
-+ (_Bool);
++ (_Bool)ingBox:inImageWithSize:withNetwork:activations:invert: /* Error: Ran out of types for this method. */;
 + (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)N5boost6detail17sp_counted_impl_pINS_8signals26detail11signal_implIFvvENS2_19optional_last_valueIvEEiNSt3__14lessIiEENS_8functionIS5_EENSB_IFvRKNS2_10connectionEEEENS2_5mutexEE16invocation_stateEEE;
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *RootItemChangeKey; // @synthesize RootItemChangeKey=_RootItemChangeKey;
 @property(copy, nonatomic) NSString *RootItemId; // @synthesize RootItemId=_RootItemId;
 
 @end

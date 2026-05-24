@@ -8,15 +8,10 @@ __attribute__((visibility("hidden")))
 @interface BWTimeSkew
 {
     CDStruct_1b6d18a9 _native;
-    CDStruct_1b6d18a9 _original;
-    CDStruct_1b6d18a9 _adjusted;
-    _Bool _isBracketFrame;
-    _Bool _isSISFrame;
-    _Bool _isStartOfDiscontinuity;
 }
 
-- (_Bool);
-- (void);
+- (_Bool)8^{_xmlDoc=^vi*^{_xmlNode}^{_xmlNode}^{_xmlNode}^{_xmlNode}^{_xmlNode}^{_xmlDoc}ii^{_xmlDtd}^{_xmlDtd}^{_xmlNs}**^v^v*i^{_xmlDict}^vii}16@24;
+- (void)setFormatterBehavior:(CDStruct_1b6d18a9)arg1;
 - (id);
 - (CDStruct_1b6d18a9);
 - (_Bool);
@@ -25,15 +20,10 @@ __attribute__((visibility("hidden")))
 - (CDStruct_1b6d18a9);
 - (CDStruct_1b6d18a9);
 - (void);
-- (id)nfoDict;
+- (id)csu_createBackingsFromCaptureSourceInfoDict;
 
 // Remaining properties
-@property(nonatomic) CDStruct_1b6d18a9 adjusted; // @synthesize adjusted=_adjusted;
-@property(readonly, nonatomic) _Bool isBracketFrame; // @synthesize isBracketFrame=_isBracketFrame;
-@property(readonly, nonatomic) _Bool isSISFrame; // @synthesize isSISFrame=_isSISFrame;
-@property(nonatomic) _Bool isStartOfDiscontinuity; // @synthesize isStartOfDiscontinuity=_isStartOfDiscontinuity;
 @property(readonly, nonatomic) CDStruct_1b6d18a9 native; // @synthesize native=_native;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 original; // @synthesize original=_original;
 
 @end
 

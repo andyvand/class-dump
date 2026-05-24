@@ -9,24 +9,17 @@
 @interface MTEpisodeEnclosureMetadata
 {
     void priceTypeRawValue;
-    void assetUrl;
-    double durationInMilliseconds;
-    _Bool hasDuration;
-    id mediaKindsString;
 }
 
 - (id);
 - (id);
 - (id);
 - (double);
-- (id);
+- (id)i;
 - (_Bool);
 - (void)UQy0_;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *assetUrl;
-@property(nonatomic, readonly) double durationInMilliseconds; // @synthesize durationInMilliseconds;
-@property(nonatomic, readonly) _Bool hasDuration; // @synthesize hasDuration;
 @property(nonatomic, readonly) NSString *priceTypeRawValue;
 
 @end

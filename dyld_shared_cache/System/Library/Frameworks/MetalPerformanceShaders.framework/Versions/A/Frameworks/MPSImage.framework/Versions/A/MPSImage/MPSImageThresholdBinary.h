@@ -17,15 +17,13 @@
 - (id);
 - (id);
 - (const float *);
-- (void);
+- (void)ortAge:(id)arg1;
 - (float);
 - (id);
 - (id)X!¾?ü©Í¿;Ø±?ð t?L+Å1à?;
 
 // Remaining properties
-@property(readonly, nonatomic) float maximumValue;
 @property(readonly, nonatomic) float thresholdValue;
-@property(readonly, nonatomic) const float *transform;
 
 @end
 

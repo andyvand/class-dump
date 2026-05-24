@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSImage, NSString, NSURL;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SHKMailCollaborationShareItem
 {
     NSString *_subject;
-    NSString *_body;
 }
 
 - (id);
@@ -19,39 +18,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)selectionShouldChangeInTableView: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *body; // @synthesize body=_body;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, retain) NSData *shareItemData;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSData",?,R,&
-
-@property(readonly, retain) NSImage *shareItemImage;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSImage",?,R,&
-
-@property(readonly, retain) NSString *shareItemString;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,&
-
-@property(readonly, retain) NSString *shareItemType;
-@property(readonly, retain) NSURL *shareItemURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,&
-
 @property(copy, nonatomic) NSString *subject; // @synthesize subject=_subject;
-@property(readonly) Class superclass;
 
 @end
 

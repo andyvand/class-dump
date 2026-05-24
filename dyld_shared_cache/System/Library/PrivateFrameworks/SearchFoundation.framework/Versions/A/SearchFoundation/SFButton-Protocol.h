@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, SFImage;
+@class SFImage;
 
 @protocol SFButton
-- (_Bool);
+- (void)ngEnabledForAccessoryWithRouteID:(SFImage *)arg1 ] failed to fetch privateListeningSetting [userListeningControl=nil];
+- (SFImage *);
+- (_Bool)_version;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(retain, nonatomic) SFImage *image;
-@property(nonatomic) _Bool isSelected;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFImage *selectedImage;
 @end
 

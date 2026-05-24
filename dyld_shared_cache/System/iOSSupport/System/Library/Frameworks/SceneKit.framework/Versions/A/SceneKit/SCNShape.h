@@ -11,16 +11,10 @@
 @interface SCNShape : SCNGeometry
 {
     float _chamferRadius;
-    float _extrusionDepth;
-    float _discretizedStraightLineMaxLength;
-    UIBezierPath *_chamferProfile;
-    long long _primitiveType;
-    long long _chamferMode;
-    UIBezierPath *_path;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)dLogin:inFrame:webView:completionHandler:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -31,7 +25,7 @@
 - (id);
 - (double);
 - (id);
-- (long long);
+- (long long);
 - (void);
 - (void);
 - (void);
@@ -45,7 +39,7 @@
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id)ckAppBundleIDs;
 - (id);
 - (void);
 - (void);
@@ -355,10 +349,6 @@ __DoFragmentModifier__
 ;
 
 // Remaining properties
-@property(nonatomic) long long chamferMode;
-@property(copy, nonatomic) UIBezierPath *chamferProfile;
-@property(nonatomic) double chamferRadius;
-@property(nonatomic) double extrusionDepth;
 @property(copy, nonatomic) UIBezierPath *path;
 
 @end

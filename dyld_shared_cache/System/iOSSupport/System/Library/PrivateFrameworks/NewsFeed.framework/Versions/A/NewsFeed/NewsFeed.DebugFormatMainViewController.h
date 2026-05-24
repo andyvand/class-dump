@@ -7,28 +7,6 @@
 @interface NewsFeed.DebugFormatMainViewController
 {
     id editor;
-    id styler;
-    id socketServer;
-    id sidebarViewController;
-    id sidebarNavigationController;
-    id editorViewController;
-    id editorNavigationController;
-    id inventoryViewController;
-    id layoutTreeViewController;
-    id bindingViewController;
-    id compilerViewController;
-    id logViewController;
-    id debuggerViewController;
-    id debuggerRestoreState;
-    id consoleViewController;
-    id fileViewController;
-    id sourceViewController;
-    id styleViewController;
-    id optionViewController;
-    id selectorViewController;
-    id animationViewController;
-    id maskViewController;
-    id historyViewController;
 }
 
 - (void);

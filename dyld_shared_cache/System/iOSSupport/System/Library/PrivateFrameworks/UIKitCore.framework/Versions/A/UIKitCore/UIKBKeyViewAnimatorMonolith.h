@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIKBKeyViewAnimator.h>
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface UIKBKeyViewAnimatorMonolith : UIKBKeyViewAnimator
@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *_transitionCompletions;
 }
 
-- (void);
+- (void)ary>"32@0:8@"<MTLLibrary>"16^@24 /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
 - (_Bool);
@@ -29,19 +29,13 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)0@ù
 × ;
-- (void)reRecognizer;
+- (void)_installBackGestureRecognizer;
 - (void)ted split view controller column visibility (%ld);
 - (void)ToolbarVisualProviderLegacyIOS.m;
 - (void)¢;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

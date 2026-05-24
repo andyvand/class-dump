@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOutputStream, NSString, PBDataWriter;
+@class PBDataWriter;
 
 @interface FCKeyValueStoreWriter
 {
     PBDataWriter *_dataWriter;
-    NSString *_tempFilePath;
-    NSOutputStream *_tempFileOutputStream;
 }
 
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)asePlayerOutput>"8;
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (id)aches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCNotificationController.m;
-- (void)dArticleID;
+- (void)lastVisitedArticleID;
 
 // Remaining properties
 @property(readonly, nonatomic) PBDataWriter *dataWriter; // @synthesize dataWriter=_dataWriter;
-@property(readonly, nonatomic) NSOutputStream *tempFileOutputStream; // @synthesize tempFileOutputStream=_tempFileOutputStream;
-@property(readonly, nonatomic) NSString *tempFilePath; // @synthesize tempFilePath=_tempFilePath;
 
 @end
 

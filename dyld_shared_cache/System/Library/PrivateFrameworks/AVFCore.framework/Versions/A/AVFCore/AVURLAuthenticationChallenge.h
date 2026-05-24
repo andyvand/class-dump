@@ -4,38 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVWeakReference, NSString;
+@class AVWeakReference;
 
 __attribute__((visibility("hidden")))
 @interface AVURLAuthenticationChallenge
 {
     AVWeakReference *_weakReference;
-    unsigned long long _requestID;
-    struct __CFDictionary *_requestInfo;
 }
 
 + (SEL);
 - (void);
-- (id);
+- (id)`;
 - (id);
 - (struct __CFDictionary *);
 - (void);
 - (id);
-- (id);
+- (id)�v
+;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)handleErrorForRegisteredSmartcards:forToken: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long _requestID;
-@property(readonly, nonatomic) struct __CFDictionary *_requestInfo; // @synthesize _requestInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

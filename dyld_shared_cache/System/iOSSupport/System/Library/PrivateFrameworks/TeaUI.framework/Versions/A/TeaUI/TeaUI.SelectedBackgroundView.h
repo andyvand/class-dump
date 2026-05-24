@@ -7,13 +7,11 @@
 @interface TeaUI.SelectedBackgroundView
 {
     id insets;
-    id cornerRadius;
-    id styling;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)so-coread;
+- (id)setTrendingStyle:(struct CGRect)arg1;
 - (void);
 
 @end

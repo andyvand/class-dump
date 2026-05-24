@@ -24,7 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *explicitUserPermission;
-@property(copy, nonatomic) NSString *socialNetwork;
 
 @end
 

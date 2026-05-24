@@ -14,8 +14,8 @@
 }
 
 - (id);
-- (id);
-- (void)elItems: /* Error: Ran out of types for this method. */;
+- (id)kCBLePipeMsgArglocalCLFeatures;
+- (void)setLabelItems: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *checkInURLs;

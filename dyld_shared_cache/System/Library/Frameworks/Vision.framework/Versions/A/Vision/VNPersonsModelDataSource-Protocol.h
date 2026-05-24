@@ -5,5 +5,9 @@
 //
 
 @protocol VNPersonsModelDataSource
+- (unsigned long long);
+
+@optional
+- (unsigned long long);
 @end
 

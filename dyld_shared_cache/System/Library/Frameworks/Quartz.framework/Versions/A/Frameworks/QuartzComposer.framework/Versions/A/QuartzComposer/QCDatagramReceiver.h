@@ -12,7 +12,7 @@
 
 - (id);
 - (id);
-- (id);
+- (id)le to merge new media system with object:(unsigned int)arg1 %@;
 
 @end
 

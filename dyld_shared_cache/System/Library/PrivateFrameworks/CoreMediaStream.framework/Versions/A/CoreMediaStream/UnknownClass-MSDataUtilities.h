@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (MSDataUtilities)
-- (id);
-- (id);
-- (id);
+- (id)PeripheralDeviceNodeTypeEvent;
+- (id)of type HMDThreadNetworkPeripheralDeviceNodeTypeEvent;
+- (id)ssfully stopped Thread network;
 @end
 

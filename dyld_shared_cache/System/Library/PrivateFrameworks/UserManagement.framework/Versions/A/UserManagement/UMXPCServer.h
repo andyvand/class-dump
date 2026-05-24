@@ -4,49 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSMutableArray, NSObject, NSString, NSXPCConnection, NSXPCListener;
-@protocol UMSideEffectsProviding;
-
 @interface UMXPCServer
 {
     _Bool _currentlyBroadcastingWillSwitchToUser;
-    _Bool _didRegisterStakeholder;
-    _Bool _didBroadcastWillSwitchToUser;
-    _Bool _didSendTasks;
-    _Bool _didBroadcastUploadContent;
-    _Bool _didRegisterPersonaCalbackStakeholder;
-    unsigned int _interruptionRetryCount;
-    NSObject<UMSideEffectsProviding> *_se;
-    id _stakeholder;
-    unsigned long long _stakeholderType;
-    NSString *_machServiceName;
-    unsigned long long _unregistrationStatus;
-    NSString *_unregistrationReason;
-    NSDictionary *_personaSpec;
-    NSData *_passcodeData;
-    NSData *_contextData;
-    NSDictionary *_preferencesDict;
-    NSDictionary *_personaProfileDict;
-    NSDictionary *_provisionDict;
-    CDUnknownBlockType _provisionCompletionHandler;
-    CDUnknownBlockType _registrationCompletionHandler;
-    CDUnknownBlockType _switchCompletionHandler;
-    CDUnknownBlockType _suspendQuotasCompletionHandler;
-    CDUnknownBlockType _directSwitchCompletionHandler;
-    CDUnknownBlockType _logoutToLoginSessionCompletionHandler;
-    CDUnknownBlockType _loginUICheckinSessionCompletionHandler;
-    CDUnknownBlockType _uploadContentCompletionHandler;
-    CDUnknownBlockType _willSwitchCompletionHandler;
-    NSMutableArray *_switchBlockingTasks;
-    NSMutableArray *_syncTasks;
-    CDUnknownBlockType _bubblePopHandler;
-    unsigned long long _willSwitchToUserAddedTaskCount;
-    NSXPCConnection *_xpcConnection;
-    NSXPCConnection *_syncConnection;
-    NSXPCListener *_xpcListener;
-    id _personaStakeholder;
-    CDUnknownBlockType _personaRegistrationCompletionHandler;
-    id _personaUpdateCallbackStakeholder;
 }
 
 - (void);
@@ -54,10 +14,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)(y(;
+- (void)sion matrix;
 - (void);
 - (id);
+- (void);
+- (void)7;
 - (void);
 - (void);
 - (void);
@@ -69,9 +31,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)setRecordIDsToShareReadWrite:(CDUnknownBlockType)arg1;
 - (_Bool);
 - (void);
 - (void);
@@ -80,13 +40,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

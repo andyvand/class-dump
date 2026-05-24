@@ -4,38 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 __attribute__((visibility("hidden")))
 @interface MPPMediaPredicateValue
 {
     double _doublePredicateValue;
-    long long _integerPredicateValue;
-    NSData *_bytesPredicateValue;
-    float _floatPredicateValue;
-    NSString *_stringPredicateValue;
-    int _type;
-    _Bool _boolPredicateValue;
-    struct {
-        unsigned int doublePredicateValue:1;
-        unsigned int integerPredicateValue:1;
-        unsigned int floatPredicateValue:1;
-        unsigned int boolPredicateValue:1;
-    } _has;
 }
 
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (long long);
+- (void);
+- (long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -49,29 +35,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)scoreTopics:scoringDate:decayRate:strictFiltering:sourceStats:decayedFeedbackCounts:streamingScorer:mlModel: /* Error: Ran out of types for this method. */;
+- (_Bool)JA;
 - (int);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void)NG__;
+- (id);
+- (void)__MPModelPropertyPlaylistType__MAPPING_MISSING__;
 
 // Remaining properties
-@property(nonatomic) _Bool boolPredicateValue; // @synthesize boolPredicateValue=_boolPredicateValue;
-@property(retain, nonatomic) NSData *bytesPredicateValue; // @synthesize bytesPredicateValue=_bytesPredicateValue;
-@property(nonatomic) double doublePredicateValue; // @synthesize doublePredicateValue=_doublePredicateValue;
-@property(nonatomic) float floatPredicateValue; // @synthesize floatPredicateValue=_floatPredicateValue;
-@property(nonatomic) _Bool hasBoolPredicateValue;
-@property(readonly, nonatomic) _Bool hasBytesPredicateValue;
-@property(nonatomic) _Bool hasDoublePredicateValue;
-@property(nonatomic) _Bool hasFloatPredicateValue;
-@property(nonatomic) _Bool hasIntegerPredicateValue;
-@property(readonly, nonatomic) _Bool hasStringPredicateValue;
-@property(nonatomic) long long integerPredicateValue; // @synthesize integerPredicateValue=_integerPredicateValue;
-@property(retain, nonatomic) NSString *stringPredicateValue; // @synthesize stringPredicateValue=_stringPredicateValue;
 @property(nonatomic) int type; // @synthesize type=_type;
 
 @end

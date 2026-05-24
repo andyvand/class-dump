@@ -9,22 +9,6 @@
 @interface PencilKit.RefineRenderer : PencilKit.TiledViewRenderer
 {
     id device;
-    id commandQueue;
-    id pipelineState;
-    id maskTexture;
-    id vertices;
-    id indices;
-    id indicesCount;
-    id vertices2;
-    id indices2;
-    id indicesCount2;
-    id vertices3;
-    id indices3;
-    id indicesCount3;
-    id texture;
-    id texture2;
-    id depth;
-    id depth2;
 }
 
 - (void);

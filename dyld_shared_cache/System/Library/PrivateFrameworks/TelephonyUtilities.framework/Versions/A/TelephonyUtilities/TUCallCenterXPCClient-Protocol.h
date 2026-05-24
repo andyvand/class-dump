@@ -5,5 +5,9 @@
 //
 
 @protocol TUCallCenterXPCClient
+- (oneway void)q;
+- (oneway void));
+- (oneway void)h
+;
 @end
 

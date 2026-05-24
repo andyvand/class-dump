@@ -11,18 +11,16 @@
 @interface CKSyncEngineFetchedDatabaseChangesEvent : CKSyncEngineEvent
 {
     NSArray *_modifications;
-    NSArray *_deletions;
 }
 
 - (id);
-- (id);
+- (id).;
 - (id);
 - (long long);
-- (void);
-- (void)taMetadataOperationInfo;
+- (void)RMangledID"16@"NSString"24;
+- (void)CKFetchMergeableDeltaMetadataOperationInfo;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *deletions; // @synthesize deletions=_deletions;
 @property(readonly, copy, nonatomic) NSArray *modifications; // @synthesize modifications=_modifications;
 
 @end

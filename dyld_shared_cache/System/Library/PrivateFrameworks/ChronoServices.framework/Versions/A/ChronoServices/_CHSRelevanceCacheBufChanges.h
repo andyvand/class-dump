@@ -7,15 +7,12 @@
 @interface _CHSRelevanceCacheBufChanges
 {
     unsigned char _changeTypeArchivedObjects;
-    unsigned int _replacementArchivedObjects;
-    unsigned char _changeTypeGroups;
-    unsigned int _replacementGroups;
 }
 
+- (void)?;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)N?;
 - (void);
 - (void);
 

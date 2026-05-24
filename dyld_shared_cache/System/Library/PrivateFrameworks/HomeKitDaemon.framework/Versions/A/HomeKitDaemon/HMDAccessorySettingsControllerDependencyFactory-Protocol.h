@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMDAccessorySettingModel;
+@protocol HMDAccessorySettingsMessageHandler;
+
 @protocol HMDAccessorySettingsControllerDependencyFactory
+- (HMDAccessorySettingModel *);
+- (id <HMDAccessorySettingsMessageHandler>)for handle %@ with MSPSharedTripCapabilityType_Unknown. Already waiting for response.;
+- (void);
 @end
 

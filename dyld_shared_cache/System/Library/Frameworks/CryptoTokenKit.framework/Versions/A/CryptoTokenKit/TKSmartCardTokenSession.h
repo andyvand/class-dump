@@ -11,7 +11,6 @@
 @interface TKSmartCardTokenSession : TKTokenSession
 {
     TKSmartCard *_smartCard;
-    _Bool _hasSession;
 }
 
 - (id);
@@ -20,7 +19,7 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)hentication_Private.LANTLMManager;
 
 // Remaining properties
 @property(readonly) TKSmartCard *smartCard;

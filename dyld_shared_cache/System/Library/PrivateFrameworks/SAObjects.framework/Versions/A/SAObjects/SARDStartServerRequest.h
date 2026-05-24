@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAStartRequest.h>
 
-@class NSArray, NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface SARDStartServerRequest : SAStartRequest
 {
@@ -14,33 +14,26 @@
 
 - (_Bool);
 - (void);
+- (void)(a@9H;
 - (void);
 - (void);
 - (void);
+- (id);
+- (id);
+- (id);
+- (id)hh8);
+- (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
-- (id)meSnippet;
+- (id)showtimeSnippet;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *audioDestination;
-@property(copy, nonatomic) NSString *audioSource;
-@property(copy, nonatomic) NSArray *bargeInModes;
-@property(copy, nonatomic) NSString *deviceModel;
-@property(copy, nonatomic) NSNumber *durationSincePreviousTTSFinish;
-@property(copy, nonatomic) NSNumber *durationSincePreviousTTSStart;
-@property(nonatomic) _Bool textRequest;
-@property(copy, nonatomic) NSDictionary *voiceTriggerEventInfo;
 
 @end
 

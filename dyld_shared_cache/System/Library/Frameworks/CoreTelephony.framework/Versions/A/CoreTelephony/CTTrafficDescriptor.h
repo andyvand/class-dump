@@ -4,25 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CTTrafficDescriptor
 {
     NSString *_bundleId;
-    NSString *_appCategory;
-    NSString *_accountId;
-    NSString *_host;
-    NSString *_address;
-    NSNumber *_llphs;
-    NSNumber *_port;
-    NSNumber *_portRangeLow;
-    NSNumber *_portRangeUpper;
-    NSNumber *_ipProtocol;
-    NSNumber *_trafficClass;
-    NSString *_dnn;
 }
 
-+ (_Bool);
++ (_Bool)cannot be called after calling %@;
 - (void);
 - (void);
 - (void);
@@ -32,17 +21,17 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)�?;
 - (void);
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (id)flushInterval;
+- (void)templatedModalView;
+- (id);
+- (void)redactInternalError:(id)arg1;
 - (id);
 - (id);
 - (void);
@@ -50,22 +39,11 @@
 - (void);
 - (id);
 - (void);
-- (void)adio;
+- (void)Radio;
 - (id)òÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accountId; // @synthesize accountId=_accountId;
-@property(retain, nonatomic) NSString *address; // @synthesize address=_address;
-@property(retain, nonatomic) NSString *appCategory; // @synthesize appCategory=_appCategory;
 @property(retain, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(retain, nonatomic) NSString *dnn; // @synthesize dnn=_dnn;
-@property(retain, nonatomic) NSString *host; // @synthesize host=_host;
-@property(retain, nonatomic) NSNumber *ipProtocol; // @synthesize ipProtocol=_ipProtocol;
-@property(retain, nonatomic) NSNumber *llphs; // @synthesize llphs=_llphs;
-@property(retain, nonatomic) NSNumber *port; // @synthesize port=_port;
-@property(retain, nonatomic) NSNumber *portRangeLow; // @synthesize portRangeLow=_portRangeLow;
-@property(retain, nonatomic) NSNumber *portRangeUpper; // @synthesize portRangeUpper=_portRangeUpper;
-@property(retain, nonatomic) NSNumber *trafficClass; // @synthesize trafficClass=_trafficClass;
 
 @end
 

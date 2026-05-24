@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class LACRemoteUIParams;
+
 @protocol LACRemoteUIManaging
+- (void):(LACRemoteUIParams *)arg1:(void (^)(_Bool, NSError *))arg2 initialize() - invalid layer size;
+- (void)e must be the same;
+- (void)ncorrect data size;
+- (void)ad %s from file %s;
+- (void)in file %s, but not found in expected place.;
+- (void)ze;
 @end
 

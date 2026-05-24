@@ -23,8 +23,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)NSt3__116__owns_one_stateIcEE;
+- (void)getWatchdogParameters: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

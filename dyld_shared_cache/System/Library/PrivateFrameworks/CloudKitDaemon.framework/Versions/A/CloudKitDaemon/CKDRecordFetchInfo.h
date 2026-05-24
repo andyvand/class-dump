@@ -4,39 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecord, CKRecordID, NSError, NSObject, NSString;
-@protocol OS_dispatch_source;
-
 @interface CKDRecordFetchInfo
 {
     _Bool _ignoreErrors;
-    double _startDate;
-    unsigned long long _fetchOrder;
-    CKRecordID *_recordID;
-    NSString *_etag;
-    unsigned long long _state;
-    CKRecord *_record;
-    NSError *_error;
-    CDUnknownBlockType _completionBlock;
-    NSObject<OS_dispatch_source> *_recordReadySource;
 }
 
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)appleSlideshow_SlideshowAttribute_PhotoAttributesLandscape;
 - (id);
 - (void);
-- (id);
-- (id);
+- (void);
 - (id);
 - (void);
 - (id);
+- (id);
+- (id);
+- (void);
+- (id)setHasWpsIE: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (unsigned long long);
-- (double);
-- (void);
+- (double);
+- (void)@;
 - (_Bool);
 - (id);
 - (void);
@@ -47,16 +35,7 @@
 - (void)temID %ld;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) NSString *etag; // @synthesize etag=_etag;
 @property(nonatomic) unsigned long long fetchOrder; // @synthesize fetchOrder=_fetchOrder;
-@property(nonatomic) _Bool ignoreErrors; // @synthesize ignoreErrors=_ignoreErrors;
-@property(retain, nonatomic) CKRecord *record; // @synthesize record=_record;
-@property(retain, nonatomic) CKRecordID *recordID; // @synthesize recordID=_recordID;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *recordReadySource; // @synthesize recordReadySource=_recordReadySource;
-@property(readonly, nonatomic) double startDate; // @synthesize startDate=_startDate;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
 
 @end
 

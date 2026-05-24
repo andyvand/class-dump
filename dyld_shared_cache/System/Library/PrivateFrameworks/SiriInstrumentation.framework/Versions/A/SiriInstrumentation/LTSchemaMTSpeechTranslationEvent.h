@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface LTSchemaMTSpeechTranslationEvent : SISchemaInstrumentationMessage
 {
     NSString *_requestID;
-    NSString *_selectedLocale;
-    int _responseTimeMs;
-    struct {
-        unsigned int responseTimeMs:1;
-    } _has;
-    _Bool _hasRequestID;
-    _Bool _hasSelectedLocale;
 }
 
 - (void);
@@ -30,31 +23,25 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)b;
 - (void);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)5;
 - (_Bool);
 - (id);
 - (id)! Bùßð1Â0@ù
 × ;
-- (void)vesIndexSelectedByUser:(id)arg1;
+- (void)setAlternativesIndexSelectedByUser:(id)arg1;
 - (id)kEnvelopeStatistics",&,N,V_envelopeStatistics;
 - (id)equestContext",&,N,V_requestContext;
-- (_Bool)kCount;
+- (_Bool)completedUITaskCount;
 - (void)ÁÝ!;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRequestID; // @synthesize hasRequestID=_hasRequestID;
-@property(nonatomic) _Bool hasResponseTimeMs;
-@property(nonatomic) _Bool hasSelectedLocale; // @synthesize hasSelectedLocale=_hasSelectedLocale;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
-@property(nonatomic) int responseTimeMs; // @synthesize responseTimeMs=_responseTimeMs;
-@property(copy, nonatomic) NSString *selectedLocale; // @synthesize selectedLocale=_selectedLocale;
 
 @end
 

@@ -7,9 +7,6 @@
 @interface NewsUI2.MagazineSectionsDataManager
 {
     id accessQueue;
-    id bundleSubscriptionManager;
-    id magazineSectionBarModule;
-    id magazineSectionService;
 }
 
 @end

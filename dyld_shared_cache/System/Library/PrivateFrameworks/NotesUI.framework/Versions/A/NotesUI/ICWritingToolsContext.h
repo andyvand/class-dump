@@ -9,7 +9,6 @@
 @interface ICWritingToolsContext
 {
     NSAttributedString *_originalString;
-    NSDictionary *_rangeMapping;
 }
 
 - (void);
@@ -19,10 +18,9 @@
 - (void);
 - (void);
 - (id);
-- (void):fittingSize: /* Error: Ran out of types for this method. */;
+- (void)boundingRectForAttributedString:fittingSize: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSAttributedString *originalString; // @synthesize originalString=_originalString;
 @property(retain, nonatomic) NSDictionary *rangeMapping; // @synthesize rangeMapping=_rangeMapping;
 
 @end

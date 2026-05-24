@@ -7,8 +7,6 @@
 @interface ChatKit.SearchSeeAllNavigationDestination
 {
     id config;
-    id id;
-    id searchViewController;
 }
 
 @end

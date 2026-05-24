@@ -4,35 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSString;
 
 @interface PGHolidayDateSummarizedFeature
 {
     _Bool _isMandatoryForKeyAsset;
-    unsigned short _type;
-    NSSet *_intervalsPresent;
-    NSString *_holidayName;
 }
 
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)_windowMovedNotification: /* Error: Ran out of types for this method. */;
+- (id)_signalSelectionChanged: /* Error: Ran out of types for this method. */;
+- (id)cationController:(id)arg1 ,V__applicationController;
 - (id);
 - (unsigned short);
 - (void)PGSharedLibrarySuggestionsProcessorIncremental;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *holidayName; // @synthesize holidayName=_holidayName;
-@property(readonly, nonatomic) NSSet *intervalsPresent; // @synthesize intervalsPresent=_intervalsPresent;
-@property(readonly, nonatomic) _Bool isMandatoryForKeyAsset; // @synthesize isMandatoryForKeyAsset=_isMandatoryForKeyAsset;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned short type; // @synthesize type=_type;
 
 @end
 

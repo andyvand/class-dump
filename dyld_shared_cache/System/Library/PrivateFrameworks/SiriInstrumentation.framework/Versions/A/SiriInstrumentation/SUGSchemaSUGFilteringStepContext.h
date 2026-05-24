@@ -6,47 +6,38 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SUGSchemaSUGFilteringStepEnded, SUGSchemaSUGFilteringStepStarted;
+@class SUGSchemaSUGFilteringStepStarted;
 
 @interface SUGSchemaSUGFilteringStepContext : SISchemaInstrumentationMessage
 {
     SUGSchemaSUGFilteringStepStarted *_startedOrChanged;
-    SUGSchemaSUGFilteringStepEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)	;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)*;
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)rotocol><NSXPCProxyCreating>"@"NSError">16;
+- (_Bool)ceTimeAudioButton;
+- (_Bool)eSMS DB migration failed to add column share_direction to the message table.;
 - (id);
 - (id);
-- (id)amplesPositive;
-- (id)hasTestExecutionEvent;
+- (id)deleteNumAppExamplesPositive;
+- (id)_hasTestExecutionEvent;
 - (void)iClientEvent.ODDDictationExperimentDigestsReported;
 
 // Remaining properties
-@property(retain, nonatomic) SUGSchemaSUGFilteringStepEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SUGSchemaSUGFilteringStepStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

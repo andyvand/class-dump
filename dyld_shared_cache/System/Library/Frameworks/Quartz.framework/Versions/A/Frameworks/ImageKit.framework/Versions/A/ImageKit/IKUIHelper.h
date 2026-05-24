@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSView;
-@protocol IKUIHelper;
+@class NSView;
 
 @interface IKUIHelper
 {
     NSView *dynamicView;
-    id <IKUIHelper> _delegate;
-    _Bool useAquaTheme;
-    _Bool delegateImplementsDefaultRectForIdentifier;
-    _Bool delegateImplementsControlSizeForIdentifier;
-    NSMutableArray *_removableConstraints;
-    NSMutableArray *_permanentConstraints;
-    _Bool debugLoggingEnabled;
-    struct CGRect defaultRect;
 }
 
 - (void);
@@ -36,10 +27,10 @@
 - (id);
 - (id);
 - (id);
+- (id)Z;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -60,8 +51,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool debugLoggingEnabled; // @synthesize debugLoggingEnabled;
-@property(nonatomic) id <IKUIHelper> delegate; // @synthesize delegate=_delegate;
 @property NSView *dynamicView; // @synthesize dynamicView;
 
 @end

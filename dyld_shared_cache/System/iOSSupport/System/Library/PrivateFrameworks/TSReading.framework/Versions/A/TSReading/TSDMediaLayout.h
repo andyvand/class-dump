@@ -6,26 +6,18 @@
 
 #import <TSReading/TSDStyledLayout.h>
 
-@class TSDMutableStroke;
-
 @interface TSDMediaLayout : TSDStyledLayout
 {
     struct CGRect mCachedAlignmentFrame;
-    struct {
-        unsigned int alignmentFrame:1;
-    } mMediaInvalidFlags;
-    TSDMutableStroke *mDynamicStroke;
-    _Bool mShouldRenderFrameStroke;
-    struct CGRect mBoundsForStandardKnobs;
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool)nonCloudLibraryItemPlayCount;
+- (void)JumpScanningSubscription;
 - (void);
+- (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (struct CGRect);
@@ -36,11 +28,10 @@
 - (id);
 - (id);
 - (id);
-- (void)lSizeValue:(id)arg1;
+- (void)setTailSizeValue:(id)arg1;
 
 // Remaining properties
 @property(nonatomic) struct CGRect boundsForStandardKnobs;
-@property(nonatomic) _Bool shouldRenderFrameStroke;
 
 @end
 

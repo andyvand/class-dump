@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSObject, NSString;
-@protocol OS_dispatch_queue, TRMPortManagerDelegate;
+@class NSDictionary;
 
 @interface TRMPortManager
 {
     _Bool _matchingNotificationsStarted;
-    unsigned int _ioServiceAddedIterator;
-    id <TRMPortManagerDelegate> _delegate;
-    NSDictionary *_ioMatchingDictionary;
-    NSObject<OS_dispatch_queue> *_queue;
-    struct IONotificationPort *_ioNotificationPort;
-    NSMutableDictionary *_portsMutable;
 }
 
 + (id);
@@ -45,31 +38,16 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)(86Z;
 - (id);
-- (id);
+- (id)PKAuxiliaryCapabilityErrorDomain;
 - (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <TRMPortManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool hasRestrictedPorts;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSDictionary *ioMatchingDictionary; // @synthesize ioMatchingDictionary=_ioMatchingDictionary;
-@property(nonatomic) struct IONotificationPort *ioNotificationPort; // @synthesize ioNotificationPort=_ioNotificationPort;
-@property(nonatomic) unsigned int ioServiceAddedIterator; // @synthesize ioServiceAddedIterator=_ioServiceAddedIterator;
-@property(nonatomic) _Bool matchingNotificationsStarted; // @synthesize matchingNotificationsStarted=_matchingNotificationsStarted;
-@property(readonly, retain, nonatomic) NSArray *ports;
-@property(retain, nonatomic) NSMutableDictionary *portsMutable; // @synthesize portsMutable=_portsMutable;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

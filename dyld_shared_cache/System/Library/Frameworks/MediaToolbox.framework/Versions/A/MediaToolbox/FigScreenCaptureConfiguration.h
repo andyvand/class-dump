@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SLContentFilter;
-
 @interface FigScreenCaptureConfiguration
 {
     struct __CFDictionary *_fvdOptions;
-    struct OpaqueFigSimpleMutex *_lock;
-    unsigned long long _preset;
 }
 
 - (id);
@@ -19,8 +15,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (CDStruct_1b6d18a9);
+- (void);
+- (CDStruct_198678f7);
 - (long long);
 - (struct __CFDictionary *);
 - (struct CGRect);
@@ -29,42 +25,28 @@
 - (void);
 - (long long);
 - (struct OpaqueFigSimpleMutex *);
-- (void);
-- (void);
-- (void);
+- (void)ntroller _doPostDownloadActionsForAdminInitiatedUpdateForProduct:(id)arg1 usingClientAuthorization:withAction:replyWhenDone:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)IgnoreMinimumBridgeVersionCheck;
+- (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (struct CGSize);
 - (void);
-- (void);
+- (void)j;
 - (struct CGRect);
 - (void);
 - (id);
 - (void);
-- (struct CGColor *);
+- (struct CGColor *);
 - (unsigned long long);
 - (void)ì89;
-- (unsigned int)back;
+- (unsigned int)paps_stopStubPlayback;
 
 // Remaining properties
-@property(nonatomic) struct CGColor *backgroundColor;
-@property(nonatomic) NSString *chromaLocation;
-@property(nonatomic) NSString *clientName;
-@property(nonatomic) NSString *colorspaceName;
-@property(nonatomic) SLContentFilter *contentFilter;
-@property(nonatomic) struct CGRect destRect;
-@property(nonatomic) long long imagePoolSize;
-@property(nonatomic) CDStruct_1b6d18a9 minFrameInterval;
-@property(nonatomic) long long numOfIdleFrames;
-@property(nonatomic) unsigned int pixelFormat;
-@property(nonatomic) unsigned long long preset;
-@property(nonatomic) _Bool showsCursor;
 @property(nonatomic) struct CGSize size;
-@property(nonatomic) struct CGRect sourceRect;
-@property(nonatomic) NSString *yCbCrMatrix;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPopUpButton, NSTextField, SOSRLanguageRowCheckboxButton;
+@class SOSRLanguageRowCheckboxButton;
 
 @interface SOSRLanguageTableCellView
 {
     SOSRLanguageRowCheckboxButton *_activeCheckbox;
-    NSTextField *_downloadMessageTextField;
-    NSPopUpButton *_downloadVariantPopUpButton;
 }
 
 - (id);
@@ -19,8 +17,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) SOSRLanguageRowCheckboxButton *activeCheckbox; // @synthesize activeCheckbox=_activeCheckbox;
-@property(readonly, nonatomic) NSTextField *downloadMessageTextField; // @synthesize downloadMessageTextField=_downloadMessageTextField;
-@property(readonly, nonatomic) NSPopUpButton *downloadVariantPopUpButton; // @synthesize downloadVariantPopUpButton=_downloadVariantPopUpButton;
 
 @end
 

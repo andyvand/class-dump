@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RCConfigurationSettings;
+@class RCConfigurationSettings;
 
 @interface RCBackgroundURLSessionHandler
 {
     RCConfigurationSettings *_configurationSettings;
-    NSString *_sessionIdentifier;
-    CDUnknownBlockType _sessionCompletionHandler;
 }
 
-- (void);
+- (void)a.;
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -26,8 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) RCConfigurationSettings *configurationSettings; // @synthesize configurationSettings=_configurationSettings;
-@property(copy, nonatomic) CDUnknownBlockType sessionCompletionHandler; // @synthesize sessionCompletionHandler=_sessionCompletionHandler;
-@property(retain, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
 
 @end
 

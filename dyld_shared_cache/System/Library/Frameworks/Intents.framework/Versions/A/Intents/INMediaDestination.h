@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface INMediaDestination
 {
     long long _mediaDestinationType;
-    NSString *_playlistName;
 }
 
 + (id);
@@ -17,30 +14,22 @@
 + (id);
 + (_Bool);
 - (id);
-- (long long);
+- (long long);
 - (id);
+- (id)_playersPlayedHapticsThisSlice;
 - (id);
+- (unsigned long long)h;
+- (_Bool)askToShareProxCardClientID;
+- (void)tAttribute('id');        if (idAttr) {            sel += '#'+idAttr;        }        let nameAttr = elem.getAttribute('name');        if (nameAttr) {            sel += '[name='+nameAttr+']';        }        let typeAttr = elem.getAttribute('type');        if (typeAttr) {            sel += '[type='+typeAttr+']';        }        list.unshift(sel);        tmp = list.join(' ');        if (isUniqueSelector(tmp)) {            uniqueSelector = tmp;            break;        }        list.shift();        let classAttr = elem.getAttribute('class');        if (classAttr) {            sel += '.'+classAttr.split(' ').join('.');            list.unshift(sel);            tmp = list.join(' ');            if (isUniqueSelector(tmp)) {                uniqueSelector = tmp;                break;            }            list.shift();        }        if (elem.previousElementSibling || elem.nextElementSibling) {            let sib = elem;            let nth = 0;            while (sib) {                nth++;                sib = sib.previousElementSibling;            }            sel += ':(id)arg1 nth-child('+nth+')';            list.unshift(sel);            tmp = list.join(' ');            if (isUniqueSelector(tmp)) {                uniqueSelector = tmp;                break;            }            list.shift();        }        list.unshift(sel);        tmp = list.join(' ');        if (isUniqueSelector(tmp)) {            uniqueSelector = tmp;            break;        }        elem = elem.parentNode;    }    return uniqueSelector;}var p = new Promise(function(resolve, reject) { document.addEventListener('focusin', function(event){ if ((event.target.tagName.toLowerCase() == 'textarea' || event.target.tagName.toLowerCase() == 'input') && event.target.type.toLowerCase() != 'checkbox' && event.target.value == '') { resolve(getSelectorPathForElement(event.target)); } else { resolve(undefined); } }, {once:true}); }); await p; return p; /* Error: Ran out of types for this method. */;
 - (id);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id)Concepts;
-- (void)earOptionsForReportIncident:withCompletion: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)clearIntentSlotVocabularyConcepts;
+- (void)provideIsClearOptionsForReportIncident:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)¢ïÿ£N;
 - (id)ë;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) long long mediaDestinationType; // @synthesize mediaDestinationType=_mediaDestinationType;
-@property(readonly, copy) NSString *playlistName; // @synthesize playlistName=_playlistName;
-@property(readonly) Class superclass;
 
 @end
 

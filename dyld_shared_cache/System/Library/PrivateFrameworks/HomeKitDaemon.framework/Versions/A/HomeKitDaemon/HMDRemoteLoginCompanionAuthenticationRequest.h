@@ -6,21 +6,20 @@
 
 #import <HomeKitDaemon/HMDRemoteLoginAuthenticationRequest.h>
 
-@class ACAccount, AKDevice, NSDictionary, NSString;
+@class ACAccount;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteLoginCompanionAuthenticationRequest : HMDRemoteLoginAuthenticationRequest
 {
     ACAccount *_account;
-    AKDevice *_companionDevice;
 }
 
-+ (id);
-+ (id);
++ (id)multiLevelSocialGroupsWithPersonClusterManager:(id)arg1 forPersons:updateBlock: /* Error: Ran out of types for this method. */;
++ (id)enumerateReliableMeaningNodesUsingBlock:(id)arg1;
 + (id);
 + (_Bool),[;
 - (void);
-- (id);
+- (id)nTargetAdditions) backgroundThread];
 - (id);
 - (id);
 - (id);
@@ -32,16 +31,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) ACAccount *account; // @synthesize account=_account;
-@property(retain, nonatomic) AKDevice *companionDevice; // @synthesize companionDevice=_companionDevice;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *messageName;
-@property(readonly, nonatomic) NSDictionary *messagePayload;
-@property(readonly) Class superclass;
 
 @end
 

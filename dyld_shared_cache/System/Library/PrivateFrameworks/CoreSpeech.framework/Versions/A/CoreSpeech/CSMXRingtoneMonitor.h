@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSTimer;
-@protocol OS_dispatch_queue;
+@class NSTimer;
 
 @interface CSMXRingtoneMonitor
 {
     NSTimer *_ringtoneTimeoutTimer;
-    NSObject<OS_dispatch_queue> *_eventMonitorQueue;
-    _Bool _isAnyRingtoneCurrentlyPlaying;
 }
 
-+ (id)r: /* Error: Ran out of types for this method. */;
-- (void);
-- (void);
++ (id)_notifyFalseRejectFeedbackBanner: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)f;
 - (_Bool);
 - (void);
 - (void);
@@ -27,17 +24,10 @@
 - (id);
 - (void);
 - (void);
-- (void)yTwoShot;
+- (void)didNotifyTwoShot;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property _Bool isAnyRingtoneCurrentlyPlaying; // @synthesize isAnyRingtoneCurrentlyPlaying=_isAnyRingtoneCurrentlyPlaying;
-@property(readonly) Class superclass;
 
 @end
 

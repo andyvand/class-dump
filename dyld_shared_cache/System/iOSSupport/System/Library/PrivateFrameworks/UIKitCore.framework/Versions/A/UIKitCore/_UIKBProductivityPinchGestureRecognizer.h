@@ -6,26 +6,9 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class NSMutableArray, NSMutableDictionary;
-
 @interface _UIKBProductivityPinchGestureRecognizer : UIGestureRecognizer
 {
     _Bool _recognized;
-    struct CGAffineTransform _transform;
-    id _transformAnalyzer;
-    _Bool _hasFailedOnOtherDominantMotion;
-    unsigned long long _numberOfTouchesRequired;
-    _Bool _multitouchTimerEnabled;
-    _Bool _tooMuchSingleMovement;
-    double _avgTouchesToCentroidDistance;
-    long long _pinchDirection;
-    double _beginPinchTimestamp;
-    double _beforeReductionTimeInterval;
-    double _beginPerimeter;
-    NSMutableArray *_activeTouches;
-    double _allowableElapsedTimeForAllRequiredTouches;
-    NSMutableDictionary *_beginTouchLocations;
-    struct CGPoint _beginCentroid;
 }
 
 + (id);
@@ -35,31 +18,31 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)colorWithRed:green:blue: /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
 - (double);
-- (id);
+- (id)itemWithIdentifier:loadEntityBlock: /* Error: Ran out of types for this method. */;
 - (double);
 - (double);
 - (double)tedWindowMacComponent";
 - (id)6@0:(id)arg1 8;
-- (_Bool)onCompletionBlock;
-- (double)t;
-- (void)ontrollerUsingAnimator:(id)arg1;
-- (id)yActionInSwipeActionPullView: /* Error: Ran out of types for this method. */;
-- (void)nToneChooserVariantsForString:(id)arg1;
-- (struct CGPoint)mentShouldAppearBelowForAttributes: /* Error: Ran out of types for this method. */;
-- (void)teIfNecessary:(struct CGPoint)arg1;
-- (void)table;
-- (struct CGPoint)cing;
-- (void)tRotationCount;
-- (void)dingUncontrolledSubviewWithBookmark:(double)arg1 relativeTo: /* Error: Ran out of types for this method. */;
+- (_Bool)transitionCompletionBlock;
+- (double)searchableObject;
+- (void)navigationController:(id)arg1 interactionControllerUsingAnimator:(id)arg2;
+- (id)confirmationDistanceForPrimaryActionInSwipeActionPullView: /* Error: Ran out of types for this method. */;
+- (void)_skinToneChooserVariantsForString:(id)arg1;
+- (struct CGPoint)_orthogonalScrollingElementShouldAppearBelowForAttributes: /* Error: Ran out of types for this method. */;
+- (void)_layoutGuideOfType:(struct CGPoint)arg1 createIfNecessary: /* Error: Ran out of types for this method. */;
+- (void)_isFloatable;
+- (struct CGPoint)_indicatorSpacing;
+- (void)_currentRotationCount;
+- (void)_adjustTargetPosition:(double)arg1 forAddingUncontrolledSubviewWithBookmark:relativeTo: /* Error: Ran out of types for this method. */;
 - (void)ionPreferredSizes",&,N,V_globalSupplementaryPreferredSizes;
-- (double)nimateUpdate;
+- (double)m_animateUpdate;
 - (double);
 - (void)_trailingButtonActivatesDictationWhenEmpty;
-- (void)sSensitivityUpdateNotification;
+- (void)UIFocusSensitivityUpdateNotification;
 - (double)nFocusSystem(__strong id<UIFocusItem>, UIFocusSystem *__strong, BOOL, BOOL);
 - (_Bool);
 - (void)Headroom;
@@ -67,16 +50,7 @@
 - (void)p;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *activeTouches; // @synthesize activeTouches=_activeTouches;
-@property(nonatomic) double allowableElapsedTimeForAllRequiredTouches; // @synthesize allowableElapsedTimeForAllRequiredTouches=_allowableElapsedTimeForAllRequiredTouches;
-@property(readonly, nonatomic) double avgTouchesToCentroidDistance; // @synthesize avgTouchesToCentroidDistance=_avgTouchesToCentroidDistance;
-@property(nonatomic) double beforeReductionTimeInterval; // @synthesize beforeReductionTimeInterval=_beforeReductionTimeInterval;
-@property(nonatomic) struct CGPoint beginCentroid; // @synthesize beginCentroid=_beginCentroid;
-@property(nonatomic) double beginPerimeter; // @synthesize beginPerimeter=_beginPerimeter;
 @property(nonatomic) double beginPinchTimestamp; // @synthesize beginPinchTimestamp=_beginPinchTimestamp;
-@property(retain, nonatomic) NSMutableDictionary *beginTouchLocations; // @synthesize beginTouchLocations=_beginTouchLocations;
-@property(readonly, nonatomic) long long pinchDirection; // @synthesize pinchDirection=_pinchDirection;
-@property(nonatomic) _Bool tooMuchSingleMovement; // @synthesize tooMuchSingleMovement=_tooMuchSingleMovement;
 
 @end
 

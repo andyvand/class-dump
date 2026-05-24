@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WFLSMResult;
-
 @interface WFVerdict
 {
     _Bool restricted;
-    WFLSMResult *LSMEvaluationResult;
-    NSString *message;
-    NSString *URL;
-    int evidence;
 }
 
 + (id);

@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNContactStore, NSString;
+@class NSString;
 
 @interface CNFavoritesEntry
 {
     NSString *_name;
-    _Bool _dirty;
-    NSString *_value;
-    NSString *_actionType;
-    NSString *_bundleIdentifier;
-    NSString *_entryIdentifier;
-    NSString *_contactIdentifier;
-    CNContactStore *_contactStore;
-    NSString *_label;
-    NSString *_originalName;
-    CNContact *_contact;
-    NSString *_propertyKey;
-    NSString *_labeledValueIdentifier;
-    NSString *_actionChannel;
-    NSString *_oldContactIdentifier;
 }
 
 @end

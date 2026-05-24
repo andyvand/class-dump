@@ -7,9 +7,6 @@
 @interface MediaPlaybackCore.ScoutingAlignmentTask
 {
     id $defaultActor;
-    id transcriptProvider;
-    id referenceTime;
-    id state;
 }
 
 @end

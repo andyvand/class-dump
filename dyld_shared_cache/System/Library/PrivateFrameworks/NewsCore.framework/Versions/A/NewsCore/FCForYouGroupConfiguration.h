@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FCForYouGroupConfiguration
 {
     _Bool _allowsNativeAds;
-    long long _groupType;
-    NSString *_identifier;
-    unsigned long long _groupPosition;
-    unsigned long long _precedingGroupsCountForFirstGroup;
-    unsigned long long _precedingGroupsCount;
 }
 
 - (void);
@@ -26,20 +19,15 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)com.apple.sentry.signpostsMonitor.%s;
 - (id);
 - (id);
-- (void)mbeddings;
+- (void)maximumNumberOfEmbeddings;
 - (void)cure.qa;
 - (long long)í;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsNativeAds; // @synthesize allowsNativeAds=_allowsNativeAds;
-@property(nonatomic) unsigned long long groupPosition; // @synthesize groupPosition=_groupPosition;
 @property(nonatomic) long long groupType; // @synthesize groupType=_groupType;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) unsigned long long precedingGroupsCount; // @synthesize precedingGroupsCount=_precedingGroupsCount;
-@property(nonatomic) unsigned long long precedingGroupsCountForFirstGroup; // @synthesize precedingGroupsCountForFirstGroup=_precedingGroupsCountForFirstGroup;
 
 @end
 

@@ -9,38 +9,36 @@
 @interface GEOClientFeedbackInfo
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_displayedBannerEventInfos;
 }
 
 + (Class);
-+ (_Bool)NetworkService:(id)arg1;
++ (_Bool)setHasNetworkService:(id)arg1;
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)W;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
+- (void)initWithAttendingType:(id)arg1 detectedToken:triggerMachTime:triggerAbsStartSampleId:audioRecordType:audioRecordDeviceId:amountOfSpeechDetectedInMs:triggerThresholdInMs: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (id)U.;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)r;
 - (_Bool);
 - (void)!l@ùÑ¶*ð1Â0@ù
 × ;
-- (id)t;
+- (id)resultTypeFiltersCount;
 - (id)ÔÂÄ	ËÀÌ	(Ð	ÌÕ	8ØìÙÛ\Ý	øæ	Dêøë	dî	;
-- (id)_app_id;
+- (id)ride_app_id;
 - (id)|;
 - (void)Ð¯­þ;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *displayedBannerEventInfos;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

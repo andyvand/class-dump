@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraProfile, NSMutableSet;
+@class HMDCameraProfile;
 
 __attribute__((visibility("hidden")))
 @interface HMDBulletinBoardCameraNotificationAssociation
 {
     HMDCameraProfile *_cameraProfile;
-    NSMutableSet *_notificationGeneratingServicesWithCamera;
 }
 
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)setNumberOfFrequentLocationsCities:(id)arg1;
+- (id)ratioOfAssetsWithDefaultCurationScore;
+- (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) HMDCameraProfile *cameraProfile; // @synthesize cameraProfile=_cameraProfile;
-@property(readonly, nonatomic) NSMutableSet *notificationGeneratingServicesWithCamera; // @synthesize notificationGeneratingServicesWithCamera=_notificationGeneratingServicesWithCamera;
 
 @end
 

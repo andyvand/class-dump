@@ -6,37 +6,31 @@
 
 #import <UIKitCore/_UIStatusBarRoundedCornerView.h>
 
-@class CALayer, NSString, UIAccessibilityHUDItem, UIColor, UIView, UIVisualEffect, UIVisualEffectView;
+@class CALayer;
 
 __attribute__((visibility("hidden")))
 @interface _UIStatusBarPillView : _UIStatusBarRoundedCornerView
 {
     _Bool _pulsing;
-    UIVisualEffect *_visualEffect;
-    UIColor *_pillColor;
-    UIView *_subviewForBaselineAlignment;
-    CALayer *_pulseLayer;
-    UIVisualEffectView *_visualEffectView;
-    struct UIEdgeInsets _alignmentRectInsets;
 }
 
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (void)kM;
+- (void)setOnInvalidate: /* Error: Ran out of types for this method. */;
+- (_Bool)_entityWithIdentifier:mediaEntityType:collectionGroupingType:loadEntityBlock: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id)× ;
 - (id)ùYÐ1Â0@ù
 × ;
-- (void)derForTab:(id)arg1;
-- (id)ngToTrailing;
+- (void)makeFirstResponderForTab:(id)arg1;
+- (id)_keyboardShortcutTrailingToTrailing;
 - (id)ii;
 - (void)¼§;
 - (id);
 - (void)ÉîÿXÉîÿ;
 - (void)ð¼îÿþÿ;
-- (id)kVelocityBoostFactor;
+- (id)edgeFlickVelocityBoostFactor;
 - (void)ew service:(id)arg1 %@;
 - (void)-Cëâ6Â?·Ñ;
 - (_Bool)M³13ß.;
@@ -47,40 +41,7 @@ __attribute__((visibility("hidden")))
 - (void)Ø;
 
 // Remaining properties
-@property(readonly, nonatomic) UIAccessibilityHUDItem *accessibilityHUDRepresentation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"UIAccessibilityHUDItem",?,R,N
-
-@property(nonatomic) struct UIEdgeInsets alignmentRectInsets; // @synthesize alignmentRectInsets=_alignmentRectInsets;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long overriddenVerticalAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
-@property(retain, nonatomic) UIColor *pillColor; // @synthesize pillColor=_pillColor;
-@property(readonly, nonatomic) _Bool prefersBaselineAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool prefersCenterVerticalAlignment;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(retain, nonatomic) CALayer *pulseLayer; // @synthesize pulseLayer=_pulseLayer;
-@property(nonatomic) _Bool pulsing; // @synthesize pulsing=_pulsing;
-@property(nonatomic) __weak UIView *subviewForBaselineAlignment; // @synthesize subviewForBaselineAlignment=_subviewForBaselineAlignment;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIVisualEffect *visualEffect; // @synthesize visualEffect=_visualEffect;
-@property(retain, nonatomic) UIVisualEffectView *visualEffectView; // @synthesize visualEffectView=_visualEffectView;
-@property(readonly, nonatomic) _Bool wantsCrossfade;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 
 @end
 

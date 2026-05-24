@@ -9,12 +9,6 @@
 @interface NSPPrivacyProxyEdgeProbeConfig
 {
     NSString *_url;
-    unsigned int _probeDenominator;
-    _Bool _enabled;
-    struct {
-        unsigned int probeDenominator:1;
-        unsigned int enabled:1;
-    } _has;
 }
 
 - (void);
@@ -23,29 +17,24 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void);
 - (unsigned long long);
 - (_Bool);
 - (void);
+- (_Bool)D;
 - (_Bool);
-- (_Bool);
+- (void)T;
+- (id)@;
+- (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)et cached status information configuration client state %ld;
 
 // Remaining properties
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
 @property(nonatomic) _Bool hasEnabled;
-@property(nonatomic) _Bool hasProbeDenominator;
-@property(readonly, nonatomic) _Bool hasUrl;
-@property(nonatomic) unsigned int probeDenominator; // @synthesize probeDenominator=_probeDenominator;
-@property(retain, nonatomic) NSString *url; // @synthesize url=_url;
 
 @end
 

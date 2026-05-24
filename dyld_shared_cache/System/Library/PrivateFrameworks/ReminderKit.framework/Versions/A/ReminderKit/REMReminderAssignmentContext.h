@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, REMAssignment, REMReminder;
+@class REMReminder;
 
 @interface REMReminderAssignmentContext
 {
@@ -20,8 +20,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *assignments;
-@property(readonly, nonatomic) REMAssignment *currentAssignment;
 @property(nonatomic) __weak REMReminder *reminder; // @synthesize reminder=_reminder;
 
 @end

@@ -4,27 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHSRemoteDevicePredicate, CHSWidgetMetricsSpecification, NSArray, NSSet, NSString;
+@class NSArray;
 
 @interface CHSWidgetConfiguration
 {
     NSArray *_containerDescriptors;
-    CHSWidgetMetricsSpecification *_metricsSpecification;
-    NSSet *_rateLimitPolicies;
-    CHSRemoteDevicePredicate *_replicationPredicate;
-    _Bool _automaticallyOrphaned;
-    double _expirationTimeout;
 }
 
 + (id);
-+ (id);
++ (id)!;
 + (_Bool);
 - (id);
 - (double);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -38,23 +33,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)4Q32@"JSValue"40@"NSDictionary"48@56;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool automaticallyOrphaned; // @synthesize automaticallyOrphaned=_automaticallyOrphaned;
 @property(readonly, copy, nonatomic) NSArray *containerDescriptors; // @synthesize containerDescriptors=_containerDescriptors;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double expirationTimeout; // @synthesize expirationTimeout=_expirationTimeout;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) CHSWidgetMetricsSpecification *metricsSpecification; // @synthesize metricsSpecification=_metricsSpecification;
-@property(readonly, copy, nonatomic) NSSet *rateLimitPolicies; // @synthesize rateLimitPolicies=_rateLimitPolicies;
-@property(readonly, copy, nonatomic) CHSRemoteDevicePredicate *replicationPredicate; // @synthesize replicationPredicate=_replicationPredicate;
-@property(readonly) Class superclass;
 
 @end
 

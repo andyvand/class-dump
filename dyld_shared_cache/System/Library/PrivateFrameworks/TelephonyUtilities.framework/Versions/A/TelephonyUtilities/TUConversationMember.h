@@ -4,31 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSSet, NSString, TUConversationMemberAssociation, TUConversationParticipantCluster, TUHandle, TUVoucher;
-
 @interface TUConversationMember
 {
     _Bool _isLightweightMember;
-    _Bool _joinedFromLetMeIn;
-    _Bool _isOtherInvitedHandle;
-    TUHandle *_handle;
-    NSString *_nickname;
-    long long _validationSource;
-    NSDate *_dateReceivedLetMeIn;
-    NSDate *_dateInitiatedLetMeIn;
-    TUHandle *_lightweightPrimary;
-    unsigned long long _lightweightPrimaryParticipantIdentifier;
-    TUConversationMemberAssociation *_association;
-    TUVoucher *_associationVoucher;
-    NSString *_stableDeviceIdentifier;
-    TUConversationParticipantCluster *_proposedParticipantCluster;
 }
 
 + (_Bool);
-- (long long);
+- (long long);
 - (id);
 - (id);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -51,7 +36,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)?װ;
 - (id);
 - (id);
 - (id);
@@ -62,7 +47,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)ModelProcessModelPlayer_DidCreateLayer;
 - (id);
 - (id);
 - (id);
@@ -71,39 +56,18 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)T;
 - (id);
 - (void);
-- (void)etOriginalRingtoneSoundURL: /* Error: Ran out of types for this method. */;
+- (void)setOriginalRingtoneSoundURL: /* Error: Ran out of types for this method. */;
 - (id)phonySettingCallsFromIPhone;
-- (id)rsistentStoreError;
+- (id)simulateFatalPersistentStoreError;
 
 // Remaining properties
-@property(copy, nonatomic) TUConversationMemberAssociation *association; // @synthesize association=_association;
-@property(retain, nonatomic) TUVoucher *associationVoucher; // @synthesize associationVoucher=_associationVoucher;
-@property(retain, nonatomic) NSDate *dateInitiatedLetMeIn; // @synthesize dateInitiatedLetMeIn=_dateInitiatedLetMeIn;
-@property(retain, nonatomic) NSDate *dateReceivedLetMeIn; // @synthesize dateReceivedLetMeIn=_dateReceivedLetMeIn;
-@property(readonly, nonatomic) TUHandle *handle; // @synthesize handle=_handle;
-@property(readonly, copy, nonatomic) NSSet *handles;
-@property(readonly, copy, nonatomic) NSString *idsDestination;
-@property(readonly, copy, nonatomic) NSArray *idsDestinations;
-@property(readonly, copy, nonatomic) NSString *idsFromID;
-@property(nonatomic) _Bool isLightweightMember; // @synthesize isLightweightMember=_isLightweightMember;
-@property(nonatomic) _Bool isOtherInvitedHandle; // @synthesize isOtherInvitedHandle=_isOtherInvitedHandle;
-@property(nonatomic) _Bool isSplitSessionMember;
-@property(nonatomic) _Bool joinedFromLetMeIn; // @synthesize joinedFromLetMeIn=_joinedFromLetMeIn;
-@property(copy, nonatomic) TUHandle *lightweightPrimary; // @synthesize lightweightPrimary=_lightweightPrimary;
-@property(nonatomic) unsigned long long lightweightPrimaryParticipantIdentifier; // @synthesize lightweightPrimaryParticipantIdentifier=_lightweightPrimaryParticipantIdentifier;
 @property(readonly, nonatomic) _Bool needsContactLookupForDisplayName;
-@property(copy, nonatomic) NSString *nickname; // @synthesize nickname=_nickname;
-@property(copy, nonatomic) TUConversationParticipantCluster *proposedParticipantCluster; // @synthesize proposedParticipantCluster=_proposedParticipantCluster;
-@property(copy, nonatomic) TUHandle *splitSessionPrimary;
-@property(copy, nonatomic) NSString *stableDeviceIdentifier; // @synthesize stableDeviceIdentifier=_stableDeviceIdentifier;
-@property(readonly, nonatomic, getter=isValidated) _Bool validated;
-@property(nonatomic) long long validationSource; // @synthesize validationSource=_validationSource;
 
 @end
 

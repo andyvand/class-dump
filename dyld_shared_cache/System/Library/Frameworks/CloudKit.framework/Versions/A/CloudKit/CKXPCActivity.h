@@ -12,7 +12,6 @@
 @interface CKXPCActivity : CKBackgroundTask
 {
     NSObject<OS_xpc_object> *_criteria;
-    struct _xpc_activity_eligibility_changed_handler_s *_handler;
 }
 
 - (_Bool);
@@ -20,10 +19,10 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (double);
-- (_Bool);
-- (void)Issue;
+- (void);
+- (double)|;
+- (_Bool)ileManager(BRAdditions) br_putBackTrashedItemAtURL:resultingURL:error:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)CKSignificantIssue;
 - (long long)Append was cancelled;
 
 @end

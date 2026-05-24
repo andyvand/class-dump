@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     id rawValue;
 }
 
-+ (unsigned long long);
++ (unsigned long long);
 - (id);
 
 @end

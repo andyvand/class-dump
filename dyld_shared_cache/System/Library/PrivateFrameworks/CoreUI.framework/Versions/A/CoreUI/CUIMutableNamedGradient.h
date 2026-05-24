@@ -13,9 +13,9 @@
     NSString *_appearance;
 }
 
+- (void)H;
 - (void);
-- (void);
-- (void);
+- (void)L;
 - (void);
 - (id);
 - (void);

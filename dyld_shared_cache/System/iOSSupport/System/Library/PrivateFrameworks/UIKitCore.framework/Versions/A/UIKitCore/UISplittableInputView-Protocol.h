@@ -7,10 +7,10 @@
 @protocol UISplittableInputView
 - (void)!¬FùdÐ1Â0@ù
 × ;
-- (void)etFlagsFromDelegate: /* Error: Ran out of types for this method. */;
-- (void)unt;
-- (void)r;
-- (void)D;
+- (void)_setFlagsFromDelegate: /* Error: Ran out of types for this method. */;
+- (void)_prefetchItemCount;
+- (void)_hasHeaderOrFirstItemStyledAsHeader;
+- (void)UIKBUndoInteractionHUD;
 - (void);
 @end
 

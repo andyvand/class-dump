@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CXAccount, CXHandle, NSString, NSUUID;
+@class NSUUID;
 
 @interface CXSenderIdentity
 {
     NSUUID *_UUID;
-    CXAccount *_account;
-    NSString *_localizedShortName;
 }
 
 + (id);
-+ (id);
++ (id)@?0@"<ICStorePlatformResponse>"8@"NSError"16;
 + (_Bool);
 - (id);
 - (id);
@@ -23,22 +21,18 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)dium [first AV sync] initialAVSyncStartItem=%{public}@ initialAVSyncInitiator=%{BOOL}u;
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
+- (_Bool)_existingRepresentationOfKind:(id)arg1;
+- (void)standard;
 - (id);
 - (id);
+- (id);
+- (id)P;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
-@property(readonly, nonatomic) CXAccount *account; // @synthesize account=_account;
-@property(readonly, nonatomic) CXHandle *handle;
-@property(readonly, copy, nonatomic) NSString *localizedName;
-@property(readonly, copy, nonatomic) NSString *localizedShortName; // @synthesize localizedShortName=_localizedShortName;
 
 @end
 

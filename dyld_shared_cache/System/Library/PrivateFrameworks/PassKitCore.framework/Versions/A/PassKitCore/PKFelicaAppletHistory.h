@@ -6,21 +6,11 @@
 
 #import <PassKitCore/PKTransitAppletHistory.h>
 
-@class NSNumber, NSSet, NSString, PKFelicaGreenCarTicket, PKFelicaShinkansenTicket;
+@class NSSet;
 
 @interface PKFelicaAppletHistory : PKTransitAppletHistory
 {
     NSSet *_existingKeys;
-    _Bool _shinkansenTicketActive;
-    _Bool _greenCarTicketUsed;
-    _Bool _balanceAllowedForCommute;
-    _Bool _lowBalanceNotificationEnabled;
-    long long _type;
-    NSString *_transactionID;
-    NSNumber *_SPID;
-    long long _transactionType;
-    PKFelicaShinkansenTicket *_shinkansenTicket;
-    PKFelicaGreenCarTicket *_greenCarTicket;
 }
 
 + (long long);
@@ -37,25 +27,15 @@
 - (void);
 - (_Bool);
 - (id);
-- (long long);
+- (long long)T_;
 - (void);
 - (id);
 - (long long);
-- (id);
+- (id)_writeToDataConsumer:embedSourceImageAndEditModel:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ror"40;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSNumber *SPID; // @synthesize SPID=_SPID;
-@property(readonly, nonatomic, getter=isBalanceAllowedForCommute) _Bool balanceAllowedForCommute; // @synthesize balanceAllowedForCommute=_balanceAllowedForCommute;
-@property(readonly, nonatomic) PKFelicaGreenCarTicket *greenCarTicket; // @synthesize greenCarTicket=_greenCarTicket;
-@property(readonly, nonatomic, getter=isGreenCarTicketUsed) _Bool greenCarTicketUsed; // @synthesize greenCarTicketUsed=_greenCarTicketUsed;
-@property(readonly, nonatomic, getter=isInShinkansenStation) _Bool inShinkansenStation; // @dynamic inShinkansenStation;
-@property(readonly, nonatomic, getter=isLowBalanceNotificationEnabled) _Bool lowBalanceNotificationEnabled; // @synthesize lowBalanceNotificationEnabled=_lowBalanceNotificationEnabled;
-@property(readonly, copy, nonatomic) PKFelicaShinkansenTicket *shinkansenTicket; // @synthesize shinkansenTicket=_shinkansenTicket;
-@property(readonly, nonatomic, getter=isShinkansenTicketActive) _Bool shinkansenTicketActive; // @synthesize shinkansenTicketActive=_shinkansenTicketActive;
-@property(readonly, copy, nonatomic) NSString *transactionID; // @synthesize transactionID=_transactionID;
-@property(readonly, nonatomic) long long transactionType; // @synthesize transactionType=_transactionType;
 @property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end

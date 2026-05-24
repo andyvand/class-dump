@@ -6,42 +6,32 @@
 
 #import <PhotosGraph/PGAbstractSuggester.h>
 
-@class NSArray, NSDictionary, NSEnumerator, NSString, PGSuggestionOptions;
+@class PGSuggestionOptions;
 
 @interface PGOutstanderSuggester : PGAbstractSuggester
 {
     PGSuggestionOptions *_options;
-    NSDictionary *_assetUUIDsByScore;
-    NSArray *_sortedScores;
-    long long _currentScoreIndex;
-    NSEnumerator *_currentSuggestedAssetEnumerator;
 }
 
-+ (id);
++ (id)currentWordRange;
 + (id);
 - (void);
+- (id)amework/Versions/A/Frameworks/AccessibilityEvents.framework/Versions/A/AccessibilityEvents;
 - (id);
 - (id);
-- (id);
-- (void);
-- (_Bool);
+- (void)pto - %s() failed, ccErr:(id)arg1 %d.
+;
+- (_Bool)AXWebArea;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void)%ld
 ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool lastSuggestionWasColliding;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNXPCConnection, NSString;
-@protocol CNContactsLogger, CNXPCContactsSupportService;
+@class CNXPCConnection;
 
 @interface CNXPCContactsSupport
 {
     CNXPCConnection *_serviceConnection;
-    id <CNXPCContactsSupportService> _serviceProxy;
-    id <CNContactsLogger> _logger;
 }
 
 + (id);
-+ (id);
-+ (id);
++ (id)chWithClientState;
++ (id)setExportedObject: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
@@ -27,20 +24,11 @@
 - (id);
 - (id);
 - (void);
-- (id)toDisplayIntervalOverride;
+- (id)CNSharedProfilePreviousPhotoDisplayIntervalOverride;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <CNContactsLogger> logger; // @synthesize logger=_logger;
 @property(readonly, nonatomic) CNXPCConnection *serviceConnection; // @synthesize serviceConnection=_serviceConnection;
-@property(readonly, nonatomic) id <CNXPCContactsSupportService> serviceProxy; // @synthesize serviceProxy=_serviceProxy;
-@property(readonly) Class superclass;
 
 @end
 

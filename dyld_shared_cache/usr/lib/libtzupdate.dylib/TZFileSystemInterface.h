@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, TZVersionInfo;
+@class NSString, NSURL;
 
 @interface TZFileSystemInterface
 {
     NSURL *_systemICUSchemaVersionURL;
     NSString *_systemICUTZSchemaVersion;
-    TZVersionInfo *_latestVersionInfo;
-    TZVersionInfo *_currentVersionInfo;
-    TZVersionInfo *_lastInstalledVersionInfo;
-    TZVersionInfo *_systemVersionInfo;
-    NSURL *_cachedTZDataLocation;
-    NSURL *_latestTZDataLink;
-    NSURL *_dataExpansionVersionDirectory;
-    NSURL *_latestLinkDestinationAtStartup;
-    NSURL *_temporaryDirectory;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -36,33 +27,20 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
+- (void)`&;
 - (id);
+- (id)N32pxrInternal__aapl__pxrReserved__24HdTypedSampledDataSourceINS_7VtArrayINS_15GfMultiIntervalEEEEE;
 - (void);
+- (id)h;
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)__cl_map_ins_bal;
 
 // Remaining properties
-@property(retain) NSURL *cachedTZDataLocation; // @synthesize cachedTZDataLocation=_cachedTZDataLocation;
-@property(readonly) TZVersionInfo *currentVersionInfo; // @synthesize currentVersionInfo=_currentVersionInfo;
 @property(readonly) NSURL *currentZoneinfoLinkURL;
-@property(readonly) NSURL *dataExpansionParentURL;
-@property(retain) NSURL *dataExpansionVersionDirectory; // @synthesize dataExpansionVersionDirectory=_dataExpansionVersionDirectory;
-@property(readonly) TZVersionInfo *lastInstalledVersionInfo; // @synthesize lastInstalledVersionInfo=_lastInstalledVersionInfo;
-@property(readonly) NSURL *latestLinkDestinationAtStartup; // @synthesize latestLinkDestinationAtStartup=_latestLinkDestinationAtStartup;
-@property(retain) NSURL *latestTZDataLink; // @synthesize latestTZDataLink=_latestTZDataLink;
 @property(readonly) NSURL *latestTZLinkURL;
-@property(readonly) TZVersionInfo *latestVersionInfo; // @synthesize latestVersionInfo=_latestVersionInfo;
-@property(readonly) NSURL *systemICUDirectoryURL;
-@property(readonly) NSURL *systemICUSchemaVersionURL; // @synthesize systemICUSchemaVersionURL=_systemICUSchemaVersionURL;
-@property(readonly) NSString *systemICUTZSchemaVersion; // @synthesize systemICUTZSchemaVersion=_systemICUTZSchemaVersion;
-@property(readonly) TZVersionInfo *systemVersionInfo; // @synthesize systemVersionInfo=_systemVersionInfo;
-@property(retain) NSURL *temporaryDirectory; // @synthesize temporaryDirectory=_temporaryDirectory;
 
 @end
 

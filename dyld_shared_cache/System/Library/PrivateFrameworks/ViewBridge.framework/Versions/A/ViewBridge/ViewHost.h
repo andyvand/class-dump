@@ -6,28 +6,15 @@
 
 #import <ViewBridge/HostOrService.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface ViewHost : HostOrService
 {
     unsigned int _seed;
-    struct CGRect _frameInScreenCoords;
-    NSString *_rendezvousWindowIdentifier;
-    unsigned char _hostWindowKind;
-    unsigned char _hostWindowBase;
-    unsigned int _hostAppIsActive:1;
-    unsigned int _hostWindowInhibitsOrdering:1;
-    unsigned int _keyTestWindowIsKey:1;
-    unsigned int _remoteViewIsFirstResponder:1;
-    unsigned int _wantsAggressiveKeyboardFocusTheftCancellation:1;
-    unsigned int _mayAttemptCommandEquivalentAtWill:2;
-    NSString *_serviceViewControllerIdentifier;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id),;
 - (_Bool);
 - (void);
 - (struct __LSASN *);
@@ -52,21 +39,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)h;
 - (void);
 - (unsigned int)(´°;
 
 // Remaining properties
-@property struct CGRect frameInScreenCoords; // @synthesize frameInScreenCoords=_frameInScreenCoords;
-@property(readonly) _Bool hostAppIsActive;
-@property(readonly) unsigned char hostWindowBase; // @synthesize hostWindowBase=_hostWindowBase;
 @property(readonly) _Bool hostWindowInhibitedOrdering;
-@property(readonly) unsigned char hostWindowKind; // @synthesize hostWindowKind=_hostWindowKind;
-@property(readonly) _Bool keyTestWindowIsKey;
-@property(readonly) _Bool remoteViewIsFirstResponder;
-@property(readonly) unsigned int seed;
-@property(copy) NSString *serviceViewControllerIdentifier; // @synthesize serviceViewControllerIdentifier=_serviceViewControllerIdentifier;
-@property(readonly) _Bool wantsAggressiveKeyboardFocusTheftCancellation;
 
 @end
 

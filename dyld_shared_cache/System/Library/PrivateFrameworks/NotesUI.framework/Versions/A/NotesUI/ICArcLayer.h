@@ -9,8 +9,6 @@
 @interface ICArcLayer : ICCircleLayer
 {
     _Bool _drawClockwise;
-    double _startAngle;
-    double _endAngle;
 }
 
 - (void);
@@ -22,8 +20,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool drawClockwise; // @synthesize drawClockwise=_drawClockwise;
-@property(nonatomic) double endAngle; // @synthesize endAngle=_endAngle;
 @property(nonatomic) double startAngle; // @synthesize startAngle=_startAngle;
 
 @end

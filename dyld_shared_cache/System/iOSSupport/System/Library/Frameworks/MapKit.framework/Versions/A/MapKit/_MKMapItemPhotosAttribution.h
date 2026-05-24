@@ -13,27 +13,20 @@
     GEOMapItemPhotosAttribution *_geoPhotosAttribution;
 }
 
+- (_Bool);
+- (_Bool);
+- (id)(;
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
 - (_Bool);
 - (id);
-- (void)ale:fallbackToBundleIcon: /* Error: Ran out of types for this method. */;
+- (void)imageForMapItem:forScale:fallbackToBundleIcon: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *addPhotoURLs;
-@property(readonly, nonatomic) _Bool isBusinessOwned;
-@property(readonly, nonatomic) _Bool requiresAttributionInPhotoViewerHeader;
-@property(readonly, nonatomic) _Bool shouldAddPhotosLocally;
-@property(readonly, nonatomic) _Bool shouldHandlePhotosLocally;
-@property(readonly, nonatomic) _Bool shouldSuppressPhotoAttribution;
-@property(readonly, nonatomic) _Bool supportsReportingIssue;
-@property(readonly, nonatomic, getter=isUserSubmitted) _Bool userSubmitted;
 
 @end
 

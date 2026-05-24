@@ -9,22 +9,10 @@
 @interface CUIPSDGradientEvaluator
 {
     NSArray *colorStops;
-    NSArray *colorMidpointLocations;
-    NSArray *opacityStops;
-    NSArray *opacityMidpointLocations;
-    double smoothingCoefficient;
-    struct _psdGradientColor fillColor;
-    int blendMode;
-    struct {
-        unsigned int colorEdgePixel:2;
-        unsigned int opacityEdgePixel:2;
-        unsigned int isDithered:1;
-        unsigned int reserved:3;
-    } pgeFlags;
 }
 
 + (void)r, vImageDeepmap2PixelFormat, vImageDeepmap2CompressionOptions);
-- (double);
+- (double);
 - (void);
 - (void);
 - (void);
@@ -41,7 +29,7 @@
 - (struct _psdGradientColor);
 - (void);
 - (id);
-- (double);
+- (double)&;
 - (void);
 - (id);
 - (id);
@@ -49,8 +37,8 @@
 - (int);
 - (void);
 - (id);
-- (void);
-- (struct _psdGradientColor);
+- (void)5;
+- (struct _psdGradientColor)u!;
 
 // Remaining properties
 @property(nonatomic) int blendMode; // @synthesize blendMode;

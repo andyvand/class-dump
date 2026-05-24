@@ -10,12 +10,12 @@
 {
 }
 
-+ (Class);
++ (Class)kCPListImageRowItemEnabledKey;
 + (id);
 + (void);
 - (void);
 - (void);
-- (void);
+- (void)T+;
 - (id);
 - (void);
 

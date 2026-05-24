@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAUISirilandSnippet.h>
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface SARestaurantRestaurantsSnippet : SAUISirilandSnippet
 {
@@ -27,9 +27,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *attributionOrder;
-@property(copy, nonatomic) NSArray *contributingProviderIds;
-@property(copy, nonatomic) NSDictionary *providerPunchOutMap;
-@property(copy, nonatomic) NSArray *restaurants;
 
 @end
 

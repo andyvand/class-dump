@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSMutableDictionary, NSString;
+@class NSData, NSString;
 
 @protocol SFSearchSuggestion
+- (NSString *)#;
+- (_Bool)R";
+- (void);
+- (NSString *)_cookieDictionaryForURL:userIdentifier: /* Error: Ran out of types for this method. */;
+- (void)ProductType;
+- (NSData *)k;
 - (NSString *)Ñ¦°1Â0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleIdentifier;
-@property(copy, nonatomic) NSString *detailText;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSArray *duplicateSuggestions;
-@property(copy, nonatomic) NSString *fbr;
 @property(copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) _Bool previouslyEngaged;
-@property(copy, nonatomic) NSString *query;
-@property(copy, nonatomic) NSString *scopedSearchApplicationBundleIdentifier;
-@property(nonatomic) double score;
-@property(copy, nonatomic) NSMutableDictionary *serverFeatures;
-@property(copy, nonatomic) NSString *suggestion;
-@property(copy, nonatomic) NSString *topicIdentifier;
-@property(nonatomic) int type;
-@property(copy, nonatomic) NSString *utteranceText;
 @end
 

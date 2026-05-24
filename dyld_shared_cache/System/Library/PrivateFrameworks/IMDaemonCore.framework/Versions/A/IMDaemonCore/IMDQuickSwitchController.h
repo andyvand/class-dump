@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSService, NSString;
+@class IDSService;
 
 @interface IMDQuickSwitchController
 {
@@ -18,50 +18,43 @@
 - (id);
 - (void);
 - (id);
+- (void)te;
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (unsigned long long)9;
+- (void);
+- (id)Pd;
+- (void);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id)ô;
 - (long long)message identifier:%lld /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) IDSService *quickSwitchIDSService; // @synthesize quickSwitchIDSService=_quickSwitchIDSService;
-@property(readonly) Class superclass;
 
 @end
 

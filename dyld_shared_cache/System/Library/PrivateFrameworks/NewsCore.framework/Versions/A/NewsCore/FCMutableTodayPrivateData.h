@@ -6,7 +6,7 @@
 
 #import <NewsCore/FCTodayPrivateData.h>
 
-@class FCBundleSubscription, FCDerivedPersonalizationData, NSArray, NSDictionary, NSMutableDictionary, NSNumber, NSSet, NSString;
+@class NSMutableDictionary;
 
 @interface FCMutableTodayPrivateData : FCTodayPrivateData
 {
@@ -18,37 +18,18 @@
 - (id);
 - (void);
 - (void);
+- (void)ck is nil for this mapItem OR because of this error:(id)arg1 %@;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)ileHelper] Using system MigrationData from:(id)arg1 %@;
 - (void);
 - (id)q(	ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *autoFavoriteTagIDs;
-@property(copy, nonatomic) FCBundleSubscription *bundleSubscription;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) FCDerivedPersonalizationData *derivedPersonalizationData;
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSMutableDictionary *dictionary; // @dynamic dictionary;
-@property(copy, nonatomic) NSSet *groupableTagIDs;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *localNewsTagID;
-@property(copy, nonatomic) NSSet *mutedTagIDs;
-@property(readonly, copy, nonatomic) NSNumber *onboardingVersion;
-@property(copy, nonatomic) NSSet *purchasedTagIDs;
-@property(copy, nonatomic) NSArray *rankedAllSubscribedTagIDs;
-@property(copy, nonatomic) NSArray *rankedAllSubscriptionDates;
-@property(copy, nonatomic) NSDictionary *recentlyReadHistoryItems;
-@property(copy, nonatomic) NSArray *recentlySeenHistoryItems;
-@property(readonly) Class superclass;
 
 @end
 

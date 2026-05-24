@@ -4,34 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface FCFeedTransformationComposite
 {
     _Bool _shouldLogTransformationResults;
-    NSArray *_feedTransformations;
 }
 
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)L;
 - (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)rces/Maps/iOS/Suggestions/MapsSuggestionsShortcut.m;
+- (id)uniqueIdentifier;
+- (id),;
 - (void)addObserver:forChangesToRecordZoneID:usingBlock:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSArray *feedTransformations; // @synthesize feedTransformations=_feedTransformations;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool shouldLogTransformationResults; // @synthesize shouldLogTransformationResults=_shouldLogTransformationResults;
-@property(readonly) Class superclass;
 
 @end
 

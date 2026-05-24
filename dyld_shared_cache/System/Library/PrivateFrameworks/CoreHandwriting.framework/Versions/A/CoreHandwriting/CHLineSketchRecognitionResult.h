@@ -6,21 +6,12 @@
 
 #import <CoreHandwriting/CHSketchRecognitionResult.h>
 
-@class NSArray;
-
 @interface CHLineSketchRecognitionResult : CHSketchRecognitionResult
 {
     _Bool _cornerLine;
-    int _startEndpointType;
-    int _endEndpointType;
-    NSArray *_pathPoints;
-    struct CGPoint _startLocation;
-    struct CGPoint _endLocation;
-    struct CGPoint _midpointLocation;
-    struct CGPoint _controlPoint;
 }
 
-+ (_Bool);
++ (_Bool)_filterChain;
 - (int);
 - (id);
 - (struct CGPoint);
@@ -31,19 +22,12 @@
 - (struct CGPoint);
 - (struct CGPoint);
 - (id);
-- (struct CGPoint);
-- (void);
+- (struct CGPoint);
+- (void)object of class %@ received %@;
 - (void)Ø;
 
 // Remaining properties
-@property(readonly) struct CGPoint controlPoint; // @synthesize controlPoint=_controlPoint;
-@property(readonly) _Bool cornerLine; // @synthesize cornerLine=_cornerLine;
-@property(readonly) int endEndpointType; // @synthesize endEndpointType=_endEndpointType;
-@property(readonly) struct CGPoint endLocation; // @synthesize endLocation=_endLocation;
-@property(readonly) struct CGPoint midpointLocation; // @synthesize midpointLocation=_midpointLocation;
-@property(readonly) NSArray *pathPoints; // @synthesize pathPoints=_pathPoints;
 @property(readonly) int startEndpointType; // @synthesize startEndpointType=_startEndpointType;
-@property(readonly) struct CGPoint startLocation; // @synthesize startLocation=_startLocation;
 
 @end
 

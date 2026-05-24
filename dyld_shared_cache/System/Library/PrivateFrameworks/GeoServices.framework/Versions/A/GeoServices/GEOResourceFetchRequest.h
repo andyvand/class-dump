@@ -6,44 +6,31 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class GEOResourceManifestConfiguration, NSArray, NSString;
+@class NSArray;
 
 @interface GEOResourceFetchRequest : GEOXPCRequest
 {
     _Bool _force;
-    _Bool _unpack;
-    NSArray *_resources;
-    GEOResourceManifestConfiguration *_manifestConfiguration;
 }
 
-+ (Class);
++ (Class)24;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)xtension.uuidcache;
 - (void);
-- (void)s;
-- (void)ts:(id)arg1;
-- (id)IMIZE;
+- (void)transitStationTransferVertices;
+- (void)setDisplayedResults:(id)arg1;
+- (id)MINIMIZE;
 - (_Bool);
 - (void)&)P@;
 - (id)±È;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool force; // @synthesize force=_force;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) GEOResourceManifestConfiguration *manifestConfiguration; // @synthesize manifestConfiguration=_manifestConfiguration;
 @property(retain, nonatomic) NSArray *resources; // @synthesize resources=_resources;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool unpack; // @synthesize unpack=_unpack;
 
 @end
 

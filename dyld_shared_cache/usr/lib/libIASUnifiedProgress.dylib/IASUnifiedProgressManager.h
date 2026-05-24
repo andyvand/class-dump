@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection;
+@class NSXPCConnection;
 
 @interface IASUnifiedProgressManager
 {
@@ -22,21 +22,14 @@
 - (id);
 - (id);
 - (_Bool);
-- (float);
+- (float)@24@0:8@16 /* Error: Ran out of types for this method. */;
 - (void);
-- (id);
+- (id)tedToIMAVChat %@;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSXPCConnection *progressAppConnection; // @synthesize progressAppConnection=_progressAppConnection;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,16 +7,10 @@
 @interface AVTStickerGeneratorOptions
 {
     struct CGSize _posterSizeInPixels;
-    float _posterMinimumHorizontalMargin;
-    _Bool _useLegacyCorrectClippingImplementation;
-    double _size;
-    double _sizeMultiplier;
-    double _scaleFactor;
-    unsigned long long _contentMode;
 }
 
 + (id);
-+ (id);
++ (id)= PDSPushEnvironmentSandbox || pushEnvironment == PDSPushEnvironmentProduction;
 - (_Bool);
 - (double);
 - (void);
@@ -28,16 +22,11 @@
 - (double);
 - (void);
 - (unsigned long long);
-- (double);
+- (double)initWithAudioSession: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long contentMode; // @synthesize contentMode=_contentMode;
-@property(nonatomic) _Bool correctClipping;
-@property(nonatomic) double scaleFactor; // @synthesize scaleFactor=_scaleFactor;
 @property(nonatomic) double size; // @synthesize size=_size;
-@property(nonatomic) double sizeMultiplier; // @synthesize sizeMultiplier=_sizeMultiplier;
-@property(nonatomic) _Bool useLegacyCorrectClippingImplementation; // @synthesize useLegacyCorrectClippingImplementation=_useLegacyCorrectClippingImplementation;
 
 @end
 

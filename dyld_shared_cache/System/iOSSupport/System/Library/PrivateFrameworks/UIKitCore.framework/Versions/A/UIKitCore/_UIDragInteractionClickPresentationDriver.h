@@ -6,16 +6,12 @@
 
 #import <UIKitCore/_UIDragInteractionDriver.h>
 
-@class NSSet, UIDelayedAction;
+@class NSSet;
 
 __attribute__((visibility("hidden")))
 @interface _UIDragInteractionClickPresentationDriver : _UIDragInteractionDriver
 {
     NSSet *_touches;
-    CDUnknownBlockType _itemIterator;
-    CDUnknownBlockType _sessionHandler;
-    CDUnknownBlockType _liftCompletion;
-    UIDelayedAction *_delayedLift;
 }
 
 - (_Bool);
@@ -23,10 +19,10 @@ __attribute__((visibility("hidden")))
 - (_Bool)!ÔGù`°1Â0@ù
 × ;
 - (void);
-- (_Bool)gGlowViewMode;
-- (void)sWithIdentifiers: /* Error: Ran out of types for this method. */;
-- (void)lInputModeIdentifiers;
-- (void)iew;
+- (_Bool)setTrailingGlowViewMode;
+- (void)reloadItemsWithIdentifiers: /* Error: Ran out of types for this method. */;
+- (void)multilingualInputModeIdentifiers;
+- (void)UINavigationBarBackIndicatorView;
 - (void);
 - (void)newline;
 - (void)H\;

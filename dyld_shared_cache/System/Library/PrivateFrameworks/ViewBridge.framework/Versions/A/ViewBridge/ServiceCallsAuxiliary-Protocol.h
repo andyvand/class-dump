@@ -5,5 +5,8 @@
 //
 
 @protocol ServiceCallsAuxiliary
+- (void);
+- (void);
+- (void)u;
 @end
 

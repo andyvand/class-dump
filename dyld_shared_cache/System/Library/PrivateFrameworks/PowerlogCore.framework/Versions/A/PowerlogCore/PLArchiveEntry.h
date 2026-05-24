@@ -6,16 +6,15 @@
 
 #import <PowerlogCore/PLEntry.h>
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface PLArchiveEntry : PLEntry
 {
     _Bool _systemTimeOffsetModified;
-    NSString *_crPath;
 }
 
 + (id);
-+ (id);
++ (id)m7;
 + (void)%@ as completed;
 - (_Bool);
 - (double);
@@ -39,31 +38,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)d;
 - (id);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)shouldAllowAutoPushForBundleID:bundleVersion:replyBlock: /* Error: Ran out of types for this method. */;
+- (void)`
+;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *compressedPath;
-@property(readonly, nonatomic) NSString *crPath; // @synthesize crPath=_crPath;
-@property(readonly) NSDate *endDate;
-@property(readonly) _Bool fullMode;
-@property(nonatomic) long long mainDBSizeAtStart;
-@property(readonly, nonatomic) NSString *name;
-@property(nonatomic) unsigned long long numAttempts;
 @property(readonly, nonatomic) NSString *path;
-@property(readonly, nonatomic) _Bool removed;
-@property(retain, nonatomic) NSDate *removedDate;
-@property(nonatomic) long long stage;
-@property(readonly) NSDate *startDate;
-@property(readonly, nonatomic) _Bool syncedOff;
-@property(retain, nonatomic) NSDate *syncedOffDate;
-@property(nonatomic) double systemTimeOffset;
-@property(readonly) _Bool systemTimeOffsetModified; // @synthesize systemTimeOffsetModified=_systemTimeOffsetModified;
-@property(readonly) NSString *uuid;
 
 @end
 

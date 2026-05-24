@@ -4,26 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVMusicAppBehavior, AVObservationController, AVPlayerController, AVPlayerViewController, NSNumber, NSString;
+@class AVMusicAppBehavior;
 
 @interface AVMusicAppBehaviorContext
 {
     _Bool _showsSkipItemButtons;
-    _Bool _skipToPreviousItemButtonEnabled;
-    _Bool _skipToNextItemButtonEnabled;
-    _Bool _scrubbing;
-    AVPlayerViewController *_playerViewController;
-    AVMusicAppBehavior *_behavior;
-    NSNumber *_seekTargetTime;
-    AVObservationController *_observationController;
-    AVPlayerController *_playerController;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -42,7 +34,7 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)defaultManager;
 - (id);
 - (void);
 - (void)q[°1Â0@ù
@@ -50,21 +42,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak AVMusicAppBehavior *behavior; // @synthesize behavior=_behavior;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) AVObservationController *observationController; // @synthesize observationController=_observationController;
-@property(retain, nonatomic) AVPlayerController *playerController; // @synthesize playerController=_playerController;
-@property(readonly, nonatomic) __weak AVPlayerViewController *playerViewController; // @synthesize playerViewController=_playerViewController;
-@property(nonatomic, getter=isScrubbing) _Bool scrubbing; // @synthesize scrubbing=_scrubbing;
-@property(retain, nonatomic) NSNumber *seekTargetTime; // @synthesize seekTargetTime=_seekTargetTime;
-@property(nonatomic) _Bool showsSkipItemButtons; // @synthesize showsSkipItemButtons=_showsSkipItemButtons;
-@property(nonatomic, getter=isSkipToNextItemButtonEnabled) _Bool skipToNextItemButtonEnabled; // @synthesize skipToNextItemButtonEnabled=_skipToNextItemButtonEnabled;
-@property(nonatomic, getter=isSkipToPreviousItemButtonEnabled) _Bool skipToPreviousItemButtonEnabled; // @synthesize skipToPreviousItemButtonEnabled=_skipToPreviousItemButtonEnabled;
-@property(readonly) Class superclass;
 
 @end
 

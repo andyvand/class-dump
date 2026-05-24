@@ -6,7 +6,7 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface RWIProtocolSecurityCertificate : RWIProtocolJSONObject
 {
@@ -24,11 +24,7 @@
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *dnsNames;
-@property(copy, nonatomic) NSArray *ipAddresses;
 @property(copy, nonatomic) NSString *subject;
-@property(nonatomic) double validFrom;
-@property(nonatomic) double validUntil;
 
 @end
 

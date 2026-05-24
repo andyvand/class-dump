@@ -13,14 +13,14 @@
 
 + (id);
 + (id);
-+ (id);
++ (id)`;
 + (unsigned int);
 - (id);
 - (unsigned char);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)JSONData;
 
 // Remaining properties
 @property(readonly) unsigned char ticketNeedsLogicalUnitNumber; // @synthesize ticketNeedsLogicalUnitNumber=_ticketNeedsLogicalUnitNumber;

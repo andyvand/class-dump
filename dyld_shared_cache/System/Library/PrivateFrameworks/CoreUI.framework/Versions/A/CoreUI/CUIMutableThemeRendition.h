@@ -6,18 +6,13 @@
 
 #import <CoreUI/CUIThemeRendition.h>
 
-@class CUIRenditionMetrics, CUIRenditionSliceInformation;
-
 __attribute__((visibility("hidden")))
 @interface CUIMutableThemeRendition : CUIThemeRendition
 {
     struct _renditionkeytoken *_renditionKey;
-    struct CGImage *_image;
-    CUIRenditionSliceInformation *_sliceInformation;
-    CUIRenditionMetrics *_renditionMetrics;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
 - (const struct _renditionkeytoken *);

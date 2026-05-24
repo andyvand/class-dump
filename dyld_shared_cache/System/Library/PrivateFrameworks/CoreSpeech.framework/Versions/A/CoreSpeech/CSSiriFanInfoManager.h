@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSiriFanInfo, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CSSiriFanInfoManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    double _lastInfoQuery;
-    CSSiriFanInfo *_lastFanInfo;
-    unsigned int _connection;
 }
 
-+ (id);
++ (id)T;
 - (void);
 - (void);
 - (id);
-- (void)ndlePendingRemoraVoiceTriggerIfNeeded;
+- (void)handlePendingRemoraVoiceTriggerIfNeeded;
 - (unsigned int)ggerAsset (%{public}@) found:%{public}@ /* Error: Ran out of types for this method. */;
 
 @end

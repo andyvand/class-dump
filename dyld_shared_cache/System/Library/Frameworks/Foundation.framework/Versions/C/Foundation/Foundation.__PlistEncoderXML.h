@@ -7,10 +7,6 @@
 @interface Foundation.__PlistEncoderXML
 {
     id storage;
-    id options;
-    id encoderCodingPathNode;
-    id codingPathDepth;
-    id format;
 }
 
 @end

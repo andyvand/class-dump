@@ -11,8 +11,6 @@
 @interface MPModelObjectMediaItem : MPNondurableMediaItem
 {
     NSDictionary *_propertyValues;
-    MPModelObject *_modelObject;
-    CDUnknownBlockType _fallbackArtworkCatalogBlock;
 }
 
 + (_Bool);
@@ -22,15 +20,14 @@
 - (CDUnknownBlockType);
 - (void);
 - (unsigned long long);
+- (id)alanced calls to beginCoalescedChanges and endCoalescedChanges;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long)mlModelPathForModelName:namespaceName:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+- (void)@;
 - (void)Delay;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType fallbackArtworkCatalogBlock; // @synthesize fallbackArtworkCatalogBlock=_fallbackArtworkCatalogBlock;
 @property(readonly, nonatomic) MPModelObject *modelObject; // @synthesize modelObject=_modelObject;
 
 @end

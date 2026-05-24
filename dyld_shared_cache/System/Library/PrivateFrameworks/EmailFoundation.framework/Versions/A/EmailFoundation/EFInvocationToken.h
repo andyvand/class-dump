@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableArray, NSString;
+@class NSLock;
 
 @interface EFInvocationToken
 {
     NSLock *_lock;
-    NSMutableArray *_blocks;
-    _Bool _isInvoked;
-    NSString *_label;
 }
 
-+ (id);
-+ (id);
++ (id)m:%@ /* Error: Ran out of types for this method. */;
++ (id);
 + (id);
 - (id);
 - (void);
@@ -23,7 +20,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -31,15 +28,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, getter=isInvoked) _Bool invoked;
-@property(readonly, copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly) Class superclass;
 
 @end
 

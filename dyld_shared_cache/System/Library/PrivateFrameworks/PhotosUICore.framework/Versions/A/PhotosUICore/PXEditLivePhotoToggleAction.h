@@ -6,14 +6,11 @@
 
 #import <PhotosUICore/PXEditCompositionAction.h>
 
-@class NUComposition;
 @protocol PXEditLivePhotoModel;
 
 @interface PXEditLivePhotoToggleAction : PXEditCompositionAction
 {
     id <PXEditLivePhotoModel> _livePhotoModel;
-    NUComposition *_sourceComposition;
-    NUComposition *_targetComposition;
 }
 
 - (id);

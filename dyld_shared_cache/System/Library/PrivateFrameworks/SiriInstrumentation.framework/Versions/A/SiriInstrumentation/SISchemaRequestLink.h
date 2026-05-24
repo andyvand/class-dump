@@ -6,46 +6,40 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, SISchemaRequestLinkInfo;
+@class SISchemaRequestLinkInfo;
 
 @interface SISchemaRequestLink : SISchemaTopLevelUnionType
 {
     SISchemaRequestLinkInfo *_source;
-    SISchemaRequestLinkInfo *_target;
-    _Bool _hasSource;
-    _Bool _hasTarget;
 }
 
 - (void);
-- (void);
+- (void)G;
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)?];
 - (int);
 - (id);
+- (void)`
+;
+- (unsigned long long)_forceUpsell;
+- (_Bool)rameworks/Contacts.framework/Contacts;
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool)ELETE ON message BEGIN     DELETE FROM handle         WHERE handle.ROWID = OLD.handle_id     AND         (SELECT 1 from chat_handle_join WHERE handle_id = OLD.handle_id LIMIT 1) IS NULL     AND         (SELECT 1 from message WHERE handle_id = OLD.handle_id LIMIT 1) IS NULL     AND         (SELECT 1 from message WHERE other_handle = OLD.handle_id LIMIT 1) IS NULL; END;;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id)Ô ;
-- (id)InMillionsPerSecond;
-- (id)reReasonCategory;
-- (_Bool)Action;
-- (void);
+- (id)deleteCpuInstructionsInMillionsPerSecond;
+- (id)_failureReasonCategory;
+- (_Bool)directAction;
+- (void)MWTFORMATLAYOUT_EAC3_7_1_F;
 - (void)iseToSpeakTriggered;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSource; // @synthesize hasSource=_hasSource;
-@property(nonatomic) _Bool hasTarget; // @synthesize hasTarget=_hasTarget;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaRequestLinkInfo *source; // @synthesize source=_source;
-@property(retain, nonatomic) SISchemaRequestLinkInfo *target; // @synthesize target=_target;
 
 @end
 

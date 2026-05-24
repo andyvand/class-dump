@@ -4,42 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEOAddressCorrectionInitRequest
 {
     PBDataReader *_reader;
-    NSString *_personID;
-    NSString *_token;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _supportsCollectionByRegion;
-    _Bool _supportsMultipleAddresses;
-    struct {
-        unsigned int has_supportsCollectionByRegion:1;
-        unsigned int has_supportsMultipleAddresses:1;
-        unsigned int read_personID:1;
-        unsigned int read_token:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)apsSuggestionsIsTouristScore:(id)arg1;
-- (_Bool);
++ (_Bool)setHasMapsSuggestionsIsTouristScore:(id)arg1;
+- (_Bool)<oH;
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)ray"16^@24;
+- (void)0@0:(_Bool)arg1 8B16;
+- (_Bool)ry
+ZIP City
+Street;
+- (_Bool)tic Gabon;
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)_retrainingVoiceProfile:(id)arg1 voiceProfile:asset:secureAsset: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (unsigned long long);
@@ -53,22 +41,15 @@
 - (void)d_businessCardPrefCategory"b1"read_businessConnectAttributes"b1"read_categorys"b1"read_countryCode"b1"read_modernPrimaryCategoryIcons"b1"read_modernPrimaryCategoryNames"b1"read_prefCategoryIcons"b1"read_prefCategoryNames"b1"read_prefDisplayName"b1"read_prefPhone"b1"read_prefUrl"b1"wrote_anyField"b1};
 - (id)mifResponseStatus;
 - (id)Ý;
-- (id)yDownloadSizeThreshold;
-- (id)ldFailedTiles;
+- (id)ResourceLoaderInMemoryDownloadSizeThreshold;
+- (id)DeleteOldFailedTiles;
 - (_Bool);
 - (id)Ô;
 - (Class)«@;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasPersonID;
-@property(nonatomic) _Bool hasSupportsCollectionByRegion;
-@property(nonatomic) _Bool hasSupportsMultipleAddresses;
 @property(readonly, nonatomic) _Bool hasToken;
-@property(retain, nonatomic) NSString *personID;
-@property(nonatomic) _Bool supportsCollectionByRegion;
-@property(nonatomic) _Bool supportsMultipleAddresses;
-@property(retain, nonatomic) NSString *token;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol CAStateRecorder
+- (void);
 @end
 

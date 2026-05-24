@@ -6,21 +6,18 @@
 
 #import <CryptoTokenKit/TKSmartCardUserInteractionForPINOperation.h>
 
-@class NSData, TKSmartCardPINFormat, TKSmartCardSlot;
+@class TKSmartCardSlot;
 
 @interface TKSmartCardUserInteractionForSecurePINVerification : TKSmartCardUserInteractionForPINOperation
 {
     TKSmartCardSlot *_slot;
-    TKSmartCardPINFormat *_PINFormat;
-    NSData *_APDU;
-    long long _PINByteOffset;
 }
 
-+ (_Bool);
++ (_Bool)getSpokenNotificationsEnabledWithDictionary:context: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (id);
@@ -28,13 +25,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void):) /* Error: Ran out of types for this method. */;
 - (id)ÿÿ;
 
 // Remaining properties
-@property(retain) NSData *APDU; // @synthesize APDU=_APDU;
-@property long long PINByteOffset; // @synthesize PINByteOffset=_PINByteOffset;
-@property(retain) TKSmartCardPINFormat *PINFormat; // @synthesize PINFormat=_PINFormat;
 @property __weak TKSmartCardSlot *slot; // @synthesize slot=_slot;
 
 @end

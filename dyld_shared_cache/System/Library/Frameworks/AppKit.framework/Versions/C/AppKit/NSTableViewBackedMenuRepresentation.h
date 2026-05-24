@@ -6,20 +6,13 @@
 
 #import <AppKit/NSTableView.h>
 
-@class NSMenuMonotonicVisibleIndexDictionary, NSObject, NSSearchField, NSString, NSView;
-@protocol NSMenuRepresentationDelegate, NSMenuVisibleIndexDictionary;
+@class NSObject;
+@protocol NSMenuRepresentationDelegate;
 
 __attribute__((visibility("hidden")))
 @interface NSTableViewBackedMenuRepresentation : NSTableView
 {
     NSObject<NSMenuRepresentationDelegate> *_repDelegate;
-    NSSearchField *_filterField;
-    NSMenuMonotonicVisibleIndexDictionary *_indexes;
-    long long _cachedNumberOfMenuItems;
-    unsigned long long _typeSelectBehavior;
-    _Bool _isFiltering;
-    _Bool _ignoresRowCalls;
-    _Bool _isSearchFieldNonEmpty;
 }
 
 - (id);
@@ -40,54 +33,42 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (void);
+- (struct CGRect);
 - (struct CGRect);
 - (struct CGRect);
-- (struct CGRect);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (struct CGRect);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (struct NSEdgeInsets);
+- (id)ng, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
+- (struct NSEdgeInsets)ng"32@"NSData"40@"NSDictionary"48;
 - (void);
+- (_Bool)rtificates, DNs(%ld);
+- (void)mOffset:(id)arg1 callback:(_Bool)arg2 ];
+- (id)@;
+- (void)I;
+- (void);
+- (void)_DKCloudDeviceCountChangedNotification;
 - (_Bool);
-- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)application:continueUserActivity:restorationHandler: /* Error: Ran out of types for this method. */;
 - (_Bool)nnecting\U2026;
-- (void);
+- (void)Face;
 - (void)¸ö	A¹D;
 - (void)ÕÿQ
 Ã}E;
 - (void)ÿ;
 
 // Remaining properties
-@property(readonly) NSView *backingView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property struct CGRect frame;
 @property(readonly) unsigned long long hash;
-@property(readonly) NSObject<NSMenuVisibleIndexDictionary> *indexes;
-@property(readonly) long long numberOfVisibleItems;
-@property(nonatomic) __weak NSObject<NSMenuRepresentationDelegate> *representationDelegate;
-@property(readonly) Class superclass;
-@property(readonly) struct CGRect visibleRect;
 
 @end
 

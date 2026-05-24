@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface UIKBAnalyticsDispatcher
 {
     _Bool _analyticsShouldCallDidKeyPress;
-    _Bool _analyticsShouldCallDidKeyPressForDeleteKey;
-    unsigned long long _nextCandidateReplacementSource;
-    NSString *_nextCandidateReplacementRemovedText;
-    NSString *_nextCandidateReplacementInsertedText;
-    NSString *_nextCandidateReplacementPostCandidateInsertedText;
-    unsigned long long _nextCommitTextSource;
-    NSString *_updatedInputMode;
-    NSString *_glomojiTitle;
 }
 
 + (void);
-+ (void);
++ (void)rviceHandlers;
 + (void);
 + (id);
-+ (void);
++ (void)CGImageForProposedRect:(double)arg1 context:(unsigned long long)arg2 hints:(unsigned long long)arg3;
 + (void);
 + (void);
 + (void);
@@ -40,55 +30,47 @@ __attribute__((visibility("hidden")))
 + (void)ð!(Dùqgð1Â0@ù
 × ;
 + (void)ITabContainerViewDelegate>";
-+ (void)tHasDestructiveAction: /* Error: Ran out of types for this method. */;
-+ (void)ngTabBar:(id)arg1;
++ (void)setHasDestructiveAction: /* Error: Ran out of types for this method. */;
++ (void)setFloatingTabBar:(id)arg1;
 + (void)setApplicationDeactivationReason:(int)arg1;
-+ (void)tivated;
-+ (void)yFilters:(id)arg1;
-+ (void)TitleElementsForLargeTitle;
-+ (id)ock_enabled;
-+ (void)edictionsBuffer;
++ (void)isActivated;
++ (void)initWithImage:(id)arg1 frame:ignoreAccessibilityFilters: /* Error: Ran out of types for this method. */;
++ (void)hideTitleElementsForLargeTitle;
++ (id)_visibilityLock_enabled;
++ (void)_numPredictionsBuffer;
 + (void);
 + (void);
 + (void)íîÿîñîÿ;
-+ (void)ntainerGuide;
++ (void)UITableViewContentFocusContainerGuide;
 + (void)No delivery record found. This indicates imbalanced calls of startDeliveringPresses:(id)arg1 inPhase:(id)arg2 withEvent:and finishDeliveringPresses. /* Error: Ran out of types for this method. */;
 + (void)pletionObserving>  _Nonnull const __strong, const BOOL);
 + (void);
 + (id)_;
 + (void)ØÐxÿO;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)contain isPurgeable despite requesting it for %{private}s;
+- (void)ng;
+- (void)s.;
+- (void)ate, and we stopped syncing due to bad account status.;
+- (void)g enabled:(id)arg1 %@;
+- (void)_postMetricsToCloudKitOnAutomaticHistoryDeletionAgentLaunch;
+- (void)** T3 Update item [%@] could not find a chat as a source of truth, marking it as clean and moving on.;
+- (void)ync is YES, fetched max live record batches but will also fetch initial sync archived records if needed:(_Bool)arg1 %@;
+- (void)t reached ********;
+- (void)BIA Context to Chat Properties;
+- (unsigned long long)nary;
+- (unsigned long long)ageController was asked to store nil dictionary;
+- (id)n nil filePath to initWithFilePath;
+- (id)licitly:%@ /* Error: Ran out of types for this method. */;
+- (id)ticipant explicitly:%@ /* Error: Ran out of types for this method. */;
+- (id)stingMergedChats Failure;
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (id)`;
 - (void)Sg;
 
 // Remaining properties
-@property(nonatomic) _Bool analyticsShouldCallDidKeyPress; // @synthesize analyticsShouldCallDidKeyPress=_analyticsShouldCallDidKeyPress;
-@property(nonatomic) _Bool analyticsShouldCallDidKeyPressForDeleteKey; // @synthesize analyticsShouldCallDidKeyPressForDeleteKey=_analyticsShouldCallDidKeyPressForDeleteKey;
-@property(copy, nonatomic) NSString *glomojiTitle; // @synthesize glomojiTitle=_glomojiTitle;
-@property(copy, nonatomic) NSString *nextCandidateReplacementInsertedText; // @synthesize nextCandidateReplacementInsertedText=_nextCandidateReplacementInsertedText;
-@property(copy, nonatomic) NSString *nextCandidateReplacementPostCandidateInsertedText; // @synthesize nextCandidateReplacementPostCandidateInsertedText=_nextCandidateReplacementPostCandidateInsertedText;
-@property(copy, nonatomic) NSString *nextCandidateReplacementRemovedText; // @synthesize nextCandidateReplacementRemovedText=_nextCandidateReplacementRemovedText;
 @property(nonatomic) unsigned long long nextCandidateReplacementSource; // @synthesize nextCandidateReplacementSource=_nextCandidateReplacementSource;
-@property(nonatomic) unsigned long long nextCommitTextSource; // @synthesize nextCommitTextSource=_nextCommitTextSource;
-@property(copy, nonatomic) NSString *updatedInputMode; // @synthesize updatedInputMode=_updatedInputMode;
 
 @end
 

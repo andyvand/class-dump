@@ -12,8 +12,8 @@
 {
 }
 
-- (void);
-- (id)nimumForKind:orientationIsLandscape: /* Error: Ran out of types for this method. */;
+- (void)B;
+- (id)_sizeWidthMinimumForKind:orientationIsLandscape: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *stringValue;

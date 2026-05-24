@@ -7,24 +7,22 @@
 @interface RTStateModelEntryExit
 {
     double _entry_s;
-    double _exit_s;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)seconds (%f);
 - (id);
 - (void);
 - (id);
-- (double);
+- (double);
 - (double);
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(nonatomic) double entry_s; // @synthesize entry_s=_entry_s;
-@property(nonatomic) double exit_s; // @synthesize exit_s=_exit_s;
 
 @end
 

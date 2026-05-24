@@ -9,14 +9,10 @@
 @interface FCCKOrderFeedRequest
 {
     NSString *_feedID;
-    unsigned long long _maxOrder;
-    unsigned long long _minOrder;
-    unsigned long long _resultsLimit;
-    unsigned long long _topK;
 }
 
 - (id);
-- (id);
+- (id)Q;
 - (void)TJeilTlbz3Isi1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCPrivateZoneFeedDescriptor.m;
 
 @end

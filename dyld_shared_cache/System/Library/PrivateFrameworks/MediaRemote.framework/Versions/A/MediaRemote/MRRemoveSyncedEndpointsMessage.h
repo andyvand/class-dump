@@ -13,8 +13,8 @@
 }
 
 - (id);
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long)rror %@ (imageExists will be NO);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *endpointUIDs;

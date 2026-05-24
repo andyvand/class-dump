@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IMIndexThrottleDefaultStorage
 {
 }
@@ -16,19 +14,13 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (long long);
+- (id);
+- (void)newIgnoredCharacterSet;
+- (long long)CNContactActionsDisambiguationMenuGenerator;
 - (void)m2.ROWID = cm.message_id        WHERE cm.chat_id = (SELECT c.rowid FROM chat c WHERE c.chat_identifier = ?)        AND m2.is_read = 0        AND m2.item_type = 0        AND m2.is_from_me = 0  )) ORDER BY ROWID ASC LIMIT 1;;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

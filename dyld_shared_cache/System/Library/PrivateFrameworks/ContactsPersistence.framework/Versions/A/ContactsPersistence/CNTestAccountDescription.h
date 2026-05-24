@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABCDContainer, NSArray, NSNumber, NSString, NSURL;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface CNTestAccountDescription
 {
     _Bool isChildAccount;
-    _Bool isEnabled;
-    _Bool isPersistent;
-    NSURL *baseURL;
-    NSArray *childAccounts;
-    ABCDContainer *containerRepresentation;
-    NSNumber *dsid;
-    NSString *identifier;
-    NSURL *persistentStoreURL;
 }
 
 - (void);
@@ -29,10 +21,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)%d. Ignoring reply;
 - (void);
 - (id);
-- (id);
+- (id)`;
 - (void);
 - (void);
 - (void);
@@ -41,22 +33,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)MeCardMacBuddyImporter;
 
 // Remaining properties
-@property(copy) NSURL *baseURL; // @synthesize baseURL;
-@property(copy) NSArray *childAccounts; // @synthesize childAccounts;
-@property(retain) ABCDContainer *containerRepresentation; // @synthesize containerRepresentation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSNumber *dsid; // @synthesize dsid;
-@property(readonly) unsigned long long hash;
 @property(copy) NSString *identifier; // @synthesize identifier;
-@property _Bool isChildAccount; // @synthesize isChildAccount;
-@property _Bool isEnabled; // @synthesize isEnabled;
-@property _Bool isPersistent; // @synthesize isPersistent;
-@property(retain) NSURL *persistentStoreURL; // @synthesize persistentStoreURL;
-@property(readonly) Class superclass;
 
 @end
 

@@ -11,25 +11,23 @@
 @interface IMAPMailboxCommand : IMAPSingleCommand
 {
     NSString *_mailboxName;
-    NSString *_mailboxArgumentName;
 }
 
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)g;
 - (long long);
 - (long long);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)lendar;
+- (void)c;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy) NSString *mailboxArgumentName; // @synthesize mailboxArgumentName=_mailboxArgumentName;
 @property(copy) NSString *mailboxName; // @synthesize mailboxName=_mailboxName;
 
 @end

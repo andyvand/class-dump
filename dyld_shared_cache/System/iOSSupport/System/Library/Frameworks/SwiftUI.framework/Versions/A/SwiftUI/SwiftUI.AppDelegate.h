@@ -17,12 +17,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)_mapQueue;
 - (void);
-- (id);
-- (_Bool);
+- (id)setAccessibilityEnabled: /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (_Bool)DyAùÿGzc;
-- (void)erContent;
+- (void)FormFooterContent;
 
 @end
 

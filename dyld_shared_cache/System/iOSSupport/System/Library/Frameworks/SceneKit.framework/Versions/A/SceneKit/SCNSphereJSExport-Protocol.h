@@ -5,11 +5,9 @@
 //
 
 @protocol SCNSphereJSExport
+- (long long)l!;
 
 // Remaining properties
-@property(nonatomic, getter=isGeodesic) _Bool geodesic;
-@property(nonatomic, getter=isHemispheric) _Bool hemispheric;
 @property(nonatomic) double radius;
-@property(nonatomic) long long segmentCount;
 @end
 

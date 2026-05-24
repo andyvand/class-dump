@@ -4,34 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIKORStringGenerator, NSMutableDictionary, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CUIKORPayloadProvider
 {
     NSObject<OS_dispatch_queue> *_lookupQueue;
-    NSObject<OS_dispatch_queue> *_drawingQueue;
-    NSMutableDictionary *_pendingRequests;
-    CUIKORStringGenerator *_stringGenerator;
 }
 
-+ (id)8;
 + (id);
-- (long long)¹;
-- (void)pûÿð²ð#ÁÚáª¦ÌÄÿÿÀu;
-- (id)ª=&;
-- (id)øÀuÐ;
-- (void);
++ (id);
+- (long long);
+- (void);
 - (id);
-- (id)×é;
-- (id)_Ö#Õúg»©ø_©öW©ôO©ý{©ýÿ;
-- (id){Á¨ÿ_Ö#Õý{¿©ý;
-- (void)À_Ö;
-- (void)ð;qÝÒ0
-ÁÚàªÏÈuÐÁ;
-- (id)_Ö;
-- (id)ªôªÙÏ;
-- (id)ÊP;
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -40,10 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *drawingQueue; // @synthesize drawingQueue=_drawingQueue;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *lookupQueue; // @synthesize lookupQueue=_lookupQueue;
-@property(readonly, nonatomic) NSMutableDictionary *pendingRequests; // @synthesize pendingRequests=_pendingRequests;
-@property(readonly, nonatomic) CUIKORStringGenerator *stringGenerator; // @synthesize stringGenerator=_stringGenerator;
 
 @end
 

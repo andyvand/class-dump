@@ -10,12 +10,12 @@
 {
 }
 
++ (id)__DATA;
++ (id)(;
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)@;
 - (id);
-- (_Bool);
+- (_Bool)Asset.VoiceServicesVocalizerVoice;
 
 @end
 

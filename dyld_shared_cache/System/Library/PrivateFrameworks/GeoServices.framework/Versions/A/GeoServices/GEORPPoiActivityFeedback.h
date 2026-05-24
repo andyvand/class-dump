@@ -4,68 +4,50 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDMapsIdentifier, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPPoiActivityFeedback
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_9f2792e4 _representativeHours;
-    GEOPDMapsIdentifier *_mapsId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _isDataCorrect;
-    _Bool _isDataUseful;
-    _Bool _isVisualRepresentationValid;
-    struct {
-        unsigned int has_isDataCorrect:1;
-        unsigned int has_isDataUseful:1;
-        unsigned int has_isVisualRepresentationValid:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_representativeHours:1;
-        unsigned int read_mapsId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool);
++ (_Bool)setLayoutPriority:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (unsigned long long)compoundPredicateForKey:option:andSubPredicate: /* Error: Ran out of types for this method. */;
+- (unsigned int)componentsSeparatedByString:(unsigned long long)arg1;
+- (unsigned int *)componentsJoinedByString: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)hing a new CNCDContainer for record adoption.;
+- (_Bool)This is an invalid database state. Establishing a new CNCDContainer for record adoption.;
+- (_Bool);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (id)Q24;
+- (void)SSVCAMinimumLinearSoundLevel;
+- (id);
 - (unsigned long long);
-- (unsigned int);
-- (unsigned int *);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)base<std:(struct _NSZone *)arg1:__hash_node<GEORoadEdge *, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}} /* Error: Ran out of types for this method. */;
-- (id)odernLocalizedCategorys;
+- (id)clearModernLocalizedCategorys;
 - (id)ô}hÀ;
 - (id)ceResponseReadAllFrom can only be called once per object;
 - (id);
@@ -73,17 +55,7 @@
 - (void)áNG@;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsDataCorrect;
-@property(nonatomic) _Bool hasIsDataUseful;
-@property(nonatomic) _Bool hasIsVisualRepresentationValid;
 @property(readonly, nonatomic) _Bool hasMapsId;
-@property(nonatomic) _Bool isDataCorrect;
-@property(nonatomic) _Bool isDataUseful;
-@property(nonatomic) _Bool isVisualRepresentationValid;
-@property(retain, nonatomic) GEOPDMapsIdentifier *mapsId;
-@property(readonly, nonatomic) unsigned int *representativeHours;
-@property(readonly, nonatomic) unsigned long long representativeHoursCount;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -14,15 +14,15 @@
 + (id);
 + (_Bool);
 + (id);
-+ (id);
++ (id).;
 + (id);
 + (id);
 + (long long);
 + (id);
 + (id);
 + (_Bool);
-+ (id);
-+ (_Bool);
++ (id);
++ (_Bool)";
 
 @end
 

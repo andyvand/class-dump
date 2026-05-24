@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPPrivacyProxyBAAValidation, NSPPrivacyProxyGetQuotaRequest;
+@class NSPPrivacyProxyBAAValidation;
 
 @interface NSPPrivacyProxyQuotaServiceRequest
 {
     NSPPrivacyProxyBAAValidation *_baa;
-    NSPPrivacyProxyGetQuotaRequest *_request;
-    int _requestType;
-    CDStruct_7c66fec0 _has;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -24,7 +21,7 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
@@ -34,18 +31,13 @@
 - (void);
 - (void);
 - (void);
-- (int);
+- (int);
 - (id)!|Gùñ$1Â0@ù
 × ;
 - (_Bool)ion;
 
 // Remaining properties
-@property(retain, nonatomic) NSPPrivacyProxyBAAValidation *baa; // @synthesize baa=_baa;
 @property(readonly, nonatomic) _Bool hasBaa;
-@property(readonly, nonatomic) _Bool hasRequest;
-@property(nonatomic) _Bool hasRequestType;
-@property(retain, nonatomic) NSPPrivacyProxyGetQuotaRequest *request; // @synthesize request=_request;
-@property(nonatomic) int requestType; // @synthesize requestType=_requestType;
 
 @end
 

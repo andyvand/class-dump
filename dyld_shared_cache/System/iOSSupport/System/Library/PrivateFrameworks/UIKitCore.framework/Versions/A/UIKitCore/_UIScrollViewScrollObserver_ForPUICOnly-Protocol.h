@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIScrollView;
+
 @protocol _UIScrollViewScrollObserver_ForPUICOnly
+
+@optional
+- (void)_processMessagesForRelayIfNeededMarkingAsRelayedUponSuccess:(UIScrollView *)arg1;
+- (void);
+- (void)_processDeliveryReceiptForMessage:(UIScrollView *)arg1 date:isFromOffGridCapableDevice:chat:serviceSession: /* Error: Ran out of types for this method. */;
+- (void)_processAssetFetchPerRecordProgressBlock:(UIScrollView *)arg1 progress: /* Error: Ran out of types for this method. */;
 @end
 

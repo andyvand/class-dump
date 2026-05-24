@@ -7,7 +7,6 @@
 @interface NewsUI2.TableOfContentsCoordinator
 {
     id delegate;
-    id tracker;
 }
 
 @end

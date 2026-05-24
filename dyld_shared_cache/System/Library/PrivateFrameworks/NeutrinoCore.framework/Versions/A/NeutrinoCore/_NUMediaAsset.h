@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (long long);
+- (long long)etwork service;
 
 @end
 

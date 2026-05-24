@@ -7,9 +7,6 @@
 @interface NewsArticles.EndOfRecipeFeedConfigManager
 {
     id decoder;
-    id appConfigManager;
-    id resourceService;
-    id recipeRecirculationConfigService;
 }
 
 @end

@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSUIWebClientContext, NSArray, NSDictionary, NSMutableDictionary;
+@class AMSUIWebClientContext;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebPluginLoader
 {
     AMSUIWebClientContext *_context;
-    NSDictionary *_installedPluginURLs;
-    NSMutableDictionary *_loadedPluginsMap;
 }
 
-- (void);
+- (void)d successfully for query:(id)arg1 (%{public}@);
+- (id)onOptions for macOS connection;
+- (id)r failed for auto asset selector:%@ /* Error: Ran out of types for this method. */;
+- (id)y (%{public}@);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)tor for sibling volumes
+;
 - (void)lt"16@"NSError"24;
 
 // Remaining properties
 @property(readonly) __weak AMSUIWebClientContext *context; // @synthesize context=_context;
-@property(readonly) NSDictionary *installedPluginURLs; // @synthesize installedPluginURLs=_installedPluginURLs;
-@property(readonly) NSArray *loadedPlugins;
-@property(retain) NSMutableDictionary *loadedPluginsMap; // @synthesize loadedPluginsMap=_loadedPluginsMap;
 
 @end
 

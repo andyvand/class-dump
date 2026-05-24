@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface DGSpotPatchSpot
 {
     struct CGPoint _center;
-    double _radius;
-    double _softness;
-    double _opacity;
-    double _detail;
-    double _angle;
-    _Bool _hasPatch;
-    struct CGPoint _patchCenter;
 }
 
 + (id);
 - (struct CGPoint);
-- (_Bool);
-- (double);
+- (_Bool)=;
+- (double)emoriesEventDisambiguationCell;
 - (double);
 - (id);
 - (struct CGPoint);
@@ -33,13 +24,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

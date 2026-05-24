@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaAudioStopRecordingStarted : SISchemaInstrumentationMessage
 {
     int _stopReasonMajor;
-    int _stopReasonMinor;
-    struct {
-        unsigned int stopReasonMajor:1;
-        unsigned int stopReasonMinor:1;
-    } _has;
 }
 
 - (void);
@@ -30,20 +23,17 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)ASDPurchaseHistoryQuery;
+- (_Bool)phoneticFamilyName;
+- (_Bool)_action_type IN (1,3) AND (m.ROWID IN (SELECT message_id FROM message_attachment_join)));
 - (id);
-- (id);
-- (id)eInSec;
+- (id)InitWithCGImage failed:%u-bit image bad decode array
+ /* Error: Ran out of types for this method. */;
+- (id)cumulativeDowntimeInSec;
 - (id)_answerSynthesisModelInferenceTimeInMs;
 
 // Remaining properties
-@property(nonatomic) _Bool hasStopReasonMajor;
-@property(nonatomic) _Bool hasStopReasonMinor;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int stopReasonMajor; // @synthesize stopReasonMajor=_stopReasonMajor;
-@property(nonatomic) int stopReasonMinor; // @synthesize stopReasonMinor=_stopReasonMinor;
 
 @end
 

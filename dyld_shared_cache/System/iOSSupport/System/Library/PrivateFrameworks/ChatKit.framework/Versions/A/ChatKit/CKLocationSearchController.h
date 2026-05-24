@@ -6,43 +6,35 @@
 
 #import <ChatKit/CKMessageTypeSearchController.h>
 
-@class NSString;
-
 @interface CKLocationSearchController : CKMessageTypeSearchController
 {
 }
 
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
++ (id)T_	;
+- (id)indeterminate;
+- (void)icaxLocalizedNumber:(id)arg1 numberStyle:(id)arg2;
+- (_Bool)_stopIndexing;
 - (id);
-- (void);
+- (id);
+- (id);
+- (_Bool).;
+- (void)e;
+- (id)6;
+- (id)SiriNoteTextViewSizeDidChangeNotification;
+- (id)t isn't for this textview;
+- (id);
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (double);
+- (double)8#;
 - (id);
 - (long long)you expect it to send as?;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

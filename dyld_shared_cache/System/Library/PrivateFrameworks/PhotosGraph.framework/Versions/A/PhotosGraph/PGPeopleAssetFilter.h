@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PGPeopleAssetFilter
 {
     _Bool _petFilter;
-    unsigned long long _maximumNumberOfOtherFacesPresent;
 }
 
-+ (id);
++ (id)initWithRequest:allowFetchingOverCellularNetwork:completionHandler: /* Error: Ran out of types for this method. */;
 + (_Bool);
 - (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)firstDecendantElementFromElement:(unsigned long long)arg1 type: /* Error: Ran out of types for this method. */;
+- (id)_setSharedKeyboardFocusedElementController:(unsigned long long)arg1;
+- (id)__didRegisterWindowDidResizeNotification;
+- (_Bool)!;
 - (id);
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned long long maximumNumberOfOtherFacesPresent; // @synthesize maximumNumberOfOtherFacesPresent=_maximumNumberOfOtherFacesPresent;
-@property(readonly) Class superclass;
 
 @end
 

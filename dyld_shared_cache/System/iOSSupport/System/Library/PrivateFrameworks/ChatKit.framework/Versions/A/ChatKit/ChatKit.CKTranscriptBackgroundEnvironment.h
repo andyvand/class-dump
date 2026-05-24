@@ -11,8 +11,8 @@
     void transcriptLayoutDelegate;
 }
 
-- (id);
-- (void);
+- (id)participantAvatarCache;
+- (void)$s10Foundation21_BridgedStoredNSErrorP;
 - (id);
 - (id);
 - (void)ÐÚ;

@@ -7,17 +7,6 @@
 @interface CoreCDPUI.QuotaStorageViewModel
 {
     id appleAccount;
-    id hook;
-    id url;
-    id urlRequest;
-    id _navigationPath;
-    id _isQuotaScreenPresented;
-    id _isRPDSuccessScreenPresented;
-    id _isDataRecoveryResetFailedAlertPresented;
-    id _isQuotaScreenDisabled;
-    id delegate;
-    id completion;
-    id $__lazy_storage_$_dataSource;
 }
 
 - (void);

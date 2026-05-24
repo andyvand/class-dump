@@ -6,7 +6,6 @@
 
 #import <UXKit/UXCollectionViewController.h>
 
-@class UXTableView;
 @protocol UXTableViewDelegate;
 
 @interface UXTableViewController : UXCollectionViewController
@@ -30,7 +29,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) UXTableView *tableView;
 @property(readonly, nonatomic) id <UXTableViewDelegate> tableViewDelegate; // @synthesize tableViewDelegate=_tableViewDelegate;
 
 @end

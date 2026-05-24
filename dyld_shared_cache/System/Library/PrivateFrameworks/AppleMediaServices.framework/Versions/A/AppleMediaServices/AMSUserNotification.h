@@ -4,34 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AMSUserNotificationAction, NSArray, NSDate, NSDictionary, NSMutableDictionary, NSSet, NSString, NSURL;
-
 @interface AMSUserNotification
 {
     _Bool _appPersonalize;
-    _Bool _explicitContent;
-    _Bool _anonymizeMetrics;
-    _Bool _shouldSuppressDefaultAction;
-    ACAccount *_account;
-    NSURL *_artworkUrl;
-    NSURL *_videoUrl;
-    NSArray *_buttonActions;
-    NSString *_centerBundleIdentifier;
-    NSString *_iconBundleIdentifier;
-    AMSUserNotificationAction *_defaultAction;
-    NSString *_identifier;
-    NSString *_informativeText;
-    NSString *_logKey;
-    NSDictionary *_metricsEvent;
-    NSDate *_scheduledTime;
-    NSSet *_subsections;
-    NSString *_subtitle;
-    NSString *_title;
-    NSMutableDictionary *_userInfo;
-    unsigned long long _interruptionLevel;
-    long long _intent;
-    NSString *_categoryIdentifier;
-    NSString *_threadIdentifier;
 }
 
 + (_Bool);
@@ -68,6 +43,7 @@ p.ü /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -75,31 +51,30 @@ p.ü /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
+- (id)P;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)�;
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
 - (_Bool);
 - (void);
 - (id);
 - (void);
+- (_Bool);
+- (void);
 - (id);
+- (_Bool);
+- (void);
 - (id);
-- (unsigned long long);
+- (void);
+- (id);
+- (id)for fileURL '%@' and chatID '%@;
+- (unsigned long long)Capabilities;
 - (id);
 - (void);
 - (long long);
@@ -115,7 +90,7 @@ p.ü /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (void)eferences:(id)arg1 forKey:domain: /* Error: Ran out of types for this method. */;
+- (void)_setIntegerWithCFPreferences:(id)arg1 forKey:domain: /* Error: Ran out of types for this method. */;
 - (id)@:[%{public}@] Error downloading asset:%{public}@ /* Error: Ran out of types for this method. */;
 - (void)context;
 - (void)´Y°S u°ñÿ°{ªW°ÙÝ°>û£°Ó)°4À° J°Ge4°åM¾°4Ð° Z°Ge$°åM®°{ªG°ÙÍ°>û³°Ó9°q°´Y°S e°ñï°oï°ÍÇ°*¾ò°x°Ù­°{ª'°ÓY°>ûÓ° :°4°°åMÎ°GeD°ÍÇì°oïf°°*¾°´Y{°qñ°ñ°S °´Yk°qá°ñ°S °ÍÇü°oïv°°*¾° *°4 °åMÞ°GeT°Ù½°{ª7°ÓI°>ûÃ°°*¾°ÍÇ|°oïö°ñ°S °´Yë°qa°ÓÉ°>ûC°Ù=°{ª·°åM^°GeÔ° ª°4 °åMN°GeÄ° º°40°ÓÙ°>ûS°Ù-°{ª§°ñ°S °´Yû°qq°°*¾°ÍÇl°oïæ°yhþÖm1Îu³mIåÏ}æ³\^¼:0é¡ËÍ)þÞZ
@@ -123,37 +98,7 @@ p.ü /* Error: Ran out of types for this method. */;
 - (void)ÉÕ¥£*µõ½F4dST·â>t'&fàÕûqòÃpêÏ.Á¤úrYÌ ¢ÎW$tgv÷ºÅj=Óý¾¿UÑ	;
 
 // Remaining properties
-@property(retain) ACAccount *account; // @synthesize account=_account;
 @property _Bool anonymizeMetrics; // @synthesize anonymizeMetrics=_anonymizeMetrics;
-@property _Bool appPersonalize; // @synthesize appPersonalize=_appPersonalize;
-@property(retain) NSURL *artworkUrl; // @synthesize artworkUrl=_artworkUrl;
-@property(retain) NSArray *buttonActions; // @synthesize buttonActions=_buttonActions;
-@property(retain) NSString *categoryIdentifier; // @synthesize categoryIdentifier=_categoryIdentifier;
-@property(retain) NSString *centerBundleIdentifier; // @synthesize centerBundleIdentifier=_centerBundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain) AMSUserNotificationAction *defaultAction; // @synthesize defaultAction=_defaultAction;
-@property(readonly, copy) NSString *description;
-@property _Bool explicitContent; // @synthesize explicitContent=_explicitContent;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *iconBundleIdentifier; // @synthesize iconBundleIdentifier=_iconBundleIdentifier;
-@property(retain) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain) NSString *informativeText; // @synthesize informativeText=_informativeText;
-@property long long intent; // @synthesize intent=_intent;
-@property unsigned long long interruptionLevel; // @synthesize interruptionLevel=_interruptionLevel;
-@property(retain) NSString *logKey; // @synthesize logKey=_logKey;
-@property(retain) NSDictionary *metricsEvent; // @synthesize metricsEvent=_metricsEvent;
-@property(retain) NSDate *scheduledTime; // @synthesize scheduledTime=_scheduledTime;
-@property _Bool shouldSuppressDefaultAction; // @synthesize shouldSuppressDefaultAction=_shouldSuppressDefaultAction;
-@property(retain) NSSet *subsections; // @synthesize subsections=_subsections;
-@property(retain) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(retain) NSString *threadIdentifier; // @synthesize threadIdentifier=_threadIdentifier;
-@property(retain) NSString *title; // @synthesize title=_title;
-@property(retain) NSMutableDictionary *userInfo; // @synthesize userInfo=_userInfo;
-@property(retain) NSURL *videoUrl; // @synthesize videoUrl=_videoUrl;
 
 @end
 

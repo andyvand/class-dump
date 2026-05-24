@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APPCNativeRepresentation, NSString;
 @protocol APPCLifecycleMetricsHelping;
 
 @interface APPCPromotedContentInfo
 {
     id promotedContent;
-    id <APPCLifecycleMetricsHelping> metricsHelper;
-    void ready;
-    long long unfilledReason;
-    _Bool placeholder;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)) const;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -34,17 +29,7 @@
 - (CDUnknownBlockType);
 
 // Remaining properties
-@property(nonatomic, readonly) long long desiredPosition;
-@property(nonatomic, readonly) long long errorReason;
-@property(nonatomic, readonly) NSString *identifier;
-@property(nonatomic, readonly) _Bool isDownloadable;
-@property(nonatomic, readonly) _Bool isInteractive;
-@property(nonatomic, readonly) _Bool isVideo;
 @property(nonatomic, readonly) id <APPCLifecycleMetricsHelping> metricsHelper; // @synthesize metricsHelper;
-@property(nonatomic, readonly) APPCNativeRepresentation *nativeInfo;
-@property(nonatomic) _Bool placeholder; // @synthesize placeholder;
-@property(nonatomic, readonly) CDUnknownBlockType ready;
-@property(nonatomic) long long unfilledReason; // @synthesize unfilledReason;
 
 @end
 

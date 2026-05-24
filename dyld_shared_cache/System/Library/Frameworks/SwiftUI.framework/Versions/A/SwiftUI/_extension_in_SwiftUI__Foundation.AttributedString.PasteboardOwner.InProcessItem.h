@@ -12,7 +12,7 @@
 + (id);
 - (id);
 - (id);
-- (void)xt;
+- (void)IncludesStyledText;
 
 @end
 

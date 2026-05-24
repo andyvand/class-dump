@@ -4,38 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber;
+@class NSDate;
 
 @interface SPEstimatedLocation
 {
     NSDate *_timestamp;
-    double _latitude;
-    double _longitude;
-    double _horizontalAccuracy;
-    double _altitude;
-    double _verticalAccuracy;
-    double _speed;
-    double _speedAccuracy;
-    double _course;
-    double _courseAccuracy;
-    NSNumber *_floorLevel;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (double);
-- (double);
+- (double)h.;
 - (id);
 - (id);
-- (void);
+- (void)`;
 - (id);
 - (double);
 - (void);
@@ -43,10 +33,10 @@
 - (void);
 - (void);
 - (id);
-- (double);
+- (double);
 - (double);
 - (void);
-- (double);
+- (double)A;
 - (double);
 - (void);
 - (double);
@@ -54,17 +44,7 @@
 - (double);
 
 // Remaining properties
-@property(nonatomic) double altitude; // @synthesize altitude=_altitude;
-@property(nonatomic) double course; // @synthesize course=_course;
-@property(nonatomic) double courseAccuracy; // @synthesize courseAccuracy=_courseAccuracy;
-@property(copy, nonatomic) NSNumber *floorLevel; // @synthesize floorLevel=_floorLevel;
-@property(nonatomic) double horizontalAccuracy; // @synthesize horizontalAccuracy=_horizontalAccuracy;
-@property(nonatomic) double latitude; // @synthesize latitude=_latitude;
-@property(nonatomic) double longitude; // @synthesize longitude=_longitude;
-@property(nonatomic) double speed; // @synthesize speed=_speed;
-@property(nonatomic) double speedAccuracy; // @synthesize speedAccuracy=_speedAccuracy;
 @property(copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) double verticalAccuracy; // @synthesize verticalAccuracy=_verticalAccuracy;
 
 @end
 

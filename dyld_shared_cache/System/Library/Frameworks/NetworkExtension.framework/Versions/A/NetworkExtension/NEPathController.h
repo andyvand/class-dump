@@ -4,28 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface NEPathController
 {
     _Bool _enabled;
-    _Bool _ignoreRouteRules;
-    _Bool _ignoreFallback;
-    long long _cellularFallbackFlags;
-    NSArray *_pathRules;
-    NSArray *_payloadAppRules;
 }
 
 + (id);
-+ (_Bool);
-- (void);
-- (void);
++ (_Bool)setQueueOneToMessageIDDictionary: /* Error: Ran out of types for this method. */;
+- (void)m;
+- (void);
 - (id);
 - (void);
 - (long long);
 - (id);
-- (id);
-- (_Bool);
+- (id)variantsMatchingQuery:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)_initialInfo;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -36,16 +29,11 @@
 - (_Bool);
 - (id);
 - (void)eychainItem";
-- (_Bool)Message:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)sendOutgoingCallMessage:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (id)(initiator rekey followup KE);
 
 // Remaining properties
-@property long long cellularFallbackFlags; // @synthesize cellularFallbackFlags=_cellularFallbackFlags;
 @property(getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) _Bool hasNonDefaultRules;
-@property _Bool ignoreFallback; // @synthesize ignoreFallback=_ignoreFallback;
-@property _Bool ignoreRouteRules; // @synthesize ignoreRouteRules=_ignoreRouteRules;
-@property(copy) NSArray *pathRules; // @synthesize pathRules=_pathRules;
 
 @end
 

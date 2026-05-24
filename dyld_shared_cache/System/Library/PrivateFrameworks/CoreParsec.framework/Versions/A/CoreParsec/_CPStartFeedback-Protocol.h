@@ -5,6 +5,7 @@
 //
 
 @protocol _CPStartFeedback
+- (int)S;
 
 // Remaining properties
 @property(readonly, nonatomic) int endpointType;

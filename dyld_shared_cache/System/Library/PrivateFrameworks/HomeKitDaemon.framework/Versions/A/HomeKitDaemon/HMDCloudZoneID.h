@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKContainerID, CKRecordZoneID;
+@class CKContainerID;
 
 __attribute__((visibility("hidden")))
 @interface HMDCloudZoneID
 {
     CKContainerID *_containerID;
-    long long _scope;
-    CKRecordZoneID *_zoneID;
 }
 
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
-- (long long);
+- (unsigned long long)P;
+- (long long);
 - (_Bool);
-- (id)rrentOrPrimaryHomeChangedNotification:(struct _NSZone *)arg1;
-- (id): /* Error: Ran out of types for this method. */;
+- (id)handleCurrentOrPrimaryHomeChangedNotification:(struct _NSZone *)arg1;
+- (id)calendarWithIdentifier: /* Error: Ran out of types for this method. */;
 - (id)%@;
 - (void)cateAccessory();
 
 // Remaining properties
 @property(readonly, copy) CKContainerID *containerID; // @synthesize containerID=_containerID;
-@property(readonly) long long scope; // @synthesize scope=_scope;
-@property(readonly, copy) CKRecordZoneID *zoneID; // @synthesize zoneID=_zoneID;
 
 @end
 

@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface SFDomainSubscriptionRequestItem
 {
 }
 
 + (_Bool);
-- (id);
+- (id)sdk_addStoreItemWithOpaqueID:(id)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (id);
+- (void)texttone:(id)arg1 Antic;
+- (id):(id)arg1 8@"<NSObject>"16;
+- (id)PHQueryForAssetInAlbumKind_1WaySyncLibraryAlbum_block_invoke_40;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

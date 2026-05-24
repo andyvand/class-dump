@@ -5,5 +5,6 @@
 //
 
 @protocol CNVCardLine
+- (void)`;
 @end
 

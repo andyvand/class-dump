@@ -7,10 +7,6 @@
 @interface IMCore.ImportExport.ArchiveWritingIterator
 {
     id archivingOptions;
-    id archiver;
-    id conversations;
-    id exportIterator;
-    id conversationDirectories;
 }
 
 @end

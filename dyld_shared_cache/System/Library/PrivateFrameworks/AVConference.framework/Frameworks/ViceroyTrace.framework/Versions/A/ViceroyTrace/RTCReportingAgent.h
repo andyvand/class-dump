@@ -4,50 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSMutableDictionary, NSNumber, NSObject, NSString, NWSMetricReporter, RTCReporting, VCAggregator, VCPersistentDataStore, VCRateControlMachineLearningLocalTrainingDataProducer, VCRemoteDataCollectionDumpProducer;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore, OS_dispatch_source, OS_nw_activity, OS_os_transaction;
+@class VCAggregator;
 
 __attribute__((visibility("hidden")))
 @interface RTCReportingAgent
 {
     unsigned int _callID;
-    RTCReporting *_reportingObject;
-    void *_symptomReporter;
-    NSObject<OS_dispatch_queue> *_reportingQueue;
-    NSObject<OS_dispatch_queue> *_periodicTaskManagementQueue;
-    NSObject<OS_dispatch_queue> *_periodicTaskTelemetryCollectionQueue;
-    NSObject<OS_dispatch_source> *_periodicTimer;
-    NSMutableDictionary *_periodicServiceRegisteredBlocks;
-    int _periodicTimerIterationCounter;
-    NSObject<OS_dispatch_semaphore> *_reportingConfigurationCompleteSemaphore;
-    NSArray *_backends;
-    VCAggregator *_aggregator;
-    VCAggregator *_aggregator2;
-    struct os_unfair_lock_s _aggregatorLock;
-    int _clientType;
-    struct tagVCReportingClientSettingsPersist _persistentSettings;
-    NSString *_serviceName;
-    int _nextUnassignedReportingModuleID;
-    NSMutableDictionary *_userInfoMap;
-    int _dataPath;
-    NSObject<OS_nw_activity> *_nwActivity;
-    NSDate *_conversationTimeBase;
-    NSObject<OS_os_transaction> *_transaction;
-    NSString *_osBuild;
-    NSString *_deviceType;
-    struct tagABCSymptomsReportingTelemetryThresholdValues _abcSymptomsReportingTelemetryThresholdValues;
-    VCPersistentDataStore *_dataStore;
-    VCRemoteDataCollectionDumpProducer *_remoteDataProducer;
-    VCRateControlMachineLearningLocalTrainingDataProducer *_vcrcmlTrainingDataProducer;
-    _Bool _audioTotalConnectionTimeRegressedFromTelemetrySymptomReported;
-    _Bool _videoTotalConnectionTimeRegressedFromTelemetrySymptomReported;
-    id _awdAdaptor;
-    NWSMetricReporter *_nwsMetricReporter;
-    NSObject<OS_dispatch_queue> *_nwsMetricReporterQueue;
-    NSString *_deviceUniqueID;
-    NSString *_networkScoreUUIDString;
-    long long _onceSendFinalizedEventToken;
-    NSNumber *_subSessionId;
 }
 
 - (id);
@@ -55,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)T8U;
 - (id);
 - (id);
 - (void);
@@ -66,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -87,13 +49,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned short);
 - (unsigned short);
-- (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)K*;
 - (_Bool);
 - (struct tagVCReportingClientSettingsPersist);
 - (void);
@@ -101,7 +63,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -109,7 +71,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (struct tagABCSymptomsReportingTelemetryThresholdValues);
+- (struct tagABCSymptomsReportingTelemetryThresholdValues)�@�)!;
 - (id);
 - (void);
 - (void);
@@ -122,45 +84,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool).;
 - (id);
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (void)er with NULL frame callback;
+- (_Bool);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (int)VER;
+- (int)FECHDRVER;
 
 // Remaining properties
-@property(getter=abcSymptomsReportingTelemetryThresholdValues) struct tagABCSymptomsReportingTelemetryThresholdValues abcSymptomsReportingTelemetryThresholdValues; // @synthesize abcSymptomsReportingTelemetryThresholdValues=_abcSymptomsReportingTelemetryThresholdValues;
 @property(readonly) VCAggregator *aggregator; // @synthesize aggregator=_aggregator;
-@property(readonly) VCAggregator *aggregator2; // @synthesize aggregator2=_aggregator2;
-@property(copy) NSArray *backends; // @synthesize backends=_backends;
-@property int clientType; // @synthesize clientType=_clientType;
-@property VCPersistentDataStore *dataStore; // @synthesize dataStore=_dataStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) int nextUnassignedReportingModuleID;
-@property(readonly) NSDictionary *periodicServiceRegisteredBlocks; // @synthesize periodicServiceRegisteredBlocks=_periodicServiceRegisteredBlocks;
-@property(readonly) NSObject<OS_dispatch_queue> *periodicTaskManagementQueue; // @synthesize periodicTaskManagementQueue=_periodicTaskManagementQueue;
-@property(readonly) NSObject<OS_dispatch_source> *periodicTimer; // @synthesize periodicTimer=_periodicTimer;
-@property struct tagVCReportingClientSettingsPersist persistentSettings; // @synthesize persistentSettings=_persistentSettings;
-@property(readonly) VCRemoteDataCollectionDumpProducer *remoteDataProducer; // @synthesize remoteDataProducer=_remoteDataProducer;
-@property(readonly) RTCReporting *reportingObject; // @synthesize reportingObject=_reportingObject;
-@property(readonly) NSObject<OS_dispatch_queue> *reportingQueue; // @synthesize reportingQueue=_reportingQueue;
-@property(copy) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(copy) NSNumber *subSessionId; // @synthesize subSessionId=_subSessionId;
-@property(readonly) Class superclass;
-@property(readonly) NSMutableDictionary *userInfoMap; // @synthesize userInfoMap=_userInfoMap;
 
 @end
 

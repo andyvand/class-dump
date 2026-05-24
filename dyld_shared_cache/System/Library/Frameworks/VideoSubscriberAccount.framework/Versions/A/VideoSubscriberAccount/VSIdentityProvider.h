@@ -4,38 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSString, NSURL, VSOptional;
+@class NSString, VSOptional;
 
 @interface VSIdentityProvider
 {
     NSString *_displayName;
-    _Bool _requireAuthenticationURLSystemTrust;
-    _Bool _requireXHRRequestSystemTrust;
-    _Bool _prohibitedByStore;
-    _Bool _developer;
-    _Bool _application;
-    _Bool _isSetTopBoxSupported;
-    _Bool _shouldShowChannelApps;
-    _Bool _shouldShowSubscriptionApps;
-    _Bool _isSTBOptOutAllowed;
-    VSOptional *_uniqueID;
-    VSOptional *_providerID;
-    VSOptional *_providerInfo;
-    NSString *_nameForSorting;
-    NSNumber *_rankForSorting;
-    NSArray *_supportedTemplates;
-    NSArray *_supportedAuthenticationSchemes;
-    NSURL *_authenticationURL;
-    NSURL *_appStoreRoomURL;
-    NSArray *_appAdamIDs;
-    NSString *_defaultAppId;
-    NSString *_providerArtworkTemplateURL;
-    NSString *_providerAppArtworkTemplateURL;
-    NSNumber *_appPlacementPosition;
-    NSString *_userToken;
-    NSArray *_allPersonalizedAppDescriptions;
-    NSArray *_nonChannelAppDescriptions;
-    NSArray *_storefronts;
 }
 
 + (_Bool);
@@ -47,6 +20,7 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)J;
 - (void);
 - (void);
 - (void);
@@ -55,13 +29,13 @@
 - (void);
 - (void);
 - (void);
+- (void)c
+;
+- (void);
+- (void)(;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)�;
 - (void);
 - (void);
 - (void);
@@ -80,7 +54,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
@@ -90,51 +64,24 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)_parsecSearchEndpointTypeInDictionary:(id)arg1;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)mpletion:(id)arg1 ]_block_invoke;
+- (id)I5;
+- (void))	;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *allPersonalizedAppDescriptions; // @synthesize allPersonalizedAppDescriptions=_allPersonalizedAppDescriptions;
-@property(copy, nonatomic) NSArray *appAdamIDs; // @synthesize appAdamIDs=_appAdamIDs;
-@property(copy, nonatomic) NSNumber *appPlacementPosition; // @synthesize appPlacementPosition=_appPlacementPosition;
-@property(copy, nonatomic) NSURL *appStoreRoomURL; // @synthesize appStoreRoomURL=_appStoreRoomURL;
-@property(nonatomic, getter=isApplication) _Bool application; // @synthesize application=_application;
-@property(copy, nonatomic) NSURL *authenticationURL; // @synthesize authenticationURL=_authenticationURL;
-@property(copy, nonatomic) NSString *defaultAppId; // @synthesize defaultAppId=_defaultAppId;
-@property(nonatomic, getter=isDeveloper) _Bool developer; // @synthesize developer=_developer;
-@property(readonly, nonatomic) VSOptional *displayName;
-@property(nonatomic) _Bool isSTBOptOutAllowed; // @synthesize isSTBOptOutAllowed=_isSTBOptOutAllowed;
-@property(nonatomic) _Bool isSetTopBoxSupported; // @synthesize isSetTopBoxSupported=_isSetTopBoxSupported;
-@property(copy, nonatomic) NSString *nameForSorting; // @synthesize nameForSorting=_nameForSorting;
-@property(copy, nonatomic) NSArray *nonChannelAppDescriptions; // @synthesize nonChannelAppDescriptions=_nonChannelAppDescriptions;
-@property(nonatomic, getter=isProhibitedByStore) _Bool prohibitedByStore; // @synthesize prohibitedByStore=_prohibitedByStore;
-@property(copy, nonatomic) NSString *providerAppArtworkTemplateURL; // @synthesize providerAppArtworkTemplateURL=_providerAppArtworkTemplateURL;
-@property(copy, nonatomic) NSString *providerArtworkTemplateURL; // @synthesize providerArtworkTemplateURL=_providerArtworkTemplateURL;
-@property(retain, nonatomic) VSOptional *providerID; // @synthesize providerID=_providerID;
-@property(retain, nonatomic) VSOptional *providerInfo; // @synthesize providerInfo=_providerInfo;
-@property(copy, nonatomic) NSNumber *rankForSorting; // @synthesize rankForSorting=_rankForSorting;
-@property(nonatomic) _Bool requireAuthenticationURLSystemTrust; // @synthesize requireAuthenticationURLSystemTrust=_requireAuthenticationURLSystemTrust;
-@property(nonatomic) _Bool requireXHRRequestSystemTrust; // @synthesize requireXHRRequestSystemTrust=_requireXHRRequestSystemTrust;
-@property(nonatomic) _Bool shouldShowChannelApps; // @synthesize shouldShowChannelApps=_shouldShowChannelApps;
-@property(nonatomic) _Bool shouldShowSubscriptionApps; // @synthesize shouldShowSubscriptionApps=_shouldShowSubscriptionApps;
-@property(copy, nonatomic) NSArray *storefronts; // @synthesize storefronts=_storefronts;
-@property(copy, nonatomic) NSArray *supportedAuthenticationSchemes; // @synthesize supportedAuthenticationSchemes=_supportedAuthenticationSchemes;
-@property(copy, nonatomic) NSArray *supportedTemplates; // @synthesize supportedTemplates=_supportedTemplates;
 @property(retain, nonatomic) VSOptional *uniqueID; // @synthesize uniqueID=_uniqueID;
-@property(copy, nonatomic) NSString *userToken; // @synthesize userToken=_userToken;
 
 @end
 

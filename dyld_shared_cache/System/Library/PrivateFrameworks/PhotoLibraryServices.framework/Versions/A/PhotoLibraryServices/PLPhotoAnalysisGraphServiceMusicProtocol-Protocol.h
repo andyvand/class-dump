@@ -5,5 +5,12 @@
 //
 
 @protocol PLPhotoAnalysisGraphServiceMusicProtocol
+- (id)Skipping local mobile record because tryCache == FALSE.;
+- (id)NptugCYR83W0K62qdrFCP2Djejx3Tbe03P0Mdg/Library/Caches/com.apple.xbs/TemporaryDirectory.oHjloT/Sources/Morphun/ext/lib/Marisa/marisa-trie/lib/marisa/agent.cc:38:MARISA_STATE_ERROR:state_.get() != NULL /* Error: Ran out of types for this method. */;
+- (id)B5J
+;
+- (id);
+- (id)7;
+- (double)d, %s;
 @end
 

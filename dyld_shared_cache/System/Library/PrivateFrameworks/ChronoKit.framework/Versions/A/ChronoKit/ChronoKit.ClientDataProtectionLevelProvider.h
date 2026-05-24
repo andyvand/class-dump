@@ -7,7 +7,6 @@
 @interface ChronoKit.ClientDataProtectionLevelProvider
 {
     id defaultLevel;
-    id extensionProvider;
 }
 
 @end

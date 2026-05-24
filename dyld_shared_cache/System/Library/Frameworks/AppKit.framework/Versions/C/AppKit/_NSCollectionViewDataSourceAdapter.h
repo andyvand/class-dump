@@ -4,92 +4,68 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCollectionView, NSCollectionViewIndexMapper, NSMapTable, NSMutableArray, NSMutableIndexSet, NSString, _NSCollectionViewCachedWorldInfo;
-@protocol NSCollectionViewDataSource;
+@class NSCollectionView;
 
 __attribute__((visibility("hidden")))
 @interface _NSCollectionViewDataSourceAdapter
 {
     NSCollectionView *_collectionView;
-    id <NSCollectionViewDataSource> _dataSource;
-    _Bool _dataSourceImplementsObjectMethods;
-    _Bool _flushCacheAtNextLayoutBecauseReloadDataWasInvoked;
-    _NSCollectionViewCachedWorldInfo *_committedState;
-    _NSCollectionViewCachedWorldInfo *_incomingState;
-    NSCollectionViewIndexMapper *_sectionIndexMapper;
-    _Bool _reportPostBatchUpdateState;
-    _Bool _finishingBatchUpdate;
-    id _representedObjectForCurrentDataSourceInvocation;
-    NSMapTable *_pushedSectionIndexesToRepresentedObjectsMap;
-    NSMapTable *_pushedSectionObjectsToItemObjectsMap;
-    NSMapTable *_sectionRepresentedObjectToQueuedInsertionIndexesMap;
-    NSMutableIndexSet *_queuedSectionDeleteIndexes;
-    NSMutableArray *_queuedSectionMoveIndexPairs;
-    NSMutableIndexSet *_queuedSectionInsertIndexes;
 }
 
 - (void);
-- (void);
+- (void)7;
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (long long);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)attribute}u sub_component = %{public}u sub_opcode = %{public}u sub_activation_id = %{public}lu;
 - (void);
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
-- (unsigned long long);
+- (id)/;
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void)edentials:reply: /* Error: Ran out of types for this method. */;
+- (void)set_requestPriority:(id)arg1;
+- (id)setRespondedToWillBeginDelayedRequestCallback:(id)arg1;
+- (unsigned long long)setRequestPriority:(id)arg1;
+- (unsigned long long)setRemoteObjectInterface:(id)arg1;
+- (void)accept_didOpenWithProtocol;
+- (void)_sqlUpdateReceiverDataStmt;
+- (void)p)$;
+- (void)ing cookie since it's expired. Ignoring cookie and deleting from store if exists. Cookie = %@;
+- (void)che shrinking. Purging persistent cache.;
+- (void)ot initWithResumeData with nil draft version;
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)`
+;
 - (id);
 - (id);
-- (void);
-- (id);
-- (long long)row:(id)arg1;
-- (long long);
+- (void)setRenderingAttributesValidator:(id)arg1;
+- (id)initWithHTML:baseURL:documentAttributes: /* Error: Ran out of types for this method. */;
+- (long long)_userCanSelectAndEditColumn:(id)arg1 row: /* Error: Ran out of types for this method. */;
+- (long long)attachmentRange;
 - (void)endering black.;
 - (id){public}@ ***;
-- (void)rtialWordRange;
+- (void)suggestCompletionsForPartialWordRange;
 - (id)x;
 
 // Remaining properties
 @property NSCollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(readonly) long long committedSectionCount;
-@property __weak id <NSCollectionViewDataSource> dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

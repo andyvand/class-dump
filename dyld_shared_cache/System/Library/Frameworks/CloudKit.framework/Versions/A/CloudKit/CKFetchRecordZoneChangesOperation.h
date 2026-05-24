@@ -6,80 +6,18 @@
 
 #import <CloudKit/CKDatabaseOperation.h>
 
-@class CKFetchRecordZoneChangesOperationInfo, NSArray, NSDictionary, NSMutableDictionary, NSMutableSet, NSString;
-@protocol CKFetchRecordZoneChangesOperationCallbacks;
+@class NSDictionary;
 
 @interface CKFetchRecordZoneChangesOperation : CKDatabaseOperation
 {
     _Bool _fetchAllChanges;
-    _Bool _shouldFetchAssetContents;
-    _Bool _shouldReportAllPerItemFailures;
-    CDUnknownBlockType _recordChangedBlock;
-    CDUnknownBlockType _recordWasChangedBlock;
-    CDUnknownBlockType _zoneAttributesChangedBlock;
-    CDUnknownBlockType _perRecordChangeCompletionBlock;
-    CDUnknownBlockType _recordWithIDWasDeletedBlock;
-    CDUnknownBlockType _recordZoneChangeTokensUpdatedBlock;
-    CDUnknownBlockType _recordZoneFetchCompletionBlock;
-    CDUnknownBlockType _fetchRecordZoneChangesCompletionBlock;
-    NSArray *_recordZoneIDs;
-    NSDictionary *_configurationsByRecordZoneID;
-    NSMutableDictionary *_statusByZoneID;
-    NSMutableSet *_zoneIDsWithPendingArchivedRecords;
-    NSMutableSet *_zoneIDsWithSyncObligations;
-    NSMutableDictionary *_perItemErrors;
-    NSDictionary *_assetTransferOptionsByRecordTypeAndKey;
-    NSDictionary *_supplementalChangeTokenByZoneID;
-    unsigned long long _mergeableValueCount;
-    unsigned long long _mergeableDeltaCount;
-    unsigned long long _assetBackedMergeableDeltaCount;
-    CDUnknownBlockType _recordWasChangedBlock_wrapper;
-    CDUnknownBlockType _recordWithIDWasDeletedBlock_wrapper;
-    CDUnknownBlockType _recordZoneFetchCompletionBlock_wrapper;
-    CDUnknownBlockType _fetchRecordZoneChangesCompletionBlock_wrapper;
-    CDUnknownBlockType _zoneAttributesChangedBlock_wrapper;
-    long long _errorReportingStyle;
 }
 
-+ (SEL);
++ (SEL);
 + (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *assetTransferOptionsByRecordTypeAndKey; // @synthesize assetTransferOptionsByRecordTypeAndKey=_assetTransferOptionsByRecordTypeAndKey;
-@property(readonly, nonatomic) id <CKFetchRecordZoneChangesOperationCallbacks> clientOperationCallbackProxy; // @dynamic clientOperationCallbackProxy;
-@property(copy, nonatomic) NSDictionary *configurationsByRecordZoneID; // @synthesize configurationsByRecordZoneID=_configurationsByRecordZoneID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long errorReportingStyle; // @synthesize errorReportingStyle=_errorReportingStyle;
-@property(nonatomic) _Bool fetchAllChanges; // @synthesize fetchAllChanges=_fetchAllChanges;
-@property(copy, nonatomic) CDUnknownBlockType fetchRecordZoneChangesCompletionBlock; // @synthesize fetchRecordZoneChangesCompletionBlock=_fetchRecordZoneChangesCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType fetchRecordZoneChangesCompletionBlock_wrapper; // @synthesize fetchRecordZoneChangesCompletionBlock_wrapper=_fetchRecordZoneChangesCompletionBlock_wrapper;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) CKFetchRecordZoneChangesOperationInfo *operationInfo; // @dynamic operationInfo;
 @property(copy, nonatomic) NSDictionary *optionsByRecordZoneID;
-@property(retain, nonatomic) NSMutableDictionary *perItemErrors; // @synthesize perItemErrors=_perItemErrors;
-@property(copy, nonatomic) CDUnknownBlockType perRecordChangeCompletionBlock; // @synthesize perRecordChangeCompletionBlock=_perRecordChangeCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordChangedBlock; // @synthesize recordChangedBlock=_recordChangedBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordWasChangedBlock; // @synthesize recordWasChangedBlock=_recordWasChangedBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordWasChangedBlock_wrapper; // @synthesize recordWasChangedBlock_wrapper=_recordWasChangedBlock_wrapper;
-@property(copy, nonatomic) CDUnknownBlockType recordWithIDWasDeletedBlock; // @synthesize recordWithIDWasDeletedBlock=_recordWithIDWasDeletedBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordWithIDWasDeletedBlock_wrapper; // @synthesize recordWithIDWasDeletedBlock_wrapper=_recordWithIDWasDeletedBlock_wrapper;
-@property(copy, nonatomic) CDUnknownBlockType recordZoneChangeTokensUpdatedBlock; // @synthesize recordZoneChangeTokensUpdatedBlock=_recordZoneChangeTokensUpdatedBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordZoneFetchCompletionBlock; // @synthesize recordZoneFetchCompletionBlock=_recordZoneFetchCompletionBlock;
-@property(copy, nonatomic) CDUnknownBlockType recordZoneFetchCompletionBlock_wrapper; // @synthesize recordZoneFetchCompletionBlock_wrapper=_recordZoneFetchCompletionBlock_wrapper;
-@property(copy, nonatomic) NSArray *recordZoneIDs; // @synthesize recordZoneIDs=_recordZoneIDs;
-@property(nonatomic) _Bool shouldFetchAssetContents; // @synthesize shouldFetchAssetContents=_shouldFetchAssetContents;
-@property(nonatomic) _Bool shouldReportAllPerItemFailures; // @synthesize shouldReportAllPerItemFailures=_shouldReportAllPerItemFailures;
-@property(retain, nonatomic) NSMutableDictionary *statusByZoneID; // @synthesize statusByZoneID=_statusByZoneID;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSDictionary *supplementalChangeTokenByZoneID; // @synthesize supplementalChangeTokenByZoneID=_supplementalChangeTokenByZoneID;
-@property(copy, nonatomic) CDUnknownBlockType zoneAttributesChangedBlock; // @synthesize zoneAttributesChangedBlock=_zoneAttributesChangedBlock;
-@property(copy, nonatomic) CDUnknownBlockType zoneAttributesChangedBlock_wrapper; // @synthesize zoneAttributesChangedBlock_wrapper=_zoneAttributesChangedBlock_wrapper;
-@property(retain, nonatomic) NSMutableSet *zoneIDsWithPendingArchivedRecords; // @synthesize zoneIDsWithPendingArchivedRecords=_zoneIDsWithPendingArchivedRecords;
-@property(retain, nonatomic) NSMutableSet *zoneIDsWithSyncObligations; // @synthesize zoneIDsWithSyncObligations=_zoneIDsWithSyncObligations;
 
 @end
 

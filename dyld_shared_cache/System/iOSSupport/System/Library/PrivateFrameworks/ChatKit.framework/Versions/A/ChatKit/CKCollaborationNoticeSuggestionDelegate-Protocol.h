@@ -5,5 +5,7 @@
 //
 
 @protocol CKCollaborationNoticeSuggestionDelegate
+- (void)isCached;
+- (void);
 @end
 

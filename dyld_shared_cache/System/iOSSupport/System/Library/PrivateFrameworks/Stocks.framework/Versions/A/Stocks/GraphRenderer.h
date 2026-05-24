@@ -10,13 +10,12 @@
 @interface GraphRenderer
 {
     NSObject<OS_dispatch_queue> *_queue;
-    _Bool _cancelled;
 }
 
-+ (void);
-+ (id);
++ (void)u;
++ (id)+|;
 - (void);
-- (id);
+- (id);
 - (void);
 
 @end

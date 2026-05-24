@@ -12,13 +12,10 @@
 @interface MPLazySectionedCollection : MPSectionedCollection
 {
     _MPLazySectionedCollectionStorage *_storage;
-    struct os_unfair_recursive_lock_s _lock;
-    _Bool _disableMissingIdentifiersFaults;
-    id <MPLazySectionedCollectionDataSource> _dataSource;
 }
 
 + (_Bool);
-- (id);
+- (id)fts5;
 - (id);
 - (id);
 - (id);
@@ -33,20 +30,20 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)setShouldDisableDeactivation: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)hasDomainIdentifier;
 - (id);
 - (void);
 - (_Bool);
 - (long long);
 - (id);
 - (id);
-- (long long)NG__;
-- (void)yGenreLibraryAddedDate__MAPPING_MISSING__;
-- (void)eueGroupingID: /* Error: Ran out of types for this method. */;
+- (long long)__MPModelRelationshipSongLyrics__MAPPING_MISSING__;
+- (void)__MPModelPropertyGenreLibraryAddedDate__MAPPING_MISSING__;
+- (void)setPlayActivityQueueGroupingID: /* Error: Ran out of types for this method. */;
 - (id)·Üÿ¨Ã
 ;
 

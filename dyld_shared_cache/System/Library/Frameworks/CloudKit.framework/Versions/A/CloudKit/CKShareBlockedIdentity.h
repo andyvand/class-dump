@@ -4,44 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKUserIdentity, CNContact, CNContactStore, NSString;
+@class CKUserIdentity, CNContactStore;
 
 @interface CKShareBlockedIdentity
 {
     CKUserIdentity *_userIdentity;
-    CNContactStore *_contactStore;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)ng>>=^q^q{?=^q}}56@80^@88;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)nding><NSXPCProxyCreating>"@"NSDictionary"@"NSError">24;
 - (id);
 - (void)	
 ;
 - (id)$;
-- (void)rPackageID;
+- (void)refcountIsZeroForPackageID;
 - (id)Ieghg_;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CNContact *contact;
 @property(retain, nonatomic) CNContactStore *contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) CKUserIdentity *userIdentity; // @synthesize userIdentity=_userIdentity;
 
 @end
 

@@ -7,11 +7,6 @@
 @interface NewsUI2.TodayRouter
 {
     id controller;
-    id resolver;
-    id tracker;
-    id contextBuilder;
-    id navigator;
-    id commandCenter;
 }
 
 @end

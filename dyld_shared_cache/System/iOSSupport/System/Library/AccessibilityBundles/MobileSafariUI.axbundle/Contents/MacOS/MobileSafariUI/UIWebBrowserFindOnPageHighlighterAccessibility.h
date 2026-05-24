@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class)kCPImageOverlayTextKey;
 + (id);
 - (void);
 

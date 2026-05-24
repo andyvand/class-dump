@@ -4,49 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKAutocompleteSearchResult, NSArray, NSObject, NSString;
-@protocol EKAutocompletePendingSearchProtocol, OS_dispatch_queue;
+@protocol EKAutocompletePendingSearchProtocol;
 
 @interface EKEventSuggestionGenerator
 {
     _Bool _finishedCompletionHandlerCalled;
-    id <EKAutocompletePendingSearchProtocol> _runningTitleSearch;
-    NSObject<OS_dispatch_queue> *_queryQueue;
-    NSArray *_lastResults;
-    NSString *_lastQueryString;
-    EKAutocompleteSearchResult *_lastDefaultResult;
-    EKAutocompleteSearchResult *_lastDefaultReminderResult;
 }
 
-+ (void);
++ (void)AudioAccessory5;
 - (void);
+- (void)s;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)%;
 - (void);
 - (id);
-- (_Bool);
+- (id);
+- (id);
+- (void)owPlayingOriginClient] Nil routingContext. Not creating %@ for origin %@;
+- (void)ts] %{public}@ UpdatingCache:(id)arg1 clearing animated artworks for %@;
+- (void)cation.;
+- (id)clusterAwareSettingOutputDeviceUID;
+- (_Bool)Log History: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id);
+- (id)A;
 - (id);
 - (void);
 - (void)2'1Â0@ù
 × ;
 
 // Remaining properties
-@property _Bool finishedCompletionHandlerCalled; // @synthesize finishedCompletionHandlerCalled=_finishedCompletionHandlerCalled;
-@property(retain) EKAutocompleteSearchResult *lastDefaultReminderResult; // @synthesize lastDefaultReminderResult=_lastDefaultReminderResult;
-@property(retain) EKAutocompleteSearchResult *lastDefaultResult; // @synthesize lastDefaultResult=_lastDefaultResult;
-@property(retain) NSString *lastQueryString; // @synthesize lastQueryString=_lastQueryString;
-@property(retain) NSArray *lastResults; // @synthesize lastResults=_lastResults;
-@property(retain) NSObject<OS_dispatch_queue> *queryQueue; // @synthesize queryQueue=_queryQueue;
 @property(retain) id <EKAutocompletePendingSearchProtocol> runningTitleSearch; // @synthesize runningTitleSearch=_runningTitleSearch;
 
 @end

@@ -6,19 +6,9 @@
 
 #import <MPSNeuralNetwork/MPSCNNKernel.h>
 
-@class NSData;
-@protocol MTLBuffer;
-
 @interface MPSCNNNeuron : MPSCNNKernel
 {
     int _neuronType;
-    float _a;
-    float _b;
-    float _c;
-    NSData *_data;
-    _Bool _noCopy;
-    unsigned long long _count;
-    id <MTLBuffer> _aBuf;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -29,21 +19,17 @@
 - (float);
 - (void);
 - (id);
-- (float);
+- (float)-;
 - (id);
-- (float);
+- (float)miss proximity pairing UI.;
 - (id);
 - (void);
-- (id);
+- (id),V_gpuPipelineStatesArithmeticReduceGradientAll;
 - (id);
 - (int);
 - (id)[%@ encode...] sourceMatrices[%d].rows == %d, should match destinationMatrices[%d].rows == %d;
 
 // Remaining properties
-@property(readonly, nonatomic) float a; // @synthesize a=_a;
-@property(readonly, nonatomic) float b; // @synthesize b=_b;
-@property(readonly, nonatomic) float c; // @synthesize c=_c;
-@property(readonly, retain, nonatomic) NSData *data; // @synthesize data=_data;
 @property(readonly, nonatomic) int neuronType; // @synthesize neuronType=_neuronType;
 
 @end

@@ -4,34 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSSet, NSString, REMAccountCapabilities, REMColor, REMManualOrdering, REMMemberships, REMObjectID, REMResolutionTokenMap, REMTemplateConfiguration, REMTemplatePublicLink;
+@class REMAccountCapabilities;
 
 @interface REMTemplateStorage
 {
     unsigned long long _storeGeneration;
-    unsigned long long _copyGeneration;
-    _Bool _showingLargeAttachments;
-    _Bool _shouldUpdateSectionsOrdering;
-    _Bool _isPersisted;
-    long long minimumSupportedVersion;
-    long long effectiveMinimumSupportedVersion;
-    REMObjectID *_objectID;
-    REMObjectID *_accountID;
-    REMObjectID *_parentAccountID;
-    REMAccountCapabilities *_accountCapabilities;
-    REMTemplateConfiguration *_configuration;
-    NSString *_name;
-    REMColor *_color;
-    NSString *_badgeEmblem;
-    NSString *_sortingStyle;
-    NSArray *_unsavedSectionIDsOrdering;
-    REMManualOrdering *_unsavedManualOrdering;
-    REMMemberships *_unsavedMembershipsOfRemindersInSections;
-    NSSet *_sectionIDsToUndelete;
-    NSDate *_mostRecentPublicLinkUpdateRequestDate;
-    REMTemplatePublicLink *_publicLink;
-    REMResolutionTokenMap *_resolutionTokenMap;
-    NSData *_resolutionTokenMapData;
 }
 
 + (id);
@@ -43,9 +20,9 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (void);
-- (id);
+- (id)X;
 - (id);
 - (id);
 - (id);
@@ -55,7 +32,7 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)dictions:(id)arg1 maximumTokensPerPrediction:withBlock:]E3$_0FbRKN17language_modeling2v110PredictionEEEE /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -73,16 +50,16 @@
 - (long long);
 - (void);
 - (_Bool);
+- (void)isk space to continue downloading assets.;
 - (void);
-- (void);
-- (void);
+- (void)@;
 - (id);
-- (id);
-- (void);
+- (id)fetchLookbackWindowStartDateWithLocation:handler: /* Error: Ran out of types for this method. */;
+- (void)_navigationWasInterrupted;
+- (_Bool)unt, %lu, hashedApToModelMapping count, %lu, hashedApToModelMappingDataURL, %@, singlePOIMuid, %@, models, %@, model URLs, %@, modelCalibrationParameters, %@, pointsOfInterest, %@;
 - (_Bool);
-- (_Bool);
 - (void);
-- (id);
+- (id)T;
 - (void);
 - (id);
 - (void);
@@ -91,37 +68,15 @@
 - (void)!üFù1s ð1Â0@ù
 × ;
 - (void);
-- (id):value:range: /* Error: Ran out of types for this method. */;
+- (id)addAttribute:value:range: /* Error: Ran out of types for this method. */;
 - (void) ì ;
 - (id)ry.7H2va2/Sources/ReminderKit/CRProtobuf/protobuf-lite/google/protobuf/io/coded_stream.cc;
-- (void)ticipantsToSharedGroceryList;
+- (void)addedParticipantsToSharedGroceryList;
 - (unsigned long long)insertedID {insertedID:%{public}@} /* Error: Ran out of types for this method. */;
 - (id)AAAAA;
 
 // Remaining properties
 @property(retain, nonatomic) REMAccountCapabilities *accountCapabilities; // @synthesize accountCapabilities=_accountCapabilities;
-@property(readonly, nonatomic) REMObjectID *accountID; // @synthesize accountID=_accountID;
-@property(copy, nonatomic) NSString *badgeEmblem; // @synthesize badgeEmblem=_badgeEmblem;
-@property(retain, nonatomic) REMColor *color; // @synthesize color=_color;
-@property(retain, nonatomic) REMTemplateConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(readonly, nonatomic) long long effectiveMinimumSupportedVersion;
-@property(nonatomic) _Bool isPersisted; // @synthesize isPersisted=_isPersisted;
-@property(readonly, nonatomic) long long minimumSupportedVersion;
-@property(retain, nonatomic) NSDate *mostRecentPublicLinkUpdateRequestDate; // @synthesize mostRecentPublicLinkUpdateRequestDate=_mostRecentPublicLinkUpdateRequestDate;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) REMObjectID *objectID; // @synthesize objectID=_objectID;
-@property(retain, nonatomic) REMObjectID *parentAccountID; // @synthesize parentAccountID=_parentAccountID;
-@property(retain, nonatomic) REMTemplatePublicLink *publicLink; // @synthesize publicLink=_publicLink;
-@property(readonly, nonatomic) REMObjectID *remObjectID;
-@property(retain, nonatomic) REMResolutionTokenMap *resolutionTokenMap; // @synthesize resolutionTokenMap=_resolutionTokenMap;
-@property(retain, nonatomic) NSData *resolutionTokenMapData; // @synthesize resolutionTokenMapData=_resolutionTokenMapData;
-@property(retain, nonatomic) NSSet *sectionIDsToUndelete; // @synthesize sectionIDsToUndelete=_sectionIDsToUndelete;
-@property(nonatomic) _Bool shouldUpdateSectionsOrdering; // @synthesize shouldUpdateSectionsOrdering=_shouldUpdateSectionsOrdering;
-@property(nonatomic) _Bool showingLargeAttachments; // @synthesize showingLargeAttachments=_showingLargeAttachments;
-@property(copy, nonatomic) NSString *sortingStyle; // @synthesize sortingStyle=_sortingStyle;
-@property(retain, nonatomic) REMManualOrdering *unsavedManualOrdering; // @synthesize unsavedManualOrdering=_unsavedManualOrdering;
-@property(retain, nonatomic) REMMemberships *unsavedMembershipsOfRemindersInSections; // @synthesize unsavedMembershipsOfRemindersInSections=_unsavedMembershipsOfRemindersInSections;
-@property(retain, nonatomic) NSArray *unsavedSectionIDsOrdering; // @synthesize unsavedSectionIDsOrdering=_unsavedSectionIDsOrdering;
 
 @end
 

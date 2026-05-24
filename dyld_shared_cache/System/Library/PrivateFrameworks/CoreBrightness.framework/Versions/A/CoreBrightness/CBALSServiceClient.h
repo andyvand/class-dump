@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString;
-@protocol OS_os_log;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface CBALSServiceClient
 {
     NSMutableArray *_alsServices;
-    CDUnknownBlockType _callback;
-    NSObject<OS_os_log> *_logHandle;
 }
 
 - (_Bool);
@@ -24,13 +21,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

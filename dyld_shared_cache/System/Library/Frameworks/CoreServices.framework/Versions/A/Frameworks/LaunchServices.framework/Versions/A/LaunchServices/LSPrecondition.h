@@ -11,11 +11,11 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)Q24;
 - (_Bool);
 - (id);
-- (id);
-- (void);
+- (id)ccD;
+- (void)( ;
 
 @end
 

@@ -6,29 +6,20 @@
 
 #import <BiomePubSub/BPSPublisher.h>
 
-@class NSDate;
-@protocol BPSPublisher;
-
 @interface BPSThrottle : BPSPublisher
 {
     _Bool _latest;
-    id <BPSPublisher> _upstream;
-    double _interval;
-    CDUnknownBlockType _getTimestamp;
-    id _intervalEvent;
-    NSDate *_nextIntervalBoundary;
-    NSDate *_startTimestamp;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (id);
+- (void)t request %@;
 - (void);
-- (void);
-- (double);
+- (double);
 - (CDUnknownBlockType);
 - (id);
 - (void);
@@ -39,13 +30,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType getTimestamp; // @synthesize getTimestamp=_getTimestamp;
-@property(readonly, nonatomic) double interval; // @synthesize interval=_interval;
 @property(retain, nonatomic) id intervalEvent; // @synthesize intervalEvent=_intervalEvent;
-@property(readonly, nonatomic) _Bool latest; // @synthesize latest=_latest;
-@property(retain, nonatomic) NSDate *nextIntervalBoundary; // @synthesize nextIntervalBoundary=_nextIntervalBoundary;
-@property(retain, nonatomic) NSDate *startTimestamp; // @synthesize startTimestamp=_startTimestamp;
-@property(readonly, nonatomic) id <BPSPublisher> upstream; // @synthesize upstream=_upstream;
 
 @end
 

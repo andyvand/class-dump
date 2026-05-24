@@ -4,9 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @protocol SCNPhysicsShapeJSExport
+- (id)impulsively;
 - (id)zw;
         return add_lh.x + add_lh.y;
     }
@@ -684,7 +685,5 @@ inline float4 ComputeCascadedShadow(sampler shadow_sampler, float3 viewPos, floa
 
 // Remaining properties
 @property(readonly, nonatomic) NSDictionary *options;
-@property(readonly, nonatomic) id sourceObject;
-@property(readonly, nonatomic) NSArray *transforms;
 @end
 

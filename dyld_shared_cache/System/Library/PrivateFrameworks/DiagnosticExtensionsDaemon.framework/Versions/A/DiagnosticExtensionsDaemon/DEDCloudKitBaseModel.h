@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecord, NSObject, NSString;
+@class CKRecord, NSObject;
 @protocol OS_os_log;
 
 @interface DEDCloudKitBaseModel
 {
     CKRecord *_cloudKitModel;
-    NSObject<OS_os_log> *_log;
 }
 
++ (id)UsoTaskBuilder_noVerb_commonNotebook_NotebookItemType;
 + (id);
-+ (id);
-+ (_Bool);
++ (_Bool)NSt3__120__shared_ptr_pointerIPN4QMux5StateEZN3ctu20SharedSynchronizableIS2_E15make_shared_ptrIS2_EENS_10shared_ptrIT_EEPS9_EUlS3_E_NS_9allocatorIS2_EEEE;
 - (void);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
 - (id);
+- (void)ctBaseERKNS2_12GenericEventEE_FvSA_SD_EEE;
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)_deleteOnAttach;
 
 // Remaining properties
-@property(retain, nonatomic) CKRecord *cloudKitModel; // @synthesize cloudKitModel=_cloudKitModel;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property(readonly, nonatomic) NSString *modelName;
-@property(readonly) Class superclass;
 
 @end
 

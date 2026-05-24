@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDMessageChangeManager, EDMessagePersistence, NSObject, NSString;
+@class EDMessagePersistence, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface EDOutgoingMessageRepository
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    EDMessagePersistence *_messagePersistence;
-    EDMessageChangeManager *_messageChangeManager;
 }
 
 + (id);
@@ -20,8 +18,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)p;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -38,22 +36,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)nl.core.protocol.UsoLabel;
 - (unsigned long long);
 - (id);
 - (id);
 - (void)oMigrateAttachments",1);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) EDMessageChangeManager *messageChangeManager; // @synthesize messageChangeManager=_messageChangeManager;
 @property(retain, nonatomic) EDMessagePersistence *messagePersistence; // @synthesize messagePersistence=_messagePersistence;
-@property(readonly) Class superclass;
 
 @end
 

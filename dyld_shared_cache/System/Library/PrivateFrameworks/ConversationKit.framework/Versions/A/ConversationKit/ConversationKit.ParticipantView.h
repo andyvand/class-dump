@@ -4,59 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ConversationKit.ParticipantInfoView, ConversationKit.ParticipantMonogramView, ConversationKit.ParticipantViewButton;
+@class ConversationKit.ParticipantMonogramView;
 
 @interface ConversationKit.ParticipantView
 {
     id backgroundEffectsView;
-    id contentView;
-    id $__lazy_storage_$_monogramView;
-    id videoView;
-    id alertView;
-    id $__lazy_storage_$_videoOverlayView;
-    id $__lazy_storage_$_infoView;
-    id $__lazy_storage_$_prominenceBorderView;
-    id debugLabel;
-    ConversationKit.ParticipantViewButton *kickMemberButton;
-    id mostRecentViewModelHash;
-    id loggingIdentifier;
-    id hideInfoViewTimer;
-    id hideAlertViewTimer;
-    id localParticipant;
-    id participantIdentifier;
-    id delegate;
-    _Bool isInRoster;
-    _Bool shouldOverrideShadowHidden;
-    id customCornerRadius;
-    _Bool isExpanded;
 }
 
+- (_Bool){;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)z;
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (void)ȮHr;
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)WFToggleAccessibilityContextualAction;
 - (id);
 - (void)
 × ;
 - (void);
 
 // Remaining properties
-@property(nonatomic, retain) ConversationKit.ParticipantInfoView *infoView;
-@property(nonatomic) _Bool isExpanded; // @synthesize isExpanded;
-@property(nonatomic) _Bool isInRoster; // @synthesize isInRoster;
-@property(nonatomic, readonly) ConversationKit.ParticipantViewButton *kickMemberButton; // @synthesize kickMemberButton;
 @property(nonatomic, retain) ConversationKit.ParticipantMonogramView *monogramView;
-@property(nonatomic) _Bool shouldOverrideShadowHidden; // @synthesize shouldOverrideShadowHidden;
 
 @end
 

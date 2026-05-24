@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WKUserScript;
+@class NSString;
 
 @protocol SWScript
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *executableScript;
 @property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool queueable;
-@property(readonly, nonatomic) WKUserScript *userScript;
 @end
 

@@ -6,6 +6,6 @@
 
 @interface UnknownClass (SFLAdditions)
 - (id);
-- (id);
+- (id)a;
 @end
 

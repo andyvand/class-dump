@@ -7,8 +7,6 @@
 @interface FamilyCircle.RecordSharingMetadata
 {
     id cloudKitContainer;
-    id recordZone;
-    id targetAudience;
 }
 
 @end

@@ -7,12 +7,6 @@
 @interface CoreML.BNNSDevice.SharedEvent
 {
     id dispatchQueue;
-    id deviceID;
-    id sharedEvent;
-    id metalSharedEvent;
-    id sharedEventListener;
-    id id;
-    id eventValue;
 }
 
 @end

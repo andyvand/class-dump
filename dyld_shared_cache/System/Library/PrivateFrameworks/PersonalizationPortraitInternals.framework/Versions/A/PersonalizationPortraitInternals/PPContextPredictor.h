@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModel, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class MLModel;
 
 @interface PPContextPredictor
 {
     MLModel *_mlModel;
-    NSString *_language;
-    NSObject<OS_dispatch_queue> *_coremlQueue;
-    unsigned long long _sentenceEmbeddingVersion;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)ions:error: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)writeToFile:options:error: /* Error: Ran out of types for this method. */;
 
 @end
 

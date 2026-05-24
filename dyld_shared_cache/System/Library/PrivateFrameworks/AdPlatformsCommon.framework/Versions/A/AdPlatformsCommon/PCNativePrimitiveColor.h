@@ -20,11 +20,7 @@
 - (unsigned char);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned char alpha;
-@property(readonly, nonatomic) unsigned char blue;
-@property(readonly, nonatomic) unsigned char green;
 @property(readonly, nonatomic) long long rawValue; // @synthesize rawValue=_rawValue;
-@property(readonly, nonatomic) unsigned char red;
 
 @end
 

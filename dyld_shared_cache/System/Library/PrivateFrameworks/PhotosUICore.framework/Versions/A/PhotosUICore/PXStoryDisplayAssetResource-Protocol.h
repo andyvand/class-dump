@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSSet, PFVideoAdjustments;
 @protocol PXDisplayAsset;
 
 @protocol PXStoryDisplayAssetResource
+- (id <PXDisplayAsset>);
 
 // Remaining properties
 @property(readonly, nonatomic) id <PXDisplayAsset> px_storyResourceDisplayAsset;
-@property(readonly, nonatomic) CDStruct_e83c9415 px_storyResourceFetchBestPlaybackRange;
-@property(readonly, nonatomic) struct CGRect px_storyResourceFetchBestPlaybackRect;
-@property(readonly, nonatomic) double px_storyResourceFetchCurationScore;
-@property(readonly, nonatomic) long long px_storyResourceFetchFaceCount;
-@property(readonly, nonatomic) NSData *px_storyResourceFetchNormalizationData;
-@property(readonly, nonatomic) NSSet *px_storyResourceFetchSceneClassifications;
-@property(readonly, nonatomic) PFVideoAdjustments *px_storyResourceFetchVideoAdjustments;
 @end
 

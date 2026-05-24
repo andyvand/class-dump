@@ -4,43 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDPersistedMessageID, EMCategory, EMFollowUp, EMGeneratedSummary, EMReadLater, EMSearchableMessageID, NSData, NSDate, NSDictionary, NSString, NSURL;
-@protocol EDAccount;
+@class EMCategory, NSDate, NSString, NSURL;
 
 @protocol EDPersistedMessage
+- (void)f)b;
+- (void)(;
+- (long long);
+- (_Bool);
+- (long long)?%@qa;
+- (NSURL *);
+- (EMCategory *)conNode)}this.displayNode.addEventListener("DOMNodeRemovedFromDocument",this,!1)},MUIWebAttachmentController.prototype.inlineNodeWithTag=function(e,t,o,i,n,r,s){var d=document.createElement(e);d.id=t,n&&(d.src=r),d.alt=i,"audio"!==e&&"video"!==e||(d.controls="controls"),"img"===e&&s>0&&d.setAttribute("WIDTH",s);for(var a=o.attributes,l=0;l<a.length;l++){var h=a[l],c=h.name.toUpperCase();"SRC"!==c&&"WIDTH"!==c&&"HEIGHT"!==c&&"ID"!==c&&"NAME"!==c&&"DATA"!==c&&d.setAttribute(h.name,h.value)}return i.toLowerCase().endsWith(".pdf")&&d.setAttribute("style","background-color:rgb(254,254,254); -apple-color-filter:none"),d.classList.add("Apple-web-attachment"),d},MUIWebAttachmentController.prototype.convertToInlineImage=function(){this.displayNode.removeEventListener("DOMNodeRemovedFromDocument",this,!1),this.inlineNode=this.inlineNodeWithTag("img",this.contentID,this.originalNode,this.filename,!0,this.cidURL,0),this.currentNode===this.iconNode&&(this.iconNode.parentNode.replaceChild(this.inlineNode,this.iconNode),this.currentNode=this.inlineNode,this.displayNode=this.inlineNode),this.displayNode.addEventListener("DOMNodeRemovedFromDocument",this,!1)},MUIWebAttachmentController.registerAttachment=function(e,t,o,i,n,r,s,d,a,l){var h,c=[],p=[];return t&&(p=MUIWebAttachmentController._packedNodesForCIDURL(t)),e&&p.push(MUIWebAttachmentController._packedNodeForRemoteURL(e)),p.length||console.warn("Unable to find matching attachment for cidURL:"+t+" remoteURL:"+e),p.forEach(function(e){(h=new MUIWebAttachmentController(t,o,e,i,n,r,s,d,a,l))&&(c.push(h),e.parentNode.replaceChild(h.currentNode,e))}),c}; /* Error: Ran out of types for this method. */;
 - (NSDate *)q1Â0@ù
 × ;
 - (void)24;
 - (NSString *)last_spotlight_check_date;;
 
 // Remaining properties
-@property(readonly, nonatomic) id <EDAccount> accountForSender;
-@property long long authenticationState;
-@property(readonly, nonatomic) NSURL *basePath;
-@property(readonly, nonatomic) NSData *brandIndicator;
-@property(readonly, nonatomic) NSURL *brandIndicatorLocation;
-@property(readonly) long long businessID;
-@property(readonly, copy) NSString *businessLogoID;
-@property(readonly) EMCategory *category;
-@property(readonly) unsigned long long conversationFlags;
-@property(readonly, copy, nonatomic) NSDictionary *dataDetectionAttributes;
-@property(retain) NSDate *displayDate;
-@property(retain) EMFollowUp *followUp;
-@property(copy) EMGeneratedSummary *generatedSummary;
-@property(readonly, nonatomic) long long globalMessageID;
-@property(readonly, nonatomic) _Bool isJournaled;
-@property(nonatomic) _Bool isUrgent;
-@property(readonly) long long mailboxID;
-@property(readonly, nonatomic) NSURL *mailboxURL;
-@property(readonly, nonatomic, getter=isMessageContentLocallyAvailable) _Bool messageContentLocallyAvailable;
-@property(readonly, nonatomic) NSString *notificationID;
-@property(readonly, copy, nonatomic) EDPersistedMessageID *persistedMessageID;
 @property(readonly, copy, nonatomic) NSString *persistentID;
-@property(retain) EMReadLater *readLater;
-@property(readonly, copy, nonatomic) EMSearchableMessageID *searchableMessageID;
-@property(retain) NSDate *sendLaterDate;
-@property(readonly, nonatomic) long long senderBucket;
-@property(readonly, copy) NSString *summary;
-@property(readonly, nonatomic) long long unsubscribeType;
 @end
 

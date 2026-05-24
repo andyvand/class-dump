@@ -5,13 +5,11 @@
 //
 
 @class NSString;
-@protocol AXKActionDelegate;
 
 @protocol AXKAction
+- (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <AXKActionDelegate> actionDelegate;
-@property(readonly, nonatomic) NSString *actionDescription;
 @property(readonly, nonatomic) NSString *actionName;
 @end
 

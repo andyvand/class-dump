@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_os_log;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface PLClientLogAggregator
 {
     unsigned char _numAggregates;
-    unsigned char _numAggregations;
-    NSMutableDictionary *_aggregatesCache;
-    NSObject<OS_os_log> *_logHandle;
-    NSObject<OS_dispatch_queue> *_executionQueue;
-    NSObject<OS_dispatch_source> *_flushTimer;
 }
 
 + (id);
@@ -25,16 +19,16 @@ __attribute__((visibility("hidden")))
 - (unsigned char);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)q!;
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (unsigned char);
 - (void);
-- (id);
+- (id)A;
 - (void);
 - (id);
 - (id);
@@ -43,11 +37,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSMutableDictionary *aggregatesCache; // @synthesize aggregatesCache=_aggregatesCache;
-@property(retain) NSObject<OS_dispatch_queue> *executionQueue; // @synthesize executionQueue=_executionQueue;
-@property(retain) NSObject<OS_dispatch_source> *flushTimer; // @synthesize flushTimer=_flushTimer;
-@property(retain) NSObject<OS_os_log> *logHandle; // @synthesize logHandle=_logHandle;
-@property unsigned char numAggregates; // @synthesize numAggregates=_numAggregates;
-@property unsigned char numAggregations; // @synthesize numAggregations=_numAggregations;
 
 @end
 

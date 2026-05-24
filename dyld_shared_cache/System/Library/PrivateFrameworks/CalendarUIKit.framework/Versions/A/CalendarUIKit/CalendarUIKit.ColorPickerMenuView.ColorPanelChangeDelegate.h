@@ -9,9 +9,9 @@
     id onColorChange;
 }
 
-- (void)_Ö#Õý{¿©ý;
+- (void);
 - (id);
-- (void)MinimumLineHeight: /* Error: Ran out of types for this method. */;
+- (void)setMinimumLineHeight: /* Error: Ran out of types for this method. */;
 
 @end
 

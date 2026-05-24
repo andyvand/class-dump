@@ -10,21 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDTextItemDisplayConfig
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _maxItemsPerRow;
-    unsigned int _maxRowCount;
-    struct {
-        unsigned int has_maxItemsPerRow:1;
-        unsigned int has_maxRowCount:1;
-    } _flags;
 }
 
 - (id);
-- (void);
+- (void)minValue;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id)kInfo";
-- (id)pe;
+- (id)_scope;
 - (id)Ð;
 - (void);
 

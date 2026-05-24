@@ -9,7 +9,6 @@
 @interface MLCArithmeticLayer : MLCLayer
 {
     _Bool _binaryOperation;
-    int _operation;
 }
 
 + (id);
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool binaryOperation; // @synthesize binaryOperation=_binaryOperation;
-@property(readonly, nonatomic) int operation; // @synthesize operation=_operation;
 
 @end
 

@@ -6,22 +6,15 @@
 
 #import <AVKit/AVView.h>
 
-@class AVControlOverflowButton, NSArray, NSString;
-@protocol AVMobileAuxiliaryControlsViewDelegate;
+@class AVControlOverflowButton;
 
 __attribute__((visibility("hidden")))
 @interface AVMobileAuxiliaryControlsView : AVView
 {
     AVControlOverflowButton *_overflowControl;
-    double _extendedDynamicRangeGain;
-    NSArray *_controlsInPriorityOrder;
-    _Bool _hasOverflowOnlyControl;
-    NSArray *_controls;
-    double _controlSpacing;
-    id <AVMobileAuxiliaryControlsViewDelegate> _delegate;
 }
 
-- (void);
+- (void)user key sync due to unit test override;
 - (double);
 - (id);
 - (void);
@@ -39,31 +32,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)_profile;
 - (struct CGSize);
 - (void);
 - (void);
-- (double);
+- (double)ssValueName;
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)02-A486-6D1EB759AADD;
 - (void);
 - (void)!@ù[Ð1Â0@ù
 × ;
 - (id)ì;
 
 // Remaining properties
-@property(nonatomic) double controlSpacing; // @synthesize controlSpacing=_controlSpacing;
-@property(retain, nonatomic) NSArray *controls; // @synthesize controls=_controls;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVMobileAuxiliaryControlsViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
 @property(nonatomic) _Bool hasOverflowOnlyControl; // @synthesize hasOverflowOnlyControl=_hasOverflowOnlyControl;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

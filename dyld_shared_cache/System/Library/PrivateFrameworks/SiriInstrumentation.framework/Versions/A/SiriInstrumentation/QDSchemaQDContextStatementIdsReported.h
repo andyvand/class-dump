@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface QDSchemaQDContextStatementIdsReported : SISchemaInstrumentationMessage
 {
     NSArray *_contextStatementIds;
-    NSArray *_contextualEntityStatementIds;
 }
 
 - (void);
@@ -20,7 +19,7 @@
 - (void);
 - (unsigned long long);
 - (unsigned int);
-- (id);
+- (id)A*;
 - (unsigned long long);
 - (id);
 - (id);
@@ -31,19 +30,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)OS;
+- (_Bool);
+- (_Bool)originalMessageGUID;
 - (id);
 - (id);
-- (id)igger;
+- (id)_trigger;
 - (id)utes;
 - (void)tEvent.FLActionEvaluationContext;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *contextStatementIds; // @synthesize contextStatementIds=_contextStatementIds;
-@property(copy, nonatomic) NSArray *contextualEntityStatementIds; // @synthesize contextualEntityStatementIds=_contextualEntityStatementIds;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

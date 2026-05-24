@@ -4,11 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSceneWorkspace;
+@class FBScene, FBSceneWorkspace;
 
 @protocol FBSceneWorkspaceObserver
 
 @optional
-- (void)PathForItemAtGlobalIndex:(FBSceneWorkspace *)arg1;
+- (void)onnectOnIdleTimer:(FBSceneWorkspace *)arg1 withDNS:(FBScene *)arg2;
+- (void)validatedIndexPathForItemAtGlobalIndex:(FBSceneWorkspace *)arg1;
 @end
 

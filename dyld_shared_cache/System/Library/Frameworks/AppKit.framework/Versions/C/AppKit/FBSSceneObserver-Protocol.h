@@ -7,6 +7,8 @@
 @protocol FBSSceneObserver
 
 @optional
+- (void)info;
+- (void)embeddedSecureElement;
 - (void)´È;
 @end
 

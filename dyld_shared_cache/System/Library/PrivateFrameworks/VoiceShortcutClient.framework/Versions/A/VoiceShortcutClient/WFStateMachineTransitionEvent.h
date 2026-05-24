@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol WFState;
 
 @interface WFStateMachineTransitionEvent
 {
     _Bool _valid;
-    id <WFState> _state;
-    NSString *_reason;
 }
 
 + (id);
@@ -23,9 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
 @property(readonly, nonatomic) id <WFState> state; // @synthesize state=_state;
-@property(readonly, nonatomic, getter=isValid) _Bool valid; // @synthesize valid=_valid;
 
 @end
 

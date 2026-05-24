@@ -6,22 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SADSchemaSADAvailableAssetDailyStatus, UAFSchemaUAFDeviceMetadata;
+@class UAFSchemaUAFDeviceMetadata;
 
 @interface UAFSchemaUAFAssetDailyStatusWithDeviceProperties : SISchemaInstrumentationMessage
 {
     UAFSchemaUAFDeviceMetadata *_deviceMetadata;
-    SADSchemaSADAvailableAssetDailyStatus *_availableAssetDailyStatus;
-    _Bool _hasDeviceMetadata;
-    _Bool _hasAvailableAssetDailyStatus;
-    unsigned long long _whichEvent;
 }
 
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
@@ -32,21 +28,16 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)_accounts;
+- (_Bool)tringRef, int64_t, int64_t, CFStringRef, Boolean *, Boolean *)_block_invoke_2;
 - (id);
 - (id);
-- (id)FileStored;
-- (id)umTupleWidth;
-- (void)ASUSMAPSFEATURE_CALL;
+- (id)deleteSampledAudioFileStored;
+- (id)_maximumTupleWidth;
+- (void)PEGASUSMAPSFEATURE_CALL;
 
 // Remaining properties
-@property(retain, nonatomic) SADSchemaSADAvailableAssetDailyStatus *availableAssetDailyStatus; // @synthesize availableAssetDailyStatus=_availableAssetDailyStatus;
 @property(retain, nonatomic) UAFSchemaUAFDeviceMetadata *deviceMetadata; // @synthesize deviceMetadata=_deviceMetadata;
-@property(nonatomic) _Bool hasAvailableAssetDailyStatus; // @synthesize hasAvailableAssetDailyStatus=_hasAvailableAssetDailyStatus;
-@property(nonatomic) _Bool hasDeviceMetadata; // @synthesize hasDeviceMetadata=_hasDeviceMetadata;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly, nonatomic) unsigned long long whichEvent; // @synthesize whichEvent=_whichEvent;
 
 @end
 

@@ -4,49 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSLock, NSURL;
+@class NSDictionary;
 
 @interface SPCorrectionHandler
 {
     int _dictDirFd;
-    NSDictionary *_lastCommittedVersions;
-    NSURL *_versionInfoLocation;
-    NSLock *_correctionRefsLock;
-    struct __CFDictionary *_correctionRefs;
 }
 
 + (id);
+- (void)handleReassertAsTheCurrentPrimaryResident:(id)arg1;
+- (id)handleRawMatterEventDictionary:flow: /* Error: Ran out of types for this method. */;
+- (id)handleRawEventReportDictionary:(id)arg1 flow:hapAccessory: /* Error: Ran out of types for this method. */;
+- (void)handleProcessInfoStateChangedNotification:(id)arg1;
+- (void)handleProcessInfoStateChangedNotification:(id)arg1;
+- (void)handlePrimaryResidentReceivedIncomingConnection:(id)arg1;
+- (void)handlePrimaryResidentDidBecomeOtherDevice;
+- (void)handlePrimaryResidentDeviceChangeNotification:(int)arg1;
+- (void)handlePrimaryResidentDataReady;
+- (void)handlePrimaryResidentConfirmedDeviceIdentifierChangeNotification:(struct __CFDictionary *)arg1;
+- (_Bool):(struct __sFILE *)arg1;
+- (void)handlePrimaryResidentChangeMonitorConfirmedDeviceIdentifierChangeNotification: /* Error: Ran out of types for this method. */;
+- (id)handlePresenceStateChangedMessage: /* Error: Ran out of types for this method. */;
+- (void)handlePolicyStatusChange:(id)arg1;
+- (void *)handlePendingDeviceCredentialKeysSyncForAccessory:(id)arg1 withReason:(id)arg2;
+- (id)handlePPIDInfoResponse:context:error: /* Error: Ran out of types for this method. */;
+- (id)handleMotionActive:(id)arg1 didChangeAtDate:(id)arg2;
+- (int)handleMediaReadWriteResponse:forAction:inServiceType:inHome:requestProperty:results:forObjects: /* Error: Ran out of types for this method. */;
+- (id)handleMediaDestinationUpdatedNotification: /* Error: Ran out of types for this method. */;
+- (struct __CFDictionary *)handleMediaDestinationUpdatedNotification: /* Error: Ran out of types for this method. */;
+- (void)handleMediaContentProfileAccessControlUpdate:(void *)arg1;
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void *);
-- (id);
-- (id);
-- (int);
-- (id);
-- (struct __CFDictionary *);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)endeldarmkanonniertjes;
+- (void)h;
 
 // Remaining properties
-@property struct __CFDictionary *correctionRefs; // @synthesize correctionRefs=_correctionRefs;
-@property(retain) NSLock *correctionRefsLock; // @synthesize correctionRefsLock=_correctionRefsLock;
-@property int dictDirFd; // @synthesize dictDirFd=_dictDirFd;
 @property(retain) NSDictionary *lastCommittedVersions; // @synthesize lastCommittedVersions=_lastCommittedVersions;
-@property(retain) NSURL *versionInfoLocation; // @synthesize versionInfoLocation=_versionInfoLocation;
 
 @end
 

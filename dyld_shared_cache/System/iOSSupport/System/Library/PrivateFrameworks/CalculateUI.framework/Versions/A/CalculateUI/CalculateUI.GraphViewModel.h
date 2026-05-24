@@ -8,47 +8,6 @@
 {
     id _state;
     id _isSelected;
-    id centeringDate;
-    id cachedZoomCenterX;
-    id cachedZoomCenterY;
-    id cachedZoomCenterZ;
-    id cachedZoomTweakX;
-    id cachedZoomTweakY;
-    id cachedZoomTweakZ;
-    id _viewportSignal;
-    id currentZoom;
-    id zoomCenterX;
-    id zoomCenterY;
-    id zoomCenterZ;
-    id zoomCenterRatio;
-    id zoomCenterRatioY;
-    id zoomCenterRatioZ;
-    id zoomTweakX;
-    id zoomTweakY;
-    id zoomTweakZ;
-    id _plotRect;
-    id _movedFromCenter;
-    id _allowEqualizeAxes;
-    id _allowCenterOrigin;
-    id xDragStartPlottable;
-    id yDragStartPlottable;
-    id lock;
-    id functionLock;
-    id __functions;
-    id _graphType;
-    id _initialXAxisBounds;
-    id _initialYAxisBounds;
-    id _initialZAxisBounds;
-    id __xAxisLabel;
-    id __yAxisLabel;
-    id __zAxisLabel;
-    id _tapLocation;
-    id _chartProxy;
-    id _selectedFunctionID3D;
-    id baseAxesIntervals;
-    id _isAnimatingFunction;
-    id _chartPose;
-    id _$observationRegistrar;
 }
 
 @end

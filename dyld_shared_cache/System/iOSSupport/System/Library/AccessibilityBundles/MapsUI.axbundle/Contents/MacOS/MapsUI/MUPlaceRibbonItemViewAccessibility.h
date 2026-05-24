@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
++ (id)Element:first:focus:allowScrolling:]_block_invoke /* Error: Ran out of types for this method. */;
 + (void);
-- (_Bool);
+- (_Bool)_addWatchFaceAtURL:shouldValidate:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (id);

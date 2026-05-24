@@ -11,15 +11,14 @@
 @interface PGEarlyMomentsWithPeopleMemoryGenerator : PGMemoryGenerator
 {
     _Bool _shouldGenerateAllMemories;
-    NSDate *_localDate;
 }
 
 + (unsigned long long);
 + (id);
 - (id);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)startAutoTrackingIndividualScreenCursor;
+- (void)setCustomPauseString:(_Bool)arg1;
+- (id)_deepestDescendantOfElement:(id)arg1 direction:(id)arg2;
 - (id);
 - (id);
 - (void);
@@ -29,7 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *localDate; // @synthesize localDate=_localDate;
-@property(nonatomic) _Bool shouldGenerateAllMemories; // @synthesize shouldGenerateAllMemories=_shouldGenerateAllMemories;
 
 @end
 

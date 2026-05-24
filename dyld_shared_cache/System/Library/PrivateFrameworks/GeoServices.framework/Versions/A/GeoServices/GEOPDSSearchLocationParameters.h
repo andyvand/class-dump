@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDSTransportHint, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSSearchLocationParameters
 {
     PBUnknownFields *_unknownFields;
-    GEOPDSTransportHint *_searchTransportHint;
-    int _searchLocationParametersType;
-    struct {
-        unsigned int has_searchLocationParametersType:1;
-    } _flags;
 }
 
 - (id);
@@ -23,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)eld"b1};
-- (id)atures;
+- (id)_parsecQueryRankingFeatures;
 - (id)´ 8¢;
 - (void);
 

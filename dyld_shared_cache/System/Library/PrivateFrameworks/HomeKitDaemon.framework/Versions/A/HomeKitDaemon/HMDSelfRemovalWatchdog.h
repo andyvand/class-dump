@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCoreDataCloudMirroringExportStatusMonitor, HMFTimer, NSDate, NSManagedObjectID, NSObject, NSString, NSUUID;
+@class NSObject, NSUUID;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDSelfRemovalWatchdog
 {
     NSUUID *_currentAccessoryUUID;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSDate *_selfRemovalBeginDate;
-    HMFTimer *_watchdogTimer;
-    CDUnknownBlockType _completion;
-    NSManagedObjectID *_currentAccessoryModelObjectID;
-    HMDCoreDataCloudMirroringExportStatusMonitor *_monitor;
 }
 
 + (id)pIÿ¿6C;
@@ -24,36 +18,29 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
+- (void);
+- (id)A;
+- (void);
+- (void)H;
 - (id);
+im.b = pos.b > 0.0 ? (.91803 + .470304*pos.b) :im.b;
+im.rgb = mix(orig.rgb, im.rgb, boost);
+return im;
+}
+
+ /* Error: Ran out of types for this method. */;
 - (id);
-- (CDUnknownBlockType)ns:promise:database:useAnonymousRequests:zoneID:recordID:desiredKeys: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)initWithActivity:options:promise:database:useAnonymousRequests:zoneID:recordID:desiredKeys: /* Error: Ran out of types for this method. */;
 - (void)r process %@:%@ /* Error: Ran out of types for this method. */;
 - (void)HECK_AFU_SESSION][%@] Failed to establish session for accessory;
 - (void)HMDRemoteEventRouterProtoTopic"8;
 - (id)Ìÿ;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(retain) NSManagedObjectID *currentAccessoryModelObjectID; // @synthesize currentAccessoryModelObjectID=_currentAccessoryModelObjectID;
-@property(readonly, copy) NSUUID *currentAccessoryUUID; // @synthesize currentAccessoryUUID=_currentAccessoryUUID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) HMDCoreDataCloudMirroringExportStatusMonitor *monitor; // @synthesize monitor=_monitor;
-@property(readonly) NSDate *selfRemovalBeginDate; // @synthesize selfRemovalBeginDate=_selfRemovalBeginDate;
-@property(readonly) Class superclass;
-@property(retain) HMFTimer *watchdogTimer; // @synthesize watchdogTimer=_watchdogTimer;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

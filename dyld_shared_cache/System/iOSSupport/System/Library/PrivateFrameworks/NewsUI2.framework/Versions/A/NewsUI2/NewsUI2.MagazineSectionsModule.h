@@ -7,9 +7,6 @@
 @interface NewsUI2.MagazineSectionsModule
 {
     id resolver;
-    id tracker;
-    id contextBuilder;
-    id mastheadModelProvider;
 }
 
 @end

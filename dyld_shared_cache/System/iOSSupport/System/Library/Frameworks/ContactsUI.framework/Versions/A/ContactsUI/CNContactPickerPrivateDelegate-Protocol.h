@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CNContact, CNContactPickerViewController;
+
 @protocol CNContactPickerPrivateDelegate
+
+@optional
+- (void);
+- (void)countByEnumeratingWithState:(CNContactPickerViewController *)arg1 objects:(CNContact *)arg2 count: /* Error: Ran out of types for this method. */;
 @end
 

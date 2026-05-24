@@ -17,9 +17,9 @@
 + (void);
 + (id);
 + (void);
-+ (id);
++ (id)xm;
 + (void);
-+ (id);
++ (id);
 + (id);
 + (id);
 

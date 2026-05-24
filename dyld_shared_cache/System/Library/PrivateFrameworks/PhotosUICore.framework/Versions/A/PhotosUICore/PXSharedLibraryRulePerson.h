@@ -4,29 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PHPerson;
+@class NSString;
 @protocol PXSharedLibraryParticipant;
 
 @interface PXSharedLibraryRulePerson
 {
     id <PXSharedLibraryParticipant> _participant;
-    PHPerson *_person;
 }
 
-+ (id);
-+ (id);
++ (id)?;
++ (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)_CGLPrivateObject}^v}24@0:8^{_CGLPixelFormatObject=}16 /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (void);
+- (void)LemonadeWallpaperFeature;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) id <PXSharedLibraryParticipant> participant; // @synthesize participant=_participant;
-@property(readonly, nonatomic) PHPerson *person;
 
 @end
 

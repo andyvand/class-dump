@@ -6,13 +6,11 @@
 
 #import <CloudKit/CKSQLiteTableGroup.h>
 
-@class CKSQLiteDatabaseActivities, CKSQLiteDatabaseManagerTimer, CKSQLiteDatabaseRegistry;
+@class CKSQLiteDatabaseManagerTimer;
 
 @interface CKSQLiteDatabaseManager : CKSQLiteTableGroup
 {
     CKSQLiteDatabaseManagerTimer *_timer;
-    CKSQLiteDatabaseRegistry *_registry;
-    CKSQLiteDatabaseActivities *_activities;
 }
 
 + (id);
@@ -26,7 +24,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)k;
 - (id);
 - (id);
 - (void);

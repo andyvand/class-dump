@@ -7,15 +7,14 @@
 @interface SearchUIButton
 {
     _Bool _useCompactMode;
-    unsigned long long _type;
 }
 
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)messages));;
+- (void)IMFoundation;
+- (void)countByEnumeratingWithState:objects:count: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (unsigned long long);
 - (void);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(nonatomic) _Bool useCompactMode; // @synthesize useCompactMode=_useCompactMode;
 
 @end
 

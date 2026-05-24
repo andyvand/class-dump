@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSError, NSObject, XCAXCycleDetector, XCAccessibilityElement, XCElementSnapshot, XCTTimeoutControls;
-@protocol NSCopying, OS_dispatch_queue, XCTAccessibilityFramework, XCTMacCatalystStatusProviding;
+@protocol NSCopying;
 
 @interface XCTElementSnapshotRequest
 {
     _Bool _preserveRemoteElementPlaceholders;
-    _Bool _loadResult;
-    _Bool _hasLoaded;
-    id <XCTAccessibilityFramework> _accessibilityFramework;
-    XCAccessibilityElement *_element;
-    NSArray *_attributes;
-    NSDictionary *_parameters;
-    XCElementSnapshot *_elementSnapshot;
-    id <NSCopying> _accessibilitySnapshot;
-    XCTTimeoutControls *_timeoutControls;
-    XCAXCycleDetector *_cycleDetector;
-    id <XCTMacCatalystStatusProviding> _macCatalystStatusProvider;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSError *_loadError;
 }
 
 - (void);
@@ -30,50 +16,37 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)};
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)	;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)T;
+- (id)W;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
+- (id)*;
 - (id);
 - (void);
+- (_Bool)z;
+- (void);
+- (_Bool)7r;
+- (id)o;
+- (id);
+- (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) id <XCTAccessibilityFramework> accessibilityFramework; // @synthesize accessibilityFramework=_accessibilityFramework;
 @property(copy) id <NSCopying> accessibilitySnapshot; // @synthesize accessibilitySnapshot=_accessibilitySnapshot;
-@property(readonly) NSArray *attributes; // @synthesize attributes=_attributes;
-@property(retain) XCAXCycleDetector *cycleDetector; // @synthesize cycleDetector=_cycleDetector;
-@property(readonly) XCAccessibilityElement *element; // @synthesize element=_element;
-@property(retain) XCElementSnapshot *elementSnapshot; // @synthesize elementSnapshot=_elementSnapshot;
-@property _Bool hasLoaded; // @synthesize hasLoaded=_hasLoaded;
-@property(retain) NSError *loadError; // @synthesize loadError=_loadError;
-@property _Bool loadResult; // @synthesize loadResult=_loadResult;
-@property(retain) id <XCTMacCatalystStatusProviding> macCatalystStatusProvider; // @synthesize macCatalystStatusProvider=_macCatalystStatusProvider;
-@property(copy) NSDictionary *parameters; // @synthesize parameters=_parameters;
-@property _Bool preserveRemoteElementPlaceholders; // @synthesize preserveRemoteElementPlaceholders=_preserveRemoteElementPlaceholders;
-@property(readonly) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) XCTTimeoutControls *timeoutControls; // @synthesize timeoutControls=_timeoutControls;
 
 @end
 

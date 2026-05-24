@@ -9,15 +9,11 @@
 @interface IDSQRProtoH3EndToEndChannelRegisterE2EChannelInfo
 {
     NSData *_quicClientConnectionId;
-    unsigned int _quicClientLinkId;
-    NSData *_quicServerConnectionId;
-    unsigned int _quicServerLinkId;
-    _Bool _serverGeneratedConnectionIds;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)hjz8h;
 - (void);
 - (void);
 - (_Bool);
@@ -32,20 +28,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)wasUpdated;
+- (void)nDidEnd
+;
 - (id);
 - (id);
-- (void)erExistingPacket: /* Error: Ran out of types for this method. */;
+- (void)allowedOverheadPerExistingPacket: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasQuicClientConnectionId;
-@property(readonly, nonatomic) _Bool hasQuicServerConnectionId;
-@property(retain, nonatomic) NSData *quicClientConnectionId; // @synthesize quicClientConnectionId=_quicClientConnectionId;
-@property(nonatomic) unsigned int quicClientLinkId; // @synthesize quicClientLinkId=_quicClientLinkId;
-@property(retain, nonatomic) NSData *quicServerConnectionId; // @synthesize quicServerConnectionId=_quicServerConnectionId;
-@property(nonatomic) unsigned int quicServerLinkId; // @synthesize quicServerLinkId=_quicServerLinkId;
-@property(nonatomic) _Bool serverGeneratedConnectionIds; // @synthesize serverGeneratedConnectionIds=_serverGeneratedConnectionIds;
 
 @end
 

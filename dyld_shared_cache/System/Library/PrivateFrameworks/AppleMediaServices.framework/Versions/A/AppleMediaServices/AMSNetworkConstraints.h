@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface AMSNetworkConstraints
 {
@@ -28,22 +28,14 @@
 - (id);
 - (void);
 - (long long);
-- (id);
+- (id)cloudKitRecordID;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)supportElectedPlayer;
 - (void)ØÉêÍÙÉê½ÂÉêüÃÉêÜÉêAÝÉê1ÆÉê,ÇÉê\ÀÉêÁÉêáÊÉê±ËÉêÁÄÉêÅÉê|ÎÉêaÏÉêÈÉêÜÉÉê¬2ÉêÓ3Éê£ÌÉênÍÉê6Éê7Éês0Éê¾1ÉêÎ:Éê;Éêî4Éê#5ÉêS>ÉêN?Éê>8Éêó9Éê"ÉêÂ#Éê²<Éê=Éê&Éê'Éêb Éê¯!Éêß*Éê+Éêÿ$Éê2%ÉêB.Éê_/Éê/(Éêâ)ÉêÉêÉêê,Éê'-ÉêWÉêJÉê:Éê÷ÉêÉê×Éê§ÉêjÉêÉêÉêwÉêºÉêÊÉêÉêûÉê6ÉêFÉê[Éê+ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, getter=isAnyNetworkTypeEnabled) _Bool anyNetworkTypeEnabled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSMutableDictionary *sizeLimits; // @synthesize sizeLimits=_sizeLimits;
-@property(readonly) Class superclass;
 
 @end
 

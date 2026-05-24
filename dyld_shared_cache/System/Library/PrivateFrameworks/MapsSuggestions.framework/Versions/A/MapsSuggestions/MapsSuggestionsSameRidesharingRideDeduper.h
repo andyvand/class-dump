@@ -11,7 +11,7 @@
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool)presentPopoverFromBarButtonItem:(id)arg1 permittedArrowDirections:(id)arg2 animated: /* Error: Ran out of types for this method. */;
 
 @end
 

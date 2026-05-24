@@ -9,9 +9,6 @@
 @interface MPSCPUInstanceAccelerationStructureDescriptor : MPSCPUAccelerationStructureDescriptor
 {
     void *_instanceData;
-    void *_transformData;
-    unsigned long long _transformType;
-    unsigned long long _instanceCount;
 }
 
 - (unsigned long long);
@@ -19,17 +16,14 @@
 - (void);
 - (void);
 - (void);
-- (void *);
+- (void *)�;
 - (void);
 - (id);
 - (unsigned long long);
 - (void)rces/MetalPerformanceShaders/MPSRayIntersector/MPSPolygonBuffer.mm;
 
 // Remaining properties
-@property(nonatomic) unsigned long long instanceCount; // @synthesize instanceCount=_instanceCount;
 @property(nonatomic) void *instanceData; // @synthesize instanceData=_instanceData;
-@property(nonatomic) void *transformData; // @synthesize transformData=_transformData;
-@property(nonatomic) unsigned long long transformType; // @synthesize transformType=_transformType;
 
 @end
 

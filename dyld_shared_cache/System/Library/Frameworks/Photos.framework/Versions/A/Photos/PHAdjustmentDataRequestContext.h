@@ -14,11 +14,11 @@
 }
 
 - (id);
-- (void);
-- (id);
+- (void)erControllerServer>"8;
+- (id);
 - (long long);
 - (id);
-- (void)etCrashRecoveryUnarchiver;
+- (void)PHAssetCrashRecoveryUnarchiver;
 - (_Bool)ÿ_b£;
 
 // Remaining properties

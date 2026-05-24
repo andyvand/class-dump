@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPNFCAccessKeyTypeWrapper, NSData, NSString;
+@class HAPNFCAccessKeyTypeWrapper;
 
 @interface HAPNFCAccessIssuerKeyRequest
 {
     HAPNFCAccessKeyTypeWrapper *_type;
-    NSData *_key;
-    NSData *_identifier;
 }
 
 + (id);
@@ -18,9 +16,9 @@
 - (id);
 - (id);
 - (id);
+- (id)!;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)0:(id)arg1 8@16@24@32B40@44;
 - (_Bool);
 - (void);
 - (id);
@@ -30,15 +28,6 @@
 - (void)in6=CCSI{in6_addr=(?=[16C][8S][4I])}I})}}i{coap_socket_t=iS^{coap_session_t}^{coap_endpoint_t}}^{coap_endpoint_t}^{coap_context_t}^vSCi^{coap_queue_t}Q[8C]Q^{coap_pdu_t}QQQQQ*Q*Q^vI{coap_fixed_point_t=SS}{coap_fixed_point_t=SS}Ii}24@0:8^{coap_context_t=[6S]^{coap_resource_t}^{coap_resource_t}^{coap_async_state_t}Q^{coap_queue_t}^{coap_endpoint_t}^{coap_session_t}^?^?^?^?^?^?^?^?^?^?^v*Q*QIIIII^v}16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSData *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSData *key; // @synthesize key=_key;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) HAPNFCAccessKeyTypeWrapper *type; // @synthesize type=_type;
 
 @end

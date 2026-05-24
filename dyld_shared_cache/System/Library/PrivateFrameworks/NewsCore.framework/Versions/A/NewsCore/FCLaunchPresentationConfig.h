@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface FCLaunchPresentationConfig
 {
     long long _configVersion;
-    double _presentationRequirementTimeout;
-    NSArray *_presentationOperations;
 }
 
 - (void);
 - (void);
-- (void);
+- (void)fetchNamedEntitiesFromDate:(id)arg1;
 - (double);
-- (id);
-- (void);
+- (id)ng"16@"NSString"24B32@"NSUUID"36@?<v@?@"NSError">44;
+- (void)Shortcut;
 - (long long)ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ;
 - (id)yjË;
 
 // Remaining properties
 @property(nonatomic) long long configVersion; // @synthesize configVersion=_configVersion;
-@property(retain, nonatomic) NSArray *presentationOperations; // @synthesize presentationOperations=_presentationOperations;
-@property(nonatomic) double presentationRequirementTimeout; // @synthesize presentationRequirementTimeout=_presentationRequirementTimeout;
 
 @end
 

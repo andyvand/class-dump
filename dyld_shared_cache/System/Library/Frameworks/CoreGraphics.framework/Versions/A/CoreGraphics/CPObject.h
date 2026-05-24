@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPDocument, CPPage, NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface CPObject
 {
     CPObject *parent;
-    NSMutableArray *children;
-    CPDocument *document;
-    CPPage *page;
-    long long zOrder;
 }
 
 - (long long);
@@ -49,10 +43,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (unsigned int);
@@ -62,27 +56,27 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)dextContainingAppBundleID;
 - (void);
 - (void);
-- (id);
+- (id)decodeFromXPCArchive:withContext:withPolicy: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)N20wireless_diagnostics6google8protobuf2io15FileInputStreamE;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void)<4ä4;
-- (void)CGColorSpaceDisplayP3_PQ;
+- (void)kCGColorSpaceDisplayP3_PQ;
 - (unsigned int)ÄNõNõ¸NöNöN÷N÷¼NøNø9­NûNûNýNýNÿNÿwO;
 - (id)Î;
 - (void)Ac;
 - (void)}ëPV;
 - (int);
-- (void);
+- (void)H;
 
 @end
 

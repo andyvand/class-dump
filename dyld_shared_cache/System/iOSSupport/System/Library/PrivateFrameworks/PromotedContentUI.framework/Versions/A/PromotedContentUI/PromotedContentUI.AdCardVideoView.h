@@ -7,11 +7,6 @@
 @interface PromotedContentUI.AdCardVideoView
 {
     id videoPlayerView;
-    id adCardDelegate;
-    id videoDelegate;
-    id configuration;
-    id cardHeightConstraint;
-    id cardWidthConstraint;
 }
 
 - (void);

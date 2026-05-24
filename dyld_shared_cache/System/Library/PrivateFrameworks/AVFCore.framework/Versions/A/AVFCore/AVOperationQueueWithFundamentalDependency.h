@@ -12,10 +12,10 @@
 }
 
 - (id);
-- (void);
+- (void);
 - (void)1Â0@ù
 × ;
-- (void)tPrivate;
+- (void)AVPlayerProtectedContentPrivate;
 
 @end
 

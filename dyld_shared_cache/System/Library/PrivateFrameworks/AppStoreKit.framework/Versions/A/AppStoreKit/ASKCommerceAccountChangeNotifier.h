@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASKCommerceAccountObserverProxy, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface ASKCommerceAccountChangeNotifier
 {
     NSObject<OS_dispatch_queue> *_dispatchQueue;
-    ASKCommerceAccountObserverProxy *_accountChangeObserver;
 }
 
 - (void);
@@ -22,15 +21,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) ASKCommerceAccountObserverProxy *accountChangeObserver; // @synthesize accountChangeObserver=_accountChangeObserver;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

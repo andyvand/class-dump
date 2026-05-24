@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBIntentMetadata;
-
 @protocol _INPBSetAudioSourceInCarIntent
-- (_Bool)terval:daysOfTheWeek:daysOfTheMonth:monthsOfTheYear:weeksOfTheYear:daysOfTheYear:setPositions:end: /* Error: Ran out of types for this method. */;
+- (void)G#C�;
+- (_Bool);
+- (_Bool);
+- (_Bool)initRecurrenceWithFrequency:interval:daysOfTheWeek:daysOfTheMonth:monthsOfTheYear:weeksOfTheYear:daysOfTheYear:setPositions:end: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) int audioSource;
-@property(nonatomic) _Bool hasAudioSource;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasRelativeAudioSourceReference;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(nonatomic) int relativeAudioSourceReference;
 @end
 

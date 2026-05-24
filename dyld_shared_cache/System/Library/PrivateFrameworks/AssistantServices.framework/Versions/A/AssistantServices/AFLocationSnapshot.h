@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface AFLocationSnapshot
 {
     _Bool _preciseLocationEnabled;
-    NSNumber *_latitude;
-    NSNumber *_longitude;
-    NSNumber *_altitude;
-    NSNumber *_direction;
-    NSNumber *_speed;
-    NSNumber *_verticalAccuracy;
-    NSNumber *_horizontalAccuracy;
-    long long _accessState;
 }
 
 + (id);
@@ -24,7 +14,7 @@
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)usingSynchronousProxy:(CDUnknownBlockType)arg1 meetsProvisioningRequirements:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -33,39 +23,24 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
+- (id)EasyConfigDeviceProgressNotification;
+- (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)sharedWorkspace;
 - (id)io.Prepare.End;
 - (id)entStateManager endTransactionForReason:]_block_invoke /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long accessState; // @synthesize accessState=_accessState;
-@property(readonly, copy, nonatomic) NSNumber *altitude; // @synthesize altitude=_altitude;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSNumber *direction; // @synthesize direction=_direction;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSNumber *horizontalAccuracy; // @synthesize horizontalAccuracy=_horizontalAccuracy;
-@property(readonly, copy, nonatomic) NSNumber *latitude; // @synthesize latitude=_latitude;
-@property(readonly, copy, nonatomic) NSNumber *longitude; // @synthesize longitude=_longitude;
-@property(readonly, nonatomic) _Bool preciseLocationEnabled; // @synthesize preciseLocationEnabled=_preciseLocationEnabled;
-@property(readonly, copy, nonatomic) NSNumber *speed; // @synthesize speed=_speed;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSNumber *verticalAccuracy; // @synthesize verticalAccuracy=_verticalAccuracy;
 
 @end
 

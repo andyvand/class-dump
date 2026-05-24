@@ -6,19 +6,16 @@
 
 #import <NeutrinoCore/NUVideoFrameSourceNode.h>
 
-@class NSObject, NUVideoSourceNode;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface NUKeyFrameSourceNode : NUVideoFrameSourceNode
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NUVideoSourceNode *_videoSourceNode;
-    CDStruct_1b6d18a9 _frameTime;
-    struct __CVBuffer *_pixelBuffer;
 }
 
 - (CDStruct_912cb5d2);
-- (id);
+- (id)6(;
 - (id);
 - (struct opaqueCMSampleBuffer *);
 - (struct __CVBuffer *);

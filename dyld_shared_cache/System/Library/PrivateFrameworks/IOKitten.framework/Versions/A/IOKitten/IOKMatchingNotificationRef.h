@@ -9,7 +9,6 @@
 @interface IOKMatchingNotificationRef
 {
     struct os_unfair_recursive_lock_s _lock;
-    IOKMatchingNotification *_notification;
 }
 
 - (id);

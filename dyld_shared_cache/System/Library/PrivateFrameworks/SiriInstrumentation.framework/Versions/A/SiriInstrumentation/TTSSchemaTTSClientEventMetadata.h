@@ -6,25 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface TTSSchemaTTSClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_ttsId;
-    SISchemaUUID *_requestId;
-    NSString *_clientId;
-    SISchemaUUID *_subRequestId;
-    SISchemaUUID *_aceViewId;
-    _Bool _hasTtsId;
-    _Bool _hasRequestId;
-    _Bool _hasClientId;
-    _Bool _hasSubRequestId;
-    _Bool _hasAceViewId;
 }
 
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -42,34 +33,24 @@
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)setLeftButtonCallback: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool),R,C,V_firstName;
 - (void);
-- (_Bool);
+- (_Bool)ID >= firstRowID;
 - (id);
 - (id);
-- (id)cyOrderOfAppUsageFromSiri;
-- (id)iriAndFollowup;
-- (id)_ALTERNATE_CANDIDATE_SELECTED;
-- (void)RCHPOMMESREQUESTFAILUREREASON_UNKNOWN;
+- (id)deleteRecencyOrderOfAppUsageFromSiri;
+- (id)_isSameCallRouteForSiriAndFollowup;
+- (id)PLUSMEDIAPLAYMEDIARESULT_ALTERNATE_CANDIDATE_SELECTED;
+- (void)ORCHPOMMESREQUESTFAILUREREASON_UNKNOWN;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUUID *aceViewId; // @synthesize aceViewId=_aceViewId;
-@property(copy, nonatomic) NSString *clientId; // @synthesize clientId=_clientId;
-@property(nonatomic) _Bool hasAceViewId; // @synthesize hasAceViewId=_hasAceViewId;
-@property(nonatomic) _Bool hasClientId; // @synthesize hasClientId=_hasClientId;
-@property(nonatomic) _Bool hasRequestId; // @synthesize hasRequestId=_hasRequestId;
-@property(nonatomic) _Bool hasSubRequestId; // @synthesize hasSubRequestId=_hasSubRequestId;
-@property(nonatomic) _Bool hasTtsId; // @synthesize hasTtsId=_hasTtsId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *requestId; // @synthesize requestId=_requestId;
-@property(retain, nonatomic) SISchemaUUID *subRequestId; // @synthesize subRequestId=_subRequestId;
 @property(retain, nonatomic) SISchemaUUID *ttsId; // @synthesize ttsId=_ttsId;
 
 @end

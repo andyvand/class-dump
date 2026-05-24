@@ -7,15 +7,15 @@
 @class NSString;
 
 @protocol NSObject
+- (unsigned long long)24Q32B40d44@?<v@?B@"NSError">52;
+- (_Bool)(}S;
+- (id)kMMCSRequestOptionBackgroundConnectionPoolName;
 - (struct _NSZone *)odelRelationshipGenericTVEpisode;
 
-// Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
+@optional
+- (NSString *);
 
-@property(readonly, copy) NSString *description;
+// Remaining properties
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

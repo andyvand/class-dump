@@ -8,48 +8,35 @@ __attribute__((visibility("hidden")))
 @interface CBColorSample
 {
     double _lux;
-    double _CCT;
-    unsigned long long _mode;
-    unsigned long long _type;
-    CDStruct_34734122 _xy;
-    CDStruct_6f955ef8 _XYZ;
 }
 
-- (CDStruct_34734122);
+- (CDStruct_c3b9c2ee);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (double);
-- (long long);
-- (void);
-- (double);
-- (double);
-- (CDStruct_6f955ef8);
-- (double);
-- (CDStruct_6f955ef8);
-- (double);
-- (unsigned long long);
+- (id)9h;
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (void);
+- (id);
+- (double);
+- (long long);
+- (void);
+- (double);
+- (double);
+- (CDStruct_39925896);
+- (double)K;
+- (CDStruct_39925896)�;
+- (double);
+- (unsigned long long)H1F81;
+- (id)H,3y;
+- (id);
+- (void);
+- (unsigned long long);
 - (void);
 - (struct CFXColorSample);
 
 // Remaining properties
-@property(readonly, nonatomic) double CCT; // @synthesize CCT=_CCT;
-@property(readonly, nonatomic) CDStruct_6f955ef8 Lab;
-@property(readonly, nonatomic) CDStruct_6f955ef8 XYZ; // @synthesize XYZ=_XYZ;
-@property(readonly, nonatomic) long long colorBin;
-@property(readonly, nonatomic) struct CFXColorSample colorSample;
 @property(readonly, nonatomic) double lux; // @synthesize lux=_lux;
-@property(nonatomic) unsigned long long mode; // @synthesize mode=_mode;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) CDStruct_34734122 xy; // @synthesize xy=_xy;
 
 @end
 

@@ -6,29 +6,11 @@
 
 #import <PencilKit/PKAdornmentView.h>
 
-@class NSString, UIDragInteraction, UIDragPreview, UILongPressGestureRecognizer, UITapGestureRecognizer;
+@class UIDragPreview;
 
 @interface PKSelectionView : PKAdornmentView
 {
     UIDragPreview *_previewProvider;
-    struct CGRect _originalStrokeFrame;
-    struct CGPoint _initialDragPosition;
-    struct CGPoint _currentScrollOffset;
-    struct CGAffineTransform _resizeTransform;
-    _Bool _hasTranscription;
-    _Bool _displayingContextMenu;
-    CDUnknownBlockType _finishDragToAttachmentBlock;
-    _Bool _isDragging;
-    _Bool _wantsDragPlatter;
-    UILongPressGestureRecognizer *_dragGR;
-    UITapGestureRecognizer *_editMenuGR;
-    UITapGestureRecognizer *_doubleTapGR;
-    UIDragInteraction *_dragInteraction;
-    long long _selectionType;
-    struct CGPoint _offsetInTouchView;
-    struct CGAffineTransform _selectionDrawingTransform;
-    struct CGAffineTransform _selectionDrawingStrokeTransform;
-    struct CGAffineTransform _userTransform;
 }
 
 - (_Bool);
@@ -85,7 +67,7 @@
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void);
 - (long long);
 - (void);
 - (void);
@@ -95,18 +77,18 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)@;
+- (void);
+- (id)So16LPVisionAnalyzerC;
 - (void);
 - (id);
 - (void)
 × ;
 - (id)orm=dddddd}48@?<v@?>96;
-- (void)aysEnabled;
-- (void)meIntervalSinceReferenceDate:(id)arg1;
-- (id)ueue;
-- (void)y:(id)arg1;
+- (void)wereFrontBoardOverlaysEnabled;
+- (void)dateWithTimeIntervalSinceReferenceDate:(id)arg1;
+- (id)_evaluateAndProcessResultCommandsQueue;
+- (void)setSupportCopy:(id)arg1;
 - (void)ayoutConstraint",&,N,V_toolPickerViewRightConstraint;
 - (long long);
 - (_Bool)¸;
@@ -118,24 +100,7 @@
 - (_Bool)pâ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) UITapGestureRecognizer *doubleTapGR; // @synthesize doubleTapGR=_doubleTapGR;
-@property(readonly, nonatomic) UILongPressGestureRecognizer *dragGR; // @synthesize dragGR=_dragGR;
-@property(readonly, nonatomic) UIDragInteraction *dragInteraction; // @synthesize dragInteraction=_dragInteraction;
-@property(readonly, nonatomic) UITapGestureRecognizer *editMenuGR; // @synthesize editMenuGR=_editMenuGR;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isDragging; // @synthesize isDragging=_isDragging;
-@property(readonly, nonatomic) struct CGPoint offsetInTouchView; // @synthesize offsetInTouchView=_offsetInTouchView;
-@property(nonatomic) struct CGAffineTransform selectionDrawingStrokeTransform; // @synthesize selectionDrawingStrokeTransform=_selectionDrawingStrokeTransform;
-@property(nonatomic) struct CGAffineTransform selectionDrawingTransform; // @synthesize selectionDrawingTransform=_selectionDrawingTransform;
-@property(nonatomic) long long selectionType; // @synthesize selectionType=_selectionType;
-@property(readonly) Class superclass;
 @property(nonatomic) struct CGAffineTransform userTransform; // @synthesize userTransform=_userTransform;
-@property(nonatomic) _Bool wantsDragPlatter; // @synthesize wantsDragPlatter=_wantsDragPlatter;
 
 @end
 

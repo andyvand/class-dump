@@ -5,6 +5,7 @@
 //
 
 @protocol TSSceneStateTracker
+- (void)_TtCC9JetEngine16LocalPreferencesP33_FDA532DF1B47E086DB74399232C1495810CacheValue;
 - (void);
 @end
 

@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSOrderedSet;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface IPAColorProfileIndex
 {
     NSObject<OS_dispatch_queue> *_serializer;
-    NSOrderedSet *_installedProfiles;
-    NSMutableDictionary *_identifierToProfileMap;
-    NSMutableDictionary *_checksumToProfileMap;
-    NSMutableDictionary *_identifierToProfileRuntimeCache;
-    NSMutableDictionary *_checksumToProfileRuntimeCache;
-    unsigned int _cacheSeed;
 }
 
 + (void);
-- (void);
-- (id);
+- (void)BoundaryTimes;
+- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned int);
-- (void);
+- (void)?;
 - (id);
 - (id);
-- (void);
+- (void)objectForKeyedSubscript: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int cacheSeed; // @synthesize cacheSeed=_cacheSeed;

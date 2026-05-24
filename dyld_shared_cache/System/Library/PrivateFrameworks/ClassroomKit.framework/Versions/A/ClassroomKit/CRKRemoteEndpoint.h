@@ -9,7 +9,6 @@
 @interface CRKRemoteEndpoint
 {
     unsigned short _port;
-    NSString *_IPAddress;
 }
 
 - (_Bool);
@@ -19,15 +18,13 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (unsigned short);
+- (unsigned short)eceiveDataCallback"^?"__didFinishCallback"^?"__didFailAuthenticationCallback"^?"__didReceiveServerSideConfigVersionCallback"^?"__didReceiveRetryAfterCallback"^?"__client"^{CFURLConnectionClient_V1}"__connection"^{_CFURLConnection}"__responseData"^{__CFData}"__response"^{__CFHTTPMessage}"__error"^{__CFError}}"finishedCallback"^?"authFailedCallback"^?"didReceiveServerSideConfigurationVersionCallback"^?"didReceiveRetryAfterCallback"^?};
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *IPAddress; // @synthesize IPAddress=_IPAddress;
-@property(readonly, nonatomic) unsigned short port; // @synthesize port=_port;
-@property(readonly, copy, nonatomic) NSString *stringValue;
 
 @end
 

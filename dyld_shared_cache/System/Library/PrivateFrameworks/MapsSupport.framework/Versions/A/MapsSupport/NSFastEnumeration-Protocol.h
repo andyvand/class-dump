@@ -5,6 +5,6 @@
 //
 
 @protocol NSFastEnumeration
-- (unsigned long long)ntersectSet:(CDStruct_70511ce9 *)arg1;
+- (unsigned long long)intersectSet:(CDStruct_70511ce9 *)arg1;
 @end
 

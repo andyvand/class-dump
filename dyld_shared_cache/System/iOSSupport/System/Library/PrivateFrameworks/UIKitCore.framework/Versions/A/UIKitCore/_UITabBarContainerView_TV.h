@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
     UITabBar *_tabBar;
 }
 
+- (id)ce period for non 1-1 chat;
 - (id);
-- (id);
-- (id)TabBarItem: /* Error: Ran out of types for this method. */;
+- (id)_setBadgeValue:forTabBarItem: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

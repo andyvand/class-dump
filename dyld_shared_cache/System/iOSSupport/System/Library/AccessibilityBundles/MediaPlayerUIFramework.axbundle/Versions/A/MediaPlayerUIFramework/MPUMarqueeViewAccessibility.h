@@ -11,11 +11,11 @@
 }
 
 + (Class);
-+ (id);
++ (id)kScreenSessionAttribute %@;
 + (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)_isContainerOfOnlyOneLinkNodeChild;
 
 @end
 

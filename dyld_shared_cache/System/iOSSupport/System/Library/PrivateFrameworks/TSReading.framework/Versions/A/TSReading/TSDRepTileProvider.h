@@ -14,7 +14,7 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool): /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

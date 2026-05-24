@@ -6,7 +6,7 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class GEOTransitRouteUpdateRequest, NSString;
+@class GEOTransitRouteUpdateRequest;
 
 @interface GEOTransitRouteUpdateRequestSimple : GEOXPCRequest
 {
@@ -19,19 +19,12 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void)evationModels:(id)arg1 count: /* Error: Ran out of types for this method. */;
+- (void)setSupportedElevationModels:(id)arg1 count: /* Error: Ran out of types for this method. */;
 - (void)h;
 - (void)N`:­ÛIQ@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) GEOTransitRouteUpdateRequest *request; // @synthesize request=_request;
-@property(readonly) Class superclass;
 
 @end
 

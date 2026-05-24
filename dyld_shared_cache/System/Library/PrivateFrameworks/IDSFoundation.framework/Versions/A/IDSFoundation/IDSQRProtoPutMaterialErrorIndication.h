@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSQRProtoMaterialOwner;
-
 @interface IDSQRProtoPutMaterialErrorIndication
 {
     unsigned long long _receiverParticipantId;
-    IDSQRProtoMaterialOwner *_materialOwner;
 }
 
 - (void);
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)P;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)0:(id)arg1 8[2C]16@24;
+- (void)ReadKeySalt;
 - (id);
 - (id);
 - (void)d due to invalid relay linkID count (%d).;
 
 // Remaining properties
-@property(retain, nonatomic) IDSQRProtoMaterialOwner *materialOwner; // @synthesize materialOwner=_materialOwner;
 @property(nonatomic) unsigned long long receiverParticipantId; // @synthesize receiverParticipantId=_receiverParticipantId;
 
 @end

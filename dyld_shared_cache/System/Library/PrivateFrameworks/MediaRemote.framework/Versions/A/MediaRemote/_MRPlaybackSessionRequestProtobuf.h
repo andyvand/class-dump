@@ -4,23 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _MRDictionaryProtobuf, _MRNowPlayingPlayerPathProtobuf;
+@class _MRDictionaryProtobuf;
 
 @interface _MRPlaybackSessionRequestProtobuf
 {
     _MRDictionaryProtobuf *_destinationCommandInfo;
-    _MRNowPlayingPlayerPathProtobuf *_destinationPlayerPath;
-    NSString *_identifier;
-    NSString *_requestID;
-    NSString *_type;
-    _Bool _isPreflight;
-    struct {
-        unsigned int isPreflight:1;
-    } _has;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -35,33 +27,22 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)%ld not found in message, but was found when enumerating indexes;
 - (_Bool);
 - (void);
 - (void);
 - (id);
+- (void)iActivationListener _startWithDelegate:(id)arg1 ];
+- (id)crash_trap;
+- (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
+- (_Bool)!!;
 - (_Bool);
 - (_Bool)scCount"b1"totalTrackCount"b1"trackNumber"b1"artworkAvailable"b1"excludeFromSuggestions"b1"hasAlternativeFormats"b1"infoAvailable"b1"isAdvertisement"b1"isAlwaysLive"b1"isContainer"b1"isCurrentlyPlaying"b1"isExplicitItem"b1"isInTransition"b1"isInWishList"b1"isLiked"b1"isLoading"b1"isPlayable"b1"isResolvableParticipant"b1"isSharable"b1"isSteerable"b1"isStreamingContent"b1"languageOptionsAvailable"b1"lyricsAvailable"b1"transcriptAlignmentsAvailable"b1};
-- (void)hReplyQueue:completion: /* Error: Ran out of types for this method. */;
+- (void)_syncWakingPlayerPathsWithReplyQueue:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) _MRDictionaryProtobuf *destinationCommandInfo; // @synthesize destinationCommandInfo=_destinationCommandInfo;
-@property(retain, nonatomic) _MRNowPlayingPlayerPathProtobuf *destinationPlayerPath; // @synthesize destinationPlayerPath=_destinationPlayerPath;
-@property(readonly, nonatomic) _Bool hasDestinationCommandInfo;
-@property(readonly, nonatomic) _Bool hasDestinationPlayerPath;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(nonatomic) _Bool hasIsPreflight;
 @property(readonly, nonatomic) _Bool hasRequestID;
-@property(readonly, nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isPreflight; // @synthesize isPreflight=_isPreflight;
-@property(retain, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
-@property(retain, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

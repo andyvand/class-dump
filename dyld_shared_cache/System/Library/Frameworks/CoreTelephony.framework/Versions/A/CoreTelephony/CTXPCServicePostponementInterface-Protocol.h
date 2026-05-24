@@ -5,5 +5,6 @@
 //
 
 @protocol CTXPCServicePostponementInterface
+- (void);
 @end
 

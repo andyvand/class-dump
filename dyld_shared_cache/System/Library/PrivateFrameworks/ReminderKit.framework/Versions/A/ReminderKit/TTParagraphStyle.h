@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
-
 @interface TTParagraphStyle
 {
     _Bool _needsParagraphCleanup;
-    _Bool _needsListCleanup;
-    unsigned int _style;
-    unsigned int _hints;
-    long long _alignment;
-    long long _writingDirection;
-    unsigned long long _indent;
-    unsigned long long _startingItemNumber;
 }
 
 + (long long);
@@ -28,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -49,44 +40,23 @@
 - (_Bool);
 - (unsigned int);
 - (id);
-- (id);
+- (id)c;
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
-- (void);
+- (id);
+- (void)mp/LASecureIO/KextBlacklist;
 - (long long);
-- (_Bool);
+- (_Bool)t descriptions for use with NLModel;
 - (void);
-- (id);
+- (id)O4;
 - (id);
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long alignment; // @synthesize alignment=_alignment;
-@property(readonly, nonatomic) _Bool canIndent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned int hints; // @synthesize hints=_hints;
-@property(nonatomic) unsigned long long indent; // @synthesize indent=_indent;
-@property(readonly, nonatomic) _Bool isHeader;
-@property(readonly, nonatomic) _Bool isList;
-@property(nonatomic) _Bool needsListCleanup; // @synthesize needsListCleanup=_needsListCleanup;
-@property(nonatomic) _Bool needsParagraphCleanup; // @synthesize needsParagraphCleanup=_needsParagraphCleanup;
-@property(readonly, nonatomic) _Bool preferSingleLine;
-@property(nonatomic) unsigned long long startingItemNumber; // @synthesize startingItemNumber=_startingItemNumber;
 @property(nonatomic) unsigned int style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSUUID *trackingUUID;
-@property(readonly, nonatomic) _Bool uniqueToLine;
-@property(readonly, nonatomic) _Bool wantsFollowingNewLine;
-@property(nonatomic) long long writingDirection; // @synthesize writingDirection=_writingDirection;
 
 @end
 

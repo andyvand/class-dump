@@ -6,14 +6,11 @@
 
 #import <Silex/SXJSONObject.h>
 
-@class NSString, SXComponentAnimation, SXComponentClassification, SXComponentConditions, SXJSONArray, SXJSONDictionary;
-@protocol SXComponentAnchor;
+@class SXComponentAnimation;
 
 @interface SXComponent : SXJSONObject
 {
     _Bool requiresLinkedContent;
-    SXComponentAnimation *backingAnimation;
-    SXComponentClassification *_classification;
 }
 
 + (CDUnknownBlockType);
@@ -32,35 +29,7 @@
 - (void)@"SXVideoFill";
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accessibilityLabel; // @dynamic accessibilityLabel;
-@property(readonly, nonatomic) SXJSONArray *additions; // @dynamic additions;
-@property(readonly, nonatomic) SXJSONDictionary *analytics; // @dynamic analytics;
-@property(readonly, nonatomic) id <SXComponentAnchor> anchor; // @dynamic anchor;
-@property(readonly, nonatomic) SXComponentAnimation *animation; // @dynamic animation;
 @property(retain, nonatomic) SXComponentAnimation *backingAnimation; // @synthesize backingAnimation;
-@property(readonly, nonatomic) SXJSONArray *behaviors; // @dynamic behaviors;
-@property(readonly, nonatomic) SXComponentClassification *classification; // @synthesize classification=_classification;
-@property(readonly, nonatomic) SXJSONArray *conditional; // @dynamic conditional;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"SXJSONArray",?,R,D,N
-
-@property(readonly, nonatomic) SXComponentConditions *conditions; // @dynamic conditions;
-@property(readonly, nonatomic) unsigned long long contentRelevance; // @dynamic contentRelevance;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool hidden; // @dynamic hidden;
-@property(readonly, nonatomic) NSString *identifier; // @dynamic identifier;
-@property(readonly, nonatomic) NSString *layout; // @dynamic layout;
-@property(readonly, nonatomic) _Bool requiresLinkedContent; // @synthesize requiresLinkedContent;
-@property(readonly, nonatomic) int role;
-@property(readonly, nonatomic) NSString *style; // @dynamic style;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long traits;
-@property(readonly, nonatomic) NSString *type; // @dynamic type;
 
 @end
 

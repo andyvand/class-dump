@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (Epoch)
-+ (id);
++ (id);
 - (id);
 - (long long);
 @end

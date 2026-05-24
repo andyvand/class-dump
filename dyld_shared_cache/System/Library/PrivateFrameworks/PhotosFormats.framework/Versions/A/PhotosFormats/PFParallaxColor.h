@@ -7,8 +7,6 @@
 @interface PFParallaxColor
 {
     id _srgb;
-    id _lhc;
-    struct CGColor *_cgColor;
 }
 
 @end

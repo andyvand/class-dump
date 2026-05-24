@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject;
+@class NSObject;
 @protocol OS_dispatch_source;
 
 @interface IMDispatchTimer
 {
     _Bool _isValid;
-    _Bool _repeats;
-    id _userInfo;
-    NSDate *_fireDate;
-    double _timeInterval;
-    NSObject<OS_dispatch_source> *_timerSource;
-    CDUnknownBlockType _handlerBlock;
 }
 
 - (id);
@@ -23,7 +17,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)SOSMonitorModeSOSIsActiveWithCallback: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -32,7 +26,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -41,13 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *fireDate; // @synthesize fireDate=_fireDate;
-@property(copy, nonatomic) CDUnknownBlockType handlerBlock; // @synthesize handlerBlock=_handlerBlock;
-@property(nonatomic) _Bool isValid; // @synthesize isValid=_isValid;
-@property(nonatomic) _Bool repeats; // @synthesize repeats=_repeats;
-@property(nonatomic) double timeInterval; // @synthesize timeInterval=_timeInterval;
 @property(retain, nonatomic) NSObject<OS_dispatch_source> *timerSource; // @synthesize timerSource=_timerSource;
-@property(retain, nonatomic) id userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

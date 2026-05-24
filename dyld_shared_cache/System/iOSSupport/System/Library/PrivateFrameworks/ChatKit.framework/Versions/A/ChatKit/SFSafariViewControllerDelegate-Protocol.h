@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSURL, SFSafariViewController;
+
 @protocol SFSafariViewControllerDelegate
+
+@optional
+- (void)setContentIDURL:(SFSafariViewController *)arg1;
+- (void)setContentCompressionResistancePriority:(SFSafariViewController *)arg1 forOrientation:(NSURL *)arg2;
+- (NSArray *)setContainingWindow:(SFSafariViewController *)arg1;
+- (NSArray *)setContactsChangedObserverToken:(SFSafariViewController *)arg1;
 @end
 

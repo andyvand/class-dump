@@ -6,12 +6,11 @@
 
 #import <QuartzComposer/QCPatch.h>
 
-@class QCBooleanPort, QCNumberPort;
+@class QCNumberPort;
 
 @interface QCInfo : QCPatch
 {
     QCNumberPort *outputVersion;
-    QCBooleanPort *outputSafeMode;
 }
 
 + (_Bool);

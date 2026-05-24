@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)e-&*!('b-p:(id)arg1 2fr;
 - (_Bool);
 - (id)calizedString";
-- (id)Configs;
+- (id)_clientConfigs;
 - (id)°kl;
 - (void);
 

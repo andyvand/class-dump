@@ -10,11 +10,9 @@ __attribute__((visibility("hidden")))
 @interface _NSQuickActionTouchBarClientItemSourceMonitor
 {
     id <_NSQuickActionItemSource> _itemSource;
-    void *_observationInfo;
-    _Bool _isObserving;
 }
 
-+ (_Bool);
++ (_Bool)lled storeCachedResponse:forRequest:with nil request /* Error: Ran out of types for this method. */;
 + (_Bool)ÿ;
 - (id);
 - (void);

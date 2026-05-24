@@ -9,26 +9,24 @@
 @interface CTLazuliSuggestedActionDialPhoneNumber
 {
     NSString *_phoneNumber;
-    NSString *_fallbackUrl;
 }
 
-+ (_Bool);
-- (_Bool);
++ (_Bool)tricPlayerDownloadSummaryEvent:%p %@ error:%@ recoverableErrorCount:%ld mediaResourceRequestCount:%ld bytesDownloadedCount:%ld downloadDuration:%f variants:%@> /* Error: Ran out of types for this method. */;
+- (_Bool)";
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
-- (void);
+- (void)additionalVerifyInfo:(id)arg1;
 - (id);
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *fallbackUrl; // @synthesize fallbackUrl=_fallbackUrl;
 @property(retain, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
 
 @end

@@ -5,10 +5,10 @@
 //
 
 @protocol FigCaptureSessionObserver
+- (_Bool);
+- (int)}s;
 
 // Remaining properties
 @property(readonly) int photoThumbnailMaxDimension;
-@property(readonly) float photoThumbnailQuality;
-@property(readonly) _Bool photoThumbnailQualitySpecified;
 @end
 

@@ -4,30 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDCameraRecordingAudioCodec, HMDCameraRecordingAudioCodecParameters, NSData;
+@class HMDCameraRecordingAudioCodec;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingAudioCodecConfiguration
 {
     HMDCameraRecordingAudioCodec *_codec;
-    HMDCameraRecordingAudioCodecParameters *_parameters;
 }
 
 + (_Bool)Ì;`ÏÁ;
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)1J1;
 - (void);
-- (id);
+- (id);
 - (void);
-- (id)nCharacteristic;
+- (id)_MKFNotificationRegistrationCharacteristic;
 - (id)l;
 - (void);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) HMDCameraRecordingAudioCodec *codec; // @synthesize codec=_codec;
-@property(readonly, copy, nonatomic) HMDCameraRecordingAudioCodecParameters *parameters; // @synthesize parameters=_parameters;
-@property(readonly, copy) NSData *tlvData;
 
 @end
 

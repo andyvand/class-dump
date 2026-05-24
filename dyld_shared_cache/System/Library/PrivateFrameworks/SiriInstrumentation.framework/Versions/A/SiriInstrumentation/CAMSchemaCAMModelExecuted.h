@@ -6,49 +6,36 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class CAMSchemaCAMModelId, NSData, SISchemaAsset;
+@class CAMSchemaCAMModelId;
 
 @interface CAMSchemaCAMModelExecuted : SISchemaInstrumentationMessage
 {
     CAMSchemaCAMModelId *_modelId;
-    unsigned int _prediction;
-    float _predictionScore;
-    float _predictionThreshold;
-    _Bool _isShadowLog;
-    SISchemaAsset *_asset;
-    struct {
-        unsigned int prediction:1;
-        unsigned int predictionScore:1;
-        unsigned int predictionThreshold:1;
-        unsigned int isShadowLog:1;
-    } _has;
-    _Bool _hasModelId;
-    _Bool _hasAsset;
 }
 
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (float);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)-;
 - (void);
 - (void);
 - (void);
 - (void);
 - (float);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)@;
+- (float);
+- (void);
+- (void)tton:(unsigned int)arg1 callback:] /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (id);
 - (id);
@@ -56,32 +43,20 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)observeValueForKeyPath:ofObject:change:context: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (_Bool)r"b1};
 - (id)isFromContextCollector"b1"isSelf"b1};
-- (void)sMoved:(id)arg1;
-- (id)t;
+- (void)setWasMoved:(id)arg1;
+- (id)ASRSchemaASRJitLanguageModelEnrollmentContext;
 - (id)0A÷ÿ<A÷ÿpA÷ÿ|A÷ÿ°A÷ÿìA÷ÿøA÷ÿ(B÷ÿTB÷ÿB÷ÿ¬B÷ÿàB÷ÿìB÷ÿ C÷ÿPC÷ÿ|C÷ÿC÷ÿ¸C÷ÿÄC÷ÿèC÷ÿôC÷ÿ D÷ÿ<D÷ÿdD÷ÿpD÷ÿ¨E÷ÿÐE÷ÿðE÷ÿ$F÷ÿ`F÷ÿ$G÷ÿXG÷ÿ|G÷ÿÐBÿÿXCÿÿtCÿÿCÿÿ¬CÿÿÈCÿÿäCÿÿ;
-- (void)econdPassLastAudioPacketReceptionTimeInNs;
-- (id)MER_ALARM_MOBILE_TIMER_WAIT;
+- (void)secondPassLastAudioPacketReceptionTimeInNs;
+- (id)FLOWDOMAINEXECUTIONTYPE_TIMER_ALARM_MOBILE_TIMER_WAIT;
 - (void)@³;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaAsset *asset; // @synthesize asset=_asset;
-@property(nonatomic) _Bool hasAsset; // @synthesize hasAsset=_hasAsset;
-@property(nonatomic) _Bool hasIsShadowLog;
-@property(nonatomic) _Bool hasModelId; // @synthesize hasModelId=_hasModelId;
-@property(nonatomic) _Bool hasPrediction;
-@property(nonatomic) _Bool hasPredictionScore;
-@property(nonatomic) _Bool hasPredictionThreshold;
-@property(nonatomic) _Bool isShadowLog; // @synthesize isShadowLog=_isShadowLog;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) CAMSchemaCAMModelId *modelId; // @synthesize modelId=_modelId;
-@property(nonatomic) unsigned int prediction; // @synthesize prediction=_prediction;
-@property(nonatomic) float predictionScore; // @synthesize predictionScore=_predictionScore;
-@property(nonatomic) float predictionThreshold; // @synthesize predictionThreshold=_predictionThreshold;
 
 @end
 

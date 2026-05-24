@@ -7,17 +7,10 @@
 @interface ChatKit.CKInlineMediaView
 {
     id delegate;
-    id image;
-    id generateButton;
-    id generateButtonDiameter;
-    id generateButtonMargin;
-    id imageView;
-    _Bool isGenerativeAssetAppearance;
-    _Bool showGenerativeButton;
 }
 
 - (_Bool);
-- (void);
+- (void)r;
 - (_Bool);
 - (void);
 - (void);
@@ -28,7 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool isGenerativeAssetAppearance; // @synthesize isGenerativeAssetAppearance;
-@property(nonatomic) _Bool showGenerativeButton; // @synthesize showGenerativeButton;
 
 @end
 

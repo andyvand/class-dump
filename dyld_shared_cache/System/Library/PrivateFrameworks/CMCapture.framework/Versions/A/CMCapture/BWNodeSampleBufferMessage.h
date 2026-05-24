@@ -6,13 +6,9 @@
 
 #import <CMCapture/BWNodeMessage.h>
 
-@class FigCaptureRecordingSettings, FigCaptureStillImageSettings;
-
 @interface BWNodeSampleBufferMessage : BWNodeMessage
 {
     struct opaqueCMSampleBuffer *_sampleBuffer;
-    FigCaptureStillImageSettings *_stillImageSettings;
-    FigCaptureRecordingSettings *_recordingSettings;
 }
 
 + (id);
@@ -24,9 +20,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly) FigCaptureRecordingSettings *recordingSettings;
 @property(readonly) struct opaqueCMSampleBuffer *sampleBuffer;
-@property(readonly) FigCaptureStillImageSettings *stillImageSettings;
 
 @end
 

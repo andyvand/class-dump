@@ -9,7 +9,6 @@
 @protocol ASPublicKeyCredential
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *credentialID;
 @property(readonly, copy, nonatomic) NSData *rawClientDataJSON;
 @end
 

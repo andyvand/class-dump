@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BWRamp;
-
 __attribute__((visibility("hidden")))
 @interface BWOverlaidRectangle
 {
     int _displayStyle;
-    struct CGRect _bounds;
-    _Bool _disappeared;
-    int _animationState;
-    BWRamp *_rampAnimation;
-    int _numFramesFullyVisible;
 }
 
 - (void);
@@ -28,16 +21,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct CGRect);
-- (void);
+- (void)rby advertising stopped of type:(struct CGRect)arg1 %ld with error:%@ /* Error: Ran out of types for this method. */;
 - (int);
 
 // Remaining properties
-@property(nonatomic) int animationState; // @synthesize animationState=_animationState;
-@property(nonatomic) struct CGRect bounds; // @synthesize bounds=_bounds;
-@property(nonatomic) _Bool disappeared; // @synthesize disappeared=_disappeared;
 @property(readonly, nonatomic) int displayStyle; // @synthesize displayStyle=_displayStyle;
-@property(nonatomic) int numFramesFullyVisible; // @synthesize numFramesFullyVisible=_numFramesFullyVisible;
-@property(retain, nonatomic) BWRamp *rampAnimation; // @synthesize rampAnimation=_rampAnimation;
 
 @end
 

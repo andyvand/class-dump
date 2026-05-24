@@ -7,8 +7,6 @@
 @interface IDSFoundation.LinkEngineConnectFirstController
 {
     id tags;
-    id fallbackDelaysHook;
-    id fallbackDelay;
 }
 
 @end

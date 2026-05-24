@@ -4,48 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _ETBufferDataSource
 {
     unsigned long long _number_of_data_points;
-    unsigned long long _batchSize;
-    vector_64acebbd _nonBatchBlobNames;
-    unordered_map_80565e0a _dataStorage;
-    unordered_map_3d313a2a _blobShapes;
 }
 
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
-- (vector_64acebbd);
+- (vector_76d36e47);
 - (id);
-- (unordered_map_80565e0a);
+- (unordered_map_49d5c5b1);
 - (float *);
-- (unordered_map_3d313a2a);
+- (unordered_map_122062d3);
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)block_shape;
 - (void)Ä;
 - (void);
 
 // Remaining properties
-@property unsigned long long batchSize; // @synthesize batchSize=_batchSize;
-@property unordered_map_3d313a2a blobShapes; // @synthesize blobShapes=_blobShapes;
-@property unordered_map_80565e0a dataStorage; // @synthesize dataStorage=_dataStorage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property vector_64acebbd nonBatchBlobNames; // @synthesize nonBatchBlobNames=_nonBatchBlobNames;
-@property unsigned long long number_of_data_points; // @synthesize number_of_data_points=_number_of_data_points;
-@property(readonly) Class superclass;
+@property unordered_map_49d5c5b1 dataStorage; // @synthesize dataStorage=_dataStorage;
 
 @end
 

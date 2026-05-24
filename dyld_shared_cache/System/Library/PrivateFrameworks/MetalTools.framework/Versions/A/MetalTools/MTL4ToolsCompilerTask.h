@@ -6,7 +6,6 @@
 
 #import <MetalTools/MTLToolsObject.h>
 
-@class NSString;
 @protocol MTL4Compiler;
 
 @interface MTL4ToolsCompilerTask : MTLToolsObject
@@ -23,14 +22,6 @@
 
 // Remaining properties
 @property(readonly) id <MTL4Compiler> compiler; // @synthesize compiler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) long long status;
-@property(readonly) Class superclass;
 
 @end
 

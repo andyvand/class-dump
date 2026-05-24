@@ -7,6 +7,7 @@
 @interface NewsEngagement.EngagementInlineViewStartupTask
 {
     id engagementInlineViewManager;
+    id;
 }
 
 @end

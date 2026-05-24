@@ -4,41 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLayoutConstraint, NSMutableArray, UINSSceneView;
+@class UINSSceneView;
 
 __attribute__((visibility("hidden")))
 @interface UINSSceneContainerView
 {
     _Bool _constraintsNeedUpdate;
-    NSMutableArray *_allCustomLayoutConstraints;
-    NSLayoutConstraint *_sceneWidthConstraint;
-    NSLayoutConstraint *_sceneHeightConstraint;
-    NSLayoutConstraint *_sceneMinWidthConstraint;
-    NSLayoutConstraint *_sceneMinHeightConstraint;
-    NSLayoutConstraint *_sceneMaxWidthConstraint;
-    NSLayoutConstraint *_sceneMaxHeightConstraint;
-    NSLayoutConstraint *_currentSceneAspectConstraint;
-    NSArray *_centerSceneInContainerConstraints;
-    NSArray *_fitSceneIntoContainerConstraints;
-    NSArray *_pinSceneAndContainerEdgesConstraints;
-    NSLayoutConstraint *_containerLessThanScreenWidthConstraint;
-    NSLayoutConstraint *_containerLessThanScreenHeightConstraint;
-    _Bool _fullscreenScene;
-    _Bool _sceneViewPinned;
-    _Bool _sceneViewZoomEnabled;
-    _Bool _transitioningToFullscreen;
-    _Bool _transitioningFromFullscreen;
-    int _counterRotation;
-    UINSSceneView *_sceneView;
-    double _sceneToSceneViewScaleForLayout;
-    struct CGSize _sceneCurrentSize;
-    struct CGSize _sceneMinSize;
-    struct CGSize _sceneMaxSize;
-    struct CGSize _maxContentSizeForScreen;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)dy exists (id %p)!
+;
 - (void);
 - (void);
 - (void);
@@ -57,34 +33,23 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (struct CGSize);
 - (_Bool);
+- (_Bool)-;
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)r!;
 - (_Bool);
 - (id);
 - (struct CGSize);
 - (void);
 - (int);
 - (id);
-- (void);
+- (void)oint=dd}24{CGSize=dd}40@56@64@72B80;
 - (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) int counterRotation; // @synthesize counterRotation=_counterRotation;
-@property(nonatomic, getter=isFullscreenScene) _Bool fullscreenScene; // @synthesize fullscreenScene=_fullscreenScene;
-@property(nonatomic) struct CGSize maxContentSizeForScreen; // @synthesize maxContentSizeForScreen=_maxContentSizeForScreen;
-@property(nonatomic) struct CGSize sceneCurrentSize; // @synthesize sceneCurrentSize=_sceneCurrentSize;
-@property(nonatomic) struct CGSize sceneMaxSize; // @synthesize sceneMaxSize=_sceneMaxSize;
-@property(nonatomic) struct CGSize sceneMinSize; // @synthesize sceneMinSize=_sceneMinSize;
-@property(nonatomic) double sceneToSceneViewScaleForLayout; // @synthesize sceneToSceneViewScaleForLayout=_sceneToSceneViewScaleForLayout;
 @property(retain, nonatomic) UINSSceneView *sceneView; // @synthesize sceneView=_sceneView;
-@property(nonatomic, getter=isSceneViewPinned) _Bool sceneViewPinned; // @synthesize sceneViewPinned=_sceneViewPinned;
-@property(nonatomic, getter=isSceneViewZoomEnabled) _Bool sceneViewZoomEnabled; // @synthesize sceneViewZoomEnabled=_sceneViewZoomEnabled;
-@property(nonatomic, getter=isTransitioningFromFullscreen) _Bool transitioningFromFullscreen; // @synthesize transitioningFromFullscreen=_transitioningFromFullscreen;
-@property(nonatomic, getter=isTransitioningToFullscreen) _Bool transitioningToFullscreen; // @synthesize transitioningToFullscreen=_transitioningToFullscreen;
 
 @end
 

@@ -11,16 +11,14 @@ __attribute__((visibility("hidden")))
 @interface UIKeyboardInputModeIndicatorController
 {
     id <UIKeyboardInputModeIndicatorControllerDelegate> _delegate;
-    UIDelayedAction *_dismissAction;
-    UIDelayedAction *_idleAction;
 }
 
 + (_Bool)Ø_;
-- (void);
+- (void)cert not for key agreement;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)context=%p;
 - (void);
 - (id)!ø@ù±[°1Â0@ù
 × ;
@@ -29,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (id)Ô!!¤Aù1a°1Â0@ù
 × ;
 - (void)ObservationSource";
-- (void)ingTraitCollectionsForTraitTracking: /* Error: Ran out of types for this method. */;
+- (void)_collectExistingTraitCollectionsForTraitTracking: /* Error: Ran out of types for this method. */;
 - (void)responder;
 - (void)$ñ;
 - (void);
@@ -41,9 +39,7 @@ __attribute__((visibility("hidden")))
 - (void)ÿ;
 
 // Remaining properties
-@property(nonatomic) __weak id <UIKeyboardInputModeIndicatorControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) UIDelayedAction *dismissAction; // @synthesize dismissAction=_dismissAction;
-@property(retain, nonatomic) UIDelayedAction *idleAction; // @synthesize idleAction=_idleAction;
 
 @end
 

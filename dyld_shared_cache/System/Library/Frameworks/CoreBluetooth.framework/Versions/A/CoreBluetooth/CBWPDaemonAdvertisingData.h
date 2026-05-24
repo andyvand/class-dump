@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSNumber;
-
 @interface CBWPDaemonAdvertisingData
 {
     unsigned char _advInstanceType;
-    _Bool _enableAdvertisingWithPowerAssertion;
-    _Bool _enableEPAForAdvertisement;
-    _Bool _enableObjectLocatorResponseOnAdvertisingInstance;
-    _Bool _stopOnAdvertisingAddressChange;
-    unsigned short _advInterval;
-    NSDictionary *_advDataPerType;
-    NSArray *_listOfClients;
-    NSData *_mfgData;
-    NSNumber *_wiProxUpdateTimestamp;
 }
 
 - (id);
@@ -44,19 +33,10 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)rnal/Library/PerfPowerServices/HPDConfig.plist;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *advDataPerType; // @synthesize advDataPerType=_advDataPerType;
 @property(nonatomic) unsigned char advInstanceType; // @synthesize advInstanceType=_advInstanceType;
-@property(nonatomic) unsigned short advInterval; // @synthesize advInterval=_advInterval;
-@property(nonatomic) _Bool enableAdvertisingWithPowerAssertion; // @synthesize enableAdvertisingWithPowerAssertion=_enableAdvertisingWithPowerAssertion;
-@property(nonatomic) _Bool enableEPAForAdvertisement; // @synthesize enableEPAForAdvertisement=_enableEPAForAdvertisement;
-@property(nonatomic) _Bool enableObjectLocatorResponseOnAdvertisingInstance; // @synthesize enableObjectLocatorResponseOnAdvertisingInstance=_enableObjectLocatorResponseOnAdvertisingInstance;
-@property(copy, nonatomic) NSArray *listOfClients; // @synthesize listOfClients=_listOfClients;
-@property(copy, nonatomic) NSData *mfgData; // @synthesize mfgData=_mfgData;
-@property(nonatomic) _Bool stopOnAdvertisingAddressChange; // @synthesize stopOnAdvertisingAddressChange=_stopOnAdvertisingAddressChange;
-@property(copy, nonatomic) NSNumber *wiProxUpdateTimestamp; // @synthesize wiProxUpdateTimestamp=_wiProxUpdateTimestamp;
 
 @end
 

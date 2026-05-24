@@ -6,31 +6,15 @@
 
 #import <BiomeStreams/BMEventBase.h>
 
-@class BMHomeKitClientBase, NSArray, NSData, NSNumber, NSString;
+@class BMHomeKitClientBase, NSString;
 
 @interface BMHomeKitClientAccessoryControlEvent : BMEventBase
 {
     BMHomeKitClientBase *_base;
-    NSString *_accessoryUniqueIdentifier;
-    NSString *_accessoryStateString;
-    NSNumber *_accessoryStateNumber;
-    NSData *_accessoryStateData;
-    NSString *_serviceUniqueIdentifier;
-    NSString *_serviceType;
-    NSString *_characteristicType;
-    NSString *_serviceGroupUniqueIdentifier;
-    NSArray *_zoneUniqueIdentifiers;
-    NSString *_roomUniqueIdentifier;
-    NSString *_accessoryName;
-    NSString *_serviceName;
-    NSString *_roomName;
-    NSString *_serviceGroupName;
-    NSArray *_zoneNames;
-    NSString *_homeName;
 }
 
 + (id);
-- (id);
+- (id))(;
 - (id);
 - (id);
 - (id);
@@ -52,7 +36,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id)LL ;
 - (void);
 - (id)ìÿÿzìÿÿ,;
@@ -63,30 +47,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *accessoryName; // @synthesize accessoryName=_accessoryName;
-@property(readonly, copy, nonatomic) NSData *accessoryStateData; // @synthesize accessoryStateData=_accessoryStateData;
-@property(readonly, copy, nonatomic) NSNumber *accessoryStateNumber; // @synthesize accessoryStateNumber=_accessoryStateNumber;
-@property(readonly, copy, nonatomic) NSString *accessoryStateString; // @synthesize accessoryStateString=_accessoryStateString;
-@property(readonly, copy, nonatomic) NSString *accessoryUniqueIdentifier; // @synthesize accessoryUniqueIdentifier=_accessoryUniqueIdentifier;
-@property(readonly, copy, nonatomic) BMHomeKitClientBase *base; // @synthesize base=_base;
-@property(readonly, copy, nonatomic) NSString *characteristicType; // @synthesize characteristicType=_characteristicType;
-@property(readonly, nonatomic) unsigned int dataVersion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *homeName; // @synthesize homeName=_homeName;
-@property(readonly, copy, nonatomic) NSString *roomName; // @synthesize roomName=_roomName;
-@property(readonly, copy, nonatomic) NSString *roomUniqueIdentifier; // @synthesize roomUniqueIdentifier=_roomUniqueIdentifier;
-@property(readonly, copy, nonatomic) NSString *serviceGroupName; // @synthesize serviceGroupName=_serviceGroupName;
-@property(readonly, copy, nonatomic) NSString *serviceGroupUniqueIdentifier; // @synthesize serviceGroupUniqueIdentifier=_serviceGroupUniqueIdentifier;
-@property(readonly, copy, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
-@property(readonly, copy, nonatomic) NSString *serviceType; // @synthesize serviceType=_serviceType;
-@property(readonly, copy, nonatomic) NSString *serviceUniqueIdentifier; // @synthesize serviceUniqueIdentifier=_serviceUniqueIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) NSArray *zoneNames; // @synthesize zoneNames=_zoneNames;
-@property(readonly, copy, nonatomic) NSArray *zoneUniqueIdentifiers; // @synthesize zoneUniqueIdentifiers=_zoneUniqueIdentifiers;
 
 @end
 

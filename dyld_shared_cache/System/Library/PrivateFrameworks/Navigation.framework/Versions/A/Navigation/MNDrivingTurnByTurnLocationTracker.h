@@ -6,33 +6,24 @@
 
 #import <Navigation/MNTurnByTurnLocationTracker.h>
 
-@class MNAlternateRoutesUpdater, MNTunnelLocationProjector, MNWalkingRouteBackgroundLoader, NSMutableArray, NSString;
+@class MNTunnelLocationProjector;
 
 @interface MNDrivingTurnByTurnLocationTracker : MNTurnByTurnLocationTracker
 {
     MNTunnelLocationProjector *_tunnelLocationProjector;
-    MNAlternateRoutesUpdater *_alternateRoutesUpdater;
-    MNWalkingRouteBackgroundLoader *_walkingRouteBackgroundLoader;
-    _Bool _isInParkingDetectionRegion;
-    int _detectedTransportType;
-    _Bool _exitedVehicle;
-    unsigned long long _vehicleExitConfidence;
-    CDStruct_2c43369c _vehicleExitCoordinate;
-    NSMutableArray *_etauPositions;
-    double _lastKnownCourse;
-    double _consecutiveValidCourseCount;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)InertPaddingLayoutRequired;
+- (void)IsCompatibleWithDragAndDropAutoscroll;
+- (void);
+- (void)FeedbackRequestContext;
+- (void)TitleAndIconLabelStyle;
 - (void);
 - (_Bool);
 - (void);
 - (id);
 - (void);
+- (void)<;
 - (void);
 - (void);
 - (void);
@@ -41,25 +32,18 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)DocumentBrowserContextMenuModifier;
 - (id);
 - (id);
 - (int);
-- (id);
+- (id)7l;
 - (_Bool);
 - (void);
 - (void);
-- (int)ation_localizedStringForDistance:context:extraDetail: /* Error: Ran out of types for this method. */;
+- (int)_navigation_localizedStringForDistance:context:extraDetail: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

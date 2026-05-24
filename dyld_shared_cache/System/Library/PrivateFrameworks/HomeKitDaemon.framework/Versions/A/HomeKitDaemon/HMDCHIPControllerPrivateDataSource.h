@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, NSNumber, NSString;
+@class HMDHome;
 
 __attribute__((visibility("hidden")))
 @interface HMDCHIPControllerPrivateDataSource
 {
     HMDHome *_home;
-    NSNumber *_controllerNodeID;
 }
 
 + (id)iyE;
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)or identifier %@ from set %@;
+- (_Bool)kMAOptionsBAAValidity;
+- (void)L;
 - (_Bool);
 - (id);
 - (id);
@@ -26,19 +25,11 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)aã!,Cù±ð1Â0@ù
 × ;
-- (id)s;
+- (id)_generatedMediaSystemDestinationIdentifiers;
 - (void)/²;
 
 // Remaining properties
-@property __weak NSNumber *controllerNodeID; // @synthesize controllerNodeID=_controllerNodeID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,75 +4,57 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPopUpButton, NSSegmentedControl, NSTabWell, NSTextViewSharedData, NSView;
+@class NSTextViewSharedData, NSView;
 
 __attribute__((visibility("hidden")))
 @interface _NSTextViewRulerHelper
 {
     NSTextViewSharedData *_textViewSharedData;
-    _Bool temporarySpacingChange;
-    NSView *_rulerAccessoryView;
-    NSPopUpButton *_stylesPopUp;
-    NSSegmentedControl *_alignmentsControl;
-    NSPopUpButton *_spacingsPopUp;
-    NSPopUpButton *_listsPopUp;
-    NSView *_tabWellContainer;
-    NSTabWell *_leftTabWell;
-    NSTabWell *_rightTabWell;
-    NSTabWell *_centerTabWell;
-    NSTabWell *_decimalTabWell;
 }
 
+- (id)9I
+;
 - (id);
 - (id);
-- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)in CT security info dictionary;
+- (void)load support library;
 - (void);
-- (void);
-- (void);
-- (void);
+- (id)h error 0x%016llX;
+- (id)ey sequence found root_key=%d;
+- (id)rusted key;
+- (id)manifest, but allow unsealed, try to proceed with the data manifest...;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (double);
 - (id);
 - (id);
 - (id);
 - (void);
+- (void)e-id;
+- (void)-user-uid;
+- (void)ble-path;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)CriticalDomains;
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)setPriority:(id)arg1 forTaskWithIdentifier:(unsigned long long)arg2;
+- (void)setPreClearedMode:(id)arg1;
+- (void)setPathToDownloadTaskFile:(id)arg1;
+- (void)setOverwriteHTTPOnlyCookies:(id)arg1;
+- (void)setOlderThanExpirationDate:(struct _NSRange)arg1;
+- (void)setObject:(double)arg1 atIndexedSubscript:(double)arg2;
+- (void)d!;
+- (void)Must have a body data;
+- (void))
+;
 
 // Remaining properties
-@property(retain) NSSegmentedControl *alignmentsControl; // @synthesize alignmentsControl=_alignmentsControl;
-@property(retain) NSTabWell *centerTabWell; // @synthesize centerTabWell=_centerTabWell;
-@property(retain) NSTabWell *decimalTabWell; // @synthesize decimalTabWell=_decimalTabWell;
-@property(retain) NSTabWell *leftTabWell; // @synthesize leftTabWell=_leftTabWell;
-@property(retain) NSPopUpButton *listsPopUp; // @synthesize listsPopUp=_listsPopUp;
-@property(retain) NSTabWell *rightTabWell; // @synthesize rightTabWell=_rightTabWell;
 @property(retain) NSView *rulerAccessoryView; // @synthesize rulerAccessoryView=_rulerAccessoryView;
-@property(retain) NSPopUpButton *spacingsPopUp; // @synthesize spacingsPopUp=_spacingsPopUp;
-@property(retain) NSPopUpButton *stylesPopUp; // @synthesize stylesPopUp=_stylesPopUp;
-@property(retain) NSView *tabWellContainer; // @synthesize tabWellContainer=_tabWellContainer;
 
 @end
 

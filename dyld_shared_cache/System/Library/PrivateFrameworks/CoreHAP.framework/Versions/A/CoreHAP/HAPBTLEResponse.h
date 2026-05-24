@@ -4,18 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPBTLERequest, HAPBTLETransactionIdentifier, NSData, NSMutableData;
-
 __attribute__((visibility("hidden")))
 @interface HAPBTLEResponse
 {
     _Bool _headerComplete;
-    unsigned char _statusCode;
-    HAPBTLERequest *_request;
-    HAPBTLETransactionIdentifier *_identifier;
-    NSData *_body;
-    unsigned long long _bodyLength;
-    NSMutableData *__internalBody;
 }
 
 - (void);
@@ -29,33 +21,23 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)block;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)ONDP855RestoreInfoCreateRequest:Cannot get DeviceInfo /* Error: Ran out of types for this method. */;
+- (id)>;
 - (id);
 - (void)erverBookkeeping"36@"NSError"44;
 - (_Bool)ø;
 - (unsigned char);
 
 // Remaining properties
-@property(retain, nonatomic, setter=_setInternalBody:) NSMutableData *_internalBody; // @synthesize _internalBody=__internalBody;
-@property(copy, nonatomic) NSData *body; // @synthesize body=_body;
-@property(readonly, nonatomic, getter=isBodyComplete) _Bool bodyComplete;
-@property(readonly, nonatomic) unsigned long long bodyLength; // @synthesize bodyLength=_bodyLength;
-@property(readonly, nonatomic, getter=isComplete) _Bool complete;
-@property(readonly, nonatomic, getter=isEncrypted) _Bool encrypted;
 @property(nonatomic, getter=isHeaderComplete) _Bool headerComplete; // @synthesize headerComplete=_headerComplete;
-@property(readonly, nonatomic) HAPBTLETransactionIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) HAPBTLERequest *request; // @synthesize request=_request;
-@property(readonly, nonatomic) unsigned char statusCode; // @synthesize statusCode=_statusCode;
-@property(readonly, nonatomic, getter=isValid) _Bool valid;
 
 @end
 

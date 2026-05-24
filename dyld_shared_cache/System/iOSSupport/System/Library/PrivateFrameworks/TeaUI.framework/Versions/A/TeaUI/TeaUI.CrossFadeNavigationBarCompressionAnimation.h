@@ -7,10 +7,6 @@
 @interface TeaUI.CrossFadeNavigationBarCompressionAnimation
 {
     id navigationItem;
-    id navigationBar;
-    id scrollView;
-    id backgroundColor;
-    id appliedPercentage;
 }
 
 - (void);
@@ -24,16 +20,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (double);
-- (id);
-- (void);
+- (double);
+- (id)updatePuzzle:difficulty:publishDate:behaviorFlags: /* Error: Ran out of types for this method. */;
+- (void)NTPBPullToRefresh;
 - (void)½<þÿ¬ûýÿÖ`ýÿaýÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool shouldAlwaysScrollToTopOnTap;
 @property(nonatomic, readonly) _Bool shouldCloseGapOnScroll;
-@property(nonatomic, readonly) _Bool shouldCompressAtTop;
-@property(nonatomic, readonly) double topOffset;
 
 @end
 

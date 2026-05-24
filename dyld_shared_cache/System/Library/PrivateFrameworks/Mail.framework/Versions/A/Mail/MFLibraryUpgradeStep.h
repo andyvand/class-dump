@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDPersistenceDatabaseConnection, NSProgress;
+@class NSProgress;
 
 @interface MFLibraryUpgradeStep
 {
     NSProgress *_progress;
-    EDPersistenceDatabaseConnection *_connection;
 }
 
 + (_Bool);
 + (_Bool);
-- (_Bool);
-- (id);
+- (_Bool);
+- (id)q;
 - (id);
 - (id);
 - (unsigned long long);
@@ -27,9 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) EDPersistenceDatabaseConnection *connection; // @synthesize connection=_connection;
 @property(readonly, nonatomic) NSProgress *progress; // @synthesize progress=_progress;
-@property(readonly, nonatomic) _Bool shouldRecalculateMessageCounts;
 
 @end
 

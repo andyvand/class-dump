@@ -7,8 +7,6 @@
 @interface NewsFeed.FeedLayoutContextFactory
 {
     id colorPaletteProvider;
-    id fontBookFactory;
-    id layoutAttributesFactoryProvider;
 }
 
 @end

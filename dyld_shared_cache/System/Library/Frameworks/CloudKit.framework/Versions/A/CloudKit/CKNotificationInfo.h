@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CKNotificationInfo
 {
     _Bool _shouldBadge;
-    _Bool _shouldSendContentAvailable;
-    _Bool _shouldSendMutableContent;
-    NSArray *_alertLocalizationArgs;
-    NSArray *_titleLocalizationArgs;
-    NSArray *_subtitleLocalizationArgs;
-    NSArray *_desiredKeys;
-    NSString *_alertBody;
-    NSString *_alertLocalizationKey;
-    NSString *_title;
-    NSString *_titleLocalizationKey;
-    NSString *_subtitle;
-    NSString *_subtitleLocalizationKey;
-    NSString *_alertActionLocalizationKey;
-    NSString *_alertLaunchImage;
-    NSString *_soundName;
-    NSString *_category;
-    NSString *_collapseIDKey;
 }
 
 + (id);
@@ -37,12 +20,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)Hkx8h;
+- (void)
+;
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)(}S(;
 - (void);
 - (void);
 - (_Bool);
@@ -50,9 +34,9 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)H;
 - (id);
-- (void);
+- (void)u;
 - (id);
 - (id);
 - (void);
@@ -77,24 +61,7 @@
 - (void);
 
 // Remaining properties
-@property(copy) NSString *alertActionLocalizationKey; // @synthesize alertActionLocalizationKey=_alertActionLocalizationKey;
 @property(copy) NSString *alertBody; // @synthesize alertBody=_alertBody;
-@property(copy) NSString *alertLaunchImage; // @synthesize alertLaunchImage=_alertLaunchImage;
-@property(copy) NSArray *alertLocalizationArgs; // @synthesize alertLocalizationArgs=_alertLocalizationArgs;
-@property(copy) NSString *alertLocalizationKey; // @synthesize alertLocalizationKey=_alertLocalizationKey;
-@property(copy) NSString *category; // @synthesize category=_category;
-@property(copy) NSString *collapseIDKey; // @synthesize collapseIDKey=_collapseIDKey;
-@property(copy) NSArray *desiredKeys; // @synthesize desiredKeys=_desiredKeys;
-@property _Bool shouldBadge; // @synthesize shouldBadge=_shouldBadge;
-@property _Bool shouldSendContentAvailable; // @synthesize shouldSendContentAvailable=_shouldSendContentAvailable;
-@property _Bool shouldSendMutableContent; // @synthesize shouldSendMutableContent=_shouldSendMutableContent;
-@property(copy) NSString *soundName; // @synthesize soundName=_soundName;
-@property(copy) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(copy) NSArray *subtitleLocalizationArgs; // @synthesize subtitleLocalizationArgs=_subtitleLocalizationArgs;
-@property(copy) NSString *subtitleLocalizationKey; // @synthesize subtitleLocalizationKey=_subtitleLocalizationKey;
-@property(copy) NSString *title; // @synthesize title=_title;
-@property(copy) NSArray *titleLocalizationArgs; // @synthesize titleLocalizationArgs=_titleLocalizationArgs;
-@property(copy) NSString *titleLocalizationKey; // @synthesize titleLocalizationKey=_titleLocalizationKey;
 
 @end
 

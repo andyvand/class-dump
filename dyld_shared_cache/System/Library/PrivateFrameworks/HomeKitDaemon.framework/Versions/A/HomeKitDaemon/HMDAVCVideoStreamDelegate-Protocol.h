@@ -7,6 +7,8 @@
 @protocol HMDAVCVideoStream;
 
 @protocol HMDAVCVideoStreamDelegate
+- (void)(;
+- (void);
 - (void)iaGroupsAggregateData destinations:(id <HMDAVCVideoStream>)arg1 %@ destinationControllerDatas:%@ groups:%@> /* Error: Ran out of types for this method. */;
 @end
 

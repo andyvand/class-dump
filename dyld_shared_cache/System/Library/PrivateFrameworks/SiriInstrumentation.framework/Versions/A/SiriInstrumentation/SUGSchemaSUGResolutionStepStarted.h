@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SUGSchemaSUGResolutionStepStarted : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
+- (void)ptpClock_StopForClient;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id)iceEnabled;
-- (id)asUserAlignmentInferenceGenerated;
-- (_Bool)IS_ERROR;
-- (_Bool)ONSOURCE_NOT_APPLICABLE;
+- (unsigned long long)ASDVPPRequest"16@?<v@?@"NSError"@"NSString"@"NSNumber"@"NSUUID">24;
+- (_Bool)fier;
+- (_Bool)legacy%' and type = 'index';;
+- (id)!;
+- (id)i!;
+- (id)deleteNumUsersWithRecognizeMyVoiceEnabled;
+- (id)_hasUserAlignmentInferenceGenerated;
+- (_Bool)DISMISSALREASON_EMERGENCY_BULLETIN_SYNTHESIS_ERROR;
+- (_Bool)FLOWMEDIAPLAYERCHOSENEXECUTIONSOURCE_NOT_APPLICABLE;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

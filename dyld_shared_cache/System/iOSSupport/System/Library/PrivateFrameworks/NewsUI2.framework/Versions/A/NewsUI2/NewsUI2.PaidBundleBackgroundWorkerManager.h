@@ -7,9 +7,6 @@
 @interface NewsUI2.PaidBundleBackgroundWorkerManager
 {
     id backgroundFetchManager;
-    id workerFactory;
-    id bundleSubscriptionManager;
-    id registeredWorkers;
 }
 
 - (void);

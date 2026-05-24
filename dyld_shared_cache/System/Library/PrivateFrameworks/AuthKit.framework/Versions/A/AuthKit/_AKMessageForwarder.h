@@ -7,7 +7,6 @@
 @interface _AKMessageForwarder
 {
     id _weakReceiver;
-    id _strongReceiver;
 }
 
 - (id);
@@ -15,7 +14,7 @@
 - (id);
 - (id);
 - (void);
-- (void)Delegate;
+- (void)NSXPCListenerDelegate;
 
 @end
 

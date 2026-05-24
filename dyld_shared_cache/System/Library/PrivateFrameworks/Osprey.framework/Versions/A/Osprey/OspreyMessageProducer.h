@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol OspreyClientStreamingContext;
-
 @interface OspreyMessageProducer
 {
     CDUnknownBlockType _serializer;
-    id <OspreyClientStreamingContext> _streamingContext;
 }
 
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void)ºÉ»Cïð²+nyG-$§Ö9´H=¿@]!Ëöµg.ôU0(GåÓ·Ï:¢,\úSü¯Oá·¥r·ÓdÓ2ªìÓSþJp?åþPÊ7S õ}FÖ0ï»à`JüîKÂoôÞ&ÊªÖnf>LÊÜ¨Ñ½_â{¹½8s$YÅ<ÅöãÆÏD±Î('tNmx774WýÕ»U#ÁBX3)dìêøYÏ@*`ûqÄ´`$q+8«î]ÅEEÉ7d<WZ\®¥AÉ¯¢ f«Q¥?Ñ»é3²9ì£ªBF{»[íLWÇÞlÓ¼Í§Ãà>®÷, /* Error: Ran out of types for this method. */;
 

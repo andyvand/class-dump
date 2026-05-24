@@ -15,13 +15,13 @@
 
 - (id);
 - (id);
-- (id);
+- (id)e             :(id)arg1 %s
+;
 - (void);
 - (void);
-- (id)iggerEvent: /* Error: Ran out of types for this method. */;
+- (id)setTriggerEvent: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSURL *fileURL; // @synthesize fileURL=_fileURL;
 @property(retain) SearchUICopyItem *item; // @dynamic item;
 
 @end

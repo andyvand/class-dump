@@ -4,20 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSSet, NSString, NSURL;
-@protocol MTLLibrary, OS_dispatch_data;
-
 __attribute__((visibility("hidden")))
 @interface CIKernelLibrary
 {
     unsigned long long _digest;
-    NSObject<OS_dispatch_data> *_data;
-    id <MTLLibrary> _library;
-    NSString *_mtl_source;
-    NSSet *_extern_function_names;
-    NSSet *_stitchable_function_names;
-    NSURL *_url;
-    _Bool _harvest_for_this_library;
 }
 
 + (id);
@@ -27,18 +17,18 @@ __attribute__((visibility("hidden")))
 + (id);
 + (void);
 + (id);
-+ (id);
++ (id);
 + (id)k{nwt}u||ssss[fcnt{}}bwy|$J=d@VMcuuuuxxxxPd_lggagiigiO`WjpohplrntbkkkWWWWBL?L]]]]vvvv_wwjsoiyvg~vspvJ]Ud____ccccjjjjgnkokokvcokuE]TeaaYaP`Weemgpfyw{;
 - (id);
-- (void);
+- (void)B;
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)latency1;
 - (id)nh_nGUGbig`ms}}}rrormpivr¨¨¨¨««««~ssssJWGa4ZNp§§§§Snf|w~y~~~~vvvvmmmm\nko    ««««CdW{E`Ps[[[[,7"<5>-?\\\\q{{{dzz{j££¤¤Ywqizut{{z{zvozl|¦¦¦¦ªªªªtwszqqqqlllleebeV^Vennlnyyyyhxud}x¤§§±±±±¦¦¦¦zhuo||||ppppMYOc[f_j~~~~ozwl{x|~j||~rvr}cnipTaYgoooocwwwappv^liqqqnqxyyy{}}©©©©´³´´¨ª®®{|{}v`yulF`Wo.F6U5B0N@WL_jwvy|}}}~|xxxxrrrrZlhlkkjkYgej2TMfNdbkssssapppfhfhddadUd`hvvvv¦¦¦¦³³³³¨«««winjn7M=XWUG[be^iwwww~~~~evs`yvqr}~Ynkvggeg^_XacjgjzzzzkztUum¤¤¤¤¦¦¦¦¦¦¦¦¤¤¤¤zzzzoooogggg____L[T]jjjjgpi{||||dlerWdZlppppzzzznnnnXWM\HSH\UaYg\icraoh{q¡§²²²²£«««r|||mmhmbmhn{{{{~g~sqqsPebmuuuut{zz||||hhhhBXN_iiiiqqqqdg`l:UHlburlpluemhsnwu{lyxg~N`XkLYPcllllfuuurs¬¬¬¬µµµµ±¹º¼¼¼¼¯¯¯¯^ph{E^QkJZNfRe_nvvvvppppb^RgJ^Rn}}z~~_so|TjcuuuruuuuugrmsfnhretottuowVsn¢¢¢¢¡¡¡¡Yliymmmm]]]]3F9MHPDXoyz|££££jythg^nAXJiqvvxHb\mW]Tgiififfcf?I>W4"G2:*B=F;HPPPPORGT8NA^xxxxltxvx^jelXb^b?QEU0E5Rig`i¤¤¤¤     /* Error: Ran out of types for this method. */;
 - (id)vec4 mask = sample(sM, samplerTransform(sM, dc));
   float k = mask.y;
@@ -70,7 +60,7 @@ __attribute__((visibility("hidden")))
   return mix(cLo, cHi, m - mLo);
 }
  /* Error: Ran out of types for this method. */;
-- (id)Point3;
+- (id)inputPoint3;
 - (id)c, u3, u4);
   vec4 v4 = compare(desc, u4, u3);
   desc = vec4(v1.z - v3.z);
@@ -89,10 +79,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) unsigned long long digest; // @synthesize digest=_digest;
 @property(readonly) unsigned long long functionCount;
-@property(readonly) NSString *mtl_source; // @synthesize mtl_source=_mtl_source;
-@property(readonly) NSURL *url; // @synthesize url=_url;
 
 @end
 

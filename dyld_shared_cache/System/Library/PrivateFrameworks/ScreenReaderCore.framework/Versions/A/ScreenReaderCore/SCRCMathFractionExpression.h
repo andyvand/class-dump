@@ -10,19 +10,16 @@ __attribute__((visibility("hidden")))
 @interface SCRCMathFractionExpression : SCRCMathExpression
 {
     SCRCMathExpression *_numerator;
-    SCRCMathExpression *_denominator;
-    SCRCMathExpression *_operator;
-    double _lineThickness;
 }
 
+- (id);
+- (id);
 - (id);
 - (id);
+- (id)p.-m;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)+m;
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
@@ -37,17 +34,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (id)a0;
+- (id)h;
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (void)nvalid well-known response for %{public}@:(id)arg1 %{public}@;
+- (void)@?<v@?@"NSDictionary"@"NSError">16;
 
 // Remaining properties
-@property(retain, nonatomic) SCRCMathExpression *denominator; // @synthesize denominator=_denominator;
-@property(nonatomic) double lineThickness; // @synthesize lineThickness=_lineThickness;
 @property(retain, nonatomic) SCRCMathExpression *numerator; // @synthesize numerator=_numerator;
-@property(retain, nonatomic) SCRCMathExpression *operator; // @synthesize operator=_operator;
 
 @end
 

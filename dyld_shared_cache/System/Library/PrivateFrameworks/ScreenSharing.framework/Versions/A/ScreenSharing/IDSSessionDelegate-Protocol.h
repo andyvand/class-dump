@@ -5,5 +5,10 @@
 //
 
 @protocol IDSSessionDelegate
+
+@optional
+- (void);
+- (void);
+- (void)SURLSessionTaskMetrics"32;
 @end
 

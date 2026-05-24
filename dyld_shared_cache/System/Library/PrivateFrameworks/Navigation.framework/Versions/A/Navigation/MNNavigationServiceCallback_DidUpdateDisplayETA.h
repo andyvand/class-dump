@@ -6,31 +6,28 @@
 
 #import <Navigation/MNNavigationServiceCallbackParameters.h>
 
-@class MNBatteryChargeInfo, MNDisplayETAInfo, MNRouteDistanceInfo;
+@class MNBatteryChargeInfo;
 
 @interface MNNavigationServiceCallback_DidUpdateDisplayETA : MNNavigationServiceCallbackParameters
 {
     MNBatteryChargeInfo *_batteryChargeInfo;
-    MNDisplayETAInfo *_displayETAInfo;
-    MNRouteDistanceInfo *_routeDistanceInfo;
 }
 
 + (_Bool);
 - (void);
-- (void);
+- (void)n
+;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)"NSString",C,N,V_invalidCodeMessage;
 - (void)B}16@172;
 
 // Remaining properties
 @property(retain, nonatomic) MNBatteryChargeInfo *batteryChargeInfo; // @synthesize batteryChargeInfo=_batteryChargeInfo;
-@property(retain, nonatomic) MNDisplayETAInfo *displayETAInfo; // @synthesize displayETAInfo=_displayETAInfo;
-@property(retain, nonatomic) MNRouteDistanceInfo *routeDistanceInfo; // @synthesize routeDistanceInfo=_routeDistanceInfo;
 
 @end
 

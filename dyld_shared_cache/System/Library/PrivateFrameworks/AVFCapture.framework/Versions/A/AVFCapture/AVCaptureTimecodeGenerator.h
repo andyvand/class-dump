@@ -4,79 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureTimecodeSource, AVWeakReferencingDelegateStorage, NSArray, NSMutableArray, NSObject, NSOperationQueue;
-@protocol AVCaptureTimecodeGeneratorDelegate, OS_dispatch_queue;
+@class NSArray, NSOperationQueue;
 
 @interface AVCaptureTimecodeGenerator
 {
     NSOperationQueue *_statusNotificationSchedulingQueue;
-    CDStruct_19e5c275 *_timecodeRingBuffer;
-    unsigned long long _timecodeRingBufferHead;
-    _Bool _isTimecodeRingBufferFull;
-    unsigned long long _timecodeRingBufferCapacity;
-    struct os_unfair_lock_s _resourceLock;
-    double _timecodeRingBufferIngestTimeStamp;
-    NSOperationQueue *_ringBufferStatusPollingQueue;
-    long long _synchronizationStatus;
-    unsigned int _midiSourceDiscoveryClient;
-    unsigned int _midiClient;
-    unsigned int _midiInputPort;
-    double _localGMTOffset;
-    struct mach_timebase_info _machTimebase;
-    AVWeakReferencingDelegateStorage *_delegateStorage;
-    NSMutableArray *_mutableSynchronizationSources;
-    AVCaptureTimecodeSource *_currentSource;
-    NSObject<OS_dispatch_queue> *_delegateCallbackQueue;
-    double _synchronizationTimeout;
-    double _timecodeAlignmentOffset;
-    CDStruct_1b6d18a9 _timecodeFrameDuration;
 }
 
++ (id);
 + (id);
-+ (id);
-- (CDStruct_1b6d18a9);
-- (double);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDStruct_a6ced087);
-- (id);
-- (_Bool);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDStruct_19e5c275);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
+- (CDStruct_1b6d18a9)initWithBytes:length:encoding: /* Error: Ran out of types for this method. */;
+- (double)initWithBundleIdentifier:flags:reason:name: /* Error: Ran out of types for this method. */;
+- (double)indexSet;
+- (void)format;
+- (void)finishEncodingWithError: /* Error: Ran out of types for this method. */;
+- (void)deploymentID;
+- (void)deleteCharactersInRange:(double)arg1;
+- (void)decodingFailurePolicy;
+- (CDStruct_a6ced087);
+- (id)<%p> Cannot receive message because connection is not started.;
+- (_Bool)seconds (<%lf> expected);
+- (double)> elapased after <%lf> seconds (<%lf> expected);
+- (void)estinationRef, CGFloat, CGFloat);
+- (void)mageSource cannot be NULL;
+- (void)ource(NSURL *__strong);
+- (void)String *MSVImageUtilitiesCopyUTTypeForImageFormat(MSVImageFormat);
+- (void)346789ABCDEFGHJKLMNPQRTUVWXYabcdefghijkmnpqrtwxyz;
+- (void)tring *getkSymptomDiagnosticReplyReason(void);
+- (void)tomDiagnosticReporter.framework/Contents/MacOS/SymptomDiagnosticReporter;
+- (void)lock_invoke;
+- (void)tionary"8;
+- (void)Radio;
+- (CDStruct_19e5c275)"8@"NSNumber"16^B24;
+- (_Bool)QuickRelay_Oversize;
+- (_Bool)StreamWriter;
+- (void)rics line:(CDStruct_a6ced087)arg1 %@;
+- (void)unesCloud.framework/iTunesCloud;
+- (void)4;
 - (id);
 - (id);
-- (void);
 - (id);
-- (id)dChanged: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)reMedia;
+- (id)_gesturesEnabledChanged: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy) NSArray *availableSources;
-@property(readonly, nonatomic) AVCaptureTimecodeSource *currentSource; // @synthesize currentSource=_currentSource;
-@property(readonly, nonatomic) id <AVCaptureTimecodeGeneratorDelegate> delegate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateCallbackQueue; // @synthesize delegateCallbackQueue=_delegateCallbackQueue;
-@property(nonatomic) double synchronizationTimeout; // @synthesize synchronizationTimeout=_synchronizationTimeout;
-@property(nonatomic) double timecodeAlignmentOffset; // @synthesize timecodeAlignmentOffset=_timecodeAlignmentOffset;
-@property(nonatomic) CDStruct_1b6d18a9 timecodeFrameDuration; // @synthesize timecodeFrameDuration=_timecodeFrameDuration;
 
 @end
 

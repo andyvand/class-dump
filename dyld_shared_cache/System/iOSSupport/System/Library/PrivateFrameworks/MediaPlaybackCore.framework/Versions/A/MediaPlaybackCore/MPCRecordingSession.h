@@ -4,50 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICEnvironmentMonitor, MPCFirstFailureDetector, MPCSamplesRecorder, MPCStatisticsReporter, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface MPCRecordingSession
 {
     _Bool _shouldRecordSamples;
-    int _currentThermalLevel;
-    NSString *_sessionID;
-    MPCFirstFailureDetector *_firstFailureDetector;
-    MPCStatisticsReporter *_statisticsReporter;
-    NSString *_modelID;
-    ICEnvironmentMonitor *_thermalMonitor;
-    MPCSamplesRecorder *_currentRecorder;
 }
 
 - (id);
+- (id)8@16i24@28@36;
+- (void);
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (id);
-- (void)ata;
+- (void)playActivityRecommendationData;
 - (void)payload:â¦ atTime:%{time_t}zd | failed [json bind failure] event.id=%{public}@ error=%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) MPCSamplesRecorder *currentRecorder; // @synthesize currentRecorder=_currentRecorder;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) MPCFirstFailureDetector *firstFailureDetector; // @synthesize firstFailureDetector=_firstFailureDetector;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *modelID; // @synthesize modelID=_modelID;
 @property(readonly, copy, nonatomic) NSString *sessionID; // @synthesize sessionID=_sessionID;
-@property(readonly, nonatomic) MPCStatisticsReporter *statisticsReporter; // @synthesize statisticsReporter=_statisticsReporter;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) ICEnvironmentMonitor *thermalMonitor; // @synthesize thermalMonitor=_thermalMonitor;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface (extension in MediaPlaybackCore):__C.MPCFairPlayPerformanceController._Context__priv_EDB7E1B06AEE0CDEB60990C97F802F18
 {
     id _engines;
-    id notifications;
-    id isAppActive;
-    id hasPrewarmedPastis;
-    id accountPrewarm;
 }
 
 @end

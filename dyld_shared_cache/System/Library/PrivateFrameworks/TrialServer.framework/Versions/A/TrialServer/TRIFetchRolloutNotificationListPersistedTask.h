@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, TRIPBTimestamp, TRIPersistedTaskAttribution;
+@class TRIPBTimestamp;
 
 @interface TRIFetchRolloutNotificationListPersistedTask
 {
 }
 
-+ (id);
++ (id)SignpostSupportUniquePIDFilter;
 
 // Remaining properties
 @property(retain, nonatomic) TRIPBTimestamp *earliestTimestamp; // @dynamic earliestTimestamp;
-@property(nonatomic) _Bool hasEarliestTimestamp; // @dynamic hasEarliestTimestamp;
-@property(nonatomic) _Bool hasRetryCount; // @dynamic hasRetryCount;
-@property(nonatomic) _Bool hasTaskAttribution; // @dynamic hasTaskAttribution;
-@property(retain, nonatomic) NSMutableArray *namespacesArray; // @dynamic namespacesArray;
-@property(readonly, nonatomic) unsigned long long namespacesArray_Count; // @dynamic namespacesArray_Count;
-@property(nonatomic) int retryCount; // @dynamic retryCount;
-@property(retain, nonatomic) TRIPersistedTaskAttribution *taskAttribution; // @dynamic taskAttribution;
 
 @end
 

@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection;
+@class NSObject;
 @protocol CSAttendingServiceDelegate, OS_dispatch_queue;
 
 @interface CSAttendingServiceClient
 {
     id <CSAttendingServiceDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_xpcConnectionQueue;
-    NSXPCConnection *_attendingConnection;
-    id _remoteObjectProxy;
 }
 
 - (void);
-- (void);
+- (void)Z;
 - (void);
 - (void);
 - (void);
@@ -31,25 +28,12 @@
 - (void);
 - (id);
 - (void);
-- (void)State;
+- (void)alarmState;
 - (void)tController];
 - (void)ÎJ;
 - (id)>[ç;
 
 // Remaining properties
-@property(retain, nonatomic) NSXPCConnection *attendingConnection; // @synthesize attendingConnection=_attendingConnection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CSAttendingServiceDelegate> delegate; // @synthesize delegate=_delegate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<CSAttendingServiceDelegate>",?,W,N,V_delegate
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id remoteObjectProxy; // @synthesize remoteObjectProxy=_remoteObjectProxy;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *xpcConnectionQueue; // @synthesize xpcConnectionQueue=_xpcConnectionQueue;
 
 @end

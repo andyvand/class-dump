@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTextInputContext, WBSBlockCoalescer;
-@protocol FavoritesPickerVisibilityController, FavoritesPickerVisibilityManagerDataSource;
+@protocol FavoritesPickerVisibilityController;
 
 __attribute__((visibility("hidden")))
 @interface FavoritesPickerVisibilityManager
 {
     _Bool _observingKeyboardInputSourceOverlayVisibility;
-    NSTextInputContext *_textInputContextBeingObserved;
-    WBSBlockCoalescer *_visibilityUpdateCoalescer;
-    id <FavoritesPickerVisibilityController> _pickerVisibilityController;
-    id <FavoritesPickerVisibilityManagerDataSource> _dataSource;
 }
 
 - (void);
@@ -37,13 +32,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)kMMSEnabledDidChange;
 - (void);
 - (void)\;
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <FavoritesPickerVisibilityManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
 @property(nonatomic) __weak id <FavoritesPickerVisibilityController> pickerVisibilityController; // @synthesize pickerVisibilityController=_pickerVisibilityController;
 
 @end

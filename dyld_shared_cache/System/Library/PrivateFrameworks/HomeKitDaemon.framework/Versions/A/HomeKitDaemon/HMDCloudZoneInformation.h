@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDCloudZoneInformation
 {
     _Bool _fetchFailed;
-    _Bool _firstFetch;
-    _Bool _zoneCreated;
-    _Bool _handlesCloudRecord;
-    NSUUID *_uuid;
-    NSString *_ownerName;
-    long long _schemaVersion;
 }
 
 + (id);
@@ -23,9 +17,9 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (_Bool)ä¥;lþó;
-- (void);
-- (void);
-- (void);
+- (void)transitLineStorage;
+- (void)_blockSharedTrip;
+- (void)t sharing trip with contacts:(_Bool)arg1 %@ via %{public}@;
 - (id);
 - (id);
 - (_Bool);
@@ -50,25 +44,12 @@ __attribute__((visibility("hidden")))
 - (void)ring event with invalid local occupancy settings:(id)arg1 %s, %s;
 - (void)C1-9BADE1CF3845;
 - (id)Value"8@"NSArray"16@"NSError"24;
-- (void)e;
+- (void)submitting_device;
 - (long long)×=;
 - (id)xo¤CB;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=didFetchFailed) _Bool fetchFailed; // @synthesize fetchFailed=_fetchFailed;
-@property(nonatomic, getter=isFirstFetch) _Bool firstFetch; // @synthesize firstFetch=_firstFetch;
-@property(nonatomic, getter=doesHandlesCloudRecord) _Bool handlesCloudRecord; // @synthesize handlesCloudRecord=_handlesCloudRecord;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *ownerName; // @synthesize ownerName=_ownerName;
-@property(nonatomic) long long schemaVersion; // @synthesize schemaVersion=_schemaVersion;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(nonatomic, getter=isZoneCreated) _Bool zoneCreated; // @synthesize zoneCreated=_zoneCreated;
 
 @end
 

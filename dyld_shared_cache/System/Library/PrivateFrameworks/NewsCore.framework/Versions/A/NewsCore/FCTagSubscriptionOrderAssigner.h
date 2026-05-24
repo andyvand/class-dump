@@ -7,7 +7,6 @@
 @interface FCTagSubscriptionOrderAssigner
 {
     long long _initialOrder;
-    long long _orderSpacing;
 }
 
 - (id);

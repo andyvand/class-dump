@@ -4,41 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _CPButtonForFeedback;
+@class NSArray;
 
 @interface _CPResultSectionForFeedback
 {
     _Bool _isInitiallyHidden;
-    int _knownBundleIdentifier;
-    unsigned int _totalAvailableResults;
-    NSArray *_results;
-    NSString *_identifier;
-    double _rankingScore;
-    NSData *_fallbackResultSection;
-    NSString *_bundleIdentifier;
-    _CPButtonForFeedback *_titleButtonItem;
-    unsigned long long _whichBundleid;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (int);
-- (id);
+- (id)a;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)B;
 - (unsigned long long);
 - (id);
-- (void);
+- (void)dialWithRequest: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -53,24 +44,7 @@
 - (unsigned int)/;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSData *fallbackResultSection; // @synthesize fallbackResultSection=_fallbackResultSection;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool isInitiallyHidden; // @synthesize isInitiallyHidden=_isInitiallyHidden;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(nonatomic) int knownBundleIdentifier; // @synthesize knownBundleIdentifier=_knownBundleIdentifier;
-@property(nonatomic) double rankingScore; // @synthesize rankingScore=_rankingScore;
 @property(copy, nonatomic) NSArray *results; // @synthesize results=_results;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _CPButtonForFeedback *titleButtonItem; // @synthesize titleButtonItem=_titleButtonItem;
-@property(nonatomic) unsigned int totalAvailableResults; // @synthesize totalAvailableResults=_totalAvailableResults;
-@property(readonly, nonatomic) unsigned long long whichBundleid; // @synthesize whichBundleid=_whichBundleid;
 
 @end
 

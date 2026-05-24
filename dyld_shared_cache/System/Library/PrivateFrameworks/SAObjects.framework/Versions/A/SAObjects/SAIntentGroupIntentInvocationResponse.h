@@ -6,8 +6,6 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSString;
-
 @interface SAIntentGroupIntentInvocationResponse : SABaseClientBoundCommand
 {
 }
@@ -19,18 +17,15 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)Q;
 - (void);
 - (id);
-- (id);
+- (id)remoteDisplayActivateServer:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic) _Bool backgroundLaunch;
-@property(copy, nonatomic) NSString *launchId;
-@property(copy, nonatomic) NSArray *parameters;
-@property(copy, nonatomic) NSString *utterance;
 
 @end
 

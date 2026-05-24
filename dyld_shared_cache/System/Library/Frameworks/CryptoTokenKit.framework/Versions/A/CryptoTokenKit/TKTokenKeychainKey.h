@@ -6,19 +6,9 @@
 
 #import <CryptoTokenKit/TKTokenKeychainItem.h>
 
-@class NSData, NSString;
-
 @interface TKTokenKeychainKey : TKTokenKeychainItem
 {
     _Bool _canDecrypt;
-    _Bool _canSign;
-    _Bool _canPerformKeyExchange;
-    _Bool _suitableForLogin;
-    NSString *_keyType;
-    NSData *_applicationTag;
-    long long _keySizeInBits;
-    NSData *_publicKeyData;
-    NSData *_publicKeyHash;
 }
 
 + (_Bool);
@@ -50,19 +40,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)tForIdentifier finished %{public}@;
 
 // Remaining properties
-@property(copy) NSData *applicationTag; // @synthesize applicationTag=_applicationTag;
-@property _Bool canDecrypt; // @synthesize canDecrypt=_canDecrypt;
-@property _Bool canPerformKeyExchange; // @synthesize canPerformKeyExchange=_canPerformKeyExchange;
-@property _Bool canSign; // @synthesize canSign=_canSign;
-@property long long keySizeInBits; // @synthesize keySizeInBits=_keySizeInBits;
-@property(copy) NSString *keyType; // @synthesize keyType=_keyType;
 @property(readonly) unsigned long long keyUsage;
-@property(copy) NSData *publicKeyData; // @synthesize publicKeyData=_publicKeyData;
-@property(copy) NSData *publicKeyHash; // @synthesize publicKeyHash=_publicKeyHash;
-@property(getter=isSuitableForLogin) _Bool suitableForLogin; // @synthesize suitableForLogin=_suitableForLogin;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ITMediaLibrary, NSString;
+@class ITMediaLibrary;
 
 __attribute__((visibility("hidden")))
 @interface ITLibraryArtworkDataSource
@@ -14,29 +14,21 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
-- (id);
+- (id)g cursor publisher with options:(id)arg1 %@;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
+- (_Bool)e0604:(id)arg1;
+- (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
-- (id)sConfigurations: /* Error: Ran out of types for this method. */;
+- (id)setSectionKeepLocalStatusConfigurations: /* Error: Ran out of types for this method. */;
 - (void)tEntriesByIdentifier;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *artworkDataSourceIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) ITMediaLibrary *library; // @synthesize library=_library;
-@property(readonly) Class superclass;
 
 @end
 

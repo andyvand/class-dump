@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLOWLINKSchemaFLOWLINKActionParameter, NSData;
+@class FLOWLINKSchemaFLOWLINKActionParameter;
 
 @interface FLOWLINKSchemaFLOWLINKActionParameterConfirmationStarted : SISchemaInstrumentationMessage
 {
     FLOWLINKSchemaFLOWLINKActionParameter *_parameter;
-    _Bool _hasParameter;
 }
 
 - (void);
@@ -20,20 +19,18 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)getUUIDBytes:(id)arg1;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);&;
 - (id)tectorEnded";
-- (id)text;
+- (id)TTSSchemaTTSVoiceContext;
 - (id)$²`²;
 - (void)*%;
 
 // Remaining properties
-@property(nonatomic) _Bool hasParameter; // @synthesize hasParameter=_hasParameter;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) FLOWLINKSchemaFLOWLINKActionParameter *parameter; // @synthesize parameter=_parameter;
 
 @end

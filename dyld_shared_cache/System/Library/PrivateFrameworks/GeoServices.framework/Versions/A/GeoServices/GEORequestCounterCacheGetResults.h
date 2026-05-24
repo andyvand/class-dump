@@ -6,48 +6,31 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class NSDate, NSString;
-
 @interface GEORequestCounterCacheGetResults : GEOXPCRequest
 {
     int _requestKindRaw;
-    unsigned long long _mode;
-    NSString *_appId;
-    NSDate *_startTime;
-    NSDate *_endTime;
 }
 
-+ (Class);
++ (Class)0:8@"CLLocationManager"16@"NSArray"24@"CLBeaconIdentityConstraint"32 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (int);
+- (int)ionRequest"16^@24;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)close;
 - (void);
-- (void);
+- (void)";
 - (id);
-- (void)tCurrentMapRegion:(id)arg1;
+- (void)setCurrentMapRegion:(id)arg1;
 - (void)5"P@;
 - (void)øpþê565;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *appId; // @synthesize appId=_appId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDate *endTime; // @synthesize endTime=_endTime;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long mode; // @synthesize mode=_mode;
-@property(nonatomic) int requestKindRaw; // @synthesize requestKindRaw=_requestKindRaw;
-@property(retain, nonatomic) NSDate *startTime; // @synthesize startTime=_startTime;
-@property(readonly) Class superclass;
 
 @end
 

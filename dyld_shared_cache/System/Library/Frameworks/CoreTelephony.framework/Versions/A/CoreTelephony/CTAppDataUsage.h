@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTDataUsed, NSString;
+@class NSString;
 
 @interface CTAppDataUsage
 {
     NSString *_bundleId;
-    NSString *_displayName;
-    CTDataUsed *_used;
 }
 
-+ (_Bool);
++ (_Bool)nMedium playbackCoordinator:broadcastTransportControlStateDictionary:forItemWithIdentifier:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)ication.Authorization.canSign;
+- (id)};
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) CTDataUsed *used; // @synthesize used=_used;
 
 @end
 

@@ -7,11 +7,6 @@
 @interface MFSendLaterHeaderCollectionViewHelper
 {
     double _width;
-    double _viewScale;
-    double _sendLaterLabelWidth;
-    double _longestDateWidth;
-    double _longestTimeWidth;
-    struct UIEdgeInsets _layoutMargins;
 }
 
 - (_Bool);
@@ -33,13 +28,7 @@
 - (struct UIEdgeInsets);
 
 // Remaining properties
-@property(nonatomic) struct UIEdgeInsets layoutMargins; // @synthesize layoutMargins=_layoutMargins;
-@property(nonatomic) double longestDateWidth; // @synthesize longestDateWidth=_longestDateWidth;
-@property(nonatomic) double longestTimeWidth; // @synthesize longestTimeWidth=_longestTimeWidth;
-@property(nonatomic) double sendLaterLabelWidth; // @synthesize sendLaterLabelWidth=_sendLaterLabelWidth;
-@property(nonatomic) double viewScale; // @synthesize viewScale=_viewScale;
 @property(nonatomic) double width; // @synthesize width=_width;
-@property(readonly, nonatomic) _Bool willContentTruncate;
 
 @end
 

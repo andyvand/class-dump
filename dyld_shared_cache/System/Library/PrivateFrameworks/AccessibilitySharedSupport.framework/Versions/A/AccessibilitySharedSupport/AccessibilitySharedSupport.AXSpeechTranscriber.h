@@ -7,37 +7,6 @@
 @interface AccessibilitySharedSupport.AXSpeechTranscriber
 {
     id logger;
-    id _clientEventStreamContinuation;
-    id _transcriptionState;
-    id _transcriptionSessionTask;
-    id _transcriptionAutoEndpointTimeoutTask;
-    id _enableAutomaticEndpointing;
-    id _assetDownloadProgress;
-    id _analyzerFormat;
-    id _analyzer;
-    id _longFormSpeechTranscriber;
-    id _speechDetector;
-    id _shortFormDictationTranscriber;
-    id _volatileTranscript;
-    id _finalizedTranscript;
-    id _analyzerInputStream;
-    id _analyzerInputContinuation;
-    id _recognizerTask;
-    id _detectionTask;
-    id _audioFileURL;
-    id _audioFile;
-    id _audioBufferMetadataHistory;
-    id _audioBufferRMSSmoother;
-    id _soundFloorRMSHistory;
-    id _lastRecognizedSpeechEventTime;
-    id _isProbablyFinishedSpeaking;
-    id audioEngine;
-    id _converter;
-    id _audioEngineBufferContinuation;
-    id _fftMagnitudes;
-    id bufferSize;
-    id _fftSetup;
-    id _$observationRegistrar;
 }
 
 @end

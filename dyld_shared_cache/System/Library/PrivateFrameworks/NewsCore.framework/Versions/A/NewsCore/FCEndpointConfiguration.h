@@ -9,27 +9,6 @@
 @interface FCEndpointConfiguration
 {
     NSString *_clientAPIBaseURLString;
-    NSString *_notificationsBaseURLString;
-    NSString *_staticAssetBaseURLString;
-    NSString *_remoteDataSourceBaseURLString;
-    NSString *_newsletterAPIBaseURLString;
-    NSString *_appAnalyticsBaseURLString;
-    NSString *_fairPlayBaseURLString;
-    NSString *_searchAPIBaseURLString;
-    NSString *_puzzlesArchiveAPIBaseURLString;
-    NSString *_authTokenAPIBaseURLString;
-    NSString *_sportsDataVisualizationAPIBaseURLString;
-    NSString *_fineGrainedNewsletterSubscriptionBaseURLString;
-    NSString *_appAnalyticsNotificationReceiptBaseURLString;
-    NSString *_appAnalyticsSportsEventsBaseURLString;
-    NSString *_appAnalyticsAppHealthBaseURLString;
-    NSString *_appAnalyticsAppHeartbeatBaseURLString;
-    NSString *_ckOrderFeedBaseURLString;
-    NSString *_ckMultiFetchBaseURLString;
-    NSString *_ckRecordFetchBaseURLString;
-    NSString *_ckEdgeCachedOrderFeedBaseURLString;
-    NSString *_ckEdgeCachedMultiFetchBaseURLString;
-    NSString *_smarterFetchBaseURLString;
 }
 
 - (id);
@@ -38,51 +17,30 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)nhanceCompositionEditController:]_block_invoke /* Error: Ran out of types for this method. */;
 - (unsigned long long);
+- (id)nsInArray:(id)arg1 ];
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)_appleRatings;
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)aryTopicsConfig;
+- (id)articleRecirculationSecondaryTopicsConfig;
 - (id)affinityGroupScoringConfig;
 - (void)i1Qh70Ng46F5_b6I41E/Library/Caches/com.apple.xbs/TemporaryDirectory.foAUbA/Sources/FeldsparServices/feldsparcore/Classes/FCMultiResolutionImage.m;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *appAnalyticsAppHealthBaseURLString; // @synthesize appAnalyticsAppHealthBaseURLString=_appAnalyticsAppHealthBaseURLString;
-@property(readonly, nonatomic) NSString *appAnalyticsAppHeartbeatBaseURLString; // @synthesize appAnalyticsAppHeartbeatBaseURLString=_appAnalyticsAppHeartbeatBaseURLString;
-@property(readonly, nonatomic) NSString *appAnalyticsBaseURLString; // @synthesize appAnalyticsBaseURLString=_appAnalyticsBaseURLString;
-@property(readonly, nonatomic) NSString *appAnalyticsNotificationReceiptBaseURLString; // @synthesize appAnalyticsNotificationReceiptBaseURLString=_appAnalyticsNotificationReceiptBaseURLString;
-@property(readonly, nonatomic) NSString *appAnalyticsSportsEventsBaseURLString; // @synthesize appAnalyticsSportsEventsBaseURLString=_appAnalyticsSportsEventsBaseURLString;
-@property(readonly, nonatomic) NSString *authTokenAPIBaseURLString; // @synthesize authTokenAPIBaseURLString=_authTokenAPIBaseURLString;
-@property(readonly, nonatomic) NSString *ckEdgeCachedMultiFetchBaseURLString; // @synthesize ckEdgeCachedMultiFetchBaseURLString=_ckEdgeCachedMultiFetchBaseURLString;
-@property(readonly, nonatomic) NSString *ckEdgeCachedOrderFeedBaseURLString; // @synthesize ckEdgeCachedOrderFeedBaseURLString=_ckEdgeCachedOrderFeedBaseURLString;
-@property(readonly, nonatomic) NSString *ckMultiFetchBaseURLString; // @synthesize ckMultiFetchBaseURLString=_ckMultiFetchBaseURLString;
-@property(readonly, nonatomic) NSString *ckOrderFeedBaseURLString; // @synthesize ckOrderFeedBaseURLString=_ckOrderFeedBaseURLString;
-@property(readonly, nonatomic) NSString *ckRecordFetchBaseURLString; // @synthesize ckRecordFetchBaseURLString=_ckRecordFetchBaseURLString;
 @property(readonly, nonatomic) NSString *clientAPIBaseURLString; // @synthesize clientAPIBaseURLString=_clientAPIBaseURLString;
-@property(readonly, nonatomic) NSString *fairPlayBaseURLString; // @synthesize fairPlayBaseURLString=_fairPlayBaseURLString;
-@property(readonly, nonatomic) NSString *fineGrainedNewsletterSubscriptionBaseURLString; // @synthesize fineGrainedNewsletterSubscriptionBaseURLString=_fineGrainedNewsletterSubscriptionBaseURLString;
-@property(readonly, nonatomic) NSString *newsletterAPIBaseURLString; // @synthesize newsletterAPIBaseURLString=_newsletterAPIBaseURLString;
-@property(readonly, nonatomic) NSString *notificationsBaseURLString; // @synthesize notificationsBaseURLString=_notificationsBaseURLString;
-@property(readonly, nonatomic) NSString *puzzlesArchiveAPIBaseURLString; // @synthesize puzzlesArchiveAPIBaseURLString=_puzzlesArchiveAPIBaseURLString;
-@property(readonly, nonatomic) NSString *remoteDataSourceBaseURLString; // @synthesize remoteDataSourceBaseURLString=_remoteDataSourceBaseURLString;
-@property(readonly, nonatomic) NSString *searchAPIBaseURLString; // @synthesize searchAPIBaseURLString=_searchAPIBaseURLString;
-@property(readonly, nonatomic) NSString *smarterFetchBaseURLString; // @synthesize smarterFetchBaseURLString=_smarterFetchBaseURLString;
-@property(readonly, nonatomic) NSString *sportsDataVisualizationAPIBaseURLString; // @synthesize sportsDataVisualizationAPIBaseURLString=_sportsDataVisualizationAPIBaseURLString;
-@property(readonly, nonatomic) NSString *staticAssetBaseURLString; // @synthesize staticAssetBaseURLString=_staticAssetBaseURLString;
 
 @end
 

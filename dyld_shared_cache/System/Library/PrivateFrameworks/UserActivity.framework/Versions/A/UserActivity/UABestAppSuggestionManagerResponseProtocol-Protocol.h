@@ -5,5 +5,8 @@
 //
 
 @protocol UABestAppSuggestionManagerResponseProtocol
+
+@optional
+- (void);
 @end
 

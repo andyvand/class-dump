@@ -6,19 +6,11 @@
 
 @protocol MTLBufferSPI
 
+@optional
+- (unsigned long long)_;
+- (_Bool);
+
 // Remaining properties
 @property(readonly) struct __IOSurface *iosurface;
-@property(nonatomic) unsigned long long parentGPUAddress;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N
-
-@property(nonatomic) unsigned long long parentGPUSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,N
-
-@property(readonly, nonatomic) unsigned long long resourceIndex;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
 @end
 

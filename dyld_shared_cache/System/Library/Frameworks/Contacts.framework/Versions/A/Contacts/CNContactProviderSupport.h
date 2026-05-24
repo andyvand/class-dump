@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactProviderSupportSession, CNContactStore, CNUnfairLock, CNXPCContactsSupport, NSString;
+@class CNContactStore, NSString;
 
 @interface CNContactProviderSupport
 {
     NSString *_domainIdentifier;
-    CNContactStore *_providerStore;
-    CNXPCContactsSupport *_contactsSupport;
-    CNUnfairLock *_lock;
-    CNContactProviderSupportSession *_currentSession;
 }
 
 + (_Bool);
@@ -22,7 +18,7 @@
 + (id);
 + (long long);
 + (_Bool);
-+ (id)letionHandler: /* Error: Ran out of types for this method. */;
++ (id)requestProviderDomainCommand:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -33,7 +29,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool){;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -55,13 +51,6 @@
 - (id)*;
 
 // Remaining properties
-@property(readonly, nonatomic) CNContactStore *contactStore;
-@property(retain, nonatomic) CNXPCContactsSupport *contactsSupport; // @synthesize contactsSupport=_contactsSupport;
-@property(retain, nonatomic) CNContactProviderSupportSession *currentSession; // @synthesize currentSession=_currentSession;
-@property(readonly, copy, nonatomic) NSString *domainContainerIdentifier;
-@property(readonly, nonatomic, getter=isDomainEnabled) _Bool domainEnabled;
-@property(readonly, copy, nonatomic) NSString *domainIdentifier; // @synthesize domainIdentifier=_domainIdentifier;
-@property(readonly) CNUnfairLock *lock; // @synthesize lock=_lock;
 @property(retain, nonatomic) CNContactStore *providerStore; // @synthesize providerStore=_providerStore;
 
 @end

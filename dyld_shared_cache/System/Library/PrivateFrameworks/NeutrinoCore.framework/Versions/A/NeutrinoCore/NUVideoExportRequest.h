@@ -6,23 +6,14 @@
 
 #import <NeutrinoCore/NUExportRequest.h>
 
-@class NSArray, NSDictionary, NSProgress, NUColorSpace;
+@class NSProgress;
 
 @interface NUVideoExportRequest : NUExportRequest
 {
     _Bool _bypassOutputSettingsIfNoComposition;
-    _Bool _requireHardwareEncoder;
-    _Bool _applyOrientationAsMetadata;
-    _Bool _includeCinematicVideoTracks;
-    _Bool _includeSemanticStyleTracks;
-    _Bool _computeDigest;
-    NSDictionary *_outputSettings;
-    NUColorSpace *_colorSpace;
-    NSArray *_metadata;
-    NSProgress *_progress;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -44,24 +35,15 @@
 - (void);
 - (void);
 - (id);
+- (void)";
 - (void);
-- (void);
-- (id);
-- (void);
+- (id);
+- (void)@;
 - (void)ñáÐ1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool applyOrientationAsMetadata; // @synthesize applyOrientationAsMetadata=_applyOrientationAsMetadata;
-@property(nonatomic) _Bool bypassOutputSettingsIfNoComposition; // @synthesize bypassOutputSettingsIfNoComposition=_bypassOutputSettingsIfNoComposition;
-@property(retain, nonatomic) NUColorSpace *colorSpace; // @synthesize colorSpace=_colorSpace;
-@property(nonatomic) _Bool computeDigest; // @synthesize computeDigest=_computeDigest;
-@property(nonatomic) _Bool includeCinematicVideoTracks; // @synthesize includeCinematicVideoTracks=_includeCinematicVideoTracks;
-@property(nonatomic) _Bool includeSemanticStyleTracks; // @synthesize includeSemanticStyleTracks=_includeSemanticStyleTracks;
-@property(copy) NSArray *metadata; // @synthesize metadata=_metadata;
-@property(copy) NSDictionary *outputSettings; // @synthesize outputSettings=_outputSettings;
 @property(retain) NSProgress *progress; // @synthesize progress=_progress;
-@property(nonatomic) _Bool requireHardwareEncoder; // @synthesize requireHardwareEncoder=_requireHardwareEncoder;
 
 @end
 

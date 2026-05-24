@@ -6,12 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CEMDeviceNameDeclaration : CEMConfigurationBase
 {
     NSString *_payloadName;
-    NSNumber *_payloadAllowDeviceNameModification;
 }
 
 + (id);
@@ -26,24 +25,16 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
-- (id);
+- (_Bool)Calibration;
+- (id)2y_7W2y_;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *payloadAllowDeviceNameModification; // @synthesize payloadAllowDeviceNameModification=_payloadAllowDeviceNameModification;
 @property(copy, nonatomic) NSString *payloadName; // @synthesize payloadName=_payloadName;
-@property(readonly) Class superclass;
 
 @end
 

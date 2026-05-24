@@ -10,21 +10,17 @@ __attribute__((visibility("hidden")))
 @interface _UISplitViewControllerColumnContents
 {
     UIViewController *_viewController;
-    UINavigationController *_navigationController;
-    UIViewController *_navigationControllerWrapper;
 }
 
 - (id);
 - (id);
 - (id);
-- (id)fier;
+- (id)calendarIdentifier;
 - (id)}þÿfÐîÿ;
 - (void)333333Ã?;
 
 // Remaining properties
 @property(readonly, nonatomic) UINavigationController *navigationController; // @synthesize navigationController=_navigationController;
-@property(readonly, nonatomic) UIViewController *navigationControllerWrapper; // @synthesize navigationControllerWrapper=_navigationControllerWrapper;
-@property(readonly, nonatomic) UIViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

@@ -11,18 +11,16 @@
 @interface PHAssetLocalDateProperties : PHAssetPropertySet
 {
     NSNumber *_inferredTimeZoneOffset;
-    long long _creationDateSource;
 }
 
-+ (id);
-+ (id)roupInclusiveAssets;
++ (id);
++ (id)SocialGroupInclusiveAssets;
 - (id);
 - (long long);
-- (void)ion;
+- (void)_shouldNotifyOnUploadCompletion;
 - (id)°$È	;
 
 // Remaining properties
-@property(readonly, nonatomic) long long creationDateSource; // @synthesize creationDateSource=_creationDateSource;
 @property(readonly, nonatomic) NSNumber *inferredTimeZoneOffset; // @synthesize inferredTimeZoneOffset=_inferredTimeZoneOffset;
 
 @end

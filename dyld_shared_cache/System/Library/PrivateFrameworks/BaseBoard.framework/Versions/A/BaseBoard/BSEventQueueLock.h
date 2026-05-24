@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSEventQueue, NSString;
+@class NSString;
 
 @interface BSEventQueueLock
 {
     _Bool _relinquished;
-    NSString *_reason;
-    BSEventQueue *_eventQueue;
 }
 
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void)%{public}@;

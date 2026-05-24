@@ -7,12 +7,6 @@
 @interface AppStoreKit.SearchTextPresenter
 {
     id inputSource;
-    id snapshotUpdateSubscription;
-    id onApplyTermExpansion;
-    id onHintsTermChange;
-    id lastSnapshot;
-    id textExpansionState;
-    id ghostHintMetricsTracker;
 }
 
 @end

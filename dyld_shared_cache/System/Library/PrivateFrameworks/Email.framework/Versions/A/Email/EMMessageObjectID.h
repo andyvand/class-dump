@@ -6,12 +6,11 @@
 
 #import <Email/EMObjectID.h>
 
-@class EMMailboxScope, EMMessageCollectionItemID;
+@class EMMessageCollectionItemID;
 
 @interface EMMessageObjectID : EMObjectID
 {
     EMMessageCollectionItemID *_collectionItemID;
-    EMMailboxScope *_mailboxScope;
 }
 
 + (id);
@@ -22,9 +21,9 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)startDailyRefreshActivityForWrapper:(id)arg1;
 - (void);
 - (id);
 - (id);
@@ -33,8 +32,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) EMMessageCollectionItemID *collectionItemID; // @synthesize collectionItemID=_collectionItemID;
-@property(readonly, nonatomic) long long globalMessageID;
-@property(readonly, nonatomic) EMMailboxScope *mailboxScope; // @synthesize mailboxScope=_mailboxScope;
 
 @end
 

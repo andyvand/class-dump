@@ -9,30 +9,21 @@
 @interface ASDSubscriptionEntitlements
 {
     ASDServiceBroker *_serviceBroker;
-    int _newsCacheUpdatedNotificationToken;
-    int _appStoreCacheUpdatedNotificationToken;
-    int _appStoreArcadeSubscriptionBagUpdatedNotificationToken;
-    int _activityCacheUpdatedNotificationToken;
-    int _musicCacheUpdatedNotificationToken;
-    int _tvCacheUpdatedNotificationToken;
-    int _iCloudCacheUpdatedNotificationToken;
-    int _podcastCacheUpdatedNotificationToken;
-    int _hwBundleCacheUpdatedNotificationToken;
 }
 
 + (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void)(̻YF;
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)B;
+- (void),V_directionsRequestFeedback;
 - (void);
 - (void);
 - (void);

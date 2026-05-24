@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface TSXTranslationClock
 {
     CDStruct_95f7bff7 _timeInfo[8];
-    unsigned int _validIndex;
-    struct os_unfair_lock_s _updateLock;
-    struct mach_timebase_info _timebaseInfo;
-    int _lockState;
-    unsigned long long _clockIdentifier;
-    double _hostRateRatio;
-    NSString *_clockName;
-    NSObject<OS_dispatch_queue> *_propertyUpdateQueue;
 }
 
 - (void);
@@ -45,18 +34,14 @@
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (id);
-- (unsigned long long);
+- (id)P;
+- (unsigned long long)11VoiceLoaderP;
 - (int);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long clockIdentifier; // @synthesize clockIdentifier=_clockIdentifier;
-@property(readonly, copy, nonatomic) NSString *clockName; // @synthesize clockName=_clockName;
-@property(nonatomic) double hostRateRatio; // @synthesize hostRateRatio=_hostRateRatio;
 @property(nonatomic) int lockState; // @synthesize lockState=_lockState;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *propertyUpdateQueue; // @synthesize propertyUpdateQueue=_propertyUpdateQueue;
 
 @end
 

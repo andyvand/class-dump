@@ -12,7 +12,7 @@
 {
 }
 
-- (id);
+- (id)or poster, using recent as target Custom Photo;
 - (id)ÿ;
 - (_Bool)ÿZ@L;
 

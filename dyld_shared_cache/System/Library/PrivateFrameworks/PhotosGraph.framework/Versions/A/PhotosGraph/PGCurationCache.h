@@ -13,18 +13,19 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)G
+;
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)account.;
+- (void)QR;
 - (void);
 - (id)dPlaceRelationship;
-- (id);
+- (id)PGGraphPersonActivityMeaningEdge;
 - (id);
 
 @end

@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXPTranslationObject, NSArray, NSMutableDictionary, NSString;
+@class AXPTranslationObject, NSMutableDictionary;
 
 @interface AXPMacPlatformElement
 {
     NSMutableDictionary *_selectiveCache;
-    AXPTranslationObject *translation;
-    NSArray *_cachedCustomActions;
-    NSArray *_cachedCustomRotors;
-    NSMutableDictionary *_cachedRotorResult;
-    CDUnknownBlockType _nsPostEventTestingCallback;
 }
 
 + (id);
-+ (id);
++ (id)all.apple-software;
 + (id);
 + (void);
 - (void);
@@ -86,7 +81,7 @@
 - (id);
 - (id);
 - (id);
-- (struct CGPoint);
+- (struct CGPoint);
 - (id);
 - (id);
 - (_Bool);
@@ -94,29 +89,18 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)SODebugMenuItem;
 - (struct CGRect);
-- (id);
+- (id)5;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)ServiceCKConfigUpdate_Failed;
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *cachedCustomActions; // @synthesize cachedCustomActions=_cachedCustomActions;
-@property(retain, nonatomic) NSArray *cachedCustomRotors; // @synthesize cachedCustomRotors=_cachedCustomRotors;
-@property(retain, nonatomic) NSMutableDictionary *cachedRotorResult; // @synthesize cachedRotorResult=_cachedRotorResult;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) CDUnknownBlockType nsPostEventTestingCallback; // @synthesize nsPostEventTestingCallback=_nsPostEventTestingCallback;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) AXPTranslationObject *translation; // @synthesize translation;
 
 @end

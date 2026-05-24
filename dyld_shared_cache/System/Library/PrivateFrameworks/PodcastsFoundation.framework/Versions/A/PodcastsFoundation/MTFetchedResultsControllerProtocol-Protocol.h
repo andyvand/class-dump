@@ -8,13 +8,12 @@
 @protocol NSFetchedResultsControllerDelegate;
 
 @protocol MTFetchedResultsControllerProtocol
+- (void)q)';
+- (NSArray *);
+- (id <NSFetchedResultsControllerDelegate>);
 - (NSManagedObjectContext *)ÿÿÿÿÿP;
 
 // Remaining properties
-@property(nonatomic) __weak id <NSFetchedResultsControllerDelegate> delegate;
 @property(readonly, nonatomic) NSFetchRequest *fetchRequest;
-@property(readonly, nonatomic) NSArray *fetchedObjects;
-@property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property(copy, nonatomic) NSArray *propertyKeys;
 @end
 

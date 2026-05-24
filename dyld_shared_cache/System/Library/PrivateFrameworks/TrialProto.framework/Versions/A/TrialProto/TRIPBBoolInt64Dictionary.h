@@ -9,17 +9,15 @@
 @interface TRIPBBoolInt64Dictionary
 {
     TRIPBMessage *_autocreator;
-    long long _values[2];
-    _Bool _valueSet[2];
 }
 
 - (void);
 - (id);
 - (_Bool);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (unsigned long long);
@@ -32,7 +30,7 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)WifiSensing;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count;

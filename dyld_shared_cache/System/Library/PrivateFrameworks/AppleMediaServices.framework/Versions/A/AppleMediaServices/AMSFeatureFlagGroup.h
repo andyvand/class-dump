@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSMutableArray, NSString;
 
 @interface AMSFeatureFlagGroup
 {
     NSString *_name;
-    NSMutableArray *_mutableFlags;
 }
 
 + (_Bool);
@@ -18,20 +17,20 @@
 + (_Bool);
 + (void);
 + (id);
-+ (id);
++ (id)aIO.dylib;
 + (id);
 + (id);
 + (id);
 + (id)zation failed:(id)arg1 %{public}@;
 + (id)F¢Ü'à©¥|Îö~µ£.WÕ²µûs,ª'þÅ%	¬['³XQ¦ÇíjA¥âiK<x§üÅo`Õùr²¸	Ä¹ýç£u¼¾éUA0þº"'(7V ²²Ow,þk0P×=Zr{¨;QJÀºÜb0F{ËÀ;
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)getMetadataForEmojiImageWithFileURL:(id)arg1 senderContext:(id)arg2 maxStrikeCount:withCompletionBlock: /* Error: Ran out of types for this method. */;
+- (id)fileTransfer:(long long)arg1 acceptedWithPath:autoRename:overwrite:options:source: /* Error: Ran out of types for this method. */;
+- (id)@;
 - (id);
 - (id);
 - (id);
@@ -42,7 +41,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)4;
 - (id);
 - (id);
 - (id);
@@ -59,9 +58,7 @@ W à /* Error: Ran out of types for this method. */;
 - (_Bool)ÖghV£8ä·£]è #;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *flags;
 @property(retain, nonatomic) NSMutableArray *mutableFlags; // @synthesize mutableFlags=_mutableFlags;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end
 

@@ -7,16 +7,6 @@
 @interface PromotedContent.NativeAdTrackingInstance
 {
     id instanceId;
-    id eventProvider;
-    id metrics;
-    id frequencyStorageType;
-    id frequencyCapIdentifier;
-    id onDeviceTrackingMetadata;
-    id $__lazy_storage_$_leftAdDestinationTracker;
-    id $__lazy_storage_$_visibilityTracker;
-    id hasPlaced;
-    id hasDownloaded;
-    id hasClicked;
 }
 
 @end

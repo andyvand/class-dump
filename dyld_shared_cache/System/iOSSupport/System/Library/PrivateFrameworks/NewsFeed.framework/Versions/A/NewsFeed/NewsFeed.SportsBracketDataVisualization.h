@@ -7,16 +7,6 @@
 @interface NewsFeed.SportsBracketDataVisualization
 {
     id identifier;
-    id competitorTags;
-    id umcCanonicalId;
-    id leagueTag;
-    id championshipTag;
-    id embedUrl;
-    id urlDataSources;
-    id events;
-    id metadata;
-    id config;
-    id configuredEmbedUrl;
 }
 
 @end

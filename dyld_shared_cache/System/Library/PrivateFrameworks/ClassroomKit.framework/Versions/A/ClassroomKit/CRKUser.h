@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSPersonNameComponents, NSString;
+@class NSString;
 
 @interface CRKUser
 {
     _Bool _useMeCardIfAvailable;
-    NSString *_userIdentifier;
-    NSString *_displayName;
-    NSString *_givenName;
-    NSString *_familyName;
-    NSString *_phoneticGivenName;
-    NSString *_phoneticFamilyName;
-    NSString *_imageIdentifier;
-    NSString *_imageURL;
-    NSString *_userSource;
-    long long _role;
-    NSData *_userImageData;
 }
 
 + (id);
@@ -40,47 +29,33 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)PLProcessMonitorAgent;
+- (id)$;
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)I;
+- (id)_makeBundleQueryStringForField:withBundleIDs: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
+- (void)v;
+- (id)N,V_batchCreationDate;
 - (id);
-- (id);
-- (void);
+- (void)iK;
 - (id);
 - (long long);
 - (void);
 - (id)Ð!BùqSÐ1Â0@ù
 × ;
 - (void);
-- (id)ificateValidWithError: /* Error: Ran out of types for this method. */;
+- (id)isCertificateValidWithError: /* Error: Ran out of types for this method. */;
 - (id)ÐU`WXPZ [H[X_`;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy, nonatomic) NSString *familyName; // @synthesize familyName=_familyName;
-@property(copy, nonatomic) NSString *givenName; // @synthesize givenName=_givenName;
-@property(copy, nonatomic) NSString *imageIdentifier; // @synthesize imageIdentifier=_imageIdentifier;
-@property(copy, nonatomic) NSString *imageURL; // @synthesize imageURL=_imageURL;
-@property(readonly, nonatomic) _Bool isMeCardUser;
-@property(readonly, nonatomic) _Bool isValid;
-@property(readonly, copy, nonatomic) NSPersonNameComponents *nameComponents;
-@property(copy, nonatomic) NSString *phoneticFamilyName; // @synthesize phoneticFamilyName=_phoneticFamilyName;
-@property(copy, nonatomic) NSString *phoneticGivenName; // @synthesize phoneticGivenName=_phoneticGivenName;
-@property(nonatomic) long long role; // @synthesize role=_role;
-@property(nonatomic, getter=shouldUseMeCardIfAvailable) _Bool useMeCardIfAvailable; // @synthesize useMeCardIfAvailable=_useMeCardIfAvailable;
 @property(copy, nonatomic) NSString *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
-@property(copy, nonatomic) NSData *userImageData; // @synthesize userImageData=_userImageData;
-@property(copy, nonatomic) NSString *userSource; // @synthesize userSource=_userSource;
 
 @end
 

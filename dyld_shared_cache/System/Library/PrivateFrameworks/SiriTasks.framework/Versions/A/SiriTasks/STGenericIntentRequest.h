@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface STGenericIntentRequest
 {
     NSString *_appIdentifier;
-    NSString *_intentString;
-    NSString *_utterance;
-    NSDictionary *_info;
-    _Bool __launchToForeground;
 }
 
 + (_Bool);
@@ -27,7 +23,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 

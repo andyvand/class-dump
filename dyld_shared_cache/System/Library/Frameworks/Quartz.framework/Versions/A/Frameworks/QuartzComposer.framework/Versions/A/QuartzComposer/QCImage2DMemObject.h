@@ -6,18 +6,11 @@
 
 #import <QuartzComposer/QCMemObject.h>
 
-@class QCImageBuffer, QCPixelFormat;
+@class QCImageBuffer;
 
 @interface QCImage2DMemObject : QCMemObject
 {
     QCImageBuffer *_backing;
-    QCPixelFormat *_format;
-    unsigned long long _width;
-    unsigned long long _height;
-    CDUnknownFunctionPointerType _backingCallback;
-    void *_backingInfo;
-    void *_hostPtr;
-    void *_unused3[4];
 }
 
 - (id);
@@ -59,10 +52,6 @@
 ;
 
 // Remaining properties
-@property(readonly) QCImageBuffer *backing; // @synthesize backing=_backing;
-@property(readonly) QCImageBuffer *imageBuffer;
-@property(readonly) QCPixelFormat *pixelFormat; // @synthesize pixelFormat=_format;
-@property(readonly) unsigned long long pixelsHigh; // @synthesize pixelsHigh=_height;
 @property(readonly) unsigned long long pixelsWide; // @synthesize pixelsWide=_width;
 
 @end

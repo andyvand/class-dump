@@ -9,27 +9,23 @@
 @interface _UIStatusBarDataIntegerEntry : _UIStatusBarDataEntry
 {
     _Bool _displayRawValue;
-    long long _rawValue;
-    long long _displayValue;
 }
 
 + (_Bool)otSafari(void);
 - (void);
-- (_Bool);
+- (_Bool)ansfers.;
 - (void);
-- (void);
+- (void)MN dwell_time_seconds INTEGER NOT NULL DEFAULT 0;
 - (long long);
 - (id);
 - (unsigned long long);
 - (long long);
 - (_Bool)actDateLabelDelegate>";
-- (void)tViewSet:(id)arg1 withInterfaceOrientation: /* Error: Ran out of types for this method. */;
-- (id)eakMode:alignment:lineSpacing: /* Error: Ran out of types for this method. */;
-- (id)allowsPaintSelectionForLoupeInteraction:(struct _NSZone *)arg1;
+- (void)sizeOfInputViewForInputViewSet:(id)arg1 withInterfaceOrientation: /* Error: Ran out of types for this method. */;
+- (id)drawInRect:withFont:lineBreakMode:alignment:lineSpacing: /* Error: Ran out of types for this method. */;
+- (id)_allowsPaintSelectionForLoupeInteraction:(struct _NSZone *)arg1;
 
 // Remaining properties
-@property(nonatomic) _Bool displayRawValue; // @synthesize displayRawValue=_displayRawValue;
-@property(nonatomic) long long displayValue; // @synthesize displayValue=_displayValue;
 @property(nonatomic) long long rawValue; // @synthesize rawValue=_rawValue;
 
 @end

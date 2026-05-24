@@ -4,30 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOTileKeyMap;
-
 @interface GEOTileKeyList
 {
     void *_head;
-    void *_tail;
-    GEOTileKeyMap *_map;
-    unsigned long long _count;
-    unsigned long long _maxCount;
-    unsigned long long _mutationsCount;
 }
 
 + (id);
 + (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id);;
 - (id);
 - (void);
+- (id);
+- (id);
+- (id)ionary"8@?0;
+- (id);
+- (void)setVisibleMapRect:(id)arg1 edgePadding:(unsigned long long)arg2 animated:(unsigned long long)arg3;
 - (id);
 - (unsigned long long);
 - (struct _GEOTileKey *);
@@ -36,7 +29,7 @@
 - (_Bool)	'Ð!lDùq¹*°1Â0@ù
 × ;
 - (id)ingNlgAvailable"b1"has_isEndRouteTermination"b1"has_isEvSampleTrip"b1"has_isInParkingMode"b1"has_isParkedCarTermination"b1"has_isSiriEngaged"b1"has_isSuggestToFindmyTriggered"b1"has_isSuggestToWalkingTriggered"b1"has_isTransitedToFindmy"b1"has_isTransitedToWalking"b1"has_isTransitionToFindmyTermination"b1"has_isTransitionToWalkingTermination"b1"has_isVlfImprovementUsed"b1"has_preArrival"b1"read_unknownFields"b1"read_analyticMetadata"b1"read_arrivalLocation"b1"read_directionsFeedbacks"b1"read_durationInNavigationModes"b1"read_evChargingMode"b1"read_evConsumptionModel"b1"read_finalLocation"b1"read_parkingDetectionLocation"b1"read_tripOrigin"b1"read_waypoints"b1"wrote_anyField"b1};
-- (struct _GEOTileKey *)ARD;
+- (struct _GEOTileKey *)ADDRESS_PLACECARD;
 - (id)iedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}8@"GEOTileData"16d24;
 - (unsigned long long)JsonString() const;
 - (id);

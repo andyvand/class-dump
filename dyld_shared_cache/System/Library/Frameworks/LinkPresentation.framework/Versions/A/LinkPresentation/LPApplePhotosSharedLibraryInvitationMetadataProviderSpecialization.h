@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (unsigned long long);
++ (unsigned long long)__objc_superrefs__DATA_CONST;
 - (void);
 - (void);
 

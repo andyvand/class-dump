@@ -9,11 +9,6 @@
 @interface NFStateMachineState
 {
     NSString *_name;
-    CDUnknownBlockType _canTryBlock;
-    CDUnknownBlockType _willExitBlock;
-    CDUnknownBlockType _willEnterBlock;
-    CDUnknownBlockType _didExitBlock;
-    CDUnknownBlockType _didEnterBlock;
 }
 
 - (CDUnknownBlockType);
@@ -21,10 +16,10 @@
 - (CDUnknownBlockType);
 - (void);
 - (void);
+- (void)�h;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -45,12 +40,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType canTryBlock; // @synthesize canTryBlock=_canTryBlock;
-@property(copy, nonatomic) CDUnknownBlockType didEnterBlock; // @synthesize didEnterBlock=_didEnterBlock;
-@property(copy, nonatomic) CDUnknownBlockType didExitBlock; // @synthesize didExitBlock=_didExitBlock;
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) CDUnknownBlockType willEnterBlock; // @synthesize willEnterBlock=_willEnterBlock;
-@property(copy, nonatomic) CDUnknownBlockType willExitBlock; // @synthesize willExitBlock=_willExitBlock;
 
 @end
 

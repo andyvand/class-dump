@@ -6,72 +6,51 @@
 
 #import <ClassKit/CLSDataObserver.h>
 
-@class CLSSearchSpecification, NSDate, NSMutableArray, NSString;
-
 @interface CLSQuery : CLSDataObserver
 {
     struct os_unfair_lock_s _lock;
-    _Bool _executing;
-    _Bool _shouldAddResultsToDataStore;
-    _Bool _shouldFaultResults;
-    NSMutableArray *results;
-    long long _fetchLimit;
-    CLSSearchSpecification *_searchSpec;
-    CDUnknownBlockType _completion;
-    NSDate *_startDate;
 }
 
-+ (id);
-+ (id);
++ (id)D;
++ (id);
 + (id);
 + (id);
 - (_Bool);
 - (_Bool);
+- (void)ibswiftCoreFoundation.dylib;
+- (id);
+- (id)alid arguments - numMappings=%d maxAlloweMappings=%d
+;
+- (id)ServicesProgramCancelAllRequests;
+- (id)iver->ProgramProcessRequest failed status=0x%x
+;
+- (id)dEvents->numWaitEvents:(Class)arg1 %u,  programRequest->numSignalEvents:(id)arg2 %u
+;
+- (oneway void)processStatsBuffer;
+- (oneway void), ANERequestReceiverRequest *);
+- (oneway void)ANEServicesProgramProcessRequestDirect;
+- (void)/firmware/ane/ane3.bin;
+- (void)are/firmware/ane/ane2.bin;
+- (void)omputeDebugInfoParser.cpp;
+- (void)dma_write_active_cycle;
+- (void);
+- (id)5;
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)`B;
+- (id)gd_;
 - (CDUnknownBlockType);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool)edOrganizationEmailDomain;
+- (_Bool)_requiredOrganizationEmailDomain;
 - (void)C,N,V_relativePathWithinContainer;
 - (long long)RL:'%{public}@', error:'%{public}@'. Trying to use the file extension to get UTType. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completion; // @synthesize completion=_completion;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(getter=isExecuting) _Bool executing; // @synthesize executing=_executing;
-@property(nonatomic) long long fetchLimit; // @synthesize fetchLimit=_fetchLimit;
-@property(readonly) unsigned long long hash;
-@property(retain) NSMutableArray *results; // @synthesize results;
-@property(readonly, nonatomic) CLSSearchSpecification *searchSpec; // @synthesize searchSpec=_searchSpec;
-@property(nonatomic) _Bool shouldAddResultsToDataStore; // @synthesize shouldAddResultsToDataStore=_shouldAddResultsToDataStore;
-@property(nonatomic) _Bool shouldFaultResults; // @synthesize shouldFaultResults=_shouldFaultResults;
-@property(retain) NSDate *startDate; // @synthesize startDate=_startDate;
-@property(readonly) Class superclass;
 
 @end
 

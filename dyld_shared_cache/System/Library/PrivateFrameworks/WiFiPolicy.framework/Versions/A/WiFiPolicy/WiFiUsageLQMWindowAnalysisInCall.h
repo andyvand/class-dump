@@ -11,19 +11,17 @@
 @interface WiFiUsageLQMWindowAnalysisInCall : WiFiUsageLQMWindowAnalysis
 {
     NSString *_status;
-    double _duration;
 }
 
 - (id);
 - (id);
-- (double);
+- (double): /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double duration; // @synthesize duration=_duration;
 @property(retain, nonatomic) NSString *status; // @synthesize status=_status;
 
 @end

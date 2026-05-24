@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber, NSString, RFTextProperty, RFVisualProperty, SFCommandReference;
+@class RFTextProperty;
 
 @interface RFAttribution
 {
     RFTextProperty *_title;
-    RFTextProperty *_subtitle;
-    RFVisualProperty *_image;
-    NSNumber *_index;
-    NSString *_localized_index;
-    NSString *_localized_separator;
-    NSString *_locale;
-    SFCommandReference *_commandReference;
-    RFTextProperty *_secondary_title;
 }
 
 + (_Bool);
@@ -28,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)initWithStorePlatformDictionary:(id)arg1;
 - (void);
 - (unsigned long long);
 - (id);
@@ -37,10 +29,10 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
+- (void)o;
+- (id)setVaAnalysisTimestamp:(id)arg1;
+- (void)requestDiskSpaceAvailabilityOfSize:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (id)zed as ;
 - (id);
 - (id);
 - (id);
@@ -49,23 +41,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SFCommandReference *commandReference; // @synthesize commandReference=_commandReference;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) RFVisualProperty *image; // @synthesize image=_image;
-@property(copy, nonatomic) NSNumber *index; // @synthesize index=_index;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *locale; // @synthesize locale=_locale;
-@property(copy, nonatomic) NSString *localized_index; // @synthesize localized_index=_localized_index;
-@property(copy, nonatomic) NSString *localized_separator; // @synthesize localized_separator=_localized_separator;
-@property(retain, nonatomic) RFTextProperty *secondary_title; // @synthesize secondary_title=_secondary_title;
-@property(retain, nonatomic) RFTextProperty *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) RFTextProperty *title; // @synthesize title=_title;
 
 @end

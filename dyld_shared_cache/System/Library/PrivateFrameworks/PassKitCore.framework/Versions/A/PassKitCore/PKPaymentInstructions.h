@@ -4,26 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary;
+@class NSDictionary;
 
 @interface PKPaymentInstructions
 {
     long long _version;
-    NSData *_instructionsData;
-    NSData *_signatureData;
-    NSData *_fortifiedInstructionsData;
-    NSData *_fortifiedSignatureData;
-    NSDictionary *_instructionsDictionary;
 }
 
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allImageKeys;
-@property(retain, nonatomic) NSData *fortifiedInstructionsData; // @synthesize fortifiedInstructionsData=_fortifiedInstructionsData;
-@property(retain, nonatomic) NSData *fortifiedSignatureData; // @synthesize fortifiedSignatureData=_fortifiedSignatureData;
-@property(retain, nonatomic) NSData *instructionsData; // @synthesize instructionsData=_instructionsData;
 @property(retain, nonatomic) NSDictionary *instructionsDictionary; // @synthesize instructionsDictionary=_instructionsDictionary;
-@property(retain, nonatomic) NSData *signatureData; // @synthesize signatureData=_signatureData;
-@property(readonly, nonatomic) long long version; // @synthesize version=_version;
 @end
 

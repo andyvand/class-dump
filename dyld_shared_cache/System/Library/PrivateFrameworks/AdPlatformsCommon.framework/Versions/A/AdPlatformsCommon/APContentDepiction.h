@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSUUID;
+@class NSUUID;
 
 @interface APContentDepiction
 {
     NSUUID *_identifier;
-    unsigned long long _placement;
-    unsigned long long _adjacency;
-    NSString *_language;
-    NSString *_locale;
-    NSArray *_searchTerms;
-    NSArray *_keywords;
-    NSArray *_categories;
 }
 
-+ (_Bool);
-- (void);
++ (_Bool)ECDSASignature;
+- (void);
 - (id);
 - (id);
 - (id);
@@ -29,27 +22,20 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)=;
 - (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id));
 - (void);
 - (void);
-- (void);
+- (void)erActivity",&,N,V_userActivity;
 - (unsigned long long)lÚ\ÛÜ´Ü8ÝáÈálâ;
-- (void)piredDueToAge;
+- (void)expiredDueToAge;
 
 // Remaining properties
-@property unsigned long long adjacency; // @synthesize adjacency=_adjacency;
-@property(retain) NSArray *categories; // @synthesize categories=_categories;
 @property(retain) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(retain) NSArray *keywords; // @synthesize keywords=_keywords;
-@property(retain) NSString *language; // @synthesize language=_language;
-@property(retain) NSString *locale; // @synthesize locale=_locale;
-@property unsigned long long placement; // @synthesize placement=_placement;
-@property(retain) NSArray *searchTerms; // @synthesize searchTerms=_searchTerms;
 
 @end
 

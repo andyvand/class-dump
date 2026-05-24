@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBActionItem, _SFPBURL;
+@class NSData, NSString, _SFPBURL;
 
 @protocol _SFPBTrack
+- (void)C3DAnimationSetFadeInDuration;
+- (id);
+- (NSString *);
+- (NSData *)ect;
+- (_SFPBURL *)combinedFetchRequestForQueries: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *duration;
-@property(nonatomic) _Bool highlighted;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *number;
-@property(retain, nonatomic) _SFPBActionItem *playAction;
-@property(retain, nonatomic) _SFPBURL *preview;
 @property(copy, nonatomic) NSString *title;
 @end
 

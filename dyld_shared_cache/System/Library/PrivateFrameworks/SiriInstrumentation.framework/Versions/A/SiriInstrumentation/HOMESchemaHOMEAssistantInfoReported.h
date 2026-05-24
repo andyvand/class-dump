@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface HOMESchemaHOMEAssistantInfoReported : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_hashedHomeId;
-    _Bool _hasHashedHomeId;
 }
 
 - (void);
@@ -25,7 +24,7 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)_FMFDAgentDidLaunch: /* Error: Ran out of types for this method. */;
 - (id)1Â0@ù
 × ;
 - (id),C,N,V_locale;
@@ -33,9 +32,7 @@
 - (void))ÿ#;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHashedHomeId; // @synthesize hasHashedHomeId=_hasHashedHomeId;
 @property(retain, nonatomic) SISchemaUUID *hashedHomeId; // @synthesize hashedHomeId=_hashedHomeId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

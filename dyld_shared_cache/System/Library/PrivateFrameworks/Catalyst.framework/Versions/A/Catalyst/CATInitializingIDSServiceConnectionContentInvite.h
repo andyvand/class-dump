@@ -17,12 +17,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (long long);
-- (void);
-- (id)ns;
+- (void)a;
+- (id)_handlesNotifications;
 
 // Remaining properties
-@property(readonly, nonatomic) long long contentType;
-@property(readonly, copy, nonatomic) NSDictionary *dictionaryValue;
 @property(readonly, copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end

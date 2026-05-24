@@ -4,35 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSVSegmentedCodingPackage, NSArray, NSDictionary, NSError;
+@class MSVSegmentedCodingPackage;
 
 @interface MSVSegmentedDecoder
 {
     MSVSegmentedCodingPackage *_package;
-    Class _rootClass;
-    NSArray *_subcoders;
-    NSDictionary *_userInfo;
-    NSError *_decodeError;
 }
 
 + (id);
-+ (id);
++ (id)
+J,
+
+*;
 + (id);
 + (id);
 - (id);
 - (void);
 - (void);
-- (Class);
-- (id);
+- (Class)Z;
+- (id)_;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (long long);
-- (id);
+- (id)`;
 - (id);
 - (void);
 - (id);
@@ -41,8 +40,8 @@
 - (void);
 - (void);
 - (_Bool);
-- (int);
-- (float);
+- (int)i;
+- (float);
 - (void);
 - (long long);
 - (_Bool);
@@ -53,11 +52,7 @@
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSError *decodeError; // @synthesize decodeError=_decodeError;
 @property(retain, nonatomic) MSVSegmentedCodingPackage *package; // @synthesize package=_package;
-@property(retain, nonatomic) Class rootClass; // @synthesize rootClass=_rootClass;
-@property(retain, nonatomic) NSArray *subcoders; // @synthesize subcoders=_subcoders;
-@property(copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CUIKUpdatedEventProperties
 {
     id updatedEventProperties;
@@ -13,20 +11,19 @@
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)ewController;
+- (void)!;
 - (id);
-- (void);
-- (id);
-- (void)izedString;
+- (void)localizedCapitalizedString;
 - (void)it.userActivity.date;
 - (void)ø;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *title;
 @property(nonatomic, readonly) _Bool titleChanged;
 
 @end

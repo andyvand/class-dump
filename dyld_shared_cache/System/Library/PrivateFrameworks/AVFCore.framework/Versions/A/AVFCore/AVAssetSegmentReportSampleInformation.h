@@ -7,9 +7,6 @@
 @interface AVAssetSegmentReportSampleInformation
 {
     CDStruct_1b6d18a9 _presentationTimeStamp;
-    long long _offset;
-    long long _length;
-    _Bool _isSyncSample;
 }
 
 - (_Bool);
@@ -20,9 +17,6 @@
 - (long long)ntentIdentifier != nil;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isSyncSample; // @synthesize isSyncSample=_isSyncSample;
-@property(readonly, nonatomic) long long length; // @synthesize length=_length;
-@property(readonly, nonatomic) long long offset; // @synthesize offset=_offset;
 @property(readonly, nonatomic) CDStruct_1b6d18a9 presentationTimeStamp; // @synthesize presentationTimeStamp=_presentationTimeStamp;
 
 @end

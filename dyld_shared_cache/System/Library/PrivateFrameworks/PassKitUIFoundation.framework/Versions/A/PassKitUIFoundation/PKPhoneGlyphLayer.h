@@ -4,32 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAFilter, CALayer, NSString;
+@class CALayer;
 
 @interface PKPhoneGlyphLayer
 {
     CALayer *_QRCodeLayer;
-    CAFilter *_QRCodeColorFilter;
-    CALayer *_highlightLayer;
-    struct CGPoint _highlightOffscreenPosition;
-    struct CGPoint _highlightOnscreenPosition;
-    NSString *_phoneWiggleAnimationKey;
-    struct CGColor *_primaryColor;
-    _Bool _showQRCode;
 }
 
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)"24@0:8@"NSString"16 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void)?;
 - (void);
 - (void);
 

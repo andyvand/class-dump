@@ -15,7 +15,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic, retain) id participantIDsOrder; // @dynamic participantIDsOrder;
 @property(nonatomic, retain) id participantIDsToSelectionRegisters; // @dynamic participantIDsToSelectionRegisters;
 
 @end

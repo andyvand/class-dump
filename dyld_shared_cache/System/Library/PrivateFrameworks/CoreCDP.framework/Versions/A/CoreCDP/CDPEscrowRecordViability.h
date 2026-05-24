@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CDPEscrowRecordViability
 {
     _Bool _hasRecords;
-    _Bool _isForCurrentDevice;
-    _Bool _hasMachineId;
-    _Bool _recordIsValid;
-    NSString *_recordId;
-    NSString *_buildVersion;
-    unsigned long long _recordViability;
-    unsigned long long _localSecretViability;
-    unsigned long long _tlkRecoveryViability;
-    unsigned long long _pcsRecoveryViability;
-    unsigned long long _sosViability;
 }
 
 + (_Bool);
@@ -36,26 +24,15 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void)qAb;
+- (id):(struct _NSZone *)arg1 %{public, errno}d;
 - (id);
 - (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *buildVersion; // @synthesize buildVersion=_buildVersion;
 @property(nonatomic) _Bool hasMachineId; // @synthesize hasMachineId=_hasMachineId;
-@property(readonly, nonatomic) _Bool hasRecords; // @synthesize hasRecords=_hasRecords;
-@property(readonly, nonatomic) _Bool isForCurrentDevice; // @synthesize isForCurrentDevice=_isForCurrentDevice;
-@property(readonly, nonatomic) unsigned long long localSecretViability; // @synthesize localSecretViability=_localSecretViability;
-@property(readonly, nonatomic) unsigned long long localViability;
-@property(readonly, nonatomic) unsigned long long pcsRecoveryViability; // @synthesize pcsRecoveryViability=_pcsRecoveryViability;
-@property(readonly, nonatomic) NSString *recordId; // @synthesize recordId=_recordId;
-@property(readonly, nonatomic) _Bool recordIsValid; // @synthesize recordIsValid=_recordIsValid;
-@property(readonly, nonatomic) unsigned long long recordViability; // @synthesize recordViability=_recordViability;
-@property(readonly, nonatomic) unsigned long long sosViability; // @synthesize sosViability=_sosViability;
-@property(readonly, nonatomic) unsigned long long tlkRecoveryViability; // @synthesize tlkRecoveryViability=_tlkRecoveryViability;
 
 @end
 

@@ -6,14 +6,11 @@
 
 #import <SearchUI/SearchUICardSectionView.h>
 
-@class SFHeroTitleCardSection, SearchUIButtonItemStackView, SearchUIImageView, SearchUILabel, TLKStackView;
+@class SFHeroTitleCardSection, SearchUILabel;
 
 @interface SearchUIHeroTitleCardSectionView : SearchUICardSectionView
 {
     SearchUILabel *_titleLabel;
-    SearchUIImageView *_titleImageView;
-    SearchUILabel *_subtitleLabel;
-    SearchUIButtonItemStackView *_buttonItemStackView;
 }
 
 + (_Bool);
@@ -21,7 +18,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)plies to robots if recipients is nil;
 - (id);
 - (void);
 - (void);
@@ -32,12 +29,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) SearchUIButtonItemStackView *buttonItemStackView; // @synthesize buttonItemStackView=_buttonItemStackView;
-@property(retain, nonatomic) TLKStackView *contentView; // @dynamic contentView;
 @property(retain, nonatomic) SFHeroTitleCardSection *section; // @dynamic section;
-@property(retain, nonatomic) SearchUILabel *subtitleLabel; // @synthesize subtitleLabel=_subtitleLabel;
-@property(retain, nonatomic) SearchUIImageView *titleImageView; // @synthesize titleImageView=_titleImageView;
-@property(retain, nonatomic) SearchUILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end
 

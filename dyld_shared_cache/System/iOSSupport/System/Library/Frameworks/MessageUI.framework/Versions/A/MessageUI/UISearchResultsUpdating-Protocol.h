@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UISearchController;
+@protocol UISearchSuggestion;
+
 @protocol UISearchResultsUpdating
+- (void)"16@"NSArray"24q32@"PKAttachmentView"40;
+
+@optional
+- (void)handleIMDMessageRecordDeleteRecoverableMessagesOlderThanDays_IPCActionWithXPCConnection:(UISearchController *)arg1 requestMessage:(id <UISearchSuggestion>)arg2 responseMessage:completionHandler: /* Error: Ran out of types for this method. */;
 @end
 

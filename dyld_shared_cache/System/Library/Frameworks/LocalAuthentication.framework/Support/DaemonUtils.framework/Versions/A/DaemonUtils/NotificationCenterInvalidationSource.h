@@ -14,9 +14,9 @@
 }
 
 - (id);
+- (void)chListButtonItem"16@0:(id)arg1 8;
 - (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (id);
 

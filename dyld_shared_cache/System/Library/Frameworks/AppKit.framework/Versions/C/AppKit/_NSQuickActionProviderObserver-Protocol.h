@@ -5,5 +5,6 @@
 //
 
 @protocol _NSQuickActionProviderObserver
+- (void)led Img4DecodePerformTrustEvaluation with error %d;
 @end
 

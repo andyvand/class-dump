@@ -12,16 +12,16 @@
 }
 
 + (id);
-+ (_Bool);
-- (id);
++ (_Bool)=;
+- (id)6@24@?<v@?B>32;
 - (id);
 - (unsigned int);
-- (id);
+- (id)24CPMLUserDefinedAlgorithm;
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)WrapVersion;
 - (_Bool);
 - (id)eds to be between 0 and 1;
 

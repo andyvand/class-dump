@@ -6,33 +6,28 @@
 
 #import <ContactsFoundation/CNCoreDelegateInfo.h>
 
-@class NSNumber, NSPersonNameComponents, NSString;
+@class NSNumber;
 
 @interface CNCoreMutableDelegateInfo : CNCoreDelegateInfo
 {
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void)RJ;
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)initWithMachServiceName:options: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id)mponentTokens;
+- (id)_cn_nameComponentTokens;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *altDSID;
-@property(copy, nonatomic) NSString *appleID;
 @property(copy, nonatomic) NSNumber *dsid;
-@property(nonatomic) _Bool isMe;
-@property(copy, nonatomic) NSPersonNameComponents *nameComponents;
-@property(copy, nonatomic) NSString *principalPath;
 
 @end
 

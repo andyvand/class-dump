@@ -4,28 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDeviceToDeviceShareInvitationToken, HMDAccountHandle, NSArray, NSDate, NSNumber, NSString;
-@protocol MKFHome, MKFUserAccessCode;
+@class NSArray, NSNumber, NSString, _MKFGuest, _MKFUser;
+@protocol MKFCharacteristicBulletinRegistration, MKFHome, MKFUserActivityStatus;
 
 @protocol HMDHomeMember
+- (void)P;
+- (NSNumber *);
+- (id <MKFUserActivityStatus>);
+- (id <MKFCharacteristicBulletinRegistration>);
+- (_Bool);
+- (NSString *)pdateTimestamp"b1};
+- (id <MKFUserActivityStatus>)clientIdentifier;
+- (id <MKFUserActivityStatus>)clearTrafficIncidentBulletinWithAlertID:(unsigned long long)arg1;
+- (id <MKFCharacteristicBulletinRegistration>)ready subscribed to trip %@;
+- (_MKFUser *)MSPSharedTripSharingIdentity"8@"NSArray"16@"NSDictionary"24@"NSArray"32Q40;
+- (_MKFGuest *)solation;
+- (NSArray *)[%@];
+- (void)ion:(id <MKFUserActivityStatus>)arg1 ];
 - (id <MKFHome>)!á°!pAùÑ1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) id <MKFUserAccessCode> accessCode;
-@property(retain, nonatomic) HMDAccountHandle *accountHandle;
-@property(readonly, retain, nonatomic) NSArray *allowedAccessories;
-@property(readonly, retain, nonatomic) id <MKFHome> home;
-@property(copy, nonatomic) NSString *idsMergeIdentifier;
 @property(readonly) _Bool isOwner;
-@property(readonly) _Bool isOwnerOrAdmin;
-@property(readonly) _Bool isResidentSyncParticipant;
-@property(readonly) _Bool isRestrictedGuest;
-@property(copy, nonatomic) NSDate *lastLocalActivityTimeStamp;
-@property(copy, nonatomic) NSNumber *presenceAuthorizationStatus;
-@property(copy, nonatomic) NSNumber *presenceRegionStatus;
-@property(copy, nonatomic) NSDate *presenceUpdateTimeStamp;
-@property(retain, nonatomic) CKDeviceToDeviceShareInvitationToken *reverseShareToken;
-@property(copy, nonatomic) NSNumber *uniqueIDForAccessories;
 @end
 

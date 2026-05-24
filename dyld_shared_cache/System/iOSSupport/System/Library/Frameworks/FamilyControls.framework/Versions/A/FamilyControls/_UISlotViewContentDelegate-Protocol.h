@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol UISSlotAnyContent;
+
 @protocol _UISlotViewContentDelegate
+- (id <UISSlotAnyContent>);
 @end
 

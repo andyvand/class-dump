@@ -11,8 +11,8 @@
     long long _style;
 }
 
-+ (id);
-- (_Bool);
++ (id)_firstResumeTime;
+- (_Bool)Jik8_;
 - (struct CGRect);
 - (long long);
 - (id)êÿÍRhêÿÍRhêÿíRhÚÿ;

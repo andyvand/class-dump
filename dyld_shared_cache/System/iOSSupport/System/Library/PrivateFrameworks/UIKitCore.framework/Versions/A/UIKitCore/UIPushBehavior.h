@@ -6,61 +6,49 @@
 
 #import <UIKitCore/UIDynamicBehavior.h>
 
-@class NSArray, NSMutableDictionary;
+@class NSArray;
 
 @interface UIPushBehavior : UIDynamicBehavior
 {
     double _angle;
-    double _magnitude;
-    _Bool _active;
-    long long _mode;
-    struct CGVector _forceVector;
-    double _timeInterval;
-    NSMutableDictionary *_targetPoints;
-    int _i;
 }
 
 + (_Bool);
-- (double);
-- (double);
-- (struct CGPoint);
-- (struct UIOffset);
+- (double)ipt:messageBalloonPayloadAttachmentDictionary:inlineAttachments:attributionInfoArray:nicknameDictionary:availabilityVerificationRecipientChannelIDPrefix:availabilityVerificationRecipientEncryptionValidationToken:availabilityOffGridRecipientSubscriptionValidationToken:availabilityOffGridRecipientEncryptionValidationToken:idsService:messageContext:isFromTrustedSender:isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
+- (double)er:participants:groupName:groupID:isFromMe:isLastFromStorage:isFromStorage:batchContext:hideLockScreenNotification:wantsCheckpointing:needsDeliveryReceipt:messageBalloonPayloadAttachmentDictionary:inlineAttachments:attributionInfoArray:nicknameDictionary:availabilityVerificationRecipientChannelIDPrefix:availabilityVerificationRecipientEncryptionValidationToken:availabilityOffGridRecipientSubscriptionValidationToken:availabilityOffGridRecipientEncryptionValidationToken:idsService:messageContext:isFromTrustedSender:isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)IMDeliveryReceiptProcessingPipelineComponent;
+- (struct UIOffset)TrustKit;
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
 - (struct CGVector);
-- (id);
+- (id)ending priority messages if needed.;
 - (void);
 - (void);
-- (double);
+- (double)e for %{private}@ -- must be either a custom label, or localizations not available;
 - (void);
 - (void);
-- (long long);
-- (id);
+- (long long)n.dylib;
+- (id);
 - (id);
 - (id)0@ù
 × ;
 - (void)!TFùñdÐ1Â0@ù
 × ;
 - (void)b1"imageOrientation"b3"isHorizontallyFlippedImageGeneratedByFlippingRegularImage"b1"cached"b1"hasPattern"b1"isCIImage"b1"renderingMode"b2"suppressesAccessibilityHairlineThickening"b1"hasBaseline"b1"isBaselineExplicit"b1"areContentInsetsExplicit"b1"areAlignmentRectInsetsExplicit"b1"flipsForRightToLeftLayoutDirection"b1"hasCapHeight"b1"hasCommandBuffer"b1"hasLocalRenditionCache"b1};
-- (void)tusBarHideAnimationParameters;
-- (id)ddenDefaultLayoutMargins: /* Error: Ran out of types for this method. */;
+- (void)preferredStatusBarHideAnimationParameters;
+- (id)_setOverriddenDefaultLayoutMargins: /* Error: Ran out of types for this method. */;
 - (double)stFactor;
 - (void);
 - (void)l1ÿ`[Õ¬Fd;
 - (_Bool)ÜÓøÚh;
 
 // Remaining properties
-@property(nonatomic) _Bool active;
-@property(nonatomic) double angle;
 @property(readonly, copy, nonatomic) NSArray *items;
-@property(nonatomic) double magnitude;
-@property(readonly, nonatomic) long long mode;
-@property(nonatomic) struct CGVector pushDirection;
 
 @end
 

@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject;
-@protocol OS_dispatch_queue;
+@class NSArray;
 
 @interface IMDistributingProxy
 {
     _Bool _asynchronous;
-    NSArray *_targets;
-    NSObject<OS_dispatch_queue> *_targetQueue;
-    CDUnknownBlockType _filterBlock;
 }
 
-- (id);
+- (id)@;
 - (id);
 - (CDUnknownBlockType);
 - (_Bool);
@@ -23,13 +19,10 @@
 - (id);
 - (id);
 - (id)act",R,N;
-- (void);
+- (void)width;
 - (_Bool)·Øÿîíeø;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAsynchronous) _Bool asynchronous; // @synthesize asynchronous=_asynchronous;
-@property(readonly, copy, nonatomic) CDUnknownBlockType filterBlock; // @synthesize filterBlock=_filterBlock;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *targetQueue; // @synthesize targetQueue=_targetQueue;
 @property(readonly, copy, nonatomic) NSArray *targets; // @synthesize targets=_targets;
 
 @end

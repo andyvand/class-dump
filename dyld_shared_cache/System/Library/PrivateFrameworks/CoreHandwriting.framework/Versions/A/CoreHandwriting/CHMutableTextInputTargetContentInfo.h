@@ -6,7 +6,7 @@
 
 #import <CoreHandwriting/CHTextInputTargetContentInfo.h>
 
-@class CHTextInputTarget, NSIndexSet;
+@class CHTextInputTarget;
 
 @interface CHMutableTextInputTargetContentInfo : CHTextInputTargetContentInfo
 {
@@ -18,12 +18,12 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)JpH 8.;
 - (void);
 - (struct _NSRange);
 - (id);
@@ -33,20 +33,6 @@
 - (void)ý/1;
 
 // Remaining properties
-@property(nonatomic) struct _NSRange activePreviewRange; // @dynamic activePreviewRange;
-@property(nonatomic) int autoCapitalizationMode; // @dynamic autoCapitalizationMode;
-@property(nonatomic) int autoCorrectionMode; // @dynamic autoCorrectionMode;
-@property(nonatomic) int baseWritingDirection; // @dynamic baseWritingDirection;
-@property(nonatomic) _Bool containsCommittedStrokes; // @dynamic containsCommittedStrokes;
-@property(nonatomic) int contentType; // @dynamic contentType;
-@property(nonatomic) _Bool isCursorStrong; // @dynamic isCursorStrong;
-@property(nonatomic) _Bool isSingleLine; // @dynamic isSingleLine;
-@property(nonatomic) long long lastCharacterLevelPosition; // @dynamic lastCharacterLevelPosition;
-@property(copy, nonatomic) NSIndexSet *protectedCharacterIndexes; // @dynamic protectedCharacterIndexes;
-@property(nonatomic) struct _NSRange selectedTextRange; // @dynamic selectedTextRange;
-@property(nonatomic) struct _NSRange strokeCoveredTextRange; // @dynamic strokeCoveredTextRange;
-@property(nonatomic) _Bool supportsAutoLineBreaks; // @dynamic supportsAutoLineBreaks;
-@property(nonatomic) long long textContentLength; // @dynamic textContentLength;
 @property(retain, nonatomic) CHTextInputTarget *textInputTarget; // @dynamic textInputTarget;
 
 @end

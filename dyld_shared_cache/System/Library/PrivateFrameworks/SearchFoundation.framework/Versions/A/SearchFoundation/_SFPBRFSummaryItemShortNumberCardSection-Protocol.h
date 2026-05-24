@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, _SFPBRFTextProperty, _SFPBRFVisualProperty;
+@class NSData, _SFPBRFTextProperty;
 
 @protocol _SFPBRFSummaryItemShortNumberCardSection
+- (_SFPBRFTextProperty *);
+- (void);
+- (_SFPBRFTextProperty *)tring"16;
+- (void)P;
+- (NSData *)t<OS_dispatch_semaphore>",R,N,V_semaphore;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *number;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_1;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_2;
-@property(copy, nonatomic) NSArray *text_3s;
-@property(copy, nonatomic) NSArray *text_4s;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_5;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_6;
-@property(retain, nonatomic) _SFPBRFVisualProperty *thumbnail;
 @end
 

@@ -4,36 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObject, NSString, PGCurationManager, PGGraph, PHPhotoLibrary;
-@protocol OS_os_log;
+@class NSArray;
 
 @interface PGBirthdayContextualRule
 {
     NSArray *_availablePersons;
-    NSMutableDictionary *_personNodeByLocalIdentifier;
-    PGGraph *_graph;
-    PHPhotoLibrary *_photoLibrary;
-    PGCurationManager *_curationManager;
-    NSObject<OS_os_log> *_loggingConnection;
 }
 
 - (id);
-- (void);
+- (void)T;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)rAssetSuggesterFilteringContextMinimumWallpaperScore;
+- (void)PGSinglePersonWallpaperAssetSuggesterFilteringContextMinimumWallpaperScore;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIStyleEffectConfiguration, NSColor, NSString;
+@class CUIStyleEffectConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface NSCoreUIStyleEffectContentStyle
@@ -16,32 +16,23 @@ __attribute__((visibility("hidden")))
 - (struct CGImage *);
 - (id);
 - (int);
+- (id)accept_didFinishCollectingMetrics;
 - (id);
-- (id);
+- (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
+- (void)e data to read. Path is NULL.;
+- (id)from TransportConnection in addInputHandler;
+- (unsigned long long);
 - (int);
 - (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (id)alidationDeferralDepth;
+- (unsigned long long)NSt3__120__match_char_collateIcNS_12regex_traitsIcEEEE;
+- (id)systemFontOfSize:weight:design: /* Error: Ran out of types for this method. */;
+- (_Bool)hh8;
+- (id)_invalidationDeferralDepth;
 - (void)gà¹µB;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSColor *equivalentForegroundColorForTemplateImage;
-@property(readonly) unsigned long long hash;
-@property(readonly) int outputBlendModeForTemplateContent;
 @property(readonly) CUIStyleEffectConfiguration *styleEffectConfiguration; // @synthesize styleEffectConfiguration=_styleEffectConfig;
-@property(readonly) Class superclass;
 
 @end
 

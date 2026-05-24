@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, SFButtonItemAppearance;
+@class SFButtonItemAppearance;
 
 @protocol SFButtonItem
 - (void)ù±¦ð1Â0@ù
@@ -12,8 +12,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) SFButtonItemAppearance *buttonAppearance;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned long long uniqueId;
 @end
 

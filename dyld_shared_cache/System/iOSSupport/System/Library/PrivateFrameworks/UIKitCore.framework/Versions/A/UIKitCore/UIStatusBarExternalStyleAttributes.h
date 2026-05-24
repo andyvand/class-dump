@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 - (double)1Â0@ù
 × ;
-- (long long)InParentUIWindow;
+- (long long)sourceRectInParentUIWindow;
 - (id)elegate>",W,N,V_delegate;
 - (long long);
 - (Class)@' relativeRangeBefore:(%lu, %lu) withNumAlternatives:%ld /* Error: Ran out of types for this method. */;

@@ -9,7 +9,7 @@
 }
 
 + (id);
-+ (id);
++ (id)hwtrace_live_recording_init_from_session;
 + (id);
 
 @end

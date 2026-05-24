@@ -12,15 +12,13 @@ __attribute__((visibility("hidden")))
 @interface AVFigAssetWriterCaptionTrack : AVFigAssetWriterTrack
 {
     AVCaptionGrouper *_captionGrouper;
-    CDStruct_e83c9415 _previousCaptionTimeRange;
-    CDStruct_1b6d18a9 _nextGroupStartTime;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)(W;
+- (_Bool)J;
 - (_Bool);
 - (void);
 - (int);

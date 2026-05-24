@@ -15,7 +15,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)dictionaryWithObjectsAndKeys:(struct _NSZone *)arg1;
 
 // Remaining properties
 @property(nonatomic) long long supportRequirement; // @synthesize supportRequirement=_supportRequirement;

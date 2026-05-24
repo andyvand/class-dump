@@ -6,14 +6,11 @@
 
 #import <TemplateKit/TLKView.h>
 
-@class NSArray, TLKContentsContainerView, TLKImage, TLKImageView;
+@class TLKImage, TLKImageView;
 
 @interface TLKMediaInfoView : TLKView
 {
     TLKImage *_image;
-    NSArray *_contents;
-    TLKImageView *_imageView;
-    TLKContentsContainerView *_contentsContainer;
 }
 
 - (id);
@@ -32,9 +29,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *contents; // @synthesize contents=_contents;
-@property(retain, nonatomic) TLKContentsContainerView *contentsContainer; // @synthesize contentsContainer=_contentsContainer;
-@property(retain, nonatomic) TLKImage *image; // @synthesize image=_image;
 @property(retain, nonatomic) TLKImageView *imageView; // @synthesize imageView=_imageView;
 
 @end

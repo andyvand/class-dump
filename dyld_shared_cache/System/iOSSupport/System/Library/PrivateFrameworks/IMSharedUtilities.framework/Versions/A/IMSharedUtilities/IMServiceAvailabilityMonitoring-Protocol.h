@@ -9,8 +9,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isMMSEnabled;
-@property(readonly, nonatomic) _Bool isRCSEnabled;
 @property(readonly, nonatomic) _Bool isiMessageEnabled;
 @end
 

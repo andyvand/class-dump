@@ -12,13 +12,12 @@ __attribute__((visibility("hidden")))
 @interface CNCardStaticIdentityGroup : CNCardGroup
 {
     _Bool _didChange;
-    NSArray *_staticIdentities;
 }
 
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)TH;
 - (id);
 - (id);
 - (void);
@@ -33,7 +32,6 @@ __attribute__((visibility("hidden")))
 - (void)lerPresentationDelegate>",W,N,V_presentationDelegate;
 
 // Remaining properties
-@property(nonatomic) _Bool didChange; // @synthesize didChange=_didChange;
 @property(retain, nonatomic) NSArray *staticIdentities; // @synthesize staticIdentities=_staticIdentities;
 
 @end

@@ -10,13 +10,12 @@ __attribute__((visibility("hidden")))
 @interface _GCNintendoFusedJoyConHapticDriver
 {
     id <_GCDriverClientInterface> _leftDriver;
-    id <_GCDriverClientInterface> _rightDriver;
 }
 
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id)@"GCKeyboardInput",R,N,V_keyboardInput;
 

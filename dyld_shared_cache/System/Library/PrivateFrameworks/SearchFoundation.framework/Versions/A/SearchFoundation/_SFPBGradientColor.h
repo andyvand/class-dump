@@ -4,44 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString;
+@class NSArray;
 
 @interface _SFPBGradientColor
 {
     int _gradientType;
-    NSArray *_colors;
 }
 
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)setLastKnownSubscriptionStatusBaseCacheKey:(int)arg1;
 - (int);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)P;
 - (_Bool);
+- (id)mapSavedAssetType:(id)arg1 unknown:photoBooth:photoStream:camera:cloudShared:cameraConnectionKit:cloudPhotoLibrary:wallpaper_UNUSED:momentShared:placeholder:referenced:alternate:guest:companionSynced:recovered:legacyImport:collectionShare:unrecognized: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)tion: /* Error: Ran out of types for this method. */;
+- (void)setRowCardSection: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *colors; // @synthesize colors=_colors;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int gradientType; // @synthesize gradientType=_gradientType;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

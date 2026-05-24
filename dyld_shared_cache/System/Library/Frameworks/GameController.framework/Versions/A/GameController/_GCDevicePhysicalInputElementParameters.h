@@ -6,21 +6,18 @@
 
 #import <GameController/_GCDevicePhysicalInputViewParameters.h>
 
-@class GCDevicePhysicalInputSymbolDescription, NSSet, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInputElementParameters : _GCDevicePhysicalInputViewParameters
 {
     NSString *_identifier;
-    NSSet *_aliases;
-    NSString *_localizedName;
-    GCDevicePhysicalInputSymbolDescription *_symbol;
 }
 
 + (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)setExperimentalModeEnabled:(struct _NSZone *)arg1;
 - (id);
 - (void);
 

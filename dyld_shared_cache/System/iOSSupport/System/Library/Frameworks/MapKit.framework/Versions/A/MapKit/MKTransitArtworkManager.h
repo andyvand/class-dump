@@ -11,7 +11,7 @@
     VKIconManager *_iconManager;
 }
 
-+ (id)stanceString:appendUnits:index: /* Error: Ran out of types for this method. */;
++ (id)_legendStringForDistanceString:appendUnits:index: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -25,7 +25,7 @@
 - (id);
 - (void)
 × ;
-- (void)ed: /* Error: Ran out of types for this method. */;
+- (void)deselectAnnotationRepresentation:animated: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) VKIconManager *iconManager; // @synthesize iconManager=_iconManager;

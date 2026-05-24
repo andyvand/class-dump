@@ -7,7 +7,8 @@
 @class NSArray, NSUUID, _CDContextualChangeRegistration;
 
 @protocol _CDContextServer
-- (void)tifier:(NSArray *)arg1 eventUUID:(NSUUID *)arg2;
+- (void);
+- (void)contextMetadataWithBundleIdentifier:(NSArray *)arg1 eventUUID:(NSUUID *)arg2;
 - (void):(_CDContextualChangeRegistration *)arg1;
 @end
 

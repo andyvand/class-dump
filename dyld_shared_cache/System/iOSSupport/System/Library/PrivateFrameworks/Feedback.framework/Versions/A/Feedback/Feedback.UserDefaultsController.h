@@ -8,9 +8,6 @@
 {
     id _alwaysShowOnboarding;
     id _completedOnboarding;
-    id _showDebugUI;
-    id _score;
-    id _$observationRegistrar;
 }
 
 @end

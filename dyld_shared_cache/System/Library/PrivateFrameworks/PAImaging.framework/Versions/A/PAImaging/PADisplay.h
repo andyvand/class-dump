@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IPAColorProfile, NSString, PADevice;
-@protocol PARenderFormat;
+@class PADevice;
 
 @interface PADisplay
 {
     unsigned int _displayID;
-    PADevice *_device;
-    IPAColorProfile *_profile;
-    id <PARenderFormat> _format;
-    NSString *_identifier;
 }
 
 + (id);
@@ -45,14 +40,7 @@
 - (id)V_outputType;
 
 // Remaining properties
-@property(readonly, nonatomic) double currentEDRHeadroom;
 @property(readonly, nonatomic) PADevice *device; // @synthesize device=_device;
-@property(readonly, nonatomic) unsigned int displayID; // @synthesize displayID=_displayID;
-@property(readonly, nonatomic) id <PARenderFormat> format; // @synthesize format=_format;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) double maxEDRHeadroom;
-@property(readonly, nonatomic) IPAColorProfile *profile; // @synthesize profile=_profile;
-@property(readonly, nonatomic) _Bool supportsHDR;
 
 @end
 

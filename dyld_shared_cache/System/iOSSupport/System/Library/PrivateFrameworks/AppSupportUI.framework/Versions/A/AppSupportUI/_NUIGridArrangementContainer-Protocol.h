@@ -5,5 +5,10 @@
 //
 
 @protocol _NUIGridArrangementContainer
+- (void);
+- (void)!@9;
+
+@optional
+- (_Bool);
 @end
 

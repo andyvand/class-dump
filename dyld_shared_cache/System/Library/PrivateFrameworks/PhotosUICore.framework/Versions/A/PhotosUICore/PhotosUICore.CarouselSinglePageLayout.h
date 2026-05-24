@@ -7,9 +7,6 @@
 @interface PhotosUICore.CarouselSinglePageLayout
 {
     id clippingInsets;
-    id edgeClippingMaskEffects;
-    id mainMaskingEffects;
-    id updater;
 }
 
 - (void);

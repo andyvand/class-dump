@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSMutableDictionary, NSString;
-@protocol TIUserModelConfigurationDelegate, TIUserModelDataStoring;
+@class NSDate, NSString;
 
 @interface TIUserModel
 {
     NSString *_inputMode;
-    id <TIUserModelDataStoring> _userModelStore;
-    NSMutableDictionary *_durableCounters;
-    NSMutableDictionary *_userModelValuesCollection;
-    NSDictionary *_settingsDictionary;
-    double _timeOfLastPersist;
-    _Bool _explicitTearDown;
-    _Bool _userModelRateLimitingDisabled;
-    id <TIUserModelConfigurationDelegate> _configurationDelegate;
-    NSArray *_weeklyMetricKeys;
-    NSDate *_fromDate;
-    NSDate *_loadedDate;
 }
 
 - (id);
@@ -35,7 +23,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)B;
 - (id);
 - (_Bool);
 - (void);
@@ -48,7 +36,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)contactSuggestionsWithMaxSuggestions:excludeContactsByIdentifiers: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);
@@ -58,26 +46,11 @@
 ¦
 À
 ;
-- (id)tive;
-- (void)pane;
+- (id)informative;
+- (void)windowpane;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *cachedSettingsDictionary;
-@property(nonatomic) __weak id <TIUserModelConfigurationDelegate> configurationDelegate; // @synthesize configurationDelegate=_configurationDelegate;
-@property(readonly, nonatomic) NSArray *contexts;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool explicitTearDown; // @synthesize explicitTearDown=_explicitTearDown;
-@property(readonly, nonatomic) NSDate *fromDate; // @synthesize fromDate=_fromDate;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *inputMode; // @synthesize inputMode=_inputMode;
 @property(retain, nonatomic) NSDate *loadedDate; // @synthesize loadedDate=_loadedDate;
-@property(readonly) Class superclass;
-@property _Bool userModelRateLimitingDisabled; // @synthesize userModelRateLimitingDisabled=_userModelRateLimitingDisabled;
-@property(copy, nonatomic) NSArray *weeklyMetricKeys; // @synthesize weeklyMetricKeys=_weeklyMetricKeys;
 
 @end
 

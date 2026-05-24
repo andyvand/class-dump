@@ -9,15 +9,13 @@
 @interface NUScaledSourceDefinition : NUSingleSourceDefinition
 {
     NUSingleSourceDefinition *_source;
-    CDStruct_d58201db _sourceSize;
-    CDStruct_d58201db _fullSize;
 }
 
 - (id);
 - (id);
-- (CDStruct_912cb5d2);
-- (CDStruct_912cb5d2);
-- (long long);
+- (CDStruct_912cb5d2);
+- (CDStruct_912cb5d2)NSCoder"16;
+- (long long)!;
 - (id);
 - (CDStruct_912cb5d2);
 - (id);
@@ -25,9 +23,7 @@
 × ;
 
 // Remaining properties
-@property(readonly) CDStruct_912cb5d2 fullSize; // @synthesize fullSize=_fullSize;
 @property(readonly) NUSingleSourceDefinition *source; // @synthesize source=_source;
-@property(readonly) CDStruct_912cb5d2 sourceSize; // @synthesize sourceSize=_sourceSize;
 
 @end
 

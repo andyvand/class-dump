@@ -9,23 +9,21 @@
 @interface AOSAccountCache
 {
     NSMutableDictionary *_dsidMappings;
-    NSMutableDictionary *_accountDicts;
-    NSMutableDictionary *_appleAccountLookups;
 }
 
 + (id);
 + (void)(user=%@);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)hh8H;
 - (void)ÊPðj·-8¢_ÅeÿêpÐJ­7"¸{áAÛÎTôn³)<¦'½¨2ïuÕOZÀ`ú9£¶,ËQñk~äDÞ#¹¬6ëqÑK^Ädþ=§²(ÏUõozà@ÚÓìoP"¡«(eZÙæ7´ÆùzEpOÌó¾=1²ÿÀC|IvõÊ¸;êÕVi$§­.\càß{DÇøµ	6<¿ÍòqN #nQÒíØçd[)ª¦%WhëÔáÞ]b/¬B}þÁ³0:¹ôËHwA~ýÂ°39º÷ÈKt¥&Tkè×âÝ^a,¯£ mRÑîÛägX*©xGÄû¶
 5 /* Error: Ran out of types for this method. */;
 

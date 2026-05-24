@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIGestureRecognizer;
+
 @protocol UIGestureRecognizerDelegate
 
 @optional
+- (_Bool)setBodyTextLength:(UIGestureRecognizer *)arg1;
+- (_Bool)_articleDiversitySimilarityExpectationEnd;
 - (_Bool)@MþÿIÿÿ;
 @end
 

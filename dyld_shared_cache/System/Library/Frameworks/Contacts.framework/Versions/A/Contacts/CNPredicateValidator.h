@@ -4,46 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, NSMutableSet, NSPredicate, NSSet;
+@class NSSet;
 
 @interface CNPredicateValidator
 {
     _Bool _validated;
-    NSPredicate *_predicate;
-    NSSet *_allowedKeysSet;
-    NSMutableSet *_usedKeysSet;
-    NSError *_error;
 }
 
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)l;
 - (void);
 - (id);
+- (void);
+- (id);
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)*;
 - (void);
-- (void);
+- (void);
 - (void);
 - (void)*Ð1Â0@ù
 × ;
 - (void)6@?0@"NSPersistentHistoryTransaction"8;
 - (_Bool);
-- (void)estoreMigrator;
+- (void)BackupRestoreMigrator;
 - (void)<âÿûÿB Ù;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *allowedKeys;
 @property(retain, nonatomic) NSSet *allowedKeysSet; // @synthesize allowedKeysSet=_allowedKeysSet;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) NSPredicate *predicate; // @synthesize predicate=_predicate;
-@property(readonly, copy, nonatomic) NSArray *usedKeys;
-@property(retain, nonatomic) NSMutableSet *usedKeysSet; // @synthesize usedKeysSet=_usedKeysSet;
-@property(nonatomic) _Bool validated; // @synthesize validated=_validated;
 
 @end
 

@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface NFAssertionInternal
 {
     int _pid;
-    unsigned long long _assertionType;
-    NSDate *_assertionTime;
 }
 
 + (_Bool);
+- (id)Ҁ;
 - (id);
-- (id);
-- (int);
+- (int)@;
 - (id);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)imageIOPrimitives;
 - (id);
-- (id);
+- (id)ection must be created before calling remoteObjectProxy;
 - (void);
 
 // Remaining properties
-@property(readonly) NSDate *assertionTime; // @synthesize assertionTime=_assertionTime;
 @property(readonly) unsigned long long assertionType; // @synthesize assertionType=_assertionType;
-@property(readonly) int pid; // @synthesize pid=_pid;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABGroupEntry, NSArray;
+@class ABGroupEntry;
 
 @interface ABGroupEntriesResult
 {
     ABGroupEntry *_allDirectoriesGroupEntry;
-    ABGroupEntry *_defaultDirectoryGroupEntry;
-    NSArray *_groupEntries;
 }
 
 - (id);
@@ -23,8 +21,6 @@
 
 // Remaining properties
 @property(retain) ABGroupEntry *allDirectoriesGroupEntry; // @synthesize allDirectoriesGroupEntry=_allDirectoriesGroupEntry;
-@property(retain) ABGroupEntry *defaultDirectoryGroupEntry; // @synthesize defaultDirectoryGroupEntry=_defaultDirectoryGroupEntry;
-@property(retain) NSArray *groupEntries; // @synthesize groupEntries=_groupEntries;
 
 @end
 

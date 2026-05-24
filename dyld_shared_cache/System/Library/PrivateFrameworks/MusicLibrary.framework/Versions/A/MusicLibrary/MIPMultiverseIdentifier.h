@@ -4,105 +4,68 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface MIPMultiverseIdentifier
 {
     long long _accountId;
-    long long _purchaseHistoryId;
-    long long _sagaId;
-    long long _storeId;
-    NSString *_cloudLibraryId;
-    NSString *_cloudUniversalLibraryId;
-    NSMutableArray *_libraryIdentifiers;
-    int _mediaObjectType;
-    int _mediaType;
-    NSString *_name;
-    struct {
-        unsigned int accountId:1;
-        unsigned int purchaseHistoryId:1;
-        unsigned int sagaId:1;
-        unsigned int storeId:1;
-        unsigned int mediaObjectType:1;
-        unsigned int mediaType:1;
-    } _has;
 }
 
-+ (Class);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
++ (Class)_stringHeadersFromHTTPResponse: /* Error: Ran out of types for this method. */;
+- (void)ons;
+- (void)s;
+- (void)nownMergeEvent;
+- (void),V_mergeInvalidated;
+- (void)ceneUnderstandingTaxonomyWriteAuthorized;
+- (void)tled;
+- (void)Merge;
+- (void),N,V_isStillImage;
+- (void)zedForTCCServicePhotos;
+- (void)on;
+- (void)stersContainingDefiniteClusters;
+- (long long)shouldCheckForUnintendedChanges;
+- (long long)n",&,D,N;
+- (id)pickOptimalStateForUserInitiatedMergeWithPersons:(int)arg1 nominalTarget: /* Error: Ran out of types for this method. */;
+- (unsigned long long)ourceInternalClient",R;
+- (id)onAuthorization;
+- (id)onAuthorization",R,N,V_connectionAuthorization;
+- (_Bool)onSynced:recovered:legacyImport:collectionShare:unrecognized: /* Error: Ran out of types for this method. */;
+- (_Bool)s;
+- (_Bool)erIDsOfSocialGroupsNeedingDeduplication;
+- (_Bool)Set",?,R;
+- (_Bool)object>",R,N,V_xpcReply;
+- (_Bool)@"NSObject<OS_dispatch_semaphore>",W,N,V_fdResourceSemaphore;
+- (_Bool)cloudLocalState;
+- (id)mp;
+- (id)_newRevGeoLocationInfoFromData: /* Error: Ran out of types for this method. */;
+- (void)filter;
+- (int)R,N,V_managedObject;
+- (int)",R;
+- (void)public}@:%{public}@ /* Error: Ran out of types for this method. */;
+- (id);
+- (int);
 - (void);
 - (long long);
+- (void);
 - (long long);
+- (int);
+- (id);
+- (_Bool);
+- (void);
+- (void);
 - (id);
 - (unsigned long long);
+- (_Bool)ver:(id)arg1;
+- (_Bool);
+- (void);
+- (id)evaluateNode:(struct _NSZone *)arg1 notifyBlock: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (int);
-- (int);
-- (void);
-- (id);
-- (int);
-- (void);
-- (long long);
-- (void);
-- (long long);
-- (int);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)scheduleImmediateUploadWithHeaders:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (void)°ô;
 - (void)e, sort_key) SELECT ML3SortString(name), iPhoneSortKey(ML3SortString(name)) FROM sort_map;;
 - (void);
 - (_Bool)¸;
 
 // Remaining properties
-@property(nonatomic) long long accountId; // @synthesize accountId=_accountId;
-@property(retain, nonatomic) NSString *cloudLibraryId; // @synthesize cloudLibraryId=_cloudLibraryId;
-@property(retain, nonatomic) NSString *cloudUniversalLibraryId; // @synthesize cloudUniversalLibraryId=_cloudUniversalLibraryId;
-@property(nonatomic) _Bool hasAccountId;
-@property(readonly, nonatomic) _Bool hasCloudLibraryId;
-@property(readonly, nonatomic) _Bool hasCloudUniversalLibraryId;
 @property(nonatomic) _Bool hasMediaObjectType;
-@property(nonatomic) _Bool hasMediaType;
-@property(readonly, nonatomic) _Bool hasName;
-@property(nonatomic) _Bool hasPurchaseHistoryId;
-@property(nonatomic) _Bool hasSagaId;
-@property(nonatomic) _Bool hasStoreId;
-@property(retain, nonatomic) NSMutableArray *libraryIdentifiers; // @synthesize libraryIdentifiers=_libraryIdentifiers;
-@property(nonatomic) int mediaObjectType; // @synthesize mediaObjectType=_mediaObjectType;
-@property(nonatomic) int mediaType; // @synthesize mediaType=_mediaType;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) long long purchaseHistoryId; // @synthesize purchaseHistoryId=_purchaseHistoryId;
-@property(nonatomic) long long sagaId; // @synthesize sagaId=_sagaId;
-@property(nonatomic) long long storeId; // @synthesize storeId=_storeId;
 
 @end
 

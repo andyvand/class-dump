@@ -5,6 +5,7 @@
 //
 
 @protocol NSSliderViewRequiredMethods
+- (void)_AVAssetDownloadTaskWithURL:(id)arg1 destinationURL:(_Bool)arg2 options: /* Error: Ran out of types for this method. */;
 - (void)ä3Ð1Â0@ù
 × ;
 @end

@@ -14,12 +14,12 @@
 }
 
 - (unsigned long long);
-- (id);
-- (_Bool);
+- (id)CoreMedia;
+- (_Bool)m;
 - (id);
 - (unsigned long long);
-- (id);
-- (void);
+- (id)CloudPhotoServicesRequestReasonKey;
+- (void)onnection cancelled; %{public}s);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *value; // @synthesize value=_value;

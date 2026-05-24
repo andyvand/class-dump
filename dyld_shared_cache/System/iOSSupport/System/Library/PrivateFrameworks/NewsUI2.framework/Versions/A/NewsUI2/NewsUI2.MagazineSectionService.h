@@ -7,10 +7,6 @@
 @interface NewsUI2.MagazineSectionService
 {
     id assetHandleFactory;
-    id bundleSubscriptionManager;
-    id magazineConfigurationService;
-    id feedAvailabilityService;
-    id $__lazy_storage_$_appVersion;
 }
 
 @end

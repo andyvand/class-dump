@@ -6,18 +6,11 @@
 
 #import <QuartzComposer/QCSourceTextView.h>
 
-@class NSImageView, NSString, NSTextField, NSTimer, NSUndoManager, QCProgrammablePatch;
+@class NSTextField;
 
 @interface QCProgrammablePatchView : QCSourceTextView
 {
     NSTextField *_statusField;
-    NSImageView *_statusImage;
-    NSString *_sourceType;
-    QCProgrammablePatch *_targetPatch;
-    NSUndoManager *_undoManager;
-    NSTimer *_typingTimer;
-    _Bool _disableUpdate;
-    void *_unused2[3];
 }
 
 + (id);
@@ -38,7 +31,7 @@
 - (id);
 - (id);
 - (void);
-- (_Bool)sic_string;
+- (_Bool)basic_string;
 
 @end
 

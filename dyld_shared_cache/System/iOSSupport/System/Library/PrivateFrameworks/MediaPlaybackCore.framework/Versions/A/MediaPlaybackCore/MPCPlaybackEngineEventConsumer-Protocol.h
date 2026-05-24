@@ -5,5 +5,10 @@
 //
 
 @protocol MPCPlaybackEngineEventConsumer
+- (void);
+- (void);
+
+@optional
++ (unsigned int);
 @end
 

@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDIDSRegistrationRenewCredentialsCompleted
 {
     long long _errorCode;
-    unsigned long long _timestamp;
-    NSString *_errorDomain;
-    int _renewResult;
-    struct {
-        unsigned int errorCode:1;
-        unsigned int timestamp:1;
-        unsigned int renewResult:1;
-    } _has;
 }
 
 - (void);
@@ -41,19 +31,12 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)q;
 - (void)_completionReason;
 - (long long)ïT	;
 
 // Remaining properties
-@property(nonatomic) long long errorCode; // @synthesize errorCode=_errorCode;
-@property(retain, nonatomic) NSString *errorDomain; // @synthesize errorDomain=_errorDomain;
-@property(nonatomic) _Bool hasErrorCode;
-@property(readonly, nonatomic) _Bool hasErrorDomain;
-@property(nonatomic) _Bool hasRenewResult;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) int renewResult; // @synthesize renewResult=_renewResult;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

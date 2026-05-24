@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSString, NSURL, NSURLSessionDataTask, UIImage;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface MKPlaceCollectionImageDownloadOperation
 {
     _Bool _executing;
-    _Bool _finished;
-    UIImage *_downloadedImage;
-    NSURL *_url;
-    NSString *_cacheId;
-    NSURLSessionDataTask *_downloadTask;
-    NSCache *_downloadCache;
 }
 
 - (void);
@@ -30,9 +24,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)*;
 - (void);
-- (void);
+- (void)MHandle",R,N,V_handle;
 - (id);
 - (_Bool);
 - (id);
@@ -42,12 +36,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *cacheId; // @synthesize cacheId=_cacheId;
-@property(nonatomic) __weak NSCache *downloadCache; // @synthesize downloadCache=_downloadCache;
-@property(retain, nonatomic) NSURLSessionDataTask *downloadTask; // @synthesize downloadTask=_downloadTask;
-@property(retain, nonatomic) UIImage *downloadedImage; // @synthesize downloadedImage=_downloadedImage;
-@property(nonatomic) _Bool executing; // @synthesize executing=_executing;
-@property(nonatomic) _Bool finished; // @synthesize finished=_finished;
 @property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end

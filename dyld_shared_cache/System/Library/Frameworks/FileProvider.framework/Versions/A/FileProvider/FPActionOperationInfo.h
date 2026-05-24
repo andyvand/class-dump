@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface FPActionOperationInfo
 {
     _Bool _attachSandboxExtensionsOnXPCEncoding;
-    _Bool __t_clientDrivenReader;
-    _Bool __t_clearItemURLs;
-    unsigned int _qos;
-    NSString *_operationID;
-    NSArray *_roots;
-    unsigned long long __t_moveQueueWidth;
 }
 
 + (_Bool);
@@ -30,22 +24,16 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void);
+- (id)BlockSilentRedialOverCS;
+- (void);
 - (void);
 - (unsigned int);
 - (void)ñç)Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) _Bool _t_clearItemURLs; // @synthesize _t_clearItemURLs=__t_clearItemURLs;
-@property(nonatomic) _Bool _t_clientDrivenReader; // @synthesize _t_clientDrivenReader=__t_clientDrivenReader;
-@property(nonatomic) unsigned long long _t_moveQueueWidth; // @synthesize _t_moveQueueWidth=__t_moveQueueWidth;
-@property(nonatomic) _Bool attachSandboxExtensionsOnXPCEncoding; // @synthesize attachSandboxExtensionsOnXPCEncoding=_attachSandboxExtensionsOnXPCEncoding;
 @property(copy, nonatomic) NSString *operationID; // @synthesize operationID=_operationID;
-@property(nonatomic) unsigned int qos; // @synthesize qos=_qos;
-@property(retain, nonatomic) NSArray *roots; // @synthesize roots=_roots;
 
 @end
 

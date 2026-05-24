@@ -7,10 +7,6 @@
 @interface SwiftUI.AppKitSuggestionWindowBridge
 {
     id window;
-    id windowDelegate;
-    id hostingView;
-    id textField;
-    id scrollView;
 }
 
 @end

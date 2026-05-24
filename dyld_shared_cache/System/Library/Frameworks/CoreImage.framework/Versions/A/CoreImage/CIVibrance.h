@@ -6,13 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIVibrance : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputAmount;
 }
 
 + (id);
@@ -28,7 +27,6 @@ __attribute__((visibility("hidden")))
 - (id)oooolljlllllqqqq[mlurvuz}}}}}}}}nnnn^^]^````ppppttttPb]jTc`iqqqqlmmm]^Z_DOGS5H=SI[Xbooooffff>G;Q":+IRTLUfielw¦¦¦¦¥¥¥¥~K_Qqai_ngvrxm~y±±±±¹¹¹¹§««}}{x¦¦¦¦¦¡¡¡¡Rngyoooommmmbifigjgjuuuu¥¥¥¥wqjwduq|ls}zy}VicmLXNcN`Ziyyyyzzzzyyvy ¢¢    m|x}}}}]mixhzylizw~{{{{mrlvQlc|£«««´´´´ªªªªxzw}Qe\u\utWb\fBNAUa]Ta{|||pyx}caYh=QEY?PESAPERBJ;RMSEYY^SeGbXtqyvxxxxLhco`icloomouuru}}}}}££££····¸¸¸¸£¦©©s££££djdopmhqmuq~apjz~~|_sm~Zlczv{w|zxurxwwwwwwwwEd]vUpl~x}zuw¨¨¨¨¹¹¹¹»»»»µµµµ´´´´¶¶¶¶°°°°§§§§[uns|¢¢¢¢¦¥¦¦£byvu~~{{{{uxxxwwwwuuuuXto} §®®¬´ºº····¤¤¤¤~~~~K_Qrdh\ukuuv^^U^)>+N8J=UffafB`Ynookppppp /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *inputAmount; // @synthesize inputAmount;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
 
 @end

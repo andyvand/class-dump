@@ -5,9 +5,18 @@
 //
 
 @class UIInputWindowController, UIWindow, UIWindowScene;
+@protocol _UIAssertion;
 
 @protocol _UIKeyboardArbiterClient
-- (_Bool);
+- (void);
+- (_Bool)ks/AppleDeviceQuerySupport.framework/Versions/A/AppleDeviceQuerySupport;
+- (UIInputWindowController *);
+- (void);
+- (void)qA;
+- (id <_UIAssertion>)perform_target;
+- (void)6@?0@"MPModelMovie"8;
+- (void);
+- (double);
 - (_Bool)1Â0@ù
 × ;
 - (void)á!ðAù[1Â0@ù
@@ -19,26 +28,19 @@
 - (_Bool)1Â0@ù
 × ;
 - (_Bool)lendarSelectionWeekOfYearDelegate>";
-- (_Bool);
-- (void)hYearLabelColor;
-- (void)rViewController;
-- (UIInputWindowController *)sistantPosition;
-- (void)yStartServer;
+- (_Bool)initWithDelegate:transitionManager: /* Error: Ran out of types for this method. */;
+- (void)_monthYearLabelColor;
+- (void)_centerViewController;
+- (UIInputWindowController *)_assistantPosition;
+- (void)_accessibilityStartServer;
 - (void)ant;
-- (UIWindow *):(UIWindowScene *)arg1;
+- (UIWindow *)initWithUIView:(UIWindowScene *)arg1;
 - (void)<UIContentConfiguration>",C,D,N,S_setFooterContentConfiguration:(_Bool)arg1;
 - (_Bool);
 - (void)t, NSDirectionalRectEdge);
 - (void)ªªª@;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool handlingRemoteEvent;
-@property(readonly, nonatomic) double heightForRemoteIAVPlaceholderIfNecessary;
-@property(readonly) _Bool keyboardActive;
 @property(readonly) _Bool keyboardVisible;
-@property(readonly) _Bool remoteKeyboardUndocked;
-@property(nonatomic) _Bool shouldFence;
-@property(nonatomic) _Bool snapshotting;
-@property(readonly) _Bool updatingHeight;
 @end
 

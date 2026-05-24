@@ -5,6 +5,10 @@
 //
 
 @protocol NRDBackgroundActivitySchedulerInterface
+- (void);
+- (void);
+- (void)ountRecoveryContactsListViewController:(double)arg1;
+- (void);
 - (void)epare;
 - (void)0;
 @end

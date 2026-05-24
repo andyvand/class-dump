@@ -7,17 +7,13 @@
 @class _INPBValueMetadata;
 
 @protocol _INPBPowerValue
+- (void)tParameters:(int)arg1 completion:] /* Error: Ran out of types for this method. */;
 - (_Bool)moryForAttribution;
-- (void)ollectionForActivateCarSignal:(_INPBValueMetadata *)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
-- (_INPBValueMetadata *)letion: /* Error: Ran out of types for this method. */;
-- (int)tleOptionsForUpdateEvent:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideSignalsOptionsCollectionForActivateCarSignal:(_INPBValueMetadata *)arg1 searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (_INPBValueMetadata *)provideContactsOptionsForStartAudioCall:withCompletion: /* Error: Ran out of types for this method. */;
+- (int)provideSetTitleOptionsForUpdateEvent:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMagnitude;
-@property(nonatomic) _Bool hasUnit;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
 @property(nonatomic) double magnitude;
-@property(nonatomic) int unit;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata;
 @end
 

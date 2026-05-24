@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface _LSAppToUnregister
 {
     NSString *_bundleIdentifier;
-    _Bool _isPlaceholder;
 }
 
 - (void);

@@ -7,8 +7,6 @@
 @interface CalendarWidget.SpatialTimeline
 {
     id dataSource;
-    id privacyRedactionEnabled;
-    id eventsByDay;
 }
 
 @end

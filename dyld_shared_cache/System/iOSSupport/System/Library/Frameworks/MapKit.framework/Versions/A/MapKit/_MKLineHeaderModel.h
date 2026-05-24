@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray, UIView;
+@class NSMutableArray, UIView;
 
 __attribute__((visibility("hidden")))
 @interface _MKLineHeaderModel
 {
     NSMutableArray *_tokens;
-    _Bool _shouldUseEmptyPlaceholder;
-    UIView *_ownerView;
-    NSDictionary *_fontAttribute;
-    CDUnknownBlockType _colorProvider;
 }
 
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -29,15 +25,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)hostViewController:didPrepareToHost: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType colorProvider; // @synthesize colorProvider=_colorProvider;
-@property(copy, nonatomic) NSDictionary *fontAttribute; // @synthesize fontAttribute=_fontAttribute;
 @property(nonatomic) __weak UIView *ownerView; // @synthesize ownerView=_ownerView;
-@property(nonatomic) _Bool shouldUseEmptyPlaceholder; // @synthesize shouldUseEmptyPlaceholder=_shouldUseEmptyPlaceholder;
 
 @end
 

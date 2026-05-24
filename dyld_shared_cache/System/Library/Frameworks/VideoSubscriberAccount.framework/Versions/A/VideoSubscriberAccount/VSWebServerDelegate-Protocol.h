@@ -5,5 +5,8 @@
 //
 
 @protocol VSWebServerDelegate
+
+@optional
+- (void)@;
 @end
 

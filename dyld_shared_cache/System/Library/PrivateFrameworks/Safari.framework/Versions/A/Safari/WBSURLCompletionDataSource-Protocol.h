@@ -4,10 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol WBSURLCompletionMatchData;
+
 @protocol WBSURLCompletionDataSource
+- (id <WBSURLCompletionMatchData>)Bm;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isEnumeratingBookmarkMatches) _Bool enumeratingBookmarkMatches;
-@property(readonly, nonatomic, getter=isEnumeratingHistoryMatches) _Bool enumeratingHistoryMatches;
 @end
 

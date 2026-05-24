@@ -9,12 +9,6 @@
 @interface SCNPlane : SCNGeometry
 {
     double _width;
-    double _height;
-    double _cornerRadius;
-    long long _widthSegmentCount;
-    long long _heightSegmentCount;
-    long long _cornerSegmentCount;
-    long long _primitiveType;
 }
 
 + (id);
@@ -24,8 +18,8 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)=b;
+- (id)=;
 - (long long);
 - (long long);
 - (id);
@@ -38,16 +32,16 @@
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id)_updateMessagesSyncedSyndicationRangesToSyncedForGUIDs: /* Error: Ran out of types for this method. */;
 - (id);
 - (double);
-- (double);
+- (double)setButtonWidgetStateString: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
-- (void);
-- (double);
-- (void)hBool:(double)arg1;
+- (void)read base_image;
+- (double)@;
+- (void)numberWithBool:(double)arg1;
 - (id)AP
     gl_FragColor.a = v_vertexColor.a * tex.a; 
 #ifdef ENABLE_FOG
@@ -62,12 +56,7 @@
 ;
 
 // Remaining properties
-@property(nonatomic) double cornerRadius;
-@property(nonatomic) long long cornerSegmentCount;
-@property(nonatomic) double height;
-@property(nonatomic) long long heightSegmentCount;
 @property(nonatomic) double width;
-@property(nonatomic) long long widthSegmentCount;
 
 @end
 

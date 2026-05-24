@@ -4,6 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSNumber;
+
 @protocol AVPlayerViewControllerContentViewDelegate_Gen1
+- (_Bool);
+- (NSNumber *)g;
+- (void)ߋL.;
+- (void)aluetG;
+- (void)5valuet;
 @end
 

@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICSDateValue, NSArray, NSMutableDictionary, NSNumber, NSSet;
-
 @interface ICSRecurrenceRule
 {
     unsigned long long _freq;
-    NSMutableDictionary *_parameters;
 }
 
 + (id);
 + (id);
 + (_Bool);
-- (id);
+- (id)X;
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -36,47 +33,33 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);;
 - (id);
 - (id);
 - (unsigned long long);
 - (void);
 - (id);
+- (id)$;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)L$;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)@;
+- (void)udConfig:(id)arg1 CPFetchActivationRecord checkTime = %s; timer expired = %s;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *byday;
-@property(retain, nonatomic) NSArray *byhour;
-@property(retain, nonatomic) NSArray *byminute;
-@property(retain, nonatomic) NSArray *bymonth;
-@property(retain, nonatomic) NSArray *bymonthday;
-@property(retain, nonatomic) NSArray *bysecond;
-@property(retain, nonatomic) NSArray *bysetpos;
-@property(retain, nonatomic) NSArray *byweekno;
-@property(retain, nonatomic) NSArray *byyearday;
-@property(nonatomic) NSNumber *count;
 @property(nonatomic) unsigned long long freq;
-@property(nonatomic) NSNumber *interval;
-@property(readonly, nonatomic) NSSet *propertiesToExcludeForChecksum;
-@property(retain, nonatomic) ICSDateValue *until;
-@property(nonatomic) NSNumber *wkst;
 
 @end
 

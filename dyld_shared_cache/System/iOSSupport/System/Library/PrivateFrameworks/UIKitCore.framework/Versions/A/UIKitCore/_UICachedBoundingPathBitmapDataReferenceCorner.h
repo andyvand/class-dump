@@ -11,12 +11,12 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (_Bool)ectionUsingLayoutDirectionAsEffective;
-- (struct _UIBoundingPathBitmapDataCorner);
++ (_Bool)LanguageAwareStringAutoAdjustWritingDirectionUsingLayoutDirectionAsEffective;
+- (struct _UIBoundingPathBitmapDataCorner)conversationManager:cameraMixedWithScreenDidChangeForConversation: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void);
 - (id);
-- (void)ew:(id)arg1;
+- (void)popoverController:(id)arg1 willRepositionPopoverToRect:inView: /* Error: Ran out of types for this method. */;
 
 @end
 

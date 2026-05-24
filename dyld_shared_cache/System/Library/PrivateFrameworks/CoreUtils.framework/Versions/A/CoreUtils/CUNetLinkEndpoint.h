@@ -7,31 +7,20 @@
 @interface CUNetLinkEndpoint
 {
     CDUnion_fab80606 _ipAddr;
-    int _state;
-    CDUnknownBlockType _stateChangedHandler;
-    unsigned long long _expireTime;
-    unsigned long long _expiredTicks;
-    _Bool _present;
-    unsigned int _seqNum;
-    unsigned int _stateChanges;
-    _Bool _client;
 }
 
 - (void);
 - (CDUnion_fab80606);
 - (void);
-- (id);
+- (id)kMDQueryResultEmbeddingDistances;
 - (CDUnknownBlockType);
-- (id);
+- (id)notificationAckURL;
 - (_Bool);
 - (int);
-- (void);
+- (void)lized with invalid pid;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isClient) _Bool client; // @synthesize client=_client;
 @property(nonatomic) CDUnion_fab80606 ipAddr; // @synthesize ipAddr=_ipAddr;
-@property(readonly, nonatomic) int state; // @synthesize state=_state;
-@property(copy, nonatomic) CDUnknownBlockType stateChangedHandler; // @synthesize stateChangedHandler=_stateChangedHandler;
 
 @end
 

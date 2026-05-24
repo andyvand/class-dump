@@ -4,12 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class NSString, NSURL;
 
 @protocol CKMediaObjectMetadataPreview
+- (NSString *)initWithModernNoteContext:htmlNoteContext:options: /* Error: Ran out of types for this method. */;
+
+@optional
+- (id)newParagraphLinkAttachmentWithIdentifier:(NSURL *)arg1 toNote:(out id *)arg2 paragraphName:paragraphID:fromNote:parentAttachment: /* Error: Ran out of types for this method. */;
+- (id)neControllerObject;
+- (void)contentView;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *previewMetadataFilenameExtension;
 @property(readonly, nonatomic) _Bool supportsPreviewMetadata;
 @end
 

@@ -12,10 +12,9 @@ __attribute__((visibility("hidden")))
 @interface VCAudioStreamTransport : VCMediaStreamTransport
 {
     WRMClient *_wrmClient;
-    struct _VCAudioStreamTransportRealtimeContext _realtimeContext;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

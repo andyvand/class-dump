@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface PCCRequest
 {
     NSString *_jid;
-    NSString *_event;
-    NSString *_type;
-    CDUnknownBlockType _callback;
-    NSDictionary *_options;
 }
 
-- (id);
-- (id);
+- (id)dInfo (err=%m)
+;
+- (id)naryRef);
 - (id);
 - (id);
 - (id);
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)V_Target_Max_Dimension_1280;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType callback; // @synthesize callback=_callback;
-@property(readonly) NSString *event; // @synthesize event=_event;
 @property(readonly) NSString *jid; // @synthesize jid=_jid;
-@property(readonly) NSDictionary *options; // @synthesize options=_options;
-@property(readonly) NSString *type; // @synthesize type=_type;
 
 @end
 

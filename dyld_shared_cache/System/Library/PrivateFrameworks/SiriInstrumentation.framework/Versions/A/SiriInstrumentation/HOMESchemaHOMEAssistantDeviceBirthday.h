@@ -6,23 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface HOMESchemaHOMEAssistantDeviceBirthday : SISchemaInstrumentationMessage
 {
     unsigned int _year;
-    unsigned int _month;
-    struct {
-        unsigned int year:1;
-        unsigned int month:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)setSignOutView:(_Bool)arg1;
+- (void)setApplicationNameForUserAgent:(_Bool)arg1;
+- (_Bool)mmeFMFAppToken;
 - (_Bool);
 - (void);
 - (void);
@@ -32,17 +25,13 @@
 - (_Bool);
 - (unsigned int);
 - (_Bool);
-- (id);
+- (id)ce;
 - (id);
 - (id)V_language;
 - (id)°vüy8z;
 - (unsigned int).;
 
 // Remaining properties
-@property(nonatomic) _Bool hasMonth;
-@property(nonatomic) _Bool hasYear;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int month; // @synthesize month=_month;
 @property(nonatomic) unsigned int year; // @synthesize year=_year;
 
 @end

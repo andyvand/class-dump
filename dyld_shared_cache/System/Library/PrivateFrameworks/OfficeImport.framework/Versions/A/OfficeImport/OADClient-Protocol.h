@@ -5,6 +5,6 @@
 //
 
 @protocol OADClient
-- (_Bool)dex: /* Error: Ran out of types for this method. */;
+- (_Bool)pointerAtIndex: /* Error: Ran out of types for this method. */;
 @end
 

@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSError, NSString;
+
 @protocol TRIMAProviding
+- (void);
+- (NSError *)qm;
+- (NSError *)set_lifespanCache:(NSString *)arg1;
 @end
 

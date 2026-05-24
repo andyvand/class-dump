@@ -11,20 +11,17 @@
 @interface AAFMIPAuthenticateResponse : AAResponse
 {
     NSDictionary *_tokens;
-    NSDictionary *_appleAccountInfo;
 }
 
-+ (id);
++ (id)foForAccountType payload info is wrong class;
+- (id)reKerberosTicket found agent port %d;
+- (id)%d;
+- (id)ettings unable to update managed app config for bundle %@;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)alContact:custodianID: /* Error: Ran out of types for this method. */;
+- (void)initWithLocalContact:custodianID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *fmipDsid;
-@property(readonly, nonatomic) NSString *fmipUrl;
 @property(readonly, nonatomic) NSString *fmipWipeToken;
 
 @end

@@ -17,10 +17,10 @@
 - (CDUnknownBlockType);
 - (id);
 - (void);
-- (void);
+- (void)AegirSunDistance;
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)fileExtension;
 - (void);
 
 // Remaining properties

@@ -7,9 +7,10 @@
 @protocol TKXPCConnectionDelegate;
 
 @protocol TKXPCConnection
+- (void)%@ failed:%{error}
+ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) __weak id <TKXPCConnectionDelegate> delegate;
-@property(readonly, nonatomic) id remoteObjectProxy;
 @end
 

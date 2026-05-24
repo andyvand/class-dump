@@ -9,7 +9,6 @@
 @interface SMQuarantineManager
 {
     unsigned long long _seenReasons;
-    NSXPCConnection *_pdfXPCConnection;
 }
 
 + (id);
@@ -31,7 +30,6 @@
 
 // Remaining properties
 @property(retain) NSXPCConnection *pdfXPCConnection; // @synthesize pdfXPCConnection=_pdfXPCConnection;
-@property unsigned long long seenReasons; // @synthesize seenReasons=_seenReasons;
 
 @end
 

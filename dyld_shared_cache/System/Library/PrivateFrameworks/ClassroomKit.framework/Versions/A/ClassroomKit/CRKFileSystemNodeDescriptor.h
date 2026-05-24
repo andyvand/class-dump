@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface CRKFileSystemNodeDescriptor
 {
     NSString *_fileName;
-    long long _type;
-    NSData *_content;
 }
 
 + (id);
@@ -24,9 +22,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSData *content; // @synthesize content=_content;
 @property(readonly, copy, nonatomic) NSString *fileName; // @synthesize fileName=_fileName;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

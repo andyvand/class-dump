@@ -6,16 +6,9 @@
 
 #import <AudioServerDriver/ASDControl.h>
 
-@class NSObject;
-@protocol OS_dispatch_queue;
-
 @interface ASDLevelControl : ASDControl
 {
     float _decibelValue;
-    float _minimumDecibelValue;
-    float _maximumDecibelValue;
-    NSObject<OS_dispatch_queue> *_valueQueue;
-    _Bool _settable;
 }
 
 + (id);
@@ -23,38 +16,34 @@
 - (void);
 - (void);
 - (float);
-- (float);
-- (float);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
+- (float)C;
 - (float);
 - (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (float);
+- (_Bool);
 - (_Bool);
 - (float);
 - (float);
-- (void);
+- (void)&;
 - (unsigned int);
 - (float);
 - (float);
-- (_Bool);
-- (unsigned int);
+- (_Bool);
+- (unsigned int)_reallyCancelPendingSearchQuery:(const struct AudioObjectPropertyAddress *)arg1;
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)aks_copy_volume_cookie_persona;
+- (_Bool)lyBlock:(const struct AudioObjectPropertyAddress *)arg1 ];
 - (id);
 
 // Remaining properties
 @property(nonatomic) float decibelValue; // @dynamic decibelValue;
-@property(nonatomic) float maximumDecibelValue; // @dynamic maximumDecibelValue;
-@property(nonatomic) float minimumDecibelValue; // @dynamic minimumDecibelValue;
-@property(nonatomic) float scalarValue; // @dynamic scalarValue;
-@property(readonly, nonatomic, getter=isSettable) _Bool settable; // @synthesize settable=_settable;
 
 @end
 

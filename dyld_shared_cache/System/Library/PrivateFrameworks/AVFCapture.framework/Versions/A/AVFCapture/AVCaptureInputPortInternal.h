@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureInput, NSString;
+@class AVCaptureInput;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureInputPortInternal
 {
     AVCaptureInput *input;
-    NSString *mediaType;
-    struct opaqueCMFormatDescription *formatDescription;
-    struct OpaqueCMClock *clock;
-    _Bool enabled;
-    int changeSeed;
-    NSString *sourceID;
-    NSString *sourceDeviceType;
-    long long sourceDevicePosition;
-    struct os_unfair_lock_s internalLock;
 }
 
-- (void);
+- (void)addSyncItemWithServiceName:username:accessGroup:options:extension:error: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

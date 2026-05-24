@@ -4,36 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface FigCaptureVideoConverter
 {
     struct opaqueCMFormatDescription *_targetFormatDescription;
-    NSDictionary *_targetPixelBufferAttributes;
-    struct opaqueCMFormatDescription *_inputFormatDescription;
-    struct opaqueCMFormatDescription *_originalOutputFormatDescription;
-    struct opaqueCMFormatDescription *_outputFormatDescription;
-    struct OpaqueVTPixelTransferSession *_pixelTransferSession;
-    struct __CVPixelBufferPool *_pixelTransferBufferPool;
-    struct OpaqueVTPixelRotationSession *_pixelRotationSession;
-    struct __CVPixelBufferPool *_pixelRotationBufferPool;
-    int _contentsRotationDegrees;
-    struct OpaqueVTDecompressionSession *_decompressionSession;
-    struct opaqueCMSampleBuffer *_decodedFrame;
-    NSMutableArray *_decodedFrames;
-    _Bool _isPassThru;
-    _Bool _fitToFill;
 }
 
 + (id);
-+ (void)nhancedDisabled;
++ (void)VideoStabilizationAutoSelectionCinematicExtendedEnhancedDisabled;
 - (struct opaqueCMSampleBuffer *);
 - (struct opaqueCMSampleBuffer *);
 - (struct opaqueCMSampleBuffer *);
 - (struct opaqueCMSampleBuffer *);
 - (id);
-- (void);
+- (void)colorWithCatalogName:colorName: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

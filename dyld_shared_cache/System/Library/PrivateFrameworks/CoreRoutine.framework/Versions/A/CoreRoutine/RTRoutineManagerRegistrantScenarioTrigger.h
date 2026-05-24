@@ -6,29 +6,25 @@
 
 #import <CoreRoutine/RTRoutineManagerRegistrant.h>
 
-@class NSDictionary, NSMutableDictionary;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface RTRoutineManagerRegistrantScenarioTrigger : RTRoutineManagerRegistrant
 {
     NSMutableDictionary *__scenarioTriggerHandlers;
-    _Bool _registered;
-    unsigned long long _monitoredScenarioTriggerTypes;
 }
 
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id)n user ; failing;
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)_name;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long monitoredScenarioTriggerTypes; // @synthesize monitoredScenarioTriggerTypes=_monitoredScenarioTriggerTypes;
-@property(readonly, nonatomic) _Bool registered; // @synthesize registered=_registered;
-@property(readonly, copy, nonatomic) NSDictionary *scenarioTriggerHandlers; // @synthesize scenarioTriggerHandlers=__scenarioTriggerHandlers;
 
 @end
 

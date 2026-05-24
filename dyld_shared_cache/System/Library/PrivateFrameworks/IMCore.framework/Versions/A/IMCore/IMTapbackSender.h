@@ -4,27 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMChat, IMTapback, NSAttributedString, NSDictionary, NSString;
+@class IMTapback;
 
 @interface IMTapbackSender
 {
     IMTapback *_tapback;
-    NSString *_messageGUID;
-    NSDictionary *_messageSummaryInfo;
-    NSString *_threadIdentifier;
-    NSAttributedString *_messageContent;
-    NSString *_backwardCompatibilityString;
-    NSAttributedString *_attributedContentString;
-    IMChat *_chat;
-    struct _NSRange _messagePartRange;
 }
 
-+ (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
++ (id)streamInputID=%ld;
+- (id)tation info updated:(id)arg1 %@;
+- (id)] %s:(id)arg1 %d Invalid state=%u;
+- (id)%d AVCVirtualTTYDevice:notified client %p of didStop /* Error: Ran out of types for this method. */;
+- (id)ConnectionBlock:error = %p, result = %s /* Error: Ran out of types for this method. */;
+- (void)rrentPayload=%d;
 - (id);
 - (id);
 - (struct _NSRange);
@@ -36,15 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSAttributedString *attributedContentString; // @synthesize attributedContentString=_attributedContentString;
-@property(readonly, nonatomic) NSString *backwardCompatibilityString; // @synthesize backwardCompatibilityString=_backwardCompatibilityString;
-@property(readonly, nonatomic) IMChat *chat; // @synthesize chat=_chat;
-@property(readonly, nonatomic) NSAttributedString *messageContent; // @synthesize messageContent=_messageContent;
-@property(readonly, nonatomic) NSString *messageGUID; // @synthesize messageGUID=_messageGUID;
-@property(readonly, nonatomic) struct _NSRange messagePartRange; // @synthesize messagePartRange=_messagePartRange;
-@property(readonly, nonatomic) NSDictionary *messageSummaryInfo; // @synthesize messageSummaryInfo=_messageSummaryInfo;
 @property(readonly, nonatomic) IMTapback *tapback; // @synthesize tapback=_tapback;
-@property(readonly, nonatomic) NSString *threadIdentifier; // @synthesize threadIdentifier=_threadIdentifier;
 
 @end
 

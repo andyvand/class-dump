@@ -8,10 +8,10 @@
 {
 }
 
+- (id)ic_objectAfter:(id)arg1;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)the folder;
+- (id)Somebody** added the note;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface SoundAnalysis.XPCDecoder.UnkeyedContainer
 {
     id dataContainer;
-    id proxyContainer;
 }
 
 @end

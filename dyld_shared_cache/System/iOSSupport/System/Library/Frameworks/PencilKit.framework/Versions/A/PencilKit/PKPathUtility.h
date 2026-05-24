@@ -9,10 +9,10 @@
 }
 
 + (_Bool);
-+ (vector_9651d273);
++ (vector_52a4e7e1);
 + (void);
-+ (vector_9651d273);
-+ (vector_9651d273);
++ (vector_52a4e7e1);
++ (vector_52a4e7e1);
 + (struct CGPoint);
 + (void);
 + (_Bool);
@@ -20,7 +20,7 @@
 + (_Bool);
 + (_Bool);
 + (void);
-+ (vector_9651d273);
++ (vector_52a4e7e1);
 + (id);
 + (double);
 + (struct CGRect);

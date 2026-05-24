@@ -9,7 +9,7 @@
 }
 
 + (_Bool);
-+ (unsigned int);
++ (unsigned int)_isDisplayingOtherAccounts;
 
 @end
 

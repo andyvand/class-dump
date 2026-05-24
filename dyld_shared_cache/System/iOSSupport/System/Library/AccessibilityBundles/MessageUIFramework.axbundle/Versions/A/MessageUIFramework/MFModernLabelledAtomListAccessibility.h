@@ -11,9 +11,9 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
-- (id);
++ (id)___UIButtonBarButtonVisualProviderIOSAccessibility_super;
++ (void)AXUseElementAtPositionAfterActivationAttribute;
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);

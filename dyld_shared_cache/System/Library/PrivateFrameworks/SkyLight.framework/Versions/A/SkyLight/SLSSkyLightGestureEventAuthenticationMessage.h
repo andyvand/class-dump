@@ -6,50 +6,23 @@
 
 #import <SkyLight/SLSSkyLightEventAuthenticationMessage.h>
 
-@class BKSHIDEventBaseAttributes, NSString;
-@protocol ECEventType, ECSLGestureEventAuthenticationMessage, ECSLKeyEventAuthenticationMessage, ECSLMouseEventAuthenticationMessage, ECVersionedPID;
-
 __attribute__((visibility("hidden")))
 @interface SLSSkyLightGestureEventAuthenticationMessage : SLSSkyLightEventAuthenticationMessage
 {
     unsigned char _gesturePhase;
-    unsigned int _gestureHidType;
 }
 
 + (_Bool);
-- (id);
-- (_Bool);
-- (unsigned char);
-- (unsigned int);
+- (id)url;
+- (_Bool)udkit.metadata.transformer;
+- (unsigned char)equest '%@' was cancelled because the store was removed from the coordinator.;
+- (unsigned int)t an unhandled exception.;
+- (void)mary keys;
 - (void);
-- (void);
-- (id);
+- (id)TQ;
 
 // Remaining properties
-@property(readonly, nonatomic) BKSHIDEventBaseAttributes *attributes;
-@property(readonly, nonatomic) unsigned long long capabilities;
-@property(readonly, nonatomic) unsigned int connection;
-@property(readonly, nonatomic) unsigned long long context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <ECEventType> eventType;
-@property(readonly, nonatomic) unsigned int flags;
-@property(readonly, nonatomic) id <ECSLGestureEventAuthenticationMessage> gesture;
 @property(readonly, nonatomic) unsigned int gestureHidType; // @synthesize gestureHidType=_gestureHidType;
-@property(readonly, nonatomic) unsigned char gesturePhase; // @synthesize gesturePhase=_gesturePhase;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <ECSLKeyEventAuthenticationMessage> key;
-@property(readonly, nonatomic) struct CGPoint location;
-@property(readonly, nonatomic) id <ECSLMouseEventAuthenticationMessage> mouse;
-@property(readonly, nonatomic) unsigned long long originIdentifier;
-@property(readonly, nonatomic) id <ECVersionedPID> proxyTargetProcess;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <ECVersionedPID> targetProcess;
-@property(readonly, nonatomic) unsigned long long timestamp;
-@property(readonly, nonatomic) unsigned int window;
 
 @end
 

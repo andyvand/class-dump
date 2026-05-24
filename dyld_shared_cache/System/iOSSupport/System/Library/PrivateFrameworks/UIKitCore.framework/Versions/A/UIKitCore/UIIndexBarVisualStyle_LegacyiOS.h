@@ -6,47 +6,37 @@
 
 #import <UIKitCore/UIIndexBarVisualStyle_Base.h>
 
-@class NSArray, UIColor, UIFont;
+@class NSArray, UIColor;
 
 @interface UIIndexBarVisualStyle_LegacyiOS : UIIndexBarVisualStyle_Base
 {
     NSArray *_titles;
-    UIFont *_font;
-    long long _selectedSection;
-    _Bool _pastTop;
-    _Bool _pastBottom;
-    struct CGSize _cachedSize;
-    struct CGSize _cachedSizeToFit;
-    double _topPadding;
-    double _bottomPadding;
-    double _verticalTextHeightEstimate;
-    UIColor *_nonTrackingBackgroundColor;
 }
 
 - (void);
 - (_Bool);
-- (void);
+- (void)}};
 - (void);
 - (double);
-- (void);
-- (void);
-- (void);
+- (void)ed to submit task request for workload reporting:%@ /* Error: Ran out of types for this method. */;
+- (void)ng LQM on Wi-Fi;
+- (void)rd of itemType TUConversation did not recover as IMTUConversationItem record:(long long)arg1 %@ recovered as:%@ /* Error: Ran out of types for this method. */;
+- (id)chTrack:Can't find tracking context for account %@ /* Error: Ran out of types for this method. */;
+- (double)one for subscriptionID:%@ recordType:%@ /* Error: Ran out of types for this method. */;
+- (void)r> Unhandled BlastDoorTextMessageMessageType:%ld /* Error: Ran out of types for this method. */;
+- (double)pdated Handled Nicknames;
+- (void)andledNicknamesKeyStore.db;
 - (id);
-- (double);
-- (void);
-- (double);
-- (void);
-- (id);
 - (void);
 - (void);
-- (struct CGRect);
+- (struct CGRect);
 - (double);
 - (long long);
 - (double);
 - (_Bool);
 - (struct CGSize);
 - (void);
-- (_Bool);
+- (_Bool)__MPModelRelationshipAlbumArtist__MAPPING_MISSING__;
 - (double)s:completion: /* Error: Ran out of types for this method. */;
 - (id), deleteBased:%@, hasInserts:%@ /* Error: Ran out of types for this method. */;
 - (void)q6k;

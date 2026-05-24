@@ -11,27 +11,23 @@
 @interface SFClientTimingFeedback : SFFeedback
 {
     NSString *_input;
-    NSString *_eventName;
-    unsigned long long _nanosecondInterval;
 }
 
 + (_Bool);
 - (id);
 - (void);
 - (unsigned long long);
+- (id)refreshSubscriptionStatus;
 - (id);
+- (void)T@"WBSNamedColorOption",R,C,N;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)TLAlertTopicTextMessageAcknowledgmentQuestionMark;
 - (id);
 - (void);
 - (void)_isOnLockScreen;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *eventName; // @synthesize eventName=_eventName;
 @property(copy, nonatomic) NSString *input; // @synthesize input=_input;
-@property unsigned long long nanosecondInterval; // @synthesize nanosecondInterval=_nanosecondInterval;
 
 @end
 

@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
+@class NSSet;
 
 __attribute__((visibility("hidden")))
 @interface HMDModernTransportMessageContextOptionsBuilder
 {
     _Bool _expectsMultipleResponses;
-    _Bool _trackingDeviceReachability;
-    _Bool _expectRapportSuccess;
-    NSSet *_transports;
-    double _timeoutOverride;
-    double _timeToLive;
-    NSString *_requestStartTimeHeaderKey;
-    NSString *_timeToLiveHeaderKey;
 }
 
 - (_Bool);
@@ -24,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)it;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -38,13 +31,6 @@ __attribute__((visibility("hidden")))
 - (void)ortedStereoPairVersions = %@;
 
 // Remaining properties
-@property _Bool expectRapportSuccess; // @synthesize expectRapportSuccess=_expectRapportSuccess;
-@property _Bool expectsMultipleResponses; // @synthesize expectsMultipleResponses=_expectsMultipleResponses;
-@property(copy) NSString *requestStartTimeHeaderKey; // @synthesize requestStartTimeHeaderKey=_requestStartTimeHeaderKey;
-@property double timeToLive; // @synthesize timeToLive=_timeToLive;
-@property(copy) NSString *timeToLiveHeaderKey; // @synthesize timeToLiveHeaderKey=_timeToLiveHeaderKey;
-@property double timeoutOverride; // @synthesize timeoutOverride=_timeoutOverride;
-@property _Bool trackingDeviceReachability; // @synthesize trackingDeviceReachability=_trackingDeviceReachability;
 @property(copy) NSSet *transports; // @synthesize transports=_transports;
 
 @end

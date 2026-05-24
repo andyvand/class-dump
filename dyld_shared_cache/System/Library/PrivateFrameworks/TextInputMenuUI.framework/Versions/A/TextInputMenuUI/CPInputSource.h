@@ -6,14 +6,11 @@
 
 #import <TextInputMenuUI/InputSource.h>
 
-@class NSBundle, NSString;
+@class NSString;
 
 @interface CPInputSource : InputSource
 {
     NSString *fShowPalatteString;
-    NSString *fHidePalatteString;
-    NSString *fComponentBundleID;
-    NSBundle *fSourceBundle;
 }
 
 + (id);
@@ -21,7 +18,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);

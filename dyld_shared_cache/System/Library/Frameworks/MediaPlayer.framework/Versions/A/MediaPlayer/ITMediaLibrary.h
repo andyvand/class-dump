@@ -4,43 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ITLibrary, NSArray, NSMutableArray;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface ITMediaLibrary
 {
     NSMutableArray *_mediaItems;
-    struct MPConcurrentUnorderedMap _mediaItemsMap;
-    NSMutableArray *_mediaItemCollections;
-    struct MPConcurrentUnorderedMap _mediaItemCollectionsMap;
-    NSMutableArray *_playlists;
-    struct MPConcurrentUnorderedMap _playlistsMap;
-    NSMutableArray *_artists;
-    struct MPConcurrentUnorderedMap _artistsMap;
-    NSMutableArray *_albums;
-    struct MPConcurrentUnorderedMap _albumsMap;
-    NSMutableArray *_albumArtists;
-    struct MPConcurrentUnorderedMap _albumArtistsMap;
-    NSMutableArray *_genres;
-    struct MPConcurrentUnorderedMap _genresMap;
-    NSMutableArray *_composers;
-    struct MPConcurrentUnorderedMap _composersMap;
-    struct unordered_map<unsigned short, unsigned long, std::hash<unsigned short>, std::equal_to<unsigned short>, std::allocator<std::pair<const unsigned short, unsigned long>>> mSectionMap;
-    _Bool _needsReload;
-    ITLibrary *_itLibrary;
-    unsigned long long _currentRevision;
-    unsigned long long _mediaTypes;
-    unsigned long long _playlistAttributes;
 }
 
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)P;
 - (void);
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (id);
@@ -56,34 +35,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
-- (void);
+- (unsigned long long)eOffset"Q"bufferLayoutStride"Q}};
+- (void)textView:(_Bool)arg1 writingToolsIgnoredRangesInEnclosingRange: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void),V__MLCoreStorageLockPointer;
 - (id)r artworkType=%ld, sourceType=%ld;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *albumArtists; // @synthesize albumArtists=_albumArtists;
-@property(readonly, nonatomic) NSArray *albums;
-@property(readonly, nonatomic) NSArray *artists;
-@property(readonly, nonatomic) NSArray *composers;
-@property(readonly, nonatomic) unsigned long long currentRevision; // @synthesize currentRevision=_currentRevision;
-@property(readonly, nonatomic) NSArray *genres;
-@property(readonly, nonatomic) ITLibrary *itLibrary; // @synthesize itLibrary=_itLibrary;
-@property(readonly, nonatomic) NSArray *localizedSectionIndexTitles;
-@property(readonly, nonatomic) NSArray *mediaItems;
 @property(readonly, nonatomic) unsigned long long mediaTypes; // @synthesize mediaTypes=_mediaTypes;
-@property(nonatomic) _Bool needsReload; // @synthesize needsReload=_needsReload;
-@property(readonly, nonatomic) unsigned long long playlistAttributes; // @synthesize playlistAttributes=_playlistAttributes;
-@property(readonly, nonatomic) NSArray *playlists;
 
 @end
 

@@ -5,13 +5,13 @@
 //
 
 @interface UnknownClass (CloudKit)
-+ (id);
-+ (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
++ (id)iPhotoLibraryType;
++ (id)auxiliaryImageRecordsToPreserveForDerivativesFromPrimaryImageInImageSource:(id)arg1;
+- (id)loadOrCreateIndex;
+- (id)isProResLOG;
+- (id)embeddedJPEGSuitableForDerivativesInImageOfType:(id)arg1 url:(id)arg2 imageProperties:(id)arg3;
+- (id)effectiveScaleFactorForDestinationImageSize:(id)arg1;
+- (_Bool):(CDUnknownBlockType)arg1 sourceFaceAreaRectNormalized: /* Error: Ran out of types for this method. */;
+- (id)pRectNormalized:(CDUnknownBlockType)arg1 sourceAcceptableCropRectNormalized:sourceFaceAreaRectNormalized: /* Error: Ran out of types for this method. */;
 @end
 

@@ -4,52 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol UIPopoverControllerDelegate;
-
 @interface TSKPopoverController
 {
     _Bool mDismissOnUndo;
-    _Bool mDismissOnMoviePlayback;
-    _Bool mDismissAnimatedOnOrientationChange;
-    id <UIPopoverControllerDelegate> mSavedDelegate;
-    _Bool mIsDismissing;
 }
 
 + (double);
-+ (_Bool);
++ (_Bool)(H;
+- (void)one;
+- (void)ing - ignoring request to create a new one;
+- (void)eated - setup to follow;
+- (void)initialTransitionsMode;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)~;
 - (_Bool);
 - (void);
-- (id);
+- (void)TM2NArPl8SxaaQNKPLcoevQ;
+- (_Bool)n, sceneSession=%{public}@;
+- (void)activation URL context due to app open navigation, sceneSession=%{public}@;
+- (id)case:(id)arg1 tagType=;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool dismissAnimatedOnOrientationChange; // @synthesize dismissAnimatedOnOrientationChange=mDismissAnimatedOnOrientationChange;
-@property(nonatomic) _Bool dismissOnMoviePlayback; // @synthesize dismissOnMoviePlayback=mDismissOnMoviePlayback;
 @property(nonatomic) _Bool dismissOnUndo; // @synthesize dismissOnUndo=mDismissOnUndo;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

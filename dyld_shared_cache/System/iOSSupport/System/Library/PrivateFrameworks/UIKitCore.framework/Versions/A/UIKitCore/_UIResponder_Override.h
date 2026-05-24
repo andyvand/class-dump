@@ -10,22 +10,18 @@ __attribute__((visibility("hidden")))
 @interface _UIResponder_Override
 {
     UIResponder *_owner;
-    UIResponder *_target;
-    long long _types;
 }
 
 + (id);
 - (id);
 - (void);
-- (id);
-- (id)anglePath;
+- (id)y;
+- (id)_trianglePath;
 - (void)Èe;
 - (long long)\;
 
 // Remaining properties
 @property(readonly, nonatomic) __weak UIResponder *owner; // @synthesize owner=_owner;
-@property(readonly, nonatomic) __weak UIResponder *target; // @synthesize target=_target;
-@property(readonly, nonatomic) long long types; // @synthesize types=_types;
 
 @end
 

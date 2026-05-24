@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDate, NSDictionary, NSSet, NSString, NSUUID;
+@class NSUUID;
 
 @interface RTBluePOITile
 {
     NSUUID *_identifier;
-    NSDictionary *_apToModelMapping;
-    NSDate *_date;
-    NSData *_downloadKey;
-    NSData *_geoCacheInfo;
-    unsigned long long _geoTileKey;
-    NSDictionary *_hashedApToModelMapping;
-    NSString *_hashedApToModelMappingDataURL;
-    NSData *_hashSalt;
-    NSDictionary *_modelCalibrationParameters;
-    NSSet *_models;
-    NSArray *_modelURLs;
-    NSSet *_pointsOfInterest;
-    unsigned long long _singlePOIMuid;
-    double _size;
 }
 
 @end

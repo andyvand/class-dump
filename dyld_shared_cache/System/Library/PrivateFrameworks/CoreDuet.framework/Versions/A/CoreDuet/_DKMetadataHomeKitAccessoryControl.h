@@ -9,7 +9,7 @@
 }
 
 + (id);
-+ (id);
++ (id)a;
 + (id);
 + (id);
 + (id);
@@ -18,7 +18,7 @@
 + (id)sAllowedSearchableItem:Ignoring calendar item %@ in subscribed calendar %{private}@:%{sensitive}@ /* Error: Ran out of types for this method. */;
 + (id)has been decomissioned.;
 + (id)r/_CDDataCollection.m;
-+ (id)eractions;
++ (id)interactions;
 + (id);
 
 @end

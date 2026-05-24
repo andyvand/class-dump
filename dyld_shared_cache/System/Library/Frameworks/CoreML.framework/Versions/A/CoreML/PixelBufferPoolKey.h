@@ -8,11 +8,10 @@ __attribute__((visibility("hidden")))
 @interface PixelBufferPoolKey
 {
     unsigned int _pixelFormatType;
-    struct CGSize _frameSize;
 }
 
-- (id);
-- (unsigned int);
+- (id)uteDesc is not a MTLVertexAttributeDescriptor.;
+- (unsigned int);
 - (struct CGSize);
 - (unsigned long long);
 - (_Bool);
@@ -20,7 +19,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize frameSize; // @synthesize frameSize=_frameSize;
-@property(readonly, nonatomic) unsigned int pixelFormatType; // @synthesize pixelFormatType=_pixelFormatType;
 
 @end
 

@@ -4,9 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
+@class NSDate, NSString;
 
 @protocol DDSManagerDataSource
+- (NSDate *)setHasCurrentSpeed:(NSString *)arg1;
+- (NSDate *)A;
 
 // Remaining properties
 @property(readonly, copy) NSDate *date;

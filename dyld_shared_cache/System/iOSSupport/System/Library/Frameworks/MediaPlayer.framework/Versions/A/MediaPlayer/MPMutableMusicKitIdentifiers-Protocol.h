@@ -5,6 +5,8 @@
 //
 
 @protocol MPMutableMusicKitIdentifiers
+- (void)T
+;
 
 // Remaining properties
 @property(nonatomic, setter=musicKit_setPossibleLibraryPersistentID:) long long musicKit_possibleLibraryPersistentID;

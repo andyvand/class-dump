@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBImage, _SFPBRichText;
+@class NSArray;
 
 @interface _SFPBCompactRowCardSection
 {
     _Bool _canBeHidden;
-    _Bool _hasTopPadding;
-    _Bool _hasBottomPadding;
-    _Bool _isSubtitleDetatched;
-    int _separatorStyle;
-    NSArray *_punchoutOptions;
-    NSString *_punchoutPickerTitle;
-    NSString *_punchoutPickerDismissText;
-    NSString *_type;
-    _SFPBColor *_backgroundColor;
-    _SFPBRichText *_title;
-    _SFPBRichText *_subtitle;
-    _SFPBImage *_image;
 }
 
 - (void);
@@ -39,10 +27,11 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)Ĳ;
 - (_Bool);
 - (id);
-- (void);
+- (void)T}
+;
 - (void);
 - (void);
 - (unsigned long long);
@@ -51,41 +40,21 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)"haN;
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)isMomentFetchResult:(id)arg1 overlappingWithFetchResult: /* Error: Ran out of types for this method. */;
+- (id)@ has legacy slomo adjustment;
 - (void);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)r: /* Error: Ran out of types for this method. */;
+- (void)setForceOpenInBrowser: /* Error: Ran out of types for this method. */;
 - (int)±;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) _Bool canBeHidden; // @synthesize canBeHidden=_canBeHidden;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasBottomPadding; // @synthesize hasBottomPadding=_hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding; // @synthesize hasTopPadding=_hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _SFPBImage *image; // @synthesize image=_image;
-@property(nonatomic) _Bool isSubtitleDetatched; // @synthesize isSubtitleDetatched=_isSubtitleDetatched;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions; // @synthesize punchoutOptions=_punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText; // @synthesize punchoutPickerDismissText=_punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle; // @synthesize punchoutPickerTitle=_punchoutPickerTitle;
-@property(nonatomic) int separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(retain, nonatomic) _SFPBRichText *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _SFPBRichText *title; // @synthesize title=_title;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
 
 @end
 

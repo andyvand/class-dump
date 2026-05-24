@@ -14,7 +14,7 @@
 - (void);
 - (void);
 - (void);
-- (CDStruct_1b6d18a9)ers;
+- (CDStruct_1b6d18a9)_internalObservers;
 - (void)E¶¸8Ôûþ5¶¸\Ôûþ;
 - (void)?;
 

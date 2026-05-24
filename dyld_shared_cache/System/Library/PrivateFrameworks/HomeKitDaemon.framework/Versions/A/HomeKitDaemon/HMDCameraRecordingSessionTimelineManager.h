@@ -4,33 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableArray, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingSessionTimelineManager
 {
     NSObject<OS_dispatch_queue> *_workQueue;
-    double _fragmentDuration;
-    NSDate *_fragmentCreationReferenceDate;
-    NSMutableArray *_motionActiveDateIntervals;
-    NSMutableArray *_doorbellActiveDateIntervals;
-    NSString *_logIdentifier;
 }
 
 + (id)*[ÿ!UÈ;
+- (id)(;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (void);
+- (void)/;
 - (void);
 - (double);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id)°1Â0@ù
 × ;
@@ -38,18 +33,6 @@ __attribute__((visibility("hidden")))
 - (void)G;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSMutableArray *doorbellActiveDateIntervals; // @synthesize doorbellActiveDateIntervals=_doorbellActiveDateIntervals;
-@property(readonly, copy) NSDate *fragmentCreationReferenceDate; // @synthesize fragmentCreationReferenceDate=_fragmentCreationReferenceDate;
-@property(readonly) double fragmentDuration; // @synthesize fragmentDuration=_fragmentDuration;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *logIdentifier; // @synthesize logIdentifier=_logIdentifier;
-@property(readonly) NSMutableArray *motionActiveDateIntervals; // @synthesize motionActiveDateIntervals=_motionActiveDateIntervals;
-@property(readonly) Class superclass;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     NSString *_identifier;
 }
 
-+ (id);
++ (id)T;
 - (id);
 - (id);
 - (unsigned long long);
@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void)ndLabels;
+- (void)_centersPhotoAndLabels;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;

@@ -10,8 +10,8 @@
 {
 }
 
-- (id);
-- (struct CGSize);
+- (id)onViewItem"8;
+- (struct CGSize)gearshape.fill;
 - (id);
 - (id);
 - (long long);
@@ -21,8 +21,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) struct UIEdgeInsets contentInsets;
-@property(nonatomic, readonly) long long selectedRichCardIndex;
-@property(nonatomic, readonly) long long totalCount;
 
 @end
 

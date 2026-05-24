@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarRecordDataSource, AVTUIEnvironment, NSArray;
-@protocol AVTAvatarListItem, AVTAvatarStore;
+@class NSArray;
 
 @interface AVTAvatarPickerDataSource
 {
     _Bool _allowAddItem;
-    AVTUIEnvironment *_environment;
-    AVTAvatarRecordDataSource *_recordDataSource;
-    NSArray *_items;
-    id <AVTAvatarListItem> _addItem;
 }
 
 - (void);
@@ -26,21 +21,16 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)h=%p, size (0x%X) too small;
 - (id);
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <AVTAvatarListItem> addItem; // @synthesize addItem=_addItem;
-@property(nonatomic) _Bool allowAddItem; // @synthesize allowAddItem=_allowAddItem;
-@property(readonly, nonatomic) AVTUIEnvironment *environment; // @synthesize environment=_environment;
 @property(retain, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(readonly, nonatomic) AVTAvatarRecordDataSource *recordDataSource; // @synthesize recordDataSource=_recordDataSource;
-@property(readonly, nonatomic) id <AVTAvatarStore> store;
 
 @end
 

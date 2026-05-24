@@ -5,18 +5,15 @@
 //
 
 @class NSArray;
-@protocol GEOVenueFloorInfo;
 
 @protocol GEOVenueComponentIdentifier
+- (_Bool)updateDictionary:shouldMigrateIfNecessary: /* Error: Ran out of types for this method. */;
+- (_Bool)updateCachedContainersWithValuesFromPersistentStore;
+- (_Bool)unsignedLongLongValue;
+- (unsigned long long)cntrl_"^{__shared_weak_count}};
+- (NSArray *)isDefaultInputBuiltInMic;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long buildingID;
-@property(readonly, nonatomic) unsigned long long fixtureID;
-@property(readonly, nonatomic) id <GEOVenueFloorInfo> floorInfo;
 @property(readonly, nonatomic, getter=_hasBuildingID) _Bool hasBuildingID;
-@property(readonly, nonatomic, getter=_hasFixtureID) _Bool hasFixtureID;
-@property(readonly, nonatomic, getter=_hasUnitID) _Bool hasUnitID;
-@property(readonly, nonatomic) NSArray *sectionIDs;
-@property(readonly, nonatomic) unsigned long long unitID;
 @end
 

@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUTResult, NSArray;
+@class NSArray;
 
 @interface ENAsyncReducerState
 {
     NSArray *_visitedItems;
-    NSArray *_pendingItems;
-    id _currentItem;
-    CUTResult *_currentResult;
-    CDUnknownBlockType _cancelBlock;
-    CDUnknownBlockType _continueBlock;
-    CDUnknownBlockType _stopBlock;
 }
 
 - (void);
@@ -37,12 +31,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType cancelBlock; // @synthesize cancelBlock=_cancelBlock;
-@property(copy, nonatomic) CDUnknownBlockType continueBlock; // @synthesize continueBlock=_continueBlock;
-@property(retain, nonatomic) id currentItem; // @synthesize currentItem=_currentItem;
-@property(retain, nonatomic) CUTResult *currentResult; // @synthesize currentResult=_currentResult;
-@property(retain, nonatomic) NSArray *pendingItems; // @synthesize pendingItems=_pendingItems;
-@property(copy, nonatomic) CDUnknownBlockType stopBlock; // @synthesize stopBlock=_stopBlock;
 @property(retain, nonatomic) NSArray *visitedItems; // @synthesize visitedItems=_visitedItems;
 
 @end

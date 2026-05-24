@@ -7,9 +7,6 @@
 @interface IDSFoundation.IDSLinksQualityBasicStatsOngoingTask
 {
     id name;
-    id state;
-    id timeSource;
-    id interval;
 }
 
 @end

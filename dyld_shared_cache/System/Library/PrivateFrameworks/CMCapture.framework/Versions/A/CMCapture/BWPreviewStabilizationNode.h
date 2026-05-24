@@ -6,39 +6,18 @@
 
 #import <CMCapture/BWNode.h>
 
-@class BWPreviewGyroStabilization, BWRamp, NSDictionary, NSString;
+@class BWPreviewGyroStabilization;
 
 @interface BWPreviewStabilizationNode : BWNode
 {
     BWPreviewGyroStabilization *_previewStabilization;
-    NSDictionary *_staticParametersByPortType;
-    _Bool _updateFinalCropRectWithStabilizationShift;
-    _Bool _stabilizeFallbackCamera;
-    _Bool _enableStabilizationTransitionRamps;
-    _Bool _rampOffStabilizationForGraphStop;
-    BWRamp *_stabilizationTransitionRamp;
-    BWRamp *_stabilizationCameraFallbackRamp;
-    _Bool _stabilizationCameraFallbackRampEnabled;
-    int _stabilizationEnterRampFrameCount;
-    int _stabilizationExitRampFrameCount;
-    int _stabilizationCameraFallbackRampFrameCount;
-    int _stabilizationGraphStopRampOffFrameCount;
-    int _lastRecommendedMasterSelectionReason;
-    NSString *_lastRecommendedMasterPortType;
-    NSString *_lastPortType;
-    _Bool _lastStabilizingEnabled;
-    struct CGPoint _appliedTranslation;
-    struct CGPoint _lastTranslationBeforeCameraFallbackRampStart;
-    _Bool _isStillImagePreview;
-    float _minimumSupportedUIZoomFactor;
-    float _photoModeFullStrengthUIZoomFactor;
 }
 
 + (void)isMovieInfo.movieStartTime) == 0));
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void)ܫ;
 - (void);
 - (id);
 - (id)erializationSizeV3 returned error %d, skipping Live Photo metadata;

@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface DDBridgeEdge
 {
     long long upstreamNodeIndex;
     long long downstreamNodeIndex;
-    void upstreamOutputName;
-    void downstreamInputName;
 }
 
 - (id);
 - (long long);
+- (id);
+- (long long);
 - (id);
-- (long long);
-- (id);
-- (id);
+- (id)ian (ToLanguage);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *downstreamInputName;
 @property(nonatomic, readonly) long long downstreamNodeIndex; // @synthesize downstreamNodeIndex;
 @property(nonatomic, readonly) long long upstreamNodeIndex; // @synthesize upstreamNodeIndex;
-@property(nonatomic, readonly) NSString *upstreamOutputName;
 
 @end
 

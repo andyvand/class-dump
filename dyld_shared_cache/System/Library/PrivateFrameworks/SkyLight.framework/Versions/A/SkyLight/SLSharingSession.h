@@ -4,31 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface SLSharingSession
 {
     int _type;
-    unsigned int _lifetimePort;
-    NSString *_title;
-    NSUUID *_uuid_internal;
 }
 
-- (id);
+- (id).m;
+- (void)dImportWithLabel:activity:voucher:completionHandler:] /* Error: Ran out of types for this method. */;
+- (void)ery:(id)arg1 fromShareAccept:andStartAfterDate:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void)k_invoke;
+- (void)cation:(unsigned int)arg1 ];
+- (unsigned int)NSCloudKitMirroringDelegateReadOnlyOptionKey;
+- (_Bool)s.;
+- (id)entified by the keyPath.;
+- (id)ip than other predicates in this trigger.;
+- (id)%p;
+- (CDStruct_bd2f613f)XQWxbCSoMfIJVbLF2LSGM/Library/Caches/com.apple.xbs/TemporaryDirectory.aLAJrA/Sources/Persistence/source/NSFileBackedFuture.m;
+- (id)storyPages - %lld;
 - (void);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (CDStruct_bd2f613f);
-- (id);
-- (void);
-- (id);
-- (unsigned long long);
+- (unsigned long long)< ;
 - (int);
 - (_Bool);
 - (void);
@@ -38,11 +35,7 @@
 - (id)=}32@0:8@16^@24 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned int lifetimePort; // @synthesize lifetimePort=_lifetimePort;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(nonatomic) int type; // @synthesize type=_type;
 @property(readonly, nonatomic) NSUUID *uuid;
-@property(retain, nonatomic) NSUUID *uuid_internal; // @synthesize uuid_internal=_uuid_internal;
 
 @end
 

@@ -10,25 +10,23 @@
 @interface AXUISoftwareKeyboardManager
 {
     NSMutableSet *_reasonsToDisableSoftwareKeyboard;
-    NSMutableSet *_reasonsToEnableSoftwareKeyboard;
-    id <AXUISoftwareKeyboardManagerDelegate> _delegate;
 }
 
 + (id);
 - (void);
+- (void);
+- (void)?z;
 - (void);
 - (void);
 - (void);
+- (void)|;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 

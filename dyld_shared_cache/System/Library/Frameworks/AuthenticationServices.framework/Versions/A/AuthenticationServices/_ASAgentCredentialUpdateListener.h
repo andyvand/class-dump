@@ -7,15 +7,13 @@
 @interface _ASAgentCredentialUpdateListener
 {
     id listener;
-    id internalLock;
-    id domainsToPartialAccountStore;
 }
 
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)startTrackingAt:inView: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 

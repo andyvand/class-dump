@@ -6,17 +6,11 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, AMSDelegatePurchaseRequest, NSNumber, NSString;
-@protocol AMSBagProtocol;
+@class AMSDelegatePurchaseRequest;
 
 @interface AMSDelegatePurchasePaymentDialogTask : AMSTask
 {
     AMSDelegatePurchaseRequest *_currentRequest;
-    ACAccount *_account;
-    id <AMSBagProtocol> _bag;
-    NSNumber *_designVersion;
-    NSString *_requestingPlatform;
-    NSString *_targetPlatformVersion;
 }
 
 - (id);
@@ -28,7 +22,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)ed preview using inefficient BlastDoor.;
 - (id);
 - (void)¢&2>§.ÜÖÀ6ùA:$Q1û·çH±M_Ä­oû<'Ö)Ù§1 b!9ä}.QcGWö*}àµØnQGõcóÅ#aóÜ'.{g7p¸ZÎ /* Error: Ran out of types for this method. */;
 - (id)]zÝ÷>ô£×b)ÖoëH¶|S%3^§û
@@ -36,12 +30,7 @@ læ´À7pÖÜ<3Ð@\d	ç eÏ_Õò8´ÚB]âlPá$¥Â¡ý2gúÔLy
 |.ÐÅ²çøªß/»ww2F;
 
 // Remaining properties
-@property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
 @property(retain) AMSDelegatePurchaseRequest *currentRequest; // @synthesize currentRequest=_currentRequest;
-@property(readonly) NSNumber *designVersion; // @synthesize designVersion=_designVersion;
-@property(readonly) NSString *requestingPlatform; // @synthesize requestingPlatform=_requestingPlatform;
-@property(readonly) NSString *targetPlatformVersion; // @synthesize targetPlatformVersion=_targetPlatformVersion;
 
 @end
 

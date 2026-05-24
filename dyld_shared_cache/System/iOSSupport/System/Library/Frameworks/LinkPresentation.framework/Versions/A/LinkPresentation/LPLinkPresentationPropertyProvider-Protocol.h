@@ -4,11 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPIndeterminateProgressSpinnerPresentationProperties, NSNumber;
+@class LPARAsset, LPCaptionBarPresentationProperties, LPImage, LPImagePresentationProperties, LPIndeterminateProgressSpinnerPresentationProperties, LPInlineMediaPlaybackInformation, NSNumber, NSString, UIColor;
 
 @protocol LPLinkPresentationPropertyProvider
 
 @optional
+- (NSString *)updateAccessoryIndicatorsForCurrentState;
+- (NSString *)unsubscribeAlertControllerActionHandler;
+- (NSString *)unsignedIntegerValueForKey:withDefault: /* Error: Ran out of types for this method. */;
+- (NSString *)transcriptTextFontLanguageAwareOutsets;
+- (NSNumber *)transcriptReplyCountColor;
+- (LPCaptionBarPresentationProperties *)transcriptMinBottomInsetIsEntryViewHeight;
+- (LPCaptionBarPresentationProperties *)transcriptMessageCell:didTapMessageDeliveryFailureButton: /* Error: Ran out of types for this method. */;
+- (NSString *)transcriptMarginInsets;
+- (_Bool)transcriptControllerClass;
+- (LPInlineMediaPlaybackInformation *)transcriptCollectionViewControllerShouldLayoutFullscreenEffects: /* Error: Ran out of types for this method. */;
+- (UIColor *)transcriptCollectionViewController:balloonView:shouldSelectChatItem: /* Error: Ran out of types for this method. */;
+- (NSString *)transcriptCollectionViewController:balloonView:selectedItemAtIndexPath: /* Error: Ran out of types for this method. */;
+- (LPCaptionBarPresentationProperties *)transcriptBackground:balloonAttributesForChatItemGuid: /* Error: Ran out of types for this method. */;
+- (NSString *)traitMutationsForSnapshotRendering;
+- (LPImagePresentationProperties *)traitCollectionWithPreferredContentSizeCategory: /* Error: Ran out of types for this method. */;
+- (_Bool)touchUpInsideCellBlockContactButton: /* Error: Ran out of types for this method. */;
+- (NSString *)tapbackPickerCanOverflowPresentationBounds;
+- (LPARAsset *)tapbackPickerBalloonParentView:showCatalystEmojiKeyboardFromView: /* Error: Ran out of types for this method. */;
+- (LPImage *)D;
 - (NSNumber *)entationProperties",&,N,V_leadingIconBadgeProperties;
 
 // Remaining properties

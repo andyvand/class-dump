@@ -9,15 +9,14 @@
 @interface BKSHIDEventBiometricDescriptor : BKSHIDEventDescriptor
 {
     _Bool _isWildcard;
-    unsigned int _biometricEventType;
 }
 
-+ (id);
-+ (_Bool);
++ (id);
++ (_Bool)A;
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)reportThroughputMetricsForIdentifier:(id)arg1 taskName:itemCount:totalDuration:qos:workloadCategory:expectedValue:withHandler: /* Error: Ran out of types for this method. */;
+- (id)vectorCount;
+- (_Bool)com.apple.appleaccount.custodian.setup.finalizeSetupWithServer;
 - (unsigned long long);
 - (_Bool);
 - (unsigned int);

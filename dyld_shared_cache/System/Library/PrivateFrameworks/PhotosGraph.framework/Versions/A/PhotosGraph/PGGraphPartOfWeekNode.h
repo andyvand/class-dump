@@ -11,7 +11,7 @@
 }
 
 + (id)AssetScoringContext"16;
-- (unsigned short);
+- (unsigned short)ode count=;
 
 @end
 

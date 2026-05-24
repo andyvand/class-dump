@@ -5,5 +5,8 @@
 //
 
 @protocol MKIncidentDetailDelegate
+
+@optional
+- (void);
 @end
 

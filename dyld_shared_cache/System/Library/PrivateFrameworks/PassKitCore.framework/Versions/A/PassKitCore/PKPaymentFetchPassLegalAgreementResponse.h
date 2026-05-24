@@ -15,7 +15,7 @@
 
 - (id);
 - (id);
-- (void)ontainerIdentifier;
+- (void)containerIdentifier;
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *agreementUrl; // @synthesize agreementUrl=_agreementUrl;

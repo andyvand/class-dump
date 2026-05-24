@@ -6,24 +6,9 @@
 
 #import <IDSFoundation/IDSSocketPairMessage.h>
 
-@class NSData, NSDate, NSString;
-
 @interface IDSSocketPairProtobufMessage : IDSSocketPairMessage
 {
     unsigned long long _payloadOffset;
-    unsigned long long _payloadLength;
-    unsigned short _isResponse;
-    unsigned short _type;
-    NSData *_data;
-    unsigned int _sequenceNumber;
-    unsigned short _streamID;
-    _Bool _expectsPeerResponse;
-    _Bool _wantsAppAck;
-    _Bool _compressed;
-    _Bool _didWakeHint;
-    NSString *_peerResponseIdentifier;
-    NSString *_messageUUID;
-    NSDate *_expiryDate;
 }
 
 - (void);
@@ -41,27 +26,17 @@
 - (id);
 - (void);
 - (void);
-- (unsigned short);
+- (unsigned short)_setTestDatabaseWithMockGenerators: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (unsigned int);
+- (unsigned int)Could not translate device address string to device address
+;
 - (unsigned char);
 - (void)ave %u pieces, %u expected, 0 length;
 - (id):did not find candidate pairs for session %@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool compressed; // @synthesize compressed=_compressed;
-@property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
-@property(nonatomic) _Bool didWakeHint; // @synthesize didWakeHint=_didWakeHint;
-@property(readonly, nonatomic) _Bool expectsPeerResponse; // @synthesize expectsPeerResponse=_expectsPeerResponse;
-@property(retain, nonatomic) NSDate *expiryDate; // @synthesize expiryDate=_expiryDate;
 @property(readonly, nonatomic) unsigned short isResponse; // @synthesize isResponse=_isResponse;
-@property(readonly, nonatomic) NSString *messageUUID; // @synthesize messageUUID=_messageUUID;
-@property(readonly, nonatomic) NSString *peerResponseIdentifier; // @synthesize peerResponseIdentifier=_peerResponseIdentifier;
-@property(nonatomic) unsigned int sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
-@property(nonatomic) unsigned short streamID; // @synthesize streamID=_streamID;
-@property(readonly, nonatomic) unsigned short type; // @synthesize type=_type;
-@property(readonly, nonatomic) _Bool wantsAppAck; // @synthesize wantsAppAck=_wantsAppAck;
 
 @end
 

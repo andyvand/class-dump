@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NETSchemaNETClientEvent, NSUUID;
+@class NSUUID;
 
 @interface SiriCoreNetEventMessage
 {
     NSUUID *_netId;
-    NETSchemaNETClientEvent *_clientEvent;
-    unsigned long long _timestamp;
 }
 
-- (id);
-- (void);
-- (void);
+- (id)metrics_isCellular;
+- (void)uler;
+- (void)parkway;
 - (id);
 - (unsigned long long);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NETSchemaNETClientEvent *clientEvent; // @synthesize clientEvent=_clientEvent;
 @property(retain, nonatomic) NSUUID *netId; // @synthesize netId=_netId;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -7,11 +7,10 @@
 @interface FamilyCircleUI.RecoveryContactSpecialDelegate
 {
     id didDismiss;
-    id dismiss;
 }
 
 - (void);
-- (void);
+- (void)st28147-89-CryptoPro-RIC-1-ParamSet;
 - (id);
 - (void),ÜætçXè;
 

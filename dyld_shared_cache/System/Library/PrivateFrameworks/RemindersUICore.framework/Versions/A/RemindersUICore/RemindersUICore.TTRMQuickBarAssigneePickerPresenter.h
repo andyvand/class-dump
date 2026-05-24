@@ -7,11 +7,6 @@
 @interface RemindersUICore.TTRMQuickBarAssigneePickerPresenter
 {
     id delegate;
-    id moduleDelegate;
-    id interactor;
-    id deferredAction;
-    id isEditing;
-    id displayedAssignee;
 }
 
 @end

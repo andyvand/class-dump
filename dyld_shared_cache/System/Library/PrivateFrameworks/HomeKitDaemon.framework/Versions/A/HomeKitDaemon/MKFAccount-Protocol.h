@@ -4,10 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccountIdentifier, MKFAccountDatabaseID, NSArray, NSDate, NSNumber;
-@protocol MKFAccountHandle, MKFHomeManager;
+@class HMDAccountIdentifier, NSArray;
+@protocol MKFAccountHandle, MKFDevice, MKFHomeManager;
 
 @protocol MKFAccount
+- (id <MKFAccountHandle>)Category;
+- (id <MKFDevice>);
+- (void)handleCursorImageUpdate:(NSArray *)arg1 ];
+- (void)targetAddress;
 - (NSArray *)activeDaysPerMonthCount;
 - (id <MKFAccountHandle>)estinationManager",&,V_audioDestinationManager;
 - (HMDAccountIdentifier *)ueuedMessageDelegate>",W,V_delegate;
@@ -15,12 +19,6 @@
 - (NSArray *){public}@Failed to decode identifier:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFAccountDatabaseID *databaseID;
-@property(readonly, retain, nonatomic) NSArray *devices;
-@property(readonly, retain, nonatomic) NSArray *handles;
-@property(readonly, retain, nonatomic) id <MKFHomeManager> homeManager;
 @property(retain, nonatomic) HMDAccountIdentifier *identifier;
-@property(copy, nonatomic) NSNumber *local;
-@property(copy, nonatomic) NSDate *writerTimestamp;
 @end
 

@@ -4,49 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FBSSceneClientSettings, FBSSceneSettings, FBSSceneSpecification, NSString;
+@class FBSSceneSettings;
 
 @interface FBSSceneParameters
 {
     FBSSceneSettings *_settings;
-    FBSSceneClientSettings *_clientSettings;
-    FBSSceneSpecification *_specification;
 }
 
-+ (id);
++ (id)System/Library/dyld/;
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)?;
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
+- (id)createCompletedWithDictionary:context: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)RTION FAILURE [(result != std:(id)arg1:end(_publicAudioResources)) != 0 is false]: /* Error: Ran out of types for this method. */;
+- (id)AVCFMutableScheduledAudioParameters;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) FBSSceneClientSettings *clientSettings; // @synthesize clientSettings=_clientSettings;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) FBSSceneSettings *settings; // @synthesize settings=_settings;
-@property(readonly, copy, nonatomic) FBSSceneSpecification *specification; // @synthesize specification=_specification;
-@property(readonly) Class superclass;
 
 @end
 

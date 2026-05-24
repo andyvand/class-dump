@@ -7,22 +7,6 @@
 @interface SPTrackingAvoidancePolicy
 {
     _Bool _surfaceImmediatelyBetweenBackstopAndKeyroll;
-    _Bool _shouldAlertImmediatelyForImmediateTypes;
-    _Bool _allowNavGeoHintAsPrivateVehicleHint;
-    long long _type;
-    double _expiryTimeInterval;
-    double _purgeTimeInterval;
-    double _keepAliveInterval;
-    double _minimumStagingInterval;
-    long long _stagingBackstopHour;
-    long long _assumedKeyRollHour;
-    double _scanInterval;
-    double _maxExpectedWildInterval;
-    double _durationOfConsideration;
-    double _thresholdOfLocationRelevance;
-    double _thresholdOfSignificantDuration;
-    double _thresholdOfSignificantDistance;
-    double _capOfReasonableWalkingSpeed;
 }
 
 + (_Bool);
@@ -43,7 +27,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (void);
 - (double);
 - (double);
@@ -57,7 +41,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)A;
 - (double);
 - (double);
 - (long long);
@@ -67,22 +51,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowNavGeoHintAsPrivateVehicleHint; // @synthesize allowNavGeoHintAsPrivateVehicleHint=_allowNavGeoHintAsPrivateVehicleHint;
-@property(nonatomic) long long assumedKeyRollHour; // @synthesize assumedKeyRollHour=_assumedKeyRollHour;
-@property(nonatomic) double capOfReasonableWalkingSpeed; // @synthesize capOfReasonableWalkingSpeed=_capOfReasonableWalkingSpeed;
-@property(nonatomic) double durationOfConsideration; // @synthesize durationOfConsideration=_durationOfConsideration;
-@property(nonatomic) double expiryTimeInterval; // @synthesize expiryTimeInterval=_expiryTimeInterval;
-@property(nonatomic) double keepAliveInterval; // @synthesize keepAliveInterval=_keepAliveInterval;
-@property(nonatomic) double maxExpectedWildInterval; // @synthesize maxExpectedWildInterval=_maxExpectedWildInterval;
-@property(nonatomic) double minimumStagingInterval; // @synthesize minimumStagingInterval=_minimumStagingInterval;
-@property(nonatomic) double purgeTimeInterval; // @synthesize purgeTimeInterval=_purgeTimeInterval;
-@property(nonatomic) double scanInterval; // @synthesize scanInterval=_scanInterval;
-@property(nonatomic) _Bool shouldAlertImmediatelyForImmediateTypes; // @synthesize shouldAlertImmediatelyForImmediateTypes=_shouldAlertImmediatelyForImmediateTypes;
-@property(nonatomic) long long stagingBackstopHour; // @synthesize stagingBackstopHour=_stagingBackstopHour;
-@property(nonatomic) _Bool surfaceImmediatelyBetweenBackstopAndKeyroll; // @synthesize surfaceImmediatelyBetweenBackstopAndKeyroll=_surfaceImmediatelyBetweenBackstopAndKeyroll;
-@property(nonatomic) double thresholdOfLocationRelevance; // @synthesize thresholdOfLocationRelevance=_thresholdOfLocationRelevance;
-@property(nonatomic) double thresholdOfSignificantDistance; // @synthesize thresholdOfSignificantDistance=_thresholdOfSignificantDistance;
-@property(nonatomic) double thresholdOfSignificantDuration; // @synthesize thresholdOfSignificantDuration=_thresholdOfSignificantDuration;
 @property(nonatomic) long long type; // @synthesize type=_type;
 
 @end

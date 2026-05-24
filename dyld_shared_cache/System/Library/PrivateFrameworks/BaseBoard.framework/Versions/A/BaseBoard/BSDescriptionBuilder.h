@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableString, NSString;
 @protocol NSObject;
 
 @interface BSDescriptionBuilder
 {
     id <NSObject> _object;
-    NSMutableString *_proem;
-    NSMutableString *_description;
-    _Bool _useDebugDescription;
-    int _activeComponent;
-    NSString *_activePrefix;
 }
 
 + (id);
@@ -27,10 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) int activeComponent; // @synthesize activeComponent=_activeComponent;
-@property(retain, nonatomic) NSString *activeMultilinePrefix; // @synthesize activeMultilinePrefix=_activePrefix;
-@property(readonly, nonatomic) _Bool hasDebugStyle;
-@property(readonly, nonatomic) _Bool hasSuccinctStyle;
-@property(nonatomic) _Bool useDebugDescription; // @synthesize useDebugDescription=_useDebugDescription;
 
 @end
 

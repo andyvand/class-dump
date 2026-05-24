@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface _DPJSONSegment
 {
     NSString *_key;
-    NSString *_serverAlgorithmString;
-    NSArray *_records;
-    NSDictionary *_parameterDictionary;
 }
 
 - (id);
 - (id);
+- (id)Ț	;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)_removeVisibleObserverFromWindow;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(readonly, nonatomic) NSDictionary *parameterDictionary; // @synthesize parameterDictionary=_parameterDictionary;
-@property(readonly, nonatomic) NSArray *records; // @synthesize records=_records;
-@property(readonly, copy, nonatomic) NSString *serverAlgorithmString; // @synthesize serverAlgorithmString=_serverAlgorithmString;
 
 @end
 

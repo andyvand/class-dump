@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface FLSchemaFLTaskOutcome : SISchemaInstrumentationMessage
 {
     int _taskStatus;
-    int _promptStatus;
-    struct {
-        unsigned int taskStatus:1;
-        unsigned int promptStatus:1;
-    } _has;
 }
 
 - (int);
@@ -25,12 +18,12 @@
 - (void);
 - (int);
 - (_Bool);
-- (void);
+- (void)tF;
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)DownloadProgress;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -39,10 +32,6 @@
 - (id)x&**`.T0;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPromptStatus;
-@property(nonatomic) _Bool hasTaskStatus;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int promptStatus; // @synthesize promptStatus=_promptStatus;
 @property(nonatomic) int taskStatus; // @synthesize taskStatus=_taskStatus;
 
 @end

@@ -6,20 +6,11 @@
 
 #import <AccessibilityVisuals/AXVWindow.h>
 
-@class NSArray, NSAttributedString, NSMutableArray, NSRunningApplication, NSScrollView, NSSplitView, NSString, NSTextField;
-@protocol NSTextFieldDelegate;
+@class NSSplitView;
 
 @interface AXVSearchDropDownWindow : AXVWindow
 {
     _Bool _dropDownEnabled;
-    double _dropDownHeight;
-    Class _sectionViewClass;
-    NSSplitView *__topLevelSplitView;
-    NSScrollView *__dropDownScrollView;
-    NSSplitView *__dropDownSplitView;
-    NSTextField *__searchTextField;
-    NSRunningApplication *__previouslyActiveApplication;
-    NSMutableArray *__mutableSections;
 }
 
 - (void);
@@ -28,16 +19,16 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (Class);
+- (Class);
 - (id);
 - (void);
 - (void);
@@ -46,11 +37,11 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
-- (double);
+- (double))	;
 - (_Bool);
 - (id);
 - (void);
@@ -79,33 +70,10 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSScrollView *_dropDownScrollView; // @synthesize _dropDownScrollView=__dropDownScrollView;
-@property(retain, nonatomic) NSSplitView *_dropDownSplitView; // @synthesize _dropDownSplitView=__dropDownSplitView;
-@property(retain, nonatomic) NSMutableArray *_mutableSections; // @synthesize _mutableSections=__mutableSections;
-@property(retain, nonatomic) NSRunningApplication *_previouslyActiveApplication; // @synthesize _previouslyActiveApplication=__previouslyActiveApplication;
-@property(retain, nonatomic) NSTextField *_searchTextField; // @synthesize _searchTextField=__searchTextField;
-@property(readonly, nonatomic) NSArray *_sectionViews;
 @property(retain, nonatomic) NSSplitView *_topLevelSplitView; // @synthesize _topLevelSplitView=__topLevelSplitView;
-@property(retain, nonatomic) NSAttributedString *attributedSearchText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool dropDownEnabled; // @synthesize dropDownEnabled=_dropDownEnabled;
-@property(nonatomic) double dropDownHeight; // @synthesize dropDownHeight=_dropDownHeight;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *items;
-@property(retain, nonatomic) NSAttributedString *placeholderAttributedSearchText;
-@property(retain, nonatomic) NSString *placeholderSearchText;
-@property(retain, nonatomic) NSString *searchText;
-@property(nonatomic) __weak id <NSTextFieldDelegate> searchTextDelegate;
-@property(retain, nonatomic) Class sectionViewClass; // @synthesize sectionViewClass=_sectionViewClass;
-@property(readonly, nonatomic) NSArray *sections;
-@property(readonly) Class superclass;
 
 @end
 

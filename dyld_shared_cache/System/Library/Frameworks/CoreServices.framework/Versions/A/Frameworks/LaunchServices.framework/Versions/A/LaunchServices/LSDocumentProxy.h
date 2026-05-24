@@ -6,16 +6,9 @@
 
 #import <LaunchServices/LSResourceProxy.h>
 
-@class NSString, NSURL;
-
 @interface LSDocumentProxy : LSResourceProxy
 {
     CDStruct_4c969caf _sourceAuditToken;
-    _Bool _isContentManaged;
-    NSURL *_URL;
-    NSString *_name;
-    NSString *_typeIdentifier;
-    NSString *_MIMEType;
 }
 
 + (id);
@@ -26,7 +19,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)"24@"MTLAccelerationStructureDescriptor"32;
 + (id);
 - (const CDStruct_4c969caf *);
 - (_Bool);
@@ -43,31 +36,22 @@
 - (id);
 - (id);
 - (_Bool);
+- (id)T;
 - (id);
-- (id);
-- (const CDStruct_4c969caf *);
+- (const CDStruct_4c969caf *)�;
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
 - (id)ly missing %@ entitlement.;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *MIMEType; // @synthesize MIMEType=_MIMEType;
-@property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;
-@property(readonly, nonatomic) NSString *containerOwnerApplicationIdentifier;
-@property(readonly, nonatomic, getter=isContentManaged) _Bool contentManaged; // @synthesize contentManaged=_isContentManaged;
 @property(readonly, getter=isImageOrVideo) _Bool imageOrVideo;
-@property(readonly, nonatomic) const CDStruct_4c969caf *managedSourceAuditToken;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) const CDStruct_4c969caf *sourceAuditToken; // @dynamic sourceAuditToken;
-@property(readonly, nonatomic) _Bool sourceIsManaged;
-@property(readonly, nonatomic) NSString *typeIdentifier; // @synthesize typeIdentifier=_typeIdentifier;
 
 @end
 

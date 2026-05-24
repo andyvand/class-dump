@@ -4,10 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol RTCI420Buffer;
+
 @protocol RTCVideoFrameBuffer
+- (id <RTCI420Buffer>)ldRoots/4~COGKugDSBqHPySrpIDrOH-23Ov2kd1KJv88U1zI/Library/Caches/com.apple.xbs/TemporaryDirectory.BadC4D/Sources/ImageIO/XMP-Toolkit-SDK/XMPFiles/source/FileHandlers/GIF_Handler.cpp at line 158;
 
 // Remaining properties
-@property(readonly, nonatomic) int height;
 @property(readonly, nonatomic) int width;
 @end
 

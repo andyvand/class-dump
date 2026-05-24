@@ -7,10 +7,6 @@
 @interface Vision.DetectDeviceGazeRequest
 {
     id revision;
-    id uuid;
-    id state;
-    id supportedComputeStageDevices;
-    id configuration;
 }
 
 @end

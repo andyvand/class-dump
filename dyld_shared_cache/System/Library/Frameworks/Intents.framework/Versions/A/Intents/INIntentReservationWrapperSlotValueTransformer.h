@@ -9,9 +9,9 @@
 }
 
 + (_Bool);
++ (Class);
 + (Class);
-+ (Class);
-+ (long long)upportedReason: /* Error: Ran out of types for this method. */;
++ (long long)setSetTaskAttributeIntentTemporalEventTriggerUnsupportedReason: /* Error: Ran out of types for this method. */;
 - (id);
 - (id),V_offerTitleText;
 

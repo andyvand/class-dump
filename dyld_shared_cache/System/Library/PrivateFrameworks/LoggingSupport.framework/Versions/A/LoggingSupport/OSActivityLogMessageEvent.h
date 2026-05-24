@@ -11,9 +11,6 @@
 @interface OSActivityLogMessageEvent : OSActivityEventMessage
 {
     unsigned char _messageType;
-    NSString *_subsystem;
-    NSString *_category;
-    unsigned long long _senderProgramCounter;
 }
 
 - (unsigned long long);
@@ -22,12 +19,9 @@
 - (id);
 - (unsigned char);
 - (id);
-- (void);
+- (void)_;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *category; // @synthesize category=_category;
-@property(readonly, nonatomic) unsigned char messageType; // @synthesize messageType=_messageType;
-@property(readonly, nonatomic) unsigned long long senderProgramCounter; // @synthesize senderProgramCounter=_senderProgramCounter;
 @property(readonly, copy, nonatomic) NSString *subsystem; // @synthesize subsystem=_subsystem;
 
 @end

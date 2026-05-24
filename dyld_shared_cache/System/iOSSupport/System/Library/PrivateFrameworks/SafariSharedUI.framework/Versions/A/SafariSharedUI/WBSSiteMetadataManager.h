@@ -4,30 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCountedSet, NSMapTable, NSMutableArray, NSMutableDictionary, NSMutableSet, NSObject, NSOperationQueue, NSPointerArray, NSString, NSURL, WBSSiteMetadataResponse, WBSWebViewPoolManager;
-@protocol OS_dispatch_queue, OS_nw_path_monitor;
+@class NSURL, WBSWebViewPoolManager;
 
 @interface WBSSiteMetadataManager
 {
     WBSWebViewPoolManager *_webViewPoolManager;
-    NSMutableArray *_siteMetadataProviders;
-    NSObject<OS_dispatch_queue> *_siteMetadataProvidersAccessQueue;
-    NSOperationQueue *_operationQueue;
-    NSOperationQueue *_webViewOperationQueue;
-    NSCountedSet *_activeOperations;
-    NSMapTable *_operationsToOptions;
-    NSPointerArray *_suspensionPreventionTokens;
-    _Bool _shouldSuspendIfAble;
-    NSObject<OS_dispatch_queue> *_internalQueue;
-    NSMutableSet *_tokens;
-    NSMutableDictionary *_requestsToRequestInfos;
-    NSMutableDictionary *_requestsToSubrequestTokens;
-    NSMutableDictionary *_requestsToCacheRequestTokens;
-    WBSSiteMetadataResponse *_didCacheDataSentinelResponse;
-    NSObject<OS_nw_path_monitor> *_networkPathMonitor;
-    _Bool _isNetworkReachable;
-    NSCountedSet *_pendingNetworkOperations;
-    NSURL *_injectedBundleURL;
 }
 
 - (void);
@@ -57,7 +38,7 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)!;
 - (void);
 - (void);
 - (void);
@@ -66,7 +47,7 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (void);
@@ -95,21 +76,13 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (void)At	!ìEùð1Â0@ù
 × ;
-- (void)tFirstInteractionAfterTranslation:maxVisibleHeightPercentage: /* Error: Ran out of types for this method. */;
+- (void)reportFirstInteractionAfterTranslation:maxVisibleHeightPercentage: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSURL *injectedBundleURL; // @synthesize injectedBundleURL=_injectedBundleURL;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isSuspended) _Bool suspended;
 
 @end
 

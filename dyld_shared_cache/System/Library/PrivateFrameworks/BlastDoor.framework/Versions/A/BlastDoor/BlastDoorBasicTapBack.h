@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorBasicTapBack_MessageSummaryInfo, NSArray, NSString;
+@class NSString;
 
 @interface BlastDoorBasicTapBack
 {
@@ -14,23 +14,16 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (long long);
-- (struct _NSRange);
-- (id);
-- (id);
+- (id)36@0:8B16B20B24B28B32 /* Error: Ran out of types for this method. */;
+- (long long)wController"16;
+- (struct _NSRange)iewController"16@"IMTapback"24;
+- (id)B24@"CKMessagePartChatItem"28;
+- (id);
 - (id);
 - (void)0;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *associatedMessageFallbackHash;
-@property(nonatomic, readonly) NSString *associatedMessageGUID;
-@property(nonatomic, readonly) struct _NSRange associatedMessageRange;
-@property(nonatomic, readonly) long long associatedMessageType;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) BlastDoorBasicTapBack_MessageSummaryInfo *messageSummaryInfo;
-@property(nonatomic, readonly) NSArray *participantDestinationIdentifiers;
-@property(nonatomic, readonly) NSString *plainTextBody;
 
 @end
 

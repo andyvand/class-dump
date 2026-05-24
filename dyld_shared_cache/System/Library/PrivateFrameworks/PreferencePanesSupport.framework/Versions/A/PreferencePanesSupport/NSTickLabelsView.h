@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSUpActionSlider;
+@class NSUpActionSlider;
 
 @interface NSTickLabelsView
 {
     NSUpActionSlider *fSlider;
-    NSMutableDictionary *fTickLabelFontAttributes;
-    NSArray *fTickLabels;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)+;
+- (void);
 
 @end
 

@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary;
+
 @protocol CDPProtectedCloudStorageProxy
+- (void)INTEGER PRIMARY KEY AUTOINCREMENT,entityId INTEGER NOT NULL,duplicateKey TEXT NOT NULL,sourceKey TEXT,title TEXT,content TEXT,creationTimestamp INTEGER,lastModifiedTimestamp INTEGER,whenRange TEXT,structuredData BLOB,state INTEGER,curated INTEGER);
+- (_Bool)sVideoGreenGhostMitigationUsesLightSourceMaskAndKeypointDescriptorData;
+- (void)FOriginalMovie;
+- (_Bool)utting buffer because SmartFraming FoV doesn't match. lastStaged:(NSDictionary *)arg1 %u current:(id *)arg2 %u.;
+- (void)portraitEffectsMatteMainImageDownscalingFactor;
+- (_Bool);
+- (_Bool)D_INS2_5ErrorEEERKNSD_IyEEEUlyE_FvyEEE;
 @end
 

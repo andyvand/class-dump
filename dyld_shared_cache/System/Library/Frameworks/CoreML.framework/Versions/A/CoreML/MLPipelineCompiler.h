@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 + (void);
 + (_Bool);
 + (void);
-+ (id);
++ (id)tionUpdateEarly,sending,higher altitude change,%{public}f;
 + (id);
 + (id);
 + (id);

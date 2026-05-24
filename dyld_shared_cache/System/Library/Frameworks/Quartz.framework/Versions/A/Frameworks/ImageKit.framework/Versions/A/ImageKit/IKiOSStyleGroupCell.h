@@ -9,7 +9,6 @@
 @interface IKiOSStyleGroupCell : _IKiOSStyleGroupCell
 {
     id _currentRenderedImage;
-    float _rotation;
 }
 
 - (double);
@@ -25,10 +24,10 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void)yRepresentation:(id)arg1 inContext:error:] /* Error: Ran out of types for this method. */;
 - (void);
 - (float);
-- (void);
+- (void)c�;
 - (void);
 
 // Remaining properties

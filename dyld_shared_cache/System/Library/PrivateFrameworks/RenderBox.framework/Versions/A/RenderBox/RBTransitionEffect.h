@@ -7,13 +7,12 @@
 @interface RBTransitionEffect
 {
     struct Effect _effect;
-    union EffectOrArg _args[2];
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (unsigned int);
@@ -29,20 +28,13 @@
 - (void);
 - (void);
 - (_Bool);
-- (unsigned int);
+- (unsigned int)naturalLanguageSuggestedEventCalendar;
 - (void);
 - (unsigned int);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long animationIndex;
-@property(nonatomic) float beginTime;
-@property(nonatomic) float duration;
-@property(nonatomic) unsigned int events;
-@property(nonatomic) unsigned int flags;
-@property(nonatomic) unsigned long long insertAnimationIndex;
-@property(nonatomic) unsigned long long removeAnimationIndex;
 @property(nonatomic) unsigned int type;
 
 @end

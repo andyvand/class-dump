@@ -6,13 +6,10 @@
 
 #import <UIKitMacHelper/UINSWindow.h>
 
-@class UINSFullScreenWindowZoomController;
-
 __attribute__((visibility("hidden")))
 @interface UINSFullScreenWindow : UINSWindow
 {
     struct CGSize _initialResizeSize;
-    UINSFullScreenWindowZoomController *_fullScreenWindowZoomController;
 }
 
 - (void);
@@ -24,15 +21,15 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)Qh;
 - (void);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (id);
-- (unsigned long long);
-- (void);
-- (_Bool)ordinateToSceneTransform;
+- (void)rge_start_soc_curr_dynamic_bin_12:(id)arg1 drain_duration_count_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_var_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_00_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_10_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_25_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_50_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_75_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_0_90_at_charge_start_soc_curr_dynamic_bin_12:drain_duration_p_1_00_at_charge_start_soc_curr_dynamic_bin_12:prev_1_drain_depth:prev_1_charge_duration:prev_1_drain_duration:prev_2_drain_depth:prev_2_charge_duration:prev_2_drain_duration:prev_3_drain_depth:prev_3_charge_duration:prev_3_drain_duration:n_drain_above_50_30days:n_drain_below_50_30days:n_drain_above_60_30days:n_drain_below_60_30days:n_drain_above_70_30days:n_drain_below_70_30days:n_drain_above_80_30days:n_drain_below_80_30days:n_drain_above_90_30days:n_drain_below_90_30days:n_drain_above_100_30days:n_drain_below_100_30days:n_drain_above_50_15days:n_drain_below_50_15days:n_drain_above_60_15days:n_drain_below_60_15days:n_drain_above_70_15days:n_drain_below_70_15days:n_drain_above_80_15days:n_drain_below_80_15days:n_drain_above_90_15days:n_drain_below_90_15days:n_drain_above_100_15days:n_drain_below_100_15days:n_drain_above_50_7days:n_drain_below_50_7days:n_drain_above_60_7days:n_drain_below_60_7days:n_drain_above_70_7days:n_drain_below_70_7days:n_drain_above_80_7days:n_drain_below_80_7days:n_drain_above_90_7days:n_drain_below_90_7days:n_drain_above_100_7days:n_drain_below_100_7days: /* Error: Ran out of types for this method. */;
+- (void)_drain_duration_p_1_00_at_charge_start_soc_curr_static_bin;
+- (struct CGSize)_drain_depth_var_at_charge_start_secs_curr_dynamic_bin_4;
+- (id)in_duration;
+- (unsigned long long)he!;
+- (void);
+- (_Bool)_coordinateToSceneTransform;
 - (void)ssion %lld returning drag operation %@;
 
 @end

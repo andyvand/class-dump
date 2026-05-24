@@ -9,10 +9,10 @@
     CDStruct_fae3dc92 _datas;
 }
 
-- (unsigned long long);
-- (void);
-- (void);
-- (float *);
+- (unsigned long long)eated.statements.expressionName.structuredSearch.returnType.collection.values.primitive.app.bundleId;
+- (void)arameterId;
+- (void)uestContext.ended.serverDriven.catIds;
+- (float *);
 - (void);
 - (id);
 - (void);
@@ -21,13 +21,12 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (float);
+- (float)r;
 - (void);
 - (id);
-- (id);
+- (id)%@'.sqlite_schema WHERE name = '%@';
 
 // Remaining properties
-@property(readonly, nonatomic) float *datas;
 @property(readonly, nonatomic) unsigned long long datasCount;
 
 @end

@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPMetadataConstraints, NSString;
+@class HAPMetadataConstraints;
 
 @interface HAPCharacteristicMetadata
 {
     HAPMetadataConstraints *_constraints;
-    NSString *_manufacturerDescription;
-    NSString *_format;
-    NSString *_units;
 }
 
-+ (_Bool);
++ (_Bool)&;
 - (_Bool);
 - (id);
 - (id);
@@ -24,11 +21,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)AVShowsAnalysisButtonIfAvailable;
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)initWithUseCase:(id)arg1;
+- (void)X
+;
 - (id);
 - (id);
 - (void)4;
@@ -36,9 +34,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) HAPMetadataConstraints *constraints; // @synthesize constraints=_constraints;
-@property(retain, nonatomic) NSString *format; // @synthesize format=_format;
-@property(copy, nonatomic) NSString *manufacturerDescription; // @synthesize manufacturerDescription=_manufacturerDescription;
-@property(retain, nonatomic) NSString *units; // @synthesize units=_units;
 
 @end
 

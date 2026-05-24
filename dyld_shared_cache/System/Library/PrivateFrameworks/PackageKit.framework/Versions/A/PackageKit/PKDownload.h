@@ -10,10 +10,6 @@
 @interface PKDownload
 {
     NSString *_dstPath;
-    _Bool _deleteFileOnFailure;
-    _Bool _overwriteIfFileExists;
-    _Bool _downloadInBackground;
-    id <PKDownloadDelegate><NSObject> _delegate;
 }
 
 + (id);
@@ -22,7 +18,7 @@
 + (void);
 + (id);
 + (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -34,15 +30,13 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)8;
 - (id);
 - (id);
-- (void);
+- (void)$;
 
 // Remaining properties
 @property(readonly) __weak id <PKDownloadDelegate><NSObject> delegate; // @synthesize delegate=_delegate;
-@property(readonly) NSString *destinationPath;
-@property _Bool downloadInBackground; // @synthesize downloadInBackground=_downloadInBackground;
 
 @end
 

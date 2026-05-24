@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSWindow;
+
 @protocol NSWindowSwiftUIDelegate
+
+@optional
+- (id)_mayBeDemotedToDiscretionary;
+- (id)_maximumMessageSize;
+- (void)_maxDataSegmentCoalesceThreshhold;
+- (void)backgroundTask:(NSWindow *)arg1 willPerformHTTPRedirection:withNewRequest:reply: /* Error: Ran out of types for this method. */;
 @end
 

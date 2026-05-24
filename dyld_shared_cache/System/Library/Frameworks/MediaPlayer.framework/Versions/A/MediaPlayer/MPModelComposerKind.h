@@ -20,9 +20,9 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)asFlippedAxes;
 - (void);
-- (void)StoreID;
+- (void)_albumStoreID;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) MPModelAlbumKind *albumKind; // @synthesize albumKind=_albumKind;

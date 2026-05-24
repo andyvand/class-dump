@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, NSDictionary, NSString;
+@class AVAsset;
 
 @interface PFVideoMetadata
 {
@@ -31,21 +31,16 @@
 + (id);
 + (_Bool);
 + (id);
-- (_Bool);
+- (_Bool)CoreSpotlight.framework/Versions/A/CoreSpotlight;
 - (_Bool);
 - (id);
 - (id);
-- (void);
-- (_Bool)eclared;
+- (void)resizeWithOldSuperviewSize: /* Error: Ran out of types for this method. */;
+- (_Bool)isDeclared;
 - (_Bool)er_units <= preferred_user_units;
 
 // Remaining properties
-@property(readonly) NSString *firstVideoTrackFormatDebugDescription;
-@property(readonly) _Bool isDecodable;
-@property(readonly) _Bool isHDR;
-@property(readonly) _Bool isPlayable;
 @property(readonly) _Bool isSpatial;
-@property(readonly) NSDictionary *outOfBandHints;
 
 @end
 

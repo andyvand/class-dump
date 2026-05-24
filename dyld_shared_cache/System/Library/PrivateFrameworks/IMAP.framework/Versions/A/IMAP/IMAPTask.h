@@ -9,7 +9,6 @@
 @interface IMAPTask
 {
     NSString *_mailboxName;
-    long long _reservedNetworkPriority;
 }
 
 - (void);
@@ -18,17 +17,15 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)T(kx8	}S);
 - (id);
-- (id);
+- (id)ndencies -- relationship '%@', extension %@;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *mailboxName; // @synthesize mailboxName=_mailboxName;
-@property(readonly, copy, nonatomic) NSString *mailboxNameWithoutPII;
-@property(nonatomic) long long reservedNetworkPriority; // @synthesize reservedNetworkPriority=_reservedNetworkPriority;
 
 @end
 

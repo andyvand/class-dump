@@ -10,8 +10,8 @@
 {
 }
 
-- (id);
-- (unsigned long long);
+- (id)P6d;
+- (unsigned long long)iled generating image preview for spam detection through BlastDoor;
 - (unsigned int);
 
 // Remaining properties

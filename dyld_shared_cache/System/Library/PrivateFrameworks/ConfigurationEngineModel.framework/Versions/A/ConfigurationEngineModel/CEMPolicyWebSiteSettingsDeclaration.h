@@ -24,22 +24,15 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)B;
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)EX IF NOT EXISTS voices_index_altids ON voices(alternateIds COLLATE NOCASE);
 - (id);
-- (void);
+- (void)e;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *payloadDefaultBehavior; // @synthesize payloadDefaultBehavior=_payloadDefaultBehavior;
-@property(readonly) Class superclass;
 
 @end
 

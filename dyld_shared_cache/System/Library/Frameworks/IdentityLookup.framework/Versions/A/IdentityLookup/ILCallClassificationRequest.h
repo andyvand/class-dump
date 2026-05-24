@@ -13,17 +13,17 @@
     NSArray *_callCommunications;
 }
 
-+ (_Bool);
++ (_Bool)VSampleBufferDisplayLayer",R,N;
 - (id);
 - (id);
-- (id);
+- (id)b,No GLONASS to GPS time conversion information present;
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)(;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *callCommunications; // @synthesize callCommunications=_callCommunications;

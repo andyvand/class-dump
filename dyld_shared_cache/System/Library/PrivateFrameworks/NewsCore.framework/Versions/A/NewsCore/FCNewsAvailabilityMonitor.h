@@ -4,47 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LSApplicationProxy, NSMutableArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSMutableArray;
 
 @interface FCNewsAvailabilityMonitor
 {
     _Bool _NewsIsAvailable;
-    NSMutableArray *_blocks;
-    LSApplicationProxy *_applicationProxy;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)Q;
 - (_Bool);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)}s forbids:(id)arg1 %{public}s. Requires a coordinate as output parameter;
+- (void)ExactlyNow(NSDate *__strong _Nonnull);
 - (void);
 - (id);
 - (id);
 - (void)CKPrivateDatabase";
 - (id)te",C,N,V_lastVerificationTime;
 - (void)eys given for CKFetchRecordsOperation:%@ /* Error: Ran out of types for this method. */;
-- (void)rorType;
+- (void)_ErrorType;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isNewsAvailable) _Bool NewsIsAvailable; // @synthesize NewsIsAvailable=_NewsIsAvailable;
-@property(retain, nonatomic) LSApplicationProxy *applicationProxy; // @synthesize applicationProxy=_applicationProxy;
 @property(retain, nonatomic) NSMutableArray *blocks; // @synthesize blocks=_blocks;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

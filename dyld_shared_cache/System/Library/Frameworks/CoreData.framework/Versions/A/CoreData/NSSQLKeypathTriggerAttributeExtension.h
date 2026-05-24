@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSQLAttribute, NSSQLEntity, NSSQLRelationship, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface NSSQLKeypathTriggerAttributeExtension
 {
     id _objectFromUserInfo;
-    NSString *_keypath;
-    NSArray *_insertSQLStrings;
-    NSArray *_dropSQLStrings;
-    NSArray *_bulkUpdateSQLStrings;
-    NSSQLEntity *_entity;
-    NSSQLAttribute *_attribute;
-    NSSQLRelationship *_countedRelationship;
 }
 
 - (void);
@@ -29,16 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *bulkUpdateSQLStrings; // @synthesize bulkUpdateSQLStrings=_bulkUpdateSQLStrings;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *dropSQLStrings; // @synthesize dropSQLStrings=_dropSQLStrings;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSArray *insertSQLStrings; // @synthesize insertSQLStrings=_insertSQLStrings;
-@property(readonly) Class superclass;
 
 @end
 

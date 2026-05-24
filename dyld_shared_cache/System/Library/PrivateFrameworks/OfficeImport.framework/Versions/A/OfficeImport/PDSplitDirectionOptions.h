@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PDSplitDirectionOptions : PDTransitionOptions
 {
     int mOrientation;
-    int mInOut;
 }
 
 - (void);

@@ -9,10 +9,6 @@
 @interface AFOutputVoiceColorDescriptor
 {
     float _alpha;
-    NSString *_hexColor;
-    NSString *_colorName;
-    NSString *_localizedOutputVoiceColor;
-    NSString *_localizedOutputVoice;
 }
 
 + (id);
@@ -21,11 +17,11 @@
 - (id);
 - (id);
 - (id);
+- (id)T@"NSArray",C,N,V_backFieldBuckets;
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (id);
+- (unsigned long long);
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -34,11 +30,7 @@
 - (void)teryLevelHeadphoneCase;
 
 // Remaining properties
-@property(readonly, nonatomic) float alpha; // @synthesize alpha=_alpha;
-@property(readonly, copy, nonatomic) NSString *colorName; // @synthesize colorName=_colorName;
 @property(readonly, copy, nonatomic) NSString *hexColor; // @synthesize hexColor=_hexColor;
-@property(readonly, copy, nonatomic) NSString *localizedOutputVoice; // @synthesize localizedOutputVoice=_localizedOutputVoice;
-@property(readonly, copy, nonatomic) NSString *localizedOutputVoiceColor; // @synthesize localizedOutputVoiceColor=_localizedOutputVoiceColor;
 
 @end
 

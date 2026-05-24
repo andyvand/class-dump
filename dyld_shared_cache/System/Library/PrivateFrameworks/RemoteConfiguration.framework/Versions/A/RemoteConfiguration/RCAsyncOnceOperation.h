@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, RCMutexLock;
-@protocol OS_dispatch_group, RCOperationCanceling><RCOperationPrioritizing;
-
 @interface RCAsyncOnceOperation
 {
     _Bool _finished;
-    _Bool _succeeded;
-    CDUnknownBlockType _workBlock;
-    unsigned long long _interest;
-    NSObject<OS_dispatch_group> *_activeGroup;
-    id <RCOperationCanceling><RCOperationPrioritizing> _activeOperation;
-    long long _relativePriority;
-    RCMutexLock *_lock;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (CDUnknownBlockType);
@@ -43,15 +33,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *activeGroup; // @synthesize activeGroup=_activeGroup;
-@property(retain, nonatomic) id <RCOperationCanceling><RCOperationPrioritizing> activeOperation; // @synthesize activeOperation=_activeOperation;
-@property(nonatomic) _Bool finished; // @synthesize finished=_finished;
-@property(readonly, nonatomic) _Bool finishedExecuting;
-@property(readonly, nonatomic) _Bool finishedExecutingWithFailure;
-@property(nonatomic) unsigned long long interest; // @synthesize interest=_interest;
-@property(retain, nonatomic) RCMutexLock *lock; // @synthesize lock=_lock;
-@property(nonatomic) long long relativePriority; // @synthesize relativePriority=_relativePriority;
-@property(nonatomic) _Bool succeeded; // @synthesize succeeded=_succeeded;
 @property(copy, nonatomic) CDUnknownBlockType workBlock; // @synthesize workBlock=_workBlock;
 
 @end

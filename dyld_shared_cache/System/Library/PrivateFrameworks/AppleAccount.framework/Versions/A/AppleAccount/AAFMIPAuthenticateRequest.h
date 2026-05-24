@@ -15,9 +15,9 @@
 
 + (Class);
 - (id);
-- (id);
-- (void)tWithLocalContact:beneficiaryID: /* Error: Ran out of types for this method. */;
-- (id)rCreateAccount;
+- (id)writeValue:(id)arg1 withUIntPtr:withItemCount: /* Error: Ran out of types for this method. */;
+- (void)initWithLocalContact:beneficiaryID: /* Error: Ran out of types for this method. */;
+- (id)loginOrCreateAccount;
 
 @end
 

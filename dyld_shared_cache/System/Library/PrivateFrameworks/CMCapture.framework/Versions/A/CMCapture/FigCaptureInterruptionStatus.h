@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol FigCaptureInterruptionDelegate;
-
 __attribute__((visibility("hidden")))
 @interface FigCaptureInterruptionStatus
 {
     int _reason;
-    _Bool _resolved;
-    _Bool _systemWide;
-    id <FigCaptureInterruptionDelegate> _delegate;
-    NSObject *_context;
 }
 
 + (void)n_metadata:3 /* Error: Ran out of types for this method. */;
-- (_Bool);
+- (_Bool);
 - (id);
-- (void);
+- (void)mAuthor;
 - (int);
 - (id);
-- (_Bool);
+- (_Bool)C;
 - (id);
 - (void);
 - (id);
@@ -31,11 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject *context; // @synthesize context=_context;
-@property(nonatomic) __weak id <FigCaptureInterruptionDelegate> delegate;
 @property(readonly, nonatomic) int reason; // @synthesize reason=_reason;
-@property(readonly, nonatomic) _Bool resolved; // @synthesize resolved=_resolved;
-@property(readonly, nonatomic) _Bool systemWide; // @synthesize systemWide=_systemWide;
 
 @end
 

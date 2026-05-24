@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (_Bool);
-- (id);
+- (id)ed to add invalid group:%@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);

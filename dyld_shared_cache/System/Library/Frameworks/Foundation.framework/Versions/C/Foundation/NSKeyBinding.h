@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NSKeyBinding
 {
     Class _class;
-    NSString *_key;
-    void *_funcP;
 }
 
 + (void);
-- (void);
+- (void);
 - (Class);
 - (id);
 - (void);

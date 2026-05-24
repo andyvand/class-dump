@@ -5,9 +5,9 @@
 //
 
 @protocol _NSIdentifierDifferMovePair
+- (long long)_http3DiscoveryStatus;
 
 // Remaining properties
 @property(readonly, nonatomic) long long fromIndex;
-@property(readonly, nonatomic) long long toIndex;
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol MKPlaceAttributionCellButtonDelegate
+- (void)Y;
 @end
 

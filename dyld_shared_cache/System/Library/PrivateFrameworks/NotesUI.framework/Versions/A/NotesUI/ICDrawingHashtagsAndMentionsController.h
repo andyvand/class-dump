@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKShare, ICAttachment, ICNote, NSArray, NSDictionary, NSManagedObjectContext, NSObject;
+@class ICAttachment, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface ICDrawingHashtagsAndMentionsController
 {
     NSObject<OS_dispatch_queue> *_contactsRequestQueue;
-    ICAttachment *_attachment;
-    NSDictionary *_mentionTokensForParticipants;
 }
 
 - (void);
@@ -20,19 +18,14 @@
 - (id);
 - (id);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void)nt;
+- (void)_hintTextViewHeightConstraint;
 - (id);
 - (id)ÿP¡;
 
 // Remaining properties
 @property(nonatomic) __weak ICAttachment *attachment; // @synthesize attachment=_attachment;
-@property(readonly, nonatomic) NSArray *eligibleShareParticipants;
-@property(readonly, nonatomic) NSManagedObjectContext *managedObjectContext;
-@property(copy, nonatomic) NSDictionary *mentionTokensForParticipants; // @synthesize mentionTokensForParticipants=_mentionTokensForParticipants;
-@property(readonly, nonatomic) ICNote *note;
-@property(readonly, nonatomic) CKShare *share;
 
 @end
 

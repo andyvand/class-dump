@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SCRCThreadKey
 {
     unsigned long long _threadID;
-    NSString *_threadDescription;
 }
 
 + (void);
@@ -22,13 +19,12 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)@@"WFWorkflowRunViewSource";
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *threadDescription; // @dynamic threadDescription;
 @property(readonly, nonatomic) unsigned long long threadID; // @dynamic threadID;
 
 @end

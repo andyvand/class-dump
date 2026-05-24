@@ -7,10 +7,9 @@
 @interface ChronoServices.StateCaptureInvalidator
 {
     id invalidated;
-    id handle;
 }
 
-- (id);
+- (id);
 
 @end
 

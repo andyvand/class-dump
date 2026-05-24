@@ -5,5 +5,8 @@
 //
 
 @protocol NSInputServerMouseTracker
+- (void)Lrs7l5cKWJ1Gk5ZzgMAKyQ;
+- (_Bool)CfNQ;
+- (_Bool)7ot70MKj7EdRIEEi91jlcg;
 @end
 

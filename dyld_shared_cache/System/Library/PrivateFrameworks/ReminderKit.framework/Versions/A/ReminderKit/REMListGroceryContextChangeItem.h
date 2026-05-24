@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, REMListChangeItem;
+@class REMListChangeItem;
 
 @interface REMListGroceryContextChangeItem
 {
@@ -18,18 +18,14 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void)ë!@Fùñr ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *groceryLocaleID;
 @property(retain, nonatomic) REMListChangeItem *listChangeItem; // @synthesize listChangeItem=_listChangeItem;
-@property(nonatomic) _Bool shouldCategorizeGroceryItems;
-@property(readonly, nonatomic) _Bool shouldSuggestConversionToGroceryList;
-@property(readonly, nonatomic) NSArray *unsavedReminderIDsForCategorization;
 
 @end
 

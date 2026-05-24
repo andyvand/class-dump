@@ -6,8 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSArray, NSString;
-@protocol SAAceSerializable;
+@class NSArray;
 
 @interface SANodeIntent : AceObject
 {
@@ -16,10 +15,10 @@
 + (id);
 + (id);
 - (void);
-- (void);
+- (void)]@9K;
 - (id);
 - (id);
-- (void);
+- (void)el softmax temperature.;
 - (id);
 - (id);
 - (id);
@@ -27,17 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *matchingSpans;
-@property(copy, nonatomic) NSString *name;
-@property(copy, nonatomic) NSArray *privacyPolicy;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) id <SAAceSerializable> value;
 
 @end
 

@@ -5,5 +5,10 @@
 //
 
 @protocol AVConferencePreviewClientDelegate
+
+@optional
+- (void);
+- (void);
+- (void)G;
 @end
 

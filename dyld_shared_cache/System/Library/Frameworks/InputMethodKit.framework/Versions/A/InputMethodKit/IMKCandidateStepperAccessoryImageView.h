@@ -6,25 +6,23 @@
 
 #import <InputMethodKit/IMKUIView.h>
 
-@class NSImage, NSString;
+@class NSImage;
 
 @interface IMKCandidateStepperAccessoryImageView : IMKUIView
 {
     NSImage *_arrowImage;
-    NSString *_arrowImageName;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)B;
 - (void);
 - (void);
-- (void)ring:(id)arg1 distance:rightAligned: /* Error: Ran out of types for this method. */;
+- (void)addString:(id)arg1 distance:rightAligned: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSImage *arrowImage; // @synthesize arrowImage=_arrowImage;
-@property(copy, nonatomic) NSString *arrowImageName; // @synthesize arrowImageName=_arrowImageName;
 
 @end
 

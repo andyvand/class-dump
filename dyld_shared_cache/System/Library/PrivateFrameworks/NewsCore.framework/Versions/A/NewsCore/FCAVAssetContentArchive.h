@@ -20,7 +20,7 @@
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (long long);
+- (long long)>;
 - (void)Date"16@?0@"NSNumber"8;
 - (id)sõÿ*;
 

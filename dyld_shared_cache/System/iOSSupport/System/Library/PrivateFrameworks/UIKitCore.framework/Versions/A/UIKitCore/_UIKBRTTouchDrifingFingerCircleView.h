@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (_Bool);
+- (_Bool)T@"NSNumber",R,N,V_casePercentage;
 - (id)_done;
-- (struct CGColor *)dView;
-- (void)avior;
+- (struct CGColor *)highlightedView;
+- (void)_UIAutoScrollerSmoothBehavior;
 - (void);
 
 // Remaining properties

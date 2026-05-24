@@ -6,15 +6,14 @@
 
 #import <QuartzComposer/QCPortView.h>
 
-@class NSOpenGLContext, QCCGLContext;
+@class QCCGLContext;
 
 @interface QCPortGLView : QCPortView
 {
     QCCGLContext *_cglContext;
-    NSOpenGLContext *_glContext;
 }
 
-- (id);
+- (id)l;
 - (void);
 - (void);
 - (_Bool);

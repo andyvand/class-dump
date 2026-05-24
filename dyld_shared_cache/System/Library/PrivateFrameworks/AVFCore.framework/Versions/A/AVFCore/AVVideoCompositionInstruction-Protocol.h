@@ -7,16 +7,13 @@
 @class NSArray;
 
 @protocol AVVideoCompositionInstruction
+- (NSArray *)TNNBestVoiceCommandInterpretations:recognitionPaused:firstResultAfterResume:endOfSentenceLikelihood:numTokensExcludingTriggerPhrase:voiceCommandDebugInfo:performanceMarkers: /* Error: Ran out of types for this method. */;
+- (int)Builder}^{__shared_weak_count}},R,N,V_pmBuilder;
+
+@optional
+- (NSArray *)_initWithTokenPhraseChoiceList:earNbest:endsOfSentencePunctuations:earPersonalEntities: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool containsTweening;
-@property(readonly, nonatomic) _Bool enablePostProcessing;
-@property(readonly, nonatomic) int passthroughTrackID;
-@property(readonly, nonatomic) NSArray *requiredSourceSampleDataTrackIDs;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,N
-
-@property(readonly, nonatomic) NSArray *requiredSourceTrackIDs;
 @property(readonly, nonatomic) CDStruct_e83c9415 timeRange;
 @end
 

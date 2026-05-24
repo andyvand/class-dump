@@ -8,25 +8,30 @@
 {
 }
 
-+ (_Bool);
-+ (_Bool);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (_Bool)QueryComponentAttachment;
++ (_Bool)QueryComponentCr;
++ (id)EFPropertyKey_shouldSign;
++ (id)EFPropertyKey_action;
++ (id)EFPropertyKey_messageData;
++ (id)>"8;
++ (id)<EMOutgoingMessageBuilder>"8;
++ (id)ags:(id)arg1 %@
+	date:(id *)arg2 %@;
++ (id)er:%@
+	to:%@
+	cc:%@
+	flags:%@
+	date:%@ /* Error: Ran out of types for this method. */;
++ (id)EFPropertyKey_signingCertificateTrustInfo;
++ (id)EFPropertyKey_signingCertificateTrustInfo;
++ (id)EFPropertyKey_lastRequested;
++ (id)EFPropertyKey_lastSeen;
++ (id)EFPropertyKey_requestCount;
++ (id)ro object IDs;
++ (id)ta"8;
++ (id)edicate"8;
++ (id)summary;
++ (id)sageList collection:(unsigned int)arg1 changedItemIDs:] /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -12,7 +12,7 @@
 
 + (_Bool);
 - (id);
-- (id);
+- (id)predicateWithBlock:(id)arg1;
 - (id);
 - (id);
 - (void);

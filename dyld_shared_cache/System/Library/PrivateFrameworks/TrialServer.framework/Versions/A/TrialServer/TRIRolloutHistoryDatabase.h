@@ -11,15 +11,15 @@
     TRIDatabase *_db;
 }
 
-- (id);
-- (_Bool);
+- (id)pentaxRAWImageType;
+- (_Bool)numberWithUnsignedInteger:(id)arg1;
 - (struct _PASDBTransactionCompletion_);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (struct _PASDBTransactionCompletion_);
+- (struct _PASDBTransactionCompletion_):(CDUnknownBlockType)arg1 targeted_fp_set_id;
 - (id)s has a value for entitlement "%@" which is not array-valued.;
 
 @end

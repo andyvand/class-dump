@@ -10,8 +10,8 @@
 {
 }
 
-- (id);
-- (id);
+- (id)_heapObjectsByClassAndBinary;
+- (id)_handlersLock;
 
 @end
 

@@ -11,13 +11,13 @@
     APMescalSigning *_mescalSigningObject;
 }
 
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)SFUMemoryInputStream;
 
 // Remaining properties
 @property(readonly, nonatomic) APMescalSigning *mescalSigningObject; // @synthesize mescalSigningObject=_mescalSigningObject;

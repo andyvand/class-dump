@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface EFCoalescer
 {
     CDUnknownBlockType _coalescerAction;
-    struct os_unfair_lock_s _lock;
-    id _coalescedValue;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_coalescer;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 
 @end
 

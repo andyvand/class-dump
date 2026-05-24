@@ -6,27 +6,23 @@
 
 #import <DictationServices/SODictationCommandGroup.h>
 
-@class NSArray, NSMutableDictionary, NSString;
+@class NSArray, NSMutableDictionary;
 
 @interface SODictationCommandItem : SODictationCommandGroup
 {
     NSMutableDictionary *_customDictionary;
-    NSArray *_searchAlternates;
-    NSString *_locale;
-    NSString *_untranslatedDisplayString;
-    NSString *_untranslatedLocale;
-    id _commandInfo;
-    _Bool _isEdited;
-    _Bool _isRemoved;
 }
 
 + (id);
-+ (id);
++ (id)!;
 - (id);
 - (id);
 - (id);
+- (id)!;
 - (id);
-- (id);
+- (void);
+- (void);
+- (void)q!;
 - (void);
 - (void);
 - (void);
@@ -36,10 +32,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)莇h;
 - (void);
 - (void);
 - (void);
@@ -69,25 +62,25 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void)nary"24B32;
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
-- (_Bool);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void);
 - (_Bool);
+- (void)setShouldRollBackIfMirrorOutputFails:(id)arg1;
+- (id);
+- (id);
+- (void)removeAllSamplingMetaDataWithCompletion: /* Error: Ran out of types for this method. */;
+- (_Bool)resulted in error %{public}@;
 - (_Bool);
 - (void);
 - (id);
@@ -95,27 +88,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id commandInfo; // @synthesize commandInfo=_commandInfo;
-@property(retain, nonatomic) NSString *customAppName;
-@property(retain, nonatomic) NSArray *customAuxTypes;
-@property(retain, nonatomic) NSArray *customFileNames;
-@property(retain, nonatomic) NSArray *customMenuStrings;
-@property(retain, nonatomic) NSArray *customPasteBoard;
-@property(retain, nonatomic) NSArray *customPasteText;
-@property(retain, nonatomic) NSString *customScope;
-@property(nonatomic) unsigned long long customShortcutKeyCode;
-@property(nonatomic) unsigned long long customShortcutModifierFlags;
-@property(retain, nonatomic) NSString *customShortcutsWorkflow;
-@property(retain, nonatomic) NSString *customType;
-@property(retain, nonatomic) NSArray *customURLStrings;
-@property(retain, nonatomic) NSArray *customURLs;
-@property(nonatomic) _Bool isCollapsed;
-@property(nonatomic) _Bool isEdited; // @synthesize isEdited=_isEdited;
-@property(nonatomic) _Bool isRemoved; // @synthesize isRemoved=_isRemoved;
-@property(retain, nonatomic) NSString *locale; // @synthesize locale=_locale;
 @property(retain, nonatomic) NSArray *searchAlternates; // @synthesize searchAlternates=_searchAlternates;
-@property(retain, nonatomic) NSString *untranslatedDisplayString; // @synthesize untranslatedDisplayString=_untranslatedDisplayString;
-@property(retain, nonatomic) NSString *untranslatedLocale; // @synthesize untranslatedLocale=_untranslatedLocale;
 
 @end
 

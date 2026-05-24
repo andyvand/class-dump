@@ -6,26 +6,15 @@
 
 #import <AppleMediaServices/AMSTask.h>
 
-@class ACAccount, AMSProcessInfo, AMSPromise, AMSURLRequestEncoder, AMSURLSession, NSArray, NSString;
-@protocol AMSBagProtocol;
+@class ACAccount, NSArray;
 
 @interface AMSCarrierOfferRegistrationTask : AMSTask
 {
     ACAccount *_account;
-    id <AMSBagProtocol> _bag;
-    AMSProcessInfo *_clientInfo;
-    NSArray *_carriers;
-    AMSURLRequestEncoder *_checkOfferRequestEncoder;
-    NSString *_deviceGUID;
-    NSString *_msisdn;
-    AMSURLRequestEncoder *_registrationRequestEncoder;
-    AMSURLSession *_urlSession;
-    AMSPromise *_pacTokenPromise;
-    Class _privacyMappingResolver;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id)¥'×K©Õ©Í£>GvÌ¾Váóg8tæ0Î¿ö5É"A\-K&¸1ÒÐ÷\¢¬wy@ü¢d^Úi7~5vÜ
  X¥ËBqÈb¸.íÓ°~«ÌÌD¡×(Ñµ±Gi¬ÜÙþ	µ»FïÒ¨G-ì!16´(w]'×iÃ+¸Gá¾~}ó¶B#ÒÓlÌ¶2ë´À_ÛT)MÄØåmma%©LµwÈââ 	òG«».;
@@ -44,7 +33,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)6H;
 - (id);
 - (id);
 - (id);
@@ -53,9 +42,9 @@
 - (id);
 - (id);
 - (void);
+- (id)ath %@;
 - (id);
-- (id);
-- (id);
+- (id)P;
 - (id);
 - (id)¹ºJcòG¥ó]f¬(MîÞg¤Ä|¤»CÖV30ÀéxÍ/y×ì&¢ÇdTí.Nö.1É\WÓspCÉ©8Äo9¬fâ$­n¶ÛnÅqÜç¦cÃÀóy0t=ß'ÖR7¤Þ¾kÞuÁ9¬l-l©	
 9³úÓB¾÷CíÖý^n×tÌ¡¿óf¦K
@@ -64,24 +53,7 @@
 - (id)men?G|×õZ·çôúÈ%(Õíê;
 
 // Remaining properties
-@property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
 @property(readonly) NSArray *carriers; // @synthesize carriers=_carriers;
-@property(readonly) AMSURLRequestEncoder *checkOfferRequestEncoder; // @synthesize checkOfferRequestEncoder=_checkOfferRequestEncoder;
-@property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSString *deviceGUID; // @synthesize deviceGUID=_deviceGUID;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *msisdn; // @synthesize msisdn=_msisdn;
-@property(readonly) AMSPromise *pacTokenPromise; // @synthesize pacTokenPromise=_pacTokenPromise;
-@property(readonly) Class privacyMappingResolver; // @synthesize privacyMappingResolver=_privacyMappingResolver;
-@property(readonly) AMSURLRequestEncoder *registrationRequestEncoder; // @synthesize registrationRequestEncoder=_registrationRequestEncoder;
-@property(readonly) Class superclass;
-@property(readonly) AMSURLSession *urlSession; // @synthesize urlSession=_urlSession;
 
 @end
 

@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface HAPAudioCodecBitRateWrapper
 {
     long long _value;
 }
 
-+ (id);
++ (id);
 - (id);
 - (void);
+- (id)!;
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)Id;
 - (_Bool);
 - (id);
 - (long long);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(nonatomic) long long value; // @synthesize value=_value;
 
 @end

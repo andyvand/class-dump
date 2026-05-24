@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
-
 @interface SXBlueprintAnalyzerCursor
 {
     double _highestMaxY;
-    NSArray *_path;
-    NSMutableArray *_mutablePath;
 }
 
 - (id);

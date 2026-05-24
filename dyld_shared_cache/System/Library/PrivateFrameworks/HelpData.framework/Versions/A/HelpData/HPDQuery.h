@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSNumber, NSString;
+@class NSArray, NSString;
 
 @interface HPDQuery
 {
     NSString *_queryString;
-    NSArray *_scope;
-    NSArray *_resultTypes;
-    NSArray *_preferredLanguages;
-    NSDictionary *_userInfo;
-    NSString *_queryID;
-    NSNumber *_pid;
-    unsigned long long _limit;
-    _Bool _cancelled;
-    NSDictionary *_options;
 }
 
 + (id);
@@ -27,14 +18,14 @@
 - (void);
 - (id);
 - (id);
+- (id)@;
 - (id);
+- (void)	;
+- (id) ;
+- (void);
+- (_Bool)setSyncMode:forEntityName: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
+- (id)erator name changed notification (%@);
 - (_Bool);
 - (void);
 - (void);
@@ -44,22 +35,13 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
-- (id);
+- (id)G;
+- (id)a and/or allocations with the error "%s (%d)". It is likely that the target was suspended while malloc metadata was being modified.;
 - (void);
 - (void);
 
 // Remaining properties
-@property _Bool cancelled; // @synthesize cancelled=_cancelled;
-@property unsigned long long limit; // @synthesize limit=_limit;
-@property(retain) NSDictionary *options; // @synthesize options=_options;
-@property(retain) NSNumber *pid; // @synthesize pid=_pid;
-@property(retain) NSArray *preferredLanguages; // @synthesize preferredLanguages=_preferredLanguages;
-@property(retain) NSString *queryID; // @synthesize queryID=_queryID;
-@property(readonly) NSString *queryString; // @synthesize queryString=_queryString;
-@property(retain) NSArray *resultTypes; // @synthesize resultTypes=_resultTypes;
 @property(readonly) NSArray *scope; // @synthesize scope=_scope;
-@property(retain) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

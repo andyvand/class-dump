@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessoryAccessCodeValue, NSArray, NSString, NSUUID;
+@class HMAccessoryAccessCodeValue;
 
 @interface HMAccessCodeRemoveRequestValue
 {
     HMAccessoryAccessCodeValue *_accessoryAccessCodeValue;
-    NSUUID *_userUUID;
-    NSString *_guestName;
 }
 
-+ (id);
++ (id)(;
 + (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -24,37 +22,17 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)treatment;
+- (id)-Pinyin;
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)tion:%@ /* Error: Ran out of types for this method. */;
-- (id)sticNotificationContextKey;
+- (id)kCharacteristicNotificationContextKey;
 
 // Remaining properties
 @property(readonly, copy) HMAccessoryAccessCodeValue *accessoryAccessCodeValue; // @synthesize accessoryAccessCodeValue=_accessoryAccessCodeValue;
-@property(readonly, copy) NSUUID *accessoryUUID;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSString *guestName; // @synthesize guestName=_guestName;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
-@property(copy) NSUUID *userUUID; // @synthesize userUUID=_userUUID;
 
 @end
 

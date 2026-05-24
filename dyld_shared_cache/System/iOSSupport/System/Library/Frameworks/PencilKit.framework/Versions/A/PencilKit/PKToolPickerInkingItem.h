@@ -20,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)C;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -30,7 +30,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool allowsColorSelection;
 @property(readonly, nonatomic) PKInkingTool *inkingTool;
 
 @end

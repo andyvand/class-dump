@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSSet, NSString, _CDContact;
+@class NSMutableSet, _CDContact;
 
 @interface _CDAdvisedInteraction
 {
     NSMutableSet *_reasons;
-    _CDContact *_contact;
-    NSString *_account;
-    NSString *_bundleId;
-    long long _mechanism;
-    double _score;
-    long long _similarOutgoingInteractionsCount;
-    long long _similarIncomingInteractionsCount;
-    long long _similarBidirectionalInteractionsCount;
 }
 
 + (_Bool);
+- (long long)Q;
+- (long long)~^;
 - (long long);
-- (long long);
-- (long long);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)}f;
 - (void);
 - (long long);
-- (id);
+- (id)[;
 - (void);
 - (void);
 - (id);
@@ -38,25 +30,17 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)Ctg0Ctg1Ctg2CtgaCtgcCtgeCtgiCtgoCtgsCtgt.tg;
 - (id);
 - (double);
 - (void);
 - (void);
-- (void);
+- (void)y3x ;
 - (void);
 
 // Remaining properties
-@property(retain) NSString *account; // @synthesize account=_account;
-@property(retain) NSString *bundleId; // @synthesize bundleId=_bundleId;
 @property(retain) _CDContact *contact; // @synthesize contact=_contact;
-@property long long mechanism; // @synthesize mechanism=_mechanism;
-@property(retain) NSSet *reasons;
-@property double score; // @synthesize score=_score;
-@property long long similarBidirectionalInteractionsCount; // @synthesize similarBidirectionalInteractionsCount=_similarBidirectionalInteractionsCount;
-@property long long similarIncomingInteractionsCount; // @synthesize similarIncomingInteractionsCount=_similarIncomingInteractionsCount;
-@property long long similarOutgoingInteractionsCount; // @synthesize similarOutgoingInteractionsCount=_similarOutgoingInteractionsCount;
 
 @end
 

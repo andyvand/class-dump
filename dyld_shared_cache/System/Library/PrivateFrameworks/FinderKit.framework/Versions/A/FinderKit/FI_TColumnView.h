@@ -11,34 +11,28 @@ __attribute__((visibility("hidden")))
 @interface FI_TColumnView
 {
     long long _targetColumn;
-    long long _targetRow;
-    unsigned long long _targetDropOperation;
-    unsigned long long _dragOperation;
-    _Bool _shouldIgnoreNextDoClick;
-    _Bool _shouldPerformDoClickOnMouseUp;
-    optional_b5df104f _currentResizingColumnIndex;
 }
 
-+ (void);
-+ (Class);
-+ (Class);
-+ (Class);
++ (void);
++ (Class)messageListItemSelection;
++ (Class)removeFromVIPSenders: /* Error: Ran out of types for this method. */;
++ (Class)removeFromParentViewController;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (long long);
-- (optional_b5df104f);
+- (optional_fb5d1b84);
 - (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)ClassCData;
 - (void);
 - (void);
 - (void);
@@ -46,14 +40,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)setAccessibilityLinkedUIElements:(id)arg1;
+- (void)setAccessibilityLabelValue: /* Error: Ran out of types for this method. */;
 - (void);
+- (void)de.addEventListener("DOMNodeRemovedFromDocument",this,!1)},MUIWebAttachmentController.prototype.inlineNodeWithTag=function(e,t,o,i,n,r,s){var d=document.createElement(e);d.id=t,n&&(d.src=r),d.alt=i,"audio"!==e&&"video"!==e||(d.controls="controls"),"img"===e&&s>0&&d.setAttribute("WIDTH",s);for(var a=o.attributes,l=0;l<a.length;l++){var h=a[l],c=h.name.toUpperCase();"SRC"!==c&&"WIDTH"!==c&&"HEIGHT"!==c&&"ID"!==c&&"NAME"!==c&&"DATA"!==c&&d.setAttribute(h.name,h.value)}return i.toLowerCase().endsWith(".pdf")&&d.setAttribute("style","background-color:rgb(254,254,254); -apple-color-filter:none"),d.classList.add("Apple-web-attachment"),d},MUIWebAttachmentController.prototype.convertToInlineImage=function(){this.displayNode.removeEventListener("DOMNodeRemovedFromDocument",this,!1),this.inlineNode=this.inlineNodeWithTag("img",this.contentID,this.originalNode,this.filename,!0,this.cidURL,0),this.currentNode===this.iconNode&&(this.iconNode.parentNode.replaceChild(this.inlineNode,this.iconNode),this.currentNode=this.inlineNode,this.displayNode=this.inlineNode),this.displayNode.addEventListener("DOMNodeRemovedFromDocument",this,!1)},MUIWebAttachmentController.registerAttachment=function(e,t,o,i,n,r,s,d,a,l){var h,c=[],p=[];return t&&(p=MUIWebAttachmentController._packedNodesForCIDURL(t)),e&&p.push(MUIWebAttachmentController._packedNodeForRemoteURL(e)),p.length||console.warn("Unable to find matching attachment for cidURL:"+t+" remoteURL:"+e),p.forEach(function(e){(h=new MUIWebAttachmentController(t,o,e,i,n,r,s,d,a,l))&&(c.push(h),e.parentNode.replaceChild(h.currentNode,e))}),c}; /* Error: Ran out of types for this method. */;
+- (void)EMENT_NODE){this.savedElementStyles.set(t,t.style.cssText),t.style.cssText="display:none !important";var n=MUIRedundantTextUtilities_nextSiblingOrAuntForNode(t),d=this.redundantNodes.indexOf(n);if(-1!=d){e=d-1;continue}}else if(t.parentNode){var s=document.createElement("div");s.style.cssText="display:none !important;",t.parentNode.insertBefore(s,t),t.parentNode.removeChild(t),s.appendChild(t),this.wrappersInserted.push(s)}}this.hidden=!0}},MUIRedundantContentCluster.prototype.show=function(){if(this.hidden){var e;for(e=0;e<this.wrappersInserted.length;e++){var t=this.wrappersInserted[e],n=t.firstChild;n&&(t.removeChild(n),t.parentNode.insertBefore(n,t)),t.parentNode&&t.parentNode.removeChild(t)}this.wrappersInserted=[];for(var[d,s]of this.savedElementStyles)d.style.cssText=s;this.savedElementStyles.clear(),this.hidden=!1}},MUIRedundantContentCluster.prototype.heightExceedsThreshold=function(e){var t=!1;if(e<.5)t=!0;else{if((this.redundantNodes.length>1?this.redundantNodes[this.redundantNodes.length-1].clientBottom-this.redundantNodes[0].clientTop:this.redundantNodes[0].clientHeight)>e)t=!0;else{var n=this.domRange();t=n.getBoundingClientRect().height>e,n.detach()}}return t},MUIRedundantContentCluster.prototype.domRange=function(){var e=document.createRange();return e.setStartBefore(this.redundantNodes[0]),e.setEndAfter(this.redundantNodes[this.redundantNodes.length-1]),e},MUIRedundantContentCluster.prototype.intersectsRange=function(e){return e.intersectsNode(this.redundantNodes[0])||e.intersectsNode(this.redundantNodes[this.redundantNodes.length-1])},MUIRedundantContentCluster.prototype.trimAttributionContentFromTop=function(){var e,t,n,d=[],s=!1;for(e=0;e<this.redundantNodes.length;e++){var i="BLOCKQUOTE"===(t=this.redundantNodes[e]).nodeName;if(n=this.documentState.classificationForNode(t),i||n===NodeClassification.REDUNDANT)break;n===NodeClassification.ATTRIBUTION_HINT&&(s=!0),d.push(t)}if(s){for(var o=!1;e-- >0&&(t=this.redundantNodes[e],(n=this.documentState.classificationForNode(t))!=NodeClassification.ATTRIBUTION_HINT);)!o&&MUIRedundantTextUtilities_containsSingleLineOfWhitespace(t)&&(o=!0);o&&(e++,d.splice(e,d.length-e));for(var r=0;r<d.length;r++)this.redundantNodes.splice(this.redundantNodes.indexOf(d[r]),1)}return s}; /* Error: Ran out of types for this method. */;
+- (void)SNumber"8@"NSError"16;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -65,10 +59,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic) optional_b5df104f currentResizingColumnIndex; // @synthesize currentResizingColumnIndex=_currentResizingColumnIndex;
 @property __weak NSObject<TColumnViewDelegate> *delegate;
-@property(nonatomic) _Bool shouldIgnoreNextDoClick; // @synthesize shouldIgnoreNextDoClick=_shouldIgnoreNextDoClick;
-@property(nonatomic) _Bool shouldPerformDoClickOnMouseUp; // @synthesize shouldPerformDoClickOnMouseUp=_shouldPerformDoClickOnMouseUp;
 
 @end
 

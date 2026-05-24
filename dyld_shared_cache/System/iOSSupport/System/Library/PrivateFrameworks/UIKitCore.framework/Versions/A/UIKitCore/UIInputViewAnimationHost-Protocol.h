@@ -7,8 +7,10 @@
 @class UIView;
 
 @protocol UIInputViewAnimationHost
+- (unsigned long long)A;
+- (UIView *)1x1;
 - (UIView *);
-- (void)ssage;
+- (void)KeyboardDidHideMessage;
 - (void)3(è;
 @end
 

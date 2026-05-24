@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface AWDWiFiMetricsManagerBGScanBlacklistedNetworks
 {
     unsigned long long _timestamp;
-    NSMutableArray *_blacklistingHistorys;
-    NSString *_interfaceName;
-    CDStruct_b5306035 _has;
 }
 
 + (Class);
@@ -22,29 +17,25 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
+- (unsigned long long)(;
 - (unsigned long long);
-- (unsigned long long);
 - (_Bool);
-- (id);
+- (id)a;
 - (_Bool);
 - (_Bool);
+- (void)L@9r;
 - (void);
-- (void);
-- (void);
+- (void)9;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *blacklistingHistorys; // @synthesize blacklistingHistorys=_blacklistingHistorys;
-@property(readonly, nonatomic) _Bool hasInterfaceName;
 @property(nonatomic) _Bool hasTimestamp;
-@property(retain, nonatomic) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

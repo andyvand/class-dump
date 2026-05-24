@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FUAirport, NSDate, NSNumber, NSString;
+@class FUAirport, NSDate;
 
 @interface FUBaseStopInfo
 {
     NSDate *_displayTime;
-    FUAirport *_airport;
-    NSString *_gate;
-    NSString *_terminal;
-    NSDate *_scheduledGateTime;
-    NSDate *_currentGateTime;
-    NSDate *_scheduledRunwayTime;
-    NSDate *_currentRunwayTime;
-    NSNumber *_gateBufferMinutes;
-    NSNumber *_runwayBufferMinutes;
 }
 
 + (_Bool);
@@ -38,22 +29,13 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)),this.redundantCluster.isFirstContent||d.insertBefore(MUIRedundantTextUtilities_createBlankLineElement(),d.firstChild),this.redundantCluster.isLastContent||d.appendChild(MUIRedundantTextUtilities_createBlankLineElement()),this.redundantCluster.hide()}return this.isAbbreviated},MUISimpleLinkWithDottedBlockquoteBarAbbreviator.prototype.expand=function(){var t=this.parentPrototype.expand.call(this);return this.redundantCluster.show(),t&&(this.expandLinkElement=null),t},MUISimpleLinkWithDottedBlockquoteBarAbbreviator.prototype.verticalFoldPosition=function(){return this.expandLinkElement.getBoundingClientRect().top+2},MUISimpleLinkWithDottedBlockquoteBarAbbreviator.prototype.needsLayoutInformation=function(){return!this.senderName};;
 - (void);
 
 // Remaining properties
 @property(readonly) FUAirport *airport; // @synthesize airport=_airport;
-@property(readonly) NSDate *currentGateTime; // @synthesize currentGateTime=_currentGateTime;
-@property(readonly) NSDate *currentRunwayTime; // @synthesize currentRunwayTime=_currentRunwayTime;
-@property(readonly) NSDate *displayTime;
-@property(readonly) NSString *gate; // @synthesize gate=_gate;
-@property(readonly) NSNumber *gateBufferMinutes; // @synthesize gateBufferMinutes=_gateBufferMinutes;
-@property(readonly) NSNumber *runwayBufferMinutes; // @synthesize runwayBufferMinutes=_runwayBufferMinutes;
-@property(readonly) NSDate *scheduledGateTime; // @synthesize scheduledGateTime=_scheduledGateTime;
-@property(readonly) NSDate *scheduledRunwayTime; // @synthesize scheduledRunwayTime=_scheduledRunwayTime;
-@property(readonly) NSString *terminal; // @synthesize terminal=_terminal;
 
 @end
 

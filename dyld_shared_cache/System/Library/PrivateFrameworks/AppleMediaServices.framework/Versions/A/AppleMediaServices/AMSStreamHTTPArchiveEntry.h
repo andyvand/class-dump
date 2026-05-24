@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface AMSStreamHTTPArchiveEntry
 {
     NSArray *_entries;
-    NSString *_urlString;
 }
 
 + (id);
@@ -19,8 +18,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)AFSettingsConnection;
+- (void)_MRPlaybackSessionResponseMessageProtobuf;
 - (id);
 - (id);
 - (void)Å5xF`ûÅR·GÂ»¸;
@@ -28,7 +27,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) NSArray *entries; // @synthesize entries=_entries;
-@property(retain) NSString *urlString; // @synthesize urlString=_urlString;
 
 @end
 

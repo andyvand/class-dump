@@ -9,9 +9,6 @@
 @interface IMDSqlQuery
 {
     NSString *_tableName;
-    NSString *_columns;
-    NSString *_where;
-    long long _limit;
 }
 
 + (id);
@@ -27,10 +24,7 @@
 - (id)= ? LIMIT 1;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *columns; // @synthesize columns=_columns;
-@property(nonatomic) long long limit; // @synthesize limit=_limit;
 @property(readonly, copy, nonatomic) NSString *tableName; // @synthesize tableName=_tableName;
-@property(copy, nonatomic) NSString *where; // @synthesize where=_where;
 
 @end
 

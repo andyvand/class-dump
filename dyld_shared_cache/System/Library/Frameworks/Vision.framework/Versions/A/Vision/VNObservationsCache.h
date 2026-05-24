@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable;
-
 __attribute__((visibility("hidden")))
 @interface VNObservationsCache
 {
     struct os_unfair_lock_s _observationsCacheLock;
-    NSMapTable *_observationsCache;
 }
 
 - (id);
-- (id);
+- (id)"NSURL"16@"NSString"24@"NSString"32B40@?<v@?B@"NSError">44;
 - (void);
 - (id);
 - (void)ation;

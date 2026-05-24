@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 + (_Bool);
 + (id);
-+ (id)groundView;
++ (id)UIMultipleSelectionBackgroundView;
 + (double)3uÌt³f;
 
 @end

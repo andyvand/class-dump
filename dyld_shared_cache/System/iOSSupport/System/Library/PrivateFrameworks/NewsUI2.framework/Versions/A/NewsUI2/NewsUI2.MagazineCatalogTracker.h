@@ -7,9 +7,6 @@
 @interface NewsUI2.MagazineCatalogTracker
 {
     id tracker;
-    id channelDataFactory;
-    id newsActivityManager;
-    id contentAvailabilityValidator;
 }
 
 @end

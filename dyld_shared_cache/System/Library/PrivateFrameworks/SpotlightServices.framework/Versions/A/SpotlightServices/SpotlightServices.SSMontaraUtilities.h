@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SpotlightServices.SSMontaraUtilities
 {
     _Bool isEnabled;
-    id suite;
 }
 
 + (id)eshow_LLMQUIntentPhone;
-- (id);
+- (id)setExpandButtonToCaptionEdge: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (void);
+- (void)HA;
 - (_Bool);
-- (void)tinguishPathString;
-- (void)hted_Var_Prefix;
+- (void)_distinguishPathString;
+- (void)kMDItemDescription_TermFrequenciesWeighted_Var_Prefix;
 
 // Remaining properties
 @property(nonatomic) _Bool isEnabled; // @synthesize isEnabled;
-@property(nonatomic, readonly) NSString *selectedModelLocalizedName;
 
 @end
 

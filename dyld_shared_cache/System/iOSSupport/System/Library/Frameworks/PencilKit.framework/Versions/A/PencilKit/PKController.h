@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSObject, PKDrawing, PKMetalConfig, PKMetalRendererController, PKStrokeGenerator;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore, PKControllerDelegate;
+@class NSArray, PKMetalRendererController;
 
 @interface PKController
 {
     NSArray *_renderedStrokes;
-    NSMutableArray *_mutableRenderedStrokes;
-    PKMetalConfig *_metalConfig;
-    _Bool _sixChannelBlending;
-    NSMutableArray *_liveDrawingUndoCommands;
-    _Bool _liveInteraction;
-    _Bool _drawBitmapEraserMask;
-    _Bool _onDrawingQueue;
-    NSObject<PKControllerDelegate> *_delegate;
-    PKMetalRendererController *_rendererController;
-    PKDrawing *_drawing;
-    NSObject<OS_dispatch_semaphore> *_interactSemaphore;
-    NSObject<OS_dispatch_queue> *_interactQueue;
-    NSObject<OS_dispatch_queue> *_drawingQueue;
-    NSObject<OS_dispatch_queue> *_backgroundQueue;
 }
 
 - (void);
@@ -65,23 +50,12 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)l;
 - (void)	°!LDù(ð1Â0@ù
 × ;
 - (void)Ð¼;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *backgroundQueue; // @synthesize backgroundQueue=_backgroundQueue;
-@property(nonatomic) __weak NSObject<PKControllerDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool drawBitmapEraserMask; // @synthesize drawBitmapEraserMask=_drawBitmapEraserMask;
-@property(retain, nonatomic) PKDrawing *drawing; // @synthesize drawing=_drawing;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *drawingQueue; // @synthesize drawingQueue=_drawingQueue;
-@property(readonly, nonatomic) PKStrokeGenerator *inputController;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *interactQueue; // @synthesize interactQueue=_interactQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_semaphore> *interactSemaphore; // @synthesize interactSemaphore=_interactSemaphore;
-@property _Bool liveInteraction; // @synthesize liveInteraction=_liveInteraction;
-@property _Bool onDrawingQueue; // @synthesize onDrawingQueue=_onDrawingQueue;
-@property(readonly, nonatomic) NSArray *renderedStrokes;
 @property(retain, nonatomic) PKMetalRendererController *rendererController; // @synthesize rendererController=_rendererController;
 
 @end

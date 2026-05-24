@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class INCallGroupConversation, INCallGroupConversationFilter, NSString;
+@class INCallGroupConversationFilter;
 
 @interface INJoinCallIntent : INIntent
 {
@@ -24,22 +24,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void)YaYbKc;
+- (id)_replaceMissingValue;
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) INCallGroupConversation *groupConversation;
 @property(readonly, copy) INCallGroupConversationFilter *groupConversationFilter;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

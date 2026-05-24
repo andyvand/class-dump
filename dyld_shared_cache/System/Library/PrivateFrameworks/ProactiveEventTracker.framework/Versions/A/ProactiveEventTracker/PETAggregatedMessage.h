@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PETAggregationKey, PETDistribution;
-
 @interface PETAggregatedMessage
 {
     unsigned int _count;
-    PETDistribution *_distribution;
-    PETAggregationKey *_key;
-    struct {
-        unsigned int count:1;
-    } _has;
 }
 
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (unsigned long long);
@@ -33,17 +26,12 @@
 - (id);
 - (void);
 - (unsigned int);
-- (_Bool);
+- (_Bool)ed to get notification object from notification reference. Bailing.;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int count; // @synthesize count=_count;
-@property(retain, nonatomic) PETDistribution *distribution; // @synthesize distribution=_distribution;
-@property(nonatomic) _Bool hasCount;
-@property(readonly, nonatomic) _Bool hasDistribution;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(retain, nonatomic) PETAggregationKey *key; // @synthesize key=_key;
 
 @end
 

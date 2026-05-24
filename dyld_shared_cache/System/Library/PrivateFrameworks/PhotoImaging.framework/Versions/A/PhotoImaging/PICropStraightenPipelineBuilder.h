@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NUChannelMediaFormat, NUIdentifier;
+@class NUChannelMediaFormat;
 
 @interface PICropStraightenPipelineBuilder
 {
@@ -17,12 +17,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (void)ze;
+- (id)orationStateForWindow:] /* Error: Ran out of types for this method. */;
+- (void)renderSize;
 
 // Remaining properties
 @property(readonly, nonatomic) NUChannelMediaFormat *format; // @synthesize format=_format;
-@property(readonly, nonatomic) NUIdentifier *identifier;
 
 @end
 

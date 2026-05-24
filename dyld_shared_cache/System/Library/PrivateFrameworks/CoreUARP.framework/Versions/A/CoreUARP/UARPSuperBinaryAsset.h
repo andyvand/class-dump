@@ -4,26 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSMutableArray, NSMutableData, NSObject, NSString, NSURL, UARPAssetTag, UARPAssetVersion, UARPSuperBinaryMetaDataTable;
+@class NSArray, NSObject;
 @protocol OS_os_log;
 
 @interface UARPSuperBinaryAsset
 {
     NSObject<OS_os_log> *_log;
-    unsigned long long _formatVersion;
-    NSMutableArray *_tlvs;
-    NSMutableArray *_payloads;
-    NSURL *_plist;
-    NSURL *_plistMetaData;
-    UARPSuperBinaryMetaDataTable *_metaDataTable;
-    NSDictionary *_plistDictionary;
-    struct UARPSuperBinaryHeader _superBinaryHeader;
-    NSMutableData *_metaData;
-    UARPAssetVersion *_assetVersion;
-    UARPAssetTag *_assetTag;
-    NSDate *_timeCreated;
-    NSURL *_url;
-    NSString *_serialNumber;
 }
 
 + (_Bool);
@@ -31,31 +17,31 @@
 - (_Bool);
 - (id);
 - (id);
-- (struct _NSRange);
+- (struct _NSRange)B;
+- (void);
+- (void);
+- (id)!;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool)}};
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id)};
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)AMSOpenActionResult;
 - (id);
 - (id);
 - (id);
@@ -67,13 +53,7 @@
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) UARPAssetTag *assetTag; // @synthesize assetTag=_assetTag;
-@property(readonly) UARPAssetVersion *assetVersion; // @synthesize assetVersion=_assetVersion;
-@property(readonly) NSArray *payloads;
-@property(readonly) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(readonly) NSDate *timeCreated; // @synthesize timeCreated=_timeCreated;
 @property(readonly) NSArray *tlvs;
-@property(readonly) NSURL *url; // @synthesize url=_url;
 
 @end
 

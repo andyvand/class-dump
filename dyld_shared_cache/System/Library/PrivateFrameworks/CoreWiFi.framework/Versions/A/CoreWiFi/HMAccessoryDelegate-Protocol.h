@@ -5,5 +5,10 @@
 //
 
 @protocol HMAccessoryDelegate
+
+@optional
+- (void);
+- (void);
+- (void)W;
 @end
 

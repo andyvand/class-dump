@@ -5,12 +5,10 @@
 //
 
 @protocol NSHostedViewSceneSettings
+- (void)5;
+- (_Bool);
 
 // Remaining properties
-@property _Bool hvs_appearanceDark;
-@property long long hvs_layoutDirection;
-@property unsigned long long hvs_occlusionState;
-@property struct CGPoint hvs_screenOrigin;
 @property _Bool hvs_useEventMask;
 @end
 

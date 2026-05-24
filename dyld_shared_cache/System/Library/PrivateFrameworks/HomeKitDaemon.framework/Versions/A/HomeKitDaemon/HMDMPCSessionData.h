@@ -4,41 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPPlaybackArchive, NSNumber, NSSet, NSString;
+@class NSSet;
 
 __attribute__((visibility("hidden")))
 @interface HMDMPCSessionData
 {
     NSSet *_mediaProfiles;
-    NSNumber *_playbackStateNumber;
-    NSNumber *_playbackVolumeNumber;
-    MPPlaybackArchive *_playbackArchive;
-    NSNumber *_source;
-    NSString *_clientName;
 }
 
+- (id)_smsStrategyIdentifiers;
+- (id)_showOrUpdateNotificationIfNeeded: /* Error: Ran out of types for this method. */;
+- (_Bool)_shieldType;
 - (id);
 - (id);
-- (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id)icsMessage: /* Error: Ran out of types for this method. */;
+- (id)handleRemotelyUpdatedCharacteristicsMessage: /* Error: Ran out of types for this method. */;
 - (id)¸ä
 ;
-- (void)anagerStatus;
+- (void)homeManagerStatus;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *clientName; // @synthesize clientName=_clientName;
 @property(readonly, copy, nonatomic) NSSet *mediaProfiles; // @synthesize mediaProfiles=_mediaProfiles;
-@property(readonly, nonatomic) MPPlaybackArchive *playbackArchive; // @synthesize playbackArchive=_playbackArchive;
-@property(readonly, nonatomic) _Bool playbackArchiveTargetsSystemMediaApplication;
-@property(readonly, copy, nonatomic) NSNumber *playbackStateNumber; // @synthesize playbackStateNumber=_playbackStateNumber;
-@property(readonly, copy, nonatomic) NSNumber *playbackVolumeNumber; // @synthesize playbackVolumeNumber=_playbackVolumeNumber;
-@property(readonly, copy, nonatomic) NSNumber *source; // @synthesize source=_source;
 
 @end
 

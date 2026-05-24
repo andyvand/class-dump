@@ -4,52 +4,43 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSString;
+@class NSArray;
 @protocol TIKeyboardInteractionProtocol;
 
 @interface TITypingSessionLogger
 {
     id <TIKeyboardInteractionProtocol> _savedSession;
-    NSMutableArray *_typingEvents;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)48@0:8@16@24#32@40 /* Error: Ran out of types for this method. */;
+- (void)0:8@16 /* Error: Ran out of types for this method. */;
+- (id)mergeUtterancesIfPossible;
+- (void)sRTTSupported:(id)arg1 %d, relay:%d /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id)s %s;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_countAttributeNgramPrefixMatch;
 - (void);
 - (unsigned long long);
 - (void);
 - (void);
-- (void);
+- (void)setStartTime:(id)arg1;
 - (void);
 - (void)ÔÐ!ÔFù1jÐ1Â0@ù
 × ;
-- (void)tInputString:(id)arg1;
-- (void)referenceProvider;
+- (void)acceptInputString:(id)arg1;
+- (void)_TIInputModePreferenceProvider;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long eventCount;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly) NSArray *typingEvents; // @synthesize typingEvents=_typingEvents;
 
 @end

@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRReminderLocationPickerInteractor.FilterEditor
 {
     id filter;
-    id undoManager;
-    id save;
 }
 
 @end

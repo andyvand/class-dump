@@ -9,9 +9,9 @@
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (id);
+- (id), is_for_all_devices, is_apple_internal, is_local, is_beta FROM profiles;
+- (id)he;
+- (id)RE is_der = 0;
 - (id);
 - (id);
 

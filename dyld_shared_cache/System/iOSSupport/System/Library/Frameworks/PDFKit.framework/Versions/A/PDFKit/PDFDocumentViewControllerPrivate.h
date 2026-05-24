@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, PDFPageBackgroundManager, PDFPageViewController, PDFRenderingProperties, PDFView, UIScrollView;
+@class PDFView;
 
 __attribute__((visibility("hidden")))
 @interface PDFDocumentViewControllerPrivate
 {
     PDFView *pdfView;
-    PDFRenderingProperties *renderingProperties;
-    PDFPageViewController *activePageView;
-    PDFPageBackgroundManager *pageBackgroundManager;
-    struct os_unfair_lock_s weakPageViewControllersLock;
-    NSHashTable *weakPageViewControllers;
-    double minScale;
-    double maxScale;
-    _Bool displaysRTL;
-    UIScrollView *scrollView;
 }
 
 - (void);

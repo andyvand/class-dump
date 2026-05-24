@@ -13,7 +13,7 @@
 
 - (void);
 - (double);
-- (id);
+- (id)initWithTransport:(double)arg1 operationQueue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) double doubleValue; // @synthesize doubleValue=_doubleValue;

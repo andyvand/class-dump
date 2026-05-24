@@ -6,13 +6,12 @@
 
 #import <HomeKitDaemon/HMDAction.h>
 
-@class HMDAppleMediaAccessory, NSString, NSUUID;
+@class HMDAppleMediaAccessory;
 
 __attribute__((visibility("hidden")))
 @interface HMDAppleMediaAccessoryPowerAction : HMDAction
 {
     HMDAppleMediaAccessory *_accessory;
-    unsigned long long _targetSleepWakeState;
 }
 
 + (id);
@@ -26,36 +25,25 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
+- (unsigned long long)52B156C160;
+- (void);
+- (_Bool)eMeNodeNotSet: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)(;
 - (unsigned long long);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (unsigned long long);
 - (id);
 - (void);
-- (id)ssoryBrowserHapProtocol;
+- (id)HMDAccessoryBrowserHapProtocol;
 - (void)rresponding to home %@;
 - (id)}@Validating account with contacts;
 - (id)lic}@cameraUserNotificationSettingsForAccessory detected inconsistent registrations for camera:(unsigned long long)arg1 %@, significantEvent:(long long)arg2 %@, reachability:%@, accessMode:%@ /* Error: Ran out of types for this method. */;
 - (Class)s from payload:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (void)gEventFactory;
+- (void)CleanEnergyAutomationConfigurationLogEventFactory;
 - (id)ûÔ=;
 
 // Remaining properties
 @property(nonatomic) __weak HMDAppleMediaAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class modelClass;
-@property(readonly, copy, nonatomic) NSUUID *modelIdentifier;
-@property(readonly, copy, nonatomic) NSUUID *modelParentIdentifier;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long targetSleepWakeState; // @synthesize targetSleepWakeState=_targetSleepWakeState;
 
 @end
 

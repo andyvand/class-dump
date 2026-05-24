@@ -6,22 +6,15 @@
 
 #import <IMCore/IMTranscriptChatItem.h>
 
-@class IMHandle, NSDate, NSUUID, TUConversation;
+@class IMHandle, TUConversation;
 
 @interface IMTUConversationChatItem : IMTranscriptChatItem
 {
     IMHandle *_conversationInitiator;
-    unsigned long long _index;
 }
 
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long conversationAVMode;
-@property(readonly, nonatomic) IMHandle *conversationInitiator; // @synthesize conversationInitiator=_conversationInitiator;
-@property(readonly, nonatomic) unsigned long long index; // @synthesize index=_index;
-@property(readonly, nonatomic) _Bool isFromMe;
-@property(readonly, nonatomic) NSDate *time;
 @property(readonly, nonatomic) __weak TUConversation *tuConversation;
-@property(readonly, nonatomic) NSUUID *tuConversationUUID;
 @end
 

@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSUUID;
+@class NSUUID;
 
 @interface SPBTRSSIMeasurement
 {
     NSUUID *_beaconIdentifier;
-    NSDate *_timestamp;
-    long long _channel;
-    long long _rssi;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)$;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)utoReplySent;
+- (long long)l;
 - (long long);
-- (long long);
 - (id);
-- (void);
+- (void)b;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSUUID *beaconIdentifier; // @synthesize beaconIdentifier=_beaconIdentifier;
-@property(readonly, nonatomic) long long channel; // @synthesize channel=_channel;
-@property(readonly, nonatomic) long long rssi; // @synthesize rssi=_rssi;
-@property(readonly, copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

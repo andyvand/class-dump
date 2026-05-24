@@ -9,12 +9,11 @@
 @interface EFFileWrapper
 {
     EFPathComponent *_preferredFilenamePathComponent;
-    EFPathComponent *_filenamePathComponent;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)u;
 - (id);
 - (void);
 - (id);
@@ -28,7 +27,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) EFPathComponent *filenamePathComponent; // @synthesize filenamePathComponent=_filenamePathComponent;
 @property(retain, nonatomic) EFPathComponent *preferredFilenamePathComponent; // @synthesize preferredFilenamePathComponent=_preferredFilenamePathComponent;
 
 @end

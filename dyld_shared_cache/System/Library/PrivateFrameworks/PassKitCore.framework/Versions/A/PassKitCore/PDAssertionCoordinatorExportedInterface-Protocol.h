@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol PDAssertionCoordinatorExportedInterface
-- (void)tial:(unsigned long long)arg1 address:(NSString *)arg2 paymentMethod:(void (^)(_Bool))arg3;
+- (void)E;
+- (void)initWithPassCredential:(unsigned long long)arg1 address:(NSString *)arg2 paymentMethod:(void (^)(_Bool))arg3;
 @end
 

@@ -4,43 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DEDXPCConnector, NSDictionary, NSMutableDictionary, NSMutableSet, NSObject, NSString;
-@protocol DEDClientProtocol, DEDPairingProtocol, DEDWorkerProtocol, OS_dispatch_queue, OS_os_log;
+@class DEDXPCConnector;
 
 @interface DEDController
 {
     _Bool _isDaemon;
-    _Bool _started;
-    _Bool _useSharing;
-    _Bool _useIDS;
-    _Bool _embeddedInApp;
-    NSObject<OS_dispatch_queue> *_bugSessionCallbackQueue;
-    DEDXPCConnector *_xpcConnector;
-    id <DEDClientProtocol> _clientDelegate;
-    id <DEDWorkerProtocol> _workerDelegate;
-    id <DEDPairingProtocol> _pairingDelegate;
-    CDUnknownBlockType _devicesCompletion;
-    CDUnknownBlockType _pongBlock;
-    CDUnknownBlockType _sessionExistsCompletion;
-    NSMutableDictionary *_sessionStartBlocks;
-    NSMutableDictionary *_sessionDidStartBlocks;
-    NSMutableSet *_recentlyFinishedSessions;
-    NSObject<OS_dispatch_queue> *_replyQueue;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSObject<OS_os_log> *_log;
-    CDUnknownBlockType _didCancelCompletion;
-    CDUnknownBlockType _xpcConnectionsCompletion;
-    NSMutableDictionary *_devices;
-    NSDictionary *_sessions;
 }
 
 + (id);
-- (void);
+- (void)ived;;
 - (id);
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
+- (void)4˟;
 - (id);
 - (void);
 - (void);
@@ -49,35 +26,35 @@
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType);
-- (void);
+- (CDUnknownBlockType);
+- (void);
 - (_Bool);
-- (CDUnknownBlockType);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
 - (CDUnknownBlockType);
 - (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)recordZoneWithIDChangedBlock;
+- (void)_anonymousZoneInfo;
+- (id)FetchedMergeableValues;
+- (void);
+- (id){public}@. Creating a temporary one, which will not be known to the server.;
+- (CDUnknownBlockType)ing account with ID "%@";
+- (id);
+- (id)Lx;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -91,12 +68,12 @@
 - (void);
 - (void);
 - (void);
+- (void)c;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -109,14 +86,14 @@
 - (void);
 - (void);
 - (_Bool);
+- (void)a;
 - (void);
-- (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)input solution rate, accel sample period, %.3lf, gyro sample period, %.3lf, solution output rate, %.3lf;
 - (void);
 - (void);
 - (void);
@@ -125,9 +102,9 @@
 - (id);
 - (_Bool);
 - (void);
+- (void)1;
 - (void);
-- (void);
-- (void);
+- (void)H;
 - (void);
 - (id);
 - (void);
@@ -141,8 +118,8 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (id)myNodeSearchThreshold(PFSceneTaxonomyNodeRef _Nonnull);
+- (_Bool)rror reading image from disk, code:(id)arg1 %d;
 - (void);
 - (void);
 - (id);
@@ -156,11 +133,11 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)SError">16;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)_contextFetchHandlers;
+- (void)&,N,V_extensions;
+- (void)4;
 - (id)7Ð1Â0@ù
 × ;
 - (id)%i;
@@ -169,35 +146,6 @@
 - (void)h+ûÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *bugSessionCallbackQueue; // @synthesize bugSessionCallbackQueue=_bugSessionCallbackQueue;
-@property __weak id <DEDClientProtocol> clientDelegate; // @synthesize clientDelegate=_clientDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSMutableDictionary *devices; // @synthesize devices=_devices;
-@property(copy) CDUnknownBlockType devicesCompletion; // @synthesize devicesCompletion=_devicesCompletion;
-@property(copy) CDUnknownBlockType didCancelCompletion; // @synthesize didCancelCompletion=_didCancelCompletion;
-@property _Bool embeddedInApp; // @synthesize embeddedInApp=_embeddedInApp;
-@property(readonly) unsigned long long hash;
-@property _Bool isDaemon; // @synthesize isDaemon=_isDaemon;
-@property(retain) NSObject<OS_os_log> *log; // @synthesize log=_log;
-@property __weak id <DEDPairingProtocol> pairingDelegate; // @synthesize pairingDelegate=_pairingDelegate;
-@property(copy) CDUnknownBlockType pongBlock; // @synthesize pongBlock=_pongBlock;
-@property(retain) NSMutableSet *recentlyFinishedSessions; // @synthesize recentlyFinishedSessions=_recentlyFinishedSessions;
-@property(retain) NSObject<OS_dispatch_queue> *replyQueue; // @synthesize replyQueue=_replyQueue;
-@property(retain) NSMutableDictionary *sessionDidStartBlocks; // @synthesize sessionDidStartBlocks=_sessionDidStartBlocks;
-@property(copy) CDUnknownBlockType sessionExistsCompletion; // @synthesize sessionExistsCompletion=_sessionExistsCompletion;
-@property(retain) NSMutableDictionary *sessionStartBlocks; // @synthesize sessionStartBlocks=_sessionStartBlocks;
-@property(retain) NSDictionary *sessions; // @synthesize sessions=_sessions;
-@property _Bool started; // @synthesize started=_started;
-@property(readonly) Class superclass;
-@property _Bool useIDS; // @synthesize useIDS=_useIDS;
-@property _Bool useSharing; // @synthesize useSharing=_useSharing;
-@property(retain) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
-@property __weak id <DEDWorkerProtocol> workerDelegate; // @synthesize workerDelegate=_workerDelegate;
-@property(copy) CDUnknownBlockType xpcConnectionsCompletion; // @synthesize xpcConnectionsCompletion=_xpcConnectionsCompletion;
 @property(retain) DEDXPCConnector *xpcConnector; // @synthesize xpcConnector=_xpcConnector;
 
 @end

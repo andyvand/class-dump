@@ -9,18 +9,16 @@
 @interface SLSBridgedWindowManagementOperationSpacerIndexesResult : SLSBridgedWindowManagementOperationResult
 {
     unsigned long long _verticalIndex;
-    unsigned long long _horizontalIndex;
 }
 
-+ (_Bool);
-- (id);
++ (_Bool)(!;
+- (id)PFCloudKitMetadataNeedsMetadataMigrationKey;
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(readonly) unsigned long long horizontalIndex; // @synthesize horizontalIndex=_horizontalIndex;
 @property(readonly) unsigned long long verticalIndex; // @synthesize verticalIndex=_verticalIndex;
 
 @end

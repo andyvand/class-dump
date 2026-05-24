@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface CKStoreAction
 {
     unsigned char _action;
-    NSDictionary *_actionParameters;
 }
 
 + (id);
@@ -21,12 +18,11 @@
 - (void);
 - (id);
 - (id);
-- (unsigned char);
-- (void);
+- (unsigned char)supportsNumberOnlyDictationRecognizerMode;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned char action; // @synthesize action=_action;
-@property(readonly, nonatomic) NSDictionary *actionParameters; // @synthesize actionParameters=_actionParameters;
 
 @end
 

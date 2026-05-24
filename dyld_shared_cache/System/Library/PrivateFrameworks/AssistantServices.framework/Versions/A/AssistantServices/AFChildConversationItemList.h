@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFConversation, NSUUID;
+@class AFConversation;
 
 @interface AFChildConversationItemList
 {
     AFConversation *_conversation;
-    NSUUID *_parentItemIdentifier;
 }
 
 - (void);
@@ -29,11 +28,10 @@
 - (id);
 - (long long);
 - (id)UID"@"NSError">16;
-- (void)CoreSpeechDaemon;
+- (void)AFSiriActivationHandlerCoreSpeechDaemon;
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_conversation) AFConversation *conversation; // @synthesize conversation=_conversation;
-@property(readonly, nonatomic, getter=_parentItemIdentifier) NSUUID *parentItemIdentifier; // @synthesize parentItemIdentifier=_parentItemIdentifier;
 
 @end
 

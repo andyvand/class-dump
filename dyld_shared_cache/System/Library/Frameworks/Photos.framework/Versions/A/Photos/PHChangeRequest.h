@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectID, NSString, PHChangeRequestHelper, PHCreationRequestOptions, PHPhotoLibrary;
-@protocol PLChangesForServiceHandling;
+@class NSString, PHChangeRequestHelper;
 
 @interface PHChangeRequest
 {
     PHChangeRequestHelper *_helper;
-    _Bool _shouldPerformConcurrentWork;
-    PHPhotoLibrary *_photoLibrary;
 }
 
 + (id);
@@ -31,49 +28,28 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (_Bool)P;
 - (_Bool);
-- (_Bool);
-- (long long);
+- (long long);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id)*;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void)Progress: /* Error: Ran out of types for this method. */;
-- (id)der;
+- (id)layingAlert (%{public}@) doesn't match with alert with delayed audio playback initiation (%{public}@). Aborting.;
+- (id)setAttributedStringValue: /* Error: Ran out of types for this method. */;
+- (id)om.apple.icdd;
+- (void)mediaRequest:didReportProgress: /* Error: Ran out of types for this method. */;
+- (id)PHFacePropertySetPersonBuilder;
 
 // Remaining properties
-@property(readonly, nonatomic) long long accessScopeOptionsRequirement;
-@property(readonly, nonatomic) NSString *changeTypeForSummary;
-@property(readonly, nonatomic) id <PLChangesForServiceHandling> changesForServiceHandler;
-@property(readonly, nonatomic) NSString *clientBundleID;
-@property(readonly, nonatomic, getter=isClientEntitled) _Bool clientEntitled;
-@property(readonly, nonatomic) NSString *clientName;
-@property(copy) PHCreationRequestOptions *creationOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PHChangeRequestHelper *helper; // @synthesize helper=_helper;
-@property(readonly) _Bool isNewRequest;
-@property(readonly, nonatomic) NSString *managedEntityName;
-@property(readonly, getter=isMutated) _Bool mutated;
-@property(readonly, nonatomic) NSManagedObjectID *objectID;
-@property(readonly, nonatomic) __weak PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(nonatomic) _Bool shouldPerformConcurrentWork; // @synthesize shouldPerformConcurrentWork=_shouldPerformConcurrentWork;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *uuid;
 
 @end

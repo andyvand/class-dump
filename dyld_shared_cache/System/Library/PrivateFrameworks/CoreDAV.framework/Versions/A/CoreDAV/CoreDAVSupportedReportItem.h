@@ -13,10 +13,10 @@
 
 + (id);
 - (void);
+- (id)alignView:attribute:relatedBy:toView:attribute:constant:priority: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)EWSBodyTypeResponseTypeDefinition;
 
 // Remaining properties
 @property(retain, nonatomic) CoreDAVItem *report; // @synthesize report=_report;

@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBImage;
+@class _SFPBImage;
 
 @interface _SFPBButton
 {
     _Bool _isSelected;
-    _SFPBImage *_image;
-    _SFPBImage *_selectedImage;
 }
 
 - (void);
-- (id);
+- (id)�;
 - (void);
 - (void);
 - (void);
@@ -23,25 +21,15 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)initWithQuery:(id)arg1 library:oids:registerIfNeeded:usingManagedObjectContext: /* Error: Ran out of types for this method. */;
+- (id)@;
 - (id);
 - (id);
 - (void)postalCode;
 - (_Bool)",C,N,V_tableOfContentsItems;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _SFPBImage *image; // @synthesize image=_image;
-@property(nonatomic) _Bool isSelected; // @synthesize isSelected=_isSelected;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) _SFPBImage *selectedImage; // @synthesize selectedImage=_selectedImage;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,13 +6,10 @@
 
 #import <FinderKit/FI_TIconSelectionView.h>
 
-@class NSVisualEffectView;
-
 __attribute__((visibility("hidden")))
 @interface FIIconSelectionView : FI_TIconSelectionView
 {
     int _style;
-    NSVisualEffectView *_visualEffectView;
 }
 
 - (int);

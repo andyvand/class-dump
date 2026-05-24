@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface HAPSecuritySessionDelegateAdditionalDerivedKeyTuple
 {
     NSString *_name;
-    NSData *_saltData;
-    NSData *_infoData;
 }
 
 + (id);
@@ -22,9 +20,7 @@
 - (void)nse";
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *infoData; // @synthesize infoData=_infoData;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) NSData *saltData; // @synthesize saltData=_saltData;
 
 @end
 

@@ -14,15 +14,15 @@
 }
 
 + (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)_TtC7NotesUI23PersistedThumbnailCache;
+- (void)o;
+- (void)k from this note to move it to a different account.;
 - (void);
 - (id);
-- (void)ayerChatController;
+- (void);
+- (void);
+- (id)countOfNamesForBuilder:(struct CGRect)arg1;
+- (void)CKSocialLayerChatController;
 
 // Remaining properties
 @property(retain, nonatomic) UIActivityIndicatorView *loadingIndicator; // @synthesize loadingIndicator=_loadingIndicator;

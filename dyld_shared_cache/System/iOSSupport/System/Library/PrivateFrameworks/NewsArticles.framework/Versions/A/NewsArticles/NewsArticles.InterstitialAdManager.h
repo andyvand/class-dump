@@ -7,15 +7,6 @@
 @interface NewsArticles.InterstitialAdManager
 {
     id delegate;
-    id requestStore;
-    id requestManager;
-    id adModelFactory;
-    id journal;
-    id historyRecorder;
-    id eventManager;
-    id currentPlacementIdentifier;
-    id pendingLoadToken;
-    id currentPageIdentifier;
 }
 
 @end

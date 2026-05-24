@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIView;
+@protocol SXAction, SXActionActivityGroup, SXActionPreviewActivity;
+
 @protocol SXActionActivityProvider
+
+@optional
+- (id <SXActionPreviewActivity>);
+- (id <SXActionActivityGroup>)gTap:(id <SXAction>)arg1:(UIView *)arg2 configureLogOptions
+;
+- (id <SXActionActivityGroup>)ved, Owner:(id <SXAction>)arg1 %s Name:%s entry:%u
+ /* Error: Ran out of types for this method. */;
 @end
 

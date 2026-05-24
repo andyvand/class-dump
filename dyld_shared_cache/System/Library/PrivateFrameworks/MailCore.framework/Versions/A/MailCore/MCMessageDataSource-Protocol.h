@@ -4,14 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MCMailAccount, MCMailbox;
+@class NSData;
+@protocol MCMailAccount;
 
 @protocol MCMessageDataSource
+- (NSData *);
+- (id <MCMailAccount>);
+- (void);
+- (void)d4;
 
 // Remaining properties
-@property(readonly, nonatomic) id <MCMailAccount> account;
-@property(readonly, nonatomic) _Bool canCompact;
 @property(readonly) _Bool isReadOnly;
-@property(readonly, nonatomic) id <MCMailbox> mailbox;
 @end
 

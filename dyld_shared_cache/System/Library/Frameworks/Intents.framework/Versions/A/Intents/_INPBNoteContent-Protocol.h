@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBImageNoteContent, _INPBTextNoteContent;
+@class NSString, _INPBImageNoteContent;
 
 @protocol _INPBNoteContent
+- (void);
+- (int);
+- (void)";
 - (NSString *)resolveGroupNameForCreateTaskList:(int)arg1 withCompletion: /* Error: Ran out of types for this method. */;
-- (_Bool)ssedInteraction;
-- (_Bool)t;
+- (_Bool)_accessedInteraction;
+- (_Bool)_accessCount;
 - (void)ng",R,C,V_deviceType;
-- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasImage;
-@property(readonly, nonatomic) _Bool hasText;
-@property(nonatomic) _Bool hasType;
 @property(retain, nonatomic) _INPBImageNoteContent *image;
-@property(retain, nonatomic) _INPBTextNoteContent *text;
-@property(nonatomic) int type;
 @end
 

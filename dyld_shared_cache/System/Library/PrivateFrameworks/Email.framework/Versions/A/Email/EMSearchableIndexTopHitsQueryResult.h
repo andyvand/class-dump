@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSTopHitQuery, NSArray, NSDictionary;
+@class CSTopHitQuery, NSArray;
 
 @interface EMSearchableIndexTopHitsQueryResult
 {
     NSArray *_searchableItemIdentifiers;
-    NSDictionary *_matchingHintsByPersistentID;
-    NSDictionary *_mailRankingSignalsByPersistentID;
-    CSTopHitQuery *_topHitSearchQuery;
-    NSArray *_foundItems;
-    NSDictionary *_foundMatchingHintsByPersistentID;
 }
 
 + (id);
+- (void)UserStorage;
+- (void)0;
+- (id)ArrivalPredictionLogEventAnalyzer;
 - (void);
 - (void);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void);
+- (long long);
 - (long long);
-- (long long);
+- (id)',;
 - (id);
-- (id);
-- (id);
+- (id)O@;
 - (id);
 - (id);
 - (void);
@@ -36,11 +31,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *foundItems; // @synthesize foundItems=_foundItems;
-@property(copy, nonatomic) NSDictionary *foundMatchingHintsByPersistentID; // @synthesize foundMatchingHintsByPersistentID=_foundMatchingHintsByPersistentID;
-@property(retain, nonatomic) NSDictionary *mailRankingSignalsByPersistentID; // @synthesize mailRankingSignalsByPersistentID=_mailRankingSignalsByPersistentID;
-@property(readonly, nonatomic) NSDictionary *matchingHintsByPersistentID; // @synthesize matchingHintsByPersistentID=_matchingHintsByPersistentID;
-@property(retain, nonatomic) NSArray *searchableItemIdentifiers; // @synthesize searchableItemIdentifiers=_searchableItemIdentifiers;
 @property(retain, nonatomic) CSTopHitQuery *topHitSearchQuery; // @synthesize topHitSearchQuery=_topHitSearchQuery;
 
 @end

@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PDFActionPrivate
 {
     NSString *type;
-    id nextActions;
 }
 
 - (void);

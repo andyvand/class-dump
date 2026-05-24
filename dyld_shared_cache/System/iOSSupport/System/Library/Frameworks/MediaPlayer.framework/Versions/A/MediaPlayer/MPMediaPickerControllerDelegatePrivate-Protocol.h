@@ -5,5 +5,8 @@
 //
 
 @protocol MPMediaPickerControllerDelegatePrivate
+
+@optional
+- (void);
 @end
 

@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CNAutocompleteSuggestionsViewController, NSArray;
+
 @protocol CNAutocompleteSuggestionsViewControllerDelegate
+- (void);
+- (NSArray *)searchIndexerDidFinishIndexingObjectIDs:(CNAutocompleteSuggestionsViewController *)arg1 searchableItems:error: /* Error: Ran out of types for this method. */;
 @end
 

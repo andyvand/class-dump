@@ -4,47 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AMSFairPlayDeviceIdentity, AMSKeychainOptions, AMSMetricsLoadURLOverlay, AMSProcessInfo, AMSURLRequestProperties, NSArray, NSDictionary, NSObject, NSString;
-@protocol AMSBagProtocol, AMSFairPlayDeviceIdentityNetworkProviderProtocol, AMSResponseDecoding, AMSURLBagContract, OS_dispatch_queue;
+@class AMSURLRequestProperties, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface AMSURLRequestEncoder
 {
     NSObject<OS_dispatch_queue> *_internalQueue;
-    long long _encodeCount;
-    _Bool _compressRequestBody;
-    _Bool _disableResponseDecoding;
-    _Bool _enableRemoteSecuritySigning;
-    _Bool _includeClientVersions;
-    _Bool _shouldSetCookiesFromResponse;
-    _Bool _shouldSetStorefrontFromResponse;
-    _Bool _urlKnownToBeTrusted;
-    _Bool _alwaysIncludeAuthKitHeaders;
-    _Bool _alwaysIncludeMMeClientInfoAndDeviceHeaders;
-    _Bool _excludeIdentifierHeadersForAccount;
-    _Bool _preserveQueryParameterEncoding;
-    _Bool _shouldSetStorefrontHeader;
-    _Bool _shouldSetCookieHeader;
-    ACAccount *_account;
-    long long _anisetteType;
-    id <AMSBagProtocol> _bag;
-    AMSProcessInfo *_clientInfo;
-    long long _dialogOptions;
-    NSArray *_groupRequestAccounts;
-    NSString *_gsTokenIdentifier;
-    AMSKeychainOptions *_keychainOptions;
-    NSString *_logUUID;
-    long long _mescalType;
-    long long _requestEncoding;
-    id <AMSResponseDecoding> _responseDecoder;
-    Class _paymentSheetTaskClass;
-    AMSMetricsLoadURLOverlay *_loadURLOverlay;
-    AMSURLRequestProperties *_parentProperties;
-    id <AMSFairPlayDeviceIdentityNetworkProviderProtocol> _fpdiNetworkProvider;
-    AMSFairPlayDeviceIdentity *_fairPlayDeviceIdentity;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id)ÈF\÷	Ë,¤mL­\>Q©²'a6n\±Èä')¸?k@wÚ¼·()!î[	2û;
 + (id)w]>Y,çÚk¼Æº5çjÈóäwAä,ïT®1w;
 + (id);
@@ -56,7 +25,7 @@
 - (id);
 - (id);
 - (void);
-- (void)me;
+- (void)_resourceRequestEndTime;
 - (id)Ñ[³ÄX*(M 6ÃI¯ØçÝè7A'÷$JnY9{P¬eý
 #;ù"×h}]Õä£lsmNëÚ?U¸_êpðoÞßWDþûÊó|º§r©d^`,á®ËÇòÔ&0ÛwÍñj¹qÓ+vµSbõ¾Czé²Z5Vy%=«a¿Ùÿ~åàãQ;
 - (id)Âä=ªÎdä&Í{èÃ.¬÷×ã½ÅÏóÓ^ò(3î'Wõ×Ø(æSÍÚGvK«Ln,LH9Ä°wÇ¢õ¨ÌMXîLpèÉ¡¼@}oHÇHp>Ü§:éKSß&Xæ /* Error: Ran out of types for this method. */;
@@ -164,7 +133,7 @@ iOg¦ãÊA±&D]þa¡¹4}ÈÉoë8¤Õ~{n±ÜUF]ÐèÙÁm°G÷
 - (void);
 - (void);
 - (void)ô;
-- (id)g;
+- (id)CampaignAttributorBag;
 - (_Bool)°²¶ÿ ;
 - (void);
 - (id)M³ÿ;
@@ -178,46 +147,7 @@ iOg¦ãÊA±&D]þa¡¹4}ÈÉoë8¤Õ~{n±ÜUF]ÐèÙÁm°G÷
 - (id)ÿ¬;
 
 // Remaining properties
-@property(retain) ACAccount *account; // @synthesize account=_account;
-@property(copy) NSDictionary *additionalMetrics;
-@property _Bool alwaysIncludeAuthKitHeaders; // @synthesize alwaysIncludeAuthKitHeaders=_alwaysIncludeAuthKitHeaders;
-@property _Bool alwaysIncludeMMeClientInfoAndDeviceHeaders; // @synthesize alwaysIncludeMMeClientInfoAndDeviceHeaders=_alwaysIncludeMMeClientInfoAndDeviceHeaders;
-@property long long anisetteType; // @synthesize anisetteType=_anisetteType;
-@property(retain) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
-@property(retain) id <AMSURLBagContract> bagContract;
-@property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property _Bool compressRequestBody; // @synthesize compressRequestBody=_compressRequestBody;
-@property long long dataEncoding;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property long long dialogOptions; // @synthesize dialogOptions=_dialogOptions;
-@property _Bool disableResponseDecoding; // @synthesize disableResponseDecoding=_disableResponseDecoding;
-@property _Bool enableRemoteSecuritySigning; // @synthesize enableRemoteSecuritySigning=_enableRemoteSecuritySigning;
-@property _Bool excludeIdentifierHeadersForAccount; // @synthesize excludeIdentifierHeadersForAccount=_excludeIdentifierHeadersForAccount;
-@property(retain) AMSFairPlayDeviceIdentity *fairPlayDeviceIdentity; // @synthesize fairPlayDeviceIdentity=_fairPlayDeviceIdentity;
-@property(retain) id <AMSFairPlayDeviceIdentityNetworkProviderProtocol> fpdiNetworkProvider; // @synthesize fpdiNetworkProvider=_fpdiNetworkProvider;
-@property(retain) NSArray *groupRequestAccounts; // @synthesize groupRequestAccounts=_groupRequestAccounts;
-@property(retain) NSString *gsTokenIdentifier; // @synthesize gsTokenIdentifier=_gsTokenIdentifier;
-@property(readonly) unsigned long long hash;
-@property _Bool includeClientVersions; // @synthesize includeClientVersions=_includeClientVersions;
-@property(retain) AMSKeychainOptions *keychainOptions; // @synthesize keychainOptions=_keychainOptions;
-@property(retain) AMSMetricsLoadURLOverlay *loadURLOverlay; // @synthesize loadURLOverlay=_loadURLOverlay;
-@property(retain) NSString *logUUID; // @synthesize logUUID=_logUUID;
-@property long long mescalType; // @synthesize mescalType=_mescalType;
 @property(copy, nonatomic) AMSURLRequestProperties *parentProperties; // @synthesize parentProperties=_parentProperties;
-@property(retain) Class paymentSheetTaskClass; // @synthesize paymentSheetTaskClass=_paymentSheetTaskClass;
-@property _Bool preserveQueryParameterEncoding; // @synthesize preserveQueryParameterEncoding=_preserveQueryParameterEncoding;
-@property long long requestEncoding; // @synthesize requestEncoding=_requestEncoding;
-@property(retain) id <AMSResponseDecoding> responseDecoder; // @synthesize responseDecoder=_responseDecoder;
-@property _Bool shouldSetCookieHeader; // @synthesize shouldSetCookieHeader=_shouldSetCookieHeader;
-@property _Bool shouldSetCookiesFromResponse; // @synthesize shouldSetCookiesFromResponse=_shouldSetCookiesFromResponse;
-@property _Bool shouldSetStorefrontFromResponse; // @synthesize shouldSetStorefrontFromResponse=_shouldSetStorefrontFromResponse;
-@property _Bool shouldSetStorefrontHeader; // @synthesize shouldSetStorefrontHeader=_shouldSetStorefrontHeader;
-@property(readonly) Class superclass;
-@property _Bool urlKnownToBeTrusted; // @synthesize urlKnownToBeTrusted=_urlKnownToBeTrusted;
 
 @end
 

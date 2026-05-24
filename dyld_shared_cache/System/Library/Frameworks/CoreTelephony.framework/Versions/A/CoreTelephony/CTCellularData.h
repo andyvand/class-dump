@@ -17,7 +17,6 @@
 
 // Remaining properties
 @property(copy) CDUnknownBlockType cellularDataRestrictionDidUpdateNotifier; // @synthesize cellularDataRestrictionDidUpdateNotifier=_cellularDataRestrictionDidUpdateNotifier;
-@property(readonly, nonatomic) unsigned long long restrictedState;
 
 @end
 

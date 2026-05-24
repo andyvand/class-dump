@@ -11,22 +11,13 @@
 @interface EWSFolderIdType : EWSBaseFolderIdType
 {
     NSString *_Id;
-    NSString *_ChangeKey;
 }
 
-+ (_Bool);
++ (_Bool)invertedSet;
 + (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *ChangeKey; // @synthesize ChangeKey=_ChangeKey;
 @property(copy, nonatomic) NSString *Id; // @synthesize Id=_Id;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

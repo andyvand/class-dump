@@ -4,37 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface CKParticipantsTrie
 {
     NSString *_key;
-    NSMutableArray *_entities;
-    NSMutableArray *_children;
 }
 
+- (id)ICAssetThumbnailCache;
+- (void);
+- (id)n;
+- (void);
+- (_Bool)Shared item;
+- (id)nts:(id)arg1 pinned:container:error:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (id);
 - (void);
-- (_Bool);
+- (id)@;
 - (id);
 - (id);
+- (id);
+- (_Bool)˟;
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void)RT_MESSAGE_EXPIRED;
+- (void)UNDO_ALERT_MESSAGE_EXPIRED;
 - (void)Ì{$ÿ%;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *children; // @synthesize children=_children;
-@property(retain, nonatomic) NSMutableArray *entities; // @synthesize entities=_entities;
 @property(retain, nonatomic) NSString *key; // @synthesize key=_key;
 
 @end

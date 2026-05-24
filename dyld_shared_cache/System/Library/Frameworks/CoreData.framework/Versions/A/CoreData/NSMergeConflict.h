@@ -4,43 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSManagedObject;
+@class NSManagedObject;
 
 @interface NSMergeConflict
 {
     id _source;
-    id _snapshot1;
-    id _snapshot2;
-    id _snapshot3;
-    unsigned long long _newVersion;
-    unsigned long long _oldVersion;
 }
 
-+ (_Bool);
++ (_Bool)	k,;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)J;
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
+- (id);
 - (void);
+- (id);
+- (id)END [%lld] %fs:(id)arg1 OpenAuthURLForAccount %@%@;
+- (void)filename;
 
 // Remaining properties
-@property(readonly, retain) NSDictionary *cachedSnapshot; // @synthesize cachedSnapshot=_snapshot2;
-@property(readonly) unsigned long long newVersionNumber; // @synthesize newVersionNumber=_newVersion;
-@property(readonly, retain) NSDictionary *objectSnapshot; // @synthesize objectSnapshot=_snapshot1;
-@property(readonly) unsigned long long oldVersionNumber; // @synthesize oldVersionNumber=_oldVersion;
-@property(readonly, retain) NSDictionary *persistedSnapshot; // @synthesize persistedSnapshot=_snapshot3;
 @property(readonly, retain) NSManagedObject *sourceObject; // @synthesize sourceObject=_source;
 
 @end

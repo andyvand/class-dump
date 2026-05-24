@@ -4,38 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICCache, ICLRUCache, NSObject;
-@protocol OS_dispatch_source;
+@class ICCache;
 
 @interface ICImageCache
 {
     ICCache *_imageCache;
-    ICLRUCache *_bigImageCache;
-    NSObject<OS_dispatch_source> *_memoryWarningEventSource;
 }
 
 + (unsigned long long);
 + (double);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)feedContextForSmarterFetchGlobalESL;
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)=;
+- (id)@;
 - (id);
 - (void)´8Ì8A;
 
 // Remaining properties
-@property(retain, nonatomic) ICLRUCache *bigImageCache; // @synthesize bigImageCache=_bigImageCache;
 @property(retain, nonatomic) ICCache *imageCache; // @synthesize imageCache=_imageCache;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *memoryWarningEventSource; // @synthesize memoryWarningEventSource=_memoryWarningEventSource;
 
 @end
 

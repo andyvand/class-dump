@@ -5,5 +5,8 @@
 //
 
 @protocol LAAuthenticationMethodObserver
+
+@optional
+- (void);
 @end
 

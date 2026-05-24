@@ -11,15 +11,14 @@
 @interface MREffectHangingPicturesBackgroundLights : MREffect
 {
     MRImageProvider *mBackgroundImageProvider;
-    MRImageProvider *mBokehImageProvider;
 }
 
-- (void);
+- (void)newsEdgeWidgetConfig;
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void)ager: /* Error: Ran out of types for this method. */;
+- (void)initWithCGContext:imageManager: /* Error: Ran out of types for this method. */;
 
 @end
 

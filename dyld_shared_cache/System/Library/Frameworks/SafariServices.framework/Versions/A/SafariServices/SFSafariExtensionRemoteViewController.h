@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPopover;
 @protocol SFSafariExtensionRemoteViewControllerDelegate;
 
 @interface SFSafariExtensionRemoteViewController
 {
     id <SFSafariExtensionRemoteViewControllerDelegate> _delegate;
-    NSPopover *_popover;
 }
 
-- (id);
+- (id)!;
 - (id);
 - (void);
 - (id);
@@ -23,7 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak id <SFSafariExtensionRemoteViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) __weak NSPopover *popover; // @synthesize popover=_popover;
 
 @end
 

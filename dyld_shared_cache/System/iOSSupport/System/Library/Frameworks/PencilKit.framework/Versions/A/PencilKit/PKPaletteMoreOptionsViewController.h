@@ -4,37 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PKPaletteOptionInfoCell, PKPaletteOptionSwitchCell, PKPaletteOptionTitleCell, UIScrollView, UIStackView, UITraitCollection;
-@protocol PKPaletteMoreOptionsViewControllerDelegate;
+@class UITraitCollection;
 
 @interface PKPaletteMoreOptionsViewController
 {
     _Bool _shouldShowAutoMinimizeOption;
-    _Bool _shouldShowFingerDrawsOption;
-    _Bool _shouldAlwaysShowAutoRefineControls;
-    _Bool _autoHideOn;
-    _Bool _isFingerDrawsOn;
-    _Bool _shouldShowTapToRadarOption;
-    _Bool _shouldShowResetHandwritingEducationPane;
-    _Bool _shouldShowOpenPencilSettingsOption;
-    _Bool _isAutoRefineOn;
-    _Bool _isProofreadingOn;
-    id <PKPaletteMoreOptionsViewControllerDelegate> _delegate;
-    UITraitCollection *_externalTraitCollection;
-    NSArray *_stackViewPositioningConstraints;
-    UIScrollView *_scrollView;
-    UIStackView *_stackView;
-    UIStackView *_autoMinimizeAndFingerDrawsCellsContainer;
-    PKPaletteOptionSwitchCell *_autoMinimizeCell;
-    PKPaletteOptionSwitchCell *_shapesCell;
-    PKPaletteOptionSwitchCell *_fingerDrawsCell;
-    PKPaletteOptionTitleCell *_tapToRadarCell;
-    PKPaletteOptionTitleCell *_resetHandwritingEducationPaneCell;
-    PKPaletteOptionTitleCell *_resetImageWandOnboardingPaneCell;
-    PKPaletteOptionTitleCell *_openPencilSettingsCell;
-    PKPaletteOptionSwitchCell *_autoRefineCell;
-    PKPaletteOptionInfoCell *_autoRefineNotReadyCell;
-    PKPaletteOptionSwitchCell *_proofreadingCell;
 }
 
 - (void);
@@ -115,36 +89,11 @@
 - (_Bool);
 - (id)Ñ'1Â0@ù
 × ;
-- (void)muthZLimitFilter;
+- (void)PKInputPointAltitudeAndAzimuthZLimitFilter;
 - (void)ydrawings;
 
 // Remaining properties
-@property(nonatomic, getter=isAutoHideOn) _Bool autoHideOn; // @synthesize autoHideOn=_autoHideOn;
-@property(retain, nonatomic) UIStackView *autoMinimizeAndFingerDrawsCellsContainer; // @synthesize autoMinimizeAndFingerDrawsCellsContainer=_autoMinimizeAndFingerDrawsCellsContainer;
-@property(retain, nonatomic) PKPaletteOptionSwitchCell *autoMinimizeCell; // @synthesize autoMinimizeCell=_autoMinimizeCell;
-@property(retain, nonatomic) PKPaletteOptionSwitchCell *autoRefineCell; // @synthesize autoRefineCell=_autoRefineCell;
-@property(retain, nonatomic) PKPaletteOptionInfoCell *autoRefineNotReadyCell; // @synthesize autoRefineNotReadyCell=_autoRefineNotReadyCell;
-@property(nonatomic) __weak id <PKPaletteMoreOptionsViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) UITraitCollection *externalTraitCollection; // @synthesize externalTraitCollection=_externalTraitCollection;
-@property(retain, nonatomic) PKPaletteOptionSwitchCell *fingerDrawsCell; // @synthesize fingerDrawsCell=_fingerDrawsCell;
-@property(nonatomic) _Bool isAutoRefineOn; // @synthesize isAutoRefineOn=_isAutoRefineOn;
-@property(nonatomic) _Bool isFingerDrawsOn; // @synthesize isFingerDrawsOn=_isFingerDrawsOn;
-@property(nonatomic) _Bool isProofreadingOn; // @synthesize isProofreadingOn=_isProofreadingOn;
-@property(retain, nonatomic) PKPaletteOptionTitleCell *openPencilSettingsCell; // @synthesize openPencilSettingsCell=_openPencilSettingsCell;
-@property(retain, nonatomic) PKPaletteOptionSwitchCell *proofreadingCell; // @synthesize proofreadingCell=_proofreadingCell;
-@property(retain, nonatomic) PKPaletteOptionTitleCell *resetHandwritingEducationPaneCell; // @synthesize resetHandwritingEducationPaneCell=_resetHandwritingEducationPaneCell;
-@property(retain, nonatomic) PKPaletteOptionTitleCell *resetImageWandOnboardingPaneCell; // @synthesize resetImageWandOnboardingPaneCell=_resetImageWandOnboardingPaneCell;
-@property(retain, nonatomic) UIScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(retain, nonatomic) PKPaletteOptionSwitchCell *shapesCell; // @synthesize shapesCell=_shapesCell;
-@property(nonatomic) _Bool shouldAlwaysShowAutoRefineControls; // @synthesize shouldAlwaysShowAutoRefineControls=_shouldAlwaysShowAutoRefineControls;
-@property(nonatomic) _Bool shouldShowAutoMinimizeOption; // @synthesize shouldShowAutoMinimizeOption=_shouldShowAutoMinimizeOption;
-@property(nonatomic) _Bool shouldShowFingerDrawsOption; // @synthesize shouldShowFingerDrawsOption=_shouldShowFingerDrawsOption;
-@property(nonatomic) _Bool shouldShowOpenPencilSettingsOption; // @synthesize shouldShowOpenPencilSettingsOption=_shouldShowOpenPencilSettingsOption;
-@property(nonatomic) _Bool shouldShowResetHandwritingEducationPane; // @synthesize shouldShowResetHandwritingEducationPane=_shouldShowResetHandwritingEducationPane;
-@property(nonatomic) _Bool shouldShowTapToRadarOption; // @synthesize shouldShowTapToRadarOption=_shouldShowTapToRadarOption;
-@property(retain, nonatomic) UIStackView *stackView; // @synthesize stackView=_stackView;
-@property(retain, nonatomic) NSArray *stackViewPositioningConstraints; // @synthesize stackViewPositioningConstraints=_stackViewPositioningConstraints;
-@property(retain, nonatomic) PKPaletteOptionTitleCell *tapToRadarCell; // @synthesize tapToRadarCell=_tapToRadarCell;
 
 @end
 

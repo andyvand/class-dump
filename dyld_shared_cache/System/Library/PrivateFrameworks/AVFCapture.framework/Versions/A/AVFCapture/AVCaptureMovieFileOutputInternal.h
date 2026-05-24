@@ -4,38 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureConnection, AVWeakReference, NSArray, NSDictionary, NSMutableArray, NSString;
+@class AVWeakReference;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureMovieFileOutputInternal
 {
     AVWeakReference *weakReference;
-    NSMutableArray *recordingDelegatesArray;
-    NSMutableArray *connectionsThatRecordVideoOrientationAndMirroringChangesAsMetadataTrack;
-    CDStruct_1b6d18a9 movieFragmentInterval;
-    NSArray *metadata;
-    NSArray *availableVideoCodecs;
-    NSString *videoCodec;
-    NSDictionary *videoCompressionProperties;
-    _Bool sendLastVideoPreviewFrame;
-    _Bool recording;
-    _Bool paused;
-    _Bool primaryConstituentDeviceSwitchingBehaviorForRecordingEnabled;
-    long long primaryConstituentDeviceSwitchingBehavior;
-    unsigned long long primaryConstituentDeviceRestrictedSwitchingBehaviorConditions;
-    _Bool deviceSupportsConstituentDeviceSwitching;
-    _Bool streamingDepthSupported;
-    _Bool depthCaptureEnabled;
-    _Bool usesVirtualCaptureCard;
-    _Bool spatialVideoCaptureSupported;
-    _Bool spatialVideoCaptureEnabled;
-    _Bool trueVideoCaptureSupported;
-    _Bool trueVideoCaptureEnabled;
-    _Bool multiCamClientCompositingEnabled;
-    AVCaptureConnection *multiCamClientCompositingPrimaryConnection;
 }
 
-- (void);
+- (void)credentialForAccount:clientID:error: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

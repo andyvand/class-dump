@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface ADExperimentBucket
 {
     int _bucketId;
-    NSString *_bucketNamespace;
-    int _generation;
-    struct {
-        unsigned int bucketId:1;
-        unsigned int generation:1;
-    } _has;
 }
 
 - (void);
@@ -24,28 +16,23 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)qb;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
+- (void)umerator for dir [%{public}@];
+- (_Bool)[);
 - (void);
-- (_Bool);
-- (void);
+- (id)P;
+- (int)pinchVelocity;
 - (id);
-- (int);
-- (id);
-- (void);
+- (void)q6;
 - (int);
 - (void);
 
 // Remaining properties
-@property(nonatomic) int bucketId; // @synthesize bucketId=_bucketId;
-@property(retain, nonatomic) NSString *bucketNamespace; // @synthesize bucketNamespace=_bucketNamespace;
-@property(nonatomic) int generation; // @synthesize generation=_generation;
-@property(nonatomic) _Bool hasBucketId;
 @property(readonly, nonatomic) _Bool hasBucketNamespace;
-@property(nonatomic) _Bool hasGeneration;
 
 @end
 

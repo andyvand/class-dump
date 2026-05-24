@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBButtonItem, _SFPBRFTextProperty;
+@class _SFPBRFTextProperty;
 
 @interface _SFPBRFFactItemHeroButtonCardSection
 {
     _SFPBRFTextProperty *_number;
-    _SFPBRFTextProperty *_text_1;
-    _SFPBButtonItem *_button;
 }
 
 - (void);
-- (id);
+- (id)PDFKitSuppressRedactionDiscoverabilityAlertKey;
 - (void);
 - (id);
 - (void);
@@ -22,8 +20,8 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)queryForAssetsInAssetCollection:(id)arg1 options: /* Error: Ran out of types for this method. */;
+- (id)nes.;
 - (id);
 - (id);
 - (void);
@@ -31,17 +29,7 @@
 - (id)ü;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBButtonItem *button; // @synthesize button=_button;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBRFTextProperty *number; // @synthesize number=_number;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_1; // @synthesize text_1=_text_1;
 
 @end
 

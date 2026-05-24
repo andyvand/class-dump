@@ -9,7 +9,7 @@
 @protocol NSUserInterfaceItemIdentification
 - (void)
 × ;
-- (NSString *)iewItemAccessibility;
+- (NSString *)NSTabViewItemAccessibility;
 
 // Remaining properties
 @property(copy) NSString *identifier;

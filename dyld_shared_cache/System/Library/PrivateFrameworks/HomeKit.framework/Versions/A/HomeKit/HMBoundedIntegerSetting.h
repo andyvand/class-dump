@@ -9,30 +9,24 @@
 @interface HMBoundedIntegerSetting : HMImmutableSetting
 {
     long long _integerValue;
-    long long _maxValue;
-    long long _minValue;
-    long long _valueStepSize;
 }
 
 - (long long);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (long long);
-- (long long);
-- (_Bool);
+- (long long);
+- (long long)A;
+- (_Bool)illegal;
 - (id);
 - (long long)¢;
 
 // Remaining properties
 @property(readonly) long long integerValue; // @synthesize integerValue=_integerValue;
-@property(readonly) long long maxValue; // @synthesize maxValue=_maxValue;
-@property(readonly) long long minValue; // @synthesize minValue=_minValue;
-@property(readonly) long long valueStepSize; // @synthesize valueStepSize=_valueStepSize;
 
 @end
 

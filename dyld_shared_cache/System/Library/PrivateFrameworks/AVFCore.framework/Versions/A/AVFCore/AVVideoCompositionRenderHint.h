@@ -11,15 +11,14 @@
     AVVideoCompositionRenderHintInternal *_internal;
 }
 
-- (CDStruct_1b6d18a9);
-- (CDStruct_1b6d18a9);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9)description;
+- (CDStruct_1b6d18a9)definition;
+- (CDStruct_1b6d18a9)correctedResultWithKeyword:tokenizedKeyword:preItnSausage:preItnOneBest:preItnOneBestIndices:nbestSize: /* Error: Ran out of types for this method. */;
 - (id);
 - (CDStruct_1b6d18a9);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_1b6d18a9 endCompositionTime;
 @property(readonly, nonatomic) CDStruct_1b6d18a9 startCompositionTime;
 
 @end

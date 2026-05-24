@@ -4,33 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEOPDSearchViewportInfo, PBDataReader;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSearchLocationContext
 {
     PBDataReader *_reader;
-    GEOLatLng *_deviceLocation;
-    GEOPDSearchViewportInfo *_viewportInfo;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_deviceLocation:1;
-        unsigned int read_viewportInfo:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)continuousVoiceTrigger:detectedVoiceTriggerResult: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)?="has_artworkAction"b1"has_detailTextAction"b1};
-- (id)ilesNear:radius:preloadToDiskOnly:tileSetStyle:tileScale:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)_preloadTilesNear:radius:preloadToDiskOnly:tileSetStyle:tileScale:completionHandler: /* Error: Ran out of types for this method. */;
 - (id)¼TDUàV´WPYY;
 - (void);
 

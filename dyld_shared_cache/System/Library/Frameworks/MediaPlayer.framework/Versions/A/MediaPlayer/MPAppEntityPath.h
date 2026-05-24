@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRAppEntityPath, NSString;
+@class MRAppEntityPath;
 
 @interface MPAppEntityPath
 {
@@ -15,22 +15,19 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)A;
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)AKInkSignatureView;
 - (void);
 - (id);
 - (id);
-- (void)_MISSING__;
+- (void)__MPModelPropertyPlaylistAuthorRole__MAPPING_MISSING__;
 - (id)¨¤;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *bundleIdentifier;
-@property(readonly, copy, nonatomic) NSString *instanceIdentifier;
 @property(readonly, nonatomic) MRAppEntityPath *mediaRemoteAppEntityPath; // @synthesize mediaRemoteAppEntityPath=_mediaRemoteAppEntityPath;
-@property(readonly, copy, nonatomic) NSString *typeIdentifier;
 
 @end
 

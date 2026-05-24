@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INPerson, INSpeakableString, NSArray, NSNumber, NSString;
+@class NSArray, NSString;
 
 @protocol INSendMessageIntentExport
+- (long long);
+- (void)<;
+- (void)nown algorithm type;
 - (void)ÔÁ%°!üDùÑ¾(Ð1Â0@ù
 × ;
-- (NSString *)pAlarmAttributes;
-- (NSArray *)edWhileProtectedDataUnavailable;
-- (NSString *)odeUnspecified;
-- (NSArray *):withCompletion: /* Error: Ran out of types for this method. */;
+- (NSString *)clearPayloadSleepAlarmAttributes;
+- (NSArray *)_actionsRestrictedWhileProtectedDataUnavailable;
+- (NSString *)INStopAnnouncementIntentResponseCodeUnspecified;
+- (NSArray *)provideLocationOptionsForFindEvents:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(copy) NSString *alternativeConversationIdentifier;
-@property(copy) NSArray *attachments;
-@property(copy) NSString *content;
-@property(copy) NSString *conversationIdentifier;
-@property long long effect;
-@property(copy) NSString *notificationThreadIdentifier;
-@property long long outgoingMessageType;
 @property(copy) NSArray *recipients;
-@property(copy) INPerson *sender;
-@property(copy) NSString *serviceName;
-@property(copy) NSNumber *shouldHideSiriAttribution;
-@property(copy) INSpeakableString *speakableGroupName;
 @end
 

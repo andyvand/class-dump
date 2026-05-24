@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, CNContainer, NSArray;
+@class CNContact;
 
 @interface CNUIContactFetchResult
 {
     CNContact *_contact;
-    CNContainer *_parentConrtainer;
-    NSArray *_linkedParentContainers;
 }
 
 - (id);
@@ -22,8 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, nonatomic) NSArray *linkedParentContainers; // @synthesize linkedParentContainers=_linkedParentContainers;
-@property(readonly, nonatomic) CNContainer *parentConrtainer; // @synthesize parentConrtainer=_parentConrtainer;
 
 @end
 

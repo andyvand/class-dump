@@ -5,5 +5,7 @@
 //
 
 @protocol CKFullScreenEffectManagerDelegate
+- (void)ICLinkSnapshotGenerator;
+- (void)ICMBaseTouchBarController;
 @end
 

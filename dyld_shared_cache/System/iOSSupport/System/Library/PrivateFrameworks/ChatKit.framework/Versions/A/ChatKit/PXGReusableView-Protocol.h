@@ -7,24 +7,16 @@
 @protocol NSCopying;
 
 @protocol PXGReusableView
+- (void);
 
 @optional
-- (_Bool)nfigureForCommSafety: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (struct CGPoint)ICSearchUserInput;
+- (_Bool);
+- (void)o;
+- (_Bool)_moreActionForChatItem:configureForCommSafety: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canUnloadWhenInvisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(nonatomic) struct CGRect clippingRect;
-@property(readonly, nonatomic) _Bool isFloating;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool shouldReuseWhenInvisible;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(copy, nonatomic) id <NSCopying> userData;
 @end
 

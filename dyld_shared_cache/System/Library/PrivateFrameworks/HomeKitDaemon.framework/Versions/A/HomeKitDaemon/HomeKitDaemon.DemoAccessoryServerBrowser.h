@@ -7,12 +7,9 @@
 @interface HomeKitDaemon.DemoAccessoryServerBrowser
 {
     id delegate;
-    id delegateQueue;
-    id browsing;
-    id discoveredAccessoryServers;
 }
 
-- (id);
+- (id):(id)arg1 %s;
 - (void);
 - (void);
 - (void)lerManager",&,N,V_targetControllerManager;

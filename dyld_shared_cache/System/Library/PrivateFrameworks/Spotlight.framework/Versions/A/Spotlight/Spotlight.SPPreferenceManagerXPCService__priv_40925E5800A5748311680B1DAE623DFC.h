@@ -7,7 +7,6 @@
 @interface Spotlight.SPPreferenceManagerXPCService__priv_40925E5800A5748311680B1DAE623DFC
 {
     id listener;
-    id session;
 }
 
 @end

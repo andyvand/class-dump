@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDWebLinkParams, NSString, NSURL;
-@protocol GEOMapItemPhoto;
+@class GEOPDWebLinkParams, NSString;
 
 @interface GEOPlaceExternalActionWebLinkParams
 {
     GEOPDWebLinkParams *_params;
-    NSURL *_url;
-    id <GEOMapItemPhoto> _photo;
 }
 
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)?;
+- (id)setTravelTimeAggressiveEstimate: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) id <GEOMapItemPhoto> icon;
-@property(readonly, nonatomic) _Bool supportsEmbeddedWebBrowser;
-@property(readonly, nonatomic) NSURL *url;
 
 @end
 

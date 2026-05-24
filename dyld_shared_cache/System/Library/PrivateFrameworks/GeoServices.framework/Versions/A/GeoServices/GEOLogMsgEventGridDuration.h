@@ -4,26 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLogMsgEventGridDuration
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_endStateErrorReasons;
-    int _displayType;
-    unsigned int _durationMs;
-    int _endState;
-    int _previousState;
-    struct {
-        unsigned int has_displayType:1;
-        unsigned int has_durationMs:1;
-        unsigned int has_endState:1;
-        unsigned int has_previousState:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)sSpeedThreshold:(id)arg1;
++ (_Bool)setHasSpeedThreshold:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -36,50 +25,41 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (unsigned long long);
-- (id);
-- (id);
-- (id);
-- (int);
-- (unsigned int);
-- (id);
-- (void);
-- (void);
-- (void);
-- (int);
-- (int);
-- (int);
-- (void);
-- (id);
-- (id);
-- (void);
+- (unsigned long long)sharedLockUrlWithName: /* Error: Ran out of types for this method. */;
+- (id)sharedLockDirectoryURLWithFileServices: /* Error: Ran out of types for this method. */;
+- (id)sharedInstanceForAddressBook;
+- (id)sharedDefaults;
+- (int)sharedCache;
+- (unsigned int)setLocale: /* Error: Ran out of types for this method. */;
+- (id)scannerWithString:(int)arg1;
+- (void)errorUserInfoWithDescription: /* Error: Ran out of types for this method. */;
+- (void)SMutableArray",R,N,V_observers;
 - (void);
 - (int);
+- (int)localLock;
+- (int)oded object was of type %@, but an object of type %@ (%@) was expected;
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (int);
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
+- (_Bool)idProductMask;
+- (int);
 - (_Bool);
-- (int);
-- (_Bool);
 - (void);
-- (id)eedback:(struct _NSZone *)arg1;
+- (id)setSignGuidanceFeedback:(struct _NSZone *)arg1;
 - (id)egion",R,N,V_region;
 - (id)mposedRoute from GEOCompanionRouteDetails because route index (%u) is out of bounds. waypointRoutesCount:%d /* Error: Ran out of types for this method. */;
 - (id);
 - (void)¾ü3;
 
 // Remaining properties
-@property(nonatomic) int displayType;
-@property(nonatomic) unsigned int durationMs;
-@property(nonatomic) int endState;
-@property(retain, nonatomic) NSMutableArray *endStateErrorReasons;
-@property(nonatomic) _Bool hasDisplayType;
 @property(nonatomic) _Bool hasDurationMs;
-@property(nonatomic) _Bool hasEndState;
-@property(nonatomic) _Bool hasPreviousState;
-@property(nonatomic) int previousState;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

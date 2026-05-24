@@ -4,38 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSNumber, NSString, NSUUID, RTMapItemMO;
+@class RTMapItemMO;
 
 @interface RTPlaceInferenceQueryMO
 {
     RTMapItemMO *cachedMapItem;
 }
 
-+ (id);
-+ (id);
++ (id)printUserRegistryStats:(id)arg1;
++ (id)t parameters:%@, h3 settings:%@ /* Error: Ran out of types for this method. */;
 - (void)?@"RTScenarioTrigger"@"NSError">24;
-- (id)tifier:addressIdentifier:isMe:wifiConfidence:wifiFingerprintLabelType: /* Error: Ran out of types for this method. */;
+- (id)initWithIdentifier:addressIdentifier:isMe:wifiConfidence:wifiFingerprintLabelType: /* Error: Ran out of types for this method. */;
 - (void)panionLinkClient",&,N,V_client;
 - (id)ternal error in cluster selection (1).;
 - (void)@, options, %{sensitive}@, error, %@;
 
 // Remaining properties
-@property(retain, nonatomic) RTMapItemMO *cachedMapItem; // @synthesize cachedMapItem;
 @property(nonatomic) double confidence; // @dynamic confidence;
-@property(copy, nonatomic) NSDate *date; // @dynamic date;
-@property(copy, nonatomic) NSNumber *errorCode; // @dynamic errorCode;
-@property(copy, nonatomic) NSNumber *fidelityPolicyMask; // @dynamic fidelityPolicyMask;
-@property(copy, nonatomic) NSUUID *identifier; // @dynamic identifier;
-@property(copy, nonatomic) NSDate *locationDate; // @dynamic locationDate;
-@property(nonatomic) double locationLatitude; // @dynamic locationLatitude;
-@property(nonatomic) double locationLongitude; // @dynamic locationLongitude;
-@property(retain, nonatomic) NSNumber *locationReferenceFrame; // @dynamic locationReferenceFrame;
-@property(nonatomic) double locationUncertainty; // @dynamic locationUncertainty;
-@property(copy, nonatomic) NSUUID *mapItemIdentifier; // @dynamic mapItemIdentifier;
-@property(copy, nonatomic) NSNumber *placeType; // @dynamic placeType;
-@property(copy, nonatomic) NSString *sourceIdentifier; // @dynamic sourceIdentifier;
-@property(copy, nonatomic) NSNumber *userType; // @dynamic userType;
-@property(copy, nonatomic) NSNumber *userTypeSource; // @dynamic userTypeSource;
 
 @end
 

@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface CKPersistentDetailsTabInfo
 {
     NSArray *_existingAsyncTabs;
-    NSString *_selectedDetailsTabID;
 }
 
-- (void);
-- (void);
+- (void)boundingRectForGlyphRange:(id)arg1 inTextContainer: /* Error: Ran out of types for this method. */;
+- (void)_htmlSourceObjects;
+- (id)ic_serializeWithFlags:dataPersister:managedObjectContext:error: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id)yAJyAJyApQyM8GGAWGb48GA2fGtGGAGtGGGG;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *existingAsyncTabs; // @synthesize existingAsyncTabs=_existingAsyncTabs;
-@property(copy, nonatomic) NSString *selectedDetailsTabID; // @synthesize selectedDetailsTabID=_selectedDetailsTabID;
 
 @end
 

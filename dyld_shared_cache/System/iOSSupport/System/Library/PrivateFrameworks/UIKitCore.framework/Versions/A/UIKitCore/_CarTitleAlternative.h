@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (void);
-- (id);
+- (void)"@"NSError">56;
+- (id)%s;
 - (double)á°!ÜBùñd1Â0@ù
 × ;
 - (id)All;

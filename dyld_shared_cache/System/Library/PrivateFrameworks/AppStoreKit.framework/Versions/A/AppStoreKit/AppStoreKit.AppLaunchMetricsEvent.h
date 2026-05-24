@@ -9,19 +9,6 @@
 @interface AppStoreKit.AppLaunchMetricsEvent : AppStoreKit.MetricsEvent
 {
     id launchCorrelationKey;
-    id processStartTime;
-    id topic;
-    id bagStartTime;
-    id bagFailureTime;
-    id bagSuccessTime;
-    id requests;
-    id jsSetupStartTime;
-    id jsSetupEndTime;
-    id launchFailureTime;
-    id launchSuccessTime;
-    id lastBackgroundRefreshTime;
-    id wasMediaTokenExpired;
-    id builtDependencies;
 }
 
 @end

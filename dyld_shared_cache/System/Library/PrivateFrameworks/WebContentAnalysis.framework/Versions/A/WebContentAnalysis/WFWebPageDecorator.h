@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, WFImgArrayCache;
+@class NSObject, NSString;
 @protocol WFWebPageProtocol;
 
 @interface WFWebPageDecorator
 {
     NSObject<WFWebPageProtocol> *webPageStripper;
-    WFImgArrayCache *pageImagesPropertyCache;
-    NSString *URLString;
 }
 
 + (id);
@@ -43,7 +41,7 @@
 - (void);
 - (id);
 - (long long);
-- (id);
+- (id)	;
 - (id);
 - (void);
 - (long long);

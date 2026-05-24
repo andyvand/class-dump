@@ -7,8 +7,6 @@
 @interface NewsUI2.RecipeBoxBlueprintViewCellProvider
 {
     id delegate;
-    id baseStyler;
-    id feedItemRenderer;
 }
 
 @end

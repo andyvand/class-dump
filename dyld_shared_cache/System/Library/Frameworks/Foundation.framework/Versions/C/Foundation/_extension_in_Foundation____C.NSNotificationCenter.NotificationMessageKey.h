@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (id)Squared;
+- (id)newtonsPerMetersSquared;
 - (void);
 
 @end

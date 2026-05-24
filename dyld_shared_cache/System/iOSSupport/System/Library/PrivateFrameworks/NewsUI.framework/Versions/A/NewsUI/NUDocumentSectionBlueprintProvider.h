@@ -4,34 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCObservable, NSString;
+@class FCObservable;
 
 @interface NUDocumentSectionBlueprintProvider
 {
     FCObservable *_tempObservableHeaderBlueprint;
-    FCObservable *_tempObservableFooterBlueprint;
-    FCObservable *_tempObservableContentOverlayBlueprintData;
 }
 
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) FCObservable *tempObservableContentOverlayBlueprintData; // @synthesize tempObservableContentOverlayBlueprintData=_tempObservableContentOverlayBlueprintData;
-@property(readonly, nonatomic) FCObservable *tempObservableFooterBlueprint; // @synthesize tempObservableFooterBlueprint=_tempObservableFooterBlueprint;
 @property(readonly, nonatomic) FCObservable *tempObservableHeaderBlueprint; // @synthesize tempObservableHeaderBlueprint=_tempObservableHeaderBlueprint;
 
 @end

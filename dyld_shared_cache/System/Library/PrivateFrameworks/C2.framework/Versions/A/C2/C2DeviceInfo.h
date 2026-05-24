@@ -9,16 +9,16 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
++ (_Bool)ack after layer %d (%s):%s -> %s /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
 + (id);
 + (id);
 + (_Bool);
++ (id)ermine if %@ (%@) is ubiquitous:%@ /* Error: Ran out of types for this method. */;
 + (id);
 + (id);
-+ (id);
-+ (id)start;
++ (id)timestamp_dns_start;
 
 @end
 

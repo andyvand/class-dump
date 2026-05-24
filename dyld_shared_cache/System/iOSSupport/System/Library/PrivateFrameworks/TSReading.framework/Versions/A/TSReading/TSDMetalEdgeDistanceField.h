@@ -4,37 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, TSDMetalContext;
-@protocol MTLTexture;
+@class TSDMetalContext;
 
 @interface TSDMetalEdgeDistanceField
 {
     TSDMetalContext *_metalContext;
-    struct CGSize _textureSize;
-    struct CGSize _resultTextureSize;
-    struct CGSize _squareSize;
-    struct UIEdgeInsets _edgeInsets;
-    double _downsampleScale;
-    id <MTLTexture> _inputTexture;
-    NSArray *_exteriorTextures;
-    NSArray *_interiorTextures;
-    id <MTLTexture> _combineTexture;
-    id <MTLTexture> _combineByteTexture;
-    id <MTLTexture> _resultTexture;
 }
 
 + (void);
 + (id);
 + (void);
-- (void);
+- (void)PlayerPeriodicTimeSubscription;
 - (void);
 - (id);
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
+- (id)Є;
 - (void);
-- (void)owsChanged;
+- (void)FooterRowsChanged;
 
 @end
 

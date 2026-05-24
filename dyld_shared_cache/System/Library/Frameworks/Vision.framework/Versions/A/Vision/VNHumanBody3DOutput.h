@@ -10,19 +10,15 @@ __attribute__((visibility("hidden")))
 @interface VNHumanBody3DOutput
 {
     ABPKSkeleton *_liftedSkeleton;
-    struct CGSize _inputSize;
-    CDStruct_1fe29af2 _cameraIntrinsics;
 }
 
 - (id);
 - (id);
 - (CDStruct_1fe29af2);
-- (struct CGSize);
-- (void)GS1DataBar;
+- (struct CGSize)fp_isiCloudDriveOrCloudDocsIdentifier;
+- (void)VNBarcodeSymbologyGS1DataBar;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_1fe29af2 cameraIntrinsics; // @synthesize cameraIntrinsics=_cameraIntrinsics;
-@property(readonly, nonatomic) struct CGSize inputSize; // @synthesize inputSize=_inputSize;
 @property(readonly, nonatomic) ABPKSkeleton *liftedSkeleton; // @synthesize liftedSkeleton=_liftedSkeleton;
 
 @end

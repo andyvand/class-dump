@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface CKAuthenticationSettings
 {
     NSString *__password;
-    _Bool __loginToiCloud;
-    _Bool _forceAccount;
-    _Bool _createSession;
-    _Bool _showHelp;
-    NSString *_suggestedUsername;
-    NSDictionary *_authenticateArguments;
-    NSDictionary *_createAccountArguments;
 }
 
 + (_Bool);
@@ -27,7 +20,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
@@ -38,18 +31,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property _Bool _loginToiCloud;
 @property(copy) NSString *_password;
-@property(copy) NSDictionary *authenticateArguments; // @synthesize authenticateArguments=_authenticateArguments;
-@property(copy) NSDictionary *createAccountArguments; // @synthesize createAccountArguments=_createAccountArguments;
-@property _Bool createSession; // @synthesize createSession=_createSession;
-@property _Bool forceAccount; // @synthesize forceAccount=_forceAccount;
-@property _Bool showHelp; // @synthesize showHelp=_showHelp;
-@property(copy) NSString *suggestedUsername; // @synthesize suggestedUsername=_suggestedUsername;
 
 @end
 

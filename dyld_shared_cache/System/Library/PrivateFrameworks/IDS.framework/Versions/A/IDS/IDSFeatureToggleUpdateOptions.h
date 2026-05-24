@@ -9,7 +9,6 @@
 @interface IDSFeatureToggleUpdateOptions
 {
     NSString *_featureID;
-    unsigned long long _state;
 }
 
 + (id);
@@ -18,7 +17,7 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)channelInfo;
 - (void);
 - (void);
 - (id);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *featureID; // @synthesize featureID=_featureID;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
 
 @end
 

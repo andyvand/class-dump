@@ -7,24 +7,6 @@
 @interface ChatKit.TapbackPickerCollectionViewCell
 {
     id tapbackView;
-    id selectedTapbackBackgroundColor;
-    id tapbackBlurContainerView;
-    id selectionPlatter;
-    id materialView;
-    id tapbackPickerCellDelegate;
-    id gradientView;
-    id gradientPadding;
-    id gradientReferenceView;
-    id tapbackViewLeadingConstraint;
-    id tapbackViewTrailingConstraint;
-    id tapbackViewTopConstraint;
-    id tapbackViewBottomConstraint;
-    id selectionStateScale;
-    id edgeTransform;
-    id sectionHiddenBlurFilterRadius;
-    id scrollViewEdgeBlurFilterRadius;
-    id sectionHiddenOpacity;
-    id scrollViewEdgeOpacity;
 }
 
 - (struct CGRect);
@@ -36,13 +18,12 @@
 - (id);
 - (id)ryFoundItemHandler;
 - (void)ollPreventerDelegate>",W,N,V_delegate;
-- (void)ingEnabled;
+- (void)pinningEnabled;
 - (id)hat item, displaying empty tapback;
 - (void)oadAllDraftsInConversations:completion:]_block_invoke /* Error: Ran out of types for this method. */;
 - (_Bool)ì;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint center;
 @property(nonatomic) _Bool selected;
 
 @end

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSNumber;
+@class NSNumber;
 
 @interface ICAuthorHighlightAnimation
 {
     _Bool _aboveExistingHighlights;
-    _Bool _removedOnCompletion;
-    NSNumber *_duration;
-    NSNumber *_fromValue;
-    NSNumber *_toValue;
-    NSColor *_color;
 }
 
 - (void);
@@ -24,21 +19,16 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)H;
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (void)withExtension: /* Error: Ran out of types for this method. */;
+- (void)URLForResource:withExtension: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, getter=isAboveExistingHighlights) _Bool aboveExistingHighlights; // @synthesize aboveExistingHighlights=_aboveExistingHighlights;
-@property(copy, nonatomic) NSColor *color; // @synthesize color=_color;
 @property(copy, nonatomic) NSNumber *duration; // @synthesize duration=_duration;
-@property(copy, nonatomic) NSNumber *fromValue; // @synthesize fromValue=_fromValue;
-@property(nonatomic, getter=isRemovedOnCompletion) _Bool removedOnCompletion; // @synthesize removedOnCompletion=_removedOnCompletion;
-@property(copy, nonatomic) NSNumber *toValue; // @synthesize toValue=_toValue;
 
 @end
 

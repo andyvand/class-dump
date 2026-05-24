@@ -11,9 +11,6 @@
 @interface MNTraceNavigationUpdatesChangeRouteRow : MNTraceNavigationUpdatesRow
 {
     NSData *_directionsResponseID;
-    NSData *_etauResponseID;
-    unsigned long long _routeIndex;
-    unsigned long long _reason;
 }
 
 - (long long);
@@ -21,7 +18,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (unsigned long long);
@@ -30,9 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSData *directionsResponseID; // @synthesize directionsResponseID=_directionsResponseID;
-@property(retain, nonatomic) NSData *etauResponseID; // @synthesize etauResponseID=_etauResponseID;
-@property(nonatomic) unsigned long long reason; // @synthesize reason=_reason;
-@property(nonatomic) unsigned long long routeIndex; // @synthesize routeIndex=_routeIndex;
 
 @end
 

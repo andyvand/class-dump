@@ -6,7 +6,7 @@
 
 #import <AVFCore/AVMovie.h>
 
-@class AVMediaDataStorage, AVMutableMovieInternal, NSArray;
+@class AVMutableMovieInternal;
 
 @interface AVMutableMovie : AVMovie
 {
@@ -20,46 +20,46 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)R$;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)5;
 - (Class);
 - (id);
 - (void);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9)" ;
 - (id);
+- (id)`";
 - (id);
-- (id);
-- (id);
+- (id)h;
 - (void);
 - (id);
 - (struct OpaqueFigMutableMovie *);
+- (id);
+- (void);
+- (void)+;
+- (id);
+- (long long)ing algorithm for 16 bit types:(id)arg1;
+- (void);
+- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (long long);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (int);
+- (int)ndler already exists for protocol pair specified.;
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (float);
-- (id);
-- (id);
+- (float):Z /* Error: Ran out of types for this method. */;
+- (id);
+- (id)s %@;
 - (void);
-- (id);
+- (id)initialize;
 - (void);
 - (id);
 - (void);
@@ -69,28 +69,20 @@
 - (id);
 - (struct CGAffineTransform)1Â0@ù
 × ;
-- (float)sition:shouldContinueValidatingAfterFindingEmptyTimeRange: /* Error: Ran out of types for this method. */;
-- (id)oRenderer;
-- (void)s;
-- (void)neMinimumIntegerDigits;
-- (void)eristics:(id)arg1 fallbackPreferredLanguages:fallbackPreferredMediaCharacteristics:captionDisplayType: /* Error: Ran out of types for this method. */;
-- (CDStruct_1b6d18a9)reground;
-- (void)dentifier:(float)arg1;
+- (float)videoComposition:shouldContinueValidatingAfterFindingEmptyTimeRange: /* Error: Ran out of types for this method. */;
+- (id)sampleBufferAudioRenderer;
+- (void)playerCaptionLayers;
+- (void)numberFormatterWithOneMinimumIntegerDigits;
+- (void)initWithPreferredLanguages:(id)arg1 preferredMediaCharacteristics:fallbackPreferredLanguages:fallbackPreferredMediaCharacteristics:captionDisplayType: /* Error: Ran out of types for this method. */;
+- (CDStruct_1b6d18a9)hostApplicationInForeground;
+- (void)_participantStateForIdentifier:(float)arg1;
 - (id),;
 - (id)tSupport) issuePersistableContentKeyRequest:] /* Error: Ran out of types for this method. */;
-- (_Bool)artOfSeekableRange;
+- (_Bool)AVPlayerRateDidChangeReasonReversePlaybackReachedStartOfSeekableRange;
 - (id)ation.name;
 
 // Remaining properties
-@property(copy, nonatomic) AVMediaDataStorage *defaultMediaDataStorage;
-@property(nonatomic) CDStruct_1b6d18a9 interleavingPeriod;
-@property(copy, nonatomic) NSArray *metadata;
 @property(nonatomic, getter=isModified) _Bool modified;
-@property(nonatomic) float preferredRate;
-@property(nonatomic) struct CGAffineTransform preferredTransform;
-@property(nonatomic) float preferredVolume;
-@property(nonatomic) int timescale;
-@property(readonly, nonatomic) NSArray *tracks;
 
 @end
 

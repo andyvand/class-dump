@@ -13,8 +13,8 @@
     ECSubject *_subject;
 }
 
-- (void);
-- (id);
+- (void);
+- (id)_clearOpener;
 - (void)ðC	,O	ÜR	ÔV	HW	Dj	øj	(k	;
 - (id);
 

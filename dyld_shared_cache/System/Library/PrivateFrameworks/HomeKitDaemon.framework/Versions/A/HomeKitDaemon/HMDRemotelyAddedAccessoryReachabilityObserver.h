@@ -4,31 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDAccessory, HMFMessage, HMFTimer, NSNotificationCenter, NSObject, NSString;
-@protocol NSObject, OS_dispatch_queue;
+@class HMDAccessory, NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemotelyAddedAccessoryReachabilityObserver
 {
     HMDAccessory *_accessory;
-    HMFMessage *_message;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSNotificationCenter *_notificationCenter;
-    HMFTimer *_timer;
-    id <NSObject> _notificationToken;
 }
 
 + (id)[B;
-- (id);
-- (id);
+- (id)] - no participants left for event after filtering;
+- (id)blic}@] %{public}@ (%lu participants);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)j;
 - (id);
 - (id)Ç;
 - (void)message responded with error:(id)arg1 %@;
@@ -36,18 +31,6 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly) HMDAccessory *accessory; // @synthesize accessory=_accessory;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMFMessage *message; // @synthesize message=_message;
-@property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(retain) id <NSObject> notificationToken; // @synthesize notificationToken=_notificationToken;
-@property(readonly) Class superclass;
-@property(retain) HMFTimer *timer; // @synthesize timer=_timer;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

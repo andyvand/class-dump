@@ -9,10 +9,6 @@
 @interface TLAlertQueuePlayerStateDescriptor
 {
     _Bool _hasInvokedCompletionHandlerForPlayingAlert;
-    _Bool _isAlertActivationAssertionAcquired;
-    TLAlert *_playingAlert;
-    CDUnknownBlockType _playingAlertCompletionHandler;
-    TLAlert *_alertForAudioEnvironmentSetup;
 }
 
 - (id);
@@ -34,10 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isAlertActivationAssertionAcquired) _Bool alertActivationAssertionAcquired; // @synthesize alertActivationAssertionAcquired=_isAlertActivationAssertionAcquired;
-@property(retain, nonatomic) TLAlert *alertForAudioEnvironmentSetup; // @synthesize alertForAudioEnvironmentSetup=_alertForAudioEnvironmentSetup;
 @property(readonly, nonatomic) TLAlert *playingAlert; // @synthesize playingAlert=_playingAlert;
-@property(readonly, nonatomic) CDUnknownBlockType playingAlertCompletionHandler; // @synthesize playingAlertCompletionHandler=_playingAlertCompletionHandler;
 
 @end
 

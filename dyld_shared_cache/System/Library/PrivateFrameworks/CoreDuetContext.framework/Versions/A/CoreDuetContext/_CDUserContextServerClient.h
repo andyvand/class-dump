@@ -4,51 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject, NSString, NSXPCConnection, _CDInMemoryUserContext, _CDUserContextService;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface _CDUserContextServerClient
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_queue> *_activateMonitorQueue;
-    _CDUserContextService *_service;
-    _CDInMemoryUserContext *_userContext;
-    NSXPCConnection *_clientConnection;
-    NSMutableSet *_wakingRegistrations;
-    NSMutableSet *_nonWakingRegistration;
-    NSMutableDictionary *_devicesToActivateByRemoteUserContextProxySourceDeviceUUID;
 }
 
 + (id);
 + (id);
 + (id);
-- (void);
+- (void)MMMMd;
+- (id)L@y=SADqA;
 - (id);
 - (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)e;
+- (void)dited|charged|executed|seen|edited|modified|sent|expedited|transferred)(.{0,50})(on|at);
+- (void)bolzen|bolzplatz|kicken)( zu)? (gehen|gehst|geht|treffen|triffst|trifft);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)kL;
+- (id)Y?;
 - (void);
+- (void)talogChecked:(id)arg1 catalogPostedDate:(id)arg2 assetVersionSanity:(CDUnknownBlockType)arg3 osVersionSanity:osRestoreVersionSanity:skuSanity:sanityCheckAssetBuildAttribute:attributes:localURL: /* Error: Ran out of types for this method. */;
+- (_Bool)sendXPCEvent: /* Error: Ran out of types for this method. */;
 - (id);
+- (id);
+- (void);
 - (void);
 - (void);
 - (_Bool);
-- (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)(;
 - (id);
 - (id);
 - (void);
@@ -66,7 +59,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)4;
 - (id);
 - (id);
 - (void);
@@ -81,26 +74,12 @@
 - (void);
 - (void);
 - (id);
-- (void):(id)arg1;
+- (void)addObjects:(id)arg1 andRemoveObjects:(id)arg2 fromArrayAtKeyPath:valueDidChange: /* Error: Ran out of types for this method. */;
 - (void)llback:(id)arg1 %@;
 - (void)Path:(id)arg1 responseQueue:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *activateMonitorQueue; // @synthesize activateMonitorQueue=_activateMonitorQueue;
-@property(retain, nonatomic) NSXPCConnection *clientConnection; // @synthesize clientConnection=_clientConnection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableDictionary *devicesToActivateByRemoteUserContextProxySourceDeviceUUID; // @synthesize devicesToActivateByRemoteUserContextProxySourceDeviceUUID=_devicesToActivateByRemoteUserContextProxySourceDeviceUUID;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableSet *nonWakingRegistration; // @synthesize nonWakingRegistration=_nonWakingRegistration;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) _CDUserContextService *service; // @synthesize service=_service;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _CDInMemoryUserContext *userContext; // @synthesize userContext=_userContext;
-@property(retain, nonatomic) NSMutableSet *wakingRegistrations; // @synthesize wakingRegistrations=_wakingRegistrations;
 
 @end
 

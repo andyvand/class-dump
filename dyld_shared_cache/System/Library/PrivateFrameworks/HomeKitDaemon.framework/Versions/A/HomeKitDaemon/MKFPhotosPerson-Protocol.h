@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFPhotosPersonDatabaseID, NSUUID;
-@protocol MKFHome, MKFHomePerson, MKFUser;
+@class NSUUID;
+@protocol MKFHome, MKFUser;
 
 @protocol MKFPhotosPerson
 - (id <MKFHome>)
 × ;
-- (id <MKFUser>)hreadMonitorEnableTTR;
+- (id <MKFUser>)threadMonitorEnableTTR;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFPhotosPersonDatabaseID *databaseID;
-@property(readonly) id <MKFHome> home;
-@property(retain, nonatomic) id <MKFHomePerson> linkedHomePerson;
 @property(copy, nonatomic) NSUUID *photoLibraryPersonUUID;
-@property(readonly, retain, nonatomic) id <MKFUser> user;
 @end
 

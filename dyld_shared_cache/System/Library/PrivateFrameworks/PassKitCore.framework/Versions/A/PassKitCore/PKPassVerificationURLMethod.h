@@ -6,13 +6,11 @@
 
 #import <PassKitCore/PKPassVerificationMethod.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface PKPassVerificationURLMethod : PKPassVerificationMethod
 {
     NSURL *_url;
-    NSString *_websiteName;
-    unsigned long long _strategy;
 }
 
 + (_Bool)0@ù
@@ -27,16 +25,14 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)txLatencyVI;
 - (id);
-- (id)e:(id)arg1 endDate:calendar:calendarUnit:type:usingSynchronousProxy:completion: /* Error: Ran out of types for this method. */;
+- (id)cashbackByPeriodForTransactionSourceIdentifiers:(id)arg1 withStartDate:endDate:calendar:calendarUnit:type:usingSynchronousProxy:completion: /* Error: Ran out of types for this method. */;
 - (unsigned long long)rted:'%@';  /* Error: Ran out of types for this method. */;
 - (void)ingResponseIdentifier %@ incomingResponseIdentifier %@ expectsPeerResponse %d);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long strategy; // @synthesize strategy=_strategy;
 @property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(readonly, nonatomic) NSString *websiteName; // @synthesize websiteName=_websiteName;
 
 @end
 

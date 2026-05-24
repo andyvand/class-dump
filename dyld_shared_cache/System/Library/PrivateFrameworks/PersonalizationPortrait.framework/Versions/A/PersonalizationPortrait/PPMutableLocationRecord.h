@@ -6,7 +6,7 @@
 
 #import <PersonalizationPortrait/PPLocationRecord.h>
 
-@class NSArray, NSString, NSUUID, PPLocation, PPSource;
+@class NSUUID;
 
 @interface PPMutableLocationRecord : PPLocationRecord
 {
@@ -20,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)P;
 - (void);
 - (void);
 - (void)TDùJ 1Â0@ù
@@ -28,15 +28,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned short algorithm; // @dynamic algorithm;
-@property(retain, nonatomic) NSArray *contextualNamedEntities; // @dynamic contextualNamedEntities;
-@property(nonatomic) double decayRate; // @dynamic decayRate;
-@property(nonatomic) unsigned int extractionAssetVersion; // @dynamic extractionAssetVersion;
-@property(retain, nonatomic) NSString *extractionOsBuild; // @dynamic extractionOsBuild;
-@property(nonatomic) double initialScore; // @dynamic initialScore;
-@property(retain, nonatomic) PPLocation *location; // @dynamic location;
-@property(nonatomic) double sentimentScore; // @dynamic sentimentScore;
-@property(retain, nonatomic) PPSource *source; // @dynamic source;
 @property(retain, nonatomic) NSUUID *uuid; // @dynamic uuid;
 
 @end

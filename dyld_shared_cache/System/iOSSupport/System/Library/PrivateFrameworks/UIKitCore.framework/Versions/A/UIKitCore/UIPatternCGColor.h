@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     struct CGColor *_cachedUnflippedColor;
 }
 
-- (void);
+- (void)_payloadReturnStatus;
 - (id);
-- (id);
+- (id)storeCloudAlbumID;
 - (struct CGColor *)izer;
 - (void)Ìtg;
 - (void)(±h;

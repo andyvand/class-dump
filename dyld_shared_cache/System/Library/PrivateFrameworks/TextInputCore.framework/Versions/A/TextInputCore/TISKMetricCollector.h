@@ -4,46 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NLTagger, NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSObject, NSString, TIInputMode, TIKeyboardInput, TITypingSession, TIUserModelDataStore;
-@protocol OS_dispatch_queue, TISensorWriterWrapper;
+@class TIInputMode;
 
 __attribute__((visibility("hidden")))
 @interface TISKMetricCollector
 {
     TIInputMode *_inputMode;
-    NSMutableDictionary *_touchToEventMap;
-    NSMutableArray *_events;
-    NSArray *_sortedEvents;
-    NSMutableArray *_touches;
-    NSMutableArray *_layoutIDs;
-    NSMutableArray *_taps;
-    long long _wordPosition;
-    TIKeyboardInput *_lastInput;
-    long long _currentWordPosition;
-    long long _eventOrder;
-    NSMutableArray *_currentSessionStatsArray;
-    unsigned long long _aggregatedWordThreshold;
-    _Bool _isLoaded;
-    TIUserModelDataStore *_userModelDataStore;
-    _Bool _accentedLanguage;
-    NSMutableArray *_accentedLayoutsMap;
-    NSString *_identifier;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    int _tccNotifyToken;
-    _Bool _isTCCAuthorized;
-    _Bool _skipTCCAuthorization;
-    NSDictionary *_wordBucketDictionary;
-    NSDictionary *_emojiBuckets;
-    NLTagger *_tagger;
-    NSString *_previousWord;
-    unsigned long long _wordAccumulationThreshold;
-    id <TISensorWriterWrapper> _dataWriter;
-    NSMutableArray *_savedSessionStatsArray;
-    TITypingSession *_typingSession;
 }
 
-+ (_Bool);
-+ (id);
++ (_Bool)8";
++ (id)P;
 - (double);
 - (void);
 - (void);
@@ -59,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -67,19 +37,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (long long);
+- (void)setCacheKey:(id)arg1;
 - (void);
+- (id);
 - (void);
+- (void)star.circle;
+- (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)setTitleNote: /* Error: Ran out of types for this method. */;
+- (void)ult %i:(id)arg1 bundleId=%@ identifier=%@ MDItemIdentifier=%@, NO MATCH_INFO;
 - (id);
 - (double);
 - (id);
@@ -94,7 +64,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)of file (%{errno}d);
 - (void);
 - (void);
 - (_Bool);
@@ -104,18 +74,6 @@ __attribute__((visibility("hidden")))
 - (id)text and does not preserve input word url format;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *currentSessionStatsArray; // @synthesize currentSessionStatsArray=_currentSessionStatsArray;
-@property(retain, nonatomic) id <TISensorWriterWrapper> dataWriter; // @synthesize dataWriter=_dataWriter;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isLoaded; // @synthesize isLoaded=_isLoaded;
-@property(retain, nonatomic) NSMutableArray *savedSessionStatsArray; // @synthesize savedSessionStatsArray=_savedSessionStatsArray;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) TITypingSession *typingSession; // @synthesize typingSession=_typingSession;
 @property(nonatomic) unsigned long long wordAccumulationThreshold; // @synthesize wordAccumulationThreshold=_wordAccumulationThreshold;
 
 @end

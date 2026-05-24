@@ -6,28 +6,25 @@
 
 #import <UIKitCore/_UIColorWellVisualStyle.h>
 
-@class UIButton, UIView;
+@class UIButton;
 
 __attribute__((visibility("hidden")))
 @interface _UIColorWelliOSVisualStyle : _UIColorWellVisualStyle
 {
     UIButton *_button;
-    UIView *_gradientView;
-    UIView *_borderView;
-    _Bool _isSelected;
 }
 
-- (id);
-- (id);
+- (id)adAttachmentDictionary:(id)arg1 inlineAttachments:attributionInfoArray:nicknameDictionary:availabilityVerificationRecipientChannelIDPrefix:availabilityVerificationRecipientEncryptionValidationToken:availabilityOffGridRecipientSubscriptionValidationToken:availabilityOffGridRecipientEncryptionValidationToken:idsService:messageContext:isFromTrustedSender:isFromSnapTrustedSender:wasContextUsed:isBlackholed:shouldTrackForRequery:isFiltered:spamDetectionSource:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)IMDBackgroundMessagingAPITargetHandler;
 - (double);
+- (void)ng transfer -- Transfer created Date is > 30 days old and we need to upload the asset to CloudKit;
 - (void);
 - (void);
+- (void)_TtC5UIKit34_UIFlexInteractionLargeVariantSpec;
 - (void);
-- (void)onLargeVariantSpec;
-- (void);
-- (struct CGSize)ingAnimations;
+- (struct CGSize)runningAnimations;
 - (void)entDescriptor init];
-- (void)Response;
+- (void)UILayoutComponentResponse;
 - (void)à¾];
 
 @end

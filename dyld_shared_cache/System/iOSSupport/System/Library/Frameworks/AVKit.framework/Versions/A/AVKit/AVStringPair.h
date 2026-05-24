@@ -10,23 +10,19 @@ __attribute__((visibility("hidden")))
 @interface AVStringPair
 {
     NSString *_first;
-    NSString *_second;
 }
 
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)initWithLangResponse:displayed:selected:matched: /* Error: Ran out of types for this method. */;
+- (id)g\;
 - (void)0@ù
 × ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *first; // @synthesize first=_first;
-@property(readonly, nonatomic) NSString *key;
-@property(readonly, nonatomic) NSString *second; // @synthesize second=_second;
-@property(readonly, nonatomic) NSString *value;
 
 @end
 

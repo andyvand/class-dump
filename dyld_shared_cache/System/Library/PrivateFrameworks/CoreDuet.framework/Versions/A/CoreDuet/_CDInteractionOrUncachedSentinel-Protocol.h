@@ -5,5 +5,6 @@
 //
 
 @protocol _CDInteractionOrUncachedSentinel
+- (_Bool);
 @end
 

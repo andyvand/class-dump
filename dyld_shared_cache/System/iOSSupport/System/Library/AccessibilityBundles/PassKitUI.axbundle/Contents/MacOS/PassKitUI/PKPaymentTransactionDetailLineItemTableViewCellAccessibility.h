@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)VKCImageVisualSearchViewAccessibility;
 + (void);
 - (_Bool);
 - (id);

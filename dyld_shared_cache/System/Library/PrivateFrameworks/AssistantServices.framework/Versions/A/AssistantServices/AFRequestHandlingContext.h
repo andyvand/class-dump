@@ -9,8 +9,6 @@
 @interface AFRequestHandlingContext
 {
     NSString *_requestID;
-    NSString *_inputDeviceID;
-    NSString *_inputAssistantID;
 }
 
 + (id);
@@ -18,32 +16,23 @@
 - (id);
 - (id);
 - (id);
+- (id),C,N,V_title;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long);
+- (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void)ncAppMetaData",C,N,V_appMetadata;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *inputAssistantID; // @synthesize inputAssistantID=_inputAssistantID;
-@property(readonly, copy, nonatomic) NSString *inputDeviceID; // @synthesize inputDeviceID=_inputDeviceID;
 @property(readonly, copy, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
-@property(readonly) Class superclass;
 
 @end
 

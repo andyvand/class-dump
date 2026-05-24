@@ -12,16 +12,16 @@
 
 - (id);
 - (void);
+- (void)";
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)PXCreateSharedLibraryActionPerformer;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 
 @end
 

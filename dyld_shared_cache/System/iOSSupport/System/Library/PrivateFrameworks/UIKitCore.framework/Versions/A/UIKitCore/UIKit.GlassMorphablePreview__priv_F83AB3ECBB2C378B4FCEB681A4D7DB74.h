@@ -11,7 +11,7 @@
     id glass;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)ðl;

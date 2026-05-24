@@ -12,9 +12,9 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)_accessibilityDecrementMockSlider:(id)arg1 largeStep: /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
+- (_Bool)$;
 - (unsigned long long);
 - (id);
 

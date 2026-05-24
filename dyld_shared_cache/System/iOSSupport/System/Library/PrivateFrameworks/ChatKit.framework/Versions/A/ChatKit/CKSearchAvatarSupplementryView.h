@@ -4,52 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAvatarView, CKSpotlightQueryResult, CNContact, NSString;
+@class CKAvatarView;
 
 @interface CKSearchAvatarSupplementryView
 {
     unsigned long long _parentContentType;
-    CKSpotlightQueryResult *_associatedResult;
-    CNContact *_contact;
-    CKAvatarView *_avatarView;
-    struct UIEdgeInsets marginInsets;
 }
 
 + (id);
 + (double);
-+ (double);
++ (double)@;
 + (id);
-- (void);
-- (void);
-- (void);
+- (void)ensureLayoutForGlyphRange:(unsigned long long)arg1;
+- (void)deleteCharactersInRange:(struct UIEdgeInsets)arg1;
+- (void)_webView:(id)arg1 requestDisplayCapturePermissionForOrigin:initiatedByFrame:withSystemAudio:decisionHandler: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (struct UIEdgeInsets);
+- (id)urn ranges containg ranges due to missing text storage;
+- (void)migration prompt… {account:%@}%s:%d /* Error: Ran out of types for this method. */;
+- (void)AcceptShare;
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)CNAutocompleteSupplementalGroup;
 - (id);
 - (void)
 × ;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CKSpotlightQueryResult *associatedResult; // @synthesize associatedResult=_associatedResult;
 @property(retain, nonatomic) CKAvatarView *avatarView; // @synthesize avatarView=_avatarView;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct UIEdgeInsets marginInsets; // @synthesize marginInsets;
-@property(nonatomic) unsigned long long parentContentType; // @synthesize parentContentType=_parentContentType;
-@property(readonly) Class superclass;
 
 @end
 

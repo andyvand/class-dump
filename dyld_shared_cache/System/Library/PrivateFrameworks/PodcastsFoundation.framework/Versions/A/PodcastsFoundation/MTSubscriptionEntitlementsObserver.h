@@ -5,13 +5,10 @@
 //
 
 @class ASDSubscriptionEntitlements;
-@protocol MTSubscriptionEntitlementsObserverDelegate;
 
 @interface MTSubscriptionEntitlementsObserver
 {
     struct os_unfair_lock_s _subscriptionsEntitlementsLock;
-    id <MTSubscriptionEntitlementsObserverDelegate> _delegate;
-    ASDSubscriptionEntitlements *_entitlements;
 }
 
 - (id);
@@ -23,7 +20,6 @@
 - (void)G$SgG;
 
 // Remaining properties
-@property(nonatomic) __weak id <MTSubscriptionEntitlementsObserverDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) ASDSubscriptionEntitlements *entitlements; // @synthesize entitlements=_entitlements;
 
 @end

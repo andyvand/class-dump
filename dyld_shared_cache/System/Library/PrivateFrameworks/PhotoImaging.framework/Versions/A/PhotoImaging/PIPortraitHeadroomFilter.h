@@ -9,14 +9,6 @@
 @interface PIPortraitHeadroomFilter
 {
     _Bool _isInactive;
-    _Bool _colorAnalysisOnly;
-    _Bool _skipInpaint;
-    CIImage *_inputImage;
-    CIImage *_matteImage;
-    CIImage *_hdrGainMap;
-    double _renderScale;
-    unsigned long long _classification;
-    struct CGRect _extendedRect;
 }
 
 - (_Bool);
@@ -38,18 +30,10 @@
 - (id);
 - (id);
 - (void);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)setWarmFace: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long classification; // @synthesize classification=_classification;
-@property(nonatomic) _Bool colorAnalysisOnly; // @synthesize colorAnalysisOnly=_colorAnalysisOnly;
-@property(nonatomic) struct CGRect extendedRect; // @synthesize extendedRect=_extendedRect;
-@property(retain, nonatomic) CIImage *hdrGainMap; // @synthesize hdrGainMap=_hdrGainMap;
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(nonatomic) _Bool isInactive; // @synthesize isInactive=_isInactive;
-@property(retain, nonatomic) CIImage *matteImage; // @synthesize matteImage=_matteImage;
-@property(nonatomic) double renderScale; // @synthesize renderScale=_renderScale;
-@property(nonatomic) _Bool skipInpaint; // @synthesize skipInpaint=_skipInpaint;
 
 @end
 

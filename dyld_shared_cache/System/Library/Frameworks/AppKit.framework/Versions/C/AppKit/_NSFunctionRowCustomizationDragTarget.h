@@ -6,34 +6,30 @@
 
 #import <AppKit/NSView.h>
 
-@class NSTrackingArea;
 @protocol _NSFunctionRowCustomizationDragTargetDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _NSFunctionRowCustomizationDragTarget : NSView
 {
     id <_NSFunctionRowCustomizationDragTargetDelegate> _delegate;
-    NSTrackingArea *_trackingArea;
-    _Bool _dragInBounds;
 }
 
-- (void);
+- (void)ataEntry *__single);
 - (_Bool);
-- (_Bool);
+- (_Bool)qa;
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (void);
+- (void)on_ms=%u, response_status=%ld, connection=%llu, protocol="%{public}@", domain_lookup_duration_ms=%u, connect_duration_ms=%u, secure_connection_duration_ms=%u, private_relay=%{bool}d, request_start_ms=%u, request_duration_ms=%u, response_start_ms=%u, response_duration_ms=%u, request_bytes=%lld, request_throughput_kbps=%lld, response_bytes=%lld, response_throughput_kbps=%lld, cache_hit=%{bool}d};
 - (void);
 - (id);
 - (void);
 - (void);
-- (void)taSourceState:(id)arg1;
+- (void)initWithItemDiffer:(id)arg1 beforeDataSourceState:afterDataSourceState: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property id <_NSFunctionRowCustomizationDragTargetDelegate> delegate; // @synthesize delegate=_delegate;
-@property _Bool dragInBounds; // @synthesize dragInBounds=_dragInBounds;
 
 @end
 

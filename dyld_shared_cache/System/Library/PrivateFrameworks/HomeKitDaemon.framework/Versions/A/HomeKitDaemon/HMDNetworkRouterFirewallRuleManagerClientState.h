@@ -10,18 +10,16 @@ __attribute__((visibility("hidden")))
 @interface HMDNetworkRouterFirewallRuleManagerClientState
 {
     id <HMDNetworkRouterFirewallRuleManagerClient> _client;
-    CDUnknownBlockType _startupCompletion;
 }
 
 - (CDUnknownBlockType);
 - (void);
 - (id);
 - (void);
-- (void)OUTER_REMOVAL_CONFIRM_DETAIL;
+- (void)ROUTER_REMOVAL_CONFIRM_DETAIL;
 
 // Remaining properties
 @property(nonatomic) __weak id <HMDNetworkRouterFirewallRuleManagerClient> client; // @synthesize client=_client;
-@property(copy, nonatomic) CDUnknownBlockType startupCompletion; // @synthesize startupCompletion=_startupCompletion;
 
 @end
 

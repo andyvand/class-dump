@@ -4,74 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SuddenChangeParameters, VCRateControlServerBag;
-
 __attribute__((visibility("hidden")))
 @interface VCRateControlBandwidthEstimator
 {
     unsigned int _totalBytesInProbingSequence;
-    unsigned int _totalPacketsInProbingSequence;
-    double _lastPacketInProbingSequenceArrivalTime;
-    double _lastPacketInProbingSequenceSendTime;
-    double _referencePacketArrivalTime;
-    double _referencePacketSendTime;
-    double _earlyProbingPacketArrivalTime;
-    unsigned int _earlyBytesInProbingSequence;
-    unsigned int _earlyPacketsInProbingSequence;
-    unsigned int _referencePacketDataSize;
-    _Bool _isInitialized;
-    _Bool _isFirstBWEstimationReleased;
-    unsigned int _lastProbingSequenceTimestamp;
-    unsigned int _lastProbingSequenceReferenceTimestamp;
-    double _firstDivergeTime;
-    int _bandwidthDivergeCount;
-    int _suddenChangeBandwidthBufferIndex;
-    double _suddenChangeBandwidthBuffer[30];
-    unsigned int _overRangePacketsCount;
-    double _totalBandwidth;
-    SuddenChangeParameters *_suddenChangeParameters;
-    unsigned int _minPacketsCount;
-    double _minEstimationWindowDuration;
-    double _maxDetectableBandwidth;
-    unsigned int _maxOverRangePacketsCount;
-    double _estimatedBandwidth;
-    double _estimatedBandwidthUncapped;
-    unsigned int _radioAccessTechnology;
-    unsigned int _mode;
-    int _bandwidthEstimationState;
-    _Bool _fastSuddenBandwidthDetectionEnabled;
-    _Bool _l4sHighDataRateEnabled;
-    VCRateControlServerBag *_serverBag;
-    unsigned int _minProbingSequenceSize;
-    void *_logBWEDump;
 }
 
+- (void);
 - (void);
-- (void);
-- (double);
+- (double)ס;
 - (_Bool);
 - (double);
-- (double);
+- (double);
 - (void);
 - (int);
 - (void);
 - (void);
 - (unsigned int);
-- (id);
+- (id)A;
 - (void);
 - (unsigned int);
 - (void)erverSideInputStream];
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) int bandwidthEstimationState; // @synthesize bandwidthEstimationState=_bandwidthEstimationState;
 @property(nonatomic) double estimatedBandwidth; // @synthesize estimatedBandwidth=_estimatedBandwidth;
-@property(nonatomic) double estimatedBandwidthUncapped; // @synthesize estimatedBandwidthUncapped=_estimatedBandwidthUncapped;
-@property(readonly, nonatomic) _Bool fastSuddenBandwidthDetectionEnabled; // @synthesize fastSuddenBandwidthDetectionEnabled=_fastSuddenBandwidthDetectionEnabled;
-@property(readonly, nonatomic) double lastProbingArrivalTime; // @synthesize lastProbingArrivalTime=_referencePacketArrivalTime;
-@property(nonatomic) unsigned int mode; // @synthesize mode=_mode;
-@property(nonatomic) unsigned int radioAccessTechnology; // @synthesize radioAccessTechnology=_radioAccessTechnology;
-@property(retain, nonatomic) VCRateControlServerBag *serverBag; // @synthesize serverBag=_serverBag;
 
 @end
 

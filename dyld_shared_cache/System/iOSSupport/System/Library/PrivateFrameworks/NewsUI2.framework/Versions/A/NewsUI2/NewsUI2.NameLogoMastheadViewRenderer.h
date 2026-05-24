@@ -7,13 +7,6 @@
 @interface NewsUI2.NameLogoMastheadViewRenderer
 {
     id logoImageCache;
-    id flagImageCache;
-    id backgroundImageCache;
-    id sportsDataService;
-    id assetHandleFactory;
-    id styler;
-    id appConfigManager;
-    id imageRenderTask;
 }
 
 @end

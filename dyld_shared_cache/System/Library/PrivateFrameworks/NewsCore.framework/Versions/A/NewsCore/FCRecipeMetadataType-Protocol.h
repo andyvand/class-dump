@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCHeadlineThumbnailMetadata, NSString;
+@class NSString;
 
 @protocol FCRecipeMetadataType
 - (NSString *)turePromotionResourceConfiguration"16@0:8 /* Error: Ran out of types for this method. */;
-- (NSString *)idUpdateRefreshTest: /* Error: Ran out of types for this method. */;
+- (NSString *)setRapidUpdateRefreshTest: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) FCHeadlineThumbnailMetadata *formatThumbnail;
-@property(readonly, nonatomic) NSString *shortExcerpt;
 @property(readonly, nonatomic) NSString *title;
 @end
 

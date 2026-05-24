@@ -4,48 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSMutableData, NSMutableDictionary, NSObject, NSString, TCPBufferPool;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface TCPTunnelClient
 {
     int _connectState;
-    int _connectedFD;
-    int _isChannelBound;
-    CDUnknownBlockType _handler;
-    CDUnknownBlockType _allocationResponseHandler;
-    CDUnknownBlockType _terminationHandler;
-    CDUnknownBlockType _bindingResponseHandler;
-    CDUnknownBlockType _destroyHandler;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_source> *_readSource;
-    NSObject<OS_dispatch_source> *_writeSource;
-    unsigned char _writeSourceSuspended;
-    NSObject<OS_dispatch_source> *_timer;
-    float _fTimeout;
-    NSString *_participantID;
-    unsigned short _channelNumber;
-    NSMutableDictionary *_reqRespDict;
-    NSDictionary *_relayUpdateDict;
-    struct tagIPPORT _serverIPPort;
-    NSData *_allocateReq;
-    NSData *_channelBReq;
-    double _allocationTimestamp;
-    NSMutableData *_currentlyReadingMessage;
-    long long _currentlyReadingDataGoalLength;
-    unsigned short _currentMsgType;
-    long long _currentPadding;
-    char *_writeBuf;
-    int _head;
-    int _tail;
-    TCPBufferPool *_bufferPool;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);
@@ -78,12 +46,7 @@ __attribute__((visibility("hidden")))
 - (void)udioClient [%s] %s:(CDUnknownBlockType)arg1 %d @:@ AVAudioClient-isMicrophoneMuted (%p) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType allocationResponseHandler; // @synthesize allocationResponseHandler=_allocationResponseHandler;
-@property(copy) CDUnknownBlockType bindingResponseHandler; // @synthesize bindingResponseHandler=_bindingResponseHandler;
-@property(copy) CDUnknownBlockType destroyHandler; // @synthesize destroyHandler=_destroyHandler;
-@property(copy) NSString *participantID; // @synthesize participantID=_participantID;
 @property(copy) CDUnknownBlockType receiveHandler; // @synthesize receiveHandler=_handler;
-@property(copy) CDUnknownBlockType terminationHandler; // @synthesize terminationHandler=_terminationHandler;
 
 @end
 

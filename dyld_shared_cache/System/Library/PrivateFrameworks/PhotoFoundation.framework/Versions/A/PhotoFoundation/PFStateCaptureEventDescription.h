@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableString, NSString;
-
 @interface PFStateCaptureEventDescription
 {
     double _startTimestamp;
-    NSMutableString *_description;
 }
 
 - (id);
@@ -18,7 +15,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)J!;
 - (id);
 - (id);
 - (id);
@@ -31,7 +28,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) double startTimestamp; // @synthesize startTimestamp=_startTimestamp;
 
 @end

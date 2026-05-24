@@ -7,12 +7,13 @@
 @interface AccessoryNotifications.NotificationSwiftPayloadAdapter
 {
     id payload;
+    id ;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)@;
 - (void);
 
 @end

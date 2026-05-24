@@ -8,13 +8,6 @@
 {
     id _notification;
     id alertIdentifier;
-    id callCenter;
-    id xpc;
-    id callsReminder;
-    id _delegate;
-    id _callConfirmationResponseCallback;
-    id logger;
-    id _$observationRegistrar;
 }
 
 @end

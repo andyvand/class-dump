@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface PKPassDetailSection
 {
     _Bool _hidden;
-    NSString *_header;
-    NSString *_footer;
-    NSString *_insertAfterSection;
-    NSArray *_rows;
-    NSString *_identifier;
 }
 
 + (_Bool)X"°!;
@@ -27,23 +22,18 @@
 - (id);
 - (id);
 - (unsigned long long);
+- (void)SF_AUTHENTICATION_SESSION;
+- (_Bool);
 - (void);
-- (_Bool);
-- (void);
 - (id);
 - (id);
 - (id);
-- (void)ionStateMachineWillStartNotification;
+- (void)PKPaymentAuthorizationStateMachineWillStartNotification;
 - (id);
 - (id)F;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *footer; // @synthesize footer=_footer;
 @property(retain, nonatomic) NSString *header; // @synthesize header=_header;
-@property(readonly, nonatomic, getter=isHidden) _Bool hidden; // @synthesize hidden=_hidden;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *insertAfterSection; // @synthesize insertAfterSection=_insertAfterSection;
-@property(retain, nonatomic) NSArray *rows; // @synthesize rows=_rows;
 
 @end
 

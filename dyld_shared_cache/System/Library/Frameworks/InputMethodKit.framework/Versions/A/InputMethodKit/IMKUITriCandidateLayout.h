@@ -9,23 +9,19 @@
 @interface IMKUITriCandidateLayout
 {
     IMKCandidate *_left;
-    IMKCandidate *_middle;
-    IMKCandidate *_right;
 }
 
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)captureOutput:didDropSampleBuffer:fromConnection: /* Error: Ran out of types for this method. */;
+- (unsigned long long)recvfrom(%d) returned 0:empty message /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly) IMKCandidate *leftCandidate; // @synthesize leftCandidate=_left;
-@property(readonly) IMKCandidate *middleCandiate; // @synthesize middleCandiate=_middle;
-@property(readonly) IMKCandidate *rightCandidate; // @synthesize rightCandidate=_right;
 
 @end
 

@@ -7,8 +7,6 @@
 @interface SPShared.PerformanceCapture
 {
     id flag;
-    id start;
-    id duration;
 }
 
 @end

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface UIDropInteractionContextImpl
@@ -15,21 +15,13 @@ __attribute__((visibility("hidden")))
 
 - (void)0@ù
 × ;
-- (long long)et_showsEyedropper: /* Error: Ran out of types for this method. */;
-- (id)HoverStyleUpdate;
+- (long long)set_showsEyedropper: /* Error: Ran out of types for this method. */;
+- (id)_needsHoverStyleUpdate;
 - (void)13Äüÿm13èõnþm13üþu13àô¸þ;
 - (void)ü­FÿóóÏhwh;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSArray *items; // @synthesize items=_items;
 @property(nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,21 +6,17 @@
 
 #import <SceneKit/SCNUIBindableView.h>
 
-@class NSObject, NSString, NSTextField;
+@class NSTextField;
 
 __attribute__((visibility("hidden")))
 @interface SCNUIVector3TextField : SCNUIBindableView
 {
     NSTextField *tx;
-    NSTextField *ty;
-    NSTextField *tz;
-    NSObject *observer;
-    NSString *observedKeyPath;
 }
 
-- (void);
+- (void);
 - (struct SCNVector3);
-- (id);
+- (id)update_db_info;
 - (id);
 - (void)l, light));
     }

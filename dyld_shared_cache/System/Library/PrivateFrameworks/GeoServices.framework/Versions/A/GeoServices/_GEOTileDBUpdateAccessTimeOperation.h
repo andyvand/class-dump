@@ -4,33 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface _GEOTileDBUpdateAccessTimeOperation
 {
     struct _GEOTileKey _key;
-    double _timestamp;
 }
 
 - (unsigned long long);
 - (id);
-- (void);
-- (_Bool);
+- (void)e_2;
+- (_Bool);
 - (id);
 - (_Bool);
 - (struct _GEOTileKey *);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) struct _GEOTileKey *key;
-@property(readonly, nonatomic) unsigned long long sizeInBytes;
-@property(readonly) Class superclass;
 
 @end
 

@@ -12,7 +12,7 @@
 + (id);
 - (id);
 - (id);
-- (id);
+- (id)nknown error creating VNObservation object;
 
 @end
 

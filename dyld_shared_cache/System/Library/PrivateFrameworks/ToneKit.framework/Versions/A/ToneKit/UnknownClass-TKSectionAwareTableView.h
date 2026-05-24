@@ -10,7 +10,6 @@
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) long long tk_row;
 @property(readonly, nonatomic) long long tk_section;
 @end
 

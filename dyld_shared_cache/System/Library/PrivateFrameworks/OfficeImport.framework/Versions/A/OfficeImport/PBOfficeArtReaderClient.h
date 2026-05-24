@@ -19,12 +19,12 @@ __attribute__((visibility("hidden")))
 + (id);
 + (_Bool);
 + (void);
-+ (void);
++ (void)i;
 + (void);
 + (void);
 + (int);
 + (int);
-+ (id);
++ (id);
 + (id);
 + (_Bool);
 + (int);

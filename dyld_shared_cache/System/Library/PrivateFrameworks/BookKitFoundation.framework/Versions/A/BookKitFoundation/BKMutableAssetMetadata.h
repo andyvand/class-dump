@@ -24,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -47,6 +47,12 @@
 - (void);
 - (void);
 - (void);
+- (void)ently-it-is;
+- (void);
+- (void);
+- (void);
+- (void)ntroller"16;
+- (void)!\!;
 - (void);
 - (void);
 - (void);
@@ -54,13 +60,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void) ;
 - (void);
 - (void);
 - (void);

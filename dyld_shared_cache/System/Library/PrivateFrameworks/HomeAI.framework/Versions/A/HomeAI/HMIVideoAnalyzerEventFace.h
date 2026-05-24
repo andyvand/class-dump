@@ -6,14 +6,11 @@
 
 #import <HomeAI/HMIVideoAnalyzerEvent.h>
 
-@class HMIFaceRecognition, HMITorsoAnnotation, NSNumber, NSUUID;
+@class HMIFaceRecognition, NSNumber;
 
 @interface HMIVideoAnalyzerEventFace : HMIVideoAnalyzerEvent
 {
     HMIFaceRecognition *_faceRecognition;
-    NSNumber *_yaw;
-    NSNumber *_roll;
-    HMITorsoAnnotation *_torsoAnnotation;
 }
 
 + (_Bool);
@@ -21,25 +18,22 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)D;
 - (void);
-- (id);
+- (id)�"@)	K
+;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) HMIFaceRecognition *faceRecognition; // @synthesize faceRecognition=_faceRecognition;
-@property(readonly) NSNumber *roll; // @synthesize roll=_roll;
-@property(readonly) NSUUID *sessionEntityUUID;
-@property(readonly) HMITorsoAnnotation *torsoAnnotation; // @synthesize torsoAnnotation=_torsoAnnotation;
 @property(readonly) NSNumber *yaw; // @synthesize yaw=_yaw;
 
 @end

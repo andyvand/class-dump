@@ -8,10 +8,6 @@
 {
     id $defaultActor;
     id userDefaults;
-    id loadingState;
-    id lastKnownUnitConfig;
-    id updatesMulticaster;
-    id dataUpdatesMulticaster;
 }
 
 @end

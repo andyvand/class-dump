@@ -4,17 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _INPBIntentMetadata, _INPBTimer;
+@class _INPBIntentMetadata;
 
 @protocol _INPBDeleteTimerIntent
-- (_Bool)loadPrimitiveInt: /* Error: Ran out of types for this method. */;
+- (_Bool)M;
+- (_INPBIntentMetadata *)gine/TMSystemPathsOracle.m;
+- (_Bool)addPayloadPrimitiveInt: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool deleteMultiple;
-@property(nonatomic) _Bool hasDeleteMultiple;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasTargetTimer;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(retain, nonatomic) _INPBTimer *targetTimer;
 @end
 

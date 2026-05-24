@@ -11,10 +11,10 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)myriadCoordinationEnabled;
+- (void)!;
+- (void)etryTimer;
+- (id)";
 - (void)xn¬[Mº±FP§esyoZ­»LÁ6 ×âôþ	è*ÝË<Ù.8Ïúìæð2ÅÓ$©^H¿}kawBµ£T~hª]K¼A¶ WbtùïÚ-;Ì1ÆÐ'åóá÷;
 
 // Remaining properties

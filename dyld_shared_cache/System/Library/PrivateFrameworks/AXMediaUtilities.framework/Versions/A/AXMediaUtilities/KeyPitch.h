@@ -7,23 +7,19 @@
 @interface KeyPitch
 {
     double _frequency;
-    double _timeOffsetMS;
-    double _volume;
 }
 
-- (double);
+- (double)ğ[;
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)or">;
 - (void);
 - (double);
-- (double)boxAligner;
+- (double)FaceboxAligner;
 
 // Remaining properties
 @property(nonatomic) double frequency; // @synthesize frequency=_frequency;
-@property(nonatomic) double timeOffsetMS; // @synthesize timeOffsetMS=_timeOffsetMS;
-@property(nonatomic) double volume; // @synthesize volume=_volume;
 
 @end
 

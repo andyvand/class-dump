@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSUUID, OSLaunchdDomain;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_xpc_object;
+@class NSObject, NSUUID;
+@protocol OS_xpc_object;
 
 @interface OSLaunchdJob
 {
     NSObject<OS_xpc_object> *_plist;
-    OSLaunchdDomain *_domain;
-    NSObject<OS_dispatch_source> *_monitor_source;
-    CDUnknownBlockType _monitor_handler;
-    NSObject<OS_dispatch_queue> *_monitor_queue;
-    NSUUID *_handle;
 }
 
 + (_Bool);
-+ (id);
++ (id)error;
 + (id);
 + (id);
 + (id);
@@ -29,32 +24,34 @@
 + (id);
 + (long long);
 + (void);
-+ (int);
++ (int)x;
++ (id)in enabled state;
 + (id);
 + (id);
-+ (id);
+- (id);
+- (void);
+- (id)StreamingForegroundSegmentationEnabled;
+- (id);
+- (void)S;
+- (void)n for %s (%#llx).  Return code:(id)arg1 %#x
+;
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
 - (void);
 - (id);
-- (void);
+- (id)nvalid terminal `Cdecomp' attribute value;
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)ws=%zu
+;
+- (id);
+- (_Bool);
+- (id)setNeedsDisplay:(id)arg1;
 - (_Bool);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (void);
-- (id);
+- (void)no client nonce;
+- (id)qm;
 - (void);
 - (id);
 - (id);

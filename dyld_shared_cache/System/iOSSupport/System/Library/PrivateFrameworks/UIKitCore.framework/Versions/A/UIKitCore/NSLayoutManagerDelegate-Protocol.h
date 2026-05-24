@@ -9,6 +9,7 @@
 @protocol NSLayoutManagerDelegate
 
 @optional
+- (void);
 - (_Bool)paratorAttributes",&,N,G_visualStyleOverrideSeparatorAttributes,S_setVisualStyleOverrideSeparatorAttributes:(NSLayoutManager *)arg1 ,V_visualStyleOverrideSeparatorAttributes;
 @end
 

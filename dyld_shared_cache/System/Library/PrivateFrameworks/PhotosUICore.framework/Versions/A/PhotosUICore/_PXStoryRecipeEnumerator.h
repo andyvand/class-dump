@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, PHPhotoLibrary;
-
 @interface _PXStoryRecipeEnumerator
 {
     unsigned long long _batchSize;
-    PHPhotoLibrary *_photoLibrary;
-    NSString *_scheme;
-    NSMutableDictionary *_identifierMap;
-    CDUnknownBlockType _block;
 }
 
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)SXAppStateMonitor;
 - (void)e;
 - (CDUnknownBlockType)D}þÿPëéÿ;
 - (void)<;

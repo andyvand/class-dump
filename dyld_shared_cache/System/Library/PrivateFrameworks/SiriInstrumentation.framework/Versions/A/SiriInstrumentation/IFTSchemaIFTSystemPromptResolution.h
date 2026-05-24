@@ -6,24 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTStatementId, IFTSchemaIFTSystemPromptResolutionInput, IFTSchemaIFTSystemPromptResolutionUserAction, NSData, SISchemaUUID;
+@class IFTSchemaIFTStatementId;
 
 @interface IFTSchemaIFTSystemPromptResolution : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTStatementId *_statementId;
-    IFTSchemaIFTSystemPromptResolutionUserAction *_userAction;
-    int _inputModality;
-    SISchemaUUID *_actionEventId;
-    SISchemaUUID *_systemResponseEventId;
-    IFTSchemaIFTSystemPromptResolutionInput *_input;
-    struct {
-        unsigned int inputModality:1;
-    } _has;
-    _Bool _hasStatementId;
-    _Bool _hasUserAction;
-    _Bool _hasActionEventId;
-    _Bool _hasSystemResponseEventId;
-    _Bool _hasInput;
 }
 
 - (id);
@@ -50,40 +37,28 @@
 - (id);
 - (void);
 - (id);
-- (int);
+- (int)__DATA_CONST;
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id)1Â0@ù
 × ;
 - (id)1àÐ1Â0@ù
 × ;
 - (id)tionContext",&,N,V_disambiguationContext;
-- (id)KSchemaFLOWLINKActionParameterDisambiguationEnded;
-- (void)CACHE_INSERT;
+- (id)FLOWLINKSchemaFLOWLINKActionParameterDisambiguationEnded;
+- (void)NLROUTERSUBCOMPONENT_SERVICE_LLM_CACHE_INSERT;
 - (void)#;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUUID *actionEventId; // @synthesize actionEventId=_actionEventId;
-@property(nonatomic) _Bool hasActionEventId; // @synthesize hasActionEventId=_hasActionEventId;
-@property(nonatomic) _Bool hasInput; // @synthesize hasInput=_hasInput;
-@property(nonatomic) _Bool hasInputModality;
-@property(nonatomic) _Bool hasStatementId; // @synthesize hasStatementId=_hasStatementId;
-@property(nonatomic) _Bool hasSystemResponseEventId; // @synthesize hasSystemResponseEventId=_hasSystemResponseEventId;
-@property(nonatomic) _Bool hasUserAction; // @synthesize hasUserAction=_hasUserAction;
-@property(retain, nonatomic) IFTSchemaIFTSystemPromptResolutionInput *input; // @synthesize input=_input;
-@property(nonatomic) int inputModality; // @synthesize inputModality=_inputModality;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) IFTSchemaIFTStatementId *statementId; // @synthesize statementId=_statementId;
-@property(retain, nonatomic) SISchemaUUID *systemResponseEventId; // @synthesize systemResponseEventId=_systemResponseEventId;
-@property(retain, nonatomic) IFTSchemaIFTSystemPromptResolutionUserAction *userAction; // @synthesize userAction=_userAction;
 
 @end
 

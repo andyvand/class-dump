@@ -6,29 +6,11 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSDate, NSMutableArray, RTBluePOIAggregator, RTBluePOIMetricManager, RTBluePOIMonitorEnabler, RTBluePOITileManager, RTDefaultsManager, RTDistanceCalculator, RTFingerprintManager, RTLocalBluePOIResult, RTLocationManager, RTMapItemManager, RTMapServiceManager, RTPlatform, RTWiFiManager;
+@class RTDefaultsManager;
 
 @interface RTBluePOIMonitor : RTService
 {
     RTDefaultsManager *_defaultsManager;
-    RTBluePOIAggregator *_bluePOIAggregator;
-    RTBluePOIMetricManager *_bluePOIMetricManager;
-    RTBluePOIMonitorEnabler *_bluePOIMonitorEnabler;
-    RTBluePOITileManager *_bluePOITileManager;
-    RTDistanceCalculator *_distanceCalculator;
-    RTFingerprintManager *_fingerprintManager;
-    RTLocationManager *_locationManager;
-    RTMapItemManager *_mapItemManager;
-    RTMapServiceManager *_mapServiceManager;
-    RTPlatform *_platform;
-    RTWiFiManager *_wifiManager;
-    NSMutableArray *_scanResultBuffer;
-    NSDate *_lastInferredScanResultDate;
-    RTLocalBluePOIResult *_lastPostedBluePOIEstimate;
-    RTLocalBluePOIResult *_lastAOIRefreshResult;
-    NSDate *_nextAOIRefreshDate;
-    double _distanceToRefreshAOI;
-    double _aoiRefreshBackoffInterval;
 }
 
 - (_Bool);
@@ -36,73 +18,55 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (double);
-- (id);
-- (id);
-- (double);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)LookSupport.framework/Versions/A/QuickLookSupport;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (_Bool)4@0:(double)arg1 8@16i24@28@36;
+- (id);
+- (id)tuition;
+- (double)explain;
+- (id)unexpectedly enabled. Disabling, will update metadata.;
+- (id)ettings indicate that ADP is enabled;
+- (double)entitySetRef PCSIdentitySetCreateFromExternalForm(CFDictionaryRef, CFDataRef, uint32_t *, CFErrorRef *);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
+- (id)}x;
+- (void);
+- (void);
 - (id);
+- (id);
 - (void);
 - (void);
 - (void)@40@48;
-- (void):(id)arg1;
-- (id)queAOIResultCount;
-- (id)ge_of_days_with_charging_work_bucketed;
+- (void)locationOfInterestTypeSourceToString:(id)arg1;
+- (id)uniqueAOIResultCount;
+- (id)percentage_of_days_with_charging_work_bucketed;
 - (void)%@;
 - (id)%@, %@, initializing triggerOffWrist;
 
 // Remaining properties
-@property(nonatomic) double aoiRefreshBackoffInterval; // @synthesize aoiRefreshBackoffInterval=_aoiRefreshBackoffInterval;
-@property(retain, nonatomic) RTBluePOIAggregator *bluePOIAggregator; // @synthesize bluePOIAggregator=_bluePOIAggregator;
-@property(retain, nonatomic) RTBluePOIMetricManager *bluePOIMetricManager; // @synthesize bluePOIMetricManager=_bluePOIMetricManager;
-@property(retain, nonatomic) RTBluePOIMonitorEnabler *bluePOIMonitorEnabler; // @synthesize bluePOIMonitorEnabler=_bluePOIMonitorEnabler;
-@property(retain, nonatomic) RTBluePOITileManager *bluePOITileManager; // @synthesize bluePOITileManager=_bluePOITileManager;
 @property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(retain, nonatomic) RTDistanceCalculator *distanceCalculator; // @synthesize distanceCalculator=_distanceCalculator;
-@property(nonatomic) double distanceToRefreshAOI; // @synthesize distanceToRefreshAOI=_distanceToRefreshAOI;
-@property(retain, nonatomic) RTFingerprintManager *fingerprintManager; // @synthesize fingerprintManager=_fingerprintManager;
-@property(retain, nonatomic) RTLocalBluePOIResult *lastAOIRefreshResult; // @synthesize lastAOIRefreshResult=_lastAOIRefreshResult;
-@property(retain, nonatomic) NSDate *lastInferredScanResultDate; // @synthesize lastInferredScanResultDate=_lastInferredScanResultDate;
-@property(retain, nonatomic) RTLocalBluePOIResult *lastPostedBluePOIEstimate; // @synthesize lastPostedBluePOIEstimate=_lastPostedBluePOIEstimate;
-@property(retain, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(retain, nonatomic) RTMapItemManager *mapItemManager; // @synthesize mapItemManager=_mapItemManager;
-@property(retain, nonatomic) RTMapServiceManager *mapServiceManager; // @synthesize mapServiceManager=_mapServiceManager;
-@property(retain, nonatomic) NSDate *nextAOIRefreshDate; // @synthesize nextAOIRefreshDate=_nextAOIRefreshDate;
-@property(readonly, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
-@property(retain, nonatomic) NSMutableArray *scanResultBuffer; // @synthesize scanResultBuffer=_scanResultBuffer;
-@property(retain, nonatomic) RTWiFiManager *wifiManager; // @synthesize wifiManager=_wifiManager;
 
 @end
 

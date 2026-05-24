@@ -4,13 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class EQKitBox;
+
 @protocol EQKitLayoutElementaryStackRow
+- (_Bool)toContainer"8Q16^B24;
+- (void)em:(unsigned long long)arg1 %@;
+- (void)ification-reason;
+- (EQKitBox *);
+- (double);
 
 // Remaining properties
 @property(readonly, nonatomic) long long alignmentShift;
-@property(readonly, nonatomic) unsigned long long columnCount;
-@property(nonatomic) unsigned long long firstColumnIndex;
-@property(readonly, nonatomic) double followingSpace;
-@property(readonly, nonatomic) _Bool spansStack;
 @end
 

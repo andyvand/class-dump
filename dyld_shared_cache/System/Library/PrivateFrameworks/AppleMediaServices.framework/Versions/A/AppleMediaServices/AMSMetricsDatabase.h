@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSSQLiteConnection, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class AMSSQLiteConnection, NSString;
 
 __attribute__((visibility("hidden")))
 @interface AMSMetricsDatabase
 {
     NSString *_containerId;
-    AMSSQLiteConnection *_connection;
-    NSObject<OS_dispatch_queue> *_internalQueue;
 }
 
 + (id);
@@ -26,12 +23,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (long long);
+- (long long)(!*i;
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)mFiring;
+- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -56,15 +53,6 @@ JÕÖIQÎÍRÐOLÓËTWÈÛDGØÀ_\ÃÏPSÌÔ
 
 // Remaining properties
 @property(retain) AMSSQLiteConnection *connection; // @synthesize connection=_connection;
-@property(retain) NSString *containerId; // @synthesize containerId=_containerId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSObject<OS_dispatch_queue> *internalQueue; // @synthesize internalQueue=_internalQueue;
-@property(readonly) Class superclass;
 
 @end
 

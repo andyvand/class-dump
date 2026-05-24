@@ -9,11 +9,6 @@
 @interface CHCandidateRefinementStep : CHPostprocessingStepModifyingOriginalTokens
 {
     _Bool _shouldKeepOutOfPatternCandidates;
-    _Bool _shouldKeepDuplicateTokenIDs;
-    _Bool _shouldKeepOutOfLexiconAlternatives;
-    _Bool _shouldKeepAlternativeLengths;
-    _Bool _shouldKeepSubstrings;
-    _Bool _shouldKeepOriginalSpelling;
 }
 
 - (id);

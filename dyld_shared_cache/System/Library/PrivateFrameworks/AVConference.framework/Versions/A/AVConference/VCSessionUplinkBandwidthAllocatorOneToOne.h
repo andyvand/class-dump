@@ -6,22 +6,19 @@
 
 #import <AVConference/VCObject.h>
 
-@class NSMutableDictionary, NSMutableSet, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VCSessionUplinkBandwidthAllocatorOneToOne : VCObject
 {
     NSMutableDictionary *_streamTokenToTableEntryMap;
-    NSMutableDictionary *_streamTokenToEnableMap;
-    NSMutableDictionary *_bandwidthAllocationTable;
-    NSMutableSet *_redundancyGroupsEnabled;
 }
 
-+ (id);
++ (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -30,8 +27,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)cs9;
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -50,16 +47,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic, getter=isCamera1080pAvailable) _Bool camera1080pAvailable;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic, getter=isRedundancyEnabled) _Bool redundancyEnabled;
-@property(nonatomic, getter=isRedundancyEnabledFor720Stream) _Bool redundancyEnabledFor720Stream;
-@property(readonly) Class superclass;
 
 @end
 

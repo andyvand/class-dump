@@ -9,26 +9,20 @@
 @interface WBSCachedFont
 {
     NSFont *_font;
-    double _size;
-    long long _fontWeight;
-    long long _fontDesign;
 }
 
 - (long long);
-- (void);
+- (void);
 - (long long);
 - (void);
 - (double);
-- (void);
+- (void)__TEXT;
 - (id);
 - (void);
-- (void)ssPlugInPageController;
+- (void)WBSTouchIconWebProcessPlugInPageController;
 
 // Remaining properties
 @property(retain, nonatomic) NSFont *font; // @synthesize font=_font;
-@property(nonatomic) long long fontDesign; // @synthesize fontDesign=_fontDesign;
-@property(nonatomic) long long fontWeight; // @synthesize fontWeight=_fontWeight;
-@property(nonatomic) double size; // @synthesize size=_size;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface PodcastsFoundation.SearchSeeAllSection
 {
     id contentType;
-    id nextPage;
 }
 
 - (id);

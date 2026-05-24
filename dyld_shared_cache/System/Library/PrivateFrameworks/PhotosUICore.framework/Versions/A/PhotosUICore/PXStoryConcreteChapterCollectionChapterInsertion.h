@@ -9,7 +9,6 @@
 @interface PXStoryConcreteChapterCollectionChapterInsertion
 {
     id <PXDisplayAsset> _firstAsset;
-    CDUnknownBlockType _chapterConfiguration;
 }
 
 - (id);
@@ -20,9 +19,7 @@
 - (void)ÀÂòþEÏ´ÐÂòþ;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType chapterConfiguration; // @synthesize chapterConfiguration=_chapterConfiguration;
 @property(readonly, nonatomic) id <PXDisplayAsset> firstAsset; // @synthesize firstAsset=_firstAsset;
-@property(readonly, nonatomic) long long kind;
 
 @end
 

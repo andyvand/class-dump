@@ -7,6 +7,8 @@
 @class NSString;
 
 @protocol EKUITitleTableViewCell
+- (double);
+- (void).aiff;
 
 // Remaining properties
 @property(retain, nonatomic) NSString *title;

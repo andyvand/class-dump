@@ -6,47 +6,39 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSMutableArray, RTPersistentTimer, RTWiFiManager;
-
 @interface RTWiFiFootprintMonitor : RTService
 {
     long long _footprintState;
-    RTPersistentTimer *_scanTimer;
-    NSMutableArray *_scanResults;
-    RTWiFiManager *_wifiManager;
 }
 
-+ (id);
++ (id)impulse;
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (long long);
 - (void);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (void);
+- (void)setInsertMirrorKey: /* Error: Ran out of types for this method. */;
+- (void)setCurrentIdentityForService:(id)arg1 identity:persistentReference: /* Error: Ran out of types for this method. */;
+- (void),V_classicContent;
+- (long long)dMetadata;
+- (void)to repair;
+- (void)ew identity was requested, prepping new record creation;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id)ementMonitorNotification:]_block_invoke /* Error: Ran out of types for this method. */;
-- (void)xSessionState;
+- (void)maxSessionState;
 - (void)oc,%{sensitive}@,tripSeq,%d,tripSeqMax,%d;
 - (void)cted transition, it should have never happened;
 - (void)ying:(id)arg1 durationTrigger (in %s:(id)arg2 %d);
 
 // Remaining properties
 @property(nonatomic) long long footprintState; // @synthesize footprintState=_footprintState;
-@property(retain, nonatomic) NSMutableArray *scanResults; // @synthesize scanResults=_scanResults;
-@property(retain, nonatomic) RTPersistentTimer *scanTimer; // @synthesize scanTimer=_scanTimer;
-@property(retain, nonatomic) RTWiFiManager *wifiManager; // @synthesize wifiManager=_wifiManager;
 
 @end
 

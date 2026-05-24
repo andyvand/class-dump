@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, UIBezierPath;
+@class NSSet;
 
 @interface PKDetectionQueryItem
 {
 }
 
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
-@property(readonly, nonatomic) UIBezierPath *baselinePath;
 @property(readonly, nonatomic) NSSet *strokeIdentifiers;
 
 @end

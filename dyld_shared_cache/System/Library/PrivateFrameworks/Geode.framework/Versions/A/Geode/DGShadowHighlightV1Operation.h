@@ -6,13 +6,11 @@
 
 #import <Geode/DGOperation.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface DGShadowHighlightV1Operation : DGOperation
 {
     NSNumber *_inputShadowAmount;
-    NSNumber *_inputHighlightAmount;
-    NSNumber *_inputMidtoneContrast;
 }
 
 + (_Bool);
@@ -29,20 +27,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_setAutoValuesWithCropAutoSettings:(id)arg1;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSNumber *inputHighlightAmount; // @synthesize inputHighlightAmount=_inputHighlightAmount;
-@property(copy) NSNumber *inputMidtoneContrast; // @synthesize inputMidtoneContrast=_inputMidtoneContrast;
 @property(copy) NSNumber *inputShadowAmount; // @synthesize inputShadowAmount=_inputShadowAmount;
-@property(readonly) Class superclass;
 
 @end
 

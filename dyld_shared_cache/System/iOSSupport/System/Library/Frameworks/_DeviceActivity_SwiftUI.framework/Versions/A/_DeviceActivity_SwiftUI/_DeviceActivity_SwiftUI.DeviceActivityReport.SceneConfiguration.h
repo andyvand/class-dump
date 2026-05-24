@@ -8,14 +8,11 @@
 {
     id _deviceActivityData;
     id connection;
-    id connectionQueue;
-    id updateTask;
-    id updateTaskQueue;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)creation result:%{bool}d /* Error: Ran out of types for this method. */;
 
 @end
 

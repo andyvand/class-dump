@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection, NSXPCInterface;
+@class NSXPCInterface;
 
 @interface SPKernelExtensionHistory
 {
     NSXPCInterface *_interface;
-    NSXPCConnection *_connection;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);

@@ -7,10 +7,6 @@
 @interface IMCore.ImportExport.ArchiveImportIterator
 {
     id archiveImporter;
-    id missingAttachments;
-    id archiveManifestIterator;
-    id archivedConversationIterator;
-    id archivedConversation;
 }
 
 @end

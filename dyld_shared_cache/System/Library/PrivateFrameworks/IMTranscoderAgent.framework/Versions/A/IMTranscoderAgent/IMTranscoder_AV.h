@@ -11,13 +11,13 @@
 }
 
 + (id);
-- (void);
-- (long long);
-- (long long);
-- (void);
-- (void);
-- (_Bool);
-- (unsigned long long);
+- (void)metaData;
+- (long long)apPlayback_playRemote;
+- (long long)apPlayback_ensureLocalPlaybackServerCreated;
+- (void)earbyObject:(id)arg1 %@ | %@;
+- (void)didUpdateRegion:(id)arg1 %@ | %'@ %'@:(long long)arg2 %@ -> %@;
+- (_Bool)snapInUseInteractiveRate;
+- (unsigned long long)er lookup. IDS Device Identifier %@ -> PSI %@;
 
 @end
 

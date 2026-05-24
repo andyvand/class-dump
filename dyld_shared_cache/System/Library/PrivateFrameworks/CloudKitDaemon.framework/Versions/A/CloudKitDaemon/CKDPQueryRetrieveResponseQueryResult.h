@@ -4,52 +4,65 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPRecord, CKDPRecordIdentifier, NSString;
+@class NSString;
 
 @interface CKDPQueryRetrieveResponseQueryResult
 {
     NSString *_etag;
-    CKDPRecordIdentifier *_identifier;
-    CKDPRecord *_record;
-    int _type;
-    CDStruct_f953fb60 _has;
 }
 
-- (id);
+- (id)UsoTask_stop_common_PhoneCall;
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)16I20;
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)rTimeAboveLow %.3f
+;
+- (_Bool)!;
+- (_Bool)T;
 - (int);
 - (_Bool);
 - (void);
-- (void);
+- (void)w;
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (int);
 - (_Bool);
-- (void);
-- (id)itWithDomain:(int)arg1 code:userInfo: /* Error: Ran out of types for this method. */;
+- (void)3 E5 1F 4B
+subject=/C=US/O=Apple Inc./OU=Apple iPhone/CN=Apple iPhone Activation
+issuer=/C=US/O=Apple Inc./OU=Apple Certification Authority/CN=Apple iPhone Certification Authority
+-----BEGIN CERTIFICATE-----
+MIIDZzCCAk+gAwIBAgIBAjANBgkqhkiG9w0BAQUFADB5MQswCQYDVQQGEwJVUzET
+MBEGA1UEChMKQXBwbGUgSW5jLjEmMCQGA1UECxMdQXBwbGUgQ2VydGlmaWNhdGlv
+biBBdXRob3JpdHkxLTArBgNVBAMTJEFwcGxlIGlQaG9uZSBDZXJ0aWZpY2F0aW9u
+IEF1dGhvcml0eTAeFw0wNzA0MTYyMjU1MDJaFw0xNDA0MTYyMjU1MDJaMFsxCzAJ
+BgNVBAYTAlVTMRMwEQYDVQQKEwpBcHBsZSBJbmMuMRUwEwYDVQQLEwxBcHBsZSBp
+UGhvbmUxIDAeBgNVBAMTF0FwcGxlIGlQaG9uZSBBY3RpdmF0aW9uMIGfMA0GCSqG
+SIb3DQEBAQUAA4GNADCBiQKBgQDFAXzRImArmoiHfbS2oPcqAfbEv0d1jk7GbnX7
++4YUlyIfprzBVdlmz2JHYv1+04IzJtL7cL97UI7fk0i0OMY0al8a+JPQa4Ug611T
+bqEt+njAmAkge3HXWDBdAXD9MhkC7T/9o77zOQ1oli4cUdzlnYWfzmW0PduOxuve
+AeYY4wIDAQABo4GbMIGYMA4GA1UdDwEB/wQEAwIHgDAMBgNVHRMBAf8EAjAAMB0G
+A1UdDgQWBBShoNL+t7Rz/psUaq/NPXNPH+/WlDAfBgNVHSMEGDAWgBTnNCouIt45
+YGu0lM53g2EvMaB8NTA4BgNVHR8EMTAvMC2gK6AphidodHRwOi8vd3d3LmFwcGxl
+LmNvbS9hcHBsZWNhL2lwaG9uZS5jcmwwDQYJKoZIhvcNAQEFBQADggEBAF9qmrUN
+dA+FROYGP7pWcYTAK+pLyOf9zOaE7aeVI885V8Y/BKHhlwAo+zEkiOU3FbEPCS9V
+tS18ZBcwD/+d5ZQTMFknhcUJwdPqqjnm9LqTfH/x4pw8ONHRDzxHdp96gOV3A4+8
+abkoASfcYqvIRypXnbur3bRRhTzAs4VILS6jTyFYymZeSewtBubmmigo1kCQiZGc
+76c5feDAyHb2bzEqtvx3WprljtS46QT5CR6YelinZnio32jAzRYTxtS6r3JsvZDi
+J07+EHcmfGdpxwgO+7btW1pFar0ZjF9/jYKKnOYNyvCrwszhafbSYwzAG5EJoXFB
+4d+piWHUDcPxtcc=
+-----END CERTIFICATE-----;
+- (id)initWithDomain:(int)arg1 code:userInfo: /* Error: Ran out of types for this method. */;
 - (_Bool)CKInitiateParticipantVettingOperationCallbacks><CKDOperationCallbackProxy>",&,D,N;
-- (void)e;
-- (void)ecordChangesOperation;
+- (void)CKUsageInfoImmutable;
+- (void)CKDFetchRecordChangesOperation;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *etag; // @synthesize etag=_etag;
-@property(readonly, nonatomic) _Bool hasEtag;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasRecord;
-@property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) CKDPRecordIdentifier *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) CKDPRecord *record; // @synthesize record=_record;
-@property(nonatomic) int type; // @synthesize type=_type;
 
 @end
 

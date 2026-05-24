@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, SCNNode, SCNView;
+@class SCNView;
 
 @interface SCNEventHandler
 {
     SCNView *_view;
-    struct __IOHIDManager *_hidManager;
-    NSMutableArray *_controllers;
-    _Bool _enableFreeCamera;
-    _Bool _autoSwitchToFreeCamera;
 }
 
 - (void);
@@ -43,9 +39,6 @@
 - (_Bool)ÿÚ;
 
 // Remaining properties
-@property _Bool autoSwitchToFreeCamera;
-@property _Bool enableFreeCamera;
-@property(readonly) SCNNode *freeCamera;
 @property(readonly) SCNView *view;
 
 @end

@@ -10,6 +10,5 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *devicesFounds;
-@property(readonly, nonatomic) unsigned long long devicesFoundsCount;
 @end
 

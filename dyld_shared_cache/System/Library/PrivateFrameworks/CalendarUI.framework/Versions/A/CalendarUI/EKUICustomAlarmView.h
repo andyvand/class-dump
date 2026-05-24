@@ -4,27 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalUIIntegerFormatter, EKAlarm, EKUIAlarmGadget, EKUICountField, IIDatePickerWithMiniCal, NSPopUpButton, NSString, NSTextField, NSView;
+@class EKUIAlarmGadget;
 
 @interface EKUICustomAlarmView
 {
     EKUIAlarmGadget *_gadget;
-    EKAlarm *_alarm;
-    NSPopUpButton *_alarmTypeButton;
-    NSPopUpButton *_auxButton;
-    NSPopUpButton *_timingButton;
-    IIDatePickerWithMiniCal *_datePicker;
-    EKUICountField *_countField;
-    NSTextField *_atField;
-    NSView *_dateBox;
-    NSView *_timeBox;
-    NSView *_lastKeyView;
-    CalUIIntegerFormatter *_countFormatter;
-    long long _currentAlarmType;
 }
 
 - (id);
 - (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
@@ -34,11 +23,10 @@
 - (void);
 - (void);
 - (void);
+- (void)�(;
+- (id)";
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)q;
 - (void);
 - (void);
 - (void);
@@ -47,9 +35,9 @@
 - (id);
 - (long long);
 - (id);
-- (id);
-- (void);
-- (void);
+- (id)b;
+- (void)!xS;
+- (void)IC9	;
 - (void);
 - (void);
 - (void);
@@ -61,13 +49,14 @@
 - (void);
 - (void);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)Ja;
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)y~
+�4;
 - (void);
 - (id);
 - (id);
@@ -79,26 +68,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) EKAlarm *alarm; // @synthesize alarm=_alarm;
-@property(retain) NSPopUpButton *alarmTypeButton; // @synthesize alarmTypeButton=_alarmTypeButton;
-@property(retain) NSTextField *atField; // @synthesize atField=_atField;
-@property(retain) NSPopUpButton *auxButton; // @synthesize auxButton=_auxButton;
-@property(retain) EKUICountField *countField; // @synthesize countField=_countField;
-@property(retain) CalUIIntegerFormatter *countFormatter; // @synthesize countFormatter=_countFormatter;
-@property long long currentAlarmType; // @synthesize currentAlarmType=_currentAlarmType;
-@property(retain) NSView *dateBox; // @synthesize dateBox=_dateBox;
-@property(retain) IIDatePickerWithMiniCal *datePicker; // @synthesize datePicker=_datePicker;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain) EKUIAlarmGadget *gadget; // @synthesize gadget=_gadget;
-@property(readonly) unsigned long long hash;
-@property __weak NSView *lastKeyView; // @synthesize lastKeyView=_lastKeyView;
-@property(readonly) Class superclass;
-@property(retain) NSView *timeBox; // @synthesize timeBox=_timeBox;
-@property(retain) NSPopUpButton *timingButton; // @synthesize timingButton=_timingButton;
 
 @end
 

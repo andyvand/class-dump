@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImageView, NSLayoutConstraint, NSTextField;
+@class NSTextField;
 
 @interface LUIBatteryView
 {
     NSTextField *_batteryTextField;
-    NSImageView *_batteryImageView;
-    NSLayoutConstraint *_imageToTextConstraint;
 }
 
 - (void);
-- (id);
+- (id)@y	;
+- (void)wJ;
 - (void);
-- (void);
 - (id);
-- (double);
+- (double)clearScores;
 - (double);
 - (double);
 - (void);

@@ -7,15 +7,14 @@
 @interface ConversationKit.TapInteraction
 {
     id view;
-    id tapGestureRecognizer;
 }
 
 - (void);
 - (_Bool);
-- (long long);
-- (void);
+- (long long)^{}}}{vector<CLClientSatelliteInfo, std::__1::allocator<CLClientSatelliteInfo> >=^{}^{}{__compressed_pair<CLClientSatelliteInfo *, std::__1::allocator<CLClientSatelliteInfo> >=^{}}}}i} /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
-- (_Bool);
+- (_Bool)earchCompleter"16B24;
 - (void);
 
 // Remaining properties

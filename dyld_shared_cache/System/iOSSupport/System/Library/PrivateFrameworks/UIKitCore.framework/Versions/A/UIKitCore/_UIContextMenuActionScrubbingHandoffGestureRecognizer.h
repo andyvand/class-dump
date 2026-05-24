@@ -14,17 +14,17 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ssing possible availability reply, DND framework says we should appear available to this user;
+- (_Bool)tension:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (double);
 - (_Bool);
 - (_Bool)TabBarBehaviorSettings";
 - (id)nterPlaceholder"b1"disabled"b1"reliesOnNavigationBarBackdrop"b1"drawsBackgroundInPalette"b1"hideBackground"b1"backgroundLayoutNeedsUpdate"b1"usesEmbeddedAppearance"b1"showsCancelButton"b1"autoDisableCancelButton"b1"showsDeleteButton"b1"showsSearchResultsButton"b1"searchResultsButtonSelected"b1"showsBookmarkButton"b1"isPlacedInNavigationBar"b1"isPlacedInToolbar"b1"isInNavigationPalette"b1"isHostedByNavigationBar"b1"showsScopeBar"b1"allowsInlineScopeBar"b1"isAnimatingScopeBarIn"b1"isAnimatingScopeBarOut"b1};
-- (_Bool)mConstraint:(id)arg1;
-- (void)WithMaxIndex:(id)arg1 prefetchItemCount:(id)arg2 refreshPrefetchThresholdCount:cancelThresholdCount: /* Error: Ran out of types for this method. */;
-- (void)chActive;
-- (void);
+- (_Bool)setContentViewControllerViewBottomConstraint:(id)arg1;
+- (void)initWithMaxIndex:(id)arg1 prefetchItemCount:(id)arg2 refreshPrefetchThresholdCount:cancelThresholdCount: /* Error: Ran out of types for this method. */;
+- (void)_searchActive;
+- (void)_animateChanges:(id)arg1 completion:(id)arg2;
 - (_Bool)UIApplicationWantsViewsToDisappearNotification;
 - (void)eviceOrientationIsValidInterfaceOrientation(orientation);
 - (void);

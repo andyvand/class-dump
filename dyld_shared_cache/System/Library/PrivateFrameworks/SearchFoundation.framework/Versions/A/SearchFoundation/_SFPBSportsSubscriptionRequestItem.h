@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBSportsSubscriptionRequestItem
 {
     NSString *_canonicalIdentifier;
-    NSString *_sportIdentifier;
-    NSString *_leagueIdentifier;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)R;
+- (id)@;
 - (void);
-- (unsigned long long);
+- (unsigned long long)5;
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)setCaptionGenerationVersion:(id)arg1;
+- (id)is:'%{public}@'. Need original photo URL to be non-nil to properly create an asset bundle. /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -32,16 +30,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *canonicalIdentifier; // @synthesize canonicalIdentifier=_canonicalIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *leagueIdentifier; // @synthesize leagueIdentifier=_leagueIdentifier;
-@property(copy, nonatomic) NSString *sportIdentifier; // @synthesize sportIdentifier=_sportIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

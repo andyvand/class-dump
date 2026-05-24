@@ -6,42 +6,28 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class AMSUIWebClientContext, NSDictionary, NSString;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebODIAssessmentAction : AMSUIWebAction
 {
     NSDictionary *_additionalAttributes;
-    NSString *_rawAccountType;
-    NSString *_rawBundleIdentifer;
-    NSString *_rawSessionIdentifer;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)ta repository;
+- (void)..;
+- (void)d/remaining pending assertions...;
+- (id)y (%{public}@);
+- (id)ailed with error:%{public}@ for query:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)%{public}@;
+- (id)usages created from query:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)BuildVersion;
 - (id);
 - (void);
 - (void)bSafariPageModel";
 
 // Remaining properties
 @property(retain) NSDictionary *additionalAttributes; // @synthesize additionalAttributes=_additionalAttributes;
-@property(readonly) AMSUIWebClientContext *context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSString *rawAccountType; // @synthesize rawAccountType=_rawAccountType;
-@property(retain) NSString *rawBundleIdentifer; // @synthesize rawBundleIdentifer=_rawBundleIdentifer;
-@property(retain) NSString *rawSessionIdentifer; // @synthesize rawSessionIdentifer=_rawSessionIdentifer;
-@property(readonly) Class superclass;
 
 @end
 

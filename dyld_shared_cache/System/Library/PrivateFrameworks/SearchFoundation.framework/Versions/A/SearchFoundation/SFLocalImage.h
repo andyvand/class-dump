@@ -6,53 +6,28 @@
 
 #import <SearchFoundation/SFImage.h>
 
-@class NSData, NSDictionary, NSString;
-
 @interface SFLocalImage : SFImage
 {
     struct {
         unsigned int localImageType:1;
     } _has;
-    int _localImageType;
 }
 
 + (_Bool);
 - (void);
 - (int);
 - (_Bool);
-- (id);
+- (id)setIgnoreExplicitContentRestrictions:(id)arg1;
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)ifierForAlertType:(id)arg1 (%{public}@) […]:Value from Preferences lookup method was not %{public}@; ignoring it. /* Error: Ran out of types for this method. */;
+- (id)8s16@20;
+- (id)gnificant Location;
+- (id)PHSearchEntityCategoryTypeMemoriesSeason;
+- (id)A;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityLabel;
-@property(retain, nonatomic) SFImage *badgingImage;
-@property(copy, nonatomic) NSString *contentType;
-@property(nonatomic) double cornerRadius;
-@property(nonatomic) int cornerRoundingStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier;
-@property(copy) NSData *imageData;
-@property(nonatomic) _Bool isTemplate;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *keyColor;
 @property(nonatomic) int localImageType; // @synthesize localImageType=_localImageType;
-@property(nonatomic) double scale;
-@property(nonatomic) _Bool shouldCropToCircle;
-@property(nonatomic) struct CGSize size;
-@property(nonatomic) int source;
-@property(readonly) Class superclass;
 
 @end
 

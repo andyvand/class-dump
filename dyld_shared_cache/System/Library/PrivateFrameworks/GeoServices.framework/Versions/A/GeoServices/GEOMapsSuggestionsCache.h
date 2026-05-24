@@ -8,7 +8,7 @@
 {
 }
 
-+ (void);
++ (void)st be nonnull;
 + (id);
 + (id);
 + (id);

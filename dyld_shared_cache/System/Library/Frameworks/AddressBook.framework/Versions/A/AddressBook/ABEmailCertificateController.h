@@ -19,7 +19,7 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)erBufferRef, uint32_t, APSRTPJitterBufferSavedPacket *)_block_invoke;
 - (void);
 
 @end

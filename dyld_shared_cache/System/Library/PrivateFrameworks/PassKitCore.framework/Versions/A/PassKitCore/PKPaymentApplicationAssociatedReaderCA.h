@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData;
-
 @interface PKPaymentApplicationAssociatedReaderCA
 {
     unsigned long long _scheme;
-    NSData *_publicKey;
 }
 
 + (_Bool)qî%ð1Â0@ù
@@ -19,19 +16,18 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setHasPlaceAOIPOI:(id)arg1;
+- (void)serviceKey;
 - (id);
 - (void);
 - (id);
 - (id);
 - (unsigned long long)k does not exist;
-- (void)pStateOwnedByUser;
+- (void)PKSecureElementOwnershipStateOwnedByUser;
 - (void);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *publicKey; // @synthesize publicKey=_publicKey;
 @property(nonatomic) unsigned long long scheme; // @synthesize scheme=_scheme;
 
 @end

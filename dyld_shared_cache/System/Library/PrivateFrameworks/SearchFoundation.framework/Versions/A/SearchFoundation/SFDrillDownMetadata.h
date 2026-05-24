@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSString, SFCardMetadata, SFCardSearchMetadata, SFEntitySearchMetadata;
+@class NSString;
 
 @interface SFDrillDownMetadata
 {
@@ -14,17 +14,6 @@
         unsigned int cardSearchMetadata:1;
         unsigned int entitySearchMetadata:1;
     } _has;
-    NSString *_cardIdentifier;
-    NSArray *_cardIdentifiers;
-    NSArray *_cardDomains;
-    NSString *_qtype;
-    NSString *_viewConfigName;
-    SFCardMetadata *_cardOnlyMetadata;
-    SFEntitySearchMetadata *_entitySearchOnlyMetadata;
-    SFCardSearchMetadata *_cardSearchMetadata;
-    SFEntitySearchMetadata *_entitySearchMetadata;
-    NSString *_debugParams;
-    NSString *_params;
 }
 
 + (_Bool);
@@ -54,37 +43,18 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)sdk_createPlaylistWithPersistenID:(id)arg1 properties:tracklist:completionHandler: /* Error: Ran out of types for this method. */;
+- (unsigned long long)H;
 - (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)6@"NSError"24;
+- (id)PHQueryForAssetInAlbumKind_SavedPhotos_block_invoke_42;
 - (id);
 - (id);
 - (void)core;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *cardDomains; // @synthesize cardDomains=_cardDomains;
 @property(copy, nonatomic) NSString *cardIdentifier; // @synthesize cardIdentifier=_cardIdentifier;
-@property(copy, nonatomic) NSArray *cardIdentifiers; // @synthesize cardIdentifiers=_cardIdentifiers;
-@property(retain, nonatomic) SFCardMetadata *cardOnlyMetadata; // @synthesize cardOnlyMetadata=_cardOnlyMetadata;
-@property(retain, nonatomic) SFCardSearchMetadata *cardSearchMetadata; // @synthesize cardSearchMetadata=_cardSearchMetadata;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) NSString *debugParams; // @synthesize debugParams=_debugParams;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) SFEntitySearchMetadata *entitySearchMetadata; // @synthesize entitySearchMetadata=_entitySearchMetadata;
-@property(retain, nonatomic) SFEntitySearchMetadata *entitySearchOnlyMetadata; // @synthesize entitySearchOnlyMetadata=_entitySearchOnlyMetadata;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *params; // @synthesize params=_params;
-@property(copy, nonatomic) NSString *qtype; // @synthesize qtype=_qtype;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *viewConfigName; // @synthesize viewConfigName=_viewConfigName;
 
 @end
 

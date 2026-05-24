@@ -4,12 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, TSDGPUDataBufferAttribute;
+@protocol TSDMTLDataBuffer;
+
 @protocol TSDMTLDataBuffer
++ (id <TSDMTLDataBuffer>)g seekToTimeCompleted because it was for a prior seek;
++ (id <TSDMTLDataBuffer>)SER EVENT RECEIVED     〔;
++ (id <TSDMTLDataBuffer>)NT PROCESSED    〔;
++ (id <TSDMTLDataBuffer>)SSED  〔;
++ (id <TSDMTLDataBuffer>)ER EVENT IGNORED    〔;
++ (id <TSDMTLDataBuffer>);
++ (id <TSDMTLDataBuffer>);
++ (id <TSDMTLDataBuffer>)ING BEGIN   ;
+- (TSDGPUDataBufferAttribute *)allowedAudioSpatializationFormats;
+- (void)RangeMap=%@;
+- (void)Process-com.apple.music.playbackqueue.sharedlistening;
+- (void)InProcess-com.apple.mediaplayer.playbackcontext;
+- (unsigned long long)ady had content %@;
+- (void)restoration is not supported;
+- (void)sition"8;
+- (void)items;
+- (unsigned long long)];
+- (unsigned long long)roller - resetQueue [End current item mismatch between AVPlayer and Internal Player] - keepCurrentItem: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)ncelled for spatialization change;
+- (id):(NSArray *)arg1 );
+- (void)SkippingTransitionState;
+- (unsigned long long),;
 
 // Remaining properties
-@property(readonly) unsigned long long centerAttributeIndex;
 @property(nonatomic) unsigned long long metalDrawMode;
-@property(readonly) unsigned long long positionAttributeIndex;
-@property(readonly) unsigned long long texCoordAttributeIndex;
 @end
 

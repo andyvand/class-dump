@@ -4,33 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMapTable, NSView, _NSTouchBarCustomizationDragRecord;
-@protocol NSTouchBarCustomizationPreviewInteractionCoordinatorDelegate;
+@class NSDate, NSView;
 
 __attribute__((visibility("hidden")))
 @interface NSTouchBarCustomizationPreviewInteractionCoordinator
 {
     NSView *_referenceCoordinateSpace;
-    id <NSTouchBarCustomizationPreviewInteractionCoordinatorDelegate> _delegate;
-    NSMapTable *_dragRecords;
-    _NSTouchBarCustomizationDragRecord *_cursorDragRecord;
-    NSDate *_interactionStartTime;
 }
 
-- (void);
+- (void)FaceTimeCameraRequiresFastSwitchOptions;
 - (void);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)4;
 - (void);
 - (id);
-- (void);
+- (void)h;
 
 // Remaining properties
-@property(readonly) _NSTouchBarCustomizationDragRecord *cursorDragRecord; // @synthesize cursorDragRecord=_cursorDragRecord;
 @property(copy) NSDate *interactionStartTime; // @synthesize interactionStartTime=_interactionStartTime;
 
 @end

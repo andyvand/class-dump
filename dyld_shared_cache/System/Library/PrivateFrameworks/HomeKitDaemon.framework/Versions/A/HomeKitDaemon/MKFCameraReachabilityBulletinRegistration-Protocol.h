@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFCameraReachabilityBulletinRegistrationDatabaseID;
 @protocol MKFAccessory, MKFHome;
 
 @protocol MKFCameraReachabilityBulletinRegistration
@@ -13,7 +12,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <MKFAccessory> accessory;
-@property(readonly, copy, nonatomic) MKFCameraReachabilityBulletinRegistrationDatabaseID *databaseID;
-@property(readonly) id <MKFHome> home;
 @end
 

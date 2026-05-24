@@ -4,34 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLocalizedName
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_languageCode;
-    NSString *_nameType;
-    NSString *_name;
-    NSString *_phoneticName;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _nameRank;
-    _Bool _isDefault;
-    struct {
-        unsigned int has_nameRank:1;
-        unsigned int has_isDefault:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_languageCode:1;
-        unsigned int read_nameType:1;
-        unsigned int read_name:1;
-        unsigned int read_phoneticName:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)nedInstructionIndex:(id)arg1;
++ (_Bool)setHasShortChainedInstructionIndex:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -40,9 +20,9 @@
 - (id);
 - (_Bool);
 - (_Bool);
+- (_Bool)<v@?>16Q24;
+- (void)account ID %@ cannot be saved, error %{public}@;
 - (_Bool);
-- (void);
-- (_Bool);
 - (id);
 - (void);
 - (id);
@@ -50,21 +30,21 @@
 - (void);
 - (id);
 - (_Bool);
+- (void)P;
 - (void);
-- (void);
-- (id);
+- (id)PlaybackService _startRequest:options:preparationHandler:executionHandler:finalizationHandler:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)4(2(;
 - (void);
 - (id);
 - (void);
 - (_Bool)tSubmissionUuid"b1"read_commonContext"b1"read_commonCorrections"b1"read_details"b1"read_dynamicForm"b1"read_parentFeedbackId"b1"wrote_anyField"b1};
-- (id)yStyle:(struct _NSZone *)arg1;
+- (id)setPlaceDisplayStyle:(struct _NSZone *)arg1;
 - (id)s;
 - (id)back route.;
 - (id);
@@ -74,18 +54,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasIsDefault;
-@property(readonly, nonatomic) _Bool hasLanguageCode;
-@property(readonly, nonatomic) _Bool hasName;
-@property(nonatomic) _Bool hasNameRank;
-@property(readonly, nonatomic) _Bool hasNameType;
-@property(readonly, nonatomic) _Bool hasPhoneticName;
-@property(nonatomic) _Bool isDefault;
-@property(retain, nonatomic) NSString *languageCode;
-@property(retain, nonatomic) NSString *name;
-@property(nonatomic) unsigned int nameRank;
-@property(retain, nonatomic) NSString *nameType;
-@property(retain, nonatomic) NSString *phoneticName;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol NSSecureCoding;
 
 @interface RBSSavedEndowment
 {
     NSObject<NSSecureCoding> *_endowment;
-    NSString *_key;
 }
 
 + (id);
@@ -24,18 +23,10 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)E;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSObject<NSSecureCoding> *endowment; // @synthesize endowment=_endowment;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *key; // @synthesize key=_key;
-@property(readonly) Class superclass;
 
 @end
 

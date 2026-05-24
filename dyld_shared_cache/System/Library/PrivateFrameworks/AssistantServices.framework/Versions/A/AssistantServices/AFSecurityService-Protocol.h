@@ -4,7 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol AFSecurityService
+- (oneway void)expressPassConfigurationsWithCardType:(NSString *)arg1 handler:(void (^)(NSError *))arg2;
+- (oneway void)requirementsIdentified;
+- (oneway void);
 - (oneway void)ped. requestUUID = %@ turnId = %@;
 @end
 

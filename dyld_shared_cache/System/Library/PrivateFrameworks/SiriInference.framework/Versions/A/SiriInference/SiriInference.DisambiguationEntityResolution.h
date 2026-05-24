@@ -7,14 +7,6 @@
 @interface SiriInference.DisambiguationEntityResolution
 {
     id useCase;
-    id ongoingLearning;
-    id storage;
-    id useCaseFilter;
-    id selectionPredictor;
-    id configuration;
-    id emitter;
-    id unusedPrediction;
-    id triggerLogger;
 }
 
 @end

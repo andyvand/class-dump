@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class VCVideoHardwareDumpWriter;
-
 __attribute__((visibility("hidden")))
 @interface VCVideoHardwareDumpCollector
 {
     struct __CFDictionary *_txFrameData;
-    struct __CFDictionary *_rxFrameData;
-    struct __CFDictionary *_captureFrameData;
-    struct __CFArray *_txDumpHeaders;
-    struct __CFArray *_rxDumpHeaders;
-    struct __CFArray *_captureDumpHeaders;
-    VCVideoHardwareDumpWriter *_writer;
 }
 
-- (void);
+- (void));
 - (id);
 - (void);
 

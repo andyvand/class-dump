@@ -12,12 +12,12 @@
 }
 
 + (_Bool);
-- (id);
+- (id)q;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)CNAutocompleteResultWindow;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *profiles; // @synthesize profiles=_profiles;

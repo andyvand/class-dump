@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface WBSFormControlMetadataProperty
 {
     long long type;
-    struct objc_ivar *ivar;
-    CDUnion_8fb30954 flagMask;
-    CDUnknownFunctionPointerType processObject;
 }
 
 @end

@@ -21,16 +21,16 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)v;
+- (unsigned long long)ConsumerRef, Boolean *, Boolean *);
 - (_Bool);
 - (unsigned int);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
-- (Class)ngedShareType;
-- (void)onToken;
+- (Class)changedShareType;
+- (void)currentServerContinuationToken;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *idsToArchives; // @synthesize idsToArchives=_idsToArchives;

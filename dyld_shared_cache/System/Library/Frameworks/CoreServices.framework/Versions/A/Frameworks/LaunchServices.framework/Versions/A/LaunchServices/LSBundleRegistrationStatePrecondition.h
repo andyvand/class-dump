@@ -6,20 +6,18 @@
 
 #import <LaunchServices/LSPrecondition.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface LSBundleRegistrationStatePrecondition : LSPrecondition
 {
     NSString *_bundleID;
-    NSNumber *_placeholderInstalled;
-    NSNumber *_fullAppInstalled;
 }
 
-+ (_Bool);
++ (_Bool)6;
 - (_Bool);
 - (id);
-- (id);
+- (id)c;
 - (id);
 - (void);
 - (void);

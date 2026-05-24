@@ -4,48 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INCallGroup, INPerson, NSArray, NSString;
+@class NSString;
 
 @interface INCallGroupConversation
 {
     NSString *_conversationId;
-    INPerson *_caller;
-    NSArray *_otherParticipants;
-    INCallGroup *_callGroup;
 }
 
-+ (id);
++ (id);
 + (_Bool);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)ultiband6GHz,V_multiband6GHz;
+- (void)EAPOLControlCopyStateAndStatus;
 - (id);
 - (void);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (id)mber;
+- (id)_flightNumber;
 - (void)munication.PlayAnnouncementSoundIntent;
 - (id)£k;
 
 // Remaining properties
-@property(readonly, copy) INCallGroup *callGroup; // @synthesize callGroup=_callGroup;
-@property(readonly, copy) INPerson *caller; // @synthesize caller=_caller;
-@property(readonly, copy) NSString *conversationId; // @synthesize conversationId=_conversationId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy) NSArray *otherParticipants; // @synthesize otherParticipants=_otherParticipants;
-@property(readonly) Class superclass;
 
 @end
 

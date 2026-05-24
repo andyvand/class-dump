@@ -7,8 +7,6 @@
 @interface SSBinaryHeap
 {
     struct __CFBinaryHeap *_binaryHeap;
-    CDUnknownBlockType _comparator;
-    unsigned long long _maxCount;
 }
 
 - (void);
@@ -19,9 +17,9 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void): /* Error: Ran out of types for this method. */;
-- (id)rmsNum_Max_Word;
-- (unsigned long long)fier;
+- (void)defaultAppURLForResult:typeCache:urlCache: /* Error: Ran out of types for this method. */;
+- (id)kMDItemRecipients_QueryTermsNum_Max_Word;
+- (unsigned long long)_kMDItemAppEntityTypeIdentifier;
 
 @end
 

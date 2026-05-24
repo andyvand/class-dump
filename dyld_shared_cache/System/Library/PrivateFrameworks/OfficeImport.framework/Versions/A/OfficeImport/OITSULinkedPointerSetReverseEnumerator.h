@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface OITSULinkedPointerSetReverseEnumerator
 {
     OITSULinkedPointerSetEntry *mTail;
-    OITSULinkedPointerSetEntry *mLastUsed;
 }
 
 - (id);
-- (id);
+- (id)@;
 
 @end
 

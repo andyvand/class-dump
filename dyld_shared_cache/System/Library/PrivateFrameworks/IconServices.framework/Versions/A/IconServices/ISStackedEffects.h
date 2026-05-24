@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 @protocol ISEffect;
 
 __attribute__((visibility("hidden")))
@@ -13,21 +13,14 @@ __attribute__((visibility("hidden")))
     NSArray<ISEffect> *_effects;
 }
 
-- (id);
+- (id)__objc_arraydata__DATA_CONST;
 - (void);
-- (id);
+- (id)yH2;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy) NSArray<ISEffect> *effects; // @synthesize effects=_effects;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

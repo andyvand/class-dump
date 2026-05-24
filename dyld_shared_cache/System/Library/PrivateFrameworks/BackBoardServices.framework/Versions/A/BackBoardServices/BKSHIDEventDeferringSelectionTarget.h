@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSHIDEventDeferringEnvironment, BKSHIDEventDeferringTarget, BKSHIDEventDisplay, NSString;
+@class BKSHIDEventDeferringEnvironment;
 
 @interface BKSHIDEventDeferringSelectionTarget
 {
     BKSHIDEventDeferringEnvironment *_environment;
-    BKSHIDEventDisplay *_display;
-    BKSHIDEventDeferringTarget *_target;
 }
 
 + (id);
-+ (id);
++ (id)FOLLOWUP_CUSTODIAN_INVITATION_REMINDER_TITLE;
 + (_Bool);
 - (id);
+- (id)setContinuedProcessingWrapper:(id)arg1;
 - (id);
-- (id);
-- (id);
+- (id)_invoke;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -27,20 +25,11 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)@;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) BKSHIDEventDisplay *display;
 @property(readonly, nonatomic) BKSHIDEventDeferringEnvironment *environment;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) BKSHIDEventDeferringTarget *target;
 
 @end
 

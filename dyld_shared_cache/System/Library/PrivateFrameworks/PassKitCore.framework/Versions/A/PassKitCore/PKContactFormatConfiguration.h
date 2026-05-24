@@ -9,8 +9,6 @@
 @interface PKContactFormatConfiguration
 {
     NSDictionary *_regionalAddressFormatConfigurations;
-    _Bool _checkFormatOfPhoneNumber;
-    _Bool _checkFormatOfEmailAddress;
 }
 
 + (_Bool)î%Ð1Â0@ù
@@ -22,11 +20,10 @@
 - (id);
 - (id);
 - (void);
-- (id)Cancellations;
-- (void)R_ADMIN;
+- (id)_pendingCancellations;
+- (void)SHARED_ENTITLEMENT_CAPABILITY_SET_SUPER_ADMIN;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool checkFormatOfEmailAddress; // @synthesize checkFormatOfEmailAddress=_checkFormatOfEmailAddress;
 @property(readonly, nonatomic) _Bool checkFormatOfPhoneNumber; // @synthesize checkFormatOfPhoneNumber=_checkFormatOfPhoneNumber;
 
 @end

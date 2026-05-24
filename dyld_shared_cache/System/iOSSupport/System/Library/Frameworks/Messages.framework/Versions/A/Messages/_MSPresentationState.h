@@ -7,7 +7,6 @@
 @interface _MSPresentationState
 {
     unsigned long long _presentationStyle;
-    unsigned long long _presentationContext;
 }
 
 + (_Bool);
@@ -15,14 +14,13 @@
 - (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)=;
 - (_Bool);
-- (void);
+- (void)bstract method! Subclass '%@' should provide concrete implemention;
 - (unsigned long long);
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long presentationContext; // @synthesize presentationContext=_presentationContext;
 @property(nonatomic) unsigned long long presentationStyle; // @synthesize presentationStyle=_presentationStyle;
 
 @end

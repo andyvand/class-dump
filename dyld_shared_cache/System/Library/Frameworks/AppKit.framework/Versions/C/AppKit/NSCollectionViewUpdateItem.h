@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexPath, NSUUID;
+@class NSIndexPath;
 
 @interface NSCollectionViewUpdateItem
 {
     NSIndexPath *_initialIndexPath;
-    NSIndexPath *_finalIndexPath;
-    long long _updateAction;
-    id _gap;
-    id _reserved[11];
-    _Bool _isAppendingSectionInsert;
-    _Bool _shouldReconfigure;
-    NSUUID *_identifier;
 }
 
 - (id);
@@ -25,18 +18,18 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long)prType (%s);
 - (long long);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)?;
 - (id);
 - (void)eInProgress"b1"_disardEditingSheetInProgress"b1"_reservedValueBinder"b21};
 - (_Bool)v44@0:8@16B24@?28@?36 /* Error: Ran out of types for this method. */;
-- (void)n:(id)arg1 modifierFlags:timestamp:windowNumber:context:eventNumber:trackingNumber:userData: /* Error: Ran out of types for this method. */;
-- (id)iewPanelIfNecessary;
-- (id)AttributeKey;
+- (void)enterExitEventWithType:(id)arg1 location:modifierFlags:timestamp:windowNumber:context:eventNumber:trackingNumber:userData: /* Error: Ran out of types for this method. */;
+- (id)_hidePreviewPanelIfNecessary;
+- (id)_colorNameExtensionAttributeKey;
 - (id);
 - (id)ompatibility mode.;
 - (_Bool)ìYA;
@@ -44,15 +37,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_action) long long action;
-@property(retain, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic, getter=_indexPath) NSIndexPath *indexPath;
-@property(readonly) NSIndexPath *indexPathAfterUpdate; // @synthesize indexPathAfterUpdate=_finalIndexPath;
-@property(readonly) NSIndexPath *indexPathBeforeUpdate; // @synthesize indexPathBeforeUpdate=_initialIndexPath;
-@property(nonatomic) _Bool isAppendingSectionInsert; // @synthesize isAppendingSectionInsert=_isAppendingSectionInsert;
-@property(readonly, nonatomic, getter=_isSectionOperation) _Bool isSectionOperation;
-@property(retain, nonatomic, getter=_newIndexPath, setter=_setNewIndexPath:) NSIndexPath *newIndexPath;
-@property(nonatomic, getter=_shouldReconfigure, setter=_setShouldReconfigure:) _Bool shouldReconfigure; // @synthesize shouldReconfigure=_shouldReconfigure;
-@property(readonly) long long updateAction; // @synthesize updateAction=_updateAction;
 
 @end
 

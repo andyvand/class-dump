@@ -6,14 +6,11 @@
 
 #import <CoreAutoLayout/NSLayoutYAxisAnchor.h>
 
-@class NSArray, NSLayoutDimension;
+@class NSArray;
 
 @interface _NSCompositeLayoutYAxisAnchor : NSLayoutYAxisAnchor
 {
     NSLayoutYAxisAnchor *_yAxisAnchor;
-    double _constant;
-    double _dimensionMultiplier;
-    NSLayoutDimension *_dimension;
 }
 
 - (id);
@@ -22,9 +19,9 @@
 - (id);
 - (id);
 - (double);
-- (void);
+- (void)MLObjectBoundingBoxOutput;
 - (id);
-- (void);
+- (void)_insufficientDiskSpaceMode;
 
 // Remaining properties
 @property(readonly) NSArray *_childAnchors;

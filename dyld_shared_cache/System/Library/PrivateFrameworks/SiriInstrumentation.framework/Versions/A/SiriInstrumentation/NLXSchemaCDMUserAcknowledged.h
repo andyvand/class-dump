@@ -6,22 +6,21 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLXSchemaCDMUserAcknowledged : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_systemDialogActId;
-    _Bool _hasSystemDialogActId;
 }
 
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
-- (void);
+- (void)cate=}8;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -29,12 +28,10 @@
 - (id)
 × ;
 - (id)V_isAirPlay;
-- (id);
+- (id)sportsExecution;
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasSystemDialogActId; // @synthesize hasSystemDialogActId=_hasSystemDialogActId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *systemDialogActId; // @synthesize systemDialogActId=_systemDialogActId;
 
 @end

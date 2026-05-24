@@ -4,44 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AWDFaceTimeCallStarted
 {
     unsigned long long _timestamp;
-    NSString *_guid;
-    unsigned int _isCallUpgrade;
-    unsigned int _isToEmail;
-    unsigned int _isToPhoneNumber;
-    unsigned int _isVideo;
-    unsigned int _onLockScreen;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int isCallUpgrade:1;
-        unsigned int isToEmail:1;
-        unsigned int isToPhoneNumber:1;
-        unsigned int isVideo:1;
-        unsigned int onLockScreen:1;
-    } _has;
 }
 
+- (void)%;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)s;
 - (void);
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)	j!;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (unsigned int);
 - (void);
 - (id);
@@ -54,8 +38,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)T;
+- (void);
 - (void);
 - (id);
 - (id);
@@ -64,20 +48,7 @@
 - (void)&Úÿ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *guid; // @synthesize guid=_guid;
 @property(readonly, nonatomic) _Bool hasGuid;
-@property(nonatomic) _Bool hasIsCallUpgrade;
-@property(nonatomic) _Bool hasIsToEmail;
-@property(nonatomic) _Bool hasIsToPhoneNumber;
-@property(nonatomic) _Bool hasIsVideo;
-@property(nonatomic) _Bool hasOnLockScreen;
-@property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) unsigned int isCallUpgrade; // @synthesize isCallUpgrade=_isCallUpgrade;
-@property(nonatomic) unsigned int isToEmail; // @synthesize isToEmail=_isToEmail;
-@property(nonatomic) unsigned int isToPhoneNumber; // @synthesize isToPhoneNumber=_isToPhoneNumber;
-@property(nonatomic) unsigned int isVideo; // @synthesize isVideo=_isVideo;
-@property(nonatomic) unsigned int onLockScreen; // @synthesize onLockScreen=_onLockScreen;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -6,60 +6,43 @@
 
 #import <AppKit/NSView.h>
 
-@class NSMutableArray, NSMutableDictionary, NSRemoteView, NSWindow;
-@protocol NSThemeWidgetRemoteViewDelegate;
+@class NSRemoteView, NSWindow;
 
 __attribute__((visibility("hidden")))
 @interface NSThemeWidgetRemoteView : NSView
 {
     NSRemoteView *_remoteView;
-    NSMutableDictionary *_uuidToMenuItems;
-    _Bool _hasAdvancedToConfigPhase;
-    _Bool _running;
-    _Bool _valid;
-    NSMutableArray *_readySemaphores;
-    id <NSThemeWidgetRemoteViewDelegate> _delegate;
-    NSWindow *_sharedWindow;
 }
 
-+ (id);
++ (id),C,V_uniqueIdentifier;
 + (void)üWCÿ(³` @;
+- (void)0h5iDjrdYYcog;
+- (void)press;
+- (_Bool);
+- (id)6;
+- (void);
+- (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)tPolicyExclusivelyFromMainDocumentDomain and the inURL and mainDocumentURL are in different domains;
 - (void);
 - (void);
 - (id);
-- (void);
-- (_Bool)iateInitialControllerWithCreator:storyboardSegueTemplate:sender: /* Error: Ran out of types for this method. */;
-- (_Bool)fectiveThickness;
-- (void)IPBOARD;
-- (id)oviderCoordinator;
+- (void)_opticalBoldSystemFontOfSize:(id)arg1;
+- (_Bool)instantiateInitialControllerWithCreator:storyboardSegueTemplate:sender: /* Error: Ran out of types for this method. */;
+- (_Bool)effectiveThickness;
+- (void)PASTEBOARD_VERIFICATION_SUBSTRING_CLIPBOARD;
+- (id)ScreenProviderCoordinator;
 
 // Remaining properties
-@property __weak id <NSThemeWidgetRemoteViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) _Bool hasAdvancedToConfigPhase;
-@property(readonly) NSRemoteView *remoteView;
-@property(readonly) _Bool running;
 @property __weak NSWindow *sharedWindow; // @synthesize sharedWindow=_sharedWindow;
-@property(readonly) _Bool shouldRetainExportedObject;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) _Bool valid; // @synthesize valid=_valid;
 
 @end
 

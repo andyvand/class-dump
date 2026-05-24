@@ -4,44 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSPort, NSString, NSXPCConnection, SK_DM_Daemon2ClientDelegate;
-@protocol SK_DM_Client2DaemonProtocol;
+@class NSXPCConnection;
 
 __attribute__((visibility("hidden")))
 @interface DMManagerPrivVars
 {
     struct __DASession *_clientDefaultDASession;
-    id _clientDelegate;
-    unsigned int _clientThread;
-    struct AuthorizationOpaqueRef *_implicitAuthorization;
-    struct AuthorizationOpaqueRef *_explicitAuthorization;
-    _Bool _authorizationUIOK;
-    NSLocale *_locale;
-    NSString *_preferredLocale;
-    _Bool _installEnvironment;
-    _Bool _delegateCreated;
-    id <SK_DM_Client2DaemonProtocol> _SK_DM_delegate;
-    NSXPCConnection *_xpcConnection;
-    NSPort *_callbackPort;
-    SK_DM_Daemon2ClientDelegate *_callbackDelegate;
 }
 
 - (void);
 - (_Bool);
+- (id);
 - (id);
 - (id);
-- (id);
-- (int);
+- (int);
 - (id);
 - (void);
-- (void);
+- (void)",R,N,V_clientDisplayName;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <SK_DM_Client2DaemonProtocol> SK_DM_delegate;
-@property(readonly, nonatomic) SK_DM_Daemon2ClientDelegate *callbackDelegate; // @synthesize callbackDelegate=_callbackDelegate;
-@property(readonly, nonatomic) NSPort *callbackPort; // @synthesize callbackPort=_callbackPort;
 @property(retain, nonatomic) NSXPCConnection *xpcConnection; // @synthesize xpcConnection=_xpcConnection;
 
 @end

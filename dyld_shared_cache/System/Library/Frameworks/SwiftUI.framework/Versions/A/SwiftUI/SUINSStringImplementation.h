@@ -8,11 +8,11 @@
 {
 }
 
-- (void);
+- (void)tPathsForTextPieceResults:(unsigned short *)arg1 Invalid input colCount = %ld;
 - (unsigned long long);
 - (id);
-- (unsigned short)ictionary;
-- (const char *)EffectTraitKey;
+- (unsigned short)infoDictionary;
+- (const char *)ListRowHoverEffectTraitKey;
 - (const unsigned short *)¸;
 
 // Remaining properties

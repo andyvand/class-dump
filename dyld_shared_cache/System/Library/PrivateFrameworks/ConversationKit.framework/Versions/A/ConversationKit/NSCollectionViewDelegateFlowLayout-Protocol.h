@@ -5,5 +5,9 @@
 //
 
 @protocol NSCollectionViewDelegateFlowLayout
+
+@optional
+- (struct CGSize);
+- (double)EKEventAttendeeCommentsEditViewController;
 @end
 

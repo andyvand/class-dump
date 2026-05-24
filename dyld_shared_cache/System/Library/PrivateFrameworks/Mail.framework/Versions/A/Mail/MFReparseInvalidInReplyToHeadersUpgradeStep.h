@@ -14,11 +14,11 @@
 }
 
 + (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (void)<Ì;
 

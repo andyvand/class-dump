@@ -8,12 +8,10 @@ __attribute__((visibility("hidden")))
 @interface __NSMessageBuilder
 {
     Class isa;
-    id _target;
-    id *_addr;
 }
 
 + (void);
-- (void);
+- (void)LSUserActivityContainsUnsynchronizedCloudDocs;
 - (void);
 - (id)Utilities Folder;
 

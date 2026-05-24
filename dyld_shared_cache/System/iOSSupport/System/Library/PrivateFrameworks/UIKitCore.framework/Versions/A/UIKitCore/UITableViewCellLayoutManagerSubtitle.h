@@ -11,13 +11,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
+- (double)AIN_LENGTH;
 - (double);
-- (double);
-- (double);
-- (void);
+- (double)setPlaybackSpeed:(id)arg1;
+- (void)/;
 - (id)Z1Â0@ù
 × ;
-- (void)tForAutocorrectionWithCompletionHandler:(struct CGRect *)arg1;
+- (void)requestTextContextForAutocorrectionWithCompletionHandler:(struct CGRect *)arg1;
 - (id)Font;
 - (id)dopt the UIScene based lifecycle cannot safely infer an interface orientation without a visual context!;
 - (struct CGSize)tation;

@@ -7,9 +7,6 @@
 @interface WidgetKit.MemoryRequestsController
 {
     id _lock_assertions;
-    id _lock_mlmAssertion;
-    id _lock;
-    id inWidgetRenderer;
 }
 
 @end

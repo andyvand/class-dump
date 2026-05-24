@@ -10,31 +10,13 @@ __attribute__((visibility("hidden")))
 @interface _NSScrollViewLayoutHelper
 {
     NSScrollView *_scrollView;
-    struct CGSize _documentMinimumSize;
-    double _findBarDesiredHeight;
-    _Bool _hScrollerShown;
-    _Bool _vScrollerShown;
-    _Bool _cornerShown;
-    _Bool _contentsExtendUnderInsets;
-    struct CGRect _headerFrame;
-    struct CGRect _vRulerFrame;
-    struct CGRect _hRulerFrame;
-    struct CGRect _findBarFrame;
-    struct CGRect _contentFrame;
-    struct CGRect _insetContentFrame;
-    struct CGRect _vScrollerFrame;
-    struct CGRect _hScrollerFrame;
-    struct CGRect _vLegacyScrollerFrame;
-    struct CGRect _hLegacyScrollerFrame;
-    struct CGRect _cornerFrame;
-    struct NSEdgeInsets _contentViewInsets;
 }
 
-- (_Bool);
-- (struct CGRect);
-- (struct CGRect);
-- (struct CGRect);
-- (void);
+- (_Bool)ture2);
+- (struct CGRect)ct:com.apple.message.signature2) /* Error: Ran out of types for this method. */;
+- (struct CGRect)e.message.signature);
+- (struct CGRect)e.message.result);
+- (void);
 - (void);
 - (struct CGRect);
 - (_Bool);
@@ -44,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (double);
 - (struct CGSize);
-- (_Bool);
+- (_Bool);
 - (struct CGRect);
 - (_Bool);
 - (struct NSEdgeInsets);
@@ -54,24 +36,7 @@ __attribute__((visibility("hidden")))
 - (struct CGRect)l;
 
 // Remaining properties
-@property(readonly) struct CGRect contentFrame; // @synthesize contentFrame=_contentFrame;
-@property(readonly) struct NSEdgeInsets contentViewInsets; // @synthesize contentViewInsets=_contentViewInsets;
-@property(readonly) _Bool contentsExtendUnderInsets; // @synthesize contentsExtendUnderInsets=_contentsExtendUnderInsets;
-@property(readonly) struct CGRect cornerFrame; // @synthesize cornerFrame=_cornerFrame;
-@property(readonly) _Bool cornerShown; // @synthesize cornerShown=_cornerShown;
 @property(readonly) struct CGSize documentMinimumSize; // @synthesize documentMinimumSize=_documentMinimumSize;
-@property double findBarDesiredHeight; // @synthesize findBarDesiredHeight=_findBarDesiredHeight;
-@property(readonly) struct CGRect findBarFrame; // @synthesize findBarFrame=_findBarFrame;
-@property(readonly) struct CGRect hLegacyScrollerFrame; // @synthesize hLegacyScrollerFrame=_hLegacyScrollerFrame;
-@property(readonly) struct CGRect hRulerFrame; // @synthesize hRulerFrame=_hRulerFrame;
-@property(readonly) struct CGRect hScrollerFrame; // @synthesize hScrollerFrame=_hScrollerFrame;
-@property(readonly) _Bool hScrollerShown; // @synthesize hScrollerShown=_hScrollerShown;
-@property(readonly) struct CGRect headerFrame; // @synthesize headerFrame=_headerFrame;
-@property(readonly) struct CGRect insetContentFrame; // @synthesize insetContentFrame=_insetContentFrame;
-@property(readonly) struct CGRect vLegacyScrollerFrame; // @synthesize vLegacyScrollerFrame=_vLegacyScrollerFrame;
-@property(readonly) struct CGRect vRulerFrame; // @synthesize vRulerFrame=_vRulerFrame;
-@property(readonly) struct CGRect vScrollerFrame; // @synthesize vScrollerFrame=_vScrollerFrame;
-@property(readonly) _Bool vScrollerShown; // @synthesize vScrollerShown=_vScrollerShown;
 
 @end
 

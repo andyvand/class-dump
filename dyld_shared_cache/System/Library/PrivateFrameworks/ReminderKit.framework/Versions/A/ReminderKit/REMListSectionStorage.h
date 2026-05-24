@@ -24,12 +24,11 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)initWithUsageDate:navigationWasInterrupted: /* Error: Ran out of types for this method. */;
 - (void)ë!Fùñr ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *canonicalName; // @synthesize canonicalName;
 @property(retain, nonatomic) REMObjectID *listID;
 
 @end

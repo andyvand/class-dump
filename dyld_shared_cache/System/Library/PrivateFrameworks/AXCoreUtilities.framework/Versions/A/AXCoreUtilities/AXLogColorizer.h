@@ -7,9 +7,6 @@
 @interface AXLogColorizer
 {
     _Bool _active;
-    _Bool _managedBySettings;
-    _Bool _preferDarkColors;
-    struct AXLogColorTheme _colorTheme;
 }
 
 + (id);
@@ -18,12 +15,12 @@
 + (id);
 + (struct AXLogColorTheme);
 + (struct AXLogColorTheme);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)k;
 - (id);
 - (void);
+- (void)o;
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -35,19 +32,16 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id).accessibility.displayfilter.showinitialalert;
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(nonatomic) struct AXLogColorTheme colorTheme; // @synthesize colorTheme=_colorTheme;
 @property(nonatomic, getter=isManagedBySettings) _Bool managedBySettings; // @synthesize managedBySettings=_managedBySettings;
-@property(nonatomic) _Bool preferDarkColors; // @synthesize preferDarkColors=_preferDarkColors;
 
 @end
 

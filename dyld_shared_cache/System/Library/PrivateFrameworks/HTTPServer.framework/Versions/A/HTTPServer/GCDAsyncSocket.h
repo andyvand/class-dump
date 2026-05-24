@@ -4,49 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GCDAsyncReadPacket, GCDAsyncSocketPreBuffer, GCDAsyncWritePacket, NSArray, NSData, NSMutableArray, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 @interface GCDAsyncSocket
 {
     unsigned int flags;
-    unsigned short config;
-    id delegate;
-    NSObject<OS_dispatch_queue> *delegateQueue;
-    int socket4FD;
-    int socket6FD;
-    int socketuFD;
-    int connectIndex;
-    NSData *connectInterface4;
-    NSData *connectInterface6;
-    NSObject<OS_dispatch_queue> *socketQueue;
-    NSObject<OS_dispatch_source> *accept4Source;
-    NSObject<OS_dispatch_source> *accept6Source;
-    NSObject<OS_dispatch_source> *acceptuSource;
-    NSObject<OS_dispatch_source> *connectTimer;
-    NSObject<OS_dispatch_source> *readSource;
-    NSObject<OS_dispatch_source> *writeSource;
-    NSObject<OS_dispatch_source> *readTimer;
-    NSObject<OS_dispatch_source> *writeTimer;
-    NSMutableArray *readQueue;
-    NSMutableArray *writeQueue;
-    GCDAsyncReadPacket *currentRead;
-    GCDAsyncWritePacket *currentWrite;
-    unsigned long long socketFDBytesAvailable;
-    GCDAsyncSocketPreBuffer *preBuffer;
-    struct SSLContext *sslContext;
-    GCDAsyncSocketPreBuffer *sslPreBuffer;
-    unsigned long long sslWriteCachedLength;
-    int sslErrCode;
-    void *IsOnSocketQueueOrTargetQueueKey;
-    id userData;
-    unsigned long long countedBytesWritten;
-    NSArray *rootsToTrustWhenEvaluatingPeerTrust;
-    unsigned int allowAnyRootWhenEvaluatingPeerTrust:1;
-    unsigned int allowExpiredRootsWhenEvaluatingPeerTrust:1;
-    unsigned int allowExpiredCertsWhenEvaluatingPeerTrust:1;
-    unsigned int skipEvaluatingPeerTrust:1;
-    unsigned int delegateWillEvaluatePeerTrust:1;
 }
 
 + (unsigned short);
@@ -55,7 +15,7 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 + (id);
 + (id);
 + (id);
@@ -87,7 +47,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -105,7 +65,7 @@
 - (void);
 - (void);
 - (float);
-- (float);
+- (float);
 - (_Bool);
 - (id);
 - (void);
@@ -113,7 +73,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (unsigned short);
@@ -156,13 +116,13 @@
 - (unsigned short);
 - (unsigned short);
 - (unsigned short);
-- (unsigned short);
+- (unsigned short);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -171,7 +131,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -188,9 +148,9 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (unsigned short);
+- (_Bool)dateThreadScopeManager:connection: /* Error: Ran out of types for this method. */;
+- (void)D:(int)arg1 ];
+- (unsigned short)DContainer",&,N,V_container;
 - (id);
 - (int);
 - (void);
@@ -199,14 +159,14 @@
 - (_Bool);
 - (unsigned short);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)"NSHashTable";
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
+- (void);
+- (id)oiceProfile:completion:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void);
+- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);

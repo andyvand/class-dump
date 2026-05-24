@@ -11,9 +11,9 @@
     id <_CDInteractionAdvising> _interactionAdvisor;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)kFbS;
++ (id)kFbK;
++ (id)kFbB;
 - (void);
 - (id);
 - (id);

@@ -9,7 +9,6 @@
 @interface BKSHIDEventSmartCoverAttributes : BKSHIDEventBaseAttributes
 {
     int _smartCoverState;
-    int _wakeAnimationStyle;
 }
 
 + (id);
@@ -24,7 +23,6 @@
 
 // Remaining properties
 @property(nonatomic) int smartCoverState; // @synthesize smartCoverState=_smartCoverState;
-@property(nonatomic) int wakeAnimationStyle; // @synthesize wakeAnimationStyle=_wakeAnimationStyle;
 
 @end
 

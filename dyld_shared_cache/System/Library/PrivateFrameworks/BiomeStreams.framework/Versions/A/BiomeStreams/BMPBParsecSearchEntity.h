@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface BMPBParsecSearchEntity
 {
     unsigned int _category;
-    NSString *_name;
-    float _probabilityScore;
-    NSMutableArray *_topics;
-    struct {
-        unsigned int category:1;
-        unsigned int probabilityScore:1;
-    } _has;
 }
 
 + (Class);
@@ -23,40 +14,34 @@
 - (void);
 - (float);
 - (_Bool);
-- (void);
+- (void)updateLocalAspectRatios:(_Bool)arg1 localScreenAspectRatio: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (_Bool);
+- (void)	k%;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)A;
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (unsigned int);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)@;
 - (void)àN
 4O
 ;
-- (id)UDE;
+- (id)INCLUDE;
 - (void)Ô;
 
 // Remaining properties
-@property(nonatomic) unsigned int category; // @synthesize category=_category;
-@property(nonatomic) _Bool hasCategory;
 @property(readonly, nonatomic) _Bool hasName;
-@property(nonatomic) _Bool hasProbabilityScore;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) float probabilityScore; // @synthesize probabilityScore=_probabilityScore;
-@property(retain, nonatomic) NSMutableArray *topics; // @synthesize topics=_topics;
 
 @end
 

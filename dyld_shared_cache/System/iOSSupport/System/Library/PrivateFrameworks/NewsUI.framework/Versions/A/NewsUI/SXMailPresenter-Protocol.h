@@ -5,5 +5,6 @@
 //
 
 @protocol SXMailPresenter
+- (void);
 @end
 

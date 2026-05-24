@@ -6,35 +6,22 @@
 
 @interface AWDProactiveModelFittingEvalMetrics
 {
-    CDStruct_fae3dc92 _negativeScores;
-    CDStruct_fae3dc92 _positiveScores;
-    unsigned long long _falseNegatives;
-    unsigned long long _falsePositives;
-    unsigned long long _trueNegatives;
-    unsigned long long _truePositives;
-    float _f1;
-    float _rmse;
-    float _secsToExecute;
     struct {
-        unsigned int falseNegatives:1;
-        unsigned int falsePositives:1;
-        unsigned int trueNegatives:1;
-        unsigned int truePositives:1;
-        unsigned int f1:1;
-        unsigned int rmse:1;
-        unsigned int secsToExecute:1;
-    } _has;
+        float *list;
+        unsigned long long count;
+        unsigned long long size;
+    } _negativeScores;
 }
 
 + (id);
 + (id);
 - (unsigned long long);
 - (unsigned long long);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
@@ -49,7 +36,7 @@
 - (float);
 - (float);
 - (unsigned long long);
-- (float);
+- (float);
 - (float *);
 - (unsigned long long);
 - (float);
@@ -69,8 +56,8 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (void);
+- (id)shouldReportDeviceCapabilitiesContainerOverrides;
+- (void)#;
 - (void);
 - (id);
 - (unsigned long long);
@@ -81,24 +68,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) float f1; // @synthesize f1=_f1;
-@property(nonatomic) unsigned long long falseNegatives; // @synthesize falseNegatives=_falseNegatives;
-@property(nonatomic) unsigned long long falsePositives; // @synthesize falsePositives=_falsePositives;
-@property(nonatomic) _Bool hasF1;
-@property(nonatomic) _Bool hasFalseNegatives;
-@property(nonatomic) _Bool hasFalsePositives;
 @property(nonatomic) _Bool hasRmse;
-@property(nonatomic) _Bool hasSecsToExecute;
-@property(nonatomic) _Bool hasTrueNegatives;
-@property(nonatomic) _Bool hasTruePositives;
-@property(readonly, nonatomic) float *negativeScores;
-@property(readonly, nonatomic) unsigned long long negativeScoresCount;
-@property(readonly, nonatomic) float *positiveScores;
-@property(readonly, nonatomic) unsigned long long positiveScoresCount;
-@property(nonatomic) float rmse; // @synthesize rmse=_rmse;
-@property(nonatomic) float secsToExecute; // @synthesize secsToExecute=_secsToExecute;
-@property(nonatomic) unsigned long long trueNegatives; // @synthesize trueNegatives=_trueNegatives;
-@property(nonatomic) unsigned long long truePositives; // @synthesize truePositives=_truePositives;
 
 @end
 

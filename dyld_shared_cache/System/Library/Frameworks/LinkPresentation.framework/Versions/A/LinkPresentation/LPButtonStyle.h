@@ -4,43 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPCircularProgressIndicatorStyle, LPPadding, LPPointUnit, LPSize, NSColor, NSFont, NSImageSymbolConfiguration;
+@class NSColor;
 
 __attribute__((visibility("hidden")))
 @interface LPButtonStyle
 {
     _Bool _ignoresInvertColors;
-    _Bool _enableUserInteractionForDecorativeButton;
-    _Bool _showsChevronForSingleAction;
-    _Bool _useSystemButtonAppearance;
-    _Bool _useGlassButtonAppearance;
-    _Bool _useSegmentedControl;
-    _Bool _prefersBehavioralStylePad;
-    NSColor *_foregroundColor;
-    NSColor *_backgroundColor;
-    NSColor *_menuBackgroundColor;
-    NSFont *_font;
-    NSFont *_menuFont;
-    NSImageSymbolConfiguration *_symbolConfiguration;
-    LPPadding *_padding;
-    LPPadding *_margin;
-    LPPointUnit *_imagePadding;
-    LPPointUnit *_menuMinimumWidth;
-    LPPointUnit *_minimumWidth;
-    LPPointUnit *_minimumHeight;
-    LPPointUnit *_height;
-    LPPointUnit *_additionalVerticalPadding;
-    LPPointUnit *_indicatorSpacing;
-    LPSize *_fixedCollapsedSize;
-    LPCircularProgressIndicatorStyle *_progressIndicatorStyle;
-    long long _behavior;
 }
 
-+ (id);
++ (id)Bz;
+- (_Bool)`a;
+- (_Bool)Mm;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -49,8 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)A;
 - (_Bool);
 - (id);
 - (id);
@@ -70,17 +46,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (id);
+- (id)a@;
+- (void);
+- (void);
+- (void)~;
 - (id);
 - (void);
-- (void);
-- (void);
+- (id)ot;
 - (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)Id) REFERENCES sessionsDescriptors (id) ON DELETE CASCADE               );
+- (void)NOT NULL,                                locale char(5) NOT NULL                                    );
 - (void);
 - (void);
 - (void);
@@ -92,31 +68,7 @@ __attribute__((visibility("hidden")))
 - (id)ources/app_icons/notes.png;
 
 // Remaining properties
-@property(retain, nonatomic) LPPointUnit *additionalVerticalPadding; // @synthesize additionalVerticalPadding=_additionalVerticalPadding;
-@property(retain, nonatomic) NSColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) long long behavior; // @synthesize behavior=_behavior;
-@property(nonatomic) _Bool enableUserInteractionForDecorativeButton; // @synthesize enableUserInteractionForDecorativeButton=_enableUserInteractionForDecorativeButton;
-@property(retain, nonatomic) LPSize *fixedCollapsedSize; // @synthesize fixedCollapsedSize=_fixedCollapsedSize;
-@property(retain, nonatomic) NSFont *font; // @synthesize font=_font;
 @property(retain, nonatomic) NSColor *foregroundColor; // @synthesize foregroundColor=_foregroundColor;
-@property(retain, nonatomic) LPPointUnit *height; // @synthesize height=_height;
-@property(nonatomic) _Bool ignoresInvertColors; // @synthesize ignoresInvertColors=_ignoresInvertColors;
-@property(retain, nonatomic) LPPointUnit *imagePadding; // @synthesize imagePadding=_imagePadding;
-@property(retain, nonatomic) LPPointUnit *indicatorSpacing; // @synthesize indicatorSpacing=_indicatorSpacing;
-@property(retain, nonatomic) LPPadding *margin; // @synthesize margin=_margin;
-@property(retain, nonatomic) NSColor *menuBackgroundColor; // @synthesize menuBackgroundColor=_menuBackgroundColor;
-@property(retain, nonatomic) NSFont *menuFont; // @synthesize menuFont=_menuFont;
-@property(retain, nonatomic) LPPointUnit *menuMinimumWidth; // @synthesize menuMinimumWidth=_menuMinimumWidth;
-@property(retain, nonatomic) LPPointUnit *minimumHeight; // @synthesize minimumHeight=_minimumHeight;
-@property(retain, nonatomic) LPPointUnit *minimumWidth; // @synthesize minimumWidth=_minimumWidth;
-@property(retain, nonatomic) LPPadding *padding; // @synthesize padding=_padding;
-@property(nonatomic) _Bool prefersBehavioralStylePad; // @synthesize prefersBehavioralStylePad=_prefersBehavioralStylePad;
-@property(retain, nonatomic) LPCircularProgressIndicatorStyle *progressIndicatorStyle; // @synthesize progressIndicatorStyle=_progressIndicatorStyle;
-@property(nonatomic) _Bool showsChevronForSingleAction; // @synthesize showsChevronForSingleAction=_showsChevronForSingleAction;
-@property(retain, nonatomic) NSImageSymbolConfiguration *symbolConfiguration; // @synthesize symbolConfiguration=_symbolConfiguration;
-@property(nonatomic) _Bool useGlassButtonAppearance; // @synthesize useGlassButtonAppearance=_useGlassButtonAppearance;
-@property(nonatomic) _Bool useSegmentedControl; // @synthesize useSegmentedControl=_useSegmentedControl;
-@property(nonatomic) _Bool useSystemButtonAppearance; // @synthesize useSystemButtonAppearance=_useSystemButtonAppearance;
 
 @end
 

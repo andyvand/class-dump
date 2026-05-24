@@ -7,9 +7,13 @@
 @class UIImage;
 
 @protocol CKInvisibleInkEffectHostView
+- (void)_makeDecisionForMovingHTMLObjectsToModernDestination;
+- (void)_makeDecisionForMovingHTMLObjectsToHTMLDestination;
+- (void)_makeDecisionForMovingBetweenManagedAndUnmanagedAccounts;
+- (UIImage *)t;
+- (void)G;
 
 // Remaining properties
-@property(readonly, nonatomic) UIImage *imageForInvisibleInkEffectView;
 @property(readonly, nonatomic) Class invisibleInkEffectViewClass;
 @end
 

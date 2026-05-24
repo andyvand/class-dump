@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface SMTSchemaSMTClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_smtId;
-    _Bool _hasSmtId;
 }
 
 - (id);
@@ -21,19 +20,17 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (void)C;
+- (unsigned long long)relativeMetricsKeys;
+- (_Bool)CNUISaveNonCuratedValueOntoReadOnlyContactCommand;
+- (_Bool)An4RIPhda0kDGxz-sNUlGSu45C4/Library/Caches/com.apple.xbs/TemporaryDirectory.sfEDjv/Sources/MessagesCore/IMCore/IMDPersistence/Source/Indexing/Spotlight/IMDCoreSpotlightIndexHelpers.m;
 - (id);
 - (id);
-- (id)niversalCommand;
-- (id)solverEnded;
+- (id)deleteIsInterpretableAsUniversalCommand;
+- (id)_hasMarrsMentionResolverEnded;
 - (void)isGenAISetUpPrompts;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSmtId; // @synthesize hasSmtId=_hasSmtId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *smtId; // @synthesize smtId=_smtId;
 
 @end

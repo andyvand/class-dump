@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (CBPropertyKeyExtension)
-- (id);
+- (id)({;
 - (id);
 - (id);
 - (id);

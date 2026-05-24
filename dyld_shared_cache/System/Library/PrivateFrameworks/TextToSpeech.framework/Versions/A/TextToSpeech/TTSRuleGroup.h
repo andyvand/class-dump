@@ -9,22 +9,18 @@
 @interface TTSRuleGroup
 {
     NSString *_key;
-    unsigned long long _startIndex;
-    unsigned long long _endIndex;
 }
 
 - (unsigned long long);
-- (void);
+- (void)treamInputManager init];
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
-- (void);
+- (void)localizedImageFilterNameForType:(id)arg1;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long endIndex; // @synthesize endIndex=_endIndex;
 @property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) unsigned long long startIndex; // @synthesize startIndex=_startIndex;
 
 @end
 

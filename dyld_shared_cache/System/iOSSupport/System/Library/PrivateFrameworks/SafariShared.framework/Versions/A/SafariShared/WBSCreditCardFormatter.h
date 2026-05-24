@@ -7,14 +7,11 @@
 @interface WBSCreditCardFormatter
 {
     _Bool _showLastFourDigits;
-    _Bool _showCreditCardNumber;
-    _Bool _allowsUnknownCardTypes;
-    _Bool _isVirtualCard;
 }
 
 + (id);
-+ (id);
-- (_Bool);
++ (id);
+- (_Bool)P>;
 - (_Bool);
 - (void);
 - (void);
@@ -31,9 +28,6 @@
 0; /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsUnknownCardTypes; // @synthesize allowsUnknownCardTypes=_allowsUnknownCardTypes;
-@property(nonatomic) _Bool isVirtualCard; // @synthesize isVirtualCard=_isVirtualCard;
-@property(nonatomic) _Bool showCreditCardNumber; // @synthesize showCreditCardNumber=_showCreditCardNumber;
 @property(nonatomic) _Bool showLastFourDigits; // @synthesize showLastFourDigits=_showLastFourDigits;
 
 @end

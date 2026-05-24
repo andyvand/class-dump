@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol WidgetKit.WidgetCenterConnection_Host
+- (void)allowsPrinting;
+- (void)allowsFormFieldEntry;
+- (void)adjustedContentInset;
+- (void)adjustScrollViewToAccomodateKeyboardStartingFrame:(NSString *)arg1 endingFrame:(void (^)(NSError *))arg2 annotationFrame:withAnimationDuration:curve: /* Error: Ran out of types for this method. */;
+- (void)addFlagsToDictionaryRef:(NSString *)arg1;
+- (void)addFieldsToDictionaryRef:(NSString *)arg1;
+- (void)addFieldTypeToDictionaryRef:(void (^)(NSError *))arg1;
+- (void)addFieldNameToDictionaryRef:(void (^)(NSArray *, NSError *))arg1;
 @end
 

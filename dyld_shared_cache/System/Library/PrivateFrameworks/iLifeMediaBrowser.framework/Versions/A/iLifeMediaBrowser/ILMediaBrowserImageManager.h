@@ -4,32 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSRecursiveLock, NSString;
+@class NSRecursiveLock;
 
 @interface ILMediaBrowserImageManager
 {
     NSRecursiveLock *_imageAccessLock;
-    NSString *_uniqueID;
-    NSString *_cachedDBasePath;
-    NSMutableDictionary *_cachedDBaseDict;
-    NSMutableArray *_loadAttributesRequestQueue;
-    NSMutableDictionary *_loadAttributesRequestsByPath;
-    _Bool _cachedDBaseNeedsSave;
 }
 
 + (void);
 + (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)u;
 - (void);
 - (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -37,7 +31,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

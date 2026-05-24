@@ -6,66 +6,38 @@
 
 #import <CoreDAV/CoreDAVTaskGroup.h>
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSMutableSet, NSString, NSURL;
-@protocol CoreDAVLocalDBInfoProvider;
+@class NSString;
 
 @interface CoreDAVContainerSyncTaskGroup : CoreDAVTaskGroup
 {
     int _phase;
-    NSURL *_folderURL;
-    NSString *_previousCTag;
-    NSString *_nextCTag;
-    _Bool _ensureUpdatedCTag;
-    _Bool _useSyncCollection;
-    NSString *_previousSyncToken;
-    NSString *_nextSyncToken;
-    NSMutableArray *_actions;
-    unsigned long long _multiGetBatchSize;
-    NSMutableArray *_unsubmittedTasks;
-    unsigned long long _maxIndependentTasks;
-    NSURL *_addMemberURL;
-    _Bool _useMultiGet;
-    NSDictionary *_bulkRequests;
-    NSString *_bulkChangeCheckCTag;
-    NSMutableSet *_syncReportDeletedURLs;
-    NSMutableDictionary *_urlToETag;
-    Class _appSpecificDataItemClass;
-    _Bool _syncItemOrder;
-    NSMutableArray *_localItemURLOrder;
-    NSMutableDictionary *_remainingUUIDsToAddActions;
-    NSMutableDictionary *_remainingHREFsToModDeleteActions;
-    NSMutableSet *_locationChangedURLs;
-    _Bool _actionsOnly;
-    unsigned long long _maxRetryOnUnexpectedSyncTokenChange;
-    unsigned long long _unexpectedEmptySyncReportResponseRetryAttemptCount;
-    unsigned long long _insufficientStorageRetryCount;
 }
 
-+ (_Bool);
-- (_Bool);
++ (_Bool)	;
+- (_Bool);
+- (_Bool);
+- (unsigned long long);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)";
+- (void);
+- (void)(;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (unsigned long long);
+- (unsigned long long);
+- (unsigned long long);
+- (id);
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (unsigned long long);
-- (void);
 - (_Bool);
 - (void);
 - (id);
@@ -73,6 +45,7 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
@@ -83,13 +56,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)P9;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -97,14 +69,14 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)alidationErrors;
 - (id);
-- (id);
+- (id)_shouldLogSuggestionAccuracy;
 - (void);
 - (id);
 - (id);
@@ -113,38 +85,14 @@
 - (void);
 - (Class);
 - (id);
-- (void);
+- (void)WTValidation idToken could not be validated, nil params %@ %@ %@;
 - (id);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool actionsOnly; // @synthesize actionsOnly=_actionsOnly;
-@property(retain, nonatomic) NSURL *addMemberURL; // @synthesize addMemberURL=_addMemberURL;
-@property(retain, nonatomic) NSString *bulkChangeCheckCTag; // @synthesize bulkChangeCheckCTag=_bulkChangeCheckCTag;
-@property(retain, nonatomic) NSDictionary *bulkRequests; // @synthesize bulkRequests=_bulkRequests;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CoreDAVLocalDBInfoProvider> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool ensureUpdatedCTag; // @synthesize ensureUpdatedCTag=_ensureUpdatedCTag;
-@property(readonly, nonatomic) NSURL *folderURL; // @synthesize folderURL=_folderURL;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long insufficientStorageRetryCount; // @synthesize insufficientStorageRetryCount=_insufficientStorageRetryCount;
-@property(readonly, nonatomic) NSArray *localItemURLOrder; // @synthesize localItemURLOrder=_localItemURLOrder;
-@property(nonatomic) unsigned long long maxIndependentTasks; // @synthesize maxIndependentTasks=_maxIndependentTasks;
-@property(nonatomic) unsigned long long maxRetryOnUnexpectedSyncTokenChange; // @synthesize maxRetryOnUnexpectedSyncTokenChange=_maxRetryOnUnexpectedSyncTokenChange;
-@property(nonatomic) unsigned long long multiGetBatchSize; // @synthesize multiGetBatchSize=_multiGetBatchSize;
 @property(retain, nonatomic) NSString *nextCTag; // @synthesize nextCTag=_nextCTag;
-@property(retain, nonatomic) NSString *previousCTag; // @synthesize previousCTag=_previousCTag;
-@property(retain, nonatomic) NSString *previousSyncToken; // @synthesize previousSyncToken=_previousSyncToken;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long unexpectedEmptySyncReportResponseRetryAttemptCount; // @synthesize unexpectedEmptySyncReportResponseRetryAttemptCount=_unexpectedEmptySyncReportResponseRetryAttemptCount;
-@property(nonatomic) _Bool useMultiGet; // @synthesize useMultiGet=_useMultiGet;
-@property(nonatomic) _Bool useSyncCollection; // @synthesize useSyncCollection=_useSyncCollection;
 
 @end
 

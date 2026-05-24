@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor;
+@class UIColor;
 
 __attribute__((visibility("hidden")))
 @interface _UIImageContentRenditionCacheKey
 {
     UIColor *resolvedTintColor;
-    NSString *appearanceName;
-    struct CGSize _size;
-    unsigned int _drawMode;
-    struct {
-        unsigned int bold:1;
-    } _flags;
 }
 
 + (id);
 - (unsigned long long);
-- (_Bool)idth;
+- (_Bool)trackWidth;
 - (void)çÜ¥[;
 
 @end

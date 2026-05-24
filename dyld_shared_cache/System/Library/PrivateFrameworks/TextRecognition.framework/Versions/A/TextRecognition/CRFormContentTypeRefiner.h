@@ -12,10 +12,10 @@
 + (void);
 + (void);
 + (_Bool);
++ (void)x;
 + (void);
-+ (void);
-+ (id);
-+ (void);
++ (id)4;
++ (void)";
 
 @end
 

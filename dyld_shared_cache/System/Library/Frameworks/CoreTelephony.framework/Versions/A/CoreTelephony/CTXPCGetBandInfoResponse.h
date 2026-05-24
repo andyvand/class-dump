@@ -6,7 +6,7 @@
 
 #import <CoreTelephony/CTXPCResponseMessage.h>
 
-@class CTBandInfo, NSDictionary;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface CTXPCGetBandInfoResponse : CTXPCResponseMessage
@@ -15,13 +15,12 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
-- (id);
-- (id);
+- (id)b;
+- (id)@�?;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) CTBandInfo *bandInfo;
 @property(readonly, nonatomic) NSDictionary *bandMasks;
 
 @end

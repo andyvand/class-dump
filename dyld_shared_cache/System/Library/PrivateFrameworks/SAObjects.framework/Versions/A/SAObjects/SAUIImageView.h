@@ -6,7 +6,7 @@
 
 #import <SAObjects/SAAceView.h>
 
-@class NSArray, NSNumber, NSString, SAUIImageResource;
+@class NSArray;
 
 @interface SAUIImageView : SAAceView
 {
@@ -19,17 +19,14 @@
 - (id);
 - (void);
 - (id);
+- (id)a;
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)B;
+- (void)uiltin_float.dylib;
+- (void)WATER_HEATER;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *commands;
-@property(copy, nonatomic) NSString *descriptionText;
-@property(retain, nonatomic) SAUIImageResource *image;
-@property(copy, nonatomic) NSNumber *tintColor;
 
 @end
 

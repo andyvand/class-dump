@@ -19,9 +19,9 @@
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void)k;
 - (id);
-- (struct CGRect);
+- (struct CGRect)expected %@, decoded %@);
 - (void)TÔ;
 
 // Remaining properties

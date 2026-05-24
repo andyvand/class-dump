@@ -4,40 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSDate, NSString;
 
 @interface RTXPCTimerAlarm
 {
     NSString *_identifier;
-    NSDate *_endDate;
-    NSObject<OS_dispatch_queue> *_queue;
-    unsigned long long _state;
-    CDUnknownBlockType _handler;
 }
 
 - (_Bool);
 - (_Bool);
 - (void);
+- (void)setMirrorKey:(id)arg1 service:type:publicIdentity: /* Error: Ran out of types for this method. */;
+- (_Bool)hasExportedPCSData;
+- (void)clearStableMetadata;
+- (void)setMaxConcurrentOperationCount:(id)arg1;
 - (void);
+- (void);
+- (void);
+- (id)ockaddr_storage=CC[6c]q[112c]}{sockaddr_storage=CC[6c]q[112c]}SBqqqqdddIIQQB}24@0:(id)arg1 8@16;
+- (id);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@>;
 - (CDUnknownBlockType);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void)n result, %@;
@@ -45,10 +40,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
 
 @end
 

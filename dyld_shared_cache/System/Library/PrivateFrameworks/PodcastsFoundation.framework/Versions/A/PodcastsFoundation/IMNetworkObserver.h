@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CoreTelephonyClient, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface IMNetworkObserver
 {
     NSObject<OS_dispatch_queue> *_dispatchQueue;
-    unsigned int _networkReachabilityFlags;
-    long long _networkType;
-    NSObject<OS_dispatch_queue> *_notificationQueue;
-    NSString *_operatorName;
-    struct __SCNetworkReachability *_reachability;
-    struct os_unfair_lock_s _lock;
-    _Bool _observing;
-    CoreTelephonyClient *_telephonyClient;
-    struct __CTServerConnection *_telephonyServer;
-    NSString *_dataStatusIndicator;
 }
 
 + (_Bool);
 + (id);
 + (id)_dispatch_queueCGAGG»*$y½*$y¿*$yÑ*$GAMG_GG;
-- (id);
+- (id);
 - (void);
 - (_Bool);
 - (unsigned int);
@@ -45,7 +35,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (void);
 - (long long);
 - (long long);
@@ -53,13 +43,13 @@
 - (void);
 - (id);
 - (unsigned int);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)b;
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (long long);
 - (id);
@@ -67,17 +57,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *connectionTypeHeader;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) unsigned int networkReachabilityFlags;
 @property long long networkType;
-@property(readonly, getter=isObserving) _Bool observing;
-@property(readonly) Class superclass;
 
 @end
 

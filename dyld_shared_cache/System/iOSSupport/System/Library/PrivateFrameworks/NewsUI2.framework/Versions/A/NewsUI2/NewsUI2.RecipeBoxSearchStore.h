@@ -7,9 +7,6 @@
 @interface NewsUI2.RecipeBoxSearchStore
 {
     id $defaultActor;
-    id lazyDatabase;
-    id loadedTable;
-    id secondaryLoadedTable;
 }
 
 @end

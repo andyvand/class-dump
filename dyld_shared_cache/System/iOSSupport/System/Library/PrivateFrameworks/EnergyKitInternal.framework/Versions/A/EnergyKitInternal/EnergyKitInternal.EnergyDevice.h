@@ -8,7 +8,6 @@
 {
     id identifier;
     id name;
-    id siteID;
 }
 
 @end

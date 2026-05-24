@@ -6,24 +6,16 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRCroppingSprite, MRImage, MRTextRenderer, NSMutableArray;
+@class MRTextRenderer;
 
 @interface MREffectTableTopTitle : MREffect
 {
     MRTextRenderer *mTextRenderer;
-    MRImage *mImage;
-    NSMutableArray *mLetterImages;
-    NSMutableArray *mLetterFrames;
-    NSMutableArray *mCachedRenderedLetters;
-    struct CGContext *mCachedRenderedText;
-    long long mNumberOfLetters;
-    MRCroppingSprite *mTextSprite;
-    struct CGSize mSizeOfText;
 }
 
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)",&,N,V_telemetryUploader;
+- (_Bool)targetDate;
+- (_Bool)mporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsEnvelopeStore.m;
 - (id);
 - (void);
 - (struct CGSize);

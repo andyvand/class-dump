@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRGroupSessionEligibilityStatus, MRGroupSessionInfo, MRUserIdentity;
-
 __attribute__((visibility("hidden")))
 @interface MRGroupSessionRequestManager
 {
     _Bool _hasPopulatedIdentity;
-    struct os_unfair_lock_s _lock;
-    MRGroupSessionInfo *_groupSessionInfo;
-    MRUserIdentity *_localUserIdentity;
-    MRGroupSessionEligibilityStatus *_eligibilityStatus;
 }
 
 + (id);
 - (void);
-- (void);
+- (void)R;
 - (_Bool);
 - (void);
 - (void);
@@ -30,16 +24,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
-- (struct os_unfair_lock_s)ion:didChangeState: /* Error: Ran out of types for this method. */;
+- (id)getAppContextWithDeliveryHandler:completionHandler: /* Error: Ran out of types for this method. */;
+- (struct os_unfair_lock_s)session:didChangeState: /* Error: Ran out of types for this method. */;
 - (void),V_contentItems;
 - (id)p(ûÿ­Oô;
 
 // Remaining properties
-@property(retain, nonatomic) MRGroupSessionEligibilityStatus *eligibilityStatus; // @synthesize eligibilityStatus=_eligibilityStatus;
-@property(readonly, nonatomic) MRGroupSessionInfo *groupSessionInfo; // @synthesize groupSessionInfo=_groupSessionInfo;
-@property(nonatomic) _Bool hasPopulatedIdentity; // @synthesize hasPopulatedIdentity=_hasPopulatedIdentity;
-@property(retain, nonatomic) MRUserIdentity *localUserIdentity; // @synthesize localUserIdentity=_localUserIdentity;
 @property(readonly, nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
 
 @end

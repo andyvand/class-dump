@@ -4,14 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSLinkSelectorPrimarySecondary, NSString;
+@class NSArray, NSString;
 
 @protocol IDSGLLinkEngineProtocol
+- (void);
+- (void);
+- (NSArray *){;
+- (void)setCache: /* Error: Ran out of types for this method. */;
 - (void)onnect:(NSString *)arg1 %@;
 
 // Remaining properties
-@property _Bool allowOngoingTasks;
-@property(readonly) IDSLinkSelectorPrimarySecondary *idsPrimarySecondaryLinkSelector;
 @property(retain) NSString *tag;
 @end
 

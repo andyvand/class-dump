@@ -10,18 +10,16 @@ __attribute__((visibility("hidden")))
 @interface _WBSDeallocationSentinel
 {
     id <WBSDeallocationSentinelObserver> _observer;
-    id _context;
 }
 
-- (void);
+- (void)contentViewController;
 - (id);
-- (id);
+- (id)setDisableImplicitSectioning:(id)arg1;
 - (void);
 - (void)account store was loaded.;
 - (id)Password Deleted Notification Body (app variant);
 
 // Remaining properties
-@property(readonly, nonatomic) id context; // @synthesize context=_context;
 @property(nonatomic) __weak id <WBSDeallocationSentinelObserver> observer; // @synthesize observer=_observer;
 
 @end

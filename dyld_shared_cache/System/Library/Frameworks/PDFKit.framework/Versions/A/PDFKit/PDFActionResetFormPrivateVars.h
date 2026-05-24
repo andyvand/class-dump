@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PDFActionResetFormPrivateVars
 {
     NSArray *fields;
-    _Bool included;
 }
 
 - (void);

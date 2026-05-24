@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL, NSUUID;
+@class NSURL;
 
 @protocol _NSFileBackedFuture
 - (NSURL *)MNT_QUOTA
@@ -12,8 +12,6 @@
 - (unsigned long long)ity:Missing entity name /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSUUID *UUID;
-@property(readonly) unsigned long long fileSize;
 @property(readonly) NSURL *fileURL;
 @end
 

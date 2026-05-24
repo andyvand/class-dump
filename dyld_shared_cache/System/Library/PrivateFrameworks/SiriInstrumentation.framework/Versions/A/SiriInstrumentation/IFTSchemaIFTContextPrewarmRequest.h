@@ -6,19 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface IFTSchemaIFTContextPrewarmRequest : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_prewarmRequestId;
-    _Bool _hasPrewarmRequestId;
 }
 
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -34,8 +33,6 @@
 - (void)â~#;
 
 // Remaining properties
-@property(nonatomic) _Bool hasPrewarmRequestId; // @synthesize hasPrewarmRequestId=_hasPrewarmRequestId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *prewarmRequestId; // @synthesize prewarmRequestId=_prewarmRequestId;
 
 @end

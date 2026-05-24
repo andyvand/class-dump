@@ -6,20 +6,18 @@
 
 #import <AppleMediaServicesUI/AMSUIWebAction.h>
 
-@class NSArray, NSNumber;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebMediaQueryAction : AMSUIWebAction
 {
     NSArray *_bundleIDs;
-    NSNumber *_observing;
-    NSArray *_storeItemIDs;
 }
 
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)ublic}@;
+- (void)repository;
+- (id)lic}@, attempts:%{public}lu, status:%{public}lu /* Error: Ran out of types for this method. */;
+- (id)AssetSelector"8@"NSError"16;
 - (void);
 - (id);
 - (void);
@@ -28,8 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) NSArray *bundleIDs; // @synthesize bundleIDs=_bundleIDs;
-@property(retain) NSNumber *observing; // @synthesize observing=_observing;
-@property(retain) NSArray *storeItemIDs; // @synthesize storeItemIDs=_storeItemIDs;
 
 @end
 

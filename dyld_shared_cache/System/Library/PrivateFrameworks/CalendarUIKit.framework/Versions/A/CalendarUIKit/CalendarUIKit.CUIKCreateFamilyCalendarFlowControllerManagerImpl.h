@@ -9,14 +9,13 @@
 @interface CalendarUIKit.CUIKCreateFamilyCalendarFlowControllerManagerImpl
 {
     id delegate;
-    id $__lazy_storage_$_viewController;
 }
 
 - (id);
 - (void);
 - (id);
-- (id);
-- (void)etMaximumUnitCount: /* Error: Ran out of types for this method. */;
+- (id)HDR10PlusIOMFBMetadata:withHDR10PlusData: /* Error: Ran out of types for this method. */;
+- (void)setMaximumUnitCount: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic, retain) NSViewController *viewController;

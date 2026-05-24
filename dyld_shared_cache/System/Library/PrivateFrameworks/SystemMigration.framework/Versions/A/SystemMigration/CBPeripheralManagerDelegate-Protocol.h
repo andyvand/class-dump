@@ -4,11 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBPeripheralManager;
+@class CBPeripheralManager, NSError;
 
 @protocol CBPeripheralManagerDelegate
+- (void)~U;
 
 @optional
+- (void);
+- (void)locationManager:(CBPeripheralManager *)arg1 didFailRangingBeaconsForConstraint:(unsigned short)arg2 error:(NSError *)arg3;
 - (void)0@ù
 × ;
 - (void):(CBPeripheralManager *)arg1 %@;

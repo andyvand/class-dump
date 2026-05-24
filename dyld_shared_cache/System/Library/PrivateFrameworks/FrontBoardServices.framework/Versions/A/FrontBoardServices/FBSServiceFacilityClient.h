@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSServiceConnection, BSServiceConnectionEndpoint, BSServiceInterface, BSServiceQuality, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class BSServiceConnectionEndpoint;
 
 @interface FBSServiceFacilityClient
 {
     BSServiceConnectionEndpoint *_endpoint;
-    NSString *_facilityID;
-    BSServiceQuality *_serviceQuality;
-    BSServiceInterface *_interface;
-    id _configOnly_interfaceTarget;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    _Bool _configured;
-    struct os_unfair_lock_s _lock;
-    BSServiceConnection *_lock_connection;
-    _Bool _lock_connectionDenied;
-    _Bool _lock_activated;
-    _Bool _lock_invalidated;
-    _Bool _uisHack;
 }
 
 + (id);
@@ -29,7 +16,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)B;
 - (void);
 - (void);
 - (void);
@@ -39,15 +26,15 @@
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (void)podcastWithDictionary:(id)arg1 context:(long long)arg2;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)*;
 - (void);
 - (id);
+- (void)=U;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)"8;
 - (void);
 - (void);
 - (id);
@@ -55,17 +42,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *calloutQueue; // @synthesize calloutQueue=_calloutQueue;
 @property(readonly, nonatomic, getter=isConfigured) _Bool configured; // @synthesize configured=_configured;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) BSServiceQuality *serviceQuality; // @synthesize serviceQuality=_serviceQuality;
-@property(readonly) Class superclass;
 
 @end
 

@@ -10,19 +10,15 @@ __attribute__((visibility("hidden")))
 @interface GEOPDServerResultScoreMetadata
 {
     PBUnknownFields *_unknownFields;
-    float _normalizedScore;
-    struct {
-        unsigned int has_normalizedScore:1;
-    } _flags;
 }
 
 - (id);
-- (void);
+- (void)_classNames;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)a	;
 - (_Bool);
 - (id)dLimitText"b1"read_speedingCard"b1"wrote_anyField"b1};
-- (id)ppMajorVer;
+- (id)_requestingAppMajorVer;
 - (id)¼-;
 - (void);
 

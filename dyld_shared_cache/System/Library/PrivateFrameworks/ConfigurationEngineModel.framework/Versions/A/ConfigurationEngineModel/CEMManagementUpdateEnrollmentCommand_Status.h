@@ -12,10 +12,10 @@
 
 + (id);
 + (id);
++ (id)__objc_classname__TEXT;
 + (id);
-+ (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)ilityUtilities;
 
 @end
 

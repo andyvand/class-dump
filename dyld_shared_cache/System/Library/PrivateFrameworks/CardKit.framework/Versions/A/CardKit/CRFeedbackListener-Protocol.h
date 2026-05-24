@@ -5,5 +5,12 @@
 //
 
 @protocol CRFeedbackListener
+
+@optional
+- (void)dg;
+- (void);
+- (void)#;
+- (void)ӿ;
+- (void)/p;
 @end
 

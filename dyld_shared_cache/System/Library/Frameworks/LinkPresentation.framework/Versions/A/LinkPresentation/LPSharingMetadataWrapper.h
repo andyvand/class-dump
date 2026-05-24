@@ -9,16 +9,14 @@
 @interface LPSharingMetadataWrapper
 {
     _Bool _hasFetchedSubresources;
-    _Bool _hasCompletedFetch;
-    LPLinkMetadata *_metadata;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)@;
 - (id);
 - (void);
 - (id);
@@ -26,8 +24,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasCompletedFetch; // @synthesize hasCompletedFetch=_hasCompletedFetch;
-@property(nonatomic) _Bool hasFetchedSubresources; // @synthesize hasFetchedSubresources=_hasFetchedSubresources;
 @property(retain, nonatomic) LPLinkMetadata *metadata; // @synthesize metadata=_metadata;
 
 @end

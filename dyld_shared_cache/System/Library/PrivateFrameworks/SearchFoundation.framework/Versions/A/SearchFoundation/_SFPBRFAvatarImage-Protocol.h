@@ -7,10 +7,11 @@
 @class NSArray, NSData;
 
 @protocol _SFPBRFAvatarImage
+- (void)A;
+- (void);
+- (NSData *)tity;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *contact_ids;
-@property(nonatomic) int image_style;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

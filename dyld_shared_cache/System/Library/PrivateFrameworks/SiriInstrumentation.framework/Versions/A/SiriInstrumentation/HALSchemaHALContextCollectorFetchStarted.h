@@ -6,18 +6,13 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface HALSchemaHALContextCollectorFetchStarted : SISchemaInstrumentationMessage
 {
     _Bool _isContextCollectorLocal;
-    struct {
-        unsigned int isContextCollectorLocal:1;
-    } _has;
 }
 
 - (void);
-- (void);
+- (void)0;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -26,15 +21,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)initWithLocation:altitude:pitch:width:height:andCachingEnabled: /* Error: Ran out of types for this method. */;
 - (id)larDownloadRequested"b1"isfromFactory"b1};
 - (id)eType;
 - (id)¸@DG;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsContextCollectorLocal;
 @property(nonatomic) _Bool isContextCollectorLocal; // @synthesize isContextCollectorLocal=_isContextCollectorLocal;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

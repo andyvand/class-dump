@@ -7,20 +7,6 @@
 @interface NewsFeed.FormatPuzzleEmbedNode
 {
     id _identifier;
-    id contentFrameIdentifier;
-    id _size;
-    id resize;
-    id _adjustments;
-    id content;
-    id config;
-    id _zIndex;
-    id style;
-    id _visibility;
-    id _selectors;
-    id accessibilityRole;
-    id name;
-    id location;
-    id flex;
 }
 
 @end

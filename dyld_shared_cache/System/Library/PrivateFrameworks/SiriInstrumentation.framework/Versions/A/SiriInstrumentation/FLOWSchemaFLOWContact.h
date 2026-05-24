@@ -6,37 +6,30 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface FLOWSchemaFLOWContact : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    _Bool _isRelationship;
-    _Bool _isUnnamedPhoneNumber;
-    struct {
-        unsigned int isRelationship:1;
-        unsigned int isUnnamedPhoneNumber:1;
-    } _has;
-    _Bool _hasLinkId;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool){CGSize="width"d"height"d};
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)/Versions/A/SystemAdministration;
+- (id)48;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -48,12 +41,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsRelationship;
-@property(nonatomic) _Bool hasIsUnnamedPhoneNumber;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool isRelationship; // @synthesize isRelationship=_isRelationship;
-@property(nonatomic) _Bool isUnnamedPhoneNumber; // @synthesize isUnnamedPhoneNumber=_isUnnamedPhoneNumber;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
 
 @end

@@ -6,7 +6,7 @@
 
 #import <HomeKit/HMHomeWalletKeyDeviceState.h>
 
-@class HMHomeWalletKey, NSString;
+@class HMHomeWalletKey;
 
 @interface HMMutableHomeWalletKeyDeviceState : HMHomeWalletKeyDeviceState
 {
@@ -15,9 +15,6 @@
 - (id);
 
 // Remaining properties
-@property _Bool canAddWalletKey; // @dynamic canAddWalletKey;
-@property long long canAddWalletKeyErrorCode; // @dynamic canAddWalletKeyErrorCode;
-@property(copy) NSString *expressEnablementConflictingPassDescription; // @dynamic expressEnablementConflictingPassDescription;
 @property(copy) HMHomeWalletKey *walletKey; // @dynamic walletKey;
 
 @end

@@ -21,7 +21,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)t;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *statusInstalledConfigurations; // @synthesize statusInstalledConfigurations=_statusInstalledConfigurations;

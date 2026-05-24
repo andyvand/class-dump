@@ -6,17 +6,15 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSString;
-
 @interface INStartVideoCallIntentResponse : INIntentResponse
 {
 }
 
 + (int);
-+ (int);
-+ (long long);
-+ (_Bool);
-+ (_Bool);
++ (int)setAddition:(long long)arg1;
++ (long long)requestIsInvalidError;
++ (_Bool)removeCachedThumbnailsFromUninstalledFileProvidersWithIdentifiers:(long long)arg1 completionHandler: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (double);
 - (void);
 - (void);
@@ -25,23 +23,15 @@
 - (id);
 - (long long);
 - (id);
+- (id)sourceExtendedEventFieldIndex;
+- (id);
+- (void)ation=%{public}@, preferred=%{public}@);
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)loadCallRecordFilterAtIndex: /* Error: Ran out of types for this method. */;
+- (long long)payloadCallRecordFilterAtIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property double timeToEstablishCall;
 
 @end
 

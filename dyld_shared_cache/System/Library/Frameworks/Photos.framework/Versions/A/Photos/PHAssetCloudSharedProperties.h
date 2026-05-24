@@ -9,20 +9,18 @@
 @interface PHAssetCloudSharedProperties : PHAssetPropertySet
 {
     _Bool _cloudIsMyAsset;
-    _Bool _cloudHasCommentsByMe;
 }
 
 + (id);
 + (id);
-+ (id);
-+ (id)OptionImageCountKey;
++ (id)ificationsWithScanData;
++ (id)PHMemoryCurationAvailabilityOptionImageCountKey;
 + (id)à;
 - (_Bool);
 - (_Bool);
 - (id)lem/18103586 Invalid asset collection type (%lu) or subtype (%lu) with album kind:(id)arg1 %d, dict:(id)arg2 %@;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool cloudHasCommentsByMe; // @synthesize cloudHasCommentsByMe=_cloudHasCommentsByMe;
 @property(readonly, nonatomic) _Bool cloudIsMyAsset; // @synthesize cloudIsMyAsset=_cloudIsMyAsset;
 
 @end

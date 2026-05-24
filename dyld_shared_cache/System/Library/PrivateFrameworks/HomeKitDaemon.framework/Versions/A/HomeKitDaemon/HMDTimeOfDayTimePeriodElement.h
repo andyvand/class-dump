@@ -10,17 +10,16 @@ __attribute__((visibility("hidden")))
 @interface HMDTimeOfDayTimePeriodElement : HMDTimePeriodElement
 {
     unsigned long long _hour;
-    unsigned long long _minute;
 }
 
 + (id);
 + (_Bool)ÌôD|´ì$\¼ô,dÌ<d¼äD|¬Ü < l  ¼ ì !`!!Ì!"D""°"Ø";
 - (id);
-- (id);
-- (unsigned long long);
+- (id)iation %u timeout %d;
+- (unsigned long long)P;
 - (_Bool);
 - (void);
-- (id)e;
+- (id)ownerQueue;
 - (id)k access violation failed. No hapAccessory found.;
 - (id)art sync after that. [Auto Switch:(id)arg1 %@];
 - (id)%@) idsID %@, error %@;
@@ -29,7 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) unsigned long long hour; // @synthesize hour=_hour;
-@property(readonly) unsigned long long minute; // @synthesize minute=_minute;
 
 @end
 

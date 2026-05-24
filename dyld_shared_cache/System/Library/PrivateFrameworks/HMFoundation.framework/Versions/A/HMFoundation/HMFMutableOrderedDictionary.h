@@ -6,8 +6,6 @@
 
 #import <HMFoundation/HMFOrderedDictionary.h>
 
-@class NSArray;
-
 @interface HMFMutableOrderedDictionary : HMFOrderedDictionary
 {
 }
@@ -22,13 +20,11 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)egateOfAccessoryInvitationsUpdateForUser:(struct _NSZone *)arg1 ];
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSArray *allKeys;
-@property(readonly, copy) NSArray *allValues;
 @property(readonly) unsigned long long count;
 
 @end

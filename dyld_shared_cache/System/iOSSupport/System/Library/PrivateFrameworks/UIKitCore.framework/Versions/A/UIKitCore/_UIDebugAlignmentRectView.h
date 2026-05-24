@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     double _baselineOffset;
 }
 
-- (id);
+- (id)_submitCloudKitAnalyticWithOperationGroupName:(struct CGRect)arg1 analyticDictionary:(double)arg2;
 - (id);
 - (void);
 - (_Bool);

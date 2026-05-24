@@ -6,32 +6,28 @@
 
 #import <SpotlightServices/SSResultBuilder.h>
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface SSNewsResultBuilder : SSResultBuilder
 {
     NSDate *_publishedDate;
-    NSString *_title;
-    NSString *_newsSource;
 }
 
-+ (id);
++ (id)preferredFontDescriptorForTextStyle:(id)arg1 options:(id)arg2;
 + (_Bool);
-+ (id);
++ (id)B;
+- (void);
+- (id);
+- (id)setMaskImage: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
-- (void)score1:score2:usePommesScore:useLegacyScore: /* Error: Ran out of types for this method. */;
+- (void)getComparableL3Score:sectionMapping:bundleId1:bundleId2:score1:score2:usePommesScore:useLegacyScore: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *newsSource; // @synthesize newsSource=_newsSource;
 @property(retain, nonatomic) NSDate *publishedDate; // @synthesize publishedDate=_publishedDate;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

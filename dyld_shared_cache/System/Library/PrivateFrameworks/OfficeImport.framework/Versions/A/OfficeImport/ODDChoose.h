@@ -6,19 +6,18 @@
 
 #import <OfficeImport/ODDLayoutObject.h>
 
-@class NSMutableArray, ODDOtherwise;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface ODDChoose : ODDLayoutObject
 {
     NSMutableArray *mWhens;
-    ODDOtherwise *mOtherwise;
 }
 
-- (id);
+- (id)T;
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void)ä;

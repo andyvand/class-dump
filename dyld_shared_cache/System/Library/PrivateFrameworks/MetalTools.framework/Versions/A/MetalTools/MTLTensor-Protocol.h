@@ -8,15 +8,11 @@
 @protocol MTLBuffer;
 
 @protocol MTLTensor
+- (struct MTLResourceID)J;
+- (MTLTensorExtents *)@;
 - (id <MTLBuffer>)replaceRegion:mipmapLevel:slice:withBytes:bytesPerRow:bytesPerImage: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) id <MTLBuffer> buffer;
-@property(readonly) unsigned long long bufferOffset;
-@property(readonly) long long dataType;
-@property(readonly) MTLTensorExtents *dimensions;
 @property(readonly) struct MTLResourceID gpuResourceID;
-@property(readonly) MTLTensorExtents *strides;
-@property(readonly) unsigned long long usage;
 @end
 

@@ -20,8 +20,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSArray *availableJointNames;
-@property(readonly, copy) NSArray *availableJointsGroupNames;
-@property(readonly) long long chirality;
 
 @end
 

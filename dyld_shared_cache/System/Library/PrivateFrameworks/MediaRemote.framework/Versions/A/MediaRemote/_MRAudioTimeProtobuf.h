@@ -7,36 +7,28 @@
 @interface _MRAudioTimeProtobuf
 {
     double _sampleRate;
-    double _timestamp;
-    struct {
-        unsigned int sampleRate:1;
-        unsigned int timestamp:1;
-    } _has;
 }
 
 - (void);
 - (_Bool);
-- (void);
+- (void)to open file %@ - %{public}s.;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (double);
-- (_Bool);
-- (_Bool);
+- (double);
+- (_Bool)6@0:(id)arg1 8;
+- (_Bool)_unlockedRemoveIDFromCNIDToHandleIDsMap:withCNID: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)__objc_selrefs;
+- (id)nseEnabledForLanguage:] /* Error: Ran out of types for this method. */;
 - (double);
 
 // Remaining properties
-@property(nonatomic) _Bool hasSampleRate;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) double sampleRate; // @synthesize sampleRate=_sampleRate;
-@property(nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

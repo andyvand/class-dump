@@ -6,62 +6,41 @@
 
 #import <PassKitCore/PKAccountWebServiceRequest.h>
 
-@class CNPostalAddress, NSData, NSDecimalNumber, NSString, NSURL, PKApplePayTrustHashResponse;
+@class NSString, NSURL;
 
 @interface PKAccountWebServiceInstallmentAuthorizationRequest : PKAccountWebServiceRequest
 {
     NSURL *baseURL;
-    PKApplePayTrustHashResponse *hashResponse;
-    NSData *_publicKeyHash;
-    NSString *_accountIdentifier;
-    NSString *_bindToken;
-    NSDecimalNumber *_authorizationAmount;
-    NSString *_installmentGroupIdentifier;
-    CNPostalAddress *_shippingAddress;
 }
 
 + (_Bool)X"ð!ÄAùî%ð1Â0@ù
 × ;
 - (Class);
+- (void)ܗȒG9;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)=;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (id);
+- (id);
+- (id);
+- (id)@9	;
+- (void)_֍;
+- (id);
+- (id);
+- (id);
+- (void)(e;
 - (id)[%s] Car key source UI provider:No pass provided /* Error: Ran out of types for this method. */;
-- (void)or;
+- (void)NearbyPeerPaymentError;
 - (void);
 - (id)T/;
 - (void)jÁX;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(retain, nonatomic) NSDecimalNumber *authorizationAmount; // @synthesize authorizationAmount=_authorizationAmount;
-@property(retain, nonatomic) NSURL *baseURL; // @synthesize baseURL;
-@property(copy, nonatomic) NSString *bindToken; // @synthesize bindToken=_bindToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PKApplePayTrustHashResponse *hashResponse; // @synthesize hashResponse;
-@property(copy, nonatomic) NSString *installmentGroupIdentifier; // @synthesize installmentGroupIdentifier=_installmentGroupIdentifier;
-@property(copy, nonatomic) NSData *publicKeyHash; // @synthesize publicKeyHash=_publicKeyHash;
-@property(retain, nonatomic) CNPostalAddress *shippingAddress; // @synthesize shippingAddress=_shippingAddress;
-@property(readonly) Class superclass;
 
 @end
 

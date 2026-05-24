@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSMutableLazyPromise, NSLock, NSMutableArray, NSMutableDictionary;
+@class NSLock;
 
 __attribute__((visibility("hidden")))
 @interface AMSPurchaseBatch
 {
     _Bool _isComplete;
-    AMSMutableLazyPromise *_promise;
-    NSMutableArray *_purchases;
-    NSMutableDictionary *_purchaseMap;
-    NSMutableArray *_results;
-    NSLock *_lock;
-    NSMutableArray *_returnedPurchaseIDs;
 }
 
 - (id);
@@ -38,13 +32,7 @@ __attribute__((visibility("hidden")))
 w1ÎJã4W EÖLyÎè]	b«Ã×ZfmnÜ·hþcË©~G/±uê4¦ÇÆæí¿È4ýk²zqj!X×BIï(,;÷ù%ãµ´ÔÛC`~Ã»ä~±¬©Ìs¢Ú8ø³DÒl/J29S<¯<¤à5B0/.ÙwBí[é:d£oû|ÙîêÄuZ­@|Íg5ßúÂvdÈÓhç@&×^róê)à}w&	CÉ££þ¾üR;=¼)m¦³Ïü^Ü·ô /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property _Bool isComplete; // @synthesize isComplete=_isComplete;
 @property(retain) NSLock *lock; // @synthesize lock=_lock;
-@property(readonly) AMSMutableLazyPromise *promise; // @synthesize promise=_promise;
-@property(readonly) NSMutableDictionary *purchaseMap; // @synthesize purchaseMap=_purchaseMap;
-@property(readonly) NSMutableArray *purchases; // @synthesize purchases=_purchases;
-@property(readonly) NSMutableArray *results; // @synthesize results=_results;
-@property(readonly) NSMutableArray *returnedPurchaseIDs; // @synthesize returnedPurchaseIDs=_returnedPurchaseIDs;
 
 @end
 

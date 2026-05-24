@@ -5,5 +5,8 @@
 //
 
 @protocol NSTextStorageDelegate
+
+@optional
+- (void)!;
 @end
 

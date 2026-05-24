@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol UMLibInfoProviding, UMLibNotifyProviding;
+@class NSObject;
+@protocol UMLibInfoProviding;
 
 @interface UMSideEffects
 {
     NSObject<UMLibInfoProviding> *_libInfo;
-    NSObject<UMLibNotifyProviding> *_libNotify;
 }
 
 - (id);
@@ -20,15 +19,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<UMLibInfoProviding> *libInfo; // @synthesize libInfo=_libInfo;
-@property(retain, nonatomic) NSObject<UMLibNotifyProviding> *libNotify; // @synthesize libNotify=_libNotify;
-@property(readonly) Class superclass;
 
 @end
 

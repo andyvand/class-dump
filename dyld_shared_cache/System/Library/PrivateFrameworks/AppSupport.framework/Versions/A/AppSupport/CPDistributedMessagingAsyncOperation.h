@@ -4,28 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CPDistributedMessagingCenter, NSData, NSDictionary, NSError, NSString, NSThread;
+@class CPDistributedMessagingCenter;
 
 @interface CPDistributedMessagingAsyncOperation
 {
     CPDistributedMessagingCenter *_center;
-    NSString *_name;
-    NSData *_userInfoData;
-    NSString *_oolKey;
-    NSData *_oolData;
-    id _target;
-    SEL _selector;
-    void *_context;
-    _Bool _makeServer;
-    NSThread *_calloutThread;
-    NSDictionary *_reply;
-    NSError *_error;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void));
 - (void);
 
 @end

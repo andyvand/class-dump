@@ -4,31 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol AXKElementFilterStrategy, AXKElementTraversalStrategy;
+@protocol AXKElementTraversalStrategy;
 
 @interface AXKSearchManager
 {
     unsigned long long _searchStyle;
-    id <AXKElementFilterStrategy> _elementFilterStrategy;
-    id <AXKElementTraversalStrategy> __elementTraversalStrategy;
 }
 
 - (void);
 - (unsigned long long);
 - (id);
+- (id)(;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)T;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -37,12 +35,10 @@
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)setSelectionHighlightStyle: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) id <AXKElementTraversalStrategy> _elementTraversalStrategy; // @synthesize _elementTraversalStrategy=__elementTraversalStrategy;
-@property(readonly, nonatomic) id <AXKElementFilterStrategy> elementFilterStrategy; // @synthesize elementFilterStrategy=_elementFilterStrategy;
-@property(nonatomic) unsigned long long searchStyle; // @synthesize searchStyle=_searchStyle;
 
 @end
 

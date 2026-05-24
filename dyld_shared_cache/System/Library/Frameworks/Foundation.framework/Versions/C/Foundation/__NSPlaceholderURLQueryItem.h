@@ -13,9 +13,10 @@ __attribute__((visibility("hidden")))
 
 - (unsigned long long);
 - (oneway void);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)aryGetValue(...,%s) => NULL
+;
 
 @end
 

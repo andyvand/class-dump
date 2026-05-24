@@ -5,5 +5,6 @@
 //
 
 @protocol SMNRemoteProxy
+- (_Bool);
 @end
 

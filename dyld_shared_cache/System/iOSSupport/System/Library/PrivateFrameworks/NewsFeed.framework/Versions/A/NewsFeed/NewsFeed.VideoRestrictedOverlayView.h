@@ -7,13 +7,10 @@
 @interface NewsFeed.VideoRestrictedOverlayView
 {
     id liveIcon;
-    id label;
-    id blurEffectView;
-    id vibrancyEffectView;
 }
 
 - (id);
-- (void);
+- (void)eadWaitingToAcquireResource:] /* Error: Ran out of types for this method. */;
 - (id)
 × ;
 - (void);

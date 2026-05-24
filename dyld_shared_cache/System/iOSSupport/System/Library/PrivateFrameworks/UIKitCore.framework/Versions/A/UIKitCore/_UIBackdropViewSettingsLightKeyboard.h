@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
+- (_Bool)app, routing to %@;
 - (id);
-- (void):toNode:alongsideAnimations:completion: /* Error: Ran out of types for this method. */;
+- (void)navigateUpFromNode:toNode:alongsideAnimations:completion: /* Error: Ran out of types for this method. */;
 
 @end
 

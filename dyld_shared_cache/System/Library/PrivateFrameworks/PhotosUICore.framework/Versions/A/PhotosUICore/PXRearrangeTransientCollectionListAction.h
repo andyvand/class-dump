@@ -6,17 +6,11 @@
 
 #import <PhotosUICore/PXPhotosAction.h>
 
-@class PHObject;
 @protocol PXFastEnumeration;
 
 @interface PXRearrangeTransientCollectionListAction : PXPhotosAction
 {
     id <PXFastEnumeration> movedObjects;
-    PHObject *targetObject;
-    id undoOrderedMediaTypes;
-    id redoOrderedMediaTypes;
-    id undoOrderedUtilityTypes;
-    id redoOrderedUtilityTypes;
 }
 
 + (_Bool);
@@ -28,12 +22,11 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)	;
 - (void)®æ;
 
 // Remaining properties
 @property(nonatomic, retain) id <PXFastEnumeration> movedObjects; // @synthesize movedObjects;
-@property(nonatomic, retain) PHObject *targetObject; // @synthesize targetObject;
 
 @end
 

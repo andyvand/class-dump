@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @protocol MMCSOperationStateTimeRange
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly) double absoluteStart;
-@property(readonly) double absoluteStop;
-@property(readonly) double duration;
 @property(readonly) unsigned long long operationState;
-@property(readonly) NSDate *startDate;
 @end
 

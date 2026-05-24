@@ -7,7 +7,6 @@
 @interface NewsCore.FCFeedTransformationLowQualityContentFilter
 {
     id feedPersonalizer;
-    id scoreProfiles;
 }
 
 - (id);

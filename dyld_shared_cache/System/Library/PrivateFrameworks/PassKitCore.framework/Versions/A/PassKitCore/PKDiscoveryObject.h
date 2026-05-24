@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKDiscoveryRelevantDateRange, PKHardwareVersionRange, PKOSVersionRequirementRange;
+@class NSString;
 
 @interface PKDiscoveryObject
 {
     NSString *_identifier;
-    long long _version;
-    NSString *_ruleIdentifier;
-    NSString *_triggerRuleIdentifier;
-    PKOSVersionRequirementRange *_osVersionRange;
-    PKHardwareVersionRange *_hardwareVersionRange;
-    PKDiscoveryRelevantDateRange *_relevantDateRange;
-    long long _maxViewCount;
-    long long _maxViewCountLargeCard;
-    long long _status;
-    long long _viewCount;
 }
 
 + (id);
@@ -27,17 +17,17 @@
 - (void);
 - (_Bool);
 - (void);
+- (id)R_!Ց";
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)k;
+- (void)̗hO9;
+- (void);
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (long long);
@@ -46,13 +36,13 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (long long);
+- (long long)i;
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)B;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)hasTxassocreq;
 - (void);
 - (void);
 - (void);
@@ -60,21 +50,11 @@
 - (long long);
 - (id)áW"ð!Dùqî%Ð1Â0@ù
 × ;
-- (id);
-- (void)teTransitTypes;
+- (id)_resolved;
+- (void)enrouteTransitTypes;
 
 // Remaining properties
-@property(retain, nonatomic) PKHardwareVersionRange *hardwareVersionRange; // @synthesize hardwareVersionRange=_hardwareVersionRange;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) long long maxViewCount; // @synthesize maxViewCount=_maxViewCount;
-@property(nonatomic) long long maxViewCountLargeCard; // @synthesize maxViewCountLargeCard=_maxViewCountLargeCard;
-@property(retain, nonatomic) PKOSVersionRequirementRange *osVersionRange; // @synthesize osVersionRange=_osVersionRange;
-@property(retain, nonatomic) PKDiscoveryRelevantDateRange *relevantDateRange; // @synthesize relevantDateRange=_relevantDateRange;
-@property(copy, nonatomic) NSString *ruleIdentifier; // @synthesize ruleIdentifier=_ruleIdentifier;
-@property(nonatomic) long long status; // @synthesize status=_status;
-@property(copy, nonatomic) NSString *triggerRuleIdentifier; // @synthesize triggerRuleIdentifier=_triggerRuleIdentifier;
-@property(nonatomic) long long version; // @synthesize version=_version;
-@property(nonatomic) long long viewCount; // @synthesize viewCount=_viewCount;
 
 @end
 

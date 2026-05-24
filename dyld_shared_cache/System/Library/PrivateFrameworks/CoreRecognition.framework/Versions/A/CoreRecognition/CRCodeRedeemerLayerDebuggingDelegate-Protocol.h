@@ -5,5 +5,6 @@
 //
 
 @protocol CRCodeRedeemerLayerDebuggingDelegate
+- (void);
 @end
 

@@ -4,56 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _UINavigationBarLargeTitleViewLayout;
+@class _UINavigationBarLargeTitleViewLayout;
 
 @interface UIKit.NavigationBarTransitionContext
 {
     id stack;
-    id fromLayout;
-    id toLayout;
-    id twoPartAnimationBaseDuration;
-    id twoPartAnimationOverlapDuration;
-    id clippingViews;
-    id fromLargeTitleLayout;
-    id toLargeTitleLayout;
-    id largeTitleTransitionType;
-    id completionHandler;
-    id navigationBar;
-    id isPushOperation;
-    id compact;
-    id usesBarBackground;
-    id allowLargeTitles;
-    id twoPart;
-    id apiVersion;
-    id backgroundAlpha;
-    id promptView;
-    id contentView;
-    id backgroundView;
-    id largeTitleView;
-    id tabBarHostedView;
-    id beginWithLargeTitle;
-    id endWithLargeTitle;
-    id beginWithTransparencyAllowed;
-    id endWithTransparencyAllowed;
-    id startingContentOffsetForObservedScrollView;
-    id observedScrollViewOffsetIsApplicable;
-    id sharesContentViewLayouts;
-    id transitionOverlayView;
-    id transition;
 }
 
 - (void);
+- (id)setDelegatedUserIdentity: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void)t;
+- (void)extendedHoursFormat;
 - (id);
 - (id)«ÑþqÏ´ d;
 - (void)hl;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
 @property(nonatomic, retain) _UINavigationBarLargeTitleViewLayout *fromLargeTitleViewLayout;
-@property(nonatomic, retain) _UINavigationBarLargeTitleViewLayout *toLargeTitleViewLayout;
 
 @end
 

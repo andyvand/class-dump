@@ -12,23 +12,20 @@ __attribute__((visibility("hidden")))
 @interface MPStoreLibraryPersonalizationRequestOperation : MPAsyncOperation
 {
     NSOperationQueue *_operationQueue;
-    MPStoreLibraryPersonalizationRequest *_request;
-    CDUnknownBlockType _responseHandler;
 }
 
-+ (id);
++ (id)svfopCurrentSchema;
 + (id);
 - (CDUnknownBlockType);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)meOfEntity:withDefaultValue: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void)_adjustedItemPropertySeasonNameOfEntity:withDefaultValue: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) MPStoreLibraryPersonalizationRequest *request; // @synthesize request=_request;
-@property(copy, nonatomic) CDUnknownBlockType responseHandler; // @synthesize responseHandler=_responseHandler;
 
 @end
 

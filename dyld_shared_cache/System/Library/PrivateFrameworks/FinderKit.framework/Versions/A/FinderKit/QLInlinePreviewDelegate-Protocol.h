@@ -5,5 +5,9 @@
 //
 
 @protocol QLInlinePreviewDelegate
+- (struct CGRect)T;
+
+@optional
+- (void);
 @end
 

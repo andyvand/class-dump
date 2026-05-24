@@ -8,13 +8,12 @@ __attribute__((visibility("hidden")))
 @interface VNImageBufferCache
 {
     struct __CFDictionary *_pixelBufferReps;
-    struct os_unfair_lock_s _pixelBufferRepsLock;
 }
 
-+ (id);
++ (id)r=%@;
 + (id);
 - (struct __CVBuffer *);
-- (void);
+- (void)�;
 - (void);
 - (void);
 - (id);

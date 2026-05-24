@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNUnfairLock;
-
 @interface CNStringTokenizer
 {
     struct __CFStringTokenizer *_tokenizer;
-    CNUnfairLock *_lock;
 }
 
 + (_Bool);
@@ -20,13 +17,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)setDeactivated:(id)arg1;
+- (id)setMemojiMetadata: /* Error: Ran out of types for this method. */;
 - (void);
-- (struct __CFStringTokenizer *)s:error: /* Error: Ran out of types for this method. */;
+- (struct __CFStringTokenizer *)contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CNUnfairLock *lock; // @synthesize lock=_lock;
 @property(readonly, nonatomic) struct __CFStringTokenizer *tokenizer; // @synthesize tokenizer=_tokenizer;
 
 @end

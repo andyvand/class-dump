@@ -5,31 +5,19 @@
 //
 
 @class UIView;
-@protocol _UIDismissInteractionDelegate;
 
 @interface _UIDismissInteraction
 {
     id _view;
-    void delegate;
-    _Bool isEnabled;
-    unsigned long long styles;
-    id subInteractions;
-    id trackingView;
-    id _isActive;
-    id trackingViewDidBecomeVisible;
-    id originalTrackingViewPosition;
-    id originalTouchPosition;
-    id touchAdjustment;
-    id translation;
 }
 
 - (void);
-- (id);
+- (id)M;
 - (id);
 - (_Bool)0@ù
 × ;
 - (_Bool)eViewCell"16;
-- (void)sBarHiddenForInterfaceOrientation:(id)arg1 onDisplay:withUserInterfaceIdiom: /* Error: Ran out of types for this method. */;
+- (void)statusBarHiddenForInterfaceOrientation:(id)arg1 onDisplay:withUserInterfaceIdiom: /* Error: Ran out of types for this method. */;
 - (unsigned long long)",W,N,V_selectionView;
 - (id)ücäe(f;
 - (void)PµþÿÁþÿ;
@@ -38,10 +26,6 @@
 - (void)$;
 
 // Remaining properties
-@property(nonatomic) __weak id <_UIDismissInteractionDelegate> delegate; // @synthesize delegate;
-@property(nonatomic, readonly) _Bool isActive;
-@property(nonatomic) _Bool isEnabled; // @synthesize isEnabled;
-@property(nonatomic) unsigned long long styles; // @synthesize styles;
 @property(nonatomic, readonly) UIView *view;
 
 @end

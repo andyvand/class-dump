@@ -4,28 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIImage;
+@class UIImage;
 
 @interface AVTAvatarAttributeEditorSectionItem
 {
     _Bool _selected;
-    NSString *_identifier;
-    NSString *_localizedName;
-    CDUnknownBlockType _avatarUpdater;
-    CDUnknownBlockType _thumbnailProvider;
-    CDUnknownBlockType _presetResourcesProvider;
-    CDUnknownBlockType _stickerResourceProvider;
-    CDUnknownBlockType discardableContentHandler;
-    UIImage *_cachedThumbnail;
-    double _heightRatio;
 }
 
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
+- (CDUnknownBlockType)P;
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (id);
+- (id);
 - (id);
 - (double);
 - (CDUnknownBlockType);
@@ -41,24 +32,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) CDUnknownBlockType avatarUpdater; // @synthesize avatarUpdater=_avatarUpdater;
 @property(retain, nonatomic) UIImage *cachedThumbnail; // @synthesize cachedThumbnail=_cachedThumbnail;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType discardableContentHandler; // @synthesize discardableContentHandler;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double heightRatio; // @synthesize heightRatio=_heightRatio;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy, nonatomic) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(readonly, copy, nonatomic) NSString *prefetchingIdentifier;
-@property(readonly, copy, nonatomic) CDUnknownBlockType presetResourcesProvider; // @synthesize presetResourcesProvider=_presetResourcesProvider;
-@property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
-@property(readonly, copy, nonatomic) CDUnknownBlockType stickerResourceProvider; // @synthesize stickerResourceProvider=_stickerResourceProvider;
-@property(readonly) Class superclass;
-@property(readonly, copy, nonatomic) CDUnknownBlockType thumbnailProvider; // @synthesize thumbnailProvider=_thumbnailProvider;
 
 @end
 

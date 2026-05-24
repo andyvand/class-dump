@@ -6,29 +6,27 @@
 
 #import <HomeKitDaemon/HMDAccessory.h>
 
-@class HMDMediaAccessoryAdvertisement, HMDMediaProfile, NSDictionary, NSNotificationCenter, NSString;
+@class HMDMediaAccessoryAdvertisement, NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaAccessory : HMDAccessory
 {
     HMDMediaAccessoryAdvertisement *_advertisement;
-    HMDMediaProfile *_mediaProfile;
-    NSNotificationCenter *_notificationCenter;
 }
 
-+ (id);
++ (id)defaultGraphExportFullPath;
 + (_Bool)`ÎTÑ;
 - (id);
 - (id);
 - (unsigned long long);
+- (void)ib;
+- (void)storageController;
+- (void)sharedPlatform;
+- (_Bool)isPhoneNumber;
+- (void)_identifierToTextMessageStatus;
+- (id)s access] %{private}@ (id %@ state %@);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -41,7 +39,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)connectionFailedReason;
 - (id);
 - (id);
 - (void);
@@ -49,24 +47,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void)@;
-- (void)r;
+- (void)messageRouter;
 - (id);
 - (id)@>;
 - (void);
 - (void) ÿ;
 
 // Remaining properties
-@property(readonly, copy) HMDMediaAccessoryAdvertisement *advertisement; // @synthesize advertisement=_advertisement;
-@property(readonly, copy) NSDictionary *assistantObject;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMDMediaProfile *mediaProfile; // @synthesize mediaProfile=_mediaProfile;
-@property(retain) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly) Class superclass;
 @property(readonly, copy) NSString *urlString;
 
 @end

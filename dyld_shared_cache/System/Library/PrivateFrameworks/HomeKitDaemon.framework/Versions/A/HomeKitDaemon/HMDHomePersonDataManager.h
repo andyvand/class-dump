@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHome, HMDHomePersonManager, NSObject, NSString, NSUUID;
+@class HMDHomePersonManager, NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface HMDHomePersonDataManager
 {
     HMDHomePersonManager *_personManager;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSUUID *_homeUUID;
-    HMDHome *_home;
-    CDUnknownBlockType _personManagerFactory;
 }
 
 + (id){]ÿç;
 - (id);
 - (void);
-- (void);
-- (CDUnknownBlockType);
+- (void)canControlReceiving;
+- (CDUnknownBlockType)captureUserAction:target:value: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void);;
 - (void);
 - (void);
 - (void);
@@ -37,27 +33,11 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)ry home setting %@, primaryHome.isOwnerUser = %@;
 - (void);
-- (void)viceAreaMessageMapsKey;
+- (void)HMDRVCServiceAreaMessageMapsKey;
 - (id)Ù
 4Ó?;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property __weak HMDHome *home; // @synthesize home=_home;
-@property(readonly, copy) NSUUID *homeUUID; // @synthesize homeUUID=_homeUUID;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *messageReceiveQueue;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSObject<OS_dispatch_queue>",?,R,&,N
-
-@property(readonly, nonatomic) NSUUID *messageTargetUUID;
-@property(retain) HMDHomePersonManager *personManager; // @synthesize personManager=_personManager;
-@property(copy) CDUnknownBlockType personManagerFactory; // @synthesize personManagerFactory=_personManagerFactory;
-@property(readonly) Class superclass;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

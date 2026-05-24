@@ -14,19 +14,17 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id);
+- (float)_rightContextTokens;
+- (long long)d;
+- (id)_EARVisualContextMetrics;
 - (float);
-- (long long);
-- (id);
-- (float);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (id);
 - (id)er: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) float endVolume;
-@property(readonly) long long rampMode;
 @property(readonly) float startVolume;
 
 @end

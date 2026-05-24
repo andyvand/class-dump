@@ -9,7 +9,6 @@
 @interface SIRINLURRGroupIdentifier
 {
     int _seq;
-    NSString *_groupId;
 }
 
 + (_Bool);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *groupId; // @synthesize groupId=_groupId;
-@property int seq; // @synthesize seq=_seq;
 
 @end
 

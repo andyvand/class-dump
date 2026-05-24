@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol TSSThemeAsset;
+
 @protocol TSSThemeAsset
+- (_Bool)be ended - category:(id <TSSThemeAsset>)arg1;
+
+@optional
+- (SEL)EnableTransitionTeardownCompletionHandler;
+- (SEL)read: /* Error: Ran out of types for this method. */;
+- (SEL)arting building audio mixes (main thread: /* Error: Ran out of types for this method. */;
+- (SEL)etup - clearing transition data;
 @end
 

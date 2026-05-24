@@ -9,15 +9,13 @@
 @interface AKDeviceSafetyRestrictionState
 {
     NSString *_machineId;
-    NSString *_serialNumber;
-    long long _reason;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (long long);
-- (id);
+- (id)H;
 - (id);
 - (id);
 - (void);
@@ -26,8 +24,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *machineId; // @synthesize machineId=_machineId;
-@property(readonly, nonatomic) long long reason; // @synthesize reason=_reason;
-@property(readonly, copy, nonatomic) NSString *serialNumber; // @synthesize serialNumber=_serialNumber;
 
 @end
 

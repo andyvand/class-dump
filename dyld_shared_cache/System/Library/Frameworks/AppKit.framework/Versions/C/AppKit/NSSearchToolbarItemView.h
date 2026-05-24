@@ -6,53 +6,37 @@
 
 #import <AppKit/NSView.h>
 
-@class CABasicAnimation, NSButton, NSLayoutConstraint, NSSearchToolbarItem, NSString;
-@protocol NSObject, _NSBridgedSearchField;
+@class NSSearchToolbarItem;
+@protocol _NSBridgedSearchField;
 
 __attribute__((visibility("hidden")))
 @interface NSSearchToolbarItemView : NSView
 {
     NSSearchToolbarItem *_searchToolbarItem;
-    struct CGSize _minimumCollapsedSize;
-    struct CGSize _minimumExpandedSize;
-    NSLayoutConstraint *_minWidthConstraint;
-    NSLayoutConstraint *_heightConstraint;
-    CABasicAnimation *_minWidthConstraintAnimation;
-    NSView<_NSBridgedSearchField> *_searchField;
-    NSButton *_searchButton;
-    _Bool _enabled;
-    _Bool _expanded;
-    _Bool _cachedSizeValid;
-    _Bool _keyFocusAfterAnimation;
-    _Bool _animatingForMinWidthConstraint;
-    unsigned long long _toolbarControlSize;
-    double maxWindowWidthInLiveResize;
-    id <NSObject> _windowResizeObserver;
-    _Bool _usesPreferredWidth;
 }
 
-- (void);
-- (void);
+- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)7;
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (double);
-- (_Bool);
-- (void);
+- (double)_count}};
+- (_Bool)setIgnoreHTTPOnlyCookie: /* Error: Ran out of types for this method. */;
+- (void)_responseBeginTime;
 - (void);
 - (struct CGSize);
 - (struct CGSize);
 - (struct CGSize);
 - (void);
-- (_Bool);
+- (_Bool)rotocol_definition>"8Q16Q24;
 - (void);
 - (_Bool);
 - (struct CGSize);
@@ -61,7 +45,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)";
 - (_Bool);
 - (void);
 - (void);
@@ -72,20 +56,7 @@ __attribute__((visibility("hidden")))
 - (void)TuÿáNPÖD;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(getter=isEnabled) _Bool enabled;
-@property(getter=isExpanded) _Bool expanded; // @dynamic expanded;
-@property(readonly) _Bool forcesExpanded; // @dynamic forcesExpanded;
-@property(readonly) unsigned long long hash;
-@property(retain) NSButton *searchButton; // @synthesize searchButton=_searchButton;
 @property(retain) NSView<_NSBridgedSearchField> *searchField; // @synthesize searchField=_searchField;
-@property(readonly) _Bool shouldBeExpanded; // @dynamic shouldBeExpanded;
-@property(readonly) Class superclass;
-@property _Bool usesPreferredWidth; // @synthesize usesPreferredWidth=_usesPreferredWidth;
 
 @end
 

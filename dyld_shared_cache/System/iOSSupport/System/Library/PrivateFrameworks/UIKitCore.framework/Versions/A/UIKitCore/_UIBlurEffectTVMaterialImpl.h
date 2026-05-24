@@ -16,13 +16,13 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (long long);
-- (id);
+- (long long)0;
+- (id)_loadedContentItemsRange;
 - (unsigned long long);
 - (_Bool)
 × ;
-- (_Bool)essDelay:(id)arg1;
-- (void)ansition:(id)arg1 willBeDisplayed: /* Error: Ran out of types for this method. */;
+- (_Bool)setResponsivenessDelay:(id)arg1;
+- (void)performTransition:(id)arg1 willBeDisplayed: /* Error: Ran out of types for this method. */;
 - (id),N,V_valueLabel;
 - (void)elegate:(id)arg1 ,V__delegate;
 - (_Bool)Class %@ is missing proper implementation of drawingFindIndicator.;

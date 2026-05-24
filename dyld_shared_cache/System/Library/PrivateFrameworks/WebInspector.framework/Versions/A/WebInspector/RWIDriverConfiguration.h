@@ -9,23 +9,18 @@
 @interface RWIDriverConfiguration
 {
     NSString *_driverIdentifier;
-    NSString *_driverName;
-    NSString *_driverVersion;
-    NSString *_driverHost;
-    long long _driverPort;
-    long long _driverBidiPort;
 }
 
-+ (id);
++ (id)!;
 + (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)h;
 - (long long);
-- (id);
-- (id);
+- (id);
+- (id);
 - (long long);
 - (id);
 - (id);
@@ -36,12 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long driverBidiPort; // @synthesize driverBidiPort=_driverBidiPort;
-@property(copy, nonatomic) NSString *driverHost; // @synthesize driverHost=_driverHost;
 @property(copy, nonatomic) NSString *driverIdentifier; // @synthesize driverIdentifier=_driverIdentifier;
-@property(copy, nonatomic) NSString *driverName; // @synthesize driverName=_driverName;
-@property(nonatomic) long long driverPort; // @synthesize driverPort=_driverPort;
-@property(copy, nonatomic) NSString *driverVersion; // @synthesize driverVersion=_driverVersion;
 
 @end
 

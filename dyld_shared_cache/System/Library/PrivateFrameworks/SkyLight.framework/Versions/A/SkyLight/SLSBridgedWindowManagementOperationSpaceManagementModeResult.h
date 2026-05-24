@@ -11,10 +11,10 @@
     unsigned long long _spaceManagementMode;
 }
 
-+ (_Bool);
-- (unsigned long long);
-- (id);
-- (id);
++ (_Bool)?;
+- (unsigned long long)oredata.cloudkit.queue;
+- (id)d from the coordinator.;
+- (id);
 - (void);
 
 // Remaining properties

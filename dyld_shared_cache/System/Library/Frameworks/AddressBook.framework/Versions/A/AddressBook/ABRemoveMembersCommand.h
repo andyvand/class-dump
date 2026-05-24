@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAddressBook, NSArray, NSString;
+@class NSString;
 
 @interface ABRemoveMembersCommand
 {
     NSString *_groupIdentifier;
-    NSArray *_memberIdentifiers;
-    ABAddressBook *_addressBook;
-    _Bool ignoresGuardianRestrictions;
 }
 
 - (id);

@@ -4,31 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PKPassShareTimeConfiguration;
+@class PKPassShareTimeConfiguration;
 
 @protocol PKPassEntitlementsComposerView
-- (unsigned long long)vateBundle: /* Error: Ran out of types for this method. */;
-- (_Bool)odeServerDataWithCloudStoreCoder: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)	;
+- (PKPassShareTimeConfiguration *)T;
+- (unsigned long long)initWithDictionary:allowedRows:bundle:privateBundle: /* Error: Ran out of types for this method. */;
+- (_Bool)_encodeServerDataWithCloudStoreCoder: /* Error: Ran out of types for this method. */;
 - (void)sent.activating;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allPossibleCapabilitySets;
-@property(readonly, nonatomic) NSArray *allPossibleManageability;
-@property(readonly, nonatomic) NSArray *allPossibleShareability;
-@property(readonly, nonatomic) NSArray *allPossibleVisibility;
-@property(nonatomic) _Bool enabled;
-@property(nonatomic) _Bool intraAccountSharingEnabled;
-@property(nonatomic) _Bool isManagingEntitlementConfiguration;
-@property(nonatomic) _Bool isManagingTimeConfiguration;
-@property(nonatomic) unsigned long long manageability;
-@property(readonly, nonatomic) unsigned long long maxSelectionCount;
-@property(readonly, nonatomic) _Bool possibleIntraAccountSharing;
-@property(readonly, nonatomic) unsigned long long possibleManageability;
 @property(readonly, nonatomic) unsigned long long possibleShareability;
-@property(readonly, nonatomic) PKPassShareTimeConfiguration *possibleTimeConfiguration;
-@property(readonly, nonatomic) unsigned long long possibleVisibility;
-@property(nonatomic) unsigned long long shareability;
-@property(retain, nonatomic) PKPassShareTimeConfiguration *timeConfiguration;
-@property(nonatomic) unsigned long long visibility;
 @end
 

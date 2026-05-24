@@ -6,7 +6,6 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSDate, NSNumber, NSString, SALocation;
 @protocol SASTTemplateAction;
 
 @interface SASTMapViewItem : AceObject
@@ -30,17 +29,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <SASTTemplateAction> action; // @dynamic action;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *extSessionGuid;
-@property(copy, nonatomic) NSDate *extSessionGuidCreatedTimestamp;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SALocation *location;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSNumber *zoomLevel;
 
 @end
 

@@ -9,26 +9,20 @@
 @interface TDColorProperty : TDProperty
 {
     float _red;
-    float _green;
-    float _blue;
-    float _alpha;
 }
 
 - (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (float);
-- (float);
+- (float)calDatabaseInitOptionsFromEKEventStoreInitOptions: /* Error: Ran out of types for this method. */;
+- (float)to archive instance for recent:%@ /* Error: Ran out of types for this method. */;
 - (float);
 - (float);
 
 // Remaining properties
-@property(nonatomic) float alpha;
-@property(nonatomic) float blue;
-@property(nonatomic) float green;
 @property(nonatomic) float red;
 
 @end

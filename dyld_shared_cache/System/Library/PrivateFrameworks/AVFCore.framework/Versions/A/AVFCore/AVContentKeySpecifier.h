@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString;
+@class NSData, NSString;
 
 @interface AVContentKeySpecifier
 {
     NSString *_keySystem;
-    id _identifier;
-    NSDictionary *_options;
-    NSData *_initializationData;
 }
 
 + (id);
@@ -19,17 +16,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)TY@YT[d;
 - (void);
 - (id);
-- (id);
+- (id)@;
 - (id);
 
 // Remaining properties
-@property(readonly) id identifier; // @synthesize identifier=_identifier;
 @property(readonly) NSData *initializationData;
-@property(readonly) NSString *keySystem; // @synthesize keySystem=_keySystem;
-@property(readonly) NSDictionary *options; // @synthesize options=_options;
 
 @end
 

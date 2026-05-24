@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIViewController;
+@class UIViewController;
 
 @interface SXViewControllerPresentingManager
 {
@@ -21,14 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) UIViewController *controller;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak UIViewController *presentingViewController; // @synthesize presentingViewController=_presentingViewController;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HIDElement, NSArray, NSData;
+@class HIDElement;
 
 @interface UnknownClass (HIDFramework)
 - (void);
@@ -18,7 +18,7 @@
 - (long long);
 - (long long);
 - (unsigned int);
-- (void);
+- (void);
 - (id);
 - (id);
 - (unsigned long long);
@@ -32,21 +32,6 @@
 - (id)I48I52;
 
 // Remaining properties
-@property(readonly) NSArray *children;
-@property NSData *dataValue;
-@property long long integerValue;
-@property(readonly) long long logicalMax;
-@property(readonly) long long logicalMin;
 @property(readonly) HIDElement *parent;
-@property(readonly) long long physicalMax;
-@property(readonly) long long physicalMin;
-@property(readonly) long long reportID;
-@property(readonly) long long reportSize;
-@property(readonly) unsigned long long timestamp;
-@property(readonly) long long type;
-@property(readonly) long long unit;
-@property(readonly) long long unitExponent;
-@property(readonly) long long usage;
-@property(readonly) long long usagePage;
 @end
 

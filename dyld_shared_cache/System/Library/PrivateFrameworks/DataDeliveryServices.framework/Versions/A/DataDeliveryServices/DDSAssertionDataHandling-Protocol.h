@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol DDSAssertionDataHandling
+- (void)setHasDatapackVersion:(NSArray *)arg1;
+- (NSArray *)setHasCurrentTaskName: /* Error: Ran out of types for this method. */;
 @end
 

@@ -7,10 +7,6 @@
 @interface StoreKit.PurchaseIntentListener
 {
     id $defaultActor;
-    id clientOverride;
-    id lastUpdated;
-    id updateTask;
-    id stream;
 }
 
 @end

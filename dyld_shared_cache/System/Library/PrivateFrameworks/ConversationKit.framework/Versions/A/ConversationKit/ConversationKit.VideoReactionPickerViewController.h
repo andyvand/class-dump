@@ -9,12 +9,11 @@
 @interface ConversationKit.VideoReactionPickerViewController : PlatformViewController
 {
     id model;
-    id reactionPickerBubble;
 }
 
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void)/Cÿÿ;
 

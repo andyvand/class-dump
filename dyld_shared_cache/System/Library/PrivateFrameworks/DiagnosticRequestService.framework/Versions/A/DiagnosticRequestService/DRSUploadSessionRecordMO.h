@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)layoutContextInstance;
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *sessionDate; // @dynamic sessionDate;

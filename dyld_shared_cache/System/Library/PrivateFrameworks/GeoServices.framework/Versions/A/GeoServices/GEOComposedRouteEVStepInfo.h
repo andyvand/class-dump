@@ -7,21 +7,19 @@
 @interface GEOComposedRouteEVStepInfo
 {
     unsigned int _remainingBatteryPercentage;
-    unsigned int _remainingBatteryCharge;
 }
 
 + (_Bool)elete temp file at "%@":%@ /* Error: Ran out of types for this method. */;
 - (unsigned int);
 - (unsigned int);
+- (id)currentEnvironment;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)tener dealloc];
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int remainingBatteryCharge; // @synthesize remainingBatteryCharge=_remainingBatteryCharge;
-@property(readonly, nonatomic) unsigned int remainingBatteryPercentage; // @synthesize remainingBatteryPercentage=_remainingBatteryPercentage;
 
 @end
 

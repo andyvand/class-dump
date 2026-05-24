@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SGDuplicateKey, SGStorageLocation;
+@class SGDuplicateKey;
 
 @interface SGStorageReminder
 {
     SGDuplicateKey *_duplicateKey;
-    SGStorageLocation *_dueStorageLocation;
-    NSString *_sourceKey;
 }
 
 + (id);
@@ -27,14 +25,12 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)chdAxisFromXmlAxisElement:state: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void)N,V_N;
 
 // Remaining properties
-@property(readonly, nonatomic) SGStorageLocation *dueStorageLocation; // @synthesize dueStorageLocation=_dueStorageLocation;
 @property(readonly, nonatomic) SGDuplicateKey *duplicateKey; // @synthesize duplicateKey=_duplicateKey;
-@property(readonly, nonatomic) NSString *sourceKey; // @synthesize sourceKey=_sourceKey;
 
 @end
 

@@ -13,12 +13,12 @@ __attribute__((visibility("hidden")))
 
 - (unsigned long long);
 - (struct CGSize);
-- (long long);
+- (long long)__DATA_CONST;
 - (id);
-- (CDStruct_83cd8af5);
+- (CDStruct_d2b197d1)__objc_methtype;
 - (id);
 - (long long);
-- (double);
+- (double)accountIDs.count > 1) -- Unexpectedly fetched more than 1 primary active cloudkit account REMObjectID {count:%@} /* Error: Ran out of types for this method. */;
 
 @end
 

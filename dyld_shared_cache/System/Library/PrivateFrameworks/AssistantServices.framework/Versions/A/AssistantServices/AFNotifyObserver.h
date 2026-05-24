@@ -5,26 +5,17 @@
 //
 
 @class NSObject, NSString;
-@protocol AFNotifyObserverDelegate, OS_dispatch_queue;
+@protocol OS_dispatch_queue;
 
 @interface AFNotifyObserver
 {
     NSObject<OS_dispatch_queue> *_queue;
-    unsigned long long _options;
-    id <AFNotifyObserverDelegate> _delegate;
-    int _registrationToken;
-    struct _flags {
-        unsigned int delegateRespondsToDidReceiveNotificationWithToken:1;
-        unsigned int delegateRespondsToDidChangeStateFromTo:1;
-    } _flags;
-    unsigned long long _state;
-    NSString *_name;
 }
 
 - (void);
+- (void)nt:'%@';  /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (id)`";
 - (id);
 - (void);
 - (void);
@@ -35,15 +26,7 @@
 - (void)cipationsForUserFeedback;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) unsigned long long state;
-@property(readonly) Class superclass;
 
 @end
 

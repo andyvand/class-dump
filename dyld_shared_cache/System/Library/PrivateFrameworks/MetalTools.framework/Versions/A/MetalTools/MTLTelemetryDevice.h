@@ -7,55 +7,11 @@
 #import <MetalTools/MTLToolsDevice.h>
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_os_log;
+@protocol OS_os_log;
 
 @interface MTLTelemetryDevice : MTLToolsDevice
 {
     struct MTLTelemetryCommandBufferCounttRec *commandBufferDistribution;
-    struct MTLTelemetryEncoderDistributionRec *encoderDistribution;
-    struct MTLTelemetryStatisticUIRec *parallellRenderEncoderDistribution;
-    struct MTLTelemetryStatisticUIRec *attachmentCount;
-    struct MTLTelemetryStatisticUIRec *textureBindCount;
-    struct MTLTelemetryStatisticUIRec *renderTargetArrayLengthDistribution;
-    struct MTLTelemetryViewportDistributionRec *viewportDistribution;
-    struct MTLTelemetryScissorRectDistributionRec *scissorRectDistribution;
-    struct unordered_map<MTLPixelFormat, MTLTelemetryRenderTargetDistribution, std::hash<unsigned long long>, std::equal_to<MTLPixelFormat>, std::allocator<std::pair<const MTLPixelFormat, MTLTelemetryRenderTargetDistribution>>> renderTargetMap;
-    struct MTLTelemetryBufferDistributionRec *bufferDistribution;
-    struct unordered_map<MTLPixelFormat, MTLTelemetryTextureDistribution, std::hash<unsigned long long>, std::equal_to<MTLPixelFormat>, std::allocator<std::pair<const MTLPixelFormat, MTLTelemetryTextureDistribution>>> textureMap;
-    struct MTLTelemetrySamplerDistributionRec *samplerDistribution;
-    struct unordered_map<unsigned int, MTLTelemetryRenderPipelineUsageRec, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<const unsigned int, MTLTelemetryRenderPipelineUsageRec>>> renderPipeUsageMap;
-    struct unordered_map<unsigned int, MTLTelemetryRenderFuncUsageRec, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<const unsigned int, MTLTelemetryRenderFuncUsageRec>>> renderFuncUsageMap;
-    struct MTLTelemetryRenderPipelineDistributionRec *renderPipelineDistribution;
-    struct unordered_map<std::string, MTLTelemetryStatisticUIRec, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, MTLTelemetryStatisticUIRec>>> vtxStatDistributionMap;
-    struct unordered_map<std::string, MTLTelemetryStatisticUIRec, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, MTLTelemetryStatisticUIRec>>> fragStatDistributionMap;
-    struct MTLTelemetryDepthStateDistributionRec *depthStateDistribution;
-    struct MTLTelemetryStencilStateDistributionRec *frontFaceStencilStateDistribution;
-    struct MTLTelemetryStencilStateDistributionRec *backFaceStencilStateDistribution;
-    struct MTLTelemetryStatisticUIRec *depthClipModeClampDistribution;
-    struct unordered_map<unsigned int, MTLTelemetryComputePipelineUsageRec, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<const unsigned int, MTLTelemetryComputePipelineUsageRec>>> computePipeUsageMap;
-    struct unordered_map<unsigned int, MTLTelemetryKernelUsageRec, std::hash<unsigned int>, std::equal_to<unsigned int>, std::allocator<std::pair<const unsigned int, MTLTelemetryKernelUsageRec>>> kernelUsageMap;
-    struct MTLTelemetryComputePipelineDistributionRec *computePipelineDistribution;
-    struct unordered_map<std::string, MTLTelemetryStatisticUIRec, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<const std::string, MTLTelemetryStatisticUIRec>>> computeStatDistributionMap;
-    struct MTLTelemetryStatisticUIRec *commandBufferDispatchDistribution;
-    struct MTLTelemetryStatisticUIRec *computeEncoderDispatchDistribution;
-    struct MTLTelemetryStatisticUIRec *commandBufferDrawCallDistribution;
-    struct MTLTelemetryStatisticUIRec *renderEncoderDrawCallDistribution;
-    struct MTLTelemetryDrawDistributionRec *drawDistribution;
-    struct MTLTelemetryDispatchDistributionRec *dispatchDistribution;
-    struct unordered_map<MTLPixelFormat, MTLTelemetryBlitDistribution, std::hash<unsigned long long>, std::equal_to<MTLPixelFormat>, std::allocator<std::pair<const MTLPixelFormat, MTLTelemetryBlitDistribution>>> blitMap;
-    struct MTLTelemetryStatisticUIRec *commandBufferBlitDistribution;
-    struct MTLTelemetryStatisticUIRec *blitEncoderBlitDistribution;
-    struct MTLTelemetryStatisticUIRec *commandBufferMemoryBarrierDistribution;
-    struct MTLTelemetryKernelDistributionRec *kernelDistribution;
-    struct MTLTelemetryAnisoClippedCountsRec *anisoClippedCounts;
-    NSObject<OS_dispatch_queue> *queue;
-    struct mach_timebase_info timebase;
-    double _timerScale;
-    NSObject<OS_dispatch_source> *_timer;
-    _Bool _isGLMTL;
-    struct MTLTelemetrySupportQueryStatRec supportQuery;
-    NSObject<OS_os_log> *_telemetryLog;
-    unsigned long long _startTime;
 }
 
 - (id);
@@ -84,7 +40,7 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)'t create URL for new dictionary %@;
 - (id);
 - (void);
 - (id);
@@ -92,10 +48,10 @@
 - (id);
 - (void);
 - (_Bool);
+- (void)(;
 - (void);
-- (void);
-- (id);
-- (id);
+- (id)B;
+- (id)L ;
 - (id);
 - (id);
 - (void);
@@ -108,7 +64,6 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long startTime; // @synthesize startTime=_startTime;
 @property(readonly, nonatomic) NSObject<OS_os_log> *telemetryLog; // @synthesize telemetryLog=_telemetryLog;
 
 @end

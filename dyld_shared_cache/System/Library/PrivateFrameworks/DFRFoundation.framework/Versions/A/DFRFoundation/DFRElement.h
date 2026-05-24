@@ -4,26 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAContext, NSString;
-
 __attribute__((visibility("hidden")))
 @interface DFRElement
 {
     unsigned long long _epoch;
-    NSString *_name;
-    NSString *_minimizedIdentifier;
-    NSString *_systemIdentifier;
-    CAContext *_context;
-    id _accessibility;
-    long long _placement;
-    CDUnknownBlockType _animationHandler;
-    struct CGSize _preferredSize;
-    struct CGRect _bounds;
-    _Bool _registered;
-    _Bool _active;
-    _Atomic long long _colorTemperature;
-    _Atomic double _bezelBrightness;
-    _Atomic double _glyphBrightness;
 }
 
 - (id);

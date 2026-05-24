@@ -4,85 +4,53 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPTdmUserMapsStatus, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEORPTdmFraudRequestInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_anonymousId;
-    NSString *_fsrData;
-    NSString *_keyId;
-    NSString *_tdmNamespace;
-    GEORPTdmUserMapsStatus *_tdmUserMapsStatus;
-    NSString *_transactionId;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_anonymousId:1;
-        unsigned int read_fsrData:1;
-        unsigned int read_keyId:1;
-        unsigned int read_tdmNamespace:1;
-        unsigned int read_tdmUserMapsStatus:1;
-        unsigned int read_transactionId:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)ies:(id)arg1;
++ (_Bool)setLocalizationCapabilities:(id)arg1;
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
+- (_Bool)L;
+- (_Bool)accountCollection;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (void);
+- (void),C,N;
+- (id)VNPersonSegmentationGeneratorLearnedMattingTiled;
+- (_Bool)VNImageBrightnessObservation;
 - (void);
 - (id);
-- (_Bool);
-- (void);
-- (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)@0:8(?={?=SS}I)16@20 /* Error: Ran out of types for this method. */;
+- (void)rcularBuffer;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)f;
 - (_Bool);
 - (id);
 - (void);
 - (id)ields"b1"read_attributionURLs"b1"read_sourceIdentifier"b1"wrote_anyField"b1};
-- (id)ion;
+- (id)currentBatchGeneration;
 - (id)\£ ¤¦§Ø¨;
 - (id)iveTileSet"8B16(?=I{?=b8(?={?=b14b4b4b2}{?=b8b16})})20I24I28;
 - (void)k»	¾iP@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *anonymousId;
-@property(retain, nonatomic) NSString *fsrData;
-@property(readonly, nonatomic) _Bool hasAnonymousId;
-@property(readonly, nonatomic) _Bool hasFsrData;
-@property(readonly, nonatomic) _Bool hasKeyId;
 @property(readonly, nonatomic) _Bool hasTdmNamespace;
-@property(readonly, nonatomic) _Bool hasTdmUserMapsStatus;
-@property(readonly, nonatomic) _Bool hasTransactionId;
-@property(retain, nonatomic) NSString *keyId;
-@property(retain, nonatomic) NSString *tdmNamespace;
-@property(retain, nonatomic) GEORPTdmUserMapsStatus *tdmUserMapsStatus;
-@property(retain, nonatomic) NSString *transactionId;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

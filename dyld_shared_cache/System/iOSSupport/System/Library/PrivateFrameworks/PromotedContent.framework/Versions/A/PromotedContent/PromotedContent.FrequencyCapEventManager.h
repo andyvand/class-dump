@@ -7,7 +7,6 @@
 @interface PromotedContent.FrequencyCapEventManager
 {
     id capStore;
-    id launched;
 }
 
 @end

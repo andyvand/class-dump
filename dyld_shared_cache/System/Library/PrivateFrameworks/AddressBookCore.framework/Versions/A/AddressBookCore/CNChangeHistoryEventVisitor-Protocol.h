@@ -5,5 +5,9 @@
 //
 
 @protocol CNChangeHistoryEventVisitor
+- (void)te, mask.hash}spending SA expired prior to successful registration;
+
+@optional
+- (void)C;
 @end
 

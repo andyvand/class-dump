@@ -7,11 +7,6 @@
 @interface NewsUI2.NotificationAppExtensionCommunicator
 {
     id appConfigManager;
-    id appConfigDropbox;
-    id sharedDefaults;
-    id bundleSubscriptionManager;
-    id tagService;
-    id channelDataFactory;
 }
 
 - (id);

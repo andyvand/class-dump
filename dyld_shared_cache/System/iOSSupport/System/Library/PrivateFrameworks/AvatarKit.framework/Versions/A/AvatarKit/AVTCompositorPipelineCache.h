@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTMetalHelper, NSMutableDictionary;
+@class AVTMetalHelper;
 
 __attribute__((visibility("hidden")))
 @interface AVTCompositorPipelineCache
 {
     AVTMetalHelper *_helper;
-    NSMutableDictionary *_pipelines;
 }
 
 + (id);

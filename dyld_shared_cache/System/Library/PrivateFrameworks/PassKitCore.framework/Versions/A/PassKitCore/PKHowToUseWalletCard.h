@@ -4,37 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, PKDiscoveryArticleLayout, PKHowToUseWalletRequirements;
+@class NSNumber, NSString;
 
 @interface PKHowToUseWalletCard
 {
     NSString *_discoveryBundlePath;
-    NSNumber *_version;
-    NSString *_identifier;
-    long long _cardSizeType;
-    PKDiscoveryArticleLayout *_article;
-    PKHowToUseWalletRequirements *_requirements;
-    NSString *_lotIdentifier;
 }
 
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)(;
 - (id);
 - (long long);
 - (id);
 - (id);
 - (id);
 - (id)ields;
-- (void)ion;
+- (void)bankAccountInformation;
 
 // Remaining properties
-@property(readonly, nonatomic) PKDiscoveryArticleLayout *article; // @synthesize article=_article;
-@property(readonly, nonatomic) long long cardSizeType; // @synthesize cardSizeType=_cardSizeType;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *lotIdentifier; // @synthesize lotIdentifier=_lotIdentifier;
-@property(readonly, nonatomic) PKHowToUseWalletRequirements *requirements; // @synthesize requirements=_requirements;
 @property(readonly, nonatomic) NSNumber *version; // @synthesize version=_version;
 
 @end

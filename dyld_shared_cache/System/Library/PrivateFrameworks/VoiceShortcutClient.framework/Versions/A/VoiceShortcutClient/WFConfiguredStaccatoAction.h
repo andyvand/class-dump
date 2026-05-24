@@ -4,38 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, WFColor, WFIcon;
+@class NSString;
 
 @interface WFConfiguredStaccatoAction
 {
     NSString *_identifier;
-    NSString *_name;
-    WFIcon *_previewIcon;
-    NSString *_associatedBundleIdentifier;
-    NSData *_shortcutsMetadata;
-    NSData *_colorScheme;
 }
 
 + (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)3|;
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
-- (void);
+- (void)z;
+- (id)HI{;
 - (id);
 - (id);
 - (id);
+- (id)il;
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (void);
+- (void)v24@?0^{__SecIdentity=}8^{__CFError=}16;
 - (void);
 - (id);
 - (id);
@@ -44,15 +39,7 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *associatedBundleIdentifier; // @synthesize associatedBundleIdentifier=_associatedBundleIdentifier;
-@property(readonly, copy, nonatomic) NSData *colorScheme; // @synthesize colorScheme=_colorScheme;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) WFIcon *previewIcon; // @synthesize previewIcon=_previewIcon;
 @property(readonly, copy, nonatomic) NSString *sectionIdentifier;
-@property(copy, nonatomic) NSData *shortcutsMetadata; // @synthesize shortcutsMetadata=_shortcutsMetadata;
-@property(readonly, copy, nonatomic) NSString *systemImageName;
-@property(readonly, nonatomic) WFColor *tintColor;
 
 @end
 

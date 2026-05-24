@@ -11,7 +11,6 @@
 @interface CEMManagementStateCommand_Status : CEMPayloadBase
 {
     NSArray *_statusCommands;
-    NSArray *_statusDeclarations;
 }
 
 + (id);
@@ -23,12 +22,12 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)ctional bits following '.'
+;
+- (void)iI/Sources/libressl/libressl-2.2/ssl/d1_both.c;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *statusCommands; // @synthesize statusCommands=_statusCommands;
-@property(copy, nonatomic) NSArray *statusDeclarations; // @synthesize statusDeclarations=_statusDeclarations;
 
 @end
 

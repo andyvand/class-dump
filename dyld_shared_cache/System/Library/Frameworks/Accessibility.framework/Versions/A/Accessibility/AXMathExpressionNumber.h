@@ -15,7 +15,8 @@
 
 - (id);
 - (void);
-- (id);
+- (id)<key>Component</key>
+;
 - (void);
 
 // Remaining properties

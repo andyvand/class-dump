@@ -6,37 +6,24 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSMutableArray, UIColor, UIImageView;
-
 @interface UISnapshotView : UIView
 {
     struct CGSize _contentSize;
-    struct UIEdgeInsets _contentBeyondBounds;
-    struct UIEdgeInsets _edgePadding;
-    struct UIEdgeInsets _edgeInsets;
-    struct CGPoint _contentOffset;
-    UIColor *_edgePaddingColor;
-    UIView *_imageView;
-    NSMutableArray *_edgePaddingViews;
-    struct CGRect _snapshotRect;
-    UIImageView *_shadowView;
-    unsigned int _disableEdgeAntialiasing:1;
-    unsigned int _disableVerticalStretch:1;
 }
 
+- (void)IMDaemonListenerFileTransfersProtocol;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)Indices;
 - (_Bool);
 - (_Bool);
-- (id);
-- (struct UIEdgeInsets);
+- (id)receipt, no messages found for guid:%@ /* Error: Ran out of types for this method. */;
+- (struct UIEdgeInsets)e to mark send of played receipt, no messages found for guid:%@ /* Error: Ran out of types for this method. */;
+- (void)current for %@;
+- (void)le %@;
 - (void);
-- (void);
-- (void);
-- (id);
-- (struct CGRect);
+- (id)DDExtractMessageBotReplies;
+- (struct CGRect)TelephonyServicesession;
 - (void);
 - (void);
 - (void);
@@ -46,28 +33,19 @@
 - (struct CGPoint);
 - (void);
 - (void);
-- (void);
+- (void)setStatusPasscodePresent: /* Error: Ran out of types for this method. */;
 - (struct UIEdgeInsets);
 - (void);
-- (void)Color:(struct CGRect)arg1 sidebarState: /* Error: Ran out of types for this method. */;
+- (void)_filterForTemplateImageWithTintColor:(struct CGRect)arg1 sidebarState: /* Error: Ran out of types for this method. */;
 - (id)eHidden,S_setChromeHidden:(struct CGRect)arg1 ,V_chromeHidden;
 - (void)eBeingSetByLoader;
-- (id)nBackgroundActionResponse;
+- (id)UIFetchContentInBackgroundActionResponse;
 - (void)¨¬ à ´"#l#;
 - (struct CGSize)awaiting feedback UI still. Ignoring update.;
 - (void)g.;
 
 // Remaining properties
-@property(nonatomic, getter=_contentOffset, setter=_setContentOffset:) struct CGPoint contentOffset; // @synthesize contentOffset=_contentOffset;
-@property(readonly, nonatomic, getter=_contentSize) struct CGSize contentSize; // @synthesize contentSize=_contentSize;
-@property(nonatomic, getter=isEdgeAntialiasingEnabled) _Bool edgeAntialiasingEnabled;
-@property(nonatomic) struct UIEdgeInsets edgeInsets; // @synthesize edgeInsets=_edgeInsets;
 @property(nonatomic) struct UIEdgeInsets edgePadding; // @synthesize edgePadding=_edgePadding;
-@property(retain, nonatomic) UIColor *edgePaddingColor; // @synthesize edgePaddingColor=_edgePaddingColor;
-@property(retain, nonatomic) UIView *shadowView; // @synthesize shadowView=_shadowView;
-@property(nonatomic, getter=_snapshotRect, setter=_setSnapshotRect:) struct CGRect snapshotRect;
-@property(readonly, nonatomic, getter=_snapshotView) UIView *snapshotView; // @synthesize snapshotView=_imageView;
-@property(nonatomic, getter=isVerticalStretchEnabled) _Bool verticalStretchEnabled;
 
 @end
 

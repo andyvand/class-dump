@@ -10,8 +10,8 @@
 {
 }
 
-- (_Bool);
-- (id);
+- (_Bool)MPCJinglePlayActivityReportingControllerUserInfoDidIncludeRadioStationStartEvent;
+- (id){;
 
 @end
 

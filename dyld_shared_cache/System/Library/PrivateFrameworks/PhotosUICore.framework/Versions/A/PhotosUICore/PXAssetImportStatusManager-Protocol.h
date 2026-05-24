@@ -5,5 +5,7 @@
 //
 
 @protocol PXAssetImportStatusManager
+- (void);
+- (long long);
 @end
 

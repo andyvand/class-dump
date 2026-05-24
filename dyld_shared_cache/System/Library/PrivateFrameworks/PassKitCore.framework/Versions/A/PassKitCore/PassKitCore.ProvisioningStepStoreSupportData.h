@@ -7,10 +7,6 @@
 @interface PassKitCore.ProvisioningStepStoreSupportData
 {
     id context;
-    id credential;
-    id sharedState;
-    id supportDataType;
-    id relevantPass;
 }
 
 - (id);

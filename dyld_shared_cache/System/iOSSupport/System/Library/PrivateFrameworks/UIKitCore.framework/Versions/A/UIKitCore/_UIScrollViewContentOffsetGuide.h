@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id);
+- (id)setPayloadOverridePrimary: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -19,9 +19,9 @@ __attribute__((visibility("hidden")))
 - (id)Ð! @ùqd°1Â0@ù
 × ;
 - (void)eresis:(id)arg1;
-- (id)olorRenderingMode;
-- (_Bool)line;
-- (id)rchSuggestionItemGroup;
+- (id)_hasSpecifiedColorRenderingMode;
+- (_Bool)UIAlertControllerVisualStyleActionSheetInline;
+- (id)_UISearchSuggestionItemGroup;
 
 @end
 

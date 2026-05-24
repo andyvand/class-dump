@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSGestureRecognizer;
+
 @protocol NSGestureRecognizerDelegate
+
+@optional
+- (_Bool)te %s, updatedDetent:(NSGestureRecognizer *)arg1 %{bool}d;
+- (_Bool)4;
 @end
 

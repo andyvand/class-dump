@@ -4,16 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _BPSAbstractZip;
+@class _BPSAbstractZip;
 
 @interface _BPSAbstractZipSide
 {
     _BPSAbstractZip *_zip;
-    long long _index;
 }
 
 - (id);
-- (void);
+- (void)rameworks/CryptoTokenKit.framework/Versions/A/CryptoTokenKit;
 - (id);
 - (void);
 - (void);
@@ -24,14 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long index; // @synthesize index=_index;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) _BPSAbstractZip *zip; // @synthesize zip=_zip;
 
 @end

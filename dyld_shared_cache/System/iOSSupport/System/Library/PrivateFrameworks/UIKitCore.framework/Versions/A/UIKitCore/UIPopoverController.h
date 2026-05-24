@@ -4,68 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIBarButtonItem, UIColor, UIDimmingView, UIPanGestureRecognizer, UIPopoverPresentationController, UIView, UIViewController, _UIPopoverLayoutInfo, _UIPopoverView;
-@protocol UIPopoverControllerDelegate;
-
 @interface UIPopoverController
 {
     id _delegate;
-    UIViewController *_contentViewController;
-    UIViewController *_splitParentController;
-    _UIPopoverView *_popoverView;
-    UIDimmingView *_dimmingView;
-    UIView *_layoutConstraintView;
-    struct CGRect _targetRectInEmbeddingView;
-    UIBarButtonItem *_targetBarButtonItem;
-    unsigned long long _requestedArrowDirections;
-    unsigned long long _currentArrowDirection;
-    long long _popoverBackgroundStyle;
-    UIColor *_backgroundColor;
-    _UIPopoverLayoutInfo *_preferredLayoutInfo;
-    Class _popoverBackgroundViewClass;
-    struct CGSize _popoverContentSize;
-    struct CGRect _targetRectInDimmingView;
-    struct CGRect _embeddedTargetRect;
-    long long _popoverControllerStyle;
-    _Bool _ignoresKeyboardNotifications;
-    UIView *_currentPresentationView;
-    struct CGRect _currentPresentationRectInView;
-    unsigned long long _originalArrowDirections;
-    unsigned int draggingChildScrollViewCount;
-    id _target;
-    long long _didFinish;
-    UIViewController *_modalPresentationFromViewController;
-    UIViewController *_modalPresentationToViewController;
-    unsigned long long _toViewAutoResizingMask;
-    UIViewController *_slidingViewController;
-    UIView *_presentingView;
-    unsigned long long _presentationEdge;
-    long long _presentationDirection;
-    int _presentationState;
-    _Bool _didPresentInActiveSequence;
-    unsigned long long _slideTransitionCount;
-    UIPanGestureRecognizer *_vendedGestureRecognizer;
-    UIPanGestureRecognizer *_dimmingViewGestureRecognizer;
-    UIPopoverController *_retainedSelf;
-    NSArray *_passthroughViews;
-    struct {
-        unsigned int isPresentingModalViewController:1;
-        unsigned int isPresentingActionSheet:1;
-        unsigned int wasIgnoringDimmingViewTouchesBeforeScrolling:1;
-        unsigned int isInTextEffectsWindow:1;
-        unsigned int isEmbeddingInView:1;
-        unsigned int embeddedPresentationBounces:1;
-        unsigned int isWaitingToPresentShimmedPopover:1;
-    } _popoverControllerFlags;
-    _Bool _dismissesOnRotation;
-    _Bool _showsTargetRect;
-    _Bool _showsOrientationMarker;
-    _Bool _showsPresentationArea;
-    _Bool _retainsSelfWhilePresented;
-    _Bool _allowsPopoverPresentationToAdapt;
-    unsigned long long _popoverArrowDirection;
-    UIPopoverPresentationController *_presentationController;
-    struct UIEdgeInsets _popoverLayoutMargins;
 }
 
 + (_Bool);
@@ -77,67 +18,67 @@
 + (struct UIEdgeInsets);
 - (void);
 - (void);
+- (void)`;
+- (_Bool)ckward compatibility message %s. Message can be dropped.;
+- (void)nnot be dropped.;
+- (id)overable message deletes as CK syncing is off;
+- (void)ransfer:(_Bool)arg1 %@;
+- (long long)t;
+- (void)OTP_CLEANUP_ALERT_TITLE;
 - (void);
+- (void);
+- (void);
+- (id);
+- (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void)=;
 - (void);
 - (void);
+- (void)!;
 - (void);
+- (void);
 - (void);
+- (void)=;
 - (void);
-- (void);
-- (void);
-- (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (_Bool);
+- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)buildRequiredOnlyWithIdentifier:withVPNType:withUserDefinedName: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id)0@ù
 × ;
 - (void)6c][256c]}}32;
-- (void)PresentWithAnimations:(id)arg1 completion: /* Error: Ran out of types for this method. */;
-- (void)age:(id)arg1 forLeftSegmentState:rightSegmentState:barMetrics: /* Error: Ran out of types for this method. */;
+- (void)animatePresentWithAnimations:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (void)_setDividerImage:(id)arg1 forLeftSegmentState:rightSegmentState:barMetrics: /* Error: Ran out of types for this method. */;
 - (struct UIEdgeInsets)y changing sizes - aborting;
-- (void)dProactiveResults;
-- (void)undImage;
-- (_Bool)mCarPlay;
-- (void)lityStyleDarkContentWithLightShadow;
+- (void)UIKeyboardPerformanceSearchFoundProactiveResults;
+- (void)BackgroundImage;
+- (_Bool)UIUserInterfaceIdiomCarPlay;
+- (void)_UILegibilityStyleDarkContentWithLightShadow;
 - (_Bool)ogging already in progress. Starting to log again would cause an undefined state.;
 - (id)acks;
 - (id)first responder or contains the first responder. Collection view:%@; view:%@; view layout attributes:%@ /* Error: Ran out of types for this method. */;
@@ -147,8 +88,8 @@
 - (void)orMonth(NSCalendar * _Nonnull __strong, _UIDatePickerCalendarMonth * _Nonnull __strong, _UIDatePickerCalendarMonth * _Nonnull __strong);
 - (_Bool)pe.png;
 - (_Bool)o Other;
-- (struct CGSize)axLayoutWidth;
-- (unsigned long long)ation;
+- (struct CGSize)UILabelConfiguration_hasCustomized_preferredMaxLayoutWidth;
+- (unsigned long long)UIEmojiAndStickerShouldCreateNotification;
 - (void)uide.horizontalCornerAdaptation;
 - (_Bool);
 - (void);
@@ -157,17 +98,17 @@
 - (void);
 - (void);
 - (_Bool);
-- (int)tIegnr_;
+- (int)So24_UITransitionOverlayViewCytIegnr_;
 - (Class)ô¾þ;
 - (void)orCodeProtocolP;
 - (void);
-- (void)agState;
-- (_Bool)rageKey;
+- (void)DragState;
+- (_Bool)_ManagedContentStatesStorageKey;
 - (void);
 - (_Bool)7;
 - (long long);
 - (long long);
-- (void)ndSuppressionKey;
+- (void)BackgroundSuppressionKey;
 - (Class);
 - (void)ÐëR0^43=;
 - (unsigned long long);
@@ -189,7 +130,7 @@
 - (struct CGSize)å"ÿiV;
 - (_Bool)8a;
 - (void)DÏb;
-- (id)S;
+- (id)AS;
 - (_Bool)]@ÕXdc;
 - (_Bool)PÉÿÕxd;
 - (void)dd;
@@ -214,34 +155,7 @@
 - (id)ëÿºêÐP¹k;
 
 // Remaining properties
-@property(nonatomic, setter=_setIgnoresKeyboardNotifications:) _Bool _ignoresKeyboardNotifications; // @dynamic _ignoresKeyboardNotifications;
-@property(nonatomic, getter=_allowsPopoverPresentationToAdapt, setter=_setAllowsPopoverPresentationToAdapt:) _Bool allowsPopoverPresentationToAdapt; // @synthesize allowsPopoverPresentationToAdapt=_allowsPopoverPresentationToAdapt;
-@property(copy, nonatomic) UIColor *backgroundColor;
-@property(retain, nonatomic) UIViewController *contentViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UIPopoverControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) UIDimmingView *dimmingView; // @synthesize dimmingView=_dimmingView;
-@property(nonatomic) _Bool dismissesOnRotation; // @synthesize dismissesOnRotation=_dismissesOnRotation;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *passthroughViews;
 @property(nonatomic) unsigned long long popoverArrowDirection; // @synthesize popoverArrowDirection=_popoverArrowDirection;
-@property(retain, nonatomic) Class popoverBackgroundViewClass; // @synthesize popoverBackgroundViewClass=_popoverBackgroundViewClass;
-@property(nonatomic) struct CGSize popoverContentSize;
-@property(nonatomic) struct UIEdgeInsets popoverLayoutMargins; // @synthesize popoverLayoutMargins=_popoverLayoutMargins;
-@property(readonly, nonatomic, getter=isPopoverVisible) _Bool popoverVisible;
-@property(retain, nonatomic) _UIPopoverLayoutInfo *preferredLayoutInfo; // @synthesize preferredLayoutInfo=_preferredLayoutInfo;
-@property(retain, nonatomic, getter=_presentationController, setter=_setPresentationController:) UIPopoverPresentationController *presentationController; // @synthesize presentationController=_presentationController;
-@property(nonatomic, getter=_presentationEdge, setter=_setPresentationEdge:) unsigned long long presentationEdge; // @synthesize presentationEdge=_presentationEdge;
-@property(nonatomic, getter=_presentingView, setter=_setPresentingView:) __weak UIView *presentingView; // @synthesize presentingView=_presentingView;
-@property(nonatomic, getter=_retainsSelfWhilePresented, setter=_setRetainsSelfWhilePresented:) _Bool retainsSelfWhilePresented; // @synthesize retainsSelfWhilePresented=_retainsSelfWhilePresented;
-@property(nonatomic) _Bool showsOrientationMarker; // @synthesize showsOrientationMarker=_showsOrientationMarker;
-@property(nonatomic) _Bool showsPresentationArea; // @synthesize showsPresentationArea=_showsPresentationArea;
-@property(nonatomic) _Bool showsTargetRect; // @synthesize showsTargetRect=_showsTargetRect;
-@property(readonly) Class superclass;
 
 @end
 

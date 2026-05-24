@@ -6,14 +6,11 @@
 
 #import <CoreRecognition/CRCodeRedeemerView.h>
 
-@class CRCodeRedeemerLayer, NSString;
-@protocol CRCodeRedeemerViewDebuggingDelegate, CRCodeRedeemerViewDelegate;
+@class CRCodeRedeemerLayer;
 
 @interface _CRCodeRedeemerView : CRCodeRedeemerView
 {
     CRCodeRedeemerLayer *_rLayer;
-    id <CRCodeRedeemerViewDelegate> _delegate;
-    id <CRCodeRedeemerViewDebuggingDelegate> _debuggingDelegate;
 }
 
 + (_Bool);
@@ -36,23 +33,14 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <CRCodeRedeemerViewDebuggingDelegate> debuggingDelegate; // @synthesize debuggingDelegate=_debuggingDelegate;
-@property id <CRCodeRedeemerViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) CRCodeRedeemerLayer *rLayer; // @synthesize rLayer=_rLayer;
-@property(readonly) Class superclass;
 
 @end
 

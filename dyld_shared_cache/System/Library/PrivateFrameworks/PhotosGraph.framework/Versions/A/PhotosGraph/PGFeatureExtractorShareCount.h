@@ -11,9 +11,9 @@
 }
 
 - (id);
-- (long long);
-- (id);
-- (id)lection;
+- (long long)@;
+- (id)resultWithTouchIcon:host:isFavicon:pageRequestDidSucceed:response:higherPriorityIconDownloadFailedDueToNetworkError:error: /* Error: Ran out of types for this method. */;
+- (id)PGGraphLocationContinentNodeCollection;
 
 @end
 

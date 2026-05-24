@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOObserverHashTable, NSObject, geo_isolater;
-@protocol GEOMapDataSubscriptionDownloadManager, GEOMapDataSubscriptionPersistence, OS_dispatch_queue;
+@class geo_isolater;
 
 @interface GEOMapDataSubscriptionManager
 {
     geo_isolater *_isolation;
-    NSObject<OS_dispatch_queue> *_stateObservationQueue;
-    id <GEOMapDataSubscriptionPersistence> _persistence;
-    id <GEOMapDataSubscriptionDownloadManager> _downloadManager;
-    GEOObserverHashTable *_stateObservers;
 }
 
 + (void);
-+ (id);
++ (id)D;
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)nNameComponents";
+- (void)ment";
+- (void)4@0:(id)arg1 8@"NSError"16;
+- (void)getCharacters:(id)arg1 range:(id)arg2;
+- (id)out;
 - (void)3;
 
 @end

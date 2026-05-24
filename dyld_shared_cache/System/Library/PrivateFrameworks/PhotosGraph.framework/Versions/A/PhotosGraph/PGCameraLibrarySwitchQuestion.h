@@ -6,13 +6,9 @@
 
 #import <PhotosGraph/PGSurveyQuestion.h>
 
-@class NSDictionary, NSString;
-
 @interface PGCameraLibrarySwitchQuestion : PGSurveyQuestion
 {
     unsigned short _state;
-    NSString *_entityIdentifier;
-    NSDictionary *_additionalInfo;
 }
 
 - (_Bool);
@@ -20,10 +16,10 @@
 - (id);
 - (unsigned short);
 - (id);
+- (unsigned short)RX;
 - (unsigned short);
 - (unsigned short);
-- (unsigned short);
-- (id)e:withTargetDimension:resolvedDimension:continueResolvingHigherDimensions: /* Error: Ran out of types for this method. */;
+- (id)_resolvedLocationNodeForIncompleteAddressNode:withTargetDimension:resolvedDimension:continueResolvingHigherDimensions: /* Error: Ran out of types for this method. */;
 - (void)ion"16^B24;
 
 @end

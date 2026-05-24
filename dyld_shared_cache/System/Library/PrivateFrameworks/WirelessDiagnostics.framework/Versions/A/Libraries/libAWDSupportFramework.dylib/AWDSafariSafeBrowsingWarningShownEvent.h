@@ -7,38 +7,30 @@
 @interface AWDSafariSafeBrowsingWarningShownEvent
 {
     unsigned long long _timestamp;
-    int _provider;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int provider:1;
-    } _has;
 }
 
 - (id);
 - (int);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void)L;
+- (unsigned long long)c;
 - (unsigned long long);
-- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)I;
 - (id);
 - (id);
 - (int);
-- (void)SyncEnabled:(int)arg1;
+- (void)setHasSyncEnabled:(int)arg1;
 
 // Remaining properties
-@property(nonatomic) _Bool hasProvider;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) int provider; // @synthesize provider=_provider;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

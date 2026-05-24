@@ -12,10 +12,9 @@ __attribute__((visibility("hidden")))
 @interface AVContentKeyResponseClearKey : AVContentKeyResponse
 {
     NSData *_keyData;
-    NSData *_initializationVector;
 }
 
-- (id);
+- (id);
 - (void);
 
 @end

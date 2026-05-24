@@ -7,29 +7,23 @@
 @interface CNUIAvatarLayoutItemConfiguration
 {
     double _size;
-    double _x;
-    double _y;
-    double _baseSize;
 }
 
 - (void);
-- (void);
+- (void);
 - (struct CGRect);
 - (id);
 - (void);
 - (double);
-- (double);
+- (double)B;
 - (void);
 - (void);
-- (void);
+- (void)OutgoingMailServerPortNumber;
 - (double);
 - (double)çÙþÿyx_G;
 
 // Remaining properties
-@property(nonatomic) double baseSize; // @synthesize baseSize=_baseSize;
 @property(nonatomic) double size; // @synthesize size=_size;
-@property(nonatomic) double x; // @synthesize x=_x;
-@property(nonatomic) double y; // @synthesize y=_y;
 
 @end
 

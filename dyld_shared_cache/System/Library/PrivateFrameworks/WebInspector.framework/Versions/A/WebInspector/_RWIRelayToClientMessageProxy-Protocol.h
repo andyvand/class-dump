@@ -5,5 +5,9 @@
 //
 
 @protocol _RWIRelayToClientMessageProxy
+
+@optional
+- (void);
+- (void)*;
 @end
 

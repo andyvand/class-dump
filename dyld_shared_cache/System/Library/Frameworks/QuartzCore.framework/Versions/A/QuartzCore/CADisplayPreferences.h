@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CADisplayPreferences
 {
     struct CADisplayPreferencesPriv *_priv;
@@ -17,22 +15,18 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool);
 - (id);
 - (int);
 - (void);
+- (id)i;
 - (id);
-- (id);
-- (id);
+- (id)__objc_classlist__DATA_CONST;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) int _preferredHdrType;
 @property(nonatomic) _Bool matchContent;
-@property(copy, nonatomic) NSString *preferredHdrMode;
-@property(nonatomic) _Bool prefersHighRefreshRate;
-@property(readonly, nonatomic) _Bool prefersVariableRefreshRate;
 
 @end
 

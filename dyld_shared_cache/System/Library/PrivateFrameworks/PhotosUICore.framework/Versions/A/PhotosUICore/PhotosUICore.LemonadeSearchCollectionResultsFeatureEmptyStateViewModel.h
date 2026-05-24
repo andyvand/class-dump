@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface PhotosUICore.LemonadeSearchCollectionResultsFeatureEmptyStateViewModel
 {
     id _title;
-    id _message;
-    id _numberOfAssetResults;
-    id _actionHandler;
-    id _$observationRegistrar;
 }
 
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (CDUnknownBlockType);
@@ -29,9 +25,6 @@
 - (void)Xù: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, copy) CDUnknownBlockType actionHandler;
-@property(nonatomic, copy) NSString *message;
-@property(nonatomic, retain) NSNumber *numberOfAssetResults;
 @property(nonatomic, copy) NSString *title;
 
 @end

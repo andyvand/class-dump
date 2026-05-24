@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFMessageDestination, NSDictionary, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDIDSMessageContext
 {
     NSUUID *_identifier;
-    HMFMessageDestination *_destination;
-    NSDictionary *_userInfo;
 }
 
 - (id);
@@ -19,12 +17,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id)4ÓÈþÿÿÿÿø;
-- (void)alenciaThermostat;
+- (void)HMDAccessoryConfiguredAsValenciaThermostat;
 
 // Remaining properties
-@property(readonly) HMFMessageDestination *destination; // @synthesize destination=_destination;
 @property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly, copy) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

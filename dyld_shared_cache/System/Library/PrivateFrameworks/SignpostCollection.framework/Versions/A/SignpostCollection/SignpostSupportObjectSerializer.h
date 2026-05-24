@@ -4,38 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, SignpostSerializationFilterConfiguration, SignpostSupportObjectExtractor;
+@class NSMutableArray;
 
 @interface SignpostSupportObjectSerializer
 {
     _Bool _redactPrivacySensitiveData;
-    unsigned long long _maxBatchSize;
-    unsigned long long _maxBytesSize;
-    CDUnknownBlockType _serializedSignpostEventBlock;
-    CDUnknownBlockType _serializedLogMessageBlock;
-    SignpostSerializationFilterConfiguration *_filterConfiguration;
-    NSMutableArray *_outstandingSignpostObjects;
-    NSMutableArray *_outstandingLogMessage;
-    SignpostSupportObjectExtractor *_extractor;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (id);
+- (void)textView:(CDUnknownBlockType)arg1 writeCell:atIndex:toPasteboard:type: /* Error: Ran out of types for this method. */;
+- (void)textView:(CDUnknownBlockType)arg1 writablePasteboardTypesForCell:atIndex: /* Error: Ran out of types for this method. */;
+- (void)textView:(_Bool)arg1 willShowSharingServicePicker:forItems: /* Error: Ran out of types for this method. */;
+- (void)textView:(id)arg1 shouldSetSpellingState:range: /* Error: Ran out of types for this method. */;
+- (void)textView:(id)arg1 shouldSelectCandidateAtIndex: /* Error: Ran out of types for this method. */;
+- (void)textView:(unsigned long long)arg1 shouldChangeTextInRanges:replacementStrings: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)textView:didCheckTextInRange:types:options:results:orthography:wordCount: /* Error: Ran out of types for this method. */;
+- (CDUnknownBlockType)textView:didCheckTextInRange:types:options:results:orthography:wordCount: /* Error: Ran out of types for this method. */;
+- (_Bool)textView:(unsigned long long)arg1 clickedOnLink:(id *)arg2;
+- (_Bool)textView:(id)arg1 clickedOnCell:(id)arg2 inRect:(id)arg3;
+- (_Bool)textView:candidatesForSelectedRange: /* Error: Ran out of types for this method. */;
+- (id)textDidBeginEditing: /* Error: Ran out of types for this method. */;
+- (id)textContentTypeFromCRFormContentType: /* Error: Ran out of types for this method. */;
+- (unsigned long long)textColorPopoverItem;
+- (id)tagForSegment: /* Error: Ran out of types for this method. */;
+- (_Bool)superview;
+- (id)strokeIsDashed;
 - (void);
 - (id);
 - (void);
@@ -46,15 +38,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SignpostSupportObjectExtractor *extractor; // @synthesize extractor=_extractor;
-@property(retain, nonatomic) SignpostSerializationFilterConfiguration *filterConfiguration; // @synthesize filterConfiguration=_filterConfiguration;
-@property(nonatomic) unsigned long long maxBatchSize; // @synthesize maxBatchSize=_maxBatchSize;
-@property(nonatomic) unsigned long long maxBytesSize; // @synthesize maxBytesSize=_maxBytesSize;
-@property(retain, nonatomic) NSMutableArray *outstandingLogMessage; // @synthesize outstandingLogMessage=_outstandingLogMessage;
 @property(retain, nonatomic) NSMutableArray *outstandingSignpostObjects; // @synthesize outstandingSignpostObjects=_outstandingSignpostObjects;
-@property(nonatomic) _Bool redactPrivacySensitiveData; // @synthesize redactPrivacySensitiveData=_redactPrivacySensitiveData;
-@property(copy, nonatomic) CDUnknownBlockType serializedLogMessageBlock; // @synthesize serializedLogMessageBlock=_serializedLogMessageBlock;
-@property(copy, nonatomic) CDUnknownBlockType serializedSignpostEventBlock; // @synthesize serializedSignpostEventBlock=_serializedSignpostEventBlock;
 
 @end
 

@@ -7,12 +7,11 @@
 @class NSDate, NSString;
 
 @protocol MPMutableRadioStationEvent
+- (void)N,V_stateReasonDialog;
+- (NSDate *)ICInAppMessagesDidChangeNotification;
 - (void)fication:(NSDate *)arg1 posting %s;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *descriptionText;
-@property(copy, nonatomic) NSDate *endTime;
-@property(copy, nonatomic) NSDate *startTime;
 @property(copy, nonatomic) NSString *title;
 @end
 

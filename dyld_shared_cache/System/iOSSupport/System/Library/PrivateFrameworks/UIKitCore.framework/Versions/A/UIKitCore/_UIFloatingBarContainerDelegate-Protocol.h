@@ -5,5 +5,6 @@
 //
 
 @protocol _UIFloatingBarContainerDelegate
+- (void)orter;
 @end
 

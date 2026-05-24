@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedETARoute, GEOComposedRoute, GEOComposedRouteTraffic, GEOETATrafficUpdateResponse, GEOTransitRouteUpdateRequest, MNBatteryChargeInfo, MNDisplayETAInfo, MNRouteDistanceInfo, NSUUID;
+@class GEOComposedRoute, NSUUID;
 
 @interface MNActiveRouteInfo
 {
     GEOComposedRoute *_route;
-    GEOETATrafficUpdateResponse *_etaResponse;
-    MNDisplayETAInfo *_displayETAInfo;
-    MNRouteDistanceInfo *_remainingDistanceInfo;
-    MNBatteryChargeInfo *_batteryChargeInfo;
-    unsigned long long _alternateRouteIndex;
 }
 
 + (_Bool);
@@ -29,27 +24,18 @@
 - (id);
 - (id);
 - (id);
+- (id)F;
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)*)	;
+- (void)AOSUISpyglassAccountChangeHelper;
+- (id)locate a required bridgeOS update (minimum version required:%@) /* Error: Ran out of types for this method. */;
+- (id)ckage descriptor;
 - (void)tControllerDelegate>";
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long alternateRouteIndex; // @synthesize alternateRouteIndex=_alternateRouteIndex;
-@property(retain, nonatomic) MNBatteryChargeInfo *batteryChargeInfo; // @synthesize batteryChargeInfo=_batteryChargeInfo;
-@property(retain, nonatomic) MNDisplayETAInfo *displayETAInfo; // @synthesize displayETAInfo=_displayETAInfo;
-@property(readonly, nonatomic) GEOETATrafficUpdateResponse *etaResponse; // @synthesize etaResponse=_etaResponse;
-@property(readonly, nonatomic) GEOComposedETARoute *etaRoute;
-@property(retain, nonatomic) MNRouteDistanceInfo *remainingDistanceInfo; // @synthesize remainingDistanceInfo=_remainingDistanceInfo;
-@property(readonly, nonatomic) GEOComposedRoute *route; // @synthesize route=_route;
 @property(readonly, nonatomic) NSUUID *routeID;
-@property(readonly, nonatomic) GEOComposedRouteTraffic *traffic;
-@property(readonly, nonatomic) GEOTransitRouteUpdateRequest *transitRouteUpdateRequest;
 
 @end
 

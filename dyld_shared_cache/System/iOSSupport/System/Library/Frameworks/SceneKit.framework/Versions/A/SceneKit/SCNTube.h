@@ -9,16 +9,10 @@
 @interface SCNTube : SCNGeometry
 {
     double _tubeinnerRadius;
-    double _tubeouterRadius;
-    double _tubeheight;
-    double _tuberadialSpan;
-    long long _tubeheightSegmentCount;
-    long long _tuberadialSegmentCount;
-    long long _tubeprimitiveType;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)focusedElementMetadata;
 - (void);
 - (void);
 - (void);
@@ -42,10 +36,10 @@
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id)currentHandler;
 - (id);
 - (double);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id).bitangent, _surface.normal);
@@ -184,11 +178,7 @@ __DoFragmentModifier__
 ;
 
 // Remaining properties
-@property(nonatomic) double height;
-@property(nonatomic) long long heightSegmentCount;
 @property(nonatomic) double innerRadius;
-@property(nonatomic) double outerRadius;
-@property(nonatomic) long long radialSegmentCount;
 
 @end
 

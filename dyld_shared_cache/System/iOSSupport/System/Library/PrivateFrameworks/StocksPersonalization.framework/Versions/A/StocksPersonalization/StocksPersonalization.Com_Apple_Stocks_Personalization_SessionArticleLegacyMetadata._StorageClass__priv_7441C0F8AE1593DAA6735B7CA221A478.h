@@ -8,15 +8,6 @@
 {
     id _topicIds;
     id _publisherID;
-    id _features;
-    id _length;
-    id _group;
-    id _feed;
-    id _viewAction;
-    id _embedding;
-    id _adCategories;
-    id _groupBackingStock;
-    id _stocks;
 }
 
 @end

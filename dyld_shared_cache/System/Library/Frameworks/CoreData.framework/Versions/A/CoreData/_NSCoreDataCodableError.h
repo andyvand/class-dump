@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _NSCoreDataCodableError
 {
     NSString *exceptionName;
-    long long exceptionCode;
-    void exceptionReason;
-    NSDictionary *exceptionUserInfo;
 }
 
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (id);
@@ -25,10 +22,7 @@ __attribute__((visibility("hidden")))
 - (void)ü°Ô;
 
 // Remaining properties
-@property(nonatomic, readonly) long long exceptionCode; // @synthesize exceptionCode;
 @property(nonatomic, readonly) NSString *exceptionName; // @synthesize exceptionName;
-@property(nonatomic, readonly) NSString *exceptionReason;
-@property(nonatomic, readonly) NSDictionary *exceptionUserInfo; // @synthesize exceptionUserInfo;
 
 @end
 

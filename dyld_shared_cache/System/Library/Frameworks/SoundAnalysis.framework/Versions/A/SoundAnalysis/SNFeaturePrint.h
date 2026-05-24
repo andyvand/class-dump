@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSString;
-
 @interface SNFeaturePrint
 {
     id impl;
 }
 
-+ (id);
++ (id);
 + (id);
 + (_Bool);
 - (void);
 - (id);
 - (long long);
+- (void);
+- (id)ock_invoke_2;
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)[>;
 - (id);
 - (id);
 - (long long);
@@ -32,10 +30,6 @@
 - (void)6­üÿ;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic) long long featurePrintType;
-@property(nonatomic, retain) MLMultiArray *featureVector;
-@property(nonatomic, readonly) long long hash;
 @property(nonatomic) CDStruct_3c1748cc timeRange;
 
 @end

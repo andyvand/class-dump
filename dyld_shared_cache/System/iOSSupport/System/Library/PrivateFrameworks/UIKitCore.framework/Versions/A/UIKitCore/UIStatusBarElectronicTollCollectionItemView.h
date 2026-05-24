@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     _Bool _available;
 }
 
-- (_Bool);
-- (id);
-- (double);
+- (_Bool)_submitAndOpenTapToRadarForInvalidUseOfGroupIDOnService:(id)arg1;
+- (id)fer %@ for messageItem:%@ groupPhotoUpdate:%@ /* Error: Ran out of types for this method. */;
+- (double)es available to purge:(_Bool)arg1 %lld result:%lld urgency:%d /* Error: Ran out of types for this method. */;
 - (void)®?;
 
 @end

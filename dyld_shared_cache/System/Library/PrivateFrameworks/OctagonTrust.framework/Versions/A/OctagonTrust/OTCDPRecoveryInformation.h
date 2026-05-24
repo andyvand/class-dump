@@ -9,34 +9,19 @@
 @interface OTCDPRecoveryInformation
 {
     NSString *_recoveryKey;
-    NSString *_recoverySecret;
-    _Bool _containsIcdpData;
-    _Bool _nonViableRepair;
-    _Bool _silentRecoveryAttempt;
-    _Bool _useCachedSecret;
-    _Bool _usePreviouslyCachedRecoveryKey;
-    _Bool _usesMultipleIcsc;
-    struct {
-        unsigned int containsIcdpData:1;
-        unsigned int nonViableRepair:1;
-        unsigned int silentRecoveryAttempt:1;
-        unsigned int useCachedSecret:1;
-        unsigned int usePreviouslyCachedRecoveryKey:1;
-        unsigned int usesMultipleIcsc:1;
-    } _has;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (void)h;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)";
 - (void);
 - (void);
 - (void);
@@ -48,7 +33,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -58,9 +43,9 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)";
 - (_Bool);
-- (id);
+- (id)Y;
 - (_Bool);
 - (void);
 - (id);
@@ -68,22 +53,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool containsIcdpData; // @synthesize containsIcdpData=_containsIcdpData;
-@property(nonatomic) _Bool hasContainsIcdpData;
-@property(nonatomic) _Bool hasNonViableRepair;
-@property(readonly, nonatomic) _Bool hasRecoveryKey;
 @property(readonly, nonatomic) _Bool hasRecoverySecret;
-@property(nonatomic) _Bool hasSilentRecoveryAttempt;
-@property(nonatomic) _Bool hasUseCachedSecret;
-@property(nonatomic) _Bool hasUsePreviouslyCachedRecoveryKey;
-@property(nonatomic) _Bool hasUsesMultipleIcsc;
-@property(nonatomic) _Bool nonViableRepair; // @synthesize nonViableRepair=_nonViableRepair;
-@property(retain, nonatomic) NSString *recoveryKey; // @synthesize recoveryKey=_recoveryKey;
-@property(retain, nonatomic) NSString *recoverySecret; // @synthesize recoverySecret=_recoverySecret;
-@property(nonatomic) _Bool silentRecoveryAttempt; // @synthesize silentRecoveryAttempt=_silentRecoveryAttempt;
-@property(nonatomic) _Bool useCachedSecret; // @synthesize useCachedSecret=_useCachedSecret;
-@property(nonatomic) _Bool usePreviouslyCachedRecoveryKey; // @synthesize usePreviouslyCachedRecoveryKey=_usePreviouslyCachedRecoveryKey;
-@property(nonatomic) _Bool usesMultipleIcsc; // @synthesize usesMultipleIcsc=_usesMultipleIcsc;
 
 @end
 

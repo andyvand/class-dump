@@ -7,7 +7,6 @@
 @interface NewsArticles.MailPresenter
 {
     id host;
-    id viewControllerPresenting;
 }
 
 - (void);

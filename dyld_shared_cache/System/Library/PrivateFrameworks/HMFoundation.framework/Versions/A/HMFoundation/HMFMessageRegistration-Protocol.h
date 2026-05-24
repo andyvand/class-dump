@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSUUID;
+@class NSArray, NSString;
 @protocol HMFMessageReceiver;
 
 @protocol HMFMessageRegistration
+- (id <HMFMessageReceiver>)EnableLRPEncStatsMonitor;
+- (NSArray *)accessViolation;
 
 // Remaining properties
 @property(readonly, copy) NSString *name;
-@property(readonly, copy) NSArray *policies;
-@property(readonly) __weak id <HMFMessageReceiver> receiver;
-@property(readonly, copy) NSUUID *target;
 @end
 

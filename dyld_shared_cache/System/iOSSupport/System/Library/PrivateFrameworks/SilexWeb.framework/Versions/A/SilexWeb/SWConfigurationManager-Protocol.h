@@ -7,6 +7,7 @@
 @class SWConfiguration;
 
 @protocol SWConfigurationManager
+- (void)maximumNumberOfExpiredPaidSubscriptionGroups;
 
 // Remaining properties
 @property(copy, nonatomic) SWConfiguration *configuration;

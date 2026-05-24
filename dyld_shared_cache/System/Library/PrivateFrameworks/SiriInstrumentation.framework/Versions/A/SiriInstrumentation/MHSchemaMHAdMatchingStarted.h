@@ -6,19 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface MHSchemaMHAdMatchingStarted : SISchemaInstrumentationMessage
 {
     NSString *_modelVersion;
-    _Bool _hasModelVersion;
 }
 
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/asn1/a_time.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -27,13 +26,11 @@
 × ;
 - (id)mary;
 - (id)t;
-- (void);
+- (void)ifSessionId;
 - (void)D[¬iË!;
 - (id)#^%;
 
 // Remaining properties
-@property(nonatomic) _Bool hasModelVersion; // @synthesize hasModelVersion=_hasModelVersion;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *modelVersion; // @synthesize modelVersion=_modelVersion;
 
 @end

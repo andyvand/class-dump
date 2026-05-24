@@ -5,23 +5,20 @@
 //
 
 @class NSObject;
-@protocol OS_dispatch_group, OS_dispatch_queue, OS_dispatch_semaphore;
+@protocol OS_dispatch_semaphore;
 
 __attribute__((visibility("hidden")))
 @interface OITSUReadWriteQueue
 {
     NSObject<OS_dispatch_semaphore> *mCanEnqueueReaders;
-    NSObject<OS_dispatch_queue> *mGlobalQueue;
-    NSObject<OS_dispatch_group> *mInFlightReaders;
-    NSObject<OS_dispatch_group> *mInFlightWriters;
 }
 
 - (void);
+- (void)V;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)Ш;
 
 @end
 

@@ -4,62 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSAsset, CSAudioStream, CSPolicy, NSObject, NSString, NSUserDefaults;
-@protocol CSAudioProviderSelecting, OS_dispatch_queue, OS_dispatch_source;
+@class CSAudioStream, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CSSmartSiriVolume
 {
     NSObject<OS_dispatch_queue> *_queue;
-    struct unique_ptr<SmartSiriVolume, std::default_delete<SmartSiriVolume>> _smartSiriVolumeNoiseLevel;
-    struct unique_ptr<SmartSiriVolume, std::default_delete<SmartSiriVolume>> _smartSiriVolumeLKFS;
-    struct vector<float, std::allocator<float>> _floatBuffer;
-    NSUserDefaults *_defaults;
-    CSPolicy *_ssvEnablePolicy;
-    unsigned long long _startAnalyzeSampleCount;
-    unsigned long long _samplesFed;
-    unsigned long long _processedSampleCount;
-    _Bool _isStartSampleCountMarked;
-    _Bool _isListenPollingStarting;
-    _Bool _shouldPauseSSVProcess;
-    _Bool _shouldPauseLKFSProcess;
-    _Bool _alarmSoundIsFiring;
-    _Bool _timerSoundIsFiring;
-    _Bool _mediaIsPlaying;
-    CSAsset *_currentAsset;
-    float _musicVolumeDB;
-    float _alarmVolume;
-    unsigned long long _noiseLevelChannelBitset;
-    unsigned long long _LKFSChannelBitset;
-    unsigned int _energyBufferSize;
-    unsigned int _noiseLowerPercentile;
-    unsigned int _noiseUpperPercentile;
-    unsigned int _LKFSLowerPercentile;
-    unsigned int _LKFSUpperPercentile;
-    float _noiseTimeConstant;
-    float _noiseMicSensitivityOffset;
-    float _noiseMicSensitivityOffsetDeviceSimple;
-    float _LKFSTimeConstant;
-    float _LKFSMicSensitivityOffset;
-    float _noiseTTSMappingInputRangeLow;
-    float _noiseTTSMappingInputRangeHigh;
-    float _noiseTTSMappingOutputRangeLow;
-    float _noiseTTSMappingOutputRangeHigh;
-    float _LKFSTTSMappingInputRangeLow;
-    float _LKFSTTSMappingInputRangeHigh;
-    float _LKFSTTSMappingOutputRangeLow;
-    float _LKFSTTSMappingOutputRangeHigh;
-    float _userOffsetInputRangeLow;
-    float _userOffsetInputRangeHigh;
-    float _userOffsetOutputRangeLow;
-    float _userOffsetOutputRangeHigh;
-    float _TTSVolumeLowerLimitDB;
-    float _TTSVolumeUpperLimitDB;
-    float _noiseWeight;
-    CSAudioStream *_audioStream;
-    NSObject<OS_dispatch_source> *_listenPollingTimer;
-    long long _listenPollingTimerCount;
-    CSPolicy *_enablePolicy;
-    id <CSAudioProviderSelecting> _audioProviderSelector;
 }
 
 - (void);
@@ -69,11 +19,11 @@
 - (void);
 - (void);
 - (long long);
-- (id);
+- (id);
 - (void);
+- (void)[_;
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (float);
@@ -82,8 +32,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)__bss;
 - (id);
 - (void);
 - (void);
@@ -118,11 +68,11 @@
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void)ld:maxPauseDelay: /* Error: Ran out of types for this method. */;
 - (void)d pass metrics instance;
@@ -131,18 +81,7 @@
 - (void)iceTrigger-%@;
 
 // Remaining properties
-@property(retain, nonatomic) id <CSAudioProviderSelecting> audioProviderSelector; // @synthesize audioProviderSelector=_audioProviderSelector;
 @property(retain, nonatomic) CSAudioStream *audioStream; // @synthesize audioStream=_audioStream;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CSPolicy *enablePolicy; // @synthesize enablePolicy=_enablePolicy;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *listenPollingTimer; // @synthesize listenPollingTimer=_listenPollingTimer;
-@property(nonatomic) long long listenPollingTimerCount; // @synthesize listenPollingTimerCount=_listenPollingTimerCount;
-@property(readonly) Class superclass;
 
 @end
 

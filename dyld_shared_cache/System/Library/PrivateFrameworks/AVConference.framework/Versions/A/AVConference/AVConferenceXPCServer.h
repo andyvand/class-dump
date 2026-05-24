@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_xpc_object;
+@class NSObject;
+@protocol OS_xpc_object;
 
 __attribute__((visibility("hidden")))
 @interface AVConferenceXPCServer
 {
     NSObject<OS_xpc_object> *listener;
-    NSMutableArray *clientConnections;
-    NSMutableDictionary *registeredBlocks;
-    NSObject<OS_dispatch_queue> *incomingMessageQueue;
-    NSObject<OS_dispatch_queue> *outgoingMessageQueue;
-    NSObject<OS_dispatch_queue> *clientConnectionsQueue;
 }
 
 + (_Bool);
@@ -41,9 +36,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)_selectedCalendars;
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -63,7 +58,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) NSObject<OS_xpc_object> *listener; // @synthesize listener;
-@property(readonly) NSMutableDictionary *registeredBlocks; // @synthesize registeredBlocks;
 
 @end
 

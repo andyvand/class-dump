@@ -9,22 +9,20 @@
 @interface NEFilterSettings
 {
     NSArray *_rules;
-    long long _defaultAction;
 }
 
-+ (_Bool);
++ (_Bool)setPassword:forUsername:onService:completionBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)accountID;
 - (void);
 - (id);
-- (void)d: /* Error: Ran out of types for this method. */;
-- (_Bool)ad;
-- (id)rop;
+- (void)setEuuid: /* Error: Ran out of types for this method. */;
+- (_Bool)headerOverhead;
+- (id)disableDefaultDrop;
 
 // Remaining properties
-@property(readonly) long long defaultAction; // @synthesize defaultAction=_defaultAction;
 @property(readonly, copy) NSArray *rules; // @synthesize rules=_rules;
 
 @end

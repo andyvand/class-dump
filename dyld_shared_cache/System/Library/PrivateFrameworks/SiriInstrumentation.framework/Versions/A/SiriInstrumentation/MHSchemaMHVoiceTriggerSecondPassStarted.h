@@ -6,43 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface MHSchemaMHVoiceTriggerSecondPassStarted : SISchemaInstrumentationMessage
 {
     unsigned int _firstPassDetectedChannel;
-    float _firstPassScore;
-    unsigned int _firstPassOnsetChannel;
-    float _firstPassOnsetScore;
-    NSArray *_channelSelectionScores;
-    unsigned long long _firstPassChannelSelectionDelayNs;
-    float _firstPassMasterChannelScoreBoost;
-    unsigned long long _firstPassStartSampleCount;
-    unsigned long long _firstPassEndSampleCount;
-    unsigned long long _firstPassFireSampleCount;
-    int _firstPassTriggerSource;
-    unsigned long long _earlyDetectFiredTimeOffsetInNs;
-    float _earlyDetectFiredTime;
-    float _firstPassPrimaryChannelScoreBoost;
-    unsigned long long _firstPassInfoDispatchTimeInNs;
-    unsigned long long _firstPassInfoReceptionTimeInNs;
-    struct {
-        unsigned int firstPassDetectedChannel:1;
-        unsigned int firstPassScore:1;
-        unsigned int firstPassOnsetChannel:1;
-        unsigned int firstPassOnsetScore:1;
-        unsigned int firstPassChannelSelectionDelayNs:1;
-        unsigned int firstPassMasterChannelScoreBoost:1;
-        unsigned int firstPassStartSampleCount:1;
-        unsigned int firstPassEndSampleCount:1;
-        unsigned int firstPassFireSampleCount:1;
-        unsigned int firstPassTriggerSource:1;
-        unsigned int earlyDetectFiredTimeOffsetInNs:1;
-        unsigned int earlyDetectFiredTime:1;
-        unsigned int firstPassPrimaryChannelScoreBoost:1;
-        unsigned int firstPassInfoDispatchTimeInNs:1;
-        unsigned int firstPassInfoReceptionTimeInNs:1;
-    } _has;
 }
 
 - (void);
@@ -56,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -74,7 +40,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -100,16 +66,17 @@
 - (void);
 - (void);
 - (void);
+- (void)Sh
+;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)4;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -117,11 +84,11 @@
 - (id);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)(;
 - (float);
 - (unsigned int);
 - (float);
@@ -129,7 +96,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)pqrstuvwxyz0123456789+/;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -138,41 +105,10 @@
 × ;
 - (id)hasAudioFirstBufferRecorded;
 - (id)evs;
-- (void)nDeviceMode;
+- (void)ORCHSchemaORCHSiriUnderstandingOnDeviceMode;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *channelSelectionScores; // @synthesize channelSelectionScores=_channelSelectionScores;
-@property(nonatomic) float earlyDetectFiredTime; // @synthesize earlyDetectFiredTime=_earlyDetectFiredTime;
-@property(nonatomic) unsigned long long earlyDetectFiredTimeOffsetInNs; // @synthesize earlyDetectFiredTimeOffsetInNs=_earlyDetectFiredTimeOffsetInNs;
-@property(nonatomic) unsigned long long firstPassChannelSelectionDelayNs; // @synthesize firstPassChannelSelectionDelayNs=_firstPassChannelSelectionDelayNs;
 @property(nonatomic) unsigned int firstPassDetectedChannel; // @synthesize firstPassDetectedChannel=_firstPassDetectedChannel;
-@property(nonatomic) unsigned long long firstPassEndSampleCount; // @synthesize firstPassEndSampleCount=_firstPassEndSampleCount;
-@property(nonatomic) unsigned long long firstPassFireSampleCount; // @synthesize firstPassFireSampleCount=_firstPassFireSampleCount;
-@property(nonatomic) unsigned long long firstPassInfoDispatchTimeInNs; // @synthesize firstPassInfoDispatchTimeInNs=_firstPassInfoDispatchTimeInNs;
-@property(nonatomic) unsigned long long firstPassInfoReceptionTimeInNs; // @synthesize firstPassInfoReceptionTimeInNs=_firstPassInfoReceptionTimeInNs;
-@property(nonatomic) float firstPassMasterChannelScoreBoost; // @synthesize firstPassMasterChannelScoreBoost=_firstPassMasterChannelScoreBoost;
-@property(nonatomic) unsigned int firstPassOnsetChannel; // @synthesize firstPassOnsetChannel=_firstPassOnsetChannel;
-@property(nonatomic) float firstPassOnsetScore; // @synthesize firstPassOnsetScore=_firstPassOnsetScore;
-@property(nonatomic) float firstPassPrimaryChannelScoreBoost; // @synthesize firstPassPrimaryChannelScoreBoost=_firstPassPrimaryChannelScoreBoost;
-@property(nonatomic) float firstPassScore; // @synthesize firstPassScore=_firstPassScore;
-@property(nonatomic) unsigned long long firstPassStartSampleCount; // @synthesize firstPassStartSampleCount=_firstPassStartSampleCount;
-@property(nonatomic) int firstPassTriggerSource; // @synthesize firstPassTriggerSource=_firstPassTriggerSource;
-@property(nonatomic) _Bool hasEarlyDetectFiredTime;
-@property(nonatomic) _Bool hasEarlyDetectFiredTimeOffsetInNs;
-@property(nonatomic) _Bool hasFirstPassChannelSelectionDelayNs;
-@property(nonatomic) _Bool hasFirstPassDetectedChannel;
-@property(nonatomic) _Bool hasFirstPassEndSampleCount;
-@property(nonatomic) _Bool hasFirstPassFireSampleCount;
-@property(nonatomic) _Bool hasFirstPassInfoDispatchTimeInNs;
-@property(nonatomic) _Bool hasFirstPassInfoReceptionTimeInNs;
-@property(nonatomic) _Bool hasFirstPassMasterChannelScoreBoost;
-@property(nonatomic) _Bool hasFirstPassOnsetChannel;
-@property(nonatomic) _Bool hasFirstPassOnsetScore;
-@property(nonatomic) _Bool hasFirstPassPrimaryChannelScoreBoost;
-@property(nonatomic) _Bool hasFirstPassScore;
-@property(nonatomic) _Bool hasFirstPassStartSampleCount;
-@property(nonatomic) _Bool hasFirstPassTriggerSource;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

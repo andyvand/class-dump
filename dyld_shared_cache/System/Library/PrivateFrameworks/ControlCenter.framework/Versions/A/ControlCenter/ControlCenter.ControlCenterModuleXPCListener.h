@@ -7,10 +7,6 @@
 @interface ControlCenter.ControlCenterModuleXPCListener
 {
     id delegate;
-    id logger;
-    id queue;
-    id listener;
-    id sessions;
 }
 
 @end

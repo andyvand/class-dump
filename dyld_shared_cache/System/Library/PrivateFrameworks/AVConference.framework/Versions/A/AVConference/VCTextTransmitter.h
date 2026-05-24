@@ -4,25 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLock, NSMutableArray, NSObject, NSString, VCAudioRedBuilder;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface VCTextTransmitter
 {
     struct _VCTextTransmitterConfiguration _config;
-    double _txIntervalMin;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    double _startTime;
-    VCAudioRedBuilder *_redBuilder;
-    int _redPayloadType;
-    int _currentPayloadType;
-    _Bool _isIdle;
-    NSLock *_textFramesSendQueueLock;
-    NSMutableArray *_textFramesSendQueue;
-    NSObject<OS_dispatch_source> *_heartbeat;
-    double _idleDuration;
-    unsigned int _emptyFramesToBeSent;
 }
 
 - (void);
@@ -36,16 +21,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id)CCaptionsManagerStreamTokenClientList;
+- (id)VCCaptionsManagerStreamTokenClientList;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

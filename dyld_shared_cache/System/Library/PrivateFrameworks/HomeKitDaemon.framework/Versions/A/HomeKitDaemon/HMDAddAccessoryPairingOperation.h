@@ -6,15 +6,13 @@
 
 #import <HomeKitDaemon/HMDAccessoryBackgroundOperation.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDAddAccessoryPairingOperation : HMDAccessoryBackgroundOperation
 {
 }
 
 + (id)aÿ;
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
@@ -22,19 +20,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)setAverageNumberOfPromotedHighlightsPerMonthPastYear: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool isOwnerUser;
-@property(readonly, nonatomic) unsigned long long newPairingPermission;
-@property(readonly) Class superclass;
 
 @end
 

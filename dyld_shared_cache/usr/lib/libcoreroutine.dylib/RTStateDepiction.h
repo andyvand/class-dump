@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, RTMapItem, RTStateDepictionOneState, RTStateModelLocation;
-@protocol GEOMapItem;
+@class RTStateDepictionOneState;
 
 @interface RTStateDepiction
 {
     long long _numOfDataPts;
-    RTStateDepictionOneState *_clusterState;
 }
 
 + (double);
-+ (_Bool);
++ (_Bool);
 + (long long)edForNotifications;
 - (double);
 - (void);
@@ -22,9 +20,9 @@
 - (id);
 - (id);
 - (id);
+- (id)equence number:%hu, packets sent:%llu, stats packet sequence number:%llu /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id),;
 - (id);
 - (void);
 - (id);
@@ -32,9 +30,9 @@
 - (id);
 - (void);
 - (_Bool);
-- (long long);
+- (long long)?;
 - (double);
-- (void);
+- (void){__SecKey=}8@"NSArray"16@"NSError"24;
 - (void);
 - (_Bool);
 - (id);
@@ -55,12 +53,12 @@
 × ;
 - (void)|Gù1C,ð1Â0@ù
 × ;
-- (void);
-- (void)ator:(id)arg1 error: /* Error: Ran out of types for this method. */;
-- (void)bucketed;
+- (void)setGeoMapItemHandle:(id)arg1;
+- (void)removeFromCoordinator:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)mean_daily_longest_charging_duration_bucketed;
 - (id)with_uninterrupted_WiFi_connection_bucketed:is_iPhone:is_iPad:is_Watch: /* Error: Ran out of types for this method. */;
-- (id)cationsOfInterestFromLocation:(double)arg1 startDate:timeInterval:handler: /* Error: Ran out of types for this method. */;
-- (id)ateValidForSendingEndSessionMessage: /* Error: Ran out of types for this method. */;
+- (id)fetchNextPredictedLocationsOfInterestFromLocation:(double)arg1 startDate:timeInterval:handler: /* Error: Ran out of types for this method. */;
+- (id)_stateValidForSendingEndSessionMessage: /* Error: Ran out of types for this method. */;
 - (id)foreDriveMax;
 - (void)yStyling;
 - (void), 8!Ü"T#Ø&ÜÌ¦H§,« À;
@@ -74,15 +72,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) RTStateDepictionOneState *clusterState; // @synthesize clusterState=_clusterState;
-@property(copy, nonatomic) NSString *customLabel;
-@property(retain, nonatomic) id <GEOMapItem> geoMapItem;
-@property(retain, nonatomic) NSDate *geocodeDate;
-@property(retain, nonatomic) RTStateModelLocation *location;
-@property(retain, nonatomic) RTMapItem *mapItem;
-@property(nonatomic) unsigned long long mapItemSource;
-@property(nonatomic) long long numOfDataPts; // @synthesize numOfDataPts=_numOfDataPts;
-@property(nonatomic) long long type;
-@property(nonatomic) unsigned long long typeSource;
 
 @end
 

@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface DSP_HostCallbacks_ADM
 {
     void *_owner;
-    struct shared_mutex *_mxCallbacks;
-    struct HostCallbacks _hostCallbacks;
 }
 
 - (void);
@@ -26,16 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) struct HostCallbacks hostCallbacks; // @synthesize hostCallbacks=_hostCallbacks;
-@property(nonatomic) struct shared_mutex *mxCallbacks; // @synthesize mxCallbacks=_mxCallbacks;
-@property(nonatomic) void *owner; // @synthesize owner=_owner;
-@property(readonly) Class superclass;
 
 @end
 

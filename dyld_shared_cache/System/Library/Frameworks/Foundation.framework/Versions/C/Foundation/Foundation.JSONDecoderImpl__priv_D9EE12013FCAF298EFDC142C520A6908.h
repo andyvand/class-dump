@@ -7,10 +7,6 @@
 @interface Foundation.JSONDecoderImpl__priv_D9EE12013FCAF298EFDC142C520A6908
 {
     id values;
-    id userInfo;
-    id jsonMap;
-    id options;
-    id codingPathNode;
 }
 
 @end

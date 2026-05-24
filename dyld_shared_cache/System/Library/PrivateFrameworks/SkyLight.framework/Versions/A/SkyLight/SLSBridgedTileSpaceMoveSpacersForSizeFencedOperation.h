@@ -9,22 +9,18 @@
 @interface SLSBridgedTileSpaceMoveSpacersForSizeFencedOperation : SLSAsynchronousBridgedWindowManagementOperation
 {
     unsigned int _fencePort;
-    unsigned long long _tileSpaceID;
-    struct CGSize _size;
 }
 
 + (_Bool);
-- (void);
-- (id);
-- (unsigned int);
+- (void)tence/NSCloudKitMirroringRequestManager.m;
+- (id)y;
+- (unsigned int)ACKHISTORYENTITY INTEGER;
 - (unsigned long long);
 - (id);
-- (struct CGSize);
+- (struct CGSize)xtract polygons open end list;
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned int fencePort; // @synthesize fencePort=_fencePort;
-@property(readonly) struct CGSize size; // @synthesize size=_size;
 @property(readonly) unsigned long long tileSpaceID; // @synthesize tileSpaceID=_tileSpaceID;
 
 @end

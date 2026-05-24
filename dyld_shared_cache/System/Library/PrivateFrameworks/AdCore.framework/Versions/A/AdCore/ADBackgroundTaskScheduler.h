@@ -10,14 +10,14 @@
 {
 }
 
-+ (void);
++ (void)outputSupportedForTypeIdentifier:(id)arg1;
 + (void);
 + (id);
-- (id);
+- (id)((;
 - (void);
+- (void)8p;
 - (void);
-- (void);
-- (void);
+- (void)on;
 
 @end
 

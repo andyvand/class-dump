@@ -5,5 +5,7 @@
 //
 
 @protocol RBAttributeTemplateConfiguring
+- (void);
+- (void)SearchUIFlightCardSectionView;
 @end
 

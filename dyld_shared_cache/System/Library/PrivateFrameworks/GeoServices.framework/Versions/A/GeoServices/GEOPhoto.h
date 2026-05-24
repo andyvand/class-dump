@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOPhoto
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_photoInfos;
-    NSString *_uid;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _photoType;
-    struct {
-        unsigned int has_photoType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_photoInfos:1;
-        unsigned int read_uid:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)teQ:(id)arg1;
-- (void);
-- (void);
-- (void);
-- (id);
++ (Class)ublic}s;
++ (_Bool)setInternalDelegateQ:(id)arg1;
+- (void)initWithContactIdentifiers:(int)arg1 groupIdentifiers:containerIdentifiers:infoIdentifiers:multivalueIdentifiers: /* Error: Ran out of types for this method. */;
+- (void)initWithCalendarIdentifier:(id)arg1;
+- (void)CNCDIOSLegacyIdentifierRegistrarState;
+- (id);
 - (int);
 - (id);
 - (id);
-- (id);
+- (id)';
 - (_Bool);
 - (_Bool);
 - (void);
@@ -46,29 +32,24 @@
 - (id);
 - (void);
 - (void);
+- (id)isDisplayPortRouteWithRecordRoute: /* Error: Ran out of types for this method. */;
+- (void)ut with features %{public}@;
 - (id);
-- (void);
+- (unsigned long long))A;
 - (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (id);
 - (void);
 - (id)ta"b1"read_queryTokenizerMetadata"b1"read_queryTransliterMetadata"b1"read_rawQueryTokenizerMetadata"b1"read_rewrittenQuery"b1"read_richBrandMetadata"b1"read_tokenSynonymMetadata"b1"wrote_anyField"b1};
-- (id)tes;
+- (id)_subTaskRecvBytes;
 - (id)ðè;
-- (id);
+- (id)dayOfMonth;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool hasPhotoType;
-@property(readonly, nonatomic) _Bool hasUid;
-@property(retain, nonatomic) NSMutableArray *photoInfos;
-@property(nonatomic) int photoType;
-@property(retain, nonatomic) NSString *uid;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

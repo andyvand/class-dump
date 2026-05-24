@@ -6,22 +6,19 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface MHSchemaMHDarwinConnectedDeviceWakeEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
+- (void)acController msuPersonalizePreflightFailed:(_Bool)arg1 ];
+- (id)P;
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)n/bn_exp2.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)%;
 - (id);
 - (id)velUnionType",N,&,VtluEvent;
 - (id)nningExpression",&,N,V_continuePlanning;
@@ -31,8 +28,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

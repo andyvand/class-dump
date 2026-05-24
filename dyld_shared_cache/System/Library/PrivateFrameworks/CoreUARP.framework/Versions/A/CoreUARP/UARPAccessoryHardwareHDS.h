@@ -14,7 +14,7 @@
 }
 
 - (id);
-- (id);
+- (id)_TtC18AppleMediaServices28MetricsConsumerIDRotateActor;
 - (_Bool);
 - (id);
 - (id);

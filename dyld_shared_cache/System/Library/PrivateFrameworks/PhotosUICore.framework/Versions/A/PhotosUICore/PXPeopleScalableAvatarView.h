@@ -6,18 +6,11 @@
 
 #import <PhotosUICore/PXSmartScaleView.h>
 
-@class CALayer, PHFace, UXImageView;
-@protocol PXPerson;
+@class CALayer;
 
 @interface PXPeopleScalableAvatarView : PXSmartScaleView
 {
     CALayer *_imageLayer;
-    _Bool _useLowMemoryMode;
-    UXImageView *_imageView;
-    id <PXPerson> _person;
-    PHFace *_face;
-    long long _cornerStyle;
-    double _imageViewCornerRadius;
 }
 
 - (void);
@@ -31,7 +24,7 @@
 - (void);
 - (void);
 - (id)24@?<B@?>28@?<v@?@"<PXGDisplayAssetPixelBufferSource>">36;
-- (id)rties;
+- (id)photosGraphProperties;
 - (void)KÐL;
 - (id)gGGAJyÞ¶«ySo16NSViewControllerCGSgGG_AAyAAyAyJy³¤¤GGAJyi¦¤GGQo_§5¤y9
 ¤GGA5_y	;
@@ -42,12 +35,7 @@
 - (void)à­ÿ;¹=;
 
 // Remaining properties
-@property(nonatomic) long long cornerStyle; // @synthesize cornerStyle=_cornerStyle;
-@property(retain, nonatomic) PHFace *face; // @synthesize face=_face;
-@property(retain) UXImageView *imageView; // @synthesize imageView=_imageView;
 @property(nonatomic) double imageViewCornerRadius; // @synthesize imageViewCornerRadius=_imageViewCornerRadius;
-@property(retain, nonatomic) id <PXPerson> person; // @synthesize person=_person;
-@property(nonatomic) _Bool useLowMemoryMode; // @synthesize useLowMemoryMode=_useLowMemoryMode;
 
 @end
 

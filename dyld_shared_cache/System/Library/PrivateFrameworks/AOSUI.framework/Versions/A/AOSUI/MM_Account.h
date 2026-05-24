@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, CNContact, NSArray, NSDictionary, NSImage, NSMutableDictionary, NSString, NSWindow;
+@class ACAccount, NSImage;
 
 @interface MM_Account
 {
     ACAccount *_appleAccount;
-    NSString *_accountID;
-    _Bool _suppressFailureSheets;
-    NSMutableDictionary *_suppressedFailures;
-    struct os_unfair_lock_s _appleAccountLock;
-    NSArray *_services;
-    NSString *_displayName;
-    NSDictionary *_context;
-    NSWindow *_parentWindow;
-    NSImage *_cachedImage;
-    NSImage *_croppedImage;
-    struct CGRect _imageCropRect;
 }
 
 + (id);
@@ -38,7 +27,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)k;
 - (id);
 - (_Bool);
 - (id);
@@ -52,7 +41,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)c(b` aŦ;
 - (void);
 - (void);
 - (void);
@@ -82,21 +71,10 @@
 - (id);
 - (void)!0BùñXð1Â0@ù
 × ;
-- (id)gured;
+- (id)hasMailConfigured;
 
 // Remaining properties
-@property(retain) ACAccount *appleAccount;
 @property(retain) NSImage *cachedImage; // @synthesize cachedImage=_cachedImage;
-@property(readonly) CNContact *contact;
-@property(retain) NSDictionary *context; // @synthesize context=_context;
-@property(retain) NSImage *croppedImage; // @synthesize croppedImage=_croppedImage;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly) NSImage *editorImage;
-@property(readonly) NSImage *image;
-@property struct CGRect imageCropRect; // @synthesize imageCropRect=_imageCropRect;
-@property(retain, nonatomic) NSWindow *parentWindow; // @synthesize parentWindow=_parentWindow;
-@property(readonly) NSDictionary *properties;
-@property(readonly) NSArray *services; // @synthesize services=_services;
 
 @end
 

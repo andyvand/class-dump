@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, RTDefaultsManager, RTPlatform, RTTrustedTimeCache;
+@class NSDate;
 
 @interface RTAuthorizedLocationBiometricsManager
 {
     NSDate *_dateOfLastUpdate;
-    NSDate *_dateOfMostRecentBiometricAuthentication;
-    RTTrustedTimeCache *_trustedTimeCache;
-    RTDefaultsManager *_defaultsManager;
-    RTPlatform *_platform;
 }
 
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)flags;
+- (_Bool)ecovery Token in Keychain, needs repair;
+- (id)NSURLError;
 - (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)B20;
+- (id)ailed to get Ingress input / output rings (%X %X);
+- (id);
 - (id)fication:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void)DelegateInitialization:notification name, %@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *dateOfLastUpdate; // @synthesize dateOfLastUpdate=_dateOfLastUpdate;
-@property(retain, nonatomic) NSDate *dateOfMostRecentBiometricAuthentication; // @synthesize dateOfMostRecentBiometricAuthentication=_dateOfMostRecentBiometricAuthentication;
-@property(readonly, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property(readonly, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
-@property(readonly, nonatomic) RTTrustedTimeCache *trustedTimeCache; // @synthesize trustedTimeCache=_trustedTimeCache;
 
 @end
 

@@ -4,36 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CoreSpeechXPCFakeModelMonitor
 {
     _Bool _shouldRollFakeModel;
-    int _fakeAssetRollNotificationRegistrationToken;
-    NSString *_lastFakeModelUsedHash;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (_Bool);
-- (void);
+- (void)';
 - (void);
 - (void);
 - (id);
 - (int);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
-- (void)DeltaScoreThresholdForPhId: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)setFillGapsAreaRatio:(id)arg1;
+- (id);
+- (void)multiUserDeltaScoreThresholdForPhId: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) int fakeAssetRollNotificationRegistrationToken; // @synthesize fakeAssetRollNotificationRegistrationToken=_fakeAssetRollNotificationRegistrationToken;
-@property(retain) NSString *lastFakeModelUsedHash; // @synthesize lastFakeModelUsedHash=_lastFakeModelUsedHash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property _Bool shouldRollFakeModel; // @synthesize shouldRollFakeModel=_shouldRollFakeModel;
 
 @end
 

@@ -15,13 +15,13 @@
 
 + (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
+- (id)#;
 - (id);
 - (void);
+- (id)_recurrenceFrequencyWithState: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)ResolveNamesResponse;
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableSet *accessControlEntities; // @synthesize accessControlEntities=_accessControlEntities;

@@ -7,7 +7,7 @@
 @protocol UNUserNotificationCenterDelegate
 
 @optional
-- (void)gate;
+- (void)aggregate;
 - (void)eryNearOwnerID;
 @end
 

@@ -4,29 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCachedURLResponse, NSObject, NSString, NSURLCache, NSURLProtocol, NSURLRequest, NSURLResponse, NWURLError, NWURLSessionReadRequest, NWURLSessionTaskConfiguration;
-@protocol NWURLLoaderClient, OS_dispatch_data, OS_dispatch_queue, OS_nw_connection, OS_nw_http_fields, OS_sec_trust;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NWURLLoader
 {
     _Bool _receivedResponse;
-    _Bool _complete;
-    NSURLRequest *_request;
-    NWURLSessionTaskConfiguration *_configuration;
-    id <NWURLLoaderClient> _client;
-    NSObject<OS_dispatch_queue> *_queue;
-    Class _protocolClass;
-    NSURLCache *_cache;
-    NSURLProtocol *_protocol;
-    unsigned long long _cacheStoragePolicy;
-    NSObject<OS_dispatch_data> *_dataToCache;
-    NSCachedURLResponse *_cachedResponseInternal;
-    unsigned long long _maxItemSizeToCache;
-    CDUnknownBlockType _awaitingResponse;
-    NSURLResponse *_response;
-    NWURLSessionReadRequest *_readRequest;
-    NWURLError *_error;
 }
 
 - (void);
@@ -34,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -45,7 +28,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)H;
 - (void);
 - (void);
 - (void);
@@ -55,18 +38,7 @@ __attribute__((visibility("hidden")))
 - (void)X;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSString *multipartMixedReplaceBoundary;
-@property(readonly, nonatomic) NSObject<OS_sec_trust> *peerTrust;
-@property(readonly, nonatomic) _Bool requestComplete;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSObject<OS_nw_http_fields> *trailerFields;
-@property(readonly, nonatomic) NSObject<OS_nw_connection> *underlyingConnection;
 
 @end
 

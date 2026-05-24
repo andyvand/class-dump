@@ -12,16 +12,14 @@ __attribute__((visibility("hidden")))
 @interface NSStopTouchingMeBox : NSBox
 {
     NSView *sibling1;
-    NSView *sibling2;
-    double offset;
 }
 
 - (void);
 - (void);
-- (void);
-- (void);
-- (id)ue;
-- (void)Defaults;
+- (void);
+- (void);
+- (id)presentedItemOperationQueue;
+- (void)_resetDefaults;
 - (void)te while editing in an iOS client;
 
 @end

@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, TSSPropertyMap;
-
 @interface TSWPDropCap
 {
     unsigned long long _charCount;
-    TSSPropertyMap *_characterStyleOverridePropertyMap;
-    NSArray *_spacings;
 }
 
 + (id);
 + (id);
 + (id);
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)MPCAssetLocation;
+- (id);
 - (id);
 - (unsigned long long);
 - (void);
@@ -29,8 +25,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long charCount; // @synthesize charCount=_charCount;
-@property(readonly, retain, nonatomic) TSSPropertyMap *characterStyleOverridePropertyMap; // @synthesize characterStyleOverridePropertyMap=_characterStyleOverridePropertyMap;
-@property(readonly, retain, nonatomic) NSArray *spacings; // @synthesize spacings=_spacings;
 
 @end
 

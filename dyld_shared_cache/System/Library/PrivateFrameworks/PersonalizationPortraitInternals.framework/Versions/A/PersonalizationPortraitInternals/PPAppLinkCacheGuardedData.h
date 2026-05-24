@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSMutableSet;
+@class NSMutableSet;
 
 @interface PPAppLinkCacheGuardedData
 {
     NSMutableSet *_enabledAppIDs;
-    NSDictionary *_urlToAppID;
-    NSMutableDictionary *_mutableURLToAppID;
 }
 
-- (void)Configuration;
+- (void)topicAlgorithmConfiguration;
 
 @end
 

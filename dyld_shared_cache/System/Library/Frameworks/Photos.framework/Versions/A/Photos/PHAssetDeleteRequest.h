@@ -18,8 +18,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)qA;
+- (void)_;
 - (void)date;
 
 // Remaining properties

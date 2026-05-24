@@ -9,9 +9,6 @@
 @interface MRAnimationPathPhysics : MCAnimationPathPhysics
 {
     float mBaseValue;
-    float mDeltaValue;
-    float mVelocity;
-    double mTime;
 }
 
 - (id);
@@ -19,11 +16,10 @@
 - (void);
 - (float);
 - (float);
-- (void);
+- (void)P;
 
 // Remaining properties
 @property(nonatomic) float baseValue; // @synthesize baseValue=mBaseValue;
-@property(nonatomic) float velocity; // @synthesize velocity=mVelocity;
 
 @end
 

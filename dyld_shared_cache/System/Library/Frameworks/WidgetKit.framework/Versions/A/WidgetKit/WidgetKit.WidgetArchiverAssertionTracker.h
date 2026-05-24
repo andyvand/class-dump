@@ -7,10 +7,6 @@
 @interface WidgetKit.WidgetArchiverAssertionTracker
 {
     id queue;
-    id runningAssertion;
-    id assertionCount;
-    id target;
-    id attribute;
 }
 
 @end

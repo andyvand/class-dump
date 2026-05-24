@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMIFAutocompleteBaseEntry, GEOPDAutocompleteEntry, GEOPDMIFAutocompleteEntryServer;
+@class GEOMIFAutocompleteBaseEntry;
 
 @interface GEOMIFAutocompleteEntryServer
 {
     GEOMIFAutocompleteBaseEntry *_baseEntry;
-    GEOPDAutocompleteEntry *_serverAutocompleteEntry;
-    GEOPDMIFAutocompleteEntryServer *_pdServerEntry;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Operation>";
 - (id);
 - (void)hÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMIFAutocompleteBaseEntry *baseEntry; // @synthesize baseEntry=_baseEntry;
-@property(readonly, nonatomic) GEOPDMIFAutocompleteEntryServer *pdServerEntry; // @synthesize pdServerEntry=_pdServerEntry;
-@property(readonly, nonatomic) GEOPDAutocompleteEntry *serverAutocompleteEntry; // @synthesize serverAutocompleteEntry=_serverAutocompleteEntry;
 
 @end
 

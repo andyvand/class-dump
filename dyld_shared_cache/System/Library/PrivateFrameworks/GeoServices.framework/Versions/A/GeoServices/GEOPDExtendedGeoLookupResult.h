@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDExtendedGeoLookupResult
 {
     PBUnknownFields *_unknownFields;
-    NSString *_dataSourceId;
-    int _status;
-    _Bool _primaryFeatureMatched;
-    struct {
-        unsigned int has_status:1;
-        unsigned int has_primaryFeatureMatched:1;
-    } _flags;
 }
 
 - (id);
@@ -25,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)s_isStrictMapRegion"b1"has_requestAddressesForPostCode"b1"read_unknownFields"b1"read_addressResultSubTypeFilter"b1"read_punchInHints"b1"read_queryString"b1"read_structuredAddress"b1"read_viewportInfo"b1"wrote_anyField"b1};
-- (id)ationInfo;
+- (id)_destinationInfo;
 - (id)Ð$$&'x(ô()0+;
 - (void);
 

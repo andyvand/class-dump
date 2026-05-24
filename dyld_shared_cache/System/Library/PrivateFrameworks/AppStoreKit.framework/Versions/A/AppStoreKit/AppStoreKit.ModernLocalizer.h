@@ -9,26 +9,25 @@
 @interface AppStoreKit.ModernLocalizer
 {
     id localizer;
-    id legacyLocalizer;
 }
 
 - (id);
 - (id);
+- (id)o;
+- (id);
+- (id);
+- (id);
+- (id)o;
 - (id);
 - (id);
 - (id);
+- (id)o;
 - (id);
+- (id)o;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)o;
+- (id);
 - (id);
 - (void)Y_[)Ò	yu¡Y_p9container_k¡Y_p5modeltGt;
 

@@ -4,39 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, _MRNowPlayingPlayerPathProtobuf;
+@class NSMutableArray;
 
 @interface _MRPlayerClientParticipantsUpdateMessageProtobuf
 {
     NSMutableArray *_participants;
-    _MRNowPlayingPlayerPathProtobuf *_playerPath;
 }
 
 + (Class);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)(;
 - (id);
 - (void);
-- (void);
+- (void))A;
 - (unsigned long long);
+- (id);
+- (_Bool);
 - (id);
+- (void)y",&,N,V_fileTransferGUIDs;
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)works/BluetoothManager.framework/BluetoothManager;
 - (void);
 - (void)_timer;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasPlayerPath;
-@property(retain, nonatomic) NSMutableArray *participants; // @synthesize participants=_participants;
-@property(retain, nonatomic) _MRNowPlayingPlayerPathProtobuf *playerPath; // @synthesize playerPath=_playerPath;
 
 @end
 

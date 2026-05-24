@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, ODDSiriSchemaODDFixedDimensions;
+@class ODDSiriSchemaODDFixedDimensions;
 
 @interface ODDSiriSchemaODDAssistantDeviceDigestsReported : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDFixedDimensions *_fixedDimensions;
-    NSArray *_digests;
-    _Bool _hasFixedDimensions;
 }
 
 - (void);
@@ -20,14 +18,14 @@
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -35,16 +33,13 @@
 - (id);
 - (id)Ár!GùÞ°1Â0@ù
 × ;
-- (id)oreKeeperCount;
+- (id)crossDomainRankerScoreKeeperCount;
 - (id)_numUtterances;
 - (id)ed;
-- (void)RPARAMETERSUBTYPE_REFERENCE_FILE_URL;
+- (void)JRPARAMETERSUBTYPE_REFERENCE_FILE_URL;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *digests; // @synthesize digests=_digests;
 @property(retain, nonatomic) ODDSiriSchemaODDFixedDimensions *fixedDimensions; // @synthesize fixedDimensions=_fixedDimensions;
-@property(nonatomic) _Bool hasFixedDimensions; // @synthesize hasFixedDimensions=_hasFixedDimensions;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

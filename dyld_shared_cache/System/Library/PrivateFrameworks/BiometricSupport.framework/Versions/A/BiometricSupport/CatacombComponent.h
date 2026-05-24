@@ -16,9 +16,9 @@
 - (_Bool);
 - (CDStruct_d83c1276 *);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)H;
 - (id);
-- (_Bool);
+- (_Bool)wcacheDS_SectorsMin;
 - (_Bool);
 - (CDStruct_c73fd62c *);
 - (_Bool);
@@ -26,8 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CDStruct_d83c1276 *component;
-@property(readonly, nonatomic) CDStruct_c73fd62c *group;
-@property(readonly, nonatomic) unsigned int userID;
 
 @end
 

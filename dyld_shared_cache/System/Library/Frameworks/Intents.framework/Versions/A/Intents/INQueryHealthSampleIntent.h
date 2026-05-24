@@ -6,8 +6,6 @@
 
 #import <Intents/INIntent.h>
 
-@class HKUnit, NSArray, NSString;
-
 @interface INQueryHealthSampleIntent : INIntent
 {
 }
@@ -27,31 +25,19 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)_fileProviderFileIdentifier;
 - (void);
 - (id);
 - (void);
 - (void);
 - (long long);
 - (id);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) long long expectedResultType;
-@property(readonly) unsigned long long hash;
 @property(readonly) long long objectType;
-@property(readonly) long long questionType;
-@property(readonly, copy) NSArray *recordDates;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSArray *thresholdValues;
-@property(readonly, copy) HKUnit *unit;
 
 @end
 

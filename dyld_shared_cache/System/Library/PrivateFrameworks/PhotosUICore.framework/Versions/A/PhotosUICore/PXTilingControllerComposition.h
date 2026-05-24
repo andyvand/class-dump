@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-@protocol PXScrollController, PXTilingControllerCompositionInput, PXTilingControllerCompositionObserver, PXTilingControllerCompositionOutput;
+@protocol PXScrollController;
 
 @interface PXTilingControllerComposition
 {
     _Bool _active;
-    NSSet *_tilingControllers;
-    id <PXTilingControllerCompositionInput> _input;
-    id <PXTilingControllerCompositionOutput> _output;
-    id <PXScrollController> __scrollController;
-    id <PXTilingControllerCompositionObserver> _observer;
 }
 
 - (id);
@@ -26,20 +20,15 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}^{_CGLPrivateObject}^v}16^{_CGLPixelFormatObject=}24d32r^{?=IiqQdq{CVSMPTETime=ssIIIssss}QQ}40;
 - (id);
 - (void);
 - (void);
-- (void)ce;
+- (void)PeoplePetsHomeVisibilitySource;
 - (id)y¿¬æ;
 
 // Remaining properties
 @property(nonatomic, setter=_setScrollController:) __weak id <PXScrollController> _scrollController; // @synthesize _scrollController=__scrollController;
-@property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(nonatomic) __weak id <PXTilingControllerCompositionInput> input; // @synthesize input=_input;
-@property(nonatomic) __weak id <PXTilingControllerCompositionObserver> observer; // @synthesize observer=_observer;
-@property(nonatomic) __weak id <PXTilingControllerCompositionOutput> output; // @synthesize output=_output;
-@property(readonly, copy, nonatomic) NSSet *tilingControllers; // @synthesize tilingControllers=_tilingControllers;
 
 @end
 

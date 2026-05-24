@@ -9,11 +9,6 @@
 @interface SCNCone : SCNGeometry
 {
     double _conetopRadius;
-    double _conebottomRadius;
-    double _coneheight;
-    long long _coneheightSegmentCount;
-    long long _coneradialSegmentCount;
-    long long _coneprimitiveType;
 }
 
 + (id);
@@ -196,10 +191,6 @@
 ;
 
 // Remaining properties
-@property(nonatomic) double bottomRadius;
-@property(nonatomic) double height;
-@property(nonatomic) long long heightSegmentCount;
-@property(nonatomic) long long radialSegmentCount;
 @property(nonatomic) double topRadius;
 
 @end

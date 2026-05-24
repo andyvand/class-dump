@@ -4,29 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
-
 @interface IDSWiProxConnectionSuccessMetric
 {
     unsigned long long _duration;
 }
 
-- (unsigned long long);
-- (id);
+- (unsigned long long)+;
+- (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSDictionary *dictionaryRepresentation;
 @property(readonly, nonatomic) unsigned long long duration; // @synthesize duration=_duration;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSString *name;
-@property(readonly) Class superclass;
 
 @end
 

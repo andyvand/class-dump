@@ -7,8 +7,6 @@
 @interface PodcastsFoundation.FutureDateChecker
 {
     id leniency;
-    id assertionLeniency;
-    id assertOnFutures;
 }
 
 + (_Bool);

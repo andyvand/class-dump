@@ -6,8 +6,6 @@
 
 #import <Safari/LibraryItem.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface LibraryItemHeader : LibraryItem
 {
@@ -19,11 +17,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (long long)uthorization;
+- (long long)deleteWithUndoWithoutAuthorization;
 
 // Remaining properties
 @property(readonly, nonatomic) long long headerType; // @synthesize headerType=_headerType;
-@property(readonly, nonatomic) NSString *headerTypeString;
 
 @end
 

@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)tate:(id)arg1 %ld, smsFilterCapabilitiesOptions:%lu, filterExtensionName:%@. Checking if we need to update filter params. /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 

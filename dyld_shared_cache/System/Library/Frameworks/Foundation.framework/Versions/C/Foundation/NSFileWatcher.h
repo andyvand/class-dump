@@ -4,27 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSFileWatcherObservations, NSMutableDictionary, NSObject, NSString, NSURL;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface NSFileWatcher
 {
     NSObject<OS_dispatch_queue> *_queue;
-    CDStruct_4c969caf _auditToken;
-    NSURL *_url;
-    CDUnknownBlockType _observer;
-    _Bool _isWatching;
-    NSObject<OS_dispatch_source> *_eventSource;
-    unsigned long long _lastObservedEventID;
-    struct __FSEventStream *_eventStream;
-    _Bool _eventsAreAboutDirectory;
-    _Bool _isUnsettled;
-    NSFileWatcherObservations *_itemObservations;
-    NSMutableDictionary *_subitemObservationsByEventPath;
-    NSURL *_fileReferenceURL;
-    NSString *_formerPath;
-    NSURL *_formerURL;
 }
 
 - (void);
@@ -36,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void)undation16_TimeZoneBridged;
+- (void)_TtC10Foundation16_TimeZoneBridged;
 - (void)>P=À ;
 - (void);
 

@@ -6,34 +6,33 @@
 
 #import <EventKit/EKObject.h>
 
-@class EKSource, NSSet;
+@class EKSource;
 
 @interface EKNotificationCollection : EKObject
 {
 }
 
-+ (id);
++ (id)MRAVEndpointGroupSessionHostingEligibilityDidChangeNotification;
 + (Class);
-+ (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (void);
++ (_Bool)drain_duration_p_0_75_at_charge_start_secs_curr_dynamic_bin_1;
+- (void)eUtils;
+- (void)unsupported type;
+- (_Bool)_MRMediaRemoteActiveOriginDidChangeNotification;
 - (void);
 - (id);
-- (void);
 - (_Bool);
-- (unsigned int);
+- (void)RDDataacess doesn't care about subscribed calendar (yet) {url:(id)arg1 %@};
 - (void);
+- (id)ndler;
+- (void)0;
+- (_Bool)selectionImageRect;
+- (unsigned int)initWithGeolocation: /* Error: Ran out of types for this method. */;
+- (void)WebElementIsSelected;
 - (void);
 - (id)@ù
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *notifications;
 @property(readonly, nonatomic) EKSource *source;
 
 @end

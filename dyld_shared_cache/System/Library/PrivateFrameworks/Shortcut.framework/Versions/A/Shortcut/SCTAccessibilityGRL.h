@@ -12,18 +12,17 @@ __attribute__((visibility("hidden")))
 @interface SCTAccessibilityGRL : SCTGRL
 {
     NSString *mRole;
-    NSString *mSubrole;
 }
 
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);

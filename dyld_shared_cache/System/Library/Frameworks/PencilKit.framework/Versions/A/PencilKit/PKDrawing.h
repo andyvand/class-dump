@@ -4,29 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CHRecognitionSession, NSArray, NSMapTable, NSMutableArray, NSUUID, PKRecognitionSessionManager, PKVisualizationManager;
-
 @interface PKDrawing
 {
     _Bool _recognitionEnabled;
-    NSArray *_forcedRecognitionLocales;
-    NSUUID *_listenerID;
-    NSMutableArray *_cachedVisibleStrokes;
-    PKRecognitionSessionManager *_recognitionManager;
-    CHRecognitionSession *_recognitionSession;
-    NSMapTable *_ongoingQueries;
-    PKVisualizationManager *_visualizationManager;
 }
 
 + (id);
 + (void);
-+ (id);
++ (id);
 + (id);
 + (Class);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (long long);
 + (struct CGRect);

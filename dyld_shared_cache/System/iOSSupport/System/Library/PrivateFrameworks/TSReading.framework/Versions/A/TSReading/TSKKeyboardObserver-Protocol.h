@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSNotification;
+
 @protocol TSKKeyboardObserver
+
+@optional
+- (void)yerCanSpeedRampChanged - timeStamp:(NSNotification *)arg1;
+- (void);
+- (void)ling: /* Error: Ran out of types for this method. */;
+- (void)ueueEnd - timeStamp:(NSNotification *)arg1;
+- (void)playbackTimeDidChange:(NSNotification *)arg1;
+- (void)zine feed paywall group.;
 @end
 

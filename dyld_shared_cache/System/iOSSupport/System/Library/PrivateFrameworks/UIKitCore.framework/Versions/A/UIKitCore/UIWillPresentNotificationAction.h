@@ -15,22 +15,19 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)+X;
 - (id);
 - (_Bool);
 - (id)
 × ;
 - (_Bool)lEù1\ð1Â0@ù
 × ;
-- (id)Context:(long long)arg1;
-- (id)itcard;
+- (id)drawSelectionLayerBlockMode:(long long)arg1 inContext:(id)arg2;
+- (id)creditcard;
 - (void)L_;
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isDeliverable; // @synthesize isDeliverable=_isDeliverable;
-@property(readonly, nonatomic) _Bool isLocal;
-@property(readonly, nonatomic) _Bool isRemote;
 @property(readonly, retain, nonatomic) UNNotification *notification; // @synthesize notification=_notification;
 
 @end

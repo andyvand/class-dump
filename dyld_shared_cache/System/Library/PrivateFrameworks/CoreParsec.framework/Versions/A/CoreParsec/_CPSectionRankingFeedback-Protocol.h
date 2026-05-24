@@ -4,16 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, _CPResultSectionForFeedback;
+@class NSArray;
 
 @protocol _CPSectionRankingFeedback
+- (NSArray *)(t;
+- (void)t;
+- (unsigned long long)@;
+- (void)invitationPreferencesFromURLComponents: /* Error: Ran out of types for this method. */;
+- (double);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int localSectionPosition;
-@property(nonatomic) double personalizationScore;
-@property(copy, nonatomic) NSArray *results;
-@property(retain, nonatomic) _CPResultSectionForFeedback *section;
 @property(nonatomic) unsigned long long timestamp;
 @end
 

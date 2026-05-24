@@ -9,7 +9,6 @@
 @interface MPSNDArrayMatrixMultiplicationGradient : MPSNDArrayMultiaryGradientKernel
 {
     double _alpha;
-    double _beta;
 }
 
 + (_Bool);
@@ -19,7 +18,7 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (void);
@@ -32,7 +31,6 @@
 
 // Remaining properties
 @property(nonatomic) double alpha; // @synthesize alpha=_alpha;
-@property(nonatomic) double beta; // @synthesize beta=_beta;
 
 @end
 

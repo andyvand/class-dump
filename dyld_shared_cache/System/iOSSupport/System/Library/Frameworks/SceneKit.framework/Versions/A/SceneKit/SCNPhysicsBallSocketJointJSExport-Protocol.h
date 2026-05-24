@@ -7,11 +7,9 @@
 @class SCNPhysicsBody;
 
 @protocol SCNPhysicsBallSocketJointJSExport
++ (id);
 
 // Remaining properties
-@property(nonatomic) struct SCNVector3 anchorA;
-@property(nonatomic) struct SCNVector3 anchorB;
 @property(readonly, nonatomic) SCNPhysicsBody *bodyA;
-@property(readonly, nonatomic) SCNPhysicsBody *bodyB;
 @end
 

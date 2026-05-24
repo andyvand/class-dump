@@ -4,52 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOBusinessHours, GEOResultRefinementTime, NSArray, NSColor, NSDate, NSString, NSTimeZone;
-
 @interface _MKLocalizedHoursBuilder
 {
     _Bool _isClosedTodayAllDay;
-    _Bool _isCurrentlyClosed;
-    _Bool _isClosingSoon;
-    _Bool _isOpeningSoon;
-    _Bool _isPermanentlyClosed;
-    _Bool _isTemporarilyClosed;
-    _Bool _isOpenTodayAllDay;
-    _Bool _isCurrentlyOpen;
-    _Bool _isUsingConciseStyle;
-    GEOResultRefinementTime *_openAt;
-    NSString *_localizedOperatingHours;
-    NSString *_localizedOpenState;
-    NSColor *_hoursStateLabelColor;
-    NSDate *_compareDate;
-    long long _state;
-    unsigned long long _geoMapItemOpeningHourOptions;
-    unsigned long long _localizedHoursStringOptions;
-    NSTimeZone *_timeZone;
-    GEOBusinessHours *_operatingHours;
 }
 
 + (id);
++ (id)+;
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)C;
 + (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)permissionsForSubsystem:(id)arg1 category:(id)arg2;
+- (void)permissionCache;
+- (void)Pm;
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)_֍;
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
@@ -65,27 +45,18 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)d;
 - (id);
-- (id);
+- (id)rfcommChannelIDForService: /* Error: Ran out of types for this method. */;
 - (long long);
 - (void);
-- (void);
-- (void)rSegment: /* Error: Ran out of types for this method. */;
+- (void)Anyone;
+- (void)setImage:forSegment: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *AMPMSymbols;
-@property(retain, nonatomic) NSDate *compareDate; // @synthesize compareDate=_compareDate;
 @property(nonatomic) unsigned long long geoMapItemOpeningHourOptions; // @synthesize geoMapItemOpeningHourOptions=_geoMapItemOpeningHourOptions;
-@property(readonly, nonatomic) NSColor *hoursStateLabelColor; // @synthesize hoursStateLabelColor=_hoursStateLabelColor;
-@property(nonatomic) unsigned long long localizedHoursStringOptions; // @synthesize localizedHoursStringOptions=_localizedHoursStringOptions;
-@property(readonly, nonatomic) NSString *localizedOpenState; // @synthesize localizedOpenState=_localizedOpenState;
-@property(readonly, nonatomic) NSString *localizedOperatingHours; // @synthesize localizedOperatingHours=_localizedOperatingHours;
-@property(retain, nonatomic) GEOBusinessHours *operatingHours; // @synthesize operatingHours=_operatingHours;
-@property(readonly, nonatomic) long long state; // @synthesize state=_state;
-@property(retain, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
 
 @end
 

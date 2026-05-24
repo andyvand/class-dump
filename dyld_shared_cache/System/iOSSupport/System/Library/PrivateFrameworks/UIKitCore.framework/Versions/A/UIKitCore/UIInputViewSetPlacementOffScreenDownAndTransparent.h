@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool)onTestingTestFinishedNotification;
++ (_Bool)UIApplicationTestingTestFinishedNotification;
 - (double))T33u1;
 
 @end

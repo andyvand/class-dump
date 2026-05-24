@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface SNDirectionOfArrivalResult
 {
     id impl;
@@ -15,16 +13,16 @@
 - (void);
 - (id);
 - (void);
+- (void)_roles;
+- (float);
 - (void);
-- (float);
-- (void);
-- (id);
+- (id)?;
 - (id);
 - (float);
 - (id);
 - (long long);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)(=;
 - (id);
 - (CDStruct_3c1748cc)!TBùÑ
 °1Â0@ù
@@ -32,11 +30,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) float azimuth;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic) float elevation;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, copy) NSArray *spatialSpectrum;
 @property(nonatomic) CDStruct_3c1748cc timeRange;
 
 @end

@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INTimer;
-
 @protocol INCreateTimerIntentResponseExport
-- (long long)n: /* Error: Ran out of types for this method. */;
+- (long long)handleSaveParkingLocation:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) INTimer *createdTimer;
 @end
 

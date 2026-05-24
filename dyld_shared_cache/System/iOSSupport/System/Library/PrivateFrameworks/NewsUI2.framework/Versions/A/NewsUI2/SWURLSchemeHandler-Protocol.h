@@ -7,6 +7,10 @@
 @protocol WKURLSchemeTask;
 
 @protocol SWURLSchemeHandler
+- (id <WKURLSchemeTask>);
+- (void)SDySiySo19AVPlayerItemSegmentCSgcG;
+- (void);
+- (void)p;
 
 // Remaining properties
 @property(readonly, nonatomic) id <WKURLSchemeTask> task;

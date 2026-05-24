@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICNoteContext, ICNotesCrossProcessChangeCoordinator, NSManagedObjectContext, NSManagedObjectID, NSPersistentStoreCoordinator;
-@protocol ICLegacyAccount;
+@class ICNoteContext;
 
 @interface ICUnifiedNoteContext
 {
     ICNoteContext *_modernNoteContext;
-    NSManagedObjectContext *_htmlNoteContext;
-    unsigned long long _options;
 }
 
 - (_Bool);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -26,29 +24,18 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
-- (void)hWithOvalInRect: /* Error: Ran out of types for this method. */;
+- (void)bezierPathWithOvalInRect: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) NSManagedObjectID *defaultAccountObjectID;
-@property(nonatomic, readonly) NSManagedObjectContext *htmlManagedObjectContext;
-@property(readonly, nonatomic) NSManagedObjectContext *htmlNoteContext;
-@property(readonly, nonatomic) NSPersistentStoreCoordinator *htmlStoreCoordinator;
-@property(nonatomic, readonly) id <ICLegacyAccount> legacyAccountForLocalAccount;
-@property(nonatomic, readonly) ICNotesCrossProcessChangeCoordinator *modernCrossProcessChangeCoordinator;
-@property(nonatomic, readonly) NSManagedObjectContext *modernManagedObjectContext;
 @property(readonly, nonatomic) ICNoteContext *modernNoteContext;
-@property(readonly, nonatomic) NSPersistentStoreCoordinator *modernStoreCoordinator;
-@property(readonly, nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(nonatomic, readonly) _Bool resolvedPrefersViewContext;
 
 @end
 

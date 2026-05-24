@@ -4,38 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface VCSleepAction
 {
     _Bool _goodForSleep;
-    NSString *_bundleIdentifierForDisplay;
-    NSString *_title;
-    NSString *_subtitle;
-    NSString *_identifier;
-    unsigned long long _shortcutAvailability;
-    NSString *_workflowActionIdentifier;
-    NSDictionary *_serializedParameters;
-    NSString *_sourceAppBundleIdentifier;
 }
 
 + (id);
 + (id);
 + (_Bool);
+- (id){;
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (id)+o;
+- (id);
+- (id)m;
+- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (void);
-- (_Bool);
-- (void);
+- (void)setClasses:(id)arg1 forSelector:argumentIndex:ofReply: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -43,14 +35,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *bundleIdentifierForDisplay; // @synthesize bundleIdentifierForDisplay=_bundleIdentifierForDisplay;
-@property(readonly, nonatomic, getter=isGoodForSleep) _Bool goodForSleep; // @synthesize goodForSleep=_goodForSleep;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSDictionary *serializedParameters; // @synthesize serializedParameters=_serializedParameters;
-@property(readonly, nonatomic) unsigned long long shortcutAvailability; // @synthesize shortcutAvailability=_shortcutAvailability;
-@property(copy, nonatomic) NSString *sourceAppBundleIdentifier; // @synthesize sourceAppBundleIdentifier=_sourceAppBundleIdentifier;
-@property(readonly, copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 @property(copy, nonatomic) NSString *workflowActionIdentifier; // @synthesize workflowActionIdentifier=_workflowActionIdentifier;
 
 @end

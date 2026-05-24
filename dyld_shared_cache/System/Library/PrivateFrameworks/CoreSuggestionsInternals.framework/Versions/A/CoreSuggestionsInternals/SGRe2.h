@@ -11,20 +11,20 @@
 
 + (void);
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-- (id);
-- (id);
++ (id);
+- (id)b;
+- (id)ft/libswiftObservation.dylib;
 - (id);
 - (id);
 - (void);
+- (void);
+- (void)`;
 - (void);
-- (void);
-- (void);
-- (int);
+- (int).phonenumbers;
 - (id);
 - (_Bool);
 

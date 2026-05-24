@@ -9,22 +9,18 @@
 @interface GEOSlippyTile
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _x;
-    unsigned int _y;
-    unsigned int _z;
-    CDStruct_ad44f281 _flags;
 }
 
-+ (_Bool)nceScore:(id)arg1;
++ (_Bool)setMapsSuggestionsContactRevelanceScore:(id)arg1;
 - (void);
-- (_Bool);
+- (_Bool)migrateOrphanPropertiesForEntityNamed: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)_trailingSilenceDuration;
 - (id);
 - (unsigned long long);
 - (void);
@@ -39,21 +35,15 @@
 - (id)ataVersion"b1"read_deviceModel"b1"read_offlineVersion"b1"read_osBuild"b1"read_serviceMetrics"b1"wrote_anyField"b1};
 - (_Bool)ingLevel"b1"has_power"b1};
 - (void)@0:(unsigned int)arg1 8@"NSDictionary"16;
-- (id)s;
-- (id)derButtonsConfiguration;
-- (id)S_SUBTYPE_UNKNOWN;
-- (unsigned int)ONS;
+- (id)hasIncludeFeatureSets;
+- (id)GEOPDHeaderButtonsConfiguration;
+- (id)ADDRESS_SUBTYPE_UNKNOWN;
+- (unsigned int)ENABLE_WIDGET_SUGGESTIONS;
 - (void)îÌP@;
 - (unsigned int);
 
 // Remaining properties
 @property(nonatomic) _Bool hasX;
-@property(nonatomic) _Bool hasY;
-@property(nonatomic) _Bool hasZ;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) unsigned int x;
-@property(nonatomic) unsigned int y;
-@property(nonatomic) unsigned int z;
 
 @end
 

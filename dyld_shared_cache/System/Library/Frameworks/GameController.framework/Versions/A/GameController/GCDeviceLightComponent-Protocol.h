@@ -7,6 +7,7 @@
 @class GCDeviceLight;
 
 @protocol GCDeviceLightComponent
+- (GCDeviceLight *);
 
 // Remaining properties
 @property(readonly, nonatomic) GCDeviceLight *light;

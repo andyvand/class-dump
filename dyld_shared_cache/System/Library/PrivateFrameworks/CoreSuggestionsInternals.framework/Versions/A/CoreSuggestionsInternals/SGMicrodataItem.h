@@ -6,22 +6,20 @@
 
 #import <CoreSuggestionsInternals/SGMicrodataItemScope.h>
 
-@class NSArray, NSMutableArray, NSSet;
+@class NSMutableArray, NSSet;
 
 @interface SGMicrodataItem : SGMicrodataItemScope
 {
     NSMutableArray *_itemRef;
-    NSSet *_itemType;
 }
 
 - (void);
 - (id);
 - (id);
 - (void)>AAI`JüKøL¸PÌQèTdV¼Z\¼\]¤côgHhôv´w;
-- (id)nd;
+- (id)found;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *itemRef; // @synthesize itemRef=_itemRef;
 @property(readonly, nonatomic) NSSet *itemType; // @synthesize itemType=_itemType;
 
 @end

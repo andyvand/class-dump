@@ -10,11 +10,6 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 
 #pragma mark Named Structures
 
-struct SGDSuggestManagerCTSCriteriaState {
-    _Bool hasItemsHighPriority;
-    _Bool hasItemsLowPriority;
-};
-
 struct SGMContactDetailExtractionOutcome_ {
     unsigned long long _field1;
 };
@@ -52,7 +47,7 @@ struct SGMSelfIdModelType_ {
 };
 
 struct SGUnixTimestamp_ {
-    double secondsFromUnixEpoch;
+    double _field1;
 };
 
 struct _NSRange {
@@ -81,7 +76,10 @@ struct __DDResult {
         struct __DDQueryOffset _field1;
         struct __DDQueryOffset _field2;
     } _field2;
-    CDStruct_627e0f85 _field3;
+    struct {
+        long long _field1;
+        long long _field2;
+    } _field3;
     long long _field4;
     struct __CFArray *_field5;
     struct __CFString *_field6;
@@ -93,35 +91,10 @@ struct __DDResult {
     float _field12;
 };
 
-struct _opaque_pthread_mutex_t {
-    long long __sig;
-    char __opaque[56];
-};
-
-struct atomic_flag {
-    _Atomic _Bool _Value;
-};
-
 struct graph_t {
     unsigned int _field1;
     unsigned int _field2;
     struct _vertex_t *_field3;
-};
-
-struct sqlite3;
-
-struct sqlite3_tokenizer {
-    struct sqlite3_tokenizer_module *_field1;
-};
-
-struct sqlite3_tokenizer_module {
-    int _field1;
-    CDUnknownFunctionPointerType _field2;
-    CDUnknownFunctionPointerType _field3;
-    CDUnknownFunctionPointerType _field4;
-    CDUnknownFunctionPointerType _field5;
-    CDUnknownFunctionPointerType _field6;
-    struct sqlite3 *_field7;
 };
 
 #pragma mark Typedef'd Structures
@@ -131,6 +104,11 @@ typedef struct {
     unsigned short _field2;
     char _field3[3];
 } CDStruct_e59a5d79;
+
+typedef struct {
+    unsigned short category;
+    unsigned short subtype;
+} CDStruct_88f281c7;
 
 typedef struct {
     unsigned int :1;
@@ -151,27 +129,16 @@ typedef struct {
 } CDStruct_a2e78aaa;
 
 typedef struct {
-    long long location;
-    long long length;
-} CDStruct_627e0f85;
+    CDStruct_88f281c7 _field1;
+    _Bool _field2;
+    _Bool _field3;
+    _Bool _field4;
+    _Bool _field5;
+    _Bool _field6;
+} CDStruct_02e9026e;
 
 typedef struct {
-    struct {
-        unsigned short bom;
-        unsigned short tag;
-    } _featureType;
-    _Bool hasInhumanHeaders;
-    _Bool inhumanEmailAddress;
-    _Bool inhumanAuthorName;
-    _Bool inhumanBody;
-    _Bool isTemplate;
-} CDStruct_f96224e3;
-
-typedef struct {
-    struct {
-        unsigned short _field1;
-        unsigned short _field2;
-    } _field1;
+    CDStruct_88f281c7 _field1;
     int _field2;
     int _field3;
     int _field4;
@@ -187,27 +154,7 @@ typedef struct {
     int _field14;
     int _field15;
     _Bool _field16;
-} CDStruct_df2c591a;
-
-// Ambiguous groups
-typedef struct {
-    unsigned short _field1;
-    unsigned short _field2;
-} CDStruct_d65e47c4;
-
-typedef struct {
-    unsigned int app:1;
-    unsigned int wasKnownContact:1;
-    unsigned int wasSuggestedContact:1;
-} CDStruct_73da3db5;
-
-typedef struct {
-    unsigned int app:1;
-} CDStruct_2bda6786;
-
-typedef struct {
-    unsigned int cacheHit:1;
-} CDStruct_fbc31351;
+} CDStruct_33f124fe;
 
 #pragma mark Typedef'd Unions
 

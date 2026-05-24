@@ -9,20 +9,16 @@
 @interface WBSWindowEntity
 {
     _Bool _isPrivate;
-    NSString *_identifier;
-    NSString *_title;
 }
 
 - (id);
 - (id);
 - (id);
-- (void)r;
+- (void)_cacheSettingsWriter;
 - (_Bool)HÄ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isPrivate; // @synthesize isPrivate=_isPrivate;
-@property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

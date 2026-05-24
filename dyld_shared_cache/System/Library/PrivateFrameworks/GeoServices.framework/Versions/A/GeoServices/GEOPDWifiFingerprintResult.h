@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)ntType"b1"read_attributeIntent"b1"read_businessIntent"b1"read_categoryIntent"b1"read_chainIntent"b1"read_clientResolvedIntent"b1"read_directionIntent"b1"read_geoIntent"b1"read_keywordIntent"b1"read_languageCodes"b1"read_locationIntent"b1"read_phoneNumberIntent"b1"read_proximityIntent"b1"read_searchFilterIntent"b1"read_transitIntent"b1"wrote_anyField"b1};
-- (id)nt;
+- (id)_sslErrorCount;
 - (id);
 - (void)Pà|zÚJ@;
 

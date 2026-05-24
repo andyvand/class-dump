@@ -7,10 +7,6 @@
 @interface AppStoreKit.SegmentedSearchResults
 {
     id segments;
-    id segmentControlActions;
-    id selectedSegment;
-    id facets;
-    id selectedFacetOptions;
 }
 
 @end

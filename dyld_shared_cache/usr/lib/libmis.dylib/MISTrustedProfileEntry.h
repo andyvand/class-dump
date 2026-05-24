@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MISTrustedTeamIDEntry, NSString;
+@class NSString;
 
 @interface MISTrustedProfileEntry
 {
     NSString *_uuid;
-    MISTrustedTeamIDEntry *_trustedTeamIDEntry;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -24,7 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) MISTrustedTeamIDEntry *trustedTeamIDEntry; // @synthesize trustedTeamIDEntry=_trustedTeamIDEntry;
 @property(copy, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end

@@ -4,30 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLogMsgEventMapsEngagement
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_aggregationSummaryDate;
-    NSString *_summaryDate;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _appType;
-    int _reportingChannel;
-    struct {
-        unsigned int has_appType:1;
-        unsigned int has_reportingChannel:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_aggregationSummaryDate:1;
-        unsigned int read_summaryDate:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)tDesiredTime:(id)arg1;
++ (_Bool)setHasStartDesiredTime:(id)arg1;
 - (id);
 - (void);
 - (void);
@@ -37,26 +21,26 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)_numberFormatterWith3SigFigs;
 - (int);
+- (void)x;
 - (void);
 - (void);
-- (void);
+- (id).;
 - (id);
+- (void)};
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)ed %{public}d;
 - (void);
 - (id);
 - (unsigned long long);
+- (_Bool)get configuration descriptor.;
 - (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id)etSubmittedPhotosCount:(struct _NSZone *)arg1;
-- (int)ansit;
+- (id)w;
+- (void);
+- (id)setSubmittedPhotosCount:(struct _NSZone *)arg1;
+- (int)locationUpdatesDesiredAccuracyWhileStationaryForTransit;
 - (id)undDataBuild",&,N;
 - (_Bool)ÌÅHÆ´ÆÇhÈðÑhÓ;
 - (id)source == %{public}@;
@@ -66,15 +50,7 @@
 - (void)q;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *aggregationSummaryDate;
-@property(nonatomic) int appType;
-@property(readonly, nonatomic) _Bool hasAggregationSummaryDate;
-@property(nonatomic) _Bool hasAppType;
 @property(nonatomic) _Bool hasReportingChannel;
-@property(readonly, nonatomic) _Bool hasSummaryDate;
-@property(nonatomic) int reportingChannel;
-@property(retain, nonatomic) NSString *summaryDate;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

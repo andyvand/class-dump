@@ -4,44 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AFSiriAvailability
 {
     _Bool _isAvailable;
-    NSString *_siriLocale;
-    unsigned long long _desiredOrchestrationMode;
-    unsigned long long _unavailabilityReasons;
-    struct AFSiriAllCapabilities _allCapabilities;
 }
 
-+ (id);
++ (id);
 + (id);
 + (_Bool);
-- (unsigned long long);
+- (unsigned long long)TK%@y=;
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (struct AFSiriAllCapabilities);
+- (struct AFSiriAllCapabilities)hasDeviceVersionWithOSVersionRequirementRange: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)!;
 - (id);
 - (id);
-- (_Bool)er: /* Error: Ran out of types for this method. */;
+- (_Bool)parentOfItemWithIdentifier: /* Error: Ran out of types for this method. */;
 - (void)q,N,V_callerIDType;
 
 // Remaining properties
 @property(readonly, nonatomic) struct AFSiriAllCapabilities allCapabilities; // @synthesize allCapabilities=_allCapabilities;
-@property(readonly, nonatomic) unsigned long long desiredOrchestrationMode; // @synthesize desiredOrchestrationMode=_desiredOrchestrationMode;
-@property(readonly, nonatomic) _Bool isAvailable; // @synthesize isAvailable=_isAvailable;
-@property(readonly, copy, nonatomic) NSString *siriLocale; // @synthesize siriLocale=_siriLocale;
-@property(readonly, nonatomic) unsigned long long unavailabilityReasons; // @synthesize unavailabilityReasons=_unavailabilityReasons;
 
 @end
 

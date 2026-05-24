@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, SNKShotLabel;
+@class MLMultiArray;
 
 @interface SNKShotFeaturizationStreamResult
 {
@@ -22,8 +22,6 @@
 
 // Remaining properties
 @property(nonatomic, retain) MLMultiArray *data;
-@property(nonatomic) long long datasetType;
-@property(nonatomic, retain) SNKShotLabel *label;
 
 @end
 

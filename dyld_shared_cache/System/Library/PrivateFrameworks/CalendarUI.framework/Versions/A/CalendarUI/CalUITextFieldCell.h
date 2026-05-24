@@ -16,7 +16,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)__objc_superrefs__DATA_CONST;
 
 // Remaining properties
 @property(retain) NSTextView *fieldEditor; // @synthesize fieldEditor=_fieldEditor;

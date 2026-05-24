@@ -4,86 +4,58 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContact, NSArray, NSDictionary, NSSet, NSString, NSURL;
+@class NSString;
 
 @interface _PSContactSuggestion
 {
     NSString *_contactIdentifier;
-    NSString *_givenName;
-    NSString *_familyName;
-    NSString *_suggestedHandle;
-    double _regularityScore;
-    unsigned long long _totalFrequency;
-    NSSet *_daysInteracted;
-    NSString *_groupIdentifier;
-    NSString *_messagesGroupIdentifier;
-    NSString *_groupName;
-    NSURL *_imageURL;
-    NSArray *_groupRecipients;
-    NSDictionary *_handleAndAppFrequencies;
-    NSDictionary *_handleAndAppRegularityScores;
-    CNContact *_contact;
-    double _peopleWidgetScore;
 }
 
 + (_Bool);
+- (unsigned long long)_gaveOptions;
+- (void)_firstPacketLatencyInNs;
+- (void)_fanId;
+- (void)_extendLatencyMillis;
+- (void)_executorTraceID;
+- (void)_durationMs;
+- (void)_durationFromSoftwareUpdateToFirstRequestSeconds;
+- (void)_durationFromSoftwareUpdateToFirstRequestSeconds;
+- (void)_documentChunkCount;
+- (double)_countAttributeUnigramMatch;
+- (id)_bufferReceiptTimeOffsetInNs;
+- (id)_appUsageCount6Hrs;
+- (id)_appUsageCount28Days;
+- (id)_alignment;
+- (double)App1Day;
+- (id)bandonCountForEntityInUsingApp1Hr;
+- (id)oreStatus;
+- (void);
+- (id);
+- (id);
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (id);
-- (id);
-- (id);
-- (id);
-- (double);
-- (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (unsigned long long);
+- (void);
+- (void)P;
+- (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (id)p;
+- (id)F
+;
+- (void),EJ
+;
 - (id);
 - (id);
+- (void)__TEXT;
 - (void);
-- (void);
-- (id)iTypesFromPredictionContext:candidates: /* Error: Ran out of types for this method. */;
-- (id)mingCall;
+- (id)utiTypesFromPredictionContext:candidates: /* Error: Ran out of types for this method. */;
+- (id)_timeSinceLastContactViaIncomingCall;
 - (void)xy"24@?0@"NSString"8Q16;
 
 // Remaining properties
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(copy, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(copy, nonatomic) NSSet *daysInteracted; // @synthesize daysInteracted=_daysInteracted;
-@property(copy, nonatomic) NSString *familyName; // @synthesize familyName=_familyName;
-@property(copy, nonatomic) NSString *givenName; // @synthesize givenName=_givenName;
-@property(copy, nonatomic) NSString *groupIdentifier; // @synthesize groupIdentifier=_groupIdentifier;
-@property(copy, nonatomic) NSString *groupName; // @synthesize groupName=_groupName;
-@property(copy, nonatomic) NSArray *groupRecipients; // @synthesize groupRecipients=_groupRecipients;
-@property(copy, nonatomic) NSDictionary *handleAndAppFrequencies; // @synthesize handleAndAppFrequencies=_handleAndAppFrequencies;
-@property(copy, nonatomic) NSDictionary *handleAndAppRegularityScores; // @synthesize handleAndAppRegularityScores=_handleAndAppRegularityScores;
-@property(copy, nonatomic) NSURL *imageURL; // @synthesize imageURL=_imageURL;
-@property(copy, nonatomic) NSString *messagesGroupIdentifier; // @synthesize messagesGroupIdentifier=_messagesGroupIdentifier;
-@property(nonatomic) double peopleWidgetScore; // @synthesize peopleWidgetScore=_peopleWidgetScore;
 @property(nonatomic) double regularityScore; // @synthesize regularityScore=_regularityScore;
-@property(copy, nonatomic) NSString *suggestedHandle; // @synthesize suggestedHandle=_suggestedHandle;
-@property(nonatomic) unsigned long long totalFrequency; // @synthesize totalFrequency=_totalFrequency;
 
 @end
 

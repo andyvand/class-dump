@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (ContactsDonation)
-+ (id);
-- (id);
++ (id)ICScannerFeatureEnumeration;
+- (id);
 @end
 

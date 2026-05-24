@@ -6,21 +6,16 @@
 
 #import <PhotosGraph/PGSurveyQuestion.h>
 
-@class NSDictionary, NSString, PHPerson;
+@class NSString;
 
 @interface PGNamingQuestion : PGSurveyQuestion
 {
     unsigned short _state;
-    NSDictionary *_additionalInfo;
-    NSString *_entityIdentifier;
-    double _localFactoryScore;
-    PHPerson *_person;
-    NSString *_contactIdentifier;
 }
 
 - (double);
-- (id);
-- (id);
+- (id)lastDecendantElementFromElement:(id)arg1 type:(id)arg2;
+- (id)accessibilityPerformPress;
 - (id);
 - (id);
 - (void);
@@ -28,18 +23,17 @@
 - (id);
 - (unsigned short);
 - (unsigned short);
-- (unsigned short);
+- (unsigned short)Q;
 - (id);
 - (void);
 - (id)0@ù
 × ;
-- (id)ggestions;
+- (id)filtersForAmbientSuggestions;
 - (void)icalSex Type:%@
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, nonatomic) PHPerson *person; // @synthesize person=_person;
 
 @end
 

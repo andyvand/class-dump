@@ -4,82 +4,54 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAssociatedStickerChatItem, CKBrowserDragViewController, CKMessagePartChatItem, NSString, UILongPressGestureRecognizer, UIView, UIViewController, UIWindow;
-@protocol CKBrowserDragControllerDelegate, CKBrowserDragControllerTranscriptDelegate;
+@protocol CKBrowserDragControllerDelegate;
 
 @interface CKBrowserDragManager
 {
     id <CKBrowserDragControllerDelegate> _delegate;
-    id <CKBrowserDragControllerTranscriptDelegate> _transcriptDelegate;
-    id _currentItem;
-    CKMessagePartChatItem *_parentChatItem;
-    CKAssociatedStickerChatItem *_stickerChatItem;
-    UILongPressGestureRecognizer *_gestureRecognizer;
-    UIView *_targetView;
-    CKBrowserDragViewController *_dragViewController;
-    UIWindow *_dragWindow;
-    UIViewController *_presentingViewController;
-    struct CGPoint _locationInView;
 }
 
+- (_Bool)C,N,V_backgroundColor;
+- (id);
+- (id);
+- (void)_showResults;
+- (void);
+- (void)7GG;
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)s;
+- (struct CGPoint)d to addAttachment:atTextRange:with an out of bound range:%@. Adding attachment to the end of text storage instead, %lu. /* Error: Ran out of types for this method. */;
+- (id)ts(queryString:(id)arg1 rankingQueries:) /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (struct CGPoint);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void)ange:(id)arg1;
+- (void)_appStateChange:(id)arg1;
 - (id)versations;
 - (void)¼;
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) id currentItem; // @synthesize currentItem=_currentItem;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKBrowserDragControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) CKBrowserDragViewController *dragViewController; // @synthesize dragViewController=_dragViewController;
-@property(retain, nonatomic) UIWindow *dragWindow; // @synthesize dragWindow=_dragWindow;
-@property(retain, nonatomic) UILongPressGestureRecognizer *gestureRecognizer; // @synthesize gestureRecognizer=_gestureRecognizer;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct CGPoint locationInView; // @synthesize locationInView=_locationInView;
-@property(retain, nonatomic) CKMessagePartChatItem *parentChatItem; // @synthesize parentChatItem=_parentChatItem;
-@property(retain, nonatomic) UIViewController *presentingViewController; // @synthesize presentingViewController=_presentingViewController;
-@property(retain, nonatomic) CKAssociatedStickerChatItem *stickerChatItem; // @synthesize stickerChatItem=_stickerChatItem;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIView *targetView; // @synthesize targetView=_targetView;
-@property(nonatomic) __weak id <CKBrowserDragControllerTranscriptDelegate> transcriptDelegate; // @synthesize transcriptDelegate=_transcriptDelegate;
 
 @end
 

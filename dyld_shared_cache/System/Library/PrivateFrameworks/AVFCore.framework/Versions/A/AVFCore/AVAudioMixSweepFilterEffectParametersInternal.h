@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface AVAudioMixSweepFilterEffectParametersInternal
 {
     unsigned int minimumCutOffFrequency;
-    unsigned int maximumCutOffFrequency;
-    float bypassThreshold;
-    float sweepValue;
 }
 
 @end

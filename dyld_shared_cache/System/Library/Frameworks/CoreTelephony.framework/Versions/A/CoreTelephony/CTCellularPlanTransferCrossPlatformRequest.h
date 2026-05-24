@@ -9,14 +9,9 @@
 @interface CTCellularPlanTransferCrossPlatformRequest
 {
     NSString *_phoneNumber;
-    NSString *_carrierName;
-    NSString *_mccMnc;
-    NSString *_gid1;
-    NSString *_gid2;
-    NSString *_carrierID;
 }
 
-+ (_Bool);
++ (_Bool)%llu-%llu;
 - (id);
 - (id);
 - (id);
@@ -24,20 +19,15 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)$;
+- (id);
 - (_Bool);
-- (id);
-- (void);
+- (id)owable_client;
+- (void)ation:(id)arg1 %d on %{public}@ cid:%u returned %{public}@ /* Error: Ran out of types for this method. */;
 - (void)±ª)Ð1Â0@ù
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *carrierID; // @synthesize carrierID=_carrierID;
-@property(readonly, nonatomic) NSString *carrierName; // @synthesize carrierName=_carrierName;
-@property(readonly, nonatomic) NSString *gid1; // @synthesize gid1=_gid1;
-@property(readonly, nonatomic) NSString *gid2; // @synthesize gid2=_gid2;
-@property(readonly, nonatomic) NSString *mccMnc; // @synthesize mccMnc=_mccMnc;
 @property(readonly, nonatomic) NSString *phoneNumber; // @synthesize phoneNumber=_phoneNumber;
 
 @end

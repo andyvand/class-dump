@@ -8,11 +8,6 @@ __attribute__((visibility("hidden")))
 @interface MNLocationMatchInfo
 {
     long long _matchQuality;
-    struct CLLocationCoordinate2D _matchCoordinate;
-    double _matchCourse;
-    int _matchFormOfWay;
-    int _matchRoadClass;
-    _Bool _matchShifted;
 }
 
 - (_Bool);
@@ -24,12 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) struct CLLocationCoordinate2D matchCoordinate; // @synthesize matchCoordinate=_matchCoordinate;
-@property(readonly, nonatomic) double matchCourse; // @synthesize matchCourse=_matchCourse;
-@property(readonly, nonatomic) int matchFormOfWay; // @synthesize matchFormOfWay=_matchFormOfWay;
 @property(readonly, nonatomic) long long matchQuality; // @synthesize matchQuality=_matchQuality;
-@property(readonly, nonatomic) int matchRoadClass; // @synthesize matchRoadClass=_matchRoadClass;
-@property(readonly, nonatomic) _Bool matchShifted; // @synthesize matchShifted=_matchShifted;
 
 @end
 

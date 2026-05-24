@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCache, NSData, NSImage, NSString;
+@class CNCache;
 
 @interface CNUIPRLikenessBadgeImageProvider
 {
     unsigned long long _badgeType;
-    CNCache *_cache;
-    NSData *_badgeImageData;
-    NSImage *_badgeImage;
 }
 
 - (void);
@@ -26,21 +23,11 @@
 - (struct CGImage *);
 - (void);
 - (unsigned long long);
-- (id);
-- (void)elistedContactsModel;
+- (id)CNPhotoLikenessEditorZoomSliderController;
+- (void)whitelistedContactsModel;
 
 // Remaining properties
-@property(retain, nonatomic) NSImage *badgeImage; // @synthesize badgeImage=_badgeImage;
-@property(retain, nonatomic) NSData *badgeImageData; // @synthesize badgeImageData=_badgeImageData;
-@property(nonatomic) unsigned long long badgeType; // @synthesize badgeType=_badgeType;
 @property(readonly, nonatomic) CNCache *cache; // @synthesize cache=_cache;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

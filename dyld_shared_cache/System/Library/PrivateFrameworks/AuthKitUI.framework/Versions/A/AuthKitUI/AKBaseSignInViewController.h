@@ -4,37 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AKAppleIDAuthenticationController, AKAppleIDAuthenticationInAppContext, AKAppleIDProximityAuthenticationContext, NSString;
-@protocol AKSignInViewControllerDelegate;
+@class AKAppleIDAuthenticationController;
 
 @interface AKBaseSignInViewController
 {
     AKAppleIDAuthenticationController *_authenticationController;
-    AKAppleIDProximityAuthenticationContext *_proximityContext;
-    _Bool _usesDarkMode;
-    _Bool _authInProgress;
-    AKAppleIDAuthenticationInAppContext *_context;
-    id <AKSignInViewControllerDelegate> _delegate;
 }
 
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (void);
+- (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (void);
+- (void);
+- (id)calendar.
+	Initial Start Date = %@ in %@;
+	Revised Start Date = %@ in %@;
+	Calendar/Locale = %@/%@;;
+- (id)ary/PrivateFrameworks/CorePhoneNumbers.framework/CorePhoneNumbers;
 - (void);
 - (void);
 - (void);
@@ -47,17 +44,6 @@
 
 // Remaining properties
 @property(nonatomic, getter=isAuthInProgress) _Bool authInProgress; // @synthesize authInProgress=_authInProgress;
-@property(readonly, nonatomic) AKAppleIDAuthenticationController *authenticationController;
-@property(retain, nonatomic) AKAppleIDAuthenticationInAppContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AKSignInViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool usesDarkMode; // @synthesize usesDarkMode=_usesDarkMode;
 
 @end
 

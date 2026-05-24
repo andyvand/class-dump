@@ -13,14 +13,14 @@ __attribute__((visibility("hidden")))
 }
 
 - (struct OpaqueFigMutableComposition *);
-- (void);
+- (void)hJ;
 - (int);
 - (id);
 - (id);
 - (struct OpaqueFigSampleCursorService *);
 - (int);
-- (_Bool);
-- (id);
+- (_Bool)_stateChangedHandler;
+- (id);
 - (_Bool)ionRegionScrollRollUp;
 
 // Remaining properties

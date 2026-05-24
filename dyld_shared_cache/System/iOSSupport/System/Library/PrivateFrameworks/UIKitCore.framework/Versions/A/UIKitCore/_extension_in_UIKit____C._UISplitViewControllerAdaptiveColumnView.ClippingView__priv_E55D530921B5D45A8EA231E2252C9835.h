@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (id)gueTemplate;
+- (id)UIStoryboardModalSegueTemplate;
 
 @end
 

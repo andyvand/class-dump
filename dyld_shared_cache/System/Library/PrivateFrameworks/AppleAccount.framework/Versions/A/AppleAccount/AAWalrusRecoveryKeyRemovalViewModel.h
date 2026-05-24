@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)pdateAutoUsers:(_Bool)arg1 being told to uuid for %s to:%s but we already have it as:%s /* Error: Ran out of types for this method. */;
 
 @end
 

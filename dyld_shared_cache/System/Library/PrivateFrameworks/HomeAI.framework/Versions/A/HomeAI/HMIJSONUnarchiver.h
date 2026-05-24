@@ -9,7 +9,6 @@
 @interface HMIJSONUnarchiver
 {
     NSDictionary *_classMap;
-    id _container;
 }
 
 + (id);
@@ -25,13 +24,12 @@
 - (_Bool);
 - (id);
 - (void);
-- (long long);
+- (long long)`;
 - (double)
 × ;
 - (int)C;
 
 // Remaining properties
-@property(retain) NSDictionary *classMap; // @synthesize classMap=_classMap;
 @property(readonly) id container; // @synthesize container=_container;
 
 @end

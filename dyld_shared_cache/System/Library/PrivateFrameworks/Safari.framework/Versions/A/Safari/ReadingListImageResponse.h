@@ -4,28 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, ReadingListItem;
+@class ReadingListItem;
 
 __attribute__((visibility("hidden")))
 @interface ReadingListImageResponse
 {
     _Bool _isThumbnail;
-    _Bool _isGenerated;
-    ReadingListItem *_readingListItem;
-    NSImage *_image;
 }
 
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)chatMemberStatusChanged;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(readonly, nonatomic) _Bool isGenerated; // @synthesize isGenerated=_isGenerated;
-@property(readonly, nonatomic) _Bool isThumbnail; // @synthesize isThumbnail=_isThumbnail;
 @property(readonly, nonatomic) ReadingListItem *readingListItem; // @synthesize readingListItem=_readingListItem;
 
 @end

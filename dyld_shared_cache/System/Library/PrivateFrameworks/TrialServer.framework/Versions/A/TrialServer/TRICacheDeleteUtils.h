@@ -8,8 +8,8 @@
 {
 }
 
-+ (id);
-+ (_Bool);
++ (id)s/com.apple.xbs/TemporaryDirectory.3GkaPH/Sources/Photos/workspaces/neutrino/Core/Render/NUJobPriorityQueue.m;
++ (_Bool)setIsContainer:(unsigned long long)arg1;
 + (id);
 
 @end

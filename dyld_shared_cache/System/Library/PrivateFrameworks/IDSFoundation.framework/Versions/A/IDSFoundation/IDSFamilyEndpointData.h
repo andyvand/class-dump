@@ -9,11 +9,6 @@
 @interface IDSFamilyEndpointData
 {
     NSString *_deviceName;
-    NSString *_deviceColor;
-    NSString *_buildVersion;
-    NSString *_productVersion;
-    NSString *_deviceUniqueID;
-    long long _deviceType;
 }
 
 + (_Bool);
@@ -21,9 +16,9 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)fileTransferServicesConnectionComplete:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
@@ -42,12 +37,7 @@
 - (void)ê0ÔÂ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *buildVersion; // @synthesize buildVersion=_buildVersion;
-@property(retain, nonatomic) NSString *deviceColor; // @synthesize deviceColor=_deviceColor;
 @property(retain, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(nonatomic) long long deviceType; // @synthesize deviceType=_deviceType;
-@property(retain, nonatomic) NSString *deviceUniqueID; // @synthesize deviceUniqueID=_deviceUniqueID;
-@property(retain, nonatomic) NSString *productVersion; // @synthesize productVersion=_productVersion;
 
 @end
 

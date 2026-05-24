@@ -10,11 +10,10 @@ __attribute__((visibility("hidden")))
 @interface _LSApplicationProxiesWithFlagsQuery : _LSBundleQuery
 {
     unsigned int _plistFlags;
-    unsigned long long _bundleFlags;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)?=BQ^{?}}24^@32;
 - (unsigned int);
 - (unsigned long long);
 - (void);
@@ -25,7 +24,6 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long bundleFlags; // @synthesize bundleFlags=_bundleFlags;
 @property(readonly, nonatomic) unsigned int plistFlags; // @synthesize plistFlags=_plistFlags;
 
 @end

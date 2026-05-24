@@ -4,62 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface NTPBFeedCellExposure
 {
     int _displayRankInSection;
-    NSData *_feedCellHostExposureId;
-    int _feedCellHostType;
-    int _feedCellSection;
-    NSString *_feedId;
-    int _feedType;
-    NSString *_viewFrameInScreen;
-    _Bool _isUserSubscribedToFeed;
-    struct {
-        unsigned int displayRankInSection:1;
-        unsigned int feedCellHostType:1;
-        unsigned int feedCellSection:1;
-        unsigned int feedType:1;
-        unsigned int isUserSubscribedToFeed:1;
-    } _has;
 }
 
+- (id)diagnosticCueStringForSize:withIndicatorTime:rangeIndicatorTimeRange: /* Error: Ran out of types for this method. */;
+- (void)dateFormatFromTemplate:(id)arg1 options:locale: /* Error: Ran out of types for this method. */;
+- (void)contentLoadingError;
+- (void)chapterCollectionProducerForConfiguration:(_Bool)arg1;
+- (void)capabilitiesDidChangeForImportSource:(_Bool)arg1;
+- (void)canonicalMapRect:(_Bool)arg1;
+- (void)canShowManagePhotosAction;
+- (void)bestCropRectV2ForAspectRatio:(int)arg1 zoom:sourcePixelWidth:sourcePixelHeight:sourceEssentialAreaRect:sourceSecondaryEssentialAreaRect:outputCropScore: /* Error: Ran out of types for this method. */;
+- (void)bestCropRectV2ForAspectRatio:(int)arg1 zoom:sourcePixelWidth:sourcePixelHeight:sourceEssentialAreaRect:sourceSecondaryEssentialAreaRect:outputCropScore: /* Error: Ran out of types for this method. */;
+- (void)ctNormalized:(id)arg1 outputCropScore: /* Error: Ran out of types for this method. */;
+- (void)baselineDistance;
+- (_Bool)analyzeVideoWithLocalIdentifier:fromPhotoLibraryWithURL:progressHandler:completionHandler: /* Error: Ran out of types for this method. */;
+- (_Bool)allowedTransitionKinds;
+- (_Bool)_waitWhileExportingCanContinueForSemaphore:timeout: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)_verticalDirectionFilter;
+- (_Bool)_verticalContentOffset;
+- (_Bool)_verticalContentInsets;
+- (_Bool)_useNeutrinoRendering;
+- (id)_updatePendingTransitionModelWithSegmentTransitionInfo:(int)arg1;
+- (id)_updateNominalPlaybackTime;
+- (id)_updateNavigationButton;
+- (int)_updateNavigationBarForCurrentTraitCollection;
+- (id)_updateNavigationBarForCurrentTraitCollection;
+- (int)_updateIsModalInPresentation;
+- (int)_titleCategory;
+- (int)_timelineContentMode;
+- (void)_thumbnailChromePlayButtonSpec;
+- (int)_syncSetAudioMixModeDidFinishWithResults:(id)arg1 didCancel:completionHandler: /* Error: Ran out of types for this method. */;
+- (int)_syncRotateDidFinishWithResults:(id)arg1 didCancel:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)@9p*;
+- (_Bool);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (int);
-- (id);
-- (int);
-- (int);
-- (int);
-- (void);
-- (int);
-- (int);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (void)nput_stream_for_pathERKNS2_4PathEE3$_0FK7CGPointRNS2_14KeyboardLayoutEEEE;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -68,25 +52,10 @@
 - (id);
 - (id);
 - (int);
-- (void)onsiderBestSourceFeedsInForYouGroup;
+- (void)onlyConsiderBestSourceFeedsInForYouGroup;
 
 // Remaining properties
-@property(nonatomic) int displayRankInSection; // @synthesize displayRankInSection=_displayRankInSection;
-@property(retain, nonatomic) NSData *feedCellHostExposureId; // @synthesize feedCellHostExposureId=_feedCellHostExposureId;
-@property(nonatomic) int feedCellHostType; // @synthesize feedCellHostType=_feedCellHostType;
-@property(nonatomic) int feedCellSection; // @synthesize feedCellSection=_feedCellSection;
-@property(retain, nonatomic) NSString *feedId; // @synthesize feedId=_feedId;
-@property(nonatomic) int feedType; // @synthesize feedType=_feedType;
-@property(nonatomic) _Bool hasDisplayRankInSection;
-@property(readonly, nonatomic) _Bool hasFeedCellHostExposureId;
-@property(nonatomic) _Bool hasFeedCellHostType;
-@property(nonatomic) _Bool hasFeedCellSection;
-@property(readonly, nonatomic) _Bool hasFeedId;
 @property(nonatomic) _Bool hasFeedType;
-@property(nonatomic) _Bool hasIsUserSubscribedToFeed;
-@property(readonly, nonatomic) _Bool hasViewFrameInScreen;
-@property(nonatomic) _Bool isUserSubscribedToFeed; // @synthesize isUserSubscribedToFeed=_isUserSubscribedToFeed;
-@property(retain, nonatomic) NSString *viewFrameInScreen; // @synthesize viewFrameInScreen=_viewFrameInScreen;
 
 @end
 

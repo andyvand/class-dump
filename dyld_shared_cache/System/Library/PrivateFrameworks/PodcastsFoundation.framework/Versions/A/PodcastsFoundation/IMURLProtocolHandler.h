@@ -11,7 +11,7 @@
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)c;
 
 // Remaining properties
 @property _Bool followsRedirects; // @synthesize followsRedirects=_followsRedirects;

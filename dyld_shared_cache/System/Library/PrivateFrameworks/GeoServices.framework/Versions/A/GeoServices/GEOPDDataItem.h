@@ -4,45 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDBusinessHoursData, GEOPDCategoryData, GEOPDFactoidData, GEOPDLocationData, GEOPDRatingData, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDDataItem
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDBusinessHoursData *_businessHoursData;
-    GEOPDCategoryData *_categoryData;
-    GEOPDFactoidData *_factoidData;
-    GEOPDLocationData *_locationData;
-    GEOPDRatingData *_ratingData;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _type;
-    struct {
-        unsigned int has_type:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_businessHoursData:1;
-        unsigned int read_categoryData:1;
-        unsigned int read_factoidData:1;
-        unsigned int read_locationData:1;
-        unsigned int read_ratingData:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-- (id);
+- (id)MeasuredCodingKeys;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)wordAnalyzerNDEAPI;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)b1"read_filterAddress"b1"read_filterKeyword"b1"wrote_anyField"b1};
-- (id)rStartStep:andEndStep:segmentIndex:andCustodian: /* Error: Ran out of types for this method. */;
+- (id)_composedRouteSegmentForStartStep:andEndStep:segmentIndex:andCustodian: /* Error: Ran out of types for this method. */;
 - (id)p;
 - (void);
 

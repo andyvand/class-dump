@@ -10,15 +10,15 @@
 {
 }
 
-+ (id);
++ (id);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (id));
 - (id);
-- (id);
-- (id);
+- (id)19BBDataContextHelper;
 - (_Bool);
 
 @end

@@ -7,7 +7,6 @@
 @interface PodcastsFoundation.PodcastRelationships
 {
     id channel;
-    id categories;
 }
 
 @end

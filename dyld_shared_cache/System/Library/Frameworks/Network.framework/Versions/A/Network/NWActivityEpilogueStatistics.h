@@ -4,48 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString, NSUUID;
-
 @interface NWActivityEpilogueStatistics
 {
     unsigned char _metricType;
-    NSUUID *_externallyVisibleActivityUUID;
-    NSUUID *_externallyVisibleParentUUID;
-    NSUUID *_activityUUID;
-    NSUUID *_parentUUID;
-    NSDictionary *_layer2Report;
-    NSDictionary *_deviceReport;
-    NSMutableDictionary *_dictionaryReport;
-    struct nw_activity_epilogue_report_s _report;
 }
 
 + (id);
 - (const char *);
 - (int);
-- (int);
+- (int);
 - (void);
 - (void);
-- (void);
+- (void) ;
 - (void);
 - (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long)q!;
 - (id);
 - (unsigned int);
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)P;
 - (int);
+- (void)2;
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
+- (void);
+- (id);
+- (id);
+- (void)w*;
 - (unsigned int);
 - (void);
 - (unsigned char);
@@ -55,26 +45,7 @@
 - (void)@;
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *activityUUID; // @synthesize activityUUID=_activityUUID;
-@property(retain, nonatomic) NSString *bundleID;
-@property(readonly, nonatomic) int completionReason;
-@property(retain, nonatomic) NSDictionary *deviceReport; // @synthesize deviceReport=_deviceReport;
-@property(retain, nonatomic) NSMutableDictionary *dictionaryReport; // @synthesize dictionaryReport=_dictionaryReport;
-@property(readonly, nonatomic) unsigned int domain;
-@property(readonly, nonatomic) unsigned long long durationMsecs;
-@property(retain, nonatomic) NSUUID *externallyVisibleActivityUUID; // @synthesize externallyVisibleActivityUUID=_externallyVisibleActivityUUID;
-@property(retain, nonatomic) NSUUID *externallyVisibleParentUUID; // @synthesize externallyVisibleParentUUID=_externallyVisibleParentUUID;
-@property(readonly, nonatomic) unsigned int fragmentsQuenched;
-@property(readonly, nonatomic) unsigned long long investigation_identifier;
-@property(readonly, nonatomic) unsigned int label;
-@property(retain, nonatomic) NSDictionary *layer2Report; // @synthesize layer2Report=_layer2Report;
-@property(nonatomic) unsigned char metricType; // @synthesize metricType=_metricType;
-@property(retain, nonatomic) NSUUID *parentUUID; // @synthesize parentUUID=_parentUUID;
 @property(nonatomic) struct nw_activity_epilogue_report_s report; // @synthesize report=_report;
-@property(readonly, nonatomic) _Bool retry;
-@property(readonly, nonatomic) int underlyingErrorCode;
-@property(readonly, nonatomic) int underlyingErrorDomain;
-@property(readonly, nonatomic) const char *underlyingErrorDomainString;
 
 @end
 

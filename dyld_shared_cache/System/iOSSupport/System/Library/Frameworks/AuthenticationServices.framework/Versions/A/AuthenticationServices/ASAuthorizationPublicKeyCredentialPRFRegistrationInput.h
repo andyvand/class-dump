@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASAuthorizationPublicKeyCredentialPRFAssertionInputValues;
-
 @interface ASAuthorizationPublicKeyCredentialPRFRegistrationInput
 {
     _Bool shouldCheckForSupport;
-    ASAuthorizationPublicKeyCredentialPRFAssertionInputValues *inputValues;
 }
 
 + (id);
@@ -20,7 +17,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) ASAuthorizationPublicKeyCredentialPRFAssertionInputValues *inputValues; // @synthesize inputValues;
 @property(nonatomic, readonly) _Bool shouldCheckForSupport; // @synthesize shouldCheckForSupport;
 
 @end

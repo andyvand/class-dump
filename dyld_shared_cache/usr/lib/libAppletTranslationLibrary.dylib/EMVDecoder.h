@@ -22,7 +22,7 @@ __attribute__((visibility("hidden")))
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)fixupBundlesWithGroup:(id)arg1;
 - (id);
 
 @end

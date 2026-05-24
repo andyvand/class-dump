@@ -18,7 +18,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool iMessageSupported;
 @property(readonly, nonatomic) FTServiceStatus *serviceStatus; // @synthesize serviceStatus=_serviceStatus;
 
 @end

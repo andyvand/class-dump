@@ -5,5 +5,6 @@
 //
 
 @protocol CNUICoreContactManagementConsentCheck
+- (unsigned long long);
 @end
 

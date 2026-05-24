@@ -6,29 +6,21 @@
 
 #import <BackBoardServices/BKSHIDEventPolicyObservation.h>
 
-@class BKSHIDEventDeferringEnvironment, BKSHIDEventDeferringSelectionPathIdentifier, BKSHIDEventDeferringToken, BKSHIDEventDisplay;
-
 @interface BKSMutableHIDEventPolicyObservation : BKSHIDEventPolicyObservation
 {
 }
 
+- (void)';
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)DTrW;
 - (void);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) BKSHIDEventDisplay *display; // @dynamic display;
-@property(retain, nonatomic) BKSHIDEventDeferringEnvironment *environment; // @dynamic environment;
-@property(nonatomic, getter=isFinalStringToken) _Bool finalStringToken; // @dynamic finalStringToken;
 @property(nonatomic) int pid; // @dynamic pid;
-@property(nonatomic) long long policyStatus; // @dynamic policyStatus;
-@property(retain, nonatomic) BKSHIDEventDeferringSelectionPathIdentifier *selectionPath; // @dynamic selectionPath;
-@property(retain, nonatomic) BKSHIDEventDeferringToken *token; // @dynamic token;
 
 @end
 

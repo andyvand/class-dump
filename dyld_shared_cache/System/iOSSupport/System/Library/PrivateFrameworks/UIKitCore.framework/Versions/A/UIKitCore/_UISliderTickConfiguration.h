@@ -4,42 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface _UISliderTickConfiguration
 {
     id _behavior;
-    id _ticks;
-    id _ticksAreEvenlySpaced;
-    long long tickStyle;
-    double neutralPosition;
-    float snappingDistance;
 }
 
-- (_Bool);
-- (id);
-- (long long);
-- (float);
-- (void);
-- (void);
+- (_Bool)s:Bailing due to rate limiting for notice:%@ /* Error: Ran out of types for this method. */;
+- (id)threshold (%@).;
+- (long long)ng because collaboration membership (%@) exceeds the fanout threshold (%@).;
+- (float)s:%@ /* Error: Ran out of types for this method. */;
+- (void)hat:(long long)arg1 %@
+
+Chats Found:%@ /* Error: Ran out of types for this method. */;
+- (void)Failed Nickname Fetch for %@;
 - (void);
 - (id);
 - (_Bool);
 - (double);
 - (id);
-- (id);
+- (id);
 - (long long);
-- (_Bool)ssertTextForRemoteDocument:(id)arg1 withSelectionDelta:updatingSelection: /* Error: Ran out of types for this method. */;
+- (_Bool)assertTextForRemoteDocument:(id)arg1 withSelectionDelta:updatingSelection: /* Error: Ran out of types for this method. */;
 - (id)PÌÈÎ|ÏÐÑÒDÓ°ÔÕÖ;
 - (void)¶¤ÿ2Pö;
 
 // Remaining properties
 @property(nonatomic, readonly) long long behavior;
-@property(nonatomic) double neutralPosition; // @synthesize neutralPosition;
-@property(nonatomic) float snappingDistance; // @synthesize snappingDistance;
-@property(nonatomic) long long tickStyle; // @synthesize tickStyle;
-@property(nonatomic, readonly) NSArray *ticks;
-@property(nonatomic, readonly) _Bool ticksAreEvenlySpaced;
 
 @end
 

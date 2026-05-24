@@ -4,39 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface MessageListDataSourceUpdateRequest
 {
     _Bool _startsWithEmptySnapshot;
-    NSArray *_sectionsToUpdate;
-    NSArray *_sectionsToRemove;
 }
 
 - (_Bool);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void)ize: /* Error: Ran out of types for this method. */;
+- (void)setMaxSize: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *sectionsToRemove; // @synthesize sectionsToRemove=_sectionsToRemove;
 @property(readonly, nonatomic) NSArray *sectionsToUpdate; // @synthesize sectionsToUpdate=_sectionsToUpdate;
-@property(readonly, nonatomic) _Bool startsWithEmptySnapshot; // @synthesize startsWithEmptySnapshot=_startsWithEmptySnapshot;
-@property(readonly) Class superclass;
 
 @end
 

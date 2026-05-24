@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface NSTextPreview
 {
     struct CGImage *_previewImage;
-    NSArray *_candidateRects;
-    struct CGRect _presentationFrame;
 }
 
-- (id);
+- (id)wOVK1nhmiAawowdbIwgyaQ;
 - (void);
 - (void);
 - (void);
@@ -26,8 +22,6 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSArray *candidateRects; // @synthesize candidateRects=_candidateRects;
-@property struct CGRect presentationFrame; // @synthesize presentationFrame=_presentationFrame;
 @property(retain) struct CGImage *previewImage; // @synthesize previewImage=_previewImage;
 
 @end

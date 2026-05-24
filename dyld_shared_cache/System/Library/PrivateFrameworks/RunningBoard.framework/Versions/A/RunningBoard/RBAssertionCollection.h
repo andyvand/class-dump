@@ -4,39 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet;
-
 @interface RBAssertionCollection
 {
     struct os_unfair_recursive_lock_s _lock;
-    NSMutableDictionary *_assertionsByIdentifier;
-    NSMutableSet *_processAssertions;
-    NSMutableSet *_systemAssertions;
-    NSMutableDictionary *_assertionsByOriginator;
-    NSMutableDictionary *_assertionsByTargetProcessIdentity;
-    NSMutableSet *_resolvedIdentifiers;
 }
 
 - (unsigned long long);
 - (id);
-- (void);
+- (void)ms/MacOSX.platform/Developer/SDKs/MacOSX26.5.Internal.sdk/usr/local/include/usd/pxr/base/tf/refPtr.h;
 - (id);
-- (void);
+- (void)downloaded=0     WHERE %@;;
 - (id);
 - (void);
 - (unsigned long long);
+- (id)openPhotoLibraryWithWellKnownIdentifier:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (_Bool)SearchUIMiniCardSectionView;
+- (void);
+- (void)g app libraries;
+- (_Bool);
+- (void);
+- (_Bool)Frameworks/IntlPreferences.framework/Versions/A/IntlPreferences;
 - (id);
-- (_Bool);
-- (void);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (id);
 

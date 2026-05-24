@@ -4,38 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, PKProtobufNSDecimalNumber;
-
 @interface PKProtobufPeerPaymentMessage
 {
     long long _amount;
-    double _recurringPaymentStartDate;
-    NSString *_currency;
-    PKProtobufNSDecimalNumber *_decimalAmount;
-    NSString *_identifier;
-    NSData *_localData;
-    NSString *_memo;
-    int _messagesContext;
-    NSString *_messagesGroupIdentifier;
-    NSString *_paymentIdentifier;
-    NSString *_paymentSignature;
-    NSString *_recipientAddress;
-    NSString *_recurringPaymentColor;
-    NSString *_recurringPaymentEmoji;
-    NSString *_recurringPaymentFrequency;
-    NSString *_recurringPaymentIdentifier;
-    NSString *_requestDeviceScoreIdentifier;
-    NSString *_requestToken;
-    NSString *_senderAddress;
-    NSString *_transactionIdentifier;
-    int _type;
-    unsigned int _version;
-    struct {
-        unsigned int amount:1;
-        unsigned int recurringPaymentStartDate:1;
-        unsigned int messagesContext:1;
-        unsigned int type:1;
-    } _has;
 }
 
 - (void);
@@ -44,16 +15,16 @@
 - (void);
 - (void);
 - (void);
+- (void));
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (double);
+- (id);
+- (double)k`*;
 - (id);
 - (id);
 - (id);
@@ -67,28 +38,28 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (int);
-- (void);
+- (void)O;
 - (void);
 - (void);
 - (id);
-- (id);
-- (int);
-- (void);
-- (id);
+- (id)q;
+- (int)*	;
+- (void);
+- (id).;
 - (void);
 - (_Bool);
 - (id);
@@ -96,7 +67,7 @@
 - (long long);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (unsigned int);
 - (id);
@@ -104,9 +75,9 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (int);
+- (int)Pl;
 - (_Bool);
-- (void);
+- (void)_dnsResolutionLatency;
 - (id);
 - (void);
 - (void);
@@ -115,57 +86,15 @@
 - (void);
 - (id);
 - (id);
-- (int);
+- (int);
 - (_Bool)±î%ð1Â0@ù
 × ;
 - (id)|;
 - (_Bool)uirements:requirements identified, but no fields. /* Error: Ran out of types for this method. */;
-- (void)ext;
-- (void)N;
+- (void)context;
+- (void)TRANSACTION_REVIEW_TRANSACTION;
 
 // Remaining properties
-@property(nonatomic) long long amount; // @synthesize amount=_amount;
-@property(retain, nonatomic) NSString *currency; // @synthesize currency=_currency;
-@property(retain, nonatomic) PKProtobufNSDecimalNumber *decimalAmount; // @synthesize decimalAmount=_decimalAmount;
-@property(nonatomic) _Bool hasAmount;
-@property(readonly, nonatomic) _Bool hasCurrency;
-@property(readonly, nonatomic) _Bool hasDecimalAmount;
-@property(readonly, nonatomic) _Bool hasIdentifier;
-@property(readonly, nonatomic) _Bool hasLocalData;
-@property(readonly, nonatomic) _Bool hasMemo;
-@property(nonatomic) _Bool hasMessagesContext;
-@property(readonly, nonatomic) _Bool hasMessagesGroupIdentifier;
-@property(readonly, nonatomic) _Bool hasPaymentIdentifier;
-@property(readonly, nonatomic) _Bool hasPaymentSignature;
-@property(readonly, nonatomic) _Bool hasRecipientAddress;
-@property(readonly, nonatomic) _Bool hasRecurringPaymentColor;
-@property(readonly, nonatomic) _Bool hasRecurringPaymentEmoji;
-@property(readonly, nonatomic) _Bool hasRecurringPaymentFrequency;
-@property(readonly, nonatomic) _Bool hasRecurringPaymentIdentifier;
-@property(nonatomic) _Bool hasRecurringPaymentStartDate;
-@property(readonly, nonatomic) _Bool hasRequestDeviceScoreIdentifier;
-@property(readonly, nonatomic) _Bool hasRequestToken;
-@property(readonly, nonatomic) _Bool hasSenderAddress;
-@property(readonly, nonatomic) _Bool hasTransactionIdentifier;
-@property(nonatomic) _Bool hasType;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSData *localData; // @synthesize localData=_localData;
-@property(retain, nonatomic) NSString *memo; // @synthesize memo=_memo;
-@property(nonatomic) int messagesContext; // @synthesize messagesContext=_messagesContext;
-@property(retain, nonatomic) NSString *messagesGroupIdentifier; // @synthesize messagesGroupIdentifier=_messagesGroupIdentifier;
-@property(retain, nonatomic) NSString *paymentIdentifier; // @synthesize paymentIdentifier=_paymentIdentifier;
-@property(retain, nonatomic) NSString *paymentSignature; // @synthesize paymentSignature=_paymentSignature;
-@property(retain, nonatomic) NSString *recipientAddress; // @synthesize recipientAddress=_recipientAddress;
-@property(retain, nonatomic) NSString *recurringPaymentColor; // @synthesize recurringPaymentColor=_recurringPaymentColor;
-@property(retain, nonatomic) NSString *recurringPaymentEmoji; // @synthesize recurringPaymentEmoji=_recurringPaymentEmoji;
-@property(retain, nonatomic) NSString *recurringPaymentFrequency; // @synthesize recurringPaymentFrequency=_recurringPaymentFrequency;
-@property(retain, nonatomic) NSString *recurringPaymentIdentifier; // @synthesize recurringPaymentIdentifier=_recurringPaymentIdentifier;
-@property(nonatomic) double recurringPaymentStartDate; // @synthesize recurringPaymentStartDate=_recurringPaymentStartDate;
-@property(retain, nonatomic) NSString *requestDeviceScoreIdentifier; // @synthesize requestDeviceScoreIdentifier=_requestDeviceScoreIdentifier;
-@property(retain, nonatomic) NSString *requestToken; // @synthesize requestToken=_requestToken;
-@property(retain, nonatomic) NSString *senderAddress; // @synthesize senderAddress=_senderAddress;
-@property(retain, nonatomic) NSString *transactionIdentifier; // @synthesize transactionIdentifier=_transactionIdentifier;
-@property(nonatomic) int type; // @synthesize type=_type;
 @property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end

@@ -7,20 +7,18 @@
 #import <AppKit/NSViewHostingContext.h>
 
 @class CAContext;
-@protocol NSViewLayerHostingContextDelegate;
 
 __attribute__((visibility("hidden")))
 @interface NSViewLayerHostingContext : NSViewHostingContext
 {
     CAContext *_context;
-    id <NSViewLayerHostingContextDelegate> _delegate;
 }
 
 - (id);
 - (void);
 - (void);
 - (void);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)Attribute: /* Error: Ran out of types for this method. */;
 - (unsigned int)QB;
 
 // Remaining properties

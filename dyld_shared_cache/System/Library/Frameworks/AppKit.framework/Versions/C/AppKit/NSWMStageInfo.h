@@ -10,22 +10,19 @@ __attribute__((visibility("hidden")))
 @interface NSWMStageInfo
 {
     NSDictionary *_latestSpaceIDToStage;
-    NSDictionary *_pendingSpaceIDToStage;
-    unsigned long long _pendingDisplayChangeSeed;
-    unsigned long long _latestStyle;
 }
 
 + (id);
-- (unsigned long long);
-- (unsigned long long);
-- (struct CGRect);
-- (void);
+- (unsigned long long):Img4DecodeGetPropertyData(kFDRTag_clas) failed. /* Error: Ran out of types for this method. */;
+- (unsigned long long)PhysicalHardwareNameString;
+- (struct CGRect)to-stream;
+- (void)YonkersSNUM;
 - (unsigned long long);
 - (unsigned long long);
 - (void);
 - (struct NSEdgeInsets);
-- (struct CGRect);
-- (struct CGRect);
+- (struct CGRect)bytes in:(unsigned long long)arg1 %u; bytes out:(struct CGRect)arg2 %u, ratio:%.3f /* Error: Ran out of types for this method. */;
+- (struct CGRect)_kCFNTimingDataResponseStart;
 - (void)ab Overview;
 
 @end

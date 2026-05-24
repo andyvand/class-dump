@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface PatternVisualInfo
 {
     unsigned long long _visualLocation;
-    NSArray *_sectionIds;
 }
 
 - (unsigned long long);
@@ -19,7 +16,6 @@
 - (void)Ð¾Ð³Ð¾;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *sectionIds; // @synthesize sectionIds=_sectionIds;
 @property(nonatomic) unsigned long long visualLocation; // @synthesize visualLocation=_visualLocation;
 
 @end

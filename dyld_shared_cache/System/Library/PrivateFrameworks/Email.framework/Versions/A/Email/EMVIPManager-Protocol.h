@@ -7,9 +7,9 @@
 @class EAEmailAddressSet, NSSet;
 
 @protocol EMVIPManager
+- (EAEmailAddressSet *);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) EAEmailAddressSet *allVIPEmailAddresses;
 @property(readonly, copy, nonatomic) NSSet *allVIPs;
 @end
 

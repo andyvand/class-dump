@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSDictionary;
 
 @interface _MLCANENormalizationParameters
 {
     NSDictionary *_normalizationParams;
-    NSDictionary *_gocParams;
-    NSArray *_neuronParams;
 }
 
 + (id);
@@ -21,8 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSDictionary *gocParams; // @synthesize gocParams=_gocParams;
-@property(readonly, retain, nonatomic) NSArray *neuronParams; // @synthesize neuronParams=_neuronParams;
 @property(readonly, retain, nonatomic) NSDictionary *normalizationParams; // @synthesize normalizationParams=_normalizationParams;
 
 @end

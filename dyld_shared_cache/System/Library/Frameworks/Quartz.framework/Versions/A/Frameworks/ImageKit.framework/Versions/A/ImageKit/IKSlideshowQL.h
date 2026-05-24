@@ -6,7 +6,7 @@
 
 #import <ImageKit/IKSlideshowElement.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface IKSlideshowQL : IKSlideshowElement
@@ -18,28 +18,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)initWithFamilyMemberDSID:size:localFallback: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (struct CGImage *);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) id previewItemDisplayState;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@,?,R
-
-@property(readonly) NSString *previewItemTitle;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R
-
 @property(readonly) NSURL *previewItemURL; // @synthesize previewItemURL=_previewItemURL;
-@property(readonly) Class superclass;
 
 @end
 

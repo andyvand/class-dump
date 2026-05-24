@@ -4,50 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLCControlTreeNode, MLCDevice, NSArray, NSMutableArray, NSNumber, NSString;
-
 @interface MLCLayer
 {
     _Bool _isDebuggingEnabled;
-    _Bool _skipLayer;
-    _Bool _allocateGradientTensors;
-    _Bool _isLastFusedLayer;
-    _Bool _disableUpdate;
-    _Bool _isUpdatable;
-    _Bool _isTrainable;
-    _Bool _zeroIntermediateGradientTensors;
-    _Bool _compileForInferenceOnly;
-    int _paddingPolicy;
-    unsigned long long _layerID;
-    NSString *_label;
-    NSString *_originalLabel;
-    unsigned long long _kernelWidth;
-    unsigned long long _kernelHeight;
-    unsigned long long _dilationRateInX;
-    unsigned long long _dilationRateInY;
-    unsigned long long _strideInX;
-    unsigned long long _strideInY;
-    unsigned long long _paddingSizeInX;
-    unsigned long long _paddingSizeInY;
-    MLCDevice *_device;
-    NSArray *_deviceOps;
-    NSMutableArray *_sourceTensors;
-    NSMutableArray *_resultTensors;
-    NSMutableArray *_sourceGradientTensors;
-    NSMutableArray *_resultGradientTensors;
-    NSMutableArray *_fusedLayers;
-    MLCLayer *_intermediateSumLayer;
-    NSMutableArray *_intermediateGradientTensors;
-    unsigned long long _intermediateGradientTensorIndex;
-    MLCControlTreeNode *_conditionalTreeNode;
 }
 
 + (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)`�;
 - (_Bool);
+- (void)Wm;
 - (void);
 - (void);
 - (void);
@@ -62,25 +30,24 @@
 - (void);
 - (void);
 - (void);
+- (void)K;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (id)R%;
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (unsigned long long);
-- (id);
-- (void);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (void);
-- (_Bool);
+- (unsigned long long);
+- (unsigned long long);
+- (id);
+- (void);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -95,7 +62,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
@@ -106,13 +73,13 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void)";
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
@@ -120,71 +87,28 @@
 - (unsigned long long);
 - (unsigned long long);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (int);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (int);
-- (void);
+- (int);;
+- (void)!;
 - (unsigned long long);
 - (void);
 - (unsigned long long);
+- (void)icationBuffer:predicationOffset:transA:transB: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void)nsors:(unsigned long long)arg1 resultTensor:fusedBatchNormAndNeuron: /* Error: Ran out of types for this method. */;
+- (void)compileWithDevice:(unsigned long long)arg1 deviceOps:sourceTensors:resultTensor:fusedBatchNormAndNeuron: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool allocateGradientTensors; // @synthesize allocateGradientTensors=_allocateGradientTensors;
-@property(nonatomic) _Bool compileForInferenceOnly; // @synthesize compileForInferenceOnly=_compileForInferenceOnly;
-@property(retain, nonatomic) MLCControlTreeNode *conditionalTreeNode; // @synthesize conditionalTreeNode=_conditionalTreeNode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) MLCDevice *device; // @synthesize device=_device;
-@property(retain, nonatomic) NSArray *deviceOps; // @synthesize deviceOps=_deviceOps;
-@property(readonly, nonatomic) int deviceType;
-@property(nonatomic) unsigned long long dilationRateInX; // @synthesize dilationRateInX=_dilationRateInX;
-@property(nonatomic) unsigned long long dilationRateInY; // @synthesize dilationRateInY=_dilationRateInY;
-@property(nonatomic) _Bool disableUpdate; // @synthesize disableUpdate=_disableUpdate;
-@property(readonly, retain, nonatomic) NSMutableArray *fusedLayers; // @synthesize fusedLayers=_fusedLayers;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long intermediateGradientTensorIndex; // @synthesize intermediateGradientTensorIndex=_intermediateGradientTensorIndex;
-@property(retain, nonatomic) NSMutableArray *intermediateGradientTensors; // @synthesize intermediateGradientTensors=_intermediateGradientTensors;
-@property(retain, nonatomic) MLCLayer *intermediateSumLayer; // @synthesize intermediateSumLayer=_intermediateSumLayer;
-@property(nonatomic) _Bool isDebuggingEnabled; // @synthesize isDebuggingEnabled=_isDebuggingEnabled;
-@property(readonly, nonatomic) _Bool isFirstLayer;
-@property(nonatomic) _Bool isLastFusedLayer; // @synthesize isLastFusedLayer=_isLastFusedLayer;
-@property(readonly, nonatomic) _Bool isLastLayer;
-@property(nonatomic) _Bool isTrainable; // @synthesize isTrainable=_isTrainable;
-@property(nonatomic) _Bool isUpdatable; // @synthesize isUpdatable=_isUpdatable;
-@property(nonatomic) unsigned long long kernelHeight; // @synthesize kernelHeight=_kernelHeight;
-@property(nonatomic) unsigned long long kernelWidth; // @synthesize kernelWidth=_kernelWidth;
-@property(readonly, nonatomic) NSNumber *key;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
 @property(nonatomic) unsigned long long layerID; // @synthesize layerID=_layerID;
-@property(readonly, copy, nonatomic) NSString *originalLabel; // @synthesize originalLabel=_originalLabel;
-@property(nonatomic) int paddingPolicy; // @synthesize paddingPolicy=_paddingPolicy;
-@property(nonatomic) unsigned long long paddingSizeInX; // @synthesize paddingSizeInX=_paddingSizeInX;
-@property(nonatomic) unsigned long long paddingSizeInY; // @synthesize paddingSizeInY=_paddingSizeInY;
-@property(retain, nonatomic) NSMutableArray *resultGradientTensors; // @synthesize resultGradientTensors=_resultGradientTensors;
-@property(retain, nonatomic) NSMutableArray *resultTensors; // @synthesize resultTensors=_resultTensors;
-@property(nonatomic) _Bool skipLayer; // @synthesize skipLayer=_skipLayer;
-@property(retain, nonatomic) NSMutableArray *sourceGradientTensors; // @synthesize sourceGradientTensors=_sourceGradientTensors;
-@property(retain, nonatomic) NSMutableArray *sourceTensors; // @synthesize sourceTensors=_sourceTensors;
-@property(nonatomic) unsigned long long strideInX; // @synthesize strideInX=_strideInX;
-@property(nonatomic) unsigned long long strideInY; // @synthesize strideInY=_strideInY;
-@property(readonly, nonatomic) NSString *summarizedDOTDescription;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool zeroIntermediateGradientTensors; // @synthesize zeroIntermediateGradientTensors=_zeroIntermediateGradientTensors;
 
 @end
 

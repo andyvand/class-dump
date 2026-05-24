@@ -6,8 +6,7 @@
 
 #import <SAObjects/SADomainObject.h>
 
-@class NSArray, NSDate, NSString, SAReminderListObject, SAReminderRecurrence, SAReminderTrigger;
-@protocol SAReminderPayload;
+@class NSString;
 
 @interface SAReminderObject : SADomainObject
 {
@@ -15,18 +14,18 @@
 
 + (id);
 + (id);
-- (id);
+- (id)<;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -36,22 +35,12 @@
 - (void);
 - (_Bool);
 - (id);
-- (void):(id)arg1;
+- (void)setLastUpdateAttemptTime:(id)arg1;
 - (id)r",&,N;
-- (void)ondingSessionID;
+- (void)correspondingSessionID;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *alternateSubject;
-@property(nonatomic) _Bool completed;
-@property(copy, nonatomic) NSDate *dueDate;
-@property(copy, nonatomic) NSString *dueDateTimeZoneId;
-@property(nonatomic) _Bool important;
-@property(copy, nonatomic) NSArray *lists;
-@property(retain, nonatomic) id <SAReminderPayload> payload;
-@property(retain, nonatomic) SAReminderRecurrence *recurrence;
-@property(copy, nonatomic) NSString *subject;
-@property(retain, nonatomic) SAReminderListObject *toList;
-@property(retain, nonatomic) SAReminderTrigger *trigger;
 
 @end
 

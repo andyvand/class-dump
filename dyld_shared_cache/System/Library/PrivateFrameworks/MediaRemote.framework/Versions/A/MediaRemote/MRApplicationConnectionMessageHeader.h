@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, _MRApplicationConnectionMessageHeaderProtobuf;
+@class NSData;
 
 @interface MRApplicationConnectionMessageHeader
 {
@@ -21,7 +21,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _MRApplicationConnectionMessageHeaderProtobuf *protobuf;
 @property(readonly, nonatomic) NSData *protobufData;
 
 @end

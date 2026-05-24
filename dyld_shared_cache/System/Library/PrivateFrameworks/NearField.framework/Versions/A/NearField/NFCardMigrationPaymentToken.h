@@ -9,24 +9,20 @@
 @interface NFCardMigrationPaymentToken
 {
     NSData *_token;
-    NSData *_signature;
-    NSData *_certificate;
 }
 
 + (_Bool);
+- (id)m;
+- (void);
+- (id);
+- (void)T;
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (void)MCXExtensions;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *certificate; // @synthesize certificate=_certificate;
-@property(retain, nonatomic) NSData *signature; // @synthesize signature=_signature;
 @property(retain, nonatomic) NSData *token; // @synthesize token=_token;
 
 @end

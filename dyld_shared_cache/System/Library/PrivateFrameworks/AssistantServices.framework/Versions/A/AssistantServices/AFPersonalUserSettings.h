@@ -9,13 +9,9 @@
 @interface AFPersonalUserSettings
 {
     _Bool _twentyFourHourTimeDisplay;
-    NSString *_temperatureUnit;
-    NSString *_region;
-    NSString *_countryCode;
-    NSString *_preferredLanguage;
 }
 
-+ (_Bool);
++ (_Bool)`R;
 - (id);
 - (id);
 - (void);
@@ -23,19 +19,15 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (void);
 - (void)onVersion;
-- (id)wSnippet;
+- (id)ShowSnippet;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(copy, nonatomic) NSString *preferredLanguage; // @synthesize preferredLanguage=_preferredLanguage;
-@property(copy, nonatomic) NSString *region; // @synthesize region=_region;
 @property(copy, nonatomic) NSString *temperatureUnit; // @synthesize temperatureUnit=_temperatureUnit;
-@property(nonatomic) _Bool twentyFourHourTimeDisplay; // @synthesize twentyFourHourTimeDisplay=_twentyFourHourTimeDisplay;
 
 @end
 

@@ -4,38 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKStructuredLocation, MKMapView, MapDragRadiusView, NSString, _MKLocationShifter;
-@protocol MapDragRadiusDelegate;
+@class EKStructuredLocation, MKMapView;
 
 @interface EKUIRadialMapController
 {
     EKStructuredLocation *_structuredLocation;
-    long long _proximity;
-    id <MapDragRadiusDelegate> _delegate;
-    MKMapView *_mapView;
-    MapDragRadiusView *_dragView;
-    _MKLocationShifter *_locationShifter;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
+- (void)@9?;
+- (void);
+- (void);
+- (id);
+- (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)`;
 - (id);
 - (long long);
 - (void);
@@ -44,19 +38,7 @@
 - (void)reminderStackDepth;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain) id <MapDragRadiusDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain) MapDragRadiusView *dragView; // @synthesize dragView=_dragView;
-@property(readonly) unsigned long long hash;
-@property(retain) _MKLocationShifter *locationShifter; // @synthesize locationShifter=_locationShifter;
 @property(retain) MKMapView *mapView; // @synthesize mapView=_mapView;
-@property(nonatomic) long long proximity; // @synthesize proximity=_proximity;
-@property(retain, nonatomic) EKStructuredLocation *structuredLocation; // @synthesize structuredLocation=_structuredLocation;
-@property(readonly) Class superclass;
 
 @end
 

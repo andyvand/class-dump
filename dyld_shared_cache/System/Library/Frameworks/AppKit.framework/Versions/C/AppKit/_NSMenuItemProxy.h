@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _NSMenuItemProxy
 {
     long long _tag;
-    SEL _action;
 }
 
 - (long long);
@@ -17,7 +16,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) SEL action;
-@property(readonly) long long tag;
 
 @end
 

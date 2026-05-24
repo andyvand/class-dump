@@ -5,9 +5,9 @@
 //
 
 @protocol GCDeviceSpatial
+- (unsigned long long);
 
 // Remaining properties
-@property(readonly) long long inherentChirality;
 @property(readonly) unsigned long long trackingSourceIOServiceRegistryID;
 @end
 

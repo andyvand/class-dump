@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFSMTPAccount, NSMutableArray, NSMutableData, NSString, _MFSMTPEnhancedStatusCode;
+@class _MFSMTPEnhancedStatusCode;
 
 @interface MFSMTPConnection
 {
     id _lastResponse;
-    NSMutableArray *_serviceExtensions;
-    NSMutableData *_mdata;
-    NSString *_domainName;
-    _Bool _needToSendGreeting;
-    int _lastReplyCode;
-    double _timeLastCommandWasSent;
-    _MFSMTPEnhancedStatusCode *_lastStatusCode;
-    double _originalSocketTimeout;
-    long long _greeting;
 }
 
 + (id),),,)__GG;
@@ -25,15 +16,15 @@
 - (void);
 - (_Bool);
 - (long long);
-- (long long);
-- (double);
+- (long long);
+- (double)j;
 - (void);
 - (long long);
 - (void);
 - (id);
-- (id);
+- (id)CGRect={CGPoint=dd}{CGSize=dd}}16;
 - (void);
-- (void);
+- (void)@;
 - (long long);
 - (id);
 - (id);
@@ -41,22 +32,22 @@
 - (id);
 - (id);
 - (void);
-- (double);
+- (double)h;
 - (long long);
 - (long long);
-- (void);
+- (void)AXVSpeechMenuWindow;
+- (long long);
+- (_Bool)setSigners:(_Bool)arg1;
+- (id)_setPageZoomFactor: /* Error: Ran out of types for this method. */;
+- (unsigned long long)message;
+- (_Bool)ck evaluation did fail:%s /* Error: Ran out of types for this method. */;
+- (id)gurationActionV25UnableToLoadDefaultsError33_5AFD678A72E4B2A8891B255F6A7C217CLLV;
 - (long long);
 - (_Bool);
-- (id);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (long long);
-- (_Bool);
 - (long long);
 - (long long);
-- (_Bool);
-- (int):forString:range:error: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (int)getObjectValue:forString:range:error: /* Error: Ran out of types for this method. */;
 - (void)	
 ;
 - (long long);
@@ -66,15 +57,7 @@
 - (_Bool)õ'I#±î;
 
 // Remaining properties
-@property __weak MFSMTPAccount *account;
-@property(nonatomic) long long greeting; // @synthesize greeting=_greeting;
-@property(nonatomic) int lastReplyCode; // @synthesize lastReplyCode=_lastReplyCode;
-@property(readonly, copy, nonatomic) NSString *lastResponse;
 @property(readonly, nonatomic) _MFSMTPEnhancedStatusCode *lastStatusCode; // @synthesize lastStatusCode=_lastStatusCode;
-@property(readonly, nonatomic) unsigned long long maximumMessageBytes;
-@property(nonatomic) _Bool needToSendGreeting; // @synthesize needToSendGreeting=_needToSendGreeting;
-@property(nonatomic) double originalSocketTimeout; // @synthesize originalSocketTimeout=_originalSocketTimeout;
-@property(nonatomic) double timeLastCommandWasSent; // @synthesize timeLastCommandWasSent=_timeLastCommandWasSent;
 
 @end
 

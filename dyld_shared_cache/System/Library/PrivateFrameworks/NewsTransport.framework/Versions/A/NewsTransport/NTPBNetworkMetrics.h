@@ -9,35 +9,33 @@
 @interface NTPBNetworkMetrics
 {
     NSMutableArray *_failures;
-    NSMutableArray *_successes;
 }
 
-+ (Class);
-+ (Class);
++ (Class)animateChangesWithDuration: /* Error: Ran out of types for this method. */;
++ (Class)_primaryDividerScale;
+- (unsigned long long)fallbackNavigator;
+- (id)fallbackEntryForContentType:(unsigned long long)arg1 sourceIdentifier:size: /* Error: Ran out of types for this method. */;
+- (id)fallbackEntryForContentType:sourceIdentifier:size: /* Error: Ran out of types for this method. */;
+- (void)enumerateChaptersUsingBlock:(id)arg1;
+- (void)addLocalMonitorForEventsMatchingMask:handler: /* Error: Ran out of types for this method. */;
+- (void)abortIfStabilizationFails;
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)`;
+- (_Bool)NumberOfFilesPathed;
 - (_Bool);
 - (id);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *failures; // @synthesize failures=_failures;
 @property(retain, nonatomic) NSMutableArray *successes; // @synthesize successes=_successes;
 
 @end

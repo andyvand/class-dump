@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, AMSProcessInfo, AMSPromise, AMSUIPaymentVerificationMetrics, NSDictionary, NSString, NSViewController, WrappedAMSUIWebViewController;
-@protocol AMSBagProtocol;
-
 @interface AMSUIPaymentVerificationTokenFetchTask
 {
     _Bool _biometricsDenied;
-    ACAccount *_account;
-    NSDictionary *_accountParameters;
-    id <AMSBagProtocol> _bag;
-    AMSProcessInfo *_clientInfo;
-    NSString *_displayName;
-    unsigned long long _mode;
-    NSDictionary *_userInfo;
-    NSViewController *_viewController;
-    AMSUIPaymentVerificationMetrics *_metrics;
-    AMSPromise *_resultPromise;
-    WrappedAMSUIWebViewController *_webVC;
 }
 
 + (id);
@@ -29,10 +15,10 @@
 + (id);
 + (id)yñ=yADy@Ý=y*=Gt=yv=SgGG=y§=GG_SSQo__ADyADy;Ø=y5Ü=yADyADyq=AKGAMy=GGG_Ñ=Qo_×=GÇ=yá=GGSgtGG;
 + (id)lic}@;
-- (void);
-- (id);
-- (void);
-- (void);
+- (void):(id)arg1 NSArray.class];
+- (id)ider.m;
+- (void)%@, path:(id)arg1 %@>;
+- (void)0;
 - (void);
 - (id);
 - (id);
@@ -41,17 +27,17 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)#8�I;
 - (void);
-- (void);
+- (void)le URL.;
 - (id);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -59,30 +45,12 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id)Jt;
 - (void)ationMetrics";
-- (id)s: /* Error: Ran out of types for this method. */;
+- (id)setShouldAutomaticallyReportMetrics: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) ACAccount *account; // @synthesize account=_account;
-@property(readonly) NSDictionary *accountParameters; // @synthesize accountParameters=_accountParameters;
-@property(readonly) id <AMSBagProtocol> bag; // @synthesize bag=_bag;
 @property _Bool biometricsDenied; // @synthesize biometricsDenied=_biometricsDenied;
-@property(retain) AMSProcessInfo *clientInfo; // @synthesize clientInfo=_clientInfo;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly) unsigned long long hash;
-@property(retain) AMSUIPaymentVerificationMetrics *metrics; // @synthesize metrics=_metrics;
-@property(readonly) unsigned long long mode; // @synthesize mode=_mode;
-@property(retain) AMSPromise *resultPromise; // @synthesize resultPromise=_resultPromise;
-@property(readonly) Class superclass;
-@property(retain) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
-@property(readonly) NSViewController *viewController; // @synthesize viewController=_viewController;
-@property(retain) WrappedAMSUIWebViewController *webVC; // @synthesize webVC=_webVC;
 
 @end
 

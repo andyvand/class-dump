@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNMutableContact, NSArray;
-
 __attribute__((visibility("hidden")))
 @interface CNUIContactSaveResult
 {
     _Bool _success;
-    CNMutableContact *_contact;
-    NSArray *_identifiersOfIssuedSaveRequests;
 }
 
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)MUTask initialization;
 - (_Bool)ÔáDð!XDùtð1Â0@ù
 × ;
-- (void)r: /* Error: Ran out of types for this method. */;
+- (void)addObserver: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CNMutableContact *contact; // @synthesize contact=_contact;
-@property(readonly, nonatomic) NSArray *identifiersOfIssuedSaveRequests; // @synthesize identifiersOfIssuedSaveRequests=_identifiersOfIssuedSaveRequests;
 @property(readonly, nonatomic) _Bool success; // @synthesize success=_success;
 
 @end

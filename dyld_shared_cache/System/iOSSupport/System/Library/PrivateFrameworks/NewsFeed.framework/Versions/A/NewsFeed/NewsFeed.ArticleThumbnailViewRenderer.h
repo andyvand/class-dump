@@ -7,12 +7,6 @@
 @interface NewsFeed.ArticleThumbnailViewRenderer
 {
     id rendererEnvironment;
-    id styler;
-    id imageCache;
-    id rendererTool;
-    id layeredMediaViewProvider;
-    id layeredMediaLayerProviderFactory;
-    id layeredMediaViewRenderer;
 }
 
 @end

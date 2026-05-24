@@ -4,9 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class EKCalendarDate, NSArray;
+
 @protocol EKDayAllDayViewDelegate
+- (EKCalendarDate *)dback";
+- (NSArray *);
 
 @optional
+- (_Bool);
 - (void)ltiPasteViewControllerDelegate>",W,N,V_delegate;
 @end
 

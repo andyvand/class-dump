@@ -6,19 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PFAPreprocessorExecutionEnded, PFAPreprocessorExecutionFailed, PFAPreprocessorExecutionStarted, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PFAPreprocessorExecutionContext : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_contextId;
-    PFAPreprocessorExecutionStarted *_startedOrChanged;
-    PFAPreprocessorExecutionEnded *_ended;
-    PFAPreprocessorExecutionFailed *_failed;
-    _Bool _hasContextId;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -45,27 +37,18 @@
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)t chats count in %f seconds. Missing Messages:(id)arg1 %lld;
 - (id);
 - (id)
 × ;
-- (id)geMetadata;
+- (id)_hasMemoryUsageMetadata;
 - (id)asAppEntityQueryResponseTime;
-- (void)data;
+- (void)entityMetadata;
 - (void)Ðëÿ¿;
 - (id)ÛÔ$;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *contextId; // @synthesize contextId=_contextId;
-@property(retain, nonatomic) PFAPreprocessorExecutionEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) PFAPreprocessorExecutionFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasContextId; // @synthesize hasContextId=_hasContextId;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) PFAPreprocessorExecutionStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

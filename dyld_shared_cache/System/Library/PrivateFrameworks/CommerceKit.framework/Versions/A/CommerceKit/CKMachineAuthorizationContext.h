@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDialogContext, CKStoreClient, NSString;
+@class CKStoreClient;
 
 @interface CKMachineAuthorizationContext
 {
     CKStoreClient *_storeClient;
-    CKDialogContext *_dialogContext;
 }
 
 + (id);
@@ -23,18 +22,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)i;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) CKDialogContext *dialogContext; // @synthesize dialogContext=_dialogContext;
-@property(readonly) unsigned long long hash;
 @property(readonly) CKStoreClient *storeClient; // @synthesize storeClient=_storeClient;
-@property(readonly) Class superclass;
 
 @end
 

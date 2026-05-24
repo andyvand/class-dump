@@ -4,27 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLayoutDimension, NSLayoutXAxisAnchor, NSLayoutYAxisAnchor, UIView;
+@class NSLayoutDimension, UIView;
 
 @protocol UILayoutItem
+- (UIView *)ng"32@"NSString"40C48@"NSString"52;
+- (_Bool)SString"40;
+- (UIView *)64;
+- (void);
+- (void)16C24@"NSArray"28@"NSArray"36q44;
+- (struct CGRect)SString"52@"NSString"60;
+- (struct CGRect)ray"16C24@"NSArray"28@"NSString"36@"NSString"44@"NSString"52@"NSString"60;
+- (void)ary">44;
+- (NSLayoutDimension *);
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGRect _ui_bounds;
-@property(nonatomic) struct CGRect _ui_frame;
-@property(readonly, nonatomic) UIView *_ui_superview;
-@property(nonatomic) _Bool _ui_usesManualLayout;
-@property(readonly, nonatomic) UIView *_ui_view;
-@property(readonly, nonatomic) NSLayoutYAxisAnchor *bottomAnchor;
-@property(readonly, nonatomic) NSLayoutXAxisAnchor *centerXAnchor;
-@property(readonly, nonatomic) NSLayoutYAxisAnchor *centerYAnchor;
-@property(readonly, nonatomic) NSLayoutYAxisAnchor *firstBaselineAnchor;
-@property(readonly, nonatomic) NSLayoutDimension *heightAnchor;
-@property(readonly, nonatomic) NSLayoutYAxisAnchor *lastBaselineAnchor;
-@property(readonly, nonatomic) NSLayoutXAxisAnchor *leadingAnchor;
-@property(readonly, nonatomic) NSLayoutXAxisAnchor *leftAnchor;
-@property(readonly, nonatomic) NSLayoutXAxisAnchor *rightAnchor;
-@property(readonly, nonatomic) NSLayoutYAxisAnchor *topAnchor;
-@property(readonly, nonatomic) NSLayoutXAxisAnchor *trailingAnchor;
-@property(readonly, nonatomic) NSLayoutDimension *widthAnchor;
 @end
 

@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface AVContentProtectionConfiguration
 {
     NSString *_contentKeySystem;
-    NSArray *_keyIdentifiers;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)ШH�;
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *contentKeySystem; // @synthesize contentKeySystem=_contentKeySystem;
-@property(readonly, copy, nonatomic) NSArray *keyIdentifiers; // @synthesize keyIdentifiers=_keyIdentifiers;
 
 @end
 

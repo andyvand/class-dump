@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPointerArray;
-
 __attribute__((visibility("hidden")))
 @interface _GCDevicePhysicalInputMutableStateTable
 {
     unsigned short _magic;
-    NSPointerArray *_primitiveState;
-    NSPointerArray *_objectPolicyState;
-    NSPointerArray *_objectState;
 }
 
 - (_Bool);
@@ -24,15 +19,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned short);
 - (unsigned int);
-- (void);
+- (void)B;
 - (id);
-- (id);
+- (id)setLinkediTunesAppleID:(struct _NSZone *)arg1;
 - (id);
 
 // Remaining properties
 @property(readonly) unsigned short magic; // @synthesize magic=_magic;
-@property(readonly) unsigned int objectSlotCount;
-@property(readonly) unsigned int primitiveSlotCount;
 
 @end
 

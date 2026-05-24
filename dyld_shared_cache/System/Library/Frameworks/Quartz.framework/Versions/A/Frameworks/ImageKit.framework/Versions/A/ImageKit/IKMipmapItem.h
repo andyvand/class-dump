@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKImageWrapper, IKMipmapImage;
+@class IKMipmapImage;
 
 @interface IKMipmapItem
 {
     IKMipmapImage *_parent;
-    IKImageWrapper *_image;
-    int _mipmapSize;
-    unsigned int _vmUsagePolicy:8;
-    unsigned int _thumbnailQuality:8;
-    unsigned int _isReference:1;
-    unsigned int _sizeIsVarying:1;
 }
 
 - (int);
 - (int);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -35,8 +29,8 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)ender;
+- (id)is only allowed for extensions.;
 - (id);
 - (id);
 - (_Bool);

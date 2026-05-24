@@ -6,42 +6,23 @@
 
 #import <Vision/VNDetector.h>
 
-@class VNRegionOfInterestTilingOptions, VisionCoreSceneNetInferenceNetworkDescriptor, _VNImageAnalyzerMultiDetectorSceneOperationPointsCache;
+@class VNRegionOfInterestTilingOptions;
 
 __attribute__((visibility("hidden")))
 @interface VNImageAnalyzerMultiDetector : VNDetector
 {
     VNRegionOfInterestTilingOptions *_inputImageTilingOptions;
-    int _customClassifierEspressoEngine;
-    int _customClassifierEspressoDeviceID;
-    unsigned long long _model;
-    VisionCoreSceneNetInferenceNetworkDescriptor *_inferenceDescriptor;
-    unsigned int _cachedInferenceImagePixelFormatType;
-    shared_ptr_eb20c8f2 _defaultSceneClassificationHierarchicalModel;
-    struct shared_ptr<vision::mod::ImageAnalyzer> _imageAnalyzer;
-    struct vector<unsigned long, std::allocator<unsigned long>> _entityNetIndexesToReport;
-    _VNImageAnalyzerMultiDetectorSceneOperationPointsCache *_operationPointsCache;
-    struct shared_ptr<std::vector<std::shared_ptr<vision::mod::ImageAnalyzer_CustomClassifier>>> _junkCustomClassifiers_DO_NOT_ACCESS_DIRECTLY;
-    struct unique_ptr<vision::mod::ImageAnalyzer_PCA, std::default_delete<vision::mod::ImageAnalyzer_PCA>> _imageAnalyzerPCA256_DO_NOT_ACCESS_DIRECTLY;
-    struct shared_ptr<vision::mod::ImageAnalyzer_CustomClassifier> _VNVYvzEtX1JlUdu8xx5qhDICustomClassifier;
-    struct shared_ptr<vision::mod::ImageAnalyzer_CustomClassifier> _potentialLandmarkCustomClassifier_DO_NOT_ACCESS_DIRECTLY;
-    struct shared_ptr<vision::mod::ImageAnalyzer_CustomClassifier> _VN5kJNH3eYuyaLxNpZr5Z7ziCustomClassifier;
-    struct shared_ptr<vision::mod::ImageAnalyzer_CustomClassifier> _significantEventCustomClassifier_DO_NOT_ACCESS_DIRECTLY;
-    struct shared_ptr<vision::mod::ImageAnalyzer_CustomClassifier> _cityNatureCustomClassifier_DO_NOT_ACCESS_DIRECTLY;
-    struct os_unfair_lock_s _cachedAllSceneClassificationsFromLastAnalysisAccessLock;
-    struct shared_ptr<const std::vector<std::tuple<std::string, float, bool>>> _cachedAllSceneClassificationsFromLastAnalysis;
-    _Bool _hasherInitialized;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 + (shared_ptr_eb20c8f2);
 + (id);
 + (id);
 + (void);
 + (shared_ptr_eb20c8f2);
 + (id);
-+ (id);
++ (id)_startingAnchor;
 + (id);
 + (id);
 + (_Bool);
@@ -70,12 +51,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (void)tifierFaceprint;
+- (id)BrY;
+- (void)VisionCoreInferenceNetworkIdentifierFaceprint;
 
 // Remaining properties
 @property(readonly) _Bool hasObjDetNet;
-@property(readonly) _Bool hasSliderNet;
 
 @end
 

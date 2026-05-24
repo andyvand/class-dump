@@ -11,12 +11,11 @@
 @interface IMStewieStoppedSharingChatItem : IMTranscriptChatItem
 {
     IMHandle *_handle;
-    IMChat *_chat;
 }
 
-- (id);
+- (id)[%s] %s:(id)arg1 %d %@(%p) processMessageFromParticipant:(id)arg2 isInternalMessage='%d';
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void)è|<};

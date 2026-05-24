@@ -4,15 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSSet, REMReminderChangeItem;
+@class REMReminderChangeItem;
 
 @interface REMReminderHashtagContextChangeItem
 {
     REMReminderChangeItem *_reminderChangeItem;
-    NSMutableSet *_mutableHashtags;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -25,12 +24,10 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)d phone number subscription caches in other processes;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *hashtags;
-@property(retain, nonatomic) NSMutableSet *mutableHashtags; // @synthesize mutableHashtags=_mutableHashtags;
 @property(retain, nonatomic) REMReminderChangeItem *reminderChangeItem; // @synthesize reminderChangeItem=_reminderChangeItem;
 
 @end

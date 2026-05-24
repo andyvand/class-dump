@@ -10,16 +10,13 @@ __attribute__((visibility("hidden")))
 @interface _LSApplicationRecordEnumerator : _LSRecordEnumerator
 {
     struct VolumeContainerResolutionAdapter _volumeContainerAdapter;
-    unsigned long long _options;
-    struct vector<unsigned int, std::allocator<unsigned int>> _bundleIdentifiersOrUnits;
-    unsigned int _bundleClass;
 }
 
-- (void);
+- (void))a;
 - (_Bool);
+- (id)k;
 - (id);
-- (id);
-- (id);
+- (id)l;
 - (id);
 - (unsigned int);
 - (_Bool);

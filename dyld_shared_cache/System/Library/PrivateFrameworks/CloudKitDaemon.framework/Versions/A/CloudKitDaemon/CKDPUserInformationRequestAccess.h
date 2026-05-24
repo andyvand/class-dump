@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPContactInformation, CKDPDate, NSString;
+@class CKDPContactInformation;
 
 @interface CKDPUserInformationRequestAccess
 {
     CKDPContactInformation *_contactInformation;
-    CKDPDate *_nSSecTimestampDate;
-    NSString *_userId;
 }
 
 - (void);
@@ -21,11 +19,13 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)t;
 - (void);
 - (void);
-- (unsigned long long);
-- (id);
+- (unsigned long long)me=%llu diffMs=%llu expiryMs=%llu
+;
+- (id)BAE [%{ptr}] %s### [0x%04X] hose [%{ptr}] (%@) hit too many (%u) retries trying to resolve errors, dissociating...
+;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -34,12 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CKDPContactInformation *contactInformation; // @synthesize contactInformation=_contactInformation;
-@property(readonly, nonatomic) _Bool hasContactInformation;
-@property(readonly, nonatomic) _Bool hasNSSecTimestampDate;
 @property(readonly, nonatomic) _Bool hasUserId;
-@property(retain, nonatomic) CKDPDate *nSSecTimestampDate; // @synthesize nSSecTimestampDate=_nSSecTimestampDate;
-@property(retain, nonatomic) NSString *userId; // @synthesize userId=_userId;
 
 @end
 

@@ -6,56 +6,45 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, POMMESSchemaPOMMESResourceDownloadEnded, POMMESSchemaPOMMESResourceDownloadFailed, POMMESSchemaPOMMESResourceDownloadStarted;
+@class POMMESSchemaPOMMESResourceDownloadStarted;
 
 @interface POMMESSchemaPOMMESResourceDownloadContext : SISchemaInstrumentationMessage
 {
     POMMESSchemaPOMMESResourceDownloadStarted *_startedOrChanged;
-    POMMESSchemaPOMMESResourceDownloadEnded *_ended;
-    POMMESSchemaPOMMESResourceDownloadFailed *_failed;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    _Bool _hasFailed;
-    unsigned long long _whichContextevent;
 }
 
-- (unsigned long long);
+- (unsigned long long)Tp);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)?׀;
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void)st:(id)arg1 %{bool}d
+os_log:%{bool}d
+scrub_data:%{bool}d /* Error: Ran out of types for this method. */;
+- (void)o remove original file after compression:(id)arg1 %{errno}d;
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
+- (_Bool);
+- (unsigned long long)s/AppStoreDaemon/Stubs/ASDRestoreDemotedApplicationsRequest_macOS.m:28 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)led to create XPC dictionary;
 - (id);
 - (id);
-- (id)guration;
+- (id)_routeConfiguration;
 - (id);
-- (void)USPRODUCTAREA_WEB_SEARCH;
+- (void)FLOWPEGASUSPRODUCTAREA_WEB_SEARCH;
 
 // Remaining properties
-@property(retain, nonatomic) POMMESSchemaPOMMESResourceDownloadEnded *ended; // @synthesize ended=_ended;
-@property(retain, nonatomic) POMMESSchemaPOMMESResourceDownloadFailed *failed; // @synthesize failed=_failed;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasFailed; // @synthesize hasFailed=_hasFailed;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) POMMESSchemaPOMMESResourceDownloadStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

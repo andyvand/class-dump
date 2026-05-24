@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMCameraStreamAudioPreferences, HMCameraStreamVideoPreferences, NSArray, NSString;
+@class HMCameraStreamAudioPreferences;
 
 @interface HMCameraStreamPreferences
 {
     _Bool _shouldTakeOwnershipOfExistingStream;
-    HMCameraStreamAudioPreferences *_audioPreferences;
-    HMCameraStreamVideoPreferences *_videoPreferences;
-    long long _minimumRequiredAvailableOrInUseStreams;
 }
 
 + (id);
@@ -20,7 +17,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)^;
 - (void);
 - (long long);
 - (id);
@@ -28,34 +25,14 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)nauseous;
+- (id)layWithGesture;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
 @property(retain) HMCameraStreamAudioPreferences *audioPreferences; // @synthesize audioPreferences=_audioPreferences;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property long long minimumRequiredAvailableOrInUseStreams; // @synthesize minimumRequiredAvailableOrInUseStreams=_minimumRequiredAvailableOrInUseStreams;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property _Bool shouldTakeOwnershipOfExistingStream; // @synthesize shouldTakeOwnershipOfExistingStream=_shouldTakeOwnershipOfExistingStream;
-@property(readonly) Class superclass;
-@property(retain) HMCameraStreamVideoPreferences *videoPreferences; // @synthesize videoPreferences=_videoPreferences;
 
 @end
 

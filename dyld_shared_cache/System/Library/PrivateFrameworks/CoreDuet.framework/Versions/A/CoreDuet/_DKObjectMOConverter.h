@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCache;
-
 @interface _DKObjectMOConverter
 {
     _Bool _readMetadata;
-    _Bool _deduplicateValues;
-    NSArray *_excludedMetadataKeys;
-    NSCache *_cache;
 }
 
 - (id);
@@ -26,12 +21,10 @@
 × ;
 - (void)ù1ª3Ð1Â0@ù
 × ;
-- (id)dContacts: /* Error: Ran out of types for this method. */;
+- (id)setSeedContacts: /* Error: Ran out of types for this method. */;
 - (_Bool)od;
 
 // Remaining properties
-@property _Bool deduplicateValues; // @synthesize deduplicateValues=_deduplicateValues;
-@property(retain) NSArray *excludedMetadataKeys; // @synthesize excludedMetadataKeys=_excludedMetadataKeys;
 @property _Bool readMetadata; // @synthesize readMetadata=_readMetadata;
 
 @end

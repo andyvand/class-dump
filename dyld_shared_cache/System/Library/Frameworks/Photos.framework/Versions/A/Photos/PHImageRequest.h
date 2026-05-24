@@ -6,52 +6,34 @@
 
 #import <Photos/PHMediaRequest.h>
 
-@class NSObject, NSString, NSURL, PHImageDecoderAsyncDecodeRequestHandle, PHImageDisplaySpec, PHImageRequestBehaviorSpec, PHImageResourceChooser, PHImageResult;
-@protocol OS_dispatch_semaphore, PHImageRequestDelegate;
-
 @interface PHImageRequest : PHMediaRequest
 {
     struct os_unfair_lock_s _lock;
-    PHImageDecoderAsyncDecodeRequestHandle *_asyncDecodeRequestHandle;
-    PHImageResult *_imageResult;
-    PHImageResourceChooser *_chooser;
-    struct CGSize _desiredImageSize;
-    _Bool _forceIgnoreCache;
-    NSObject<OS_dispatch_semaphore> *_syncDownloadWaitSemaphore;
-    NSURL *_configuredImageURL;
-    NSString *_configuredImageUTI;
-    long long _configuredExifOrientation;
-    id <PHImageRequestDelegate> _imageDelegate;
-    PHImageDisplaySpec *_displaySpec;
-    PHImageRequestBehaviorSpec *_behaviorSpec;
 }
 
 - (void);
+- (void)_catchUpAccumulatedTouchesForRecognizer:(id)arg1;
 - (void);
-- (void);
-- (struct CGSize);
+- (struct CGSize)}@:_onAsyncServer:completed error=%{public}@ /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
+- (id)P;
 - (id);
 - (long long);
 - (id);
+- (void)layer [infoCenter does not exist] playerPath=%{public}@;
 - (void);
-- (void);
-- (long long);
+- (long long)qI;
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)z;
+- (void)N~;
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) PHImageRequestBehaviorSpec *behaviorSpec; // @synthesize behaviorSpec=_behaviorSpec;
 @property(readonly, nonatomic) struct CGSize desiredImageSize; // @synthesize desiredImageSize=_desiredImageSize;
-@property(retain, nonatomic) PHImageDisplaySpec *displaySpec; // @synthesize displaySpec=_displaySpec;
-@property(readonly, nonatomic) __weak id <PHImageRequestDelegate> imageDelegate; // @synthesize imageDelegate=_imageDelegate;
 
 @end
 

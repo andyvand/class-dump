@@ -7,9 +7,6 @@
 @interface PodcastsFoundation.ServerCategoryAttributes
 {
     id name;
-    id url;
-    id editorialArtwork;
-    id color;
 }
 
 @end

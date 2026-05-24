@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UITabBarAppearance;
+@protocol _UITabDataProvider;
+
 @protocol _UITabChangeObserver
+
+@optional
+- (void)updateCachedChatsSyncStatusTo:(id <_UITabDataProvider>)arg1 forGUIDs:(UITabBarAppearance *)arg2;
 @end
 

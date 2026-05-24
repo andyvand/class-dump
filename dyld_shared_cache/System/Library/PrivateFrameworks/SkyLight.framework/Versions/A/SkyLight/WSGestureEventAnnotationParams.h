@@ -12,8 +12,8 @@ __attribute__((visibility("hidden")))
     int _gestureStreamState;
 }
 
-- (void);
-- (int);
+- (void)ryFromManateeIdentityLoss:(int)arg1 databaseScope:inStore:error:]_block_invoke /* Error: Ran out of types for this method. */;
+- (int)_DELETE_DECREMENT;
 
 // Remaining properties
 @property(nonatomic) int gestureStreamState; // @synthesize gestureStreamState=_gestureStreamState;

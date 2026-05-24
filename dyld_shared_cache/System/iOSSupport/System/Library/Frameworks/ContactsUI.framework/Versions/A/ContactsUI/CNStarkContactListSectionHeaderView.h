@@ -10,19 +10,17 @@ __attribute__((visibility("hidden")))
 @interface CNStarkContactListSectionHeaderView
 {
     NSString *_text;
-    double _topPadding;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
-- (double);
-- (void): /* Error: Ran out of types for this method. */;
+- (void)gress"16^B24;
+- (double);
+- (void)addCancelable: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(nonatomic) double topPadding; // @synthesize topPadding=_topPadding;
 
 @end
 

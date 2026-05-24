@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABPerson, CBIdentity, NSImage, NSString;
+@class NSImage;
 
 @interface ListObject
 {
     NSImage *_icon;
-    NSString *_displayName;
-    NSString *_realName;
-    CBIdentity *_identity;
-    ABPerson *_person;
 }
 
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);

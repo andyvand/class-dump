@@ -5,5 +5,7 @@
 //
 
 @protocol MEContentRuleListManagerObserver
+- (void);
+- (void)5qA;
 @end
 

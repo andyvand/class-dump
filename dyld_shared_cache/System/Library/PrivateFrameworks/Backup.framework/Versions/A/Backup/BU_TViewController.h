@@ -8,21 +8,19 @@ __attribute__((visibility("hidden")))
 @interface BU_TViewController
 {
     _Bool _callingLoadView;
-    _Bool _loadingFromNib;
-    _Bool _isViewConfigured;
 }
 
 - (id);
 - (id);
-- (void);
+- (void)";
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)E1�3;
+- (id)1;
 - (void);
 - (void);
-- (void);
+- (void).apple.xbs/TemporaryDirectory.3LW3lp/Sources/Bom/Copier/BOMCopierDataAnalyzer.c;
 
 @end
 

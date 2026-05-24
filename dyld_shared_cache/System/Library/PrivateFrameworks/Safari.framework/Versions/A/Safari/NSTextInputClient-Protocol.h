@@ -7,26 +7,20 @@
 @class NSAdaptiveImageGlyph, NSAttributedString;
 
 @protocol NSTextInputClient
-- (struct _NSRange)tMenu;
+- (struct CGRect);
+- (struct _NSRange)SafariContextMenu;
 - (void);
 - (struct _NSRange)Ð;
 - (void);
-- (_Bool);
 
 @optional
+- (_Bool);
+- (struct CGRect);
 - (NSAttributedString *)tionary"24@0:8B16B20 /* Error: Ran out of types for this method. */;
-- (void)st:(NSAdaptiveImageGlyph *)arg1;
+- (void)_setSheetRequest:(NSAdaptiveImageGlyph *)arg1;
 - (_Bool),;
 
 // Remaining properties
-@property(readonly) struct CGRect documentVisibleRect;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R
-
-@property(readonly) _Bool supportsAdaptiveImageGlyph;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
 @property(readonly) struct CGRect unionRectInVisibleSelectedRange;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R

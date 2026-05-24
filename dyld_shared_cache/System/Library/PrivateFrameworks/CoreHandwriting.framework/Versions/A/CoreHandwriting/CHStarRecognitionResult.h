@@ -9,19 +9,17 @@
 @interface CHStarRecognitionResult : CHSketchRecognitionResult
 {
     struct CGPoint _center;
-    struct CGSize _size;
 }
 
-+ (_Bool);
++ (_Bool)_icAutolaunchedDeviceRef;
 - (id);
 - (id);
 - (struct CGSize);
 - (struct CGPoint);
-- (void);
+- (void)14Z;
 
 // Remaining properties
 @property(readonly) struct CGPoint center; // @synthesize center=_center;
-@property(readonly) struct CGSize size; // @synthesize size=_size;
 
 @end
 

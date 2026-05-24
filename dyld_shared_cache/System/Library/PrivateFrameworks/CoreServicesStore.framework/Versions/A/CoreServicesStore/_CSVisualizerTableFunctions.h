@@ -7,13 +7,11 @@
 @interface _CSVisualizerTableFunctions
 {
     CDUnknownBlockType _getSummary;
-    CDUnknownBlockType _getDescription;
-    CDUnknownBlockType _getIcon;
 }
 
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -21,8 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType getDescription; // @synthesize getDescription=_getDescription;
-@property(copy) CDUnknownBlockType getIcon; // @synthesize getIcon=_getIcon;
 @property(copy) CDUnknownBlockType getSummary; // @synthesize getSummary=_getSummary;
 
 @end

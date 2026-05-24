@@ -6,17 +6,15 @@
 
 #import <NeutrinoCore/_NURenderResult.h>
 
-@class NSArray, NSString;
-@protocol NURenderStatistics;
+@class NSArray;
 
 @interface _NUVisionDetectionResult : _NURenderResult
 {
     NSArray *observations;
-    CDStruct_d58201db imageSize;
 }
 
-- (void);
-- (id);
+- (void)e identity error on zone specific operation:(id)arg1 %@;
+- (id)chema, push_encoding, push_data, push_block_id)                                         VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10, ?11, ?12);
 - (id);
 - (CDStruct_912cb5d2);
 - (void);
@@ -24,16 +22,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property CDStruct_912cb5d2 imageSize; // @synthesize imageSize;
 @property(copy, nonatomic) NSArray *observations; // @synthesize observations;
-@property(readonly) id <NURenderStatistics> statistics;
-@property(readonly) Class superclass;
 
 @end
 

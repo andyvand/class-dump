@@ -12,21 +12,21 @@ __attribute__((visibility("hidden")))
 }
 
 + (struct UIEdgeInsets);
-+ (double);
++ (double)setPayloadDisableSleepWakeButton: /* Error: Ran out of types for this method. */;
 + (double)ÿ¶éw];
 + (double)h79ÿ;
-- (id);
+- (id)__im_isLivePhotoBundleComponent;
 - (struct UIEdgeInsets);
-- (double);
+- (double)epresentedObjects;
 - (void);
 - (double)@ù
 × ;
 - (struct CGSize)1Â0@ù
 × ;
-- (double)cLayoutPoint;
+- (double)_bottomRightConcentricLayoutPoint;
 - (struct UIEdgeInsets)gViewControllerDuringAdaptation:,V_changedPresentingViewControllerDuringAdaptation /* Error: Ran out of types for this method. */;
 - (unsigned long long)group layout: /* Error: Ran out of types for this method. */;
-- (void)C;
+- (void)So22__UIDiffableDataSourceC;
 - (void)IsForcedFullScreen;
 
 @end

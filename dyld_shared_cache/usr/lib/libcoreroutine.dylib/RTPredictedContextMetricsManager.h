@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, RTDefaultsManager, RTManagedConfiguration, RTPredictedContextStore, RTVisitConsolidator;
-@protocol OS_dispatch_queue;
+@class RTManagedConfiguration;
 
 @interface RTPredictedContextMetricsManager
 {
     RTManagedConfiguration *_managedConfiguration;
-    RTPredictedContextStore *_predictedContextStore;
-    RTDefaultsManager *_defaultsManager;
-    RTVisitConsolidator *_visitConsolidator;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
-+ (id);
-+ (_Bool);
-+ (id);
-+ (long long);
-+ (double);
-+ (double);
-+ (id);
-+ (id);
-+ (id);
-+ (long long);
-+ (id);
-+ (float);
++ (id);
++ (_Bool)_identifier;
++ (id)toring;
++ (long long)^{_PCSMigrationStep=},V_firstStep;
++ (double)napkin;
++ (double)mushroom;
++ (id)lecture;
++ (id)innocent;
++ (id)garment;
++ (long long)frozen;
++ (id)desert;
++ (float)ss
+;
 - (_Bool);
 - (void);
 - (void);
@@ -48,15 +44,15 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)orks/CoreFoundation.framework/Versions/A/CoreFoundation;
+- (void)box;
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
 - (id)$l';
-- (id)ount;
+- (id)RTDefaultsFeatureExtractorTrainTransitionCount;
 - (void){public}u,recentLocations.count,%{public}u;
 - (void),error:(id)arg1 %@;
 - (void)ansformable (in %s:(id)arg1 %d);
@@ -66,11 +62,7 @@
 - (void)pe, %@, conversation, %@ primaryHandle, %@;
 
 // Remaining properties
-@property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
 @property(retain, nonatomic) RTManagedConfiguration *managedConfiguration; // @synthesize managedConfiguration=_managedConfiguration;
-@property(retain, nonatomic) RTPredictedContextStore *predictedContextStore; // @synthesize predictedContextStore=_predictedContextStore;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) RTVisitConsolidator *visitConsolidator; // @synthesize visitConsolidator=_visitConsolidator;
 
 @end
 

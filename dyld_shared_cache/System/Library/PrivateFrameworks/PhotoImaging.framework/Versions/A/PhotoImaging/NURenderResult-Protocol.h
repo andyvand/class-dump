@@ -7,6 +7,7 @@
 @protocol NURenderStatistics;
 
 @protocol NURenderResult
+- (id <NURenderStatistics>)validated prompt suggestions:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly) id <NURenderStatistics> statistics;

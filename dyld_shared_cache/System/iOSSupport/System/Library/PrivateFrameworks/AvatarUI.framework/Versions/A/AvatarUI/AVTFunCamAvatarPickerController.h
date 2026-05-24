@@ -4,44 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarListImageItem, AVTCenteringCollectionViewDelegate, AVTFunCamAvatarPickerCollectionViewLayout, AVTFunCamAvatarPickerStyle, AVTRenderingScope, AVTUIEnvironment, NSArray, NSString, UICollectionView, UICollectionViewFlowLayout, UIView, _AVTAvatarRecordImageProvider;
-@protocol AVTAvatarPickerDelegate, AVTAvatarRecord, AVTAvatarStoreInternal, AVTPresenterDelegate, AVTUILogger, NSObject;
+@class UICollectionView;
 
 @interface AVTFunCamAvatarPickerController
 {
     _Bool _allowsCreation;
-    id <AVTPresenterDelegate> presenterDelegate;
-    id <AVTAvatarPickerDelegate> avatarPickerDelegate;
-    unsigned long long _mode;
-    AVTFunCamAvatarPickerStyle *_style;
-    UICollectionView *_collectionView;
-    UIView *_titlesContainer;
-    UICollectionView *_titlesCollectionView;
-    UIView *_titlesClippingView;
-    id <AVTAvatarRecord> _selectedAvatarRecord;
-    AVTFunCamAvatarPickerCollectionViewLayout *_listLayout;
-    UICollectionViewFlowLayout *_gridLayout;
-    AVTCenteringCollectionViewDelegate *_centeringDelegate;
-    NSArray *_puppetRecords;
-    NSArray *_editableRecords;
-    NSArray *_items;
-    AVTAvatarListImageItem *_noneItem;
-    id <AVTAvatarStoreInternal> _store;
-    AVTUIEnvironment *_environment;
-    id <AVTUILogger> _logger;
-    _AVTAvatarRecordImageProvider *_imageProvider;
-    AVTRenderingScope *_editableRecordsListRenderingScope;
-    AVTRenderingScope *_gridRenderingScope;
-    id <NSObject> _changeNotificationToken;
-    struct CGRect _lastUpdateViewBounds;
 }
 
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id)x;
 - (void);
 - (void);
 - (id);
@@ -95,73 +70,41 @@
 - (void);
 - (id);
 - (void);
+- (id)pet dialog ID check:Source locale file has no dialog IDs (perhaps because the file was not found or could not be loaded) /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (struct CGSize);
+- (unsigned long long);
 - (id);
 - (void);
+- (void)registerWithiCalendar;
+- (void)There are held independent tasks remaining during dealloc;
+- (id);
+- (struct CGSize)%u bitsPerChannel:(id)arg1 %u minimumSampleRate:(id)arg2 %f maximumSampleRate:(id)arg3 %f>;
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)propertyListWithStream:(id)arg1 options:(id)arg2 format:error: /* Error: Ran out of types for this method. */;
+- (id)emandOpen;
+- (void)matrixFirstMajor;
+- (void);
 - (long long);
 - (struct UIEdgeInsets);
 - (void);
-- (long long);
+- (long long)ERROR_MSAS_PROT_BAD_FIELD_P_FIELD;
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id)odeWithCoder:(id)arg1;
-- (id)de;
+- (id)encodeWithCoder:(id)arg1;
+- (id)displayMode;
 - (void);
 - (void)Ò;
 
 // Remaining properties
-@property(nonatomic) _Bool allowsCreation; // @synthesize allowsCreation=_allowsCreation;
-@property(nonatomic) __weak id <AVTAvatarPickerDelegate> avatarPickerDelegate; // @synthesize avatarPickerDelegate;
-@property(retain, nonatomic) AVTCenteringCollectionViewDelegate *centeringDelegate; // @synthesize centeringDelegate=_centeringDelegate;
-@property(retain, nonatomic) id <NSObject> changeNotificationToken; // @synthesize changeNotificationToken=_changeNotificationToken;
 @property(retain, nonatomic) UICollectionView *collectionView; // @synthesize collectionView=_collectionView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSArray *editableRecords; // @synthesize editableRecords=_editableRecords;
-@property(readonly, nonatomic) AVTRenderingScope *editableRecordsListRenderingScope; // @synthesize editableRecordsListRenderingScope=_editableRecordsListRenderingScope;
-@property(readonly, nonatomic) AVTUIEnvironment *environment; // @synthesize environment=_environment;
-@property(retain, nonatomic) UICollectionViewFlowLayout *gridLayout; // @synthesize gridLayout=_gridLayout;
-@property(readonly, nonatomic) AVTRenderingScope *gridRenderingScope; // @synthesize gridRenderingScope=_gridRenderingScope;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _AVTAvatarRecordImageProvider *imageProvider; // @synthesize imageProvider=_imageProvider;
-@property(retain, nonatomic) NSArray *items; // @synthesize items=_items;
-@property(nonatomic) struct CGRect lastUpdateViewBounds; // @synthesize lastUpdateViewBounds=_lastUpdateViewBounds;
-@property(retain, nonatomic) AVTFunCamAvatarPickerCollectionViewLayout *listLayout; // @synthesize listLayout=_listLayout;
-@property(readonly, nonatomic) id <AVTUILogger> logger; // @synthesize logger=_logger;
-@property(nonatomic) unsigned long long mode; // @synthesize mode=_mode;
-@property(retain, nonatomic) AVTAvatarListImageItem *noneItem; // @synthesize noneItem=_noneItem;
-@property(nonatomic) __weak id <AVTPresenterDelegate> presenterDelegate; // @synthesize presenterDelegate;
-@property(retain, nonatomic) NSArray *puppetRecords; // @synthesize puppetRecords=_puppetRecords;
-@property(retain, nonatomic) id <AVTAvatarRecord> selectedAvatarRecord; // @synthesize selectedAvatarRecord=_selectedAvatarRecord;
-@property(retain, nonatomic) id <AVTAvatarStoreInternal> store; // @synthesize store=_store;
-@property(copy, nonatomic) AVTFunCamAvatarPickerStyle *style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) UIView *titlesClippingView; // @synthesize titlesClippingView=_titlesClippingView;
-@property(retain, nonatomic) UICollectionView *titlesCollectionView; // @synthesize titlesCollectionView=_titlesCollectionView;
-@property(retain, nonatomic) UIView *titlesContainer; // @synthesize titlesContainer=_titlesContainer;
-@property(readonly, nonatomic) UIView *view;
 
 @end
 

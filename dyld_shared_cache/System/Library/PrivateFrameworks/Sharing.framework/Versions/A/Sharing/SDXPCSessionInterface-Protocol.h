@@ -5,5 +5,6 @@
 //
 
 @protocol SDXPCSessionInterface
+- (void);
 @end
 

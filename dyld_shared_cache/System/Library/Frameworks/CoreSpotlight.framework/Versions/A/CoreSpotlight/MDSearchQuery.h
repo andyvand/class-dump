@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSSearchQuery, NSDictionary, NSObject, NSPredicate, NSString;
-@protocol MDSearchQueryDelegate, OS_dispatch_queue;
+@class NSPredicate;
 
 @interface MDSearchQuery
 {
     unsigned long long _status;
-    NSPredicate *_predicate;
-    id <MDSearchQueryDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_queue;
-    CSSearchQuery *_query;
-    NSString *_clientBundleID;
 }
 
 - (id);
@@ -29,24 +23,18 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)* ;
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (unsigned long long);
+- (id)?;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)#E@c;
 
 // Remaining properties
-@property(retain) NSString *clientBundleID; // @synthesize clientBundleID=_clientBundleID;
-@property __weak id <MDSearchQueryDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSDictionary *options;
 @property(copy) NSPredicate *predicate; // @synthesize predicate=_predicate;
-@property(retain, nonatomic) CSSearchQuery *query; // @synthesize query=_query;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property unsigned long long status;
 
 @end
 

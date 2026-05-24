@@ -4,47 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAsset, AVAssetReader, AVAssetReaderOutput, AVAssetTrack, NSArray, NSCondition, NSError;
+@class AVAssetReader;
 
 @interface VideoReader
 {
     _Bool _readAheadEnable;
-    _Bool fullRangeVideo;
-    float trackStart;
-    float trackLength;
-    float readStart;
-    float readLength;
-    int timeScale;
-    float fps;
-    unsigned int imageWidth;
-    unsigned int imageHeight;
-    unsigned int _pixelFormatOptions;
-    int _readaheadState;
-    NSError *lastError;
-    NSArray *formatDescriptions;
-    AVAsset *asset;
-    AVAssetTrack *videoTrack;
-    AVAssetReader *assetReader;
-    AVAssetReaderOutput *trackOutput;
-    struct opaqueCMSampleBuffer *_readaheadBuf;
-    NSCondition *_readaheadLock;
-    struct opaqueCMSampleBuffer *_lastFrame;
-    CDStruct_1b6d18a9 trackStartT;
-    CDStruct_1b6d18a9 trackLengthT;
-    CDStruct_1b6d18a9 readStartT;
-    CDStruct_1b6d18a9 readLengthT;
-    CDStruct_1b6d18a9 minFrameDuration;
-    CDStruct_1b6d18a9 lastPresentationTime;
-    struct CGAffineTransform preferredTransform;
 }
 
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (float);
 - (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (float);
 - (int);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -53,15 +26,15 @@
 - (void);
 - (void);
 - (int);
-- (id);
+- (id)ȂBy;
 - (struct opaqueCMSampleBuffer *);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7))1@9);
 - (float);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (float);
-- (unsigned int);
+- (unsigned int)d@9?ka;
 - (struct opaqueCMSampleBuffer *);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
 - (struct opaqueCMSampleBuffer *);
 - (int);
 - (int);
@@ -77,47 +50,20 @@
 - (id);
 - (unsigned int);
 - (unsigned int);
-- (int);
-- (float);
-- (void);
-- (CDStruct_1b6d18a9);
+- (int);
+- (float);
+- (void)D;
+- (CDStruct_198678f7);
 - (id);
-- (id);
-- (int);
-- (struct CGAffineTransform);
+- (id)D;
+- (int)was %@, instead of NSArray.;
+- (struct CGAffineTransform)umber"8@"NSMutableSet"16^B24;
 - (void);
 - (id);
 - (id)er supported by this code version (%u);
 
 // Remaining properties
-@property(readonly) AVAsset *asset; // @synthesize asset;
 @property(readonly) AVAssetReader *assetReader; // @synthesize assetReader;
-@property(readonly) NSArray *formatDescriptions; // @synthesize formatDescriptions;
-@property(readonly) float fps; // @synthesize fps;
-@property(readonly) _Bool fullRangeVideo; // @synthesize fullRangeVideo;
-@property(readonly) unsigned int imageHeight; // @synthesize imageHeight;
-@property(readonly) unsigned int imageWidth; // @synthesize imageWidth;
-@property(readonly) NSError *lastError; // @synthesize lastError;
-@property struct opaqueCMSampleBuffer *lastFrame; // @synthesize lastFrame=_lastFrame;
-@property(readonly) CDStruct_1b6d18a9 lastPresentationTime; // @synthesize lastPresentationTime;
-@property(readonly) CDStruct_1b6d18a9 minFrameDuration; // @synthesize minFrameDuration;
-@property unsigned int pixelFormatOptions; // @synthesize pixelFormatOptions=_pixelFormatOptions;
-@property(readonly) struct CGAffineTransform preferredTransform; // @synthesize preferredTransform;
-@property(setter=setReadAheadEnable:) _Bool readAheadEnable;
-@property float readLength; // @synthesize readLength;
-@property CDStruct_1b6d18a9 readLengthT; // @synthesize readLengthT;
-@property float readStart; // @synthesize readStart;
-@property CDStruct_1b6d18a9 readStartT; // @synthesize readStartT;
-@property struct opaqueCMSampleBuffer *readaheadBuf; // @synthesize readaheadBuf=_readaheadBuf;
-@property(retain) NSCondition *readaheadLock; // @synthesize readaheadLock=_readaheadLock;
-@property int readaheadState; // @synthesize readaheadState=_readaheadState;
-@property(readonly) int timeScale; // @synthesize timeScale;
-@property(readonly) float trackLength; // @synthesize trackLength;
-@property(readonly) CDStruct_1b6d18a9 trackLengthT; // @synthesize trackLengthT;
-@property(readonly) AVAssetReaderOutput *trackOutput; // @synthesize trackOutput;
-@property(readonly) float trackStart; // @synthesize trackStart;
-@property(readonly) CDStruct_1b6d18a9 trackStartT; // @synthesize trackStartT;
-@property(readonly) AVAssetTrack *videoTrack; // @synthesize videoTrack;
 
 @end
 

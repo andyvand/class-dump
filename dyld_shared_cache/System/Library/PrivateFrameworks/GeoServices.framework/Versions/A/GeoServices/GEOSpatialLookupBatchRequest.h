@@ -4,54 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader;
+@class NSMutableArray, PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOSpatialLookupBatchRequest
 {
     PBDataReader *_reader;
-    NSString *_deviceCountryCode;
-    NSString *_deviceSku;
-    NSMutableArray *_requests;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_deviceCountryCode:1;
-        unsigned int read_deviceSku:1;
-        unsigned int read_requests:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)L:(id)arg1;
++ (_Bool)setMapsURLShortenerURL:(id)arg1;
 + (Class)Tã: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)! E;
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)_voiceIdentificationTraining_allowsWithoutResultCandidate;
 - (unsigned long long);
 - (_Bool);
-- (unsigned int);
+- (unsigned int)A;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id)8;
-- (id)ks;
-- (id)orite;
-- (id)lEventLookupResponse;
-- (id)OURCE_SIRI;
+- (id)sessionTasks;
+- (id)hasIsFavorite;
+- (id)GEOPDSpatialEventLookupResponse;
+- (id)RETAIN_SEARCH_SOURCE_SIRI;
 - (Class)hÀ;
 - (void);
 - (_Bool)EEE3$_0;
@@ -59,10 +47,6 @@ __attribute__((visibility("hidden")))
 - (void)¹§«;ÙP@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *deviceCountryCode;
-@property(retain, nonatomic) NSString *deviceSku;
-@property(readonly, nonatomic) _Bool hasDeviceCountryCode;
-@property(readonly, nonatomic) _Bool hasDeviceSku;
 @property(retain, nonatomic) NSMutableArray *requests;
 
 @end

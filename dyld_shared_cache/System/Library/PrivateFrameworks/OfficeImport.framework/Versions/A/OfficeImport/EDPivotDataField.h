@@ -4,17 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface EDPivotDataField
 {
     long long mBaseField;
-    unsigned long long mBaseItem;
-    unsigned long long mFieldId;
-    unsigned long long mNumFmtId;
-    NSString *mName;
-    int mFormat;
 }
 
 + (id);
@@ -24,14 +17,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (unsigned long long);
-- (long long);
+- (long long)c;
+- (unsigned long long)N�;
+- (void);
 - (unsigned long long);
-- (void);
-- (unsigned long long);
 - (id);
+- (id)GMS_PREWARM_OUTCOME_ABANDONED_FOR_BUFFER_SIZE;
 - (id);
-- (id);
-- (void)OfRangedAnnotation:(id)arg1;
+- (void)setOtherEndOfRangedAnnotation:(id)arg1;
 - (void);
 
 @end

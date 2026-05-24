@@ -4,36 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _MRRequestDetailsProtobuf;
+@class _MRRequestDetailsProtobuf;
 
 @interface _MRMicrophoneConnectionRequestMessageProtobuf
 {
     _MRRequestDetailsProtobuf *_details;
-    NSString *_rapportIdentifier;
 }
 
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)TS;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (void)fo:object: /* Error: Ran out of types for this method. */;
+- (id)AFOutputVoiceColorDescriptor::alpha /* Error: Ran out of types for this method. */;
+- (void)_postDefaultPlayerNotificationsWithUserInfo:object: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)yRef MRNowPlayingClientCopyBundleIdentifierExtendedHierarchy(MRNowPlayingClientRef);
 
 // Remaining properties
-@property(retain, nonatomic) _MRRequestDetailsProtobuf *details; // @synthesize details=_details;
 @property(readonly, nonatomic) _Bool hasDetails;
-@property(readonly, nonatomic) _Bool hasRapportIdentifier;
-@property(retain, nonatomic) NSString *rapportIdentifier; // @synthesize rapportIdentifier=_rapportIdentifier;
 
 @end
 

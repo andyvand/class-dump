@@ -9,7 +9,7 @@
 }
 
 - (id);
-- (id);
+- (id)setUpdatedEditCollection:(id)arg1;
 - (void);
 - (void);
 - (void);

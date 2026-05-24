@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface SISchemaSpeechTranscription : SISchemaInstrumentationMessage
 {
     NSString *_aceID;
-    int _speechTranscriptionType;
-    struct {
-        unsigned int speechTranscriptionType:1;
-    } _has;
-    _Bool _hasAceID;
 }
 
 - (int);
@@ -29,22 +24,18 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (void);
+- (unsigned long long)_referrerURL;
+- (_Bool)container. (identifier:(id)arg1 %{public}@);
+- (_Bool)is_delivered, is_finished, is_emote, is_from_me, is_empty, is_delayed, is_auto_reply, is_prepared, is_read, is_system_message, is_sent, has_dd_results, is_service_message, is_forward, was_downgraded, is_archive, cache_has_attachments, cache_roomnames, was_data_detected, was_deduplicated) SELECT guid, text, replace, service_center, handle_id, subject, country, attributedBody, version, type, service, account, account_guid, error, date, date_read, date_delivered, is_delivered, is_finished, is_emote, is_from_me, is_empty, is_delayed, is_auto_reply, is_prepared, is_read, is_system_message, is_sent, has_dd_results, is_service_message, is_forward, was_downgraded, is_archive, cache_has_attachments, cache_roomnames, was_data_detected, was_deduplicated FROM message_import ORDER BY message_import.order_date ASC, message_import.ROWID ASC;;
 - (id);
 - (id);
-- (id)Model;
-- (id)chResultId;
-- (void)YPE_AIR_PLAY;
+- (id)deleteDictationModel;
+- (id)_generalSearchResultId;
+- (void)MWTAUDIOROUTETYPE_AIR_PLAY;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *aceID; // @synthesize aceID=_aceID;
-@property(nonatomic) _Bool hasAceID; // @synthesize hasAceID=_hasAceID;
-@property(nonatomic) _Bool hasSpeechTranscriptionType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int speechTranscriptionType; // @synthesize speechTranscriptionType=_speechTranscriptionType;
 
 @end
 

@@ -5,15 +5,15 @@
 //
 
 @interface UnknownClass (OSAStackshotKCDataExtension)
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (_Bool);
+- (void)VisualResponseProvider",&,N,V_provider;
+- (void)xtButton",&,N,V_subtitleButton;
+- (void)n;
+- (_Bool)_stackView;
+- (void),N,V_innerContainer;
+- (void)TLKStackView",&,N,V_buttonAndDetailViewStackView;
+- (unsigned long long)w",&,N,V_splitHeaderView;
+- (void)@"SearchUIPersonHeaderBoxView",&,V_boxView;
+- (void)_button;
+- (_Bool)gViewController;
 @end
 

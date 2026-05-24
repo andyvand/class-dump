@@ -11,18 +11,17 @@
     AVCaptureDeviceInputSourceInternal_Tundra *_internal;
 }
 
-+ (id);
++ (id);
 + (void)se -transportControlsSupported;
+- (id)is less than lowestInclusive;
+- (id)MSVArtworkServiceConversionRequestDestinationURL;
+- (void)_block_accountWithIdentifier: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)_cameraIntrinsicMatrixDeliveryEnabled;
 - (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *inputSourceID;
-@property(readonly, nonatomic) NSString *localizedName;
 
 @end
 

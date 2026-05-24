@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKSSPanel, NSMutableArray;
+@class IKSSPanel;
 
 @interface IKSSBackgroundWindow
 {
     IKSSPanel *_panel;
-    NSMutableArray *_fauxUIElements;
 }
 
-- (void);
+- (void);
 - (struct CGRect);
 - (id);
 - (void);
-- (void);
+- (void)_TtC14ScreenTimeCoreP33_85746A119BB273F4CF13C31ED127C55054STOrganizationSettingsRestrictionUtilityImplementation;
 - (_Bool);
 - (_Bool);
 - (id);

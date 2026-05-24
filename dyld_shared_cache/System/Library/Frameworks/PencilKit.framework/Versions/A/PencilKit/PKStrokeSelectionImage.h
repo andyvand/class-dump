@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, PKStrokeSelectionImageConfig;
+@class NSImage;
 
 @interface PKStrokeSelectionImage
 {
     NSImage *_image;
-    PKStrokeSelectionImageConfig *_config;
-    PKStrokeSelectionImageConfig *_fullSizeConfig;
-    NSImage *_addImage;
-    NSImage *_mulImage;
 }
 
 - (void);
@@ -25,16 +21,11 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)s %@;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSImage *addImage; // @synthesize addImage=_addImage;
-@property(readonly, nonatomic) NSImage *combinedImage;
-@property(readonly, nonatomic) PKStrokeSelectionImageConfig *config; // @synthesize config=_config;
-@property(readonly, nonatomic) PKStrokeSelectionImageConfig *fullSizeConfig; // @synthesize fullSizeConfig=_fullSizeConfig;
 @property(copy, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) NSImage *mulImage; // @synthesize mulImage=_mulImage;
 
 @end
 

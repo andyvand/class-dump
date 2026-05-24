@@ -12,13 +12,11 @@ __attribute__((visibility("hidden")))
 @interface SCRCMathFencedExpression : SCRCMathRowExpression
 {
     NSString *_openString;
-    NSString *_closeString;
-    _Bool _isClosingImplicit;
 }
 
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)m;
+- (id)m;
 - (id);
 - (_Bool);
 - (unsigned long long);
@@ -33,11 +31,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)ay"16@?<v@?@"NSDictionary">24;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *closeString; // @synthesize closeString=_closeString;
-@property(readonly, nonatomic) _Bool isClosingImplicit; // @synthesize isClosingImplicit=_isClosingImplicit;
 @property(copy, nonatomic) NSString *openString; // @synthesize openString=_openString;
 
 @end

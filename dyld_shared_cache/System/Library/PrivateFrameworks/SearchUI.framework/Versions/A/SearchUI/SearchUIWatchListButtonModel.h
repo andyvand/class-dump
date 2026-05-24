@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, SFImage, SearchUIWatchListState;
+@class NSString;
 
 @interface SearchUIWatchListButtonModel
 {
     NSString *_title;
-    NSString *_subtitle;
-    NSURL *_punchoutURL;
-    NSString *_storeIdentifier;
-    SearchUIWatchListState *_watchListState;
-    unsigned long long _buttonType;
-    SFImage *_thumbnailImage;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)readDataOfLength:(id)arg1;
 - (id);
 - (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void)videoOrientationForAssetPreferredTransform:(unsigned long long)arg1;
+- (id)P;
+- (void)CGRect={CGPoint=dd}{CGSize=dd}}16{CGRect={CGPoint=dd}{CGSize=dd}}48;
 - (void);
 - (id);
 - (void);
@@ -34,13 +28,7 @@
 - (unsigned long long)$;
 
 // Remaining properties
-@property unsigned long long buttonType; // @synthesize buttonType=_buttonType;
-@property(retain) NSURL *punchoutURL; // @synthesize punchoutURL=_punchoutURL;
-@property(retain) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(retain) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(retain) SFImage *thumbnailImage; // @synthesize thumbnailImage=_thumbnailImage;
 @property(retain) NSString *title; // @synthesize title=_title;
-@property(retain) SearchUIWatchListState *watchListState; // @synthesize watchListState=_watchListState;
 
 @end
 

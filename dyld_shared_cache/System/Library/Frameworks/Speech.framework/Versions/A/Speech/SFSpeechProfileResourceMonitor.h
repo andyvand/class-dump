@@ -10,7 +10,6 @@
 @interface SFSpeechProfileResourceMonitor
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSHashTable *_observers;
 }
 
 + (id);
@@ -19,11 +18,11 @@
 - (void);
 - (void);
 - (void);
+- (id)G;
+- (void)headwear_bucketHat;
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void)exchangeObjectAtIndex:(id)arg1 withObjectAtIndex: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

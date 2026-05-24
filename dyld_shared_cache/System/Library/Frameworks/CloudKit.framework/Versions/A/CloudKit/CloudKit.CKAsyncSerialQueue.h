@@ -7,10 +7,6 @@
 @interface CloudKit.CKAsyncSerialQueue
 {
     id $defaultActor;
-    id ordering;
-    id nextWaiterID;
-    id isProcessing;
-    id waiters;
 }
 
 @end

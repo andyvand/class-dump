@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 
 + (_Bool)een;
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)n Codes | Attempting to move message with OTP code (guid:%@) to recently deleted. /* Error: Ran out of types for this method. */;
+- (id)__kIMDMessageStoreHandleCountryCodeKey;
 - (id);
 - (double);
-- (void)leGlowOpacity;
+- (void)littleGlowOpacity;
 - (struct CGPoint)T«âÿ(Î;
 
 // Remaining properties

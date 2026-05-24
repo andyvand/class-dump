@@ -7,8 +7,6 @@
 @interface TeaUI.MastheadViewScrollAnimator
 {
     id delegate;
-    id isPinned;
-    id isPluginPinningEnabled;
 }
 
 @end

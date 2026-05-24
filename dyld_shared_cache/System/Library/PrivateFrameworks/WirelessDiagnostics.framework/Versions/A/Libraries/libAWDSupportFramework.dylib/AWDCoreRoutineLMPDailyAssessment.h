@@ -7,23 +7,6 @@
 @interface AWDCoreRoutineLMPDailyAssessment
 {
     unsigned long long _timestamp;
-    int _dailyEvents;
-    int _eventsWithLMPLocation;
-    int _eventsWithLocation;
-    int _eventsWithMaybeLocation;
-    int _visitLMPLocation;
-    int _visitLocation;
-    int _visitMaybeLocation;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int dailyEvents:1;
-        unsigned int eventsWithLMPLocation:1;
-        unsigned int eventsWithLocation:1;
-        unsigned int eventsWithMaybeLocation:1;
-        unsigned int visitLMPLocation:1;
-        unsigned int visitLocation:1;
-        unsigned int visitMaybeLocation:1;
-    } _has;
 }
 
 @end

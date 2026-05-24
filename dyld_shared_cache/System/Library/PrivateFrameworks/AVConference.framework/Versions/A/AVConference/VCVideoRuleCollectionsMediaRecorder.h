@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 + (id)el:%d/%d)  RTT=%d/%d /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (unsigned char);
+- (unsigned char);
 - (id);
 
 @end

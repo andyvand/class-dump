@@ -12,7 +12,7 @@
 
 - (void);
 - (void);
-- (void);
+- (void)checkForUnsafePhotos:(struct CGSize)arg1 communicationSafetyNotificationEnabled:communicationSafetyAnalyticsEnabled:familyMemberType: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void)ëÿÍì0;

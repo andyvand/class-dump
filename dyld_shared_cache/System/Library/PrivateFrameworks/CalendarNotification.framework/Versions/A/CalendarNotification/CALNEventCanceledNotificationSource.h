@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-@protocol CALNCalendarIconIdentifierProvider, CALNEventCanceledNotificationDataSource, CALNNotificationManager, CalDateProvider;
+@protocol CALNEventCanceledNotificationDataSource;
 
 @interface CALNEventCanceledNotificationSource
 {
     id <CALNEventCanceledNotificationDataSource> _dataSource;
-    id <CALNNotificationManager> _notificationManager;
-    id <CALNCalendarIconIdentifierProvider> _iconIdentifierProvider;
-    id <CalDateProvider> _dateProvider;
 }
 
 + (id);
@@ -33,19 +29,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *categories;
 @property(readonly, nonatomic) id <CALNEventCanceledNotificationDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, nonatomic) id <CalDateProvider> dateProvider; // @synthesize dateProvider=_dateProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <CALNCalendarIconIdentifierProvider> iconIdentifierProvider; // @synthesize iconIdentifierProvider=_iconIdentifierProvider;
-@property(readonly, nonatomic) __weak id <CALNNotificationManager> notificationManager; // @synthesize notificationManager=_notificationManager;
-@property(readonly, nonatomic) NSString *sourceIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,27 +6,11 @@
 
 #import <Silex/SXMediaComponentView.h>
 
-@class NSString, SVVideoPlayerViewController, SXPosterFrameView, SXVideoAnalyticsRouter, SXVideoComponentAnalyticsReporting, SXVideoPlayerViewControllerManager;
-@protocol SWReachabilityProvider, SXAppStateMonitor, SXBookmarkManager, SXResourceDataSource, SXSceneStateMonitor, SXScrollObserverManager, SXVideoAdProviderFactory;
+@protocol SXResourceDataSource;
 
 @interface SXVideoComponentView : SXMediaComponentView
 {
     _Bool _isReceivingViewportDynamicBoundsChanges;
-    _Bool _shouldAutoPlayWhenVisible;
-    SVVideoPlayerViewController *_videoPlayerViewController;
-    id <SXResourceDataSource> _resourceDataSource;
-    id <SWReachabilityProvider> _reachabilityProvider;
-    id <SXAppStateMonitor> _appStateMonitor;
-    id <SXSceneStateMonitor> _sceneStateMonitor;
-    SXPosterFrameView *_posterFrame;
-    CDUnknownBlockType _thumbnailRequestCancelHandler;
-    SXVideoAnalyticsRouter *_analyticsRouter;
-    SXVideoComponentAnalyticsReporting *_videoComponentAnalyticsReporter;
-    id <SXScrollObserverManager> _scrollObserverManager;
-    SXVideoPlayerViewControllerManager *_videoPlayerViewControllerManager;
-    id <SXBookmarkManager> _bookmarkManager;
-    CDUnknownBlockType _presentationBlock;
-    id <SXVideoAdProviderFactory> _prerollAdFactory;
 }
 
 - (void);
@@ -60,7 +44,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -91,33 +75,11 @@
 × ;
 - (void)0@ù
 × ;
-- (id)oBoundsRect: /* Error: Ran out of types for this method. */;
+- (id)convertUnscaledToBoundsRect: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) SXVideoAnalyticsRouter *analyticsRouter; // @synthesize analyticsRouter=_analyticsRouter;
-@property(readonly, nonatomic) id <SXAppStateMonitor> appStateMonitor; // @synthesize appStateMonitor=_appStateMonitor;
-@property(readonly, nonatomic) id <SXBookmarkManager> bookmarkManager; // @synthesize bookmarkManager=_bookmarkManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isReceivingViewportDynamicBoundsChanges; // @synthesize isReceivingViewportDynamicBoundsChanges=_isReceivingViewportDynamicBoundsChanges;
-@property(retain, nonatomic) SXPosterFrameView *posterFrame; // @synthesize posterFrame=_posterFrame;
-@property(readonly, nonatomic) id <SXVideoAdProviderFactory> prerollAdFactory; // @synthesize prerollAdFactory=_prerollAdFactory;
-@property(copy, nonatomic) CDUnknownBlockType presentationBlock; // @synthesize presentationBlock=_presentationBlock;
-@property(readonly, nonatomic) id <SWReachabilityProvider> reachabilityProvider; // @synthesize reachabilityProvider=_reachabilityProvider;
 @property(readonly, nonatomic) id <SXResourceDataSource> resourceDataSource; // @synthesize resourceDataSource=_resourceDataSource;
-@property(readonly, nonatomic) id <SXSceneStateMonitor> sceneStateMonitor; // @synthesize sceneStateMonitor=_sceneStateMonitor;
-@property(readonly, nonatomic) id <SXScrollObserverManager> scrollObserverManager; // @synthesize scrollObserverManager=_scrollObserverManager;
-@property(nonatomic) _Bool shouldAutoPlayWhenVisible; // @synthesize shouldAutoPlayWhenVisible=_shouldAutoPlayWhenVisible;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType thumbnailRequestCancelHandler; // @synthesize thumbnailRequestCancelHandler=_thumbnailRequestCancelHandler;
-@property(retain, nonatomic) SXVideoComponentAnalyticsReporting *videoComponentAnalyticsReporter; // @synthesize videoComponentAnalyticsReporter=_videoComponentAnalyticsReporter;
-@property(retain, nonatomic) SVVideoPlayerViewController *videoPlayerViewController; // @synthesize videoPlayerViewController=_videoPlayerViewController;
-@property(readonly, nonatomic) SXVideoPlayerViewControllerManager *videoPlayerViewControllerManager; // @synthesize videoPlayerViewControllerManager=_videoPlayerViewControllerManager;
 
 @end
 

@@ -6,6 +6,10 @@
 
 @protocol PreferencesViewController
 
+@optional
+- (void);
+- (void)>;
+
 // Remaining properties
 @property(readonly, nonatomic) double minimumPaneHeight;
 // Preceding property had unknown attributes: ?

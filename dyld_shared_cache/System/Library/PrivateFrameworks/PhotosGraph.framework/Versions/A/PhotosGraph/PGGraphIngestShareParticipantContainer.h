@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSPersonIdentity, NSDate, NSDictionary, NSString, PHShareParticipant;
+@class PHShareParticipant;
 
 @interface PGGraphIngestShareParticipantContainer
 {
     _Bool _personIdentityFound;
-    PHShareParticipant *_shareParticipant;
-    CLSPersonIdentity *_linkedPersonIdentity;
 }
 
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (_Bool)attributedDescriptionForElement:type: /* Error: Ran out of types for this method. */;
+- (id)_buttonPressed: /* Error: Ran out of types for this method. */;
+- (id)ChildControllers:,V__verticallyOrderedChildControllers /* Error: Ran out of types for this method. */;
+- (id)ACMContextVerifyPolicy;
 - (id);
 - (id);
 - (id);
@@ -29,40 +27,16 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (void)ts/4~CNrLugBm5mZzGZhQIi0idKaHXqMbtQ878o7HncI/Library/Caches/com.apple.xbs/TemporaryDirectory.52v2gD/Sources/Photos_Swift/workspaces/photoanalysis/PhotosGraph/Framework/Questions/Survey/Meaning/PGExhaustiveMomentLabellingQuestionFactory.m;
 - (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long ageCategory;
-@property(readonly, nonatomic) NSDate *anniversaryDate;
-@property(readonly, nonatomic) NSDate *birthdayDate;
-@property(readonly, nonatomic) NSString *contactID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *fullName;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isFavorite;
-@property(readonly, nonatomic) _Bool isHidden;
-@property(readonly, nonatomic) _Bool isMe;
-@property(readonly, nonatomic) _Bool isUserCreated;
-@property(retain, nonatomic) CLSPersonIdentity *linkedPersonIdentity; // @synthesize linkedPersonIdentity=_linkedPersonIdentity;
-@property(readonly, nonatomic) NSString *localIdentifier;
-@property(readonly, nonatomic) NSDictionary *locationsByAddressTypes;
-@property _Bool personIdentityFound; // @synthesize personIdentityFound=_personIdentityFound;
-@property(readonly, nonatomic) NSDate *potentialBirthdayDate;
-@property(readonly, nonatomic) unsigned long long relationship;
-@property(readonly, nonatomic) unsigned long long sex;
 @property(retain, nonatomic) PHShareParticipant *shareParticipant; // @synthesize shareParticipant=_shareParticipant;
-@property(readonly, nonatomic) NSString *shareParticipantLocalIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

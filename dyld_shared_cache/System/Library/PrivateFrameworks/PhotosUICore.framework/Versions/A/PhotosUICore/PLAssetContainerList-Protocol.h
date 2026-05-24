@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSManagedObjectContext, NSOrderedSet, PLPhotoLibrary;
+@class NSOrderedSet, PLPhotoLibrary;
 
 @protocol PLAssetContainerList
+- (_Bool);
 - (_Bool)HÀHpIÀJ;
-- (NSOrderedSet *)eAndEmail;
+- (NSOrderedSet *)NameAndEmail;
 - (PLPhotoLibrary *);
-- (NSManagedObjectContext *);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long containersCount;

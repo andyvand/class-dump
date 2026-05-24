@@ -8,8 +8,9 @@
 {
 }
 
-- (id);
-- (void);
+- (id)RecursiveBookmarkDuplicateHousekeeper;
+- (void)leUpdateTitle:(id)arg1 %@
+;
 - (void);
 
 @end

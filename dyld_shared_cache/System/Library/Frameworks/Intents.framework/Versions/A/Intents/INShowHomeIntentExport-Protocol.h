@@ -7,10 +7,11 @@
 @class INDateComponentsRange, NSArray;
 
 @protocol INShowHomeIntentExport
-- (void)learCallTypes;
+- (id)o;
+- (INDateComponentsRange *);
+- (void)clearCallTypes;
 
 // Remaining properties
 @property(copy) NSArray *filters;
-@property(copy) INDateComponentsRange *time;
 @end
 

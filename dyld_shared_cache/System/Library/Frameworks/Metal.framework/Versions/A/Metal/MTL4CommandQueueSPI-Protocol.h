@@ -7,9 +7,9 @@
 @protocol MTL4CommandBuffer;
 
 @protocol MTL4CommandQueueSPI
+- (id <MTL4CommandBuffer>);
 
 // Remaining properties
 @property(readonly, nonatomic) id <MTL4CommandBuffer> lastCommittedCommandBuffer;
-@property(readonly, nonatomic) unsigned long long lastCommittedCommandBufferGeneration;
 @end
 

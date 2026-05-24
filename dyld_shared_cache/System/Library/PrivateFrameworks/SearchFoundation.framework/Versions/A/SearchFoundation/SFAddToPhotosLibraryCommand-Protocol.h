@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, SFImage;
+@class SFImage;
 
 @protocol SFAddToPhotosLibraryCommand
+- (void)agerDelegatePrivate homeManagerDidUpdateHomes:(SFImage *)arg1 %{public}@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(retain, nonatomic) SFImage *image;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

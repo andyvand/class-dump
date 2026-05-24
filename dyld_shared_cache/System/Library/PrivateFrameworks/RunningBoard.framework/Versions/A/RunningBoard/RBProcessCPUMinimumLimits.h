@@ -7,19 +7,17 @@
 @interface RBProcessCPUMinimumLimits
 {
     unsigned long long _percentage;
-    unsigned long long _duration;
 }
 
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)NSString",?,R,C;
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)`;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long duration; // @synthesize duration=_duration;
 @property(readonly, nonatomic) unsigned long long percentage; // @synthesize percentage=_percentage;
 
 @end

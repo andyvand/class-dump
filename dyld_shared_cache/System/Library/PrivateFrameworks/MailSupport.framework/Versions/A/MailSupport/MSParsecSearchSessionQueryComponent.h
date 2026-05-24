@@ -9,37 +9,24 @@
 @interface MSParsecSearchSessionQueryComponent
 {
     _Bool _cannedSuggestion;
-    NSString *_category;
-    NSString *_scope;
-    NSString *_queryString;
 }
 
++ (id)i;
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
++ (id)@@y	?%@qa;
 + (id);
 + (id);
 - (id);
 - (_Bool);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)@;
+- (void)op-unknown (%d);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool cannedSuggestion; // @synthesize cannedSuggestion=_cannedSuggestion;
 @property(readonly, nonatomic) NSString *category; // @synthesize category=_category;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *queryString; // @synthesize queryString=_queryString;
-@property(readonly, nonatomic) NSString *scope; // @synthesize scope=_scope;
-@property(readonly) Class superclass;
 
 @end
 

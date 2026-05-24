@@ -8,11 +8,11 @@
 {
 }
 
-+ (void);
-+ (void);
-+ (id);
-+ (void);
-+ (void);
++ (void)outlineView:(id)arg1 acceptDrop:item:childIndex: /* Error: Ran out of types for this method. */;
++ (void)ornamentSeed;
++ (id)nsTextField;
++ (void)noteFocusRingMaskChanged;
++ (void)mouseSeed;
 
 @end
 

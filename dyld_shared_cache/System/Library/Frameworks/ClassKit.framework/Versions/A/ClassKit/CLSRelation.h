@@ -4,34 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CLSRelation
 {
     _Bool _faultable;
-    Class _fromEntity;
-    NSString *_fromKey;
-    Class _toEntity;
-    NSString *_toKey;
 }
 
 - (id);
 - (Class);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool):(id)arg1 IOService ANEPrivilegedVMAccess not found.;
+- (_Bool)ccess to %s at port %u result=0x%x;
+- (_Bool)t=0x%x;
+- (id)iver->ProgramProcessRequest failed status=0x%x
+;
+- (Class)is NULL
+;
+- (id)nanoseconds ==============;
 - (id);
-- (Class);
-- (id);
-- (id);
-- (void);
+- (void)P;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isFaultable) _Bool faultable; // @synthesize faultable=_faultable;
 @property(readonly, nonatomic) Class fromEntity; // @synthesize fromEntity=_fromEntity;
-@property(readonly, nonatomic) NSString *fromKey; // @synthesize fromKey=_fromKey;
-@property(readonly, nonatomic) Class toEntity; // @synthesize toEntity=_toEntity;
-@property(readonly, nonatomic) NSString *toKey; // @synthesize toKey=_toKey;
 
 @end
 

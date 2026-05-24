@@ -4,61 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDMessagePersistence, EDPersistenceHookRegistry, EDQueryCreator, EFLocked, EFXPCAlarm, NSHashTable, NSObject, NSString, NSTimer;
-@protocol EDRemindMeNotificationControllerAlarmDateProvider, EDRemindMeNotificationControllerEventDelegate, OS_dispatch_queue;
+@class EFLocked, NSHashTable;
 
 @interface EDRemindMeNotificationController
 {
     EFLocked *_observers;
-    NSObject<OS_dispatch_queue> *_alarmQueue;
-    id <EDRemindMeNotificationControllerAlarmDateProvider> _alarmDateProvider;
-    EDPersistenceHookRegistry *_hookRegistry;
-    EDMessagePersistence *_messagePersistence;
-    EDQueryCreator *_readLaterQueryCreator;
-    NSTimer *_remindMeTimer;
-    id <EDRemindMeNotificationControllerEventDelegate> _eventDelegate;
-    EFXPCAlarm *_xpcAlarm;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id)1Â0@ù
 × ;
-+ (id)ys:forClass:property: /* Error: Ran out of types for this method. */;
++ (id)registerColumnName:table:lookupKeys:forClass:property: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_objects;
+- (id)#;
 - (id);
 - (void);
+- (void)UsoEntityBuilder_common_DurationComponent;
 - (void);
+- (void)q;
 - (id);
+- (void);
+- (void)] Checking browser mode already set:invalid = %s
+ /* Error: Ran out of types for this method. */;
+- (id)d(FigEndpointStreamRef, APEndpointStreamAggregateAudioResumptionStage);
 - (id);
 - (void);
-- (void);
+- (void)__requestCriticalAppInfo:(id)arg1 completionBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)@ù
 × ;
 - (void)ForThreadWithObjectID:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) __weak id <EDRemindMeNotificationControllerEventDelegate> eventDelegate; // @synthesize eventDelegate=_eventDelegate;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSHashTable *observers;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) EFXPCAlarm *xpcAlarm; // @synthesize xpcAlarm=_xpcAlarm;
 
 @end
 

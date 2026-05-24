@@ -6,52 +6,37 @@
 
 #import <UIKitCore/UISceneActivationRequestOptions.h>
 
-@class NSString, UISceneConfiguration, UIWindowScenePlacement, _UIWindowScenePlacement;
+@class NSString;
 
 @interface UIWindowSceneActivationRequestOptions : UISceneActivationRequestOptions
 {
     _Bool __preserveLayout;
-    UISceneConfiguration *_quickLookSceneConfiguration;
-    unsigned long long _preferredPresentationStyle;
-    UIWindowScenePlacement *_placement;
-    NSString *__interactionIdentifier;
-    unsigned long long __preferredSizeCategory;
 }
 
+- (void)@, new group ID %@;
+- (void)ild with fromMessage:(_Bool)arg1 %@;
+- (void)d a newer chat based on participants and display name:(unsigned long long)arg1 %@;
+- (void)chat with guid:(id)arg1 %@ result:%@ /* Error: Ran out of types for this method. */;
+- (void)ond (or more) time. Not overriding original values.;
+- (id)message %@ (fallback GUIDs:%@) from cache /* Error: Ran out of types for this method. */;
+- (unsigned long long)hOperationGroupName not submitting as analytic submission is not enabled;
+- (id)classes should implement.;
+- (id)ticeDispatcher sendClearNotice:toHandles:] /* Error: Ran out of types for this method. */;
+- (_Bool)@L;
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (unsigned long long);
-- (id);
-- (id)tionInfo;
+- (id)ing.keypath. Expected:(id)arg1 %{public}@ Found:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)attributionInfo;
 - (void)°8_;
 - (void)"ÿ;
 - (id)T0d;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool _effectivelyWantsBackground;
-@property(readonly, nonatomic) _Bool _effectivelyWantsFullscreen;
-@property(readonly, nonatomic) _Bool _effectivelyWantsPreservedLayout;
-@property(readonly, nonatomic) _Bool _effectivelyWantsProminence;
 @property(copy, nonatomic, setter=_setInteractionIdentifier:) NSString *_interactionIdentifier; // @synthesize _interactionIdentifier=__interactionIdentifier;
-@property(copy, nonatomic, setter=_setPlacement:) _UIWindowScenePlacement *_placement;
-@property(nonatomic, setter=_setPreferredSizeCategory:) unsigned long long _preferredSizeCategory; // @synthesize _preferredSizeCategory=__preferredSizeCategory;
-@property(nonatomic, setter=_setPreserveLayout:) _Bool _preserveLayout; // @synthesize _preserveLayout=__preserveLayout;
-@property(retain, nonatomic, setter=_setQuickLookSceneConfiguration:) UISceneConfiguration *_quickLookSceneConfiguration; // @synthesize _quickLookSceneConfiguration;
-@property(copy, nonatomic) UIWindowScenePlacement *placement; // @synthesize placement=_placement;
-@property(nonatomic) unsigned long long preferredPresentationStyle; // @synthesize preferredPresentationStyle=_preferredPresentationStyle;
 
 @end
 

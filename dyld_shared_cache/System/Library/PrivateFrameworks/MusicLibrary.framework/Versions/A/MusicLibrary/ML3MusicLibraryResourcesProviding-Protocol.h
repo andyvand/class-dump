@@ -11,6 +11,6 @@
 - (NSString *);
 - (NSString *);
 - (NSString *)ÄÜ;
-- (NSString *)_pointerIP10ML3CPPDataNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEEE;
+- (NSString *)NSt3__120__shared_ptr_pointerIP10ML3CPPDataNS_10shared_ptrIS1_E27__shared_ptr_default_deleteIS1_S1_EENS_9allocatorIS1_EEEE;
 @end
 

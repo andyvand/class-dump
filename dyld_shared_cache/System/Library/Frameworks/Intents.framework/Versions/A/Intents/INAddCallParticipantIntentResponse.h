@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSString;
-
 @interface INAddCallParticipantIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
++ (int)"NSFileHandle",&,N,V_saveFileHandle;
++ (int);
 + (long long);
-+ (_Bool);
++ (_Bool)g	;
 + (_Bool);
 - (void);
 - (void);
@@ -23,25 +21,17 @@
 - (long long);
 - (id);
 - (long long);
+- (id)J ;
+- (id)<t;
 - (id);
 - (id);
+- (void)@"NSObject<OS_dispatch_data>"8Q16r^v24Q32;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)meterPromptDialogFormatStringID;
+- (long long)__INCodableAttributePromptDialogINIntentParameterPromptDialogFormatStringID;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSArray *invites;
-@property(readonly) Class superclass;
 
 @end
 

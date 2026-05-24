@@ -6,17 +6,12 @@
 
 #import <CoreHaptics/PatternPlayerBase.h>
 
-@class AVHapticSequence, NSString;
+@class AVHapticSequence;
 
 __attribute__((visibility("hidden")))
 @interface AdvancedPatternPlayer : PatternPlayerBase
 {
     AVHapticSequence *_sequence;
-    double _loopEnd;
-    int _state;
-    struct optional<double> _seekOffset;
-    CDUnknownBlockType _completionHandler;
-    float _volume;
 }
 
 - (_Bool);
@@ -29,10 +24,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (double);
 - (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)#;
 - (id);
 - (id);
 - (void);
@@ -40,48 +35,33 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (_Bool);
+- (void)44;
+- (_Bool);
+- (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
+- (double);
 - (void);
 - (double);
-- (void);
-- (double);
 - (_Bool);
 - (void);
-- (void);
-- (_Bool);
+- (void)ES6_NS_16FromGallicMapperIS6_LS7_4EEEEENS_3FstIS6_EEEE;
+- (_Bool)S_17TropicalWeightTplIfEENS_16LatticeWeightTplIfEEEEiEEiEEEEEEEE;
 - (id);
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)\;
 - (float);
 - (_Bool);
-- (void);
+- (void)currentDisplayRouteClientStateWithDictionary:(CDUnknownBlockType)arg1 context: /* Error: Ran out of types for this method. */;
 - (float);
-- (_Bool);
-- (void);
+- (_Bool)s!;
+- (void)P;
 - (_Bool);
 - (void);
 - (void)layback;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool isMuted;
-@property _Bool loopEnabled;
-@property double loopEnd;
-@property(readonly) _Bool paused;
-@property float playbackRate;
-@property(readonly) _Bool running;
 @property double seekOffset;
-@property(readonly) Class superclass;
-@property float volume;
 
 @end
 

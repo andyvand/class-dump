@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATIDSServiceConnectionConfiguration, CATIDSServiceConnectionInvitationInbox, CATIDSServiceConnectionInvitationOutbox, NSHashTable, NSObject, NSString;
-@protocol CATIDSPrimitives, CATIDSServiceConnectionTerminalDelegate, CATIDSSubscription, CATTimerSource, OS_dispatch_queue;
+@protocol CATIDSPrimitives, CATIDSServiceConnectionTerminalDelegate;
 
 @interface CATIDSServiceConnectionTerminal
 {
     id <CATIDSPrimitives> mIDSPrimitives;
-    id <CATTimerSource> mTimerSource;
-    NSObject<OS_dispatch_queue> *mWorkQueue;
-    NSObject<OS_dispatch_queue> *mDelegateQueue;
-    NSString *mSourceAppleID;
-    CATIDSServiceConnectionConfiguration *mConnectionConfiguration;
-    CATIDSServiceConnectionInvitationInbox *mInvitationInbox;
-    CATIDSServiceConnectionInvitationOutbox *mInvitationOutbox;
-    NSHashTable *mBroadcastHandlers;
-    id <CATIDSSubscription> mMessageSubscription;
-    _Bool mIsActive;
-    id <CATIDSServiceConnectionTerminalDelegate> _delegate;
 }
 
 - (void);
@@ -35,10 +23,10 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)B;
 - (void);
 - (void);
 - (void);

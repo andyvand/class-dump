@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSNumber;
+@class NSNumber;
 
 @protocol SFSpotlightEmbeddingState
+- (NSNumber *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(copy, nonatomic) NSNumber *embeddedPhotosAssetsCount;
-@property(copy, nonatomic) NSNumber *embeddedPhotosAssetsPercentage;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSNumber *totalPhotosAssetsCount;
 @end
 

@@ -4,31 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDictionary, NSString;
+@class NSDictionary;
 
 @interface PKPushProvisioningTarget
 {
     NSDictionary *_additionalProvisioningDictionary;
-    _Bool _requiresSimultaneousRequestRouting;
-    long long _appleIdentifierType;
-    NSString *_appleIdentifier;
-    NSString *_provisioningCredentialIdentifier;
-    NSString *_cardConfigurationIdentifier;
-    NSString *_sharingInstanceIdentifier;
-    NSDate *_creationDate;
-    NSString *_accountHash;
-    NSString *_templateIdentifier;
-    NSString *_issuingCountryCode;
-    long long _documentType;
-    NSString *_relyingPartyIdentifier;
-    NSString *_verificationCode;
-    NSString *_nonce;
-    unsigned long long _targetDevice;
-    NSString *_environmentIdentifier;
-    NSString *_secondarySource;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (void);
@@ -37,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)TiM;
 - (_Bool);
 - (id);
 - (id);
@@ -46,7 +29,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (long long);
@@ -56,41 +39,25 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)ԡu;
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)#;
 - (id);
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
+- (void)_heRxtrigBasic;
 - (id);
+- (id);
+- (void)transactionSummarySelectTransactions;
 - (id);
-- (void);
-- (id);
-- (unsigned long long)ifier;
+- (unsigned long long)TypedObjectIdentifier;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accountHash; // @synthesize accountHash=_accountHash;
-@property(copy, nonatomic) NSString *appleIdentifier; // @synthesize appleIdentifier=_appleIdentifier;
 @property(nonatomic) long long appleIdentifierType; // @synthesize appleIdentifierType=_appleIdentifierType;
-@property(readonly, copy, nonatomic) NSString *cardConfigurationIdentifier; // @synthesize cardConfigurationIdentifier=_cardConfigurationIdentifier;
-@property(readonly, copy, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(nonatomic) long long documentType; // @synthesize documentType=_documentType;
-@property(retain, nonatomic) NSString *environmentIdentifier; // @synthesize environmentIdentifier=_environmentIdentifier;
-@property(readonly, nonatomic) NSString *issuingCountryCode; // @synthesize issuingCountryCode=_issuingCountryCode;
-@property(copy, nonatomic) NSString *nonce; // @synthesize nonce=_nonce;
-@property(readonly, copy, nonatomic) NSString *provisioningCredentialIdentifier; // @synthesize provisioningCredentialIdentifier=_provisioningCredentialIdentifier;
-@property(retain, nonatomic) NSString *relyingPartyIdentifier; // @synthesize relyingPartyIdentifier=_relyingPartyIdentifier;
-@property(nonatomic) _Bool requiresSimultaneousRequestRouting; // @synthesize requiresSimultaneousRequestRouting=_requiresSimultaneousRequestRouting;
-@property(retain, nonatomic) NSString *secondarySource; // @synthesize secondarySource=_secondarySource;
-@property(copy, nonatomic) NSString *sharingInstanceIdentifier; // @synthesize sharingInstanceIdentifier=_sharingInstanceIdentifier;
-@property(nonatomic) unsigned long long targetDevice; // @synthesize targetDevice=_targetDevice;
-@property(readonly, nonatomic) NSString *templateIdentifier; // @synthesize templateIdentifier=_templateIdentifier;
-@property(retain, nonatomic) NSString *verificationCode; // @synthesize verificationCode=_verificationCode;
 
 @end
 

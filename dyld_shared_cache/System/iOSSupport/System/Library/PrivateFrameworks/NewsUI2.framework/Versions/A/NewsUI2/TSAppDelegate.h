@@ -9,18 +9,10 @@
 @interface TSAppDelegate
 {
     id $__lazy_storage_$_containerManager;
-    id $__lazy_storage_$_container;
-    id $__lazy_storage_$_resolver;
-    UIWindow *window;
-    id $__lazy_storage_$_menuManager;
-    id $__lazy_storage_$_commandCenter;
-    id $__lazy_storage_$_tracker;
-    id backgroundFetchSignal;
-    id remoteNotificationSignal;
 }
 
 - (void);
-- (id);
+- (id)__objc_dictobj;
 - (id);
 - (id);
 - (void);
@@ -34,7 +26,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool)ÜCùñÐ1Â0@ù
 × ;

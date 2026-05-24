@@ -7,7 +7,6 @@
 @interface _IMTranscriptBubbleSizeCacheEntry
 {
     double _maximumWidth;
-    struct CGSize _size;
 }
 
 - (id);
@@ -20,8 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) double maximumWidth; // @synthesize maximumWidth=_maximumWidth;
-@property(readonly, nonatomic) double minimumWidth;
 @property(nonatomic) struct CGSize size; // @synthesize size=_size;
 
 @end

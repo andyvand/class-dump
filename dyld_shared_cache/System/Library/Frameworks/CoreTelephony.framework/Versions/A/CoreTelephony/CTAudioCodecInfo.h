@@ -7,24 +7,18 @@
 @interface CTAudioCodecInfo
 {
     unsigned long long _callId;
-    long long _codec;
-    unsigned long long _amrMode;
-    long long _evsBandwidth;
-    long long _evsBitrate;
-    unsigned long long _sampleRate;
-    unsigned long long _i2SClockRate;
 }
 
-+ (_Bool);
++ (_Bool)ntrolStateDictionary:forItemWithIdentifier:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)A;
 - (long long);
 - (long long);
 - (unsigned long long);
@@ -33,19 +27,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)Authentication.Authorization.exchangeKeys;
 - (id);
 - (long long);
 - (unsigned long long);
 
 // Remaining properties
-@property(nonatomic) unsigned long long amrMode; // @synthesize amrMode=_amrMode;
 @property(nonatomic) unsigned long long callId; // @synthesize callId=_callId;
-@property(nonatomic) long long codec; // @synthesize codec=_codec;
-@property(nonatomic) long long evsBandwidth; // @synthesize evsBandwidth=_evsBandwidth;
-@property(nonatomic) long long evsBitrate; // @synthesize evsBitrate=_evsBitrate;
-@property(nonatomic) unsigned long long i2SClockRate; // @synthesize i2SClockRate=_i2SClockRate;
-@property(nonatomic) unsigned long long sampleRate; // @synthesize sampleRate=_sampleRate;
 
 @end
 

@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCCKContentDatabase, FCCacheCoordinator, FCCachePolicy, FCFetchCoordinator, FCKeyValueStore, FCThreadSafeMutableDictionary, NFUnfairLock, NSArray, NSDictionary, NSString;
-@protocol FCAppActivityMonitor, FCBackgroundTaskable;
+@class FCThreadSafeMutableDictionary;
 
 @interface FCRecordSource
 {
     struct os_unfair_lock_s _derivedKeysLock;
-    NSArray *_desiredKeys;
-    NSDictionary *_localizedKeysByOriginalKey;
-    NSDictionary *_experimentalizedKeysByOriginalKey;
-    NSDictionary *_localizedExperimentalizedKeysByOriginalKey;
-    NSDictionary *_localizedLanguageSpecificKeysByOriginalKey;
-    NFUnfairLock *_initializationLock;
-    FCCKContentDatabase *_contentDatabase;
-    NSString *_contentDirectory;
-    FCCachePolicy *_defaultCachePolicy;
-    id <FCAppActivityMonitor> _appActivityMonitor;
-    id <FCBackgroundTaskable> _backgroundTaskable;
-    FCKeyValueStore *_localStore;
-    FCCacheCoordinator *_cacheCoordinator;
-    FCFetchCoordinator *_fetchCoordinator;
-    FCThreadSafeMutableDictionary *_fetchErrorsByKey;
-    NSString *_experimentalizableFieldsPostfix;
-    NSString *_activeTreatmentID;
 }
 
 + (_Bool);
@@ -34,7 +16,7 @@
 + (_Bool);
 + (id);
 + (id);
-+ (id);
++ (id)eBigEmoji(e),t.parentNode.insertBefore(e,t),t.parentNode.removeChild(t),this._placeCaretAfter(e),event.preventDefault()}else o.className==MFMailBigEmojiAttribute&&this._disableBigEmoji(o)}},manageCurrentEmojiFontSize:function(){let e=document.getSelection(),t=e.anchorNode,i=e.anchorNode.wholeText;if(this.newParagraphInserted=!i,t&&!this._isInsideQuoteOrSignature(t)){var n=i?i.match(document.stringToArrayRegex):[];this._updateCounts(n),this._checkEmojiFontSize();let e=t.parentElement;this.hasValidNumOfEmojis&&this.hasOnlyEmojis&&e?this._enableBigEmoji(e):e.className==MFMailBigEmojiAttribute&&this._disableBigEmoji(e)}},_enableBigEmoji:function(e){e.setAttribute("style","font-size:"+bigEmojiFontSize),e.className=MFMailBigEmojiAttribute},_disableBigEmoji:function(e){"FONT"==e.tagName?e.setAttribute("size",defaultEmojiFontSize):(e.setAttribute("style","font-size:"+defaultEmojiFontSize),e.removeAttribute("class"))},_locateSignatureDiv:function(e){let t=e.body.querySelectorAll(`div[id="${MFHtmlIDSignature}"]`);for(let e=0;e<t.length;++e){let i=t.item(e);if(!i.mf_isQuoteOrWithinQuote())return i}return null},_updateCounts:function(e){numberOfEmojis=0,numberOfOtherCharacters=0,e.map(e=>{document.whitespaceRegex.test(e)||(document.emojiRegex.test(e)?numberOfEmojis+=1:numberOfOtherCharacters+=1)})},_getCurrentEmojiElement:function(e){return"BODY"==e.tagName?document.querySelector(".AppleMailBigEmoji"):e.nodeType===Node.TEXT_NODE?e.parentElement:e},_removeSignatureFromEmojiCount:function(e,t){if(this._locateSignatureDiv(t)){var i=this._locateSignatureDiv(t).textContent.trim();return e.trim().includes(i.trim())&&(e=e.trim().replace(i.trim(),"")),e}return e},_checkEmojiFontSize:function(){this.hasValidNumOfEmojis=numberOfEmojis<=maxNumberBigEmoji&&numberOfEmojis>0,this.hasOnlyEmojis=0==numberOfOtherCharacters},_isInsideQuoteOrSignature:function(e){let t=e.mf_containingBlockQuote(),i=e.mf_isDescendantOfNode(this._locateSignatureDiv(document));return t||i},_placeCaretAfter:function(e){if(e.focus(),"undefined"!=typeof window.getSelection&&"undefined"!=typeof document.createRange){var t=document.createRange();t.setStartAfter(e),t.collapse(!0);var i=window.getSelection();i.removeAllRanges(),i.addRange(t)}else if("undefined"!=typeof document.body.createTextRange){var n=document.body.createTextRange();n.moveToElementText(e),n.collapse(!1),n.select()}},stripCustomBodyIdentifiers:function(){let e=document.querySelectorAll("[class=AppleMailBigEmoji]");e.length>0&&e.forEach(function(e){e.removeAttribute("class")})}}; /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -51,13 +33,13 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)#;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)V;
 - (id);
 - (id);
 - (id);
@@ -67,7 +49,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
@@ -75,7 +57,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (void);
 - (id);
 - (id);
@@ -85,7 +67,7 @@
 - (unsigned long long);
 - (id)1Â0@ù
 × ;
-- (unsigned long long)bscriptionBaseURLForConfiguration: /* Error: Ran out of types for this method. */;
+- (unsigned long long)fineGrainedNewsletterSubscriptionBaseURLForConfiguration: /* Error: Ran out of types for this method. */;
 - (void)iplierForTrialUsers;
 - (id)owEstimationConfig",&,N,V_lowFlowBoostFetchEstimationConfig;
 - (unsigned long long);
@@ -100,28 +82,7 @@
 - (int)6ÞÿÒFø;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *activeTreatmentID; // @synthesize activeTreatmentID=_activeTreatmentID;
-@property(readonly, nonatomic) NSArray *alwaysLocalizedKeys;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSArray *desiredKeys; // @synthesize desiredKeys=_desiredKeys;
-@property(readonly, nonatomic) NSString *experimentalizableFieldsPostfix; // @synthesize experimentalizableFieldsPostfix=_experimentalizableFieldsPostfix;
-@property(readonly, nonatomic) NSArray *experimentalizableKeys;
-@property(readonly, nonatomic) NSDictionary *experimentalizedKeysByOriginalKey; // @synthesize experimentalizedKeysByOriginalKey=_experimentalizedKeysByOriginalKey;
 @property(readonly, nonatomic) FCThreadSafeMutableDictionary *fetchErrorsByKey; // @synthesize fetchErrorsByKey=_fetchErrorsByKey;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *localizableExperimentalizableKeys;
-@property(readonly, nonatomic) NSArray *localizableKeys;
-@property(readonly, nonatomic) NSArray *localizableLanguageSpecificKeys;
-@property(readonly, nonatomic) NSDictionary *localizedExperimentalizedKeysByOriginalKey; // @synthesize localizedExperimentalizedKeysByOriginalKey=_localizedExperimentalizedKeysByOriginalKey;
-@property(readonly, nonatomic) NSDictionary *localizedKeysByOriginalKey; // @synthesize localizedKeysByOriginalKey=_localizedKeysByOriginalKey;
-@property(readonly, nonatomic) NSDictionary *localizedLanguageSpecificKeysByOriginalKey; // @synthesize localizedLanguageSpecificKeysByOriginalKey=_localizedLanguageSpecificKeysByOriginalKey;
-@property(readonly, nonatomic) NSArray *nonLocalizableKeys;
-@property(readonly, nonatomic) long long storageSize;
-@property(readonly) Class superclass;
 
 @end
 

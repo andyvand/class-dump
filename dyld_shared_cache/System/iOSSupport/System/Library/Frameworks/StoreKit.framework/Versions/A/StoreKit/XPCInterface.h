@@ -10,7 +10,7 @@
 
 + (id);
 + (id);
-+ (id);
++ (id): /* Error: Ran out of types for this method. */;
 
 @end
 

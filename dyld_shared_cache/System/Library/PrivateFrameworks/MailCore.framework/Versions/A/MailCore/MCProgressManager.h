@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCProgressEntry, NSArray, NSMutableArray, NSMutableDictionary, NSString;
+@class MCProgressEntry, NSMutableDictionary;
 
 @interface MCProgressManager
 {
     NSMutableDictionary *_entriesBySlice;
-    NSMutableArray *_orderedEntries;
-    MCProgressEntry *_activeEntry;
-    NSArray *_trackedAccountNames;
 }
 
 + (id);
 + (id);
-+ (id)Location:(struct _NSZone *)arg1;
++ (id)setContentLocation:(struct _NSZone *)arg1;
 - (id);
 - (void);
 - (void);
@@ -24,7 +21,7 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)�;
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -35,23 +32,13 @@
 - (id);
 - (void);
 - (id);
+- (void)unsafeUpdateEpisodeLevelsWithShowUUID:(id)arg1 on:(id)arg2;
 - (void);
 - (void);
-- (void);
-- (id)utesOnly:outOrderedAttachments: /* Error: Ran out of types for this method. */;
+- (id)_searchableItemWithHTML:messageBody:updatableAttributesOnly:outOrderedAttachments: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) MCProgressEntry *activeEntry; // @synthesize activeEntry=_activeEntry;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSString *diagnosticsCategory;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSArray *orderedEntries;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *trackedAccountNames; // @synthesize trackedAccountNames=_trackedAccountNames;
 
 @end
 

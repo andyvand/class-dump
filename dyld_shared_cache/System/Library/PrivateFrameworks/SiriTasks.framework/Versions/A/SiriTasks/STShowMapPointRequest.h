@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDate, NSString;
+@class NSData;
 
 @interface STShowMapPointRequest
 {
     NSData *_placeData;
-    NSString *_extSessionGuid;
-    NSDate *_extSessionGuidCreatedTimestamp;
-    _Bool _isCurrentLocation;
 }
 
-+ (_Bool);
++ (_Bool)@z?k;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)z;
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 
 // Remaining properties

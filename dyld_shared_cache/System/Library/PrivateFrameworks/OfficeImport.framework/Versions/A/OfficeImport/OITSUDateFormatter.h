@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface OITSUDateFormatter
 {
     NSString *_dateOnlyFormatString;
-    NSString *_timeOnlyFormatString;
-    struct __CFDateFormatter *_fullDateFormatter;
 }
 
 + (id);
@@ -21,7 +19,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (unsigned long long);
 + (id);
-+ (id);
++ (id);
 + (id);
 - (void);
 - (id);

@@ -7,12 +7,6 @@
 @interface JSScript
 {
     struct WeakObjCPtr<JSVirtualMachine> m_virtualMachine;
-    long long m_type;
-    struct MappedFileData m_mappedSource;
-    struct String m_source;
-    struct RetainPtr<NSURL> m_sourceURL;
-    struct RetainPtr<NSURL> m_cachePath;
-    RefPtr_ba104a63 m_cachedBytecode;
 }
 
 + (id);
@@ -22,10 +16,10 @@
 - (void);
 - (void *);
 - (_Bool);
-- (RefPtr_ba104a63);
+- (RefPtr_d5602f98);
 - (_Bool);
 - (id);
-- (unsigned int);
+- (unsigned int)meCompare(adjustedTime, _lastVideoAdjustedTime) > 0)) );
 - (id);
 - (long long);
 - (const void *);

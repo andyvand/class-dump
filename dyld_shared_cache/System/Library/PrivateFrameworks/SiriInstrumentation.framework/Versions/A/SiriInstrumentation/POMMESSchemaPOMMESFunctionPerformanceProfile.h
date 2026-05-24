@@ -6,24 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
-
 @interface POMMESSchemaPOMMESFunctionPerformanceProfile : SISchemaInstrumentationMessage
 {
     double _startTimeIntervalSince2001InMs;
-    double _durationInMs;
-    NSString *_fileId;
-    int _lineNumber;
-    NSString *_callingFunction;
-    NSString *_measurementLabel;
-    struct {
-        unsigned int startTimeIntervalSince2001InMs:1;
-        unsigned int durationInMs:1;
-        unsigned int lineNumber:1;
-    } _has;
-    _Bool _hasFileId;
-    _Bool _hasCallingFunction;
-    _Bool _hasMeasurementLabel;
 }
 
 - (double);
@@ -37,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -53,33 +38,21 @@
 - (void);
 - (_Bool);
 - (id);
-- (double);
+- (double)Insets=dddd}16@0:8 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)cOS.m:32 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (int);
 - (_Bool);
-- (_Bool);
+- (_Bool)UID/part:(id)arg1 %@/%@;
 - (id);
 - (void);
 - (id);
-- (id)tBeforeActivationScores;
+- (id)_phsRejectBeforeActivationScores;
 - (id)tItn;
-- (void)LOWHOMEAUTOMATIONCOMMANDERRORREASON_INCOMPLETE_SYNC_DATA;
+- (void)FLOWHOMEAUTOMATIONCOMMANDERRORREASON_INCOMPLETE_SYNC_DATA;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *callingFunction; // @synthesize callingFunction=_callingFunction;
-@property(nonatomic) double durationInMs; // @synthesize durationInMs=_durationInMs;
-@property(copy, nonatomic) NSString *fileId; // @synthesize fileId=_fileId;
-@property(nonatomic) _Bool hasCallingFunction; // @synthesize hasCallingFunction=_hasCallingFunction;
-@property(nonatomic) _Bool hasDurationInMs;
-@property(nonatomic) _Bool hasFileId; // @synthesize hasFileId=_hasFileId;
-@property(nonatomic) _Bool hasLineNumber;
-@property(nonatomic) _Bool hasMeasurementLabel; // @synthesize hasMeasurementLabel=_hasMeasurementLabel;
-@property(nonatomic) _Bool hasStartTimeIntervalSince2001InMs;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int lineNumber; // @synthesize lineNumber=_lineNumber;
-@property(copy, nonatomic) NSString *measurementLabel; // @synthesize measurementLabel=_measurementLabel;
 @property(nonatomic) double startTimeIntervalSince2001InMs; // @synthesize startTimeIntervalSince2001InMs=_startTimeIntervalSince2001InMs;
 
 @end

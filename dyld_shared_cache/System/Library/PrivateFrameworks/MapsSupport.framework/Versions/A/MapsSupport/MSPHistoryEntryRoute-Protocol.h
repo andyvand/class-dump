@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAutomobileOptions, GEOComposedWaypoint, GEOCyclingOptions, GEOTransitOptions, GEOURLRouteHandle, GEOWalkingOptions, NSArray, NSData, NSString;
+@class GEOComposedWaypoint, GEOTransitOptions, GEOURLRouteHandle, NSData;
 
 @protocol MSPHistoryEntryRoute
+- (NSData *);
+- (GEOComposedWaypoint *)> %u (new);
+- (GEOURLRouteHandle *)max ;
+- (GEOComposedWaypoint *)subject = :subject_id AND fuzzy_ancestor > %d /* Error: Ran out of types for this method. */;
 - (GEOTransitOptions *)Trip sharedTripIdentifier:%@ /* Error: Ran out of types for this method. */;
-- (GEOAutomobileOptions *);
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *archivedSharedTripData;
-@property(readonly, nonatomic) GEOAutomobileOptions *automobileOptions;
-@property(readonly, nonatomic) GEOCyclingOptions *cyclingOptions;
-@property(readonly, nonatomic) GEOComposedWaypoint *endWaypoint;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool navigationWasInterrupted;
-@property(readonly, nonatomic) GEOURLRouteHandle *routeHandle;
-@property(readonly, nonatomic) GEOComposedWaypoint *startWaypoint;
-@property(readonly, nonatomic) GEOTransitOptions *transitOptions;
 @property(readonly, nonatomic) long long transportType;
-@property(readonly, nonatomic) GEOWalkingOptions *walkingOptions;
-@property(readonly, nonatomic) NSArray *waypoints;
 @end
 

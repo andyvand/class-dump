@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (void)ObjectPrefixSumPSO;
+- (void)_emulationObjectPrefixSumPSO;
 - (id)bÚÿÿ;
 
 @end

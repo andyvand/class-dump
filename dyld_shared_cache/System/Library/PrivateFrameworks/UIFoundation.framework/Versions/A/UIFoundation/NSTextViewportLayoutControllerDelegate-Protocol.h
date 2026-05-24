@@ -5,5 +5,9 @@
 //
 
 @protocol NSTextViewportLayoutControllerDelegate
+
+@optional
+- (_Bool)!;
+- (struct CGRect);
 @end
 

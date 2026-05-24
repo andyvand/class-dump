@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATOperationQueue, CATTaskClient, NSHashTable, NSString;
+@class CATTaskClient;
 
 @interface CRKStudentDaemonProxy
 {
     CATTaskClient *mTaskClient;
-    CATOperationQueue *mOperationQueue;
-    NSHashTable *mObservers;
-    long long mConnectionAttempt;
-    _Bool mConnecting;
-    _Bool _connected;
-    _Bool _userExpectsReconnect;
-    long long _maxConnectionAttempts;
-    CDUnknownBlockType _connectionBuilder;
 }
 
 + (void);
@@ -35,29 +27,19 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)setDACalendarItemsDownloadedXPCListener:(id)arg1;
 - (id);
-- (void);
+- (void)processImportForBundleID:(id)arg1 withURLs:contentTypes:sandboxExtensions:andIdentifiers:options:inGroup:additionalAttributes:computeUpdaterAttributesAfterImport:cancelBlock: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void)setShouldBecomeExclusive: /* Error: Ran out of types for this method. */;
-- (void)e:completion: /* Error: Ran out of types for this method. */;
+- (void)retrieveFirewallWithQueue:completion: /* Error: Ran out of types for this method. */;
 - (void)otificationPublisher;
 
 // Remaining properties
 @property(nonatomic, getter=isConnected) _Bool connected; // @synthesize connected=_connected;
-@property(readonly, nonatomic) CDUnknownBlockType connectionBuilder; // @synthesize connectionBuilder=_connectionBuilder;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long maxConnectionAttempts; // @synthesize maxConnectionAttempts=_maxConnectionAttempts;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool userExpectsReconnect; // @synthesize userExpectsReconnect=_userExpectsReconnect;
 
 @end
 

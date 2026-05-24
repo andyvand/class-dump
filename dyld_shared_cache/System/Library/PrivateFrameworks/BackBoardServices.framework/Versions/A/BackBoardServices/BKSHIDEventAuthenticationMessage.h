@@ -4,27 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSHIDEventHitTestLayerInformation, NSData, NSString;
-
 @interface BKSHIDEventAuthenticationMessage
 {
     long long _versionedPID;
-    unsigned int _eventType;
-    unsigned int _touchIdentifier;
-    unsigned int _targetSlotID;
-    unsigned int _targetContextID;
-    BKSHIDEventHitTestLayerInformation *_hitTestInformationFromStartEvent;
-    BKSHIDEventHitTestLayerInformation *_hitTestInformationFromEndEvent;
-    unsigned long long _timestamp;
-    unsigned long long _originIdentifier;
-    unsigned long long _context;
-    long long _secureNameStatus;
-    _Bool _registrantEntitled;
-    NSData *_signature;
 }
 
 + (id);
-+ (id);
++ (id)AACustodianRecoveryErrors;
 + (_Bool);
 + (_Bool);
 - (unsigned int);
@@ -35,19 +21,19 @@
 - (unsigned int);
 - (unsigned long long);
 - (void);
+- (id)ror:(id)arg1;
 - (id);
-- (id);
-- (id);
+- (id)model.;
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)!;
 - (id);
 - (id);
 - (unsigned int);
 - (void);
-- (unsigned long long);
+- (unsigned long long)orderedControllers;
 - (_Bool);
 - (void);
-- (unsigned int);
+- (unsigned int);
 - (void);
 - (id);
 - (long long);
@@ -55,24 +41,6 @@
 - (id)×ûÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned int eventType; // @synthesize eventType=_eventType;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) BKSHIDEventHitTestLayerInformation *hitTestInformationFromEndEvent; // @synthesize hitTestInformationFromEndEvent=_hitTestInformationFromEndEvent;
-@property(readonly, nonatomic) BKSHIDEventHitTestLayerInformation *hitTestInformationFromStartEvent; // @synthesize hitTestInformationFromStartEvent=_hitTestInformationFromStartEvent;
-@property(readonly, nonatomic) unsigned long long originIdentifier; // @synthesize originIdentifier=_originIdentifier;
-@property(readonly, nonatomic) _Bool registrantEntitled; // @synthesize registrantEntitled=_registrantEntitled;
-@property(readonly, nonatomic) long long secureNameStatus; // @synthesize secureNameStatus=_secureNameStatus;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned int targetContextID; // @synthesize targetContextID=_targetContextID;
-@property(readonly, nonatomic) unsigned int targetSlotID; // @synthesize targetSlotID=_targetSlotID;
-@property(readonly, nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(readonly, nonatomic) unsigned int touchIdentifier; // @synthesize touchIdentifier=_touchIdentifier;
 @property(readonly, nonatomic) long long versionedPID; // @synthesize versionedPID=_versionedPID;
 
 @end

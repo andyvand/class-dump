@@ -9,7 +9,6 @@
 @interface RTVisitMonitorState
 {
     RTVisit *_lastVisitIncident;
-    RTVisit *_lastLowConfidenceVisitIncident;
 }
 
 - (void);
@@ -22,7 +21,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) RTVisit *lastLowConfidenceVisitIncident; // @synthesize lastLowConfidenceVisitIncident=_lastLowConfidenceVisitIncident;
 @property(retain, nonatomic) RTVisit *lastVisitIncident; // @synthesize lastVisitIncident=_lastVisitIncident;
 
 @end

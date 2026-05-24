@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     long long _vizMode;
 }
 
-- (void);
+- (void)nterface %s to provider UUID:(long long)arg1 %{uuid_t}.16P;
 - (long long);
 
 // Remaining properties

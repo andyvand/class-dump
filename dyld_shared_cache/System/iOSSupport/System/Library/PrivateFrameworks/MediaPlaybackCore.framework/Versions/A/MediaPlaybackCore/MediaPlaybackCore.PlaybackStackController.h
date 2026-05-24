@@ -4,51 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface MediaPlaybackCore.PlaybackStackController
 {
     id queueController;
-    id playerController;
-    id reporter;
-    id assetQueueController;
-    id errorController;
-    id backgroundTaskController;
-    id currentSetQueueIdentifier;
 }
 
 - (void);
 - (_Bool);
 - (void);
+- (void)e;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)Frameworks/Accounts.framework/Versions/A/Accounts;
+- (_Bool)ass %@;
+- (_Bool)ted or removed for dataclass %@;
+- (_Bool)ed. No reason to consider restricted or removed for dataclass %@;
+- (void)
+;
 - (void);
 - (void);
 - (void);
 - (float);
 - (long long);
-- (id);
+- (id)=;
 - (void);
 - (id);
-- (_Bool)ineInfoProvider;
+- (_Bool)MPCPlaybackEngineInfoProvider;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool isModeManagedSession;
-@property(nonatomic, readonly) _Bool isModeShared;
-@property(nonatomic, readonly) _Bool isModeSolo;
-@property(nonatomic) _Bool isMuted;
-@property(nonatomic, readonly) NSString *modeDescription;
-@property(nonatomic) float relativeVolume;
-@property(nonatomic, readonly) long long renderingMode;
 @property(nonatomic, readonly) NSDictionary *stateDictionary;
-@property(nonatomic, readonly) _Bool supportsMultichannelAudio;
 
 @end
 

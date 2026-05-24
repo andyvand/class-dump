@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, NSURL;
+@class NSURL;
 
 @interface SCNSceneSource
 {
     struct __C3DSceneSource *_sceneSource;
-    struct __C3DScene *_lastLoadedScene;
-    NSDictionary *_lastOptions;
-    _Bool _sceneLoaded;
-    NSDictionary *_sceneSourceOptions;
 }
 
 + (_Bool);
@@ -36,7 +32,7 @@
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -54,7 +50,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (struct __C3DLibrary *)OsdFlipMatrix(threadgroup float * src, threadgroup float * dst)
 {
     for (int i = 0; i < 16; i++) dst[i] = src[15-i];
@@ -408,14 +404,6 @@ static void OsdComputePerPatchVertexGregory(int3 patchParam, unsigned ID, unsign
 - (id)SpreadingAngle:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) NSData *data;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly) NSURL *url;
 
 @end

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SNSpeechEmotionResult
 {
     id impl;
@@ -15,7 +13,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)D;
 - (double);
 - (double);
 - (id);
@@ -26,7 +24,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)P;
 - (long long);
 - (_Bool);
 - (void);
@@ -39,15 +37,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) double arousal;
-@property(nonatomic) double confidence;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic) double dominance;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, copy) NSString *modelIdentifier;
-@property(nonatomic) double mood;
 @property(nonatomic) CDStruct_3c1748cc timeRange;
-@property(nonatomic) double valence;
 
 @end
 

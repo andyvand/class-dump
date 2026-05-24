@@ -11,13 +11,6 @@
 @interface ChatKit.TapbackPickerContainerView : ChatKit.TapbackBlurView
 {
     id currentDisplayMode;
-    id wantsPileDestOut;
-    id isAlphaThresholdFilterEnabled;
-    id displayConfiguration;
-    id ignoreGyro;
-    id presentationTintColor;
-    id backingBalloon;
-    id wantsMaterialBackground;
 }
 
 - (_Bool);

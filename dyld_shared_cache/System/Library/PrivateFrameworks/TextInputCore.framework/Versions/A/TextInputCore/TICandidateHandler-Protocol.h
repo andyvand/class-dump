@@ -7,9 +7,11 @@
 @class TICandidateRequestToken;
 
 @protocol TICandidateHandler
+- (void)owngraded %@;
+- (_Bool);
+- (TICandidateRequestToken *)ed to generate mask for Vision segmentation instance, error:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool asynchronous;
 @property(readonly, nonatomic) TICandidateRequestToken *requestToken;
 @end
 

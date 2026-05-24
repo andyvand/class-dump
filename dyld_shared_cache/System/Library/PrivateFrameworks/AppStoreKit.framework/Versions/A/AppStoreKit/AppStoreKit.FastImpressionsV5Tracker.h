@@ -7,11 +7,6 @@
 @interface AppStoreKit.FastImpressionsV5Tracker
 {
     id delegate;
-    id impressionableThreshold;
-    id mainTracker;
-    id fastTracker;
-    id shouldUseNewFastImpressionsFlushingBehaviour;
-    id shouldRemoveFastTrackerImpressionsOnFlush;
 }
 
 @end

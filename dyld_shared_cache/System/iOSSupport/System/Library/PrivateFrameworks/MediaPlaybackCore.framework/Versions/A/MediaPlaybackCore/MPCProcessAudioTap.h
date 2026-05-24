@@ -4,29 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol MPCProcessAudioTapDelegate, OS_dispatch_queue;
-
 @interface MPCProcessAudioTap
 {
     struct OpaqueAudioQueue *_processingQueue;
-    struct AudioQueueBuffer *_monoAudioBuffer;
-    int _pid;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    _Bool _enabled;
-    unsigned int _numberOfFrames;
-    unsigned int _sampleRate;
-    unsigned int _numberOfChannels;
-    id <MPCProcessAudioTapDelegate> _delegate;
 }
 
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)s/A/AAAFoundation;
+- (id)vateFrameworks/AAAFoundation.framework/Versions/A/AAAFoundation;
 - (void);
-- (void);
+- (void)ylib;
 - (void);
 - (void);
 - (unsigned int);
@@ -36,18 +25,14 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
-- (unsigned int);
+- (unsigned int)dismissQueue;
 - (unsigned int);
 - (void)ayloadForItemAssetLoad:serviceName=nil for assetLoadEndEvent date=%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <MPCProcessAudioTapDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly, nonatomic) unsigned int numberOfChannels; // @synthesize numberOfChannels=_numberOfChannels;
 @property(nonatomic) unsigned int numberOfFrames; // @synthesize numberOfFrames=_numberOfFrames;
-@property(readonly, nonatomic) unsigned int sampleRate; // @synthesize sampleRate=_sampleRate;
 
 @end
 

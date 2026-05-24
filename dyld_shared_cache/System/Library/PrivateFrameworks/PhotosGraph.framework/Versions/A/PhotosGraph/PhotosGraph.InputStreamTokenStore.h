@@ -7,8 +7,6 @@
 @interface PhotosGraph.InputStreamTokenStore
 {
     id $defaultActor;
-    id url;
-    id token;
 }
 
 @end

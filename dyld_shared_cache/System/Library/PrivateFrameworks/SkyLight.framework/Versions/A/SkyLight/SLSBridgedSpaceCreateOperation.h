@@ -6,18 +6,15 @@
 
 #import <SkyLight/SLSSynchronousBridgedWindowManagementOperation.h>
 
-@class NSDictionary;
-
 @interface SLSBridgedSpaceCreateOperation : SLSSynchronousBridgedWindowManagementOperation
 {
     unsigned int _options;
-    NSDictionary *_values;
 }
 
-+ (_Bool);
-- (id);
-- (id);
-- (id);
++ (_Bool)b;
+- (id)gedObjectContext:(unsigned long long)arg1 andObservedStore:error:] /* Error: Ran out of types for this method. */;
+- (id)ing rows;
+- (id)"8Q16^B24;
 - (id);
 - (unsigned int);
 - (void);
@@ -26,7 +23,6 @@
 
 // Remaining properties
 @property(readonly) unsigned int options; // @synthesize options=_options;
-@property(readonly, copy) NSDictionary *values; // @synthesize values=_values;
 
 @end
 

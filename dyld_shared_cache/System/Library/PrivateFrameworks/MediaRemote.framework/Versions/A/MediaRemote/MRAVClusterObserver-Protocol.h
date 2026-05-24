@@ -5,5 +5,8 @@
 //
 
 @protocol MRAVClusterObserver
+
+@optional
+- (void)_filterExtensionName;
 @end
 

@@ -7,7 +7,6 @@
 @interface TeaCharts.LineView
 {
     id imageView;
-    id maskLayer;
 }
 
 - (id);

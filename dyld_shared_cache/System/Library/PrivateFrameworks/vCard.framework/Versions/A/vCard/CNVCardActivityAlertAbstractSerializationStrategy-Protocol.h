@@ -5,5 +5,6 @@
 //
 
 @protocol CNVCardActivityAlertAbstractSerializationStrategy
++ (_Bool);
 @end
 

@@ -4,6 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSString, NSURL;
+
 @protocol TrialArchivingServiceProtocol
+- (void){CGRect={CGPoint=dd}{CGSize=dd}}120@0:(void (^)(NSString *))arg1 8d16d24Q32Q40{CGRect={CGPoint=dd}{CGSize=dd}}48{CGRect={CGPoint=dd}{CGSize=dd}}80^d112;
+- (void);
+- (void)unarchivedRecipeWithJSONObject:(void (^)(NSString *))arg1 error: /* Error: Ran out of types for this method. */;
+- (void)smartToneProperties;
+- (void)sharedConfiguration;
+- (void)setSourceImageOrientation:(NSURL *)arg1;
+- (void)setIsDepthAvailable:(NSString *)arg1;
+- (void)setIntegralError:(NSArray *)arg1;
+- (void)setInputAsset:(void (^)(NSNumber *))arg1;
+- (void)setImageURL:(NSString *)arg1;
 @end
 

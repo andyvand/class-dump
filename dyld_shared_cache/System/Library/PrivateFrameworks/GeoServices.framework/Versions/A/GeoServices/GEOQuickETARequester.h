@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEODirectionsRequest, GEOETARequest, GEOQuickETARequest, NSString;
+@class GEOQuickETARequest;
 
 @interface GEOQuickETARequester
 {
     GEOQuickETARequest *_request;
-    GEOETARequest *_simpleETARequest;
-    GEODirectionsRequest *_directionsETARequest;
-    NSString *_loggingFacility;
 }
 
 + (_Bool);
@@ -23,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void));
 - (id);
 - (void);
 

@@ -5,5 +5,6 @@
 //
 
 @protocol _HMMediaSessionDelegate
+- (void);
 @end
 

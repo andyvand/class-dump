@@ -7,32 +7,6 @@
 @interface AWDWiFiCLTMSliceSpecific
 {
     CDStruct_9f2792e4 _batteryVoltageBucketeds;
-    CDStruct_9f2792e4 _cltmIndexBucketeds;
-    CDStruct_9f2792e4 _numActiveChainsBucketeds;
-    CDStruct_9f2792e4 _ppmBucketeds;
-    CDStruct_95bda58d _temperatureBucketeds;
-    CDStruct_9f2792e4 _txDutyCycleBucketeds;
-    CDStruct_95bda58d _txPowerBackoffBucketeds;
-    unsigned long long _timestamp;
-    unsigned long long _updateCount;
-    unsigned int _batteryVoltage;
-    unsigned int _cltmIndex;
-    unsigned int _numActiveChains;
-    unsigned int _ppm;
-    int _temperature;
-    unsigned int _txDutyCycle;
-    int _txPowerBackoff;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int updateCount:1;
-        unsigned int batteryVoltage:1;
-        unsigned int cltmIndex:1;
-        unsigned int numActiveChains:1;
-        unsigned int ppm:1;
-        unsigned int temperature:1;
-        unsigned int txDutyCycle:1;
-        unsigned int txPowerBackoff:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -48,9 +22,9 @@
 - (int);
 - (void);
 - (void);
+- (void)	;
 - (void);
-- (void);
-- (void);
+- (void)	;
 - (void);
 - (void);
 - (void);
@@ -68,10 +42,10 @@
 - (unsigned int);
 - (unsigned long long);
 - (unsigned int *);
+- (_Bool);
+- (_Bool)3;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)kb	;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -79,7 +53,7 @@
 - (unsigned int *);
 - (unsigned int);
 - (unsigned int);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -94,16 +68,16 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)sb;
 - (unsigned int);
 - (void);
+- (void);
+- (unsigned int);
+- (unsigned int),;
+- (void);
 - (void);
-- (unsigned int);
-- (unsigned int);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -122,41 +96,10 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)%;
 
 // Remaining properties
-@property(nonatomic) unsigned int batteryVoltage; // @synthesize batteryVoltage=_batteryVoltage;
-@property(readonly, nonatomic) unsigned int *batteryVoltageBucketeds;
-@property(readonly, nonatomic) unsigned long long batteryVoltageBucketedsCount;
-@property(nonatomic) unsigned int cltmIndex; // @synthesize cltmIndex=_cltmIndex;
-@property(readonly, nonatomic) unsigned int *cltmIndexBucketeds;
-@property(readonly, nonatomic) unsigned long long cltmIndexBucketedsCount;
-@property(nonatomic) _Bool hasBatteryVoltage;
-@property(nonatomic) _Bool hasCltmIndex;
-@property(nonatomic) _Bool hasNumActiveChains;
-@property(nonatomic) _Bool hasPpm;
-@property(nonatomic) _Bool hasTemperature;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasTxDutyCycle;
-@property(nonatomic) _Bool hasTxPowerBackoff;
-@property(nonatomic) _Bool hasUpdateCount;
-@property(nonatomic) unsigned int numActiveChains; // @synthesize numActiveChains=_numActiveChains;
-@property(readonly, nonatomic) unsigned int *numActiveChainsBucketeds;
-@property(readonly, nonatomic) unsigned long long numActiveChainsBucketedsCount;
-@property(nonatomic) unsigned int ppm; // @synthesize ppm=_ppm;
-@property(readonly, nonatomic) unsigned int *ppmBucketeds;
-@property(readonly, nonatomic) unsigned long long ppmBucketedsCount;
-@property(nonatomic) int temperature; // @synthesize temperature=_temperature;
-@property(readonly, nonatomic) int *temperatureBucketeds;
-@property(readonly, nonatomic) unsigned long long temperatureBucketedsCount;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) unsigned int txDutyCycle; // @synthesize txDutyCycle=_txDutyCycle;
-@property(readonly, nonatomic) unsigned int *txDutyCycleBucketeds;
-@property(readonly, nonatomic) unsigned long long txDutyCycleBucketedsCount;
-@property(nonatomic) int txPowerBackoff; // @synthesize txPowerBackoff=_txPowerBackoff;
-@property(readonly, nonatomic) int *txPowerBackoffBucketeds;
-@property(readonly, nonatomic) unsigned long long txPowerBackoffBucketedsCount;
-@property(nonatomic) unsigned long long updateCount; // @synthesize updateCount=_updateCount;
 
 @end
 

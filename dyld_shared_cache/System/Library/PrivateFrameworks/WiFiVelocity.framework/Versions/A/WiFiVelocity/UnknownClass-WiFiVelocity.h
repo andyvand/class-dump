@@ -7,7 +7,7 @@
 @interface UnknownClass (WiFiVelocity)
 + (void);
 + (void);
-+ (_Bool);
++ (_Bool)aD;
 + (void);
 + (_Bool);
 + (void);
@@ -15,7 +15,7 @@
 + (void);
 + (void);
 + (void);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (void);
 + (void);

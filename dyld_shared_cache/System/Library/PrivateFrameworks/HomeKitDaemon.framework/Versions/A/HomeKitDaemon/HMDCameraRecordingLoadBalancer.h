@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHomeManager, HMISystemResourceUsageMonitor, NSMutableDictionary, NSString;
-@protocol HMDPreferences;
+@class HMDHomeManager;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingLoadBalancer
 {
     struct os_unfair_lock_s _lock;
-    HMDHomeManager *_homeManager;
-    HMISystemResourceUsageMonitor *_systemResourceUsageMonitor;
-    id <HMDPreferences> _preferences;
-    NSMutableDictionary *_hasActiveRecordingSessionByCameraUUIDString;
-    NSMutableDictionary *_readyToRecordByCameraUUIDString;
-    NSMutableDictionary *_previousRecordingSessionErrorResultByCameraUUIDString;
-    NSMutableDictionary *_errorResultTrackerByCameraUUIDByDeviceUUID;
-    NSMutableDictionary *_pendingDecisionsByCameraUUIDByDeviceUUID;
-    NSMutableDictionary *_lastDecisionByCameraUUID;
-    unsigned long long _numberOfActiveRecordingSessions;
-    unsigned long long _maxNumberOfAnalyzers;
 }
 
 + (id)ËB;
@@ -29,9 +17,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)RFBCancelAppleIDScreenSharingConnection;
+- (void);
+- (void);
 - (unsigned long long);
 - (id);
 - (id);
@@ -41,9 +29,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id)Enabled;
+- (id)isHomeAppHomeActivityStateIndicatorInternalSettingEnabled;
 - (void)rticipatingtvOS18Version:(id)arg1 isStatusChannelOnDedicatedTopic:primaryResidentChangedSource:durationToFindReachablePrimary:homeUUID: /* Error: Ran out of types for this method. */;
-- (id);
+- (id)_isHomeHubAvailableWithConfiguration:(id)arg1;
 - (void)Number",C;
 - (id)5;
 - (unsigned long long)public}@Unable to delete the entity:%@ /* Error: Ran out of types for this method. */;
@@ -60,24 +48,7 @@ __attribute__((visibility("hidden")))
 - (id)ØqúÿÖRÐ8B;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) NSMutableDictionary *errorResultTrackerByCameraUUIDByDeviceUUID; // @synthesize errorResultTrackerByCameraUUIDByDeviceUUID=_errorResultTrackerByCameraUUIDByDeviceUUID;
-@property(readonly) NSMutableDictionary *hasActiveRecordingSessionByCameraUUIDString; // @synthesize hasActiveRecordingSessionByCameraUUIDString=_hasActiveRecordingSessionByCameraUUIDString;
-@property(readonly) unsigned long long hash;
 @property(readonly) __weak HMDHomeManager *homeManager; // @synthesize homeManager=_homeManager;
-@property(readonly) NSMutableDictionary *lastDecisionByCameraUUID; // @synthesize lastDecisionByCameraUUID=_lastDecisionByCameraUUID;
-@property unsigned long long maxNumberOfAnalyzers; // @synthesize maxNumberOfAnalyzers=_maxNumberOfAnalyzers;
-@property unsigned long long numberOfActiveRecordingSessions; // @synthesize numberOfActiveRecordingSessions=_numberOfActiveRecordingSessions;
-@property(readonly) NSMutableDictionary *pendingDecisionsByCameraUUIDByDeviceUUID; // @synthesize pendingDecisionsByCameraUUIDByDeviceUUID=_pendingDecisionsByCameraUUIDByDeviceUUID;
-@property(readonly) id <HMDPreferences> preferences; // @synthesize preferences=_preferences;
-@property(readonly) NSMutableDictionary *previousRecordingSessionErrorResultByCameraUUIDString; // @synthesize previousRecordingSessionErrorResultByCameraUUIDString=_previousRecordingSessionErrorResultByCameraUUIDString;
-@property(readonly) NSMutableDictionary *readyToRecordByCameraUUIDString; // @synthesize readyToRecordByCameraUUIDString=_readyToRecordByCameraUUIDString;
-@property(readonly) Class superclass;
-@property(readonly) HMISystemResourceUsageMonitor *systemResourceUsageMonitor; // @synthesize systemResourceUsageMonitor=_systemResourceUsageMonitor;
 
 @end
 

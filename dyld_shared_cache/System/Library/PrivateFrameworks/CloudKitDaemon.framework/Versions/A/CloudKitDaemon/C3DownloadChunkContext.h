@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDMMCS, NSMutableDictionary;
+@class CKDMMCS;
 
 @interface C3DownloadChunkContext
 {
     CKDMMCS *_MMCS;
-    NSMutableDictionary *_signatureToMutableData;
 }
 
 - (id);
 - (void);
 - (id);
 - (id);
-- (void)thData:(id)arg1;
-- (void)OptionsByKeyByRecordType;
+- (void)initWithData:(id)arg1;
+- (void)assetTransferOptionsByKeyByRecordType;
 
 // Remaining properties
 @property(nonatomic) __weak CKDMMCS *MMCS; // @synthesize MMCS=_MMCS;
-@property(retain, nonatomic) NSMutableDictionary *signatureToMutableData; // @synthesize signatureToMutableData=_signatureToMutableData;
 
 @end
 

@@ -10,15 +10,14 @@ __attribute__((visibility("hidden")))
 @interface VNLKTOpticalFlowCPU : VNLKTOpticalFlow
 {
     struct unique_ptr<apple::vision::OpticalFlow::LKTCPU, std::default_delete<apple::vision::OpticalFlow::LKTCPU>> _opticalFlow;
-    struct __CVBuffer *_uv_user_ref;
 }
 
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void)tFaceLandmarksConstellationNotDefined;
+- (void)VNRequestFaceLandmarksConstellationNotDefined;
 
 @end
 

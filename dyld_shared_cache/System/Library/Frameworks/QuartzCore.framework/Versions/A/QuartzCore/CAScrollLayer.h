@@ -15,12 +15,12 @@
 + (_Bool);
 + (id);
 + (id);
-- (void);
-- (void);
+- (void)q;
+- (void);
 - (id);
 - (struct CGRect);
-- (void);
-- (void);
+- (void)#;
+- (void)h;
 - (void);
 
 // Remaining properties

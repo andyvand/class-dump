@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface HMDCameraRecordingSupportedAudioConfiguration
@@ -18,13 +18,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)F;
 - (void);
-- (void)eneType;
+- (void)SceneType;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *codecConfigurations; // @synthesize codecConfigurations=_codecConfigurations;
-@property(readonly, copy) NSData *tlvData;
 
 @end
 

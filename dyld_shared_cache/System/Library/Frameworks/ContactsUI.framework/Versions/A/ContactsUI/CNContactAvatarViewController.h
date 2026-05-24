@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarViewController, CNContact, NSString;
+@class CNAvatarViewController;
 
 @interface CNContactAvatarViewController
 {
     _Bool _didCreateConstraints;
-    CNAvatarViewController *_avatarViewController;
-    CNContact *_contact;
 }
 
 - (_Bool);
@@ -18,15 +16,15 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (double);
+- (_Bool));
+- (double);
 - (double);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -37,15 +35,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) CNAvatarViewController *avatarViewController; // @synthesize avatarViewController=_avatarViewController;
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didCreateConstraints; // @synthesize didCreateConstraints=_didCreateConstraints;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

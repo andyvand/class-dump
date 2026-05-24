@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SXVideoAnalyticsRouter, SXVideoPlayerVisibilityMonitor;
-
 @interface SXVideoPlayerViewControllerResponse
 {
     _Bool _shouldAutoplay;
-    _Bool _expectVideoPlayerViewController;
-    SXVideoAnalyticsRouter *_analyticsRouter;
-    SXVideoPlayerVisibilityMonitor *_visibilityMonitor;
 }
 
 - (id);
@@ -26,10 +21,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) SXVideoAnalyticsRouter *analyticsRouter; // @synthesize analyticsRouter=_analyticsRouter;
-@property(nonatomic) _Bool expectVideoPlayerViewController; // @synthesize expectVideoPlayerViewController=_expectVideoPlayerViewController;
 @property(nonatomic) _Bool shouldAutoplay; // @synthesize shouldAutoplay=_shouldAutoplay;
-@property(retain, nonatomic) SXVideoPlayerVisibilityMonitor *visibilityMonitor; // @synthesize visibilityMonitor=_visibilityMonitor;
 
 @end
 

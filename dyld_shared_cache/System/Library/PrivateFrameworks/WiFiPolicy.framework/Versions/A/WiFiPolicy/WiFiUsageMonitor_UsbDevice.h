@@ -9,9 +9,6 @@
 @interface WiFiUsageMonitor_UsbDevice
 {
     _Bool _vidIsApple;
-    NSString *_name;
-    unsigned long long _vid;
-    unsigned long long _locationID;
 }
 
 - (_Bool);
@@ -22,16 +19,13 @@
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id)i;
 - (void);
 - (void)ñ¤1Â0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long locationID; // @synthesize locationID=_locationID;
 @property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned long long vid; // @synthesize vid=_vid;
-@property(nonatomic) _Bool vidIsApple; // @synthesize vidIsApple=_vidIsApple;
 
 @end
 

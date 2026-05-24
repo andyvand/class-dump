@@ -6,8 +6,6 @@
 
 #import <UIKitCore/UIViewController.h>
 
-@class NSString;
-
 @interface _UIProgressiveBlurContextController : UIViewController
 {
     UIViewController *_presentedViewController;
@@ -17,21 +15,14 @@
 - (void);
 - (id);
 - (id);
-- (long long);
+- (long long)isAuxVideo;
 - (void);
 - (id);
 - (id)brid property animator from the ;
-- (void)w;
+- (void)SurfaceView;
 
 // Remaining properties
 @property(nonatomic) long long blurStyle; // @synthesize blurStyle=_blurStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

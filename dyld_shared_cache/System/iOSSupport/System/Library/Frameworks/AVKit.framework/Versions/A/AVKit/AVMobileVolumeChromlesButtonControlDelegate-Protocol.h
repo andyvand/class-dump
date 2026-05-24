@@ -5,5 +5,9 @@
 //
 
 @protocol AVMobileVolumeChromlesButtonControlDelegate
+
+@optional
+- (_Bool);
+- (void)o;
 @end
 

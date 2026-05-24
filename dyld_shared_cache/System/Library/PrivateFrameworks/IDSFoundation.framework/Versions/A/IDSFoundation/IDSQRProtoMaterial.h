@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface IDSQRProtoMaterial
 {
     unsigned long long _ownerParticipantId;
-    unsigned long long _receiverParticipantId;
-    NSMutableArray *_materialInfos;
 }
 
 + (Class);
@@ -23,22 +19,20 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)R;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)uetoothDeviceAddress=[6C]}16;
+- (void)<%@>;
 - (id);
 - (id);
 - (void)ation.IDSRegistrationEventTracingPNREvent;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *materialInfos; // @synthesize materialInfos=_materialInfos;
 @property(nonatomic) unsigned long long ownerParticipantId; // @synthesize ownerParticipantId=_ownerParticipantId;
-@property(nonatomic) unsigned long long receiverParticipantId; // @synthesize receiverParticipantId=_receiverParticipantId;
 
 @end
 

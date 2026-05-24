@@ -7,11 +7,6 @@
 @interface NewsArticles.RecipeDataManager
 {
     id recipeService;
-    id localRecipeManager;
-    id recipeHistory;
-    id recipeCache;
-    id offlineManager;
-    id recipeID;
 }
 
 @end

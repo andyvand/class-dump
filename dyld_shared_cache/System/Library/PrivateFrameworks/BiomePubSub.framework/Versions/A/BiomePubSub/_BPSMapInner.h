@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol BPSSubscriber;
 
 @interface _BPSMapInner
 {
     id <BPSSubscriber> _downstream;
-    CDUnknownBlockType _transform;
 }
 
 - (void);
 - (id);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)ng preference for sessionID [%{public}@] extension [%{public}@] :[%{public}@] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -25,15 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) id <BPSSubscriber> downstream; // @synthesize downstream=_downstream;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType transform; // @synthesize transform=_transform;
 
 @end
 

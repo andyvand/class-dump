@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, TRIServerContext;
-@protocol OS_dispatch_queue, TRITaskQueuing;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface TRIXPCServerContextPromise
 {
     NSObject<OS_dispatch_queue> *_fullfillmentQueue;
-    TRIServerContext *_serverContext;
-    id <TRITaskQueuing> _taskQueue;
 }
 
 - (void);
 - (void);
-- (id);
+- (id)matchesPublicKeyData: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (void);
+- (void)";
 - (void);
 - (id);
 - (id);
 - (void)!@ù!°1Â0@ù
 × ;
-- (void)cessIsTriald;
+- (void)hostingProcessIsTriald;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *fullfillmentQueue; // @synthesize fullfillmentQueue=_fullfillmentQueue;
-@property(retain, nonatomic) TRIServerContext *serverContext; // @synthesize serverContext=_serverContext;
-@property(retain, nonatomic) id <TRITaskQueuing> taskQueue; // @synthesize taskQueue=_taskQueue;
 
 @end
 

@@ -7,6 +7,6 @@
 @class VKCustomFeature;
 
 @protocol VKCustomFeatureAnnotation
-- (VKCustomFeature *)AccessGPU;
+- (VKCustomFeature *)CAProcessCanAccessGPU;
 @end
 

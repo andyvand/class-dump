@@ -6,51 +6,33 @@
 
 #import <AVFCapture/AVCaptureControl.h>
 
-@class NSArray, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface AVCaptureIndexPicker : AVCaptureControl
 {
     long long _selectedIndex;
-    long long _numberOfIndexes;
-    NSString *_localizedTitle;
-    NSString *_symbolName;
-    NSString *_accessibilityIdentifier;
-    NSArray *_localizedIndexTitles;
-    struct os_unfair_lock_s _actionLock;
-    NSObject<OS_dispatch_queue> *_actionQueue;
-    CDUnknownBlockType _action;
 }
 
 + (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void)thString:(id)arg1 … | failed to create mutable connection [] error=%{public}@;
+- (id)ovider] Background Task #%ld started (%{public}@);
+- (id)ymptomDiagnosticReporter.framework/Contents/MacOS/SymptomDiagnosticReporter;
+- (id)nosticReporterLibrary(void);
+- (id)StoreBookKeeper;
 - (long long);
 - (id);
 - (void);
-- (void);
+- (void)actionsForEnablingDataclass:onAccount:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id));
 - (CDUnknownBlockType);
 - (id);
 - (void);
 - (id)ø;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityIdentifier; // @synthesize accessibilityIdentifier=_accessibilityIdentifier;
 @property(copy, nonatomic) CDUnknownBlockType action; // @synthesize action=_action;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *actionQueue; // @synthesize actionQueue=_actionQueue;
-@property(readonly, copy, nonatomic) NSArray *localizedIndexTitles; // @synthesize localizedIndexTitles=_localizedIndexTitles;
-@property(readonly, copy, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(readonly, nonatomic) long long numberOfIndexes; // @synthesize numberOfIndexes=_numberOfIndexes;
-@property(nonatomic) long long selectedIndex; // @synthesize selectedIndex=_selectedIndex;
-@property(readonly, copy, nonatomic) NSString *symbolName; // @synthesize symbolName=_symbolName;
 
 @end
 

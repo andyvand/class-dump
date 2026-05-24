@@ -4,27 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 __attribute__((visibility("hidden")))
 @interface VCExperimentManager
 {
     struct _opaque_pthread_mutex_t _stateLock;
-    struct opaqueRTCReporting *_reportingAgent;
-    NSMutableDictionary *_clientExperiments;
 }
 
 + (unsigned long long);
 + (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (int);
 - (int);
 - (_Bool);
 - (_Bool);
 - (id);
-- (int);
+- (int);
 - (double);
 - (void);
 

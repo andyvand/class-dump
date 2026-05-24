@@ -15,23 +15,16 @@ __attribute__((visibility("hidden")))
 }
 
 + (_Bool);
-- (id);
+- (id)axtty_server_settings_upate_action;
 - (void);
+- (id)dChange) + (sizeof(SASerializedIndex) * (serializedModelLoadedChange->numRequesters));
 - (id);
-- (id);
-- (void);
+- (void)hFeedbackListener",&,N,V_atxListener;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *contextChangeTrigger; // @synthesize contextChangeTrigger=_contextChangeTrigger;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

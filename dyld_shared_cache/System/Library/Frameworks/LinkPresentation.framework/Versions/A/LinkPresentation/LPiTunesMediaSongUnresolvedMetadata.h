@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LPiTunesMediaAsset, NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface LPiTunesMediaSongUnresolvedMetadata
 {
     NSString *_storeFrontIdentifier;
-    NSString *_storeIdentifier;
-    NSString *_name;
-    NSString *_artist;
-    NSString *_album;
-    NSString *_lyrics;
-    LPiTunesMediaAsset *_artwork;
-    NSArray *_offers;
 }
 
 - (id);
@@ -25,14 +18,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (id)signpost.description:attribute}@ ContainerID=%{signpost.description:attribute}@ BundleID=%{signpost.description:attribute}@ QoS=%{signpost.description:attribute,public}@  /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
+- (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)initWithIdentifier:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)WantsPlatformInfo;
 - (id);
 - (void);
 - (void);
@@ -40,21 +33,7 @@ __attribute__((visibility("hidden")))
 - (id)Ð;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *album; // @synthesize album=_album;
-@property(copy, nonatomic) NSString *artist; // @synthesize artist=_artist;
-@property(retain, nonatomic) LPiTunesMediaAsset *artwork; // @synthesize artwork=_artwork;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *lyrics; // @synthesize lyrics=_lyrics;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSArray *offers; // @synthesize offers=_offers;
 @property(copy, nonatomic) NSString *storeFrontIdentifier; // @synthesize storeFrontIdentifier=_storeFrontIdentifier;
-@property(copy, nonatomic) NSString *storeIdentifier; // @synthesize storeIdentifier=_storeIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatVideoPlayerRestrictionEntry
 {
     id manifestEntry;
-    id timer;
 }
 
 @end

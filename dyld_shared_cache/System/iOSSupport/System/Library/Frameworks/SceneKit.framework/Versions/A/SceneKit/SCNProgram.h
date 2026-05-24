@@ -4,50 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
-@protocol MTLLibrary, SCNMetalLibraryProvider, SCNProgramDelegate;
+@class NSString;
 
 @interface SCNProgram
 {
     NSString *_vertexShader;
-    NSString *_fragmentShader;
-    NSString *_vertexFunctionName;
-    NSString *_fragmentFunctionName;
-    NSString *_name;
-    NSString *_sourceFile;
-    NSMutableDictionary *_semanticInfos;
-    _Bool _opaque;
-    id <MTLLibrary> _library;
-    id <SCNMetalLibraryProvider> _libraryProvider;
-    id _delegate;
-    NSMutableDictionary *_bufferBindings;
 }
 
-+ (id);
-+ (_Bool);
++ (id)R;
++ (_Bool)bView:completionHandler:] /* Error: Ran out of types for this method. */;
 + (id)¦ð1Â0@ù
 × ;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)7;
 - (void);
 - (id);
 - (int);
 - (id);
 - (id);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -60,7 +48,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)setNumberOfTapsRequired:(id)arg1;
 - (void);
 - (id)SCNText setWrapped:] /* Error: Ran out of types for this method. */;
 - (id)_position;
@@ -75,12 +63,6 @@ void main(void)
 };
 
 // Remaining properties
-@property(nonatomic) id <SCNProgramDelegate> delegate;
-@property(copy, nonatomic) NSString *fragmentFunctionName;
-@property(copy, nonatomic) NSString *fragmentShader;
-@property(retain, nonatomic) id <MTLLibrary> library;
-@property(nonatomic, getter=isOpaque) _Bool opaque;
-@property(copy, nonatomic) NSString *vertexFunctionName;
 @property(copy, nonatomic) NSString *vertexShader;
 
 @end

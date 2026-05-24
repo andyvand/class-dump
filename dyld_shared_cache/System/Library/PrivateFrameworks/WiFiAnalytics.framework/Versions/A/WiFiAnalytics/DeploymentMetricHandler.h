@@ -9,7 +9,6 @@
 @interface DeploymentMetricHandler
 {
     _Bool _isInternalInstall;
-    AnalyticsStoreMOHandler *_storeMOHandler;
 }
 
 - (id);
@@ -19,16 +18,15 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)0;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void)@;
 
 // Remaining properties
-@property(nonatomic) _Bool isInternalInstall; // @synthesize isInternalInstall=_isInternalInstall;
 @property(retain, nonatomic) AnalyticsStoreMOHandler *storeMOHandler; // @synthesize storeMOHandler=_storeMOHandler;
 
 @end

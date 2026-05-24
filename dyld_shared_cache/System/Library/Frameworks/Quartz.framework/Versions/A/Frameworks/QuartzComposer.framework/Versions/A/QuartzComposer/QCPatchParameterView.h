@@ -13,8 +13,8 @@
     QCCompositionParameterView *_compositionParameterView;
 }
 
-- (void);
-- (void);
+- (void);
+- (void)Ǥr;
 - (_Bool);
 
 @end

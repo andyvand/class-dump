@@ -9,9 +9,6 @@
 @interface PKMathRecognitionItemAttributes
 {
     NSArray *_tokens;
-    NSArray *_graphableVariables;
-    NSArray *_graphableVariables3D;
-    unsigned long long _expressionFeatures;
 }
 
 - (void);
@@ -27,11 +24,7 @@
 - (void)p0Ô0T1à2;
 
 // Remaining properties
-@property(nonatomic) unsigned long long expressionFeatures; // @synthesize expressionFeatures=_expressionFeatures;
-@property(copy, nonatomic) NSArray *graphableVariables; // @synthesize graphableVariables=_graphableVariables;
-@property(copy, nonatomic) NSArray *graphableVariables3D; // @synthesize graphableVariables3D=_graphableVariables3D;
 @property(readonly, nonatomic) _Bool isGraphable;
-@property(copy, nonatomic) NSArray *tokens; // @synthesize tokens=_tokens;
 
 @end
 

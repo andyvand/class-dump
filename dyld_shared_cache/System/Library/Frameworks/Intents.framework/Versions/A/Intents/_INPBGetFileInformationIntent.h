@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentMetadata, _INPBString;
+@class _INPBString;
 
 @interface _INPBGetFileInformationIntent
 {
@@ -13,11 +13,6 @@
         unsigned int propertyName:1;
         unsigned int qualifier:1;
     } _has;
-    int _entityType;
-    int _propertyName;
-    int _qualifier;
-    _INPBString *_entityName;
-    _INPBIntentMetadata *_intentMetadata;
 }
 
 + (_Bool);
@@ -26,7 +21,7 @@
 - (void);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
@@ -36,7 +31,7 @@
 - (void);
 - (id);
 - (int);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -46,33 +41,17 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)corewifi] [bbh] Updated known network broken backhaul properties from nearby device' (network=%{public}@);
 - (int);
 - (id);
-- (id);
+- (id);
 - (void);
 - (_Bool)ule",R,C,V_recurrenceRule;
-- (void)IGHT;
+- (void)REAR_RIGHT;
 - (id)áØNo?;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) _INPBString *entityName; // @synthesize entityName=_entityName;
-@property(nonatomic) int entityType; // @synthesize entityType=_entityType;
-@property(readonly, nonatomic) _Bool hasEntityName;
-@property(nonatomic) _Bool hasEntityType;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(nonatomic) _Bool hasPropertyName;
-@property(nonatomic) _Bool hasQualifier;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(nonatomic) int propertyName; // @synthesize propertyName=_propertyName;
-@property(nonatomic) int qualifier; // @synthesize qualifier=_qualifier;
-@property(readonly) Class superclass;
 
 @end
 

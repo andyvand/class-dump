@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDateInterval, NSString;
+@class NSString;
 
 @protocol GEORequestCounterCacheResults
-- (NSDateInterval *);
+- (unsigned int);
 - (int)Õr0×O@;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *appId;
-@property(readonly, nonatomic) unsigned int cacheExpiredCount;
-@property(readonly, nonatomic) unsigned int cacheHitCount;
-@property(readonly, nonatomic) unsigned int cacheMissCount;
-@property(readonly, nonatomic) int requestType;
-@property(readonly, nonatomic) NSDateInterval *timeRange;
 @end
 

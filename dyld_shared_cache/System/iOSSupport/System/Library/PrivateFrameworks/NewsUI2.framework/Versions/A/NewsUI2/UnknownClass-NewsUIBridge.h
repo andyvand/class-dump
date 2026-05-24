@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (NewsUIBridge)
-- (void);
+- (void)e.dylib;
 @end
 

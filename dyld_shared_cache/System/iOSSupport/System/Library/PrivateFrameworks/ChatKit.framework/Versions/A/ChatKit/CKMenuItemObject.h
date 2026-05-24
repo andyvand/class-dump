@@ -9,24 +9,20 @@
 @interface CKMenuItemObject
 {
     NSString *_title;
-    NSString *_imageName;
-    CDUnknownBlockType _handler;
 }
 
-- (id);
-- (id);
-- (void);
+- (id)imageNamed: /* Error: Ran out of types for this method. */;
+- (id)tyle_SaySo18ICTTParagraphStyleCG15paragraphStylest;
+- (void)insertObject:(CDUnknownBlockType)arg1 atIndex: /* Error: Ran out of types for this method. */;
 - (void);
 - (CDUnknownBlockType)q°1Â0@ù
 × ;
 - (id);
-- (void)ewController;
+- (void)findMyWaldoMapViewController;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(retain, nonatomic) NSString *imageName; // @synthesize imageName=_imageName;
 @property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

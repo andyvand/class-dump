@@ -9,55 +9,39 @@
 @interface IKGLScroller
 {
     NSView *_owner;
-    struct CGPoint _hotPoint;
-    float _hotValue;
-    float _value;
-    float _proportion;
-    float _lineScroll;
-    float _pageScroll;
-    struct CGRect _frame;
-    SEL _action;
-    id _target;
-    int _portionClicked;
-    int _portionPushed;
-    id _renderer;
-    _Bool _arrowScrolling;
-    int _arrowRepeatCount;
-    _Bool _white;
-    _Bool _bluish;
 }
 
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (double);
 - (int);
 - (struct CGPoint);
 - (struct CGRect);
 - (_Bool);
-- (double);
+- (double);
 - (struct CGRect);
 - (void);
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (void);
-- (void);
-- (void);
+- (void)numberWithDouble:(float)arg1;
+- (void)isSiriWebSearchAllowed;
+- (void)isCommunicationSafetySendingRestricted;
 - (struct CGRect);
 - (float);
-- (float);
-- (float);
+- (float)naryRepresentation - has usageLimitDictionary;
+- (float)@, skipping AMS:%d /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)c;
 - (id);
 - (id);
 - (id);
@@ -70,7 +54,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (struct CGRect);
 - (_Bool);
 - (float);
@@ -78,7 +62,7 @@
 - (void);
 - (SEL);
 - (void);
-- (void)erSpaceScalingFactor;
+- (void)userSpaceScalingFactor;
 
 @end
 

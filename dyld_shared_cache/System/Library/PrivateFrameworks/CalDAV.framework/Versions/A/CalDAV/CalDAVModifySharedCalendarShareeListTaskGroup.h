@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSSet, NSString, NSURL;
-@protocol CoreDAVTaskGroupDelegate;
+@class NSSet;
 
 @interface CalDAVModifySharedCalendarShareeListTaskGroup
 {
     _Bool _muteNotifications;
-    NSMutableSet *_invalidSharees;
-    NSSet *_shareesToRemove;
-    NSSet *_shareesToSet;
-    NSURL *_calendarURL;
-    NSString *_summary;
 }
 
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -26,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (void);
 - (id);
 - (void);
@@ -37,20 +31,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *calendarURL; // @synthesize calendarURL=_calendarURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) id <CoreDAVTaskGroupDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableSet *invalidSharees; // @synthesize invalidSharees=_invalidSharees;
-@property _Bool muteNotifications; // @synthesize muteNotifications=_muteNotifications;
 @property(retain, nonatomic) NSSet *shareesToRemove; // @synthesize shareesToRemove=_shareesToRemove;
-@property(retain, nonatomic) NSSet *shareesToSet; // @synthesize shareesToSet=_shareesToSet;
-@property(retain, nonatomic) NSString *summary; // @synthesize summary=_summary;
-@property(readonly) Class superclass;
 
 @end
 

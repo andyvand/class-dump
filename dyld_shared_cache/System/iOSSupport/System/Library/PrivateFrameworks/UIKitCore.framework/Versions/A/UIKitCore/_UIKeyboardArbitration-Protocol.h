@@ -5,6 +5,9 @@
 //
 
 @protocol _UIKeyboardArbitration
+- (void);
+- (void);
+- (void)v;
 - (void)Y°1Â0@ù
 × ;
 - (void)nDimmingViewTap;

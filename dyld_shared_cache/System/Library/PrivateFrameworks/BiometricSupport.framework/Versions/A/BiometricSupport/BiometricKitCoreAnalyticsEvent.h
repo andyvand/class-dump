@@ -4,30 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, NSNumber, NSString;
+@class NSNumber, NSString;
 
 @interface BiometricKitCoreAnalyticsEvent
 {
     NSString *_eventName;
-    NSArray *_privateProperties;
-    NSDictionary *_boundedFieldLimits;
-    NSNumber *_eventCanceled;
-    NSNumber *_displayOn;
-    NSNumber *_passcodeSet;
-    NSNumber *_deviceEnclosureColor;
-    NSNumber *_timeSinceLastEnrollment;
-    NSNumber *_timeSinceLastEnrollmentBinned;
-    NSNumber *_timeSinceLastEvent;
-    NSDate *_previousEventDate;
 }
 
-- (void);
+- (void)IW;
 - (id);
 - (void);
 - (id);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -45,29 +35,22 @@
 - (id);
 - (void);
 - (id);
+- (id)to context;
+- (void)�;
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
 - (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void)ccessible;
+- (void)isClassCFileAccessible;
 
 // Remaining properties
-@property(retain, nonatomic) NSNumber *deviceEnclosureColor; // @synthesize deviceEnclosureColor=_deviceEnclosureColor;
-@property(retain, nonatomic) NSNumber *displayOn; // @synthesize displayOn=_displayOn;
 @property(retain, nonatomic) NSNumber *eventCanceled; // @synthesize eventCanceled=_eventCanceled;
-@property(retain, nonatomic) NSNumber *passcodeSet; // @synthesize passcodeSet=_passcodeSet;
-@property(retain, nonatomic) NSDate *previousEventDate; // @synthesize previousEventDate=_previousEventDate;
-@property(retain, nonatomic) NSNumber *timeSinceLastEnrollment; // @synthesize timeSinceLastEnrollment=_timeSinceLastEnrollment;
-@property(retain, nonatomic) NSNumber *timeSinceLastEnrollmentBinned; // @synthesize timeSinceLastEnrollmentBinned=_timeSinceLastEnrollmentBinned;
-@property(retain, nonatomic) NSNumber *timeSinceLastEvent; // @synthesize timeSinceLastEvent=_timeSinceLastEvent;
 
 @end
 

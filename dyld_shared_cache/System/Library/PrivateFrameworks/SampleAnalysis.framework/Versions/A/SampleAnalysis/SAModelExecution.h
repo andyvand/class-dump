@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SATimestamp;
+@class NSString;
 
 @interface SAModelExecution
 {
     NSString *_requester;
-    NSString *_useCaseID;
-    SATimestamp *_startTime;
-    SATimestamp *_endTime;
-    unsigned long long _instructions;
 }
 
 + (id);
-+ (id);
++ (id)accessibilityFocusRingCornerRadius;
 - (void);
 - (id);
 - (void);
@@ -24,7 +20,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)serializeAssetIdentifier:intoDictionary:error: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (unsigned long long);
@@ -94,18 +90,7 @@ unknown   count          %llu (%llu bytes)
           no_load_info   %llu (%llu bytes);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) SATimestamp *endTime; // @synthesize endTime=_endTime;
 @property(readonly) unsigned long long hash;
-@property unsigned long long instructions; // @synthesize instructions=_instructions;
-@property(retain) NSString *requester; // @synthesize requester=_requester;
-@property(retain) SATimestamp *startTime; // @synthesize startTime=_startTime;
-@property(readonly) Class superclass;
-@property(retain) NSString *useCaseID; // @synthesize useCaseID=_useCaseID;
 
 @end
 

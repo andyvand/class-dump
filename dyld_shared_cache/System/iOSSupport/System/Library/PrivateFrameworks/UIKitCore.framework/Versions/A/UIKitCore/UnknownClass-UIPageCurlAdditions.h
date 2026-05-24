@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (UIPageCurlAdditions)
-+ (id);
++ (id)elaying message;
 + (id);
 @end
 

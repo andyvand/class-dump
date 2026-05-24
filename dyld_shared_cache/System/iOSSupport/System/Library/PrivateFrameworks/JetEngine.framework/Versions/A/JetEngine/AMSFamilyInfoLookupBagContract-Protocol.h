@@ -7,6 +7,7 @@
 @class AMSBagValue;
 
 @protocol AMSFamilyInfoLookupBagContract
+- (AMSBagValue *);
 
 // Remaining properties
 @property(readonly, nonatomic) AMSBagValue *familyInfoURL;

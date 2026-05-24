@@ -7,14 +7,6 @@
 @interface XCDeviceEvent
 {
     unsigned char _buttonMask;
-    unsigned int _eventPage;
-    unsigned int _usage;
-    long long _displayID;
-    double _duration;
-    double _rotation;
-    long long _clicks;
-    unsigned long long _type;
-    struct CGVector _offset;
 }
 
 + (id);
@@ -22,21 +14,21 @@
 + (id);
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool);
 - (void);
 - (_Bool);
 - (unsigned int);
-- (void);
-- (unsigned char);
+- (void)PWep;
+- (unsigned char)e;
 - (void);
 - (id);
 - (id);
 - (double);
-- (double);
+- (double)e<{;
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (unsigned int);
@@ -44,21 +36,12 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long);
 - (struct CGVector);
 - (void){CGSize=dd}},R,N,V_rect;
 
 // Remaining properties
-@property unsigned char buttonMask; // @synthesize buttonMask=_buttonMask;
-@property long long clicks; // @synthesize clicks=_clicks;
 @property long long displayID; // @synthesize displayID=_displayID;
-@property double duration; // @synthesize duration=_duration;
-@property unsigned int eventPage; // @synthesize eventPage=_eventPage;
-@property(readonly) _Bool isButtonHoldEvent;
-@property struct CGVector offset; // @synthesize offset=_offset;
-@property double rotation; // @synthesize rotation=_rotation;
-@property unsigned long long type; // @synthesize type=_type;
-@property unsigned int usage; // @synthesize usage=_usage;
 
 @end
 

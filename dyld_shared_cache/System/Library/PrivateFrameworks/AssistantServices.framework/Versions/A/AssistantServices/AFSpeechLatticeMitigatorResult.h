@@ -9,14 +9,10 @@
 @interface AFSpeechLatticeMitigatorResult
 {
     float _score;
-    float _threshold;
-    float _calibrationScale;
-    float _calibrationOffset;
-    NSString *_version;
 }
 
 + (_Bool);
-- (id);
+- (id)롖;
 - (id);
 - (float);
 - (float);
@@ -30,10 +26,6 @@
 - (float)r"8Q16^B24;
 
 // Remaining properties
-@property(readonly, nonatomic) float calibrationOffset; // @synthesize calibrationOffset=_calibrationOffset;
-@property(readonly, nonatomic) float calibrationScale; // @synthesize calibrationScale=_calibrationScale;
-@property(readonly, nonatomic) float score; // @synthesize score=_score;
-@property(readonly, nonatomic) float threshold; // @synthesize threshold=_threshold;
 @property(readonly, copy, nonatomic) NSString *version; // @synthesize version=_version;
 
 @end

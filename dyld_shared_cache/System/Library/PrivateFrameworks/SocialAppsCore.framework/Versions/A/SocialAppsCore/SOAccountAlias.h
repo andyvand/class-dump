@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, SOAccountAliasController;
-
 @interface SOAccountAlias
 {
     _Bool _active;
-    _Bool _initialized;
-    int _verificationState;
-    NSString *_name;
-    long long _type;
-    NSDictionary *_failureInfo;
-    SOAccountAliasController *_controller;
 }
 
-- (long long);
+- (long long)R";
 - (id);
 - (id);
 - (void);
@@ -31,23 +23,17 @@
 - (long long);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)setCanGoBack: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void) ;
 
 // Remaining properties
-@property(nonatomic) _Bool active; // @synthesize active=_active;
-@property(nonatomic) __weak SOAccountAliasController *controller; // @synthesize controller=_controller;
-@property(copy, nonatomic) NSDictionary *failureInfo; // @synthesize failureInfo=_failureInfo;
 @property(nonatomic) _Bool initialized; // @synthesize initialized=_initialized;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) long long type; // @synthesize type=_type;
-@property(nonatomic) int verificationState; // @synthesize verificationState=_verificationState;
 
 @end
 

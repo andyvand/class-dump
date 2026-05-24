@@ -12,10 +12,10 @@
 }
 
 - (id);
+- (id);
+- (id)A;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)g failed with error:(id)arg1 %{public}@;
 - (void)Ø	Ð Ô	¨ð
 ;
 

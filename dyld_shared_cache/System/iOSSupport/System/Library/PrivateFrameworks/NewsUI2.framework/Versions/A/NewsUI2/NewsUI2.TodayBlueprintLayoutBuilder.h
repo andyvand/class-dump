@@ -7,10 +7,6 @@
 @interface NewsUI2.TodayBlueprintLayoutBuilder
 {
     id feedLayoutSolver;
-    id decorationProviderFactory;
-    id baseStyler;
-    id embeddedSupplementaryBuilder;
-    id tracker;
 }
 
 @end

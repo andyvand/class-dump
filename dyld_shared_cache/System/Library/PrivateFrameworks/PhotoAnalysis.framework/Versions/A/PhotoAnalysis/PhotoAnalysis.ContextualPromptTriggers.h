@@ -7,8 +7,6 @@
 @interface PhotoAnalysis.ContextualPromptTriggers
 {
     id logger;
-    id graphManager;
-    id photoLibrary;
 }
 
 @end

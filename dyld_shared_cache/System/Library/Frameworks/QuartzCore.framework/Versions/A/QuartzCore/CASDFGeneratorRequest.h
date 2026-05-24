@@ -7,43 +7,31 @@
 @interface CASDFGeneratorRequest
 {
     _Bool _includeGradient;
-    long long _outputBitDepth;
-    double _padding;
-    double _maximumDistance;
-    double _gradientSmoothing;
-    double _zeroValueDistance;
-    double _oneValueDistance;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 - (double);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)S(;
 - (void);
 - (long long);
-- (double);
-- (double);
+- (double)}S(;
+- (double);
 - (void);
-- (void);
+- (void);
 - (_Bool);
-- (id);
+- (id)zv;
 - (void);
-- (double);
+- (double)inputTransform;
 - (double);
 - (void)arg);
 
 // Remaining properties
-@property(nonatomic) double gradientSmoothing; // @synthesize gradientSmoothing=_gradientSmoothing;
-@property(nonatomic) _Bool includeGradient; // @synthesize includeGradient=_includeGradient;
-@property(nonatomic) double maximumDistance; // @synthesize maximumDistance=_maximumDistance;
-@property(nonatomic) double oneValueDistance; // @synthesize oneValueDistance=_oneValueDistance;
 @property(nonatomic) long long outputBitDepth; // @synthesize outputBitDepth=_outputBitDepth;
-@property(nonatomic) double padding; // @synthesize padding=_padding;
-@property(nonatomic) double zeroValueDistance; // @synthesize zeroValueDistance=_zeroValueDistance;
 
 @end
 

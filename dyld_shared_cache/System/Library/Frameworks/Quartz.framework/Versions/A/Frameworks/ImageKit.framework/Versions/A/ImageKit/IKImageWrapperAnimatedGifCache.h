@@ -9,15 +9,14 @@
 @interface IKImageWrapperAnimatedGifCache
 {
     NSMutableDictionary *_framesCache;
-    int _frameCount;
 }
 
 - (void);
 - (id);
 - (void);
 - (id);
-- (void);
-- (int)ictureTakerShowRecentPictureKey;
+- (void)t match this type.;
+- (int)IKPictureTakerShowRecentPictureKey;
 
 @end
 

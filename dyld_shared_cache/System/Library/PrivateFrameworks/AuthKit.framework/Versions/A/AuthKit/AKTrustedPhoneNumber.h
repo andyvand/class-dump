@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface AKTrustedPhoneNumber
 {
     NSNumber *_identifier;
-    NSString *_number;
-    NSString *_numberWithDialCode;
-    NSString *_obfuscatedNumber;
-    NSString *_pushMode;
 }
 
 - (void);
@@ -27,14 +23,10 @@
 - (void);
 - (id);
 - (id);
-- (void)rface;
+- (void)AKAuthorizationPresenterHostInterface;
 
 // Remaining properties
 @property(retain, nonatomic) NSNumber *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSString *number; // @synthesize number=_number;
-@property(retain, nonatomic) NSString *numberWithDialCode; // @synthesize numberWithDialCode=_numberWithDialCode;
-@property(retain, nonatomic) NSString *obfuscatedNumber; // @synthesize obfuscatedNumber=_obfuscatedNumber;
-@property(retain, nonatomic) NSString *pushMode; // @synthesize pushMode=_pushMode;
 
 @end
 

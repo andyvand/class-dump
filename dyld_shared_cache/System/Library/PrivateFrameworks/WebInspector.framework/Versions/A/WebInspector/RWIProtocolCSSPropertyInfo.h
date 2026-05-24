@@ -6,7 +6,7 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface RWIProtocolCSSPropertyInfo : RWIProtocolJSONObject
 {
@@ -17,19 +17,15 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)qa;
+- (void);
+- (id);
+- (id)_altDisplayString;
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *aliases;
-@property(nonatomic) _Bool inherited;
-@property(copy, nonatomic) NSArray *longhands;
 @property(copy, nonatomic) NSString *name;
-@property(copy, nonatomic) NSArray *values;
 
 @end
 

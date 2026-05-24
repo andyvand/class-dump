@@ -11,6 +11,5 @@
 
 // Remaining properties
 @property(nonatomic, readonly) CABasicAnimation *coreAnimation;
-@property(nonatomic) double delay;
 @end
 

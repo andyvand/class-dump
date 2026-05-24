@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, NSTimeZone;
+@class NSString;
 
 @interface SGPIRResult
 {
     NSString *_label;
-    NSString *_address;
-    NSNumber *_latitude;
-    NSNumber *_longitude;
-    NSTimeZone *_timezone;
 }
 
 - (id);
@@ -24,11 +20,7 @@
 - (id)ctDetailConversationTurn";
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *address; // @synthesize address=_address;
 @property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) NSNumber *latitude; // @synthesize latitude=_latitude;
-@property(readonly, nonatomic) NSNumber *longitude; // @synthesize longitude=_longitude;
-@property(readonly, nonatomic) NSTimeZone *timezone; // @synthesize timezone=_timezone;
 
 @end
 

@@ -7,6 +7,32 @@
 @protocol IMSystemMonitorListener
 
 @optional
+- (void)jfsBXW5gK4DTQ/Library/Caches/com.apple.xbs/TemporaryDirectory.YjUFRx/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkBroadcastChannelRegistry.cpp 106:Invalid message dispatched %{public}s /* Error: Ran out of types for this method. */;
+- (void)dRoots/4~CN9ougCMFlWK-bQ6x4VpErDymejfsBXW5gK4DTQ/Library/Caches/com.apple.xbs/TemporaryDirectory.YjUFRx/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkBroadcastChannelRegistry.cpp 106:Invalid message dispatched %{public}s /* Error: Ran out of types for this method. */;
+- (void){public}s;
+- (void)try.cpp 89:Invalid message dispatched %{public}s /* Error: Ran out of types for this method. */;
+- (void)5gK4DTQ/Library/Caches/com.apple.xbs/TemporaryDirectory.YjUFRx/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkBroadcastChannelRegistry.cpp 89:Invalid message dispatched %{public}s /* Error: Ran out of types for this method. */;
+- (void)CMFlWK-bQ6x4VpErDymejfsBXW5gK4DTQ/Library/Caches/com.apple.xbs/TemporaryDirectory.YjUFRx/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkBroadcastChannelRegistry.cpp 89:Invalid message dispatched %{public}s /* Error: Ran out of types for this method. */;
+- (void)AppleInternal/Library/BuildRoots/4~CN9ougCMFlWK-bQ6x4VpErDymejfsBXW5gK4DTQ/Library/Caches/com.apple.xbs/TemporaryDirectory.YjUFRx/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkBroadcastChannelRegistry.cpp 89:Invalid message dispatched %{public}s /* Error: Ran out of types for this method. */;
+- (void)p 88:Invalid message dispatched %{public}s /* Error: Ran out of types for this method. */;
+- (void)ss/NetworkBroadcastChannelRegistry.cpp 88:Invalid message dispatched %{public}s /* Error: Ran out of types for this method. */;
+- (void)ebKit_iosmac/Source/WebKit/NetworkProcess/NetworkBroadcastChannelRegistry.cpp 88:Invalid message dispatched %{public}s /* Error: Ran out of types for this method. */;
+- (void)bs/TemporaryDirectory.YjUFRx/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkBroadcastChannelRegistry.cpp 88:Invalid message dispatched %{public}s /* Error: Ran out of types for this method. */;
+- (void)rDymejfsBXW5gK4DTQ/Library/Caches/com.apple.xbs/TemporaryDirectory.YjUFRx/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkBroadcastChannelRegistry.cpp 88:Invalid message dispatched %{public}s /* Error: Ran out of types for this method. */;
+- (void)BuildRoots/4~CN9ougCMFlWK-bQ6x4VpErDymejfsBXW5gK4DTQ/Library/Caches/com.apple.xbs/TemporaryDirectory.YjUFRx/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkBroadcastChannelRegistry.cpp 88:Invalid message dispatched %{public}s /* Error: Ran out of types for this method. */;
+- (void)public}s;
+- (void)Registry.cpp 78:Invalid message dispatched %{public}s /* Error: Ran out of types for this method. */;
+- (void)/Source/WebKit/NetworkProcess/NetworkBroadcastChannelRegistry.cpp 78:Invalid message dispatched %{public}s /* Error: Ran out of types for this method. */;
+- (void).xbs/TemporaryDirectory.YjUFRx/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkBroadcastChannelRegistry.cpp 78:Invalid message dispatched %{public}s /* Error: Ran out of types for this method. */;
+- (void)pErDymejfsBXW5gK4DTQ/Library/Caches/com.apple.xbs/TemporaryDirectory.YjUFRx/Sources/WebKit_iosmac/Source/WebKit/NetworkProcess/NetworkBroadcastChannelRegistry.cpp 78:Invalid message dispatched %{public}s /* Error: Ran out of types for this method. */;
+- (void)statement to fetch index for the table, error message:%{private}s /* Error: Ran out of types for this method. */;
+- (void)leAndIndexQueries Unable to bind statement to fetch index for the table, error message:%{private}s /* Error: Ran out of types for this method. */;
+- (void)ic}s, error.code=%d);
+- (void)onse returned an error (error.domain=%{public}s, error.code=%d);
+- (void)rces/WebKit_iosmac/Source/WebKit/GPUProcess/media/RemoteAudioVideoRendererProxyManager.cpp 579:Invalid message dispatched %{public}s /* Error: Ran out of types for this method. */;
+- (void)qA;
+- (void);
+- (void)e;
 - (void);
 @end
 

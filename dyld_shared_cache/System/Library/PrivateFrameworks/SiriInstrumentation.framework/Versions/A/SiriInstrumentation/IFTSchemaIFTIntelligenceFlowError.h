@@ -6,20 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface IFTSchemaIFTIntelligenceFlowError : SISchemaInstrumentationMessage
 {
     NSString *_domain;
-    long long _code;
-    CDStruct_9ab06576 _has;
-    _Bool _hasDomain;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)or fileUUID:(_Bool)arg1 %{public}@, state:%{public}@ - dropping | active:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (_Bool);
@@ -39,11 +36,7 @@
 - (void)ß­$;
 
 // Remaining properties
-@property(nonatomic) long long code; // @synthesize code=_code;
 @property(copy, nonatomic) NSString *domain; // @synthesize domain=_domain;
-@property(nonatomic) _Bool hasCode;
-@property(nonatomic) _Bool hasDomain; // @synthesize hasDomain=_hasDomain;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

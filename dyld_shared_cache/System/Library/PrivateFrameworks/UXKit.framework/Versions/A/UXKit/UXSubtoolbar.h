@@ -16,7 +16,7 @@
 + (double);
 - (id);
 - (void);
-- (id);
+- (id)IOSurfaceRef;
 - (void);
 
 // Remaining properties

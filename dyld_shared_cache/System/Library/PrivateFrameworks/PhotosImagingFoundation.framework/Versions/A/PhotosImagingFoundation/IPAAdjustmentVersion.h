@@ -4,38 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IPAAdjustmentVersion
 {
     unsigned long long _majorVersion;
-    unsigned long long _minorVersion;
-    NSString *_platform;
 }
 
 + (id);
++ (id)SupportedPayload;
++ (id)RandomAccessController;
 + (id);
-+ (id);
-+ (id);
-+ (void);
++ (void)"#L";
 - (id);
-- (_Bool);
+- (_Bool)"%@"; productVersion = "%@" ready = %s>;
 - (id);
 - (void);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
 - (long long);
 - (id);
-- (void);
+- (void)ransform:pixFormat:metadata: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long majorVersion; // @synthesize majorVersion=_majorVersion;
-@property(readonly, nonatomic) unsigned long long minorVersion; // @synthesize minorVersion=_minorVersion;
-@property(readonly, nonatomic) NSString *platform; // @synthesize platform=_platform;
 
 @end
 

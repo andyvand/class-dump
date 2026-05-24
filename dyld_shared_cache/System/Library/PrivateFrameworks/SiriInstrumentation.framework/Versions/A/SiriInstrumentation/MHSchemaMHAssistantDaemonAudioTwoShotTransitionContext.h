@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MHSchemaMHAssistantDaemonAudioTwoShotTransitionEnded, MHSchemaMHAssistantDaemonAudioTwoShotTransitionStarted, NSData;
+@class MHSchemaMHAssistantDaemonAudioTwoShotTransitionStarted;
 
 @interface MHSchemaMHAssistantDaemonAudioTwoShotTransitionContext : SISchemaInstrumentationMessage
 {
     MHSchemaMHAssistantDaemonAudioTwoShotTransitionStarted *_startedOrChanged;
-    MHSchemaMHAssistantDaemonAudioTwoShotTransitionEnded *_ended;
-    _Bool _hasStartedOrChanged;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -27,27 +23,22 @@
 - (_Bool);
 - (void);
 - (void);
+- (id)`;
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)AppleInternal/Library/BuildRoots/4~CNqEugB7-7yoTeHDwKLZ0PRIsI79y9XP33qXeIo/Library/Caches/com.apple.xbs/TemporaryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/asn1/tasn_prn.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)sReported:(id)arg1;
+- (id)setIOSDevicePropertiesReported:(id)arg1;
 - (id)text;
 - (void)À)ãÿ;
 
 // Remaining properties
-@property(retain, nonatomic) MHSchemaMHAssistantDaemonAudioTwoShotTransitionEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStartedOrChanged; // @synthesize hasStartedOrChanged=_hasStartedOrChanged;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) MHSchemaMHAssistantDaemonAudioTwoShotTransitionStarted *startedOrChanged; // @synthesize startedOrChanged=_startedOrChanged;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

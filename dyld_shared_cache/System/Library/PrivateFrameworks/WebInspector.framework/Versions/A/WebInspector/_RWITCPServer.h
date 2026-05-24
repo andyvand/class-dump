@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source, _RWITCPServerDelegate;
+@protocol _RWITCPServerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _RWITCPServer
 {
     int _listenSocket;
-    NSObject<OS_dispatch_queue> *_serverQueue;
-    NSObject<OS_dispatch_source> *_serverSource;
-    NSMutableArray *_connections;
-    id <_RWITCPServerDelegate> _delegate;
 }
 
 - (id);

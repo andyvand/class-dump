@@ -7,8 +7,6 @@
 @interface (extension in AVFoundation):__C.AVAssetWriterInput.CaptionReceiver
 {
     id writer;
-    id input;
-    id captionAdaptor;
 }
 
 @end

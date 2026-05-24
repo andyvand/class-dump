@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface SFShareSheetConnectionContext
 {
     _Bool _shouldSuggestFamilyMembers;
-    _Bool _isSharePlayAvailable;
-    _Bool _supportsCollaboration;
-    _Bool _shouldNotSuggestPeople;
-    NSString *_sessionIdentifier;
-    NSArray *_uniformTypeIdentifiers;
-    NSArray *_assetIdentifiers;
-    NSArray *_urls;
-    NSString *_hostAppBundleIdentifier;
-    NSDictionary *_sandboxExtensionsByfileURLPath;
 }
 
-+ (_Bool);
++ (_Bool)A;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -43,16 +34,7 @@
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *assetIdentifiers; // @synthesize assetIdentifiers=_assetIdentifiers;
-@property(copy, nonatomic) NSString *hostAppBundleIdentifier; // @synthesize hostAppBundleIdentifier=_hostAppBundleIdentifier;
-@property(readonly, nonatomic) _Bool isSharePlayAvailable; // @synthesize isSharePlayAvailable=_isSharePlayAvailable;
-@property(copy, nonatomic) NSDictionary *sandboxExtensionsByfileURLPath; // @synthesize sandboxExtensionsByfileURLPath=_sandboxExtensionsByfileURLPath;
 @property(readonly, copy, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(nonatomic) _Bool shouldNotSuggestPeople; // @synthesize shouldNotSuggestPeople=_shouldNotSuggestPeople;
-@property(readonly, nonatomic) _Bool shouldSuggestFamilyMembers; // @synthesize shouldSuggestFamilyMembers=_shouldSuggestFamilyMembers;
-@property(readonly, nonatomic) _Bool supportsCollaboration; // @synthesize supportsCollaboration=_supportsCollaboration;
-@property(readonly, copy, nonatomic) NSArray *uniformTypeIdentifiers; // @synthesize uniformTypeIdentifiers=_uniformTypeIdentifiers;
-@property(readonly, copy, nonatomic) NSArray *urls; // @synthesize urls=_urls;
 
 @end
 

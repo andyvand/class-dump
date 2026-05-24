@@ -15,7 +15,7 @@
 - (void);
 - (double);
 - (struct CGRect);
-- (void);
+- (void)er %{public}@ created requests %{public}@;
 - (struct CGSize);
 
 // Remaining properties

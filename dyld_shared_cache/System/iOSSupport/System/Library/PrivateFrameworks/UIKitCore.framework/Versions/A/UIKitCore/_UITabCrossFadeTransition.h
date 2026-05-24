@@ -7,21 +7,18 @@
 @interface _UITabCrossFadeTransition
 {
     id wasPreempted;
-    id fromView;
-    id firstResponderToRemember;
-    id backgroundColor;
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (double);
 - (long long);
 - (id);
 - (double);
 - (id);
-- (id)hImage:(id)arg1 shadowImage: /* Error: Ran out of types for this method. */;
-- (void)eAlignment;
+- (id)initWithImage:(id)arg1 shadowImage: /* Error: Ran out of types for this method. */;
+- (void)_subviewForBaselineAlignment;
 - (void)UIInterfaceActionGroup",R,C,N,V_actionGroup;
 - (_Bool);
 - (void);
@@ -29,8 +26,6 @@
 
 // Remaining properties
 @property(nonatomic, readonly) long long _navigationBarTransitionVariant;
-@property(nonatomic, readonly) _Bool _shouldCrossFadeBottomBars;
-@property(nonatomic, readonly) _Bool _shouldCrossFadeNavigationBarVisibility;
 
 @end
 

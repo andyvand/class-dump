@@ -4,25 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOComposedRoute, NSArray, NSString;
-@protocol GEOTransitNearbySchedule;
+@class NSArray, NSString;
 
 @protocol GEOMapItemTransitInfo
+- (_Bool)@;
+- (NSArray *)dedupeAllCustomPropertiesAndCorrespondingCustomPropertyValues;
+- (NSArray *)_affectedSources;
+- (NSString *)CalUserUIDKey;
 - (NSArray *);
 
 // Remaining properties
-@property(readonly, nonatomic) GEOComposedRoute *composedRoute;
-@property(readonly, nonatomic) NSArray *connections;
-@property(readonly, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) _Bool hasTransitIncidentComponent;
-@property(readonly, nonatomic) NSArray *incidents;
-@property(readonly, nonatomic) _Bool isTransitIncidentsTTLExpired;
 @property(readonly, nonatomic) NSArray *labelItems;
-@property(readonly, nonatomic) NSArray *lines;
-@property(readonly, nonatomic) unsigned long long linesCount;
-@property(readonly, nonatomic) id <GEOTransitNearbySchedule> nearbySchedule;
-@property(readonly, nonatomic) NSArray *systems;
-@property(readonly, nonatomic) unsigned long long systemsCount;
-@property(readonly, nonatomic) NSArray *transitTripStops;
 @end
 

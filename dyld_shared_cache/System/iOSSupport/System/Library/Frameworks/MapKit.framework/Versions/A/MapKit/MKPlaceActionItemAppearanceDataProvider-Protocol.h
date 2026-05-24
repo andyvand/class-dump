@@ -5,5 +5,7 @@
 //
 
 @protocol MKPlaceActionItemAppearanceDataProvider
+- (_Bool);
+- (_Bool);
 @end
 

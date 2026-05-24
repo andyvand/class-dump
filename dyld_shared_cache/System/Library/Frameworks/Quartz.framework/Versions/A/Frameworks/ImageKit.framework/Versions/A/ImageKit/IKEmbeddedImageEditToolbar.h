@@ -6,24 +6,22 @@
 
 #import <ImageKit/IKImageEditFrameToolbar.h>
 
-@class NSButton, NSView;
+@class NSView;
 
 @interface IKEmbeddedImageEditToolbar : IKImageEditFrameToolbar
 {
     NSView *_cropButtonContainer;
-    NSButton *_cropButton;
-    _Bool _cropMode;
 }
 
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void);
+- (void)on a live photo result;
 - (void);
 - (id);
 - (void)ot complete scan - no download directory specified;

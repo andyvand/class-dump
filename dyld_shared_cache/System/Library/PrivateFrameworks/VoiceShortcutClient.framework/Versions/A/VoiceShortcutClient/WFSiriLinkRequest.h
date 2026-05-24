@@ -6,21 +6,18 @@
 
 #import <VoiceShortcutClient/WFSiriActionRequest.h>
 
-@class LNAction, NSString;
+@class LNAction;
 
 @interface WFSiriLinkRequest : WFSiriActionRequest
 {
     _Bool _showWhenRun;
-    LNAction *_action;
-    NSString *_bundleIdentifier;
-    NSString *_nameOverride;
 }
 
-+ (_Bool);
++ (_Bool)__objc_intobj;
 - (_Bool);
+- (id)z;
 - (id);
-- (id);
-- (id);
+- (id)h:(id)arg1 y;
 - (id);
 - (void);
 - (id);
@@ -29,9 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) LNAction *action; // @synthesize action=_action;
-@property(readonly, copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, copy, nonatomic) NSString *nameOverride; // @synthesize nameOverride=_nameOverride;
-@property(readonly, nonatomic) _Bool showWhenRun; // @synthesize showWhenRun=_showWhenRun;
 
 @end
 

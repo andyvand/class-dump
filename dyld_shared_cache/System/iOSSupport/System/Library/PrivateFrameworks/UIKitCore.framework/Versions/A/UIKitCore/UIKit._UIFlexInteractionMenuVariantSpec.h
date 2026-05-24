@@ -10,7 +10,7 @@
 {
 }
 
-- (void)itialDestinationEnvironment: /* Error: Ran out of types for this method. */;
+- (void)_setInitialDestinationEnvironment: /* Error: Ran out of types for this method. */;
 - (id);
 
 @end

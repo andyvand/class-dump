@@ -8,9 +8,9 @@
 @protocol PLChangesForServiceHandling;
 
 @protocol PHChangeRequestCore
+- (NSString *)I;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *changeTypeForSummary;
 @property(readonly, nonatomic) id <PLChangesForServiceHandling> changesForServiceHandler;
 @end
 

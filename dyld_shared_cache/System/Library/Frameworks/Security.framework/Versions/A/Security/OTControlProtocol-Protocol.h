@@ -7,8 +7,24 @@
 @class OTControlArguments;
 
 @protocol OTControlProtocol
-- (void)n:(OTControlArguments *)arg1 reply:(void (^)(NSError *))arg2;
 - (void);
+- (void);
+- (void);
+- (void).;
+- (void)ion URL %{public}@ exists but does not point to a valid file, so exiting with an error %{public}@;
+- (void)ed at /;
+- (void)%d,%s) returned %d;
+- (void)nation machine;
+- (void)kkkkkkkkkkkk;
+- (void)`;
+- (void)_	;
+- (void)π
+;
+- (void)normalizing the relation string;
+- (void)[;
+- (void)_;
+- (void)(;
+- (void)performedSuccessfulCDPStateMachineRun:(OTControlArguments *)arg1 reply:(void (^)(NSError *))arg2;
 - (void)èÈø¨ÌèÈ¤è,¨°è¤T;
 @end
 

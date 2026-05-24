@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface WFImageCache
 {
     struct os_unfair_lock_s _lock;
-    NSMutableDictionary *_backingStore;
 }
 
 - (struct CGImage *);
@@ -18,12 +17,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (struct os_unfair_lock_s);
+- (struct os_unfair_lock_s);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSMutableDictionary *backingStore; // @synthesize backingStore=_backingStore;
-@property(readonly, nonatomic) struct os_unfair_lock_s lock; // @synthesize lock=_lock;
 
 @end
 

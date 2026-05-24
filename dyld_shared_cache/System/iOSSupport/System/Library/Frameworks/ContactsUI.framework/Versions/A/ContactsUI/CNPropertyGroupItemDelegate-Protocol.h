@@ -5,5 +5,8 @@
 //
 
 @protocol CNPropertyGroupItemDelegate
+
+@optional
+- (void);
 @end
 

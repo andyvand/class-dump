@@ -11,13 +11,12 @@
 @interface IMRichActionFooterChatItem : IMTranscriptChatItem
 {
     IMHandle *_handle;
-    NSString *_extensionName;
 }
 
-- (id);
+- (id)pshotTimer checkinWithTimeout:(id)arg1 forTask:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void)ÜØ¢;
 
 // Remaining properties

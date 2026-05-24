@@ -13,7 +13,7 @@
     NSString *_content;
 }
 
-+ (id);
++ (id)(;
 + (_Bool)X"!0Bùqî%ð1Â0@ù
 × ;
 - (id);
@@ -22,10 +22,10 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)txBytesVo;
 - (void)"PKCreditAccountIncomeDetails";
 - (id);
-- (void)ationDate;
+- (void)newExpirationDate;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *content; // @synthesize content=_content;

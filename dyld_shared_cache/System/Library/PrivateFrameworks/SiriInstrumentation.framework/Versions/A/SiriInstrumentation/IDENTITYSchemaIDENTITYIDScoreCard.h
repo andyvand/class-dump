@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface IDENTITYSchemaIDENTITYIDScoreCard : SISchemaInstrumentationMessage
 {
     NSArray *_identityScores;
-    int _classification;
-    CDStruct_177397be _has;
 }
 
 - (void);
@@ -31,8 +29,8 @@
 - (int);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)a;
+- (id)friendshipRequestToHandles:fromHandle:withType:groupId:withEndDate: /* Error: Ran out of types for this method. */;
 - (id)0@ù
 × ;
 - (id)ted",&,N,V_bluetoothCarDigestReported;
@@ -41,10 +39,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) int classification; // @synthesize classification=_classification;
-@property(nonatomic) _Bool hasClassification;
 @property(copy, nonatomic) NSArray *identityScores; // @synthesize identityScores=_identityScores;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

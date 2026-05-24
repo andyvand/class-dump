@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSSNewsAnalyticsEnvelopeDescriptor;
-@protocol NSSNewsAnalyticsSessionManager;
+@class NSSNewsAnalyticsEnvelopeDescriptor;
 
 @interface NSSNewsAnalyticsPBEventAccumulator
 {
     NSSNewsAnalyticsEnvelopeDescriptor *_envelopeDescriptor;
-    id <NSSNewsAnalyticsSessionManager> _sessionManager;
-    NSMutableArray *_events;
 }
 
 - (id);
@@ -26,8 +23,6 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSSNewsAnalyticsEnvelopeDescriptor *envelopeDescriptor; // @synthesize envelopeDescriptor=_envelopeDescriptor;
-@property(readonly, nonatomic) NSMutableArray *events; // @synthesize events=_events;
-@property(readonly, nonatomic) __weak id <NSSNewsAnalyticsSessionManager> sessionManager; // @synthesize sessionManager=_sessionManager;
 
 @end
 

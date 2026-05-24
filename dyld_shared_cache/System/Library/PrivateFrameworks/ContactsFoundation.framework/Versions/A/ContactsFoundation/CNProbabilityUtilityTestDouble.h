@@ -9,11 +9,11 @@
     _Bool _expectedResult;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 
 // Remaining properties
 @property(nonatomic) _Bool expectedResult; // @synthesize expectedResult=_expectedResult;

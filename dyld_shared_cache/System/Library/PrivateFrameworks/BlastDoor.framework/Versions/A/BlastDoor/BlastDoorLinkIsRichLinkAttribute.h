@@ -14,12 +14,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (struct _NSRange);
+- (struct _NSRange)siriSessionAvailabilityStateDidChange;
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) _Bool isRichLink;
-@property(nonatomic, readonly) struct _NSRange range;
 
 @end
 

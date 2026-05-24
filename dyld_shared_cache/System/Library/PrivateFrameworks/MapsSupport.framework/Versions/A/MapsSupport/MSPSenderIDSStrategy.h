@@ -12,40 +12,36 @@ __attribute__((visibility("hidden")))
 @interface MSPSenderIDSStrategy : MSPSenderStrategy
 {
     MSPSharedTripGroupSession *_groupSession;
-    NSMutableDictionary *_lastETAUpdateDates;
-    NSMutableDictionary *_participantsByCapabilities;
-    NSMutableDictionary *_capabilitiesByParticipant;
 }
 
 + (double);
 - (_Bool);
+- (void);
+- (void);
+- (void);
+- (id)l;
+- (id);
+- (id)T;
+- (void);
+- (void);
+- (id)8
+;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableDictionary *capabilitiesByParticipant; // @synthesize capabilitiesByParticipant=_capabilitiesByParticipant;
 @property(retain, nonatomic) NSMutableDictionary *lastETAUpdateDates; // @synthesize lastETAUpdateDates=_lastETAUpdateDates;
-@property(retain, nonatomic) NSMutableDictionary *participantsByCapabilities; // @synthesize participantsByCapabilities=_participantsByCapabilities;
 
 @end
 

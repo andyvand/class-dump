@@ -4,33 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBImage, _SFPBRichText;
+@class NSArray;
 
 @interface _SFPBRowCardSection
 {
     _Bool _canBeHidden;
-    _Bool _hasTopPadding;
-    _Bool _hasBottomPadding;
-    _Bool _imageIsRightAligned;
-    _Bool _keyNoWrap;
-    _Bool _valueNoWrap;
-    _Bool _cardPaddingBottom;
-    int _separatorStyle;
-    int _keyWeight;
-    int _valueWeight;
-    NSArray *_punchoutOptions;
-    NSString *_punchoutPickerTitle;
-    NSString *_punchoutPickerDismissText;
-    NSString *_type;
-    _SFPBColor *_backgroundColor;
-    _SFPBImage *_image;
-    _SFPBRichText *_leadingText;
-    _SFPBRichText *_trailingText;
-    _SFPBImage *_attributionImage;
-    NSString *_key;
-    NSString *_value;
-    _SFPBRichText *_leadingSubtitle;
-    _SFPBRichText *_trailingSubtitle;
 }
 
 - (int);
@@ -43,31 +21,31 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (int);
+- (int);
+- (_Bool);
+- (void);
+- (_Bool)";
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
+- (id)R;
 - (void);
+- (void);
+- (void);
+- (void)Y;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool)6;
+- (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)overyModeEligible,V_isDiscoveryModeEligible;
+- (_Bool)channel;
 - (void);
 - (id);
 - (id);
@@ -82,12 +60,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)| ;
+- (id)sceneprintData;
+- (id)d live photo resource:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)P;
+- (id)B;
 - (id);
 - (id);
 - (void);
@@ -95,37 +73,7 @@
 - (int)ìê;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBImage *attributionImage; // @synthesize attributionImage=_attributionImage;
-@property(retain, nonatomic) _SFPBColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(nonatomic) _Bool canBeHidden; // @synthesize canBeHidden=_canBeHidden;
-@property(nonatomic) _Bool cardPaddingBottom; // @synthesize cardPaddingBottom=_cardPaddingBottom;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasBottomPadding; // @synthesize hasBottomPadding=_hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding; // @synthesize hasTopPadding=_hasTopPadding;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _SFPBImage *image; // @synthesize image=_image;
-@property(nonatomic) _Bool imageIsRightAligned; // @synthesize imageIsRightAligned=_imageIsRightAligned;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) _Bool keyNoWrap; // @synthesize keyNoWrap=_keyNoWrap;
-@property(nonatomic) int keyWeight; // @synthesize keyWeight=_keyWeight;
-@property(retain, nonatomic) _SFPBRichText *leadingSubtitle; // @synthesize leadingSubtitle=_leadingSubtitle;
-@property(retain, nonatomic) _SFPBRichText *leadingText; // @synthesize leadingText=_leadingText;
 @property(copy, nonatomic) NSArray *punchoutOptions; // @synthesize punchoutOptions=_punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText; // @synthesize punchoutPickerDismissText=_punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle; // @synthesize punchoutPickerTitle=_punchoutPickerTitle;
-@property(nonatomic) int separatorStyle; // @synthesize separatorStyle=_separatorStyle;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _SFPBRichText *trailingSubtitle; // @synthesize trailingSubtitle=_trailingSubtitle;
-@property(retain, nonatomic) _SFPBRichText *trailingText; // @synthesize trailingText=_trailingText;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
-@property(copy, nonatomic) NSString *value; // @synthesize value=_value;
-@property(nonatomic) _Bool valueNoWrap; // @synthesize valueNoWrap=_valueNoWrap;
-@property(nonatomic) int valueWeight; // @synthesize valueWeight=_valueWeight;
 
 @end
 

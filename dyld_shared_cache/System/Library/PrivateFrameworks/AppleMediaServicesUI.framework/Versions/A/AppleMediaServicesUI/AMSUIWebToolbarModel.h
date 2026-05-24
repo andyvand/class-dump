@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSUIWebButtonModel, NSString;
+@class AMSUIWebButtonModel;
 
 __attribute__((visibility("hidden")))
 @interface AMSUIWebToolbarModel
 {
     AMSUIWebButtonModel *_leftButton;
-    AMSUIWebButtonModel *_rightButton;
 }
 
-- (id);
+- (id)atus for locked auto asset:(id)arg1 %@ completed with error:(id)arg2 %@;
 - (id);
 - (void);
 - (id);
 - (id);
 - (void)"NSError"16;
-- (void)rror;
+- (void)_activeError;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) AMSUIWebButtonModel *leftButton; // @synthesize leftButton=_leftButton;
-@property(retain) AMSUIWebButtonModel *rightButton; // @synthesize rightButton=_rightButton;
-@property(readonly) Class superclass;
 
 @end
 

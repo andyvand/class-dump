@@ -6,31 +6,23 @@
 
 #import <Silex/SXComponentBehaviorHandler.h>
 
-@class UIAttachmentBehavior, UIDynamicAnimator;
-
 @interface SXSpringyComponentBehaviorHandler : SXComponentBehaviorHandler
 {
     double _lastYOffset;
-    UIAttachmentBehavior *_dynamicBehavior;
-    UIDynamicAnimator *_dynamicAnimator;
-    double _frequency;
-    double _damping;
-    double _delta;
-    struct CGPoint _originalCenter;
 }
 
 - (void);
 - (void);
 - (void);
-- (double);
+- (double);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (struct CGPoint);
+- (struct CGPoint)Q;
 - (void);
-- (void);
+- (void)s;
 - (id);
 - (void);
 - (double)d<;
@@ -38,13 +30,7 @@
 - (double);
 
 // Remaining properties
-@property(readonly, nonatomic) double damping; // @synthesize damping=_damping;
-@property(readonly, nonatomic) double delta; // @synthesize delta=_delta;
-@property(retain, nonatomic) UIDynamicAnimator *dynamicAnimator; // @synthesize dynamicAnimator=_dynamicAnimator;
-@property(retain, nonatomic) UIAttachmentBehavior *dynamicBehavior; // @synthesize dynamicBehavior=_dynamicBehavior;
-@property(readonly, nonatomic) double frequency; // @synthesize frequency=_frequency;
 @property(nonatomic) double lastYOffset; // @synthesize lastYOffset=_lastYOffset;
-@property(nonatomic) struct CGPoint originalCenter; // @synthesize originalCenter=_originalCenter;
 
 @end
 

@@ -4,56 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSView;
+@class NSView;
 
 @interface NSDockTile
 {
     id _owner;
-    void *_dockContextRef;
-    NSView *_contentView;
-    NSView *_frameView;
-    NSView *_backstopView;
-    NSString *_badgeLabel;
-    struct {
-        unsigned int showsAppBadge:1;
-        unsigned int reserved:31;
-    } _dFlags;
-    struct CGSize _dockTileSize;
-    id _miniViewController;
-    _Bool _usesIconServices;
 }
 
+- (_Bool);
 - (_Bool);
-- (_Bool);
+- (void)ULL Configuration check response;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)oxyFailClosedForUnreachableHosts"C"fProhibitPrivacyProxy"C"fAllowPrivateAccessTokensForThirdParty"C"fUseEnhancedPrivacyMode"C"fBlockTrackers"C"fFailInsecureLoadWithHTTPSDNSRecord"C"fIsWebSearchContent"C"fAllowOnlyPartitionedCookies"C"fUnsafeAllowedInEarlyData"C"fRequiresDNSSECValidation"C"fAllowsPersistentDNS"C"fAttribution"Q"fPayloadTransmissionTimeout"d"fATSOverrides"^{__CFDictionary}"fHSTSPolicy"{unique_ptr<_CFHSTSPolicy, Deleter_CFRelease>=""{?="__ptr_"^{_CFHSTSPolicy}}}"fAllowsExpensiveNetworkAccess"C"fAllowsConstrainedNetworkAccess"C"fAllowsUltraConstrainedNetworkAccess"C"_explicitStorageSession"^{__CFURLStorageSession}};
+- (void)URLSession:(id)arg1 task:_schemeUpgraded:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)ception found for Media client;
 - (void);
 - (void);
+- (id);
+- (void);
+- (void)iteDBwithCachedResponse-ERROR:(long long)arg1 bind of storage policy for item:%@ /* Error: Ran out of types for this method. */;
+- (void)R:(_Bool)arg1 bind of hash for item:%@ /* Error: Ran out of types for this method. */;
+- (void)m:(long long)arg1 %@;
+- (void);;(;&&
+&&&&)&8&**
+****)*8*,,
+,,,,),8,;;
+;;;;);8;X	XX(XZ	ZZ(Z;
+- (_Bool)ZZL;
+- (void)bd	dd(df	ff(fg	gg(gh	hh(hdd
+dddd)d8dff
+ffff)f8fgg
+gggg)g8ghh
+hhhh)h8hllmmnnpprruu;
 - (void);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)@;
 - (struct CGSize);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)@;
 - (void);
 - (id);
+- (void);
+- (void);
+- (id)pple.suggestions.settingsChanged;
 - (struct CGSize);
 - (id)servesSelection"b1"_selectsInsertedObjects"b1"_alwaysUsesMultipleValuesMarker"b1"_refreshesAllModelObjects"b1"_filterRestrictsInsertion"b1"_overridesArrangeObjects"b1"_overridesDidChangeArrangementCriteria"b1"_explicitlyCannotInsert"b1"_generatedEmptyArray"b1"_isObservingKeyPathsThroughArrangedObjects"b1"_arrangedObjectsIsMutable"b1"_clearsFilterPredicateOnInsertion"b1"_skipSortingAfterFetch"b1"_automaticallyRearrangesObjects"b1"_reservedArrayController"b17};
 - (void)forcesActiveWindowState;
@@ -62,13 +58,7 @@
 - (id)¾D,¸G;
 
 // Remaining properties
-@property(copy) NSString *badgeLabel;
-@property(retain) NSView *contentView;
 @property(retain) NSView *miniView; // @dynamic miniView;
-@property(readonly) __weak id owner;
-@property _Bool showsApplicationBadge;
-@property(readonly) struct CGSize size;
-@property _Bool usesIconServices; // @synthesize usesIconServices=_usesIconServices;
 
 @end
 

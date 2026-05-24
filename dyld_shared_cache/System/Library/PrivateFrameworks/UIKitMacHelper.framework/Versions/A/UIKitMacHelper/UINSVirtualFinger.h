@@ -8,14 +8,6 @@ __attribute__((visibility("hidden")))
 @interface UINSVirtualFinger
 {
     long long _index;
-    _Bool _touching;
-    _Bool _cancelled;
-    _Bool _changed;
-    _Bool _needsScan;
-    _Bool _liftTouchAfterAnimation;
-    unsigned long long _lastTimestamp;
-    struct CGPoint _loc;
-    CDUnknownBlockType _animationBlock;
 }
 
 + (id);
@@ -38,12 +30,7 @@ __attribute__((visibility("hidden")))
 - (void)e;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType animationBlock; // @synthesize animationBlock=_animationBlock;
-@property _Bool cancelled;
-@property(readonly) _Bool changed; // @synthesize changed=_changed;
 @property(readonly) long long index; // @synthesize index=_index;
-@property struct CGPoint location;
-@property _Bool touching;
 
 @end
 

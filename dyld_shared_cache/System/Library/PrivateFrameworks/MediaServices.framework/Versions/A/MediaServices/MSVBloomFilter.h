@@ -7,11 +7,6 @@
 @interface MSVBloomFilter
 {
     struct __CFBitVector *_vector;
-    long long _vectorCapacity;
-    unsigned long long _murmurSeed;
-    long long _hashCount;
-    float _falsePositiveTolerance;
-    long long _capacity;
 }
 
 + (_Bool);
@@ -19,23 +14,20 @@
 - (float);
 - (id);
 - (id);
-- (id);
+- (id)ngString;
 - (unsigned long long);
 - (id);
 - (id);
 - (long long);
-- (_Bool);
-- (void);
-- (long long);
+- (_Bool)yContentView;
+- (void)avatarRecordData;
+- (long long)te contact intent;
 - (float);
 - (unsigned long long);
-- (void);
+- (void)inputString;
 
 // Remaining properties
 @property(readonly, nonatomic) long long capacity; // @synthesize capacity=_capacity;
-@property(readonly, nonatomic) long long estimatedCount;
-@property(readonly, nonatomic) float falsePositiveProbability;
-@property(readonly, nonatomic) float falsePositiveTolerance; // @synthesize falsePositiveTolerance=_falsePositiveTolerance;
 
 @end
 

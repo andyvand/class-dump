@@ -11,19 +11,15 @@
 @interface PKPaymentTapToProvisionConfigurationResponse : PKPaymentWebServiceResponse
 {
     NSData *_nonce;
-    long long _countryCode;
-    long long _currencyCode;
 }
 
 - (id);
 - (long long)"NSArray">32;
-- (long long)supportedNetworks;
-- (void)ionKey;
-- (id)Domain;
+- (long long)unsupportedNetworks;
+- (void)PKDisableTransactionTableTruncationKey;
+- (id)PKPeerPaymentWebServiceErrorDomain;
 
 // Remaining properties
-@property(readonly, nonatomic) long long countryCode; // @synthesize countryCode=_countryCode;
-@property(readonly, nonatomic) long long currencyCode; // @synthesize currencyCode=_currencyCode;
 @property(readonly, nonatomic) NSData *nonce; // @synthesize nonce=_nonce;
 
 @end

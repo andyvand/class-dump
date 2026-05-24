@@ -7,13 +7,13 @@
 @class UITextInputArrowKeyHistory;
 
 @protocol _UITextSelectionDirectionNavigation_Internal
-- (UITextInputArrowKeyHistory *)IEmojiAndStickerShouldCreateNotification;
+- (UITextInputArrowKeyHistory *)UIEmojiAndStickerShouldCreateNotification;
 - (UITextInputArrowKeyHistory *);
 - (UITextInputArrowKeyHistory *)»þÿ;
 - (UITextInputArrowKeyHistory *)System/Library/PrivateFrameworks/SpringBoardServices.framework/SpringBoardServices;
 - (UITextInputArrowKeyHistory *);
 - (UITextInputArrowKeyHistory *)0;
-- (UITextInputArrowKeyHistory *)lue;
+- (UITextInputArrowKeyHistory *)_BoxedNSSecureCodingValue;
 - (UITextInputArrowKeyHistory *);
 @end
 

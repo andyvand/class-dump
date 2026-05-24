@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTAvatarAttributeEditorSectionOptions, NSArray, NSString;
-@protocol AVTAvatarAttributeEditorSectionSupplementalPicker;
+@class AVTAvatarAttributeEditorSectionOptions, NSString;
 
 @protocol AVTAvatarAttributeEditorSection
+- (struct UIEdgeInsets);
+- (NSString *)%@;
+- (AVTAvatarAttributeEditorSectionOptions *)infoDictionary;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *identifier;
-@property(nonatomic) unsigned long long intendedDestination;
 @property(copy, nonatomic) NSString *localizedName;
-@property(readonly, nonatomic) AVTAvatarAttributeEditorSectionOptions *options;
-@property(readonly, copy, nonatomic) NSArray *sectionItems;
-@property(readonly, nonatomic) struct UIEdgeInsets separatorInsets;
-@property(retain, nonatomic) id <AVTAvatarAttributeEditorSectionSupplementalPicker> supplementalPicker;
 @end
 

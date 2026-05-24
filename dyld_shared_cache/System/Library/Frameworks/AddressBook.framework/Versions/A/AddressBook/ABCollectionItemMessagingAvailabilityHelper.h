@@ -4,25 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABFaceTimeCommunicationsBridge, NSString;
-@protocol ABCollectionItemMessagingAvailabilityHelperDelegate;
+@class ABFaceTimeCommunicationsBridge;
 
 @interface ABCollectionItemMessagingAvailabilityHelper
 {
     _Bool _availableForMessaging;
-    ABFaceTimeCommunicationsBridge *_bridge;
-    NSString *_endpoint;
-    id <ABCollectionItemMessagingAvailabilityHelperDelegate> _delegate;
 }
 
+- (void)R;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)CHSControlHost;
 - (id);
 - (void);
 - (void);
@@ -30,17 +26,7 @@
 × ;
 
 // Remaining properties
-@property(nonatomic, getter=isAvailableForMessaging) _Bool availableForMessaging; // @synthesize availableForMessaging=_availableForMessaging;
 @property(retain, nonatomic) ABFaceTimeCommunicationsBridge *bridge; // @synthesize bridge=_bridge;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <ABCollectionItemMessagingAvailabilityHelperDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *endpoint; // @synthesize endpoint=_endpoint;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

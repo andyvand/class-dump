@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
 @protocol ExternalURLNavigationDelegate;
 
 __attribute__((visibility("hidden")))
 @interface ExternalURLNavigationHandler
 {
     unsigned long long _requestGroup;
-    _Bool _shouldSuppressAutomaticExternalSchemeNavigations;
-    NSDate *_recentExternalSchemeNavigationWindowStart;
-    unsigned long long _recentExternalSchemeNavigations;
-    id <ExternalURLNavigationDelegate> _delegate;
 }
 
 - (CDUnknownBlockType);
@@ -24,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (void);
-- (id);
+- (id)already cancelled.;
 - (void);
 - (void)¨;
 

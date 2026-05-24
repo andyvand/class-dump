@@ -6,77 +6,65 @@
 
 #import <TSReading/TSPObject.h>
 
-@class NSDictionary, NSLocale, NSMutableArray, NSObject, NSString, TSKAccessController, TSKAnnotationAuthorStorage, TSKChangeNotifier, TSKDocumentSupport, TSKPasteboardController, TSSStylesheet, TSSTheme, UIViewController;
-@protocol OS_dispatch_queue, TSKDocumentViewController, TSKSearchReference, TSKUndoRedoState;
+@class TSKAccessController, UIViewController;
+@protocol TSKDocumentViewController;
 
 @interface TSKDocumentRoot : TSPObject
 {
     TSKAccessController *_accessController;
-    TSKChangeNotifier *_changeNotifier;
-    _Bool _isFindActive;
-    TSKPasteboardController *_pasteboardController;
-    id <TSKUndoRedoState> _undoRedoState;
-    TSKAnnotationAuthorStorage *_annotationAuthorStorage;
-    NSObject<OS_dispatch_queue> *_iCloudTeardownStackQueue;
-    NSMutableArray *_iCloudTeardownStack;
-    _Bool _isBeingLocalized;
-    NSLocale *_locale;
-    NSObject<TSKSearchReference> *_activeSearchReference;
-    NSDictionary *_searchReferencesToHighlight;
-    TSKDocumentSupport *_documentSupport;
 }
 
 + (Class);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (_Bool)ority, events.payload;
+- (void)d value to JSON:(unsigned long long)arg1 %@;
+- (_Bool)initialQueueFeatureName;
+- (void)ChangeRate;
+- (id)ReadyToPlayTime;
+- (id)avMVPResponseCount;
+- (id)IndexResponseTime0;
+- (void)ntroller - setQueueWithInitialItem ;
+- (void)- Set rate converted to play [state restoration] - identifier:(id)arg1;
+- (void)lPlayerController - Seek to time clamped to seekable time ranges ;
+- (void)e jump to target time;
+- (void)idEnd:(id)arg1 cancelled: /* Error: Ran out of types for this method. */;
+- (void)interstitialsDidChange:(id)arg1;
 - (id);
+- (unsigned long long)urrent:(unsigned long long)arg1;
+- (void)asts-ReuseQueue;
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
-- (void);
+- (void);
 - (unsigned long long);
 - (struct CGImageSource *);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
+- (id)AssetSlidingQueue;
 - (id);
 - (id);
 - (id);
 - (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (long long);
+- (id);
+- (void);
 - (id);
 - (id);
+- (long long)d$;
 - (id);
+- (id);
+- (id)lC;
 - (void);
 - (id);
 - (struct __CFLocale *);
@@ -88,37 +76,13 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id)eCanvasController"16@"Protocol"24@"TSDRep"32;
 
 // Remaining properties
-@property(readonly, nonatomic) TSKAccessController *accessController; // @synthesize accessController=_accessController;
-@property(retain, nonatomic) NSObject<TSKSearchReference> *activeSearchReference; // @synthesize activeSearchReference=_activeSearchReference;
-@property(retain, nonatomic) TSKAnnotationAuthorStorage *annotationAuthorStorage; // @synthesize annotationAuthorStorage=_annotationAuthorStorage;
-@property(readonly, nonatomic) unsigned long long applicationType;
-@property(readonly, nonatomic) TSKChangeNotifier *changeNotifier; // @synthesize changeNotifier=_changeNotifier;
-@property(readonly, nonatomic) NSString *creationLanguage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) TSKDocumentSupport *documentSupport; // @synthesize documentSupport=_documentSupport;
-@property(nonatomic, getter=isFindActive) _Bool findActive; // @synthesize findActive=_isFindActive;
-@property(readonly, nonatomic) _Bool hasICloudConflict;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isBeingLocalized; // @synthesize isBeingLocalized=_isBeingLocalized;
-@property(retain, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(retain, nonatomic) TSKPasteboardController *pasteboardController; // @synthesize pasteboardController=_pasteboardController;
-@property(retain, nonatomic) NSDictionary *searchReferencesToHighlight; // @synthesize searchReferencesToHighlight=_searchReferencesToHighlight;
-@property(readonly, nonatomic) TSSStylesheet *stylesheet;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) TSSTheme *theme;
-@property(retain, nonatomic) id <TSKUndoRedoState> undoRedoState; // @synthesize undoRedoState=_undoRedoState;
 @property(readonly, nonatomic) UIViewController<TSKDocumentViewController> *viewController;
-@property(readonly, nonatomic) unsigned long long writingDirection;
 
 @end
 

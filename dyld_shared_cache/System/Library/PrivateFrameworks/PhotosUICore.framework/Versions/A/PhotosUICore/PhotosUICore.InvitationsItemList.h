@@ -7,8 +7,6 @@
 @interface PhotosUICore.InvitationsItemList
 {
     id invitationsItems;
-    id itemIdentifiers;
-    id version;
 }
 
 @end

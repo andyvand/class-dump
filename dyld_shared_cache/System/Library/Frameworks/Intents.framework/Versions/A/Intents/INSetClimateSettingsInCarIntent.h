@@ -6,7 +6,7 @@
 
 #import <Intents/INIntent.h>
 
-@class INSpeakableString, NSMeasurement, NSNumber, NSString;
+@class NSNumber;
 
 @interface INSetClimateSettingsInCarIntent : INIntent
 {
@@ -33,7 +33,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)#;
 - (long long);
 - (long long);
 - (id);
@@ -44,35 +44,17 @@
 - (void);
 - (long long);
 - (void);
-- (void);
+- (void)ile %s:(id)arg1 %s;
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly) long long airCirculationMode;
-@property(readonly, copy) INSpeakableString *carName;
-@property(readonly) long long climateZone;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSNumber *enableAirConditioner;
-@property(readonly, copy) NSNumber *enableAutoMode;
-@property(readonly, copy) NSNumber *enableClimateControl;
 @property(readonly, copy) NSNumber *enableFan;
-@property(readonly, copy) NSNumber *fanSpeedIndex;
-@property(readonly, copy) NSNumber *fanSpeedPercentage;
-@property(readonly) unsigned long long hash;
-@property(readonly) long long relativeFanSpeedSetting;
-@property(readonly) long long relativeTemperatureSetting;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSMeasurement *temperature;
 
 @end
 

@@ -4,26 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, STTemperature;
-
 @interface STWeatherAttributes
 {
     long long _condition;
-    STTemperature *_temperature;
-    STTemperature *_highTemperature;
-    STTemperature *_lowTemperature;
-    NSNumber *_chanceOfPrecipitation;
 }
 
-+ (_Bool);
++ (_Bool)lg;
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id){;
 - (id);
 - (long long);
-- (void);
-- (id);
+- (void)e"@"NSError">;
+- (id)QQ;
 - (void);
 
 @end

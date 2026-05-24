@@ -7,29 +7,10 @@
 @interface APPCMediaMetricsHelper
 {
     id contextIdentifier;
-    id promotedContentIdentifier;
-    id orderVendor;
-    id eventCountTracker;
-    id primitiveCreator;
-    id notificationOwner;
-    id videoDuration;
-    id videoURL;
-    id videoQuality;
-    id mediaHasStarted;
-    id impressionThreshold;
-    id containerType;
-    id adType;
-    id mediaStartedTimestamp;
-    id adHasImpressed;
-    id promotedContent;
-    id $__lazy_storage_$_initialVolumeSender;
-    void visiblePercentageChanged;
-    id _visiblePercentage;
 }
 
 
 // Remaining properties
-@property(nonatomic) long long visiblePercentage;
 @property(nonatomic, copy) CDUnknownBlockType visiblePercentageChanged;
 @end
 

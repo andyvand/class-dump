@@ -6,21 +6,21 @@
 
 #import <Navigation/_MNArrivalUpdaterState.h>
 
-@class MNDepartureUpdater, MNDispatchTimer;
+@class MNDepartureUpdater;
 
 __attribute__((visibility("hidden")))
 @interface _MNArrivalUpdaterState_Arrived : _MNArrivalUpdaterState
 {
     MNDepartureUpdater *_departureUpdater;
-    MNDispatchTimer *_departureTimer;
 }
 
 - (void);
 - (void);
 - (void);
 - (double);
-- (void);
-- (_Bool);
+- (void),C
+;
+- (_Bool)ShadowConfiguration;
 - (_Bool);
 - (void);
 - (long long);

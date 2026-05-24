@@ -9,14 +9,13 @@
 @interface _MXExtensionRequestReceipt
 {
     NSTimer *_timer;
-    CDUnknownBlockType _completion;
 }
 
 - (void);
-- (void);
+- (void))A;
 - (id);
 - (void);
-- (void)leryForMapItem: /* Error: Ran out of types for this method. */;
+- (void)shouldShowMorePhotosGalleryForMapItem: /* Error: Ran out of types for this method. */;
 
 @end
 

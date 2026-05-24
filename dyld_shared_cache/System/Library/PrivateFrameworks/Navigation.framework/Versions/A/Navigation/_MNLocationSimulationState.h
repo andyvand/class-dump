@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _MNLocationSimulationData;
 @protocol _MNLocationSimulationStateDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _MNLocationSimulationState
 {
     id <_MNLocationSimulationStateDelegate> _delegate;
-    _MNLocationSimulationData *_data;
 }
 
 - (void);
+- (void);
 - (void);
-- (void);
 - (id);
-- (CDStruct_071ac149);
+- (CDStruct_39925896);
 - (id);
 - (id);
-- (double);
+- (double)DocumentViewDelegate;
 - (id);
-- (void);
+- (void)@;
 - (long long);
 - (void);
 - (id);
@@ -31,9 +29,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) _MNLocationSimulationData *data; // @synthesize data=_data;
 @property(nonatomic) __weak id <_MNLocationSimulationStateDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) long long type;
 
 @end
 

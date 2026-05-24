@@ -4,35 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _NSDatePickerFieldElementData
 {
     int _element;
-    NSString *_stringValue;
-    NSString *_dateFormat;
-    struct CGRect _frame;
-    struct CGRect _textAreaRect;
 }
 
 - (struct CGRect);
 - (void);
-- (id);
-- (void);
+- (id)d=%p};
+- (void)@;
 - (void);
 - (void);
 - (struct CGRect);
-- (id)n;
-- (void);
+- (id)_isMultiLevelAcceleratorButton;
+- (void)_discardCachedVisiblePaletteBarItems;
 - (int)uld split a merged cell, and is not allowed.;
 - (void)hð5ÿ;
 
 // Remaining properties
-@property(retain) NSString *dateFormat; // @synthesize dateFormat=_dateFormat;
 @property int element; // @synthesize element=_element;
-@property struct CGRect frame; // @synthesize frame=_frame;
-@property(copy) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property struct CGRect textAreaRect; // @synthesize textAreaRect=_textAreaRect;
 
 @end
 

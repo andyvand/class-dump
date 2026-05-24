@@ -11,11 +11,10 @@
 @interface PETEventEnumMappedProperty : PETEventProperty
 {
     NSDictionary *_enumMap;
-    _Bool _autoSanitizeValues;
 }
 
 - (id);
-- (unsigned long long);
+- (unsigned long long)qA;
 - (struct _NSRange);
 - (id);
 - (id);

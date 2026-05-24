@@ -7,7 +7,6 @@
 @interface PodcastsUI.JSPackageLoadingTracker
 {
     id _state;
-    id _$observationRegistrar;
 }
 
 @end

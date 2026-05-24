@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSURL;
+@class NSURL;
 
 @interface NENetworkPropertiesCache
 {
     struct os_unfair_lock_s lock;
-    int _notifyToken;
-    NSURL *_cacheFileURL;
-    NSString *_keychainIdentifier;
-    unsigned long long _cacheMaxSizeBytes;
-    NSDictionary *_cache;
 }
 
-+ (id);
++ (id)foExchangeRequest];
 - (void);
 - (void);
 - (id);
@@ -27,13 +22,11 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)';
 - (void)er";
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *cacheFileURL; // @synthesize cacheFileURL=_cacheFileURL;
-@property(nonatomic) unsigned long long cacheMaxSizeBytes; // @synthesize cacheMaxSizeBytes=_cacheMaxSizeBytes;
-@property(retain, nonatomic) NSString *keychainIdentifier; // @synthesize keychainIdentifier=_keychainIdentifier;
 
 @end
 

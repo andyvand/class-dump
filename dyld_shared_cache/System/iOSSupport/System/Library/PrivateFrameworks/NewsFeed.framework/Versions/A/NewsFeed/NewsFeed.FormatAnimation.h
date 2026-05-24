@@ -7,10 +7,6 @@
 @interface NewsFeed.FormatAnimation
 {
     id animation;
-    id keyPath;
-    id beginTime;
-    id prepareBlock;
-    id commitBlock;
 }
 
 @end

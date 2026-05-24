@@ -10,7 +10,7 @@
 }
 
 + (void)%;
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -19,10 +19,10 @@
 - (map_d7f29d28);
 - (unordered_map_75286b0b);
 - (unordered_map_75286b0b);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)eworks/AppSupport.framework/Versions/A/AppSupport;
+- (_Bool)__AUTH_CONST;
+- (_Bool):(id)arg1 ;
+- (id)electrodermalActivity;
 - (id);
 - (id)ExtraLmList;
 - (void)ôð<;

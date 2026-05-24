@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (APSAdditions)
-+ (id);
++ (id)Z8(;
 @end
 

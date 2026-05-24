@@ -12,11 +12,11 @@
 }
 
 + (_Bool);
-- (id);
-- (_Bool);
-- (id);
+- (id)speakerImageWithOrientation:(id)arg1 speakerEnabled:shouldShowText: /* Error: Ran out of types for this method. */;
+- (_Bool)shouldShowSetBackgroundContextMenuItem;
+- (id)_installAutoupdateTimer;
 - (void);
-- (long long);
+- (long long)@;
 - (void)¬;
 
 // Remaining properties

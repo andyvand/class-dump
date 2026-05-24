@@ -14,7 +14,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)or Failed to CCIOReportDumpProcessor.
+;
 - (long long);
 - (long long);
 

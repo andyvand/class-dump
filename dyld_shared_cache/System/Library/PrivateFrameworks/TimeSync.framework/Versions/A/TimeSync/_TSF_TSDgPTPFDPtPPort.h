@@ -11,24 +11,20 @@
 @interface _TSF_TSDgPTPFDPtPPort : _TSF_TSDgPTPNetworkPort
 {
     BOOL _localPDelayLogMeanInterval;
-    BOOL _remotePDelayLogMeanInterval;
-    _Bool _multipleRemotes;
-    _Bool _measuringPDelay;
-    _TSF_TSDgPTPPortStatistics *_statistics;
 }
 
 - (void);
 - (void);
 - (void);
 - (BOOL);
-- (BOOL);
+- (BOOL);
 - (id);
 - (id);
 - (BOOL);
 - (_Bool);
 - (_Bool);
 - (BOOL);
-- (void);
+- (void)_;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -37,10 +33,6 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) BOOL localPDelayLogMeanInterval; // @synthesize localPDelayLogMeanInterval=_localPDelayLogMeanInterval;
-@property(nonatomic) _Bool measuringPDelay; // @synthesize measuringPDelay=_measuringPDelay;
-@property(nonatomic) _Bool multipleRemotes; // @synthesize multipleRemotes=_multipleRemotes;
-@property(nonatomic) BOOL remotePDelayLogMeanInterval; // @synthesize remotePDelayLogMeanInterval=_remotePDelayLogMeanInterval;
 @property(retain, nonatomic) _TSF_TSDgPTPPortStatistics *statistics; // @synthesize statistics=_statistics;
 
 @end

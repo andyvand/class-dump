@@ -17,10 +17,10 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)S;
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);

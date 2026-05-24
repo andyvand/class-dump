@@ -8,17 +8,25 @@ __attribute__((visibility("hidden")))
 @interface CGPathBuilder
 {
     struct CGPath *path;
-    _Bool overlaps;
 }
 
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)eLoc = (normalize(v) * 5.000000e+01) + noiseCtr;
+  vec4 npix = sample(noise, samplerTransform(noise, noiseLoc));
+  float noiseAmount = (npix.r * a) + b;
+  float f2 = sunRadius2 / (len2 + 1e-4);
+  vec4 pix = (f2 * color) + noiseAmount;
+  pix *= clamp(1.0 - (len * striationFactor), 0.0, 1.0);
+  pix.a = clamp(pix.a, 0.0, 1.0);
+  return pix;
+}
+;
 - (void);
 - (struct CGPath *);
 

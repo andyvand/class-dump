@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSComboBox, NSMutableArray, NSString, NSTableView, NSView, QCAgeProfileView, QCProfileView;
+@class NSView;
 
 @interface QCProfileConfigurationView
 {
     NSView *_insideView;
-    QCProfileView *_profileView;
-    QCAgeProfileView *_ageProfileView;
-    NSComboBox *_comboBox;
-    NSTableView *_tableView;
-    NSMutableArray *_colors;
-    NSString *_autosaveName;
-    long long _colorRow;
-    void *_unused[4];
 }
 
 - (id);
@@ -30,13 +22,13 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)J;
 - (_Bool);
 - (void);
 - (id);
@@ -48,7 +40,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)i
+;
 - (void);
 - (id);
 

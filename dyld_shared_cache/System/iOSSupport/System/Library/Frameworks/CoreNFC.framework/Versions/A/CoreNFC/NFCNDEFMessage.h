@@ -9,6 +9,7 @@
 @interface NFCNDEFMessage
 {
     NSArray *_records;
+    id records;
 }
 
 + (id);
@@ -25,9 +26,9 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)@;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long length;

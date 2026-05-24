@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURLSession, NSURLSessionConfiguration;
+@class NSURLSessionConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface __NSCFURLSessionTaskGroup
 {
     NSURLSessionConfiguration *_groupConfiguration_ivar;
-    NSURLSession *_groupSession_ivar;
 }
 
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)hatafqamatswidehebrew;
+- (id);
+- (id)y;
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly) __weak NSURLSessionConfiguration *_groupConfiguration; // @dynamic _groupConfiguration;
-@property(readonly) __weak NSURLSession *_groupSession; // @dynamic _groupSession;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

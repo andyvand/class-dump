@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     LPPadding *_margin;
 }
 
-- (id);
+- (id)tapbackDeselectedQuestionMark;
 - (void)1Â0@ù
 × ;
 - (id);

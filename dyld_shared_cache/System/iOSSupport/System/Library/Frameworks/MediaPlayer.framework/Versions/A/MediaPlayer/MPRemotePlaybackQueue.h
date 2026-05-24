@@ -4,32 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICUserIdentity, NSDictionary, NSNumber, NSString;
-
 @interface MPRemotePlaybackQueue
 {
     struct _MRSystemAppPlaybackQueue *_mediaRemotePlaybackQueue;
-    ICUserIdentity *_userIdentity;
-    NSNumber *_privateListeningOverride;
-    NSString *_siriReferenceIdentifier;
-    NSString *_queueGroupingID;
-    NSDictionary *_mediaRemoteOptions;
 }
 
 
 // Remaining properties
 @property(readonly, nonatomic) struct _MRSystemAppPlaybackQueue *_mediaRemotePlaybackQueue;
-@property(readonly, copy, nonatomic) NSString *featureName;
-@property(copy, nonatomic) NSDictionary *mediaRemoteOptions; // @synthesize mediaRemoteOptions=_mediaRemoteOptions;
-@property(readonly, nonatomic) NSNumber *privateListeningOverride; // @synthesize privateListeningOverride=_privateListeningOverride;
-@property(readonly, copy, nonatomic) NSString *queueGroupingID; // @synthesize queueGroupingID=_queueGroupingID;
-@property(nonatomic) long long replaceIntent;
-@property(nonatomic, getter=isRequestingImmediatePlayback) _Bool requestingImmediatePlayback;
-@property(readonly, copy, nonatomic) NSString *siriAssetInfo;
-@property(copy, nonatomic) NSString *siriRecommendationIdentifier;
-@property(readonly, copy, nonatomic) NSString *siriReferenceIdentifier; // @synthesize siriReferenceIdentifier=_siriReferenceIdentifier;
-@property(readonly, copy, nonatomic) NSDictionary *siriWHAMetricsInfo;
-@property(readonly, nonatomic) ICUserIdentity *userIdentity; // @synthesize userIdentity=_userIdentity;
-@property(copy, nonatomic) NSDictionary *userInfo;
 @end
 

@@ -8,11 +8,11 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (_Bool);
-+ (id);
++ (id)AdditionalCursorInteractions;
++ (id)dn't got an error;
++ (id)recovery, currentProxy=%p, pendingReattempts=%@;
++ (_Bool)EFPropertyKey_emailAddresses;
++ (id)d;
 
 @end
 

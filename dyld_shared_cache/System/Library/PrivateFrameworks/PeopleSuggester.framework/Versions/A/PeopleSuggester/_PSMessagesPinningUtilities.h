@@ -8,11 +8,11 @@
 {
 }
 
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)_compoundActiveBundleScore;
++ (id)_actionResolverRequestToLastResolverEventTime;
++ (id)_actionPromptForValueContext;
++ (id)tterances;
++ (id)ontextType;
 + (id);
 + (id);
 

@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol NSTextLocation;
-
 @protocol __NSTextRunStorageDataSource
 
-// Remaining properties
-@property(readonly) id <NSTextLocation> baseLocation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<NSTextLocation>",?,R
+@optional
+- (long long);
 
+// Remaining properties
 @property(readonly, getter=isCountableDataSource) _Bool countableDataSource;
 @end
 

@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TPPBAncientEpoch, TPPBDispositionDisallowedMachineID, TPPBDispositionDuplicateMachineID, TPPBDispositionEvictedMachineID, TPPBDispositionGhostedMachineID, TPPBDispositionUnknownReasonRemovalMachineID, TPPBPolicyProhibits, TPPBUnknownMachineID;
+@class TPPBAncientEpoch;
 
 @interface TPPBDisposition
 {
     TPPBAncientEpoch *_ancientEpoch;
-    TPPBDispositionDisallowedMachineID *_disallowedMachineID;
-    TPPBDispositionDuplicateMachineID *_duplicateMachineID;
-    TPPBDispositionEvictedMachineID *_evictedMachineID;
-    TPPBDispositionGhostedMachineID *_ghostedMachineID;
-    TPPBPolicyProhibits *_policyProhibits;
-    TPPBUnknownMachineID *_unknownMachineID;
-    TPPBDispositionUnknownReasonRemovalMachineID *_unknownReasonRemovalMachineID;
 }
 
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
@@ -30,46 +23,31 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)core_MonthOfYear_April;
 - (void);
-- (_Bool);
+- (_Bool)Uso_VerbTemplateBuilder_ReferencePhotoFilter;
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)ointIdentifier?!;
 - (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)DetailedDescription;
 - (id);
 - (void);
-- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (_Bool)roamSuppressionWaitForRoamEnd;
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) TPPBAncientEpoch *ancientEpoch; // @synthesize ancientEpoch=_ancientEpoch;
-@property(retain, nonatomic) TPPBDispositionDisallowedMachineID *disallowedMachineID; // @synthesize disallowedMachineID=_disallowedMachineID;
-@property(retain, nonatomic) TPPBDispositionDuplicateMachineID *duplicateMachineID; // @synthesize duplicateMachineID=_duplicateMachineID;
-@property(retain, nonatomic) TPPBDispositionEvictedMachineID *evictedMachineID; // @synthesize evictedMachineID=_evictedMachineID;
-@property(retain, nonatomic) TPPBDispositionGhostedMachineID *ghostedMachineID; // @synthesize ghostedMachineID=_ghostedMachineID;
 @property(readonly, nonatomic) _Bool hasAncientEpoch;
-@property(readonly, nonatomic) _Bool hasDisallowedMachineID;
-@property(readonly, nonatomic) _Bool hasDuplicateMachineID;
-@property(readonly, nonatomic) _Bool hasEvictedMachineID;
-@property(readonly, nonatomic) _Bool hasGhostedMachineID;
-@property(readonly, nonatomic) _Bool hasPolicyProhibits;
-@property(readonly, nonatomic) _Bool hasUnknownMachineID;
-@property(readonly, nonatomic) _Bool hasUnknownReasonRemovalMachineID;
-@property(retain, nonatomic) TPPBPolicyProhibits *policyProhibits; // @synthesize policyProhibits=_policyProhibits;
-@property(retain, nonatomic) TPPBUnknownMachineID *unknownMachineID; // @synthesize unknownMachineID=_unknownMachineID;
-@property(retain, nonatomic) TPPBDispositionUnknownReasonRemovalMachineID *unknownReasonRemovalMachineID; // @synthesize unknownReasonRemovalMachineID=_unknownReasonRemovalMachineID;
 
 @end
 

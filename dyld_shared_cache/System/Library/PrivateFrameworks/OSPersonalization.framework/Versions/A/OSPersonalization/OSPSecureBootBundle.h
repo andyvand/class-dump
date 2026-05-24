@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, NSURL;
+@class NSURL;
 
 @interface OSPSecureBootBundle
 {
     NSURL *_restoreBundleURL;
-    NSArray *_variants;
-    NSArray *_devices;
-    NSString *_buildVersion;
-    NSString *_buildTrain;
-    NSDictionary *_supportedDevicesByVariant;
-    NSDictionary *_buildIdentities;
 }
 
 + (id);
@@ -31,10 +25,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)te after upload:(id)arg1 %d;
 - (id);
 - (id);
-- (id);
+- (id));
 - (id);
 - (void);
 - (void);
@@ -42,13 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(retain) NSDictionary *buildIdentities; // @synthesize buildIdentities=_buildIdentities;
-@property(retain) NSString *buildTrain; // @synthesize buildTrain=_buildTrain;
-@property(retain) NSString *buildVersion; // @synthesize buildVersion=_buildVersion;
-@property(retain) NSArray *devices; // @synthesize devices=_devices;
 @property(retain) NSURL *restoreBundleURL; // @synthesize restoreBundleURL=_restoreBundleURL;
-@property(retain) NSDictionary *supportedDevicesByVariant; // @synthesize supportedDevicesByVariant=_supportedDevicesByVariant;
-@property(retain) NSArray *variants; // @synthesize variants=_variants;
 
 @end
 

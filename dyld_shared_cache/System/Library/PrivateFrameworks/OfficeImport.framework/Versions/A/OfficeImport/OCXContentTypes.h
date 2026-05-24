@@ -4,24 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSMutableSet;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface OCXContentTypes
 {
     NSMutableArray *mContentTypes;
-    NSMutableSet *mDefaultTypes;
-    NSMutableDictionary *mContentTypeObjectMap;
-    NSMutableDictionary *mContentTypeCountMap;
 }
 
-+ (id);
++ (id)A;
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);

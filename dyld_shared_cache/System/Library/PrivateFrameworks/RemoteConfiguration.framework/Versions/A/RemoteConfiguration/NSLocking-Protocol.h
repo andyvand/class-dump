@@ -5,5 +5,6 @@
 //
 
 @protocol NSLocking
+- (void);
 @end
 

@@ -4,44 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDOrientedPosition;
-
 @interface GEOPDOrientedBoundingBox
 {
     double _depth;
-    double _height;
-    GEOPDOrientedPosition *_position;
-    double _width;
-    struct {
-        unsigned int has_depth:1;
-        unsigned int has_height:1;
-        unsigned int has_width:1;
-    } _flags;
 }
 
-+ (_Bool)kupResult:(id)arg1;
-- (void);
++ (_Bool)setIdLookupResult:(id)arg1;
+- (void);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)CSAttendingOptions:(id)arg1::attendingListeningType /* Error: Ran out of types for this method. */;
 - (void);
 - (unsigned long long);
 - (_Bool);
+- (double)LevelCount;
 - (double);
-- (double);
-- (id);
+- (id)_nonselectingClickGestureRecognizer;
 - (_Bool);
 - (void);
 - (void);
 - (id)r^{_GEOTileKey=b7b1(?={_GEOStandardTileKey=b40b6b26b26b14b4b4}{_GEOGloriaQuadIDTileKey=b6b64b14b4(?={?=b10b10b12}{?=b10b22}I)}{_GEORegionalResourceKey=b32b8b6b8b8b1b57}{_GEOSputnikMetadataKey=b32b24b14b8b42}{_GEOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}24@"NSError"32Q40;
-- (void)earJunctionElements;
-- (id)emainingTileKeys;
+- (void)clearJunctionElements;
+- (id)_hasRemainingTileKeys;
 - (id)0üüøýÈþìxÜì	<ääH¸;
-- (_Bool)ntalDirectionsService;
+- (_Bool)GEOExperimentalDirectionsService;
 - (id)RAP_LINE_MENU;
 - (void)vX;
 - (void)n2dR@ðÄ¬ÿ@;
@@ -51,14 +41,7 @@
 - (_Bool)ðãÆþ;
 
 // Remaining properties
-@property(nonatomic) double depth;
-@property(nonatomic) _Bool hasDepth;
-@property(nonatomic) _Bool hasHeight;
 @property(readonly, nonatomic) _Bool hasPosition;
-@property(nonatomic) _Bool hasWidth;
-@property(nonatomic) double height;
-@property(retain, nonatomic) GEOPDOrientedPosition *position;
-@property(nonatomic) double width;
 
 @end
 

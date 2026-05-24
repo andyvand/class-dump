@@ -7,6 +7,7 @@
 @protocol CALNUserNotificationCenterDelegate;
 
 @protocol CALNUserNotificationCenter
+- (void)9J;
 
 // Remaining properties
 @property(nonatomic) __weak id <CALNUserNotificationCenterDelegate> delegate;

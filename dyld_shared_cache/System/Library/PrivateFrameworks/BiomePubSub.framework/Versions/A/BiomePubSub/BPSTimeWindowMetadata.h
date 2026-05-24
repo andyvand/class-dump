@@ -12,9 +12,9 @@
 }
 
 + (id);
-- (id);
-- (id);
-- (id);
+- (id)07H;
+- (id)setUseIDS: /* Error: Ran out of types for this method. */;
+- (id)context;
 - (void);
 
 // Remaining properties

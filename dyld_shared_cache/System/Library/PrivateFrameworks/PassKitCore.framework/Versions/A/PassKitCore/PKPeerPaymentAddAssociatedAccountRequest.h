@@ -11,9 +11,6 @@
 @interface PKPeerPaymentAddAssociatedAccountRequest : PKPeerPaymentWebServiceRequest
 {
     NSString *_altDSID;
-    NSString *_firstName;
-    NSString *_lastName;
-    unsigned long long _role;
 }
 
 - (id);
@@ -25,14 +22,11 @@
 - (id)r;
 - (unsigned long long);
 - (void)izationDiscoveryAvailability"8;
-- (void)ete;
+- (void)delete;
 - (id)êË;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(copy, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
-@property(copy, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
-@property(nonatomic) unsigned long long role; // @synthesize role=_role;
 
 @end
 

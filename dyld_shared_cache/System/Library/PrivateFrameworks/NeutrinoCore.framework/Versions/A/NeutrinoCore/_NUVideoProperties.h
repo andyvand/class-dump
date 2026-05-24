@@ -4,34 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioMixInputParameters, NSArray, NSDictionary, NSString, NSURL;
+@class NSURL;
 
 @interface _NUVideoProperties
 {
     float _nominalFrameRate;
-    NSURL *_url;
-    NSArray *_metadata;
-    long long _orientation;
-    NSDictionary *_colorProperties;
-    NSArray *_trackGroups;
-    NSDictionary *_trackMetadata;
-    NSDictionary *_auxiliaryVideoTrackProperties;
-    AVAudioMixInputParameters *_cinematicAudioMixInputParameters;
-    NSArray *_videoCorruptionInfo;
-    CDStruct_d58201db _size;
-    CDStruct_d58201db _originalSize;
-    CDStruct_1b6d18a9 _livePhotoKeyFrameTime;
-    CDStruct_1b6d18a9 _duration;
-    CDStruct_996ac03c _cleanAperture;
-    CDStruct_996ac03c _originalCleanAperture;
 }
 
 - (id);
 - (id);
+- (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -46,9 +31,9 @@
 - (void);
 - (CDStruct_996ac03c);
 - (void);
+- (id)ress" AND version LIKE "%1.2%")                OR (name = "SignificantPostalAddress" AND version LIKE "%1.1%")                OR (name = "SignificantPostalAddress" AND version LIKE "%1.2%")                OR (name = "SelfIdentification" AND version LIKE "%1.1%")                OR (name = "STSQP")                );
 - (id);
-- (id);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9);
 - (void);
 - (CDStruct_912cb5d2);
 - (void);
@@ -66,30 +51,7 @@
 - (_Bool)P;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *auxiliaryVideoTrackProperties; // @synthesize auxiliaryVideoTrackProperties=_auxiliaryVideoTrackProperties;
-@property(copy, nonatomic) AVAudioMixInputParameters *cinematicAudioMixInputParameters; // @synthesize cinematicAudioMixInputParameters=_cinematicAudioMixInputParameters;
-@property(nonatomic) CDStruct_996ac03c cleanAperture; // @synthesize cleanAperture=_cleanAperture;
-@property(retain, nonatomic) NSDictionary *colorProperties; // @synthesize colorProperties=_colorProperties;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) CDStruct_1b6d18a9 duration; // @synthesize duration=_duration;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isHDR;
-@property(nonatomic) CDStruct_1b6d18a9 livePhotoKeyFrameTime; // @synthesize livePhotoKeyFrameTime=_livePhotoKeyFrameTime;
-@property(copy, nonatomic) NSArray *metadata; // @synthesize metadata=_metadata;
-@property(nonatomic) float nominalFrameRate; // @synthesize nominalFrameRate=_nominalFrameRate;
-@property(nonatomic) long long orientation; // @synthesize orientation=_orientation;
-@property(nonatomic) CDStruct_996ac03c originalCleanAperture; // @synthesize originalCleanAperture=_originalCleanAperture;
-@property(nonatomic) CDStruct_912cb5d2 originalSize; // @synthesize originalSize=_originalSize;
-@property(nonatomic) CDStruct_912cb5d2 size; // @synthesize size=_size;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSArray *trackGroups; // @synthesize trackGroups=_trackGroups;
-@property(copy, nonatomic) NSDictionary *trackMetadata; // @synthesize trackMetadata=_trackMetadata;
 @property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(copy, nonatomic) NSArray *videoCorruptionInfo; // @synthesize videoCorruptionInfo=_videoCorruptionInfo;
 
 @end
 

@@ -17,8 +17,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
-- (void);
+- (unsigned long long);
+- (void);
 - (id);
 - (unsigned long long);
 - (id);
@@ -26,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)RequiredExternalProtectionMethod;
 - (unsigned long long);
 - (void)orks/GPUToolsCapture.framework/GPUToolsCapture;
 - (void)unt other than 1;

@@ -8,9 +8,6 @@
 {
     id data;
     id targetFileSize;
-    id resizeScale;
-    id attemptLimit;
-    id attempts;
 }
 
 @end

@@ -6,19 +6,12 @@
 
 #import <TelephonyUtilities/TUCTCapabilitiesState.h>
 
-@class NSSet, NSString;
-
 @interface TUThumperCTCapabilitiesState : TUCTCapabilitiesState
 {
     _Bool _approved;
-    _Bool _associated;
-    _Bool _supportsDefaultPairedDevice;
-    NSSet *_approvedSecondaryDeviceIDs;
-    NSString *_accountID;
-    NSString *_localDeviceID;
 }
 
-+ (id);
++ (id)3;
 + (_Bool);
 - (_Bool);
 - (void);
@@ -27,7 +20,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)T, TExtent>, std:(_Bool)arg1:span<U, UExtent>) [T = unsigned char, TExtent = 18446744073709551615UL, U = const unsigned char, UExtent = 18446744073709551615UL] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
@@ -36,29 +29,17 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void)C;
 - (void)ate"16q24@"NSPredicate"32@?<v@?Q@"NSError">40;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accountID; // @synthesize accountID=_accountID;
 @property(nonatomic, getter=isApproved) _Bool approved; // @synthesize approved=_approved;
-@property(copy, nonatomic) NSSet *approvedSecondaryDeviceIDs; // @synthesize approvedSecondaryDeviceIDs=_approvedSecondaryDeviceIDs;
-@property(nonatomic, getter=isAssociated) _Bool associated; // @synthesize associated=_associated;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *localDeviceID; // @synthesize localDeviceID=_localDeviceID;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsDefaultPairedDevice; // @synthesize supportsDefaultPairedDevice=_supportsDefaultPairedDevice;
 
 @end
 

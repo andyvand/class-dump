@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDThreadSafeMessageDictionaryMapper, _IMDAggregateMessageIndexingJob;
-
 @interface _IMDBatchFetchingMessageIndexingJob
 {
     _Bool _runsOneBatch;
-    _Bool _processedAnything;
-    _IMDAggregateMessageIndexingJob *_job;
-    IMDThreadSafeMessageDictionaryMapper *_mapper;
 }
 
 - (void);
@@ -19,16 +14,13 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)Number"16@"NSData"24;
 - (id);
 - (_Bool);
-- (void)geInspectorCrossCheckReport;
+- (void)databaseInspectorAttachmentStorageInspectorCrossCheckReport;
 
 // Remaining properties
-@property(readonly, nonatomic) _IMDAggregateMessageIndexingJob *job; // @synthesize job=_job;
-@property(readonly, nonatomic) IMDThreadSafeMessageDictionaryMapper *mapper; // @synthesize mapper=_mapper;
 @property(nonatomic) _Bool processedAnything; // @synthesize processedAnything=_processedAnything;
-@property(nonatomic) _Bool runsOneBatch; // @synthesize runsOneBatch=_runsOneBatch;
 
 @end
 

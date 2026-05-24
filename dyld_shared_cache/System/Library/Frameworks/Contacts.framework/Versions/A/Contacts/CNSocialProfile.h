@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CNSocialProfile
 {
     NSString *_urlString;
-    NSString *_username;
-    NSString *_userIdentifier;
-    NSString *_service;
-    NSString *_displayname;
-    NSString *_teamIdentifier;
-    NSArray *_bundleIdentifiers;
 }
 
 + (id);
@@ -31,41 +25,28 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)TreatAllNotificationsAsPartial;
 - (void);
 - (unsigned long long);
 - (void);
 - (id);
 - (void);
 - (id);
+- (_Bool)B;
+- (void);
+- (id)UUIDForDiskUser)=%@;
 - (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id)ngForLabel: /* Error: Ran out of types for this method. */;
+- (id)localizedStringForLabel: /* Error: Ran out of types for this method. */;
 - (void)e0;
 
 // Remaining properties
-@property(copy) NSArray *bundleIdentifiers; // @synthesize bundleIdentifiers=_bundleIdentifiers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSString *displayname; // @synthesize displayname=_displayname;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *service; // @synthesize service=_service;
-@property(readonly) Class superclass;
-@property(copy) NSString *teamIdentifier; // @synthesize teamIdentifier=_teamIdentifier;
 @property(copy) NSString *urlString; // @synthesize urlString=_urlString;
-@property(copy) NSString *userIdentifier; // @synthesize userIdentifier=_userIdentifier;
-@property(copy) NSString *username; // @synthesize username=_username;
 
 @end
 

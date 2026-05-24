@@ -4,26 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalUIDayViewGadget, EKEventStore, NSArray, NSDate, NSObject, NSSet, NSString;
-@protocol CalUIDayViewGadgetAppearanceDelegate, OS_dispatch_queue;
+@class CalUIDayViewGadget, NSSet;
 
 @interface CalUIDayViewGadgetController
 {
     CalUIDayViewGadget *_view;
-    EKEventStore *_eventStore;
-    NSArray *_internalPreviewEvents;
-    NSArray *_timedEvents;
-    NSArray *_allDayEvents;
-    NSObject<OS_dispatch_queue> *_loadEventsSerialQueue;
-    NSDate *_dayOfInterest;
-    NSDate *_lastRefresh;
-    CDUnknownBlockType _mouseDownBlock;
-    NSSet *_disabledCalendars;
-    NSDate *_startOfDay;
-    NSDate *_endOfDay;
-    CalUIDayViewGadget *_dayViewGadget;
-    NSArray *_dedupedPreviewEvents;
-    id <CalUIDayViewGadgetAppearanceDelegate> _appearanceDelegate;
 }
 
 - (id);
@@ -33,23 +18,23 @@
 - (void);
 - (void);
 - (void);
+- (void)T	;
 - (void);
 - (void);
+- (void)S;
+- (void)B;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)B;
 - (id);
 - (void);
 - (CDUnknownBlockType);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)@B9	;
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
@@ -66,32 +51,13 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)nHandler: /* Error: Ran out of types for this method. */;
 - (void)1Â0@ù
 × ;
-- (id)ngleStoreyA;
+- (id)cal_fontWithSingleStoreyA;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allDayEvents;
-@property(readonly, nonatomic) __weak id <CalUIDayViewGadgetAppearanceDelegate> appearanceDelegate; // @synthesize appearanceDelegate=_appearanceDelegate;
-@property(retain, nonatomic) NSDate *dayOfInterest; // @synthesize dayOfInterest=_dayOfInterest;
-@property(retain) CalUIDayViewGadget *dayViewGadget; // @synthesize dayViewGadget=_dayViewGadget;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain) NSArray *dedupedPreviewEvents; // @synthesize dedupedPreviewEvents=_dedupedPreviewEvents;
-@property(readonly, copy) NSString *description;
 @property(retain) NSSet *disabledCalendars; // @synthesize disabledCalendars=_disabledCalendars;
-@property(readonly, nonatomic) NSDate *endOfDay; // @synthesize endOfDay=_endOfDay;
-@property(retain) EKEventStore *eventStore; // @synthesize eventStore=_eventStore;
-@property(readonly) unsigned long long hash;
-@property(retain) NSArray *internalPreviewEvents;
-@property(retain) NSDate *lastRefresh; // @synthesize lastRefresh=_lastRefresh;
-@property(nonatomic) __weak CDUnknownBlockType mouseDownBlock; // @synthesize mouseDownBlock=_mouseDownBlock;
-@property(readonly, nonatomic) NSDate *startOfDay; // @synthesize startOfDay=_startOfDay;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSArray *timedEvents;
 
 @end
 

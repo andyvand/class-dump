@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDBackingStore, NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface HMDBackingStoreHandler
 {
     NSUUID *_identifier;
-    HMDBackingStore *_backingStore;
 }
 
 + (id)Üÿ*B;
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)requestCredentialsForNoAuthenticationNeededForRequester:withOptions: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id)äoxpq¤ ;
@@ -30,15 +29,7 @@ __attribute__((visibility("hidden")))
 - (void)Üîýþå(~&8Àèþ)~&Ëùþ)~&;
 
 // Remaining properties
-@property(readonly) HMDBackingStore *backingStore; // @synthesize backingStore=_backingStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

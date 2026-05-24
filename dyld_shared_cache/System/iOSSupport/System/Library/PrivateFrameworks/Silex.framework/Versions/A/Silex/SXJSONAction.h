@@ -6,7 +6,7 @@
 
 #import <Silex/SXJSONObject.h>
 
-@class NSString, SXJSONDictionary;
+@class NSString;
 
 @interface SXJSONAction : SXJSONObject
 {
@@ -14,14 +14,6 @@
 
 
 // Remaining properties
-@property(readonly, nonatomic) SXJSONDictionary *analytics; // @dynamic analytics;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSString *type; // @dynamic type;
 @end
 

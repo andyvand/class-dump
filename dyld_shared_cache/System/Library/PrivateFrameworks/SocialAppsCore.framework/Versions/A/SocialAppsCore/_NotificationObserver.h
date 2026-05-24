@@ -9,7 +9,6 @@
 @interface _NotificationObserver
 {
     NSSet *_notificationNames;
-    CDUnknownBlockType _notificationReceivedBlock;
 }
 
 - (void);
@@ -18,13 +17,12 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)setToFieldScrollingView: /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
+- (void)tableView:shouldTrackCell:forTableColumn:row: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSSet *notificationNames; // @synthesize notificationNames=_notificationNames;
-@property(copy) CDUnknownBlockType notificationReceivedBlock; // @synthesize notificationReceivedBlock=_notificationReceivedBlock;
 
 @end
 

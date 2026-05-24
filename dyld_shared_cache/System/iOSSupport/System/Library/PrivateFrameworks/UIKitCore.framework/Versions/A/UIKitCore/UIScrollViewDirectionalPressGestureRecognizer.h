@@ -6,15 +6,12 @@
 
 #import <UIKitCore/_UIRepeatingPressGestureRecognizer.h>
 
-@class UIScrollView, UIView;
+@class UIScrollView;
 
 __attribute__((visibility("hidden")))
 @interface UIScrollViewDirectionalPressGestureRecognizer : _UIRepeatingPressGestureRecognizer
 {
     _Bool _hasBeenModified;
-    UIView *_originalView;
-    UIScrollView *_scrollView;
-    long long _activePressType;
 }
 
 - (void);
@@ -23,11 +20,11 @@ __attribute__((visibility("hidden")))
 - (long long);
 - (void);
 - (void);
-- (id)ctivateForTargetContentIdentifierPredicate:(id)arg1;
+- (id)setPrefersToActivateForTargetContentIdentifierPredicate:(id)arg1;
 - (void)ontainerViewDelegate>",W,N,V_delegate;
 - (_Bool)T;
 - (void)$;
-- (id)ntOffset;
+- (id)RawCurrentOffset;
 - (void),¬e;
 - (void);
 

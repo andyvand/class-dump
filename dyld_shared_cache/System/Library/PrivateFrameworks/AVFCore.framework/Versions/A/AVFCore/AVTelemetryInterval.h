@@ -8,10 +8,9 @@ __attribute__((visibility("hidden")))
 @interface AVTelemetryInterval
 {
     unsigned long long apiCodeStore;
-    unsigned long long startTime;
 }
 
-- (id);
+- (id);
 - (void);
 
 @end

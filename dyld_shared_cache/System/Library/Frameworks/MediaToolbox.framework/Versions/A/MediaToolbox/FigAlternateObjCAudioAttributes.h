@@ -11,8 +11,6 @@
 @interface FigAlternateObjCAudioAttributes : FigKVCInspectable
 {
     struct OpaqueFigAlternate *_alternate;
-    NSArray *_formatIDs;
-    struct OpaqueFigSimpleMutex *_mutex;
 }
 
 - (id);
@@ -22,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)(;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *formatIDs;

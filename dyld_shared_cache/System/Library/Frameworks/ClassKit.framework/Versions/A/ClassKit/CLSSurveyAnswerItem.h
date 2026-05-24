@@ -6,25 +6,16 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface CLSSurveyAnswerItem : CLSObject
 {
     NSString *_surveyID;
-    NSString *_responderPersonID;
-    long long _answerType;
-    NSString *_questionID;
-    NSString *_textResponse;
-    long long _selectedIndex;
-    double _continuousSliderValue;
-    long long _state;
-    long long _action;
-    NSArray *assets;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)_deleteProfilePictureCache;
 - (id);
 - (id);
 - (void);
@@ -32,46 +23,32 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
+- (id)tXPC.dylib;
+- (void)work/Versions/A/MobileKeyBag;
 - (id);
-- (void);
+- (void)Ds;
 - (id);
-- (void);
+- (double)y7. Lowering priority to kANEProgramPriority7 0x%08X;
+- (long long)%x
+;
+- (void)t be found;
+- (void)achThreadPriority - thread_policy_set(...,THREAD_PRECEDENCE_POLICY,...) failed, err=%d
+;
+- (_Bool)ANEServicesProgramChainingSetActiveProcedure;
 - (id);
-- (double);
 - (long long);
 - (void);
 - (void);
-- (_Bool);
-- (id);
 - (long long);
-- (void);
-- (void);
-- (long long);
-- (void);
+- (void)8@16;
 - (id);
 - (long long);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long action;
-@property(nonatomic) long long answerType;
-@property(readonly, nonatomic) NSArray *assets; // @synthesize assets;
-@property(nonatomic) double continuousSliderValue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *questionID;
-@property(copy, nonatomic) NSString *responderPersonID;
-@property(nonatomic) long long selectedIndex;
-@property(nonatomic) long long state;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *surveyID;
-@property(copy, nonatomic) NSString *textResponse;
 
 @end
 

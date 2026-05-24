@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class NSArray;
 
 @interface JRSchemaJRExperimentTriggered : SISchemaInstrumentationMessage
 {
     NSArray *_allocations;
-    SISchemaUUID *_codepathId;
-    _Bool _hasCodepathId;
 }
 
 - (void);
@@ -22,29 +20,26 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)A;
+- (void)Th3x3;
 - (id);
 - (void);
 - (unsigned long long);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (void)x;
+- (unsigned long long)4	;
+- (_Bool);
 - (_Bool);
 - (id);
 - (id)!\Bù±ßð1Â0@ù
 × ;
 - (id)V_mobileAssetConfigVersion;
-- (id)versationTrace;
+- (id)SISchemaConversationTrace;
 - (void)C­æ";
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *allocations; // @synthesize allocations=_allocations;
-@property(retain, nonatomic) SISchemaUUID *codepathId; // @synthesize codepathId=_codepathId;
-@property(nonatomic) _Bool hasCodepathId; // @synthesize hasCodepathId=_hasCodepathId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (_Bool);
+- (_Bool)tField",W,V_upgradeDevicesSecondaryMessageTextField;
+- (id);
 - (struct _NSZone *)hared_ptr<EMFEmojiToken>>>, std::__unordered_map_hasher<_NSRange, std::pair<const _NSRange, std::vector<std::shared_ptr<EMFEmojiToken>>>, std::hash<NSRange>, std::equal_to<NSRange>>, std::__unordered_map_equal<_NSRange, std::pair<const _NSRange, std::vector<std::shared_ptr<EMFEmojiToken>>>, std::equal_to<NSRange>, std::hash<NSRange>>, std::allocator<std::pair<const _NSRange, std::vector<std::shared_ptr<EMFEmojiToken>>>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_NSRange, std::vector<std::shared_ptr<EMFEmojiToken>>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_NSRange, std::vector<std::shared_ptr<EMFEmojiToken>>>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_NSRange, std::vector<std::shared_ptr<EMFEmojiToken>>>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<_NSRange, std::vector<std::shared_ptr<EMFEmojiToken>>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}"m_rangesToStickers"{unordered_map<_NSRange, std::vector<std::shared_ptr<_STKSticker>>, std::hash<NSRange>, std::equal_to<NSRange>, std::allocator<std::pair<const _NSRange, std::vector<std::shared_ptr<_STKSticker>>>>>="__table_"{__hash_table<std::__hash_value_type<_NSRange, std::vector<std::shared_ptr<_STKSticker>>>, std::__unordered_map_hasher<_NSRange, std::pair<const _NSRange, std::vector<std::shared_ptr<_STKSticker>>>, std::hash<NSRange>, std::equal_to<NSRange>>, std::__unordered_map_equal<_NSRange, std::pair<const _NSRange, std::vector<std::shared_ptr<_STKSticker>>>, std::equal_to<NSRange>, std::hash<NSRange>>, std::allocator<std::pair<const _NSRange, std::vector<std::shared_ptr<_STKSticker>>>>>="__bucket_list_"{unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_NSRange, std::vector<std::shared_ptr<_STKSticker>>>, void *> *> *[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_NSRange, std::vector<std::shared_ptr<_STKSticker>>>, void *> *> *>>>=""{?="__ptr_"^^v"__deleter_"{__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<_NSRange, std::vector<std::shared_ptr<_STKSticker>>>, void *> *> *>>=""{?="__size_"Q}}}}""{?="__first_node_"{__hash_node_base<std::__hash_node<std::__hash_value_type<_NSRange, std::vector<std::shared_ptr<_STKSticker>>>, void *> *>="__next_"^v}}""{?="__size_"Q}""{?="__max_load_factor_"f}}}} /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

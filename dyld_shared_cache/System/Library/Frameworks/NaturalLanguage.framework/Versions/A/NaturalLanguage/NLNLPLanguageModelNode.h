@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSMutableSet;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface NLNLPLanguageModelNode
 {
     NSArray *_tokenIDs;
-    NSMutableSet *_strings;
-    NSMutableDictionary *_children;
 }
 
 + (id);

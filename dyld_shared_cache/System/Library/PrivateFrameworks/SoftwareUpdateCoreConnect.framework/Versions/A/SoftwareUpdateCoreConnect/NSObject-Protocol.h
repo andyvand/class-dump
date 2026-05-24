@@ -7,14 +7,21 @@
 @class NSString;
 
 @protocol NSObject
+- (Class)availabilityQueue;
+- (id);
+- (id)_selectedAvailability;
+- (id)___displayPeople;
+- (id)_displayOrganizer;
+- (_Bool)speechRecognitionTask:didFinishRecognition: /* Error: Ran out of types for this method. */;
+- (oneway void)_sourceUID;
+- (NSString *)et",&,N,V_supportedAudioPayloads;
+- (_Bool)module "%s" set to %s.;
+- (struct _NSZone *)1W;
+
+@optional
+- (NSString *);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

@@ -4,40 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet;
+@class NSSet;
 
 @interface SDMDMConfiguration
 {
     _Bool _restrictUserPrograms;
-    _Bool _disableBetaEnrollment;
-    NSSet *_tokens;
-    NSDate *_configurationDate;
-    long long _policy;
 }
 
-+ (id);
++ (id)ocol"16;
 + (_Bool);
+- (void)4S]^{__CFString}^S*{?=qq}qq}20Q204^I212^B220^B228;
+- (void)_CFString=}16@?24;
+- (_Bool)40{AFPowerContext=QQQ}64{AFPowerContext=QQQ}88;
+- (_Bool)DKKnowledgeQuerying>";
+- (_Bool)String"48@"NSUUID"56@?<v@?B>64;
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (id);
 - (void);
 - (id);
+- (void)/usr/lib/swift/libswiftQuartzCore.dylib;
 - (void);
-- (void);
-- (void);
+- (void)rsion:%@
+ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSDate *configurationDate; // @synthesize configurationDate=_configurationDate;
-@property _Bool disableBetaEnrollment; // @synthesize disableBetaEnrollment=_disableBetaEnrollment;
-@property long long policy; // @synthesize policy=_policy;
-@property _Bool restrictUserPrograms; // @synthesize restrictUserPrograms=_restrictUserPrograms;
 @property(retain) NSSet *tokens; // @synthesize tokens=_tokens;
 
 @end

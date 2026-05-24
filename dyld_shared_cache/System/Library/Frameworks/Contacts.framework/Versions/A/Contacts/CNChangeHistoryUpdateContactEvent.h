@@ -6,13 +6,11 @@
 
 #import <Contacts/CNChangeHistoryEvent.h>
 
-@class CNContact, NSString;
+@class NSString;
 
 @interface CNChangeHistoryUpdateContactEvent : CNChangeHistoryEvent
 {
     _Bool _imagesChanged;
-    CNContact *_contact;
-    NSString *_contactIdentifier;
 }
 
 + (unsigned long long);
@@ -23,22 +21,20 @@
 - (_Bool);
 - (long long);
 - (id);
-- (void);
-- (id);
-- (id);
+- (void)SoftLinking.framework/Versions/A/SoftLinking;
+- (id);
+- (id)dia direction: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
-- (void);
-- (_Bool);
+- (void)_pubExtension;
+- (_Bool);
 - (id);
 - (void);
 - (id);
 - (void)NSString"16;
 
 // Remaining properties
-@property(retain, nonatomic) CNContact *contact; // @synthesize contact=_contact;
 @property(readonly, nonatomic) NSString *contactIdentifier; // @synthesize contactIdentifier=_contactIdentifier;
-@property(readonly, nonatomic) _Bool imagesChanged; // @synthesize imagesChanged=_imagesChanged;
 
 @end
 

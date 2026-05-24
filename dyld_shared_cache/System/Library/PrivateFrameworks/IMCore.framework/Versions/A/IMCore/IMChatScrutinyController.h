@@ -8,13 +8,14 @@
 {
 }
 
-+ (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (double);
++ (id))%ۚi;
+- (id)eam [%s] %s:(id)arg1 %d destination=%@, options=%s, error=%@;
+- (void)%d Failed to create VCDisplayLink;
+- (id)Player [%s] %s:%d Warning:Protecting minimum queue. packetLifetimeIsLow=%d, packetLifeTime5Perc=%f threshold=%f
+ /* Error: Ran out of types for this method. */;
+- (void)%x;
+- (void)not existing in linkSSRC array= 0x%x;
+- (double)ostSpeechTranslationServer=%d (audioFlag=%d, videoFlag=%d);
 
 @end
 

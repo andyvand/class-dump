@@ -7,6 +7,7 @@
 @class PPNamedEntity;
 
 @protocol PGGraphPortraitNamedEntity
+- (PPNamedEntity *)e;
 
 // Remaining properties
 @property(readonly, nonatomic) PPNamedEntity *pg_namedEntity;

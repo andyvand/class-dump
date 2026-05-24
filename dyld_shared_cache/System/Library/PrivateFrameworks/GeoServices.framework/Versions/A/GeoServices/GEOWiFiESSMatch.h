@@ -9,44 +9,37 @@
 @interface GEOWiFiESSMatch
 {
     GEOWiFiESS *_ess;
-    int _status;
-    struct {
-        unsigned int has_status:1;
-    } _flags;
 }
 
-+ (_Bool)onalEnabledMarkets:(id)arg1;
++ (_Bool)setOriginalAdditionalEnabledMarkets:(id)arg1;
 - (_Bool);
-- (void);
+- (void)`;
 - (id);
 - (_Bool);
-- (id);
+- (id);
+- (void)_;
 - (void);
-- (void);
-- (void);
+- (void)speechCapturing:(id)arg1 willSetAudioSessionActive: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (void)ll>"24Q32@"NSPasteboard"40@"NSString"48;
 - (_Bool);
 - (void);
 - (id)1Â0@ù
 × ;
-- (int)rafficSnapshotIds;
-- (id)View;
+- (int)trafficSnapshotIds;
+- (id)junctionView;
 - (id)eURL;
 - (id)¼;
 - (id)LE externalreqcountdata;
-- (_Bool)l;
+- (_Bool)apple_account_avatar_fallback_sf_symbol;
 - (void)ÿÿ;
 - (int);
 - (void)N6gloria15RecordAttributeEE27__shared_ptr_default_deleteIS7_S3_EENS_9allocatorIS3_EEEE;
 
 // Remaining properties
-@property(retain, nonatomic) GEOWiFiESS *ess;
-@property(readonly, nonatomic) _Bool hasEss;
 @property(nonatomic) _Bool hasStatus;
-@property(nonatomic) int status;
 
 @end
 

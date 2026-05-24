@@ -18,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)8^B16;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *managedApps; // @synthesize managedApps=_managedApps;

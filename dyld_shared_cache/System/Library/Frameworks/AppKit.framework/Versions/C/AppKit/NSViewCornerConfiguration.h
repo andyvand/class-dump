@@ -4,83 +4,65 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCornerStyle, _NSCornerRadius;
+@class NSCornerStyle;
 
 @interface NSViewCornerConfiguration
 {
     NSCornerStyle *_topLeft;
-    NSCornerStyle *_topRight;
-    NSCornerStyle *_bottomLeft;
-    NSCornerStyle *_bottomRight;
-    _NSCornerRadius *_topLeftRadius;
-    _NSCornerRadius *_topRightRadius;
-    _NSCornerRadius *_bottomLeftRadius;
-    _NSCornerRadius *_bottomRightRadius;
-    long long _cornerUniformity;
 }
 
 + (id);
++ (id);
 + (id);
 + (id);
 + (id);
++ (id)rk/Versions/A/StreamingExtractor;
++ (id)/RunningBoardServices;
++ (id)roxy;
++ (id)ibrary/PrivateFrameworks/NetworkServiceProxy.framework/Versions/A/NetworkServiceProxy;
++ (id)rks/NetworkScore.framework/Versions/A/NetworkScore;
++ (id)upport.framework/Versions/A/InternationalSupport;
++ (id)ks/FTServices.framework/Versions/A/FTServices;
++ (id)/Library/PrivateFrameworks/DuetActivityScheduler.framework/Versions/A/DuetActivityScheduler;
++ (id)etworkReadStream@%p>;
++ (id)_100ContinueTimerFired;
++ (id)_100ContinueTimerStart;
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)dbYxhQWXkJhjp8uPhoMDvw;
+- (void)2zGHSJOwpw;
+- (void)diagnostics;
+- (void)wtFNCz+Y7WesMOCA;
+- (void)aop2;
 - (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)9$;
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (id);
-- (id);
-- (id);
+- (_Bool)URLSession:_willRetryBackgroundDataTask:withError: /* Error: Ran out of types for this method. */;
+- (_Bool)URLSession:_willRetryBackgroundDataTask: /* Error: Ran out of types for this method. */;
+- (long long)roxySession <%{public}@> failed to create a background NSURLSessionDataTask, as remote session is unavailable;
 - (id);
 - (id);
 - (id);
+- (id)setCallLongMorningSat: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id)兹;
+- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void)er:(id)arg1;
-- (id)ValueTransformer:(struct _NSZone *)arg1 toBinding: /* Error: Ran out of types for this method. */;
+- (void)initWithTestName:(id)arg1 scrollView:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)canApplyValueTransformer:(struct _NSZone *)arg1 toBinding: /* Error: Ran out of types for this method. */;
 - (void)] (beforeGrowLimit:%f beforeShrinkLimit:%f afterGrowLimit:%f afterShrinkLimit:%f growFlags:%d shrinkFlags:%d)
 
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) _NSCornerRadius *_bottomLeftRadius; // @synthesize _bottomLeftRadius;
-@property(copy) _NSCornerRadius *_bottomRightRadius; // @synthesize _bottomRightRadius;
-@property long long _cornerUniformity; // @synthesize _cornerUniformity;
-@property(readonly) _Bool _isDependentOnContainerCornerRadii;
-@property(readonly) _Bool _isDependentOnOwnGeometry;
-@property(copy) _NSCornerRadius *_topLeftRadius; // @synthesize _topLeftRadius;
-@property(copy) _NSCornerRadius *_topRightRadius; // @synthesize _topRightRadius;
-@property(copy) NSCornerStyle *bottomLeft;
-@property(copy) NSCornerStyle *bottomRight;
 @property(copy) NSCornerStyle *topLeft;
-@property(copy) NSCornerStyle *topRight;
 
 @end
 

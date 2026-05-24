@@ -11,14 +11,14 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (double);
-- (double);
+- (double)SRTP_AES128_CM_SHA1_80;
+- (double)setPlaylistProperties:(id)arg1 trackList:forPlaylistWithPersistentID:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)°!ìBùñZ1Â0@ù
 × ;
-- (void)ntroller:(struct CGRect *)arg1 fromServiceWithBundleIdentifier:(struct CGRect *)arg2 traitCollection:(id)arg3 legacyImpl:(double)arg4 serviceViewControllerDeputyInterface:(_Bool)arg5 connectionHandler: /* Error: Ran out of types for this method. */;
+- (void)requestViewController:(struct CGRect *)arg1 fromServiceWithBundleIdentifier:(struct CGRect *)arg2 traitCollection:(id)arg3 legacyImpl:(double)arg4 serviceViewControllerDeputyInterface:(_Bool)arg5 connectionHandler: /* Error: Ran out of types for this method. */;
 - (id)ader;
-- (id)Scene;
+- (id)eventRoutingScene;
 - (struct CGSize)rAdaptation;
 - (id)fiers, or ensure the existing action is removed or replaced by the new action.
 ;

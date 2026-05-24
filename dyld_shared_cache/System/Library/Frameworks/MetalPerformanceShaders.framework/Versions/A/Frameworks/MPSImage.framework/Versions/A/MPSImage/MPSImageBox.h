@@ -6,16 +6,9 @@
 
 #import <MPSImage/MPSUnaryImageKernel.h>
 
-@class MPSImageConvolution;
-
 @interface MPSImageBox : MPSUnaryImageKernel
 {
     unsigned long long _kernelWidth;
-    unsigned long long _kernelHeight;
-    unsigned int filterInfoH;
-    unsigned int filterInfoV;
-    MPSImageConvolution *hPass;
-    MPSImageConvolution *vPass;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -24,7 +17,7 @@
 - (id);
 - (struct MPSRegion);
 - (id);
-- (void);
+- (void)indexSearchableItems:(id)arg1 deleteSearchableItemsWithIdentifiers:clientState:protectionClass:forBundleID:options:reason:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
@@ -33,7 +26,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long kernelHeight; // @synthesize kernelHeight=_kernelHeight;
-@property(readonly, nonatomic) unsigned long long kernelWidth; // @synthesize kernelWidth=_kernelWidth;
 
 @end
 

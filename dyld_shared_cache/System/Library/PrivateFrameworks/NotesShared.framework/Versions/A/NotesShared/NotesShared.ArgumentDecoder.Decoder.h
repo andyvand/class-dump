@@ -7,9 +7,6 @@
 @interface NotesShared.ArgumentDecoder.Decoder
 {
     id parameters;
-    id usesDefaultValueIfMissing;
-    id codingPath;
-    id userInfo;
 }
 
 @end

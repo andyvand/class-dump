@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, SFButtonItem;
+@class NSData, SFButtonItem;
 
 @protocol RFButtonCardSection
+- (NSData *);
 - (SFButtonItem *)osIdentifier;
 
 // Remaining properties
 @property(retain, nonatomic) SFButtonItem *button;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

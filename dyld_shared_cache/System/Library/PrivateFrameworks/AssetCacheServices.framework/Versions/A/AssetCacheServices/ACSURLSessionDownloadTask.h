@@ -6,13 +6,9 @@
 
 #import <AssetCacheServices/ACSURLSessionTask.h>
 
-@class NSError, NSURLRequest;
-
 @interface ACSURLSessionDownloadTask : ACSURLSessionTask
 {
     CDUnknownBlockType __clientLocationCompletionHandler;
-    NSURLRequest *__resumedOriginalRequest;
-    NSError *__deferredLinkError;
 }
 
 - (void);
@@ -25,13 +21,10 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)/swift/libswiftDispatch.dylib;
 
 // Remaining properties
 @property(copy) CDUnknownBlockType _clientLocationCompletionHandler; // @synthesize _clientLocationCompletionHandler=__clientLocationCompletionHandler;
-@property(retain) NSError *_deferredLinkError; // @synthesize _deferredLinkError=__deferredLinkError;
-@property(retain) NSURLRequest *_resumedOriginalRequest; // @synthesize _resumedOriginalRequest=__resumedOriginalRequest;
-@property(readonly, copy) NSURLRequest *originalRequest;
 
 @end
 

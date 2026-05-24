@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAssetWriterConfigurationState, AVMediaFileType, AVWeakReference, NSArray, NSError, NSString, NSURL;
-@protocol AVAssetWriterDelegate;
+@class AVAssetWriterConfigurationState;
 
 __attribute__((visibility("hidden")))
 @interface AVAssetWriterHelper
 {
     AVAssetWriterConfigurationState *_configurationState;
-    AVWeakReference *_weakReferenceToAssetWriter;
 }
 
 - (id);
@@ -23,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -50,7 +48,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (CDStruct_1b6d18a9);
 - (id);
-- (void);
+- (void)e.ace.mac;
 - (id);
 - (void);
 - (_Bool);
@@ -58,61 +56,34 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (long long);
 - (long long);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9)$;
 - (float);
 - (void);
-- (CDStruct_1b6d18a9);
+- (CDStruct_1b6d18a9)h;
 - (void);
 - (id);
 - (long long);
 - (void);
 - (struct CGAffineTransform);
 - (void);
-- (void)ingByDeletingPathExtension;
-- (float)tring: /* Error: Ran out of types for this method. */;
-- (void)ttributeSelector:(struct CGAffineTransform)arg1 mediaSelectionOption:value:operatorType: /* Error: Ran out of types for this method. */;
-- (void)ssetProvider;
+- (void)stringByDeletingPathExtension;
+- (float)rangeOfString: /* Error: Ran out of types for this method. */;
+- (void)initWithAttributeSelector:(struct CGAffineTransform)arg1 mediaSelectionOption:value:operatorType: /* Error: Ran out of types for this method. */;
+- (void)figAssetProvider;
 - (void)ultiPass:attachedAdaptor:error: /* Error: Ran out of types for this method. */;
-- (_Bool)entsPreferringNominalDurations:(id)arg1;
-- (void)ker:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (_Bool)_segmentsPreferringNominalDurations:(id)arg1;
+- (void)_copyFigVideoCompositor:(id)arg1 andSession:recyclingSession:forFigRemaker:error: /* Error: Ran out of types for this method. */;
 - (void),R,W,N;
 - (void)eySpecifier",R,VcontentKeySpecifier;
 - (void)%%;
 - (void);
 - (void)ayer status changed to failed with error:(CDStruct_1b6d18a9)arg1 %d;
-- (void)hiveKeyStylePropertyName_FontStyle;
+- (void)AVCaptionArchiveKeyStylePropertyName_FontStyle;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *availableMediaTypes;
 @property(readonly, nonatomic) AVAssetWriterConfigurationState *configurationState; // @synthesize configurationState=_configurationState;
-@property(copy, nonatomic) NSArray *contentProtectionConfigurations;
-@property __weak id <AVAssetWriterDelegate> delegate;
-@property(copy, nonatomic) NSURL *directoryForTemporaryFiles;
-@property(readonly, nonatomic) NSError *error;
-@property(nonatomic) CDStruct_1b6d18a9 initialMovieFragmentInterval;
-@property(nonatomic) long long initialMovieFragmentSequenceNumber;
-@property(nonatomic) CDStruct_1b6d18a9 initialSegmentStartTime;
-@property(readonly, nonatomic) NSArray *inputGroups;
-@property(readonly, nonatomic) NSArray *inputs;
-@property(readonly, nonatomic) AVMediaFileType *mediaFileType;
-@property(copy, nonatomic) NSArray *metadata;
-@property(nonatomic) CDStruct_1b6d18a9 movieFragmentInterval;
-@property(nonatomic) int movieTimeScale;
-@property(copy, nonatomic) NSString *outputFileTypeProfile;
-@property(readonly, nonatomic) NSURL *outputURL;
-@property(nonatomic) CDStruct_1b6d18a9 overallDurationHint;
-@property(nonatomic) CDStruct_1b6d18a9 preferredOutputSegmentInterval;
-@property(nonatomic) float preferredRate;
-@property(nonatomic) struct CGAffineTransform preferredTransform;
-@property(nonatomic) float preferredVolume;
-@property(nonatomic) _Bool producesCombinableFragments;
-@property(nonatomic) _Bool shouldOptimizeForNetworkUse;
-@property(nonatomic) long long singlePassFileSize;
-@property(nonatomic) long long singlePassMediaDataSize;
-@property(readonly, nonatomic) long long status;
-@property(retain) AVWeakReference *weakReferenceToAssetWriter; // @synthesize weakReferenceToAssetWriter=_weakReferenceToAssetWriter;
 
 @end
 

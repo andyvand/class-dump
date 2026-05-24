@@ -6,20 +6,9 @@
 
 #import <UIFoundation/UIPointFIFO.h>
 
-@class NSView, _UIPointVector;
-
 @interface UIQuadCurvePointFIFO : UIPointFIFO
 {
     float _unitScale;
-    _Bool _emitInterpolatedPoints;
-    struct CGPath *_path;
-    double _lineWidth;
-    CDUnknownBlockType _emissionHandler;
-    _UIPointVector *_prevPoints;
-    _UIPointVector *_points;
-    _UIPointVector *_controlPoints;
-    id _lastPoint;
-    NSView *_view;
 }
 
 + (id);
@@ -33,16 +22,16 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (CDUnknownBlockType);
-- (id);
+- (id)upported;
 - (void);
 - (void);
-- (void);
+- (void)21z;
 - (void);
 - (void);
 - (void);
@@ -54,16 +43,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) _UIPointVector *controlPoints; // @synthesize controlPoints=_controlPoints;
-@property(copy) CDUnknownBlockType emissionHandler; // @synthesize emissionHandler=_emissionHandler;
-@property(nonatomic) _Bool emitInterpolatedPoints; // @synthesize emitInterpolatedPoints=_emitInterpolatedPoints;
-@property(nonatomic) id lastPoint; // @synthesize lastPoint=_lastPoint;
-@property(nonatomic) double lineWidth; // @synthesize lineWidth=_lineWidth;
-@property(nonatomic) struct CGPath *path; // @synthesize path=_path;
-@property(retain, nonatomic) _UIPointVector *points; // @synthesize points=_points;
-@property(retain, nonatomic) _UIPointVector *prevPoints; // @synthesize prevPoints=_prevPoints;
 @property(nonatomic) float unitScale; // @synthesize unitScale=_unitScale;
-@property(retain, nonatomic) NSView *view; // @synthesize view=_view;
 
 @end
 

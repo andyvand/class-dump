@@ -7,29 +7,6 @@
 @interface AWDWiFiNWActivityTxCompletions
 {
     unsigned int _chipmodeerror;
-    unsigned int _expired;
-    unsigned int _internalerror;
-    unsigned int _ioerror;
-    unsigned int _mbfree;
-    unsigned int _noack;
-    unsigned int _nobuf;
-    unsigned int _noremotepeer;
-    unsigned int _noresources;
-    unsigned int _success;
-    unsigned int _txfailure;
-    struct {
-        unsigned int chipmodeerror:1;
-        unsigned int expired:1;
-        unsigned int internalerror:1;
-        unsigned int ioerror:1;
-        unsigned int mbfree:1;
-        unsigned int noack:1;
-        unsigned int nobuf:1;
-        unsigned int noremotepeer:1;
-        unsigned int noresources:1;
-        unsigned int success:1;
-        unsigned int txfailure:1;
-    } _has;
 }
 
 - (unsigned int);
@@ -40,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -53,7 +30,7 @@
 - (unsigned int);
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int);
 - (unsigned int);
 - (unsigned int);
 - (_Bool);
@@ -66,17 +43,17 @@
 - (_Bool);
 - (unsigned int);
 - (void);
-- (unsigned int);
+- (unsigned int)(;
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)4;
 - (unsigned int);
 - (void);
 - (void);
@@ -84,31 +61,10 @@
 - (id);
 - (unsigned int);
 - (void);
-- (void);
+- (void)setActiveRequestCount:(unsigned int)arg1;
 
 // Remaining properties
-@property(nonatomic) unsigned int chipmodeerror; // @synthesize chipmodeerror=_chipmodeerror;
-@property(nonatomic) unsigned int expired; // @synthesize expired=_expired;
-@property(nonatomic) _Bool hasChipmodeerror;
-@property(nonatomic) _Bool hasExpired;
-@property(nonatomic) _Bool hasInternalerror;
-@property(nonatomic) _Bool hasIoerror;
-@property(nonatomic) _Bool hasMbfree;
-@property(nonatomic) _Bool hasNoack;
-@property(nonatomic) _Bool hasNobuf;
-@property(nonatomic) _Bool hasNoremotepeer;
-@property(nonatomic) _Bool hasNoresources;
 @property(nonatomic) _Bool hasSuccess;
-@property(nonatomic) _Bool hasTxfailure;
-@property(nonatomic) unsigned int internalerror; // @synthesize internalerror=_internalerror;
-@property(nonatomic) unsigned int ioerror; // @synthesize ioerror=_ioerror;
-@property(nonatomic) unsigned int mbfree; // @synthesize mbfree=_mbfree;
-@property(nonatomic) unsigned int noack; // @synthesize noack=_noack;
-@property(nonatomic) unsigned int nobuf; // @synthesize nobuf=_nobuf;
-@property(nonatomic) unsigned int noremotepeer; // @synthesize noremotepeer=_noremotepeer;
-@property(nonatomic) unsigned int noresources; // @synthesize noresources=_noresources;
-@property(nonatomic) unsigned int success; // @synthesize success=_success;
-@property(nonatomic) unsigned int txfailure; // @synthesize txfailure=_txfailure;
 
 @end
 

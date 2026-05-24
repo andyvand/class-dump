@@ -4,33 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, NSMutableArray, NSMutableDictionary, NSObject, NSTextStorage, PDFAnnotation, PDFHighlightDetectedFormFieldsEffectLayer, PDFPage, PDFPageLayerEffect, PDFPageViewAnnotationController, PDFRenderingProperties, UIImage;
-@protocol PDFPageLayerGeometryInterface, PDFPageLayerInterface;
+@class NSObject;
+@protocol PDFPageLayerGeometryInterface;
 
 __attribute__((visibility("hidden")))
 @interface PDFPageViewPrivate
 {
     NSObject<PDFPageLayerGeometryInterface> *geometryInterface;
-    PDFRenderingProperties *renderingProperties;
-    PDFPage *page;
-    CALayer<PDFPageLayerInterface> *pageLayer;
-    id scrollViewObservation;
-    PDFPageLayerEffect *searchLayer;
-    NSMutableArray *pageAnnotationEffects;
-    PDFAnnotation *activeAnnotation;
-    NSMutableDictionary *activeControls;
-    NSTextStorage *activeTextStorage;
-    NSMutableArray *pageSignatures;
-    PDFPageViewAnnotationController *annotationController;
-    CALayer *backgroundLayer;
-    UIImage *backgroundImage;
-    int backgroundQuality;
-    struct os_unfair_lock_s backgroundImageLock;
-    unsigned long long visibilityDelegateIndex;
-    _Bool isPerformingUndo;
-    CALayer *bookmarkLayer;
-    struct CGSize bookmarkSize;
-    PDFHighlightDetectedFormFieldsEffectLayer *detectedFormFieldBoundingBoxesLayer;
 }
 
 - (void);

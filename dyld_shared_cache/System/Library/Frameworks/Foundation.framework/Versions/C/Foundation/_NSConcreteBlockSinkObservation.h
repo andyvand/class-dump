@@ -13,8 +13,6 @@ __attribute__((visibility("hidden")))
 @interface _NSConcreteBlockSinkObservation : NSObservation
 {
     NSObject<NSObservable> *_LHSobservable;
-    CDUnknownBlockType _block;
-    int _tag;
 }
 
 - (void *);

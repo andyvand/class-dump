@@ -4,16 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
+@class NSString;
 
 @interface HomeKitDaemon.TemperatureHumidityReadWriteLogEvent
 {
     id readWriteEvent;
-    void coreAnalyticsEventName;
-    unsigned long long coreAnalyticsEventOptions;
 }
 
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
@@ -22,10 +20,7 @@
 - (id)K;
 
 // Remaining properties
-@property(nonatomic, readonly) NSUUID *accessoryUUID;
-@property(nonatomic, readonly) NSDictionary *coreAnalyticsEventDictionary;
 @property(nonatomic, readonly) NSString *coreAnalyticsEventName;
-@property(nonatomic, readonly) unsigned long long coreAnalyticsEventOptions; // @synthesize coreAnalyticsEventOptions;
 
 @end
 

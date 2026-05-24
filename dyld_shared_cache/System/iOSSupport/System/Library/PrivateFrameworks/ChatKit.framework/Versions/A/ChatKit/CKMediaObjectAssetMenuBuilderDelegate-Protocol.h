@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKAttachmentMessagePartChatItem, CKMediaObjectAssetMenuBuilder, NSArray;
+
 @protocol CKMediaObjectAssetMenuBuilderDelegate
+- (_Bool)6@20;
+- (NSArray *)checkResourceIsReachableAndReturnError:(CKMediaObjectAssetMenuBuilder *)arg1;
+- (void)checkPreviewImagesIntegrityOperationForAttachment:(CKMediaObjectAssetMenuBuilder *)arg1;
+- (void)checkPreviewImagesIntegrity;
+- (void)checkForMentionsInString:(CKMediaObjectAssetMenuBuilder *)arg1 inRange:(CKAttachmentMessagePartChatItem *)arg2 selectionRange:languageHasSpaces: /* Error: Ran out of types for this method. */;
+- (void)rentAttachment:(CKMediaObjectAssetMenuBuilder *)arg1;
+- (void)tion:(CKMediaObjectAssetMenuBuilder *)arg1 isEndingEditing:(NSArray *)arg2 languageHasSpaces:parentAttachment: /* Error: Ran out of types for this method. */;
+- (void)checkForMentionInEditedRange:(CKMediaObjectAssetMenuBuilder *)arg1 ofTextStorage:(NSArray *)arg2 note:textView:allowAutoExplicitMention:isEndingEditing:languageHasSpaces:parentAttachment: /* Error: Ran out of types for this method. */;
 @end
 

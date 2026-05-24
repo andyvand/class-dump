@@ -9,7 +9,7 @@
     id lastReadReceiptPerChat;
 }
 
-- (id);
+- (id);
 - (void)guid:%s /* Error: Ran out of types for this method. */;
 
 @end

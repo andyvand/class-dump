@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABPersonListSearchController;
-
 @interface ABPersonListSearchControllerUsageStatisticsHelper
 {
     unsigned long long _lastSearchStringLength;
-    ABPersonListSearchController *_searchController;
 }
 
 + (id);
@@ -17,13 +14,12 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id);
 - (void);
 - (void)a¦êGT\;
 
 // Remaining properties
 @property unsigned long long lastSearchStringLength; // @synthesize lastSearchStringLength=_lastSearchStringLength;
-@property __weak ABPersonListSearchController *searchController; // @synthesize searchController=_searchController;
 
 @end
 

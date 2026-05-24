@@ -9,15 +9,13 @@
 @interface ABDataSourcePluginIndex
 {
     NSMutableDictionary *_bundlesByClass;
-    NSMutableDictionary *_infoByClasses;
-    _Bool _didIndexPlugins;
 }
 
 + (id)
 × ;
-+ (void)ContentsOfURL: /* Error: Ran out of types for this method. */;
++ (void)dictionaryWithContentsOfURL: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)+;
 - (_Bool);
 - (id);
 - (void);

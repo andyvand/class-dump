@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributeDictionary;
-
 @interface _NSCachedAttributedString
 {
     id _contents;
-    NSAttributeDictionary *_baseAttributes;
-    long long _length;
-    unsigned long long _hashValue;
-    struct {
-        id _field1;
-        long long _field2;
-    } *_runs;
-    long long _numRuns;
-    long long _allocedRunsSize;
-    long long _numHits;
 }
 
-+ (void)ocationInTextRanges:leftEdge: /* Error: Ran out of types for this method. */;
++ (void)caretIndexForEdgeLocationInTextRanges:leftEdge: /* Error: Ran out of types for this method. */;
 + (id)@Ì¸;
 - (id);
 - (void);
@@ -33,16 +21,16 @@
 - (id);
 - (unsigned long long);
 - (id);
+- (_Bool)etCext-IssuerCapabilities;
+- (void)chronous;
+- (id):(id)arg1 ;
 - (_Bool);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (id);
-- (_Bool);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (id);
 
 @end

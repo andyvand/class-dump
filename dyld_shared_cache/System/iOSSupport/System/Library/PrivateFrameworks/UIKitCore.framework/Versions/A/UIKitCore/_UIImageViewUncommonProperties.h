@@ -4,25 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIImageSymbolConfiguration, _UIImageCIImageRenderer, _UIImageSymbolVariant, _UIImageViewSymbolAnimationPresetManager;
-@protocol UITraitChangeRegistration;
+@class UIImageSymbolConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface _UIImageViewUncommonProperties
 {
     unsigned int _drawMode;
-    UIImageSymbolConfiguration *_overridingSymbolConfiguration;
-    _UIImageSymbolVariant *_preferredSymbolVariant;
-    long long _defaultRenderingMode;
-    _UIImageCIImageRenderer *_CIRenderer;
-    id <UITraitChangeRegistration> _systemIconAppearanceTraitRegistration;
-    _UIImageViewSymbolAnimationPresetManager *_animationPresetManager;
 }
 
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)_copyrightText;
 - (void);
 - (long long);
 - (void)Â0@ù
@@ -33,17 +26,11 @@ __attribute__((visibility("hidden")))
 - (void)N,V_triggers;
 - (id)utViews ? inputViews->_inputAssistantView :nil /* Error: Ran out of types for this method. */;
 - (void);
-- (void)heetPresentationControllerHorizontalAlignment;
+- (void)_UISheetPresentationControllerHorizontalAlignment;
 - (unsigned int)ÿ;
 
 // Remaining properties
-@property(retain, nonatomic) _UIImageCIImageRenderer *CIRenderer; // @synthesize CIRenderer=_CIRenderer;
-@property(retain, nonatomic) _UIImageViewSymbolAnimationPresetManager *animationPresetManager; // @synthesize animationPresetManager=_animationPresetManager;
-@property(nonatomic) long long defaultRenderingMode; // @synthesize defaultRenderingMode=_defaultRenderingMode;
-@property(nonatomic) unsigned int drawMode; // @synthesize drawMode=_drawMode;
 @property(retain, nonatomic) UIImageSymbolConfiguration *overridingSymbolConfiguration; // @synthesize overridingSymbolConfiguration=_overridingSymbolConfiguration;
-@property(retain, nonatomic) _UIImageSymbolVariant *preferredSymbolVariant; // @synthesize preferredSymbolVariant=_preferredSymbolVariant;
-@property(retain, nonatomic) id <UITraitChangeRegistration> systemIconAppearanceTraitRegistration; // @synthesize systemIconAppearanceTraitRegistration=_systemIconAppearanceTraitRegistration;
 
 @end
 

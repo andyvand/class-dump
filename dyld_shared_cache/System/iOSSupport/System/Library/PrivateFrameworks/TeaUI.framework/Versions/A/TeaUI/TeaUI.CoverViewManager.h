@@ -7,12 +7,6 @@
 @interface TeaUI.CoverViewManager
 {
     id _isCovering;
-    id viewController;
-    id _cover;
-    id proxyingToken;
-    id proxyingCoverViewManager;
-    id coverView;
-    id keyboardObserver;
 }
 
 @end

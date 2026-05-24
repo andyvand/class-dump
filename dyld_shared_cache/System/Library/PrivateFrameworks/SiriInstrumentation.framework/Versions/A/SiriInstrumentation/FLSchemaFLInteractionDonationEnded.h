@@ -6,34 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLSchemaFLTupleInteraction, NSArray, NSData, SISchemaUUID;
-
 @interface FLSchemaFLInteractionDonationEnded : SISchemaInstrumentationMessage
 {
     double _absoluteTime;
-    double _donationTime;
-    SISchemaUUID *_ifSessionId;
-    unsigned int _actionStatementId;
-    int _donationTrigger;
-    _Bool _wasTupleDonated;
-    FLSchemaFLTupleInteraction *_tuple;
-    NSArray *_candidates;
-    struct {
-        unsigned int absoluteTime:1;
-        unsigned int donationTime:1;
-        unsigned int actionStatementId:1;
-        unsigned int donationTrigger:1;
-        unsigned int wasTupleDonated:1;
-    } _has;
-    _Bool _hasIfSessionId;
-    _Bool _hasTuple;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -62,7 +44,7 @@
 - (_Bool);
 - (void);
 - (int);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -70,9 +52,9 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)P;
 - (void);
-- (unsigned long long);
+- (unsigned long long)tNeedsRoomForCheckmark:,V_needsRoomForCheckmark /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -85,21 +67,6 @@
 
 // Remaining properties
 @property(nonatomic) double absoluteTime; // @synthesize absoluteTime=_absoluteTime;
-@property(nonatomic) unsigned int actionStatementId; // @synthesize actionStatementId=_actionStatementId;
-@property(copy, nonatomic) NSArray *candidates; // @synthesize candidates=_candidates;
-@property(nonatomic) double donationTime; // @synthesize donationTime=_donationTime;
-@property(nonatomic) int donationTrigger; // @synthesize donationTrigger=_donationTrigger;
-@property(nonatomic) _Bool hasAbsoluteTime;
-@property(nonatomic) _Bool hasActionStatementId;
-@property(nonatomic) _Bool hasDonationTime;
-@property(nonatomic) _Bool hasDonationTrigger;
-@property(nonatomic) _Bool hasIfSessionId; // @synthesize hasIfSessionId=_hasIfSessionId;
-@property(nonatomic) _Bool hasTuple; // @synthesize hasTuple=_hasTuple;
-@property(nonatomic) _Bool hasWasTupleDonated;
-@property(retain, nonatomic) SISchemaUUID *ifSessionId; // @synthesize ifSessionId=_ifSessionId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) FLSchemaFLTupleInteraction *tuple; // @synthesize tuple=_tuple;
-@property(nonatomic) _Bool wasTupleDonated; // @synthesize wasTupleDonated=_wasTupleDonated;
 
 @end
 

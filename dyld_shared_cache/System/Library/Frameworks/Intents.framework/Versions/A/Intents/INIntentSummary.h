@@ -10,11 +10,6 @@ __attribute__((visibility("hidden")))
 @interface INIntentSummary
 {
     NSString *_intentIdentifier;
-    NSString *_originatingBundleId;
-    NSString *_languageCode;
-    unsigned long long _containedProperties;
-    NSString *_title;
-    NSString *_subtitle;
 }
 
 - (id);
@@ -22,19 +17,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)R;
 - (void);
 - (void);
-- (id)tedReasonAsString: /* Error: Ran out of types for this method. */;
-- (void)yNameForOpenFile: /* Error: Ran out of types for this method. */;
+- (id)sendPaymentIntentCurrencyAmountUnsupportedReasonAsString: /* Error: Ran out of types for this method. */;
+- (void)defaultScopeEntityNameForOpenFile: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long containedProperties; // @synthesize containedProperties=_containedProperties;
 @property(readonly, copy, nonatomic) NSString *intentIdentifier; // @synthesize intentIdentifier=_intentIdentifier;
-@property(readonly, copy, nonatomic) NSString *languageCode; // @synthesize languageCode=_languageCode;
-@property(readonly, copy, nonatomic) NSString *originatingBundleId; // @synthesize originatingBundleId=_originatingBundleId;
-@property(copy, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

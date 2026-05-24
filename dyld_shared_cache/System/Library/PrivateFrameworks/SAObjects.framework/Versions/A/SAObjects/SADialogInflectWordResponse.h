@@ -24,7 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *print;
-@property(copy, nonatomic) NSString *speak;
 
 @end
 

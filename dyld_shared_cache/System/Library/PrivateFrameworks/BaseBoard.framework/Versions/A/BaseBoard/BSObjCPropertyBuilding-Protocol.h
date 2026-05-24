@@ -5,5 +5,10 @@
 //
 
 @protocol BSObjCPropertyBuilding
+- (void);
+
+@optional
+- (void)c;
+- (void);
 @end
 

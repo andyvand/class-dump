@@ -6,33 +6,22 @@
 
 #import <ChatKit/CKConversationListStandardCell.h>
 
-@class NSString;
-@protocol CKConversationSearchCellDelegate;
-
 @interface CKConversationSearchResultEmbeddedCell : CKConversationListStandardCell
 {
     struct UIEdgeInsets _marginInsets;
 }
 
 + (id);
-- (void);
-- (struct UIEdgeInsets);
-- (double);
-- (_Bool);
-- (void);
+- (void)`;
+- (struct UIEdgeInsets)D;
+- (double)n;
+- (_Bool)t;
+- (void)iatedObjectTitle:(id)arg1 accountIdentifier:(id)arg2 cacheLevel:preferredSize:scale:appearanceInfo:backgroundColor:hasBorder:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKConversationSearchCellDelegate> delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) struct UIEdgeInsets marginInsets; // @synthesize marginInsets=_marginInsets;
-@property(readonly) Class superclass;
 
 @end
 

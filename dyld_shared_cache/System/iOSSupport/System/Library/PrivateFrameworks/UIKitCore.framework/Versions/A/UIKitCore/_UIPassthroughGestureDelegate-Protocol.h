@@ -7,8 +7,8 @@
 @class UIGestureRecognizer;
 
 @protocol _UIPassthroughGestureDelegate
-- (void);
-- (_Bool)idChange:(UIGestureRecognizer *)arg1;
+- (void)reloadCurrentKeyplane;
+- (_Bool)glassGroupContainerDidChange:(UIGestureRecognizer *)arg1;
 
 // Remaining properties
 @property(nonatomic) _Bool configuredForInactiveInteractionEventsOnly;

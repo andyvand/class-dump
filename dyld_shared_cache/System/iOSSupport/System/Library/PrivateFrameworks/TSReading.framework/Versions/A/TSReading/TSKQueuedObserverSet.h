@@ -7,9 +7,6 @@
 @interface TSKQueuedObserverSet
 {
     int mChangeType;
-    id mObserver;
-    id mChangeSource;
-    _Bool mIsClass;
 }
 
 + (id);

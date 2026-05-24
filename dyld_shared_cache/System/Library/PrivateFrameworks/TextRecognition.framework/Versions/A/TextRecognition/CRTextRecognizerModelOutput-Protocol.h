@@ -9,7 +9,6 @@
 @protocol CRTextRecognizerModelOutput
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long batchSize;
 @property(readonly, nonatomic) NSArray *textFeatureInfo;
 @end
 

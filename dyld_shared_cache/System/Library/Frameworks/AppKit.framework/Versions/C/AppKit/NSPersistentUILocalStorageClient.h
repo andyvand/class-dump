@@ -4,44 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSPersistentUIFileManager, NSPersistentUIPreservedStateDirectory, NSString;
-@protocol OS_dispatch_queue;
+@class NSPersistentUIFileManager;
 
 __attribute__((visibility("hidden")))
 @interface NSPersistentUILocalStorageClient
 {
     NSPersistentUIFileManager *_fileManager;
-    NSObject<OS_dispatch_queue> *_queue;
-    struct os_unfair_lock_s _lock;
-    NSPersistentUIPreservedStateDirectory *_stateDirectoryAtLaunch;
-    _Bool _fetchingStateDirectoryAtLaunch;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void)ect";
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

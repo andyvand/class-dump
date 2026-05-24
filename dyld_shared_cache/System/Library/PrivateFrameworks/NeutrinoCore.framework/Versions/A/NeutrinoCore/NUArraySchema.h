@@ -6,14 +6,11 @@
 
 #import <NeutrinoCore/NUSchema.h>
 
-@class NSArray, NSDictionary, NUPattern;
+@class NSDictionary;
 
 @interface NUArraySchema : NUSchema
 {
     NSDictionary *_aliasToIdentifier;
-    NSDictionary *_identifierToAlias;
-    long long _contentType;
-    NUPattern *_pattern;
 }
 
 + (id);
@@ -34,25 +31,22 @@
 - (_Bool);
 - (long long);
 - (_Bool);
-- (id);
+- (id)addObserver:selector:name:object: /* Error: Ran out of types for this method. */;
+- (_Bool)c}@Invalid number of keychain items(%tu) for accessory '%@';
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (id);
+- (id)_widgetDisplayProperties;
+- (_Bool);
 - (id);
 - (id);
-- (_Bool);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool);
 - (long long);
-- (void)sferApplyNodeWithInput:thumbnail:target:settings: /* Error: Ran out of types for this method. */;
+- (void)styleTransferApplyNodeWithInput:thumbnail:target:settings: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) long long contentType; // @synthesize contentType=_contentType;
-@property(readonly, nonatomic) NSDictionary *contents; // @synthesize contents=_aliasToIdentifier;
-@property(readonly, nonatomic) NSArray *defaultArray;
-@property(readonly, nonatomic) NUPattern *pattern; // @synthesize pattern=_pattern;
 
 @end
 

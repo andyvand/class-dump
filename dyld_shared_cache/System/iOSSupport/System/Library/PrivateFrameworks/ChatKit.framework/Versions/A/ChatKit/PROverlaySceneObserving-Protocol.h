@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class UIScene;
+
 @protocol PROverlaySceneObserving
+
+@optional
+- (void)setDateValue:(UIScene *)arg1;
+- (void)setDateLabel:(UIScene *)arg1;
 @end
 

@@ -7,19 +7,6 @@
 @interface PhotosUICore.LemonadeSuggestedSearchQueryFetcher
 {
     id suggestionLimit;
-    id topRecentLimit;
-    id searchQueryManager;
-    id container;
-    id photoLibrary;
-    id _initialSuggestions;
-    id _recentSuggestions;
-    id _recentAssetCollections;
-    id recentAssetCollectionKeyAssetUpdater;
-    id recentCollectionKeyAssetCache;
-    id _recentSearches;
-    id recentSearchKeyAssetUpdater;
-    id _hasRecentSearches;
-    id _$observationRegistrar;
 }
 
 @end

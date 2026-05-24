@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LSApplicationRecord, NSSet, NSString;
+@class NSString;
 
 @interface UnknownClass (CallKit)
 - (id);
@@ -13,7 +13,5 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *cx_applicationIdentifier;
-@property(readonly, nonatomic) LSApplicationRecord *cx_applicationRecord;
-@property(readonly, copy, nonatomic) NSSet *cx_capabilities;
 @end
 

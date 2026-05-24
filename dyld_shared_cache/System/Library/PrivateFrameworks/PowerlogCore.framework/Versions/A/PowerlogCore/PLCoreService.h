@@ -15,7 +15,7 @@
 
 - (id);
 - (void);
-- (id);
+- (id)llerWithUserURI with parent window:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);

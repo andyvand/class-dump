@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AMSMutableSet
 {
     NSMutableSet *_backingSet;
-    CDUnknownBlockType _hashBlock;
 }
 
 + (id);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (CDUnknownBlockType);
 - (id);
-- (_Bool);
+- (_Bool)_canBeNowPlayingPlayerTimestamp;
 - (id);
 - (void);
 - (id);

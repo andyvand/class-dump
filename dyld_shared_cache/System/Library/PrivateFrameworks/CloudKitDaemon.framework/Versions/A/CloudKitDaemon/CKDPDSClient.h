@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSObject, PDSRegistrar;
-@protocol OS_dispatch_queue;
+@class NSCache;
 
 @interface CKDPDSClient
 {
     NSCache *_registrars;
-    NSObject<OS_dispatch_queue> *_queue;
-    PDSRegistrar *_registrar;
 }
 
 + (id);
-- (void);
-- (void);
+- (void)common_MediaCaptureMode_SpatialVideo;
+- (void)A?;
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (id)APSenderSessionFactoryCreateAirPlaySession;
+- (_Bool)ptr}] Cluster change:(id)arg1 activation failed due to group change
+;
 - (BOOL);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)initWithFinalURL:(id)arg1 queue:(id)arg2 compressionQueue:(id *)arg3 completion: /* Error: Ran out of types for this method. */;
+- (id)k;
 - (id);
 - (_Bool);
 - (id);
@@ -36,8 +34,6 @@
 - (void)ncestorsURLRequest.m;
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly, nonatomic) PDSRegistrar *registrar; // @synthesize registrar=_registrar;
 @property(readonly, nonatomic) NSCache *registrars; // @synthesize registrars=_registrars;
 
 @end

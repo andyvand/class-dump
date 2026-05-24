@@ -4,21 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBContact, _INPBDateTimeRange, _INPBLong, _INPBString;
+@class _INPBDateTimeRange;
 
 @interface _INPBFilePropertyValue
 {
     struct {
         unsigned int fileType:1;
     } _has;
-    int _fileType;
-    _INPBDateTimeRange *_dateTime;
-    _INPBContact *_person;
-    _INPBLong *_quantity;
-    _INPBString *_value;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -37,8 +32,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (int);
+- (void)) for authorization request, waiting for auth level to change and/or proxcard UI to complete (clientID=%{public}@, waitingForUpdatedAuthLevel=%d, waitingForAuthorizationUI=%d);
+- (int)l;
 - (void);
 - (id);
 - (id);
@@ -49,22 +44,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) _INPBDateTimeRange *dateTime; // @synthesize dateTime=_dateTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int fileType; // @synthesize fileType=_fileType;
-@property(readonly, nonatomic) _Bool hasDateTime;
-@property(nonatomic) _Bool hasFileType;
-@property(readonly, nonatomic) _Bool hasPerson;
-@property(readonly, nonatomic) _Bool hasQuantity;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) _INPBContact *person; // @synthesize person=_person;
-@property(retain, nonatomic) _INPBLong *quantity; // @synthesize quantity=_quantity;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBString *value; // @synthesize value=_value;
 
 @end
 

@@ -6,13 +6,11 @@
 
 #import <NeutrinoCore/_NUMedia.h>
 
-@class NSArray, NUChannelMediaFormat;
-@protocol NUAsset, NUAssetResourceID, NUMediaGeometry, NUMediaMetadata;
+@protocol NUAsset;
 
 @interface _NUAssetMedia : _NUMedia
 {
     id <NUAsset> _asset;
-    id <NUAssetResourceID> _resourceID;
 }
 
 - (id);
@@ -24,11 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) __weak id <NUAsset> asset; // @synthesize asset=_asset;
-@property(readonly, nonatomic) NUChannelMediaFormat *format;
-@property(readonly, nonatomic) id <NUMediaGeometry> geometry;
-@property(readonly, nonatomic) id <NUMediaMetadata> metadata;
-@property(readonly, nonatomic) NSArray *requiredSourceMedias;
-@property(readonly, nonatomic) id <NUAssetResourceID> resourceID; // @synthesize resourceID=_resourceID;
 
 @end
 

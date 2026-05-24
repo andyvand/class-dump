@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PGSchemaPGPromptResponseTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSString *_promptResponse;
-    NSString *_grammar;
-    _Bool _hasLinkId;
-    _Bool _hasPromptResponse;
-    _Bool _hasGrammar;
 }
 
 - (void);
@@ -27,33 +22,27 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (void)@". (%s);
+- (void)}d ;
+- (id)o update reachable emails with error (%@).;
+- (_Bool)r:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)at %@ is;
 - (id);
 - (id)
 × ;
-- (id);
+- (id)_hasQnaId;
 - (id)N,V_hasClientFeatureTriggered;
-- (void)_HOME_ACCESSORY;
+- (void)CDADEVICECLASS_HOME_ACCESSORY;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *grammar; // @synthesize grammar=_grammar;
-@property(nonatomic) _Bool hasGrammar; // @synthesize hasGrammar=_hasGrammar;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasPromptResponse; // @synthesize hasPromptResponse=_hasPromptResponse;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSString *promptResponse; // @synthesize promptResponse=_promptResponse;
 
 @end
 

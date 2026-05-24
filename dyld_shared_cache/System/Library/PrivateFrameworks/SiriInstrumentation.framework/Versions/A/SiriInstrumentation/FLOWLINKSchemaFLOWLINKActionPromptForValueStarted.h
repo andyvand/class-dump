@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLOWLINKSchemaFLOWLINKActionParameter, NSData;
+@class FLOWLINKSchemaFLOWLINKActionParameter;
 
 @interface FLOWLINKSchemaFLOWLINKActionPromptForValueStarted : SISchemaInstrumentationMessage
 {
     FLOWLINKSchemaFLOWLINKActionParameter *_parameter;
-    _Bool _hasParameter;
 }
 
 - (void);
@@ -20,20 +19,18 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)nfcHardwareRegistersAccess;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id)e"b1"closestPositiveExampleScore"b1};
-- (id)d;
+- (id)DUSchemaSpeechAudioRecord;
 - (id)h0;
 - (void)¨²¼ÿ@³;
 
 // Remaining properties
-@property(nonatomic) _Bool hasParameter; // @synthesize hasParameter=_hasParameter;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) FLOWLINKSchemaFLOWLINKActionParameter *parameter; // @synthesize parameter=_parameter;
 
 @end

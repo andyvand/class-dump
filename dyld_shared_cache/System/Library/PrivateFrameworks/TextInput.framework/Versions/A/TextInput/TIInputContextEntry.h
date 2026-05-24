@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSPersonNameComponents, NSSet, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface TIInputContextEntry
 {
     _Bool _isFromMe;
-    NSString *_text;
-    NSString *_senderIdentifier;
-    NSDate *_timestamp;
-    NSPersonNameComponents *_senderName;
-    NSString *_entryIdentifier;
-    NSSet *_primaryRecipientIdentifiers;
-    NSSet *_secondaryRecipientIdentifiers;
-    long long _entryType;
-    NSString *_threadIdentifier;
-    NSString *_spotlightCacheKey;
 }
 
 + (_Bool);
@@ -28,9 +18,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (id)#;
 - (id);
-- (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -41,7 +31,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (long long);
-- (id);
+- (id)pipelineFiltersForOriginalGeometry;
 - (id);
 - (id);
 - (id);
@@ -49,8 +39,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
+- (id)ZU;
+- (void)B;
 - (long long);
 - (void)¾
 
@@ -65,17 +55,7 @@ __attribute__((visibility("hidden")))
 ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *entryIdentifier; // @synthesize entryIdentifier=_entryIdentifier;
-@property(readonly, nonatomic) long long entryType; // @synthesize entryType=_entryType;
-@property(readonly, nonatomic) _Bool isFromMe; // @synthesize isFromMe=_isFromMe;
-@property(readonly, nonatomic) NSSet *primaryRecipientIdentifiers; // @synthesize primaryRecipientIdentifiers=_primaryRecipientIdentifiers;
-@property(readonly, nonatomic) NSSet *secondaryRecipientIdentifiers; // @synthesize secondaryRecipientIdentifiers=_secondaryRecipientIdentifiers;
-@property(readonly, copy, nonatomic) NSString *senderIdentifier; // @synthesize senderIdentifier=_senderIdentifier;
-@property(readonly, nonatomic) NSPersonNameComponents *senderName; // @synthesize senderName=_senderName;
-@property(readonly, copy, nonatomic) NSString *spotlightCacheKey; // @synthesize spotlightCacheKey=_spotlightCacheKey;
 @property(readonly, copy, nonatomic) NSString *text; // @synthesize text=_text;
-@property(readonly, copy, nonatomic) NSString *threadIdentifier; // @synthesize threadIdentifier=_threadIdentifier;
-@property(readonly, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

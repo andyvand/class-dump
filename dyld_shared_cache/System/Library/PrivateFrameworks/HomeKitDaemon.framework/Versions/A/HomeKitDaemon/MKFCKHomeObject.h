@@ -6,7 +6,7 @@
 
 #import <HomeKitDaemon/MKFCKModel.h>
 
-@class MKFCKHome, NSString, NSUUID;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface MKFCKHomeObject : MKFCKModel
@@ -15,32 +15,24 @@ __attribute__((visibility("hidden")))
 
 + (unsigned long long);
 + (_Bool);
-+ (_Bool);
++ (_Bool)vices/RemoteManagement/ScreensharingAgent.bundle/Contents/Support/SSAssistanceCursor.app/Contents/MacOS/SSAssistanceCursor;
 + (id);
 + (_Bool)ù
 × ;
-+ (_Bool)pateOptionsInMessage:(id)arg1 error:(id)arg2;
-+ (_Bool)sion;
++ (_Bool)upateOptionsInMessage:(id)arg1 error:(id)arg2;
++ (_Bool)majorVersion;
 + (_Bool)%@ and restricted guest:(id)arg1 %@;
 - (_Bool);
 - (_Bool);
+- (_Bool)__swift_as_entry__TEXT;
+- (_Bool)fileExistsAtPath:(id)arg1;
+- (_Bool)checkin is completed;
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void)ionLogEvent;
+- (void)AdaptiveTemperatureAutomationsConfigurationLogEvent;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) MKFCKHome *home; // @dynamic home;
 @property(copy, nonatomic) NSUUID *homeModelID; // @dynamic homeModelID;
-@property(readonly) Class superclass;
 
 @end
 

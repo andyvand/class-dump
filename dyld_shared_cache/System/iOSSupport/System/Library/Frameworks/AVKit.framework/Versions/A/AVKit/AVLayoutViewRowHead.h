@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AVLayoutViewRowHead
 {
     AVLayoutItemAttributes *_firstAttributesInLayoutOrder;
-    AVLayoutItemAttributes *_firstAttributesInPriorityOrder;
 }
 
 - (id);
@@ -21,7 +20,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) AVLayoutItemAttributes *firstAttributesInLayoutOrder; // @synthesize firstAttributesInLayoutOrder=_firstAttributesInLayoutOrder;
-@property(readonly, nonatomic) __weak AVLayoutItemAttributes *firstAttributesInPriorityOrder; // @synthesize firstAttributesInPriorityOrder=_firstAttributesInPriorityOrder;
 
 @end
 

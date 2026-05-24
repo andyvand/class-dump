@@ -9,7 +9,7 @@
     id actor;
 }
 
-- (id);
+- (id)E;
 - (_Bool);
 - (void)A;
 

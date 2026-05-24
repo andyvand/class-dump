@@ -15,13 +15,11 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)r&);
 - (_Bool);
 - (id);
 
 // Remaining properties
-@property(nonatomic) long long fallbackClassification; // @dynamic fallbackClassification;
-@property(retain, nonatomic) NSDictionary *sizeRatioByStrokeIdentifier; // @dynamic sizeRatioByStrokeIdentifier;
 @property(retain, nonatomic) NSDictionary *supportByStrokeIdentifier; // @dynamic supportByStrokeIdentifier;
 
 @end

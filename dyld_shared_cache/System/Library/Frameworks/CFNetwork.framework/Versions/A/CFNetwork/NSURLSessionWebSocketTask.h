@@ -6,28 +6,22 @@
 
 #import <CFNetwork/NSURLSessionTask.h>
 
-@class NSData;
-
 @interface NSURLSessionWebSocketTask : NSURLSessionTask
 {
     long long _maximumMessageSize;
-    long long _closeCode;
-    NSData *_closeReason;
 }
 
 - (void);
-- (id);
+- (id)Ncircumflexbelow;
 - (void);
 - (void);
-- (void);
+- (void)9;
 - (void);
 - (long long);
 - (long long);
 - (void);
 
 // Remaining properties
-@property(readonly) long long closeCode; // @synthesize closeCode=_closeCode;
-@property(readonly, copy) NSData *closeReason; // @synthesize closeReason=_closeReason;
 @property long long maximumMessageSize; // @synthesize maximumMessageSize=_maximumMessageSize;
 
 @end

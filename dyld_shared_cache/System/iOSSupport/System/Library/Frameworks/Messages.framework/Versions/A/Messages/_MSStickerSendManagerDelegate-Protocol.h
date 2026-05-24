@@ -5,5 +5,6 @@
 //
 
 @protocol _MSStickerSendManagerDelegate
+- (void)(8;
 @end
 

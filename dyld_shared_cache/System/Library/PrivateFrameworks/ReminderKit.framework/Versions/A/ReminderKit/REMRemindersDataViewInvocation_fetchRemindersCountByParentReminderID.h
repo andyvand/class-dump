@@ -16,9 +16,9 @@
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void)áê°!FùÑr ð1Â0@ù

@@ -6,8 +6,6 @@
 
 #import <HomeKitDaemon/MKFLocalBulletinCondition.h>
 
-@class NSSet;
-
 __attribute__((visibility("hidden")))
 @interface MKFLocalBulletinConditionPresence : MKFLocalBulletinCondition
 {
@@ -17,8 +15,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) long long presenceEventType; // @dynamic presenceEventType;
-@property(nonatomic) long long presenceEventUserType; // @dynamic presenceEventUserType;
-@property(retain, nonatomic) NSSet *userModelIDs; // @dynamic userModelIDs;
 
 @end
 

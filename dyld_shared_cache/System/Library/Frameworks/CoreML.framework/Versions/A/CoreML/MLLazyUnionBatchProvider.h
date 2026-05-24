@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MLLazyUnionBatchProvider
 {
     id <MLBatchProvider> _first;
-    id <MLBatchProvider> _second;
 }
 
 - (id);
@@ -19,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long)1Â0@ù
 × ;
-- (id)fRows:numberOfColumns:error: /* Error: Ran out of types for this method. */;
+- (id)getShapeOfArrayOfSameLengthArrays:numberOfRows:numberOfColumns:error: /* Error: Ran out of types for this method. */;
 - (void): /* Error: Ran out of types for this method. */;
 - (void)ÀB³N:(id)arg1 ³øý³Ó¬³þJ³³{$³i`³R³àì³®~³½
 ³Aú³T³»¾³¸³O³¦Â³kÏ³¨1³`³-Ç³Ø³òÓ³m³6)³ÚÂ³7Ï³?³¾Ó³Î(³c³í³~³³ôB³ö³]é
@@ -27,9 +26,7 @@ __attribute__((visibility("hidden")))
 b©ù¤`©ùb©ù¹d©ùðj©ùéh©ù;
 
 // Remaining properties
-@property(readonly, nonatomic) long long count;
 @property(retain, nonatomic) id <MLBatchProvider> first; // @synthesize first=_first;
-@property(retain, nonatomic) id <MLBatchProvider> second; // @synthesize second=_second;
 
 @end
 

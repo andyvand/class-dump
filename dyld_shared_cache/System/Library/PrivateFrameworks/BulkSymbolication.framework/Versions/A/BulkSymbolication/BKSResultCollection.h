@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet;
+@class NSDictionary;
 
 @interface BKSResultCollection
 {
     NSDictionary *_symbolOwnerUUIDToSegmentNameToOffsetToResult;
-    NSDictionary *_symbolOwnerUUIDToOffsetIntoSymbolOwnerToResult;
-    NSDictionary *_symbolOwnerUUIDToAllResults;
-    NSSet *_allSymbolOwners;
-    NSDictionary *_requestToResult;
-    NSDictionary *_dyldSharedCacheUUIDToAllLayoutResults;
 }
 
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)q	;
+- (id)B9	;
 - (id);
 - (id);
 - (id);
@@ -30,11 +25,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *allSymbolOwners; // @synthesize allSymbolOwners=_allSymbolOwners;
-@property(readonly, nonatomic) NSDictionary *dyldSharedCacheUUIDToAllLayoutResults; // @synthesize dyldSharedCacheUUIDToAllLayoutResults=_dyldSharedCacheUUIDToAllLayoutResults;
-@property(readonly, nonatomic) NSDictionary *requestToResult; // @synthesize requestToResult=_requestToResult;
-@property(readonly, nonatomic) NSDictionary *symbolOwnerUUIDToAllResults; // @synthesize symbolOwnerUUIDToAllResults=_symbolOwnerUUIDToAllResults;
-@property(readonly, nonatomic) NSDictionary *symbolOwnerUUIDToOffsetIntoSymbolOwnerToResult; // @synthesize symbolOwnerUUIDToOffsetIntoSymbolOwnerToResult=_symbolOwnerUUIDToOffsetIntoSymbolOwnerToResult;
 @property(readonly, nonatomic) NSDictionary *symbolOwnerUUIDToSegmentNameToOffsetToResult; // @synthesize symbolOwnerUUIDToSegmentNameToOffsetToResult=_symbolOwnerUUIDToSegmentNameToOffsetToResult;
 
 @end

@@ -7,16 +7,12 @@
 @interface NewsUI2.LinkActionActivityProvider
 {
     id router;
-    id qualifier;
-    id handler;
-    id linkedContentProvider;
-    id commandCenter;
-    id tracker;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)ataDetectorsCore.framework/Versions/A/PlugIns/PhoneNumbers.plugin/Versions/A/PhoneNumbers;
+- (id)t %s, osversion %s
+;
+- (id)";
 - (void);
 
 @end

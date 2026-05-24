@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICAppearanceInfo, NSAppearance, NSColor;
-
 @interface UnknownClass (ICDidMoveToWindowHandler)
 + (void);
 + (_Bool);
@@ -26,7 +24,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (double);
+- (double)h;
 - (void);
 - (id);
 - (struct CGRect);
@@ -40,7 +38,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -50,19 +48,6 @@
 - (struct CGRect);
 
 // Remaining properties
-@property(readonly, nonatomic) ICAppearanceInfo *ic_appearanceInfo;
-@property(readonly, nonatomic) ICAppearanceInfo *ic_appearanceInfoForContent;
-@property(copy, nonatomic) NSColor *ic_backgroundColor;
 @property(readonly, nonatomic) double ic_backingScaleFactor;
-@property(readonly, nonatomic) _Bool ic_containsFirstResponder;
-@property(readonly, nonatomic) struct CGRect ic_contentBounds;
-@property(readonly, nonatomic) struct CGRect ic_contentFrame;
-@property(readonly, nonatomic) double ic_hairlineWidth;
-@property(readonly, nonatomic) _Bool ic_isFirstResponder;
-@property(readonly, nonatomic) _Bool ic_isOrContainsFirstResponder;
-@property(readonly, nonatomic) _Bool ic_isRTL;
-@property(readonly, nonatomic) _Bool ic_isVisible;
-@property(readonly, nonatomic) NSAppearance *ic_platformAppearanceObject;
-@property(readonly, nonatomic) struct CGRect ic_rectInScreen;
 @end
 

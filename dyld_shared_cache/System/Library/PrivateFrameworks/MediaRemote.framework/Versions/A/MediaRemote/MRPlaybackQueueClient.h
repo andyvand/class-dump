@@ -4,21 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface MRPlaybackQueueClient
 {
     NSMutableDictionary *_controllers;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)com_apple_mobilesms_partIndex;
 - (id);
-- (void);
+- (void)stopObservingNotificationWithRequestIdentifier:(id)arg1;
 - (id);
 - (void)yProtobuf",&,N,V_metrics;
 - (void)P56|6Ä7;

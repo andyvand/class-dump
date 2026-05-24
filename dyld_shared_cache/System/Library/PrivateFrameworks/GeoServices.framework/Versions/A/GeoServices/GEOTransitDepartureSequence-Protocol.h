@@ -4,31 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString, NSTimeZone;
-@protocol GEOTransitLine;
+@class NSArray, NSString, NSTimeZone;
 
 @protocol GEOTransitDepartureSequence
+- (NSArray *)C;
+- (NSString *);
+- (NSString *)initYearlyRecurrenceWithInterval:forMonthsOfTheYear:end: /* Error: Ran out of types for this method. */;
 - (NSString *)_resultDisplayHeader;
 - (long long)à;
 - (NSTimeZone *)P;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *containerDisplayName;
-@property(readonly, nonatomic) NSArray *containerLabelItems;
-@property(readonly, nonatomic) unsigned long long departureTimeDisplayStyle;
-@property(readonly, nonatomic) NSString *direction;
-@property(readonly, nonatomic) NSString *displayName;
-@property(readonly, nonatomic) long long displayStyle;
-@property(readonly, nonatomic) _Bool hasWalkingETA;
-@property(readonly, nonatomic) NSString *headsign;
-@property(readonly, nonatomic) _Bool isLowFrequency;
-@property(readonly, nonatomic) id <GEOTransitLine> line;
-@property(readonly, nonatomic) NSSet *nextStopIDs;
-@property(readonly, nonatomic) NSArray *operatingHours;
-@property(readonly, nonatomic) NSString *originName;
-@property(readonly, nonatomic) NSTimeZone *timeZone;
 @property(readonly, nonatomic) unsigned long long transitId;
-@property(readonly, nonatomic) NSString *uniqueId;
-@property(readonly, nonatomic) unsigned long long walkingETA;
 @end
 

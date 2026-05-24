@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface GEOComposedStringStyleReplacementResult
 {
     int type;
-    NSString *string;
-    NSString *token;
-    NSDictionary *attributes;
-    struct _NSRange range;
 }
 
 - (id);
-- (int);
-- (struct _NSRange);
+- (int)_setPositionOffset:animated: /* Error: Ran out of types for this method. */;
+- (struct _NSRange)>;
 - (id);
 - (id)!PAù±¸*ð1Â0@ù
 × ;
 - (void)I9&¡5;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *attributes;
-@property(readonly, nonatomic) struct _NSRange range;
 @property(readonly, nonatomic) NSString *string;
-@property(readonly, nonatomic) NSString *token;
-@property(readonly, nonatomic) int type;
 
 @end
 

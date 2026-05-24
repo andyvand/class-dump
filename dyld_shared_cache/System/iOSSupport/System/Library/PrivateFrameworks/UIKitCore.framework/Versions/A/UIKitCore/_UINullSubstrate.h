@@ -10,7 +10,7 @@
 {
 }
 
-- (void)datingContentLayout;
+- (void)isUpdatingContentLayout;
 - (void)_borderStyle;
 
 @end

@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)osedCredential = %@, previousFailureCount = %ld, failureResponse = %@, error = %@/%ld};
 - (void);
 - (void);
-- (id);
+- (id)setByAddingObjectsFromSet: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 

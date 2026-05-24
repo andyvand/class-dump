@@ -6,23 +6,14 @@
 
 #import <CoreBluetooth/CBAttribute.h>
 
-@class CBPeripheral, CBService, NSArray, NSData, NSNumber;
+@class CBService;
 
 @interface CBCharacteristic : CBAttribute
 {
     _Bool _isBroadcasted;
-    _Bool _isNotifying;
-    CBService *_service;
-    unsigned long long _properties;
-    NSData *_value;
-    NSArray *_descriptors;
-    unsigned long long _valueTimestamp;
-    CBPeripheral *_peripheral;
-    NSNumber *_handle;
-    NSNumber *_valueHandle;
 }
 
-- (unsigned long long);
+- (unsigned long long).;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -39,25 +30,16 @@
 - (id);
 - (void);
 - (void);
+- (id)FPPacer;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (void)hN;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSArray *descriptors; // @synthesize descriptors=_descriptors;
-@property(readonly, nonatomic) NSNumber *handle; // @synthesize handle=_handle;
-@property(readonly) _Bool isBroadcasted; // @synthesize isBroadcasted=_isBroadcasted;
-@property _Bool isNotifying; // @synthesize isNotifying=_isNotifying;
-@property(readonly, nonatomic) CBPeripheral *peripheral; // @synthesize peripheral=_peripheral;
-@property(nonatomic) unsigned long long properties; // @synthesize properties=_properties;
 @property(nonatomic) __weak CBService *service; // @synthesize service=_service;
-@property(retain) NSData *value; // @synthesize value=_value;
-@property(readonly, nonatomic) NSNumber *valueHandle; // @synthesize valueHandle=_valueHandle;
-@property(readonly, nonatomic) unsigned long long valueTimestamp; // @synthesize valueTimestamp=_valueTimestamp;
 
 @end
 

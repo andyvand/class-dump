@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPPropertySet;
 @protocol MPCQueueControllerBehaviorMusicSharePlayDelegate;
 
 @protocol MPCQueueControllerBehaviorMusicSharePlay
+- (void)__DATA_CONST;
+- (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <MPCQueueControllerBehaviorMusicSharePlayDelegate> musicSharePlayBehaviorDelegate;
-@property(readonly, nonatomic) long long queueExplicitContentState;
-@property(copy, nonatomic) MPPropertySet *requestedPropertySetForEvents;
 @end
 

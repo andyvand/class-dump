@@ -4,20 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL, NSURLSessionConfiguration;
+@class NSURL;
 
 @interface OspreyConnectionConfiguration
 {
     NSURL *_connectionUrl;
-    NSURLSessionConfiguration *_urlSessionConfiguration;
 }
 
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)8;
 - (id);
 - (void)è¼Nä¾KKè!¯³
 QÈè­ÕáG¢å*íàÛÒ4^v¼~e%K`^ÄR¸ïOL­md¡9{ïdñZ3ýöÞýñS¶¿2N´`
@@ -25,7 +24,6 @@ QÈè­ÕáG¢å*íàÛÒ4^v¼~e%K`^ÄR¸ïOL­md¡9{ïdñ
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *connectionUrl; // @synthesize connectionUrl=_connectionUrl;
-@property(retain, nonatomic) NSURLSessionConfiguration *urlSessionConfiguration; // @synthesize urlSessionConfiguration=_urlSessionConfiguration;
 
 @end
 

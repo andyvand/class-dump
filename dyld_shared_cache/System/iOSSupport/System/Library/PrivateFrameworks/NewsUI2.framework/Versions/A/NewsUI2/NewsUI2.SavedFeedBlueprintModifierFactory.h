@@ -7,7 +7,6 @@
 @interface NewsUI2.SavedFeedBlueprintModifierFactory
 {
     id headlineModelFactory;
-    id sectionFactory;
 }
 
 @end

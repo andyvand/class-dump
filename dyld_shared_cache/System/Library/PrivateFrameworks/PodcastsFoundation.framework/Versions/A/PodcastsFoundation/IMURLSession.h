@@ -10,8 +10,6 @@
 @interface IMURLSession
 {
     NSObject<OS_dispatch_queue> *_syncQueue;
-    long long _state;
-    _Bool _followsRedirects;
 }
 
 - (void);
@@ -22,13 +20,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (_Bool)eaders: /* Error: Ran out of types for this method. */;
+- (_Bool)setHTTPAdditionalHeaders: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool followsRedirects; // @synthesize followsRedirects=_followsRedirects;
-@property(readonly, nonatomic) _Bool isUsable;
-@property(readonly, nonatomic) long long state;
 
 @end
 

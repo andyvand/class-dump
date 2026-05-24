@@ -6,14 +6,12 @@
 
 #import <Contacts/CNPredicate.h>
 
-@class NSArray, NSString;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface CNCDGroupsWithMembersPredicate : CNPredicate
 {
     _Bool _includeAllParentGroups;
-    NSArray *_recordIdentifiers;
-    NSString *_relationshipKey;
 }
 
 + (_Bool);
@@ -28,21 +26,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)21SipAlternativeService;
 - (void);
-- (void)ror: /* Error: Ran out of types for this method. */;
+- (void)verifyChangeHistoryForClientIdentifier:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property _Bool includeAllParentGroups; // @synthesize includeAllParentGroups=_includeAllParentGroups;
 @property(retain) NSArray *recordIdentifiers; // @synthesize recordIdentifiers=_recordIdentifiers;
-@property(retain) NSString *relationshipKey; // @synthesize relationshipKey=_relationshipKey;
-@property(readonly) Class superclass;
 
 @end
 

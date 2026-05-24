@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLModel, MLModelAssetDescriptionVendor, MLModelAssetModelStructureVendor, MLModelAssetModelVendor, MLModelAssetResourceFactory, MLModelConfiguration, NSDictionary, NSURL;
-@protocol MLClassifier, MLRegressor;
+@class MLModelAssetResourceFactory;
 
 @interface MLModelAsset
 {
     MLModelAssetResourceFactory *_resourceFactory;
-    MLModelAssetDescriptionVendor *_descriptionVendor;
-    MLModelAssetModelVendor *_modelVendor;
-    MLModelAssetModelStructureVendor *_structureVendor;
-    MLModelConfiguration *_lastConfiguration;
-    NSDictionary *_archiveData;
 }
 
-+ (id);
-+ (_Bool);
-+ (_Bool);
-+ (id);
++ (id)Rt;
++ (_Bool)ntRoadData * _Nonnull, const CLTripSegmentModeOfTransport, CLTripSegmentProcessorOptions * _Nonnull, TripSegmentOutputDataHandler _Nonnull);
++ (_Bool):(id)arg1:(id *)arg2 RenderResolution>, unsigned long>=Q}(Data={Allocated=^{RenderResolution}Q}{Inlined=[32C]})}}{vector<webrtc::FrameDependencyTemplate, std::allocator<webrtc::FrameDependencyTemplate>>=^{FrameDependencyTemplate}^{FrameDependencyTemplate}{?=^{FrameDependencyTemplate}}}})B}{optional<webrtc::ScalabilityMode>=(?=cC)B}{optional<webrtc::FrameInstrumentationData>=(?=c{FrameInstrumentationData=iBdii{vector<double, std::allocator<double>>=^d^d{?=^d}}})B}}16@0:8 /* Error: Ran out of types for this method. */;
++ (id)uildRoots/4~CN9SugADH2Fgo5tmM8vtIg6yfmyfRDs4wRRprzk/Library/Caches/com.apple.xbs/TemporaryDirectory.V8n6pu/Sources/libwebrtc/Source/ThirdParty/libwebrtc/Source/third_party/boringssl/src/crypto/asn1/a_int.cc;
 + (id);
 + (id);
 + (id);
@@ -37,20 +31,20 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)webrtc/audio/utility/channel_mixing_matrix.cc;
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
 - (id);
 - (id);
 - (id);
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -61,20 +55,10 @@
 - (id);
 - (id);
 - (void)CPU.;
-- (id)ibuteKernel;
+- (id)unsupportedAttributeKernel;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *archiveData; // @synthesize archiveData=_archiveData;
-@property(readonly, nonatomic) id <MLClassifier> classifier;
-@property(readonly, copy, nonatomic) NSURL *compiledModelURL;
-@property(readonly) NSURL *compiledURL;
-@property(readonly, nonatomic) MLModelAssetDescriptionVendor *descriptionVendor; // @synthesize descriptionVendor=_descriptionVendor;
-@property(copy, nonatomic) MLModelConfiguration *lastConfiguration; // @synthesize lastConfiguration=_lastConfiguration;
-@property(readonly, nonatomic) MLModel *model;
-@property(readonly, nonatomic) MLModelAssetModelVendor *modelVendor; // @synthesize modelVendor=_modelVendor;
-@property(readonly, nonatomic) id <MLRegressor> regressor;
 @property(readonly, nonatomic) MLModelAssetResourceFactory *resourceFactory; // @synthesize resourceFactory=_resourceFactory;
-@property(readonly, nonatomic) MLModelAssetModelStructureVendor *structureVendor; // @synthesize structureVendor=_structureVendor;
 
 @end
 

@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol BMFileServer
+- (void),;
+- (void)LE:(NSString *)arg1 %d) (OE:(void (^)(NSError *))arg2 %d) (LH:%@) (OH:%@) /* Error: Ran out of types for this method. */;
 @end
 

@@ -7,8 +7,6 @@
 @interface PhotoAnalysis.CreativePromptTemplateCache
 {
     id source;
-    id logger;
-    id localizedStringProvider;
 }
 
 @end

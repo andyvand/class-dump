@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString, SignpostAggregationValueStats;
+@class SignpostAggregationValueStats;
 
 @interface SignpostAggregationGroupMeasuredValue
 {
     _Bool _telemetryEnabled;
-    NSString *_groupName;
-    NSString *_type;
-    NSString *_unit;
-    SignpostAggregationValueStats *_stats;
 }
 
 + (id);
@@ -26,13 +22,13 @@
 - (id);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)tokenWithLabel:invocationBlock: /* Error: Ran out of types for this method. */;
+- (id)linearSystemOrder;
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
@@ -41,24 +37,7 @@
 - (id)e scope for PID %d;
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *average;
-@property(readonly, nonatomic) unsigned long long count;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *groupName; // @synthesize groupName=_groupName;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSNumber *max;
-@property(readonly, nonatomic) NSNumber *min;
 @property(readonly, nonatomic) SignpostAggregationValueStats *stats; // @synthesize stats=_stats;
-@property(readonly, nonatomic) NSNumber *stddev;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool telemetryEnabled; // @synthesize telemetryEnabled=_telemetryEnabled;
-@property(readonly, nonatomic) NSNumber *total;
-@property(readonly, nonatomic) NSString *type; // @synthesize type=_type;
-@property(readonly, nonatomic) NSString *unit; // @synthesize unit=_unit;
 
 @end
 

@@ -4,29 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOActiveTileGroupReserved
 {
     PBUnknownFields *_unknownFields;
-    NSString *_authToken;
 }
 
-+ (_Bool)tHasMapViewLocationTouristTimestamp:(id)arg1;
++ (_Bool)setHasMapViewLocationTouristTimestamp:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_processFetchVoiceProfileCommandFromPeerId:(id)arg1 requestInfo:withReply: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)ng:(struct _NSZone *)arg1 options:range: /* Error: Ran out of types for this method. */;
+- (id)matchesInString:(struct _NSZone *)arg1 options:range: /* Error: Ran out of types for this method. */;
 - (id)xM;
-- (id)imumSectionsNumberForDisplayIndexList;
+- (id)GEOVenuesMinimumSectionsNumberForDisplayIndexList;
 - (id);
 - (_Bool);
 - (void);
@@ -34,9 +33,7 @@
 - (void)tÿtU:(id)arg1 >=;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *authToken;
 @property(readonly, nonatomic) _Bool hasAuthToken;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

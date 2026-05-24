@@ -4,47 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NTPBConfig;
-
 @interface NTPBABConfigBucket
 {
     long long _bucketCeiling;
-    long long _bucketFloor;
-    NTPBConfig *_config;
-    struct {
-        unsigned int bucketCeiling:1;
-        unsigned int bucketFloor:1;
-    } _has;
 }
 
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (long long);
-- (long long);
-- (void);
+- (void)_updateRelatedOverlayVisible;
+- (void)_updateRelatedOverlayVisibilityFractionAnimator;
+- (void)_updateColorGradeKind;
+- (_Bool)_selectionDelegate;
+- (_Bool)_selectionDecorationStyle;
+- (long long)_registerRedoWithUndoManager: /* Error: Ran out of types for this method. */;
+- (long long)_registerMomentShareStatusPresentation;
+- (void)_prefetchIndexesByFetchResult:(long long)arg1 onlyThumbnails: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (_Bool);
 - (id);
+- (id);
 - (id);
-- (id);
-- (void)ountOfSubscriptionsDetected;
+- (void)countOfSubscriptionsDetected;
 
 // Remaining properties
-@property(nonatomic) long long bucketCeiling; // @synthesize bucketCeiling=_bucketCeiling;
-@property(nonatomic) long long bucketFloor; // @synthesize bucketFloor=_bucketFloor;
-@property(retain, nonatomic) NTPBConfig *config; // @synthesize config=_config;
-@property(nonatomic) _Bool hasBucketCeiling;
 @property(nonatomic) _Bool hasBucketFloor;
-@property(readonly, nonatomic) _Bool hasConfig;
 
 @end
 

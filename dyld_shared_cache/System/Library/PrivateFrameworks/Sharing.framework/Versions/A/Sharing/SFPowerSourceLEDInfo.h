@@ -7,7 +7,6 @@
 @interface SFPowerSourceLEDInfo
 {
     int _LEDColor;
-    int _LEDState;
 }
 
 + (_Bool);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) int LEDColor; // @synthesize LEDColor=_LEDColor;
-@property(nonatomic) int LEDState; // @synthesize LEDState=_LEDState;
 
 @end
 

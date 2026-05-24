@@ -4,41 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOStyleAttributes, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDSCategorySearchResultSection
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_sectionHeaderDisplayName;
-    NSString *_sectionSubHeaderDisplayNameWithEnrichment;
-    NSString *_sectionSubHeaderDisplayName;
-    GEOStyleAttributes *_styleAttributes;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _categorySearchResultSectionCellType;
-    struct {
-        unsigned int has_categorySearchResultSectionCellType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_sectionHeaderDisplayName:1;
-        unsigned int read_sectionSubHeaderDisplayNameWithEnrichment:1;
-        unsigned int read_sectionSubHeaderDisplayName:1;
-        unsigned int read_styleAttributes:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)allInstalledSpeakerRecognitionAssetsForLanguage: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)!;
 - (id)ateURLLegacy"b1"read_announcementsSupportedLanguages"b1"read_announcementsURLLegacy"b1"read_attributions"b1"read_backgroundDispatcherURLLegacy"b1"read_backgroundRevGeoURLLegacy"b1"read_batchReverseGeocoderURLLegacy"b1"read_batchTrafficProbeURLLegacy"b1"read_bluePOIURLLegacy"b1"read_businessPortalBaseURLLegacy"b1"read_dataSet"b1"read_directionsURLLegacy"b1"read_dispatcherURLLegacy"b1"read_displayStrings"b1"read_environment"b1"read_etaURLLegacy"b1"read_explicitResources"b1"read_flyoverRegionVersions"b1"read_fontChecksums"b1"read_fonts"b1"read_iconChecksums"b1"read_icons"b1"read_locationShiftEnabledRegions"b1"read_logMessageUsageURLLegacy"b1"read_logMessageUsageV3URLLegacy"b1"read_muninBaseURL"b1"read_muninBuckets"b1"read_offlineMetadata"b1"read_polyLocationShiftURLLegacy"b1"read_proactiveRoutingURLLegacy"b1"read_problemCategoriesURLLegacy"b1"read_problemOptInURLLegacy"b1"read_problemStatusURLLegacy"b1"read_problemSubmissionURLLegacy"b1"read_realtimeTrafficProbeURLLegacy"b1"read_regionalResourceCanonicalNameToFileName"b1"read_regionalResourceRegions"b1"read_regionalResourceTiles"b1"read_regionalResourcesURLLegacy"b1"read_regionalResources"b1"read_releaseInfo"b1"read_reserved"b1"read_resourceCanonicalNameToFileName"b1"read_resourcesURLLegacy"b1"read_resources"b1"read_reverseGeocoderVersionsURLLegacy"b1"read_searchAttributionManifestURLLegacy"b1"read_simpleETAURLLegacy"b1"read_spatialLookupURLLegacy"b1"read_staleResources"b1"read_styleSheetChecksums"b1"read_styleSheets"b1"read_textureChecksums"b1"read_textures"b1"read_tileSets"b1"read_uniqueIdentifier"b1"read_urlInfoSet"b1"read_versionManifest"b1"read_wifiConnectionQualityProbeURLLegacy"b1"read_xmlChecksums"b1"read_xmls"b1"wrote_anyField"b1};
-- (id)ids;
+- (id)_originalMuids;
 - (id)#;
 - (void);
 

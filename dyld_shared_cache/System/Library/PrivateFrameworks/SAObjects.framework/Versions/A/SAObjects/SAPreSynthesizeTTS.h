@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface SAPreSynthesizeTTS : SABaseClientBoundCommand
 {
@@ -16,7 +16,7 @@
 + (id);
 - (id);
 - (id);
-- (void);
+- (void)\U;
 - (void);
 - (void);
 - (void);
@@ -28,9 +28,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *aceAudioData;
-@property(copy, nonatomic) NSArray *dialogStrings;
-@property(copy, nonatomic) NSDictionary *speakableContextInfo;
-@property(copy, nonatomic) NSArray *streamIds;
 
 @end
 

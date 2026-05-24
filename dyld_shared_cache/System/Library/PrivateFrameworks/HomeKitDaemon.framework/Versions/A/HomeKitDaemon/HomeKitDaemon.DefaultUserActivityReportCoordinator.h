@@ -7,25 +7,15 @@
 @interface HomeKitDaemon.DefaultUserActivityReportCoordinator
 {
     id $defaultActor;
-    id homeUUID;
-    id messenger;
-    id dateProvider;
-    id backgroundTaskManager;
-    id periodicUpdateInterval;
-    id periodicUpdateTimerIdentifier;
-    id isCoordinating;
-    id detectorsByContributorType;
-    id currentReports;
-    id logger;
 }
 
 - (void);
 - (void);
+- (void)hasContentsTimestamp;
+- (void)_markHandleInflight:(id)arg1;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)_performEditWithStateTransformation:(id)arg1 containerEdit:(id)arg2 ]_block_invoke_2;
+- (void);
 - (id);
 
 @end

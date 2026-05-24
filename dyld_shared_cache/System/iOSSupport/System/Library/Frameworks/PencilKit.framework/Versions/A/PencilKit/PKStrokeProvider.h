@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSMutableOrderedSet, NSString, PKDrawing, PKHandwritingTranscriptionCache;
-@protocol CHStrokeProviderVersion;
+@class PKDrawing;
 
 @interface PKStrokeProvider
 {
     _Bool _disabled;
-    NSMutableOrderedSet *_strokeSlices;
-    _Bool _shouldProcessVisibleStrokes;
-    NSArray *_visibleOnscreenStrokes;
-    NSMutableDictionary *_strokeIdsByEncoding;
-    PKHandwritingTranscriptionCache *_transcriptionCache;
-    long long groupingPriority;
-    PKDrawing *_drawing;
 }
 
 + (id);
@@ -39,34 +31,17 @@
 - (struct CGSize);
 - (unsigned long long);
 - (long long);
-- (long long);
+- (long long)5;
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)extractValueFromDKEvent: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)@"PKMathRecognitionToken",R,N,V_token;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) PKDrawing *drawing; // @synthesize drawing=_drawing;
-@property(readonly) struct CGSize drawingCanvasSize;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
-
-@property(readonly) long long groupingPriority; // @synthesize groupingPriority;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSArray *orderedStrokes;
-@property(readonly) id <CHStrokeProviderVersion> strokeProviderVersion;
-@property(readonly) Class superclass;
-// Error: Property attributes should begin with the type ('T') attribute, property name: visibleStrokeEncodedIdentifiers
-// Property attributes: (null)
-
 
 @end
 

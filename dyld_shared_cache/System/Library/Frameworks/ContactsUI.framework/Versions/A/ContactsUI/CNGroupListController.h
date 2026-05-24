@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABGroupEntriesList, CNGroupListView, NSLayoutConstraint, NSString;
-@protocol ABGroupHelperFactory;
+@class NSLayoutConstraint;
 
 @interface CNGroupListController
 {
     unsigned long long _countOfGroupsViewed;
-    _Bool _ignoreSelectionDidChange;
-    CNGroupListView *_groupListView;
-    ABGroupEntriesList *_groupEntriesList;
-    id <ABGroupHelperFactory> _helperFactory;
-    NSLayoutConstraint *_groupListViewWidthConstraint;
-    NSString *_selectedGroupEntryIdentifier;
 }
 
 - (void);
@@ -31,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -55,7 +48,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (long long);
+- (long long);
 - (_Bool);
 - (_Bool);
 - (double);
@@ -65,19 +58,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long countOfGroupsViewed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak ABGroupEntriesList *groupEntriesList; // @synthesize groupEntriesList=_groupEntriesList;
-@property(retain, nonatomic) CNGroupListView *groupListView; // @synthesize groupListView=_groupListView;
 @property(retain, nonatomic) NSLayoutConstraint *groupListViewWidthConstraint; // @synthesize groupListViewWidthConstraint=_groupListViewWidthConstraint;
-@property(readonly) unsigned long long hash;
-@property(retain) id <ABGroupHelperFactory> helperFactory; // @synthesize helperFactory=_helperFactory;
-@property(copy) NSString *selectedGroupEntryIdentifier; // @synthesize selectedGroupEntryIdentifier=_selectedGroupEntryIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

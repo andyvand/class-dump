@@ -7,16 +7,12 @@
 @interface AppleMediaServicesUI.ReviewExtensionHostService
 {
     id hostView;
-    id reviewContext;
-    id bag;
-    id dismissContinuation;
-    id connection;
 }
 
 - (void);
-- (id);
-- (void);
-- (void)serInfo: /* Error: Ran out of types for this method. */;
+- (id)a;
+- (void)}@Failed to create asset directory with error:%@ /* Error: Ran out of types for this method. */;
+- (void)reportErrorWithCode:userInfo: /* Error: Ran out of types for this method. */;
 
 @end
 

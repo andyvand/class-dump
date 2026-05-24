@@ -9,10 +9,6 @@
 @interface HomeKitDaemon.AccountMetadata
 {
     id lock;
-    id _iCloudAltDSID;
-    id _firstName;
-    id _lastName;
-    id accountStore;
 }
 
 - (void);
@@ -24,9 +20,7 @@
 - (void)Mÿâ0¾>;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *firstName;
 @property(nonatomic, readonly) NSString *iCloudAltDSID;
-@property(nonatomic, readonly) NSString *lastName;
 
 @end
 

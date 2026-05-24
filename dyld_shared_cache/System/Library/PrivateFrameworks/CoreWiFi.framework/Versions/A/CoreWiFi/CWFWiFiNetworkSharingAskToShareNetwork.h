@@ -4,31 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CWFWiFiNetworkSharingAskToShareScanResult, CWFWiFiNetworkSharingNetwork;
+@class CWFWiFiNetworkSharingNetwork;
 
 @interface CWFWiFiNetworkSharingAskToShareNetwork
 {
     CWFWiFiNetworkSharingNetwork *_network;
-    CWFWiFiNetworkSharingAskToShareScanResult *_scanResult;
 }
 
 + (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)loopback;
 - (id);
 - (void);
 - (void)Candidates;
 
 // Remaining properties
 @property(copy) CWFWiFiNetworkSharingNetwork *network; // @synthesize network=_network;
-@property(copy) CWFWiFiNetworkSharingAskToShareScanResult *scanResult; // @synthesize scanResult=_scanResult;
 
 @end
 

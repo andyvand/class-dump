@@ -10,13 +10,12 @@ __attribute__((visibility("hidden")))
 @interface VCControlChannelFaceTime : VCControlChannel
 {
     unsigned int _callID;
-    struct tagHANDLE *_SIPHandle;
 }
 
 - (_Bool);
 - (void);
-- (id);
-- (void);
+- (id)R";
+- (void);
 
 @end
 

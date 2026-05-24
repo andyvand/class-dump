@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface DEGrammarFeature
 {
     struct GrammarFeature _Obj;
@@ -18,15 +16,12 @@
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void)Ð·Ð°ÐµÐ±Ð°Ð½ÐµÑ;
 
 // Remaining properties
 @property struct GrammarFeature Obj; // @synthesize Obj=_Obj;
-@property(readonly) _Bool isUniqueValues;
-@property(readonly) NSString *name;
-@property(readonly) unsigned long long type;
 
 @end
 

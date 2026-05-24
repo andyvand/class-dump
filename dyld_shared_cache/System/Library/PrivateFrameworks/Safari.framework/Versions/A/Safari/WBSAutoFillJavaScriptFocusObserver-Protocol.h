@@ -5,5 +5,9 @@
 //
 
 @protocol WBSAutoFillJavaScriptFocusObserver
+
+@optional
+- (void);
+- (void);
 @end
 

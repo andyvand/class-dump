@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id)× ;
-+ (id)ithContainerIdentifier:environment: /* Error: Ran out of types for this method. */;
++ (id)initWithContainerIdentifier:environment: /* Error: Ran out of types for this method. */;
 + (id)%s Request to add test/demo accessories;
 + (void)|A;
 

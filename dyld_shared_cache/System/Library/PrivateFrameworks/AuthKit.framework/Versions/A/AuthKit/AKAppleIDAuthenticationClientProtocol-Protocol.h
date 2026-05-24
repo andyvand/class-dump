@@ -5,6 +5,9 @@
 //
 
 @protocol AKAppleIDAuthenticationClientProtocol
+- (void)bb;
+- (void);
+- (void);
 - (void)èô
 ;
 @end

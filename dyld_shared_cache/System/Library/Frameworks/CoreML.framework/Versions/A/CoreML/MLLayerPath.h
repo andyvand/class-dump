@@ -9,14 +9,13 @@
 @interface MLLayerPath
 {
     NSArray *_scopedModelNames;
-    NSString *_layerName;
 }
 
-- (void);
+- (void)cess,%{public}d,iiSuccess,%{public}d,miSuccess,%{public}d;
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (id)I;
+- (unsigned long long)%;
 - (id);
 - (_Bool);
 - (void);
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *layerName; // @synthesize layerName=_layerName;
-@property(copy, nonatomic) NSArray *scopedModelNames; // @synthesize scopedModelNames=_scopedModelNames;
 
 @end
 

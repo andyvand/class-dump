@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ODDSiriSchemaODDAssistantProperties, ODDSiriSchemaODDDictationProperties, ODDSiriSchemaODDGeneralProperties, ODDSiriSchemaODDtvOSAssistantProperties;
+@class ODDSiriSchemaODDGeneralProperties;
 
 @interface ODDSiriSchemaODDtvOSDevicePropertiesReported : SISchemaInstrumentationMessage
 {
     ODDSiriSchemaODDGeneralProperties *_general;
-    ODDSiriSchemaODDAssistantProperties *_assistant;
-    ODDSiriSchemaODDDictationProperties *_dictation;
-    ODDSiriSchemaODDtvOSAssistantProperties *_tvOSAssistant;
-    _Bool _hasGeneral;
-    _Bool _hasAssistant;
-    _Bool _hasDictation;
-    _Bool _hasTvOSAssistant;
 }
 
 - (id);
@@ -47,21 +40,13 @@
 - (id);
 - (id);
 - (id)chingSiriLanguage;
-- (id)ss;
+- (id)deleteIsVoiceProfileSyncSuccess;
 - (void)ientEvent.cnvUsoGraphTier1.usoGraphTier1.linkedUsoEntityIdentifiers.backingAppBundleId;
 - (id);
 - (void)´ÿà;
 
 // Remaining properties
-@property(retain, nonatomic) ODDSiriSchemaODDAssistantProperties *assistant; // @synthesize assistant=_assistant;
-@property(retain, nonatomic) ODDSiriSchemaODDDictationProperties *dictation; // @synthesize dictation=_dictation;
 @property(retain, nonatomic) ODDSiriSchemaODDGeneralProperties *general; // @synthesize general=_general;
-@property(nonatomic) _Bool hasAssistant; // @synthesize hasAssistant=_hasAssistant;
-@property(nonatomic) _Bool hasDictation; // @synthesize hasDictation=_hasDictation;
-@property(nonatomic) _Bool hasGeneral; // @synthesize hasGeneral=_hasGeneral;
-@property(nonatomic) _Bool hasTvOSAssistant; // @synthesize hasTvOSAssistant=_hasTvOSAssistant;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) ODDSiriSchemaODDtvOSAssistantProperties *tvOSAssistant; // @synthesize tvOSAssistant=_tvOSAssistant;
 
 @end
 

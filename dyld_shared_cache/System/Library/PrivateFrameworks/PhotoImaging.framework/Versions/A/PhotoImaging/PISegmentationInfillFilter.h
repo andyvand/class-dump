@@ -4,33 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIImage;
-
 @interface PISegmentationInfillFilter
 {
     long long _infillAlgorithm;
-    CIImage *_inputImage;
-    CIImage *_inputMatteImage;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 + (id);
-+ (id);
++ (id)9h;
 + (id);
 - (void);
 - (long long);
-- (void);
+- (void)
+!;
 - (id);
 - (id);
 - (void);
 - (id);
-- (void)djustmentsFilter;
+- (void)stripAllTimeAdjustmentsFilter;
 
 // Remaining properties
 @property(nonatomic) long long infillAlgorithm; // @synthesize infillAlgorithm=_infillAlgorithm;
-@property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage=_inputImage;
-@property(retain, nonatomic) CIImage *inputMatteImage; // @synthesize inputMatteImage=_inputMatteImage;
 
 @end
 

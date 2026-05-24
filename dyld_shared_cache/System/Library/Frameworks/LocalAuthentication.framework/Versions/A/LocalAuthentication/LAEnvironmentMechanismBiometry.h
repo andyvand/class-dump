@@ -6,8 +6,6 @@
 
 #import <LocalAuthentication/LAEnvironmentMechanism.h>
 
-@class NSData;
-
 @interface LAEnvironmentMechanismBiometry : LAEnvironmentMechanism
 {
     long long _approvalState;
@@ -17,7 +15,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (long long);
@@ -25,11 +23,6 @@
 
 // Remaining properties
 @property(nonatomic) long long approvalState; // @synthesize approvalState=_approvalState;
-@property(readonly, nonatomic) long long biometryType;
-@property(readonly, nonatomic) _Bool builtInSensorInaccessible;
-@property(readonly, nonatomic) _Bool isEnrolled;
-@property(readonly, nonatomic) _Bool isLockedOut;
-@property(readonly, nonatomic) NSData *stateHash;
 
 @end
 

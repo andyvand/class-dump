@@ -4,26 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSLocale, NSString;
-
 @interface WFTemperatureFormatter
 {
     _Bool _includeDegreeSymbol;
-    int _inputUnit;
-    int _outputUnit;
-    int _symbolType;
-    struct UAMeasureFormat *_measureFormatter;
-    NSLocale *_locale;
-    NSString *_fallbackTemperatureString;
-    unsigned long long _roundingMode;
-    unsigned long long _maximumFractionDigits;
 }
 
 + (id);
 - (int);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (struct UAMeasureFormat *);
@@ -38,27 +28,19 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (id);
+- (id)emplate?;
 - (void);
 - (void);
 - (_Bool);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)X@�3;
 - (id);
-- (void);
+- (void)@;
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *fallbackTemperatureString; // @synthesize fallbackTemperatureString=_fallbackTemperatureString;
-@property(nonatomic) _Bool includeDegreeSymbol; // @synthesize includeDegreeSymbol=_includeDegreeSymbol;
-@property(nonatomic) int inputUnit; // @synthesize inputUnit=_inputUnit;
-@property(retain, nonatomic) NSLocale *locale; // @synthesize locale=_locale;
-@property(nonatomic) unsigned long long maximumFractionDigits; // @synthesize maximumFractionDigits=_maximumFractionDigits;
 @property(nonatomic) struct UAMeasureFormat *measureFormatter; // @synthesize measureFormatter=_measureFormatter;
-@property(nonatomic) int outputUnit; // @synthesize outputUnit=_outputUnit;
-@property(nonatomic) unsigned long long roundingMode; // @synthesize roundingMode=_roundingMode;
-@property(nonatomic) int symbolType; // @synthesize symbolType=_symbolType;
 
 @end
 

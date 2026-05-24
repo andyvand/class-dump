@@ -7,9 +7,11 @@
 @class GEOMapServiceTraits;
 
 @protocol MSPFeedbackReportTicket
+- (long long);
+- (void)messageHeaderDownloaded;
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;
-@property(readonly, nonatomic) long long userInfoType;
 @end
 

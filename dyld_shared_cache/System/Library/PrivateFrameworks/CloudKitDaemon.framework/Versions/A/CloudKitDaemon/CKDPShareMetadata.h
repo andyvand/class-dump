@@ -4,31 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPParticipant, CKDPRecordType, CKDPZoneSignedCryptoRequirements, NSData, NSString;
+@class CKDPParticipant;
 
 @interface CKDPShareMetadata
 {
     CKDPParticipant *_callerParticipant;
-    CKDPParticipant *_ownerParticipant;
-    int _participantPermission;
-    int _participantState;
-    int _participantType;
-    NSData *_protectedFullToken;
-    CKDPRecordType *_rootRecordType;
-    NSString *_routingKey;
-    CKDPZoneSignedCryptoRequirements *_signedCryptoRequirements;
-    _Bool _denyAccessRequests;
-    struct {
-        unsigned int participantPermission:1;
-        unsigned int participantState:1;
-        unsigned int participantType:1;
-        unsigned int denyAccessRequests:1;
-    } _has;
 }
 
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -45,30 +30,31 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (int);
 - (int);
 - (int);
-- (void);
-- (void);
-- (_Bool);
+- (void)V_imageView;
+- (void)AVTUIGlobalState;
+- (_Bool)for category %@, identifier %@;
 - (void);
 - (void);
 - (id);
 - (int);
 - (int);
-- (id);
+- (id)3;
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (void)`;
+- (unsigned long long)ndAnchorTime(main) rate change request:0.0 --> 1.0
+ /* Error: Ran out of types for this method. */;
+- (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)ded:isAbridged:disassociationImminent:bssTerminationIncluded:essDisassociationImminent:]_block_invoke /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -76,31 +62,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)8;
 - (void)$;
 - (id)%@;
 
 // Remaining properties
-@property(retain, nonatomic) CKDPParticipant *callerParticipant; // @synthesize callerParticipant=_callerParticipant;
-@property(nonatomic) _Bool denyAccessRequests; // @synthesize denyAccessRequests=_denyAccessRequests;
-@property(readonly, nonatomic) _Bool hasCallerParticipant;
-@property(nonatomic) _Bool hasDenyAccessRequests;
-@property(readonly, nonatomic) _Bool hasOwnerParticipant;
-@property(nonatomic) _Bool hasParticipantPermission;
-@property(nonatomic) _Bool hasParticipantState;
-@property(nonatomic) _Bool hasParticipantType;
-@property(readonly, nonatomic) _Bool hasProtectedFullToken;
-@property(readonly, nonatomic) _Bool hasRootRecordType;
 @property(readonly, nonatomic) _Bool hasRoutingKey;
-@property(readonly, nonatomic) _Bool hasSignedCryptoRequirements;
-@property(retain, nonatomic) CKDPParticipant *ownerParticipant; // @synthesize ownerParticipant=_ownerParticipant;
-@property(nonatomic) int participantPermission; // @synthesize participantPermission=_participantPermission;
-@property(nonatomic) int participantState; // @synthesize participantState=_participantState;
-@property(nonatomic) int participantType; // @synthesize participantType=_participantType;
-@property(retain, nonatomic) NSData *protectedFullToken; // @synthesize protectedFullToken=_protectedFullToken;
-@property(retain, nonatomic) CKDPRecordType *rootRecordType; // @synthesize rootRecordType=_rootRecordType;
-@property(retain, nonatomic) NSString *routingKey; // @synthesize routingKey=_routingKey;
-@property(retain, nonatomic) CKDPZoneSignedCryptoRequirements *signedCryptoRequirements; // @synthesize signedCryptoRequirements=_signedCryptoRequirements;
 
 @end
 

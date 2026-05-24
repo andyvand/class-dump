@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKAgentServiceDelegate, NSDictionary, NSMutableSet, NSObject, NSURL, NSXPCConnection;
-@protocol BKAgentService, OS_dispatch_queue;
+@class BKAgentServiceDelegate;
+@protocol BKAgentService;
 
 @interface BKAgent
 {
     BKAgentServiceDelegate *_serviceDelegate;
-    NSMutableSet *_interruptionHandlers;
-    NSDictionary *_libraryTokens;
-    int _notifyToken;
-    _Bool _libraryOnline;
-    NSObject<OS_dispatch_queue> *_replyQueue;
-    id <BKAgentService> _agentService;
-    NSXPCConnection *_agentServiceConnection;
-    NSURL *_currentLibraryDirectory;
-    unsigned long long _libraryVersion;
 }
 
 + (id);
@@ -36,7 +27,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -55,13 +46,13 @@
 - (_Bool);
 - (void);
 - (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -88,9 +79,9 @@
 - (id);
 - (void);
 - (id);
+- (void)timeoutAfter:(CDUnknownBlockType)arg1 on: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (id)ySDySo11REMObjectIDCSo21REMReminderChangeItemCG_So14REMSaveRequestCtcSg;
 - (id);
 - (void);
 - (unsigned long long);
@@ -101,14 +92,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) id <BKAgentService> agentService; // @synthesize agentService=_agentService;
-@property(retain, nonatomic) NSXPCConnection *agentServiceConnection; // @synthesize agentServiceConnection=_agentServiceConnection;
-@property(readonly, nonatomic) NSURL *booksDirectory;
-@property(readonly, nonatomic) NSURL *currentLibraryDirectory; // @synthesize currentLibraryDirectory=_currentLibraryDirectory;
-@property(readonly, nonatomic) NSURL *defaultLibraryDirectory;
-@property(readonly, nonatomic) NSURL *downloadsDirectory;
-@property(readonly, nonatomic) _Bool libraryOnline; // @synthesize libraryOnline=_libraryOnline;
-@property(readonly, nonatomic) unsigned long long libraryVersion; // @synthesize libraryVersion=_libraryVersion;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *replyQueue; // @synthesize replyQueue=_replyQueue;
 
 @end
 

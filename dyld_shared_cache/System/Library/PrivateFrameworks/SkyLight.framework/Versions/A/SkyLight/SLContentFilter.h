@@ -4,70 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
-
 @interface SLContentFilter
 {
     unsigned int _filterType;
-    unsigned int _windowID;
-    unsigned int _displayID;
-    NSString *_applicationID;
-    _Bool _shareAll;
-    NSSet *_includedWindows;
-    NSSet *_includedApplications;
-    NSSet *_excludedWindows;
-    NSSet *_excludedApplications;
-    _Bool _hideMenuBar;
-    _Bool _enforceSharingType;
-    NSSet *_includedPIDS;
-    NSSet *_excludedPIDS;
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool)NSFetchIndexElementType;
+- (void)er model with nonsensical relationship definitions;
+- (void)> 1;;
+- (void)MIN(%@) AS %@, ;
+- (id)qd;
+- (id)d;
+- (id)values.;
+- (id)ay. SQLite error code:(unsigned int)arg1 %d;
+- (id)%d;
+- (id)o rollback a transaction while a fetch was in progress;
+- (id)s;
+- (_Bool)%p:attempted to commit a transaction while a fetch was in progress /* Error: Ran out of types for this method. */;
+- (unsigned int)base %@;
+- (id)d only option at path:%@ /* Error: Ran out of types for this method. */;
+- (id)a new database file with the read only option at path:%@ /* Error: Ran out of types for this method. */;
+- (void)ry&cache=shared;
+- (_Bool):memory: /* Error: Ran out of types for this method. */;
+- (id)for relationship named:%@ /* Error: Ran out of types for this method. */;
+- (id)@;
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (unsigned int);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (unsigned int);
-- (id);
+- (void)= MAX((SELECT %@ FROM %@ WHERE %@ = '%@'), (SELECT CASE WHEN (SELECT COUNT(*) FROM %@ )== 0 THEN 0 ELSE (SELECT MAX(%@) FROM %@) END)) WHERE %@ = '%@';
 - (void);
 - (id);
 - (unsigned int);
+- (id)u;
+- (void);
+- (id);
+- (unsigned int)`;
 - (unsigned int){?=[2I]}{?=[8I]}}^{x_list_struct}^{CGSRegionObject}b1b1IBBQ{?=[8I]}^{CGSRegionObject}B^{CGSRegionObject}b1b1b1Qb1b1ii^{CGXConnectionCAContextTrackingState}^{__CGXConnectionBox}Bd^{__CFString}b1b1b1b1b1b1b1b1b1b1b1b1b1^vQ^{x_list_struct}Ib1ib1}20@0:8I16 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *applicationID; // @synthesize applicationID=_applicationID;
-@property(readonly, nonatomic) unsigned int displayID; // @synthesize displayID=_displayID;
-@property(nonatomic) _Bool enforceSharingType; // @synthesize enforceSharingType=_enforceSharingType;
-@property(readonly, nonatomic) NSSet *excludedApplications; // @synthesize excludedApplications=_excludedApplications;
-@property(retain, nonatomic) NSSet *excludedPIDS; // @synthesize excludedPIDS=_excludedPIDS;
-@property(readonly, nonatomic) NSSet *excludedWindows; // @synthesize excludedWindows=_excludedWindows;
 @property(readonly, nonatomic) unsigned int filterType; // @synthesize filterType=_filterType;
-@property(nonatomic) _Bool hideMenuBar; // @synthesize hideMenuBar=_hideMenuBar;
-@property(readonly, nonatomic) NSSet *includedApplications; // @synthesize includedApplications=_includedApplications;
-@property(retain, nonatomic) NSSet *includedPIDS; // @synthesize includedPIDS=_includedPIDS;
-@property(readonly, nonatomic) NSSet *includedWindows; // @synthesize includedWindows=_includedWindows;
-@property(readonly, nonatomic) _Bool shareAll; // @synthesize shareAll=_shareAll;
-@property(readonly, nonatomic) unsigned int windowID; // @synthesize windowID=_windowID;
 
 @end
 

@@ -4,84 +4,56 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEOPDAutocompleteEntry, GEOPDPlace, NSString, PBDataReader;
+@class PBDataReader;
 
 @interface GEORPUserSearchInput
 {
     PBDataReader *_reader;
-    GEOPDAutocompleteEntry *_autocompleteEntry;
-    GEOLatLng *_coordinate;
-    GEOPDPlace *_place;
-    NSString *_searchString;
-    NSString *_singleLineAddressString;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _origin;
-    struct {
-        unsigned int has_origin:1;
-        unsigned int read_autocompleteEntry:1;
-        unsigned int read_coordinate:1;
-        unsigned int read_place:1;
-        unsigned int read_searchString:1;
-        unsigned int read_singleLineAddressString:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)Name:(id)arg1;
++ (_Bool)setLocalizedName:(id)arg1;
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)subLocality;
 - (id);
 - (_Bool);
 - (int);
 - (id);
 - (void);
-- (void);
+- (void)7`;
 - (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void),V_assetConfigWaitingBuffer;
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)`
+;
 - (void);
 - (id);
 - (id)ntifier"b1"read_mapsSyncObjectType"b1"wrote_anyField"b1};
 - (void)"read_requestedComponents"b1"read_spokenLanguages"b1"wrote_anyField"b1};
-- (_Bool)nt;
-- (id)ginalLocation:placeTypeLimit:traits: /* Error: Ran out of types for this method. */;
-- (int)meBestEstimate: /* Error: Ran out of types for this method. */;
-- (void):(int)arg1;
-- (id)ultValue:sourcePtr: /* Error: Ran out of types for this method. */;
+- (_Bool)trafficRerouteFeedbacksCount;
+- (id)ticketForReverseGeocodeLocation:preserveOriginalLocation:placeTypeLimit:traits: /* Error: Ran out of types for this method. */;
+- (int)setTravelTimeBestEstimate: /* Error: Ran out of types for this method. */;
+- (void)initWithCollectionSuggestionResult:(int)arg1 mapsResults: /* Error: Ran out of types for this method. */;
+- (id)defaultForKey:defaultValue:sourcePtr: /* Error: Ran out of types for this method. */;
 - (id)ôÅ;
-- (id)mContainer;
+- (id)textItemContainer;
 - (_Bool)ccess;
 - (void);
 - (void)ÿÿÿÿ×ÿÿÿÿÿÿÿÙÿÿÿÿÿÿÿñÿÿÿìÿÿÿðÿÿÿêÿÿÿïÿÿÿíÿÿÿîÿÿÿéÿÿÿóÿÿÿòÿÿÿöÿÿÿõÿÿÿðÿÿÿïÿÿÿñÿÿÿôÿÿÿÜÿÿÿÿÿÿÿÛÿÿÿÿÿÿÿ×ÿÿÿÿÿÿÿÔÿÿÿÿÿÿÿÒÿÿÿÿÿÿÿÖÿÿÿÿÿÿÿØÿÿÿÿÿÿÿÓÿÿÿÿÿÿÿéÿÿÿêÿÿÿëÿÿÿîÿÿÿèÿÿÿíÿÿÿìÿÿÿçÿÿÿÞÿÿÿÿÿÿÿÐÿÿÿÿÿÿÿÄÿÿÿÿÿÿÿÍÿÿÿÿÿÿÿÛÿÿÿÿÿÿÿÎÿÿÿÿÿÿÿÔÿÿÿÿÿÿÿÈÿÿÿÿÿÿÿüÿÿÿõÿÿÿòÿÿÿôÿÿÿàÿÿÿÿÿÿÿÉÿÿÿÿÿÿÿÖÿÿÿÿÿÿÿÒÿÿÿÿÿÿÿÙÿÿÿÿÿÿÿËÿÿÿÿÿÿÿ;
 - (id)Ð;
 
 // Remaining properties
-@property(retain, nonatomic) GEOPDAutocompleteEntry *autocompleteEntry;
-@property(retain, nonatomic) GEOLatLng *coordinate;
-@property(readonly, nonatomic) _Bool hasAutocompleteEntry;
-@property(readonly, nonatomic) _Bool hasCoordinate;
-@property(nonatomic) _Bool hasOrigin;
-@property(readonly, nonatomic) _Bool hasPlace;
 @property(readonly, nonatomic) _Bool hasSearchString;
-@property(readonly, nonatomic) _Bool hasSingleLineAddressString;
-@property(nonatomic) int origin;
-@property(retain, nonatomic) GEOPDPlace *place;
-@property(retain, nonatomic) NSString *searchString;
-@property(retain, nonatomic) NSString *singleLineAddressString;
 
 @end
 

@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSColor, NSImage, NSImageView, NSString, NSTextField;
+@class NSColor, NSString;
 
 __attribute__((visibility("hidden")))
 @interface OBPrivacyLinkButton
 {
     NSColor *_textTintColor;
-    NSColor *_iconTintColor;
-    _Bool _displayInfoIcon;
-    _Bool _usesLargeIcon;
-    NSString *_captionText;
-    NSString *_buttonText;
-    NSImage *_captionAttachmentImage;
-    long long _textAlignment;
-    NSString *_iconSymbolName;
-    NSImageView *_iconImageView;
-    NSTextField *_captionTextField;
 }
 
 - (_Bool);
@@ -46,7 +36,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)setArtworkInfoType: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -55,21 +45,12 @@ __attribute__((visibility("hidden")))
 - (struct CGSize);
 - (void);
 - (void);
-- (void);
+- (void)
+;
 - (long long);
 
 // Remaining properties
-@property(copy) NSString *buttonText; // @synthesize buttonText=_buttonText;
-@property(retain) NSImage *captionAttachmentImage; // @synthesize captionAttachmentImage=_captionAttachmentImage;
 @property(copy) NSString *captionText; // @synthesize captionText=_captionText;
-@property NSTextField *captionTextField; // @synthesize captionTextField=_captionTextField;
-@property(nonatomic) _Bool displayInfoIcon; // @synthesize displayInfoIcon=_displayInfoIcon;
-@property NSImageView *iconImageView; // @synthesize iconImageView=_iconImageView;
-@property NSString *iconSymbolName; // @synthesize iconSymbolName=_iconSymbolName;
-@property(retain, nonatomic) NSColor *iconTintColor; // @synthesize iconTintColor=_iconTintColor;
-@property(readonly) long long textAlignment; // @synthesize textAlignment=_textAlignment;
-@property(retain, nonatomic) NSColor *textTintColor; // @synthesize textTintColor=_textTintColor;
-@property _Bool usesLargeIcon; // @synthesize usesLargeIcon=_usesLargeIcon;
 
 @end
 

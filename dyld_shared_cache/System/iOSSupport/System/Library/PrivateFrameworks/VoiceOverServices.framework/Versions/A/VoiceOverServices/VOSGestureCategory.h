@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface VOSGestureCategory
 {
     NSArray *_gestures;
-    NSString *_localizedCategoryName;
 }
 
 + (id);
@@ -17,15 +16,15 @@
 + (id);
 + (id);
 + (id);
++ (id)H;
++ (id)eW;
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)eW;
++ (id)=zW;
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (id);
 + (id);
@@ -50,7 +49,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *gestures; // @synthesize gestures=_gestures;
-@property(retain, nonatomic) NSString *localizedCategoryName; // @synthesize localizedCategoryName=_localizedCategoryName;
 
 @end
 

@@ -6,29 +6,12 @@
 
 #import <HomeKitDaemon/HMDRemoteMessageTransport.h>
 
-@class HMDModernTransportMessageContextManager, NSDictionary, NSMutableOrderedSet, NSMutableSet, NSObject, NSString;
-@protocol HMDDeviceResidencyProvider, HMDFeaturesDataSource, HMFDateProvider, HMFTimerManager, HMFTimerProvider, OS_dispatch_queue;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface HMDModernRemoteMessageTransport : HMDRemoteMessageTransport
 {
     _Bool _ignoreAllMessages;
-    _Bool _started;
-    _Bool _rapportLinkSlow;
-    id <HMDDeviceResidencyProvider> _residencyProvider;
-    NSMutableSet *_ignoredMessageNames;
-    id <HMDFeaturesDataSource> _featuresDataSource;
-    HMDModernTransportMessageContextManager *_contextManager;
-    id <HMFDateProvider> _systemDateProvider;
-    id <HMFDateProvider> _idsDateProvider;
-    NSString *_requestID;
-    NSMutableOrderedSet *_messageIDDedupeBuffer;
-    id <HMFTimerProvider> _timerProvider;
-    HMDRemoteMessageTransport *_rapportTransport;
-    HMDRemoteMessageTransport *_idsTransport;
-    HMDRemoteMessageTransport *_bleTransport;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <HMFTimerManager> _timerManager;
 }
 
 + (id);
@@ -37,30 +20,49 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)LocalHangup;
 - (void);
 - (_Bool);
 - (id);
 - (long long);
+- (void)initWithCIContext:(id)arg1 matte:posterClassification:initialRect:imageSize:effectiveAcceptableRect:effectivePreferredRect:validBoundsNormalized:headroomFeasible:hasTopEdgeContact:shouldConstrainLayoutToBounds:computeSpatial:spatialPadding:layoutType:allowedLayoutStrategies:layoutConfiguration: /* Error: Ran out of types for this method. */;
+- (id)float c0 = x0 - y0/s0;
+float d0 = y0*y0/s0;
+vec3 g0 = (a0 * y) / (c0 * y + d0);
+vec3 l0 = (a0 / d0) * y;
+g0 = compare(y, l0, g0);
+float x1 = p1.x;
+float y1 = p1.y;
+float s1 = p1.z;
+float a1 = (1.f-x1)*(1.f-x1);
+float c1 = (1.f-x1) - (1.f-y1)/s1;
+float d1 = (1.f-y1)*(1.f-y1)/s1;
+vec3 g1 = 1.f - (a1 * (1.f - y)) / (c1 * (1.f - y) + d1);
+vec3 l1 = 1.f - (a1 / d1) * (1.f - y);
+g1 = compare(1.f - y, l1, g1);
+g = compare(y - p0.y, g0, compare(y - p1.y, g, g1));
+im.rgb = mix(im.rgb, g, boost);
+return im;
+}
+
+;
 - (void);
 - (id);
-- (void);
+- (id);
+- (id);
+- (void)E;
+- (void)setRequiresExternalPower:(_Bool)arg1;
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)<;
 - (id)ÄGùÑ°1Â0@ù
 × ;
 - (void);
 - (id)meAccessCode>"16@0:(id)arg1 8;
-- (id)th:(id)arg1;
-- (id)orAccessories:shouldRemoveScheduledOperations:parentFlow: /* Error: Ran out of types for this method. */;
-- (_Bool)diaAccessoryBrowsingRequested;
+- (id)popNextFrameUpToMaxLength:(id)arg1;
+- (id)auditProhibitedAccessToRestrictedGuest:forAccessories:shouldRemoveScheduledOperations:parentFlow: /* Error: Ran out of types for this method. */;
+- (_Bool)__isMediaAccessoryBrowsingRequested;
 - (id)",&,N,V_topicFilterAdditions;
 - (_Bool)V_data;
 - (void)Ì@ÌÍ¤ÒÔÓ,Ö¼×|ØÐØÔÚLÛ´Û|ÜpÞ;
@@ -68,40 +70,15 @@ __attribute__((visibility("hidden")))
 - (id)fetch the user with id [%@] from working store;
 - (id)cessory %@;
 - (_Bool);
-- (void)_;
-- (id)ardNotification;
+- (void)_Qo_;
+- (id)HMBulletinBoardNotification;
 - (_Bool)@"NSError"12;
-- (void)s;
+- (void)objectGroupIdentifiers;
 - (void)D;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) HMDRemoteMessageTransport *bleTransport; // @synthesize bleTransport=_bleTransport;
-@property(readonly, nonatomic) HMDModernTransportMessageContextManager *contextManager; // @synthesize contextManager=_contextManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <HMDFeaturesDataSource> featuresDataSource; // @synthesize featuresDataSource=_featuresDataSource;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <HMFDateProvider> idsDateProvider; // @synthesize idsDateProvider=_idsDateProvider;
-@property(readonly, nonatomic) HMDRemoteMessageTransport *idsTransport; // @synthesize idsTransport=_idsTransport;
-@property(nonatomic) _Bool ignoreAllMessages; // @synthesize ignoreAllMessages=_ignoreAllMessages;
-@property(readonly, nonatomic) NSMutableSet *ignoredMessageNames; // @synthesize ignoredMessageNames=_ignoredMessageNames;
-@property(readonly, nonatomic) NSMutableOrderedSet *messageIDDedupeBuffer; // @synthesize messageIDDedupeBuffer=_messageIDDedupeBuffer;
-@property(nonatomic, getter=isRapportLinkSlow) _Bool rapportLinkSlow; // @synthesize rapportLinkSlow=_rapportLinkSlow;
-@property(readonly, nonatomic) HMDRemoteMessageTransport *rapportTransport; // @synthesize rapportTransport=_rapportTransport;
-@property(readonly, nonatomic) NSString *requestID; // @synthesize requestID=_requestID;
-@property __weak id <HMDDeviceResidencyProvider> residencyProvider; // @synthesize residencyProvider=_residencyProvider;
-@property(getter=isStarted) _Bool started; // @synthesize started=_started;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) id <HMFDateProvider> systemDateProvider; // @synthesize systemDateProvider=_systemDateProvider;
 @property(readonly, copy, nonatomic) NSDictionary *testIgnoredMessagesInfo;
-@property(readonly, copy, nonatomic) NSString *testIgnoredMessagesStateDump;
-@property(readonly, nonatomic) id <HMFTimerManager> timerManager; // @synthesize timerManager=_timerManager;
-@property(readonly, nonatomic) id <HMFTimerProvider> timerProvider; // @synthesize timerProvider=_timerProvider;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

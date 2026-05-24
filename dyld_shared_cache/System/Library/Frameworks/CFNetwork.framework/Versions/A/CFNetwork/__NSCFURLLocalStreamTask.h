@@ -6,67 +6,12 @@
 
 #import <CFNetwork/NSURLSessionStreamTask.h>
 
-@class NSData, NSDictionary, NSError, NSMutableArray, NSObject, NSString, NSURLRequest, NSURLResponse, NSUUID;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class NSData;
 
 __attribute__((visibility("hidden")))
 @interface __NSCFURLLocalStreamTask : NSURLSessionStreamTask
 {
     struct BaseSocketStreamClient *_socketStreamClient;
-    NSMutableArray *_extraWork;
-    int _connectionState;
-    NSObject<OS_dispatch_queue> *_workQueueForStreamTask;
-    struct __CFReadStream *_readStream;
-    struct __CFWriteStream *_writeStream;
-    NSMutableArray *_pendingWork;
-    _Bool _doingWorkOnThisQueue;
-    NSData *_readBuffer;
-    _Bool _readSignaled;
-    _Bool _readEOF;
-    CDStruct_59046461 _readError;
-    NSData *_writeBuffer;
-    _Bool _writeSignaled;
-    _Bool _writeEOF;
-    _Bool _deliveredConnectionEstablished;
-    CDStruct_59046461 _writeError;
-    long long _writeBufferAlreadyWrittenForNextWrite;
-    NSMutableArray *_finalizationQueue;
-    NSMutableArray *_afterConnectQueue;
-    unsigned long long _taskIdentifier;
-    long long _state;
-    NSString *_taskDescription;
-    NSError *_error;
-    long long _countOfBytesReceived;
-    long long _countOfBytesSent;
-    _Bool _goneSecure;
-    NSObject<OS_dispatch_source> *_tickerTimeoutTimer;
-    CDUnknownBlockType _disavow;
-    NSURLRequest *_originalRequest;
-    NSURLRequest *_currentRequest;
-    NSURLResponse *_response;
-    long long _countOfBytesClientExpectsToSend;
-    long long _countOfBytesClientExpectsToReceive;
-    long long _countOfBytesExpectedToSend;
-    long long _countOfBytesExpectedToReceive;
-    double _timeWindowDelay;
-    double _timeWindowDuration;
-    double startTime;
-    long long _priorityValue;
-    double _loadingPriorityValue;
-    NSString *_boundInterfaceIdentifier;
-    _Bool _disallowCellular;
-    unsigned char _allowsExpensiveOverride;
-    unsigned char _allowsConstrainedOverride;
-    unsigned char _allowsUltraConstrainedOverride;
-    unsigned char _allowsCellularOverride;
-    int _networkServiceType;
-    NSDictionary *_legacySocketStreamProperties;
-    _Bool _betterRouteDiscovered;
-    NSData *__TCPConnectionMetadata;
-    NSData *__initialDataPayload;
-    _Bool _didIssueCancel;
-    NSUUID *_uniqueIdentifier;
-    float priority;
 }
 
 - (void);
@@ -82,33 +27,33 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)9H;
 - (void);
 - (void);
 - (id);
 - (long long);
 - (long long);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (long long);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)gdotaccent;
 - (void);
 - (double);
-- (id);
+- (id)h;
 - (id);
 - (long long);
 - (struct __CFDictionary *);
-- (int);
-- (void);
+- (int)qb;
+- (void)P;
 - (id);
-- (long long);
+- (long long)o;
 - (void);
 - (void);
 - (_Bool);
@@ -116,11 +61,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (unsigned char);
 - (id);
@@ -133,7 +78,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (unsigned char);
-- (void);
+- (void)k9;
 - (_Bool);
 - (void);
 - (id);
@@ -149,28 +94,11 @@ __attribute__((visibility("hidden")))
 - (id)@;
 - (long long);
 - (unsigned long long)6dO;
-- (unsigned char)47;
+- (unsigned char)247;
 - (float)Ct7iCt7oCt7sCt7t.t7;
 
 // Remaining properties
 @property(copy) NSData *_TCPConnectionMetadata; // @synthesize _TCPConnectionMetadata=__TCPConnectionMetadata;
-@property(readonly) _Bool _goneSecure; // @synthesize _goneSecure;
-@property(copy) NSData *_initialDataPayload; // @synthesize _initialDataPayload=__initialDataPayload;
-@property double _timeoutIntervalForResource; // @dynamic _timeoutIntervalForResource;
-@property(readonly, copy) NSUUID *_uniqueIdentifier; // @synthesize _uniqueIdentifier;
-@property long long countOfBytesClientExpectsToReceive; // @synthesize countOfBytesClientExpectsToReceive=_countOfBytesClientExpectsToReceive;
-@property long long countOfBytesClientExpectsToSend; // @synthesize countOfBytesClientExpectsToSend=_countOfBytesClientExpectsToSend;
-@property long long countOfBytesExpectedToReceive; // @synthesize countOfBytesExpectedToReceive=_countOfBytesExpectedToReceive;
-@property long long countOfBytesExpectedToSend; // @synthesize countOfBytesExpectedToSend=_countOfBytesExpectedToSend;
-@property long long countOfBytesReceived; // @synthesize countOfBytesReceived=_countOfBytesReceived;
-@property long long countOfBytesSent; // @synthesize countOfBytesSent=_countOfBytesSent;
-@property(copy) NSURLRequest *currentRequest; // @synthesize currentRequest=_currentRequest;
-@property(copy) NSError *error; // @synthesize error=_error;
-@property(copy) NSURLRequest *originalRequest; // @synthesize originalRequest=_originalRequest;
-@property(copy) NSURLResponse *response; // @synthesize response=_response;
-@property long long state; // @synthesize state=_state;
-@property(copy) NSString *taskDescription; // @synthesize taskDescription=_taskDescription;
-@property unsigned long long taskIdentifier; // @synthesize taskIdentifier=_taskIdentifier;
 
 @end
 

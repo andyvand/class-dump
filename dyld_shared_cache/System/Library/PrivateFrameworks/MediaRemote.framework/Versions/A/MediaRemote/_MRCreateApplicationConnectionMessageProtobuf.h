@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _MRApplicationConnectionContextProtobuf, _MRApplicationConnectionRequestInfoProtobuf;
+@class _MRApplicationConnectionContextProtobuf;
 
 @interface _MRCreateApplicationConnectionMessageProtobuf
 {
     _MRApplicationConnectionContextProtobuf *_context;
-    _MRApplicationConnectionRequestInfoProtobuf *_requestInfo;
 }
 
 - (id);
@@ -20,20 +19,17 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)';
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
+- (id)y/Frameworks/AppKit.framework/AppKit;
 - (_Bool);
-- (void)e;
+- (void)_getVoiceInputDevicesResponseMessage;
 
 // Remaining properties
-@property(retain, nonatomic) _MRApplicationConnectionContextProtobuf *context; // @synthesize context=_context;
 @property(readonly, nonatomic) _Bool hasContext;
-@property(readonly, nonatomic) _Bool hasRequestInfo;
-@property(retain, nonatomic) _MRApplicationConnectionRequestInfoProtobuf *requestInfo; // @synthesize requestInfo=_requestInfo;
 
 @end
 

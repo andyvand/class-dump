@@ -11,8 +11,6 @@
 @interface TLKSelectableGridTuple : TLKObject
 {
     NSString *_title;
-    NSString *_subtitle;
-    double _size;
 }
 
 + (id);
@@ -20,16 +18,14 @@
 - (id);
 - (double);
 - (id);
-- (void);
-- (void);
+- (void)locationDonationSource;
+- (void)3;
 - (void);
 - (id);
-- (void);
+- (void)A;
 
 // Remaining properties
 @property(nonatomic) double size; // @synthesize size=_size;
-@property(retain, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

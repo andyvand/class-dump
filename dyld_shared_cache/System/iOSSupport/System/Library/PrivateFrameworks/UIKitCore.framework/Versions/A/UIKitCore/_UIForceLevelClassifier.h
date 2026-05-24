@@ -4,27 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSObservationSource, NSString;
-@protocol _UIForceLevelClassifierDelegate;
+@class NSObservationSource;
 
 @interface _UIForceLevelClassifier
 {
     NSObservationSource *_progressTouchForceObservable;
-    NSMutableDictionary *_cachedProgressObservables;
-    NSArray *_delegateObservations;
-    _Bool _respectsSystemGestureTouchFiltering;
-    long long _currentForceLevel;
-    id <_UIForceLevelClassifierDelegate> _delegate;
-    double _currentTouchForceMultiplier;
 }
 
 - (void);
 - (void);
 - (void);
 - (id);
-- (long long);
-- (void);
-- (void);
+- (long long)__supportsSubscription_KEY;
+- (void)__MPModelPropertyPlaylistEditorialArtwork__MAPPING_MISSING__;
+- (void)willMoveToParentViewController:(id)arg1;
 - (id);
 - (void);
 - (id);
@@ -34,26 +27,16 @@
 × ;
 - (void)
 × ;
-- (id)paceView;
+- (id)keyboardLayoutAlignmentAvailableSpaceView;
 - (_Bool)pingDisabled;
 - (void)';
 - (void)@; scene session:(double)arg1 %{public}@;
-- (void);
+- (void)Control;
 - (_Bool)nd=%ld). View:%@; Subviews:%@ /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long currentForceLevel; // @synthesize currentForceLevel=_currentForceLevel;
 @property(nonatomic) double currentTouchForceMultiplier; // @synthesize currentTouchForceMultiplier=_currentTouchForceMultiplier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UIForceLevelClassifierDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool respectsSystemGestureTouchFiltering; // @synthesize respectsSystemGestureTouchFiltering=_respectsSystemGestureTouchFiltering;
-@property(readonly) Class superclass;
 
 @end
 

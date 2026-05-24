@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class PHLivePhotoView;
+
 @protocol PHLivePhotoViewDelegate
+
+@optional
+- (void)disableAutomaticUpdates;
+- (double)didZoom:(PHLivePhotoView *)arg1;
+- (void)didUnmarkString:(PHLivePhotoView *)arg1 atRange:(long long)arg2;
+- (_Bool)didTriggerResultPreviewAfterUnmarkingText;
 @end
 

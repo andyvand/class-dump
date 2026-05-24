@@ -5,5 +5,8 @@
 //
 
 @protocol SFSpeechRecognizerDelegate
+
+@optional
+- (void)8t;
 @end
 

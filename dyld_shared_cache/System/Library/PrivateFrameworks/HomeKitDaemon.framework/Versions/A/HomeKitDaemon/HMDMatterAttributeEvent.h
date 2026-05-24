@@ -14,7 +14,7 @@ __attribute__((visibility("hidden")))
 
 + (_Bool)D';
 + (id)ªÿ;
-- (_Bool);
+- (_Bool)_saveSenderSessionDeleteError;
 - (id);
 - (id);
 - (id);
@@ -26,7 +26,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)isplays;
 - (id);
 - (id);
 - (void);

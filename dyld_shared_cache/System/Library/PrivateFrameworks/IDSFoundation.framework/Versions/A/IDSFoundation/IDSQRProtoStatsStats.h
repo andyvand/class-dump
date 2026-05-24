@@ -10,11 +10,12 @@
 
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)h;
+- (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)ress=[6C]}16I24;
+- (void)@)
+;
 - (id);
 - (id);
 

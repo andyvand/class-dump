@@ -6,27 +6,24 @@
 
 #import <IconServices/ISConcreteIcon.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface ISBundleIcon : ISConcreteIcon
 {
     NSURL *_url;
-    NSString *_type;
-    NSString *_tag;
-    NSString *_tagClass;
 }
 
 + (_Bool);
+- (id)q}q^{__CFArray}^{__CFString}^{__CFString}^v^{__CFDictionary}qCf};
+- (id)_DDQueryRange={__DDQueryOffset=b16b16b32}{__DDQueryOffset=b16b16b32}}{?=qq}q^{__CFArray}^{__CFString}^{__CFString}^v^{__CFDictionary}qCf};
+- (id)initWithBytesNoCopy:length:deallocator: /* Error: Ran out of types for this method. */;
+- (id)initWithArray: /* Error: Ran out of types for this method. */;
+- (id)imperialTeaspoons;
+- (id)imperialQuarts;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -38,9 +35,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *tag; // @synthesize tag=_tag;
-@property(readonly) NSString *tagClass; // @synthesize tagClass=_tagClass;
-@property(readonly) NSString *type; // @synthesize type=_type;
 @property(readonly) NSURL *url; // @synthesize url=_url;
 
 @end

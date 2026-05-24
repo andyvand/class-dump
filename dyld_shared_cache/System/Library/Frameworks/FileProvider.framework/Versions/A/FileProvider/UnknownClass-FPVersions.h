@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPersonNameComponents, NSString;
+@class NSString;
 
 @interface UnknownClass (FPVersions)
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)-;
+- (id)7;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *fp_etag;
 @property(readonly, nonatomic) NSString *fp_lastEditorDeviceName;
-@property(readonly, nonatomic) NSPersonNameComponents *fp_lastEditorNameComponents;
 @end
 

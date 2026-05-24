@@ -22,9 +22,9 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)P;
 - (_Bool);
-- (id);
+- (id)setImageSubtitle: /* Error: Ran out of types for this method. */;
 
 @end
 

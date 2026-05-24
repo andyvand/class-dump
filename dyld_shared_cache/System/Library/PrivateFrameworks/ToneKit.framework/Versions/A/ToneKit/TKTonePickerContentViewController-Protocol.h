@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSResponder, NSView;
 @protocol TKTonePickerContentViewControllerDelegate;
 
 @protocol TKTonePickerContentViewController
 
 // Remaining properties
 @property(nonatomic) __weak id <TKTonePickerContentViewControllerDelegate> delegate;
-@property(readonly, nonatomic) NSView *tonePickerContentView;
-@property(readonly, nonatomic) NSResponder *tonePickerResponder;
 @end
 

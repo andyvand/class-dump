@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol NSObject><NSCopying><NSSecureCoding, _GCDeviceRegistry;
+@protocol NSObject><NSCopying><NSSecureCoding;
 
 @protocol _GCDeviceManager
+- (void);
 
 // Remaining properties
-@property __weak id <_GCDeviceRegistry> deviceRegistry;
 @property(readonly) id <NSObject><NSCopying><NSSecureCoding> identifier;
 @end
 

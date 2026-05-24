@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, NSString;
+@class NSDictionary, NSObject;
 @protocol OS_os_log;
 
 @interface PHASuggestionGenerationTask
 {
     NSObject<OS_os_log> *_loggingConnection;
-    _Bool _fastPass;
-    _Bool _featureComplete;
-    NSDictionary *_suggestionOptionsDictionary;
-    unsigned long long _featureCode;
 }
 
 - (unsigned char);
@@ -25,7 +21,7 @@
 - (_Bool);
 - (void);
 - (double);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -33,40 +29,11 @@
 - (_Bool);
 - (id);
 - (id);
-- (void)s:error: /* Error: Ran out of types for this method. */;
-- (int)RequestTime;
+- (void)dataWithJSONObject:options:error: /* Error: Ran out of types for this method. */;
+- (int)deferralRequestTime;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool featureAvailable;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) unsigned long long featureCode; // @synthesize featureCode=_featureCode;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N,V_featureCode
-
-@property(readonly, nonatomic) _Bool featureComplete; // @synthesize featureComplete=_featureComplete;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,V_featureComplete
-
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double incrementalWindow;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Td,?,R,N
-
-@property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) double period;
 @property(copy, nonatomic) NSDictionary *suggestionOptionsDictionary; // @synthesize suggestionOptionsDictionary=_suggestionOptionsDictionary;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long version;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?,R,N
-
 
 @end
 

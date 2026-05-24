@@ -7,9 +7,6 @@
 @interface AuthenticationServices.ASCredentialDataManager
 {
     id options;
-    id $__lazy_storage_$_interop;
-    id $__lazy_storage_$_listenerProxy;
-    id $__lazy_storage_$_agentProxy;
 }
 
 @end

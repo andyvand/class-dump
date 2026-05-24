@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTStickerViewController, AVTUICapabilities, AVTUIEnvironment, AVTViewSessionProvider, NSArray, NSString, UIColor;
-@protocol AVTGrayscaleStickerControllerDelegate, AVTPresenterDelegate, AVTStickerSelectionDelegate, AVTStickerViewControllerImageDelegate;
+@protocol AVTStickerViewControllerImageDelegate;
 
 @interface AVTGrayscaleStickerController
 {
     _Bool _showsSelectionLayerForStickers;
-    _Bool _accessibilityIgnoresInvertColors;
-    _Bool _allowsPoseCapture;
-    _Bool _shouldHideUserInfoView;
-    id <AVTGrayscaleStickerControllerDelegate> _delegate;
-    id <AVTStickerViewControllerImageDelegate> _imageDelegate;
-    id <AVTPresenterDelegate> _presenterDelegate;
-    id <AVTStickerSelectionDelegate> _selectionDelegate;
-    AVTStickerViewController *_stickerViewController;
-    AVTViewSessionProvider *_viewSessionProvider;
-    AVTUIEnvironment *_environment;
-    AVTUICapabilities *_uiCapabilities;
-    NSArray *_allowedStickers;
-    UIColor *_backgroundColor;
 }
 
 - (void);
@@ -34,7 +20,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -54,7 +40,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)testPLAPICore_DeleteAllEntriesForKeyWF: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
@@ -63,27 +49,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool accessibilityIgnoresInvertColors; // @synthesize accessibilityIgnoresInvertColors=_accessibilityIgnoresInvertColors;
-@property(retain, nonatomic) NSArray *allowedStickers; // @synthesize allowedStickers=_allowedStickers;
-@property(nonatomic) _Bool allowsPoseCapture; // @synthesize allowsPoseCapture=_allowsPoseCapture;
-@property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <AVTGrayscaleStickerControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) AVTUIEnvironment *environment; // @synthesize environment=_environment;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) __weak id <AVTStickerViewControllerImageDelegate> imageDelegate; // @synthesize imageDelegate=_imageDelegate;
-@property(nonatomic) __weak id <AVTPresenterDelegate> presenterDelegate; // @synthesize presenterDelegate=_presenterDelegate;
-@property(nonatomic) __weak id <AVTStickerSelectionDelegate> selectionDelegate; // @synthesize selectionDelegate=_selectionDelegate;
-@property(nonatomic) _Bool shouldHideUserInfoView; // @synthesize shouldHideUserInfoView=_shouldHideUserInfoView;
-@property(nonatomic, getter=shouldShowSelectionLayerForStickers) _Bool showsSelectionLayerForStickers; // @synthesize showsSelectionLayerForStickers=_showsSelectionLayerForStickers;
-@property(nonatomic) __weak AVTStickerViewController *stickerViewController; // @synthesize stickerViewController=_stickerViewController;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) AVTUICapabilities *uiCapabilities; // @synthesize uiCapabilities=_uiCapabilities;
-@property(retain, nonatomic) AVTViewSessionProvider *viewSessionProvider; // @synthesize viewSessionProvider=_viewSessionProvider;
 
 @end
 

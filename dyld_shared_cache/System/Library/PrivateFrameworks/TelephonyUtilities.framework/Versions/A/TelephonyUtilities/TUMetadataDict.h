@@ -9,17 +9,15 @@
 @interface TUMetadataDict
 {
     NSString *_source;
-    NSString *_identificationLabel;
 }
 
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void):completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *identificationLabel; // @synthesize identificationLabel=_identificationLabel;
 @property(readonly, nonatomic) NSString *source; // @synthesize source=_source;
 
 @end

@@ -4,51 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, UIView;
-@protocol NUIContainerViewDelegate;
-
 @interface NUIContainerView
 {
     _Bool _isRTL;
-    id <NUIContainerViewDelegate> _delegate;
-    struct map<UIView *, _NUIContainerViewArrangedSubview, std::less<UIView *>, std::allocator<std::pair<UIView *const, _NUIContainerViewArrangedSubview>>> _arrangedSubviewInfo;
-    NSMutableArray *_arrangedSubviews;
-    NSArray *_visibleArrangedSubviews;
-    struct UIEdgeInsets _effectiveLayoutMargins;
-    UIView *_firstBaselineView;
-    UIView *_lastBaselineView;
-    struct vector<CALayer *, std::allocator<CALayer *>> _debugBoundingBoxLayers;
-    struct {
-        unsigned int hiddenArrangedSubviewCount:16;
-        unsigned int delaydInvalidation:8;
-        unsigned int batchDepth:4;
-        unsigned int inLayoutPass:2;
-        unsigned int inMeasurementPass:2;
-        unsigned int layoutDependency:2;
-        unsigned int removalPolicy:2;
-        unsigned int removalPolicyHasBeenSet:1;
-        unsigned int additionPolicy:1;
-        unsigned int inEnsureArranged:1;
-        unsigned int inEffectiveSize:1;
-        unsigned int hasMargins:1;
-        unsigned int debugBoundingBoxes:1;
-        unsigned int baselineRelative:1;
-        unsigned int layoutMarginsRelative:1;
-        unsigned int baselineLayoutMargins:1;
-        unsigned int mustRestart:1;
-        unsigned int delegateSystemLayoutSizeFittingSizeForArrangedSubview:1;
-        unsigned int delegateLayoutFrameForArrangedSubview:1;
-        unsigned int delegateWillMeasureFitting:1;
-        unsigned int delegateShouldRestart:1;
-        unsigned int delegateDidLayout:1;
-    } _containerFlags;
 }
 
 + (void);
 + (_Bool);
 + (_Bool);
 + (id);
-+ (Class);
++ (Class)?%@q;
 + (_Bool);
 + (void);
 - (id);
@@ -65,13 +30,13 @@
 - (void);
 - (void);
 - (struct CGPoint);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (struct NSDirectionalEdgeInsets);
 - (struct CGRect);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)C;
+- (_Bool);
 - (void);
 - (void);
 - (unsigned long long);
@@ -102,13 +67,13 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)9;
 - (void);
 - (struct CGSize);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)?;
 - (id);
 - (void);
 - (_Bool);
@@ -121,29 +86,21 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)<;
 - (void);
 - (id);
-- (struct CGSize);
+- (struct CGSize)webView:(struct CGSize)arg1 decidePolicyForNavigationAction:(float)arg2 request:(float)arg3 frame:decisionListener: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)4J;
 
 // Remaining properties
-@property(nonatomic) long long arrangedSubviewAdditionPolicy;
-@property(nonatomic) long long arrangedSubviewRemovalPolicy;
-@property(copy, nonatomic) NSArray *arrangedSubviews;
-@property(nonatomic, getter=isBaselineRelativeArrangement) _Bool baselineRelativeArrangement;
-@property(nonatomic, getter=hasBaselineRelativeLayoutMarginsForArrangement) _Bool baselineRelativeLayoutMarginsForArrangement;
 @property(nonatomic, getter=isDebugBoundingBoxesEnabled) _Bool debugBoundingBoxesEnabled;
-@property(nonatomic) __weak id <NUIContainerViewDelegate> delegate;
-@property(nonatomic, getter=isLayoutMarginsRelativeArrangement) _Bool layoutMarginsRelativeArrangement;
-@property(readonly, nonatomic) NSArray *visibleArrangedSubviews;
 
 @end
 

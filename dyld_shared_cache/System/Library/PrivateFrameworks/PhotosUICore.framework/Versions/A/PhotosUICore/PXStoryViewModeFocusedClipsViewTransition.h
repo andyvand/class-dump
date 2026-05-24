@@ -11,7 +11,6 @@
 @interface PXStoryViewModeFocusedClipsViewTransition : PXStoryViewModeTransition
 {
     NSIndexSet *_focusedClipIdentifiers;
-    long long _trackingClipIdentifier;
 }
 
 - (double);
@@ -20,13 +19,12 @@
 - (id);
 - (struct CGRect);
 - (id);
-- (CDStruct_2bd92d94);
+- (CDStruct_c2259bfa);
 - (CDStruct_fe8c0406);
 - (void)xºÉ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSIndexSet *focusedClipIdentifiers; // @synthesize focusedClipIdentifiers=_focusedClipIdentifiers;
-@property(readonly, nonatomic) long long trackingClipIdentifier; // @synthesize trackingClipIdentifier=_trackingClipIdentifier;
 
 @end
 

@@ -4,35 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOAdvisoryCardAction, GEOComposedString, GEOPBTransitArtwork, NSArray, NSDate;
 @protocol GEOServerFormattedString;
 
 @interface GEOComposedRouteAdvisoryItem
 {
     _Bool _isNonTransitIncident;
-    GEOPBTransitArtwork *_artwork;
-    id <GEOServerFormattedString> _title;
-    GEOComposedString *_titleString;
-    id <GEOServerFormattedString> _subtitle;
-    GEOComposedString *_subtitleString;
-    NSDate *_dateOfLastUpdate;
-    id <GEOServerFormattedString> _dateOfLastUpdateDescription;
-    GEOComposedString *_dateOfLastUpdateString;
-    NSArray *_details;
-    id <GEOServerFormattedString> _attribution;
-    GEOComposedString *_attributionString;
-    NSArray *_analyticsMessageValues;
-    GEOAdvisoryCardAction *_cardAction;
 }
 
 + (_Bool)ces;
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (_Bool)observerWithResultBlock:completionBlock:failureBlock: /* Error: Ran out of types for this method. */;
+- (id)_signature3;
+- (id)_shouldCallImmediately;
+- (id)(facebook\.com)/([%\w\d\.]+)$;
+- (id)le\.php\?id=(?:\d+)$ /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -45,26 +31,13 @@
 - (void);
 - (id)±¶*Ð1Â0@ù
 × ;
-- (id)erviceProvider2:(struct _NSZone *)arg1;
+- (id)setCellServiceProvider2:(struct _NSZone *)arg1;
 - (id)¿;
 - (void)´Æ5;
 - (id)ÿ¿;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *analyticsMessageValues; // @synthesize analyticsMessageValues=_analyticsMessageValues;
-@property(readonly, nonatomic) GEOPBTransitArtwork *artwork; // @synthesize artwork=_artwork;
-@property(readonly, nonatomic) id <GEOServerFormattedString> attribution; // @synthesize attribution=_attribution;
-@property(readonly, nonatomic) GEOComposedString *attributionString; // @synthesize attributionString=_attributionString;
-@property(readonly, nonatomic) GEOAdvisoryCardAction *cardAction; // @synthesize cardAction=_cardAction;
-@property(readonly, nonatomic) NSDate *dateOfLastUpdate; // @synthesize dateOfLastUpdate=_dateOfLastUpdate;
-@property(readonly, nonatomic) id <GEOServerFormattedString> dateOfLastUpdateDescription; // @synthesize dateOfLastUpdateDescription=_dateOfLastUpdateDescription;
-@property(readonly, nonatomic) GEOComposedString *dateOfLastUpdateString; // @synthesize dateOfLastUpdateString=_dateOfLastUpdateString;
-@property(readonly, nonatomic) NSArray *details; // @synthesize details=_details;
-@property(readonly, nonatomic) _Bool isNonTransitIncident; // @synthesize isNonTransitIncident=_isNonTransitIncident;
-@property(readonly, nonatomic) id <GEOServerFormattedString> subtitle; // @synthesize subtitle=_subtitle;
-@property(readonly, nonatomic) GEOComposedString *subtitleString; // @synthesize subtitleString=_subtitleString;
 @property(readonly, nonatomic) id <GEOServerFormattedString> title; // @synthesize title=_title;
-@property(readonly, nonatomic) GEOComposedString *titleString; // @synthesize titleString=_titleString;
 
 @end
 

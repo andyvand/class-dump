@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXStoryViewChromeTitleConfiguration;
 @protocol PXStoryViewLayoutSpec;
 
 @interface PXStoryViewLayoutSpecManager
 {
     unsigned long long _storyConfigurationOptions;
-    PXStoryViewChromeTitleConfiguration *_customGeneralChromeTitleConfiguration;
 }
 
 - (id);
@@ -23,8 +21,6 @@
 - (void)0ºÉ­®³ø¿;
 
 // Remaining properties
-@property(retain, nonatomic) PXStoryViewChromeTitleConfiguration *customGeneralChromeTitleConfiguration; // @synthesize customGeneralChromeTitleConfiguration=_customGeneralChromeTitleConfiguration;
-@property(nonatomic) unsigned long long storyConfigurationOptions; // @synthesize storyConfigurationOptions=_storyConfigurationOptions;
 @property(readonly, nonatomic) id <PXStoryViewLayoutSpec> viewLayoutSpec;
 
 @end

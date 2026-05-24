@@ -6,21 +6,17 @@
 
 #import <NetworkExtension/NEIKEv2Payload.h>
 
-@class NEIKEv2SPI, NSData;
-
 @interface NEIKEv2NotifyPayload : NEIKEv2Payload
 {
     unsigned long long _notifyType;
-    NSData *_data;
-    NEIKEv2SPI *_spi;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (unsigned long long);
-- (void)ionQueue:handler: /* Error: Ran out of types for this method. */;
+- (void)showLocalNetworkAlertForApp:withCompletionQueue:handler: /* Error: Ran out of types for this method. */;
 - (id)lusHMAC constructEncryptedPacketFromConstructor:(int)arg1 plaintextLength:(unsigned long long)arg2 authenticatedHeaders:] /* Error: Ran out of types for this method. */;
 
 @end

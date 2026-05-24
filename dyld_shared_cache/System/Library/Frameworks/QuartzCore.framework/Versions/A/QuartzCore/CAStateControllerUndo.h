@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAState, NSMutableArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface CAStateControllerUndo
 {
     CAStateControllerUndo *_next;
-    CAState *_state;
-    NSMutableArray *_elements;
-    NSMutableArray *_transitions;
 }
 
-- (void);
+- (void)6;
 - (void);
 - (void);
 - (void);
@@ -28,17 +23,7 @@ __attribute__((visibility("hidden")))
 - (id)ÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableArray *elements; // @synthesize elements=_elements;
-@property(readonly) unsigned long long hash;
 @property(readonly) CAStateControllerUndo *next; // @synthesize next=_next;
-@property(retain, nonatomic) CAState *state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableArray *transitions; // @synthesize transitions=_transitions;
 
 @end
 

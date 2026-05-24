@@ -11,7 +11,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *safari_contactIdentifier;
 @property(readonly, copy, nonatomic) NSString *safari_handle;
 @end
 

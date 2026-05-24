@@ -7,8 +7,6 @@
 @interface IMDPersistence.StorageInspectorCrossCheckReport
 {
     id recordCounterDatabaseInspectorCrossCheckReport;
-    id recordCounterAttachmentStorageInspectorCrossCheckReport;
-    id databaseInspectorAttachmentStorageInspectorCrossCheckReport;
 }
 
 @end

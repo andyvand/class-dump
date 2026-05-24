@@ -6,54 +6,39 @@
 
 #import <AppKit/NSView.h>
 
-@class NSButton, NSMutableArray, NSPopover, NSSet, NSTextField, NSWindow;
+@class NSSet;
 
 __attribute__((visibility("hidden")))
 @interface _NSVisualizedConstraintsView : NSView
 {
     NSSet *constraintsToBeVisualized;
-    NSMutableArray *visualizedConstraintViews;
-    NSMutableArray *constraintsNotVisualized;
-    NSWindow *backgroundWindow;
-    NSWindow *foregroundWindow;
-    NSWindow *targetWindow;
-    NSTextField *instructionsLabel;
-    NSTextField *constraintsNotVisualizedLabel;
-    NSButton *constraintsNotVisualizedButton;
-    NSTextField *ambiguousLayoutLabel;
-    NSButton *ambiguousLayoutButton;
-    NSTextField *whyAmISeeingThisWindowTextField;
-    NSButton *moreInfoButton;
-    NSPopover *moreInfoPopover;
 }
 
 + (id);
 - (id);
+- (void);
+- (void)@;
 - (void);
+- (void)copyDeviceTreeProperty:(id)arg1 withFirstChar:propertyName:withPropertyFirstChar: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)5MSZn7w3nnJp22VbpqaxLQ;
 - (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)�
+;
+- (id)P6	;
 - (_Bool);
 - (id)"NSTextView"16;
 - (void)Drawing:Class %@ specified in NSConcurrentViewClasses user default not found /* Error: Ran out of types for this method. */;
-- (void)placement;
+- (void)GridView_leading_placement;
 - (void);
 
 // Remaining properties
-@property(retain) NSWindow *backgroundWindow; // @synthesize backgroundWindow;
 @property(retain) NSSet *constraintsToBeVisualized; // @synthesize constraintsToBeVisualized;
-@property(retain) NSWindow *foregroundWindow; // @synthesize foregroundWindow;
-@property __weak NSWindow *targetWindow; // @synthesize targetWindow;
 
 @end
 

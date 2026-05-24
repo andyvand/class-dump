@@ -4,25 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @protocol MPMutableUniversalStoreIdentifiers
-- (long long)racklistTokenRequest;
+- (void)P;
+- (long long)MPCModelPlaybackIntentTracklistTokenRequest;
 - (long long)0;
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long adamID;
-@property(nonatomic) long long assetAdamID;
-@property(copy, nonatomic) NSArray *formerAdamIDs;
 @property(copy, nonatomic) NSString *globalPlaylistID;
-@property(copy, nonatomic) NSString *informalMediaClipID;
-@property(copy, nonatomic) NSString *informalStaticAssetID;
-@property(nonatomic) long long lyricsAdamID;
-@property(nonatomic) long long purchasedAdamID;
-@property(nonatomic) long long reportingAdamID;
-@property(copy, nonatomic) NSString *socialProfileID;
-@property(nonatomic) long long subscriptionAdamID;
-@property(copy, nonatomic) NSString *universalCloudLibraryID;
 @end
 

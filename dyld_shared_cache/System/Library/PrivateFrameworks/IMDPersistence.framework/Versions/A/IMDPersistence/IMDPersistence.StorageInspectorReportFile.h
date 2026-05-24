@@ -7,8 +7,6 @@
 @interface IMDPersistence.StorageInspectorReportFile
 {
     id pathURL;
-    id $__lazy_storage_$_path;
-    id fileHandle;
 }
 
 @end

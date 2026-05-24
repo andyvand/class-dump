@@ -4,17 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryCategoryLogEvent
 {
     _Bool _isDenominatorSpecifying;
-    unsigned long long _accessoryDetailsType;
-    NSString *_accessoryCategoryIdentifier;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (_Bool);
@@ -22,42 +18,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)@"NSString"8@"NSString"16^B24;
 - (unsigned long long);
 - (id);
 - (id);
 - (void)V=;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accessoryCategoryIdentifier; // @synthesize accessoryCategoryIdentifier=_accessoryCategoryIdentifier;
 @property(readonly) unsigned long long accessoryDetailsType; // @synthesize accessoryDetailsType=_accessoryDetailsType;
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) _Bool enableEventFilterSpecifying;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly) _Bool isDenominatorSpecifying; // @synthesize isDenominatorSpecifying=_isDenominatorSpecifying;
-@property(readonly, nonatomic) NSString *sampledCategory;
-@property(readonly, nonatomic) NSData *sampledData;
-@property(readonly, nonatomic) NSUUID *sampledUUID;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSString;
+@class NSMutableArray;
 
 @interface ISDConflictManager
 {
     NSMutableArray *_conflicts;
-    NSString *_directory;
-    NSMutableArray *_deltaFileNames;
-    unsigned int _lastSyncedGeneration;
-    unsigned long long _flushCount;
-    unsigned long long _nextDeltaNumber;
-    _Bool _validateConflictsOnWrite;
-    _Bool _validateConflictsOnRead;
-    NSMutableDictionary *_deletedRecordMap;
-    NSMutableArray *_addedChanges;
-    NSMutableDictionary *_recordIdDataReferenceMap;
-    NSMutableArray *_resolvedConflicts;
-    NSMutableArray *_conflictWrappers;
 }
 
 + (id);
@@ -50,7 +38,7 @@
 - (id);
 - (id);
 - (id);
-- (int);
+- (int);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -66,42 +54,36 @@
 - (id);
 - (long long);
 - (id);
+- (_Bool)i;
 - (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)";
 - (id);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (_Bool);
+- (void)const JSInstruction *);
+- (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void)J;
+- (void);
+- (void) ;
+- (void)(;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

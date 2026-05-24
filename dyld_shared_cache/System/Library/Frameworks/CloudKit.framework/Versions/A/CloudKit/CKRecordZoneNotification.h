@@ -6,15 +6,14 @@
 
 #import <CloudKit/CKNotification.h>
 
-@class CKRecordZoneID, NSString;
+@class CKRecordZoneID;
 
 @interface CKRecordZoneNotification : CKNotification
 {
     CKRecordZoneID *_recordZoneID;
-    long long _databaseScope;
 }
 
-+ (_Bool);
++ (_Bool)c;
 + (void).m;
 - (id);
 - (void);
@@ -24,19 +23,11 @@
 - (void);
 - (id);
 - (long long);
-- (void)tionary:(long long)arg1 block: /* Error: Ran out of types for this method. */;
+- (void)_CKReduceIntoDictionary:(long long)arg1 block: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long databaseScope; // @synthesize databaseScope=_databaseScope;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) CKRecordZoneID *recordZoneID; // @synthesize recordZoneID=_recordZoneID;
-@property(readonly) Class superclass;
 
 @end
 

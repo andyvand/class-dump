@@ -11,9 +11,9 @@
 
 + (_Bool)î%Ð1Â0@ù
 × ;
+- (id);
 - (id);
-- (id);
-- (long long);
+- (long long)_shouldUseAKAnnotation:toRepresentCGPDFAnnotation: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

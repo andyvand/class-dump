@@ -7,13 +7,12 @@
 @interface GEOSolarEclipticCelestialBodyData
 {
     double _latitude;
-    double _longitude;
 }
 
-- (id);
-- (id);
-- (id);
-- (double);
+- (id)8@0:(double)arg1 8@"NSArray"16@"NSArray"24@"NSArray"32@"NSString"40;
+- (id)upgradeImageTypeProperties;
+- (id)upgradeImageHashProperties;
+- (double)cellLteRSRP;
 - (double)deInfo"©
 DescriptorProto
 name (	4
@@ -116,7 +115,6 @@ deprecated (:false
 
 // Remaining properties
 @property(readonly, nonatomic) double latitude; // @synthesize latitude=_latitude;
-@property(readonly, nonatomic) double longitude; // @synthesize longitude=_longitude;
 
 @end
 

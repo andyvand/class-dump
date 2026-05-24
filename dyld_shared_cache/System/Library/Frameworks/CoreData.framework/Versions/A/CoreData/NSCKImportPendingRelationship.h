@@ -6,7 +6,7 @@
 
 #import <CoreData/NSManagedObject.h>
 
-@class NSCKImportOperation, NSNumber, NSString;
+@class NSNumber;
 
 __attribute__((visibility("hidden")))
 @interface NSCKImportPendingRelationship : NSManagedObject
@@ -17,18 +17,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *cdEntityName; // @dynamic cdEntityName;
 @property(retain, nonatomic) NSNumber *needsDelete; // @dynamic needsDelete;
-@property(nonatomic) _Bool needsDeleteBool;
-@property(retain, nonatomic) NSCKImportOperation *operation; // @dynamic operation;
-@property(retain, nonatomic) NSString *recordName; // @dynamic recordName;
-@property(retain, nonatomic) NSString *recordZoneName; // @dynamic recordZoneName;
-@property(retain, nonatomic) NSString *recordZoneOwnerName; // @dynamic recordZoneOwnerName;
-@property(retain, nonatomic) NSString *relatedEntityName; // @dynamic relatedEntityName;
-@property(retain, nonatomic) NSString *relatedRecordName; // @dynamic relatedRecordName;
-@property(retain, nonatomic) NSString *relatedRecordZoneName; // @dynamic relatedRecordZoneName;
-@property(retain, nonatomic) NSString *relatedRecordZoneOwnerName; // @dynamic relatedRecordZoneOwnerName;
-@property(retain, nonatomic) NSString *relationshipName; // @dynamic relationshipName;
 
 @end
 

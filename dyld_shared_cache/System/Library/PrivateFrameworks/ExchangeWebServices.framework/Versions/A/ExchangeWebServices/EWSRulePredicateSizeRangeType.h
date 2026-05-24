@@ -4,38 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface EWSRulePredicateSizeRangeType
 {
     _Bool _MinimumSizeSpecified;
-    _Bool _MaximumSizeSpecified;
-    long long _MinimumSize;
-    long long _MaximumSize;
 }
 
 + (id);
 - (void);
-- (void);
+- (void)R;
 - (_Bool);
 - (long long);
 - (_Bool);
-- (long long);
+- (long long);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) long long MaximumSize; // @synthesize MaximumSize=_MaximumSize;
-@property(nonatomic) _Bool MaximumSizeSpecified; // @synthesize MaximumSizeSpecified=_MaximumSizeSpecified;
 @property(nonatomic) long long MinimumSize; // @synthesize MinimumSize=_MinimumSize;
-@property(nonatomic) _Bool MinimumSizeSpecified; // @synthesize MinimumSizeSpecified=_MinimumSizeSpecified;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

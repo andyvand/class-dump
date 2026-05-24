@@ -7,11 +7,6 @@
 @interface PhotoAnalysis.WallpaperService
 {
     id $defaultActor;
-    id wallpaperUpgradeSession;
-    id identifier;
-    id stateHolder;
-    id operationManager;
-    id associatedWorkers;
 }
 
 - (void);

@@ -10,17 +10,16 @@ __attribute__((visibility("hidden")))
 @interface NSTouchBarColorPickerSliderBrightnessArtworkProvider : NSTouchBarColorPickerSliderHSBArtworkProvider
 {
     double _displayHue;
-    double _displaySaturation;
 }
 
+- (double)ace-backed-images;
+- (void)DesenseBuild;
+- (id)IuGKN3G/uix65cQ;
+- (long long)t;
 - (double);
-- (void);
 - (id);
-- (long long);
-- (double);
-- (id);
-- (id);
-- (id);
+- (id)k-;
+- (id)_immediate_buffer_was_set;
 - (_Bool);
 
 @end

@@ -4,48 +4,64 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDeviceToDeviceShareInvitationToken, CKRecordID, HAPPairingIdentity, HMDAccountHandle, HMDAccountIdentifier, MKFGuestDatabaseID, NSArray, NSData, NSDate, NSNumber, NSString;
-@protocol MKFHome, MKFUserAccessCode;
+@class HAPPairingIdentity, HMDAccountHandle, HMDAccountIdentifier, NSArray, NSNumber, NSString, NSUUID, Protocol;
+@protocol MKFAccessory, MKFAirPlayAccessory, MKFAnalysisEventBulletinRegistration, MKFAppleMediaAccessory, MKFBulletinRegistration, MKFCameraAccessModeBulletinRegistration, MKFCameraReachabilityBulletinRegistration, MKFCameraSignificantEventBulletinRegistration, MKFCharacteristicBulletinRegistration, MKFHAPAccessory, MKFHome, MKFMatterBulletinRegistration, MKFNotificationRegistration, MKFNotificationRegistrationActionSet, MKFNotificationRegistrationCharacteristic, MKFNotificationRegistrationMediaProperty, MKFPresenceBulletinCondition, MKFUserActivityStatus, MKFWeekDayScheduleRule, MKFYearDayScheduleRule;
 
 @protocol MKFGuest
+- (NSArray *);
+- (void);
+- (id <MKFYearDayScheduleRule>)sharedService;
+- (id <MKFWeekDayScheduleRule>)shareWithContactValue:(NSUUID *)arg1 queue:completion: /* Error: Ran out of types for this method. */;
+- (id <MKFUserActivityStatus>)setTransitLineBookmark:(NSUUID *)arg1;
+- (id <MKFNotificationRegistrationMediaProperty>)setPlace:(NSUUID *)arg1;
+- (id <MKFNotificationRegistrationCharacteristic>)setObject:(NSUUID *)arg1 forKeyedSubscript: /* Error: Ran out of types for this method. */;
+- (id <MKFNotificationRegistrationActionSet>)setMuted:(NSUUID *)arg1;
+- (id <MKFMatterBulletinRegistration>)setHasIconAttributeValue:(NSUUID *)arg1;
+- (id <MKFCharacteristicBulletinRegistration>)setHasEndDatetime:(NSUUID *)arg1;
+- (id <MKFCameraSignificantEventBulletinRegistration>)setHasCreatedTimestamp:(NSUUID *)arg1;
+- (id <MKFCameraReachabilityBulletinRegistration>)setHasArtworkSourceType:(NSUUID *)arg1;
+- (id <MKFCameraAccessModeBulletinRegistration>)setGeoMapItem:(NSUUID *)arg1;
+- (id <MKFBulletinRegistration>)setFloorOrdinal:(NSUUID *)arg1;
+- (id <MKFAnalysisEventBulletinRegistration>)setEtaInfos:(NSUUID *)arg1;
+- (id <MKFPresenceBulletinCondition>)setDirectionsSearch:(NSUUID *)arg1;
+- (id <MKFHAPAccessory>)setCreationDatetime:(NSUUID *)arg1;
+- (id <MKFAppleMediaAccessory>)setContents:(NSUUID *)arg1;
+- (id <MKFAirPlayAccessory>)setComposedRouteFromState:(NSUUID *)arg1;
+- (id <MKFNotificationRegistrationMediaProperty>)elegate>",W,N,V_delegate;
+- (id <MKFNotificationRegistrationCharacteristic>)records;
+- (id <MKFNotificationRegistrationActionSet>)originalObjects;
+- (id <MKFNotificationRegistration>)eArray",&,N,V_records;
+- (id <MKFMatterBulletinRegistration>)",R,N,V_replacementImmutableObjects;
+- (id <MKFCharacteristicBulletinRegistration>)groupIdentifier;
+- (id <MKFCameraSignificantEventBulletinRegistration>)fetchSharedTripsWithCompletion:(NSUUID *)arg1;
+- (id <MKFCameraReachabilityBulletinRegistration>)endDate;
+- (id <MKFCameraAccessModeBulletinRegistration>)SPTransitStorageLine",&,N,V_line;
+- (id <MKFBulletinRegistration>)ansitStorageAttribution",&,N,V_transitAttribution;
+- (id <MKFAnalysisEventBulletinRegistration>)_alternateArtwork;
+- (id <MKFBulletinRegistration>)Storage",R,N;
+- (id <MKFHAPAccessory>),&,N,V_latLng;
+- (id <MKFAppleMediaAccessory>)_originalHandle;
+- (id <MKFAirPlayAccessory>)t;
+- (id <MKFAccessory>)_needToSendETARefreshFor:(Protocol *)arg1 state:(NSUUID *)arg2;
+- (NSArray *)etcher registerObserver %@;
+- (NSArray *)r] Checking blocklist to see if any cached statuses are now blocked...;
+- (NSNumber *)sedRoute from %lu routingPathLegs and %lu waypoints;
+- (void)nblock identifiers %@:(id <MKFYearDayScheduleRule>)arg1 error:%@ /* Error: Ran out of types for this method. */;
+- (void)no matching synced items to delete for %@;
+- (void)n't have routeInfo;
+- (void)ng state %@;
+- (void)ate}@%s, %lu%s trips;
+- (void)erver] Unsubscribing from trip %@, no more connections;
 - (void)Â0@ù
 × ;
 - (id <MKFHome>)0@ù
 × ;
-- (HAPPairingIdentity *)odelID: /* Error: Ran out of types for this method. */;
+- (HAPPairingIdentity *)findResidentsRelationWithModelID: /* Error: Ran out of types for this method. */;
 - (HMDAccountIdentifier *)d and receive response for path:%@ with result:%@ /* Error: Ran out of types for this method. */;
 - (NSString *):%@ /* Error: Ran out of types for this method. */;
 - (void)ome changed;
 
 // Remaining properties
-@property(retain, nonatomic) id <MKFUserAccessCode> accessCode;
 @property(retain, nonatomic) HMDAccountHandle *accountHandle;
-@property(retain, nonatomic) HMDAccountIdentifier *accountIdentifier;
-@property(readonly, retain, nonatomic) NSArray *allowedAccessories;
-@property(copy, nonatomic) NSNumber *announceAccessLevel;
-@property(readonly, retain, nonatomic) NSArray *bulletinConditions;
-@property(readonly, retain, nonatomic) NSArray *bulletinRegistrations;
-@property(copy, nonatomic) NSNumber *camerasAccessLevel;
-@property(readonly, copy, nonatomic) MKFGuestDatabaseID *databaseID;
-@property(readonly, retain, nonatomic) id <MKFHome> home;
-@property(copy, nonatomic) NSString *idsMergeIdentifier;
-@property(copy, nonatomic) NSDate *lastLocalActivityTimeStamp;
-@property(retain, nonatomic) NSData *matCredIPKExternalRepresentation;
-@property(readonly, retain, nonatomic) NSArray *notificationRegistrations;
-@property(retain, nonatomic) HAPPairingIdentity *pairingIdentity;
-@property(copy, nonatomic) NSNumber *presenceAuthorizationStatus;
-@property(readonly, retain, nonatomic) NSArray *presenceEvents;
-@property(copy, nonatomic) NSNumber *presenceRegionStatus;
-@property(copy, nonatomic) NSDate *presenceUpdateTimeStamp;
-@property(copy, nonatomic) NSNumber *privilege;
-@property(copy, nonatomic) NSNumber *remoteAccessAllowed;
-@property(retain, nonatomic) CKRecordID *reverseShareID;
-@property(retain, nonatomic) CKDeviceToDeviceShareInvitationToken *reverseShareToken;
-@property(copy, nonatomic) NSNumber *uniqueIDForAccessories;
-@property(readonly, retain, nonatomic) NSArray *userActivityStatuses;
-@property(copy, nonatomic) NSString *userID;
-@property(readonly, retain, nonatomic) NSArray *weekDayScheduleRules;
-@property(copy, nonatomic) NSDate *writerTimestamp;
-@property(readonly, retain, nonatomic) NSArray *yearDayScheduleRules;
 @end
 

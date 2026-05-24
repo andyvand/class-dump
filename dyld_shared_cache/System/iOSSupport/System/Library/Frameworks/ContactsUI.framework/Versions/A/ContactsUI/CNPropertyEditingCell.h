@@ -6,13 +6,12 @@
 
 #import <ContactsUI/CNPropertyCell.h>
 
-@class CNRepeatingGradientSeparatorView, NSString, UIButton;
+@class CNRepeatingGradientSeparatorView, UIButton;
 
 __attribute__((visibility("hidden")))
 @interface CNPropertyEditingCell : CNPropertyCell
 {
     UIButton *_labelButton;
-    CNRepeatingGradientSeparatorView *_vseparator;
 }
 
 + (_Bool);
@@ -27,27 +26,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (double);
+- (double)D;
 - (void);
 - (double);
-- (id);
+- (id);
 - (double);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void)Group:animated: /* Error: Ran out of types for this method. */;
+- (void)_scrollContactView:toVisibleGroup:animated: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) UIButton *labelButton; // @synthesize labelButton=_labelButton;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) CNRepeatingGradientSeparatorView *vseparator; // @synthesize vseparator=_vseparator;
 
 @end

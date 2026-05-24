@@ -4,36 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapRegion, NSString;
-
 @interface GEOExternalTileCacheInfo
 {
     unsigned int _tileSetVersion;
-    unsigned int _set;
-    NSString *_eTag;
-    NSString *_URL;
-    unsigned long long _type;
-    struct _GEOTileKey _key;
 }
 
 + (_Bool)public}@;
 - (unsigned int);
 - (struct _GEOTileKey *);
 - (id);
-- (CDStruct_60067b7e);
+- (CDStruct_60067b7e)_cn_hasPrefix: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
 - (id);
 - (unsigned short);
-- (id);
+- (id)URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend: /* Error: Ran out of types for this method. */;
 - (struct _GEOTileKey);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)developerPlaceCardGetDirectionsFooterAction;
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)__objc_classname__TEXT;
 - (_Bool);
 - (void)7Ò4;
 - (unsigned int)¨Qÿ;
@@ -41,16 +34,7 @@
 - (void)<ìÿÀ¡;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *URL; // @synthesize URL=_URL;
-@property(readonly, nonatomic) unsigned short dataFormatVersion;
-@property(copy, nonatomic) NSString *eTag; // @synthesize eTag=_eTag;
-@property(readonly, nonatomic) CDStruct_60067b7e externalKey;
 @property(readonly, nonatomic) struct _GEOTileKey key; // @synthesize key=_key;
-@property(readonly, nonatomic) struct _GEOTileKey *keyPtr;
-@property(readonly, nonatomic) GEOMapRegion *mapRegion;
-@property(nonatomic) unsigned int set; // @synthesize set=_set;
-@property(readonly, nonatomic) unsigned int tileSetVersion; // @synthesize tileSetVersion=_tileSetVersion;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

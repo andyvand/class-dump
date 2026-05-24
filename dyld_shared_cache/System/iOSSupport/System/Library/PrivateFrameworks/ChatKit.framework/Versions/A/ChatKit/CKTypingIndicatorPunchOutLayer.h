@@ -4,26 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CALayer, ChatKit.CKTypingIndicatorVisualConfiguration;
+@class ChatKit.CKTypingIndicatorVisualConfiguration;
 
 @interface CKTypingIndicatorPunchOutLayer
 {
     _Bool _isWiderForImageIcon;
-    CALayer *_alignedContentLayer;
-    ChatKit.CKTypingIndicatorVisualConfiguration *_visualConfiguration;
-    CALayer *_smallBubble;
-    CALayer *_mediumBubble;
-    CALayer *_largeBubble;
 }
 
 - (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)searchIndexerDidFinishDeletingSearchableItemsWithObjectIDURIs:(id)arg1 error: /* Error: Ran out of types for this method. */;
+- (void)isInsideSiriSnippet;
+- (void)ic_addAnchorsToFillSuperviewWithPadding:(id)arg1;
+- (_Bool)rtionController;
 - (id);
 - (id);
-- (id);
+- (id)content for non-existent attachment:(id)arg1 %@;
 - (void);
 - (void);
 - (void);
@@ -32,12 +27,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (double);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -49,15 +44,10 @@
 - (void);
 - (id)0@ù
 × ;
-- (void)ationBarCallModeJoinedVideo;
+- (void)CKNavigationBarCallModeJoinedVideo;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CALayer *alignedContentLayer; // @synthesize alignedContentLayer=_alignedContentLayer;
-@property(nonatomic) _Bool isWiderForImageIcon; // @synthesize isWiderForImageIcon=_isWiderForImageIcon;
-@property(retain, nonatomic) CALayer *largeBubble; // @synthesize largeBubble=_largeBubble;
-@property(retain, nonatomic) CALayer *mediumBubble; // @synthesize mediumBubble=_mediumBubble;
-@property(retain, nonatomic) CALayer *smallBubble; // @synthesize smallBubble=_smallBubble;
 @property(retain, nonatomic) ChatKit.CKTypingIndicatorVisualConfiguration *visualConfiguration; // @synthesize visualConfiguration=_visualConfiguration;
 
 @end

@@ -7,6 +7,7 @@
 @class _UISheetPresentationControllerConfiguration;
 
 @protocol _UIRemoteSheet
+- (void)C;
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setSheetConfiguration:) _UISheetPresentationControllerConfiguration *_sheetConfiguration;

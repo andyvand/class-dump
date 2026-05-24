@@ -4,13 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @protocol SFLSet
+- (_Bool);
+- (_Bool)8J;
+- (void)ring",R,C,N,V_machServiceName;
+- (void)!;
 
 // Remaining properties
-@property(readonly, copy) NSArray *allItems;
 @property(readonly, retain) NSString *identifier;
-@property(copy) NSDictionary *properties;
 @end
 

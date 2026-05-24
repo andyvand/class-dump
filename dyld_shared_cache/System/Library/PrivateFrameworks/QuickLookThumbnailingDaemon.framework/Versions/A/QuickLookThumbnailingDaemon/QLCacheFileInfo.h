@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class QLCacheVersionedFileIdentifier;
-
 @interface QLCacheFileInfo
 {
     float _minSize;
-    float _maxSize;
-    unsigned long long _cacheId;
-    QLCacheVersionedFileIdentifier *_fileIdentifier;
-    unsigned long long _thumbnailCount;
-    unsigned long long _totalDataLength;
 }
 
 - (id);
@@ -23,16 +16,11 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (float);
+- (float);
 - (float)s SET last_hit_date=?;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long cacheId; // @synthesize cacheId=_cacheId;
-@property(readonly, nonatomic) QLCacheVersionedFileIdentifier *fileIdentifier; // @synthesize fileIdentifier=_fileIdentifier;
-@property(readonly, nonatomic) float maxSize; // @synthesize maxSize=_maxSize;
-@property(readonly, nonatomic) float minSize; // @synthesize minSize=_minSize;
-@property(readonly, nonatomic) unsigned long long thumbnailCount; // @synthesize thumbnailCount=_thumbnailCount;
-@property(readonly, nonatomic) unsigned long long totalDataLength; // @synthesize totalDataLength=_totalDataLength;
 
 @end
 

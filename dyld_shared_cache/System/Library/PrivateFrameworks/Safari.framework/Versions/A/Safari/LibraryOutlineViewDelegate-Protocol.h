@@ -5,5 +5,6 @@
 //
 
 @protocol LibraryOutlineViewDelegate
+- (_Bool);
 @end
 

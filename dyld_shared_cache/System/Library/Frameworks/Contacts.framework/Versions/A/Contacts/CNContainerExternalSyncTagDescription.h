@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 
 - (void);
 - (id);
-- (id);
-- (_Bool);
+- (id)buildCoreAnalyticsEventPayloadWithProperties:fromSourceEvent:intoTargetEventPayload: /* Error: Ran out of types for this method. */;
+- (_Bool)out:]_block_invoke /* Error: Ran out of types for this method. */;
 - (Class)× ;
 
 @end

@@ -6,7 +6,7 @@
 
 #import <MediaPlayer/MPStoreAssetPlaybackResponse.h>
 
-@class MPStoreHLSAssetInfo, NSArray, NSDate, NSDictionary;
+@class NSDictionary;
 
 @interface MPMutableStoreAssetPlaybackResponse : MPStoreAssetPlaybackResponse
 {
@@ -21,18 +21,10 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)h6;
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *dialogDictionary; // @dynamic dialogDictionary;
-@property(copy, nonatomic) NSDate *expirationDate; // @dynamic expirationDate;
-@property(copy, nonatomic) NSArray *fileAssetInfoList; // @dynamic fileAssetInfoList;
-@property(retain, nonatomic) MPStoreHLSAssetInfo *hlsAssetInfo; // @dynamic hlsAssetInfo;
-@property(nonatomic, getter=isLiveRadioStream) _Bool liveRadioStream; // @dynamic liveRadioStream;
-@property(nonatomic) _Bool onlineSubscriptionKeysRequired; // @dynamic onlineSubscriptionKeysRequired;
-@property(copy, nonatomic) NSArray *radioStreamAssetInfoList; // @dynamic radioStreamAssetInfoList;
-@property(nonatomic, getter=isSubscriptionRequired) _Bool subscriptionRequired; // @dynamic subscriptionRequired;
-@property(retain, nonatomic) id suzeLeaseID; // @dynamic suzeLeaseID;
 
 @end
 

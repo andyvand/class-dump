@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorRelayReachabilityContext, NSArray, NSString;
+@class NSString;
 
 @interface BlastDoorRelayReachabilityRequest
 {
@@ -15,14 +15,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)internalProperties;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) BlastDoorRelayReachabilityContext *context;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) NSArray *handles;
-@property(nonatomic, readonly) NSString *serviceName;
 
 @end
 

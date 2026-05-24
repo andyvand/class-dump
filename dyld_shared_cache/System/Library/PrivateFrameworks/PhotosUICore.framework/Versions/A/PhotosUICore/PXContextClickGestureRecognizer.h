@@ -9,13 +9,12 @@
 @interface PXContextClickGestureRecognizer
 {
     NSEvent *_recognizedEvent;
-    unsigned long long _cleanupEventType;
 }
 
 - (void);
 - (void);
 - (void);
-- (void)osition;
+- (void)PXGPosition;
 - (void)ÿK(j@;
 
 @end

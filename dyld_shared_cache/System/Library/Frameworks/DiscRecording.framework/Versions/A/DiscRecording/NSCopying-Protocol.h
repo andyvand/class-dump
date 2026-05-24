@@ -5,5 +5,6 @@
 //
 
 @protocol NSCopying
+- (id)cdpRecoveryInformationToDictionary:(struct _NSZone *)arg1;
 @end
 

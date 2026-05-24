@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTLazuliMessageIDList, NSString;
+@class NSString;
 
 @interface CTLazuliChatBotSpamReportInformation
 {
     NSString *_chatbotUri;
-    CTLazuliMessageIDList *_messageIDList;
-    long long _spamType;
-    NSString *_freeBodyText;
 }
 
-+ (_Bool);
++ (_Bool)isMultivariantPlaylist;
 - (long long);
-- (void);
-- (void);
-- (void);
+- (void)C;
+- (void)@9j;
+- (void)8ؗ;
 - (void);
 - (id);
 - (_Bool);
@@ -28,15 +25,12 @@
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void),;
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *chatbotUri; // @synthesize chatbotUri=_chatbotUri;
-@property(retain, nonatomic) NSString *freeBodyText; // @synthesize freeBodyText=_freeBodyText;
-@property(retain, nonatomic) CTLazuliMessageIDList *messageIDList; // @synthesize messageIDList=_messageIDList;
-@property(nonatomic) long long spamType; // @synthesize spamType=_spamType;
 
 @end
 

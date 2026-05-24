@@ -4,32 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AFSystemStateSnapshot, NSString;
+@class AFSystemStateSnapshot;
 
 @interface _AFSystemStateSnapshotMutation
 {
     AFSystemStateSnapshot *_base;
-    long long _sleepState;
-    struct _mutationFlags {
-        unsigned int isDirty:1;
-        unsigned int hasSleepState:1;
-    } _mutationFlags;
 }
 
 - (void);
 - (long long);
 - (_Bool);
-- (id)achServiceWithName:(id)arg1;
-- (void)esses;
+- (id)taskmasterForMachServiceWithName:(id)arg1;
+- (void)_recipientAddresses;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

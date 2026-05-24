@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 }
 
 - (struct CGRect);
-- (_Bool);
+- (_Bool)}d, request_start_ms=%u, request_duration_ms=%u, response_start_ms=%u, response_duration_ms=%u, request_bytes=%lld, request_throughput_kbps=%lld, response_bytes=%lld, response_throughput_kbps=%lld, cache_hit=%{bool}d};
 
 @end
 

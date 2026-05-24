@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccount, NSArray, NSString;
+@class NSArray, NSString;
 
 @protocol ABAccountCollection
+- (NSString *);
+- (NSArray *)_channelIdentifier;
 - (void);
-- (NSArray *)t: /* Error: Ran out of types for this method. */;
+- (NSArray *)persistentStoresForAccount: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSArray *allAccounts;
 @property(readonly, copy) NSString *basePath;
-@property(readonly) _Bool canBeReplacedByCachedAccounts;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) ABAccount *defaultAccount;
-@property(readonly, copy) NSArray *enabledAccounts;
-@property(readonly, copy) NSArray *hiddenAccounts;
-@property(readonly, copy) NSArray *persistentAccounts;
 @end
 

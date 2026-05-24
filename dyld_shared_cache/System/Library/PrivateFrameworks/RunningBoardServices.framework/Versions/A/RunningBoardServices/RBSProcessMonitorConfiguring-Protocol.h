@@ -5,5 +5,6 @@
 //
 
 @protocol RBSProcessMonitorConfiguring
+- (void);
 @end
 

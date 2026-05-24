@@ -6,26 +6,18 @@
 
 #import <ChatKit/CKImageBalloonView.h>
 
-@protocol NSCopying;
-
 @interface ChatKit.RichLinkCardStackItemView : CKImageBalloonView
 {
     id linkView;
-    id chipListMenuView;
-    id balloonMask;
-    id actionDelegate;
-    struct CGRect clippingRect;
-    id isStandaloneBalloon;
-    id <NSCopying> userData;
 }
 
-- (struct CGSize);
+- (struct CGSize)?<v@?@"NSString"B>48;
+- (void)discardCalculateDocumentController;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)Doc Cam PDFs;
 - (void);
 - (struct CGRect);
 - (void);
@@ -38,7 +30,6 @@
 
 // Remaining properties
 @property(nonatomic) struct CGRect clippingRect; // @synthesize clippingRect;
-@property(nonatomic, retain) id <NSCopying> userData; // @synthesize userData;
 
 @end
 

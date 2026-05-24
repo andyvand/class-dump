@@ -9,8 +9,6 @@
 @interface _PXNSPhotoKitImageProviderOperation
 {
     int _resourceRequestID;
-    PXNSPhotoKitImageProvider *_imageProvider;
-    struct CGSize _targetSize;
 }
 
 + (struct CGSize);
@@ -18,7 +16,7 @@
 - (void);
 - (int);
 - (void);
-- (id);
+- (id)Q;
 - (void);
 - (struct CGSize);
 - (void);
@@ -29,8 +27,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak PXNSPhotoKitImageProvider *imageProvider; // @synthesize imageProvider=_imageProvider;
-@property(nonatomic) int resourceRequestID; // @synthesize resourceRequestID=_resourceRequestID;
-@property(nonatomic) struct CGSize targetSize; // @synthesize targetSize=_targetSize;
 
 @end
 

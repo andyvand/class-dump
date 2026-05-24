@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class NSString;
 
 @interface IDENTITYSchemaIDENTITYScoreTuple : SISchemaInstrumentationMessage
 {
     NSString *_loggableSharedUserId;
-    unsigned int _confidenceScore;
-    SISchemaUUID *_userEphemeralId;
-    struct {
-        unsigned int confidenceScore:1;
-    } _has;
-    _Bool _hasLoggableSharedUserId;
-    _Bool _hasUserEphemeralId;
 }
 
 - (void);
@@ -31,17 +24,17 @@
 - (id);
 - (void);
 - (id);
+- (void)ntroller",&,V_baseViewController;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)urn value of block argument (%@) must be 'void'.;
 - (unsigned int);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)__objc_protorefs__DATA_CONST;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)gridKeyForWidth:andHeight: /* Error: Ran out of types for this method. */;
 - (id)
 × ;
 - (id)ate;
@@ -49,13 +42,7 @@
 - (void)üxÊÿø;
 
 // Remaining properties
-@property(nonatomic) unsigned int confidenceScore; // @synthesize confidenceScore=_confidenceScore;
-@property(nonatomic) _Bool hasConfidenceScore;
-@property(nonatomic) _Bool hasLoggableSharedUserId; // @synthesize hasLoggableSharedUserId=_hasLoggableSharedUserId;
-@property(nonatomic) _Bool hasUserEphemeralId; // @synthesize hasUserEphemeralId=_hasUserEphemeralId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *loggableSharedUserId; // @synthesize loggableSharedUserId=_loggableSharedUserId;
-@property(retain, nonatomic) SISchemaUUID *userEphemeralId; // @synthesize userEphemeralId=_userEphemeralId;
 
 @end
 

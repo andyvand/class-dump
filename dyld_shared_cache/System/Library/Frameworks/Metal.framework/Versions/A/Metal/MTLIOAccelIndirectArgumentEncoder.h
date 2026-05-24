@@ -24,7 +24,8 @@
 - (unsigned long long);
 - (void *);
 - (void);
-- (void);
+- (void)is NULL
+;
 - (void);
 - (void);
 - (void);

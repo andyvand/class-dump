@@ -6,33 +6,12 @@
 
 #import <UIKitCore/UIKBInputBackdropView.h>
 
-@class NSArray, NSLayoutConstraint, NSMutableArray, UIKBBackdropView, UIKBBackgroundShapeView, UILayoutGuide, UIView, _UIGradientView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIKBLightEffectsBackground : UIKBInputBackdropView
 {
     _Bool _clientBackdropInUse;
-    _Bool _isUsingAnimatedBackdrop;
-    _Bool _isAnimating;
-    _Bool _useLightConfigEffects;
-    UILayoutGuide *_fullBackdropLayoutGuide;
-    UILayoutGuide *_assistantLayoutGuide;
-    UIView *_fullBackdropMaskView;
-    UIView *_assistantBarMaskView;
-    _UIGradientView *_backdropGradientMaskView;
-    UIView *_behindFullBackdropView;
-    UIView *_behindAssistantView;
-    UIView *_mirroredShadowView;
-    UIView *_mirroredLightBorderView;
-    UILayoutGuide *_aboveKeyboardLayoutGuide;
-    NSLayoutConstraint *_minimumAboveKeyboardHeightConstraint;
-    UIView *_backdropClippingView;
-    NSArray *_backdropClippingConstraints;
-    UIKBBackgroundShapeView *_backdropMask;
-    NSMutableArray *_lightSourceConstraints;
-    UIKBBackdropView *_transitionStartBackdropView;
-    long long _clippingStyle;
-    struct CGSize _candidateBarSize;
 }
 
 - (void);
@@ -63,42 +42,42 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (long long);
-- (_Bool);
-- (void);
-- (struct CGSize);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)16@"IDSAccount"24B32@"NSString"36@"NSData"44;
+- (id)targetApplicationRecord;
+- (id)systemScreenDidPowerUp;
+- (id)syncedProperties;
+- (void)associatedPositionIntent:parentPreviewWidth:stickerXOffset:stickerYOffset:stickerScale:stickerRotation:stickerBundleID:stickerIsReaction:stickerPositionVersion:stickerExternalURI: /* Error: Ran out of types for this method. */;
+- (id)setWasReportedAsJunk: /* Error: Ran out of types for this method. */;
+- (id)setSmsRelayBlockMap: /* Error: Ran out of types for this method. */;
+- (_Bool)setHasPopulatedHighlightTracking: /* Error: Ran out of types for this method. */;
+- (_Bool)service:sendMessage:fromAccount:toDestinations:priority:options:identifier:error: /* Error: Ran out of types for this method. */;
+- (id)identifiersForDomain: /* Error: Ran out of types for this method. */;
+- (id)identifier:equalsIdentifier: /* Error: Ran out of types for this method. */;
+- (id)filteringController;
+- (void)fileTransferForBlastDoorFileTransferAttribute:(double)arg1 fileTransferGUIDs:(double)arg2 supportingStickerAttributes: /* Error: Ran out of types for this method. */;
+- (void)_routingBehaviorsForLocalMessageType:(id)arg1;
+- (long long)_receiverURIWithItem:chat: /* Error: Ran out of types for this method. */;
+- (_Bool)_pwRequestID;
+- (void)_perTransferProgress;
+- (struct CGSize)_newDeviceDidSignIntoiMessageWithRetryCount: /* Error: Ran out of types for this method. */;
+- (id)_itemsWithHandles:(double)arg1 onServices:messageGUID:threadIdentifier:limit:onlyMessages: /* Error: Ran out of types for this method. */;
+- (id)_initResyncForDeleteRecovery;
+- (id)_indexOfNextBatch:totalTransfers:indexOfTransfers: /* Error: Ran out of types for this method. */;
+- (id)_finishSendingMessageItem:chatIdentifier:chatStyle:foundChat:didSendSMS:attemptingReplication:shouldForceFail:watchSendsOverCellular:forceReflection:forceRelay:callerID: /* Error: Ran out of types for this method. */;
+- (id)context: /* Error: Ran out of types for this method. */;
+- (id)essagesPerReport:chat:totalMessageCount:totalMessages:context: /* Error: Ran out of types for this method. */;
+- (id)ictionaries:smsServiceReportAllowed:maxMessagesPerReport:chat:totalMessageCount:totalMessages:context: /* Error: Ran out of types for this method. */;
+- (id)_didReceiveMessageSavedForMessageID:ofType:forChat:fromHandle:fromMe:date:attempts:account:completionBlock: /* Error: Ran out of types for this method. */;
+- (id)_didReceiveMessageReadForMessageID:date:attempts:completionBlock: /* Error: Ran out of types for this method. */;
+- (void)_chatBotMessageRecordZoneID;
+- (void)iptsV1WithQOINoDupe;
+- (void)I;
+- (id)nicknameService;
+- (void)HQ asset %@ to LQ for watch relay with error %@;
+- (void)egistering for Account alias changes;
+- (void):(id)arg1 %@:%@:%@:%@>] /* Error: Ran out of types for this method. */;
+- (void)service;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -106,7 +85,7 @@ __attribute__((visibility("hidden")))
 × ;
 - (_Bool)!dBù1f1Â0@ù
 × ;
-- (id):(struct CGRect)arg1 updateType:alongsideAnimations: /* Error: Ran out of types for this method. */;
+- (id)_displayMenu:(struct CGRect)arg1 inPlaceOfMenu:updateType:alongsideAnimations: /* Error: Ran out of types for this method. */;
 - (_Bool)`;
 - (void);
 - (void)T	tþ43Ètþ!43,
@@ -115,28 +94,7 @@ tþ43tþQ43ätþá43àtþá43Ðtþ)43 	tþa43è	tþ143	tþ
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UILayoutGuide *aboveKeyboardLayoutGuide; // @synthesize aboveKeyboardLayoutGuide=_aboveKeyboardLayoutGuide;
-@property(retain, nonatomic) UIView *assistantBarMaskView; // @synthesize assistantBarMaskView=_assistantBarMaskView;
-@property(retain, nonatomic) UILayoutGuide *assistantLayoutGuide; // @synthesize assistantLayoutGuide=_assistantLayoutGuide;
-@property(retain, nonatomic) NSArray *backdropClippingConstraints; // @synthesize backdropClippingConstraints=_backdropClippingConstraints;
-@property(retain, nonatomic) UIView *backdropClippingView; // @synthesize backdropClippingView=_backdropClippingView;
-@property(retain, nonatomic) _UIGradientView *backdropGradientMaskView; // @synthesize backdropGradientMaskView=_backdropGradientMaskView;
-@property(retain, nonatomic) UIKBBackgroundShapeView *backdropMask; // @synthesize backdropMask=_backdropMask;
-@property(retain, nonatomic) UIView *behindAssistantView; // @synthesize behindAssistantView=_behindAssistantView;
-@property(retain, nonatomic) UIView *behindFullBackdropView; // @synthesize behindFullBackdropView=_behindFullBackdropView;
-@property(nonatomic) struct CGSize candidateBarSize; // @synthesize candidateBarSize=_candidateBarSize;
-@property(nonatomic) _Bool clientBackdropInUse; // @synthesize clientBackdropInUse=_clientBackdropInUse;
-@property(nonatomic) long long clippingStyle; // @synthesize clippingStyle=_clippingStyle;
-@property(retain, nonatomic) UILayoutGuide *fullBackdropLayoutGuide; // @synthesize fullBackdropLayoutGuide=_fullBackdropLayoutGuide;
 @property(retain, nonatomic) UIView *fullBackdropMaskView; // @synthesize fullBackdropMaskView=_fullBackdropMaskView;
-@property(nonatomic) _Bool isAnimating; // @synthesize isAnimating=_isAnimating;
-@property(nonatomic) _Bool isUsingAnimatedBackdrop; // @synthesize isUsingAnimatedBackdrop=_isUsingAnimatedBackdrop;
-@property(retain, nonatomic) NSMutableArray *lightSourceConstraints; // @synthesize lightSourceConstraints=_lightSourceConstraints;
-@property(retain, nonatomic) NSLayoutConstraint *minimumAboveKeyboardHeightConstraint; // @synthesize minimumAboveKeyboardHeightConstraint=_minimumAboveKeyboardHeightConstraint;
-@property(retain, nonatomic) UIView *mirroredLightBorderView; // @synthesize mirroredLightBorderView=_mirroredLightBorderView;
-@property(retain, nonatomic) UIView *mirroredShadowView; // @synthesize mirroredShadowView=_mirroredShadowView;
-@property(retain, nonatomic) UIKBBackdropView *transitionStartBackdropView; // @synthesize transitionStartBackdropView=_transitionStartBackdropView;
-@property(nonatomic) _Bool useLightConfigEffects; // @synthesize useLightConfigEffects=_useLightConfigEffects;
 
 @end
 

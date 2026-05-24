@@ -12,7 +12,7 @@
 
 + (Class);
 + (id);
-- (_Bool);
+- (_Bool)';
 
 @end
 

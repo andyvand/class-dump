@@ -5,5 +5,8 @@
 //
 
 @protocol TUCaptionsClientDelegate
+
+@optional
+- (void);
 @end
 

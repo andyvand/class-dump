@@ -6,24 +6,15 @@
 
 #import <MarkupUI/MUContentViewController.h>
 
-@class MUPDFViewBase, NSClipView, NSCursor, NSMutableSet, NSString, PDFDocument;
-@protocol MUContentViewControllerDataDelegate;
+@class NSMutableSet;
 
 __attribute__((visibility("hidden")))
 @interface MUPDFContentViewController : MUContentViewController
 {
     _Bool contentViewControllerCropEnabled;
-    id <MUContentViewControllerDataDelegate> _dataDelegate;
-    NSCursor *_annotationCursor;
-    NSMutableSet *_currentlyObservedCropAnnotations;
-    NSMutableSet *_currentlyObservedPageModelControllers;
-    PDFDocument *_contentPDFDocument;
-    id _frameChangedObserver;
-    NSClipView *_pdfScrollViewContentView;
-    MUPDFViewBase *_preloadedView;
 }
 
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -31,9 +22,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)1;
 - (void);
 - (id);
 - (struct CGRect);
@@ -61,16 +52,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)T?8;
+- (void);
+- (void)@;
 - (struct CGSize);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -78,27 +69,12 @@ __attribute__((visibility("hidden")))
 - (struct CGRect);
 - (id);
 - (void);
-- (void);
+- (void)subarrayWithRange: /* Error: Ran out of types for this method. */;
 - (struct CGSize)A4"!DùÉ%°1Â0@ù
 × ;
 
 // Remaining properties
-@property(retain) NSCursor *annotationCursor; // @synthesize annotationCursor=_annotationCursor;
-@property(retain) PDFDocument *contentPDFDocument; // @synthesize contentPDFDocument=_contentPDFDocument;
-@property _Bool contentViewControllerCropEnabled; // @synthesize contentViewControllerCropEnabled;
 @property(retain) NSMutableSet *currentlyObservedCropAnnotations; // @synthesize currentlyObservedCropAnnotations=_currentlyObservedCropAnnotations;
-@property(retain) NSMutableSet *currentlyObservedPageModelControllers; // @synthesize currentlyObservedPageModelControllers=_currentlyObservedPageModelControllers;
-@property(nonatomic) __weak id <MUContentViewControllerDataDelegate> dataDelegate; // @synthesize dataDelegate=_dataDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) id frameChangedObserver; // @synthesize frameChangedObserver=_frameChangedObserver;
-@property(readonly) unsigned long long hash;
-@property __weak NSClipView *pdfScrollViewContentView; // @synthesize pdfScrollViewContentView=_pdfScrollViewContentView;
-@property(retain) MUPDFViewBase *preloadedView; // @synthesize preloadedView=_preloadedView;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,30 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBRFTextProperty;
+@class _SFPBRFTextProperty;
 
 @interface _SFPBRFPrimaryHeaderStackedImageCardSection
 {
     _SFPBRFTextProperty *_text_1;
-    _SFPBRFTextProperty *_text_2;
-    NSArray *_images;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)_;
+- (id)PDFViewChangedHistory;
 - (id);
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
+- (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool);
+- (_Bool);
+- (id)ratioOfAssetsAtOrAboveSceneAnalysisVersion:(id)arg1;
+- (id)for:%@. Found %lu assets, took %f ms /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -35,17 +33,7 @@
 - (void)gedImage"16;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSArray *images; // @synthesize images=_images;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) _SFPBRFTextProperty *text_1; // @synthesize text_1=_text_1;
-@property(retain, nonatomic) _SFPBRFTextProperty *text_2; // @synthesize text_2=_text_2;
 
 @end
 

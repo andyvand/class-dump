@@ -4,82 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, PKStroke;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore, PKStrokeGeneratorDelegate;
-
 @interface PKStrokeGenerator
 {
     double _latestNonPredictedTimestamp;
-    vector_8f46a492 _drawPoints;
-    struct vector<_PKStrokePoint, std::allocator<_PKStrokePoint>> _outputPoints;
-    long long _outputImmutableCount;
-    _Bool _inputHasChanged;
-    struct _PKStrokePoint _baseValues;
-    NSObject<OS_dispatch_queue> *_inputQueue;
-    PKStroke *_currentStroke;
-    long long _currentInputType;
-    unsigned long long _currentActiveInputProperties;
-    long long _immutableCount;
-    long long _missedUpdates;
-    vector_8f46a492 _updatedDrawPoints;
-    _Bool _drawingEndedButNotFinished;
-    double _endTimestamp;
-    NSObject<OS_dispatch_semaphore> *_drawingWaitForFinishSemaphore;
-    _Bool _keepPredictedTouchesAtEndOfStroke;
-    _Bool _currentShouldClearAzimuth;
-    _Bool _currentRollAngleEnabled;
-    double _currentBaseRollAngle;
-    double _currentAdditionalRollAngle;
-    struct os_unfair_lock_s _baseRollAngleLock;
-    double _currentStrokeRollBaseValue;
-    double _currentStrokeRollDeltaMin;
-    double _currentStrokeRollDeltaMax;
-    NSArray *_allInputPointFilters;
-    _Bool _shouldSetIsSafeForStyleInventorFlag;
-    _Bool _captureLiveData;
-    _Bool _isPreviewing;
-    _Bool _rollAngleEnabled;
-    _Bool _shouldClearAzimuth;
-    _Bool _useRuler;
-    _Bool _isSnappedToRulerTopSide;
-    _Bool _canSnapToRuler;
-    _Bool _isSnappedToRuler;
-    double _baseRollAngle;
-    id <PKStrokeGeneratorDelegate> _delegate;
-    double _additionalRollAngle;
-    double _rulerWidth;
-    double _strokeMaxForce;
-    NSObject<OS_dispatch_queue> *_outputQueue;
-    void *_inputProvider;
-    void *_pixelSmoothingFilter;
-    void *_pointReductionFilter;
-    void *_startHookFilter;
-    void *_endHookFilter;
-    void *_velocityFilter;
-    void *_directionAngleFilter;
-    void *_inputSmoother;
-    void *_noiseSmoother;
-    void *_propertySmoother;
-    void *_inputToOutputFilter;
-    void *_startCapFilter;
-    void *_animationFilter;
-    void *_azimuthFilter;
-    void *_endDelayFilter;
-    void *_endCapFilter;
-    void *_fountainPenFilter;
-    void *_rulerExtremaFilter;
-    void *_estimatedAltitudeAndAzimuthFilter;
-    void *_compressionFilter;
-    void *_decompressionFilter;
-    double _eraserIndicatorAlpha;
-    double _inputScale;
-    struct CGPoint _lastPoint;
-    struct CGAffineTransform _rulerTransform;
 }
 
 + (vector_8f46a492);
 + (vector_8f46a492);
-+ (void)oalescingCounter;
++ (void)_coalescingCounter;
 - (void);
 - (_Bool);
 - (void);
@@ -106,6 +38,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -121,8 +54,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)H;
 - (void);
 - (void);
 - (void);
@@ -131,7 +63,7 @@
 - (void);
 - (double);
 - (struct CGAffineTransform);
-- (void *);
+- (void *);
 - (_Bool);
 - (void);
 - (void *);
@@ -171,7 +103,7 @@
 - (double);
 - (void *);
 - (void *);
-- (double);
+- (double);
 - (unsigned long long);
 - (void);
 - (void *);
@@ -181,7 +113,7 @@
 - (void *);
 - (void);
 - (double);
-- (unsigned long long);
+- (unsigned long long)T: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -199,66 +131,24 @@
 - (long long);
 - (void);
 - (struct CGPoint);
+- (void)scheduleCloudBackgroundImageSaveWithURL:(_Bool)arg1 isLightAppearance:successCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)tem/Library/Frameworks/UniformTypeIdentifiers.framework/Versions/A/UniformTypeIdentifiers;
 - (void);
 - (void);
-- (void);
-- (void);
+- (id)PHAssetCharacterRecognitionProperties;
+- (void)on for path:(CDStruct_4cc01785)arg1 %@, error; %@;
 - (id);
-- (void);
-- (id);
-- (id);
+- (id)countBigramPrefixMatchInAttachmentTypes;
 - (void);
 - (void *);
 - (void);
 - (_Bool);
-- (void);
+- (void)hh8;
 - (double);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long activeInputProperties;
-@property double additionalRollAngle; // @synthesize additionalRollAngle=_additionalRollAngle;
-@property(nonatomic) void *animationFilter; // @synthesize animationFilter=_animationFilter;
-@property(nonatomic) void *azimuthFilter; // @synthesize azimuthFilter=_azimuthFilter;
-@property(nonatomic) double baseRollAngle; // @synthesize baseRollAngle=_baseRollAngle;
-@property(nonatomic) _Bool canSnapToRuler; // @synthesize canSnapToRuler=_canSnapToRuler;
-@property(nonatomic) _Bool captureLiveData; // @synthesize captureLiveData=_captureLiveData;
-@property(nonatomic) void *compressionFilter; // @synthesize compressionFilter=_compressionFilter;
-@property(readonly) double currentStrokeRollDelta;
-@property(nonatomic) void *decompressionFilter; // @synthesize decompressionFilter=_decompressionFilter;
-@property(nonatomic) __weak id <PKStrokeGeneratorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) void *directionAngleFilter; // @synthesize directionAngleFilter=_directionAngleFilter;
-@property(nonatomic) void *endCapFilter; // @synthesize endCapFilter=_endCapFilter;
-@property(nonatomic) void *endDelayFilter; // @synthesize endDelayFilter=_endDelayFilter;
-@property(nonatomic) void *endHookFilter; // @synthesize endHookFilter=_endHookFilter;
-@property double eraserIndicatorAlpha; // @synthesize eraserIndicatorAlpha=_eraserIndicatorAlpha;
-@property(nonatomic) void *estimatedAltitudeAndAzimuthFilter; // @synthesize estimatedAltitudeAndAzimuthFilter=_estimatedAltitudeAndAzimuthFilter;
-@property(nonatomic) void *fountainPenFilter; // @synthesize fountainPenFilter=_fountainPenFilter;
-@property(nonatomic) void *inputProvider; // @synthesize inputProvider=_inputProvider;
-@property(nonatomic) double inputScale; // @synthesize inputScale=_inputScale;
-@property(nonatomic) void *inputSmoother; // @synthesize inputSmoother=_inputSmoother;
-@property(nonatomic) void *inputToOutputFilter; // @synthesize inputToOutputFilter=_inputToOutputFilter;
-@property(readonly, nonatomic) long long inputType; // @dynamic inputType;
-@property(nonatomic) _Bool isPreviewing; // @synthesize isPreviewing=_isPreviewing;
-@property _Bool isSnappedToRuler; // @synthesize isSnappedToRuler=_isSnappedToRuler;
-@property(nonatomic) _Bool isSnappedToRulerTopSide; // @synthesize isSnappedToRulerTopSide=_isSnappedToRulerTopSide;
-@property struct CGPoint lastPoint; // @synthesize lastPoint=_lastPoint;
-@property(readonly) _Bool lastPointIsMasked;
-@property(nonatomic) void *noiseSmoother; // @synthesize noiseSmoother=_noiseSmoother;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *outputQueue; // @synthesize outputQueue=_outputQueue;
-@property(nonatomic) void *pixelSmoothingFilter; // @synthesize pixelSmoothingFilter=_pixelSmoothingFilter;
-@property(nonatomic) void *pointReductionFilter; // @synthesize pointReductionFilter=_pointReductionFilter;
-@property(nonatomic) void *propertySmoother; // @synthesize propertySmoother=_propertySmoother;
-@property _Bool rollAngleEnabled; // @synthesize rollAngleEnabled=_rollAngleEnabled;
-@property(nonatomic) void *rulerExtremaFilter; // @synthesize rulerExtremaFilter=_rulerExtremaFilter;
 @property(nonatomic) struct CGAffineTransform rulerTransform; // @synthesize rulerTransform=_rulerTransform;
-@property(nonatomic) double rulerWidth; // @synthesize rulerWidth=_rulerWidth;
-@property _Bool shouldClearAzimuth; // @synthesize shouldClearAzimuth=_shouldClearAzimuth;
-@property(nonatomic) void *startCapFilter; // @synthesize startCapFilter=_startCapFilter;
-@property(nonatomic) void *startHookFilter; // @synthesize startHookFilter=_startHookFilter;
-@property(nonatomic) double strokeMaxForce; // @synthesize strokeMaxForce=_strokeMaxForce;
-@property(nonatomic) _Bool useRuler; // @synthesize useRuler=_useRuler;
-@property(nonatomic) void *velocityFilter; // @synthesize velocityFilter=_velocityFilter;
 
 @end
 

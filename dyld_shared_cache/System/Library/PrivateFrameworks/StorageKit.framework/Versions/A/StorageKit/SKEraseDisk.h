@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, SKDisk, SKProgress;
+@class SKProgress;
 
 @interface SKEraseDisk
 {
     _Bool _forceUnmount;
-    SKDisk *_disk;
-    NSArray *_descriptors;
-    SKProgress *_progress;
-    NSDictionary *_diskRepresentation;
 }
 
 + (id);
 + (id);
-+ (_Bool);
++ (_Bool)ed!;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
@@ -29,28 +25,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)Estimation"I"roundTripTime"d"owrd"d"packetLossRate"d"packetLossRateShortWindow"d"actualBitrate"I"instantBitrate"I"serverStatsBitrate"I"expectedBitrate"I}"packetSent"{?="packetId"I"totalPacketsSent"I"totalBytesSent"I"sendTimestamp"d}"packetReceived"{?="packetType"i"packetId"I"sampleRate"I"totalPacketsReceived"I"totalReceivedKBytes"I"receiveTimestamp"d"owrd"d"targetJitterQueueSize"d"bandwidthEstimation"I"localBurstyLoss"I}"rtcpRR"{?="ssrc"I"packetLossPercentage"I"lastSequenceNumber"I"roundTripTimeMilliseconds"I}"config"{?="mode"I"remoteRadioAccessTechnology"I"localRadioAccessTechnology"I"maxBitrate"I"minBitrate"I"initialBitrate"I"isTrafficBursty"B"isTrafficSpatial"B"featureFlags"I"configType"i}"mediaEvent"{?="mediaEventType"I"additionalFlushCount"I"transactionID"I"audioStallBitrate"I"audioErasure"f"isKeyFrame"B"isTransitionToFEC"B"videoStallTimeDelta"d"videoStallTimeTotal"d"refreshFrameTimestamp"I"refreshFramePayloadType"I"refreshFramePacketCount"I"idsParticipantID"Q}"nwConnection"{?="version"C"direction"C"interfaceType"C"notificationType"C"timestamp"Q"maxThroughputBps"Q"totalByteCount"Q"flushableQueueSize"I"nonFlushableQueueSize"I"averageDelayMillisecond"I"averageThroughputBps"Q"rateTrendSuggestion"i"packetLossPerFrame"I"sequenceNumber"S""(?="wifi"{?="frequencyBand"C"intermittentState"C"estimatedIntermittentPeriod"S"singleOutagePeriod"S"btCoex"C"radioCoex"C"qualityScoreDelayRx"C"qualityScoreDelayTx"C"qualityScoreLossRx"C"qualityScoreLossTx"C"qualityScoreChannel"C"offChannelTimeRatio"f"detectedFrequentOffChannelActivity"B"wlanDutyCycle"S"wifiObservedTxBitrate"[6I]"maxRadioCoex"C"accumulatedOffChannelTime"q"maxSingleOutagePeriod"S"qualityScoreDelayRxAverage"f"qualityScoreDelayTxAverage"f"qualityScoreLossRxAverage"f"qualityScoreLossTxAverage"f"qualityScoreChannelAverage"f}"baseband"{?="radioAccessTechnology"C"referenceSignalLevel"s"signalLevel"s"signalQuality"c"uplinkBLER"C"downlinkBLER"C"bandwidthLimitationIndication"C"cdrxState"C"cdrxCycle"S"estimatedOutagePeriod"S"outageState"C})}"videoLossFeedback"{tagVCStatisticsVideoLossFeedback="frameRTPTimestamp"I"packetsReceived"S"frameSize"C"packetsLost"C}"localRCEvent"{tagVCStatisticsLocalRCEvent="recentSendTime"d"recentFeedbackTime"d"bytesInFlight"I}"receiveTimeReport"{tagVCStatisticsReceiveTimeReport="reportTimestamp"I"packetSendTimestamp"I"packetReceiveTimestamp"I"packetLength"S"packetSeqNumber"S"probingSequenceID"I"isProbingSequence"B"owrd"d"bandwidthEstimation"I"sendBitrate"I"receiveBitrate"I}"addRemoveEndPoint"{tagVCStatisticsAddRemoveEndPoint="remoteSSRC"I"isAdd"B})};
 - (void);
+- (id)captionsDataCollector;
+- (void)[RTCReportingAgent blockReportingQueueUntilReportingObjectInitialized]_block_invoke;
 - (id);
+- (void)A;
 - (void);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)deleteRAID:(id *)arg1 handlingProgressForOperationUUID:withCompletionUUID: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSArray *descriptors; // @synthesize descriptors=_descriptors;
-@property(retain, nonatomic) SKDisk *disk; // @synthesize disk=_disk;
-@property(retain, nonatomic) NSDictionary *diskRepresentation; // @synthesize diskRepresentation=_diskRepresentation;
-@property(nonatomic) _Bool forceUnmount; // @synthesize forceUnmount=_forceUnmount;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) SKProgress *progress; // @synthesize progress=_progress;
-@property(readonly) Class superclass;
 
 @end
 

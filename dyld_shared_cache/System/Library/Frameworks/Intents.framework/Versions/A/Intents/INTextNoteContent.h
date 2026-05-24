@@ -13,16 +13,16 @@
     NSString *_text;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
+- (id)unregisterServicesChangedObserver:(id)arg1 notifyExisting: /* Error: Ran out of types for this method. */;
+- (unsigned long long)	;
 - (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
+- (_Bool)setNetworkIDForAssociationWithMACAddress:(id)arg1 networkProfile: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);
-- (void)ptionsForRunWorkflow:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)provideWorkflowOptionsForRunWorkflow:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)~Óÿ;
 
 // Remaining properties

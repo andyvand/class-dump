@@ -6,27 +6,16 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class FLOWSchemaFLOWHomeAutomationRequestMetadata, NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface FLOWSchemaFLOWHomeAutomationRequest : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_homeAutomationRequestId;
-    int _homeAutomationRequestType;
-    int _homeAutomationRequestOutcome;
-    NSArray *_homeAutomationRequestErrorReasons;
-    unsigned int _homeAutomationRequestDuration;
-    FLOWSchemaFLOWHomeAutomationRequestMetadata *_homeAutomationRequestMetadata;
-    struct {
-        unsigned int homeAutomationRequestType:1;
-        unsigned int homeAutomationRequestOutcome:1;
-        unsigned int homeAutomationRequestDuration:1;
-    } _has;
-    _Bool _hasHomeAutomationRequestId;
-    _Bool _hasHomeAutomationRequestMetadata;
 }
 
 - (void);
 - (void);
+- (void)(t;
 - (void);
 - (void);
 - (void);
@@ -35,9 +24,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (int);
-- (int);
+- (int)F;
+- (int)Є;
 - (id);
 - (id);
 - (id);
@@ -57,10 +45,10 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)~;
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)D;
 - (_Bool);
 - (_Bool);
 - (id);
@@ -70,18 +58,7 @@
 - (void)4x¾ÿU­³Yù$;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHomeAutomationRequestDuration;
-@property(nonatomic) _Bool hasHomeAutomationRequestId; // @synthesize hasHomeAutomationRequestId=_hasHomeAutomationRequestId;
-@property(nonatomic) _Bool hasHomeAutomationRequestMetadata; // @synthesize hasHomeAutomationRequestMetadata=_hasHomeAutomationRequestMetadata;
-@property(nonatomic) _Bool hasHomeAutomationRequestOutcome;
-@property(nonatomic) _Bool hasHomeAutomationRequestType;
-@property(nonatomic) unsigned int homeAutomationRequestDuration; // @synthesize homeAutomationRequestDuration=_homeAutomationRequestDuration;
-@property(copy, nonatomic) NSArray *homeAutomationRequestErrorReasons; // @synthesize homeAutomationRequestErrorReasons=_homeAutomationRequestErrorReasons;
 @property(retain, nonatomic) SISchemaUUID *homeAutomationRequestId; // @synthesize homeAutomationRequestId=_homeAutomationRequestId;
-@property(retain, nonatomic) FLOWSchemaFLOWHomeAutomationRequestMetadata *homeAutomationRequestMetadata; // @synthesize homeAutomationRequestMetadata=_homeAutomationRequestMetadata;
-@property(nonatomic) int homeAutomationRequestOutcome; // @synthesize homeAutomationRequestOutcome=_homeAutomationRequestOutcome;
-@property(nonatomic) int homeAutomationRequestType; // @synthesize homeAutomationRequestType=_homeAutomationRequestType;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

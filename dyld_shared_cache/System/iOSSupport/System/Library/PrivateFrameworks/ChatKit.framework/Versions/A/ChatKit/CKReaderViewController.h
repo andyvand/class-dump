@@ -4,34 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString, UITextView;
-@protocol CKReaderViewControllerDelegate;
+@class UITextView;
 
 @interface CKReaderViewController
 {
     _Bool _scrollPositionRestored;
-    id <CKReaderViewControllerDelegate> _delegate;
-    NSString *_messageGUID;
-    UITextView *_textView;
-    struct _NSRange _textRangeToRestore;
 }
 
 + (id);
-+ (id);
-+ (id);
-+ (id);
-- (void);
++ (id)U;
++ (id)=;
++ (id)t;
+- (void)setDoneImage:(struct UIEdgeInsets)arg1;
+- (struct _NSRange)newImageLoaderForUpdatingImageOnCompletion: /* Error: Ran out of types for this method. */;
+- (void)filterTypeSelectionForFilterType:(struct _NSRange)arg1;
+- (void)decodeObjectOfClasses:(_Bool)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void)dID.recordName];
 - (struct _NSRange);
-- (void);
+- (void);
+- (id);
 - (void);
 - (_Bool);
 - (void);
-- (struct _NSRange);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -41,27 +36,14 @@
 - (void);
 - (void);
 - (void);
-- (id)elineStateWithDescriptor:options:reflection:error: /* Error: Ran out of types for this method. */;
-- (void)ortBlock:(id)arg1;
+- (id)newRenderPipelineStateWithDescriptor:options:reflection:error: /* Error: Ran out of types for this method. */;
+- (void)_presentReportSpamReasonWithConversations:(id)arg1 didReportBlock: /* Error: Ran out of types for this method. */;
 - (void)ility;
-- (unsigned long long)MPACT_PICKER_INVISIBLE_INK_NAME;
+- (unsigned long long)IMPACT_PICKER_INVISIBLE_INK_NAME;
 - (void)ÿÿS;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKReaderViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *messageGUID; // @synthesize messageGUID=_messageGUID;
-@property(nonatomic, getter=isScrollPositionRestored) _Bool scrollPositionRestored; // @synthesize scrollPositionRestored=_scrollPositionRestored;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSAttributedString *text; // @dynamic text;
-@property(nonatomic) struct _NSRange textRangeToRestore; // @synthesize textRangeToRestore=_textRangeToRestore;
 @property(retain, nonatomic) UITextView *textView; // @synthesize textView=_textView;
-@property(nonatomic) struct _NSRange visibleRange; // @dynamic visibleRange;
 
 @end
 

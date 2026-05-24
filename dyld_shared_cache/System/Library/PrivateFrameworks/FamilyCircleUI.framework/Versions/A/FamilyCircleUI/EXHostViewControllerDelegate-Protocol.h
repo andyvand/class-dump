@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class EXHostViewController;
+
 @protocol EXHostViewControllerDelegate
+
+@optional
+- (void)requestCancelAuthentication;
+- (void)removeObserver:(EXHostViewController *)arg1 forKeyPath: /* Error: Ran out of types for this method. */;
 @end
 

@@ -9,12 +9,6 @@
 @interface SCNTube : SCNGeometry
 {
     double _tubeinnerRadius;
-    double _tubeouterRadius;
-    double _tubeheight;
-    double _tuberadialSpan;
-    long long _tubeheightSegmentCount;
-    long long _tuberadialSegmentCount;
-    long long _tubeprimitiveType;
 }
 
 + (id);
@@ -33,7 +27,7 @@
 - (id);
 - (void);
 - (void);
-- (struct __C3DGeometry *);
+- (struct __C3DGeometry *);
 - (void);
 - (void);
 - (id);
@@ -46,7 +40,7 @@
 - (id);
 - (double);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id)ion;
 }
@@ -54,11 +48,7 @@
 ;
 
 // Remaining properties
-@property(nonatomic) double height;
-@property(nonatomic) long long heightSegmentCount;
 @property(nonatomic) double innerRadius;
-@property(nonatomic) double outerRadius;
-@property(nonatomic) long long radialSegmentCount;
 
 @end
 

@@ -4,40 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSString;
 
 @interface _SFPBAppIconImage
 {
     int _iconType;
-    NSString *_bundleIdentifier;
 }
 
 - (void);
-- (int);
+- (int);
 - (id);
-- (id);
+- (id)A;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)initWithOIDs:(id)arg1 options:photoLibrary: /* Error: Ran out of types for this method. */;
+- (id)ct IDs when fetching assets on moment %@;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)markersCount;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) int iconType; // @synthesize iconType=_iconType;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(readonly) Class superclass;
 
 @end
 

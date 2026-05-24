@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, TSUOnce;
+@class NSImage;
 
 __attribute__((visibility("hidden")))
 @interface OITSUImage
 {
     struct CGImage *mCachedSliceableImage;
-    struct __CFDictionary *mImageSlices;
-    TSUOnce *mImageSlicesOnce;
-    id mCachedSystemImage;
-    TSUOnce *mCachedImageOnce;
 }
 
 + (id);
@@ -23,8 +19,8 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (id)½;
-- (id);
-- (id);
+- (id)C;
+- (id);
 - (id);
 - (void);
 - (void);
@@ -32,27 +28,23 @@ __attribute__((visibility("hidden")))
 - (struct CGImage *);
 - (id);
 - (struct CGImage *);
-- (id);
-- (id);
+- (id);
+- (id)NK16RoamingInterface15isInHomeCountryEN3xpc10auto_replyEE3$_0;
 - (id);
 - (void);
 - (id);
 - (id);
-- (int);
+- (int)Versions/A/CoreFoundation;
 - (double);
 - (struct CGSize);
-- (id);
+- (id)X;
 - (id);
 - (_Bool);
 - (struct CGImage *)ta=};
 - (id)Øð;
 
 // Remaining properties
-@property(readonly, nonatomic) struct CGImage *CGImage;
 @property(readonly, nonatomic) NSImage *NSImage;
-@property(readonly, nonatomic) int imageOrientation;
-@property(readonly, nonatomic) double scale;
-@property(readonly, nonatomic) struct CGSize size;
 
 @end
 

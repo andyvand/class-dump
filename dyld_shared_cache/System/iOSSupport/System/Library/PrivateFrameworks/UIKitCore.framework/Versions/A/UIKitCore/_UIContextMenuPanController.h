@@ -4,52 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, UIBezierPath, UIPanGestureRecognizer, UIView, UIViewSpringAnimationBehavior, _UIVelocityIntegrator;
-@protocol _UIContextMenuPanControllerDelegate;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIContextMenuPanController
 {
     unsigned long long _currentDetentIndex;
-    double _initialYTranslation;
-    double _defaultZPosition;
-    UIBezierPath *_menuScrubPath;
-    double _currentDistanceToMenuScrubPath;
-    struct CGPoint _initialLocationInsidePreview;
-    _Bool _menuViewIsVisible;
-    _Bool _touchEverEnteredMenu;
-    _Bool _clientAllowsDismissal;
-    _Bool _enabled;
-    _Bool _platterPivotRotationEnabled;
-    UIViewSpringAnimationBehavior *_animationBehavior;
-    id <_UIContextMenuPanControllerDelegate> _delegate;
-    UIPanGestureRecognizer *_panGestureRecognizer;
-    NSArray *_detents;
-    unsigned long long _rubberbandingEdges;
-    NSArray *_accessoryViews;
-    UIView *_menuView;
-    UIView *_containerView;
-    UIView *_platterView;
-    _UIVelocityIntegrator *_velocityIntegrator;
-    struct CGPoint _originalPlatterCenter;
-    struct CGPoint _originalMenuCenter;
-    CDStruct_17a0fc55 _menuAnchor;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (struct CGPoint);
-- (struct CGPoint);
-- (void);
-- (CDStruct_17a0fc55);
-- (id);
+- (void)>16;
+- (void)@"NSURL"32@"NSString"40@"IDSMessageContext"48;
+- (void)"IDSProtobuf"32@"NSString"40@"IDSMessageContext"48;
+- (void)4;
+- (void)setNeedsRepeatForRelayReplication:(id)arg1;
+- (void)populateIMMessageActionItem:(id)arg1 withProtobufData:(struct CGPoint)arg2;
+- (void)populateIMGroupTitleChangeItem:(id)arg1 withProtobufData:(struct CGPoint)arg2 protobuf2Data:(struct CGPoint)arg3;
+- (unsigned long long)oldestMessageDateForChatIdentifiers:chatStyle:services: /* Error: Ran out of types for this method. */;
+- (_Bool)handleDidChangeWithNotification: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)enumerateKeysAndObjectsUsingBlock: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)enumerateBatchedChatsFilteredUsingPredicate:block: /* Error: Ran out of types for this method. */;
+- (void)dateRecovered;
+- (CDStruct_96a80611)conversationManager:localParticipantClusterDidChangeForConversation:fromOldConversation: /* Error: Ran out of types for this method. */;
+- (id)_generateParticipantChangeNoticesForChat:(id)arg1 highlights:(id)arg2 participants:(id)arg3 noticeType: /* Error: Ran out of types for this method. */;
 - (id);
 - (long long);
 - (void);
@@ -57,16 +33,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (struct CAPoint3D);
-- (double);
-- (int);
-- (_Bool);
-- (double);
-- (struct CGVector);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (struct CAPoint3D)hangeTag %@ error %@;
+- (double)ile at %@ to replace with version from CKRecord, success %@ error %@;
+- (int)able to mark message delivered quietly with missing GUID;
+- (_Bool)uting completion handler for transfer guid %@:%@, %@, %@ /* Error: Ran out of types for this method. */;
+- (double)geCoordinator(self: /* Error: Ran out of types for this method. */;
+- (struct CGVector)ain-body;
+- (id)eK;
+- (id)DisableNonReplicationSMSSend;
+- (_Bool)SafeRenderError;
+- (_Bool)RecoverableMessageMetadata;
 - (void);
 - (void);
 - (void);
@@ -75,18 +51,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
+- (id);
 - (id);
-- (id);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)mmcs_perform_dispatch_target_create_source;
 - (void);
 - (id);
 - (void)A	!TDùQeð1Â0@ù
 × ;
-- (void)nState;
-- (_Bool)Constraint;
+- (void)popAnimationState;
+- (_Bool)inCallLabelSpacingConstraint;
 - (id)sBarVisibility;
 - (_Bool);
 - (id)at are visible at the same time to disambiguate them.;
@@ -99,28 +75,7 @@ __attribute__((visibility("hidden")))
 - (id),8ÿ×Ô}`;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *accessoryViews; // @synthesize accessoryViews=_accessoryViews;
-@property(readonly, nonatomic) UIViewSpringAnimationBehavior *animationBehavior; // @synthesize animationBehavior=_animationBehavior;
 @property(nonatomic) __weak UIView *containerView; // @synthesize containerView=_containerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UIContextMenuPanControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSArray *detents; // @synthesize detents=_detents;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) CDStruct_17a0fc55 menuAnchor; // @synthesize menuAnchor=_menuAnchor;
-@property(nonatomic) __weak UIView *menuView; // @synthesize menuView=_menuView;
-@property(nonatomic) struct CGPoint originalMenuCenter; // @synthesize originalMenuCenter=_originalMenuCenter;
-@property(nonatomic) struct CGPoint originalPlatterCenter; // @synthesize originalPlatterCenter=_originalPlatterCenter;
-@property(retain, nonatomic) UIPanGestureRecognizer *panGestureRecognizer; // @synthesize panGestureRecognizer=_panGestureRecognizer;
-@property(nonatomic) _Bool platterPivotRotationEnabled; // @synthesize platterPivotRotationEnabled=_platterPivotRotationEnabled;
-@property(nonatomic) __weak UIView *platterView; // @synthesize platterView=_platterView;
-@property(nonatomic) unsigned long long rubberbandingEdges; // @synthesize rubberbandingEdges=_rubberbandingEdges;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _UIVelocityIntegrator *velocityIntegrator; // @synthesize velocityIntegrator=_velocityIntegrator;
 
 @end
 

@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CNTask
 {
     _Bool _cancelled;
-    NSString *_name;
 }
 
 + (id);
@@ -17,27 +14,26 @@
 + (id);
 + (id);
 + (id);
++ (id)`E;
 + (id);
-+ (id);
 - (id);
 - (id);
-- (id);
+- (id)u;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)A;
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly, getter=isCancelled) _Bool cancelled;
-@property(copy) NSString *name; // @synthesize name=_name;
 
 @end
 

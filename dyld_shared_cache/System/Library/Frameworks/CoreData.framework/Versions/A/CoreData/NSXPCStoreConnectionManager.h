@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface NSXPCStoreConnectionManager
 {
     NSMutableArray *_availableConnections;
-    NSMutableArray *_allConnections;
-    unsigned long long _maxConnections;
-    NSObject<OS_dispatch_semaphore> *_poolCounter;
-    struct os_unfair_lock_s _connectionLock;
-    NSObject<OS_dispatch_queue> *_processingQueue;
 }
 
 - (void);

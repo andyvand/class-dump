@@ -9,10 +9,6 @@
 @interface PKAppleAccountState
 {
     _Bool _isWalletDataclassEnabled;
-    _Bool _isUbiquityDataclassEnabled;
-    _Bool _isManaged;
-    _Bool _isPrimary;
-    NSString *_identifier;
 }
 
 + (_Bool)0@ù
@@ -20,21 +16,17 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)$;
 - (_Bool);
 - (void);
 - (id)1Â0@ù
 × ;
 - (id)ÀÖØLÙ;
-- (void)TRANSIT_EDUCATION_BODY_LPEM_D79_DISABLEABLE;
+- (void)EXPRESS_TRANSIT_EDUCATION_BODY_LPEM_D79_DISABLEABLE;
 - (_Bool)|Â¯ÿ¡nhP ;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isManaged; // @synthesize isManaged=_isManaged;
-@property(readonly, nonatomic) _Bool isPrimary; // @synthesize isPrimary=_isPrimary;
-@property(readonly, nonatomic) _Bool isUbiquityDataclassEnabled; // @synthesize isUbiquityDataclassEnabled=_isUbiquityDataclassEnabled;
-@property(readonly, nonatomic) _Bool isWalletDataclassEnabled; // @synthesize isWalletDataclassEnabled=_isWalletDataclassEnabled;
 
 @end
 

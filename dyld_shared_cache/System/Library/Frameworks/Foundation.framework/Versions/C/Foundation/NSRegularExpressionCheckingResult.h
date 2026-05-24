@@ -6,13 +6,13 @@
 
 #import <Foundation/NSTextCheckingResult.h>
 
-@class NSArray, NSRegularExpression;
+@class NSRegularExpression;
 
 @interface NSRegularExpressionCheckingResult : NSTextCheckingResult
 {
 }
 
-+ (_Bool)nessive;
++ (_Bool)inessive;
 - (id);
 - (id);
 - (id);
@@ -20,12 +20,11 @@
 - (struct _NSRange);
 - (id);
 - (id);
-- (void);
+- (void)`;
 - (id);
 - (unsigned long long) ¡¡¡¡¢¢£¤¥¦¦§¨¨¨¨¨¨¨©ªª«««¬­®¯¯¯¯°°°°±±²²³³´´´µµµ¶··¸¸¸¹ººº»»¼¼¼¼½½¾¾¿¿¿¿¿¿¿¿¿ÀÁÂÃÄÄÄÄÄÄÅÅÆÇÇÈÉÉÉÉÊÊÊÊÊËËËËËÌÍÎÏÏÐÑÒÒÓÔÕÕÖ×ØÙÙÙÙÙÙÚÛÜÜÜÝÞßàááâãääåååæççèéêêêêëëëìììííîïððððñòòòóóóóôôõõö÷øùùùùùùùúúúúúûüüüüýýýþÿ;
 
 // Remaining properties
-@property(readonly) NSArray *rangeArray;
 @property(readonly) NSRegularExpression *regularExpression;
 
 @end

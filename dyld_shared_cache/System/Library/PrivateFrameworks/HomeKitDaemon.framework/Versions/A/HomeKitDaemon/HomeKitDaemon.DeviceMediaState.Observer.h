@@ -7,11 +7,6 @@
 @interface HomeKitDaemon.DeviceMediaState.Observer
 {
     id $defaultActor;
-    id mediaState;
-    id updateStream;
-    id frameworkAdapters;
-    id updateTask;
-    id observers;
 }
 
 @end

@@ -4,23 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface PXStoryConcreteAutoEditClipCatalog
 {
     NSMutableDictionary *_clipIndicesByAssetUUID;
-    NSMutableArray *_orderedClips;
 }
 
 - (long long);
-- (void);
+- (void) ;
 - (id);
 - (long long);
 - (id);
+- (id)indicating that current tab content is an advertisement;
 - (id);
 - (id);
-- (id);
-- (id)sFinalChapterCollectionBeenProduced:(struct _NSZone *)arg1;
+- (id)setHasFinalChapterCollectionBeenProduced:(struct _NSZone *)arg1;
 - (id)p motion style:%@ /* Error: Ran out of types for this method. */;
 - (void);
 

@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ASDBetaAppDisplayNames, ASDBetaAppVersion, NSDate, NSDictionary, NSString;
+@class NSString;
 
 @interface ASDBetaAppLaunchInfo
 {
     _Bool _feedbackEnabled;
-    _Bool _iconNeedsMask;
-    _Bool _launchScreenEnabled;
-    _Bool _sharedFeedback;
-    NSString *_artistName;
-    ASDBetaAppDisplayNames *_displayNames;
-    NSDate *_expirationDate;
-    NSString *_iconURLTemplate;
-    NSDate *_lastWelcomeScreenViewDate;
-    NSDictionary *_localizedTestNotes;
-    NSString *_testerEmail;
-    ASDBetaAppVersion *_version;
 }
 
 + (_Bool);
@@ -32,7 +21,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)!;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -50,22 +39,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)HS(;
 - (void);
 
 // Remaining properties
 @property(copy) NSString *artistName; // @synthesize artistName=_artistName;
-@property(copy) ASDBetaAppDisplayNames *displayNames; // @synthesize displayNames=_displayNames;
-@property(copy) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
-@property(getter=isFeedbackEnabled) _Bool feedbackEnabled; // @synthesize feedbackEnabled=_feedbackEnabled;
-@property _Bool iconNeedsMask; // @synthesize iconNeedsMask=_iconNeedsMask;
-@property(copy) NSString *iconURLTemplate; // @synthesize iconURLTemplate=_iconURLTemplate;
-@property(copy) NSDate *lastWelcomeScreenViewDate; // @synthesize lastWelcomeScreenViewDate=_lastWelcomeScreenViewDate;
-@property(getter=isLaunchScreenEnabled) _Bool launchScreenEnabled; // @synthesize launchScreenEnabled=_launchScreenEnabled;
-@property(copy) NSDictionary *localizedTestNotes; // @synthesize localizedTestNotes=_localizedTestNotes;
-@property(getter=hasSharedFeedback) _Bool sharedFeedback; // @synthesize sharedFeedback=_sharedFeedback;
-@property(copy) NSString *testerEmail; // @synthesize testerEmail=_testerEmail;
-@property(copy) ASDBetaAppVersion *version; // @synthesize version=_version;
 
 @end
 

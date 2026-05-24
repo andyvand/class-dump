@@ -6,7 +6,7 @@
 
 #import <SAObjects/SADomainCommand.h>
 
-@class NSString, NSURL;
+@class NSURL;
 
 @interface SAWeatherLocationSearch : SADomainCommand
 {
@@ -24,7 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSURL *identifier;
-@property(copy, nonatomic) NSString *locationId;
 
 @end
 

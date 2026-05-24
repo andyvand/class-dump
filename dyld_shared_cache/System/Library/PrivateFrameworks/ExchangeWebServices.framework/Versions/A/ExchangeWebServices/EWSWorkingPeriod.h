@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSString;
+@class NSIndexSet;
 
 @interface EWSWorkingPeriod
 {
     NSIndexSet *_DayOfWeek;
-    long long _StartTimeInMinutes;
-    long long _EndTimeInMinutes;
 }
 
 + (id);
@@ -24,15 +22,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSIndexSet *DayOfWeek; // @synthesize DayOfWeek=_DayOfWeek;
-@property(nonatomic) long long EndTimeInMinutes; // @synthesize EndTimeInMinutes=_EndTimeInMinutes;
-@property(nonatomic) long long StartTimeInMinutes; // @synthesize StartTimeInMinutes=_StartTimeInMinutes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

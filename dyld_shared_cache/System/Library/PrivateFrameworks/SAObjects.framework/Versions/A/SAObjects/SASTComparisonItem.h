@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, SASTComparisonEntity, SAUIDecoratedText;
+@class SASTComparisonEntity;
 
 @interface SASTComparisonItem : AceObject
 {
@@ -17,23 +17,15 @@
 - (void);
 - (void);
 - (id);
+- (id)icalWeightTplIfEEiEEEEEERKSS_EEE;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)risonEntity;
+- (id)
+;
+- (id));
+- (void)comparisonEntity;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) SASTComparisonEntity *firstItem;
-@property(retain, nonatomic) SAUIDecoratedText *footnote;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) SASTComparisonEntity *secondItem;
-@property(readonly) Class superclass;
 
 @end
 

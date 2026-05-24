@@ -7,10 +7,11 @@
 @class NSData, NSString;
 
 @protocol _SFPBMonogramImage
+- (void);
+- (void);
+- (NSData *)g",R,C,N,V_themeName;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *monogramLetters;
-@property(nonatomic) int monogramStyle;
 @end
 

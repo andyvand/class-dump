@@ -4,51 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPItemID, FPXDomainContext, NSFileProviderRequest, NSObject, NSString;
-@protocol FPXEnumeratorObserver, NSFileProviderEnumerator, OS_dispatch_queue, OS_os_log;
+@class FPXDomainContext;
+@protocol FPXEnumeratorObserver;
 
 @interface FPXEnumerator
 {
     FPXDomainContext *_domainContext;
-    id <NSFileProviderEnumerator> _vendorEnumerator;
-    NSFileProviderRequest *_nsFileProviderRequest;
-    FPItemID *_observedItemID;
-    _Bool _invalidated;
-    _Bool _isWorkingSetEnum;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_os_log> *_log;
-    id <FPXEnumeratorObserver> _observer;
 }
 
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)6;
+- (id)oken"8@"NSError"16;
 - (id);
-- (id);
+- (void)setWritesMediaDataToBeginningOfFile: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (id)du5;
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)h;
 - (id);
 - (void);
 - (id)ibrary/BuildRoots/4~CNqPugCzsD88bTVUT8PseT5aM5UMTMQ7NR-jtuE/Library/Caches/com.apple.xbs/TemporaryDirectory.2pJao6/Sources/FileProvider/extension/FPXFakeDefaultDomainExtension.m;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) FPItemID *observedItemID;
 @property(readonly) id <FPXEnumeratorObserver> observer; // @synthesize observer=_observer;
-@property(readonly) Class superclass;
 
 @end
 

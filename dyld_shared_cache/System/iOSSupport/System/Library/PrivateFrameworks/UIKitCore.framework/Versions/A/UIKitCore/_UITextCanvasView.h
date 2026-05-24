@@ -6,71 +6,54 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSMutableSet, NSString, _UITextTiledLayer;
-@protocol _UITextKit1CanvasContext;
+@class NSMutableSet, _UITextTiledLayer;
 
 __attribute__((visibility("hidden")))
 @interface _UITextCanvasView : UIView
 {
     NSMutableSet *_ghostedRanges;
-    NSMutableSet *_invisibleRanges;
-    NSArray *_maskedRects;
-    _Bool _layoutFragmentViewsNeedDisplay;
-    id <_UITextKit1CanvasContext> _context;
 }
 
-+ (Class);
++ (Class)airPlayingToDevice;
 - (void);
-- (void);
-- (id);
+- (void)serverAllowsAnalyticSubmission;
+- (id)isFromActivePairedDevice;
 - (_Bool);
+- (_Bool)n linked device:%@ /* Error: Ran out of types for this method. */;
+- (void);
 - (_Bool);
 - (void);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)n];
 - (double);
+- (void)__MPModelRelationshipAlbumRepresentativeSong__MAPPING_MISSING__;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)Rh;
+- (void);
 - (void);
 - (id);
 - (_Bool)°1Â0@ù
 × ;
-- (void)ressFirstResponderOnTransitionToLayoutStateSearching: /* Error: Ran out of types for this method. */;
-- (void)itWithProcessIdentity: /* Error: Ran out of types for this method. */;
-- (void)ger;
-- (void)llChangeToIdiom:(struct CGRect)arg1 onScreen: /* Error: Ran out of types for this method. */;
-- (id)eenSizeEnabled;
-- (void)hedTouchEvents;
+- (void)setSuppressFirstResponderOnTransitionToLayoutStateSearching: /* Error: Ran out of types for this method. */;
+- (void)initWithProcessIdentity: /* Error: Ran out of types for this method. */;
+- (void)assetManager;
+- (void)_willChangeToIdiom:(struct CGRect)arg1 onScreen: /* Error: Ran out of types for this method. */;
+- (id)_macTrueScreenSizeEnabled;
+- (void)_dispatchedTouchEvents;
 - (void),V__detentDirectionWhenFloating;
 - (void)wControllerInteractiveTransitioning>",&,N,S_setInteractor:(struct CGRect)arg1 ,V__interactor;
-- (void)mMetrics;
-- (void)C5UIKitP33_DDE14AA6B49FCAFC5A54255A118E1D8713ButtonWrapper18AppearanceDelegate;
+- (void)_UIContextMenuPlatformMetrics;
+- (void)_TtCC5UIKitP33_DDE14AA6B49FCAFC5A54255A118E1D8713ButtonWrapper18AppearanceDelegate;
 - (void)26UIParentComponentProvidingP;
 - (void)u13é¹;
 - (void));
 
 // Remaining properties
-@property(nonatomic, setter=_setDrawsDebugBaselines:) _Bool _drawsDebugBaselines;
-@property(nonatomic) __weak id <_UITextKit1CanvasContext> context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _UITextTiledLayer *layer; // @dynamic layer;
-@property _Bool layoutFragmentViewsNeedDisplay; // @synthesize layoutFragmentViewsNeedDisplay=_layoutFragmentViewsNeedDisplay;
-@property(nonatomic) double maxTileHeight;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isTilingEnabled) _Bool tilingEnabled;
 
 @end
 

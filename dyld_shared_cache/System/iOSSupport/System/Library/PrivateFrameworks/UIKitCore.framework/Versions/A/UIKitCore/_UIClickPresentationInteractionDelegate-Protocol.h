@@ -5,5 +5,8 @@
 //
 
 @protocol _UIClickPresentationInteractionDelegate
+
+@optional
+- (_Bool);
 @end
 

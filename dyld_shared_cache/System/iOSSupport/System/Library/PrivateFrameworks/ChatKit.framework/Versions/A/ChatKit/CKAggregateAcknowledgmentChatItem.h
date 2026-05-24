@@ -6,27 +6,23 @@
 
 #import <ChatKit/CKAssociatedMessageChatItem.h>
 
-@class IMMessageAcknowledgmentChatItem, IMTapback, NSArray, NSString, UIColor;
-
 @interface CKAggregateAcknowledgmentChatItem : CKAssociatedMessageChatItem
 {
     _Bool _overrideBalloonOrientationForPhotoGrid;
-    _Bool _parentIsOrganicLayout;
-    long long _latestAcknowledgmentType;
-    IMTapback *_latestTapback;
-    NSArray *_mediaObjects;
 }
 
 - (BOOL);
+- (void)GGGGG;
 - (void);
-- (void);
-- (id);
-- (_Bool);
-- (_Bool);
-- (struct CGSize);
-- (long long);
-- (_Bool);
-- (id);
+- (id)e;
+- (_Bool)%@ – %@;
+- (_Bool)view generation operations existed, not adding more for %@;
+- (struct CGSize)locked notes, and you won’t need to remember a separate password for them. Just use the login password or passcode of any device with your iCloud account to lock or unlock a note.
+
+iCloud Keychain must be enabled and iOS 16 or macOS 13 or later is required to view notes locked with your password.;
+- (long long).0, minimum-scale=1.0, maximum-scale=1.0" />        <style>            %@        </style>    </head>    <body id="editor">    </body></html>;
+- (_Bool)AnimationAttribute"8{_NSRange=QQ}16^B32;
+- (id)mentChanged;
 - (long long);
 - (Class);
 - (BOOL);
@@ -38,7 +34,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
@@ -49,22 +45,7 @@
 - (void)ê;
 
 // Remaining properties
-@property(readonly) UIColor *acknowledgmentImageColor;
-@property(readonly, copy) NSString *acknowledgmentImageName;
-@property(readonly, copy, nonatomic) NSArray *acknowledgments;
-@property(readonly, nonatomic) BOOL balloonOrientation;
-@property(readonly) Class balloonViewClass;
-@property(readonly, nonatomic) long long fromMeAcknowledgmentType;
-@property(readonly, nonatomic) _Bool includesFromMe;
-@property(readonly, nonatomic) _Bool includesMultiple;
-@property(readonly, nonatomic) long long latestAcknowledgmentType; // @synthesize latestAcknowledgmentType=_latestAcknowledgmentType;
-@property(readonly, nonatomic) _Bool latestIsFromMe;
-@property(readonly, nonatomic) IMTapback *latestTapback; // @synthesize latestTapback=_latestTapback;
-@property(retain, nonatomic) NSArray *mediaObjects; // @synthesize mediaObjects=_mediaObjects;
 @property(nonatomic) _Bool overrideBalloonOrientationForPhotoGrid; // @synthesize overrideBalloonOrientationForPhotoGrid=_overrideBalloonOrientationForPhotoGrid;
-@property(nonatomic) _Bool parentIsOrganicLayout; // @synthesize parentIsOrganicLayout=_parentIsOrganicLayout;
-@property(readonly, nonatomic) IMMessageAcknowledgmentChatItem *sentTapbackChatItem;
-@property(readonly, copy, nonatomic) NSString *serviceName;
 
 @end
 

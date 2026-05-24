@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 __attribute__((visibility("hidden")))
 @interface MLFeatureProviderConformer
 {
     _Bool _usingRank5Mapping;
-    _Bool _passthroughStateFeatures;
-    NSArray *_featureDescriptions;
-    NSDictionary *_defaultValues;
-    NSDictionary *_optionalInputTypes;
 }
 
 - (_Bool);
-- (_Bool);
+- (_Bool)/;
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id)=;
@@ -28,11 +24,7 @@ __attribute__((visibility("hidden")))
 - (id)¤Ùÿ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSDictionary *defaultValues; // @synthesize defaultValues=_defaultValues;
 @property(readonly, copy, nonatomic) NSArray *featureDescriptions; // @synthesize featureDescriptions=_featureDescriptions;
-@property(readonly, copy, nonatomic) NSDictionary *optionalInputTypes; // @synthesize optionalInputTypes=_optionalInputTypes;
-@property(readonly, nonatomic) _Bool passthroughStateFeatures; // @synthesize passthroughStateFeatures=_passthroughStateFeatures;
-@property(readonly, nonatomic) _Bool usingRank5Mapping; // @synthesize usingRank5Mapping=_usingRank5Mapping;
 
 @end
 

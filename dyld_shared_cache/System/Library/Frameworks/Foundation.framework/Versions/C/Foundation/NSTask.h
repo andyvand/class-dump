@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSURL;
+@class NSURL;
 
 @interface NSTask
 {
@@ -12,19 +12,6 @@
 
 
 // Remaining properties
-@property(copy) NSArray *arguments;
-@property(copy) NSURL *currentDirectoryURL;
-@property(copy) NSDictionary *environment;
 @property(copy) NSURL *executableURL;
-@property(copy) NSData *launchRequirementData;
-@property(readonly) int processIdentifier;
-@property long long qualityOfService;
-@property(readonly, getter=isRunning) _Bool running;
-@property(retain) id standardError;
-@property(retain) id standardInput;
-@property(retain) id standardOutput;
-@property(copy) CDUnknownBlockType terminationHandler;
-@property(readonly) long long terminationReason;
-@property(readonly) int terminationStatus;
 @end
 

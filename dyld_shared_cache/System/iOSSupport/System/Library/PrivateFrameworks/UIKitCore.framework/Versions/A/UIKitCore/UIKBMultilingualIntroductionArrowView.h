@@ -6,34 +6,26 @@
 
 #import <UIKitCore/UIView.h>
 
-@class CAShapeLayer;
-
 __attribute__((visibility("hidden")))
 @interface UIKBMultilingualIntroductionArrowView : UIView
 {
     struct CGPoint _startPoint;
-    struct CGPoint _endPoint;
-    CAShapeLayer *_arrowTailLayer;
-    CAShapeLayer *_arrowHeadLayer;
 }
 
-- (void);
-- (void);
-- (void);
+- (void)eporting;
+- (void)part body-text to store for recovery;
+- (void)cently Deleted | Mardid:(id)arg1 deleting message part:found no message-part body-text to store for recovery /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
-- (struct CGPoint);
+- (struct CGPoint)I9;
 - (id);
 - (void)Ð©Üª¬d®´®;
-- (void)AnimatorCSgz_Xx;
+- (void)So22_UIContextMenuAnimatorCSgz_Xx;
 - (struct CGPoint)ÕpB^;
 - (void)¼	Êüg;
 
 // Remaining properties
-@property(retain, nonatomic) CAShapeLayer *arrowHeadLayer; // @synthesize arrowHeadLayer=_arrowHeadLayer;
-@property(retain, nonatomic) CAShapeLayer *arrowTailLayer; // @synthesize arrowTailLayer=_arrowTailLayer;
-@property(nonatomic) struct CGPoint endPoint; // @synthesize endPoint=_endPoint;
 @property(nonatomic) struct CGPoint startPoint; // @synthesize startPoint=_startPoint;
 
 @end

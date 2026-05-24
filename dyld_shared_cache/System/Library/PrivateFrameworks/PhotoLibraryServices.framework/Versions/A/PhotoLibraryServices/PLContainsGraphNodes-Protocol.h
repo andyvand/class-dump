@@ -5,7 +5,9 @@
 //
 
 @protocol PLContainsGraphNodes
-+ (id);
++ (unsigned int :(null));
++ (id);
++ (id);
 - (id)ñÊ1Â0@ù
 × ;
 - (id)ÌÐ;

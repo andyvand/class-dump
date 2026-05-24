@@ -5,5 +5,6 @@
 //
 
 @protocol FCWebURLResolutionEndpointConnection
+- (void)works/AppKit.framework/Versions/C/AppKit;
 @end
 

@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MessageProtection.Kyber1024ObjCPublicKey, NSData, NSString;
-
 __attribute__((visibility("hidden")))
 @interface NGMTetraRegistrationSignatureFormatter
 {
     unsigned int _tetraVersion;
-    double _timestamp;
-    MessageProtection.Kyber1024ObjCPublicKey *_kyberPublicKey;
-    NSData *_ecdhPublicKey;
 }
 
 - (id);
@@ -23,21 +18,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned int);
 - (double);
-- (id);
+- (id)attachments;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSData *ecdhPublicKey; // @synthesize ecdhPublicKey=_ecdhPublicKey;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) MessageProtection.Kyber1024ObjCPublicKey *kyberPublicKey; // @synthesize kyberPublicKey=_kyberPublicKey;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) unsigned int tetraVersion; // @synthesize tetraVersion=_tetraVersion;
-@property(readonly, nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

@@ -4,11 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol UIViewControllerAnimatedTransitioning;
+@protocol UIViewControllerAnimatedTransitioning, UIViewControllerInteractiveTransitioning;
 
 @protocol UIViewControllerTransitioningDelegate
 
 @optional
+- (id <UIViewControllerAnimatedTransitioning>)#;
+- (id <UIViewControllerInteractiveTransitioning>);
 - (id <UIViewControllerAnimatedTransitioning>)@ùÐ1Â0@ù
 × ;
 @end

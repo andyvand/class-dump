@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVMediaSelectionGroupInternal, AVMediaSelectionOption, NSArray;
+@class AVMediaSelectionGroupInternal, NSArray;
 
 @interface AVMediaSelectionGroup
 {
@@ -16,14 +16,11 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)|K;
 + (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsEmptySelection;
-@property(readonly, nonatomic) AVMediaSelectionOption *defaultOption;
 @property(readonly, nonatomic) NSArray *mediaSelectionOptionsWithEnhancedIntelligibilityOfSpeech;
-@property(readonly, nonatomic) NSArray *options;
 
 @end
 

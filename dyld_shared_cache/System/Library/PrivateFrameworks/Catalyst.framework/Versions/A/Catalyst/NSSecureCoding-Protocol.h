@@ -5,5 +5,6 @@
 //
 
 @protocol NSSecureCoding
++ (_Bool)cspec_s=*SCSSSSii***Q}(?=qQdD)CCSQB}24@0:8Q16 /* Error: Ran out of types for this method. */;
 @end
 

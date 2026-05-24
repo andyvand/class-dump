@@ -6,14 +6,11 @@
 
 #import <Mail/MFEWSNetworkTaskOperation.h>
 
-@class ECLocalMessageAction, NSProgress;
-@protocol MFEWSMessageActionSyncOperationDelegate;
+@class ECLocalMessageAction;
 
 @interface MFEWSMessageActionSyncOperation : MFEWSNetworkTaskOperation
 {
     ECLocalMessageAction *_messageAction;
-    NSProgress *_progress;
-    id <MFEWSMessageActionSyncOperationDelegate> _delegate;
 }
 
 - (id);
@@ -23,15 +20,13 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)keyPathsForValuesAffectingIsZoomed;
 - (id);
 - (void)ñ;
 - (void)LÄ;
 
 // Remaining properties
-@property(nonatomic) __weak id <MFEWSMessageActionSyncOperationDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, nonatomic) ECLocalMessageAction *messageAction; // @synthesize messageAction=_messageAction;
-@property(retain, nonatomic) NSProgress *progress; // @synthesize progress=_progress;
 
 @end
 

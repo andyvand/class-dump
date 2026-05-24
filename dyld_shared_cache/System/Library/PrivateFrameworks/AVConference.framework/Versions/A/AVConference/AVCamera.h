@@ -19,8 +19,8 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
-- (unsigned int);
+- (id);
+- (unsigned int)/;
 - (id);
 - (id);
 - (unsigned int);

@@ -4,53 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface APPCPromotedContentView
 {
     id privacyMarkerView;
-    id dimmerView;
-    id customPrivacyHandling;
-    id tapGestureRecognizer;
-    id expandedAdTapGestureRecognizer;
-    id expandedAdFrame;
-    id visiblePercentage;
-    id promotedContent;
-    id lastPerformedAction;
-    id shouldBlockNavigation;
-    id tapWasRecognized;
-    id storeProductRequester;
-    id interactionDelegate;
-    id interactionPresentationDelegate;
-    long long readiness;
-    id videoTapAction;
-    id videoActionTimestamp;
-    id videoMoreLocation;
-    id shouldCollapseOnRotation;
-    id placement;
-    id urlOpener;
-    id $__lazy_storage_$_attributionView;
-    id overriddenPrivacyMarkerPosition;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)insertNewObjectForEntityForName:inManagedObjectContext: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (struct CGRect);
 - (long long);
-- (void);
-- (id);
-- (void);
+- (void)reloadSection:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (id);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic) struct CGRect frame;
 @property(nonatomic) long long readiness; // @synthesize readiness;
 
 @end

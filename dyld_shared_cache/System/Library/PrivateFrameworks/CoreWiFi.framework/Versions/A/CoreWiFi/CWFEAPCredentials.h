@@ -9,8 +9,6 @@
 @interface CWFEAPCredentials
 {
     void *_TLSIdentityHandle;
-    NSString *_username;
-    NSString *_password;
 }
 
 + (_Bool);
@@ -21,7 +19,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
@@ -31,12 +29,9 @@
 - (void);
 - (void)!ÜFùq(Ð1Â0@ù
 × ;
-- (void);
+- (void)FASTProvisionPACAnonymously;
 
 // Remaining properties
-@property(copy, nonatomic) struct __SecIdentity *TLSIdentity; // @dynamic TLSIdentity;
-@property(copy, nonatomic) void *TLSIdentityHandle; // @dynamic TLSIdentityHandle;
-@property(copy, nonatomic) NSString *password; // @synthesize password=_password;
 @property(copy, nonatomic) NSString *username; // @synthesize username=_username;
 
 @end

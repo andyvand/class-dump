@@ -5,5 +5,6 @@
 //
 
 @protocol IMNetworkMonitorDelegate
+- (void)PayInSixMonthsFromUtilization;
 @end
 

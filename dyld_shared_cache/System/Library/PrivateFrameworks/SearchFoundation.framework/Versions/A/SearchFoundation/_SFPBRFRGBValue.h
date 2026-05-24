@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _SFPBRFRGBValue
 {
     float _red;
-    float _green;
-    float _blue;
 }
 
 - (void);
@@ -19,10 +15,10 @@
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (id)recentMessagesSummaryForAssetUUID:(id)arg1;
+- (id)oading options don't specify any result, request %ld-%ld will be a no-op;
 - (float);
 - (float);
 - (id);
@@ -30,17 +26,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) float blue; // @synthesize blue=_blue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) float green; // @synthesize green=_green;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) float red; // @synthesize red=_red;
-@property(readonly) Class superclass;
 
 @end
 

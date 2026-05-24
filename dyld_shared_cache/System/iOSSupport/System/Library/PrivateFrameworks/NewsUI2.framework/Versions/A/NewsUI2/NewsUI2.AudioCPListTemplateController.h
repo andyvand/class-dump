@@ -7,8 +7,6 @@
 @interface NewsUI2.AudioCPListTemplateController
 {
     id template;
-    id sectionProvider;
-    id audioDataManager;
 }
 
 @end

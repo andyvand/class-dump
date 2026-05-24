@@ -7,15 +7,10 @@
 @interface _MRRegisterVoiceInputDeviceResponseMessageProtobuf
 {
     unsigned int _deviceID;
-    unsigned int _errorCode;
-    struct {
-        unsigned int deviceID:1;
-        unsigned int errorCode:1;
-    } _has;
 }
 
 - (void);
-- (_Bool);
+- (_Bool)A;
 - (id);
 - (void);
 - (void);
@@ -26,17 +21,14 @@
 - (_Bool);
 - (unsigned int);
 - (void);
-- (id);
-- (id);
+- (id)h;
+- (id)tionWithUUID:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void)"NSMutableArray",&,N,V_endpoints;
-- (unsigned int)oupSession;
+- (unsigned int)SystemGroupSession;
 
 // Remaining properties
-@property(nonatomic) unsigned int deviceID; // @synthesize deviceID=_deviceID;
-@property(nonatomic) unsigned int errorCode; // @synthesize errorCode=_errorCode;
 @property(nonatomic) _Bool hasDeviceID;
-@property(nonatomic) _Bool hasErrorCode;
 
 @end
 

@@ -11,16 +11,14 @@
 @interface RTBluetoothManagerNotificationDisconnected : RTNotification
 {
     NSString *_deviceName;
-    NSString *_deviceAddress;
 }
 
 - (id);
 - (id);
-- (id)PhoneNumber: /* Error: Ran out of types for this method. */;
+- (id)setPhoneNumber: /* Error: Ran out of types for this method. */;
 - (void)ex, tripSegmentVisitStatus[%ld], Passthrough;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *deviceAddress; // @synthesize deviceAddress=_deviceAddress;
 @property(readonly, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
 
 @end

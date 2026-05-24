@@ -4,48 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKStructuredLocation, NSDate, NSDictionary, NSString, NSURL;
+@class NSString;
 
 @interface CALNTriggeredEventNotificationInfo
 {
     _Bool _isAllDay;
-    _Bool _isTimeSensitive;
-    _Bool _conferenceURLIsBroadcast;
-    _Bool _hasSuggestedLocation;
-    _Bool _eventHasAlarms;
-    _Bool _allowsLocationAlerts;
-    _Bool _forceDisplayOfNewTravelAdvisoryHypotheses;
-    _Bool _travelAdvisoryDisabled;
-    NSString *_title;
-    NSString *_location;
-    NSString *_locationWithoutPrediction;
-    NSDate *_startDate;
-    NSDate *_endDate;
-    NSString *_eventID;
-    NSString *_eventOccurrenceID;
-    NSString *_eventObjectID;
-    NSString *_appEntityIdentifier;
-    NSString *_organizerPhoneNumber;
-    NSString *_organizerEmailAddress;
-    NSString *_calendarIdentifier;
-    NSDictionary *_eventRepresentationDictionary;
-    NSString *_legacyIdentifier;
-    EKStructuredLocation *_preferredLocation;
-    NSURL *_conferenceURL;
-    NSURL *_mailtoURL;
 }
 
-- (_Bool);
+- (_Bool),;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (id)@9K;
 - (id);
 - (id);
 - (id);
@@ -54,42 +23,25 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (id);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)__documentReferenceCount;
 - (id);
 - (id);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsLocationAlerts; // @synthesize allowsLocationAlerts=_allowsLocationAlerts;
-@property(readonly, copy, nonatomic) NSString *appEntityIdentifier; // @synthesize appEntityIdentifier=_appEntityIdentifier;
-@property(readonly, copy, nonatomic) NSString *calendarIdentifier; // @synthesize calendarIdentifier=_calendarIdentifier;
-@property(readonly, copy, nonatomic) NSURL *conferenceURL; // @synthesize conferenceURL=_conferenceURL;
-@property(readonly, nonatomic) _Bool conferenceURLIsBroadcast; // @synthesize conferenceURLIsBroadcast=_conferenceURLIsBroadcast;
-@property(readonly, copy, nonatomic) NSDate *endDate; // @synthesize endDate=_endDate;
-@property(readonly, nonatomic) _Bool eventHasAlarms; // @synthesize eventHasAlarms=_eventHasAlarms;
-@property(readonly, copy, nonatomic) NSString *eventID; // @synthesize eventID=_eventID;
-@property(readonly, copy, nonatomic) NSString *eventObjectID; // @synthesize eventObjectID=_eventObjectID;
-@property(readonly, copy, nonatomic) NSString *eventOccurrenceID; // @synthesize eventOccurrenceID=_eventOccurrenceID;
-@property(readonly, copy, nonatomic) NSDictionary *eventRepresentationDictionary; // @synthesize eventRepresentationDictionary=_eventRepresentationDictionary;
-@property(readonly, nonatomic) _Bool forceDisplayOfNewTravelAdvisoryHypotheses; // @synthesize forceDisplayOfNewTravelAdvisoryHypotheses=_forceDisplayOfNewTravelAdvisoryHypotheses;
-@property(readonly, nonatomic) _Bool hasSuggestedLocation; // @synthesize hasSuggestedLocation=_hasSuggestedLocation;
-@property(readonly, nonatomic) _Bool isAllDay; // @synthesize isAllDay=_isAllDay;
-@property(readonly, nonatomic) _Bool isTimeSensitive; // @synthesize isTimeSensitive=_isTimeSensitive;
-@property(readonly, copy, nonatomic) NSString *legacyIdentifier; // @synthesize legacyIdentifier=_legacyIdentifier;
-@property(readonly, copy, nonatomic) NSString *location; // @synthesize location=_location;
-@property(readonly, copy, nonatomic) NSString *locationWithoutPrediction; // @synthesize locationWithoutPrediction=_locationWithoutPrediction;
-@property(readonly, copy, nonatomic) NSURL *mailtoURL; // @synthesize mailtoURL=_mailtoURL;
-@property(readonly, copy, nonatomic) NSString *organizerEmailAddress; // @synthesize organizerEmailAddress=_organizerEmailAddress;
-@property(readonly, copy, nonatomic) NSString *organizerPhoneNumber; // @synthesize organizerPhoneNumber=_organizerPhoneNumber;
-@property(readonly, nonatomic) EKStructuredLocation *preferredLocation; // @synthesize preferredLocation=_preferredLocation;
-@property(readonly, copy, nonatomic) NSDate *startDate; // @synthesize startDate=_startDate;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
-@property(readonly, nonatomic) _Bool travelAdvisoryDisabled; // @synthesize travelAdvisoryDisabled=_travelAdvisoryDisabled;
 
 @end
 

@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMutableSet, NSObject, PLEntryNotificationOperatorComposition;
-@protocol OS_dispatch_queue;
+@class NSDate;
 
 @interface PLMonotonicTimer
 {
     NSDate *_monotonicFireDate;
-    double _interval;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _block;
-    NSMutableSet *_canceledFireDates;
-    PLEntryNotificationOperatorComposition *_wakeEntryNotification;
 }
 
 + (_Bool);
-+ (id);
-+ (id);
++ (id)legate>";
++ (id)hceSessionDidConnect:(id)arg1;
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -34,23 +28,18 @@
 - (void);
 - (id);
 - (void);
+- (void);
+- (id)statement, error when statement last was executed :(id)arg1 (%ld) %s;
 - (void);
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)s;
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)setPurchaseOperation: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType block; // @synthesize block=_block;
-@property(retain) NSMutableSet *canceledFireDates; // @synthesize canceledFireDates=_canceledFireDates;
 @property double interval; // @synthesize interval=_interval;
-@property(retain, nonatomic) NSDate *monotonicFireDate; // @synthesize monotonicFireDate=_monotonicFireDate;
-@property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain) PLEntryNotificationOperatorComposition *wakeEntryNotification; // @synthesize wakeEntryNotification=_wakeEntryNotification;
 
 @end
 

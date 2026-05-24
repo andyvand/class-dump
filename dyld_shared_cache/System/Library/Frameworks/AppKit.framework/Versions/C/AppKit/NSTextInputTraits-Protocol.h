@@ -7,79 +7,29 @@
 @protocol NSTextInputTraits
 
 @optional
+- (void);
+- (void);
+- (long long)DeviceSupportsThunderbolt;
 - (void)!XCùñä31Â0@ù
 × ;
 - (void)nge=QQ}24Q40Q48@56q64q72@?80;
-- (void)d;
+- (void)_dictationIsAllowed;
 - (long long)orn6;
 - (void)distinctUnionOfObjects.length;
-- (void)oolbarPrintItem;
+- (void)NSToolbarPrintItem;
 - (long long)index from the common ancestor;
 - (long long)nu title; firstTruncatedMenuIndex = %ld;
 - (long long)Writing Tools;
 - (long long)before being detached from its parent menu (likely an over-release error; a submenu is automatically released when its parent item is deallocated).;
 - (void)Settings>"8;
 - (void)l __strong)(void));
-- (void)kService;
+- (void)IAChannelFeedbackService;
 - (long long)in Front;
-- (void);
 - (long long);
 - (unsigned long long)ÿ]ùhth+ÿ]ùhH¸ÿ]ùhh+ÿ;
 
 // Remaining properties
-@property unsigned long long allowedWritingToolsResultOptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TQ,?
-
 @property long long autocorrectionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?
-
-@property long long dataDetectionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?
-
-@property long long grammarCheckingType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?
-
-@property long long inlinePredictionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?
-
-@property long long linkDetectionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?
-
-@property long long mathExpressionCompletionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?
-
-@property long long smartDashesType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?
-
-@property long long smartInsertDeleteType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?
-
-@property long long smartQuotesType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?
-
-@property long long spellCheckingType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?
-
-@property long long textCompletionType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?
-
-@property long long textReplacementType;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?
-
-@property long long writingToolsBehavior;
 // Preceding property had unknown attributes: ?
 // Original attribute string: Tq,?
 

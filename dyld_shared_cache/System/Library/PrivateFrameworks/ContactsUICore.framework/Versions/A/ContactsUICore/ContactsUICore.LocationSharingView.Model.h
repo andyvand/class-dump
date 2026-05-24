@@ -7,9 +7,6 @@
 @interface ContactsUICore.LocationSharingView.Model
 {
     id contact;
-    id controller;
-    id _isSharingLocation;
-    id _blockingViewModel;
 }
 
 @end

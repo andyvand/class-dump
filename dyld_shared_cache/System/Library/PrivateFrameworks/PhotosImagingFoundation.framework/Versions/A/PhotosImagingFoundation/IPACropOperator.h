@@ -11,9 +11,9 @@
     struct CGRect _cropRect;
 }
 
++ (id)@;
 + (id);
-+ (id);
-- (id);
+- (id)AVCaptureSynchronizedDataCollection;
 - (id);
 
 @end

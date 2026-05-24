@@ -4,33 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISServiceProxy, ISStoreAccount, ISStoreClient, NSError, NSLock, NSRunLoop, NSString, SSOperationProgress;
-@protocol ISOperationDelegate;
+@class NSError, NSRunLoop;
 
 @interface ISOperation
 {
     NSError *_error;
-    NSLock *_lock;
-    NSRunLoop *_operationRunLoop;
-    ISOperation *_parentOperation;
-    SSOperationProgress *_progress;
-    ISOperation *_subOperation;
-    _Bool _success;
-    void *_operationContext;
-    ISServiceProxy *_serviceProxy;
-    NSLock *_serviceProxyLock;
-    ISStoreAccount *_storeAccount;
-    NSLock *_storeAccountLock;
-    id _xpcReplyObject;
-    int _requiredBagType;
-    id <ISOperationDelegate> _delegate;
-    ISStoreClient *_storeClient;
-    CDUnknownBlockType _completionHandler;
-    CDUnknownBlockType _progressHandler;
 }
 
 - (id);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (id);
@@ -40,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (int);
 - (long long);
@@ -51,7 +33,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -61,8 +43,8 @@
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -72,7 +54,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)
+;
 - (id);
 - (void);
 - (_Bool);
@@ -81,28 +64,11 @@
 - (void);
 - (void);
 - (void);
-- (CDUnknownBlockType)ions;
-- (void);
+- (CDUnknownBlockType)performDefaultActions;
+- (void)requestFailed;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property __weak id <ISOperationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) double earlyTimeRemainingEstimate;
-@property(retain) NSError *error; // @synthesize error=_error;
-@property void *operationContext; // @synthesize operationContext=_operationContext;
 @property(retain) NSRunLoop *operationRunLoop; // @synthesize operationRunLoop=_operationRunLoop;
-@property(retain) ISOperation *parentOperation; // @synthesize parentOperation=_parentOperation;
-@property(readonly, nonatomic) SSOperationProgress *progress;
-@property(copy) CDUnknownBlockType progressHandler; // @synthesize progressHandler=_progressHandler;
-@property(readonly) long long progressWeight;
-@property int requiredBagType; // @synthesize requiredBagType=_requiredBagType;
-@property(readonly) ISServiceProxy *serviceProxy;
-@property(retain, nonatomic) ISStoreAccount *storeAccount;
-@property(retain) ISStoreClient *storeClient; // @synthesize storeClient=_storeClient;
-@property(retain) ISOperation *subOperation; // @synthesize subOperation=_subOperation;
-@property _Bool success; // @synthesize success=_success;
-@property(readonly) NSString *uniqueKey;
-@property(readonly) id xpcReplyObject; // @synthesize xpcReplyObject=_xpcReplyObject;
 
 @end
 

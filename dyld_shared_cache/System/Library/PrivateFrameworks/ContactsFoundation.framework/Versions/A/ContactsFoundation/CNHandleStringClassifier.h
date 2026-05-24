@@ -15,7 +15,7 @@
 + (id);
 + (id);
 - (id);
-- (id);
+- (id)completedWithResultsByRoot:(id)arg1 errorsByRoot:error: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (unsigned long long);

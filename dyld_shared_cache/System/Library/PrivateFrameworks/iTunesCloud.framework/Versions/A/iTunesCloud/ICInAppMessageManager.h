@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICInAppMessageStore, ICUserIdentityStore, NSMutableSet, NSObject, NSOperationQueue, NSString, NSXPCConnection, NSXPCListener;
-@protocol NSCopying, OS_dispatch_queue;
+@class ICInAppMessageStore, NSOperationQueue;
 
 @interface ICInAppMessageManager
 {
     NSOperationQueue *_operationQueue;
-    NSOperationQueue *_downloadOperationQueue;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    ICInAppMessageStore *_messageStore;
-    ICUserIdentityStore *_identityStore;
-    _Bool _isSystemService;
-    NSString *_foregroundApplicationIdentifier;
-    id <NSCopying> _musicPrivacyObserverToken;
-    id <NSCopying> _fitnessPrivacyObserverToken;
-    NSXPCListener *_xpcServiceListener;
-    NSMutableSet *_xpcConnections;
-    NSXPCConnection *_xpcClientConnection;
 }
 
 + (id);
@@ -31,65 +18,76 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)b1b1b1b1b1b1b1b1b1b1b1b3b1{?={?=SS}I}^{?}^{__C3DGeometry}^{__C3DDeformerStack}f{?=}}16^{__C3DNode={__C3DEntity={__CFRuntimeBase=QAQ}^v^{__CFString}^{__CFString}^{__CFDictionary}^{__C3DScene}q}^{__C3DNode}^{__C3DNode}^{__C3DNode}i{?=(C3DMatrix4x4=[16f][4]{?=[4]})(?=)}^(C3DMatrix4x4)BfQib1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b3b1{?={?=SS}I}^{?}^{__C3DGeometry}^{__C3DDeformerStack}f{?=}}24^{__C3DNode={__C3DEntity={__CFRuntimeBase=QAQ}^v^{__CFString}^{__CFString}^{__CFDictionary}^{__C3DScene}q}^{__C3DNode}^{__C3DNode}^{__C3DNode}i{?=(C3DMatrix4x4=[16f][4]{?=[4]})(?=)}^(C3DMatrix4x4)BfQib1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b3b1{?={?=SS}I}^{?}^{__C3DGeometry}^{__C3DDeformerStack}f{?=}}32;
+- (void)exposureAdaptationHistogramRangeLowProbability;
+- (void)_updateC3DProgramInput:(id)arg1 forSymbol:(id)arg2;
+- (void)_nodeBufferBindings;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)QCSCN_CameraControlEventHandler;
+- (void)vec2(TexCoord.x - 3.0,TexCoord.y));		
+	accum +=	texture2DRect(textureSampler0, vec2(TexCoord.x - 2.0,TexCoord.y));		
+	accum +=	texture2DRect(textureSampler0, vec2(TexCoord.x - 1.0,TexCoord.y));		
+	
+	accum +=	texture2DRect(textureSampler0, vec2(TexCoord.x + 1.0,TexCoord.y));		
+	accum +=	texture2DRect(textureSampler0, vec2(TexCoord.x + 2.0,TexCoord.y));		
+	accum +=	texture2DRect(textureSampler0, vec2(TexCoord.x + 3.0,TexCoord.y));		
+	accum +=	texture2DRect(textureSampler0, vec2(TexCoord.x + 4.0,TexCoord.y));		
+	accum +=	texture2DRect(textureSampler0, vec2(TexCoord.x + 5.0,TexCoord.y));		
+	
+	accum +=	texture2DRect(textureSampler0, vec2(TexCoord.x + 6.0,TexCoord.y));		
+	accum +=	texture2DRect(textureSampler0, vec2(TexCoord.x + 7.0,TexCoord.y));		
+	accum +=	texture2DRect(textureSampler0, vec2(TexCoord.x + 8.0,TexCoord.y));		
+	accum +=	texture2DRect(textureSampler0, vec2(TexCoord.x + 9.0,TexCoord.y));		
+	accum +=	texture2DRect(textureSampler0, vec2(TexCoord.x + 10.0,TexCoord.y));		
+
+
+	gl_FragColor =	accum / 20.0;
+};
 - (id);
 - (_Bool);
+- (id)P;
 - (id);
-- (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)continuousHighlight;
 - (void);
 - (void);
 - (void)ourceStorefrontID;
-- (void)ration;
+- (void)ICMusicRestoreBagConfiguration;
 
 // Remaining properties
 @property(readonly, nonatomic) ICInAppMessageStore *_unsafeMessageStore; // @synthesize _unsafeMessageStore=_messageStore;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

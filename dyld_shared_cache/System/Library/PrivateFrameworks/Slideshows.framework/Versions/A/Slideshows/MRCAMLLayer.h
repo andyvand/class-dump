@@ -4,47 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRImageProvider, NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface MRCAMLLayer
 {
     double x;
-    double y;
-    double width;
-    double height;
-    double duration;
-    float color[4];
-    _Bool hasColor;
-    _Bool hasSublayerTransform;
-    _Bool hasTransform;
-    struct CGPoint anchorPoint;
-    double subScaleX;
-    double subScaleY;
-    double subScaleZ;
-    double subRX;
-    double subRY;
-    double subRZ;
-    double subTX;
-    double subTY;
-    double subTZ;
-    double scaleX;
-    double scaleY;
-    double scaleZ;
-    double rX;
-    double rY;
-    double rZ;
-    double tX;
-    double tY;
-    double tZ;
-    double opacity;
-    _Bool hasOpacity;
-    _Bool masksToBounds;
-    MRImageProvider *contents;
-    NSString *name;
-    NSArray *animations;
-    NSArray *sublayers;
-    NSDictionary *states;
-    NSArray *masks;
 }
 
 - (void);
@@ -55,7 +19,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)SXQuoteComponentClassification;
 - (id);
 - (id);
 - (id);
@@ -63,12 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *animations; // @synthesize animations;
-@property(retain, nonatomic) MRImageProvider *contents; // @synthesize contents;
-@property(retain, nonatomic) NSArray *masks; // @synthesize masks;
 @property(copy, nonatomic) NSString *name; // @synthesize name;
-@property(retain, nonatomic) NSDictionary *states; // @synthesize states;
-@property(retain, nonatomic) NSArray *sublayers; // @synthesize sublayers;
 
 @end
 

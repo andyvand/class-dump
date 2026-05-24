@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString, SXViewport, UIDynamicAnimator;
+@class SXViewport;
 
 @interface SXComponentBehaviorController
 {
     SXViewport *_viewport;
-    UIDynamicAnimator *_animator;
-    NSMutableSet *_behaviorHandlers;
 }
 
 - (void);
@@ -31,15 +29,6 @@
 - (id)ò;
 
 // Remaining properties
-@property(readonly, nonatomic) UIDynamicAnimator *animator; // @synthesize animator=_animator;
-@property(readonly, nonatomic) NSMutableSet *behaviorHandlers; // @synthesize behaviorHandlers=_behaviorHandlers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) SXViewport *viewport; // @synthesize viewport=_viewport;
 
 @end

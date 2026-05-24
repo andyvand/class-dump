@@ -15,12 +15,12 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (id)reason:%{public}@ because initial reachability is set and waiting for non-network reachability changes for device:%@ /* Error: Ran out of types for this method. */;
-- (id)ass;
-- (void)dentSelection;
-- (id)InSec;
+- (id)addPass;
+- (void)MKFResidentSelection;
+- (id)BTLEAccessoryLossDetectionTimeInSec;
 - (void)<@;
 
 // Remaining properties

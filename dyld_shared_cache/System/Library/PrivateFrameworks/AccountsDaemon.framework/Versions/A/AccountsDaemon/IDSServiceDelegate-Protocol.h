@@ -5,5 +5,12 @@
 //
 
 @protocol IDSServiceDelegate
+
+@optional
+- (void);
+- (void)CalculateKeyScientificNotationFormat;
+- (void)server;
+- (void)CFRelease;
+- (void)ng";
 @end
 

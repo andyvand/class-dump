@@ -11,7 +11,6 @@
 @interface PKSharingLocalChannelDescriptor : PKSharingChannelDescriptor
 {
     NSString *_baseTransportIdentifier;
-    unsigned long long _subtype;
 }
 
 + (id);
@@ -21,13 +20,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)_txCompPkts;
 - (unsigned long long)atingSystemVersion;
 - (void)rphanedSuspendedDeviceCredentials:%@, passCredential:%@, deviceCredential:%@) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long subtype; // @synthesize subtype=_subtype;
-@property(readonly, nonatomic) NSString *transportIdentifier;
 
 @end
 

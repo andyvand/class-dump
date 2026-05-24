@@ -4,31 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, NSDate, NSString, NSTimeZone;
+@class CLLocation, NSString;
 
 @interface WFLocation
 {
     CLLocation *_geoLocation;
-    NSString *_locationID;
-    NSString *_displayName;
-    NSString *_weatherDisplayName;
-    NSString *_weatherLocationName;
-    NSString *_city;
-    NSString *_county;
-    NSString *_state;
-    NSString *_stateAbbreviation;
-    NSString *_country;
-    NSString *_countryAbbreviation;
-    NSTimeZone *_timeZone;
-    NSDate *_creationDate;
-    long long _archiveVersion;
 }
 
 + (id);
 + (id);
 + (id);
-+ (long long);
-+ (id);
++ (long long)View";
++ (id)GPoint=dd}{CGSize=dd}}176;
 + (_Bool);
 - (id);
 - (id);
@@ -56,20 +43,20 @@
 - (id);
 - (long long);
 - (_Bool);
+- (void)˟;
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
+- (id)U=�;
+- (void);
+- (id);
+- (id)DDEventAttributeNameKey;
+- (id)_TtC15RemindersUICore31TTRRemindersListAttributeEditor;
 - (unsigned long long);
 - (id);
 - (void);
@@ -79,29 +66,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)#;
 - (id);
 - (void);
-- (void);
+- (void)	;
 - (id)back version = %@, Network Failed Attempts Limit = %lu, Network Switch Expiration Time In Seconds = %lu, location precision = %ld;
 
 // Remaining properties
-@property long long archiveVersion; // @synthesize archiveVersion=_archiveVersion;
-@property(copy, nonatomic) NSString *city; // @synthesize city=_city;
-@property(copy, nonatomic) NSString *country; // @synthesize country=_country;
-@property(copy, nonatomic) NSString *countryAbbreviation; // @synthesize countryAbbreviation=_countryAbbreviation;
-@property(copy, nonatomic) NSString *county; // @synthesize county=_county;
-@property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(copy, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(copy, nonatomic) CLLocation *geoLocation; // @synthesize geoLocation=_geoLocation;
-@property(copy, nonatomic) NSString *locationID; // @synthesize locationID=_locationID;
-@property(readonly, nonatomic) _Bool needsGeocoding;
-@property(readonly, nonatomic) _Bool shouldQueryForAirQualityData;
-@property(copy, nonatomic) NSString *state; // @synthesize state=_state;
-@property(copy, nonatomic) NSString *stateAbbreviation; // @synthesize stateAbbreviation=_stateAbbreviation;
-@property(retain, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
-@property(copy, nonatomic) NSString *weatherDisplayName; // @synthesize weatherDisplayName=_weatherDisplayName;
-@property(copy, nonatomic) NSString *weatherLocationName; // @synthesize weatherLocationName=_weatherLocationName;
 @property(readonly, nonatomic) NSString *wf_weatherChannelGeocodeValue;
 
 @end

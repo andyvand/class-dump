@@ -7,12 +7,6 @@
 @interface SPShared.Transaction
 {
     id name;
-    id underlyingTransaction;
-    id underlyingActivity;
-    id activityState;
-    id lock;
-    id subscriptions;
-    id helper;
 }
 
 @end

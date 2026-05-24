@@ -12,7 +12,7 @@
 
 + (Class);
 - (long long);
-- (long long)nged;
+- (long long)TranscriptVideMessageVolumeChanged;
 
 @end
 

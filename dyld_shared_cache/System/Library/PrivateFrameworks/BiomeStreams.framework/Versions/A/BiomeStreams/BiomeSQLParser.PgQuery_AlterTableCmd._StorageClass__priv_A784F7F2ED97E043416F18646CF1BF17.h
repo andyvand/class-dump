@@ -7,12 +7,6 @@
 @interface BiomeSQLParser.PgQuery_AlterTableCmd._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _subtype;
-    id _name;
-    id _num;
-    id _newowner;
-    id _def;
-    id _behavior;
-    id _missingOk;
 }
 
 @end

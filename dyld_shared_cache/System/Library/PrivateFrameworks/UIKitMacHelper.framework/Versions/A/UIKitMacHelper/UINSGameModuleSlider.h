@@ -6,25 +6,14 @@
 
 #import <UIKitMacHelper/UINSGameModuleDigitizer.h>
 
-@class NSArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface UINSGameModuleSlider : UINSGameModuleDigitizer
 {
     struct CGPoint _normalizedLocationMin;
-    struct CGPoint _normalizedLocationMax;
-    double _speed;
-    NSString *_fingerKey;
-    long long _keyCodeDecrease;
-    long long _keyCodeIncrease;
-    _Bool _isTouching;
-    _Bool _isDecreasePressed;
-    _Bool _isIncreasePressed;
-    struct CGPoint _normalizedLocationCurrent;
 }
 
 + (id);
-- (void);
+- (void)SBt;
 - (void);
 - (void);
 - (struct CGPoint);
@@ -39,16 +28,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)SGPatternMetrics;
 - (double);
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy) NSArray *keyCodes;
-@property struct CGPoint normalizedLocationMax; // @synthesize normalizedLocationMax=_normalizedLocationMax;
 @property struct CGPoint normalizedLocationMin; // @synthesize normalizedLocationMin=_normalizedLocationMin;
-@property double speed; // @synthesize speed=_speed;
 
 @end
 

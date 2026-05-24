@@ -6,22 +6,20 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class NSString;
-
 @interface CLSCollectionItem : CLSObject
 {
     long long _type;
-    NSString *_referenceObjectID;
-    unsigned long long _displayOrder;
 }
 
 + (id);
-+ (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
++ (_Bool)_configurationAndResponseWithCompletion: /* Error: Ran out of types for this method. */;
+- (void)being skipped due to explicit hint
+;
+- (id)nel side size:%d, No action
+ /* Error: Ran out of types for this method. */;
+- (void)BOUND!;
+- (id)l2_write_intra_conflict_cycle;
+- (id)*);
 - (_Bool);
 - (unsigned long long);
 - (void);
@@ -31,23 +29,14 @@
 - (long long);
 - (_Bool);
 - (void);
-- (void);
+- (void))*KE;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long displayOrder; // @synthesize displayOrder=_displayOrder;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *referenceObjectID; // @synthesize referenceObjectID=_referenceObjectID;
-@property(readonly) Class superclass;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

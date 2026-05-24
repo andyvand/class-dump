@@ -6,14 +6,11 @@
 
 #import <Photos/PHChangeRequest.h>
 
-@class NSManagedObjectID, NSString, PHCollectionList, PHObjectPlaceholder, PHRelationshipChangeRequestHelper;
-@protocol PLChangesForServiceHandling;
+@class PHCollectionList, PHRelationshipChangeRequestHelper;
 
 @interface PHCollectionListChangeRequest : PHChangeRequest
 {
     PHCollectionList *_originalCollectionList;
-    _Bool _isTopLevelUserCollection;
-    PHRelationshipChangeRequestHelper *_collectionsHelper;
 }
 
 + (void);
@@ -32,7 +29,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)h
+;
 - (void);
 - (id);
 - (void);
@@ -46,14 +44,14 @@
 - (unsigned int);
 - (_Bool);
 - (id);
-- (id);
+- (id){C;
+- (_Bool)P;
 - (_Bool);
-- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -62,30 +60,7 @@
 - (void)V_uuid;
 
 // Remaining properties
-@property(readonly, nonatomic) long long accessScopeOptionsRequirement;
-@property(readonly, nonatomic) NSString *changeTypeForSummary;
-@property(readonly, nonatomic) id <PLChangesForServiceHandling> changesForServiceHandler;
-@property(readonly, nonatomic) NSString *clientBundleID;
-@property(readonly, nonatomic, getter=isClientEntitled) _Bool clientEntitled;
-@property(readonly, nonatomic) NSString *clientName;
 @property(readonly, nonatomic) PHRelationshipChangeRequestHelper *collectionsHelper; // @synthesize collectionsHelper=_collectionsHelper;
-@property(nonatomic) _Bool customSortAscending;
-@property(nonatomic) unsigned int customSortKey;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isNewRequest;
-@property(nonatomic) _Bool isTopLevelUserCollection; // @synthesize isTopLevelUserCollection=_isTopLevelUserCollection;
-@property(readonly, nonatomic) NSString *managedEntityName;
-@property(readonly, getter=isMutated) _Bool mutated;
-@property(readonly, nonatomic) NSManagedObjectID *objectID;
-@property(readonly, nonatomic) PHObjectPlaceholder *placeholderForCreatedCollectionList;
-@property(nonatomic) _Bool shouldPerformConcurrentWork;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *title;
 
 @end
 

@@ -8,12 +8,6 @@
 {
     id _recipe;
     id _recipeThumbnailSize;
-    id _screenMetrics;
-    id state;
-    id _$scope;
-    id imageLoader;
-    id thumbnailURL;
-    id task;
 }
 
 @end

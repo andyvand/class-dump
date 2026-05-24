@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID, USOSerializedGraph;
+@class NSUUID;
 
 @interface SIRINLUUserCancelled
 {
     NSUUID *_taskId;
-    USOSerializedGraph *_reference;
 }
 
 + (_Bool);
@@ -21,11 +20,10 @@
 - (id);
 - (void);
 - (id);
-- (id)n_Locale;
+- (id)_TtC12SiriOntology28UsoTask_noVerb_common_Locale;
 - (void)SiriOntology.UsoTaskBuilder_close_common_App;
 
 // Remaining properties
-@property(retain, nonatomic) USOSerializedGraph *reference; // @synthesize reference=_reference;
 @property(retain, nonatomic) NSUUID *taskId; // @synthesize taskId=_taskId;
 
 @end

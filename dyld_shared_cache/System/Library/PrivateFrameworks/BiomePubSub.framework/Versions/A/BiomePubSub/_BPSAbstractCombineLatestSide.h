@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _BPSAbstractCombineLatest;
-
 @interface _BPSAbstractCombineLatestSide
 {
     unsigned long long _index;
-    _BPSAbstractCombineLatest *_combiner;
 }
 
 - (void);
@@ -24,15 +21,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) _BPSAbstractCombineLatest *combiner; // @synthesize combiner=_combiner;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) unsigned long long index; // @synthesize index=_index;
-@property(readonly) Class superclass;
 
 @end
 

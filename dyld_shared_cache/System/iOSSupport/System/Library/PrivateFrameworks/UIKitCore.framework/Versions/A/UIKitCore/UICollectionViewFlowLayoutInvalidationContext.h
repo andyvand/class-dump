@@ -15,7 +15,7 @@
 }
 
 - (_Bool);
-- (void);
+- (void)xtAreaViewDelegate>";
 - (id);
 - (_Bool)1Â0@ù
 × ;

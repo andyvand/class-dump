@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class _DKObjectType;
+
 @protocol _DKHasObjectType
+- (_DKObjectType *)d downloads directory:%@ /* Error: Ran out of types for this method. */;
 @end
 

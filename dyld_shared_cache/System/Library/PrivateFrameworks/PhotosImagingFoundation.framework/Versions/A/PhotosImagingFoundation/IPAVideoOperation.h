@@ -10,7 +10,7 @@
 {
 }
 
-+ (id);
++ (id)RandomAccessController;
 - (id);
 
 @end

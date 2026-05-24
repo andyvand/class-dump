@@ -4,16 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INAnnouncement, NSArray, NSNumber, NSString;
+@class INAnnouncement, NSArray, NSNumber;
 
 @protocol INSendAnnouncementIntentExport
-- (NSNumber *)eRead;
-- (NSArray *)nteraction;
+- (NSNumber *)_dateLastMessageRead;
+- (NSArray *)_accessedInteraction;
 
 // Remaining properties
 @property(copy) INAnnouncement *announcement;
-@property(copy) NSNumber *isReply;
-@property(copy) NSArray *recipients;
-@property(copy) NSString *sharedUserID;
 @end
 

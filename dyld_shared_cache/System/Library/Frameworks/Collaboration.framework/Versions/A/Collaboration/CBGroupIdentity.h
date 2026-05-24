@@ -6,8 +6,6 @@
 
 #import <Collaboration/CBIdentity.h>
 
-@class NSArray;
-
 @interface CBGroupIdentity : CBIdentity
 {
 }
@@ -17,14 +15,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)_dylibHandlerMap;
 - (id);
 - (void);
-- (id);
+- (id)nameFromFammilyMember:(struct _NSZone *)arg1;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *memberIdentities;
-@property(readonly, nonatomic) NSArray *members;
 @property(readonly, nonatomic) unsigned int posixGID;
 
 @end

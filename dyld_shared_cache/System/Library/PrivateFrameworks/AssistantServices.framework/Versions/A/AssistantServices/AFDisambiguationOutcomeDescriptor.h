@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSString;
+@class NSIndexSet;
 
 @interface AFDisambiguationOutcomeDescriptor
 {
     NSIndexSet *_itemsIndices;
-    unsigned long long _behaviorOverrides;
 }
 
 + (_Bool);
@@ -20,18 +19,10 @@
 - (id);
 - (id);
 - (void);
-- (void)dentifier;
+- (void)_turnIdentifier;
 
 // Remaining properties
-@property(nonatomic) unsigned long long behaviorOverrides; // @synthesize behaviorOverrides=_behaviorOverrides;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSIndexSet *itemsIndices; // @synthesize itemsIndices=_itemsIndices;
-@property(readonly) Class superclass;
 
 @end
 

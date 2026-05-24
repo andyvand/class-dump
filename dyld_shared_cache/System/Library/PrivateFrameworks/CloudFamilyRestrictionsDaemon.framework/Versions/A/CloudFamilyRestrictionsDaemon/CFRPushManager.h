@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APSConnection, NSString;
+@class APSConnection;
 @protocol CFRPushDelegate;
 
 @interface CFRPushManager
 {
     id <CFRPushDelegate> _pushDelegate;
-    APSConnection *_pushConnection;
 }
 
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)z;
+- (void)%@;
 - (void);
 - (id);
 - (void);
@@ -29,15 +28,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) APSConnection *pushConnection; // @synthesize pushConnection=_pushConnection;
-@property(nonatomic) __weak id <CFRPushDelegate> pushDelegate; // @synthesize pushDelegate=_pushDelegate;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,22 +7,6 @@
 @interface NewsFeed.FeaturePromotionEligibilityProviderFactory
 {
     id userInfo;
-    id familySharingStatusManager;
-    id bundleSubscriptionManager;
-    id paidAccessChecker;
-    id subscriptionController;
-    id tagService;
-    id newsletterManager;
-    id appConfigurationManager;
-    id readingList;
-    id savedRecipeService;
-    id readingHistory;
-    id headlineService;
-    id recipeHistory;
-    id puzzleHistoryService;
-    id appLaunchMethodChecker;
-    id presentationArchive;
-    id locationDetectionManager;
 }
 
 @end

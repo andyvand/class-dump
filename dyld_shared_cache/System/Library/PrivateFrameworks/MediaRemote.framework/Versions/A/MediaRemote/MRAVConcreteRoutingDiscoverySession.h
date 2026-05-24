@@ -6,28 +6,12 @@
 
 #import <MediaRemote/MRAVRoutingDiscoverySession.h>
 
-@class AVOutputDeviceDiscoverySession, NSArray, NSObject, NSSet, NSString, NSUserDefaults;
-@protocol MRActivityTracker, OS_dispatch_queue, OS_dispatch_source;
+@class NSArray, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface MRAVConcreteRoutingDiscoverySession : MRAVRoutingDiscoverySession
 {
     NSObject<OS_dispatch_queue> *_serialQueue;
-    NSObject<OS_dispatch_queue> *_reloadQueue;
-    AVOutputDeviceDiscoverySession *_avDiscoverySession;
-    unsigned int _endpointFeatures;
-    unsigned int _discoveryMode;
-    unsigned int _targetAudioSessionID;
-    unsigned int _clientProvidedTargetAudioSessionID;
-    NSString *_routingContextUID;
-    NSArray *_availableOutputDevices;
-    NSObject<OS_dispatch_source> *_reloadCoalescingSource;
-    id <MRActivityTracker> _discoveryTracker;
-    _Bool _ignoreNonLocalDevices;
-    NSArray *_virtualOutputDevices;
-    NSSet *_lastReportedClientIdentifiers;
-    NSArray *_allowList;
-    NSArray *_denyList;
-    NSUserDefaults *_userDefaults;
 }
 
 - (void);
@@ -40,49 +24,35 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)setUTITypes:(id)arg1;
 - (void);
 - (void);
+- (void)KTypedFastEnumerator;
 - (void);
 - (void);
-- (void);
-- (id);
-- (unsigned int);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (id);
 - (id);
 - (unsigned int);
-- (_Bool);
+- (void);
+- (_Bool)_initWithName:unlocalizedName:countryName:unlocalizedCountryName:timeZone:latitude:longitude:alCityID: /* Error: Ran out of types for this method. */;
+- (id)erNotificationProvider receivedNotificationResponse:] /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
+- (id);
+- (unsigned int);
+- (_Bool);
+- (id);
 - (void);
 - (id);
 - (id)
 × ;
-- (_Bool)HasIncludeLyrics: /* Error: Ran out of types for this method. */;
+- (_Bool)setHasIncludeLyrics: /* Error: Ran out of types for this method. */;
 - (void)_MRPlaybackSessionMigrateRequestEventProtobuf;
 - (void)c}@;
 - (unsigned int)tent endpoint registered to handle API:%@ /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allowList; // @synthesize allowList=_allowList;
 @property(retain, nonatomic) NSArray *availableEndpoints; // @dynamic availableEndpoints;
-@property(retain, nonatomic) NSArray *availableOutputDevices; // @dynamic availableOutputDevices;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSArray *denyList; // @synthesize denyList=_denyList;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool ignoreNonLocalDevices; // @synthesize ignoreNonLocalDevices=_ignoreNonLocalDevices;
-@property(retain, nonatomic) NSSet *lastReportedClientIdentifiers; // @synthesize lastReportedClientIdentifiers=_lastReportedClientIdentifiers;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSUserDefaults *userDefaults; // @synthesize userDefaults=_userDefaults;
-@property(readonly, nonatomic) NSArray *virtualOutputDevices; // @synthesize virtualOutputDevices=_virtualOutputDevices;
 
 @end
 

@@ -6,18 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, ORCHSchemaORCHIFFlowError;
-
 @interface ORCHSchemaORCHIntelligenceFlowRequestFailed : SISchemaInstrumentationMessage
 {
     int _reason;
-    _Bool _isSiriXFallback;
-    ORCHSchemaORCHIFFlowError *_ifflowError;
-    struct {
-        unsigned int reason:1;
-        unsigned int isSiriXFallback:1;
-    } _has;
-    _Bool _hasIfflowError;
 }
 
 - (void);
@@ -31,30 +22,24 @@
 - (void);
 - (_Bool);
 - (id);
-- (int);
+- (int)}_source;
 - (_Bool);
-- (id);
+- (id)!;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id)Þ1Â0@ù
 × ;
-- (id)xt;
+- (id)_cdmReplayTaskContext;
 - (id)ertExecutionTier1;
 - (void);
 - (void)Identifier.custom.bundleId;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIfflowError; // @synthesize hasIfflowError=_hasIfflowError;
-@property(nonatomic) _Bool hasIsSiriXFallback;
-@property(nonatomic) _Bool hasReason;
-@property(retain, nonatomic) ORCHSchemaORCHIFFlowError *ifflowError; // @synthesize ifflowError=_ifflowError;
-@property(nonatomic) _Bool isSiriXFallback; // @synthesize isSiriXFallback=_isSiriXFallback;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int reason; // @synthesize reason=_reason;
 
 @end

@@ -6,41 +6,32 @@
 
 #import <ChatKit/CKTranscriptCell.h>
 
-@class NSAttributedString, NSString, UILabel;
+@class NSAttributedString, UILabel;
 
 @interface CKTranscriptSatelliteAvailabilityCell : CKTranscriptCell
 {
     NSAttributedString *_satelliteAvailabilityTitleLabelAttributedText;
-    UILabel *_satelliteAvailabilityTitleLabel;
 }
 
++ (id);
 + (id);
-+ (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)noteHTMLEditorView:(id)arg1 updateAttachments: /* Error: Ran out of types for this method. */;
+- (void)noteHTMLEditorView:(id)arg1 shouldPerformDragOperation: /* Error: Ran out of types for this method. */;
+- (id)createRenderableAttributedString;
+- (void)_error;
+- (void)geSelectorDelayer;
 - (void);
 - (id);
+- (void)l;
+- (void)al security, but if you forget this password, there is no way to recover access to these locked notes.;
+- (id)enabled == YES AND                               (entity != %@ || notes.@count > 0);
 - (void);
 - (void);
-- (id);
+- (id)imageWithConfiguration:(struct CGRect)arg1;
 - (void)h list for handles:%@, with service:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) UILabel *satelliteAvailabilityTitleLabel; // @synthesize satelliteAvailabilityTitleLabel=_satelliteAvailabilityTitleLabel;
-@property(copy, nonatomic) NSAttributedString *satelliteAvailabilityTitleLabelAttributedText; // @synthesize satelliteAvailabilityTitleLabelAttributedText=_satelliteAvailabilityTitleLabelAttributedText;
-@property(readonly) Class superclass;
 
 @end
 

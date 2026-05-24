@@ -4,42 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKConversation, CKMacToolbarController;
 @protocol CKDetailsControllerDelegate;
 
 @interface CKBusinessDetailsController
 {
     void detailsControllerDelegate;
-    CKConversation *conversation;
-    _Bool isShowingAddMemberPopover;
-    void macToolbarController;
-    id closeToolbarItem;
 }
 
+- (id);
+- (void);
+- (void)So9NSPopoverCSgXw;
+- (void);
+- (void)r;
+- (id)for post processing:%@ /* Error: Ran out of types for this method. */;
+- (_Bool)FolderContainingLockedOrJoinedNotesWithGuiltyObjects:CompletionHandler: /* Error: Ran out of types for this method. */;
+- (id)ly Generator Queue;
+- (void)ror:] /* Error: Ran out of types for this method. */;
 - (id);
+- (void)o;
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)"n;
+- (id)H(;
 - (void);
 - (id)!ÈBù±Ð1Â0@ù
 × ;
 - (void)L§ÿ;
 
 // Remaining properties
-@property(nonatomic, retain) CKConversation *conversation; // @synthesize conversation;
 @property(nonatomic) __weak id <CKDetailsControllerDelegate> detailsControllerDelegate; // @synthesize detailsControllerDelegate;
-@property(nonatomic) _Bool isShowingAddMemberPopover; // @synthesize isShowingAddMemberPopover;
-@property(nonatomic) __weak CKMacToolbarController *macToolbarController; // @synthesize macToolbarController;
 
 @end
 

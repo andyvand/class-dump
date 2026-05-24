@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AOSUICodeEntryContext, MMPinFieldView, NSButton, NSLayoutConstraint, NSProgressIndicator, NSString, NSTextField, NSView;
+@class AOSUICodeEntryContext;
 
 __attribute__((visibility("hidden")))
 @interface AOSUICodeEntryViewController
 {
     AOSUICodeEntryContext *_context;
-    MMPinFieldView *_pinView;
-    NSView *_pinContainerView;
-    NSTextField *_promptTitle;
-    NSTextField *_promptMessage;
-    NSTextField *_errorLabel;
-    NSProgressIndicator *_progressIndicator;
-    NSButton *_noCodeButton;
-    NSButton *_cancelButton;
-    NSButton *_doneButton;
-    NSLayoutConstraint *_widthOfPinViewConstraint;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)P;
 - (id);
 - (void);
 - (void);
@@ -45,42 +35,25 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (void);
 - (id);
 - (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (void);
+- (void);
+- (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
 @property(retain) AOSUICodeEntryContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSButton *doneButton; // @synthesize doneButton=_doneButton;
-@property(retain) NSTextField *errorLabel; // @synthesize errorLabel=_errorLabel;
-@property(readonly) unsigned long long hash;
-@property(retain) NSButton *noCodeButton; // @synthesize noCodeButton=_noCodeButton;
-@property(retain) NSView *pinContainerView; // @synthesize pinContainerView=_pinContainerView;
-@property(retain) MMPinFieldView *pinView; // @synthesize pinView=_pinView;
-@property(retain) NSProgressIndicator *progressIndicator; // @synthesize progressIndicator=_progressIndicator;
-@property(retain) NSTextField *promptMessage; // @synthesize promptMessage=_promptMessage;
-@property(retain) NSTextField *promptTitle; // @synthesize promptTitle=_promptTitle;
-@property(readonly) Class superclass;
-@property(retain) NSLayoutConstraint *widthOfPinViewConstraint; // @synthesize widthOfPinViewConstraint=_widthOfPinViewConstraint;
 
 @end
 

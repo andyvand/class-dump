@@ -4,30 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface FAFamilyCloudKitProperties
 {
     NSDictionary *_dictionary;
 }
 
-+ (_Bool);
++ (_Bool)a;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)S
+;
 - (id);
-- (id);
+- (id)_;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *bundleID;
 @property(readonly, copy, nonatomic) NSDictionary *dictionary; // @synthesize dictionary=_dictionary;
-@property(readonly, copy, nonatomic) NSString *participantID;
-@property(readonly, copy, nonatomic) NSString *shareID;
-@property(readonly, copy, nonatomic) NSString *zoneID;
 
 @end
 

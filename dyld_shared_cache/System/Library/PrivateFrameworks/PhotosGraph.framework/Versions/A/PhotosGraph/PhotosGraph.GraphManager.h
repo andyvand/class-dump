@@ -7,10 +7,6 @@
 @interface PhotosGraph.GraphManager
 {
     id $defaultActor;
-    id photoLibrary;
-    id inputStreamTokenStoresDirectoryURL;
-    id graphDirectoryURL;
-    id graphManager;
 }
 
 @end

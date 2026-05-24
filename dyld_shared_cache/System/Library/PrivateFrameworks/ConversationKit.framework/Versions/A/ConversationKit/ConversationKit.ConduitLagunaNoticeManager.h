@@ -7,9 +7,6 @@
 @interface ConversationKit.ConduitLagunaNoticeManager
 {
     id manager;
-    id queue;
-    id pushBannerInfo;
-    id callCenter;
 }
 
 - (void);

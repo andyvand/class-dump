@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface OADQuadBezierToPathElement : OADPathElement
 {
     struct OADAdjustPoint mControlPoint;
-    struct OADAdjustPoint mToPoint;
 }
 
 - (id);

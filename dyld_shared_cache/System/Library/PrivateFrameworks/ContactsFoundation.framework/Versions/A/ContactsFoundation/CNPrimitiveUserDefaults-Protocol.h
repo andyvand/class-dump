@@ -5,7 +5,9 @@
 //
 
 @protocol CNPrimitiveUserDefaults
-- (void)RControlCharacters;
+- (id)t be sent a valid DRDevice object;
+- (void);
+- (void)_cn_LTRControlCharacters;
 - (void)reen-tea;
 - (long long)ermOfAddress"8;
 @end

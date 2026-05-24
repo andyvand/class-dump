@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDRemoteMessageDestination
@@ -17,7 +17,6 @@ __attribute__((visibility("hidden")))
 - (id)Accessory Count;
 
 // Remaining properties
-@property(readonly, copy) NSArray *allRemoteDestinationStrings;
 @property(readonly, copy) NSString *remoteDestinationString;
 
 @end

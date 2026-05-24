@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSMapTable, NSObject, NSString, NSURL, NSXPCListener, WBSHistoryDatabaseAccessBroker;
-@protocol OS_dispatch_group, OS_dispatch_queue;
+@class NSXPCListener, WBSHistoryDatabaseAccessBroker;
 
 @interface WBSHistoryService
 {
     NSXPCListener *_listener;
-    NSObject<OS_dispatch_queue> *_historyServiceQueue;
-    NSObject<OS_dispatch_group> *_fileOperationGroup;
-    NSMapTable *_databases;
-    NSDate *_initDate;
-    id _keybagToken;
-    WBSHistoryDatabaseAccessBroker *_databaseAccessBroker;
 }
 
 - (void);
@@ -39,14 +32,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) WBSHistoryDatabaseAccessBroker *databaseAccessBroker; // @synthesize databaseAccessBroker=_databaseAccessBroker;
-@property(readonly, nonatomic) NSURL *databaseURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

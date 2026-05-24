@@ -4,68 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEORPUserSearchInput, NSMutableArray, PBDataReader, PBUnknownFields;
+@class NSMutableArray, PBDataReader;
 
 @interface GEORPDirectionsFeedbackContext
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_directionsRequests;
-    NSMutableArray *_directionsResponses;
-    NSMutableArray *_directionsWaypointPlaceInfos;
-    GEORPUserSearchInput *_endWaypoint;
-    NSMutableArray *_rerouteLocations;
-    NSMutableArray *_routes;
-    GEORPUserSearchInput *_startWaypoint;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _isRouteToPerson;
-    struct {
-        unsigned int has_isRouteToPerson:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_directionsRequests:1;
-        unsigned int read_directionsResponses:1;
-        unsigned int read_directionsWaypointPlaceInfos:1;
-        unsigned int read_endWaypoint:1;
-        unsigned int read_rerouteLocations:1;
-        unsigned int read_routes:1;
-        unsigned int read_startWaypoint:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
 + (Class);
 + (Class);
-+ (Class);
-+ (_Bool)etIsRefund:(id)arg1;
++ (Class)entityIdentificationModel:uniqueIdentifierOfEntityAtIndex: /* Error: Ran out of types for this method. */;
++ (_Bool)setIsRefund:(id)arg1;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)abasePreparationRequest"16@?<v@?@"CNCDDatabasePreparationResult"@"NSError">24;
+- (void)ignoresGuardianRestrictionsDuringValidation;
+- (void)"NSString",C,V_tag;
+- (void)setServiceName:(id)arg1;
+- (void)alIdentifier;
+- (unsigned long long)So12CNCDMigratorC;
 - (id);
-- (unsigned long long);
-- (id);
-- (id);
+- (unsigned long long)y with ID:%{public}@ name %{public}@ /* Error: Ran out of types for this method. */;
+- (id)Could not find custom property with ID:%{public}@ name %{public}@ /* Error: Ran out of types for this method. */;
+- (id)ontacts iOS legacy identifier state. error = %{public}@;
+- (_Bool)I;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (unsigned long long);
-- (id);
+- (_Bool)?;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (unsigned long long);
+- (id);
+- (id);
+- (unsigned long long);
 - (id);
 - (id);
 - (void);
@@ -80,15 +56,15 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)A;
 - (id);
-- (_Bool);
-- (id);
-- (void);
-- (void);
+- (_Bool)?;
 - (id);
 - (void);
-- (void);
+- (void)U;
+- (id)setExtraDelayFrequency: /* Error: Ran out of types for this method. */;
+- (void)asset to onDevice CacheIr with error:(id)arg1 %@;
+- (void)lable:(unsigned long long)arg1 ];
 - (id);
 - (unsigned long long);
 - (_Bool);
@@ -97,24 +73,13 @@
 - (id);
 - (void);
 - (id)ayTitles"b1"read_itemIds"b1"read_itemPhotos"b1"read_localizedCategorys"b1"read_longSpokenTitles"b1"read_longTitles"b1"read_mediaLinks"b1"read_photos"b1"read_placeCollectionItems"b1"read_publisherId"b1"read_publisher"b1"read_spokenTitles"b1"read_url"b1"wrote_anyField"b1};
-- (id)intRoutes: /* Error: Ran out of types for this method. */;
+- (id)addNewWaypointRoutes: /* Error: Ran out of types for this method. */;
 - (id)lß;
 - (id)ject;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *directionsRequests;
-@property(retain, nonatomic) NSMutableArray *directionsResponses;
-@property(retain, nonatomic) NSMutableArray *directionsWaypointPlaceInfos;
-@property(retain, nonatomic) GEORPUserSearchInput *endWaypoint;
-@property(readonly, nonatomic) _Bool hasEndWaypoint;
-@property(nonatomic) _Bool hasIsRouteToPerson;
-@property(readonly, nonatomic) _Bool hasStartWaypoint;
-@property(nonatomic) _Bool isRouteToPerson;
-@property(retain, nonatomic) NSMutableArray *rerouteLocations;
-@property(retain, nonatomic) NSMutableArray *routes;
-@property(retain, nonatomic) GEORPUserSearchInput *startWaypoint;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

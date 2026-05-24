@@ -5,5 +5,7 @@
 //
 
 @protocol MTLIndirectRenderCommand
+- (void);
+- (void)inputNeutralTint;
 @end
 

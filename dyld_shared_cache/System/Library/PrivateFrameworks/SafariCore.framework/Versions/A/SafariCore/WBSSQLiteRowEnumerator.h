@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WBSSQLiteRow, WBSSQLiteStatement;
+@class WBSSQLiteStatement;
 
 @interface WBSSQLiteRowEnumerator
 {
     WBSSQLiteStatement *_statement;
-    WBSSQLiteRow *_row;
-    int _lastResultCode;
 }
 
 - (id);
@@ -21,7 +19,6 @@
 - (id)ach of which the password needs to contain at least one symbol than total required random characters in the password. Ignore the character sets.;
 
 // Remaining properties
-@property(readonly, nonatomic) int lastResultCode; // @synthesize lastResultCode=_lastResultCode;
 @property(readonly, nonatomic) WBSSQLiteStatement *statement; // @synthesize statement=_statement;
 
 @end

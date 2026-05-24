@@ -7,11 +7,6 @@
 @interface SoundAnalysis.SNNullDetector
 {
     id graphStorage;
-    id sampleRate;
-    id computationalDutyCycle;
-    id blockSize;
-    id graphIsDeadEnded;
-    id shouldThrowException;
 }
 
 @end

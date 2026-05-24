@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer;
-
 __attribute__((visibility("hidden")))
 @interface CKDropZoneCircleView
 {
     _Bool _isAnimating;
-    CAShapeLayer *_dropZoneShapeLayer;
 }
 
-- (id);
+- (id)pdatingContent;
+- (void);
+- (id)fetching share. %@;
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void)ionColor;
-- (_Bool)extView: /* Error: Ran out of types for this method. */;
+- (void)transcriptSatelliteSuppressedNotificationColor;
+- (_Bool)maxWidthForPreviewImagesInMessageEntryRichTextView: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) CAShapeLayer *dropZoneShapeLayer; // @synthesize dropZoneShapeLayer=_dropZoneShapeLayer;
 @property(readonly, nonatomic) _Bool isAnimating; // @synthesize isAnimating=_isAnimating;
 
 @end

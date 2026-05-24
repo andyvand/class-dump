@@ -5,5 +5,6 @@
 //
 
 @protocol _NSActionBinderPlugin
+- (_Bool)etrieve region info;
 @end
 

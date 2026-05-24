@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError;
-
 @protocol IMEventListenerResponse
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error;
 @property(readonly, nonatomic, getter=didSucceed) _Bool success;
-@property(readonly, nonatomic) NSDictionary *userInfo;
 @end
 

@@ -14,9 +14,9 @@
 }
 
 + (id);
-- (id);
-- (id);
-- (void);
+- (id)'!;
+- (id)_virtualConferenceLookupQueue;
+- (void);
 - (id);
 - (_Bool);
 - (void);

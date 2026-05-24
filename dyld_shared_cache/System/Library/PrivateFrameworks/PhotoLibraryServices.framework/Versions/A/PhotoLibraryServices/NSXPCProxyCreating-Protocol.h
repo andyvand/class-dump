@@ -5,6 +5,7 @@
 //
 
 @protocol NSXPCProxyCreating
-- (id)Properties;
+- (id)searchString:containsOnlyCharactersInSet: /* Error: Ran out of types for this method. */;
+- (id)listOfLastModifiedDateChangeProperties;
 @end
 

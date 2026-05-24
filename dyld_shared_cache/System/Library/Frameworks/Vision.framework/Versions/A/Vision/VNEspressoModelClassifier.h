@@ -6,30 +6,24 @@
 
 #import <Vision/VNDetector.h>
 
-@class NSSet;
-@protocol MLComputeDeviceProtocol;
-
 __attribute__((visibility("hidden")))
 @interface VNEspressoModelClassifier : VNDetector
 {
     shared_ptr_b26ea6de mDescriptorProcessor;
-    shared_ptr_047f28ed mClassifier;
-    id <MLComputeDeviceProtocol> _computeDevice;
-    NSSet *_disallowedIdentifiers;
 }
 
 + (void);
 + (id);
 + (shared_ptr_eb20c8f2);
 + (shared_ptr_b26ea6de);
-+ (shared_ptr_047f28ed);
++ (shared_ptr_76176f90);
 + (void);
 + (id);
++ (id)CNAddressFormats;
 + (id);
-+ (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id)?~;
 - (id);
 - (_Bool);
 - (_Bool);

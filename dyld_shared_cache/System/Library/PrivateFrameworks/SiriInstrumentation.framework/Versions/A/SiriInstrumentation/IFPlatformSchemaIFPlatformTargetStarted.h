@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IFPlatformSchemaIFPlatformTargetStarted : SISchemaInstrumentationMessage
 {
     int _ifPlatformTarget;
-    struct {
-        unsigned int ifPlatformTarget:1;
-    } _has;
 }
 
 - (void);
@@ -22,21 +17,19 @@
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
+- (void);
+- (unsigned long long)`;
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)qualifiedIdentifier;
 - (id)At°!lEùàÐ1Â0@ù
 × ;
-- (id)AccessLevel:(id)arg1;
+- (id)setAccessLevel:(id)arg1;
 - (id)$ÂÐÂTÃÌÅLÇ
 ÊtË;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIfPlatformTarget;
 @property(nonatomic) int ifPlatformTarget; // @synthesize ifPlatformTarget=_ifPlatformTarget;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

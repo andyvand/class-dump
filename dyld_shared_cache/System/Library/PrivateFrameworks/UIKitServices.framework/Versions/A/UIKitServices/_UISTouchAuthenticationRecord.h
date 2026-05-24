@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BKSWindowServerHitTestSecurityAnalysis, NSDictionary, NSString;
+@class BKSWindowServerHitTestSecurityAnalysis, NSDictionary;
 
 @interface _UISTouchAuthenticationRecord
 {
     BKSWindowServerHitTestSecurityAnalysis *_securityAnalysis;
-    NSString *_hostBundleId;
-    NSString *_hostSDKVersion;
-    _Bool _hostIsInternal;
-    NSString *_serviceBundleId;
-    long long _serviceInstanceIdentifier;
-    unsigned long long _creationTime;
-    _Bool _eventLeadToSensitiveDataTransmission;
-    _Bool _passesSecurityAnalysis;
-    _Bool _shouldAllowEvents;
 }
 
 - (double);
@@ -33,8 +24,8 @@
 - (_Bool);
 - (long long);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)setCustomName: /* Error: Ran out of types for this method. */;
+- (id)<2;
 - (id);
 - (id);
 - (id);
@@ -47,25 +38,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool eventLeadToSensitiveDataTransmission; // @synthesize eventLeadToSensitiveDataTransmission=_eventLeadToSensitiveDataTransmission;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *hostBundleId;
-@property(readonly, nonatomic) _Bool hostIsInternal;
-@property(readonly, copy, nonatomic) NSString *hostSDKVersion;
-@property(readonly, nonatomic) _Bool passesSecurityAnalysis; // @synthesize passesSecurityAnalysis=_passesSecurityAnalysis;
-@property(readonly, nonatomic) BKSWindowServerHitTestSecurityAnalysis *securityAnalysis;
-@property(readonly, copy, nonatomic) NSString *serviceBundleId;
-@property(readonly, nonatomic) long long serviceInstanceIdentifier;
-@property(readonly, nonatomic) _Bool shouldAllowEvents; // @synthesize shouldAllowEvents=_shouldAllowEvents;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSDictionary *sysdiagnosePayload;
-@property(readonly, nonatomic) double timeSinceCreation;
-@property(readonly, nonatomic) _Bool touchIsAuthentic;
 
 @end
 

@@ -10,37 +10,26 @@ __attribute__((visibility("hidden")))
 @interface _UITableViewPrefetchContext
 {
     _Bool _prefetchScheduled;
-    CDUnknownBlockType _requestHandler;
-    CDUnknownBlockType _cancelHandler;
-    CDUnknownBlockType _cellHandler;
-    CDUnknownBlockType _cellPruningHandler;
-    NSMutableIndexSet *_outstandingRequests;
-    long long _maxIndex;
-    double _lastContentOffset;
-    long long _prefetchItemCount;
-    long long _refreshPrefetchThresholdCount;
-    long long _cancelThresholdCount;
-    struct _NSRange _lastVisibleIndexRange;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)loadArrayFromDictionary:(long long)arg1 withKey:validator:isRequired:defaultValue:error: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id)fer;
 - (struct _NSRange);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)dataSourceMoveItem:afterItem:inSection: /* Error: Ran out of types for this method. */;
 - (void);
 - (CDUnknownBlockType);
 - (double);
 - (void);
 - (id);
-- (long long);
+- (long long)P;
 - (struct _NSRange);
 - (void)°1Â0@ù
 × ;
@@ -50,13 +39,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct _NSRange)wServiceSceneDelegate";
 - (void)splaying>";
-- (void)hangeInTextField:(struct _NSRange)arg1 inFrame: /* Error: Ran out of types for this method. */;
-- (void);
-- (id)lectionWillTranslateForReachability: /* Error: Ran out of types for this method. */;
-- (long long)nlineCalculation:getScopeBarContentInset: /* Error: Ran out of types for this method. */;
-- (void)ingLoadedInteractionBehavior_Private;
+- (void)textDidChangeInTextField:(struct _NSRange)arg1 inFrame: /* Error: Ran out of types for this method. */;
+- (void)setPredictionBarDebounceTimeIntervalTimer: /* Error: Ran out of types for this method. */;
+- (id)selectionWillTranslateForReachability: /* Error: Ran out of types for this method. */;
+- (long long)recalculatedEffectiveContentInsetForLayoutState:forcingInlineCalculation:getScopeBarContentInset: /* Error: Ran out of types for this method. */;
+- (void)UISpringLoadedInteractionBehavior_Private;
 - (id);
-- (_Bool)iousTranslation;
+- (_Bool)previousTranslation;
 - (CDUnknownBlockType)iewDiffableDataSource. Table view:%@ /* Error: Ran out of types for this method. */;
 - (int)ound environment:(struct _NSRange)arg1 %@;
 - (CDUnknownBlockType)ly;
@@ -66,18 +55,7 @@ __attribute__((visibility("hidden")))
 - (void)03y³.¿7G;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType cancelHandler; // @synthesize cancelHandler=_cancelHandler;
-@property(nonatomic) long long cancelThresholdCount; // @synthesize cancelThresholdCount=_cancelThresholdCount;
-@property(copy, nonatomic) CDUnknownBlockType cellHandler; // @synthesize cellHandler=_cellHandler;
-@property(copy, nonatomic) CDUnknownBlockType cellPruningHandler; // @synthesize cellPruningHandler=_cellPruningHandler;
-@property(nonatomic) double lastContentOffset; // @synthesize lastContentOffset=_lastContentOffset;
-@property(nonatomic) struct _NSRange lastVisibleIndexRange; // @synthesize lastVisibleIndexRange=_lastVisibleIndexRange;
-@property(nonatomic) long long maxIndex; // @synthesize maxIndex=_maxIndex;
 @property(retain, nonatomic) NSMutableIndexSet *outstandingRequests; // @synthesize outstandingRequests=_outstandingRequests;
-@property(nonatomic) long long prefetchItemCount; // @synthesize prefetchItemCount=_prefetchItemCount;
-@property(nonatomic) _Bool prefetchScheduled; // @synthesize prefetchScheduled=_prefetchScheduled;
-@property(nonatomic) long long refreshPrefetchThresholdCount; // @synthesize refreshPrefetchThresholdCount=_refreshPrefetchThresholdCount;
-@property(copy, nonatomic) CDUnknownBlockType requestHandler; // @synthesize requestHandler=_requestHandler;
 
 @end
 

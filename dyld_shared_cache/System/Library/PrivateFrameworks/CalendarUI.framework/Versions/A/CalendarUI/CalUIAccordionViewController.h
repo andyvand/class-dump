@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CalUIFastStackView, NSLayoutConstraint, NSLayoutGuide, NSView;
+@class NSView;
 @protocol CalUIAccordionViewControllerDelegate;
 
 @interface CalUIAccordionViewController
 {
     id <CalUIAccordionViewControllerDelegate> _delegate;
-    long long _orientation;
-    long long _level;
-    double _viewSize;
-    double _indexAndOffset;
-    NSView *_scrollHandleView;
-    CalUIFastStackView *_overlayStackView;
-    NSView *_effectsView;
-    CalUIFastStackView *_stackView;
-    long long _indexOfLeadingView;
-    long long _levelOfLeadingView;
-    NSLayoutConstraint *_centerViewAlignmentConstraint;
-    NSLayoutGuide *_centerViewOffsetGuide;
-    NSLayoutConstraint *_centerViewSizeConstraint;
 }
 
 - (id);
@@ -32,51 +19,51 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)a;
+- (void);
 - (long long);
-- (long long);
+- (long long)E;
 - (void);
 - (long long);
 - (double);
 - (double);
 - (long long);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (double);
-- (long long);
-- (void);
-- (void);
-- (long long);
-- (_Bool);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (long long);
-- (void);
-- (double);
-- (void);
-- (id);
+- (id)H;
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (void);
+- (double);
 - (long long);
+- (void);
+- (void);
+- (long long)4;
+- (_Bool)b;
+- (long long);
+- (long long);
+- (long long);
+- (long long);
+- (long long);
+- (void);
+- (double);
+- (void);
+- (id);
 - (id);
 - (void);
+- (void);
+- (void);
+- (id);
+- (void)@;
+- (long long)0;
+- (id);
+- (void)(8);
 - (void);
 - (void)!@ùqÃ#Ð1Â0@ù
 × ;
@@ -85,20 +72,7 @@
 - (long long)ÿwÀ~Á;
 
 // Remaining properties
-@property(retain) NSLayoutConstraint *centerViewAlignmentConstraint; // @synthesize centerViewAlignmentConstraint=_centerViewAlignmentConstraint;
-@property(retain) NSLayoutGuide *centerViewOffsetGuide; // @synthesize centerViewOffsetGuide=_centerViewOffsetGuide;
-@property(retain) NSLayoutConstraint *centerViewSizeConstraint; // @synthesize centerViewSizeConstraint=_centerViewSizeConstraint;
-@property __weak id <CalUIAccordionViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSView *effectsView; // @synthesize effectsView=_effectsView;
-@property(nonatomic) double indexAndOffset; // @synthesize indexAndOffset=_indexAndOffset;
-@property long long indexOfLeadingView; // @synthesize indexOfLeadingView=_indexOfLeadingView;
-@property(nonatomic) long long level; // @synthesize level=_level;
-@property long long levelOfLeadingView; // @synthesize levelOfLeadingView=_levelOfLeadingView;
-@property long long orientation; // @synthesize orientation=_orientation;
-@property(retain) CalUIFastStackView *overlayStackView; // @synthesize overlayStackView=_overlayStackView;
 @property(retain) NSView *scrollHandleView; // @synthesize scrollHandleView=_scrollHandleView;
-@property(retain) CalUIFastStackView *stackView; // @synthesize stackView=_stackView;
-@property(nonatomic) double viewSize; // @synthesize viewSize=_viewSize;
 
 @end
 

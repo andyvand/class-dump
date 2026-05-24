@@ -11,7 +11,7 @@
 }
 
 - (id);
-- (void)dentifier;
+- (void)identifier;
 - (id)@Ú¼ÿHÖÊj;
 - (void)líþÑËªl;
 

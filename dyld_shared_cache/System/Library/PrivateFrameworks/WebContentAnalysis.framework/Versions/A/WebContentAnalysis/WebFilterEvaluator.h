@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableData, NSURL;
-
 @interface WebFilterEvaluator
 {
     unsigned long long _filterState;
-    NSURL *_url;
-    NSMutableData *_buffer;
 }
 
 + (id);
@@ -20,9 +16,9 @@
 - (int);
 - (id);
 - (id);
-- (id);
+- (id)(;
 - (void);
-- (id);
+- (id)T;
 
 @end
 

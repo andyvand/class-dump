@@ -4,59 +4,47 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXImageCaptionModel, MAAsset, NSDictionary, NSNumber, NSString, NSURL;
+@class NSNumber, NSString;
 
 @interface AXAsset
 {
     NSNumber *_cachedComputedOnDiskSize;
-    _Bool _didAttachProgressHandler;
-    _Bool _isInstalled;
-    _Bool _isDownloading;
-    NSString *_assetId;
-    NSString *_assetType;
-    unsigned long long _contentVersion;
-    unsigned long long _compatibilityVersion;
-    unsigned long long _formatVersion;
-    NSDictionary *_properties;
-    NSURL *_originalURL;
-    NSURL *_localCopyURL;
-    MAAsset *_maAsset;
 }
 
 + (id);
++ (id)um_mid_sideLocks_HIGHLIGHTS.heic;
 + (id);
-+ (id);
-+ (id);
++ (id)Vinyl server signing is enabled...;
 + (id);
 + (id);
 + (_Bool);
 - (id);
-- (void);
+- (void)^�;
 - (void);
 - (void);
 - (id);
 - (_Bool);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
+- (_Bool);
+- (id);
+- (id);
+- (id)gle.nl;
+- (id)c;
+- (id);
+- (void)_createMediaRemoteLanguageOptionGroupWithAVMediaSelectionOptions:(id)arg1;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)protectionSpace;
+- (void)requested, status=%d.;
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -66,24 +54,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *assetId; // @synthesize assetId=_assetId;
-@property(readonly, nonatomic) NSString *assetType; // @synthesize assetType=_assetType;
 @property(readonly, nonatomic) NSString *characterVoiceLanguage;
-@property(readonly, nonatomic) NSString *characterVoiceName;
-@property(readonly, nonatomic) unsigned long long compatibilityVersion; // @synthesize compatibilityVersion=_compatibilityVersion;
-@property(readonly, nonatomic) NSNumber *computedOnDiskSize;
-@property(readonly, nonatomic) unsigned long long contentVersion; // @synthesize contentVersion=_contentVersion;
-@property(readonly, nonatomic) NSNumber *downloadSize;
-@property(readonly, nonatomic) unsigned long long formatVersion; // @synthesize formatVersion=_formatVersion;
-@property(readonly, nonatomic) AXImageCaptionModel *imageCaptionModel;
-@property(readonly, nonatomic) _Bool isDownloading; // @synthesize isDownloading=_isDownloading;
-@property(readonly, nonatomic) _Bool isInstalled; // @synthesize isInstalled=_isInstalled;
-@property(retain, nonatomic) NSURL *localCopyURL; // @synthesize localCopyURL=_localCopyURL;
-@property(readonly, nonatomic) NSURL *localURL;
-@property(readonly, nonatomic) MAAsset *maAsset; // @synthesize maAsset=_maAsset;
-@property(retain, nonatomic) NSURL *originalURL; // @synthesize originalURL=_originalURL;
-@property(readonly, nonatomic) NSDictionary *properties; // @synthesize properties=_properties;
-@property(readonly, nonatomic) NSNumber *unarchivedFileSize;
 
 @end
 

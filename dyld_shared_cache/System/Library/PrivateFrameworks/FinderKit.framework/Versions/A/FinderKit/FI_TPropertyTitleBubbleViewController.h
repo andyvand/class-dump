@@ -6,19 +6,12 @@
 
 #import <FinderKit/FI_IPropertyValueController.h>
 
-@class FI_TInlineProgressView, FI_TTitleBubbleView, NSDictionary, NSImage, NSView;
+@class FI_TTitleBubbleView, NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface FI_TPropertyTitleBubbleViewController : FI_IPropertyValueController
 {
     NSDictionary *_titleAttributes;
-    struct TProgressStateAggregator _progressStateAggregator;
-    struct TTitleViewBadgeConfigurator _badgeConfigurator;
-    FI_TInlineProgressView *_progressView;
-    NSImage *_screenTimeBadge;
-    NSView *_badgePlaceHolderView;
-    struct TFENode _singularSelection;
-    long long _textAlignment;
 }
 
 + (id);
@@ -37,7 +30,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (_Bool)ViewController: /* Error: Ran out of types for this method. */;
+- (_Bool)splitViewItemWithViewController: /* Error: Ran out of types for this method. */;
 - (void)Ð;
 - (void)@¼;
 - (id)ì|;
@@ -45,7 +38,6 @@ __attribute__((visibility("hidden")))
 - (void)N4fstd16callable_details15callable_holderIZZ21ImageForISIconAndSpecP6ISIconRK13IconImageSpecONS_15unique_functionIFvP7NSImageEEE12IconTypeHintbP5NSURLEN3$_0clEvEUlvE_vJEEE;
 
 // Remaining properties
-@property(nonatomic) long long textAlignment; // @synthesize textAlignment=_textAlignment;
 @property(readonly, retain, nonatomic) FI_TTitleBubbleView *titleView;
 
 @end

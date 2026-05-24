@@ -6,17 +6,12 @@
 
 #import <AVKit/AVContainerStyleSheet.h>
 
-@class AVPlaybackControlsContainerStyleSheet, AVVolumeControlSliderStyleSheet;
+@class AVPlaybackControlsContainerStyleSheet;
 
 __attribute__((visibility("hidden")))
 @interface AVInlinePlaybackControlsViewStyleSheet : AVContainerStyleSheet
 {
     AVPlaybackControlsContainerStyleSheet *_controlsStyleSheet;
-    AVContainerStyleSheet *_timelineControlsStyleSheet;
-    AVContainerStyleSheet *_auxiliaryControlsStyleSheet;
-    AVContainerStyleSheet *_displayModeControlsStyleSheet;
-    AVVolumeControlSliderStyleSheet *_volumeControlsStyleSheet;
-    struct NSEdgeInsets _contentMargin;
 }
 
 - (id);
@@ -25,16 +20,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (struct NSEdgeInsets);
-- (id);
+- (id)od:"baseURI"})),ReaderJS.loadSerializedArticle(await readerViewMessageHandler.postMessage({command:"callArticleFinder",method:"serializableArticle"})),e()}),!1);
+0; /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) AVContainerStyleSheet *auxiliaryControlsStyleSheet; // @synthesize auxiliaryControlsStyleSheet=_auxiliaryControlsStyleSheet;
-@property(readonly, nonatomic) struct NSEdgeInsets contentMargin; // @synthesize contentMargin=_contentMargin;
 @property(readonly, nonatomic) AVPlaybackControlsContainerStyleSheet *controlsStyleSheet; // @synthesize controlsStyleSheet=_controlsStyleSheet;
-@property(readonly, nonatomic) AVContainerStyleSheet *displayModeControlsStyleSheet; // @synthesize displayModeControlsStyleSheet=_displayModeControlsStyleSheet;
-@property(readonly, nonatomic) AVContainerStyleSheet *timelineControlsStyleSheet; // @synthesize timelineControlsStyleSheet=_timelineControlsStyleSheet;
-@property(readonly, nonatomic) AVVolumeControlSliderStyleSheet *volumeControlsStyleSheet; // @synthesize volumeControlsStyleSheet=_volumeControlsStyleSheet;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface _MLCANENeuronParameters
 {
     int _type;
-    NSArray *_neuronParams;
 }
 
 + (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSArray *neuronParams; // @synthesize neuronParams=_neuronParams;
-@property(readonly, nonatomic) int type; // @synthesize type=_type;
 
 @end
 

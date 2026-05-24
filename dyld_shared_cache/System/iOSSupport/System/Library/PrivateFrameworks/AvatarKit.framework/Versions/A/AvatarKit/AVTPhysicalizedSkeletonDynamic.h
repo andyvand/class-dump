@@ -4,36 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, VFXNode;
-
 __attribute__((visibility("hidden")))
 @interface AVTPhysicalizedSkeletonDynamic
 {
     float _simulationFactor;
-    VFXNode *_referenceNode;
-    VFXNode *_drivingNode;
-    VFXNode *_rootJoint;
-    NSArray *_targetNodes;
-    id _upDownRotation;
-    id _leftRightRotation;
-    id _forwardBackRotation;
-    unsigned long long _side;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)difference_from_solution_to_check_against check failed, difference, %.2lf, tolerance, %.2lf,consistency, %.2lf, threshold, %.2lf, solution_to_check_against_position_unc, %.2f, sol_position_unc, %.2f.Exiting with check failed return value.;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

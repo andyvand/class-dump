@@ -11,7 +11,7 @@
 }
 
 + (id)c}s] Failed to expire:%@ /* Error: Ran out of types for this method. */;
-- (id);
+- (id)longLongValue;
 - (id);
 
 @end

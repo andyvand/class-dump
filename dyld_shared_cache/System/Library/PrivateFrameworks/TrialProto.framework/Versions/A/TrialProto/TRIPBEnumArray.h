@@ -9,16 +9,12 @@
 @interface TRIPBEnumArray
 {
     TRIPBMessage *_autocreator;
-    CDUnknownFunctionPointerType _validationFunc;
-    int *_values;
-    unsigned long long _count;
-    unsigned long long _capacity;
 }
 
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 - (void);
 - (int);
@@ -31,14 +27,14 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)V_isAppAndWebsiteActivityEnabled;
+- (id);
 - (CDUnknownFunctionPointerType);
 - (void);
-- (id);
+- (id)`;
 - (unsigned long long);
 - (id);
-- (void);
+- (void)ition",&,N,V_proxyObject;
 - (id);
 - (void);
 - (void);
@@ -47,14 +43,13 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (void);
+- (void)TRITripersistedNamespaceStatusRoot;
 - (void)s"Q"currentLimit"Q"lastTag"i"recursionDepth"Q};
 - (int)ng",R;
-- (void)tiveMailIntelligenceSaliency;
+- (void)ProactiveMailIntelligenceSaliency;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long count; // @synthesize count=_count;
-@property(readonly, nonatomic) CDUnknownFunctionPointerType validationFunc; // @synthesize validationFunc=_validationFunc;
 
 @end
 

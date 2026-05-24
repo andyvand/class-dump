@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface PDFAccessibilityNodeTableCell : PDFAccessibilityNode
 {
     struct _NSRange _columnIndexRange;
-    struct _NSRange _rowIndexRange;
 }
 
 - (_Bool);
@@ -19,9 +18,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (struct _NSRange);
-- (id);
-- (struct _NSRange);
-- (id);
+- (id)xtendedMACAddress;
+- (struct _NSRange)surroundSystem;
+- (id)t _handleLocationAuthorizationUpdatedNotification:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);

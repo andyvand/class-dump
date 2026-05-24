@@ -7,17 +7,6 @@
 @interface ConversationKit.ShutterModel
 {
     id maxTime;
-    id _targetPercentComplete;
-    id _isActive;
-    id _mode;
-    id _diameter;
-    id _lineThickness;
-    id _gapWidth;
-    id _actualPercentComplete;
-    id _showsProgress;
-    id _percentComplete;
-    id timerSink;
-    id timerUpdateInterval;
 }
 
 @end

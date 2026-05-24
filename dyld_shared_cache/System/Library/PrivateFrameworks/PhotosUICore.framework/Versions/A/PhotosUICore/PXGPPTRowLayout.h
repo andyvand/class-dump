@@ -7,19 +7,17 @@
 @interface PXGPPTRowLayout
 {
     long long _numberOfItems;
-    double _hue;
 }
 
 - (id);
 - (struct CGSize);
+- (id);
 - (id);
-- (id);
-- (double);
+- (double)>"8;
 - (id);
 - (long long)track:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double hue; // @synthesize hue=_hue;
 @property(readonly, nonatomic) long long numberOfItems; // @synthesize numberOfItems=_numberOfItems;
 
 @end

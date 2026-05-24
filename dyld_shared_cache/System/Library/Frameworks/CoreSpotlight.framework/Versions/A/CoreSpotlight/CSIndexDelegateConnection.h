@@ -12,8 +12,8 @@
 
 + (id);
 - (id);
-- (void);
-- (void);
+- (void)kCFCharacterSetLowercaseLetter;
+- (void)B;
 - (id);
 
 @end

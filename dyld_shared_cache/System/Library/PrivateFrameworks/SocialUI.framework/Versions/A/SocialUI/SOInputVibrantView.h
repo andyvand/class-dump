@@ -9,7 +9,6 @@
 @interface SOInputVibrantView
 {
     _Bool _drawBorder;
-    NSVisualEffectView *_blurView;
 }
 
 - (void);
@@ -22,13 +21,12 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)H;
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSVisualEffectView *blurView; // @synthesize blurView=_blurView;
-@property(nonatomic) _Bool drawBorder; // @synthesize drawBorder=_drawBorder;
 
 @end
 

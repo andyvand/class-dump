@@ -10,19 +10,16 @@ __attribute__((visibility("hidden")))
 @interface NSDebugMenuUserDefaultController
 {
     NSString *_defaultName;
-    _Bool _defaultValue;
-    CDUnknownBlockType _dynamicSetter;
-    CDUnknownBlockType _dynamicGetter;
 }
 
-+ (id);
-+ (id);
-- (id);
++ (id))) == kCFStreamStatusNotOpen;
++ (id)BytesSent >= 0;
+- (id)nloadSessionIdentifier:(id)arg1 identifier:(_Bool)arg2 uniqueIdentifier:(CDUnknownBlockType)arg3 reply:(CDUnknownBlockType)arg4;
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)@�?;
 - (_Bool)ÿ:(id)arg1 üóF;
 
 // Remaining properties

@@ -6,49 +6,38 @@
 
 #import <AnnotationKit/AKAnnotation.h>
 
-@class NSString, PKDrawing;
+@class PKDrawing;
 
 @interface AKInkAnnotation : AKAnnotation
 {
     PKDrawing *_drawing;
-    struct CGSize _drawingSize;
-    struct CGRect _rectangle;
 }
 
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (_Bool);
++ (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (struct CGRect);
+- (void)d;
 - (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (struct CGSize);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (struct CGRect);
-- (id);
+- (id)rUIKit.dateStrings.formattersByTemplate;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) PKDrawing *drawing; // @synthesize drawing=_drawing;
-@property struct CGSize drawingSize; // @synthesize drawingSize=_drawingSize;
-@property(readonly) unsigned long long hash;
 @property struct CGRect rectangle; // @synthesize rectangle=_rectangle;
-@property(readonly) Class superclass;
 
 @end
 

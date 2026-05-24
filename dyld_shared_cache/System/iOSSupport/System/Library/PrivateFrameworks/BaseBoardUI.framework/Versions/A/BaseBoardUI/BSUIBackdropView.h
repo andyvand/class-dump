@@ -7,10 +7,6 @@
 @interface BSUIBackdropView
 {
     double _transitionProgress;
-    double _initialScale;
-    double _finalScale;
-    double _scaleForNoBlur;
-    double _rasterizationScale;
 }
 
 - (void);
@@ -22,7 +18,6 @@
 - (double);
 
 // Remaining properties
-@property(nonatomic) double rasterizationScale; // @synthesize rasterizationScale=_rasterizationScale;
 @property(nonatomic) double scaleForNoBlur; // @synthesize scaleForNoBlur=_scaleForNoBlur;
 
 @end

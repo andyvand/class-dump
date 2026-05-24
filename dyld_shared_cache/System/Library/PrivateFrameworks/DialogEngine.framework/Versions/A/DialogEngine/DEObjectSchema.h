@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface DEObjectSchema
 {
     shared_ptr_5311c20d _This;
@@ -28,9 +26,6 @@
 
 // Remaining properties
 @property shared_ptr_5311c20d This; // @synthesize This=_This;
-@property(readonly) NSString *baseObject;
-@property(readonly) NSString *description;
-@property(readonly) NSString *name;
 
 @end
 

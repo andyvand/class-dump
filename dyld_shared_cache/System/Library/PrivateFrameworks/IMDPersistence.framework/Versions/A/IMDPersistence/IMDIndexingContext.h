@@ -4,29 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSNumber;
-
 @interface IMDIndexingContext
 {
     _Bool _reindexing;
-    _Bool _preflight;
-    _Bool _ignoreRejections;
-    _Bool _ignoreThrottle;
-    _Bool _forceDeferral;
-    _Bool _needsTimeSensitiveEvaluation;
-    long long _reason;
-    NSNumber *_bgstLane;
-    unsigned long long _cachedEffectiveMigrationRequirements;
-    unsigned long long _migrationRequirements;
-    NSNumber *_laneOverride;
-    NSArray *_additionalReasons;
-    NSDictionary *_chatMetadata;
 }
 
 + (id);
 + (id);
 + (_Bool);
-- (unsigned char);
+- (unsigned char);
+- (void);
+- (void);
+- (void);
+- (void)9;
 - (void);
 - (void);
 - (void);
@@ -34,29 +24,25 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (id)";
+- (_Bool);
+- (id);
+- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)˿;
 - (id);
 - (id);
 - (void);
@@ -67,9 +53,9 @@
 - (void);
 - (_Bool);
 - (long long);
-- (id);
+- (id)GSize=dd}},R,N;
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -79,24 +65,7 @@ INNER JOIN chat_message_join cmj ON cmj.chat_id = c.rowid
 WHERE;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *additionalReasons; // @synthesize additionalReasons=_additionalReasons;
-@property(retain, nonatomic) NSNumber *bgstLane; // @synthesize bgstLane=_bgstLane;
 @property(nonatomic) unsigned long long cachedEffectiveMigrationRequirements; // @synthesize cachedEffectiveMigrationRequirements=_cachedEffectiveMigrationRequirements;
-@property(retain, nonatomic) NSDictionary *chatMetadata; // @synthesize chatMetadata=_chatMetadata;
-@property(readonly, nonatomic) unsigned long long effectiveMigrationRequirements;
-@property(nonatomic) _Bool forceDeferral; // @synthesize forceDeferral=_forceDeferral;
-@property(nonatomic) _Bool ignoreRejections; // @synthesize ignoreRejections=_ignoreRejections;
-@property(nonatomic) _Bool ignoreThrottle; // @synthesize ignoreThrottle=_ignoreThrottle;
-@property(readonly, nonatomic) _Bool indexesTextContent;
-@property(retain, nonatomic) NSNumber *laneOverride; // @synthesize laneOverride=_laneOverride;
-@property(readonly, nonatomic) _Bool mayUpdateUI;
-@property(nonatomic) unsigned long long migrationRequirements; // @synthesize migrationRequirements=_migrationRequirements;
-@property(nonatomic) _Bool needsTimeSensitiveEvaluation; // @synthesize needsTimeSensitiveEvaluation=_needsTimeSensitiveEvaluation;
-@property(nonatomic) _Bool preflight; // @synthesize preflight=_preflight;
-@property(nonatomic) long long reason; // @synthesize reason=_reason;
-@property(readonly, nonatomic) _Bool reindexesFullMessages;
-@property(nonatomic, getter=isReindexing) _Bool reindexing; // @synthesize reindexing=_reindexing;
-@property(readonly, nonatomic) _Bool runningViaBGST; // @dynamic runningViaBGST;
 
 @end
 

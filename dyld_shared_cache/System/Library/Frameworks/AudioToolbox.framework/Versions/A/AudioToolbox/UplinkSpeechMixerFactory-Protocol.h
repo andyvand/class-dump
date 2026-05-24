@@ -5,10 +5,9 @@
 //
 
 @protocol UplinkSpeechMixerFactory
+- (struct AudioStreamBasicDescription);
 
 // Remaining properties
-@property(nonatomic) unsigned int maximumFramesPerSlice;
 @property(nonatomic) struct AudioStreamBasicDescription streamDescription;
-@property(nonatomic) int version;
 @end
 

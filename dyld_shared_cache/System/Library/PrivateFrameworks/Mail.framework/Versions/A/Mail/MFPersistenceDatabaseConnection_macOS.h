@@ -9,16 +9,13 @@
 @interface MFPersistenceDatabaseConnection_macOS
 {
     NSArray *_searchContext;
-    _Bool _databaseIsRemote;
-    _Bool _needsUnreadCountUpdate;
-    double _busyStartTime;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (double);
-- (_Bool);
+- (_Bool)A;
 - (unsigned int);
 - (void);
 - (_Bool);
@@ -29,13 +26,12 @@
 - (int);
 - (_Bool);
 - (unsigned int);
-- (void);
+- (void);
 - (void)$0;
 - (void)±;
 
 // Remaining properties
 @property(nonatomic) double busyStartTime; // @synthesize busyStartTime=_busyStartTime;
-@property(nonatomic) _Bool needsUnreadCountUpdate; // @synthesize needsUnreadCountUpdate=_needsUnreadCountUpdate;
 
 @end
 

@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSMutableSet, NSString;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface ACDKeychainItem
 {
     NSMutableDictionary *_properties;
-    NSMutableSet *_dirtyProperties;
-    struct __CFData *_persistentRef;
 }
 
 + (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)Gt;
 - (long long);
-- (id);
-- (id);
+- (id)AUDIOCALL_ACTION_TYPE_ACCESSIBILITY_LABEL;
+- (id)zHl	;
 - (_Bool);
 - (id);
 - (struct __CFData *);
@@ -29,10 +27,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id);
-- (void);
+- (id)@16^{ODILayoutNodeState=@B}24;
+- (void)newSequentialTimeNodeGroupForAnimationInfoWithClass:(long long)arg1;
+- (id)newCGDataProviderForInputStream: /* Error: Ran out of types for this method. */;
+- (void)r/compatibility/Common/Utilities/TCDump.mm;
 - (id);
 - (_Bool);
 - (id);
@@ -41,26 +39,17 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void),;
 - (id);
 - (void);
-- (id);
+- (id)h2_9;
 - (void);
-- (void)ource:ofType: /* Error: Ran out of types for this method. */;
-- (void)eNumber:(id)arg1 description: /* Error: Ran out of types for this method. */;
+- (void)pathForResource:ofType: /* Error: Ran out of types for this method. */;
+- (void)handleFailureInMethod:(id)arg1 object:file:lineNumber:description: /* Error: Ran out of types for this method. */;
 - (void)rate keychain items to version %@. Error:(id)arg1 %@";
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessGroup;
-@property(copy, nonatomic) NSString *accessibility;
-@property(copy, nonatomic) NSString *account;
-@property(readonly, nonatomic) _Bool hasCustomAccessControl;
-@property(copy, nonatomic) NSDictionary *metadata;
 @property(readonly, nonatomic) struct __CFData *persistentRef; // @synthesize persistentRef=_persistentRef;
-@property(copy, nonatomic) NSString *service;
-@property(nonatomic) _Bool synchronizable;
-@property(readonly, nonatomic) _Bool useDataProtectionKeychain;
-@property(nonatomic) long long version;
 
 @end
 

@@ -12,9 +12,6 @@ __attribute__((visibility("hidden")))
 @interface HMDBackingStoreCacheFetchMigratedResult : HMDBackingStoreOperation
 {
     _Bool _update;
-    _Bool _migration;
-    HMDBackingStoreCacheGroup *_group;
-    CDUnknownBlockType _fetchResult;
 }
 
 - (id);
@@ -28,10 +25,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType fetchResult; // @synthesize fetchResult=_fetchResult;
 @property(retain, nonatomic) HMDBackingStoreCacheGroup *group; // @synthesize group=_group;
-@property(readonly) _Bool migration; // @synthesize migration=_migration;
-@property(readonly) _Bool update; // @synthesize update=_update;
 
 @end
 

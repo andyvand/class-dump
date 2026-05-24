@@ -10,14 +10,13 @@
 @interface CDPLocalDeviceSecretHandler
 {
     id <CDPLocalDeviceSecretHandlerProtocol> _handlerProxy;
-    CDPContext *_context;
 }
 
 - (void);
 - (void);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)b;
 
 // Remaining properties
 @property(readonly, nonatomic) CDPContext *context; // @synthesize context=_context;

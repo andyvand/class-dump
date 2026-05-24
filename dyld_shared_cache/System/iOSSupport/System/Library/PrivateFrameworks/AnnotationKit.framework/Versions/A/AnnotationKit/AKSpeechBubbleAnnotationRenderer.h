@@ -10,7 +10,7 @@
 {
 }
 
-+ (double);
++ (double)LO;
 + (void);
 + (struct CGPath *);
 + (struct CGPath *);

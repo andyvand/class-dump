@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSecurityScopedURLWrapper, NSString;
+@class NSString;
 
 @interface STMIconConstructor
 {
     long long _type;
-    NSString *_string;
-    NSSecurityScopedURLWrapper *_fileURLWrapper;
 }
 
-+ (_Bool);
++ (_Bool);
 - (void);
 - (id);
+- (id)h;
 - (id);
 - (id);
 - (id);
-- (id);
-- (long long);
+- (long long)selectedGlassGradient;
 - (void);
 - (id);
-- (void);
+- (void)tains one or more ligature private code points;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) NSSecurityScopedURLWrapper *fileURLWrapper; // @synthesize fileURLWrapper=_fileURLWrapper;
 @property(copy) NSString *string; // @synthesize string=_string;
-@property(readonly) long long type; // @synthesize type=_type;
 
 @end
 

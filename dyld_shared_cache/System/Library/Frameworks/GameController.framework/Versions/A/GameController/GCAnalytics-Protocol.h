@@ -5,5 +5,7 @@
 //
 
 @protocol GCAnalytics
+- (void)";
+- (void);
 @end
 

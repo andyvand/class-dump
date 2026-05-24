@@ -5,5 +5,6 @@
 //
 
 @protocol _DASBGSystemTaskDataCollectionServer
+- (void);
 @end
 

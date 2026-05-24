@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLLocation, CLLocationManager, NSDate, NSError, NSMutableArray, NSString, NSTimer;
+@class CLLocation;
 
 @interface IMLocationManager
 {
     _Bool _inRequestPreciseLocation;
-    _Bool _firstAuthorizationCallbackArrived;
-    int _authorizationStatus;
-    NSMutableArray *_handlers;
-    CLLocationManager *_locationManager;
-    NSError *_error;
-    NSDate *_locateStartTime;
-    NSTimer *_locationUpdateTimer;
-    CLLocation *_location;
 }
 
 + (Class);
 + (id);
 + (id);
+- (void)dx;
+- (void);
+- (void);
+- (void)`;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)";
 - (id);
 - (_Bool);
 - (_Bool);
@@ -37,17 +29,17 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (void);
+- (void)(!;
+- (void);
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
+- (id)H;
 - (id);
 - (void);
+- (void);
+- (id);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -55,7 +47,7 @@
 - (id)Ã
 ð!AùÑîÐ1Â0@ù
 × ;
-- (int)rSiblingChats: /* Error: Ran out of types for this method. */;
+- (int)setHasQueriedForSiblingChats: /* Error: Ran out of types for this method. */;
 - (id)	
 ;
 - (void)ñüñ4óÌô°ö$÷8ø ùüû¼ýP;
@@ -63,26 +55,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) int authorizationStatus; // @synthesize authorizationStatus=_authorizationStatus;
-@property(readonly, copy, nonatomic) CLLocation *currentLocation;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) _Bool firstAuthorizationCallbackArrived; // @synthesize firstAuthorizationCallbackArrived=_firstAuthorizationCallbackArrived;
-@property(retain, nonatomic) NSMutableArray *handlers; // @synthesize handlers=_handlers;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool inRequestPreciseLocation; // @synthesize inRequestPreciseLocation=_inRequestPreciseLocation;
-@property(retain, nonatomic) NSDate *locateStartTime; // @synthesize locateStartTime=_locateStartTime;
 @property(retain, nonatomic) CLLocation *location; // @synthesize location=_location;
-@property(readonly, nonatomic) _Bool locationAuthorizationDenied;
-@property(readonly, nonatomic) _Bool locationAuthorizationDetermined;
-@property(retain, nonatomic) CLLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(retain, nonatomic) NSTimer *locationUpdateTimer; // @synthesize locationUpdateTimer=_locationUpdateTimer;
-@property(readonly, nonatomic) _Bool preciseLocationAuthorized;
-@property(readonly) Class superclass;
 
 @end
 

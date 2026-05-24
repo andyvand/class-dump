@@ -6,7 +6,7 @@
 
 #import <Security/SFSQLite.h>
 
-@class NSArray, NSDate, NSString;
+@class NSArray;
 
 @interface SFAnalyticsSQLiteStore : SFSQLite
 {
@@ -21,36 +21,29 @@
 - (void);
 - (id);
 - (id);
+- (id)0;
+- (id);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (long long);
 - (void);
 - (long long);
-- (void);
-- (long long);
 - (id);
 - (id);
-- (void);
+- (void)R(;
 - (void);
 - (_Bool);
 - (void)to wrap unlock key:(id)arg1 %{public}@;
 
 // Remaining properties
-@property(readonly) NSArray *allEvents;
-@property(readonly) NSString *databaseBasename;
 @property(readonly) NSArray *hardFailures;
-@property(retain) NSString *metricsAccountID;
-@property(readonly) NSArray *rockwells;
-@property(readonly) NSArray *samples;
-@property(readonly) NSArray *softFailures;
-@property(retain) NSDate *uploadDate;
 
 @end
 

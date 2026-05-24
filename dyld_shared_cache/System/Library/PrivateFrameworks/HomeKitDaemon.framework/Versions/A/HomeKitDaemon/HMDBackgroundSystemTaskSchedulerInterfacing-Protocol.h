@@ -8,6 +8,6 @@
 @protocol OS_dispatch_queue;
 
 @protocol HMDBackgroundSystemTaskSchedulerInterfacing
-- (_Bool)tatus:(NSString *)arg1 iCloudAccountStatus:(NSObject<OS_dispatch_queue> *)arg2 unsupportedDevices:(void (^)(id <HMDBackgroundSystemTask>))arg3 hasOnlyEmptyHomes:numberOwnedNonEmptyHomes:numberUnownedSharedHomes:numberOwnedSharedHomes: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithStatus:(NSString *)arg1 iCloudAccountStatus:(NSObject<OS_dispatch_queue> *)arg2 unsupportedDevices:(void (^)(id <HMDBackgroundSystemTask>))arg3 hasOnlyEmptyHomes:numberOwnedNonEmptyHomes:numberUnownedSharedHomes:numberOwnedSharedHomes: /* Error: Ran out of types for this method. */;
 @end
 

@@ -11,10 +11,10 @@
 
 + (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long)_modelQualityType;
+- (id)"NSString",&,V_presetName;
 - (id);
-- (id);
-- (void);
+- (void)c_object>"16;
 
 // Remaining properties
 @property unsigned long long uiStatus; // @synthesize uiStatus=_uiStatus;

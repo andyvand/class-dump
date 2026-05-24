@@ -6,48 +6,31 @@
 
 #import <Slideshows/MREffect.h>
 
-@class MRCAMLBezierData, NSDictionary, NSMutableArray, NSMutableDictionary;
+@class NSMutableDictionary;
 
 @interface MREffectHyperGrid : MREffect
 {
     NSMutableDictionary *mSprites;
-    NSMutableArray *mLayouts;
-    long long mSlideStartIndex;
-    long long mIterationStartIndex;
-    long long mLastSlideIndex;
-    long long mLastIteration;
-    MRCAMLBezierData *mCurves[2];
-    MRCAMLBezierData *mBreakCurves[2];
-    _Bool mNeedsToRecalculateIterations;
-    double mAspectRatio;
-    NSDictionary *mBreakInformation;
-    long long mLastUsableIteration;
-    long long mLastIterationsAdded[2];
-    _Bool mCanAddSlides;
-    long long mIdealSlideCount;
-    _Bool mAspectRatioDidChange;
-    _Bool mSyncsToMusic;
-    long long _currentIterationIndex;
 }
 
 + (id);
 + (_Bool);
+- (_Bool)ncedCounter";
+- (double)SURLAuthenticationChallenge"32@?<v@?q@"NSURLCredential">40;
+- (double)32@"NSURLRequest"40@?<v@?@"NSURLRequest">48;
+- (void)countryCode;
 - (_Bool);
-- (double);
-- (double);
-- (void);
 - (_Bool);
-- (_Bool);
-- (double);
+- (double)pesAsRetainedForUploadRetry:] /* Error: Ran out of types for this method. */;
+- (id)esUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAppConfigAnalyticsPayloadAssemblerConfigProvider.m;
+- (void)lue for '%s';
+- (double)a local failure reason!;
+- (double)point:(id)arg1 ]_block_invoke;
 - (id);
-- (void);
-- (double);
-- (double);
-- (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)FCEndpointEnvironment;
+- (_Bool)NewsAnalyticsUpload;
 - (id);
 - (unsigned long long);
 - (id);
@@ -57,8 +40,8 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)F;
+- (void)p;
 - (struct CGSize);
 - (struct CGPoint);
 - (double);
@@ -74,12 +57,10 @@
 - (void);
 - (_Bool);
 - (void);
-- (void)PlugForContainer:atIndex: /* Error: Ran out of types for this method. */;
+- (void)insertPlugForContainer:atIndex: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) double mainDuration; // @dynamic mainDuration;
 @property(readonly, nonatomic) double phaseInDuration; // @dynamic phaseInDuration;
-@property(readonly, nonatomic) double phaseOutDuration; // @dynamic phaseOutDuration;
 
 @end
 

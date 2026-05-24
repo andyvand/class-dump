@@ -4,7 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
 @protocol CRKASMRosterProviding;
 
 @interface CRKASMRosterBackedAppleIDProvider
@@ -18,7 +17,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *appleID;
 @property(readonly, nonatomic) id <CRKASMRosterProviding> rosterProvider; // @synthesize rosterProvider=_rosterProvider;
 
 @end

@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface ICEResultWaitQueue
 {
     NSMutableArray *queryList;
-    struct _opaque_pthread_cond_t resCond;
-    struct _opaque_pthread_mutex_t resMutex;
 }
 
 - (id);

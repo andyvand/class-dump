@@ -4,24 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UILabel;
+@class UILabel;
 
 __attribute__((visibility("hidden")))
 @interface CNPhotoPickerTrapView
 {
     UILabel *_label;
-    NSArray *_constraints;
 }
 
 - (void);
 - (id);
 - (id);
-- (id);
-- (void):(id)arg1;
-- (void)ginalImage;
+- (id)taskThreadsWithList:(struct CGRect)arg1 listCnt:error: /* Error: Ran out of types for this method. */;
+- (void)setAvatarCarouselViewController:(id)arg1;
+- (void)_originalImage;
 
 // Remaining properties
-@property(retain) NSArray *constraints; // @synthesize constraints=_constraints;
 @property(retain, nonatomic) UILabel *label; // @synthesize label=_label;
 
 @end

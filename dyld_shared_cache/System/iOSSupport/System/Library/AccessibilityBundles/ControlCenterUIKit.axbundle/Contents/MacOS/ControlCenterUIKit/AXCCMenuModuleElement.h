@@ -10,12 +10,12 @@
     CDUnknownBlockType _provider;
 }
 
-- (_Bool);
+- (_Bool);
 - (id);
 - (struct CGRect);
 - (id);
 - (unsigned long long);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)_SFMultipleLineAlertActionViewAccessibility;
 - (long long);
 - (void);
 - (void);

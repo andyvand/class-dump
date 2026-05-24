@@ -4,35 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, PBUnknownFields;
+@class NSDate, PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDDepartureFrequency
 {
     PBUnknownFields *_unknownFields;
-    unsigned int _displayDepartureFrequency;
-    unsigned int _earliestDepartureTime;
-    unsigned int _latestDepartureTime;
-    unsigned int _maxDepartureFrequency;
-    unsigned int _minDepartureFrequency;
-    _Bool _isEstimated;
-    struct {
-        unsigned int has_displayDepartureFrequency:1;
-        unsigned int has_earliestDepartureTime:1;
-        unsigned int has_latestDepartureTime:1;
-        unsigned int has_maxDepartureFrequency:1;
-        unsigned int has_minDepartureFrequency:1;
-        unsigned int has_isEstimated:1;
-    } _flags;
 }
 
-+ (_Bool);
++ (_Bool)setHasZ:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)&=;
 - (void);
 - (void);
 - (void);
@@ -53,7 +39,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (long long);
 - (double);
-- (id);
+- (id)`;
 - (unsigned int);
 - (long long);
 - (unsigned int);
@@ -62,50 +48,23 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)jH;
+- (void)eviceTurnedOn:(id)arg1 ];
 - (id);
-- (unsigned long long);
+- (unsigned long long)R;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)ocalitiesAndLandmarks";
-- (_Bool)mmary;
-- (id)ier;
+- (_Bool)requestRouteSummary;
+- (id)_contactIdentifier;
 - (id)@4 lDdô	Xl;
-- (id)ACTIVE_TYPE_VEHICLEADVERTISEMENT;
+- (id)PROACTIVE_TYPE_VEHICLEADVERTISEMENT;
 - (void)Ëÿÿÿÿÿÿÿêÿÿÿöÿÿÿâÿÿÿéÿÿÿëÿÿÿåÿÿÿ÷ÿÿÿýÿÿÿàÿÿÿÿÿÿÿÜÿÿÿÿÿÿÿÖÿÿÿÿÿÿÿÝÿÿÿÿÿÿÿÚÿÿÿÿÿÿÿÙÿÿÿÿÿÿÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned int displayDepartureFrequency;
-@property(readonly, nonatomic) long long displayFrequency;
-@property(nonatomic) unsigned int earliestDepartureTime;
 @property(readonly, nonatomic) NSDate *firstTimeInFrequency;
-@property(readonly, nonatomic) double frequencyForSorting;
-@property(readonly, nonatomic) long long frequencyType;
-@property(nonatomic) _Bool hasDisplayDepartureFrequency;
-@property(nonatomic) _Bool hasEarliestDepartureTime;
-@property(nonatomic) _Bool hasIsEstimated;
-@property(nonatomic) _Bool hasLatestDepartureTime;
-@property(nonatomic) _Bool hasMaxDepartureFrequency;
-@property(nonatomic) _Bool hasMinDepartureFrequency;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isEstimate;
-@property(nonatomic) _Bool isEstimated;
-@property(readonly, nonatomic) NSDate *lastTimeInFrequency;
-@property(nonatomic) unsigned int latestDepartureTime;
-@property(nonatomic) unsigned int maxDepartureFrequency;
-@property(readonly, nonatomic) long long maxFrequency;
-@property(nonatomic) unsigned int minDepartureFrequency;
-@property(readonly, nonatomic) long long minFrequency;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

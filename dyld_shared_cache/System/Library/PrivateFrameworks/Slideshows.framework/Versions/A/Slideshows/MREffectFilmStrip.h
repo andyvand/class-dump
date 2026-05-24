@@ -15,10 +15,10 @@
 
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
-- (void)onClustersForPaths: /* Error: Ran out of types for this method. */;
+- (void)createLocationClustersForPaths: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol CNQueueingStrategy
+- (void);
 @end
 

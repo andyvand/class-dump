@@ -7,11 +7,6 @@
 @interface NewsFeed.FormatContextLayoutOptions
 {
     id feedKind;
-    id scale;
-    id scaleFactor;
-    id options;
-    id $__lazy_storage_$_staticSelectors;
-    id unmergedSelectors;
 }
 
 @end

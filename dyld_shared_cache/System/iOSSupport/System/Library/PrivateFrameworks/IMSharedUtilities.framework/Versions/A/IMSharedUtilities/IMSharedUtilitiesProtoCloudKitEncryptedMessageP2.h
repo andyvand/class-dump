@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface IMSharedUtilitiesProtoCloudKitEncryptedMessageP2
 {
     NSData *_padding;
-    NSString *_threadIdentifier;
-    unsigned int _version;
-    CDStruct_f20694ce _has;
 }
 
 - (_Bool);
 - (_Bool);
 - (void);
 - (unsigned int);
-- (id);
+- (id)P;
 - (void);
 - (void);
 - (void);
@@ -30,18 +27,13 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void)IMLinkedHashMapNodeStoreP;
-- (id)back_menu;
+- (id)inline_tapback_menu;
 - (void)es;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasPadding;
-@property(readonly, nonatomic) _Bool hasThreadIdentifier;
 @property(nonatomic) _Bool hasVersion;
-@property(retain, nonatomic) NSData *padding; // @synthesize padding=_padding;
-@property(retain, nonatomic) NSString *threadIdentifier; // @synthesize threadIdentifier=_threadIdentifier;
-@property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end
 

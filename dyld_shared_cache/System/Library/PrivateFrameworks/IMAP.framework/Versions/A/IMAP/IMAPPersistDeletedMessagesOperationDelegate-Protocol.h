@@ -5,5 +5,6 @@
 //
 
 @protocol IMAPPersistDeletedMessagesOperationDelegate
+- (void)i;
 @end
 

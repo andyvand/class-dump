@@ -7,11 +7,6 @@
 @interface PhotoAnalysis.TestService
 {
     id $defaultActor;
-    id worker;
-    id associatedWorkers;
-    id identifier;
-    id stateHolder;
-    id operationManager;
 }
 
 - (void);

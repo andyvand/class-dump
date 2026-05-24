@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject, NSString;
-@protocol BSInvalidatable;
+@class NSObject, NSString;
 
 @interface CHSServerSubscription
 {
     NSString *_identifier;
-    struct os_unfair_lock_s _lock;
-    NSObject *_lock_cachedValue;
-    NSHashTable *_lock_localSubscriptions;
-    id <BSInvalidatable> _lock_serverSubscription;
-    CDUnknownBlockType _lock_subscriptionBlock;
 }
 
-- (id);
+- (id)N?;
 - (void);
-- (id);
+- (id)(qJ?;
 - (id);
 - (_Bool);
 - (void);
@@ -28,14 +22,12 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)/logs to 60s before;
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSObject *cachedValue;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isSubscribed;
 
 @end
 

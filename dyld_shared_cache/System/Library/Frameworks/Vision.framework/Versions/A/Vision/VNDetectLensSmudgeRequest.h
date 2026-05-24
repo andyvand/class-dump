@@ -14,9 +14,9 @@
 
 + (id);
 + (Class);
-+ (const CDStruct_3a02d5a8 *);
++ (const CDStruct_3a02d5a8 *);
 - (_Bool);
-- (id);
+- (id)ing:(unsigned long long)arg1 Delete + Add -> Update (%@);
 - (_Bool);
 - (id)T8n¯ÿ;
 - (_Bool);

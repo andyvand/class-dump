@@ -4,63 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOUserSessionEntity, NSArray, NSMutableArray, NSMutableDictionary, NSObject, NSSet, NSString, PARBag, SSPlistDataReader;
-@protocol OS_dispatch_group, OS_dispatch_queue, PRSSessionController;
-
 @interface PRSBagHandler
 {
     _Bool _waitingForLocation;
-    NSObject<OS_dispatch_group> *_locationGroup;
-    id _lockObject;
-    NSMutableArray *_tasks;
-    PARBag *_bag;
-    NSObject<OS_dispatch_queue> *_bagQueue;
-    _Bool _active;
-    _Bool _disableAsTypedSuggestion;
-    _Bool _collectAnonymousData;
-    _Bool _collectScores;
-    _Bool _use2LayerRanking;
-    _Bool _bagEnabled;
-    _Bool _resourceMetadataNeedsWrite;
-    id <PRSSessionController> _client;
-    long long _status;
-    double _searchRenderTimeout;
-    double _suggestionsRenderTimeout;
-    SSPlistDataReader *_cep_server_values;
-    NSSet *_appBlocklist;
-    NSArray *_enabledDomains;
-    NSArray *_anonymousMetadataUndesiredBundleIDs;
-    NSString *_fteLocString;
-    NSString *_fteLearnMoreString;
-    NSString *_fteContinueString;
-    NSArray *_suggestionRankerModelParams;
-    NSString *_lookupFirstUseDescription1;
-    NSString *_lookupFirstUseDescription2;
-    NSString *_lookupFirstUseLearnMore;
-    GEOUserSessionEntity *_geoUserSessionEntity;
-    NSMutableDictionary *_resourceMetadata;
-    NSString *_resourceMetadataPath;
-    NSObject<OS_dispatch_queue> *_resourceFetchQueue;
 }
 
 + (id);
-+ (void)_match_count_prefix;
-- (void);
++ (void)enum_kMDItemFilename_norm_match_count_prefix;
+- (void)`B;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)removeObjectsInRange:(id)arg1;
 - (void);
 - (id);
 - (_Bool);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void);
+- (id);
+- (_Bool)gs:fromDictionary:error:] /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (void);
@@ -70,29 +36,29 @@
 - (id);
 - (id);
 - (double);
-- (void);
+- (void)_accessibilityDateTimeComponents;
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (void)estCenterSlot;
+- (id)LOCATION_BUTTON_SEND_MY_CURRENT_LOCATION;
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (_Bool);
 - (id);
+- (void);
+- (void);
+- (void)c;
+- (void);
+- (void);
+- (void)MeasuredValueTypeToMeasuredValues;
+- (id)nInternal.BlockWhenNanoHomeIsUninstalledHandler;
 - (id);
-- (_Bool);
+- (_Bool)@?0@"NSString<TRIAssetId>"8@"TRISizedCKRecordID"16^B24;
 - (_Bool);
 - (id);
 - (long long);
@@ -101,54 +67,22 @@
 - (id);
 - (void);
 - (void);
+- (id)iew";
+- (void)initWithCard:(id)arg1 style:feedbackListener: /* Error: Ran out of types for this method. */;
+- (void);
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void)oreContentURL;
+- (void)_safariMatchScoreContentURL;
 - (_Bool)pic:%@ /* Error: Ran out of types for this method. */;
 - (id)archTool] [Featurization] [Calendar] [PerfectMatch] Found one on one search term in the calendar item with id %@.;
-- (_Bool)neClassificationSynonyms_TermFrequenciesWeighted_Max_Prefix;
-- (id)ts_spotlight_tool_icon;
-- (double)earchTerms;
+- (_Bool)kMDItemPhotosSceneClassificationSynonyms_TermFrequenciesWeighted_Max_Prefix;
+- (id)com_apple_shortcuts_spotlight_tool_icon;
+- (double)SSSystemSettingsSearchTerms;
 - (id)îÿú(ò 	;
 
 // Remaining properties
-@property(nonatomic) _Bool active; // @synthesize active=_active;
-@property(retain) NSArray *anonymousMetadataUndesiredBundleIDs; // @synthesize anonymousMetadataUndesiredBundleIDs=_anonymousMetadataUndesiredBundleIDs;
-@property(retain, nonatomic) NSSet *appBlocklist; // @synthesize appBlocklist=_appBlocklist;
-@property(readonly, nonatomic, getter=isBagEnabled) _Bool bagEnabled; // @synthesize bagEnabled=_bagEnabled;
-@property(retain) SSPlistDataReader *cep_server_values; // @synthesize cep_server_values=_cep_server_values;
-@property __weak id <PRSSessionController> client; // @synthesize client=_client;
-@property(nonatomic) _Bool collectAnonymousData; // @synthesize collectAnonymousData=_collectAnonymousData;
-@property(nonatomic) _Bool collectScores; // @synthesize collectScores=_collectScores;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableAsTypedSuggestion; // @synthesize disableAsTypedSuggestion=_disableAsTypedSuggestion;
-@property(retain, nonatomic) NSArray *enabledDomains; // @synthesize enabledDomains=_enabledDomains;
-@property(retain, nonatomic) NSString *fteContinueString; // @synthesize fteContinueString=_fteContinueString;
-@property(retain, nonatomic) NSString *fteLearnMoreString; // @synthesize fteLearnMoreString=_fteLearnMoreString;
-@property(retain, nonatomic) NSString *fteLocString; // @synthesize fteLocString=_fteLocString;
-@property(readonly) GEOUserSessionEntity *geoUserSessionEntity; // @synthesize geoUserSessionEntity=_geoUserSessionEntity;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *lookupFirstUseDescription1; // @synthesize lookupFirstUseDescription1=_lookupFirstUseDescription1;
-@property(readonly, nonatomic) NSString *lookupFirstUseDescription2; // @synthesize lookupFirstUseDescription2=_lookupFirstUseDescription2;
-@property(readonly, nonatomic) NSString *lookupFirstUseLearnMore; // @synthesize lookupFirstUseLearnMore=_lookupFirstUseLearnMore;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *resourceFetchQueue; // @synthesize resourceFetchQueue=_resourceFetchQueue;
-@property(retain) NSMutableDictionary *resourceMetadata; // @synthesize resourceMetadata=_resourceMetadata;
-@property _Bool resourceMetadataNeedsWrite; // @synthesize resourceMetadataNeedsWrite=_resourceMetadataNeedsWrite;
-@property(retain) NSString *resourceMetadataPath; // @synthesize resourceMetadataPath=_resourceMetadataPath;
-@property double searchRenderTimeout; // @synthesize searchRenderTimeout=_searchRenderTimeout;
 @property(nonatomic) long long status; // @synthesize status=_status;
-@property(retain, nonatomic) NSArray *suggestionRankerModelParams; // @synthesize suggestionRankerModelParams=_suggestionRankerModelParams;
-@property double suggestionsRenderTimeout; // @synthesize suggestionsRenderTimeout=_suggestionsRenderTimeout;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool use2LayerRanking; // @synthesize use2LayerRanking=_use2LayerRanking;
 
 @end
 

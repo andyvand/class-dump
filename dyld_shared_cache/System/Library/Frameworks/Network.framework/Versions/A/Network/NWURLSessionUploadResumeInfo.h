@@ -6,13 +6,11 @@
 
 #import <Network/NWURLSessionResumeInfo.h>
 
-@class NSData, NSURL;
+@class NSURL;
 
 @interface NWURLSessionUploadResumeInfo : NWURLSessionResumeInfo
 {
     NSURL *_resumeURL;
-    NSData *_data;
-    NSURL *_fileURL;
 }
 
 + (id);
@@ -24,14 +22,12 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void)@;
 - (void);
 - (id)CsmsCsmt.sm;
 
 // Remaining properties
-@property(retain, nonatomic) NSData *data; // @synthesize data=_data;
-@property(retain, nonatomic) NSURL *fileURL; // @synthesize fileURL=_fileURL;
 @property(retain, nonatomic) NSURL *resumeURL; // @synthesize resumeURL=_resumeURL;
 
 @end

@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSURL;
+@class NSURL;
 
 @interface ISStoreIndex
 {
     NSURL *_indexFileURL;
-    NSData *_data;
-    struct os_unfair_lock_s _dataLock;
-    NSData *_entryData;
 }
 
+- (id)PreserveSDRRange;
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)�;
+- (void)ing the resilient parsing mode.;
+- (id)%;
 - (id);
 - (void);
 - (id);
@@ -28,8 +25,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(readonly) NSData *data; // @dynamic data;
-@property(readonly) struct os_unfair_lock_s *dataLock;
 @property(readonly) NSURL *indexFileURL; // @synthesize indexFileURL=_indexFileURL;
 
 @end

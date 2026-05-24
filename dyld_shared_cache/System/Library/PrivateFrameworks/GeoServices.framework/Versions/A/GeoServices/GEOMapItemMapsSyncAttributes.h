@@ -4,28 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOMapItemMapsSyncAttributes
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_mapsSyncIdentifier;
-    NSString *_mapsSyncObjectType;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _secondaryObjectType;
-    struct {
-        unsigned int has_secondaryObjectType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_mapsSyncIdentifier:1;
-        unsigned int read_mapsSyncObjectType:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)rapAnnouncements:(id)arg1;
++ (_Bool)setHasSupportsSpeedTrapAnnouncements:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -37,21 +23,22 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (int);
+- (int)_cn_safeSortedArrayUsingComparator:(id)arg1;
 - (void);
 - (id);
 - (id);
+- (void)s disabled. Contact Admin framework team if you want to use it.;
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)sholdMap was found in csHepConfig;
+- (void)P:(id)arg1 audioProviderUUID:completion:] /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
-- (id)With:(struct _NSZone *)arg1;
+- (void)'
+;
+- (id)updateBaseValuesWith:(struct _NSZone *)arg1;
 - (id)N;
 - (id)0B­´­,;
 - (id);
@@ -59,12 +46,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasMapsSyncIdentifier;
-@property(readonly, nonatomic) _Bool hasMapsSyncObjectType;
-@property(nonatomic) _Bool hasSecondaryObjectType;
-@property(retain, nonatomic) NSString *mapsSyncIdentifier;
-@property(retain, nonatomic) NSString *mapsSyncObjectType;
-@property(nonatomic) int secondaryObjectType;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

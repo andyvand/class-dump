@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AdminAuthenticator, NSObject, NSString, NSXPCConnection, NSXPCListener, PPSpecifierViewController;
-@protocol OS_dispatch_queue;
+@class PPSpecifierViewController;
 
 @interface PPSpecifierExtensionManager
 {
     _Bool _initiallyEditable;
-    AdminAuthenticator *_authenticator;
-    NSObject<OS_dispatch_queue> *_adminQueue;
-    PPSpecifierViewController *_viewController;
-    NSXPCConnection *_connection;
-    NSString *_bundleIdentifier;
-    NSXPCListener *_listener;
 }
 
 + (id);
@@ -34,7 +27,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)ky5;
 - (_Bool);
 - (id);
 - (void);
@@ -43,16 +36,6 @@
 - (void)Ô ;
 
 // Remaining properties
-@property(retain) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(readonly) Class superclass;
 @property __weak PPSpecifierViewController *viewController; // @synthesize viewController=_viewController;
 
 @end

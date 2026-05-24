@@ -15,14 +15,12 @@
 + (unsigned int);
 + (id);
 - (id);
-- (id);
+- (id)@;
 - (id);
 - (id)c}s Frame has no packet;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *domain;
 @property(readonly, nonatomic) NSString *name;
-@property(readonly, nonatomic) NSString *type;
 
 @end
 

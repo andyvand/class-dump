@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (GSExtensions)
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);

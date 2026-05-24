@@ -8,8 +8,6 @@
 {
     id customerServicePhone;
     id customerServiceEmail;
-    id customerServiceSMS;
-    id customerServiceBusinessChat;
 }
 
 - (id);

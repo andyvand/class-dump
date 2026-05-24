@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (NSDeprecatedKeyValueObservingCustomization)
-+ (void);
++ (void)N@;
 @end
 

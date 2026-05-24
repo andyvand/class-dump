@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSString, PKCurrencyAmount, PKPaymentRewardsBalance;
+@class PKPaymentRewardsBalance;
 
 @interface PKPaymentOfferRewardsRedemptionIntent
 {
     PKPaymentRewardsBalance *_rewardsBalance;
-    PKCurrencyAmount *_monetaryValue;
-    NSDecimalNumber *_value;
-    NSString *_balanceIdentifier;
-    NSString *_programName;
-    unsigned long long _rewardsType;
 }
 
 + (_Bool)áW"ð!Dùqî%Ð1Â0@ù
 × ;
 - (void);
 - (void);
-- (void);
+- (void)A;
 - (unsigned long long);
 - (id);
 - (id);
@@ -35,23 +30,16 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setNetscoreAtStudyEnd:(id)arg1;
+- (void)AWDLibnetcoreRNFActivityNotification;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)h;
+- (id);
 - (void)entication:%@; Payload State:%lu;> /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *balanceIdentifier; // @synthesize balanceIdentifier=_balanceIdentifier;
-@property(readonly, nonatomic) _Bool hasFullBalanceSelected;
-@property(readonly, nonatomic) _Bool isEmptyValued;
-@property(copy, nonatomic) PKCurrencyAmount *monetaryValue; // @synthesize monetaryValue=_monetaryValue;
-@property(copy, nonatomic) NSString *programName; // @synthesize programName=_programName;
 @property(copy, nonatomic) PKPaymentRewardsBalance *rewardsBalance; // @synthesize rewardsBalance=_rewardsBalance;
-@property(nonatomic) unsigned long long rewardsType; // @synthesize rewardsType=_rewardsType;
-@property(copy, nonatomic) NSDecimalNumber *value; // @synthesize value=_value;
 
 @end
 

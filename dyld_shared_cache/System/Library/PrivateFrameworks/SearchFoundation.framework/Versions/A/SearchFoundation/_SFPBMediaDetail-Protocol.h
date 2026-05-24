@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBText;
+@class NSData, NSString;
 
 @protocol _SFPBMediaDetail
+- (NSData *)T@"NSProgress",R,N;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBText *content;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *title;
 @end
 

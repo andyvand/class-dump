@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABAccount, ABAddressBook, ABGroup, ABGroupEntriesList, NSString;
+@class ABAccount, NSString;
 
 @interface ABBookCreateGroupCommand
 {
     ABAccount *_account;
-    ABAddressBook *_addressBook;
-    ABGroupEntriesList *_groupEntriesList;
-    NSString *_groupUid;
-    NSString *_groupName;
-    _Bool ignoresGuardianRestrictions;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)[F;
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -36,8 +31,6 @@
 - (void)Ð¸²;
 
 // Remaining properties
-@property(readonly) ABGroup *group;
-@property(copy) NSString *groupName; // @synthesize groupName=_groupName;
 @property(copy) NSString *groupUid; // @synthesize groupUid=_groupUid;
 
 @end

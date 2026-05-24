@@ -7,22 +7,16 @@
 @interface PGSettlingEffectConfig
 {
     unsigned long long _maxL1FailuresAllowed;
-    unsigned long long _maxFRCRequestsAllowed;
-    unsigned long long _defaultL1FailuresAllowed;
-    unsigned long long _defaultFRCRequestsAllowed;
 }
 
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
+- (unsigned long long)cationObserver:,V__menuBarOwningApplicationObserver /* Error: Ran out of types for this method. */;
+- (unsigned long long)e;
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long defaultFRCRequestsAllowed; // @synthesize defaultFRCRequestsAllowed=_defaultFRCRequestsAllowed;
-@property(readonly, nonatomic) unsigned long long defaultL1FailuresAllowed; // @synthesize defaultL1FailuresAllowed=_defaultL1FailuresAllowed;
-@property(readonly, nonatomic) unsigned long long maxFRCRequestsAllowed; // @synthesize maxFRCRequestsAllowed=_maxFRCRequestsAllowed;
 @property(readonly, nonatomic) unsigned long long maxL1FailuresAllowed; // @synthesize maxL1FailuresAllowed=_maxL1FailuresAllowed;
 
 @end

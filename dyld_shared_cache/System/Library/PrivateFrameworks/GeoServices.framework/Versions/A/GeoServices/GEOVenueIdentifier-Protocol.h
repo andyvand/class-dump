@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class GEOPDVenueIdentifier;
 
 @protocol GEOVenueIdentifier
+- (GEOPDVenueIdentifier *);
+- (_Bool)updatePersistentStoresInCacheWithKey:newAccounts: /* Error: Ran out of types for this method. */;
+- (_Bool)updateDictionary:isReadOnly: /* Error: Ran out of types for this method. */;
+- (_Bool)updateDictionary:byAddingProxyLockForURL:fileUtilities: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long businessID;
-@property(readonly, nonatomic) NSArray *componentIdentifiers;
-@property(readonly, nonatomic) unsigned long long featureID;
-@property(readonly, nonatomic, getter=_hasBusinessID) _Bool hasBusinessID;
-@property(readonly, nonatomic, getter=_hasFeatureID) _Bool hasFeatureID;
 @property(readonly, nonatomic, getter=_hasVenueID) _Bool hasVenueID;
-@property(readonly, nonatomic) unsigned long long venueID;
 @end
 

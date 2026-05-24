@@ -6,36 +6,13 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NETSchemaNETError, NSData, NSString;
-
 @interface NETSchemaNETSessionConnectionFailed : SISchemaInstrumentationMessage
 {
     int _connectionType;
-    int _connectionMode;
-    int _sessionType;
-    int _networkSessionState;
-    _Bool _isWwanPreferred;
-    _Bool _isDormant;
-    unsigned long long _sendBufferSize;
-    NSString *_policyId;
-    NETSchemaNETError *_error;
-    NETSchemaNETError *_underlyingError;
-    struct {
-        unsigned int connectionType:1;
-        unsigned int connectionMode:1;
-        unsigned int sessionType:1;
-        unsigned int networkSessionState:1;
-        unsigned int isWwanPreferred:1;
-        unsigned int isDormant:1;
-        unsigned int sendBufferSize:1;
-    } _has;
-    _Bool _hasPolicyId;
-    _Bool _hasError;
-    _Bool _hasUnderlyingError;
 }
 
 - (void);
-- (void);
+- (void)8;
 - (void);
 - (void);
 - (void);
@@ -49,6 +26,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -56,23 +34,22 @@
 - (void);
 - (void);
 - (void);
+- (_Bool).;
 - (void);
+- (void);
+- (void);
+- (void)8	;
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)G;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)amellia-256-cbc;
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
@@ -86,39 +63,19 @@
 - (int);
 - (id)!s!È@ùß1Â0@ù
 × ;
-- (void)rSelectedChoice;
+- (void)isUserSelectedChoice;
 - (void),N,V_errorCount;
 - (id)TB,N,V_hasLongRunningTaskInfo;
 - (id)AssetErrorsReported;
 - (void)ientEvent.DictationEndPointCancel;
-- (void)ientEvent;
-- (void)emaSIRISETUPClientEvent;
+- (void)scClientEvent;
+- (void)SIRISETUPSchemaSIRISETUPClientEvent;
 - (void)DÙÿø;
 - (int)H*$;
 - (_Bool)Aÿ$;
 
 // Remaining properties
-@property(nonatomic) int connectionMode; // @synthesize connectionMode=_connectionMode;
 @property(nonatomic) int connectionType; // @synthesize connectionType=_connectionType;
-@property(retain, nonatomic) NETSchemaNETError *error; // @synthesize error=_error;
-@property(nonatomic) _Bool hasConnectionMode;
-@property(nonatomic) _Bool hasConnectionType;
-@property(nonatomic) _Bool hasError; // @synthesize hasError=_hasError;
-@property(nonatomic) _Bool hasIsDormant;
-@property(nonatomic) _Bool hasIsWwanPreferred;
-@property(nonatomic) _Bool hasNetworkSessionState;
-@property(nonatomic) _Bool hasPolicyId; // @synthesize hasPolicyId=_hasPolicyId;
-@property(nonatomic) _Bool hasSendBufferSize;
-@property(nonatomic) _Bool hasSessionType;
-@property(nonatomic) _Bool hasUnderlyingError; // @synthesize hasUnderlyingError=_hasUnderlyingError;
-@property(nonatomic) _Bool isDormant; // @synthesize isDormant=_isDormant;
-@property(nonatomic) _Bool isWwanPreferred; // @synthesize isWwanPreferred=_isWwanPreferred;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int networkSessionState; // @synthesize networkSessionState=_networkSessionState;
-@property(copy, nonatomic) NSString *policyId; // @synthesize policyId=_policyId;
-@property(nonatomic) unsigned long long sendBufferSize; // @synthesize sendBufferSize=_sendBufferSize;
-@property(nonatomic) int sessionType; // @synthesize sessionType=_sessionType;
-@property(retain, nonatomic) NETSchemaNETError *underlyingError; // @synthesize underlyingError=_underlyingError;
 
 @end
 

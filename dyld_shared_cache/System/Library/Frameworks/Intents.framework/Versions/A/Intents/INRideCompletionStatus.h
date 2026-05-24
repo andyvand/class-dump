@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INCurrencyAmount, NSSet, NSString, NSUserActivity;
-
 @interface INRideCompletionStatus
 {
     _Bool _completed;
-    _Bool _missedPickup;
-    _Bool _outstanding;
-    _Bool _canceledByService;
-    NSUserActivity *_completionUserActivity;
-    INCurrencyAmount *_paymentAmount;
-    unsigned long long _feedbackType;
-    NSSet *_defaultTippingOptions;
 }
 
 + (id);
@@ -25,48 +16,33 @@
 + (id);
 + (id);
 + (_Bool);
-+ (id)sRunWorkflowIntentWorkflowUnsupportedReason;
++ (id)hasRunWorkflowIntentWorkflowUnsupportedReason;
 - (void);
 - (void);
 - (id);
+- (_Bool)@9;
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)initWithInfo:(id)arg1;
+- (id);
+- (_Bool)(;
+- (void)s (%{public}s:(id)arg1 %u) candidateNetwork was NULL;
+- (id);
+- (void);
 - (id);
 - (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id)WithRestaurantGuestsToDisambiguate:(unsigned long long)arg1;
-- (_Bool)Total;
-- (void)mpletion: /* Error: Ran out of types for this method. */;
+- (id)disambiguationWithRestaurantGuestsToDisambiguate:(unsigned long long)arg1;
+- (_Bool)fatTotal;
+- (void)provideBillPayeeOptionsForPayBill:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (unsigned long long)^;
 
 // Remaining properties
-@property(readonly, getter=isCanceled) _Bool canceled;
-@property(readonly, nonatomic, getter=isCanceledByService) _Bool canceledByService; // @synthesize canceledByService=_canceledByService;
-@property(readonly, getter=isCompleted) _Bool completed; // @synthesize completed=_completed;
-@property(retain) NSUserActivity *completionUserActivity; // @synthesize completionUserActivity=_completionUserActivity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain) NSSet *defaultTippingOptions; // @synthesize defaultTippingOptions=_defaultTippingOptions;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long feedbackType; // @synthesize feedbackType=_feedbackType;
 @property(readonly) unsigned long long hash;
-@property(readonly, getter=isMissedPickup) _Bool missedPickup; // @synthesize missedPickup=_missedPickup;
-@property(readonly, getter=isOutstanding) _Bool outstanding; // @synthesize outstanding=_outstanding;
-@property(readonly) INCurrencyAmount *paymentAmount; // @synthesize paymentAmount=_paymentAmount;
-@property(readonly) Class superclass;
 
 @end
 

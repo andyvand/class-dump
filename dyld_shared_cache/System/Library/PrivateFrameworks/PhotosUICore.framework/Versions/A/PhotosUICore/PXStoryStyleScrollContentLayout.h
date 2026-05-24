@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PXStoryModel;
+@class PXStoryModel;
 
 @interface PXStoryStyleScrollContentLayout
 {
     CDStruct_af00bf4e _updateFlags;
-    CDStruct_af00bf4e _postUpdateFlags;
-    unsigned int _firstPageSpriteIndex;
-    PXStoryModel *_model;
-    long long _focusedStyleIndex;
-    double _focusOffset;
 }
 
 - (void);
-- (void);
+- (void);
 - (long long);
 - (double);
 - (id);
@@ -27,23 +22,14 @@
 - (void);
 - (void);
 - (id);
-- (void);
-- (id)vityProgress: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)setActivityProgress: /* Error: Ran out of types for this method. */;
 - (id)Td,N,V_weight;
 - (void).apple.photos.CPAnalytics.people.confirmAdditional.suggestion;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double focusOffset; // @synthesize focusOffset=_focusOffset;
-@property(readonly, nonatomic) long long focusedStyleIndex; // @synthesize focusedStyleIndex=_focusedStyleIndex;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) PXStoryModel *model; // @synthesize model=_model;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,10 +7,6 @@
 @interface NewsFeed.FormatCustomNodeStyle
 {
     id _identifier;
-    id class;
-    id ignoresSmartInvertColors;
-    id options;
-    id _selectors;
 }
 
 @end

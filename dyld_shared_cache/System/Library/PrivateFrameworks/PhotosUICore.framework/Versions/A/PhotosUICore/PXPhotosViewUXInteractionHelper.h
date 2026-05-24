@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXPhotosViewModel, PXPhotosViewUXInteraction, PXSelectionContainer;
+@class PXPhotosViewUXInteraction;
 
 @interface PXPhotosViewUXInteractionHelper
 {
     PXPhotosViewUXInteraction *_interaction;
-    PXPhotosViewModel *_viewModel;
 }
 
 - (id);
@@ -23,8 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) __weak PXPhotosViewUXInteraction *interaction; // @synthesize interaction=_interaction;
-@property(readonly, nonatomic) PXSelectionContainer *selectionContainer;
-@property(readonly, nonatomic) PXPhotosViewModel *viewModel; // @synthesize viewModel=_viewModel;
 
 @end
 

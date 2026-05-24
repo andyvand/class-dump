@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _GCControllerInputComponent, _GCControllerInputDescription;
-@protocol NSObject><NSCopying><NSSecureCoding;
+@class _GCControllerInputDescription;
 
 __attribute__((visibility("hidden")))
 @interface _GCControllerInputComponentDescription
 {
     _GCControllerInputDescription *_controllerInputDescriptions;
-    NSArray *_bindingDescriptions;
-    _GCControllerInputComponent *_materializedInputComponent;
-    _Bool _enableEventBufferingPreviewForNIS;
-    id <NSObject><NSCopying><NSSecureCoding> _identifier;
 }
 
 + (_Bool);
@@ -22,27 +17,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)L;
 - (id);
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)aa;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, copy) _GCControllerInputDescription *controllerInputDescriptions; // @synthesize controllerInputDescriptions=_controllerInputDescriptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool enableEventBufferingPreviewForNIS; // @synthesize enableEventBufferingPreviewForNIS=_enableEventBufferingPreviewForNIS;
-@property(readonly) unsigned long long hash;
-@property(readonly) id <NSObject><NSCopying><NSSecureCoding> identifier; // @synthesize identifier=_identifier;
-@property(readonly) Class superclass;
 
 @end
 

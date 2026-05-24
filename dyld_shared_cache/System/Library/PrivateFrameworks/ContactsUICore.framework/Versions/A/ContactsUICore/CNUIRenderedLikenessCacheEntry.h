@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNObservable, CNUILikenessRenderingScope, NSArray;
 @protocol CNCancelable;
 
 @interface CNUIRenderedLikenessCacheEntry
 {
     id <CNCancelable> _token;
-    CNObservable *_imageObservable;
-    NSArray *_contacts;
-    CNUILikenessRenderingScope *_scope;
 }
 
 + (id);
@@ -25,9 +21,6 @@
 - (void)Size=dd}16d32d40^{CGColor=}48B56Q60@68;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *contacts; // @synthesize contacts=_contacts;
-@property(readonly, nonatomic) CNObservable *imageObservable; // @synthesize imageObservable=_imageObservable;
-@property(readonly, nonatomic) CNUILikenessRenderingScope *scope; // @synthesize scope=_scope;
 @property(readonly, nonatomic) id <CNCancelable> token; // @synthesize token=_token;
 
 @end

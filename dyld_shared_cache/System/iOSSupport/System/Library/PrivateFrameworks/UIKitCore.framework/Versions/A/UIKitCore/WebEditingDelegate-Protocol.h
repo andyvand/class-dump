@@ -5,5 +5,9 @@
 //
 
 @protocol WebEditingDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

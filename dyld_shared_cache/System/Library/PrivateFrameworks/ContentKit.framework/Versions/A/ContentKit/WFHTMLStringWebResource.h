@@ -6,30 +6,28 @@
 
 #import <ContentKit/WFWebResource.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface WFHTMLStringWebResource : WFWebResource
 {
     NSString *_htmlString;
-    NSURL *_baseURL;
 }
 
 + (_Bool);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
-- (id):options: /* Error: Ran out of types for this method. */;
+- (id)getFileRepresentation:forType:options: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *baseURL; // @synthesize baseURL=_baseURL;
 @property(readonly, nonatomic) NSString *htmlString; // @synthesize htmlString=_htmlString;
 
 @end

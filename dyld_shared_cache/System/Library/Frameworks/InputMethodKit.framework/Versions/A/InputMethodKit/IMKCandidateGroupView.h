@@ -6,24 +6,22 @@
 
 #import <InputMethodKit/IMKUIView.h>
 
-@class IMKCandidateUIProperties, NSArray;
+@class NSArray;
 
 @interface IMKCandidateGroupView : IMKUIView
 {
     NSArray *_groupsWithPositions;
-    IMKCandidateUIProperties *_UIProperties;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)rticipantRemote setupAudioStreamConfiguration:withStreamGroupConfig:streamGroupStreamConfig:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) IMKCandidateUIProperties *UIProperties; // @synthesize UIProperties=_UIProperties;
 @property(retain, nonatomic) NSArray *groupsWithPositions; // @synthesize groupsWithPositions=_groupsWithPositions;
 
 @end

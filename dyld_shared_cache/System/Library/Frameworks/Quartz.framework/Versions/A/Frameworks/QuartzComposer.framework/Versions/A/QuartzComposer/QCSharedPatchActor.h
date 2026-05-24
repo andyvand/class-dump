@@ -15,7 +15,7 @@
 
 - (id);
 - (void);
-- (id);
+- (id)OIN container_item USING (container_pid) JOIN item USING (item_pid) WHERE distinguished_kind IN (19, 20) AND in_my_library = 0;
 
 @end
 

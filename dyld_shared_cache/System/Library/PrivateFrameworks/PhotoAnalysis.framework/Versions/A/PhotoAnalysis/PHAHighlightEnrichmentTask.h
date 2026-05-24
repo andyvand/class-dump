@@ -9,17 +9,15 @@
 @interface PHAHighlightEnrichmentTask : PHAEnrichmentTask
 {
     _Bool _featureAvailable;
-    _Bool _featureComplete;
-    unsigned long long _tailorOptions;
 }
 
 - (unsigned long long);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (double);
-- (_Bool);
+- (_Bool);
 - (void);
 - (_Bool);
 - (id);

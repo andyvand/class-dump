@@ -7,12 +7,6 @@
 @interface NewsUI2.FeedAvailabilityService
 {
     id cloudContext;
-    id tagController;
-    id sportsEventController;
-    id puzzleTypeController;
-    id appConfigurationManager;
-    id sponsorshipAdProvider;
-    id featureAvailability;
 }
 
 @end

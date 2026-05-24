@@ -4,25 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNContactProviderSupportDomain, CNContactProviderSupportSession, NSString;
+@class NSString;
 
 @interface CNContactProviderSupportDomainCommand
 {
     _Bool _shouldSynchronize;
-    NSString *_commandType;
-    NSString *_domainIdentifier;
-    NSString *_bundleIdentifier;
-    CNContactProviderSupportDomain *_domain;
-    CNContactProviderSupportSession *_session;
 }
 
 + (id);
 + (id);
 + (id);
++ (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -42,22 +37,17 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)sion %s for '%s'; failed to get realpath for parent:(id)arg1 %s;
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)_advDataPerType;
 - (void);
 - (void)}32;
 - (id)Øy;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly, nonatomic) NSString *commandType; // @synthesize commandType=_commandType;
-@property(retain, nonatomic) CNContactProviderSupportDomain *domain; // @synthesize domain=_domain;
 @property(retain, nonatomic) NSString *domainIdentifier; // @synthesize domainIdentifier=_domainIdentifier;
-@property(retain, nonatomic) CNContactProviderSupportSession *session; // @synthesize session=_session;
-@property(nonatomic) _Bool shouldSynchronize; // @synthesize shouldSynchronize=_shouldSynchronize;
 
 @end
 

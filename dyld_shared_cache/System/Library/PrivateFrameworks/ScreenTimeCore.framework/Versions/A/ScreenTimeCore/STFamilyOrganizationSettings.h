@@ -6,42 +6,26 @@
 
 #import <ScreenTimeCore/STCoreOrganizationSettings.h>
 
-@class NSData, NSDate, NSNumber, NSSet, NSString, STFamilyOrganization;
-
 @interface STFamilyOrganizationSettings : STCoreOrganizationSettings
 {
 }
 
-+ (id);
-- (void);
-- (_Bool);
-- (_Bool);
++ (id): /* Error: Ran out of types for this method. */;
+- (void)ist_artwork_token TEXT NOT NULL DEFAULT '', representative_item_pid INTEGER NOT NULL DEFAULT 0, representative_item_artwork_token TEXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
+- (_Bool)DEFAULT 0, series_name_order INTEGER NOT NULL DEFAULT 0, series_name_order_section INTEGER NOT NULL DEFAULT 0, album_pid INTEGER NOT NULL DEFAULT 0, album_order INTEGER NOT NULL DEFAULT 0, album_order_section INTEGER NOT NULL DEFAULT 0, album_artist_pid INTEGER NOT NULL DEFAULT 0, album_artist_order INTEGER NOT NULL DEFAULT 0, album_artist_order_section INTEGER NOT NULL DEFAULT 0, composer_pid INTEGER NOT NULL DEFAULT 0, composer_order INTEGER NOT NULL DEFAULT 0, composer_order_section INTEGER NOT NULL DEFAULT 0, genre_id INTEGER NOT NULL DEFAULT 0, genre_order INTEGER NOT NULL DEFAULT 0, genre_order_section INTEGER NOT NULL DEFAULT 0, disc_number INTEGER DEFAULT 0, track_number INTEGER DEFAULT 0, episode_sort_id INTEGER DEFAULT 0, base_location_id INTEGER NOT NULL DEFAULT 0, remote_location_id INTEGER NOT NULL DEFAULT 0, exclude_from_shuffle INTEGER NOT NULL DEFAULT 0;
+- (_Bool)AULT 0, item_artist_order_section INTEGER NOT NULL DEFAULT 0, series_name_order INTEGER NOT NULL DEFAULT 0, series_name_order_section INTEGER NOT NULL DEFAULT 0, album_pid INTEGER NOT NULL DEFAULT 0, album_order INTEGER NOT NULL DEFAULT 0, album_order_section INTEGER NOT NULL DEFAULT 0, album_artist_pid INTEGER NOT NULL DEFAULT 0, album_artist_order INTEGER NOT NULL DEFAULT 0, album_artist_order_section INTEGER NOT NULL DEFAULT 0, composer_pid INTEGER NOT NULL DEFAULT 0, composer_order INTEGER NOT NULL DEFAULT 0, composer_order_section INTEGER NOT NULL DEFAULT 0, genre_id INTEGER NOT NULL DEFAULT 0, genre_order INTEGER NOT NULL DEFAULT 0, genre_order_section INTEGER NOT NULL DEFAULT 0, disc_number INTEGER DEFAULT 0, track_number INTEGER DEFAULT 0, episode_sort_id INTEGER DEFAULT 0, base_location_id INTEGER NOT NULL DEFAULT 0, remote_location_id INTEGER NOT NULL DEFAULT 0, exclude_from_shuffle INTEGER NOT NULL DEFAULT 0;
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)bootpolicy_get_linked_manifest;
 - (_Bool);
 - (_Bool);
+- (id)/libsqlite3.dylib;
 - (id);
-- (id);
-- (id);
+- (id)t;
 
 // Remaining properties
-@property(retain, nonatomic) NSSet *appExceptions; // @dynamic appExceptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *isAppAndWebsiteActivityEnabled; // @dynamic isAppAndWebsiteActivityEnabled;
-@property(nonatomic) _Bool isDirty; // @dynamic isDirty;
 @property(nonatomic) _Bool isManaged; // @dynamic isManaged;
-@property(copy, nonatomic) NSDate *lastPasscodeActivityNotificationSentDate; // @dynamic lastPasscodeActivityNotificationSentDate;
-@property(retain, nonatomic) STFamilyOrganization *organization; // @dynamic organization;
-@property(nonatomic) _Bool shareWebUsage; // @dynamic shareWebUsage;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSData *versionVector; // @dynamic versionVector;
 
 @end
 

@@ -12,7 +12,7 @@
     } _lock;
 }
 
-- (void);
+- (void)copyForAnimate;
 - (id);
 - (id);
 - (void);

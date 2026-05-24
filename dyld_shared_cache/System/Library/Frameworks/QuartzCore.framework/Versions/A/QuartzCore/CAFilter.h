@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CAFilter
 {
     unsigned int _type;
-    NSString *_name;
-    unsigned int _flags;
-    void *_attr;
-    void *_cache;
 }
 
 @end

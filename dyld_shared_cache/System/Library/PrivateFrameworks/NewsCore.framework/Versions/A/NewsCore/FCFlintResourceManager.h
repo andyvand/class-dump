@@ -14,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)dictionaryWithObjects:(id)arg1 forKeys:count: /* Error: Ran out of types for this method. */;
 - (id)× ;
 - (id)cePersistence;
 - (void)omise"16@?0@"FCStreamingResults"8;

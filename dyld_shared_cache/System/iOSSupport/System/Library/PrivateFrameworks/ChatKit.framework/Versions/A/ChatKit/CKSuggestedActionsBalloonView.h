@@ -9,8 +9,6 @@
 @interface CKSuggestedActionsBalloonView : CKColoredBalloonView
 {
     id actions;
-    id titleLabel;
-    id subtitleLabel;
 }
 
 - (struct CGSize);
@@ -19,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (void)tate;
+- (void)DetailsViewPresentationState;
 
 @end
 

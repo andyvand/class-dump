@@ -4,17 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView;
+@class NSAppearance, NSView;
 @protocol NSSliderTickMarksDelegate;
 
 @protocol NSSliderVisualProvider
++ (NSAppearance *)WatchKeyboardCapability;
+- (id <NSSliderTickMarksDelegate>);
+- (void);
+- (struct CGRect)manifest;
+- (struct CGRect)Ah5yfSlY2yycIQb92HbmrA;
+- (struct CGRect)IOSDIOManufacturerTuple;
+- (struct NSEdgeInsets)HU;
+- (void)initWithProtectionSpace:(_Bool)arg1 proposedCredential:previousFailureCount:failureResponse:error:sender: /* Error: Ran out of types for this method. */;
+- (void)_sentDidFinishCollectingMetrics;
+- (NSView *)fetchLocalChangesSinceDate:error: /* Error: Ran out of types for this method. */;
+- (CDStruct_6717dab8)NSTextParagraph;
 - (struct NSEdgeInsets)ding;
 
 // Remaining properties
-@property(readonly) int _vibrancyBlendMode;
 @property __weak NSView *controlView;
-@property(readonly) NSView *designatedFocusRingView;
-@property CDStruct_6717dab8 state;
-@property __weak id <NSSliderTickMarksDelegate> tickMarkDelegate;
 @end
 

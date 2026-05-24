@@ -6,79 +6,56 @@
 
 #import <SpotlightServices/SSResultBuilder.h>
 
-@class NSDate, NSNumber, NSString;
-
 @interface SSFileResultBuilder : SSResultBuilder
 {
     _Bool _isFolder;
-    NSDate *_creationDate;
-    NSDate *_modificationDate;
-    NSNumber *_sizeInBytes;
-    NSNumber *_pageCount;
-    NSString *_contentType;
-    NSString *_fileProviderId;
-    NSString *_fileProviderDomainId;
-    NSString *_name;
-    NSString *_kind;
-    NSString *_thumbnailURL;
 }
 
-+ (id);
-+ (id);
-+ (struct CGSize);
++ (id)0Q48B56B60@64q72;
++ (id)ransformer"16;
++ (struct CGSize)application;
 + (_Bool);
-+ (id);
++ (id)2;
+- (void);
+- (id)setVerticalOffset: /* Error: Ran out of types for this method. */;
+- (id)setAppleContentID: /* Error: Ran out of types for this method. */;
+- (id)setAllowsTapToLoad: /* Error: Ran out of types for this method. */;
+- (id)setAdditionalAllowedFileURLDirectories: /* Error: Ran out of types for this method. */;
+- (id)setAddFullWidthLineForButton: /* Error: Ran out of types for this method. */;
+- (id)rootObject;
+- (id)rightIcon;
+- (id)respondWithData: /* Error: Ran out of types for this method. */;
+- (_Bool)resourceLoader:didCancelLoadingRequest: /* Error: Ran out of types for this method. */;
+- (id)resourceLoader:didCancelAuthenticationChallenge: /* Error: Ran out of types for this method. */;
+- (id)isReadyForMoreMediaData;
+- (id)initWithText:style:themePath:generator: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id);
+- (id)J;
+- (id);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id);
+- (id)@16@24@32;
+- (void);
+- (void)n is not registered;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (void);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
 - (void);
 - (id);
 - (void);
 - (id);
-- (void)r;
-- (void)Scores;
-- (id)_QueryTermsNum_Max_Word;
-- (id)ived_this_month;
+- (void)effectiveBundleIdentifier;
+- (void)kQPQUOutputTokenArgScores;
+- (id)parsec_corrected_query_QueryTermsNum_Max_Word;
+- (id)author_smss_received_this_month;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *contentType; // @synthesize contentType=_contentType;
-@property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(retain, nonatomic) NSString *fileProviderDomainId; // @synthesize fileProviderDomainId=_fileProviderDomainId;
-@property(retain, nonatomic) NSString *fileProviderId; // @synthesize fileProviderId=_fileProviderId;
 @property(nonatomic) _Bool isFolder; // @synthesize isFolder=_isFolder;
-@property(retain, nonatomic) NSString *kind; // @synthesize kind=_kind;
-@property(retain, nonatomic) NSDate *lastUsedDate;
-@property(retain, nonatomic) NSDate *modificationDate; // @synthesize modificationDate=_modificationDate;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSNumber *pageCount; // @synthesize pageCount=_pageCount;
-@property(retain, nonatomic) NSNumber *sizeInBytes; // @synthesize sizeInBytes=_sizeInBytes;
-@property(retain, nonatomic) NSString *thumbnailURL; // @synthesize thumbnailURL=_thumbnailURL;
 
 @end
 

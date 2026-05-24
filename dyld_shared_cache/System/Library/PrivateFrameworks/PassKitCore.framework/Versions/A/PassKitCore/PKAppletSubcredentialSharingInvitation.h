@@ -4,25 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID, PKSharingCarKeyInvitation;
+@class NSString;
 
 @interface PKAppletSubcredentialSharingInvitation
 {
     _Bool _forWatch;
-    NSString *_identifier;
-    NSString *_originatorIDSHandle;
-    NSString *_partnerIdentifier;
-    NSString *_brandIdentifier;
-    NSString *_pairedReaderIdentifier;
-    NSString *_recipientName;
-    NSUUID *_sharingSessionIdentifier;
-    unsigned long long _entitlement;
-    NSString *_issuer;
-    NSString *_deviceModel;
-    unsigned long long _supportedRadioTechnologies;
-    unsigned long long _type;
-    PKSharingCarKeyInvitation *_originalInvitationMessage;
-    NSString *_activationCode;
 }
 
 + (id);
@@ -52,22 +38,22 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)�;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long)metadata. Returning passed-in image data.;
 - (id);
-- (_Bool);
+- (_Bool)dpsCounterSamplesCount;
 - (void);
-- (void);
+- (void)_;
 - (void);
 - (id);
 - (id);
@@ -80,23 +66,7 @@
 - (id)øÐ;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *activationCode; // @synthesize activationCode=_activationCode;
-@property(copy, nonatomic) NSString *brandIdentifier; // @synthesize brandIdentifier=_brandIdentifier;
-@property(copy, nonatomic) NSString *deviceModel; // @synthesize deviceModel=_deviceModel;
-@property(nonatomic) unsigned long long entitlement; // @synthesize entitlement=_entitlement;
-@property(nonatomic, getter=isForWatch) _Bool forWatch; // @synthesize forWatch=_forWatch;
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) _Bool isThirdPartyCrossPlatformInvitation;
-@property(copy, nonatomic) NSString *issuer; // @synthesize issuer=_issuer;
-@property(readonly, copy, nonatomic) NSString *manufacturerIdentifier;
-@property(retain, nonatomic) PKSharingCarKeyInvitation *originalInvitationMessage; // @synthesize originalInvitationMessage=_originalInvitationMessage;
-@property(copy, nonatomic) NSString *originatorIDSHandle; // @synthesize originatorIDSHandle=_originatorIDSHandle;
-@property(copy, nonatomic) NSString *pairedReaderIdentifier; // @synthesize pairedReaderIdentifier=_pairedReaderIdentifier;
-@property(copy, nonatomic) NSString *partnerIdentifier; // @synthesize partnerIdentifier=_partnerIdentifier;
-@property(copy, nonatomic) NSString *recipientName; // @synthesize recipientName=_recipientName;
-@property(retain, nonatomic) NSUUID *sharingSessionIdentifier; // @synthesize sharingSessionIdentifier=_sharingSessionIdentifier;
-@property(nonatomic) unsigned long long supportedRadioTechnologies; // @synthesize supportedRadioTechnologies=_supportedRadioTechnologies;
-@property(readonly, nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end
 

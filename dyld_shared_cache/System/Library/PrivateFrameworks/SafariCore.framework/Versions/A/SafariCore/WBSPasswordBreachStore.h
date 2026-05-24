@@ -4,24 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSDictionary, WBSPersistentPropertyListStore;
+@class NSDictionary, WBSPersistentPropertyListStore;
 
 @interface WBSPasswordBreachStore
 {
     WBSPersistentPropertyListStore *_store;
 }
 
-+ (id);
++ (id)N19domRigid_constraint19domTechnique_common9domSpring9domLinearE;
 + (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id)ubscriptions did change.;
 - (id);
 - (void);
 - (void);
@@ -30,11 +30,7 @@
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) NSDate *lastSessionCompletionDate;
 @property(retain, nonatomic) NSDictionary *queuedPasswordBagManagerState;
-@property(nonatomic) unsigned long long rampIdentifier;
-@property(retain, nonatomic) NSArray *recentlyBreachedPersistentIdentifiers;
-@property(retain, nonatomic) NSArray *resultRecords;
 
 @end
 

@@ -11,15 +11,15 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (void);
-- (void);
-- (void);
+- (void)nection %p adopting snapshot:(unsigned int)arg1 ss value:%@
+	pointer value:%@
+	pointer:%p /* Error: Ran out of types for this method. */;
+- (void)ree pages - %lld, historyPages - %lld;
+- (void)tion constraint primary key violation;
 - (id);
 
 // Remaining properties
 @property(nonatomic) long long advicePolicy; // @dynamic advicePolicy;
-@property(nonatomic) struct CPSProcessRec *frontmostProcess; // @dynamic frontmostProcess;
-@property(nonatomic) unsigned int keyThiefConnectionID; // @dynamic keyThiefConnectionID;
 
 @end
 

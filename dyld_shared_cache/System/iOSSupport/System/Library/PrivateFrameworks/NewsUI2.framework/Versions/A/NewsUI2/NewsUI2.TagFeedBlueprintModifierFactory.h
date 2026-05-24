@@ -7,12 +7,6 @@
 @interface NewsUI2.TagFeedBlueprintModifierFactory
 {
     id sectionFactory;
-    id nativeAdManager;
-    id feedContextFactory;
-    id policyValidator;
-    id layoutCollectionProvider;
-    id subscriptionList;
-    id feedDescriptor;
 }
 
 @end

@@ -5,5 +5,6 @@
 //
 
 @protocol HLPReachabilityManagerDelegate
+- (void)T;
 @end
 

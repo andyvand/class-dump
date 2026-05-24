@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAllowedSharingOptions, CKContainerSetupInfo, CKShare;
+@class CKShare;
 
 @interface CKSharingContext
 {
     CKShare *_share;
-    CKContainerSetupInfo *_containerSetupInfo;
-    CKAllowedSharingOptions *_allowedOptions;
 }
 
 + (_Bool);
@@ -23,12 +21,10 @@
 - (void);
 - (void);
 - (id);
-- (void)8CloudKit19CloudCoreEntryPoint;
+- (void)_TtC8CloudKit19CloudCoreEntryPoint;
 - (id)¤v;
 
 // Remaining properties
-@property(retain, nonatomic) CKAllowedSharingOptions *allowedOptions; // @synthesize allowedOptions=_allowedOptions;
-@property(retain, nonatomic) CKContainerSetupInfo *containerSetupInfo; // @synthesize containerSetupInfo=_containerSetupInfo;
 @property(retain, nonatomic) CKShare *share; // @synthesize share=_share;
 
 @end

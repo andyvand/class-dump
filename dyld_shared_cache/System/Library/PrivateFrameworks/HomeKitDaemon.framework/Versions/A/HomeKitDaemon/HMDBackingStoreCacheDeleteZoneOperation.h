@@ -6,13 +6,10 @@
 
 #import <HomeKitDaemon/HMDBackingStoreOperation.h>
 
-@class HMDBackingStoreCacheZone;
-
 __attribute__((visibility("hidden")))
 @interface HMDBackingStoreCacheDeleteZoneOperation : HMDBackingStoreOperation
 {
     CDUnknownBlockType _creationBlock;
-    HMDBackingStoreCacheZone *_zone;
 }
 
 - (id);
@@ -25,7 +22,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType creationBlock; // @synthesize creationBlock=_creationBlock;
-@property(retain, nonatomic) HMDBackingStoreCacheZone *zone; // @synthesize zone=_zone;
 
 @end
 

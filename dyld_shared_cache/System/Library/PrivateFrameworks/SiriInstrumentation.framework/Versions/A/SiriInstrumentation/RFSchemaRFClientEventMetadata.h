@@ -6,22 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface RFSchemaRFClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_turnId;
-    SISchemaUUID *_requestId;
-    SISchemaUUID *_subRequestId;
-    SISchemaUUID *_aceViewId;
-    _Bool _hasTurnId;
-    _Bool _hasRequestId;
-    _Bool _hasSubRequestId;
-    _Bool _hasAceViewId;
 }
 
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,31 +29,23 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)udDriveSheet;
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)oots/4~CNq7ugDSDe4ziGkHYUfOPKq7oyk9D0C2QaF-EUA/Library/Caches/com.apple.xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDPurgeableApp_macOS.m:34 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)_filtered, successful_query, engram_id, server_change_token, ck_sync_state, original_group_id, last_read_message_timestamp, cloudkit_record_id, last_addressed_sim_id, is_blackholed, syndication_date, syndication_type, is_recovered, is_deleting_incoming_messages FROM chat WHERE ROWID = (SELECT chat_id from chat_message_join WHERE message_id = ?);
 - (id);
 - (id);
-- (id)onDataCount;
+- (id)accelerationDataCount;
 - (id)ctionStartToEstablishmentTime;
-- (void)DELLOCATION_UNKNOWN;
+- (void)GMSMODELLOCATION_UNKNOWN;
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUUID *aceViewId; // @synthesize aceViewId=_aceViewId;
-@property(nonatomic) _Bool hasAceViewId; // @synthesize hasAceViewId=_hasAceViewId;
-@property(nonatomic) _Bool hasRequestId; // @synthesize hasRequestId=_hasRequestId;
-@property(nonatomic) _Bool hasSubRequestId; // @synthesize hasSubRequestId=_hasSubRequestId;
-@property(nonatomic) _Bool hasTurnId; // @synthesize hasTurnId=_hasTurnId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *requestId; // @synthesize requestId=_requestId;
-@property(retain, nonatomic) SISchemaUUID *subRequestId; // @synthesize subRequestId=_subRequestId;
 @property(retain, nonatomic) SISchemaUUID *turnId; // @synthesize turnId=_turnId;
 
 @end

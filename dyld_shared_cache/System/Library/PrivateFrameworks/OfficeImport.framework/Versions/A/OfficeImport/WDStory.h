@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface WDStory
 {
     OADDrawable *mHead;
-    _Bool mOle;
 }
 
 - (_Bool);

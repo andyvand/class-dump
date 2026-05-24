@@ -9,9 +9,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
++ (_Bool)spond to thermal pressure aggressively;
 + (Class);
-- (id);
+- (id)ill not compute needs response state.;
 - (id);
 
 @end

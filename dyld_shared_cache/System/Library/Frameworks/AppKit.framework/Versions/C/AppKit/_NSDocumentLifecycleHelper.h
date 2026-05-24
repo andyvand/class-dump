@@ -8,16 +8,15 @@ __attribute__((visibility("hidden")))
 @interface _NSDocumentLifecycleHelper
 {
     id parent;
-    id customConfirmationDialogSettings;
 }
 
-+ (void);
-+ (unsigned long long);
-- (void);
-- (void);
-- (void);
++ (void)v40@0:(unsigned long long)arg1 8@"NSURLSession"16@"AVAssetDownloadTask"24@"NSArray"32;
++ (unsigned long long)nil host used in call to setAllowsAnyHTTPSCertificate:(CDUnknownBlockType)arg1 forHost: /* Error: Ran out of types for this method. */;
+- (void),V_doesSZExtractorConsumeExtractedData;
+- (void)URLSession adopters are required to have a bundle identifier. If you are developing a daemon, please enable CREATE_INFOPLIST_SECTION_IN_BINARY build setting.;
+- (void)t trust evaluate %p;
 - (id);
-- (id);
+- (id)/;
 - (void)@!;
 
 @end

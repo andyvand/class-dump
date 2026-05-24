@@ -7,9 +7,6 @@
 @interface NewsFeed.FormatStandingDataVisualization
 {
     id tagIdentifier;
-    id _query;
-    id _selectors;
-    id _properties;
 }
 
 @end

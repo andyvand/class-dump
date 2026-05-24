@@ -11,7 +11,7 @@
     unsigned long long _order;
 }
 
-+ (_Bool);
++ (_Bool)setSyncCollaboratorDictionary: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
@@ -19,7 +19,7 @@
 - (unsigned long long);
 - (id);
 - (void)M) packet (connect);
-- (id)00;
+- (id)500;
 
 // Remaining properties
 @property unsigned long long order; // @synthesize order=_order;

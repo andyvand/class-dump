@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, RPCompanionLinkClient;
-@protocol OS_dispatch_queue;
+@class RPCompanionLinkClient;
 
 @interface RTVehicleLocationCompanionLink
 {
     RPCompanionLinkClient *_client;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _vehicleEventHandler;
 }
 
 - (CDUnknownBlockType);
@@ -19,13 +16,13 @@
 - (void);
 - (void);
 - (id);
+- (id)X;
 - (id);
 - (id);
+- (id)ement;
+- (_Bool)not already available locally, performing recovery;
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (void)C%;
 - (id);
 - (void);
 - (id);
@@ -33,8 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) RPCompanionLinkClient *client; // @synthesize client=_client;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(copy, nonatomic) CDUnknownBlockType vehicleEventHandler; // @synthesize vehicleEventHandler=_vehicleEventHandler;
 
 @end
 

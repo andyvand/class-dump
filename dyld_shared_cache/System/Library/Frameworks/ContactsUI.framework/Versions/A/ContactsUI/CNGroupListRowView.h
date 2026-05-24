@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CNGroupListRowView
 {
 }
 
 - (void);
-- (void);
-- (void);
+- (void)T;
+- (void)J	;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -20,16 +18,10 @@
 - (id);
 - (void);
 - (_Bool)ineView"16@"NSTableColumn"24@32;
-- (void)OM_SUGGESTED_PHOTO_SELECTION;
+- (void)CN_PHOTO_AX_CUSTOM_SUGGESTED_PHOTO_SELECTION;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface NLXSchemaCDMAssetSetupStarted : SISchemaInstrumentationMessage
 {
@@ -19,9 +19,9 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (unsigned long long);
+- (id)arrayWithCapacity: /* Error: Ran out of types for this method. */;
+- (void)setup error;
+- (unsigned long long)";
 - (_Bool);
 - (_Bool);
 - (id);
@@ -32,7 +32,6 @@
 - (void)!;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *services; // @synthesize services=_services;
 
 @end

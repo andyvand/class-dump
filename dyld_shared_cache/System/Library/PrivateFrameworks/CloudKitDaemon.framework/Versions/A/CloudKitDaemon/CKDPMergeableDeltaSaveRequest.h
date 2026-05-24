@@ -4,22 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPMergeableDelta, CKDPMergeableValueIdentifier;
+@class CKDPMergeableDelta;
 
 @interface CKDPMergeableDeltaSaveRequest
 {
     CKDPMergeableDelta *_delta;
-    CKDPMergeableValueIdentifier *_identifier;
 }
 
-+ (id);
++ (id)`;
 - (_Bool);
 - (id);
+- (void)parseEndEventISO:(id)arg1 withApplet:error: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)[%{ptr}] %s[0x%04X] Waking up audioTimer
+;
 - (_Bool);
-- (unsigned int);
+- (unsigned int)u;
 - (_Bool);
 - (void);
 - (void);
@@ -28,15 +28,12 @@
 - (void);
 - (id);
 - (_Bool);
-- (Class)AssetHandlesSegregatedByVolume:block: /* Error: Ran out of types for this method. */;
-- (void)equestCFNetworkError;
+- (Class)enumerateAssetHandlesSegregatedByVolume:block: /* Error: Ran out of types for this method. */;
+- (void)FakeRequestCFNetworkError;
 - (id)_Ü=/GSg;
 
 // Remaining properties
-@property(retain, nonatomic) CKDPMergeableDelta *delta; // @synthesize delta=_delta;
-@property(readonly, nonatomic) _Bool hasDelta;
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(retain, nonatomic) CKDPMergeableValueIdentifier *identifier; // @synthesize identifier=_identifier;
 
 @end
 

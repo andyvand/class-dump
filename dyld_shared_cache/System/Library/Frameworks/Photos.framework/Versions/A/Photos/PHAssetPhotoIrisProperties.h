@@ -9,21 +9,17 @@
 @interface PHAssetPhotoIrisProperties : PHAssetPropertySet
 {
     unsigned short _photoIrisVisibilityState;
-    CDStruct_1b6d18a9 _photoIrisStillDisplayTime;
-    CDStruct_1b6d18a9 _photoIrisVideoDuration;
 }
 
-+ (id);
++ (id);
 + (id)creationDate:%@ identities:[%@] homeLocations:[%@] frequentLocations:[%@] locationShiftingRequired:%d> /* Error: Ran out of types for this method. */;
 - (unsigned short);
-- (CDStruct_1b6d18a9);
-- (CDStruct_1b6d18a9);
+- (CDStruct_198678f7);
+- (CDStruct_198678f7);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_1b6d18a9 photoIrisStillDisplayTime; // @synthesize photoIrisStillDisplayTime=_photoIrisStillDisplayTime;
-@property(readonly, nonatomic) CDStruct_1b6d18a9 photoIrisVideoDuration; // @synthesize photoIrisVideoDuration=_photoIrisVideoDuration;
-@property(readonly, nonatomic) unsigned short photoIrisVisibilityState; // @synthesize photoIrisVisibilityState=_photoIrisVisibilityState;
+@property(readonly, nonatomic) CDStruct_198678f7 photoIrisStillDisplayTime; // @synthesize photoIrisStillDisplayTime=_photoIrisStillDisplayTime;
 
 @end
 

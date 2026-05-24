@@ -6,47 +6,33 @@
 
 #import <AnnotationKit/AKAnnotation.h>
 
-@class NSArray, NSString, UIColor;
-
 @interface AKHighlightAnnotation : AKAnnotation
 {
     unsigned long long _style;
-    UIColor *_color;
-    NSArray *_quadPoints;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (_Bool);
 - (id);
 - (struct CGRect);
-- (void);
-- (id);
+- (void)@;
+- (id);
 - (void);
 - (void);
 - (id);
 - (unsigned long long);
-- (id);
-- (id);
-- (void);
+- (id)Repeat frequency or end date changed;
 - (id);
 - (void);
+- (id)6;
+- (void)Y;
 - (void);
 - (void);
 
 // Remaining properties
-@property __weak AKAnnotation *childAnnotation;
-@property(retain) UIColor *color; // @synthesize color=_color;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSArray *quadPoints; // @synthesize quadPoints=_quadPoints;
 @property unsigned long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
 
 @end
 

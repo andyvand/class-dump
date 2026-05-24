@@ -9,37 +9,27 @@
 @interface UIKit._UIFluidParallaxTransitionSettings
 {
     UIViewSpringAnimationBehaviorSettings *noninteractiveSpring;
-    UIViewSpringAnimationBehaviorSettings *interactiveSpring;
-    double rubberBandExtent;
-    double edgeFlickVelocityBoostFactor;
-    double edgeFlickBoostThreshold;
-    _Bool tracksImmediatelyWithoutSpring;
 }
 
 + (id);
-- (_Bool);
+- (_Bool)create the subscription, we'll still try to write the exit record as we'll retry updating the subscription on imagent launch;
+- (void)%@, syncErrors:(_Bool)arg1 %@;
+- (void).;
+- (void)2;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (double);
+- (double);
 - (id);
 - (id);
+- (double);
 - (double);
-- (double);
-- (void)er: /* Error: Ran out of types for this method. */;
+- (void)_setInsetsPresentedViewForGrabber: /* Error: Ran out of types for this method. */;
 - (id);
 - (void)lHíþÌèÌl;
 
 // Remaining properties
-@property(nonatomic) double edgeFlickBoostThreshold; // @synthesize edgeFlickBoostThreshold;
-@property(nonatomic) double edgeFlickVelocityBoostFactor; // @synthesize edgeFlickVelocityBoostFactor;
-@property(nonatomic, retain) UIViewSpringAnimationBehaviorSettings *interactiveSpring; // @synthesize interactiveSpring;
 @property(nonatomic, retain) UIViewSpringAnimationBehaviorSettings *noninteractiveSpring; // @synthesize noninteractiveSpring;
-@property(nonatomic) double rubberBandExtent; // @synthesize rubberBandExtent;
-@property(nonatomic) _Bool tracksImmediatelyWithoutSpring; // @synthesize tracksImmediatelyWithoutSpring;
 
 @end
 

@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 @interface SFShareSheetExtensionEvaluationEvent
 {
     NSString *_activityType;
-    NSString *_cacheKey;
-    unsigned long long _evaluationMs;
 }
 
 + (id);
@@ -26,16 +24,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *activityType; // @synthesize activityType=_activityType;
-@property(copy, nonatomic) NSString *cacheKey; // @synthesize cacheKey=_cacheKey;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned long long evaluationMs; // @synthesize evaluationMs=_evaluationMs;
-@property(readonly, copy, nonatomic) NSDictionary *eventPayload;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

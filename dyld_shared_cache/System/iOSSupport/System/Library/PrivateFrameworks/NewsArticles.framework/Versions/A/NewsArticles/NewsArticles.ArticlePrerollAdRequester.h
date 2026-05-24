@@ -7,9 +7,6 @@
 @interface NewsArticles.ArticlePrerollAdRequester
 {
     id requestManager;
-    id requestStore;
-    id journal;
-    id documentControllerProvider;
 }
 
 @end

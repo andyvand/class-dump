@@ -5,5 +5,6 @@
 //
 
 @protocol DownloadProgressEntryDelegate
+- (void);
 @end
 

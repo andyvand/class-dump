@@ -7,13 +7,12 @@
 @class NSArray;
 
 @protocol INSearchForNotebookItemsIntentResponseExport
-- (long long)atusCode;
+- (void);
+- (void)ly retrieved system conditions timeline;
+- (NSArray *);
+- (long long)hasStatusCode;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(copy) NSArray *notes;
-@property long long sortType;
-@property(copy) NSArray *taskLists;
-@property(copy) NSArray *tasks;
 @end
 

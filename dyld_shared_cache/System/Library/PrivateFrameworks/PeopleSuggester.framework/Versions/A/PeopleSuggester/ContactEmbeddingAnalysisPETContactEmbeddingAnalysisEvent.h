@@ -9,15 +9,13 @@
 @interface ContactEmbeddingAnalysisPETContactEmbeddingAnalysisEvent
 {
     NSString *_contactId;
-    ContactEmbeddingAnalysisPETNeuralNetEmbedding *_embeddingsAfterActivation;
-    ContactEmbeddingAnalysisPETNeuralNetEmbedding *_embeddingsBeforeActivation;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)_checkerJSRejectBeforeActivationTimeDiffInNs;
+- (void)_checkerJSRejectBeforeActivationScores;
+- (id)retrievalStatusCode;
+- (id)resultCount;
+- (void)J(;
 - (id);
 - (id);
 - (void);
@@ -25,14 +23,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void)JH
+;
+- (id)S_9allocatorIS3_EEEE;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *contactId; // @synthesize contactId=_contactId;
-@property(retain, nonatomic) ContactEmbeddingAnalysisPETNeuralNetEmbedding *embeddingsAfterActivation; // @synthesize embeddingsAfterActivation=_embeddingsAfterActivation;
 @property(retain, nonatomic) ContactEmbeddingAnalysisPETNeuralNetEmbedding *embeddingsBeforeActivation; // @synthesize embeddingsBeforeActivation=_embeddingsBeforeActivation;
 
 @end

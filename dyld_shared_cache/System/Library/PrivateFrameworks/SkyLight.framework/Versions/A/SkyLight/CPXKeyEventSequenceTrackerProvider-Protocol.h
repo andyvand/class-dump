@@ -5,9 +5,14 @@
 //
 
 @protocol CPXKeyEventSequenceTrackerProvider
+- (unsigned short)NSPersistentHistoryMigrateUpdates;
+- (void *)NSCoreDataDATriggerMergeableString;
+- (struct WSStructuralRegion *)han 1000 total attributes as part of the modeled composite attribute graph. This attribute, %@, has %lu.;
+- (unsigned short)Kit Fetch Records;
+- (unsigned long long)NSCKImportOperation;
+- (unsigned long long);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long currentRegionID;
 @property(readonly, nonatomic) unsigned short mainDisplayHeight;
 @end
 

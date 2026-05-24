@@ -7,10 +7,6 @@
 @interface TeaUI.KeyCommandManager
 {
     id isEnabled;
-    id traverser;
-    id registries;
-    id controller;
-    id selector;
 }
 
 @end

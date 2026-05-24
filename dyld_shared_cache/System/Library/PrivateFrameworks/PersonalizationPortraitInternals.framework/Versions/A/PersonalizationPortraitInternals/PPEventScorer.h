@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EAEmailAddressSet, NSDictionary, NSSet, PPTrialWrapper;
+@class NSDictionary;
 
 @interface PPEventScorer
 {
     NSDictionary *_pastEventTitlesAndParticipants;
-    double _earliestStartTime;
-    _Bool _shouldConsiderAlarms;
-    EAEmailAddressSet *_emailVIPEmailAddresses;
-    NSSet *_favoritesEmailAddresses;
-    int _rankingOptions;
-    long long _pastTitlesCount;
-    PPTrialWrapper *_trialWrapper;
 }
 
 + (void);
 + (void);
 + (void);
-- (_Bool);
+- (_Bool)&;
 - (id);
 - (id);
 - (id);

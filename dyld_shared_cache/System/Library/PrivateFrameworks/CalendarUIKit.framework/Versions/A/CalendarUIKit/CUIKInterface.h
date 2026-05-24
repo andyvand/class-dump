@@ -4,33 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CUIKInterface
 {
     long long _overrideLayoutDirection;
-    NSString *_overridePreferredContentSizeCategory;
 }
 
-+ (id)rProvider: /* Error: Ran out of types for this method. */;
++ (id)setEditingManagerProvider: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void)­¢Ç<hÂ;
-- (void)aW­a­aU­a­`Âa¢u°B Ã;
-- (void)Â¨ïý÷ªy
-uÐµ6ú;
 - (void);
-- (id);
-- (id)èª	Cøàª!;
-- (long long)ª©Røñ	ªÍçò?×ñª0_øñÇåò0ÁÚñªñGÁÚë@;
-- (long long)aâýàªáªñªQuäò1?×÷;
-- (_Bool)8Ë;
+- (void);
+- (void);
+- (void);
+- (id);
+- (id)B;
+- (long long);
+- (long long);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void)8;
 
 // Remaining properties
 @property long long overrideLayoutDirection; // @synthesize overrideLayoutDirection=_overrideLayoutDirection;
-@property(retain) NSString *overridePreferredContentSizeCategory; // @synthesize overridePreferredContentSizeCategory=_overridePreferredContentSizeCategory;
 
 @end
 

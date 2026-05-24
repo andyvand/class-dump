@@ -4,46 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class C2Multipeer, NSMutableDictionary, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class C2Multipeer;
 
 @interface C2MultipeerConnection
 {
     _Bool _isClientConnection;
-    C2Multipeer *_parent;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSString *_peerID;
-    NSMutableSet *_oustandingDiscoveryRequestsByRequestUUID;
-    NSMutableDictionary *_serverContextByRequestUUID;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void);
+- (void)@9j;
 - (void);
 - (void);
 - (id);
+- (void);
+- (id);
+- (_Bool)q;
+- (id);
+- (void);
+- (void)es"{vector<CGRect, std:(id)arg1:allocator<CGRect>>="__begin_"^{CGRect}"__end_"^{CGRect}""{?="__cap_"^{CGRect}}}"maxBaseLinePair"{?="baseLineFromTop"d"baseLineFromBottom"d}} /* Error: Ran out of types for this method. */;
+- (void)s;
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)!;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool isClientConnection; // @synthesize isClientConnection=_isClientConnection;
-@property(retain, nonatomic) NSMutableSet *oustandingDiscoveryRequestsByRequestUUID; // @synthesize oustandingDiscoveryRequestsByRequestUUID=_oustandingDiscoveryRequestsByRequestUUID;
 @property(nonatomic) __weak C2Multipeer *parent; // @synthesize parent=_parent;
-@property(retain, nonatomic) NSString *peerID; // @synthesize peerID=_peerID;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSMutableDictionary *serverContextByRequestUUID; // @synthesize serverContextByRequestUUID=_serverContextByRequestUUID;
 
 @end
 

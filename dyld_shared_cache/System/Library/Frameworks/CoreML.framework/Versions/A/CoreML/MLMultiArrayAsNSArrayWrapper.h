@@ -11,9 +11,9 @@
     MLMultiArray *_multiArray;
 }
 
-- (void);
-- (id);
-- (id);
+- (void)torage. This device supports %lu bytes.;
+- (id);
+- (id);
 - (id);
 - (unsigned long long)1Â0@ù
 × ;

@@ -9,28 +9,16 @@
 @interface NSViewDynamicToolTipManager
 {
     NSView *_view;
-    struct __CFRunLoopTimer *_monitorMovementTimerRef;
-    struct CGRect _trackedBounds;
-    struct CGPoint _lastFixedMousePoint;
-    struct CGRect _lastFixedMousePointToolTipRect;
-    double _lastFixedMousePointTime;
-    double _displayToolTipDelay;
-    struct CGRect _toolTipTrackingRect;
-    long long _toolTipTrackingRectTag;
-    long long _visibleViewTrackingRectTag;
-    unsigned int _trackingAreaAroundMouse:1;
-    unsigned int _inQuickToolTipMode:1;
-    unsigned int _mouseInsideVisibleTrackingRect:1;
 }
 
 + (void);
 + (void);
 + (void);
-+ (id);
-- (void);
-- (void);
-- (void);
-- (void);
++ (id)@;
+- (void)er sources;
+- (void)o retrieve data AppleBCMWLANBusInterfacePCIe:(id)arg1 wifi-module-sn;
+- (void)ingService() for disk0 failed!;
+- (void);
 - (void);
 - (struct CGRect);
 - (_Bool);
@@ -41,37 +29,37 @@
 - (id);
 - (struct CGRect);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (int);
-- (void);
-- (struct CGPoint);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)und match for domain <%{private}s> (index %d) owner <%{private}s>;
+- (void)ith %d domains (Nodes used = %d, child maps used = %d, bytes used = %d);
+- (void)-type-requested;
 - (void);
 - (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
+- (void)=}24^{_CFURLResponse=}32@40@48;
+- (void)48@0:8Q16@"NSDictionary"24@"NSString"32@?<v@?B>40 /* Error: Ran out of types for this method. */;
+- (void)@0:8 /* Error: Ran out of types for this method. */;
+- (void)_setCreationDate: /* Error: Ran out of types for this method. */;
+- (int)%@ properties set by +[NSURLProtocol setProperty:(_Bool)arg1 forKey:inRequest:] should only include property list types (NSArray, NSDictionary, NSString, NSData, NSDate, NSNumber). /* Error: Ran out of types for this method. */;
+- (void)statement;
+- (struct CGPoint)kgroundSessionDidStartAppWake:called with ID:%@, when we already had an app wake with ID:%@ /* Error: Ran out of types for this method. */;
+- (void)-context. We will not be able to download.;
+- (void);
+- (void));
+- (void);
+- (void);
+- (void)imedByTube;
+- (_Bool)_offqueue_open;
+- (void);
+- (void)(%d) %{public}s[%p] CBB_add_bytes failed;
 - (void);
 - (void)deepestScreen;
-- (id)esPboardTypes: /* Error: Ran out of types for this method. */;
+- (id)_typeIdentifiersIncludingConversionsFromTypeIdentifiers:usesPboardTypes: /* Error: Ran out of types for this method. */;
 - (void)Optical Alignment:%d
  /* Error: Ran out of types for this method. */;
-- (void)erItemViewCustomOverlay;
+- (void)NSScrubberItemViewCustomOverlay;
 - (id);
 
 // Remaining properties

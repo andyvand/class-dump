@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSCurationContext, CPAnalytics, NSObject, NSSet, PGManagerWorkingContext, PGWallpaperLibraryAnalysisSummary, PGWallpaperSuggestionInformer, PHPhotoLibrary;
-@protocol OS_os_log;
+@class PGManagerWorkingContext;
 
 @interface PHAWallpaperSuggestionAnalyticsSender
 {
     PGManagerWorkingContext *_workingContext;
-    PHPhotoLibrary *_photoLibrary;
-    NSObject<OS_os_log> *_loggingConnection;
-    CPAnalytics *_analytics;
-    PGWallpaperLibraryAnalysisSummary *_libraryAnalysisSummary;
-    PGWallpaperSuggestionInformer *_informer;
-    NSSet *_topPeopleLocalIdentifiers;
-    NSSet *_shufflePeopleLocalIdentifiers;
-    long long _eligiblePetsCount;
-    CLSCurationContext *_curationContext;
 }
 
 + (CDStruct_2f811cea);
@@ -28,15 +18,15 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (long long);
-- (void)fo: /* Error: Ran out of types for this method. */;
+- (long long);
+- (void)dejunkedDedupedItemIdentifiersWithItems:options:debugInfo: /* Error: Ran out of types for this method. */;
 
 @end
 

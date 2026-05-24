@@ -25,8 +25,8 @@
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)postNotificationName:(id)arg1 object:(id *)arg2;
+- (id)_diagnosticAttributes;
 - (unsigned long long);
 - (_Bool);
 - (void);

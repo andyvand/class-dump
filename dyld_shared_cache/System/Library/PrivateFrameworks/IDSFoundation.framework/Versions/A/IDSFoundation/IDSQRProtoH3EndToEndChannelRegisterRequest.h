@@ -9,7 +9,6 @@
 @interface IDSQRProtoH3EndToEndChannelRegisterRequest
 {
     IDSQRProtoH3EndToEndChannelRegisterE2EChannelInfo *_channelInfo;
-    NSData *_e2eChannelUuid;
 }
 
 - (void);
@@ -21,14 +20,13 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)withSDPServiceRecordRef:(id)arg1;
+- (void)oteInteractionSessionTextSessionDidChange:(id)arg1 ];
 - (id);
 - (id);
 - (void)Definition.from;
 
 // Remaining properties
-@property(retain, nonatomic) IDSQRProtoH3EndToEndChannelRegisterE2EChannelInfo *channelInfo; // @synthesize channelInfo=_channelInfo;
 @property(retain, nonatomic) NSData *e2eChannelUuid; // @synthesize e2eChannelUuid=_e2eChannelUuid;
 
 @end

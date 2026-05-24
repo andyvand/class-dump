@@ -4,29 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArrayController, NSDate, NSString;
+@class NSArrayController;
 
 @interface MCActivityAggregate
 {
     NSArrayController *_monitorController;
-    unsigned long long _baseItemsDone;
-    unsigned long long _baseItemsTotal;
-    double _baseUnifiedDone;
-    _Bool _canCancel;
-    unsigned long long _itemsDone;
-    unsigned long long _itemsTotal;
-    double _unifiedDone;
-    double _progress;
-    _Bool _isProgressing;
-    double _estimatedTimeRemaining;
-    _Bool _isResetting;
-    long long _activityType;
-    NSString *_nameSingular;
-    NSString *_namePlural;
-    NSString *_status;
-    NSString *_bkItemDescription;
-    NSDate *_lastUpdateTimestamp;
-    double _startTime;
 }
 
 + (double);
@@ -36,13 +18,13 @@
 + (_Bool);
 + (_Bool);
 - (double);
-- (void);
+- (void)G;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)G;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -72,37 +54,21 @@
 - (void);
 - (void);
 - (void);
+- (double)EA9?;
+- (id)\*;
+- (void);
+- (id);
+- (void)setFreeTranscriptIdentifier:(id)arg1;
+- (void);
+- (void)PodcastsFoundation;
+- (id);
+- (long long)vendor_name;
 - (double);
-- (id);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (double);
-- (void);
-- (void);
+- (void)K`Qk}S;
 
 // Remaining properties
-@property long long activityType; // @synthesize activityType=_activityType;
-@property(copy) NSString *bkItemDescription; // @synthesize bkItemDescription=_bkItemDescription;
 @property(nonatomic) _Bool canCancel;
-@property(nonatomic) double estimatedTimeRemaining;
-@property(readonly, nonatomic) _Bool isProgressIndeterminate;
-@property(nonatomic) _Bool isProgressing;
-@property _Bool isResetting; // @synthesize isResetting=_isResetting;
-@property unsigned long long itemsDone;
-@property unsigned long long itemsTotal;
-@property(retain) NSDate *lastUpdateTimestamp; // @synthesize lastUpdateTimestamp=_lastUpdateTimestamp;
-@property(readonly, nonatomic) NSArrayController *monitorController;
-@property(copy) NSString *namePlural; // @synthesize namePlural=_namePlural;
-@property(copy) NSString *nameSingular; // @synthesize nameSingular=_nameSingular;
-@property(nonatomic) double progress;
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
-@property(copy) NSString *status; // @synthesize status=_status;
-@property double unifiedDone;
 
 @end
 

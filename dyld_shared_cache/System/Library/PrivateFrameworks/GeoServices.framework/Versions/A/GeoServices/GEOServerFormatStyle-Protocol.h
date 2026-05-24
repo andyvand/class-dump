@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol GEOServerFormatStyle
 
 // Remaining properties
 @property(readonly, nonatomic) long long styleType;
-@property(readonly, nonatomic) NSString *token;
 @end
 

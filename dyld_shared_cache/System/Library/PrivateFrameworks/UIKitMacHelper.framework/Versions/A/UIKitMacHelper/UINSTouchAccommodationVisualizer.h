@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSMutableSet, UINSSceneView;
+@class UINSSceneView;
 
 __attribute__((visibility("hidden")))
 @interface UINSTouchAccommodationVisualizer
 {
     UINSSceneView *_sceneView;
-    NSMutableSet *_pool;
-    NSMutableDictionary *_touches;
 }
 
 - (void);
@@ -26,7 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property __weak UINSSceneView *sceneView; // @synthesize sceneView=_sceneView;
-@property(readonly) NSArray *touchKeys;
 
 @end
 

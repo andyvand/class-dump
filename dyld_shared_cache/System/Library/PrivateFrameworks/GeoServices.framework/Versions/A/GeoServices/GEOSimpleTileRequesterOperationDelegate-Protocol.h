@@ -5,6 +5,7 @@
 //
 
 @protocol GEOSimpleTileRequesterOperationDelegate
+- (_Bool)(()))));
 - (_Bool)48Q56@64@72@80^Q88;
 @end
 

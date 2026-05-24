@@ -5,5 +5,7 @@
 //
 
 @protocol HMDCompositeSettingsDatabaseAdapterDelegate
+- (void);
+- (void)So8NSObjectC;
 @end
 

@@ -10,19 +10,14 @@ __attribute__((visibility("hidden")))
 @interface AVScrubberValueTransformer
 {
     id <AVScrubberValueTransformerDelegate> _delegate;
-    struct {
-        _Bool scrubberValueTransformerRequiresTransformation;
-        _Bool scrubberValueTransformer_transformedTimeInterval;
-        _Bool scrubberValueTransformer_reverseTransformedTimeInterval;
-    } _delegateRespondsTo;
 }
 
 + (_Bool);
 + (Class);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)@;
+- (void);
 
 @end
 

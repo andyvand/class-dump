@@ -6,23 +6,21 @@
 
 #import <EventKitUI/EKEventTextDetailItem.h>
 
-@class NSString, NSURL, UITableViewCell;
+@class UITableViewCell;
 
 __attribute__((visibility("hidden")))
 @interface EKEventURLRichDetailItem : EKEventTextDetailItem
 {
     UITableViewCell *_cell;
-    NSURL *_normalizedURL;
-    _Bool _visibilityChanged;
 }
 
++ (id);&s;
 + (id);
-+ (id);
-+ (_Bool);
++ (_Bool)s;
 - (id);
-- (void);
+- (void)oit;
 - (id);
-- (_Bool);
+- (_Bool)@@"_LTTranslationFeedback";
 - (void);
 - (void);
 - (id);
@@ -30,17 +28,11 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void)endar: /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (void)setPrefersManagedCalendar: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

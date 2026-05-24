@@ -17,7 +17,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSData *attachment;

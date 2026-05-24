@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface RESOLVESchemaRESOLVEClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_resolveId;
-    _Bool _hasResolveId;
 }
 
 - (void);
@@ -22,18 +21,16 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)onse_macOS.m:38 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)IMDChatQueries;
 - (id);
-- (id);
-- (id)ssionerror;
+- (id)k;
+- (id)_whichOneof_Sessionerror;
 - (id)I,N,V_year;
-- (void)NT_DENIED;
+- (void)GMSOPENAIERRORCODE_CONSENT_DENIED;
 
 // Remaining properties
-@property(nonatomic) _Bool hasResolveId; // @synthesize hasResolveId=_hasResolveId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *resolveId; // @synthesize resolveId=_resolveId;
 
 @end

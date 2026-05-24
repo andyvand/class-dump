@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDHomeKitVersion, HMDResidentDevice, HMFBoolean, HMFProductInfo, NSDictionary, NSSet;
+@class HMDResidentDevice, HMFProductInfo;
 
 __attribute__((visibility("hidden")))
 @interface HMDResidentDeviceElectionParameters
 {
     HMDResidentDevice *_resident;
-    HMFBoolean *_enabled;
-    long long _location;
-    NSSet *_accessories;
-    HMFProductInfo *_productInfo;
-    HMDHomeKitVersion *_version;
 }
 
 - (id);
-- (id);
-- (id);
-- (long long);
-- (id);
+- (id)ing",R,N,V_geoCollectionsSettingsPath;
+- (id)le;
+- (long long)9;
+- (id)nsharing.logSessionType;
 - (unsigned long long);
 - (id);
 - (id);
@@ -34,13 +29,7 @@ __attribute__((visibility("hidden")))
 - (void)interaction.holdDuration.enabled;
 
 // Remaining properties
-@property(readonly, copy) NSSet *accessories; // @synthesize accessories=_accessories;
-@property(readonly, copy) NSDictionary *dictionaryRepresentation;
-@property(readonly, copy, getter=isEnabled) HMFBoolean *enabled; // @synthesize enabled=_enabled;
-@property(readonly) long long location; // @synthesize location=_location;
 @property(readonly) HMFProductInfo *productInfo; // @synthesize productInfo=_productInfo;
-@property(readonly) HMDResidentDevice *resident; // @synthesize resident=_resident;
-@property(readonly) HMDHomeKitVersion *version; // @synthesize version=_version;
 
 @end
 

@@ -6,31 +6,29 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSNumber, NSString;
-
 @interface INOpenFileIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
-+ (_Bool);
++ (int)setIsLowQuality:(long long)arg1;
++ (int)decodeBoolForKey:(long long)arg1;
++ (long long)canGenerateThumbnailsForContentType:(int)arg1 atSize:(int)arg2;
++ (_Bool)archivedDataWithRootObject:(long long)arg1 requiringSecureCoding:error: /* Error: Ran out of types for this method. */;
++ (_Bool);
 - (void);
 - (id);
 - (long long);
 - (id);
 - (long long);
-- (void);
+- (void)n token for a nil path.;
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)_windowBufferSize;
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)WiFiNetworkSharingNetworkListUpdate;
 - (id);
 - (id);
 - (id);
@@ -40,17 +38,6 @@
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSArray *entities;
-@property(readonly) unsigned long long hash;
-@property(copy) NSNumber *numResults;
-@property(copy) NSString *query;
-@property(copy) NSNumber *success;
-@property(readonly) Class superclass;
 
 @end
 

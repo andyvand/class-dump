@@ -13,11 +13,11 @@
 + (void);
 + (void);
 + (void);
-+ (id);
++ (id);
 + (id);
 + (unsigned long long);
 + (unsigned long long);
-+ (id)ueCollection;
++ (id)IMBroadcastingKeyValueCollection;
 + (void)Ô5ÖÿÔeôü;
 
 @end

@@ -5,15 +5,11 @@
 //
 
 @class NSObject;
-@protocol CRKCancelable, CRKClassKitCurrentUser, CRKClassKitFacade;
+@protocol CRKClassKitFacade;
 
 @interface CRKClassKitCurrentUserProvider
 {
     _Bool _currentUserFetched;
-    id <CRKClassKitCurrentUser> _currentUser;
-    NSObject<CRKClassKitFacade> *_classKitFacade;
-    id <CRKCancelable> _currentUserSubscription;
-    unsigned long long _sequenceNumber;
 }
 
 - (void);
@@ -32,17 +28,13 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)n;
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<CRKClassKitFacade> *classKitFacade; // @synthesize classKitFacade=_classKitFacade;
-@property(retain, nonatomic) id <CRKClassKitCurrentUser> currentUser; // @synthesize currentUser=_currentUser;
-@property(nonatomic) _Bool currentUserFetched; // @synthesize currentUserFetched=_currentUserFetched;
-@property(retain, nonatomic) id <CRKCancelable> currentUserSubscription; // @synthesize currentUserSubscription=_currentUserSubscription;
-@property(nonatomic) unsigned long long sequenceNumber; // @synthesize sequenceNumber=_sequenceNumber;
 
 @end
 

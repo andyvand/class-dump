@@ -19,7 +19,7 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -27,28 +27,13 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)!$;
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool activePrototypingEnabled; // @dynamic activePrototypingEnabled;
-@property(nonatomic) _Bool multiWindowEnabled; // @dynamic multiWindowEnabled;
-@property(nonatomic) _Bool prototypeSettingsEnabled; // @dynamic prototypeSettingsEnabled;
-@property(nonatomic) _Bool remotePrototypingEnabled; // @dynamic remotePrototypingEnabled;
-@property(nonatomic) _Bool ringerButtonShowsUI; // @dynamic ringerButtonShowsUI;
-@property(nonatomic) _Bool ringerSwitchShowsUI; // @dynamic ringerSwitchShowsUI;
-@property(nonatomic) _Bool shouldClearPrototypeCachesForMigration; // @dynamic shouldClearPrototypeCachesForMigration;
-@property(nonatomic) _Bool shouldClearSettingsArchivesForMigration; // @dynamic shouldClearSettingsArchivesForMigration;
-@property(retain, nonatomic) NSString *testRecipeDescription; // @dynamic testRecipeDescription;
-@property(nonatomic) _Bool testRecipeEatsRingerButton; // @synthesize testRecipeEatsRingerButton=_testRecipeEatsRingerButton;
-@property(nonatomic) _Bool testRecipeEatsRingerSwitch; // @dynamic testRecipeEatsRingerSwitch;
-@property(nonatomic) _Bool testRecipeEatsVolumeDown; // @dynamic testRecipeEatsVolumeDown;
-@property(nonatomic) _Bool testRecipeEatsVolumeUp; // @dynamic testRecipeEatsVolumeUp;
 @property(retain, nonatomic) NSString *testRecipeIdentifier; // @dynamic testRecipeIdentifier;
-@property(nonatomic) _Bool volumeDownShowsUI; // @dynamic volumeDownShowsUI;
-@property(nonatomic) _Bool volumeUpShowsUI; // @dynamic volumeUpShowsUI;
 
 @end
 

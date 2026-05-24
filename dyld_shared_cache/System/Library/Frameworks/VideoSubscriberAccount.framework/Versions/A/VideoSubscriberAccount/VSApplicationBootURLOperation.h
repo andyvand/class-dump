@@ -6,17 +6,11 @@
 
 #import <VideoSubscriberAccount/VSAsyncOperation.h>
 
-@class NSDictionary, NSString, NSURL, VSFailable, VSPreferences;
+@class VSPreferences;
 
 @interface VSApplicationBootURLOperation : VSAsyncOperation
 {
     _Bool _developer;
-    _Bool _test;
-    _Bool _skipSystemTrustVerification;
-    NSURL *_url;
-    VSFailable *_urlOrError;
-    VSPreferences *_preferences;
-    NSDictionary *_trustInfo;
 }
 
 - (_Bool);
@@ -33,9 +27,9 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id);
+- (void)P;
+- (void);
 - (void);
 - (id);
 - (id);
@@ -43,20 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isDeveloper) _Bool developer; // @synthesize developer=_developer;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) VSPreferences *preferences; // @synthesize preferences=_preferences;
-@property(nonatomic) _Bool skipSystemTrustVerification; // @synthesize skipSystemTrustVerification=_skipSystemTrustVerification;
-@property(readonly) Class superclass;
-@property(nonatomic, getter=isForTesting) _Bool test; // @synthesize test=_test;
-@property(retain, nonatomic) NSDictionary *trustInfo; // @synthesize trustInfo=_trustInfo;
-@property(retain, nonatomic) NSURL *url; // @synthesize url=_url;
-@property(retain, nonatomic) VSFailable *urlOrError; // @synthesize urlOrError=_urlOrError;
 
 @end
 

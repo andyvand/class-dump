@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FigCaptureSourceConfiguration, FigDepthDataCaptureConnectionConfiguration;
+@class FigCaptureSourceConfiguration;
 
 __attribute__((visibility("hidden")))
 @interface FigCaptureSessionParsedLiDARDepthPipelineConfiguration
 {
     FigCaptureSourceConfiguration *_timeOfFlightCameraConfiguration;
-    FigDepthDataCaptureConnectionConfiguration *_depthDataConnectionConfiguration;
 }
 
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)URLForDirectory:inDomain:appropriateForURL:create:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) FigDepthDataCaptureConnectionConfiguration *depthDataConnectionConfiguration; // @synthesize depthDataConnectionConfiguration=_depthDataConnectionConfiguration;
 @property(readonly, nonatomic) FigCaptureSourceConfiguration *timeOfFlightCameraConfiguration; // @synthesize timeOfFlightCameraConfiguration=_timeOfFlightCameraConfiguration;
 
 @end

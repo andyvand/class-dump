@@ -6,28 +6,11 @@
 
 #import <ConfigurationEngineModel/CEMPayloadBase.h>
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface CEMApplicationListInstalledApplicationsCommand_StatusInstalledApplicationListItem : CEMPayloadBase
 {
     NSString *_statusBundleIdentifier;
-    NSString *_statusExternalVersionIdentifier;
-    NSString *_statusVersion;
-    NSString *_statusShortVersion;
-    NSString *_statusName;
-    NSString *_statusBundleSize;
-    NSString *_statusDynamicSize;
-    NSNumber *_statusIsValidated;
-    NSNumber *_statusInstalling;
-    NSNumber *_statusAppStoreVendable;
-    NSNumber *_statusDeviceBasedVPP;
-    NSNumber *_statusBetaApp;
-    NSNumber *_statusAdHocCodeSigned;
-    NSNumber *_statusHasUpdateAvailable;
-    NSNumber *_statusDownloadFailed;
-    NSNumber *_statusDownloadWaiting;
-    NSNumber *_statusDownloadPaused;
-    NSNumber *_statusDownloadCancelled;
 }
 
 + (id);
@@ -70,29 +53,12 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)pppp.ppppppppppppppppppppppppppp.pp.p..p.pppppppppp.pppp.p.p......p....p.p.p.ppp.pp.p..p.p.p.p.p.pp.p..pppp.ppppppp.pppp.pppp.p.pppppppppp.ppppppppppppppppp.....ppp.ppppp.ppppppppppppppppp..................................................................qqqqrqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqssssqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqssssssssssssqqqqqqqqqqqqqqqssqqqqqqqqqqqqqqqsqqqqqqqqqqqqqqrsqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqssssssssss6;
 - (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSNumber *statusAdHocCodeSigned; // @synthesize statusAdHocCodeSigned=_statusAdHocCodeSigned;
-@property(copy, nonatomic) NSNumber *statusAppStoreVendable; // @synthesize statusAppStoreVendable=_statusAppStoreVendable;
-@property(copy, nonatomic) NSNumber *statusBetaApp; // @synthesize statusBetaApp=_statusBetaApp;
 @property(copy, nonatomic) NSString *statusBundleIdentifier; // @synthesize statusBundleIdentifier=_statusBundleIdentifier;
-@property(copy, nonatomic) NSString *statusBundleSize; // @synthesize statusBundleSize=_statusBundleSize;
-@property(copy, nonatomic) NSNumber *statusDeviceBasedVPP; // @synthesize statusDeviceBasedVPP=_statusDeviceBasedVPP;
-@property(copy, nonatomic) NSNumber *statusDownloadCancelled; // @synthesize statusDownloadCancelled=_statusDownloadCancelled;
-@property(copy, nonatomic) NSNumber *statusDownloadFailed; // @synthesize statusDownloadFailed=_statusDownloadFailed;
-@property(copy, nonatomic) NSNumber *statusDownloadPaused; // @synthesize statusDownloadPaused=_statusDownloadPaused;
-@property(copy, nonatomic) NSNumber *statusDownloadWaiting; // @synthesize statusDownloadWaiting=_statusDownloadWaiting;
-@property(copy, nonatomic) NSString *statusDynamicSize; // @synthesize statusDynamicSize=_statusDynamicSize;
-@property(copy, nonatomic) NSString *statusExternalVersionIdentifier; // @synthesize statusExternalVersionIdentifier=_statusExternalVersionIdentifier;
-@property(copy, nonatomic) NSNumber *statusHasUpdateAvailable; // @synthesize statusHasUpdateAvailable=_statusHasUpdateAvailable;
-@property(copy, nonatomic) NSNumber *statusInstalling; // @synthesize statusInstalling=_statusInstalling;
-@property(copy, nonatomic) NSNumber *statusIsValidated; // @synthesize statusIsValidated=_statusIsValidated;
-@property(copy, nonatomic) NSString *statusName; // @synthesize statusName=_statusName;
-@property(copy, nonatomic) NSString *statusShortVersion; // @synthesize statusShortVersion=_statusShortVersion;
-@property(copy, nonatomic) NSString *statusVersion; // @synthesize statusVersion=_statusVersion;
 
 @end
 

@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBLocalSQLContext, HMFActivity, NSString;
+@class HMBLocalSQLContext, NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMBLocalSQLContextOutputBlock
 {
     NSString *_identifier;
-    unsigned long long _blockRow;
-    HMFActivity *_activity;
-    HMBLocalSQLContext *_owner;
-    unsigned long long _zoneRow;
 }
 
 + (id)NSString";
@@ -22,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)(;
 - (id);
 - (id);
 - (id);
@@ -32,18 +28,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long)n ;
 
 // Remaining properties
-@property(readonly, nonatomic) HMFActivity *activity; // @synthesize activity=_activity;
-@property(nonatomic) unsigned long long blockRow; // @synthesize blockRow=_blockRow;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(nonatomic) __weak HMBLocalSQLContext *owner; // @synthesize owner=_owner;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long zoneRow; // @synthesize zoneRow=_zoneRow;
 
 @end
 

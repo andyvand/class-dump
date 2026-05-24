@@ -9,13 +9,6 @@
 @interface CalDAVCalendarUserSearchTask
 {
     _Bool _findAttendees;
-    _Bool _findLocations;
-    _Bool _findUsers;
-    _Bool _findGroups;
-    _Bool _findResources;
-    long long _searchType;
-    unsigned long long _resultLimit;
-    NSSet *_searchStrings;
 }
 
 + (_Bool);
@@ -28,7 +21,7 @@
 - (long long);
 - (void);
 - (id);
-- (void);
+- (void)pollAndUpdateALSlux;
 - (void);
 - (void);
 - (void);
@@ -36,22 +29,15 @@
 - (void);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)sed section identifiers because nothing has actually changed.;
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)uggestManagerAllProtocol>";
+- (_Bool);
+- (void)P;
 
 // Remaining properties
-@property(nonatomic) _Bool findAttendees; // @synthesize findAttendees=_findAttendees;
-@property _Bool findGroups; // @synthesize findGroups=_findGroups;
-@property(nonatomic) _Bool findLocations; // @synthesize findLocations=_findLocations;
-@property _Bool findResources; // @synthesize findResources=_findResources;
-@property _Bool findUsers; // @synthesize findUsers=_findUsers;
-@property(nonatomic) unsigned long long resultLimit; // @synthesize resultLimit=_resultLimit;
 @property(retain, nonatomic) NSSet *searchStrings; // @synthesize searchStrings=_searchStrings;
-@property(nonatomic) long long searchType; // @synthesize searchType=_searchType;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary;
 @protocol SXJSONObjectMergerClassProviding;
 
 @interface SXJSONObjectMerger
 {
     id <SXJSONObjectMergerClassProviding> _classProvider;
-    NSArray *_exclusionKeys;
-    NSMutableDictionary *_transformers;
 }
 
 - (id);
@@ -32,8 +29,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) id <SXJSONObjectMergerClassProviding> classProvider; // @synthesize classProvider=_classProvider;
-@property(readonly, nonatomic) NSArray *exclusionKeys; // @synthesize exclusionKeys=_exclusionKeys;
-@property(readonly, nonatomic) NSMutableDictionary *transformers; // @synthesize transformers=_transformers;
 
 @end
 

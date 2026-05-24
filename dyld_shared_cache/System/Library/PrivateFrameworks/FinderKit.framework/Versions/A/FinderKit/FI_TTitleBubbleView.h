@@ -6,25 +6,12 @@
 
 #import <FinderKit/FI_TDrawRectView.h>
 
-@class NSAttributedString, NSColor, NSString;
+@class NSAttributedString;
 
 __attribute__((visibility("hidden")))
 @interface FI_TTitleBubbleView : FI_TDrawRectView
 {
     struct TDesktopTitleMetrics _textMetrics;
-    struct TString _toolTip;
-    struct CGSize _idealSize;
-    _Bool _isSelected;
-    _Bool _isDragItem;
-    _Bool _useActiveAppearance;
-    _Bool _useDesktopSelectionColor;
-    _Bool _useAutoLayoutInPreviewPane;
-    _Bool _isOverlappingTitle;
-    NSColor *_superViewsBackgroundColor;
-    vector_daac2569 _tagColorIndexes;
-    struct vector<std::pair<TitleViewBadgeID, FI_TTitleViewBadge *>, std::allocator<std::pair<TitleViewBadgeID, FI_TTitleViewBadge *>>> _badgeViews;
-    _Bool _isDimmed;
-    _Bool _drawAntiAliased;
 }
 
 + (id);
@@ -39,11 +26,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)*;
 - (void);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
@@ -51,7 +38,7 @@ __attribute__((visibility("hidden")))
 - (pair_9764cbd7);
 - (unsigned long long);
 - (pair_2447b6e7);
-- (vector_672b9697);
+- (vector_672b9697)k;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -63,26 +50,26 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void);
 - (struct CGRect);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)performSelector:(struct CGSize)arg1 withObject:withObject: /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)updateToLoadingState;
+- (void)sortedArrayWithOptions:usingComparator: /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (double);
 - (void);
-- (void);
+- (void);
 - (double);
 - (struct CGSize);
 - (id);
@@ -94,7 +81,7 @@ __attribute__((visibility("hidden")))
 - (void)ÁÐ!¬Cùqõ1Â0@ù
 × ;
 - (void)28@0:(unsigned long long)arg1 8B16Q20;
-- (unsigned long long)ickness: /* Error: Ran out of types for this method. */;
+- (unsigned long long)updateMinimumBrowserItemThickness: /* Error: Ran out of types for this method. */;
 - (void)³4ö#ABG;
 - (void)È;
 - (void)ì;
@@ -106,23 +93,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSAttributedString *attrString;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isDimmed) _Bool dimmed;
-@property(nonatomic, getter=isDragItem) _Bool dragItem;
-@property(nonatomic) _Bool drawAntiAliased; // @synthesize drawAntiAliased=_drawAntiAliased;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long maxLines;
-@property(nonatomic, getter=isOverlappingTitle) _Bool overlappingTitle;
-@property(nonatomic, getter=isSelected) _Bool selected;
-@property(retain, nonatomic) NSColor *superViewsBackgroundColor;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool useActiveAppearance;
-@property(nonatomic) _Bool useAutoLayoutInPreviewPane; // @synthesize useAutoLayoutInPreviewPane=_useAutoLayoutInPreviewPane;
-@property(nonatomic) _Bool useDesktopSelectionColor; // @synthesize useDesktopSelectionColor=_useDesktopSelectionColor;
 
 @end
 

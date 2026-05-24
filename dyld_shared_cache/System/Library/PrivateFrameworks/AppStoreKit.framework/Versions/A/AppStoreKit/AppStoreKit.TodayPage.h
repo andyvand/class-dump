@@ -9,16 +9,6 @@
 @interface AppStoreKit.TodayPage : AppStoreKit.BasePage
 {
     id shelfOrdering;
-    id shelfMapping;
-    id title;
-    id titleDetail;
-    id shortTitleDetail;
-    id longTitle;
-    id tabTitle;
-    id nextPage;
-    id onboardingCardIds;
-    id allCardMediaKinds;
-    id feedPreviewUrl;
 }
 
 @end

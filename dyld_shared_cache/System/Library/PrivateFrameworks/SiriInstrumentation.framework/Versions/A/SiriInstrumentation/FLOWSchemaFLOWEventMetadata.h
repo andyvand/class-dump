@@ -6,46 +6,33 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID, SISchemaVersion;
+@class SISchemaUUID;
 
 @interface FLOWSchemaFLOWEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_taskId;
-    NSString *_resultCandidateId;
-    SISchemaVersion *_version;
-    SISchemaUUID *_flowId;
-    SISchemaUUID *_requestId;
-    SISchemaUUID *_trpId;
-    SISchemaUUID *_subRequestId;
-    _Bool _hasTaskId;
-    _Bool _hasResultCandidateId;
-    _Bool _hasVersion;
-    _Bool _hasFlowId;
-    _Bool _hasRequestId;
-    _Bool _hasTrpId;
-    _Bool _hasSubRequestId;
 }
 
 - (id);
 - (id);
+- (void)BA9#;
 - (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)h;
 - (void);
 - (id);
 - (void);
@@ -68,28 +55,14 @@
 - (id)Ð! FùQà°1Â0@ù
 × ;
 - (id)aODDRequestsWithoutAssetsCounts";
-- (_Bool)mRequestContext: /* Error: Ran out of types for this method. */;
+- (_Bool)setHasIfPlatformRequestContext: /* Error: Ran out of types for this method. */;
 - (id)ionAdvertisingEndStarted",&,N,V_startedOrChanged;
 - (id)Ð@ÑÄÑÄÒÓ@ÕðÕ;
 - (void)q;
 - (id)ÿÊb¯]+;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaUUID *flowId; // @synthesize flowId=_flowId;
-@property(nonatomic) _Bool hasFlowId; // @synthesize hasFlowId=_hasFlowId;
-@property(nonatomic) _Bool hasRequestId; // @synthesize hasRequestId=_hasRequestId;
-@property(nonatomic) _Bool hasResultCandidateId; // @synthesize hasResultCandidateId=_hasResultCandidateId;
-@property(nonatomic) _Bool hasSubRequestId; // @synthesize hasSubRequestId=_hasSubRequestId;
-@property(nonatomic) _Bool hasTaskId; // @synthesize hasTaskId=_hasTaskId;
-@property(nonatomic) _Bool hasTrpId; // @synthesize hasTrpId=_hasTrpId;
-@property(nonatomic) _Bool hasVersion; // @synthesize hasVersion=_hasVersion;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaUUID *requestId; // @synthesize requestId=_requestId;
-@property(copy, nonatomic) NSString *resultCandidateId; // @synthesize resultCandidateId=_resultCandidateId;
-@property(retain, nonatomic) SISchemaUUID *subRequestId; // @synthesize subRequestId=_subRequestId;
 @property(retain, nonatomic) SISchemaUUID *taskId; // @synthesize taskId=_taskId;
-@property(retain, nonatomic) SISchemaUUID *trpId; // @synthesize trpId=_trpId;
-@property(retain, nonatomic) SISchemaVersion *version; // @synthesize version=_version;
 
 @end
 

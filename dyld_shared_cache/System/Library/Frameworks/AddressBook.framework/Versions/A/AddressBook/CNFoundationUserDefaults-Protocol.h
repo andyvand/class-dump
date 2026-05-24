@@ -4,16 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @protocol CNFoundationUserDefaults
+- (void);
 
 // Remaining properties
-@property(nonatomic) NSDictionary *filteredAccountsAndContainers;
-@property unsigned long long nameOrder;
-@property _Bool preferNickname;
-@property unsigned long long shortNameFormat;
-@property(nonatomic, getter=isShortNameFormatEnabled) _Bool shortNameFormatEnabled;
 @property _Bool showContactPhotos;
 @end
 

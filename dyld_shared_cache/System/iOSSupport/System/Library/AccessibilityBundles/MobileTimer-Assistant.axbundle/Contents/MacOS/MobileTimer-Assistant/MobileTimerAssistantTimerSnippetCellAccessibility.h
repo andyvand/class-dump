@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class)animateWithDuration:animations: /* Error: Ran out of types for this method. */;
 + (id);
 - (_Bool);
 - (unsigned long long);

@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface TSUZipFileWriter : TSUZipWriter
 {
     id <TSURandomWriteChannel> _writeChannel;
-    CDUnknownBlockType _writeChannelCompletionHandler;
 }
 
 + (void);

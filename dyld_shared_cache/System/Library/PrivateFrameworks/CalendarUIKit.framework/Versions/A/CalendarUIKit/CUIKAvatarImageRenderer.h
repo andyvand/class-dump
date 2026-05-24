@@ -12,9 +12,9 @@
 }
 
 + (id);
-- (id);
 - (id);
-- (void)tionURLForCalendar:inStore: /* Error: Ran out of types for this method. */;
+- (id);
+- (void)subscriptionURLForCalendar:inStore: /* Error: Ran out of types for this method. */;
 
 @end
 

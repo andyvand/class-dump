@@ -7,7 +7,6 @@
 @interface AppStoreKit.SelectionHandlerCollectionElementsObserver
 {
     id presenter;
-    id componentHeightCache;
 }
 
 @end

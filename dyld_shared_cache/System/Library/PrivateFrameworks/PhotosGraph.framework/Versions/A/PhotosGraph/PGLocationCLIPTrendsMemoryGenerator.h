@@ -11,8 +11,8 @@
     unsigned long long _minimumSceneAnalysisVersion;
 }
 
-- (unsigned long long);
-- (id);
+- (unsigned long long)setControllerClass: /* Error: Ran out of types for this method. */;
+- (id)__didRegisterWindowDidDeminiaturizeNotification;
 - (void);
 
 @end

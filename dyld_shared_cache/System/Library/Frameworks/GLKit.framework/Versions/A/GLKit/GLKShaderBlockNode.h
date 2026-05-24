@@ -4,22 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableString, NSString;
+@class NSString;
 
 @interface GLKShaderBlockNode
 {
     struct GLKBigInt_s _mask;
-    GLKShaderBlockNode *_parent;
-    GLKShaderBlockNode *_next;
-    GLKShaderBlockNode *_children;
-    NSString *_label;
-    NSString *_loopVar;
-    int _type;
-    int _unrollCt;
-    unsigned int _index;
-    NSMutableString *_blockText;
-    int _propertyClass;
-    _Bool _indexedMask;
 }
 
 + (void);
@@ -32,7 +21,7 @@
 + (id);
 + (void);
 + (void);
-- (int);
+- (int)@;
 - (void);
 - (void);
 - (void);
@@ -49,41 +38,23 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)R;
 - (id);
 - (int);
 - (id);
 - (void);
-- (void);
+- (void)d24;
 - (void);
 - (struct GLKBigInt_s);
 - (unsigned int);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableString *blockText; // @synthesize blockText=_blockText;
-@property(nonatomic) GLKShaderBlockNode *children; // @synthesize children=_children;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned int index; // @synthesize index=_index;
-@property(nonatomic) _Bool indexedMask; // @synthesize indexedMask=_indexedMask;
 @property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(copy, nonatomic) NSString *loopVar; // @synthesize loopVar=_loopVar;
-@property(nonatomic) struct GLKBigInt_s mask; // @synthesize mask=_mask;
-@property(nonatomic) GLKShaderBlockNode *next; // @synthesize next=_next;
-@property(nonatomic) GLKShaderBlockNode *parent; // @synthesize parent=_parent;
-@property(nonatomic) int propertyClass; // @synthesize propertyClass=_propertyClass;
-@property(readonly) Class superclass;
-@property(nonatomic) int type; // @synthesize type=_type;
-@property(nonatomic) int unrollCt; // @synthesize unrollCt=_unrollCt;
 
 @end
 

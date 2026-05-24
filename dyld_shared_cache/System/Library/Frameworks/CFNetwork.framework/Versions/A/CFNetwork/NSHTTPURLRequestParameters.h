@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSMutableDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface NSHTTPURLRequestParameters
 {
     NSString *method;
-    NSMutableDictionary *fields;
-    NSArray *extraCookies;
-    NSData *data;
-    unsigned long long pageNotFoundCacheLifetime;
-    _Bool shouldHandleCookies;
-    _Bool _pad1;
-    _Bool _pad2;
-    _Bool _pad3;
 }
 
-- (void);
+- (void)tance of corner vertex %.3f
+;
 - (id);
 - (id);
 - (void);

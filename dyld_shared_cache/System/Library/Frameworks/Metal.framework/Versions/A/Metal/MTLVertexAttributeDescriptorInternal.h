@@ -10,8 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MTLVertexAttributeDescriptorInternal : MTLVertexAttributeDescriptor
 {
     unsigned long long _vertexFormat;
-    unsigned long long _offset;
-    unsigned long long _bufferIndex;
 }
 
 - (unsigned long long);
@@ -19,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (void)ntResourceListHeader}^{IOAccelSegmentResourceDescriptorGroup}{IOAccelResourceList=[256S]^{IOAccelSegmentResourceDescriptorGroup}QQIIIIIII^?^v}@@QQ^@^{MTLIOAccelCommandBufferResourceInfo}@^@IQ^{IOAccelSegmentListShmemHeader}^{IOAccelSegmentKernelCommmandListHeader}IIiiI^{IOAccelSegmentResourceListHeader}^{IOAccelSegmentResourceDescriptorGroup}I};
-- (unsigned long long)eDataCache;
+- (unsigned long long)20MTLPipelineDataCache;
 - (void);
 
 @end

@@ -6,18 +6,11 @@
 
 #import <PassKitCore/PKPaymentCredential.h>
 
-@class NSString, PKCurrencyAmount, PKDigitalIssuanceServiceProviderItem, PKDigitalIssuanceServiceProviderProduct, PKPaymentSetupProduct, PKServiceProviderPurchase;
+@class NSString, PKPaymentSetupProduct;
 
 @interface PKPaymentDigitalIssuanceProductCredential : PKPaymentCredential
 {
     PKPaymentSetupProduct *_product;
-    NSString *_productIdentifier;
-    PKServiceProviderPurchase *_purchase;
-    PKCurrencyAmount *_balance;
-    PKCurrencyAmount *_price;
-    PKDigitalIssuanceServiceProviderProduct *_serviceProviderProduct;
-    PKDigitalIssuanceServiceProviderItem *_serviceProviderItem;
-    NSString *_currency;
 }
 
 - (id);
@@ -30,8 +23,8 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -40,17 +33,10 @@
 - (id);
 - (id);
 - (void)T@"NSString",C,N,V_sharedCredentialIdentifier;
-- (void)nationDeviceSignature;
+- (void)destinationDeviceSignature;
 
 // Remaining properties
-@property(copy, nonatomic) PKCurrencyAmount *balance; // @synthesize balance=_balance;
-@property(retain, nonatomic) NSString *currency; // @synthesize currency=_currency;
-@property(copy, nonatomic) PKCurrencyAmount *price; // @synthesize price=_price;
-@property(readonly, nonatomic) PKPaymentSetupProduct *product; // @synthesize product=_product;
 @property(copy, nonatomic) NSString *productIdentifier; // @synthesize productIdentifier=_productIdentifier;
-@property(retain, nonatomic) PKServiceProviderPurchase *purchase; // @synthesize purchase=_purchase;
-@property(retain, nonatomic) PKDigitalIssuanceServiceProviderItem *serviceProviderItem; // @synthesize serviceProviderItem=_serviceProviderItem;
-@property(retain, nonatomic) PKDigitalIssuanceServiceProviderProduct *serviceProviderProduct; // @synthesize serviceProviderProduct=_serviceProviderProduct;
 
 @end
 

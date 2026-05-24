@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface IFTSchemaIFTSystemRequirementProtectedAppRequest : SISchemaInstrumentationMessage
 {
     NSString *_bundleId;
-    _Bool _hasBundleId;
 }
 
 - (void);
@@ -21,21 +20,19 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)in))  AND m.is_finished == 1  AND m.is_from_me == 0  AND m.item_type == 0  AND m.is_system_message == 0  AND c.is_blackholed != 1  AND c.is_filtered NOT IN (?;
 - (_Bool);
 - (id);
 - (id)!ÔDù1àÐ1Â0@ù
 × ;
-- (void);
+- (void)hasClassifierModelAsset;
 - (id)eviceAttributes;
 - (_Bool)TEndOfPlanExpression",&,N,V_endOfPlan;
-- (id)ybackContextTier1;
+- (id)FLOWSchemaFLOWMediaPlayerPlaybackContextTier1;
 - (void)Ð-Òÿ°Î´!#;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(nonatomic) _Bool hasBundleId; // @synthesize hasBundleId=_hasBundleId;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

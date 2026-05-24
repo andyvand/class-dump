@@ -17,8 +17,8 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (void)RemovingMailto;
+- (id);
+- (void)stringRemovingMailto;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *title; // @synthesize title=_title;

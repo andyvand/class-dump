@@ -4,34 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, SLDataTimelineSnapshotCollection;
-@protocol OS_dispatch_queue, OS_xpc_object;
-
 __attribute__((visibility("hidden")))
 @interface SLDataTimelineConnection
 {
     _Bool _connected;
-    _Bool _updateBlockEnqueued;
-    NSString *_name;
-    SLDataTimelineSnapshotCollection *_collection;
-    NSObject<OS_xpc_object> *_connection;
-    NSObject<OS_dispatch_queue> *_connectionQueue;
-    CDUnknownBlockType _errorHandler;
-    CDUnknownBlockType _updateBlock;
-    NSObject<OS_dispatch_queue> *_updateBlockQueue;
 }
 
-+ (id);
-- (id);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
++ (id)AND OLD.%@ NOT NULL AND (NEW.%@ IS NULL OR NEW.%@ IS NULL)%@);
+- (id)recordZoneName;
+- (_Bool)needsRecoveryFromZoneDelete;
+- (void)%@;
+- (id)rameter with type %@, expected NSUUID or well-formed NSString;
+- (void)t1.Z_PK where T0.%@ = %u;
+- (void)%@ VALUES (OLD.%@); END;
+- (void)(;
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void)?;
 - (id);
 - (void);
 - (void);
@@ -44,15 +33,7 @@ __attribute__((visibility("hidden")))
 - (_Bool)0ýÙÿ0¬qê;
 
 // Remaining properties
-@property(retain, nonatomic) SLDataTimelineSnapshotCollection *collection; // @synthesize collection=_collection;
 @property(nonatomic) _Bool connected; // @synthesize connected=_connected;
-@property(retain, nonatomic) NSObject<OS_xpc_object> *connection; // @synthesize connection=_connection;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *connectionQueue; // @synthesize connectionQueue=_connectionQueue;
-@property(copy, nonatomic) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, copy, nonatomic) CDUnknownBlockType updateBlock; // @synthesize updateBlock=_updateBlock;
-@property(nonatomic) _Bool updateBlockEnqueued; // @synthesize updateBlockEnqueued=_updateBlockEnqueued;
-@property(readonly, retain, nonatomic) NSObject<OS_dispatch_queue> *updateBlockQueue; // @synthesize updateBlockQueue=_updateBlockQueue;
 
 @end
 

@@ -11,10 +11,10 @@
 
 + (_Bool);
 - (void);
-- (struct CGSize);
+- (struct CGSize);
 - (id);
-- (id);
-- (void);
+- (id)IMBalloonApp;
+- (void);
 
 // Remaining properties
 @property(nonatomic) struct CGSize preferredArtworkSize; // @synthesize preferredArtworkSize=_preferredArtworkSize;

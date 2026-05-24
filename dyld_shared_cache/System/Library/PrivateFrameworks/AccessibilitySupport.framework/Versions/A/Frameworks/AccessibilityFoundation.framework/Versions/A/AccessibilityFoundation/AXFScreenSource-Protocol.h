@@ -8,11 +8,10 @@
 @protocol AXFScreenSourceDelegate;
 
 @protocol AXFScreenSource
+- (AXFScreen *)tification told us:%@ /* Error: Ran out of types for this method. */;
+- (NSArray *);
 
 // Remaining properties
 @property(nonatomic) __weak id <AXFScreenSourceDelegate> delegate;
-@property(readonly, nonatomic) AXFScreen *mainScreen;
-@property(readonly, nonatomic) NSArray *screens;
-@property(readonly, nonatomic) struct CGRect totalScreenBounds;
 @end
 

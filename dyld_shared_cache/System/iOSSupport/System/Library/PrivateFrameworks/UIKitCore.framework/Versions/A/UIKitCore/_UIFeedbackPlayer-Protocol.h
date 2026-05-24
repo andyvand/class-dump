@@ -5,6 +5,7 @@
 //
 
 @protocol _UIFeedbackPlayer
+- (void);
 - (void)ð!@ùÑ]°1Â0@ù
 × ;
 - (void (^)(void))Ô ;

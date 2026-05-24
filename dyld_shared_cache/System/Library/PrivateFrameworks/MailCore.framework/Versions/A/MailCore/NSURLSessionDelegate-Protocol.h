@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSURLAuthenticationChallenge, NSURLSession;
+
 @protocol NSURLSessionDelegate
+
+@optional
+- (void);
+- (void)o] Compact:(NSURLSession *)arg1 %d Large:(NSURLAuthenticationChallenge *)arg2 %d (%2.2f%%)
+
+;
 @end
 

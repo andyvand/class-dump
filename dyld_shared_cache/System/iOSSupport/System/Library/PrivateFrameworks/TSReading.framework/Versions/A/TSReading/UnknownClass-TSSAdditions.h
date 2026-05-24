@@ -11,9 +11,9 @@
 + (id);
 + (id);
 + (void);
-- (id);
+- (id)nge;
 - (long long);
-- (id);
+- (id)GaplessPlayerItemTransition;
 - (_Bool);
 
 // Remaining properties

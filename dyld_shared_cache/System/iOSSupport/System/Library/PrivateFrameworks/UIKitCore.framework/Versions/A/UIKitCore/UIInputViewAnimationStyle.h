@@ -10,34 +10,26 @@ __attribute__((visibility("hidden")))
 @interface UIInputViewAnimationStyle
 {
     _Bool animated;
-    double duration;
-    unsigned long long extraOptions;
-    _Bool interactivelyCancelled;
-    _Bool _isLegacy;
-    _Bool force;
-    _Bool _dontMerge;
-    _Bool _forAssertion;
-    NSMutableArray *_propertyAnimators;
 }
 
 + (id)× ;
 + (id)4@32;
 + (id);
 - (_Bool);
-- (void);
+- (void)R	k;
 - (id);
 - (void);
 - (_Bool);
 - (id);
 - (id);
+- (id),D,N;
+- (double)sources=[%@] %@>;
 - (id);
-- (double);
-- (id);
-- (void);
+- (void)hh8?k;
 - (void);
 - (void);
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool)Ô ;
@@ -45,10 +37,10 @@ __attribute__((visibility("hidden")))
 × ;
 - (void)× ;
 - (struct CGAffineTransform)erDelegate>";
-- (void)wGroupOpacityAfterAnimation:(_Bool)arg1;
-- (void):(unsigned long long)arg1 auxillaryKind:isSupplementary: /* Error: Ran out of types for this method. */;
-- (_Bool)nstraintForInputViewSet:(id)arg1 hostView:containerView: /* Error: Ran out of types for this method. */;
-- (double)mAppearance;
+- (void)setShouldAllowGroupOpacityAfterAnimation:(_Bool)arg1;
+- (void)initWithElementKind:(unsigned long long)arg1 index:auxillaryKind:isSupplementary: /* Error: Ran out of types for this method. */;
+- (_Bool)horizontalConstraintForInputViewSet:(id)arg1 hostView:containerView: /* Error: Ran out of types for this method. */;
+- (double)_findWindowDrivingSystemAppearance;
 - (id)Entry;
 - (_Bool);
 - (id)alScrollIndicatorBaseInsets=%@, contentOffset=%@, cornerAdjust=%f, _accuracy=%f, CONTENT_MINX=%f, CONTENT_WIDTH=%f, _parentAdjustment=%@, scrollView=%@;
@@ -63,19 +55,6 @@ __attribute__((visibility("hidden")))
 - (id)ÿ;
 
 // Remaining properties
-@property(nonatomic) _Bool animated; // @synthesize animated;
-@property(readonly, nonatomic) long long animationType;
-@property(readonly, nonatomic) _Bool canDismissWithScrollView;
-@property(readonly, nonatomic) _Bool canTakeSnapshot;
-@property(nonatomic) _Bool dontMerge; // @synthesize dontMerge=_dontMerge;
-@property(nonatomic) double duration; // @synthesize duration;
-@property(nonatomic) unsigned long long extraOptions; // @synthesize extraOptions;
-@property(readonly, nonatomic) double finalAlpha;
-@property(readonly, nonatomic) struct CGAffineTransform finalTransform;
-@property(nonatomic) _Bool forAssertion; // @synthesize forAssertion=_forAssertion;
-@property(nonatomic) _Bool force; // @synthesize force;
-@property(nonatomic) _Bool interactivelyCancelled; // @synthesize interactivelyCancelled;
-@property(readonly, nonatomic) _Bool isAnimationCompleted;
 @property(retain, nonatomic) NSMutableArray *propertyAnimators; // @synthesize propertyAnimators=_propertyAnimators;
 
 @end

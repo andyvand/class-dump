@@ -7,9 +7,6 @@
 @interface NTPBCKDate
 {
     double _time;
-    struct {
-        unsigned int time:1;
-    } _has;
 }
 
 - (void);
@@ -19,7 +16,7 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (double);
@@ -27,7 +24,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hasTime;
-@property(nonatomic) double time; // @synthesize time=_time;
 
 @end
 

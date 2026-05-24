@@ -7,15 +7,12 @@
 @interface RemindersUICore.TTRMInlinePermissionCellView
 {
     id configuration;
-    id delegate;
-    id hostingView;
-    id preferredCellHeight;
 }
 
 + (Class);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void)Q;
 

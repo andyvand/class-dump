@@ -13,7 +13,7 @@
 + (id);
 - (struct TextBoxesOffsets);
 - (id);
-- (id);
+- (id);
 
 @end
 

@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id);
 - (int);
 - (_Bool);
-- (void);
+- (void)72;
 - (id);
 - (id);
 

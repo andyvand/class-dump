@@ -10,7 +10,7 @@
 {
 }
 
-- (id);
+- (id)4;
 - (id);
 - (id);
 - (unsigned long long)CheckHelper";

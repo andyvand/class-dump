@@ -13,7 +13,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)Color",&,N,V_inactiveItemBackgroundColor;
 
 // Remaining properties
 @property(readonly, nonatomic) struct _NSRange mboxRange; // @synthesize mboxRange=_mboxRange;

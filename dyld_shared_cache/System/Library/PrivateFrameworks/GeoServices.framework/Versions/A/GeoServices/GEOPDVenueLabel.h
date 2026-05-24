@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDVenueLabel
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_detail;
-    NSString *_nameShort;
-    NSString *_name;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_unknownFields:1;
-        unsigned int read_detail:1;
-        unsigned int read_nameShort:1;
-        unsigned int read_name:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
-- (void);
-- (id);
+- (void)"16@0:(id)arg1 8;
+- (id)initWithTimeOut: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool));
 - (id);
 - (id)ructuredAttribute"b1"read_tokenSet"b1"wrote_anyField"b1};
-- (id)ePricingAlert;
+- (id)_showedSurgePricingAlert;
 - (id),	;
 - (void)ÄÑUº»´J@;
 

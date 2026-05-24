@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray;
-@protocol FMQueueingStrategy;
+@class NSMutableArray;
 
 @interface FMQueue
 {
     NSMutableArray *_buffer;
-    id <FMQueueingStrategy> _strategy;
 }
 
 + (id);
 + (id);
 + (id);
-- (void);
+- (void)n;
 - (id);
 - (id);
 - (id);
@@ -28,7 +26,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly) NSArray *allObjects;
 @property(readonly) unsigned long long count;
 
 @end

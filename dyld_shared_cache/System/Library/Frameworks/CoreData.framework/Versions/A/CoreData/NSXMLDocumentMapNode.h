@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)!.;
 - (id);
-- (id);
+- (id)actionWithType:(id)arg1;
 
 @end
 

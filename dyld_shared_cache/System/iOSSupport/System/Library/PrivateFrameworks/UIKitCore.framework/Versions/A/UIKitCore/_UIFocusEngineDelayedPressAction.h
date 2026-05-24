@@ -10,22 +10,18 @@ __attribute__((visibility("hidden")))
 @interface _UIFocusEngineDelayedPressAction
 {
     _UIFocusEventRecognizer *_sender;
-    long long _pressType;
-    double _timestamp;
 }
 
 + (void);
-- (long long);
-- (id);
+- (long long)setWasDetonated: /* Error: Ran out of types for this method. */;
+- (id)oupID from all chats.;
 - (void);
 - (double);
-- (id)uickLook;
+- (id)UISceneSessionRoleQuickLook;
 - (void)I±;
 
 // Remaining properties
-@property(readonly, nonatomic) long long pressType; // @synthesize pressType=_pressType;
 @property(readonly, nonatomic) __weak _UIFocusEventRecognizer *sender; // @synthesize sender=_sender;
-@property(readonly, nonatomic) double timestamp; // @synthesize timestamp=_timestamp;
 
 @end
 

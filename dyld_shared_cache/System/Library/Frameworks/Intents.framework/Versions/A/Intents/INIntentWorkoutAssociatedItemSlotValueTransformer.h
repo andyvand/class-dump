@@ -11,9 +11,9 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)SearchType: /* Error: Ran out of types for this method. */;
++ (long long)StringAsDateSearchType: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)ype:(id)arg1;
+- (id)StringAsWorkoutGoalUnitType:(id)arg1;
 
 @end
 

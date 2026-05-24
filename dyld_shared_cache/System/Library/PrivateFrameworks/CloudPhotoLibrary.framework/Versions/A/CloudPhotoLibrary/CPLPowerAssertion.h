@@ -12,10 +12,10 @@
 + (void);
 + (void);
 + (void);
-+ (void)õÓ©à#;
++ (void);
 + (id);
 + (void);
-+ (_Bool)TI: /* Error: Ran out of types for this method. */;
++ (_Bool)extensionForFileUTI: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -9,12 +9,10 @@
 @interface CKVTaskSettings
 {
     _Atomic _Bool _evaluationEnabled;
-    _Atomic _Bool _evaluationWithProfileEnabled;
-    CKVLocalization *_localization;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 - (void);
 - (void);

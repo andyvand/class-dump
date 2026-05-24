@@ -13,13 +13,13 @@
     CATTaskRequest *_request;
 }
 
-+ (_Bool);
++ (_Bool)_unixTimeZoneNeedsLookup;
 - (id);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain, nonatomic) CATTaskRequest *request; // @synthesize request=_request;

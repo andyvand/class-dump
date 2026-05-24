@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSSet, NSURL;
+@class NSSet, NSURL;
 
 @interface CalDAVMkcalendarWithFallbackTaskGroup
 {
     NSURL *_url;
-    NSSet *_primaryElements;
-    _Bool _shouldSupportVEVENT;
-    _Bool _shouldSupportVTODO;
-    NSDictionary *_headersToOverride;
-    NSDictionary *_responseHeaders;
-    NSSet *_fallbackElements;
 }
 
 - (_Bool);
@@ -23,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)A;
 - (id);
 - (id);
 - (void);
@@ -34,10 +28,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *fallbackElements; // @synthesize fallbackElements=_fallbackElements;
-@property(retain, nonatomic) NSDictionary *headersToOverride; // @synthesize headersToOverride=_headersToOverride;
-@property(retain, nonatomic) NSDictionary *responseHeaders; // @synthesize responseHeaders=_responseHeaders;
-@property(nonatomic) _Bool shouldSupportVEVENT; // @synthesize shouldSupportVEVENT=_shouldSupportVEVENT;
-@property(nonatomic) _Bool shouldSupportVTODO; // @synthesize shouldSupportVTODO=_shouldSupportVTODO;
 
 @end
 

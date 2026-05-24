@@ -7,25 +7,6 @@
 @interface PromotedContentUI.SearchRequestPayloadStrategyProvider
 {
     id bundleID;
-    id locationManager;
-    id systemInfoProvider;
-    id idAccount;
-    id configurationProvider;
-    id featureFlag;
-    id searchAdsSettings;
-    id coreSettings;
-    id routingInfoProvider;
-    id rotatingIdentifierProvider;
-    id enrichmentIdentifierProvider;
-    id jsVersionProvider;
-    id appAdCapabilities;
-    id poiAdCapabilities;
-    id frequencyCapProvider;
-    id executionEnvironment;
-    id trialManager;
-    id defaultsKeyValueSource;
-    id fpdiPoolManager;
-    id timer;
 }
 
 @end

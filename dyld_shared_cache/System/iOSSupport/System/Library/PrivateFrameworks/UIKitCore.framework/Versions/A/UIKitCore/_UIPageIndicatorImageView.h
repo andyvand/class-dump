@@ -16,16 +16,16 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
+- (void)fBatches:shouldFetchArchivedRecords:activity:completionBlock: /* Error: Ran out of types for this method. */;
 - (id);
 - (struct CGSize);
 - (id);
 - (void);
 - (_Bool)]1Â0@ù
 × ;
-- (void)eyOnOrderFront: /* Error: Ran out of types for this method. */;
-- (id)End;
-- (void)ng;
+- (void)setBecomeKeyOnOrderFront: /* Error: Ran out of types for this method. */;
+- (id)_gotTouchEnd;
+- (void)_applyVisualStyleToBackgroundViewAndHighlighting;
 - (struct CGSize)teStatusBarIfNecessary;
 
 // Remaining properties

@@ -7,6 +7,7 @@
 @class HMApplicationData;
 
 @protocol HMActionSetBuilderPrivate
+- (HMApplicationData *)_setVisibilityStateForHighlight:shouldForceUpdate:sharingConsideration: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) HMApplicationData *applicationData;

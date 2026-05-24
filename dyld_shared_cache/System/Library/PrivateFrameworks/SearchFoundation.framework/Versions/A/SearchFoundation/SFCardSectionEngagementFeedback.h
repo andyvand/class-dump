@@ -11,12 +11,9 @@
 @interface SFCardSectionEngagementFeedback : SFCardSectionFeedback
 {
     SFPunchout *_destination;
-    unsigned long long _triggerEvent;
-    unsigned long long _actionCardType;
-    unsigned long long _actionTarget;
 }
 
-+ (_Bool);
++ (_Bool);
 
 @end
 

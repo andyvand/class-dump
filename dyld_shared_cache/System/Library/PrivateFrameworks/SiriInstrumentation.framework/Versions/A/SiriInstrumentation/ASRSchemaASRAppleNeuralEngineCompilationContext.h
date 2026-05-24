@@ -6,15 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ASRSchemaASRAppleNeuralEngineCompilationEnded, ASRSchemaASRAppleNeuralEngineCompilationStarted, NSData;
+@class ASRSchemaASRAppleNeuralEngineCompilationStarted;
 
 @interface ASRSchemaASRAppleNeuralEngineCompilationContext : SISchemaInstrumentationMessage
 {
     ASRSchemaASRAppleNeuralEngineCompilationStarted *_started;
-    ASRSchemaASRAppleNeuralEngineCompilationEnded *_ended;
-    _Bool _hasStarted;
-    _Bool _hasEnded;
-    unsigned long long _whichContextevent;
 }
 
 - (unsigned long long);
@@ -22,18 +18,18 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)textView:(id)arg1 clickedOnLink: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)EAAccessoryArrived:(id)arg1;
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)lConfirmationRate: /* Error: Ran out of types for this method. */;
+- (id)setTrialConfirmationRate: /* Error: Ran out of types for this method. */;
 - (id)\j¬kl°mhn;
-- (id)ied;
+- (id)unspecified;
 - (void)é¾%;
 - (void)¬\¦ÿ;
 - (id)(£ÿí]«n';
@@ -41,12 +37,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) ASRSchemaASRAppleNeuralEngineCompilationEnded *ended; // @synthesize ended=_ended;
-@property(nonatomic) _Bool hasEnded; // @synthesize hasEnded=_hasEnded;
-@property(nonatomic) _Bool hasStarted; // @synthesize hasStarted=_hasStarted;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) ASRSchemaASRAppleNeuralEngineCompilationStarted *started; // @synthesize started=_started;
-@property(readonly, nonatomic) unsigned long long whichContextevent; // @synthesize whichContextevent=_whichContextevent;
 
 @end
 

@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSView;
-
 __attribute__((visibility("hidden")))
 @interface AVEventPassthroughView
 {
     _Bool _showsDimmingView;
-    NSView *_dimmingView;
 }
 
 - (_Bool);
@@ -18,13 +15,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)shouldResumeCardsForUser:(id)arg1 withCompletion:%li /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSView *dimmingView; // @synthesize dimmingView=_dimmingView;
 @property(nonatomic) _Bool showsDimmingView; // @synthesize showsDimmingView=_showsDimmingView;
 
 @end

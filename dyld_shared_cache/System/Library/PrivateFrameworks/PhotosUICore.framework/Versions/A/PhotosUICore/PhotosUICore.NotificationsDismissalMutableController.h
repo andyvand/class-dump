@@ -7,7 +7,6 @@
 @interface PhotosUICore.NotificationsDismissalMutableController
 {
     id _dismissedIdentifiers;
-    id observable;
 }
 
 @end

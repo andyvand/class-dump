@@ -6,16 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSDictionary, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIDisparityRefinementAntialiasV3 : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputPreprocImage;
-    CIImage *inputDisparityWeightImage;
-    NSDictionary *inputTuningParameters;
-    NSNumber *inputScale;
 }
 
 - (void);
@@ -32,11 +28,7 @@ __attribute__((visibility("hidden")))
 - (id)y|~~~~UmfzPiaz\sm}wyv~££££¬¬¬¬¬¬¬¬    wnnhsWc[h^qor||||JbZmVe]pvvs|f||XiatIcXp||||i^ngzkkckssssdddd.@0LBH:L[[[[Rc`ceeaebf^li{y££££¬¬¬¬ªª««§§§§¢¢¢¢¤°¯°°½½½½¿¿¿¿´´´´££££uuuucccc[[[[YYYY^^^^oooo~~Oe\qrrnrzzzzu}|thmjnSb]ginnnwwwwgxwyuzx~sa~|on{zUpin~hzuboe{dvo}~xgrhv¦¦¦¦±±±±©©©©zzzznnnnK_WgISG`;QE_Xd]k¢¢¢Zne{|x¢¢¢¢££££lxt~ws~}qmgt\`Wi^b[fhiiijjjjccccVZQ\eeaew}}}¥¥¥¥d}lzv~±±±±¼¼¼¼¶¶¶¶¥¥¥¥nMf[rrum}a{wPql~wwwwvvvvmyyzx~}p}~dg^v]iau}YohyWjbssssspsmtTg^n>ZMhMg_oakevFaXtyyyymmmmMTI[U^VdVhcn /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) CIImage *inputDisparityWeightImage; // @synthesize inputDisparityWeightImage;
 @property(retain) CIImage *inputImage; // @synthesize inputImage;
-@property(retain) CIImage *inputPreprocImage; // @synthesize inputPreprocImage;
-@property(retain) NSNumber *inputScale; // @synthesize inputScale;
-@property(retain) NSDictionary *inputTuningParameters; // @synthesize inputTuningParameters;
 
 @end
 

@@ -6,19 +6,14 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class TRIExperimentRollbackPushNotification, TRIExperimentUpdatePushNotification, TRIRolloutDeploymentPushNotification;
-
 @interface TRIPushNotification : TRIPBMessage
 {
 }
 
-+ (id);
++ (id);
 
 // Remaining properties
-@property(retain, nonatomic) TRIExperimentRollbackPushNotification *experimentNotification; // @dynamic experimentNotification;
-@property(retain, nonatomic) TRIExperimentUpdatePushNotification *experimentUpdateNotification; // @dynamic experimentUpdateNotification;
 @property(readonly, nonatomic) int notificationOneOfCase; // @dynamic notificationOneOfCase;
-@property(retain, nonatomic) TRIRolloutDeploymentPushNotification *rolloutNotification; // @dynamic rolloutNotification;
 
 @end
 

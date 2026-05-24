@@ -4,27 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TUSenderIdentity;
+@class NSString;
 
 @interface CNGeminiChannel
 {
     _Bool _available;
-    NSString *_channelIdentifier;
-    NSString *_localizedLabel;
-    NSString *_localizedBadgeLabel;
-    NSString *_handle;
-    TUSenderIdentity *_senderIdentity;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(readonly, getter=isAvailable) _Bool available; // @synthesize available=_available;
 @property(readonly) NSString *channelIdentifier; // @synthesize channelIdentifier=_channelIdentifier;
-@property(readonly) NSString *handle; // @synthesize handle=_handle;
-@property(readonly) NSString *localizedBadgeLabel; // @synthesize localizedBadgeLabel=_localizedBadgeLabel;
-@property(readonly) NSString *localizedLabel; // @synthesize localizedLabel=_localizedLabel;
-@property(readonly) TUSenderIdentity *senderIdentity; // @synthesize senderIdentity=_senderIdentity;
 
 @end
 

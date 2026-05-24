@@ -4,48 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRExternalDevice, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface MPAVRouteConnection
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    _Bool _invalidated;
-    MRExternalDevice *_externalDevice;
-    CDUnknownBlockType _invalidationHandler;
 }
 
 - (void);
+- (id)call;
+- (id)bigint;
+- (id)stream;
+- (void);
+- (void);
+- (void);
+- (void):(id)arg1 unable to convert BMPBSocialHighlightType enum value:%@ /* Error: Ran out of types for this method. */;
+- (void)client:(id)arg1 %@;
+- (void);
+- (void)setObject:(CDUnknownBlockType)arg1 forKeyedSubscript: /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
+- (_Bool)ist from %tu to %tu;
 - (void *);
 - (_Bool);
 - (CDUnknownBlockType);
 - (_Bool);
 - (void)1Â0@ù
 × ;
-- (void)G_MISSING__;
+- (void)__MPModelPropertyAlbumLastDevicePlaybackDate__MAPPING_MISSING__;
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isConnected) _Bool connected;
-@property(readonly, nonatomic, getter=isConnecting) _Bool connecting;
 @property(readonly, nonatomic) void *externalDevice; // @dynamic externalDevice;
-@property(readonly, nonatomic) MRExternalDevice *externalDeviceObject;
-@property(readonly, nonatomic, getter=isInvalidated) _Bool invalidated;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
 
 @end
 

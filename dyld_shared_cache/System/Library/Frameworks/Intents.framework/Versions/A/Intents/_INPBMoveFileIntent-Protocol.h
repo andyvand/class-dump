@@ -4,29 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, _INPBIntentMetadata, _INPBString;
+@class _INPBString;
 
 @protocol _INPBMoveFileIntent
-- (_Bool)te: /* Error: Ran out of types for this method. */;
-- (void)back:(int)arg1 withCompletion: /* Error: Ran out of types for this method. */;
-- (int)eduleOptionsOptionsForCreateAlarm:withCompletion: /* Error: Ran out of types for this method. */;
+- (void)A;
+- (void);
+- (unsigned long long);
+- (int)compression method.;
+- (int)setServiceViewControllerClassName: /* Error: Ran out of types for this method. */;
+- (_Bool)disambiguationWithPaymentAccountsToDisambiguate: /* Error: Ran out of types for this method. */;
+- (void)providePeopleInPhotoOptionsForStartPhotoPlayback:(int)arg1 withCompletion: /* Error: Ran out of types for this method. */;
+- (int)provideAlarmRepeatScheduleOptionsOptionsForCreateAlarm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBString *destinationName;
-@property(nonatomic) int destinationType;
-@property(copy, nonatomic) NSArray *entityNames;
-@property(readonly, nonatomic) unsigned long long entityNamesCount;
-@property(readonly, nonatomic) int *entityTypes;
-@property(readonly, nonatomic) unsigned long long entityTypesCount;
-@property(readonly, nonatomic) _Bool hasDestinationName;
-@property(nonatomic) _Bool hasDestinationType;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasSourceName;
-@property(nonatomic) _Bool hasSourceType;
-@property(retain, nonatomic) _INPBIntentMetadata *intentMetadata;
-@property(copy, nonatomic) NSArray *properties;
-@property(readonly, nonatomic) unsigned long long propertiesCount;
-@property(retain, nonatomic) _INPBString *sourceName;
-@property(nonatomic) int sourceType;
 @end
 

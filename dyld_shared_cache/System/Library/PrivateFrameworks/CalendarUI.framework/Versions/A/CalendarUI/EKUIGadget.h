@@ -4,31 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKUIGadgetScrollView, EKUIGadgetView, EKViewController, NSLayoutConstraint, NSString, NSView;
-@protocol EKUIGadgetDelegate, EKUILayoutItem;
+@protocol EKUILayoutItem;
 
 @interface EKUIGadget
 {
     _Bool _isVisible;
-    _Bool _shouldScrollToTop;
-    _Bool _constrainedForRequiredContentHeight;
-    _Bool _isScrolling;
-    _Bool _scrollsOutsideMainScrollArea;
-    EKUIGadgetView *_gadgetView;
-    id <EKUIGadgetDelegate> _delegate;
-    id <EKUILayoutItem> _parentItem;
-    NSView *_firstKeyView;
-    NSView *_lastKeyView;
-    EKUIGadgetScrollView *_scrollView;
-    EKViewController *_viewController;
-    NSString *_uuid;
-    NSLayoutConstraint *_scrollContentHeightConstraint;
-    NSLayoutConstraint *_scrollViewMaxHeightConstraint;
 }
 
 + (id);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -47,102 +32,80 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (_Bool)?;
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (void)*;
+- (double)H;
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (_Bool);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
 - (void);
 - (id);
 - (id);
 - (void);
+- (_Bool));
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (double);
-- (_Bool);
-- (_Bool);
-- (void);
 - (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (id);
-- (_Bool);
+- (_Bool)G;
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)alIiEEEENS2_4slotIFv16BundleChangeType20BundleTechnologyTypeENS_8functionISI_EEEENS2_5mutexEEEEEEEEE;
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool)eight;
-- (void)eight;
+- (_Bool)constrainedForRequiredContentHeight;
+- (void)_weekNumbersHeight;
 - (id)om.apple.calendar.reminderDatePicker.dayScrubber;
 
 // Remaining properties
-@property _Bool constrainedForRequiredContentHeight; // @synthesize constrainedForRequiredContentHeight=_constrainedForRequiredContentHeight;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <EKUIGadgetDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) __weak NSView *firstKeyView; // @synthesize firstKeyView=_firstKeyView;
-@property(retain) EKUIGadgetView *gadgetView; // @synthesize gadgetView=_gadgetView;
-@property(readonly) unsigned long long hash;
-@property(setter=setExpanded:) _Bool isExpanded;
-@property _Bool isScrolling; // @synthesize isScrolling=_isScrolling;
-@property _Bool isVisible; // @synthesize isVisible=_isVisible;
-@property(nonatomic) __weak NSView *lastKeyView; // @synthesize lastKeyView=_lastKeyView;
 @property __weak id <EKUILayoutItem> parentItem; // @synthesize parentItem=_parentItem;
-@property(retain) NSLayoutConstraint *scrollContentHeightConstraint; // @synthesize scrollContentHeightConstraint=_scrollContentHeightConstraint;
-@property(retain) EKUIGadgetScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(retain) NSLayoutConstraint *scrollViewMaxHeightConstraint; // @synthesize scrollViewMaxHeightConstraint=_scrollViewMaxHeightConstraint;
-@property _Bool scrollsOutsideMainScrollArea; // @synthesize scrollsOutsideMainScrollArea=_scrollsOutsideMainScrollArea;
-@property _Bool shouldScrollToTop; // @synthesize shouldScrollToTop=_shouldScrollToTop;
-@property(readonly) Class superclass;
-@property(retain) NSString *uuid; // @synthesize uuid=_uuid;
-@property __weak EKViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

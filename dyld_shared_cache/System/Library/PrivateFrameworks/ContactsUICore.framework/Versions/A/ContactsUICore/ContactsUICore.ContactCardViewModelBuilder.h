@@ -7,13 +7,6 @@
 @interface ContactsUICore.ContactCardViewModelBuilder
 {
     id widgetViewModels;
-    id contact;
-    id configuration;
-    id actionProvider;
-    id widgetModelFactory;
-    id cardGroupFactory;
-    id rowItemProvider;
-    id rowItemFactory;
 }
 
 @end

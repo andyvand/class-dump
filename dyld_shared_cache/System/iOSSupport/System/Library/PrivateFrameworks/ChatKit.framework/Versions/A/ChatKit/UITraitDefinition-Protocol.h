@@ -9,6 +9,7 @@
 @protocol UITraitDefinition
 
 @optional
-+ (NSString *)onMethod;
++ (NSString *);
++ (NSString *)pinningInteractionMethod;
 @end
 

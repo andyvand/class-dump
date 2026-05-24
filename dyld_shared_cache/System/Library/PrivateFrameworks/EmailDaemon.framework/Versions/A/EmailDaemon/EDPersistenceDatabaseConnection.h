@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDPersistenceDatabaseJournal, EFSQLConnection, NSString;
 @protocol EDPersistenceDatabaseConnectionDelegate;
 
 @interface EDPersistenceDatabaseConnection
 {
     _Bool _isWriter;
-    _Bool _hadIOError;
-    NSString *_protectedDatabaseName;
-    NSString *_journalDatabaseName;
-    EDPersistenceDatabaseJournal *_journal;
-    id <EDPersistenceDatabaseConnectionDelegate> _delegate;
-    EFSQLConnection *_sqlConnection;
-    NSString *_basePath;
-    NSString *_transactionLabel;
 }
 
 + (id)0@ù
@@ -64,13 +55,13 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (_Bool);
-- (struct sqlite3 *);
+- (struct sqlite3 *)connectToClassSessionWithIdentifier: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
@@ -84,27 +75,7 @@
 - (void)adQueryHandler is missing;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *basePath; // @synthesize basePath=_basePath;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(readonly, nonatomic) __weak id <EDPersistenceDatabaseConnectionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *fullPath;
-@property(nonatomic) _Bool hadIOError; // @synthesize hadIOError=_hadIOError;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isValid;
-@property(readonly, nonatomic) _Bool isWriter;
-@property(readonly, nonatomic) _Bool journalDatabaseAttached;
-@property(readonly, nonatomic) long long lastInsertedDatabaseID;
-@property(readonly, nonatomic) _Bool protectedDatabaseAttached;
-@property(readonly, nonatomic) unsigned long long rowsChanged;
-@property(readonly, nonatomic) EFSQLConnection *sqlConnection; // @synthesize sqlConnection=_sqlConnection;
-@property(readonly, nonatomic) struct sqlite3 *sqlDB;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long transactionGeneration;
-@property(copy, nonatomic) NSString *transactionLabel; // @synthesize transactionLabel=_transactionLabel;
 
 @end
 

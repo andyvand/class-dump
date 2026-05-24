@@ -7,7 +7,6 @@
 @interface _DASActivityRateLimit
 {
     unsigned long long _maximum;
-    double _window;
 }
 
 + (id);
@@ -15,7 +14,7 @@
 - (id);
 - (id);
 - (id);
-- (double);
+- (double);
 - (void);
 - (_Bool);
 - (void);
@@ -25,7 +24,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long maximum; // @synthesize maximum=_maximum;
-@property(nonatomic) double window; // @synthesize window=_window;
 
 @end
 

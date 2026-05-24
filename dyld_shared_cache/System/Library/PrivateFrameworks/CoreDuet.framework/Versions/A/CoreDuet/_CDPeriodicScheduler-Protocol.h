@@ -5,5 +5,6 @@
 //
 
 @protocol _CDPeriodicScheduler
+- (void);
 @end
 

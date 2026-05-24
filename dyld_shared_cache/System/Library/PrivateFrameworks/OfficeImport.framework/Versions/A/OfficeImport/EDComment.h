@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDString;
-
 __attribute__((visibility("hidden")))
 @interface EDComment
 {
     _Bool _visible;
-    int _rowIndex;
-    int _columnIndex;
-    EDString *_author;
 }
 
 - (void);
-- (int);
+- (int)�;
 - (int);
 - (void);
 - (id);
@@ -27,10 +22,7 @@ __attribute__((visibility("hidden")))
 - (id)ÿiUw<s;
 
 // Remaining properties
-@property(retain, nonatomic) EDString *author; // @synthesize author=_author;
-@property(nonatomic) int columnIndex; // @synthesize columnIndex=_columnIndex;
 @property(nonatomic) int rowIndex; // @synthesize rowIndex=_rowIndex;
-@property(nonatomic) _Bool visible; // @synthesize visible=_visible;
 
 @end
 

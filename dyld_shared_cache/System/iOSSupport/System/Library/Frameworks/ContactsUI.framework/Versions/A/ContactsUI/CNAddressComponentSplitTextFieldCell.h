@@ -6,21 +6,19 @@
 
 #import <ContactsUI/CNAddressComponentTextFieldCell.h>
 
-@class CNRepeatingGradientSeparatorView, NSString, UITextField;
+@class UITextField;
 
 __attribute__((visibility("hidden")))
 @interface CNAddressComponentSplitTextFieldCell : CNAddressComponentTextFieldCell
 {
     UITextField *_textFieldLeft;
-    UITextField *_textFieldRight;
-    CNRepeatingGradientSeparatorView *_separator;
 }
 
 + (id);
 + (Class);
 - (id);
 - (id);
-- (void);
+- (void)K);
 - (void);
 - (void);
 - (id);
@@ -28,22 +26,13 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
+- (id)?i^{b2Joint}^{b2Joint}{b2JointEdge=^{b2Body}^{b2Joint}^{b2JointEdge}^{b2JointEdge}}{b2JointEdge=^{b2Body}^{b2Joint}^{b2JointEdge}^{b2JointEdge}}^{b2Body}^{b2Body}BB^v{b2Vec2=ff}{b2Vec2=ff}{b2Vec3=fff}fBffBfffii{b2Vec2=ff}{b2Vec2=ff}{b2Vec2=ff}{b2Vec2=ff}ffff{b2Mat33={b2Vec3=fff}{b2Vec3=fff}{b2Vec3=fff}}fi};
+- (id)llowPartial:(long long)arg1;
 - (void)y;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CNRepeatingGradientSeparatorView *separator; // @synthesize separator=_separator;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) UITextField *textFieldLeft; // @synthesize textFieldLeft=_textFieldLeft;
-@property(retain, nonatomic) UITextField *textFieldRight; // @synthesize textFieldRight=_textFieldRight;
 
 @end
 

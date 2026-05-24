@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface MHSchemaMHAssistantDaemonAudioStopRecordingEnded : SISchemaInstrumentationMessage
 {
@@ -21,8 +21,8 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)vB;
+- (void)%02X;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -34,7 +34,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *fanInfos; // @synthesize fanInfos=_fanInfos;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

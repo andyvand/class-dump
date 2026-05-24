@@ -7,9 +7,6 @@
 @interface HomeKitCore.HomesStore.DataSource.XPC
 {
     id $defaultActor;
-    id connectionWrapper;
-    id subscriptions;
-    id interruptionTask;
 }
 
 @end

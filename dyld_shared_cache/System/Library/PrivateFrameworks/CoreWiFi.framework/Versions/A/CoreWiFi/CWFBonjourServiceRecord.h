@@ -9,24 +9,20 @@
 @interface CWFBonjourServiceRecord
 {
     NSString *_deviceName;
-    NSString *_serviceName;
-    NSString *_rawString;
 }
 
 + (id);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void)a;
+- (void)CWFWiFiNetworkSharingNetworkMetadata;
 - (void)-based, will not remove (%@);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(copy, nonatomic) NSString *rawString; // @synthesize rawString=_rawString;
-@property(copy, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
 
 @end
 

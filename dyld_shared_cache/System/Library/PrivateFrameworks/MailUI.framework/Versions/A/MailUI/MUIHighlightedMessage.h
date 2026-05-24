@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSString;
-@protocol EMMessageListItem;
+@class NSAttributedString;
 
 @interface MUIHighlightedMessage
 {
     NSAttributedString *topLine;
-    id <EMMessageListItem> messageListItem;
-    _Bool isGeneratedSummary;
-    id $__lazy_storage_$_sender;
 }
 
 - (_Bool);
@@ -21,17 +17,12 @@
 - (id);
 - (id);
 - (id);
-- (long long);
+- (long long);
 - (id);
 - (void);
 - (void)localMailboxSearchScopeUserDefaultsObserver;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) _Bool isGeneratedSummary; // @synthesize isGeneratedSummary;
-@property(nonatomic, readonly) id <EMMessageListItem> messageListItem; // @synthesize messageListItem;
-@property(nonatomic, copy) NSString *sender;
 @property(nonatomic, readonly) NSAttributedString *topLine; // @synthesize topLine;
 
 @end

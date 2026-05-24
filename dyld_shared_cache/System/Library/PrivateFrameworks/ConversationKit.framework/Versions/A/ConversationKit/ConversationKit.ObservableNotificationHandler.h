@@ -7,8 +7,6 @@
 @interface ConversationKit.ObservableNotificationHandler
 {
     id _notificationTask;
-    id _trackingProperty;
-    id _$observationRegistrar;
 }
 
 @end

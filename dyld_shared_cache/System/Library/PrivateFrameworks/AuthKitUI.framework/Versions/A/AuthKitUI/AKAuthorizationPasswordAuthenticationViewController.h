@@ -6,13 +6,11 @@
 
 #import <AuthKitUI/AKAuthorizationPaneViewController.h>
 
-@class AKAuthorizationPresentationContext;
 @protocol AKAuthorizationPasswordAuthenticationDelegate;
 
 @interface AKAuthorizationPasswordAuthenticationViewController : AKAuthorizationPaneViewController
 {
     id <AKAuthorizationPasswordAuthenticationDelegate> _delegate;
-    AKAuthorizationPresentationContext *_presentationContext;
 }
 
 - (void);
@@ -23,12 +21,11 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)k;
 - (void);
 
 // Remaining properties
 @property(nonatomic) __weak id <AKAuthorizationPasswordAuthenticationDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) AKAuthorizationPresentationContext *presentationContext; // @synthesize presentationContext=_presentationContext;
 
 @end
 

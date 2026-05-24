@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBIntentMetadata;
+@class _INPBIntentMetadata;
 
 @interface _INPBPlayMessageSoundIntent
 {
     CDStruct_13553b0f _has;
-    int _soundType;
-    _INPBIntentMetadata *_intentMetadata;
-    NSString *_messageIdentifier;
 }
 
 + (_Bool);
@@ -27,30 +24,18 @@
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)4B9(;
 - (_Bool);
 - (void);
 - (int);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool)dentifier;
-- (void)ssUnitType;
+- (void)_payloadWellnessUnitType;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasIntentMetadata;
-@property(readonly, nonatomic) _Bool hasMessageIdentifier;
-@property(nonatomic) _Bool hasSoundType;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) _INPBIntentMetadata *intentMetadata; // @synthesize intentMetadata=_intentMetadata;
-@property(copy, nonatomic) NSString *messageIdentifier; // @synthesize messageIdentifier=_messageIdentifier;
-@property(nonatomic) int soundType; // @synthesize soundType=_soundType;
-@property(readonly) Class superclass;
 
 @end
 

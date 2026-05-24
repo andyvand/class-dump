@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage;
+@class NSArray;
 
 #pragma mark Function Pointers and Blocks
 
@@ -15,36 +15,32 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 #pragma mark Named Structures
 
 struct CATransform3D {
-    double m11;
-    double m12;
-    double m13;
-    double m14;
-    double m21;
-    double m22;
-    double m23;
-    double m24;
-    double m31;
-    double m32;
-    double m33;
-    double m34;
-    double m41;
-    double m42;
-    double m43;
-    double m44;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
+    double _field7;
+    double _field8;
+    double _field9;
+    double _field10;
+    double _field11;
+    double _field12;
+    double _field13;
+    double _field14;
+    double _field15;
+    double _field16;
 };
 
 struct CGAffineTransform {
-    double a;
-    double b;
-    double c;
-    double d;
-    double tx;
-    double ty;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
+    double _field5;
+    double _field6;
 };
-
-struct CGImage;
-
-struct CGImageSource;
 
 struct CGPoint {
     double x;
@@ -62,8 +58,8 @@ struct CGSize {
 };
 
 struct CLLocationCoordinate2D {
-    double latitude;
-    double longitude;
+    double _field1;
+    double _field2;
 };
 
 struct CVSMPTETime {
@@ -78,14 +74,8 @@ struct CVSMPTETime {
     short _field9;
 };
 
-struct IKBGLPatternInfo {
-    double patternSize;
-    double patternLightFillColor[4];
-    double patternDarkFillColor[4];
-};
-
 struct IKHandleInfo {
-    struct CGPoint handle[10];
+    struct CGPoint _field1[10];
 };
 
 struct IONotificationPort;
@@ -107,8 +97,6 @@ struct IrisMatcher {
     struct IONotificationPort *_field5;
     id _field6;
 };
-
-struct OpaqueIconRef;
 
 struct _CGLContextObject {
     struct __GLIContextRec *_field1;
@@ -1118,13 +1106,8 @@ struct __IKImageBrowserLayoutParameter {
     struct CGSize _adjustedCellMargin;
 };
 
-struct _opaque_pthread_mutex_t {
-    long long __sig;
-    char __opaque[56];
-};
-
 struct os_unfair_lock_s {
-    unsigned int _os_unfair_lock_opaque;
+    unsigned int _field1;
 };
 
 struct stat {
@@ -1175,9 +1158,9 @@ typedef struct {
 } CDStruct_a53679d9;
 
 typedef struct {
-    unsigned long long _progressIndex;
-    _Bool _shouldAbort;
-} CDStruct_f2216670;
+    unsigned long long _field1;
+    _Bool _field2;
+} CDStruct_5577c19c;
 
 typedef struct {
     double _field1;
@@ -1187,15 +1170,20 @@ typedef struct {
 } CDStruct_d2b197d1;
 
 typedef struct {
-    float width;
-    NSImage *tagImage;
-    unsigned int selected:1;
-    unsigned int focus:1;
-    unsigned int twoLines:1;
-    unsigned int centered:1;
-    unsigned int overlap:1;
-    unsigned int illegible:1;
-} CDStruct_f8c9b8af;
+    double _field1;
+    double _field2;
+} CDStruct_c3b9c2ee;
+
+typedef struct {
+    float _field1;
+    id _field2;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+    unsigned int :1;
+} CDStruct_f1c416a1;
 
 typedef struct {
     unsigned int _field1;
@@ -1217,43 +1205,16 @@ typedef struct {
 } CDStruct_e50ab651;
 
 typedef struct {
-    CDStruct_34734122 origin;
-    CDStruct_8caa76fc size;
-} CDStruct_02837cd9;
+    CDStruct_c3b9c2ee _field1;
+    CDStruct_c3b9c2ee _field2;
+} CDStruct_90e2a262;
 
 typedef struct {
-    union {
-        struct {
-            double _field1;
-            double _field2;
-            double _field3;
-        } _field1;
-        double _field2[3];
-    } _field1;
-} CDStruct_21d90590;
-
-typedef struct {
-    short numLines;
-    struct CGRect upperRect;
-    struct CGRect lowerRect;
-    _Bool truncated;
-    int truncatIndex;
-    double tagOffset;
-} CDStruct_a6c50959;
-
-// Ambiguous groups
-typedef struct {
-    double _field1;
-    double _field2;
-} CDStruct_c3b9c2ee;
-
-typedef struct {
-    double width;
-    double height;
-} CDStruct_8caa76fc;
-
-typedef struct {
-    double x;
-    double y;
-} CDStruct_34734122;
+    short _field1;
+    struct CGRect _field2;
+    struct CGRect _field3;
+    _Bool _field4;
+    int _field5;
+    double _field6;
+} CDStruct_3c8ca011;
 

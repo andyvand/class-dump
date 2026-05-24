@@ -7,12 +7,6 @@
 @interface PKProtobufRemoteRegistrationRequest
 {
     unsigned int _version;
-    _Bool _registerBroker;
-    _Bool _registerPeerPayment;
-    struct {
-        unsigned int registerBroker:1;
-        unsigned int registerPeerPayment:1;
-    } _has;
 }
 
 - (void);
@@ -27,19 +21,15 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (void)_fwTxFail;
 - (void);
-- (void);
-- (id);
+- (id);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasRegisterBroker;
-@property(nonatomic) _Bool hasRegisterPeerPayment;
-@property(nonatomic) _Bool registerBroker; // @synthesize registerBroker=_registerBroker;
-@property(nonatomic) _Bool registerPeerPayment; // @synthesize registerPeerPayment=_registerPeerPayment;
 @property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end

@@ -7,19 +7,6 @@
 @interface RemindersUICore.TTRMHashtagButton
 {
     id isSelected;
-    id isExcluded;
-    id isContextMenuTarget;
-    id titleFont;
-    id accessibilityDelegate;
-    id titleBox;
-    id titleLabel;
-    id backgroundView;
-    id selectionBorderView;
-    id needsUpdateAppearance;
-    id isKeyAndActiveSnapshot;
-    id selectionBorderViewInset;
-    id keyAndActiveSubscription;
-    id increaseContrastSubscription;
 }
 
 - (_Bool);
@@ -31,9 +18,9 @@
 - (id);
 - (void);
 - (void);
-- (id);
-- (void);
-- (id)andler: /* Error: Ran out of types for this method. */;
+- (id)A;
+- (void)initWithAccountName:(_Bool)arg1 chatStyle:roomName:dateCreated:dateModified:messageList:serviceName:lastMessageID:loginHandle:participants: /* Error: Ran out of types for this method. */;
+- (id)geocodeAddressString:completionHandler: /* Error: Ran out of types for this method. */;
 - (void)7kTyÉhTy{¬Ty«Ty·aTy_Qo__Qo__Qo__ôýÿQo__Qo_;
 - (void)tContext:handling user defaults change {key:%s, newValue:%s} /* Error: Ran out of types for this method. */;
 - (id);

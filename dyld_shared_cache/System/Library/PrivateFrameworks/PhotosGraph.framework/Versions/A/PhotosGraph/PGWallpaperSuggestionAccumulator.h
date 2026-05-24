@@ -4,31 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSObject;
-@protocol OS_os_log;
+@class NSArray;
 
 @interface PGWallpaperSuggestionAccumulator
 {
     unsigned long long _targetNumberOfSuggestions;
-    unsigned long long _targetMinimumNumberOfGatedSuggestions;
-    unsigned long long _maximumNumberOfSuggestionsToTryForGating;
-    unsigned long long _numberOfSuggestionsReceived;
-    NSMutableArray *_suggestions;
-    NSMutableArray *_gatingOverflow;
-    NSObject<OS_os_log> *_loggingConnection;
-    unsigned long long _numberOfGatedSuggestions;
 }
 
 - (unsigned long long);
 - (id);
-- (void);
-- (_Bool);
-- (id)reateAttendanceDateIntervals;
+- (void)ller",&,N,S_setDockApplicationController:(id)arg1 ,V__dockApplicationController;
+- (_Bool)actionDelegate;
+- (id)_createAttendanceDateIntervals;
 - (void)-PersonaVectorCLIP768_DEPRECATED;
 
 // Remaining properties
-@property(readonly) _Bool accumulationIsComplete;
-@property(readonly) unsigned long long numberOfGatedSuggestions; // @synthesize numberOfGatedSuggestions=_numberOfGatedSuggestions;
 @property(readonly) NSArray *suggestions;
 
 @end

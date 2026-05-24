@@ -4,57 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ISDDataManager, ISDMingler, NSArray, NSCalendarDate, NSDictionary, NSException, NSMutableArray, NSMutableDictionary, NSMutableSet, NSSet, NSString, NSTask, NSTimer;
-@protocol ISyncMinglerProtocol;
+@class ISDDataManager;
 
 @interface ISDSyncPlan
 {
     ISDDataManager *_dataManager;
-    id _delegate;
-    NSString *_uuid;
-    NSMutableArray *_participants;
-    NSMutableDictionary *_removedClientIdentifiers;
-    NSMutableSet *_cancelledClientIdentifiers;
-    NSMutableArray *_toBeMingled;
-    NSArray *_syncingClientIdentifiers;
-    NSSet *_syncingEntityNamesSet;
-    NSMutableDictionary *_unapprovedUncontestedPushers;
-    NSMutableDictionary *_uncontestedPushers;
-    NSMutableDictionary *_confusedPushers;
-    NSMutableDictionary *_contestedPushers;
-    NSMutableDictionary *_winningPushers;
-    _Bool _waitingToNegotiate;
-    _Bool _pushersHaveBeenNegotiated;
-    _Bool _isPullOnly;
-    NSMutableSet *_unpushedResetEntityNames;
-    int _phase;
-    unsigned int _syncGeneration;
-    NSCalendarDate *_createDate;
-    NSCalendarDate *_startDate;
-    NSCalendarDate *_endDate;
-    NSTimer *_watchdog;
-    ISDMingler *_mingler;
-    id <ISyncMinglerProtocol> _minglerProcess;
-    NSTask *_minglerTask;
-    _Bool _isCancelled;
-    NSException *_minglerException;
-    NSDictionary *_entitiesMapping;
-    NSSet *_dataClassesWithRecordsInTruth;
-    NSMutableArray *_entitiesToMarkAsRefreshedAfterPushPhase;
-    NSArray *_closureOfEntitiesBeingMingled;
-    NSDictionary *_clientIdTypeMapping;
-    NSDictionary *_entityNameToEntityMapping;
-    _Bool _isOneShotPlan;
-    _Bool _isSyncAfterPlan;
-    _Bool _skipSyncAfterClients;
-    _Bool _participantRequiresMingle;
-    NSString *_dataDirectory;
-    NSArray *_allClients;
-    NSMutableDictionary *_negotiatedClientModes;
-    CDStruct_4c969caf _auditToken;
 }
 
-+ (void)sName;
++ (void)automagicConflictResolverClassName;
 - (int);
 - (void);
 - (void);
@@ -65,8 +22,8 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)P;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -81,7 +38,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -126,7 +83,7 @@
 - (void);
 - (void);
 - (int);
-- (void);
+- (void)9h;
 - (void);
 - (void);
 - (id);
@@ -138,20 +95,20 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void)$;
 - (id);
 - (id);
-- (CDStruct_4c969caf);
+- (CDStruct_6ad76789);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)@;
 - (id);
 - (unsigned int);
 - (void);
@@ -159,7 +116,7 @@
 - (void)0 != [[change propertyChanges] count];
 
 // Remaining properties
-@property CDStruct_4c969caf auditToken; // @synthesize auditToken=_auditToken;
+@property CDStruct_6ad76789 auditToken; // @synthesize auditToken=_auditToken;
 
 @end
 

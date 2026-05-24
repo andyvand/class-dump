@@ -7,9 +7,10 @@
 @class NSURL;
 
 @protocol PFParallaxSegmentationResourceCaching
+- (NSURL *);
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSURL *segmentationResourceURL;
 @property(readonly, nonatomic) _Bool supportsSegmentationResourceCaching;
 @end
 

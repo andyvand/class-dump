@@ -4,58 +4,40 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface CUWiFiDevice
 {
     unsigned int _deviceIECategory;
-    unsigned int _deviceIEFlags;
-    int _rssi;
-    int _present;
-    NSData *_bssid;
-    NSData *_deviceIEBluetoothMAC;
-    NSData *_deviceIEDeviceID;
-    NSString *_deviceIEManufacturer;
-    NSString *_deviceIEModel;
-    NSString *_deviceIEName;
-    NSData *_deviceIDOUI;
-    NSData *_deviceIDSetupHash;
-    NSUUID *_identifier;
-    NSData *_ieData;
-    id _platformObject;
-    NSDictionary *_rawScanResult;
-    NSString *_ssid;
 }
 
 - (void);
 - (void);
 - (void);
+- (void)X;
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (unsigned int)__AUTH_CONST;
+- (id);
+- (unsigned int);
+- (id)__auth_ptr;
 - (id);
 - (id);
 - (unsigned int);
-- (id);
-- (unsigned int);
-- (id);
-- (id);
-- (id);
-- (unsigned int);
 - (void);
 - (id);
-- (id);
+- (id)setCanceledOrCompleted: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
-- (void);
+- (void)nelOffset) <=                    (info->dest.featureChannels) failed;
 - (id);
 - (void);
 - (int);
@@ -63,28 +45,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void)ray"24;
-- (int)teWithAttributesDictionary:flags:error: /* Error: Ran out of types for this method. */;
+- (int)_updateWithAttributesDictionary:flags:error: /* Error: Ran out of types for this method. */;
 - (id)on start failed:%#m
  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *bssid; // @synthesize bssid=_bssid;
-@property(copy, nonatomic) NSData *deviceIDOUI; // @synthesize deviceIDOUI=_deviceIDOUI;
-@property(copy, nonatomic) NSData *deviceIDSetupHash; // @synthesize deviceIDSetupHash=_deviceIDSetupHash;
-@property(copy, nonatomic) NSData *deviceIEBluetoothMAC; // @synthesize deviceIEBluetoothMAC=_deviceIEBluetoothMAC;
-@property(nonatomic) unsigned int deviceIECategory; // @synthesize deviceIECategory=_deviceIECategory;
-@property(copy, nonatomic) NSData *deviceIEDeviceID; // @synthesize deviceIEDeviceID=_deviceIEDeviceID;
-@property(nonatomic) unsigned int deviceIEFlags; // @synthesize deviceIEFlags=_deviceIEFlags;
-@property(copy, nonatomic) NSString *deviceIEManufacturer; // @synthesize deviceIEManufacturer=_deviceIEManufacturer;
-@property(copy, nonatomic) NSString *deviceIEModel; // @synthesize deviceIEModel=_deviceIEModel;
-@property(copy, nonatomic) NSString *deviceIEName; // @synthesize deviceIEName=_deviceIEName;
-@property(copy, nonatomic) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(copy, nonatomic) NSData *ieData; // @synthesize ieData=_ieData;
-@property(retain, nonatomic) id platformObject; // @synthesize platformObject=_platformObject;
 @property(nonatomic) int present; // @synthesize present=_present;
-@property(copy, nonatomic) NSDictionary *rawScanResult; // @synthesize rawScanResult=_rawScanResult;
-@property(nonatomic) int rssi; // @synthesize rssi=_rssi;
-@property(copy, nonatomic) NSString *ssid; // @synthesize ssid=_ssid;
 
 @end
 

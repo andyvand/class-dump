@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface Safari.CompletionListCollectionViewController.CollectionViewSection
 {
     void sectionTitle;
-    long long sectionType;
-    long long sectionIndexInCompletionListing;
-    void suggestions;
 }
 
 - (void);
 - (id);
 - (long long);
 - (id);
-- (id);
+- (id)$;
 - (void);
 - (id)èÐ;
 - (void)´;
@@ -26,10 +23,7 @@
 - (long long)ÿ;
 
 // Remaining properties
-@property(nonatomic) long long sectionIndexInCompletionListing; // @synthesize sectionIndexInCompletionListing;
 @property(nonatomic, readonly) NSString *sectionTitle;
-@property(nonatomic) long long sectionType; // @synthesize sectionType;
-@property(nonatomic, copy) NSArray *suggestions;
 
 @end
 

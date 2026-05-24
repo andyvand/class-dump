@@ -5,5 +5,6 @@
 //
 
 @protocol FCNetworkReachabilityRequirementObserving
+- (void)_rowAlignmentOptions;
 @end
 

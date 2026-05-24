@@ -7,12 +7,6 @@
 @interface AppStoreKit.ArcadeFooter
 {
     id buttonAction;
-    id footnote;
-    id icons;
-    id backgroundColor;
-    id id;
-    id impressionMetrics;
-    id automationMetadata;
 }
 
 @end

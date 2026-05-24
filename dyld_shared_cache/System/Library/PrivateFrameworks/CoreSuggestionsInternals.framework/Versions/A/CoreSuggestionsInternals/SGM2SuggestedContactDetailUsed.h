@@ -4,41 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface SGM2SuggestedContactDetailUsed
 {
     int _app;
-    NSString *_key;
-    CDStruct_2bda6786 _has;
 }
 
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (int);
-- (int);
+- (void);
+- (_Bool)g;
+- (id)controlVPadding;
+- (void)minderDatePicker;
+- (int)r.eventView.inspectorInviteesPopover;
+- (int)le.calendar.eventView.calendarPickerPopover;
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
+- (_Bool)o;
+- (id)mQueue;
 - (_Bool);
-- (id);
-- (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (_Bool)0@ù
 × ;
-- (void)ator:(id)arg1;
+- (void)sortedArrayWithOptions:(id)arg1 usingComparator: /* Error: Ran out of types for this method. */;
 - (void)¼=Ä=Ð>?;
 
 // Remaining properties
-@property(nonatomic) int app; // @synthesize app=_app;
-@property(nonatomic) _Bool hasApp;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
 
 @end
 

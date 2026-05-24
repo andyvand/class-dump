@@ -10,16 +10,10 @@ __attribute__((visibility("hidden")))
 @interface GEOPDSearchEntry
 {
     GEOLatLng *_center;
-    long long _geoId;
-    int _geoTypeId;
-    struct {
-        unsigned int has_geoId:1;
-        unsigned int has_geoTypeId:1;
-    } _flags;
 }
 
 - (id);
-- (void);
+- (void)structure;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);

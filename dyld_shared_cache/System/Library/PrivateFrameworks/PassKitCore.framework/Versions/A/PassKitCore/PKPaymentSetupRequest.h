@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PKPaymentSetupConfiguration;
+@class PKPaymentSetupConfiguration;
 
 @interface PKPaymentSetupRequest
 {
     PKPaymentSetupConfiguration *_configuration;
-    NSArray *_paymentSetupFeatures;
-    NSString *_merchantIdentifier;
 }
 
 + (_Bool);
@@ -20,14 +18,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
-- (void);
+- (void)_processQueryResults:(id)arg1 intermediateResults:suggestionsCount: /* Error: Ran out of types for this method. */;
+- (void)sockDomainRoute;
 - (void)or:provisioning controller in incorrect state: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) PKPaymentSetupConfiguration *configuration; // @synthesize configuration=_configuration;
-@property(copy, nonatomic) NSString *merchantIdentifier; // @synthesize merchantIdentifier=_merchantIdentifier;
-@property(retain, nonatomic) NSArray *paymentSetupFeatures; // @synthesize paymentSetupFeatures=_paymentSetupFeatures;
 
 @end
 

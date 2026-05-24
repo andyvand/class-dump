@@ -7,9 +7,9 @@
 @protocol CNContactViewControllerPPTDelegate, CNContactViewHostProtocol;
 
 @protocol CNContactContentViewController
+- (id <CNContactViewControllerPPTDelegate>);
 
 // Remaining properties
 @property(nonatomic) __weak id <CNContactViewHostProtocol> delegate;
-@property(nonatomic) __weak id <CNContactViewControllerPPTDelegate> pptDelegate;
 @end
 

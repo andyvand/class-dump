@@ -7,11 +7,11 @@
 @interface ChatKit.DetailsSearchControllerRepresentable.SearchControllerCoordinator
 {
     id parent;
-    id searchViewController;
 }
 
 - (void);
-- (void);
+- (void)?|a
+;
 - (void);
 - (id);
 - (void)q;

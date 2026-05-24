@@ -7,10 +7,6 @@
 @interface CloudKit.ChunkStreamHandle
 {
     id downloadURL;
-    id key;
-    id signature;
-    id chunkReader;
-    id range;
 }
 
 - (id);

@@ -17,8 +17,8 @@
 - (void)¡
 ð!¸FùQgÐ1Â0@ù
 × ;
-- (_Bool)lags:(id)arg1 action: /* Error: Ran out of types for this method. */;
-- (id)ellAccessoryLayout;
+- (_Bool)keyCommandWithKeyCodes:(id)arg1 modifierFlags:action: /* Error: Ran out of types for this method. */;
+- (id)UICellAccessoryLayout;
 
 // Remaining properties
 @property(nonatomic) long long style; // @synthesize style=_style;

@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     unsigned long long _minReadUserPrivilege;
 }
 
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 
 // Remaining properties

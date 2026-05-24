@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (struct __SecKeychain *);
-+ (void);
++ (void);
 + (struct __SecCertificate *);
 + (struct __SecKeychainItem *);
-+ (id);
-+ (struct __SecCertificate *);
++ (id);
++ (struct __SecCertificate *);
 + (id);
 + (id);
 + (_Bool);

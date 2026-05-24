@@ -8,7 +8,7 @@
 {
 }
 
-+ (id);
++ (id)__DATA_CONST;
 
 @end
 

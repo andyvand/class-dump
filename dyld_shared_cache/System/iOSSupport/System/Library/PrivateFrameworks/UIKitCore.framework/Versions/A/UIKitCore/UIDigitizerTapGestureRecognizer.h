@@ -6,26 +6,26 @@
 
 #import <UIKitCore/UIGestureRecognizer.h>
 
-@class NSString, _UIDigitizerGestureRecognizerImp;
+@class _UIDigitizerGestureRecognizerImp;
 
 @interface UIDigitizerTapGestureRecognizer : UIGestureRecognizer
 {
     _UIDigitizerGestureRecognizerImp *_imp;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
+- (void)%s if necessary;
+- (void)rver for loaded notification...;
+- (void)gnoring request;
+- (void)be called with a non-nil exit date ignoring request;
+- (void):(id)arg1 %@;
+- (void)ling writeExitRecordWithDate. ExitDate:(id)arg1 %@;
+- (double)CKRecordUtilities;
 - (struct CGPoint);
 - (void);
-- (id)eplacementWithSearchQuery:(id)arg1 replacementString:(SEL)arg2 options: /* Error: Ran out of types for this method. */;
-- (void)refersCollapsedAppearanceInToolbar:(id)arg1;
-- (void);
-- (void)ely;
+- (id)performSingleReplacementWithSearchQuery:(id)arg1 replacementString:(SEL)arg2 options: /* Error: Ran out of types for this method. */;
+- (void)_setPrefersCollapsedAppearanceInToolbar:(id)arg1;
+- (void)_allowHighlightForTextInteractableItem:(id)arg1;
+- (void)deepPressLikely;
 - (void)ÀÅ;
 - (void);
 - (void)øþtÿSø;
@@ -36,15 +36,7 @@
 - (void)Al;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct CGPoint digitizerLocation;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) double maximumPressDuration;
-@property(readonly) Class superclass;
 
 @end
 

@@ -19,11 +19,11 @@
 - (long long)e°1Â0@ù
 × ;
 - (_Bool)";
-- (void)hEvent:(id)arg1 delayed: /* Error: Ran out of types for this method. */;
-- (id)TextRange:origin: /* Error: Ran out of types for this method. */;
-- (void)rLoadingCellsWithFocusedView:(long long)arg1 viewType: /* Error: Ran out of types for this method. */;
-- (void)lBehavior:(_Bool)arg1;
-- (id)eUpdatesWhenEvaluatingBackgroundAppearance;
+- (void)skipHitTestForTouchEvent:(id)arg1 delayed: /* Error: Ran out of types for this method. */;
+- (id)drawTextHighlightBackgroundForTextRange:origin: /* Error: Ran out of types for this method. */;
+- (void)_updateFocusAfterLoadingCellsWithFocusedView:(long long)arg1 viewType: /* Error: Ran out of types for this method. */;
+- (void)_setOverrideFocusDeferralBehavior:(_Bool)arg1;
+- (id)_allowsStateUpdatesWhenEvaluatingBackgroundAppearance;
 
 // Remaining properties
 @property(nonatomic) long long color; // @synthesize color=_color;

@@ -4,9 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIView;
-@protocol UIActionSheetPresentationControllerDismissActionView;
-
 @protocol UIActionSheetPresentationControllerVisualStyle
 - (double)tisfy constraints.
 	Probably at least one of the constraints in the following list is one you don't want. 
@@ -21,9 +18,6 @@ Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch th
 The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKitCore/UIView.h> may also be helpful. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) double cornerRadius;
-@property(readonly) UIColor *dimmingViewColor;
-@property(readonly) UIView<UIActionSheetPresentationControllerDismissActionView> *dismissActionView;
 @property(readonly) double dismissToContentSpacing;
 @end
 

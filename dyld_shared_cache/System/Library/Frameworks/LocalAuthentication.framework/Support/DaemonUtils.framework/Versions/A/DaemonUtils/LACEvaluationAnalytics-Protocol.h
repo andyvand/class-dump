@@ -5,21 +5,11 @@
 //
 
 @protocol LACEvaluationAnalytics
+- (long long)#;
+- (void);
+- (long long)pdateVersion:ignoreDoNoDisturb:companyName:options:client:completion:]_block_invoke_2 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) long long authenticationTypes;
-@property(readonly, nonatomic) long long biometryAttempts;
-@property(readonly, nonatomic) long long biometryFailures;
-@property(readonly, nonatomic) long long biometryNoMatches;
-@property(readonly, nonatomic) long long biometryResult;
-@property(readonly, nonatomic) _Bool biometryStarted;
-@property(readonly, nonatomic) long long biometryType;
-@property(readonly, nonatomic) long long continuity;
-@property(readonly, nonatomic) long long passcodeAttempts;
-@property(readonly, nonatomic) long long passcodeFailures;
-@property(readonly, nonatomic) long long passcodeResult;
-@property(readonly, nonatomic) _Bool passcodeStarted;
 @property(readonly, nonatomic) long long policy;
-@property(readonly, nonatomic) long long result;
 @end
 

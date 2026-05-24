@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol SACookieHandlingProtocol, SASoftwareUpdateManagerProtocol;
+@protocol SACookieHandlingProtocol;
 
 @interface SALaunchController
 {
     id <SACookieHandlingProtocol> _cookieHandler;
-    id <SASoftwareUpdateManagerProtocol> _softwareUpdateManager;
 }
 
 - (_Bool);
@@ -18,12 +17,11 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (unsigned long long);
 
 // Remaining properties
 @property(readonly) id <SACookieHandlingProtocol> cookieHandler; // @synthesize cookieHandler=_cookieHandler;
-@property(readonly) id <SASoftwareUpdateManagerProtocol> softwareUpdateManager; // @synthesize softwareUpdateManager=_softwareUpdateManager;
 
 @end
 

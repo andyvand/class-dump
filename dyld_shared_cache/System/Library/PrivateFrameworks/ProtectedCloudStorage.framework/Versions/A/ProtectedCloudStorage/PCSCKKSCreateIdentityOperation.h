@@ -22,7 +22,7 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)quicklookd:%s (%i) /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain) PCSCKKSItemModifyContext *context; // @synthesize context=_context;

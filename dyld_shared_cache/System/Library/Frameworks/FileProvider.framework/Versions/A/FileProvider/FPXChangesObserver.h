@@ -6,24 +6,20 @@
 
 #import <FileProvider/FPXObserver.h>
 
-@class NSData, NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface FPXChangesObserver : FPXObserver
 {
     NSMutableArray *_changedItems;
-    NSMutableArray *_deletedItemIDs;
-    NSData *_originalSyncAnchor;
-    CDUnknownBlockType _finishedBlock;
-    long long _suggestedBatchSize;
 }
 
 - (void);
-- (void);
+- (void){public}@;
 - (id);
-- (long long);
-- (void);
-- (void);
+- (long long)'%@' instance='%@';
+- (void)Y9;
+- (void)**********;
 - (void);
 - (id);
 - (CDUnknownBlockType);
@@ -32,15 +28,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy) CDUnknownBlockType finishedBlock; // @synthesize finishedBlock=_finishedBlock;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long suggestedBatchSize; // @synthesize suggestedBatchSize=_suggestedBatchSize;
-@property(readonly) Class superclass;
 
 @end
 

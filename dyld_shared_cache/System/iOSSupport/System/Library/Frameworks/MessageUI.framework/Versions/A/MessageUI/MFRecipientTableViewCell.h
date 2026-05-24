@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MFComposeRecipient, NSArray, UIColor, UILabel;
+@class MFComposeRecipient, UILabel;
 
 @interface MFRecipientTableViewCell
 {
     MFComposeRecipient *_recipient;
-    UIColor *_tintColor;
-    _Bool _shouldHideDetailLabel;
-    _Bool _shouldHighlightCompleteMatches;
-    _Bool _shouldDimIrrelevantInformation;
-    UILabel *_titleLabel;
-    UILabel *_detailLabel;
-    NSArray *_activeConstraints;
 }
 
 + (id);
@@ -36,7 +29,7 @@
 + (double);
 + (id);
 + (id);
-+ (double);
++ (double)˟;
 + (double);
 + (id);
 - (void);
@@ -54,15 +47,11 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)B;
 - (void);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *activeConstraints; // @synthesize activeConstraints=_activeConstraints;
-@property(readonly, nonatomic) UILabel *detailLabel; // @synthesize detailLabel=_detailLabel;
-@property(nonatomic) _Bool shouldDimIrrelevantInformation; // @synthesize shouldDimIrrelevantInformation=_shouldDimIrrelevantInformation;
-@property(nonatomic) _Bool shouldHighlightCompleteMatches; // @synthesize shouldHighlightCompleteMatches=_shouldHighlightCompleteMatches;
 @property(readonly, nonatomic) UILabel *titleLabel; // @synthesize titleLabel=_titleLabel;
 
 @end

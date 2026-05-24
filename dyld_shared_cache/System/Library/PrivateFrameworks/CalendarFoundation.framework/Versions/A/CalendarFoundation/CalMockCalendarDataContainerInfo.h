@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface CalMockCalendarDataContainerInfo
 {
     _Bool _usesDataSeparatedContainer;
-    NSString *_accountID;
-    NSString *_personaID;
-    NSURL *_containerURL;
 }
 
 - (_Bool);
@@ -26,16 +23,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *accountID; // @synthesize accountID=_accountID;
-@property(retain, nonatomic) NSURL *containerURL; // @synthesize containerURL=_containerURL;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *personaID; // @synthesize personaID=_personaID;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool usesDataSeparatedContainer; // @synthesize usesDataSeparatedContainer=_usesDataSeparatedContainer;
 
 @end
 

@@ -4,11 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIScrollView;
+@class UIScrollView, UIView;
 
 @protocol UIScrollViewDelegate
 
 @optional
+- (void);
+- (void)P;
+- (void);
+- (UIView *)ectionViewCell"8@"NSIndexPath"16@"MFDatePickerItem"24;
 - (void)@0:(UIScrollView *)arg1 8{CGSize=dd}16q32;
 @end
 

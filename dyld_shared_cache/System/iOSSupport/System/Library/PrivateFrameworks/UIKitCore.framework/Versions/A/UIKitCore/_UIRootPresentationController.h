@@ -6,7 +6,7 @@
 
 #import <UIKitCore/_UISheetPresentationController.h>
 
-@class NSString, UIStatusBarHideAnimationParameters, UIStatusBarStyleAnimationParameters, UIWindow;
+@class UIWindow;
 
 __attribute__((visibility("hidden")))
 @interface _UIRootPresentationController : _UISheetPresentationController
@@ -15,9 +15,9 @@ __attribute__((visibility("hidden")))
     UIWindow *_presentingWindow;
 }
 
-+ (_Bool)unction;
++ (_Bool)EasingFunction;
 - (int);
-- (id);
+- (id)"48@0:8^v16Q24Q32@?<v@?^vQ>40 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (long long);
@@ -26,9 +26,9 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void)qf1Â0@ù
 × ;
-- (_Bool)son: /* Error: Ran out of types for this method. */;
-- (id)insStalledExtensionInputMode: /* Error: Ran out of types for this method. */;
-- (id): /* Error: Ran out of types for this method. */;
+- (_Bool)suppressKeyboardFocusRequestsForReason: /* Error: Ran out of types for this method. */;
+- (id)setContainsStalledExtensionInputMode: /* Error: Ran out of types for this method. */;
+- (id)_invocationForTarget:selector:object: /* Error: Ran out of types for this method. */;
 - (_Bool)by task_threads;
 - (_Bool)ing Scene Session userInfo:%@ /* Error: Ran out of types for this method. */;
 - (void)er.;
@@ -37,20 +37,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) int _preferredStatusBarVisibility;
-@property(nonatomic) _Bool _shouldDisableAppearanceCallbacksForPresentedViewController; // @synthesize _shouldDisableAppearanceCallbacksForPresentedViewController=__shouldDisableAppearanceCallbacksForPresentedViewController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=_preferredStatusBarHideAnimationParameters) UIStatusBarHideAnimationParameters *preferredStatusBarHideAnimationParameters;
-@property(readonly, nonatomic) long long preferredStatusBarStyle;
-@property(readonly, nonatomic, getter=_preferredStatusBarStyleAnimationParameters) UIStatusBarStyleAnimationParameters *preferredStatusBarStyleAnimationParameters;
-@property(readonly, nonatomic) long long preferredStatusBarUpdateAnimation;
 @property(readonly, nonatomic) __weak UIWindow *presentingWindow; // @synthesize presentingWindow=_presentingWindow;
-@property(readonly) Class superclass;
 
 @end
 

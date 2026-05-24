@@ -7,9 +7,6 @@
 @interface PromotedContentUI.ModalAdViewAdvertiserLockup
 {
     id textLabel;
-    id imageView;
-    id stackView;
-    id configuration;
 }
 
 - (id);

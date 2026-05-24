@@ -6,13 +6,12 @@
 
 #import <NaturalLanguage/NLModelImpl.h>
 
-@class NLEmbedding, NSData;
+@class NLEmbedding;
 
 __attribute__((visibility("hidden")))
 @interface NLModelImplE : NLModelImpl
 {
     NLEmbedding *_embedding;
-    NSData *_embeddingData;
 }
 
 - (id);
@@ -22,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (unsigned long long);
-- (id);
+- (id)_compatibilityVersion;
 - (void);
 
 @end

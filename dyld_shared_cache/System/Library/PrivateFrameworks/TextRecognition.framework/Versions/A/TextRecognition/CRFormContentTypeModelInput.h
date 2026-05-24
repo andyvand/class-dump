@@ -4,35 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MLMultiArray, NSSet;
+@class MLMultiArray;
 
 @interface CRFormContentTypeModelInput
 {
     MLMultiArray *_fields;
-    MLMultiArray *_labels;
-    MLMultiArray *_length;
-    MLMultiArray *_num_labels;
 }
 
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)_updateMuteButtonImageAndTooltip;
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)4˟;
 - (void)oupsForStability: /* Error: Ran out of types for this method. */;
 - (id)sac (frame %ld);
 - (id)¼ãåç¾©äººã®å§;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *featureNames;
 @property(retain, nonatomic) MLMultiArray *fields; // @synthesize fields=_fields;
-@property(retain, nonatomic) MLMultiArray *labels; // @synthesize labels=_labels;
-@property(retain, nonatomic) MLMultiArray *length; // @synthesize length=_length;
-@property(retain, nonatomic) MLMultiArray *num_labels; // @synthesize num_labels=_num_labels;
 
 @end
 

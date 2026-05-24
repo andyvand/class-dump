@@ -7,10 +7,11 @@
 @class NSArray, NSData, NSString;
 
 @protocol _SFPBHashBucketDetail
+- (unsigned long long);
+- (NSArray *)_restorePropertiesAfterSetBounds;
+- (NSData *)_annotatedQueryString;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *hash_details;
 @property(copy, nonatomic) NSString *hash_prefix;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

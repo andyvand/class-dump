@@ -11,13 +11,13 @@
     NSMutableSet *_componentSets;
 }
 
-+ (_Bool);
++ (_Bool)recordContactEvents:(id)arg1 recentsDomain:(id)arg2 sendingAddress:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)drain_depth_p_0_90_at_charge_start_soc_curr_dynamic_bin_4;
 - (void);
 
 @end

@@ -9,22 +9,18 @@
 @interface CKAutomaticTranslationIndicatorCellMenuConfiguration
 {
     void localLanguageCode;
-    void recipientLanguageCode;
-    _Bool localLanguageSelected;
 }
 
-- (void);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (id);
+- (void)e;
+- (void)y;
+- (void).;
+- (id)data from dictionary (%@);
+- (_Bool)}16^B32;
+- (id)ICBaseAttachment"8{_NSRange=QQ}16^B32;
 - (void);
 
 // Remaining properties
 @property(nonatomic, copy) NSString *localLanguageCode;
-@property(nonatomic) _Bool localLanguageSelected; // @synthesize localLanguageSelected;
-@property(nonatomic, copy) NSString *recipientLanguageCode;
 
 @end
 

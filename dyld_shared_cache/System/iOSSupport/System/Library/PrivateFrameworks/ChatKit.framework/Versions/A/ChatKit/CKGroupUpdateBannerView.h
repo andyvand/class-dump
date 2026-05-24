@@ -11,19 +11,17 @@
 @interface CKGroupUpdateBannerView : CKNicknameBannerView
 {
     NSArray *_groupUpdates;
-    long long _updateBannerType;
 }
 
-- (long long);
-- (void);
-- (void);
+- (long long)fetchAndAcceptShareMetadataWithURL:managedObjectContext:alertBlock:showObjectBlock: /* Error: Ran out of types for this method. */;
+- (void)MutableSet",R,N,V_textStorageDocumentsBeingUpdated;
+- (void)ICNoteSectionIdentifier;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *groupUpdates; // @synthesize groupUpdates=_groupUpdates;
-@property(nonatomic) long long updateBannerType; // @synthesize updateBannerType=_updateBannerType;
 
 @end
 

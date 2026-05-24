@@ -13,7 +13,7 @@
 + (id);
 + (id);
 - (void);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (_Bool);

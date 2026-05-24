@@ -7,9 +7,6 @@
 @interface Network.TimerDispatchBackend
 {
     id closure;
-    id running;
-    id mutex;
-    id queue;
 }
 
 @end

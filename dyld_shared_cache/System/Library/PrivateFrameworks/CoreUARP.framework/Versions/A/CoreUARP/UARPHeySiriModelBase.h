@@ -4,47 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSURL, UARPAccessory, UARPController, UARPSuperBinaryAsset;
-@protocol OS_dispatch_queue, OS_os_log, UARPHeySiriModelDelegateProtocol;
+@class NSObject, UARPAccessory;
+@protocol OS_os_log;
 
 @interface UARPHeySiriModelBase
 {
     NSObject<OS_os_log> *_log;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSURL *_url;
-    UARPController *_controller;
-    UARPSuperBinaryAsset *_superbinary;
-    unsigned long long _majorVersion;
-    unsigned long long _minorVersion;
-    unsigned long long _uarpProtocolVersion;
-    unsigned long long _engineType;
-    NSMutableArray *_downloadedModels;
-    NSMutableArray *_preinstalledModels;
-    UARPAccessory *_accessory;
-    id <UARPHeySiriModelDelegateProtocol> _delegate;
 }
 
 - (unsigned long long);
-- (id);
-- (id);
+- (id);
+- (id)}};
 - (void);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)<;
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)X;
 - (void);
 - (void);
-- (void);
+- (id)AMSAccountManagementServiceInterface;
 - (id);
-- (id);
 - (void);
-- (void);
+- (void)c;
 - (id);
 - (void);
 - (id);
@@ -55,7 +43,6 @@
 
 // Remaining properties
 @property(readonly) UARPAccessory *accessory; // @synthesize accessory=_accessory;
-@property __weak id <UARPHeySiriModelDelegateProtocol> delegate; // @synthesize delegate=_delegate;
 
 @end
 

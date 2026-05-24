@@ -4,24 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSMutableSet, NSSet;
+@class NSMutableSet;
 
 @interface RBSystemState
 {
     NSMutableSet *_tags;
-    _Bool _preventLaunch;
-    _Bool _preventIdleSleep;
-    NSMutableSet *_preventIdleSleepIdentifiers;
-    NSMutableSet *_preventLaunchPredicates;
-    NSMutableSet *_allowLaunchPredicates;
-    NSMutableDictionary *_conditions;
-    NSMutableDictionary *_prewarmConfiguration;
 }
 
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)ats;
 - (id);
 - (_Bool);
 - (unsigned long long);
@@ -30,19 +23,12 @@
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)-;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSSet *allowLaunchPredicates; // @synthesize allowLaunchPredicates=_allowLaunchPredicates;
-@property(readonly, copy, nonatomic) NSDictionary *conditions; // @synthesize conditions=_conditions;
 @property(readonly, nonatomic) _Bool preventIdleSleep; // @synthesize preventIdleSleep=_preventIdleSleep;
-@property(readonly, nonatomic) NSSet *preventIdleSleepIdentifiers; // @synthesize preventIdleSleepIdentifiers=_preventIdleSleepIdentifiers;
-@property(readonly, nonatomic) _Bool preventLaunch; // @synthesize preventLaunch=_preventLaunch;
-@property(readonly, copy, nonatomic) NSSet *preventLaunchPredicates; // @synthesize preventLaunchPredicates=_preventLaunchPredicates;
-@property(readonly, copy, nonatomic) NSDictionary *prewarmConfiguration; // @synthesize prewarmConfiguration=_prewarmConfiguration;
-@property(readonly, copy, nonatomic) NSSet *tags; // @synthesize tags=_tags;
 
 @end
 

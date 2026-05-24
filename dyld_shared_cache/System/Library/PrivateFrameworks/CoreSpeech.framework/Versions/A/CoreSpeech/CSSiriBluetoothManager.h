@@ -8,7 +8,7 @@
 {
 }
 
-+ (id)vent:deviceId:completion: /* Error: Ran out of types for this method. */;
++ (id)_notifyTriggerEvent:deviceId:completion: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (id);

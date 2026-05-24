@@ -10,7 +10,7 @@
 }
 
 - (id);
-- (void);
+- (void)l;
 - (void)_cnui_ttyURLWithHandle:contact: /* Error: Ran out of types for this method. */;
 
 @end

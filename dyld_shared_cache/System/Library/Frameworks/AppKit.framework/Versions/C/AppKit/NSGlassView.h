@@ -12,7 +12,7 @@
 
 + (id);
 - (id);
-- (id)houldShowCellExpansionForRow:(struct CGRect)arg1 column: /* Error: Ran out of types for this method. */;
+- (id)_shouldShowCellExpansionForRow:(struct CGRect)arg1 column: /* Error: Ran out of types for this method. */;
 
 @end
 

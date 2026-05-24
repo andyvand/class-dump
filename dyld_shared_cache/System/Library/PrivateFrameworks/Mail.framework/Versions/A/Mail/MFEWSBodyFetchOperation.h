@@ -7,13 +7,10 @@
 #import <Mail/MFEWSNetworkTaskOperation.h>
 
 @class NSArray, NSMutableDictionary;
-@protocol MFEWSBodyFetchOperationDelegate;
 
 @interface MFEWSBodyFetchOperation : MFEWSNetworkTaskOperation
 {
     NSMutableDictionary *_messagesByRemoteID;
-    id <MFEWSBodyFetchOperationDelegate> _delegate;
-    NSArray *_messages;
 }
 
 - (id);
@@ -22,14 +19,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)control:(id)arg1 textShouldEndEditing: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void),Ø;
 
 // Remaining properties
-@property(nonatomic) __weak id <MFEWSBodyFetchOperationDelegate> delegate; // @synthesize delegate=_delegate;
 @property(readonly, copy, nonatomic) NSArray *messages; // @synthesize messages=_messages;
 
 @end

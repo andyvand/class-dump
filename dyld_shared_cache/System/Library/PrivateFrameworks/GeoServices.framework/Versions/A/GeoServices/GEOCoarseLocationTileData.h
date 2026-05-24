@@ -12,27 +12,27 @@
 }
 
 + (Class);
-+ (_Bool)lDepartures:(id)arg1;
++ (_Bool)setHasNumAdditionalDepartures:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)initWithRequestSource:(id)arg1;
 - (void);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)r;
 - (unsigned long long);
 - (void);
 - (_Bool);
 - (void);
 - (void)Ñ¶*Ð1Â0@ù
 × ;
-- (id)mageId;
+- (id)routeStepScreenshotImageId;
 - (id)(<;
-- (id)AYER_FARPOINT_METADATA;
+- (id)LAYER_FARPOINT_METADATA;
 - (id)´;
-- (void);
+- (void)d;
 - (void)@³;
 
 // Remaining properties

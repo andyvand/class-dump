@@ -9,14 +9,10 @@
 @interface PKProtobufPromptDetailsForVirtualCard
 {
     NSString *_identifier;
-    _Bool _showNotification;
-    struct {
-        unsigned int showNotification:1;
-    } _has;
 }
 
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);
@@ -32,13 +28,10 @@
 - (id);
 - (_Bool)
 × ;
-- (void)PTION_DPAN_SUFFIX_FORMAT_STRING;
+- (void)TRANSACTION_SECONDARY_FUNDING_SOURCE_CARD_DESCRIPTION_DPAN_SUFFIX_FORMAT_STRING;
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasIdentifier;
-@property(nonatomic) _Bool hasShowNotification;
-@property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) _Bool showNotification; // @synthesize showNotification=_showNotification;
 
 @end
 

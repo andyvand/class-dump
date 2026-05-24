@@ -5,5 +5,6 @@
 //
 
 @protocol _GCIPCEndpointServer
+- (_Bool)/;
 @end
 

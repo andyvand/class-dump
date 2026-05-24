@@ -10,7 +10,7 @@
 {
 }
 
-- (void);
+- (void)HA;
 
 @end
 

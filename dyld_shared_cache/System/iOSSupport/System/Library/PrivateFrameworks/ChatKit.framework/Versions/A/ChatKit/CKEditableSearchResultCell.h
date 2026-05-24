@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIImageView;
-
 @interface CKEditableSearchResultCell
 {
     _Bool __ck_editing;
-    UIImageView *_checkmarkView;
-    UIImageView *_imageView;
-    UIImageView *_selectionOverlay;
 }
 
 - (_Bool);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)V;
 - (void);
 - (id);
 - (void);
 - (void);
 - (id)1Â0@ù
 × ;
-- (void)nscriptSpace;
+- (void)_quickReplyListBottomTranscriptSpace;
 - (void)|[ySbGGA3Ht;
-- (void)GlassLegibilitySettingTrait;
+- (void)CKSystemGlassLegibilitySettingTrait;
 
 // Remaining properties
 @property(nonatomic, getter=_ck_isEditing, setter=_ck_setEditing:) _Bool _ck_editing; // @synthesize _ck_editing=__ck_editing;
-@property(retain, nonatomic) UIImageView *checkmarkView; // @synthesize checkmarkView=_checkmarkView;
-@property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(retain, nonatomic) UIImageView *selectionOverlay; // @synthesize selectionOverlay=_selectionOverlay;
 
 @end
 

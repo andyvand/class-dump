@@ -7,25 +7,504 @@
 @interface QFilterImageInfo
 {
     double _scalingFactor;
-    unsigned int _maxSize;
-    unsigned int _minSize;
-    unsigned int _resolution;
-    unsigned int _scalingQuality;
-    int _overrideInterpolate;
-    int _overrideCompression;
-    double _quality;
-    int _convolution;
-    unsigned int _radius;
 }
 
-- (void);
-- (void);
-- (void);
-- (unsigned int);
-- (int);
-- (int);
-- (void);
-- (int);
+- (void)= N;
+    output.tangent = dPu;
+    output.bitangent = dPv;
+#if OSD_COMPUTE_NORMAL_DERIVATIVES
+    output.Nu = dNu;
+    output.Nv = dNv;
+#endif
+
+    output.patchCoord = OsdInterpolatePatchCoord(UV, patchParam);
+    
+    OSD_USER_VARYING_PER_EVAL_POINT(UV, patch[0], patch[1], patch[3], patch[2], output);
+
+    return output;
+}
+
+#if USE_STAGE_IN
+template<typename PerPatchVertexGregoryBasis>
+#endif
+static OsdPatchVertex OsdComputePatch(
+	float tessLevel,
+	float2 domainCoord,
+	unsigned patchID,
+#if USE_STAGE_IN
+	PerPatchVertexGregoryBasis osdPatch
+#else
+    OsdVertexBufferSet osdBuffers
+#endif
+	)
+{
+	return ds_gregory_patches(
+#if USE_STAGE_IN
+		osdPatch.cv,
+		osdPatch.patchParam,
+#else
+        osdBuffers.perPatchVertexBuffer + patchID * VERTEX_CONTROL_POINTS_PER_PATCH,
+        osdBuffers.patchParamBuffer[patchID],
+#endif
+		domainCoord);
+}
+
+;
+- (void)ch[3].P;
+    cv[16] = patch[3].Ep;
+    cv[17] = patch[3].Em;
+    cv[18] = patch[3].Fp;
+    cv[19] = patch[3].Fm;
+    
+    OsdEvalPatchGregory(patchParam, UV, cv, P, dPu, dPv, N, dNu, dNv);
+    
+    // all code below here is client code
+    output.position = P;
+    output.normal = N;
+    output.tangent = dPu;
+    output.bitangent = dPv;
+#if OSD_COMPUTE_NORMAL_DERIVATIVES
+    output.Nu = dNu;
+    output.Nv = dNv;
+#endif
+
+    output.patchCoord = OsdInterpolatePatchCoord(UV, patchParam);
+    
+    OSD_USER_VARYING_PER_EVAL_POINT(UV, patch[0], patch[1], patch[3], patch[2], output);
+
+    return output;
+}
+
+#if USE_STAGE_IN
+template<typename PerPatchVertexGregoryBasis>
+#endif
+static OsdPatchVertex OsdComputePatch(
+	float tessLevel,
+	float2 domainCoord,
+	unsigned patchID,
+#if USE_STAGE_IN
+	PerPatchVertexGregoryBasis osdPatch
+#else
+    OsdVertexBufferSet osdBuffers
+#endif
+	)
+{
+	return ds_gregory_patches(
+#if USE_STAGE_IN
+		osdPatch.cv,
+		osdPatch.patchParam,
+#else
+        osdBuffers.perPatchVertexBuffer + patchID * VERTEX_CONTROL_POINTS_PER_PATCH,
+        osdBuffers.patchParamBuffer[patchID],
+#endif
+		domainCoord);
+}
+
+;
+- (void)= patch[2].Fm;
+    
+    cv[15] = patch[3].P;
+    cv[16] = patch[3].Ep;
+    cv[17] = patch[3].Em;
+    cv[18] = patch[3].Fp;
+    cv[19] = patch[3].Fm;
+    
+    OsdEvalPatchGregory(patchParam, UV, cv, P, dPu, dPv, N, dNu, dNv);
+    
+    // all code below here is client code
+    output.position = P;
+    output.normal = N;
+    output.tangent = dPu;
+    output.bitangent = dPv;
+#if OSD_COMPUTE_NORMAL_DERIVATIVES
+    output.Nu = dNu;
+    output.Nv = dNv;
+#endif
+
+    output.patchCoord = OsdInterpolatePatchCoord(UV, patchParam);
+    
+    OSD_USER_VARYING_PER_EVAL_POINT(UV, patch[0], patch[1], patch[3], patch[2], output);
+
+    return output;
+}
+
+#if USE_STAGE_IN
+template<typename PerPatchVertexGregoryBasis>
+#endif
+static OsdPatchVertex OsdComputePatch(
+	float tessLevel,
+	float2 domainCoord,
+	unsigned patchID,
+#if USE_STAGE_IN
+	PerPatchVertexGregoryBasis osdPatch
+#else
+    OsdVertexBufferSet osdBuffers
+#endif
+	)
+{
+	return ds_gregory_patches(
+#if USE_STAGE_IN
+		osdPatch.cv,
+		osdPatch.patchParam,
+#else
+        osdBuffers.perPatchVertexBuffer + patchID * VERTEX_CONTROL_POINTS_PER_PATCH,
+        osdBuffers.patchParamBuffer[patchID],
+#endif
+		domainCoord);
+}
+
+;
+- (unsigned int)OsdPatchVertex output;
+    
+    float3 P = float3(0,0,0), dPu = float3(0,0,0), dPv = float3(0,0,0);
+    float3 N = float3(0,0,0), dNu = float3(0,0,0), dNv = float3(0,0,0);
+    
+    float3 cv[20];
+    cv[0] = patch[0].P;
+    cv[1] = patch[0].Ep;
+    cv[2] = patch[0].Em;
+    cv[3] = patch[0].Fp;
+    cv[4] = patch[0].Fm;
+    
+    cv[5] = patch[1].P;
+    cv[6] = patch[1].Ep;
+    cv[7] = patch[1].Em;
+    cv[8] = patch[1].Fp;
+    cv[9] = patch[1].Fm;
+    
+    cv[10] = patch[2].P;
+    cv[11] = patch[2].Ep;
+    cv[12] = patch[2].Em;
+    cv[13] = patch[2].Fp;
+    cv[14] = patch[2].Fm;
+    
+    cv[15] = patch[3].P;
+    cv[16] = patch[3].Ep;
+    cv[17] = patch[3].Em;
+    cv[18] = patch[3].Fp;
+    cv[19] = patch[3].Fm;
+    
+    OsdEvalPatchGregory(patchParam, UV, cv, P, dPu, dPv, N, dNu, dNv);
+    
+    // all code below here is client code
+    output.position = P;
+    output.normal = N;
+    output.tangent = dPu;
+    output.bitangent = dPv;
+#if OSD_COMPUTE_NORMAL_DERIVATIVES
+    output.Nu = dNu;
+    output.Nv = dNv;
+#endif
+
+    output.patchCoord = OsdInterpolatePatchCoord(UV, patchParam);
+    
+    OSD_USER_VARYING_PER_EVAL_POINT(UV, patch[0], patch[1], patch[3], patch[2], output);
+
+    return output;
+}
+
+#if USE_STAGE_IN
+template<typename PerPatchVertexGregoryBasis>
+#endif
+static OsdPatchVertex OsdComputePatch(
+	float tessLevel,
+	float2 domainCoord,
+	unsigned patchID,
+#if USE_STAGE_IN
+	PerPatchVertexGregoryBasis osdPatch
+#else
+    OsdVertexBufferSet osdBuffers
+#endif
+	)
+{
+	return ds_gregory_patches(
+#if USE_STAGE_IN
+		osdPatch.cv,
+		osdPatch.patchParam,
+#else
+        osdBuffers.perPatchVertexBuffer + patchID * VERTEX_CONTROL_POINTS_PER_PATCH,
+        osdBuffers.patchParamBuffer[patchID],
+#endif
+		domainCoord);
+}
+
+;
+- (int)--------------------------------------
+
+void OsdComputePerPatchVertex(
+	int3 patchParam, 
+	unsigned ID, 
+	unsigned PrimitiveID, 
+	unsigned ControlID,
+	threadgroup PatchVertexType* patchVertices,
+	OsdPatchParamBufferSet osdBuffers
+	)
+{
+	OsdComputePerPatchVertexGregory(
+		patchParam,
+		ID,
+		PrimitiveID,
+		patchVertices,
+		osdBuffers.perPatchVertexBuffer[ControlID],
+		osdBuffers);
+    
+    OSD_USER_VARYING_PER_VERTEX(patchVertices[ID], osdBuffers.perPatchVertexBuffer[ControlID]);
+}
+
+//----------------------------------------------------------
+// Patches.Gregory.Domain
+//----------------------------------------------------------
+
+template<typename PerPatchVertexGregory>
+static OsdPatchVertex ds_gregory_patches(
+                     PerPatchVertexGregory patch,
+                     int3 patchParam,
+                     float2 UV
+                    )
+{
+    OsdPatchVertex output;
+    
+    float3 P = float3(0,0,0), dPu = float3(0,0,0), dPv = float3(0,0,0);
+    float3 N = float3(0,0,0), dNu = float3(0,0,0), dNv = float3(0,0,0);
+    
+    float3 cv[20];
+    cv[0] = patch[0].P;
+    cv[1] = patch[0].Ep;
+    cv[2] = patch[0].Em;
+    cv[3] = patch[0].Fp;
+    cv[4] = patch[0].Fm;
+    
+    cv[5] = patch[1].P;
+    cv[6] = patch[1].Ep;
+    cv[7] = patch[1].Em;
+    cv[8] = patch[1].Fp;
+    cv[9] = patch[1].Fm;
+    
+    cv[10] = patch[2].P;
+    cv[11] = patch[2].Ep;
+    cv[12] = patch[2].Em;
+    cv[13] = patch[2].Fp;
+    cv[14] = patch[2].Fm;
+    
+    cv[15] = patch[3].P;
+    cv[16] = patch[3].Ep;
+    cv[17] = patch[3].Em;
+    cv[18] = patch[3].Fp;
+    cv[19] = patch[3].Fm;
+    
+    OsdEvalPatchGregory(patchParam, UV, cv, P, dPu, dPv, N, dNu, dNv);
+    
+    // all code below here is client code
+    output.position = P;
+    output.normal = N;
+    output.tangent = dPu;
+    output.bitangent = dPv;
+#if OSD_COMPUTE_NORMAL_DERIVATIVES
+    output.Nu = dNu;
+    output.Nv = dNv;
+#endif
+
+    output.patchCoord = OsdInterpolatePatchCoord(UV, patchParam);
+    
+    OSD_USER_VARYING_PER_EVAL_POINT(UV, patch[0], patch[1], patch[3], patch[2], output);
+
+    return output;
+}
+
+#if USE_STAGE_IN
+template<typename PerPatchVertexGregoryBasis>
+#endif
+static OsdPatchVertex OsdComputePatch(
+	float tessLevel,
+	float2 domainCoord,
+	unsigned patchID,
+#if USE_STAGE_IN
+	PerPatchVertexGregoryBasis osdPatch
+#else
+    OsdVertexBufferSet osdBuffers
+#endif
+	)
+{
+	return ds_gregory_patches(
+#if USE_STAGE_IN
+		osdPatch.cv,
+		osdPatch.patchParam,
+#else
+        osdBuffers.perPatchVertexBuffer + patchID * VERTEX_CONTROL_POINTS_PER_PATCH,
+        osdBuffers.patchParamBuffer[patchID],
+#endif
+		domainCoord);
+}
+
+;
+- (int)ry.Vertex
+//----------------------------------------------------------
+
+void OsdComputePerPatchVertex(
+	int3 patchParam, 
+	unsigned ID, 
+	unsigned PrimitiveID, 
+	unsigned ControlID,
+	threadgroup PatchVertexType* patchVertices,
+	OsdPatchParamBufferSet osdBuffers
+	)
+{
+	OsdComputePerPatchVertexGregory(
+		patchParam,
+		ID,
+		PrimitiveID,
+		patchVertices,
+		osdBuffers.perPatchVertexBuffer[ControlID],
+		osdBuffers);
+    
+    OSD_USER_VARYING_PER_VERTEX(patchVertices[ID], osdBuffers.perPatchVertexBuffer[ControlID]);
+}
+
+//----------------------------------------------------------
+// Patches.Gregory.Domain
+//----------------------------------------------------------
+
+template<typename PerPatchVertexGregory>
+static OsdPatchVertex ds_gregory_patches(
+                     PerPatchVertexGregory patch,
+                     int3 patchParam,
+                     float2 UV
+                    )
+{
+    OsdPatchVertex output;
+    
+    float3 P = float3(0,0,0), dPu = float3(0,0,0), dPv = float3(0,0,0);
+    float3 N = float3(0,0,0), dNu = float3(0,0,0), dNv = float3(0,0,0);
+    
+    float3 cv[20];
+    cv[0] = patch[0].P;
+    cv[1] = patch[0].Ep;
+    cv[2] = patch[0].Em;
+    cv[3] = patch[0].Fp;
+    cv[4] = patch[0].Fm;
+    
+    cv[5] = patch[1].P;
+    cv[6] = patch[1].Ep;
+    cv[7] = patch[1].Em;
+    cv[8] = patch[1].Fp;
+    cv[9] = patch[1].Fm;
+    
+    cv[10] = patch[2].P;
+    cv[11] = patch[2].Ep;
+    cv[12] = patch[2].Em;
+    cv[13] = patch[2].Fp;
+    cv[14] = patch[2].Fm;
+    
+    cv[15] = patch[3].P;
+    cv[16] = patch[3].Ep;
+    cv[17] = patch[3].Em;
+    cv[18] = patch[3].Fp;
+    cv[19] = patch[3].Fm;
+    
+    OsdEvalPatchGregory(patchParam, UV, cv, P, dPu, dPv, N, dNu, dNv);
+    
+    // all code below here is client code
+    output.position = P;
+    output.normal = N;
+    output.tangent = dPu;
+    output.bitangent = dPv;
+#if OSD_COMPUTE_NORMAL_DERIVATIVES
+    output.Nu = dNu;
+    output.Nv = dNv;
+#endif
+
+    output.patchCoord = OsdInterpolatePatchCoord(UV, patchParam);
+    
+    OSD_USER_VARYING_PER_EVAL_POINT(UV, patch[0], patch[1], patch[3], patch[2], output);
+
+    return output;
+}
+
+#if USE_STAGE_IN
+template<typename PerPatchVertexGregoryBasis>
+#endif
+static OsdPatchVertex OsdComputePatch(
+	float tessLevel,
+	float2 domainCoord,
+	unsigned patchID,
+#if USE_STAGE_IN
+	PerPatchVertexGregoryBasis osdPatch
+#else
+    OsdVertexBufferSet osdBuffers
+#endif
+	)
+{
+	return ds_gregory_patches(
+#if USE_STAGE_IN
+		osdPatch.cv,
+		osdPatch.patchParam,
+#else
+        osdBuffers.perPatchVertexBuffer + patchID * VERTEX_CONTROL_POINTS_PER_PATCH,
+        osdBuffers.patchParamBuffer[patchID],
+#endif
+		domainCoord);
+}
+
+;
+- (void)u, dPv, N, dNu, dNv, vSegments);
+
+    output.normal = N;
+    output.tangent = dPu;
+    output.bitangent = dPv;
+#if OSD_COMPUTE_NORMAL_DERIVATIVES
+    output.Nu = dNu;
+    output.Nv = dNv;
+#endif
+#if OSD_PATCH_ENABLE_SINGLE_CREASE
+    output.vSegments = vSegments;
+#endif
+
+    output.patchCoord = OsdInterpolatePatchCoord(UV, patchParam);
+    output.position = P;
+    
+    OSD_USER_VARYING_PER_EVAL_POINT(UV, cv[5], cv[6], cv[9], cv[10], output);
+    
+    return output;
+}
+
+#if USE_STAGE_IN
+template<typename PerPatchVertexBezier>
+#endif
+static OsdPatchVertex OsdComputePatch(
+	float tessLevel,
+	float2 domainCoord,
+	unsigned patchID,
+#if USE_STAGE_IN
+	PerPatchVertexBezier osdPatch
+#else
+	OsdVertexBufferSet osdBuffers
+#endif
+	)
+{
+	return ds_regular_patches(
+		tessLevel,
+#if !USE_PTVS_FACTORS
+#if USE_STAGE_IN
+		osdPatch.tessOuterHi,
+		osdPatch.tessOuterLo,
+#else
+		osdBuffers.patchTessBuffer[patchID].tessOuterHi,
+		osdBuffers.patchTessBuffer[patchID].tessOuterLo,
+#endif
+#endif
+#if USE_STAGE_IN
+		osdPatch.cv,
+		osdPatch.patchParam,
+#else
+		osdBuffers.perPatchVertexBuffer + patchID * VERTEX_CONTROL_POINTS_PER_PATCH,
+		osdBuffers.patchParamBuffer[patchID],
+#endif
+		domainCoord
+		);
+}
+
+;
+- (int);
 - (void);
 - (void);
 - (void);
@@ -36,24 +515,15 @@
 - (double);
 - (id);
 - (unsigned int);
-- (void);
+- (void)O;
 - (double);
 - (unsigned int);
-- (void);
-- (void);
-- (unsigned int)tring;
+- (void)webView:(double)arg1 shouldPerformAction:fromSender: /* Error: Ran out of types for this method. */;
+- (void)es migration;
+- (unsigned int)UTF8String;
 
 // Remaining properties
-@property int convolution; // @synthesize convolution=_convolution;
-@property unsigned int maxSize; // @synthesize maxSize=_maxSize;
-@property unsigned int minSize; // @synthesize minSize=_minSize;
-@property int overrideCompression; // @synthesize overrideCompression=_overrideCompression;
-@property int overrideInterpolate; // @synthesize overrideInterpolate=_overrideInterpolate;
-@property double quality; // @synthesize quality=_quality;
-@property unsigned int radius; // @synthesize radius=_radius;
-@property unsigned int resolution; // @synthesize resolution=_resolution;
 @property double scalingFactor; // @synthesize scalingFactor=_scalingFactor;
-@property unsigned int scalingQuality; // @synthesize scalingQuality=_scalingQuality;
 
 @end
 

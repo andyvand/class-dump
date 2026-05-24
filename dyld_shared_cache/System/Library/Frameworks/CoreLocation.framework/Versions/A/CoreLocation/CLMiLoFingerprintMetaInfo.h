@@ -4,35 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSNumber, NSUUID;
+@class NSNumber;
 
 @interface CLMiLoFingerprintMetaInfo
 {
     NSNumber *_numberOfWiFiAccessPoints;
-    NSNumber *_numberOfBLESources;
-    NSNumber *_numberOfUWBSources;
-    NSUUID *_requestIdentifier;
-    NSArray *_errors;
 }
 
 + (_Bool);
+- (id)g;
+- (id);
+- (id);
 - (id);
 - (id);
+- (void)e:%ldx%ld  rb:%ld
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (void)h;
+- (id)setEnableAccelerationStructureViewerInstrumentation:(struct _NSZone *)arg1;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *errors; // @synthesize errors=_errors;
-@property(readonly, nonatomic) NSNumber *numberOfBLESources; // @synthesize numberOfBLESources=_numberOfBLESources;
-@property(readonly, nonatomic) NSNumber *numberOfUWBSources; // @synthesize numberOfUWBSources=_numberOfUWBSources;
 @property(readonly, nonatomic) NSNumber *numberOfWiFiAccessPoints; // @synthesize numberOfWiFiAccessPoints=_numberOfWiFiAccessPoints;
-@property(readonly, nonatomic) NSUUID *requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;
 
 @end
 

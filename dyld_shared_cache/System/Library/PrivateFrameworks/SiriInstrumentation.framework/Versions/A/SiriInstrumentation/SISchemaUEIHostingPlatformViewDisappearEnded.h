@@ -6,33 +6,28 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaUEIHostingPlatformViewDisappearEnded : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    CDStruct_b33ad018 _has;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
-- (unsigned long long);
+- (void)?ki;
+- (unsigned long long)divertedTrackingID;
 - (_Bool);
-- (_Bool);
+- (_Bool)tion *, CFStringRef, CFStringRef);
 - (id);
 - (id);
-- (id)iled;
-- (id)hasCanResolveContactByRelationship;
+- (id)deleteFailed;
+- (id)_hasCanResolveContactByRelationship;
 - (_Bool)le.aiml.siri.rf.RFClientEvent.RFSnippetRenderingContext;
-- (_Bool)AY;
+- (_Bool)DIALOGENGINENAMEDENTITYCATID__PLAYMEDIAINTENT__PLAY;
 - (void)zãÿ¦;
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

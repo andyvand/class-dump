@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CTCarrier, NSDictionary, NSString;
+@class NSString;
 @protocol CTTelephonyNetworkInfoDelegate;
 
 @interface CTTelephonyNetworkInfo
 {
     id <CTTelephonyNetworkInfoDelegate> _delegate;
-    CDUnknownBlockType _serviceSubscriberCellularProvidersDidUpdateNotifier;
-    CDUnknownBlockType _subscriberCellularProviderDidUpdateNotifier;
-    NSString *_currentRadioAccessTechnology;
 }
 
 - (id);
@@ -24,7 +21,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)(H;
 - (void);
 - (id);
 - (CDUnknownBlockType);
@@ -34,14 +31,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSString *currentRadioAccessTechnology; // @synthesize currentRadioAccessTechnology=_currentRadioAccessTechnology;
 @property(readonly, copy) NSString *dataServiceIdentifier;
-@property __weak id <CTTelephonyNetworkInfoDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, retain, nonatomic) NSDictionary *serviceCurrentRadioAccessTechnology;
-@property(readonly, retain) NSDictionary *serviceSubscriberCellularProviders;
-@property(copy, nonatomic) CDUnknownBlockType serviceSubscriberCellularProvidersDidUpdateNotifier; // @synthesize serviceSubscriberCellularProvidersDidUpdateNotifier=_serviceSubscriberCellularProvidersDidUpdateNotifier;
-@property(readonly, retain) CTCarrier *subscriberCellularProvider;
-@property(copy, nonatomic) CDUnknownBlockType subscriberCellularProviderDidUpdateNotifier; // @synthesize subscriberCellularProviderDidUpdateNotifier=_subscriberCellularProviderDidUpdateNotifier;
 
 @end
 

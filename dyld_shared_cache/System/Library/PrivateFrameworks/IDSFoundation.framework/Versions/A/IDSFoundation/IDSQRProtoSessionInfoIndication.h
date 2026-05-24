@@ -9,17 +9,6 @@
 @interface IDSQRProtoSessionInfoIndication
 {
     CDStruct_62a50c50 _lightweightParticipantIdLists;
-    CDStruct_9f2792e4 _peerSubscribedStreamIds;
-    unsigned long long _txnId;
-    unsigned int _generationCounter;
-    NSMutableArray *_joinedParticipants;
-    NSMutableArray *_leftParticipants;
-    NSMutableArray *_peerPublishedStreams;
-    NSMutableArray *_updatedParticipants;
-    struct {
-        unsigned int txnId:1;
-        unsigned int generationCounter:1;
-    } _has;
 }
 
 + (Class);
@@ -35,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -59,7 +48,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void))8%;
 - (void);
 - (void);
 - (void);
@@ -74,8 +63,9 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)Q28:(id)arg1 36@44^v52;
+- (void)r server activate?
+;
 - (id);
 - (id);
 - (void)ms failed to write stream-count due to short buffer.;
@@ -83,18 +73,7 @@
 - (unsigned int);
 
 // Remaining properties
-@property(nonatomic) unsigned int generationCounter; // @synthesize generationCounter=_generationCounter;
-@property(nonatomic) _Bool hasGenerationCounter;
-@property(nonatomic) _Bool hasTxnId;
-@property(retain, nonatomic) NSMutableArray *joinedParticipants; // @synthesize joinedParticipants=_joinedParticipants;
-@property(retain, nonatomic) NSMutableArray *leftParticipants; // @synthesize leftParticipants=_leftParticipants;
-@property(readonly, nonatomic) unsigned long long *lightweightParticipantIdLists;
-@property(readonly, nonatomic) unsigned long long lightweightParticipantIdListsCount;
 @property(retain, nonatomic) NSMutableArray *peerPublishedStreams; // @synthesize peerPublishedStreams=_peerPublishedStreams;
-@property(readonly, nonatomic) unsigned int *peerSubscribedStreamIds;
-@property(readonly, nonatomic) unsigned long long peerSubscribedStreamIdsCount;
-@property(nonatomic) unsigned long long txnId; // @synthesize txnId=_txnId;
-@property(retain, nonatomic) NSMutableArray *updatedParticipants; // @synthesize updatedParticipants=_updatedParticipants;
 
 @end
 

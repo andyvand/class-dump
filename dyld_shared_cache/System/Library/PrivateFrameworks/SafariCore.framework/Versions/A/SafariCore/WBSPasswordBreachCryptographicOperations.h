@@ -9,13 +9,12 @@
 @interface WBSPasswordBreachCryptographicOperations
 {
     WBSPasswordBreachConfiguration *_configuration;
-    struct cc_blinding_keys_ctx *_blindingKeys;
 }
 
 + (_Bool);
-- (void);
+- (void)_selectionForMarkupAnnotation;
 - (id);
-- (id);
+- (id)C3DHitTestResultGetSmoothedLocalCoordinate;
 - (id);
 - (id);
 - (id);
@@ -25,7 +24,7 @@
 - (id);
 - (struct _CCECCryptor *);
 - (id);
-- (id);
+- (id);
 - (void);
 
 @end

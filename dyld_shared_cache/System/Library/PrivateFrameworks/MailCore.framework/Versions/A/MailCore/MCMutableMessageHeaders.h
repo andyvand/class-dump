@@ -6,16 +6,15 @@
 
 #import <MailCore/MCMessageHeaders.h>
 
-@class NSArray, NSData, NSMutableArray, NSMutableDictionary, NSString;
+@class NSArray, NSMutableDictionary;
 
 @interface MCMutableMessageHeaders : MCMessageHeaders
 {
     NSMutableDictionary *_headersAdded;
-    NSMutableArray *_headersRemoved;
 }
 
 + (id);
-- (id);
+- (id)G;
 - (id);
 - (void);
 - (void);
@@ -28,28 +27,19 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)S;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)N;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSData *encodedHeaders;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) NSArray *listUnsubscribeCommands;
-@property(readonly, nonatomic) NSString *listUnsubscribePostContent;
-@property(readonly) Class superclass;
 
 @end
 

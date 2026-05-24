@@ -5,5 +5,6 @@
 //
 
 @protocol HMDMediaGroupsAggregatorMessengerDelegate
+- (void)bleDictionary",&,N,V_lastETAUpdateDates;
 @end
 

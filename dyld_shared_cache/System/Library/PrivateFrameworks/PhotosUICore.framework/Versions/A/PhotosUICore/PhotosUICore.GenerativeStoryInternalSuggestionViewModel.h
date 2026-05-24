@@ -7,9 +7,6 @@
 @interface PhotosUICore.GenerativeStoryInternalSuggestionViewModel
 {
     id logger;
-    id photoLibrary;
-    id _cachePromptSuggestion;
-    id _$observationRegistrar;
 }
 
 @end

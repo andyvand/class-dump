@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, _INPBCondition;
+@class _INPBCondition;
 
 @interface _INPBDataStringList
 {
     struct _has;
-    _INPBCondition *_conditionType;
-    NSArray *_dataStrings;
 }
 
 + (Class);
@@ -27,25 +25,15 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (void)i] %{public}s (%{public}s:(id)arg1 %u) Invalid report data %p;
 - (void);
-- (void);
+- (id);
 - (id);
-- (id);
-- (void)eSuccess;
-- (id)hCompletion: /* Error: Ran out of types for this method. */;
+- (void)INSetDefrosterSettingsInCarIntentResponseCodeSuccess;
+- (id)provideContactsOptionsForStartVideoCall:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBCondition *conditionType; // @synthesize conditionType=_conditionType;
-@property(copy, nonatomic) NSArray *dataStrings; // @synthesize dataStrings=_dataStrings;
-@property(readonly, nonatomic) unsigned long long dataStringsCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasConditionType;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

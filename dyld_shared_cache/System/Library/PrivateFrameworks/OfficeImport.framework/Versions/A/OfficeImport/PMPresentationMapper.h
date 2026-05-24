@@ -6,29 +6,20 @@
 
 #import <OfficeImport/CMDocumentMapper.h>
 
-@class NSMutableArray, NSString, OIXMLDocument, OIXMLElement, PDPresentation;
+@class PDPresentation;
 
 __attribute__((visibility("hidden")))
 @interface PMPresentationMapper : CMDocumentMapper
 {
     int mWidth;
-    NSMutableArray *mSlideNames;
-    NSMutableArray *mSlideGuids;
-    NSString *mResourceUrlPrefix;
-    NSString *mResourceUrlProtocol;
-    OIXMLDocument *mXhtmlDoc;
-    OIXMLElement *mBodyElement;
-    unsigned int mNextCommit;
-    unsigned int mCurrentSlide;
-    _Bool mHasPushedFirstSlides;
 }
 
 - (void);
 - (struct CGSize);
-- (void);
+- (void)_;
 - (struct CGSize);
 - (struct CGSize);
-- (void);
+- (void)h;
 - (id);
 - (void);
 - (id);

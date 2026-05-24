@@ -12,9 +12,6 @@
 - (_INPBValueMetadata *);
 
 // Remaining properties
-@property(nonatomic) _Bool hasValue;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
 @property(nonatomic) _Bool value;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata;
 @end
 

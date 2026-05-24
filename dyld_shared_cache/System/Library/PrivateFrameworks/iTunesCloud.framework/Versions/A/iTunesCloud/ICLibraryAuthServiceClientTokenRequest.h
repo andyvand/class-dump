@@ -6,18 +6,17 @@
 
 #import <iTunesCloud/ICRequestOperation.h>
 
-@class ICLibraryAuthServiceClientTokenResponse, ICStoreRequestContext;
+@class ICStoreRequestContext;
 
 @interface ICLibraryAuthServiceClientTokenRequest : ICRequestOperation
 {
     ICStoreRequestContext *_storeRequestContext;
-    ICLibraryAuthServiceClientTokenResponse *_response;
 }
 
 - (void);
 - (id);
 - (void);
-- (void)ckCoordinatorMedium;
+- (void)ICLiveLinkPlaybackCoordinatorMedium;
 
 @end
 

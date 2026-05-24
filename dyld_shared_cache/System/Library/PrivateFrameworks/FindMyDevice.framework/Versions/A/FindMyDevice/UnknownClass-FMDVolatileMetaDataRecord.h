@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (FMDVolatileMetaDataRecord)
-- (id);
+- (id)^{_PKStrokePoint}}{__wrap_iter<const _PKStrokePoint *>=^{_PKStrokePoint}}}24B40B44;
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarImageRenderer, CNContact, CNWallpaper, NSData, NSString;
+@class CNAvatarImageRenderer, CNContact;
 
 @interface CNMeCardSharingContactAvatarProvider
 {
     CNContact *_contact;
-    CNAvatarImageRenderer *_renderer;
 }
 
 + (id)0@ù
@@ -23,23 +22,11 @@
 - (id);
 - (id);
 - (id);
-- (void)tMenuItems;
+- (void)_currentMenuItems;
 - (struct CGRect)ddd}8@?0;
 
 // Remaining properties
-@property(readonly, nonatomic) CNContact *contact; // @synthesize contact=_contact;
-@property(readonly, nonatomic) struct CGRect cropRect;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *imageData;
 @property(readonly, nonatomic) CNAvatarImageRenderer *renderer; // @synthesize renderer=_renderer;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSData *thumbnailImageData;
-@property(readonly, nonatomic) CNWallpaper *wallpaper;
 
 @end
 

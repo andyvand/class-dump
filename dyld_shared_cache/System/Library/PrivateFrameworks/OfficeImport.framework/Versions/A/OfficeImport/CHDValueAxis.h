@@ -10,32 +10,25 @@ __attribute__((visibility("hidden")))
 @interface CHDValueAxis : CHDAxis
 {
     _Bool mPercentageFormattingFlag;
-    _Bool mAutoMajorUnitValue;
-    _Bool mAutoMinorUnitValue;
-    double mMajorUnitValue;
-    double mMinorUnitValue;
-    double mScalingLogBase;
-    int mBuiltInUnit;
-    _Bool mShowBuiltInUnit;
 }
 
-- (void);
+- (void)(;
 - (void);
 - (void);
 - (void);
 - (void);
 - (double);
 - (double);
-- (double);
+- (double)	;
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)	;
+- (id)	;
 - (int);
 - (void);
-- (void);
-- (id);
+- (void)an;
+- (id);
 
 @end
 

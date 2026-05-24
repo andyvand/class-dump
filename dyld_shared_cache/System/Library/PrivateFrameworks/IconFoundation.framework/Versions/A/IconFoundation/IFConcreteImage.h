@@ -6,20 +6,9 @@
 
 #import <IconFoundation/IFImage.h>
 
-@class ICRFinalizedIcon, ICRIconLayer, NSData;
-
 @interface IFConcreteImage : IFImage
 {
     _Bool _placeholder;
-    struct CGImage *_CGImage;
-    double _scale;
-    unsigned long long _validationFlags;
-    NSData *_layerData;
-    ICRIconLayer *_ICRIconLayer;
-    ICRFinalizedIcon *_finalizedIcon;
-    struct CGSize _size;
-    struct CGSize _minimumSize;
-    struct CGSize _iconSize;
 }
 
 - (void);
@@ -30,16 +19,16 @@
 - (struct CGImage *);
 - (double);
 - (struct CGSize);
-- (void);
+- (void)k;
 - (_Bool);
 - (struct CGSize);
-- (struct CGSize);
+- (struct CGSize)a;
+- (id);
+- (id)x;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -48,7 +37,7 @@
 - (struct CGImage *);
 - (id);
 - (void);
-- (void)ides;
+- (void)overrides;
 
 @end
 

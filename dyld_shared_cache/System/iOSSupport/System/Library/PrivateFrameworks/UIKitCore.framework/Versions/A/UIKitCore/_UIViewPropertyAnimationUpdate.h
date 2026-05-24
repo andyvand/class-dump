@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSValue;
-
 @interface _UIViewPropertyAnimationUpdate
 {
     _Bool _additive;
-    _Bool _implicit;
-    NSString *_propertyName;
-    NSValue *_fromValue;
-    NSValue *_toValue;
-    double _startTime;
-    double _duration;
-    double _delay;
 }
 
 - (id);
@@ -23,7 +14,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (double);
 - (double);
 - (void);
@@ -31,19 +22,12 @@
 - (double);
 - (void);
 - (_Bool)viewForPresentation"B"previewForCancellingDragItem"B"willAnimateDragCancelWithAnimator"B"dragSessionDidEndForItems"B"interactionEffectForTargetedPreview"B"endedForPresentation"B"shouldPlayFeedback"B"shouldPresentWithCompletion"B"shouldBeDelayedByGestureRecognizer"B"secondaryPreviews"B"shouldMaintainKeyboardAssertion"B};
-- (id)actionPeekCount;
+- (id)previewInteractionPeekCount;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isAdditive) _Bool additive; // @synthesize additive=_additive;
-@property(nonatomic) double delay; // @synthesize delay=_delay;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(retain, nonatomic) NSValue *fromValue; // @synthesize fromValue=_fromValue;
 @property(readonly, nonatomic, getter=isImplicit) _Bool implicit; // @synthesize implicit=_implicit;
-@property(readonly, nonatomic) NSString *propertyName; // @synthesize propertyName=_propertyName;
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
-@property(retain, nonatomic) NSValue *toValue; // @synthesize toValue=_toValue;
 
 @end
 

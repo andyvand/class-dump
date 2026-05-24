@@ -7,10 +7,6 @@
 @interface Network.HTTPRequest.PseudoHeaderFields._Storage__priv_C525D357B1454E9012435445CEA3D3CA
 {
     id method;
-    id scheme;
-    id authority;
-    id path;
-    id extendedConnectProtocol;
 }
 
 @end

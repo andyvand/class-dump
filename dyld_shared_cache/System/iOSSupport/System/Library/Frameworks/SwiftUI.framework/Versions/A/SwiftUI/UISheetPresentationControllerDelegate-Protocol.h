@@ -5,5 +5,8 @@
 //
 
 @protocol UISheetPresentationControllerDelegate
+
+@optional
+- (void);
 @end
 

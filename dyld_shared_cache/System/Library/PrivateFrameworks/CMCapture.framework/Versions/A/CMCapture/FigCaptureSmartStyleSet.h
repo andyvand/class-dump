@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface FigCaptureSmartStyleSet
 {
     NSArray *_smartStyles;
-    NSArray *_regions;
 }
 
-+ (id);
++ (id);
 - (float);
 - (id);
 - (float);
-- (void);
+- (void)setKeepLinesTogetherOverridden: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -26,15 +25,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *regions;
 @property(readonly, nonatomic) NSArray *smartStyles;
-@property(readonly) Class superclass;
 
 @end
 

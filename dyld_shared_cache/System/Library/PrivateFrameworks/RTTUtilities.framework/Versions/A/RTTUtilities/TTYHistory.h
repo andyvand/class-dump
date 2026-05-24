@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSNumber, NSString;
+@class NSString;
 
 @interface TTYHistory
 {
@@ -13,8 +13,5 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSString *callUID; // @dynamic callUID;
-@property(retain, nonatomic) NSData *data; // @dynamic data;
-@property(retain, nonatomic) NSNumber *needsCloudKitUpload; // @dynamic needsCloudKitUpload;
-@property(retain, nonatomic) NSNumber *version; // @dynamic version;
 @end
 

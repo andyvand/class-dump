@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BSColor, CHSGlassOptions, NSString;
+@class BSColor;
 
 @interface CHSWidgetTintParameters
 {
     BSColor *_primaryTintColor;
-    BSColor *_secondaryTintColor;
-    long long _filterStyle;
-    double _fraction;
-    _Bool _accentedAlternateBackground;
-    long long _accentedDesaturatedMode;
-    CHSGlassOptions *_glassOptions;
 }
 
-+ (_Bool);
++ (_Bool)setCscSetupController: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (long long);
 - (id);
-- (id);
+- (id)@;
 - (unsigned long long);
 - (id);
 - (id);
@@ -35,7 +29,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)63;
 - (unsigned long long);
 - (id);
 - (_Bool);
@@ -47,24 +41,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool accentedAlternateBackground; // @synthesize accentedAlternateBackground=_accentedAlternateBackground;
-@property(readonly, nonatomic) long long accentedDesaturatedMode; // @synthesize accentedDesaturatedMode=_accentedDesaturatedMode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) unsigned long long effectiveRenderingMode;
-@property(readonly, nonatomic) long long filterStyle; // @synthesize filterStyle=_filterStyle;
-@property(readonly, nonatomic) double fraction; // @synthesize fraction=_fraction;
-@property(readonly, copy, nonatomic) CHSGlassOptions *glassOptions; // @synthesize glassOptions=_glassOptions;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isAccentedGlass;
-@property(readonly, nonatomic) _Bool isClearGlass;
-@property(readonly, nonatomic) BSColor *primaryTintColor; // @synthesize primaryTintColor=_primaryTintColor;
-@property(readonly, nonatomic) BSColor *secondaryTintColor; // @synthesize secondaryTintColor=_secondaryTintColor;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool wantsGlassMaterial;
 
 @end
 

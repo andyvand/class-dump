@@ -7,8 +7,6 @@
 @interface Vision.TextRecognitionPerformingOperation
 {
     id requests;
-    id options;
-    id barcodes;
 }
 
 @end

@@ -7,12 +7,10 @@
 @interface UnknownClass (IMCore)
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic, readonly) _Bool hasObservedTransition;
-@property(nonatomic, readonly) _Bool isActive;
-@property(nonatomic, readonly) _Bool isIgnored;
 @end
 

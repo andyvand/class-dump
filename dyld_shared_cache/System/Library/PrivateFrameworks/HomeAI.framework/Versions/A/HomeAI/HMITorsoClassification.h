@@ -9,8 +9,6 @@
 @interface HMITorsoClassification
 {
     NSUUID *_sourceUUID;
-    NSUUID *_personUUID;
-    double _confidence;
 }
 
 + (_Bool);
@@ -25,8 +23,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) double confidence; // @synthesize confidence=_confidence;
-@property(readonly) NSUUID *personUUID; // @synthesize personUUID=_personUUID;
 @property(readonly) NSUUID *sourceUUID; // @synthesize sourceUUID=_sourceUUID;
 
 @end

@@ -6,34 +6,12 @@
 
 #import <AOSUI/MMService.h>
 
-@class CDPStateUIController, MMAuthenticatingPasswordSheet, MMCSCRecoveryController, MMCSCSetupController, MMKeychainOptionsController, MMModalDialog, NSButton, NSImageView, NSLock, NSString, NSTextField, NSWindow;
+@class MMModalDialog;
 
 __attribute__((visibility("hidden")))
 @interface MMKeychainService : MMService
 {
     MMModalDialog *_pendingApprovalDialog;
-    MMAuthenticatingPasswordSheet *_applicantDialog;
-    MMModalDialog *_notificationSheet;
-    MMModalDialog *_requestSentSheet;
-    MMCSCRecoveryController *_cscRecoverController;
-    int _notificationToken;
-    _Bool _notificationSetup;
-    _Bool _isPendingCached;
-    NSLock *_securityResetSheetLock;
-    MMKeychainOptionsController *optionsController;
-    CDPStateUIController *cdpStateUIController;
-    _Bool _preflightDialogIsDone;
-    _Bool _preflightShouldSignOut;
-    NSWindow *_securityResetSheet;
-    NSImageView *_securityResetImageView;
-    NSTextField *_securityResetTitleTextField;
-    NSTextField *_securityResetMessageText;
-    NSButton *_securityResetConfirmButton;
-    NSButton *_securityResetInfoButton;
-    NSButton *_securityResetDisableButton;
-    MMCSCSetupController *_cscSetupController;
-    CDUnknownBlockType _cdpDeletionCompletion;
-    NSString *_dsid;
 }
 
 - (void);
@@ -51,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)j;
 - (void);
 - (void);
 - (void);
@@ -73,10 +51,10 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id)2;
 - (void);
 - (void);
-- (id);
+- (id)c;
 - (_Bool);
 - (void);
 - (void);
@@ -90,15 +68,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)(;
+- (id)JJ
+*
+	3;
 - (void);
 - (CDUnknownBlockType);
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)c;
+- (void)q)3;
 - (void);
 - (void);
 - (id);
@@ -106,7 +86,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)
+k)3;
 - (void);
 - (void);
 - (void);
@@ -128,6 +109,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
+- (void)J_iq*3;
 - (void);
 - (void);
 - (void);
@@ -144,8 +126,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)E9;
 - (void);
 - (void);
 - (void);
@@ -159,7 +140,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)B(d@ aEg;
 - (void);
 - (void);
 - (void);
@@ -169,7 +150,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (void);
-- (void);
+- (void)܏R_k*3;
 - (void);
 - (_Bool);
 - (void);
@@ -187,32 +168,7 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(retain) MMAuthenticatingPasswordSheet *applicantDialog; // @synthesize applicantDialog=_applicantDialog;
-@property(copy, nonatomic) CDUnknownBlockType cdpDeletionCompletion; // @synthesize cdpDeletionCompletion=_cdpDeletionCompletion;
-@property(retain) MMCSCRecoveryController *cscRecoverController; // @synthesize cscRecoverController=_cscRecoverController;
-@property(retain) MMCSCSetupController *cscSetupController; // @synthesize cscSetupController=_cscSetupController;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property NSString *dsid; // @synthesize dsid=_dsid;
-@property(readonly) unsigned long long hash;
-@property _Bool isPendingCached; // @synthesize isPendingCached=_isPendingCached;
-@property _Bool notificationSetup; // @synthesize notificationSetup=_notificationSetup;
-@property(retain) MMModalDialog *notificationSheet; // @synthesize notificationSheet=_notificationSheet;
 @property(retain) MMModalDialog *pendingApprovalDialog; // @synthesize pendingApprovalDialog=_pendingApprovalDialog;
-@property _Bool preflightDialogIsDone; // @synthesize preflightDialogIsDone=_preflightDialogIsDone;
-@property _Bool preflightShouldSignOut; // @synthesize preflightShouldSignOut=_preflightShouldSignOut;
-@property(retain) MMModalDialog *requestSentSheet; // @synthesize requestSentSheet=_requestSentSheet;
-@property __weak NSButton *securityResetConfirmButton; // @synthesize securityResetConfirmButton=_securityResetConfirmButton;
-@property __weak NSButton *securityResetDisableButton; // @synthesize securityResetDisableButton=_securityResetDisableButton;
-@property __weak NSImageView *securityResetImageView; // @synthesize securityResetImageView=_securityResetImageView;
-@property __weak NSButton *securityResetInfoButton; // @synthesize securityResetInfoButton=_securityResetInfoButton;
-@property __weak NSTextField *securityResetMessageText; // @synthesize securityResetMessageText=_securityResetMessageText;
-@property(retain) NSWindow *securityResetSheet; // @synthesize securityResetSheet=_securityResetSheet;
-@property __weak NSTextField *securityResetTitleTextField; // @synthesize securityResetTitleTextField=_securityResetTitleTextField;
-@property(readonly) Class superclass;
 
 @end
 

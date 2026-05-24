@@ -17,10 +17,10 @@ struct AbstractVocabulary;
 struct CLIPModel;
 
 struct CVNLPTextDecodingPruningPolicy {
-    long long strategy;
-    _Bool shouldSort;
-    float threshold;
-    unsigned int maxNumberOfCandidates;
+    long long _field1;
+    _Bool _field2;
+    float _field3;
+    unsigned int _field4;
 };
 
 struct VideoCaptioningModel;
@@ -28,26 +28,26 @@ struct VideoCaptioningModel;
 struct _LXCursor;
 
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct __shared_weak_count;
 
 struct map<std::string, std::vector<float>, std::less<std::string>, std::allocator<std::pair<const std::string, std::vector<float>>>> {
     struct __tree<std::__value_type<std::string, std::vector<float>>, std::__map_value_compare<std::string, std::pair<const std::string, std::vector<float>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::vector<float>>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
+        void *_field1;
+        CDStruct_2684d8d4 _field2;
+        CDStruct_69d7cc99 _field3;
+    } _field1;
 };
 
 struct map<std::string, std::vector<unsigned long>, std::less<std::string>, std::allocator<std::pair<const std::string, std::vector<unsigned long>>>> {
     struct __tree<std::__value_type<std::string, std::vector<unsigned long>>, std::__map_value_compare<std::string, std::pair<const std::string, std::vector<unsigned long>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::vector<unsigned long>>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
+        void *_field1;
+        CDStruct_2684d8d4 _field2;
+        CDStruct_69d7cc99 _field3;
+    } _field1;
 };
 
 struct shared_ptr<cvnlp::AbstractVocabulary> {
@@ -56,13 +56,13 @@ struct shared_ptr<cvnlp::AbstractVocabulary> {
 };
 
 struct shared_ptr<cvnlp::clip::CLIPModel> {
-    struct CLIPModel *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct CLIPModel *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct shared_ptr<cvnlp::vidcap::VideoCaptioningModel> {
-    struct VideoCaptioningModel *__ptr_;
-    struct __shared_weak_count *__cntrl_;
+    struct VideoCaptioningModel *_field1;
+    struct __shared_weak_count *_field2;
 };
 
 struct vImage_Buffer {
@@ -80,20 +80,12 @@ struct vector<const _LXCursor *, std::allocator<const _LXCursor *>> {
     } ;
 };
 
-struct vector<double, std::allocator<double>> {
-    double *__begin_;
-    double *__end_;
-    struct {
-        double *__cap_;
-    } ;
-};
-
 struct vector<std::string, std::allocator<std::string>> {
-    void *__begin_;
-    void *__end_;
+    void *_field1;
+    void *_field2;
     struct {
-        void *__cap_;
-    } ;
+        void *_field1;
+    } _field3;
 };
 
 struct vector<unsigned int, std::allocator<unsigned int>> {
@@ -104,83 +96,75 @@ struct vector<unsigned int, std::allocator<unsigned int>> {
     } ;
 };
 
-struct vector<unsigned long, std::allocator<unsigned long>> {
-    unsigned long long *__begin_;
-    unsigned long long *__end_;
-    struct {
-        unsigned long long *__cap_;
-    } ;
-};
-
 #pragma mark Typedef'd Structures
 
 typedef struct {
-    unsigned long long __size_;
-} CDStruct_a7186859;
+    unsigned long long _field1;
+} CDStruct_69d7cc99;
 
 typedef struct {
-    void *data;
-    void *reserved;
-    unsigned long long dim[4];
-    unsigned long long stride[4];
-    unsigned long long width;
-    unsigned long long height;
-    unsigned long long channels;
-    unsigned long long batch_number;
-    unsigned long long sequence_length;
-    unsigned long long stride_width;
-    unsigned long long stride_height;
-    unsigned long long stride_channels;
-    unsigned long long stride_batch_number;
-    unsigned long long stride_sequence_length;
-    int storage_type;
-} CDStruct_0a65202a;
+    void *_field1;
+    void *_field2;
+    unsigned long long _field3[4];
+    unsigned long long _field4[4];
+    unsigned long long _field5;
+    unsigned long long _field6;
+    unsigned long long _field7;
+    unsigned long long _field8;
+    unsigned long long _field9;
+    unsigned long long _field10;
+    unsigned long long _field11;
+    unsigned long long _field12;
+    unsigned long long _field13;
+    unsigned long long _field14;
+    int _field15;
+} CDStruct_cf098810;
 
 typedef struct {
-    void *plan;
-    int network_index;
-} CDStruct_2bc666a5;
+    void *_field1;
+    int _field2;
+} CDStruct_e4961688;
 
 typedef struct {
     struct __tree_end_node<std::__tree_node_base<void *>*> {
-        void *__left_;
-    } __end_node_;
-} CDStruct_09bd28e6;
+        void *_field1;
+    } _field1;
+} CDStruct_2684d8d4;
 
 // Template types
 typedef struct map<std::string, std::vector<float>, std::less<std::string>, std::allocator<std::pair<const std::string, std::vector<float>>>> {
     struct __tree<std::__value_type<std::string, std::vector<float>>, std::__map_value_compare<std::string, std::pair<const std::string, std::vector<float>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::vector<float>>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-} map_a5898371;
+        void *_field1;
+        CDStruct_2684d8d4 _field2;
+        CDStruct_69d7cc99 _field3;
+    } _field1;
+} map_43b39b45;
 
 typedef struct map<std::string, std::vector<unsigned long>, std::less<std::string>, std::allocator<std::pair<const std::string, std::vector<unsigned long>>>> {
     struct __tree<std::__value_type<std::string, std::vector<unsigned long>>, std::__map_value_compare<std::string, std::pair<const std::string, std::vector<unsigned long>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::vector<unsigned long>>>> {
-        void *__begin_node_;
-        CDStruct_09bd28e6 ;
-        CDStruct_a7186859 ;
-    } __tree_;
-} map_241eb896;
+        void *_field1;
+        CDStruct_2684d8d4 _field2;
+        CDStruct_69d7cc99 _field3;
+    } _field1;
+} map_53a53aaf;
 
 typedef struct shared_ptr<cvnlp::clip::CLIPModel> {
-    struct CLIPModel *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_44a2a795;
+    struct CLIPModel *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_d07efcea;
 
 typedef struct shared_ptr<cvnlp::vidcap::VideoCaptioningModel> {
-    struct VideoCaptioningModel *__ptr_;
-    struct __shared_weak_count *__cntrl_;
-} shared_ptr_be70005a;
+    struct VideoCaptioningModel *_field1;
+    struct __shared_weak_count *_field2;
+} shared_ptr_ac5f4c41;
 
 typedef struct vector<std::string, std::allocator<std::string>> {
-    void *__begin_;
-    void *__end_;
+    void *_field1;
+    void *_field2;
     struct {
-        void *__cap_;
-    } ;
-} vector_64acebbd;
+        void *_field1;
+    } _field3;
+} vector_1399404a;
 
 typedef struct vector<unsigned int, std::allocator<unsigned int>> {
     unsigned int *__begin_;

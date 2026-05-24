@@ -7,20 +7,18 @@
 @interface PKFloatRange
 {
     double _lowerBound;
-    double _upperBound;
 }
 
 - (id);
-- (double);
-- (double);
+- (double)work/Versions/A/AVKit;
+- (double)ion:] /* Error: Ran out of types for this method. */;
 - (id);
-- (unsigned long long);
+- (unsigned long long)P;
 - (_Bool);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) double lowerBound; // @synthesize lowerBound=_lowerBound;
-@property(readonly, nonatomic) double upperBound; // @synthesize upperBound=_upperBound;
 
 @end
 

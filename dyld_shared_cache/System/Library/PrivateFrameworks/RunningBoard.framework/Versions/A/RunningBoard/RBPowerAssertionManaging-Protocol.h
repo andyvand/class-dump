@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol RBPowerAssertionManaging
+- (void)P;
+- (NSString *)@;
 @end
 

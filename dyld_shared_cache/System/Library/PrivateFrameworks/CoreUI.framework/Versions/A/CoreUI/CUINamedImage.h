@@ -9,19 +9,6 @@
 @interface CUINamedImage : CUINamedLookup
 {
     double _scale;
-    struct _cuiniproperties {
-        unsigned int isVectorBased:1;
-        unsigned int hasSliceInformation:1;
-        unsigned int hasAlignmentInformation:1;
-        unsigned int resizingMode:2;
-        unsigned int templateRenderingMode:3;
-        unsigned int exifOrientation:4;
-        unsigned int isAlphaCropped:1;
-        unsigned int isFlippable:1;
-        unsigned int isTintable:1;
-        unsigned int preservedVectorRepresentation:1;
-        unsigned int _reserved:16;
-    } _imageProperties;
 }
 
 @end

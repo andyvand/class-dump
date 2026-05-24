@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSThread, NSURLSessionDataTask;
-@protocol NSURLSessionDataDelegate;
+@class NSThread, NSURLSessionDataTask;
 
 @interface APNSURLSessionTaskInfo
 {
     NSURLSessionDataTask *_task;
-    id <NSURLSessionDataDelegate> _delegate;
-    NSThread *_thread;
-    NSArray *_modes;
 }
 
 - (void);
@@ -26,14 +22,11 @@
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)Bc	;
+- (void)TSUCustomFormatWrapper;
+- (void);
 
 // Remaining properties
-@property __weak id <NSURLSessionDataDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain) NSArray *modes; // @synthesize modes=_modes;
-@property(readonly) NSURLSessionDataTask *task; // @synthesize task=_task;
 @property(retain) NSThread *thread; // @synthesize thread=_thread;
 
 @end

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WFContentProperty;
+@class WFContentProperty;
 
 @interface WFContentItemStringConversionBehavior
 {
     WFContentProperty *_property;
-    NSString *_behaviorDescription;
 }
 
 + (id);
@@ -20,7 +19,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *behaviorDescription; // @synthesize behaviorDescription=_behaviorDescription;
 @property(readonly, nonatomic) WFContentProperty *property; // @synthesize property=_property;
 
 @end

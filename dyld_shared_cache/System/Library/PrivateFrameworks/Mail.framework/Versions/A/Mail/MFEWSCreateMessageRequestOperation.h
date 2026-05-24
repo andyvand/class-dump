@@ -6,43 +6,31 @@
 
 #import <Mail/MFEWSCreateItemRequestOperation.h>
 
-@class MCMessage, MFEWSGetItemsResponseOperation, NSData, NSDictionary, NSString;
+@class MCMessage, NSString;
 
 @interface MFEWSCreateMessageRequestOperation : MFEWSCreateItemRequestOperation
 {
     NSString *_existingItemIdString;
-    MCMessage *_message;
-    NSData *_data;
-    long long _flags;
-    NSString *_sender;
-    NSDictionary *_recipientsByHeaderKey;
-    MFEWSGetItemsResponseOperation *_getItemsResponse;
 }
 
 - (void);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (void)Ð	;
 
 // Remaining properties
-@property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
-@property(copy, nonatomic) NSString *existingItemIdString; // @synthesize existingItemIdString=_existingItemIdString;
-@property(readonly, nonatomic) long long flags; // @synthesize flags=_flags;
-@property(readonly, nonatomic) MFEWSGetItemsResponseOperation *getItemsResponse; // @synthesize getItemsResponse=_getItemsResponse;
 @property(readonly, nonatomic) MCMessage *message; // @synthesize message=_message;
-@property(readonly, copy, nonatomic) NSDictionary *recipientsByHeaderKey; // @synthesize recipientsByHeaderKey=_recipientsByHeaderKey;
-@property(readonly, copy, nonatomic) NSString *sender; // @synthesize sender=_sender;
 
 @end
 

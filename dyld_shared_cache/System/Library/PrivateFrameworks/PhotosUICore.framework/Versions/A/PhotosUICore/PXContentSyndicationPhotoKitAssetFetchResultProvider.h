@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString, PHPhotoLibrary;
-@protocol OS_dispatch_queue;
+@class PHPhotoLibrary;
 
 @interface PXContentSyndicationPhotoKitAssetFetchResultProvider
 {
     PHPhotoLibrary *_photoLibrary;
-    CDUnknownBlockType _fetchResultBlock;
-    NSObject<OS_dispatch_queue> *_serialQueue;
-    NSMutableDictionary *_observers;
-    NSMutableDictionary *_fetchResults;
 }
 
 - (void);
@@ -30,16 +25,10 @@
 - (void);
 - (void);
 - (id);
-- (void)Action;
+- (void)HidePeopleIntentAction;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,21 +7,17 @@
 @interface MFPodcastsPlaybackDefaults
 {
     _Bool shouldPreroll;
-    _Bool allowScreenRecording;
-    double rewindOnInterruptionDuration;
 }
 
+- (void)__DATA_DIRTY;
 - (void);
+- (double)openBundleAtLibraryURL: /* Error: Ran out of types for this method. */;
+- (_Bool)__AUTH_CONST;
 - (void);
-- (double);
-- (_Bool);
-- (void);
-- (_Bool);
+- (_Bool);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool allowScreenRecording; // @synthesize allowScreenRecording;
-@property(nonatomic) double rewindOnInterruptionDuration; // @synthesize rewindOnInterruptionDuration;
 @property(nonatomic) _Bool shouldPreroll; // @synthesize shouldPreroll;
 
 @end

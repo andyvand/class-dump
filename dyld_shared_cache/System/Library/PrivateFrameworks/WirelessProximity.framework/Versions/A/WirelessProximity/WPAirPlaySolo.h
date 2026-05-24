@@ -14,7 +14,7 @@
 }
 
 + (unsigned char);
-+ (id);
++ (id)nal/Library/BuildRoots/4~CNqXugClK-v5MmHtrhxGeQiIf33qItBVDmza7bg/Library/Caches/com.apple.xbs/TemporaryDirectory.ObjdbM/Sources/OfficeImport/OfficeParser/shared/utility/NSSetAdditions.m;
 - (void);
 - (void);
 - (void);
@@ -22,8 +22,8 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)OADAlphaModFixEffect;
+- (void);
 - (void);
 - (id);
 - (void);

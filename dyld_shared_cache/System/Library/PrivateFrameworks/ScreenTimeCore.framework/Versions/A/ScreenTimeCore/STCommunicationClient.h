@@ -12,11 +12,11 @@
 }
 
 + (id);
-- (void);
+- (void)ing %@ CIContext with options:%@ /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (void)user:(CDUnknownBlockType)arg1 didUpdateAssistantAccessControl:forHome: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 

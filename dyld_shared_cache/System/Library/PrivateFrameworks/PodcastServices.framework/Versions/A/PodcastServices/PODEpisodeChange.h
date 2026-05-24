@@ -6,7 +6,7 @@
 
 #import <PodcastServices/PODContentChange.h>
 
-@class NSString, PODEpisodeChangeEntityData, PODEpisodePlayMetadata;
+@class PODEpisodePlayMetadata;
 
 @interface PODEpisodeChange : PODContentChange
 {
@@ -14,7 +14,7 @@
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (Class);
@@ -27,19 +27,10 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)submittedActivityTracker;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) PODEpisodeChangeEntityData *entityData;
-@property(readonly, nonatomic) long long episodeSyncID;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) PODEpisodePlayMetadata *playMetadata; // @synthesize playMetadata=_playMetadata;
-@property(readonly) Class superclass;
 
 @end
 

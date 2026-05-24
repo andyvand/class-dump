@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString;
+@class NSArray, NSObject;
 @protocol OS_os_log;
 
 @interface CBCombinedConfigProvider
 {
     NSObject<OS_os_log> *_logHandle;
-    NSArray *_providers;
 }
 
 + (id);
@@ -26,21 +25,13 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id)m/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation;
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSObject<OS_os_log> *logHandle; // @synthesize logHandle=_logHandle;
 @property(readonly) NSArray *providers; // @synthesize providers=_providers;
-@property(readonly) Class superclass;
 
 @end
 

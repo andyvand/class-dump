@@ -12,10 +12,10 @@ __attribute__((visibility("hidden")))
     NSDictionary *_fieldPredicates;
 }
 
-+ (id);
-+ (id);
-- (_Bool);
-- (id);
++ (id)͛l;
++ (id)k^m;
+- (_Bool)ʛl;
+- (id)isInLexicon;
 - (void)ôæù;
 - (id);
 

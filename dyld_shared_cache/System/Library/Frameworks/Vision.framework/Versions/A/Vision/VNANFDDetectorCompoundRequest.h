@@ -15,8 +15,8 @@ __attribute__((visibility("hidden")))
 + (Class);
 + (const CDStruct_3a02d5a8 *);
 + (long long);
-- (void);
-- (id);
+- (void)RECORD_VIABILITY_LEGACY;
+- (id)t] == [expectedClasses count];
 - (id);
 - (long long)Dk²ÿ;
 - (id)TÌK

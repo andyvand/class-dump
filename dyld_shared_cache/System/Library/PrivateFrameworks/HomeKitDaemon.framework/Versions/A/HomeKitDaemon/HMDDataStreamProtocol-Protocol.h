@@ -5,6 +5,9 @@
 //
 
 @protocol HMDDataStreamProtocol
+- (void)z	;
+- (void);
+- (_Bool);
 
 // Remaining properties
 @property(readonly, nonatomic, getter=isActive) _Bool active;

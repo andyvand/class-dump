@@ -6,29 +6,28 @@
 
 #import <ChatKit/CKGenericPhotoStackBalloonView.h>
 
-@class CKAttachmentMessagePartChatItem, CKMediaObjectAssetDataSourceManager, CKMediaObjectImageProvider, NSString, PXRegionOfInterest, UIView;
-@protocol CKPhotoStackBalloonViewDelegate;
+@class CKAttachmentMessagePartChatItem;
 
 @interface CKPhotoStackBalloonView : CKGenericPhotoStackBalloonView
 {
 }
 
+- (id)ompletionHandler:(id)arg1;
+- (void)initWithTitle:(id)arg1 preferredViewSize:(id)arg2 supportedSizes:supportsPlainLink:isOverrideVariant:target:selectedSizeAction:selectedPlainLinkAction: /* Error: Ran out of types for this method. */;
+- (void)ic_preferredFontForTitleTextWithContentSizeCategory:(id)arg1;
+- (_Bool)ic_preferredFontForSubheadingTextWithContentSizeCategory:(id)arg1 isForPrint:(id)arg2;
+- (void)ic_preferredFontForSubheadingTextWithContentSizeCategory:(id)arg1 isForPrint:(id)arg2;
+- (void)ic_preferredFontForSubheadingText;
+- (void)icaxApproximateColorDescription;
+- (id)t;
+- (id)b;
+- (struct CGRect)t;
 - (id);
 - (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (struct CGRect);
-- (id);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)e;
+- (_Bool)ringForICFilterType for ICFilterTypeUnknown.;
+- (void)];
+- (void)ttachment:(id)arg1 automatic:]_block_invoke /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
@@ -36,20 +35,7 @@
 - (void)ents=dddd}{IMColorComponents=dddd}BqqBBBBB}16B144;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool canPresentTapbackPicker;
 @property(nonatomic, readonly) CKAttachmentMessagePartChatItem *currentAssetChatItem;
-@property(nonatomic, readonly) PXRegionOfInterest *currentAssetRegionOfInterest;
-@property(nonatomic, readonly) UIView *currentAssetSnapshot;
-@property(retain, nonatomic) CKMediaObjectAssetDataSourceManager *dataSourceManager; // @dynamic dataSourceManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CKPhotoStackBalloonViewDelegate> delegate; // @dynamic delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CKMediaObjectImageProvider *mediaProvider; // @dynamic mediaProvider;
-@property(readonly) Class superclass;
 
 @end
 

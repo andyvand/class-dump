@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (MediaPlayer)
-+ (id);
-- (struct CGSize);
++ (id)connectionWillOpenDatabase:(struct CGSize)arg1;
+- (struct CGSize)control:textView:completions:forPartialWordRange:indexOfSelectedItem: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) struct CGSize CGSizeValue;

@@ -10,13 +10,12 @@ __attribute__((visibility("hidden")))
 @interface CKIMComposeRecipient
 {
     _Bool _useAbbreviatedDisplayName;
-    IMHandle *_handle;
 }
 
-+ (_Bool)lPosition: /* Error: Ran out of types for this method. */;
-- (_Bool);
-- (id);
-- (void);
++ (_Bool)contentOffsetForIndexPath:viewToAlignWith:allowOverScroll:scrollPosition: /* Error: Ran out of types for this method. */;
+- (_Bool)ic_applyShadowWithRadius:opacity:offset: /* Error: Ran out of types for this method. */;
+- (id)activeCorrectionPanels;
+- (void)observableProperties;
 - (id);
 - (id);
 - (_Bool);
@@ -29,17 +28,16 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)cachedScaledFloatWithValue:fontStyle: /* Error: Ran out of types for this method. */;
 - (id)ð1Â0@ù
 × ;
-- (id);
+- (id)INTENTS_CONVERSATION_ENTITY_PROPERTY_TITLE_CONVERSATION_GUID;
 - (void)ÿ!;
 - (id)\in;
 - (id)Îe0;
 
 // Remaining properties
 @property(readonly, nonatomic) IMHandle *handle; // @synthesize handle=_handle;
-@property(nonatomic) _Bool useAbbreviatedDisplayName; // @synthesize useAbbreviatedDisplayName=_useAbbreviatedDisplayName;
 
 @end
 

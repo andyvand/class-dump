@@ -8,20 +8,18 @@ __attribute__((visibility("hidden")))
 @interface NSURLKeyValuePair
 {
     id key;
-    id value;
-    unsigned long long hash;
 }
 
 + (id);
 + (id)@0:8^@16^@24 /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)Library/Frameworks/AVFAudio.framework/AVFAudio;
 - (id);
 - (id);
 - (_Bool);
-- (id)enerateUUID: /* Error: Ran out of types for this method. */;
+- (id)_commonInitGenerateUUID: /* Error: Ran out of types for this method. */;
 - (void);
 
 @end

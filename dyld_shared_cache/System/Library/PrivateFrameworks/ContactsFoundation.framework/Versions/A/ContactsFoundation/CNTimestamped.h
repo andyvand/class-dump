@@ -7,21 +7,19 @@
 @interface CNTimestamped
 {
     id _value;
-    double _timestamp;
 }
 
 + (CDUnknownBlockType);
 + (id);
 - (id);
 - (unsigned long long);
-- (double);
-- (id);
+- (double)_!;
+- (id)peration aborted.;
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) double timestamp; // @synthesize timestamp=_timestamp;
 @property(readonly) id value; // @synthesize value=_value;
 
 @end

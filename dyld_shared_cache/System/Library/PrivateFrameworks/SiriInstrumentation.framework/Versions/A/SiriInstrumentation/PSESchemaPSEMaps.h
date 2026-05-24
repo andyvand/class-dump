@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PSESchemaPSEMapsUserFollowup;
-
 @interface PSESchemaPSEMaps : SISchemaInstrumentationMessage
 {
     _Bool _isSiriResultUseful;
-    PSESchemaPSEMapsUserFollowup *_followup;
-    struct {
-        unsigned int isSiriResultUseful:1;
-    } _has;
-    _Bool _hasFollowup;
 }
 
 - (void);
@@ -31,21 +24,17 @@
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)ory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDAggregateClusterMappingData_macOS.m:66 :Not supported on macOS /* Error: Ran out of types for this method. */;
+- (_Bool);
+- (_Bool)or services is empty;
 - (id);
 - (id);
-- (id)ck;
+- (id)_tapback;
 - (id),N,V_countAttributeNgramPrefixMatch;
-- (void)TUSREASON_DEFAULT_APP_CANDIDATE;
+- (void)FLOWSTATUSREASON_DEFAULT_APP_CANDIDATE;
 
 // Remaining properties
-@property(retain, nonatomic) PSESchemaPSEMapsUserFollowup *followup; // @synthesize followup=_followup;
-@property(nonatomic) _Bool hasFollowup; // @synthesize hasFollowup=_hasFollowup;
-@property(nonatomic) _Bool hasIsSiriResultUseful;
 @property(nonatomic) _Bool isSiriResultUseful; // @synthesize isSiriResultUseful=_isSiriResultUseful;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

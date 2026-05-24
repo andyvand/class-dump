@@ -9,7 +9,6 @@
 @interface WADeviceAnalytics_DHCPServerInfo
 {
     NSString *_ipv4networkSignature;
-    NSString *_ipv6networkSignature;
 }
 
 + (id);
@@ -17,15 +16,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)ublic}@, didSave:%i} /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)allBoutsStepIndexOfHarmonicityMlMean;
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *ipv4networkSignature; // @synthesize ipv4networkSignature=_ipv4networkSignature;
-@property(retain, nonatomic) NSString *ipv6networkSignature; // @synthesize ipv6networkSignature=_ipv6networkSignature;
 
 @end
 

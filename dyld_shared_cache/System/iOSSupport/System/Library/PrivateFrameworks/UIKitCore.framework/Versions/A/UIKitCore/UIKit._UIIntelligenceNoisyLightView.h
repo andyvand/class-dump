@@ -12,13 +12,13 @@
     id lightView;
 }
 
-+ (Class);
++ (Class)__MPModelPropertyTVEpisodeHasCloudSyncSource__MAPPING_MISSING__;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (id)corationImageView;
+- (id)_UICalendarDecorationImageView;
 - (void):0 /* Error: Ran out of types for this method. */;
 
 @end

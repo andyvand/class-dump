@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol NUImageAsset, NUVideoAsset;
+@protocol NUImageAsset;
 
 @protocol NULivePhotoAsset
 
 // Remaining properties
 @property(readonly, nonatomic) id <NUImageAsset> image;
-@property(readonly, nonatomic) id <NUVideoAsset> video;
 @end
 

@@ -11,8 +11,8 @@
     unsigned long long _maximumCount;
 }
 
-- (_Bool);
-- (unsigned long long);
+- (_Bool)commute15MinWarningEntityRelevanceWiFiAndTimeOfDayFeatures;
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (id);

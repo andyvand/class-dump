@@ -5,5 +5,9 @@
 //
 
 @protocol STSpeechTranslatorClientDelegate
+
+@optional
+- (void)A;
+- (void)<;
 @end
 

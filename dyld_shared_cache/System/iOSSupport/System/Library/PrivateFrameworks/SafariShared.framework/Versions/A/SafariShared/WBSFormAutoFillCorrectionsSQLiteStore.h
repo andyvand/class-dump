@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSURL, WBSCrowdsourcedFeedbackDomainNormalizer, WBSSQLiteDatabase;
-@protocol OS_dispatch_queue;
+@class NSURL;
 
 @interface WBSFormAutoFillCorrectionsSQLiteStore
 {
     NSURL *_parsecDatabaseURL;
-    WBSSQLiteDatabase *_parsecDatabase;
-    NSObject<OS_dispatch_queue> *_databaseQueue;
-    WBSCrowdsourcedFeedbackDomainNormalizer *_domainNormalizer;
 }
 
 + (id);
@@ -25,7 +21,7 @@
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (int);
@@ -38,7 +34,7 @@
 - (int);
 - (_Bool);
 - (int);
-- (_Bool);
+- (_Bool)\;
 - (int);
 - (void);
 - (id);

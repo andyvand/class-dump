@@ -5,5 +5,8 @@
 //
 
 @protocol PKModularService
+
+@optional
+- (void);
 @end
 

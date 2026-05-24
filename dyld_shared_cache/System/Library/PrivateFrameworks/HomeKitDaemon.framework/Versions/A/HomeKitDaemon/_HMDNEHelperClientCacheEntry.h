@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface _HMDNEHelperClientCacheEntry
 {
     NSString *_signingId;
-    NSArray *_identifiers;
 }
 
 - (id);
@@ -19,7 +18,6 @@ __attribute__((visibility("hidden")))
 - (id)Y&8Ù;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *identifiers; // @synthesize identifiers=_identifiers;
 @property(readonly, nonatomic) NSString *signingId; // @synthesize signingId=_signingId;
 
 @end

@@ -4,71 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCFuture, MPCMRAnimatedArtworkDataSource, MPCMRArtworkDataSource, MPCMRRemoteArtworkDataSource, MPCMediaRemoteControllerAnimatedArtworkCache, MPCPlayerPath, MSVLRUDictionary, NSDictionary, NSMapTable, NSMutableArray, NSMutableDictionary, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface MPCMediaRemoteController
 {
     NSObject<OS_dispatch_queue> *_accessQueue;
-    NSObject<OS_dispatch_queue> *_calloutQueue;
-    _Bool _invalidated;
-    MPCFuture *_playbackStateFuture;
-    long long _playbackStateCacheState;
-    MPCFuture *_supportedCommandsFuture;
-    long long _supportedCommandsCacheState;
-    MPCFuture *_playbackQueueParticipantsFuture;
-    long long _playbackQueueParticipantsCacheState;
-    struct _MSVSignedRange _loadedContentItemsRange;
-    struct _MSVSignedRange _requestedContentItemsRange;
-    NSMutableArray *_contentItemIDs;
-    MSVLRUDictionary *_contentItems;
-    NSMutableDictionary *_optimisticStateContentItems;
-    NSMutableDictionary *_contentItemChanges;
-    MSVLRUDictionary *_contentItemArtwork;
-    MSVLRUDictionary *_contentItemAnimatedArtworkPreviewFrames;
-    MPCMediaRemoteControllerAnimatedArtworkCache *_contentItemAnimatedArtwork;
-    NSMutableDictionary *_contentItemArtworkIdentifiers;
-    NSMapTable *_playbackQueueFutures;
-    NSMapTable *_contentItemFutures;
-    NSMutableDictionary *_contentItemArtworkFutures;
-    NSMutableDictionary *_contentItemRemoteArtworkFutures;
-    NSMutableDictionary *_contentItemAnimatedArtworkPreviewFrameFutures;
-    NSMutableDictionary *_contentItemAnimatedArtworkFutures;
-    NSMutableDictionary *_requestedRangeForProperties;
-    NSMutableDictionary *_contentItemIDsForProperties;
-    unsigned long long _stateHandle;
-    MPCMRArtworkDataSource *_mrArtworkDataSource;
-    MPCMRRemoteArtworkDataSource *_mrRemoteArtworkDataSource;
-    MPCMRAnimatedArtworkDataSource *_mrAnimatedArtworkDataSource;
-    NSString *_playingItemIdentifier;
-    NSString *_queueIdentifier;
-    NSDictionary *_queueProperties;
-    MPCPlayerPath *_resolvedPlayerPath;
-    id _invalidationToken;
 }
 
-+ (void);
++ (void)__TEXT;
 + (id);
 + (id);
-+ (void);
-+ (void);
++ (void)ang onto your hats! Account class changed on account %@.;
++ (void)d;
 + (_Bool);
 - (long long);
 - (void);
 - (id);
+- (long long);
 - (long long);
-- (long long);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
-- (long long);
+- (void),C;
 - (id);
 - (long long);
 - (id);
 - (long long);
+- (id);
+- (long long)__TEXT;
 - (id);
 - (long long);
 - (void);
@@ -83,32 +48,32 @@
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)@24@32;
+- (void)ay"24;
+- (void):(id)arg1 8@"ACAccount"16i24@"ACDAccountStore"28@"ACAccount"36;
+- (void)@"ACDAccountStore"28@"ACAccount"36;
+- (void)@"ACAccount"16@"ACDAccountStore"24^@32;
+- (void)6;
+- (id)6@0:(struct _MSVSignedRange)arg1 8;
+- (id)dismissFollowUpsForAccount:(id)arg1 identifiers:completion: /* Error: Ran out of types for this method. */;
+- (id)10 minutes.;
+- (void)as deleted;
+- (CDUnknownBlockType)e if we have any secondary accounts, error:(id)arg1 %@;
+- (id)imary apple account, no reason to follow up.;
 - (id);
 - (id);
-- (id);
-- (void);
 - (CDUnknownBlockType);
-- (id);
-- (id);
-- (id);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (id)8;
+- (void);
 - (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void)rrideManuallyCuratedQueue:(id)arg1;
+- (void)setShouldOverrideManuallyCuratedQueue:(id)arg1;
 - (id);
 - (void)tyFeedEventConsumer %p:Adding wall clock duration from outgoing pivot %{public}@ = %.3fs /* Error: Ran out of types for this method. */;
 - (id)%@;
@@ -116,22 +81,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *accessQueue; // @synthesize accessQueue=_accessQueue;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *calloutQueue; // @synthesize calloutQueue=_calloutQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id invalidationToken; // @synthesize invalidationToken=_invalidationToken;
-@property(readonly, nonatomic) MPCFuture *playbackQueueParticipants;
-@property(readonly, nonatomic) long long playbackQueueParticipantsCacheState; // @synthesize playbackQueueParticipantsCacheState=_playbackQueueParticipantsCacheState;
-@property(readonly, nonatomic) MPCFuture *playbackState;
-@property(readonly, nonatomic) long long playbackStateCacheState; // @synthesize playbackStateCacheState=_playbackStateCacheState;
-@property(readonly, nonatomic) MPCPlayerPath *resolvedPlayerPath; // @synthesize resolvedPlayerPath=_resolvedPlayerPath;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) MPCFuture *supportedCommands;
-@property(readonly, nonatomic) long long supportedCommandsCacheState; // @synthesize supportedCommandsCacheState=_supportedCommandsCacheState;
 
 @end
 

@@ -13,11 +13,11 @@
     NSString *_utterance;
 }
 
-+ (_Bool);
++ (_Bool)@;
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)bout account change.;
 - (void)0@ù
 × ;
 

@@ -4,21 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CASpringAnimation, NSString, UIScrollView, UIView;
-@protocol _UITVScrollViewManagerDelegate;
+@class UIScrollView;
 
 __attribute__((visibility("hidden")))
 @interface _UITVScrollViewManager
 {
     _Bool _delegateScrollViewManagerDidFinishScrolling;
-    _Bool _useCustomMaskForScrolling;
-    _Bool _ignoreScrollAnimationDidEnd;
-    id <_UITVScrollViewManagerDelegate> _delegate;
-    UIScrollView *_scrollView;
-    long long _scrollStyle;
-    CASpringAnimation *_scrollAnimation;
-    UIView *_snapshotViewForWindow;
-    struct CGPoint _targetOffset;
 }
 
 - (_Bool);
@@ -28,19 +19,19 @@ __attribute__((visibility("hidden")))
 - (void);
 - (long long);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)fileTransferForBlastDoorFileTransferAttribute:(id)arg1 fileTransferGUIDs:supportingStickerAttributes: /* Error: Ran out of types for this method. */;
+- (void)_lastMessageStorageTimerInterval;
+- (void),V_numReadReceiptsV1WithQOINoDupe;
+- (void)IMMMSMaximumMessageByteCountForPhoneNumber:simID: /* Error: Ran out of types for this method. */;
 - (id);
+- (void)dRecord:(long long)arg1 %d;
+- (void)chat is junk:(_Bool)arg1 %@;
+- (id)ineComponent> Allowing instant delivery of %@, message is not replicated.;
+- (id)set fileURL %@;
+- (struct CGPoint);
 - (void);
 - (void);
-- (id);
-- (id);
-- (struct CGPoint);
-- (void);
-- (void);
-- (id);
+- (id) ;
 - (void)
 × ;
 - (void)Qbð1Â0@ù
@@ -51,21 +42,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <_UITVScrollViewManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool ignoreScrollAnimationDidEnd; // @synthesize ignoreScrollAnimationDidEnd=_ignoreScrollAnimationDidEnd;
-@property(retain, nonatomic) CASpringAnimation *scrollAnimation; // @synthesize scrollAnimation=_scrollAnimation;
-@property(nonatomic) long long scrollStyle; // @synthesize scrollStyle=_scrollStyle;
 @property(nonatomic) __weak UIScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(retain, nonatomic) UIView *snapshotViewForWindow; // @synthesize snapshotViewForWindow=_snapshotViewForWindow;
-@property(readonly) Class superclass;
-@property(nonatomic) struct CGPoint targetOffset; // @synthesize targetOffset=_targetOffset;
-@property(nonatomic) _Bool useCustomMaskForScrolling; // @synthesize useCustomMaskForScrolling=_useCustomMaskForScrolling;
 
 @end
 

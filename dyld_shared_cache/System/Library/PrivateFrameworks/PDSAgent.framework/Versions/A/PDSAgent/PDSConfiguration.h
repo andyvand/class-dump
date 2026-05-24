@@ -4,23 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSURL;
-@protocol OS_dispatch_queue, OS_dispatch_workloop;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface PDSConfiguration
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSObject<OS_dispatch_workloop> *_workloop;
-    NSURL *_daemonRootDirectory;
-    NSString *_pushHandlerPort;
 }
 
-- (void);
-- (void);
+- (void)nil GUID.;
+- (void)ng changes for album with nil GUID.;
+- (id)Found a retry-after header with a date string:%{public}@. Date:%{public}@ /* Error: Ran out of types for this method. */;
+- (id){public}@ due to MMCS auth error:%{public}@. Will reauthorize now. /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)C;
 - (id);
 - (void);
 - (id);
@@ -28,10 +25,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *daemonRootDirectory; // @synthesize daemonRootDirectory=_daemonRootDirectory;
-@property(retain, nonatomic) NSString *pushHandlerPort; // @synthesize pushHandlerPort=_pushHandlerPort;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) NSObject<OS_dispatch_workloop> *workloop; // @synthesize workloop=_workloop;
 
 @end
 

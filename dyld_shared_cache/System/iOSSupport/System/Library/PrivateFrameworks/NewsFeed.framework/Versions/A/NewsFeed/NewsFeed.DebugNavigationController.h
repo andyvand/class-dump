@@ -8,7 +8,7 @@
 {
 }
 
-- (id);
+- (id)CampaignData;
 - (id);
 - (void);
 - (id);

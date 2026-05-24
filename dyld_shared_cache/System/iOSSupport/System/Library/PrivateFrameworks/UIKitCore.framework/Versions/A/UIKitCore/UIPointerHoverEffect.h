@@ -9,20 +9,16 @@
 @interface UIPointerHoverEffect : UIPointerEffect
 {
     _Bool _prefersShadow;
-    _Bool _prefersScaledContent;
-    _Bool __tintViewTakesOnPointerShape;
-    _Bool __tintViewUsesPointerMaterial;
-    long long _preferredTintMode;
 }
 
 - (void);
 - (void);
+- (void)So20IMDMessageTranslatorCXMT;
+- (void)SDySSSiG;
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (long long);
+- (_Bool)e, error:%s /* Error: Ran out of types for this method. */;
+- (_Bool)o system lookup behavior;
+- (long long)}s, expiring with infinite delay;
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
@@ -30,16 +26,12 @@
 - (unsigned long long);
 - (unsigned long long)
 × ;
-- (id)set;
-- (_Bool);
+- (id)viewOffset;
+- (_Bool)minVelocityThreshold;
 - (id)esponder>",N,V_hitTestResponder;
 
 // Remaining properties
 @property(nonatomic) _Bool _tintViewTakesOnPointerShape; // @synthesize _tintViewTakesOnPointerShape=__tintViewTakesOnPointerShape;
-@property(nonatomic) _Bool _tintViewUsesPointerMaterial; // @synthesize _tintViewUsesPointerMaterial=__tintViewUsesPointerMaterial;
-@property(nonatomic) long long preferredTintMode; // @synthesize preferredTintMode=_preferredTintMode;
-@property(nonatomic) _Bool prefersScaledContent; // @synthesize prefersScaledContent=_prefersScaledContent;
-@property(nonatomic) _Bool prefersShadow; // @synthesize prefersShadow=_prefersShadow;
 
 @end
 

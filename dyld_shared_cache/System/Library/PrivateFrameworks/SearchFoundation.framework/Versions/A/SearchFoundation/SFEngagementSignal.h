@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @interface SFEngagementSignal
 {
     NSNumber *_version;
-    NSNumber *_serverScore;
-    NSNumber *_localScore;
-    NSNumber *_serverScoreConfidence;
-    NSNumber *_localScoreConfidence;
-    NSArray *_domainEngagementScores;
 }
 
 + (_Bool);
@@ -28,33 +23,19 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)0@48B56@60@68;
+- (id)serverNowPlaying;
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)c}@:(id)arg1 _tonesFromManifestPath:(%{public}@) mediaDirectoryPath:(%{public}@):Manifest file does not exist. Not loading any tones. /* Error: Ran out of types for this method. */;
+- (void)tatus;
+- (id)@0:(id)arg1 8q16;
+- (id)PHQueryForAssetInAlbumKind_SyncProgressAlbum_block_invoke_74;
+- (id);
 - (id);
 - (void)ign;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSArray *domainEngagementScores; // @synthesize domainEngagementScores=_domainEngagementScores;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSNumber *localScore; // @synthesize localScore=_localScore;
-@property(copy, nonatomic) NSNumber *localScoreConfidence; // @synthesize localScoreConfidence=_localScoreConfidence;
-@property(copy, nonatomic) NSNumber *serverScore; // @synthesize serverScore=_serverScore;
-@property(copy, nonatomic) NSNumber *serverScoreConfidence; // @synthesize serverScoreConfidence=_serverScoreConfidence;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSNumber *version; // @synthesize version=_version;
 
 @end

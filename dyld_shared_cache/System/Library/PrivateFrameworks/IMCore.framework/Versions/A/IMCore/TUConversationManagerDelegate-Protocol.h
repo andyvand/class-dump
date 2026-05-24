@@ -4,6 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class TUConversationManager;
+
 @protocol TUConversationManagerDelegate
+
+@optional
+- (void)3;
+- (void);
+- (void))T;
+- (void)qa;
+- (void)/;
+- (void);
+- (void)(8;
+- (void);
+- (void)jh8);
+- (void));
+- (void)nil, can't update chat's lastTUConversationCreatedDate! item:(TUConversationManager *)arg1 %@;
 @end
 

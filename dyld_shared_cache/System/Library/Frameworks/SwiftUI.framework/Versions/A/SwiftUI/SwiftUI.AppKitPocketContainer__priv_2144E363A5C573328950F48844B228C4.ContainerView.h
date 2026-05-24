@@ -14,7 +14,7 @@
 - (long long);
 - (id);
 - (id);
-- (void)t;
+- (void)IncludesAccessibilityText;
 
 // Remaining properties
 @property(nonatomic, readonly) long long _scrollPocketElementStyle;

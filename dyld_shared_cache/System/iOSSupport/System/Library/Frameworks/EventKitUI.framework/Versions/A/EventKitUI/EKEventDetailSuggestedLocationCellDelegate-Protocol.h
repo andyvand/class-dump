@@ -5,5 +5,6 @@
 //
 
 @protocol EKEventDetailSuggestedLocationCellDelegate
+- (void);
 @end
 

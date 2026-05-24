@@ -7,9 +7,6 @@
 @interface NewsUI2.AudioIntentsDataProvider
 {
     id audioIntentData;
-    id currentlyPlaying;
-    id dailyBriefingTrack;
-    id imageCache;
 }
 
 @end

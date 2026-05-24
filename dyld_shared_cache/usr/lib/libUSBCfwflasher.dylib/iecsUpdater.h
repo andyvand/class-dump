@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IECSInterface, NSNumber, NSString;
+@class IECSInterface, NSNumber;
 
 @interface iecsUpdater
 {
     IECSInterface *fInterface;
     NSNumber *device_id;
-    NSString *uuid;
-    _Bool verbose;
-    _Bool updated;
-    _Bool retriesEnabled;
-    _Bool gaidEnabled;
-    NSString *upcomingFirmwareVersionStash;
 }
 
 - (_Bool);
@@ -26,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)(;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -34,7 +28,8 @@
 - (_Bool);
 - (int);
 - (_Bool);
-- (id);
+- (id)SB-C device found. Skipping updater.
+;
 - (id);
 - (id);
 - (id);
@@ -42,7 +37,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)B;
 
 @end
 

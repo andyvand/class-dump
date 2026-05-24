@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 + (_Bool)¬::Tuw /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
+- (id)_v;
 
 @end
 

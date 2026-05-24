@@ -9,9 +9,6 @@
 @interface ADFrequencyCap
 {
     NSString *_identifier;
-    NSString *_adMetadata;
-    long long _downloadType;
-    double _setTime;
 }
 
 - (double);
@@ -19,21 +16,18 @@
 - (id);
 - (long long);
 - (id);
-- (id);
-- (id);
+- (id)yyyy HH':(id)arg1 'mm':'ss 'GMT' /* Error: Ran out of types for this method. */;
+- (id)array;
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)brary/Frameworks/LinkPresentation.framework/Versions/A/LinkPresentation;
+- (id)};
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *adMetadata; // @synthesize adMetadata=_adMetadata;
-@property(nonatomic) long long downloadType; // @synthesize downloadType=_downloadType;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) double setTime; // @synthesize setTime=_setTime;
 
 @end
 

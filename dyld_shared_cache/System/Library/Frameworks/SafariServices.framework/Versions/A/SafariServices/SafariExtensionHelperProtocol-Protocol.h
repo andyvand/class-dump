@@ -5,5 +5,7 @@
 //
 
 @protocol SafariExtensionHelperProtocol
+- (void);
+- (void)G;
 @end
 

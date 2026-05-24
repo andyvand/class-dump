@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface SISchemaABClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_siriDeviceId;
-    SISchemaUUID *_speechId;
-    double _timeIntervalSince1970;
-    CDStruct_d90db296 _has;
-    _Bool _hasSiriDeviceId;
-    _Bool _hasSpeechId;
 }
 
 - (id);
@@ -24,7 +19,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)=;
 - (void);
 - (_Bool);
 - (id);
@@ -32,27 +27,21 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)T;
 - (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (_Bool)lAddressStreetKey(void);
+- (_Bool)?  AND m.schedule_type == 2  AND (m.schedule_state == 1 OR m.schedule_state == 2)  ORDER BY cm.message_date ASC LIMIT ?;
 - (id);
 - (id);
-- (_Bool)onStatementId: /* Error: Ran out of types for this method. */;
-- (id)sultsCount;
+- (_Bool)setHasCancelledActionStatementId: /* Error: Ran out of types for this method. */;
+- (id)comparatorResultsCount;
 - (id)pawnTimestampInNs;
-- (void);
+- (void)modelInputShapes;
 - (double)Result;
 - (id).;
 
 // Remaining properties
-@property(nonatomic) _Bool hasSiriDeviceId; // @synthesize hasSiriDeviceId=_hasSiriDeviceId;
-@property(nonatomic) _Bool hasSpeechId; // @synthesize hasSpeechId=_hasSpeechId;
-@property(nonatomic) _Bool hasTimeIntervalSince1970;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *siriDeviceId; // @synthesize siriDeviceId=_siriDeviceId;
-@property(retain, nonatomic) SISchemaUUID *speechId; // @synthesize speechId=_speechId;
-@property(nonatomic) double timeIntervalSince1970; // @synthesize timeIntervalSince1970=_timeIntervalSince1970;
 
 @end
 

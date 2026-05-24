@@ -9,5 +9,8 @@
 @protocol PHObjectPropertySet
 + (NSArray *)d;
 + (NSString *)confirmedFaceCropGenerationState;
+
+@optional
++ (_Bool)9;
 @end
 

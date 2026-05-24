@@ -5,5 +5,6 @@
 //
 
 @protocol STMServiceRecommendationsReplyHandler
+- (void)8	;
 @end
 

@@ -4,50 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSTimeZone, UISearchController;
-@protocol EKTimeZoneViewControllerDelegate;
+@class NSArray, UISearchController;
 
 @interface EKTimeZoneViewController
 {
     UISearchController *_searchController;
-    int _style;
-    int _chooserStyle;
-    id <EKTimeZoneViewControllerDelegate> _delegate;
-    NSTimeZone *_timeZone;
-    NSArray *_cities;
 }
 
 - (id);
 - (int);
-- (id);
+- (id)udPlayer";
+- (long long);
+- (void);
+- (void);
+- (void);
 - (long long);
-- (void);
-- (void);
-- (void);
-- (long long);
-- (id);
+- (id);
 - (void);
 - (struct CGSize);
-- (void);
-- (void);
+- (void)setAppleIDWithAltDSID:(id)arg1 inUse:forService: /* Error: Ran out of types for this method. */;
+- (void)+;
 - (id);
 - (void);
 - (void);
-- (void)rnativeTimesTapped;
+- (void)showMoreAlternativeTimesTapped;
 - (id)×;
 
 // Remaining properties
-@property(readonly, nonatomic) int chooserStyle; // @synthesize chooserStyle=_chooserStyle;
 @property(retain, nonatomic) NSArray *cities; // @synthesize cities=_cities;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <EKTimeZoneViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
 
 @end
 

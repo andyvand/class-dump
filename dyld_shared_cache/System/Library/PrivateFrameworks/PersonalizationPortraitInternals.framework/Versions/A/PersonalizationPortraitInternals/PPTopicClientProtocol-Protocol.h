@@ -5,6 +5,7 @@
 //
 
 @protocol PPTopicClientProtocol
-- (void)r;
+- (void);
+- (void)PPConnectionsMetricsTracker;
 @end
 

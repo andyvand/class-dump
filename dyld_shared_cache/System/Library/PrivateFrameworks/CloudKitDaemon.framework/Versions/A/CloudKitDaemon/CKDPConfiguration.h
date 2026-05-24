@@ -9,12 +9,6 @@
 @interface CKDPConfiguration
 {
     unsigned long long _created;
-    unsigned long long _expires;
-    NSMutableArray *_fields;
-    struct {
-        unsigned int created:1;
-        unsigned int expires:1;
-    } _has;
 }
 
 + (Class);
@@ -25,30 +19,26 @@
 - (unsigned long long);
 - (id);
 - (void);
+- (void)decodeCardIssueDate:(id)arg1;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)(FigEndpointStreamAudioEngineRef);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)=;
 - (id);
 - (unsigned long long);
 - (void);
 - (id);
 - (void);
-- (id);
-- (void)nt:(unsigned long long)arg1;
-- (void)rDuringMergeableProtoGenerationDeltasToSave;
+- (id);
+- (void)setRequestCount:(unsigned long long)arg1;
+- (void)FakeErrorDuringMergeableProtoGenerationDeltasToSave;
 - (void);
 - (unsigned long long)S etag for zone for tests %@:%@ /* Error: Ran out of types for this method. */;
 - (id)ÜZùÿ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long created; // @synthesize created=_created;
-@property(nonatomic) unsigned long long expires; // @synthesize expires=_expires;
 @property(retain, nonatomic) NSMutableArray *fields; // @synthesize fields=_fields;
-@property(nonatomic) _Bool hasCreated;
-@property(nonatomic) _Bool hasExpires;
 
 @end
 

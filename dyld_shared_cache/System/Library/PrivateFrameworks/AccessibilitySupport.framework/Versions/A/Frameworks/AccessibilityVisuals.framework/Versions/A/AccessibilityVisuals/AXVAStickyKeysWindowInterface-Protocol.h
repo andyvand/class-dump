@@ -5,5 +5,8 @@
 //
 
 @protocol AXVAStickyKeysWindowInterface
+
+@optional
+- (void);
 @end
 

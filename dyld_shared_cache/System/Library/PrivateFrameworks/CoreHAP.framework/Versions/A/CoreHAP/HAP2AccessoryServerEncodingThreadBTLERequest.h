@@ -10,27 +10,22 @@ __attribute__((visibility("hidden")))
 @interface HAP2AccessoryServerEncodingThreadBTLERequest : HAPBTLERequest
 {
     unsigned char _threadRequestType;
-    long long _writeOptions;
-    id _requestedValue;
 }
 
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 - (long long);
 - (unsigned char);
 - (id);
 - (_Bool);
-- (void)ortDisconnection:linkType:accessoryCategory: /* Error: Ran out of types for this method. */;
+- (void)reportDisconnection:linkType:accessoryCategory: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool expectsResponseBody;
-@property(readonly, nonatomic) id requestedValue; // @synthesize requestedValue=_requestedValue;
 @property(readonly, nonatomic) unsigned char threadRequestType; // @synthesize threadRequestType=_threadRequestType;
-@property(readonly, nonatomic) long long writeOptions; // @synthesize writeOptions=_writeOptions;
 
 @end
 

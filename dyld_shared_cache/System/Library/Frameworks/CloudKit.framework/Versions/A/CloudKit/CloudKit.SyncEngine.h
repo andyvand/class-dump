@@ -7,51 +7,6 @@
 @interface CloudKit.SyncEngine
 {
     id $defaultActor;
-    id engine;
-    id objcEngine;
-    id state;
-    id database;
-    id container;
-    id delegate;
-    id delegatePrivate;
-    id delegateInternal;
-    id sendQueue;
-    id maxZonesPerSendDatabaseChangesBatchMutex;
-    id continueSendingChangesAfterFailure;
-    id repeatZoneModificationsUntilNoneLeft;
-    id fetchQueue;
-    id outstandingFetchChangesZones;
-    id maxZonesPerFetchChangesRequestMutex;
-    id assetDownloadStagingManager;
-    id cancellableSyncTasks;
-    id cancellableAssetSyncTasks;
-    id accountInfoQueue;
-    id updateAccountInfoTask;
-    id isWaitingForDeviceToDeviceEncryption;
-    id isWaitingForAccountToVerifyTerms;
-    id isWaitingForIdentityUpdate;
-    id identityUpdateObserver;
-    id stateUpdateTask;
-    id lastStateVersion;
-    id subscriptionQueue;
-    id apsMachServiceName;
-    id useOpportunisticPushTopic;
-    id notificationListener;
-    id subscriptionIDOverride;
-    id isImmediateSyncEnabled;
-    id lastForegroundTriggeredFetchDate;
-    id earliestStartDateForSchedulerActivities;
-    id priority;
-    id isAutomaticSyncEnabledMutex;
-    id automaticSyncOptionsMutex;
-    id accountProviderMutex;
-    id xpcActivityCriteriaWrapper;
-    id scheduleSyncTask;
-    id sharingObserver;
-    id allowFetchAndModifyConcurrentlyMutex;
-    id stateTelemetrySubmissionDate;
-    id loggingIDMutex;
-    id notificationObserverTasksMutex;
 }
 
 @end

@@ -7,6 +7,10 @@
 @protocol RemoteUIActivatorDelegate;
 
 @protocol RemoteUIActivating
+- (void)ata block;
+- (_Bool)istribution type;
+- (_Bool)MIS (file %s);
+- (void)inventoryRelativePath;
 
 // Remaining properties
 @property(nonatomic) __weak id <RemoteUIActivatorDelegate> delegate;

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue, SFAutoUnlockManagerDelegate;
 
 @interface SFAutoUnlockManager
 {
     id <SFAutoUnlockManagerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_delegateQueue;
 }
 
 + (_Bool);
@@ -25,9 +24,9 @@
 + (_Bool);
 + (_Bool);
 + (_Bool);
++ (_Bool)9_;
 + (_Bool);
-+ (_Bool);
-+ (_Bool);
++ (_Bool);
 + (float);
 + (_Bool);
 + (_Bool);
@@ -49,6 +48,8 @@
 - (double);
 - (void);
 - (void);
+- (void);
+- (void)&;
 - (void);
 - (void);
 - (void);
@@ -58,9 +59,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)x;
 - (void);
 - (void);
 - (void);
@@ -77,25 +76,16 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)P;
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (void)Up;
+- (void)cleaningUp;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SFAutoUnlockManagerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *delegateQueue; // @synthesize delegateQueue=_delegateQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double spinnerDelay;
-@property(readonly) Class superclass;
 
 @end
 

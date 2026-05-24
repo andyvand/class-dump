@@ -4,24 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NFMutexLock, NSObject;
-@protocol FCOperationCanceling><FCOperationPrioritizing, OS_dispatch_group;
-
 @interface FCAsyncOnceOperation
 {
     _Bool _finished;
-    _Bool _succeeded;
-    CDUnknownBlockType _workBlock;
-    unsigned long long _interest;
-    NSObject<OS_dispatch_group> *_activeGroup;
-    id <FCOperationCanceling><FCOperationPrioritizing> _activeOperation;
-    long long _relativePriority;
-    NFMutexLock *_lock;
 }
 
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)rest;
 - (id);
 - (id);
 - (id);
@@ -30,7 +20,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool finishedExecuting;
-@property(readonly, nonatomic) _Bool finishedExecutingWithFailure;
 
 @end
 

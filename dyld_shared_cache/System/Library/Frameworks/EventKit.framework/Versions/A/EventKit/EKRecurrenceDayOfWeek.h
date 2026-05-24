@@ -4,41 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface EKRecurrenceDayOfWeek
 {
     long long _dayOfTheWeek;
-    long long _weekNumber;
 }
 
-+ (long long);
++ (long long)device connection for distant device %p did remove outputDevice %{public}@ for endpoint %{public}@;
++ (id)did change outputDevice %{public}@ for endpoint %{public}@;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (_Bool);
++ (_Bool)WebKitDOMTestingAPIsEnabled;
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
 - (long long);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (long long);
 
 // Remaining properties
 @property(readonly, nonatomic) long long dayOfTheWeek; // @synthesize dayOfTheWeek=_dayOfTheWeek;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long weekNumber; // @synthesize weekNumber=_weekNumber;
 
 @end
 

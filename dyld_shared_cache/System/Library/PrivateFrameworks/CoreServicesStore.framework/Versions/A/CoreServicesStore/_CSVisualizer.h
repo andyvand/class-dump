@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSRecursiveLock;
+@class NSMutableDictionary;
 
 @interface _CSVisualizer
 {
     NSMutableDictionary *_functions;
-    NSRecursiveLock *_lock;
-    struct __CSStore *_store;
-    NSMutableDictionary *_userInfo;
 }
 
 + (_Bool);
@@ -29,7 +26,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -43,7 +40,6 @@
 
 // Remaining properties
 @property(readonly) struct __CSStore *store; // @synthesize store=_store;
-@property(readonly) NSMutableDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

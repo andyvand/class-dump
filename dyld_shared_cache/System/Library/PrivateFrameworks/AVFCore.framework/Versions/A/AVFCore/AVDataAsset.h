@@ -6,15 +6,12 @@
 
 #import <AVFCore/AVAsset.h>
 
-@class AVAssetInspectorLoader, AVDispatchOnce, NSArray, NSDictionary;
+@class NSDictionary;
 
 __attribute__((visibility("hidden")))
 @interface AVDataAsset : AVAsset
 {
     NSDictionary *_initializationOptions;
-    AVAssetInspectorLoader *_loader;
-    AVDispatchOnce *_allocateTracksOnceOnly;
-    NSArray *_tracks;
 }
 
 + (id);
@@ -22,10 +19,10 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (_Bool);
+- (id)Ľ;
 - (id);
-- (id);
-- (id);
-- (void);
+- (id)f;
+- (void)0;
 - (Class);
 - (struct OpaqueFigFormatReader *);
 - (id);

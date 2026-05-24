@@ -10,16 +10,15 @@ __attribute__((visibility("hidden")))
 @interface OADTextListStyle
 {
     NSMutableArray *mParagraphProperties;
-    NSString *mLanguage;
 }
 
-+ (id);
++ (id)h;
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);

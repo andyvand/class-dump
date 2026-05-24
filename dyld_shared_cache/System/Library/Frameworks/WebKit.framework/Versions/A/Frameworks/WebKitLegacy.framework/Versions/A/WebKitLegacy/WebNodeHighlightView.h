@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)blic}@] Attempting to pre-authenticate purchase queue for device restrictions;
 - (void);
 - (_Bool);
 

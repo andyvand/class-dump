@@ -4,19 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface BMPBTopicEntity
 {
     NSMutableArray *_attributes;
-    NSString *_displayName;
-    NSString *_topicId;
 }
 
 + (Class);
 - (_Bool);
-- (id);
-- (void);
+- (id):(unsigned long long)arg1 8@16@?24@?32i40^@44;
+- (void)activeProbabilityThreshold"I"audioActiveAccumulationThreshold"I"audioInactiveAccumulationThreshold"I"audioActiveCount"I"lastAudioPriority"I"refreshCounter"I};
 - (void);
 - (id);
 - (void);
@@ -26,23 +24,19 @@
 - (_Bool);
 - (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *attributes; // @synthesize attributes=_attributes;
-@property(retain, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) _Bool hasDisplayName;
 @property(readonly, nonatomic) _Bool hasTopicId;
-@property(retain, nonatomic) NSString *topicId; // @synthesize topicId=_topicId;
 
 @end
 

@@ -10,11 +10,6 @@
 {
     void meterID;
     void serialNumber;
-    void make;
-    void model;
-    id intervalLengthInSeconds;
-    void commodity;
-    void usagePointID;
 }
 
 - (id);
@@ -27,12 +22,8 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *commodity;
-@property(nonatomic, readonly) NSString *make;
 @property(nonatomic, readonly) NSString *meterID;
-@property(nonatomic, readonly) NSString *model;
 @property(nonatomic, readonly) NSString *serialNumber;
-@property(nonatomic, readonly) NSString *usagePointID;
 
 @end
 

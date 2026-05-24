@@ -6,19 +6,17 @@
 
 #import <coreroutine/RTCloudManagedObject.h>
 
-@class NSDate, NSUUID;
+@class NSUUID;
 
 @interface RTTripClusterRecencyMO : RTCloudManagedObject
 {
 }
 
-+ (id);
-+ (id);
++ (id)PCSKeyData}^{__CFDictionary}II{PCSAttributes=I^{PCSTypeValue}}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSPublicIdentityData}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16;
++ (id)annelDataConnectionForH2:base connection has disconnected. Not creating ChannelData connection. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *clusterID; // @dynamic clusterID;
-@property(copy, nonatomic) NSDate *endTime; // @dynamic endTime;
-@property(copy, nonatomic) NSDate *startTime; // @dynamic startTime;
 
 @end
 

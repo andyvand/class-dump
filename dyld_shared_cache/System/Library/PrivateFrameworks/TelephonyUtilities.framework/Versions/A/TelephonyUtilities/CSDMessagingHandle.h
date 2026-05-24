@@ -10,53 +10,39 @@ __attribute__((visibility("hidden")))
 @interface CSDMessagingHandle
 {
     NSString *_isoCountryCode;
-    NSString *_siriDisplayName;
-    int _type;
-    NSString *_value;
-    struct {
-        unsigned int type:1;
-    } _has;
 }
 
 + (id);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)(;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (void);
-- (int);
+- (void)`;
+- (void);
+- (int);
+- (_Bool)";
 - (_Bool);
 - (_Bool);
-- (_Bool);
 - (id);
+- (void);
+- (id)(;
+- (id);
 - (void);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id);
 - (id);
 - (int);
 - (id);
 - (_Bool)0@ù
 × ;
 - (void);
-- (void)tifier: /* Error: Ran out of types for this method. */;
+- (void)localRoutesByUniqueIdentifier: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasIsoCountryCode;
-@property(readonly, nonatomic) _Bool hasSiriDisplayName;
-@property(nonatomic) _Bool hasType;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) NSString *isoCountryCode; // @synthesize isoCountryCode=_isoCountryCode;
-@property(retain, nonatomic) NSString *siriDisplayName; // @synthesize siriDisplayName=_siriDisplayName;
 @property(readonly, nonatomic) TUHandle *tuHandle;
-@property(nonatomic) int type; // @synthesize type=_type;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

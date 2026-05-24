@@ -4,33 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface EMNumberFormatter
 {
     struct __CFNumberFormatter *_genericFormatter;
-    struct __CFNumberFormatter *_doubleFormatter;
-    struct __CFNumberFormatter *_percentFormatter;
-    struct __CFNumberFormatter *_bigNumberFormatter;
-    struct __CFNumberFormatter *_currencyFormatter;
-    struct __CFDateFormatter *_dateFormatter;
-    NSString *_excelFormatString;
-    NSString *_baseICUFormatString;
-    _Bool _isNegativeRed;
-    _Bool _hasLocales;
-    int _formatType;
 }
 
 + (id);
 - (_Bool);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -43,11 +31,11 @@ __attribute__((visibility("hidden")))
 - (id);
 - (struct __CFNumberFormatter *);
 - (struct __CFNumberFormatter *);
-- (id);
+- (id);
 - (struct __CFNumberFormatter *);
 - (id);
 - (int);
-- (id);
+- (id);
 - (void);
 - (void)J;
 - (struct __CFDateFormatter *)@Gãÿ# ;

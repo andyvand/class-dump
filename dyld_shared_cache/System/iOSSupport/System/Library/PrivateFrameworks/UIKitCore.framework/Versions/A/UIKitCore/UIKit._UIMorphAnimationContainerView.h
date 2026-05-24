@@ -13,9 +13,9 @@
 }
 
 - (void);
-- (id);
+- (id);
 - (int)eSolver;
-- (id)ics;
+- (id)UIEventSessionActionAnalytics;
 - (void)w.swift;
 - (void)üOíþq;
 

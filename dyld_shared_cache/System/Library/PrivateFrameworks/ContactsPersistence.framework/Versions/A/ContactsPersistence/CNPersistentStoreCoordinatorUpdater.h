@@ -5,19 +5,15 @@
 //
 
 @class CNPersistentStoreCoordinatorCache;
-@protocol CNScheduler, NSLocking;
+@protocol CNScheduler;
 
 @interface CNPersistentStoreCoordinatorUpdater
 {
     CNPersistentStoreCoordinatorCache *_coordinatorCache;
-    _Bool _readOnly;
-    _Bool _isPristine;
-    id <NSLocking> _fileLock;
-    id <CNScheduler> _updaterScheduler;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -26,18 +22,16 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)P;
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) id <NSLocking> fileLock; // @synthesize fileLock=_fileLock;
-@property _Bool isPristine; // @synthesize isPristine=_isPristine;
 @property(readonly, nonatomic) id <CNScheduler> updaterScheduler; // @synthesize updaterScheduler=_updaterScheduler;
 
 @end

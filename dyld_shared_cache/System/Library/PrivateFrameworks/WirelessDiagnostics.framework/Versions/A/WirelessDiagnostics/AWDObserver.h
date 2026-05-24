@@ -9,7 +9,6 @@
 @interface AWDObserver
 {
     struct shared_ptr<AWDObserverConnection> observerConnection;
-    id <AWDObserverDelegate> _delegate;
 }
 
 - (void);

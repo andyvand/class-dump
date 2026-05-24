@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (CompressionAdditions)
-- (id);
-- (id);
-- (id);
+- (id)clearIsChangeProcessingPending;
+- (id)cleanupEmptyHighlights;
+- (id)cleanedAndSortedOIDsFrom:usingFetchOptions: /* Error: Ran out of types for this method. */;
 @end
 

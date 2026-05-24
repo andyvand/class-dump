@@ -6,43 +6,32 @@
 
 #import <AppKit/NSViewController.h>
 
-@class AppKit._NSSuggestionsMenuTableView, NSBundle, NSString;
+@class NSString;
 
 @interface AppKit._NSSuggestionsMenuViewController : NSViewController
 {
     id delegate;
-    id items;
-    id _highlightedSuggestionItem;
-    id controlSize;
-    id useMultiColumnLayout;
-    id shouldHighlightRowsOnHover;
-    AppKit._NSSuggestionsMenuTableView *tableView;
-    id _itemsToDisplay;
-    id isVisible;
-    id localEventMonitor;
-    id containsAlternateMenuItems;
-    id imageSharingWidths;
 }
 
 - (void);
-- (void);
-- (id);
-- (_Bool);
+- (void)__AUTH_CONST;
+- (id)__objc_imageinfo__DATA_CONST;
+- (_Bool)__objc_classname__TEXT;
 - (_Bool);
 - (double);
 - (void);
-- (long long);
+- (long long)AppleCyrus;
+- (id)s;
+- (id);
+- (void);
+- (void)for client certificates, DNs(%ld);
 - (id);
 - (id);
 - (void);
 - (void);
-- (id);
-- (id);
+- (void)isManagedObjectModel:compatibleWithPersistentStoreAtURL:error: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (void);
-- (struct CGSize);
+- (struct CGSize)_kindStringWithPreferredLocalizations: /* Error: Ran out of types for this method. */;
 - (void)ansientAccessibilityElement"b1"shouldConstrainWidth"b1"shouldConstrainHeight"b1"reserved"b4};
 - (void)es not actually reference it!;
 - (void)%f growFlags:(id)arg1 %d shrinkFlags:%d)
@@ -51,10 +40,7 @@
 - (id)Set;
 
 // Remaining properties
-@property(nonatomic, readonly) NSBundle *nibBundle;
 @property(nonatomic, readonly) NSString *nibName;
-@property(nonatomic) struct CGSize preferredContentSize;
-@property(nonatomic, retain) AppKit._NSSuggestionsMenuTableView *tableView; // @synthesize tableView;
 
 @end
 

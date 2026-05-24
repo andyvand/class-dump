@@ -14,14 +14,14 @@
 }
 
 + (_Bool);
-+ (_Bool);
++ (_Bool)u;
 + (_Bool);
 + (id);
 - (id);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void)`;
+- (void)MFComposeRecipientStringMatchLastName;
 
 // Remaining properties
 @property(copy, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;

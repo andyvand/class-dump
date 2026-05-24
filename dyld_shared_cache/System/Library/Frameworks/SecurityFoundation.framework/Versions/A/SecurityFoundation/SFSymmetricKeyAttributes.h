@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _SFKeySpecifier;
+@class _SFKeySpecifier;
 
 __attribute__((visibility("hidden")))
 @interface SFSymmetricKeyAttributes
 {
     id _symmetricKeyAttributesInternal;
-    NSString *persistentIdentifier;
 }
 
 - (id);
@@ -20,25 +19,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *keyDomain;
 @property(readonly, copy, nonatomic) _SFKeySpecifier *keySpecifier;
-@property(copy, nonatomic) NSString *localizedDescription;
-@property(copy, nonatomic) NSString *localizedLabel;
-@property(readonly, copy, nonatomic) NSString *persistentIdentifier; // @synthesize persistentIdentifier;
-@property(readonly) Class superclass;
 
 @end
 

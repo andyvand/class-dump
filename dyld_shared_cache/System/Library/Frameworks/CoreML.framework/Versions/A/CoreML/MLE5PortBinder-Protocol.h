@@ -7,6 +7,8 @@
 @class MLPixelBufferPool;
 
 @protocol MLE5PortBinder
+- (void)thRange:(MLPixelBufferPool *)arg1 ];
+- (void);
 - (MLPixelBufferPool *)D;
 
 // Remaining properties

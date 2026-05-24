@@ -14,9 +14,9 @@ __attribute__((visibility("hidden")))
 }
 
 - (_Bool);
-- (id);
-- (void);
-- (_Bool);
+- (id)replicationSourceServiceNameOverride;
+- (void)replicationSourceID;
+- (_Bool)numberWithUnsignedInteger:(id)arg1;
 - (void);
 - (id);
 - (id);

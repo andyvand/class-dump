@@ -4,34 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BRWatchingConfiguration, NSData, NSMetadataQuery, NSMutableDictionary, NSMutableSet, NSObject, NSPredicate, NSString, br_pacer;
-@protocol BRItemCollectionGathererDelegate, NSObject, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface BRItemCollectionGatherer
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_itemIDToItemCollectionMap;
-    id <BRItemCollectionGathererDelegate> _delegate;
-    NSMetadataQuery *_query;
-    NSPredicate *_predicate;
-    BRWatchingConfiguration *_config;
-    NSMutableSet *_watchedAppLibraryFPItemIDs;
-    NSMutableSet *_waitingToBeGatheredCollections;
-    NSMutableSet *_collectionsSet;
-    NSMutableDictionary *_itemOwnersMap;
-    _Bool _finishedInitialGathering;
-    NSMutableSet *_boostedAppLibraries;
-    NSMutableDictionary *_failureCountByItemID;
-    NSData *_perAppAccountIdentifier;
-    id <NSObject> _accountTokenDidChangeNotificationObserver;
-    unsigned long long _appLibrariesLookupAttempts;
-    _Bool _finishedLookingUpAppLibraries;
-    br_pacer *_notificationPacer;
-    NSMutableDictionary *_addedItems;
-    NSMutableSet *_deletedItems;
-    NSObject<OS_dispatch_queue> *_invalidateQueue;
-    _Bool _invalidated;
 }
 
 - (id);
@@ -42,10 +21,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
+- (void)y	;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)h;
 - (void);
 - (void);
 - (void);
@@ -58,36 +37,30 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 - (void);
+- (void)T;
+- (void);
+- (void);
+- (unsigned long long)l;
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

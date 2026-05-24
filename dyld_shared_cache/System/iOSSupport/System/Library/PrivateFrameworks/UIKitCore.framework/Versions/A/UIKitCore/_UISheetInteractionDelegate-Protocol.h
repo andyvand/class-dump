@@ -4,6 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class _UISheetInteraction;
+
 @protocol _UISheetInteractionDelegate
+
+@optional
+- (_Bool);
+- (void);
+- (void)sendSatelliteSMSDictionary:(_UISheetInteraction *)arg1 senderContext:(struct CGPoint)arg2 error:(struct CGPoint)arg3;
+- (void)sendSMSDictionary:(_UISheetInteraction *)arg1 withCompletionBlock:(double)arg2;
 @end
 

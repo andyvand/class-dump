@@ -5,5 +5,11 @@
 //
 
 @protocol TSDGestureTarget
+- (_Bool)Q	;
+
+@optional
+- (void)playingItemIdentifier;
+- (_Bool);
+- (void)@;
 @end
 

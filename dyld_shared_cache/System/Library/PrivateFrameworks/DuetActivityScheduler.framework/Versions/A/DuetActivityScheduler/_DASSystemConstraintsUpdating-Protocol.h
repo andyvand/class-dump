@@ -5,5 +5,6 @@
 //
 
 @protocol _DASSystemConstraintsUpdating
+- (void);
 @end
 

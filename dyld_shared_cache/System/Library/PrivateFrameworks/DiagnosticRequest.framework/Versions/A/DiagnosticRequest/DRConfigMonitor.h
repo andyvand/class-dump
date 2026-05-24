@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DRConfig, NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class DRConfig, NSString;
 
 @interface DRConfigMonitor
 {
     NSString *_teamID;
-    DRConfig *_currentConfig;
-    CDUnknownBlockType _processingBlock;
-    NSObject<OS_dispatch_queue> *_targetQueue;
-    NSObject<OS_dispatch_queue> *_accessQueue;
 }
 
-- (void);
+- (void)t;
 - (void);
 - (id);
 - (void);
@@ -27,7 +22,7 @@
 - (_Bool);
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)@;
 - (id);
 - (_Bool);
 - (void);
@@ -35,11 +30,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *accessQueue; // @synthesize accessQueue=_accessQueue;
 @property(retain, nonatomic) DRConfig *currentConfig; // @synthesize currentConfig=_currentConfig;
-@property(readonly, nonatomic) CDUnknownBlockType processingBlock; // @synthesize processingBlock=_processingBlock;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *targetQueue; // @synthesize targetQueue=_targetQueue;
-@property(readonly, nonatomic) NSString *teamID; // @synthesize teamID=_teamID;
 
 @end
 

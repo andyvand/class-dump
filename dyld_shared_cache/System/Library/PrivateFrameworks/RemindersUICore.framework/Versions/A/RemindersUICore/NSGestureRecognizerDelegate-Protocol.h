@@ -7,6 +7,8 @@
 @protocol NSGestureRecognizerDelegate
 
 @optional
+- (_Bool)eFrameworks/UserActivity.framework/Versions/A/UserActivity;
+- (_Bool)usePrivateRelay;
 - (_Bool)el without attributesWrappingView in the cell stack;
 @end
 

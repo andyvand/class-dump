@@ -8,12 +8,12 @@
 
 @protocol _ArchiveReader
 + (NSString *);
+- (void);
 - (NSArray *)e must be of length 3;
 - (NSDictionary *)q¬4ègQÚ¤¿»\ÖÆÌ+Õ1T¬¥þE~_zÈ·óøVU24xOº1õ]M8söHTgí»QJvqõ¤÷Pb»ó ýb©2;yöDsäÐý<;Åt(ô@Õ[*ã¯_Áþ;ÞP¦}Ë¡&ËB@ÖÈ-óCPoÉ
 fëÓM¨w::ä /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *layerInfos;
 @property(readonly, copy, nonatomic) NSString *modelPath;
 @end
 

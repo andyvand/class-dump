@@ -5,15 +5,14 @@
 //
 
 @class NSManagedObject, NSString;
-@protocol ICAccountObject, ICFolderObject;
+@protocol ICFolderObject;
 
 @protocol ICFolderObject
+- (NSString *);
+- (NSManagedObject<ICFolderObject> *);
 - (NSString *)stem Paper folder from the cloud. Deleting it now.;
 
 // Remaining properties
-@property(readonly, retain, nonatomic) NSManagedObject<ICAccountObject> *account;
 @property(readonly, copy, nonatomic) NSString *identifierURIPathComponent;
-@property(readonly, copy, nonatomic) NSString *localizedTitle;
-@property(readonly, copy, nonatomic) NSManagedObject<ICFolderObject> *parentFolder;
 @end
 

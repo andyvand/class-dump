@@ -7,13 +7,6 @@
 @interface RTAuthorizedLocationZDRLocationLiveMetrics
 {
     _Bool _isVisitUsedForZdrConfirmation;
-    int _zdrConfirmationStatus;
-    int _zdrConfirmationStatusCode;
-    int _zdrConfirmationPlaceType;
-    int _confirmedALOIMatchedWithZDRType;
-    double _distanceBetweenZDRToUserLocation_m;
-    double _zdrComputationTime_s;
-    double _timeSinceEraseInstall_s;
 }
 
 - (int);
@@ -29,20 +22,13 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (double);
+- (_Bool)Data}^{_PCSIdentityData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16@0:8 /* Error: Ran out of types for this method. */;
+- (double)alert;
 - (int);
 - (id);
 
 // Remaining properties
-@property int confirmedALOIMatchedWithZDRType; // @synthesize confirmedALOIMatchedWithZDRType=_confirmedALOIMatchedWithZDRType;
-@property double distanceBetweenZDRToUserLocation_m; // @synthesize distanceBetweenZDRToUserLocation_m=_distanceBetweenZDRToUserLocation_m;
-@property _Bool isVisitUsedForZdrConfirmation; // @synthesize isVisitUsedForZdrConfirmation=_isVisitUsedForZdrConfirmation;
-@property double timeSinceEraseInstall_s; // @synthesize timeSinceEraseInstall_s=_timeSinceEraseInstall_s;
-@property double zdrComputationTime_s; // @synthesize zdrComputationTime_s=_zdrComputationTime_s;
-@property int zdrConfirmationPlaceType; // @synthesize zdrConfirmationPlaceType=_zdrConfirmationPlaceType;
 @property int zdrConfirmationStatus; // @synthesize zdrConfirmationStatus=_zdrConfirmationStatus;
-@property int zdrConfirmationStatusCode; // @synthesize zdrConfirmationStatusCode=_zdrConfirmationStatusCode;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol PPSocialHighlightFeatureProvider
+
+@optional
+- (id);
 @end
 

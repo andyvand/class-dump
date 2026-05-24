@@ -12,7 +12,7 @@
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)C;
 + (id);
 + (id);
 + (_Bool);
@@ -21,7 +21,7 @@
 - (unsigned long long);
 - (unsigned long long);
 - (id);
-- (id);
+- (id)";
 - (id);
 - (void);
 

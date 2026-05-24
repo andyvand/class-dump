@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     unsigned long long mSheetIndex;
 }
 
-+ (id);
++ (id);
 - (void);
 - (unsigned long long);
 - (_Bool);

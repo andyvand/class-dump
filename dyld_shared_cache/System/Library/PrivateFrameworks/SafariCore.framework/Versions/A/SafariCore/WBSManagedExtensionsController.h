@@ -32,7 +32,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasAnyExtensionManagement;
-@property(readonly, nonatomic) _Bool onlyAllowsManagedExtensions;
 
 @end
 

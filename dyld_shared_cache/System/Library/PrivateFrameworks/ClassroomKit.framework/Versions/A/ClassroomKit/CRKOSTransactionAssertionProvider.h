@@ -5,22 +5,19 @@
 //
 
 @class NSString;
-@protocol CRKOSTransactionPrimitives;
 
 @interface CRKOSTransactionAssertionProvider
 {
     NSString *_reason;
-    id <CRKOSTransactionPrimitives> _primitives;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)h;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <CRKOSTransactionPrimitives> primitives; // @synthesize primitives=_primitives;
 @property(readonly, copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
 
 @end

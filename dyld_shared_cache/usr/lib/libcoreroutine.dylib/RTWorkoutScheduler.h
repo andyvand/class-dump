@@ -6,31 +6,11 @@
 
 #import <coreroutine/RTService.h>
 
-@class NSDate, RTBatteryManager, RTDataProtectionManager, RTDefaultsManager, RTHealthKitManager, RTLocationManager, RTPlatform, RTTimer, RTTimerManager, RTWorkoutRouteManager, RTWorkoutSchedulerMetrics, RTXPCActivityManager;
+@class RTBatteryManager;
 
 @interface RTWorkoutScheduler : RTService
 {
     RTBatteryManager *_batteryManager;
-    RTXPCActivityManager *_xpcActivityManager;
-    RTDataProtectionManager *_dataProtectionManager;
-    RTWorkoutRouteManager *_workoutRouteManager;
-    RTHealthKitManager *_healthKitManager;
-    RTLocationManager *_locationManager;
-    RTTimerManager *_timerManager;
-    RTDefaultsManager *_defaultsManager;
-    RTPlatform *_platform;
-    unsigned long long _singleWorkoutClusteringTaskState;
-    unsigned long long _updateRelevanceScoreTaskState;
-    unsigned long long _currentNWorkouts;
-    unsigned long long _totalWorkouts;
-    NSDate *_lastClusterAndSyncDate;
-    NSDate *_lastWorkoutComparisonDate;
-    NSDate *_lastRelevanceScoreUpdateDate;
-    NSDate *_lastSingleWorkoutClusteringDate;
-    NSDate *_lastPruneDistanceMatrixDate;
-    RTTimer *_clusteringDeferralTimer;
-    long long _encryptedDataAvailability;
-    RTWorkoutSchedulerMetrics *_metrics;
 }
 
 + (id);
@@ -52,19 +32,19 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)?;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
+- (void)a data in baa signer {error :(id)arg1 %@};
+- (void);
+- (void);
+- (id);
 - (void);
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)_nextPayload;
 - (id);
 - (void);
 - (void);
@@ -75,7 +55,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (void)0@ù
 × ;
@@ -84,32 +64,12 @@
 - (void)¨@;
 - (id)%3d, integrity, %3d, simulated, %+3ld, accessory, %+3ld, timestamp, %.3f, date, %@;
 - (void)%@;
-- (id)ed;
+- (id)topMedianDwellTime_1stPlaceDwellTime_bucketed;
 - (void)ded rhythmic non waking GNSS location observer;
 - (id)sensitive}f, numOfClustEntries %{sensitive}d, LastLoc Dist to Clust %{sensitive}f, ageLatestClust visit %{sensitive}f, Max Cluster Dist %{sensitive}f, weeklyDens %{sensitive}f, dailyDens %{sensitive}f ;
 
 // Remaining properties
 @property(retain, nonatomic) RTBatteryManager *batteryManager; // @synthesize batteryManager=_batteryManager;
-@property(retain, nonatomic) RTTimer *clusteringDeferralTimer; // @synthesize clusteringDeferralTimer=_clusteringDeferralTimer;
-@property(nonatomic) unsigned long long currentNWorkouts; // @synthesize currentNWorkouts=_currentNWorkouts;
-@property(retain, nonatomic) RTDataProtectionManager *dataProtectionManager; // @synthesize dataProtectionManager=_dataProtectionManager;
-@property(retain, nonatomic) RTDefaultsManager *defaultsManager; // @synthesize defaultsManager=_defaultsManager;
-@property long long encryptedDataAvailability; // @synthesize encryptedDataAvailability=_encryptedDataAvailability;
-@property(retain, nonatomic) RTHealthKitManager *healthKitManager; // @synthesize healthKitManager=_healthKitManager;
-@property(retain, nonatomic) NSDate *lastClusterAndSyncDate; // @synthesize lastClusterAndSyncDate=_lastClusterAndSyncDate;
-@property(retain, nonatomic) NSDate *lastPruneDistanceMatrixDate; // @synthesize lastPruneDistanceMatrixDate=_lastPruneDistanceMatrixDate;
-@property(retain, nonatomic) NSDate *lastRelevanceScoreUpdateDate; // @synthesize lastRelevanceScoreUpdateDate=_lastRelevanceScoreUpdateDate;
-@property(retain, nonatomic) NSDate *lastSingleWorkoutClusteringDate; // @synthesize lastSingleWorkoutClusteringDate=_lastSingleWorkoutClusteringDate;
-@property(retain, nonatomic) NSDate *lastWorkoutComparisonDate; // @synthesize lastWorkoutComparisonDate=_lastWorkoutComparisonDate;
-@property(retain, nonatomic) RTLocationManager *locationManager; // @synthesize locationManager=_locationManager;
-@property(retain, nonatomic) RTWorkoutSchedulerMetrics *metrics; // @synthesize metrics=_metrics;
-@property(retain, nonatomic) RTPlatform *platform; // @synthesize platform=_platform;
-@property(nonatomic) unsigned long long singleWorkoutClusteringTaskState; // @synthesize singleWorkoutClusteringTaskState=_singleWorkoutClusteringTaskState;
-@property(retain, nonatomic) RTTimerManager *timerManager; // @synthesize timerManager=_timerManager;
-@property(nonatomic) unsigned long long totalWorkouts; // @synthesize totalWorkouts=_totalWorkouts;
-@property(nonatomic) unsigned long long updateRelevanceScoreTaskState; // @synthesize updateRelevanceScoreTaskState=_updateRelevanceScoreTaskState;
-@property(retain, nonatomic) RTWorkoutRouteManager *workoutRouteManager; // @synthesize workoutRouteManager=_workoutRouteManager;
-@property(retain, nonatomic) RTXPCActivityManager *xpcActivityManager; // @synthesize xpcActivityManager=_xpcActivityManager;
 
 @end
 

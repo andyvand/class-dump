@@ -7,9 +7,6 @@
 @interface AXSSKeyboardCommandInfo
 {
     _Bool _handlesBothDownAndUp;
-    CDUnknownBlockType _handler;
-    CDUnknownBlockType _downHandler;
-    CDUnknownBlockType _upHandler;
 }
 
 + (id);
@@ -19,13 +16,10 @@
 - (CDUnknownBlockType);
 - (id);
 - (CDUnknownBlockType);
-- (void);
+- (void)8;
 
 // Remaining properties
-@property(readonly, nonatomic) CDUnknownBlockType downHandler; // @synthesize downHandler=_downHandler;
-@property(readonly, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
 @property(readonly, nonatomic) _Bool handlesBothDownAndUp; // @synthesize handlesBothDownAndUp=_handlesBothDownAndUp;
-@property(readonly, nonatomic) CDUnknownBlockType upHandler; // @synthesize upHandler=_upHandler;
 
 @end
 

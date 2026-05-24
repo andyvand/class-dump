@@ -34,10 +34,10 @@ struct Events {
 };
 
 struct NSEdgeInsets {
-    double top;
-    double left;
-    double bottom;
-    double right;
+    double _field1;
+    double _field2;
+    double _field3;
+    double _field4;
 };
 
 struct ProcessSerialNumber {
@@ -59,28 +59,6 @@ struct os_unfair_lock_s {
     unsigned int _os_unfair_lock_opaque;
 };
 
-struct set<unsigned int, std::less<unsigned int>, std::allocator<unsigned int>> {
-    struct __tree<unsigned int, std::less<unsigned int>, std::allocator<unsigned int>> {
-        void *__begin_node_;
-        struct {
-            struct __tree_end_node<std::__tree_node_base<void *>*> {
-                void *__left_;
-            } __end_node_;
-        } ;
-        struct {
-            unsigned long long __size_;
-        } ;
-    } __tree_;
-};
-
-struct vector<id<NSObject>, std::allocator<id<NSObject>>> {
-    id *__begin_;
-    id *__end_;
-    struct {
-        id *__cap_;
-    } ;
-};
-
 #pragma mark Typedef'd Structures
 
 typedef struct {
@@ -90,9 +68,14 @@ typedef struct {
 } CDStruct_0c56ca5e;
 
 typedef struct {
-    unsigned char keyness;
-    unsigned char mainness;
-} CDStruct_28acc417;
+    _Bool _field1;
+    _Bool _field2;
+} CDStruct_3d581f42;
+
+typedef struct {
+    unsigned char _field1;
+    unsigned char _field2;
+} CDStruct_5c52f79b;
 
 typedef struct {
     unsigned int _field1;
@@ -100,11 +83,11 @@ typedef struct {
 } CDStruct_c0454aff;
 
 typedef struct {
-    unsigned long long identifier;
-    _Bool isSuspended;
-    _Bool isAccessoryView;
-    _Bool isInServiceWindow;
-} CDStruct_a363a01e;
+    unsigned long long _field1;
+    _Bool _field2;
+    _Bool _field3;
+    _Bool _field4;
+} CDStruct_f01bf2a5;
 
 typedef struct {
     unsigned long long _field1;
@@ -114,8 +97,8 @@ typedef struct {
 } CDStruct_70511ce9;
 
 typedef struct {
-    float p[2];
-} CDStruct_119a7730;
+    float _field1[2];
+} CDStruct_b20e86b3;
 
 typedef struct {
     unsigned int val[8];
@@ -126,16 +109,13 @@ typedef struct {
     _Bool _field2;
     _Bool _field3;
     _Bool _field4;
-    struct {
-        _Bool _field1;
-        _Bool _field2;
-    } _field5;
+    CDStruct_3d581f42 _field5;
 } CDStruct_92c4e0b4;
 
 typedef struct {
-    struct CGSize min;
-    struct CGSize max;
-} CDStruct_42a63532;
+    struct CGSize _field1;
+    struct CGSize _field2;
+} CDStruct_90e057aa;
 
 typedef struct {
     id _field1;
@@ -184,16 +164,16 @@ typedef struct {
 } CDStruct_3e9ffe3c;
 
 typedef struct {
-    unsigned long long responderIdentifier;
-    unsigned char base;
-    struct CGRect contentRect;
-    unsigned int id;
-    unsigned long long styleMask;
-} CDStruct_c5a68f8f;
+    unsigned long long _field1;
+    unsigned char _field2;
+    struct CGRect _field3;
+    unsigned int _field4;
+    unsigned long long _field5;
+} CDStruct_fac6f6dd;
 
 typedef struct {
     long long _field1;
-    CDStruct_28acc417 _field2;
+    CDStruct_5c52f79b _field2;
     long long _field3;
     id _field4;
     id _field5;
@@ -201,37 +181,26 @@ typedef struct {
     _Bool _field7;
     _Bool _field8;
     _Bool _field9;
-} CDStruct_7d2667e0;
+} CDStruct_bfeb37c0;
 
 typedef struct {
     _Bool _field1;
-    CDStruct_c5a68f8f _field2;
-} CDStruct_51b1a193;
+    CDStruct_fac6f6dd _field2;
+} CDStruct_8bfb808a;
 
 typedef struct {
-    long long ordered;
-    _Bool popoverHasFullSizeContent;
-    _Bool sharesParentKeyState;
-    CDStruct_c5a68f8f window;
-} CDStruct_5ac6c159;
+    long long _field1;
+    _Bool _field2;
+    _Bool _field3;
+    CDStruct_fac6f6dd _field4;
+} CDStruct_4c4ea94b;
 
 typedef struct {
-    CDStruct_c5a68f8f _field1;
-} CDStruct_1de04ea7;
+    CDStruct_fac6f6dd _field1;
+} CDStruct_c08aae33;
 
 typedef struct {
     CDStruct_4c969caf _field1;
-    CDStruct_c5a68f8f _field2;
-} CDStruct_8bb6c602;
-
-// Ambiguous groups
-typedef struct {
-    _Bool _field1;
-    _Bool _field2;
-} CDStruct_3d581f42;
-
-typedef struct {
-    _Bool responds;
-    _Bool response;
-} CDStruct_d0f1eb59;
+    CDStruct_fac6f6dd _field2;
+} CDStruct_703e0e14;
 

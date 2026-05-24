@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface IMBrandInfo
 {
     void brandURI;
-    void name;
-    _Bool hasDisappeared;
-    void categories;
-    void primaryPhoneNumber;
-    void primaryBrandColorHexString;
-    void secondaryBrandColorHexString;
-    _Bool isVerified;
-    void localizedDescription;
-    void verifiedBy;
-    void website;
-    void messageNumber;
-    void emailAddress;
-    void address;
-    void termsAndConditionsURL;
-    void localizedResponseTime;
-    void genericCSSTemplateURL;
-    void brandLogoGuid;
 }
 
 + (id);
@@ -46,38 +29,20 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)rap;
+- (id)$p;
 - (long long);
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id)atibility;
+- (id)copyForBackwardsCompatibility;
 - (void)ions;
-- (id)h;
+- (id)EnableMultiReplyOnWatch;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *address;
-@property(nonatomic, copy) NSString *brandLogoGuid;
 @property(nonatomic, readonly) NSString *brandURI;
-@property(nonatomic, readonly) NSArray *categories;
-@property(nonatomic, readonly) NSString *emailAddress;
-@property(nonatomic, readonly) NSString *genericCSSTemplateURL;
-@property(nonatomic, readonly) _Bool hasDisappeared; // @synthesize hasDisappeared;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, readonly) _Bool isVerified; // @synthesize isVerified;
-@property(nonatomic, readonly) NSString *localizedDescription;
-@property(nonatomic, readonly) NSString *localizedResponseTime;
-@property(nonatomic, readonly) NSString *messageNumber;
-@property(nonatomic, readonly) NSString *name;
-@property(nonatomic, readonly) NSString *primaryBrandColorHexString;
-@property(nonatomic, readonly) NSString *primaryPhoneNumber;
-@property(nonatomic, readonly) NSString *secondaryBrandColorHexString;
-@property(nonatomic, readonly) NSString *termsAndConditionsURL;
-@property(nonatomic, readonly) NSString *verifiedBy;
-@property(nonatomic, readonly) NSString *website;
 
 @end
 

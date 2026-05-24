@@ -7,7 +7,6 @@
 @interface FMNetworking.FMNURLSessionFactory
 {
     id mockSessionCreationBlock;
-    id preferences;
 }
 
 @end

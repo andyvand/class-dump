@@ -7,7 +7,6 @@
 @interface NewsUI2.WelcomeViewStyler
 {
     id colorStyler;
-    id parameters;
 }
 
 @end

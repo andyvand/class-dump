@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRTextEditingAttributes, NSString;
+@class NSString;
 
 @interface MRTextEditingSession
 {
     NSString *_text;
-    _Bool _editing;
-    MRTextEditingAttributes *_attributes;
-    unsigned long long _uniqueIdentifier;
 }
 
 - (id);
 - (id);
 - (id);
+- (id)activate:(struct _NSZone *)arg1 userName:mode:options:reply: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool)N,V_albumTraits;
 - (void)allowsHeadTrackedSpatialAudio;
 
 // Remaining properties
-@property(readonly, nonatomic) MRTextEditingAttributes *attributes; // @synthesize attributes=_attributes;
-@property(readonly, nonatomic, getter=isEditing) _Bool editing; // @synthesize editing=_editing;
-@property(readonly, nonatomic) NSString *text; // @synthesize text=_text;
 @property(readonly, nonatomic) unsigned long long uniqueIdentifier; // @synthesize uniqueIdentifier=_uniqueIdentifier;
 
 @end

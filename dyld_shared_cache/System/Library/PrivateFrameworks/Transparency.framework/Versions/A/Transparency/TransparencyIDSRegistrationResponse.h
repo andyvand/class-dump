@@ -14,7 +14,7 @@
 + (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)_transferBehaviorUserPreferenceOverride;
 - (void);
 - (void);
 

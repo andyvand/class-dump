@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface WiFiUsageSessionPingPongStats
 {
     _Bool _pingPongSequenceIsLowRssiOnly;
-    _Bool _pingPongSequenceIsReassocOnly;
-    _Bool _pingPongSequenceIsReassocOrLowRSSIOnly;
-    unsigned long long _pingPongNth;
-    NSArray *_sequence;
 }
 
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -30,10 +24,6 @@
 
 // Remaining properties
 @property(nonatomic) unsigned long long pingPongNth; // @synthesize pingPongNth=_pingPongNth;
-@property(nonatomic) _Bool pingPongSequenceIsLowRssiOnly; // @synthesize pingPongSequenceIsLowRssiOnly=_pingPongSequenceIsLowRssiOnly;
-@property(nonatomic) _Bool pingPongSequenceIsReassocOnly; // @synthesize pingPongSequenceIsReassocOnly=_pingPongSequenceIsReassocOnly;
-@property(nonatomic) _Bool pingPongSequenceIsReassocOrLowRSSIOnly; // @synthesize pingPongSequenceIsReassocOrLowRSSIOnly=_pingPongSequenceIsReassocOrLowRSSIOnly;
-@property(retain, nonatomic) NSArray *sequence; // @synthesize sequence=_sequence;
 
 @end
 

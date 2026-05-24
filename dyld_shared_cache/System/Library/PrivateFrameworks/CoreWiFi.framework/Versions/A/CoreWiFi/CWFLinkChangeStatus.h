@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface CWFLinkChangeStatus
 {
     _Bool _linkDown;
-    _Bool _linkDownDebounceInProgress;
-    _Bool _involuntaryLinkDown;
-    int _reason;
-    NSDate *_timestamp;
-    NSString *_interfaceName;
-    long long _subreason;
-    long long _RSSI;
-    long long _noise;
-    unsigned long long _CCA;
 }
 
 + (_Bool);
@@ -27,39 +18,31 @@
 - (int);
 - (id);
 - (id);
-- (void);
+- (void)springboard;
 - (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
+- (_Bool);
+- (void);
+- (void);
+- (long long);
+- (void);
+- (id)�;
+- (void);
+- (void)ax read transfer
+;
+- (void);
 - (_Bool);
-- (void);
-- (void);
-- (long long);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
 - (long long);
 - (long long);
 - (void);
-- (void);
-- (void)senceMode;
+- (void)to set attachment with key:(id)arg1 %{public}@;
+- (void)AWDLPresenceMode;
 
 // Remaining properties
-@property(nonatomic) unsigned long long CCA; // @synthesize CCA=_CCA;
-@property(nonatomic) long long RSSI; // @synthesize RSSI=_RSSI;
-@property(copy, nonatomic) NSString *interfaceName; // @synthesize interfaceName=_interfaceName;
-@property(nonatomic, getter=isInvoluntaryLinkDown) _Bool involuntaryLinkDown; // @synthesize involuntaryLinkDown=_involuntaryLinkDown;
-@property(nonatomic, getter=isLinkDown) _Bool linkDown; // @synthesize linkDown=_linkDown;
-@property(nonatomic, getter=isLinkDownDebounceInProgress) _Bool linkDownDebounceInProgress; // @synthesize linkDownDebounceInProgress=_linkDownDebounceInProgress;
-@property(nonatomic) long long noise; // @synthesize noise=_noise;
-@property(nonatomic) int reason; // @synthesize reason=_reason;
-@property(nonatomic) long long subreason; // @synthesize subreason=_subreason;
 @property(copy, nonatomic) NSDate *timestamp; // @synthesize timestamp=_timestamp;
 
 @end

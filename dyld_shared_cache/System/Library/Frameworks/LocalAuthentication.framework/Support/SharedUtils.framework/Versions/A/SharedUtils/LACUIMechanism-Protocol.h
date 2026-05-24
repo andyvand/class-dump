@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol LACEvaluationRequest;
-
 @protocol LACUIMechanism
+- (_Bool)`%;
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int instanceId;
-@property(readonly, nonatomic) _Bool isRunning;
-@property(readonly, nonatomic) id <LACEvaluationRequest> request;
 @end
 

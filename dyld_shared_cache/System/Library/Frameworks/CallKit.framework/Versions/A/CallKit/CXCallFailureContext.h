@@ -9,22 +9,14 @@
 @interface CXCallFailureContext
 {
     _Bool _hasWiFiSettingsRemediation;
-    _Bool _hasCellularSettingsRemediation;
-    _Bool _hasDateAndTimeSettingsRemediation;
-    _Bool _hasLocationSettingsRemediation;
-    NSString *_title;
-    NSString *_message;
-    long long _failureReason;
-    long long _providerErrorCode;
-    long long _providerEndedReason;
 }
 
 + (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)u8(;
 - (void);
 - (void);
 - (void);
@@ -38,32 +30,17 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)al error from stop request:'%{public}@' /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)iaItemPropertyBitRate();
 - (void);
 - (long long);
 - (id);
 - (id);
-- (id);
+- (id)_DSID;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) long long failureReason; // @synthesize failureReason=_failureReason;
-@property(nonatomic) _Bool hasCellularSettingsRemediation; // @synthesize hasCellularSettingsRemediation=_hasCellularSettingsRemediation;
-@property(nonatomic) _Bool hasDateAndTimeSettingsRemediation; // @synthesize hasDateAndTimeSettingsRemediation=_hasDateAndTimeSettingsRemediation;
-@property(nonatomic) _Bool hasLocationSettingsRemediation; // @synthesize hasLocationSettingsRemediation=_hasLocationSettingsRemediation;
-@property(nonatomic) _Bool hasWiFiSettingsRemediation; // @synthesize hasWiFiSettingsRemediation=_hasWiFiSettingsRemediation;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *message; // @synthesize message=_message;
-@property(nonatomic) long long providerEndedReason; // @synthesize providerEndedReason=_providerEndedReason;
-@property(nonatomic) long long providerErrorCode; // @synthesize providerErrorCode=_providerErrorCode;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

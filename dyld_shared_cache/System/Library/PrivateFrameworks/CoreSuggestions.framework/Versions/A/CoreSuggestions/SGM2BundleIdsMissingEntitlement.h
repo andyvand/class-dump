@@ -9,8 +9,6 @@
 @interface SGM2BundleIdsMissingEntitlement
 {
     NSString *_bundleId;
-    NSString *_entitlement;
-    NSString *_key;
 }
 
 - (void);
@@ -18,7 +16,7 @@
 - (void);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)ut can't try again copy is NULL;
 - (id);
 - (id);
 - (_Bool);
@@ -27,19 +25,14 @@
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)localBirthdayCalendarCreateIfNeededWithError: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(retain, nonatomic) NSString *entitlement; // @synthesize entitlement=_entitlement;
-@property(readonly, nonatomic) _Bool hasBundleId;
-@property(readonly, nonatomic) _Bool hasEntitlement;
 @property(readonly, nonatomic) _Bool hasKey;
-@property(retain, nonatomic) NSString *key; // @synthesize key=_key;
 
 @end
 

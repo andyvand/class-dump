@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSData, NSString, _SFPBColor, _SFPBFlight;
+@class NSArray, NSData, NSString, _SFPBColor;
 
 @protocol _SFPBFlightCardSection
+- (NSString *);
+- (void);
+- (_Bool)incrementFailureCountForKeyWithIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)importArtistHeroImageForPersistentID:configuration:completion: /* Error: Ran out of types for this method. */;
+- (void)backlightStatusDidChange:(_SFPBColor *)arg1;
+- (NSData *)NSArray",&,N,V_blockedMemories;
 - (int);
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBColor *backgroundColor;
-@property(nonatomic) _Bool canBeHidden;
-@property(retain, nonatomic) _SFPBFlight *flight;
-@property(nonatomic) _Bool hasBottomPadding;
-@property(nonatomic) _Bool hasTopPadding;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSArray *punchoutOptions;
-@property(copy, nonatomic) NSString *punchoutPickerDismissText;
-@property(copy, nonatomic) NSString *punchoutPickerTitle;
-@property(nonatomic) unsigned int selectedLegIndex;
-@property(nonatomic) int separatorStyle;
-@property(copy, nonatomic) NSString *type;
 @end
 

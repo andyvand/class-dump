@@ -6,13 +6,12 @@
 
 #import <Vision/VNDetector.h>
 
-@class VisionCoreE5RTExecutionContext, VisionCoreE5RTInferenceFunctionDescriptor;
+@class VisionCoreE5RTInferenceFunctionDescriptor;
 
 __attribute__((visibility("hidden")))
 @interface VNE5RTBasedDetector : VNDetector
 {
     VisionCoreE5RTInferenceFunctionDescriptor *_functionDescriptor;
-    VisionCoreE5RTExecutionContext *_executionContext;
 }
 
 + (struct CGRect);
@@ -21,21 +20,21 @@ __attribute__((visibility("hidden")))
 + (id);
 + (id);
 + (unsigned long long);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
++ (id);
++ (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (void), leftHandJoints: /* Error: Ran out of types for this method. */;

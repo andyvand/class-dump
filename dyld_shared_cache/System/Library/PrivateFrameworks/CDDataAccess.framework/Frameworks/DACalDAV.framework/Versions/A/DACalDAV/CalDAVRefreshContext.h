@@ -4,27 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @interface CalDAVRefreshContext
 {
     _Bool _isForced;
-    _Bool _wasUserRequested;
-    _Bool _wasDueToPush;
-    _Bool _isPrincipalOnly;
-    _Bool _isCalendarsOnly;
-    _Bool _didDownloadEvents;
-    _Bool _didSaveDatabase;
-    _Bool _shouldSave;
-    _Bool _shouldSaveAccounts;
-    _Bool _calendarFailedToSync;
-    _Bool _shouldRetry;
-    int _retryTime;
-    double _startTime;
-    unsigned long long _numDownloadedElements;
-    unsigned long long _numUploadedElements;
-    NSError *_error;
-    unsigned long long _localItems;
 }
 
 + (id);
@@ -35,7 +17,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)	˟;
 - (void);
 - (void);
 - (void);
@@ -55,8 +37,8 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)PowerContext=QQQ}88Q112;
+- (id)_dataBlock;
 - (double);
 - (_Bool);
 - (void);
@@ -65,23 +47,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool calendarFailedToSync; // @synthesize calendarFailedToSync=_calendarFailedToSync;
-@property(nonatomic) _Bool didDownloadEvents; // @synthesize didDownloadEvents=_didDownloadEvents;
-@property(nonatomic) _Bool didSaveDatabase; // @synthesize didSaveDatabase=_didSaveDatabase;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(nonatomic) _Bool isCalendarsOnly; // @synthesize isCalendarsOnly=_isCalendarsOnly;
 @property(nonatomic) _Bool isForced; // @synthesize isForced=_isForced;
-@property(nonatomic) _Bool isPrincipalOnly; // @synthesize isPrincipalOnly=_isPrincipalOnly;
-@property(nonatomic) unsigned long long localItems; // @synthesize localItems=_localItems;
-@property(nonatomic) unsigned long long numDownloadedElements; // @synthesize numDownloadedElements=_numDownloadedElements;
-@property(nonatomic) unsigned long long numUploadedElements; // @synthesize numUploadedElements=_numUploadedElements;
-@property(nonatomic) int retryTime; // @synthesize retryTime=_retryTime;
-@property(nonatomic) _Bool shouldRetry; // @synthesize shouldRetry=_shouldRetry;
-@property(nonatomic) _Bool shouldSave; // @synthesize shouldSave=_shouldSave;
-@property(nonatomic) _Bool shouldSaveAccounts; // @synthesize shouldSaveAccounts=_shouldSaveAccounts;
-@property(nonatomic) double startTime; // @synthesize startTime=_startTime;
-@property(nonatomic) _Bool wasDueToPush; // @synthesize wasDueToPush=_wasDueToPush;
-@property(nonatomic) _Bool wasUserRequested; // @synthesize wasUserRequested=_wasUserRequested;
 
 @end
 

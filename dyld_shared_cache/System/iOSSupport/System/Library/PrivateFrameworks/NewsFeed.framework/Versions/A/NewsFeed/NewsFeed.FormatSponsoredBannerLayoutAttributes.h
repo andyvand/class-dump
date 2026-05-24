@@ -7,16 +7,6 @@
 @interface NewsFeed.FormatSponsoredBannerLayoutAttributes
 {
     id identifier;
-    id layoutIdentifier;
-    id nodeIdentifier;
-    id frame;
-    id resizing;
-    id zIndex;
-    id visibility;
-    id isUserInteractionEnabled;
-    id accessibilityRole;
-    id auxViewRequirements;
-    id style;
 }
 
 @end

@@ -6,28 +6,16 @@
 
 #import <AVConference/VCConnection.h>
 
-@class NSString, NSUUID;
-
 __attribute__((visibility("hidden")))
 @interface VCConnectionLegacy : VCConnection
 {
     unsigned int _type;
-    _Bool _waitToBeNominated;
-    struct tagCONNRESULT *_connectionResult;
-    _Bool isLocalDelegated;
-    _Bool isRemoteDelegated;
-    _Bool isVirtualRelayLink;
-    _Bool isLocalOn5G;
-    _Bool isRemoteOn5G;
-    _Bool p2pEncryptionExperimentEnabled;
-    unsigned short _relayChannelNumber;
-    int maxConnectionMTU;
 }
 
 - (_Bool);
 - (unsigned int);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int);
 - (unsigned short);
 - (void);
 - (void);
@@ -36,7 +24,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)1;
 - (void);
 - (id);
 - (unsigned short);
@@ -44,16 +32,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (int);
 - (_Bool);
+- (_Bool)yq;
+- (_Bool))1;
+- (_Bool)�;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
 - (id);
 - (unsigned int);
@@ -63,7 +51,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (int);
 - (id);
-- (_Bool);
+- (_Bool)1;
 - (void);
 - (id);
 - (unsigned int);
@@ -71,40 +59,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property int connectionMTU;
 @property(readonly) struct tagCONNRESULT *connectionResult; // @synthesize connectionResult=_connectionResult;
-@property(readonly) NSUUID *connectionUUID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property unsigned int downlinkBitrateCap;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isLocalDelegated; // @synthesize isLocalDelegated;
-@property(readonly) _Bool isLocalOn5G; // @synthesize isLocalOn5G;
-@property(readonly) _Bool isRemoteDelegated; // @synthesize isRemoteDelegated;
-@property(readonly) _Bool isRemoteOn5G; // @synthesize isRemoteOn5G;
-@property(readonly) _Bool isReplaceOnly;
-@property(readonly) _Bool isUpgraded;
-@property(readonly) _Bool isVPN;
-@property(readonly) _Bool isVirtualRelayLink; // @synthesize isVirtualRelayLink;
-@property(readonly) _Bool isWifiToWifi;
-@property(readonly) int localConnectionType;
-@property(readonly) NSString *localInterfaceName;
-@property(readonly) NSString *localInterfaceTypeString;
-@property int maxConnectionMTU; // @synthesize maxConnectionMTU;
-@property(getter=isP2PEncryptionExperimentEnabled) _Bool p2pEncryptionExperimentEnabled; // @synthesize p2pEncryptionExperimentEnabled;
-@property(readonly) unsigned short relayChannelNumber; // @synthesize relayChannelNumber=_relayChannelNumber;
-@property(readonly) int remoteConnectionType;
-@property(readonly) NSString *remoteInterfaceTypeString;
-@property(readonly) _Bool serverIsDegraded;
-@property(readonly) Class superclass;
-@property(readonly) unsigned int type; // @synthesize type=_type;
-@property unsigned int uplinkAudioBitrateCapOneToOne;
-@property unsigned int uplinkBitrateCap;
-@property unsigned int uplinkBitrateCapOneToOne;
-@property _Bool waitToBeNominated; // @synthesize waitToBeNominated=_waitToBeNominated;
 
 @end
 

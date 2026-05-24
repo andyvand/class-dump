@@ -9,9 +9,6 @@
 @protocol LSIconResourceProvider
 
 // Remaining properties
-@property(readonly) NSArray *decorations;
 @property(readonly) NSArray *resources;
-@property(readonly) _Bool selectedVariant;
-@property(readonly) _Bool templateVariant;
 @end
 

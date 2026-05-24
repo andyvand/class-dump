@@ -4,22 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LAContext, NSArray;
+@class NSArray;
 
 @interface LAAuthenticationMethodConfiguration
 {
     NSArray *_allowedUsers;
-    LAContext *_authenticationContext;
 }
 
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *allowedUsers; // @synthesize allowedUsers=_allowedUsers;
-@property(readonly, nonatomic) LAContext *authenticationContext; // @synthesize authenticationContext=_authenticationContext;
 
 @end
 

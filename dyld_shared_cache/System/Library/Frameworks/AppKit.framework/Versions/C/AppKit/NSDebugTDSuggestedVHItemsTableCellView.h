@@ -6,22 +6,18 @@
 
 #import <AppKit/NSTableCellView.h>
 
-@class NSTextField;
-
 __attribute__((visibility("hidden")))
 @interface NSDebugTDSuggestedVHItemsTableCellView : NSTableCellView
 {
     _Bool _heading;
-    NSTextField *_secondaryLabel;
-    NSTextField *_tertiaryLabel;
 }
 
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (id)ilter;
+- (void)typeWithMIMEType:(_Bool)arg1 conformingToType: /* Error: Ran out of types for this method. */;
+- (id)compositingFilter;
 - (id)¤®;
 - (_Bool)(;
 - (void)h+;
@@ -29,8 +25,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) _Bool heading; // @synthesize heading=_heading;
-@property(retain, nonatomic) NSTextField *secondaryLabel; // @synthesize secondaryLabel=_secondaryLabel;
-@property(retain, nonatomic) NSTextField *tertiaryLabel; // @synthesize tertiaryLabel=_tertiaryLabel;
 
 @end
 

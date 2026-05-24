@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMTSpan, NSArray;
+@class EMTSpan;
 
 @interface EMTAlignmentProcessorSpanResult
 {
     EMTSpan *_sourceSpan;
-    NSArray *_projections;
 }
 
 - (id);
@@ -18,7 +17,6 @@
 - (void)ôG;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *projections; // @synthesize projections=_projections;
 @property(readonly, nonatomic) EMTSpan *sourceSpan; // @synthesize sourceSpan=_sourceSpan;
 
 @end

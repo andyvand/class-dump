@@ -8,7 +8,7 @@
 {
 }
 
-- (void);
+- (void)d to get a valid XPC connection agent:(id)arg1 %llx;
 
 @end
 

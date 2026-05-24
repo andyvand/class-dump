@@ -9,19 +9,16 @@
 @interface USCategoryUsageReport
 {
     NSString *_categoryIdentifier;
-    double _totalUsageTime;
-    NSArray *_applicationUsage;
-    NSArray *_webUsage;
 }
 
 + (_Bool);
 - (id);
-- (double);
+- (double)=;
 - (void);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)uniDirectional;
 - (id);
 - (void);
 - (id);
@@ -29,9 +26,6 @@
 
 // Remaining properties
 @property(copy) NSArray *applicationUsage; // @synthesize applicationUsage=_applicationUsage;
-@property(readonly, copy) NSString *categoryIdentifier; // @synthesize categoryIdentifier=_categoryIdentifier;
-@property(readonly) double totalUsageTime; // @synthesize totalUsageTime=_totalUsageTime;
-@property(readonly, copy) NSArray *webUsage; // @synthesize webUsage=_webUsage;
 
 @end
 

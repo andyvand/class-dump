@@ -4,31 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCache, NSMapTable, NSMutableDictionary, NSObject, NSString, NSURL, NSURLCache, NSURLSession, NSURLSessionConfiguration;
-@protocol NSURLSessionDataDelegate, OS_dispatch_queue, OS_dispatch_source;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface MPAbstractNetworkArtworkDataSource
 {
     _Bool _usesFallbackCache;
-    NSURLSessionConfiguration *_URLSessionConfiguration;
-    NSURL *_videoArtworkCacheURL;
-    NSObject<OS_dispatch_queue> *_imageAccessQueue;
-    NSObject<OS_dispatch_queue> *_videoAccessQueue;
-    NSObject<OS_dispatch_queue> *_callbackQueue;
-    NSCache *_fallbackImageArtworkRepresentationCache;
-    NSMutableDictionary *_loadingContexts;
-    NSMapTable *_resourceLoaderStoragePolicyMap;
-    NSMutableDictionary *_videoTaskToCacheStoragePolicy;
-    NSMutableDictionary *_videoTaskToResourceLoadingRequest;
-    NSMutableDictionary *_videoTaskToData;
-    NSURLSession *_imageURLSession;
-    NSURLSession *_videoURLSession;
-    NSURLCache *_videoURLCache;
-    id <NSURLSessionDataDelegate> _URLSessionDataDelegateProxy;
-    NSObject<OS_dispatch_source> *_memoryPressureNotificationSource;
 }
 
-+ (void);
++ (void)T	;
 + (void);
 - (_Bool);
 - (id);
@@ -43,6 +27,7 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)R";
 - (void);
 - (void);
 - (void);
@@ -50,8 +35,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (id);
@@ -68,8 +52,8 @@
 - (struct CGSize);
 - (_Bool);
 - (_Bool);
-- (id);
-- (void);
+- (id)@;
+- (void)#;
 - (void);
 - (void);
 - (_Bool);
@@ -81,63 +65,40 @@
 - (id);
 - (id);
 - (struct CGSize);
+- (id)!;
+- (id);
+- (id);
+- (id);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)PDFDocumentPageChangeDelegate;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void)";
+- (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)NSInputAlignmentItem;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void)lPropertyMovieReleaseDate__MAPPING_MISSING__;
+- (void)__MPModelPropertyMovieReleaseDate__MAPPING_MISSING__;
 
 // Remaining properties
-@property(readonly, nonatomic) NSURLSessionConfiguration *URLSessionConfiguration; // @synthesize URLSessionConfiguration=_URLSessionConfiguration;
-@property(nonatomic) __weak id <NSURLSessionDataDelegate> URLSessionDataDelegateProxy; // @synthesize URLSessionDataDelegateProxy=_URLSessionDataDelegateProxy;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *callbackQueue; // @synthesize callbackQueue=_callbackQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSCache *fallbackImageArtworkRepresentationCache; // @synthesize fallbackImageArtworkRepresentationCache=_fallbackImageArtworkRepresentationCache;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *imageAccessQueue; // @synthesize imageAccessQueue=_imageAccessQueue;
-@property(retain, nonatomic) NSURLSession *imageURLSession; // @synthesize imageURLSession=_imageURLSession;
-@property(retain, nonatomic) NSMutableDictionary *loadingContexts; // @synthesize loadingContexts=_loadingContexts;
-@property(retain, nonatomic) NSObject<OS_dispatch_source> *memoryPressureNotificationSource; // @synthesize memoryPressureNotificationSource=_memoryPressureNotificationSource;
-@property(retain, nonatomic) NSMapTable *resourceLoaderStoragePolicyMap; // @synthesize resourceLoaderStoragePolicyMap=_resourceLoaderStoragePolicyMap;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool usesFallbackCache; // @synthesize usesFallbackCache=_usesFallbackCache;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *videoAccessQueue; // @synthesize videoAccessQueue=_videoAccessQueue;
-@property(retain, nonatomic) NSURL *videoArtworkCacheURL; // @synthesize videoArtworkCacheURL=_videoArtworkCacheURL;
-@property(retain, nonatomic) NSMutableDictionary *videoTaskToCacheStoragePolicy; // @synthesize videoTaskToCacheStoragePolicy=_videoTaskToCacheStoragePolicy;
-@property(retain, nonatomic) NSMutableDictionary *videoTaskToData; // @synthesize videoTaskToData=_videoTaskToData;
-@property(retain, nonatomic) NSMutableDictionary *videoTaskToResourceLoadingRequest; // @synthesize videoTaskToResourceLoadingRequest=_videoTaskToResourceLoadingRequest;
-@property(nonatomic) __weak NSURLCache *videoURLCache; // @synthesize videoURLCache=_videoURLCache;
-@property(retain, nonatomic) NSURLSession *videoURLSession; // @synthesize videoURLSession=_videoURLSession;
 
 @end
 

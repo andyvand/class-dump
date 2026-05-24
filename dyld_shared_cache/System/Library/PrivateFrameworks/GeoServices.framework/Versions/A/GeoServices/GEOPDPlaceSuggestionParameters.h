@@ -4,41 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDSearchEnrichmentRequestMetadata, GEOPDViewportInfo, NSMutableArray, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDPlaceSuggestionParameters
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_mapsCategoryIds;
-    GEOPDSearchEnrichmentRequestMetadata *_searchEnrichmentRequestMetadata;
-    NSMutableArray *_suggestedPlaceIds;
-    GEOPDViewportInfo *_viewportInfo;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _placeSummaryRevision;
-    struct {
-        unsigned int has_placeSummaryRevision:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_mapsCategoryIds:1;
-        unsigned int read_searchEnrichmentRequestMetadata:1;
-        unsigned int read_suggestedPlaceIds:1;
-        unsigned int read_viewportInfo:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)_isRecordRouteStudioDisplay;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)y=b6b64b14b4(?={?=b10b10b12}{?=b10b22}I)}{_GEORegionalResourceKey=b32b8b6b8b8b1b57}{_GEOSputnikMetadataKey=b32b24b14b8b42}{_GEOFlyoverKey=b6b26b26b8b24b14b8b8}{_GEOTransitLineSelectionKey=b6b25b25b64}{_GEOPolygonSelectionKey=b6b25b25b64}{_GEORoadSelectionKey=b6b25b25b64}{_GEOContourLinesKey=b6b26b26b4b8b50}{_GEOTileOverlayKey=b6b26b26b8b32b16b6}{_GEOIdentifiedResourceKey=QCCb1b39}{_GEOMuninMeshKey=b64b32b16b5b3}{_GEOS2TileKey=b6b26b26b3b14b4b4b37}{_GEOLiveTileKey=b6b26b26b14b4b4b4b36})}16^B24;
-- (id)LatlngRequest;
+- (id)_isLatlngRequest;
 - (id)À|~L;
 - (void);
 

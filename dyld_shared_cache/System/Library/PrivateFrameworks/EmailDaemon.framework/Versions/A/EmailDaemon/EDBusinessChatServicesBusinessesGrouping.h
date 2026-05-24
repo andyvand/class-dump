@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDBusinessPersistence, NSString;
+@class EDBusinessPersistence;
 
 @interface EDBusinessChatServicesBusinessesGrouping
 {
     EDBusinessPersistence *_businessPersistence;
-    unsigned long long _addressesChecked;
-    unsigned long long _addressesToCheck;
 }
 
 + (id)0@ù
@@ -22,21 +20,12 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void)4;
 - (id);
 - (void)messages_new(subject, fuzzy_ancestor);;
 
 // Remaining properties
-@property(nonatomic) unsigned long long addressesChecked; // @synthesize addressesChecked=_addressesChecked;
-@property(nonatomic) unsigned long long addressesToCheck; // @synthesize addressesToCheck=_addressesToCheck;
 @property(readonly, nonatomic) EDBusinessPersistence *businessPersistence; // @synthesize businessPersistence=_businessPersistence;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

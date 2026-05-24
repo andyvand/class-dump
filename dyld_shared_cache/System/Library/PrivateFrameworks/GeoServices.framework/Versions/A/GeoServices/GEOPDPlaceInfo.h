@@ -4,48 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEOPDBasemapRegionMetadata, GEOTimezone, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDPlaceInfo
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    double _area;
-    GEOPDBasemapRegionMetadata *_basemapRegionMetadata;
-    GEOLatLng *_center;
-    GEOLatLng *_enhancedCenter;
-    GEOLatLng *_labelPoint;
-    GEOTimezone *_timezone;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _knownAccuracy;
-    _Bool _isApproximateCenter;
-    struct {
-        unsigned int has_area:1;
-        unsigned int has_knownAccuracy:1;
-        unsigned int has_isApproximateCenter:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_basemapRegionMetadata:1;
-        unsigned int read_center:1;
-        unsigned int read_enhancedCenter:1;
-        unsigned int read_labelPoint:1;
-        unsigned int read_timezone:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (id);
 - (id);
 - (void);
-- (id);
+- (id)_handlePreparationForSession: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)has_tradingHours"b1"has_negateInferredValue"b1};
-- (id)initTransitLinesFlag;
+- (id)_initTransitLinesFlag;
 - (id)$U UhV8WôXpZX[à\L]¬];
 - (void);
 

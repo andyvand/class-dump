@@ -14,7 +14,7 @@
 }
 
 - (id);
-- (id);
+- (id)_fixZeroDurationPhotoIrisInStore:(id)arg1 failed:(id)arg2 %@ %@;
 - (_Bool);
 - (void)¿
 ¦

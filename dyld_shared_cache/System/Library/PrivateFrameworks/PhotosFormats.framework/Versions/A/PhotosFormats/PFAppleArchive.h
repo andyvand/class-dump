@@ -12,13 +12,13 @@
 }
 
 - (_Bool);
+- (_Bool)r;
+- (_Bool);
+- (_Bool)|];
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (void)_indexingDiagnosticsScheduler;
 - (_Bool);
 
 @end

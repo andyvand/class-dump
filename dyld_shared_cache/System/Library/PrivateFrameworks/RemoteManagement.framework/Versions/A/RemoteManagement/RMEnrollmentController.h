@@ -9,9 +9,6 @@
 @interface RMEnrollmentController
 {
     NSMutableDictionary *_connectionByServiceName;
-    _Bool _synchronous;
-    long long _enrollmentType;
-    long long _scope;
 }
 
 + (id);
@@ -46,8 +43,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long enrollmentType; // @synthesize enrollmentType=_enrollmentType;
-@property(readonly, nonatomic) long long scope; // @synthesize scope=_scope;
 @property(nonatomic, getter=isSynchronous) _Bool synchronous; // @synthesize synchronous=_synchronous;
 
 @end

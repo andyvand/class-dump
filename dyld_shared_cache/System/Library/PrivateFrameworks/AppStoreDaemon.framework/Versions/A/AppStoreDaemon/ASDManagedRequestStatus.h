@@ -4,38 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface ASDManagedRequestStatus
 {
     NSString *_bundleIdentifier;
-    NSString *_bundleVersion;
-    NSUUID *_requestIdentifier;
-    long long _state;
-    NSString *_title;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)BSInvalidatable>";
 - (id);
 - (void);
-- (long long);
+- (long long);
 - (void);
+- (void);
 - (void);
-- (void);
-- (id);
-- (id);
+- (id)IAPDebugCommandCompleteNotification;
+- (id)le.MSUDataAccessor;
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(retain) NSString *bundleVersion; // @synthesize bundleVersion=_bundleVersion;
-@property(retain) NSUUID *requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;
-@property long long state; // @synthesize state=_state;
-@property(retain) NSString *title; // @synthesize title=_title;
 
 @end
 

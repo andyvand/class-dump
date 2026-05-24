@@ -7,6 +7,7 @@
 @interface EnergyKitInternal.HomeEnergyXPCConnection
 {
     id connection;
+    id;
 }
 
 @end

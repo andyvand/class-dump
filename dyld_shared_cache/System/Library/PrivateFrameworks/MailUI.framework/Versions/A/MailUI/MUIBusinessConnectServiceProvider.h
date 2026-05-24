@@ -4,23 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BCSBusinessQueryService, EMMessageRepository;
+@class BCSBusinessQueryService;
 
 @interface MUIBusinessConnectServiceProvider
 {
     BCSBusinessQueryService *service;
-    EMMessageRepository *messageRepository;
 }
 
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
-- (void)ager: /* Error: Ran out of types for this method. */;
+- (id));
+- (void)linksSuggesterWithBundleID:messageRepository:senderQueryManager: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) EMMessageRepository *messageRepository; // @synthesize messageRepository;
 @property(nonatomic, readonly) BCSBusinessQueryService *service; // @synthesize service;
 
 @end

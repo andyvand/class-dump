@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSSet, NSString;
+@class NSDictionary;
 
 @interface WBSContactAutoFillSet
 {
     NSDictionary *_controlIDToValueMap;
-    NSString *_label;
-    NSArray *_fillDisplayProperties;
-    NSArray *_fillIdentifiers;
-    NSArray *_skipDisplayProperties;
-    NSSet *_propertiesToFillOrSkip;
 }
 
 + (id);
@@ -23,17 +18,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)q`%;
 - (id);
 - (void)ô;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDictionary *controlIDToValueMap; // @synthesize controlIDToValueMap=_controlIDToValueMap;
-@property(readonly, copy, nonatomic) NSArray *fillDisplayProperties; // @synthesize fillDisplayProperties=_fillDisplayProperties;
-@property(readonly, copy, nonatomic) NSArray *fillIdentifiers; // @synthesize fillIdentifiers=_fillIdentifiers;
-@property(readonly, copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, copy, nonatomic) NSSet *propertiesToFillOrSkip; // @synthesize propertiesToFillOrSkip=_propertiesToFillOrSkip;
-@property(readonly, copy, nonatomic) NSArray *skipDisplayProperties; // @synthesize skipDisplayProperties=_skipDisplayProperties;
 
 @end
 

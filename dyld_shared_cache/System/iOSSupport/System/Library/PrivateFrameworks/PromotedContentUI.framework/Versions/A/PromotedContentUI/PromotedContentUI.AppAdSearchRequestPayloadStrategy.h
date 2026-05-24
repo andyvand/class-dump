@@ -7,10 +7,6 @@
 @interface PromotedContentUI.AppAdSearchRequestPayloadStrategy
 {
     id idAccount;
-    id featureFlag;
-    id coreSettings;
-    id routingInfoProvider;
-    id requestBuilder;
 }
 
 @end

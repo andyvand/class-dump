@@ -9,22 +9,18 @@
 @interface MPPlaybackSessionCommandInfo
 {
     NSString *_identifier;
-    NSString *_revision;
-    long long _priority;
 }
 
-+ (id);
-- (unsigned long long);
++ (id)2CaseIterableP;
+- (unsigned long long)setFavoritesEmailAddresses: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
-- (void)NG_MISSING__;
+- (void)__MPModelPropertyRadioStationProviderUniversalLink__MAPPING_MISSING__;
 - (id)V_isStartItem;
-- (long long)CopyrightText;
+- (long long)MPModelPropertyAlbumCopyrightText;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) long long priority; // @synthesize priority=_priority;
-@property(readonly, copy, nonatomic) NSString *revision; // @synthesize revision=_revision;
 
 @end
 

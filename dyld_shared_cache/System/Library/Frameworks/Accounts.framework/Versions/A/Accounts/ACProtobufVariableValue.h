@@ -4,32 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACProtobufDate, ACProtobufURL, ACProtobufUUID, ACProtobufVariableValueDictionary, ACProtobufVariableValueList, NSData, NSString;
-
 __attribute__((visibility("hidden")))
 @interface ACProtobufVariableValue
 {
     double _doubleValue;
-    long long _integerValue;
-    unsigned long long _unsignedIntegerValue;
-    ACProtobufVariableValueList *_arrayValue;
-    NSData *_dataValue;
-    ACProtobufDate *_dateValue;
-    ACProtobufVariableValueDictionary *_dictionaryValue;
-    ACProtobufVariableValueList *_setValue;
-    NSString *_stringValue;
-    ACProtobufURL *_urlValue;
-    ACProtobufUUID *_uuidValue;
-    struct {
-        unsigned int doubleValue:1;
-        unsigned int integerValue:1;
-        unsigned int unsignedIntegerValue:1;
-    } _has;
 }
 
 - (id);
 - (id);
-- (id);
+- (id)	2;
 - (void);
 - (void);
 - (void);
@@ -44,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -57,7 +40,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (long long);
 - (void);
 - (_Bool);
@@ -66,42 +49,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)J;
 - (id);
 - (id);
 - (void);
-- (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)c}s10759711:Error #%d  %{public}s attempting to make send right on port %{public}s. /* Error: Ran out of types for this method. */;
+- (_Bool)extensionPointIdentifier;
+- (id)unknown%@%@>;
 - (void);
 - (unsigned long long);
-- (id)Block: /* Error: Ran out of types for this method. */;
+- (id)performWithinPersona:withBlock: /* Error: Ran out of types for this method. */;
 - (id)8@"NSDate"16;
 
 // Remaining properties
-@property(retain, nonatomic) ACProtobufVariableValueList *arrayValue; // @synthesize arrayValue=_arrayValue;
-@property(retain, nonatomic) NSData *dataValue; // @synthesize dataValue=_dataValue;
-@property(retain, nonatomic) ACProtobufDate *dateValue; // @synthesize dateValue=_dateValue;
-@property(retain, nonatomic) ACProtobufVariableValueDictionary *dictionaryValue; // @synthesize dictionaryValue=_dictionaryValue;
-@property(nonatomic) double doubleValue; // @synthesize doubleValue=_doubleValue;
-@property(readonly, nonatomic) _Bool hasArrayValue;
-@property(readonly, nonatomic) _Bool hasDataValue;
-@property(readonly, nonatomic) _Bool hasDateValue;
-@property(readonly, nonatomic) _Bool hasDictionaryValue;
-@property(nonatomic) _Bool hasDoubleValue;
-@property(nonatomic) _Bool hasIntegerValue;
-@property(readonly, nonatomic) _Bool hasSetValue;
-@property(readonly, nonatomic) _Bool hasStringValue;
-@property(nonatomic) _Bool hasUnsignedIntegerValue;
-@property(readonly, nonatomic) _Bool hasUrlValue;
-@property(readonly, nonatomic) _Bool hasUuidValue;
-@property(nonatomic) long long integerValue; // @synthesize integerValue=_integerValue;
 @property(retain, nonatomic) id object;
-@property(retain, nonatomic) ACProtobufVariableValueList *setValue; // @synthesize setValue=_setValue;
-@property(retain, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(nonatomic) unsigned long long unsignedIntegerValue; // @synthesize unsignedIntegerValue=_unsignedIntegerValue;
-@property(retain, nonatomic) ACProtobufURL *urlValue; // @synthesize urlValue=_urlValue;
-@property(retain, nonatomic) ACProtobufUUID *uuidValue; // @synthesize uuidValue=_uuidValue;
 
 @end
 

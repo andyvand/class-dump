@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSButton, NSMutableArray, NSTextField, NSView;
+@class NSView;
 @protocol PKPassPageDotViewDelegate><NSStackViewDelegate;
 
 @interface PKPassPageDotView
 {
     NSView *_enclosingView;
-    NSMutableArray *_dotButtons;
-    NSButton *_selectedButton;
-    NSTextField *_overflowLabel;
-    id <PKPassPageDotViewDelegate><NSStackViewDelegate> delegate;
 }
 
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (id);

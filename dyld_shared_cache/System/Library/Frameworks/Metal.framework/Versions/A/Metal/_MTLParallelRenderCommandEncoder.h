@@ -6,31 +6,11 @@
 
 #import <Metal/_MTLObjectWithLabel.h>
 
-@class MTLRenderPassDescriptor, NSMutableArray, NSString, _MTLCommandBuffer;
-@protocol MTLCommandBuffer, MTLCommandQueue, MTLDevice, MTLFence;
+@protocol MTLDevice;
 
 @interface _MTLParallelRenderCommandEncoder : _MTLObjectWithLabel
 {
     id <MTLDevice> _device;
-    id <MTLCommandQueue> _queue;
-    unsigned long long _globalTraceObjectID;
-    unsigned long long _labelTraceID;
-    _MTLCommandBuffer<MTLCommandBuffer> *_commandBuffer;
-    MTLRenderPassDescriptor *_renderPassDescriptor;
-    struct _opaque_pthread_mutex_t _lock;
-    unsigned long long _commandBuffersSize;
-    unsigned long long _commandBuffersCount;
-    id *_commandBuffers;
-    _Bool _retainedReferences;
-    _Bool _StatEnabled;
-    unsigned long long _numThisEncoder;
-    unsigned long long _StatOptions;
-    unsigned long long _StatLocations;
-    unsigned long long _numRequestedCounters;
-    unsigned long long _numCommands;
-    id <MTLFence> _progressFence;
-    _Bool _needsFrameworkAssistedErrorTracking;
-    NSMutableArray *_debugSignposts;
 }
 
 - (void);
@@ -56,25 +36,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)005B53414E5D005D;
 - (void);
 - (void);
 - (void);
-- (unsigned long long)DEX_EXTRACT_MTL_BVH_PRIMITIVE_NODES;
+- (unsigned long long)KERNEL_INDEX_EXTRACT_MTL_BVH_PRIMITIVE_NODES;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) id <MTLDevice> device; // @synthesize device=_device;
 @property(readonly) unsigned long long globalTraceObjectID; // @synthesize globalTraceObjectID=_globalTraceObjectID;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *label; // @dynamic label;
-@property unsigned long long numThisCommand; // @synthesize numThisCommand=_numCommands;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic, getter=getType) unsigned long long type; // @dynamic type;
 
 @end
 

@@ -10,24 +10,18 @@ __attribute__((visibility("hidden")))
 @interface LPAudioPlayButtonTheme
 {
     _Bool _useInvertedInactiveState;
-    NSColor *_keyColor;
-    NSColor *_secondaryColor;
-    NSColor *_outerBorderColor;
 }
 
 - (_Bool);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)le.private.psg.internal;
 - (void)1H1Â0@ù
 × ;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) NSColor *keyColor; // @synthesize keyColor=_keyColor;
-@property(readonly, retain, nonatomic) NSColor *outerBorderColor; // @synthesize outerBorderColor=_outerBorderColor;
-@property(readonly, retain, nonatomic) NSColor *secondaryColor; // @synthesize secondaryColor=_secondaryColor;
-@property(readonly, nonatomic) _Bool useInvertedInactiveState; // @synthesize useInvertedInactiveState=_useInvertedInactiveState;
 
 @end
 

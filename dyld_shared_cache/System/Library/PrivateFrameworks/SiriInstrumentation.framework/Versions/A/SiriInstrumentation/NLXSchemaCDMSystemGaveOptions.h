@@ -6,7 +6,7 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
+@class NSArray;
 
 @interface NLXSchemaCDMSystemGaveOptions : SISchemaInstrumentationMessage
 {
@@ -22,20 +22,19 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)X509_load_cert_file;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)P;
 - (id)
 × ;
 - (id)Rejected;
-- (id)Seq: /* Error: Ran out of types for this method. */;
+- (id)setSeq: /* Error: Ran out of types for this method. */;
 - (void)TTSSchemaTTSClientEvent;
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *choices; // @synthesize choices=_choices;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

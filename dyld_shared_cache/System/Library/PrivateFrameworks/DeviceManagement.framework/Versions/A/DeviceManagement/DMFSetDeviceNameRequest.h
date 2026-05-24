@@ -13,15 +13,15 @@
     NSString *_name;
 }
 
-+ (_Bool);
++ (_Bool);
 + (_Bool);
 + (_Bool);
 + (id);
 - (id);
 - (id);
+- (void)/;
 - (void);
-- (void);
-- (void);
+- (void)collectionView:pasteboardWriterForItemAtIndexPath: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *name; // @synthesize name=_name;

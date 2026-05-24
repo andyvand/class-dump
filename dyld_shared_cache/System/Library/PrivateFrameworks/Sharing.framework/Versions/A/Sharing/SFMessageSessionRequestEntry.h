@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface SFMessageSessionRequestEntry
 {
     _Bool _allowUnencrypted;
-    CDUnknownBlockType _handler;
-    NSDictionary *_options;
 }
 
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)(;
 - (void);
 - (CDUnknownBlockType);
 - (void);
 
 // Remaining properties
 @property(nonatomic) _Bool allowUnencrypted; // @synthesize allowUnencrypted=_allowUnencrypted;
-@property(copy, nonatomic) CDUnknownBlockType handler; // @synthesize handler=_handler;
-@property(copy, nonatomic) NSDictionary *options; // @synthesize options=_options;
 
 @end
 

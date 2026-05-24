@@ -14,7 +14,7 @@
 
 + (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -22,9 +22,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDate *date;
-@property(nonatomic) int nanos; // @dynamic nanos;
-@property(nonatomic) long long seconds; // @dynamic seconds;
-@property(nonatomic) double timeIntervalSince1970;
 
 @end
 

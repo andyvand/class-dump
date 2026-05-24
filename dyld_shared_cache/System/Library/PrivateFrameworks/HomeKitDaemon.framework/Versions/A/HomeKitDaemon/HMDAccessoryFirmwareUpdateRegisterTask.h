@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (_Bool);
 - (_Bool);
-- (id)WakeOnConnectionStateChangeNotification;
+- (id)HMDHomeThreadNetworkWakeOnConnectionStateChangeNotification;
 - (void)DQ;
 
 @end

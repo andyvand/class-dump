@@ -9,7 +9,6 @@
 @interface MDLVertexDescriptor
 {
     NSMutableArray *_attributes;
-    NSMutableArray *_layouts;
 }
 
 + (id);
@@ -27,19 +26,18 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)ackground Scan:%{public}@, Force:%{public}@ /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (id);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *attributes; // @synthesize attributes=_attributes;
-@property(retain, nonatomic) NSMutableArray *layouts; // @synthesize layouts=_layouts;
 
 @end
 

@@ -11,9 +11,9 @@
 + (_Bool);
 + (Class);
 + (Class);
-+ (long long)tTypeAtIndex: /* Error: Ran out of types for this method. */;
++ (long long)payloadWellnessUnitTypeAtIndex: /* Error: Ran out of types for this method. */;
 - (id);
-- (id)ResolveObjectReferenceIntent;
+- (id)_INPBResolveObjectReferenceIntent;
 
 @end
 

@@ -9,7 +9,6 @@
 @interface PTParameterRecordLeaf
 {
     NSString *_recordClassName;
-    id _changedValue;
 }
 
 + (_Bool);
@@ -17,16 +16,15 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)F;
+- (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)VNFaceGazeDetectorProcessOption_GazeHeatMapThreshold;
 - (void);
 - (id);
-- (void);
+- (void)dsAuthMethodStandard:dsAuthNodeNativeCanUseClearText /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) id changedValue; // @synthesize changedValue=_changedValue;
 @property(copy, nonatomic) NSString *recordClassName; // @synthesize recordClassName=_recordClassName;
 
 @end

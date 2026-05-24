@@ -16,7 +16,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)rk/Versions/A/SharedUtils;
 - (void)lag=%@ reason=%@>;
 
 // Remaining properties

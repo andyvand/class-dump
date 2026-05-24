@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PEGASUSSchemaPEGASUSWebAnswerThumbnailTier1 : SISchemaInstrumentationMessage
 {
     NSString *_imageUrl;
-    NSString *_touchIcon;
-    NSString *_favIcon;
-    _Bool _hasImageUrl;
-    _Bool _hasTouchIcon;
-    _Bool _hasFavIcon;
 }
 
 - (id);
@@ -38,22 +33,16 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)range for message GUID %@ with zeroed message range;
 - (id);
 - (id)
 × ;
-- (id)sAssetAvailabilityStatus;
+- (id)_hasGmsAssetAvailabilityStatus;
 - (id)SchemaUSOGraph",&,N,V_usoQuery;
-- (void)terance;
+- (void)commandUtterance;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *favIcon; // @synthesize favIcon=_favIcon;
-@property(nonatomic) _Bool hasFavIcon; // @synthesize hasFavIcon=_hasFavIcon;
-@property(nonatomic) _Bool hasImageUrl; // @synthesize hasImageUrl=_hasImageUrl;
-@property(nonatomic) _Bool hasTouchIcon; // @synthesize hasTouchIcon=_hasTouchIcon;
 @property(copy, nonatomic) NSString *imageUrl; // @synthesize imageUrl=_imageUrl;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSString *touchIcon; // @synthesize touchIcon=_touchIcon;
 
 @end
 

@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSFileHandle, NSObject, NSURL, UARPAssetID, UARPSandboxExtension;
-@protocol OS_os_log;
+@class NSURL, UARPAssetID;
 
 @interface UARPAsset
 {
     NSURL *_url;
-    NSFileHandle *_filehandle;
-    NSObject<OS_os_log> *_log;
-    long long _onceToken;
-    UARPSandboxExtension *_sandboxExtension;
-    UARPAssetID *_id;
-    NSData *_data;
 }
 
+- (_Bool)}};
 - (_Bool);
-- (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)}};
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
+- (id)MRSendCommandMessageProtobuf",R,C,N;
+- (id)P;
 - (_Bool);
 - (id);
 - (void);
-- (id):(id)arg1;
+- (id)initTmapDatabaseWithPlist:(id)arg1;
 
 // Remaining properties
-@property(readonly) NSData *data; // @synthesize data=_data;
-@property(readonly) unsigned long long fileLength;
 @property(readonly) UARPAssetID *id; // @synthesize id=_id;
 
 @end

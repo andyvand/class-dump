@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, PKAutoFillCardCredential, PKAutoFillCardDescriptor, PKVirtualCard;
-
 @interface WBSCreditCardData
 {
     _Bool _promptToSaveSecurityCode;
-    NSString *_cardName;
-    NSString *_cardholderName;
-    NSString *_cardNumber;
-    NSDate *_expirationDate;
-    NSDate *_lastUsedDate;
-    NSString *_cardSecurityCode;
-    PKAutoFillCardDescriptor *_cardDescriptor;
-    PKAutoFillCardCredential *_cardCredential;
-    PKVirtualCard *_virtualCard;
 }
 
 + (_Bool);

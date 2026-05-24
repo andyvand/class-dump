@@ -4,22 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
-
 @interface ECIMAPCopyInfo
 {
     unsigned int _uidValidity;
-    NSDictionary *_sourceUIDsToDestinationUIDs;
 }
 
-- (id);
+- (id)height does not match the given contentTabsPresentationHeight.;
 - (void);
 - (void);
 - (unsigned int);
-- (void);
+- (void)setDefaultDASession: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *sourceUIDsToDestinationUIDs; // @synthesize sourceUIDsToDestinationUIDs=_sourceUIDsToDestinationUIDs;
 @property(nonatomic) unsigned int uidValidity; // @synthesize uidValidity=_uidValidity;
 
 @end

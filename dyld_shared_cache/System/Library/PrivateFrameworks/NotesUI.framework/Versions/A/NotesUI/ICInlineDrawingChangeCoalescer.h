@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICAttachment, ICSelectorDelayer, NSManagedObjectContext, PKDrawing;
+@class ICAttachment;
 
 @interface ICInlineDrawingChangeCoalescer
 {
     ICAttachment *_attachment;
-    ICSelectorDelayer *_processChangesSelectorDelayer;
-    PKDrawing *_latestDrawing;
-    unsigned long long _numberOfChanges;
-    NSManagedObjectContext *_workerContext;
-    NSManagedObjectContext *_mainContext;
-    NSManagedObjectContext *_handwritingRecognitionContext;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -37,20 +31,14 @@
 - (void);
 - (id);
 - (void);
+- (id);
+- (void),U;
 - (id);
-- (void);
-- (id);
-- (void)esInSource;
+- (void)_nonCallNotesInSource;
 - (_Bool)e;
 
 // Remaining properties
 @property(retain, nonatomic) ICAttachment *attachment; // @synthesize attachment=_attachment;
-@property(retain, nonatomic) NSManagedObjectContext *handwritingRecognitionContext; // @synthesize handwritingRecognitionContext=_handwritingRecognitionContext;
-@property(retain, nonatomic) PKDrawing *latestDrawing; // @synthesize latestDrawing=_latestDrawing;
-@property(retain, nonatomic) NSManagedObjectContext *mainContext; // @synthesize mainContext=_mainContext;
-@property(nonatomic) unsigned long long numberOfChanges; // @synthesize numberOfChanges=_numberOfChanges;
-@property(retain, nonatomic) ICSelectorDelayer *processChangesSelectorDelayer; // @synthesize processChangesSelectorDelayer=_processChangesSelectorDelayer;
-@property(retain, nonatomic) NSManagedObjectContext *workerContext; // @synthesize workerContext=_workerContext;
 
 @end
 

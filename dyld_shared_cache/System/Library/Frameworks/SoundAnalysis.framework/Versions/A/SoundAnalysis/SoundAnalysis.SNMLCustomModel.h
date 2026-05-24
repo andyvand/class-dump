@@ -7,7 +7,6 @@
 @interface SoundAnalysis.SNMLCustomModel
 {
     id customModel;
-    id modelDescription;
 }
 
 @end

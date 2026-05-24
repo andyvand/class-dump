@@ -12,7 +12,7 @@
 {
 }
 
-+ (id);
++ (id);
 + (id);
 - (void);
 - (id);
@@ -23,7 +23,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *phrase;
-@property(copy, nonatomic) NSString *pronunciation;
 
 @end
 

@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSTimeZone;
-
 @interface EKOfficeHour
 {
     _Bool _enabled;
-    long long _weekday;
-    NSDate *_startTime;
-    NSDate *_endTime;
-    NSTimeZone *_timeZone;
 }
 
 - (id);
-- (void);
+- (void)#;
 - (long long);
-- (id);
+- (id)A;
 - (void);
 - (void);
 - (id);
@@ -32,10 +26,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(retain, nonatomic) NSDate *endTime; // @synthesize endTime=_endTime;
-@property(retain, nonatomic) NSDate *startTime; // @synthesize startTime=_startTime;
-@property(retain, nonatomic) NSTimeZone *timeZone; // @synthesize timeZone=_timeZone;
-@property(nonatomic) long long weekday; // @synthesize weekday=_weekday;
 
 @end
 

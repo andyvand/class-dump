@@ -6,7 +6,7 @@
 
 #import <Network/NWHostEndpoint.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface NWAddressEndpoint : NWHostEndpoint
 {
@@ -14,21 +14,17 @@
 
 + (unsigned int);
 + (id);
-+ (id);
++ (id)x(|;
 - (id);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)(;
 - (const struct sockaddr *);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) const struct sockaddr *address;
-@property(readonly, nonatomic) NSData *addressData;
-@property(readonly, nonatomic) unsigned long long addressFamily;
 @property(readonly, nonatomic) NSString *addressString;
-@property(readonly, nonatomic) NSString *addressStringNoPort;
 
 @end
 

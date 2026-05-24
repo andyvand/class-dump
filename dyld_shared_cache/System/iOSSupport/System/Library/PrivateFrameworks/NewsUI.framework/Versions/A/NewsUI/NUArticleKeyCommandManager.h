@@ -4,33 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIScrollView;
+@class UIScrollView;
 
 @interface NUArticleKeyCommandManager
 {
     _Bool _hasBeenTraversed;
-    UIScrollView *_scrollView;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasBeenTraversed; // @synthesize hasBeenTraversed=_hasBeenTraversed;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) __weak UIScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,13 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTabBarItem;
+@class NSArray, NSTabBarItem;
 
 @protocol NSVisualTabPickerDelegate
+- (NSArray *);
+- (struct CGRect)c;
 - (void)x;
 - (void)em);
-- (void)umnResizeThumb;
-- (struct CGRect)earchResultElement;
+- (void)NSColumnResizeThumb;
+- (struct CGRect)AXSearchResultElement;
 - (NSTabBarItem *)ventLoopMode, Boolean, EventRef *)_block_invoke;
 - (void)framework/TextInputUI;
 - (void)d7hL;

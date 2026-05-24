@@ -13,7 +13,7 @@
 
 - (id);
 - (id);
-- (void);
+- (void)Priv;
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *suggestions; // @synthesize suggestions=_suggestions;

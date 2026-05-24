@@ -7,7 +7,6 @@
 @interface HMBCloudZoneConfiguration
 {
     _Bool _shouldRebuildOnManateeKeyLoss;
-    _Bool _shouldSkipCloudPulls;
 }
 
 - (_Bool);
@@ -17,12 +16,11 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)eleting orphan dir [%{public}@];
+- (id)}{CGSize=dd}}16;
 
 // Remaining properties
 @property _Bool shouldRebuildOnManateeKeyLoss; // @synthesize shouldRebuildOnManateeKeyLoss=_shouldRebuildOnManateeKeyLoss;
-@property _Bool shouldSkipCloudPulls; // @synthesize shouldSkipCloudPulls=_shouldSkipCloudPulls;
 
 @end
 

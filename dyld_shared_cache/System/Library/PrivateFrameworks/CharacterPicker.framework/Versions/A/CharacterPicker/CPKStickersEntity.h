@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAdaptiveImageGlyph, NSString, STKAnimatedImage, STKImageGlyph;
+@class NSAdaptiveImageGlyph;
 
 __attribute__((visibility("hidden")))
 @interface CPKStickersEntity
 {
     NSAdaptiveImageGlyph *_adaptiveImageGlyph;
-    NSString *_identifier;
-    struct CGImage *_inlineTextAttachment;
-    STKAnimatedImage *_animatedImage;
-    STKImageGlyph *_imageGlyph;
 }
 
 - (id);
@@ -26,12 +22,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (unsigned int);
+- (unsigned int)`;
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)-;
+- (id)Multiple ticks specified for value %f;
 - (id);
 - (_Bool);
 - (double);
@@ -47,17 +43,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSAdaptiveImageGlyph *adaptiveImageGlyph; // @synthesize adaptiveImageGlyph=_adaptiveImageGlyph;
-@property(retain, nonatomic) STKAnimatedImage *animatedImage; // @synthesize animatedImage=_animatedImage;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) STKImageGlyph *imageGlyph; // @synthesize imageGlyph=_imageGlyph;
-@property(nonatomic) struct CGImage *inlineTextAttachment; // @synthesize inlineTextAttachment=_inlineTextAttachment;
-@property(readonly) Class superclass;
 
 @end
 

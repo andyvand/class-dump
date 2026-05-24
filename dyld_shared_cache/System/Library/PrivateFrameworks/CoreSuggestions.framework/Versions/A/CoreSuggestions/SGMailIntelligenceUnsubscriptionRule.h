@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface SGMailIntelligenceUnsubscriptionRule
 {
     long long _unsubscriptionRuleField;
-    NSString *_value;
-    NSNumber *_mailCount;
-    NSNumber *_score;
 }
 
 + (id);
@@ -24,15 +19,12 @@
 - (id);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)`;
+- (id)eworks/WebKit.framework/Versions/A/Frameworks/WebKitLegacy.framework/Versions/A/WebKitLegacy;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSNumber *mailCount; // @synthesize mailCount=_mailCount;
-@property(readonly, nonatomic) NSNumber *score; // @synthesize score=_score;
 @property(readonly, nonatomic) long long unsubscriptionRuleField; // @synthesize unsubscriptionRuleField=_unsubscriptionRuleField;
-@property(readonly, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

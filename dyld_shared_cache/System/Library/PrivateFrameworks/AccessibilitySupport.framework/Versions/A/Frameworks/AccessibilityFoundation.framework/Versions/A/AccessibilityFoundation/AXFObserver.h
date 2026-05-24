@@ -6,20 +6,17 @@
 
 #import <AccessibilityFoundation/AXFTargetSelector.h>
 
-@class AXFUIElement, NSDictionary, NSOperationQueue, NSString;
+@class AXFUIElement, NSString;
 
 @interface AXFObserver : AXFTargetSelector
 {
     NSString *_name;
-    AXFUIElement *_element;
-    NSDictionary *_userInfo;
-    NSOperationQueue *__callbackQueue;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -28,14 +25,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)Provide AVInfo Failed;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSOperationQueue *_callbackQueue; // @synthesize _callbackQueue=__callbackQueue;
 @property(copy, nonatomic) AXFUIElement *element; // @synthesize element=_element;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

@@ -9,11 +9,10 @@
 @interface ACDEventLedger
 {
     char *_crashInfoString;
-    NSMutableArray *_eventLedger;
 }
 
 + (id);
-- (void);
+- (void)h no email address.;
 - (void);
 - (id);
 - (void);

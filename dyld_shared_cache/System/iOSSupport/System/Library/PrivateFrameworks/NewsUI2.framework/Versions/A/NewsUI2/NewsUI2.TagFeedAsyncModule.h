@@ -7,8 +7,6 @@
 @interface NewsUI2.TagFeedAsyncModule
 {
     id resolver;
-    id viewControllerFactory;
-    id offlineManager;
 }
 
 @end

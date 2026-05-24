@@ -11,9 +11,9 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)observableAtIndex:(id)arg1 didCompleteForObserver:(id)arg2;
+- (void)isExtendedGreenTeaDevice;
+- (void)isEqualToString:(CDUnknownBlockType)arg1;
 
 @end
 

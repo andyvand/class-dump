@@ -4,6 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CKConversation, CKSearchController, CKSpotlightQueryResult, NSArray, NSString, UICollectionViewCell, UIView, UIViewController;
+@protocol CKGradientReferenceView, CKSearchResultCell;
+
 @protocol CKSearchControllerDelegate
+- (_Bool)?<v@?B>36;
+- (NSArray *)removeAttribute:(CKSearchController *)arg1 ifInconsistentAtLocation:inTextStorage:forNewTypingAttributes: /* Error: Ran out of types for this method. */;
+- (void)queueLabel;
+- (void)queryForSharedNotes:(CKSearchController *)arg1 allowsRecentlyDeleted:(UIViewController *)arg2;
+- (void)queryForMathNotesAllowsRecentlyDeleted:(CKSearchController *)arg1;
+- (void)queryForCallNotesAllowsRecentlyDeleted:(CKSearchController *)arg1;
+- (NSArray *)punctuationCharacterSet;
+- (CKConversation *)promptForIntent:(CKSearchController *)arg1 object:(NSString *)arg2;
+- (struct UIEdgeInsets)ic_firstConstraintWithAttribute:(CKSearchController *)arg1;
+- (void);
+- (UIView<CKGradientReferenceView> *)h;
+- (UICollectionViewCell<CKSearchResultCell> *)et thumbnail {accountId:(CKSearchController *)arg1 %s, noteId:(CKSpotlightQueryResult *)arg2 %s, url:%s} /* Error: Ran out of types for this method. */;
+
+@optional
+- (NSArray *)setContentSizeWidthConstraint:(CKSearchController *)arg1;
+- (void)_TtC7NotesUIP33_D37299C035145D658E3B6DC04AF9ADBF19ResourceBundleClass;
+- (void);
 @end
 

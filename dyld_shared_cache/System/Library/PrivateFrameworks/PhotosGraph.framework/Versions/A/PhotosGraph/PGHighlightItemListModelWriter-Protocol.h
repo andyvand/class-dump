@@ -5,5 +5,7 @@
 //
 
 @protocol PGHighlightItemListModelWriter
+- (void)accessibilitySelectedAXFTextRange;
+- (void)__applicationCache;
 @end
 

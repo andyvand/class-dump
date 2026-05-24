@@ -4,37 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSDictionary;
 
 @interface SSRemoteNotification
 {
     NSDictionary *_userInfo;
 }
 
+- (id);
+- (id);
+- (id);
+- (id)[�h;
+- (id);
+- (id)љ;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (long long);
+- (long long);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long actionType;
-@property(readonly, nonatomic) NSString *alertBodyString;
-@property(readonly, nonatomic) NSString *alertCancelString;
-@property(readonly, nonatomic) NSString *alertOKString;
-@property(readonly, nonatomic) NSString *alertTitleString;
-@property(readonly, nonatomic) id badgeValue;
 @property(readonly, nonatomic) NSDictionary *notificationUserInfo;
-@property(readonly, nonatomic) NSString *soundFileName;
-@property(readonly, nonatomic) NSNumber *targetDSID;
 
 @end
 

@@ -7,12 +7,12 @@
 @class HMDBackingStoreModelObject, NSArray, NSUUID;
 
 @protocol HMDBackingStoreModelBackedObjectProtocol
-- (NSArray *)lerUserName:(unsigned long long)arg1 error:(long long)arg2;
-- (NSUUID *)es;
+- (NSArray *)_selectArchiveWithIdentifier:(unsigned long long)arg1 archive:(long long)arg2 controllerUserName:error: /* Error: Ran out of types for this method. */;
+- (NSUUID *)_containsRecurrences;
 - (HMDBackingStoreModelObject *)not create another one. :(unsigned long long)arg1 %@;
 - (Class)t to update Event Trigger %@ / %@;
 - (NSArray *)ownerNodeID %@;
-- (NSUUID *)pportsNativeMatter;
+- (NSUUID *)supportsNativeMatter;
 
 @optional
 - (_Bool)0@ù
@@ -20,7 +20,5 @@
 
 // Remaining properties
 @property(readonly) Class modelClass;
-@property(readonly, copy, nonatomic) NSUUID *modelIdentifier;
-@property(readonly, copy, nonatomic) NSUUID *modelParentIdentifier;
 @end
 

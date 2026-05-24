@@ -16,10 +16,10 @@ __attribute__((visibility("hidden")))
 
 - (_Bool);
 - (id);
+- (id)SignpostOverrunChecking;
 - (id);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)H;
+- (unsigned long long);
 - (void);
 
 @end

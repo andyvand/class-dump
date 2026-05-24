@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol AFAnnouncementRequestCapabilityProviding;
+
 @protocol AFAnnouncementRequestCapabilityProvidingDelegate
+- (void)decimalNumberByMultiplyingByPowerOf10:(id <AFAnnouncementRequestCapabilityProviding>)arg1 withBehavior:(unsigned long long)arg2;
 @end
 

@@ -10,11 +10,11 @@
 {
 }
 
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (id)ybackQueueResolution;
+- (id)MPCPlayerDirectionForward;
+- (id)own/%ld;
+- (_Bool)rsonalizationResponse"8@"NSError"16;
+- (void)ifier:(id)arg1 completion:] /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol _NSDatePickerOverlayPanelDelegate
+- (void);
 @end
 

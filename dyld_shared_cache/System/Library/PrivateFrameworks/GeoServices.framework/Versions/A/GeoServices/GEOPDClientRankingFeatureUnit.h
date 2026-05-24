@@ -4,43 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDClientRankingFeatureFunctionTypeDiscrete, GEOPDClientRankingFeatureFunctionTypeLinear, GEOPDClientRankingFeatureTypeResult, GEOPDClientRankingFeatureTypeSource, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDClientRankingFeatureUnit
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDClientRankingFeatureTypeResult *_featureTypeResult;
-    GEOPDClientRankingFeatureTypeSource *_featureTypeSource;
-    GEOPDClientRankingFeatureFunctionTypeDiscrete *_functionTypeDiscrete;
-    GEOPDClientRankingFeatureFunctionTypeLinear *_functionTypeLinear;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _featureType;
-    int _functionType;
-    struct {
-        unsigned int has_featureType:1;
-        unsigned int has_functionType:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_featureTypeResult:1;
-        unsigned int read_featureTypeSource:1;
-        unsigned int read_functionTypeDiscrete:1;
-        unsigned int read_functionTypeLinear:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)enabledPolicyWithTapAudioSource;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)wnFields"b1"read_imageInfo"b1"read_imageUrl"b1"read_place"b1"read_providerImageId"b1"wrote_anyField"b1};
-- (id)imer;
+- (id)_clearTimer;
 - (id)@ää;
 - (void)ðÿÿÿîÿÿÿçÿÿÿåÿÿÿóÿÿÿïÿÿÿãÿÿÿèÿÿÿÜÿÿÿÿÿÿÿ×ÿÿÿÿÿÿÿÍÿÿÿÿÿÿÿËÿÿÿÿÿÿÿÔÿÿÿÿÿÿÿÝÿÿÿÿÿÿÿÐÿÿÿÿÿÿÿÒÿÿÿÿÿÿÿßÿÿÿÿÿÿÿÊÿÿÿÿÿÿÿùÿÿÿøÿÿÿðÿÿÿïÿÿÿÚÿÿÿÿÿÿÿàÿÿÿÿÿÿÿÙÿÿÿÿÿÿÿÌÿÿÿÿÿÿÿÓÿÿÿÿÿÿÿÕÿÿÿÿÿÿÿØÿÿÿÿÿÿÿ×ÿÿÿÿÿÿÿÛÿÿÿÿÿÿÿÖÿÿÿÿÿÿÿÚÿÿÿÿÿÿÿßÿÿÿÿÿÿÿìÿÿÿîÿÿÿäÿÿÿòÿÿÿãÿÿÿêÿÿÿðÿÿÿëÿÿÿÿÿÿÿÿÿÿ;
 

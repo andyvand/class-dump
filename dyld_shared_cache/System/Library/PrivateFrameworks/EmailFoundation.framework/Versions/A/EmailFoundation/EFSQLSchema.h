@@ -11,9 +11,9 @@
     NSDictionary *_tablesByName;
 }
 
+- (id)s label:(id)arg1 %@;
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

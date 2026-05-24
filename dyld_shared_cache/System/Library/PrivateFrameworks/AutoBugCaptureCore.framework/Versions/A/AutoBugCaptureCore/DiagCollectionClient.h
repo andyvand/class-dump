@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface DiagCollectionClient
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSString *destinationDirectory;
 }
 
 - (void);
 - (unsigned int);
-- (id);
+- (id)B;
 - (id);
 - (id);
 - (void);

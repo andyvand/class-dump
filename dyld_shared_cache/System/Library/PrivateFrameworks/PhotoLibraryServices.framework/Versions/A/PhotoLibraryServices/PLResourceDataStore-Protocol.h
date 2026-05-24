@@ -5,7 +5,14 @@
 //
 
 @protocol PLResourceDataStore
-- (id)lesInStore:deferHintChanges: /* Error: Ran out of types for this method. */;
++ (id);
++ (unsigned int :(null))uld not find scene_tags.json in bundle;
+- (unsigned int :(null));
+- (id);
+- (id)+9;
+- (id)J
+;
+- (id)_fixIncorrectThumbnailTablesInStore:deferHintChanges: /* Error: Ran out of types for this method. */;
 - (id)ÀL
 ÜQôQDS;
 - (id)lid Collection Share Kind:%d /* Error: Ran out of types for this method. */;

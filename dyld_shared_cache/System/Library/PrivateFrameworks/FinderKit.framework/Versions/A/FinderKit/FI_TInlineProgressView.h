@@ -6,20 +6,18 @@
 
 #import <FinderKit/FI_TUpdateLayerView.h>
 
-@class FI_TPieChartProgressLayer, NSImageView, NSString;
+@class FI_TPieChartProgressLayer;
 
 __attribute__((visibility("hidden")))
 @interface FI_TInlineProgressView : FI_TUpdateLayerView
 {
     FI_TPieChartProgressLayer *_pieChartLayer;
-    NSImageView *_templateImageView;
-    _Bool _dimmed;
 }
 
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)setContainsSmartMailbox: /* Error: Ran out of types for this method. */;
+- (id)setContainsDraftsOrOutbox: /* Error: Ran out of types for this method. */;
 - (void);
 - (struct CGSize);
 - (void);
@@ -30,23 +28,13 @@ __attribute__((visibility("hidden")))
 × ;
 - (double)0@ù
 × ;
-- (void)didatesForSelectedRange:(double)arg1;
+- (void)textField:(double)arg1 textView:candidatesForSelectedRange: /* Error: Ran out of types for this method. */;
 - (void)tandard error with node '%@' and OSStatus '%@': /* Error: Ran out of types for this method. */;
 - (void);
 - (void)ð0;
 
 // Remaining properties
-@property(readonly, nonatomic) double animationDuration;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic, getter=isDimmed) _Bool dimmed; // @synthesize dimmed=_dimmed;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isProgressAnimationCompleted;
-@property(nonatomic) double progress;
-@property(readonly) Class superclass;
 
 @end
 

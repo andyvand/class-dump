@@ -9,19 +9,17 @@
 @interface STRegulatoryContentPrivacyRestrictionsPolicy
 {
     _Bool _topLevelRestrictionsForcedToEnabled;
-    STUIPolicyMessageInfo *_guardianSignInReason;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (id);
+- (_Bool)eed_url, artwork_url, store_xid, store_flavor, store_matched_status, store_redownloaded_status, store_link_id, reserved, vpp_is_licensed, vpp_org_id, vpp_org_name, IFNULL(sync_redownload_params, '') FROM item_store;
+- (void)T NULL DEFAULT 0, key_versions INTEGER NOT NULL DEFAULT 0, key_platform_id INTEGER NOT NULL DEFAULT 0, key_id INTEGER NOT NULL DEFAULT 0, key_id_2 INTEGER NOT NULL DEFAULT 0, date_purchased INTEGER NOT NULL DEFAULT 0, date_released INTEGER NOT NULL DEFAULT 0, external_guid TEXT, feed_url TEXT, artwork_url TEXT, store_xid TEXT, store_flavor TEXT, store_matched_status INTEGER NOT NULL DEFAULT 0, store_redownloaded_status INTEGER NOT NULL DEFAULT 0, store_link_id INTEGER NOT NULL DEFAULT 0, extras_url TEXT NOT NULL DEFAULT '', vpp_is_licensed INTEGER NOT NULL DEFAULT 0, vpp_org_id INTEGER NOT NULL DEFAULT 0, vpp_org_name TEXT NOT NULL DEFAULT '', sync_redownload_params TEXT NOT NULL DEFAULT '');
+- (void)k_token TEXT NOT NULL DEFAULT '', representative_item_pid INTEGER NOT NULL DEFAULT 0, representative_item_artwork_token TEXT NOT NULL DEFAULT '', keep_local INTEGER NOT NULL DEFAULT 0, keep_local_status INTEGER NOT NULL DEFAULT 0);
+- (id)ry_redownload_params, '') != '' AND purchase_history_id != 0 THEN 100 ELSE 0 END) END) END) FROM item_store WHERE item_store.item_pid = item.item_pid);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain) STUIPolicyMessageInfo *guardianSignInReason; // @synthesize guardianSignInReason=_guardianSignInReason;
-@property _Bool topLevelRestrictionsForcedToEnabled; // @synthesize topLevelRestrictionsForcedToEnabled=_topLevelRestrictionsForcedToEnabled;
 
 @end
 

@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKEvent, NSString;
+@class EKEvent;
 
 @interface EKUIInviteesViewAvailabilitySection
 {
     _Bool _isForAttendeeProposedTime;
-    _Bool _checked;
-    CDUnknownBlockType _viewAvailabilityTapped;
-    EKEvent *_event;
-    NSString *_cachedCellReuseIdentifier;
-    CDUnknownBlockType _tableViewCellHook;
-    NSString *_cachedAvailabilityCellReuseIdentifier;
-    NSString *_cachedConflictCellReuseIdentifier;
-    unsigned long long _reuseIdentifierVersion;
 }
 
 - (CDUnknownBlockType);
@@ -24,26 +16,26 @@
 - (CDUnknownBlockType);
 - (_Bool);
 - (void);
+- (void)s;
+- (void)%s;
+- (void)&s;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (unsigned long long);
+- (void)%s;
 - (void);
 - (_Bool);
+- (unsigned long long);
+- (void);
+- (_Bool)%s;
 - (double);
 - (double);
 - (long long);
 - (id);
-- (void);
-- (id);
+- (void)X%s;
+- (id)s;
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
+- (id)X%s;
+- (id)s;
 - (id);
 - (id);
 - (void);
@@ -54,27 +46,12 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void)meStringForResult:usingTimeZone: /* Error: Ran out of types for this method. */;
+- (void)timeStringForResult:usingTimeZone: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *cachedAvailabilityCellReuseIdentifier; // @synthesize cachedAvailabilityCellReuseIdentifier=_cachedAvailabilityCellReuseIdentifier;
-@property(retain, nonatomic) NSString *cachedCellReuseIdentifier; // @synthesize cachedCellReuseIdentifier=_cachedCellReuseIdentifier;
-@property(retain, nonatomic) NSString *cachedConflictCellReuseIdentifier; // @synthesize cachedConflictCellReuseIdentifier=_cachedConflictCellReuseIdentifier;
-@property(nonatomic) _Bool checked; // @synthesize checked=_checked;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(retain, nonatomic) EKEvent *event; // @synthesize event=_event;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isForAttendeeProposedTime; // @synthesize isForAttendeeProposedTime=_isForAttendeeProposedTime;
-@property(nonatomic) unsigned long long reuseIdentifierVersion; // @synthesize reuseIdentifierVersion=_reuseIdentifierVersion;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) CDUnknownBlockType tableViewCellHook; // @synthesize tableViewCellHook=_tableViewCellHook;
-@property(copy, nonatomic) CDUnknownBlockType viewAvailabilityTapped; // @synthesize viewAvailabilityTapped=_viewAvailabilityTapped;
 
 @end
 

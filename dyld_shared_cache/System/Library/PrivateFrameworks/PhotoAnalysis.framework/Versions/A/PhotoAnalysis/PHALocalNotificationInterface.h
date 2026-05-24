@@ -13,7 +13,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)R;
 
 // Remaining properties
 @property _Bool isNotificationRegistered; // @synthesize isNotificationRegistered=_isNotificationRegistered;

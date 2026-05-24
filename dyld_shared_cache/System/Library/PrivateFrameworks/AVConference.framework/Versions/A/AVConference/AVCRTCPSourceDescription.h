@@ -6,12 +6,9 @@
 
 #import <AVConference/AVCRTCPPacket.h>
 
-@class NSString;
-
 @interface AVCRTCPSourceDescription : AVCRTCPPacket
 {
     unsigned char _type;
-    NSString *_text;
 }
 
 - (id);
@@ -20,10 +17,9 @@
 - (id);
 - (unsigned char);
 - (void);
-- (void)ce;
+- (void)_videoCaptureSource;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *text; // @synthesize text=_text;
 @property(nonatomic) unsigned char type; // @synthesize type=_type;
 
 @end

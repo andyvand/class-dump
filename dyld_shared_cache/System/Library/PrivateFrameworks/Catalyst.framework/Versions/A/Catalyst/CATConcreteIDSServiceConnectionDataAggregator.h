@@ -4,28 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableIndexSet, NSObject;
-@protocol CATIDSServiceConnectionDataAggregatorDelegate, CATTimer, CATTimerSource, OS_dispatch_queue;
+@class NSObject;
+@protocol CATIDSServiceConnectionDataAggregatorDelegate, OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface CATConcreteIDSServiceConnectionDataAggregator
 {
     NSObject<OS_dispatch_queue> *mWorkQueue;
-    id <CATTimerSource> mTimerSource;
-    double mMissingItemInterval;
-    _Bool mSupportsSequenceCorrection;
-    NSMutableDictionary *mAggregationsByDataNumber;
-    unsigned long long mNextDeploymentNumber;
-    unsigned long long mNextExpectedSequenceNumber;
-    unsigned long long mGreatestExpectedSequenceNumber;
-    NSMutableIndexSet *mPendingSequenceNumbers;
-    id <CATTimer> mMissingContentTimer;
-    id <CATIDSServiceConnectionDataAggregatorDelegate> _delegate;
 }
 
 + (id);
 - (void);
-- (void);
+- (void);
 - (unsigned long long);
 - (void);
 - (void);
@@ -41,7 +31,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak id <CATIDSServiceConnectionDataAggregatorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, nonatomic) unsigned long long receivedSequenceNumber;
 
 @end
 

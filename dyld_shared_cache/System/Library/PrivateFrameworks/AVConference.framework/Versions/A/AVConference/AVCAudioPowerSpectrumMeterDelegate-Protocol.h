@@ -5,5 +5,10 @@
 //
 
 @protocol AVCAudioPowerSpectrumMeterDelegate
+
+@optional
+- (void);
+- (void)<;
+- (void);
 @end
 

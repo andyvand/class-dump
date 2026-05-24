@@ -5,5 +5,8 @@
 //
 
 @protocol SXFullscreenCanvasShowable
+
+@optional
+- (_Bool);
 @end
 

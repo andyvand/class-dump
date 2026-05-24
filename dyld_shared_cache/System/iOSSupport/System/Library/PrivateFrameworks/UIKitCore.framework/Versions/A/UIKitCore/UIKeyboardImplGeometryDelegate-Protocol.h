@@ -6,8 +6,9 @@
 
 @protocol UIKeyboardImplGeometryDelegate
 - (_Bool);
+- (_Bool);
 - (void)4;
-- (void)nse:(double)arg1 fromDataSource:(_Bool)arg2;
+- (void)uiWebView:(double)arg1 resource:(_Bool)arg2 willSendRequest:redirectResponse:fromDataSource: /* Error: Ran out of types for this method. */;
 - (_Bool)$;
 
 // Remaining properties

@@ -15,11 +15,11 @@
 
 + (_Bool);
 - (id);
-- (id);
+- (id)_pendingControllers;
 - (unsigned long long);
-- (_Bool);
-- (void);
-- (void)ortIncident:withCompletion: /* Error: Ran out of types for this method. */;
+- (_Bool)arrayByAddingObject:(id)arg1;
+- (void)elable:(id)arg1 true } ));;
+- (void)provideStartTimeOptionsCollectionForReportIncident:withCompletion: /* Error: Ran out of types for this method. */;
 - (id)X®äÿeO¶;
 
 // Remaining properties

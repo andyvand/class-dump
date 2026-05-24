@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNComposeRecipient, NSMutableSet, NSString;
+@class CNComposeRecipient;
 
 @interface CNSuggestedRecipientItem
 {
     _Bool _isSelected;
-    CNComposeRecipient *_recipient;
-    NSString *_title;
-    NSMutableSet *_handles;
 }
 
 + (id);
@@ -21,22 +18,19 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)`;
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)backgroundSessionForFetchConfig:(id)arg1 delegateReference: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)A;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *handles; // @synthesize handles=_handles;
-@property(nonatomic) _Bool isSelected; // @synthesize isSelected=_isSelected;
 @property(retain, nonatomic) CNComposeRecipient *recipient; // @synthesize recipient=_recipient;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

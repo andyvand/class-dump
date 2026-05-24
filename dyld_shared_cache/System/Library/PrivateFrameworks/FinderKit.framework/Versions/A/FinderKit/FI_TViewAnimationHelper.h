@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface FI_TViewAnimationHelper : FI_TAnimationDelegate
 {
     struct TNSWeakPtr<NSView> _weakView;
-    _Bool _origWantsLayers;
 }
 
 + (id);
@@ -21,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void)Ì;
-- (void)redI17TSizeGroupManagerJRKN13TGroupManager7OptionsEEENS_10shared_ptrIT_EEDpOT0_E19MakeInstanceEnablerNS_9allocatorISD_EEEE;
+- (void)NSt3__120__shared_ptr_emplaceIZL10MakeSharedI17TSizeGroupManagerJRKN13TGroupManager7OptionsEEENS_10shared_ptrIT_EEDpOT0_E19MakeInstanceEnablerNS_9allocatorISD_EEEE;
 - (void)0shared_ptrIT_EEDpOT0_E19MakeInstanceEnabler;
 
 // Remaining properties

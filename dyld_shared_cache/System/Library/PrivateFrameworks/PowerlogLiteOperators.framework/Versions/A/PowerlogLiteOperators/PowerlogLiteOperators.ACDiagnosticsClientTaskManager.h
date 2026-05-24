@@ -7,7 +7,6 @@
 @interface PowerlogLiteOperators.ACDiagnosticsClientTaskManager
 {
     id $defaultActor;
-    id isExecuting;
 }
 
 @end

@@ -4,47 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKLookAroundContainerView, MKLookAroundView, MKMapItem, MKPhotoBigAttributionView, MKPlaceAttributionCell, NSArray, NSLayoutConstraint, NSString, UIButton, UIImageView, UIScrollView, UIView, _MKPlaceViewController;
-@protocol MKPlaceCardPhotosControllerDelegate><MKPlaceCardActionControllerDelegate, _MKInfoCardAnalyticsDelegate;
+@class UIView;
 
 @interface MKPlacePhotosViewController
 {
     UIView *_bottomHairline;
-    UIImageView *_imageViewForTransition;
-    MKPhotoBigAttributionView *_primaryAttributionView;
-    MKPhotoBigAttributionView *_secondaryAttributionView;
-    NSArray *_photoViews;
-    UIScrollView *_photosContainerScrollView;
-    UIView *_photosContainer;
-    UIView *_photosSmallAttributionsView;
-    UIView *_attributionClippingview;
-    double _lastPhotoScrollOffset;
-    _Bool _photoScrollViewScrollingLeft;
-    _Bool _photoScrollViewScrollingRight;
-    _Bool _canUseFullscreenViewer;
-    _Bool _photoLoaded;
-    _Bool _loadAppImageCanceledOrFailed;
-    _Bool _isRTL;
-    unsigned long long _photosCount;
-    UIView *_externalView;
-    MKMapItem *_mapItem;
-    NSLayoutConstraint *_heightConstraint;
-    NSLayoutConstraint *_bottomConstraint;
-    NSArray *_photos;
-    unsigned long long _mode;
-    unsigned long long _originalMode;
-    unsigned long long _options;
-    MKPlaceAttributionCell *_attributionCell;
-    UIButton *_previousPageButton;
-    UIButton *_nextPageButton;
-    MKLookAroundContainerView *_lookAroundContainerView;
-    UIScrollView *_parentScrollView;
-    unsigned long long _initialAppearanceSignpostID;
-    _Bool _isDisappearing;
-    _Bool _showsBottomHairline;
-    _Bool _hoverActive;
-    _MKPlaceViewController *_owner;
-    id <MKPlaceCardPhotosControllerDelegate><MKPlaceCardActionControllerDelegate> _photosControllerDelegate;
 }
 
 - (void);
@@ -61,10 +25,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)h"@9;
 - (struct CGSize);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (id);
@@ -80,10 +44,10 @@
 - (_Bool);
 - (id);
 - (void);
+- (void)�(;
+- (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)`_;
 - (void);
 - (struct CGSize);
 - (struct CGSize);
@@ -94,45 +58,29 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void);
+- (id)qA;
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)_progressPollingInterval;
+- (void)So29IMDMessageRecordExporterStateCSg;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)ormPrimaryActionForItemAtIndexPath: /* Error: Ran out of types for this method. */;
+- (void)collectionView:performPrimaryActionForItemAtIndexPath: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) id <_MKInfoCardAnalyticsDelegate> analyticsDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hoverActive; // @synthesize hoverActive=_hoverActive;
-@property(readonly, nonatomic) _Bool isCompactMode;
 @property(readonly, nonatomic) _Bool isFirstParty;
-@property(readonly, nonatomic) MKLookAroundView *lookAroundView;
-@property(readonly, nonatomic) unsigned long long numberOfBigAttributionViews;
-@property(nonatomic) __weak _MKPlaceViewController *owner; // @synthesize owner=_owner;
-@property(nonatomic) __weak id <MKPlaceCardPhotosControllerDelegate><MKPlaceCardActionControllerDelegate> photosControllerDelegate; // @synthesize photosControllerDelegate=_photosControllerDelegate;
-@property(readonly, nonatomic) _Bool shouldShowAddPhotoButtons;
-@property(nonatomic) _Bool showsBottomHairline; // @synthesize showsBottomHairline=_showsBottomHairline;
-@property(readonly) Class superclass;
 
 @end
 

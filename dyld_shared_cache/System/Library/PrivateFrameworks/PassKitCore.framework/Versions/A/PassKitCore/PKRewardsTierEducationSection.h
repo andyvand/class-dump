@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PKRewardsTierEducationSection
 {
     unsigned long long _tier;
-    NSString *_localizedTitle;
-    NSString *_localizedSubtitle;
 }
 
 + (_Bool);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
-- (void);
+- (void)_locatorPeerAddress;
 - (id);
 - (void)Date:%@,  /* Error: Ran out of types for this method. */;
-- (id)nDemo;
+- (id)ApplePayUserEducationDemo;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *localizedSubtitle; // @synthesize localizedSubtitle=_localizedSubtitle;
-@property(readonly, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
 @property(readonly, nonatomic) unsigned long long tier; // @synthesize tier=_tier;
 
 @end

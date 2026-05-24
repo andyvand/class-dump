@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMHomeManager, NSMutableDictionary, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class HMHomeManager, NSString;
 
 @interface ICHomeManager
 {
     HMHomeManager *_homeManager;
-    NSUUID *_currentAccessoryIdentifier;
-    _Bool _homeManagerIsReady;
-    struct os_unfair_lock_s _lock;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableDictionary *_cachedProperties;
 }
 
 + (id);
@@ -31,19 +25,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (void)ük0m`|;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSString *homeOwnerAltDSID;
-@property(readonly, copy, nonatomic) NSString *preferredMediaUserAltDSID;
-@property(readonly) Class superclass;
 
 @end
 

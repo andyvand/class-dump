@@ -7,6 +7,7 @@
 @class NSDate;
 
 @protocol FCNetworkTransitionMonitor
+- (NSDate *)#;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSDate *dateOfLastTransition;

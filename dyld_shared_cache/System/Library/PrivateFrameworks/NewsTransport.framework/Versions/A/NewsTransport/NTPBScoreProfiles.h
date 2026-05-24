@@ -9,30 +9,26 @@
 @interface NTPBScoreProfiles
 {
     NTPBScoreProfile *_defaultScoreProfile;
-    NTPBScoreProfile *_forYouGroupScoreProfile;
 }
 
+- (void)enableSlideshowAction;
+- (void)effectiveUserInterfaceLayoutDirection;
+- (_Bool)configureWithDisplayResourceIndex:resourcesDataSource: /* Error: Ran out of types for this method. */;
+- (_Bool)composabilityScoreForSegmentWithDisplayAssets: /* Error: Ran out of types for this method. */;
+- (id)cloudSharedAlbumInvitationRecordsWithAlbumGUID:inLibrary: /* Error: Ran out of types for this method. */;
+- (id)childViewControllers;
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
 - (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)lling:,V_isScrolling /* Error: Ran out of types for this method. */;
+- (_Bool)ation:(id)arg1 presentInLocation:relocateToLocation:] /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NTPBScoreProfile *defaultScoreProfile; // @synthesize defaultScoreProfile=_defaultScoreProfile;
-@property(retain, nonatomic) NTPBScoreProfile *forYouGroupScoreProfile; // @synthesize forYouGroupScoreProfile=_forYouGroupScoreProfile;
 @property(readonly, nonatomic) _Bool hasDefaultScoreProfile;
-@property(readonly, nonatomic) _Bool hasForYouGroupScoreProfile;
 
 @end
 

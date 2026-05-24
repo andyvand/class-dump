@@ -6,26 +6,24 @@
 
 #import <PassKitCore/PKPaymentCredential.h>
 
-@class NSExtension, PKIssuerProvisioningExtensionPaymentPassEntry;
+@class NSExtension;
 
 @interface PKPaymentIssuerProvisioningExtensionCredential : PKPaymentCredential
 {
     NSExtension *_extension;
-    PKIssuerProvisioningExtensionPaymentPassEntry *_entry;
 }
 
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)v;
 - (unsigned long long);
-- (_Bool);
-- (id);
+- (_Bool)setHeapTotalMax:(id)arg1;
+- (id)AWDCoreRoutineModelVisitCount;
 - (id)complete for %@:%@ -- delivering pass /* Error: Ran out of types for this method. */;
 - (void)];
 
 // Remaining properties
-@property(readonly, nonatomic) PKIssuerProvisioningExtensionPaymentPassEntry *entry; // @synthesize entry=_entry;
 @property(readonly, nonatomic) NSExtension *extension; // @synthesize extension=_extension;
 
 @end

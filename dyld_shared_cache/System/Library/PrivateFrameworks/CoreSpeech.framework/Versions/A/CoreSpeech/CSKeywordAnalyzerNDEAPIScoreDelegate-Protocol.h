@@ -5,5 +5,8 @@
 //
 
 @protocol CSKeywordAnalyzerNDEAPIScoreDelegate
+
+@optional
+- (void);
 @end
 

@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface NETSchemaNETNetworkConnectionStateReadySnapshotCaptured : SISchemaInstrumentationMessage
 {
     NSString *_connectionInfo;
-    unsigned int _connectionEstablishmentPreviousAttemptCount;
-    unsigned int _connectionEstablishmentAttemptDelay;
-    struct {
-        unsigned int connectionEstablishmentPreviousAttemptCount:1;
-        unsigned int connectionEstablishmentAttemptDelay:1;
-    } _has;
-    _Bool _hasConnectionInfo;
 }
 
 - (void);
@@ -26,17 +19,17 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)=;
 - (unsigned int);
 - (unsigned int);
 - (id);
 - (id);
-- (void);
+- (void)ional-organizations;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
@@ -45,16 +38,10 @@
 × ;
 - (id)B,N,V_hasKeyboardLocale;
 - (id)erimentTuples",&,N,V_tuples;
-- (void)aGRRClientEvent;
+- (void)GRRSchemaGRRClientEvent;
 
 // Remaining properties
-@property(nonatomic) unsigned int connectionEstablishmentAttemptDelay; // @synthesize connectionEstablishmentAttemptDelay=_connectionEstablishmentAttemptDelay;
-@property(nonatomic) unsigned int connectionEstablishmentPreviousAttemptCount; // @synthesize connectionEstablishmentPreviousAttemptCount=_connectionEstablishmentPreviousAttemptCount;
 @property(copy, nonatomic) NSString *connectionInfo; // @synthesize connectionInfo=_connectionInfo;
-@property(nonatomic) _Bool hasConnectionEstablishmentAttemptDelay;
-@property(nonatomic) _Bool hasConnectionEstablishmentPreviousAttemptCount;
-@property(nonatomic) _Bool hasConnectionInfo; // @synthesize hasConnectionInfo=_hasConnectionInfo;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

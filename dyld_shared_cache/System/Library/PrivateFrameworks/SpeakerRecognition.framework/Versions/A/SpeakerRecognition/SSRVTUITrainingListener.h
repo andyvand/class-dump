@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, NSXPCConnection, NSXPCListener, SSRVTUITrainingMessageHandler;
-@protocol OS_dispatch_queue;
+@class NSXPCListener;
 
 @interface SSRVTUITrainingListener
 {
     NSXPCListener *_listener;
-    NSXPCConnection *_activeConnection;
-    NSObject<OS_dispatch_queue> *_queue;
-    SSRVTUITrainingMessageHandler *_messageHandler;
 }
 
 - (void);
@@ -29,17 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSXPCConnection *activeConnection; // @synthesize activeConnection=_activeConnection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(retain, nonatomic) SSRVTUITrainingMessageHandler *messageHandler; // @synthesize messageHandler=_messageHandler;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

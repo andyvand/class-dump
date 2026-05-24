@@ -4,30 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, NSURL, PKDistribution, PKDistributionContainer;
+@class NSURL;
 
 @interface PKProduct
 {
     int _minTrustLevel;
-    int _evaluatedTrustLevel;
-    NSArray *_certificateChain;
-    struct __SecTrust *_trustRef;
-    _Bool _allowExpiredCerts;
-    _Bool _allowExpiredRoots;
 }
 
 + (void);
 + (_Bool);
 + (id);
 + (id);
-+ (_Bool);
-- (int);
-- (id);
++ (_Bool)c;
+- (int)9;
+- (id)#;
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -36,22 +31,16 @@
 - (id);
 - (_Bool);
 - (id);
-- (id);
+- (id)
+;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id)eSrcAttributesKey;
+- (id)PKCoreShoveSrcAttributesKey;
 
 // Remaining properties
 @property(readonly) NSURL *URL;
-@property(readonly) NSArray *allPackageReferences;
-@property(readonly) PKDistribution *distribution;
-@property(readonly) PKDistributionContainer *distributionContainer;
-@property(readonly) NSString *productIdentifier;
-@property(readonly) NSString *productType;
-@property(readonly) NSString *productVersion;
-@property(readonly) NSDictionary *stringsDictionary;
 
 @end
 

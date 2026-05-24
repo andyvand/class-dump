@@ -7,9 +7,9 @@
 @class _INPBCallMetricsValue;
 
 @protocol _INPBCallMetrics
+- (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasValue;
 @property(retain, nonatomic) _INPBCallMetricsValue *value;
 @end
 

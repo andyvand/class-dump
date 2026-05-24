@@ -4,29 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SafariWebExtension;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface BackgroundLoadConfiguration
 {
     _Bool _allowAccessToKeychain;
-    _Bool _allowRemoteInspection;
-    _Bool _includeToolbars;
-    _Bool _cancelExistingLoadsWithSameURL;
-    _Bool _setUpParentTabBackItem;
-    _Bool _canAttemptUpgradingRequestURLToHTTPS;
-    NSString *_httpReferrer;
-    long long _copySessionState;
-    SafariWebExtension *_webExtension;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -35,21 +27,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)K;
 - (_Bool);
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool allowAccessToKeychain; // @synthesize allowAccessToKeychain=_allowAccessToKeychain;
-@property(nonatomic) _Bool allowRemoteInspection; // @synthesize allowRemoteInspection=_allowRemoteInspection;
-@property(nonatomic) _Bool canAttemptUpgradingRequestURLToHTTPS; // @synthesize canAttemptUpgradingRequestURLToHTTPS=_canAttemptUpgradingRequestURLToHTTPS;
-@property(nonatomic) _Bool cancelExistingLoadsWithSameURL; // @synthesize cancelExistingLoadsWithSameURL=_cancelExistingLoadsWithSameURL;
-@property(nonatomic) long long copySessionState; // @synthesize copySessionState=_copySessionState;
 @property(copy, nonatomic) NSString *httpReferrer; // @synthesize httpReferrer=_httpReferrer;
-@property(nonatomic) _Bool includeToolbars; // @synthesize includeToolbars=_includeToolbars;
-@property(nonatomic) _Bool setUpParentTabBackItem; // @synthesize setUpParentTabBackItem=_setUpParentTabBackItem;
-@property(retain, nonatomic) SafariWebExtension *webExtension; // @synthesize webExtension=_webExtension;
 
 @end
 

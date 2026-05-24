@@ -6,22 +6,14 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface IFTSchemaIFTCandidatePromptStatus : SISchemaInstrumentationMessage
 {
     _Bool _notPrompted;
-    _Bool _confirmed;
-    long long _picked;
-    _Bool _hasNotPrompted;
-    _Bool _hasConfirmed;
-    _Bool _hasPicked;
-    unsigned long long _whichOneof_Candidatepromptstatus;
 }
 
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (_Bool);
 - (_Bool);
@@ -47,14 +39,7 @@
 - (id)Ì;
 
 // Remaining properties
-@property(nonatomic) _Bool confirmed; // @synthesize confirmed=_confirmed;
-@property(nonatomic) _Bool hasConfirmed; // @synthesize hasConfirmed=_hasConfirmed;
-@property(nonatomic) _Bool hasNotPrompted; // @synthesize hasNotPrompted=_hasNotPrompted;
-@property(nonatomic) _Bool hasPicked; // @synthesize hasPicked=_hasPicked;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) _Bool notPrompted; // @synthesize notPrompted=_notPrompted;
-@property(nonatomic) long long picked; // @synthesize picked=_picked;
-@property(readonly, nonatomic) unsigned long long whichOneof_Candidatepromptstatus; // @synthesize whichOneof_Candidatepromptstatus=_whichOneof_Candidatepromptstatus;
 
 @end
 

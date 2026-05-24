@@ -6,28 +6,21 @@
 
 #import <AVConference/VCMediaNegotiatorCommonConfiguration.h>
 
-@class NSMutableSet, NSSet;
-
 __attribute__((visibility("hidden")))
 @interface VCMediaNegotiatorAudioConfiguration : VCMediaNegotiatorCommonConfiguration
 {
     _Bool _allowAudioSwitching;
-    _Bool _allowAudioRecording;
-    _Bool _useSBR;
-    unsigned int _audioUnitNumber;
-    NSMutableSet *_audioPayloads;
-    NSMutableSet *_secondaryPayloads;
 }
 
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)R6;
+- (void)R?;
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -38,11 +31,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool allowAudioRecording; // @synthesize allowAudioRecording=_allowAudioRecording;
 @property(nonatomic) _Bool allowAudioSwitching; // @synthesize allowAudioSwitching=_allowAudioSwitching;
-@property(readonly, nonatomic) NSSet *audioPayloads; // @synthesize audioPayloads=_audioPayloads;
-@property(nonatomic) unsigned int audioUnitNumber; // @synthesize audioUnitNumber=_audioUnitNumber;
-@property(nonatomic) _Bool useSBR; // @synthesize useSBR=_useSBR;
 
 @end
 

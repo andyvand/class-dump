@@ -4,46 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableString, NSNumberFormatter, NSString;
+@class NSMutableString;
 
 @interface ECMessageBodyStringAccumulator
 {
     NSMutableString *_accumulatedString;
-    NSNumberFormatter *_currencyFormatter;
-    unsigned long long _remainingLength;
-    unsigned long long _options;
-    unsigned long long _lastEntity;
-    unsigned long long _beforeLastEntity;
-    unsigned long long _lastCustomEntityTag;
-    _Bool _isFull;
 }
 
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)ion while one was already active. Ignoring. %@;
+- (id)ion;
+- (void)vent thread..;
+- (void)ic}@:(id)arg1 HasSpaceAvailable;
+- (void)te not expecting messages;
+- (void)nexpected message/response received; delegate not expecting messages;
+- (id)ms %p and %p;
 - (id);
 - (void);
 - (id);
 - (_Bool);
+- (void)__unwind_info;
 - (void);
-- (void);
-- (void)gningDomain:(const unsigned short *)arg1 andSenderDomain:(unsigned long long)arg2 senderOrganizationDomain:onlyCheckStrictAlignment: /* Error: Ran out of types for this method. */;
+- (void)_alignmentForDKIMSigningDomain:(const unsigned short *)arg1 andSenderDomain:(unsigned long long)arg2 senderOrganizationDomain:onlyCheckStrictAlignment: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *accumulatedString;
-@property(readonly, nonatomic) NSNumberFormatter *currencyFormatter;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) _Bool isFull;
-@property(readonly) Class superclass;
 
 @end
 

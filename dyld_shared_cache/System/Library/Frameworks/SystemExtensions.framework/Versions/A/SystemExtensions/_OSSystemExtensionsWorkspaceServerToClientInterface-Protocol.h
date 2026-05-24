@@ -5,5 +5,8 @@
 //
 
 @protocol _OSSystemExtensionsWorkspaceServerToClientInterface
+- (void)requiredMissingCaps;
+- (void)ktQueryKickedConcurrently;
+- (void)uriCount;
 @end
 

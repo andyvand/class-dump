@@ -14,12 +14,12 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (id);
+- (id)$;
 - (id);
-- (id);
 - (void);
+- (void)E;
 - (void);
-- (void);
-- (void)aits;
+- (void)morphTraits;
 - (unsigned long long)%@;
 - (id)ùX"[;
 - (void)lôÒþ;

@@ -9,8 +9,6 @@
 @interface CRKEDUPayloadCredentialValidator
 {
     _Bool _stub;
-    _Bool _ephemeralMultiUserDevice;
-    CRKEDUPayload *_payload;
 }
 
 - (_Bool);
@@ -19,7 +17,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool){;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -29,9 +27,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isEphemeralMultiUserDevice) _Bool ephemeralMultiUserDevice; // @synthesize ephemeralMultiUserDevice=_ephemeralMultiUserDevice;
 @property(readonly, nonatomic) CRKEDUPayload *payload; // @synthesize payload=_payload;
-@property(readonly, nonatomic, getter=isStub) _Bool stub; // @synthesize stub=_stub;
 
 @end
 

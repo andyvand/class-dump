@@ -15,13 +15,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-- (id);
+- (id)ent",R,N,V_animationBeginEvent;
 - (id);
 - (unsigned long long);
 - (_Bool);
+- (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)%@;
 - (id);
 - (void);
 

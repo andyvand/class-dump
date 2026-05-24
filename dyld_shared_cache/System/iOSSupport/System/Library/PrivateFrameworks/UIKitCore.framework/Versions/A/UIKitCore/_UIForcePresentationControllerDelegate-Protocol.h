@@ -5,5 +5,9 @@
 //
 
 @protocol _UIForcePresentationControllerDelegate
+
+@optional
+- (void);
+- (void);
 @end
 

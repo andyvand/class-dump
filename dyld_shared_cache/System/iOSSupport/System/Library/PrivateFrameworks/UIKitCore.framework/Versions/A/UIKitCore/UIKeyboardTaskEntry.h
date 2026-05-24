@@ -10,14 +10,11 @@ __attribute__((visibility("hidden")))
 @interface UIKeyboardTaskEntry
 {
     CDUnknownBlockType __task;
-    NSArray *__creationStack;
-    NSArray *_originatingStack;
-    CDUnknownBlockType _breadcrumb;
 }
 
 - (id);
 - (id),N,V_clonedDecorationAttributes;
-- (id)iewServiceSceneDelegate;
+- (id)_UIViewServiceSceneDelegate;
 - (void)can only be called from keyboard process;
 - (CDUnknownBlockType)ÿ@9ÛÀ_;
 - (void)ñÎÔf;

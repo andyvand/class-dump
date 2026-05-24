@@ -7,10 +7,6 @@
 @interface RemindersUICore.TTRMComponentViewToggleComponent
 {
     id isOn;
-    id enabledState;
-    id isResizable;
-    id toggleView;
-    id action;
 }
 
 - (void);

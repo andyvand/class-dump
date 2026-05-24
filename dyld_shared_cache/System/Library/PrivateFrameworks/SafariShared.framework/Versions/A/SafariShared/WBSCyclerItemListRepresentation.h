@@ -32,7 +32,7 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)3;
 - (void);
 - (id);
 - (void);

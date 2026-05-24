@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, PKPaymentHeroImageManifest, PKPaymentWebService;
-@protocol PKPaymentHeroImageControllerDelegate;
+@class NSString, PKPaymentWebService;
 
 @interface PKPaymentHeroImageController
 {
     PKPaymentWebService *_webService;
-    NSString *_primaryImageIdentifier;
-    NSArray *_featuredImages;
-    PKPaymentHeroImageManifest *_manifest;
-    id <PKPaymentHeroImageControllerDelegate> _delegate;
-    long long _watchSize;
 }
 
 + (id);
-+ (struct CGSize);
++ (struct CGSize)9;
 + (double);
 - (long long);
 - (void);
@@ -31,18 +25,14 @@
 - (id);
 - (id);
 - (struct CGSize);
-- (void);
+- (void)k;
 - (id);
 - (id);
-- (void);
+- (void)GPoint=dd}{CGSize=dd}}24{CGSize=dd}56;
 - (void)ntifiers:'%@';  /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) __weak id <PKPaymentHeroImageControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(copy, nonatomic) NSArray *featuredImages; // @synthesize featuredImages=_featuredImages;
-@property(readonly, nonatomic) PKPaymentHeroImageManifest *manifest; // @synthesize manifest=_manifest;
 @property(copy, nonatomic) NSString *primaryImageIdentifier; // @synthesize primaryImageIdentifier=_primaryImageIdentifier;
-@property(nonatomic) long long watchSize; // @synthesize watchSize=_watchSize;
 
 @end
 

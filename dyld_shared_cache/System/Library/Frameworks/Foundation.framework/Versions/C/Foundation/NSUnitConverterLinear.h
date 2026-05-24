@@ -9,15 +9,14 @@
 @interface NSUnitConverterLinear : NSUnitConverter
 {
     double _coefficient;
-    double _constant;
 }
 
 + (_Bool)ot get decode with size %zu. The type encoded as %s is expected to be %zu bytes;
 - (double);
 - (id);
-- (id);
+- (id)(;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)8*H;
 - (id);
 - (void);
 - (double)ÿÿÿÿÿÿÿÿÿ?;
@@ -27,7 +26,6 @@
 
 // Remaining properties
 @property(readonly) double coefficient; // @synthesize coefficient=_coefficient;
-@property(readonly) double constant; // @synthesize constant=_constant;
 
 @end
 

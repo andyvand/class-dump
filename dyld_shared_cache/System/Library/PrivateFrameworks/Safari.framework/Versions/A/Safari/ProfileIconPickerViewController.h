@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, ProfileIconButton, ProfileIconPickerCollectionViewController;
-@protocol ProfileIconPickerDelegate;
+@class NSArray, NSString;
 
 __attribute__((visibility("hidden")))
 @interface ProfileIconPickerViewController
 {
     NSArray *_profileIconButtons;
-    ProfileIconButton *_customButton;
-    ProfileIconButton *_selectedIconButton;
-    ProfileIconPickerCollectionViewController *_profileIconPickerCollectionViewController;
-    NSString *_selectedSymbolName;
-    id <ProfileIconPickerDelegate> _delegate;
 }
 
 - (void);
@@ -26,22 +20,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)defaultSensitivity;
 - (void);
 - (void);
 - (void)ÇÇÈ;
 - (void)À;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <ProfileIconPickerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *selectedSymbolName; // @synthesize selectedSymbolName=_selectedSymbolName;
-@property(readonly) Class superclass;
 
 @end
 

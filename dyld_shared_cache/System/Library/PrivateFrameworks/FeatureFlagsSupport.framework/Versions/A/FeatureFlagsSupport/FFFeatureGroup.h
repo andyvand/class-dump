@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface FFFeatureGroup
 {
     NSString *_name;
-    NSDictionary *_featureSets;
-    NSString *_disclosure;
-    NSDictionary *_attributes;
 }
 
 - (id);
@@ -20,15 +17,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)<CHCalculateDocumentProvider>"16@0:8 /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSDictionary *attributes; // @synthesize attributes=_attributes;
-@property(retain, nonatomic) NSString *disclosure; // @synthesize disclosure=_disclosure;
-@property(retain, nonatomic) NSDictionary *featureSets; // @synthesize featureSets=_featureSets;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
 
 @end

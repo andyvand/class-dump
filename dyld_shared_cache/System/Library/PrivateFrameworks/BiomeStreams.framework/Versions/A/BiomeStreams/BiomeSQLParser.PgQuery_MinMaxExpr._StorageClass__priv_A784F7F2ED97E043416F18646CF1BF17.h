@@ -7,12 +7,6 @@
 @interface BiomeSQLParser.PgQuery_MinMaxExpr._StorageClass__priv_A784F7F2ED97E043416F18646CF1BF17
 {
     id _xpr;
-    id _minmaxtype;
-    id _minmaxcollid;
-    id _inputcollid;
-    id _op;
-    id _args;
-    id _location;
 }
 
 @end

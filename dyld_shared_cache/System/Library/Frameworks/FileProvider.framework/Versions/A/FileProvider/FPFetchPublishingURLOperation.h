@@ -6,18 +6,11 @@
 
 #import <FileProvider/FPActionOperation.h>
 
-@class FPItem, NSOperationQueue, NSProgress, NSSet, NSString, NSURL;
+@class FPItem;
 
 @interface FPFetchPublishingURLOperation : FPActionOperation
 {
     FPItem *_item;
-    _Bool _isFilePresenter;
-    NSOperationQueue *_operationQueue;
-    NSURL *_itemURL;
-    NSProgress *_remoteCancellableProgress;
-    NSProgress *_itemUploadProgress;
-    CDUnknownBlockType _fetchCompletionBlock;
-    CDUnknownBlockType __t_filePresenterStarted;
 }
 
 - (void);
@@ -28,10 +21,10 @@
 - (void);
 - (id);
 - (CDUnknownBlockType);
-- (id);
+- (id)initWithRemoteAddress: /* Error: Ran out of types for this method. */;
+- (void)Parsing before any stream data is appended;
 - (void);
-- (void);
-- (void);
+- (void)N3ims15EmergencyClientE;
 - (void);
 - (void);
 - (id);
@@ -41,24 +34,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType _t_filePresenterStarted; // @synthesize _t_filePresenterStarted=__t_filePresenterStarted;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType fetchCompletionBlock; // @synthesize fetchCompletionBlock=_fetchCompletionBlock;
-@property(readonly) unsigned long long hash;
-@property(readonly) NSSet *observedPresentedItemUbiquityAttributes;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSSet",?,R
-
-@property(readonly, retain) NSOperationQueue *presentedItemOperationQueue;
-@property(readonly, copy) NSURL *presentedItemURL;
-@property(readonly, copy) NSURL *primaryPresentedItemURL;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSURL",?,R,C
-
-@property(readonly) Class superclass;
 
 @end
 

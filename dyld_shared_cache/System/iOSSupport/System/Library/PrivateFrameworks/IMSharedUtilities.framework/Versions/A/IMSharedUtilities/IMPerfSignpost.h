@@ -10,12 +10,12 @@
 
 + (void);
 + (void);
++ (void)P;
 + (void);
 + (void);
 + (void);
 + (void);
-+ (void);
-- (id);
+- (id)!;
 - (void)Check for logs from the Network library to determine the underlying error.;
 
 @end

@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PGAllowlistAssetFilter, PGAudioAssetFilter, PGCLIPQueryAssetFilter, PGCustomFoodieAssetFilter, PGPeopleAssetFilter, PGSceneAssetFilter, PGSocialGroupAssetFilter;
+@class PGSceneAssetFilter;
 
 @interface PGAssetCollectionFeatureDefinition
 {
     PGSceneAssetFilter *_sceneAssetFilter;
-    PGPeopleAssetFilter *_peopleAssetFilter;
-    PGSocialGroupAssetFilter *_socialGroupAssetFilter;
-    PGAudioAssetFilter *_audioAssetFilter;
-    PGCustomFoodieAssetFilter *_customAssetFilter;
-    PGAllowlistAssetFilter *_allowlistAssetFilter;
-    PGCLIPQueryAssetFilter *_CLIPQueryAssetFilter;
 }
 
 + (_Bool);
-- (id);
-- (id);
-- (id);
+- (id)fontWithName:size: /* Error: Ran out of types for this method. */;
+- (id)trollers;
+- (id)datedWithAttributes;
 - (id);
 - (id);
 - (id);
@@ -30,16 +24,10 @@
 - (id);
 - (_Bool);
 - (void);
-- (void)uggestionGeneration;
+- (void)UncoordinatedSuggestionGeneration;
 
 // Remaining properties
-@property(readonly, nonatomic) PGCLIPQueryAssetFilter *CLIPQueryAssetFilter; // @synthesize CLIPQueryAssetFilter=_CLIPQueryAssetFilter;
-@property(readonly, nonatomic) PGAllowlistAssetFilter *allowlistAssetFilter; // @synthesize allowlistAssetFilter=_allowlistAssetFilter;
-@property(readonly, nonatomic) PGAudioAssetFilter *audioAssetFilter; // @synthesize audioAssetFilter=_audioAssetFilter;
-@property(readonly, nonatomic) PGCustomFoodieAssetFilter *customAssetFilter; // @synthesize customAssetFilter=_customAssetFilter;
-@property(readonly, nonatomic) PGPeopleAssetFilter *peopleAssetFilter; // @synthesize peopleAssetFilter=_peopleAssetFilter;
 @property(readonly, nonatomic) PGSceneAssetFilter *sceneAssetFilter; // @synthesize sceneAssetFilter=_sceneAssetFilter;
-@property(readonly, nonatomic) PGSocialGroupAssetFilter *socialGroupAssetFilter; // @synthesize socialGroupAssetFilter=_socialGroupAssetFilter;
 
 @end
 

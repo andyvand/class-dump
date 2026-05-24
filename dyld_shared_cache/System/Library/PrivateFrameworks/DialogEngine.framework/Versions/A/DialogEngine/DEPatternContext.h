@@ -10,7 +10,7 @@
 }
 
 - (void);
-- (id);
+- (id)R;
 - (shared_ptr_1dcac213);
 - (shared_ptr_1dcac213);
 - (id);

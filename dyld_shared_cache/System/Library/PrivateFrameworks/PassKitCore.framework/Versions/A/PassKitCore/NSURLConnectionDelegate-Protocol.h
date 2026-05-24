@@ -4,11 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURLConnection;
+@class NSError, NSURLConnection;
 
 @protocol NSURLConnectionDelegate
 
 @optional
-- (void)on:(NSURLConnection *)arg1;
+- (void);
+- (_Bool);
+- (void)displayedDiscoveryEngagementMessageWithIdentifier:(NSURLConnection *)arg1 completion:(NSError *)arg2;
 @end
 

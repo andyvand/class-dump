@@ -4,64 +4,45 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSURL;
+@class NSString;
 
 @interface BCNativeOAuth2URLProvider
 {
     NSString *_clientIdentifier;
     NSString *_clientSecret;
-    NSArray *_scope;
-    NSString *_state;
-    NSString *_responseType;
-    NSString *_responseEncryptionKey;
-    NSURL *_authorizationURL;
-    NSURL *_accessTokenURL;
 }
 
-+ (id);
++ (id)initWithTitle:(id)arg1 style:target:action: /* Error: Ran out of types for this method. */;
 + (_Bool);
-- (id);
-- (id);
-- (_Bool);
+- (id)printInteractionControllerWillDismissPrinterOptions: /* Error: Ran out of types for this method. */;
+- (id)printInteractionControllerParentViewController:(id)arg1;
+- (_Bool)printInteractionControllerDidPresentPrinterOptions:(id)arg1;
+- (void)printInteractionControllerDidDismissPrinterOptions:(id)arg1;
+- (id)previewController:transitionViewForPreviewItem: /* Error: Ran out of types for this method. */;
+- (id)photoSettings;
+- (id)parentViewController;
 - (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
 - (void);
 - (id);
 - (id);
 - (void);
+- (id);
+- (void);
+- (id);
+- (id);
+- (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
-- (void);
-- (id)e;
+- (void)setWithObjects: /* Error: Ran out of types for this method. */;
+- (id)type;
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *accessTokenURL; // @synthesize accessTokenURL=_accessTokenURL;
-@property(retain, nonatomic) NSURL *authorizationURL; // @synthesize authorizationURL=_authorizationURL;
 @property(retain, nonatomic) NSString *clientIdentifier; // @synthesize clientIdentifier=_clientIdentifier;
 @property(retain, nonatomic) NSString *clientSecret; // @synthesize clientSecret=_clientSecret;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *responseEncryptionKey; // @synthesize responseEncryptionKey=_responseEncryptionKey;
-@property(retain, nonatomic) NSString *responseType; // @synthesize responseType=_responseType;
-@property(retain, nonatomic) NSArray *scope; // @synthesize scope=_scope;
-@property(retain, nonatomic) NSString *state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

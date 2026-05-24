@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICTTMergeableWallClockValue, NSArray, NSData, NSSet;
+@class NSArray, NSSet;
 
 @interface ICOutlineState
 {
     NSSet *_collapsedUUIDs;
-    ICTTMergeableWallClockValue *_mergeableValue;
 }
 
-- (void);
-- (_Bool);
-- (id);
+- (void)hain:%d /* Error: Ran out of types for this method. */;
+- (_Bool), "%s";
+- (id)W;
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (_Bool);
+- (id)__DATA_DIRTY;
+- (id)_	;
+- (_Bool)chooseLibrary:(id)arg1 withToken:results: /* Error: Ran out of types for this method. */;
 - (void)ì ;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSArray *collapsedUUIDStrings;
-@property(readonly, copy, nonatomic) NSSet *collapsedUUIDs; // @synthesize collapsedUUIDs=_collapsedUUIDs;
-@property(readonly, copy, nonatomic) NSData *data;
-@property(retain, nonatomic) ICTTMergeableWallClockValue *mergeableValue; // @synthesize mergeableValue=_mergeableValue;
 
 @end
 

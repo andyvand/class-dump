@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UINavigationItem;
+@class UINavigationItem;
 
 @interface _UINavigationItemProxy
 {
@@ -15,8 +15,8 @@
 - (void);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id)updateRecordZoneID;
+- (void)r.;
 - (void);
 - (void)!ÔCù\ð1Â0@ù
 × ;
@@ -27,33 +27,27 @@
 × ;
 - (void):(id)arg1 8@"UITraitCollection"16@"_UIViewControllerTransitionCoordinatorContextDescription"24B32B36;
 - (void);
-- (void)teBaseIsStartWithDocumentPoint:(id)arg1;
-- (void)erCbrtSpeed;
-- (void);
-- (void)dMoveToSuperview;
-- (_Bool)entClass;
-- (void)lidCaretPositionFromCharacterIndex:(id)arg1 downstream:(id)arg2;
-- (_Bool)esEvent;
-- (void)es;
+- (void)updateBaseIsStartWithDocumentPoint:(id)arg1;
+- (void)tangentHyperCbrtSpeed;
+- (void)sizeUpdated;
+- (void)didMoveToSuperview;
+- (_Bool)clientClass;
+- (void)_validCaretPositionFromCharacterIndex:(id)arg1 downstream:(id)arg2;
+- (_Bool)_maybeConvertAndSendAsPressesEvent;
+- (void)_flushUpdates;
 - (id)_scrollIfNecessary;
 - (void),N,V_buttonSettings;
-- (_Bool)eExtension;
+- (_Bool)_UIViewServiceSceneExtension;
 - (void)8×;
 - (void)¤;ä;;
 - (void);
 - (void);
-- (void)ificantTimeChangeNotification;
+- (void)SignificantTimeChangeNotification;
 - (void)e;
 - (void)UIView;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

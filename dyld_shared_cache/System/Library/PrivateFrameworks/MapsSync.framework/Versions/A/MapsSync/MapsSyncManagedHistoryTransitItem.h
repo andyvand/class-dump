@@ -6,8 +6,6 @@
 
 #import <MapsSync/MapsSyncManagedHistoryItem.h>
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface MapsSyncManagedHistoryTransitItem : MapsSyncManagedHistoryItem
 {
@@ -18,7 +16,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) long long muid; // @dynamic muid;
-@property(nonatomic, copy) NSData *transitLineStorage; // @dynamic transitLineStorage;
 
 @end
 

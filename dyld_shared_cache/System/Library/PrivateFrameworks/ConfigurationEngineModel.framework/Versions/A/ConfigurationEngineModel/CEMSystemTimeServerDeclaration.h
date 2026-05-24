@@ -11,11 +11,10 @@
 @interface CEMSystemTimeServerDeclaration : CEMConfigurationBase
 {
     NSString *_payloadTimeServer;
-    NSString *_payloadTimeZone;
 }
 
 + (id);
-+ (id);
++ (id)b;
 + (id);
 + (id);
 + (id);
@@ -35,15 +34,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSString *payloadTimeServer; // @synthesize payloadTimeServer=_payloadTimeServer;
-@property(copy, nonatomic) NSString *payloadTimeZone; // @synthesize payloadTimeZone=_payloadTimeZone;
-@property(readonly) Class superclass;
 
 @end
 

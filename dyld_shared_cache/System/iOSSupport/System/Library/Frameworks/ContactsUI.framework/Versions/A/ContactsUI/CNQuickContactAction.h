@@ -6,15 +6,12 @@
 
 #import <ContactsUI/CNQuickAction.h>
 
-@class CNContactAction, NSString;
-@protocol CNQuickContactActionDelegate;
+@class CNContactAction;
 
 __attribute__((visibility("hidden")))
 @interface CNQuickContactAction : CNQuickAction
 {
     CNContactAction *_contactAction;
-    id <CNQuickContactActionDelegate> _delegate;
-    CDUnknownBlockType _completionBlock;
 }
 
 - (void);
@@ -22,31 +19,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
+- (void)@9?;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (void);
 - (CDUnknownBlockType)0@ù
 × ;
-- (void)n;
+- (void)_tappedAction;
 - (void)Ü	d	°Ô Ü¡$¢H¢l£T¤;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType completionBlock; // @synthesize completionBlock=_completionBlock;
 @property(retain, nonatomic) CNContactAction *contactAction; // @synthesize contactAction=_contactAction;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <CNQuickContactActionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

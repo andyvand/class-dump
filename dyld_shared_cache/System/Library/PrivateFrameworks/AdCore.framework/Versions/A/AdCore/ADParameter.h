@@ -9,13 +9,12 @@
 @interface ADParameter
 {
     NSString *_key;
-    NSString *_value;
 }
 
 + (id);
 - (void);
 - (id);
-- (void);
+- (void)@9?;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -23,14 +22,13 @@
 - (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)v40@0:8@"AVControlsViewController"16Q24@"<AVPlayerViewControllerAnimationCoordinator>"32 /* Error: Ran out of types for this method. */;
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

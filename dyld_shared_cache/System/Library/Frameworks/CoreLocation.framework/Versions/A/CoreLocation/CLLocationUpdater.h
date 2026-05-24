@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLDispatchSilo, CLIdentifiableClientConnectionManager, NSMutableDictionary, NSString;
+@class CLDispatchSilo, CLIdentifiableClientConnectionManager;
 
 @interface CLLocationUpdater
 {
     CLDispatchSilo *_silo;
-    CDUnknownBlockType _clientCallback;
-    NSString *_messageName;
-    NSMutableDictionary *_mutableMsgDictionary;
-    CLIdentifiableClientConnectionManager *_connectionManager;
 }
 
 + (id);
@@ -25,7 +21,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)_container_query_operation_set_private_flags;
 - (id);
 - (void);
 - (void);
@@ -33,9 +29,9 @@
 - (void);
 - (void);
 - (void);
+- (void)@;
 - (void);
-- (void);
-- (void);
+- (void)M;
 - (void);
 - (void);
 - (id);

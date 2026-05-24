@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDecimalNumber, NSString;
+@class NSString;
 
 @interface PKPaymentSummaryItem
 {
     _Bool _useDarkColor;
-    _Bool _useLargeFont;
-    NSString *_label;
-    NSDecimalNumber *_amount;
-    unsigned long long _type;
-    NSString *_localizedTitle;
-    NSString *_localizedAmount;
 }
 
 + (id);
@@ -36,33 +30,27 @@
 - (id);
 - (void);
 - (void);
+- (void)+);
 - (void);
-- (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
-- (void);
-- (id);
+- (_Bool)"contentVersion"b1};
+- (void)visitCountTotal;
+- (id);
 - (void);
 - (id);
 - (id)moving extra suggested amount from bill payment suggested amount list %@;
-- (void)correctFormat;
-- (void)curedKey;
+- (void)incorrectFormat;
+- (void)PKContactlessInterfaceHomeButtonSourceHasOccuredKey;
 - (id)ÿ6âÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSDecimalNumber *amount; // @synthesize amount=_amount;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(copy, nonatomic) NSString *localizedAmount; // @synthesize localizedAmount=_localizedAmount;
 @property(copy, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(nonatomic) _Bool useDarkColor; // @synthesize useDarkColor=_useDarkColor;
-@property(nonatomic) _Bool useLargeFont; // @synthesize useLargeFont=_useLargeFont;
 
 @end
 

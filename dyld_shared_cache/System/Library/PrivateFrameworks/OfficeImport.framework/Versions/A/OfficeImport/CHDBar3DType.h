@@ -10,15 +10,14 @@ __attribute__((visibility("hidden")))
 @interface CHDBar3DType : CHDBar2DType
 {
     int mGapDepth;
-    int mShapeType;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool);
 - (int);
 - (void);
 - (void);
-- (id);
+- (id)#;
 - (int);
 
 @end

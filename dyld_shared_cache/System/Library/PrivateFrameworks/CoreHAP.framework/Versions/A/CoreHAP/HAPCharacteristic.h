@@ -4,29 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CBCharacteristic, HAPCharacteristicMetadata, HAPService, NSData, NSDate, NSNumber, NSString;
+@class CBCharacteristic;
 
 @interface HAPCharacteristic
 {
     struct os_unfair_lock_s _lock;
-    _Bool _eventNotificationsEnabled;
-    _Bool _shouldValidateValueAfterReading;
-    _Bool _prohibitCaching;
-    _Bool _implicitWriteWithResponse;
-    unsigned short _properties;
-    NSDate *_valueUpdatedTime;
-    id _value;
-    NSNumber *_stateNumber;
-    NSData *_notificationContext;
-    NSString *_type;
-    NSNumber *_instanceID;
-    HAPService *_service;
-    HAPCharacteristicMetadata *_metadata;
-    HAPCharacteristicMetadata *_accessoryMetadata;
 }
 
++ (id)`;
 + (id);
-+ (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -50,59 +36,35 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)ed with error %@;
 - (id);
 - (void);
-- (id);
+- (id)T5;
 - (id);
 - (unsigned short);
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)input block;
 - (id);
 - (_Bool);
 - (id);
 - (unsigned long long);
+- (void);
+- (id);
+- (id);
+- (_Bool)initWithStream:(id)arg1 permission:config: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id);
 - (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (id);
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)";
 - (void)@?@"HAPPairingIdentity"@"NSError">24;
 - (void)óäÿs x;
 
 // Remaining properties
-@property(readonly, nonatomic) HAPCharacteristicMetadata *accessoryMetadata; // @synthesize accessoryMetadata=_accessoryMetadata;
 @property(retain, nonatomic, setter=setCBCharacteristic:) CBCharacteristic *cbCharacteristic;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool eventNotificationsEnabled; // @synthesize eventNotificationsEnabled=_eventNotificationsEnabled;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic, getter=isWriteWithResponseImplicitlySupported) _Bool implicitWriteWithResponse; // @synthesize implicitWriteWithResponse=_implicitWriteWithResponse;
-@property(copy, nonatomic) NSNumber *instanceID; // @synthesize instanceID=_instanceID;
-@property(copy, nonatomic) HAPCharacteristicMetadata *metadata; // @synthesize metadata=_metadata;
-@property(retain, nonatomic) NSData *notificationContext; // @synthesize notificationContext=_notificationContext;
-@property(nonatomic) _Bool prohibitCaching; // @synthesize prohibitCaching=_prohibitCaching;
-@property(nonatomic) unsigned short properties; // @synthesize properties=_properties;
-@property(nonatomic) __weak HAPService *service; // @synthesize service=_service;
-@property(nonatomic) _Bool shouldValidateValueAfterReading; // @synthesize shouldValidateValueAfterReading=_shouldValidateValueAfterReading;
-@property(readonly, nonatomic) NSNumber *stateNumber; // @synthesize stateNumber=_stateNumber;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsAdditionalAuthorizationData;
-@property(readonly, nonatomic) _Bool supportsEventNotificationContext;
-@property(readonly, nonatomic) _Bool supportsWriteWithResponse;
-@property(copy, nonatomic) NSString *type; // @synthesize type=_type;
-@property(copy, nonatomic, setter=setValue:) id value; // @synthesize value=_value;
-@property(retain, nonatomic) NSDate *valueUpdatedTime; // @synthesize valueUpdatedTime=_valueUpdatedTime;
 
 @end
 

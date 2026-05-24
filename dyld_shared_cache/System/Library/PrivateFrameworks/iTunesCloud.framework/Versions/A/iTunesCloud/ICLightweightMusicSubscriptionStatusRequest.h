@@ -6,20 +6,19 @@
 
 #import <iTunesCloud/ICRequestOperation.h>
 
-@class ICLightweightMusicSubscriptionStatusResponse, ICStoreRequestContext;
+@class ICStoreRequestContext;
 
 @interface ICLightweightMusicSubscriptionStatusRequest : ICRequestOperation
 {
     ICStoreRequestContext *_requestContext;
-    ICLightweightMusicSubscriptionStatusResponse *_response;
 }
 
 - (void);
 - (void);
 - (id);
 - (void);
-- (void)Value;
-- (void)CStoreArtworkGradientInfo;
+- (void)integerValue;
+- (void)ICStoreArtworkGradientInfo;
 - (id)ÿ¨üÄ
 ;
 

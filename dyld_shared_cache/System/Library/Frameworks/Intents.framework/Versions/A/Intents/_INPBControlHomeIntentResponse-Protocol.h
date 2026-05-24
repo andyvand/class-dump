@@ -4,12 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
+@class NSArray, _INPBHomeEntityResponse;
 
 @protocol _INPBControlHomeIntentResponse
+- (_INPBHomeEntityResponse *);
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *entityResponses;
-@property(readonly, nonatomic) unsigned long long entityResponsesCount;
 @end
 

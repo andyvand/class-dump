@@ -17,9 +17,9 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)tOSLog.dylib;
 + (void)AppleInternal/Library/BuildRoots/4~CNqTugBWysuvm0YRy9B_ZwVkS7juaIavArBNMOk/Library/Caches/com.apple.xbs/TemporaryDirectory.A4b0Lc/Sources/QuartzComposer/MeshKit/sources/Core3DRuntime/Foundation/C3DStack.c;
-+ (id)s1E;
++ (id)N19domTapered_cylinder10domRadius1E;
 - (id);
 - (void);
 - (_Bool);

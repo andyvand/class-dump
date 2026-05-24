@@ -13,7 +13,7 @@
     NSString *_effectStyleID;
 }
 
-- (id);
+- (id)c;
 - (id);
 - (id);
 - (id);

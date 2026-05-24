@@ -4,21 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMAccessoryCategory, HMHome, HMSetupAccessoryDescription, NSArray, NSString, NSUUID;
+@class HMHome;
 
 @interface HMAddAccessoryRequest
 {
     _Bool _requiresSetupPayloadURL;
-    _Bool _requiresOwnershipToken;
-    HMHome *_home;
-    NSString *_accessoryName;
-    HMAccessoryCategory *_accessoryCategory;
-    NSUUID *_requestIdentifier;
-    HMSetupAccessoryDescription *_accessoryDescription;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)E3$_0FjPK9CMDPTokenEEE;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -33,40 +27,17 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void);
-- (_Bool);
-- (id);
+- (void)mittedText;
+- (_Bool)hedonism;
+- (id)=;
 - (void);
 - (id);
 - (id);
 - (void)¤;
-- (id)AccessCodeUserInformationValueCodingKeyRemovedUserInfo;
+- (id)HMAccessCodeUserInformationValueCodingKeyRemovedUserInfo;
 
 // Remaining properties
-@property(readonly, nonatomic) HMAccessoryCategory *accessoryCategory; // @synthesize accessoryCategory=_accessoryCategory;
-@property(retain, nonatomic) HMSetupAccessoryDescription *accessoryDescription; // @synthesize accessoryDescription=_accessoryDescription;
-@property(readonly, nonatomic) NSString *accessoryName; // @synthesize accessoryName=_accessoryName;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) HMHome *home; // @synthesize home=_home;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) NSUUID *requestIdentifier; // @synthesize requestIdentifier=_requestIdentifier;
-@property(readonly, nonatomic) _Bool requiresOwnershipToken; // @synthesize requiresOwnershipToken=_requiresOwnershipToken;
-@property(readonly, nonatomic) _Bool requiresSetupPayloadURL; // @synthesize requiresSetupPayloadURL=_requiresSetupPayloadURL;
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

@@ -9,23 +9,10 @@
 @interface INSeat
 {
     NSString *_seatSection;
-    NSString *_seatRow;
-    NSString *_seatNumber;
-    NSString *_seatingType;
 }
 
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy) NSString *seatNumber; // @synthesize seatNumber=_seatNumber;
-@property(readonly, copy) NSString *seatRow; // @synthesize seatRow=_seatRow;
 @property(readonly, copy) NSString *seatSection; // @synthesize seatSection=_seatSection;
-@property(readonly, copy) NSString *seatingType; // @synthesize seatingType=_seatingType;
-@property(readonly) Class superclass;
 @end
 

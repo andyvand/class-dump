@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BarBackground, NSArray, NSString, NSView;
+@class NSView;
 @protocol BannerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface Banner
 {
     NSView *bannerContents;
-    NSView *firstKeySubview;
-    NSView *lastKeySubview;
-    NSArray *_topLevelNibObjects;
-    id <BannerDelegate> _delegate;
-    BarBackground *_bannerView;
 }
 
 + (_Bool);
@@ -36,26 +31,16 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void)H;
 - (id);
-- (id);
+- (id)t change history event;
 - (double);
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, retain, nonatomic) BarBackground *bannerView; // @synthesize bannerView=_bannerView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <BannerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) double height;
-@property(readonly, nonatomic, getter=isInstalled) _Bool installed;
-@property(readonly) Class superclass;
 
 @end
 

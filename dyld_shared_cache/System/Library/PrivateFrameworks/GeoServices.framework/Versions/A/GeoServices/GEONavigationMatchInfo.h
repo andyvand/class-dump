@@ -7,18 +7,6 @@
 @interface GEONavigationMatchInfo
 {
     double routeMatchScore;
-    double distanceFromRoute;
-    double maxDistance;
-    double distanceMatchScore;
-    double distanceWeight;
-    double courseDelta;
-    double maxCourseDelta;
-    double courseMatchScore;
-    double courseWeight;
-    double roadWidthOnRoute;
-    double distanceFromRoad;
-    double roadCourseDelta;
-    double distanceFromNearestJunction;
 }
 
 - (void);
@@ -41,27 +29,15 @@
 - (double);
 - (double);
 - (double);
-- (void);
-- (void);
-- (double);
-- (void);
-- (double);
+- (void)@"ACAccountType"16;
+- (void)B24@0:(double)arg1 8*16;
+- (double)gate>";
+- (void)sharedUserLibraryFolder;
+- (double)setMatchInfo: /* Error: Ran out of types for this method. */;
 - (id);
 - (double);
 
 // Remaining properties
-@property(nonatomic) double courseDelta; // @synthesize courseDelta;
-@property(nonatomic) double courseMatchScore; // @synthesize courseMatchScore;
-@property(nonatomic) double courseWeight; // @synthesize courseWeight;
-@property(nonatomic) double distanceFromNearestJunction; // @synthesize distanceFromNearestJunction;
-@property(nonatomic) double distanceFromRoad; // @synthesize distanceFromRoad;
-@property(nonatomic) double distanceFromRoute; // @synthesize distanceFromRoute;
-@property(nonatomic) double distanceMatchScore; // @synthesize distanceMatchScore;
-@property(nonatomic) double distanceWeight; // @synthesize distanceWeight;
-@property(nonatomic) double maxCourseDelta; // @synthesize maxCourseDelta;
-@property(nonatomic) double maxDistance; // @synthesize maxDistance;
-@property(nonatomic) double roadCourseDelta; // @synthesize roadCourseDelta;
-@property(nonatomic) double roadWidthOnRoute; // @synthesize roadWidthOnRoute;
 @property(nonatomic) double routeMatchScore; // @synthesize routeMatchScore;
 
 @end

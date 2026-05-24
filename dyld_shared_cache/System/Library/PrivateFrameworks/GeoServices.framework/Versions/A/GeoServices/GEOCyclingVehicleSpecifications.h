@@ -9,38 +9,32 @@
 @interface GEOCyclingVehicleSpecifications
 {
     PBUnknownFields *_unknownFields;
-    _Bool _isEbike;
-    struct {
-        unsigned int has_isEbike:1;
-    } _flags;
 }
 
-+ (_Bool)lta:(id)arg1;
++ (_Bool)setHasPredictedDepartureTimeDelta:(id)arg1;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)setCurrActiveSigProvTypes:(id)arg1;
 - (void);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)ms for curated collection;
 - (_Bool);
 - (void);
 - (_Bool);
-- (void)lverConfidences;
-- (id);
-- (id)taRequesterDelegate;
+- (void)solverConfidences;
+- (id)setHasArrivedAtTimestamp:(struct _NSZone *)arg1;
+- (id)GEOGeographicMetadataRequesterDelegate;
 - (_Bool)pping all cached tile data;
-- (id)SULT_UNAVAILABLE;
+- (id)PLACE_CACHE_LOOKUP_RESULT_UNAVAILABLE;
 - (id)¬å\Mÿÿ;
 - (void)6®þ|4.m5;
 
 // Remaining properties
 @property(nonatomic) _Bool hasIsEbike;
-@property(nonatomic) _Bool isEbike;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

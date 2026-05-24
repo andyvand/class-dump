@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureAudioDataOutput_Tundra, AVCaptureConnection_Tundra;
+@class AVCaptureAudioDataOutput_Tundra;
 
 __attribute__((visibility("hidden")))
 @interface AVCaptureAudioDataOutputCallbackData
 {
     AVCaptureAudioDataOutput_Tundra *_output;
-    AVCaptureConnection_Tundra *_connection;
-    struct opaqueCMBufferQueue *_bufferQueue;
-    void *_callbackContextToken;
 }
 
 + (id);
-- (void);
+- (void)ud) parameter;
 - (id);
 - (void *);
 - (struct opaqueCMBufferQueue *);

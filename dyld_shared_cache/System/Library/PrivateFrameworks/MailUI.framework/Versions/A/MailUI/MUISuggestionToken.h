@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSImage, NSString, _CSSuggestionToken;
+@class _CSSuggestionToken;
 
 @interface MUISuggestionToken
 {
     _CSSuggestionToken *_csToken;
-    NSString *_title;
-    NSArray *_scopeNames;
-    unsigned long long _selectedScopeIndex;
-    struct _NSRange _replacementRange;
 }
 
-+ (id);
++ (id)P;
 + (id);
 - (void);
 - (unsigned long long);
@@ -27,18 +23,11 @@
 - (struct _NSRange);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)l;
+- (void)setAccessibilityVisibleCharacterRange: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) _CSSuggestionToken *csToken; // @synthesize csToken=_csToken;
-@property(readonly, nonatomic) _Bool hasMultipleScopes;
-@property(readonly, nonatomic) NSImage *image;
-@property(readonly, nonatomic) struct _NSRange replacementRange; // @synthesize replacementRange=_replacementRange;
-@property(readonly, nonatomic) NSString *scopeName;
-@property(readonly, nonatomic) NSArray *scopeNames; // @synthesize scopeNames=_scopeNames;
-@property(nonatomic) unsigned long long selectedScopeIndex; // @synthesize selectedScopeIndex=_selectedScopeIndex;
-@property(readonly, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

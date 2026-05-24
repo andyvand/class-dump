@@ -12,14 +12,10 @@ __attribute__((visibility("hidden")))
 @interface NSDocumentNonModalAlertViewController : NSViewController
 {
     id maxViewWidth;
-    id horizontalMargin;
-    id topMargin;
-    id bottomMargin;
-    void textField;
 }
 
-- (void);
-- (void);
+- (void)_shouldCancelOnCacheTaskCompletion;
+- (void)connection:(id)arg1 _willSendRequestForEstablishedConnection:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);

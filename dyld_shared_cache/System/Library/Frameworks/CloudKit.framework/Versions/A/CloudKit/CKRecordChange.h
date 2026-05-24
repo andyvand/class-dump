@@ -4,20 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKRecord, CKRecordID, NSString;
-
 @interface CKRecordChange
 {
     long long _changeType;
-    CKRecordID *_recordID;
-    CKRecord *_record;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)tructure::Path::Program, CoreML::ModelStructure::Path::Program::Function, CoreML::ModelStructure::Path::Program::Block, CoreML::ModelStructure::Path::Program::Operation, CoreML::ModelStructure::Path::NeuralNetwork, CoreML::ModelStructure::Path::NeuralNetwork::Layer, CoreML::ModelStructure::Path::Pipeline, CoreML::ModelStructure::Path::Pipeline::SubModel>>>="__begin_"^v"__end_"^v""{?="__cap_"^v}}} /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (void);
@@ -25,20 +21,11 @@
 - (id);
 - (id);
 - (long long);
-- (void);
+- (void)readingIntentWithURL:(id)arg1 options: /* Error: Ran out of types for this method. */;
 - (void)ÿÿÿÿ;
 
 // Remaining properties
 @property(readonly, nonatomic) long long changeType; // @synthesize changeType=_changeType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) CKRecord *record; // @synthesize record=_record;
-@property(readonly, copy, nonatomic) CKRecordID *recordID; // @synthesize recordID=_recordID;
-@property(readonly) Class superclass;
 
 @end
 

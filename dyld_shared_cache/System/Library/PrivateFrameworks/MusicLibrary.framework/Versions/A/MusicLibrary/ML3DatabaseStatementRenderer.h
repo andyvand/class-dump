@@ -8,15 +8,15 @@
 {
 }
 
-+ (id);
++ (id)FUSBWindow;
+- (id)subsistence;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)!;
 - (id);
 - (id);
 - (id));

@@ -11,7 +11,6 @@
 @interface IMAVControlBarImpl : IMAVControlBar
 {
     NSMutableArray *_controls;
-    _Bool _updateScheduled;
 }
 
 + (id);
@@ -19,9 +18,9 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)P;
 - (id);
-- (id);
+- (id);
 - (void);
 
 @end

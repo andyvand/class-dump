@@ -5,5 +5,6 @@
 //
 
 @protocol CLSQueryProtocol
+- (void);
 @end
 

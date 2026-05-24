@@ -6,28 +6,12 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData;
-
 @interface ASRSchemaASRContextualEntityRetrievalStarted : SISchemaInstrumentationMessage
 {
     int _maxEnrolled;
-    double _retrievalTimeout;
-    int _maxEntityChars;
-    int _maxEntityWords;
-    NSArray *_enabledTasks;
-    int _requestTask;
-    NSArray *_rejectedContextTypes;
-    NSArray *_rejectedEntityTypes;
-    struct {
-        unsigned int maxEnrolled:1;
-        unsigned int retrievalTimeout:1;
-        unsigned int maxEntityChars:1;
-        unsigned int maxEntityWords:1;
-        unsigned int requestTask:1;
-    } _has;
 }
 
-- (void);
+- (void)";
 - (void);
 - (void);
 - (void);
@@ -52,7 +36,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)_;
 - (unsigned long long);
 - (int);
 - (id);
@@ -62,44 +46,31 @@
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (void)I;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
+- (id)initWithCapacity:(id)arg1;
+- (void)egment:(int)arg1 %@;
+- (id)RS;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (int);
 - (_Bool);
-- (id);
-- (id)ntext: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)setVoiceContext: /* Error: Ran out of types for this method. */;
 - (id)dj;
 - (id)Äßöÿ,í2ÿ;
 - (void)§§ÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *enabledTasks; // @synthesize enabledTasks=_enabledTasks;
-@property(nonatomic) _Bool hasMaxEnrolled;
-@property(nonatomic) _Bool hasMaxEntityChars;
-@property(nonatomic) _Bool hasMaxEntityWords;
-@property(nonatomic) _Bool hasRequestTask;
-@property(nonatomic) _Bool hasRetrievalTimeout;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) int maxEnrolled; // @synthesize maxEnrolled=_maxEnrolled;
-@property(nonatomic) int maxEntityChars; // @synthesize maxEntityChars=_maxEntityChars;
-@property(nonatomic) int maxEntityWords; // @synthesize maxEntityWords=_maxEntityWords;
-@property(copy, nonatomic) NSArray *rejectedContextTypes; // @synthesize rejectedContextTypes=_rejectedContextTypes;
-@property(copy, nonatomic) NSArray *rejectedEntityTypes; // @synthesize rejectedEntityTypes=_rejectedEntityTypes;
-@property(nonatomic) int requestTask; // @synthesize requestTask=_requestTask;
-@property(nonatomic) double retrievalTimeout; // @synthesize retrievalTimeout=_retrievalTimeout;
 
 @end
 

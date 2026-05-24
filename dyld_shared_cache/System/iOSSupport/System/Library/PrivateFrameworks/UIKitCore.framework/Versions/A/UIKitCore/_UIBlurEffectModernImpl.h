@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
     double _blurScale;
 }
 
-- (unsigned long long);
-- (_Bool)PrimaryRecipientIdentifiers:(id)arg1;
-- (void)mTextOperations:(id)arg1;
+- (unsigned long long);
+- (_Bool)setResponsePrimaryRecipientIdentifiers:(id)arg1;
+- (void)performTextOperations:(id)arg1;
 - (id)plySnapshot;
 - (void)oShape>",R,D,N;
 - (void)_UIMaterialDefinitionView;

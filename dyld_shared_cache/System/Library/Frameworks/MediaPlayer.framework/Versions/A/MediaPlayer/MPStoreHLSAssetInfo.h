@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICStoreHLSAssetInfo, NSNumber, NSString, NSURL;
+@class ICStoreHLSAssetInfo, NSURL;
 
 @interface MPStoreHLSAssetInfo
 {
@@ -21,17 +21,9 @@
 - (id);
 - (id);
 - (id);
-- (void)on: /* Error: Ran out of types for this method. */;
+- (void)_resolveTrackListWithCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSURL *alternateKeyCertificateURL;
-@property(readonly, copy, nonatomic) NSURL *alternateKeyServerURL;
-@property(readonly, copy, nonatomic) NSURL *alternatePlaylistURL;
-@property(readonly, nonatomic, getter=isiTunesStoreStream) _Bool iTunesStoreStream;
-@property(readonly, copy, nonatomic) NSURL *keyCertificateURL;
-@property(readonly, copy, nonatomic) NSNumber *keyServerAdamID;
-@property(readonly, copy, nonatomic) NSString *keyServerProtocolType;
-@property(readonly, copy, nonatomic) NSURL *keyServerURL;
 @property(readonly, copy, nonatomic) NSURL *playlistURL;
 
 @end

@@ -4,51 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString, NSUUID;
+@class NSUUID;
 
 @interface HMMediaGroup
 {
     _Bool _defaultName;
-    NSUUID *_identifier;
-    NSString *_name;
-    NSUUID *_associatedGroupIdentifier;
-    NSArray *_destinationUniqueIdentifiersInternal;
-    NSUUID *_parentIdentifier;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (_Bool);
-+ (id)upportsResidentSelectionCodingKey;
++ (id)HMResidentDeviceSupportsResidentSelectionCodingKey;
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)$;
 - (id);
 - (void);
 - (id);
 - (id);
+- (id);
+- (id);
+- (id);
+- (void);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)stampede;
+- (id)goiter;
 - (void);
 - (id);
-- (id);
-- (void);
-- (id);
+- (id)Root;
+- (void)connectedOutgoing;
+- (id)@;
 - (id);
 - (id);
 - (id);
@@ -56,31 +51,7 @@
 - (void)ï;
 
 // Remaining properties
-@property(copy) NSUUID *associatedGroupIdentifier; // @synthesize associatedGroupIdentifier=_associatedGroupIdentifier;
-@property(readonly, copy, nonatomic) NSArray *attributeDescriptions;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSArray",?,R,C,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(getter=isDefaultName) _Bool defaultName; // @synthesize defaultName=_defaultName;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSArray *destinationIdentifiers;
-@property(readonly, copy) NSArray *destinationUniqueIdentifiers;
-@property(copy) NSArray *destinationUniqueIdentifiersInternal; // @synthesize destinationUniqueIdentifiersInternal=_destinationUniqueIdentifiersInternal;
-@property(readonly) unsigned long long hash;
 @property(copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property(copy) NSString *name; // @synthesize name=_name;
-@property(readonly, copy) NSUUID *parentIdentifier; // @synthesize parentIdentifier=_parentIdentifier;
-@property(readonly, copy) NSString *privateDescription;
-@property(readonly, copy) NSString *propertyDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *shortDescription;
-@property(readonly) Class superclass;
 
 @end
 

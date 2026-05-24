@@ -9,14 +9,10 @@
 @interface PHObjectChangeDetails
 {
     PHObject *_objectBeforeChanges;
-    PHObject *_objectAfterChanges;
-    _Bool _assetContentChanged;
-    _Bool _assetCollectionTitlePropertiesChanged;
-    struct os_unfair_lock_s _stateLock;
 }
 
 - (_Bool);
-- (id);
+- (id)3|;
 - (id);
 - (id);
 - (_Bool);
@@ -27,10 +23,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool assetCollectionTitlePropertiesChanged;
-@property(readonly) _Bool assetContentChanged;
-@property(readonly) PHObject *objectAfterChanges;
-@property(readonly) PHObject *objectBeforeChanges;
-@property(readonly) _Bool objectWasDeleted;
 
 @end
 

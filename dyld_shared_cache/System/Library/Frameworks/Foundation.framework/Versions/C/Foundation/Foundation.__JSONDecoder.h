@@ -7,8 +7,6 @@
 @interface Foundation.__JSONDecoder
 {
     id assumesTopLevelDictionaryKey;
-    id options;
-    id optionsLock;
 }
 
 @end

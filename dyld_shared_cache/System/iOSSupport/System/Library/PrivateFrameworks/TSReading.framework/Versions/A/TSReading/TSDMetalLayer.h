@@ -5,40 +5,34 @@
 //
 
 @class CADisplayLink, NSObject;
-@protocol MTLCommandQueue, TSDMetalLayerDelegate;
+@protocol TSDMetalLayerDelegate;
 
 @interface TSDMetalLayer
 {
     CADisplayLink *_displayLink;
-    _Bool _isAnimationStopping;
-    _Bool _shouldSkipNextDisplayLink;
-    NSObject<TSDMetalLayerDelegate> *_delegate;
-    id <MTLCommandQueue> _commandQueue;
 }
 
 - (void);
 - (_Bool);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void)z;
 - (void);
 - (id);
+- (void);
+- (void)PCStatusConditionsImpl;
 - (id);
+- (id);
+- (void)4;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)ject: /* Error: Ran out of types for this method. */;
+- (void)@;
+- (void)cutObject: /* Error: Ran out of types for this method. */;
 - (void)qXugCNkc61oj3lvwzie9kuzoKIFqlCIQAPn3w/Library/Caches/com.apple.xbs/TemporaryDirectory.AbPtYx/Sources/AlderShared/tables/TSTTableStylePreset.mm;
-- (void)ityFont;
+- (void)compatibilityFont;
 - (id);
 - (void)¼';
 
 // Remaining properties
-@property(readonly, nonatomic) id <MTLCommandQueue> commandQueue; // @synthesize commandQueue=_commandQueue;
 @property __weak NSObject<TSDMetalLayerDelegate> *delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool shouldSkipNextDisplayLink; // @synthesize shouldSkipNextDisplayLink=_shouldSkipNextDisplayLink;
 
 @end
 

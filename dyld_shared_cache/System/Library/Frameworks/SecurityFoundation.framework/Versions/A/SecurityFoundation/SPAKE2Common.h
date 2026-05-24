@@ -4,27 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSMutableData, NSString, _SFAESKey;
-
 __attribute__((visibility("hidden")))
 @interface SPAKE2Common
 {
     _Bool _verified;
-    struct ccrng_state *_rng;
-    struct ccspake_ctx *_spake_ctx;
-    NSString *_code;
-    NSData *_salt;
-    struct ccspake_cp *_cp;
-    struct ccspake_mac *_mac;
-    NSData *_w0;
-    NSData *_w1;
-    unsigned long long _w_size;
-    unsigned long long _point_size;
-    _SFAESKey *_session_key;
-    NSMutableData *_raw_session_key;
 }
 
-- (unsigned long long);
+- (unsigned long long)r( ;
 - (id);
 - (_Bool);
 - (struct ccspake_ctx *);
@@ -32,9 +18,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)m ;
+- (void) ;
+- (void)a ;
 - (void);
 - (void);
 - (void);
@@ -46,8 +32,8 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id) ;
+- (id)( ;
 - (id);
 - (id);
 - (_Bool);
@@ -55,42 +41,30 @@ __attribute__((visibility("hidden")))
 - (struct ccspake_cp *);
 - (id);
 - (id);
+- (id)( ;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)h ;
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)rl ;
 - (struct ccrng_state *);
 - (void);
 - (id);
 - (id);
 - (void);
-- (struct ccspake_mac *);
+- (struct ccspake_mac *)th error:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)tem for identifier=%{public}@;
 
 // Remaining properties
-@property(retain) NSString *code; // @synthesize code=_code;
-@property struct ccspake_cp *cp; // @synthesize cp=_cp;
-@property struct ccspake_mac *mac; // @synthesize mac=_mac;
-@property unsigned long long point_size; // @synthesize point_size=_point_size;
-@property(retain) NSMutableData *raw_session_key; // @synthesize raw_session_key=_raw_session_key;
 @property struct ccrng_state *rng; // @synthesize rng=_rng;
-@property(retain) NSData *salt; // @synthesize salt=_salt;
-@property(retain) _SFAESKey *session_key; // @synthesize session_key=_session_key;
-@property struct ccspake_ctx *spake_ctx; // @synthesize spake_ctx=_spake_ctx;
-@property _Bool verified; // @synthesize verified=_verified;
-@property(retain) NSData *w0; // @synthesize w0=_w0;
-@property(retain) NSData *w1; // @synthesize w1=_w1;
-@property unsigned long long w_size; // @synthesize w_size=_w_size;
 
 @end
 

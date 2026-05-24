@@ -8,7 +8,7 @@
 {
 }
 
-+ (void);
++ (void). Share %@, object %@;
 
 @end
 

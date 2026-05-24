@@ -9,15 +9,10 @@
 @interface UIKit.UIPromptSuggestionView : UIControl
 {
     id configuration;
-    id backdropView;
-    id label;
-    id imageButtonView;
-    id contentView;
-    id isAnimating;
 }
 
 - (struct CGSize);
-- (struct CGSize);
+- (struct CGSize)TemplateKit/TLKAsyncCache.swift;
 - (id);
 - (void);
 - (struct CGSize);

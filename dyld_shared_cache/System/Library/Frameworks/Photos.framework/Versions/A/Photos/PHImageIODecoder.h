@@ -7,13 +7,11 @@
 #import <Photos/PHImageDecoder.h>
 
 @class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
+@protocol OS_dispatch_queue;
 
 @interface PHImageIODecoder : PHImageDecoder
 {
     NSObject<OS_dispatch_queue> *_pendingRequestQueue;
-    NSObject<OS_dispatch_queue> *_activeRequestQueue;
-    NSObject<OS_dispatch_semaphore> *_concurrentRequestSemaphore;
 }
 
 + (void);

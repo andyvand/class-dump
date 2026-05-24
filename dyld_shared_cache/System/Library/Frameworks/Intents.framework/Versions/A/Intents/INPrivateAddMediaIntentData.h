@@ -4,52 +4,39 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INPrivateMediaIntentData, NSArray, NSData, NSString;
+@class INPrivateMediaIntentData;
 
 @interface INPrivateAddMediaIntentData
 {
     INPrivateMediaIntentData *_privateMediaIntentData;
-    NSArray *_audioSearchResults;
-    NSArray *_internalSignals;
-    NSData *_pegasusMetaData;
 }
 
 + (id);
-+ (_Bool);
++ (_Bool)`;
 - (void);
+- (id)c;
 - (id);
 - (id);
 - (id);
+- (id)7;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)decodeDoubleForKey:(id)arg1;
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)has6GHzOnlyBSS;
+- (void)ailed;
+- (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id)WithPreferredCallProviderToConfirm:(unsigned long long)arg1;
-- (void)ddTasks: /* Error: Ran out of types for this method. */;
+- (id)confirmationRequiredWithPreferredCallProviderToConfirm:(unsigned long long)arg1;
+- (void)defaultContactEventTriggerForAddTasks: /* Error: Ran out of types for this method. */;
 - (id)x°ÿ;v4ûR;
 
 // Remaining properties
-@property(readonly, copy) NSArray *audioSearchResults; // @synthesize audioSearchResults=_audioSearchResults;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly, copy) NSArray *internalSignals; // @synthesize internalSignals=_internalSignals;
-@property(readonly, copy) NSData *pegasusMetaData; // @synthesize pegasusMetaData=_pegasusMetaData;
-@property(copy) INPrivateMediaIntentData *privateMediaIntentData; // @synthesize privateMediaIntentData=_privateMediaIntentData;
-@property(readonly) Class superclass;
 
 @end
 

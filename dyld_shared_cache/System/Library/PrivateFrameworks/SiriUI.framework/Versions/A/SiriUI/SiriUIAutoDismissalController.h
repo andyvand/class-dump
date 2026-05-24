@@ -4,35 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer, NSTrackingArea, NSViewController;
-@protocol SiriUIAutoDismissalControllerClickOutsideContentDelegate, SiriUIAutoDismissalControllerDelegate;
+@class NSTimer;
 
 @interface SiriUIAutoDismissalController
 {
     NSTimer *_timer;
-    NSTrackingArea *_trackingArea;
-    struct __CFMachPort *_tap;
-    struct __CFRunLoopSource *_tapSource;
-    id _dismissalEventMonitor;
-    NSTimer *_clickOutsideOfContentHoldBackTimer;
-    _Bool _pauseOutOfContentDismissal;
-    _Bool _enabled;
-    _Bool _isHovering;
-    _Bool _isKeyWindow;
-    NSViewController *_viewController;
-    id <SiriUIAutoDismissalControllerDelegate> _delegate;
-    id <SiriUIAutoDismissalControllerClickOutsideContentDelegate> _clickOutsideContentDelegate;
-    double _timerInterval;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)T4;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -45,29 +31,23 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)ckShouldUpdate_transcriptEmergencyEmphasizedFontAttributes;
+- (void)_hintContainer;
 - (void);
 - (void);
 - (void);
 - (id);
-- (_Bool);
 - (void);
-- (void)int;
+- (void);
+- (void);
+- (id)P;
+- (_Bool)tableView:draggingSession:willBeginAtPoint:forRowIndexes: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)backNavigationButtonVerticalConstraint;
 - (void)ame;
 
 // Remaining properties
-@property(nonatomic) __weak id <SiriUIAutoDismissalControllerClickOutsideContentDelegate> clickOutsideContentDelegate; // @synthesize clickOutsideContentDelegate=_clickOutsideContentDelegate;
-@property(nonatomic) __weak id <SiriUIAutoDismissalControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
 @property(nonatomic, getter=isHovering) _Bool hovering; // @synthesize hovering=_isHovering;
-@property(nonatomic, getter=isKeyWindow) _Bool isKeyWindow; // @synthesize isKeyWindow=_isKeyWindow;
-@property(nonatomic) double timerInterval; // @synthesize timerInterval=_timerInterval;
-@property(readonly) __weak NSViewController *viewController; // @synthesize viewController=_viewController;
 
 @end
 

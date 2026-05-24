@@ -4,37 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIImageView, UIView, UIVisualEffectView;
 @protocol CKPaddleOverlayViewDelegate;
 
 @interface CKPaddleOverlayView
 {
     id <CKPaddleOverlayViewDelegate> _delegate;
-    UIView *_contentView;
-    UIImageView *_shadowView;
-    UIVisualEffectView *_visualEffectView;
-    UIView *_darkOuterGlowView;
-    UIView *_innerGlowView;
-    UIView *_paddleView;
-    UIView *_viewToShow;
-    struct CGRect _overlayRect;
-    struct CGRect _anchorRect;
 }
 
+- (id)setAboveExistingHighlights: /* Error: Ran out of types for this method. */;
+- (void)removeObjectAtIndex: /* Error: Ran out of types for this method. */;
+- (void)htmlStoreCoordinator;
+- (void)defaultListAttributesWithContentSizeCategory:(id)arg1;
+- (void)_paperSizeHint;
+- (void)oint=dd}{CGSize=dd}},N,R;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)M;
+- (void);
+- (void)c
+;
+- (void)ashFolder;
+- (id)_subQueryString;
+- (void)AutomationVisibilityKey;
 - (struct CGRect);
 - (struct CGRect);
 - (void);
@@ -53,16 +44,7 @@
 - (id)Ðr/;
 
 // Remaining properties
-@property(nonatomic) struct CGRect anchorRect; // @synthesize anchorRect=_anchorRect;
-@property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(retain, nonatomic) UIView *darkOuterGlowView; // @synthesize darkOuterGlowView=_darkOuterGlowView;
 @property(nonatomic) __weak id <CKPaddleOverlayViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(retain, nonatomic) UIView *innerGlowView; // @synthesize innerGlowView=_innerGlowView;
-@property(nonatomic) struct CGRect overlayRect; // @synthesize overlayRect=_overlayRect;
-@property(retain, nonatomic) UIView *paddleView; // @synthesize paddleView=_paddleView;
-@property(retain, nonatomic) UIImageView *shadowView; // @synthesize shadowView=_shadowView;
-@property(retain, nonatomic) UIView *viewToShow; // @synthesize viewToShow=_viewToShow;
-@property(retain, nonatomic) UIVisualEffectView *visualEffectView; // @synthesize visualEffectView=_visualEffectView;
 
 @end
 

@@ -16,34 +16,29 @@
 + (id);
 + (id);
 - (void);
+- (void)Lc;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)ħ;
+- (id)s\t;
+- (id)L0;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)@;
 - (_Bool);
-- (id);
-- (id);
-- (unsigned long long);
+- (id)eply because the message was not expecting a reply:%{public}@  /* Error: Ran out of types for this method. */;
+- (id)fetch custom origin data:(id)arg1 %{public}@;
+- (unsigned long long)@;
 - (id);
 - (id);
 - (double);
-- (id);
+- (id)arge_start_soc_curr_dynamic_bin_8;
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long changedFields;
-@property(nonatomic) _Bool changesAcknowledged;
-@property(copy, nonatomic) NSString *extractionGroupIdentifier;
 @property(copy, nonatomic) NSString *opaqueKey;
-@property(nonatomic) double timestamp;
-@property(copy, nonatomic) NSString *uniqueKey;
 
 @end
 

@@ -14,12 +14,12 @@
 }
 
 + (_Bool);
+- (id)ECT %@ FROM %@;
+- (id)@"NSMutableDictionary"8;
+- (id)max pk for entityID = %u with old = %qd and new = %qd;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)7;
 - (void);
 
 // Remaining properties

@@ -7,19 +7,6 @@
 @interface NewsFeed.FormatIssueCoverNode
 {
     id _identifier;
-    id size;
-    id resize;
-    id _adjustments;
-    id style;
-    id animation;
-    id content;
-    id _zIndex;
-    id _visibility;
-    id _isUserInteractionEnabled;
-    id accessibilityRole;
-    id _selectors;
-    id sizeConstraint;
-    id flex;
 }
 
 @end

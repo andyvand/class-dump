@@ -9,6 +9,15 @@
 @protocol HMHomeDelegate
 
 @optional
-- (void)ame:(HMHome *)arg1;
+- (void)z;
+- (void)T?;
+- (void)";
+- (void);
+- (void);
+- (void);
+- (void)Configuration;
+- (void)8@16@24B32^{CGImage=}36;
+- (void)N;
+- (void)__stopMonitoringDefaultEventIDsForInterfaceName:(HMHome *)arg1;
 @end
 

@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSString, SWDatastore;
-@protocol SWDatastoreSynchronizationManager, SWDocumentStateProviding, SWLogger;
+@class NSHashTable, SWDatastore;
 
 @interface SWDatastoreManager
 {
     SWDatastore *_privateDatastore;
-    NSHashTable *_observers;
-    id <SWLogger> _logger;
-    id <SWDocumentStateProviding> _documentStateProvider;
-    id <SWDatastoreSynchronizationManager> _datastoreSynchronizationManager;
 }
 
 - (void);
@@ -26,23 +21,11 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (id)r: /* Error: Ran out of types for this method. */;
+- (void)_;
+- (id)setLoader: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) SWDatastore *datastore;
-@property(readonly, nonatomic) id <SWDatastoreSynchronizationManager> datastoreSynchronizationManager; // @synthesize datastoreSynchronizationManager=_datastoreSynchronizationManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <SWDocumentStateProviding> documentStateProvider; // @synthesize documentStateProvider=_documentStateProvider;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <SWLogger> logger; // @synthesize logger=_logger;
 @property(readonly, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(retain, nonatomic) SWDatastore *privateDatastore; // @synthesize privateDatastore=_privateDatastore;
-@property(readonly) Class superclass;
 
 @end
 

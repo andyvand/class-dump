@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, PKPaymentService, PKVirtualCardManager;
-@protocol OS_dispatch_queue;
+@class PKPaymentService;
 
 @interface PKAutoFillCardManager
 {
     PKPaymentService *_paymentService;
-    PKVirtualCardManager *_virtualCardManager;
-    NSObject<OS_dispatch_queue> *_queue;
 }
 
 + (struct CGImage *);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (void);
 - (void);
 - (long long);
@@ -32,16 +29,16 @@
 - (void);
 - (void);
 - (id);
+- (void)es if Tidy should convert the value of an attribute that takes a list of predefined values to lower case. This is required for XHTML documents. ;
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)ontextLock;
+- (void)_contextLock;
 - (unsigned long long)?0AÐAÄCtGG;
-- (void)ne;
-- (void)TION_REJECTED;
-- (void)yErrorDomain;
+- (void)airline;
+- (void)PAYMENT_TRANSACTION_REJECTED;
+- (void)PKDiscoveryErrorDomain;
 
 @end
 

@@ -4,28 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SOAudioDevice;
-
 @interface SOAudioSource
 {
     unsigned int _kind;
-    NSString *_name;
-    NSString *_sourceType;
-    SOAudioDevice *_device;
 }
 
 - (id);
 - (_Bool);
+- (id).;
 - (id);
-- (id);
-- (long long);
+- (long long);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)moji/boar/sleeping_face;
 - (unsigned int);
-- (id)ariant: /* Error: Ran out of types for this method. */;
+- (id)setGraphicVariant: /* Error: Ran out of types for this method. */;
 
 @end
 

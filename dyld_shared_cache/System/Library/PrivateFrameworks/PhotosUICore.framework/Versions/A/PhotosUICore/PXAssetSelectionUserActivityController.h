@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUserActivity, PXSectionedSelectionManager, PXSelectionSnapshot;
+@class NSUserActivity;
 
 @interface PXAssetSelectionUserActivityController
 {
     struct os_unfair_lock_s _snapshotLock;
-    _Bool _active;
-    _Bool _hasSelection;
-    PXSelectionSnapshot *_selectionSnapshot;
-    PXSectionedSelectionManager *_selectionManager;
-    NSUserActivity *_currentUserActivity;
 }
 
 - (void);
@@ -27,26 +22,16 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (_Bool);
-- (void);
+- (void)aspectRatio;
+- (_Bool)Slide Count:%d
+ /* Error: Ran out of types for this method. */;
+- (void)A;
 - (id);
-- (void)ailableCodingKeys;
+- (void)UnavailableCodingKeys;
 - (void)pKÊ;
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
 @property(retain, nonatomic) NSUserActivity *currentUserActivity; // @synthesize currentUserActivity=_currentUserActivity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasSelection; // @synthesize hasSelection=_hasSelection;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) PXSectionedSelectionManager *selectionManager; // @synthesize selectionManager=_selectionManager;
-@property(retain, nonatomic) PXSelectionSnapshot *selectionSnapshot; // @synthesize selectionSnapshot=_selectionSnapshot;
-@property(readonly) Class superclass;
 
 @end
 

@@ -7,16 +7,6 @@
 @interface XavierNews.Classic.CohortProvider
 {
     id originalCohorts;
-    id derivedCohorts;
-    id type;
-    id publisherID;
-    id evaluationConfig;
-    id isANF;
-    id isFeatured;
-    id isFeatureCandidate;
-    id shouldReduceVisibility;
-    id tagQuality;
-    id logClientServerClickMismatch;
 }
 
 @end

@@ -6,38 +6,28 @@
 
 #import <EventKitUI/EKCalendarEditItem.h>
 
-@class NSString, UITableViewCell;
+@class UITableViewCell;
 
 @interface EKCalendarTitleEditItem : EKCalendarEditItem
 {
     UITableViewCell *_cell;
-    _Bool _showHeader;
-    NSString *_prefillTitle;
 }
 
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool);
+- (void)XS&s;
+- (void))s;
+- (_Bool)9&s;
+- (id);
+- (_Bool){;
+- (void);
 - (id);
 - (_Bool);
-- (void);
-- (id);
-- (_Bool);
-- (id);
-- (void)onHandler: /* Error: Ran out of types for this method. */;
+- (id)C;
+- (void)openUserActivity:usingApplicationRecord:configuration:completionHandler: /* Error: Ran out of types for this method. */;
 - (double)!4V;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSString *prefillTitle; // @synthesize prefillTitle=_prefillTitle;
 @property(nonatomic) _Bool showHeader; // @synthesize showHeader=_showHeader;
-@property(readonly) Class superclass;
 
 @end
 

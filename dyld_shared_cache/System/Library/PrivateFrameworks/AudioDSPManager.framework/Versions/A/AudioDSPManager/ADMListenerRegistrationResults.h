@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface ADMListenerRegistrationResults
 {
@@ -19,7 +17,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *error;
 @property(nonatomic, readonly) _Bool successful;
 
 @end

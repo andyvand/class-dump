@@ -5,6 +5,7 @@
 //
 
 @protocol INGetVisualCodeIntentExport
+- (long long);
 
 // Remaining properties
 @property long long visualCodeType;

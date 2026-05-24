@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ABPersonListSearchController, CNContactListController, NSString, NSTimer;
+@class ABPersonListSearchController, NSTimer;
 
 @interface CNContactPickerSearchController
 {
     ABPersonListSearchController *_searchController;
-    CNContactListController *_contactListController;
-    NSTimer *_deferProgressTimer;
 }
 
 - (void);
@@ -31,16 +29,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) unsigned long long countOfLocalSearchesPerformed;
-@property(readonly) unsigned long long countOfServerSearchesPerformed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(retain) NSTimer *deferProgressTimer; // @synthesize deferProgressTimer=_deferProgressTimer;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

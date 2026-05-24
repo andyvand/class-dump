@@ -4,34 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRClient, MRPlayer, MRPlayerPath, NSArray, NSMutableArray, NSObject;
-@protocol OS_dispatch_queue;
+@class MRPlayer;
 
 @interface MRNowPlayingClient
 {
     MRPlayer *_activePlayer;
-    NSMutableArray *_playerClients;
-    _Bool _isForeground;
-    _Bool _canBeNowPlaying;
-    double _canBeNowPlayingTimestamp;
-    _Bool _perPlayerCanBeNowPlaying;
-    NSObject<OS_dispatch_queue> *_replayQueue;
-    NSMutableArray *_commandQueue;
-    NSObject<OS_dispatch_queue> *_avscQueue;
-    _Bool _useMediaRemoteActivePlayerHeuristic;
-    MRPlayerPath *_playerPath;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)_im_filePathWithPossibleAlternateExtensions:(id)arg1;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -41,28 +30,22 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)D;
+- (id):8@"AFAudioPlaybackRequest"16B24 /* Error: Ran out of types for this method. */;
+- (void)Identifier = %@, isCommunalDevice = %@, roomName = %@, name = %@, productType = %@, buildVersion = %@, userInterfaceIdiom = %@, aceVersion = %@, isLocationSharingDevice = %@, isSiriCloudSyncEnabled = %@, myriadTrialTreatment = %@};
+- (void)A;
 - (void);
 - (void);
 - (id);
 - (id);
 - (id)0@ù
 × ;
-- (void)bilityDidChange:(id)arg1 forOutputDevice: /* Error: Ran out of types for this method. */;
+- (void)legacyController:(id)arg1 volumeControlAvailabilityDidChange:forOutputDevice: /* Error: Ran out of types for this method. */;
 - (void)tring",&,N,V_vendorName;
-- (void)PC_CONTENT_IDENTIFIERS;
+- (void)MRXPC_CONTENT_IDENTIFIERS;
 
 // Remaining properties
-@property(readonly, nonatomic) MRPlayerPath *activePlayerPath;
 @property(nonatomic) _Bool canBeNowPlaying;
-@property(retain, nonatomic) MRClient *client;
-@property(nonatomic) _Bool perPlayerCanBeNowPlaying;
-@property(readonly, nonatomic) NSArray *playerClients;
-@property(retain, nonatomic) MRPlayerPath *playerPath; // @synthesize playerPath=_playerPath;
-@property(nonatomic) _Bool useMediaRemoteActivePlayerHeuristic; // @synthesize useMediaRemoteActivePlayerHeuristic=_useMediaRemoteActivePlayerHeuristic;
 
 @end
 

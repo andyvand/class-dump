@@ -10,21 +10,18 @@
 @interface AVCEndpoint
 {
     NSString *_description;
-    NSObject<OS_nw_endpoint> *_endpoint;
-    unsigned int _rtpSSRC;
 }
 
 + (id);
 - (void);
-- (id);
-- (unsigned int);
-- (void);
+- (id);
+- (unsigned int)K;
+- (void)G;
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) NSObject<OS_nw_endpoint> *endpoint; // @synthesize endpoint=_endpoint;
-@property(nonatomic) unsigned int rtpSSRC; // @synthesize rtpSSRC=_rtpSSRC;
 
 @end
 

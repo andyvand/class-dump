@@ -10,8 +10,8 @@
 {
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool)setMetadata:(id)arg1 forPersistentStore:(id)arg2;
+- (_Bool)photoFromAssetURL:(id *)arg1 photoLibrary: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 
 @end

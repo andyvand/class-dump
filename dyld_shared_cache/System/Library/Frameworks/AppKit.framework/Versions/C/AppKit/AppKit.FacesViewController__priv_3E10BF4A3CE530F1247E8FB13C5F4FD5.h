@@ -9,21 +9,15 @@
 @interface AppKit.FacesViewController__priv_3E10BF4A3CE530F1247E8FB13C5F4FD5 : NSViewController
 {
     id selectedFaceName;
-    id selectedFontName;
-    id fontPanel;
-    id scrollView;
-    id tableView;
-    id messageView;
-    id fonts;
 }
 
 - (void);
 - (id);
-- (long long);
+- (long long)v7h4TrJdmukTl8gpzVl3DQ;
 - (id);
-- (id);
+- (id);
 - (void);
-- (void)FilePresenter: /* Error: Ran out of types for this method. */;
+- (void)removeFilePresenter: /* Error: Ran out of types for this method. */;
 - (void)ock_invoke;
 
 @end

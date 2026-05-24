@@ -30,7 +30,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *url;
-@property(retain, nonatomic) NSString *value; // @synthesize value=_value;
 
 @end
 

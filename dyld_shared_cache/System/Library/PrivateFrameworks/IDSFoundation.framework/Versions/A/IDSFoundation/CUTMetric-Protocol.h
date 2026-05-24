@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol CUTMetric
+- (NSString *);
 
 // Remaining properties
 @property(readonly) NSString *name;

@@ -7,12 +7,10 @@
 @interface NewsUI2.RecipeBoxTitleView
 {
     id titleLabel;
-    id subtitleLabel;
-    id containerView;
 }
 
 - (id);
-- (void);
+- (void)_durationUpdatedForItem:duration: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 

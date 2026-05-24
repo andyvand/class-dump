@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTextStorage, NSUndoManager;
-
 @interface NSUndoTextOperation
 {
     struct _NSRange _affectedRange;
-    NSUndoManager *_undoManager;
-    NSTextStorage *_textStorage;
 }
 
-- (void);
+- (void)s:(id)arg1 malformed im4c tag length:%lu /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
 - (id);
@@ -26,7 +22,6 @@
 
 // Remaining properties
 @property(nonatomic) struct _NSRange affectedRange; // @synthesize affectedRange=_affectedRange;
-@property(nonatomic) NSUndoManager *undoManager; // @synthesize undoManager=_undoManager;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol PDSEntryStoreDelegate
+- (void)message_conversation_id_conversation_position_index;
 @end
 

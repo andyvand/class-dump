@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSManagedObjectModel, NSPersistentStoreCoordinator, RTPersistenceStore;
-@protocol RTPersistenceDelegate, RTPersistenceModelProvider;
+@class NSDate, NSPersistentStoreCoordinator;
 
 @interface RTPersistenceMigrator
 {
     NSPersistentStoreCoordinator *_cachedCoordinator;
-    NSDate *_migrationStartDate;
-    NSDate *_migrationEndDate;
-    RTPersistenceStore *_store;
-    id <RTPersistenceModelProvider> _modelProvider;
-    id <RTPersistenceDelegate> _delegate;
-    unsigned long long _state;
-    NSManagedObjectModel *_nextModel;
 }
 
 + (id);
@@ -24,44 +16,37 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (unsigned long long);
-- (void);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (long long);
+- (_Bool);
+- (unsigned long long)arfishEscrow;
+- (void)ord to wrapping key;
+- (unsigned long long)o wrap recoveryTokenSecret record to wrapping key;
+- (unsigned long long)y for primary hsm secret;
+- (unsigned long long)ameter;
+- (unsigned long long)issing Encrypted Contents parameter;
+- (unsigned long long)ry HSM Record Secret parameter;
+- (unsigned long long)ode existing blob;
+- (unsigned long long)oding inner record;
+- (unsigned long long)pDBRv2EscrowContents;
+- (long long)ProtectedData;
+- (id)gration;
+- (void)heck Octagon CDP status:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)P metadata is missing, but OTAccountSettings indicate that ADP is enabled;
+- (id)na:(id)arg1 %@;
+- (unsigned long long)iled getting iCDPState:(id)arg1 %@;
+- (void)StoreHSM;
+- (id);
+- (id)yOH;
+- (id);
 - (id);
 - (void);
 - (unsigned long long);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (unsigned long long);
-- (id);
+- (id);
 - (unsigned long long);
 - (void)meter not satisfying:hintSource == RTHintSourceGeoFenceEntry || hintSource == RTHintSourceGeoFenceExit || hintSource == RTHintSourceSignificantRegionEntry || hintSource == RTHintSourceSignificantRegionExit || hintSource == RTHintSourceCompanionSyncVisit /* Error: Ran out of types for this method. */;
 - (unsigned long long)tch deleting entity type during reset sync, %@;
 
 // Remaining properties
-@property(readonly) __weak id <RTPersistenceDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly) NSDate *migrationEndDate; // @synthesize migrationEndDate=_migrationEndDate;
 @property(readonly) NSDate *migrationStartDate; // @synthesize migrationStartDate=_migrationStartDate;
-@property(readonly) __weak id <RTPersistenceModelProvider> modelProvider; // @synthesize modelProvider=_modelProvider;
-@property(retain, nonatomic) NSManagedObjectModel *nextModel; // @synthesize nextModel=_nextModel;
-@property unsigned long long state; // @synthesize state=_state;
-@property(readonly) unsigned long long status;
-@property(readonly) __weak RTPersistenceStore *store; // @synthesize store=_store;
 
 @end
 

@@ -5,6 +5,7 @@
 //
 
 @protocol AKCardViewDataSourceSupport
-- (void)venNameKey;
+- (void);
+- (void)CNLikenessEditorGivenNameKey;
 @end
 

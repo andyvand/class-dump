@@ -5,6 +5,7 @@
 //
 
 @protocol MTLFunctionHandleSPI
+- (unsigned long long);
 
 // Remaining properties
 @property(readonly) unsigned long long resourceIndex;

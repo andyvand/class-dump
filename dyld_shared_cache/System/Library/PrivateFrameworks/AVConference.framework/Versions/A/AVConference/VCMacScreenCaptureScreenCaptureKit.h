@@ -6,36 +6,10 @@
 
 #import <AVConference/VCObject.h>
 
-@class NSObject, NSString, SCContentFilter, SCStream;
-@protocol OS_dispatch_queue, OS_dispatch_semaphore;
-
 __attribute__((visibility("hidden")))
 @interface VCMacScreenCaptureScreenCaptureKit : VCObject
 {
     id _delegate;
-    SCStream *_screenStream;
-    NSObject<OS_dispatch_queue> *_screenSampleHandlerQueue;
-    _Bool _isWindowed;
-    unsigned int _displayWidth;
-    unsigned int _displayHeight;
-    NSObject<OS_dispatch_queue> *_audioSampleHandlerQueue;
-    void *_audioSinkContext;
-    CDUnknownFunctionPointerType _audioSinkProc;
-    struct _opaque_pthread_mutex_t _audioContextMutex;
-    unsigned int _audioSampleCount;
-    unsigned int _audioTimestamp;
-    double _audioHostTime;
-    struct opaqueVCAudioBufferList *_audioBuffer;
-    _Bool _useScreenCaptureKitForAudio;
-    _Bool _useScreenCaptureKitPicker;
-    SCContentFilter *_contentFilter;
-    struct CGColor *_backgroundColor;
-    struct __CVPixelBufferPool *_translateBufferPool;
-    struct OpaqueVTPixelTransferSession *_translateTransferSession;
-    NSObject<OS_dispatch_semaphore> *_stopSemaphore;
-    NSObject<OS_dispatch_semaphore> *_startSemaphore;
-    _Bool _alwaysHDCaptureEnabled;
-    struct _VCMacScreenCaptureSourceContext _frameCallback;
 }
 
 - (_Bool);
@@ -48,27 +22,21 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)R";
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (int);
+- (int)Tv;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

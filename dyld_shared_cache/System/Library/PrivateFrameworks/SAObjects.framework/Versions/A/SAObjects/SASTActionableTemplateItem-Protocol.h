@@ -7,6 +7,7 @@
 @protocol SASTTemplateAction;
 
 @protocol SASTActionableTemplateItem
+- (void)H;
 
 // Remaining properties
 @property(retain, nonatomic) id <SASTTemplateAction> action;

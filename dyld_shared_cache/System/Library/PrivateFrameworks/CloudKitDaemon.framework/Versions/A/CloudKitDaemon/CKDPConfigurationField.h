@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDPConfigurationFieldValue, NSString;
+@class NSString;
 
 @interface CKDPConfigurationField
 {
     NSString *_name;
-    CKDPConfigurationFieldValue *_value;
 }
 
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)decodeContractStructure46:(id)arg1;
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)itical=%s;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -32,9 +31,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool hasName;
-@property(readonly, nonatomic) _Bool hasValue;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) CKDPConfigurationFieldValue *value; // @synthesize value=_value;
 
 @end
 

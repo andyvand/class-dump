@@ -11,7 +11,6 @@
 @interface HMFAssertion : HMFObject
 {
     _Bool _valid;
-    NSString *_name;
 }
 
 + (id);
@@ -20,7 +19,7 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)??$M8A!A;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -31,16 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSString *name; // @synthesize name=_name;
-@property(readonly) Class superclass;
-@property(readonly, copy) NSString *uniqueDescription;
-@property(readonly, getter=isValid) _Bool valid; // @synthesize valid=_valid;
 
 @end
 

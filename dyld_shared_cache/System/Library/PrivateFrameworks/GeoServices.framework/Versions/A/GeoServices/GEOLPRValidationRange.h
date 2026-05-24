@@ -9,24 +9,18 @@
 @interface GEOLPRValidationRange
 {
     NSString *_validCharacters;
-    int _end;
-    int _start;
-    struct {
-        unsigned int has_end:1;
-        unsigned int has_start:1;
-    } _flags;
 }
 
-+ (_Bool)Index:(id)arg1;
++ (_Bool)setHasSelectedRouteIndex:(id)arg1;
 - (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (id);
-- (void);
-- (id);
+- (_Bool)stringByReplacingOccurrencesOfString:withString: /* Error: Ran out of types for this method. */;
+- (id)<;
+- (void)!;
+- (id)J;
 - (id);
 - (void);
 - (void);
@@ -36,7 +30,7 @@
 - (_Bool);
 - (int);
 - (void);
-- (id)ing:(struct _NSZone *)arg1;
+- (id)setNavigating:(struct _NSZone *)arg1;
 - (id)fier;
 - (id)pe_PUBLISHER_VIEW_RESULT_FILTER_TYPE_ADDRESS;
 - (id)ÿÿ;
@@ -45,12 +39,7 @@
 - (void)J5;
 
 // Remaining properties
-@property(nonatomic) int end;
-@property(nonatomic) _Bool hasEnd;
 @property(nonatomic) _Bool hasStart;
-@property(readonly, nonatomic) _Bool hasValidCharacters;
-@property(nonatomic) int start;
-@property(retain, nonatomic) NSString *validCharacters;
 
 @end
 

@@ -4,44 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EMMailboxScope, NSPredicate, NSString;
+@class EMMailboxScope;
 
 @interface EMThreadScope
 {
     EMMailboxScope *_mailboxScope;
-    NSPredicate *_filterPredicate;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id));
 - (id);
 - (unsigned long long);
-- (id);
+- (id)$;
 - (_Bool);
 - (void);
+- (id)e.;
 - (id);
 - (id);
+- (id)MSRPCReauthorizeAsync;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)__objc_protorefs__DATA_CONST;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *ef_publicDescription;
-@property(readonly, copy, nonatomic) NSString *ef_shortPublicDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSPredicate *filterPredicate; // @synthesize filterPredicate=_filterPredicate;
 @property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) EMMailboxScope *mailboxScope; // @synthesize mailboxScope=_mailboxScope;
-@property(readonly) Class superclass;
 
 @end
 

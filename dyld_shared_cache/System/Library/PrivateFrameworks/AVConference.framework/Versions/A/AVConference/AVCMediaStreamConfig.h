@@ -4,54 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCAudioStreamConfig, AVCNetworkAddress, AVCTextStreamConfig, AVCVideoStreamConfig, NSArray, NSData, NSString, NSUUID;
+@class AVCNetworkAddress;
 
 @interface AVCMediaStreamConfig
 {
     AVCNetworkAddress *_localAddress;
-    AVCNetworkAddress *_remoteAddress;
-    long long _direction;
-    unsigned long long _txPayloadType;
-    unsigned long long _rxPayloadType;
-    unsigned int _localSSRC;
-    unsigned int _remoteSSRC;
-    NSString *_cName;
-    _Bool _rateAdaptationEnabled;
-    _Bool _rtcpEnabled;
-    _Bool _rtcpXREnabled;
-    unsigned short _rtcpRemotePort;
-    double _rtcpSendInterval;
-    _Bool _rtpTimeOutEnabled;
-    _Bool _rtcpTimeOutEnabled;
-    double _rtpTimeOutInterval;
-    double _rtcpTimeOutInterval;
-    unsigned long long _recommendedMTU;
-    NSData *_sendMediaKey;
-    NSData *_receiveMediaKey;
-    long long _SRTPCipherSuite;
-    long long _SRTCPCipherSuite;
-    AVCAudioStreamConfig *_audio;
-    AVCVideoStreamConfig *_video;
-    AVCTextStreamConfig *_text;
-    long long _streamInputID;
-    unsigned long long _networkClockID;
-    unsigned int _jitterBufferMode;
-    _Bool _jitterBufferModeSet;
-    unsigned long long _fixedJitterBufferSize;
-    _Bool _outOfProcessCodecsEnabled;
-    unsigned char _dscpTag;
-    NSArray *_remoteEndpoints;
-    long long _accessNetworkType;
-    unsigned long long _packetExpirationTime;
-    NSUUID *_rtpNWConnectionClientID;
-    NSUUID *_rtcpNWConnectionClientID;
 }
 
 + (int);
 + (long long);
-+ (id);
++ (id));
 + (long long);
-- (unsigned long long);
+- (unsigned long long)h@9;
 - (long long);
 - (void);
 - (void);
@@ -60,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -71,17 +35,17 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (double);
+- (double)k;
 - (unsigned short);
 - (id);
 - (unsigned int);
 - (unsigned long long);
 - (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (unsigned long long);
 - (unsigned int);
-- (unsigned int);
+- (unsigned int)Y)+;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -99,9 +63,9 @@
 - (_Bool);
 - (unsigned char);
 - (long long);
-- (long long);
+- (long long)@;
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
@@ -137,51 +101,14 @@
 - (void);
 - (id);
 - (void);
-- (long long)Type:remoteIP:remoteIPLength: /* Error: Ran out of types for this method. */;
-- (void)verUtilizedBandwidth;
+- (long long)setAudioRTPStreamParamatersForSocket:packetType:remoteIP:remoteIPLength: /* Error: Ran out of types for this method. */;
+- (void)_sumOverUtilizedBandwidth;
 - (void)eServer [%s] %s:(long long)arg1 %d Failed to start system audio capture clientKey=%@.;
 - (id)/Caches/com.apple.xbs/TemporaryDirectory.ZMSfoZ/Sources/AVConference/AVConference.subproj/Sources/Others/VideoReceiver.c:%d:VideoReceiver[%p] Can't extract avcC from format description /* Error: Ran out of types for this method. */;
 - (id)onference setPauseAudio:callID:error:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) long long SRTCPCipherSuite; // @synthesize SRTCPCipherSuite=_SRTCPCipherSuite;
-@property(nonatomic) long long SRTPCipherSuite; // @synthesize SRTPCipherSuite=_SRTPCipherSuite;
-@property(nonatomic) long long accessNetworkType; // @synthesize accessNetworkType=_accessNetworkType;
-@property(retain, nonatomic) AVCAudioStreamConfig *audio; // @synthesize audio=_audio;
-@property(copy, nonatomic) NSString *cName; // @synthesize cName=_cName;
-@property(nonatomic) long long direction; // @synthesize direction=_direction;
-@property(nonatomic) unsigned char dscpTag; // @synthesize dscpTag=_dscpTag;
-@property(nonatomic) unsigned long long fixedJitterBufferSize; // @synthesize fixedJitterBufferSize=_fixedJitterBufferSize;
-@property(nonatomic) unsigned int jitterBufferMode; // @synthesize jitterBufferMode=_jitterBufferMode;
 @property(retain, nonatomic) AVCNetworkAddress *localAddress; // @synthesize localAddress=_localAddress;
-@property(nonatomic) unsigned int localSSRC; // @synthesize localSSRC=_localSSRC;
-@property(nonatomic) unsigned long long networkClockID; // @synthesize networkClockID=_networkClockID;
-@property(nonatomic) _Bool outOfProcessCodecsEnabled; // @synthesize outOfProcessCodecsEnabled=_outOfProcessCodecsEnabled;
-@property(nonatomic) unsigned long long packetExpirationTime; // @synthesize packetExpirationTime=_packetExpirationTime;
-@property(nonatomic, getter=isRateAdaptationEnabled) _Bool rateAdaptationEnabled; // @synthesize rateAdaptationEnabled=_rateAdaptationEnabled;
-@property(retain, nonatomic) NSData *receiveMasterKey;
-@property(retain, nonatomic) NSData *receiveMediaKey; // @synthesize receiveMediaKey=_receiveMediaKey;
-@property(nonatomic) unsigned long long recommendedMTU; // @synthesize recommendedMTU=_recommendedMTU;
-@property(retain, nonatomic) AVCNetworkAddress *remoteAddress; // @synthesize remoteAddress=_remoteAddress;
-@property(retain, nonatomic) NSArray *remoteEndpoints; // @synthesize remoteEndpoints=_remoteEndpoints;
-@property(nonatomic) unsigned int remoteSSRC; // @synthesize remoteSSRC=_remoteSSRC;
-@property(nonatomic, getter=isRTCPEnabled) _Bool rtcpEnabled; // @synthesize rtcpEnabled=_rtcpEnabled;
-@property(retain, nonatomic) NSUUID *rtcpNWConnectionClientID; // @synthesize rtcpNWConnectionClientID=_rtcpNWConnectionClientID;
-@property(nonatomic) unsigned short rtcpRemotePort; // @synthesize rtcpRemotePort=_rtcpRemotePort;
-@property(nonatomic) double rtcpSendInterval; // @synthesize rtcpSendInterval=_rtcpSendInterval;
-@property(nonatomic, getter=isRTCPTimeOutEnabled) _Bool rtcpTimeOutEnabled; // @synthesize rtcpTimeOutEnabled=_rtcpTimeOutEnabled;
-@property(nonatomic) double rtcpTimeOutInterval; // @synthesize rtcpTimeOutInterval=_rtcpTimeOutInterval;
-@property(nonatomic, getter=isRTCPXREnabled) _Bool rtcpXREnabled; // @synthesize rtcpXREnabled=_rtcpXREnabled;
-@property(retain, nonatomic) NSUUID *rtpNWConnectionClientID; // @synthesize rtpNWConnectionClientID=_rtpNWConnectionClientID;
-@property(nonatomic, getter=isRTPTimeOutEnabled) _Bool rtpTimeOutEnabled; // @synthesize rtpTimeOutEnabled=_rtpTimeOutEnabled;
-@property(nonatomic) double rtpTimeOutInterval; // @synthesize rtpTimeOutInterval=_rtpTimeOutInterval;
-@property(nonatomic) unsigned long long rxPayloadType; // @synthesize rxPayloadType=_rxPayloadType;
-@property(retain, nonatomic) NSData *sendMasterKey;
-@property(retain, nonatomic) NSData *sendMediaKey; // @synthesize sendMediaKey=_sendMediaKey;
-@property(nonatomic) long long streamInputID; // @synthesize streamInputID=_streamInputID;
-@property(retain, nonatomic) AVCTextStreamConfig *text; // @synthesize text=_text;
-@property(nonatomic) unsigned long long txPayloadType; // @synthesize txPayloadType=_txPayloadType;
-@property(retain, nonatomic) AVCVideoStreamConfig *video; // @synthesize video=_video;
 
 @end
 

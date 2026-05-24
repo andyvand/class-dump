@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, PXPhotosDataSource;
+@class PXPhotosDataSource;
 
 @interface PXPhotosDataSourceStressTest
 {
     _Bool _isPrepared;
-    NSArray *_categories;
-    NSDictionary *_assetsByCategory;
-    unsigned long long _sampleLength;
-    unsigned long long _sampleIndex;
-    _Bool _running;
-    unsigned long long _maximumAssetCount;
-    double _updateInterval;
-    PXPhotosDataSource *_dataSource;
-    unsigned long long _dataSourceIndex;
 }
 
 - (void);
@@ -39,10 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic, setter=_setDataSource:) PXPhotosDataSource *dataSource; // @synthesize dataSource=_dataSource;
-@property(nonatomic, setter=_setDataSourceIndex:) unsigned long long dataSourceIndex; // @synthesize dataSourceIndex=_dataSourceIndex;
-@property(nonatomic) unsigned long long maximumAssetCount; // @synthesize maximumAssetCount=_maximumAssetCount;
-@property(nonatomic, getter=isRunning) _Bool running; // @synthesize running=_running;
-@property(nonatomic) double updateInterval; // @synthesize updateInterval=_updateInterval;
 
 @end
 

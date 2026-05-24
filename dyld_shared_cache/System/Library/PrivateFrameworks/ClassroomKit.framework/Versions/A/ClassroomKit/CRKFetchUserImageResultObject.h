@@ -11,7 +11,7 @@
     NSData *_userImageData;
 }
 
-+ (_Bool);
++ (_Bool)f,;
 - (id);
 - (void);
 - (id);

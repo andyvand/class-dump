@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface BMPBPhotosKnowledgeGraphEnrichmentEvent
 {
     double _absoluteTimestamp;
-    NSString *_contentProtection;
-    NSMutableArray *_entities;
-    NSMutableArray *_locations;
-    NSString *_personaId;
-    NSMutableArray *_topics;
-    NSString *_uniqueId;
-    CDStruct_d3e759b0 _has;
 }
 
 + (Class);
@@ -35,15 +26,16 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)uq
+9;
 - (void);
 - (void);
 - (double);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)R;
 - (void);
-- (id);
+- (id)setLastSuggestedReviewDate: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (void);
@@ -64,17 +56,7 @@
 - (id)+;
 
 // Remaining properties
-@property(nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(retain, nonatomic) NSString *contentProtection; // @synthesize contentProtection=_contentProtection;
-@property(retain, nonatomic) NSMutableArray *entities; // @synthesize entities=_entities;
 @property(nonatomic) _Bool hasAbsoluteTimestamp;
-@property(readonly, nonatomic) _Bool hasContentProtection;
-@property(readonly, nonatomic) _Bool hasPersonaId;
-@property(readonly, nonatomic) _Bool hasUniqueId;
-@property(retain, nonatomic) NSMutableArray *locations; // @synthesize locations=_locations;
-@property(retain, nonatomic) NSString *personaId; // @synthesize personaId=_personaId;
-@property(retain, nonatomic) NSMutableArray *topics; // @synthesize topics=_topics;
-@property(retain, nonatomic) NSString *uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end
 

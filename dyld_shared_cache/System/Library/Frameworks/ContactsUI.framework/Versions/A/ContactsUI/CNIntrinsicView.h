@@ -12,8 +12,8 @@
 }
 
 - (struct CGSize);
-- (id);
-- (void);
+- (id)stringWithUTF8String: /* Error: Ran out of types for this method. */;
+- (void)N3ctu14SharedLoggableI19CapabilitiesHandlerNS_11OsLogLoggerEEE;
 - (void);
 
 // Remaining properties

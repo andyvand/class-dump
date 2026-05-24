@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECBIMIInfo, NSArray, NSData;
+@class ECBIMIInfo, NSData;
 
 @interface EDPersistedBIMIInfo
 {
     ECBIMIInfo *_bimiInfo;
-    long long _indicatorDatabaseID;
-    long long _evidenceDatabaseID;
-    NSData *_evidence;
-    NSArray *_unverifiedMessageDatabaseIDs;
-    NSData *_internalIndicator;
 }
 
 - (id);
@@ -27,20 +22,14 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)AQNCFAUFAQABA0QUBgEBAAEAURQLAQEAAQRnFQUBAQABAz8WBQUBAAEDRRcFAgEAAQNBGAUEAQABA0MYBgEBAAEAMhgIAQEAAQPAGQUBAQABBKwdAQEBAAAdAR0GAQEAAQQXHgUBAQABBTIfBgEBAAEENyEJAQEAAQLEIgkCAQABAsUjCQUBAAECxiMMAQEAAQRJJAkEAQABAsckDAIBAAEESiUCAQEAAQI2JQYBAQABBO4lDAUBAAEESyYCAQEAAQI3JgYBAQABBP8mDAQBAAEETCcCAQEAAQI4JwwBAQABBE0oAgIBAAECOSkCAgEAAQI6KgICAQABAjsrBwEBAAEDvzEHAQEAAQPMMQcCAQABA9gyBwEBAAEDzTIHAgEAAQPZMwcBAQABA84zBwIBAAED2jQGAQEAAQA7NAcBAQABA880BwIBAAED2zUHAQEAAQPQNQcCAQABA902AAIBAAEC0TcAAgEAAQLSNwYBAQABADo4BgEBAAEAOTkGAQEAAQA2OgABAQABA4I6AAIBAAEDgzoABAEAAQOEOgAFAQABA4U6AgUBAAECbjoGAQEAAQAwOwABAQABA448AAEBAAEDjz0AAQEAAQOQPgABAQABA5E/AAEBAAEDkj8CBAEAAQJ0PwcBAQABA/FCAgUBAAECeEMCBQEAAQJ5RAIFAQABAnpFAgQBAAECfEYCBAEAAQJ+RwIEAQABAoBPBwEBAAEEAVAHAgEAAQQCUgoBAQABApVWAAMDAAEDHFcCAQEAAQUEWAABAQABBPtYAgIBAAEFBVoAAQEAAQOTXQABAQABA5R/CgEBAAEDrX8KAgEAAQOuhgABAQABADyGAAIBAAEAPYYKAQEAAQO1hwABAwABAMmHAAIDAAEAU4cABAMAAQE9hwAFAwABAFSHCgIBAAEDsogKAgEAAQOziQoCAQABA7SKAAEBAAEDlYoKAQEAAQO2iwABAQABA5aLCgEBAAEDt4wAAQEAAQOXjAQBAQABAeWNAAEBAAEDmJkAAgEAAQT9mwAFAQABBQGcAAQBAAEFAJ0AAQEAAQURnwABAQABBUO5AQMBAAEDLroBAwEAAQMvvQEBAQABA1C+AQEBAAEDUcABAQEAAQNTwQECAQABA1XDAQIBAAEDVMUBBAEAAQNnxgEFAQABA2jPAQEBAAEDh9ABAQEAAQOI2QEBAQABA9HdAQEBAAED5eQBAQEAAQQT7wEBAQABBM3yAQEBAAEE0PgBAQEAAQUC;
 - (id);
 - (void)eFlagColorLast;
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) ECBIMIInfo *bimiInfo; // @synthesize bimiInfo=_bimiInfo;
-@property(copy) NSData *evidence; // @synthesize evidence=_evidence;
-@property(readonly, nonatomic) long long evidenceDatabaseID; // @synthesize evidenceDatabaseID=_evidenceDatabaseID;
-@property(copy) NSData *indicator;
-@property(readonly, nonatomic) long long indicatorDatabaseID; // @synthesize indicatorDatabaseID=_indicatorDatabaseID;
 @property(retain) NSData *internalIndicator; // @synthesize internalIndicator=_internalIndicator;
-@property(copy) NSArray *unverifiedMessageDatabaseIDs; // @synthesize unverifiedMessageDatabaseIDs=_unverifiedMessageDatabaseIDs;
 
 @end
 

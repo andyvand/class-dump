@@ -8,17 +8,15 @@ __attribute__((visibility("hidden")))
 @interface SCNBoundingBox
 {
     struct SCNVector3 min;
-    struct SCNVector3 max;
 }
 
 - (void);
-- (id);
+- (id)SearchableItemAttributeSet",&,N,V_metadataAttributes;
 - (void);
-- (struct SCNVector3)tionBuffer;
-- (struct SCNVector3)ighborCount;
+- (struct SCNVector3)_positionBuffer;
+- (struct SCNVector3)incrementNeighborCount;
 
 // Remaining properties
-@property(nonatomic) struct SCNVector3 max; // @synthesize max;
 @property(nonatomic) struct SCNVector3 min; // @synthesize min;
 
 @end

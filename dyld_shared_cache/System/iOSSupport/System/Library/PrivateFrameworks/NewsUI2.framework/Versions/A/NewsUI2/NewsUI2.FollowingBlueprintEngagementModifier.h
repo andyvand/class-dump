@@ -7,9 +7,6 @@
 @interface NewsUI2.FollowingBlueprintEngagementModifier
 {
     id blueprintViewController;
-    id isCollapsed;
-    id isVisible;
-    id overlayToIconSpacing;
 }
 
 @end

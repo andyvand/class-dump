@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSString;
+@class ACAccount;
 
 @interface FAFamilyCircleCache
 {
@@ -18,25 +18,18 @@
 - (id);
 - (id);
 - (id);
+- (id)itialized=;
+- (id)yj;
 - (id);
 - (id);
+- (id)_setupAssistantIfNoPointingDevice;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void)a;
 - (id);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) ACAccount *account; // @synthesize account=_account;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

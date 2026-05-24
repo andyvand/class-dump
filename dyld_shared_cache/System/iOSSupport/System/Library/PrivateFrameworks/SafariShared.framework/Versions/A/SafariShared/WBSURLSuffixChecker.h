@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 @interface WBSURLSuffixChecker
 {
     struct {
         unsigned short _field1[27];
     } *_trie;
-    unsigned int _trieNodeCount;
-    unsigned long long _maxLength;
-    NSMutableArray *_failedSuffixes;
 }
 
 - (id);

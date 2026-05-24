@@ -15,9 +15,9 @@
 - (void);
 - (double);
 - (id);
+- (id)ControllerPrivate>",R,N,V_controller;
 - (id);
-- (id);
-- (id)ons;
+- (id)_timeBetweenJobCreations;
 
 // Remaining properties
 @property(nonatomic) double compressionQuality;

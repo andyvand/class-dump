@@ -5,5 +5,10 @@
 //
 
 @protocol AXVAMenuWindowInterface
+
+@optional
+- (void)@9	;
+- (void)9IzB;
+- (void);
 @end
 

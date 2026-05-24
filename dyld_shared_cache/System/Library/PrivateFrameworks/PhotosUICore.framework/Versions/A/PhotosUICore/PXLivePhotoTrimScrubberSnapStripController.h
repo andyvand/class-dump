@@ -4,22 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXLivePhotoTrimScrubber, PXLivePhotoTrimScrubberSnapStripControllerSpec, PXSnapStripView;
+@class PXLivePhotoTrimScrubberSnapStripControllerSpec;
 
 @interface PXLivePhotoTrimScrubberSnapStripController
 {
     _Bool _allowStartEndTimeSnapIndicators;
-    PXLivePhotoTrimScrubberSnapStripControllerSpec *_spec;
-    PXLivePhotoTrimScrubber *_trimScrubber;
-    PXSnapStripView *_snapStripView;
 }
 
 - (void);
-- (void);
+- (void)";
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)Z;
 - (void);
 - (void);
 - (id);
@@ -30,10 +27,7 @@
 - (void)ImportSourceItem;
 
 // Remaining properties
-@property(nonatomic) _Bool allowStartEndTimeSnapIndicators; // @synthesize allowStartEndTimeSnapIndicators=_allowStartEndTimeSnapIndicators;
-@property(retain, nonatomic) PXSnapStripView *snapStripView; // @synthesize snapStripView=_snapStripView;
 @property(retain, nonatomic) PXLivePhotoTrimScrubberSnapStripControllerSpec *spec; // @synthesize spec=_spec;
-@property(retain, nonatomic) PXLivePhotoTrimScrubber *trimScrubber; // @synthesize trimScrubber=_trimScrubber;
 
 @end
 

@@ -4,24 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface AMPWritingDirectionsCounts
 {
     unsigned long long natural;
-    unsigned long long leftToRight;
-    unsigned long long rightToLeft;
-    unsigned long long total;
-    unsigned long long significantValues;
-    _Bool hasStronglyTypedCounts;
-    _Bool isRTLEnough;
-    _Bool isRTLMinimal;
 }
 
 + (id);
 + (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -35,15 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) _Bool hasStronglyTypedCounts; // @synthesize hasStronglyTypedCounts;
-@property(nonatomic, readonly) _Bool isRTLEnough; // @synthesize isRTLEnough;
-@property(nonatomic, readonly) _Bool isRTLMinimal; // @synthesize isRTLMinimal;
-@property(nonatomic, readonly) unsigned long long leftToRight; // @synthesize leftToRight;
 @property(nonatomic, readonly) unsigned long long natural; // @synthesize natural;
-@property(nonatomic, readonly) unsigned long long rightToLeft; // @synthesize rightToLeft;
-@property(nonatomic, readonly) unsigned long long significantValues; // @synthesize significantValues;
-@property(nonatomic, readonly) unsigned long long total; // @synthesize total;
 
 @end
 

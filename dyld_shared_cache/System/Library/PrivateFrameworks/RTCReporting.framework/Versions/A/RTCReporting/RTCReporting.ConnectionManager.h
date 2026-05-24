@@ -7,9 +7,6 @@
 @interface RTCReporting.ConnectionManager
 {
     id connectionQueue;
-    id _rtcdConnection;
-    id _connectionLock;
-    id $__lazy_storage_$_canConnect;
 }
 
 @end

@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCConnection;
-
 __attribute__((visibility("hidden")))
 @interface CDDCloudKitClient
 {
     _Bool _interrupted;
-    _Bool _invalidated;
-    NSXPCConnection *_connection;
 }
 
 - (_Bool);

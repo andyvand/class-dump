@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MRAVEndpoint, MRAVRoutingDiscoverySession, NSArray, NSString;
+@class MRAVRoutingDiscoverySession;
 
 @interface MRAVEndpointObserver
 {
     MRAVRoutingDiscoverySession *_discoverySession;
-    NSArray *_endpoints;
-    CDUnknownBlockType _endpointChangedCallback;
-    _Bool _didBegin;
-    NSString *_outputDeviceUID;
-    MRAVEndpoint *_endpoint;
-    NSString *_label;
 }
 
 - (void);
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void);
 - (id);
-- (id);
-- (id);
+- (id)P;
+- (id)adjustIsEmptyFlag;
 - (id);
 - (void);
 - (void);
@@ -33,10 +27,7 @@
 - (void)T@"MRAVEndpoint",&,N;
 
 // Remaining properties
-@property(readonly, nonatomic) MRAVEndpoint *endpoint; // @synthesize endpoint=_endpoint;
 @property(copy, nonatomic) CDUnknownBlockType endpointChangedCallback;
-@property(readonly, nonatomic) NSString *label; // @synthesize label=_label;
-@property(readonly, nonatomic) NSString *outputDeviceUID; // @synthesize outputDeviceUID=_outputDeviceUID;
 
 @end
 

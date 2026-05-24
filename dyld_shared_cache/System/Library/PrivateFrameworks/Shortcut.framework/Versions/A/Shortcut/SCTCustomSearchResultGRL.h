@@ -6,20 +6,12 @@
 
 #import <Shortcut/SCTGRL.h>
 
-@protocol NSUserInterfaceItemSearching, NSUserInterfaceItemSearching><NSUserInterfaceItemSearching_Private;
+@protocol NSUserInterfaceItemSearching><NSUserInterfaceItemSearching_Private;
 
 __attribute__((visibility("hidden")))
 @interface SCTCustomSearchResultGRL : SCTGRL
 {
     id <NSUserInterfaceItemSearching><NSUserInterfaceItemSearching_Private> mSearchHandler;
-    id mUserInterfaceItem;
-    _Bool mHasHideItem;
-    _Bool mHasIconForItem;
-    _Bool mHasLocalizedCategoryForItem;
-    _Bool mHasPerformActionForItem;
-    _Bool mHasShowItem;
-    _Bool mHasShowAllHelpTopicsForSearchString;
-    _Bool isShowAllHelpTopicsItem;
 }
 
 - (id);
@@ -29,7 +21,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (void);
@@ -38,7 +30,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property _Bool isShowAllHelpTopicsItem; // @synthesize isShowAllHelpTopicsItem;
-@property(readonly) id <NSUserInterfaceItemSearching> searchHandler;
 
 @end
 

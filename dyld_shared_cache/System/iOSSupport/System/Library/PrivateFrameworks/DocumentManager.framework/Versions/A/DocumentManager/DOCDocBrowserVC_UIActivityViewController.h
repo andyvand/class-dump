@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIBarButtonItem;
 @protocol DOCServicePopoverTrackerProtocol;
 
 @interface DOCDocBrowserVC_UIActivityViewController
 {
     id <DOCServicePopoverTrackerProtocol> _popoverTracker;
-    UIBarButtonItem *_barButtonItem;
 }
 
 - (void);
@@ -20,7 +18,6 @@
 - (void);
 
 // Remaining properties
-@property __weak UIBarButtonItem *barButtonItem; // @synthesize barButtonItem=_barButtonItem;
 @property(retain) id <DOCServicePopoverTrackerProtocol> popoverTracker; // @synthesize popoverTracker=_popoverTracker;
 
 @end

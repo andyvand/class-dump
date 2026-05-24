@@ -4,28 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface AMSCircularBuffer
 {
     unsigned long long _maxSize;
-    NSObject<OS_dispatch_queue> *_accessQueue;
-    unsigned long long _currentIndex;
-    NSMutableArray *_buffer;
 }
 
 + (id);
+- (id)IMMetricsCollectorDurationBeforeDowngradeKey;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void)aunch Restrictions (WhiteList enabled);
 - (unsigned long long)pting to set property of invalid class from dictionary:key = %{public}@, value = %{public}@, value class = %{public}@, expected class = %{public}@ /* Error: Ran out of types for this method. */;
 - (void)achedServerDataC3Key33_F6A001C17FCEE4AD303229B86F02BD53LLP;
 - (void)pting carrier linking.;
@@ -38,11 +35,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) NSObject<OS_dispatch_queue> *accessQueue; // @synthesize accessQueue=_accessQueue;
-@property(readonly, copy) NSArray *allObjects;
-@property(retain) NSMutableArray *buffer; // @synthesize buffer=_buffer;
-@property(readonly) unsigned long long count;
-@property unsigned long long currentIndex; // @synthesize currentIndex=_currentIndex;
-@property unsigned long long maxSize;
 
 @end
 

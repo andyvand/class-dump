@@ -5,11 +5,9 @@
 //
 
 @protocol SXEdgeSpacing
+- (struct _SXConvertibleValue)4;
 
 // Remaining properties
-@property(readonly, nonatomic) struct _SXConvertibleValue bottom;
 @property(readonly, nonatomic) struct _SXConvertibleValue left;
-@property(readonly, nonatomic) struct _SXConvertibleValue right;
-@property(readonly, nonatomic) struct _SXConvertibleValue top;
 @end
 

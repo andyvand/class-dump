@@ -4,51 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSDateFormatter, NSDictionary, NSString, NSURL;
+@class NSDateFormatter;
 
 @interface CWFAssetCreatorFromRoot
 {
     _Bool _availableForUse;
-    NSDictionary *_infoPlist;
-    NSDate *_creationDate;
-    NSDictionary *_rootCatalogInfo;
-    NSURL *_localContentURL;
-    NSString *_AssetSpecifier;
-    NSString *_AssetVersion;
-    NSDateFormatter *_formatter;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)@;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)h;
+- (id)elines.;
 - (void);
 - (id);
 - (void);
 - (id);
+- (void)d;
 - (void);
-- (void);
-- (id)ction:canceledXPCRequestsWithUUID: /* Error: Ran out of types for this method. */;
+- (id)XPCRequestProxy:XPCConnection:canceledXPCRequestsWithUUID: /* Error: Ran out of types for this method. */;
 - (void)0S5 S6TT;
 - (id)ciateWithParameters returned %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *AssetSpecifier; // @synthesize AssetSpecifier=_AssetSpecifier;
-@property(retain, nonatomic) NSString *AssetVersion; // @synthesize AssetVersion=_AssetVersion;
-@property(nonatomic) _Bool availableForUse; // @synthesize availableForUse=_availableForUse;
-@property(retain, nonatomic) NSDate *creationDate; // @synthesize creationDate=_creationDate;
 @property(retain, nonatomic) NSDateFormatter *formatter; // @synthesize formatter=_formatter;
-@property(retain, nonatomic) NSDictionary *infoPlist; // @synthesize infoPlist=_infoPlist;
-@property(retain, nonatomic) NSURL *localContentURL; // @synthesize localContentURL=_localContentURL;
-@property(retain, nonatomic) NSDictionary *rootCatalogInfo; // @synthesize rootCatalogInfo=_rootCatalogInfo;
 
 @end
 

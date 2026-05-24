@@ -7,7 +7,6 @@
 @interface NewsSubscription.SubscriptionOffersRenderer
 {
     id styler;
-    id publisherLogoProvider;
 }
 
 @end

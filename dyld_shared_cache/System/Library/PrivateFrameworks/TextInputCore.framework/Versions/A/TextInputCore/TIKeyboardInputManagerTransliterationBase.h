@@ -10,9 +10,9 @@
 {
 }
 
-- (void *);
+- (void *)preferenceKey;
 - (_Bool);
-- (_Bool);
+- (_Bool)] [PQAL3] PQA L3 models not loaded!;
 
 @end
 

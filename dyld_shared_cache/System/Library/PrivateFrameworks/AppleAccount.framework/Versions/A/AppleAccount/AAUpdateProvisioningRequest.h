@@ -6,24 +6,22 @@
 
 #import <AppleAccount/AARequest.h>
 
-@class ACAccount, NSString;
+@class ACAccount;
 
 @interface AAUpdateProvisioningRequest : AARequest
 {
     ACAccount *_account;
-    NSString *_authToken;
-    NSString *_serverInfo;
 }
 
 + (Class);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)s :(id)arg1 %s;
 - (id);
 - (void);
 - (id);
-- (void)ationHelper: /* Error: Ran out of types for this method. */;
+- (void)setSignInOperationHelper: /* Error: Ran out of types for this method. */;
 - (void);
 - (id)canRepairCustodianV2;
 - (id);
@@ -33,8 +31,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) ACAccount *account; // @synthesize account=_account;
-@property(copy, nonatomic) NSString *authToken; // @synthesize authToken=_authToken;
-@property(copy, nonatomic) NSString *serverInfo; // @synthesize serverInfo=_serverInfo;
 
 @end
 

@@ -6,7 +6,7 @@
 
 @interface UnknownClass (CNContactFlags)
 + (id);
-- (id);
+- (id)P;
 - (unsigned long long);
 
 // Remaining properties

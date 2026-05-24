@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class DDSAsset, DDSMAAutoAssetSelector, MAAutoAsset, MAAutoAssetSelector;
+
 @protocol DDSMAAutoAssetProvider
+- (void)setHasDialogScorerType:(MAAutoAsset *)arg1;
+- (void)setHasDevice_upload_info:(MAAutoAsset *)arg1;
+- (DDSAsset *)setHasDeclineDismissGesture:(MAAutoAsset *)arg1;
+- (void)setHasDecisionEngineResponseReported:(MAAutoAsset *)arg1;
+- (void)setHasDebugElectionDecisionMade:(MAAutoAsset *)arg1;
+- (void)setHasCustomerPerceivedLatencyInSecond:(MAAutoAsset *)arg1;
+- (void)setHasCurrentTurnInput:(MAAutoAsset *)arg1;
+- (void)setHasCurrentTaskName:(MAAutoAssetSelector *)arg1;
+- (MAAutoAsset *)setHasCriticalError:(DDSMAAutoAssetSelector *)arg1;
 @end
 

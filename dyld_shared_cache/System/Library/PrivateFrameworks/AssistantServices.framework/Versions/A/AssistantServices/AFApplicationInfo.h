@@ -9,7 +9,6 @@
 @interface AFApplicationInfo
 {
     int _pid;
-    NSString *_identifier;
 }
 
 + (_Bool);
@@ -17,16 +16,15 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)unlockFocus;
 - (void);
-- (void);
+- (void)emptToResume;
 - (void);
 - (id);
-- (void)nfo;
+- (void)AFDisambiguationInfo;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(nonatomic) int pid; // @synthesize pid=_pid;
 
 @end
 

@@ -21,14 +21,13 @@
 + (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)!;
 - (id);
 - (long long);
 - (id)3Üÿq;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) FCContentManifest *manifest;
-@property(readonly, nonatomic) long long storageSize;
 
 @end
 

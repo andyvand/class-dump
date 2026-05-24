@@ -4,44 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserDataDirectories, NSButton, NSImageView, NSProgressIndicator, NSStackView, NSTextField;
+@class BrowserDataDirectories;
 
 __attribute__((visibility("hidden")))
 @interface BrowserDataImportPanelController
 {
     _Bool _isBrowserProcessRunning;
-    _Bool _hasImported;
-    _Bool _isObservingRunningApplications;
-    BrowserDataDirectories *_browserDataDirectories;
-    NSTextField *_titleTextField;
-    NSButton *_importButton;
-    NSStackView *_checkboxContainer;
-    NSImageView *_icon;
-    NSTextField *_additionalInfo;
-    NSButton *_bookmarksCheckbox;
-    NSButton *_historyCheckbox;
-    NSButton *_passwordsCheckbox;
-    NSButton *_okButton;
-    NSButton *_cancelButton;
-    NSProgressIndicator *_progressIndicator;
 }
 
 + (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)M;
 - (void);
 - (void);
 - (void);
@@ -63,7 +49,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (void);
@@ -72,10 +58,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)%@ overriddenToSuccess:(id)arg1 %@]>;
+- (id)InternalTestAdvWithHigherPowerServiceDataS2;
 - (void);
-- (id);
-- (void);
-- (id)ditCardData;
+- (id)AutoFillCreditCardData;
 - (id);
 - (void);
 - (void)L;
@@ -83,18 +69,7 @@ __attribute__((visibility("hidden")))
 - (void)Ì;
 
 // Remaining properties
-@property(nonatomic) __weak NSTextField *additionalInfo; // @synthesize additionalInfo=_additionalInfo;
-@property(retain, nonatomic) NSButton *bookmarksCheckbox; // @synthesize bookmarksCheckbox=_bookmarksCheckbox;
 @property(readonly, nonatomic) BrowserDataDirectories *browserDataDirectories; // @synthesize browserDataDirectories=_browserDataDirectories;
-@property __weak NSButton *cancelButton; // @synthesize cancelButton=_cancelButton;
-@property(nonatomic) __weak NSStackView *checkboxContainer; // @synthesize checkboxContainer=_checkboxContainer;
-@property(retain, nonatomic) NSButton *historyCheckbox; // @synthesize historyCheckbox=_historyCheckbox;
-@property(nonatomic) __weak NSImageView *icon; // @synthesize icon=_icon;
-@property(nonatomic) __weak NSButton *importButton; // @synthesize importButton=_importButton;
-@property __weak NSButton *okButton; // @synthesize okButton=_okButton;
-@property(retain, nonatomic) NSButton *passwordsCheckbox; // @synthesize passwordsCheckbox=_passwordsCheckbox;
-@property __weak NSProgressIndicator *progressIndicator; // @synthesize progressIndicator=_progressIndicator;
-@property(nonatomic) __weak NSTextField *titleTextField; // @synthesize titleTextField=_titleTextField;
 
 @end
 

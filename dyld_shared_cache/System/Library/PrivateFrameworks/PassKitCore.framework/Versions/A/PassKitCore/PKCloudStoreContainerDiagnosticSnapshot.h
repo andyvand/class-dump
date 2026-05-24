@@ -9,7 +9,6 @@
 @interface PKCloudStoreContainerDiagnosticSnapshot
 {
     NSDictionary *_recordIDs;
-    NSDictionary *_localRecordIDs;
 }
 
 + (_Bool)X"Ð!dDùî%Ð1Â0@ù
@@ -18,11 +17,10 @@
 - (id);
 - (id);
 - (void);
-- (void)rProducts;
+- (void)serviceProviderProducts;
 - (id)ü¨;
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *localRecordIDs; // @synthesize localRecordIDs=_localRecordIDs;
 @property(readonly, nonatomic) NSDictionary *recordIDs; // @synthesize recordIDs=_recordIDs;
 
 @end

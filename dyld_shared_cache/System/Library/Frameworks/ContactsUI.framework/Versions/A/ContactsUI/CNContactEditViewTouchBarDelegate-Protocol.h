@@ -5,5 +5,6 @@
 //
 
 @protocol CNContactEditViewTouchBarDelegate
+- (void);
 @end
 

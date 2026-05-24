@@ -7,6 +7,8 @@
 @class GEOMapServiceTraits;
 
 @protocol MKMapServiceTransitLineTicket
+- (void);
+- (void)__AUTH_CONST;
 
 // Remaining properties
 @property(readonly, nonatomic) GEOMapServiceTraits *traits;

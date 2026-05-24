@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMBModelField, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMBLocalZoneQueryResultColumnTuple
 {
     int _offset;
-    NSString *_name;
-    HMBModelField *_modelField;
 }
 
 - (id);
@@ -22,9 +20,7 @@ __attribute__((visibility("hidden")))
 - (int);
 
 // Remaining properties
-@property(readonly, nonatomic) HMBModelField *modelField; // @synthesize modelField=_modelField;
 @property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) int offset; // @synthesize offset=_offset;
 
 @end
 

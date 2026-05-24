@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface MSVLyricsAudioAttributes
 {
     _Bool _spatialRole;
-    double _lyricsOffset;
-    NSString *_role;
 }
 
 - (void);
@@ -19,12 +15,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)ndsOrFrameChangePending;
 
 // Remaining properties
 @property(nonatomic) double lyricsOffset; // @synthesize lyricsOffset=_lyricsOffset;
-@property(copy, nonatomic) NSString *role; // @synthesize role=_role;
-@property(nonatomic, getter=isSpatialRole) _Bool spatialRole; // @synthesize spatialRole=_spatialRole;
 
 @end
 

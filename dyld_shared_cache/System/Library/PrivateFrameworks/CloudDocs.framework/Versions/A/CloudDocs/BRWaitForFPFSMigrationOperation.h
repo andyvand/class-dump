@@ -17,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
 @property(copy) CDUnknownBlockType fpfsMigrationCompletion; // @synthesize fpfsMigrationCompletion=_fpfsMigrationCompletion;

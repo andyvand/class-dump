@@ -6,27 +6,10 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIViewPropertyAnimator, _UIFocusRotaryRingArrowView;
-
 __attribute__((visibility("hidden")))
 @interface _UIFocusRotaryIndicatorView : UIView
 {
     _Bool _visible;
-    double _wheelPosition;
-    unsigned long long _activeAxis;
-    unsigned long long _failedMovementHeading;
-    UIView *_ringView;
-    UIView *_fingerPositionContainerView;
-    UIView *_fingerPositionView;
-    UIView *_roundPointerView;
-    UIView *_rotaryScrubCenterPunchout;
-    UIViewPropertyAnimator *_rotaryScrubHideAnimator;
-    UIViewPropertyAnimator *_rotaryScrubUnhideAnimator;
-    UIViewPropertyAnimator *_rotaryScrubBackwardsFingerPositionAnimator;
-    _UIFocusRotaryRingArrowView *_upArrow;
-    _UIFocusRotaryRingArrowView *_rightArrow;
-    _UIFocusRotaryRingArrowView *_downArrow;
-    _UIFocusRotaryRingArrowView *_leftArrow;
 }
 
 + (id);
@@ -37,10 +20,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct CGAffineTransform);
-- (unsigned long long);
+- (unsigned long long)Controller:Error no IDS Service available for SMS Relay /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id)orForState:(struct CGRect)arg1 button: /* Error: Ran out of types for this method. */;
+- (void)C;
+- (id)_defaultImageColorForState:(struct CGRect)arg1 button: /* Error: Ran out of types for this method. */;
 - (void)_;
 - (void)vXÜ[;
 

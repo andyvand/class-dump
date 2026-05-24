@@ -6,58 +6,43 @@
 
 #import <MapKit/_MKUILabel.h>
 
-@class MKArtworkDataSourceCache, NSArray;
-
 @interface MKTransitInfoLabelView : _MKUILabel
 {
     long long _iconSize;
-    double _maxWidth;
-    double _spaceBetweenIcons;
-    CDUnknownBlockType _textForTruncationGenerator;
-    long long _shieldSize;
-    NSArray *_labelItems;
-    double _spaceBetweenShields;
-    double _maxShieldHeight;
-    MKArtworkDataSourceCache *_artworkCache;
 }
 
-+ (id);
-- (double);
++ (id).;
+- (double)to drop %@ data with error %s;
+- (long long)essageWithReply:xpcReturnDict=%@ /* Error: Ran out of types for this method. */;
+- (void)onfiguration, %@ expects NSNumber);
+- (void)- value for %@:(double)arg1 %@ (according to configuration, %@ expects NSNumber);
+- (void)not sufficient to enqueue new quick energy snapshot;
+- (void)rvals=%@;
+- (void)t, identifierToDiscretionaryIntervals=%@;
+- (void)ping;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (double)t;
+- (void);
+- (id)_safetyAlertsSignature;
+- (void);
+- (id)y-identifier-registrar;
+- (void);
+- (id)type;
+- (struct CGSize));
+- (id);
 - (long long);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (double);
-- (void);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (struct CGSize);
-- (id);
-- (long long);
-- (void);
-- (void)ursByMapItem:lines: /* Error: Ran out of types for this method. */;
+- (void)uest;
+- (void)resolveBusinessHoursByMapItem:lines: /* Error: Ran out of types for this method. */;
 - (void)m"16;
 
 // Remaining properties
-@property(retain, nonatomic) MKArtworkDataSourceCache *artworkCache; // @synthesize artworkCache=_artworkCache;
 @property(nonatomic) long long iconSize; // @synthesize iconSize=_iconSize;
-@property(copy, nonatomic) NSArray *labelItems; // @synthesize labelItems=_labelItems;
-@property(nonatomic) double maxShieldHeight; // @synthesize maxShieldHeight=_maxShieldHeight;
-@property(nonatomic) long long shieldSize; // @synthesize shieldSize=_shieldSize;
-@property(nonatomic) double spaceBetweenShields; // @synthesize spaceBetweenShields=_spaceBetweenShields;
 
 @end
 

@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
+@class NSData;
 
 @interface CURangingPeer
 {
     NSData *_deviceAddress;
-    NSData *_deviceIRK;
-    NSString *_deviceModel;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)primaryAccountIsSponsorForProfile: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
-- (_Bool);
+- (_Bool)_transposeXParams;
 - (id);
-- (void);
+- (void)initWithExplanation:target:attributes: /* Error: Ran out of types for this method. */;
 - (void)C,N,V_sendDataHandler;
 - (id)s.framework/CoreServices;
 
 // Remaining properties
 @property(copy, nonatomic) NSData *deviceAddress; // @synthesize deviceAddress=_deviceAddress;
-@property(copy, nonatomic) NSData *deviceIRK; // @synthesize deviceIRK=_deviceIRK;
-@property(copy, nonatomic) NSString *deviceModel; // @synthesize deviceModel=_deviceModel;
 
 @end
 

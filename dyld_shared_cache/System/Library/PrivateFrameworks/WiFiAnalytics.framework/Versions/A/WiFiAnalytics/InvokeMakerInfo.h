@@ -7,7 +7,6 @@
 @interface InvokeMakerInfo
 {
     SEL _selector;
-    id _target;
 }
 
 - (id);
@@ -19,7 +18,6 @@
 
 // Remaining properties
 @property(nonatomic) SEL selector; // @synthesize selector=_selector;
-@property(retain, nonatomic) id target; // @synthesize target=_target;
 
 @end
 

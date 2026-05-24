@@ -13,8 +13,6 @@ __attribute__((visibility("hidden")))
 @interface EKEventOrganizerDetailItem : EKEventDetailItem
 {
     UITableViewCell *_cell;
-    _Bool _hideDisclosureIndicator;
-    id <EKIdentityProtocol> _organizerOverride;
 }
 
 - (void);
@@ -24,15 +22,14 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)textView:(struct CGRect)arg1 candidatesForSelectedRange:(unsigned long long)arg2;
 - (id);
 - (_Bool);
 - (double)!XEù1oÐ1Â0@ù
 × ;
-- (void)ew: /* Error: Ran out of types for this method. */;
+- (void)setLeftView: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) _Bool hideDisclosureIndicator; // @synthesize hideDisclosureIndicator=_hideDisclosureIndicator;
 @property(retain) id <EKIdentityProtocol> organizerOverride; // @synthesize organizerOverride=_organizerOverride;
 
 @end

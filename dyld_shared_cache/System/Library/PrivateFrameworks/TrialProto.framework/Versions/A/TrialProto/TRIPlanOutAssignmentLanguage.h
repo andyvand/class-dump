@@ -6,7 +6,7 @@
 
 #import <TrialProto/TRIPBMessage.h>
 
-@class NSMutableArray, NSString;
+@class NSString;
 
 @interface TRIPlanOutAssignmentLanguage : TRIPBMessage
 {
@@ -15,9 +15,6 @@
 + (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasYaml; // @dynamic hasYaml;
-@property(retain, nonatomic) NSMutableArray *treatmentIdArray; // @dynamic treatmentIdArray;
-@property(readonly, nonatomic) unsigned long long treatmentIdArray_Count; // @dynamic treatmentIdArray_Count;
 @property(copy, nonatomic) NSString *yaml; // @dynamic yaml;
 
 @end

@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol CALNEKCalendarNotificationReferenceProvider, CALNInboxNotificationProvider, EKEventStoreProvider;
+@protocol EKEventStoreProvider;
 
 @interface CALNSuggestedEventNotificationEKDataSource
 {
     id <EKEventStoreProvider> _eventStoreProvider;
-    id <CALNInboxNotificationProvider> _inboxNotificationProvider;
-    id <CALNEKCalendarNotificationReferenceProvider> _notificationReferenceProvider;
 }
 
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)dirtyMemoryPeakLifetime;
 - (id);
 - (id);
 - (void);
+- (void)VoicemailReason:(id)arg1:BlockedCall /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (id)addCALSoundFilesFromDirectory:asType: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -33,16 +30,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) id <EKEventStoreProvider> eventStoreProvider; // @synthesize eventStoreProvider=_eventStoreProvider;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <CALNInboxNotificationProvider> inboxNotificationProvider; // @synthesize inboxNotificationProvider=_inboxNotificationProvider;
-@property(readonly, nonatomic) id <CALNEKCalendarNotificationReferenceProvider> notificationReferenceProvider; // @synthesize notificationReferenceProvider=_notificationReferenceProvider;
-@property(readonly) Class superclass;
 
 @end
 

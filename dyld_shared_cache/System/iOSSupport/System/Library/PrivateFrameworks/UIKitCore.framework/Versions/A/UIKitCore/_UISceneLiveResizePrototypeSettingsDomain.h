@@ -10,9 +10,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (id)HeightForStyle: /* Error: Ran out of types for this method. */;
-+ (id)iginsToItemsInLayouts: /* Error: Ran out of types for this method. */;
-+ (Class)gationBarTitleTransitionSpec;
++ (id)defaultFooterHeightForStyle: /* Error: Ran out of types for this method. */;
++ (id)assignVerticalOriginsToItemsInLayouts: /* Error: Ran out of types for this method. */;
++ (Class)_UINavigationBarTitleTransitionSpec;
 
 @end
 

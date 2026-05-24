@@ -7,7 +7,6 @@
 @interface PXAnimatedImageRequestOptions
 {
     _Bool _allowPreCaching;
-    _Bool _useSharedImageDecoding;
 }
 
 - (id);
@@ -15,12 +14,11 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (id)itWithClipInfo:(struct _NSZone *)arg1 originalClip: /* Error: Ran out of types for this method. */;
-- (void)eSize;
+- (id)initWithClipInfo:(struct _NSZone *)arg1 originalClip: /* Error: Ran out of types for this method. */;
+- (void)defaultTileSize;
 
 // Remaining properties
 @property(nonatomic) _Bool allowPreCaching; // @synthesize allowPreCaching=_allowPreCaching;
-@property(nonatomic) _Bool useSharedImageDecoding; // @synthesize useSharedImageDecoding=_useSharedImageDecoding;
 
 @end
 

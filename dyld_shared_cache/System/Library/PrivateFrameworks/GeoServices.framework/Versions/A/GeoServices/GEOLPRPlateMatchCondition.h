@@ -11,25 +11,25 @@
     NSMutableArray *_patterns;
 }
 
-+ (Class);
-+ (_Bool)aypoints:(id)arg1;
++ (Class)mework/FamilyCircle;
++ (_Bool)setHasSearchOriginationEditingServerWaypoints:(id)arg1;
 - (void);
 - (unsigned long long);
 - (id);
+- (void)mainVersion;
 - (void);
 - (void);
-- (void);
+- (id)+;
 - (id);
-- (id);
+- (void)ousticFingerprinter";
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long)I;
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (id)chedToken:(struct _NSZone *)arg1;
-- (id)Orientation;
+- (id)setMatchedToken:(struct _NSZone *)arg1;
+- (id)GEOVLFDeviceOrientation;
 - (id)%lu tiles for %lu points;
 - (id);
 - (void)`×Hÿ`û9Vp4;

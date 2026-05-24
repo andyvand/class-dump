@@ -4,18 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class _UIColorPalette, _UIDirectionalLightPalette;
+@class _UIColorPalette;
 
 @interface _UIDirectionalLightConfiguration
 {
     _UIColorPalette *colorPalette;
-    unsigned long long direction;
-    _Bool reverse;
-    double duration;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -26,18 +23,13 @@
 - (id);
 - (void);
 - (long long);
-- (_Bool)nDidSuspend:(id)arg1;
-- (unsigned long long)g;
+- (_Bool)applicationDidSuspend:(id)arg1;
+- (unsigned long long)wantsHeightClamping;
 - (void)33Jpþ-I33Èsþ;
 - (void)°Rl;
 
 // Remaining properties
 @property(nonatomic, retain) _UIColorPalette *colorPalette; // @synthesize colorPalette;
-@property(nonatomic) unsigned long long direction; // @synthesize direction;
-@property(nonatomic) double duration; // @synthesize duration;
-@property(nonatomic, readonly) long long hash;
-@property(nonatomic, retain) _UIDirectionalLightPalette *palette;
-@property(nonatomic) _Bool reverse; // @synthesize reverse;
 
 @end
 

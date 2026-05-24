@@ -10,8 +10,8 @@
 {
 }
 
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)reprocessEnabledCharacteristicRegistrations;
+- (CDUnknownBlockType)loggingMemoryEventForwarder;
 
 @end
 

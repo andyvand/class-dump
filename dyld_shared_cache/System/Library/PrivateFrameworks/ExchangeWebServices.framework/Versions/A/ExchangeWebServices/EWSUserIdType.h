@@ -9,9 +9,6 @@
 @interface EWSUserIdType
 {
     NSString *_SID;
-    NSString *_PrimarySmtpAddress;
-    NSString *_DisplayName;
-    long long _DistinguishedUser;
 }
 
 + (id);
@@ -19,24 +16,14 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *DisplayName; // @synthesize DisplayName=_DisplayName;
-@property(nonatomic) long long DistinguishedUser; // @synthesize DistinguishedUser=_DistinguishedUser;
-@property(copy, nonatomic) NSString *PrimarySmtpAddress; // @synthesize PrimarySmtpAddress=_PrimarySmtpAddress;
 @property(copy, nonatomic) NSString *SID; // @synthesize SID=_SID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

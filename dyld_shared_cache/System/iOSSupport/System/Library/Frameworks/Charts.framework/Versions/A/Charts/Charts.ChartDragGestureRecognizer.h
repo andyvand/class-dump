@@ -8,16 +8,11 @@
 {
     id startLocations;
     id currentLocations;
-    id isDirectTouch;
-    id minimumPressDuration;
-    id initialFirstTouch;
-    id initialSecondTouch;
-    id timer;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)OrderRowIcon:(id)arg1 Failed to load lineItem image from resource loader;
 - (void);
 - (void);
 - (void);

@@ -4,31 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, UIView, UIViewController;
-@protocol UIPopoverPresentationControllerSourceItem;
+@class UIViewController;
 
 @interface CKConversationConfirmationAlertsDisplayConfiguration
 {
     UIViewController *_presentationViewController;
-    NSArray *_targetConversations;
-    unsigned long long _messagesCount;
-    long long _deviceType;
-    long long _alertControllerStyle;
-    CDUnknownBlockType _alertsCompletedBlock;
-    CDUnknownBlockType _cancelBlock;
-    UIView *_sourceView;
-    id <UIPopoverPresentationControllerSourceItem> _sourceItem;
-    id _sender;
 }
 
-- (id);
+- (id)>",&,N,V_legacyContext;
 - (void);
 - (void);
+- (void)&/;
 - (void);
-- (void);
-- (void);
+- (void);
 - (CDUnknownBlockType);
-- (long long);
+- (long long)2
+;
 - (void);
 - (id);
 - (void);
@@ -42,20 +33,11 @@
 - (long long)¼Þÿ;
 - (id);
 - (void)uested to open message filtering settings;
-- (void)ility;
+- (void)RegionEligibility;
 - (void)¦Mÿ;
 
 // Remaining properties
-@property(nonatomic) long long alertControllerStyle; // @synthesize alertControllerStyle=_alertControllerStyle;
-@property(copy, nonatomic) CDUnknownBlockType alertsCompletedBlock; // @synthesize alertsCompletedBlock=_alertsCompletedBlock;
-@property(copy, nonatomic) CDUnknownBlockType cancelBlock; // @synthesize cancelBlock=_cancelBlock;
-@property(nonatomic) long long deviceType; // @synthesize deviceType=_deviceType;
-@property(nonatomic) unsigned long long messagesCount; // @synthesize messagesCount=_messagesCount;
 @property(nonatomic) __weak UIViewController *presentationViewController; // @synthesize presentationViewController=_presentationViewController;
-@property(nonatomic) __weak id sender; // @synthesize sender=_sender;
-@property(nonatomic) __weak id <UIPopoverPresentationControllerSourceItem> sourceItem; // @synthesize sourceItem=_sourceItem;
-@property(nonatomic) __weak UIView *sourceView; // @synthesize sourceView=_sourceView;
-@property(retain, nonatomic) NSArray *targetConversations; // @synthesize targetConversations=_targetConversations;
 
 @end
 

@@ -4,62 +4,51 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMDCKSyncState;
-@protocol IMDCKAbstractSyncControllerDelegate;
-
 @interface IMDCKAbstractSyncController
 {
     _Bool _isSyncing;
-    unsigned long long _recordsRead;
-    unsigned long long _recordsWritten;
-    unsigned long long _recordsWriteFailed;
-    id <IMDCKAbstractSyncControllerDelegate> _delegate;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)  
+;
+- (void)H;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id).;
 - (id);
 - (void);
 - (void);
 - (id);
+- (_Bool);
+- (id);
+- (void);
+- (id);
+- (void);
+- (unsigned long long);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (id);
-- (void);
 - (id);
 - (id);
-- (id);
-- (long long);
+- (long long) s;
 - (void);
 - (id);
 - (void)t get IMDMessageRecordRef for attachment guid %s;
 
 // Remaining properties
-@property __weak id <IMDCKAbstractSyncControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) _Bool isSyncing; // @synthesize isSyncing=_isSyncing;
-@property(nonatomic) unsigned long long recordsRead; // @synthesize recordsRead=_recordsRead;
-@property(nonatomic) unsigned long long recordsWriteFailed; // @synthesize recordsWriteFailed=_recordsWriteFailed;
-@property(nonatomic) unsigned long long recordsWritten; // @synthesize recordsWritten=_recordsWritten;
-@property(readonly, nonatomic) IMDCKSyncState *syncState;
 
 @end
 

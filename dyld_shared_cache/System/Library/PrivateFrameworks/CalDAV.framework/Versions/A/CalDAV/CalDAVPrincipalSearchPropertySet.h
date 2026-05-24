@@ -17,14 +17,13 @@
 - (id);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)fantasyFontFamily;
 - (id);
 - (_Bool);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSSet *stringProperties; // @synthesize stringProperties=_stringProperties;
-@property(readonly, nonatomic) _Bool supportsPropertySearch;
 
 @end
 

@@ -6,16 +6,10 @@
 
 #import <HomeKitDaemon/HMDSharedUserInviteLogEventBuilder.h>
 
-@class HMDHome, HMDSharedUserInviteOwnerResponseLogEvent, NSString;
-
 __attribute__((visibility("hidden")))
 @interface HMDSharedUserInviteOwnerResponseLogEventBuilder : HMDSharedUserInviteLogEventBuilder
 {
     unsigned long long authenticateUserBeginTime;
-    unsigned long long joiningReverseShareBeginTime;
-    unsigned long long addUserToHomeBeginTime;
-    HMDHome *_home;
-    HMDSharedUserInviteOwnerResponseLogEvent *_responseLogEvent;
 }
 
 + (id)KB;
@@ -25,20 +19,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)setSimulatesClearingDiscardableDataAfterOperations:(id)arg1 ,V_simulatesClearingDiscardableDataAfterOperations;
 - (_Bool);
 - (void);
-- (void)kGatewayIPAddress;
+- (void)networkGatewayIPAddress;
 - (void)idden:%@%@%@%@%@%@%@%@%@%@%@%@%@%@%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

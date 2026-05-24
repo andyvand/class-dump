@@ -5,5 +5,7 @@
 //
 
 @protocol CDPDSecureBackupDisableCapable
+- (void);
+- (void)sortWithOptions:(void (^)(NSError *))arg1 usingComparator: /* Error: Ran out of types for this method. */;
 @end
 

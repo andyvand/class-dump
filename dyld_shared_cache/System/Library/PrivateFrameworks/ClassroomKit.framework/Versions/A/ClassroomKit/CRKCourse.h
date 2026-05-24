@@ -4,29 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CRKUser, DMFControlGroupIdentifier, NSDate, NSDictionary, NSSet, NSString;
+@class DMFControlGroupIdentifier;
 
 @interface CRKCourse
 {
     _Bool _mustRequestUnenroll;
-    _Bool _requestingUnenroll;
-    _Bool _studentCredentialsAreValid;
-    DMFControlGroupIdentifier *_courseIdentifier;
-    NSString *_courseName;
-    NSString *_courseDescription;
-    unsigned long long _courseMascotType;
-    unsigned long long _courseColorType;
-    CRKUser *_courseUser;
-    NSDictionary *_instructorsByIdentifier;
-    unsigned long long _type;
-    NSDate *_automaticRemovalDate;
-    NSSet *_trustedCertificatePersistentIds;
-    NSSet *_validTrustedCertificatePersistentIds;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (_Bool);
 - (id);
 - (_Bool);
@@ -56,7 +43,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long)";
 - (id);
 - (id);
 - (id);
@@ -66,31 +53,15 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (id);
-- (void);
+- (void)b;
+- (id);
+- (void)isFeatureRestricted:(unsigned long long)arg1;
 - (_Bool);
 - (void);
 - (_Bool)SessionBeaconBrowserDelegate>",W,N,V_delegate;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsUnenroll;
-@property(retain, nonatomic) NSDate *automaticRemovalDate; // @synthesize automaticRemovalDate=_automaticRemovalDate;
-@property(nonatomic) unsigned long long courseColorType; // @synthesize courseColorType=_courseColorType;
-@property(copy, nonatomic) NSString *courseDescription; // @synthesize courseDescription=_courseDescription;
 @property(retain, nonatomic) DMFControlGroupIdentifier *courseIdentifier; // @synthesize courseIdentifier=_courseIdentifier;
-@property(nonatomic) unsigned long long courseMascotType; // @synthesize courseMascotType=_courseMascotType;
-@property(copy, nonatomic) NSString *courseName; // @synthesize courseName=_courseName;
-@property(retain, nonatomic) CRKUser *courseUser; // @synthesize courseUser=_courseUser;
-@property(readonly, nonatomic, getter=isExpired) _Bool expired;
-@property(copy, nonatomic) NSDictionary *instructorsByIdentifier; // @synthesize instructorsByIdentifier=_instructorsByIdentifier;
-@property(readonly, nonatomic, getter=isManaged) _Bool managed;
-@property(nonatomic) _Bool mustRequestUnenroll; // @synthesize mustRequestUnenroll=_mustRequestUnenroll;
-@property(nonatomic, getter=isRequestingUnenroll) _Bool requestingUnenroll; // @synthesize requestingUnenroll=_requestingUnenroll;
-@property(nonatomic) _Bool studentCredentialsAreValid; // @synthesize studentCredentialsAreValid=_studentCredentialsAreValid;
-@property(retain, nonatomic) NSSet *trustedCertificatePersistentIds; // @synthesize trustedCertificatePersistentIds=_trustedCertificatePersistentIds;
-@property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(retain, nonatomic) NSSet *validTrustedCertificatePersistentIds; // @synthesize validTrustedCertificatePersistentIds=_validTrustedCertificatePersistentIds;
 
 @end
 

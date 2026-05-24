@@ -4,25 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
-@protocol MPMediaLibraryDataProviderPrivate, OS_dispatch_queue;
+@protocol MPMediaLibraryDataProviderPrivate;
 
 __attribute__((visibility("hidden")))
 @interface MPMediaEntityCache
 {
     id <MPMediaLibraryDataProviderPrivate> _mediaLibraryDataProvider;
-    _Bool _mediaLibraryDataProviderRespondsToSupportsEntityChangeTrackingMethod;
-    struct os_unfair_recursive_lock_s _rwlock;
-    NSObject<OS_dispatch_queue> *_deallocLaterQueue;
-    struct __CFDictionary *_concreteEntitiesByDataProviderEntityClass;
-    NSMutableArray *_entityTemporaryReferences;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)coalesceExpr;
 - (void);
 - (void);
 - (id);

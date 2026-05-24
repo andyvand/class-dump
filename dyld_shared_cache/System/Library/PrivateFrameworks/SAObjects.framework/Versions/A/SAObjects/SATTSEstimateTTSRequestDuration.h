@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface SATTSEstimateTTSRequestDuration : SABaseClientBoundCommand
 {
@@ -21,14 +21,12 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *gender;
-@property(copy, nonatomic) NSString *locale;
-@property(copy, nonatomic) NSArray *texts;
 
 @end
 

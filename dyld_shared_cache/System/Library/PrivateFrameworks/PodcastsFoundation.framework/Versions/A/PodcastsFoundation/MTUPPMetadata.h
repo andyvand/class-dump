@@ -14,11 +14,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) double bookmarkTime; // @dynamic bookmarkTime;
-@property(nonatomic) _Bool hasBeenPlayed; // @dynamic hasBeenPlayed;
 @property(retain, nonatomic) NSString *metadataIdentifier; // @dynamic metadataIdentifier;
-@property(nonatomic) long long playCount; // @dynamic playCount;
-@property(nonatomic) double timestamp; // @dynamic timestamp;
 
 @end
 

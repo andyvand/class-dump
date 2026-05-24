@@ -21,10 +21,10 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (_Bool);
+- (id)ld;
+- (unsigned long long)launchAppStoreWithURL:withReplyHandler: /* Error: Ran out of types for this method. */;
+- (void)ABShowiChatStatus;
+- (_Bool)CKValidSharingURLHostnames;
 - (id);
 - (_Bool)setHasResponseGenerationOverrideTime: /* Error: Ran out of types for this method. */;
 

@@ -11,13 +11,12 @@
 @interface PMLAWDSessionTrackerMock : PMLAWDSessionTracker
 {
     NSMutableArray *_internalTrackedSessions;
-    NSArray *_trackedSessions;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)deserializedAdjustmentsFromData:(id)arg1 error: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties

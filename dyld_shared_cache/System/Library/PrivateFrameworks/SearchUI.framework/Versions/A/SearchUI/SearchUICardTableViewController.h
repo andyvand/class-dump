@@ -6,19 +6,11 @@
 
 #import <SearchUI/SearchUITableViewController.h>
 
-@class NSSearchField, NSString, SFCard, SFColor, SearchUITableModel;
-@protocol SFFeedbackListener, SearchUICardViewDelegate, SearchUICommandDelegate;
+@class SFCard;
 
 @interface SearchUICardTableViewController : SearchUITableViewController
 {
     _Bool scrollEnabled;
-    _Bool singleClickExecutesCommands;
-    _Bool selectionShouldFillWidth;
-    _Bool disableEmphasizedSelection;
-    _Bool dragInteractionEnabled;
-    id <SearchUICommandDelegate> commandDelegate;
-    SFColor *searchUIBackgroundColor;
-    SFCard *_card;
 }
 
 - (void);
@@ -26,47 +18,25 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)reamingStatusWrapper value=%@>;
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)d;
 - (struct CGSize);
 - (void);
-- (_Bool);
+- (_Bool)B;
 - (id);
+- (void)lateClientPresentStatsAggregation;
 - (void);
+- (id)requiresTreatmentInstallation;
+- (_Bool)C;
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (_Bool)environment: /* Error: Ran out of types for this method. */;
+- (_Bool)fallbackCommandForRowModel:environment: /* Error: Ran out of types for this method. */;
 - (void)n;
 
 // Remaining properties
 @property(retain, nonatomic) SFCard *card; // @synthesize card=_card;
-@property(nonatomic) __weak id <SearchUICardViewDelegate> cardViewDelegate;
-@property(nonatomic) __weak id <SearchUICommandDelegate> commandDelegate; // @synthesize commandDelegate;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool disableEmphasizedSelection; // @synthesize disableEmphasizedSelection;
-@property(nonatomic) _Bool disableNextCards;
-@property(nonatomic) _Bool dragInteractionEnabled; // @synthesize dragInteractionEnabled;
-@property(nonatomic) __weak id <SFFeedbackListener> feedbackListener;
-@property(nonatomic) _Bool floatingHeaders;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isInPreviewPlatter) _Bool inPreviewPlatter;
-@property(nonatomic) _Bool scrollEnabled; // @synthesize scrollEnabled;
-@property(nonatomic) __weak NSSearchField *searchField;
-@property(retain, nonatomic) SFColor *searchUIBackgroundColor; // @synthesize searchUIBackgroundColor;
-@property(nonatomic) _Bool selectOnHover;
-@property(nonatomic) _Bool selectionShouldFillWidth; // @synthesize selectionShouldFillWidth;
-@property(nonatomic) _Bool singleClickExecutesCommands; // @synthesize singleClickExecutesCommands;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) SearchUITableModel *tableModel;
 
 @end
 

@@ -17,14 +17,14 @@
 × ;
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)$;
 - (void);
-- (long long)LibraryObserver;
+- (long long)_remoteLibraryObserver;
 - (void)KAppletSubcredential"8;
 
 // Remaining properties

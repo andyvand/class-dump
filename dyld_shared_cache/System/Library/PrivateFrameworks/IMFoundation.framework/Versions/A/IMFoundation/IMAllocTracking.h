@@ -11,7 +11,7 @@
     NSMutableArray *_callStacks;
 }
 
-- (void);
+- (void)24;
 - (void);
 - (oneway void);
 - (id);

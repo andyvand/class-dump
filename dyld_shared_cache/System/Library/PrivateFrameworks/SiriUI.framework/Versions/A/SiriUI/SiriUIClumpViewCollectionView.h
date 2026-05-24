@@ -4,22 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSIndexPath, NSString, QLPreviewPanel, SiriUIClumpView;
+@class SiriUIClumpView;
 
 @interface SiriUIClumpViewCollectionView
 {
     _Bool _wasHiddenOnLastSetFrameSize;
-    _Bool _acceptsFirstMouse;
-    SiriUIClumpView *_parent;
-    QLPreviewPanel *_previewPanel;
-    NSArray *_previewItems;
-    NSIndexPath *_overrideItemPath;
 }
 
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -28,45 +23,33 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void)5;
 - (_Bool);
 - (void);
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (void);
+- (void)ller<UINavigationControllerDelegate>",&,N,V_modernDetails;
+- (_Bool)tConstraint;
+- (void)r;
+- (void)Q;
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (struct CGRect);
 - (_Bool);
-- (id);
+- (id)IG;
 - (long long);
-- (void);
+- (void)3;
 - (id);
-- (id);
+- (id)umbers.framework/Versions/A/CorePhoneNumbers;
 - (void)qÐ1Â0@ù
 × ;
 - (id)iriUISiriView"16@"NSString"24;
 - (void);
 
 // Remaining properties
-@property _Bool acceptsFirstMouse; // @synthesize acceptsFirstMouse=_acceptsFirstMouse;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain) NSIndexPath *overrideItemPath; // @synthesize overrideItemPath=_overrideItemPath;
 @property __weak SiriUIClumpView *parent; // @synthesize parent=_parent;
-@property(retain) NSArray *previewItems; // @synthesize previewItems=_previewItems;
-@property(retain) QLPreviewPanel *previewPanel; // @synthesize previewPanel=_previewPanel;
-@property(readonly) Class superclass;
-@property _Bool wasHiddenOnLastSetFrameSize; // @synthesize wasHiddenOnLastSetFrameSize=_wasHiddenOnLastSetFrameSize;
 
 @end
 

@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface StatusMessage
 {
     NSURL *_url;
-    NSString *_string;
 }
 
 + (id);
@@ -21,14 +20,12 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id)1Â0@ù
 × ;
-- (_Bool)nLayoutInformation: /* Error: Ran out of types for this method. */;
-- (id)wordMap;
+- (_Bool)_isPageCenteredGivenLayoutInformation: /* Error: Ran out of types for this method. */;
+- (id)_backForwardItemToGeneratedTypablePasswordMap;
 - (void);
 
 // Remaining properties
 @property(readonly, getter=isEmpty) _Bool empty;
-@property(readonly, copy, nonatomic) NSString *string; // @synthesize string=_string;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

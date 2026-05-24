@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTIntelligenceFlowError, NSData;
+@class IFTSchemaIFTIntelligenceFlowError;
 
 @interface PGSchemaPGPrescribedPlanFailed : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTIntelligenceFlowError *_criticalError;
-    _Bool _hasCriticalError;
 }
 
 - (void);
@@ -24,18 +23,16 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)not in recently deleted older than %ld days;
 - (id);
 - (id)1Â0@ù
 × ;
-- (id)hasPreviousUtterance;
+- (id)_hasPreviousUtterance;
 - (id)stQa;
 - (void)CDATRIGGER_OUTGOING_TRIGGER;
 
 // Remaining properties
 @property(retain, nonatomic) IFTSchemaIFTIntelligenceFlowError *criticalError; // @synthesize criticalError=_criticalError;
-@property(nonatomic) _Bool hasCriticalError; // @synthesize hasCriticalError=_hasCriticalError;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

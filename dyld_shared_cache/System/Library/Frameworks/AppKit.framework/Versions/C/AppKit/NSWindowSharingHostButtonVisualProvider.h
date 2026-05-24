@@ -11,8 +11,8 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (_Bool);
-+ (unsigned long long);
++ (_Bool);
++ (unsigned long long)st for handle %p;
 + (id);
 + (struct __CFDictionary *);
 

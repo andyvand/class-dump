@@ -4,21 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXLTLiveTranscription, NSString;
-@protocol RTTTranscriptionControllerDelegate;
+@class AXLTLiveTranscription;
 
 @interface RTTTranscriptionController
 {
     AXLTLiveTranscription *_transcriber;
-    id <RTTTranscriptionControllerDelegate> _delegate;
-    NSString *_currentTranscription;
-    NSString *_currentCallUUID;
 }
 
 - (id);
 - (void);
-- (void);
-- (void);
+- (void)@;
+- (void);
 - (void);
 - (id);
 - (void);
@@ -30,9 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *currentCallUUID; // @synthesize currentCallUUID=_currentCallUUID;
-@property(retain, nonatomic) NSString *currentTranscription; // @synthesize currentTranscription=_currentTranscription;
-@property(nonatomic) __weak id <RTTTranscriptionControllerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic) AXLTLiveTranscription *transcriber; // @synthesize transcriber=_transcriber;
 
 @end

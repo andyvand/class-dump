@@ -6,46 +6,15 @@
 
 #import <UIKitCore/_UIDraggingImageSlotOwner.h>
 
-@class NSArray, NSMutableSet, NSPointerArray, NSProgress, NSString, PBItemCollection, UIDragEvent, UIWindow, _DUIPotentialDrop, _UIApplicationModalProgressController, _UIDataTransferMonitor, _UIDragSetDownAnimation, _UIDropSessionImpl, _UIInternalDraggingSessionSource;
-@protocol _UIDropInteractionOwning, _UIDruidDestinationConnection;
+@protocol _UIDruidDestinationConnection;
 
 __attribute__((visibility("hidden")))
 @interface _UIInternalDraggingSessionDestination : _UIDraggingImageSlotOwner
 {
     unsigned int _sessionIdentifier;
-    unsigned int _touchRoutingPolicyContextID;
-    _UIInternalDraggingSessionSource *_sessionSource;
-    _Bool _connectedToDruid;
-    _Bool _isPolicyDriven;
-    _Bool _dragInteractionDidEnd;
-    NSMutableSet *_enteredDestinations;
-    id <_UIDropInteractionOwning> _dropDestinationOwner;
-    UIWindow *_dropDestinationWindow;
-    CDUnknownBlockType _dropPerformBlock;
-    CDUnknownBlockType _dropCompletionBlock;
-    CDUnknownBlockType _postDropAnimationCompletionBlock;
-    _UIDragSetDownAnimation *_setDownAnimation;
-    PBItemCollection *_droppedItemCollection;
-    _UIDataTransferMonitor *_dataTransferMonitor;
-    _UIApplicationModalProgressController *_modalProgressAlertController;
-    _Bool _dropWasPerformed;
-    _DUIPotentialDrop *_lastPotentialDrop;
-    NSPointerArray *_dragEvents;
-    _Bool _isAccessibilitySession;
-    _UIDropSessionImpl *_dropSession;
-    UIWindow *_centroidWindow;
-    UIWindow *_weakCentroidWindow;
-    NSArray *_dropItemProviders;
-    long long _sourceDataOwner;
-    NSArray *_internalItems;
-    unsigned long long _outsideAppSourceOperationMask;
-    unsigned long long _progressIndicatorStyle;
-    id <_UIDruidDestinationConnection> _druidConnection;
-    NSProgress *_progress;
-    struct CAPoint3D _centroid;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -56,76 +25,49 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
-- (struct CGPoint);
+- (unsigned long long)v68@0:8@16C24@28@36@44@52@60 /* Error: Ran out of types for this method. */;
+- (struct CGPoint)otlightClientState"@"NSError">16;
+- (id)ntext"68;
+- (unsigned long long)validateProfileWithAccount: /* Error: Ran out of types for this method. */;
+- (void)setForceReplace:(id)arg1;
+- (_Bool)sendPersonalNicknameToRecipients:chatGUID:fromHandle: /* Error: Ran out of types for this method. */;
+- (id)messagesDomain;
+- (id)SIMID:joinProperties: /* Error: Ran out of types for this method. */;
+- (void)evalToggleiCloudSettingsSwitch;
+- (id)dictForKey: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)delayedSaveSettings;
+- (void)defaultManager;
+- (id)defaultAccountSettings;
+- (void)decodeObjectOfClasses:forKey: /* Error: Ran out of types for this method. */;
+- (_Bool)connection:didReceivePublicToken: /* Error: Ran out of types for this method. */;
+- (void)addFailedRetractPartIndex:(id)arg1;
+- (void)addErrorToArray:(id)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (id)_myV1ReadReceiptsReceivedDuringStorageWithQOI;
+- (_Bool)_keychainError;
+- (void)ce;
+- (unsigned long long)rceServiceName;
+- (void);
+- (void);
+- (id)16@?0@"IMDHandle"8;
+- (long long)he file transfer does not exist on disk, but the transfer was explicitly ended.;
+- (void)"IMMessagePartDescriptor"8Q16^B24;
+- (id)NoticeDispatcher handleIncomingNoticeProtobuf:service:account:fromID:context:]_block_invoke /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (id)G;
+- (unsigned long long)RK;
+- (void);
 - (id);
-- (unsigned long long);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (id);
-- (struct CGPoint);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (unsigned long long);
-- (void);
-- (void);
-- (id);
-- (long long);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (unsigned long long);
-- (void);
-- (id);
-- (void);
+- (void);
 - (struct CAPoint3D)map file is %@;
-- (id)nent;
+- (id)liftForceExponent;
 - (void)t is not selectable in %@.;
 - (void);
 - (unsigned int)ÿì¤Üü^;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) UIDragEvent *activeDragEvent;
-@property(readonly, nonatomic) struct CAPoint3D centroid; // @synthesize centroid=_centroid;
-@property(readonly, nonatomic) UIWindow *centroidWindow; // @synthesize centroidWindow=_centroidWindow;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool didRequestDropToBePerformed;
-@property(readonly, nonatomic) NSArray *dragEvents;
-@property(readonly, nonatomic) unsigned long long draggingSourceOperationMask;
-@property(readonly, nonatomic) NSArray *dropItemProviders; // @synthesize dropItemProviders=_dropItemProviders;
-@property(readonly, nonatomic) _UIDropSessionImpl *dropSession; // @synthesize dropSession=_dropSession;
 @property(retain, nonatomic) id <_UIDruidDestinationConnection> druidConnection; // @synthesize druidConnection=_druidConnection;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _UIInternalDraggingSessionSource *inAppSessionSource;
-@property(copy, nonatomic) NSArray *internalItems; // @synthesize internalItems=_internalItems;
-@property(readonly, nonatomic) _Bool isAccessibilitySession; // @synthesize isAccessibilitySession=_isAccessibilitySession;
-@property(readonly, nonatomic) unsigned long long outsideAppSourceOperationMask; // @synthesize outsideAppSourceOperationMask=_outsideAppSourceOperationMask;
-@property(readonly, nonatomic) NSArray *preDropItemProviders;
-@property(retain, nonatomic) NSProgress *progress; // @synthesize progress=_progress;
-@property(nonatomic) unsigned long long progressIndicatorStyle; // @synthesize progressIndicatorStyle=_progressIndicatorStyle;
-@property(readonly, nonatomic) unsigned int sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
-@property(readonly, nonatomic) _Bool shouldDragEventBeSentToGestureRecognizers;
-@property(readonly, nonatomic) long long sourceDataOwner; // @synthesize sourceDataOwner=_sourceDataOwner;
-@property(readonly, nonatomic) unsigned long long sourceOperationMask;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) __weak UIWindow *weakCentroidWindow; // @synthesize weakCentroidWindow=_weakCentroidWindow;
 
 @end
 

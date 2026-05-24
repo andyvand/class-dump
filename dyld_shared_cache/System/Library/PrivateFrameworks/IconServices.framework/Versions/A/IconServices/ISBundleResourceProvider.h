@@ -6,29 +6,27 @@
 
 #import <IconServices/ISResourceProvider.h>
 
-@class NSDictionary, NSString, NSURL;
+@class NSString, NSURL;
 
 __attribute__((visibility("hidden")))
 @interface ISBundleResourceProvider : ISResourceProvider
 {
     NSString *_templateType;
-    NSURL *_bundleURL;
-    NSDictionary *_iconDictionary;
 }
 
 - (id);
 - (void);
 - (void);
+- (id)NSMutableArray"16@"NSNumber"24@"NSString"32@?<v@?B>40;
+- (id)0@0:(id)arg1 8@"NSFileHandle"16@"NSNumber"24@?<v@?B>32;
+- (id)@24^@32^@40^B48@56@64;
+- (_Bool)length;
+- (_Bool)hasAvailableAssets;
+- (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -36,9 +34,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(retain) NSURL *bundleURL; // @synthesize bundleURL=_bundleURL;
-@property(retain) NSDictionary *iconDictionary; // @synthesize iconDictionary=_iconDictionary;
-@property unsigned long long options;
-@property(retain) NSString *templateType; // @synthesize templateType=_templateType;
 
 @end
 

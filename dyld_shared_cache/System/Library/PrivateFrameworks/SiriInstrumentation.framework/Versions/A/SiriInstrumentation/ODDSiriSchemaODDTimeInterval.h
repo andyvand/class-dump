@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ODDSiriSchemaODDTimeInterval : SISchemaInstrumentationMessage
 {
     unsigned long long _startTimestampInSecondsSince1970;
-    unsigned int _numberOfSeconds;
-    struct {
-        unsigned int startTimestampInSecondsSince1970:1;
-        unsigned int numberOfSeconds:1;
-    } _has;
 }
 
 - (unsigned long long);
@@ -25,13 +18,13 @@
 - (void);
 - (_Bool);
 - (_Bool);
+- (void)\;
 - (void);
-- (void);
-- (unsigned int);
+- (unsigned int)teFrameworks/AppleMediaServices.framework/Versions/A/AppleMediaServices;
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id)0@ù
@@ -40,10 +33,6 @@
 - (id)V_crossIntentRankerScoreKeepers;
 
 // Remaining properties
-@property(nonatomic) _Bool hasNumberOfSeconds;
-@property(nonatomic) _Bool hasStartTimestampInSecondsSince1970;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int numberOfSeconds; // @synthesize numberOfSeconds=_numberOfSeconds;
 @property(nonatomic) unsigned long long startTimestampInSecondsSince1970; // @synthesize startTimestampInSecondsSince1970=_startTimestampInSecondsSince1970;
 
 @end

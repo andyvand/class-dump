@@ -4,28 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEODirectionsRequest, GEODirectionsResponse, GEOMapServiceTraits, GEORouteAttributes, MNLocation, MNStartNavigationReconnectionDetails, MNTraceRecordingData, NSArray, NSDictionary, NSString;
+@class MNStartNavigationReconnectionDetails;
 
 @interface MNStartNavigationDetails
 {
     long long _navigationType;
-    unsigned long long _guidanceType;
-    NSString *_tracePlaybackPath;
-    MNTraceRecordingData *_traceRecordingData;
-    long long _simulationType;
-    NSString *_traceRecordingNameOverride;
-    GEORouteAttributes *_routeAttributes;
-    GEODirectionsRequest *_directionsRequest;
-    GEODirectionsResponse *_directionsResponse;
-    NSString *_requestingAppIdentifier;
-    NSArray *_routes;
-    unsigned long long _selectedRouteIndex;
-    NSDictionary *_traffic;
-    MNLocation *_initialUserLocation;
-    unsigned long long _guidanceLevelOverride;
-    _Bool _isResumingMultipointRoute;
-    MNStartNavigationReconnectionDetails *_reconnectionDetails;
-    GEOMapServiceTraits *_traits;
 }
 
 + (_Bool);
@@ -37,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)AuxiliaryViewMetadataPreferenceWriter;
 - (void);
 - (id);
 - (_Bool);
@@ -66,35 +49,17 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)ArtworkRequest",&,N,V_request;
 - (void);
-- (void);
-- (id);
+- (id)function!;
 - (void);
 - (id);
 - (void)1Â0@ù
 × ;
-- (void)Info:(unsigned long long)arg1 alternateRouteInfo:currentDistance: /* Error: Ran out of types for this method. */;
+- (void)addFakeTrafficIncidentAlert:(unsigned long long)arg1 mainRouteInfo:alternateRouteInfo:currentDistance: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) GEODirectionsRequest *directionsRequest; // @synthesize directionsRequest=_directionsRequest;
-@property(retain, nonatomic) GEODirectionsResponse *directionsResponse; // @synthesize directionsResponse=_directionsResponse;
-@property(nonatomic) unsigned long long guidanceLevelOverride; // @synthesize guidanceLevelOverride=_guidanceLevelOverride;
-@property(nonatomic) unsigned long long guidanceType; // @synthesize guidanceType=_guidanceType;
-@property(retain, nonatomic) MNLocation *initialUserLocation; // @synthesize initialUserLocation=_initialUserLocation;
-@property(nonatomic) _Bool isReconnecting;
-@property(nonatomic) _Bool isResumingMultipointRoute; // @synthesize isResumingMultipointRoute=_isResumingMultipointRoute;
-@property(nonatomic) long long navigationType; // @synthesize navigationType=_navigationType;
 @property(retain, nonatomic) MNStartNavigationReconnectionDetails *reconnectionDetails;
-@property(copy, nonatomic) NSString *requestingAppIdentifier; // @synthesize requestingAppIdentifier=_requestingAppIdentifier;
-@property(retain, nonatomic) GEORouteAttributes *routeAttributes; // @synthesize routeAttributes=_routeAttributes;
-@property(retain, nonatomic) NSArray *routes; // @synthesize routes=_routes;
-@property(nonatomic) unsigned long long selectedRouteIndex; // @synthesize selectedRouteIndex=_selectedRouteIndex;
-@property(nonatomic) long long simulationType; // @synthesize simulationType=_simulationType;
-@property(copy, nonatomic) NSString *tracePlaybackPath; // @synthesize tracePlaybackPath=_tracePlaybackPath;
-@property(retain, nonatomic) MNTraceRecordingData *traceRecordingData; // @synthesize traceRecordingData=_traceRecordingData;
-@property(copy, nonatomic) NSString *traceRecordingNameOverride; // @synthesize traceRecordingNameOverride=_traceRecordingNameOverride;
-@property(retain, nonatomic) NSDictionary *traffic; // @synthesize traffic=_traffic;
-@property(copy, nonatomic) GEOMapServiceTraits *traits; // @synthesize traits=_traits;
 
 @end
 

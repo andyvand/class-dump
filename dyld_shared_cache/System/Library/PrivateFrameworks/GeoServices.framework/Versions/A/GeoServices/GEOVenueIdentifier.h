@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface GEOVenueIdentifier
 {
     _Bool _hasVenueID;
-    unsigned long long _venueID;
-    _Bool _hasFeatureID;
-    unsigned long long _featureID;
-    _Bool _hasBusinessID;
-    unsigned long long _businessID;
-    NSArray *_componentIdentifiers;
-    NSArray *_originalIdentifiers;
 }
 
 + (id);
@@ -26,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)setIsPersistent: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -34,23 +25,10 @@
 - (unsigned long long);
 - (id);
 - (unsigned long long);
-- (void)eatedPtrFieldBaseE;
+- (void)N6google8protobuf8internal20RepeatedPtrFieldBaseE;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long businessID; // @synthesize businessID=_businessID;
-@property(readonly, nonatomic) NSArray *componentIdentifiers; // @synthesize componentIdentifiers=_componentIdentifiers;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long featureID; // @synthesize featureID=_featureID;
-@property(readonly, nonatomic, getter=_hasBusinessID) _Bool hasBusinessID; // @synthesize hasBusinessID=_hasBusinessID;
-@property(readonly, nonatomic, getter=_hasFeatureID) _Bool hasFeatureID; // @synthesize hasFeatureID=_hasFeatureID;
 @property(readonly, nonatomic, getter=_hasVenueID) _Bool hasVenueID; // @synthesize hasVenueID=_hasVenueID;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) unsigned long long venueID; // @synthesize venueID=_venueID;
 
 @end
 

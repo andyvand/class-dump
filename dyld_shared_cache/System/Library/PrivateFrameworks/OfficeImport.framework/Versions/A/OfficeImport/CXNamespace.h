@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface CXNamespace
 {
     const char *mUri;
-    struct _xmlDoc *mDocument;
-    struct _xmlNs *mDocumentNamespace;
-    CXNamespace *mFallbackNamespace;
 }
 
 + (void);
@@ -21,8 +18,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
-- (const char *);
+- (id);
+- (const char *);
 - (id);
 - (_Bool);
 - (_Bool);

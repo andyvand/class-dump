@@ -6,16 +6,15 @@
 
 #import <ConfigurationEngineModel/CEMConfigurationBase.h>
 
-@class NSNumber, NSString;
+@class NSNumber;
 
 @interface CEMSystemSearchDeclaration : CEMConfigurationBase
 {
     NSNumber *_payloadAllowSpotlightInternetResults;
-    NSNumber *_payloadAllowDefinitionLookup;
 }
 
 + (id);
-+ (id);
++ (id)c;
 + (id);
 + (id);
 + (id);
@@ -30,20 +29,12 @@
 - (_Bool);
 - (id);
 - (int);
-- (_Bool);
+- (_Bool)ivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSNumber *payloadAllowDefinitionLookup; // @synthesize payloadAllowDefinitionLookup=_payloadAllowDefinitionLookup;
 @property(copy, nonatomic) NSNumber *payloadAllowSpotlightInternetResults; // @synthesize payloadAllowSpotlightInternetResults=_payloadAllowSpotlightInternetResults;
-@property(readonly) Class superclass;
 
 @end
 

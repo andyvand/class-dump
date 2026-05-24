@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSNumber, NSString, NSURL;
+@class NSDictionary, NSString;
 
 @interface AMSLookupItem
 {
@@ -23,35 +23,20 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)isModernSettingsEnabled;
+- (id)`;
 - (void);
+- (id)te.;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id)o:(id)arg1 accountProvider:loadURLOverlay: /* Error: Ran out of types for this method. */;
-- (id)raudReportRefreshScoreBlock:fraudReportStateStorageFactoryBlock: /* Error: Ran out of types for this method. */;
+- (id)initWithProfile:(id)arg1 profileVersion:processInfo:accountProvider:loadURLOverlay: /* Error: Ran out of types for this method. */;
+- (id)initWithFraudReportRefreshScoreBlock:fraudReportStateStorageFactoryBlock: /* Error: Ran out of types for this method. */;
 - (void)ÿ1E®uæy8ºõë`
 	v®ª«Tÿd£åÂeÂ_ïîrÒ=OÜSv¯"¸ ×;
 
 // Remaining properties
-@property(readonly, getter=isPOIBased) _Bool POIBased;
 @property(readonly, copy) NSString *artistName;
-@property(readonly, copy) NSArray *artwork;
-@property(readonly, copy) NSString *bundleIdentifier;
-@property(readonly, copy) NSArray *categoryNames;
-@property(readonly, copy) NSString *displayName;
-@property(readonly, copy) NSNumber *iTunesStoreIdentifier;
-@property(readonly) NSDictionary *itemDictionary; // @synthesize itemDictionary=_itemDictionary;
-@property(readonly, copy) NSString *itemKind;
-@property(readonly) long long numberOfUserRatings;
-@property(readonly) long long numberOfUserRatingsForCurrentVersion;
-@property(readonly, copy) NSString *offerName;
-@property(readonly, copy) NSArray *offers;
-@property(readonly, copy) NSURL *productPageURL;
-@property(readonly) float userRating;
-@property(readonly) float userRatingForCurrentVersion;
 
 @end
 

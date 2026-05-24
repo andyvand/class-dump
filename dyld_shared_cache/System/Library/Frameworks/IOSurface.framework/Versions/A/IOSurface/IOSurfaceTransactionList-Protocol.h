@@ -4,11 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class IOSurfaceTransaction;
+
 @protocol IOSurfaceTransactionList
+- (IOSurfaceTransaction *)fosl_filter_kernelpool_isPositionInvariant;
+- (unsigned int)GL_APPLE_texture_xr;
 
 // Remaining properties
-@property(readonly) unsigned long long kernelFullListLength;
 @property(readonly) unsigned long long length;
-@property(readonly) unsigned long long selectedLength;
 @end
 

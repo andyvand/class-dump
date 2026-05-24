@@ -9,27 +9,18 @@
 @interface EWSMimeContentType
 {
     NSString *_CharacterSet;
-    NSString *_stringValue;
 }
 
 + (id);
+- (id);
 - (id);
-- (id);
-- (void);
+- (void)@;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *CharacterSet; // @synthesize CharacterSet=_CharacterSet;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *stringValue; // @synthesize stringValue=_stringValue;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MCContainerParallelizer, MCPlug, MPAudioPlaylist, MPLayer, MPTransition, NSColor, NSMutableArray, NSMutableDictionary, NSString;
+@class MCPlug, NSColor;
 
 @interface MPEffectContainer
 {
     MCPlug *_containerPlug;
-    MCContainerParallelizer *_containerParallelizer;
-    NSMutableArray *_effects;
-    NSMutableArray *_filters;
-    NSMutableDictionary *_attributes;
-    MPTransition *_transition;
-    MPLayer *_parentLayer;
-    MPAudioPlaylist *_audioPlaylist;
-    _Bool _transitionDisconnected;
-    double _startTime;
-    double _duration;
-    struct CGColor *_backgroundColor;
-    NSString *_uuid;
 }
 
 + (id);
@@ -28,20 +16,20 @@
 + (_Bool)\è;
 - (id);
 - (long long);
-- (_Bool);
+- (_Bool)t date %@, end date %@, taskDescription %@;
+- (void)e.xbs/TemporaryDirectory.AP33Sb/Sources/FeldsparServicesUI/feldspar/Frameworks/NewsAnalyticsUpload/TelemetryUploader.swift;
+- (void)completionHandler:(id)arg1 ];
+- (void)urationManager:(id)arg1 ];
+- (void)yticsPayloadUploader initWithAppConfigurationManager:(id)arg1 ];
+- (void)sd/Analytics/NDAnalyticsPayloadUploader.m;
+- (void)elope"16^B24;
+- (void)ry>"16@?0@"NTPBEnvelope"8;
+- (void)rvicesUI/feldspar/Frameworks/NewsDaemon/newsd/Analytics/NDAnalyticsEnvelopeStore.m;
+- (id)?0@"NSArray"8@"NSDictionary"16@"NSError"24;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ʬ;
 - (void);
 - (id);
 - (id);
@@ -50,10 +38,10 @@
 - (id);
 - (id);
 - (_Bool);
-- (double);
+- (double));
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -65,15 +53,15 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (struct CGColor *);
-- (void);
-- (void);
-- (void);
+- (void);
+- (struct CGColor *);
+- (void));
 - (void);
 - (void);
-- (double);
 - (void);
+- (void);
+- (double)';
+- (void)Q;
 - (id);
 - (long long);
 - (void);
@@ -89,10 +77,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)A;
 - (void);
 - (id);
-- (id);
+- (id)beginWrappingToColumn:target:hasWrapables: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
@@ -103,17 +91,14 @@
 - (id);
 - (void);
 - (id);
-- (id)ToDuplicatePaths;
-- (void)ck;
-- (void)anOperatorIfE;
+- (id)_mirrorToDuplicatePaths;
+- (void)squareBlack;
+- (void)21IsGreaterThanOperatorIfE;
 - (id)U'Ø;
 - (void)U^Ë;
 
 // Remaining properties
-@property(nonatomic) struct CGColor *backgroundCGColor; // @synthesize backgroundCGColor=_backgroundColor;
 @property(copy, nonatomic) NSColor *backgroundColor; // @dynamic backgroundColor;
-@property(nonatomic) double duration; // @synthesize duration=_duration;
-@property(retain, nonatomic) MPTransition *transition; // @synthesize transition=_transition;
 
 @end
 

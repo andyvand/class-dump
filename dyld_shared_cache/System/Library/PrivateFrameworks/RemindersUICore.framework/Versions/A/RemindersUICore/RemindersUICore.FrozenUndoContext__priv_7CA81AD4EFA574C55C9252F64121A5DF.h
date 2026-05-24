@@ -7,7 +7,6 @@
 @interface RemindersUICore.FrozenUndoContext__priv_7CA81AD4EFA574C55C9252F64121A5DF
 {
     id undoManager;
-    id navigationContext;
 }
 
 @end

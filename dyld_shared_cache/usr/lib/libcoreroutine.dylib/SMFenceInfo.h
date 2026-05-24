@@ -9,19 +9,17 @@
 @interface SMFenceInfo
 {
     NSDate *_date;
-    double _fenceRadius;
 }
 
 - (id);
 - (double);
 - (void);
 - (id);
-- (void);
+- (void)oad:(id)arg1 config %@;
 - (void)OfInterest, Algorithm, %@;
 
 // Remaining properties
 @property(copy, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(nonatomic) double fenceRadius; // @synthesize fenceRadius=_fenceRadius;
 
 @end
 

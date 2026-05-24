@@ -6,19 +6,14 @@
 
 #import <PassKitCore/PKSharingChannelDescriptor.h>
 
-@class NSString;
-
 @interface PKSharingIDSChannelDescriptor : PKSharingChannelDescriptor
 {
     unsigned long long _subtype;
-    unsigned long long _serviceType;
-    NSString *_deviceIdentifier;
-    NSString *_sessionIdentifier;
 }
 
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -27,16 +22,13 @@
 - (id);
 - (id);
 - (unsigned long long);
-- (void);
-- (id)nablementThresholdForRegion: /* Error: Ran out of types for this method. */;
+- (void)_totalBytesExpectedToRead;
+- (id)contextMeetsDeviceUpgradeTasksEnablementThresholdForRegion: /* Error: Ran out of types for this method. */;
 - (unsigned long long)n;
 - (void)vice credential;
-- (id)gEventProcessing;
+- (id)PKAccountServicingEventProcessing;
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *deviceIdentifier; // @synthesize deviceIdentifier=_deviceIdentifier;
-@property(readonly, nonatomic) unsigned long long serviceType; // @synthesize serviceType=_serviceType;
-@property(readonly, nonatomic) NSString *sessionIdentifier; // @synthesize sessionIdentifier=_sessionIdentifier;
 @property(readonly, nonatomic) unsigned long long subtype; // @synthesize subtype=_subtype;
 
 @end

@@ -12,10 +12,19 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)_pendingResponseDisposition;
+- (_Bool)%p>;
+- (void)rrrr)r8ruu
+uuuu)u8u:::(:B	BB(BC	CC(CD	DD(D::::::):8:BB
+BBBB)B8BCC
+CCCC)C8CDD
+DDDD)D8D, /* Error: Ran out of types for this method. */;
+- (void)r	rr(ru	uu(u::BBCCDDrr
+rrrr)r8ruu
+uuuu)u8u:::(:B	BB(BC	CC(CD	DD(D::::::):8:BB
+BBBB)B8BCC
+CCCC)C8CDD
+DDDD)D8D, /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (void);
@@ -27,7 +36,7 @@ __attribute__((visibility("hidden")))
 × ;
 - (_Bool)failure in the future.;
 - (_Bool)ollectionViewFlowLayout"8;
-- (void)conInternetLocationVNC;
+- (void)IconInternetLocationVNC;
 - (void)@ with keyPath %@;
 
 @end

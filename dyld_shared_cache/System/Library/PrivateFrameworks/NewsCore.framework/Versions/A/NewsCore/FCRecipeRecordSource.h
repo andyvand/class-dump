@@ -15,7 +15,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (unsigned long long)letion: /* Error: Ran out of types for this method. */;
+- (unsigned long long)fetchValueWithQualityOfService:completion: /* Error: Ran out of types for this method. */;
 - (id)dsConfiguration",?,R,N,V_offlineDownloadsConfigDefault;
 - (unsigned long long);
 - (id);

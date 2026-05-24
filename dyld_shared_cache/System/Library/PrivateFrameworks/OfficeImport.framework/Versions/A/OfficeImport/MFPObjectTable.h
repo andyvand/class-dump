@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     NSMutableDictionary *mObjects;
 }
 
-- (id);
+- (id)numberWithUnsignedInteger: /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (void)Ü¬;

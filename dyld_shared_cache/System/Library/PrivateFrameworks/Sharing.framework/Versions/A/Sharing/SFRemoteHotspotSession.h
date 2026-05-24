@@ -4,18 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol SFRemoteHotspotProtocol, SFRemoteHotspotSessionDelegate;
-
 @interface SFRemoteHotspotSession
 {
     _Bool _browsing;
-    id <SFRemoteHotspotSessionDelegate> _delegate;
-    id <SFRemoteHotspotProtocol> _connectionProxy;
 }
 
 - (void);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -27,20 +22,11 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)tyData}^{_PCSIdentityData}^{__CFArray}Ii{?=BBBBBBB}I}16@0:8 /* Error: Ran out of types for this method. */;
 - (void)Ü¢ÿÿ²àþÿ;
 
 // Remaining properties
 @property _Bool browsing; // @synthesize browsing=_browsing;
-@property(retain) id <SFRemoteHotspotProtocol> connectionProxy; // @synthesize connectionProxy=_connectionProxy;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <SFRemoteHotspotSessionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

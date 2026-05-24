@@ -4,31 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSUUID;
 
 @interface HMMediaGroupParticipant
 {
     NSUUID *_accessoryIdentifier;
-    NSString *_audioDestinationIdentifier;
-    NSUUID *_audioGroupIdentifier;
-    unsigned long long _variant;
-    unsigned long long _role;
-    NSUUID *_roomIdentifier;
-    NSString *_roomName;
 }
 
-+ (_Bool);
++ (_Bool);
 - (id);
 - (id);
 - (id);
+- (id)publisherFromStartTime: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long);
+- (_Bool)subtlety;
 - (void);
-- (id);
+- (id);
 - (unsigned long long);
 - (void)0pìstu;
 - (unsigned long long)a supported type:%@ /* Error: Ran out of types for this method. */;
@@ -36,12 +30,6 @@
 
 // Remaining properties
 @property(readonly, copy) NSUUID *accessoryIdentifier; // @synthesize accessoryIdentifier=_accessoryIdentifier;
-@property(readonly, copy) NSString *audioDestinationIdentifier; // @synthesize audioDestinationIdentifier=_audioDestinationIdentifier;
-@property(readonly, copy) NSUUID *audioGroupIdentifier; // @synthesize audioGroupIdentifier=_audioGroupIdentifier;
-@property(readonly) unsigned long long role; // @synthesize role=_role;
-@property(readonly, copy) NSUUID *roomIdentifier; // @synthesize roomIdentifier=_roomIdentifier;
-@property(readonly, copy) NSString *roomName; // @synthesize roomName=_roomName;
-@property(readonly) unsigned long long variant; // @synthesize variant=_variant;
 
 @end
 

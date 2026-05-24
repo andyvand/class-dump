@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (void);
-- (_Bool);
+- (_Bool)32B40@44;
 
 // Remaining properties
 @property(nonatomic, getter=isAutomaticUpdateEnabled) _Bool automaticUpdateEnabled; // @synthesize automaticUpdateEnabled=_automaticUpdateEnabled;

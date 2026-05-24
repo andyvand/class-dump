@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (PGTextFeature)
-+ (id);
++ (id);
 @end
 

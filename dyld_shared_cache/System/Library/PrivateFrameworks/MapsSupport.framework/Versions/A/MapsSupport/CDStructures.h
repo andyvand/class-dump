@@ -16,7 +16,7 @@ struct _NSRange {
 };
 
 struct os_unfair_lock_s {
-    unsigned int _os_unfair_lock_opaque;
+    unsigned int _field1;
 };
 
 #pragma mark Typedef'd Structures
@@ -37,15 +37,4 @@ typedef struct {
     double _field1;
     double _field2;
 } CDStruct_c3b9c2ee;
-
-// Ambiguous groups
-typedef struct {
-    unsigned int position:1;
-    unsigned int timestamp:1;
-    unsigned int type:1;
-} CDStruct_dd13975a;
-
-typedef struct {
-    unsigned int muid:1;
-} CDStruct_e99c65f7;
 

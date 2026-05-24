@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol MPCPlaybackEngineEventStreamSubscription
+- (NSString *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *streamID;

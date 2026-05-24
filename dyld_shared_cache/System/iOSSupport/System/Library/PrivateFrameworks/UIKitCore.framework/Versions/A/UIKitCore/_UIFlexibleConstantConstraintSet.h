@@ -12,32 +12,24 @@ __attribute__((visibility("hidden")))
 @interface _UIFlexibleConstantConstraintSet : _UIConstantConstraintSet
 {
     NSLayoutConstraint *_minConstraint;
-    NSLayoutConstraint *_maxConstraint;
-    NSLayoutConstraint *_equalityConstraint;
-    _Bool _equalityConstraintPrefersMin;
-    double _minConstant;
-    double _maxConstant;
-    double _equalityConstant;
 }
 
 + (id);
 + (id);
 - (void);
-- (double);
-- (double);
-- (double);
-- (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (void);
+- (double)muteChat;
+- (double)matchesInString:options:range: /* Error: Ran out of types for this method. */;
+- (double)_removeFromList:withKey: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)n with a person identity for highlight:%@. Attempting to find the handle for the mentioned identity. /* Error: Ran out of types for this method. */;
+- (id)elineComponent> Allowing instant delivery of %@, message is not replicated.;
+- (id)age item %@ refers to messagePartGUID %@ that was retracted. Deleting the associated message item.;
+- (_Bool)explicitly:%@ /* Error: Ran out of types for this method. */;
+- (void)StringPositionMetadata;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) double equalityConstant; // @synthesize equalityConstant=_equalityConstant;
-@property(nonatomic) double maxConstant; // @synthesize maxConstant=_maxConstant;
 @property(nonatomic) double minConstant; // @synthesize minConstant=_minConstant;
 
 @end

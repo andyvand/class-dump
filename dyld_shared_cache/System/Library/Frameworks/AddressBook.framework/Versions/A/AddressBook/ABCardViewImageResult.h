@@ -4,26 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
+@class NSImage;
 
 @interface ABCardViewImageResult
 {
     NSImage *_image;
-    NSString *_photoIdentifier;
-    _Bool _placeholder;
 }
 
 - (id);
 - (id);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)TKPickerPopUpButton;
 - (void);
 
 // Remaining properties
 @property(readonly, retain) NSImage *image; // @synthesize image=_image;
-@property(readonly, copy) NSString *photoIdentifier; // @synthesize photoIdentifier=_photoIdentifier;
-@property(readonly, getter=isPlaceholder) _Bool placeholder; // @synthesize placeholder=_placeholder;
 
 @end
 

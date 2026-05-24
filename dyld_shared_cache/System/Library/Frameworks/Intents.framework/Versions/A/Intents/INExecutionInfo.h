@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INAppInfo, LSApplicationRecord, NSString, NSURL;
+@class INAppInfo, LSApplicationRecord;
 
 @interface INExecutionInfo
 {
     INAppInfo *_appInfo;
-    NSString *_launchableAppBundleId;
-    NSString *_displayableAppBundleId;
-    NSString *_extensionBundleId;
-    NSURL *_containingAppBundleURL;
 }
 
 + (void);
@@ -21,20 +17,14 @@
 - (id);
 - (_Bool);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)rovideCallRecordToCallBackOptionsForStartCall:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (void)provideCallRecordToCallBackOptionsForStartCall:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) INAppInfo *_appInfo; // @synthesize _appInfo;
 @property(readonly, nonatomic) LSApplicationRecord *_applicationRecord;
-@property(readonly, nonatomic) _Bool canRunOnLocalDevice;
-@property(readonly, copy, nonatomic) NSURL *containingAppBundleURL; // @synthesize containingAppBundleURL=_containingAppBundleURL;
-@property(readonly, copy, nonatomic) NSString *displayableAppBundleId; // @synthesize displayableAppBundleId=_displayableAppBundleId;
-@property(readonly, copy, nonatomic) NSString *extensionBundleId; // @synthesize extensionBundleId=_extensionBundleId;
-@property(readonly, copy, nonatomic) NSString *launchableAppBundleId; // @synthesize launchableAppBundleId=_launchableAppBundleId;
 
 @end
 

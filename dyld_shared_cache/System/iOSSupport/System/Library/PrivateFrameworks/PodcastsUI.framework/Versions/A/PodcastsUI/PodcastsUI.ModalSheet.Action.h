@@ -7,8 +7,6 @@
 @interface PodcastsUI.ModalSheet.Action
 {
     id type;
-    id handler;
-    id title;
 }
 
 @end

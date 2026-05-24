@@ -11,31 +11,29 @@
 @interface CUIPlaceholderCUIMutableCommonAssetStorage : CUIPlaceholderCUICommonAssetStorage
 {
     NSMutableDictionary *_bitmapInfo;
-    unsigned int _useBitmapIndex:1;
-    unsigned int _enableLargeCarKeyWorkaround:1;
 }
 
+- (_Bool)5'1;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)A;
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
+- (void);
+- (void)E;
+- (void);
 - (_Bool);
-- (void);
-- (void);
+- (_Bool);
+- (_Bool)comp->line.size.y;
+- (void)y little sense, and Kakadu will not perform the required multiple scaling for irreversibly transformed components.;
+- (void)robably a reasonable policy, since the PLT marker segments may be removed without losing any information.;
 - (_Bool);
 - (void);
 - (void);
@@ -46,7 +44,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)arrayWithObjects:(unsigned short)arg1;
 - (void);
 - (void);
 - (_Bool);

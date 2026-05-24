@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaASTPickType, NSData, SISchemaUUID;
-
 @interface IFTSchemaASTFlatExprPickVariant : SISchemaInstrumentationMessage
 {
     _Bool _exists;
-    SISchemaUUID *_rawEventId;
-    IFTSchemaASTPickType *_pickType;
-    CDStruct_b33ad018 _has;
-    _Bool _hasRawEventId;
-    _Bool _hasPickType;
 }
 
 - (void);
@@ -24,22 +17,22 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)9;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)setCreatedByIdentifier: /* Error: Ran out of types for this method. */;
 - (id)At!dFùà°1Â0@ù
 × ;
-- (id)eTokensPerFrame:(id)arg1;
+- (id)setAverageActiveTokensPerFrame:(id)arg1;
 - (id)ÂäÂ0ÄÅTÆ,ÇÌÉÊÐËÌÍÐÍôÎ<Ï;
 - (_Bool)·à!;
 - (void)@³;
@@ -48,12 +41,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool exists; // @synthesize exists=_exists;
-@property(nonatomic) _Bool hasExists;
-@property(nonatomic) _Bool hasPickType; // @synthesize hasPickType=_hasPickType;
-@property(nonatomic) _Bool hasRawEventId; // @synthesize hasRawEventId=_hasRawEventId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) IFTSchemaASTPickType *pickType; // @synthesize pickType=_pickType;
-@property(retain, nonatomic) SISchemaUUID *rawEventId; // @synthesize rawEventId=_rawEventId;
 
 @end
 

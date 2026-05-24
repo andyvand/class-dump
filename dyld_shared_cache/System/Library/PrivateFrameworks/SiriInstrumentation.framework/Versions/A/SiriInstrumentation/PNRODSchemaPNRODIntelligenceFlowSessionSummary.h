@@ -6,28 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, PNRODSchemaPNRODFailureInfo, PNRODSchemaPNRODMetricDuration, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface PNRODSchemaPNRODIntelligenceFlowSessionSummary : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_clientSessionId;
-    SISchemaUUID *_rawSessionId;
-    PNRODSchemaPNRODMetricDuration *_standardPlannerSetupTime;
-    PNRODSchemaPNRODMetricDuration *_queryDecorationServiceSetupTime;
-    PNRODSchemaPNRODMetricDuration *_fullPlannerServiceSetupTime;
-    PNRODSchemaPNRODMetricDuration *_planOverridesServiceSetupTime;
-    PNRODSchemaPNRODMetricDuration *_planResolverServiceSetupTime;
-    PNRODSchemaPNRODMetricDuration *_responseGenerationServiceSetupTime;
-    PNRODSchemaPNRODFailureInfo *_failureInfo;
-    _Bool _hasClientSessionId;
-    _Bool _hasRawSessionId;
-    _Bool _hasStandardPlannerSetupTime;
-    _Bool _hasQueryDecorationServiceSetupTime;
-    _Bool _hasFullPlannerServiceSetupTime;
-    _Bool _hasPlanOverridesServiceSetupTime;
-    _Bool _hasPlanResolverServiceSetupTime;
-    _Bool _hasResponseGenerationServiceSetupTime;
-    _Bool _hasFailureInfo;
 }
 
 - (id);
@@ -60,7 +43,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)k;
 - (void);
 - (void);
 - (void);
@@ -72,42 +55,24 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)=;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)-;
 - (_Bool);
-- (_Bool);
+- (_Bool)ender;
 - (id);
 - (id)
 × ;
-- (id)nContentRateKBsPerSecond;
+- (id)_loadScreenContentRateKBsPerSecond;
 - (id)tion;
-- (void)TITY;
+- (void)EXECUTORSEARCHTOOLQUERYTYPE_APP_ENTITY;
 
 // Remaining properties
 @property(retain, nonatomic) SISchemaUUID *clientSessionId; // @synthesize clientSessionId=_clientSessionId;
-@property(retain, nonatomic) PNRODSchemaPNRODFailureInfo *failureInfo; // @synthesize failureInfo=_failureInfo;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *fullPlannerServiceSetupTime; // @synthesize fullPlannerServiceSetupTime=_fullPlannerServiceSetupTime;
-@property(nonatomic) _Bool hasClientSessionId; // @synthesize hasClientSessionId=_hasClientSessionId;
-@property(nonatomic) _Bool hasFailureInfo; // @synthesize hasFailureInfo=_hasFailureInfo;
-@property(nonatomic) _Bool hasFullPlannerServiceSetupTime; // @synthesize hasFullPlannerServiceSetupTime=_hasFullPlannerServiceSetupTime;
-@property(nonatomic) _Bool hasPlanOverridesServiceSetupTime; // @synthesize hasPlanOverridesServiceSetupTime=_hasPlanOverridesServiceSetupTime;
-@property(nonatomic) _Bool hasPlanResolverServiceSetupTime; // @synthesize hasPlanResolverServiceSetupTime=_hasPlanResolverServiceSetupTime;
-@property(nonatomic) _Bool hasQueryDecorationServiceSetupTime; // @synthesize hasQueryDecorationServiceSetupTime=_hasQueryDecorationServiceSetupTime;
-@property(nonatomic) _Bool hasRawSessionId; // @synthesize hasRawSessionId=_hasRawSessionId;
-@property(nonatomic) _Bool hasResponseGenerationServiceSetupTime; // @synthesize hasResponseGenerationServiceSetupTime=_hasResponseGenerationServiceSetupTime;
-@property(nonatomic) _Bool hasStandardPlannerSetupTime; // @synthesize hasStandardPlannerSetupTime=_hasStandardPlannerSetupTime;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *planOverridesServiceSetupTime; // @synthesize planOverridesServiceSetupTime=_planOverridesServiceSetupTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *planResolverServiceSetupTime; // @synthesize planResolverServiceSetupTime=_planResolverServiceSetupTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *queryDecorationServiceSetupTime; // @synthesize queryDecorationServiceSetupTime=_queryDecorationServiceSetupTime;
-@property(retain, nonatomic) SISchemaUUID *rawSessionId; // @synthesize rawSessionId=_rawSessionId;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *responseGenerationServiceSetupTime; // @synthesize responseGenerationServiceSetupTime=_responseGenerationServiceSetupTime;
-@property(retain, nonatomic) PNRODSchemaPNRODMetricDuration *standardPlannerSetupTime; // @synthesize standardPlannerSetupTime=_standardPlannerSetupTime;
 
 @end
 

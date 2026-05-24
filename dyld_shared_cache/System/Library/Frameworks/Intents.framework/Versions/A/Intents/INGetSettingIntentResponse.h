@@ -6,16 +6,14 @@
 
 #import <Intents/INIntentResponse.h>
 
-@class NSArray, NSString;
-
 @interface INGetSettingIntentResponse : INIntentResponse
 {
 }
 
-+ (int);
-+ (int);
-+ (long long);
-+ (_Bool);
++ (int)afterThumbnailIsPutInGenstore;
++ (int)setIno:(long long)arg1;
++ (long long)_shouldProvideFoldedGenericIcon;
++ (_Bool)T@"NSImage",R,N;
 + (_Bool);
 - (id);
 - (void);
@@ -24,27 +22,18 @@
 - (id);
 - (long long);
 - (id);
-- (long long);
+- (long long)k;
 - (void);
 - (id);
+- (id)amepad",R;
+- (id);
+- (void)durationFromAutoJoinEnabledTrigger;
 - (id);
 - (id);
-- (void);
-- (id);
-- (id);
-- (long long)SignalIntentResponse;
+- (long long)_INPBActivateCarSignalIntentResponse;
 
 // Remaining properties
 @property(readonly) long long code;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) NSString *errorDetail;
-@property(readonly) unsigned long long hash;
-@property(copy) NSArray *settingResponseDatas;
-@property(readonly) Class superclass;
 
 @end
 

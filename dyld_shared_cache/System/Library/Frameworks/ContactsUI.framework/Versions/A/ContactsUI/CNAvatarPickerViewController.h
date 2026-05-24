@@ -6,29 +6,26 @@
 
 #import <ContactsUI/CNLikenessEditorViewController.h>
 
-@class ContactsUI.CNAvatarPickerViewInterface, NSData, NSDictionary, NSViewController;
+@class ContactsUI.CNAvatarPickerViewInterface, NSData;
 
 @interface CNAvatarPickerViewController : CNLikenessEditorViewController
 {
     NSData *_memojiMetadata;
-    NSDictionary *_userSetupMemojiRecords;
-    ContactsUI.CNAvatarPickerViewInterface *_pickerViewInterface;
-    NSViewController *_hostingViewController;
 }
 
 + (void);
 + (id);
 + (id);
-- (id);
+- (id)S;
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (long long);
 - (id);
 - (unsigned long long);
 - (struct CGAffineTransform);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,17 +33,14 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)a;
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSViewController *hostingViewController; // @synthesize hostingViewController=_hostingViewController;
-@property(retain, nonatomic) NSData *memojiMetadata; // @synthesize memojiMetadata=_memojiMetadata;
 @property(retain, nonatomic) ContactsUI.CNAvatarPickerViewInterface *pickerViewInterface; // @synthesize pickerViewInterface=_pickerViewInterface;
-@property(retain, nonatomic) NSDictionary *userSetupMemojiRecords; // @synthesize userSetupMemojiRecords=_userSetupMemojiRecords;
 
 @end
 

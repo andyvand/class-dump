@@ -9,19 +9,18 @@
 @interface GEOLogMsgStateMapRestore
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_targetLayouts;
 }
 
 + (Class);
-+ (_Bool)nIntentSuggestions:(id)arg1;
++ (_Bool)setHasSupportDirectionIntentSuggestions:(id)arg1;
 - (unsigned long long);
 - (id);
 - (id);
 - (void);
+- (void)_os_transaction>";
+- (void)nextSchedulableTick;
 - (void);
-- (void);
-- (void);
-- (id);
+- (id)h%;
 - (id);
 - (void);
 - (void);
@@ -31,7 +30,7 @@
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)WithHandler:(struct _NSZone *)arg1 auditToken:networkActivity: /* Error: Ran out of types for this method. */;
+- (id)submitWithHandler:(struct _NSZone *)arg1 auditToken:networkActivity: /* Error: Ran out of types for this method. */;
 - (id)setHasDataType: /* Error: Ran out of types for this method. */;
 - (id)waypointRoute found in ETAU response:%@ /* Error: Ran out of types for this method. */;
 - (id)
@@ -40,7 +39,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *targetLayouts;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

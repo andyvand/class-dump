@@ -6,18 +6,11 @@
 
 #import <QuartzComposer/QCInspector.h>
 
-@class GFList, NSMutableArray, NSPopUpButton, NSTableView;
+@class NSPopUpButton;
 
 @interface QCHIDInputUI : QCInspector
 {
     NSPopUpButton *deviceMenu;
-    NSTableView *elementsTableView;
-    GFList *_allElements;
-    NSMutableArray *_elements;
-    unsigned int _addNotification;
-    unsigned int _removeNotification;
-    struct IONotificationPort *_notificationPort;
-    struct __CFRunLoopSource *_runLoopSource;
 }
 
 + (id);

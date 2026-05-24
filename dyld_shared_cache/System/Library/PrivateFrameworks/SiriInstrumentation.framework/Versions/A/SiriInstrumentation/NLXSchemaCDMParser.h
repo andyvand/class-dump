@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface NLXSchemaCDMParser : SISchemaInstrumentationMessage
 {
     int _algorithm;
-    int _parserId;
-    struct {
-        unsigned int algorithm:1;
-        unsigned int parserId:1;
-    } _has;
 }
 
 - (void);
@@ -28,22 +21,18 @@
 - (_Bool);
 - (void);
 - (int);
-- (void);
+- (void)aryDirectory.MoIAiI/Sources/libressl/libressl-2.2/crypto/rsa/rsa_oaep.c;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
 - (id),N,V_hasSmsTextContentMetadata;
-- (id)AudioFileEnqueued: /* Error: Ran out of types for this method. */;
+- (id)setHasSampledAudioFileEnqueued: /* Error: Ran out of types for this method. */;
 - (void)a;
 
 // Remaining properties
 @property(nonatomic) int algorithm; // @synthesize algorithm=_algorithm;
-@property(nonatomic) _Bool hasAlgorithm;
-@property(nonatomic) _Bool hasParserId;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int parserId; // @synthesize parserId=_parserId;
 
 @end
 

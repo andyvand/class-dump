@@ -6,14 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface FLOWSchemaFLOWSmsAttachmentMetadataTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSString *_foregroundAppBundleId;
-    _Bool _hasLinkId;
-    _Bool _hasForegroundAppBundleId;
 }
 
 - (void);
@@ -26,7 +23,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id):(id)arg1 8;
 - (id);
 - (void);
 - (unsigned long long);
@@ -40,10 +37,6 @@
 »$;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *foregroundAppBundleId; // @synthesize foregroundAppBundleId=_foregroundAppBundleId;
-@property(nonatomic) _Bool hasForegroundAppBundleId; // @synthesize hasForegroundAppBundleId=_hasForegroundAppBundleId;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
 
 @end

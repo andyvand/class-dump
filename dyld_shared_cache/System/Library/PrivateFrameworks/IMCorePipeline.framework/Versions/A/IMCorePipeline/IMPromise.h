@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMResult, NSMutableArray;
+@class IMResult;
 
 @interface IMPromise
 {
     IMResult *_result;
-    NSMutableArray *_completionBlocks;
 }
 
 + (id);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);

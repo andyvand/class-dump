@@ -4,48 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, SFLatLng;
+@class NSString;
 
 @interface SFStructuredLocation
 {
     struct {
         unsigned int radius:1;
     } _has;
-    NSString *_title;
-    SFLatLng *_geoLocation;
-    double _radius;
 }
 
 + (_Bool);
 - (void);
-- (id);
-- (id);
+- (id)scrubber:viewForItemAtIndex: /* Error: Ran out of types for this method. */;
+- (id)8@16;
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void)error;
+- (_Bool)ICANotificationTypeScannerSessionClosed;
 - (id);
-- (void);
+- (void)tDelegate>";
 - (id);
+- (id)photoAssetsSuggestedByPhotosCount;
+- (double);
 - (id);
-- (double);
-- (id);
-- (id);
-- (void)ptionsMenu;
+- (id);
+- (void)hasDidSelectFromOptionsMenu;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(retain, nonatomic) SFLatLng *geoLocation; // @synthesize geoLocation=_geoLocation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) double radius; // @synthesize radius=_radius;
-@property(readonly) Class superclass;
 @property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

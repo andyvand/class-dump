@@ -10,7 +10,6 @@
 @interface PKInAppPaymentService
 {
     PKXPCService *_remoteService;
-    id <PKInAppPaymentServiceDelegate> _delegate;
 }
 
 - (void);
@@ -28,17 +27,17 @@
 - (void);
 - (void);
 - (void);
-- (long long);
+- (long long)@9?;
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (id)o be notified ?;
-- (void)ts;
+- (void)personResults;
 
 // Remaining properties
 @property(nonatomic) __weak id <PKInAppPaymentServiceDelegate> delegate; // @synthesize delegate=_delegate;

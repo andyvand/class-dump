@@ -9,9 +9,6 @@
 @interface CNTCCAppAuthorizationRecord
 {
     NSString *_bundleIdentifier;
-    NSString *_localizedName;
-    long long _recordType;
-    long long _authorizationStatus;
 }
 
 + (unsigned long long);
@@ -19,17 +16,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)@;
 - (long long);
 - (void);
 - (long long);
 - (void);
 
 // Remaining properties
-@property long long authorizationStatus; // @synthesize authorizationStatus=_authorizationStatus;
 @property(readonly) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property(readonly) NSString *localizedName; // @synthesize localizedName=_localizedName;
-@property(readonly) long long recordType; // @synthesize recordType=_recordType;
 
 @end
 

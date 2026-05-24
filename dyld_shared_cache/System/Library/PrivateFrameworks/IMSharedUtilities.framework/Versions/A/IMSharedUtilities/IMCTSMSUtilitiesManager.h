@@ -7,7 +7,6 @@
 @interface IMCTSMSUtilitiesManager
 {
     int _mmsEnabledToken;
-    int _rcsEnabledToken;
 }
 
 + (id);
@@ -22,7 +21,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (unsigned long long);
 - (id);
@@ -32,22 +31,22 @@
 - (_Bool);
 - (double);
 - (int);
-- (int);
+- (int);
 - (double);
-- (double);
+- (double)T;
 - (int);
 - (int);
-- (_Bool);
+- (_Bool)9;
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)};
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (void);
+- (void)q@;
 - (unsigned long long);
 - (id);
 - (id);
@@ -61,7 +60,6 @@
 
 // Remaining properties
 @property(nonatomic) int mmsEnabledToken; // @synthesize mmsEnabledToken=_mmsEnabledToken;
-@property(nonatomic) int rcsEnabledToken; // @synthesize rcsEnabledToken=_rcsEnabledToken;
 
 @end
 

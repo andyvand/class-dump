@@ -5,5 +5,6 @@
 //
 
 @protocol TIPreferencesAnalyzing
+- (void)ityUtilities.framework/AccessibilityUtilities;
 @end
 

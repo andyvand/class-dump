@@ -9,9 +9,6 @@
 @interface SCNManipulableItem
 {
     double _screenSize;
-    SCNNode *node;
-    id component;
-    unsigned long long elementIndex;
 }
 
 + (void);
@@ -25,7 +22,7 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (void);
 - (id);
 - (void);
@@ -34,18 +31,13 @@
 - (unsigned long long);
 - (struct SCNVector3);
 - (_Bool);
-- (double);
+- (double)colorList;
 - (void);
-- (void)nExtension;
+- (void)_runningInExtension;
 - (id)DÅA#}?;
 
 // Remaining properties
-@property(retain, nonatomic) id component; // @synthesize component;
-@property(nonatomic) unsigned long long elementIndex; // @synthesize elementIndex;
-@property(readonly, nonatomic) struct SCNVector3 elementPosition;
 @property(retain, nonatomic) SCNNode *node; // @synthesize node;
-@property(nonatomic) struct SCNMatrix4 transform;
-@property(nonatomic) struct SCNMatrix4 worldTransform;
 
 @end
 

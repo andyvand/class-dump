@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSIndexSet, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface PHSearchSuggestionOptions
 {
     _Bool _limitSuggestionsToExactTextMatches;
-    _Bool _wantsUnscopedSuggestions;
-    _Bool _wantsPairedSuggestions;
-    unsigned long long _suggestionResultTypes;
-    unsigned long long _suggestionLimit;
-    NSIndexSet *_suggestionCategories;
-    NSObject<OS_dispatch_queue> *_suggestionsHandlerQueue;
-    NSIndexSet *_substringMatchedCategories;
-    NSMutableDictionary *_minMatchPercentByCategoriesType;
 }
 
-- (_Bool);
+- (_Bool)9;
 - (_Bool);
 - (id);
 - (unsigned long long);
@@ -33,30 +24,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)T_;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)Q;
 - (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void)kDecoder;
+- (void)_allowFallbackDecoder;
 
 // Remaining properties
-@property(nonatomic) _Bool limitSuggestionsToExactTextMatches; // @synthesize limitSuggestionsToExactTextMatches=_limitSuggestionsToExactTextMatches;
 @property(retain, nonatomic) NSMutableDictionary *minMatchPercentByCategoriesType; // @synthesize minMatchPercentByCategoriesType=_minMatchPercentByCategoriesType;
-@property(retain, nonatomic) NSIndexSet *substringMatchedCategories; // @synthesize substringMatchedCategories=_substringMatchedCategories;
-@property(retain, nonatomic) NSIndexSet *suggestionCategories; // @synthesize suggestionCategories=_suggestionCategories;
-@property(nonatomic) unsigned long long suggestionLimit; // @synthesize suggestionLimit=_suggestionLimit;
-@property(nonatomic) unsigned long long suggestionResultTypes; // @synthesize suggestionResultTypes=_suggestionResultTypes;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *suggestionsHandlerQueue; // @synthesize suggestionsHandlerQueue=_suggestionsHandlerQueue;
-@property(nonatomic) _Bool wantsPairedSuggestions; // @synthesize wantsPairedSuggestions=_wantsPairedSuggestions;
-@property(nonatomic) _Bool wantsUnscopedSuggestions; // @synthesize wantsUnscopedSuggestions=_wantsUnscopedSuggestions;
 
 @end
 

@@ -4,24 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IKComposer, IKImageLayer, IKKnobLayer;
+@class IKKnobLayer;
 
 @interface IKPastedImage
 {
     IKKnobLayer *_knobLayer;
-    IKComposer *_composer;
-    IKImageLayer *_imageLayer;
-    _Bool _selected;
-    id _image;
 }
 
 + (double);
 + (id);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void);
 - (unsigned int);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (unsigned int);
@@ -33,7 +29,7 @@
 - (void);
 - (id);
 - (void);
-- (_Bool)inner;
+- (_Bool)spinner;
 
 // Remaining properties
 @property(retain) id image; // @synthesize image=_image;

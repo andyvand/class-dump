@@ -5,5 +5,6 @@
 //
 
 @protocol PMLNoiseStrategy
+- (_Bool);
 @end
 

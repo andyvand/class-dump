@@ -6,29 +6,12 @@
 
 #import <MediaPlayer/MPModelPerson.h>
 
-@class MPModelGenre, NSDate;
-
 @interface MPModelArtist : MPModelPerson
 {
 }
 
 
 // Remaining properties
-@property(nonatomic) long long albumCount; // @dynamic albumCount;
-@property(copy, nonatomic) CDUnknownBlockType artworkCatalogBlock; // @dynamic artworkCatalogBlock;
-@property(nonatomic, getter=isClassicalExperienceAvailable) _Bool classicalExperienceAvailable; // @dynamic classicalExperienceAvailable;
-@property(nonatomic) long long cleanDownloadedSongCount; // @dynamic cleanDownloadedSongCount;
-@property(nonatomic) long long cleanSongCount; // @dynamic cleanSongCount;
-@property(copy, nonatomic) NSDate *dateFavorited; // @dynamic dateFavorited;
-@property(nonatomic) long long downloadedSongCount; // @dynamic downloadedSongCount;
-@property(copy, nonatomic) CDUnknownBlockType editorialArtworkCatalogBlock; // @dynamic editorialArtworkCatalogBlock;
-@property(copy, nonatomic) MPModelGenre *genre; // @dynamic genre;
 @property(nonatomic) _Bool hasBiography; // @dynamic hasBiography;
-@property(nonatomic) _Bool isDisliked; // @dynamic isDisliked;
-@property(nonatomic) _Bool isFavorite; // @dynamic isFavorite;
-@property(nonatomic) _Bool isPinned; // @dynamic isPinned;
-@property(nonatomic, getter=isLibraryAdded) _Bool libraryAdded; // @dynamic libraryAdded;
-@property(copy, nonatomic) NSDate *libraryAddedDate; // @dynamic libraryAddedDate;
-@property(nonatomic) long long songCount; // @dynamic songCount;
 @end
 

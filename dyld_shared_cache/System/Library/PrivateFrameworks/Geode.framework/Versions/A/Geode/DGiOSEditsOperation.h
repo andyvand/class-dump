@@ -6,36 +6,29 @@
 
 #import <Geode/DGOperation.h>
 
-@class NSArray, NSNumber, NSString;
+@class NSNumber, NSString;
 
 @interface DGiOSEditsOperation : DGOperation
 {
     NSNumber *_inputStrength;
-    NSNumber *_inputWarmth;
-    NSNumber *_inputOrigI;
-    NSNumber *_inputOrigQ;
-    NSNumber *_inputShadows;
-    NSNumber *_inputHighlights;
-    NSNumber *_inputVibrancy;
-    NSArray *_inputCurvePoints;
 }
 
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (id);
++ (id)˩C;
 - (void);
 - (id);
 - (id);
 - (_Bool);
-- (void);
+- (void)AppleMusicPrivacyTipModifier;
 - (void);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)PhotoKitAssetCollectionChangePersonSortOrder;
+- (id);
 - (id);
 - (void);
 - (void);
@@ -48,14 +41,6 @@
 
 // Remaining properties
 @property(readonly) NSString *editSummary;
-@property(copy) NSArray *inputCurvePoints; // @synthesize inputCurvePoints=_inputCurvePoints;
-@property(copy) NSNumber *inputHighlights; // @synthesize inputHighlights=_inputHighlights;
-@property(copy) NSNumber *inputOrigI; // @synthesize inputOrigI=_inputOrigI;
-@property(copy) NSNumber *inputOrigQ; // @synthesize inputOrigQ=_inputOrigQ;
-@property(copy) NSNumber *inputShadows; // @synthesize inputShadows=_inputShadows;
-@property(copy) NSNumber *inputStrength; // @synthesize inputStrength=_inputStrength;
-@property(copy) NSNumber *inputVibrancy; // @synthesize inputVibrancy=_inputVibrancy;
-@property(copy) NSNumber *inputWarmth; // @synthesize inputWarmth=_inputWarmth;
 
 @end
 

@@ -12,11 +12,10 @@ __attribute__((visibility("hidden")))
 @interface _MKMaskingPolygonOverlayRenderer : MKOverlayRenderer
 {
     VKVectorOverlayMaskingPolygonGroup *_vectorData;
-    long long _style;
 }
 
 - (id);
-- (_Bool);
+- (_Bool)ityNameToInvolvedIdentifiers=%@;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -24,7 +23,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (long long);
 - (void);
-- (void)matFromTemplate: /* Error: Ran out of types for this method. */;
+- (void)setLocalizedDateFormatFromTemplate: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) long long style; // @synthesize style=_style;

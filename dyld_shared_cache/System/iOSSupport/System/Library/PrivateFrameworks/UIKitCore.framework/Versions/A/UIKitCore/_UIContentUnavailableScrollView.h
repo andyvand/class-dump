@@ -11,13 +11,13 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (_Bool);
-- (_Bool);
+- (_Bool)oing relay message is in a instant message chat, no need to validate.;
+- (_Bool)efault 10 seconds;
 - (id)1Â0@ù
 × ;
 - (id)ÁÐ!BùÑ`1Â0@ù
 × ;
-- (id)rticalSpacing;
+- (id)_buttonVerticalSpacing;
 - (_Bool)o;
 
 @end

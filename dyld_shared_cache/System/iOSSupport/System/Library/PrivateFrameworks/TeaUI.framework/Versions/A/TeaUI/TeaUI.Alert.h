@@ -7,12 +7,6 @@
 @interface TeaUI.Alert
 {
     id acceptBlock;
-    id rejectBlock;
-    id neutralBlock;
-    id acceptBlockV1;
-    id rejectBlockV1;
-    id neutralBlockV1;
-    id alertController;
 }
 
 @end

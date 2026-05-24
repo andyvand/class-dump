@@ -9,15 +9,6 @@
 @interface SFAirDropAction
 {
     _Bool _requiresUnlockedUI;
-    _Bool _shouldUpdateUserResponse;
-    NSString *_localizedTitle;
-    NSString *_singleItemLocalizedTitle;
-    NSString *_actionIdentifier;
-    NSString *_transferIdentifier;
-    unsigned long long _minRequiredTransferState;
-    unsigned long long _maxTransferState;
-    CDUnknownBlockType _actionHandler;
-    long long _type;
 }
 
 + (id);
@@ -45,22 +36,13 @@
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
-- (id)XPC;
+- (id)syncXPC;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType actionHandler; // @synthesize actionHandler=_actionHandler;
-@property(readonly, copy, nonatomic) NSString *actionIdentifier; // @synthesize actionIdentifier=_actionIdentifier;
-@property(copy, nonatomic) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(nonatomic) unsigned long long maxTransferState; // @synthesize maxTransferState=_maxTransferState;
-@property(nonatomic) unsigned long long minRequiredTransferState; // @synthesize minRequiredTransferState=_minRequiredTransferState;
-@property(nonatomic) _Bool requiresUnlockedUI; // @synthesize requiresUnlockedUI=_requiresUnlockedUI;
-@property(nonatomic) _Bool shouldUpdateUserResponse; // @synthesize shouldUpdateUserResponse=_shouldUpdateUserResponse;
-@property(copy, nonatomic) NSString *singleItemLocalizedTitle; // @synthesize singleItemLocalizedTitle=_singleItemLocalizedTitle;
 @property(readonly, copy, nonatomic) NSString *transferIdentifier; // @synthesize transferIdentifier=_transferIdentifier;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

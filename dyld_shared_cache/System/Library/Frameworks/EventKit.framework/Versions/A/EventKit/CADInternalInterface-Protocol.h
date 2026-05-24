@@ -5,5 +5,8 @@
 //
 
 @protocol CADInternalInterface
+- (void).;
+- (void)d times with intervals [%@];
+- (void)s custom row did tap, rowIdentifier:(void (^)(int))arg1 %@;
 @end
 

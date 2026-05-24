@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class APPCAdPolicyData, APPCTapAction, NSString, NSUUID;
+@class APPCAdPolicyData, NSString;
 
 @protocol APPCPromotableContentRepresentation
+- (struct CGSize);
+- (APPCAdPolicyData *)OnboardingInteractorType;
 
 // Remaining properties
-@property(nonatomic, readonly) APPCAdPolicyData *adPolicyData;
-@property(nonatomic, readonly) struct CGSize adSize;
-@property(nonatomic, readonly) long long adType;
-@property(nonatomic, readonly) long long desiredPosition;
-@property(nonatomic, readonly) NSUUID *id;
 @property(nonatomic, readonly) NSString *identifier;
-@property(nonatomic, readonly) long long privacyMarkerPosition;
-@property(nonatomic, readonly) long long privacyMarkerType;
-@property(nonatomic, readonly) APPCTapAction *tapAction;
 @end
 

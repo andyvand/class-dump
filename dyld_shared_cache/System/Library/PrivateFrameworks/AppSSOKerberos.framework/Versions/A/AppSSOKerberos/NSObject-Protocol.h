@@ -4,17 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (Class)setDomainIdentifier: /* Error: Ran out of types for this method. */;
+- (id)setDomainFromSenderStats: /* Error: Ran out of types for this method. */;
+- (id)setDocumentSource:(SEL)arg1;
+- (id)setDidRegexTrigger:(SEL)arg1;
+- (id)setDidKVSMigrationToken:(SEL)arg1 forIdentifier: /* Error: Ran out of types for this method. */;
+- (Class)setDeletedEmailsCount: /* Error: Ran out of types for this method. */;
+- (_Bool)H;
+- (unsigned long long)_ringLightScreenNitsEstimationEnabledChangedDelegate;
+- (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

@@ -6,42 +6,33 @@
 
 #import <FinderKit/FI_TUpdateLayerView.h>
 
-@class FI_TButton, FI_TImageView, FI_TTextField, NSButton, NSImage, NSStackView, NSString, NSView;
+@class NSImage, NSStackView;
 
 __attribute__((visibility("hidden")))
 @interface FI_TIconCollectionGroupHeaderView : FI_TUpdateLayerView
 {
     NSStackView *_stackView;
-    FI_TImageView *_tagImageView;
-    FI_TTextField *_titleField;
-    FI_TButton *_collapseButton;
-    FI_TUpdateLayerView *_topHorizontalLineView;
-    NSView *_blurBackgroundView;
-    unsigned long long _nodeCount;
-    _Bool _isCollapsed;
-    _Bool _isCollapseButtonHiddenManually;
-    _Bool _isFloating;
 }
 
 + (id);
 + (id);
-- (id);
+- (id)p;
+- (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)#;
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)nimation stays unsupported;
 - (id);
-- (void);
-- (void);
+- (void)ck_opaque"I};
+- (void);
 - (id);
 - (void);
 - (_Bool);
-- (_Bool)nfo;
+- (_Bool)representedTagInfo;
 - (void)t-code;
 - (void)ÐD;
 - (void)Ì;
@@ -49,26 +40,7 @@ __attribute__((visibility("hidden")))
 - (void)forNode:(_Bool)arg1 asyncIconFetch:]E3$_4FvP7NSImageEEE /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, getter=isCollapseButtonHidden) _Bool collapseButtonHidden;
-@property(nonatomic, getter=isCollapseButtonHiddenManually) _Bool collapseButtonHiddenManually; // @synthesize collapseButtonHiddenManually=_isCollapseButtonHiddenManually;
-@property(nonatomic, getter=isCollapsed) _Bool collapsed; // @synthesize collapsed=_isCollapsed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(getter=isFloating) _Bool floating; // @synthesize floating=_isFloating;
-@property(readonly) unsigned long long hash;
-@property(copy) NSString *identifier;
-@property(nonatomic) unsigned long long nodeCount; // @synthesize nodeCount=_nodeCount;
-@property(readonly) NSString *reuseIdentifier;
-@property __weak NSButton *sectionCollapseButton;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSButton",?,W
-
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSImage *tagImage;
-@property(copy, nonatomic) NSString *titleStr;
 
 @end
 

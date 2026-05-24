@@ -7,7 +7,6 @@
 @interface NewsFeed.UserNotificationSettingsManager
 {
     id _cachedSettings;
-    id debouncer;
 }
 
 @end

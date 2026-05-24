@@ -7,14 +7,10 @@
 @interface WiFiUsageChannel
 {
     _Bool _isDFSChannel;
-    int _band;
-    unsigned long long _channel;
-    unsigned long long _channelFlags;
-    unsigned long long _channelWidth;
 }
 
 + (id);
-+ (id);
++ (id);
 + (id);
 - (void);
 - (void);
@@ -23,25 +19,21 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)P;
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)�9;
 - (id);
 - (_Bool);
-- (void);
-- (id);
+- (void);
+- (id)applyAssertionConfiguration(_:(struct _NSZone *)arg1 toSecureElement:inSessionWithPassUniqueIDs:hasActivatedApplets:performActivations:useLegacyBehavior:) /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (unsigned long long);
 - (void);
 - (int);
 
 // Remaining properties
-@property(nonatomic) int band; // @synthesize band=_band;
 @property(nonatomic) unsigned long long channel; // @synthesize channel=_channel;
-@property(nonatomic) unsigned long long channelFlags; // @synthesize channelFlags=_channelFlags;
-@property(nonatomic) unsigned long long channelWidth; // @synthesize channelWidth=_channelWidth;
-@property(nonatomic) _Bool isDFSChannel; // @synthesize isDFSChannel=_isDFSChannel;
 
 @end
 

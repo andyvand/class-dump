@@ -4,23 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface CURunLoopThread
 {
     _Bool _activateCalled;
-    _Bool _invalidateCalled;
-    struct __CFRunLoop *_runLoop;
-    _Bool _runLoopValid;
-    NSMutableArray *_startBlocks;
-    _Bool _threadRunning;
-    struct LogCategory *_ucat;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CDUnknownBlockType _invalidationHandler;
-    NSString *_label;
-    CDUnknownBlockType _threadInitializeHandler;
-    CDUnknownBlockType _threadFinalizeHandler;
 }
 
 - (CDUnknownBlockType);
@@ -29,8 +18,8 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
-- (id);
+- (void)?k;
+- (id)�;
 - (id);
 - (id);
 - (void);
@@ -41,14 +30,10 @@
 - (CDUnknownBlockType);
 - (void);
 - (void);
-- (void);
+- (void)setMaximumTerminationResistance: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType invalidationHandler; // @synthesize invalidationHandler=_invalidationHandler;
-@property(copy, nonatomic) NSString *label; // @synthesize label=_label;
-@property(copy, nonatomic) CDUnknownBlockType threadFinalizeHandler; // @synthesize threadFinalizeHandler=_threadFinalizeHandler;
-@property(copy, nonatomic) CDUnknownBlockType threadInitializeHandler; // @synthesize threadInitializeHandler=_threadInitializeHandler;
 
 @end
 

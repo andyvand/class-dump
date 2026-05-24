@@ -14,16 +14,16 @@ __attribute__((visibility("hidden")))
     UARPAssetTagOS *_tag;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (unsigned int);
 - (id);
 - (id);
 - (id);
+- (id)startLeftwardContentTransitionButtonEnabled;
 - (id);
-- (id);
-- (void);
+- (void)H;
 - (void);
 
 // Remaining properties

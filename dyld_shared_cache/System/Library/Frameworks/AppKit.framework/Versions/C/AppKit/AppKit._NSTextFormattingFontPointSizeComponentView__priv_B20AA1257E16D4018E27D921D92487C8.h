@@ -11,13 +11,13 @@
     id fontSizes;
 }
 
-- (void);
-- (long long);
-- (void);
-- (id);
+- (void)0@88;
+- (long long)%c;
+- (void)cator}i^^?^{_CFURLCredential}iQ}8^v16@?<v@?^{NetworkProxyCredential=^^?^{__CFAllocator}i^^?^{_CFURLCredential}iQ}>24;
+- (id)xy = %s};
 - (id);
 - (struct CGSize);
-- (id)eImage;
+- (id)_standardMenuItemMixedStateImage;
 - (void)ÆôME;
 
 // Remaining properties

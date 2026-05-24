@@ -15,7 +15,7 @@
 - (long long);
 - (_Bool);
 - (void);
-- (id);
+- (id)cleanseOrphanedFileTransfers;
 - (id);
 - (void);
 

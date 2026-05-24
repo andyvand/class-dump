@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, _UICalendarDataModel, _UIDatePickerLinkedLabel;
+@class _UICalendarDataModel;
 
 __attribute__((visibility("hidden")))
 @interface _UICalendarWeekdayView : UIView
@@ -14,32 +14,26 @@ __attribute__((visibility("hidden")))
     struct {
         _Bool rebuildLabels;
     } _flags;
-    NSArray *_labels;
-    _UICalendarDataModel *_dataModel;
-    _UIDatePickerLinkedLabel *_sizingLabel;
-    double _preferredLabelWidth;
 }
 
+- (id)">76;
+- (void)setHasBeenRemoteApproved:(double)arg1;
+- (double)automaticallyTranslating;
+- (id)setSubscriptionCreatedOverride:(id)arg1;
+- (void);
+- (void);
 - (id);
-- (void);
-- (double);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)(%@);
+- (void)k did not have a recordID. Attempting to load recordID from disk.;
 - (void);
 - (void);
-- (void);
-- (void);
-- (struct CGSize);
-- (void);
+- (struct CGSize)={CGPoint=dd}{CGSize=dd}}56@0:(struct CGSize)arg1 8@"<NUIArrangementItem>"16{CGRect={CGPoint=dd}{CGSize=dd}}24;
+- (void)A;
 - (struct CGSize)$,OÑ0&,\OÑL(,¨OÑDA,PÑXg,´PÑm,üPÑøn,QÑÌu,\QÑ8|,lQÑÂ,|QÑxÆ,¨QÑÌì,ÐQÑü;
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) _UICalendarDataModel *dataModel; // @synthesize dataModel=_dataModel;
-@property(nonatomic) double preferredLabelWidth; // @synthesize preferredLabelWidth=_preferredLabelWidth;
-@property(readonly, nonatomic) _UIDatePickerLinkedLabel *sizingLabel; // @synthesize sizingLabel=_sizingLabel;
 
 @end
 

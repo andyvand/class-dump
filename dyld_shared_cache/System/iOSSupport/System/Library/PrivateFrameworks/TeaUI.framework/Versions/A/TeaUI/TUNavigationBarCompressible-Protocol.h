@@ -5,10 +5,10 @@
 //
 
 @protocol TUNavigationBarCompressible
+- (double)predictedTransportModeForDestinationEntryData:originCoordinateData:handler: /* Error: Ran out of types for this method. */;
 - (void)ßüÿßüÿDýÿ´éüÿ@ýÿßüÿýÿ¤éüÿ²ýÿ;
 
 // Remaining properties
 @property(nonatomic) double contentAlpha;
-@property(nonatomic) double verticalOffset;
 @end
 

@@ -9,18 +9,16 @@
 @interface GEOPublisherViewResult
 {
     GEOPDPublisherViewResult *_publisherViewResult;
-    NSArray *_places;
 }
 
+- (id)CNCDUnifiedContactInfo;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSArray *collectionIdentifiers;
-@property(readonly, nonatomic) NSArray *resultFilters;
 
 @end
 

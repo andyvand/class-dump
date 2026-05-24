@@ -12,7 +12,6 @@ __attribute__((visibility("hidden")))
 @interface SCTApplicatonGRL : SCTGRL
 {
     NSString *mAppName;
-    NSString *mAppBundleIdentifier;
 }
 
 - (id);

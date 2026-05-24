@@ -4,15 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface VCSpeechFrameworkWrapper
 {
     _Bool _isFrameworkLoaded;
-    NSString *_frameworkPath;
-    CDUnknownFunctionPointerType _endModelRetention;
-    _Bool _isGeneralASRSupported;
 }
 
 + (id);
@@ -24,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -41,8 +36,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) _Bool frameworkLoaded; // @synthesize frameworkLoaded=_isFrameworkLoaded;
-@property(readonly, nonatomic) NSString *frameworkPath; // @synthesize frameworkPath=_frameworkPath;
-@property(readonly, nonatomic) _Bool isGeneralASRSupported; // @synthesize isGeneralASRSupported=_isGeneralASRSupported;
 
 @end
 

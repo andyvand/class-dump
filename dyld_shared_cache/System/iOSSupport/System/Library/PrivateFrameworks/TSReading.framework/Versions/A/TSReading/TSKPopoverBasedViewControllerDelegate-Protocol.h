@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class TSKPopoverBasedViewController;
+
 @protocol TSKPopoverBasedViewControllerDelegate
+
+@optional
+- (_Bool)MPNowPlayingContentItemRemoteArtwork"8@"NSError"16;
+- (void)ActiveItemIsAutoPlay;
+- (void)ontext failed [radio server error];
+- (void)@;
+- (_Bool)ontrollerBehaviorMusicDataSourceState"16^B24;
+- (void)ed playback queue:(TSKPopoverBasedViewController *)arg1 %@;
+- (double)-behavior-metadata;
 @end
 

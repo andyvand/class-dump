@@ -4,54 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSString;
 
 @interface BWLivePhotoMovieAnalyticsPayload
 {
     NSString *_clientApplicationID;
-    _Bool _recordingSucceeded;
-    int _errorStatus;
-    int _sessionStatus;
-    _Bool _longPressMovie;
-    _Bool _originalRecording;
-    _Bool _hasStillImagePTS;
-    double _movieDurationInSeconds;
-    double _stillTimeOffsetInSeconds;
-    double _stillTimeOffsetToVideoPrerollStartInMilliseconds;
-    double _stillTimeOffsetToVideoPrerollStopInMilliseconds;
-    double _stillTimeOffsetToAudioPrerollStartInMilliseconds;
-    double _stillTimeOffsetToAudioPrerollStopInMilliseconds;
-    _Bool _overlappingCapture;
-    long long _stagingNodeOverallNumberOfVideoFramesReceived;
-    double _stagingNodeOverallAverageTimeBetweenVideoFramesInMilliseconds;
-    double _stagingNodeOverallStandardDeviationOfTimeBetweenVideoFramesInMilliseconds;
-    double _stagingNodeOverallMinimumTimeBetweenVideoFramesInMilliseconds;
-    double _stagingNodeOverallMaximumTimeBetweenVideoFramesInMilliseconds;
-    long long _stagingNodeValveActiveNumberOfVideoFramesReceived;
-    double _stagingNodeValveActiveAverageTimeBetweenVideoFramesInMilliseconds;
-    double _stagingNodeValveActiveStandardDeviationOfTimeBetweenVideoFramesInMilliseconds;
-    double _stagingNodeValveActiveMinimumTimeBetweenVideoFramesInMilliseconds;
-    double _stagingNodeValveActiveMaximumTimeBetweenVideoFramesInMilliseconds;
-    long long _fileCoordinatorToWriterMovingWindowLatencyNumberOfSamples;
-    double _fileCoordinatorToWriterMovingWindowLatencyAverageInMilliseconds;
-    double _fileCoordinatorToWriterMovingWindowLatencyStandardDeviationInMilliseconds;
-    double _fileCoordinatorToWriterMovingWindowLatencyMinimumInMilliseconds;
-    double _fileCoordinatorToWriterMovingWindowLatencyMaximumInMilliseconds;
-    double _transitionVitalityScoreV1;
-    NSDictionary *_transitionVitalityFeatures;
-    unsigned int _stillCaptureLuxLevel;
-    NSString *_stillCapturePortType;
-    int _stillCaptureType;
-    int _stillCaptureResolutionFlavor;
-    int _maxSystemPressureLevel;
-    double _targetFrameRate;
-    unsigned int _numberOfFramesDropped;
-    NSNumber *_retimingRecipeIdentifier;
-    double _minVideoFrameDurationInMilliseconds;
-    double _maxVideoFrameDurationInMilliseconds;
-    double _averageVideoFrameDurationInMilliseconds;
-    double _medianVideoFrameDurationInMilliseconds;
-    double _videoFrameDurationStandardDeviationInMilliseconds;
 }
 
 - (double);
@@ -62,7 +19,7 @@
 - (double);
 - (double);
 - (double);
-- (int);
+- (int);
 - (int);
 - (id);
 - (unsigned int);
@@ -71,7 +28,7 @@
 - (double);
 - (double);
 - (double);
-- (double);
+- (double);
 - (long long);
 - (double);
 - (double);
@@ -80,6 +37,17 @@
 - (void);
 - (void);
 - (void);
+- (void)w;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)hBD9;
 - (void);
 - (void);
 - (void);
@@ -92,18 +60,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)I}S);
 - (void);
 - (void);
 - (void);
@@ -125,81 +82,31 @@
 - (double);
 - (_Bool);
 - (_Bool);
-- (double);
+- (double)*;
 - (long long);
 - (double);
 - (double);
 - (double);
 - (double);
 - (double);
+- (void)intentResponseDidUpdate:(int)arg1;
+- (int)st to extension map:%@ /* Error: Ran out of types for this method. */;
 - (void);
-- (int);
+- (void)MFPFont;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void)iterations and having vacuumed %@ pages with deferral success %@;
 - (unsigned int);
 - (id);
-- (id);
+- (id)`;
 - (int)v28@0:8I16@?20 /* Error: Ran out of types for this method. */;
 - (int)ÿ`ÿ`ÿ"_ÿ-_ÿ7_ÿA`ÿI`ÿQ`ÿZaÿbaÿjbÿqcÿydÿdÿeÿeÿbÿ`ÿ¤]ÿ«Zÿ±Wÿ¸Tÿ½QÿÃNÿÈLÿËJÿÍIÿÍIÿ'lÿ'lÿ'lÿ'lÿ&kÿ&kÿ&kÿ/jÿ9jÿBkÿKkÿSkÿ\kÿdlÿmmÿtnÿ|nÿoÿoÿoÿmÿkÿ¥hÿ­dÿ³aÿ¹^ÿ¿[ÿÅXÿÊVÿÍTÿÎSÿÎSÿ.vÿ.vÿ.vÿ.vÿ.uÿ.uÿ.uÿ3tÿ<tÿEtÿMtÿUuÿ]uÿfuÿovÿwwÿ~xÿyÿyÿyÿwÿ¡tÿ§rÿ®nÿµkÿ»hÿÁeÿÇbÿË`ÿÏ^ÿÐ]ÿÐ\ÿ7ÿ7ÿ7ÿ7ÿ7ÿ6ÿ6~ÿ9~ÿA~ÿJ~ÿQ~ÿY~ÿ`ÿhÿqÿyÿÿÿÿÿÿ¢~ÿ©|ÿ°yÿ¶vÿ½sÿÃpÿÉmÿÍkÿÐiÿÒgÿÒfÿ@ÿ@ÿ@ÿ@ÿ@ÿ@ÿ@ÿ@ÿGÿPÿWÿ^ÿeÿlÿtÿ|ÿÿÿÿÿÿ¤ÿªÿ²ÿ¸ÿ¾}ÿÄzÿËxÿÏuÿÓsÿÔrÿÔqÿKÿKÿKÿKÿJÿJÿJÿJÿOÿWÿ^ÿeÿlÿsÿ{ÿÿÿÿÿÿ¡ÿ¦ÿ¬ÿ´ÿºÿÀÿÇÿÍÿÒÿÕÿ×ÿÖ}ÿSÿSÿSÿSÿSÿSÿSÿSÿVÿ]ÿdÿkÿrÿyÿÿÿÿÿÿÿ¤ÿ©ÿ¯ÿ¶ÿ¼ÿÃÿÉÿÐÿÕÿØÿÚÿÙÿY£ÿY£ÿY£ÿY£ÿY£ÿY¢ÿY¢ÿY¢ÿY¡ÿ`¢ÿg¢ÿn¢ÿu£ÿ{£ÿ£ÿ¤ÿ¤ÿ¥ ÿ¦¡ÿ¢¦¢ÿ§§¢ÿ¬¦ ÿ±¥ÿ¸£ÿ¿¡ÿÅÿÌÿÒÿ×ÿÛÿÝÿÝÿ^ªÿ^ªÿ^ªÿ^ªÿ^©ÿ^©ÿ^©ÿ^©ÿ^¨ÿb¨ÿi©ÿo©ÿv©ÿ}ªÿ¬¡ÿ¬¡ÿ¬¢ÿ­¢ÿ­£ÿ¤®¤ÿ©¯£ÿ°°£ÿµ®¡ÿ»­ÿÁ«ÿÈªÿÎ¨ÿÕ§ÿÚ¥ÿÞ¤ÿà£ÿß¢ÿc± ÿc± ÿc° ÿc° ÿc° ÿc° ÿc°ÿb¯ÿb¯ÿc¯ÿj¯ÿn³¢ÿu³¢ÿ|´£ÿ´£ÿµ¤ÿµ¤ÿ¶¥ÿ¶¥ÿ¥·¥ÿ«·¥ÿ²¸¤ÿ¹¹£ÿ¿·¡ÿÄ¶ÿË´ÿÑ³ÿ×²ÿÜ±ÿà°ÿâ¯ÿâ®ÿd½¦ÿd½¦ÿd½¦ÿd½¦ÿd½¦ÿc½¥ÿc¼¥ÿc¼¥ÿc¼¥ÿc¼¤ÿf¼¤ÿn¼¥ÿu½¥ÿ|½¦ÿ¾¦ÿ¾¦ÿ¿§ÿ¿§ÿ¡À§ÿ¨Á§ÿ®Á§ÿ´Â¦ÿ»Â¤ÿÃÃ¢ÿÈÁ ÿÎÀÿÔ¿ÿÚ¾ÿß½ÿã½ÿä¼ÿä»ÿgÅ©ÿgÅ©ÿgÅ©ÿgÅ¨ÿgÅ¨ÿfÄ¨ÿfÄ¨ÿfÄ¨ÿfÄ§ÿfÄ§ÿfÃ§ÿmÄ§ÿuÅ¨ÿ|Å¨ÿÆ©ÿÇ©ÿÇ©ÿÈªÿ£ÉªÿªÉ©ÿ°Ê©ÿ¶Ê¨ÿ½Ë¦ÿÅÌ£ÿÌÌ¢ÿÒËÿ×ÊÿÝÉÿâÈÿåÈÿçÇÿçÆÿjÌ«ÿjÌ«ÿjÌ«ÿjÌ«ÿiÌ«ÿiÌ«ÿiÌ«ÿiËªÿiËªÿiËªÿiË©ÿkË©ÿtÌªÿ|ÍªÿÍ«ÿÎ«ÿÏ¬ÿÐ¬ÿ¥Ñ¬ÿ¬Ñ¬ÿ²Ò«ÿ¹Òªÿ¿Ó¨ÿÇÔ¥ÿÎÕ¢ÿÕÕ¡ÿÛÔÿàÓÿåÓÿèÒÿêÒÿêÑÿlÒ­ÿlÒ­ÿlÒ­ÿlÒ­ÿlÒ­ÿlÒ­ÿlÒ­ÿlÒ­ÿlÒ¬ÿlÒ¬ÿlÑ¬ÿlÑ«ÿrÒ¬ÿ{Ó¬ÿÔ­ÿÕ­ÿÖ®ÿ×®ÿ¦×®ÿ®Ø®ÿµÙ­ÿ»Ú¬ÿÂÛªÿÉÜ§ÿÐÜ¤ÿ×Ý¢ÿÝÝ ÿãÝÿèÝÿëÜÿíÜÿìÜÿo×¯ÿo×¯ÿo×¯ÿo×¯ÿo×¯ÿo×¯ÿo×¯ÿo×¯ÿo×®ÿo×®ÿo×®ÿn×®ÿp×­ÿyØ®ÿÙ¯ÿÚ¯ÿÛ°ÿÝ°ÿ¨Þ°ÿ¯ß°ÿ·ß¯ÿ¾à®ÿÄá¬ÿÌâ©ÿÒã¦ÿÙä£ÿßå¡ÿææÿêæÿîæÿïåÿïåÿqÛ±ÿqÛ±ÿqÛ±ÿqÛ±ÿqÛ±ÿqÛ°ÿqÛ°ÿqÛ°ÿqÛ°ÿqÛ°ÿqÛ¯ÿqÛ¯ÿpÛ¯ÿxÜ¯ÿÝ°ÿÞ°ÿß±ÿà±ÿ¨á±ÿ°â±ÿ¸ã°ÿ¿ä¯ÿÆæ­ÿÍçªÿÔè§ÿÚé¤ÿàê¡ÿçëÿììÿïìÿðìÿðìÿsÞ²ÿsÞ²ÿsÞ²ÿsÞ²ÿsÞ²ÿsÞ±ÿsÞ±ÿsÞ±ÿrÞ±ÿrÞ°ÿrÞ°ÿrÞ°ÿrÞ°ÿuÞ¯ÿß°ÿà±ÿá±ÿâ²ÿ¨ä²ÿ°å²ÿ¸æ±ÿ¿ç°ÿÆè®ÿÎé«ÿÔë§ÿÛì¤ÿáí¡ÿèîÿìïÿððÿñðÿñðÿtß²ÿtß²ÿtß²ÿtß²ÿtß²ÿtß²ÿtß²ÿsß²ÿsß±ÿsß±ÿsß±ÿsß°ÿsß°ÿsß¯ÿà°ÿá±ÿâ±ÿã²ÿ§å²ÿ¯æ±ÿ·ç±ÿ¿è¯ÿÆé­ÿÎëªÿÔì§ÿÛí£ÿáï ÿèðÿìñÿðòÿòòÿòòÿtà³ÿtà³ÿtà²ÿtà²ÿtà²ÿtà²ÿtà²ÿtà²ÿtà±ÿsà±ÿsà±ÿsà°ÿsà°ÿsà¯ÿ|à°ÿá°ÿâ±ÿã±ÿ¥å±ÿ®æ±ÿ¶ç°ÿ¾è®ÿÅé¬ÿÍê©ÿÔì¦ÿÚí¢ÿàïÿçðÿìñÿðòÿñòÿñòÿ;
 - (id)puts[inputCount++] pipelineStage:((void *)0)] /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic) double averageVideoFrameDurationInMilliseconds; // @synthesize averageVideoFrameDurationInMilliseconds=_averageVideoFrameDurationInMilliseconds;
 @property(copy, nonatomic) NSString *clientApplicationID; // @synthesize clientApplicationID=_clientApplicationID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int errorStatus; // @synthesize errorStatus=_errorStatus;
-@property(nonatomic) double fileCoordinatorToWriterMovingWindowLatencyAverageInMilliseconds; // @synthesize fileCoordinatorToWriterMovingWindowLatencyAverageInMilliseconds=_fileCoordinatorToWriterMovingWindowLatencyAverageInMilliseconds;
-@property(nonatomic) double fileCoordinatorToWriterMovingWindowLatencyMaximumInMilliseconds; // @synthesize fileCoordinatorToWriterMovingWindowLatencyMaximumInMilliseconds=_fileCoordinatorToWriterMovingWindowLatencyMaximumInMilliseconds;
-@property(nonatomic) double fileCoordinatorToWriterMovingWindowLatencyMinimumInMilliseconds; // @synthesize fileCoordinatorToWriterMovingWindowLatencyMinimumInMilliseconds=_fileCoordinatorToWriterMovingWindowLatencyMinimumInMilliseconds;
-@property(nonatomic) long long fileCoordinatorToWriterMovingWindowLatencyNumberOfSamples; // @synthesize fileCoordinatorToWriterMovingWindowLatencyNumberOfSamples=_fileCoordinatorToWriterMovingWindowLatencyNumberOfSamples;
-@property(nonatomic) double fileCoordinatorToWriterMovingWindowLatencyStandardDeviationInMilliseconds; // @synthesize fileCoordinatorToWriterMovingWindowLatencyStandardDeviationInMilliseconds=_fileCoordinatorToWriterMovingWindowLatencyStandardDeviationInMilliseconds;
-@property(nonatomic) _Bool hasStillImagePTS; // @synthesize hasStillImagePTS=_hasStillImagePTS;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool longPressMovie; // @synthesize longPressMovie=_longPressMovie;
-@property(nonatomic) int maxSystemPressureLevel; // @synthesize maxSystemPressureLevel=_maxSystemPressureLevel;
-@property(nonatomic) double maxVideoFrameDurationInMilliseconds; // @synthesize maxVideoFrameDurationInMilliseconds=_maxVideoFrameDurationInMilliseconds;
-@property(nonatomic) double medianVideoFrameDurationInMilliseconds; // @synthesize medianVideoFrameDurationInMilliseconds=_medianVideoFrameDurationInMilliseconds;
-@property(nonatomic) double minVideoFrameDurationInMilliseconds; // @synthesize minVideoFrameDurationInMilliseconds=_minVideoFrameDurationInMilliseconds;
-@property(nonatomic) double movieDurationInSeconds; // @synthesize movieDurationInSeconds=_movieDurationInSeconds;
-@property(nonatomic) unsigned int numberOfFramesDropped; // @synthesize numberOfFramesDropped=_numberOfFramesDropped;
-@property(nonatomic) _Bool originalRecording; // @synthesize originalRecording=_originalRecording;
-@property(nonatomic) _Bool overlappingCapture; // @synthesize overlappingCapture=_overlappingCapture;
-@property(nonatomic) _Bool recordingSucceeded; // @synthesize recordingSucceeded=_recordingSucceeded;
-@property(copy, nonatomic) NSNumber *retimingRecipeIdentifier; // @synthesize retimingRecipeIdentifier=_retimingRecipeIdentifier;
-@property(nonatomic) int sessionStatus; // @synthesize sessionStatus=_sessionStatus;
-@property(nonatomic) double stagingNodeOverallAverageTimeBetweenVideoFramesInMilliseconds; // @synthesize stagingNodeOverallAverageTimeBetweenVideoFramesInMilliseconds=_stagingNodeOverallAverageTimeBetweenVideoFramesInMilliseconds;
-@property(nonatomic) double stagingNodeOverallMaximumTimeBetweenVideoFramesInMilliseconds; // @synthesize stagingNodeOverallMaximumTimeBetweenVideoFramesInMilliseconds=_stagingNodeOverallMaximumTimeBetweenVideoFramesInMilliseconds;
-@property(nonatomic) double stagingNodeOverallMinimumTimeBetweenVideoFramesInMilliseconds; // @synthesize stagingNodeOverallMinimumTimeBetweenVideoFramesInMilliseconds=_stagingNodeOverallMinimumTimeBetweenVideoFramesInMilliseconds;
-@property(nonatomic) long long stagingNodeOverallNumberOfVideoFramesReceived; // @synthesize stagingNodeOverallNumberOfVideoFramesReceived=_stagingNodeOverallNumberOfVideoFramesReceived;
-@property(nonatomic) double stagingNodeOverallStandardDeviationOfTimeBetweenVideoFramesInMilliseconds; // @synthesize stagingNodeOverallStandardDeviationOfTimeBetweenVideoFramesInMilliseconds=_stagingNodeOverallStandardDeviationOfTimeBetweenVideoFramesInMilliseconds;
-@property(nonatomic) double stagingNodeValveActiveAverageTimeBetweenVideoFramesInMilliseconds; // @synthesize stagingNodeValveActiveAverageTimeBetweenVideoFramesInMilliseconds=_stagingNodeValveActiveAverageTimeBetweenVideoFramesInMilliseconds;
-@property(nonatomic) double stagingNodeValveActiveMaximumTimeBetweenVideoFramesInMilliseconds; // @synthesize stagingNodeValveActiveMaximumTimeBetweenVideoFramesInMilliseconds=_stagingNodeValveActiveMaximumTimeBetweenVideoFramesInMilliseconds;
-@property(nonatomic) double stagingNodeValveActiveMinimumTimeBetweenVideoFramesInMilliseconds; // @synthesize stagingNodeValveActiveMinimumTimeBetweenVideoFramesInMilliseconds=_stagingNodeValveActiveMinimumTimeBetweenVideoFramesInMilliseconds;
-@property(nonatomic) long long stagingNodeValveActiveNumberOfVideoFramesReceived; // @synthesize stagingNodeValveActiveNumberOfVideoFramesReceived=_stagingNodeValveActiveNumberOfVideoFramesReceived;
-@property(nonatomic) double stagingNodeValveActiveStandardDeviationOfTimeBetweenVideoFramesInMilliseconds; // @synthesize stagingNodeValveActiveStandardDeviationOfTimeBetweenVideoFramesInMilliseconds=_stagingNodeValveActiveStandardDeviationOfTimeBetweenVideoFramesInMilliseconds;
-@property(nonatomic) unsigned int stillCaptureLuxLevel; // @synthesize stillCaptureLuxLevel=_stillCaptureLuxLevel;
-@property(copy, nonatomic) NSString *stillCapturePortType; // @synthesize stillCapturePortType=_stillCapturePortType;
-@property(nonatomic) int stillCaptureResolutionFlavor; // @synthesize stillCaptureResolutionFlavor=_stillCaptureResolutionFlavor;
-@property(nonatomic) int stillCaptureType; // @synthesize stillCaptureType=_stillCaptureType;
-@property(nonatomic) double stillTimeOffsetInSeconds; // @synthesize stillTimeOffsetInSeconds=_stillTimeOffsetInSeconds;
-@property(nonatomic) double stillTimeOffsetToAudioPrerollStartInMilliseconds; // @synthesize stillTimeOffsetToAudioPrerollStartInMilliseconds=_stillTimeOffsetToAudioPrerollStartInMilliseconds;
-@property(nonatomic) double stillTimeOffsetToAudioPrerollStopInMilliseconds; // @synthesize stillTimeOffsetToAudioPrerollStopInMilliseconds=_stillTimeOffsetToAudioPrerollStopInMilliseconds;
-@property(nonatomic) double stillTimeOffsetToVideoPrerollStartInMilliseconds; // @synthesize stillTimeOffsetToVideoPrerollStartInMilliseconds=_stillTimeOffsetToVideoPrerollStartInMilliseconds;
-@property(nonatomic) double stillTimeOffsetToVideoPrerollStopInMilliseconds; // @synthesize stillTimeOffsetToVideoPrerollStopInMilliseconds=_stillTimeOffsetToVideoPrerollStopInMilliseconds;
-@property(readonly) Class superclass;
-@property(nonatomic) double targetFrameRate; // @synthesize targetFrameRate=_targetFrameRate;
-@property(retain, nonatomic) NSDictionary *transitionVitalityFeatures; // @synthesize transitionVitalityFeatures=_transitionVitalityFeatures;
-@property(nonatomic) double transitionVitalityScoreV1; // @synthesize transitionVitalityScoreV1=_transitionVitalityScoreV1;
-@property(nonatomic) double videoFrameDurationStandardDeviationInMilliseconds; // @synthesize videoFrameDurationStandardDeviationInMilliseconds=_videoFrameDurationStandardDeviationInMilliseconds;
 
 @end
 

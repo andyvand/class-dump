@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNPhotoLikenessEditorCroppingView, NSView;
+@class CNPhotoLikenessEditorCroppingView;
 
 @interface CNPhotoLikenessEditorCroppingViewController
 {
     CNPhotoLikenessEditorCroppingView *_croppingView;
-    NSView *_hostView;
-    double _zoom;
-    struct CGPoint _center;
 }
 
 - (void);
@@ -34,10 +31,7 @@
 - (void)ikenessesModel"16@?0@"NSArray"8;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint center; // @synthesize center=_center;
 @property(retain, nonatomic) CNPhotoLikenessEditorCroppingView *croppingView; // @synthesize croppingView=_croppingView;
-@property(retain, nonatomic) NSView *hostView; // @synthesize hostView=_hostView;
-@property(nonatomic) double zoom; // @synthesize zoom=_zoom;
 
 @end
 

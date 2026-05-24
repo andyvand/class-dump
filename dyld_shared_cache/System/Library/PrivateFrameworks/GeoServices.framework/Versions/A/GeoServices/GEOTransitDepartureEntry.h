@@ -9,46 +9,36 @@
 @interface GEOTransitDepartureEntry
 {
     PBUnknownFields *_unknownFields;
-    unsigned long long _tripMuid;
-    unsigned int _departureTime;
-    struct {
-        unsigned int has_tripMuid:1;
-        unsigned int has_departureTime:1;
-    } _flags;
 }
 
-+ (_Bool)ys:(id)arg1;
++ (_Bool)setModalitys:(id)arg1;
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (unsigned int);
+- (_Bool)setAddressNormalized: /* Error: Ran out of types for this method. */;
+- (unsigned int)needsMovedAside;
 - (void);
 - (void);
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void)tionalMetrics:(id)arg1 trailingSilenceDurationAtEndpoint:requestId:osdFeatures:asrFeatures:isRequestTimeOut:assetConfigVersion:blkHepAudioOrigin:vtExtraAudioAtStartInMs:firstAudioSampleSensorTimestamp:isAnchorTimeBuffered:endpointHostTime:audioDeliveryHostTimeDelta:endpointerThreshold:endpointerScore: /* Error: Ran out of types for this method. */;
+- (id)=s;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id)_fusedConfidences"b1"read_solverConfidences"b1"wrote_anyField"b1};
-- (id)Type;
+- (id)hoursType;
 - (id);
-- (id)alProxy;
+- (id)GEORequestCounterLocalProxy;
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned int departureTime;
-@property(nonatomic) _Bool hasDepartureTime;
 @property(nonatomic) _Bool hasTripMuid;
-@property(nonatomic) unsigned long long tripMuid;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

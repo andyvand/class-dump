@@ -4,21 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
-
 @interface NSPresentationIntent
 {
     long long _intentKind;
-    NSPresentationIntent *_parentIntent;
-    long long _identity;
-    long long _ordinal;
-    NSArray *_columnAlignments;
-    long long _columnCount;
-    long long _headerLevel;
-    NSString *_languageHint;
-    long long _column;
-    long long _row;
-    long long _indentationLevel;
 }
 
 + (id);
@@ -28,7 +16,7 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id)0;
 + (id);
 + (id);
 + (id);
@@ -56,17 +44,7 @@
 - (id)face><NSXPCProxyCreating>";
 
 // Remaining properties
-@property(readonly) long long column; // @synthesize column=_column;
-@property(readonly) NSArray *columnAlignments; // @synthesize columnAlignments=_columnAlignments;
-@property(readonly) long long columnCount; // @synthesize columnCount=_columnCount;
-@property(readonly) long long headerLevel; // @synthesize headerLevel=_headerLevel;
-@property(readonly) long long identity; // @synthesize identity=_identity;
-@property(readonly) long long indentationLevel; // @synthesize indentationLevel=_indentationLevel;
 @property(readonly) long long intentKind; // @synthesize intentKind=_intentKind;
-@property(readonly, copy) NSString *languageHint; // @synthesize languageHint=_languageHint;
-@property(readonly) long long ordinal; // @synthesize ordinal=_ordinal;
-@property(readonly) NSPresentationIntent *parentIntent; // @synthesize parentIntent=_parentIntent;
-@property(readonly) long long row; // @synthesize row=_row;
 
 @end
 

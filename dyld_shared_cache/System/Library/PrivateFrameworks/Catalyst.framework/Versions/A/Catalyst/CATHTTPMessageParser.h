@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary;
 @protocol CATHTTPMessageParserDelegate;
 
 __attribute__((visibility("hidden")))
 @interface CATHTTPMessageParser
 {
     struct __CFHTTPMessage *mCurrentMessage;
-    NSDictionary *mCurrentHeaderFields;
-    unsigned long long mCurrentBytesReceived;
-    id <CATHTTPMessageParserDelegate> _delegate;
 }
 
 + (id);
@@ -21,7 +17,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void){;
 - (id);
 - (_Bool);
 - (void);

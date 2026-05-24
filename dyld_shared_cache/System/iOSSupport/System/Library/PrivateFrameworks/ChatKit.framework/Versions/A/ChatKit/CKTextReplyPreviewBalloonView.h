@@ -9,28 +9,26 @@
 @interface CKTextReplyPreviewBalloonView : CKTextBalloonView
 {
     _Bool _isFromMe;
-    _Bool _shouldUseFilledBalloonStyle;
 }
 
-- (struct UIEdgeInsets);
-- (_Bool);
+- (struct UIEdgeInsets)setIc_debugName: /* Error: Ran out of types for this method. */;
+- (_Bool)performBatchUpdates:completionHandler: /* Error: Ran out of types for this method. */;
 - (void);
-- (struct UIEdgeInsets);
-- (struct CGSize);
-- (struct CGSize);
-- (void);
+- (struct UIEdgeInsets)n;
+- (struct CGSize)ion…;
+- (struct CGSize)ed the note;
+- (void)PencilKit;
 - (struct CKBalloonDescriptor_t);
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
+- (void);
 - (void);
 - (void);
-- (void);
-- (id);
+- (id)_items;
 
 // Remaining properties
-@property(nonatomic) _Bool isFromMe; // @synthesize isFromMe=_isFromMe;
 @property(nonatomic) _Bool shouldUseFilledBalloonStyle; // @synthesize shouldUseFilledBalloonStyle=_shouldUseFilledBalloonStyle;
 
 @end

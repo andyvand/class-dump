@@ -4,16 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, __UIDiffableDataSource;
+@class __UIDiffableDataSource;
 
 @interface UITableViewDiffableDataSource
 {
     __UIDiffableDataSource *_impl;
 }
 
-- (void);
-- (void);
-- (_Bool);
+- (void)for SMS relay with requesting device:(id)arg1 %@;
+- (void)g it to try again;
+- (_Bool)aximum receive timeout. TimeBetweenOriginalAndEdit:(SEL)arg1 %ld, MaximumInterval:%ld, OriginalDate:%@, EditedDate:%@ /* Error: Ran out of types for this method. */;
 - (void);
 - (long long);
 - (void);
@@ -28,8 +28,8 @@
 - (id)Ñ[1Â0@ù
 × ;
 - (void);
-- (id)laceToggleSwitch: /* Error: Ran out of types for this method. */;
-- (id)imated:(id)arg1;
+- (id)setReplaceToggleSwitch: /* Error: Ran out of types for this method. */;
+- (id)highlightSearchSelection:(id)arg1 animated:(CDUnknownBlockType)arg2;
 - (id);
 - (void)dT_;
 - (void),¤ºÿ9«Õ×a;
@@ -39,15 +39,7 @@
 - (id)@Æf;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) long long defaultRowAnimation;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) __UIDiffableDataSource *impl; // @synthesize impl=_impl;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet, NSString;
-
 @interface AVAudioNotificationRouter
 {
     struct ObjectRef<opaqueCMNotificationCenter *> _notificationCenter;
-    struct ISessionCollectionProvider *_sessionCollectionProvider;
-    struct synchronized<avas::NotificationDelegateCollection, caulk::mach::unfair_lock, caulk::empty_atomic_interface<avas::NotificationDelegateCollection>> _delegates;
-    NSSet *_propertyNotificationsOfInterest;
-    CDUnknownFunctionPointerType _sessionNotificationHandler;
 }
 
 - (_Bool);
@@ -29,17 +23,11 @@
 - (unsigned long long);
 - (int);
 - (id);
-- (int);
+- (int)!;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

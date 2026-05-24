@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (AVAirMessageExtensions)
-- (id);
+- (id)m;
 @end
 

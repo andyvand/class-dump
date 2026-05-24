@@ -7,15 +7,9 @@
 @interface SwiftUI.TestingAppDelegate
 {
     id mainWindow;
-    id comparisonWindow;
-    id windowsController;
-    id testHost;
-    id comparisonHost;
-    id didLaunch;
-    id isFinishedLaunching;
 }
 
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);

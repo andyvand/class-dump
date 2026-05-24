@@ -6,24 +6,19 @@
 
 #import <IMDaemonCore/IMBalloonPluginPipelineParameter.h>
 
-@class NSData, NSDictionary, NSString;
+@class NSString;
 
 @interface IMCustomAcknowledgementMessagePipelineParameter : IMBalloonPluginPipelineParameter
 {
 }
 
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *associatedMessageGUID;
-@property(nonatomic) struct _NSRange associatedMessageRange;
-@property(nonatomic) long long associatedMessageType;
 @property(copy, nonatomic) NSString *balloonPluginBundleID;
-@property(copy, nonatomic) NSData *balloonPluginPayload;
-@property(copy, nonatomic) NSDictionary *combinedPayloadAttachmentDictionary;
 
 @end
 

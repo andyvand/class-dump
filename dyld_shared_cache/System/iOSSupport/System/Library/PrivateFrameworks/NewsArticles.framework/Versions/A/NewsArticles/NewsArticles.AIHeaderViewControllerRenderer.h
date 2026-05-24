@@ -7,7 +7,6 @@
 @interface NewsArticles.AIHeaderViewControllerRenderer
 {
     id styler;
-    id appConfigurationManager;
 }
 
 @end

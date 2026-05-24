@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PKAddPassMetadataPreview, PKPushProvisioningTarget, PKShareablePassMetadataPreview;
+@class NSString, PKPushProvisioningTarget;
 
 @interface PKShareablePassMetadata
 {
     PKPushProvisioningTarget *_provisioningTarget;
-    PKShareablePassMetadataPreview *_preview;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id)?	;
 - (id);
 - (void);
+- (void)]	;
 - (void);
-- (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (struct CGImage *);
@@ -33,44 +32,23 @@
 - (id);
 - (id);
 - (id);
+- (id);
+- (void);
+- (void)E;
 - (id);
 - (void);
-- (void);
+- (id)k!;
 - (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (id);
+- (id)�HA;
+- (void)_taskCreationStart;
 - (id);
 - (id);
-- (void)trolsEnabled;
+- (void)parentalControlsEnabled;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accountHash;
-@property(readonly, nonatomic) NSString *cardConfigurationIdentifier;
-@property(readonly, nonatomic) NSString *cardTemplateIdentifier;
 @property(readonly, nonatomic) NSString *credentialIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *localizedDescription;
-@property(readonly, nonatomic) NSString *ownerDisplayName;
-@property(readonly, nonatomic) struct CGImage *passThumbnailImage;
-@property(readonly, nonatomic) PKShareablePassMetadataPreview *preview; // @synthesize preview=_preview;
-@property(retain, nonatomic) PKPushProvisioningTarget *provisioningTarget;
-@property(retain, nonatomic) NSString *relyingPartyIdentifier;
-@property(nonatomic) _Bool requiresUnifiedAccessCapableDevice;
-@property(retain, nonatomic) NSString *serverEnvironmentIdentifier;
-@property(readonly, nonatomic) NSString *sharingInstanceIdentifier;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *templateIdentifier;
-@property(retain, nonatomic) PKAddPassMetadataPreview *underlyingPreview;
 
 @end
 

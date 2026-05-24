@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SECSFAActionAutomaticBugCapture, SECSFAActionDropEvent, SECSFAActionTapToRadar;
+@class SECSFAActionAutomaticBugCapture;
 
 __attribute__((visibility("hidden")))
 @interface SECSFAAction
 {
     SECSFAActionAutomaticBugCapture *_abc;
-    int _action;
-    SECSFAActionDropEvent *_drop;
-    NSString *_radarnumber;
-    SECSFAActionTapToRadar *_ttr;
-    struct {
-        unsigned int action:1;
-    } _has;
 }
 
 - (void);
-- (void);
+- (void);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -33,33 +26,24 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (int);
 - (void);
-- (id);
+- (id)C;
 - (id);
 - (id);
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)^_ ;
 - (void);
 - (id);
 - (id);
 - (int);
-- (void);
+- (void);
 - (void)È.¬Ä.°À. ¼.ÐÐ1øÌ4Ø2¸à/ÔÐ.ô2¬1Èè/;
 - (id)XXX;
 
 // Remaining properties
-@property(retain, nonatomic) SECSFAActionAutomaticBugCapture *abc; // @synthesize abc=_abc;
-@property(nonatomic) int action; // @synthesize action=_action;
-@property(retain, nonatomic) SECSFAActionDropEvent *drop; // @synthesize drop=_drop;
-@property(readonly, nonatomic) _Bool hasAbc;
-@property(nonatomic) _Bool hasAction;
-@property(readonly, nonatomic) _Bool hasDrop;
 @property(readonly, nonatomic) _Bool hasRadarnumber;
-@property(readonly, nonatomic) _Bool hasTtr;
-@property(retain, nonatomic) NSString *radarnumber; // @synthesize radarnumber=_radarnumber;
-@property(retain, nonatomic) SECSFAActionTapToRadar *ttr; // @synthesize ttr=_ttr;
 
 @end
 

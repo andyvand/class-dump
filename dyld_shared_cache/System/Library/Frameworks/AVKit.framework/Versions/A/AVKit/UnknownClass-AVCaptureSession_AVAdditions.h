@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureAudioPreviewOutput, AVCaptureFileOutput;
+@class AVCaptureFileOutput;
 
 @interface UnknownClass (AVCaptureSession_AVAdditions)
 - (id);
 - (id);
 
 // Remaining properties
-@property(readonly) AVCaptureAudioPreviewOutput *firstAudioPreviewOutput;
 @property(readonly) AVCaptureFileOutput *firstFileOutput;
 @end
 

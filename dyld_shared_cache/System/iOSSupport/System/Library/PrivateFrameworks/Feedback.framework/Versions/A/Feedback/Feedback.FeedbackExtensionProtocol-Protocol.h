@@ -5,5 +5,7 @@
 //
 
 @protocol Feedback.FeedbackExtensionProtocol
+- (void);
+- (void);
 @end
 

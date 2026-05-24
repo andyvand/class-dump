@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, UXCollectionViewUpdateItem;
+@class UXCollectionViewUpdateItem;
 
 @interface UXCollectionViewUpdateGap
 {
     UXCollectionViewUpdateItem *_firstUpdateItem;
-    UXCollectionViewUpdateItem *_lastUpdateItem;
-    NSMutableArray *_deleteItems;
-    NSMutableArray *_insertItems;
-    struct CGRect _beginningRect;
-    struct CGRect _endingRect;
 }
 
 + (id);
@@ -32,21 +27,12 @@
 - (id);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) struct CGRect beginningRect; // @synthesize beginningRect=_beginningRect;
-@property(readonly, nonatomic) NSArray *deleteItems; // @synthesize deleteItems=_deleteItems;
-@property(nonatomic) struct CGRect endingRect; // @synthesize endingRect=_endingRect;
 @property(retain, nonatomic) UXCollectionViewUpdateItem *firstUpdateItem; // @synthesize firstUpdateItem=_firstUpdateItem;
-@property(readonly, nonatomic) _Bool hasInserts;
-@property(readonly, nonatomic) NSArray *insertItems; // @synthesize insertItems=_insertItems;
-@property(readonly, nonatomic) _Bool isDeleteBasedGap;
-@property(readonly, nonatomic) _Bool isSectionBasedGap;
-@property(retain, nonatomic) UXCollectionViewUpdateItem *lastUpdateItem; // @synthesize lastUpdateItem=_lastUpdateItem;
-@property(readonly, nonatomic) NSArray *updateItems;
 
 @end
 

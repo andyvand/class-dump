@@ -11,7 +11,6 @@
 @interface WBSTabCompletionMatch : WBSURLCompletionMatch
 {
     NSString *_title;
-    NSURL *_url;
 }
 
 + (long long);

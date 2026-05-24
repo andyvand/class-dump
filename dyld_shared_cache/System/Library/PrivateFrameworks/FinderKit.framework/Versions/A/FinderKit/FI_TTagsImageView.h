@@ -10,16 +10,13 @@ __attribute__((visibility("hidden")))
 @interface FI_TTagsImageView : FI_TImageView
 {
     vector_daac2569 _tags;
-    _Bool _dimmed;
-    _Bool _inBatchUpdate;
-    long long _backgroundStyle;
 }
 
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)St;
 - (id);
-- (_Bool);
+- (_Bool)3B;
 - (void);
 - (void);
 - (void);
@@ -31,8 +28,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) long long backgroundStyle; // @synthesize backgroundStyle=_backgroundStyle;
-@property(nonatomic, getter=isDimmed) _Bool dimmed; // @synthesize dimmed=_dimmed;
-@property(nonatomic, getter=isInBatchUpdate) _Bool inBatchUpdate; // @synthesize inBatchUpdate=_inBatchUpdate;
 
 @end
 

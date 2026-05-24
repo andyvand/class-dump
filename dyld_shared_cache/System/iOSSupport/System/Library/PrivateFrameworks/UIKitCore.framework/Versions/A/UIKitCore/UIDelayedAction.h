@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString, NSTimer;
+@class NSDate;
 
 __attribute__((visibility("hidden")))
 @interface UIDelayedAction
 {
     id m_target;
-    SEL m_action;
-    id m_userInfo;
-    double m_delay;
-    NSTimer *m_timer;
-    _Bool m_canceled;
-    NSString *m_runLoopMode;
-    NSDate *m_startDate;
 }
 
-- (id);
+- (id)`;
 - (id);
 - (void);
 - (id);
@@ -29,23 +22,20 @@ __attribute__((visibility("hidden")))
 × ;
 - (id)
 × ;
-- (void)AssistingFormNode;
-- (void)ntroller:(id)arg1 parentWidth: /* Error: Ran out of types for this method. */;
+- (void)_stopAssistingFormNode;
+- (void)_defaultWidthForViewController:(id)arg1 parentWidth: /* Error: Ran out of types for this method. */;
 - (_Bool)the section insets left and right values, minus the content insets left and right values.;
 - (void);
 - (_Bool)u§»é»ý@;
 - (id);
-- (void)playMode;
+- (void)ItemDisplayMode;
 - (id)Ø!^;
 - (void)ÿ;
 - (void)Ò»h;
 - (void)°o;
 
 // Remaining properties
-@property(readonly) _Bool _canceled; // @synthesize _canceled=m_canceled;
 @property(readonly) NSDate *_startDate; // @synthesize _startDate=m_startDate;
-@property(retain) id target; // @synthesize target=m_target;
-@property(retain) id userInfo; // @synthesize userInfo=m_userInfo;
 
 @end
 

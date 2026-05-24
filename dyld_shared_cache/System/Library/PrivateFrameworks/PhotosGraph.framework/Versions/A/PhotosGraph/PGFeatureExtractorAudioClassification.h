@@ -11,9 +11,10 @@
 }
 
 - (id);
-- (long long);
-- (id);
-- (id)nResult;
+- (long long)A
+;
+- (id)removeObjectsInArray: /* Error: Ran out of types for this method. */;
+- (id)PGUpNextMemoriesGenerationResult;
 
 @end
 

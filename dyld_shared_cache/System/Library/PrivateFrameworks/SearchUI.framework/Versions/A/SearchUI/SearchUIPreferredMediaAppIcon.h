@@ -15,11 +15,11 @@
 
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)lhair/facialhair_mustache_pencil.aa;
+- (id)outfit_kuspuk_right_pads;
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void);
 
 // Remaining properties
 @property(retain) SFMediaMetadata *mediaMetadata; // @synthesize mediaMetadata=_mediaMetadata;

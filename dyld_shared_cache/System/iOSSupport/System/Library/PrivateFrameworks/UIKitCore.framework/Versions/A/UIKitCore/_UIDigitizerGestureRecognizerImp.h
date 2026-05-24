@@ -4,25 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSTimer;
 @protocol _UIDigitizerGestureRecognizerImpDelegate;
 
 __attribute__((visibility("hidden")))
 @interface _UIDigitizerGestureRecognizerImp
 {
     id <_UIDigitizerGestureRecognizerImpDelegate> _delegate;
-    double _minimumPressDuration;
-    double _maximumPressDuration;
-    long long _numberOfActiveTouches;
-    double _pressEndToTouchBeginDuration;
-    double _touchEndToPressEndDuration;
-    double _touchEndTime;
-    double _pressBeginTime;
-    double _pressEndTime;
-    double _lastRecognitionTime;
-    NSTimer *_minimumPressDurationTimer;
-    NSTimer *_waitingForTouchesAfterPressTimer;
-    struct CGPoint _digitizerLocation;
 }
 
 - (id);
@@ -35,54 +22,42 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (double);
-- (double);
-- (long long);
-- (id);
-- (double);
-- (double);
-- (struct CGPoint);
-- (struct CGPoint);
+- (void)String"24B32@"NSNumber"36@"NSString"44@"NSString"52@"NSData"60B68@"NSNumber"72;
+- (void)mber"40;
+- (void)40@44@52@?60;
+- (void)v80@0:(struct CGPoint)arg1 8@"IMDRelayPushHandler"16@"NSDictionary"24@"NSString"32@"NSString"40@"NSData"48@"NSString"56@"NSNumber"64@"NSNumber"72;
+- (double)performSelector:withObject:afterDelay: /* Error: Ran out of types for this method. */;
+- (double)performSelector:withObject: /* Error: Ran out of types for this method. */;
+- (double)performSelector: /* Error: Ran out of types for this method. */;
+- (long long)initWithTopLevelMessage:fromPushID:messageContext: /* Error: Ran out of types for this method. */;
+- (id)im_livePhotoVideoPath;
+- (double)handler:localOutgoingDownloadMessage:isBeingReplayed:storageContext: /* Error: Ran out of types for this method. */;
+- (double)fetchIdentifiersForChatRecordWithGUID:completionHandler: /* Error: Ran out of types for this method. */;
+- (struct CGPoint)SyncTimer;
+- (struct CGPoint)CKPartialError:hasErrorCode: /* Error: Ran out of types for this method. */;
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)for Spotlight on macOS;
+- (_Bool)from storage to be indexed;
+- (void)t matched by GUID due to mismatching partcipants;
 - (void);
 - (id);
 - (void)!hGùeÐ1Â0@ù
 × ;
-- (void);
-- (void)mmingViewVisible:(id)arg1;
-- (void)nObservable;
+- (void)interSectionSpacing;
+- (void)_setDimmingViewVisible:(id)arg1;
+- (void)_beganObservable;
 - (void)roperty list, using dictionary directly:(double)arg1 %@;
 - (double)tateMachine.m;
 - (void);
 - (void);
 - (void)o15_UIBarBadgeViewCG;
-- (void)cketInteractionKey;
+- (void)ScrollPocketInteractionKey;
 - (void);
 - (void)È4ÿ2¸ÔÈ'`;
 
 // Remaining properties
 @property(nonatomic) __weak id <_UIDigitizerGestureRecognizerImpDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) struct CGPoint digitizerLocation; // @synthesize digitizerLocation=_digitizerLocation;
-@property(nonatomic) double lastRecognitionTime; // @synthesize lastRecognitionTime=_lastRecognitionTime;
-@property(nonatomic) double maximumPressDuration; // @synthesize maximumPressDuration=_maximumPressDuration;
-@property(nonatomic) double minimumPressDuration; // @synthesize minimumPressDuration=_minimumPressDuration;
-@property(nonatomic) __weak NSTimer *minimumPressDurationTimer; // @synthesize minimumPressDurationTimer=_minimumPressDurationTimer;
-@property(nonatomic) long long numberOfActiveTouches; // @synthesize numberOfActiveTouches=_numberOfActiveTouches;
-@property(nonatomic) double pressBeginTime; // @synthesize pressBeginTime=_pressBeginTime;
-@property(nonatomic) double pressEndTime; // @synthesize pressEndTime=_pressEndTime;
-@property(nonatomic) double pressEndToTouchBeginDuration; // @synthesize pressEndToTouchBeginDuration=_pressEndToTouchBeginDuration;
-@property(nonatomic) double touchEndTime; // @synthesize touchEndTime=_touchEndTime;
-@property(nonatomic) double touchEndToPressEndDuration; // @synthesize touchEndToPressEndDuration=_touchEndToPressEndDuration;
-@property(nonatomic) __weak NSTimer *waitingForTouchesAfterPressTimer; // @synthesize waitingForTouchesAfterPressTimer=_waitingForTouchesAfterPressTimer;
 
 @end
 

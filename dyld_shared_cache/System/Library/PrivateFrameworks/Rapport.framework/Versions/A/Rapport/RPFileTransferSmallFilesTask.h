@@ -4,33 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface RPFileTransferSmallFilesTask
 {
     _Bool _needsRetry;
-    NSMutableArray *_fileItems;
-    NSObject<OS_dispatch_queue> *_queue;
-    unsigned long long _taskID;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (id);
+- (void)ypeE4EEEEEEE;
 - (void);
-- (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSMutableArray *fileItems; // @synthesize fileItems=_fileItems;
-@property(nonatomic) _Bool needsRetry; // @synthesize needsRetry=_needsRetry;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(nonatomic) unsigned long long taskID; // @synthesize taskID=_taskID;
 
 @end
 

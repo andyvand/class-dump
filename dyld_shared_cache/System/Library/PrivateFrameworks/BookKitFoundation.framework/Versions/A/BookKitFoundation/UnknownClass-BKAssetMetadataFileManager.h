@@ -5,9 +5,9 @@
 //
 
 @interface UnknownClass (BKAssetMetadataFileManager)
+- (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (_Bool);
 @end
 

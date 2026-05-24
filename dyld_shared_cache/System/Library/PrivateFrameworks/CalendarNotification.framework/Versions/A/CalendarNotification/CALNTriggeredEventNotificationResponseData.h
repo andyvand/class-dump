@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EKTravelEngineHypothesis, NSDate;
+@class EKTravelEngineHypothesis;
 
 @interface CALNTriggeredEventNotificationResponseData
 {
     EKTravelEngineHypothesis *_hypothesis;
-    NSDate *_lastFireTimeOfAlertOffsetFromTravelTime;
 }
 
 + (_Bool);
@@ -23,7 +22,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) EKTravelEngineHypothesis *hypothesis; // @synthesize hypothesis=_hypothesis;
-@property(readonly, copy, nonatomic) NSDate *lastFireTimeOfAlertOffsetFromTravelTime; // @synthesize lastFireTimeOfAlertOffsetFromTravelTime=_lastFireTimeOfAlertOffsetFromTravelTime;
 
 @end
 

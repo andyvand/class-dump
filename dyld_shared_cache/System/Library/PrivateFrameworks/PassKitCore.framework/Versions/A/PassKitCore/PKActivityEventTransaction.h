@@ -18,7 +18,7 @@
 - (id);
 - (unsigned long long);
 - (id);
-- (void)tionTitle;
+- (void)contextLocalizedSecondaryActionTitle;
 
 // Remaining properties
 @property(readonly, nonatomic) PKPaymentTransaction *transaction; // @synthesize transaction=_transaction;

@@ -6,12 +6,9 @@
 
 #import <CoreData/NSPersistentContainer.h>
 
-@class NSManagedObjectContext, NSString;
-
 @interface NSPersistentCloudKitContainer : NSPersistentContainer
 {
     long long _operationTimeout;
-    NSManagedObjectContext *_metadataContext;
 }
 
 + (id);
@@ -24,7 +21,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)/;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -33,24 +30,18 @@
 - (void);
 - (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void)ù
 × ;
-- (void)bject:(id)arg1;
-- (void)yle:(id)arg1;
-- (id)nTokenMapEntry;
+- (void)postNotificationName:(id)arg1 object: /* Error: Ran out of types for this method. */;
+- (void)enqueueNotification:(id)arg1 postingStyle:(id)arg2;
+- (id)_NSGenerationTokenMapEntry;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

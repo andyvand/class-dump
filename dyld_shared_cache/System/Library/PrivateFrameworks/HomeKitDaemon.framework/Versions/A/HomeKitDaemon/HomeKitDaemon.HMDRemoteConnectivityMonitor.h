@@ -7,13 +7,6 @@
 @interface HomeKitDaemon.HMDRemoteConnectivityMonitor
 {
     id failedMessagesThreshold;
-    id connectivityLostTimer;
-    id delegate;
-    id workQueue;
-    id failedMessages;
-    id connectivityLostTimerFired;
-    id hasUnderlyingConnection;
-    id _hasConnectivity;
 }
 
 - (void);

@@ -9,25 +9,21 @@
 @interface CKChatItemController
 {
     id delegate;
-    void chatItems;
-    void associatedChatItems;
-    id collectionView;
 }
 
-- (void);
+- (void)p;
+- (id)';
+- (void)c;
+- (void)ttachment with identifier:(long long)arg1 %@;
 - (id);
+- (id)=;
 - (void);
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id);
 - (id);
 - (void)u×;
 
 // Remaining properties
-@property(nonatomic, copy) NSArray *associatedChatItems;
 @property(nonatomic, copy) NSArray *chatItems;
 
 @end

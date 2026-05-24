@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, NSString, WBSSearchProvider, WKWebProcessPlugInController;
+@class NSMapTable, WKWebProcessPlugInController;
 
 @interface WBSWebProcessPlugIn
 {
     NSMapTable *_browserContextControllersToWebProcessPlugInPageControllers;
-    WKWebProcessPlugInController *_plugInController;
 }
 
 - (void);
@@ -24,24 +23,11 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void)sponse: /* Error: Ran out of types for this method. */;
+- (void)_beginOperationForRequest:withExistingResponse: /* Error: Ran out of types for this method. */;
 - (_Bool)similar to window buttons;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long abGroupIdentifier;
-@property(readonly, nonatomic, getter=isABTestingEnabled) _Bool abTestingEnabled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) WBSSearchProvider *defaultSearchProvider;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool isAutoFillDrivenByUIProcess;
-@property(readonly, nonatomic) _Bool isReaderViewInSeparateProcessEnabled;
 @property(readonly, nonatomic) WKWebProcessPlugInController *plugInController; // @synthesize plugInController=_plugInController;
-@property(readonly, nonatomic) NSArray *searchEnginesForRedirectToSafeSearch;
-@property(readonly) Class superclass;
 
 @end
 

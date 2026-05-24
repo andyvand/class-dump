@@ -5,5 +5,10 @@
 //
 
 @protocol WebKitFullScreenListener
+- (void)K-
+;
+- (void);
+- (void).
+;
 @end
 

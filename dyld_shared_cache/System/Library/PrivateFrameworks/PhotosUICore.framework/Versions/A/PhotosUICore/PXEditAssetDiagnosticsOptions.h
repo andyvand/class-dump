@@ -9,18 +9,16 @@
 @interface PXEditAssetDiagnosticsOptions
 {
     _Bool _includeOriginalRender;
-    id <NUScalePolicy> _scalePolicyForRenders;
 }
 
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool)b;
 - (id);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool includeOriginalRender; // @synthesize includeOriginalRender=_includeOriginalRender;
 @property(retain, nonatomic) id <NUScalePolicy> scalePolicyForRenders; // @synthesize scalePolicyForRenders=_scalePolicyForRenders;
 
 @end

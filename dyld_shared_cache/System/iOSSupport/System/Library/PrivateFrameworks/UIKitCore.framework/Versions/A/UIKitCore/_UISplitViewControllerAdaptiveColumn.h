@@ -4,34 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIBarButtonItem, UIBarButtonItemGroup, UINavigationBar, UINavigationController, UISplitViewControllerPartitionAdapter, UISplitViewControllerSeparatorTrackingAdapter, UIView, UIViewController, _UISplitViewControllerAdaptiveColumnSeparatorView, _UISplitViewControllerAdaptiveColumnView;
-@protocol _UIFloatingBarContainer;
+@class UIBarButtonItemGroup, UIViewController;
 
 __attribute__((visibility("hidden")))
 @interface _UISplitViewControllerAdaptiveColumn
 {
     UIBarButtonItemGroup *_primaryEdgeBarButtonItemGroup;
-    UIBarButtonItemGroup *_secondaryEdgeBarButtonItemGroup;
-    UIViewController *_modelViewController;
-    double _preferredWidth;
-    double _preferredWidthFraction;
-    double _minimumWidth;
-    double _maximumWidth;
-    double _specifiedWidth;
-    double _initialSpecifiedWidth;
-    long long _backgroundStyle;
-    UINavigationController *_modelNavigationController;
-    UINavigationBar *_effectiveNavigationBar;
-    UIView<_UIFloatingBarContainer> *_effectiveToolbar;
-    UIBarButtonItem *_togglePrimaryEdgeBarButtonItem;
-    UIBarButtonItem *_toggleSecondaryEdgeBarButtonItem;
-    UIBarButtonItem *_toggleSecondaryOnlyBarButtonItem;
-    UIView *_togglePrimaryEdgeButtonView;
-    UISplitViewControllerPartitionAdapter *_partitionAdapter;
-    UISplitViewControllerSeparatorTrackingAdapter *_separatorTrackingAdapter;
-    long long _splitViewControllerColumn;
-    _UISplitViewControllerAdaptiveColumnSeparatorView *_separatorView;
-    _UISplitViewControllerAdaptiveColumnView *_view;
 }
 
 - (id);
@@ -51,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (double);
@@ -63,24 +41,24 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (id);
 - (id);
+- (struct UIEdgeInsets)persistentMenu;
+- (void)count:(id)arg1 %d;
+- (id)aled CKRecord %@ for transfer %@ using record data from DB;
+- (id);
+- (id);
 - (struct UIEdgeInsets);
-- (void);
-- (id);
-- (id);
-- (id);
-- (struct UIEdgeInsets);
-- (id);
+- (id)q;
 - (void);
 - (double)@ù
 × ;
 - (double)!Aù±g°1Â0@ù
 × ;
-- (id): /* Error: Ran out of types for this method. */;
+- (id)bringSubviewToFront: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)ring;
 - (double)Recognizer.maximumNumberOfTouches;
-- (void)t;
+- (void)_IncludeDefaultFont;
 - (void)yé&1,4@ð§ÆK7I1@¼tVî?+ÙÎ@çû©ñÒí2@=
 ×£pý5@Ý$Cù?B`åÐ"Û3@5^ºIó?A`åÐâ4@Å °rh@shí|_8@¸ëQ¸@=
 ×£p=:@nÀ$@Âõ(\@
@@ -89,34 +67,7 @@ __attribute__((visibility("hidden")))
 - (long long);
 
 // Remaining properties
-@property(readonly, nonatomic) struct UIEdgeInsets absoluteInsets;
-@property(readonly, nonatomic) struct UIEdgeInsets additionalSafeAreaInsets;
-@property(nonatomic) long long backgroundStyle; // @synthesize backgroundStyle=_backgroundStyle;
-@property(nonatomic) __weak UINavigationBar *effectiveNavigationBar; // @synthesize effectiveNavigationBar=_effectiveNavigationBar;
-@property(nonatomic) __weak UIView<_UIFloatingBarContainer> *effectiveToolbar; // @synthesize effectiveToolbar=_effectiveToolbar;
-@property(readonly, nonatomic) _Bool hasContentViewController;
-@property(nonatomic) double initialSpecifiedWidth; // @synthesize initialSpecifiedWidth=_initialSpecifiedWidth;
-@property(nonatomic) double maximumWidth; // @synthesize maximumWidth=_maximumWidth;
-@property(nonatomic) double minimumWidth; // @synthesize minimumWidth=_minimumWidth;
-@property(retain, nonatomic) UINavigationController *modelNavigationController; // @synthesize modelNavigationController=_modelNavigationController;
 @property(retain, nonatomic) UIViewController *modelViewController; // @synthesize modelViewController=_modelViewController;
-@property(readonly, nonatomic) UINavigationController *navigationController;
-@property(retain, nonatomic) UISplitViewControllerPartitionAdapter *partitionAdapter; // @synthesize partitionAdapter=_partitionAdapter;
-@property(nonatomic) double preferredWidth; // @synthesize preferredWidth=_preferredWidth;
-@property(nonatomic) double preferredWidthFraction; // @synthesize preferredWidthFraction=_preferredWidthFraction;
-@property(readonly, nonatomic) UIBarButtonItemGroup *primaryEdgeBarButtonItemGroup; // @synthesize primaryEdgeBarButtonItemGroup=_primaryEdgeBarButtonItemGroup;
-@property(readonly, nonatomic) UIBarButtonItemGroup *secondaryEdgeBarButtonItemGroup; // @synthesize secondaryEdgeBarButtonItemGroup=_secondaryEdgeBarButtonItemGroup;
-@property(retain, nonatomic) UISplitViewControllerSeparatorTrackingAdapter *separatorTrackingAdapter; // @synthesize separatorTrackingAdapter=_separatorTrackingAdapter;
-@property(readonly, nonatomic) _UISplitViewControllerAdaptiveColumnSeparatorView *separatorView; // @synthesize separatorView=_separatorView;
-@property(nonatomic) double specifiedWidth; // @synthesize specifiedWidth=_specifiedWidth;
-@property(readonly, nonatomic) long long splitViewControllerColumn; // @synthesize splitViewControllerColumn=_splitViewControllerColumn;
-@property(retain, nonatomic) UIBarButtonItem *togglePrimaryEdgeBarButtonItem; // @synthesize togglePrimaryEdgeBarButtonItem=_togglePrimaryEdgeBarButtonItem;
-@property(retain, nonatomic) UIView *togglePrimaryEdgeButtonView; // @synthesize togglePrimaryEdgeButtonView=_togglePrimaryEdgeButtonView;
-@property(retain, nonatomic) UIBarButtonItem *toggleSecondaryEdgeBarButtonItem; // @synthesize toggleSecondaryEdgeBarButtonItem=_toggleSecondaryEdgeBarButtonItem;
-@property(retain, nonatomic) UIBarButtonItem *toggleSecondaryOnlyBarButtonItem; // @synthesize toggleSecondaryOnlyBarButtonItem=_toggleSecondaryOnlyBarButtonItem;
-@property(readonly, nonatomic) UIViewController *topViewController;
-@property(readonly, nonatomic) _UISplitViewControllerAdaptiveColumnView *view; // @synthesize view=_view;
-@property(readonly, nonatomic) UIViewController *viewController;
 
 @end
 

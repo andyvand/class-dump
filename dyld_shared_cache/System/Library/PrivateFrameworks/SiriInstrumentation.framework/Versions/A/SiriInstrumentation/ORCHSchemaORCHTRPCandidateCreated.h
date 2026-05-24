@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ORCHSchemaORCHTRPCandidateCreated : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_rootTrpId;
-    NSArray *_userTrpIds;
-    _Bool _hasRootTrpId;
 }
 
 - (id);
@@ -32,19 +30,16 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)Results:(id)arg1 %ld);
 - (id);
 - (id)
 × ;
-- (id)yPartialSiriCount28Day;
+- (id)_entityPartialSiriCount28Day;
 - (id)SchemaPRRequestEnded",&,N,V_ended;
 - (void)p.bundleId;
 
 // Remaining properties
-@property(nonatomic) _Bool hasRootTrpId; // @synthesize hasRootTrpId=_hasRootTrpId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *rootTrpId; // @synthesize rootTrpId=_rootTrpId;
-@property(copy, nonatomic) NSArray *userTrpIds; // @synthesize userTrpIds=_userTrpIds;
 
 @end
 

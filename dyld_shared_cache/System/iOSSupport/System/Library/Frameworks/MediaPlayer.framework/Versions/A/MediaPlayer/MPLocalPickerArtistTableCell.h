@@ -6,26 +6,24 @@
 
 #import <MediaPlayer/MPLocalPickerCollectionTableCell.h>
 
-@class UIImageView, UILabel;
+@class UILabel;
 
 __attribute__((visibility("hidden")))
 @interface MPLocalPickerArtistTableCell : MPLocalPickerCollectionTableCell
 {
     UILabel *_artistLabel;
-    UIImageView *_artworkView;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)St;
 - (id);
 - (void);
 - (void)setting;
 
 // Remaining properties
 @property(nonatomic) __weak UILabel *artistLabel; // @synthesize artistLabel=_artistLabel;
-@property(nonatomic) __weak UIImageView *artworkView; // @synthesize artworkView=_artworkView;
 
 @end
 

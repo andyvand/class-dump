@@ -4,23 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class C2RequestOptions, NSData, NSDate, NSString, NSURL;
-
 @interface CKStreamingAsset
 {
     _Bool _hasSize;
-    long long _size;
-    C2RequestOptions *_immutableRequestOptions;
-    NSData *_fileSignature;
-    NSData *_referenceSignature;
-    NSString *_owner;
-    long long _expectedSizeBytes;
-    NSURL *_uploadURL;
-    NSDate *_uploadURLExpirationDate;
-    long long _reservedSize;
-    NSURL *_downloadURL;
-    NSDate *_downloadURLExpirationDate;
-    NSString *_uploadReceipt;
 }
 
 @end

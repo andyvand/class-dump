@@ -4,12 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class PXDataSectionEnablementForwarder;
-
 @protocol PXDataSectionManagerEnabling
+- (_Bool);
 
 // Remaining properties
 @property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(retain, nonatomic) PXDataSectionEnablementForwarder *enablementForwarder;
 @end
 

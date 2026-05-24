@@ -4,29 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject, VKTimer;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 __attribute__((visibility("hidden")))
 @interface MKThrottledGate
 {
     NSObject<OS_dispatch_queue> *_queue;
-    int _maxAvailableTickets;
-    double _availableTickets;
-    double _refreshRate;
-    NSMutableArray *_waitingJobs;
-    VKTimer *_timer;
 }
 
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
-- (id);
-- (void)MouseOverSelectablePartsOnly;
+- (id)s/CrashReporterSupport.framework/CrashReporterSupport (%d);
+- (void)recognizesMouseOverSelectablePartsOnly;
 
 @end
 

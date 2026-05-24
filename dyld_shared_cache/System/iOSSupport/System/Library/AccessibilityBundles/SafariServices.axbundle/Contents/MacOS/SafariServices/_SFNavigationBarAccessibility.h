@@ -10,7 +10,7 @@
 {
 }
 
-+ (Class);
++ (Class);
 + (id);
 + (void);
 - (void);
@@ -19,7 +19,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (id);
 - (long long);

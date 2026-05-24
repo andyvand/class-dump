@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSProgress, NSString, geo_isolater;
+@class NSString, geo_isolater;
 
 @interface GEOReportedProgress
 {
     geo_isolater *_isolater;
-    NSProgress *_progress;
-    NSProgress *_internalProgress;
-    CDUnknownBlockType _cancellationHandler;
 }
 
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)r;
 - (CDUnknownBlockType);
 - (void);
-- (void);
-- (id)Index;
+- (void);
+- (id)hasZilchPathIndex;
 - (id)erver;
 - (id)n";
 - (long long)ÿÿ!;
@@ -34,12 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType cancellationHandler;
-@property(readonly, getter=isCancelled) _Bool cancelled;
-@property long long completedUnitCount;
 @property(copy) NSString *kind;
-@property(readonly, nonatomic) NSProgress *progress; // @synthesize progress=_progress;
-@property long long totalUnitCount;
 
 @end
 

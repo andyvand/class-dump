@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSValue;
+@class NSValue;
 
 @protocol HMDProfilePhoto
-- (NSValue *)tgoingInvitation;
+- (NSValue *)removeOutgoingInvitation;
 
 // Remaining properties
 @property(readonly, copy) NSValue *cropRect;
-@property(readonly, copy) NSData *photoData;
 @end
 

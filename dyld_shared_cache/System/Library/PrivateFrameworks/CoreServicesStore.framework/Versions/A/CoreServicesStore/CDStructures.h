@@ -111,12 +111,6 @@ struct array<unsigned int, 64UL> {
     unsigned int __elems_[64];
 };
 
-struct atomic<bool> {
-    struct __cxx_atomic_impl<bool, std::__cxx_atomic_base_impl<bool>> {
-        _Atomic _Bool __a_value;
-    } __a_;
-};
-
 struct atomic<long long> {
     struct __cxx_atomic_impl<long long, std::__cxx_atomic_base_impl<long long>> {
         _Atomic long long __a_value;
@@ -137,10 +131,6 @@ struct optional<unsigned int> {
         unsigned int __val_;
     } ;
     _Bool __engaged_;
-};
-
-struct os_unfair_lock_s {
-    unsigned int _os_unfair_lock_opaque;
 };
 
 struct shared_ptr<CSStore2::CSStoreAccessContextInterface> {

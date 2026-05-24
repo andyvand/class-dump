@@ -9,7 +9,7 @@
 }
 
 + (float);
-- (id);
+- (id)(;
 - (void)Uy_úUy_ÓUy_|Uy_Uy_SaySSSgGVGADy_¬Uy_¥USo17OS_dispatch_queueCGAHGGGAHSgG_UyAtJGGGAHG;
 
 @end

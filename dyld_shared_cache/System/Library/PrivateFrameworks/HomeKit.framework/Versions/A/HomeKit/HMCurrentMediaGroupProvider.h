@@ -4,65 +4,49 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMCurrentMediaGroup, NSString, _HMContext;
-@protocol HMCurrentMediaGroupProviderDataSource, HMCurrentMediaGroupProviderDelegate;
+@protocol HMCurrentMediaGroupProviderDataSource;
 
 @interface HMCurrentMediaGroupProvider
 {
     _Bool _isSubscribed;
-    id <HMCurrentMediaGroupProviderDelegate> _delegate;
-    id <HMCurrentMediaGroupProviderDataSource> _dataSource;
-    _HMContext *_context;
-    HMCurrentMediaGroup *_lastSentCurrentMediaGroup;
 }
 
 + (id);
 + (unsigned long long);
 + (id);
-+ (id)dentifierRequestMessage;
++ (id)HMMediaDestinationUpdateAudioGroupIdentifierRequestMessage;
 - (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)k|;
 - (id);
 - (void);
 - (void);
-- (id);
 - (void);
-- (_Bool);
+- (void);
+- (void);
+- (void)A;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)#;
+- (id);
+- (void)dispatchEventWithName:(id)arg1 values: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)@	;
+- (void);
+- (_Bool)<;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) _HMContext *context; // @synthesize context=_context;
 @property __weak id <HMCurrentMediaGroupProviderDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMCurrentMediaGroupProviderDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isSubscribed; // @synthesize isSubscribed=_isSubscribed;
-@property(copy, nonatomic) HMCurrentMediaGroup *lastSentCurrentMediaGroup; // @synthesize lastSentCurrentMediaGroup=_lastSentCurrentMediaGroup;
-@property(readonly) Class superclass;
 
 @end
 

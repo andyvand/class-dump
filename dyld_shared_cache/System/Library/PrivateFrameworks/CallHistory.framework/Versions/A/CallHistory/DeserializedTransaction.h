@@ -9,7 +9,6 @@
 @interface DeserializedTransaction
 {
     CHRecentCall *_call;
-    unsigned long long _type;
 }
 
 - (id);
@@ -20,7 +19,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CHRecentCall *call; // @synthesize call=_call;
-@property unsigned long long type; // @synthesize type=_type;
 
 @end
 

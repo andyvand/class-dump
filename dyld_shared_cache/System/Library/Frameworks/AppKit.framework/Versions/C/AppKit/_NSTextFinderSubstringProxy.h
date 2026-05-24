@@ -4,27 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray;
-
 __attribute__((visibility("hidden")))
 @interface _NSTextFinderSubstringProxy
 {
     id _client;
-    NSMutableArray *_strings;
-    NSMutableArray *_subRanges;
-    NSMutableArray *_endsInBoundaryArray;
-    unsigned long long _length;
 }
 
 - (id);
 - (struct _NSRange);
 - (unsigned long long);
 - (void);
-- (struct _NSRange);
+- (struct _NSRange)4;
 - (void);
 - (void);
 - (unsigned long long);
-- (unsigned short)amut;
+- (unsigned short)_NSInfiniteColorGamut;
 
 @end
 

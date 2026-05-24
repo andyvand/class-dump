@@ -15,9 +15,5 @@
 
 // Remaining properties
 @property(copy) NSOrderedSet *networkProfiles; // @dynamic networkProfiles;
-@property _Bool rememberJoinedNetworks; // @dynamic rememberJoinedNetworks;
-@property _Bool requireAdministratorForAssociation; // @dynamic requireAdministratorForAssociation;
-@property _Bool requireAdministratorForIBSSMode; // @dynamic requireAdministratorForIBSSMode;
-@property _Bool requireAdministratorForPower; // @dynamic requireAdministratorForPower;
 @end
 

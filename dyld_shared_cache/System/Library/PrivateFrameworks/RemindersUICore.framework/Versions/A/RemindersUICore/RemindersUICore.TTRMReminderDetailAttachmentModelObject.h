@@ -7,11 +7,6 @@
 @interface RemindersUICore.TTRMReminderDetailAttachmentModelObject
 {
     id _attachments;
-    id _selectedURLForQuickLook;
-    id _availableURLsForQuickLook;
-    id addImageMenuPresenterProxy;
-    id securityScopedURLs;
-    id _$observationRegistrar;
 }
 
 @end

@@ -5,6 +5,7 @@
 //
 
 @protocol UISRenderingEnvironmentAttributes
+- (id);
 - (unsigned int)ler(void);
 
 // Remaining properties

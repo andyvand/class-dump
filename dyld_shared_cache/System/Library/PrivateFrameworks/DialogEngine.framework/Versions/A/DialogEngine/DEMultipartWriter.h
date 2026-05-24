@@ -10,7 +10,6 @@
 @interface DEMultipartWriter
 {
     _Bool _partClosed;
-    NSObject<DEWriter> *_writer;
 }
 
 - (void);
@@ -27,7 +26,6 @@
 - (void)**Ð¸;
 
 // Remaining properties
-@property(nonatomic) _Bool partClosed; // @synthesize partClosed=_partClosed;
 @property(retain, nonatomic) NSObject<DEWriter> *writer; // @synthesize writer=_writer;
 
 @end

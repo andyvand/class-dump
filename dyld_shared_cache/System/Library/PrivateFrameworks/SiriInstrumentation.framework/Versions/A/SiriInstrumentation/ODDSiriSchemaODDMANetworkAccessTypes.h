@@ -6,24 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface ODDSiriSchemaODDMANetworkAccessTypes : SISchemaInstrumentationMessage
 {
     _Bool _cellularAccessRequest;
-    _Bool _cellularAccessResponse;
-    _Bool _constrainedNetworkAccessRequest;
-    _Bool _constrainedNetworkAccessResponse;
-    _Bool _expensiveNetworkAccessRequest;
-    _Bool _expensiveNetworkAccessResponse;
-    struct {
-        unsigned int cellularAccessRequest:1;
-        unsigned int cellularAccessResponse:1;
-        unsigned int constrainedNetworkAccessRequest:1;
-        unsigned int constrainedNetworkAccessResponse:1;
-        unsigned int expensiveNetworkAccessRequest:1;
-        unsigned int expensiveNetworkAccessResponse:1;
-    } _has;
 }
 
 - (void);
@@ -40,15 +25,16 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)ySh
+;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -61,7 +47,7 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)0@ù
 × ;
 - (id)honeCallInf;
@@ -69,18 +55,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool cellularAccessRequest; // @synthesize cellularAccessRequest=_cellularAccessRequest;
-@property(nonatomic) _Bool cellularAccessResponse; // @synthesize cellularAccessResponse=_cellularAccessResponse;
-@property(nonatomic) _Bool constrainedNetworkAccessRequest; // @synthesize constrainedNetworkAccessRequest=_constrainedNetworkAccessRequest;
-@property(nonatomic) _Bool constrainedNetworkAccessResponse; // @synthesize constrainedNetworkAccessResponse=_constrainedNetworkAccessResponse;
-@property(nonatomic) _Bool expensiveNetworkAccessRequest; // @synthesize expensiveNetworkAccessRequest=_expensiveNetworkAccessRequest;
-@property(nonatomic) _Bool expensiveNetworkAccessResponse; // @synthesize expensiveNetworkAccessResponse=_expensiveNetworkAccessResponse;
-@property(nonatomic) _Bool hasCellularAccessRequest;
-@property(nonatomic) _Bool hasCellularAccessResponse;
-@property(nonatomic) _Bool hasConstrainedNetworkAccessRequest;
-@property(nonatomic) _Bool hasConstrainedNetworkAccessResponse;
-@property(nonatomic) _Bool hasExpensiveNetworkAccessRequest;
-@property(nonatomic) _Bool hasExpensiveNetworkAccessResponse;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

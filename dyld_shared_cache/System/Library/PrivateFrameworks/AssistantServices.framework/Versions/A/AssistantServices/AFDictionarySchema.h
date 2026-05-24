@@ -11,10 +11,10 @@
     NSMutableDictionary *_coercions;
 }
 
-- (void);
+- (void);
 - (id);
 - (id);
-- (void)statesByClient;
+- (void)_statesByClient;
 
 @end
 

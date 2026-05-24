@@ -4,20 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class SUOSUAuthenticationManager, SUOSUInstallTonightManager, SUOSULoginCredentialCacheInfo, SUOSUMobileSoftwareUpdateController, SUSharedPrefs;
-
 @interface SUOSULoginCredentialPolicyManager
 {
     double _defaultRequiredInterval;
-    double _staleUpdateInterval;
-    double _staleUpdateRequiredInterval;
-    double _nonAutoInstallOpportunisticInterval;
-    unsigned long long _currentLoginCredentialPolicyMode;
-    SUOSUMobileSoftwareUpdateController *_msuController;
-    SUOSUInstallTonightManager *_installTonightManager;
-    SUOSUAuthenticationManager *_authenticationManager;
-    SUSharedPrefs *_sharedPrefs;
-    SUOSULoginCredentialCacheInfo *_cachedInfo;
 }
 
 - (double);
@@ -49,20 +38,10 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 
 // Remaining properties
-@property(retain) SUOSUAuthenticationManager *authenticationManager; // @synthesize authenticationManager=_authenticationManager;
-@property(retain) SUOSULoginCredentialCacheInfo *cachedInfo; // @synthesize cachedInfo=_cachedInfo;
-@property(readonly) unsigned long long cachedMode;
 @property unsigned long long currentLoginCredentialPolicyMode; // @synthesize currentLoginCredentialPolicyMode=_currentLoginCredentialPolicyMode;
-@property double defaultRequiredInterval; // @synthesize defaultRequiredInterval=_defaultRequiredInterval;
-@property(retain) SUOSUInstallTonightManager *installTonightManager; // @synthesize installTonightManager=_installTonightManager;
-@property(retain) SUOSUMobileSoftwareUpdateController *msuController; // @synthesize msuController=_msuController;
-@property double nonAutoInstallOpportunisticInterval; // @synthesize nonAutoInstallOpportunisticInterval=_nonAutoInstallOpportunisticInterval;
-@property(retain) SUSharedPrefs *sharedPrefs; // @synthesize sharedPrefs=_sharedPrefs;
-@property double staleUpdateInterval; // @synthesize staleUpdateInterval=_staleUpdateInterval;
-@property double staleUpdateRequiredInterval; // @synthesize staleUpdateRequiredInterval=_staleUpdateRequiredInterval;
 
 @end
 

@@ -6,23 +6,11 @@
 
 #import <PhotosGraph/PGMemoryGenerator.h>
 
-@class NSMutableDictionary, PGFeaturedTimePeriodMemoryConfiguration, PGGraphMomentNodeCollection, PGMemoryMomentRequirements, PGOverTheYearsMemoryConfiguration;
+@class PGGraphMomentNodeCollection;
 
 @interface PGOverTimeMemoryGenerator : PGMemoryGenerator
 {
     PGGraphMomentNodeCollection *_interestingForMemoriesMomentNodes;
-    NSMutableDictionary *_yearByYearNodeIdentifier;
-    _Bool _requireSceneProcessingMeetsThresholdOverTime;
-    _Bool _requireFaceProcessingMeetsThresholdOverTime;
-    _Bool _intersectRelevantAssetsForFeatures;
-    unsigned long long _minimumSceneAnalysisVersion;
-    unsigned long long _minimumNumberOfDefaultMemories;
-    PGMemoryMomentRequirements *_momentRequirements;
-    PGOverTheYearsMemoryConfiguration *_overTheYearsConfiguration;
-    PGOverTheYearsMemoryConfiguration *_fallbackOverTheYearsConfiguration;
-    PGFeaturedTimePeriodMemoryConfiguration *_featuredYearConfiguration;
-    PGFeaturedTimePeriodMemoryConfiguration *_fallbackFeaturedYearConfiguration;
-    PGFeaturedTimePeriodMemoryConfiguration *_featuredSeasonConfiguration;
 }
 
 - (void);
@@ -37,14 +25,14 @@
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (_Bool){__CGEvent=}24I32^{__CGEventTapProxy=}36;
+- (id)_applicationControllerForElement:(id)arg1;
+- (id)setPageElement: /* Error: Ran out of types for this method. */;
+- (id)T@"NSMutableDictionary",&,N,S_setApplicationCache:,V__applicationCache /* Error: Ran out of types for this method. */;
+- (id)r:,V__dockProcessSwitcherListElementController /* Error: Ran out of types for this method. */;
+- (id)ontroller;
+- (void),V__dockApplicationController;
+- (id)Emphasized;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -56,18 +44,7 @@
 - (void)DUPLICATES: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) PGFeaturedTimePeriodMemoryConfiguration *fallbackFeaturedYearConfiguration; // @synthesize fallbackFeaturedYearConfiguration=_fallbackFeaturedYearConfiguration;
-@property(readonly, nonatomic) PGOverTheYearsMemoryConfiguration *fallbackOverTheYearsConfiguration; // @synthesize fallbackOverTheYearsConfiguration=_fallbackOverTheYearsConfiguration;
-@property(readonly, nonatomic) PGFeaturedTimePeriodMemoryConfiguration *featuredSeasonConfiguration; // @synthesize featuredSeasonConfiguration=_featuredSeasonConfiguration;
-@property(readonly, nonatomic) PGFeaturedTimePeriodMemoryConfiguration *featuredYearConfiguration; // @synthesize featuredYearConfiguration=_featuredYearConfiguration;
-@property(readonly, nonatomic) _Bool intersectRelevantAssetsForFeatures; // @synthesize intersectRelevantAssetsForFeatures=_intersectRelevantAssetsForFeatures;
 @property(readonly, nonatomic) unsigned long long memoryCategory;
-@property(nonatomic) unsigned long long minimumNumberOfDefaultMemories; // @synthesize minimumNumberOfDefaultMemories=_minimumNumberOfDefaultMemories;
-@property(nonatomic) unsigned long long minimumSceneAnalysisVersion; // @synthesize minimumSceneAnalysisVersion=_minimumSceneAnalysisVersion;
-@property(readonly, nonatomic) PGMemoryMomentRequirements *momentRequirements; // @synthesize momentRequirements=_momentRequirements;
-@property(readonly, nonatomic) PGOverTheYearsMemoryConfiguration *overTheYearsConfiguration; // @synthesize overTheYearsConfiguration=_overTheYearsConfiguration;
-@property(nonatomic) _Bool requireFaceProcessingMeetsThresholdOverTime; // @synthesize requireFaceProcessingMeetsThresholdOverTime=_requireFaceProcessingMeetsThresholdOverTime;
-@property(nonatomic) _Bool requireSceneProcessingMeetsThresholdOverTime; // @synthesize requireSceneProcessingMeetsThresholdOverTime=_requireSceneProcessingMeetsThresholdOverTime;
 
 @end
 

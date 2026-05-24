@@ -9,33 +9,29 @@
 @interface MKDistanceFormatter
 {
     NSLocale *_locale;
-    unsigned long long _units;
-    unsigned long long _unitStyle;
 }
 
 - (id);
 - (double);
 - (_Bool);
 - (id);
-- (void);
+- (void)timeoutError;
 - (id);
-- (unsigned long long);
-- (id);
+- (unsigned long long)personInstanceMaskConfidencesOutput;
+- (id)n cancelled;
 - (void);
 - (_Bool);
 - (id);
 - (void);
 - (id);
 - (_Bool);
-- (void)rmat;
-- (id)aceViewControllerDidShowNotification;
+- (void)format;
+- (id)MKPlaceViewControllerDidShowNotification;
 - (void)ling mapItem update for %@ <muid:(unsigned long long)arg1 %llu> at %@;
 - (unsigned long long);
 
 // Remaining properties
 @property(copy) NSLocale *locale; // @synthesize locale=_locale;
-@property unsigned long long unitStyle; // @synthesize unitStyle=_unitStyle;
-@property unsigned long long units; // @synthesize units=_units;
 
 @end
 

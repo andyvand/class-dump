@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBImageValue;
+@class _INPBImageValue;
 
 @interface _INPBGetVisualCodeIntentResponse
 {
     struct _has;
-    _INPBImageValue *_visualCodeImage;
 }
 
 + (_Bool);
@@ -19,22 +18,14 @@
 - (id);
 - (void);
 - (unsigned long long);
+- (_Bool)ĥ;
 - (_Bool);
-- (_Bool);
-- (void);
+- (void)onRequest:(id)arg1 withCompletionHandler:] returned an error:%{public}@ /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
-- (void)ipleValues;
+- (void)INTypePropertySupportsMultipleValues;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasVisualCodeImage;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) _INPBImageValue *visualCodeImage; // @synthesize visualCodeImage=_visualCodeImage;
 
 @end

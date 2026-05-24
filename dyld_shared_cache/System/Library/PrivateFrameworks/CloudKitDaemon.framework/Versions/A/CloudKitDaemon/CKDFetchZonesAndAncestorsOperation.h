@@ -6,30 +6,26 @@
 
 #import <CloudKitDaemon/CKDDatabaseOperation.h>
 
-@class NSArray, NSDictionary;
+@class NSArray;
 
 @interface CKDFetchZonesAndAncestorsOperation : CKDDatabaseOperation
 {
     CDUnknownBlockType _ancestorsWereFetchedBlock;
-    NSArray *_recordZoneIDs;
-    NSDictionary *_configurationsByZoneID;
 }
 
 - (void);
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (id);
+- (id)Q,N,V_selfCoreId;
 - (id);
 - (void);
-- (int);
+- (int)__WiFiCloudSyncEngineRemoveCloudFormatNetworkFromCloud;
 - (id);
 - (id)er;
 - (void)test override;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType ancestorsWereFetchedBlock; // @synthesize ancestorsWereFetchedBlock=_ancestorsWereFetchedBlock;
-@property(readonly, copy, nonatomic) NSDictionary *configurationsByZoneID; // @synthesize configurationsByZoneID=_configurationsByZoneID;
 @property(readonly, copy, nonatomic) NSArray *recordZoneIDs; // @synthesize recordZoneIDs=_recordZoneIDs;
 
 @end

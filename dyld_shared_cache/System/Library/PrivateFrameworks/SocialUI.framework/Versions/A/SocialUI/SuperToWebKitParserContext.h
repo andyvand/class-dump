@@ -4,26 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DOMHTMLElement, IMMessage, IMMessageChatItem, TranscriptDOMController;
+@class DOMHTMLElement;
 
 @interface SuperToWebKitParserContext
 {
     _Bool _hasInteractableText;
-    _Bool _isFileTransferElement;
-    _Bool _isMediaElement;
-    _Bool _isPassElement;
-    _Bool _isAudioMessage;
-    _Bool _willFillBubble;
-    _Bool _didTrimEmotePrefix;
-    IMMessageChatItem *_chatItem;
-    IMMessage *_message;
-    TranscriptDOMController *_controller;
-    DOMHTMLElement *_messageElement;
-    DOMHTMLElement *_containerElement;
 }
 
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -34,12 +23,12 @@
 - (id);
 - (id);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
-- (id);
 - (void);
 - (_Bool);
 - (id);
@@ -47,13 +36,13 @@
 - (id);
 - (_Bool);
 - (id);
-- (void);
+- (void)*;
 - (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)aypointForCurrentLocation:(_Bool)arg1 ];
 - (_Bool);
 - (void);
 - (id);
@@ -63,18 +52,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) IMMessageChatItem *chatItem; // @synthesize chatItem=_chatItem;
 @property(retain, nonatomic) DOMHTMLElement *containerElement; // @synthesize containerElement=_containerElement;
-@property(nonatomic) TranscriptDOMController *controller; // @synthesize controller=_controller;
-@property _Bool didTrimEmotePrefix; // @synthesize didTrimEmotePrefix=_didTrimEmotePrefix;
-@property _Bool hasInteractableText; // @synthesize hasInteractableText=_hasInteractableText;
-@property _Bool isAudioMessage; // @synthesize isAudioMessage=_isAudioMessage;
-@property _Bool isFileTransferElement; // @synthesize isFileTransferElement=_isFileTransferElement;
-@property _Bool isMediaElement; // @synthesize isMediaElement=_isMediaElement;
-@property _Bool isPassElement; // @synthesize isPassElement=_isPassElement;
-@property(nonatomic) IMMessage *message; // @synthesize message=_message;
-@property(nonatomic) DOMHTMLElement *messageElement; // @synthesize messageElement=_messageElement;
-@property _Bool willFillBubble; // @synthesize willFillBubble=_willFillBubble;
 
 @end
 

@@ -11,15 +11,15 @@
 }
 
 + (id);
-- (int);
+- (int);
 - (_Bool);
 - (void);
-- (int);
+- (int)Z;
 - (void);
 - (int);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);

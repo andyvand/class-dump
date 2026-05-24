@@ -5,7 +5,7 @@
 //
 
 @interface UnknownClass (IMKPhoneNumberInputMethodAdditions)
-+ (id);
++ (id)kc;
 - (id);
 - (id);
 - (id);
@@ -32,13 +32,13 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)n;
 - (unsigned int);
 - (unsigned int);
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned int);
-- (_Bool);
+- (_Bool)I;
 - (unsigned long long);
 - (_Bool);
 @end

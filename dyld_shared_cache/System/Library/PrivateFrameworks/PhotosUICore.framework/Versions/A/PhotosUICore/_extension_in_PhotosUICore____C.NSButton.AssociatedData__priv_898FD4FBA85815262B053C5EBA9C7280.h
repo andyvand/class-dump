@@ -7,7 +7,6 @@
 @interface (extension in PhotosUICore):__C.NSButton.AssociatedData__priv_898FD4FBA85815262B053C5EBA9C7280
 {
     id isBadged;
-    id badgeView;
 }
 
 - (id);

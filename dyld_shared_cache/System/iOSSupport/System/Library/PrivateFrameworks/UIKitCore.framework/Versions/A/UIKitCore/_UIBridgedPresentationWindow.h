@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     _Bool _shouldDisableRootPresentationAppearanceCallbacks;
 }
 
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)r"40;
+- (void)setPersonalNickname:(_Bool)arg1 oldRecordID:completionBlockWithWallpaperTags: /* Error: Ran out of types for this method. */;
+- (void)nsfer-guid;
 - (void);
 - (_Bool)sForFramePreferredSize(_UICollectionPreferredSize *const __strong, _UICollectionLayoutItemSolver *const __strong);
 

@@ -4,32 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, UIView;
+@class NSMapTable, UIView;
 
 __attribute__((visibility("hidden")))
 @interface _UIViewSystemSpacingInvalidationRecorder
 {
     NSMapTable *_observingViewTable;
-    UIView *_topView;
-    UIView *_bottomView;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)_changeStateIfAppropriate;
 - (void);
+- (id)ject;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void)À;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak UIView *bottomView; // @synthesize bottomView=_bottomView;
-@property(readonly, nonatomic) NSArray *observingViews;
 @property(readonly, nonatomic) __weak UIView *topView; // @synthesize topView=_topView;
 
 @end

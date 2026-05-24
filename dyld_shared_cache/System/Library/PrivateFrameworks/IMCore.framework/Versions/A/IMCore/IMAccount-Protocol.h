@@ -4,16 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol IMAccount
-- (_Bool)mpleteNotification;
+- (_Bool)deallocated, NO-OP;
+- (unsigned long long);
+- (long long)X;
+- (NSArray *)?;
+- (_Bool)__kIMChatPurgedAttachmentsDownloadCompleteNotification;
 
 // Remaining properties
-@property(readonly, nonatomic) long long accountType;
-@property(readonly, nonatomic) _Bool isActive;
-@property(readonly, nonatomic) _Bool isRegistered;
-@property(readonly, nonatomic) _Bool isSMSRelayCapable;
 @property(readonly, nonatomic) unsigned long long loginStatus;
-@property(readonly, nonatomic) long long profileValidationStatus;
-@property(readonly, nonatomic) long long registrationStatus;
 @end
 

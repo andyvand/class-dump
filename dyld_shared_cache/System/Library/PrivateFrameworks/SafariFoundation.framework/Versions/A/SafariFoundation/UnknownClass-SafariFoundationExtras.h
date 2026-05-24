@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LSApplicationRecord, NSString;
+@class LSApplicationRecord;
 
 @interface UnknownClass (SafariFoundationExtras)
 - (id);
@@ -14,6 +14,5 @@
 
 // Remaining properties
 @property(readonly, copy, nonatomic) LSApplicationRecord *sf_applicationRecordForContainingApp;
-@property(readonly, copy, nonatomic) NSString *sf_bundleIdentifierForContainingApp;
 @end
 

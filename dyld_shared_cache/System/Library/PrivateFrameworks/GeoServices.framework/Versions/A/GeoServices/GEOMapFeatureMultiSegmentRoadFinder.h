@@ -13,8 +13,8 @@ __attribute__((visibility("hidden")))
 
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)secTask:(id)arg1 hasArrayWithStringValue:forAnyEntitlement:error: /* Error: Ran out of types for this method. */;
+- (void)resultWithTimeInterval:(unsigned long long)arg1 tolerance:(id)arg2 value:(unsigned long long)arg3;
 
 @end
 

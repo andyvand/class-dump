@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
 + (int);
 + (id);
 + (void);
-+ (int);
++ (int)q;
 
 @end
 

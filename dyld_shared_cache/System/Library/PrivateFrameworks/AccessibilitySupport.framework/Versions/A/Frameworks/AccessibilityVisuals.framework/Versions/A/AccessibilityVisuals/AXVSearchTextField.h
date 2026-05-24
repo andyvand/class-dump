@@ -6,48 +6,31 @@
 
 #import <AccessibilityVisuals/AXVTextField.h>
 
-@class NSString;
-@protocol AXVSearchTextFieldUpdateListener;
-
 @interface AXVSearchTextField : AXVTextField
 {
     _Bool __ignoreNextSelectionUpdateFromTextChange;
-    _Bool __returnPressed;
-    id <AXVSearchTextFieldUpdateListener> _updateListener;
-    struct _NSRange __lastGoodSelectionRange;
 }
 
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (struct _NSRange);
+- (_Bool);
+- (void);
+- (struct _NSRange);
+- (_Bool);
+- (_Bool);
+- (void);
+- (struct _NSRange);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (struct _NSRange);
-- (_Bool);
-- (void);
-- (struct _NSRange);
-- (_Bool);
-- (_Bool);
-- (void);
-- (struct _NSRange);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(nonatomic) _Bool _ignoreNextSelectionUpdateFromTextChange; // @synthesize _ignoreNextSelectionUpdateFromTextChange=__ignoreNextSelectionUpdateFromTextChange;
-@property(nonatomic) struct _NSRange _lastGoodSelectionRange; // @synthesize _lastGoodSelectionRange=__lastGoodSelectionRange;
-@property(nonatomic) _Bool _returnPressed; // @synthesize _returnPressed=__returnPressed;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) struct _NSRange selectionRange;
-@property(readonly) Class superclass;
-@property(nonatomic) __weak id <AXVSearchTextFieldUpdateListener> updateListener; // @synthesize updateListener=_updateListener;
 
 @end
 

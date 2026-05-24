@@ -4,6 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray, NSIndexPath, UITableView, UIView;
+@protocol UISpringLoadedInteractionContext;
+
 @protocol UITableViewDelegatePrivate
+
+@optional
+- (UIView *);
+- (void);
+- (NSArray *);
+- (_Bool)storeMessage:(UITableView *)arg1 forceReplace:(NSIndexPath *)arg2 modifyError:(id <UISpringLoadedInteractionContext>)arg3 modifyFlags:flagMask: /* Error: Ran out of types for this method. */;
 @end
 

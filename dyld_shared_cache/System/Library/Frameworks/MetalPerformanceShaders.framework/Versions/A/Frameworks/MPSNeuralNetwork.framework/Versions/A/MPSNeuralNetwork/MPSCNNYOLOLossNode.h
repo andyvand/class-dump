@@ -6,21 +6,20 @@
 
 #import <MPSNeuralNetwork/MPSNNFilterNode.h>
 
-@class MPSCNNYOLOLossDescriptor, MPSNNLabelsNode;
+@class MPSNNLabelsNode;
 
 @interface MPSCNNYOLOLossNode : MPSNNFilterNode
 {
     MPSNNLabelsNode *_labels;
-    MPSCNNYOLOLossDescriptor *_descriptor;
 }
 
 + (id);
-- (id);
+- (id)k;
 - (void *);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void) ;
 
 // Remaining properties
 @property(readonly, retain, nonatomic) MPSNNLabelsNode *inputLabels; // @synthesize inputLabels=_labels;

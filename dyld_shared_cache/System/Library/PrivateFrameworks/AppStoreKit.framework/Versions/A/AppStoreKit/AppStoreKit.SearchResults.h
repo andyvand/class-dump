@@ -9,17 +9,6 @@
 @interface AppStoreKit.SearchResults : AppStoreKit.BasePage
 {
     id results;
-    id message;
-    id facets;
-    id selectedFacetOptions;
-    id nextPage;
-    id isAutoPlayEnabled;
-    id isCondensedSearchLockupsEnabled;
-    id transparencyLink;
-    id guidedSearchTokens;
-    id guidedSearchQueries;
-    id resultsParentImpressionMetrics;
-    id guidedSearchTokensParentImpressionMetrics;
 }
 
 @end

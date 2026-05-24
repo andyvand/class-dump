@@ -13,13 +13,13 @@
     CKDMarkAssetBrokenURLRequest *_urlRequest;
 }
 
-- (void);
+- (void)resumeMigrationQueue;
 - (id);
-- (_Bool);
+- (_Bool)istResults:forTransferAction:] /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
-- (int);
-- (void)serId;
+- (int);
+- (void)userId;
 
 // Remaining properties
 @property(retain, nonatomic) CKDMarkAssetBrokenURLRequest *urlRequest; // @synthesize urlRequest=_urlRequest;

@@ -6,6 +6,9 @@
 
 @protocol TSDInfoUsingObjectPlaceholderGeometry
 
+@optional
+- (void)+;
+
 // Remaining properties
 @property(nonatomic) _Bool matchesObjectPlaceholderGeometry;
 // Preceding property had unknown attributes: ?

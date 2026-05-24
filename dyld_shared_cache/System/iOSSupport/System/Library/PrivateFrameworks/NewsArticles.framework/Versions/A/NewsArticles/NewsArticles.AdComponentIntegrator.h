@@ -7,15 +7,10 @@
 @interface NewsArticles.AdComponentIntegrator
 {
     id layoutInvalidator;
-    id policyValidator;
-    id layoutEnvironmentProvider;
-    id layoutStore;
-    id integrationQueue;
-    id lock;
 }
 
 - (id);
-- (void)l;
+- (void)loadPaywall;
 
 @end
 

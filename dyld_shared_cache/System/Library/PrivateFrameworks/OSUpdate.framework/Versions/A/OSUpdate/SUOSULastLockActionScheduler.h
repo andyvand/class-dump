@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, _OSLastLockPredictionClient;
-@protocol OS_dispatch_queue, OS_dispatch_source;
+@class _OSLastLockPredictionClient;
 
 @interface SUOSULastLockActionScheduler
 {
     _OSLastLockPredictionClient *_client;
-    CDUnknownBlockType _action;
-    NSObject<OS_dispatch_source> *_requeryTimer;
-    NSObject<OS_dispatch_queue> *_queryQueue;
-    unsigned long long _queryIntervalInNanoseconds;
 }
 
 - (void);
@@ -30,14 +25,10 @@
 - (id);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void);
 
 // Remaining properties
-@property(copy) CDUnknownBlockType action; // @synthesize action=_action;
 @property(readonly) _OSLastLockPredictionClient *client; // @synthesize client=_client;
-@property(readonly) unsigned long long queryIntervalInNanoseconds; // @synthesize queryIntervalInNanoseconds=_queryIntervalInNanoseconds;
-@property(readonly) NSObject<OS_dispatch_queue> *queryQueue; // @synthesize queryQueue=_queryQueue;
-@property(retain) NSObject<OS_dispatch_source> *requeryTimer; // @synthesize requeryTimer=_requeryTimer;
 
 @end
 

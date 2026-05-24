@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, NSURLResponse, NSURLSessionTask, NSURLSessionTaskMetrics;
+@class NSData;
 
 @interface AMSURLResult
 {
     NSData *_data;
-    NSDictionary *_loadURLEventDictionary;
-    NSString *_logUUID;
-    NSURLSessionTaskMetrics *_taskMetrics;
-    NSURLResponse *_response;
-    NSURLSessionTask *_task;
-    id _object;
 }
 
 + (id);
@@ -23,19 +17,19 @@
 - (long long);
 - (id);
 - (id);
-- (void);
+- (void)searchText:(id)arg1 sanitizedPrompt:moodCategory:stickerName: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (id)th prediction identifier:%@ /* Error: Ran out of types for this method. */;
+- (id)n_;
 - (void);
 - (void);
+- (id)@0:8@"IDSService"16@"IDSAccount"24@"IDSSession"32@"NSString"40@"NSDictionary"48 /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
 - (id);
 - (id);
 - (void)ëã#yçä]í6KøÝAO¬¸' Oèà15äÙ£ÀÕ<nð<qü}-B¶¯6Ò*5S4yé²/á¡¯úÂ{=F¢èó¸H,ÂÛßÖÖ zvñÜN­tk²ws°LìçäÂ~ I8«eËª
@@ -43,15 +37,6 @@
 
 // Remaining properties
 @property(retain) NSData *data; // @synthesize data=_data;
-@property(readonly) NSDictionary *loadURLEventDictionary; // @synthesize loadURLEventDictionary=_loadURLEventDictionary;
-@property(retain) NSString *logUUID; // @synthesize logUUID=_logUUID;
-@property(retain) id object; // @synthesize object=_object;
-@property(retain) NSURLResponse *response; // @synthesize response=_response;
-@property(readonly) NSString *responseCorrelationId;
-@property(readonly) NSDictionary *responseHeaders;
-@property(readonly) long long responseStatusCode;
-@property(retain) NSURLSessionTask *task; // @synthesize task=_task;
-@property(readonly) NSURLSessionTaskMetrics *taskMetrics; // @synthesize taskMetrics=_taskMetrics;
 
 @end
 

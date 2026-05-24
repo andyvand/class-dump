@@ -6,25 +6,20 @@
 
 #import <OfficeImport/ODDDataPoint.h>
 
-@class NSMutableArray, ODDTransitionPoint;
-
 __attribute__((visibility("hidden")))
 @interface ODDNodePoint : ODDDataPoint
 {
     ODDNodePoint *mParent;
-    NSMutableArray *mChildren;
-    ODDTransitionPoint *mParentTransition;
-    ODDTransitionPoint *mSiblingTransition;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)T;
 - (id);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)s;
 - (void);
 
 @end

@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNCache, CNUIUserActionDisambiguationModeler, CNUIUserActionListModelCache, NSString;
-@protocol CNScheduler, CNSchedulerProvider;
+@class CNUIUserActionListModelCache;
 
 @interface CNUIUserActionListDataSource
 {
     unsigned long long _cacheCapacity;
-    double _cacheEntryRefreshAge;
-    double _cacheEntryExpirationAge;
-    _Bool _tracksChanges;
-    id <CNSchedulerProvider> _schedulerProvider;
-    id <CNScheduler> _resolutionScheduler;
-    CNUIUserActionListModelCache *_models;
-    CNUIUserActionDisambiguationModeler *_modeler;
-    CNCache *_delegates;
 }
 
 + (id);
@@ -25,28 +16,28 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
 + (id);
 - (_Bool);
 - (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id);
 - (id);
 - (void);
 - (void);
 - (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
+- (void)	;
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -57,7 +48,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)H;
 - (void);
 - (id);
 - (id);
@@ -72,19 +63,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) CNCache *delegates; // @synthesize delegates=_delegates;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CNUIUserActionDisambiguationModeler *modeler; // @synthesize modeler=_modeler;
 @property(retain, nonatomic) CNUIUserActionListModelCache *models; // @synthesize models=_models;
-@property(readonly, nonatomic) id <CNScheduler> resolutionScheduler; // @synthesize resolutionScheduler=_resolutionScheduler;
-@property(readonly, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool tracksChanges; // @synthesize tracksChanges=_tracksChanges;
 
 @end
 

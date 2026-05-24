@@ -13,12 +13,12 @@
     NSDictionary *_substrokePlacementsByStrokeIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)_editingGetAnchroPoint:size:forCellAtIndex: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)P;
+- (void)er than 0. Received:(id)arg1 %@;
 - (id);
 - (void)%;
 

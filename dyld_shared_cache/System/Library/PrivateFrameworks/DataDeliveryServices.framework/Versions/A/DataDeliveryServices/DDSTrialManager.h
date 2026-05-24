@@ -4,41 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject, NSString;
-@protocol DDSTrialManagerDataSource, DDSTrialManagerDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol DDSTrialManagerDelegate, OS_dispatch_queue;
 
 @interface DDSTrialManager
 {
     id <DDSTrialManagerDelegate> _delegate;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    id <DDSTrialManagerDataSource> _dataSource;
-    NSMutableDictionary *_trialClientByQuery;
 }
 
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)setHasDebugNetworkConnectionStatePreparationSnapshotCaptured:(id)arg1;
+- (id)setHasDebugElectionDecisionMade: /* Error: Ran out of types for this method. */;
+- (void)setHasDaysWithTwoValidAssistantTurnsPerWeek:(id)arg1;
+- (id)_hasAssistantDeviceBirthday;
 - (id);
 - (id);
+- (id);
+- (id)J
+;
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly) id <DDSTrialManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <DDSTrialManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly) NSMutableDictionary *trialClientByQuery; // @synthesize trialClientByQuery=_trialClientByQuery;
 @property(readonly) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end

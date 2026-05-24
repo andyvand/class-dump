@@ -7,17 +7,13 @@
 @interface NewsUI2.SportsManagementDetailViewController
 {
     id styler;
-    id eventHandler;
-    id blueprintViewController;
-    id model;
-    id selectionProvider;
-    id titleViewRenderer;
 }
 
-- (void);
+- (void)flush error code = %d
+;
 - (_Bool);
 - (id);
-- (id);
+- (id)q;
 - (void);
 - (void);
 - (void);

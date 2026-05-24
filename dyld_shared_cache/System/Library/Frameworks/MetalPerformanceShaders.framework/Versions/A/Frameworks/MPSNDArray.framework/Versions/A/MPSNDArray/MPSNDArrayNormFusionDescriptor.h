@@ -7,26 +7,21 @@
 @interface MPSNDArrayNormFusionDescriptor
 {
     _Bool _isLeftFused;
-    _Bool _hasScale;
-    int _normFusionType;
-    float _epsilon;
 }
 
-- (void);
-- (void);
-- (int);
+- (void);
+- (void);
+- (int);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
+- (id)(;
 - (id);
-- (id);
-- (float);
+- (float)*
+J�;
 
 // Remaining properties
-@property(nonatomic) float epsilon; // @synthesize epsilon=_epsilon;
-@property(nonatomic) _Bool hasScale; // @synthesize hasScale=_hasScale;
-@property(nonatomic) _Bool isLeftFused; // @synthesize isLeftFused=_isLeftFused;
 @property(nonatomic) int normFusionType; // @synthesize normFusionType=_normFusionType;
 
 @end

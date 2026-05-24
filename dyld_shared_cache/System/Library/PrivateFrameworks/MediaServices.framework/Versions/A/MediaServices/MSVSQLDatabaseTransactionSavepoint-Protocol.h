@@ -7,6 +7,7 @@
 @class NSString;
 
 @protocol MSVSQLDatabaseTransactionSavepoint
+- (NSString *)setUsesGroupingSeparator: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *name;

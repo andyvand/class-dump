@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AVCaptureOutput_Tundra;
+
 @protocol AVCaptureMetadataOutputObjectsDelegate_Tundra
+
+@optional
+- (void)_convertObject:(AVCaptureOutput_Tundra *)arg1;
 @end
 

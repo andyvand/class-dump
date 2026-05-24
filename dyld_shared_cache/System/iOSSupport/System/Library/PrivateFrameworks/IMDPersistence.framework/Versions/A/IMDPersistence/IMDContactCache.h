@@ -4,19 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMAcceptedContactsChangeNotifier, NSCache, NSData, NSObject, NSString;
-@protocol IMDCNContactStore, IMDIndexingQueries, OS_dispatch_queue;
+@class NSData;
+@protocol IMDCNContactStore;
 
 @interface IMDContactCache
 {
     NSData *_currentHistoryToken;
-    id <IMDCNContactStore> _contactStore;
-    id <IMDIndexingQueries> _indexingProvider;
-    NSObject<OS_dispatch_queue> *_queue;
-    CDUnknownBlockType _fullChangeBlock;
-    NSCache *_cache;
-    NSCache *_fullNameCache;
-    IMAcceptedContactsChangeNotifier *_acceptedContactsChangeNotifier;
 }
 
 + (id)rs:%@ on services:%@  skipping:%@ /* Error: Ran out of types for this method. */;
@@ -30,7 +23,7 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -55,32 +48,18 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (void);
-- (void)ngDescriptors:(id)arg1 inChatsFilteredUsingPredicate:fromHandlesUsingPredicate:parentedOnly:limit:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_fetchMessageRecordsFilteredUsingPredicate:(id)arg1 sortedUsingDescriptors:inChatsFilteredUsingPredicate:fromHandlesUsingPredicate:parentedOnly:limit:completionHandler: /* Error: Ran out of types for this method. */;
 - (void), falling back to service lookup;
-- (id)ge_processing_task_idx_guid_task_flags;
+- (id)message_processing_task_idx_guid_task_flags;
 - (id)gBUenMtSYK4MPyVjsThvFQkdoFwfn9C-p8/Library/Caches/com.apple.xbs/TemporaryDirectory.BjhHsK/Sources/MessagesCore_iosmac/IMCore/IMDPersistence/Source/IMDSqlStatement.m;
 
 // Remaining properties
-@property(retain, nonatomic) IMAcceptedContactsChangeNotifier *acceptedContactsChangeNotifier; // @synthesize acceptedContactsChangeNotifier=_acceptedContactsChangeNotifier;
-@property(retain, nonatomic) NSCache *cache; // @synthesize cache=_cache;
 @property(readonly, nonatomic) id <IMDCNContactStore> contactStore; // @synthesize contactStore=_contactStore;
-@property(readonly, nonatomic) NSData *currentHistoryToken; // @synthesize currentHistoryToken=_currentHistoryToken;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) CDUnknownBlockType fullChangeBlock; // @synthesize fullChangeBlock=_fullChangeBlock;
-@property(retain, nonatomic) NSCache *fullNameCache; // @synthesize fullNameCache=_fullNameCache;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <IMDIndexingQueries> indexingProvider; // @synthesize indexingProvider=_indexingProvider;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(readonly) Class superclass;
 
 @end
 

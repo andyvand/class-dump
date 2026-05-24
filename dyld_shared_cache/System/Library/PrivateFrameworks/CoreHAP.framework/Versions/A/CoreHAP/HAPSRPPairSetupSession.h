@@ -4,24 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMFTimer, NSData, NSMutableData, NSObject, NSString;
-@protocol HAPPairSetupSessionDelegate, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface HAPSRPPairSetupSession
 {
     _Bool _handlingInvalidSetupCode;
-    id <HAPPairSetupSessionDelegate> _delegate;
-    long long _role;
-    NSObject<OS_dispatch_queue> *_clientQueue;
-    unsigned long long _state;
-    HMFTimer *_backoffTimer;
-    unsigned long long _pairSetupType;
-    NSData *_sessionReadKey;
-    NSData *_sessionWriteKey;
-    NSMutableData *_sessionReadNonce;
-    NSMutableData *_sessionWriteNonce;
-    NSData *_certificate;
-    struct PairingSessionPrivate *_pairingSession;
 }
 
 + (_Bool);
@@ -44,7 +32,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -54,17 +42,17 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (id);
 - (_Bool);
 - (void);
-- (struct PairingSessionPrivate *);
+- (struct PairingSessionPrivate *)N5raven31h_VelocityArgs_RavenConvergenceE;
 - (void);
 - (void);
-- (void);
+- (void)LPWalletPassMetadata;
 - (id);
 - (void);
 - (void);
@@ -74,39 +62,21 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)C;
 - (unsigned long long);
 - (id);
 - (id);
-- (id);
+- (id)manifest preset in dataref
+;
 - (void);
 - (long long);
-- (id);
+- (id)5;
 - (id)1¸Ð1Â0@ù
 × ;
 - (void)T_hash_handle}^{UT_hash_handle}^vII}^{coap_attr_t}^{coap_subscription_t}^{coap_str_const_t}iI^v};
 
 // Remaining properties
-@property(retain, nonatomic) HMFTimer *backoffTimer; // @synthesize backoffTimer=_backoffTimer;
-@property(retain, nonatomic) NSData *certificate; // @synthesize certificate=_certificate;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *clientQueue; // @synthesize clientQueue=_clientQueue;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly) __weak id <HAPPairSetupSessionDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isHandlingInvalidSetupCode) _Bool handlingInvalidSetupCode; // @synthesize handlingInvalidSetupCode=_handlingInvalidSetupCode;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long pairSetupType; // @synthesize pairSetupType=_pairSetupType;
-@property(readonly, nonatomic) struct PairingSessionPrivate *pairingSession; // @synthesize pairingSession=_pairingSession;
-@property(readonly, nonatomic) long long role; // @synthesize role=_role;
-@property(retain, nonatomic) NSData *sessionReadKey; // @synthesize sessionReadKey=_sessionReadKey;
-@property(retain, nonatomic) NSMutableData *sessionReadNonce; // @synthesize sessionReadNonce=_sessionReadNonce;
-@property(retain, nonatomic) NSData *sessionWriteKey; // @synthesize sessionWriteKey=_sessionWriteKey;
-@property(retain, nonatomic) NSMutableData *sessionWriteNonce; // @synthesize sessionWriteNonce=_sessionWriteNonce;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,77 +4,52 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BTAirPodsControlRequest, CBCentralManager, CBCharacteristic, CBDevice, CBPeripheral, CBService, CBUUID, NSMutableArray, NSObject, NSString, NSUUID;
+@class CBCharacteristic, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface BTAirPodsControlServiceClient
 {
     CBCharacteristic *_airpodsCaseControlCharacteristicObj;
-    CBUUID *_airpodsCaseControlCharacteristicUUID;
-    CBService *_airpodsCaseControlServiceObj;
-    CBUUID *_airpodsCaseControlServiceUUID;
-    CBCentralManager *_centralManager;
-    _Bool _connected;
-    _Bool _invalidateCalled;
-    NSUUID *_peerUUID;
-    CBPeripheral *_peripheral;
-    NSMutableArray *_requestArray;
-    BTAirPodsControlRequest *_requestCurrent;
-    int _state;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    CBDevice *_peerDevice;
-    NSString *_deviceSN;
-    NSString *_deviceUUID;
 }
 
+- (void)webView:(_Bool)arg1 authenticationChallenge:(CDUnknownBlockType)arg2 shouldAllowDeprecatedTLS: /* Error: Ran out of types for this method. */;
+- (void)waitUntilFinished;
+- (void)updateContact:(CDUnknownBlockType)arg1;
+- (id)typeFromFileExtension: /* Error: Ran out of types for this method. */;
+- (void)thumbnailImageData;
+- (void)textFileCoercionHandler;
+- (void)textFieldConfigurationHandlers;
+- (_Bool)textFieldConfigurationHandlers;
+- (_Bool)textEncodingName;
+- (_Bool)textCoercionHandler;
+- (_Bool)takeSnapshotWithConfiguration:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)e, WTF:(id)arg1:Ref<WebKit::ProcessThrottler::ProcessAssertionCache::CachedAssertion>>>, WTF::IntHash<WebKit::ProcessAssertionType>, WTF::HashMap<WebKit::ProcessAssertionType, WTF::Ref<WebKit::ProcessThrottler::ProcessAssertionCache::CachedAssertion>, WTF::IntHash<WebKit::ProcessAssertionType>, WTF::StrongEnumHashTraits<WebKit::ProcessAssertionType>>::KeyValuePairTraits, WTF::StrongEnumHashTraits<WebKit::ProcessAssertionType>>::validateKey(const ValueType &) [Key = WebKit::ProcessAssertionType, Value = WTF::KeyValuePair<WebKit::ProcessAssertionType, WTF::Ref<WebKit::ProcessThrottler::ProcessAssertionCache::CachedAssertion>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebKit::ProcessAssertionType, WTF::Ref<WebKit::ProcessThrottler::ProcessAssertionCache::CachedAssertion>>>, HashFunctions = WTF::IntHash<WebKit::ProcessAssertionType>, Traits = WTF::HashMap<WebKit::ProcessAssertionType, WTF::Ref<WebKit::ProcessThrottler::ProcessAssertionCache::CachedAssertion>, WTF::IntHash<WebKit::ProcessAssertionType>, WTF::StrongEnumHashTraits<WebKit::ProcessAssertionType>>::KeyValuePairTraits, KeyTraits = WTF::StrongEnumHashTraits<WebKit::ProcessAssertionType>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)Qh;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id)i;
 - (void);
+- (void)=;
+- (void);
+- (id)__kIMChatRegistryMessageSendIsReplicatingKey;
+- (void)DBModificationStamp;
 - (_Bool);
-- (id);
+- (id)=;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSString *deviceSN; // @synthesize deviceSN=_deviceSN;
-@property(retain, nonatomic) NSString *deviceUUID; // @synthesize deviceUUID=_deviceUUID;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CBDevice *peerDevice; // @synthesize peerDevice=_peerDevice;
-@property(readonly) Class superclass;
 
 @end
 

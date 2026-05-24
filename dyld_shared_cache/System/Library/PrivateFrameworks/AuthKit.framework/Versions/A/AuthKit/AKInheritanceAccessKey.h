@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSUUID;
+@class NSUUID;
 
 @interface AKInheritanceAccessKey
 {
     NSUUID *_beneficiaryID;
-    NSData *_wrappingKeyData;
-    NSString *_wrappingKeyString;
-    NSData *_wrappedKeyData;
-    NSString *_wrappedKeyString;
-    NSData *_claimTokenData;
-    NSString *_claimTokenString;
 }
 
 + (_Bool);
@@ -26,7 +20,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)( ;
 - (id);
 - (id);
 - (id);
@@ -41,12 +35,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSUUID *beneficiaryID; // @synthesize beneficiaryID=_beneficiaryID;
-@property(retain, nonatomic) NSData *claimTokenData; // @synthesize claimTokenData=_claimTokenData;
-@property(retain, nonatomic) NSString *claimTokenString; // @synthesize claimTokenString=_claimTokenString;
-@property(retain, nonatomic) NSData *wrappedKeyData; // @synthesize wrappedKeyData=_wrappedKeyData;
-@property(retain, nonatomic) NSString *wrappedKeyString; // @synthesize wrappedKeyString=_wrappedKeyString;
-@property(retain, nonatomic) NSData *wrappingKeyData; // @synthesize wrappingKeyData=_wrappingKeyData;
-@property(retain, nonatomic) NSString *wrappingKeyString; // @synthesize wrappingKeyString=_wrappingKeyString;
 
 @end
 

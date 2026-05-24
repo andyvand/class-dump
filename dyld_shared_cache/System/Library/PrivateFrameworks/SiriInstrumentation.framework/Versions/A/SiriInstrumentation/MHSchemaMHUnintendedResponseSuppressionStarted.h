@@ -6,24 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class MHSchemaMHAcousticFalseTriggerMitigationScoreGenerated, MHSchemaMHLatticeFalseTriggerMitigationEnded, MHSchemaMHUserEngagementFalseTriggerMitigationScoreGenerated, NSData;
-
 @interface MHSchemaMHUnintendedResponseSuppressionStarted : SISchemaInstrumentationMessage
 {
     unsigned int _numAsrRecords;
-    unsigned int _numTokensTopPath;
-    unsigned long long _trailingSilenceDurationInNs;
-    MHSchemaMHAcousticFalseTriggerMitigationScoreGenerated *_aftmScore;
-    MHSchemaMHLatticeFalseTriggerMitigationEnded *_lrnnScore;
-    MHSchemaMHUserEngagementFalseTriggerMitigationScoreGenerated *_uemScore;
-    struct {
-        unsigned int numAsrRecords:1;
-        unsigned int numTokensTopPath:1;
-        unsigned int trailingSilenceDurationInNs:1;
-    } _has;
-    _Bool _hasAftmScore;
-    _Bool _hasLrnnScore;
-    _Bool _hasUemScore;
 }
 
 - (id);
@@ -44,7 +29,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (_Bool);
 - (_Bool);
 - (void);
@@ -58,11 +43,11 @@
 - (void);
 - (id);
 - (id);
-- (void);
-- (unsigned long long);
+- (void)ec_GF2m_simple_set_compressed_coordinates;
+- (unsigned long long)A;
 - (_Bool);
-- (_Bool);
-- (id);
+- (_Bool)#,;
+- (id);
 - (id)1Â0@ù
 × ;
 - (id)ted",&,N,V_startedOrChanged;
@@ -70,19 +55,7 @@
 - (void)sO²æT!;
 
 // Remaining properties
-@property(retain, nonatomic) MHSchemaMHAcousticFalseTriggerMitigationScoreGenerated *aftmScore; // @synthesize aftmScore=_aftmScore;
-@property(nonatomic) _Bool hasAftmScore; // @synthesize hasAftmScore=_hasAftmScore;
-@property(nonatomic) _Bool hasLrnnScore; // @synthesize hasLrnnScore=_hasLrnnScore;
-@property(nonatomic) _Bool hasNumAsrRecords;
-@property(nonatomic) _Bool hasNumTokensTopPath;
-@property(nonatomic) _Bool hasTrailingSilenceDurationInNs;
-@property(nonatomic) _Bool hasUemScore; // @synthesize hasUemScore=_hasUemScore;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) MHSchemaMHLatticeFalseTriggerMitigationEnded *lrnnScore; // @synthesize lrnnScore=_lrnnScore;
 @property(nonatomic) unsigned int numAsrRecords; // @synthesize numAsrRecords=_numAsrRecords;
-@property(nonatomic) unsigned int numTokensTopPath; // @synthesize numTokensTopPath=_numTokensTopPath;
-@property(nonatomic) unsigned long long trailingSilenceDurationInNs; // @synthesize trailingSilenceDurationInNs=_trailingSilenceDurationInNs;
-@property(retain, nonatomic) MHSchemaMHUserEngagementFalseTriggerMitigationScoreGenerated *uemScore; // @synthesize uemScore=_uemScore;
 
 @end
 

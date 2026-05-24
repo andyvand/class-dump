@@ -10,7 +10,7 @@
 }
 
 - (id);
-- (void);
+- (void)!;
 - (_Bool);
 - (void)Qéÿ;
 

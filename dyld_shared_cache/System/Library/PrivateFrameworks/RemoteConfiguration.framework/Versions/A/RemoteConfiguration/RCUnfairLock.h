@@ -7,7 +7,6 @@
 @interface RCUnfairLock
 {
     struct os_unfair_lock_s _unfairLock;
-    unsigned int _unfairLockOptions;
 }
 
 - (id);
@@ -22,7 +21,6 @@
 
 // Remaining properties
 @property(nonatomic) struct os_unfair_lock_s unfairLock; // @synthesize unfairLock=_unfairLock;
-@property(nonatomic) unsigned int unfairLockOptions; // @synthesize unfairLockOptions=_unfairLockOptions;
 
 @end
 

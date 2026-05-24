@@ -5,10 +5,10 @@
 //
 
 @interface UnknownClass (Priv)
-- (id);
-- (long long);
-- (id);
-- (id);
-- (id);
+- (id)lic}@;
+- (long long)ror while fetching userId. error = %{public}@;
+- (id)c}@] Failed to fetch keybag data for account:%{public}@. Error:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)= %{public}@;
+- (id)g AMSAcknowledgePrivacyTask. privacyIdentifiers = %{public}@;
 @end
 

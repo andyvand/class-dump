@@ -11,9 +11,9 @@
 
 + (_Bool)ÿÆéoþ;
 - (id);
-- (long long);
+- (long long);
 - (id)ary"24@0:(id)arg1 8@"NSDictionary"16;
-- (_Bool)Duration;
+- (_Bool)animationActualDuration;
 - (void);
 - (void)üíþÿØæÊl;
 

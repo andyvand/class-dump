@@ -4,26 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IIDatePicker, NSDatePicker;
+@class IIDatePicker;
 
 @interface IIDatePickerPanelContentView
 {
     IIDatePicker *__textDatePicker;
-    NSDatePicker *__calendarDatePicker;
 }
 
+- (void)	;
+- (void)߈);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)!`;
+- (id)(;
 - (id);
-- (id);
 - (void);
-- (void);
+- (void)6@0:8@"NSString"16B24@?<v@?@"NSNumber"@"NSError">28 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSDatePicker *_calendarDatePicker; // @synthesize _calendarDatePicker=__calendarDatePicker;
 @property(retain) IIDatePicker *_textDatePicker; // @synthesize _textDatePicker=__textDatePicker;
 
 @end

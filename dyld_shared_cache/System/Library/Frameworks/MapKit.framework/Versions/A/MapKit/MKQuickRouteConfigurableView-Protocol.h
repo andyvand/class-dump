@@ -5,5 +5,6 @@
 //
 
 @protocol MKQuickRouteConfigurableView
+- (void)6;
 @end
 

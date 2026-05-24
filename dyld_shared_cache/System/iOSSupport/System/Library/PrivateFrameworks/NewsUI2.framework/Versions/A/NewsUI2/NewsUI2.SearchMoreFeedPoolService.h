@@ -7,8 +7,6 @@
 @interface NewsUI2.SearchMoreFeedPoolService
 {
     id subscriptionService;
-    id headlineService;
-    id recipeService;
 }
 
 @end

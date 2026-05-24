@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, TRIAppContainer, _PASLock;
-
 @interface TRIStandardPaths
 {
     unsigned int _schemaVersion;
-    TRIAppContainer *_container;
-    struct atomic_flag _loggedRootDir;
-    NSString *_containerPath;
-    _Bool _forTrialdSystem;
-    unsigned int _forUserId;
-    _PASLock *_lock;
 }
 
 + (id);
@@ -36,6 +28,15 @@
 - (id);
 - (id);
 - (id);
+- (id)B;
+- (id);
+- (id);
+- (id)dictionaryWithObject:(_Bool)arg1 forKey: /* Error: Ran out of types for this method. */;
+- (id);
+- (id);
+- (id)އ;
+- (id);
+- (id)h;
 - (id);
 - (id);
 - (id);
@@ -44,16 +45,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)CardSection",&,N;
 - (id);
 - (id);
 - (id);

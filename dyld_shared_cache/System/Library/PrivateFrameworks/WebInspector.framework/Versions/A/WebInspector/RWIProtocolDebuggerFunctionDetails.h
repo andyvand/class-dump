@@ -6,7 +6,7 @@
 
 #import <WebInspector/RWIProtocolJSONObject.h>
 
-@class NSArray, NSString, RWIProtocolDebuggerLocation;
+@class RWIProtocolDebuggerLocation;
 
 @interface RWIProtocolDebuggerFunctionDetails : RWIProtocolJSONObject
 {
@@ -23,10 +23,7 @@
 - (void)Ó£;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *displayName;
 @property(retain, nonatomic) RWIProtocolDebuggerLocation *location;
-@property(copy, nonatomic) NSString *name;
-@property(copy, nonatomic) NSArray *scopeChain;
 
 @end
 

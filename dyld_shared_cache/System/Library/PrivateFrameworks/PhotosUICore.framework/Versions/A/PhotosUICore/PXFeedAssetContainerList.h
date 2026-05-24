@@ -9,7 +9,6 @@
 @interface PXFeedAssetContainerList
 {
     NSString *_transientIdentifier;
-    NSOrderedSet *_sectionInfos;
 }
 
 - (void);
@@ -27,16 +26,7 @@
 - (id)µ?;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long containersCount;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSOrderedSet *sectionInfos; // @synthesize sectionInfos=_sectionInfos;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) NSString *transientIdentifier; // @synthesize transientIdentifier=_transientIdentifier;
 
 @end
 

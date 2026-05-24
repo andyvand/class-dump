@@ -6,17 +6,9 @@
 
 #import <ExchangeWebServices/EWSBasePathToElementType.h>
 
-@class NSString;
-
 @interface EWSPathToExtendedFieldType : EWSBasePathToElementType
 {
     _Bool _PropertyIdSpecified;
-    long long _DistinguishedPropertySetId;
-    long long _PropertyId;
-    NSString *_PropertyName;
-    NSString *_PropertySetId;
-    NSString *_PropertyTag;
-    long long _PropertyType;
 }
 
 - (void);
@@ -38,19 +30,6 @@
 
 // Remaining properties
 @property(nonatomic) long long DistinguishedPropertySetId; // @synthesize DistinguishedPropertySetId=_DistinguishedPropertySetId;
-@property(nonatomic) long long PropertyId; // @synthesize PropertyId=_PropertyId;
-@property(nonatomic) _Bool PropertyIdSpecified; // @synthesize PropertyIdSpecified=_PropertyIdSpecified;
-@property(copy, nonatomic) NSString *PropertyName; // @synthesize PropertyName=_PropertyName;
-@property(copy, nonatomic) NSString *PropertySetId; // @synthesize PropertySetId=_PropertySetId;
-@property(copy, nonatomic) NSString *PropertyTag; // @synthesize PropertyTag=_PropertyTag;
-@property(nonatomic) long long PropertyType; // @synthesize PropertyType=_PropertyType;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

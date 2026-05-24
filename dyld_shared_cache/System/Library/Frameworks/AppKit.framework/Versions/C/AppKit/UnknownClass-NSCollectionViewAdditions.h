@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (NSCollectionViewAdditions)
-+ (id);
-+ (id);
++ (id)setClientDisconnectionHandler:(id)arg1;
++ (id)@;
 - (void);
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, NSXPCConnection;
-@protocol ACDOAuthSignerProtocol;
+@class NSXPCConnection;
 
 @interface ACOAuthSigner
 {
     NSXPCConnection *_connection;
-    ACAccount *_account;
-    id <ACDOAuthSignerProtocol> _proxyShim;
-    _Bool _shouldIncludeAppIdInRequest;
 }
 
 - (id);
@@ -20,10 +16,10 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 

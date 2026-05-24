@@ -7,9 +7,6 @@
 @protocol SXDataTableCellSelector
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long evenColumns;
 @property(readonly, nonatomic) unsigned long long evenRows;
-@property(readonly, nonatomic) unsigned long long oddColumns;
-@property(readonly, nonatomic) unsigned long long oddRows;
 @end
 

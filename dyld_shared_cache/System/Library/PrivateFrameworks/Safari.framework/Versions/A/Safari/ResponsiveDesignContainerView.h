@@ -4,33 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSLayoutConstraint, NSTrackingArea, ResponsiveDesignResizeHandleView, WKWebView;
-@protocol ResponsiveDesignContainerViewDelegate;
+@class ResponsiveDesignResizeHandleView, WKWebView;
 
 __attribute__((visibility("hidden")))
 @interface ResponsiveDesignContainerView
 {
     ResponsiveDesignResizeHandleView *_leftHandle;
-    ResponsiveDesignResizeHandleView *_rightHandle;
-    ResponsiveDesignResizeHandleView *_bottomHandle;
-    NSTrackingArea *_leftTrackingArea;
-    NSTrackingArea *_bottomLeftTrackingArea;
-    NSTrackingArea *_rightTrackingArea;
-    NSTrackingArea *_bottomRightTrackingArea;
-    NSTrackingArea *_bottomTrackingArea;
-    NSTrackingArea *_currentTrackingArea;
-    NSLayoutConstraint *_containerWidthConstraint;
-    NSLayoutConstraint *_containerHeightConstraint;
-    struct CGSize _lastBrowserSize;
-    _Bool _stopNotifyingDelegateOfSizeChanges;
-    _Bool _resizing;
-    NSArray *_handleMarginConstraints;
-    WKWebView *_webView;
-    id <ResponsiveDesignContainerViewDelegate> _delegate;
 }
 
 - (struct CGSize);
-- (void);
+- (void);
 - (unsigned long long);
 - (struct CGSize);
 - (unsigned long long);
@@ -41,13 +24,13 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
@@ -56,9 +39,6 @@ __attribute__((visibility("hidden")))
 - (void)ü¤.;
 
 // Remaining properties
-@property(nonatomic) struct CGSize browserSize;
-@property(nonatomic) __weak id <ResponsiveDesignContainerViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) unsigned long long pixelRatio;
 @property(readonly, nonatomic) WKWebView *webView; // @synthesize webView=_webView;
 
 @end

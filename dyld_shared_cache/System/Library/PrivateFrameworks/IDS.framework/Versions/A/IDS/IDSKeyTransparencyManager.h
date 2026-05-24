@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 @protocol IDSKeyTransparencyManagerDelegate;
 
 @interface IDSKeyTransparencyManager
 {
     id <IDSKeyTransparencyManagerDelegate> _delegate;
-    NSDictionary *_applicationToVerificationInfoProviders;
-    NSString *_uuid;
 }
 
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)jh8)2ij(8;
 - (void);
 - (void);
 - (void);
@@ -30,7 +28,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id),N,V_shouldSuggestFamilyMembers;
 - (id);
 - (void);
 - (id);
@@ -41,15 +39,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *applicationToVerificationInfoProviders; // @synthesize applicationToVerificationInfoProviders=_applicationToVerificationInfoProviders;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <IDSKeyTransparencyManagerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSString *uuid; // @synthesize uuid=_uuid;
 
 @end
 

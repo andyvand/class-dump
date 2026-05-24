@@ -4,6 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSTableRowView, NSView;
+
 @protocol NSOutlineViewDelegate
+
+@optional
+- (_Bool);
+- (NSView *);
+- (_Bool);
+- (_Bool)R8;
+- (NSTableRowView *);
+- (void)6;
+- (_Bool)q(m;
 @end
 

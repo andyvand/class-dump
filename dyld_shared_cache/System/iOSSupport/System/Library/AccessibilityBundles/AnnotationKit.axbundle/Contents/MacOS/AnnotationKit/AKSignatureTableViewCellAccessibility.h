@@ -12,10 +12,10 @@
 
 + (Class);
 + (id);
-+ (void);
++ (void)d;
 - (_Bool);
-- (id);
-- (id);
+- (id)cordRemoveValue(ABRecordRef, ABPropertyID, CFErrorRef *);
+- (id)CKMessagePartHighlightBalloonView;
 
 @end
 

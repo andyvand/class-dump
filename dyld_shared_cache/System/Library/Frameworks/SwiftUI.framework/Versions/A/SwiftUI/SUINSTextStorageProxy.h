@@ -10,7 +10,7 @@
 
 - (id);
 - (id);
-- (id);
+- (id)finite, not NAN, and greater than 1.0.;
 - (id);
 
 @end

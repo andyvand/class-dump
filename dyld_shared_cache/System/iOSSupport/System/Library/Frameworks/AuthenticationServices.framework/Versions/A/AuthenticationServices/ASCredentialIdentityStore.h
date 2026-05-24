@@ -12,13 +12,13 @@
 }
 
 + (id);
+- (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)P;
 - (id);
-- (void);
+- (void)RE;
 - (void);
 - (void);
 - (void);

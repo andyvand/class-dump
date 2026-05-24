@@ -6,39 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, SISchemaBluetoothCarInvocationContext, SISchemaCarPlayInvocationContext, SISchemaCardSectionKeyboardInvocationContext, SISchemaHardwareButtonInvocationContext, SISchemaTVRemoteInvocationContext, SISchemaTapToEditInvocationContext, SISchemaTypeToSiriInvocationContext, SISchemaUUID, SISchemaVerticalLayoutCardSectionInvocationContext, SISchemaViewContainer;
-
 @interface SISchemaInvocation : SISchemaInstrumentationMessage
 {
     int _invocationAction;
-    int _invocationSource;
-    SISchemaViewContainer *_viewContainer;
-    SISchemaCarPlayInvocationContext *_carPlayInvocationContext;
-    SISchemaVerticalLayoutCardSectionInvocationContext *_cardInvocationContext;
-    SISchemaTVRemoteInvocationContext *_tvRemoteInvocationContext;
-    SISchemaCardSectionKeyboardInvocationContext *_keyboardInvocationContext;
-    SISchemaHardwareButtonInvocationContext *_hardwareButtonInvocationContext;
-    SISchemaBluetoothCarInvocationContext *_bluetoothCarInvocationContext;
-    SISchemaTapToEditInvocationContext *_tapToEditContext;
-    SISchemaTypeToSiriInvocationContext *_typeToSiriContext;
-    _Bool _isDeviceLocked;
-    SISchemaUUID *_linkId;
-    struct {
-        unsigned int invocationAction:1;
-        unsigned int invocationSource:1;
-        unsigned int isDeviceLocked:1;
-    } _has;
-    _Bool _hasViewContainer;
-    _Bool _hasCarPlayInvocationContext;
-    _Bool _hasCardInvocationContext;
-    _Bool _hasTvRemoteInvocationContext;
-    _Bool _hasKeyboardInvocationContext;
-    _Bool _hasHardwareButtonInvocationContext;
-    _Bool _hasBluetoothCarInvocationContext;
-    _Bool _hasTapToEditContext;
-    _Bool _hasTypeToSiriContext;
-    _Bool _hasLinkId;
-    unsigned long long _whichInvocationcontext;
 }
 
 - (unsigned long long);
@@ -49,15 +19,15 @@
 - (void);
 - (void);
 - (void);
+- (void));
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -75,7 +45,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -90,7 +60,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)�;
 - (void);
 - (void);
 - (void);
@@ -99,55 +69,28 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
+- (void)ho;
 - (void);
 - (id);
-- (_Bool);
-- (id);
+- (void);
+- (void)initWithHandle:(id)arg1 authResults: /* Error: Ran out of types for this method. */;
+- (void)initWithAccount:(_Bool)arg1 termsEntries:deviceOSVersion: /* Error: Ran out of types for this method. */;
+- (id)colorUsingColorSpace: /* Error: Ran out of types for this method. */;
+- (_Bool)_serviceTypeForAccount: /* Error: Ran out of types for this method. */;
+- (id)vd;
 - (id);
 - (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)atingException;
+- (_Bool)d CNAssertCast(__unsafe_unretained Class, __strong id);
+- (_Bool)n, Boolean, Boolean);
 - (id);
 - (id);
-- (id)s;
-- (id)mensions;
-- (void)K_UNKNOWN;
+- (id)deleteClientProcessAssetAvailabilityStatus;
+- (id)_dimensions;
+- (void)MTTASK_UNKNOWN;
 
 // Remaining properties
-@property(retain, nonatomic) SISchemaBluetoothCarInvocationContext *bluetoothCarInvocationContext; // @synthesize bluetoothCarInvocationContext=_bluetoothCarInvocationContext;
-@property(retain, nonatomic) SISchemaCarPlayInvocationContext *carPlayInvocationContext; // @synthesize carPlayInvocationContext=_carPlayInvocationContext;
-@property(retain, nonatomic) SISchemaVerticalLayoutCardSectionInvocationContext *cardInvocationContext; // @synthesize cardInvocationContext=_cardInvocationContext;
-@property(retain, nonatomic) SISchemaHardwareButtonInvocationContext *hardwareButtonInvocationContext; // @synthesize hardwareButtonInvocationContext=_hardwareButtonInvocationContext;
-@property(nonatomic) _Bool hasBluetoothCarInvocationContext; // @synthesize hasBluetoothCarInvocationContext=_hasBluetoothCarInvocationContext;
-@property(nonatomic) _Bool hasCarPlayInvocationContext; // @synthesize hasCarPlayInvocationContext=_hasCarPlayInvocationContext;
-@property(nonatomic) _Bool hasCardInvocationContext; // @synthesize hasCardInvocationContext=_hasCardInvocationContext;
-@property(nonatomic) _Bool hasHardwareButtonInvocationContext; // @synthesize hasHardwareButtonInvocationContext=_hasHardwareButtonInvocationContext;
-@property(nonatomic) _Bool hasInvocationAction;
-@property(nonatomic) _Bool hasInvocationSource;
-@property(nonatomic) _Bool hasIsDeviceLocked;
-@property(nonatomic) _Bool hasKeyboardInvocationContext; // @synthesize hasKeyboardInvocationContext=_hasKeyboardInvocationContext;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(nonatomic) _Bool hasTapToEditContext; // @synthesize hasTapToEditContext=_hasTapToEditContext;
-@property(nonatomic) _Bool hasTvRemoteInvocationContext; // @synthesize hasTvRemoteInvocationContext=_hasTvRemoteInvocationContext;
-@property(nonatomic) _Bool hasTypeToSiriContext; // @synthesize hasTypeToSiriContext=_hasTypeToSiriContext;
-@property(nonatomic) _Bool hasViewContainer; // @synthesize hasViewContainer=_hasViewContainer;
 @property(nonatomic) int invocationAction; // @synthesize invocationAction=_invocationAction;
-@property(nonatomic) int invocationSource; // @synthesize invocationSource=_invocationSource;
-@property(nonatomic) _Bool isDeviceLocked; // @synthesize isDeviceLocked=_isDeviceLocked;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SISchemaCardSectionKeyboardInvocationContext *keyboardInvocationContext; // @synthesize keyboardInvocationContext=_keyboardInvocationContext;
-@property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(retain, nonatomic) SISchemaTapToEditInvocationContext *tapToEditContext; // @synthesize tapToEditContext=_tapToEditContext;
-@property(retain, nonatomic) SISchemaTVRemoteInvocationContext *tvRemoteInvocationContext; // @synthesize tvRemoteInvocationContext=_tvRemoteInvocationContext;
-@property(retain, nonatomic) SISchemaTypeToSiriInvocationContext *typeToSiriContext; // @synthesize typeToSiriContext=_typeToSiriContext;
-@property(retain, nonatomic) SISchemaViewContainer *viewContainer; // @synthesize viewContainer=_viewContainer;
-@property(readonly, nonatomic) unsigned long long whichInvocationcontext; // @synthesize whichInvocationcontext=_whichInvocationcontext;
 
 @end
 

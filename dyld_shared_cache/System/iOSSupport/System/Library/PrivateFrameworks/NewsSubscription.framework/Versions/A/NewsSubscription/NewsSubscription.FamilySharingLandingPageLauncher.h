@@ -7,9 +7,6 @@
 @interface NewsSubscription.FamilySharingLandingPageLauncher
 {
     id configurationManager;
-    id familyEligibilityProvider;
-    id router;
-    id offerManager;
 }
 
 @end

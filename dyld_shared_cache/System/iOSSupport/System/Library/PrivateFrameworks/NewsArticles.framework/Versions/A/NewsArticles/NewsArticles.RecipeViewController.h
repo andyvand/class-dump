@@ -9,41 +9,22 @@
 @interface NewsArticles.RecipeViewController
 {
     id delegate;
-    id isPrimary;
-    id viewingSession;
-    id pageIdentifier;
-    id recipeIdentifier;
-    id styler;
-    id eventHandler;
-    id coverViewManager;
-    id eventManager;
-    id hardPaywallViewController;
-    id contentViewController;
-    id parallaxX;
-    id lastSafeAreaInsets;
-    id loadContext;
-    id loadContextBlock;
-    id onPresentedRecipeBlock;
-    id onFailedToLoadRecipeBlock;
-    id observableScrollView;
-    id radarReporter;
 }
 
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)?;
 - (void);
 - (void);
 - (void);
 - (id);
-- (void)ule;
+- (void)replicaModule;
 - (id)troller.swift;
 - (void);
 
 // Remaining properties
-@property(nonatomic, readonly) UIViewController *childViewControllerForStatusBarHidden;
 @property(nonatomic, readonly) UIViewController *childViewControllerForStatusBarStyle;
 
 @end

@@ -9,21 +9,9 @@
 @interface GEOWiFiQualityHours
 {
     PBDataReader *_reader;
-    CDStruct_95bda58d _days;
-    struct GEOWiFiQualityTimeRange *_timeRanges;
-    unsigned long long _timeRangesCount;
-    unsigned long long _timeRangesSpace;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_days:1;
-        unsigned int read_timeRanges:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (_Bool)te:(id)arg1;
++ (_Bool)setOriginalCoordinate:(id)arg1;
 - (struct GEOWiFiQualityTimeRange);
 - (struct GEOWiFiQualityTimeRange *);
 - (void);
@@ -32,36 +20,33 @@
 - (int);
 - (id);
 - (int *);
-- (void);
-- (void);
+- (void)upgradeGuardianWhitelistedProperties;
+- (void)initWithRegistrar:(struct GEOWiFiQualityTimeRange)arg1 namespaceIdentifier:managedObjectContext: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
+- (void)W;
+- (int)Did add SQLite store;
 - (void);
-- (int);
-- (void);
-- (void);
-- (id);
-- (id);
 - (void);
 - (id);
+- (id)@;
 - (void);
+- (id);
+- (void)speechControllerDidStopRecording:(id)arg1 forReason:estimatedSpeechEndHostTime: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool));
 - (id);
 - (void);
 - (id)Ñ¹*Ð1Â0@ù
 × ;
-- (id)nfoType;
-- (id)asIncludeContingencyRoutes: /* Error: Ran out of types for this method. */;
+- (id)laneChangeInfoType;
+- (id)setHasIncludeContingencyRoutes: /* Error: Ran out of types for this method. */;
 - (id)imestamp;;
 - (void)ýÿÿÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) int *days;
 @property(readonly, nonatomic) unsigned long long daysCount;
-@property(readonly, nonatomic) struct GEOWiFiQualityTimeRange *timeRanges;
-@property(readonly, nonatomic) unsigned long long timeRangesCount;
 
 @end
 

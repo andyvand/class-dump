@@ -4,32 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSMutableSet, NSObject, NSString, NSXPCListener, _CDInMemoryUserContext, _CDXPCEventPublisher;
-@protocol OS_dispatch_queue, _CDContextPersisting;
+@class _CDInMemoryUserContext;
 
 @interface _CDUserContextService
 {
     _Bool _remoteDevicesHaveBeenActivated;
-    id <_CDContextPersisting> _persistence;
-    _CDInMemoryUserContext *_userContext;
-    NSMutableSet *_clients;
-    NSXPCListener *_listener;
-    NSMutableSet *_openRegistrations;
-    NSMutableSet *_firedRegistrations;
-    NSMutableDictionary *_firedRegistrationInfos;
-    _CDXPCEventPublisher *_mdcsEventPublisher;
-    _CDXPCEventPublisher *_notificationEventPublisher;
-    NSMutableDictionary *_mdcsEventSubscribersByToken;
-    NSMutableDictionary *_notificationEventSubscribersByToken;
-    NSMutableDictionary *_notificationEventSubscribersByClientIdentifier;
-    NSObject<OS_dispatch_queue> *_workQueue;
-    NSMutableDictionary *_remoteDevicesByDeviceID;
 }
 
 + (id);
 + (id);
 - (id);
-- (void);
+- (void)e destination path buffer;
 - (void);
 - (void);
 - (id);
@@ -40,37 +25,37 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)SSL_RSA_WITH_3DES_EDE_CBC_SHA;
 - (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (void),V__homeLocationAuthorization;
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
+- (id);
+- (id);
 - (void);
 - (void);
+- (id);
+- (void)<;
 - (void);
+- (void)setHasAmountType:(id)arg1;
+- (void)hasConversationIdentifier;
+- (void)assignMissingSiriIDsForOptimalDiffFromPreviousDocument:(id)arg1;
+- (void)INSearchCallHistoryIntentExport;
+- (_Bool)%s INVocabularyValidator returning true for whitelisted app com.apple.MobileSMS;
+- (id);
+- (void);
+- (id);
+- (id);
+- (id);
 - (void);
 - (_Bool);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
-- (void);
-- (_Bool);
 - (_Bool);
 - (void);
 - (id);
@@ -86,31 +71,10 @@
 - (void);
 - (void);
 - (id);
-- (id)rNearbyLOIIdentifiers;
+- (id)keyPathForNearbyLOIIdentifiers;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableSet *clients; // @synthesize clients=_clients;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSMutableDictionary *firedRegistrationInfos; // @synthesize firedRegistrationInfos=_firedRegistrationInfos;
-@property(retain, nonatomic) NSMutableSet *firedRegistrations; // @synthesize firedRegistrations=_firedRegistrations;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSXPCListener *listener; // @synthesize listener=_listener;
-@property(retain, nonatomic) _CDXPCEventPublisher *mdcsEventPublisher; // @synthesize mdcsEventPublisher=_mdcsEventPublisher;
-@property(retain, nonatomic) NSMutableDictionary *mdcsEventSubscribersByToken; // @synthesize mdcsEventSubscribersByToken=_mdcsEventSubscribersByToken;
-@property(retain, nonatomic) _CDXPCEventPublisher *notificationEventPublisher; // @synthesize notificationEventPublisher=_notificationEventPublisher;
-@property(retain, nonatomic) NSMutableDictionary *notificationEventSubscribersByClientIdentifier; // @synthesize notificationEventSubscribersByClientIdentifier=_notificationEventSubscribersByClientIdentifier;
-@property(retain, nonatomic) NSMutableDictionary *notificationEventSubscribersByToken; // @synthesize notificationEventSubscribersByToken=_notificationEventSubscribersByToken;
-@property(retain, nonatomic) NSMutableSet *openRegistrations; // @synthesize openRegistrations=_openRegistrations;
-@property(retain, nonatomic) id <_CDContextPersisting> persistence; // @synthesize persistence=_persistence;
-@property(readonly, nonatomic) NSMutableDictionary *remoteDevicesByDeviceID; // @synthesize remoteDevicesByDeviceID=_remoteDevicesByDeviceID;
-@property(nonatomic) _Bool remoteDevicesHaveBeenActivated; // @synthesize remoteDevicesHaveBeenActivated=_remoteDevicesHaveBeenActivated;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) _CDInMemoryUserContext *userContext; // @synthesize userContext=_userContext;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

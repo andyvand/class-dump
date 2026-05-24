@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
+@class GEOMapRequest;
 
 @protocol GEOMapRoad
+- (GEOMapRequest *);
+- (double)h;
+- (unsigned long long)_fingerprinter;
+- (int);
 - (int)tScheduleFilter",&,N;
 
 // Remaining properties
-@property(readonly, nonatomic) int formOfWay;
-@property(readonly, nonatomic) NSString *internalRoadName;
-@property(readonly, nonatomic) _Bool isBridge;
-@property(readonly, nonatomic) _Bool isRail;
-@property(readonly, nonatomic) _Bool isTunnel;
-@property(readonly, nonatomic) int rampType;
 @property(readonly, nonatomic) int roadClass;
-@property(readonly, nonatomic) unsigned long long roadID;
-@property(readonly, nonatomic) double roadWidth;
-@property(readonly, nonatomic) unsigned long long speedLimit;
-@property(readonly, nonatomic) _Bool speedLimitIsMPH;
-@property(readonly, nonatomic) int travelDirection;
 @end
 

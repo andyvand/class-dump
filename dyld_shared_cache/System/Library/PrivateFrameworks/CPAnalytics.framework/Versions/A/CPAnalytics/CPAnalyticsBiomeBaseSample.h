@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
+@class NSString;
 
 @interface CPAnalyticsBiomeBaseSample
 {
     NSString *_identifier;
-    NSDate *_date;
-    NSString *_subset;
 }
 
 - (id);
@@ -20,9 +18,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDate *date; // @synthesize date=_date;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *subset; // @synthesize subset=_subset;
 
 @end
 

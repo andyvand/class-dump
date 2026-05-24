@@ -8,7 +8,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)tableView:toolTipForCell:rect:tableColumn:row:mouseLocation: /* Error: Ran out of types for this method. */;
 - (int)0@ù
 × ;
 @end

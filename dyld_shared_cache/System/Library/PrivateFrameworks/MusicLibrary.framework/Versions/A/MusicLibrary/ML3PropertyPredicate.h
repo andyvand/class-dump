@@ -13,20 +13,20 @@
     NSString *_property;
 }
 
-+ (id);
++ (id)initWithUniversalDate:(id)arg1 calendar: /* Error: Ran out of types for this method. */;
 + (_Bool);
+- (id)%d;
 - (id);
-- (id);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
 - (_Bool);
 - (id);
-- (void)direction:(id)arg1;
+- (void)initWithProperty:(id)arg1 direction:(Class)arg2;
 - (void)ationUtilities.m;
 - (void)entity_pid = ? AND entity_type = ? AND artwork_type = ?;
 - (id)_size = %zu WHERE item_pid = %lld;
-- (id)assical_experience_available;
+- (id)classical_experience_available;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *property; // @synthesize property=_property;

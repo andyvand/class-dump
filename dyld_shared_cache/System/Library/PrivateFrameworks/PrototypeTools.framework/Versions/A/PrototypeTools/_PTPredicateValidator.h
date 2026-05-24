@@ -9,10 +9,9 @@
 @interface _PTPredicateValidator
 {
     NSPredicate *_predicate;
-    _Bool _valid;
 }
 
-- (void);
+- (void)GUEST_FULLNAME;
 - (void);
 - (void);
 - (void)PTProxySettings forbids -init. Use +proxyForSettings:(id)arg1 instead.;

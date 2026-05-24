@@ -4,36 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSError, NSString;
-
 @interface IMEventListenerResponse
 {
     _Bool _success;
-    NSDictionary *_userInfo;
-    NSError *_error;
 }
 
 - (id);
-- (id);
+- (id)TxFails;
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (void)nameUpdates;
+- (void)_pendingNicknameUpdates;
 - (void)ng Contact Store fetch result. Obtained (%lu) results from Contacts Store.;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly) unsigned long long hash;
 @property(nonatomic, getter=didSucceed) _Bool success; // @synthesize success=_success;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSDictionary *userInfo; // @synthesize userInfo=_userInfo;
 
 @end
 

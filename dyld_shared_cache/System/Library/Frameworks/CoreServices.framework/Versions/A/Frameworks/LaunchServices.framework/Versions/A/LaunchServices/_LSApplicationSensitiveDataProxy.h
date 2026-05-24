@@ -8,16 +8,13 @@ __attribute__((visibility("hidden")))
 @interface _LSApplicationSensitiveDataProxy
 {
     unsigned long long _applicationDSID;
-    unsigned long long _downloaderDSID;
-    unsigned long long _familyID;
-    _Bool _redacted;
 }
 
-+ (_Bool);
++ (_Bool)>"40@0:8@"NSArray"16@"NSArray"24^@32 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)Tt';
 - (id);
 - (unsigned long long);
 - (void);
@@ -27,8 +24,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned long long applicationDSID;
-@property(readonly, nonatomic) unsigned long long downloaderDSID;
-@property(readonly, nonatomic) unsigned long long familyID;
 
 @end
 

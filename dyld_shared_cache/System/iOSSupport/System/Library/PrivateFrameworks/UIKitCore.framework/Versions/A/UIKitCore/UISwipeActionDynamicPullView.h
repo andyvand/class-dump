@@ -6,82 +6,62 @@
 
 #import <UIKitCore/UIView.h>
 
-@class NSArray, NSMutableArray, NSString, UIColor, UIContextualAction, _UIGroupCompletion;
-@protocol UISwipeActionPullViewDelegate;
+@class NSMutableArray;
 
 @interface UISwipeActionDynamicPullView : UIView
 {
     _Bool _primaryActionCanBeTriggeredBySwipe;
-    _Bool _buttonsUnderlapSwipedView;
-    _Bool _autosizesButtons;
-    _Bool _swipeActionsDidChange;
-    _Bool _pullViewHeightDidChange;
-    unsigned long long _cellEdge;
-    id <UISwipeActionPullViewDelegate> _delegate;
-    UIColor *_backgroundPullColor;
-    double _currentOffset;
-    double _openThreshold;
-    double _confirmationThreshold;
-    UIColor *_primaryActionColor;
-    unsigned long long _state;
-    NSMutableArray *_buttons;
-    NSArray *_actions;
-    UIView *_containerView;
-    _UIGroupCompletion *_animationGroupCompletion;
-    struct UIEdgeInsets _contentInsets;
-    struct UIEdgeInsets _pullViewInsets;
-    struct UIEdgeInsets _extraInsets;
 }
 
+- (_Bool)_handlesMinusSenderServiceAccountID: /* Error: Ran out of types for this method. */;
+- (void)_handlers;
+- (void)_handleModifyRecordsOperation:(id)arg1;
+- (id)_convertIMMessageItemToOutgoingRelayDictionary:(id)arg1 chat: /* Error: Ran out of types for this method. */;
+- (void)_originalGroupID;
+- (void)IMScheduledMessageUpdateProcessingPipelineComponent;
+- (void)IMDChat_CKRecord;
+- (void)IMDRelayServiceReachabilityController;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (struct UIEdgeInsets);
 - (_Bool);
-- (void);
-- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (struct UIEdgeInsets);
-- (_Bool);
-- (id);
-- (_Bool);
+- (_Bool)<t;
 - (id);
 - (_Bool);
 - (void);
 - (double);
 - (void);
-- (id);
-- (struct UIEdgeInsets);
+- (id)+;
+- (struct UIEdgeInsets)isUnderFirstUnlock, deferring to unlock;
+- (double)s as max batch attempt limit reached ********;
+- (void)ed user deleted zone error;
+- (unsigned long long)evice version:%@ /* Error: Ran out of types for this method. */;
+- (struct CGSize)nection %@ **********;
+- (id)a group server. We must fork 🍴;
+- (_Bool)for chat:%@ to:%d /* Error: Ran out of types for this method. */;
+- (id)ng last message:%@ for chat:%@ /* Error: Ran out of types for this method. */;
+- (id)OOL}d  Repaired Blank Service Name:%{BOOL}d  Repaired Chat Identifier:%{BOOL}d  Repaired Participant V2:%{BOOL}d  Repaired GUID:%{BOOL}d  Repaired GUID V2:%{BOOL}d)  Domain Identifiers:%@  Participants:%@] /* Error: Ran out of types for this method. */;
+- (_Bool)ountsByPart:%@, isChoros:%{BOOL}d, chorosConversationID:%ld, syndicationRanges:%@, syncedSyndicationRanges:%@, dateEdited:'%f', dateRecovered:'%f', hasGroupActivity:%{BOOL}d, wasDetonated:%{BOOL}d, isSOS:%{BOOL}d, isCritical %{BOOL}d, fallbackHash (len):%llu] /* Error: Ran out of types for this method. */;
+- (id)to mark message delivered quietly with missing GUID;
+- (double)message from sender:%@ /* Error: Ran out of types for this method. */;
+- (void);
+- (void);
+- (void);
+- (void);
+- (double);
 - (double);
 - (void);
-- (unsigned long long);
-- (struct CGSize);
-- (id);
-- (_Bool);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (double);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (double);
-- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (double);
-- (_Bool);
+- (double)buildRequiredOnlyWithPredicate: /* Error: Ran out of types for this method. */;
+- (_Bool)captionFont;
 - (id);
 - (void);
 - (id);
@@ -94,7 +74,7 @@
 × ;
 - (void)Q32d40d48d56d64@?72@?80@?88;
 - (unsigned long long)egate>";
-- (void)hOperations;
+- (void)_readyToPerformDelayedSearchOperations;
 - (void)faceStyle:(struct CGRect)arg1 transitionContext: /* Error: Ran out of types for this method. */;
 - (void)Èdäj;
 - (void)¥b;
@@ -103,36 +83,7 @@
 - (void)w_þØxÎ³g;
 
 // Remaining properties
-@property(retain, nonatomic) NSArray *actions; // @synthesize actions=_actions;
-@property(retain, nonatomic) _UIGroupCompletion *animationGroupCompletion; // @synthesize animationGroupCompletion=_animationGroupCompletion;
-@property(nonatomic) _Bool autosizesButtons; // @synthesize autosizesButtons=_autosizesButtons;
-@property(copy, nonatomic) UIColor *backgroundPullColor; // @synthesize backgroundPullColor=_backgroundPullColor;
 @property(retain, nonatomic) NSMutableArray *buttons; // @synthesize buttons=_buttons;
-@property(nonatomic) _Bool buttonsUnderlapSwipedView; // @synthesize buttonsUnderlapSwipedView=_buttonsUnderlapSwipedView;
-@property(readonly, nonatomic) unsigned long long cellEdge; // @synthesize cellEdge=_cellEdge;
-@property(nonatomic) double confirmationThreshold; // @synthesize confirmationThreshold=_confirmationThreshold;
-@property(retain, nonatomic) UIView *containerView; // @synthesize containerView=_containerView;
-@property(nonatomic) struct UIEdgeInsets contentInsets; // @synthesize contentInsets=_contentInsets;
-@property(readonly, nonatomic) double currentOffset; // @synthesize currentOffset=_currentOffset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <UISwipeActionPullViewDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) struct UIEdgeInsets extraInsets; // @synthesize extraInsets=_extraInsets;
-@property(readonly, nonatomic) _Bool hasActions;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) double openThreshold; // @synthesize openThreshold=_openThreshold;
-@property(nonatomic) _Bool primaryActionCanBeTriggeredBySwipe; // @synthesize primaryActionCanBeTriggeredBySwipe=_primaryActionCanBeTriggeredBySwipe;
-@property(readonly, nonatomic) UIColor *primaryActionColor; // @synthesize primaryActionColor=_primaryActionColor;
-@property(readonly, nonatomic) _Bool primaryActionIsDestructive;
-@property(readonly, nonatomic) UIContextualAction *primarySwipeAction;
-@property(nonatomic) _Bool pullViewHeightDidChange; // @synthesize pullViewHeightDidChange=_pullViewHeightDidChange;
-@property(nonatomic) struct UIEdgeInsets pullViewInsets; // @synthesize pullViewInsets=_pullViewInsets;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool swipeActionsDidChange; // @synthesize swipeActionsDidChange=_swipeActionsDidChange;
 
 @end
 

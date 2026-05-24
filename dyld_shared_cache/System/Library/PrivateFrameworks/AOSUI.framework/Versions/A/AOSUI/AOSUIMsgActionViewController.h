@@ -6,24 +6,18 @@
 
 #import <AOSUI/AOSUISpyglassBaseViewController.h>
 
-@class NSButton, NSString, NSTextField;
+@class NSString, NSTextField;
 
 @interface AOSUIMsgActionViewController : AOSUISpyglassBaseViewController
 {
     NSString *_localizedTitle;
-    NSString *_localizedDescription;
-    NSString *_localizedActionTitle;
-    CDUnknownBlockType _actionHandler;
-    NSTextField *_messageTitle;
-    NSTextField *_messageDescription;
-    NSButton *_actionTitle;
 }
 
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
+- (void));
+- (void);
 - (id);
 - (id);
 - (void);
@@ -44,12 +38,6 @@
 - (id)ns FAMonogram for contact with giveName:%@ and familyName:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType actionHandler; // @synthesize actionHandler=_actionHandler;
-@property(retain, nonatomic) NSButton *actionTitle; // @synthesize actionTitle=_actionTitle;
-@property(copy) NSString *localizedActionTitle; // @synthesize localizedActionTitle=_localizedActionTitle;
-@property(copy) NSString *localizedDescription; // @synthesize localizedDescription=_localizedDescription;
-@property(copy) NSString *localizedTitle; // @synthesize localizedTitle=_localizedTitle;
-@property(retain, nonatomic) NSTextField *messageDescription; // @synthesize messageDescription=_messageDescription;
 @property(retain, nonatomic) NSTextField *messageTitle; // @synthesize messageTitle=_messageTitle;
 
 @end

@@ -4,19 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSSet, NSString;
-@protocol OS_dispatch_queue, TUScreenSharingRemoteControlProvider, TUScreenSharingRemoteControllerDelegate;
-
 @interface TUScreenSharingRemoteController
 {
     _Bool _presenterAllowsRequestingControl;
-    _Bool _clientSideCursorAvailable;
-    id <TUScreenSharingRemoteControllerDelegate> _delegate;
-    NSSet *_participantsRequestingControl;
-    NSSet *_participantsGrantedControl;
-    long long _remoteControlState;
-    NSObject<OS_dispatch_queue> *_queue;
-    id <TUScreenSharingRemoteControlProvider> _provider;
 }
 
 - (void);
@@ -41,31 +31,17 @@
 - (id);
 - (id);
 - (id);
+- (void)	;
 - (void);
 - (void);
 - (void);
+- (id)(;
 - (void);
 - (id);
-- (void);
-- (id);
-- (void)ongTokenIfNeeded:collaboration:handle:completion: /* Error: Ran out of types for this method. */;
+- (void)updateURLWithDugongTokenIfNeeded:collaboration:handle:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property _Bool clientSideCursorAvailable; // @synthesize clientSideCursorAvailable=_clientSideCursorAvailable;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <TUScreenSharingRemoteControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy) NSSet *participantsGrantedControl; // @synthesize participantsGrantedControl=_participantsGrantedControl;
-@property(copy) NSSet *participantsRequestingControl; // @synthesize participantsRequestingControl=_participantsRequestingControl;
 @property _Bool presenterAllowsRequestingControl; // @synthesize presenterAllowsRequestingControl=_presenterAllowsRequestingControl;
-@property(readonly) id <TUScreenSharingRemoteControlProvider> provider; // @synthesize provider=_provider;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property long long remoteControlState; // @synthesize remoteControlState=_remoteControlState;
-@property(readonly) Class superclass;
 
 @end
 

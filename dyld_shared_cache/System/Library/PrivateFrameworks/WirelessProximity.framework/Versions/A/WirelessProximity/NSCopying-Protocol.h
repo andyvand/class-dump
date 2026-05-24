@@ -5,5 +5,6 @@
 //
 
 @protocol NSCopying
+- (id)shouldExposeWarningGivenPositiveFeedbackCount:(struct _NSZone *)arg1 negativeFeedbackCount: /* Error: Ran out of types for this method. */;
 @end
 

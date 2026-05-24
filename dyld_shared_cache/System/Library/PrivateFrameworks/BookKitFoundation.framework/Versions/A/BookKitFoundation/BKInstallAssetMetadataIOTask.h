@@ -6,15 +6,9 @@
 
 #import <BookKitFoundation/BKAssetMetadataIOTask.h>
 
-@class BKAssetMetadata, NSString, NSURL;
-
 @interface BKInstallAssetMetadataIOTask : BKAssetMetadataIOTask
 {
     _Bool _moveOriginalBook;
-    NSURL *_temporaryDirectory;
-    BKAssetMetadata *_assetToUpdate;
-    NSString *_interimFilenameOverride;
-    BKAssetMetadataIOTask *_copyingSubtask;
 }
 
 - (void);
@@ -31,14 +25,10 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)(;
 
 // Remaining properties
-@property(retain, nonatomic) BKAssetMetadata *assetToUpdate; // @synthesize assetToUpdate=_assetToUpdate;
 @property(retain, nonatomic) BKAssetMetadataIOTask *copyingSubtask; // @synthesize copyingSubtask=_copyingSubtask;
-@property(copy, nonatomic) NSString *interimFilenameOverride; // @synthesize interimFilenameOverride=_interimFilenameOverride;
-@property(nonatomic) _Bool moveOriginalBook; // @synthesize moveOriginalBook=_moveOriginalBook;
-@property(retain, nonatomic) NSURL *temporaryDirectory; // @synthesize temporaryDirectory=_temporaryDirectory;
 
 @end
 

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMPruner, BMSource, BMStreamBase, NSString;
+@class BMStreamBase, NSString;
 
 @interface _WBSBiomeStream
 {
     BMStreamBase *_stream;
-    NSString *_identifier;
-    BMSource *_source;
-    BMPruner *_pruner;
 }
 
 - (void);
@@ -24,8 +21,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) BMPruner *pruner; // @synthesize pruner=_pruner;
-@property(readonly, nonatomic) BMSource *source; // @synthesize source=_source;
 
 @end
 

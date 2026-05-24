@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface SXFontAttributes
 {
     NSString *_familyName;
-    long long _weight;
-    long long _width;
-    long long _style;
-    NSNumber *_grade;
 }
 
 - (id);
@@ -32,18 +28,7 @@
 - (id)âùÿ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) NSString *familyName; // @synthesize familyName=_familyName;
-@property(readonly, nonatomic) NSNumber *grade; // @synthesize grade=_grade;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long style; // @synthesize style=_style;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long weight; // @synthesize weight=_weight;
-@property(readonly, nonatomic) long long width; // @synthesize width=_width;
 
 @end
 

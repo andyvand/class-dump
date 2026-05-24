@@ -5,5 +5,6 @@
 //
 
 @protocol BiometricKitDelegateXpcProtocol
+- (void)nary",C,N,V_countsDictionary;
 @end
 

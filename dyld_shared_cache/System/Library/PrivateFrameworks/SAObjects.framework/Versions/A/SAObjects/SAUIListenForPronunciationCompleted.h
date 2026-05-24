@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseCommand.h>
 
-@class NSNumber, NSString, SASPronunciationData;
+@class NSNumber;
 
 @interface SAUIListenForPronunciationCompleted : SABaseCommand
 {
@@ -22,21 +22,10 @@
 - (id);
 - (_Bool);
 - (void);
-- (id)lientMetadata;
+- (id)clientMetadata;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *aceId; // @dynamic aceId;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSNumber *errorCode;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *interactionId;
-@property(retain, nonatomic) SASPronunciationData *pronunciationData;
-@property(copy, nonatomic) NSString *refId; // @dynamic refId;
-@property(readonly) Class superclass;
 
 @end
 

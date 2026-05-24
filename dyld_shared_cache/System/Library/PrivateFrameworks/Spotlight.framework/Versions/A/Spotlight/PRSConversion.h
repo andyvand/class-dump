@@ -4,36 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface PRSConversion
 {
     NSString *_outputUnit;
-    NSNumber *_outputValue;
-    NSString *_localizedOutputValue;
-    NSString *_localizedOutputUnit;
-    NSString *_localizedOutputValueAndUnit;
 }
 
-+ (_Bool);
++ (_Bool);
+- (id)74;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)akRef<WebKit:(id)arg1:WebStorageNamespaceProvider>>, WTF::HashTraits<WTF::WeakRef<WebKit::WebStorageNamespaceProvider>>, WTF::HashTraits<WTF::WeakRef<WebKit::WebStorageNamespaceProvider>>>::validateKey(const ValueType &) [Key = WTF::WeakRef<WebKit::WebStorageNamespaceProvider>, Value = WTF::WeakRef<WebKit::WebStorageNamespaceProvider>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<WTF::WeakRef<WebKit::WebStorageNamespaceProvider>>, Traits = WTF::HashTraits<WTF::WeakRef<WebKit::WebStorageNamespaceProvider>>, KeyTraits = WTF::HashTraits<WTF::WeakRef<WebKit::WebStorageNamespaceProvider>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)= _Float16, D = 768, ALLOCATOR = vi_onefixedsize_disk_allocator, POSTINGS_DATA = vi_disk_postings, A = vi_onefixedsize_disk_allocator];
+- (id)h;
+- (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *localizedOutputUnit; // @synthesize localizedOutputUnit=_localizedOutputUnit;
-@property(readonly) NSString *localizedOutputValue; // @synthesize localizedOutputValue=_localizedOutputValue;
-@property(readonly) NSString *localizedOutputValueAndUnit; // @synthesize localizedOutputValueAndUnit=_localizedOutputValueAndUnit;
 @property(readonly) NSString *outputUnit; // @synthesize outputUnit=_outputUnit;
-@property(readonly) NSNumber *outputValue; // @synthesize outputValue=_outputValue;
 
 @end
 

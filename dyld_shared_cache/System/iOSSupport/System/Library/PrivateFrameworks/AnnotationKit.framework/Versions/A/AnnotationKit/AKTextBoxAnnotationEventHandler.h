@@ -10,8 +10,8 @@
 {
 }
 
-- (void);
-- (_Bool);
+- (void)eDescriptorClass(void)_block_invoke;
+- (_Bool)%;
 
 @end
 

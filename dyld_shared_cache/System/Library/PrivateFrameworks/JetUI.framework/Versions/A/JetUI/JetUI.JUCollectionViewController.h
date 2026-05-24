@@ -9,18 +9,15 @@
 @interface JetUI.JUCollectionViewController
 {
     id scrollViewIfLoaded;
-    id collectionViewIfLoaded;
-    id collectionViewLayout;
-    id clearsSelectionOnViewWillAppear;
 }
 
 - (id);
+- (void)P;
 - (void);
+- (id)0x%x;
 - (void);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)_trailingMarginConstraint;
+- (id);
 - (void);
 - (void);
 - (void);
@@ -28,7 +25,7 @@
 - (void);
 - (long long);
 - (void);
-- (void);
+- (void)(;
 - (long long);
 - (void);
 - (id);

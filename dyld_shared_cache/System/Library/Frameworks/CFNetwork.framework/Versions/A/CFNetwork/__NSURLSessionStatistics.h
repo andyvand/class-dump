@@ -4,36 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSUUID;
+@class NSMutableDictionary;
 
 @interface __NSURLSessionStatistics
 {
     void *report;
-    NSMutableDictionary *_dictionaryReport;
 }
 
 + (void);
-+ (CDStruct_e417770c *);
++ (CDStruct_e417770c *)F;
 - (void);
 - (id);
 - (id);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
+- (id);
+- (void)increment;
 - (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *connectionUUIDS;
 @property(readonly, nonatomic) NSMutableDictionary *dictionaryReport;
-@property(retain) NSArray *externallyVisibleConnectionUUIDs;
-@property(retain) NSUUID *externallyVisibleNwActivity;
-@property(readonly, nonatomic) NSUUID *nwActivity;
-@property(readonly, nonatomic) NSUUID *taskUUID;
 
 @end
 

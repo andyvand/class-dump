@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface WebScrollerImpPairDelegateMac
 {
@@ -18,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (struct CGPoint);
 - (struct CGPoint);
 - (struct CGRect);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void)ðØ²hiíseøá\B³êTÿjáïP¿jaöè,dagaãìFãðãwäïâzirtyçðÞ|åoÐá[_fìëp}epæðWá`"ðð»ã`"gêûèÂuv.asèðSþuíðâZððPïç¼(îð£¶tos.biçîþíðå$iãïbèíáôíõ4ngåð»XåjEáo¨ìoÑàUgåðÌâðÜáh
@@ -29,13 +27,7 @@ __attribute__((visibility("hidden")))
 pÝ]Æmuzâìo¬tubåð¹tpornoðéõîíqýmydesi²ðÞ'erogiäðâÄáðÙhåïªT91shåîõá­		l«Ób4Éa;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

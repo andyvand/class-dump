@@ -5,5 +5,8 @@
 //
 
 @protocol CARenderValue
+
+@optional
+- (unsigned long long);
 @end
 

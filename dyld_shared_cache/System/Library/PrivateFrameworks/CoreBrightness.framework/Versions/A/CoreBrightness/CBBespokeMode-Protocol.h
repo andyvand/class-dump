@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CBAABCurveProtocol;
-
 @protocol CBBespokeMode
 
 // Remaining properties
-@property(copy) id <CBAABCurveProtocol> aab;
 @property(readonly, nonatomic) long long type;
 @end
 

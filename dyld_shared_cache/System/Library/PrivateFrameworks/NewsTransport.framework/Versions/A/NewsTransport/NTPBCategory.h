@@ -4,46 +4,41 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface NTPBCategory
 {
     NSMutableArray *_categoryHierarchys;
-    NSMutableArray *_curatedTagIds;
-    NSString *_entityId;
-    NSString *_name;
-    NSMutableArray *_recommendedChannels;
-    NSMutableArray *_recommendedTopics;
 }
 
-+ (Class);
-+ (Class);
-+ (Class);
-+ (Class);
++ (Class)_stateQueue_naturalSize;
++ (Class)_stateQueue_isPlayerTimeAdvancing;
++ (Class)_prepareCounts;
++ (Class)_placeholderExtensionForItem: /* Error: Ran out of types for this method. */;
+- (void)completionKey;
 - (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned long long);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)ambiguousTokensPauseStoryGeneration;
+- (void)allowsContextMenuInteractionForPhotosViewController:(id)arg1;
+- (unsigned long long)addTrackingArea: /* Error: Ran out of types for this method. */;
+- (id)addTimer:(unsigned long long)arg1 forMode: /* Error: Ran out of types for this method. */;
+- (id)addTextFieldWithTitle: /* Error: Ran out of types for this method. */;
+- (unsigned long long)addSingleQueries: /* Error: Ran out of types for this method. */;
+- (id)addSimulatedProgressComponent;
+- (id)addSelectedPersonIdentifiers: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_testingOverride_shouldOnlyPerformAutomaticAuthenticationOnce;
+- (id)_testingOverride_shouldLockAfterDelayWhenLeavingViewHierarchy;
+- (id)_testingOverride_shouldLockAfterDelayWhenLeavingViewHierarchy;
+- (void)_syncProgressSubscriber;
+- (void)_syncPasteDidFinishWithResults:didCancel:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_suggestLessPeople:withSuggestLessOption:undoManager:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)_subtitleScalingFactorForKind:size:extendedTraitCollectionSnapshot:fixedBottomPadding: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_subCollectionKeyAssetFetchResultsCache;
+- (id)_subCollectionKeyAssetFetchResultsCache;
+- (id)_subCollectionActiveKeyAssetsFetchOperations;
+- (void)_stateQueue_pixelBufferPausedOutputTokens;
+- (void)_stateQueue_pixelBufferFrameDrops;
+- (void)_stateQueue_accumulateLoadedTimeRange:(id)arg1 moreExpected: /* Error: Ran out of types for this method. */;
+- (void)_startOrResumeSlideshowTouchesEnded:(id)arg1;
 - (_Bool);
 - (void);
 - (id);
@@ -52,23 +47,16 @@
 - (void);
 - (void);
 - (id);
-- (unsigned long long);
+- (unsigned long long)ʯ;
 - (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)CopyElementAtPosition;
 - (void)hasTagAutoFavoritedCoeffIPhone;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *categoryHierarchys; // @synthesize categoryHierarchys=_categoryHierarchys;
-@property(retain, nonatomic) NSMutableArray *curatedTagIds; // @synthesize curatedTagIds=_curatedTagIds;
-@property(retain, nonatomic) NSString *entityId; // @synthesize entityId=_entityId;
-@property(readonly, nonatomic) _Bool hasEntityId;
 @property(readonly, nonatomic) _Bool hasName;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) NSMutableArray *recommendedChannels; // @synthesize recommendedChannels=_recommendedChannels;
-@property(retain, nonatomic) NSMutableArray *recommendedTopics; // @synthesize recommendedTopics=_recommendedTopics;
 
 @end
 

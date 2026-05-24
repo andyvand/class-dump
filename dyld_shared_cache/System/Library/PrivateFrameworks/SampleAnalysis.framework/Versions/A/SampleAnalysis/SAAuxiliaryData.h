@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SAFanSpeed, SATimestamp;
+@class SAFanSpeed;
 
 @interface SAAuxiliaryData
 {
     SAFanSpeed *_fanSpeed;
-    NSArray *_mountStatus;
-    SATimestamp *_timestamp;
 }
 
 + (id);

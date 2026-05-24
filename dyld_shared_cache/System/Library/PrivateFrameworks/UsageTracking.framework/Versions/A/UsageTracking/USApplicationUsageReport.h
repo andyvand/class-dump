@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface USApplicationUsageReport
 {
     _Bool _applicationUsageTrusted;
-    NSString *_canonicalBundleIdentifier;
-    double _totalUsageTime;
-    NSDictionary *_applicationUsageByBundleIdentifier;
-    NSDictionary *_webUsageByDomain;
-    NSDictionary *_userNotificationsByBundleIdentifier;
-    NSDictionary *_pickupsByBundleIdentifier;
 }
 
 + (_Bool);
@@ -30,28 +24,18 @@
 - (id);
 - (_Bool);
 - (double);
-- (id);
+- (id)/;
 - (void);
 - (unsigned long long);
+- (id)thentication challenge for %@, serverTrust = %p;
+- (id)pillAlphaFunction;
 - (id);
-- (id);
-- (id);
-- (void);
+- (void)4;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSDictionary *applicationUsageByBundleIdentifier; // @synthesize applicationUsageByBundleIdentifier=_applicationUsageByBundleIdentifier;
-@property(readonly) double applicationUsageTime;
-@property(readonly) _Bool applicationUsageTrusted; // @synthesize applicationUsageTrusted=_applicationUsageTrusted;
-@property(readonly, copy) NSString *bundleIdentifier;
-@property(readonly, copy) NSString *canonicalBundleIdentifier; // @synthesize canonicalBundleIdentifier=_canonicalBundleIdentifier;
-@property(copy) NSDictionary *pickupsByBundleIdentifier; // @synthesize pickupsByBundleIdentifier=_pickupsByBundleIdentifier;
-@property(readonly) unsigned long long totalPickups;
-@property(readonly) double totalUsageTime; // @synthesize totalUsageTime=_totalUsageTime;
-@property(readonly) unsigned long long totalUserNotifications;
 @property(copy) NSDictionary *userNotificationsByBundleIdentifier; // @synthesize userNotificationsByBundleIdentifier=_userNotificationsByBundleIdentifier;
-@property(readonly, copy) NSDictionary *webUsageByDomain; // @synthesize webUsageByDomain=_webUsageByDomain;
 
 @end
 

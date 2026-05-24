@@ -14,10 +14,10 @@
 
 - (_Bool);
 - (_Bool);
+- (void)payloadAllowAirPrintCredentialsStorage;
 - (void);
-- (void);
-- (long long)lChangeForTextInput: /* Error: Ran out of types for this method. */;
-- (id)Behaviors;
+- (long long)selectionWillChangeForTextInput: /* Error: Ran out of types for this method. */;
+- (id)ignoredForCollapsingBehaviors;
 - (void)äFlþ^ÐÀl;
 
 // Remaining properties

@@ -9,6 +9,11 @@
 @protocol NSWindowDelegate
 
 @optional
+- (void);
+- (void)˿;
+- (NSArray *)#;
+- (void)eTCONDP855RestoreInfoCreateRequest:(NSNotification *)arg1 CreateMeasurementDict fails for AppleTCONDP855;
+- (void);
 - (void)ç°!@ùÑ1°1Â0@ù
 × ;
 - (void)@ù
@@ -16,17 +21,17 @@
 - (NSArray *)
 × ;
 - (void)× ;
-- (void);
 - (void)Ô ;
 - (void)!PEù2Ð1Â0@ù
 × ;
 - (void)Q24Q32@40@48;
-- (void)eam;
-- (unsigned long long)Data:(NSWindow *)arg1;
-- (void)idFailToFormatString:(NSNotification *)arg1 errorDescription: /* Error: Ran out of types for this method. */;
-- (void)ttonColor;
-- (void)ssApp;
-- (void)kView;
+- (void)stream;
+- (unsigned long long)navigateWithResponseData:(NSWindow *)arg1;
+- (void)control:(NSNotification *)arg1 didFailToFormatString:errorDescription: /* Error: Ran out of types for this method. */;
+- (void)_overridenButtonColor;
+- (void)_isOnenessApp;
+- (struct CGRect)setOrthogonalScrollingBehavior:(NSWindow *)arg1;
+- (void)SearchUIButtonItemStackView;
 - (void)pÿ;
 - (_Bool)ìÂ;
 - (void)ÿÿd[ÿÿàÎûÿp;

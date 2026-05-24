@@ -9,38 +9,6 @@
 @interface AppStoreKit.ProductPage : AppStoreKit.Lockup
 {
     id shareAction;
-    id developerAction;
-    id ageRatingAction;
-    id uberArtwork;
-    id uberVideo;
-    id uberStyle;
-    id logoArtwork;
-    id navigationBarIconArtwork;
-    id media;
-    id badges;
-    id isComplete;
-    id pageTopBackgroundColor;
-    id pageBottomBackgroundColor;
-    id hasDarkUserInterfaceStyle;
-    id askToBuy;
-    id mediaSectionTitle;
-    id expandedOfferDetails;
-    id regularPriceFormatted;
-    id theme;
-    id externalVersionIdentifier;
-    id updateBuyParams;
-    id titleOfferDisplayProperties;
-    id banner;
-    id secondaryBanner;
-    id fullProductFetchedAction;
-    id appPromotionDetailPageAction;
-    id pageRefreshPolicy;
-    id alwaysAllowReviews;
-    id shelfMapping;
-    id purchasedOrdering;
-    id notPurchasedOrdering;
-    id pageMetrics;
-    id pageRenderEvent;
 }
 
 @end

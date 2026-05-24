@@ -7,9 +7,10 @@
 @class CHSWidget, NSString;
 
 @protocol CHSWidgetConfigurationReference
+- (NSString *)2;
+- (CHSWidget *)?;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *uniqueIdentifier;
-@property(readonly, copy, nonatomic) CHSWidget *widget;
 @end
 

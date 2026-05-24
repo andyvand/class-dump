@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface OISFUFileOutputStream
 {
     struct __sFILE *mFile;
-    NSString *mPath;
 }
 
-- (void);
+- (void)+;
 - (void);
 - (id);
 - (_Bool);
-- (void);
-- (void);
+- (void)A;
+- (void)	;
 - (id);
 - (id);
 - (_Bool);
@@ -26,13 +23,7 @@ __attribute__((visibility("hidden")))
 - (long long)¬;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

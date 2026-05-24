@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, SHKRemoteWindowController;
-
 __attribute__((visibility("hidden")))
 @interface SHKMarzipanRemoteViewController
 {
     _Bool _disconnectRequested;
-    SHKRemoteWindowController *_remoteWindowController;
-    NSArray *_layoutConstraints;
 }
 
 + (void);
@@ -20,18 +16,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
+- (void)";
+- (id)";
 - (void);
-- (id);
-- (void);
-- (void);
+- (void)dler: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
 @property _Bool disconnectRequested; // @synthesize disconnectRequested=_disconnectRequested;
-@property(retain) NSArray *layoutConstraints; // @synthesize layoutConstraints=_layoutConstraints;
-@property __weak SHKRemoteWindowController *remoteWindowController; // @synthesize remoteWindowController=_remoteWindowController;
 
 @end
 

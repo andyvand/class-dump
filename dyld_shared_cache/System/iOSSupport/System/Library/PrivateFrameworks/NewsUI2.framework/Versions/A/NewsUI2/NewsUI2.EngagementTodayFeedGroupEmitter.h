@@ -7,8 +7,6 @@
 @interface NewsUI2.EngagementTodayFeedGroupEmitter
 {
     id config;
-    id knobs;
-    id engagementInlineViewManager;
 }
 
 @end

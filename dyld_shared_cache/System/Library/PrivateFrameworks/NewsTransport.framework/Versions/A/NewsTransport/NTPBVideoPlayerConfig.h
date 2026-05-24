@@ -9,36 +9,30 @@
 @interface NTPBVideoPlayerConfig
 {
     NSString *_discoverMoreVideosSubtitle;
-    NSString *_discoverMoreVideosTitle;
-    NSString *_discoverMoreVideosUrl;
 }
 
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)graphChapterDictionary;
+- (void)gradientLayer;
+- (void)gpsHorizontalAccuracy;
+- (_Bool)didSetPersonAsVerified;
+- (_Bool)didSetAssetCollection: /* Error: Ran out of types for this method. */;
+- (_Bool)didSelectGeotaggableItems:fromMapView: /* Error: Ran out of types for this method. */;
+- (id)dataWithContentsOfFile: /* Error: Ran out of types for this method. */;
+- (id)dataUsingEncoding: /* Error: Ran out of types for this method. */;
+- (id)dataTaskWithRequest:completionHandler: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
+- (void)1
+;
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
+- (unsigned long long)SAnonymousView>"40;
+- (_Bool)d MigrationData resource.;
+- (_Bool)%@ candidates and have %@ remaining in our candidate pool;
 - (id);
 - (id);
 - (void)aidSubscriber"b1"isPaidSubscriberFromAppStore"b1"isPaidSubscriberFromNews"b1"isPaidSubscriberFromThirdParty"b1"isStoreDemoModeEnabled"b1"locationPermissionGranted"b1"notificationsEnabled"b1"privateDataEncrypted"b1"privateDataSyncOn"b1"progressivePersonalizationAllowed"b1"runningObsolete"b1"signedIntoITunes"b1"signedIntoIcloud"b1"upgradedFromObsolete"b1};
 
 // Remaining properties
-@property(retain, nonatomic) NSString *discoverMoreVideosSubtitle; // @synthesize discoverMoreVideosSubtitle=_discoverMoreVideosSubtitle;
-@property(retain, nonatomic) NSString *discoverMoreVideosTitle; // @synthesize discoverMoreVideosTitle=_discoverMoreVideosTitle;
-@property(retain, nonatomic) NSString *discoverMoreVideosUrl; // @synthesize discoverMoreVideosUrl=_discoverMoreVideosUrl;
-@property(readonly, nonatomic) _Bool hasDiscoverMoreVideosSubtitle;
 @property(readonly, nonatomic) _Bool hasDiscoverMoreVideosTitle;
-@property(readonly, nonatomic) _Bool hasDiscoverMoreVideosUrl;
 
 @end
 

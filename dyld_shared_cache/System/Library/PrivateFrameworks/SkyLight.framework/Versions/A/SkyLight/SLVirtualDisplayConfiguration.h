@@ -9,29 +9,19 @@
 @interface SLVirtualDisplayConfiguration
 {
     NSString *_name;
-    unsigned long long _vendorID;
-    unsigned long long _productID;
-    unsigned long long _serialNumber;
-    CDStruct_643d22a7 _sizeInMillimeters;
-    CDStruct_3e356df7 _maximumSizeInPixels;
-    CDStruct_5a6196cb _chromaticities;
-    unsigned long long _type;
-    unsigned long long _options;
-    unsigned long long _subtype;
-    NSString *_uti;
 }
 
-+ (id);
-+ (id);
-+ (id);
-- (CDStruct_b2fbf00d);
-- (CDStruct_3e356df7);
-- (id);
-- (void);
-- (void);
-- (id);
++ (id)WHERE %@ = '%@';
++ (id)WHERE %@ = '%@'),;
++ (id)HERE %@ = '%@'), (%@));
+- (CDStruct_b2fbf00d)' was skipped because it was configured with databaseScope == CKDatabaseShared.;
+- (CDStruct_3e356df7).cloudkit.%@.%@;
+- (id)EW.%@;;
+- (void)pertiesToGroupBy:(id)arg1 (%@); ;
 - (void);
 - (id);
+- (void);
+- (id)R;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
@@ -42,21 +32,11 @@
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (unsigned long long)lCallback;
-- (CDStruct_5a6196cb)meters;
+- (unsigned long long)_PKGSystemShellCallback;
+- (CDStruct_31cefc2d)meters;
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_5a6196cb chromaticities; // @synthesize chromaticities=_chromaticities;
-@property(readonly, nonatomic) CDStruct_3e356df7 maximumSizeInPixels; // @synthesize maximumSizeInPixels=_maximumSizeInPixels;
-@property(readonly, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly, nonatomic) unsigned long long productID; // @synthesize productID=_productID;
-@property(readonly, nonatomic) unsigned long long serialNumber; // @synthesize serialNumber=_serialNumber;
-@property(readonly, nonatomic) CDStruct_b2fbf00d sizeInMillimeters; // @synthesize sizeInMillimeters=_sizeInMillimeters;
-@property(nonatomic) unsigned long long subtype; // @synthesize subtype=_subtype;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(nonatomic) NSString *uti; // @synthesize uti=_uti;
-@property(readonly, nonatomic) unsigned long long vendorID; // @synthesize vendorID=_vendorID;
 
 @end
 

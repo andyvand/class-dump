@@ -5,5 +5,6 @@
 //
 
 @protocol AccountObserver
+- (void);
 @end
 

@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DRSTaskingCloudKitHelper, NSManagedObjectContext, NSPersistentContainer, NSString;
+@class NSPersistentContainer;
 
 @interface DRSConfigPersistedStore
 {
     _Bool _isReadOnly;
-    NSString *_workingDirectory;
-    DRSTaskingCloudKitHelper *_cloudKitHelper;
-    NSPersistentContainer *_container;
-    NSManagedObjectContext *_context;
 }
 
 - (id);
@@ -21,7 +17,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
@@ -29,19 +25,15 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (_Bool);
-- (unsigned long long);
+- (_Bool)`;
+- (unsigned long long)!;
 - (id);
 - (unsigned long long);
-- (id);
+- (id)anged;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) DRSTaskingCloudKitHelper *cloudKitHelper; // @synthesize cloudKitHelper=_cloudKitHelper;
 @property(readonly, nonatomic) NSPersistentContainer *container; // @synthesize container=_container;
-@property(readonly, nonatomic) NSManagedObjectContext *context; // @synthesize context=_context;
-@property(readonly, nonatomic) _Bool isReadOnly; // @synthesize isReadOnly=_isReadOnly;
-@property(readonly, nonatomic) NSString *workingDirectory; // @synthesize workingDirectory=_workingDirectory;
 
 @end
 

@@ -6,12 +6,9 @@
 
 #import <DeviceManagement/DMFTaskRequest.h>
 
-@class NSDictionary;
-
 @interface DMFRemoveConfigurationRequest : DMFTaskRequest
 {
     unsigned long long _type;
-    NSDictionary *_profile;
 }
 
 + (_Bool);
@@ -21,13 +18,12 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (id);
+- (id)(;
 - (void);
 - (void);
-- (void);
+- (void)appendSectionsWithIdentifiers: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *profile; // @synthesize profile=_profile;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

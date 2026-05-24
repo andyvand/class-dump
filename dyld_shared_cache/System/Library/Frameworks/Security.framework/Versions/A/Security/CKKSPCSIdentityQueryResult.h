@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
+@class NSNumber;
 
 @interface CKKSPCSIdentityQueryResult
 {
     NSNumber *_serviceNumber;
-    NSString *_publicKey;
-    NSString *_zoneID;
-    NSDictionary *_decryptedRecord;
 }
 
 + (_Bool);
@@ -20,8 +17,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -30,10 +27,7 @@
 - (id)15:MD5 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSDictionary *decryptedRecord; // @synthesize decryptedRecord=_decryptedRecord;
-@property(retain) NSString *publicKey; // @synthesize publicKey=_publicKey;
 @property(retain) NSNumber *serviceNumber; // @synthesize serviceNumber=_serviceNumber;
-@property(retain) NSString *zoneID; // @synthesize zoneID=_zoneID;
 
 @end
 

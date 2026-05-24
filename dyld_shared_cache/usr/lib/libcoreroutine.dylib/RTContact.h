@@ -4,22 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface RTContact
 {
     NSString *_identifier;
-    NSString *_givenName;
-    NSString *_middleName;
-    NSString *_familyName;
-    NSArray *_postalAddresses;
-    NSArray *_phoneNumbers;
-    NSArray *_emailAddresses;
 }
 
-- (id);
-- (id);
-- (id);
+- (id)ntitySetData=},R,V_identities;
+- (id)^{_PCSIdentityData=},V_escrowIdentity;
+- (id).6f;
 - (id);
 - (id);
 - (id);
@@ -32,13 +26,7 @@
 - (id)4Âøÿ;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *emailAddresses; // @synthesize emailAddresses=_emailAddresses;
-@property(readonly, nonatomic) NSString *familyName; // @synthesize familyName=_familyName;
-@property(readonly, nonatomic) NSString *givenName; // @synthesize givenName=_givenName;
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *middleName; // @synthesize middleName=_middleName;
-@property(readonly, nonatomic) NSArray *phoneNumbers; // @synthesize phoneNumbers=_phoneNumbers;
-@property(readonly, nonatomic) NSArray *postalAddresses; // @synthesize postalAddresses=_postalAddresses;
 
 @end
 

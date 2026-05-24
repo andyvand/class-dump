@@ -5,6 +5,7 @@
 //
 
 @protocol _GCDeviceSystemGestureComponent
+- (void);
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType deviceSystemGestureTriggeredHandler;

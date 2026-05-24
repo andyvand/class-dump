@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, SFImage;
+@class SFImage;
 
 @protocol SFFormattedText
+- (void)EnableEnhancedPrivacyInPrivateBrowsing;
+- (SFImage *)preparationStepSignpostIntervalStartTime;
+- (int)ting(PHResourceChooserList *__strong _Nonnull, PLResourceChooserListDataSource);
 - (void)URL",&,N,V_attributionURL;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(nonatomic) int encapsulationStyle;
 @property(retain, nonatomic) SFImage *glyph;
-@property(nonatomic) _Bool isBold;
-@property(nonatomic) _Bool isEmphasized;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int textColor;
 @end
 

@@ -6,26 +6,18 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTRequestContentHeadGestureContent, IFTSchemaIFTRequestContentSpeechContent, IFTSchemaIFTRequestContentTextContent, IFTSchemaIFTRequestContentTouchContent, NSData;
+@class IFTSchemaIFTRequestContentTouchContent;
 
 @interface IFTSchemaIFTSystemPromptResolutionInput : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTRequestContentTouchContent *_touch;
-    IFTSchemaIFTRequestContentHeadGestureContent *_headGesture;
-    IFTSchemaIFTRequestContentTextContent *_text;
-    IFTSchemaIFTRequestContentSpeechContent *_speech;
-    _Bool _hasTouch;
-    _Bool _hasHeadGesture;
-    _Bool _hasText;
-    _Bool _hasSpeech;
-    unsigned long long _whichOneof_Systempromptresolutioninput;
 }
 
 - (unsigned long long);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)˿;
 - (void);
 - (id);
 - (_Bool);
@@ -38,34 +30,25 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)(!;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)	;
 - (id);
 - (id)
 × ;
 - (void)deleteTimeUntilFirstActivationInMs;
-- (void)ntityInUsingApp6Hrs;
+- (void)deleteTaskAbandonCountForEntityInUsingApp6Hrs;
 - (id)CNVFlowPluginExecutionStarted",&,N,V_startedOrChanged;
-- (id);
+- (id)FLOWLINKSchemaFLOWLINKClientEvent;
 - (_Bool);
 - (void)Æ°9#;
 - (id)êÂ$;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHeadGesture; // @synthesize hasHeadGesture=_hasHeadGesture;
-@property(nonatomic) _Bool hasSpeech; // @synthesize hasSpeech=_hasSpeech;
-@property(nonatomic) _Bool hasText; // @synthesize hasText=_hasText;
-@property(nonatomic) _Bool hasTouch; // @synthesize hasTouch=_hasTouch;
-@property(retain, nonatomic) IFTSchemaIFTRequestContentHeadGestureContent *headGesture; // @synthesize headGesture=_headGesture;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) IFTSchemaIFTRequestContentSpeechContent *speech; // @synthesize speech=_speech;
-@property(retain, nonatomic) IFTSchemaIFTRequestContentTextContent *text; // @synthesize text=_text;
 @property(retain, nonatomic) IFTSchemaIFTRequestContentTouchContent *touch; // @synthesize touch=_touch;
-@property(readonly, nonatomic) unsigned long long whichOneof_Systempromptresolutioninput; // @synthesize whichOneof_Systempromptresolutioninput=_whichOneof_Systempromptresolutioninput;
 
 @end
 

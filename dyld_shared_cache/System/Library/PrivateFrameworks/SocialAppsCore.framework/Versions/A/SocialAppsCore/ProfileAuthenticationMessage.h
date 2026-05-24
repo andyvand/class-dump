@@ -11,20 +11,17 @@
 @interface ProfileAuthenticationMessage : ProfileMessage
 {
     NSString *_username;
-    NSString *_password;
-    NSString *_responseProfileID;
-    NSString *_responseAuthToken;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)C;
 - (_Bool);
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)L&0;
 - (id);
 - (id);
 - (id);
@@ -32,13 +29,10 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)setAssistantNextButtonAction: /* Error: Ran out of types for this method. */;
 - (id);
 
 // Remaining properties
-@property(copy) NSString *password; // @synthesize password=_password;
-@property(copy) NSString *responseAuthorizationToken; // @synthesize responseAuthorizationToken=_responseAuthToken;
-@property(copy) NSString *responseProfileID; // @synthesize responseProfileID=_responseProfileID;
 @property(copy) NSString *username; // @synthesize username=_username;
 
 @end

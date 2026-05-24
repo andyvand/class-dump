@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface PGGraphAssetRevGeocodeEnrichmentProcessor
 {
     _Bool _requiresValidGraph;
-    NSArray *_homeLocations;
-    double _sumNumberOfAssetClustersPerMoment;
-    double _sumSquareNumberOfAssetClustersPerMoment;
-    double _sumNumberOfAssetsPerCluster;
-    double _sumSquareNumberOfAssetsPerCluster;
-    double _numberOfAssetClustersWithin10mOfCenter;
-    double _numberOfAssetClustersWithin20mOfCenter;
-    double _numberOfAssetClustersWithin50mOfCenter;
-    double _numberOfAssetClustersWithin100mOfCenter;
-    double _numberOfAssetClusters100mPlusFromCenter;
-    unsigned long long _numberOfMomentsRevGeocoded;
-    unsigned long long _numberOfAssetClustersRevGeocoded;
 }
 
 + (id);
@@ -28,19 +16,19 @@
 - (double);
 - (double);
 - (double);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (double);
-- (double);
-- (double);
-- (double);
-- (unsigned long long);
-- (double);
-- (void);
-- (void);
+- (void)menuBarController;
+- (void)indexOfElementInArray:(id)arg1 containingDescendant:(id)arg2;
+- (_Bool)currentToken;
+- (_Bool)canSetAXAttribute: /* Error: Ran out of types for this method. */;
+- (unsigned long long)B,N,V__didRegisterWindowDidResizeNotification;
+- (double)dealloc;
+- (double)currentPosition;
+- (double)tController",&,N,V_activeMenuController;
+- (double),N,V__elementController;
+- (unsigned long long)er;
+- (double)roller;
+- (void)AXForegroundColor;
+- (void)@;
 - (void);
 - (_Bool);
 - (void);
@@ -51,29 +39,7 @@
 	keyAsset:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain, nonatomic) NSArray *homeLocations; // @synthesize homeLocations=_homeLocations;
-@property(readonly, nonatomic) double numberOfAssetClusters100mPlusFromCenter; // @synthesize numberOfAssetClusters100mPlusFromCenter=_numberOfAssetClusters100mPlusFromCenter;
-@property(readonly, nonatomic) unsigned long long numberOfAssetClustersRevGeocoded; // @synthesize numberOfAssetClustersRevGeocoded=_numberOfAssetClustersRevGeocoded;
-@property(readonly, nonatomic) double numberOfAssetClustersWithin100mOfCenter; // @synthesize numberOfAssetClustersWithin100mOfCenter=_numberOfAssetClustersWithin100mOfCenter;
-@property(readonly, nonatomic) double numberOfAssetClustersWithin10mOfCenter; // @synthesize numberOfAssetClustersWithin10mOfCenter=_numberOfAssetClustersWithin10mOfCenter;
-@property(readonly, nonatomic) double numberOfAssetClustersWithin20mOfCenter; // @synthesize numberOfAssetClustersWithin20mOfCenter=_numberOfAssetClustersWithin20mOfCenter;
-@property(readonly, nonatomic) double numberOfAssetClustersWithin50mOfCenter; // @synthesize numberOfAssetClustersWithin50mOfCenter=_numberOfAssetClustersWithin50mOfCenter;
-@property(readonly, nonatomic) unsigned long long numberOfMomentsRevGeocoded; // @synthesize numberOfMomentsRevGeocoded=_numberOfMomentsRevGeocoded;
-@property(readonly, nonatomic) _Bool requiresValidGraph; // @synthesize requiresValidGraph=_requiresValidGraph;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N,V_requiresValidGraph
-
-@property(readonly, nonatomic) double sumNumberOfAssetClustersPerMoment; // @synthesize sumNumberOfAssetClustersPerMoment=_sumNumberOfAssetClustersPerMoment;
-@property(readonly, nonatomic) double sumNumberOfAssetsPerCluster; // @synthesize sumNumberOfAssetsPerCluster=_sumNumberOfAssetsPerCluster;
-@property(readonly, nonatomic) double sumSquareNumberOfAssetClustersPerMoment; // @synthesize sumSquareNumberOfAssetClustersPerMoment=_sumSquareNumberOfAssetClustersPerMoment;
-@property(readonly, nonatomic) double sumSquareNumberOfAssetsPerCluster; // @synthesize sumSquareNumberOfAssetsPerCluster=_sumSquareNumberOfAssetsPerCluster;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,42 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface CWFAssetPowerTable
 {
     unsigned long long numberOfCallsToCopyAsset;
-    unsigned long long numberOfTimesAssetExisted;
-    unsigned long long numberOfSuccessfullAssetCopy;
-    _Bool _allowTestingOnUnSupportedChipset;
-    NSString *_powerTableAPIMajorVersion;
 }
 
 + (_Bool);
-+ (id);
++ (id)T9;
 + (_Bool);
 + (_Bool);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool)ր;
 + (id);
 + (id);
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id)q;
++ (id)`";
 + (id);
 + (id);
 + (id);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -47,7 +41,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool allowTestingOnUnSupportedChipset; // @synthesize allowTestingOnUnSupportedChipset=_allowTestingOnUnSupportedChipset;
-@property(copy, nonatomic) NSString *powerTableAPIMajorVersion; // @synthesize powerTableAPIMajorVersion=_powerTableAPIMajorVersion;
 
 @end
 

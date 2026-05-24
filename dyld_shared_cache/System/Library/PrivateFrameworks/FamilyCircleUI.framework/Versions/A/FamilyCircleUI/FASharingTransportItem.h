@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImageView, NSSharingService, NSString, NSTextField;
+@class NSImageView;
 @protocol FASharingTransportItemDelegate;
 
 @interface FASharingTransportItem
 {
     id <FASharingTransportItemDelegate> _delegate;
-    _Bool _selected;
-    NSImageView *_imageView;
-    NSTextField *_transportTitle;
-    NSSharingService *_sharingService;
 }
 
 - (id);
@@ -21,26 +17,16 @@
 - (id);
 - (void);
 - (id);
-- (void)@X{;
+- (void)setBlacklistedCategories: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)H;
 - (void)oÀo;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) NSImageView *imageView; // @synthesize imageView=_imageView;
-@property(nonatomic, getter=isSelected) _Bool selected; // @synthesize selected=_selected;
-@property(readonly) NSSharingService *sharingService; // @synthesize sharingService=_sharingService;
-@property(readonly) Class superclass;
-@property(retain) NSTextField *transportTitle; // @synthesize transportTitle=_transportTitle;
 
 @end
 

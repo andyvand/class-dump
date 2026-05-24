@@ -7,17 +7,6 @@
 @interface AWDWiFiUSBEventNotification
 {
     unsigned long long _durationSinceUSBEventInSeconds;
-    unsigned int _usbAction;
-    unsigned int _usbTotal;
-    _Bool _isVendorApple;
-    _Bool _smartCCADesenseSupported;
-    struct {
-        unsigned int durationSinceUSBEventInSeconds:1;
-        unsigned int usbAction:1;
-        unsigned int usbTotal:1;
-        unsigned int isVendorApple:1;
-        unsigned int smartCCADesenseSupported:1;
-    } _has;
 }
 
 - (unsigned int);
@@ -25,11 +14,11 @@
 - (_Bool);
 - (void);
 - (void);
+- (void)*;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)M9;
 - (void);
 - (_Bool);
 - (_Bool);
@@ -40,8 +29,8 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
-- (void);
+- (id);
+- (void)*;
 - (void);
 - (unsigned long long);
 - (_Bool);
@@ -51,16 +40,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) unsigned long long durationSinceUSBEventInSeconds; // @synthesize durationSinceUSBEventInSeconds=_durationSinceUSBEventInSeconds;
-@property(nonatomic) _Bool hasDurationSinceUSBEventInSeconds;
-@property(nonatomic) _Bool hasIsVendorApple;
-@property(nonatomic) _Bool hasSmartCCADesenseSupported;
 @property(nonatomic) _Bool hasUsbAction;
-@property(nonatomic) _Bool hasUsbTotal;
-@property(nonatomic) _Bool isVendorApple; // @synthesize isVendorApple=_isVendorApple;
-@property(nonatomic) _Bool smartCCADesenseSupported; // @synthesize smartCCADesenseSupported=_smartCCADesenseSupported;
-@property(nonatomic) unsigned int usbAction; // @synthesize usbAction=_usbAction;
-@property(nonatomic) unsigned int usbTotal; // @synthesize usbTotal=_usbTotal;
 
 @end
 

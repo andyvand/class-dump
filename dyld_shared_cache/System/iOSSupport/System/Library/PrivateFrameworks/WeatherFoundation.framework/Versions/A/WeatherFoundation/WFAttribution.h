@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface WFAttribution
 {
@@ -15,12 +15,10 @@
 + (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)8{CGSize=dd}16q32@40;
+- (id)imationContext"8;
 
 // Remaining properties
-@property(readonly) NSString *localizedSourceAttribution;
-@property(readonly) NSURL *sourceAttributionURL;
 @property(readonly) NSString *sourceName;
 
 @end

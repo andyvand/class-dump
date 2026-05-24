@@ -9,23 +9,21 @@
 @interface TUCallRecordingRequest
 {
     NSUUID *_UUID;
-    NSUUID *_callUUID;
 }
 
 + (_Bool);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
+- (id)ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakPtr<WebKit::WebExtensionControllerProxy>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionControllerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)i;
 - (id);
 - (void);
-- (void)bjectProxy;
+- (id)&;
+- (id)?;
+- (void)iew"16@"NSIndexSet"24@"NSEvent"32;
+- (void)remoteObjectProxy;
 
 // Remaining properties
-@property(retain, nonatomic) NSUUID *UUID; // @synthesize UUID=_UUID;
 @property(retain, nonatomic) NSUUID *callUUID; // @synthesize callUUID=_callUUID;
 
 @end

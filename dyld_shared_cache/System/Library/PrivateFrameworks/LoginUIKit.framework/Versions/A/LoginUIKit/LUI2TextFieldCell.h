@@ -12,7 +12,7 @@
 - (id);
 - (id);
 - (long long);
-- (void)calShadow: /* Error: Ran out of types for this method. */;
+- (void)setDrawsRightVerticalShadow: /* Error: Ran out of types for this method. */;
 
 @end
 

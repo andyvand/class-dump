@@ -6,28 +6,22 @@
 
 #import <HomeKit/HMAccessoryProfile.h>
 
-@class HMCameraAudioControl, HMCameraClipManager, HMCameraIndexingManager, HMCameraRecordingEventManager, HMCameraRecordingReachabilityEventManager, HMCameraSettingsControl, HMCameraSnapshotControl, HMCameraStreamControl, HMCameraUserSettings, NSString, _HMCameraProfile;
-@protocol HMCameraProfileUserSettingsDelegate;
+@class HMCameraStreamControl, _HMCameraProfile;
 
 @interface HMCameraProfile : HMAccessoryProfile
 {
     HMCameraStreamControl *_streamControl;
-    HMCameraSnapshotControl *_snapshotControl;
-    HMCameraSettingsControl *_settingsControl;
-    HMCameraAudioControl *_speakerControl;
-    HMCameraAudioControl *_microphoneControl;
-    id <HMCameraProfileUserSettingsDelegate> _userSettingsDelegate;
 }
 
 + (id)79A86E;
 - (id);
 - (id);
-- (id);
+- (id)Ѵk8�;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)[;
+- (void)\;
 - (void);
 - (id);
 - (id);
@@ -41,29 +35,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)mergedModelFromBundles:forStoreMetadata: /* Error: Ran out of types for this method. */;
 - (void)p;
 
 // Remaining properties
 @property(readonly, nonatomic) _HMCameraProfile *cameraProfile;
-@property(readonly) HMCameraClipManager *clipManager;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) HMCameraIndexingManager *indexingManager;
-@property(retain, nonatomic) HMCameraAudioControl *microphoneControl; // @synthesize microphoneControl=_microphoneControl;
-@property(readonly) HMCameraRecordingReachabilityEventManager *reachabilityEventManager;
-@property(readonly) HMCameraRecordingEventManager *recordingEventManager;
-@property(retain, nonatomic) HMCameraSettingsControl *settingsControl; // @synthesize settingsControl=_settingsControl;
-@property(retain, nonatomic) HMCameraSnapshotControl *snapshotControl; // @synthesize snapshotControl=_snapshotControl;
-@property(retain, nonatomic) HMCameraAudioControl *speakerControl; // @synthesize speakerControl=_speakerControl;
-@property(retain, nonatomic) HMCameraStreamControl *streamControl; // @synthesize streamControl=_streamControl;
-@property(readonly) Class superclass;
-@property(readonly) HMCameraUserSettings *userSettings;
-@property __weak id <HMCameraProfileUserSettingsDelegate> userSettingsDelegate; // @synthesize userSettingsDelegate=_userSettingsDelegate;
 
 @end
 

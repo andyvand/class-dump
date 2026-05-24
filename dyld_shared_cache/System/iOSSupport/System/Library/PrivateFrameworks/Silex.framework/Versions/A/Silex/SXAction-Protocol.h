@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SXJSONDictionary;
+@class NSString;
 
 @protocol SXAction
 
 // Remaining properties
-@property(readonly, nonatomic) SXJSONDictionary *analytics;
 @property(readonly, nonatomic) NSString *type;
 @end
 

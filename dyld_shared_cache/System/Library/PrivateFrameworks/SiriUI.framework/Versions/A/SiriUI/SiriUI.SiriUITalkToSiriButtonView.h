@@ -9,9 +9,6 @@
 @interface SiriUI.SiriUITalkToSiriButtonView
 {
     void delegate;
-    id talkToSiriButtonView;
-    id talkingToSiriButtonView;
-    id viewModel;
 }
 
 - (void);

@@ -10,7 +10,6 @@
 @interface ABActionBeginChat
 {
     NSString *_actionProperty;
-    id <CNUIShareKitTransitionProvider> _transitionProvider;
 }
 
 - (id);
@@ -26,14 +25,6 @@
 - (id)=dd}{CGSize=dd}}24^{CGRect={CGPoint=dd}{CGSize=dd}}56;
 
 // Remaining properties
-@property(readonly) NSString *actionProperty;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @property(retain) id <CNUIShareKitTransitionProvider> transitionProvider; // @synthesize transitionProvider=_transitionProvider;
 
 @end

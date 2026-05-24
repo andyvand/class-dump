@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIColor;
+@class NSString;
 
 @interface PKMentionParticipant
 {
     NSString *_displayName;
-    NSString *_identifier;
-    UIColor *_color;
 }
 
 + (id);
@@ -23,9 +21,7 @@
 - (void)ì`ü;
 
 // Remaining properties
-@property(readonly, nonatomic) UIColor *color; // @synthesize color=_color;
 @property(readonly, nonatomic) NSString *displayName; // @synthesize displayName=_displayName;
-@property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 
 @end
 

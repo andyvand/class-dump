@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ICStoreArtworkInfo, ICStoreVideoArtworkInfo, NSString, NSURL;
-
 @interface MPStoreArtworkRequestToken
 {
     long long _artworkInfoType;
-    ICStoreArtworkInfo *_imageArtworkInfo;
-    ICStoreVideoArtworkInfo *_videoArtworkInfo;
-    NSString *_cropStyle;
-    NSString *_format;
-    NSString *_sourceEditorialArtworkKind;
-    NSURL *_artworkURL;
 }
 
 + (id);
@@ -27,36 +19,23 @@
 - (void);
 - (void);
 - (id);
-- (long long);
+- (long long)mdOrganizationIdentifier;
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)messageBatchRelativePaths;
+- (void)";
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)KEY;
+- (void)__editorNotes_KEY;
 - (void);
 
 // Remaining properties
 @property(nonatomic) long long artworkInfoType; // @synthesize artworkInfoType=_artworkInfoType;
-@property(copy, nonatomic) NSURL *artworkURL; // @synthesize artworkURL=_artworkURL;
-@property(copy, nonatomic) NSString *cropStyle; // @synthesize cropStyle=_cropStyle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSString *format; // @synthesize format=_format;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) ICStoreArtworkInfo *imageArtworkInfo; // @synthesize imageArtworkInfo=_imageArtworkInfo;
-@property(copy, nonatomic) NSString *sourceEditorialArtworkKind; // @synthesize sourceEditorialArtworkKind=_sourceEditorialArtworkKind;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) ICStoreVideoArtworkInfo *videoArtworkInfo; // @synthesize videoArtworkInfo=_videoArtworkInfo;
 
 @end
 

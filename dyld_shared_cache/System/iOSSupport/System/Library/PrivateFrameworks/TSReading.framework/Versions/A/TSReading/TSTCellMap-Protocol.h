@@ -5,6 +5,13 @@
 //
 
 @protocol TSTCellMap
+- (void)PCPlaybackRequestEnvironment * _Nullable __strong, NSNumber * _Nullable __strong, NSError * _Nullable __strong));
+- (void)ttonAction"8;
+- (void)%@;
+- (_Bool)ngs from application music player parameters;
+- (_Bool);
+- (_Bool)I;
+- (unsigned long long);
 
 // Remaining properties
 @property(nonatomic) _Bool appliesToHidden;

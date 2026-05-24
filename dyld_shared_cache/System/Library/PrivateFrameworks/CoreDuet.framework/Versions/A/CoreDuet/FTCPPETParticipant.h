@@ -7,26 +7,24 @@
 @interface FTCPPETParticipant
 {
     unsigned long long _hashedId;
-    _Bool _isContact;
 }
 
 - (void);
 - (void);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)!H;
 - (void);
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
-- (id);
+- (void)VATE_CACHE_HACK;
+- (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) unsigned long long hashedId; // @synthesize hashedId=_hashedId;
-@property(nonatomic) _Bool isContact; // @synthesize isContact=_isContact;
 
 @end
 

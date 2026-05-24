@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, NSString, PKStrokeSelection, UIBezierPath;
-@protocol PKSelectionRenderingDelegate;
+@class CAShapeLayer, PKStrokeSelection;
 
 @interface PKSelectionHighlightRenderer
 {
     CAShapeLayer *_highlightLayer;
-    UIBezierPath *_lassoPath;
-    PKStrokeSelection *_strokeSelection;
-    id <PKSelectionRenderingDelegate> _renderingDelegate;
 }
 
 - (void);
@@ -35,15 +31,7 @@
 - (void)belCenterYConstraint;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <PKSelectionRenderingDelegate> renderingDelegate; // @synthesize renderingDelegate=_renderingDelegate;
 @property(retain, nonatomic) PKStrokeSelection *strokeSelection; // @synthesize strokeSelection=_strokeSelection;
-@property(readonly) Class superclass;
 
 @end
 

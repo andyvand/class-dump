@@ -6,33 +6,31 @@
 
 #import <ClassKit/CLSObject.h>
 
-@class CLSActivityItem, NSArray, NSDate, NSString;
-
 @interface CLSActivity : CLSObject
 {
     _Bool _paused;
-    NSDate *_activityStartDate;
-    NSString *_primaryActivityItemIdentifier;
-    NSString *_parentEntityName;
-    _Bool _backgroundTimeTrackingEnabled;
-    long long _type;
 }
 
 + (id);
-+ (_Bool);
-- (_Bool);
-- (void);
-- (void);
-- (void);
-- (void);
-- (double);
-- (void);
++ (_Bool)_analyticsReporter;
+- (_Bool)erent program!! programHandle:(id)arg1 0x%llx, req->transactionID=0x%llx, reqCb->transactionID=0x%llx
+;
+- (void)AD_EXTENDED_POLICY,...) failed, err=%d
+;
+- (void)riority - thread_policy_set(...,THREAD_EXTENDED_POLICY,...) failed, err=%d
+;
+- (void)tMachThreadPriority - proc_pidinfo() failed
+;
+- (void)l. remaining:(_Bool)arg1 %d.
+;
+- (double)is powered up!;
+- (void)ndwidth: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
+- (id)S;
 - (id);
 - (_Bool);
 - (long long);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
@@ -44,8 +42,8 @@
 - (id);
 - (id);
 - (id);
-- (double);
-- (void);
+- (double)@;
+- (void)w;
 - (void);
 - (long long);
 - (void);
@@ -59,21 +57,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *additionalActivityItems;
-@property(nonatomic, getter=isBackgroudTimeTrackingEnabled) _Bool backgroundTimeTrackingEnabled; // @synthesize backgroundTimeTrackingEnabled=_backgroundTimeTrackingEnabled;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) double duration;
 @property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *parentEntityName; // @synthesize parentEntityName=_parentEntityName;
-@property(retain, nonatomic) CLSActivityItem *primaryActivityItem;
-@property(copy, nonatomic) NSString *primaryActivityItemIdentifier;
-@property(nonatomic) double progress;
-@property(readonly) Class superclass;
-@property(nonatomic) long long type; // @synthesize type=_type;
 
 @end
 

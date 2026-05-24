@@ -7,9 +7,6 @@
 @interface CalendarUIKit.TextEditingViewModel
 {
     id _text;
-    id labelText;
-    id imageName;
-    id isURL;
 }
 
 @end

@@ -4,90 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLatLng, GEOPDETAFilter, GEOPDPaginationParameters, GEOPDRecentRouteInfo, GEOPDResultRefinementQuery, GEOPDSSearchEvChargingParameters, GEOPDSSearchSessionData, GEOPDSSessionUserActionMetadata, GEOPDSearchEnrichmentRequestMetadata, GEOPDSearchOriginationInfo, GEOPDViewportInfo, NSData, NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDCategorySearchParameters
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    CDStruct_95bda58d _knownRefinementTypes;
-    CDStruct_95bda58d _supportedPlaceSummaryFormatTypes;
-    CDStruct_95bda58d _supportedRelatedEntitySectionTypes;
-    CDStruct_95bda58d _supportedSearchSectionTypes;
-    CDStruct_95bda58d _supportedSearchTierTypes;
-    NSString *_enrichmentCampaignNamespace;
-    GEOPDETAFilter *_etaFilter;
-    GEOPDSSearchEvChargingParameters *_evChargingParameters;
-    GEOPDPaginationParameters *_paginationParameters;
-    GEOPDViewportInfo *_previousSearchViewport;
-    GEOPDRecentRouteInfo *_recentRouteInfo;
-    GEOPDResultRefinementQuery *_resultRefinementQuery;
-    GEOPDSearchEnrichmentRequestMetadata *_searchEnrichmentRequestMetadata;
-    NSMutableArray *_searchEnrichmentRevisionMetadatas;
-    GEOLatLng *_searchLocation;
-    GEOPDSearchOriginationInfo *_searchOriginationInfo;
-    GEOPDSSearchSessionData *_searchSessionData;
-    GEOPDSSessionUserActionMetadata *_sessionUserActionMetadata;
-    NSData *_suggestionEntryMetadata;
-    GEOPDViewportInfo *_viewportInfo;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    unsigned int _auxiliaryTierNumResults;
-    unsigned int _blurredHourOfDay;
-    unsigned int _dayOfWeek;
-    unsigned int _maxResults;
-    int _placeSummaryRevision;
-    int _searchType;
-    _Bool _supportCategorySearchResultSection;
-    _Bool _supportSearchEnrichment;
-    _Bool _supportStructuredRapAffordance;
-    struct {
-        unsigned int has_auxiliaryTierNumResults:1;
-        unsigned int has_blurredHourOfDay:1;
-        unsigned int has_dayOfWeek:1;
-        unsigned int has_maxResults:1;
-        unsigned int has_placeSummaryRevision:1;
-        unsigned int has_searchType:1;
-        unsigned int has_supportCategorySearchResultSection:1;
-        unsigned int has_supportSearchEnrichment:1;
-        unsigned int has_supportStructuredRapAffordance:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_knownRefinementTypes:1;
-        unsigned int read_supportedPlaceSummaryFormatTypes:1;
-        unsigned int read_supportedRelatedEntitySectionTypes:1;
-        unsigned int read_supportedSearchSectionTypes:1;
-        unsigned int read_supportedSearchTierTypes:1;
-        unsigned int read_enrichmentCampaignNamespace:1;
-        unsigned int read_etaFilter:1;
-        unsigned int read_evChargingParameters:1;
-        unsigned int read_paginationParameters:1;
-        unsigned int read_previousSearchViewport:1;
-        unsigned int read_recentRouteInfo:1;
-        unsigned int read_resultRefinementQuery:1;
-        unsigned int read_searchEnrichmentRequestMetadata:1;
-        unsigned int read_searchEnrichmentRevisionMetadatas:1;
-        unsigned int read_searchLocation:1;
-        unsigned int read_searchOriginationInfo:1;
-        unsigned int read_searchSessionData:1;
-        unsigned int read_sessionUserActionMetadata:1;
-        unsigned int read_suggestionEntryMetadata:1;
-        unsigned int read_viewportInfo:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)hreshold;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)U;
 - (id)ds"b1"read_clientEventUuid"b1"read_createdAt"b1"read_details"b1"wrote_anyField"b1};
-- (id)raStyling;
+- (id)_cameraStyling;
 - (id)ì§O´ÀªÀO´ÀµÔO´ºèO´¸½üO´ÀP´È$P´É4P´tÉDP´àÉTP´ÈÊdP´4ËtP´ ËP´ÌP´xÌ¤P´äÌ´P´TÍÄP´ÀÍÔP´,ÎäP´ÎôP´ÏQ´pÏQ´ÜÏ$Q´HÐ4Q´ÒDQ´üÒTQ´hÓdQ´ÔÓtQ´@ÔQ´°ÔQ´ Õ¤Q´Õ´Q´üÕÄQ´hÖÔQ´ÔÖäQ´D×ôQ´´×R´ ØR´Ø$R´øØ4R´hÙDR´ÔÙTR´@ÚdR´°ÚtR´ÛR´ÛR´øÛ¤R´hÜ´R´ÔÜÄR´@ÝÔR´°ÝäR´ ÞôR´ÞS´üÞS´hß$S´Ôß4S´DàDS´°àTS´ádS´átS´øáS´dâS´Ôâ¤S´Dã´S´°ãÄS´äÔS´ääS´øäôS´håT´ÔåT´@æ$T´¬æ4T´çDT´çTT´øçdT´xètT´éT´|éT´ìé¤T´Xê´T´ÄêÄT´4ëÔT´ ëäT´ìôT´ìU´ðìU´`í$U´Ðí4U´<îDU´¨îTU´ïdU´ïtU´øïU´dðU´Ðð¤U´@ñ´U´°ñÄU´òÔU´òäU´ôòôU´dóV´ÔóV´@ô$V´¬ô4V´õDV´õTV´ôõdV´`ötV´ÌöV´8÷V´¨÷¤V´ø´V´øÄV´ìøÔV´XùäV´ÄùôV´0úW´úW´û$W´|û4W´èûDW´XüTW´ÈüdW´8ýtW´¤ýW´þW´þ¤W´ðþ´W´`ÿÄW´ÐÿÔW´<;
 - (void)÷ÿûÿøÿöÿõÿûÿöÿôÿîÿÿÿâÿÿÿþÿûÿüÿÿÿüÿþÿûÿýÿþÿûÿÿÿýÿüÿÿÿúÿþÿlÁlÁv?ðþñk{¿;
 

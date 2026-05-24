@@ -5,5 +5,9 @@
 //
 
 @protocol ASDTestFlightFeedbackServiceProtocol
+- (void)9JC;
+- (void)@;
+- (void);
+- (void);
 @end
 

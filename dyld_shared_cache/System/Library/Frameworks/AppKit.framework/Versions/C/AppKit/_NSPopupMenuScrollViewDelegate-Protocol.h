@@ -5,9 +5,12 @@
 //
 
 @protocol _NSPopupMenuScrollViewDelegate
+- (void);
+- (_Bool)ding;
+- (_Bool)om data %s %@ of length %llu
+;
 
 // Remaining properties
-@property(setter=setBottomScrollPositionIndicatorHidden:) _Bool isBottomScrollPositionIndicatorHidden;
 @property(setter=setTopScrollPositionIndicatorHidden:) _Bool isTopScrollPositionIndicatorHidden;
 @end
 

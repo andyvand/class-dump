@@ -12,11 +12,12 @@ __attribute__((visibility("hidden")))
     NSGradient *_gradient;
 }
 
-- (void);
+- (void)rsona"b1"wasOnScreenItemSelected"b1};
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)H'1A)
+;
+- (void)terface %@ (PID %i);
 - (void);
 
 // Remaining properties

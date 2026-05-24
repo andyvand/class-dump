@@ -4,38 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BMPBThirdPartyAppContentEvent
 {
     double _absoluteTimestamp;
-    NSString *_bundleId;
-    NSString *_comment;
-    NSString *_content;
-    NSString *_contentProtection;
-    NSString *_desc;
-    NSString *_domainId;
-    NSString *_personaId;
-    NSString *_title;
-    NSString *_uniqueId;
-    CDStruct_d3e759b0 _has;
 }
 
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (_Bool)oss"I}"connectionStats"{?="sequenceNumber"S"isDuplicatePacket"B"isReceivedOnPrimary"B"connectionStatsBuffer"I}"ecnStats"{tagVCStatisticsECNStats="ecnECT1Count"S"ecnCECount"S}"ecnRecvd"{tagVCStatisticsECNStats="ecnECT1Count"S"ecnCECount"S}"isECNEnabled"B"isOverRelay"B"remoteSSRC"I}"network"{?="packetLossPercentage"d"packetLossPercentageAudio"d"packetLossPercentageVideo"d"burstPacketLoss"I"roundTripTimeMilliseconds"I"isNetworkCongested"I"owrd"I"targetBitrate"I"statisticsID"Q"videoPacketsReceived"I}"probing"{?="estimatorID"I"deregisterEstimator"B"isProbingSequence"B"isEndOfProbingSequence"B"probingSequenceID"I"messageLength"I"arrivalTime"d"mediaTimestamp"I"isPacketReceivedValid"B"packetReceived"{?="packetType"i"packetId"I"sampleRate"I"totalPacketsReceived"I"totalReceivedKBytes"I"receiveTimestamp"d"owrd"d"targetJitterQueueSize"d"bandwidthEstimation"I"localBurstyLoss"I}}"serverStats"{?="linkID"C"sendTimestamp"I"receiveTimestamp"I"totalPacketSent"I"totalPacketReceived"I"totalByteSent"I"totalByteReceived"I"serverStatsByteUsed"I"bandwidthSample"I"bandwidthEstimation"I"roundTripTime"d"owrd"d"packetLossRate"d"packetLossRateShortWindow"d"actualBitrate"I"instantBitrate"I"serverStatsBitrate"I"expectedBitrate"I}"packetSent"{?="packetId"I"totalPacketsSent"I"totalBytesSent"I"sendTimestamp"d}"packetReceived"{?="packetType"i"packetId"I"sampleRate"I"totalPacketsReceived"I"totalReceivedKBytes"I"receiveTimestamp"d"owrd"d"targetJitterQueueSize"d"bandwidthEstimation"I"localBurstyLoss"I}"rtcpRR"{?="ssrc"I"packetLossPercentage"I"lastSequenceNumber"I"roundTripTimeMilliseconds"I}"config"{?="mode"I"remoteRadioAccessTechnology"I"localRadioAccessTechnology"I"maxBitrate"I"minBitrate"I"initialBitrate"I"isTrafficBursty"B"isTrafficSpatial"B"featureFlags"I"configType"i}"mediaEvent"{?="mediaEventType"I"additionalFlushCount"I"transactionID"I"audioStallBitrate"I"audioErasure"f"isKeyFrame"B"isTransitionToFEC"B"videoStallTimeDelta"d"videoStallTimeTotal"d"refreshFrameTimestamp"I"refreshFramePayloadType"I"refreshFramePacketCount"I"idsParticipantID"Q}"nwConnection"{?="version"C"direction"C"interfaceType"C"notificationType"C"timestamp"Q"maxThroughputBps"Q"totalByteCount"Q"flushableQueueSize"I"nonFlushableQueueSize"I"averageDelayMillisecond"I"averageThroughputBps"Q"rateTrendSuggestion"i"packetLossPerFrame"I"sequenceNumber"S""(?="wifi"{?="frequencyBand"C"intermittentState"C"estimatedIntermittentPeriod"S"singleOutagePeriod"S"btCoex"C"radioCoex"C"qualityScoreDelayRx"C"qualityScoreDelayTx"C"qualityScoreLossRx"C"qualityScoreLossTx"C"qualityScoreChannel"C"offChannelTimeRatio"f"detectedFrequentOffChannelActivity"B"wlanDutyCycle"S"wifiObservedTxBitrate"[6I]"maxRadioCoex"C"accumulatedOffChannelTime"q"maxSingleOutagePeriod"S"qualityScoreDelayRxAverage"f"qualityScoreDelayTxAverage"f"qualityScoreLossRxAverage"f"qualityScoreLossTxAverage"f"qualityScoreChannelAverage"f}"baseband"{?="radioAccessTechnology"C"referenceSignalLevel"s"signalLevel"s"signalQuality"c"uplinkBLER"C"downlinkBLER"C"bandwidthLimitationIndication"C"cdrxState"C"cdrxCycle"S"estimatedOutagePeriod"S"outageState"C})}"videoLossFeedback"{tagVCStatisticsVideoLossFeedback="frameRTPTimestamp"I"packetsReceived"S"frameSize"C"packetsLost"C}"localRCEvent"{tagVCStatisticsLocalRCEvent="recentSendTime"d"recentFeedbackTime"d"bytesInFlight"I}"receiveTimeReport"{tagVCStatisticsReceiveTimeReport="reportTimestamp"I"packetSendTimestamp"I"packetReceiveTimestamp"I"packetLength"S"packetSeqNumber"S"probingSequenceID"I"isProbingSequence"B"owrd"d"bandwidthEstimation"I"sendBitrate"I"receiveBitrate"I}"addRemoveEndPoint"{tagVCStatisticsAddRemoveEndPoint="remoteSSRC"I"isAdd"B})}];
+- (_Bool)tearDownImageRotationConverter;
+- (void)this method.;
+- (void)erIDS handleSecondaryConnectionRemoved];
 - (id);
 - (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void);;
+- (id)qH;
 - (double);
 - (unsigned long long);
 - (void);
@@ -46,7 +34,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)(;
 - (id);
 - (void);
 - (_Bool);
@@ -64,26 +52,7 @@
 - (void)ìí ¡¢£¤¥î§ï¨©;
 
 // Remaining properties
-@property(nonatomic) double absoluteTimestamp; // @synthesize absoluteTimestamp=_absoluteTimestamp;
-@property(retain, nonatomic) NSString *bundleId; // @synthesize bundleId=_bundleId;
-@property(retain, nonatomic) NSString *comment; // @synthesize comment=_comment;
-@property(retain, nonatomic) NSString *content; // @synthesize content=_content;
-@property(retain, nonatomic) NSString *contentProtection; // @synthesize contentProtection=_contentProtection;
-@property(retain, nonatomic) NSString *desc; // @synthesize desc=_desc;
-@property(retain, nonatomic) NSString *domainId; // @synthesize domainId=_domainId;
-@property(nonatomic) _Bool hasAbsoluteTimestamp;
-@property(readonly, nonatomic) _Bool hasBundleId;
-@property(readonly, nonatomic) _Bool hasComment;
-@property(readonly, nonatomic) _Bool hasContent;
-@property(readonly, nonatomic) _Bool hasContentProtection;
-@property(readonly, nonatomic) _Bool hasDesc;
-@property(readonly, nonatomic) _Bool hasDomainId;
-@property(readonly, nonatomic) _Bool hasPersonaId;
-@property(readonly, nonatomic) _Bool hasTitle;
 @property(readonly, nonatomic) _Bool hasUniqueId;
-@property(retain, nonatomic) NSString *personaId; // @synthesize personaId=_personaId;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
-@property(retain, nonatomic) NSString *uniqueId; // @synthesize uniqueId=_uniqueId;
 
 @end
 

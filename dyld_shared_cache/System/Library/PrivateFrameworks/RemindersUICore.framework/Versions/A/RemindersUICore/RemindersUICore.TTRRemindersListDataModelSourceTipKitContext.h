@@ -7,8 +7,6 @@
 @interface RemindersUICore.TTRRemindersListDataModelSourceTipKitContext
 {
     id thisListHasCompletedReminders;
-    id hasMoreThanFiveReminders;
-    id hasMoreThanThreeLists;
 }
 
 @end

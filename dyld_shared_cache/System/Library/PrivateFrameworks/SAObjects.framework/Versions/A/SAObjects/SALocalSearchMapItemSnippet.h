@@ -6,8 +6,6 @@
 
 #import <SAObjects/SAUISnippet.h>
 
-@class NSArray, NSNumber, NSString, SALocation;
-
 @interface SALocalSearchMapItemSnippet : SAUISnippet
 {
 }
@@ -33,13 +31,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool chainResultSet;
-@property(copy, nonatomic) NSArray *items;
-@property(copy, nonatomic) NSArray *providerCommand;
-@property(copy, nonatomic) NSNumber *regionOfInterestRadiusInMiles;
-@property(copy, nonatomic) NSString *responseViewId;
-@property(nonatomic) _Bool searchAlongRoute;
-@property(retain, nonatomic) SALocation *searchRegionCenter;
-@property(copy, nonatomic) NSNumber *userCurrentLocation;
 
 @end
 

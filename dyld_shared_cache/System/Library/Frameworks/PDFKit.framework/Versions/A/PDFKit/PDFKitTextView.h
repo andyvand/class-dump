@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PDFKitTextViewPrivate;
+@class PDFKitTextViewPrivate;
 
 __attribute__((visibility("hidden")))
 @interface PDFKitTextView
@@ -23,17 +23,17 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (_Bool)MDevice",&;
+- (void):(double)arg1 %@;
+- (void)profile settings from message:(id)arg1 %@ with payload:(CDUnknownBlockType)arg2 %@;
+- (id)SECURITY_FAILURE;
+- (id)HMEventTriggerActivationStateDisabled;
+- (id);
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (_Bool);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)<H;
 - (void);
 - (id);
 - (void);
@@ -42,13 +42,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

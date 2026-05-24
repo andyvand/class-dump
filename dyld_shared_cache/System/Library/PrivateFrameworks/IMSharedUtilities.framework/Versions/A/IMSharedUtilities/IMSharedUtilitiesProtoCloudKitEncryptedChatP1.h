@@ -7,11 +7,6 @@
 @interface IMSharedUtilitiesProtoCloudKitEncryptedChatP1
 {
     unsigned int _version;
-    _Bool _isRecovered;
-    struct {
-        unsigned int version:1;
-        unsigned int isRecovered:1;
-    } _has;
 }
 
 - (void);
@@ -20,23 +15,20 @@
 - (void);
 - (unsigned int);
 - (id);
-- (void);
-- (void);
-- (void);
+- (void)ge=},R,N,V_art;
+- (void)creation for eligibility response %@;
+- (void)supportsVirtualCardNumber;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsRecovered;
 @property(nonatomic) _Bool hasVersion;
-@property(nonatomic) _Bool isRecovered; // @synthesize isRecovered=_isRecovered;
-@property(nonatomic) unsigned int version; // @synthesize version=_version;
 
 @end
 

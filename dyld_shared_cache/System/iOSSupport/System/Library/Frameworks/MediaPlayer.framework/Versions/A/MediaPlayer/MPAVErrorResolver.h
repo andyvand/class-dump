@@ -14,7 +14,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)t interleaved;
 - (void)<OS_dispatch_queue>",R,N,V_cloudClientCallbackQueue;
 
 // Remaining properties

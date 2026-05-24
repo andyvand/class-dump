@@ -4,38 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSObject, _MXExtensionProvider;
+@class NSDictionary, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface _MXExtensionServiceCenter
 {
     NSObject<OS_dispatch_queue> *_extlock;
-    NSDictionary *_extensions;
-    NSDictionary *_mapsExtensions;
-    NSDictionary *_containingAppProxies;
-    _MXExtensionProvider *_extensionProvider;
 }
 
 - (void);
-- (void);
-- (void);
+- (void)16;
+- (void)cpuUsage;
+- (id)D;
+- (id)py;
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
 - (id);
 - (void);
 - (id);
-- (void)nce: /* Error: Ran out of types for this method. */;
+- (void);
+- (id)@%@|;
+- (void)shouldUseDarkAppearanceForAppearance: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *containingAppProxies;
-@property(readonly, nonatomic) __weak _MXExtensionProvider *extensionProvider; // @synthesize extensionProvider=_extensionProvider;
 @property(copy, nonatomic) NSDictionary *extensions;
-@property(copy, nonatomic) NSDictionary *mapsExtensions;
 
 @end
 

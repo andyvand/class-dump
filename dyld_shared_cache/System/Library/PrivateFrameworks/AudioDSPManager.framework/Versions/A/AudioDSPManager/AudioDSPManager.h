@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, RPBHost;
-
 __attribute__((visibility("hidden")))
 @interface AudioDSPManager
 {
     struct SystemConfiguration _config;
-    struct vector<DSPProcessor *__weak, std::allocator<DSPProcessor *__weak>> _processors;
-    RPBHost *_remoteProcessingBlockHost;
 }
 
 - (_Bool);
@@ -23,24 +19,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)#;
+- (id)`;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)\;
 - (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

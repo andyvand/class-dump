@@ -4,41 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOMapRegionE7, NSMutableArray, NSString, PBDataReader;
+@class NSString, PBDataReader;
 
 @interface GEOLPRRestrictionRegion
 {
     PBDataReader *_reader;
-    NSMutableArray *_convertRules;
-    NSMutableArray *_definedPlateTypes;
-    NSString *_identifier;
-    GEOMapRegionE7 *_mapRegion;
-    NSString *_name;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    struct {
-        unsigned int read_convertRules:1;
-        unsigned int read_definedPlateTypes:1;
-        unsigned int read_identifier:1;
-        unsigned int read_mapRegion:1;
-        unsigned int read_name:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
 + (Class);
-+ (_Bool)HasSeconds:(id)arg1;
++ (_Bool)setHasSeconds:(id)arg1;
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *convertRules;
-@property(retain, nonatomic) NSMutableArray *definedPlateTypes;
-@property(readonly, nonatomic) _Bool hasMapRegion;
-@property(readonly, nonatomic) _Bool hasName;
 @property(retain, nonatomic) NSString *identifier;
-@property(retain, nonatomic) GEOMapRegionE7 *mapRegion;
-@property(retain, nonatomic) NSString *name;
 
 @end
 

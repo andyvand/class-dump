@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBAirline, _INPBAirportGate, _INPBDateTimeRange;
+@class NSString, _INPBAirline;
 
 @protocol _INPBFlight
+- (void)h;
+- (void)s;
+- (void)ationEmailScopeViewController"16@"NSString"24B32;
+- (NSString *)setHeaderPaneContext: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBAirline *airline;
-@property(retain, nonatomic) _INPBAirportGate *arrivalAirportGate;
-@property(retain, nonatomic) _INPBDateTimeRange *boardingTime;
-@property(retain, nonatomic) _INPBAirportGate *departureAirportGate;
-@property(retain, nonatomic) _INPBDateTimeRange *flightDuration;
-@property(copy, nonatomic) NSString *flightNumber;
-@property(readonly, nonatomic) _Bool hasAirline;
-@property(readonly, nonatomic) _Bool hasArrivalAirportGate;
-@property(readonly, nonatomic) _Bool hasBoardingTime;
-@property(readonly, nonatomic) _Bool hasDepartureAirportGate;
-@property(readonly, nonatomic) _Bool hasFlightDuration;
-@property(readonly, nonatomic) _Bool hasFlightNumber;
 @end
 

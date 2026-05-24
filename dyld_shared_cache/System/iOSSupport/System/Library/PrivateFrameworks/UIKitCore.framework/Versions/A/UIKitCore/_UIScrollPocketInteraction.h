@@ -4,14 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSValue, UIScrollView, UIView, _UIScrollPocketCollectorInteraction;
+@class UIScrollView;
 
 @interface _UIScrollPocketInteraction
 {
     id implementation;
 }
 
-- (id);
+- (id)\;
 - (void);
 - (void);
 - (void);
@@ -26,8 +26,9 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
+- (id)setTitleOverride: /* Error: Ran out of types for this method. */;
+- (id)J@9
+!8;
 - (id)¨ÕèÕÖ;
 - (void); activation:(id)arg1 %ld) for %@ removedEngines=%@; addedEngines=%@;
 - (void);
@@ -41,16 +42,7 @@
 - (struct UIEdgeInsets);
 
 // Remaining properties
-@property(nonatomic) __weak _UIScrollPocketCollectorInteraction *_collectorInteraction;
-@property(nonatomic, retain) NSValue *_cornerRadii;
-@property(nonatomic) unsigned long long _edge;
-@property(nonatomic) struct UIEdgeInsets _insets;
-@property(nonatomic) struct CGRect _rect;
-@property(nonatomic) _Bool _requiresPocket;
 @property(nonatomic) __weak UIScrollView *_scrollView;
-@property(nonatomic) long long _style;
-@property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) UIView *view;
 
 @end
 

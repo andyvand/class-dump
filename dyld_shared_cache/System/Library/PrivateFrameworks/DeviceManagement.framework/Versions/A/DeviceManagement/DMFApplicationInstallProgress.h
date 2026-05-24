@@ -7,8 +7,6 @@
 @interface DMFApplicationInstallProgress
 {
     unsigned long long _state;
-    unsigned long long _phase;
-    double _fractionCompleted;
 }
 
 + (_Bool);
@@ -16,15 +14,14 @@
 - (unsigned long long);
 - (double);
 - (id);
-- (id);
-- (unsigned long long);
+- (id);
+- (unsigned long long)a
+;
 - (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) double fractionCompleted; // @synthesize fractionCompleted=_fractionCompleted;
-@property(readonly, nonatomic) unsigned long long phase; // @synthesize phase=_phase;
 @property(readonly, nonatomic) unsigned long long state; // @synthesize state=_state;
 
 @end

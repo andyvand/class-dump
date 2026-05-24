@@ -6,16 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface SISchemaAnyEvent : SISchemaInstrumentationMessage
 {
     int _anyEventType;
-    NSData *_payload;
-    struct {
-        unsigned int anyEventType:1;
-    } _has;
-    _Bool _hasPayload;
 }
 
 - (id);
@@ -23,33 +16,30 @@
 - (_Bool);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)View]|;
 - (void);
 - (id);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)te FROM chat_recoverable_message_join AS crmj JOIN chat AS c ON c.ROWID = crmj.chat_id AND c.guid = ? JOIN message AS m ON m.ROWID = crmj.message_id ORDER BY m.date DESC LIMIT 1 ;
 - (void);
 - (void);
 - (int);
 - (void);
 - (Class);
 - (id);
-- (id);
+- (id)ixelBuffer.
+;
 - (id)orsReported";
-- (_Bool)ullPayloadCorrectorOutput;
-- (id)eUnigramMatch;
-- (void)ed;
-- (id)onCount;
-- (void)ROUNDNOISEACTIVITYLEVEL_UNKNOWN;
-- (void)ETSchemaNETPathType;
+- (_Bool)deleteFullPayloadCorrectorOutput;
+- (id)countAttributeUnigramMatch;
+- (void)_hasEndpointDetected;
+- (id)_alternateQuerySuggestionCount;
+- (void)MHASVBACKGROUNDNOISEACTIVITYLEVEL_UNKNOWN;
+- (void)NETSchemaNETPathType;
 
 // Remaining properties
 @property(nonatomic) int anyEventType; // @synthesize anyEventType=_anyEventType;
-@property(nonatomic) _Bool hasAnyEventType;
-@property(nonatomic) _Bool hasPayload; // @synthesize hasPayload=_hasPayload;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSData *payload; // @synthesize payload=_payload;
 
 @end
 

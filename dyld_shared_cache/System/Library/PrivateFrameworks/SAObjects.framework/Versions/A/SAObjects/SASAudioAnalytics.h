@@ -6,25 +6,17 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface SASAudioAnalytics : AceObject
 {
 }
 
-+ (id);
++ (id);
 + (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSDictionary *acousticFeatures;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSDictionary *speechRecognitionFeatures;
-@property(readonly) Class superclass;
 
 @end
 

@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKDAssetTokenRequest, CKDAssetZone, NSArray, NSData, NSDictionary;
+@class NSArray;
 
 @interface CKDAssetBatch
 {
     _Bool _isFailed;
-    _Bool _useMMCSEncryptionV2;
-    NSArray *_assetRecords;
-    CKDAssetZone *_assetZone;
-    NSData *_authPutRequest;
-    NSData *_authPutResponse;
-    NSDictionary *_authPutResponseHeaders;
-    CKDAssetTokenRequest *_assetTokenRequest;
 }
 
 - (void);
@@ -28,22 +21,22 @@
 - (id);
 - (id);
 - (void);
-- (unsigned int);
-- (id);
+- (unsigned int)initWithInterfaceName:andCapabilities:onQueue: /* Error: Ran out of types for this method. */;
+- (id)_isWork;
 - (_Bool);
 - (void);
 - (unsigned int);
-- (_Bool);
+- (_Bool)RequestCountForRemoteContentLinks:updateLastSeen:] /* Error: Ran out of types for this method. */;
 - (id);
 - (_Bool);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id)obileGestalt.AllowedProtectedKeys / UniqueDeviceID).;
 - (void);
-- (_Bool);
+- (_Bool)Store;
 - (id);
-- (void)ithBlock:(id)arg1;
+- (void)performFetchWebAuthTokenOperation:(id)arg1 withBlock: /* Error: Ran out of types for this method. */;
 - (_Bool).0f;
 - (void)%@;
 - (id);
@@ -52,20 +45,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *allMMCSItems;
-@property(readonly, nonatomic) NSArray *allMMCSSectionItems;
-@property(readonly, nonatomic) NSArray *allRegularAndSectionAndRereferenceItems;
-@property(readonly, nonatomic) NSArray *allRereferenceMMCSPackageItems;
 @property(readonly, nonatomic) NSArray *assetRecords; // @synthesize assetRecords=_assetRecords;
-@property(nonatomic) __weak CKDAssetTokenRequest *assetTokenRequest; // @synthesize assetTokenRequest=_assetTokenRequest;
-@property(readonly, nonatomic) CKDAssetZone *assetZone; // @synthesize assetZone=_assetZone;
-@property(retain, nonatomic) NSData *authPutRequest; // @synthesize authPutRequest=_authPutRequest;
-@property(retain, nonatomic) NSData *authPutResponse; // @synthesize authPutResponse=_authPutResponse;
-@property(retain, nonatomic) NSDictionary *authPutResponseHeaders; // @synthesize authPutResponseHeaders=_authPutResponseHeaders;
-@property(nonatomic) _Bool isFailed; // @synthesize isFailed=_isFailed;
-@property(readonly) unsigned int size;
-@property(readonly) unsigned int sizeUpperBound;
-@property(nonatomic) _Bool useMMCSEncryptionV2; // @synthesize useMMCSEncryptionV2=_useMMCSEncryptionV2;
 
 @end
 

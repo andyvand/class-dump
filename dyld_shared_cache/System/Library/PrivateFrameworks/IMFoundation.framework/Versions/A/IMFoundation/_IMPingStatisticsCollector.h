@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMPingStatistics, NSMutableArray, NSMutableString, _IMPingPacketData;
+@class _IMPingPacketData;
 
 @interface _IMPingStatisticsCollector
 {
     _IMPingPacketData *_timestampArray[160];
-    NSMutableArray *_roundTriptimes;
-    NSMutableString *_stringToWriteToFile;
-    IMPingStatistics *_stats;
 }
 
 - (void);

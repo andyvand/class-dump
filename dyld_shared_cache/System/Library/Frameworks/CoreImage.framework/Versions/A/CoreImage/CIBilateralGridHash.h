@@ -8,32 +8,6 @@ __attribute__((visibility("hidden")))
 @interface CIBilateralGridHash
 {
     int _n_dims;
-    int _width;
-    int _height;
-    int _sigma_s;
-    int _sigma_r_luma;
-    int _sigma_r_chroma;
-    unsigned long long _max_hash_table_size;
-    unsigned int _hash_table_size;
-    struct BGHashMapContext *_hash_map;
-    struct {
-        union {
-            unsigned long long _field1;
-            unsigned char _field2[8];
-        } _field1;
-        unsigned int _field2;
-        unsigned int _field3;
-        unsigned int _field4;
-        unsigned int _field5;
-    } *_hash_table;
-    unsigned int *_hash_matrix_data;
-    unsigned int *_blur_indices;
-    unsigned int *_coord_indices;
-    unsigned int *_coord_table;
-    unsigned int *_coord_indices_off;
-    unsigned int *_interp_indices;
-    unsigned int *_interp_table;
-    char *_interp_pad;
 }
 
 - (void);
@@ -45,13 +19,13 @@ __attribute__((visibility("hidden")))
 - (int);
 - (void);
 - (const unsigned int *);
-- (const char *);
+- (const char *){;
 - (const unsigned int *);
-- (id);
+- (id);
 - (const void *);
 - (const unsigned int *);
 - (int);
-- (int);
+- (int);
 - (int);
 - (const unsigned int *);
 - (const unsigned int *);
@@ -65,11 +39,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (int);
+- (int)ߗ;
 - (int);
 - (int);
 - (void);
-- (void);
+- (void);
 - (void);
 - (int);
 - (int);

@@ -5,5 +5,11 @@
 //
 
 @protocol SFCollaborationService
+
+@optional
+- (void);
+- (void);
+- (void);
+- (void)C;
 @end
 

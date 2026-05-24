@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class HMDDevice;
+
 @protocol HMDPrimaryResidentChangeMonitorDataSource
+- (_Bool)ary"32@"NSString"40@"IDSMessageContext"48;
+- (HMDDevice *)}@] removeParticipant %{private}@ from %{public}@/%{public}@;
 @end
 

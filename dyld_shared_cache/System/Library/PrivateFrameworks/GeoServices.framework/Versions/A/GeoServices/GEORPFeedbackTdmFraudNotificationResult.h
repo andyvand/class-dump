@@ -11,9 +11,9 @@
     PBUnknownFields *_unknownFields;
 }
 
-+ (_Bool)eInfos:(id)arg1;
++ (_Bool)setLaneChangeInfos:(id)arg1;
 - (void);
-- (id);
+- (id)a;
 - (id);
 - (void);
 - (void);
@@ -24,9 +24,9 @@
 - (_Bool);
 - (void);
 - (id)PDResultRefinementMetadataSort";
-- (id)sPortalBaseURL;
+- (id)businessPortalBaseURL;
 - (id)\ATBÈDÌF`H;
-- (id)IASED_DIRECTIONS_TO_POI;
+- (id)BIASED_DIRECTIONS_TO_POI;
 - (void);
 
 // Remaining properties

@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface WFBlacklistStateNode
 {
     unsigned long long _blacklistedState;
-    NSString *_blacklistedStateString;
-    double _blacklistedStateTimestamp;
-    unsigned long long _blacklistedReason;
-    long long _blacklistedReasonData;
-    NSString *_blacklistedReasonString;
 }
 
 - (void);
@@ -26,19 +19,14 @@
 - (unsigned long long);
 - (id);
 - (long long);
-- (void);
+- (void)'6;
 - (unsigned long long);
 - (id);
 - (void)afÐ!ôDù1¥1Â0@ù
 × ;
 
 // Remaining properties
-@property unsigned long long blacklistedReason; // @synthesize blacklistedReason=_blacklistedReason;
-@property long long blacklistedReasonData; // @synthesize blacklistedReasonData=_blacklistedReasonData;
-@property(copy) NSString *blacklistedReasonString; // @synthesize blacklistedReasonString=_blacklistedReasonString;
 @property unsigned long long blacklistedState; // @synthesize blacklistedState=_blacklistedState;
-@property(copy) NSString *blacklistedStateString; // @synthesize blacklistedStateString=_blacklistedStateString;
-@property double blacklistedStateTimestamp; // @synthesize blacklistedStateTimestamp=_blacklistedStateTimestamp;
 
 @end
 

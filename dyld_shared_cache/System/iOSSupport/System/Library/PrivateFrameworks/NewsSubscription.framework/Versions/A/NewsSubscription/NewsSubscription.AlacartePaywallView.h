@@ -7,15 +7,9 @@
 @interface NewsSubscription.AlacartePaywallView
 {
     id contentView;
-    id gradientMaskView;
-    id titleTextView;
-    id descriptionTextView;
-    id subscribeButton;
-    id webAuthButton;
-    id bottomHairline;
 }
 
-- (id);
+- (id)@;
 - (id);
 - (void);
 

@@ -6,45 +6,38 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ORCHSchemaORCHClientEventMetadata : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_requestId;
-    NSString *_resultCandidateId;
-    _Bool _hasRequestId;
-    _Bool _hasResultCandidateId;
 }
 
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)3;
 - (id);
-- (void);
+- (void)eetModalForWindow:(_Bool)arg1 completionHandler:helpHandler:]_block_invoke /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (id);
 - (id);
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)dding predicate for type %@;
 - (_Bool);
 - (id);
 - (id)ar°!¬DùÞÐ1Â0@ù
 × ;
-- (id)monAudioLateBufferDetected;
+- (id)_assistantDaemonAudioLateBufferDetected;
 - (id)V_turnCounts;
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) _Bool hasRequestId; // @synthesize hasRequestId=_hasRequestId;
-@property(nonatomic) _Bool hasResultCandidateId; // @synthesize hasResultCandidateId=_hasResultCandidateId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *requestId; // @synthesize requestId=_requestId;
-@property(copy, nonatomic) NSString *resultCandidateId; // @synthesize resultCandidateId=_resultCandidateId;
 
 @end
 

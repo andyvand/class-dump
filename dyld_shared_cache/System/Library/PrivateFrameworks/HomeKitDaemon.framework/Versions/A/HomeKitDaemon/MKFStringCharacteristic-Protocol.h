@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKFStringCharacteristicDatabaseID, NSNumber;
+@class NSNumber;
 @protocol MKFHome;
 
 @protocol MKFStringCharacteristic
@@ -12,8 +12,6 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) MKFStringCharacteristicDatabaseID *databaseID;
-@property(readonly) id <MKFHome> home;
 @property(copy, nonatomic) NSNumber *maximumLength;
 @end
 

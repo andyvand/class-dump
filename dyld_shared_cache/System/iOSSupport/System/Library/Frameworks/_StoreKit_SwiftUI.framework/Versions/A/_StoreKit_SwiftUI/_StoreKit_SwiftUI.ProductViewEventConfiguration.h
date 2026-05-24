@@ -8,24 +8,6 @@
 {
     id appearTimestamp;
     id appliesSubscriptionOffer;
-    id disappearTimestamp;
-    id displaysPromotionalIcon;
-    id productID;
-    id environment;
-    id descriptionHidden;
-    id initializer;
-    id style;
-    id usesCustomPlaceholder;
-    id usesIcon;
-    id usesInAppPurchaseCompletion;
-    id usesInAppPurchaseOptions;
-    id usesInAppPurchaseStart;
-    id prefersPromotionalIcon;
-    id productType;
-    id purchaseResult;
-    id purchaseTimestamp;
-    id didSendAppearEvent;
-    id isEmbeddedInStoreView;
 }
 
 @end

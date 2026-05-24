@@ -5,5 +5,9 @@
 //
 
 @protocol PLSyncableAsset
+- (id);
+- (id);
+- (id)k!;
+- (id)d;
 @end
 

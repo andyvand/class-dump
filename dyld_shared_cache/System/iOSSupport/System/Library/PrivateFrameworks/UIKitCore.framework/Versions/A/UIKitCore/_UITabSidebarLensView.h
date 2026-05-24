@@ -6,7 +6,7 @@
 
 #import <UIKitCore/UIView.h>
 
-@class UIColor, _UILiquidLensView;
+@class _UILiquidLensView;
 
 __attribute__((visibility("hidden")))
 @interface _UITabSidebarLensView : UIView
@@ -18,23 +18,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (_Bool);
+- (void)ptasksUpdatedDarwinNotifySubscription;
+- (void)markReadForMessageGUID:callerOrigin:queryID: /* Error: Ran out of types for this method. */;
+- (_Bool)deleteAttachmentCKOperationUsingRecordIDstoDelete: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void);
 - (_Bool)0@ù
 × ;
-- (id)ect:(struct CGRect)arg1 withFont:lineBreakMode:alignment:lineSpacing: /* Error: Ran out of types for this method. */;
+- (id)_legacy_drawInRect:(struct CGRect)arg1 withFont:lineBreakMode:alignment:lineSpacing: /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isActive) _Bool active; // @synthesize active=_active;
-@property(retain, nonatomic) UIColor *controlBackgroundColor;
 @property(readonly, nonatomic) _UILiquidLensView *lensView; // @synthesize lensView=_lensView;
-@property(nonatomic) __weak UIView *liftedContainerView;
 
 @end
 

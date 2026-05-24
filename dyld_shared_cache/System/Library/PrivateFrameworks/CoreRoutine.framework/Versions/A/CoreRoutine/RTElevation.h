@@ -9,10 +9,6 @@
 @interface RTElevation
 {
     NSDate *_startDate;
-    NSDate *_endDate;
-    double _elevation;
-    double _elevationUncertainty;
-    long long _estimationStatus;
 }
 
 @end

@@ -7,10 +7,6 @@
 @interface Speech.LanguageDetector
 {
     id clientInfo;
-    id detectorOptions;
-    id _results;
-    id resultsBuilder;
-    id _workerWithLocked;
 }
 
 @end

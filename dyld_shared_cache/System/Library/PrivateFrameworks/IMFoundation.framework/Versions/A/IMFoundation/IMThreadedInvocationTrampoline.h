@@ -11,7 +11,6 @@
 @interface IMThreadedInvocationTrampoline : IMInvocationTrampoline
 {
     NSThread *_thread;
-    _Bool _immediateForMatchingThread;
 }
 
 - (id);

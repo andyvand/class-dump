@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBReferentialCommand;
+@class _SFPBReferentialCommand;
 
 @interface _SFPBCommandValue
 {
@@ -18,22 +18,14 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
+- (id)isLoopingLivePhoto;
+- (id)requesting original video;
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void)n: /* Error: Ran out of types for this method. */;
+- (void)setFlightCardSection: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) _SFPBReferentialCommand *referentialCommand; // @synthesize referentialCommand=_referentialCommand;
-@property(readonly) Class superclass;
 
 @end
 

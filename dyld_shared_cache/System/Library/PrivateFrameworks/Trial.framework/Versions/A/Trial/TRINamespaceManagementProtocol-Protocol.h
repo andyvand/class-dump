@@ -4,6 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 @protocol TRINamespaceManagementProtocol
+- (_Bool);
+- (_Bool);
+- (_Bool)options:(NSArray *)arg1 %@;
 @end
 

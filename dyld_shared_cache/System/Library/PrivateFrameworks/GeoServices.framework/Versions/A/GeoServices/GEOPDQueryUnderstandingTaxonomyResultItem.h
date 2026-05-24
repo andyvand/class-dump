@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOPDQueryUnderstandingTaxonomyResultItemBrand, GEOPDQueryUnderstandingTaxonomyResultItemCategory, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDQueryUnderstandingTaxonomyResultItem
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    GEOPDQueryUnderstandingTaxonomyResultItemBrand *_brand;
-    GEOPDQueryUnderstandingTaxonomyResultItemCategory *_category;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _type;
-    struct {
-        unsigned int has_type:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_brand:1;
-        unsigned int read_category:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 - (id);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)_siriLanguageCode;
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)"longitude"d}"span"{?="latitudeDelta"d"longitudeDelta"d}};
-- (id)e:routeCoordinate:previousMatchGood: /* Error: Ran out of types for this method. */;
+- (id)_maxMatchDistance:routeCoordinate:previousMatchGood: /* Error: Ran out of types for this method. */;
 - (id)lÈ$ÉxÉ´ÊøÊ$ÌhÌÍ|Î8ÏpÐ;
 - (void)kaÚ9F@;
 

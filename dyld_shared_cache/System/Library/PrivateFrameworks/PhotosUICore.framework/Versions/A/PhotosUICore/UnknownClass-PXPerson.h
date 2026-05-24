@@ -4,11 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSString;
-
 @interface UnknownClass (PXPerson)
 + (void);
-- (int);
+- (int);
 - (id);
 - (id);
 - (id);
@@ -19,29 +17,9 @@
 - (short);
 - (_Bool);
 - (unsigned long long);
-- (id);
+- (id)@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) short detectionType;
-@property(readonly) unsigned long long hash;
-@property(readonly) _Bool isPersonModel;
-@property(readonly) _Bool isVerified;
-@property(readonly) NSString *name;
 @property(readonly) long long numberOfAssets;
-@property(readonly) _Bool px_isHuman;
-@property(readonly) _Bool px_isPet;
-@property(readonly) NSDate *px_keyPhotoDate;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSDate",?,R
-
-@property(readonly) NSString *px_localIdentifier;
-@property(readonly) NSString *px_localizedName;
-@property(readonly) NSString *px_longStyleLocalizedName;
-@property(readonly) Class superclass;
 @end
 

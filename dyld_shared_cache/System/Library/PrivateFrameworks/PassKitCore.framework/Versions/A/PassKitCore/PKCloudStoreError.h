@@ -28,8 +28,8 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (long long);
+- (id)p;
+- (long long)3;
 - (id);
 - (id);
 - (id);

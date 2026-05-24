@@ -6,13 +6,9 @@
 
 #import <AccessibilityFoundation/AXFMockUIElement.h>
 
-@protocol AXFStageManagerWindowDataSource, AXFStageManagerWindowDelegate;
-
 @interface AXFStageManagerWindowUIElement : AXFMockUIElement
 {
     unsigned int _windowID;
-    id <AXFStageManagerWindowDataSource> _dataSource;
-    id <AXFStageManagerWindowDelegate> _delegate;
 }
 
 - (_Bool);
@@ -22,18 +18,16 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)B,D,N;
 - (id);
 - (_Bool);
 - (unsigned int);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)GKSRelayParameter_PeerRelayPort;
 
 // Remaining properties
-@property(nonatomic) __weak id <AXFStageManagerWindowDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(nonatomic) __weak id <AXFStageManagerWindowDelegate> delegate; // @synthesize delegate=_delegate;
 @property(nonatomic) unsigned int windowID; // @synthesize windowID=_windowID;
 
 @end

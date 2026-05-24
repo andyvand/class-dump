@@ -5,5 +5,7 @@
 //
 
 @protocol TSPresentable
+- (void);
+- (void)f;
 @end
 

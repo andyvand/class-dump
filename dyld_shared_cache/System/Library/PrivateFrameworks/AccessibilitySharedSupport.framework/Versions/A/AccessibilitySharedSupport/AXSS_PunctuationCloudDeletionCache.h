@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface AXSS_PunctuationCloudDeletionCache
 {
 }
 
-+ (id);
++ (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *entityType; // @dynamic entityType;
-@property(copy, nonatomic) NSUUID *uuid; // @dynamic uuid;
 
 @end
 

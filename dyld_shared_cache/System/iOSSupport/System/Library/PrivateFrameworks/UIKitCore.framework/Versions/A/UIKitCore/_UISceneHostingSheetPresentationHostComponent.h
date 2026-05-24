@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, UIViewController, _UISheetPresentationControllerConfiguration;
-@protocol _UIRemoteSheet_Internal;
+@class UIViewController;
 
 __attribute__((visibility("hidden")))
 @interface _UISceneHostingSheetPresentationHostComponent
@@ -15,17 +14,17 @@ __attribute__((visibility("hidden")))
 }
 
 - (id);
-- (void);
+- (void)8;
+- (_Bool)downloadFileTransferWithLocalURL: /* Error: Ran out of types for this method. */;
+- (id)_numberOfBatchesOfMessagesToFetchInInitialSync;
+- (void)orEnablement;
+- (void)eRequest;
+- (id)ress;
+- (void)sendDeliveryReceiptIfRequested:(_Bool)arg1;
+- (void)hasDataDetectedInformalPayment:(id)arg1;
+- (void)@"<IMDaemonListenerRemoteIntentProtocol>",N,R;
 - (_Bool);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
+- (void)ent share:%{public}@ /* Error: Ran out of types for this method. */;
 - (id)
 × ;
 - (id)gð1Â0@ù
@@ -34,24 +33,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <_UIRemoteSheet_Internal> _containedRemoteSheet;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<_UIRemoteSheet_Internal>",?,R,N
-
-@property(readonly, nonatomic) _Bool _remoteSheetAllowsConnection;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(retain, nonatomic, setter=_setSheetConfiguration:) _UISheetPresentationControllerConfiguration *_sheetConfiguration;
 @property(nonatomic, setter=_setTargetViewController:) __weak UIViewController *_targetViewController; // @synthesize _targetViewController;
-@property(nonatomic, setter=_setViewClipsToBounds:) _Bool _viewClipsToBounds;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

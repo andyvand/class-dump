@@ -9,12 +9,11 @@
 @interface EKUIGadgetContainerView
 {
     NSTrackingArea *_trackingArea;
-    EKUIGadgetContainer *_container;
 }
 
-- (void);
-- (_Bool);
-- (_Bool);
+- (void);
+- (_Bool)(;
+- (_Bool)I;
 - (void);
 - (void);
 - (_Bool);
@@ -24,9 +23,9 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (void);
-- (void)FontSize;
+- (_Bool)!;
+- (void)O	;
+- (void)dotIconTextDifferencesForFontSize;
 - (void)hment because either the attachment has not been committed or localURL already exists (File already downloaded). isNew:(id)arg1 %d, localURL:%@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties

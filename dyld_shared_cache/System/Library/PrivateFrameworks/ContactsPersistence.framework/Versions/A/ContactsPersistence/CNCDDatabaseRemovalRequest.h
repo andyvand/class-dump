@@ -15,14 +15,14 @@
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)aryStorage.m;
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void)@;
+- (id)componentsWithURL:(id)arg1 resolvingAgainstBaseURL: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)arentGroups, $rmo, ($rmo.uniqueId == %@)).@count != 0;
 - (void);
 
 // Remaining properties

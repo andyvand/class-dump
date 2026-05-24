@@ -10,42 +10,9 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 
 #pragma mark Named Structures
 
-struct AdaptationDatabaseController;
-
 struct _NSRange {
-    unsigned long long location;
-    unsigned long long length;
-};
-
-struct basic_string<char, std::char_traits<char>, std::allocator<char>> {
-    struct {
-        union __rep {
-            struct __short {
-                char __data_[23];
-                unsigned int __size_:7;
-                unsigned int __is_long_:1;
-            } __s;
-            struct __long {
-                char *__data_;
-                unsigned long long __size_;
-                unsigned int __cap_:63;
-                unsigned int __is_long_:1;
-            } __l;
-        } __rep_;
-    } ;
-};
-
-struct mutex {
-    struct _opaque_pthread_mutex_t {
-        long long __sig;
-        char __opaque[56];
-    } __m_;
-};
-
-struct unique_ptr<CEM::AdaptationDatabaseController, std::default_delete<CEM::AdaptationDatabaseController>> {
-    struct {
-        struct AdaptationDatabaseController *__ptr_;
-    } ;
+    unsigned long long _field1;
+    unsigned long long _field2;
 };
 
 struct unique_ptr<trie::MarisaTrie<unsigned short, char16_t>, std::default_delete<trie::MarisaTrie<unsigned short, char16_t>>> {

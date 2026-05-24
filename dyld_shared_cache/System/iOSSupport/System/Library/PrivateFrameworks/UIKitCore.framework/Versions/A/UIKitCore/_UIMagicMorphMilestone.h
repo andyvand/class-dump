@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _UIMagicMorphMilestone
 {
     id property;
-    id comparisonResult;
-    double value;
-    void action;
 }
 
 - (id);

@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSNumber, NSString;
-
 @interface TBJoinAnalyticsEvent
 {
     unsigned long long _type;
-    unsigned long long _source;
-    unsigned long long _action;
-    NSString *_bssid;
-    NSNumber *_latitude;
-    NSNumber *_longitude;
-    NSNumber *_score;
-    NSNumber *_visibleDuration;
 }
 
 + (id);
@@ -29,11 +20,12 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id)oTimer (Rate = %3.2lf, PlaybackState = %s)
+;
 - (id);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void)1¥°1Â0@ù
@@ -42,23 +34,7 @@
 - (id)elevantNetworks:] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic) unsigned long long action; // @synthesize action=_action;
-@property(copy, nonatomic) NSString *bssid; // @synthesize bssid=_bssid;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *eventDictionary;
-@property(readonly, nonatomic) NSString *eventName;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSNumber *latitude; // @synthesize latitude=_latitude;
-@property(retain, nonatomic) NSNumber *longitude; // @synthesize longitude=_longitude;
-@property(retain, nonatomic) NSNumber *score; // @synthesize score=_score;
-@property(nonatomic) unsigned long long source; // @synthesize source=_source;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
-@property(nonatomic) NSNumber *visibleDuration; // @synthesize visibleDuration=_visibleDuration;
 
 @end
 

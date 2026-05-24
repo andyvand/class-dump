@@ -5,5 +5,7 @@
 //
 
 @protocol IMFileCopierDelegate
+- (void)kRTPersistenceDeviceIdentityChanged;
+- (void)or identifier is nil.;
 @end
 

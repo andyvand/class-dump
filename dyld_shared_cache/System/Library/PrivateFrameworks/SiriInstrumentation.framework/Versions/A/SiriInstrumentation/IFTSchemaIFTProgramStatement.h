@@ -6,20 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class IFTSchemaIFTASTFlatExpr, IFTSchemaIFTExpression, IFTSchemaIFTStatementId, NSData;
+@class IFTSchemaIFTStatementId;
 
 @interface IFTSchemaIFTProgramStatement : SISchemaInstrumentationMessage
 {
     IFTSchemaIFTStatementId *_statementId;
-    IFTSchemaIFTASTFlatExpr *_expression;
-    IFTSchemaIFTExpression *_expressionName;
-    _Bool _isRoot;
-    struct {
-        unsigned int isRoot:1;
-    } _has;
-    _Bool _hasStatementId;
-    _Bool _hasExpression;
-    _Bool _hasExpressionName;
 }
 
 - (id);
@@ -30,7 +21,7 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
@@ -46,24 +37,16 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id)!ÐEùQà°1Â0@ù
 × ;
 - (id)eplayTaskStarted",&,N,V_startedOrChanged;
-- (id)SRUtterance;
+- (id)ASRSchemaASRUtterance;
 - (id)<;
-- (void)IN_MDS_UAAP;
+- (void)CDMSERVICEGRAPHERRORDOMAIN_MDS_UAAP;
 - (void)| Ðÿ±9D#;
 
 // Remaining properties
-@property(retain, nonatomic) IFTSchemaIFTASTFlatExpr *expression; // @synthesize expression=_expression;
-@property(retain, nonatomic) IFTSchemaIFTExpression *expressionName; // @synthesize expressionName=_expressionName;
-@property(nonatomic) _Bool hasExpression; // @synthesize hasExpression=_hasExpression;
-@property(nonatomic) _Bool hasExpressionName; // @synthesize hasExpressionName=_hasExpressionName;
-@property(nonatomic) _Bool hasIsRoot;
-@property(nonatomic) _Bool hasStatementId; // @synthesize hasStatementId=_hasStatementId;
-@property(nonatomic) _Bool isRoot; // @synthesize isRoot=_isRoot;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) IFTSchemaIFTStatementId *statementId; // @synthesize statementId=_statementId;
 
 @end

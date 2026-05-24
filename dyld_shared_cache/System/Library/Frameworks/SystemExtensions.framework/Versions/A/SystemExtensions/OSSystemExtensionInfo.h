@@ -4,114 +4,74 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString, NSURL;
+@class NSString;
 
 @interface OSSystemExtensionInfo
 {
     _Bool _enabled;
-    NSDictionary *_localizedInfo;
-    NSDictionary *_unlocalizedInfo;
-    _Bool modified;
-    _Bool rebootRequired;
-    _Bool teamIDNone;
-    _Bool teamIDPlatformBinary;
-    _Bool _active;
-    _Bool _removable;
-    NSURL *containingAppURL;
-    NSString *identifier;
-    NSString *shortVersionString;
-    NSURL *stagedBundleURL;
-    NSString *teamID;
-    NSString *developerName;
-    NSString *_bundleVersion;
-    NSArray *_categoryIdentifiers;
-    NSString *_owningCategoryIdentifier;
-    NSString *_stagedCdhash;
-    NSArray *_stagedCdhashes;
-    NSString *_stateString;
-    NSDictionary *_additionalLaunchdPlistEntries;
 }
 
 + (_Bool);
-- (id);
-- (_Bool);
-- (_Bool);
-- (id);
+- (id)dentifier %@ messageUUID %@ expiryDate %@;
+- (_Bool)Receiver:appending message %@ (size:%lu) to file %@ /* Error: Ran out of types for this method. */;
+- (_Bool)ketPairResourceTransferReceiver:appending message %@ (size:%lu) to file %@ /* Error: Ran out of types for this method. */;
+- (id)essageUUID %@;
+- (id)one with this resource! messageUUID %@;
+- (void)o file %@;
+- (void), more than expected %llu to file %@;
+- (void)ketPairResourceTransferReceiver:(id)arg1 received %llu bytes, more than expected %llu to file %@;
+- (void)%llu  bytes to file %@;
+- (void)rReceiver:(id)arg1 finished writing all %llu  bytes to file %@;
+- (void)l) bytes to file %@ at %llu;
+- (void)wrote %lu (received %llu out of %llu total) bytes to file %@ at %llu;
+- (void)ourceTransferReceiver:(id)arg1 error writing %lu (%llu total) to file %@ (errno:%d (%s)) /* Error: Ran out of types for this method. */;
+- (void)%llu != actual %llu;
+- (void)atching incoming resource chunk index:(id)arg1 stated %llu != actual %llu;
+- (_Bool)ge.m;
+- (_Bool)e file (errno:%d (%s)) /* Error: Ran out of types for this method. */;
+- (id)IDSSocketPairMessage.m;
+- (id)hing created;
+- (id)ssageFromFragmentedMessages:have %u pieces, nothing created /* Error: Ran out of types for this method. */;
+- (id)offset %u packet length %u
+;
+- (id)length %u
+;
+- (id)buf messageUUID length %u exceeds remaining data, offset %u packet length %u
+;
+- (id)d at least %lu
+;
+- (void)t for header:(id)arg1 %lu bytes, need at least %lu
+;
+- (void);
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
 - (id);
 - (void);
 - (_Bool);
+- (void);
+- (id);
+- (id)_setupComplete;
+- (id);
+- (id);
+- (id);
+- (void);
+- (void)_noFingerprintMinVisitDuration;
+- (void)xpectedTravelTime, %.2f, etaScaleFactor, %.2f, upperBoundETA, %@;
+- (void);
+- (void);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
+- (void);
+- (_Bool)A;
 - (id);
 
 // Remaining properties
-@property _Bool active; // @synthesize active=_active;
-@property(retain) NSDictionary *additionalLaunchdPlistEntries; // @synthesize additionalLaunchdPlistEntries=_additionalLaunchdPlistEntries;
-@property(readonly) NSString *applicationName;
-@property(readonly, copy) NSString *bundleIdentifier;
-@property(readonly, copy) NSString *bundleShortVersion;
-@property(copy) NSString *bundleVersion; // @synthesize bundleVersion=_bundleVersion;
-@property(retain) NSArray *categoryIdentifiers; // @synthesize categoryIdentifiers=_categoryIdentifiers;
-@property(retain) NSURL *containingAppURL; // @synthesize containingAppURL;
-@property(retain) NSString *developerName; // @synthesize developerName;
-@property _Bool enabled;
-@property(readonly) NSString *extensionDisplayName;
 @property(retain) NSString *identifier; // @synthesize identifier;
-@property _Bool modified; // @synthesize modified;
-@property(retain) NSString *owningCategoryIdentifier; // @synthesize owningCategoryIdentifier=_owningCategoryIdentifier;
-@property _Bool rebootRequired; // @synthesize rebootRequired;
-@property _Bool removable; // @synthesize removable=_removable;
-@property(retain) NSString *shortVersionString; // @synthesize shortVersionString;
-@property(retain) NSURL *stagedBundleURL; // @synthesize stagedBundleURL;
-@property(retain) NSString *stagedCdhash; // @synthesize stagedCdhash=_stagedCdhash;
-@property(retain) NSArray *stagedCdhashes; // @synthesize stagedCdhashes=_stagedCdhashes;
-@property(retain) NSString *stateString; // @synthesize stateString=_stateString;
-@property(retain) NSString *teamID; // @synthesize teamID;
-@property _Bool teamIDNone; // @synthesize teamIDNone;
-@property _Bool teamIDPlatformBinary; // @synthesize teamIDPlatformBinary;
-@property(readonly) NSString *usageDescription;
 
 @end
 

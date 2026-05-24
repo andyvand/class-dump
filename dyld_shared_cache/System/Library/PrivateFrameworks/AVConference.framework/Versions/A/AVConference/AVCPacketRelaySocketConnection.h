@@ -4,22 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCPacketFilter, NSObject;
-@protocol OS_dispatch_queue;
-
 __attribute__((visibility("hidden")))
 @interface AVCPacketRelaySocketConnection
 {
     unsigned char _type;
-    _Bool _isDemuxNeeded;
-    int _unixSocket;
-    _Bool _isConnectedSocket;
-    struct sockaddr _remoteIPPort;
-    unsigned int _remoteIPPortLength;
-    NSObject<OS_dispatch_queue> *_queue;
-    char *dataBuffer;
-    CDUnknownBlockType _readHandler;
-    AVCPacketFilter *_packetFilter;
 }
 
 - (void);
@@ -27,21 +15,18 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)P;
 - (id);
 - (int);
 - (int);
 - (unsigned char);
 
 // Remaining properties
-@property _Bool isDemuxNeeded; // @synthesize isDemuxNeeded=_isDemuxNeeded;
-@property(retain) AVCPacketFilter *packetFilter; // @synthesize packetFilter=_packetFilter;
-@property(copy) CDUnknownBlockType readHandler; // @synthesize readHandler=_readHandler;
 @property(readonly) unsigned char type; // @synthesize type=_type;
 
 @end

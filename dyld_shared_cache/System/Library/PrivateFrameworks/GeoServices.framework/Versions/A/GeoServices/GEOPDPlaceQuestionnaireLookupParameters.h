@@ -18,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (id)n"b1"read_unknownFields"b1"read_resultTypeFilters"b1"read_addressResultSubTypeFilter"b1"read_brandFilter"b1"read_categoryFilter"b1"read_implictQueryCategoryFilter"b1"read_poiIconCategoryFilter"b1"read_venueFilter"b1"wrote_anyField"b1};
-- (id)nlandWater;
+- (id)_inlandWater;
 - (id);
 - (void);
 

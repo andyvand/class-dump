@@ -7,9 +7,6 @@
 @interface NewsUI2.TagFeedBlueprintLayoutBuilder
 {
     id feedLayoutSolver;
-    id baseStyler;
-    id decorationProviderFactory;
-    id feedDescriptor;
 }
 
 @end

@@ -6,31 +6,29 @@
 
 #import <Contacts/CNChangeHistoryEvent.h>
 
-@class CNContact, CNGroup;
+@class CNContact;
 
 @interface CNChangeHistoryAddMemberToGroupEvent : CNChangeHistoryEvent
 {
     CNContact *_member;
-    CNGroup *_group;
 }
 
 + (unsigned long long);
 + (_Bool);
 - (id);
 - (id);
-- (long long);
+- (long long)C;
 - (void);
 - (id);
-- (id);
+- (id)is 0. Terminating immediately.;
 - (id);
 - (unsigned long long);
 - (_Bool);
 - (void);
 - (id);
-- (void)dNewlineCharacterSet;
+- (void)whitespaceAndNewlineCharacterSet;
 
 // Remaining properties
-@property(readonly, nonatomic) CNGroup *group; // @synthesize group=_group;
 @property(readonly, nonatomic) CNContact *member; // @synthesize member=_member;
 
 @end

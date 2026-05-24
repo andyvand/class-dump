@@ -7,9 +7,6 @@
 @interface PodcastsFoundation.CategoryObserverProvider
 {
     id ctx;
-    id favoritedCategoriesPublisher;
-    id categoriesForCategoriesInLibraryPublisher;
-    id categoriesCountForCategoriesInLibraryPublisher;
 }
 
 @end

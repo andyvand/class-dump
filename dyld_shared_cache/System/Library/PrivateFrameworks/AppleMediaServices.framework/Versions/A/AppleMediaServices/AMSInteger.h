@@ -13,7 +13,7 @@
 + (_Bool);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)setOutputContextForLocalDeviceDataSource:(id)arg1;
 - (void);
 - (id);
 - (long long);

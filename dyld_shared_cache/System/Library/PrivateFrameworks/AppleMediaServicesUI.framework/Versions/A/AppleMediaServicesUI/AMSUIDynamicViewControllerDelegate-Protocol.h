@@ -4,6 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class AMSUIDynamicViewController, NSView, NSViewController;
+@protocol AMSUIDynamicContentViewProtocol;
+
 @protocol AMSUIDynamicViewControllerDelegate
+
+@optional
+- (_Bool)or:(AMSUIDynamicViewController *)arg1 %{public}@;
+- (_Bool)public}@ from %lu subscriptions;
+- (void)error:(AMSUIDynamicViewController *)arg1 %{public}@;
+- (void)%{public}@ to %lu subscriptions;
+- (void)create trial asset, AssetData directory doesn't exist:(AMSUIDynamicViewController *)arg1 %@;
+- (void)ager;
+- (NSView<AMSUIDynamicContentViewProtocol> *)not supported for query:(AMSUIDynamicViewController *)arg1 %@;
+- (void)e the latest auto asset version due to error:(AMSUIDynamicViewController *)arg1 %@;
+- (NSViewController *)to error:(AMSUIDynamicViewController *)arg1 %@;
 @end
 

@@ -9,17 +9,14 @@
 @interface PKUsageNotificationClient
 {
     PKXPCService *_connection;
-    CDUnknownBlockType _handler;
-    CDUnknownBlockType _paymentHandler;
-    CDUnknownBlockType _paymentPassUsageHandler;
 }
 
 - (void);
+- (void)?	;
 - (void);
+- (void)2*?=;
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)(;
 - (id);
 - (void)chandising;
 

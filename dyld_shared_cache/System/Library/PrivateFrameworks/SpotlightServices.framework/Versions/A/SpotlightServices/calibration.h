@@ -17,15 +17,15 @@ __attribute__((visibility("hidden")))
 + (void);
 - (id);
 - (id);
-- (id);
+- (id)J;
 - (id);
 - (void);
 - (void);
 - (id);
+- (id)ChronoKit;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)<;
 - (id);
 - (void)com_apple_MobileSMS_LLMQUIntentHotelEvent:com_apple_mobileslideshow_LLMQUIntentEvent:other_bundle_LLMQUIntentTicketTransportEvent:com_apple_MobileSMS_LLMQUIntentCarRentalEvent:com_apple_mobilecal_LLMQUIntentTicketTransportEvent:com_apple_mobilecal_LLMQUIntentCarRentalEvent:com_apple_mobilemail_LLMQUIntentConversation:com_apple_mobilemail_LLMQUIntentPartyEvent:com_apple_mobilecal_LLMQUIntentCalendar:com_apple_mobileslideshow_LLMQUIntentWallet:com_apple_mobileslideshow_LLMQUIntentPhoto:com_apple_MobileSMS_LLMQUIntentCalendar:com_apple_MobileSMS_LLMQUIntentContact:com_apple_mobilemail_LLMQUIntentCalendar:com_apple_mobilecal_LLMQUIntentContact:com_apple_MobileSMS_LLMQUIntentWallet:com_apple_mobilemail_LLMQUIntentWallet:com_apple_mobilemail_LLMQUIntentContact:com_apple_MobileSMS_LLMQUIntentPhoto:other_bundle_LLMQUIntentContact:com_apple_mobilemail_LLMQUIntentPhoto:other_bundle_LLMQUIntentWallet:other_bundle_LLMQUIntentPhoto:other_bundle_LLMQUIntentCalendar:com_apple_mobilecal_LLMQUIntentWallet:com_apple_mobilecal_LLMQUIntentPhoto:com_apple_mobilemail_LLMQUIntentSharedLink:com_apple_MobileSMS_LLMQUIntentSharedLink:com_apple_mobilemail_LLMQUIntentSafari:com_apple_mobilecal_LLMQUIntentSharedLink: /* Error: Ran out of types for this method. */;
 

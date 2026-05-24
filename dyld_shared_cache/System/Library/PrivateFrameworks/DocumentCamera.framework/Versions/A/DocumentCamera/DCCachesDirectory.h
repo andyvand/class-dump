@@ -13,9 +13,9 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
+- (id)ԍx";
 - (id);
-- (id);
-- (void);
+- (void);
 
 // Remaining properties
 @property(readonly, nonatomic) NSURL *cachesDirectoryURL; // @synthesize cachesDirectoryURL=_cachesDirectoryURL;

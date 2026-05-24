@@ -4,39 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKPrintTranscriptCollectionViewController, UIScrollView;
+@class UIScrollView;
 
 __attribute__((visibility("hidden")))
 @interface CKTranscriptPrintPageRenderer
 {
     UIScrollView *_scrollView;
-    CKPrintTranscriptCollectionViewController *_transcriptCollectionViewController;
-    long long _numberOfPagesForCurrentConfiguration;
-    struct CGRect _currentPrintableRect;
 }
 
 + (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (long long);
+- (id)updateUserRecordForAccount:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)rangeForParagraphID:(id)arg1;
+- (void)lastAttachmentSize;
+- (void)ic_menuIcon;
+- (long long)r;
 - (id);
 - (void);
 - (void);
 - (struct CGRect);
-- (void);
-- (long long);
-- (id)temCG;
+- (void)**You** copied a note;
+- (long long)ng;
+- (id)SaySo10IMChatItemCG;
 - (void)apshot];
 - (void);
-- (long long)ributeKey;
+- (long long)NNSFileAttributeKey;
 
 // Remaining properties
-@property struct CGRect currentPrintableRect; // @synthesize currentPrintableRect=_currentPrintableRect;
-@property long long numberOfPagesForCurrentConfiguration; // @synthesize numberOfPagesForCurrentConfiguration=_numberOfPagesForCurrentConfiguration;
 @property(retain, nonatomic) UIScrollView *scrollView; // @synthesize scrollView=_scrollView;
-@property(retain, nonatomic) CKPrintTranscriptCollectionViewController *transcriptCollectionViewController; // @synthesize transcriptCollectionViewController=_transcriptCollectionViewController;
 
 @end
 

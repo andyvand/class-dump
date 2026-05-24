@@ -4,31 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class TRIAssetStore;
-@protocol TRIPaths, TRIStorageManagementProtocol;
+@protocol TRIPaths;
 
 @interface TRIAssetStoreOperator
 {
     id <TRIPaths> _paths;
-    id <TRIStorageManagementProtocol> _storageManagement;
-    TRIAssetStore *_store;
 }
 
-+ (unsigned long long);
++ (unsigned long long)_triptychMotionStyleTable;
+- (_Bool)setLogLevel:(id)arg1 forClass: /* Error: Ran out of types for this method. */;
+- (_Bool)A;
 - (_Bool);
+- (_Bool)@.%@;
 - (_Bool);
-- (_Bool);
+- (id);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
 - (_Bool);
-- (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned short);
+- (_Bool)initWithBaseMedia:(id)arg1 renderNode:(unsigned int *)arg2;
+- (unsigned short)Array.class];
 - (id);
 - (_Bool);
 - (_Bool);

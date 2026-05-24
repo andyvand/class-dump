@@ -13,17 +13,15 @@
 }
 
 + (id);
++ (id)DISTRUSTED_RECOVERY_KEY_REPAIR_NOTIFICATION_INFORMATIVE;
 + (id);
-+ (id);
-- (id);
+- (id)N13CPMLlinearSVM14l2r_l2_svc_funE;
 - (void);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSSet *descriptors; // @dynamic descriptors;
-@property(copy, nonatomic) NSSet *displays; // @dynamic displays;
 @property(copy, nonatomic) NSSet *senderDescriptors; // @dynamic senderDescriptors;
 
 @end

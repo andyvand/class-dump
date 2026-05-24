@@ -5,6 +5,7 @@
 //
 
 @protocol WBSSiteMetadataImageCacheSettingsEntry
+- (id);
 
 // Remaining properties
 @property(readonly, nonatomic) long long databaseID;

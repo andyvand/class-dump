@@ -5,9 +5,9 @@
 //
 
 @protocol TUVideoRequest
+- (struct CGSize);
 
 // Remaining properties
 @property(nonatomic) struct CGSize localLandscapeAspectRatio;
-@property(nonatomic) struct CGSize localPortraitAspectRatio;
 @end
 

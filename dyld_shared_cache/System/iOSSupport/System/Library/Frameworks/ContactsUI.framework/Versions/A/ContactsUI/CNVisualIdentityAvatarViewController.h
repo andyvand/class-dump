@@ -4,39 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAShapeLayer, CNAvatarAccessoryView, CNBadgingAvatarBadgeStyleSettings, CNUIAvatarLayoutLayerItem, CNVisualIdentity, CNVisualIdentityAvatarLayoutManager, CNVisualIdentityContactAvatarProvider, NSString, UIImage, UIImageView, UITapGestureRecognizer, UIView;
-@protocol CNScheduler, CNVisualIdentityPrimaryAvatarProvider;
+@class UIView;
 
 @interface CNVisualIdentityAvatarViewController
 {
     _Bool _isPerformingTransition;
-    _Bool _usingDropAppearance;
-    CNBadgingAvatarBadgeStyleSettings *_badgeStyleSettings;
-    CNAvatarAccessoryView *_mediaContextBadge;
-    CNVisualIdentityAvatarLayoutManager *_avatarLayoutManager;
-    UIView *_contentView;
-    id <CNVisualIdentityPrimaryAvatarProvider> _primaryAvatarProvider;
-    id <CNScheduler> _renderingQueue;
-    id <CNScheduler> _callbackQueue;
-    CNVisualIdentityContactAvatarProvider *_avatarProvider;
-    UIImageView *_mediaContextBadgeView;
-    UIImageView *_badgeImageView;
-    UITapGestureRecognizer *_badgeTapGestureRecognizer;
-    CDUnknownBlockType _pendingViewUpdate;
-    CNUIAvatarLayoutLayerItem *_avatarLayerItem;
-    UIImageView *_avatarAlternativeImageView;
-    CAShapeLayer *_avatarClippingLayer;
-    CAShapeLayer *_avatarAlternativeImageViewClippingLayer;
-    CNVisualIdentity *_visualIdentity;
-    struct CGSize _previousSize;
 }
 
 + (unsigned long long);
 + (id)
 × ;
-+ (id)zationPane:animated:forAction: /* Error: Ran out of types for this method. */;
++ (id)showEditAuthorizationPane:animated:forAction: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)	ja;
 - (id);
 - (_Bool);
 - (void);
@@ -44,6 +24,9 @@
 - (void);
 - (void);
 - (void);
+- (void)K;
+- (void);
+- (void)@9q;
 - (void);
 - (void);
 - (void);
@@ -52,28 +35,25 @@
 - (void);
 - (void);
 - (void);
+- (_Bool)5;
 - (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)1;
+- (void);
+- (void);
+- (void)-;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
+- (void)";
 - (struct CGSize);
 - (id);
 - (id);
@@ -85,7 +65,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (id);
@@ -101,7 +81,7 @@
 - (id);
 - (id);
 - (struct CGRect);
-- (id);
+- (id)N;
 - (id);
 - (id);
 - (_Bool);
@@ -115,7 +95,7 @@
 - (id);
 - (void);
 - (void);
-- (struct CGSize);
+- (struct CGSize)rvices;
 - (void);
 - (void);
 - (_Bool);
@@ -124,39 +104,11 @@
 - (void);
 - (id);
 - (long long);
-- (void)e;
+- (void)avatarType;
 - (id)ouch -- encountered an error:%s /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) UIImageView *avatarAlternativeImageView; // @synthesize avatarAlternativeImageView=_avatarAlternativeImageView;
-@property(retain, nonatomic) CAShapeLayer *avatarAlternativeImageViewClippingLayer; // @synthesize avatarAlternativeImageViewClippingLayer=_avatarAlternativeImageViewClippingLayer;
-@property(retain, nonatomic) CAShapeLayer *avatarClippingLayer; // @synthesize avatarClippingLayer=_avatarClippingLayer;
-@property(retain, nonatomic) CNUIAvatarLayoutLayerItem *avatarLayerItem; // @synthesize avatarLayerItem=_avatarLayerItem;
-@property(retain, nonatomic) CNVisualIdentityAvatarLayoutManager *avatarLayoutManager; // @synthesize avatarLayoutManager=_avatarLayoutManager;
-@property(retain, nonatomic) CNVisualIdentityContactAvatarProvider *avatarProvider; // @synthesize avatarProvider=_avatarProvider;
-@property(retain, nonatomic) UIImage *badgeImage;
-@property(retain, nonatomic) UIImageView *badgeImageView; // @synthesize badgeImageView=_badgeImageView;
-@property(retain, nonatomic) CNBadgingAvatarBadgeStyleSettings *badgeStyleSettings; // @synthesize badgeStyleSettings=_badgeStyleSettings;
-@property(retain, nonatomic) UITapGestureRecognizer *badgeTapGestureRecognizer; // @synthesize badgeTapGestureRecognizer=_badgeTapGestureRecognizer;
-@property(readonly, nonatomic) id <CNScheduler> callbackQueue; // @synthesize callbackQueue=_callbackQueue;
 @property(retain, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isPerformingTransition; // @synthesize isPerformingTransition=_isPerformingTransition;
-@property(retain, nonatomic) CNAvatarAccessoryView *mediaContextBadge; // @synthesize mediaContextBadge=_mediaContextBadge;
-@property(retain, nonatomic) UIImageView *mediaContextBadgeView; // @synthesize mediaContextBadgeView=_mediaContextBadgeView;
-@property(copy, nonatomic) CDUnknownBlockType pendingViewUpdate; // @synthesize pendingViewUpdate=_pendingViewUpdate;
-@property(nonatomic) struct CGSize previousSize; // @synthesize previousSize=_previousSize;
-@property(retain, nonatomic) id <CNVisualIdentityPrimaryAvatarProvider> primaryAvatarProvider; // @synthesize primaryAvatarProvider=_primaryAvatarProvider;
-@property(readonly, nonatomic) struct CGSize primaryAvatarSize;
-@property(readonly, nonatomic) id <CNScheduler> renderingQueue; // @synthesize renderingQueue=_renderingQueue;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool usingDropAppearance; // @synthesize usingDropAppearance=_usingDropAppearance;
-@property(retain, nonatomic) CNVisualIdentity *visualIdentity; // @synthesize visualIdentity=_visualIdentity;
 
 @end
 

@@ -14,12 +14,12 @@
 }
 
 + (_Bool);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id)P;
 - (void);
 - (id);
-- (void)ltilingualResponseEnabledForLanguage: /* Error: Ran out of types for this method. */;
+- (void)_defaultMultilingualResponseEnabledForLanguage: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,44 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CUIVectorGlyphLayerDrawAttachmentStore, CUIVectorGlyphPath, NSArray, NSString;
+@class NSArray;
 @protocol CUIVectorGlyhLayerDelegate;
 
 @interface CUIVectorGlyphLayer
 {
     NSArray *_sublayers;
-    struct CGPath *_clipPathFromSublayers;
-    _Bool _alwaysPulses;
-    _Bool _alwaysRotates;
-    _Bool _alwaysBreathes;
-    _Bool _isEraserLayer;
-    _Bool _gradientAlignsToLayer;
-    _Bool _isPassthrough;
-    _Bool _supportsVariableDraw;
-    int _lineCap;
-    int _lineJoin;
-    NSString *_name;
-    unsigned long long _index;
-    NSArray *_tags;
-    unsigned long long _motionGroup;
-    double _opacity;
-    double _valueThreshold;
-    double _variableDrawOffset;
-    double _variableDrawLength;
-    CUIVectorGlyphLayerDrawAttachmentStore *_drawAttachments;
-    double _strokeWidth;
-    long long _gradientType;
-    CUIVectorGlyphPath *_referencePath;
-    id <CUIVectorGlyhLayerDelegate> _delegate;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id)(;
 + (unsigned int);
 + (unsigned int);
-+ (id);
-+ (unsigned int);
++ (id);
++ (unsigned int);
 + (unsigned int);
 + (double);
 + (double);
@@ -60,15 +37,15 @@
 + (id);
 + (id);
 + (id);
-+ (id);
++ (id);
++ (unsigned int);
 + (unsigned int);
 + (unsigned int);
 + (unsigned int);
 + (unsigned int);
-+ (unsigned int);
-+ (_Bool);
-+ (id);
-- (double);
++ (_Bool)_;
++ (id);
+- (double)";
 - (double);
 - (double);
 - (_Bool);
@@ -96,7 +73,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)O;
 - (void);
 - (id);
 - (id);
@@ -113,44 +90,19 @@
 - (id);
 - (id);
 - (void);
-- (double);
+- (double)#;
 - (id);
 - (struct CGPath *);
-- (id);
+- (id);
 - (unsigned long long);
-- (id);
+- (id)oxy to handle errors;
 - (double);
 - (void);
 - (id)ð¶È·¸è¸xºÌºôº¿8äÂHÅDÆ¼ÆXÇ
 DÉÈË;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool alwaysBreathes; // @synthesize alwaysBreathes=_alwaysBreathes;
-@property(readonly, nonatomic) _Bool alwaysPulses; // @synthesize alwaysPulses=_alwaysPulses;
-@property(readonly, nonatomic) _Bool alwaysRotates; // @synthesize alwaysRotates=_alwaysRotates;
 @property(nonatomic) __weak id <CUIVectorGlyhLayerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, retain, nonatomic) CUIVectorGlyphLayerDrawAttachmentStore *drawAttachments; // @synthesize drawAttachments=_drawAttachments;
-@property(readonly, nonatomic) _Bool gradientAlignsToLayer; // @synthesize gradientAlignsToLayer=_gradientAlignsToLayer;
-@property(readonly, nonatomic) long long gradientType; // @synthesize gradientType=_gradientType;
-@property(readonly, nonatomic) unsigned long long index; // @synthesize index=_index;
-@property(readonly, nonatomic) _Bool isEraserLayer; // @synthesize isEraserLayer=_isEraserLayer;
-@property(readonly, nonatomic) _Bool isPassthrough; // @synthesize isPassthrough=_isPassthrough;
-@property(readonly, nonatomic) int lineCap; // @synthesize lineCap=_lineCap;
-@property(readonly, nonatomic) int lineJoin; // @synthesize lineJoin=_lineJoin;
-@property(readonly, nonatomic) unsigned long long motionGroup; // @synthesize motionGroup=_motionGroup;
-@property(readonly, retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(readonly, nonatomic) _Bool needsWideGamut;
-@property(readonly, nonatomic) double opacity; // @synthesize opacity=_opacity;
-@property(readonly, nonatomic) _Bool participatesInVariableDraw;
-@property(readonly, retain, nonatomic) CUIVectorGlyphPath *referencePath; // @synthesize referencePath=_referencePath;
-@property(readonly, retain, nonatomic) id referenceShape;
-@property(readonly, nonatomic) double strokeWidth; // @synthesize strokeWidth=_strokeWidth;
-@property(readonly, retain, nonatomic) NSArray *sublayers;
-@property(readonly, nonatomic) _Bool supportsVariableDraw; // @synthesize supportsVariableDraw=_supportsVariableDraw;
-@property(readonly, retain, nonatomic) NSArray *tags; // @synthesize tags=_tags;
-@property(readonly, nonatomic) double valueThreshold; // @synthesize valueThreshold=_valueThreshold;
-@property(readonly, nonatomic) double variableDrawLength; // @synthesize variableDrawLength=_variableDrawLength;
-@property(readonly, nonatomic) double variableDrawOffset; // @synthesize variableDrawOffset=_variableDrawOffset;
 
 @end
 

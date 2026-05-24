@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FUAirport, FUStepTime, NSNumber, NSString;
+@class FUAirport, NSNumber;
 
 @interface FUFlightStep
 {
     NSNumber *_delayFromSchedule;
-    _Bool _departure;
-    FUAirport *_airport;
-    NSString *_gate;
-    NSString *_terminal;
-    long long _legStatus;
-    FUStepTime *_scheduledTime;
-    FUStepTime *_estimatedTime;
-    FUStepTime *_actualTime;
-    FUStepTime *_runwayTime;
-    FUStepTime *_plannedTime;
 }
 
 + (_Bool);
@@ -42,34 +32,21 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void)Th;
 - (_Bool);
 - (id);
-- (id);
+- (id)x;
 - (void);
 - (_Bool);
-- (void);
-- (id);
+- (void)qj;
+- (id)ight in page header;
 - (unsigned long long);
-- (id);
+- (id)d.currentNode;){n=d.currentNode,d.previousNode();var u=!1,S=/\S/g;if(n.nodeType===Node.ELEMENT_NODE&&0===n.clientHeight?MUIRedundantTextUtilities_isAttachmentNode(n)||(u=!0):n.nodeType!==Node.TEXT_NODE||S.test(n.textContent)||(u=!0),!u)break;n.parentNode.removeChild(n)}}} /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) FUStepTime *actualTime; // @synthesize actualTime=_actualTime;
 @property(retain) FUAirport *airport; // @synthesize airport=_airport;
-@property(retain, nonatomic) NSNumber *delayFromSchedule;
-@property _Bool departure; // @synthesize departure=_departure;
-@property(retain) FUStepTime *estimatedTime; // @synthesize estimatedTime=_estimatedTime;
-@property(retain) NSString *gate; // @synthesize gate=_gate;
-@property long long legStatus; // @synthesize legStatus=_legStatus;
-@property(retain) FUStepTime *plannedTime; // @synthesize plannedTime=_plannedTime;
-@property(retain) FUStepTime *runwayTime; // @synthesize runwayTime=_runwayTime;
-@property(retain) FUStepTime *scheduledTime; // @synthesize scheduledTime=_scheduledTime;
-@property(readonly, nonatomic) unsigned long long status;
-@property(readonly) _Bool taxiing;
-@property(retain) NSString *terminal; // @synthesize terminal=_terminal;
-@property(readonly) FUStepTime *time;
 
 @end
 

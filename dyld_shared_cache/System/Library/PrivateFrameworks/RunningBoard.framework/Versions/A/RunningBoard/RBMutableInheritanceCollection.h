@@ -19,7 +19,7 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)setStaticCount:(id)arg1;
 - (void);
 
 @end

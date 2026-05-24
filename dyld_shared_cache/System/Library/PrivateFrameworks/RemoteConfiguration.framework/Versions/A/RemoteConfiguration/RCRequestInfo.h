@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSString, NSURL, RCCachePolicy, RCUnfairLock;
+@class NSMutableDictionary, NSString;
 
 @interface RCRequestInfo
 {
     NSString *_requestKey;
-    NSString *_responseKey;
-    NSURL *_fallbackURL;
-    unsigned long long _requestType;
-    NSArray *_additionalChangeTags;
-    NSString *_requestCacheKey;
-    RCCachePolicy *_cachePolicy;
-    NSMutableDictionary *_mutableAdditionalFields;
-    RCUnfairLock *_accessLock;
 }
 
 - (id);
@@ -30,7 +22,7 @@
 - (id);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)(;
 - (id);
 - (id);
 - (id);
@@ -43,16 +35,7 @@
 - (id)name;
 
 // Remaining properties
-@property(retain, nonatomic) RCUnfairLock *accessLock; // @synthesize accessLock=_accessLock;
-@property(readonly, nonatomic) NSArray *additionalChangeTags; // @synthesize additionalChangeTags=_additionalChangeTags;
-@property(readonly) NSDictionary *allAdditionalFields;
-@property(readonly, nonatomic) RCCachePolicy *cachePolicy; // @synthesize cachePolicy=_cachePolicy;
-@property(readonly, nonatomic) NSURL *fallbackURL; // @synthesize fallbackURL=_fallbackURL;
 @property(readonly, nonatomic) NSMutableDictionary *mutableAdditionalFields; // @synthesize mutableAdditionalFields=_mutableAdditionalFields;
-@property(readonly, nonatomic) NSString *requestCacheKey; // @synthesize requestCacheKey=_requestCacheKey;
-@property(readonly, copy, nonatomic) NSString *requestKey; // @synthesize requestKey=_requestKey;
-@property(readonly, nonatomic) unsigned long long requestType; // @synthesize requestType=_requestType;
-@property(readonly, copy, nonatomic) NSString *responseKey; // @synthesize responseKey=_responseKey;
 
 @end
 

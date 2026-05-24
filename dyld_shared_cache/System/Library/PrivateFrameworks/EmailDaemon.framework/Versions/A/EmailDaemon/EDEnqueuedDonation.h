@@ -9,7 +9,7 @@
     id underlying;
 }
 
-- (id);
+- (id)UsoTaskBuilder_noVerb_common_PaymentAccountType;
 
 @end
 

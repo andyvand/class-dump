@@ -4,33 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLogMsgStateSuggestions
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSMutableArray *_displayedResults;
-    NSString *_searchString;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    int _acSequenceNumber;
-    int _searchFieldType;
-    int _selectedIndex;
-    struct {
-        unsigned int has_acSequenceNumber:1;
-        unsigned int has_searchFieldType:1;
-        unsigned int has_selectedIndex:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_displayedResults:1;
-        unsigned int read_searchString:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
 + (Class);
-+ (_Bool)eRoutes:(id)arg1;
++ (_Bool)setHasSupportsElectricVehicleRoutes:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -45,27 +27,28 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (int);
-- (_Bool);
-- (int);
-- (int);
-- (void);
-- (id);
-- (id);
-- (void);
+- (void)removeObjectsAtIndexes:(id)arg1;
+- (int)operationCount;
+- (_Bool)_keyPath;
+- (int)_cn_SHA256HashDataWithSalt:(id)arg1;
+- (int)initWithClassificationStrategy: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
+- (id);
+- (void);
 - (void);
+- (id)clients are running;
+- (void)b	B;
 - (int);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void):(int)arg1 8;
 - (_Bool);
 - (id);
-- (void);
-- (id)agment:(struct _NSZone *)arg1 filters:sessionData:traits: /* Error: Ran out of types for this method. */;
+- (void)or audio input device %d
+;
+- (id)ticketForInterleavedAutoCompleteSearchFragment:(struct _NSZone *)arg1 filters:sessionData:traits: /* Error: Ran out of types for this method. */;
 - (id)=If},R,N;
 - (id)ng protocol. This is no longer supported.;
 - (id)à3Ô;
@@ -74,16 +57,7 @@
 - (id);
 
 // Remaining properties
-@property(nonatomic) int acSequenceNumber;
-@property(retain, nonatomic) NSMutableArray *displayedResults;
-@property(nonatomic) _Bool hasAcSequenceNumber;
-@property(nonatomic) _Bool hasSearchFieldType;
 @property(readonly, nonatomic) _Bool hasSearchString;
-@property(nonatomic) _Bool hasSelectedIndex;
-@property(nonatomic) int searchFieldType;
-@property(retain, nonatomic) NSString *searchString;
-@property(nonatomic) int selectedIndex;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

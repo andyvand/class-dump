@@ -4,25 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject;
-@protocol LACBackoffCounter, OS_dispatch_queue;
+@protocol LACBackoffCounter;
 
 @interface MechanismContext
 {
     id <LACBackoffCounter> _backoffCounter;
-    NSObject<OS_dispatch_queue> *_serverQueue;
 }
 
-+ (id);
-- (id);
++ (id)(F;
+- (id)s>];
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)ft, _tint_Color_Slider, _tint_Color_Right, _temperature_Color_Label, _temperature_Color_Left, _temperature_Color_Slider, _temperature_Color_Right, _saturation_Color_Label, _saturation_Color_Left, _saturation_Color_Slider, _saturation_Color_Right, _resetImageCorrectionLabel, _resetImageCorrection, _selfTestLabel, _selfTestButton, _line1a,_line1b,_line2a,_line2b,_line3a,_line3b,_line4a,_line4b;
+- (void);
+- (void)h5;
 
 // Remaining properties
 @property(retain, nonatomic) id <LACBackoffCounter> backoffCounter; // @synthesize backoffCounter=_backoffCounter;
-@property(retain, nonatomic) NSObject<OS_dispatch_queue> *serverQueue; // @synthesize serverQueue=_serverQueue;
 
 @end
 

@@ -5,5 +5,6 @@
 //
 
 @protocol PFObjectIDCollection
+- (unsigned long long)(;
 @end
 

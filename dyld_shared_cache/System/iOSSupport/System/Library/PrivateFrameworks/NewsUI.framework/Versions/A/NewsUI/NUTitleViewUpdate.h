@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface NUTitleViewUpdate
 {
     _Bool _cancelPendingUpdates;
-    _Bool _speakAccessibilityTitleWhenDisplayed;
-    id _value;
-    unsigned long long _valueType;
-    unsigned long long _styleType;
-    double _lingerTimeInterval;
-    NSString *_accessibilityTitle;
-    long long _textAlignment;
 }
 
 - (void);
 - (unsigned long long);
-- (void);
+- (void)mReverseCacheKeysLock;
 - (double);
 - (id);
 - (id);
@@ -29,26 +20,19 @@
 - (_Bool);
 - (id);
 - (id);
+- (id)source;
 - (id);
-- (id);
-- (id);
+- (id)tion33PurchaseContextEntriesManagerTypeP;
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (long long);
-- (void)perationCount:(long long)arg1;
+- (void)initWithDelegate:(long long)arg1 maxConcurrentOperationCount: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessibilityTitle; // @synthesize accessibilityTitle=_accessibilityTitle;
-@property(nonatomic, getter=shouldCancelPendingUpdates) _Bool cancelPendingUpdates; // @synthesize cancelPendingUpdates=_cancelPendingUpdates;
-@property(nonatomic) double lingerTimeInterval; // @synthesize lingerTimeInterval=_lingerTimeInterval;
-@property(nonatomic, getter=shouldSpeakAccessibilityTitleWhenDisplayed) _Bool speakAccessibilityTitleWhenDisplayed; // @synthesize speakAccessibilityTitleWhenDisplayed=_speakAccessibilityTitleWhenDisplayed;
-@property(readonly, nonatomic) unsigned long long styleType; // @synthesize styleType=_styleType;
-@property(nonatomic) long long textAlignment; // @synthesize textAlignment=_textAlignment;
 @property(readonly, nonatomic) id value; // @synthesize value=_value;
-@property(readonly, nonatomic) unsigned long long valueType; // @synthesize valueType=_valueType;
 
 @end
 

@@ -4,6 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CDPContext, NSError;
+@protocol CDPStateUIProviderInternal;
+
 @protocol CDPDBackupRecoveryErrorProvider
+- (NSError *)Provider>",W,N,V_contentProvider;
+- (_Bool)_TtC6Safari16BookmarkTileCell;
+- (void)_TtC6Safari40CompletionListSearchEngineSuggestionData;
+- (NSError *)WebsiteContextMenuBuilder;
+- (NSError *)_UnifiedTabBarLayoutArrangementComputationState;
+- (void)UnifiedTabBarLayoutConfiguration;
+- (void)UnifiedTabBarToolbarCustomizationLayout;
+- (NSError *)UnifiedTabBarCompactLayout;
+- (NSError *)UnifiedFieldButtonHostViewController;
+- (NSError *)RemoteNotificationPackageController;
+- (id)_configurationForAlertToDeleteVerificationCodeFromSavedAccount:(CDPContext *)arg1 isUndoable:(id <CDPStateUIProviderInternal>)arg2;
 @end
 

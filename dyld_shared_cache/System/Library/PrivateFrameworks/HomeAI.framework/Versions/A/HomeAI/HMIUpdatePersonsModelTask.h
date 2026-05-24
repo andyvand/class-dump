@@ -7,14 +7,10 @@
 #import <HomeAI/HMIHomeTask.h>
 
 @class NSUUID;
-@protocol HMIPersonManagerDataSource;
 
 @interface HMIUpdatePersonsModelTask : HMIHomeTask
 {
     _Bool _externalLibrary;
-    _Bool _removeExcessFaceCrops;
-    NSUUID *_sourceUUID;
-    id <HMIPersonManagerDataSource> _dataSource;
 }
 
 + (id)_;
@@ -30,9 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) id <HMIPersonManagerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, getter=isExternalLibrary) _Bool externalLibrary; // @synthesize externalLibrary=_externalLibrary;
-@property(readonly, getter=shouldRemoveExcessFaceCrops) _Bool removeExcessFaceCrops; // @synthesize removeExcessFaceCrops=_removeExcessFaceCrops;
 @property(readonly) NSUUID *sourceUUID; // @synthesize sourceUUID=_sourceUUID;
 
 @end

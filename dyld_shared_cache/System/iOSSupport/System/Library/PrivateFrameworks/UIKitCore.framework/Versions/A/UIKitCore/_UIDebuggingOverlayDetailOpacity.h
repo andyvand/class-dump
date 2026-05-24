@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
     UIView *_inspectedView;
 }
 
-- (void);
+- (void)i;
 - (void);
 - (id)uch;
 - (void);

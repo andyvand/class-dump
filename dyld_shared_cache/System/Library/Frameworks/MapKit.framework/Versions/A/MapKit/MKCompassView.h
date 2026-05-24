@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MKBlurBackingLayer, MKCompassLayer, NSString;
-
 @interface MKCompassView
 {
     _Bool _enabled;
-    double _mapHeading;
-    MKBlurBackingLayer *_blurLayer;
-    MKCompassLayer *_displayLayer;
-    MKCompassLayer *_maskLayer;
-    long long _outerRingTooltipTag;
-    long long _innerDiscTooltipTag;
-    long long _innerDiscTrackingRectTag;
 }
 
 + (void);
@@ -25,45 +16,37 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)P;
+- (void)h4;
 - (void);
 - (double);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (struct CGRect);
+- (struct CGRect);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (_Bool);
+- (_Bool)_instantMessageAddresses;
+- (_Bool);
 - (void);
 - (id);
 - (void);
 - (void);
+- (void);
+- (_Bool);
+- (void);
+- (id);
+- (void);
+- (void)	;
 - (void);
 - (void)!¤@ùQ *°1Â0@ù
 × ;
-- (void)onQueue;
+- (void)extensionCompletionQueue;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isEnabled) _Bool enabled; // @synthesize enabled=_enabled;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) double mapHeading; // @synthesize mapHeading=_mapHeading;
-@property(readonly) Class superclass;
 
 @end
 

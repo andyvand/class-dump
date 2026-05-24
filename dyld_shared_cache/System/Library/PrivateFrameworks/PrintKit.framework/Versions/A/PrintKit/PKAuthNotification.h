@@ -11,15 +11,12 @@
 @interface PKAuthNotification : PKNotification
 {
     NSURLCredential *_credential;
-    NSString *_usernameField;
-    NSString *_passwordField;
-    NSString *_defaultUsername;
 }
 
 - (unsigned long long);
 - (id);
 - (void);
-- (void);
+- (void)5;
 - (id);
 - (id);
 - (void);
@@ -29,9 +26,6 @@
 - (void);
 
 // Remaining properties
-@property(readonly) NSURLCredential *credential; // @synthesize credential=_credential;
-@property(retain) NSString *defaultUsername; // @synthesize defaultUsername=_defaultUsername;
-@property(retain) NSString *passwordField; // @synthesize passwordField=_passwordField;
 @property(retain) NSString *usernameField; // @synthesize usernameField=_usernameField;
 
 @end

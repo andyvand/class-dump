@@ -10,18 +10,16 @@ __attribute__((visibility("hidden")))
 @interface MPCModelGenericAVItemUserIdentityPropertySet
 {
     ICUserIdentityProperties *_identityProperties;
-    ICUserIdentityProperties *_delegatedIdentityProperties;
 }
 
 - (id);
-- (id);
-- (void);
+- (id)A;
+- (void)addFMFChildAccountToAppleAccount:(id)arg1;
 - (id);
 - (void);
 - (void)rce:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) ICUserIdentityProperties *delegatedIdentityProperties; // @synthesize delegatedIdentityProperties=_delegatedIdentityProperties;
 @property(copy, nonatomic) ICUserIdentityProperties *identityProperties; // @synthesize identityProperties=_identityProperties;
 
 @end

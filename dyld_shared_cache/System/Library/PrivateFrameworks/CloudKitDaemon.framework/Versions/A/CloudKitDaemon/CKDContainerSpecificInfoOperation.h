@@ -6,14 +6,11 @@
 
 #import <CloudKitDaemon/CKDOperation.h>
 
-@class CKDContainerServerInfo, NSObject;
-@protocol OS_dispatch_group;
+@class CKDContainerServerInfo;
 
 @interface CKDContainerSpecificInfoOperation : CKDOperation
 {
     _Bool _requireUserIDs;
-    CKDContainerServerInfo *_containerServerInfo;
-    NSObject<OS_dispatch_group> *_infoFetchedGroup;
 }
 
 - (void);
@@ -21,17 +18,15 @@
 - (_Bool);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)trialRolloutFactorpackID;
 - (id);
 - (void);
-- (id);
+- (id);
 - (void)_srFtQ/Library/Caches/com.apple.xbs/TemporaryDirectory.ch2LMp/Sources/CloudKitTools/Sources/CloudKitDaemon/Operations/Database/CKDRecordFetchAggregator.m;
 - (void)shares were fetched successfully;
 
 // Remaining properties
 @property(copy, nonatomic) CKDContainerServerInfo *containerServerInfo; // @synthesize containerServerInfo=_containerServerInfo;
-@property(readonly, nonatomic) NSObject<OS_dispatch_group> *infoFetchedGroup; // @synthesize infoFetchedGroup=_infoFetchedGroup;
-@property(nonatomic) _Bool requireUserIDs; // @synthesize requireUserIDs=_requireUserIDs;
 
 @end
 

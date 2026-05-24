@@ -13,18 +13,18 @@ __attribute__((visibility("hidden")))
     struct CGPoint _originalTouchPoint;
 }
 
++ (_Bool)FreeCursorOut;
 + (_Bool);
-+ (_Bool);
-- (void);
+- (void);
 - (struct CGPoint)@ù
 × ;
 - (id)1Â0@ù
 × ;
 - (void)0:(struct CGPoint)arg1 8{CGRect={CGPoint=dd}{CGSize=dd}}16@48i56;
-- (void)ctionViewAlpha:(id)arg1;
-- (void)reRecipients:(id)arg1;
-- (void)btreeFromSnapshotter:(id)arg1 atIndex:(id)arg2 adjustedIndex: /* Error: Ran out of types for this method. */;
-- (void)missAnimated:(double)arg1 triggeringAction: /* Error: Ran out of types for this method. */;
+- (void)setCollectionViewAlpha:(id)arg1;
+- (void)activityViewControllerShareRecipients:(id)arg1;
+- (void)_insertSubtreeFromSnapshotter:(id)arg1 atIndex:(id)arg2 adjustedIndex: /* Error: Ran out of types for this method. */;
+- (void)_dismissAnimated:(double)arg1 triggeringAction: /* Error: Ran out of types for this method. */;
 - (double);
 - (void)= nil;
 

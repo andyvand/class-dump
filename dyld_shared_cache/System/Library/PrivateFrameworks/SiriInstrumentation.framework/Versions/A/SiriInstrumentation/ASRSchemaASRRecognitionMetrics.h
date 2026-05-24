@@ -6,69 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class ASRSchemaASREmojiMetrics, ASRSchemaASRRecognizerComponents, ASRSchemaASRRescoringDeliberationResult, NSArray, NSData, NSString;
-
 @interface ASRSchemaASRRecognitionMetrics : SISchemaInstrumentationMessage
 {
     unsigned long long _personalizedLanguageModelAgeInNs;
-    float _personalizedLanguageModelWeight;
-    ASRSchemaASRRecognizerComponents *_recognizerComponents;
-    float _averageActiveTokensPerFrame;
-    NSArray *_languageModelInterpolationWeights;
-    float _signalToNoiseRatioInDecibels;
-    unsigned long long _recognitionDurationInNs;
-    unsigned long long _audioDurationInNs;
-    _Bool _eagerEnabled;
-    _Bool _utteranceDetectionEnabled;
-    _Bool _utteranceConcatenationEnabled;
-    _Bool _continuousListeningEnabled;
-    unsigned long long _eagerCustomerPerceivedLatencyInNs;
-    float _cpuRealTimeFactor;
-    unsigned int _numLanguageModelEnrollmentDataStreams;
-    NSString *_phoneticMatchDecoderName;
-    unsigned long long _inverseTextNormalizationDurationInNs;
-    ASRSchemaASREmojiMetrics *_emojiMetrics;
-    NSArray *_pausedAudioDurationsInNs;
-    unsigned long long _inverseTextNormalizationDurationForFinalResultInNs;
-    unsigned int _numberOfInverseTextNormalizationRuns;
-    unsigned long long _secondaryPassDurationInNs;
-    unsigned int _numberOfSecondaryPassRuns;
-    unsigned long long _cpuInstructionsInMillionsPerSecond;
-    unsigned long long _appleNeuralEngineCpuTimeInNs;
-    unsigned long long _pageInsWaitTimeInNs;
-    int _recognitionHardware;
-    unsigned int _numIngestedNeuralContextualBiasingEmbeddings;
-    NSArray *_pauseReasons;
-    ASRSchemaASRRescoringDeliberationResult *_rescoringDeliberationResult;
-    struct {
-        unsigned int personalizedLanguageModelAgeInNs:1;
-        unsigned int personalizedLanguageModelWeight:1;
-        unsigned int averageActiveTokensPerFrame:1;
-        unsigned int signalToNoiseRatioInDecibels:1;
-        unsigned int recognitionDurationInNs:1;
-        unsigned int audioDurationInNs:1;
-        unsigned int eagerEnabled:1;
-        unsigned int utteranceDetectionEnabled:1;
-        unsigned int utteranceConcatenationEnabled:1;
-        unsigned int continuousListeningEnabled:1;
-        unsigned int eagerCustomerPerceivedLatencyInNs:1;
-        unsigned int cpuRealTimeFactor:1;
-        unsigned int numLanguageModelEnrollmentDataStreams:1;
-        unsigned int inverseTextNormalizationDurationInNs:1;
-        unsigned int inverseTextNormalizationDurationForFinalResultInNs:1;
-        unsigned int numberOfInverseTextNormalizationRuns:1;
-        unsigned int secondaryPassDurationInNs:1;
-        unsigned int numberOfSecondaryPassRuns:1;
-        unsigned int cpuInstructionsInMillionsPerSecond:1;
-        unsigned int appleNeuralEngineCpuTimeInNs:1;
-        unsigned int pageInsWaitTimeInNs:1;
-        unsigned int recognitionHardware:1;
-        unsigned int numIngestedNeuralContextualBiasingEmbeddings:1;
-    } _has;
-    _Bool _hasRecognizerComponents;
-    _Bool _hasPhoneticMatchDecoderName;
-    _Bool _hasEmojiMetrics;
-    _Bool _hasRescoringDeliberationResult;
 }
 
 - (_Bool);
@@ -78,6 +18,26 @@
 - (void);
 - (void);
 - (void);
+- (void)?׀J;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)P;
+- (void);
+- (void)v^;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)!;
 - (void);
 - (void);
 - (void);
@@ -96,27 +56,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)#;
 - (void);
 - (void);
 - (void);
@@ -155,12 +95,12 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)OA�s;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)T;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -184,7 +124,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -217,10 +157,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (float);
 - (_Bool);
-- (_Bool);
+- (_Bool)Th;
 - (_Bool);
 - (void);
 - (void);
@@ -232,72 +172,15 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id)n;
+- (id)toolDisambiguation;
 - (id)À èTxt¼à(PÀ,L(pà(à¼t¼pPèxX ¼ª«À¬p®,°L±T³t´ µèµ8··¹Ð¹üºD»p¼¸¼ä½,¾X¿ ¿ÌÀÁ@Â¨ÃdÅ¬ÅÆÇüÇDÈ$ÉlÉLÊÜÊ¼ËÌÎTÎpÒ¸ÒÓàÓÀÔÕèÕ0Ö\×¤×ÈØÙ4Ú|ÚÈÛÜ<ÝÝ¨ÞðÞà\àÌáâ8ãã`ä¨äÌåæðæ8ç$êlê¼ëìîî¸ï;
 - (id)ôîöÿÐÖ2ÿ;
 - (void)Ü$ªÿ;
 
 // Remaining properties
-@property(nonatomic) unsigned long long appleNeuralEngineCpuTimeInNs; // @synthesize appleNeuralEngineCpuTimeInNs=_appleNeuralEngineCpuTimeInNs;
-@property(nonatomic) unsigned long long audioDurationInNs; // @synthesize audioDurationInNs=_audioDurationInNs;
-@property(nonatomic) float averageActiveTokensPerFrame; // @synthesize averageActiveTokensPerFrame=_averageActiveTokensPerFrame;
-@property(nonatomic) _Bool continuousListeningEnabled; // @synthesize continuousListeningEnabled=_continuousListeningEnabled;
-@property(nonatomic) unsigned long long cpuInstructionsInMillionsPerSecond; // @synthesize cpuInstructionsInMillionsPerSecond=_cpuInstructionsInMillionsPerSecond;
-@property(nonatomic) float cpuRealTimeFactor; // @synthesize cpuRealTimeFactor=_cpuRealTimeFactor;
-@property(nonatomic) unsigned long long eagerCustomerPerceivedLatencyInNs; // @synthesize eagerCustomerPerceivedLatencyInNs=_eagerCustomerPerceivedLatencyInNs;
-@property(nonatomic) _Bool eagerEnabled; // @synthesize eagerEnabled=_eagerEnabled;
-@property(retain, nonatomic) ASRSchemaASREmojiMetrics *emojiMetrics; // @synthesize emojiMetrics=_emojiMetrics;
-@property(nonatomic) _Bool hasAppleNeuralEngineCpuTimeInNs;
-@property(nonatomic) _Bool hasAudioDurationInNs;
-@property(nonatomic) _Bool hasAverageActiveTokensPerFrame;
-@property(nonatomic) _Bool hasContinuousListeningEnabled;
-@property(nonatomic) _Bool hasCpuInstructionsInMillionsPerSecond;
-@property(nonatomic) _Bool hasCpuRealTimeFactor;
-@property(nonatomic) _Bool hasEagerCustomerPerceivedLatencyInNs;
-@property(nonatomic) _Bool hasEagerEnabled;
-@property(nonatomic) _Bool hasEmojiMetrics; // @synthesize hasEmojiMetrics=_hasEmojiMetrics;
-@property(nonatomic) _Bool hasInverseTextNormalizationDurationForFinalResultInNs;
-@property(nonatomic) _Bool hasInverseTextNormalizationDurationInNs;
-@property(nonatomic) _Bool hasNumIngestedNeuralContextualBiasingEmbeddings;
-@property(nonatomic) _Bool hasNumLanguageModelEnrollmentDataStreams;
-@property(nonatomic) _Bool hasNumberOfInverseTextNormalizationRuns;
-@property(nonatomic) _Bool hasNumberOfSecondaryPassRuns;
-@property(nonatomic) _Bool hasPageInsWaitTimeInNs;
-@property(nonatomic) _Bool hasPersonalizedLanguageModelAgeInNs;
-@property(nonatomic) _Bool hasPersonalizedLanguageModelWeight;
-@property(nonatomic) _Bool hasPhoneticMatchDecoderName; // @synthesize hasPhoneticMatchDecoderName=_hasPhoneticMatchDecoderName;
-@property(nonatomic) _Bool hasRecognitionDurationInNs;
-@property(nonatomic) _Bool hasRecognitionHardware;
-@property(nonatomic) _Bool hasRecognizerComponents; // @synthesize hasRecognizerComponents=_hasRecognizerComponents;
-@property(nonatomic) _Bool hasRescoringDeliberationResult; // @synthesize hasRescoringDeliberationResult=_hasRescoringDeliberationResult;
-@property(nonatomic) _Bool hasSecondaryPassDurationInNs;
-@property(nonatomic) _Bool hasSignalToNoiseRatioInDecibels;
-@property(nonatomic) _Bool hasUtteranceConcatenationEnabled;
-@property(nonatomic) _Bool hasUtteranceDetectionEnabled;
-@property(nonatomic) unsigned long long inverseTextNormalizationDurationForFinalResultInNs; // @synthesize inverseTextNormalizationDurationForFinalResultInNs=_inverseTextNormalizationDurationForFinalResultInNs;
-@property(nonatomic) unsigned long long inverseTextNormalizationDurationInNs; // @synthesize inverseTextNormalizationDurationInNs=_inverseTextNormalizationDurationInNs;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(copy, nonatomic) NSArray *languageModelInterpolationWeights; // @synthesize languageModelInterpolationWeights=_languageModelInterpolationWeights;
-@property(nonatomic) unsigned int numIngestedNeuralContextualBiasingEmbeddings; // @synthesize numIngestedNeuralContextualBiasingEmbeddings=_numIngestedNeuralContextualBiasingEmbeddings;
-@property(nonatomic) unsigned int numLanguageModelEnrollmentDataStreams; // @synthesize numLanguageModelEnrollmentDataStreams=_numLanguageModelEnrollmentDataStreams;
-@property(nonatomic) unsigned int numberOfInverseTextNormalizationRuns; // @synthesize numberOfInverseTextNormalizationRuns=_numberOfInverseTextNormalizationRuns;
-@property(nonatomic) unsigned int numberOfSecondaryPassRuns; // @synthesize numberOfSecondaryPassRuns=_numberOfSecondaryPassRuns;
-@property(nonatomic) unsigned long long pageInsWaitTimeInNs; // @synthesize pageInsWaitTimeInNs=_pageInsWaitTimeInNs;
-@property(copy, nonatomic) NSArray *pauseReasons; // @synthesize pauseReasons=_pauseReasons;
-@property(copy, nonatomic) NSArray *pausedAudioDurationsInNs; // @synthesize pausedAudioDurationsInNs=_pausedAudioDurationsInNs;
 @property(nonatomic) unsigned long long personalizedLanguageModelAgeInNs; // @synthesize personalizedLanguageModelAgeInNs=_personalizedLanguageModelAgeInNs;
-@property(nonatomic) float personalizedLanguageModelWeight; // @synthesize personalizedLanguageModelWeight=_personalizedLanguageModelWeight;
-@property(copy, nonatomic) NSString *phoneticMatchDecoderName; // @synthesize phoneticMatchDecoderName=_phoneticMatchDecoderName;
-@property(nonatomic) unsigned long long recognitionDurationInNs; // @synthesize recognitionDurationInNs=_recognitionDurationInNs;
-@property(nonatomic) int recognitionHardware; // @synthesize recognitionHardware=_recognitionHardware;
-@property(retain, nonatomic) ASRSchemaASRRecognizerComponents *recognizerComponents; // @synthesize recognizerComponents=_recognizerComponents;
-@property(retain, nonatomic) ASRSchemaASRRescoringDeliberationResult *rescoringDeliberationResult; // @synthesize rescoringDeliberationResult=_rescoringDeliberationResult;
-@property(nonatomic) unsigned long long secondaryPassDurationInNs; // @synthesize secondaryPassDurationInNs=_secondaryPassDurationInNs;
-@property(nonatomic) float signalToNoiseRatioInDecibels; // @synthesize signalToNoiseRatioInDecibels=_signalToNoiseRatioInDecibels;
-@property(nonatomic) _Bool utteranceConcatenationEnabled; // @synthesize utteranceConcatenationEnabled=_utteranceConcatenationEnabled;
-@property(nonatomic) _Bool utteranceDetectionEnabled; // @synthesize utteranceDetectionEnabled=_utteranceDetectionEnabled;
 
 @end
 

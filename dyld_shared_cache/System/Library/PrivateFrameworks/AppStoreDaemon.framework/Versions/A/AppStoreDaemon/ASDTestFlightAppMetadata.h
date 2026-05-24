@@ -4,62 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ACAccount, ASDTestFlightAppGenre, NSArray, NSData, NSDictionary, NSNumber, NSString, NSURL;
+@class ACAccount;
 
 @interface ASDTestFlightAppMetadata
 {
     _Bool _requiresPowerPluggedIn_wasSet;
-    _Bool _requiresPowerPluggedIn;
-    _Bool _userInitiated;
-    _Bool _hasMessagesExtension;
-    _Bool _launchProhibited;
-    ACAccount *_account;
-    NSURL *_artworkURL;
-    NSDictionary *_backgroundAssetMetadata;
-    NSString *_betaBuildGroupID;
-    unsigned long long _betaTesterType;
-    NSString *_bundleDirectoryName;
-    NSString *_bundleID;
-    NSString *_bundleVersion;
-    NSNumber *_chunkSize;
-    NSArray *_clearHashes;
-    NSString *_companionBundleID;
-    NSArray *_cryptHashes;
-    NSURL *_existingBundleURL;
-    NSNumber *_externalVersionIdentifier;
-    ASDTestFlightAppGenre *_genre;
-    NSArray *_genreIDs;
-    long long _hashType;
-    NSNumber *_initialODRSize;
-    NSNumber *_itemID;
-    NSString *_itemName;
-    NSDictionary *_placeholderEntitlements;
-    NSURL *_messagesArtworkURL;
-    long long _packageCompression;
-    NSData *_packageDPInfo;
-    long long _packageFormat;
-    NSData *_packageSINF;
-    NSNumber *_packageSize;
-    NSURL *_packageURL;
-    NSArray *_provisioningProfiles;
-    NSData *_receipt;
-    NSString *_shortBundleVersion;
-    long long _softwarePlatform;
-    NSString *_storeCohort;
-    NSNumber *_storeFront;
-    NSArray *_subGenres;
-    NSString *_token;
-    NSString *_variantID;
-    NSString *_vendorName;
-    NSString *_volumeID;
 }
 
 + (_Bool);
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
+- (void);
+- (void)=;
 - (void);
 - (void);
 - (void);
@@ -105,7 +62,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void);
 - (long long);
 - (void);
 - (id);
@@ -121,22 +78,22 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)t;
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (id);
-- (long long);
+- (void);
 - (void);
 - (id);
 - (id);
 - (void);
-- (long long);
+- (id)td;
+- (void);
+- (id)Trace recording already in progress.;
+- (long long)rator;
+- (void);
+- (id);
+- (id);
+- (void);
+- (long long);
 - (id);
 - (void);
 - (id);
@@ -149,56 +106,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) ACAccount *account; // @synthesize account=_account;
-@property(copy, nonatomic) NSURL *artworkURL; // @synthesize artworkURL=_artworkURL;
-@property(copy, nonatomic) NSDictionary *backgroundAssetMetadata; // @synthesize backgroundAssetMetadata=_backgroundAssetMetadata;
-@property(copy, nonatomic) NSString *betaBuildGroupID; // @synthesize betaBuildGroupID=_betaBuildGroupID;
-@property unsigned long long betaTesterType; // @synthesize betaTesterType=_betaTesterType;
-@property(copy, nonatomic) NSString *bundleDirectoryName; // @synthesize bundleDirectoryName=_bundleDirectoryName;
-@property(readonly, nonatomic) NSString *bundleID; // @synthesize bundleID=_bundleID;
-@property(copy, nonatomic) NSString *bundleVersion; // @synthesize bundleVersion=_bundleVersion;
-@property(copy, nonatomic) NSNumber *chunkSize; // @synthesize chunkSize=_chunkSize;
-@property(copy, nonatomic) NSArray *clearHashes; // @synthesize clearHashes=_clearHashes;
-@property(copy, nonatomic) NSString *companionBundleID; // @synthesize companionBundleID=_companionBundleID;
-@property(copy, nonatomic) NSArray *cryptHashes; // @synthesize cryptHashes=_cryptHashes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy, nonatomic) NSURL *existingBundleURL; // @synthesize existingBundleURL=_existingBundleURL;
-@property(copy, nonatomic) NSNumber *externalVersionIdentifier; // @synthesize externalVersionIdentifier=_externalVersionIdentifier;
-@property(copy, nonatomic) ASDTestFlightAppGenre *genre; // @synthesize genre=_genre;
-@property(copy, nonatomic) NSArray *genreIDs; // @synthesize genreIDs=_genreIDs;
-@property(nonatomic) _Bool hasMessagesExtension; // @synthesize hasMessagesExtension=_hasMessagesExtension;
-@property(readonly) unsigned long long hash;
-@property long long hashType; // @synthesize hashType=_hashType;
-@property(copy, nonatomic) NSNumber *initialODRSize; // @synthesize initialODRSize=_initialODRSize;
-@property(copy, nonatomic) NSNumber *itemID; // @synthesize itemID=_itemID;
-@property(copy, nonatomic) NSString *itemName; // @synthesize itemName=_itemName;
-@property(nonatomic, getter=isLaunchProhibited) _Bool launchProhibited; // @synthesize launchProhibited=_launchProhibited;
-@property(copy, nonatomic) NSURL *messagesArtworkURL; // @synthesize messagesArtworkURL=_messagesArtworkURL;
-@property(readonly) long long metadataType;
-@property(nonatomic) long long packageCompression; // @synthesize packageCompression=_packageCompression;
-@property(copy, nonatomic) NSData *packageDPInfo; // @synthesize packageDPInfo=_packageDPInfo;
-@property long long packageFormat; // @synthesize packageFormat=_packageFormat;
-@property(copy, nonatomic) NSData *packageSINF; // @synthesize packageSINF=_packageSINF;
-@property(copy, nonatomic) NSNumber *packageSize; // @synthesize packageSize=_packageSize;
-@property(copy, nonatomic) NSURL *packageURL; // @synthesize packageURL=_packageURL;
-@property(copy, nonatomic) NSDictionary *placeholderEntitlements; // @synthesize placeholderEntitlements=_placeholderEntitlements;
-@property(copy, nonatomic) NSArray *provisioningProfiles; // @synthesize provisioningProfiles=_provisioningProfiles;
-@property(copy, nonatomic) NSData *receipt; // @synthesize receipt=_receipt;
-@property _Bool requiresPowerPluggedIn; // @synthesize requiresPowerPluggedIn=_requiresPowerPluggedIn;
-@property(copy, nonatomic) NSString *shortBundleVersion; // @synthesize shortBundleVersion=_shortBundleVersion;
-@property long long softwarePlatform; // @synthesize softwarePlatform=_softwarePlatform;
-@property(copy, nonatomic) NSString *storeCohort; // @synthesize storeCohort=_storeCohort;
-@property(copy, nonatomic) NSNumber *storeFront; // @synthesize storeFront=_storeFront;
-@property(copy, nonatomic) NSArray *subGenres; // @synthesize subGenres=_subGenres;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *token; // @synthesize token=_token;
-@property(nonatomic) _Bool userInitiated; // @synthesize userInitiated=_userInitiated;
-@property(copy, nonatomic) NSString *variantID; // @synthesize variantID=_variantID;
-@property(copy, nonatomic) NSString *vendorName; // @synthesize vendorName=_vendorName;
-@property(copy, nonatomic) NSString *volumeID; // @synthesize volumeID=_volumeID;
 
 @end
 

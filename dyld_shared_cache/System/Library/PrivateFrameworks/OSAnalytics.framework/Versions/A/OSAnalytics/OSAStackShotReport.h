@@ -6,29 +6,9 @@
 
 #import <OSAnalytics/OSAReport.h>
 
-@class NSArray, NSDictionary, NSMutableArray, NSMutableDictionary, NSString;
-
 @interface OSAStackShotReport : OSAReport
 {
     int _pid;
-    NSString *_appName;
-    NSString *_reason;
-    long long *_exceptionCodes;
-    unsigned int _exceptionCodeCount;
-    NSDictionary *_additionalPayload;
-    int _thermalNotificationCurrentLevel;
-    NSArray *_thermalSensorValues;
-    NSMutableArray *_frontmostPids;
-    NSMutableDictionary *_extras;
-    void *_stackshot_config;
-    const void *_ss_trace_buffer;
-    unsigned int _ss_trace_length;
-    _Bool _includeSyslog;
-    _Bool _dead_snapshot;
-    int _jetsamLevel;
-    unsigned int _flags;
-    unsigned int _ss_sequence;
-    unsigned long long _capture_absoluteTime;
 }
 
 - (id);
@@ -43,7 +23,7 @@
 - (void);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
 - (unsigned int);
 - (void);
@@ -58,37 +38,22 @@
 - (id);
 - (int);
 - (id);
+- (void);
 - (void);
 - (void);
-- (void);
-- (int);
-- (id);
+- (int)estatequeue;
+- (id)!;
 - (unsigned int);
 - (unsigned int);
 - (void);
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)encodeInteger:(_Bool)arg1 forKey:(CDUnknownBlockType)arg2;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long capture_absoluteTime; // @synthesize capture_absoluteTime=_capture_absoluteTime;
-@property(nonatomic) _Bool dead_snapshot; // @synthesize dead_snapshot=_dead_snapshot;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) unsigned int flags; // @synthesize flags=_flags;
-@property(readonly, nonatomic) NSArray *frontmostPids; // @synthesize frontmostPids=_frontmostPids;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) _Bool includeSyslog; // @synthesize includeSyslog=_includeSyslog;
-@property(nonatomic) int jetsamLevel; // @synthesize jetsamLevel=_jetsamLevel;
-@property(nonatomic) unsigned int ss_sequence; // @synthesize ss_sequence=_ss_sequence;
-@property(readonly, nonatomic) const void *ss_trace_buffer; // @synthesize ss_trace_buffer=_ss_trace_buffer;
-@property(readonly, nonatomic) unsigned int ss_trace_length; // @synthesize ss_trace_length=_ss_trace_length;
-@property(readonly) Class superclass;
 
 @end
 

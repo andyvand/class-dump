@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSXPCConnection, NSXPCInterface;
-
 @interface PREXPCClientHelpers
 {
     struct _opaque_pthread_mutex_t {
         long long __sig;
         char __opaque[56];
     } _connLock;
-    NSXPCConnection *_conn;
-    NSString *_serviceName;
-    NSXPCInterface *_whitelistedServerInterface;
-    id _clientExportedObject;
-    CDUnknownBlockType _interruptionHandler;
-    CDUnknownBlockType _invalidationHandler;
 }
 
 - (id);

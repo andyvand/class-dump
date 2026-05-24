@@ -6,32 +6,14 @@
 
 #import <Sharing/SFPeerDevice.h>
 
-@class NSData, NSDictionary, NSString, NSUUID;
+@class NSString;
 
 @interface SFAutoUnlockDevice : SFPeerDevice
 {
     _Bool _unlockEnabled;
-    _Bool _keyExists;
-    _Bool _canUnlockDevice;
-    _Bool _bluetoothCloudPaired;
-    _Bool _supportsApproveWithWatch;
-    _Bool _placeholder;
-    _Bool _supportsAlwaysDirect;
-    _Bool _supportsApproveIcon;
-    _Bool _supportsEncryption;
-    _Bool _supportsAdvertisingUnlocked;
-    _Bool _supportsConnectionCache;
-    _Bool _supportsHEIC;
-    NSString *_modelDescription;
-    NSUUID *_bluetoothID;
-    NSUUID *_proxyBluetoothID;
-    NSString *_modelName;
-    NSDictionary *_results;
-    NSData *_hintToken;
-    long long _majorOSVersion;
 }
 
-+ (_Bool);
++ (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -54,14 +36,14 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (void);
-- (_Bool);
+- (void);
+- (_Bool)C;
 - (void);
 - (long long);
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id)[;
 - (id);
 - (id);
 - (id);
@@ -69,37 +51,18 @@
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
+- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 - (void)ñÅ+Ð1Â0@ù
 × ;
-- (id)load:command:timeout:withCompletionHandler: /* Error: Ran out of types for this method. */;
-- (void)4;
+- (id)activityPayloadFromDeviceUniqueID:forAdvertisementPayload:command:timeout:withCompletionHandler: /* Error: Ran out of types for this method. */;
+- (void)base4;
 
 // Remaining properties
-@property(nonatomic) _Bool bluetoothCloudPaired; // @synthesize bluetoothCloudPaired=_bluetoothCloudPaired;
-@property(retain, nonatomic) NSUUID *bluetoothID; // @synthesize bluetoothID=_bluetoothID;
-@property(nonatomic) _Bool canUnlockDevice; // @synthesize canUnlockDevice=_canUnlockDevice;
-@property(retain, nonatomic) NSData *hintToken; // @synthesize hintToken=_hintToken;
-@property(nonatomic) _Bool keyExists; // @synthesize keyExists=_keyExists;
-@property(nonatomic) long long majorOSVersion; // @synthesize majorOSVersion=_majorOSVersion;
 @property(copy, nonatomic) NSString *modelDescription; // @synthesize modelDescription=_modelDescription;
-@property(retain, nonatomic) NSString *modelName; // @synthesize modelName=_modelName;
-@property(nonatomic) _Bool placeholder; // @synthesize placeholder=_placeholder;
-@property(copy, nonatomic) NSUUID *proxyBluetoothID; // @synthesize proxyBluetoothID=_proxyBluetoothID;
-@property(retain, nonatomic) NSDictionary *results; // @synthesize results=_results;
-@property(nonatomic) _Bool supportsAdvertisingUnlocked; // @synthesize supportsAdvertisingUnlocked=_supportsAdvertisingUnlocked;
-@property(nonatomic) _Bool supportsAlwaysDirect; // @synthesize supportsAlwaysDirect=_supportsAlwaysDirect;
-@property(nonatomic) _Bool supportsApproveIcon; // @synthesize supportsApproveIcon=_supportsApproveIcon;
-@property(nonatomic) _Bool supportsApproveWithWatch; // @synthesize supportsApproveWithWatch=_supportsApproveWithWatch;
-@property(nonatomic) _Bool supportsConnectionCache; // @synthesize supportsConnectionCache=_supportsConnectionCache;
-@property(nonatomic) _Bool supportsEncryption; // @synthesize supportsEncryption=_supportsEncryption;
-@property(nonatomic) _Bool supportsHEIC; // @synthesize supportsHEIC=_supportsHEIC;
-@property(readonly, nonatomic) long long type;
-@property(nonatomic) _Bool unlockEnabled; // @synthesize unlockEnabled=_unlockEnabled;
 
 @end
 

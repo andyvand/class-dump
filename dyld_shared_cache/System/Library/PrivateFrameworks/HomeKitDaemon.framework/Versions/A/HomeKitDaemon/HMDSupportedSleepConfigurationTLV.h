@@ -4,42 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPTLVUnsignedNumberValue, NSMutableArray, NSString;
+@class HAPTLVUnsignedNumberValue;
 
 __attribute__((visibility("hidden")))
 @interface HMDSupportedSleepConfigurationTLV
 {
     HAPTLVUnsignedNumberValue *_version;
-    NSMutableArray *_supportedWoLPacketConfigurations;
-    HAPTLVUnsignedNumberValue *_darkPollMinimumInterval;
 }
 
-+ (id);
++ (id)numberOfDaysInAggregations;
 - (id);
 - (void);
 - (void);
+- (id)essionDelegate>";
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)DIMENSIONS!!!! Could not create bitmap context, bytesPerRow:%lu width:%lu height:%lu /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)sersWithSettings;
+- (id)numUsersWithSettings;
 - (void)dVersion;
 
 // Remaining properties
-@property(retain, nonatomic) HAPTLVUnsignedNumberValue *darkPollMinimumInterval; // @synthesize darkPollMinimumInterval=_darkPollMinimumInterval;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) NSMutableArray *supportedWoLPacketConfigurations; // @synthesize supportedWoLPacketConfigurations=_supportedWoLPacketConfigurations;
 @property(retain, nonatomic) HAPTLVUnsignedNumberValue *version; // @synthesize version=_version;
 
 @end

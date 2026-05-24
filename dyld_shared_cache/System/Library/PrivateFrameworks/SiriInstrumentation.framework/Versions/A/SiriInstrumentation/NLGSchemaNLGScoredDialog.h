@@ -6,22 +6,15 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface NLGSchemaNLGScoredDialog : SISchemaInstrumentationMessage
 {
     NSString *_catFamily;
-    NSString *_catIdentifier;
-    NSString *_scoredDialogIdentifier;
-    float _score;
-    CDStruct_4b1634df _has;
-    _Bool _hasCatFamily;
-    _Bool _hasCatIdentifier;
-    _Bool _hasScoredDialogIdentifier;
 }
 
 - (void);
-- (void);
+- (void)WF�A;
 - (void);
 - (void);
 - (void);
@@ -34,19 +27,19 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)VvSgJVU1ABYAKBfSEixcow2MBBIi4IBxAAIICangEoADAASgVhcHBsZUoGZndkZ2VvSgJVU1ABYAKBfSEixcow2MBBIi4IJBAAIICangEoADAASgVhcHBsZUoGZndkZ2VvSgJVU1ABYAKBfSEixcow2MBBIi4IDRAAIICangEoADAASgVhcHBsZUoGZndkZ2VvSgJVU1ABYAKBfSEixcow2MBBIi4IGhAAIICangEoADAASgVhcHBsZUoGZndkZ2VvSgJVU1ABYAKBfSEixcow2MBBIn4IBBAAIICangEoADABQk4iTAokKZnz623PqkJAMQB2A0udgF7AOb9Vid3sqkJAQWIKQciKgF7AEiQp7bmn90qqQkAxS1pul/CAXsA5a4/NU3GrQkBBFybWezeAXsBKBWFwcGxlSgZmd2RnZW9KAlVTUAFgAoF9ISLFyjDYwEEiaggpEAAggJqeASgAMAFCT8oCTILxBEgKCgoIbWFwaXRlbXM4AkI4EjYKNDEgQXBwbGUgUGFyayBXYXksIEN1cGVydGlubywgQ0EgOTUwMTQsIFVuaXRlZCBTdGF0ZXNgAoF9ISLFyjDYwEEiLggPEAAggJqeASgAMABKBWFwcGxlSgZmd2RnZW9KAlVTUAFgAoF9ISLFyjDYwEEiGQgQEAAggJqeASgAMABgAoF9ISLFyjDYwEEiLggeEAAggJqeASgAMABKBWFwcGxlSgZmd2RnZW9KAlVTUAFgAoF9ISLFyjDYwEEiLgghEAAggJqeASgAMABKBWFwcGxlSgZmd2RnZW9KAlVTUAFgAoF9ISLFyjDYwEEiLggmEAAggJqeASgAMABKBWFwcGxlSgZmd2RnZW9KAlVTUAFgAoF9ISLFyjDYwEEiLggwEAAggJqeASgAMABKBWFwcGxlSgZmd2RnZW9KAlVTUAFgAoF9ISLFyjDYwEEiLggyEAAggJqeASgAMABKBWFwcGxlSgZmd2RnZW9KAlVTUAFgAoF9ISLFyjDYwEEiLgg2EAAggJqeASgAMABKBWFwcGxlSgZmd2RnZW9KAlVTUAFgAoF9ISLFyjDYwEEiLgg5EAAggJqeASgAMABKBWFwcGxlSgZmd2RnZW9KAlVTUAFgAoF9ISLFyjDYwEEiLghBEAAggJqeASgAMABKBWFwcGxlSgZmd2RnZW9KAlVTUAFgAoF9ISLFyjDYwEEiLghCEAAggJqeASgAMABKBWFwcGxlSgZmd2RnZW9KAlVTUAFgAoF9ISLFyjDYwEEo2TLADAHKDD4IAhI6EjgKNDEgQXBwbGUgUGFyayBXYXksIEN1cGVydGlubywgQ0EgOTUwMTQsIFVuaXRlZCBTdGF0ZXMQARoSCaykuiXeqkJAETFAogmUgF7A;
+- (void)telephoneNumber;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
 - (id)
 × ;
-- (float)Present: /* Error: Ran out of types for this method. */;
+- (float)setIsMediaArtistPresent: /* Error: Ran out of types for this method. */;
 - (id)NetworkError;
 - (id)SchemaORCHIdentityBridgeRequestContext",&,N,V_identityBridgeRequestContext;
 - (void);
@@ -54,14 +47,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSString *catFamily; // @synthesize catFamily=_catFamily;
-@property(copy, nonatomic) NSString *catIdentifier; // @synthesize catIdentifier=_catIdentifier;
-@property(nonatomic) _Bool hasCatFamily; // @synthesize hasCatFamily=_hasCatFamily;
-@property(nonatomic) _Bool hasCatIdentifier; // @synthesize hasCatIdentifier=_hasCatIdentifier;
-@property(nonatomic) _Bool hasScore;
-@property(nonatomic) _Bool hasScoredDialogIdentifier; // @synthesize hasScoredDialogIdentifier=_hasScoredDialogIdentifier;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) float score; // @synthesize score=_score;
-@property(copy, nonatomic) NSString *scoredDialogIdentifier; // @synthesize scoredDialogIdentifier=_scoredDialogIdentifier;
 
 @end
 

@@ -9,9 +9,6 @@
 @interface PKPhysicsJointDistance : PKPhysicsJoint
 {
     struct b2DistanceJointDef _jointDef;
-    struct b2DistanceJoint *_joint;
-    struct CGPoint _anchorA;
-    struct CGPoint _anchorB;
 }
 
 + (id);
@@ -20,15 +17,15 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool);
 - (struct b2JointDef *);
 - (struct b2Joint *);
 - (void);
 - (id);
 - (double);
 - (id);
-- (void);
+- (void)WiFiVideoUpgradeProcessor;
 - (void);
 - (void);
 - (void);
@@ -38,10 +35,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool collideConnected;
 @property(nonatomic) double damping;
-@property(nonatomic) double frequency;
-@property(nonatomic) double length;
 
 @end
 

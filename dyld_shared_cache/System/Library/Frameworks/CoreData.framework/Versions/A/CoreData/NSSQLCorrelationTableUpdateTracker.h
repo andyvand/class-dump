@@ -10,10 +10,6 @@ __attribute__((visibility("hidden")))
 @interface NSSQLCorrelationTableUpdateTracker
 {
     NSSQLManyToMany *_relationship;
-    id _inserts;
-    id _deletes;
-    id _masterUpdates;
-    id _otherUpdates;
 }
 
 - (id);

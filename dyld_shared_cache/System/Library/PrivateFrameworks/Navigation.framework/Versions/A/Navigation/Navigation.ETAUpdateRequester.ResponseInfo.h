@@ -7,14 +7,10 @@
 @interface Navigation.ETAUpdateRequester.ResponseInfo
 {
     id reason;
-    id result;
-    id request;
-    id response;
-    id responseTime;
 }
 
 - (id);
-- (void)eSelectedVehicle: /* Error: Ran out of types for this method. */;
+- (void)virtualGarageManager:didUpdateSelectedVehicle: /* Error: Ran out of types for this method. */;
 
 @end
 

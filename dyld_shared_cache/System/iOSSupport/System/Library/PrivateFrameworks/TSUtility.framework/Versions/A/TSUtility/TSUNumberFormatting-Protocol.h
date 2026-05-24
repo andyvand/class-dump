@@ -4,6 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol TSUNumberFormatting
+- (NSString *)tagFeedModule;
+- (NSString *)activityIndicator;
+- (NSString *)continueButton;
+- (id)LayoutDescriptor;
+- (id)feedItemSupplementaryRenderer;
+- (id);
+- (id)configurationManager;
+- (NSString *)_permissionsCoordinator;
+- (id)allowsReorderingWhileOnline;
+- (NSString *)_;
 @end
 

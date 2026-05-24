@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BrowserApplication, NSString;
+@class BrowserApplication;
 
 __attribute__((visibility("hidden")))
 @interface PPTController
 {
     BrowserApplication *_browserApplication;
-    NSString *_currentTestName;
-    _Bool _currentTestResult;
 }
 
 - (id);
@@ -21,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool)dingSubtitleLabel:(id)arg1;
+- (_Bool)setBottomLeadingSubtitleLabel:(id)arg1;
 - (void);
 
 @end

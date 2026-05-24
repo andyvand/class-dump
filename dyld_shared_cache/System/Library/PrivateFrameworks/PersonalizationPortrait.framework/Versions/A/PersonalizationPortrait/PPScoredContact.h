@@ -4,23 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, PPContact;
+@class PPContact;
 
 @interface PPScoredContact
 {
     unsigned char _flags;
-    PPContact *_contact;
-    double _score;
-    NSArray *_scoredPhoneNumbers;
-    NSArray *_scoredEmailAddresses;
-    NSArray *_scoredSocialProfiles;
-    NSArray *_scoredPostalAddresses;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)contentView;
 - (id);
 - (unsigned long long);
 - (id);
@@ -40,12 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) PPContact *contact; // @synthesize contact=_contact;
-@property(readonly, nonatomic) unsigned char flags; // @synthesize flags=_flags;
-@property(readonly, nonatomic) double score; // @synthesize score=_score;
-@property(readonly, nonatomic) NSArray *scoredEmailAddresses; // @synthesize scoredEmailAddresses=_scoredEmailAddresses;
-@property(readonly, nonatomic) NSArray *scoredPhoneNumbers; // @synthesize scoredPhoneNumbers=_scoredPhoneNumbers;
-@property(readonly, nonatomic) NSArray *scoredPostalAddresses; // @synthesize scoredPostalAddresses=_scoredPostalAddresses;
-@property(readonly, nonatomic) NSArray *scoredSocialProfiles; // @synthesize scoredSocialProfiles=_scoredSocialProfiles;
 
 @end
 

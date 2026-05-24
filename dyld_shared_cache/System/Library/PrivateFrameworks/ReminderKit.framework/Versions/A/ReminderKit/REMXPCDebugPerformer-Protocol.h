@@ -5,5 +5,9 @@
 //
 
 @protocol REMXPCDebugPerformer
+- (void);
+- (void);
+- (void)!;
+- (void);
 @end
 

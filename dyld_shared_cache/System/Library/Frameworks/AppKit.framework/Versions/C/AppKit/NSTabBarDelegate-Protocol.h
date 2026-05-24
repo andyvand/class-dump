@@ -4,6 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSImage, NSTabBarItem;
+
 @protocol NSTabBarDelegate
+- (unsigned long long)[;
+- (void);
+- (NSImage *);
+- (NSTabBarItem *)__common;
+
+@optional
+- (void)A;
+- (_Bool)_AVAssetURL;
 @end
 

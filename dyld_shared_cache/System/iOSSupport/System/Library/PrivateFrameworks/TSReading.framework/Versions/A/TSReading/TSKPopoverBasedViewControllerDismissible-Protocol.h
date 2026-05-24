@@ -5,5 +5,6 @@
 //
 
 @protocol TSKPopoverBasedViewControllerDismissible
+- (_Bool)DisplayWasDisabled;
 @end
 

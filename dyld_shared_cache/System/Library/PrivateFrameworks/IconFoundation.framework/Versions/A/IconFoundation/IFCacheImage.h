@@ -6,25 +6,23 @@
 
 #import <IconFoundation/IFConcreteImage.h>
 
-@class NSData, NSUUID;
+@class NSUUID;
 
 @interface IFCacheImage : IFConcreteImage
 {
     NSUUID *_uuid;
-    NSData *_validationToken;
 }
 
 + (_Bool);
-- (id);
-- (void);
-- (id);
+- (id);
+- (void)tination options;
+- (id);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly) NSUUID *uuid; // @synthesize uuid=_uuid;
-@property(readonly) NSData *validationToken; // @synthesize validationToken=_validationToken;
 
 @end
 

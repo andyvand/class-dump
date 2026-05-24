@@ -4,50 +4,35 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSTextField, NSView, UAShortcutPickerViewController;
+@class NSView;
 
 @interface UAShortcutPickerWindowController
 {
     CDUnknownBlockType _completionHandler;
-    NSView *__pickerViewControllerContainerView;
-    NSTextField *__promptTextField;
-    UAShortcutPickerViewController *__pickerViewController;
-    NSString *__prompt;
 }
 
-+ (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
++ (void)led";
+- (void)HOMESchemaHOMEAssistantDeviceBirthday";
+- (void)b1"transportType"b1"operationType"b1"wasCached"b1"wasLocal"b1"wasRemoteAccessAllowed"b1"wasResidentFirstEnabled"b1"wasRapportSlow"b1"residentFirstDuration"b1"residentFirstErrorCode"b1"totalDuration"b1"finalErrorCode"b1"consecutiveFailureCount"b1};
+- (void)="communicationProtocol"b1"transportType"b1"operationType"b1"wasCached"b1"wasLocal"b1"wasRemoteAccessAllowed"b1"wasResidentFirstEnabled"b1"wasRapportSlow"b1"residentFirstDuration"b1"residentFirstErrorCode"b1"totalDuration"b1"finalErrorCode"b1"consecutiveFailureCount"b1};
+- (void)eTimerFiredInSeconds"b1};
+- (void)dioCount"b1"iMacCount"b1};
+- (void)GRRFeatureExtractionStarted";
+- (id)hemaRFClientEvent";
+- (id)csReceived";
+- (id)ount"b1};
+- (id)";
+- (id)e"b1"llmAgentName"b1"genAIAgentUsed"b1};
+- (void)_hasExecutionMetadataReported;
 - (void);
 - (CDUnknownBlockType);
-- (void);
+- (void)BTCompanionOut;
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) UAShortcutPickerViewController *_pickerViewController; // @synthesize _pickerViewController=__pickerViewController;
 @property(nonatomic) __weak NSView *_pickerViewControllerContainerView; // @synthesize _pickerViewControllerContainerView=__pickerViewControllerContainerView;
-@property(copy, nonatomic) NSString *_prompt; // @synthesize _prompt=__prompt;
-@property(nonatomic) __weak NSTextField *_promptTextField; // @synthesize _promptTextField=__promptTextField;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

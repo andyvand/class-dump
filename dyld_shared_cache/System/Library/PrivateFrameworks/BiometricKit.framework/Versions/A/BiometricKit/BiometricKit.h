@@ -4,31 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BiometricKitXPCClient, NSDictionary, NSObject, NSString;
-@protocol BiometricKitDelegate, OS_os_log;
+@class BiometricKitXPCClient;
+@protocol BiometricKitDelegate;
 
 @interface BiometricKit
 {
     BiometricKitXPCClient *_xpcClient;
-    int _enrollingMode;
-    int _matchingMode;
-    NSDictionary *_images[300];
-    CDStruct_87aaca7b _compSet;
-    _Bool _showDebugImages;
-    struct {
-        CDStruct_ee380287 nodes[300];
-    } _enrollImageSet;
-    _Bool _isInternalInstall;
-    _Bool _ariadneSignposts;
-    NSObject<OS_os_log> *_osLog;
-    NSObject<OS_os_log> *_osLogTrace;
-    _Bool _inUse;
-    int _enrollProgressConfigRenderMode;
-    id <BiometricKitDelegate> _delegate;
 }
 
 + (long long);
-+ (id);
++ (id)strokeIndicesSortedByMinXCoordinate;
 + (id);
 - (id);
 - (int);
@@ -49,7 +34,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void)_replacementMetadata;
 - (int);
 - (id);
 - (void);
@@ -59,7 +44,7 @@
 - (_Bool);
 - (void);
 - (long long);
-- (long long);
+- (long long);
 - (int);
 - (id);
 - (void);
@@ -70,7 +55,7 @@
 - (_Bool);
 - (void);
 - (id);
-- (int);
+- (int)c;
 - (id);
 - (int);
 - (void);
@@ -78,19 +63,20 @@
 - (id);
 - (_Bool);
 - (int);
-- (void);
+- (void);
 - (int);
 - (id);
 - (int);
 - (long long);
+- (long long)@0:8@16{vector<CGPoint, std::allocator<CGPoint>>=^{CGPoint}^{CGPoint}{?=^{CGPoint}}}24 /* Error: Ran out of types for this method. */;
+- (void)FeatureExtraction;
+- (long long);
+- (void);
+- (void)script in memory mapped character holder.;
+- (void)ould not be the same.
+;
+- (id)({;
 - (long long);
-- (void);
-- (long long);
-- (void);
-- (void);
-- (void);
-- (id);
-- (long long);
 - (int);
 - (int);
 - (id);
@@ -103,7 +89,7 @@
 - (int);
 - (void);
 - (id);
-- (id);
+- (id)a;
 - (int);
 - (void);
 - (_Bool);
@@ -114,13 +100,13 @@
 - (long long);
 - (int);
 - (int);
-- (id);
+- (id)P;
 - (id);
 - (void);
-- (int);
+- (int);
 - (int);
 - (id);
-- (id);
+- (id)__objc_protolist__DATA_CONST;
 - (void);
 - (void);
 - (_Bool);
@@ -128,24 +114,15 @@
 - (void);
 - (id);
 - (void);
-- (int);
-- (int);
+- (int);
+- (int)]L;
 - (void);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) id <BiometricKitDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic) int enrollProgressConfigRenderMode; // @synthesize enrollProgressConfigRenderMode=_enrollProgressConfigRenderMode;
-@property(readonly) unsigned long long hash;
-@property _Bool inUse; // @synthesize inUse=_inUse;
-@property(readonly) Class superclass;
 
 @end
 

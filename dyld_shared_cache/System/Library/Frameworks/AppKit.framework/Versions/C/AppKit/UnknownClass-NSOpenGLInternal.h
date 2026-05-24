@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (NSOpenGLInternal)
-- (_Bool);
+- (_Bool)z.;
 @end
 

@@ -5,6 +5,6 @@
 //
 
 @interface UnknownClass (CalendarAdditions)
-+ (id);
++ (id)e.MRGroupSessionSubsystem.targetQueue;
 @end
 

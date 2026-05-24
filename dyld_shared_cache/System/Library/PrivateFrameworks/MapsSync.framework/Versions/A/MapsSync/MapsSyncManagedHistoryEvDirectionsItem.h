@@ -6,8 +6,6 @@
 
 #import <MapsSync/MapsSyncManagedHistoryDirectionsItem.h>
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface MapsSyncManagedHistoryEvDirectionsItem : MapsSyncManagedHistoryDirectionsItem
 {
@@ -18,7 +16,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) double requiredCharge; // @dynamic requiredCharge;
-@property(nonatomic, copy) NSString *vehicleIdentifier; // @dynamic vehicleIdentifier;
 
 @end
 

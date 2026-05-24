@@ -4,39 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, VFXMorpher, VFXNode;
-
 __attribute__((visibility("hidden")))
 @interface AVTPhysicalizedMorpherDynamic
 {
     float _simulationFactor;
-    VFXNode *_referenceNode;
-    VFXNode *_drivingNode;
-    VFXMorpher *_writeMorpher;
-    unsigned long long _forwardMorphTargetIndex;
-    unsigned long long _backwardMorphTargetIndex;
-    unsigned long long _leftwardMorphTargetIndex;
-    unsigned long long _rightwardMorphTargetIndex;
-    unsigned long long _upwardMorphTargetIndex;
-    unsigned long long _downwardMorphTargetIndex;
-    VFXNode *_extraSimulationFactorReadMorpherNode;
-    unsigned long long _extraSimulationFactorTargetIndex;
 }
 
 - (void);
 - (void);
 - (_Bool);
-- (id);
+- (id),%.3lf,SolutionChecker:est, %u. solution_to_check_against, %s,position_difference_from_solution_to_check_against check failed, difference, %.2lf, tolerance, %.2lf,consistency, %.2lf, threshold, %.2lf, solution_to_check_against_position_unc, %.2f, sol_position_unc, %.2f.Exiting with check failed return value. /* Error: Ran out of types for this method. */;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

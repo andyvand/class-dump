@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface AVCaptureDeviceInputSourceInternal_Tundra
 {
     NSString *sourceID;
-    NSString *localizedName;
 }
 
 @end

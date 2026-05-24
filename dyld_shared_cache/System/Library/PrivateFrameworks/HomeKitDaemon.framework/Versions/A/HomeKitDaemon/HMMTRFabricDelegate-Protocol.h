@@ -4,9 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSUUID;
+@class NSData, NSNumber, NSUUID;
 
 @protocol HMMTRFabricDelegate
+- (NSUUID *);
+- (void)tFormattedAddress:(NSNumber *)arg1 transactionTime:(NSData *)arg2 transactionType:(_Bool)arg3 transactionLocation:(void (^)(NSData *, NSData *, NSNumber *, NSData *, NSError *))arg4;
+- (NSNumber *)pointPostedNotifications;
+- (NSNumber *)e);
 
 // Remaining properties
 @property(readonly) NSUUID *targetFabricUUID;

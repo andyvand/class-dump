@@ -4,32 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOCommonOptions, GEOComposedGeometryRoutePersistentData, GEOComposedRoute, GEOComposedRouteAnchorPointList, GEODirectionsServiceRequest, GEOMapItemClientAttributes, GEOMapServiceTraits, GEORouteAttributes, NSArray;
+@class GEODirectionsServiceRequest, GEORouteAttributes;
 
 @interface MNRouteEditorRequest
 {
     GEORouteAttributes *_routeAttributes;
-    GEOComposedRouteAnchorPointList *_anchorPoints;
-    unsigned long long _action;
-    GEOMapServiceTraits *_traits;
-    GEOMapItemClientAttributes *_clientAttributes;
-    GEOCommonOptions *_commonOptions;
-    NSArray *_waypoints;
-    GEOComposedRoute *_currentRoute;
-    GEOComposedGeometryRoutePersistentData *_undoRedoRouteData;
-    GEODirectionsServiceRequest *_directionsServiceRequest;
 }
 
 - (id);
 - (void);
+- (void)PrimitiveControlWidgetConfigurationModifier;
+- (id);
+- (id)ListCoreScrollView;
+- (void);
+- (void);
 - (void);
 - (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
@@ -45,16 +36,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) unsigned long long action; // @synthesize action=_action;
-@property(retain, nonatomic) GEOComposedRouteAnchorPointList *anchorPoints; // @synthesize anchorPoints=_anchorPoints;
-@property(retain, nonatomic) GEOMapItemClientAttributes *clientAttributes; // @synthesize clientAttributes=_clientAttributes;
-@property(retain, nonatomic) GEOCommonOptions *commonOptions; // @synthesize commonOptions=_commonOptions;
-@property(retain, nonatomic) GEOComposedRoute *currentRoute; // @synthesize currentRoute=_currentRoute;
 @property(retain, nonatomic) GEODirectionsServiceRequest *directionsServiceRequest; // @synthesize directionsServiceRequest=_directionsServiceRequest;
-@property(retain, nonatomic) GEORouteAttributes *routeAttributes; // @synthesize routeAttributes=_routeAttributes;
-@property(retain, nonatomic) GEOMapServiceTraits *traits; // @synthesize traits=_traits;
-@property(retain, nonatomic) GEOComposedGeometryRoutePersistentData *undoRedoRouteData; // @synthesize undoRedoRouteData=_undoRedoRouteData;
-@property(retain, nonatomic) NSArray *waypoints; // @synthesize waypoints=_waypoints;
 
 @end
 

@@ -5,5 +5,8 @@
 //
 
 @protocol INPlayAudioMessageIntentHandling
+
+@optional
+- (void)=;
 @end
 

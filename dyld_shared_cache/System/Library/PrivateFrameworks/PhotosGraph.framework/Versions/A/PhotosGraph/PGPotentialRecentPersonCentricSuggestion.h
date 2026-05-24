@@ -4,29 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate, NSString;
+@class NSString;
 
 @interface PGPotentialRecentPersonCentricSuggestion
 {
     NSString *_personLocalIdentifier;
-    NSArray *_assets;
-    NSDate *_notSeenSinceDate;
-    unsigned long long _relationshipScore;
 }
 
 - (unsigned long long);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id)uiElementAtCoordinate:(id)arg1;
+- (id)trackingTextElement;
+- (id);
 - (id);
 - (void)/Framework/Suggestions/Suggesters/Single Asset Suggester/PGRecentSyndicatedAssetSuggester.m;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *assets; // @synthesize assets=_assets;
-@property(readonly, nonatomic) NSDate *notSeenSinceDate; // @synthesize notSeenSinceDate=_notSeenSinceDate;
 @property(readonly, nonatomic) NSString *personLocalIdentifier; // @synthesize personLocalIdentifier=_personLocalIdentifier;
-@property(readonly, nonatomic) unsigned long long relationshipScore; // @synthesize relationshipScore=_relationshipScore;
 
 @end
 

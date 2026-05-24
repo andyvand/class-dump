@@ -6,25 +6,21 @@
 
 #import <MusicLibrary/ML3DatabaseImport.h>
 
-@class ML3Client, ML3MediaLibraryWriter, ML3MusicLibrary;
+@class ML3MusicLibrary;
 
 @interface ML3ServiceDatabaseImport : ML3DatabaseImport
 {
     ML3MusicLibrary *_library;
-    ML3MediaLibraryWriter *_writer;
-    ML3Client *_client;
 }
 
+- (id)ordinate;
 - (id);
 - (id);
-- (id);
-- (id)rationWillStartPerformingDatabasePathChange:newDatabasePath: /* Error: Ran out of types for this method. */;
-- (void)s;
+- (id)accountChangeOperationWillStartPerformingDatabasePathChange:newDatabasePath: /* Error: Ran out of types for this method. */;
+- (void)libraryIdentifiers;
 
 // Remaining properties
-@property(readonly, nonatomic) ML3Client *client; // @synthesize client=_client;
 @property(readonly, nonatomic) ML3MusicLibrary *library; // @synthesize library=_library;
-@property(readonly, nonatomic) ML3MediaLibraryWriter *writer; // @synthesize writer=_writer;
 
 @end
 

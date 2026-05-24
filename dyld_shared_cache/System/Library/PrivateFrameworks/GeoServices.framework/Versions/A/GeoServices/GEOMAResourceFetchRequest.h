@@ -6,16 +6,12 @@
 
 #import <GeoServices/GEOXPCRequest.h>
 
-@class NSDictionary, NSString;
-
 @interface GEOMAResourceFetchRequest : GEOXPCRequest
 {
     unsigned long long _type;
-    NSDictionary *_extras;
-    unsigned long long _options;
 }
 
-+ (Class);
++ (Class)_updateLocationsPopupWidth;
 - (id);
 - (id);
 - (void);
@@ -23,22 +19,13 @@
 - (id);
 - (_Bool);
 - (unsigned long long);
-- (unsigned long long);
-- (void)llback;
-- (void):(id)arg1;
-- (void)lculateAggregatedStepsDuration;
+- (unsigned long long)shouldShowCallToActionWithRatingHeaderInfo;
+- (void)hasEnableBrandMuidFallback;
+- (void)addCompactSpeeds:(id)arg1;
+- (void)_calculateAggregatedStepsDuration;
 - (void)*)3;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) NSDictionary *extras; // @synthesize extras=_extras;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long options; // @synthesize options=_options;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long type; // @synthesize type=_type;
 
 @end

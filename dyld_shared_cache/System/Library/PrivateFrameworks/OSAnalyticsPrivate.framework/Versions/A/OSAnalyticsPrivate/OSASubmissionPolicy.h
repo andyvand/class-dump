@@ -4,20 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSMutableDictionary, NSMutableSet, NSString;
+@class NSArray;
 
 @interface OSASubmissionPolicy
 {
     NSArray *_default_template;
-    NSArray *_primary_template;
-    NSMutableSet *_allowOptOutByRouting;
-    NSArray *_specific_files;
-    NSString *_identifier;
-    NSDictionary *_prefaces;
-    NSMutableDictionary *_results;
-    _Bool _ignoreProxies;
-    _Bool _hasTasking;
-    NSMutableDictionary *_scanOptions;
 }
 
 - (id);
@@ -31,14 +22,11 @@
 - (id);
 - (_Bool);
 - (void);
-- (id);
-- (void);
+- (id)@0:(id)arg1 8;
+- (void)6\;
 
 // Remaining properties
-@property(readonly) _Bool hasTasking; // @synthesize hasTasking=_hasTasking;
 @property _Bool ignoreProxies; // @synthesize ignoreProxies=_ignoreProxies;
-@property(readonly) NSDictionary *latestResults;
-@property(readonly) NSMutableDictionary *scanOptions; // @synthesize scanOptions=_scanOptions;
 
 @end
 

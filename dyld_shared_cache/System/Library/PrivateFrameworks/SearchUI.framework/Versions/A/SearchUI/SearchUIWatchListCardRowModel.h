@@ -6,19 +6,11 @@
 
 #import <SearchUI/SearchUICardSectionRowModel.h>
 
-@class NSString, SFImage, SFPunchout, SFWatchListCardSection, SearchUIWatchListCardsManager;
-@protocol SearchUIWatchListCardRowModelDelegate;
+@class SearchUIWatchListCardsManager;
 
 @interface SearchUIWatchListCardRowModel : SearchUICardSectionRowModel
 {
     _Bool _hasLoaded;
-    _Bool _hasError;
-    id <SearchUIWatchListCardRowModelDelegate> _delegate;
-    NSString *_title;
-    NSString *_subtitle;
-    SFImage *_image;
-    SFPunchout *_punchout;
-    SearchUIWatchListCardsManager *_manager;
 }
 
 - (void);
@@ -28,7 +20,7 @@
 - (_Bool);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
@@ -37,7 +29,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void):(id)arg1 8;
 - (void);
 - (void);
 - (id);
@@ -47,15 +39,7 @@
 - (int);
 
 // Remaining properties
-@property(retain, nonatomic) SFWatchListCardSection *cardSection; // @dynamic cardSection;
-@property __weak id <SearchUIWatchListCardRowModelDelegate> delegate; // @synthesize delegate=_delegate;
-@property(nonatomic) _Bool hasError; // @synthesize hasError=_hasError;
-@property(nonatomic) _Bool hasLoaded; // @synthesize hasLoaded=_hasLoaded;
-@property(retain, nonatomic) SFImage *image; // @synthesize image=_image;
 @property(retain, nonatomic) SearchUIWatchListCardsManager *manager; // @synthesize manager=_manager;
-@property(retain, nonatomic) SFPunchout *punchout; // @synthesize punchout=_punchout;
-@property(retain, nonatomic) NSString *subtitle; // @synthesize subtitle=_subtitle;
-@property(retain, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

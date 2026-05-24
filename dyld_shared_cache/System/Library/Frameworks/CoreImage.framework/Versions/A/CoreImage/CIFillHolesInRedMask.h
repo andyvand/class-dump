@@ -6,14 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIFillHolesInRedMask : CIFilter
 {
     CIImage *inputImage;
-    NSNumber *inputMaximumHoleSize;
-    NSNumber *inputRefinementPassCount;
 }
 
 + (id);
@@ -21,14 +19,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)a;
 - (void);
 - (id)bzydlfxHZNjppppqqqqge`g\_]_cccc^ooozzzzgyz}¡¡¡¡zzzzrrrrI^XhX[Rfispvqd}ztywyanhw{{{}{{{{beeeAG9K8A2IV[U_xxxxrzzzkkkkOYRZHOES\_[_ssssldljlWWTW>PCUMaYl¼¼¼¼¿¿¿¿£¦¦zcuo}F^Rs}}}}[mgrKWJf\ibo}}}}z}}}}fvs|ku}{Xh_uvtov}`qpvF[UdFH;S2D5P____mmmmnnnnSjfp^cXiMR@d]vo    ¦¨¨¨{{{{oooojjjjLgbtNidq^]QbTkdt´´´´©©©©llllWa^akkkk¢¢¢¢auoRf]v\keqooloTe]pLhbw~~~~~{w~ewsbsqxttstfojuYrm££££¡¢¢¢z¬¬¬¬    `uty=SHXOOOOMYRYVlgr    rxr~~{~v~p~~~~iusxx||}}~zfsk¤¤¤¤««««zzzzNOAX>L>SbbbbiiiiRYNb@UIfvzyzYqn{_d[kff_fppjpyk««««    Tpo|<PF\4D8I8>0@:C6DQQOQWWTW7LCWGYR\iiiicxyy~bh^m[kbq|~z~~~~zklklBI<O'8'@GGGGNNNNBNFN:RH[uuuuqqmgqYg`iooooxpzzdspy}}}}u|{z~}~}||||nnnnBXMbcc`ciiiiqqqqzdvqnxwz}}}}dkilY]V^ZZRZ[aXc{{{{¡¡¡¡z¡jwqc|{rrrrilllrrrryyyyxxxxwwwwxxxxyyyywwwwllllO[Q`ccZc{{{{®®®®­­­­r|Qh\yM^Oq]j_wg~zLbVoO_Qiowry}Shctgd^gGVN_4OE]ccbckkkkdpppwwwwzzzzxurxjwty~~~~²²²²¯¯¯¯e}zvvvvL`YhPc]ixxxx~{ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) CIImage *inputImage; // @synthesize inputImage;
-@property(retain, nonatomic) NSNumber *inputMaximumHoleSize; // @synthesize inputMaximumHoleSize;
-@property(retain, nonatomic) NSNumber *inputRefinementPassCount; // @synthesize inputRefinementPassCount;
 
 @end
 

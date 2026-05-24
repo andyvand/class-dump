@@ -4,47 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
-
 @interface STFamilyMember
 {
     _Bool _isMe;
-    _Bool _isParent;
-    _Bool _isOrganizer;
-    NSNumber *_DSID;
-    NSString *_altDSID;
-    NSString *_appleID;
-    NSString *_memberType;
-    NSString *_firstName;
-    NSString *_lastName;
 }
 
+- (void)L DEFAULT 0);
+- (id)ULT 0, purchase_history_redownload_params TEXT, store_saga_id INTEGER NOT NULL DEFAULT 0, match_redownload_params TEXT, sync_id INTEGER NOT NULL DEFAULT 0, home_sharing_id INTEGER NOT NULL DEFAULT 0, is_ota_purchased INTEGER NOT NULL DEFAULT 0, store_kind INTEGER NOT NULL DEFAULT 0, account_id INTEGER NOT NULL DEFAULT 0, key_versions INTEGER NOT NULL DEFAULT 0, key_platform_id INTEGER NOT NULL DEFAULT 0, key_id INTEGER NOT NULL DEFAULT 0, key_id_2 INTEGER NOT NULL DEFAULT 0, date_purchased INTEGER NOT NULL DEFAULT 0, date_released INTEGER NOT NULL DEFAULT 0, external_guid TEXT, feed_url TEXT, artwork_url TEXT, store_xid TEXT, store_flavor TEXT, store_matched_status INTEGER NOT NULL DEFAULT 0, store_redownloaded_status INTEGER NOT NULL DEFAULT 0, store_link_id INTEGER NOT NULL DEFAULT 0, reserved TEXT NOT NULL DEFAULT '', vpp_is_licensed INTEGER NOT NULL DEFAULT 0, vpp_org_id INTEGER NOT NULL DEFAULT 0, vpp_org_name TEXT NOT NULL DEFAULT '');
 - (void);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
+- (_Bool);
 - (_Bool);
 - (id);
 - (id);
-- (id);
 - (void);
+- (_Bool);
+- (id);
+- (id)fariShared.TabGroups.TabGroupCreated;
+- (id);
+- (void);
 - (id)Nãÿÿ;
 - (id)age Creation:STOrganizationSettingsRestrictionUtility found Apps rating; derived Image Creation restriction value %lld /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSNumber *DSID; // @synthesize DSID=_DSID;
-@property(readonly, copy, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(readonly, copy, nonatomic) NSString *appleID; // @synthesize appleID=_appleID;
-@property(readonly, copy, nonatomic) NSString *firstName; // @synthesize firstName=_firstName;
 @property(nonatomic) _Bool isMe; // @synthesize isMe=_isMe;
-@property(nonatomic) _Bool isOrganizer; // @synthesize isOrganizer=_isOrganizer;
-@property(nonatomic) _Bool isParent; // @synthesize isParent=_isParent;
-@property(readonly, copy, nonatomic) NSString *lastName; // @synthesize lastName=_lastName;
-@property(readonly, copy, nonatomic) NSString *memberType; // @synthesize memberType=_memberType;
 
 @end
 

@@ -4,35 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AABCHistograms, HIDEventSystemClient, NSMutableArray, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue, OS_os_log;
+@class NSObject;
+@protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface CBHIDEventManager
 {
     NSObject<OS_os_log> *_logHandle;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSMutableArray *_internalALSFilterHistory;
-    unsigned long long _internalALSFilterHistorySize;
-    NSMutableArray *_hidServiceClients;
-    HIDEventSystemClient *_hidSystemClient;
-    NSMutableArray *_clients;
-    NSMutableDictionary *_lastReportedALSEvents;
-    float _luxAbsoluteSensitivity;
-    float _luxSensitivity;
-    float _colorSensitivity;
-    NSMutableArray *_filters;
-    _Bool _displayOn;
-    AABCHistograms *_analyticsIlluminanceHist;
-    long long _analyticsPeriodicSender;
-    _Bool _filtersSuspended;
 }
 
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)I;
 - (void);
 - (void);
 - (_Bool);
@@ -46,12 +31,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)SynchronizedStreamsBaseZoomFactorRelativeToSynchronizationSource;
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)hrR9;
 - (_Bool);
 - (void);
 - (void)ï'>?5^>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>q=>Å °==

@@ -5,6 +5,9 @@
 //
 
 @protocol _UISceneLayoutPreferencesHostSettings
+- (void);
+- (_Bool)_handlersForExplicitServiceWithMessage: /* Error: Ran out of types for this method. */;
+- (_Bool)_handleSyncFailureType:step:activity:attemptCount:startTime:error:retry: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool _hostObservesLayoutPreferenceChanges;

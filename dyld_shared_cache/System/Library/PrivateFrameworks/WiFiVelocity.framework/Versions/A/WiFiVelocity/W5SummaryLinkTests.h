@@ -12,11 +12,11 @@
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool)4;
 - (id);
 - (id);
 - (id);
-- (unsigned long long);
+- (unsigned long long)ghtThreshold;
 - (id);
 - (_Bool);
 - (void);

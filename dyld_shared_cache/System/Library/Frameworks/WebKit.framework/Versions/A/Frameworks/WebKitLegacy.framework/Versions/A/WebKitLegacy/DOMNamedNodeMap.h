@@ -16,10 +16,10 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)eI;
+- (id)dyH;
+- (id);
+- (void)ublic}@:[%{public}@] Updating identifier store reset interval (interval:%{public}f, client:%{public}@, domain:%{public}@) /* Error: Ran out of types for this method. */;
 - (unsigned int);
 
 // Remaining properties

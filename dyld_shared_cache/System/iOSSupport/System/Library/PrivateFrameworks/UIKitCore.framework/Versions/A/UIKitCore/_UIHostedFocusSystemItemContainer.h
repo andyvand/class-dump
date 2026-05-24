@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _UIHostedFocusSystem;
-@protocol UICoordinateSpace;
+@class _UIHostedFocusSystem;
 
 __attribute__((visibility("hidden")))
 @interface _UIHostedFocusSystemItemContainer
@@ -13,7 +12,7 @@ __attribute__((visibility("hidden")))
     _UIHostedFocusSystem *_focusSystem;
 }
 
-- (id);
+- (id)initWithTimestampDictionary:(id)arg1 identifier: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)1Â0@ù
@@ -23,15 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <UICoordinateSpace> coordinateSpace;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic) __weak _UIHostedFocusSystem *focusSystem; // @synthesize focusSystem=_focusSystem;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

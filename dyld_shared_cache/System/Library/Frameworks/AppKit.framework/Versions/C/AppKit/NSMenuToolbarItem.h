@@ -6,18 +6,11 @@
 
 #import <AppKit/NSToolbarItem.h>
 
-@class NSImage, NSMenu, NSString, NSView;
-@protocol NSMenuToolbarItemControl;
+@class NSMenu;
 
 @interface NSMenuToolbarItem : NSToolbarItem
 {
     NSMenu *_menu;
-    _Bool _showsIndicator;
-    NSView<NSMenuToolbarItemControl> *_control;
-    NSImage *_image;
-    NSString *_title;
-    id _target;
-    SEL _action;
 }
 
 @end

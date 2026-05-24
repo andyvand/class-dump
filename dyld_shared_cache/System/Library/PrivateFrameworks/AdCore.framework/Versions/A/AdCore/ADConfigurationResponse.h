@@ -4,39 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
+@class NSMutableArray;
 
 @interface ADConfigurationResponse
 {
     int _bannerProxyType;
-    NSString *_configVersion;
-    NSMutableArray *_theConfigurations;
-    NSString *_resourceConnectProxyURL;
-    NSString *_resourceProxyURL;
-    struct {
-        unsigned int bannerProxyType:1;
-    } _has;
 }
 
 + (Class);
 - (_Bool);
 - (void);
 - (void);
+- (id)N8cnmatrix8CNMatrixILj368ELj1EdEE;
 - (id);
-- (id);
 - (void);
-- (void);
-- (void);
+- (void)|;
+- (void)B;
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)setAssistantIdentifier:(int)arg1;
 - (_Bool);
 - (_Bool);
 - (int);
 - (void);
-- (_Bool);
+- (_Bool)safariAppIconBadge;
 - (void);
 - (void);
 - (unsigned long long);
@@ -48,18 +41,10 @@
 - (void);
 - (void);
 - (void);
-- (int);
-- (id);
+- (int)dualSimCapabilityDidChange;
+- (id))A;
 
 // Remaining properties
-@property(nonatomic) int bannerProxyType; // @synthesize bannerProxyType=_bannerProxyType;
-@property(retain, nonatomic) NSString *configVersion; // @synthesize configVersion=_configVersion;
-@property(nonatomic) _Bool hasBannerProxyType;
-@property(readonly, nonatomic) _Bool hasConfigVersion;
-@property(readonly, nonatomic) _Bool hasResourceConnectProxyURL;
-@property(readonly, nonatomic) _Bool hasResourceProxyURL;
-@property(retain, nonatomic) NSString *resourceConnectProxyURL; // @synthesize resourceConnectProxyURL=_resourceConnectProxyURL;
-@property(retain, nonatomic) NSString *resourceProxyURL; // @synthesize resourceProxyURL=_resourceProxyURL;
 @property(retain, nonatomic) NSMutableArray *theConfigurations; // @synthesize theConfigurations=_theConfigurations;
 
 @end

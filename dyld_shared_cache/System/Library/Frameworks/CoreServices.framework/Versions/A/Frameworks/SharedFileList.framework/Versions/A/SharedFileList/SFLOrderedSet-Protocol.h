@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class SFLItem;
+
 @protocol SFLOrderedSet
+- (_Bool);
+- (SFLItem *);
 @end
 

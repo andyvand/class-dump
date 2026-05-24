@@ -4,60 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMapTable, NSMutableArray, NSTextContainer, NSTextLayoutManager, NSTextRange;
-@protocol NSTextViewportElementProvider, NSTextViewportLayoutControllerDelegate, NSTextViewportLayoutDelegate_Private;
+@class NSTextLayoutManager;
+@protocol NSTextViewportElementProvider;
 
 @interface NSTextViewportLayoutController
 {
     NSTextLayoutManager *_textLayoutManager;
-    NSTextContainer *_textContainer;
-    id <NSTextViewportLayoutDelegate_Private> _delegate;
-    struct CGRect _viewportBounds;
-    struct CGPoint _viewportOffset;
-    NSTextRange *_viewportRange;
-    NSMapTable *_renderingSurfaces;
-    NSArray *_viewportElements;
-    NSMutableArray *_viewportLayoutObservers;
-    struct {
-        unsigned int _layoutIsValid:1;
-        unsigned int _needsLayout:1;
-        unsigned int _shouldReset:1;
-        unsigned int _updatingRenderingSurfaces:1;
-        unsigned int _isTextLayoutManager:1;
-        unsigned int _delegateConformsToPublicAPI:1;
-        unsigned int _delegateSupportsLocationPositionMapping:1;
-        unsigned int _delegateSupportsRenderingSurfaces:1;
-        unsigned int _delegateSupportsAuxiliaryRenderingSurfaces:1;
-        unsigned int _delegateSupportsPresentationLayoutFragment:1;
-        unsigned int _needsLayoutSelectorType:2;
-    } _viewportLayoutControllerFlags;
-    CDUnknownBlockType _renderingSurfaceUpdater;
-    CDUnknownBlockType _platformRenderingSurfaceUpdater;
 }
 
-+ (_Bool);
++ (_Bool)h;
+- (void)GroupFadeTextureFragment;
 - (void);
-- (void);
-- (_Bool);
+- (_Bool)i;
 - (id);
 - (struct CGRect);
 - (id);
 - (CDUnknownBlockType);
 - (id);
-- (struct CGRect);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (void);
+- (struct CGRect)but this is allowed, skip comparing kFDRTag_inst object property;
+- (id)_responseEndTime;
+- (id):(id)arg1 yj;
+- (id)6dR;
+- (void)256;
+- (id)b;
 - (void);
 - (void);
 - (id);
+- (void)@;
+- (void);
+- (void);
 - (id);
+- (id)_DKRelevantShortcutMetadataKey__serializedRelevantShortcut;
 - (struct CGRect);
 - (double);
 - (void);
@@ -68,19 +45,12 @@
 - (void);
 - (id);
 - (void);
-- (void);
-- (void)umentColor:atLocation: /* Error: Ran out of types for this method. */;
-- (id)RespondingToSelector: /* Error: Ran out of types for this method. */;
+- (void)`;
+- (void)renderingColorForDocumentColor:atLocation: /* Error: Ran out of types for this method. */;
+- (id)_textViewRespondingToSelector: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy) CDUnknownBlockType _platformRenderingSurfaceUpdater; // @synthesize _platformRenderingSurfaceUpdater;
-@property __weak id <NSTextViewportLayoutControllerDelegate> delegate;
 @property(readonly) __weak id <NSTextViewportElementProvider> elementProvider;
-@property(copy) CDUnknownBlockType renderingSurfaceUpdater; // @synthesize renderingSurfaceUpdater=_renderingSurfaceUpdater;
-@property(readonly) __weak NSTextContainer *textContainer; // @dynamic textContainer;
-@property(readonly) __weak NSTextLayoutManager *textLayoutManager; // @synthesize textLayoutManager=_textLayoutManager;
-@property(readonly) struct CGRect viewportBounds;
-@property(readonly) NSTextRange *viewportRange;
 
 @end
 

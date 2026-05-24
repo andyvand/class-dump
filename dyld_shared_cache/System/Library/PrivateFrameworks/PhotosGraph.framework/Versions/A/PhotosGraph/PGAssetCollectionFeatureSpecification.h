@@ -4,48 +4,36 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CLSFeederPrefetchOptions, NSArray, NSSet, NSString;
+@class NSSet;
 
 @interface PGAssetCollectionFeatureSpecification
 {
     _Bool _shouldCreateFeatureNodeIfNeeded;
-    _Bool _shouldRunAtMomentIngest;
-    unsigned long long _featureType;
-    NSString *_featureLabel;
-    NSArray *_featureDefinitions;
-    NSSet *_featureNodes;
-    CLSFeederPrefetchOptions *_assetFeederPrefetchOptions;
 }
 
 + (_Bool);
-- (_Bool);
+- (_Bool)eventTapManager:activelyTappedKeyboardEvent:cgEvent:withProxy: /* Error: Ran out of types for this method. */;
+- (void)_accessibilityDateTimeComponents;
+- (id)H;
+- (id);
+- (id);
+- (id);
+- (id);
 - (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
-- (id);
-- (id);
+- (id)A;
 - (id);
 - (_Bool);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (void)24;
 - (unsigned long long)ÿÔ8ÿÿD9ÿÿ´9ÿÿD:ÿÿp:ÿÿ;ÿÿ;ÿÿ ;ÿÿì;ÿÿØ<ÿÿð<ÿÿ=ÿÿ0=ÿÿd=ÿÿ=ÿÿè=ÿÿ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) CLSFeederPrefetchOptions *assetFeederPrefetchOptions; // @synthesize assetFeederPrefetchOptions=_assetFeederPrefetchOptions;
-@property(readonly, nonatomic) NSArray *featureDefinitions; // @synthesize featureDefinitions=_featureDefinitions;
-@property(readonly, nonatomic) NSString *featureLabel; // @synthesize featureLabel=_featureLabel;
 @property(retain, nonatomic) NSSet *featureNodes; // @synthesize featureNodes=_featureNodes;
-@property(readonly, nonatomic) unsigned long long featureType; // @synthesize featureType=_featureType;
-@property(readonly, nonatomic) _Bool shouldCreateFeatureNodeIfNeeded; // @synthesize shouldCreateFeatureNodeIfNeeded=_shouldCreateFeatureNodeIfNeeded;
-@property(readonly, nonatomic) _Bool shouldRunAtMomentIngest; // @synthesize shouldRunAtMomentIngest=_shouldRunAtMomentIngest;
 
 @end
 

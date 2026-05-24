@@ -4,21 +4,20 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface AMSAccountIdentity
 {
     NSString *_altDSID;
-    NSNumber *_dsid;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)aw-image;
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)republishStateIfNeeded;
+- (void)endpoint %@ is %@;
 - (id);
 - (id)tifiers SET modified=?, deleted=1 WHERE deleted=0 AND store_uuid in (SELECT store_uuid FROM identifier_stores WHERE store_key=?);;
 - (void)×:{&îôF÷W(ðü³øJ3åã3g0	b7&EþNôrê#ÅÇrÕëïÚghï+ñ!·Àh¾«¼K/ÿ%à´}F¯-B]ÒÏÙc}°F¯&cºìé3Z¿â /* Error: Ran out of types for this method. */;
@@ -26,7 +25,6 @@
 
 // Remaining properties
 @property(readonly) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(readonly) NSNumber *dsid; // @synthesize dsid=_dsid;
 
 @end
 

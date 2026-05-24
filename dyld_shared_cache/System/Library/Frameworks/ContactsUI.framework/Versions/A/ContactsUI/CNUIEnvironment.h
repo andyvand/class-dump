@@ -4,35 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CNAvatarPickerExtensionDiscoveryManager, CNContactStore, CNUIEditingPolicy, CNUIMeContactMonitor;
-@protocol CNSchedulerProvider, CNUIParentContainerCache;
+@class CNContactStore;
 
 @interface CNUIEnvironment
 {
     CNContactStore *_defaultContactStore;
-    CNContactStore *_contactStoreWithAllContacts;
-    CNContactStore *_contactStoreWithLocalAndDonatedContacts;
-    CNUIEditingPolicy *_editingPolicy;
-    id <CNUIParentContainerCache> _parentContainerCache;
-    CNUIMeContactMonitor *_meContactMonitor;
-    id <CNSchedulerProvider> _schedulerProvider;
-    CNAvatarPickerExtensionDiscoveryManager *_avatarPickerExtensionManager;
 }
 
 + (void);
 + (id);
-+ (id);
++ (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)0;
 - (id);
 - (id);
 - (id);
@@ -40,14 +32,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CNAvatarPickerExtensionDiscoveryManager *avatarPickerExtensionManager; // @synthesize avatarPickerExtensionManager=_avatarPickerExtensionManager;
-@property(readonly, nonatomic) CNContactStore *contactStoreWithAllContacts; // @synthesize contactStoreWithAllContacts=_contactStoreWithAllContacts;
-@property(readonly, nonatomic) CNContactStore *contactStoreWithLocalAndDonatedContacts; // @synthesize contactStoreWithLocalAndDonatedContacts=_contactStoreWithLocalAndDonatedContacts;
 @property(readonly, nonatomic) CNContactStore *defaultContactStore; // @synthesize defaultContactStore=_defaultContactStore;
-@property(readonly, nonatomic) CNUIEditingPolicy *editingPolicy; // @synthesize editingPolicy=_editingPolicy;
-@property(readonly, nonatomic) CNUIMeContactMonitor *meContactMonitor; // @synthesize meContactMonitor=_meContactMonitor;
-@property(readonly, nonatomic) id <CNUIParentContainerCache> parentContainerCache; // @synthesize parentContainerCache=_parentContainerCache;
-@property(readonly, nonatomic) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
 
 @end
 

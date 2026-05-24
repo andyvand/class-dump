@@ -11,7 +11,6 @@
 @interface DarwinNotificationInvalidationSource : PreflightCacheInvalidationSource
 {
     int _token;
-    NSString *_notificationName;
 }
 
 - (id);

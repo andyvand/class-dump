@@ -6,16 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface ASRSchemaASRFullPayloadCorrectionInfoTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSString *_fullPayloadCorrectorOutput;
-    NSString *_fullPayloadCorrectorInput;
-    _Bool _hasLinkId;
-    _Bool _hasFullPayloadCorrectorOutput;
-    _Bool _hasFullPayloadCorrectorInput;
 }
 
 - (void);
@@ -33,25 +28,19 @@
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)16@0:(id)arg1 8;
+- (id)?;
 - (void);
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
 - (id);
-- (id)anslationEvent;
+- (id)speechTranslationEvent;
 - (id)tâ¼ã;
 - (id);
 - (void)À½¨ÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *fullPayloadCorrectorInput; // @synthesize fullPayloadCorrectorInput=_fullPayloadCorrectorInput;
-@property(copy, nonatomic) NSString *fullPayloadCorrectorOutput; // @synthesize fullPayloadCorrectorOutput=_fullPayloadCorrectorOutput;
-@property(nonatomic) _Bool hasFullPayloadCorrectorInput; // @synthesize hasFullPayloadCorrectorInput=_hasFullPayloadCorrectorInput;
-@property(nonatomic) _Bool hasFullPayloadCorrectorOutput; // @synthesize hasFullPayloadCorrectorOutput=_hasFullPayloadCorrectorOutput;
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
 
 @end

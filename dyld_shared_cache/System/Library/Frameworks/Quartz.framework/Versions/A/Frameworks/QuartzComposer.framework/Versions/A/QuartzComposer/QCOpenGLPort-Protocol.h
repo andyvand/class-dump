@@ -5,5 +5,6 @@
 //
 
 @protocol QCOpenGLPort
+- (void);
 @end
 

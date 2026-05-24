@@ -6,37 +6,24 @@
 
 #import <NeutrinoCore/_NURenderResult.h>
 
-@class NSString;
-@protocol NUImageBuffer, NURenderStatistics;
+@protocol NUImageBuffer;
 
 @interface _NUVisionSegmentationResult : _NURenderResult
 {
     id <NUImageBuffer> _buffer;
-    id <NUImageBuffer> _confidenceBuffer;
-    long long _segmentationType;
 }
 
-- (void);
+- (void)6<D;
 - (long long);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)-Z;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <NUImageBuffer> confidenceMapBuffer;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) id <NUImageBuffer> matteImageBuffer;
 @property(nonatomic) long long segmentationType; // @synthesize segmentationType=_segmentationType;
-@property(readonly) id <NURenderStatistics> statistics;
-@property(readonly) Class superclass;
 
 @end
 

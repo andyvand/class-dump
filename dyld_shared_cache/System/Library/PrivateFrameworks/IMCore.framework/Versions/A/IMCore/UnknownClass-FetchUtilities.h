@@ -5,8 +5,8 @@
 //
 
 @interface UnknownClass (FetchUtilities)
-- (void);
-- (void);
-- (void);
+- (void)ith error %d;
+- (void)s:(struct CGSize)arg1 %d VCNAT64ResolveNAT64Prefix:(CDUnknownBlockType)arg2 NAT64 prefix resolution failed with error %d;
+- (void)refix:(struct CGSize)arg1 Re-trying in 1 second for Interface %s, attempt %d out of %d;
 @end
 

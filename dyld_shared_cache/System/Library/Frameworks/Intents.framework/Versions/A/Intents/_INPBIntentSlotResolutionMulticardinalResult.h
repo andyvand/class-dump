@@ -4,42 +4,33 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface _INPBIntentSlotResolutionMulticardinalResult
 {
     struct _has;
-    NSArray *_resolutionResults;
 }
 
-+ (Class);
-+ (_Bool);
++ (Class)4;
++ (_Bool);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
+- (_Bool);
 - (_Bool);
-- (_Bool);
 - (void);
 - (id);
 - (id);
-- (void)eIntentResponseCodeSuccess;
+- (void)INDeleteHealthSampleIntentResponseCodeSuccess;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) NSArray *resolutionResults; // @synthesize resolutionResults=_resolutionResults;
-@property(readonly, nonatomic) unsigned long long resolutionResultsCount;
-@property(readonly) Class superclass;
 
 @end
 

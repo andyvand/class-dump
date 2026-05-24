@@ -4,31 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSOperationQueue, NSString;
+@class NSOperationQueue;
 
 __attribute__((visibility("hidden")))
 @interface MPCReportingPlaybackObserver
 {
     NSOperationQueue *_recordEventOperationQueue;
-    _Bool _offline;
 }
 
 + (id);
 - (void);
 - (id);
-- (id);
+- (id)calling cloudInternalClient isReadyForCloudPhotoLibrary...;
 - (id);
 - (void);
 - (void)blic}@] invalidate | removing database [invalidation] url=%{public}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

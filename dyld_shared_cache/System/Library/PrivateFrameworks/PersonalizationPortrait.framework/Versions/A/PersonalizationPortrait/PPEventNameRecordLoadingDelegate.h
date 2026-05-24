@@ -9,12 +9,6 @@
 @interface PPEventNameRecordLoadingDelegate : PPRecordLoadingDelegate
 {
     CDUnknownBlockType _eventNameRecordsSetup;
-    CDUnknownBlockType _eventNameRecordsHandler;
-    CDUnknownBlockType _eventNameRecordsCompletion;
-    CDUnknownBlockType _recentEventNameRecordsSetup;
-    CDUnknownBlockType _recentEventNameRecordsHandler;
-    CDUnknownBlockType _recentEventNameRecordsCompletion;
-    CDUnknownBlockType _resetEventNameRecordData;
 }
 
 - (void);
@@ -24,32 +18,26 @@
 - (void);
 - (void);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (CDUnknownBlockType);
 - (void);
+- (id)@!ka;
 - (id);
-- (id);
 - (unsigned char);
 - (unsigned char);
 - (void);
-- (void);
+- (void);
 - (unsigned char);
 - (void);
-- (unsigned char);
-- (void);
+- (unsigned char);
+- (void)`b;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType eventNameRecordsCompletion; // @synthesize eventNameRecordsCompletion=_eventNameRecordsCompletion;
-@property(copy, nonatomic) CDUnknownBlockType eventNameRecordsHandler; // @synthesize eventNameRecordsHandler=_eventNameRecordsHandler;
 @property(copy, nonatomic) CDUnknownBlockType eventNameRecordsSetup; // @synthesize eventNameRecordsSetup=_eventNameRecordsSetup;
-@property(copy, nonatomic) CDUnknownBlockType recentEventNameRecordsCompletion; // @synthesize recentEventNameRecordsCompletion=_recentEventNameRecordsCompletion;
-@property(copy, nonatomic) CDUnknownBlockType recentEventNameRecordsHandler; // @synthesize recentEventNameRecordsHandler=_recentEventNameRecordsHandler;
-@property(copy, nonatomic) CDUnknownBlockType recentEventNameRecordsSetup; // @synthesize recentEventNameRecordsSetup=_recentEventNameRecordsSetup;
-@property(copy, nonatomic) CDUnknownBlockType resetEventNameRecordData; // @synthesize resetEventNameRecordData=_resetEventNameRecordData;
 
 @end
 

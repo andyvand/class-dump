@@ -11,17 +11,13 @@
 @interface AKInheritanceCLIContext : AKInheritanceContext
 {
     NSString *_accessKeyString;
-    NSString *_beneficiaryPassword;
-    NSString *_beneficiaryFirstName;
-    NSString *_beneficiaryLastName;
-    NSString *_identityToken;
 }
 
 + (_Bool);
 - (void);
 - (void);
+- (void)a;
 - (void);
-- (void);
 - (id);
 - (id);
 - (id);
@@ -30,16 +26,12 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void)ÿ;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *accessKeyString; // @synthesize accessKeyString=_accessKeyString;
-@property(copy, nonatomic) NSString *beneficiaryFirstName; // @synthesize beneficiaryFirstName=_beneficiaryFirstName;
-@property(copy, nonatomic) NSString *beneficiaryLastName; // @synthesize beneficiaryLastName=_beneficiaryLastName;
-@property(copy, nonatomic) NSString *beneficiaryPassword; // @synthesize beneficiaryPassword=_beneficiaryPassword;
-@property(copy, nonatomic) NSString *identityToken; // @synthesize identityToken=_identityToken;
 
 @end
 

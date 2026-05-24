@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, SUCoreActivityOptions;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface SUCorePersistedActivity
 {
     NSString *_activityName;
-    SUCoreActivityOptions *_activityOptions;
 }
 
 + (_Bool);
@@ -19,15 +18,14 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)ndow"16@"NSCoder"24;
+- (id)nSize:spaceInBetweenMessageAndIcon: /* Error: Ran out of types for this method. */;
 - (_Bool);
 - (void);
 - (void);
 
 // Remaining properties
 @property(retain, nonatomic) NSString *activityName; // @synthesize activityName=_activityName;
-@property(retain, nonatomic) SUCoreActivityOptions *activityOptions; // @synthesize activityOptions=_activityOptions;
 
 @end
 

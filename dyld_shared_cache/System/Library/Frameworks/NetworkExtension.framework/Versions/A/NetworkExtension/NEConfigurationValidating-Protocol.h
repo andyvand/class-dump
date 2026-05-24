@@ -5,6 +5,6 @@
 //
 
 @protocol NEConfigurationValidating
-- (_Bool)t;
+- (_Bool)shouldReport;
 @end
 

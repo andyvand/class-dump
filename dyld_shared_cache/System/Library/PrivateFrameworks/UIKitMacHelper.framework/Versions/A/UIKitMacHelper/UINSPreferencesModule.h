@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString, NSUserDefaultsController, NSView;
+@class NSView;
 
 __attribute__((visibility("hidden")))
 @interface UINSPreferencesModule
 {
     NSView *_rootView;
-    NSString *_title;
-    NSImage *_toolbarIcon;
-    NSString *_helpAnchor;
-    NSString *_helpBook;
-    NSUserDefaultsController *_userDefaultsController;
 }
 
 - (id);
@@ -27,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool)B;
 - (id);
 - (id);
 - (void);
@@ -37,12 +32,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(copy) NSString *helpAnchor; // @synthesize helpAnchor=_helpAnchor;
-@property(copy) NSString *helpBook; // @synthesize helpBook=_helpBook;
 @property(retain) NSView *rootView; // @synthesize rootView=_rootView;
-@property(copy) NSString *title; // @synthesize title=_title;
-@property(retain) NSImage *toolbarIcon; // @synthesize toolbarIcon=_toolbarIcon;
-@property(retain) NSUserDefaultsController *userDefaultsController; // @synthesize userDefaultsController=_userDefaultsController;
 
 @end
 

@@ -4,25 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor, UIImage;
+@class UIImage;
 
 @interface TintedView
 {
-    id _image;
-    UIColor *_tintColor;
+    UIImage *_image;
 }
 
 - (void);
 - (void);
 - (id);
+- (id)m;
 - (id);
-- (id);
-- (void);
-- (void)outAxesAndXLabels;
+- (void)_getRetainedValueForKeyPath:forThreadKey:waitTime:copy: /* Error: Ran out of types for this method. */;
+- (void)_layoutAxesAndXLabels;
 
 // Remaining properties
 @property(retain, nonatomic) UIImage *image; // @synthesize image=_image;
-@property(retain, nonatomic) UIColor *tintColor; // @synthesize tintColor=_tintColor;
 
 @end
 

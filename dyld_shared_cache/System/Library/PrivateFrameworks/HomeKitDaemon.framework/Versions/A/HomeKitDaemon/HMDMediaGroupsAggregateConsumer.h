@@ -4,20 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMDMediaGroupSetupMetricDispatcher, HMDMediaGroupsAggregateData, HMDMediaGroupsStageManager, NSArray, NSNotificationCenter, NSObject, NSString, NSUUID;
-@protocol HMDMediaGroupsAggregateConsumerDelegate, HMESubscriptionProviding, OS_os_log;
+@class NSObject, NSUUID;
+@protocol OS_os_log;
 
 __attribute__((visibility("hidden")))
 @interface HMDMediaGroupsAggregateConsumer
 {
     NSObject<OS_os_log> *_logger;
-    id <HMDMediaGroupsAggregateConsumerDelegate> _delegate;
-    NSUUID *_identifier;
-    id <HMESubscriptionProviding> _subscriptionProvider;
-    NSNotificationCenter *_notificationCenter;
-    HMDMediaGroupsStageManager *_stageManager;
-    HMDMediaGroupSetupMetricDispatcher *_mediaSystemSetupMetricDispatcher;
-    HMDMediaGroupSetupMetricDispatcher *_homeTheaterSetupMetricDispatcher;
 }
 
 + (id)Ådÿ;
@@ -26,24 +19,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void);
 - (void);
 - (id);
 - (id);
+- (void)_submitWithCallbackQueue:handler:networkActivity: /* Error: Ran out of types for this method. */;
+- (id)V_postedNotifications;
+- (id)ultTransitType;
 - (id);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)}@ wasSharing:(id)arg1 %{public}@;
+- (id)Push %@;
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)S;
 - (void);
 - (void);
 - (id);
@@ -63,23 +56,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(readonly) HMDMediaGroupsAggregateData *aggregationData;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property __weak id <HMDMediaGroupsAggregateConsumerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly, copy) NSArray *groupDestinations;
-@property(readonly, copy) NSArray *groups;
-@property(readonly) unsigned long long hash;
-@property __weak HMDMediaGroupSetupMetricDispatcher *homeTheaterSetupMetricDispatcher; // @synthesize homeTheaterSetupMetricDispatcher=_homeTheaterSetupMetricDispatcher;
 @property(readonly, copy) NSUUID *identifier; // @synthesize identifier=_identifier;
-@property __weak HMDMediaGroupSetupMetricDispatcher *mediaSystemSetupMetricDispatcher; // @synthesize mediaSystemSetupMetricDispatcher=_mediaSystemSetupMetricDispatcher;
-@property(readonly) NSNotificationCenter *notificationCenter; // @synthesize notificationCenter=_notificationCenter;
-@property(readonly) HMDMediaGroupsStageManager *stageManager; // @synthesize stageManager=_stageManager;
-@property(readonly) id <HMESubscriptionProviding> subscriptionProvider; // @synthesize subscriptionProvider=_subscriptionProvider;
-@property(readonly) Class superclass;
 
 @end
 

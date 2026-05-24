@@ -5,5 +5,9 @@
 //
 
 @protocol PPContactServerProtocol
+- (void)_surface;
+- (void)"CHDrawing",R,C,N;
+- (void)A;
+- (void)CATIDSServiceConnectionDataAggregation;
 @end
 

@@ -9,70 +9,24 @@
 @interface SFAirDropUserDefaults
 {
     id _solariumEnabled;
-    id _airDropPrivateContactDiscoveryEnabled;
-    id _walkAwayEnabled;
-    id _airDropSystemLevelProgressEnabled;
-    id _airDropMoveToAppEnabled;
-    id _askToAirDropEnabled;
-    id _contactShareAfterAirDropEnabled;
-    id _boopToActionEnabled;
-    id _boopToAirDropEnabled;
-    id _boopToCollaborateEnabled;
-    id _shockwaveEffectEnabled;
-    id _shockwaveEffectVariant;
-    id _boopInteractionTypeOverride;
-    id _shockwaveHapticsPlayerStartsEarly;
-    id _nearFieldControllerEnabled;
-    id _finalALPN;
-    id _pinPairingAirDrop;
-    id _everyoneModeBanner;
-    id __privacyImprovements;
-    id _browseAllInterfaces;
-    id _registerAllInterfaces;
-    id _enabledDemoMode;
-    id _disableAirDrop;
-    id _disableTLS;
-    id _disableAirDropBLEAdvertising;
-    id _disableAutoAccept;
-    id _disableExtractMediaFromBundles;
-    id _disableTransformingPhotosAssetBundlesToFolders;
-    id _alwaysExchangeContacts;
-    id _a2aRangingAssumeClose;
-    id _a2aRangingAssumeFar;
-    id _quicIdleTimeout;
-    id _verboseWalkAway;
-    id _nearFieldSharingEnabled;
-    id _cellularUsageEnabled;
-    id _sensitivePreviewOverride;
-    id _sensitiveContentOverride;
-    id _showTransferIdentifierUI;
-    id _alwaysAutoAccept;
-    id _overrideReceivedFilesPathiOS;
 }
 
 + (id);
 - (void);
 - (_Bool);
 - (_Bool);
+- (_Bool)P;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) _Bool objcAskToAirDropEnabled;
-@property(nonatomic) _Bool objcCellularUsageEnabled;
-@property(nonatomic, readonly) _Bool objcMoveToAppEnabled;
-@property(nonatomic) _Bool objcNearFieldSharingEnabled;
-@property(nonatomic, readonly) _Bool objcPrivateContactDiscoveryEnabled;
-@property(nonatomic, readonly) _Bool objcSolariumEnabled;
-@property(nonatomic, readonly) _Bool objcSystemLevelProgressEnabled;
 
 @end
 

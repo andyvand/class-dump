@@ -19,7 +19,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool)init];
 
 // Remaining properties

@@ -6,20 +6,10 @@
 
 #import <FinderKit/FI_TPropertyImageViewController.h>
 
-@class NSObject, NSString;
-
 __attribute__((visibility("hidden")))
 @interface FI_TPropertyColumnPreviewSmallIconController : FI_TPropertyImageViewController
 {
     struct TFENodeVector _nodes;
-    struct unordered_set<TFENode, std::hash<TFENode>, std::equal_to<TFENode>, std::allocator<TFENode>> _pendingKeyNodes;
-    TNSWeakPtr_db0eab6c _pendingKeyNodesToken;
-    _Bool _wantsToWaitForThumbnails;
-    struct vector<TNotificationCenterObserver, std::allocator<TNotificationCenterObserver>> _viewObservers;
-    struct TKeyValueObserver _effectiveAppearanceObserver;
-    TNSWeakPtr_db0eab6c _updateAfterResizeToken;
-    NSObject *_cachedValue;
-    _Bool _applicableToUI;
 }
 
 + (id);
@@ -44,7 +34,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (struct TFENode);
 - (id);
-- (vector_c6090175);
+- (vector_3dbdaf87);
 - (void);
 - (void);
 - (void);
@@ -54,21 +44,11 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (_Bool)debarColumnFrameInWindow: /* Error: Ran out of types for this method. */;
+- (_Bool)sidebarColumnFrameInWindow: /* Error: Ran out of types for this method. */;
 - (void)¸X;
 - (void);
 
 // Remaining properties
-@property(nonatomic, getter=isApplicableToUI) _Bool applicableToUI; // @synthesize applicableToUI=_applicableToUI;
-@property(nonatomic) struct TFENode browserTargetNode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) vector_c6090175 nodeToImageList;
-@property(readonly) Class superclass;
 @property _Bool wantsToWaitForThumbnails; // @synthesize wantsToWaitForThumbnails=_wantsToWaitForThumbnails;
 
 @end

@@ -7,12 +7,6 @@
 @interface PersonalizationPortraitInternals.TextUnderstandingObserver
 {
     id $defaultActor;
-    id importer;
-    id queue;
-    id lastResultsPostTime;
-    id lastDeletionPostTime;
-    id delayedResultsNotificationInProgress;
-    id delayedDeletionNotificationInProgress;
 }
 
 @end

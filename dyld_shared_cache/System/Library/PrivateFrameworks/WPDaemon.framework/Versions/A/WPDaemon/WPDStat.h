@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate;
-
 @interface WPDStat
 {
     double _currentTime;
-    NSDate *_lastTime;
 }
 
 - (void);
@@ -24,7 +21,6 @@
 
 // Remaining properties
 @property double currentTime; // @synthesize currentTime=_currentTime;
-@property(retain) NSDate *lastTime; // @synthesize lastTime=_lastTime;
 
 @end
 

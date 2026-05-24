@@ -7,7 +7,6 @@
 @interface NewsFeed.FormatDerivedDataBindingNode
 {
     id scope;
-    id children;
 }
 
 @end

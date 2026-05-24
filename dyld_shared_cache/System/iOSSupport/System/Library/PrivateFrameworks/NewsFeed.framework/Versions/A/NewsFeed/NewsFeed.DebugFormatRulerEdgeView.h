@@ -7,23 +7,11 @@
 @interface NewsFeed.DebugFormatRulerEdgeView
 {
     id scale;
-    id edge;
-    id contentBounds;
-    id canvasOffset;
-    id selectionFrame;
-    id metricSelectionFrame;
-    id direction;
-    id markerLayer;
-    id markerLabels;
-    id indicatorView;
-    id contentView;
-    id selectionView;
-    id metricSelectionView;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)RC:isDone:queue:handler:] /* Error: Ran out of types for this method. */;
 - (id)0@ù
 × ;
 - (void)ôH;

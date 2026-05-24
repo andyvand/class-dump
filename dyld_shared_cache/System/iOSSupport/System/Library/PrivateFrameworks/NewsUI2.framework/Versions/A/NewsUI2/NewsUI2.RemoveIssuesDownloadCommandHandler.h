@@ -7,9 +7,6 @@
 @interface NewsUI2.RemoveIssuesDownloadCommandHandler
 {
     id offlineIssueManager;
-    id offlineIssueList;
-    id tracker;
-    id channelDataFactory;
 }
 
 @end

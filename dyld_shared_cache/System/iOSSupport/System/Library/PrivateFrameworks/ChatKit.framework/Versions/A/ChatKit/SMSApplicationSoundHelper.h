@@ -9,16 +9,15 @@
 @interface SMSApplicationSoundHelper
 {
     _Bool _bulletinSuppressed;
-    TLAlert *_alert;
 }
 
 - (void);
-- (void);
+- (void)postProcessPendingPreviews;
+- (_Bool)firstParagraphForSetListStyleRange:(id)arg1 inTextStorage: /* Error: Ran out of types for this method. */;
+- (void)firstMatchingRangeInNote;
+- (void)finishedTimeIndex;
 - (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)d_G;
 - (_Bool);
 - (void);
 - (_Bool);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) TLAlert *alert; // @synthesize alert=_alert;
-@property(nonatomic) _Bool bulletinSuppressed; // @synthesize bulletinSuppressed=_bulletinSuppressed;
 
 @end
 

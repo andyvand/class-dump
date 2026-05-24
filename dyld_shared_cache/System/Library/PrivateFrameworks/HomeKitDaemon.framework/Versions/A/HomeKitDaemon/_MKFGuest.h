@@ -6,8 +6,7 @@
 
 #import <HomeKitDaemon/_MKFModel.h>
 
-@class CKDeviceToDeviceShareInvitationToken, CKRecordID, HAPPairingIdentity, HMDAccountHandle, HMDAccountIdentifier, MKFGuestDatabaseID, NSArray, NSData, NSDate, NSNumber, NSSet, NSString, NSUUID;
-@protocol MKFHome, MKFUserAccessCode;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface _MKFGuest : _MKFModel
@@ -20,7 +19,7 @@ __attribute__((visibility("hidden")))
 + (Class);
 + (id);
 + (id);
-+ (id)9B;
++ (id)x9B;
 - (id);
 - (id);
 - (id);
@@ -54,22 +53,49 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)on.framework/Versions/A/ExtensionFoundation;
+- (_Bool)ary/PrivateFrameworks/WebPrivacy.framework/Versions/A/WebPrivacy;
+- (id)_TtC11MapsSupportP33_D895F6978ABFA0F06ADE38F52CA15BBD19ResourceBundleClass;
+- (id)MSPFileContainerPersister;
+- (id)GEOMapServiceCancellableTicket;
+- (id)GEOMapServiceFeedbackReportTicket;
+- (id)MSPHistoryEntryStorage;
+- (id)GEOKeyBagProtectedDataDidBecomeAvailableObserver;
+- (id);
+- (id)GEOTransitSystem;
+- (id)GEOTransitArtworkDataSource;
+- (id)MSPSenderVirtualMinimalStrategy;
+- (id)MSPSenderIDSStrategy;
+- (id)MSPReceiverETAController;
+- (id)Migration;
+- (id)MSPReceiverETAControllerDelegate;
+- (id)GCDTimer;
 - (id);
 - (id);
 - (id);
+- (void)ed %@ etaInPast %@;
+- (void)ate;
+- (void)stored sessions;
+- (id)dTrip.Service.Isolation;
+- (id)chunkMessageIDKey;
+- (id)WAYPOINT_PERSON_LOCATION;
+- (id)WAYPOINT_CUSTOM;
+- (id)utableDictionary"8@"NSString"16;
+- (id)rContacts:(id)arg1 ];
+- (id)s;
+- (id)ns];
+- (id)[MSPSharedTripCapabilityFetchingServer dealloc];
+- (id)p ID;
+- (id)transitLineStorage;
+- (id)issing/unusable handles;
+- (id)MSPSenderMinimalStrategyETAUpdateIntervalThrottleKey;
+- (id)MSPSenderLiveStrategyETAUpdateIntervalThrottleKey;
+- (id)MSPMaximumNumberNotificationsMessageStrategyKey;
+- (id)MSPInitialMinimumETADifferenceKey;
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -77,36 +103,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -116,62 +115,10 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) id <MKFUserAccessCode> accessCode; // @dynamic accessCode;
-@property(retain, nonatomic) HMDAccountHandle *accountHandle; // @dynamic accountHandle;
-@property(retain, nonatomic) HMDAccountIdentifier *accountIdentifier; // @dynamic accountIdentifier;
-@property(readonly, retain, nonatomic) NSArray *allowedAccessories;
-@property(retain, nonatomic) NSSet *allowedAccessories_; // @dynamic allowedAccessories_;
-@property(copy, nonatomic) NSNumber *announceAccessLevel; // @dynamic announceAccessLevel;
-@property(readonly, retain, nonatomic) NSArray *bulletinConditions;
-@property(retain, nonatomic) NSSet *bulletinConditions_; // @dynamic bulletinConditions_;
-@property(readonly, retain, nonatomic) NSArray *bulletinRegistrations;
-@property(retain, nonatomic) NSSet *bulletinRegistrations_; // @dynamic bulletinRegistrations_;
-@property(copy, nonatomic) NSNumber *camerasAccessLevel; // @dynamic camerasAccessLevel;
-@property(readonly, copy, nonatomic) MKFGuestDatabaseID *databaseID;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy, nonatomic) NSUUID *hmd_modelID;
 // Preceding property had unknown attributes: ?
 // Original attribute string: T@"NSUUID",?,R,C,N
 
-@property(readonly, copy, nonatomic) NSUUID *hmd_parentModelID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,C,N
-
-@property(readonly, retain, nonatomic) id <MKFHome> home; // @dynamic home;
-@property(copy, nonatomic) NSString *idsMergeIdentifier; // @dynamic idsMergeIdentifier;
-@property(readonly) _Bool isOwner;
-@property(readonly) _Bool isOwnerOrAdmin;
-@property(readonly) _Bool isResidentSyncParticipant;
-@property(readonly) _Bool isRestrictedGuest;
-@property(copy, nonatomic) NSDate *lastLocalActivityTimeStamp; // @dynamic lastLocalActivityTimeStamp;
-@property(retain, nonatomic) NSData *matCredIPKExternalRepresentation; // @dynamic matCredIPKExternalRepresentation;
-@property(readonly, copy, nonatomic) NSUUID *modelID; // @dynamic modelID;
-@property(readonly, retain, nonatomic) NSArray *notificationRegistrations;
-@property(retain, nonatomic) NSSet *notificationRegistrations_; // @dynamic notificationRegistrations_;
-@property(retain, nonatomic) HAPPairingIdentity *pairingIdentity; // @dynamic pairingIdentity;
-@property(copy, nonatomic) NSNumber *presenceAuthorizationStatus; // @dynamic presenceAuthorizationStatus;
-@property(readonly, retain, nonatomic) NSArray *presenceEvents;
-@property(retain, nonatomic) NSSet *presenceEvents_; // @dynamic presenceEvents_;
-@property(copy, nonatomic) NSNumber *presenceRegionStatus; // @dynamic presenceRegionStatus;
-@property(copy, nonatomic) NSDate *presenceUpdateTimeStamp; // @dynamic presenceUpdateTimeStamp;
-@property(copy, nonatomic) NSNumber *privilege; // @dynamic privilege;
-@property(copy, nonatomic) NSNumber *remoteAccessAllowed; // @dynamic remoteAccessAllowed;
-@property(retain, nonatomic) CKRecordID *reverseShareID; // @dynamic reverseShareID;
-@property(retain, nonatomic) CKDeviceToDeviceShareInvitationToken *reverseShareToken; // @dynamic reverseShareToken;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSNumber *uniqueIDForAccessories; // @dynamic uniqueIDForAccessories;
-@property(readonly, retain, nonatomic) NSArray *userActivityStatuses;
-@property(copy, nonatomic) NSString *userID; // @dynamic userID;
-@property(readonly, retain, nonatomic) NSArray *weekDayScheduleRules;
-@property(retain, nonatomic) NSSet *weekDayScheduleRules_; // @dynamic weekDayScheduleRules_;
-@property(copy, nonatomic) NSDate *writerTimestamp; // @dynamic writerTimestamp;
-@property(readonly, retain, nonatomic) NSArray *yearDayScheduleRules;
-@property(retain, nonatomic) NSSet *yearDayScheduleRules_; // @dynamic yearDayScheduleRules_;
 
 @end
 

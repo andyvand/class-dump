@@ -4,15 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface WFBlockRecoveryAttempter
 {
     CDUnknownBlockType _handlerBlock;
 }
 
 - (void);
-- (id);
+- (id)resetState;
 - (_Bool);
 - (void);
 - (CDUnknownBlockType);
@@ -20,14 +18,7 @@
 × ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) CDUnknownBlockType handlerBlock; // @synthesize handlerBlock=_handlerBlock;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

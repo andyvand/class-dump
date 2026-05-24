@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NUChannelContainerMediaFormat, NUChannelMediaFormat, NURenderNode;
-@protocol NUAsset, NUAssetResourceID, NUMediaGeometry, NUMediaMetadata, NUMediaPrivate;
+@protocol NUMediaPrivate;
 
 @interface _NUComposedMedia
 {
@@ -16,15 +15,15 @@
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool);
 - (id);
 - (id);
 - (id);
@@ -32,17 +31,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) __weak id <NUAsset> asset;
 @property(readonly, nonatomic) id <NUMediaPrivate> baseMedia; // @synthesize baseMedia=_baseMedia;
-@property(readonly, nonatomic) NSDictionary *components;
-@property(readonly, nonatomic) NUChannelContainerMediaFormat *containerFormat;
-@property(readonly, nonatomic) NUChannelMediaFormat *format;
-@property(readonly, nonatomic) id <NUMediaGeometry> geometry;
-@property(readonly, nonatomic) _Bool isFiltered;
-@property(readonly, nonatomic) id <NUMediaMetadata> metadata;
-@property(readonly, nonatomic) NURenderNode *renderNode;
-@property(readonly, nonatomic) NSArray *requiredSourceMedias;
-@property(readonly, nonatomic) id <NUAssetResourceID> resourceID;
 
 @end
 

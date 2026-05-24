@@ -4,29 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSString, geo_isolater;
+@class geo_isolater;
 
 __attribute__((visibility("hidden")))
 @interface GEODirectionsRequesterRemoteProxy
 {
     geo_isolater *_isolater;
-    NSMapTable *_pendingRequestConnections;
 }
 
 - (void);
 - (id);
-- (id);
+- (id)tingsWithRecordRoute:recordingInfo:playbackRoute:] /* Error: Ran out of types for this method. */;
 - (void);
 - (void)nÀ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

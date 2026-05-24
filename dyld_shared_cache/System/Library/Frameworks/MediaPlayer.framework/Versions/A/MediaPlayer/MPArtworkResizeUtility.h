@@ -4,36 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSObject, NSOperationQueue;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface MPArtworkResizeUtility
 {
     NSObject<OS_dispatch_queue> *_artworkResizingAccessQueue;
-    NSOperationQueue *_artworkResizingOperationQueue;
-    NSMapTable *_artworkResizingOperations;
-    long long _qualityOfService;
 }
 
 - (void);
-- (void);
-- (void);
-- (id);
+- (void);
 - (void);
 - (id);
+- (void);
 - (id);
 - (id);
-- (long long);
+- (id);
+- (long long);
 - (id);
 - (id);
-- (void)opertyPlaylistParentPersistentID__MAPPING_MISSING__;
+- (void)__MPModelPropertyPlaylistParentPersistentID__MAPPING_MISSING__;
 - (void)tÄt;
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *artworkResizingAccessQueue; // @synthesize artworkResizingAccessQueue=_artworkResizingAccessQueue;
-@property(retain, nonatomic) NSOperationQueue *artworkResizingOperationQueue; // @synthesize artworkResizingOperationQueue=_artworkResizingOperationQueue;
-@property(retain, nonatomic) NSMapTable *artworkResizingOperations; // @synthesize artworkResizingOperations=_artworkResizingOperations;
-@property(nonatomic) long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
 
 @end
 

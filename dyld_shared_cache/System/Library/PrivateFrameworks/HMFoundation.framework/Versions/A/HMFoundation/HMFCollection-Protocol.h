@@ -5,6 +5,7 @@
 //
 
 @protocol HMFCollection
+- (_Bool)@;
 
 // Remaining properties
 @property(readonly) unsigned long long count;

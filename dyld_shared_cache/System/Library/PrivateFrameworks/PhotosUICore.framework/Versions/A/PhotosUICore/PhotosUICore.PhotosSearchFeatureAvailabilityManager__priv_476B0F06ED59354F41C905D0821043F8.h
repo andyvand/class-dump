@@ -7,9 +7,6 @@
 @interface PhotosUICore.PhotosSearchFeatureAvailabilityManager__priv_476B0F06ED59354F41C905D0821043F8
 {
     id features;
-    id searchAIStatus;
-    id isAppleInternal;
-    id utilityQueue;
 }
 
 - (id);

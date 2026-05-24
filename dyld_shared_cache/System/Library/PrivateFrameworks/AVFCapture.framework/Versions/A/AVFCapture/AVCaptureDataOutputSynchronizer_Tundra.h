@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVCaptureDataOutputSynchronizerInternal_Tundra, NSArray, NSObject, NSString;
-@protocol AVCaptureDataOutputSynchronizerDelegate_Tundra, OS_dispatch_queue;
+@class AVCaptureDataOutputSynchronizerInternal_Tundra, NSArray;
 
 @interface AVCaptureDataOutputSynchronizer_Tundra
 {
@@ -13,24 +12,15 @@
 }
 
 + (void)tureDevice_Tundra setAllowsSuspendedPreferredCameras:] /* Error: Ran out of types for this method. */;
+- (id)Z;
 - (id);
+- (void)ACDAccountStoreFilter;
 - (id);
 - (void);
-- (id);
-- (void);
-- (id);
+- (id)AVMomentCaptureSettings;
 
 // Remaining properties
 @property(readonly, retain) NSArray *dataOutputs;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, nonatomic) id <AVCaptureDataOutputSynchronizerDelegate_Tundra> delegate;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *delegateCallbackQueue;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

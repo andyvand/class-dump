@@ -6,7 +6,7 @@
 
 #import <CloudKit/CKMultiValueRegister.h>
 
-@class CKMultiValueMergeableDeltaRegisterState, NSArray, NSData, NSMutableDictionary, NSString;
+@class NSData, NSMutableDictionary;
 
 @interface CKMultiValueMergeableDeltaRegister : CKMultiValueRegister
 {
@@ -14,7 +14,8 @@
 }
 
 + (id);
-- (id);
+- (id)
+;
 - (id);
 - (unsigned long long);
 - (id);
@@ -24,23 +25,13 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)8@"MTLTileRenderPipelineDescriptor"16^@24;
 - (void);
-- (id);
-- (void);
+- (id)	?ר#;
+- (void)exportedTypes;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *contents; // @dynamic contents;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) CKMultiValueMergeableDeltaRegisterState *persistedState;
-@property(readonly, nonatomic) NSData *salt; // @synthesize salt=_salt;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) NSMutableDictionary *timestampToContents; // @dynamic timestampToContents;
 
 @end

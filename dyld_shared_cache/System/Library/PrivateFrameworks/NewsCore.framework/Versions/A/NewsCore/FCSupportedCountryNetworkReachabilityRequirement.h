@@ -4,35 +4,22 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-@protocol FCNetworkReachabilityRequirementObserving;
-
 @interface FCSupportedCountryNetworkReachabilityRequirement
 {
     _Bool _satisfied;
-    id <FCNetworkReachabilityRequirementObserving> observer;
 }
 
 - (void);
 - (_Bool);
 - (id);
-- (void);
-- (void)ologyLevelConfig;
+- (void)ting existing registration at index %lu;
+- (void)articleListTagFeedGroupOntologyLevelConfig;
 - (long long)pying>"16@?0@"NTPBNetworkSession"8;
 - (void)me=%{public}llums;
 - (id)â´ÿP;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) __weak id <FCNetworkReachabilityRequirementObserving> observer; // @synthesize observer;
-@property(readonly, nonatomic) long long offlineReason;
 @property(nonatomic, getter=isSatisfied) _Bool satisfied; // @synthesize satisfied=_satisfied;
-@property(readonly) Class superclass;
 
 @end
 

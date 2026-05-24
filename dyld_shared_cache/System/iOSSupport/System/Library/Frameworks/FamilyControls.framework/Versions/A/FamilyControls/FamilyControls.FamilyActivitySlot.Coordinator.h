@@ -7,9 +7,10 @@
 @interface FamilyControls.FamilyActivitySlot.Coordinator
 {
     id currentSlot;
+    id;
 }
 
-- (id);
+- (id);
 - (void);
 
 @end

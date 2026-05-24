@@ -15,7 +15,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)entifier: /* Error: Ran out of types for this method. */;
+- (void)setSourceIdentifier: /* Error: Ran out of types for this method. */;
 - (void)waysUsesBusinessLayout;
 - (void);
 

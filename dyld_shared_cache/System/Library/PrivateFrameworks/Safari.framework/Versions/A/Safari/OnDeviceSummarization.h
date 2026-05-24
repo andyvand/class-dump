@@ -5,32 +5,27 @@
 //
 
 @class NSString;
-@protocol OnDeviceSummarizationDelegate;
 
 @interface OnDeviceSummarization
 {
     void summary;
-    _Bool isSafe;
-    void delegate;
 }
 
 + (_Bool);
 + (void);
 + (_Bool)Q¥ð1Â0@ù
 × ;
-- (void);
+- (void)G;
 - (void);
 - (_Bool);
 - (void);
+- (id)_;
 - (id);
-- (id);
-- (id);
+- (id)imagentIncomingStored;
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) __weak id <OnDeviceSummarizationDelegate> delegate; // @synthesize delegate;
-@property(nonatomic) _Bool isSafe; // @synthesize isSafe;
 @property(nonatomic, copy) NSString *summary;
 
 @end

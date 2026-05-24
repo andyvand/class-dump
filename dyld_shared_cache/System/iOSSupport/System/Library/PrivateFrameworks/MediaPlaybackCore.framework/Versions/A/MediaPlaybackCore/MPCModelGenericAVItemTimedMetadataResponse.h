@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MPCModelGenericAVItemTimedMetadataStreamFields, MPModelResponse, MPSectionedCollection, NSData;
+@class MPModelResponse;
 
 __attribute__((visibility("hidden")))
 @interface MPCModelGenericAVItemTimedMetadataResponse
 {
     MPModelResponse *_personalizationResponse;
-    _Bool _firstResponse;
-    _Bool _finalResponse;
-    NSData *_adamIDData;
-    MPCModelGenericAVItemTimedMetadataStreamFields *_streamFields;
-    MPSectionedCollection *_unpersonalizedContentDescriptors;
 }
 
 - (id);
@@ -24,7 +19,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool)\;
 - (id);
 - (void);
 - (void);
@@ -33,11 +28,7 @@ __attribute__((visibility("hidden")))
 - (void)@ %2i %{public}@  â delegatedDeviceOSVariant:%{public}@; delegatedDeviceUserAgent:%{public}@ /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSData *adamIDData; // @synthesize adamIDData=_adamIDData;
-@property(nonatomic, getter=isFinalResponse) _Bool finalResponse; // @synthesize finalResponse=_finalResponse;
 @property(nonatomic, getter=isFirstResponse) _Bool firstResponse; // @synthesize firstResponse=_firstResponse;
-@property(retain, nonatomic) MPCModelGenericAVItemTimedMetadataStreamFields *streamFields; // @synthesize streamFields=_streamFields;
-@property(copy, nonatomic) MPSectionedCollection *unpersonalizedContentDescriptors; // @synthesize unpersonalizedContentDescriptors=_unpersonalizedContentDescriptors;
 
 @end
 

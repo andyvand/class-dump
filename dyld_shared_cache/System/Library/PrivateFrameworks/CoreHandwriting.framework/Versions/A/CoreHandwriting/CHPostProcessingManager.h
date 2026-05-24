@@ -12,9 +12,9 @@
 }
 
 - (id);
-- (id);
+- (id)andPredicateWithSubpredicates:(id)arg1;
 - (void);
-- (id);
+- (id)isting media metadata in database;
 - (id);
 - (id);
 - (void)Ü;

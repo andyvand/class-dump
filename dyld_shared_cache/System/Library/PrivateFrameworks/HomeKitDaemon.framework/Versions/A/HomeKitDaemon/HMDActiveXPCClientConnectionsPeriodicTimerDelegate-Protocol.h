@@ -5,5 +5,6 @@
 //
 
 @protocol HMDActiveXPCClientConnectionsPeriodicTimerDelegate
+- (void)iconDataCarPlay;
 @end
 

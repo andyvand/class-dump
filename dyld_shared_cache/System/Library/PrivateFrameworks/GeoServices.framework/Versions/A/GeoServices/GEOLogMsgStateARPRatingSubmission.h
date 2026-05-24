@@ -4,33 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString, PBDataReader, PBUnknownFields;
+@class PBDataReader;
 
 @interface GEOLogMsgStateARPRatingSubmission
 {
     PBDataReader *_reader;
-    PBUnknownFields *_unknownFields;
-    NSString *_originTarget;
-    NSMutableArray *_ratings;
-    unsigned int _readerMarkPos;
-    unsigned int _readerMarkLength;
-    struct os_unfair_lock_s _readerLock;
-    _Bool _isFromMapsSuggesions;
-    _Bool _isFromRecommendationCard;
-    _Bool _isPlacecardInlineSubmission;
-    struct {
-        unsigned int has_isFromMapsSuggesions:1;
-        unsigned int has_isFromRecommendationCard:1;
-        unsigned int has_isPlacecardInlineSubmission:1;
-        unsigned int read_unknownFields:1;
-        unsigned int read_originTarget:1;
-        unsigned int read_ratings:1;
-        unsigned int wrote_anyField:1;
-    } _flags;
 }
 
-+ (Class);
-+ (_Bool)cSequenceNumber:(id)arg1;
++ (Class)eate dispatch source, calling block immediately;
++ (_Bool)setHasSuggestionsAcSequenceNumber:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -44,10 +26,10 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (void);
-- (void);
-- (void);
-- (id);
+- (void)stringWithCapacity: /* Error: Ran out of types for this method. */;
+- (void)ifResultIsNil:(id)arg1 setOutputError:withBlock: /* Error: Ran out of types for this method. */;
+- (void)",&,N,V_upstreamToken;
+- (id)neverObservable;
 - (void);
 - (id);
 - (_Bool);
@@ -56,7 +38,7 @@
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)son %{public}@ because the scheduled token %{public}@ does not match the current token %{public}@.;
 - (void);
 - (id);
 - (unsigned long long);
@@ -65,23 +47,14 @@
 - (_Bool);
 - (id);
 - (void);
-- (id)EncodedString;
+- (id)spotlightEncodedString;
 - (id),R,N;
 - (id)sessions table (%@);
 - (id)¸;
 - (void)êÔ9ìÐ3;
 
 // Remaining properties
-@property(nonatomic) _Bool hasIsFromMapsSuggesions;
-@property(nonatomic) _Bool hasIsFromRecommendationCard;
-@property(nonatomic) _Bool hasIsPlacecardInlineSubmission;
 @property(readonly, nonatomic) _Bool hasOriginTarget;
-@property(nonatomic) _Bool isFromMapsSuggesions;
-@property(nonatomic) _Bool isFromRecommendationCard;
-@property(nonatomic) _Bool isPlacecardInlineSubmission;
-@property(retain, nonatomic) NSString *originTarget;
-@property(retain, nonatomic) NSMutableArray *ratings;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
 
 @end
 

@@ -13,10 +13,10 @@ __attribute__((visibility("hidden")))
 
 + (id);
 + (id)q;
-- (id);
+- (id);
 - (id);
 - (_Bool)?;
-- (_Bool)ial;
+- (_Bool)_Material;
 
 // Remaining properties
 @property(readonly, nonatomic) id <_UITextAttributeDefaults> fallback; // @dynamic fallback;

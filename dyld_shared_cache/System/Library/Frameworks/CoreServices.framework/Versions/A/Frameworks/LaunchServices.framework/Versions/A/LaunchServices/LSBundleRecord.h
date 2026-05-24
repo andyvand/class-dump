@@ -6,18 +6,9 @@
 
 #import <LaunchServices/LSRecord.h>
 
-@class FSNode, NSArray, NSString;
-
 @interface LSBundleRecord : LSRecord
 {
     CDStruct_4c969caf *_auditToken;
-    id _cachedDataContainerURL;
-    struct {
-        unsigned int redacted:1;
-    } _flags;
-    FSNode *_node;
-    NSString *_bundleIdentifier;
-    NSArray *__personasWithAttributes;
 }
 
 @end

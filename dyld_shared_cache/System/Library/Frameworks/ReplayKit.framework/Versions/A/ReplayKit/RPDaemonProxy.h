@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, NSXPCConnection;
+@class NSURL, NSXPCConnection;
 
 @interface RPDaemonProxy
 {
     NSURL *_broadcastURL;
-    NSXPCConnection *_connection;
 }
 
 + (id);
@@ -41,39 +40,8 @@
 - (oneway void);
 - (oneway void);
 - (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
+- (oneway void)C;
+- (oneway void)P";
 - (oneway void);
 - (oneway void);
 - (oneway void);
@@ -87,7 +55,6 @@
 - (oneway void);
 - (oneway void);
 - (void);
-- (id);
 - (oneway void);
 - (oneway void);
 - (oneway void);
@@ -105,35 +72,59 @@
 - (oneway void);
 - (oneway void);
 - (oneway void);
-- (id);
+- (oneway void);
+- (oneway void);
+- (oneway void)#;
 - (oneway void);
 - (oneway void);
 - (oneway void);
 - (oneway void);
 - (oneway void);
+- (oneway void);
 - (oneway void);
 - (oneway void);
 - (oneway void);
 - (oneway void);
-- (oneway void);
-- (oneway void);
-- (oneway void);
-- (id);
 - (void);
+- (id);
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (id);
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (oneway void)";
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (oneway void);
+- (id);
+- (void)se morph target;
 - (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSURL *broadcastURL; // @synthesize broadcastURL=_broadcastURL;
 @property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

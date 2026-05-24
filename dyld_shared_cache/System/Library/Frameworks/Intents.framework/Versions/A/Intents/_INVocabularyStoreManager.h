@@ -4,50 +4,44 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, _INVocabularyValidator;
+@class NSObject, NSString;
 @protocol OS_dispatch_queue;
 
 @interface _INVocabularyStoreManager
 {
     NSObject<OS_dispatch_queue> *_queue;
-    _INVocabularyValidator *_validator;
-    NSString *_appBundleID;
-    NSString *_baseDirectoryPath;
-    NSString *_appBundlePath;
 }
 
 + (id);
 + (id);
 + (void);
 + (id);
++ (void)ed public key length:%zu /* Error: Ran out of types for this method. */;
 + (void);
-+ (void);
 + (id);
 + (id);
 + (id);
-+ (id)rom:(id)arg1 outCodableDescription: /* Error: Ran out of types for this method. */;
++ (id)_decodeObjectOfClass:(id)arg1 withCodableDescription:from:outCodableDescription: /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (id);
 - (void);
-- (void);
+- (void)nionLinkClient was invalidated.;
 - (id);
 - (id);
 - (id);
-- (void)ure;
-- (id)INDEX;
+- (void)INSearchAlarmIntentResponseCodeFailure;
+- (id)UV_INDEX;
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *appBundleID; // @synthesize appBundleID=_appBundleID;
-@property(copy, nonatomic) NSString *appBundlePath; // @synthesize appBundlePath=_appBundlePath;
 @property(readonly, copy, nonatomic) NSString *baseDirectoryPath; // @synthesize baseDirectoryPath=_baseDirectoryPath;
 
 @end

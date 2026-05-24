@@ -4,53 +4,37 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IMHandle, NSArray, NSMutableArray, NSMutableDictionary, NSString;
+@class NSMutableArray;
 @protocol IMGroupTypingTrackingControllerDelegate;
 
 @interface IMGroupTypingTrackingController
 {
     id <IMGroupTypingTrackingControllerDelegate> _delegate;
-    IMHandle *_handleToRemoveViaAnimation;
-    NSMutableDictionary *_pluginPayloads;
-    NSMutableArray *_typingHandles;
-    NSMutableArray *_scheduledTimers;
 }
 
 + (double);
-- (void);
-- (void);
+- (void)%s:(id)arg1 %d Error configuring audio stream [%@];
+- (void)StreamGroups;
+- (id), streamToken=%u is inactive;
+- (void)rror[%s];
+- (void)ream [%s] %s:(id)arg1 %d %@(%p) Error initializing... no results dict;
+- (void)) destination=%@, callID=%@, error=%@;
+- (void)pc connection [%p] have been set;
+- (void)an incompatible AVConference build, please update to AVConference build latest OR after <rdar:(id)arg1 //problem/49225282> Fix AFRC feedback FaceTimeMediaControlInfoHeaderAudioV2 in LITTLE_ENDIAN case;
+- (id)for implicit erasure. originalInputSamplesTS=%u samples=%d sampleCount=%d;
+- (void)changed. Reset OWRD;
+- (id)=%d.;
+- (id)valid incoming RTP media packet.;
+- (void)FrameRate. currentCaptureFrameRate=%d maxSupportedMultiwayFrameRate=%d framerate=%d;
+- (void)support one to one mode;
+- (void)d VCSessionMessaging:sendMessage=%@ for participantID=%llu, topicKey=%@, topic=%@ /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
+- (id)(;
 - (id);
 - (void);
 - (void)¸øàÌTà;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *currentTypingHandles;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <IMGroupTypingTrackingControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) IMHandle *handleToRemoveViaAnimation; // @synthesize handleToRemoveViaAnimation=_handleToRemoveViaAnimation;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSMutableDictionary *pluginPayloads; // @synthesize pluginPayloads=_pluginPayloads;
-@property(retain, nonatomic) NSMutableArray *scheduledTimers; // @synthesize scheduledTimers=_scheduledTimers;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSMutableArray *typingHandles; // @synthesize typingHandles=_typingHandles;
 
 @end

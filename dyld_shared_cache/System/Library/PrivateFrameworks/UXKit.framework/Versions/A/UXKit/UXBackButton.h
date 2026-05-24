@@ -4,13 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString;
-
 @interface UXBackButton
 {
     _Bool _hidesTitle;
-    NSString *_title;
-    NSImage *_image;
 }
 
 - (void);
@@ -19,7 +15,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)`;
 - (id);
 - (void);
 - (id);
@@ -28,8 +24,6 @@
 
 // Remaining properties
 @property(nonatomic) _Bool hidesTitle; // @synthesize hidesTitle=_hidesTitle;
-@property(retain, nonatomic) NSImage *image; // @synthesize image=_image;
-@property(copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end
 

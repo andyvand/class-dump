@@ -7,11 +7,6 @@
 @interface PodcastsFoundation.SiriDonator
 {
     id mediaRequestController;
-    id backgroundTaskManager;
-    id workQueue;
-    id _donationInProgress;
-    id podcastsUpdateSubscription;
-    id _throttleInterval;
 }
 
 - (void);

@@ -5,5 +5,7 @@
 //
 
 @protocol PPEventClientProtocol
+- (void)CHGroupingPostProcessingManagerOptionExplicitOperators;
+- (void);
 @end
 

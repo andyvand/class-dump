@@ -4,9 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSISVariable;
+@class NSISEngine, NSISVariable;
+@protocol NSLayoutItem;
 
 @protocol NSLayoutItem
+- (id <NSLayoutItem>);
+- (_Bool);
+- (NSISEngine *)@;
+- (_Bool)O;
+- (unsigned long long)A;
 
 @optional
 - (NSISVariable *)Ð!´CùÑa1Â0@ù

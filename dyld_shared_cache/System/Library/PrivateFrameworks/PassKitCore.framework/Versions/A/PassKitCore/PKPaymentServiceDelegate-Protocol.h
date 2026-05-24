@@ -9,7 +9,14 @@
 @protocol PKPaymentServiceDelegate
 
 @optional
-- (void)State:(PKFeatureApplication *)arg1 withReply: /* Error: Ran out of types for this method. */;
+- (void);
+- (void)qB;
+- (void)K	;
+- (void)@;
+- (void),3;
+- (void)ray",&,V_additionalAttributeNames;
+- (void)setHasGksError:(NSString *)arg1;
+- (void)updateState:(PKFeatureApplication *)arg1 withReply: /* Error: Ran out of types for this method. */;
 - (void)pe;
 - (void)	¼d;
 - (void)ervice context:(NSString *)arg1 %@;

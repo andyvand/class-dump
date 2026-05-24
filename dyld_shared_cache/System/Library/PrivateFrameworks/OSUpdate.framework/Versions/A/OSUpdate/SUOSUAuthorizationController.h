@@ -7,7 +7,6 @@
 @interface SUOSUAuthorizationController
 {
     struct AuthorizationOpaqueRef *_authorizationForInstalling;
-    struct AuthorizationOpaqueRef *_authorizationForModifyingPreferences;
 }
 
 + (id);
@@ -28,7 +27,6 @@
 
 // Remaining properties
 @property struct AuthorizationOpaqueRef *authorizationForInstalling; // @synthesize authorizationForInstalling=_authorizationForInstalling;
-@property struct AuthorizationOpaqueRef *authorizationForModifyingPreferences; // @synthesize authorizationForModifyingPreferences=_authorizationForModifyingPreferences;
 
 @end
 

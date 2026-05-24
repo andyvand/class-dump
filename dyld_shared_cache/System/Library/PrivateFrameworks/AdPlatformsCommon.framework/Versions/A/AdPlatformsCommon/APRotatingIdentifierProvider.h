@@ -7,9 +7,6 @@
 @interface APRotatingIdentifierProvider
 {
     id lock;
-    id identiferCache;
-    id backingStore;
-    id notificationListener;
 }
 
 - (id);

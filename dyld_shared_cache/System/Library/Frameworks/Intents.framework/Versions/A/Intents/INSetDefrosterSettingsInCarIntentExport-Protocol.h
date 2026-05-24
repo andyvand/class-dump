@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class INSpeakableString, NSNumber;
+@class NSNumber;
 
 @protocol INSetDefrosterSettingsInCarIntentExport
+- (id)[�;
 
 // Remaining properties
-@property(copy) INSpeakableString *carName;
-@property long long defroster;
 @property(copy) NSNumber *enable;
 @end
 

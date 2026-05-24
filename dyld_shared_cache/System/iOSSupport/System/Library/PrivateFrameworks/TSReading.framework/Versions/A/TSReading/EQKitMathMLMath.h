@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EQKitEnvironmentInstance, EQKitMathMLNode, NSString;
+@class EQKitMathMLNode;
 @protocol EQKitLayoutNode;
 
 @interface EQKitMathMLMath
 {
     EQKitMathMLNode *mExpression;
-    void *mAttributeCollection;
-    EQKitEnvironmentInstance *mEnvironment;
 }
 
 - (long long);
 - (id);
-- (const void *);
-- (struct Schemata);
+- (const void *) ;
+- (struct Schemata)F;
 - (_Bool);
 - (int);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
-- (struct AttributeCollection *);
+- (struct AttributeCollection *);
 - (id);
 - (id);
 - (_Bool);
@@ -34,14 +32,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) id <EQKitLayoutNode> parent;
-@property(readonly) Class superclass;
 
 @end
 

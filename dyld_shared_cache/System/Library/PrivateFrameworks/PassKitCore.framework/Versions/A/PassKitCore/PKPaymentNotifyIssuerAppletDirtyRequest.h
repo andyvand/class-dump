@@ -11,7 +11,6 @@
 @interface PKPaymentNotifyIssuerAppletDirtyRequest : PKPaymentWebServiceRequest
 {
     NSString *_passSerialNumber;
-    NSString *_deviceAccountIdentifier;
 }
 
 - (id);

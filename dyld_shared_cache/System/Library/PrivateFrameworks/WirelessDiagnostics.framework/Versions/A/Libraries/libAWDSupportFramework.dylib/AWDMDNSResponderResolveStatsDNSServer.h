@@ -9,12 +9,6 @@
 @interface AWDMDNSResponderResolveStatsDNSServer
 {
     NSData *_address;
-    int _networkType;
-    unsigned int _serverID;
-    struct {
-        unsigned int networkType:1;
-        unsigned int serverID:1;
-    } _has;
 }
 
 - (_Bool);
@@ -42,12 +36,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSData *address; // @synthesize address=_address;
 @property(readonly, nonatomic) _Bool hasAddress;
-@property(nonatomic) _Bool hasNetworkType;
-@property(nonatomic) _Bool hasServerID;
-@property(nonatomic) int networkType; // @synthesize networkType=_networkType;
-@property(nonatomic) unsigned int serverID; // @synthesize serverID=_serverID;
 
 @end
 

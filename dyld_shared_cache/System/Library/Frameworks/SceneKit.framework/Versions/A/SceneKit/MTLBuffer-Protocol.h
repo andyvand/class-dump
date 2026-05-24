@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol MTLBuffer;
-
 @protocol MTLBuffer
+- (unsigned long long)networkConfigurationProfileDidUpdateProtectionMode: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) unsigned long long gpuAddress;
 @property(readonly) unsigned long long length;
-@property(readonly) id <MTLBuffer> remoteStorageBuffer;
-@property(readonly) long long sparseBufferTier;
 @end
 

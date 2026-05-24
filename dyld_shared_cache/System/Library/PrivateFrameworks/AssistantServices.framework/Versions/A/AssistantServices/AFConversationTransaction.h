@@ -9,8 +9,6 @@
 @interface AFConversationTransaction
 {
     NSArray *_updatedItemIndexPaths;
-    NSArray *_insertedItemIndexPaths;
-    NSArray *_presentationStateChangedItemIndexPaths;
 }
 
 - (id);
@@ -20,8 +18,6 @@
 - (void)",R,N,V_provider;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *insertedItemIndexPaths; // @synthesize insertedItemIndexPaths=_insertedItemIndexPaths;
-@property(readonly, nonatomic) NSArray *presentationStateChangedItemIndexPaths; // @synthesize presentationStateChangedItemIndexPaths=_presentationStateChangedItemIndexPaths;
 @property(readonly, nonatomic) NSArray *updatedItemIndexPaths; // @synthesize updatedItemIndexPaths=_updatedItemIndexPaths;
 
 @end

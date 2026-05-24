@@ -4,32 +4,30 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface BKSHIDEventDescriptor
 {
     unsigned int _hidEventType;
 }
 
-+ (id);
++ (id)cancelTaskRequestWithIdentifier:(struct __IOHIDEvent *)arg1 completionHandler: /* Error: Ran out of types for this method. */;
 + (id);
 + (void);
 + (_Bool);
 - (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (id)setRefreshBeforeDate:(id)arg1;
 - (id);
 - (_Bool);
+- (id);
+- (id)CPMLDBSerialization;
+- (_Bool)pdpHealth;
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (id);
+- (id)P;
 - (_Bool);
 - (void);
 - (id);
-- (id);
+- (id)*;
 - (void);
 - (id);
 - (long long);
@@ -37,14 +35,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, nonatomic) unsigned int hidEventType; // @synthesize hidEventType=_hidEventType;
-@property(readonly) Class superclass;
 
 @end
 

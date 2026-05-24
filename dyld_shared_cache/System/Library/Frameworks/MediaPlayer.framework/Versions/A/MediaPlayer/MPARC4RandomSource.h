@@ -9,7 +9,6 @@
 @interface MPARC4RandomSource
 {
     struct Arc4State *_state;
-    NSData *_seed;
 }
 
 + (_Bool);
@@ -17,8 +16,8 @@
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)0&E;
+- (id)_clearPathIfNecessary;
 - (void);
 - (id);
 - (void)Level;

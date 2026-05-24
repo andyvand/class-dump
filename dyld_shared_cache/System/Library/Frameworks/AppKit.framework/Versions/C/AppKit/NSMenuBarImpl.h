@@ -6,79 +6,72 @@
 
 #import <AppKit/NSCocoaMenuImpl.h>
 
-@class NSArray, NSMenuItemView, NSMutableDictionary, NSObject, NSString;
-@protocol NSMenuBarImplDelegate;
+@class NSArray, NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface NSMenuBarImpl : NSCocoaMenuImpl
 {
     NSMutableDictionary *_displayIDToRepresentationView;
-    NSMenuItemView *_additionalHighlightedMenuItemView;
-    NSMenuItemView *_lastHighlightedMenuItemView;
-    NSString *_customizedAppMenuTitle;
-    _Bool _isTrackingActive;
-    _Bool _isGroupingLayoutChanges;
-    _Bool _hasPendingLayoutChanges;
-    _Bool _isImmediateLayoutClean;
-    NSObject<NSMenuBarImplDelegate> *_menuBarDelegate;
 }
 
-+ (void);
-+ (void);
-+ (void);
-+ (id);
++ (void)std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_requestHostToConnectionKey"{map<std::string, std::shared_ptr<__CoalescingConnectionKey>, std::less<std::string>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__tree_"{__tree<std::__value_type<std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::__map_value_compare<std::string, std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>, std::less<std::string>>, std::allocator<std::pair<const std::string, std::shared_ptr<__CoalescingConnectionKey>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}"_connectionKeyToAllRequestHosts"{map<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>, CoalescingConnectionKeyComparator, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__tree_"{__tree<std::__value_type<std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, std::__map_value_compare<std::shared_ptr<__CoalescingConnectionKey>, std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>, CoalescingConnectionKeyComparator>, std::allocator<std::pair<const std::shared_ptr<__CoalescingConnectionKey>, std::set<std::string>>>>="__begin_node_"^v""{?="__end_node_"{__tree_end_node<std::__tree_node_base<void *> *>="__left_"^v}}""{?="__size_"Q}}}} /* Error: Ran out of types for this method. */;
++ (void)emon_isDiscretionary;
++ (void)@ ;
++ (id)signalled it was complete on connection %p
+;
 - (id);
 - (id);
 - (void);
 - (void);
 - (_Bool);
+- (void)6 ;
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (_Bool);
-- (void);
-- (void);
+- (void)SessionCommandType;
+- (void)|;
 - (void);
 - (void);
 - (_Bool);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
 - (_Bool);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (_Bool);
+- (void);
+- (void)=QAQ}^{__CFCachedURLResponse}}16^{_CFURLRequest=}24;
+- (void)@0:(unsigned int)arg1 8;
+- (void)ion"48;
+- (_Bool)setOlderThanCreationDate:(_Bool)arg1;
+- (void)setByAddingObject:(id)arg1;
+- (id)initWithTask:connection:extraBytes:disavow: /* Error: Ran out of types for this method. */;
+- (void)_onqueue_didReceiveResponse: /* Error: Ran out of types for this method. */;
+- (void)URLSession:task:_schemeUpgraded:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)URLSession:(unsigned int)arg1 aggregateAssetDownloadTask:(CDUnknownBlockType)arg2 willDownloadToURL: /* Error: Ran out of types for this method. */;
+- (id)pectedToLoad:(unsigned int)arg1 forMediaSelection: /* Error: Ran out of types for this method. */;
+- (id);
+- (id)6;
+- (id)<|5;
+- (_Bool);
 - (void);
 - (struct CGRect);
 - (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
+- (_Bool)ource %@;
+- (void)CFNetwork;
+- (_Bool)establishTime;
+- (id)shared_tcpConnWorkQueue_Unspecified;
+- (void)tionLoader;
+- (void)NSErrorPeerCertificateChainKey;
+- (void)kCFURLConnectionSocketStreamProperties;
+- (void)CFAllocatedReferenceCountedObject;
+- (void)SystemTask"8;
+- (void)erNap);
+- (void)sec_protocol_options>"8;
+- (id)cdefghijklmnopqrstuvwxyz1234567890-_[]:(id)arg1;
+- (id)OS_dispatch_data;
+- (_Bool)
+)8;
 - (void);
 - (void);
 - (long long);
@@ -89,29 +82,19 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (id);
 - (id);
 - (long long);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool);
+- (void);
 - (void);
 - (void)Ð°µÿ@;
 - (void)ÜâG;
 
 // Remaining properties
-@property(readonly, copy) NSString *customizedAppMenuTitle;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly, copy) NSArray *highlightedTitles;
-@property(readonly) _Bool isLocalInstance;
-@property __weak NSObject<NSMenuBarImplDelegate> *menuBarDelegate; // @synthesize menuBarDelegate=_menuBarDelegate;
-@property(readonly) Class superclass;
 
 @end
 

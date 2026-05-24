@@ -6,18 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, NSString;
+@class NSString;
 
 @interface PEGASUSSchemaPEGASUSAsrHypothesisIdx : SISchemaInstrumentationMessage
 {
     NSString *_sourceAuxKey;
-    unsigned int _sourceAuxIdx;
-    unsigned int _originalAsrInterpretationIdx;
-    struct {
-        unsigned int sourceAuxIdx:1;
-        unsigned int originalAsrInterpretationIdx:1;
-    } _has;
-    _Bool _hasSourceAuxKey;
 }
 
 - (id);
@@ -36,24 +29,18 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void)t;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)ID:(id)arg1 %lld, but no attachments found;
 - (id);
 - (id)!ð@ùñÝ1Â0@ù
 × ;
-- (id)tureNames;
+- (id)_featureNames;
 - (id)GOverrideFailed",&,N,V_failed;
 - (void)ion.items.collection.typeIdentifier.custom.bundleId;
 
 // Remaining properties
-@property(nonatomic) _Bool hasOriginalAsrInterpretationIdx;
-@property(nonatomic) _Bool hasSourceAuxIdx;
-@property(nonatomic) _Bool hasSourceAuxKey; // @synthesize hasSourceAuxKey=_hasSourceAuxKey;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) unsigned int originalAsrInterpretationIdx; // @synthesize originalAsrInterpretationIdx=_originalAsrInterpretationIdx;
-@property(nonatomic) unsigned int sourceAuxIdx; // @synthesize sourceAuxIdx=_sourceAuxIdx;
 @property(copy, nonatomic) NSString *sourceAuxKey; // @synthesize sourceAuxKey=_sourceAuxKey;
 
 @end

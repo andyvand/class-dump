@@ -12,20 +12,18 @@ __attribute__((visibility("hidden")))
 @interface HMDBackingStoreCacheCreateZoneOperation : HMDBackingStoreOperation
 {
     NSString *_zoneName;
-    CDUnknownBlockType _creationBlock;
 }
 
 - (id);
 - (id);
 - (void)0@ù
 × ;
-- (id)y;
+- (id)HomeUtilDemoModeRollAccessoryIDKey;
 - (void)h«;
 - (CDUnknownBlockType);
 - (void)HØB;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType creationBlock; // @synthesize creationBlock=_creationBlock;
 @property(retain, nonatomic) NSString *zoneName; // @synthesize zoneName=_zoneName;
 
 @end

@@ -8,21 +8,17 @@ __attribute__((visibility("hidden")))
 @interface HMDHomeWalletKeyAccessoryConfigureState
 {
     _Bool _readerKeyConfigureInProgress;
-    _Bool _readerKeyConfigured;
-    _Bool _shouldRetryReaderKeyConfigureOnFailure;
 }
 
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool)_sendDestinationReachedUpdate:to: /* Error: Ran out of types for this method. */;
+- (_Bool)_sendCompatibleInstancesOfState:to: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property _Bool readerKeyConfigureInProgress; // @synthesize readerKeyConfigureInProgress=_readerKeyConfigureInProgress;
-@property _Bool readerKeyConfigured; // @synthesize readerKeyConfigured=_readerKeyConfigured;
-@property _Bool shouldRetryReaderKeyConfigureOnFailure; // @synthesize shouldRetryReaderKeyConfigureOnFailure=_shouldRetryReaderKeyConfigureOnFailure;
 
 @end
 

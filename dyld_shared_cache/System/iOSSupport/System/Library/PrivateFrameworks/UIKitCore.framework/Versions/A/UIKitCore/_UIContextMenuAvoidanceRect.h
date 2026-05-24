@@ -4,32 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol UICoordinateSpace;
-
 @interface _UIContextMenuAvoidanceRect
 {
     unsigned long long _edge;
-    id <UICoordinateSpace> _coordinateSpace;
-    unsigned long long _assertionID;
-    struct CGRect _frame;
 }
 
+- (id)ngPinnedChatIdentifiers:(unsigned long long)arg1 usingBlock:(struct CGRect)arg2;
+- (void)maxTotalThreadsPerMeshThreadgroup;
 - (id);
-- (void);
-- (id);
-- (void)terfaceOrientationMode:(unsigned long long)arg1;
-- (struct CGRect)ng: /* Error: Ran out of types for this method. */;
-- (unsigned long long)nstraintBasedLayoutHostingView;
-- (void)Configuration;
+- (void)setInterfaceOrientationMode:(unsigned long long)arg1;
+- (struct CGRect)setHeaderViewInterMonthButtonSpacing: /* Error: Ran out of types for this method. */;
+- (unsigned long long)_UIConstraintBasedLayoutHostingView;
+- (void)_UIBasicHeaderFooterContentViewConfiguration;
 - (void)edPreviews not checked);
 - (void)¼HËÿ©~Êv];
 - (unsigned long long)ðUþ;
 
 // Remaining properties
 @property(nonatomic) unsigned long long assertionID; // @synthesize assertionID=_assertionID;
-@property(nonatomic) __weak id <UICoordinateSpace> coordinateSpace; // @synthesize coordinateSpace=_coordinateSpace;
-@property(nonatomic) unsigned long long edge; // @synthesize edge=_edge;
-@property(nonatomic) struct CGRect frame; // @synthesize frame=_frame;
 
 @end
 

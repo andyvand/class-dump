@@ -7,8 +7,6 @@
 @interface UIKit._UITimeline.Action
 {
     id name;
-    id delay;
-    id handler;
 }
 
 @end

@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class EDMessagePersistence, EDPersistenceDatabase, NSString;
-@protocol EDMessageChangeHookResponder;
+@class EDPersistenceDatabase;
 
 @interface EDDataDetectionPersistence
 {
     EDPersistenceDatabase *_database;
-    EDMessagePersistence *_messagePersistence;
-    id <EDMessageChangeHookResponder> _hookResponder;
 }
 
 + (id);
@@ -30,15 +27,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) EDPersistenceDatabase *database; // @synthesize database=_database;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) __weak id <EDMessageChangeHookResponder> hookResponder; // @synthesize hookResponder=_hookResponder;
-@property(readonly, nonatomic) EDMessagePersistence *messagePersistence; // @synthesize messagePersistence=_messagePersistence;
-@property(readonly) Class superclass;
 
 @end
 

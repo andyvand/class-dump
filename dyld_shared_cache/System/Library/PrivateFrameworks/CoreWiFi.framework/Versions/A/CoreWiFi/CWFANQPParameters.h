@@ -9,14 +9,9 @@
 @interface CWFANQPParameters
 {
     _Bool _includeMatchingKnownNetworkProfiles;
-    NSArray *_scanResults;
-    NSArray *_ANQPElementIDList;
-    unsigned long long _acceptableCacheAge;
-    unsigned long long _maximumAge;
-    unsigned long long _minimumTimestamp;
 }
 
-+ (_Bool);
++ (_Bool);
 - (_Bool);
 - (id);
 - (void);
@@ -27,29 +22,22 @@
 - (unsigned long long);
 - (id);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (void);
-- (unsigned long long);
-- (_Bool);
+- (unsigned long long)*;
+- (_Bool)5;
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)$%;
 - (void);
 - (void);
 - (void)°ãæ;
 - (void)<è;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *ANQPElementIDList; // @synthesize ANQPElementIDList=_ANQPElementIDList;
-@property(nonatomic) unsigned long long acceptableCacheAge; // @synthesize acceptableCacheAge=_acceptableCacheAge;
-@property(nonatomic) _Bool cacheOnly; // @dynamic cacheOnly;
-@property(nonatomic) _Bool includeMatchingKnownNetworkProfiles; // @synthesize includeMatchingKnownNetworkProfiles=_includeMatchingKnownNetworkProfiles;
-@property(nonatomic) unsigned long long maximumAge; // @synthesize maximumAge=_maximumAge;
-@property(nonatomic) unsigned long long maximumCacheAge; // @dynamic maximumCacheAge;
-@property(nonatomic) unsigned long long minimumTimestamp; // @synthesize minimumTimestamp=_minimumTimestamp;
 @property(copy, nonatomic) NSArray *scanResults; // @synthesize scanResults=_scanResults;
 
 @end

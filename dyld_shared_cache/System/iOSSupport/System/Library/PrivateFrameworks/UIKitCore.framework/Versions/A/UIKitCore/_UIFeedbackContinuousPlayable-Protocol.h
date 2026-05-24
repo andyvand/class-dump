@@ -5,6 +5,7 @@
 //
 
 @protocol _UIFeedbackContinuousPlayable
+- (void)|�h;
 - (_Bool)tion"16;
 
 // Remaining properties

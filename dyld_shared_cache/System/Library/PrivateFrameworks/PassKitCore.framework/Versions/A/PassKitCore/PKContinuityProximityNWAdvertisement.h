@@ -11,7 +11,6 @@
 @interface PKContinuityProximityNWAdvertisement : PKContinuityProximityAdvertisement
 {
     NSString *_identifier;
-    NSString *_pin;
 }
 
 + (_Bool);
@@ -20,12 +19,11 @@
 - (id);
 - (id)X"Ð!Dùî%Ð1Â0@ù
 × ;
-- (id)ceVersion:(id)arg1 deviceClass:account: /* Error: Ran out of types for this method. */;
-- (void)ms;
+- (id)_policyForDeviceVersion:(id)arg1 deviceClass:account: /* Error: Ran out of types for this method. */;
+- (void)lineItems;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(readonly, nonatomic) NSString *pin; // @synthesize pin=_pin;
 
 @end
 

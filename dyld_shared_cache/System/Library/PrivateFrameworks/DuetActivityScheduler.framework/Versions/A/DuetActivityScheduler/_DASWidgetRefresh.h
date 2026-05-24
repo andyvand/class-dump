@@ -6,14 +6,11 @@
 
 #import <DuetActivityScheduler/_DASWidgetInfo.h>
 
-@class NSDate, NSString;
+@class NSDate;
 
 @interface _DASWidgetRefresh : _DASWidgetInfo
 {
     _Bool _isDASInitiated;
-    NSDate *_refreshDate;
-    NSString *_refreshReason;
-    NSString *_rateLimitConfigurationName;
 }
 
 + (id);
@@ -28,10 +25,7 @@
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool isDASInitiated; // @synthesize isDASInitiated=_isDASInitiated;
-@property(readonly, nonatomic) NSString *rateLimitConfigurationName; // @synthesize rateLimitConfigurationName=_rateLimitConfigurationName;
 @property(readonly, nonatomic) NSDate *refreshDate; // @synthesize refreshDate=_refreshDate;
-@property(copy, nonatomic) NSString *refreshReason; // @synthesize refreshReason=_refreshReason;
 
 @end
 

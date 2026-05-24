@@ -4,24 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, NSString;
-
 @interface AXUIElement
 {
     struct __AXUIElement *_axElement;
-    long long _cachedRefCount;
-    NSMutableDictionary *_cachedAttributes;
-    _Bool _isValid;
 }
 
 + (id);
 + (id);
 + (id);
++ (id)T;
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -34,7 +29,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id)?;
 - (id);
 - (id);
 - (void);
@@ -42,31 +37,31 @@
 - (void);
 - (void);
 - (struct CGRect);
-- (struct _NSRange);
-- (id);
+- (struct _NSRange)-;
+- (id);
 - (struct CGPoint);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (struct CGPath *);
 - (id);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (struct _NSRange);
 - (void *);
 - (_Bool);
-- (_Bool);
+- (_Bool)?;
 - (id);
 - (id);
 - (void);
-- (id);
-- (struct CGColor *);
-- (id);
+- (id)!;
+- (struct CGColor *)?;
+- (id)-;
 - (_Bool);
-- (_Bool);
+- (_Bool)˄H;
 - (struct __AXUIElement *);
 - (id);
 - (void);
@@ -82,42 +77,33 @@
 - (id);
 - (unsigned int);
 - (id);
+- (id)ր;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void));
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)N;
+- (void);
 - (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (struct _NSRange);
+- (struct _NSRange)TH;
 - (void);
 - (void);
 - (int);
-- (void);
-- (void);
+- (void)*긩;
+- (void)9@;
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)playerFallbackAssetURL;
 - (id);
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) struct __AXUIElement *axElement; // @synthesize axElement=_axElement;
-@property(readonly, nonatomic) NSDictionary *cachedAttributes; // @dynamic cachedAttributes;
-@property(readonly, nonatomic) NSMutableDictionary *copyCachedAttributes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

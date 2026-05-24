@@ -9,31 +9,30 @@
     CDStruct_9f2792e4 _precisions;
 }
 
-+ (_Bool)ObjectGroupId:(id)arg1;
++ (_Bool)setObjectGroupId:(id)arg1;
 - (void);
-- (unsigned int);
-- (void);
+- (unsigned int);
+- (void)ion>",&,D;
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void)setEnabledStates:(id)arg1;
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (void)setHeaderAlternatePrimaryButtonController: /* Error: Ran out of types for this method. */;
+- (_Bool)8;
+- (void)C;
 - (id)!Gùº*1Â0@ù
 × ;
 - (unsigned long long)e"b1"has_shouldDisplayOnMap"b1"read_unknownFields"b1"read_artwork"b1"read_crossStreet"b1"read_incidentId"b1"read_info"b1"read_position"b1"read_restrictionInfo"b1"read_street"b1"read_userReportIds"b1"wrote_anyField"b1};
-- (id)ithRoute:auditToken:loggingIdentifier: /* Error: Ran out of types for this method. */;
-- (unsigned int *)Country:region: /* Error: Ran out of types for this method. */;
+- (id)initWithRoute:auditToken:loggingIdentifier: /* Error: Ran out of types for this method. */;
+- (unsigned int *)buildDisputedBordersQueryItemsForCountry:region: /* Error: Ran out of types for this method. */;
 - (id)h",R,N,V_routeMatch;
 - (id)ent;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned int *precisions;
 @property(readonly, nonatomic) unsigned long long precisionsCount;
 
 @end

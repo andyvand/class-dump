@@ -13,11 +13,11 @@
 + (_Bool);
 - (id);
 - (Class);
-- (id);
+- (id);
 - (long long);
 - (id);
 - (void);
-- (void);
+- (void)tem/Library/Frameworks/IOKit.framework/Versions/A/IOKit;
 - (const char *);
 
 @end

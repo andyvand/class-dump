@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BluetoothDevice;
-
 @interface SRFVoiceTriggerDevices
 {
 }
@@ -16,7 +14,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) BluetoothDevice *connectedVoiceTriggerCapableBluetoothHeadphones;
 @property(readonly, nonatomic) long long pairedVoiceTriggerDeviceTypeDistribution;
 
 @end

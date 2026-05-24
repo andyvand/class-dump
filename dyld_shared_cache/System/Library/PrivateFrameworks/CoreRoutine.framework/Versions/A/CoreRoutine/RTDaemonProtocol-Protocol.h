@@ -4,7 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSUUID, RTTripClusterMetadataFetchOptions;
+
 @protocol RTDaemonProtocol
+- (void)setThumbnailLoaded:(RTTripClusterMetadataFetchOptions *)arg1;
+- (void)lockMipmapAtIndex:(NSUUID *)arg1;
+- (void)accessoryViewConstraint;
+- (void);
+- (void)ate",&,N,V_lastSavedDate;
+- (void);
+- (void);
+- (void)r;
+- (void)/;
+- (void)v;
+- (void){_os_log_index_timeref=[16C]Q}{_os_log_index_timeref=[16C]Q}{_os_log_index_timeref=[16C]Q}{_os_log_index_timeref=[16C]Q}{_os_log_index_timeref=[16C]Q}^{_os_log_index_timeref}[5{?={_os_log_index_timeref=[16C]Q}C}]}24@32@40I48I52I56;
+- (void)becomeCurrentWithPendingUnitCount:(void (^)(NSError *))arg1;
+- (void)];
+- (void)B12Q16Q24;
+- (void)ҋ+;
+- (void);
+- (void)itations;
+- (void)P;
+- (void)mx;
+- (void)__DATA_CONST;
+- (void)generateDAVServerIDsForExistingBookmarksWithCompletionHandler:(void (^)(long long, NSError *))arg1;
+- (void)fileURLFromExportFolderURL:(void (^)(NSError *))arg1 profileTitle:forBrowsingDataExportType: /* Error: Ran out of types for this method. */;
+- (void)_idForFirstPartyWithHighLevelDomain:(NSUUID *)arg1;
+- (void)enableRecentSearchSortingUsingExponentialWeighting;
+- (void)";
 - (void)ictedContextTransports;
 @end
 

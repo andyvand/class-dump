@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, RBSProcessInstance;
-@protocol RBSProcessBundleDataSource;
+@class NSDictionary, RBSProcessInstance;
 
 @interface RBSProcessBundle
 {
     NSDictionary *_plistValues;
-    NSString *_identifier;
-    NSString *_path;
-    NSString *_executablePath;
-    NSString *_extensionPointIdentifier;
-    id <RBSProcessBundleDataSource> _dataSource;
-    RBSProcessInstance *_instance;
 }
 
 + (_Bool);
@@ -31,22 +24,12 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id)h;
+- (void)?
+j!;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, copy, nonatomic) NSString *executablePath; // @synthesize executablePath=_executablePath;
-@property(readonly, copy, nonatomic) NSString *extensionPointIdentifier; // @synthesize extensionPointIdentifier=_extensionPointIdentifier;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
 @property(retain, nonatomic) RBSProcessInstance *instance; // @synthesize instance=_instance;
-@property(readonly, copy, nonatomic) NSString *path; // @synthesize path=_path;
-@property(readonly) Class superclass;
 
 @end
 

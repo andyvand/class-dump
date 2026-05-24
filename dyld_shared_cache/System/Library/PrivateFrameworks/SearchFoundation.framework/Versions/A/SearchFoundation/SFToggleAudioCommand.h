@@ -6,37 +6,17 @@
 
 #import <SearchFoundation/SFCommand.h>
 
-@class NSData, NSDictionary, NSString, SFCommandReference, SFTopic;
+@class NSString;
 
 @interface SFToggleAudioCommand : SFCommand
 {
     CDStruct_c287193c _has;
-    int _mediaEntityType;
-    NSString *_localMediaIdentifier;
-    NSString *_persistentIdentifier;
-    NSString *_universalLibraryIdentifier;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(copy, nonatomic) NSData *backendData;
-@property(copy, nonatomic) NSString *commandDetail;
-@property(retain, nonatomic) SFCommandReference *commandReference;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(copy, nonatomic) NSString *localMediaIdentifier; // @synthesize localMediaIdentifier=_localMediaIdentifier;
-@property(nonatomic) int mediaEntityType; // @synthesize mediaEntityType=_mediaEntityType;
-@property(retain, nonatomic) SFTopic *normalizedTopic;
-@property(copy, nonatomic) NSString *persistentIdentifier; // @synthesize persistentIdentifier=_persistentIdentifier;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSString *universalLibraryIdentifier; // @synthesize universalLibraryIdentifier=_universalLibraryIdentifier;
 
 @end
 

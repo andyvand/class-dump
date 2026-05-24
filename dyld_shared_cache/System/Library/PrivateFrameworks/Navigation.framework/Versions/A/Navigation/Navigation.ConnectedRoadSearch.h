@@ -7,9 +7,6 @@
 @interface Navigation.ConnectedRoadSearch
 {
     id $__lazy_storage_$__mapFeatureAccess;
-    id roadStartNode;
-    id connectedRoads;
-    id frontier;
 }
 
 @end

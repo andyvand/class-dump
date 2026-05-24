@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBValueMetadata;
-
 @interface _INPBSpeedValue
 {
     CDStruct_74078a21 _has;
-    int _unit;
-    double _magnitude;
-    _INPBValueMetadata *_valueMetadata;
 }
 
 + (_Bool);
 - (id);
-- (void);
+- (void);
 - (void);
 - (void);
 - (double);
@@ -26,32 +21,20 @@
 - (id);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)rawValue;
+- (id)e;
 - (id);
-- (id);
-- (_Bool)elationshipINTypePropertyRelationshipPredicateValue;
+- (_Bool)__INCodableAttributeRelationshipINTypePropertyRelationshipPredicateValue;
 - (void)adDataRepresentationWithType:completion:] /* Error: Ran out of types for this method. */;
 - (void);
 - (id)ø;
 - (int)P;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool hasMagnitude;
-@property(nonatomic) _Bool hasUnit;
-@property(readonly, nonatomic) _Bool hasValueMetadata;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) double magnitude; // @synthesize magnitude=_magnitude;
-@property(readonly) Class superclass;
-@property(nonatomic) int unit; // @synthesize unit=_unit;
-@property(retain, nonatomic) _INPBValueMetadata *valueMetadata; // @synthesize valueMetadata=_valueMetadata;
 
 @end
 

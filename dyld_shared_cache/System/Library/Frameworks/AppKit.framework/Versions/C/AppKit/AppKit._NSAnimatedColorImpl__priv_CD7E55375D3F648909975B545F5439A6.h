@@ -6,18 +6,17 @@
 
 #import <AppKit/NSColor.h>
 
-@class NSImage, NSString;
+@class NSString;
 
 @interface AppKit._NSAnimatedColorImpl__priv_CD7E55375D3F648909975B545F5439A6 : NSColor
 {
     id _provider;
-    id $__lazy_storage_$__patternImage;
 }
 
-- (id);
+- (id)ped since filters don't match. Cookie = %@;
 - (_Bool);
 - (id);
-- (id);
+- (id)ity Levels:(id)arg1 %d;
 - (id);
 - (id);
 - (struct CGColor *)"`ÿÿ;
@@ -30,10 +29,7 @@
 - (id)`L;
 
 // Remaining properties
-@property(nonatomic, readonly) struct CGColor *CGColor;
-@property(nonatomic, readonly) double alphaComponent;
 @property(nonatomic, readonly) NSString *colorSpaceName;
-@property(nonatomic, readonly) NSImage *patternImage;
 
 @end
 

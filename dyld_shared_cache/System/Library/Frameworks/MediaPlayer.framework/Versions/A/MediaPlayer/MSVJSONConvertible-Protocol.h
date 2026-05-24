@@ -4,6 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol MSVJSONValue;
+
 @protocol MSVJSONConvertible
+- (id <MSVJSONValue>)uestHandler encountered error:%{public}@ /* Error: Ran out of types for this method. */;
+- (id)r:(id <MSVJSONValue>)arg1 %{public}@;
 @end
 

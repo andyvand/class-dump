@@ -12,15 +12,15 @@
 }
 
 + (id);
++ (id);
 + (id);
-+ (id);
-+ (unsigned int);
++ (unsigned int)esentations:%s /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (unsigned short);
 - (id);
-- (id);
+- (id)AMSURLDelegateProxy;
 
 // Remaining properties
 @property(readonly) unsigned short hashAlgorithm; // @synthesize hashAlgorithm=_hashAlgorithm;

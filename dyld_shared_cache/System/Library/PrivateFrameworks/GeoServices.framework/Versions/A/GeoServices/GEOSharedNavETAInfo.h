@@ -9,38 +9,12 @@
 @interface GEOSharedNavETAInfo
 {
     PBUnknownFields *_unknownFields;
-    double _etaTimestamp;
-    double _latitude;
-    double _longitude;
-    double _remainingDistance;
-    double _remainingTime;
-    unsigned int _waypointIndex;
-    struct {
-        unsigned int has_etaTimestamp:1;
-        unsigned int has_latitude:1;
-        unsigned int has_longitude:1;
-        unsigned int has_remainingDistance:1;
-        unsigned int has_remainingTime:1;
-        unsigned int has_waypointIndex:1;
-    } _flags;
 }
 
-+ (_Bool)DeviceSettings:(id)arg1;
++ (_Bool)setMapsDeviceSettings:(id)arg1;
 
 // Remaining properties
-@property(nonatomic) double etaTimestamp;
-@property(nonatomic) _Bool hasEtaTimestamp;
-@property(nonatomic) _Bool hasLatitude;
-@property(nonatomic) _Bool hasLongitude;
 @property(nonatomic) _Bool hasRemainingDistance;
-@property(nonatomic) _Bool hasRemainingTime;
-@property(nonatomic) _Bool hasWaypointIndex;
-@property(nonatomic) double latitude;
-@property(nonatomic) double longitude;
-@property(nonatomic) double remainingDistance;
-@property(nonatomic) double remainingTime;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) unsigned int waypointIndex;
 
 @end
 

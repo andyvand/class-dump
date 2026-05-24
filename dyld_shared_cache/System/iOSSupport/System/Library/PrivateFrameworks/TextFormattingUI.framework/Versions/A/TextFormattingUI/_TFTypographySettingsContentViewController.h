@@ -10,7 +10,6 @@
 {
     id _typographyPanel;
     id <TypographyPanelDelegate> delegate;
-    id <__TFTypographySettingsContentViewControllerDelegate> _delegate;
 }
 
 - (void);
@@ -18,7 +17,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);

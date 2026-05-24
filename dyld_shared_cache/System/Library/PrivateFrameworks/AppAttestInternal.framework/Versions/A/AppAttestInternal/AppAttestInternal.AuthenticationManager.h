@@ -7,10 +7,6 @@
 @interface AppAttestInternal.AuthenticationManager
 {
     id auditToken;
-    id $__lazy_storage_$_bundleRecordController;
-    id $__lazy_storage_$_securityController;
-    id aaGuidLength;
-    id logger;
 }
 
 @end

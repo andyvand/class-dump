@@ -4,31 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSString;
 
 @interface EMFAnchoredSearchAnchorCollection
 {
     NSString *_localeIdentifier;
-    NSArray *_leftHandAnchors;
-    NSArray *_rightHandAnchors;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (void)arksSidebarTableCellView?isCompact=true;
+- (void)ew Folder in the bookmarks sidebar.;
+- (id)e Ascending order for sort option.;
+- (id)e the format is not supported;
+- (id);
 - (id);
 - (id);
 - (void);
 - (id)0@ù
 × ;
-- (void)nchoredReplacementCandidatesForContext:(id)arg1 withOptions:usingBlock: /* Error: Ran out of types for this method. */;
+- (void)enumerateAnchoredReplacementCandidatesForContext:(id)arg1 withOptions:usingBlock: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *leftHandAnchors; // @synthesize leftHandAnchors=_leftHandAnchors;
 @property(copy, nonatomic) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
-@property(copy, nonatomic) NSArray *rightHandAnchors; // @synthesize rightHandAnchors=_rightHandAnchors;
 
 @end
 

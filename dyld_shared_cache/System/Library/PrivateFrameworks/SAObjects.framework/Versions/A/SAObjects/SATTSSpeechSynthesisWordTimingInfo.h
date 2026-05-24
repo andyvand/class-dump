@@ -6,15 +6,13 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSNumber, NSString;
-
 @interface SATTSSpeechSynthesisWordTimingInfo : AceObject
 {
 }
 
 + (id);
 + (id);
-- (id);
+- (id)(;
 - (void);
 - (id);
 - (void);
@@ -25,21 +23,10 @@
 - (void);
 - (void);
 - (void);
-- (long long)lineWithDictionary:context: /* Error: Ran out of types for this method. */;
+- (long long)keylineWithDictionary:context: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(nonatomic) long long length;
-@property(nonatomic) long long offset;
-@property(copy, nonatomic) NSNumber *sampleIndex;
-@property(readonly) Class superclass;
-@property(nonatomic) float timestamp;
-@property(copy, nonatomic) NSString *word;
 
 @end
 

@@ -4,14 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSXPCListenerEndpoint;
-@protocol NSXPCProxyCreating;
-
 @interface SoftwareTransparency
 {
     unsigned long long _application;
-    NSXPCListenerEndpoint *_endpoint;
-    id <NSXPCProxyCreating> _proxyCreating;
 }
 
 + (id);
@@ -25,18 +20,18 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)_!;
 - (unsigned long long);
 - (id);
 - (void);
@@ -48,8 +43,6 @@
 
 // Remaining properties
 @property unsigned long long application; // @synthesize application=_application;
-@property(retain) NSXPCListenerEndpoint *endpoint; // @synthesize endpoint=_endpoint;
-@property(retain) id <NSXPCProxyCreating> proxyCreating; // @synthesize proxyCreating=_proxyCreating;
 
 @end
 

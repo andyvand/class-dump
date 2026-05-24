@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKAsn1Token, NSString;
+@class CKAsn1Token;
 
 @interface CKAsn1ReceiptToken
 {
     unsigned long long mType;
-    unsigned long long mTypeVersion;
-    CKAsn1Token *mContentToken;
 }
 
-+ (id);
-- (unsigned long long);
-- (id);
-- (_Bool);
-- (id);
++ (id)pendingFamilyMembersIgnoringCache:(id)arg1 completion: /* Error: Ran out of types for this method. */;
+- (unsigned long long)performDeviceRegistrationReturningContextForReason:brokerURL:completion: /* Error: Ran out of types for this method. */;
+- (id)performAction:inContainerWithName:completion: /* Error: Ran out of types for this method. */;
+- (_Bool)performAction:inContainerWithName:completion: /* Error: Ran out of types for this method. */;
+- (id)pendingTransactionsForTransactionSourceIdentifiers:(unsigned long long)arg1 withTransactionSource:(unsigned long long)arg2 withBackingData:(id)arg3 startDate:endDate:limit:completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (unsigned long long);
@@ -26,10 +24,6 @@
 
 // Remaining properties
 @property(readonly) CKAsn1Token *contentToken; // @synthesize contentToken=mContentToken;
-@property(readonly) unsigned long long integerValue;
-@property(readonly) NSString *stringValue;
-@property(readonly) unsigned long long type; // @synthesize type=mType;
-@property(readonly) unsigned long long typeVersion; // @synthesize typeVersion=mTypeVersion;
 
 @end
 

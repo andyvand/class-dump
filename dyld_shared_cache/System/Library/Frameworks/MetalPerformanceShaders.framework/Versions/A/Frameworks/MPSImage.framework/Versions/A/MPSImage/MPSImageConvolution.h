@@ -6,22 +6,11 @@
 
 #import <MPSImage/MPSUnaryImageKernel.h>
 
-@class MPSImageLaplacian;
 @protocol MTLBuffer;
 
 @interface MPSImageConvolution : MPSUnaryImageKernel
 {
     id <MTLBuffer> wtBuffer;
-    id <MTLBuffer> wtBufferh;
-    float *kOrigWeights;
-    float *wtArray;
-    unsigned short *wtArrayh;
-    unsigned long long _fWidth;
-    unsigned long long _fHeight;
-    float _fBias;
-    _Bool separable;
-    unsigned long long specialFilterType;
-    MPSImageLaplacian *_laplacian;
 }
 
 + (const struct MPSLibraryInfo *);
@@ -31,7 +20,7 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)r:(id)arg1;
 - (void);
 - (float);
 - (id);
@@ -41,9 +30,7 @@
 - (id)Öÿ}!h?æwÝ?;
 
 // Remaining properties
-@property(nonatomic) float bias; // @synthesize bias=_fBias;
 @property(readonly, nonatomic) unsigned long long kernelHeight; // @synthesize kernelHeight=_fHeight;
-@property(readonly, nonatomic) unsigned long long kernelWidth; // @synthesize kernelWidth=_fWidth;
 
 @end
 

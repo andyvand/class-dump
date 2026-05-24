@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, PLEntry, PLEntryNotificationOperatorComposition, PLIOKitOperatorComposition, PLStateTrackingComposition;
+@class PLEntryNotificationOperatorComposition;
 
 @interface PLMacCPUGPUAgent
 {
     _Bool _isDiscreteGPUConnected;
-    int _nPstates;
-    PLEntryNotificationOperatorComposition *_batteryLevelChangedNotifications;
-    PLIOKitOperatorComposition *_graphicsControlComposition;
-    PLIOKitOperatorComposition *_discreteGpuComposition;
-    PLStateTrackingComposition *_stateTracker;
-    NSDate *_lastPkgEnergySampleTime;
-    PLEntry *_lastPkgEnergyEntry;
 }
 
 + (id);
@@ -50,7 +43,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (void);
 - (id);
@@ -70,13 +63,6 @@
 
 // Remaining properties
 @property(retain) PLEntryNotificationOperatorComposition *batteryLevelChangedNotifications; // @synthesize batteryLevelChangedNotifications=_batteryLevelChangedNotifications;
-@property(retain) PLIOKitOperatorComposition *discreteGpuComposition; // @synthesize discreteGpuComposition=_discreteGpuComposition;
-@property(retain) PLIOKitOperatorComposition *graphicsControlComposition; // @synthesize graphicsControlComposition=_graphicsControlComposition;
-@property _Bool isDiscreteGPUConnected; // @synthesize isDiscreteGPUConnected=_isDiscreteGPUConnected;
-@property(retain) PLEntry *lastPkgEnergyEntry; // @synthesize lastPkgEnergyEntry=_lastPkgEnergyEntry;
-@property(retain) NSDate *lastPkgEnergySampleTime; // @synthesize lastPkgEnergySampleTime=_lastPkgEnergySampleTime;
-@property int nPstates; // @synthesize nPstates=_nPstates;
-@property(retain) PLStateTrackingComposition *stateTracker; // @synthesize stateTracker=_stateTracker;
 
 @end
 

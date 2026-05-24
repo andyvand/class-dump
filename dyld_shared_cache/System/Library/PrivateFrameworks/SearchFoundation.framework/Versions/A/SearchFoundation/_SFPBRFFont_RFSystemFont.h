@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString;
-
 @interface _SFPBRFFont_RFSystemFont
 {
     float _size;
-    int _weight;
 }
 
 - (id);
@@ -18,25 +15,16 @@
 - (_Bool);
 - (float);
 - (void);
-- (_Bool);
-- (id);
-- (id);
-- (int);
-- (id);
+- (_Bool)B;
+- (id)queryForFaceGroupsWithLocalIdentifiers:(id)arg1 options: /* Error: Ran out of types for this method. */;
+- (id)public}@ Unable to initialize PHSearchQuery, aborting suggestions request;
+- (int);
+- (id);
 - (void);
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(nonatomic) float size; // @synthesize size=_size;
-@property(readonly) Class superclass;
-@property(nonatomic) int weight; // @synthesize weight=_weight;
 
 @end
 

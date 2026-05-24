@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HMIFaceQualityFilterSVM, HMIFaceprinter, NSString;
+@class HMIFaceprinter;
 
 @interface HMIFaceClassifierVIP
 {
     HMIFaceprinter *_faceprinter;
-    HMIFaceQualityFilterSVM *_faceRecognizabilityFilter;
-    HMIFaceQualityFilterSVM *_faceAestheticQualityFilter;
-    double _classificationThresholdKnown;
-    double _classificationThresholdUnknown;
 }
 
 + (id);
@@ -27,18 +23,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) double classificationThresholdKnown; // @synthesize classificationThresholdKnown=_classificationThresholdKnown;
-@property(readonly) double classificationThresholdUnknown; // @synthesize classificationThresholdUnknown=_classificationThresholdUnknown;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) HMIFaceQualityFilterSVM *faceAestheticQualityFilter; // @synthesize faceAestheticQualityFilter=_faceAestheticQualityFilter;
-@property(readonly) HMIFaceQualityFilterSVM *faceRecognizabilityFilter; // @synthesize faceRecognizabilityFilter=_faceRecognizabilityFilter;
 @property(readonly) HMIFaceprinter *faceprinter; // @synthesize faceprinter=_faceprinter;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

@@ -13,7 +13,7 @@ __attribute__((visibility("hidden")))
 
 - (unsigned long long);
 - (void);
-- (oneway void);
+- (oneway void)T;
 - (Class);
 - (Class);
 - (id);

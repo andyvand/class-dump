@@ -4,23 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NTPBDate;
+@class NTPBDate;
 
 @interface NTPBNotificationPoolIndex
 {
     NTPBDate *_creationDate;
-    NSMutableArray *_entries;
-    _Bool _isPaidVariant;
-    struct {
-        unsigned int isPaidVariant:1;
-    } _has;
 }
 
 + (Class);
 - (void);
-- (void);
-- (_Bool);
-- (_Bool);
+- (void)currentDataSourceManagerForPhotoLibrary:(_Bool)arg1 momentSharePhotoLibrary: /* Error: Ran out of types for this method. */;
+- (_Bool)chapterIndexesByIdentifier;
+- (_Bool)attributesWithGenericSearchText: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (void);
 - (id);
@@ -32,7 +27,7 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (_Bool);
+- (_Bool)ostReboot;
 - (_Bool);
 - (void);
 - (void);
@@ -41,11 +36,7 @@
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NTPBDate *creationDate; // @synthesize creationDate=_creationDate;
-@property(retain, nonatomic) NSMutableArray *entries; // @synthesize entries=_entries;
 @property(readonly, nonatomic) _Bool hasCreationDate;
-@property(nonatomic) _Bool hasIsPaidVariant;
-@property(nonatomic) _Bool isPaidVariant; // @synthesize isPaidVariant=_isPaidVariant;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <SAObjects/AceObject.h>
 
-@class NSString, NSURL;
+@class NSString;
 
 @interface SAAnswerLinkedAnswer : AceObject
 {
@@ -21,22 +21,12 @@
 - (id);
 - (id);
 - (id);
+- (id)H8;
 - (id);
-- (id);
-- (void);
+- (void)H;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy, nonatomic) NSString *descriptionText;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSURL *image;
-@property(copy, nonatomic) NSURL *link;
-@property(copy, nonatomic) NSString *name;
-@property(readonly) Class superclass;
 
 @end
 

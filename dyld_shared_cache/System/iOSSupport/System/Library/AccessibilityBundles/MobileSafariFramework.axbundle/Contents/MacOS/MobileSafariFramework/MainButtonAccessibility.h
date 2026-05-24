@@ -11,7 +11,7 @@
 }
 
 + (Class);
-+ (id);
++ (id)insertItemsAtIndexPaths: /* Error: Ran out of types for this method. */;
 + (void);
 - (_Bool);
 - (_Bool);

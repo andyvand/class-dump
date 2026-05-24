@@ -19,8 +19,8 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (void);
-- (id);
+- (void)@;
+- (id)PrivateFrameworks/SafetyMonitor.framework/v4_level1_urgent_ML.wav;
 
 // Remaining properties
 @property(retain) SUProductStub *stub; // @synthesize stub=_stub;

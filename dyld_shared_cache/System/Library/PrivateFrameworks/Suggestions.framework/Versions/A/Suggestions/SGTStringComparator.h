@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSNumber, NSString;
+@class NSArray, NSString;
 
 @interface SGTStringComparator
 {
     NSArray *_alignment;
-    NSArray *_tailAlignment;
-    double _logScore;
-    _Bool _hasLogScore;
-    NSMutableArray *_allScoreCombinations;
-    _Bool hasEmptySentence;
-    NSNumber *_spotlightScore;
-    NSString *_stringA;
-    NSString *_stringB;
 }
 
 - (id);
@@ -41,15 +33,10 @@
 - (id);
 - (id);
 - (id);
-- (void);
+- (void)constraintEqualToAnchor: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) NSArray *alignment;
-@property(readonly, nonatomic) NSArray *allScoreCombinations;
-@property(readonly, nonatomic) NSArray *perfectAlignment;
 @property(copy, nonatomic) NSString *stringA; // @synthesize stringA=_stringA;
-@property(copy, nonatomic) NSString *stringB; // @synthesize stringB=_stringB;
-@property(readonly, nonatomic) NSArray *tailAlignment;
 
 @end
 

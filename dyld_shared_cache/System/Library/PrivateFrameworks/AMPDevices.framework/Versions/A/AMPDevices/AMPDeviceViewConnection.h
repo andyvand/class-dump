@@ -4,39 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMPDevice, DeviceRemoteViewController, NSString, NSUUID, NSView, NSXPCConnection;
-
 @interface AMPDeviceViewConnection
 {
     _Bool _enabled;
-    unsigned int _clientID;
-    NSView *_targetView;
-    DeviceRemoteViewController *_remoteViewController;
-    AMPDevice *_device;
-    NSUUID *_uid;
-    NSXPCConnection *_sideConnection;
-    NSXPCConnection *_connectionToDiscoveryService;
-    NSString *_defaultMode;
 }
 
 - (void);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)@;
 - (void);
 - (id);
 - (void);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void)GEOComposedRoute *, geo:(id)arg1:_retain_objc_arc, geo::_release_objc_arc, geo::_hash_objc, geo::_equal_objc>="_vptr$_retain_ptr"^^?"_obj"@"GEOComposedRoute""_retain"{_retain_objc_arc=}"_release"{_release_objc_arc=}} /* Error: Ran out of types for this method. */;
+- (void)NETHERLANDS_Arriva_Personenvervoer_Nederland_Groningen_Roodeschool;
 - (id);
 - (id);
 - (void);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)I;
 - (id);
 - (void);
 - (unsigned int);
@@ -46,14 +36,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned int clientID; // @synthesize clientID=_clientID;
-@property(nonatomic) __weak NSXPCConnection *connectionToDiscoveryService; // @synthesize connectionToDiscoveryService=_connectionToDiscoveryService;
-@property(retain, nonatomic) NSString *defaultMode; // @synthesize defaultMode=_defaultMode;
-@property(retain, nonatomic) AMPDevice *device; // @synthesize device=_device;
-@property(nonatomic) _Bool enabled; // @synthesize enabled=_enabled;
-@property(retain, nonatomic) DeviceRemoteViewController *remoteViewController; // @synthesize remoteViewController=_remoteViewController;
-@property(retain, nonatomic) NSXPCConnection *sideConnection; // @synthesize sideConnection=_sideConnection;
-@property(nonatomic) __weak NSView *targetView; // @synthesize targetView=_targetView;
-@property(retain, nonatomic) NSUUID *uid; // @synthesize uid=_uid;
 
 @end
 

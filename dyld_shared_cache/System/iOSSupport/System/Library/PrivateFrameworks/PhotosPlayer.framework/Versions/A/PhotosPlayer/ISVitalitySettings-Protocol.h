@@ -5,5 +5,11 @@
 //
 
 @protocol ISVitalitySettings
+- (double)_largeItemHeight;
+- (double)_json;
+- (double)_isZooming;
+- (double)_isSupressingColorSettings;
+- (double)_fromDependencyAttribute;
+- (double)getHasDataImportPromises:error: /* Error: Ran out of types for this method. */;
 @end
 

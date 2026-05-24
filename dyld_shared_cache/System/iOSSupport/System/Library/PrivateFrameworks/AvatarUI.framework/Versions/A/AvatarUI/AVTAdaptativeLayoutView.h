@@ -10,19 +10,17 @@
 @interface AVTAdaptativeLayoutView
 {
     id <AVTAdaptativeLayout> _layout;
-    UIView *_contentView;
 }
 
 - (id);
 - (void);
-- (void);
+- (void)tringValue;
 - (id);
-- (void);
-- (id)tickerRecentsPresetsProvider;
+- (void)stringByReplacingCharactersInRange:withString: /* Error: Ran out of types for this method. */;
+- (id)AVTStickerRecentsPresetsProvider;
 
 // Remaining properties
 @property(readonly, nonatomic) UIView *contentView; // @synthesize contentView=_contentView;
-@property(retain, nonatomic) id <AVTAdaptativeLayout> layout; // @synthesize layout=_layout;
 
 @end
 

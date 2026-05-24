@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSData, NSString;
+@class NSData;
 
 @interface SAUIUpdateVisualResponseSnippet : SABaseClientBoundCommand
 {
@@ -22,7 +22,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSData *stateData;
-@property(copy, nonatomic) NSString *viewId;
 
 @end
 

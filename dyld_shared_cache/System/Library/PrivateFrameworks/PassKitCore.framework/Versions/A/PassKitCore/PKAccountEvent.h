@@ -4,24 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSSet, NSString;
+@class NSString;
 
 @interface PKAccountEvent
 {
     _Bool _blockNotification;
-    NSString *_identifier;
-    NSString *_accountIdentifier;
-    NSString *_altDSID;
-    long long _type;
-    NSDate *_date;
-    NSDate *_expirationDate;
-    NSSet *_items;
-    unsigned long long _updateReasons;
 }
 
-+ (id);
-+ (id);
-+ (id);
++ (id)J;
++ (id)m;
++ (id)I	*hA;
 + (long long);
 + (id);
 + (_Bool)!X"!ä@ù±î%1Â0@ù
@@ -43,11 +35,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)!;
 - (void);
 - (unsigned long long);
 - (long long);
-- (_Bool);
+- (_Bool)_sessionProtocolVersionNumber;
 - (void);
 - (id);
 - (void);
@@ -66,16 +58,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *accountIdentifier; // @synthesize accountIdentifier=_accountIdentifier;
-@property(retain, nonatomic) NSString *altDSID; // @synthesize altDSID=_altDSID;
-@property(nonatomic) _Bool blockNotification; // @synthesize blockNotification=_blockNotification;
-@property(retain, nonatomic) NSDate *date; // @synthesize date=_date;
-@property(retain, nonatomic) NSDate *expirationDate; // @synthesize expirationDate=_expirationDate;
 @property(retain, nonatomic) NSString *identifier; // @synthesize identifier=_identifier;
-@property(retain, nonatomic) NSSet *items; // @synthesize items=_items;
-@property(nonatomic) long long type; // @synthesize type=_type;
-@property(readonly, nonatomic) _Bool updateReasonIsInitialDownload;
-@property(readonly, nonatomic) unsigned long long updateReasons; // @synthesize updateReasons=_updateReasons;
 
 @end
 

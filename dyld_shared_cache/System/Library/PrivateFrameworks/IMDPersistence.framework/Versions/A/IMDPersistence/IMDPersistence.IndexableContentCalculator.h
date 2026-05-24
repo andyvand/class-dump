@@ -7,9 +7,6 @@
 @interface IMDPersistence.IndexableContentCalculator
 {
     id connection;
-    id unownedExecutor;
-    id indexProvider;
-    id contactCache;
 }
 
 @end

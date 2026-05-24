@@ -7,6 +7,11 @@
 @class CALayer;
 
 @protocol NSScrollerImpDelegate
+- (void);
 - (CALayer *)hyWØ;
+
+@optional
+- (void)uq;
+- (struct CGPoint)ct, expected tag %c%c%c%c found tag %c%c%c%c;
 @end
 

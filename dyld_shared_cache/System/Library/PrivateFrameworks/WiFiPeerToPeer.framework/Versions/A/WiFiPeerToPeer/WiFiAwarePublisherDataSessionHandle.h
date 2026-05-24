@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WiFiMACAddress;
-
 @interface WiFiAwarePublisherDataSessionHandle
 {
     unsigned char _datapathID;
-    WiFiMACAddress *_initiatorDataAddress;
 }
 
 + (_Bool);
 - (id);
-- (id);
+- (id);
 - (unsigned char);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
+- (void)";
 - (void);
 
 // Remaining properties
 @property(readonly, nonatomic) unsigned char datapathID; // @synthesize datapathID=_datapathID;
-@property(readonly, nonatomic) WiFiMACAddress *initiatorDataAddress; // @synthesize initiatorDataAddress=_initiatorDataAddress;
 
 @end
 

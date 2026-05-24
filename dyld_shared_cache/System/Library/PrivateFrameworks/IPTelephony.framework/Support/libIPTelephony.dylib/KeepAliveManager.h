@@ -4,18 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, PCConnectionManager;
+@class PCConnectionManager;
 
 __attribute__((visibility("hidden")))
 @interface KeepAliveManager
 {
     PCConnectionManager *_manager;
-    basic_string_cc40eacf _keepAliveId;
-    weak_ptr_44a62e6d _delegate;
-    struct shared_ptr<WakeOnWifiAssertion> _wowAssertion;
-    _Bool _enableWakeUpOnWifi;
-    _Bool _keepAliveStarted;
-    struct queue _queue;
 }
 
 - (void);
@@ -32,13 +26,7 @@ __attribute__((visibility("hidden")))
 - (void)ppleInternal/Library/BuildRoots/4~CNqRugAe8LhdeWg11CYyUMLXoO7Gfu-Ms7-uExM/Library/Caches/com.apple.xbs/TemporaryDirectory.58lTJs/Sources/ipTelephony/Source/Daemon/Core/AWD/cpp/CATM.pb.cc;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

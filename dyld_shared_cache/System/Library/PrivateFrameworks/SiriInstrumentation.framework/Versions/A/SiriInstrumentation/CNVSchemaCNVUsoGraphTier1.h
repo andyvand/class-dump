@@ -6,12 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData, USOSchemaUSOGraphTier1;
+@class USOSchemaUSOGraphTier1;
 
 @interface CNVSchemaCNVUsoGraphTier1 : SISchemaInstrumentationMessage
 {
     USOSchemaUSOGraphTier1 *_usoGraphTier1;
-    _Bool _hasUsoGraphTier1;
 }
 
 - (id);
@@ -19,7 +18,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)a@9?;
 - (id);
 - (void);
 - (unsigned long long);
@@ -27,13 +26,11 @@
 - (_Bool);
 - (id);
 - (id)ntent";
-- (id)ggerMitigationEnded;
+- (id)MHSchemaMHLatticeFalseTriggerMitigationEnded;
 - (id)|l;
 - (void)$å%;
 
 // Remaining properties
-@property(nonatomic) _Bool hasUsoGraphTier1; // @synthesize hasUsoGraphTier1=_hasUsoGraphTier1;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) USOSchemaUSOGraphTier1 *usoGraphTier1; // @synthesize usoGraphTier1=_usoGraphTier1;
 
 @end

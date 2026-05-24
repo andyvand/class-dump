@@ -4,36 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSUUID;
+@class NSString;
 
 @interface AFAudioDeviceInfo
 {
     _Bool _isRemoteDevice;
-    NSString *_route;
-    NSUUID *_deviceUID;
 }
 
 + (id);
 + (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)e",&,N,V_requestDate;
 - (id);
 - (id);
 - (id);
 - (id);
 - (unsigned long long);
 - (id);
-- (_Bool);
+- (_Bool)userPictureDiameter;
 - (void);
 - (id);
 - (id);
-- (void)uestOptionsMutating;
+- (void)AFSpeechTestRequestOptionsMutating;
 - (id)d`üÿ;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSUUID *deviceUID; // @synthesize deviceUID=_deviceUID;
-@property(readonly, nonatomic) _Bool isRemoteDevice; // @synthesize isRemoteDevice=_isRemoteDevice;
 @property(readonly, copy, nonatomic) NSString *route; // @synthesize route=_route;
 
 @end

@@ -12,9 +12,9 @@
 
 - (void);
 - (void);
-- (id);
+- (id)d=%d, _TSMIsRemoteViewClientRegistered( NULL )=%d, _TSMRemoteViewActivationIsOn()=%d;
 - (void);
-- (void)Name:(id)arg1 constantValues:functionCache:specializedName:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)newFunctionWithName:(id)arg1 constantValues:functionCache:specializedName:completionHandler: /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 
 @end

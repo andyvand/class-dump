@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMapTable, NSMutableArray, NSString;
+@class NSMutableArray, NSString;
 
 __attribute__((visibility("hidden")))
 @interface ICSharedListeningConnectionReport
 {
     NSString *_sharedListeningSessionIdentifier;
-    NSString *_groupSessionIdentifier;
-    NSMutableArray *_topLevelEvents;
-    NSMapTable *_allEvents;
 }
 
 - (id);
@@ -34,18 +31,6 @@ __attribute__((visibility("hidden")))
 - (void)etAVURLAsset:,V_avURLAsset /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) NSMapTable *allEvents; // @synthesize allEvents=_allEvents;
-@property(readonly, nonatomic) id analyticsPayload;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSString *formattedReport;
-@property(copy, nonatomic) NSString *groupSessionIdentifier; // @synthesize groupSessionIdentifier=_groupSessionIdentifier;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *sharedListeningSessionIdentifier; // @synthesize sharedListeningSessionIdentifier=_sharedListeningSessionIdentifier;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSMutableArray *topLevelEvents; // @synthesize topLevelEvents=_topLevelEvents;
 
 @end

@@ -5,5 +5,8 @@
 //
 
 @protocol ISOperationDelegate
+
+@optional
+- (void);
 @end
 

@@ -6,13 +6,11 @@
 
 #import <PassKitCore/PKPaymentWebServiceRequest.h>
 
-@class NSArray, NSString, PKProvisioningExistingCardAuthorizationDestinationDeviceSignature;
+@class NSArray;
 
 @interface PKProvisioningExistingCardAuthorizationStoreRequest : PKPaymentWebServiceRequest
 {
     NSArray *_existingCardAuthorizations;
-    PKProvisioningExistingCardAuthorizationDestinationDeviceSignature *_destinationDeviceSignature;
-    NSString *_migrationToken;
 }
 
 - (void);
@@ -20,16 +18,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (void);
 - (id);
-- (void)ringType;
+- (void)sharingType;
 
 // Remaining properties
-@property(retain, nonatomic) PKProvisioningExistingCardAuthorizationDestinationDeviceSignature *destinationDeviceSignature; // @synthesize destinationDeviceSignature=_destinationDeviceSignature;
 @property(copy, nonatomic) NSArray *existingCardAuthorizations; // @synthesize existingCardAuthorizations=_existingCardAuthorizations;
-@property(copy, nonatomic) NSString *migrationToken; // @synthesize migrationToken=_migrationToken;
 
 @end
 

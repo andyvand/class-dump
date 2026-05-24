@@ -6,57 +6,45 @@
 
 #import <TSReading/TSKSelection.h>
 
-@class NSString;
-
 @interface TSWPSelection : TSKSelection
 {
     int _type;
-    struct _NSRange _range;
-    unsigned long long _headChar;
-    unsigned long long _tailChar;
-    _Bool _leadingEdge;
-    unsigned long long _leadingCharIndex;
-    _Bool _validVisualRanges;
-    int _styleInsertionBehavior;
-    int _caretAffinity;
-    struct _NSRange _smartFieldRange;
-    struct TSWPRangeVector _visualRanges;
 }
 
 + (id);
 + (Class);
 + (id);
-- (id);
-- (const void *);
-- (unsigned long long);
+- (id)intent:%@ /* Error: Ran out of types for this method. */;
+- (const void *)m SetQueue with playback intent:%@ /* Error: Ran out of types for this method. */;
+- (unsigned long long)om intent %@;
+- (_Bool)ck;
+- (unsigned long long)p with preferred type];
+- (struct _NSRange)msc_protectionType;
+- (int)MPTRACE_PLAYBACK_PLAYBACKSTART;
+- (void)m identifiers [modelKind.modelClass is not a subclass of MPModelObject] for identifiers:(unsigned long long)arg1 %@;
+- (void)eceived a move command but the target is not available in the queue.;
+- (void)available in the queue.;
+- (struct _NSRange)StorefrontID;
+- (unsigned long long)MPCPodcastsDialogHandler;
+- (_Bool);
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (struct _NSRange);
-- (int);
-- (void);
-- (void);
-- (void);
-- (struct _NSRange);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (id);
+- (id)TransitionOffsetData;
 - (id);
 - (id);
 - (void *);
 - (void);
-- (unsigned long long);
+- (unsigned long long);
+- (id);
+- (id);
+- (id);
+- (id)Ā;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)RepeatMode;
+- (_Bool)PlaybackSessionSummary;
 - (int);
 - (struct _NSRange);
 - (id);
@@ -65,45 +53,22 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
 - (unsigned long long);
 - (_Bool);
 - (id);
 - (int);
 - (struct _NSRange);
-- (_Bool);
-- (unsigned long long);
+- (_Bool);
+- (unsigned long long)8=;
 - (id);
 - (_Bool);
 - (long long);
-- (void)eFieldTraceEffect;
+- (void)TSDMetalEdgeDistanceFieldTraceEffect;
 
 // Remaining properties
-@property(readonly, nonatomic) int caretAffinity; // @synthesize caretAffinity=_caretAffinity;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long headChar; // @synthesize headChar=_headChar;
-@property(readonly, nonatomic) _Bool isAtEndOfLine;
-@property(readonly, nonatomic) _Bool isEmpty;
-@property(readonly, nonatomic) _Bool isInsertionPoint;
-@property(readonly, nonatomic) _Bool isRange;
-@property(readonly, nonatomic) _Bool isValid;
-@property(readonly, nonatomic) _Bool isVisual;
-@property(readonly, nonatomic) unsigned long long leadingCharIndex; // @synthesize leadingCharIndex=_leadingCharIndex;
-@property(readonly, nonatomic) _Bool leadingEdge; // @synthesize leadingEdge=_leadingEdge;
-@property(readonly, nonatomic) struct _NSRange range;
-@property(readonly, nonatomic) struct _NSRange rawRange; // @synthesize rawRange=_range;
-@property(readonly, nonatomic) struct _NSRange smartFieldRange; // @synthesize smartFieldRange=_smartFieldRange;
-@property(readonly, nonatomic) int styleInsertionBehavior; // @synthesize styleInsertionBehavior=_styleInsertionBehavior;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long tailChar; // @synthesize tailChar=_tailChar;
 @property(readonly, nonatomic) int type; // @synthesize type=_type;
-@property(readonly, nonatomic) _Bool validVisualRanges; // @synthesize validVisualRanges=_validVisualRanges;
 
 @end
 

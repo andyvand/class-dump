@@ -11,8 +11,8 @@
 }
 
 + (Class);
-+ (id);
-+ (void);
++ (id)_UIStatusBarCellularCondensedItemAccessibility;
++ (void)emHost<BarItemView>;
 - (id);
 - (id);
 

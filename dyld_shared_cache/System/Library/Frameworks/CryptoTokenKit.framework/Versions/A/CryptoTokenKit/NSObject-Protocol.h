@@ -4,17 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @protocol NSObject
+- (Class)ainOutputEEERKNS6_INS2_17SpeechRequestDataEEERKNS_8functionIFbvEEEbE3$_0FNS6_IN3fst3FstINSL_6ArcTplINSL_17TropicalWeightTplIfEEiEEEEEERKSS_EEE;
+- (id)rINS2_18DecoderChainOutputEEERKNS6_INS2_17SpeechRequestDataEEERKNS_8functionIFbvEEEbE3$_0FNS6_IN3fst3FstINSL_6ArcTplINSL_17TropicalWeightTplIfEEiEEEEEERKSS_EEE;
+- (id)nlineLmRescoringDecoder7runImplERNS2_15DecoderPassDataERKNS_10shared_ptrINS2_18DecoderChainOutputEEERKNS6_INS2_17SpeechRequestDataEEERKNS_8functionIFbvEEEbE3$_0FNS6_IN3fst3FstINSL_6ArcTplINSL_17TropicalWeightTplIfEEiEEEEEERKSS_EEE;
+- (id);
+- (id)ingDecoder10finishInitEvE3$_1;
+- (Class)3$_1FNS_10shared_ptrIN5kaldi6quasar17NnlmEvaluatorBaseEEERKNS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEEEEE;
+- (unsigned long long);
+- (_Bool)esponse XID 0x%X, %d keys, from %@, %llu ms request size %llu response size %llu
+;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 @end
 

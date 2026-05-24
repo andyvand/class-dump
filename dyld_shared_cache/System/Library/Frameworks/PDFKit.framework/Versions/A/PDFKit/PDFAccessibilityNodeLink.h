@@ -12,19 +12,18 @@ __attribute__((visibility("hidden")))
 @interface PDFAccessibilityNodeLink : PDFAccessibilityNode
 {
     PDFAccessibilityNodeAnnotation *_linkAnnotationNode;
-    NSString *__stringValue;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
-- (struct _NSRange);
-- (id);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)callerIdIsBlocked;
+- (struct _NSRange)HMAccessory clearMatterCredentialWithType:index:completion:] /* Error: Ran out of types for this method. */;
+- (id)usersel;
+- (void)HMAccessorySupportsCompanionInitiatedObliterateMessageKey;
+- (id)HMMediaSystemDataRightDestinationIdentifierCodingKey;
+- (id)ave presenceStatus;
+- (id)t for ;
 - (id);
 - (void);
 - (struct _NSRange);
@@ -35,7 +34,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) NSString *_stringValue; // @synthesize _stringValue=__stringValue;
-@property(retain, nonatomic) PDFAccessibilityNodeAnnotation *linkAnnotationNode; // @synthesize linkAnnotationNode=_linkAnnotationNode;
 
 @end
 

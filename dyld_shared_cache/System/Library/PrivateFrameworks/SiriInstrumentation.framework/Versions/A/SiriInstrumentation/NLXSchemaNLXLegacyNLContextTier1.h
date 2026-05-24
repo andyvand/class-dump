@@ -6,13 +6,11 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSArray, NSData, SISchemaUUID;
+@class SISchemaUUID;
 
 @interface NLXSchemaNLXLegacyNLContextTier1 : SISchemaInstrumentationMessage
 {
     SISchemaUUID *_linkId;
-    NSArray *_renderedTexts;
-    _Bool _hasLinkId;
 }
 
 - (void);
@@ -21,9 +19,9 @@
 - (id);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void)�;
+- (void)-;
+- (void);
 - (void);
 - (id);
 - (_Bool);
@@ -32,18 +30,15 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
+- (_Bool)CSDBSqliteMigrationContinuation;
 - (id);
 - (id);
 - (id)adExists;
 - (id)VSchemaCNVActionCandidatesCollated",&,N,V_actionCandidatesCollated;
-- (void)RE;
+- (void)CHCONVERSATIONQUALITYISSUECATEGORY_EVOLVING_INTENT_FAILURE;
 
 // Remaining properties
-@property(nonatomic) _Bool hasLinkId; // @synthesize hasLinkId=_hasLinkId;
-@property(readonly, nonatomic) NSData *jsonData;
 @property(retain, nonatomic) SISchemaUUID *linkId; // @synthesize linkId=_linkId;
-@property(copy, nonatomic) NSArray *renderedTexts; // @synthesize renderedTexts=_renderedTexts;
 
 @end
 

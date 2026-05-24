@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _INPBDateTimeRange, _INPBLocationValue;
+@class _INPBLocationValue;
 
 @interface _INPBBoatTrip
 {
     struct _has;
-    _INPBLocationValue *_arrivalBoatTerminalLocation;
-    NSString *_boatName;
-    NSString *_boatNumber;
-    _INPBLocationValue *_departureBoatTerminalLocation;
-    NSString *_provider;
-    _INPBDateTimeRange *_tripDuration;
 }
 
 + (_Bool);
@@ -28,44 +22,26 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (_Bool);
 - (_Bool);
-- (id);
+- (id)htXPCProxyRemoteClientEndpointInterface>"16@?<v@?@"<GCLightXPCProxyRemoteServerEndpointInterface>"@"NSError">24;
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)16@0:(id)arg1 8;
+- (void)WiFi network interface removed (%{public}@), posted notification;
 - (id);
+- (id);
 - (id);
-- (id);
-- (void)sUnverified;
-- (void)nitionNamespace;
+- (void)INSearchForBillsIntentResponseCodeFailureCredentialsUnverified;
+- (void)intentDefinitionNamespace;
 
 // Remaining properties
 @property(retain, nonatomic) _INPBLocationValue *arrivalBoatTerminalLocation; // @synthesize arrivalBoatTerminalLocation=_arrivalBoatTerminalLocation;
-@property(copy, nonatomic) NSString *boatName; // @synthesize boatName=_boatName;
-@property(copy, nonatomic) NSString *boatNumber; // @synthesize boatNumber=_boatNumber;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(retain, nonatomic) _INPBLocationValue *departureBoatTerminalLocation; // @synthesize departureBoatTerminalLocation=_departureBoatTerminalLocation;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) _Bool hasArrivalBoatTerminalLocation;
-@property(readonly, nonatomic) _Bool hasBoatName;
-@property(readonly, nonatomic) _Bool hasBoatNumber;
-@property(readonly, nonatomic) _Bool hasDepartureBoatTerminalLocation;
-@property(readonly, nonatomic) _Bool hasProvider;
-@property(readonly, nonatomic) _Bool hasTripDuration;
-@property(readonly) unsigned long long hash;
-@property(copy, nonatomic) NSString *provider; // @synthesize provider=_provider;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _INPBDateTimeRange *tripDuration; // @synthesize tripDuration=_tripDuration;
 
 @end
 

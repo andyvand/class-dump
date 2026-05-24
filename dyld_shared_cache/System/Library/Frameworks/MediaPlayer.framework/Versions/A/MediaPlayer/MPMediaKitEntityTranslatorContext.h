@@ -5,23 +5,20 @@
 //
 
 @class NSString;
-@protocol MPMediaKitEntityRelationshipPayloadProvider;
 
 @interface MPMediaKitEntityTranslatorContext
 {
     NSString *_personID;
-    id <MPMediaKitEntityRelationshipPayloadProvider> _relationshipPayloadProvider;
 }
 
 - (id);
 - (void);
 - (void);
 - (id);
-- (void)ING_MISSING__;
+- (void)__MPModelRelationshipPodcastEpisodePlaybackPosition__MAPPING_MISSING__;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *personID; // @synthesize personID=_personID;
-@property(retain, nonatomic) id <MPMediaKitEntityRelationshipPayloadProvider> relationshipPayloadProvider; // @synthesize relationshipPayloadProvider=_relationshipPayloadProvider;
 
 @end
 

@@ -4,22 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSProgressIndicator, NSString, SPSystemAutoFillRemoteViewController;
+@class SPSystemAutoFillRemoteViewController;
 @protocol SPSystemAutoFillViewControllerDelegate;
 
 __attribute__((visibility("hidden")))
 @interface SPSystemAutoFillViewController
 {
     SPSystemAutoFillRemoteViewController *_remoteSystemAutoFillController;
-    NSProgressIndicator *_loadingIndicator;
-    NSString *_remoteAppID;
-    NSString *_remoteLocalizedAppName;
-    NSString *_remoteUnlocalizedAppName;
-    NSArray *_associatedDomains;
-    unsigned long long _autoFillMode;
-    _Bool _explicitAutoFillMode;
-    NSArray *_sizeConstraints;
-    id <SPSystemAutoFillViewControllerDelegate> _delegate;
 }
 
 - (void);
@@ -27,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)A�;
 - (void);
 - (void);
 - (void);
@@ -45,14 +36,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <SPSystemAutoFillViewControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

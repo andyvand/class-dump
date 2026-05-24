@@ -4,19 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, _PASXPCClientHelper;
-@protocol OS_dispatch_queue;
+@class _PASXPCClientHelper;
 
 @interface TRISystemUserCourier
 {
     _PASXPCClientHelper *_internalHelper;
-    NSObject<OS_dispatch_queue> *_logQueue;
-    NSString *_subgroupName;
 }
 
-- (void);
-- (id);
-- (id);
+- (void)setLatitude: /* Error: Ran out of types for this method. */;
+- (id)markScaledRegionWithRate:(id *)arg1 rampInStartTime:rampInEndTime:rampOutStartTime:rampOutEndTime: /* Error: Ran out of types for this method. */;
+- (id);
 - (void)0@ù
 × ;
 

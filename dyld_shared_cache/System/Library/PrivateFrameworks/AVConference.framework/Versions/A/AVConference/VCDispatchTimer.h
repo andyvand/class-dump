@@ -6,33 +6,26 @@
 
 #import <AVConference/VCObject.h>
 
-@class NSObject;
-@protocol OS_dispatch_queue, OS_dispatch_source;
-
 __attribute__((visibility("hidden")))
 @interface VCDispatchTimer : VCObject
 {
     CDUnknownBlockType _callbackBlock;
-    NSObject<OS_dispatch_source> *_timer;
-    unsigned int _intervalMilliseconds;
-    _Bool _running;
-    NSObject<OS_dispatch_queue> *_clientQueue;
 }
 
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)y
+9)	;
 - (CDUnknownBlockType);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (_Bool)4¦Ð¦4¨P¨Ì®@¯
 °|²;
 
 // Remaining properties
 @property(readonly, nonatomic) CDUnknownBlockType callbackBlock; // @synthesize callbackBlock=_callbackBlock;
-@property(readonly, nonatomic) _Bool isRunning; // @synthesize isRunning=_running;
 
 @end
 

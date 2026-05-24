@@ -6,7 +6,7 @@
 
 #import <SAObjects/SABaseClientBoundCommand.h>
 
-@class NSArray, NSString, SAMPCollection;
+@class NSArray;
 
 @interface SAMPAddMediaItemsToUpNextQueue : SABaseClientBoundCommand
 {
@@ -17,10 +17,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *hashedRouteUIDs;
-@property(copy, nonatomic) NSString *insertLocation;
-@property(retain, nonatomic) SAMPCollection *mediaCollection;
-@property(copy, nonatomic) NSString *musicAccountSharedUserId;
-@property(copy, nonatomic) NSString *speakerSharedUserId;
 
 @end
 

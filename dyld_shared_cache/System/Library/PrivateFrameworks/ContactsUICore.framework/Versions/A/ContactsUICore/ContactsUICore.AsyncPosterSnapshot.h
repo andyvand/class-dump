@@ -7,7 +7,6 @@
 @interface ContactsUICore.AsyncPosterSnapshot
 {
     id _snapshot;
-    id _$observationRegistrar;
 }
 
 @end

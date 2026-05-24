@@ -11,10 +11,10 @@
     AAAccountServiceDaemonConnection *_daemonConnection;
 }
 
-- (void);
+- (void)udRecordInfo write failed;
 - (id);
 - (id);
-- (void)ionWithName:reason:userInfo: /* Error: Ran out of types for this method. */;
+- (void)exceptionWithName:reason:userInfo: /* Error: Ran out of types for this method. */;
 
 @end
 

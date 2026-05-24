@@ -4,19 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, PKPaymentWebServiceContext;
 @protocol PKPaymentWebServiceArchiver, PKPaymentWebServiceTargetDeviceProtocol;
 
 @protocol PKPaymentSetupAssistantContextProtocol
+- (_Bool);
+- (id <PKPaymentWebServiceTargetDeviceProtocol>)__gcc_except_tab__TEXT;
 - (id <PKPaymentWebServiceArchiver>)× ;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool allowsCachedCardRequirements;
-@property(readonly, nonatomic) id <PKPaymentWebServiceArchiver> archiver;
-@property(retain, nonatomic) NSData *externalizedContext;
-@property(readonly, nonatomic) _Bool isFollowupAction;
 @property(readonly, nonatomic) unsigned long long setupAssistant;
-@property(readonly, nonatomic) id <PKPaymentWebServiceTargetDeviceProtocol> targetDevice;
-@property(readonly, nonatomic) PKPaymentWebServiceContext *webServiceContext;
 @end
 

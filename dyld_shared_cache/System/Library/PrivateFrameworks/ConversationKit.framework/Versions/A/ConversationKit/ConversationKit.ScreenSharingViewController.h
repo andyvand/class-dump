@@ -11,10 +11,6 @@
 @interface ConversationKit.ScreenSharingViewController : PlatformViewController
 {
     void delegate;
-    id viewModel;
-    id shouldDisableZoom;
-    id subscriptions;
-    id sharedContentViewController;
 }
 
 - (void);
@@ -29,7 +25,7 @@
 - (id);
 - (long long);
 - (void);
-- (void);
+- (void)_scrollDayViewToCorrectOffsetAnimated: /* Error: Ran out of types for this method. */;
 - (void)@{þÿLüÿlüÿ
 Nüÿ;
 

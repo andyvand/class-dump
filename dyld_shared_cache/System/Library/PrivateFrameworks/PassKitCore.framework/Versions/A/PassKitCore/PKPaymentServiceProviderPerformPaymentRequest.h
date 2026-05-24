@@ -6,18 +6,11 @@
 
 #import <PassKitCore/PKPaymentWebServiceRequest.h>
 
-@class NSData, NSString, PKPaymentPass, PKSecureElementCertificateSet, PKServiceProviderOrder;
+@class PKPaymentPass, PKSecureElementCertificateSet;
 
 @interface PKPaymentServiceProviderPerformPaymentRequest : PKPaymentWebServiceRequest
 {
     PKSecureElementCertificateSet *_certificates;
-    PKPaymentPass *_pass;
-    PKServiceProviderOrder *_serviceProviderOrder;
-    NSData *_nonce;
-    NSString *_targetDeviceSerialNumber;
-    long long _cryptogramType;
-    NSString *_shippingAddressHash;
-    NSString *_deviceAssessments;
 }
 
 - (id);
@@ -28,23 +21,17 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (long long);
 - (void);
 - (void);
 - (id);
 - (void)annot have multiple PKDisbursementSummaryItem instances in summaryItems;
-- (id)ppleCashBalance;
+- (id)usesAppleCashBalance;
 
 // Remaining properties
-@property(nonatomic) long long cryptogramType; // @synthesize cryptogramType=_cryptogramType;
-@property(copy, nonatomic) NSString *deviceAssessments; // @synthesize deviceAssessments=_deviceAssessments;
-@property(copy, nonatomic) NSData *nonce; // @synthesize nonce=_nonce;
 @property(retain, nonatomic) PKPaymentPass *pass; // @synthesize pass=_pass;
-@property(retain, nonatomic) PKServiceProviderOrder *serviceProviderOrder; // @synthesize serviceProviderOrder=_serviceProviderOrder;
-@property(copy, nonatomic) NSString *shippingAddressHash; // @synthesize shippingAddressHash=_shippingAddressHash;
-@property(copy, nonatomic) NSString *targetDeviceSerialNumber; // @synthesize targetDeviceSerialNumber=_targetDeviceSerialNumber;
 
 @end
 

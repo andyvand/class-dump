@@ -7,13 +7,6 @@
 @interface JetEngine.DaemonSessionImplementation
 {
     id $defaultActor;
-    id requestSizeLimit;
-    id timeout;
-    id xpcServiceName;
-    id signposter;
-    id sessionIfValid;
-    id workQueue;
-    id xpcSessionProviderFactory;
 }
 
 @end

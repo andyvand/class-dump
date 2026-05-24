@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSDictionary, NSString, NSTimeZone, SFLatLng;
+@class NSString;
 
 @interface SFAirport
 {
     NSString *_code;
-    NSTimeZone *_timezone;
-    SFLatLng *_location;
-    NSString *_city;
-    NSString *_street;
-    NSString *_district;
-    NSString *_state;
-    NSString *_postalCode;
-    NSString *_countryCode;
-    NSString *_country;
-    NSString *_name;
 }
 
 + (_Bool);
@@ -28,53 +18,34 @@
 - (void);
 - (id);
 - (id);
+- (id)numberWithUnsignedShort:(id)arg1;
+- (void)genreRepresentativeItemPersistentID;
 - (id);
+- (id)_safariBookmarksSyncAgentConnection;
+- (unsigned long long)A;
 - (void);
 - (id);
-- (id);
-- (unsigned long long);
+- (_Bool);
+- (void)#;
 - (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
+- (id)useLowMemoryMode;
+- (id)y"24;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)C;
 - (id);
 - (void)owCardSection",&,N,V_rfTableRowCardSection;
-- (void):(id)arg1;
-- (void)eItemVisualElementCardSection;
+- (void)setSymbolImage:(id)arg1;
+- (void)_SFPBRFSimpleItemVisualElementCardSection;
 - (void)ï,	;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *city; // @synthesize city=_city;
 @property(copy, nonatomic) NSString *code; // @synthesize code=_code;
-@property(copy, nonatomic) NSString *country; // @synthesize country=_country;
-@property(copy, nonatomic) NSString *countryCode; // @synthesize countryCode=_countryCode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
-@property(copy, nonatomic) NSString *district; // @synthesize district=_district;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) SFLatLng *location; // @synthesize location=_location;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(copy, nonatomic) NSString *postalCode; // @synthesize postalCode=_postalCode;
-@property(copy, nonatomic) NSString *state; // @synthesize state=_state;
-@property(copy, nonatomic) NSString *street; // @synthesize street=_street;
-@property(readonly) Class superclass;
-@property(copy, nonatomic) NSTimeZone *timezone; // @synthesize timezone=_timezone;
 
 @end
 

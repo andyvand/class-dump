@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BlastDoorBalloonPluginPayloadWrapper, BlastDoorTapBack_MessageSummaryInfo, NSArray, NSAttributedString, NSString;
+@class NSString;
 
 @interface BlastDoorCustomAcknowledgement
 {
@@ -14,11 +14,11 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (long long);
-- (struct _NSRange);
-- (id);
-- (id);
+- (id){_NSRange=QQ}16{_NSRange=QQ}32;
+- (long long)IDropSession>"24;
+- (struct _NSRange)ion"16;
+- (id)ationNoticeSuggestion"16;
+- (id)UIContextMenuConfiguration"48@0:8@"UICollectionView"16@"NSIndexPath"24{CGPoint=dd}32 /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -26,17 +26,7 @@
 - (void)j;
 
 // Remaining properties
-@property(nonatomic, readonly) NSString *associatedMessageFallbackHash;
-@property(nonatomic, readonly) NSString *associatedMessageGUID;
-@property(nonatomic, readonly) struct _NSRange associatedMessageRange;
-@property(nonatomic, readonly) long long associatedMessageType;
-@property(nonatomic, readonly) NSArray *attributionInfo;
-@property(nonatomic, readonly) NSAttributedString *content;
 @property(nonatomic, readonly) NSString *description;
-@property(nonatomic, readonly) BlastDoorTapBack_MessageSummaryInfo *messageSummaryInfo;
-@property(nonatomic, readonly) NSArray *participantDestinationIdentifiers;
-@property(nonatomic, readonly) BlastDoorBalloonPluginPayloadWrapper *payload;
-@property(nonatomic, readonly) NSString *plainTextBody;
 
 @end
 

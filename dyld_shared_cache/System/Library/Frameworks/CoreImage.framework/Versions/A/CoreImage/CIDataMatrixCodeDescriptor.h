@@ -11,9 +11,6 @@
 @interface CIDataMatrixCodeDescriptor : CIBarcodeDescriptor
 {
     NSData *errorCorrectedPayload;
-    long long rowCount;
-    long long columnCount;
-    long long eccVersion;
 }
 
 + (id);
@@ -22,17 +19,14 @@
 - (id);
 - (long long);
 - (void);
-- (id);
+- (id);
 - (long long);
 - (void);
 - (long long);
 - (id);
 
 // Remaining properties
-@property(readonly) long long columnCount; // @synthesize columnCount;
-@property(readonly) long long eccVersion; // @synthesize eccVersion;
 @property(readonly) NSData *errorCorrectedPayload; // @synthesize errorCorrectedPayload;
-@property(readonly) long long rowCount; // @synthesize rowCount;
 
 @end
 

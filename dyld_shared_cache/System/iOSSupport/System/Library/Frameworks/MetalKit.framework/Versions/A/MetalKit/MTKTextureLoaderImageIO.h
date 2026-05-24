@@ -6,20 +6,14 @@
 
 #import <MetalKit/MTKTextureLoaderData.h>
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface MTKTextureLoaderImageIO : MTKTextureLoaderData
 {
     struct CGImageBlockSet *_blockSet;
-    struct __CFData *_cfData;
-    struct MTLPixelFormatInfo _pixelFormatInfo;
-    unsigned long long _bytesPerRow;
-    NSData *_imageData;
-    _Bool _expandRGBToRGBA;
 }
 
-- (id);
+- (id)+s�
+%;
 - (id);
 - (_Bool);
 - (_Bool);

@@ -4,7 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 @protocol RTCVideoDecoder
+- (long long)cID & 1) == 0;
+- (long long)(lastChar == firstChar-1) || ((lastChar >= firstChar) && (*lastChar != ' ') && (*lastChar != 0));
+- (NSString *)DuplicateSubtree;
+- (long long)CatenateArrayItems_v2;
 - (void)																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																
  @`àÀ¨À°ÀÆÆõØ °Ààêêð@`p@@`@ Ø° °°ÀÆÆÐÐ °Ààêêð@`p@@`@ ;
 @end

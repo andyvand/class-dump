@@ -7,8 +7,6 @@
 @interface NewsArticles.LikeDislikeArticleViewerFeatureVisibilityProvider
 {
     id pageBlueprintProvider;
-    id featureAvailability;
-    id paidAccessChecker;
 }
 
 @end

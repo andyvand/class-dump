@@ -6,22 +6,17 @@
 
 #import <MetalKit/MTKTextureLoaderData.h>
 
-@class NSData;
-
 __attribute__((visibility("hidden")))
 @interface MTKTextureLoaderPVR : MTKTextureLoaderData
 {
     unsigned int _pvrFormat;
-    unsigned int _numSurfaces;
-    NSData *_imageData;
-    struct MTLPixelFormatInfo _pixelFormatInfo;
 }
 
 + (_Bool);
 - (id);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (void);
 
 @end

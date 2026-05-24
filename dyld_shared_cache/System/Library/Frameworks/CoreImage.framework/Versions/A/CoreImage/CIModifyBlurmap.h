@@ -6,53 +6,12 @@
 
 #import <CoreImage/CIFilter.h>
 
-@class CIImage, CIVector, NSNumber;
+@class CIImage;
 
 __attribute__((visibility("hidden")))
 @interface CIModifyBlurmap : CIFilter
 {
     CIImage *inputImage;
-    CIImage *inputPersonAlpha;
-    CIImage *inputHairAlpha;
-    CIImage *inputFaceMaskDeltaImage;
-    NSNumber *inputScale;
-    NSNumber *inputDistanceAdd;
-    NSNumber *inputSmoothstepMin;
-    NSNumber *inputSmoothstepMax;
-    NSNumber *inputMaxBlur;
-    NSNumber *inputApertureScaling;
-    NSNumber *inputRelativeApertureScalingStrength;
-    NSNumber *inputPersonDistance;
-    NSNumber *inputPersonThreshold;
-    CIVector *inputPersonAdditive;
-    CIVector *inputPersonSubtractive;
-    NSNumber *inputPersonMaxBlur;
-    NSNumber *inputHairDistance;
-    NSNumber *inputHairThreshold;
-    CIVector *inputHairAdditive;
-    CIVector *inputHairSubtractive;
-    NSNumber *inputHairMaxBlur;
-    NSNumber *inputProtectBodyStrength;
-    CIVector *inputLeftEyeX;
-    CIVector *inputLeftEyeY;
-    CIVector *inputRightEyeX;
-    CIVector *inputRightEyeY;
-    CIVector *inputFaceMidPointX;
-    CIVector *inputFaceMidPointY;
-    NSNumber *inputEyeProtectionMaxFaces;
-    NSNumber *inputEyeProtectionFaceWeightsSmoothStepMin;
-    NSNumber *inputEyeProtectionFaceWeightsSmoothStepMax;
-    NSNumber *inputEyeProtectionOvalDimsDistanceScale;
-    NSNumber *inputEyeProtectionOvalDimsDistanceOffset;
-    NSNumber *inputEyeProtectionOvalDimsRadiusHorizontal;
-    NSNumber *inputEyeProtectionOvalDimsRadiusVertical;
-    NSNumber *inputEyeProtectionOvalFallOffSmoothStepMin;
-    NSNumber *inputEyeProtectionOvalFallOffSmoothStepMax;
-    NSNumber *inputEyeProtectionPersonMaskSmoothStepMin;
-    NSNumber *inputEyeProtectionPersonMaskSmoothStepMax;
-    NSNumber *inputEyeProtectionPreventStrength;
-    NSNumber *inputEyeProtectionSubtractiveMaxBlur;
-    NSNumber *inputEyeProtectionSubtractiveApertureScaling;
 }
 
 + (id);
@@ -64,6 +23,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)T;
 - (void);
 - (void);
 - (void);
@@ -77,6 +37,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
+- (void)O�H;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)";
 - (void);
 - (void);
 - (void);
@@ -84,14 +50,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)p;
 - (void);
 - (void);
 - (void);
@@ -108,6 +67,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -131,8 +91,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)`;
 - (id);
 - (id);
 - (id);
@@ -143,48 +102,7 @@ __attribute__((visibility("hidden")))
 - (id)@UK^`d^fxxxxwyu~Umd}otn{roispngpbkesu|{||ªªªª¥¥¥¥N`Wh4F5UETG^`pluvmwwwwdkgmZd]hmlgmp~~~nyx|bbYljnis}etqt||||O^Ve/J;]ehbn_wv~_pl|>b[teolqssssavux}yyxy_ibqif\pPg^r^kcv[xtªªªª¥¥¥¥npnqW`Yh^kiqavs|eaViF\PdkkckgtpzxXpmytttt]d\mtzy|qyyyyV]Sf+H7[baVdyyyynyw~Ykfqoooowwww~~~~x¡¡¡¡}}}}]{x¢¢¢¢[xt\njvqqqqqqqqad]e7N@\;
 
 // Remaining properties
-@property(retain) NSNumber *inputApertureScaling; // @synthesize inputApertureScaling;
-@property(retain) NSNumber *inputDistanceAdd; // @synthesize inputDistanceAdd;
-@property(retain) NSNumber *inputEyeProtectionFaceWeightsSmoothStepMax; // @synthesize inputEyeProtectionFaceWeightsSmoothStepMax;
-@property(retain) NSNumber *inputEyeProtectionFaceWeightsSmoothStepMin; // @synthesize inputEyeProtectionFaceWeightsSmoothStepMin;
-@property(retain) NSNumber *inputEyeProtectionMaxFaces; // @synthesize inputEyeProtectionMaxFaces;
-@property(retain) NSNumber *inputEyeProtectionOvalDimsDistanceOffset; // @synthesize inputEyeProtectionOvalDimsDistanceOffset;
-@property(retain) NSNumber *inputEyeProtectionOvalDimsDistanceScale; // @synthesize inputEyeProtectionOvalDimsDistanceScale;
-@property(retain) NSNumber *inputEyeProtectionOvalDimsRadiusHorizontal; // @synthesize inputEyeProtectionOvalDimsRadiusHorizontal;
-@property(retain) NSNumber *inputEyeProtectionOvalDimsRadiusVertical; // @synthesize inputEyeProtectionOvalDimsRadiusVertical;
-@property(retain) NSNumber *inputEyeProtectionOvalFallOffSmoothStepMax; // @synthesize inputEyeProtectionOvalFallOffSmoothStepMax;
-@property(retain) NSNumber *inputEyeProtectionOvalFallOffSmoothStepMin; // @synthesize inputEyeProtectionOvalFallOffSmoothStepMin;
-@property(retain) NSNumber *inputEyeProtectionPersonMaskSmoothStepMax; // @synthesize inputEyeProtectionPersonMaskSmoothStepMax;
-@property(retain) NSNumber *inputEyeProtectionPersonMaskSmoothStepMin; // @synthesize inputEyeProtectionPersonMaskSmoothStepMin;
-@property(retain) NSNumber *inputEyeProtectionPreventStrength; // @synthesize inputEyeProtectionPreventStrength;
-@property(retain) NSNumber *inputEyeProtectionSubtractiveApertureScaling; // @synthesize inputEyeProtectionSubtractiveApertureScaling;
-@property(retain) NSNumber *inputEyeProtectionSubtractiveMaxBlur; // @synthesize inputEyeProtectionSubtractiveMaxBlur;
-@property(retain) CIImage *inputFaceMaskDeltaImage; // @synthesize inputFaceMaskDeltaImage;
-@property(retain) CIVector *inputFaceMidPointX; // @synthesize inputFaceMidPointX;
-@property(retain) CIVector *inputFaceMidPointY; // @synthesize inputFaceMidPointY;
-@property(retain) CIVector *inputHairAdditive; // @synthesize inputHairAdditive;
-@property(retain) CIImage *inputHairAlpha; // @synthesize inputHairAlpha;
-@property(retain) NSNumber *inputHairDistance; // @synthesize inputHairDistance;
-@property(retain) NSNumber *inputHairMaxBlur; // @synthesize inputHairMaxBlur;
-@property(retain) CIVector *inputHairSubtractive; // @synthesize inputHairSubtractive;
-@property(retain) NSNumber *inputHairThreshold; // @synthesize inputHairThreshold;
 @property(retain) CIImage *inputImage; // @synthesize inputImage;
-@property(retain) CIVector *inputLeftEyeX; // @synthesize inputLeftEyeX;
-@property(retain) CIVector *inputLeftEyeY; // @synthesize inputLeftEyeY;
-@property(retain) NSNumber *inputMaxBlur; // @synthesize inputMaxBlur;
-@property(retain) CIVector *inputPersonAdditive; // @synthesize inputPersonAdditive;
-@property(retain) CIImage *inputPersonAlpha; // @synthesize inputPersonAlpha;
-@property(retain) NSNumber *inputPersonDistance; // @synthesize inputPersonDistance;
-@property(retain) NSNumber *inputPersonMaxBlur; // @synthesize inputPersonMaxBlur;
-@property(retain) CIVector *inputPersonSubtractive; // @synthesize inputPersonSubtractive;
-@property(retain) NSNumber *inputPersonThreshold; // @synthesize inputPersonThreshold;
-@property(retain) NSNumber *inputProtectBodyStrength; // @synthesize inputProtectBodyStrength;
-@property(retain) NSNumber *inputRelativeApertureScalingStrength; // @synthesize inputRelativeApertureScalingStrength;
-@property(retain) CIVector *inputRightEyeX; // @synthesize inputRightEyeX;
-@property(retain) CIVector *inputRightEyeY; // @synthesize inputRightEyeY;
-@property(retain) NSNumber *inputScale; // @synthesize inputScale;
-@property(retain) NSNumber *inputSmoothstepMax; // @synthesize inputSmoothstepMax;
-@property(retain) NSNumber *inputSmoothstepMin; // @synthesize inputSmoothstepMin;
 
 @end
 

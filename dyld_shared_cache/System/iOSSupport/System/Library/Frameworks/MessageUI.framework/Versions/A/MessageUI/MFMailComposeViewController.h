@@ -9,10 +9,6 @@
 @interface MFMailComposeViewController
 {
     id _internal;
-    CDUnknownBlockType _setupAnimationBlock;
-    _Bool _didChangeStatusBarStyle;
-    long long _savedStatusBarStyle;
-    id <MFMailComposeViewControllerDelegate> _mailComposeDelegate;
 }
 
 + (_Bool);
@@ -31,7 +27,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)C;
 - (id);
 - (id);
 - (id);

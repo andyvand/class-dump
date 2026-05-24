@@ -14,8 +14,8 @@ __attribute__((visibility("hidden")))
 + (id)è®7;
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)@;
+- (void)E;
 
 @end
 

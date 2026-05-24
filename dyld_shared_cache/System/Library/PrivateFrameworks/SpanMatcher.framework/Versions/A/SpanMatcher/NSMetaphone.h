@@ -9,8 +9,6 @@
 @interface NSMetaphone
 {
     NSMutableString *_primary;
-    NSMutableString *_secondary;
-    _Bool _isAlternate;
 }
 
 - (void);

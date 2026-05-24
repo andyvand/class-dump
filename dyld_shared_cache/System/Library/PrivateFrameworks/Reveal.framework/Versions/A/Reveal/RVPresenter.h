@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class LUPresenter, RVPopoverPresenter;
 @protocol NSObject, RVPresenterViewControllerProvider;
 
 @interface RVPresenter
 {
     id <NSObject> _observer;
-    LUPresenter *_lookupPresenter;
-    RVPopoverPresenter *_popoverPresenter;
-    id <RVPresenterViewControllerProvider> _viewControllerProvider;
 }
 
 + (id);
@@ -20,7 +16,7 @@
 - (id);
 - (id);
 - (void);
-- (id);
+- (id));
 - (id);
 - (id);
 - (_Bool);

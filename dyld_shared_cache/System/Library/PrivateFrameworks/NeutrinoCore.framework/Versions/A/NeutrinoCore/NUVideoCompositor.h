@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableSet, NSObject, NSString;
-@protocol OS_dispatch_queue;
-
 @interface NUVideoCompositor
 {
     _Atomic unsigned long long _requestCounter;
-    NSObject<OS_dispatch_queue> *_renderingQueue;
-    NSMutableSet *_pendingRequests;
-    struct os_unfair_lock_s _pendingRequestsLock;
-    struct os_unfair_lock_s _renderingQueueInitializeLock;
-    long long _playbackDirection;
 }
 
 + (id);
-+ (id);
++ (id)qa;
 - (id);
 - (id);
 - (id);
@@ -30,42 +22,20 @@
 - (void);
 - (void);
 - (void);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)8@"NSArray"16@"NSData"24Q32Q40^B48;
+- (_Bool)covariatesIndices;
+- (void)MULTI_LABEL_REGRESSION_MODEL_TYPE;
 - (id);
-- (void);
-- (void);
+- (void)w;
+- (void);
 - (_Bool);
 - (void);
-- (id);
+- (id):%{public}lu /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canConformColorOfSourceFrames;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long playbackDirection; // @synthesize playbackDirection=_playbackDirection;
-@property(readonly, nonatomic) NSDictionary *requiredPixelBufferAttributesForRenderContext;
-@property(readonly, nonatomic) NSDictionary *sourcePixelBufferAttributes;
-@property(readonly) Class superclass;
 @property(readonly, nonatomic) _Bool supportsHDRSourceFrames;
-@property(readonly, nonatomic) _Bool supportsSourceTaggedBuffers;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
-@property(readonly, nonatomic) _Bool supportsWideColorSourceFrames;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 
 @end
 

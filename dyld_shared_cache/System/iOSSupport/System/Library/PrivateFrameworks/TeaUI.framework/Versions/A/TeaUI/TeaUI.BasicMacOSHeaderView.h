@@ -4,40 +4,32 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface TeaUI.BasicMacOSHeaderView
 {
     id label;
-    id button;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)tificationName:(struct CGPoint)arg1 identifyingName:) /* Error: Ran out of types for this method. */;
 - (struct CGPoint);
 - (void);
 - (_Bool);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)allowsPubWebsite;
+- (id);
 - (unsigned long long);
-- (id);
+- (id)setTopicFeedCtrWithTwoSubscribed:(struct CGRect)arg1;
 - (void);
 - (void);
-- (id)int;
+- (id)previousBlueprint;
 
 // Remaining properties
-@property(nonatomic) struct CGPoint accessibilityActivationPoint;
-@property(nonatomic, copy) NSString *accessibilityHint;
-@property(nonatomic, copy) NSString *accessibilityLabel;
-@property(nonatomic) unsigned long long accessibilityTraits;
-@property(nonatomic, copy) NSString *accessibilityValue;
 @property(nonatomic) _Bool isAccessibilityElement;
 
 @end

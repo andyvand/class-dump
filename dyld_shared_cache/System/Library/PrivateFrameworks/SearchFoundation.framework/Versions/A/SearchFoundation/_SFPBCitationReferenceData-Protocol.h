@@ -4,13 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _SFPBCardSection;
+@class NSData, NSString;
 
 @protocol _SFPBCitationReferenceData
+- (void);
+- (NSData *)PHCreationRequestOptions;
 
 // Remaining properties
-@property(retain, nonatomic) _SFPBCardSection *card_section_on_tap;
 @property(copy, nonatomic) NSString *display_name;
-@property(readonly, nonatomic) NSData *jsonData;
 @end
 

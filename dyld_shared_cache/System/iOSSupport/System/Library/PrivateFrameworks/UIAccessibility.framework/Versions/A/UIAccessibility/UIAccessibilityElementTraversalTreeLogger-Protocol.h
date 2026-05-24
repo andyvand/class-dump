@@ -5,7 +5,7 @@
 //
 
 @protocol UIAccessibilityElementTraversalTreeLogger
-- (void)text: /* Error: Ran out of types for this method. */;
-- (void)leFrame;
+- (void)setConversationContext: /* Error: Ran out of types for this method. */;
+- (void)_shouldOnlyIncludeElementsWithVisibleFrame;
 @end
 

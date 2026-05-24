@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WiFiP2PXPCConnection;
+@class WiFiP2PXPCConnection;
 
 @interface WiFiRemoteClientCountryCodeMonitor
 {
     WiFiP2PXPCConnection *_xpcConnection;
-    CDUnknownBlockType _setCountryCodeHandler;
 }
 
 - (void);
@@ -24,14 +23,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(copy, nonatomic) CDUnknownBlockType setCountryCodeHandler; // @synthesize setCountryCodeHandler=_setCountryCodeHandler;
-@property(readonly) Class superclass;
 
 @end
 

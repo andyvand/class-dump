@@ -6,14 +6,9 @@
 
 #import <SiriInstrumentation/SISchemaInstrumentationMessage.h>
 
-@class NSData;
-
 @interface POMMESSchemaPOMMESPegasusRequestGeoAppResolutionReported : SISchemaInstrumentationMessage
 {
     int _geoAppResolutionType;
-    struct {
-        unsigned int geoAppResolutionType:1;
-    } _has;
 }
 
 - (void);
@@ -23,18 +18,16 @@
 - (void);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)xbs/TemporaryDirectory.5oKteq/Sources/AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDJobManifest_macOS.m:34 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)able:(id)arg1 [%{BOOL}d];
+- (id)3C;
 - (id);
-- (id);
-- (id)ntityFromSiri;
+- (id)_recencyOrderOfAppUsageForEntityFromSiri;
 - (id)ect;
 
 // Remaining properties
 @property(nonatomic) int geoAppResolutionType; // @synthesize geoAppResolutionType=_geoAppResolutionType;
-@property(nonatomic) _Bool hasGeoAppResolutionType;
-@property(readonly, nonatomic) NSData *jsonData;
 
 @end
 

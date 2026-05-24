@@ -4,29 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSSet;
-
 @interface TUMomentsCapabilities
 {
     int _availability;
-    NSSet *_supportedMediaTypes;
 }
 
 + (_Bool);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (int);
-- (unsigned long long);
+- (unsigned long long);
 - (id);
 - (_Bool);
 - (void);
-- (void):sourceIsHandsfreeAccessory: /* Error: Ran out of types for this method. */;
+- (void)stopTransmissionForBargeCall:sourceIsHandsfreeAccessory: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(readonly, nonatomic) int availability; // @synthesize availability=_availability;
-@property(readonly, copy, nonatomic) NSSet *supportedMediaTypes; // @synthesize supportedMediaTypes=_supportedMediaTypes;
 
 @end
 

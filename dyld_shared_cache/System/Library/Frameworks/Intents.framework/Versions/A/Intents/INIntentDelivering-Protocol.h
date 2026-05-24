@@ -8,10 +8,15 @@
 @protocol INIntentDeliveringDelegate, OS_dispatch_queue;
 
 @protocol INIntentDelivering
+- (void);
+- (id <INIntentDeliveringDelegate>)a;
+- (void)DH lib;
+- (id);
+
+@optional
+- (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CDStruct_4c969caf auditToken;
-@property(nonatomic) __weak id <INIntentDeliveringDelegate> delegate;
 @property(readonly, nonatomic) NSObject<OS_dispatch_queue> *queue;
 @end
 

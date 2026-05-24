@@ -7,8 +7,6 @@
 @interface AppleMediaServicesUI.SubscriptionsModel
 {
     id _clientInfo;
-    id _metricsOverlay;
-    id _subscriptionType;
 }
 
 @end

@@ -4,31 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary;
-
 @interface ABMergeFilter
 {
     CDUnknownFunctionPointerType _equal;
-    CDUnknownFunctionPointerType _hash;
-    SEL _merge;
-    NSMutableDictionary *_dict;
 }
 
 - (void);
 - (void);
 - (CDUnknownFunctionPointerType);
 - (id);
-- (void);
-- (void);
+- (void)T;
+- (void)@;
 - (CDUnknownFunctionPointerType);
 - (void);
 - (SEL);
 
 // Remaining properties
-@property(retain) NSMutableDictionary *dict; // @synthesize dict=_dict;
 @property CDUnknownFunctionPointerType equal; // @synthesize equal=_equal;
-@property CDUnknownFunctionPointerType hash; // @synthesize hash=_hash;
-@property SEL merge; // @synthesize merge=_merge;
 
 @end
 

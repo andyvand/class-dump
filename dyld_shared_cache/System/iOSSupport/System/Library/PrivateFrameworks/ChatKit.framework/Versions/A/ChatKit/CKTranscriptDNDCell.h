@@ -12,12 +12,12 @@ __attribute__((visibility("hidden")))
     UISwitch *_muteSwitch;
 }
 
-+ (id)insConfirmedMentionInRange: /* Error: Ran out of types for this method. */;
++ (id)attributedString:containsConfirmedMentionInRange: /* Error: Ran out of types for this method. */;
 + (double)H¿]GGALyAXSgGGA10_GGtGG;
+- (void)initWithSymbolName:(id)arg1 bundleURL: /* Error: Ran out of types for this method. */;
+- (id)Controller;
 - (void);
-- (id);
-- (void);
-- (id)aximumHeight;
+- (id)extensionBalloonMaximumHeight;
 - (void)ä;
 
 // Remaining properties

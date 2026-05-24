@@ -4,41 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface FamilyCircle.FADeleteFamilyResult
 {
     _Bool success;
-    void errorTitle;
-    void errorMessage;
-    void statusMessage;
-    void learnMoreURL;
-    long long statusCode;
 }
 
+- (id)msgRecipients;
+- (void)persistentAcrossInvocations;
+- (void)ecution;
 - (id);
+- (id)s;
 - (void);
 - (void);
 - (id);
 - (id);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)36;
+- (id);
 - (_Bool);
 - (void);
 - (void);
-- (long long)der;
+- (long long)FAFamilyFetchActivityProvider;
 - (void)q;
 
 // Remaining properties
-@property(nonatomic, copy) NSString *errorMessage;
-@property(nonatomic, copy) NSString *errorTitle;
-@property(nonatomic, copy) NSString *learnMoreURL;
-@property(nonatomic) long long statusCode; // @synthesize statusCode;
-@property(nonatomic, copy) NSString *statusMessage;
 @property(nonatomic) _Bool success; // @synthesize success;
 
 @end

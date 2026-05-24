@@ -4,31 +4,28 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class KGDirectedBinaryAdjacency, MAGraphReference, MANodeCollection;
+@class KGDirectedBinaryAdjacency, MANodeCollection;
 
 @interface MABinaryAdjacency
 {
     KGDirectedBinaryAdjacency *_adjacency;
-    MAGraphReference *_graphReference;
-    Class _sourcesClass;
-    Class _targetsClass;
 }
 
 + (id);
 - (Class);
-- (Class);
+- (Class);
 - (_Bool);
 - (id);
 - (id);
 - (id);
+- (id)@;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (unsigned long long);
@@ -37,16 +34,10 @@
 - (_Bool);
 - (id);
 - (id);
-- (void);
+- (void)`;
 
 // Remaining properties
-@property(readonly, nonatomic) KGDirectedBinaryAdjacency *adjacency; // @synthesize adjacency=_adjacency;
-@property(readonly, nonatomic) MAGraphReference *graphReference; // @synthesize graphReference=_graphReference;
 @property(readonly, nonatomic) MANodeCollection *sources;
-@property(readonly, nonatomic) Class sourcesClass; // @synthesize sourcesClass=_sourcesClass;
-@property(readonly, nonatomic) unsigned long long sourcesCount;
-@property(readonly, nonatomic) MANodeCollection *targets;
-@property(readonly, nonatomic) Class targetsClass; // @synthesize targetsClass=_targetsClass;
 
 @end
 

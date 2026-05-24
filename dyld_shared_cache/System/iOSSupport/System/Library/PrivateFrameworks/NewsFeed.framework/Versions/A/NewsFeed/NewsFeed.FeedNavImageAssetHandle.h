@@ -7,16 +7,6 @@
 @interface NewsFeed.FeedNavImageAssetHandle
 {
     id filePath;
-    id assetDataProvider;
-    id fallbackImage;
-    id uniqueKey;
-    id feedNavImageSize;
-    id tag;
-    id feedNavImageStyler;
-    id scale;
-    id overrideFallbackColor;
-    id overrideAssetHandle;
-    id userInterfaceStyle;
 }
 
 @end

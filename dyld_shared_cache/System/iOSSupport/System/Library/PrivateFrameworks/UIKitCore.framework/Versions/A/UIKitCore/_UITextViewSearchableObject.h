@@ -4,72 +4,46 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableSet, NSString, UIImageView, UITextHighlightView, UITextRange, UITextSearchingDimmingView, UITextView;
-@protocol NSObject><NSCopying;
+@class NSMutableSet, UITextView;
 
 __attribute__((visibility("hidden")))
 @interface _UITextViewSearchableObject
 {
     NSMutableSet *_decoratedTextRanges;
-    NSMutableSet *_decorationAttributes;
-    UITextSearchingDimmingView *_dimmingView;
-    UITextHighlightView *_highlightView;
-    _Bool _dimmingViewVisible;
-    _Bool _highlightViewVisible;
-    UIImageView *_highlightContentsImageView;
-    UITextRange *_highlightedTextRange;
-    UITextRange *_visuallyHighlightedTextRange;
-    UITextView *_textView;
 }
 
 - (void);
 - (void);
-- (id);
-- (_Bool);
+- (id);
+- (_Bool)B;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (CDStruct_99503a0e);
+- (CDStruct_3d581f42)8@16q24@32@40B48B52B56B60^@64@72@80;
+- (void)setFailedRetractPartIndexes:(id)arg1;
+- (void)chatStore;
+- (void)broadcastHandlesSharingNicknamesDidChange;
+- (id)_chatBotRecoverableMessageRecordZoneID;
+- (void)MDService",R,N,V_service;
 - (void);
+- (id);
+- (_Bool)oadRequest;
 - (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (id);
-- (_Bool);
-- (void);
-- (void);
-- (void);
+- (void)@;
+- (void)PropertyPlaylistVisiblePlaylist;
 - (void);
 - (long long)0@ù
 × ;
-- (void)Section:(id)arg1 layoutAxis:(id)arg2;
-- (id)trollerSourceItem_Internal;
+- (void)solverWithLayoutSection:(id)arg1 layoutAxis:(id)arg2;
+- (id)UIPopoverPresentationControllerSourceItem_Internal;
 - (id)P;
 - (_Bool);
-- (void)IFlexInteractionCSg;
+- (void)So18_UIFlexInteractionCSg;
 - (id)i©13Lö;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) UITextRange *selectedTextRange;
-@property(readonly) id <NSObject><NSCopying> selectedTextSearchDocument;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"<NSObject><NSCopying>",?,R
-
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) _Bool supportsTextReplacement;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R,N
-
 @property(readonly, nonatomic) __weak UITextView *textView; // @synthesize textView=_textView;
 
 @end

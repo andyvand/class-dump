@@ -7,18 +7,14 @@
 @interface FamilyCircleUI.HostRemoteViewCoordinator
 {
     id state;
-    id xpcConnection;
-    id onEnd;
-    id ageRangeRequestModel;
-    id $__lazy_storage_$_remoteViewController;
 }
 
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)checkView;
+- (void)cancelButtonAction;
+- (id);
 - (void)ÀCÌDÍxEI@Lø^haôcÎdÏPe$gàj¤lÐ<mÑtnÒ´o$rÓ8su;
 
 @end

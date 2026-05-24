@@ -4,21 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPurgeableData;
-
 __attribute__((visibility("hidden")))
 @interface WFPurgeableImage
 {
     unsigned int _bitmapInfo;
-    NSPurgeableData *_bytes;
-    struct CGColorSpace *_colorSpace;
-    unsigned long long _bitsPerComponent;
-    unsigned long long _bytesPerRow;
-    struct CGSize _size;
 }
 
-- (void);
-- (struct CGImage *);
+- (void)z;
+- (struct CGImage *)g ;
 - (void);
 - (id);
 - (id);

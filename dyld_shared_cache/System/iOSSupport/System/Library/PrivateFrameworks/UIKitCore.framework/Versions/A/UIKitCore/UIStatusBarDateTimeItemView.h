@@ -17,14 +17,14 @@ __attribute__((visibility("hidden")))
 
 + (const char *);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)_submitAndOpenTapToRadarForHistoricalIdentifierReuseForIdentifier:(id)arg1 domain:(int)arg2;
+- (_Bool)ring",C,N,V_balloonPluginBundleID;
+- (void)setChatIsFiltered:(_Bool)arg1 withChatGuid:(struct CGRect)arg2;
+- (void)networkDataAvailabilityChanged:(_Bool)arg1;
 - (void);
-- (void);
-- (void);
-- (double);
-- (id);
-- (id);
+- (double)for service %@ for handles %@;
+- (id). Attempting to lookup using SCIs.;
+- (id)%@;
 - (void)'(¬(();
 - (void)HÜb;
 - (long long)ìÿø(;

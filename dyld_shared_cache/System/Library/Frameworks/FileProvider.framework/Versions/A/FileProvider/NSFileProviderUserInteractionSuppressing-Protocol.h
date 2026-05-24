@@ -5,5 +5,6 @@
 //
 
 @protocol NSFileProviderUserInteractionSuppressing
+- (_Bool);
 @end
 

@@ -4,21 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVAudioEngine, AVAudioEnvironmentNode, MTLRenderPassDescriptor, NSString, SCNDisplayLink, SCNJitterer, SCNNode, SCNRenderer, SCNScene, SCNTechnique, SKScene;
-@protocol MTLCommandQueue, MTLDevice, MTLRenderCommandEncoder, SCNSceneRendererDelegate;
+@class SCNJitterer, SCNScene;
 
 @interface SCNMetalLayer
 {
     SCNJitterer *_jitterer;
-    SCNRenderer *_renderer;
-    SCNScene *_scene;
-    SCNDisplayLink *_displayLink;
-    long long _preferredFramePerSeconds;
-    double _lastUpdate;
-    double _lastRenderedTime;
-    _Bool _drawForJittering;
-    _Bool _rendersIntoMaterial;
-    _Bool _syncTimeWithCoreAnimation;
 }
 
 + (id);
@@ -30,9 +20,9 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -48,9 +38,9 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (_Bool);
-- (_Bool);
+- (_Bool)C;
 - (id);
 - (id);
 - (id);
@@ -90,13 +80,13 @@
 - (void);
 - (id);
 - (unsigned long long);
-- (struct CGColorSpace *);
-- (void);
+- (struct CGColorSpace *)M	.		M	0		%	;
+- (void)B;
 - (void);
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool);
 - (id);
 - (void);
 - (id);
@@ -107,13 +97,13 @@
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)jH;
 - (void *);
 - (void);
 - (id);
-- (void);
-- (void);
-- (long long);
+- (void)raryResourcesServiceClient %p - Unable to create XPC Connection [no listener endpoint];
+- (void)item_id, cloud_status, in_my_library, playback_endpoint_type FROM container_item LEFT OUTER JOIN item USING (item_pid) LEFT OUTER JOIN item_store USING (item_pid) ORDER BY container_pid, position;
+- (long long)ed, file_size, file_creator, file_type, num_dir_levels_file, num_dir_levels_lib, integrity, media_kind, date_modified, year, content_rating, content_rating_level, is_user_disabled, remember_bookmark, start_time_ms, stop_time_ms, total_time_ms, total_burn_time_ms, bpm, relative_volume, eq_preset, genius_id, comment, grouping, description, description_long, collection_description, is_ota_purchased, is_compilation, is_itunes_u, is_audible_audio_book, copyright, chosen_by_auto_fill, is_temporary_cloud_download, is_streaming_quality, store_bookmark_timestamp, store_bookmark_entity_revision, is_podcast, external_guid, feed_url, store_kind, date_purchased, date_released, account_id, key_versions, key_platform_id, key_id, store_item_id, store_artist_id, store_composer_id, store_genre_id, store_playlist_id, storefront_id, redownload_action_params, artwork_url, store_xid, store_flavor, store_saga_id, store_matched_status, store_redownloaded_status, audio_format, sample_rate, duration, gapless_heuristic_info, gapless_encoding_delay, gapless_encoding_drain, gapless_last_frame_resynch, analysis_inhibit_flags, audio_fingerprint, volume_normalization_energy, is_rental, is_demo, rental_duration, rental_playback_duration, rental_playback_date_started, rental_date_started, has_alternate_audio, has_subtitles, is_hd, season_number, audio_language, audio_track_index, audio_track_id, subtitle_language, subtitle_track_index, subtitle_track_id, episode_id, network_name, extended_content_rating, movie_info, bit_rate, pending_genius_checksum FROM item_extra;
 - (void);
 - (double);
 - (id);
@@ -165,44 +155,7 @@ _output.color.rgba += floorColor.rgba;
 - (void))3;
 
 // Remaining properties
-@property(nonatomic) unsigned long long antialiasingMode;
-@property(readonly, nonatomic) AVAudioEngine *audioEngine;
-@property(readonly, nonatomic) AVAudioEnvironmentNode *audioEnvironmentNode;
-@property(retain, nonatomic) SCNNode *audioListener;
-@property(nonatomic) _Bool autoenablesDefaultLighting;
-@property(readonly, nonatomic) unsigned long long colorPixelFormat;
-@property(readonly, nonatomic) id <MTLCommandQueue> commandQueue;
-@property(readonly, nonatomic) void *context;
-@property(readonly, nonatomic) id <MTLRenderCommandEncoder> currentRenderCommandEncoder;
-@property(readonly, nonatomic) MTLRenderPassDescriptor *currentRenderPassDescriptor;
-@property(nonatomic) double currentTime;
-@property(readonly, nonatomic) struct CGRect currentViewport;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) unsigned long long debugOptions;
-@property(nonatomic) __weak id <SCNSceneRendererDelegate> delegate;
-@property(readonly, nonatomic) unsigned long long depthPixelFormat;
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) id <MTLDevice> device;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isJitteringEnabled) _Bool jitteringEnabled;
-@property(nonatomic) _Bool loops;
-@property(retain, nonatomic) SKScene *overlaySKScene;
-@property(getter=isPlaying) _Bool playing;
-@property(retain, nonatomic) SCNNode *pointOfView;
-@property(readonly, nonatomic) unsigned long long renderingAPI;
 @property(retain, nonatomic) SCNScene *scene;
-@property(nonatomic) double sceneTime;
-@property(nonatomic) _Bool showsStatistics;
-@property(readonly, nonatomic) unsigned long long stencilPixelFormat;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool syncTimeWithCoreAnimation; // @synthesize syncTimeWithCoreAnimation=_syncTimeWithCoreAnimation;
-@property(copy, nonatomic) SCNTechnique *technique;
-@property(nonatomic, getter=isTemporalAntialiasingEnabled) _Bool temporalAntialiasingEnabled;
-@property(nonatomic) _Bool usesReverseZ;
-@property(readonly, nonatomic) struct CGColorSpace *workingColorSpace;
 
 @end
 

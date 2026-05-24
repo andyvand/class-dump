@@ -9,8 +9,6 @@
 @interface NURepeatPattern : NUPattern
 {
     NUPattern *_pattern;
-    long long _minCount;
-    long long _maxCount;
 }
 
 - (id);
@@ -20,8 +18,8 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
-- (id);
+- (id)9;
+- (id);
 - (id);
 - (id);
 - (id);
@@ -32,8 +30,6 @@
 - (long long)";
 
 // Remaining properties
-@property(readonly) long long maxCount; // @synthesize maxCount=_maxCount;
-@property(readonly) long long minCount; // @synthesize minCount=_minCount;
 @property(readonly) NUPattern *pattern; // @synthesize pattern=_pattern;
 
 @end

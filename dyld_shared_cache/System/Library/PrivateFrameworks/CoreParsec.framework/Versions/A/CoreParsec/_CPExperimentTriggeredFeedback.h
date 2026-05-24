@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, _CPCounterfactualInfo;
-
 @interface _CPExperimentTriggeredFeedback
 {
     unsigned long long _queryID;
-    unsigned long long _timestamp;
-    _CPCounterfactualInfo *_counterfactual;
-    NSString *_codepathId;
 }
 
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)MainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF:(id)arg1:HashMap<WTF::ObjectIdentifierGeneric<WebKit::DownloadIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::DownloadProxy>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::DownloadIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebKit::DownloadIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::DownloadIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::DownloadProxy>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::DownloadIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::DownloadProxy>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::DownloadIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::DownloadIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebKit::DownloadProxy>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::DownloadIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)F:(id)arg1:URL, Value = WTF::KeyValuePair<WTF::URL, WebKit::WebExtensionContext::PermissionState>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::URL, WebKit::WebExtensionContext::PermissionState>>, HashFunctions = WTF::DefaultHash<URL>, Traits = WTF::HashMap<WTF::URL, WebKit::WebExtensionContext::PermissionState>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<URL>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)ource, Target> *WTF::downcast(Source *) [Target = WebKit::WebOpenPanelResultListenerProxy, Source = API::Object] /* Error: Ran out of types for this method. */;
+- (id), Target> *WTF::downcast(Source *) [Target = API::NavigationData, Source = API::Object] /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (unsigned long long);
@@ -25,23 +20,12 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (void);
+- (void):(unsigned long long)arg1;
 - (unsigned long long);
 - (void);
 - (void);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *codepathId; // @synthesize codepathId=_codepathId;
-@property(retain, nonatomic) _CPCounterfactualInfo *counterfactual; // @synthesize counterfactual=_counterfactual;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSData *jsonData; // @dynamic jsonData;
-@property(nonatomic) unsigned long long queryID; // @synthesize queryID=_queryID;
-@property(readonly) Class superclass;
 @property(nonatomic) unsigned long long timestamp;
 
 @end

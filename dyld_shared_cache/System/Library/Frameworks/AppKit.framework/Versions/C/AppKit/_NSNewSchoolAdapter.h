@@ -20,7 +20,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)deleteSearchableItemsSinceDate:(id)arg1 bundleID:withCompletion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(retain, nonatomic) NSArray *trackedConstraints; // @synthesize trackedConstraints=_trackedConstraints;

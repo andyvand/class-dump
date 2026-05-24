@@ -5,5 +5,7 @@
 //
 
 @protocol NSEditor
+- (void)\m`;
+- (void)A;
 @end
 

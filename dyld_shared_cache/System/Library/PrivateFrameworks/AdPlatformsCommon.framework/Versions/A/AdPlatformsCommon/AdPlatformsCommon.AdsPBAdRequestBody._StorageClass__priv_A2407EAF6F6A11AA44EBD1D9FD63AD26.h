@@ -7,10 +7,6 @@
 @interface AdPlatformsCommon.AdsPBAdRequestBody._StorageClass__priv_A2407EAF6F6A11AA44EBD1D9FD63AD26
 {
     id _clientRequestID;
-    id _deviceInfo;
-    id _appInfo;
-    id _testAttributes;
-    id _term;
 }
 
 @end

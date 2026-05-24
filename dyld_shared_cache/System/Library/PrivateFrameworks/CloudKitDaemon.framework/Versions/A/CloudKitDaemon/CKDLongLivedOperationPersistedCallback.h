@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSInvocation, Protocol;
+@class Protocol;
 
 @interface CKDLongLivedOperationPersistedCallback
 {
     _Bool _isCompletionCallback;
-    Protocol *_protocol;
-    NSInvocation *_invocation;
 }
 
 + (_Bool);
@@ -27,8 +25,6 @@
 - (void)peration <%{public}@:(id)arg1 %p; %{public}@> could not upload corrupted asset with error %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSInvocation *invocation; // @synthesize invocation=_invocation;
-@property(nonatomic) _Bool isCompletionCallback; // @synthesize isCompletionCallback=_isCompletionCallback;
 @property(retain, nonatomic) Protocol *protocol; // @synthesize protocol=_protocol;
 
 @end

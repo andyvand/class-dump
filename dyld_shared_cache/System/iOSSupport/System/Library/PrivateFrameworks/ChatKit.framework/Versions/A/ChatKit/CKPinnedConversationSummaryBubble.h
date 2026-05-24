@@ -6,37 +6,36 @@
 
 #import <ChatKit/CKPinnedConversationTailedActivityItemView.h>
 
-@class CKPinnedConversationSummaryBubbleActivityItem, NSAttributedString, UILabel;
+@class CKPinnedConversationSummaryBubbleActivityItem, UILabel;
 
 @interface CKPinnedConversationSummaryBubble : CKPinnedConversationTailedActivityItemView
 {
     CKPinnedConversationSummaryBubbleActivityItem *_summaryBubbleActivityItem;
-    UILabel *_summaryLabel;
 }
 
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (_Bool)initWithSize:scale: /* Error: Ran out of types for this method. */;
+- (_Bool)initWithShouldShowSpinner:progressText: /* Error: Ran out of types for this method. */;
+- (id)initWithRootRecord: /* Error: Ran out of types for this method. */;
+- (id)initWithRange:csEvaluatorMatchString: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
-- (long long);
-- (void);
-- (id);
+- (long long)(;
+- (void)ouch ID and Face ID. No one can access your locked notes without your device passcode—not even Apple.
+
+Do you still want to know more about how your information is secured? ;
+- (id)ViewAttachment;
 - (id);
 - (void);
 - (double);
 - (struct UIEdgeInsets);
 - (void);
-- (id);
-- (void);
+- (id)9	;
+- (void);
 - (void)v32@0:(id)arg1 8@"CNVisualIdentityPickerViewController"16@"UIPresentationController"24;
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) CKPinnedConversationSummaryBubbleActivityItem *summaryBubbleActivityItem; // @synthesize summaryBubbleActivityItem=_summaryBubbleActivityItem;
 @property(retain, nonatomic) UILabel *summaryLabel; // @synthesize summaryLabel=_summaryLabel;
-@property(readonly, nonatomic) NSAttributedString *summaryText;
 
 @end
 

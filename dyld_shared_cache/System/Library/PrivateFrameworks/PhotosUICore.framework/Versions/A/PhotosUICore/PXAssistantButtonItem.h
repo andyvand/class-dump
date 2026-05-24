@@ -9,24 +9,20 @@
 @interface PXAssistantButtonItem
 {
     _Bool _hidden;
-    _Bool _disabled;
-    NSString *_title;
 }
 
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void)
 × ;
 - (void)ding"B};
-- (id)k;
+- (id)Thunderstruck;
 - (void);
 - (_Bool);
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic, getter=isDisabled) _Bool disabled; // @synthesize disabled=_disabled;
-@property(readonly, nonatomic, getter=isHidden) _Bool hidden; // @synthesize hidden=_hidden;
 @property(readonly, copy, nonatomic) NSString *title; // @synthesize title=_title;
 
 @end

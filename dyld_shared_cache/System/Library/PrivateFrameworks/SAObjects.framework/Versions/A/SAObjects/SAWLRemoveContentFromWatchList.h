@@ -12,9 +12,9 @@
 {
 }
 
++ (id);
 + (id);
-+ (id);
-- (id);
+- (id)j;
 - (void);
 - (id);
 - (void);
@@ -22,12 +22,10 @@
 - (id);
 - (void);
 - (id);
-- (_Bool);
+- (_Bool);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *canonicalId;
-@property(copy, nonatomic) NSString *siriLocale;
-@property(copy, nonatomic) NSString *title;
 
 @end
 

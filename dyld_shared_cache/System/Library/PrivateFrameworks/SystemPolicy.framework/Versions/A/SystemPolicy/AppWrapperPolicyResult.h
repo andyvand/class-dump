@@ -7,21 +7,17 @@
 @interface AppWrapperPolicyResult
 {
     _Bool isValid;
-    _Bool isModified;
-    unsigned long long signerCategory;
 }
 
 - (unsigned long long);
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)K;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isModified; // @synthesize isModified;
 @property(readonly, nonatomic) _Bool isValid; // @synthesize isValid;
-@property(readonly, nonatomic) unsigned long long signerCategory; // @synthesize signerCategory;
 
 @end
 

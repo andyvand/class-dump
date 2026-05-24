@@ -4,24 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface AMSSafariDataUpdate
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSMutableArray *_updateHandlers;
 }
 
 - (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (id);
+- (id)A;
+- (void);
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (id)playbackSessionRequest;
 - (id);
 - (void);ÖÕÍþ¡x¬mv ¥ìM-f±AÈp÷}UÞ/t¦!cÑDñ}RÐüýYæõÈ¹¯ÙóZÞ3ø_ÑVí¸t<R¥¹¬`&´Ä{~ör]Â,.ã»ekè73µ¤àJÇdÌY¨h+T¹ÇI¡OµB
 Âõõ?°nÆâúr7``ÐÞäZdR»~÷oV.Êfnzh7Sy!õ1¶¸ýk¢ Òö´Mxª GF­<y©Ôó¯³-0,éâ£§°W´|ÁÒëHá·(2Þé»ä0Í÷^ºtEÒvM¥Ñý_~8Ú°¬õöÇàÃÚ&Ü³ê (UÈ'd3C[V»Hú#ÁaDoWùB¦Ê@}6Èòþr²9J¢´%/.7p½×FºÐ@ÝëWíO±8+ßR·Ã-z2FÇÈÕL$§$ØI¿v0#Âûuu£X,éWÓ27¤Ì.eË%%«CjN¢ç::7­/°k4\Å]ý-+ð¢ÌõÃ«Þû¸LJDr¬SZÔ­k+ !ÛaEÁ=¼©qê5	äp°ÂôHÎU/[-¤ÌÐ
@@ -30,7 +29,6 @@
 
 // Remaining properties
 @property(retain) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain) NSMutableArray *updateHandlers; // @synthesize updateHandlers=_updateHandlers;
 
 @end
 

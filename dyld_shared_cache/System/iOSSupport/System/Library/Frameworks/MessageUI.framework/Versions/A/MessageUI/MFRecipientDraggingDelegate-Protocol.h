@@ -5,5 +5,6 @@
 //
 
 @protocol MFRecipientDraggingDelegate
+- (void);
 @end
 

@@ -14,7 +14,7 @@
 }
 
 + (unsigned char);
-+ (void)roupID;
++ (void)AltSubtitlesGroupID;
 - (void);
 - (id);
 - (void);

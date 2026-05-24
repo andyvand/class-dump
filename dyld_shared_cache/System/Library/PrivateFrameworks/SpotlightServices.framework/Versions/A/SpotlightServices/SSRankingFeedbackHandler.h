@@ -4,34 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface SSRankingFeedbackHandler
 {
     NSMutableDictionary *_mapProtectionClassToBundleIdToItem;
-    NSMutableArray *_sectionCSItems;
-    NSObject<OS_dispatch_queue> *_countQueue;
-    NSObject<OS_dispatch_queue> *_fetchQueue;
 }
 
 + (id)_boundingBoxRatio;
 - (id);
 - (id);
+- (id)] No shared cache;
+- (id)mes specified;
+- (void)-partitioned treatments:(id)arg1 treatmentId is nil;
+- (void)lTaskHistory table for database version 25;
+- (void);
 - (id);
-- (id);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void)bleItems:deleteSearchableItemsWithIdentifiers:clientState:protectionClass:forBundleID:options:completionHandler: /* Error: Ran out of types for this method. */;
+- (void)indexSearchableItems:deleteSearchableItemsWithIdentifiers:clientState:protectionClass:forBundleID:options:completionHandler: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain) NSObject<OS_dispatch_queue> *countQueue; // @synthesize countQueue=_countQueue;
-@property(retain) NSObject<OS_dispatch_queue> *fetchQueue; // @synthesize fetchQueue=_fetchQueue;
 @property(retain) NSMutableDictionary *mapProtectionClassToBundleIdToItem; // @synthesize mapProtectionClassToBundleIdToItem=_mapProtectionClassToBundleIdToItem;
-@property(retain) NSMutableArray *sectionCSItems; // @synthesize sectionCSItems=_sectionCSItems;
 
 @end
 

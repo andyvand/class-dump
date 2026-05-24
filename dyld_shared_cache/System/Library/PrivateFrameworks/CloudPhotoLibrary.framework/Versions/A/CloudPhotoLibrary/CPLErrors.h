@@ -10,6 +10,23 @@
 
 + (id);
 + (id);
++ (id)0;
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id));
++ (id);
++ (id);
++ (id);
++ (id);
++ (id);
++ (id)/;
 + (id);
 + (id);
 + (id);
@@ -22,27 +39,10 @@
 + (id);
 + (id);
 + (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
-+ (id);
++ (id)Data;
++ (id)ttributes;
++ (id)= %@, url = %@, urlDescription = %@, lpTitle = %@, lpDescription = %@, messageContainsURL = %d with appEntityInstanceId = %@, id = %@ and title = %@;
++ (id)singular;
 + (id);
 
 @end

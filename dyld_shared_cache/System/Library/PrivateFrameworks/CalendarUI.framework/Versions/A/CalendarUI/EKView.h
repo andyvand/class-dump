@@ -16,7 +16,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)fetchAppsSyncingToiCloudDriveForAltDSID:completion: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property __weak EKViewController *controller; // @synthesize controller=_controller;

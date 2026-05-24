@@ -7,41 +7,27 @@
 @interface CDPDCircleJoinResult
 {
     _Bool _didJoin;
-    _Bool _needsBackupRecovery;
-    _Bool _hasPeersForRemoteApproval;
-    _Bool _hasPeersWithCDPBackupRecords;
-    _Bool _requiresEscrowRecordsFetch;
-    _Bool _requiresInitialSync;
-    unsigned long long _remotePeeriCKState;
-    unsigned long long _circleStatus;
 }
 
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (_Bool);
-- (unsigned long long);
-- (_Bool);
-- (_Bool);
-- (void);
-- (_Bool);
+- (void)StartPageCollectionViewLayoutSectionProvider;
+- (void)StartPageSuggestionsSectionProviderDelegate;
+- (void)StartPageExtras;
+- (void)SUOSUSafariControllerDelegate;
+- (void)SnapshotFetchOperation;
+- (_Bool)UnifiedTabBarItemList;
+- (_Bool)SafeAutoFillChoicesMenuItemView;
+- (unsigned long long)SafariNSWorkspaceExtras;
+- (_Bool)RemoteNotificationVerificationRequestProxyDelegate;
+- (_Bool)ReadingListTableViewLiveResizeDelegate;
 - (void);
 - (_Bool);
 - (void);
-- (unsigned long long);
+- (_Bool);
+- (void);
+- (unsigned long long);
 
 // Remaining properties
-@property unsigned long long circleStatus; // @synthesize circleStatus=_circleStatus;
 @property _Bool didJoin; // @synthesize didJoin=_didJoin;
-@property _Bool hasPeersForRemoteApproval; // @synthesize hasPeersForRemoteApproval=_hasPeersForRemoteApproval;
-@property _Bool hasPeersWithCDPBackupRecords; // @synthesize hasPeersWithCDPBackupRecords=_hasPeersWithCDPBackupRecords;
-@property _Bool needsBackupRecovery; // @synthesize needsBackupRecovery=_needsBackupRecovery;
-@property unsigned long long remotePeeriCKState; // @synthesize remotePeeriCKState=_remotePeeriCKState;
-@property _Bool requiresEscrowRecordsFetch; // @synthesize requiresEscrowRecordsFetch=_requiresEscrowRecordsFetch;
-@property _Bool requiresInitialSync; // @synthesize requiresInitialSync=_requiresInitialSync;
 
 @end
 

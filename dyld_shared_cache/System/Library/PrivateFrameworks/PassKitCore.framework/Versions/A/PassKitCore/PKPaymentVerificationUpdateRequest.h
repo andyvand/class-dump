@@ -6,17 +6,11 @@
 
 #import <PassKitCore/PKPaymentWebServiceRequest.h>
 
-@class NSDictionary, NSString, PKPassVerificationMethod, PKPassVerificationMethodGroup, PKSecureElementPass, PKVerificationChannel;
+@class NSString;
 
 @interface PKPaymentVerificationUpdateRequest : PKPaymentWebServiceRequest
 {
     NSString *_stepIdentifier;
-    PKSecureElementPass *_pass;
-    PKPassVerificationMethodGroup *_methodGroup;
-    PKPassVerificationMethod *_method;
-    NSDictionary *_dynamicFieldParameters;
-    NSDictionary *_encryptedDynamicFieldParameters;
-    NSDictionary *_encryptedPerFieldDynamicFieldParameters;
 }
 
 - (id);
@@ -25,27 +19,20 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)5;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)B;
 - (void);
 - (void);
 - (id);
 - (id)llowPassUpdatesWithMissingRequiredRemoteAssets enabled;
-- (void)ForceNilShareDataInPreTrackRequestKey;
+- (void)PKSharingForceNilShareDataInPreTrackRequestKey;
 
 // Remaining properties
-@property(retain, nonatomic) PKVerificationChannel *channel;
-@property(copy, nonatomic) NSDictionary *dynamicFieldParameters; // @synthesize dynamicFieldParameters=_dynamicFieldParameters;
-@property(copy, nonatomic) NSDictionary *encryptedDynamicFieldParameters; // @synthesize encryptedDynamicFieldParameters=_encryptedDynamicFieldParameters;
-@property(copy, nonatomic) NSDictionary *encryptedPerFieldDynamicFieldParameters; // @synthesize encryptedPerFieldDynamicFieldParameters=_encryptedPerFieldDynamicFieldParameters;
-@property(retain, nonatomic) PKPassVerificationMethod *method; // @synthesize method=_method;
-@property(retain, nonatomic) PKPassVerificationMethodGroup *methodGroup; // @synthesize methodGroup=_methodGroup;
-@property(retain, nonatomic) PKSecureElementPass *pass; // @synthesize pass=_pass;
 @property(copy, nonatomic) NSString *stepIdentifier; // @synthesize stepIdentifier=_stepIdentifier;
 
 @end

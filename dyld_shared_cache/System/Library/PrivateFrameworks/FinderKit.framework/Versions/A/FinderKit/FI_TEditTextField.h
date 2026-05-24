@@ -16,8 +16,8 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (id);
-- (id);
+- (id)test_routeMessages:(id)arg1 fromStores:fetchingBodies:messagesNeedingBodies: /* Error: Ran out of types for this method. */;
+- (id);
 - (void)ÿÿ;
 
 // Remaining properties

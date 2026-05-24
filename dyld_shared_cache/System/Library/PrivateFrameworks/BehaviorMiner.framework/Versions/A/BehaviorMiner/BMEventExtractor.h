@@ -4,12 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class BMMiningTaskConfig;
-
 @interface BMEventExtractor
 {
     _Bool _shouldStop;
-    BMMiningTaskConfig *_bmMiningTaskConfig;
 }
 
 - (void);
@@ -17,13 +14,12 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
-- (void);
+- (_Bool)presentationWindow;
+- (void)presentationControllerDidDismiss:(_Bool)arg1;
 - (id);
 - (void);
 
 // Remaining properties
-@property(retain) BMMiningTaskConfig *bmMiningTaskConfig; // @synthesize bmMiningTaskConfig=_bmMiningTaskConfig;
 @property _Bool shouldStop; // @synthesize shouldStop=_shouldStop;
 
 @end

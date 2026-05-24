@@ -6,7 +6,7 @@
 
 #import <Montreal/MLPNetwork.h>
 
-@class MLPLearningRateDecayHandler, NSString;
+@class MLPLearningRateDecayHandler;
 
 @interface MLPSeqNetwork : MLPNetwork
 {
@@ -18,7 +18,7 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (void);
+- (void);
 - (float);
 - (id);
 - (id);
@@ -26,14 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(retain) MLPLearningRateDecayHandler *seqLearningRateDecayHandler; // @synthesize seqLearningRateDecayHandler=_seqLearningRateDecayHandler;
-@property(readonly) Class superclass;
 
 @end
 

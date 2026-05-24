@@ -4,18 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CAContext, NSArray, NSMutableDictionary, NSString;
+@class NSMutableDictionary;
 
 @interface TIKeyboardSecureCandidateRenderer
 {
     NSMutableDictionary *_secureCandidateCache;
-    CAContext *_context;
-    NSString *_localeIdentifier;
-    NSMutableDictionary *_accessibilityLabelCache;
-    NSArray *_arrayOfAttributes;
 }
 
-+ (id);
++ (id)C;
 - (void);
 - (void);
 - (struct CGImage *);
@@ -23,33 +19,31 @@
 - (void);
 - (id);
 - (id);
-- (id);
-- (struct __CFArray *);
-- (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id);
+- (struct __CFArray *)dispatchQueueId;
+- (id)pth %u, numUserFrames %u, backtraceStyle 0x%llx, stitchIndex %u;
 - (id);
 - (id);
 - (id);
 - (void);
-- (struct __CFArray *);
 - (id);
+- (id);
+- (id);
+- (void)kMDItemComposer_norm_match_count_prefix;
 - (struct __CFArray *);
-- (unsigned int);
+- (id);
+- (struct __CFArray *);
+- (unsigned int)try:(id)arg1 completion: /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void);
 - (void)!dDùQið1Â0@ù
 × ;
-- (id)dictionaryLookup;
+- (id)_dictionaryLookup;
 - (id)Lè°ê`íìñòö;
 - (void)ng filter stack (success=%s);
 
 // Remaining properties
-@property(readonly, nonatomic) CAContext *context; // @synthesize context=_context;
-@property(retain, nonatomic) NSString *localeIdentifier; // @synthesize localeIdentifier=_localeIdentifier;
 @property(retain, nonatomic) NSMutableDictionary *secureCandidateCache; // @synthesize secureCandidateCache=_secureCandidateCache;
 
 @end

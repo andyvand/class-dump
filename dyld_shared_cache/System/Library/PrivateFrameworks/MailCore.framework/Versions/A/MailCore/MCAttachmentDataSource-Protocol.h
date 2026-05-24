@@ -7,8 +7,6 @@
 @protocol MCAttachmentDataSource
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool canResultsBeCached;
 @property(readonly, nonatomic) _Bool dataIsLocallyAvailable;
-@property(readonly, nonatomic) _Bool isDirectory;
 @end
 

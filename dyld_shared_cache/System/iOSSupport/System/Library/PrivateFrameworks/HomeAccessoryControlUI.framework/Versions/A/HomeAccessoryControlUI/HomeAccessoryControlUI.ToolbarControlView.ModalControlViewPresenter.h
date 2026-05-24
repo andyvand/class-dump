@@ -8,7 +8,6 @@
 {
     id _isPresented;
     id _viewConfig;
-    id _$observationRegistrar;
 }
 
 @end

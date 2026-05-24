@@ -4,22 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSMutableDictionary, VNProcessingDevice;
+@class NSMutableDictionary;
 
 __attribute__((visibility("hidden")))
 @interface VNRequestConfiguration
 {
     NSMutableDictionary *_computeStageDeviceAssignments;
-    _Bool _preferBackgroundProcessing;
-    Class _requestClass;
-    unsigned long long _resolvedRevision;
-    unsigned long long _detectionLevel;
-    VNProcessingDevice *_processingDevice;
-    unsigned long long _metalContextPriority;
-    unsigned long long _modelExecutionPriority;
-    unsigned long long _modelFileBackingStore;
-    unsigned long long _maximumProcessingDimensionOnTheLongSide;
-    unsigned long long _memoryPoolId;
 }
 
 - (void);
@@ -39,7 +29,7 @@ __attribute__((visibility("hidden")))
 - (unsigned long long);
 - (unsigned long long);
 - (unsigned long long);
-- (id);
+- (id)b;
 - (id);
 - (void);
 - (void);
@@ -52,18 +42,7 @@ __attribute__((visibility("hidden")))
 - (void)ed revision;
 
 // Remaining properties
-@property(copy, nonatomic) NSDictionary *computeStageDeviceAssignments;
-@property(nonatomic) unsigned long long detectionLevel; // @synthesize detectionLevel=_detectionLevel;
-@property(nonatomic) unsigned long long maximumProcessingDimensionOnTheLongSide; // @synthesize maximumProcessingDimensionOnTheLongSide=_maximumProcessingDimensionOnTheLongSide;
-@property(nonatomic) unsigned long long memoryPoolId; // @synthesize memoryPoolId=_memoryPoolId;
-@property(nonatomic) unsigned long long metalContextPriority; // @synthesize metalContextPriority=_metalContextPriority;
-@property(nonatomic) unsigned long long modelExecutionPriority; // @synthesize modelExecutionPriority=_modelExecutionPriority;
-@property(nonatomic) unsigned long long modelFileBackingStore; // @synthesize modelFileBackingStore=_modelFileBackingStore;
-@property(nonatomic) _Bool preferBackgroundProcessing; // @synthesize preferBackgroundProcessing=_preferBackgroundProcessing;
-@property(copy, nonatomic) VNProcessingDevice *processingDevice; // @synthesize processingDevice=_processingDevice;
 @property(readonly, nonatomic) Class requestClass; // @synthesize requestClass=_requestClass;
-@property(readonly, copy, nonatomic) NSDictionary *resolvedComputeStageDeviceAssignments;
-@property(nonatomic) unsigned long long resolvedRevision; // @synthesize resolvedRevision=_resolvedRevision;
 
 @end
 

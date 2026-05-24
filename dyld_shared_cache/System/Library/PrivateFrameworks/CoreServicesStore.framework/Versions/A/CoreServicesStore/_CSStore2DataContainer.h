@@ -8,7 +8,6 @@ __attribute__((visibility("hidden")))
 @interface _CSStore2DataContainer
 {
     struct Data *p;
-    unsigned int pAllocatedLength;
 }
 
 + (id);

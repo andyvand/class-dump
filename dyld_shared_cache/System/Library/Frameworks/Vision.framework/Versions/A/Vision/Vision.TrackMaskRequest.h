@@ -7,10 +7,6 @@
 @interface Vision.TrackMaskRequest
 {
     id frameAnalysisSpacing;
-    id revision;
-    id configuration;
-    id state;
-    id uuid;
 }
 
 @end

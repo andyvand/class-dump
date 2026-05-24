@@ -11,9 +11,9 @@
     AVCaptureSystemPressureStateInternal *_internal;
 }
 
-+ (void)bolg;
-- (id);
-- (void);
++ (void)nppubolg;
+- (id);
+- (void)>24;
 - (id);
 - (id);
 - (id);
@@ -26,7 +26,6 @@
 - (id)yConfiguresOutputBufferDimensions has been set to NO;
 
 // Remaining properties
-@property(readonly) unsigned long long factors;
 @property(readonly) NSString *level;
 
 @end

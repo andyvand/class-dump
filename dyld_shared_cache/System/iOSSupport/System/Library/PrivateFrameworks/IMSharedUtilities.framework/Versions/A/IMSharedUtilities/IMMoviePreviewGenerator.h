@@ -12,7 +12,7 @@
 
 + (_Bool);
 + (struct CGImage *);
-+ (struct CGImage *);
++ (struct CGImage *)C;
 + (struct CGImage *);
 + (_Bool);
 + (id);

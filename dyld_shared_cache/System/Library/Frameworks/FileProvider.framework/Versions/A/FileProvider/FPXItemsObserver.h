@@ -6,22 +6,19 @@
 
 #import <FileProvider/FPXObserver.h>
 
-@class NSData, NSMutableArray, NSString;
+@class NSMutableArray;
 
 __attribute__((visibility("hidden")))
 @interface FPXItemsObserver : FPXObserver
 {
     NSMutableArray *_items;
-    CDUnknownBlockType _finishedBlock;
-    NSData *_syncAnchor;
-    long long _suggestedPageSize;
 }
 
-- (void);
+- (void);
 - (long long);
 - (void);
 - (void);
-- (void);
+- (void)eCreate failed;
 - (void);
 - (id);
 - (CDUnknownBlockType);
@@ -31,16 +28,7 @@ __attribute__((visibility("hidden")))
 - (id)t populated;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(copy) CDUnknownBlockType finishedBlock; // @synthesize finishedBlock=_finishedBlock;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) long long suggestedPageSize; // @synthesize suggestedPageSize=_suggestedPageSize;
-@property(readonly) Class superclass;
-@property(copy) NSData *syncAnchor; // @synthesize syncAnchor=_syncAnchor;
 
 @end
 

@@ -4,25 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class GEOLocation, PBUnknownFields;
+@class PBUnknownFields;
 
 @interface GEOLogMsgStateLookAroundView
 {
     PBUnknownFields *_unknownFields;
-    GEOLocation *_location;
-    double _zoomLevel;
-    unsigned int _heading;
-    unsigned int _numberPoisInView;
-    _Bool _isLabelingShown;
-    struct {
-        unsigned int has_zoomLevel:1;
-        unsigned int has_heading:1;
-        unsigned int has_numberPoisInView:1;
-        unsigned int has_isLabelingShown:1;
-    } _flags;
 }
 
-+ (_Bool)portDirectionIntentSearch:(id)arg1;
++ (_Bool)setHasSupportDirectionIntentSearch:(id)arg1;
 - (void);
 - (void);
 - (void);
@@ -32,7 +21,7 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)_CNCacheFixedCapacityBoundingStrategy;
 - (void);
 - (id);
 - (_Bool);
@@ -44,13 +33,13 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (void);
-- (void);
+- (void)cial.vimeo;
+- (void)metadata;
 - (_Bool);
 - (_Bool);
 - (void);
-- (id)g:(struct _NSZone *)arg1;
-- (id)dFraction: /* Error: Ran out of types for this method. */;
+- (id)subactionTypeAsString:(struct _NSZone *)arg1;
+- (id)setEndFraction: /* Error: Ran out of types for this method. */;
 - (id)outing path points or zilch points. Unable to generate ETAU request so skipping update.;
 - (unsigned int);
 - (id);
@@ -58,21 +47,11 @@
 - (void)yþG;
 - (void)à¸4;
 - (double)ÿ+iVL4;
-- (_Bool)5;
+- (_Bool)HE5;
 - (void)¬Ûãÿ¿;
 
 // Remaining properties
-@property(nonatomic) _Bool hasHeading;
-@property(nonatomic) _Bool hasIsLabelingShown;
 @property(readonly, nonatomic) _Bool hasLocation;
-@property(nonatomic) _Bool hasNumberPoisInView;
-@property(nonatomic) _Bool hasZoomLevel;
-@property(nonatomic) unsigned int heading;
-@property(nonatomic) _Bool isLabelingShown;
-@property(retain, nonatomic) GEOLocation *location;
-@property(nonatomic) unsigned int numberPoisInView;
-@property(readonly, nonatomic) PBUnknownFields *unknownFields;
-@property(nonatomic) double zoomLevel;
 
 @end
 

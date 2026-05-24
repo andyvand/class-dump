@@ -5,14 +5,12 @@
 //
 
 @class NSObject;
-@protocol OS_xpc_object, UINSRevealController, UINSTextInputDelegate;
+@protocol OS_xpc_object, UINSTextInputDelegate;
 
 @protocol UINSTextInput
+- (void)signed long long, false, true, false>:(id <UINSTextInputDelegate>)arg1:_data_map_sync_header(bool) [DATA_ID_T = unsigned long long, EXT = false, STORE_HASH = true, USE_ACTIVITY_JOURNAL = false] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(retain, nonatomic) id <UINSTextInputDelegate> delegate;
-@property(readonly, nonatomic, getter=isFullKeyboardAccessEnabled) _Bool fullKeyboardAccessEnabled;
 @property(retain, nonatomic) NSObject<OS_xpc_object> *remoteTextInputEndpoint;
-@property(readonly, nonatomic) id <UINSRevealController> revealController;
 @end
 

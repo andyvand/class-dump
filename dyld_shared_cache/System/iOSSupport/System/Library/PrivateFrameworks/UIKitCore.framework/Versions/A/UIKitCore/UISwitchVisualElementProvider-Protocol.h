@@ -11,6 +11,6 @@
 × ;
 
 @optional
-+ (UISwitchVisualElement *)lassStyleProvider;
++ (UISwitchVisualElement *)UISegmentedControlGlassStyleProvider;
 @end
 

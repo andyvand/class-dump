@@ -7,10 +7,12 @@
 @class NSString;
 
 @protocol AAOBBulletPointModelProtocol
+- (void)!;
+- (NSString *);
+- (void);
+- (NSString *);
 
 // Remaining properties
-@property(copy, nonatomic) NSString *description;
 @property(copy, nonatomic) NSString *symbolName;
-@property(copy, nonatomic) NSString *title;
 @end
 

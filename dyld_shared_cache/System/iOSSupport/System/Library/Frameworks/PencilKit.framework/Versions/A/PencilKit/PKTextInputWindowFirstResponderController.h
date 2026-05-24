@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNotification, NSNotificationCenter, NSString, PKTextInputWindowFirstResponder;
-@protocol PKTextInputWindowFirstResponderControllerDelegate;
+@class NSNotificationCenter;
 
 @interface PKTextInputWindowFirstResponderController
 {
     _Bool _paletteFloatingMode;
-    id <PKTextInputWindowFirstResponderControllerDelegate> _delegate;
-    PKTextInputWindowFirstResponder *_firstResponder;
-    NSNotificationCenter *__notificationCenter;
-    NSNotification *__delayedNotification;
 }
 
 - (void);
@@ -32,7 +27,7 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)G;
 - (id);
 - (void);
 - (id);
@@ -40,18 +35,7 @@
 - (void)aint;
 
 // Remaining properties
-@property(retain, nonatomic) NSNotification *_delayedNotification; // @synthesize _delayedNotification=__delayedNotification;
 @property(retain, nonatomic) NSNotificationCenter *_notificationCenter; // @synthesize _notificationCenter=__notificationCenter;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <PKTextInputWindowFirstResponderControllerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(retain, nonatomic) PKTextInputWindowFirstResponder *firstResponder; // @synthesize firstResponder=_firstResponder;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool paletteFloatingMode; // @synthesize paletteFloatingMode=_paletteFloatingMode;
-@property(readonly) Class superclass;
 
 @end
 

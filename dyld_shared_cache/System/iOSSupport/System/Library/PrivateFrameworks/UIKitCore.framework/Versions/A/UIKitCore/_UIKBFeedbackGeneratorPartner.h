@@ -8,12 +8,12 @@
 {
 }
 
++ (void)",C,N,V_payloadSize;
++ (_Bool)MPModelPropertyMovieStoreCanonicalID;
 + (void);
-+ (_Bool);
-+ (void);
-+ (id)iewController:(id)arg1 committedViewController: /* Error: Ran out of types for this method. */;
++ (id)commitPreviewViewController:(id)arg1 committedViewController: /* Error: Ran out of types for this method. */;
 + (id)ultraSmall;
-+ (_Bool)tMenuInteraction;
++ (_Bool)_UIEditMenuBridgedContextMenuInteraction;
 
 @end
 

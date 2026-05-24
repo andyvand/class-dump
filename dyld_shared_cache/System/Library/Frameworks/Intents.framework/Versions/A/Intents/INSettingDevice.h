@@ -9,38 +9,27 @@
 @interface INSettingDevice
 {
     NSString *_deviceName;
-    NSString *_deviceModel;
-    long long _deviceCategory;
 }
 
 + (id);
 + (_Bool);
 - (id);
-- (id);
+- (id)setDoublePressHandler:(id)arg1;
 - (id);
 - (unsigned long long);
-- (_Bool);
-- (void);
+- (_Bool)setAskToShareNetworksCache:(id)arg1;
+- (void)Now Activating RPCompanionLinkClient...;
 - (id);
 - (id);
-- (id)tanceValueAtIndex: /* Error: Ran out of types for this method. */;
-- (id)etInMinutes;
-- (void)nOptionsCollectionForSetTemporalSetting:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
+- (id)payloadDistanceValueAtIndex: /* Error: Ran out of types for this method. */;
+- (id)hasRelativeOffsetInMinutes;
+- (void)provideActionOptionsCollectionForSetTemporalSetting:searchTerm:withCompletion: /* Error: Ran out of types for this method. */;
 - (long long)R;
 - (id);
 - (id)dQÇÏ;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) long long deviceCategory; // @synthesize deviceCategory=_deviceCategory;
-@property(readonly, copy) NSString *deviceModel; // @synthesize deviceModel=_deviceModel;
 @property(readonly, copy) NSString *deviceName; // @synthesize deviceName=_deviceName;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

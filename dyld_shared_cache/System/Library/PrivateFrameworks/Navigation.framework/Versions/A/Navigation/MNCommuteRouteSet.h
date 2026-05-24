@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDate;
+@class NSArray;
 
 @interface MNCommuteRouteSet
 {
     void routes;
-    id _fetchDate;
-    id _internalInfo;
 }
 
 + (_Bool);
-- (id);
+- (id)WidgetBorderedButtonStyle;
 - (id);
 - (id);
 - (void);
+- (id)cDialogController showDynamicDialog:usingWindow:]_block_invoke /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (void)SLocationProviderWithCLParameters: /* Error: Ran out of types for this method. */;
+- (void)useGPSLocationProviderWithCLParameters: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) NSDate *fetchDate;
 @property(nonatomic, readonly) NSArray *routes;
 
 @end

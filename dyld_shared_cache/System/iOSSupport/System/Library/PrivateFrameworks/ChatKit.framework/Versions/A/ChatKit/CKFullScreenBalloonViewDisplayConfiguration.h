@@ -4,102 +4,61 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKMessagePartChatItem, UIColor, UIView;
-
 @interface CKFullScreenBalloonViewDisplayConfiguration
 {
     long long type;
-    _Bool shouldPresentTintViewBeforeScrolling;
-    _Bool shouldHideTapbackAttributionAndPicker;
-    _Bool shouldShowReplyButton;
-    _Bool shouldShowHighlightButton;
-    _Bool shouldAvoidAppCardAtInitialPresentation;
-    _Bool shouldReturnToStartingScrollOffset;
-    _Bool shouldShowStickers;
-    _Bool shouldDismissAppCardOnExit;
-    _Bool shouldDismissWithAppCard;
-    _Bool shouldPresentAsTapbackKeyboardInput;
-    _Bool shouldHideBalloonTail;
-    UIView *snapshotView;
-    double tintAlpha;
-    double tintRevealDuration;
-    double tintDismissDuration;
-    double darkModeTintAlpha;
-    double scrollDuration;
-    UIColor *tintViewBackgroundColor;
-    CKMessagePartChatItem *supplementaryLayoutChatItem;
-    void supplementaryLayoutContext;
 }
 
++ (id)G;
++ (id)teCGGSo0aB2IDCGSo17OS_dispatch_queueCG;
 + (id);
-+ (id);
-+ (id);
-- (id);
+- (id)14_G;
 - (double);
 - (double);
-- (id);
+- (id))u;
 - (id);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool)d;
+- (_Bool)e;
+- (_Bool)l;
+- (_Bool)t;
+- (_Bool)s;
+- (_Bool)t;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (void)t;
+- (void)t;
+- (void)e;
+- (void)*;
 - (void);
 - (void);
 - (void);
+- (void)t;
 - (void);
+- (void)x;
+- (void).;
+- (void)F;
 - (void);
+- (void)l;
+- (void)o;
+- (void)t;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)c;
+- (double)ticated with prompt {prompt:%@, result:%@}%s:%d /* Error: Ran out of types for this method. */;
 - (double);
-- (double);
-- (void);
+- (void);
 - (double);
 - (id);
-- (long long);
+- (long long)J
+;
 - (void);
-- (void)nTitle:(long long)arg1;
+- (void)setConversationTitle:(long long)arg1;
 - (void);
 - (id);
 
 // Remaining properties
-@property(nonatomic) double darkModeTintAlpha; // @synthesize darkModeTintAlpha;
-@property(nonatomic) double scrollDuration; // @synthesize scrollDuration;
-@property(nonatomic) _Bool shouldAvoidAppCardAtInitialPresentation; // @synthesize shouldAvoidAppCardAtInitialPresentation;
-@property(nonatomic) _Bool shouldDismissAppCardOnExit; // @synthesize shouldDismissAppCardOnExit;
-@property(nonatomic) _Bool shouldDismissWithAppCard; // @synthesize shouldDismissWithAppCard;
-@property(nonatomic) _Bool shouldHideBalloonTail; // @synthesize shouldHideBalloonTail;
-@property(nonatomic) _Bool shouldHideTapbackAttributionAndPicker; // @synthesize shouldHideTapbackAttributionAndPicker;
-@property(nonatomic) _Bool shouldPresentAsTapbackKeyboardInput; // @synthesize shouldPresentAsTapbackKeyboardInput;
-@property(nonatomic) _Bool shouldPresentTintViewBeforeScrolling; // @synthesize shouldPresentTintViewBeforeScrolling;
-@property(nonatomic) _Bool shouldReturnToStartingScrollOffset; // @synthesize shouldReturnToStartingScrollOffset;
-@property(nonatomic) _Bool shouldShowHighlightButton; // @synthesize shouldShowHighlightButton;
-@property(nonatomic) _Bool shouldShowReplyButton; // @synthesize shouldShowReplyButton;
-@property(nonatomic) _Bool shouldShowStickers; // @synthesize shouldShowStickers;
-@property(nonatomic, retain) UIView *snapshotView; // @synthesize snapshotView;
-@property(nonatomic, retain) CKMessagePartChatItem *supplementaryLayoutChatItem; // @synthesize supplementaryLayoutChatItem;
-@property(nonatomic, copy) id supplementaryLayoutContext;
-@property(nonatomic) double tintAlpha; // @synthesize tintAlpha;
-@property(nonatomic) double tintDismissDuration; // @synthesize tintDismissDuration;
-@property(nonatomic) double tintRevealDuration; // @synthesize tintRevealDuration;
-@property(nonatomic, retain) UIColor *tintViewBackgroundColor; // @synthesize tintViewBackgroundColor;
 @property(nonatomic) long long type; // @synthesize type;
 
 @end

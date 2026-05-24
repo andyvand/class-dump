@@ -7,9 +7,6 @@
 @interface ChatKit.SendMenuSortOrder
 {
     id version;
-    id isCustomized;
-    id favorites;
-    id moreApps;
 }
 
 @end

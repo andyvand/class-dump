@@ -4,22 +4,21 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, PBUnknownFields;
+@class PBUnknownFields;
 
 __attribute__((visibility("hidden")))
 @interface GEOPDResultRefinementView
 {
     PBUnknownFields *_unknownFields;
-    NSMutableArray *_sections;
 }
 
 - (id);
 - (void);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)!;
 - (_Bool);
 - (id)ensModel=fffffffff}16@0:(struct _NSZone *)arg1 8;
-- (id)e;
+- (id)_oldRouteHistoricTravelTime;
 - (id)¤ì î;
 - (void);
 

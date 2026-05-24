@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSString, NSURL;
+@class NSData;
 
 @interface WFWebResource
 {
     NSData *_data;
-    NSURL *_URL;
-    NSString *_MIMEType;
-    NSString *_textEncodingName;
-    NSString *_frameName;
 }
 
 + (id);
@@ -37,11 +33,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) NSString *MIMEType; // @synthesize MIMEType=_MIMEType;
-@property(readonly, nonatomic) NSURL *URL; // @synthesize URL=_URL;
 @property(readonly, nonatomic) NSData *data; // @synthesize data=_data;
-@property(readonly, nonatomic) NSString *frameName; // @synthesize frameName=_frameName;
-@property(readonly, nonatomic) NSString *textEncodingName; // @synthesize textEncodingName=_textEncodingName;
 
 @end
 

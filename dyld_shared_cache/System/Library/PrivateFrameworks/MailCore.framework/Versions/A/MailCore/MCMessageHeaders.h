@@ -4,15 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ECEncodedWordDecoder, NSArray, NSAttributedString, NSData, NSDate, NSNumber, NSString;
+@class NSNumber;
 
 @interface MCMessageHeaders
 {
     id _sender;
-    ECEncodedWordDecoder *_encodedWordDecoder;
-    unsigned long long _encodingHint;
-    NSNumber *_primitiveMessageIsFromMicrosoft;
-    NSData *_headerData;
 }
 
 + (void);
@@ -30,7 +26,7 @@
 + (id);
 + (_Bool);
 + (_Bool);
-+ (_Bool);
++ (_Bool);
 + (void);
 - (void);
 - (_Bool);
@@ -48,24 +44,24 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id)R	;
+- (id)Qq;
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -77,7 +73,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)kH;
 - (id);
 - (id);
 - (id);
@@ -89,26 +85,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *allHeaderKeys;
-@property(readonly, copy, nonatomic) NSAttributedString *attributedString;
-@property(readonly, copy, nonatomic) NSAttributedString *attributedStringForAllHeaders;
-@property(readonly, nonatomic) NSDate *dateReceived;
-@property(readonly, nonatomic) NSDate *dateSent;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSData *encodedHeaders;
-@property(readonly, nonatomic) unsigned long long encodingHint; // @synthesize encodingHint=_encodingHint;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSData *headerData; // @synthesize headerData=_headerData;
-@property(readonly, nonatomic) NSArray *listUnsubscribeCommands;
-@property(readonly, nonatomic) NSString *listUnsubscribePostContent;
-@property(readonly, copy, nonatomic) NSString *mailVersion;
-@property(readonly, nonatomic) _Bool messageIsFromMicrosoft;
 @property(retain) NSNumber *primitiveMessageIsFromMicrosoft; // @synthesize primitiveMessageIsFromMicrosoft=_primitiveMessageIsFromMicrosoft;
-@property(readonly) Class superclass;
 
 @end
 

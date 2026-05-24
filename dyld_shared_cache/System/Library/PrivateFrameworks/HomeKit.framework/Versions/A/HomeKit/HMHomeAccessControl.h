@@ -6,22 +6,9 @@
 
 #import <HomeKit/HMAccessControl.h>
 
-@class HMRestrictedGuestHomeAccessSettings, HMUserCameraAccess, HMUserPresenceAuthorization, HMUserPresenceCompute;
-
 @interface HMHomeAccessControl : HMAccessControl
 {
     _Bool _owner;
-    _Bool _administrator;
-    _Bool _accessAllowed;
-    _Bool _remoteAccessAllowed;
-    _Bool _announceAccessAllowed;
-    _Bool _restrictedGuest;
-    _Bool _restrictedGuestInAllowedPeriod;
-    HMUserPresenceAuthorization *_presenceAuthStatus;
-    HMUserPresenceCompute *_presenceComputeStatus;
-    HMUserCameraAccess *_camerasAccess;
-    HMRestrictedGuestHomeAccessSettings *_restrictedGuestAccessSettings;
-    unsigned long long _accessNotAllowedReasonCode;
 }
 
 - (void);
@@ -29,7 +16,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -55,28 +42,17 @@
 - (unsigned long long);
 - (void);
 - (_Bool);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
+- (_Bool)clarification;
+- (void)R;
 - (void)Ô§;
 - (_Bool)À`;
 
 // Remaining properties
-@property(getter=isAccessAllowed) _Bool accessAllowed; // @synthesize accessAllowed=_accessAllowed;
-@property(nonatomic) unsigned long long accessNotAllowedReasonCode; // @synthesize accessNotAllowedReasonCode=_accessNotAllowedReasonCode;
-@property(nonatomic, getter=isAdministrator) _Bool administrator; // @synthesize administrator=_administrator;
-@property(getter=isAnnounceAccessAllowed) _Bool announceAccessAllowed; // @synthesize announceAccessAllowed=_announceAccessAllowed;
-@property(retain, nonatomic) HMUserCameraAccess *camerasAccess; // @synthesize camerasAccess=_camerasAccess;
 @property(getter=isOwner) _Bool owner; // @synthesize owner=_owner;
-@property(retain, nonatomic) HMUserPresenceAuthorization *presenceAuthStatus; // @synthesize presenceAuthStatus=_presenceAuthStatus;
-@property(retain, nonatomic) HMUserPresenceCompute *presenceComputeStatus; // @synthesize presenceComputeStatus=_presenceComputeStatus;
-@property(getter=isRemoteAccessAllowed) _Bool remoteAccessAllowed; // @synthesize remoteAccessAllowed=_remoteAccessAllowed;
-@property(getter=isRestrictedGuest) _Bool restrictedGuest; // @synthesize restrictedGuest=_restrictedGuest;
-@property(retain, nonatomic) HMRestrictedGuestHomeAccessSettings *restrictedGuestAccessSettings; // @synthesize restrictedGuestAccessSettings=_restrictedGuestAccessSettings;
-@property(nonatomic, getter=isRestrictedGuestInAllowedPeriod) _Bool restrictedGuestInAllowedPeriod; // @synthesize restrictedGuestInAllowedPeriod=_restrictedGuestInAllowedPeriod;
 
 @end
 

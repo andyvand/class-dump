@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSMutableSet;
+@class NSMutableSet;
 
 @interface WFWhitelistSiteBuffer
 {
     NSMutableSet *_siteSet;
-    NSMutableArray *_siteBuffer;
-    unsigned long long maxSize;
 }
 
 - (void);
@@ -19,18 +17,16 @@
 - (void);
 - (_Bool);
 - (id);
-- (_Bool);
+- (_Bool)P;
 - (void);
 - (void);
 - (id);
 - (id);
 - (unsigned long long);
 - (unsigned long long);
-- (void);
+- (void);
 
 // Remaining properties
-@property unsigned long long maxSize;
-@property(retain) NSMutableArray *siteBuffer; // @synthesize siteBuffer=_siteBuffer;
 @property(retain) NSMutableSet *siteSet; // @synthesize siteSet=_siteSet;
 
 @end

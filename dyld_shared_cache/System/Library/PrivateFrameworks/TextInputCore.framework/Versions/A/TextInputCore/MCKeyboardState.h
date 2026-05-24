@@ -7,9 +7,6 @@
 @interface MCKeyboardState
 {
     _Bool _isSplitKeyboard;
-    _Bool _isFloatingKeyboard;
-    _Bool _isHardwareKeyboard;
-    long long _userInterfaceIdiom;
 }
 
 - (_Bool);
@@ -21,9 +18,6 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isFloatingKeyboard; // @synthesize isFloatingKeyboard=_isFloatingKeyboard;
-@property(readonly, nonatomic) _Bool isHardwareKeyboard; // @synthesize isHardwareKeyboard=_isHardwareKeyboard;
-@property(readonly, nonatomic) _Bool isSplitKeyboard; // @synthesize isSplitKeyboard=_isSplitKeyboard;
 @property(readonly, nonatomic) long long userInterfaceIdiom; // @synthesize userInterfaceIdiom=_userInterfaceIdiom;
 
 @end

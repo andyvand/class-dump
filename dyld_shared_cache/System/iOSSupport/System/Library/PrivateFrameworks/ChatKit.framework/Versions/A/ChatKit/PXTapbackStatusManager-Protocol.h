@@ -5,6 +5,10 @@
 //
 
 @protocol PXTapbackStatusManager
+- (_Bool)_processingBlock;
+
+@optional
+- (Class)ButtonDragDelegate>",W,N,V_dragDelegate;
 
 // Remaining properties
 @property(readonly, nonatomic) Class decorationViewClass;

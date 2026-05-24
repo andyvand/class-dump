@@ -4,40 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PODShowSettings
 {
     long long _playOrder;
-    long long _sortOrder;
-    long long _downloadAction;
-    long long _limitRule;
-    long long _removePlayedRule;
 }
 
 + (_Bool);
-- (long long);
+- (long long);
 - (long long);
 - (long long);
 - (id);
-- (long long);
+- (long long)*h>;
 - (id);
 - (void);
-- (long long);
+- (long long)h";
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) long long downloadAction; // @synthesize downloadAction=_downloadAction;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) long long limitRule; // @synthesize limitRule=_limitRule;
 @property(readonly, nonatomic) long long playOrder; // @synthesize playOrder=_playOrder;
-@property(readonly, nonatomic) long long removePlayedRule; // @synthesize removePlayedRule=_removePlayedRule;
-@property(readonly, nonatomic) long long sortOrder; // @synthesize sortOrder=_sortOrder;
-@property(readonly) Class superclass;
 
 @end
 

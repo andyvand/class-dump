@@ -12,8 +12,8 @@
 }
 
 - (void);
-- (id);
-- (_Bool);
+- (id)F;
+- (_Bool)_updateButtonTitleAttributes;
 - (void);
 
 // Remaining properties

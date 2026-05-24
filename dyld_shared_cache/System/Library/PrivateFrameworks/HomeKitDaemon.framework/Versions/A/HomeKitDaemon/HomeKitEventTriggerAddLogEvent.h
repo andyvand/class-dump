@@ -12,9 +12,9 @@ __attribute__((visibility("hidden")))
     HMDAnalyticsAddEventTriggerData *_analyticsData;
 }
 
-- (id);
+- (id)4;
 - (id)g up. (%@);
-- (void)MDPreviousAccountNotificationKey;
+- (void)HMDPreviousAccountNotificationKey;
 
 // Remaining properties
 @property(readonly, nonatomic) HMDAnalyticsAddEventTriggerData *analyticsData; // @synthesize analyticsData=_analyticsData;

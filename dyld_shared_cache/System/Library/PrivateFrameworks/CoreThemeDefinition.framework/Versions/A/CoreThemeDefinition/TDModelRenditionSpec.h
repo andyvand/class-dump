@@ -6,7 +6,7 @@
 
 #import <CoreThemeDefinition/TDRenditionSpec.h>
 
-@class NSSet, TDModelAsset;
+@class TDModelAsset;
 
 @interface TDModelRenditionSpec : TDRenditionSpec
 {
@@ -19,8 +19,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) TDModelAsset *asset; // @dynamic asset;
-@property(retain, nonatomic) NSSet *childRenditions; // @dynamic childRenditions;
-@property(nonatomic) int modelAssetIndex; // @dynamic modelAssetIndex;
 
 @end
 

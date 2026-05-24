@@ -4,26 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface AWDSymptomsDiagnosticIncidentEvent
 {
     unsigned long long _timestamp;
-    unsigned long long _value;
-    NSString *_detectedName;
-    NSString *_effectiveName;
-    NSString *_name;
-    int _state;
-    int _status;
-    int _type;
-    struct {
-        unsigned int timestamp:1;
-        unsigned int value:1;
-        unsigned int state:1;
-        unsigned int status:1;
-        unsigned int type:1;
-    } _has;
 }
 
 - (void);
@@ -36,19 +20,19 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (id);
-- (_Bool);
+- (_Bool);
 - (unsigned long long);
 - (unsigned long long);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)N,V_currentAccessControlContext;
 - (int);
 - (int);
-- (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)U/Library/Caches/com.apple.xbs/TemporaryDirectory.IgM6aQ/Sources/iapd/common/SharedFunctions.m;
+- (_Bool)ls alternateRoutes];
+- (void)advanceToNextLeg];
 - (void);
 - (void);
 - (void);
@@ -59,7 +43,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (int);
+- (int)Q16^B24;
 - (id);
 - (_Bool);
 - (void);
@@ -73,22 +57,7 @@ __attribute__((visibility("hidden")))
 - (id);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *detectedName; // @synthesize detectedName=_detectedName;
-@property(retain, nonatomic) NSString *effectiveName; // @synthesize effectiveName=_effectiveName;
-@property(readonly, nonatomic) _Bool hasDetectedName;
-@property(readonly, nonatomic) _Bool hasEffectiveName;
-@property(readonly, nonatomic) _Bool hasName;
-@property(nonatomic) _Bool hasState;
-@property(nonatomic) _Bool hasStatus;
 @property(nonatomic) _Bool hasTimestamp;
-@property(nonatomic) _Bool hasType;
-@property(nonatomic) _Bool hasValue;
-@property(retain, nonatomic) NSString *name; // @synthesize name=_name;
-@property(nonatomic) int state; // @synthesize state=_state;
-@property(nonatomic) int status; // @synthesize status=_status;
-@property(nonatomic) unsigned long long timestamp; // @synthesize timestamp=_timestamp;
-@property(nonatomic) int type; // @synthesize type=_type;
-@property(nonatomic) unsigned long long value; // @synthesize value=_value;
 
 @end
 

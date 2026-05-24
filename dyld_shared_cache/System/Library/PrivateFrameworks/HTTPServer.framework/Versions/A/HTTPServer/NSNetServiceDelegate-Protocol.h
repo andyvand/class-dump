@@ -5,5 +5,13 @@
 //
 
 @protocol NSNetServiceDelegate
+
+@optional
+- (void);
+- (void)N5boost12interprocess9ipcdetail8CtorArgNINS_9container6vectorINS4_IjNS0_9allocatorIjNS0_15segment_managerIcNS0_15rbtree_best_fitINS0_17null_mutex_familyENS0_10offset_ptrIvlmLm0EEELm0EEENS0_10iset_indexEEEEEvEENS5_ISF_SD_EEvEELb0EJRKPSD_EEE;
+- (void)Lm0EEENS2_10iset_indexEEEEEvEE;
+- (void)milyENS2_10offset_ptrIvlmLm0EEELm0EEENS2_10iset_indexEEEEEvEE;
+- (void)_15rbtree_best_fitINS2_17null_mutex_familyENS2_10offset_ptrIvlmLm0EEELm0EEENS2_10iset_indexEEEEEvEE;
+- (void)N5boost9container6vectorIdNS_12interprocess9allocatorIdNS2_15segment_managerIcNS2_15rbtree_best_fitINS2_17null_mutex_familyENS2_10offset_ptrIvlmLm0EEELm0EEENS2_10iset_indexEEEEEvEE;
 @end
 

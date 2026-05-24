@@ -9,21 +9,19 @@
 @interface TUContactImageResponse
 {
     NSData *_imageData;
-    long long _imageType;
 }
 
 + (_Bool);
 - (id);
 - (id);
-- (id);
+- (id)tb;
 - (long long);
 - (id);
 - (void);
-- (void)ceForContacts;
+- (void)serviceForContacts;
 
 // Remaining properties
 @property(readonly, nonatomic) NSData *imageData; // @synthesize imageData=_imageData;
-@property(readonly, nonatomic) long long imageType; // @synthesize imageType=_imageType;
 
 @end
 

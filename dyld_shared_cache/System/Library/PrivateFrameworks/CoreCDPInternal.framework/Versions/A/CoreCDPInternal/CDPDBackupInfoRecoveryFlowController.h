@@ -7,33 +7,29 @@
 #import <CoreCDPInternal/CDPDRecoveryFlowController.h>
 
 @class NSArray;
-@protocol CDPDBackupRecoveryErrorProvider, CDPDBackupRecoveryResultsParser;
+@protocol CDPDBackupRecoveryResultsParser;
 
 @interface CDPDBackupInfoRecoveryFlowController : CDPDRecoveryFlowController
 {
     id <CDPDBackupRecoveryResultsParser> _resultParser;
-    id <CDPDBackupRecoveryErrorProvider> _errorProvider;
-    NSArray *_recoveryRecords;
 }
 
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (id);
-- (id);
+- (void)SnapshotRequest;
+- (void)SiriSuggestionsStartPageReadingListDataSource;
+- (void)WBSSettingsSyncEngineAccess;
+- (_Bool)SandboxMigrationController;
+- (void)SafeAutoFillChoicesPopUpButtonViewController;
+- (void)SFWebExtensionContentBlockerManagerDelegate;
+- (id)SafariWBSQuickWebsiteSearchProviderExtras;
+- (id)PurgeableItem;
+- (void)PerSitePreferenceSeparatorItemViewController;
+- (void)";
+- (id)HistoryOperation;
+- (id)CloudTabCompletionMatch;
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) id <CDPDBackupRecoveryErrorProvider> errorProvider; // @synthesize errorProvider=_errorProvider;
 @property(retain, nonatomic) NSArray *recoveryRecords; // @synthesize recoveryRecords=_recoveryRecords;
-@property(retain, nonatomic) id <CDPDBackupRecoveryResultsParser> resultParser; // @synthesize resultParser=_resultParser;
 
 @end
 

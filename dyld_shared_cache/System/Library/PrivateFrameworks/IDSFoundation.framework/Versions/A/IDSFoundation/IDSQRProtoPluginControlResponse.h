@@ -4,16 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface IDSQRProtoPluginControlResponse
 {
     unsigned long long _pluginParticipantId;
-    NSString *_pluginServerCertHostname;
-    NSString *_pluginServerCertOid;
-    struct {
-        unsigned int pluginParticipantId:1;
-    } _has;
 }
 
 - (void);
@@ -31,19 +24,14 @@
 - (void);
 - (unsigned long long);
 - (_Bool);
-- (_Bool);
-- (void);
+- (_Bool)00@0:(id)arg1 8c16^{BluetoothDeviceAddress=[6C]}20{?=[22C]}28{?=[22C]}50c72C76C80*84*92;
+- (void)ingDeriveKeyForIdentifier:(id)arg1 keyLength:] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (void)CHDataList:list %p destroyed. /* Error: Ran out of types for this method. */;
 
 // Remaining properties
 @property(nonatomic) _Bool hasPluginParticipantId;
-@property(readonly, nonatomic) _Bool hasPluginServerCertHostname;
-@property(readonly, nonatomic) _Bool hasPluginServerCertOid;
-@property(nonatomic) unsigned long long pluginParticipantId; // @synthesize pluginParticipantId=_pluginParticipantId;
-@property(retain, nonatomic) NSString *pluginServerCertHostname; // @synthesize pluginServerCertHostname=_pluginServerCertHostname;
-@property(retain, nonatomic) NSString *pluginServerCertOid; // @synthesize pluginServerCertOid=_pluginServerCertOid;
 
 @end
 

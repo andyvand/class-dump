@@ -11,7 +11,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (struct c3dPhysicsField *);
+- (struct c3dPhysicsField *);
 - (void);
 
 @end

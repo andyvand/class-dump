@@ -11,7 +11,7 @@
 }
 
 + (id);
-+ (const unsigned int *);
++ (const unsigned int *);
 - (id);
 
 @end

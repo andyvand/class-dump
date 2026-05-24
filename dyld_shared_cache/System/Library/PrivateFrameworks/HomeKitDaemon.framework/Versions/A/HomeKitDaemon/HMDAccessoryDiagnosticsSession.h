@@ -6,31 +6,24 @@
 
 #import <HomeKitDaemon/HMDAccessoryDiagnosticsSessionInternal.h>
 
-@class HMDAccessoryDataStreamAdapter, HMDAccessoryDiagnosticsSettings, NSDictionary, NSFileHandle, NSNumber, NSString;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDAccessoryDiagnosticsSession : HMDAccessoryDiagnosticsSessionInternal
 {
     _Bool _readyForDataTransfer;
-    NSString *_reason;
-    HMDAccessoryDiagnosticsSettings *_settings;
-    HMDAccessoryDataStreamAdapter *_dataStream;
-    CDUnknownBlockType _pendingCompletionHandler;
-    NSDictionary *_urlParameters;
-    NSNumber *_expectedDataSequenceNumber;
-    NSFileHandle *_fileHandle;
 }
 
-- (void);
+- (void){;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (CDUnknownBlockType);
+- (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -39,10 +32,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)stateNodesFromAddressNodes: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
-- (id);
+- (void)performRequests:onCIImage:withOrientation:andIdentifier:completionHandler: /* Error: Ran out of types for this method. */;
+- (id)olRevokedByPresenterWithError error %s;
 - (id);
 - (id);
 - (_Bool)Dk;
@@ -54,21 +47,7 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain) HMDAccessoryDataStreamAdapter *dataStream; // @synthesize dataStream=_dataStream;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(retain) NSNumber *expectedDataSequenceNumber; // @synthesize expectedDataSequenceNumber=_expectedDataSequenceNumber;
-@property(retain) NSFileHandle *fileHandle; // @synthesize fileHandle=_fileHandle;
-@property(readonly) unsigned long long hash;
-@property(copy) CDUnknownBlockType pendingCompletionHandler; // @synthesize pendingCompletionHandler=_pendingCompletionHandler;
-@property _Bool readyForDataTransfer; // @synthesize readyForDataTransfer=_readyForDataTransfer;
 @property(readonly) NSString *reason; // @synthesize reason=_reason;
-@property(readonly) HMDAccessoryDiagnosticsSettings *settings; // @synthesize settings=_settings;
-@property(readonly) Class superclass;
-@property(copy) NSDictionary *urlParameters; // @synthesize urlParameters=_urlParameters;
 
 @end
 

@@ -4,18 +4,17 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSPersistentContainer, NSString, NSURL;
+@class NSPersistentContainer;
 
 @interface PDSCDCacheContainer
 {
     NSPersistentContainer *_container;
-    NSURL *_containingPath;
 }
 
-- (_Bool);
+- (_Bool)cancelAllHandlers;
+- (id)blockEmailAddress:(id)arg1;
 - (id);
-- (id);
-- (id);
+- (id)QueryIterator.m;
 - (id);
 - (_Bool);
 - (id);
@@ -27,8 +26,8 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (_Bool);
+- (_Bool)hasAffectedRecordType;
+- (_Bool)countAssetCacheItemsWithDatabaseScope:(id)arg1 completionHandler:(id)arg2;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -39,7 +38,7 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)G;
 - (_Bool);
 - (void);
 - (id);
@@ -61,14 +60,6 @@
 
 // Remaining properties
 @property(nonatomic) __weak NSPersistentContainer *container; // @synthesize container=_container;
-@property(retain, nonatomic) NSURL *containingPath; // @synthesize containingPath=_containingPath;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

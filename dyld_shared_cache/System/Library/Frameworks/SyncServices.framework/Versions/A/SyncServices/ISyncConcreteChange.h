@@ -6,16 +6,9 @@
 
 #import <SyncServices/ISyncChange.h>
 
-@class ISDChange, NSArray, NSDictionary, NSString;
-
 @interface ISyncConcreteChange : ISyncChange
 {
     int _type;
-    NSString *_recordId;
-    NSDictionary *_record;
-    NSArray *_changes;
-    int _clientNumber;
-    ISDChange *_minglerChange;
 }
 
 - (void);
@@ -23,14 +16,14 @@
 - (int);
 - (void);
 - (void);
+- (id)Z;
 - (id);
 - (id);
 - (id);
+- (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void);
 - (int);
 - (void);
 - (id);

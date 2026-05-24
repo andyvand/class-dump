@@ -5,5 +5,8 @@
 //
 
 @protocol SidebarContentViewController
+
+@optional
+- (void);
 @end
 

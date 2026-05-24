@@ -5,5 +5,8 @@
 //
 
 @protocol CHSWidgetRelevanceServiceObserver
+
+@optional
+- (void)9;
 @end
 

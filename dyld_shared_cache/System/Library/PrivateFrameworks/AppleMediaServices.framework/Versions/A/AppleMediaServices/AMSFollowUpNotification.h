@@ -4,26 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMSFollowUpAction, NSSet, NSString;
+@class AMSFollowUpAction, NSString;
 
 @interface AMSFollowUpNotification
 {
     NSString *_informativeText;
-    NSString *_title;
-    AMSFollowUpAction *_activateAction;
-    NSSet *_options;
 }
 
 + (id);
-+ (id);
++ (id)`;
 - (id);
 - (id);
 - (void);
 - (void);
 - (id);
 - (id);
-- (id);
-- (void);
+- (id);
+- (void);
 - (void);
 - (id);
 - (id)y:%{public}@) %{public}@ /* Error: Ran out of types for this method. */;
@@ -31,9 +28,6 @@
 
 // Remaining properties
 @property(retain) AMSFollowUpAction *activateAction; // @synthesize activateAction=_activateAction;
-@property(retain) NSString *informativeText; // @synthesize informativeText=_informativeText;
-@property(retain) NSSet *options; // @synthesize options=_options;
-@property(retain) NSString *title; // @synthesize title=_title;
 
 @end
 

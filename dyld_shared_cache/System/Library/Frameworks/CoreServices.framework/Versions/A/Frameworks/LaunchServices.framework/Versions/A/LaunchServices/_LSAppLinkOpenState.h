@@ -4,20 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, NSXPCConnection, _LSOpenConfiguration;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface _LSAppLinkOpenState
 {
     struct optional<audit_token_t> _auditToken;
-    NSXPCConnection *_XPCConnection;
-    _Bool _includeLinksForCallingApplication;
-    NSURL *_URL;
-    NSString *_bundleIdentifier;
-    _LSOpenConfiguration *_openConfiguration;
 }
 
-+ (_Bool);
++ (_Bool)rawable>"16@0:8 /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id);
@@ -27,7 +22,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (const CDStruct_4c969caf *);
-- (id);
+- (id)H ;
 - (void);
 - (void);
 - (id);
@@ -39,11 +34,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy) NSURL *URL; // @synthesize URL=_URL;
-@property(retain, nonatomic) NSXPCConnection *XPCConnection;
-@property(nonatomic) const CDStruct_4c969caf *auditToken;
-@property(copy) NSString *bundleIdentifier; // @synthesize bundleIdentifier=_bundleIdentifier;
-@property _Bool includeLinksForCallingApplication; // @synthesize includeLinksForCallingApplication=_includeLinksForCallingApplication;
-@property(retain) _LSOpenConfiguration *openConfiguration; // @synthesize openConfiguration=_openConfiguration;
 
 @end
 

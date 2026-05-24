@@ -4,49 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTEyeSkinningDescriptor, AVTPhysicsController, AVTPresentationConfiguration, AVTPupilReflectionCorrectionDescriptor, CAAnimation, NSDictionary, NSMutableArray, NSString, VFXAnimationPlayer, VFXNode;
+@class NSDictionary, VFXNode;
 
 @interface AVTAvatar
 {
     VFXNode *_avatarNode;
-    VFXNode *_skeleton;
-    VFXNode *_headNode;
-    VFXNode *_leftEye;
-    VFXNode *_rightEye;
-    VFXNode *_neckNode;
-    VFXNode *_rootJointNode;
-    CDStruct_8932552d *_morphInfoFromARKitBlendShapeIndex;
-    CDStruct_8932552d *_friendlyPoseMorphInfos;
-    unsigned long long _friendlyPoseMorphInfoCount;
-    struct {
-        float morphWeight;
-        _Bool isEnabled;
-    } _friendlyPoseMorphInfoProxy;
-    AVTPresentationConfiguration *_presentationConfiguration;
-    VFXNode *_portalPresentationConfigurationNode;
-    int _transitionCount;
-    _Bool _optimizedForSnapshot;
-    AVTPhysicsController *_physicsController;
-    NSMutableArray *_dynamics;
-    NSMutableArray *_morpherDrivenMaterialDescriptors;
-    AVTPupilReflectionCorrectionDescriptor *_pupilReflectionCorrectionDescriptor;
-    AVTEyeSkinningDescriptor *_eyeSkinningDescriptor;
-    id _arOffset;
-    float _arScale;
-    double _physicsScaleFactor;
-    double _lastRenderTime;
-    CAAnimation *_bakedAnimation;
-    VFXAnimationPlayer *_bakedAnimationPlayer_lazy;
-    struct os_unfair_lock_s _didUpdateAtTimeLock;
-    NSMutableArray *_didUpdateAtTimeCallbackItems;
-    NSDictionary *_specializationSettings;
 }
 
 + (void);
 + (_Bool);
 + (id);
 + (id);
-+ (id);
++ (id)#;
 + (struct);
 + (_Bool);
 - (void);
@@ -62,23 +31,23 @@
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id)";
 - (void);
 - (void);
 - (void);
@@ -150,39 +119,23 @@
 - (float);
 - (void);
 - (id);
-- (void);
+- (void)indexing_analytics_message_donations_identified;
 - (id);
 - (void);
 - (id);
 - (id);
-- (_Bool);
+- (_Bool);
 - (void);
-- (void);
+- (void)y list at %@:(unsigned long long)arg1 %@;
 - (void);
 - (float);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 
 // Remaining properties
-@property(nonatomic) _Bool arMode;
-@property(readonly) VFXNode *avatarNode;
-@property(readonly) VFXNode *cameraNode;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) VFXNode *headNode;
-@property(readonly) _Bool isTransitioning;
-@property(readonly) VFXNode *lightingNode;
-@property(readonly) VFXNode *neckNode;
-@property(nonatomic) _Bool optimizeForSnapshot;
-@property(readonly) VFXNode *rootJointNode;
 @property(readonly, nonatomic) NSDictionary *specializationSettings; // @synthesize specializationSettings=_specializationSettings;
-@property(readonly) Class superclass;
 
 @end
 

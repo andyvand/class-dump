@@ -6,25 +6,17 @@
 
 #import <SiriInstrumentation/SISchemaTopLevelUnionType.h>
 
-@class NSData, READSchemaREADClientEventMetadata, READSchemaREADPlaybackSessionContext, READSchemaREADRequestContext, READSchemaREADRequestPreprocessingContext, SISchemaInstrumentationMessage;
+@class READSchemaREADClientEventMetadata, SISchemaInstrumentationMessage;
 
 @interface READSchemaREADClientEvent : SISchemaTopLevelUnionType
 {
     READSchemaREADClientEventMetadata *_eventMetadata;
-    READSchemaREADRequestContext *_readThisRequestContext;
-    READSchemaREADRequestPreprocessingContext *_readsThisRequestPreprocessingContext;
-    READSchemaREADPlaybackSessionContext *_playbackSessionContext;
-    _Bool _hasEventMetadata;
-    _Bool _hasReadThisRequestContext;
-    _Bool _hasReadsThisRequestPreprocessingContext;
-    _Bool _hasPlaybackSessionContext;
-    unsigned long long _whichEvent_Type;
 }
 
 + (int);
 + (id);
 - (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -36,44 +28,34 @@
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)S�;
 - (void);
 - (_Bool);
 - (void);
-- (id);
+- (id)鍹#;
 - (id);
 - (int);
 - (id);
 - (void);
-- (unsigned long long);
+- (unsigned long long)AppStoreDaemon/Libraries/AppStoreDaemon/Stubs/ASDSoftwareUpdateMetrics_macOS.m:28 :Not supported on macOS /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool);
+- (_Bool)lStatement *);
 - (id);
 - (id);
 - (id){?="major"b1"minor"b1"patch"b1};
-- (unsigned long long);
-- (id)videoTitle;
+- (unsigned long long)deleteNextTurnInvocationSource;
+- (id)_videoTitle;
 - (id);
 - (int)83;
-- (void)EINFERENCECORE_PROMPTTGPIPELINE_INTERNALERROR;
+- (void)GMSERRORDOMAIN_INFERENCEERROR_INFERENCEFAILED_TIEINFERENCECORE_PROMPTTGPIPELINE_INTERNALERROR;
 
 // Remaining properties
-@property(retain, nonatomic) READSchemaREADClientEventMetadata *eventMetadata; // @synthesize eventMetadata=_eventMetadata;
-@property(nonatomic) _Bool hasEventMetadata; // @synthesize hasEventMetadata=_hasEventMetadata;
-@property(nonatomic) _Bool hasPlaybackSessionContext; // @synthesize hasPlaybackSessionContext=_hasPlaybackSessionContext;
-@property(nonatomic) _Bool hasReadThisRequestContext; // @synthesize hasReadThisRequestContext=_hasReadThisRequestContext;
-@property(nonatomic) _Bool hasReadsThisRequestPreprocessingContext; // @synthesize hasReadsThisRequestPreprocessingContext=_hasReadsThisRequestPreprocessingContext;
 @property(readonly, nonatomic) SISchemaInstrumentationMessage *innerEvent;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(retain, nonatomic) READSchemaREADPlaybackSessionContext *playbackSessionContext; // @synthesize playbackSessionContext=_playbackSessionContext;
-@property(retain, nonatomic) READSchemaREADRequestContext *readThisRequestContext; // @synthesize readThisRequestContext=_readThisRequestContext;
-@property(retain, nonatomic) READSchemaREADRequestPreprocessingContext *readsThisRequestPreprocessingContext; // @synthesize readsThisRequestPreprocessingContext=_readsThisRequestPreprocessingContext;
-@property(readonly, nonatomic) unsigned long long whichEvent_Type; // @synthesize whichEvent_Type=_whichEvent_Type;
 
 @end
 

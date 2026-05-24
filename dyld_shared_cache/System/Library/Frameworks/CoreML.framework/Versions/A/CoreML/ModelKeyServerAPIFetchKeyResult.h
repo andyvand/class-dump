@@ -4,48 +4,38 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class ModelKeyServerAPIRawKey, ModelKeyServerAPISignedKey, NSString;
-
 __attribute__((visibility("hidden")))
 @interface ModelKeyServerAPIFetchKeyResult
 {
     int _key;
-    NSString *_keyId;
-    NSString *_modelName;
-    ModelKeyServerAPIRawKey *_rawKey;
-    ModelKeyServerAPISignedKey *_signedKey;
-    NSString *_teamId;
-    struct {
-        unsigned int key:1;
-    } _has;
 }
 
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (id);
+- (id)rame).;
+- (void)set:(id)arg1 scratchBuffer:scratchBufferOffset:gpuResourceID:accelerationStructureUniqueIdentifier:] /* Error: Ran out of types for this method. */;
+- (void)AH and BinnedSpatialSAH split heuristics;
+- (void)dispatchBinsWideKernel;
+- (void)extractMTLGenericBVHInnerNodesKernel;
+- (id)at index %u is not within the range [0,1).;
+- (id)ences a buffer at index %lu that has no stride.;
+- (id)tribute at index %d references a buffer at index %lu that has no stride.;
 - (_Bool);
-- (_Bool);
+- (_Bool)=;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (int);
-- (id);
+- (id)_screenshare;
 - (void);
 - (void);
-- (void);
-- (unsigned long long);
-- (_Bool);
+- (void);
+- (unsigned long long);
+- (_Bool);
 - (int);
-- (_Bool);
+- (_Bool)!;
 - (void);
 - (id);
-- (id);
+- (id);
 - (id);
 - (_Bool)å`æðæ;
 - (void);
@@ -54,18 +44,7 @@ __attribute__((visibility("hidden")))
 - (void)@;
 
 // Remaining properties
-@property(nonatomic) _Bool hasKey;
 @property(readonly, nonatomic) _Bool hasKeyId;
-@property(readonly, nonatomic) _Bool hasModelName;
-@property(readonly, nonatomic) _Bool hasRawKey;
-@property(readonly, nonatomic) _Bool hasSignedKey;
-@property(readonly, nonatomic) _Bool hasTeamId;
-@property(nonatomic) int key; // @synthesize key=_key;
-@property(retain, nonatomic) NSString *keyId; // @synthesize keyId=_keyId;
-@property(retain, nonatomic) NSString *modelName; // @synthesize modelName=_modelName;
-@property(retain, nonatomic) ModelKeyServerAPIRawKey *rawKey; // @synthesize rawKey=_rawKey;
-@property(retain, nonatomic) ModelKeyServerAPISignedKey *signedKey; // @synthesize signedKey=_signedKey;
-@property(retain, nonatomic) NSString *teamId; // @synthesize teamId=_teamId;
 
 @end
 

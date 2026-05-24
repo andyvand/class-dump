@@ -4,15 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface TSUSharedLocale
 {
     struct __CFLocale *mCurrentLocale;
-    NSArray *mObserverObjects;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id)ÑÏ1Â0@ù
 × ;
@@ -22,7 +19,7 @@
 - (oneway void);
 - (id);
 - (id);
-- (id);
+- (id)userBundleSubscriptionContextData;
 - (id);
 - (struct __CFLocale *)/utility/sf/SFUZipArchiveOutputStream.m;
 

@@ -8,9 +8,6 @@ __attribute__((visibility("hidden")))
 @interface PXPhotoKitSocialGroupActionManager
 {
     id socialGroups;
-    id photoLibrary;
-    id primaryActionTypes;
-    id internalActionTypes;
 }
 
 - (id);
@@ -18,10 +15,10 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (_Bool);
 - (id);
-- (id)talChangeDetailsFromIndexPath:(id)arg1;
+- (id)indexPathAfterRevertingIncrementalChangeDetailsFromIndexPath:(id)arg1;
 - (id)side -performChanges:(id)arg1 or _updateIfNeeded;
 - (void)Å: /* Error: Ran out of types for this method. */;
 

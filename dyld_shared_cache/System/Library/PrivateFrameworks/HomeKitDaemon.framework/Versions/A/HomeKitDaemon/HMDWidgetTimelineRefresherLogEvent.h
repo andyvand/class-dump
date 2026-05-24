@@ -10,17 +10,15 @@ __attribute__((visibility("hidden")))
 @interface HMDWidgetTimelineRefresherLogEvent
 {
     NSString *_kind;
-    NSString *_reason;
 }
 
-- (id);
+- (id)6;
 - (id);
 - (id)blic}@Storing removed current accessory uuid into user defaults %@;
 - (void)V14,1;
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *kind; // @synthesize kind=_kind;
-@property(readonly, copy, nonatomic) NSString *reason; // @synthesize reason=_reason;
 
 @end
 

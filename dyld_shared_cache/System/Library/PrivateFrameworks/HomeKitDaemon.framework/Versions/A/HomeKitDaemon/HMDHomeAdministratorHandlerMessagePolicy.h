@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-- (id)ta:(struct _NSZone *)arg1 error: /* Error: Ran out of types for this method. */;
+- (id)initWithDictionary:(struct _NSZone *)arg1 hapMetadata:error: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -6,7 +6,7 @@
 
 #import <MediaPlayer/MPModelObject.h>
 
-@class MPModelFileAsset, MPModelPlaybackPosition, MPModelStoreAsset, MPModelTVSeason, MPModelTVShow, NSDate, NSString;
+@class NSString;
 
 @interface MPModelTVEpisode : MPModelObject
 {
@@ -17,34 +17,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)16;
 
 // Remaining properties
-@property(copy, nonatomic) CDUnknownBlockType artworkCatalogBlock; // @dynamic artworkCatalogBlock;
-@property(copy, nonatomic) NSString *descriptionText; // @dynamic descriptionText;
-@property(readonly, copy, nonatomic) NSDate *downloadedDate; // @dynamic downloadedDate;
-@property(nonatomic) double duration; // @dynamic duration;
-@property(nonatomic) long long episodeNumber; // @dynamic episodeNumber;
-@property(nonatomic) long long episodeType; // @dynamic episodeType;
-@property(copy, nonatomic) NSString *episodeTypeDisplayName; // @dynamic episodeTypeDisplayName;
-@property(nonatomic) long long explicitRating; // @dynamic explicitRating;
-@property(nonatomic) _Bool hasCloudSyncSource; // @dynamic hasCloudSyncSource;
-@property(nonatomic) unsigned long long keepLocalConstraints; // @dynamic keepLocalConstraints;
-@property(nonatomic) long long keepLocalEnableState; // @dynamic keepLocalEnableState;
-@property(nonatomic) long long keepLocalManagedStatus; // @dynamic keepLocalManagedStatus;
-@property(nonatomic) unsigned long long keepLocalManagedStatusReason; // @dynamic keepLocalManagedStatusReason;
-@property(readonly, copy, nonatomic) NSDate *lastDevicePlaybackDate; // @dynamic lastDevicePlaybackDate;
-@property(nonatomic, getter=isLibraryAddEligible) _Bool libraryAddEligible; // @dynamic libraryAddEligible;
-@property(nonatomic, getter=isLibraryAdded) _Bool libraryAdded; // @dynamic libraryAdded;
-@property(copy, nonatomic) NSDate *libraryAddedDate; // @dynamic libraryAddedDate;
-@property(retain, nonatomic) MPModelFileAsset *localFileAsset; // @dynamic localFileAsset;
-@property(nonatomic, getter=isMusicShow) _Bool musicShow; // @dynamic musicShow;
-@property(retain, nonatomic) MPModelPlaybackPosition *playbackPosition; // @dynamic playbackPosition;
-@property(copy, nonatomic) NSDate *releaseDate; // @dynamic releaseDate;
-@property(retain, nonatomic) MPModelTVSeason *season; // @dynamic season;
-@property(retain, nonatomic) MPModelTVShow *show; // @dynamic show;
-@property(retain, nonatomic) MPModelStoreAsset *storeAsset; // @dynamic storeAsset;
-@property(copy, nonatomic) NSString *storeCanonicalID; // @dynamic storeCanonicalID;
 @property(copy, nonatomic) NSString *title; // @dynamic title;
 
 @end

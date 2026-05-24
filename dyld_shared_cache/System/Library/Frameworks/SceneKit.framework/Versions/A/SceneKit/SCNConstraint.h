@@ -4,17 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableDictionary, NSString, SCNOrderedDictionary;
-
 @interface SCNConstraint
 {
     struct __C3DConstraint *_constraintRef;
-    struct os_unfair_lock_s _animationsLock;
-    SCNOrderedDictionary *_animations;
-    NSMutableDictionary *_bindings;
-    _Bool _enabled;
-    _Bool _incremental;
-    double _influenceFactor;
 }
 
 + (_Bool);
@@ -35,7 +27,7 @@
 - (id);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool);
@@ -49,23 +41,23 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
-- (id);
+- (id)InstallActions;
+- (id)ncludeWatchAppPlaceholders;
 - (void);
 - (void);
-- (void);
+- (void)(;
 - (id);
 - (id);
 - (id);
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void),R,C,N,V_databasePath;
 - (id);
 - (void);
 - (id);
 - (void);
-- (void)Array:(id)arg1;
+- (void)setWithArray:(id)arg1;
 - (id)</dict>
 			<key>draw</key>
 			<string>DRAW_SCENE</string>
@@ -198,17 +190,7 @@
 ;
 
 // Remaining properties
-@property(readonly) NSArray *animationKeys;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(nonatomic, getter=isEnabled) _Bool enabled;
-@property(readonly) unsigned long long hash;
-@property(nonatomic, getter=isIncremental) _Bool incremental;
-@property(nonatomic) double influenceFactor;
-@property(readonly) Class superclass;
 
 @end
 

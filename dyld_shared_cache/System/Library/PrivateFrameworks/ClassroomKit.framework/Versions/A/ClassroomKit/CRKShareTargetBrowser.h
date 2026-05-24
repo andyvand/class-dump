@@ -4,20 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CATOperationQueue, CATTaskClient, CRKShareTargetBrowserTransportFactory, CRKShareTargetCollector, NSObject, NSString;
-@protocol CRKShareTargetBrowserDelegate, OS_dispatch_queue;
+@class CATTaskClient, NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CRKShareTargetBrowser
 {
     NSObject<OS_dispatch_queue> *mDelegateQueue;
-    id <CRKShareTargetBrowserDelegate> mDelegate;
-    CATOperationQueue *mOperationQueue;
-    _Bool mBrowsing;
-    _Bool mIsValid;
-    CATTaskClient *_studentClient;
-    CATTaskClient *_instructorClient;
-    CRKShareTargetBrowserTransportFactory *_transportFactory;
-    CRKShareTargetCollector *_shareTargetCollector;
 }
 
 - (void);
@@ -28,9 +20,9 @@
 - (void);
 - (void);
 - (id);
+- (void);
 - (void);
-- (void);
-- (id);
+- (id);
 - (_Bool);
 - (id);
 - (void);
@@ -42,31 +34,22 @@
 - (void);
 - (void);
 - (id);
+- (void);
+- (void);
+- (void)h;
+- (void);
+- (void)setCallScreeningDurationListener:(id)arg1;
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)s:'0x%llx'
+ /* Error: Ran out of types for this method. */;
 - (id);
 - (void);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) CATTaskClient *instructorClient; // @synthesize instructorClient=_instructorClient;
-@property(readonly, nonatomic) CRKShareTargetCollector *shareTargetCollector; // @synthesize shareTargetCollector=_shareTargetCollector;
 @property(retain, nonatomic) CATTaskClient *studentClient; // @synthesize studentClient=_studentClient;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) CRKShareTargetBrowserTransportFactory *transportFactory; // @synthesize transportFactory=_transportFactory;
 
 @end
 

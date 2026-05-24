@@ -12,8 +12,8 @@
 
 - (id);
 - (long long);
-- (id);
-- (id)rceCacheManager;
+- (id)retainResponseForURLString:allowPreloading: /* Error: Ran out of types for this method. */;
+- (id)PGMusicSourceCacheManager;
 
 @end
 

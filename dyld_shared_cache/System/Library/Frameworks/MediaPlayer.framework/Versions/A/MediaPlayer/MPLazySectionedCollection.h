@@ -12,9 +12,6 @@
 @interface MPLazySectionedCollection : MPSectionedCollection
 {
     _MPLazySectionedCollectionStorage *_storage;
-    struct os_unfair_recursive_lock_s _lock;
-    _Bool _disableMissingIdentifiersFaults;
-    id <MPLazySectionedCollectionDataSource> _dataSource;
 }
 
 + (_Bool);
@@ -29,24 +26,24 @@
 - (id);
 - (id);
 - (id);
+- (id)G;
 - (id);
 - (id);
+- (void)h;
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void)annotationAdaptorWithPDFAnnotation:(CDUnknownBlockType)arg1 andCGPDFAnnotation:andPDFDictionary: /* Error: Ran out of types for this method. */;
 - (id);
 - (unsigned long long);
 - (id);
 - (void);
-- (_Bool);
-- (long long);
+- (_Bool)ate;
+- (long long)P;
 - (id);
 - (id);
-- (long long)tionFallbackCache;
-- (void)gedTotalDuration;
-- (void)nonicalID__MAPPING_MISSING__;
+- (long long)_tiledArtworkRepresentationFallbackCache;
+- (void)_lastLoggedTotalDuration;
+- (void)__MPModelPropertyTVSeasonStoreCanonicalID__MAPPING_MISSING__;
 - (id);
 
 // Remaining properties

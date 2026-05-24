@@ -4,43 +4,31 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CKOperationCallbackProxyEndpoint, NSString, NSXPCConnection, Protocol;
+@class CKOperationCallbackProxyEndpoint;
 
 @interface CKDOperationCallbackProxy
 {
     CKOperationCallbackProxyEndpoint *_endpoint;
-    NSXPCConnection *_connection;
-    long long _state;
 }
 
 - (void);
 - (id);
-- (void);
+- (void)ag 0x%llx when trying to decode E0;
 - (id);
 - (void);
-- (void);
+- (void)isLastSuppressStateValid;
 - (id);
 - (long long);
+- (void)B,R,N,V_turboMode;
 - (void);
-- (void);
+- (id)%s (%s:(SEL)arg1 %u)invalid cloud formatted known network;
 - (id);
-- (id);
-- (void)nse;
+- (void)recordDeleteResponse;
 - (id)public sharing PCS from private sharing PCS for share %@:%@ /* Error: Ran out of types for this method. */;
 - (void)¨;
 
 // Remaining properties
-@property(retain, nonatomic) NSXPCConnection *connection; // @synthesize connection=_connection;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) CKOperationCallbackProxyEndpoint *endpoint; // @synthesize endpoint=_endpoint;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) Protocol *protocol;
-@property(nonatomic) long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
 
 @end
 

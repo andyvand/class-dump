@@ -9,19 +9,13 @@
 @interface _ReachabilityRequest
 {
     NSLock *_lock;
-    NSString *_hostname;
-    struct __SCNetworkReachability *_reachability;
-    unsigned int _flags;
-    struct __CFDictionary *_observers;
-    _Bool _isReachable;
-    _Bool _receivedAtLeastOneCallback;
 }
 
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void)Service %@ has no identifier;
 - (void);
 - (id);
 - (id);

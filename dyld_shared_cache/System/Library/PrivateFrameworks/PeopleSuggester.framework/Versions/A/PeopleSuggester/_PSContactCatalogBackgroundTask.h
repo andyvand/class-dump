@@ -4,20 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, _CDInteractionStore, _PSContactCatalogTaskMetrics;
+@class _CDInteractionStore;
 
 @interface _PSContactCatalogBackgroundTask
 {
     _CDInteractionStore *_interactionStore;
-    NSDate *_lastRunDate;
-    _PSContactCatalogTaskMetrics *_metrics;
 }
 
-+ (id);
-+ (id)6134;
-- (_Bool);
-- (void);
-- (void);
++ (id)_appUsageCountForEntityFromSiri1Day;
++ (id)16134;
+- (_Bool)_flowTasksStarted;
+- (void)_appContactFreqForMessages6Hr;
+- (void)shimAction;
 - (id);
 - (void);
 

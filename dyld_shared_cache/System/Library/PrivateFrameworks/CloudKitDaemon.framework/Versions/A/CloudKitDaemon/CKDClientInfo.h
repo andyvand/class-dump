@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
-@protocol OS_dispatch_queue;
+@class NSString;
 
 @interface CKDClientInfo
 {
     NSString *_cachedHostname;
-    NSObject<OS_dispatch_queue> *_hostCallbackQueue;
-    struct __SCDynamicStore *_scstore;
 }
 
 + (id);
@@ -19,8 +16,8 @@
 - (void);
 - (id);
 - (id);
-- (void)e;
-- (id)ouldBeHashable;
+- (void)FakeZoneSaveFailure;
+- (id)TuplesOfHashablesShouldBeHashable;
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *hostname;

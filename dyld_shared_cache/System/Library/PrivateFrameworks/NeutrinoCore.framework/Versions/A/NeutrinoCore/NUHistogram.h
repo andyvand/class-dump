@@ -9,19 +9,20 @@
     struct unique_ptr<NU::Histogram<long, double>, std::default_delete<NU::Histogram<long, double>>> _histogram;
 }
 
-- (double);
+- (double)P;
 - (id);
 - (id);
 - (id);
 - (long long);
 - (CDUnknownBlockType);
-- (double);
+- (double)`;
 - (id);
-- (double);
+- (double)llenge String:%s
+ /* Error: Ran out of types for this method. */;
 - (id);
+- (id)P;
 - (id);
-- (id);
-- (CDStruct_59a221c9);
+- (CDStruct_c3b9c2ee);
 - (const long long *);
 - (double);
 - (id);
@@ -29,18 +30,11 @@
 - (double)Ôð!¸CùQáÐ1Â0@ù
 × ;
 - (void)geAsset>"16@0:8 /* Error: Ran out of types for this method. */;
-- (double)BetweenJobDeliveries;
+- (double)_timeBetweenJobDeliveries;
 - (long long)for render node;
 
 // Remaining properties
 @property(readonly, nonatomic) long long binCount;
-@property(readonly, nonatomic) double maximum;
-@property(readonly, nonatomic) double median;
-@property(readonly, nonatomic) double minimum;
-@property(readonly, nonatomic) double mode;
-@property(readonly, nonatomic) CDStruct_59a221c9 range;
-@property(readonly, nonatomic) long long sampleCount;
-@property(readonly, nonatomic) const long long *values;
 
 @end
 

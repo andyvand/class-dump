@@ -7,6 +7,8 @@
 @protocol ACCConnectionInfoDelegateProtocol
 
 @optional
-- (void)me;
+- (void)R#;
+- (void)z#;
+- (void)ApplicationName;
 @end
 

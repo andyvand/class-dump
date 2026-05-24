@@ -15,10 +15,10 @@ __attribute__((visibility("hidden")))
     id <UITextCursorAssertion> _inputModeAssertion;
 }
 
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
+- (_Bool);
+- (void)clearing;
+- (_Bool)king likely phishing SMS message from sender:%@ /* Error: Ran out of types for this method. */;
+- (id)madrid account %@;
 - (void);
 - (void);
 - (void);

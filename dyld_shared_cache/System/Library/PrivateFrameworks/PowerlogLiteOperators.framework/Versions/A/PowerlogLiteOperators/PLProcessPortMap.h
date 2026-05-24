@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSObject;
-@protocol OS_dispatch_queue;
+@class NSMutableDictionary;
 
 @interface PLProcessPortMap
 {
     NSMutableDictionary *_strictLookupMap;
-    NSMutableDictionary *_lenientLookupMap;
-    NSMutableDictionary *_localPortOnlyLookupMap;
-    NSMutableDictionary *_ipAddrLookupMap;
-    NSObject<OS_dispatch_queue> *_workQueue;
 }
 
 + (id)ient granted budgets;
@@ -44,11 +39,7 @@
 - (void)erSelection;
 
 // Remaining properties
-@property(retain) NSMutableDictionary *ipAddrLookupMap; // @synthesize ipAddrLookupMap=_ipAddrLookupMap;
-@property(retain) NSMutableDictionary *lenientLookupMap; // @synthesize lenientLookupMap=_lenientLookupMap;
-@property(retain) NSMutableDictionary *localPortOnlyLookupMap; // @synthesize localPortOnlyLookupMap=_localPortOnlyLookupMap;
 @property(retain) NSMutableDictionary *strictLookupMap; // @synthesize strictLookupMap=_strictLookupMap;
-@property(retain) NSObject<OS_dispatch_queue> *workQueue; // @synthesize workQueue=_workQueue;
 
 @end
 

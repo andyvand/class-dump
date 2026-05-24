@@ -8,20 +8,20 @@
 {
 }
 
-+ (_Bool)deBetterRouteSuggestion:(id)arg1;
++ (_Bool)setIncludeBetterRouteSuggestion:(id)arg1;
 - (void);
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)cessedAudioDuration(%{public}f):(id)arg1 lastReportedEndpointTimeMs(%{public}f):asrFeatureLatency:%{public}f, rcTimeMs:%{public}f /* Error: Ran out of types for this method. */;
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void)6;
 - (id)@48@0:(struct _NSZone *)arg1 8@16@24^q32@?40;
-- (id);
+- (id)_locality;
 - (id)¸â;
-- (id)e_location_used;
+- (id)coarse_location_used;
 
 @end
 

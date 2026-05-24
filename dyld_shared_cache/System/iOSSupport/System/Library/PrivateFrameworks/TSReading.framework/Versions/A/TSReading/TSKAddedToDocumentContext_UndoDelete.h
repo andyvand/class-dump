@@ -10,7 +10,7 @@
 {
 }
 
-- (_Bool);
+- (_Bool)SessionSummary;
 - (id);
 
 @end

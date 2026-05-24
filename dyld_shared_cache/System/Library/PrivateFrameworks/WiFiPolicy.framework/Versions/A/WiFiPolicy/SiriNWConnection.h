@@ -4,36 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSError, NSObject, NSString, NSURL;
-@protocol OS_dispatch_queue, OS_dispatch_source, OS_nw_activity, OS_nw_connection, OS_nw_content_context, OS_nw_endpoint;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface SiriNWConnection
 {
     NSObject<OS_dispatch_queue> *_queue;
-    NSURL *_url;
-    NSString *_resolvedHost;
-    unsigned int _network_traffic_class;
-    NSObject<OS_nw_connection> *_connection;
-    NSObject<OS_nw_activity> *_activity;
-    NSObject<OS_nw_endpoint> *_endpoint;
-    NSObject<OS_nw_content_context> *_content_context;
-    CDUnknownBlockType _wfcompletion;
-    _Bool _isCanceled;
-    _Bool _isEstablishing;
-    _Bool _isReady;
-    _Bool _usingTLS;
-    NSString *_connectionId;
-    long long _probeLabel;
-    int _interfaceIndex;
-    CDUnknownBlockType _openCompletion;
-    NSObject<OS_dispatch_source> *_openTimer;
-    NSObject<OS_dispatch_source> *_staleConnectionTimer;
-    unsigned long long _readWriteCounter;
-    NSObject<OS_dispatch_source> *_connectionUnviableTimer;
-    unsigned long long _betterPathAvailableNotificationMachTime;
-    NSArray *_attemptedEndpoints;
-    NSError *_mostRecentErrorFromNWConnection;
-    NSString *_reason;
 }
 
 - (void);
@@ -50,7 +26,7 @@
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)a;
 - (void);
 - (void);
 

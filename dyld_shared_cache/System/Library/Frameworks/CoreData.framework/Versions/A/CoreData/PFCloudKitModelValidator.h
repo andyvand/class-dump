@@ -4,17 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSCloudKitMirroringDelegateOptions, NSManagedObjectModel, NSString;
+@class NSManagedObjectModel;
 
 __attribute__((visibility("hidden")))
 @interface PFCloudKitModelValidator
 {
     NSManagedObjectModel *_model;
-    NSString *_configurationName;
-    _Bool _skipValueTransformerValidation;
-    _Bool _validateLegacyMetadataAttributes;
-    NSCloudKitMirroringDelegateOptions *_options;
-    _Bool _supportsMergeableTransformable;
 }
 
 - (void);

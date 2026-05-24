@@ -6,22 +6,12 @@
 
 #import <AnnotationKit/AKShapeAnnotation.h>
 
-@class NSDictionary, NSString, NSTextStorage, UIColor;
-
 @interface AKRectangularShapeAnnotation : AKShapeAnnotation
 {
     _Bool _highlighted;
-    NSTextStorage *_annotationText;
-    NSDictionary *_typingAttributes;
-    double _rotationAngle;
-    unsigned long long _maximumNumberOfCharacters;
-    UIColor *_highlightColor;
-    UIColor *_foregroundColorHDR;
-    UIColor *_foregroundColorSDR;
-    struct CGRect _rectangle;
 }
 
-+ (id);
++ (id);
 + (id);
 + (id);
 + (_Bool);
@@ -29,7 +19,7 @@
 - (void);
 - (void);
 - (void);
-- (unsigned long long);
+- (unsigned long long)`;
 - (id);
 - (id);
 - (id);
@@ -45,11 +35,252 @@
 - (struct CGRect);
 - (void);
 - (double);
+- (id)log when opening an event attachment that is a web browser link;
 - (id);
+- (void)scn_pbr_reference_world(SCNPBRSurface                      surface,
+                                      texturecube<float, access:(id)arg1:sample> environment,
+                                      uint                               environmentSamplingLevel,
+                                      float4x4                           localDirToWorldCubemapDir,
+                                      float                              environmentIntensity)
+{
+    constexpr sampler linearSampler(filter::linear, mip_filter::linear);
+    
+    float3 n = surface.n;
+    float3 v = surface.v;
+    float3 albedo = surface.albedo;
+    float metalness = surface.metalness;
+    float roughness = surface.roughness;
+    float ambientOcclusion = surface.ao;
+    
+    float NoV = saturate(dot(n, v));
+    
+    float3 effectiveAlbedo = mix(albedo, float3(0.0), metalness);
+    float3 reflectance = mix(float3(PBR_F0_NON_METALLIC), albedo, metalness);
+    
+    
+    float3 irradiance = float3(0.0);
+    
+    ushort const sampleCountDiffuse = 1024;
+    for (ushort i = 0; i < sampleCountDiffuse; ++i) {
+        float2 random = scn_sampleHammersley(i, sampleCountDiffuse);
+        float3 l = scn_importanceSampleCosine_brdf(random, n); 
+        
+        float NoL = saturate(dot(n, l));
+        
+        if (NoL > 0) {
+            float3 Li = environment.sample(linearSampler, scn::mat4_mult_float3(localDirToWorldCubemapDir, l), level(environmentSamplingLevel)).rgb * environmentIntensity;
+            irradiance += Li; 
+        }
+    }
+    
+    irradiance = irradiance / float(sampleCountDiffuse);
+    
+    
+    float3 specular = float3(0.0);
+    float specularWeight = 0.0;
+    
+    float correctedRoughness = mix(1.0f / 128.0f, 1.0f - 1.0f / 128.0f, roughness);
+    float alpha = correctedRoughness * correctedRoughness; 
+    
+    ushort const sampleCountSpecular = 128;
+    for (ushort i = 0; i < sampleCountSpecular; ++i) {
+        float2 random = scn_sampleHammersley(i, sampleCountSpecular);
+        float3 h = scn_importanceSampleGGX_brdf(random, correctedRoughness, n); 
+        float3 l = reflect(-v, h); 
+        
+        float NoL = saturate(dot(n, l));
+        float NoH = saturate(dot(n, h));
+        float LoH = saturate(dot(l, h));
+        
+        if (NoH * NoV > 0) {
+            float3 Li = environment.sample(linearSampler, scn::mat4_mult_float3(localDirToWorldCubemapDir, l), level(environmentSamplingLevel)).rgb * environmentIntensity;
+            float3 F = scn_brdf_F(reflectance, LoH);
+            float G = scn_brdf_G(alpha, NoL, NoV);
+#if 0
+            float D = scn_brdf_D(alpha, NoH);
+            float pdf = (D * NoH) / (4.0f * LoH);
+            
+            if (pdf >= 0) {
+                float3 l = D * F * G / (4.0f * NoV); 
+                specular += Li * l / pdf;
+                specularWeight += 1.0f;
+            }
+#else
+            specular += Li * F * G * LoH / (NoH * NoV);
+            specularWeight += 1.0f;
+#endif
+        }
+    }
+    
+    specular /= specularWeight;
+    
+    
+    return ambientOcclusion * (effectiveAlbedo * irradiance + specular);
+}
+
+
+
+inline float3x3 scn_ltc_matrix_invert_transpose(float3x3 m)
+{
+    float a = m[0][0];
+    float b = m[1][0];
+    float c = m[0][1];
+    float d = m[1][1];
+    float det = a * d - b * c;
+    m[0][0] = +det * d;
+    m[1][0] = -det * b;
+    m[1][0] = -det * c;
+    m[1][1] = +det * a;
+    m[2][2] = 1.f / m[2][2];
+    return m;
+}
+
+inline float3x3 scn_sample_area_light_precomputed_data(float3                 v,
+                                                       float3                 n,
+                                                       float                  roughness,
+                                                       thread float*          brdfNorm,
+                                                       texture2d_array<float> bakedDataTexture)
+{
+    constexpr sampler linearSampler = sampler(address::clamp_to_edge, filter::linear);
+    
+    float theta = acos(fabs(dot(n, v)));
+    float2 uv = float2(roughness, theta * M_2_PI_F);
+    
+    float4 dataA = bakedDataTexture.sample(linearSampler, uv, 0);
+    float4 dataB = bakedDataTexture.sample(linearSampler, uv, 1);
+    
+    *brdfNorm = dataB.y;
+    
+    return float3x3(float3(dataA.x, dataA.y, 0.f),
+                    float3(dataA.z, dataA.w, 0.f),
+                    float3(0.f, 0.f, dataB.x));
+}
+
+inline float3 scn_area_light_polygon_edge_vector_form_factor(float3 cornerDirectionA,
+                                                             float3 cornerDirectionB)
+{
+    
+    
+    
+#if 0
+    float theta = acos(dot(cornerDirectionA, cornerDirectionB));
+    return (0.5f * M_1_PI_F) * cross(cornerDirectionA, cornerDirectionB) * ((theta > 0.001) ? theta/sin(theta) :1.0);
+#else
+    float x = dot(cornerDirectionA, cornerDirectionB);
+    float y = abs(x);
+    
+    float a = 5.42031f + (3.12829f + 0.0902326 * y) * y;
+    float b = 3.45068f + (4.18814f + y) * y;
+    float thetaOverSinTheta = a / b;
+    
+    if (x < 0.f)
+        thetaOverSinTheta = M_PI_F * rsqrt(1.f - x * x) - thetaOverSinTheta;
+    
+    float3 u = cross(cornerDirectionA, cornerDirectionB);
+    return (0.5f * M_1_PI_F) * thetaOverSinTheta * u;
+#endif
+}
+
+inline float scn_area_light_horizon_clipped_sphere_form_factor_from_polygon_vector_form_factor(float3 vectorFormFactor)
+{
+#if 1
+    
+    float l = length(vectorFormFactor);
+    return max((l * l + vectorFormFactor.y) / (l + 1.f), 0.f);
+#else
+    
+    return max(vectorFormFactor.y, 0.f);
+#endif
+}
+
+inline float pbr_area_light_eval_rectangle(float4x3 corners)
+{
+    
+    
+    
+    float3 corner0 = normalize(corners[0]);
+    float3 corner1 = normalize(corners[1]);
+    float3 corner2 = normalize(corners[2]);
+    float3 corner3 = normalize(corners[3]);
+    
+    float3 vectorFormFactor = float3(0.f);
+    vectorFormFactor += scn_area_light_polygon_edge_vector_form_factor(corner0, corner1);
+    vectorFormFactor += scn_area_light_polygon_edge_vector_form_factor(corner1, corner2);
+    vectorFormFactor += scn_area_light_polygon_edge_vector_form_factor(corner2, corner3);
+    vectorFormFactor += scn_area_light_polygon_edge_vector_form_factor(corner3, corner0);
+    
+    return scn_area_light_horizon_clipped_sphere_form_factor_from_polygon_vector_form_factor(vectorFormFactor);
+}
+
+inline float pbr_area_light_eval_polygon(float3                position,
+                                         float3                lightCenter,
+                                         float3                lightRight,
+                                         float3                lightTop,
+                                         uint32_t              vertexCount,
+                                         device packed_float2 *vertexPositions)
+{
+    
+    
+    
+    float3 vectorFormFactor = float3(0.f);
+    for (uint32_t vertexIndex = 0; vertexIndex < vertexCount; ++vertexIndex) {
+        packed_float2 localCorner0 = vertexPositions[vertexIndex];
+        packed_float2 localCorner1 = vertexPositions[(vertexIndex + 1) % vertexCount];
+        
+        
+        
+        float3 cornerDirection0 = lightCenter - localCorner0[0] * lightRight + localCorner0[1] * lightTop;
+        float3 cornerDirection1 = lightCenter - localCorner1[0] * lightRight + localCorner1[1] * lightTop;
+        
+        float3 corner0 = normalize(cornerDirection0 - position);
+        float3 corner1 = normalize(cornerDirection1 - position);
+        
+        vectorFormFactor += scn_area_light_polygon_edge_vector_form_factor(corner0, corner1);
+    }
+    
+    return scn_area_light_horizon_clipped_sphere_form_factor_from_polygon_vector_form_factor(vectorFormFactor);
+}
+
+inline float pbr_area_light_line_integral_position(float d, float l) {
+    float d_squared = d * d;
+    float l_squared = l * l;
+    return l / (d * (d_squared + l_squared)) + atan(l / d) / d_squared;
+}
+
+inline float pbr_area_light_line_integral_direction(float d, float l) {
+    float d_squared = d * d;
+    float l_squared = l * l;
+    return l_squared / (d * (d_squared + l_squared));
+}
+
+inline float pbr_area_light_eval_line(float2x3 cornerDirections)
+{
+    
+    
+    
+    float3 corner0 = normalize(cornerDirections[0]);
+    float3 corner1 = normalize(cornerDirections[1]);
+    
+    float3 direction = normalize(corner1 - corner0);
+    
+    if (corner0.y <= 0.f && corner1.y <= 0.f) return 0.f;
+    if (corner0.y < 0.f) corner0 = (+corner0 * corner1.y - corner1 * corner0.y) / (+corner1.y - corner0.y);
+    if (corner1.y < 0.f) corner1 = (-corner0 * corner1.y + corner1 * corner0.y) / (-corner1.y + corner0.y);
+    
+    float l1 = dot(corner0, direction);
+    float l2 = dot(corner1, direction);
+    
+    float3 position = corner0 - l1 * direction;
+    float d = length(position);
+    
+    float I = (pbr_area_light_line_integral_position(d, l2) - pbr_area_light_line_integral_position(d, l1)) * position.y
+            + (pbr_area_light_line_integral_direction(d, l2) - pbr_area_light_line_integral_direction(d, l1)) * direction.y;
+    
+    return M_1_PI_F * I;
+}
+ /* Error: Ran out of types for this method. */;
 - (id);
-- (void);
-- (id);
-- (void);
+- (void)`";
 - (void);
 - (void);
 - (id);
@@ -58,36 +289,12 @@
 - (void);
 - (_Bool)0@ù
 × ;
-- (void)RectForDrag:(id)arg1;
-- (id)erPathDevicePrimitives;
+- (void)_validateAnnotationRectForDrag:(id)arg1;
+- (id)AKTSDBezierPathDevicePrimitives;
 - (id);
 
 // Remaining properties
-@property(retain) NSTextStorage *annotationText; // @synthesize annotationText=_annotationText;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(copy) UIColor *foregroundColor;
-@property(retain) UIColor *foregroundColorHDR; // @synthesize foregroundColorHDR=_foregroundColorHDR;
-@property(retain) UIColor *foregroundColorSDR; // @synthesize foregroundColorSDR=_foregroundColorSDR;
-@property unsigned long long formContentType;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) UIColor *highlightColor; // @synthesize highlightColor=_highlightColor;
-@property(getter=isHighlighted) _Bool highlighted; // @synthesize highlighted=_highlighted;
-@property _Bool isDetectedSignature;
-@property _Bool isEditingText;
-@property unsigned long long maximumNumberOfCharacters; // @synthesize maximumNumberOfCharacters=_maximumNumberOfCharacters;
 @property struct CGRect rectangle; // @synthesize rectangle=_rectangle;
-@property double rotationAngle; // @synthesize rotationAngle=_rotationAngle;
-@property _Bool shouldUsePlaceholderText;
-@property(readonly) Class superclass;
-@property NSString *textContentType;
-@property _Bool textIsClipped;
-@property _Bool textIsFixedHeight;
-@property _Bool textIsFixedWidth;
-@property(copy) NSDictionary *typingAttributes; // @synthesize typingAttributes=_typingAttributes;
 
 @end
 

@@ -8,12 +8,6 @@
 {
     id _start;
     id _end;
-    id _totalEnergy;
-    id _totalRuntime;
-    id _byPeaks;
-    id _byGridCleanliness;
-    id _weather;
-    id _grouping;
 }
 
 @end

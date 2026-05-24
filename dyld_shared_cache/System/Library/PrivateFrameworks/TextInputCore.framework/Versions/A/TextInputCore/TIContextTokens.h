@@ -11,16 +11,16 @@ __attribute__((visibility("hidden")))
 }
 
 - (void);
-- (void);
+- (void)_setMetadataFinalized: /* Error: Ran out of types for this method. */;
 - (void);
 - (id);
 - (void *);
 - (unsigned long long);
 - (void *);
-- (void);
+- (void);
 - (void);
 - (const struct TITokenID *);
-- (id);
+- (id)PersonalizationPortrait;
 
 // Remaining properties
 @property(nonatomic) void *context; // @synthesize context=_context;

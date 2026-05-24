@@ -9,13 +9,12 @@
 @interface FigCaptureFlatPlist
 {
     NSMutableData *_data;
-    CDStruct_e993e376 _bplist;
 }
 
 + (id);
 + (id);
-- (void);
-- (const CDStruct_e993e376 *);
+- (void)ridden;
+- (const CDStruct_80d302cf *);
 
 @end
 

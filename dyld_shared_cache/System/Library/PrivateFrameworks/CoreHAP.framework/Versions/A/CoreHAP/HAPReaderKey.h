@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class HAPNFCAccessKeyTypeWrapper, NSData, NSString;
+@class HAPNFCAccessKeyTypeWrapper;
 
 @interface HAPReaderKey
 {
     HAPNFCAccessKeyTypeWrapper *_type;
-    NSData *_key;
-    NSData *_keyIdentifier;
-    NSData *_readerIdentifier;
 }
 
-+ (id);
++ (id);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id)__objc_classlist__DATA_CONST;
 - (void);
 - (id);
 - (id);
@@ -33,16 +30,6 @@
 - (void)ddress_t="size"I"addr"(?="sa"{sockaddr="sa_len"C"sa_family"C"sa_data"[14c]}"sin"{sockaddr_in="sin_len"C"sin_family"C"sin_port"S"sin_addr"{in_addr="s_addr"I}"sin_zero"[8c]}"sin6"{sockaddr_in6="sin6_len"C"sin6_family"C"sin6_port"S"sin6_flowinfo"I"sin6_addr"{in6_addr="__u6_addr"(?="__u6_addr8"[16C]"__u6_addr16"[8S]"__u6_addr32"[4I])}"sin6_scope_id"I})};
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NSData *key; // @synthesize key=_key;
-@property(retain, nonatomic) NSData *keyIdentifier; // @synthesize keyIdentifier=_keyIdentifier;
-@property(retain, nonatomic) NSData *readerIdentifier; // @synthesize readerIdentifier=_readerIdentifier;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) HAPNFCAccessKeyTypeWrapper *type; // @synthesize type=_type;
 
 @end

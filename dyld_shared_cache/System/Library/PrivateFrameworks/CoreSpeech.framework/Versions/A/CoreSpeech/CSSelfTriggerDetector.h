@@ -4,36 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CSAsset, CSAudioStream, CSAudioTimeConverter, CSContinuousVoiceTriggerConfig, CSKeywordAnalyzerNDAPI, CSOSTransaction, CSPlainAudioFileWriter, CSSpeechManager, NSHashTable, NSObject, NSString;
-@protocol CSAudioProviderSelecting, OS_dispatch_queue;
+@class NSObject;
+@protocol OS_dispatch_queue;
 
 @interface CSSelfTriggerDetector
 {
     _Bool _isKeywordAnalyzerCorrupted;
-    _Bool _isSiriClientListening;
-    _Bool _selfTriggerEnabled;
-    _Bool _isListenPollingStarting;
-    _Bool _hasPendingNearMiss;
-    _Bool _didReceiveFirstBuffer;
-    NSObject<OS_dispatch_queue> *_queue;
-    NSHashTable *_observers;
-    CSSpeechManager *_speechManager;
-    CSAsset *_currentAsset;
-    CSKeywordAnalyzerNDAPI *_keywordAnalyzer;
-    unsigned long long _outputAudioChannel;
-    CSAudioStream *_audioStream;
-    NSString *_audioProviderUUID;
-    CSAudioTimeConverter *_audioTimeConverter;
-    CSContinuousVoiceTriggerConfig *_selfTriggerConfig;
-    id <CSAudioProviderSelecting> _audioProviderSelecting;
-    unsigned long long _tapProviderType;
-    unsigned long long _audioSourceType;
-    unsigned long long _state;
-    CSOSTransaction *_modelLoadTransaction;
-    unsigned long long _nearMissDelayTimeoutInSamples;
-    unsigned long long _nearMissCandidateDetectedSamples;
-    unsigned long long _numAnalyzedSamples;
-    CSPlainAudioFileWriter *_audioFileWriter;
 }
 
 + (id);
@@ -44,13 +20,13 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)m;
 - (void);
 - (void);
 - (void);
@@ -81,7 +57,13 @@
 - (unsigned long long);
 - (unsigned long long);
 - (void);
+- (void)U;
 - (void);
+- (void)al"24@"CBCharacteristic"32;
+- (void);
+- (void);
+- (void);
+- (_Bool)70;
 - (void);
 - (void);
 - (void);
@@ -90,38 +72,32 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
 - (_Bool);
 - (id);
 - (void);
+- (id)}m;
 - (id);
 - (id);
-- (id);
-- (void);
-- (void);
-- (id);
+- (void)red_weak_count}}88@0:(unsigned long long)arg1 8{shared_ptr<vision::mod::ImageDescriptorProcessorAbstract>=^{ImageDescriptorProcessorAbstract}^{__shared_weak_count}}16r*32i40i44r*48{Options=BQ@@}56 /* Error: Ran out of types for this method. */;
+- (void)landmarkScore;
+- (id)rArray",&,N,V_requestImageBuffers;
 - (unsigned long long);
 - (id);
 - (void);
+- (void)P;
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (id);
-- (void);
+- (id)@;
+- (void)! ;
 - (void);
 - (unsigned long long);
 - (id);
 - (void);
-- (void)udioSessionIDWithCompletion: /* Error: Ran out of types for this method. */;
+- (void)getAudioSessionIDWithCompletion: /* Error: Ran out of types for this method. */;
 - (void)etion:(id)arg1 ]_block_invoke;
 - (id)pt to send message while connection does not exist;
 - (void)uetoothDevice getHeadphoneInEarDetectionState:(id)arg1 ];
@@ -129,38 +105,7 @@
 - (void)á;
 
 // Remaining properties
-@property(retain, nonatomic) CSPlainAudioFileWriter *audioFileWriter; // @synthesize audioFileWriter=_audioFileWriter;
-@property(retain, nonatomic) id <CSAudioProviderSelecting> audioProviderSelecting; // @synthesize audioProviderSelecting=_audioProviderSelecting;
-@property(retain, nonatomic) NSString *audioProviderUUID; // @synthesize audioProviderUUID=_audioProviderUUID;
-@property(nonatomic) unsigned long long audioSourceType; // @synthesize audioSourceType=_audioSourceType;
-@property(retain, nonatomic) CSAudioStream *audioStream; // @synthesize audioStream=_audioStream;
-@property(retain, nonatomic) CSAudioTimeConverter *audioTimeConverter; // @synthesize audioTimeConverter=_audioTimeConverter;
-@property(retain, nonatomic) CSAsset *currentAsset; // @synthesize currentAsset=_currentAsset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didReceiveFirstBuffer; // @synthesize didReceiveFirstBuffer=_didReceiveFirstBuffer;
-@property(nonatomic) _Bool hasPendingNearMiss; // @synthesize hasPendingNearMiss=_hasPendingNearMiss;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool isKeywordAnalyzerCorrupted; // @synthesize isKeywordAnalyzerCorrupted=_isKeywordAnalyzerCorrupted;
-@property(nonatomic) _Bool isListenPollingStarting; // @synthesize isListenPollingStarting=_isListenPollingStarting;
-@property(nonatomic) _Bool isSiriClientListening; // @synthesize isSiriClientListening=_isSiriClientListening;
-@property(retain, nonatomic) CSKeywordAnalyzerNDAPI *keywordAnalyzer; // @synthesize keywordAnalyzer=_keywordAnalyzer;
-@property(retain, nonatomic) CSOSTransaction *modelLoadTransaction; // @synthesize modelLoadTransaction=_modelLoadTransaction;
-@property(nonatomic) unsigned long long nearMissCandidateDetectedSamples; // @synthesize nearMissCandidateDetectedSamples=_nearMissCandidateDetectedSamples;
-@property(nonatomic) unsigned long long nearMissDelayTimeoutInSamples; // @synthesize nearMissDelayTimeoutInSamples=_nearMissDelayTimeoutInSamples;
-@property(nonatomic) unsigned long long numAnalyzedSamples; // @synthesize numAnalyzedSamples=_numAnalyzedSamples;
-@property(retain, nonatomic) NSHashTable *observers; // @synthesize observers=_observers;
-@property(nonatomic) unsigned long long outputAudioChannel; // @synthesize outputAudioChannel=_outputAudioChannel;
 @property(retain, nonatomic) NSObject<OS_dispatch_queue> *queue; // @synthesize queue=_queue;
-@property(retain, nonatomic) CSContinuousVoiceTriggerConfig *selfTriggerConfig; // @synthesize selfTriggerConfig=_selfTriggerConfig;
-@property(nonatomic) _Bool selfTriggerEnabled; // @synthesize selfTriggerEnabled=_selfTriggerEnabled;
-@property(nonatomic) __weak CSSpeechManager *speechManager; // @synthesize speechManager=_speechManager;
-@property(nonatomic) unsigned long long state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(nonatomic) unsigned long long tapProviderType; // @synthesize tapProviderType=_tapProviderType;
 
 @end
 

@@ -9,14 +9,14 @@
     void *_documentArchive;
 }
 
-+ (unsigned int);
++ (unsigned int)%u:%d, %u:%u:%d /* Error: Ran out of types for this method. */;
 + (unsigned int);
 + (unsigned int);
 - (_Bool);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void)_ր;
 - (void);
 - (unsigned long long);
 - (void);
@@ -24,17 +24,16 @@
 - (_Bool);
 - (_Bool);
 - (unsigned long long);
-- (void *);
+- (void *)CFStringEncodingUTF8);
 - (id);
 - (void);
 - (void);
-- (id);
+- (id)SString",R,C,N,V_clientName;
 - (id);
 - (id);
 
 // Remaining properties
 @property(nonatomic) void *documentArchive; // @synthesize documentArchive=_documentArchive;
-@property(readonly, nonatomic) unsigned long long futureVersionCount;
 
 @end
 

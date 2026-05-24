@@ -4,13 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FCBundleSubscriptionLookUpEntry, FCKeyValueStore, NFUnfairLock;
+@class FCBundleSubscriptionLookUpEntry;
 
 @interface FCBundleSubscriptionLookUpEntryManager
 {
     FCBundleSubscriptionLookUpEntry *__bundleSubscriptionLookUpEntry;
-    FCKeyValueStore *_localStore;
-    NFUnfairLock *_lock;
 }
 
 - (void);
@@ -20,7 +18,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)initWithName:client:transferPath:diskSpaceNeeded:location: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (id)
@@ -32,9 +30,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) FCBundleSubscriptionLookUpEntry *_bundleSubscriptionLookUpEntry; // @synthesize _bundleSubscriptionLookUpEntry=__bundleSubscriptionLookUpEntry;
-@property(readonly, nonatomic) FCBundleSubscriptionLookUpEntry *bundleSubscriptionLookUpEntry;
-@property(retain, nonatomic) FCKeyValueStore *localStore; // @synthesize localStore=_localStore;
-@property(readonly, nonatomic) NFUnfairLock *lock; // @synthesize lock=_lock;
 
 @end
 

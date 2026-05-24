@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, NSString;
+@class NSString;
 
 @interface NSException
 {
     NSString *name;
-    NSString *reason;
-    NSDictionary *userInfo;
-    id reserved;
 }
 
 
 // Remaining properties
-@property(readonly, copy) NSArray *callStackReturnAddresses;
-@property(readonly, copy) NSArray *callStackSymbols;
 @property(readonly, copy) NSString *name;
-@property(readonly, copy) NSString *reason;
-@property(readonly, copy) NSDictionary *userInfo;
 @end
 

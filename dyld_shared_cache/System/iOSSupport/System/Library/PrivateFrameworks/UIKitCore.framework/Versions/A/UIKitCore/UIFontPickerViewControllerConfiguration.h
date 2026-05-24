@@ -4,68 +4,55 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSPredicate, NSSet, NSString, NSXPCListenerEndpoint, UIColor;
+@class NSArray;
 
 @interface UIFontPickerViewControllerConfiguration
 {
     _Bool _includeFaces;
-    _Bool _displayUsingSystemFont;
-    _Bool __hideSearchBar;
-    _Bool __includeDefaultFont;
-    _Bool __showsSectionIndexBar;
-    unsigned int _filteredTraits;
-    NSPredicate *_filteredLanguagesPredicate;
-    NSArray *__allowedLanguages;
-    id __swiftPredicate;
-    UIColor *__tintColor;
-    NSString *__filterFamilyName;
-    NSSet *__filterFontNames;
-    NSXPCListenerEndpoint *__clientFontContextEndpoint;
-    NSArray *__clientRecentFonts;
 }
 
 + (id);
 + (_Bool)ap for %@ of row at index path %@;
 + (_Bool)entRectContextCE¾7SgIeggr_Sg;
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (unsigned int);
+- (void)tion:(id)arg1 %@;
+- (void)imagent;
+- (void)Not setting up new retryAfter, last one is firing at %@;
+- (void)tion, name:(id)arg1 %@, userInfo:%@ /* Error: Ran out of types for this method. */;
+- (void)entity/TLK keys available notification, name:(id)arg1 %@, userInfo:%@ /* Error: Ran out of types for this method. */;
+- (void)associated with IMCloudKitAppleIDSecurityLevelHSA2.;
+- (void)%@;
+- (void)ommand processing;
+- (void)to remove chat with nil groupID:(unsigned int)arg1 %@;
+- (void)s needing sync from deferred state ;
+- (void)ng existing chat;
+- (unsigned int);
 - (id);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)4(;
 - (_Bool);
 - (_Bool);
 - (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (id);
+- (_Bool)8@?<v@?@"NSArray"@"NSError">16;
+- (_Bool)waitForGroup:timeoutSeconds: /* Error: Ran out of types for this method. */;
+- (_Bool)setClasses:forSelector:argumentIndex:ofReply: /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
-- (id);
+- (id)4;
 - (id);
 - (id);
 - (id)!@ùÑa°1Â0@ù
 × ;
 - (id)"_UISheetInteraction"16;
-- (id)rameView: /* Error: Ran out of types for this method. */;
-- (_Bool)olsPanelRequested;
-- (void)hButtonIndex:(id)arg1;
+- (id)webView:printFrameView: /* Error: Ran out of types for this method. */;
+- (_Bool)getIASignalWritingToolsPanelRequested;
+- (void)actionSheet:(id)arg1 willDismissWithButtonIndex: /* Error: Ran out of types for this method. */;
 - (void)yout;
 - (id)TraitCollection:,V__lastNotifiedTraitCollection /* Error: Ran out of types for this method. */;
 - (id)¼;
@@ -76,26 +63,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *_allowedLanguages; // @synthesize _allowedLanguages=__allowedLanguages;
-@property(retain, nonatomic) NSXPCListenerEndpoint *_clientFontContextEndpoint; // @synthesize _clientFontContextEndpoint=__clientFontContextEndpoint;
-@property(copy, nonatomic, setter=_setClientRecentFonts:) NSArray *_clientRecentFonts; // @synthesize _clientRecentFonts=__clientRecentFonts;
-@property(copy, nonatomic) NSString *_filterFamilyName; // @synthesize _filterFamilyName=__filterFamilyName;
-@property(copy, nonatomic) NSSet *_filterFontNames; // @synthesize _filterFontNames=__filterFontNames;
-@property(nonatomic, setter=_setHideSearchBar:) _Bool _hideSearchBar; // @synthesize _hideSearchBar=__hideSearchBar;
-@property(nonatomic) _Bool _includeDefaultFont; // @synthesize _includeDefaultFont=__includeDefaultFont;
-@property(nonatomic) _Bool _showsSectionIndexBar; // @synthesize _showsSectionIndexBar=__showsSectionIndexBar;
-@property(copy, nonatomic) id _swiftPredicate; // @synthesize _swiftPredicate=__swiftPredicate;
-@property(retain, nonatomic, setter=_setTintColor:) UIColor *_tintColor; // @synthesize _tintColor=__tintColor;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool displayUsingSystemFont; // @synthesize displayUsingSystemFont=_displayUsingSystemFont;
-@property(copy, nonatomic) NSPredicate *filteredLanguagesPredicate; // @synthesize filteredLanguagesPredicate=_filteredLanguagesPredicate;
-@property(nonatomic) unsigned int filteredTraits; // @synthesize filteredTraits=_filteredTraits;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool includeFaces; // @synthesize includeFaces=_includeFaces;
-@property(readonly) Class superclass;
 
 @end
 

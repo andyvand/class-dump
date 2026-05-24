@@ -6,14 +6,11 @@
 
 #import <NeutrinoCore/NURenderRequest.h>
 
-@class NSString, NUColorSpace, NUHistogramParameters;
-@protocol NUScalePolicy;
+@class NUHistogramParameters;
 
 @interface NUHistogramRenderRequest : NURenderRequest
 {
     NUHistogramParameters *_parameters;
-    NUColorSpace *_histogramCalculationColorSpace;
-    id <NUScalePolicy> _scalePolicy;
 }
 
 - (void);
@@ -21,26 +18,16 @@
 - (id);
 - (long long);
 - (id);
-- (void);
+- (void)_;
 - (id);
 - (void);
-- (void);
-- (id);
+- (void)e;
+- (id)&;
 - (void);
 - (void)"y"Q"z"Q};
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) NUColorSpace *histogramCalculationColorSpace; // @synthesize histogramCalculationColorSpace=_histogramCalculationColorSpace;
 @property(copy, nonatomic) NUHistogramParameters *parameters;
-@property(retain) id <NUScalePolicy> scalePolicy; // @synthesize scalePolicy=_scalePolicy;
-@property(readonly) Class superclass;
-@property(nonatomic) CDStruct_1b6d18a9 time;
 
 @end
 

@@ -4,12 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, TUSandboxExtendedURL;
+@class NSString, NSURL;
 
 @interface TUParticipant
 {
     NSString *_name;
-    TUSandboxExtendedURL *_sandboxExtendedImageURL;
 }
 
 + (id);
@@ -18,8 +17,8 @@
 - (void);
 - (id);
 - (id);
-- (_Bool);
-- (id);
+- (_Bool)ash<WTF:(id)arg1:ObjectIdentifierGeneric<IPC::Connection::UniqueIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, WTF::HashTraits<WTF::ObjectIdentifierGeneric<IPC::Connection::UniqueIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, WTF::HashTraits<WTF::ObjectIdentifierGeneric<IPC::Connection::UniqueIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<IPC::Connection::UniqueIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, Value = WTF::ObjectIdentifierGeneric<IPC::Connection::UniqueIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<IPC::Connection::UniqueIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<IPC::Connection::UniqueIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<IPC::Connection::UniqueIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (id)ctor, HashFunctions = WTF:(id)arg1:DefaultHash<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::DOMCacheIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>, Traits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::DOMCacheIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>, KeyTraits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::DOMCacheIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id);
 - (id);
 - (id);
@@ -27,17 +26,15 @@
 - (unsigned long long);
 - (id);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (void);
-- (void)ID:forceAssist:suppressAssist:wasAssisted: /* Error: Ran out of types for this method. */;
+- (void)telephonyURLWithDestinationID:addressBookUID:forceAssist:suppressAssist:wasAssisted: /* Error: Ran out of types for this method. */;
 - (id)locked;
 
 // Remaining properties
 @property(retain, nonatomic) NSURL *imageURL;
-@property(copy, nonatomic) NSString *name; // @synthesize name=_name;
-@property(retain, nonatomic) TUSandboxExtendedURL *sandboxExtendedImageURL; // @synthesize sandboxExtendedImageURL=_sandboxExtendedImageURL;
 
 @end
 

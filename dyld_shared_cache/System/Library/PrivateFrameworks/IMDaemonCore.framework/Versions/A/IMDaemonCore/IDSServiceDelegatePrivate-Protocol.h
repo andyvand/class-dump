@@ -5,5 +5,9 @@
 //
 
 @protocol IDSServiceDelegatePrivate
+
+@optional
+- (void);;
+- (void);
 @end
 

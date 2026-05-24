@@ -4,38 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSString;
-
 @interface AXEMockTimerFactory
 {
     double _currentSimulatedTime;
-    NSMutableArray *__pendingTimers;
 }
 
-- (void);
-- (void);
+- (void)?%@qa;
+- (void);
 - (unsigned long long);
 - (void);
+- (void)7;
 - (void);
-- (void);
-- (double);
+- (double);
 - (id);
 - (id);
 - (void);
-- (id);
+- (id);
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSMutableArray *_pendingTimers; // @synthesize _pendingTimers=__pendingTimers;
 @property(nonatomic) double currentSimulatedTime; // @synthesize currentSimulatedTime=_currentSimulatedTime;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) unsigned long long pendingTimerCount;
-@property(readonly) Class superclass;
 
 @end
 

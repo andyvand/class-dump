@@ -4,19 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSAttributedString, NSSet, NSString, NSUUID;
+@class NSUUID;
 
 @interface UAPronunciationSubstitutionModel
 {
     _Bool _active;
-    _Bool _ignoreCase;
-    _Bool _appliesToAllApps;
-    NSUUID *_uuid;
-    NSString *_originalString;
-    NSString *_replacementString;
-    NSAttributedString *_ipa;
-    NSSet *_bundleIdentifiers;
-    NSString *_language;
 }
 
 + (_Bool);
@@ -33,9 +25,9 @@
 - (id);
 - (id);
 - (void);
-- (void);
-- (void);
-- (id);
+- (void)ckResponsesStore:(_Bool)arg1 Unexpected null value for custom_responses.prompt_embedding;
+- (void)isOptional;
+- (id)6q24;
 - (id);
 - (id);
 - (id);
@@ -45,14 +37,6 @@
 - (_Bool);
 
 // Remaining properties
-@property(nonatomic) _Bool active; // @synthesize active=_active;
-@property(nonatomic) _Bool appliesToAllApps; // @synthesize appliesToAllApps=_appliesToAllApps;
-@property(copy, nonatomic) NSSet *bundleIdentifiers; // @synthesize bundleIdentifiers=_bundleIdentifiers;
-@property(nonatomic) _Bool ignoreCase; // @synthesize ignoreCase=_ignoreCase;
-@property(retain, nonatomic) NSAttributedString *ipa; // @synthesize ipa=_ipa;
-@property(copy, nonatomic) NSString *language; // @synthesize language=_language;
-@property(copy, nonatomic) NSString *originalString; // @synthesize originalString=_originalString;
-@property(copy, nonatomic) NSString *replacementString; // @synthesize replacementString=_replacementString;
 @property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

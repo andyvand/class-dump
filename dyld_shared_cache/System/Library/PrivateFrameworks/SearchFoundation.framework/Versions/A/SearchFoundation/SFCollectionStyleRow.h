@@ -6,8 +6,6 @@
 
 #import <SearchFoundation/SFCollectionStyle.h>
 
-@class NSData, NSDictionary, NSString;
-
 @interface SFCollectionStyleRow : SFCollectionStyle
 {
     struct {
@@ -15,27 +13,12 @@
         unsigned int isInsetGrouped:1;
         unsigned int rowStyle:1;
     } _has;
-    _Bool _drawPlattersIfNecessary;
-    _Bool _isInsetGrouped;
-    int _rowStyle;
 }
 
 + (_Bool);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) NSDictionary *dictionaryRepresentation;
 @property(nonatomic) _Bool drawPlattersIfNecessary; // @synthesize drawPlattersIfNecessary=_drawPlattersIfNecessary;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) unsigned long long initiallyVisibleCardSectionCount;
-@property(nonatomic) _Bool isInsetGrouped; // @synthesize isInsetGrouped=_isInsetGrouped;
-@property(readonly, nonatomic) NSData *jsonData;
-@property(nonatomic) int rowStyle; // @synthesize rowStyle=_rowStyle;
-@property(readonly) Class superclass;
 
 @end
 

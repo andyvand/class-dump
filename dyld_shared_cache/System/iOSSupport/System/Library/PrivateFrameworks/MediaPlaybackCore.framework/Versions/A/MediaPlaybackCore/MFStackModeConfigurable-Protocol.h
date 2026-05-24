@@ -7,11 +7,14 @@
 @class NSString;
 
 @protocol MFStackModeConfigurable
+- (void);
+- (void)Rq;
+- (void);
+- (_Bool)ountStore"24;
+- (_Bool)0:8@"ACAccount"16@"ACDAccountStore"24 /* Error: Ran out of types for this method. */;
+- (_Bool):8@16i24@28@36 /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(nonatomic, readonly) _Bool isModeManagedSession;
-@property(nonatomic, readonly) _Bool isModeShared;
-@property(nonatomic, readonly) _Bool isModeSolo;
 @property(nonatomic, readonly) NSString *modeDescription;
 @end
 

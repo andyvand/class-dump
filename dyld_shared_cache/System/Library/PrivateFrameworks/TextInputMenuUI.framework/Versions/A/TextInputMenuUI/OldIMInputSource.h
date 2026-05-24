@@ -6,18 +6,17 @@
 
 #import <TextInputMenuUI/InputSource.h>
 
-@class NSBundle, NSString;
+@class NSString;
 
 @interface OldIMInputSource : InputSource
 {
     NSString *fComponentBundleID;
-    NSBundle *fSourceBundle;
 }
 
 + (id);
 - (id);
-- (id);
-- (id);
+- (id)_=;
+- (id)0;
 - (void);
 
 @end

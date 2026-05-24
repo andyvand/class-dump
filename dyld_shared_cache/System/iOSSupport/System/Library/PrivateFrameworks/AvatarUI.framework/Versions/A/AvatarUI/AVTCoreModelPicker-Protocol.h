@@ -4,14 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVTCoreModelPairing, AVTCoreModelPickerOptions, NSString;
+@class AVTCoreModelPickerOptions, NSString;
 
 @protocol AVTCoreModelPicker
+- (AVTCoreModelPickerOptions *)migratePasswordForAccount: /* Error: Ran out of types for this method. */;
+- (NSString *);
 
 // Remaining properties
 @property(readonly, copy, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) AVTCoreModelPickerOptions *options;
-@property(readonly, copy, nonatomic) AVTCoreModelPairing *pairing;
-@property(readonly, copy, nonatomic) NSString *title;
 @end
 

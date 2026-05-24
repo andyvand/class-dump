@@ -4,21 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSImage, NSString, NSTextField, VisualTabPickerGridView, VisualTabPickerShadowTileView;
-@protocol VisualTabPickerTileContainerDataSource, VisualTabPickerTileContainerDelegate;
+@class VisualTabPickerShadowTileView;
+@protocol VisualTabPickerTileContainerDataSource;
 
 __attribute__((visibility("hidden")))
 @interface VisualTabPickerTileContainerView
 {
     VisualTabPickerShadowTileView *_thumbnailView;
-    NSTextField *_title;
-    _Bool _didSetTileConstraints;
-    _Bool _visibleToUser;
-    _Bool _focused;
-    id <VisualTabPickerTileContainerDataSource> _dataSource;
-    id <VisualTabPickerTileContainerDelegate> _delegate;
-    VisualTabPickerGridView *_visualTabPickerGridView;
-    long long _tileContainerType;
 }
 
 - (_Bool);
@@ -35,7 +27,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void);
 - (long long);
 - (id);
 - (id);
@@ -66,7 +58,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void);
+- (void)WPObjectDiscovery;
 - (void);
 - (void)¤;
 - (_Bool);
@@ -75,20 +67,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(nonatomic) __weak id <VisualTabPickerTileContainerDataSource> dataSource; // @synthesize dataSource=_dataSource;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(nonatomic) __weak id <VisualTabPickerTileContainerDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(nonatomic, getter=isFocused) _Bool focused; // @synthesize focused=_focused;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) struct CGRect thumbnailContainerFrame;
-@property(nonatomic) long long tileContainerType; // @synthesize tileContainerType=_tileContainerType;
-@property(retain, nonatomic) NSImage *toolbarSnapshot;
-@property(nonatomic) _Bool visibleToUser; // @synthesize visibleToUser=_visibleToUser;
-@property(nonatomic) __weak VisualTabPickerGridView *visualTabPickerGridView; // @synthesize visualTabPickerGridView=_visualTabPickerGridView;
 
 @end
 

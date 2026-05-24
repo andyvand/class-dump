@@ -11,8 +11,8 @@
 }
 
 - (id);
-- (long long);
-- (unsigned long long);
+- (long long)auxiliaryCapabilityKeyCreationMetadata;
+- (unsigned long long)IMMetricsCollectorDurationBeforeDowngradeKey;
 
 // Remaining properties
 @property(readonly, nonatomic) long long fadeDuration;

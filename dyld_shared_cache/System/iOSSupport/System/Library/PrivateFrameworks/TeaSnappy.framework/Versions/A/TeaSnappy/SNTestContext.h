@@ -4,17 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, UIApplication;
+@class NSMutableDictionary, UIApplication;
 
 @interface SNTestContext
 {
     UIApplication *_application;
-    NSString *_testName;
-    NSMutableDictionary *_objects;
 }
 
-- (id);
-- (id);
+- (id)F;
+- (id)!;
 - (void);
 - (id);
 - (id);
@@ -22,9 +20,7 @@
 - (id);
 
 // Remaining properties
-@property(readonly, nonatomic) UIApplication *application; // @synthesize application=_application;
 @property(readonly, nonatomic) NSMutableDictionary *objects; // @synthesize objects=_objects;
-@property(readonly, nonatomic) NSString *testName; // @synthesize testName=_testName;
 
 @end
 

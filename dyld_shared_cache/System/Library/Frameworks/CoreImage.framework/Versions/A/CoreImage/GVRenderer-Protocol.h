@@ -5,19 +5,13 @@
 //
 
 @protocol GVRenderer
+- (_Bool);
+- (void);
 
 // Remaining properties
 @property(readonly) int direction;
 // Preceding property had unknown attributes: ?
 // Original attribute string: Ti,?,R
-
-@property(readonly) _Bool drawEdgesFirst;
-// Preceding property had unknown attributes: ?
-// Original attribute string: TB,?,R
-
-@property(readonly) struct CGSize separation;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T{CGSize=dd},?,R
 
 @end
 

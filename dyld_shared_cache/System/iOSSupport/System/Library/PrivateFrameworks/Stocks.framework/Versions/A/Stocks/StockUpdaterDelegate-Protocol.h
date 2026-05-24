@@ -5,5 +5,8 @@
 //
 
 @protocol StockUpdaterDelegate
+- (void)k|;
+- (void);
+- (void)m|;
 @end
 

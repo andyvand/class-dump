@@ -4,38 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDate, NSError, NSNumber, NSObject, NSString;
-@protocol OS_dispatch_group;
-
 @interface CKDPCSKeySyncTracker
 {
     _Bool _manatee;
-    _Bool _KRSReturnedExistingIdentity;
-    _Bool _racedWithGuitarfishRepairCallback;
-    NSString *_serviceName;
-    NSString *_accountDSID;
-    NSObject<OS_dispatch_group> *_syncGroup;
-    NSDate *_completionDate;
-    NSNumber *_syncStatus;
-    NSError *_syncError;
-    NSString *_requestorOperationID;
 }
 
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)b(;
 - (id);
+- (_Bool)qa;
 - (_Bool);
+- (void);
 - (_Bool);
 - (void);
-- (_Bool);
-- (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id)appleWriting_WritingAttribute_WritingsNounXiehouyu;
+- (id)UsoTaskBuilder_show_common_DigitalFace;
 - (void);
 - (void);
 - (id);
@@ -46,17 +34,7 @@
 - (id)rds/CKDModifyRecordHandler.m;
 
 // Remaining properties
-@property(nonatomic) _Bool KRSReturnedExistingIdentity; // @synthesize KRSReturnedExistingIdentity=_KRSReturnedExistingIdentity;
-@property(retain, nonatomic) NSString *accountDSID; // @synthesize accountDSID=_accountDSID;
-@property(retain, nonatomic) NSDate *completionDate; // @synthesize completionDate=_completionDate;
-@property(nonatomic, getter=isManatee) _Bool manatee; // @synthesize manatee=_manatee;
-@property(nonatomic) _Bool racedWithGuitarfishRepairCallback; // @synthesize racedWithGuitarfishRepairCallback=_racedWithGuitarfishRepairCallback;
-@property(copy, nonatomic) NSString *requestorOperationID; // @synthesize requestorOperationID=_requestorOperationID;
-@property(retain, nonatomic) NSString *serviceName; // @synthesize serviceName=_serviceName;
 @property(readonly, nonatomic) unsigned long long state;
-@property(retain, nonatomic) NSError *syncError; // @synthesize syncError=_syncError;
-@property(retain, nonatomic) NSObject<OS_dispatch_group> *syncGroup; // @synthesize syncGroup=_syncGroup;
-@property(retain, nonatomic) NSNumber *syncStatus; // @synthesize syncStatus=_syncStatus;
 
 @end
 

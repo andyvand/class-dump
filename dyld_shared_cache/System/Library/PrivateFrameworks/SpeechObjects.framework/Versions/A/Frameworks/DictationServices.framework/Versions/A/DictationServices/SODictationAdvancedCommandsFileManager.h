@@ -4,19 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, SODictationPreferences;
+@class NSNumber;
 
 @interface SODictationAdvancedCommandsFileManager
 {
     NSNumber *_advancedCommandsState;
-    SODictationPreferences *_dp;
 }
 
 + (id);
 - (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);

@@ -14,11 +14,11 @@ __attribute__((visibility("hidden")))
 
 + (Class);
 - (void);
-- (void);
+- (void)allPropertiesOfParticipant:(struct CGRect)arg1;
 - (id);
 - (void);
-- (void)allbackToBundleIcon:transparent:transitmode:interactive: /* Error: Ran out of types for this method. */;
-- (id)eSnapshotWithCompletionHandler:isReload: /* Error: Ran out of types for this method. */;
+- (void)imageForStyle:size:forScale:format:customIconID:fallbackToBundleIcon:transparent:transitmode:interactive: /* Error: Ran out of types for this method. */;
+- (id)_takeSnapshotWithCompletionHandler:isReload: /* Error: Ran out of types for this method. */;
 - (void)sionData;
 
 // Remaining properties

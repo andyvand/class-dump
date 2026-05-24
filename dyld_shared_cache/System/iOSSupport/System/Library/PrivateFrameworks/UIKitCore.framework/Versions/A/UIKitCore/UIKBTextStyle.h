@@ -9,52 +9,28 @@
 @interface UIKBTextStyle
 {
     _Bool _ignoreTextMarginOnKey;
-    _Bool _isVertical;
-    _Bool _needsFontCase;
-    _Bool _usesSymbolImage;
-    int _fontGrade;
-    NSString *_fontName;
-    double _fontSize;
-    double _imageScale;
-    double _minFontSize;
-    double _kerning;
-    double _textOpacity;
-    NSString *_textColor;
-    NSString *_etchColor;
-    long long _alignment;
-    double _pathWeight;
-    double _fontWeight;
-    double _fontWidth;
-    unsigned long long _anchorCorner;
-    long long _selector;
-    NSString *_keycapsFallback;
-    double _fontSizeForSymbolImage;
-    double _fontWeightForSymbolImage;
-    long long _symbolScale;
-    struct CGPoint _textOffset;
-    struct CGPoint _etchOffset;
 }
 
 + (id);
 + (id);
-+ (id)nDataKey;
++ (id)kViewRestorationDataKey;
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
-- (double);
+- (double);
 - (double);
 - (void);
 - (double);
 - (_Bool);
 - (_Bool);
-- (void);
-- (_Bool);
-- (void);
+- (void)setInvalidatingIntrinsicContentSizeAlsoInvalidatesSuperview:(double)arg1;
+- (_Bool)�;
+- (void);
 - (id);
-- (void);
-- (void);
-- (id);
+- (void)__MPModelPropertyTVSeasonDownloadedDate__MAPPING_MISSING__;
+- (void)tCreditsStartTime;
+- (id)q;
 - (struct CGPoint);
 - (int);
 - (void);
@@ -73,15 +49,15 @@
 - (void);
 - (long long)TestArchive";
 - (struct CGPoint)troller"32i40;
-- (void)aScriptEnabled;
-- (_Bool)ithHandler:(id)arg1;
-- (void)bserver;
-- (double)etSlideTransitionCount;
+- (void)isJavaScriptEnabled;
+- (_Bool)initWithPID:(id)arg1 flags:reason:name:withHandler: /* Error: Ran out of types for this method. */;
+- (void)_urlChangeObserver;
+- (double)_resetSlideTransitionCount;
 - (id)ence;
 - (void)ase;
-- (void)onBackgroundView;
-- (double)IRepeatingGestureClockDelegate;
-- (id)kGeneratorConfiguration;
+- (void)_UIAlertControllerAlternativeTVActionBackgroundView;
+- (double)_UIRepeatingGestureClockDelegate;
+- (id)_UIStatesFeedbackGeneratorConfiguration;
 - (id)Blocker;
 - (double)¸8;
 - (double);
@@ -101,31 +77,7 @@ Tap to switch scripts.;
 - (void)dÿ;
 
 // Remaining properties
-@property(nonatomic) long long alignment; // @synthesize alignment=_alignment;
-@property(nonatomic) unsigned long long anchorCorner; // @synthesize anchorCorner=_anchorCorner;
-@property(retain, nonatomic) NSString *etchColor; // @synthesize etchColor=_etchColor;
-@property(nonatomic) struct CGPoint etchOffset; // @synthesize etchOffset=_etchOffset;
-@property(nonatomic) int fontGrade; // @synthesize fontGrade=_fontGrade;
 @property(retain, nonatomic) NSString *fontName; // @synthesize fontName=_fontName;
-@property(nonatomic) double fontSize; // @synthesize fontSize=_fontSize;
-@property(nonatomic) double fontSizeForSymbolImage; // @synthesize fontSizeForSymbolImage=_fontSizeForSymbolImage;
-@property(nonatomic) double fontWeight; // @synthesize fontWeight=_fontWeight;
-@property(nonatomic) double fontWeightForSymbolImage; // @synthesize fontWeightForSymbolImage=_fontWeightForSymbolImage;
-@property(nonatomic) double fontWidth; // @synthesize fontWidth=_fontWidth;
-@property(nonatomic) _Bool ignoreTextMarginOnKey; // @synthesize ignoreTextMarginOnKey=_ignoreTextMarginOnKey;
-@property(nonatomic) double imageScale; // @synthesize imageScale=_imageScale;
-@property(nonatomic) _Bool isVertical; // @synthesize isVertical=_isVertical;
-@property(nonatomic) double kerning; // @synthesize kerning=_kerning;
-@property(retain, nonatomic) NSString *keycapsFallback; // @synthesize keycapsFallback=_keycapsFallback;
-@property(nonatomic) double minFontSize; // @synthesize minFontSize=_minFontSize;
-@property(nonatomic) _Bool needsFontCase; // @synthesize needsFontCase=_needsFontCase;
-@property(nonatomic) double pathWeight; // @synthesize pathWeight=_pathWeight;
-@property(nonatomic) long long selector; // @synthesize selector=_selector;
-@property(nonatomic) long long symbolScale; // @synthesize symbolScale=_symbolScale;
-@property(retain, nonatomic) NSString *textColor; // @synthesize textColor=_textColor;
-@property(nonatomic) struct CGPoint textOffset; // @synthesize textOffset=_textOffset;
-@property(nonatomic) double textOpacity; // @synthesize textOpacity=_textOpacity;
-@property(nonatomic) _Bool usesSymbolImage; // @synthesize usesSymbolImage=_usesSymbolImage;
 
 @end
 

@@ -13,7 +13,7 @@
     NSURL *_clipURL;
 }
 
-- (id);
+- (id);
 - (id);
 - (void);
 

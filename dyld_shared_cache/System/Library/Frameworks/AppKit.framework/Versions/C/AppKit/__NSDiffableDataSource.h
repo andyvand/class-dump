@@ -4,88 +4,77 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSCollectionView, NSObject, NSString, _NSDiffableDataSourceState, _NSDiffableDataSourceViewUpdater;
-@protocol OS_dispatch_queue;
+@class NSCollectionView;
 
 @interface __NSDiffableDataSource
 {
     NSCollectionView *_nsCollectionView;
-    CDUnknownBlockType _nsSupplementaryViewProvider;
-    CDUnknownBlockType _collectionViewItemProvider;
-    CDUnknownBlockType _nsCollectionViewItemReuseIdentifierProvider;
-    CDUnknownBlockType _nsCollectionViewItemConfigurationHandler;
-    _NSDiffableDataSourceViewUpdater *_viewUpdater;
-    NSObject<OS_dispatch_queue> *_applyQueue;
-    _Atomic long long _outstandingApplyCount;
-    NSObject<OS_dispatch_queue> *_snapshotQueue;
-    unsigned long long _mutationQueueSource;
-    _NSDiffableDataSourceState *_state;
 }
 
 - (void);
 - (void);
 - (void);
+- (CDUnknownBlockType)eraOffset_2D path;
+- (CDUnknownBlockType)RrhB72r1de9N65EG4pgqJw;
+- (CDUnknownBlockType)t6000;
+- (id)pt-in;
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
 - (CDUnknownBlockType);
-- (CDUnknownBlockType);
-- (CDUnknownBlockType);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (CDUnknownBlockType);
-- (id);
-- (id);
-- (id);
-- (id);
+- (id)ne_socket_set_website_attribution;
+- (id)ne_socket_set_attribution;
 - (id);
 - (long long);
 - (long long);
 - (id);
 - (id);
+- (void)backgroundTask:(id)arg1 didReceiveChallenge:(_Bool)arg2 reply:(CDUnknownBlockType)arg3;
+- (void)backgroundSessionDidStartAppWake:(id)arg1 reply:(id)arg2;
+- (void)backgroundSessionConfigurationWithIdentifier:(id)arg1;
+- (void)TB,V_allowTCPIOConnectionStreamTask;
+- (void)s;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (id)|;
+- (_Bool)2C0;
+- (long long);
 - (id);
+- (id);
+- (void);
+- (void);
 - (_Bool);
-- (long long);
-- (id);
-- (id);
 - (void);
+- (unsigned long long);
 - (void);
-- (_Bool);
-- (void);
-- (unsigned long long);
-- (void);
-- (id);
+- (id)`;
 - (void);
 - (void);
 - (id);
 - (void);
-- (long long)bPickerTileContainerView: /* Error: Ran out of types for this method. */;
-- (long long)Enabled;
-- (long long)djustFocusRingSize:(id)arg1;
+- (long long)numberOfTilesInNSVisualTabPickerTileContainerView: /* Error: Ran out of types for this method. */;
+- (long long)automaticInlinePredictionEnabled;
+- (long long)_adjustFocusRingSize:(id)arg1;
 - (void)tø,;
 - (id)0à;
 - (id);
 - (void)è;
-- (long long)groundColors;
+- (long long)textBackgroundColors;
 - (void)rsistenceSignHere, &newMetadata.signature, sizeof newMetadata.signature, &unused);
 - (void)sages.ShareExtension;
-- (id)s_NSDP_NSDPTypeSize;
+- (id)cons_NSDP_NSDPTypeSize;
 - (id)e) _didPresentErrorWithRecovery:(long long)arg1 contextInfo:] /* Error: Ran out of types for this method. */;
 - (void)atterns failed with error:(id)arg1 %@;
 - (void)ctions (%lu); ignoring them:(id)arg1 %@;
-- (void);
+- (void)NSRuleEditorRowTypeKeyPath;
 - (void)boardmanager;
-- (void)e;
+- (void)NSWindowSupportsAutoLayoutValidSize;
 - (void)y corruption.;
 - (id)s;
-- (id)e;
+- (id)SizeChange;
 - (id)OUND:%@ <%p> /* Error: Ran out of types for this method. */;
 - (void)single PDF file only.;
 - (void)title extra;
@@ -95,12 +84,12 @@
 - (long long)11864966.;
 - (id)ect, typeHICommand, NULL, sizeof command, NULL, &command);
 - (void)t, NULL, sizeof contextHeight, NULL, &contextHeight);
-- (id)ClipViewHeight;
+- (id)NSScrollViewLiveScrollStepSizeUsesClipViewHeight;
 - (void)for bindings already bound, binding %@ is not;
-- (id);
-- (void)TypeRightPressed;
+- (id)NSAlternateQuitMenuItem;
+- (void)kCUISegmentSeparatorTypeRightPressed;
 - (void)cause touch is resting;
-- (void)TFontFeatureSettingsAttribute;
+- (void)NSCTFontFeatureSettingsAttribute;
 - (void)Ýâ;
 - (long long);
 - (id))hèN.ÿ;
@@ -116,32 +105,7 @@
 - (void)Ä@;
 
 // Remaining properties
-@property(readonly, nonatomic) __weak NSCollectionView *_nsCollectionView;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *applyQueue; // @synthesize applyQueue=_applyQueue;
-@property(copy, nonatomic) CDUnknownBlockType collectionViewItemProvider; // @synthesize collectionViewItemProvider=_collectionViewItemProvider;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSArray *itemIdentifiers;
-@property unsigned long long mutationQueueSource; // @synthesize mutationQueueSource=_mutationQueueSource;
-@property(readonly, nonatomic) __weak NSCollectionView *nsCollectionView;
-@property(copy, nonatomic) CDUnknownBlockType nsCollectionViewItemConfigurationHandler; // @synthesize nsCollectionViewItemConfigurationHandler=_nsCollectionViewItemConfigurationHandler;
 @property(copy, nonatomic) CDUnknownBlockType nsCollectionViewItemReuseIdentifierProvider; // @synthesize nsCollectionViewItemReuseIdentifierProvider=_nsCollectionViewItemReuseIdentifierProvider;
-@property(copy, nonatomic) CDUnknownBlockType nsSupplementaryViewProvider; // @synthesize nsSupplementaryViewProvider=_nsSupplementaryViewProvider;
-@property(readonly, nonatomic) long long numberOfItems;
-@property(readonly, nonatomic) long long numberOfSections;
-@property(readonly, nonatomic) _Atomic long long outstandingApplyCount; // @synthesize outstandingApplyCount=_outstandingApplyCount;
-@property(readonly, nonatomic) NSArray *reconfiguredItemIdentifiers;
-@property(readonly, nonatomic) NSArray *reloadedItemIdentifiers;
-@property(readonly, nonatomic) NSArray *reloadedSectionIdentifiers;
-@property(readonly, nonatomic) NSArray *sectionIdentifiers;
-@property(readonly, nonatomic) NSObject<OS_dispatch_queue> *snapshotQueue; // @synthesize snapshotQueue=_snapshotQueue;
-@property(retain, nonatomic) _NSDiffableDataSourceState *state; // @synthesize state=_state;
-@property(readonly) Class superclass;
-@property(retain, nonatomic) _NSDiffableDataSourceViewUpdater *viewUpdater; // @synthesize viewUpdater=_viewUpdater;
 
 @end
 

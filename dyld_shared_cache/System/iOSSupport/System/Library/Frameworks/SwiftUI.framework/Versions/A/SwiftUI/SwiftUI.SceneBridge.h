@@ -7,22 +7,6 @@
 @interface SwiftUI.SceneBridge
 {
     id sceneBridgePublishers;
-    id windowScene;
-    id rootViewController;
-    id sceneDefinitionOptionsSeedTracker;
-    id sceneDefinitionOptions;
-    id titleSeedTracker;
-    id colorSchemeSeed;
-    id subtitleSeedTracker;
-    id initialUserActivity;
-    id viewGraph;
-    id _preferredActivationConditions;
-    id defaultActivationConditions;
-    id userActivityTrackingInfo;
-    id userActivityPreferenceSeed;
-    id activationConditionsPreferenceSeed;
-    id initialSceneSizeState;
-    id enqueuedEvents;
 }
 
 @end

@@ -4,8 +4,6 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface PXStoryBufferingStatusViewConfiguration
 {
     _Bool _wantsBackground;
@@ -13,22 +11,11 @@
 
 - (void);
 - (_Bool);
-- (unsigned long long);
+- (unsigned long long);
 - (_Bool);
-- (id)abledShelvesLazyVStack:(struct _NSZone *)arg1;
+- (id)setEnabledShelvesLazyVStack:(struct _NSZone *)arg1;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) long long viewFloatingAxis;
-// Preceding property had unknown attributes: ?
-// Original attribute string: Tq,?,R,N
-
 @property(nonatomic) _Bool wantsBackground; // @synthesize wantsBackground=_wantsBackground;
 
 @end

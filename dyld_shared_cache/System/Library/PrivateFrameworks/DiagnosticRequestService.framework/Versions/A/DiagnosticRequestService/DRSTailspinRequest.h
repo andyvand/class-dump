@@ -6,24 +6,18 @@
 
 #import <DiagnosticRequestService/DRSRequest.h>
 
-@class NSNumber;
-
 @interface DRSTailspinRequest : DRSRequest
 {
     _Bool _includeOsSignpost;
-    _Bool _includeOsLog;
-    _Bool _scrubbed;
-    NSNumber *_minMAT;
-    NSNumber *_maxMAT;
 }
 
-+ (Class);
++ (Class)G;
 + (_Bool);
 + (void);
 + (_Bool);
 + (id);
 + (void);
-+ (id)onfiguration;
++ (id)drmResourceUsageConfiguration;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -39,15 +33,11 @@
 - (_Bool);
 - (id);
 - (void);
-- (id);
+- (id)@;
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool includeOsLog; // @synthesize includeOsLog=_includeOsLog;
 @property(readonly, nonatomic) _Bool includeOsSignpost; // @synthesize includeOsSignpost=_includeOsSignpost;
-@property(readonly, nonatomic) NSNumber *maxMAT; // @synthesize maxMAT=_maxMAT;
-@property(readonly, nonatomic) NSNumber *minMAT; // @synthesize minMAT=_minMAT;
-@property(readonly, nonatomic) _Bool scrubbed; // @synthesize scrubbed=_scrubbed;
 
 @end
 

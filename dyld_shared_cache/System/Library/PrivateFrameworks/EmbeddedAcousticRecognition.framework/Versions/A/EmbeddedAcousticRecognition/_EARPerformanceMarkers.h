@@ -9,8 +9,6 @@
 @interface _EARPerformanceMarkers
 {
     NSArray *_correctPartialResultIndexList;
-    NSArray *_correctAlignedPartialResultIndexList;
-    NSArray *_tokenDelayInMilliSeconds;
 }
 
 + (_Bool);
@@ -18,16 +16,14 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)certificateChain;
 - (_Bool);
 - (void);
 - (id);
 - (void)@H;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSArray *correctAlignedPartialResultIndexList; // @synthesize correctAlignedPartialResultIndexList=_correctAlignedPartialResultIndexList;
 @property(readonly, copy, nonatomic) NSArray *correctPartialResultIndexList; // @synthesize correctPartialResultIndexList=_correctPartialResultIndexList;
-@property(readonly, copy, nonatomic) NSArray *tokenDelayInMilliSeconds; // @synthesize tokenDelayInMilliSeconds=_tokenDelayInMilliSeconds;
 
 @end
 

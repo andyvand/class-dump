@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class CIContext, NSObject, NSString;
+@class CIContext, NSObject;
 @protocol OS_dispatch_queue;
 
 @interface NURenderer
 {
     NSObject<OS_dispatch_queue> *_queue;
-    CIContext *_context;
 }
 
 + (id);
@@ -21,10 +20,10 @@
 + (struct CGColorSpace *);
 + (int);
 - (id);
+- (id);
 - (id);
 - (id);
-- (id);
-- (_Bool);
+- (_Bool)_;
 - (void);
 - (id);
 - (id);
@@ -35,14 +34,6 @@
 
 // Remaining properties
 @property(readonly, nonatomic) CIContext *context; // @synthesize context=_context;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSString *name;
-@property(readonly) Class superclass;
 
 @end
 

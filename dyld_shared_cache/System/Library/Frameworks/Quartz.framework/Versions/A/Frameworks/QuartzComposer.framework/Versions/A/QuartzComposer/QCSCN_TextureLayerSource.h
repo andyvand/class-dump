@@ -11,16 +11,13 @@
 @interface QCSCN_TextureLayerSource : QCSCN_TextureOffscreenRenderingSource
 {
     CALayer *_layerContainer;
-    CALayer *_layer;
-    double _lastUpdate;
-    double _nextUpdateDate;
 }
 
 - (struct __C3DTexture *);
 - (void);
 - (double);
 - (double);
-- (void);
+- (void)D;
 - (id);
 - (void)pthread_mutex_t=q[56c]}}16;
 

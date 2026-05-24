@@ -6,25 +6,11 @@
 
 #import <PhotosUICore/PXVideoContentProvider.h>
 
-@class NSArray, NSMutableDictionary, NSObject, NSString, PXMediaProvider;
-@protocol OS_dispatch_queue, PXAVResourceReclamationController, PXDisplayAsset;
+@protocol PXAVResourceReclamationController;
 
 @interface PXDisplayAssetVideoContentProvider : PXVideoContentProvider
 {
     long long _videoRequestID;
-    NSObject<OS_dispatch_queue> *_loadingQueue;
-    NSObject<OS_dispatch_queue> *_postprocessingQueue;
-    NSMutableDictionary *_loadingQueue_requestsByPriority;
-    long long _loadingQueue_lastRequestedPriority;
-    id <PXDisplayAsset> _loadingQueue_asset;
-    double _videoAspectRatio;
-    NSArray *_strategies;
-    _Bool _requestURLOnly;
-    _Bool _mayContainAudio;
-    NSString *_contentIdentifier;
-    long long _audioSessionKind;
-    PXMediaProvider *_mediaProvider;
-    id <PXAVResourceReclamationController> _resourceReclamationController;
 }
 
 - (id);
@@ -36,9 +22,9 @@
 - (void);
 - (id);
 - (id);
-- (void);
+- (void);
 - (long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -50,29 +36,19 @@
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)TSKDocumentRootProvider;
 - (id);
 - (id);
 - (id);
 - (id)!(Ð!Gù1<°1Â0@ù
 × ;
 - (void)ope(PHPhotoLibrary *__strong _Nonnull, NSArray<NSString *> *__strong _Nonnull, NSArray<NSString *> *__strong _Nonnull, PHLibraryScopeAutoSharePolicy, NSDate * _Nullable __strong, NSArray<NSString *> *__strong _Nonnull, NSProgress * _Nullable __strong, __strong id<PXPresentationEnvironment> _Nonnull, void (^ _Nullable __strong)(PHLibraryScope * _Nullable __strong, NSError * _Nullable __strong));
-- (void)wnloading;
+- (void)downloading;
 - (id)upported in PXSharedLibraryIncludedPeopleDataSourceManager.;
 - (void)Ì¶D*;
 
 // Remaining properties
-@property(retain, nonatomic) id <PXDisplayAsset> asset;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) PXMediaProvider *mediaProvider; // @synthesize mediaProvider=_mediaProvider;
-@property(readonly, nonatomic) _Bool needsPostprocessing;
 @property(readonly, nonatomic) id <PXAVResourceReclamationController> resourceReclamationController; // @synthesize resourceReclamationController=_resourceReclamationController;
-@property(readonly) Class superclass;
 
 @end
 

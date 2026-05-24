@@ -9,39 +9,32 @@
 @interface CKCDPInitializeContainerRequest
 {
     NSString *_containerName;
-    NSString *_environment;
-    NSString *_path;
 }
 
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
-- (void);
-- (void);
-- (unsigned long long);
+- (void)ATLStateSPIdentifierRaw;
+- (void)$;
+- (unsigned long long)shmemSourceReader_Flush;
 - (_Bool);
 - (_Bool);
 - (unsigned int);
 - (void);
 - (void);
-- (_Bool);
+- (_Bool)rsistence";
 - (void);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id)back: /* Error: Ran out of types for this method. */;
-- (Class)chingAssetsForRereference;
+- (id)setRacedWithGuitarfishRepairCallback: /* Error: Ran out of types for this method. */;
+- (Class)_fetchingAssetsForRereference;
 - (void)efault zone %ld %ld %@;
 
 // Remaining properties
-@property(retain, nonatomic) NSString *containerName; // @synthesize containerName=_containerName;
-@property(retain, nonatomic) NSString *environment; // @synthesize environment=_environment;
 @property(readonly, nonatomic) _Bool hasContainerName;
-@property(readonly, nonatomic) _Bool hasEnvironment;
-@property(readonly, nonatomic) _Bool hasPath;
-@property(retain, nonatomic) NSString *path; // @synthesize path=_path;
 
 @end
 

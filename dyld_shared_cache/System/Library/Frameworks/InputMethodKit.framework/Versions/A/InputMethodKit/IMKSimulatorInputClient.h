@@ -4,16 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString, NSTextView;
+@class NSString, NSTextView;
 
 @interface IMKSimulatorInputClient
 {
     NSString *_applicationContext;
-    _Bool _hasTouchBar;
-    unsigned long long _incrementalSearchClientGeometry;
-    _Bool _isIncrementalSearchInputContext;
-    NSTextView *_textView;
-    NSMutableDictionary *_methodCounts;
 }
 
 - (void);
@@ -26,7 +21,7 @@
 - (_Bool);
 - (void);
 - (void);
-- (id);
+- (id)a;
 - (id);
 - (id);
 - (id);
@@ -50,7 +45,7 @@
 - (id);
 - (void);
 - (id);
-- (long long);
+- (long long)=;
 - (void);
 - (id);
 - (id);
@@ -59,11 +54,6 @@
 × ;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *applicationContext; // @synthesize applicationContext=_applicationContext;
-@property(nonatomic) _Bool hasTouchBar; // @synthesize hasTouchBar=_hasTouchBar;
-@property(nonatomic) unsigned long long incrementalSearchClientGeometry; // @synthesize incrementalSearchClientGeometry=_incrementalSearchClientGeometry;
-@property(nonatomic) _Bool isIncrementalSearchInputContext; // @synthesize isIncrementalSearchInputContext=_isIncrementalSearchInputContext;
-@property(retain, nonatomic) NSMutableDictionary *methodCounts; // @synthesize methodCounts=_methodCounts;
 @property(retain, nonatomic) NSTextView *textView; // @synthesize textView=_textView;
 
 @end

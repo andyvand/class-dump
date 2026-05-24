@@ -5,5 +5,7 @@
 //
 
 @protocol RTMetricManagerMetricIdProtocol
+- (id)virtual_quic_server_connection_id;
+- (long long)?;
 @end
 

@@ -4,33 +4,29 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class IDSPhoneSubscriptionSelector, NSArray, TUHandle;
+@class IDSPhoneSubscriptionSelector;
 
 @interface FaceTimeAccountFetcher
 {
     IDSPhoneSubscriptionSelector *_phoneSubscriptionSelector;
-    NSArray *_accounts;
 }
 
+- (id)r;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (_Bool);
-- (id);
+- (id)L&:(id)arg1 z;
 - (_Bool);
 - (_Bool);
+- (void)criptor";
 - (void);
-- (void);
-- (id);
-- (id);
+- (id)d;
+- (id);
 - (void)åüÿeBÿÿ;
 
 // Remaining properties
-@property(copy, nonatomic) NSArray *accounts; // @synthesize accounts=_accounts;
-@property(readonly, nonatomic) TUHandle *defaultSelectedCallerID;
 @property(retain, nonatomic) IDSPhoneSubscriptionSelector *phoneSubscriptionSelector; // @synthesize phoneSubscriptionSelector=_phoneSubscriptionSelector;
-@property(readonly, copy, nonatomic) NSArray *validCallerIDs;
 
 @end
 

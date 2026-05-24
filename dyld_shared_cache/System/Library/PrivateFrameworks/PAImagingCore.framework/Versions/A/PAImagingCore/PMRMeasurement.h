@@ -4,17 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface PMRMeasurement
 {
     NSString *_valueAsString;
-    NSString *_observationTimestampAsString;
-    NSString *_key;
-    NSNumber *_value;
-    NSString *_comment;
-    double _observationTimestamp;
-    NSString *_units;
 }
 
 + (id);
@@ -28,7 +22,7 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void));
 - (void);
 - (void);
 - (void);
@@ -44,11 +38,7 @@
 - (void);
 
 // Remaining properties
-@property(retain, nonatomic) NSString *comment; // @synthesize comment=_comment;
 @property(retain, nonatomic) NSString *key; // @synthesize key=_key;
-@property(nonatomic) double observationTimestamp; // @synthesize observationTimestamp=_observationTimestamp;
-@property(retain, nonatomic) NSString *units; // @synthesize units=_units;
-@property(retain, nonatomic) NSNumber *value; // @synthesize value=_value;
 
 @end
 

@@ -20,13 +20,13 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool)ionStyle;
+- (_Bool)_didHideAlertController:(id)arg1;
+- (_Bool)_builtinTransitionStyle;
 - (id)ace;
 - (_Bool);
 - (id);
 - (_Bool)ingdirect.www;
-- (void)ntrollerSceneContextScreenReferenceDisplayModeStatus;
+- (void)_UIRemoteViewControllerSceneContextScreenReferenceDisplayModeStatus;
 - (void)¥ù23S;
 - (void)LayerPool;
 

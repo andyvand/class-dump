@@ -4,18 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableArray, NSObject;
+@class NSObject;
 @protocol OS_dispatch_source;
 
 @interface BWIOSurfacePoller
 {
     NSObject<OS_dispatch_source> *_pollingTimer;
-    struct os_unfair_lock_s _trackedSurfacesLock;
-    NSMutableArray *_trackedSurfaces;
 }
 
 + (void);
-- (void);
+- (void)x3;
 - (id);
 
 @end

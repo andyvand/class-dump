@@ -4,28 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObjectController, NSString;
+@class NSObjectController;
 
 __attribute__((visibility("hidden")))
 @interface _NSControllerArrayProxyMutatorArray
 {
     NSObjectController *_controller;
-    NSString *_keyPath;
 }
 
 - (id);
 - (void);
-- (id);
+- (id)icy now;
 - (void);
-- (void);
+- (void)i;
 - (void);
 - (id);
 - (void)1Â0@ù
 × ;
-- (id)zeCategory;
+- (id)effectiveContentSizeCategory;
 - (void)¸;
 - (void)<;
-- (unsigned long long)alue;
+- (unsigned long long)value;
 - (void)utsQuickActionValidation.m;
 
 @end

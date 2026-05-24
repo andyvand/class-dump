@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIImage, UIView;
+@class UIView;
 
 __attribute__((visibility("hidden")))
 @interface LPAnimationMaskView
 {
     long long _animationOrigin;
-    UIImage *_image;
-    UIView *_imageView;
 }
 
 - (void);
 - (void);
 - (long long);
+- (void)center center;background-repeat:(id)arg1 no-repeat;}.ad--iphone.ad--htmlinterstitial {background-position:top center;}</style><script src="mraid.js"></script></head><body><article onClick="mraid.open('https://apple.news/subscription')" id="ad-content" class="ad ad--ipad ad--large"></article><script>function changeClass() {var obj = document.getElementById('ad-content');if( Math.abs(window.orientation) === 90 ) {obj.classList.remove('ad--portrait');obj.classList.add('ad--landscape');} else {obj.classList.remove('ad--landscape');obj.classList.add('ad--portrait');}}if('large' === 'htmlinterstitial' && 'ipad' === 'iphone') {window.addEventListener('orientationchange', changeClass);window.addEventListener('resize', changeClass);window.addEventListener('load', changeClass);}</script></body></html> /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
 - (id);
 - (id);
-- (id);
+- (id)i6;
 - (void)0@ù
 × ;
 
 // Remaining properties
-@property(nonatomic, setter=setAnimationOrigin:) long long animationOrigin; // @synthesize animationOrigin=_animationOrigin;
-@property(retain, nonatomic, setter=setImage:) UIImage *image; // @synthesize image=_image;
 @property(readonly, nonatomic) UIView *imageView; // @synthesize imageView=_imageView;
 
 @end

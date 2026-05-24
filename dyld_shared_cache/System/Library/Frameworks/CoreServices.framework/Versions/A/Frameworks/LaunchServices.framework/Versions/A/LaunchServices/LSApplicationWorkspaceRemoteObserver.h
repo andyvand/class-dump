@@ -4,38 +4,34 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSHashTable, NSObject, NSString, NSUUID;
-@protocol OS_dispatch_queue;
+@class NSUUID;
 
 __attribute__((visibility("hidden")))
 @interface LSApplicationWorkspaceRemoteObserver
 {
     NSUUID *_uuid;
-    NSHashTable *_observers;
-    NSObject<OS_dispatch_queue> *_progressSubscriptionsQueue;
-    _Bool _observinglsd;
 }
 
-+ (_Bool);
++ (_Bool)40;
 - (unsigned long long);
 - (void);
 - (void);
 - (void);
 - (void);
+- (id)T;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (void);
-- (void);
-- (void);
-- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -49,25 +45,17 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)ender property inheritBlendColor cannot be set to NO with Compute Indirect Command Type;
 - (id);
 - (void)6°1Â0@ù
 × ;
 - (void)1Â0@ù
 × ;
-- (id)bleID:unitID:unitBytes: /* Error: Ran out of types for this method. */;
+- (id)_declaringBundleRecordWithContext:tableID:unitID:unitBytes: /* Error: Ran out of types for this method. */;
 - (void);
 - (void)d app:(id)arg1 %{public}@;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(getter=isObservinglsd) _Bool observinglsd; // @synthesize observinglsd=_observinglsd;
-@property(readonly) Class superclass;
 @property(retain, nonatomic) NSUUID *uuid; // @synthesize uuid=_uuid;
 
 @end

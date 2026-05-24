@@ -4,23 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSData, NSLock, NSMutableArray, NSXPCConnection, SUOSUAuthenticationManager, SUOSUTelemetryManager, SUPowerAssertionManager;
+@class NSXPCConnection;
 
 @interface SUOSUUpdateController
 {
     _Bool _authorizedForSoftwareInstall;
-    CDUnknownBlockType _customInterruptionHandler;
-    NSData *_clientExternalizedLAContext;
-    NSXPCConnection *_legacyServiceConnection;
-    NSLock *_legacyServiceConnectionLock;
-    NSXPCConnection *_serviceConnection;
-    NSLock *_serviceConnectionLock;
-    SUPowerAssertionManager *_powerAssertionManager;
-    SUOSUTelemetryManager *_telemetryManager;
-    NSMutableArray *_downloadProgressHandlers;
-    NSMutableArray *_downloadCompletionHandlers;
-    NSMutableArray *_splatRollbackCompletionHandlers;
-    SUOSUAuthenticationManager *_authenticationManager;
 }
 
 + (id);
@@ -41,11 +29,11 @@
 - (_Bool);
 - (id);
 - (void);
+- (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -68,7 +56,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -87,12 +75,12 @@
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)A;
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)h;
 - (void);
 - (void);
 - (void);
@@ -103,7 +91,7 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool);
 - (void);
 - (id);
 - (id);
@@ -120,7 +108,7 @@
 - (unsigned long long);
 - (_Bool);
 - (id);
-- (void);
+- (void)U;
 - (_Bool);
 - (id);
 - (void);
@@ -141,34 +129,34 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)`;
 - (void);
 - (id);
 - (id);
 - (_Bool);
 - (CDUnknownBlockType);
 - (id);
+- (unsigned long long)A;
+- (id);
+- (_Bool);
+- (_Bool);
+- (void);
+- (id);
+- (id);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (_Bool);
+- (id);
 - (unsigned long long);
-- (id);
-- (_Bool);
-- (_Bool);
-- (void);
-- (id);
-- (id);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (void);
-- (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (_Bool);
-- (id);
-- (unsigned long long);
 - (_Bool);
 - (void);
 - (void);
@@ -182,11 +170,11 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (id);
 - (id);
@@ -221,29 +209,17 @@
 - (void);
 - (id);
 - (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
 - (id);
 - (void);
-- (void)ated;
-- (id)te;
+- (void)isSimulated;
+- (id)PreviousScanDate;
 
 // Remaining properties
-@property(retain) SUOSUAuthenticationManager *authenticationManager; // @synthesize authenticationManager=_authenticationManager;
-@property _Bool authorizedForSoftwareInstall; // @synthesize authorizedForSoftwareInstall=_authorizedForSoftwareInstall;
-@property(retain) NSData *clientExternalizedLAContext; // @synthesize clientExternalizedLAContext=_clientExternalizedLAContext;
-@property(copy) CDUnknownBlockType customInterruptionHandler; // @synthesize customInterruptionHandler=_customInterruptionHandler;
-@property(retain) NSMutableArray *downloadCompletionHandlers; // @synthesize downloadCompletionHandlers=_downloadCompletionHandlers;
-@property(retain) NSMutableArray *downloadProgressHandlers; // @synthesize downloadProgressHandlers=_downloadProgressHandlers;
 @property(retain) NSXPCConnection *legacyServiceConnection; // @synthesize legacyServiceConnection=_legacyServiceConnection;
-@property(retain, nonatomic) NSLock *legacyServiceConnectionLock; // @synthesize legacyServiceConnectionLock=_legacyServiceConnectionLock;
-@property(retain) SUPowerAssertionManager *powerAssertionManager; // @synthesize powerAssertionManager=_powerAssertionManager;
-@property(retain) NSXPCConnection *serviceConnection; // @synthesize serviceConnection=_serviceConnection;
-@property(retain, nonatomic) NSLock *serviceConnectionLock; // @synthesize serviceConnectionLock=_serviceConnectionLock;
-@property(retain) NSMutableArray *splatRollbackCompletionHandlers; // @synthesize splatRollbackCompletionHandlers=_splatRollbackCompletionHandlers;
-@property(retain) SUOSUTelemetryManager *telemetryManager; // @synthesize telemetryManager=_telemetryManager;
 
 @end
 

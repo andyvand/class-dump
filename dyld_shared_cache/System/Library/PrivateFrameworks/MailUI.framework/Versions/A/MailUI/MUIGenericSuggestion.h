@@ -6,12 +6,11 @@
 
 #import <MailUI/MUISearchAtomSuggestion.h>
 
-@class CSSuggestion, NSAttributedString, NSColor;
+@class CSSuggestion;
 
 @interface MUIGenericSuggestion : MUISearchAtomSuggestion
 {
     CSSuggestion *_spotlightSuggestion;
-    _Bool _isAllMailboxes;
 }
 
 + (id);
@@ -23,9 +22,9 @@
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id);
+- (id)H;
+- (id)T	;
 - (_Bool);
 - (id);
 - (id);
@@ -34,17 +33,14 @@
 - (void);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id)!hBù±xð1Â0@ù
 × ;
-- (id)eView:viewForTableColumn:row: /* Error: Ran out of types for this method. */;
-- (void)pe: /* Error: Ran out of types for this method. */;
+- (id)tableView:viewForTableColumn:row: /* Error: Ran out of types for this method. */;
+- (void)predicateForMessagesInMailboxWithType: /* Error: Ran out of types for this method. */;
 - (long long), isEditing=%@, didAlertOnBlankCell=%@, didRecordTailspin=%@, isSearch=%@, sortDescriptors=%@;
 
 // Remaining properties
-@property(readonly, nonatomic) NSAttributedString *attributedTitle;
-@property(readonly, nonatomic) NSColor *imageTintColor;
-@property(readonly, nonatomic) _Bool isRecent;
 @property(readonly, nonatomic) long long resultCount;
 
 @end

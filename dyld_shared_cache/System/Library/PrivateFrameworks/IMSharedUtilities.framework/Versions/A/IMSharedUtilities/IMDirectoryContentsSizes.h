@@ -7,18 +7,14 @@
 @interface IMDirectoryContentsSizes
 {
     struct IMFileSize _totalSize;
-    struct IMFileSize _totalPurgableSize;
-    struct IMFileSize _totalAttachmentSize;
 }
 
 - (struct IMFileSize);
-- (struct IMFileSize);
+- (struct IMFileSize);
 - (id);
-- (struct IMFileSize)erStateForThumbnailMode:success: /* Error: Ran out of types for this method. */;
+- (struct IMFileSize)finalTransferStateForThumbnailMode:success: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, nonatomic) struct IMFileSize totalAttachmentSize; // @synthesize totalAttachmentSize=_totalAttachmentSize;
-@property(readonly, nonatomic) struct IMFileSize totalPurgableSize; // @synthesize totalPurgableSize=_totalPurgableSize;
 @property(readonly, nonatomic) struct IMFileSize totalSize; // @synthesize totalSize=_totalSize;
 
 @end

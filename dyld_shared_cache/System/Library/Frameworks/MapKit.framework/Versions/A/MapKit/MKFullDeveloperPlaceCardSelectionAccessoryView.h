@@ -10,7 +10,6 @@ __attribute__((visibility("hidden")))
 @interface MKFullDeveloperPlaceCardSelectionAccessoryView : MKViewSwitchingSelectionAccessoryView
 {
     _Bool _isStandAlonePlaceCard;
-    _Bool _hideInlineMap;
 }
 
 - (id);

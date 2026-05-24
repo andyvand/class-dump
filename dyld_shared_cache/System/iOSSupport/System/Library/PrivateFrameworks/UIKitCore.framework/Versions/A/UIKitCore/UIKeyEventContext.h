@@ -9,27 +9,21 @@
 @interface UIKeyEventContext
 {
     _Bool _documentIsEditable;
-    _Bool _shouldInsertChar;
-    _Bool _shouldEvaluateForInputSystemHandling;
-    UIKeyEvent *_keyEvent;
 }
 
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (id);
-- (id);
-- (_Bool);
-- (id);
+- (void)add group photo to CKRecord. Returning nil.;
+- (id):%@ /* Error: Ran out of types for this method. */;
+- (id)ownload;
+- (_Bool)ize;
+- (id)!";
 - (void)Ã;
 
 // Remaining properties
-@property(nonatomic) _Bool documentIsEditable; // @synthesize documentIsEditable=_documentIsEditable;
 @property(readonly, nonatomic) UIKeyEvent *keyEvent; // @synthesize keyEvent=_keyEvent;
-@property(nonatomic) _Bool shouldEvaluateForInputSystemHandling; // @synthesize shouldEvaluateForInputSystemHandling=_shouldEvaluateForInputSystemHandling;
-@property(nonatomic) _Bool shouldInsertChar; // @synthesize shouldInsertChar=_shouldInsertChar;
 
 @end
 

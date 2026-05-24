@@ -8,8 +8,8 @@
 {
 }
 
-+ (_Bool);
-+ (_Bool);
++ (_Bool)SafariOBPrivacyPresenterExtras;
++ (_Bool)DownloadLocationServiceSaveFileDataProvider;
 
 @end
 

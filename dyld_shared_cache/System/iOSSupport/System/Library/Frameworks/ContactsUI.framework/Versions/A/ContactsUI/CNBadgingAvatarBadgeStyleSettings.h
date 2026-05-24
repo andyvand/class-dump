@@ -4,24 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIColor;
-
 @interface CNBadgingAvatarBadgeStyleSettings
 {
     long long _position;
-    UIColor *_color;
-    UIColor *_backgroundColor;
-    long long _cropStyle;
-    long long _contentMode;
 }
 
-+ (id);
++ (id)a;
 + (id);
 + (long long);
-+ (unsigned long long);
++ (unsigned long long)c;
 - (id);
 - (unsigned long long);
-- (long long);
+- (long long)C;
 - (void);
 - (long long);
 - (void);
@@ -38,10 +32,6 @@
 - (void)aderViewDelegate>",W,N,V_contactHeaderViewDelegate;
 
 // Remaining properties
-@property(retain, nonatomic) UIColor *backgroundColor; // @synthesize backgroundColor=_backgroundColor;
-@property(retain, nonatomic) UIColor *color; // @synthesize color=_color;
-@property(nonatomic) long long contentMode; // @synthesize contentMode=_contentMode;
-@property(nonatomic) long long cropStyle; // @synthesize cropStyle=_cropStyle;
 @property(nonatomic) long long position; // @synthesize position=_position;
 
 @end

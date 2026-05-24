@@ -9,38 +9,37 @@
 @interface AMSTreatmentStore
 {
     AMSEngagement *_engagement;
-    long long _cachePolicy;
 }
 
 + (_Bool);
-+ (id);
++ (id);
 + (void)CGb¶f²t p¤UQÈÌ=é9í+ÿ/ûÞ
 Ú¦r¢vSWEA°d´`ÂÆ7ã3ç!õ%ñÔ;
 - (id);
 - (id);
 - (id);
 - (id);
+- (id)MLParserContext";
+- (id);
+- (id);
+- (id);
+- (id);
+- (void)";
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id);
+- (id)SystemGroupSession;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (void);
 - (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id)ropertiesToAdd:(id)arg1 cookiePropertiesToRemove:(id)arg2 error: /* Error: Ran out of types for this method. */;
-- (id);
+- (id)updateCookiesWithCookiePropertiesToAdd:(id)arg1 cookiePropertiesToRemove:(id)arg2 error: /* Error: Ran out of types for this method. */;
+- (id)AMSMetricsIdentifierStorePrivateIdentifiersInterop;
 - (id)ublic}@, domain:(id)arg1 %{public}@, key:%{public}@) %{public}@ /* Error: Ran out of types for this method. */;
 - (id)¹}Û ©
 <÷ú|D×VÈ¶ÈGIöñU,®=
@@ -51,7 +50,6 @@
 
 // Remaining properties
 @property(readonly) long long cachePolicy; // @synthesize cachePolicy=_cachePolicy;
-@property(retain) AMSEngagement *engagement; // @synthesize engagement=_engagement;
 
 @end
 

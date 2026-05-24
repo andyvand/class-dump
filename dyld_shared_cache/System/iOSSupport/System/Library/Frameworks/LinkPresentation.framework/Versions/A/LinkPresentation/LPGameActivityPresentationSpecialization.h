@@ -9,7 +9,7 @@ __attribute__((visibility("hidden")))
 {
 }
 
-+ (id);
++ (id)t:launchPluginWithBundleID:pluginLaunchPayload:startAudioRecording:simID:sendMessageHandler:sourceBarButtonItem: /* Error: Ran out of types for this method. */;
 
 @end
 

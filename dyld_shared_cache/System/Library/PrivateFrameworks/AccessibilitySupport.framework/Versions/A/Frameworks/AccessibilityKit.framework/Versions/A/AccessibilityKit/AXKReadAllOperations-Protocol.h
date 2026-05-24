@@ -4,9 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AXFUIElement;
+@class AXFUIElement, NSString;
 
 @protocol AXKReadAllOperations
+- (AXFUIElement *);
+- (NSString *);
+- (AXFUIElement *)T;
 
 // Remaining properties
 @property(retain, nonatomic) AXFUIElement *readingElement;

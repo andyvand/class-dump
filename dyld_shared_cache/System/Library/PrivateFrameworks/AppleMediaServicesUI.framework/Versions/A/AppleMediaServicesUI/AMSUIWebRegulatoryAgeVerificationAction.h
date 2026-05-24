@@ -10,15 +10,12 @@ __attribute__((visibility("hidden")))
 @interface AMSUIWebRegulatoryAgeVerificationAction : AMSUIWebAction
 {
     id account;
-    id accountParameters;
-    id userInfo;
-    id verificationMethods;
 }
 
 - (id);
 - (id);
 - (id);
-- (void)erClass:forItemWithIdentifier: /* Error: Ran out of types for this method. */;
+- (void)registerClass:forItemWithIdentifier: /* Error: Ran out of types for this method. */;
 
 @end
 

@@ -4,26 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AVPlayerViewController, NSArray, NSNumber;
-@protocol MFQueuePlayerItem;
-
 @protocol MFPlaybackInformationProviding
-- (float);
+- (float)it for this basic account %@;
+- (long long)op processing IMAP Mail Account change:Mail dataclass not provisioned /* Error: Ran out of types for this method. */;
+- (void);
+- (long long);
 
 // Remaining properties
-@property(nonatomic, readonly) id <MFQueuePlayerItem> currentItem;
-@property(nonatomic, readonly) long long currentItemTransition;
 @property(nonatomic, readonly) long long currentState;
-@property(nonatomic, readonly) double currentTime;
-@property(nonatomic, readonly) float effectiveRate;
-@property(nonatomic, readonly) long long interruptedState;
-@property(nonatomic, readonly) _Bool isPlaybackLikelyToKeepUp;
-@property(nonatomic, readonly) NSArray *nextItems;
-@property(nonatomic, readonly) float rate;
-@property(nonatomic, readonly) float targetRate;
-@property(nonatomic, readonly) NSNumber *targetTime;
-@property(nonatomic, readonly) long long timeControlStatus;
-@property(nonatomic) _Bool videoEnabled;
-@property(nonatomic, readonly) AVPlayerViewController *videoViewController;
 @end
 

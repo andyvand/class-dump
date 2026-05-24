@@ -6,17 +6,16 @@
 
 #import <PassKitCore/PKSharingCarKeyMessage.h>
 
-@class NSString, PKPassShareActivationOptions, PKSharingMesageProprietaryData;
+@class PKSharingMesageProprietaryData;
 
 @interface PKSharingCarKeyInvitation : PKSharingCarKeyMessage
 {
     PKSharingMesageProprietaryData *_proprietaryData;
-    PKPassShareActivationOptions *_activationOptions;
 }
 
-+ (void);
++ (void)r;
 + (id);
-+ (_Bool);
++ (_Bool)Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation;
 - (id);
 - (id);
 - (id);
@@ -25,19 +24,12 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)indexGreaterThanIndex: /* Error: Ran out of types for this method. */;
 - (unsigned long long)tSignature: /* Error: Ran out of types for this method. */;
-- (void)ionSync;
+- (void)backgroundRecordTransactionSync;
 
 // Remaining properties
-@property(readonly, nonatomic) PKPassShareActivationOptions *activationOptions; // @synthesize activationOptions=_activationOptions;
-@property(readonly, nonatomic) NSString *brandIdentifier;
-@property(readonly, nonatomic) NSString *partnerIdentifier;
-@property(readonly, nonatomic) PKSharingMesageProprietaryData *proprietaryData; // @synthesize proprietaryData=_proprietaryData;
 @property(readonly, nonatomic) unsigned long long radioTechnology;
-@property(readonly, nonatomic) NSString *readerIdentifier;
-@property(readonly, nonatomic) NSString *vehicleIssuer;
-@property(readonly, nonatomic) NSString *vehicleModel;
 
 @end
 

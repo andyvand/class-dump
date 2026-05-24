@@ -4,27 +4,25 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString;
+@class NSDictionary;
 
 @interface CorrectionsProfilesPersistedState
 {
     NSDictionary *_correctionsProfiles;
-    NSString *_digest;
 }
 
 + (_Bool);
+- (void)A;
+- (id);
 - (void);
 - (id);
-- (void);
 - (id);
-- (id);
-- (void);
+- (void)78CA3ACB62E2EFB13_StorageClass;
 - (void);
 - (id);
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *correctionsProfiles; // @synthesize correctionsProfiles=_correctionsProfiles;
-@property(copy, nonatomic) NSString *digest; // @synthesize digest=_digest;
 
 @end
 

@@ -4,49 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MSSticker, NSArray, NSError, NSString, PXRoundProgressView, UIDragInteraction, UIImage, UIImageView, UILongPressGestureRecognizer, UITapGestureRecognizer, VKCStickerEffectView, _MSStickerDragPreviewContainerView;
-@protocol IMAnimatedImageProtocol, IMImageDataProtocol;
+@class NSError;
 
 @interface MSStickerView
 {
     _Bool _initialLayoutComplete;
-    _Bool _didCaptureInitialGestureState;
-    _Bool _animating;
-    _Bool _isPeeled;
-    _Bool _userExplicitlyUnpausedAnimation;
-    MSSticker *_sticker;
-    double _animationDuration;
-    NSError *_stickerError;
-    UIImage *_stickerImage;
-    UIImageView *_imageView;
-    UIImageView *_outlineImageView;
-    VKCStickerEffectView *_effectView;
-    PXRoundProgressView *_roundProgressView;
-    id <IMAnimatedImageProtocol> _image;
-    id <IMImageDataProtocol> _imageData;
-    NSArray *_frames;
-    unsigned long long _initialFrameIndexForCurrentDrag;
-    UITapGestureRecognizer *_tapRecognizer;
-    UILongPressGestureRecognizer *_longPressRecognizer;
-    UIDragInteraction *_dragInteraction;
-    _MSStickerDragPreviewContainerView *_container;
-    double _clickStartTime;
-    double _animationOffset;
-    CDUnknownBlockType _dragPreviewLiftContainerProvider;
-    struct CGPoint _initialDragPoint;
 }
 
-- (id);
-- (id);
+- (id);
+- (id)%;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -60,9 +35,9 @@
 - (CDUnknownBlockType);
 - (_Bool);
 - (double);
+- (void);
 - (void);
-- (void);
-- (void);
+- (void)Q;
 - (id);
 - (void);
 - (void);
@@ -84,11 +59,11 @@
 - (void);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)todayPerformanceAlertsMinNewsVersion;
 - (void);
-- (void);
-- (_Bool);
-- (unsigned long long);
+- (void)spotlightChannelID;
+- (_Bool)_TtC12NewsArticles19ArticleViewerStyler;
+- (unsigned long long)_TtC12NewsArticles20InterstitialAdRouter;
 - (void);
 - (id);
 - (void);
@@ -96,7 +71,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -110,14 +85,14 @@
 - (struct CGSize);
 - (id);
 - (void);
-- (void);
+- (void)0;
 - (void);
 - (void);
 - (id);
-- (void);
+- (void)_updateMUXLockDown;
+- (id)Mute;
 - (id);
-- (id);
-- (id);
+- (id)hing of visits from Routine is disabled. Returning.;
 - (_Bool);
 - (id);
 - (void);
@@ -127,48 +102,16 @@
 - (double);
 - (id);
 - (void);
-- (id);
+- (id)ay, %d/%d per period), turning on signpost streaming;
 - (void);
-- (id);
-- (_Bool);
+- (id)"UITouch"24;
+- (_Bool)K;
 - (id);
 - (void)setSectionInset:(id)arg1;
 - (void):(id)arg1;
 
 // Remaining properties
-@property(nonatomic) _Bool animating; // @synthesize animating=_animating;
-@property(nonatomic) double animationDuration; // @synthesize animationDuration=_animationDuration;
-@property(nonatomic) double animationOffset; // @synthesize animationOffset=_animationOffset;
-@property(nonatomic) double clickStartTime; // @synthesize clickStartTime=_clickStartTime;
-@property(nonatomic) __weak _MSStickerDragPreviewContainerView *container; // @synthesize container=_container;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(nonatomic) _Bool didCaptureInitialGestureState; // @synthesize didCaptureInitialGestureState=_didCaptureInitialGestureState;
-@property(readonly, nonatomic) UIDragInteraction *dragInteraction; // @synthesize dragInteraction=_dragInteraction;
-@property(copy, nonatomic) CDUnknownBlockType dragPreviewLiftContainerProvider; // @synthesize dragPreviewLiftContainerProvider=_dragPreviewLiftContainerProvider;
-@property(retain, nonatomic) VKCStickerEffectView *effectView; // @synthesize effectView=_effectView;
-@property(retain, nonatomic) NSArray *frames; // @synthesize frames=_frames;
-@property(readonly) unsigned long long hash;
-@property(retain, nonatomic) id <IMAnimatedImageProtocol> image; // @synthesize image=_image;
-@property(retain, nonatomic) id <IMImageDataProtocol> imageData; // @synthesize imageData=_imageData;
-@property(retain, nonatomic) UIImageView *imageView; // @synthesize imageView=_imageView;
-@property(nonatomic) struct CGPoint initialDragPoint; // @synthesize initialDragPoint=_initialDragPoint;
-@property(nonatomic) unsigned long long initialFrameIndexForCurrentDrag; // @synthesize initialFrameIndexForCurrentDrag=_initialFrameIndexForCurrentDrag;
-@property(nonatomic) _Bool initialLayoutComplete; // @synthesize initialLayoutComplete=_initialLayoutComplete;
-@property(readonly, nonatomic) _Bool isAnimated;
-@property(nonatomic) _Bool isPeeled; // @synthesize isPeeled=_isPeeled;
-@property(readonly, nonatomic) UILongPressGestureRecognizer *longPressRecognizer; // @synthesize longPressRecognizer=_longPressRecognizer;
-@property(retain, nonatomic) UIImageView *outlineImageView; // @synthesize outlineImageView=_outlineImageView;
-@property(retain, nonatomic) PXRoundProgressView *roundProgressView; // @synthesize roundProgressView=_roundProgressView;
-@property(retain, nonatomic) MSSticker *sticker; // @synthesize sticker=_sticker;
 @property(retain, nonatomic) NSError *stickerError; // @synthesize stickerError=_stickerError;
-@property(retain, nonatomic) UIImage *stickerImage; // @synthesize stickerImage=_stickerImage;
-@property(readonly) Class superclass;
-@property(readonly, nonatomic) UITapGestureRecognizer *tapRecognizer; // @synthesize tapRecognizer=_tapRecognizer;
-@property(nonatomic) _Bool userExplicitlyUnpausedAnimation; // @synthesize userExplicitlyUnpausedAnimation=_userExplicitlyUnpausedAnimation;
 
 @end
 

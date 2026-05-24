@@ -4,21 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MNEVChargingStateMonitor, MNNavigationSessionState;
+@class MNNavigationSessionState;
 
 __attribute__((visibility("hidden")))
 @interface _MNArrivalUpdaterDetails
 {
     _Bool _isEVCharging;
-    _Bool _isInParkingDetectionRegion;
-    MNNavigationSessionState *_navigationSessionState;
-    MNEVChargingStateMonitor *_evChargingStateMonitor;
 }
 
+- (void)ArrowStepperStyle;
 - (void);
 - (void);
-- (void);
-- (void);
+- (void)X7;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -27,9 +24,6 @@ __attribute__((visibility("hidden")))
 × ;
 
 // Remaining properties
-@property(retain, nonatomic) MNEVChargingStateMonitor *evChargingStateMonitor; // @synthesize evChargingStateMonitor=_evChargingStateMonitor;
-@property(nonatomic) _Bool isEVCharging; // @synthesize isEVCharging=_isEVCharging;
-@property(nonatomic) _Bool isInParkingDetectionRegion; // @synthesize isInParkingDetectionRegion=_isInParkingDetectionRegion;
 @property(retain, nonatomic) MNNavigationSessionState *navigationSessionState; // @synthesize navigationSessionState=_navigationSessionState;
 
 @end

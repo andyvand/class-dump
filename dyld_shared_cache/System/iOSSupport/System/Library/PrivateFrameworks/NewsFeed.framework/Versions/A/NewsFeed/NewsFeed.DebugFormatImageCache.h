@@ -7,9 +7,6 @@
 @interface NewsFeed.DebugFormatImageCache
 {
     id naImage;
-    id placeholderImage;
-    id $__lazy_storage_$_disabledPlaceholderImage;
-    id images;
 }
 
 @end

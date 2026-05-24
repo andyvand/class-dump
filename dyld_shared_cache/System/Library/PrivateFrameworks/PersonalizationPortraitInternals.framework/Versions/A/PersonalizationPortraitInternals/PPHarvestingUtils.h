@@ -9,7 +9,7 @@
 }
 
 + (id);
-+ (id);
++ (id)of arguments;
 + (id);
 + (id);
 

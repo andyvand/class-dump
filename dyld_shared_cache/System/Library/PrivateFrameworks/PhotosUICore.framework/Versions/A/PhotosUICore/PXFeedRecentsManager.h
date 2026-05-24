@@ -4,18 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSMutableArray, NSOrderedSet, PHPhotoLibrary;
-@protocol PXFeedRecentsManagerDelegate;
+@class NSMutableArray, PHPhotoLibrary;
 
 @interface PXFeedRecentsManager
 {
     NSMutableArray *_pendingFeedEntriesChangeNotifications;
-    NSMutableArray *_pendingAssetsChangeNotifications;
-    PHPhotoLibrary *_photoLibrary;
-    long long _count;
-    id <PXFeedRecentsManagerDelegate> _delegate;
-    NSOrderedSet *__cachedRecentAssets;
-    NSArray *__cachedRecentPHAssets;
 }
 
 - (id);
@@ -24,30 +17,24 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (id);
-- (id);
-- (void);
-- (void);
-- (void);
+- (void)+=;
 - (void);
 - (void);
 - (id);
+- (id);
 - (void);
-- (long long)Anchoring;
+- (void);
+- (void);
+- (void);
+- (void)A;
+- (id);
+- (void);
+- (long long)topInsetForVisibilityAnchoring;
 - (void)=¶¸)ÿ;
 - (id)~8;
 
 // Remaining properties
-@property(copy, nonatomic, setter=_setCachedRecentAssets:) NSOrderedSet *_cachedRecentAssets; // @synthesize _cachedRecentAssets=__cachedRecentAssets;
-@property(copy, nonatomic, setter=_setCachedRecentPHAssets:) NSArray *_cachedRecentPHAssets; // @synthesize _cachedRecentPHAssets=__cachedRecentPHAssets;
-@property(nonatomic, setter=_setCount:) long long count; // @synthesize count=_count;
-@property(nonatomic) __weak id <PXFeedRecentsManagerDelegate> delegate; // @synthesize delegate=_delegate;
 @property(retain, nonatomic, setter=_setPhotoLibrary:) PHPhotoLibrary *photoLibrary; // @synthesize photoLibrary=_photoLibrary;
-@property(readonly, copy, nonatomic) NSOrderedSet *recentAssets;
-@property(readonly, copy, nonatomic) NSArray *recentPHAssets;
 
 @end
 

@@ -4,22 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@protocol CKTapbackViewDelegate;
-
 @interface ChatKit.TapbackAssetView
 {
     double attributionScaleFactor;
-    struct UIEdgeInsets platterEdgeInsets;
-    void delegate;
-    id tapbackAssetLayer;
-    _Bool isSelected;
-    id stateController;
 }
 
-- (struct UIEdgeInsets);
-- (void);
-- (void);
-- (void);
+- (struct UIEdgeInsets)foregroundColorAttributeName;
+- (void)errorNameForResultAttachment: /* Error: Ran out of types for this method. */;
+- (void)errorFullStringForResultAttachment: /* Error: Ran out of types for this method. */;
+- (void)enumerateRangesUsingBlock: /* Error: Ran out of types for this method. */;
 - (double);
 - (void);
 - (void);
@@ -27,15 +20,12 @@
 - (void);
 - (id);
 - (void);
-- (id);
+- (id)w"40@0:(struct CGRect)arg1 8@"UIDropInteraction"16@"UIDragItem"24@"UITargetedDragPreview"32;
 - (void)rowserDisplayName contains[cd] %@;
 - (_Bool);
 
 // Remaining properties
 @property(nonatomic, readonly) double attributionScaleFactor; // @synthesize attributionScaleFactor;
-@property(nonatomic) __weak id <CKTapbackViewDelegate> delegate; // @synthesize delegate;
-@property(nonatomic) _Bool isSelected; // @synthesize isSelected;
-@property(nonatomic, readonly) struct UIEdgeInsets platterEdgeInsets; // @synthesize platterEdgeInsets;
 
 @end
 

@@ -4,37 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 @interface _UIStatusBarRegionAxisStackingLayout
 {
     _Bool _hugging;
-    long long _alignment;
-    double _interspace;
 }
 
-- (void);
-- (_Bool);
+- (void)newCommandAllocator;
+- (_Bool)statusPasscodeLockGracePeriodEnforced;
 - (void);
 - (double);
 - (long long)
 × ;
 - (id)¬;
-- (void)pacing;
+- (void)UITabBarItemSpacing;
 - (_Bool)û[;
 
 // Remaining properties
 @property(nonatomic) long long alignment; // @synthesize alignment=_alignment;
-@property(readonly, nonatomic) _Bool canOverflowItems;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool hugging; // @synthesize hugging=_hugging;
-@property(nonatomic) double interspace; // @synthesize interspace=_interspace;
-@property(readonly) Class superclass;
 
 @end
 

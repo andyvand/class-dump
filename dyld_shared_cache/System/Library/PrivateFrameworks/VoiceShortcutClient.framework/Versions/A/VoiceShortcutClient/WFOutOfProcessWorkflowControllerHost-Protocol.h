@@ -5,5 +5,6 @@
 //
 
 @protocol WFOutOfProcessWorkflowControllerHost
+- (oneway void);
 @end
 

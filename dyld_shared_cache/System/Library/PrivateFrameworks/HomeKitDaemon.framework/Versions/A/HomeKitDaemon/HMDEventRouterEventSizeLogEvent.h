@@ -4,50 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSDictionary, NSString, NSUUID;
+@class NSString;
 
 __attribute__((visibility("hidden")))
 @interface HMDEventRouterEventSizeLogEvent
 {
     _Bool _isCached;
-    NSString *_topic;
-    unsigned long long _size;
 }
 
 - (id);
-- (id);
+- (id);
 - (unsigned long long);
 - (id);
 - (id);
 - (unsigned long long);
 - (_Bool)%.3f;
-- (void)ndRobotVacuumServicingTargetArea;
+- (void)didNotFindRobotVacuumServicingTargetArea;
 
 // Remaining properties
-@property(readonly, copy, nonatomic) NSString *accessoryIdentifier;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C,N
-
-@property(readonly, nonatomic) NSUUID *accessoryUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, copy, nonatomic) NSDictionary *coreAnalyticsEventDictionary;
-@property(readonly, copy, nonatomic) NSString *coreAnalyticsEventName;
-@property(readonly, nonatomic) unsigned long long coreAnalyticsEventOptions;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) NSUUID *homeUUID;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSUUID",?,R,N
-
-@property(readonly, nonatomic) _Bool isCached; // @synthesize isCached=_isCached;
-@property(readonly, nonatomic) unsigned long long size; // @synthesize size=_size;
-@property(readonly) Class superclass;
 @property(readonly, copy, nonatomic) NSString *topic; // @synthesize topic=_topic;
 
 @end

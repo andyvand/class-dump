@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray;
-
 @interface QCArray
 {
     void *_array;
-    int _type;
-    unsigned long long _count;
-    unsigned long long _elementSize;
-    int _status;
-    CDUnknownFunctionPointerType _backingCallback;
-    void *_backingInfo;
-    void *_unused[4];
 }
 
 - (void);
@@ -33,9 +24,9 @@
 - (unsigned long long);
 - (void);
 - (void);
-- (id);
+- (id)$;
 - (int);
-- (unsigned long long);
+- (unsigned long long)兹;
 - (void);
 - (int);
 - (void *);
@@ -44,13 +35,7 @@
 - (_Bool)?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?^?}^{_CGLPrivateObject}^v}16I24B28^d32^{?=BCi[4^v]}40B48B52;
 
 // Remaining properties
-@property(readonly) NSArray *NSArrayRepresentation;
 @property void *array; // @synthesize array=_array;
-@property(readonly) unsigned long long byteSize;
-@property unsigned long long count; // @synthesize count=_count;
-@property unsigned long long elementSize; // @synthesize elementSize=_elementSize;
-@property(readonly) int status; // @synthesize status=_status;
-@property(readonly) int type; // @synthesize type=_type;
 
 @end
 

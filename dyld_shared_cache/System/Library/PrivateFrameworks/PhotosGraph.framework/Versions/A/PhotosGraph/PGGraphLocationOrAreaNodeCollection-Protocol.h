@@ -7,6 +7,7 @@
 @class PGGraphAddressNodeCollection;
 
 @protocol PGGraphLocationOrAreaNodeCollection
+- (PGGraphAddressNodeCollection *)N,V_trackFocusedWindow;
 
 // Remaining properties
 @property(readonly, nonatomic) PGGraphAddressNodeCollection *addressNodes;

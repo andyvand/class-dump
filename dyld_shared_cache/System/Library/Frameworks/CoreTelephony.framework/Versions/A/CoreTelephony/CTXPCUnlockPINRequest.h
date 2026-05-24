@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)unretained Class, __unsafe_unretained Class)_block_invoke;
 - (int);
 
 // Remaining properties

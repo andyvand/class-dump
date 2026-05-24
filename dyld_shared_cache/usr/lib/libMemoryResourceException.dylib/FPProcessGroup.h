@@ -6,18 +6,16 @@
 
 #import <MemoryResourceException/FPProcessGroupMinimal.h>
 
-@class NSDictionary, NSMutableSet;
+@class NSDictionary;
 
 @interface FPProcessGroup : FPProcessGroupMinimal
 {
     unsigned int _categoriesRefcount;
-    NSMutableSet *_objects;
-    NSDictionary *_categories;
 }
 
 - (void);
 - (unsigned int);
-- (id);
+- (id)ationalStorage;
 - (_Bool);
 - (void);
 - (void);
@@ -27,8 +25,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSDictionary *categories; // @synthesize categories=_categories;
-@property(nonatomic) unsigned int categoriesRefcount; // @synthesize categoriesRefcount=_categoriesRefcount;
-@property(retain, nonatomic) NSMutableSet *objects; // @synthesize objects=_objects;
 
 @end
 

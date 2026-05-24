@@ -7,12 +7,11 @@
 @interface NewsUI2.ChannelPickerFooterView
 {
     id backgroundView;
-    id textLabel;
 }
 
 - (id);
 - (id);
-- (void)eedGroupConfigData;
+- (void)CuratedMagazineFeedGroupConfigData;
 
 @end
 

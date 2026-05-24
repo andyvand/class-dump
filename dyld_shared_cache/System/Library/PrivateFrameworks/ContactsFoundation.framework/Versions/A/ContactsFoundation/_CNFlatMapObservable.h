@@ -6,13 +6,9 @@
 
 #import <ContactsFoundation/CNObservable.h>
 
-@protocol CNSchedulerProvider;
-
 @interface _CNFlatMapObservable : CNObservable
 {
     CNObservable *_observable;
-    CDUnknownBlockType _decoratorGenerator;
-    id <CNSchedulerProvider> _schedulerProvider;
 }
 
 + (id);
@@ -27,9 +23,7 @@
 - (id)ktk;
 
 // Remaining properties
-@property(readonly, copy) CDUnknownBlockType decoratorGenerator; // @synthesize decoratorGenerator=_decoratorGenerator;
 @property(readonly) CNObservable *observable; // @synthesize observable=_observable;
-@property(readonly) id <CNSchedulerProvider> schedulerProvider; // @synthesize schedulerProvider=_schedulerProvider;
 
 @end
 

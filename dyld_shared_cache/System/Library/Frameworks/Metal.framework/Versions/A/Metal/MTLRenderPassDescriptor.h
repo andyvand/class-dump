@@ -4,25 +4,42 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class MTLRenderPassColorAttachmentDescriptorArray, MTLRenderPassDepthAttachmentDescriptor, MTLRenderPassSampleBufferAttachmentDescriptorArray, MTLRenderPassStencilAttachmentDescriptor;
-@protocol MTLBuffer, MTLRasterizationRateMap;
+@class MTLRenderPassColorAttachmentDescriptorArray;
 
 @interface MTLRenderPassDescriptor
 {
     _Bool _supportColorAttachmentMapping;
-    unsigned long long _imageblockSampleLength;
-    unsigned long long _threadgroupMemoryLength;
-    unsigned long long _tileWidth;
-    unsigned long long _tileHeight;
 }
 
 + (id);
 + (id)¼;
 + (id);
+- (unsigned long long)residue = floor(fract(dc.y / 3.0) * 3.0);
+  vec2 srcPt = vec2(dc.x, floor((floor(dc.y) / 6.000000e-01) + 4.990000e-01) + 0.5);
+  vec2 d = samplerTransform(src, vec2(0.0, 1.0)) - samplerTransform(src, vec2(0.0));
+  vec2 d2 = d + d;
+  vec2 d3 = d2 + d;
+  vec2 d4 = d2 + d2;
+  vec2 coord = samplerTransform(src, srcPt);
+  vec4 s0 = sample(src, coord - d4);
+  vec4 s1 = sample(src, coord - d3);
+  vec4 s2 = sample(src, coord - d2);
+  vec4 s3 = sample(src, coord - d);
+  vec4 s4 = sample(src, coord);
+  vec4 s5 = sample(src, coord + d);
+  vec4 s6 = sample(src, coord + d2);
+  vec4 s7 = sample(src, coord + d3);
+  vec4 s8 = sample(src, coord + d4);
+  vec4 index0pix = ((((s4 * 6.001730e-01) + ((s3 + s5) * 2.707120e-01)) - ((s2 + s6) * 5.897760e-02)) - ((s1 + s7) * 2.085710e-02)) + ((s0 + s8) * 9.036420e-03);
+  vec4 index1pix = ((((((s0 * 9.080800e-03) - (s1 * 4.864830e-02)) + (s3 * 4.322910e-01)) + (s4 * 5.545950e-01)) + (s5 * 1.148430e-01)) - (s6 * 6.859490e-02)) + (s8 * 5.208630e-03);
+  vec4 index2pix = ((((((s0 * 5.208630e-03) - (s2 * 6.859490e-02)) + (s3 * 1.148430e-01)) + (s4 * 5.545950e-01)) + (s5 * 4.322910e-01)) - (s7 * 4.864830e-02)) + (s8 * 9.080800e-03);
+  vec4 pix = mix(index0pix, index1pix, min(residue, 1.0));
+  return mix(pix, index2pix, max(residue - 1.0, 0.0));
+}
+;
+- (unsigned long long)E;
 - (unsigned long long);
-- (unsigned long long);
-- (unsigned long long);
-- (void);
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
@@ -35,21 +52,6 @@
 
 // Remaining properties
 @property(readonly) MTLRenderPassColorAttachmentDescriptorArray *colorAttachments; // @dynamic colorAttachments;
-@property(nonatomic) unsigned long long defaultRasterSampleCount; // @dynamic defaultRasterSampleCount;
-@property(copy, nonatomic) MTLRenderPassDepthAttachmentDescriptor *depthAttachment; // @dynamic depthAttachment;
-@property(nonatomic) unsigned long long imageblockSampleLength; // @synthesize imageblockSampleLength=_imageblockSampleLength;
-@property(retain, nonatomic) id <MTLRasterizationRateMap> rasterizationRateMap; // @dynamic rasterizationRateMap;
-@property(nonatomic) unsigned long long renderTargetArrayLength; // @dynamic renderTargetArrayLength;
-@property(nonatomic) unsigned long long renderTargetHeight; // @dynamic renderTargetHeight;
-@property(nonatomic) unsigned long long renderTargetWidth; // @dynamic renderTargetWidth;
-@property(readonly) MTLRenderPassSampleBufferAttachmentDescriptorArray *sampleBufferAttachments; // @dynamic sampleBufferAttachments;
-@property(copy, nonatomic) MTLRenderPassStencilAttachmentDescriptor *stencilAttachment; // @dynamic stencilAttachment;
-@property(nonatomic) _Bool supportColorAttachmentMapping; // @synthesize supportColorAttachmentMapping=_supportColorAttachmentMapping;
-@property(nonatomic) unsigned long long threadgroupMemoryLength; // @synthesize threadgroupMemoryLength=_threadgroupMemoryLength;
-@property(nonatomic) unsigned long long tileHeight; // @synthesize tileHeight=_tileHeight;
-@property(nonatomic) unsigned long long tileWidth; // @synthesize tileWidth=_tileWidth;
-@property(retain, nonatomic) id <MTLBuffer> visibilityResultBuffer; // @dynamic visibilityResultBuffer;
-@property(nonatomic) long long visibilityResultType; // @dynamic visibilityResultType;
 
 @end
 

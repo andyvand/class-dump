@@ -4,23 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError, NSObject;
-@protocol OS_os_log, PXDisplayAssetFetchResult, PXStoryAutoEditComposabilityScorer, PXStoryChapterCollection, PXStoryComposabilityResults;
+@protocol PXDisplayAssetFetchResult, PXStoryComposabilityResults;
 
 @interface PXStoryAutoEditClipComposabilityProvider
 {
     id <PXStoryComposabilityResults> _similarityScoreResults;
-    id <PXStoryComposabilityResults> _cropScoreResults;
-    id <PXStoryComposabilityResults> _composabilityResults;
-    NSObject<OS_os_log> *_log;
-    NSError *_error;
-    id <PXDisplayAssetFetchResult> _displayAssets;
-    id <PXStoryChapterCollection> _chapterCollection;
-    id <PXStoryAutoEditComposabilityScorer> _cropQualityScorer;
-    id <PXStoryAutoEditComposabilityScorer> _similarityScorer;
 }
 
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
@@ -35,12 +26,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) id <PXStoryChapterCollection> chapterCollection; // @synthesize chapterCollection=_chapterCollection;
-@property(readonly, nonatomic) long long count;
-@property(readonly, nonatomic) id <PXStoryAutoEditComposabilityScorer> cropQualityScorer; // @synthesize cropQualityScorer=_cropQualityScorer;
 @property(readonly, nonatomic) id <PXDisplayAssetFetchResult> displayAssets; // @synthesize displayAssets=_displayAssets;
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
-@property(retain, nonatomic) id <PXStoryAutoEditComposabilityScorer> similarityScorer; // @synthesize similarityScorer=_similarityScorer;
 
 @end
 
