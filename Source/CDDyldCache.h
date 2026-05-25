@@ -107,4 +107,17 @@
 // YES if the cache has a mapping covering this vmaddr.
 - (BOOL)containsAddress:(uint64_t)address;
 
+// Look up the dyld_shared_cache's unmapped local-symbols pool for the image
+// whose mach_header sits at `imageUnslidVMAddr` (typically the __TEXT segment
+// vmaddr of an extracted dylib). Returns a {NSNumber<uint64_t vmaddr> →
+// NSString *symbolName} dictionary covering every entry the builder filed
+// under that image. Returns nil when:
+//   - the cache has no local-symbols pool (stripped build),
+//   - the cache version is unsupported by this parser, or
+//   - no entry matches `imageUnslidVMAddr`.
+// dsc_extractor strips most of these out of the LC_SYMTAB on extracted
+// dylibs, so this is the only way to recover names like `___invoke_…`,
+// `_BlockCopy`, internal static helpers etc.
+- (NSDictionary<NSNumber *, NSString *> *)localSymbolsForImageAtAddress:(uint64_t)imageUnslidVMAddr;
+
 @end

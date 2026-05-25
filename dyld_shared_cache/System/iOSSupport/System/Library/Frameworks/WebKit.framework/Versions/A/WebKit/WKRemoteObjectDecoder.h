@@ -8,12 +8,6 @@ __attribute__((visibility("hidden")))
 @interface WKRemoteObjectDecoder
 {
     struct RetainPtr<_WKRemoteObjectInterface> _interface;
-    struct RefPtr<const API::Dictionary, WTF::RawPtrTraits<const API::Dictionary>, WTF::DefaultRefDerefTraits<const API::Dictionary>> _rootDictionary;
-    struct RefPtr<const API::Dictionary, WTF::RawPtrTraits<const API::Dictionary>, WTF::DefaultRefDerefTraits<const API::Dictionary>> _currentDictionary;
-    SEL _replyToSelector;
-    struct RefPtr<const API::Array, WTF::RawPtrTraits<const API::Array>, WTF::DefaultRefDerefTraits<const API::Array>> _objectStream;
-    unsigned long long _objectStreamPosition;
-    const void *_allowedClasses;
 }
 
 - (id);

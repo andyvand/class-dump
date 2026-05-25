@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL, NSURLResponse, WKFrameInfo;
+@class NSURL;
 
 @interface _WKHitTestResult
 {
@@ -35,41 +35,11 @@
 - (id);
 - (void);
 - (id);
-- (long long)TOPLOADINGAFTERSECURITYPOLICYDENIED;
+- (long long)LogStream_WEBRESOURCELOADER_STOPLOADINGAFTERSECURITYPOLICYDENIED;
 - (_Bool)ebKit::PlatformCALayerRemote>::get() const [T = WebKit::PlatformCALayerRemote, WeakPtrImpl = WTF::DefaultWeakPtrImpl] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) struct Object *_apiObject;
 @property(readonly, copy, nonatomic) NSURL *absoluteImageURL;
-@property(readonly, copy, nonatomic) NSURL *absoluteLinkURL;
-@property(readonly, copy, nonatomic) NSURL *absoluteMediaURL;
-@property(readonly, copy, nonatomic) NSURL *absolutePDFURL;
-@property(readonly, nonatomic, getter=isContentEditable) _Bool contentEditable;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) struct CGRect elementBoundingBox;
-@property(readonly, nonatomic) long long elementType;
-@property(readonly, nonatomic) WKFrameInfo *frameInfo;
-@property(readonly, nonatomic) _Bool hasLocalDataForLinkURL;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *imageMIMEType;
-@property(readonly, copy, nonatomic) NSString *imageSuggestedFilename;
-@property(readonly, nonatomic) _Bool linkHasTargetFrame;
-@property(readonly, copy, nonatomic) NSString *linkLabel;
-@property(readonly, copy, nonatomic) NSString *linkLocalDataMIMEType;
-@property(readonly, copy, nonatomic) NSURLResponse *linkLocalResourceResponse;
-@property(readonly, copy, nonatomic) NSString *linkSuggestedFilename;
-@property(readonly, nonatomic) _Bool linkTargetFrameIsInDifferentWebView;
-@property(readonly, nonatomic) _Bool linkTargetFrameIsSameAsLinkFrame;
-@property(readonly, copy, nonatomic) NSString *linkTitle;
-@property(readonly, copy, nonatomic) NSString *lookupText;
-@property(readonly, nonatomic, getter=isMediaDownloadable) _Bool mediaDownloadable;
-@property(readonly, nonatomic, getter=isMediaFullscreen) _Bool mediaFullscreen;
-@property(readonly, nonatomic, getter=isSelected) _Bool selected;
-@property(readonly) Class superclass;
 
 @end
 

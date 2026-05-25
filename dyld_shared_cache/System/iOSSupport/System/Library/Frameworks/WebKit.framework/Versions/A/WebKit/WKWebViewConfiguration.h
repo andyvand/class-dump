@@ -4,8 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSSet, NSString, NSURL, WKPreferences, WKProcessPool, WKUserContentController, WKWebExtensionController, WKWebView, WKWebpagePreferences, WKWebsiteDataStore, _WKApplicationManifest, _WKVisitedLinkStore, _WKWebExtensionController;
-@protocol _UIClickInteractionDriving;
+@class WKWebView;
 
 @interface WKWebViewConfiguration
 {
@@ -13,7 +12,7 @@
 }
 
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -25,7 +24,7 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (_Bool);
@@ -34,13 +33,13 @@
 - (unsigned long long);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)@;
 - (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (_Bool);
+- (_Bool)U;
 - (id);
 - (id);
 - (id);
@@ -78,6 +77,7 @@
 - (void);
 - (void);
 - (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -87,30 +87,29 @@
 - (void);
 - (void);
 - (void);
+- (void)C;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void)R;F;
+- (void);
+- (void);
+- (void);
+- (void)H;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)C;
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -133,7 +132,7 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
+- (_Bool)O;
 - (double);
 - (double);
 - (_Bool);
@@ -143,17 +142,17 @@
 - (Ref_906b4531);
 - (id);
 - (_Bool);
+- (id)h;
 - (id);
-- (id);
+- (_Bool)YV;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id);
 - (_Bool);
 - (id);
 - (_Bool);
+- (id);
+- (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)W;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -184,16 +183,16 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool);
+- (_Bool)j;
 - (_Bool);
 - (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)#;
 - (_Bool);
-- (void);
+- (void)6;
 - (void);
 - (void);
 - (void);
@@ -213,140 +212,27 @@
 - (void);
 - (unsigned long long);
 - (void);
-- (id);
-- (id);
-- (void);
+- (id);
 - (id);
 - (void);
+- (id);
+- (void)initWithCode:(id)arg1 properties:(id)arg2 data: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (void);
+- (void)	k;
 - (void);
 - (void);
 - (long long);
-- (void);
+- (void)a@9;
 - (id);
 - (id);
-- (id);
+- (id)allowApplePersonalizedAdvertising;
 - (id)intercept load because no coreLoader or no ID;
 - (void)Key:(long long)arg1:Yes] /* Error: Ran out of types for this method. */;
 - (long long):ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::UniqueRef<WebKit::JSHandleInfo>, WTF::UniqueRef<WebCore::SerializedNode>>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, mpark::variant<WebKit::JavaScriptEvaluationResult::EmptyType, bool, double, WTF::String, WTF::Seconds, WTF::Vector<WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::UniqueRef<WebKit::JSHandleInfo>, WTF::UniqueRef<WebCore::SerializedNode>>>>, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, mpark::variant<WebKit::JavaScriptEvaluationResult::EmptyType, bool, double, WTF::String, WTF::Seconds, WTF::Vector<WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::UniqueRef<WebKit::JSHandleInfo>, WTF::UniqueRef<WebCore::SerializedNode>>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, mpark::variant<WebKit::JavaScriptEvaluationResult::EmptyType, bool, double, WTF::String, WTF::Seconds, WTF::Vector<WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::UniqueRef<WebKit::JSHandleInfo>, WTF::UniqueRef<WebCore::SerializedNode>>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, mpark::variant<WebKit::JavaScriptEvaluationResult::EmptyType, bool, double, WTF::String, WTF::Seconds, WTF::Vector<WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::UniqueRef<WebKit::JSHandleInfo>, WTF::UniqueRef<WebCore::SerializedNode>>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, mpark::variant<WebKit::JavaScriptEvaluationResult::EmptyType, bool, double, WTF::String, WTF::Seconds, WTF::Vector<WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::UniqueRef<WebKit::JSHandleInfo>, WTF::UniqueRef<WebCore::SerializedNode>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (_Bool)iÿùï;
 
 // Remaining properties
-@property(copy, nonatomic, setter=_setAdditionalSupportedImageTypes:) NSArray *_additionalSupportedImageTypes;
-@property(nonatomic, setter=_setAllowMediaContentTypesRequiringHardwareSupportAsFallback:) _Bool _allowMediaContentTypesRequiringHardwareSupportAsFallback;
-@property(nonatomic, setter=_setAllowPostingLegacySynchronousMessages:) _Bool _allowPostingLegacySynchronousMessages;
-@property(nonatomic, setter=_setAllowTestOnlyIPC:) _Bool _allowTestOnlyIPC;
-@property(nonatomic, setter=_setAllowTopNavigationToDataURLs:) _Bool _allowTopNavigationToDataURLs;
-@property(nonatomic, setter=_setAllowUniversalAccessFromFileURLs:) _Bool _allowUniversalAccessFromFileURLs;
-@property(copy, nonatomic, setter=_setAllowedNetworkHosts:) NSSet *_allowedNetworkHosts;
-// Error: Property attributes should begin with the type ('T') attribute, property name: _allowsInlineMediaPlaybackAfterFullscreen
-// Property attributes: (null)
-
-@property(nonatomic, setter=_setAllowsJavaScriptMarkup:) _Bool _allowsJavaScriptMarkup;
-@property(nonatomic, setter=_setAllowsMetaRefresh:) _Bool _allowsMetaRefresh;
-@property(nonatomic, setter=_setAlternateWebViewForNavigationGestures:) __weak WKWebView *_alternateWebViewForNavigationGestures;
-@property(nonatomic, setter=_setAlwaysRunsAtForegroundPriority:) _Bool _alwaysRunsAtForegroundPriority;
-@property(readonly) struct Object *_apiObject;
-@property(nonatomic, setter=_setAppHighlightsEnabled:) _Bool _appHighlightsEnabled;
-@property(nonatomic, setter=_setAppInitiatedOverrideValueForTesting:) unsigned long long _appInitiatedOverrideValueForTesting;
-@property(nonatomic, setter=_setApplePayEnabled:) _Bool _applePayEnabled;
-@property(nonatomic, setter=_setApplicationManifest:) _WKApplicationManifest *_applicationManifest;
-@property(readonly, nonatomic) NSString *_applicationNameForDesktopUserAgent;
-@property(nonatomic, setter=_setAttachmentElementEnabled:) _Bool _attachmentElementEnabled;
-@property(nonatomic, setter=_setAttachmentFileWrapperClass:) Class _attachmentFileWrapperClass;
-@property(nonatomic, setter=_setAttachmentWideLayoutEnabled:) _Bool _attachmentWideLayoutEnabled;
-@property(nonatomic, setter=_setAttributedBundleIdentifier:) NSString *_attributedBundleIdentifier;
-@property(nonatomic, setter=_setCanShowWhileLocked:) _Bool _canShowWhileLocked;
-@property(nonatomic, setter=_setClickInteractionDriverForTesting:) id <_UIClickInteractionDriving> _clickInteractionDriverForTesting;
-@property(nonatomic, setter=_setClientNavigationsRunAtForegroundPriority:) _Bool _clientNavigationsRunAtForegroundPriority;
-@property(nonatomic, setter=_setColorFilterEnabled:) _Bool _colorFilterEnabled;
-@property(nonatomic, setter=_setContentSecurityPolicyModeForExtension:) unsigned long long _contentSecurityPolicyModeForExtension;
-@property(nonatomic, getter=_isControlledByAutomation, setter=_setControlledByAutomation:) _Bool _controlledByAutomation;
-@property(nonatomic, setter=_setConvertsPositionStyleOnCopy:) _Bool _convertsPositionStyleOnCopy;
-@property(copy, nonatomic, setter=_setCORSDisablingPatterns:) NSArray *_corsDisablingPatterns;
-@property(nonatomic, setter=_setCrossOriginAccessControlCheckEnabled:) _Bool _crossOriginAccessControlCheckEnabled;
-@property(nonatomic, setter=_setDelaysWebProcessLaunchUntilFirstLoad:) _Bool _delaysWebProcessLaunchUntilFirstLoad;
-@property(nonatomic, setter=_setDragLiftDelay:) unsigned long long _dragLiftDelay;
-@property(nonatomic, setter=_setDrawsBackground:) _Bool _drawsBackground;
-@property(copy, nonatomic, setter=_setGroupIdentifier:) NSString *_groupIdentifier;
-@property(nonatomic, setter=_setIgnoresAppBoundDomains:) _Bool _ignoresAppBoundDomains;
-@property(nonatomic, setter=_setIncompleteImageBorderEnabled:) _Bool _incompleteImageBorderEnabled;
-@property(nonatomic, setter=_setIncrementalRenderingSuppressionTimeout:) double _incrementalRenderingSuppressionTimeout;
-@property(nonatomic, setter=_setInitialCapitalizationEnabled:) _Bool _initialCapitalizationEnabled;
-@property(nonatomic, setter=_setInlineMediaPlaybackRequiresPlaysInlineAttribute:) _Bool _inlineMediaPlaybackRequiresPlaysInlineAttribute;
-@property(nonatomic, setter=_setInvisibleAutoplayNotPermitted:) _Bool _invisibleAutoplayNotPermitted;
-@property(nonatomic, setter=_setLegacyEncryptedMediaAPIEnabled:) _Bool _legacyEncryptedMediaAPIEnabled;
-@property(nonatomic, setter=_setLoadsFromNetwork:) _Bool _loadsFromNetwork;
-@property(nonatomic, setter=_setLoadsSubresources:) _Bool _loadsSubresources;
-@property(nonatomic, setter=_setLongPressActionsEnabled:) _Bool _longPressActionsEnabled;
-@property(nonatomic, setter=_setMainContentUserGestureOverrideEnabled:) _Bool _mainContentUserGestureOverrideEnabled;
-@property(nonatomic, setter=_setMarkedTextInputEnabled:) _Bool _markedTextInputEnabled;
-@property(copy, nonatomic, setter=_setMaskedURLSchemes:) NSSet *_maskedURLSchemes;
-@property(nonatomic, setter=_setMediaCaptureEnabled:) _Bool _mediaCaptureEnabled;
-@property(nonatomic, setter=_setMediaContentTypesRequiringHardwareSupport:) NSString *_mediaContentTypesRequiringHardwareSupport;
-@property(nonatomic, setter=_setMediaDataLoadsAutomatically:) _Bool _mediaDataLoadsAutomatically;
-@property(nonatomic, setter=_setMultiRepresentationHEICInsertionEnabled:) _Bool _multiRepresentationHEICInsertionEnabled;
-@property(nonatomic, setter=_setNeedsStorageAccessFromFileURLsQuirk:) _Bool _needsStorageAccessFromFileURLsQuirk;
-@property(nonatomic, setter=_setOverrideContentSecurityPolicy:) NSString *_overrideContentSecurityPolicy;
-@property(nonatomic, setter=_setPortsForUpgradingInsecureSchemeForTesting:) NSArray *_portsForUpgradingInsecureSchemeForTesting;
-@property(nonatomic, setter=_setPrintsBackgrounds:) _Bool _printsBackgrounds;
-@property(nonatomic, setter=_setProcessDisplayName:) NSString *_processDisplayName;
 @property(nonatomic, setter=_setRelatedWebView:) __weak WKWebView *_relatedWebView;
-@property(retain, nonatomic, setter=_setRequiredWebExtensionBaseURL:) NSURL *_requiredWebExtensionBaseURL;
-@property(nonatomic, setter=_setRequiresUserActionForAudioPlayback:) _Bool _requiresUserActionForAudioPlayback;
-@property(nonatomic, setter=_setRequiresUserActionForVideoPlayback:) _Bool _requiresUserActionForVideoPlayback;
-@property(nonatomic, setter=_setRespectsImageOrientation:) _Bool _respectsImageOrientation;
-@property(nonatomic, setter=_setSampledPageTopColorMaxDifference:) double _sampledPageTopColorMaxDifference;
-@property(nonatomic, setter=_setSampledPageTopColorMinHeight:) double _sampledPageTopColorMinHeight;
-@property(nonatomic, setter=_setScrollToTextFragmentIndicatorEnabled:) _Bool _scrollToTextFragmentIndicatorEnabled;
-@property(nonatomic, setter=_setScrollToTextFragmentMarkingEnabled:) _Bool _scrollToTextFragmentMarkingEnabled;
-@property(nonatomic, setter=_setShouldDecidePolicyBeforeLoadingQuickLookPreview:) _Bool _shouldDecidePolicyBeforeLoadingQuickLookPreview;
-@property(nonatomic, setter=_setShouldDeferAsynchronousScriptsUntilAfterDocumentLoad:) _Bool _shouldDeferAsynchronousScriptsUntilAfterDocumentLoad;
-@property(nonatomic, setter=_setShouldRelaxThirdPartyCookieBlocking:) _Bool _shouldRelaxThirdPartyCookieBlocking;
-@property(nonatomic, setter=_setShouldSendConsoleLogsToUIProcessForTesting:) _Bool _shouldSendConsoleLogsToUIProcessForTesting;
-@property(nonatomic, setter=_setShowsSystemScreenTimeBlockingView:) _Bool _showsSystemScreenTimeBlockingView;
-@property(readonly, nonatomic) WKWebExtensionController *_strongWebExtensionController;
-@property(nonatomic, setter=_setSystemPreviewEnabled:) _Bool _systemPreviewEnabled;
-@property(nonatomic, setter=_setTextInteractionGesturesEnabled:) _Bool _textInteractionGesturesEnabled;
-@property(nonatomic, setter=_setUndoManagerAPIEnabled:) _Bool _undoManagerAPIEnabled;
-@property(retain, nonatomic, setter=_setVisitedLinkStore:) _WKVisitedLinkStore *_visitedLinkStore;
-@property(nonatomic, setter=_setWaitsForPaintAfterViewDidMoveToWindow:) _Bool _waitsForPaintAfterViewDidMoveToWindow;
-@property(nonatomic, setter=_setWeakWebExtensionController:) __weak WKWebExtensionController *_weakWebExtensionController;
-@property(retain, nonatomic, setter=_setWebExtensionController:) _WKWebExtensionController *_webExtensionController;
-@property(nonatomic, setter=_setWebViewToCloneSessionStorageFrom:) __weak WKWebView *_webViewToCloneSessionStorageFrom;
-@property(readonly, nonatomic) WKWebsiteDataStore *_websiteDataStoreIfExists;
-@property(nonatomic) _Bool allowsAirPlayForMediaPlayback;
-@property(nonatomic) _Bool allowsInlineMediaPlayback;
-@property(nonatomic) _Bool allowsInlinePredictions;
-@property(nonatomic) _Bool allowsPictureInPictureMediaPlayback;
-@property(copy, nonatomic) NSString *applicationNameForUserAgent;
-@property(nonatomic) unsigned long long dataDetectorTypes;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(copy, nonatomic) WKWebpagePreferences *defaultWebpagePreferences;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(nonatomic) _Bool ignoresViewportScaleLimits;
-@property(nonatomic) _Bool limitsNavigationsToAppBoundDomains;
-@property(nonatomic) _Bool mediaPlaybackAllowsAirPlay;
-@property(nonatomic) _Bool mediaPlaybackRequiresUserAction;
-@property(nonatomic) unsigned long long mediaTypesRequiringUserActionForPlayback;
-@property(retain, nonatomic) WKPreferences *preferences;
-@property(retain, nonatomic) WKProcessPool *processPool;
-@property(nonatomic) _Bool requiresUserActionForMediaPlayback;
-@property(nonatomic) long long selectionGranularity;
-@property(nonatomic) _Bool showsSystemScreenTimeBlockingView;
-@property(readonly) Class superclass;
-@property(nonatomic) _Bool supportsAdaptiveImageGlyph;
-@property(nonatomic) _Bool suppressesIncrementalRendering;
-@property(nonatomic) _Bool upgradeKnownHostsToHTTPS;
-@property(retain, nonatomic) WKUserContentController *userContentController;
-@property(retain, nonatomic) WKWebExtensionController *webExtensionController;
-@property(retain, nonatomic) WKWebsiteDataStore *websiteDataStore;
-@property(nonatomic) long long writingToolsBehavior;
 
 @end
 

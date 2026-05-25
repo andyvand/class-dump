@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, _WKUserContentWorld;
+@class _WKUserContentWorld;
 
 @interface WKContentWorld
 {
@@ -14,19 +14,10 @@
 - (id);
 - (struct Object *);
 - (void);
-- (id);
+- (id)^;
 
 // Remaining properties
-@property(readonly) struct Object *_apiObject;
 @property(readonly, copy, nonatomic) _WKUserContentWorld *_userContentWorld;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly, copy, nonatomic) NSString *name;
-@property(readonly) Class superclass;
 
 @end
 

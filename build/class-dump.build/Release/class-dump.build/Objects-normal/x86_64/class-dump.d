@@ -29,4 +29,5 @@ dependencies: /Users/andyvand/Downloads/class-dump/class-dump-Prefix.pch \
   /Users/andyvand/Downloads/class-dump/Source/CDCPlusPlusDumper.h \
   /Users/andyvand/Downloads/class-dump/Source/CDSwiftDumper.h \
   /Users/andyvand/Downloads/class-dump/Source/CDDecompiler.h \
-  /Users/andyvand/Downloads/class-dump/Source/CDFilesetExtractor.h
+  /Users/andyvand/Downloads/class-dump/Source/CDFilesetExtractor.h \
+  /Users/andyvand/Downloads/class-dump/Source/CDRoutineDumper.h

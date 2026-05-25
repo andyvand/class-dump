@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WKWebProcessPlugInNodeHandle;
+@class WKWebProcessPlugInNodeHandle;
 
 @interface WKWebProcessPlugInHitTestResult
 {
@@ -16,15 +16,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly) struct Object *_apiObject;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
 @property(readonly) WKWebProcessPlugInNodeHandle *nodeHandle;
-@property(readonly) Class superclass;
 
 @end
 

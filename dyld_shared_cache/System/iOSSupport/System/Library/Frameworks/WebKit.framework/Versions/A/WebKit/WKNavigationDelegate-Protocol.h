@@ -5,5 +5,11 @@
 //
 
 @protocol WKNavigationDelegate
+
+@optional
+- (void);
+- (void)System/iOSSupport/System/Library/Frameworks/PencilKit.framework/Versions/A/PencilKit;
+- (void)storeExternalVersion;
+- (void)removeFromList;
 @end
 

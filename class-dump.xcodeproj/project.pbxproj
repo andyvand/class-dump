@@ -138,6 +138,8 @@
 		51F1A0FE51F1A0FE51F00004 /* CDSwiftDemangler.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F1A0FE51F1A0FE51F00002 /* CDSwiftDemangler.m */; };
 		51F1D04ED5511F1D04ED0003 /* CDSwiftDumper.h in Headers */ = {isa = PBXBuildFile; fileRef = 51F1D04ED5511F1D04ED0001 /* CDSwiftDumper.h */; };
 		51F1D04ED5511F1D04ED0004 /* CDSwiftDumper.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F1D04ED5511F1D04ED0002 /* CDSwiftDumper.m */; };
+		520717DEF1A1A0FE51F00003 /* CDRoutineDumper.h in Headers */ = {isa = PBXBuildFile; fileRef = 520717DEF1A1A0FE51F00001 /* CDRoutineDumper.h */; };
+		520717DEF1A1A0FE51F00004 /* CDRoutineDumper.m in Sources */ = {isa = PBXBuildFile; fileRef = 520717DEF1A1A0FE51F00002 /* CDRoutineDumper.m */; };
 		7A86E77A86E77A86E7000003 /* CDLCTargetTriple.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A86E77A86E77A86E7000001 /* CDLCTargetTriple.h */; };
 		7A86E77A86E77A86E7000004 /* CDLCTargetTriple.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A86E77A86E77A86E7000002 /* CDLCTargetTriple.m */; };
 		ABCE4D842252EE4C009F167D /* objc-symbols.m in Sources */ = {isa = PBXBuildFile; fileRef = ABCE4D832252EE4C009F167D /* objc-symbols.m */; };
@@ -476,6 +478,8 @@
 		51F1A0FE51F1A0FE51F00002 /* CDSwiftDemangler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDSwiftDemangler.m; path = Source/CDSwiftDemangler.m; sourceTree = "<group>"; };
 		51F1D04ED5511F1D04ED0001 /* CDSwiftDumper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDSwiftDumper.h; path = Source/CDSwiftDumper.h; sourceTree = "<group>"; };
 		51F1D04ED5511F1D04ED0002 /* CDSwiftDumper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDSwiftDumper.m; path = Source/CDSwiftDumper.m; sourceTree = "<group>"; };
+		520717DEF1A1A0FE51F00001 /* CDRoutineDumper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDRoutineDumper.h; path = Source/CDRoutineDumper.h; sourceTree = "<group>"; };
+		520717DEF1A1A0FE51F00002 /* CDRoutineDumper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDRoutineDumper.m; path = Source/CDRoutineDumper.m; sourceTree = "<group>"; };
 		7A86E77A86E77A86E7000001 /* CDLCTargetTriple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCTargetTriple.h; path = Source/CDLCTargetTriple.h; sourceTree = "<group>"; };
 		7A86E77A86E77A86E7000002 /* CDLCTargetTriple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCTargetTriple.m; path = Source/CDLCTargetTriple.m; sourceTree = "<group>"; };
 		AB47A63C2252EDD000623B23 /* objc-symbols */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "objc-symbols"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -871,6 +875,8 @@
 				C0DEC1A55ED0EFC1A55E0002 /* CDCPlusPlusDumper.mm */,
 				51F1D04ED5511F1D04ED0001 /* CDSwiftDumper.h */,
 				51F1D04ED5511F1D04ED0002 /* CDSwiftDumper.m */,
+				520717DEF1A1A0FE51F00001 /* CDRoutineDumper.h */,
+				520717DEF1A1A0FE51F00002 /* CDRoutineDumper.m */,
 				CDDECDDECDDECDDECDDE0001 /* CDDecompiler.h */,
 				CDDECDDECDDECDDECDDE0002 /* CDDecompiler.m */,
 				F1E5E000F1E5E000F1E50001 /* CDFilesetExtractor.h */,
@@ -984,6 +990,7 @@
 				51F1A0FE51F1A0FE51F00003 /* CDSwiftDemangler.h in Headers */,
 				C0DEC1A55ED0EFC1A55E0003 /* CDCPlusPlusDumper.h in Headers */,
 				51F1D04ED5511F1D04ED0003 /* CDSwiftDumper.h in Headers */,
+				520717DEF1A1A0FE51F00003 /* CDRoutineDumper.h in Headers */,
 				CDDECDDECDDECDDECDDE0003 /* CDDecompiler.h in Headers */,
 				F1E5E000F1E5E000F1E50003 /* CDFilesetExtractor.h in Headers */,
 			);
@@ -1203,6 +1210,7 @@
 				51F1A0FE51F1A0FE51F00004 /* CDSwiftDemangler.m in Sources */,
 				C0DEC1A55ED0EFC1A55E0004 /* CDCPlusPlusDumper.mm in Sources */,
 				51F1D04ED5511F1D04ED0004 /* CDSwiftDumper.m in Sources */,
+				520717DEF1A1A0FE51F00004 /* CDRoutineDumper.m in Sources */,
 				CDDECDDECDDECDDECDDE0004 /* CDDecompiler.m in Sources */,
 				F1E5E000F1E5E000F1E50004 /* CDFilesetExtractor.m in Sources */,
 				013D1F1A13A5AEA100BF0A67 /* NSArray-CDExtensions.m in Sources */,

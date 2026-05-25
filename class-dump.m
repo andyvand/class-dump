@@ -33,6 +33,7 @@
 #import "CDSwiftDumper.h"
 #import "CDDecompiler.h"
 #import "CDFilesetExtractor.h"
+#import "CDRoutineDumper.h"
 
 void print_usage(void)
 {
@@ -106,6 +107,11 @@ void print_usage(void)
             "                             Each image is dumped in an isolated child class-dump\n"
             "                             process so that a hang or crash in one image (e.g.\n"
             "                             WebKit) cannot stall the rest of the batch.\n"
+            "                             Always writes <basename>.routines.txt next to the\n"
+            "                             headers: one line per function in the image, joining\n"
+            "                             LC_FUNCTION_STARTS + LC_SYMTAB + ObjC method IMPs and\n"
+            "                             demangling C++/Swift names, so every routine is\n"
+            "                             labelled (synthesized `sub_<addr>` for unnamed code).\n"
             "        --dsc-image-timeout SEC\n"
             "                             per-image wall-clock timeout for --dsc-class-dump\n"
             "                             (default 180s; 0 disables; child is SIGTERM'd then\n"
@@ -337,6 +343,22 @@ static int CDDumpSingleImage(NSString *fullPath,
             cd.typeController.delegate = v;
             v.outputPath = outDir;
             [cd recursivelyVisit:v];
+
+            // Always emit a routine listing alongside the headers so every
+            // function in the image is labelled, including non-ObjC code.
+            {
+                CDMachOFile *mf = [cd.machOFiles lastObject];
+                if (mf) {
+                    NSError *re = nil;
+                    if (![CDRoutineDumper writeRoutinesForMachOFile:mf
+                                                          classDump:cd
+                                                        toDirectory:outDir
+                                                              error:&re]) {
+                        fprintf(stderr, "class-dump: routine dump failed: %s\n",
+                                [[re localizedDescription] UTF8String]);
+                    }
+                }
+            }
 
             if (dumpCpp || dumpSwift) {
                 CDMachOFile *mf = [cd.machOFiles lastObject];
@@ -1000,6 +1022,20 @@ int main(int argc, char *argv[])
                             cd.typeController.delegate = v;
                             v.outputPath = outSub;
                             [cd recursivelyVisit:v];
+
+                            {
+                                CDMachOFile *mf = [cd.machOFiles lastObject];
+                                if (mf) {
+                                    NSError *re = nil;
+                                    if (![CDRoutineDumper writeRoutinesForMachOFile:mf
+                                                                          classDump:cd
+                                                                        toDirectory:outSub
+                                                                              error:&re]) {
+                                        fprintf(stderr, "class-dump: routine dump for %s failed: %s\n",
+                                                [rel UTF8String], [[re localizedDescription] UTF8String]);
+                                    }
+                                }
+                            }
 
                             if (shouldDumpCpp || shouldDumpSwift) {
                                 CDMachOFile *mf = [cd.machOFiles lastObject];

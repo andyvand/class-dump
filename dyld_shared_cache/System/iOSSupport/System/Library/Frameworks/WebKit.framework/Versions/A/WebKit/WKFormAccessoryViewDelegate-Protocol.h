@@ -4,6 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class WKFormAccessoryView;
+
 @protocol WKFormAccessoryViewDelegate
+- (void)if_objectsNotOfClass:(WKFormAccessoryView *)arg1;
 @end
 

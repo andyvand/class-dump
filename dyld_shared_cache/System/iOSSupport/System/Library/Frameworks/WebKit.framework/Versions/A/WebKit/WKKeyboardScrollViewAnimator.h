@@ -4,19 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WKBaseScrollView;
+@class WKBaseScrollView;
 @protocol WKKeyboardScrollViewAnimatorDelegate;
 
 __attribute__((visibility("hidden")))
 @interface WKKeyboardScrollViewAnimator
 {
     WKBaseScrollView *_scrollView;
-    struct RetainPtr<WKKeyboardScrollingAnimator> _animator;
-    _Bool _delegateRespondsToIsKeyboardScrollable;
-    _Bool _delegateRespondsToDistanceForIncrement;
-    _Bool _delegateRespondsToWillScroll;
-    _Bool _delegateRespondsToDidFinishScrolling;
-    id <WKKeyboardScrollViewAnimatorDelegate> _delegate;
 }
 
 - (void);
@@ -44,14 +38,7 @@ __attribute__((visibility("hidden")))
 - (void)rMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Extractor = WTF:(id)arg1:KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionWindowIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Vector<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionTabIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionWindowIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionWindowIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Vector<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionTabIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionWindowIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
 @property(nonatomic) __weak id <WKKeyboardScrollViewAnimatorDelegate> delegate; // @synthesize delegate=_delegate;
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

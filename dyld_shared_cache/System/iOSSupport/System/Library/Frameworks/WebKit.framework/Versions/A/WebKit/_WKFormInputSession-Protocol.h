@@ -4,23 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject, NSString, UIView;
-@protocol NSSecureCoding, _WKFocusedElementInfo;
+@class NSArray, NSObject;
+@protocol NSSecureCoding;
 
 @protocol _WKFormInputSession
+- (void);
+- (NSObject<NSSecureCoding> *)=}16@0:8 /* Error: Ran out of types for this method. */;
 - (NSArray *)t::SpeechRecognitionServer>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void)bjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF:(NSArray *)arg1:Ref<WebCore::Gradient>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::RemoteGradientIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::RemoteGradientIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::Gradient>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::RemoteGradientIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *accessoryViewCustomButtonTitle;
-@property(nonatomic) _Bool accessoryViewShouldNotShow;
-@property(retain, nonatomic) UIView *customInputAccessoryView;
-@property(retain, nonatomic) UIView *customInputView;
-@property(readonly, nonatomic) id <_WKFocusedElementInfo> focusedElementInfo;
-@property(nonatomic) _Bool forceSecureTextEntry;
-@property(readonly, nonatomic) _Bool requiresStrongPasswordAssistance;
-@property(copy, nonatomic) NSArray *suggestions;
-@property(readonly, nonatomic) NSObject<NSSecureCoding> *userObject;
 @property(readonly, nonatomic, getter=isValid) _Bool valid;
 @end
 

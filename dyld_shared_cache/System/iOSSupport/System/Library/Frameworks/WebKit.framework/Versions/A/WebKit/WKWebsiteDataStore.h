@@ -7,8 +7,6 @@
 @interface WKWebsiteDataStore
 {
     struct AlignedStorage<WebKit::WebsiteDataStore, 8UL> _websiteDataStore;
-    struct WeakObjCPtr<id<_WKWebsiteDataStoreDelegate>> _delegate;
-    RetainPtr_76fb8da3 _proxyConfigurations;
 }
 
 @end

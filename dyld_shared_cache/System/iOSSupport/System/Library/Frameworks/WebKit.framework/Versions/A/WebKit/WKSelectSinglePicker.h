@@ -4,13 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, WKContentView;
+@class WKContentView;
 
 __attribute__((visibility("hidden")))
 @interface WKSelectSinglePicker
 {
     WKContentView *_view;
-    long long _selectedIndex;
 }
 
 - (void);
@@ -26,13 +25,7 @@ __attribute__((visibility("hidden")))
 - (id)nsionWindow>, WTF:(id)arg1:Ref<WebKit::WebExtensionAction>>>, HashFunctions = WTF::DefaultHash<WTF::WeakPtr<WebKit::WebExtensionWindow>>, Traits = WTF::HashMap<WTF::WeakPtr<WebKit::WebExtensionWindow>, WTF::Ref<WebKit::WebExtensionAction>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::WeakPtr<WebKit::WebExtensionWindow>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

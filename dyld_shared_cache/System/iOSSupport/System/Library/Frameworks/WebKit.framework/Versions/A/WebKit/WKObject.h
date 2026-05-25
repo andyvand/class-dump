@@ -4,30 +4,27 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString;
-
 __attribute__((visibility("hidden")))
 @interface WKObject
 {
     _Bool _hasInitializedTarget;
-    struct RetainPtr<NSObject> _target;
 }
 
 - (id);
 - (struct Object *);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)setPersonaStringForDomainID: /* Error: Ran out of types for this method. */;
+- (_Bool)setOids: /* Error: Ran out of types for this method. */;
+- (_Bool)setObservers: /* Error: Ran out of types for this method. */;
+- (_Bool)setObject:forKeyedSubscript: /* Error: Ran out of types for this method. */;
+- (_Bool)setNeverCreateBookmarkForOpenInPlace: /* Error: Ran out of types for this method. */;
+- (_Bool)setNeverCreateBookmarkForOpenInPlace: /* Error: Ran out of types for this method. */;
+- (_Bool)setMostRecentlyVisitedEffectiveTabIdentifier: /* Error: Ran out of types for this method. */;
+- (_Bool)featureRequirementDesktopServicesSupportsFPv2ForUSBorSMB;
 - (void);
 - (id);
 - (_Bool);
-- (id);
-- (Class);
+- (id)c;
+- (Class)<˟;
 - (unsigned long long);
 - (_Bool);
 - (id);
@@ -38,7 +35,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool)rMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF:(Class)arg1:MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>="m_value"{ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}"documentIdentifier"{Markable<WebCore::ProcessQualified<WTF::UUID>, WTF::MarkableTraits<WebCore::ProcessQualified<UUID>>>="m_value"{ProcessQualified<WTF::UUID>="m_object"{UUID="m_data"T}"m_processIdentifier"{ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}}"nodeIdentifier"{Markable<WTF::ObjectIdentifierGeneric<WebCore::NodeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::NodeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>="m_value"{ObjectIdentifierGeneric<WebCore::NodeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}})"__engaged_"B}"hostImageOrVideoElementContext"{optional<WebCore::ElementContext>=""(?="__null_state_"c"__val_"{ElementContext="boundingRect"{FloatRect="m_location"{FloatPoint="m_x"f"m_y"f}"m_size"{FloatSize="m_width"f"m_height"f}}"webPageIdentifier"{Markable<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>="m_value"{ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}"documentIdentifier"{Markable<WebCore::ProcessQualified<WTF::UUID>, WTF::MarkableTraits<WebCore::ProcessQualified<UUID>>>="m_value"{ProcessQualified<WTF::UUID>="m_object"{UUID="m_data"T}"m_processIdentifier"{ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}}"nodeIdentifier"{Markable<WTF::ObjectIdentifierGeneric<WebCore::NodeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::NodeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>="m_value"{ObjectIdentifierGeneric<WebCore::NodeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}})"__engaged_"B}})"__engaged_"B} /* Error: Ran out of types for this method. */;
 - (id);
-- (_Bool)x;
+- (_Bool)Tx;
 - (id), WTF::WeakPtr<WebKit::WebSocketChannel>>>, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::WebSocketIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::WebSocketIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::WeakPtr<WebKit::WebSocketChannel>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::WebSocketIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::WebSocketIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::WebSocketIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::WeakPtr<WebKit::WebSocketChannel>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::WebSocketIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::WeakPtr<WebKit::WebSocketChannel>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::WebSocketIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::WebSocketIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::WeakPtr<WebKit::WebSocketChannel>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::WebSocketIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (_Bool)WebCore:(id)arg1:Node, WeakPtrImpl = WebCore::WeakPtrImplWithEventTargetData] /* Error: Ran out of types for this method. */;
 - (Class)raits<WTF::WeakPtr<WebKit::NetworkCache::AsyncRevalidation>>>::validateKey(const ValueType &) [Key = WTF::WeakPtr<WebKit::NetworkCache::AsyncRevalidation>, Value = WTF::WeakPtr<WebKit::NetworkCache::AsyncRevalidation>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<WTF::WeakPtr<WebKit::NetworkCache::AsyncRevalidation>>, Traits = WTF::HashTraits<WTF::WeakPtr<WebKit::NetworkCache::AsyncRevalidation>>, KeyTraits = WTF::HashTraits<WTF::WeakPtr<WebKit::NetworkCache::AsyncRevalidation>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
@@ -46,13 +43,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly) struct Object *_apiObject;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

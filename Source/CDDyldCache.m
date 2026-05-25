@@ -22,6 +22,8 @@ struct cd_dsc_header_min {
 // Header field offsets that are stable across the cache versions we care
 // about. Matches `struct dyld_cache_header` in Apple's dyld source.
 enum {
+    kDscOffLocalSymbolsOffset   = 0x48,
+    kDscOffLocalSymbolsSize     = 0x50,
     kDscOffCacheType            = 0x68,
     kDscOffUUID                 = 0x58,
     kDscOffSharedRegionStart    = 0xe0,
@@ -706,6 +708,148 @@ static NSString *CDDscUUIDString(const uint8_t uuid[16])
     }
 
     _images = [imgs copy];
+}
+
+// MARK: - Unmapped local symbols
+//
+// Modern caches keep the local-symbol nlist+strings table out of the mapped
+// pages (so they don't bloat the in-memory shared region) and stash it in a
+// sibling `<cache>.symbols` file. Legacy caches embedded the same data inside
+// the main cache file. dsc_extractor strips most of these out of the
+// extracted dylib's LC_SYMTAB, so for class-dump we need to crack the table
+// ourselves whenever we want to label every routine.
+
+// Pick the slice that backs the unmapped local symbols. Returns the
+// .symbols sidecar for modern caches, the main slice for legacy caches,
+// or nil if no slice carries a non-zero `localSymbolsOffset` header field.
+- (CDDyldCacheSlice *)_sliceHoldingLocalSymbols
+{
+    for (CDDyldCacheSlice *s in _slices) {
+        if (s.info && [s.info.suffix isEqualToString:@".symbols"]) return s;
+    }
+    // Fallback: legacy single-file caches keep the locals inside the main file.
+    if (_slices.count > 0) return _slices[0];
+    return nil;
+}
+
+// Read a uint64_t from `data` at `offset`. Returns 0 on out-of-bounds.
+static uint64_t CDReadU64(NSData *data, NSUInteger offset)
+{
+    if (offset + 8 > [data length]) return 0;
+    uint64_t v = 0;
+    memcpy(&v, (const uint8_t *)[data bytes] + offset, 8);
+    return v;
+}
+
+- (NSDictionary<NSNumber *, NSString *> *)localSymbolsForImageAtAddress:(uint64_t)imageUnslidVMAddr
+{
+    CDDyldCacheSlice *symSlice = [self _sliceHoldingLocalSymbols];
+    if (symSlice == nil) return nil;
+    NSData *data = symSlice.data;
+    if (data == nil) return nil;
+
+    uint64_t locOff  = CDReadU64(data, kDscOffLocalSymbolsOffset);
+    uint64_t locSize = CDReadU64(data, kDscOffLocalSymbolsSize);
+    if (locOff == 0 || locSize == 0) return nil;
+    if (locOff + locSize > [data length]) return nil;
+
+    // dyld_cache_local_symbols_info header at `locOff`.
+    if (locOff + 24 > [data length]) return nil;
+    const uint8_t *info = (const uint8_t *)[data bytes] + locOff;
+    uint32_t nlistOffset   = 0, nlistCount   = 0;
+    uint32_t stringsOffset = 0, stringsSize  = 0;
+    uint32_t entriesOffset = 0, entriesCount = 0;
+    memcpy(&nlistOffset,   info +  0, 4);
+    memcpy(&nlistCount,    info +  4, 4);
+    memcpy(&stringsOffset, info +  8, 4);
+    memcpy(&stringsSize,   info + 12, 4);
+    memcpy(&entriesOffset, info + 16, 4);
+    memcpy(&entriesCount,  info + 20, 4);
+
+    // The offsets inside the info header are relative to the info header
+    // itself, so anchor against `info` rather than the slice base.
+    if ((NSUInteger)nlistOffset + (NSUInteger)nlistCount * 16 > locSize) return nil;
+    if ((NSUInteger)stringsOffset + (NSUInteger)stringsSize > locSize) return nil;
+
+    // Layout test: modern caches (with symbolFileUUID in the header) use the
+    // 16-byte `dyld_cache_local_symbols_entry_64`; legacy caches use the
+    // 12-byte `dyld_cache_local_symbols_entry`. The test matches dyld's
+    // `forEachLocalSymbolEntry` gate.
+    BOOL modern = (_hdr.mappingOffset >= kDscOffSymbolFileUUID);
+    NSUInteger entrySize = modern ? 16 : 12;
+    if ((NSUInteger)entriesOffset + (NSUInteger)entriesCount * entrySize > locSize) return nil;
+
+    uint64_t cacheBase = [self cacheBaseAddress];
+    if (cacheBase == 0) return nil;
+    uint64_t targetOffset = imageUnslidVMAddr - cacheBase; // VM offset from cache base
+
+    // Find the entry covering this image.
+    uint32_t startIdx = 0, count = 0;
+    BOOL found = NO;
+    for (uint32_t i = 0; i < entriesCount; i++) {
+        const uint8_t *eBase = info + entriesOffset + i * entrySize;
+        uint64_t dylibOff = 0;
+        uint32_t nStart = 0, nCount = 0;
+        if (modern) {
+            memcpy(&dylibOff, eBase + 0, 8);
+            memcpy(&nStart,   eBase + 8, 4);
+            memcpy(&nCount,   eBase + 12, 4);
+        } else {
+            uint32_t dylibOff32 = 0;
+            memcpy(&dylibOff32, eBase + 0, 4);
+            memcpy(&nStart,     eBase + 4, 4);
+            memcpy(&nCount,     eBase + 8, 4);
+            dylibOff = dylibOff32;
+        }
+        if (dylibOff == targetOffset) {
+            startIdx = nStart;
+            count = nCount;
+            found = YES;
+            break;
+        }
+    }
+    if (!found || count == 0) return nil;
+
+    // Walk the nlist_64 slab for this image. We assume nlist_64 (16 bytes)
+    // because every shipping macOS / iOS cache for the last several years
+    // is 64-bit; 32-bit caches don't run dsc-class-dump in practice.
+    NSMutableDictionary<NSNumber *, NSString *> *out = [NSMutableDictionary dictionary];
+    if ((NSUInteger)startIdx + (NSUInteger)count > nlistCount) return nil;
+
+    const uint8_t *nlistBase = info + nlistOffset + (NSUInteger)startIdx * 16;
+    const uint8_t *strBase   = info + stringsOffset;
+    NSUInteger strMax = stringsSize;
+
+    for (uint32_t i = 0; i < count; i++) {
+        const uint8_t *e = nlistBase + (NSUInteger)i * 16;
+        uint32_t strx;   memcpy(&strx,   e + 0,  4);
+        uint8_t  ntype  = e[4];
+        // uint8_t nsect = e[5];  uint16_t ndesc = read16(e+6);
+        uint64_t value;  memcpy(&value,  e + 8,  8);
+        if (value == 0) continue;
+        if (strx >= strMax) continue;
+
+        // Skip stab/debug records we don't care about (no useful name for a
+        // function start). N_STAB (0xe0) bits being set means it's a debug
+        // symbol; allow N_FUN (0x24) entries because dsc-builder sometimes
+        // emits N_FUN locals.
+        BOOL isStab = (ntype & 0xe0) != 0;
+        BOOL isFun  = (ntype == 0x24);
+        if (isStab && !isFun) continue;
+
+        const char *cstr = (const char *)(strBase + strx);
+        size_t maxLen = strMax - strx;
+        size_t actual = strnlen(cstr, maxLen);
+        if (actual == 0) continue;
+        NSString *name = [[NSString alloc] initWithBytes:cstr length:actual encoding:NSUTF8StringEncoding];
+        if (name == nil) continue;
+
+        NSNumber *key = @(value);
+        // Earlier symbols win (dyld writes globals before private locals).
+        if (out[key] == nil) out[key] = name;
+    }
+
+    return out.count > 0 ? [out copy] : nil;
 }
 
 - (void)probePlatform

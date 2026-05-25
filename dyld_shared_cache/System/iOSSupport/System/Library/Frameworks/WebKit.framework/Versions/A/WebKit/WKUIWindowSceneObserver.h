@@ -8,14 +8,13 @@ __attribute__((visibility("hidden")))
 @interface WKUIWindowSceneObserver
 {
     struct WeakPtr<WebKit::ApplicationStateTracker, WTF::DefaultWeakPtrImpl, WTF::RawPtrTraits<WTF::DefaultWeakPtrImpl>> _parent;
-    struct WeakObjCPtr<UIWindow> _window;
 }
 
 - (void);
 - (id);
 - (void);
 - (id);
-- (void)tionTokenUserInfoRoleAttributeKey;
+- (void)_WKTextManipulationTokenUserInfoRoleAttributeKey;
 
 @end
 

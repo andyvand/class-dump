@@ -5,6 +5,7 @@
 //
 
 @protocol WTWritingToolsDelegate_Proposed_v3
+- (void)6IntentP;
 - (void)¼m;
 
 @optional
