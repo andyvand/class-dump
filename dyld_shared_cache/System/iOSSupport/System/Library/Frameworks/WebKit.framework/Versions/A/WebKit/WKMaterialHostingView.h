@@ -12,11 +12,12 @@ __attribute__((visibility("hidden")))
 @interface WKMaterialHostingView : WKCompositingView
 {
     struct RetainPtr<UIView> _hostingView;
+    struct RetainPtr<UIView> _contentView;
 }
 
 - (void);
 - (void);
-- (id)B;
+- (id);
 - (id);
 - (void)long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id)n<WebCore::CSS::LengthPercentage<>>] /* Error: Ran out of types for this method. */;

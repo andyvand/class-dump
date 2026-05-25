@@ -4,6 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString, WKWebProcessPlugInFrame;
+
 @interface WKWebProcessPlugInNodeHandle
 {
     struct AlignedStorage<WebKit::InjectedBundleNodeHandle, 8UL> _nodeHandle;
@@ -16,7 +18,7 @@
 - (void);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (_Bool);
 - (long long);
 - (long long);
@@ -29,14 +31,32 @@
 - (_Bool);
 - (_Bool);
 - (_Bool);
-- (_Bool)R,|;
+- (_Bool);
 - (_Bool);
 - (_Bool);
 - (void);
 - (id);
 
 // Remaining properties
+@property(nonatomic) _Bool HTMLInputElementIsAutoFilled;
+@property(nonatomic) _Bool HTMLInputElementIsAutoFilledAndObscured;
+@property(nonatomic) _Bool HTMLInputElementIsAutoFilledAndViewable;
+@property(readonly, nonatomic) _Bool HTMLInputElementIsUserEdited;
+@property(readonly, nonatomic) WKWebProcessPlugInNodeHandle *HTMLTableCellElementCellAbove;
+@property(readonly, nonatomic) _Bool HTMLTextAreaElementIsUserEdited;
+@property(readonly) struct Object *_apiObject;
 @property(readonly) void *_nodeHandle;
+@property(readonly, copy) NSString *debugDescription;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,C
+
+@property(readonly, copy) NSString *description;
+@property(readonly, nonatomic) struct CGRect elementBounds;
+@property(readonly, nonatomic) WKWebProcessPlugInFrame *frame;
+@property(readonly) unsigned long long hash;
+@property(readonly, nonatomic) _Bool isSelectElement;
+@property(readonly, nonatomic) _Bool isSelectableTextNode;
+@property(readonly) Class superclass;
 
 @end
 

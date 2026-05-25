@@ -4,11 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSURL;
+@class NSArray, NSSet, NSString, NSURL;
 
 @interface _WKProcessPoolConfiguration
 {
     struct AlignedStorage<API::ProcessPoolConfiguration, 8UL> _processPoolConfiguration;
+    _Bool _shouldCaptureAudioInUIProcess;
 }
 
 - (unsigned long long);
@@ -16,12 +17,12 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool)P;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (_Bool);
+- (_Bool);
 - (void);
 - (void);
 - (void);
@@ -50,8 +51,8 @@
 - (void);
 - (void);
 - (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (unsigned int);
 - (CDStruct_6ad76789);
 - (int);
@@ -63,12 +64,12 @@
 - (id);
 - (_Bool);
 - (_Bool);
-- (long long)R^;
+- (long long);
 - (id);
 - (id);
 - (_Bool);
 - (id);
-- (_Bool)$;
+- (_Bool);
 - (id);
 - (_Bool);
 - (struct Object *);
@@ -80,13 +81,54 @@
 - (void);
 - (id);
 - (id);
-- (void)o;
+- (void);
 - (id);
 - (void)KWebExtensionWindow>";
 - (id)/System/iOSSupport/usr/local/include/wtf/ThreadSafeWeakPtr.h;
 
 // Remaining properties
+@property(nonatomic, getter=isJITEnabled) _Bool JITEnabled;
+@property(readonly) struct Object *_apiObject;
+@property(copy, nonatomic) NSArray *additionalReadAccessAllowedURLs;
+@property(nonatomic) _Bool alwaysKeepAndReuseSwappedProcesses;
+@property(copy, nonatomic) NSArray *alwaysRevalidatedURLSchemes;
+@property(nonatomic) _Bool alwaysRunsAtBackgroundPriority;
+@property(nonatomic) _Bool attrStyleEnabled;
+@property(copy, nonatomic) NSArray *cachePartitionedURLSchemes;
+@property(nonatomic) _Bool configureJSCForTesting;
+@property(copy, nonatomic) NSSet *customClassesForParameterCoder;
+@property(copy, nonatomic) NSString *customWebContentServiceBundleIdentifier;
+@property(readonly, copy) NSString *debugDescription;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,C
+
+@property(readonly, copy) NSString *description;
+@property(nonatomic) long long diskCacheSizeOverride;
+@property(nonatomic) _Bool diskCacheSpeculativeValidationEnabled;
+@property(readonly) unsigned long long hash;
+@property(nonatomic) _Bool ignoreSynchronousMessagingTimeoutsForTesting;
 @property(copy, nonatomic) NSURL *injectedBundleURL;
+@property(nonatomic) unsigned long long maximumProcessCount;
+@property(copy, nonatomic) NSArray *memoryFootprintNotificationThresholds;
+@property(nonatomic) double memoryFootprintPollIntervalForTesting;
+@property(nonatomic) _Bool pageCacheEnabled;
+@property(nonatomic) int presentingApplicationPID;
+@property(nonatomic) CDStruct_6ad76789 presentingApplicationProcessToken;
+@property(nonatomic) unsigned int prewarmedProcessCountLimitForTesting;
+@property(nonatomic) _Bool prewarmsProcessesAutomatically;
+@property(nonatomic) _Bool processSwapsOnNavigation;
+@property(nonatomic) _Bool processSwapsOnNavigationWithinSameNonHTTPFamilyProtocol;
+@property(nonatomic) _Bool shouldCaptureAudioInUIProcess; // @synthesize shouldCaptureAudioInUIProcess=_shouldCaptureAudioInUIProcess;
+@property(nonatomic) _Bool shouldTakeUIBackgroundAssertion;
+@property(nonatomic) _Bool shouldThrowExceptionForGlobalConstantRedeclaration;
+@property(copy, nonatomic) NSString *sourceApplicationBundleIdentifier;
+@property(copy, nonatomic) NSString *sourceApplicationSecondaryIdentifier;
+@property(readonly) Class superclass;
+@property(nonatomic) _Bool suspendsWebProcessesAggressivelyOnMemoryPressure;
+@property(copy, nonatomic) NSString *timeZoneOverride;
+@property(nonatomic) _Bool usesSingleWebProcess;
+@property(nonatomic) _Bool usesWebProcessCache;
+@property(nonatomic) unsigned long long wirelessContextIdentifier;
 
 @end
 

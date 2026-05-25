@@ -4,6 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 
 #import "CDDyldCache.h"
+#import <mach/vm_prot.h>
 
 // Minimal subset of dyld_cache_header. The real struct (defined in
 // dyld/include/mach-o/dyld_cache_format.h in Apple's open-source dyld) has
@@ -17,6 +18,27 @@ struct cd_dsc_header_min {
     uint32_t imagesCountOld;     // 0x1c
     uint64_t dyldBaseAddress;    // 0x20
 };
+
+// Header field offsets that are stable across the cache versions we care
+// about. Matches `struct dyld_cache_header` in Apple's dyld source.
+enum {
+    kDscOffCacheType            = 0x68,
+    kDscOffUUID                 = 0x58,
+    kDscOffSharedRegionStart    = 0xe0,
+    kDscOffMappingWithSlideOff  = 0x138,
+    kDscOffMappingWithSlideCnt  = 0x13c,
+    kDscOffSubCacheArrayOffset  = 0x188,
+    kDscOffSubCacheArrayCount   = 0x18c,
+    kDscOffSymbolFileUUID       = 0x190,
+    kDscOffCacheSubType         = 0x1c8,
+};
+
+// dyld_subcache_entry uses the wider (with fileSuffix) layout when the
+// header's mappingOffset extends past `cacheSubType`. Older caches (mapping
+// offset <= 0x1cc) use the 24-byte `dyld_subcache_entry_v1`. We mirror this
+// gating logic to stay compatible with both.
+static const NSUInteger kSubcacheEntrySizeV1  = 16 + 8;        // uuid + cacheVMOffset
+static const NSUInteger kSubcacheEntrySizeNew = 16 + 8 + 32;   // + fileSuffix[32]
 
 // In modern caches (post ~macOS 12), the per-cache imagesOffset/imagesCount
 // fields appear later in the header. Their absolute offset depends on the
@@ -47,9 +69,108 @@ struct cd_dsc_mapping_info {
     uint32_t initProt;
 };
 
+struct cd_dsc_mapping_and_slide_info {
+    uint64_t address;
+    uint64_t size;
+    uint64_t fileOffset;
+    uint64_t slideInfoFileOffset;
+    uint64_t slideInfoFileSize;
+    uint64_t flags;
+    uint32_t maxProt;
+    uint32_t initProt;
+};
+
+// Flag bits — must match dyld's `enum` in dyld_cache_format.h.
+enum {
+    CD_DYLD_CACHE_MAPPING_AUTH_DATA       = 1u << 0,
+    CD_DYLD_CACHE_MAPPING_DIRTY_DATA      = 1u << 1,
+    CD_DYLD_CACHE_MAPPING_CONST_DATA      = 1u << 2,
+    CD_DYLD_CACHE_MAPPING_TEXT_STUBS      = 1u << 3,
+    CD_DYLD_CACHE_DYNAMIC_CONFIG_DATA     = 1u << 4,
+    CD_DYLD_CACHE_READ_ONLY_DATA          = 1u << 5,
+    CD_DYLD_CACHE_MAPPING_CONST_TPRO_DATA = 1u << 6,
+};
+
+// Mirror of dyld's DyldSharedCache::mappingName() — gives readable names to
+// the mapping-name slot in CDDyldCacheMappingInfo. We use the same VM_PROT
+// bits and DYLD_CACHE_MAPPING_* flags so the output matches what dyld
+// itself prints when running on the same cache.
+static NSString *CDDscMappingName(uint32_t maxProt, uint64_t flags)
+{
+    if (maxProt & VM_PROT_EXECUTE) {
+        if (flags & CD_DYLD_CACHE_MAPPING_TEXT_STUBS) return @"__TEXT_STUBS";
+        return @"__TEXT";
+    }
+    if (maxProt & VM_PROT_WRITE) {
+        if (flags & CD_DYLD_CACHE_DYNAMIC_CONFIG_DATA)     return @"__DATA_CONFIG";
+        if (flags & CD_DYLD_CACHE_MAPPING_AUTH_DATA)       return @"__AUTH";
+        if (flags & CD_DYLD_CACHE_MAPPING_DIRTY_DATA)      return @"__DATA_DIRTY";
+        if (flags & CD_DYLD_CACHE_MAPPING_CONST_TPRO_DATA) return @"__TPRO_CONST";
+        if (flags & CD_DYLD_CACHE_MAPPING_CONST_DATA)      return @"__DATA_CONST";
+        return @"__DATA";
+    }
+    if (maxProt & VM_PROT_READ) {
+        if (flags & CD_DYLD_CACHE_READ_ONLY_DATA) return @"__READ_ONLY";
+        return @"__LINKEDIT";
+    }
+    return @"*unknown*";
+}
+
+static NSString *CDDscUUIDString(const uint8_t uuid[16])
+{
+    return [NSString stringWithFormat:
+            @"%02X%02X%02X%02X-%02X%02X-%02X%02X-%02X%02X-%02X%02X%02X%02X%02X%02X",
+            uuid[0],  uuid[1],  uuid[2],  uuid[3],
+            uuid[4],  uuid[5],  uuid[6],  uuid[7],
+            uuid[8],  uuid[9],
+            uuid[10], uuid[11],
+            uuid[12], uuid[13], uuid[14], uuid[15]];
+}
+
 @implementation CDDyldCacheImageInfo
 - (instancetype)initWithAddress:(uint64_t)address path:(NSString *)path {
     if ((self = [super init])) { _address = address; _path = path; }
+    return self;
+}
+@end
+
+@implementation CDDyldCacheMappingInfo
+- (instancetype)initWithAddress:(uint64_t)address
+                           size:(uint64_t)size
+                     fileOffset:(uint64_t)fileOffset
+                        maxProt:(uint32_t)maxProt
+                       initProt:(uint32_t)initProt
+                          flags:(uint64_t)flags
+{
+    if ((self = [super init])) {
+        _address = address;
+        _size = size;
+        _fileOffset = fileOffset;
+        _maxProt = maxProt;
+        _initProt = initProt;
+        _flags = flags;
+        _name = CDDscMappingName(maxProt, flags);
+    }
+    return self;
+}
+@end
+
+@implementation CDDyldCacheSubcacheInfo
+- (instancetype)initWithPath:(NSString *)path
+                      suffix:(NSString *)suffix
+                        uuid:(NSString *)uuid
+                    vmOffset:(uint64_t)vmOffset
+                    fileSize:(uint64_t)fileSize
+                    mappings:(NSArray<CDDyldCacheMappingInfo *> *)mappings
+{
+    if ((self = [super init])) {
+        _path = path ?: @"";
+        _suffix = suffix ?: @"";
+        _uuid = uuid ?: @"";
+        _vmOffset = vmOffset;
+        _fileSize = fileSize;
+        _mappings = [mappings copy] ?: @[];
+    }
     return self;
 }
 @end
@@ -59,7 +180,8 @@ struct cd_dsc_mapping_info {
 // region (typically the header + a small slab).
 @interface CDDyldCacheSlice : NSObject
 @property (nonatomic, strong) NSData *data;
-@property (nonatomic, strong) NSArray *mappings; // boxed cd_dsc_mapping_info entries
+@property (nonatomic, strong) NSArray *mappings; // boxed cd_dsc_mapping_info entries (vmaddr lookup)
+@property (nonatomic, strong) CDDyldCacheSubcacheInfo *info;
 @end
 @implementation CDDyldCacheSlice @end
 
@@ -71,6 +193,8 @@ struct cd_dsc_mapping_info {
     NSArray *_mappings; // boxed cd_dsc_mapping_info entries (main cache only)
     uint32_t _platform;
     BOOL _legacy;
+    NSString *_uuid;
+    uint64_t _cacheType;
 
     // All slices (main + subcaches), each carrying its own data + mappings.
     // Lookups walk this array so addresses that resolve into a subcache file
@@ -89,11 +213,21 @@ struct cd_dsc_mapping_info {
 
     [self loadImages];
     [self loadMappings];
+    [self _readMainHeaderExtras];
     // Single-file mode: only the main cache contributes mappings. _slices
     // mirrors _mappings so the lookup paths can use one code path.
+    NSArray<CDDyldCacheMappingInfo *> *mainInfos = [self _mappingInfosForData:_data
+                                                              mappingOffset:_hdr.mappingOffset
+                                                               mappingCount:_hdr.mappingCount];
     CDDyldCacheSlice *mainSlice = [CDDyldCacheSlice new];
     mainSlice.data = _data;
     mainSlice.mappings = _mappings;
+    mainSlice.info = [[CDDyldCacheSubcacheInfo alloc] initWithPath:@""
+                                                            suffix:@""
+                                                              uuid:_uuid ?: @""
+                                                          vmOffset:0
+                                                          fileSize:[_data length]
+                                                          mappings:mainInfos];
     _slices = @[mainSlice];
     [self probePlatform];
     return self;
@@ -108,8 +242,33 @@ struct cd_dsc_mapping_info {
     if (mainData == nil) return nil;
     self = [self initWithData:mainData];
     if (self == nil) return nil;
+    // Replace the placeholder main slice with one that carries the resolved
+    // path so --dsc-info can show the on-disk file.
+    if (_slices.count >= 1) {
+        CDDyldCacheSlice *main = _slices[0];
+        main.info = [[CDDyldCacheSubcacheInfo alloc] initWithPath:path
+                                                           suffix:@""
+                                                             uuid:_uuid ?: @""
+                                                         vmOffset:0
+                                                         fileSize:[_data length]
+                                                         mappings:main.info.mappings];
+    }
     [self _loadSubcachesFromBasePath:path];
     return self;
+}
+
+- (void)_readMainHeaderExtras
+{
+    const uint8_t *bytes = (const uint8_t *)[_data bytes];
+    NSUInteger len = [_data length];
+    if (len >= kDscOffCacheType + 8) {
+        memcpy(&_cacheType, bytes + kDscOffCacheType, 8);
+    }
+    if (len >= kDscOffUUID + 16) {
+        _uuid = CDDscUUIDString(bytes + kDscOffUUID);
+    } else {
+        _uuid = @"";
+    }
 }
 
 - (void)_loadSubcachesFromBasePath:(NSString *)basePath
@@ -118,47 +277,71 @@ struct cd_dsc_mapping_info {
     // live at file offsets 0x188/0x18c. Validate the values before trusting
     // them: a sensible offset is < mappingOffset (the header end) and the
     // count is bounded (we've seen up to ~13 subcaches in shipping caches).
-    if ((NSUInteger)_hdr.mappingOffset < 0x190) return;
+    if ((NSUInteger)_hdr.mappingOffset <= kDscOffSubCacheArrayCount + 4) return;
     const uint8_t *bytes = (const uint8_t *)[_data bytes];
-    if ((NSUInteger)0x190 > [_data length]) return;
+    NSUInteger fileLen = [_data length];
+    if (fileLen < kDscOffSubCacheArrayCount + 4) return;
     uint32_t subOff = 0, subCnt = 0;
-    memcpy(&subOff, bytes + 0x188, 4);
-    memcpy(&subCnt, bytes + 0x18c, 4);
+    memcpy(&subOff, bytes + kDscOffSubCacheArrayOffset, 4);
+    memcpy(&subCnt, bytes + kDscOffSubCacheArrayCount, 4);
     if (subOff == 0 || subCnt == 0) return;
     if (subCnt > 64) return;
 
-    // Subcache entry layout in current caches (~iOS 16 / macOS 13 onwards):
-    //   uuid[16], cacheVMOffset(uint64), fileSuffix[32]  (= 56 bytes)
-    // Older caches used a 24-byte entry without the file-suffix field; for
-    // those we synthesise the suffix as ".N".
-    const size_t kEntryNew = 16 + 8 + 32;
-    const size_t kEntryOld = 16 + 8;
-    size_t entrySize = kEntryNew;
-    // Sanity: the new layout must fit in the file.
-    if ((NSUInteger)subOff + (NSUInteger)subCnt * entrySize > [_data length]) {
-        entrySize = kEntryOld;
-        if ((NSUInteger)subOff + (NSUInteger)subCnt * entrySize > [_data length]) return;
+    // Pick the entry layout the same way dyld does: if `mappingOffset`
+    // extends past `cacheSubType` (the field that was added together with
+    // the 32-byte fileSuffix), this is a v2 entry. Otherwise v1.
+    NSUInteger entrySize = (_hdr.mappingOffset > kDscOffCacheSubType + 4)
+        ? kSubcacheEntrySizeNew : kSubcacheEntrySizeV1;
+    if ((NSUInteger)subOff + (NSUInteger)subCnt * entrySize > fileLen) {
+        // Fall back to the other layout if the table doesn't fit. Some
+        // intermediate cache revisions briefly mixed these up.
+        entrySize = (entrySize == kSubcacheEntrySizeNew) ? kSubcacheEntrySizeV1 : kSubcacheEntrySizeNew;
+        if ((NSUInteger)subOff + (NSUInteger)subCnt * entrySize > fileLen) return;
+    }
+
+    // For universal caches (cacheType == 2), the .development variant uses
+    // a `<base>.development` name; subcache siblings are named off the
+    // canonical base — i.e. strip the trailing ".development" when building
+    // subcache paths.
+    NSString *suffixBase = basePath;
+    if (_cacheType == 2 /* kDyldSharedCacheTypeUniversal */) {
+        if ([suffixBase hasSuffix:@".development"]) {
+            suffixBase = [suffixBase substringToIndex:[suffixBase length] - [@".development" length]];
+        }
     }
 
     NSMutableArray *slices = [NSMutableArray arrayWithArray:_slices];
     for (uint32_t i = 0; i < subCnt; i++) {
         const uint8_t *p = bytes + subOff + i * entrySize;
+        uint8_t subUUID[16] = {0};
+        memcpy(subUUID, p, 16);
+        uint64_t vmOff = 0;
+        memcpy(&vmOff, p + 16, 8);
         NSString *suffix = nil;
-        if (entrySize == kEntryNew) {
+        if (entrySize == kSubcacheEntrySizeNew) {
             const char *sfx = (const char *)(p + 16 + 8);
             size_t maxLen = entrySize - (16 + 8);
             size_t actual = strnlen(sfx, maxLen);
             suffix = [[NSString alloc] initWithBytes:sfx length:actual encoding:NSUTF8StringEncoding];
+            if (suffix.length == 0) {
+                // Older cache revision that uses v2 entries with an empty
+                // suffix string: fall back to ".N" naming.
+                suffix = [NSString stringWithFormat:@".%u", i + 1];
+            }
         } else {
             suffix = [NSString stringWithFormat:@".%u", i + 1];
         }
-        if (suffix.length == 0) continue;
 
-        NSString *subPath = [basePath stringByAppendingString:suffix];
+        NSString *subPath = [suffixBase stringByAppendingString:suffix];
         NSData *subData = [NSData dataWithContentsOfFile:subPath
                                                  options:NSDataReadingMappedAlways
                                                    error:NULL];
-        if (subData == nil) continue;
+        if (subData == nil) {
+            fprintf(stderr,
+                    "class-dump: warning: subcache %u (%s) not readable, skipping\n",
+                    i + 1, [subPath UTF8String]);
+            continue;
+        }
         // Each subcache file is itself a "mini" dyld cache: same magic, its
         // own mappingOffset/mappingCount. Parse them and add as a slice.
         if ([subData length] < sizeof(struct cd_dsc_header_min)) continue;
@@ -169,11 +352,75 @@ struct cd_dsc_mapping_info {
                                               mappingOffset:subHdr.mappingOffset
                                                mappingCount:subHdr.mappingCount];
         if (subMappings.count == 0) continue;
+
+        // Optional sanity check: subcache UUIDs should match the entry's
+        // expected UUID. Warn on mismatch — this catches stale subcaches
+        // left over from a partial OS update.
+        NSString *subUUIDString = @"";
+        if ([subData length] >= kDscOffUUID + 16) {
+            uint8_t fileUUID[16] = {0};
+            memcpy(fileUUID, (const uint8_t *)[subData bytes] + kDscOffUUID, 16);
+            subUUIDString = CDDscUUIDString(fileUUID);
+            if (memcmp(fileUUID, subUUID, 16) != 0) {
+                fprintf(stderr,
+                        "class-dump: warning: subcache %s UUID mismatch (expected %s, got %s)\n",
+                        [suffix UTF8String],
+                        [CDDscUUIDString(subUUID) UTF8String],
+                        [subUUIDString UTF8String]);
+            }
+        }
+
+        NSArray<CDDyldCacheMappingInfo *> *infos =
+            [self _mappingInfosForData:subData
+                         mappingOffset:subHdr.mappingOffset
+                          mappingCount:subHdr.mappingCount];
+
         CDDyldCacheSlice *s = [CDDyldCacheSlice new];
         s.data = subData;
         s.mappings = subMappings;
+        s.info = [[CDDyldCacheSubcacheInfo alloc] initWithPath:subPath
+                                                        suffix:suffix
+                                                          uuid:subUUIDString
+                                                      vmOffset:vmOff
+                                                      fileSize:[subData length]
+                                                      mappings:infos];
         [slices addObject:s];
     }
+
+    // .symbols sidecar: when the main header's `symbolFileUUID` is non-zero
+    // there's a separate `<base>.symbols` file containing the unmapped local
+    // symbol nlist table. We don't *use* it for class-dump output, but we
+    // attach it as a slice when present so callers can still see it via
+    // -subcaches (and so any cached path walker that expects it doesn't
+    // print a misleading "missing" warning). The file has no vm mappings
+    // that resolve into the rest of the cache, so it doesn't affect the
+    // lookup hot path.
+    if (fileLen >= kDscOffSymbolFileUUID + 16) {
+        uint8_t symUUID[16] = {0};
+        memcpy(symUUID, bytes + kDscOffSymbolFileUUID, 16);
+        BOOL hasSymbols = NO;
+        for (int i = 0; i < 16; i++) if (symUUID[i]) { hasSymbols = YES; break; }
+        if (hasSymbols) {
+            NSString *symPath = [suffixBase stringByAppendingString:@".symbols"];
+            NSData *symData = [NSData dataWithContentsOfFile:symPath
+                                                     options:NSDataReadingMappedAlways
+                                                       error:NULL];
+            if (symData != nil) {
+                CDDyldCacheSlice *s = [CDDyldCacheSlice new];
+                s.data = symData;
+                s.mappings = @[];
+                s.info = [[CDDyldCacheSubcacheInfo alloc]
+                          initWithPath:symPath
+                                suffix:@".symbols"
+                                  uuid:CDDscUUIDString(symUUID)
+                              vmOffset:0
+                              fileSize:[symData length]
+                              mappings:@[]];
+                [slices addObject:s];
+            }
+        }
+    }
+
     _slices = [slices copy];
 }
 
@@ -192,6 +439,65 @@ struct cd_dsc_mapping_info {
         [m addObject:entry];
     }
     return [m copy];
+}
+
+// Produce CDDyldCacheMappingInfo[] for a slice. When the cache exposes the
+// richer `mappingWithSlideOffset` table (modern caches), parse those so the
+// `flags` field can label __LINKEDIT vs __READ_ONLY, __DATA_CONST, etc.
+// Otherwise fall back to the legacy `mapping_info` layout with flags=0.
+- (NSArray<CDDyldCacheMappingInfo *> *)_mappingInfosForData:(NSData *)data
+                                              mappingOffset:(uint32_t)mappingOffset
+                                               mappingCount:(uint32_t)mappingCount
+{
+    if (data == nil || mappingCount == 0) return @[];
+
+    const uint8_t *bytes = (const uint8_t *)[data bytes];
+    NSUInteger len = [data length];
+
+    // Look up the cache's own mappingWithSlideOffset (in this slice's
+    // header). Subcaches duplicate the same prefix layout as the main
+    // cache, so the field is at the same fixed offset.
+    BOOL useSlideTable = NO;
+    uint32_t slideOff = 0, slideCnt = 0;
+    if (len >= kDscOffMappingWithSlideCnt + 4 && mappingOffset > kDscOffMappingWithSlideOff) {
+        memcpy(&slideOff, bytes + kDscOffMappingWithSlideOff, 4);
+        memcpy(&slideCnt, bytes + kDscOffMappingWithSlideCnt, 4);
+        if (slideOff != 0 && slideCnt == mappingCount &&
+            (NSUInteger)slideOff + (NSUInteger)slideCnt * sizeof(struct cd_dsc_mapping_and_slide_info) <= len) {
+            useSlideTable = YES;
+        }
+    }
+
+    NSMutableArray<CDDyldCacheMappingInfo *> *out = [NSMutableArray arrayWithCapacity:mappingCount];
+    if (useSlideTable) {
+        for (uint32_t i = 0; i < slideCnt; i++) {
+            struct cd_dsc_mapping_and_slide_info mi;
+            memcpy(&mi, bytes + slideOff + i * sizeof(mi), sizeof(mi));
+            [out addObject:[[CDDyldCacheMappingInfo alloc]
+                            initWithAddress:mi.address
+                                       size:mi.size
+                                 fileOffset:mi.fileOffset
+                                    maxProt:mi.maxProt
+                                   initProt:mi.initProt
+                                      flags:mi.flags]];
+        }
+    } else {
+        if ((NSUInteger)mappingOffset + (NSUInteger)mappingCount * sizeof(struct cd_dsc_mapping_info) > len) {
+            return @[];
+        }
+        for (uint32_t i = 0; i < mappingCount; i++) {
+            struct cd_dsc_mapping_info mi;
+            memcpy(&mi, bytes + mappingOffset + i * sizeof(mi), sizeof(mi));
+            [out addObject:[[CDDyldCacheMappingInfo alloc]
+                            initWithAddress:mi.address
+                                       size:mi.size
+                                 fileOffset:mi.fileOffset
+                                    maxProt:mi.maxProt
+                                   initProt:mi.initProt
+                                      flags:0]];
+        }
+    }
+    return [out copy];
 }
 
 - (void)loadMappings;
@@ -282,9 +588,9 @@ struct cd_dsc_mapping_info {
     // against, and it can be lower than any one mapping's vmaddr if the
     // header itself isn't mapped to vmaddr 0 of the region — so reading it
     // from the header is more reliable than taking the min of mappings.
-    if ([_data length] >= 0xe8) {
+    if ([_data length] >= kDscOffSharedRegionStart + 8) {
         uint64_t srs = 0;
-        memcpy(&srs, (const uint8_t *)[_data bytes] + 0xe0, 8);
+        memcpy(&srs, (const uint8_t *)[_data bytes] + kDscOffSharedRegionStart, 8);
         if (srs != 0) return srs;
     }
     uint64_t base = UINT64_MAX;
@@ -337,6 +643,17 @@ struct cd_dsc_mapping_info {
 - (BOOL)usesLegacyImageTable { return _legacy; }
 - (NSArray<CDDyldCacheImageInfo *> *)images { return _images ?: @[]; }
 - (uint32_t)platform { return _platform; }
+- (NSString *)uuid { return _uuid ?: @""; }
+- (uint64_t)cacheType { return _cacheType; }
+
+- (NSArray<CDDyldCacheSubcacheInfo *> *)subcaches
+{
+    NSMutableArray *out = [NSMutableArray arrayWithCapacity:_slices.count];
+    for (CDDyldCacheSlice *s in _slices) {
+        if (s.info) [out addObject:s.info];
+    }
+    return [out copy];
+}
 
 - (void)loadImages
 {
@@ -395,7 +712,7 @@ struct cd_dsc_mapping_info {
 {
     // Best-effort probe: the platform field's offset has migrated across cache
     // versions. We probe a small window after the dyldBaseAddress field.
-    static const NSUInteger probes[] = { 0xa8, 0xb0, 0xb8, 0xc0, 0xc8, 0xd0 };
+    static const NSUInteger probes[] = { 0xa8, 0xb0, 0xb8, 0xc0, 0xc8, 0xd0, 0xd8 };
     for (size_t i = 0; i < sizeof(probes)/sizeof(probes[0]); i++) {
         NSUInteger p = probes[i];
         if (p + 4 > [_data length]) continue;

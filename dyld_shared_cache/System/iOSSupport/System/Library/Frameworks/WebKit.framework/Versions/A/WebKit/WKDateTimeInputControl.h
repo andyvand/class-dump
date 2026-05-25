@@ -22,6 +22,8 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) NSString *dateTimePickerCalendarType;
+@property(readonly, nonatomic) double timePickerValueHour;
+@property(readonly, nonatomic) double timePickerValueMinute;
 
 @end
 

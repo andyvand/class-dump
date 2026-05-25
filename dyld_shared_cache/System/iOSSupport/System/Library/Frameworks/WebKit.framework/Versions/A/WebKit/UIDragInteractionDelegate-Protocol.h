@@ -11,8 +11,6 @@
 - (NSArray *)ebPageID=%llu, frameID=%llu, resourceID=%llu, isMainResource=%d, destination=%u, isSynchronous=%d] NetworkResourceLoader:(UIDragInteraction *)arg1:(id <UIDragSession>)arg2 retrieveCacheEntryInternal:Cached entry is missing certificate information so we are not using it /* Error: Ran out of types for this method. */;
 
 @optional
-- (id <UIDragSession>)I;
-- (NSArray *);
 - (void)Y°1Â0@ù
 × ;
 - (void);

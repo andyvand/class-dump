@@ -4,10 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UITextPosition, UITextRange;
+@class UITextPosition;
 
 @protocol UITextInputTokenizer
-- (UITextRange *)isCoercionPathAllowedForNode:(UITextPosition *)arg1;
 - (_Bool).YjUFRx/Sources/WebKit_iosmac/Source/WebKit/GPUProcess/graphics/WebGPU/RemoteDevice.cpp 259:(UITextPosition *)arg1 Invalid message dispatched %{public}s;
 @end
 

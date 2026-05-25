@@ -4,6 +4,8 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSDictionary, NSNumber, NSString, NSURL, NSUUID;
+
 @interface _WKWebsiteDataStoreConfiguration
 {
     struct AlignedStorage<WebKit::WebsiteDataStoreConfiguration, 16UL> _configuration;
@@ -20,7 +22,6 @@
 - (id);
 - (_Bool);
 - (void);
-- (void).;
 - (void);
 - (void);
 - (void);
@@ -31,27 +32,28 @@
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
-- (void);
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void));
 - (void);
 - (void);
-- (void)xD;
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -79,38 +81,38 @@
 - (id);
 - (id);
 - (id);
-- (_Bool);
 - (_Bool);
 - (_Bool);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
-- (id);
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (id)_ֻ;
+- (id);
+- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (_Bool);
+- (_Bool);
+- (_Bool);
+- (id);
+- (id);
+- (id);
+- (_Bool);
 - (void);
 - (void);
-- (void);
 - (void);
-- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (id);
-- (id);
-- (id);
+- (id);
+- (id);
 - (id);
 - (id);
 - (id);
 - (struct Object *);
-- (id)R5X;
+- (id);
 - (void);
 - (void);
 - (void);
@@ -119,21 +121,87 @@
 - (id);
 - (id);
 - (void);
-- (id)m;
+- (id);
 - (id);
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (void)chedURLResponse">40;
 - (id)ê`;
 - (void)WTF:(_Bool)arg1:DefaultHash<WTF::WeakPtr<WebKit::WebsiteDataStore>>, Traits = WTF::HashTraits<WTF::WeakPtr<WebKit::WebsiteDataStore>>, KeyTraits = WTF::HashTraits<WTF::WeakPtr<WebKit::WebsiteDataStore>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id)Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (_Bool)PDFAnnotationWidgetSubtypeSignature;
+- (_Bool)e;
 
 // Remaining properties
+@property(readonly) struct Object *_apiObject;
+@property(copy, nonatomic, setter=_setCacheStorageDirectory:) NSURL *_cacheStorageDirectory;
+@property(copy, nonatomic, setter=_setCookieStorageFile:) NSURL *_cookieStorageFile;
+@property(copy, nonatomic, setter=_setIndexedDBDatabaseDirectory:) NSURL *_indexedDBDatabaseDirectory;
+@property(copy, nonatomic, setter=_setResourceLoadStatisticsDirectory:) NSURL *_resourceLoadStatisticsDirectory;
+@property(copy, nonatomic, setter=_setResourceMonitorThrottlerDirectory:) NSURL *_resourceMonitorThrottlerDirectory;
+@property(copy, nonatomic, setter=_setServiceWorkerRegistrationDirectory:) NSURL *_serviceWorkerRegistrationDirectory;
+@property(nonatomic, setter=_setShouldAcceptInsecureCertificatesForWebSockets:) _Bool _shouldAcceptInsecureCertificatesForWebSockets;
+@property(copy, nonatomic, setter=_setWebSQLDatabaseDirectory:) NSURL *_webSQLDatabaseDirectory;
+@property(copy, nonatomic, setter=_setWebStorageDirectory:) NSURL *_webStorageDirectory;
+@property(copy, nonatomic) NSString *additionalDomainsWithUserInteractionForTesting;
+@property(nonatomic) _Bool allLoadsBlockedByDeviceManagementRestrictionsForTesting;
+@property(nonatomic) _Bool allowsCellularAccess;
+@property(nonatomic) _Bool allowsHSTSWithUntrustedRootCertificate;
+@property(nonatomic) _Bool allowsServerPreconnect;
+@property(copy, nonatomic) NSURL *alternativeServicesStorageDirectory;
+@property(copy, nonatomic) NSURL *applicationCacheDirectory;
+@property(copy, nonatomic) NSString *applicationCacheFlatFileSubdirectoryName;
+@property(copy, nonatomic) NSString *boundInterfaceIdentifier;
+@property(copy, nonatomic) NSString *dataConnectionServiceType;
+@property(readonly, copy) NSString *debugDescription;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,C
+
+@property(copy, nonatomic) NSNumber *defaultTrackingPreventionEnabledOverride;
+@property(readonly, copy) NSString *description;
+@property(copy, nonatomic) NSURL *deviceIdHashSaltsStorageDirectory;
+@property(nonatomic) _Bool deviceManagementRestrictionsEnabled;
+@property(nonatomic) _Bool enableInAppBrowserPrivacyForTesting;
+@property(nonatomic) _Bool fastServerTrustEvaluationEnabled;
+@property(copy, nonatomic) NSURL *generalStorageDirectory;
+@property(readonly) unsigned long long hash;
+@property(copy, nonatomic, setter=setHSTSStorageDirectory:) NSURL *hstsStorageDirectory;
+@property(copy, nonatomic, setter=setHTTPProxy:) NSURL *httpProxy;
+@property(copy, nonatomic, setter=setHTTPSProxy:) NSURL *httpsProxy;
+@property(readonly, nonatomic) NSUUID *identifier;
+@property(nonatomic) _Bool isDeclarativeWebPushEnabled;
+@property(nonatomic) _Bool legacyTLSEnabled;
+@property(copy, nonatomic) NSURL *mediaCacheDirectory;
+@property(copy, nonatomic) NSURL *mediaKeysStorageDirectory;
+@property(copy, nonatomic) NSURL *networkCacheDirectory;
+@property(nonatomic) _Bool networkCacheSpeculativeValidationEnabled;
+@property(copy, nonatomic) NSNumber *originQuotaRatio;
+@property(nonatomic) unsigned long long overridePersistentNotificationMinimumLifetimeForTesting;
+@property(nonatomic) unsigned long long overrideServiceWorkerRegistrationCountTestingValue;
+@property(copy, nonatomic, setter=setPCMMachServiceName:) NSString *pcmMachServiceName;
+@property(nonatomic) unsigned long long perOriginStorageQuota;
 @property(readonly, nonatomic, getter=isPersistent) _Bool persistent;
+@property(nonatomic) _Bool preventsSystemHTTPProxyAuthentication;
+@property(copy, nonatomic) NSDictionary *proxyConfiguration;
+@property(nonatomic) _Bool requiresSecureHTTPSProxyConnection;
+@property(nonatomic) _Bool resourceLoadStatisticsDebugModeEnabled;
+@property(nonatomic) _Bool serviceWorkerProcessTerminationDelayEnabled;
+@property(nonatomic) _Bool shouldRunServiceWorkersOnMainThreadForTesting;
+@property(copy, nonatomic) NSString *sourceApplicationBundleIdentifier;
+@property(copy, nonatomic) NSString *sourceApplicationSecondaryIdentifier;
+@property(copy, nonatomic) NSURL *standaloneApplicationURL;
+@property(copy, nonatomic) NSNumber *standardVolumeCapacity;
+@property(readonly) Class superclass;
+@property(nonatomic) _Bool suppressesConnectionTerminationOnSystemChange;
+@property(nonatomic) unsigned long long testSpeedMultiplier;
+@property(copy, nonatomic) NSNumber *totalQuotaRatio;
+@property(nonatomic) long long unifiedOriginStorageLevel;
+@property(copy, nonatomic) NSNumber *volumeCapacityOverride;
+@property(copy, nonatomic) NSURL *webContentRestrictionsConfigurationURL;
+@property(copy, nonatomic, setter=setWebPushMachServiceName:) NSString *webPushMachServiceName;
+@property(copy, nonatomic, setter=setWebPushPartitionString:) NSString *webPushPartitionString;
 
 @end
 

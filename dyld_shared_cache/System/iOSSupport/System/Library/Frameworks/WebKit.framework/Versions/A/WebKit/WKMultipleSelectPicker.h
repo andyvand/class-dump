@@ -4,12 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WKContentView;
+@class NSString, WKContentView;
 
 __attribute__((visibility("hidden")))
 @interface WKMultipleSelectPicker
 {
     WKContentView *_view;
+    long long _textAlignment;
+    unsigned long long _singleSelectionIndex;
+    _Bool _allowsMultipleSelection;
+    double _layoutWidth;
+    double _fontSize;
+    double _maximumTextWidth;
 }
 
 - (void);
@@ -28,7 +34,13 @@ __attribute__((visibility("hidden")))
 - (_Bool)HashTraits<WTF:(long long)arg1:WeakPtr<WebKit::EndowmentStateTrackerClient>>>::validateKey(const ValueType &) [Key = WTF::WeakPtr<WebKit::EndowmentStateTrackerClient>, Value = WTF::WeakPtr<WebKit::EndowmentStateTrackerClient>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<WTF::WeakPtr<WebKit::EndowmentStateTrackerClient>>, Traits = WTF::HashTraits<WTF::WeakPtr<WebKit::EndowmentStateTrackerClient>>, KeyTraits = WTF::HashTraits<WTF::WeakPtr<WebKit::EndowmentStateTrackerClient>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
+@property(readonly, copy) NSString *debugDescription;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,C
+
+@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
 
 @end
 

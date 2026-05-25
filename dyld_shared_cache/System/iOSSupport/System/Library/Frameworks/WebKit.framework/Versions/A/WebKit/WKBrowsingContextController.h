@@ -9,7 +9,7 @@
 }
 
 + (void);
-+ (void)N;
++ (void);
 
 @end
 

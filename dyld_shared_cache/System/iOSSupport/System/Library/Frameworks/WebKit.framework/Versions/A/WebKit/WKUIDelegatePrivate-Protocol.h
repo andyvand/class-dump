@@ -4,24 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, UIViewController, WKWebView;
+@class WKWebView;
 
 @protocol WKUIDelegatePrivate
 
 @optional
-- (void);
-- (void);
-- (_Bool)C;
-- (UIViewController *)";
-- (NSArray *);
-- (void)_֎;
-- (void)փ;
-- (void);
-- (void);
-- (void);
-- (NSDictionary *)H;
-- (_Bool)h;
-- (void);
 - (void)fierType, WTF:(WKWebView *)arg1:(id)arg2 ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, unsigned int>, Extractor = WTF:(id)arg3:KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, unsigned int>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, unsigned int>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::MediaPlayerClientIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 @end
 

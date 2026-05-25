@@ -8,6 +8,9 @@ __attribute__((visibility("hidden")))
 @interface WKRemoteObjectEncoder
 {
     struct RefPtr<API::Dictionary, WTF::RawPtrTraits<API::Dictionary>, WTF::DefaultRefDerefTraits<API::Dictionary>> _rootDictionary;
+    RefPtr_fcc53cd1 _objectStream;
+    struct RefPtr<API::Dictionary, WTF::RawPtrTraits<API::Dictionary>, WTF::DefaultRefDerefTraits<API::Dictionary>> _currentDictionary;
+    struct HashSet<WTF::RetainPtr<NSObject>, WTF::DefaultHash<WTF::RetainPtr<NSObject>>, WTF::HashTraits<WTF::RetainPtr<NSObject>>, WTF::HashTableTraits, WTF::ShouldValidateKey::Yes> _objectsBeingEncoded;
 }
 
 - (void *);
@@ -15,7 +18,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (_Bool), WTF::HashMap<WebKit::WebFoundTextRange::PDFData, WTF::RetainPtr<PDFSelection>>::KeyValuePairTraits, WTF::HashTraits<WebKit::WebFoundTextRange::PDFData>>::validateKey(const ValueType &) [Key = WebKit::WebFoundTextRange::PDFData, Value = WTF::KeyValuePair<WebKit::WebFoundTextRange::PDFData, WTF::RetainPtr<PDFSelection>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebKit::WebFoundTextRange::PDFData, WTF::RetainPtr<PDFSelection>>>, HashFunctions = WTF::DefaultHash<WebKit::WebFoundTextRange::PDFData>, Traits = WTF::HashMap<WebKit::WebFoundTextRange::PDFData, WTF::RetainPtr<PDFSelection>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebKit::WebFoundTextRange::PDFData>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;

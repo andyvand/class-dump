@@ -6,60 +6,278 @@
 
 #import <WebKit/WKApplicationStateTrackingView.h>
 
+@class NSArray, NSDictionary, NSString, NSUndoManager, UIContextMenuInteraction, UIConversationContext, UIGestureRecognizer, UITapGestureRecognizer, UITextInputAssistantItem, UITextInputPasswordRules, UITextInputTraits, UITextPosition, UITextRange, UIView, UIWKTextInteractionAssistant, WKDateTimeInputControl, WKFormAccessoryView, WKFormSelectControl, WKTouchEventsGestureRecognizer;
+@protocol NSObject><NSCopying, UITextInputDelegate, UITextInputTokenizer, WKFormControl;
+
 __attribute__((visibility("hidden")))
 @interface WKContentView : WKApplicationStateTrackingView
 {
     struct RefPtr<WebKit::WebPageProxy, WTF::RawPtrTraits<WebKit::WebPageProxy>, WTF::DefaultRefDerefTraits<WebKit::WebPageProxy>> _page;
+    struct WeakObjCPtr<WKWebView> _webView;
+    struct RetainPtr<WKDeferringGestureRecognizer> _touchStartDeferringGestureRecognizerForImmediatelyResettableGestures;
+    struct RetainPtr<WKDeferringGestureRecognizer> _touchStartDeferringGestureRecognizerForDelayedResettableGestures;
+    struct RetainPtr<WKDeferringGestureRecognizer> _touchStartDeferringGestureRecognizerForSyntheticTapGestures;
+    struct RetainPtr<WKDeferringGestureRecognizer> _touchEndDeferringGestureRecognizerForImmediatelyResettableGestures;
+    struct RetainPtr<WKDeferringGestureRecognizer> _touchEndDeferringGestureRecognizerForDelayedResettableGestures;
+    struct RetainPtr<WKDeferringGestureRecognizer> _touchEndDeferringGestureRecognizerForSyntheticTapGestures;
+    struct RetainPtr<WKDeferringGestureRecognizer> _touchMoveDeferringGestureRecognizer;
+    struct optional<WTF::HashSet<WTF::RetainPtr<WKDeferringGestureRecognizer>>> _failedTouchStartDeferringGestures;
+    struct RetainPtr<WKDeferringGestureRecognizer> _imageAnalysisDeferringGestureRecognizer;
+    struct unique_ptr<WebKit::GestureRecognizerConsistencyEnforcer, std::default_delete<WebKit::GestureRecognizerConsistencyEnforcer>> _gestureRecognizerConsistencyEnforcer;
+    struct RetainPtr<WKTouchEventsGestureRecognizer> _touchEventGestureRecognizer;
+    _Bool _touchEventsCanPreventNativeGestures;
+    _Bool _preventsPanningInXAxis;
+    _Bool _preventsPanningInYAxis;
+    struct RetainPtr<WKSyntheticTapGestureRecognizer> _singleTapGestureRecognizer;
+    struct RetainPtr<WKHighlightLongPressGestureRecognizer> _highlightLongPressGestureRecognizer;
+    struct RetainPtr<UILongPressGestureRecognizer> _longPressGestureRecognizer;
+    struct RetainPtr<WKSyntheticTapGestureRecognizer> _doubleTapGestureRecognizer;
+    struct RetainPtr<UITapGestureRecognizer> _nonBlockingDoubleTapGestureRecognizer;
+    struct RetainPtr<UITapGestureRecognizer> _doubleTapGestureRecognizerForDoubleClick;
+    struct RetainPtr<UITapGestureRecognizer> _twoFingerDoubleTapGestureRecognizer;
+    struct RetainPtr<UITapGestureRecognizer> _twoFingerSingleTapGestureRecognizer;
+    struct RetainPtr<WKScrollViewTrackingTapGestureRecognizer> _keyboardDismissalGestureRecognizer;
+    struct RetainPtr<WKInspectorNodeSearchGestureRecognizer> _inspectorNodeSearchGestureRecognizer;
+    struct RetainPtr<WKTouchActionGestureRecognizer> _touchActionGestureRecognizer;
+    struct RetainPtr<UISwipeGestureRecognizer> _touchActionLeftSwipeGestureRecognizer;
+    struct RetainPtr<UISwipeGestureRecognizer> _touchActionRightSwipeGestureRecognizer;
+    struct RetainPtr<UISwipeGestureRecognizer> _touchActionUpSwipeGestureRecognizer;
+    struct RetainPtr<UISwipeGestureRecognizer> _touchActionDownSwipeGestureRecognizer;
+    struct RetainPtr<UITapGestureRecognizer> _gamepadInteractionGestureRecognizer;
+    struct RetainPtr<_UILookupGestureRecognizer> _lookupGestureRecognizer;
+    struct RetainPtr<WKMouseInteraction> _mouseInteraction;
+    unsigned char _mouseEventPolicy;
+    struct RetainPtr<UIIndirectScribbleInteraction> _scribbleInteraction;
+    struct RetainPtr<UIToolTipInteraction> _toolTip;
+    struct RetainPtr<WKTextInteractionWrapper> _textInteractionWrapper;
+    struct OptionSet<WebKit::SuppressSelectionAssistantReason, WTF::ConcurrencyTag::None> _suppressSelectionAssistantReasons;
+    struct RetainPtr<UITextInputTraits> _legacyTextInputTraits;
+    struct RetainPtr<WKExtendedTextInputTraits> _extendedTextInputTraits;
+    struct RetainPtr<WKFormAccessoryView> _formAccessoryView;
+    struct RetainPtr<WKTapHighlightView> _tapHighlightView;
+    struct RetainPtr<UIView> _interactionViewsContainerView;
+    RetainPtr_d5561b83 _contextMenuHintContainerView;
+    struct WeakObjCPtr<UIScrollView> _scrollViewForTargetedPreview;
+    struct CGPoint _scrollViewForTargetedPreviewInitialOffset;
+    RetainPtr_d5561b83 _dragPreviewContainerView;
+    RetainPtr_d5561b83 _dropPreviewContainerView;
+    struct RetainPtr<NSString> _markedText;
+    struct RetainPtr<WKActionSheetAssistant> _actionSheetAssistant;
+    struct RetainPtr<WKFormInputSession> _formInputSession;
+    struct RetainPtr<WKFileUploadPanel> _fileUploadPanel;
+    // Error: parsing type: '{optional<WebKit::FrameInfoData>=""(?="__null_state_"c"__val_"{FrameInfoData="isMainFrame"B"frameType"B"request"{ResourceRequest="m_requestData"{RequestData="m_url"{URL="m_string"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"m_isValid"b1"m_protocolIsInHTTPFamily"b1"m_hasOpaquePath"b1"m_portLength"b3"m_schemeEnd"b26"m_userStart"I"m_userEnd"I"m_passwordEnd"I"m_hostEnd"I"m_pathAfterLastSlash"I"m_pathEnd"I"m_queryEnd"I}"m_firstPartyForCookies"{URL="m_string"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"m_isValid"b1"m_protocolIsInHTTPFamily"b1"m_hasOpaquePath"b1"m_portLength"b3"m_schemeEnd"b26"m_userStart"I"m_userEnd"I"m_passwordEnd"I"m_hostEnd"I"m_pathAfterLastSlash"I"m_pathEnd"I"m_queryEnd"I}"m_timeoutInterval"d"m_httpMethod"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"m_httpHeaderFields"{HTTPHeaderMap="m_commonHeaders"{Vector<WebCore::HTTPHeaderMap::CommonHeader, 0UL, WTF::CrashOnOverflow, 6UL, WTF::FastMalloc>="m_buffer"^{CommonHeader}"m_capacity"I"m_size"I}"m_uncommonHeaders"{Vector<WebCore::HTTPHeaderMap::UncommonHeader, 0UL, WTF::CrashOnOverflow, 0UL, WTF::FastMalloc>="m_buffer"^{UncommonHeader}"m_capacity"I"m_size"I}}"m_responseContentDispositionEncodingFallbackArray"{Vector<WTF::String, 0UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc>="m_buffer"^{String}"m_capacity"I"m_size"I}"m_cachePolicy"C"m_sameSiteDisposition"C"m_priority"C"m_requester"C"m_isTopSite"b1"m_allowCookies"b1"m_isAppInitiated"b1"m_privacyProxyFailClosedForUnreachableNonMainHosts"b1"m_useAdvancedPrivacyProtections"b1"m_didFilterLinkDecoration"b1"m_isPrivateTokenUsageByThirdPartyAllowed"b1"m_wasSchemeOptimisticallyUpgraded"b1"m_targetAddressSpace"B}"m_initiatorIdentifier"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"m_cachePartition"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"m_httpBody"{RefPtr<WebCore::FormData, WTF::RawPtrTraits<WebCore::FormData>, WTF::DefaultRefDerefTraits<WebCore::FormData>>="m_ptr"^{FormData}}"m_inspectorInitiatorNodeIdentifier"{optional<int>=""(?="__null_state_"c"__val_"i)"__engaged_"B}"m_resourceRequestUpdated"b1"m_platformRequestUpdated"b1"m_resourceRequestBodyUpdated"b1"m_platformRequestBodyUpdated"b1"m_hiddenFromInspector"b1"m_nsRequest"{RetainPtr<NSURLRequest>="m_ptr"@"NSURLRequest"}}"securityOrigin"{SecurityOriginData="m_data"{variant<WebCore::SecurityOriginData::Tuple, WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::OpaqueOriginIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>="impl_"{impl<WebCore::SecurityOriginData::Tuple, WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::OpaqueOriginIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>="data_"(recursive_union<mpark::detail::Trait::Available, 0UL, WebCore::SecurityOriginData::Tuple, WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::OpaqueOriginIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>="dummy_"c"head_"{alt<0UL, WebCore::SecurityOriginData::Tuple>="value"{Tuple="protocol"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"host"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"port"{optional<unsigned short>=""(?="__null_state_"c"__val_"S)"__engaged_"B}}}"tail_"(recursive_union<mpark::detail::Trait::Available, 1UL, WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::OpaqueOriginIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>="dummy_"c"head_"{alt<1UL, WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::OpaqueOriginIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>="value"{ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::OpaqueOriginIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>="m_object"{ObjectIdentifierGeneric<WebCore::OpaqueOriginIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}"m_processIdentifier"{ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}}"tail_"(recursive_union<mpark::detail::Trait::Available, 2UL>=)))"index_"C}}}"topOrigin"{SecurityOriginData="m_data"{variant<WebCore::SecurityOriginData::Tuple, WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::OpaqueOriginIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>="impl_"{impl<WebCore::SecurityOriginData::Tuple, WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::OpaqueOriginIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>="data_"(recursive_union<mpark::detail::Trait::Available, 0UL, WebCore::SecurityOriginData::Tuple, WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::OpaqueOriginIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>="dummy_"c"head_"{alt<0UL, WebCore::SecurityOriginData::Tuple>="value"{Tuple="protocol"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"host"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"port"{optional<unsigned short>=""(?="__null_state_"c"__val_"S)"__engaged_"B}}}"tail_"(recursive_union<mpark::detail::Trait::Available, 1UL, WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::OpaqueOriginIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>="dummy_"c"head_"{alt<1UL, WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::OpaqueOriginIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>="value"{ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::OpaqueOriginIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>="m_object"{ObjectIdentifierGeneric<WebCore::OpaqueOriginIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}"m_processIdentifier"{ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}}"tail_"(recursive_union<mpark::detail::Trait::Available, 2UL>=)))"index_"C}}}"frameName"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"frameID"{ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}"webPageProxyID"{Markable<WTF::ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>="m_value"{ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}"parentFrameID"{Markable<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>="m_value"{ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}"documentID"{Markable<WebCore::ProcessQualified<WTF::UUID>, WTF::MarkableTraits<WebCore::ProcessQualified<UUID>>>="m_value"{ProcessQualified<WTF::UUID>="m_object"{UUID="m_data"T}"m_processIdentifier"{ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}}"certificateInfo"{CertificateInfo="m_trust"{RetainPtr<__SecTrust *>="m_ptr"^{__SecTrust}}}"processID"i"isFocused"B"errorOccurred"B"frameMetrics"{WebFrameMetrics="isScrollable"C"contentSize"{IntSize="m_width"i"m_height"i}"visibleContentSize"{IntSize="m_width"i"m_height"i}"visibleContentSizeExcludingScrollbars"{IntSize="m_width"i"m_height"i}}})"__engaged_"B}', name: _frameInfoForFileUploadPanel
+    struct RetainPtr<WKShareSheet> _shareSheet;
+    struct RetainPtr<WKContactPicker> _contactPicker;
+    struct RetainPtr<UIGestureRecognizer> _previewGestureRecognizer;
+    struct RetainPtr<UIGestureRecognizer> _previewSecondaryGestureRecognizer;
+    struct Vector<bool, 0UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc> _focusStateStack;
+    struct RetainPtr<WKContextMenuElementInfo> _contextMenuElementInfo;
+    _Bool _showLinkPreviews;
+    struct RetainPtr<UIViewController> _contextMenuLegacyPreviewController;
+    struct RetainPtr<UIMenu> _contextMenuLegacyMenu;
+    _Bool _contextMenuHasRequestedLegacyData;
+    _Bool _contextMenuActionProviderDelegateNeedsOverride;
+    _Bool _contextMenuIsUsingAlternateURLForImage;
+    _Bool _useContextMenuInteractionDismissalPreview;
+    struct RetainPtr<UIPreviewItemController> _previewItemController;
+    UIGestureRecognizer *_cachedTextInteractionLoupeGestureRecognizer;
+    UIGestureRecognizer *_cachedTextInteractionTapGestureRecognizer;
+    struct RefPtr<WebCore::TextIndicator, WTF::RawPtrTraits<WebCore::TextIndicator>, WTF::DefaultRefDerefTraits<WebCore::TextIndicator>> _textIndicator;
+    struct RetainPtr<WebTextIndicatorLayer> _textIndicatorLayer;
+    _Bool _isPreparingToDisplayContextMenu;
+    _Bool _isDisplayingContextMenuWithAnimation;
+    struct RetainPtr<UITargetedPreview> _contextMenuInteractionTargetedPreview;
+    _Bool _isPresentingWritingTools;
+    struct RetainPtr<WKTextAnimationManager> _textAnimationManager;
+    unsigned char _selectionInteractionType;
+    struct LastSelectionTouch _lastSelectionTouch;
+    struct LastSelectionExtentPoint _lastSelectionExtentPoint;
+    struct LastSelectionExtentPointAndBoundary _lastSelectionExtentPointAndBoundary;
+    struct RefPtr<WebKit::SmartMagnificationController, WTF::RawPtrTraits<WebKit::SmartMagnificationController>, WTF::DefaultRefDerefTraits<WebKit::SmartMagnificationController>> _smartMagnificationController;
+    struct WeakObjCPtr<id<UITextInputDelegate>> _inputDelegate;
+    struct Markable<WTF::ObjectIdentifierGeneric<WebKit::TapIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebKit::TapIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>> _latestTapID;
+    struct TapHighlightInformation _tapHighlightInformation;
+    struct WebAutocorrectionContext _lastAutocorrectionContext;
+    struct WKAutoCorrectionData _autocorrectionData;
+    // Error: parsing type: '{InteractionInformationAtPosition="request"{InteractionInformationRequest="point"{IntPoint="m_x"i"m_y"i}"includeSnapshot"B"includeLinkIndicator"B"includeCursorContext"B"includeHasDoubleClickHandler"B"includeImageData"B"gatherAnimations"B"linkIndicatorShouldHaveLegacyMargins"B}"canBeValid"B"hitNodeOrWindowHasDoubleClickListener"{optional<bool>=""(?="__null_state_"c"__val_"B)"__engaged_"B}"selectability"C"isSelected"B"prefersDraggingOverTextSelection"B"isNearMarkedText"B"touchCalloutEnabled"B"isLink"B"isImage"B"isAttachment"B"isAnimatedImage"B"isAnimating"B"canShowAnimationControls"B"isPausedVideo"B"isElement"B"isContentEditable"B"containerScrollingNodeID"{Markable<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::ScrollingNodeIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::MarkableTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::ScrollingNodeIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>="m_value"{ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::ScrollingNodeIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>="m_object"{ObjectIdentifierGeneric<WebCore::ScrollingNodeIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}"m_processIdentifier"{ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}}"isDataDetectorLink"B"preventTextInteraction"B"elementContainsImageOverlay"B"isImageOverlayText"B"isInPlugin"B"needsPointerTouchCompatibilityQuirk"B"adjustedPointForNodeRespondingToClickEvents"{FloatPoint="m_x"f"m_y"f}"url"{URL="m_string"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"m_isValid"b1"m_protocolIsInHTTPFamily"b1"m_hasOpaquePath"b1"m_portLength"b3"m_schemeEnd"b26"m_userStart"I"m_userEnd"I"m_passwordEnd"I"m_hostEnd"I"m_pathAfterLastSlash"I"m_pathEnd"I"m_queryEnd"I}"imageURL"{URL="m_string"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"m_isValid"b1"m_protocolIsInHTTPFamily"b1"m_hasOpaquePath"b1"m_portLength"b3"m_schemeEnd"b26"m_userStart"I"m_userEnd"I"m_passwordEnd"I"m_hostEnd"I"m_pathAfterLastSlash"I"m_pathEnd"I"m_queryEnd"I}"imageMIMEType"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"title"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"idAttribute"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"bounds"{IntRect="m_location"{IntPoint="m_x"i"m_y"i}"m_size"{IntSize="m_width"i"m_height"i}}"caretRect"{IntRect="m_location"{IntPoint="m_x"i"m_y"i}"m_size"{IntSize="m_width"i"m_height"i}}"image"{RefPtr<WebCore::ShareableBitmap, WTF::RawPtrTraits<WebCore::ShareableBitmap>, WTF::DefaultRefDerefTraits<WebCore::ShareableBitmap>>="m_ptr"^{ShareableBitmap}}"textBefore"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"textAfter"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"cursorContext"{CursorContext="lineCaretExtent"{FloatRect="m_location"{FloatPoint="m_x"f"m_y"f}"m_size"{FloatSize="m_width"f"m_height"f}}"cursor"{optional<WebCore::Cursor>=""(?="__null_state_"c"__val_"{Cursor="m_type"C"m_image"{RefPtr<WebCore::Image, WTF::RawPtrTraits<WebCore::Image>, WTF::DefaultRefDerefTraits<WebCore::Image>>="m_ptr"^{Image}}"m_hotSpot"{IntPoint="m_x"i"m_y"i}"m_platformCursor"{RetainPtr<NSCursor>="m_ptr"@"NSCursor"}})"__engaged_"B}"isVerticalWritingMode"B"shouldNotUseIBeamInEditableContent"B}"textIndicator"{RefPtr<WebCore::TextIndicator, WTF::RawPtrTraits<WebCore::TextIndicator>, WTF::DefaultRefDerefTraits<WebCore::TextIndicator>>="m_ptr"^{TextIndicator}}"dataDetectorIdentifier"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"dataDetectorResults"{RetainPtr<NSArray>="m_ptr"@"NSArray"}"dataDetectorBounds"{IntRect="m_location"{IntPoint="m_x"i"m_y"i}"m_size"{IntSize="m_width"i"m_height"i}}"animationsAtPoint"{Vector<WebCore::ElementAnimationContext, 0UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc>="m_buffer"^{ElementAnimationContext}"m_capacity"I"m_size"I}"elementContext"{optional<WebCore::ElementContext>=""(?="__null_state_"c"__val_"{ElementContext="boundingRect"{FloatRect="m_location"{FloatPoint="m_x"f"m_y"f}"m_size"{FloatSize="m_width"f"m_height"f}}"webPageIdentifier"{Markable<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>="m_value"{ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}"documentIdentifier"{Markable<WebCore::ProcessQualified<WTF::UUID>, WTF::MarkableTraits<WebCore::ProcessQualified<UUID>>>="m_value"{ProcessQualified<WTF::UUID>="m_object"{UUID="m_data"T}"m_processIdentifier"{ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}}"nodeIdentifier"{Markable<WTF::ObjectIdentifierGeneric<WebCore::NodeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::NodeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>="m_value"{ObjectIdentifierGeneric<WebCore::NodeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}})"__engaged_"B}"hostImageOrVideoElementContext"{optional<WebCore::ElementContext>=""(?="__null_state_"c"__val_"{ElementContext="boundingRect"{FloatRect="m_location"{FloatPoint="m_x"f"m_y"f}"m_size"{FloatSize="m_width"f"m_height"f}}"webPageIdentifier"{Markable<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>="m_value"{ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}"documentIdentifier"{Markable<WebCore::ProcessQualified<WTF::UUID>, WTF::MarkableTraits<WebCore::ProcessQualified<UUID>>>="m_value"{ProcessQualified<WTF::UUID>="m_object"{UUID="m_data"T}"m_processIdentifier"{ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}}"nodeIdentifier"{Markable<WTF::ObjectIdentifierGeneric<WebCore::NodeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::NodeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>="m_value"{ObjectIdentifierGeneric<WebCore::NodeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}})"__engaged_"B}}', name: _positionInformation
+    struct RefPtr<WebCore::TextIndicator, WTF::RawPtrTraits<WebCore::TextIndicator>, WTF::DefaultRefDerefTraits<WebCore::TextIndicator>> _positionInformationLinkIndicator;
+    // Error: parsing type: '{FocusedElementInformation="interactionRect"{IntRect="m_location"{IntPoint="m_x"i"m_y"i}"m_size"{IntSize="m_width"i"m_height"i}}"elementContext"{ElementContext="boundingRect"{FloatRect="m_location"{FloatPoint="m_x"f"m_y"f}"m_size"{FloatSize="m_width"f"m_height"f}}"webPageIdentifier"{Markable<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>="m_value"{ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}"documentIdentifier"{Markable<WebCore::ProcessQualified<WTF::UUID>, WTF::MarkableTraits<WebCore::ProcessQualified<UUID>>>="m_value"{ProcessQualified<WTF::UUID>="m_object"{UUID="m_data"T}"m_processIdentifier"{ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}}"nodeIdentifier"{Markable<WTF::ObjectIdentifierGeneric<WebCore::NodeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::NodeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>="m_value"{ObjectIdentifierGeneric<WebCore::NodeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}}"lastInteractionLocation"{IntPoint="m_x"i"m_y"i}"minimumScaleFactor"d"maximumScaleFactor"d"maximumScaleFactorIgnoringAlwaysScalable"d"nodeFontSize"d"hasNextNode"B"nextNodeRect"{IntRect="m_location"{IntPoint="m_x"i"m_y"i}"m_size"{IntSize="m_width"i"m_height"i}}"hasPreviousNode"B"previousNodeRect"{IntRect="m_location"{IntPoint="m_x"i"m_y"i}"m_size"{IntSize="m_width"i"m_height"i}}"isAutocorrect"B"isRTL"B"isMultiSelect"B"isReadOnly"B"allowsUserScaling"B"allowsUserScalingIgnoringAlwaysScalable"B"insideFixedPosition"B"hasPlainText"B"autocapitalizeType"C"elementType"C"inputMode"C"enterKeyHint"C"formAction"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"selectOptions"{Vector<WebKit::OptionItem, 0UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc>="m_buffer"^{OptionItem}"m_capacity"I"m_size"I}"selectedIndex"i"value"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"valueAsNumber"d"title"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"acceptsAutofilledLoginCredentials"B"isAutofillableUsernameField"B"representingPageURL"{URL="m_string"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"m_isValid"b1"m_protocolIsInHTTPFamily"b1"m_hasOpaquePath"b1"m_portLength"b3"m_schemeEnd"b26"m_userStart"I"m_userEnd"I"m_passwordEnd"I"m_hostEnd"I"m_pathAfterLastSlash"I"m_pathEnd"I"m_queryEnd"I}"autofillFieldName"C"nonAutofillCredentialType"B"placeholder"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"label"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"ariaLabel"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"hasSuggestions"B"isFocusingWithDataListDropdown"B"colorValue"{Color="m_colorAndFlags"Q}"supportsAlpha"B"suggestedColors"{Vector<WebCore::Color, 0UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc>="m_buffer"^{Color}"m_capacity"I"m_size"I}"hasEverBeenPasswordField"B"shouldSynthesizeKeyEventsForEditing"B"isSpellCheckingEnabled"B"isWritingSuggestionsEnabled"B"shouldAvoidResizingWhenInputViewBoundsChange"B"shouldAvoidScrollingWhenFocusedContentIsVisible"B"shouldUseLegacySelectPopoverDismissalBehaviorInDataActivation"B"shouldHideSoftTopScrollEdgeEffect"B"isFocusingWithValidationMessage"B"preventScroll"B"identifier"{MonotonicObjectIdentifier<WebKit::FocusedElementInformationIdentifierType>="m_identifier"Q}"containerScrollingNodeID"{Markable<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::ScrollingNodeIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::MarkableTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::ScrollingNodeIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>="m_value"{ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::ScrollingNodeIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>="m_object"{ObjectIdentifierGeneric<WebCore::ScrollingNodeIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}"m_processIdentifier"{ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}}"frame"{optional<WebKit::FrameInfoData>=""(?="__null_state_"c"__val_"{FrameInfoData="isMainFrame"B"frameType"B"request"{ResourceRequest="m_requestData"{RequestData="m_url"{URL="m_string"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"m_isValid"b1"m_protocolIsInHTTPFamily"b1"m_hasOpaquePath"b1"m_portLength"b3"m_schemeEnd"b26"m_userStart"I"m_userEnd"I"m_passwordEnd"I"m_hostEnd"I"m_pathAfterLastSlash"I"m_pathEnd"I"m_queryEnd"I}"m_firstPartyForCookies"{URL="m_string"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"m_isValid"b1"m_protocolIsInHTTPFamily"b1"m_hasOpaquePath"b1"m_portLength"b3"m_schemeEnd"b26"m_userStart"I"m_userEnd"I"m_passwordEnd"I"m_hostEnd"I"m_pathAfterLastSlash"I"m_pathEnd"I"m_queryEnd"I}"m_timeoutInterval"d"m_httpMethod"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"m_httpHeaderFields"{HTTPHeaderMap="m_commonHeaders"{Vector<WebCore::HTTPHeaderMap::CommonHeader, 0UL, WTF::CrashOnOverflow, 6UL, WTF::FastMalloc>="m_buffer"^{CommonHeader}"m_capacity"I"m_size"I}"m_uncommonHeaders"{Vector<WebCore::HTTPHeaderMap::UncommonHeader, 0UL, WTF::CrashOnOverflow, 0UL, WTF::FastMalloc>="m_buffer"^{UncommonHeader}"m_capacity"I"m_size"I}}"m_responseContentDispositionEncodingFallbackArray"{Vector<WTF::String, 0UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc>="m_buffer"^{String}"m_capacity"I"m_size"I}"m_cachePolicy"C"m_sameSiteDisposition"C"m_priority"C"m_requester"C"m_isTopSite"b1"m_allowCookies"b1"m_isAppInitiated"b1"m_privacyProxyFailClosedForUnreachableNonMainHosts"b1"m_useAdvancedPrivacyProtections"b1"m_didFilterLinkDecoration"b1"m_isPrivateTokenUsageByThirdPartyAllowed"b1"m_wasSchemeOptimisticallyUpgraded"b1"m_targetAddressSpace"B}"m_initiatorIdentifier"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"m_cachePartition"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"m_httpBody"{RefPtr<WebCore::FormData, WTF::RawPtrTraits<WebCore::FormData>, WTF::DefaultRefDerefTraits<WebCore::FormData>>="m_ptr"^{FormData}}"m_inspectorInitiatorNodeIdentifier"{optional<int>=""(?="__null_state_"c"__val_"i)"__engaged_"B}"m_resourceRequestUpdated"b1"m_platformRequestUpdated"b1"m_resourceRequestBodyUpdated"b1"m_platformRequestBodyUpdated"b1"m_hiddenFromInspector"b1"m_nsRequest"{RetainPtr<NSURLRequest>="m_ptr"@"NSURLRequest"}}"securityOrigin"{SecurityOriginData="m_data"{variant<WebCore::SecurityOriginData::Tuple, WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::OpaqueOriginIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>="impl_"{impl<WebCore::SecurityOriginData::Tuple, WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::OpaqueOriginIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>="data_"(recursive_union<mpark::detail::Trait::Available, 0UL, WebCore::SecurityOriginData::Tuple, WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::OpaqueOriginIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>="dummy_"c"head_"{alt<0UL, WebCore::SecurityOriginData::Tuple>="value"{Tuple="protocol"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"host"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"port"{optional<unsigned short>=""(?="__null_state_"c"__val_"S)"__engaged_"B}}}"tail_"(recursive_union<mpark::detail::Trait::Available, 1UL, WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::OpaqueOriginIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>="dummy_"c"head_"{alt<1UL, WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::OpaqueOriginIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>="value"{ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::OpaqueOriginIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>="m_object"{ObjectIdentifierGeneric<WebCore::OpaqueOriginIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}"m_processIdentifier"{ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}}"tail_"(recursive_union<mpark::detail::Trait::Available, 2UL>=)))"index_"C}}}"topOrigin"{SecurityOriginData="m_data"{variant<WebCore::SecurityOriginData::Tuple, WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::OpaqueOriginIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>="impl_"{impl<WebCore::SecurityOriginData::Tuple, WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::OpaqueOriginIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>="data_"(recursive_union<mpark::detail::Trait::Available, 0UL, WebCore::SecurityOriginData::Tuple, WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::OpaqueOriginIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>="dummy_"c"head_"{alt<0UL, WebCore::SecurityOriginData::Tuple>="value"{Tuple="protocol"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"host"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"port"{optional<unsigned short>=""(?="__null_state_"c"__val_"S)"__engaged_"B}}}"tail_"(recursive_union<mpark::detail::Trait::Available, 1UL, WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::OpaqueOriginIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>="dummy_"c"head_"{alt<1UL, WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::OpaqueOriginIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>="value"{ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::OpaqueOriginIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>="m_object"{ObjectIdentifierGeneric<WebCore::OpaqueOriginIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}"m_processIdentifier"{ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}}"tail_"(recursive_union<mpark::detail::Trait::Available, 2UL>=)))"index_"C}}}"frameName"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}"frameID"{ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}"webPageProxyID"{Markable<WTF::ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>="m_value"{ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}"parentFrameID"{Markable<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>="m_value"{ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}"documentID"{Markable<WebCore::ProcessQualified<WTF::UUID>, WTF::MarkableTraits<WebCore::ProcessQualified<UUID>>>="m_value"{ProcessQualified<WTF::UUID>="m_object"{UUID="m_data"T}"m_processIdentifier"{ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}}"certificateInfo"{CertificateInfo="m_trust"{RetainPtr<__SecTrust *>="m_ptr"^{__SecTrust}}}"processID"i"isFocused"B"errorOccurred"B"frameMetrics"{WebFrameMetrics="isScrollable"C"contentSize"{IntSize="m_width"i"m_height"i}"visibleContentSize"{IntSize="m_width"i"m_height"i}"visibleContentSizeExcludingScrollbars"{IntSize="m_width"i"m_height"i}}})"__engaged_"B}}', name: _focusedElementInformation
+    struct optional<WebKit::MonotonicObjectIdentifier<WebKit::FocusedElementInformationIdentifierType>> _pendingFocusedElementIdentifier;
+    struct RetainPtr<NSObject<WKFormPeripheral>> _inputPeripheral;
+    struct Vector<WebKit::KeyEventAndCompletionBlock, 1UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc> _keyWebEventHandlers;
+    struct CGPoint _lastInteractionLocation;
+    struct optional<WebCore::ProcessQualified<WebKit::MonotonicObjectIdentifier<WebKit::TransactionIDType>>> _layerTreeTransactionIdAtLastInteractionStart;
+    UIView *_cachedSelectionContainerView;
+    UIView *_lastSiblingBeforeSelectionHighlight;
+    struct WKSelectionDrawingInfo _lastSelectionDrawingInfo;
+    struct RetainPtr<WKTextRange> _cachedSelectedTextRange;
+    struct optional<WebKit::InteractionInformationRequest> _lastOutstandingPositionInformationRequest;
+    unsigned long long _positionInformationCallbackDepth;
+    struct Vector<std::optional<std::pair<WebKit::InteractionInformationRequest, WTF::BlockPtr<void (WebKit::InteractionInformationAtPosition)>>>, 0UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc> _pendingPositionInformationHandlers;
+    OptionSet_8604435b _inputViewUpdateDeferralSources;
+    struct RetainPtr<WKKeyboardScrollViewAnimator> _keyboardScrollingAnimator;
+    struct Vector<WTF::BlockPtr<void ()>, 0UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc> _actionsToPerformAfterEditorStateUpdate;
+    struct RetainPtr<UIView<WKFormControl>> _dataListTextSuggestionsInputView;
+    struct RetainPtr<NSArray<UITextSuggestion *>> _dataListTextSuggestions;
+    struct WeakObjCPtr<WKDataListSuggestionsControl> _dataListSuggestionsControl;
+    struct RefPtr<WebKit::RevealFocusedElementDeferrer, WTF::RawPtrTraits<WebKit::RevealFocusedElementDeferrer>, WTF::DefaultRefDerefTraits<WebKit::RevealFocusedElementDeferrer>> _revealFocusedElementDeferrer;
+    _Bool _isEditable;
+    _Bool _hasValidPositionInformation;
+    _Bool _isTapHighlightIDValid;
+    _Bool _isTapHighlightFading;
+    _Bool _potentialTapInProgress;
+    _Bool _isDoubleTapPending;
+    _Bool _longPressCanClick;
+    _Bool _hasTapHighlightForPotentialTap;
+    _Bool _selectionNeedsUpdate;
+    _Bool _shouldRestoreSelection;
+    _Bool _usingGestureForSelection;
+    _Bool _usingMouseDragForSelection;
+    _Bool _inspectorNodeSearchEnabled;
+    _Bool _isChangingFocusUsingAccessoryTab;
+    _Bool _didAccessoryTabInitiateFocus;
+    _Bool _isExpectingFastSingleTapCommit;
+    _Bool _showDebugTapHighlightsForFastClicking;
+    _Bool _textInteractionDidChangeFocusedElement;
+    _Bool _treatAsContentEditableUntilNextEditorStateUpdate;
+    _Bool _isWaitingOnPositionInformation;
+    _Bool _autocorrectionContextNeedsUpdate;
+    unsigned int _commitPotentialTapPointerId;
+    _Bool _keyboardDidRequestDismissal;
+    _Bool _isKeyboardScrollingAnimationRunning;
+    _Bool _keyboardDismissedInCurrentPresentationUpdate;
+    _Bool _editingEndedByUser;
+    _Bool _candidateViewNeedsUpdate;
+    _Bool _seenHardwareKeyDownInNonEditableElement;
+    _Bool _becomingFirstResponder;
+    _Bool _resigningFirstResponder;
+    _Bool _needsDeferredEndScrollingSelectionUpdate;
+    _Bool _isChangingFocus;
+    _Bool _isFocusingElementWithKeyboard;
+    _Bool _isBlurringFocusedElement;
+    _Bool _isRelinquishingFirstResponderToFocusedElement;
+    _Bool _unsuppressSoftwareKeyboardAfterNextAutocorrectionContextUpdate;
+    _Bool _isUnsuppressingSoftwareKeyboardUsingLastAutocorrectionContext;
+    _Bool _waitingForKeyboardAppearanceAnimationToStart;
+    _Bool _isHidingKeyboard;
+    _Bool _isInterpretingKeyEvent;
+    _Bool _isPresentingEditMenu;
+    _Bool _isHandlingActiveKeyEvent;
+    _Bool _isHandlingActivePressesEvent;
+    _Bool _isDeferringKeyEventsToInputMethod;
+    _Bool _isUpdatingAccessoryView;
+    _Bool _doubleTapGesturesAreDisabledTemporarilyForFastTap;
+    _Bool _focusRequiresStrongPasswordAssistance;
+    _Bool _waitingForEditDragSnapshot;
+    struct optional<bool> _cachedRequiresLegacyTextInputTraits;
+    long long _dropAnimationCount;
+    _Bool _waitingForEditorStateAfterScrollingSelectionContainer;
+    struct optional<WebCore::IntPoint> _lastSelectionChildScrollViewContentOffset;
+    optional_dc4c3092 _lastSelectionContainerViewOrigin;
+    _Bool _hasSetUpInteractions;
+    struct optional<bool> _cachedHasCustomTintColor;
+    unsigned long long _ignoreSelectionCommandFadeCount;
+    unsigned long long _activeTextInteractionCount;
+    long long _suppressNonEditableSingleTapTextInteractionCount;
+    struct CompletionHandler<void (WebCore::DOMPasteAccessResponse)> _domPasteRequestHandler;
+    struct optional<WebCore::DOMPasteAccessCategory> _domPasteRequestCategory;
+    struct CompletionHandler<void (WebKit::RequestAutocorrectionContextResult)> _pendingAutocorrectionContextHandler;
+    struct CompletionHandler<void ()> _pendingRunModalJavaScriptDialogCallback;
+    struct RetainPtr<NSDictionary> _additionalContextForStrongPasswordAssistance;
+    struct optional<char32_t> _lastInsertedCharacterToOverrideCharacterBeforeSelection;
+    unsigned int _selectionChangeNestingLevel;
+    struct DragDropInteractionState _dragDropInteractionState;
+    struct RetainPtr<UIDragInteraction> _dragInteraction;
+    struct RetainPtr<UIDropInteraction> _dropInteraction;
+    _Bool _isAnimatingDragCancel;
+    _Bool _shouldRestoreEditMenuAfterDrop;
+    struct RetainPtr<UIView> _visibleContentViewSnapshot;
+    struct RetainPtr<UIView> _unselectedContentSnapshot;
+    struct RetainPtr<_UITextDragCaretView> _editDropCaretView;
+    struct BlockPtr<void ()> _actionToPerformAfterReceivingEditDragSnapshot;
+    struct RetainPtr<UIView<UITextCursorView>> _editDropTextCursorView;
+    struct RetainPtr<UITextCursorDropPositionAnimator> _editDropCaretAnimator;
+    struct RetainPtr<NSMutableDictionary<NSUUID *, NSUUID *>> _sourceAnimationIDtoDestinationAnimationID;
+    struct unique_ptr<WebKit::TextCheckingController, std::default_delete<WebKit::TextCheckingController>> _textCheckingController;
+    struct RetainPtr<WKImageAnalysisGestureRecognizer> _imageAnalysisGestureRecognizer;
+    struct optional<WTF::ObjectIdentifierGeneric<WebKit::ImageAnalysisRequestIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>> _pendingImageAnalysisRequestIdentifier;
+    // Error: parsing type: '{optional<WebCore::ElementContext>=""(?="__null_state_"c"__val_"{ElementContext="boundingRect"{FloatRect="m_location"{FloatPoint="m_x"f"m_y"f}"m_size"{FloatSize="m_width"f"m_height"f}}"webPageIdentifier"{Markable<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>="m_value"{ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}"documentIdentifier"{Markable<WebCore::ProcessQualified<WTF::UUID>, WTF::MarkableTraits<WebCore::ProcessQualified<UUID>>>="m_value"{ProcessQualified<WTF::UUID>="m_object"{UUID="m_data"T}"m_processIdentifier"{ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}}"nodeIdentifier"{Markable<WTF::ObjectIdentifierGeneric<WebCore::NodeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::NodeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>="m_value"{ObjectIdentifierGeneric<WebCore::NodeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}})"__engaged_"B}', name: _elementPendingImageAnalysis
+    struct Vector<WTF::BlockPtr<void (WebKit::ProceedWithTextSelectionInImage)>, 0UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc> _actionsToPerformAfterPendingImageAnalysis;
+    _Bool _isProceedingWithTextSelectionInImage;
+    struct RetainPtr<VKCImageAnalyzer> _imageAnalyzer;
+    unsigned char _dynamicImageAnalysisContextMenuState;
+    struct optional<WebKit::ImageAnalysisContextMenuActionData> _imageAnalysisContextMenuActionData;
+    unsigned int _fullscreenVideoImageAnalysisRequestIdentifier;
+    struct RetainPtr<VKCImageAnalysisInteraction> _imageAnalysisInteraction;
+    struct RetainPtr<NSMutableSet<UIButton *>> _imageAnalysisActionButtons;
+    struct FloatRect _imageAnalysisInteractionBounds;
+    // Error: parsing type: '{optional<WebKit::RemoveBackgroundData>=""(?="__null_state_"c"__val_"{RemoveBackgroundData="element"{ElementContext="boundingRect"{FloatRect="m_location"{FloatPoint="m_x"f"m_y"f}"m_size"{FloatSize="m_width"f"m_height"f}}"webPageIdentifier"{Markable<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>="m_value"{ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}"documentIdentifier"{Markable<WebCore::ProcessQualified<WTF::UUID>, WTF::MarkableTraits<WebCore::ProcessQualified<UUID>>>="m_value"{ProcessQualified<WTF::UUID>="m_object"{UUID="m_data"T}"m_processIdentifier"{ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}}"nodeIdentifier"{Markable<WTF::ObjectIdentifierGeneric<WebCore::NodeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::NodeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>="m_value"{ObjectIdentifierGeneric<WebCore::NodeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}}}"image"{RetainPtr<CGImage *>="m_ptr"^{CGImage}}"preferredMIMEType"{String="m_impl"{RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>="m_ptr"^{StringImpl}}}})"__engaged_"B}', name: _removeBackgroundData
+    struct unique_ptr<WebKit::PageClientImpl, std::default_delete<WebKit::PageClientImpl>> _pageClient;
+    struct RetainPtr<UIView> _rootContentView;
+    struct RetainPtr<UIView> _fixedClippingView;
+    struct RetainPtr<WKInspectorIndicationView> _inspectorIndicationView;
+    struct RetainPtr<WKInspectorHighlightView> _inspectorHighlightView;
+    struct RetainPtr<_UILayerHostView> _visibilityPropagationViewForWebProcess;
+    struct RetainPtr<_UILayerHostView> _visibilityPropagationViewForGPUProcess;
+    struct HistoricalVelocityData _historicalKinematicData;
+    struct RetainPtr<WKNSUndoManager> _undoManager;
+    struct RetainPtr<WKNSKeyEventSimulatorUndoManager> _undoManagerForSimulatingKeyEvents;
+    struct Lock _pendingBackgroundPrintFormattersLock;
+    struct RetainPtr<NSMutableSet> _pendingBackgroundPrintFormatters;
+    struct Markable<WTF::ObjectIdentifierGeneric<IPC::AsyncReplyIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<IPC::AsyncReplyIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>> _printRenderingCallbackID;
+    long long _printRenderingCallbackType;
+    struct Vector<WTF::RetainPtr<NSURL>, 0UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc> _temporaryURLsToDeleteWhenDeallocated;
+    _Bool _sizeChangedSinceLastVisibleContentRectUpdate;
 }
 
-- (void)_userDefaults;
 - (void);
-- (OptionSet_57e4f44b);
+- (void);
+- (OptionSet_39be2094);
+- (void);
+- (_Bool);
+- (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
+- (id);
 - (_Bool);
-- (void)A;
-- (void);
-- (id)C;
-- (_Bool);
-- (id);
+- (id);
 - (id);
 - (_Bool);
 - (_Bool);
 - (void);
 - (void);
-- (void)R,V_remoteViewControllerSemaphore;
+- (void);
 - (_Bool);
-- (_Bool)startAdImpressionWithConfig:completionHandler: /* Error: Ran out of types for this method. */;
-- (id)enumerateCurrentReceiptsForClient:productID:withReceiver:skipTransactionSync:reply: /* Error: Ran out of types for this method. */;
-- (void)4;
+- (_Bool);
+- (id);
+- (void);
 - (_Bool);
 - (void);
-- (_Bool)~;
 - (_Bool);
 - (_Bool);
-- (void)ownershipType;
-- (void)descriptors;
+- (_Bool);
 - (void);
-- (_Bool);
-- (void)ion: /* Error: Ran out of types for this method. */;
 - (void);
 - (void);
 - (_Bool);
 - (void);
 - (void);
-- (void)h(;
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (id);
 - (void);
 - (void);
 - (void);
-- (id)`;
+- (id);
 - (void);
 - (id);
 - (void);
-- (void)P;
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -69,21 +287,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)q;
-- (void);
-- (void);
-- (void);
 - (void);
 - (void);
 - (void);
-- (_Bool)_;
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
 - (_Bool);
-- (void)C;
+- (void);
 - (void);
 - (id);
 - (void);
@@ -102,9 +320,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (struct CGRect);
 - (void);
-- (id);
+- (id);
 - (void);
-- (void)|�;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -115,22 +333,22 @@ __attribute__((visibility("hidden")))
 - (id);
 - (unsigned short);
 - (void);
-- (void)˟;
-- (void);
-- (id);
-- (optional_c6138dfc);
-- (void);
-- (id);
 - (void);
 - (void);
 - (id);
+- (optional_f4f62309);
 - (void);
-- (void);
+- (id);
+- (void);
+- (void);
+- (id);
+- (void);
+- (void);
 - (SEL);
 - (void);
 - (_Bool);
 - (void);
-- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -145,21 +363,21 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (RetainPtr_d3c67a6d)24@0:(unsigned long long)arg1 8:(struct CGImage *)arg2 16;
-- (_Bool)startInAppRecordingWithContextID:(id)arg1 windowSize:(id)arg2 microphoneEnabled:cameraEnabled:withHandler: /* Error: Ran out of types for this method. */;
-- (void)setAnimatesTransitions:(id)arg1;
-- (void)completeRequestReturningItems:completionHandler: /* Error: Ran out of types for this method. */;
-- (RetainPtr_b2bc179d)];
-- (void)RPVideoEditorExtensionBundleIdentifierKey;
-- (void)RECORDING_ERROR_DISABLED;
+- (RetainPtr_d3c67a6d);
+- (_Bool);
+- (void);
+- (void);
+- (RetainPtr_d5561b83);
+- (void);
+- (void);
 - (id);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (unsigned char);
 - (void);
-- (struct CGRect).n;
+- (struct CGRect);
 - (struct CGPoint);
 - (void);
 - (id);
@@ -186,7 +404,7 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (_Bool);
 - (void);
-- (id);
+- (id);
 - (_Bool);
 - (_Bool);
 - (void);
@@ -198,18 +416,6 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (void)$;
-- (void);
-- (void);
-- (_Bool)r;
-- (void);
-- (void)_reserved;
-- (void)e_value;
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (long long);
 - (void);
 - (void);
 - (void);
@@ -218,8 +424,20 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (_Bool)4;
-- (void)?5;
+- (void);
+- (_Bool);
+- (void);
+- (long long);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -235,19 +453,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (struct CGRect);
-- (struct _NSRange)H;
+- (struct _NSRange);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void)@;
-- (void);
-- (void);
-- (_Bool);
-- (void);
-- (void);
-- (_Bool);
-- (void)T;
 - (void);
 - (void);
 - (void);
@@ -255,27 +463,36 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void)<;
 - (void);
 - (_Bool);
-- (void)setHasPositionLength:(unsigned char)arg1;
-- (_Bool)numberWithLongLong: /* Error: Ran out of types for this method. */;
-- (void)cameraIntrinsics;
-- (void)appLocationAtIndex: /* Error: Ran out of types for this method. */;
-- (void)_inertialCovarianceInfo;
-- (void)I;
-- (id)PartOfAnEtaParkingGarageBuilding;
-- (id)galileo;
-- (void)cellOutOfServiceInfo;
-- (void)&7G=
-;
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (_Bool);
+- (void);
+- (_Bool);
+- (void);
+- (void);
+- (void);
+- (void);
+- (id);
+- (id);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
 - (void);
 - (struct Color);
 - (id);
-- (_Bool)~;;
+- (_Bool);
 - (void);
 - (_Bool);
 - (void);
@@ -289,7 +506,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (id)(06R;
+- (id);
 - (void);
 - (void);
 - (void);
@@ -298,7 +515,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)p6(;
+- (void);
 - (void *);
 - (void);
 - (_Bool);
@@ -309,24 +526,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void)n"16@"NSURLSessionDownloadTask"24@"NSURL"32;
-- (void)NSArray"40@0:(id)arg1 8@"WFFileType"16@"WFCoercionOptions"24^@32;
-- (void)tokenGenerator;
-- (id)comparableValueForValue:(optional_00a20217)arg1;
-- (void)archiveEntriesWithTopLevelFileRepresentation:(id)arg1 usedFilenames:(id)arg2;
-- (void)WFFileType",R,N;
-- (_Bool)WFShareSheetSafariWebPage;
-- (id)WFSerializableContentProviderEntry;
-- (void)$;
 - (void);
 - (void);
 - (void);
-- (struct _NSRange)value missing bracket;
-- (void)ted unsafe responses using v2 adapter, throwing an error...;
-- (void)nContext"16^@24;
+- (id);
+- (void);
+- (void);
+- (_Bool);
+- (id);
+- (void);
+- (void);
+- (void);
+- (void);
+- (struct _NSRange);
+- (void);
+- (void);
 - (const void *);
-- (_Bool)FMAction.Text;
-- (_Bool)p;
+- (_Bool);
+- (_Bool);
 - (_Bool);
 - (void);
 - (void);
@@ -343,9 +560,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (_Bool);
-- (void);
+- (void);
 - (id);
-- (void);
+- (void);
 - (void);
 - (struct DragData);
 - (void);
@@ -376,7 +593,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (void);
-- (void);
+- (void);
 - (struct CGRect);
 - (id);
 - (void);
@@ -388,7 +605,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (void);
-- (void)c;
+- (void);
 - (void);
 - (void);
 - (unsigned long long);
@@ -398,22 +615,22 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (optional_53a37146);
+- (optional_0a2cbaca);
 - (void);
 - (_Bool);
 - (id);
 - (_Bool);
-- (void)isML.framework/Versions/A/SensitiveContentAnalysisML;
+- (void);
 - (void);
 - (void);
 - (_Bool);
 - (void);
-- (void)naryRef *);
+- (void);
 - (_Bool);
 - (void);
 - (void);
 - (void);
-- (void)I;
+- (void);
 - (void);
 - (struct CGRect);
 - (_Bool);
@@ -425,40 +642,40 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void)Q24;
-- (void)additionalInfoForPrefenceUpdate;
+- (void);
+- (void);
 - (_Bool);
 - (void);
-- (void)HZ;
 - (void);
 - (void);
-- (void)blic}s Extension process terminated pid (%{public}d);
-- (void)supportedFamilies;
-- (RetainPtr_e8f298ae);
+- (void);
+- (void);
+- (void);
+- (RetainPtr_e8f298ae);
 - (void);
 - (id);
 - (id);
 - (id);
-- (_Bool)$__lazy_storage_$_controlDescriptor;
+- (_Bool);
 - (id);
 - (void);
-- (void)thout linkAction;
-- (void)DynamicIslandBackground;
-- (_Bool);
+- (void);
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (void);
-- (id);
 - (_Bool);
 - (void);
 - (id);
 - (void);
-- (void);
+- (id);
+- (_Bool);
+- (void);
+- (id);
 - (void);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (void);
 - (void);
@@ -476,18 +693,18 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void);
 - (void);
-- (void)(;
+- (void);
+- (void);
 - (long long);
 - (void);
-- (_Bool);
-- (_Bool);
+- (_Bool);
+- (_Bool);
 - (double);
 - (void);
 - (void);
 - (void);
-- (void)?;
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -495,8 +712,8 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
-- (void)';
+- (void);
+- (void);
 - (id);
 - (_Bool);
 - (void);
@@ -510,7 +727,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (void)";
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -520,16 +737,16 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (double);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
 - (void);
-- (void)?;
-- (_Bool);
-- (void)*=;
 - (void);
-- (void)*;
+- (_Bool);
+- (void);
+- (void);
+- (void);
 - (void);
 - (_Bool);
 - (_Bool);
@@ -546,12 +763,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (id);
-- (ScopeExit_b49c216c);
+- (ScopeExit_d63fa42e);
 - (void);
 - (void);
-- (void)7;
+- (void);
 - (id);
-- (void)(!;
+- (void);
 - (_Bool);
 - (void);
 - (void);
@@ -572,7 +789,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (_Bool);
-- (RetainPtr_04c242bc);
+- (RetainPtr_76fb8da3);
 - (void);
 - (void);
 -     // Error parsing type: {optional<WebKit::InteractionInformationAtPosition>=(?=c{InteractionInformationAtPosition={InteractionInformationRequest={IntPoint=ii}BBBBBBB}B{optional<bool>=(?=cB)B}CBBBBBBBBBBBBB{Markable<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::ScrollingNodeIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::MarkableTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::ScrollingNodeIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>={ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::ScrollingNodeIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>={ObjectIdentifierGeneric<WebCore::ScrollingNodeIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>=Q}{ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>=Q}}}BBBBBB{FloatPoint=ff}{URL={String={RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>=^{StringImpl}}}b1b1b1b3b26IIIIIII}{URL={String={RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>=^{StringImpl}}}b1b1b1b3b26IIIIIII}{String={RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>=^{StringImpl}}}{String={RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>=^{StringImpl}}}{String={RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>=^{StringImpl}}}{IntRect={IntPoint=ii}{IntSize=ii}}{IntRect={IntPoint=ii}{IntSize=ii}}{RefPtr<WebCore::ShareableBitmap, WTF::RawPtrTraits<WebCore::ShareableBitmap>, WTF::DefaultRefDerefTraits<WebCore::ShareableBitmap>>=^{ShareableBitmap}}{String={RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>=^{StringImpl}}}{String={RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>=^{StringImpl}}}{CursorContext={FloatRect={FloatPoint=ff}{FloatSize=ff}}{optional<WebCore::Cursor>=(?=c{Cursor=C{RefPtr<WebCore::Image, WTF::RawPtrTraits<WebCore::Image>, WTF::DefaultRefDerefTraits<WebCore::Image>>=^{Image}}{IntPoint=ii}{RetainPtr<NSCursor>=@}})B}BB}{RefPtr<WebCore::TextIndicator, WTF::RawPtrTraits<WebCore::TextIndicator>, WTF::DefaultRefDerefTraits<WebCore::TextIndicator>>=^{TextIndicator}}{String={RefPtr<WTF::StringImpl, WTF::RawPtrTraits<WTF::StringImpl>, WTF::DefaultRefDerefTraits<WTF::StringImpl>>=^{StringImpl}}}{RetainPtr<NSArray>=@}{IntRect={IntPoint=ii}{IntSize=ii}}{Vector<WebCore::ElementAnimationContext, 0UL, WTF::CrashOnOverflow, 16UL, WTF::FastMalloc>=^{ElementAnimationContext}II}{optional<WebCore::ElementContext>=(?=c{ElementContext={FloatRect={FloatPoint=ff}{FloatSize=ff}}{Markable<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>={ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>=Q}}{Markable<WebCore::ProcessQualified<WTF::UUID>, WTF::MarkableTraits<WebCore::ProcessQualified<UUID>>>={ProcessQualified<WTF::UUID>={UUID=T}{ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>=Q}}}{Markable<WTF::ObjectIdentifierGeneric<WebCore::NodeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::NodeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>={ObjectIdentifierGeneric<WebCore::NodeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>=Q}}})B}{optional<WebCore::ElementContext>=(?=c{ElementContext={FloatRect={FloatPoint=ff}{FloatSize=ff}}{Markable<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>={ObjectIdentifierGeneric<WebCore::PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>=Q}}{Markable<WebCore::ProcessQualified<WTF::UUID>, WTF::MarkableTraits<WebCore::ProcessQualified<UUID>>>={ProcessQualified<WTF::UUID>={UUID=T}{ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>=Q}}}{Markable<WTF::ObjectIdentifierGeneric<WebCore::NodeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::NodeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>={ObjectIdentifierGeneric<WebCore::NodeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>=Q}}})B}})B}24@0:8@16, name: (null)
@@ -585,7 +802,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (Ref_027d2088);
 - (_Bool);
-- (void);
+- (void);
 - (id);
 - (id);
 - (void);
@@ -594,10 +811,10 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (void);
+- (void);
 - (_Bool);
 - (_Bool);
-- (void);
+- (void);
 - (void);
 - (_Bool);
 - (void);
@@ -641,7 +858,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (Class);
 - (void);
-- (void)__cfstring;
+- (void);
 - (void)1Â0@ù
 × ;
 - (void)á/
@@ -667,18 +884,18 @@ __attribute__((visibility("hidden")))
 - (void)er>, WTF:(id)arg1:(id)arg2 DefaultRefDerefTraits<WebKit:(unsigned long long)arg3:RevealFocusedElementDeferrer>>="m_ptr"^{RevealFocusedElementDeferrer}} /* Error: Ran out of types for this method. */;
 - (void){ObjectIdentifierGeneric<WebKit:(id)arg1:TapIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>="m_identifier"Q}} /* Error: Ran out of types for this method. */;
 - (void)tr_"^{HideEditMenuScope}}};
-- (void)setFragment:(id)arg1;
-- (void)popupViewController;
-- (_Bool)lookup:withRange:fromRect: /* Error: Ran out of types for this method. */;
-- (void)endEditingAndUpdateFocusAppearanceWithReason:(id)arg1;
-- (void)_visibleContentSize;
-- (_Bool)_updateTapStateWithTouches:(id)arg1;
-- (void)_smartMagnificationController;
-- (void)_potentialTapInProgress;
-- (void)_networkingProcessInfo;
+- (void)agment:(id)arg1;
+- (void)r;
+- (_Bool)kup:withRange:fromRect: /* Error: Ran out of types for this method. */;
+- (void)teFocusAppearanceWithReason:(id)arg1;
+- (void)Size;
+- (_Bool)es:(id)arg1;
+- (void)onController;
+- (void)ress;
+- (void)ssInfo;
 - (void)s:(id)arg1;
-- (void)_findOverlaysOutsideContentView;
-- (void)_inspectorNodeSearchRecognized: /* Error: Ran out of types for this method. */;
+- (void)utsideContentView;
+- (void)archRecognized: /* Error: Ran out of types for this method. */;
 - (void)\];
 - (void)Ì6;
 - (id)l«
@@ -689,7 +906,7 @@ __attribute__((visibility("hidden")))
 - (void)hý+;
 - (id)¨-
 ìC';
-- (ObjectIdentifierGeneric_f787bf13)lÂ&;
+- (ObjectIdentifierGeneric_f63ebe5c)lÂ&;
 - (_Bool)ID=%llu, frameID=%llu, taskID=%llu] WebURLSchemeTaskProxy:(id)arg1:(struct CGPoint)arg2 startLoading;
 - (void)esourceLoadIdentifierToResume=%llu);
 - (void)moteGraphicsContextProxy:(id)arg1:(long long)arg2 send - failed, name:(id)arg3 %{public}s, error:(id)arg4 %{public}s;
@@ -740,24 +957,24 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool)<;
 - (void);
-- (void)urlSchemeHandlers;
-- (void)RemoteRenderingBackend_PrepareImageBufferSetsForDisplaySync;
-- (void)WebSWContextManagerConnection_DidSaveScriptsToDisk;
-- (void)WebPage_UseRedirectionForCurrentNavigation;
-- (void)WebPage_GetContentsAsAttributedString;
-- (void)WebPage_CancelAutoscroll;
-- (void)WebPageProxy_WillReceiveEditDragSnapshot;
-- (void)RemoteMediaSessionCoordinatorProxy_PositionStateChanged;
-- (_Bool)RemoteGraphicsContext_SetFillColor;
-- (void)RemoteCDMProxy_SetLogIdentifier;
-- (void)PlaybackSessionManagerProxy_HandleControlledElementIDResponse;
-- (void)NetworkProcess_IsPrevalentResource;
+- (void)chemeHandlers;
+- (void)erSetsForDisplaySync;
+- (void)criptsToDisk;
+- (void)directionForCurrentNavigation;
+- (void)etContentsAsAttributedString;
+- (void)celAutoscroll;
+- (void)napshot;
+- (void)ed;
+- (_Bool)or;
+- (void)CDMProxy_SetLogIdentifier;
+- (void)ssionManagerProxy_HandleControlledElementIDResponse;
+- (void)Process_IsPrevalentResource;
 - (void)_POLICYACTION_FROM_SYNC_IPC;
-- (void)LogStream_HTMLMEDIAELEMENT_VISIBILITYSTATECHANGED;
+- (void)HTMLMEDIAELEMENT_VISIBILITYSTATECHANGED;
 - (void)jectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::FetchIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::FetchIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakPtr<WebKit::ServiceWorkerFetchTask>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::FetchIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakPtr<WebKit::ServiceWorkerFetchTask>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::FetchIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::FetchIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::WeakPtr<WebKit::ServiceWorkerFetchTask>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::FetchIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void)tizer;
 - (_Bool)ze;
-- (void)RequiresUserGestureForMediaPlayback;
+- (void)uiresUserGestureForMediaPlayback;
 - (void)ThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF:(_Bool)arg1:HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::SimulatedInputDispatcher>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void)>, Malloc = WTF:(id)arg1:FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void)raits<WebCore::RegistrableDomain>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
@@ -766,7 +983,7 @@ __attribute__((visibility("hidden")))
 - (id)ierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::ServiceWorkerDebuggableFrontendChannel>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::ServiceWorkerDebuggableFrontendChannel>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::ServiceWorkerDebuggableFrontendChannel>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::ServiceWorkerDebuggableFrontendChannel>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (_Bool)d long long>>, Malloc = WTF:(id)arg1:(id)arg2 FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void)s<uint64_t>, unsigned long long>, WTF::Function<void (std::experimental::expected<WTF::RefPtr<WebCore::SharedBuffer>, WebCore::ResourceError> &&)>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::RetrieveRecordResponseBodyCallbackIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebKit::RetrieveRecordResponseBodyCallbackIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::RetrieveRecordResponseBodyCallbackIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Function<void (std::experimental::expected<WTF::RefPtr<WebCore::SharedBuffer>, WebCore::ResourceError> &&)>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::RetrieveRecordResponseBodyCallbackIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Function<void (std::experimental::expected<WTF::RefPtr<WebCore::SharedBuffer>, WebCore::ResourceError> &&)>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::RetrieveRecordResponseBodyCallbackIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::RetrieveRecordResponseBodyCallbackIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Function<void (std::experimental::expected<WTF::RefPtr<WebCore::SharedBuffer>, WebCore::ResourceError> &&)>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::RetrieveRecordResponseBodyCallbackIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
-- (id)createBidirectionalStream;
+- (id)eBidirectionalStream;
 - (void)const ValueType &) [Key = WTF:(id)arg1:ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::WeakRef<WebKit::WebURLSchemeTaskProxy>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::WeakRef<WebKit::WebURLSchemeTaskProxy>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::WeakRef<WebKit::WebURLSchemeTaskProxy>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void)oid WTF::HashTable<WTF::WeakRef<WebCore::CSSStyleDeclaration, WTF::SingleThreadWeakPtrImpl>, WTF::KeyValuePair<WTF::WeakRef<WebCore::CSSStyleDeclaration, WTF::SingleThreadWeakPtrImpl>, WTF::WeakRef<WebKit::InjectedBundleCSSStyleDeclarationHandle>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::WeakRef<WebCore::CSSStyleDeclaration, WTF::SingleThreadWeakPtrImpl>, WTF::WeakRef<WebKit::InjectedBundleCSSStyleDeclarationHandle>>>, WTF::DefaultHash<WTF::WeakRef<WebCore::CSSStyleDeclaration, WTF::SingleThreadWeakPtrImpl>>, WTF::HashMap<WTF::WeakRef<WebCore::CSSStyleDeclaration, WTF::SingleThreadWeakPtrImpl>, WTF::WeakRef<WebKit::InjectedBundleCSSStyleDeclarationHandle>>::KeyValuePairTraits, WTF::HashTraits<WTF::WeakRef<WebCore::CSSStyleDeclaration, WTF::SingleThreadWeakPtrImpl>>>::validateKey(const ValueType &) [Key = WTF::WeakRef<WebCore::CSSStyleDeclaration, WTF::SingleThreadWeakPtrImpl>, Value = WTF::KeyValuePair<WTF::WeakRef<WebCore::CSSStyleDeclaration, WTF::SingleThreadWeakPtrImpl>, WTF::WeakRef<WebKit::InjectedBundleCSSStyleDeclarationHandle>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::WeakRef<WebCore::CSSStyleDeclaration, WTF::SingleThreadWeakPtrImpl>, WTF::WeakRef<WebKit::InjectedBundleCSSStyleDeclarationHandle>>>, HashFunctions = WTF::DefaultHash<WTF::WeakRef<WebCore::CSSStyleDeclaration, WTF::SingleThreadWeakPtrImpl>>, Traits = WTF::HashMap<WTF::WeakRef<WebCore::CSSStyleDeclaration, WTF::SingleThreadWeakPtrImpl>, WTF::WeakRef<WebKit::InjectedBundleCSSStyleDeclarationHandle>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::WeakRef<WebCore::CSSStyleDeclaration, WTF::SingleThreadWeakPtrImpl>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (_Bool)[T = WebCore:(SEL)arg1:(id)arg2 Document, WeakPtrImpl = WebCore::WeakPtrImplWithEventTargetData] /* Error: Ran out of types for this method. */;
@@ -815,9 +1032,9 @@ __attribute__((visibility("hidden")))
 - (_Bool)size_t);
 - (void)IdentifierGeneric<WebKit:(struct CGPoint)arg1:(struct CGPoint)arg2 LegacyCustomProtocolIDType, WTF:(long long)arg3:(long long)arg4 ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::RetainPtr<WKCustomProtocol>>>, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::LegacyCustomProtocolIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::LegacyCustomProtocolIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::RetainPtr<WKCustomProtocol>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::LegacyCustomProtocolIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebKit::LegacyCustomProtocolIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::LegacyCustomProtocolIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::RetainPtr<WKCustomProtocol>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::LegacyCustomProtocolIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::RetainPtr<WKCustomProtocol>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::LegacyCustomProtocolIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::LegacyCustomProtocolIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::RetainPtr<WKCustomProtocol>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::LegacyCustomProtocolIDType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void)llengeIdentifierType, WTF:(CDUnknownBlockType)arg1:ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::UniqueRef<WebKit::AuthenticationManager::Challenge>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::AuthenticationChallengeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::UniqueRef<WebKit::AuthenticationManager::Challenge>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::AuthenticationChallengeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::AuthenticationChallengeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::UniqueRef<WebKit::AuthenticationManager::Challenge>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::AuthenticationChallengeIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
-- (void)setSubresourceUniqueRedirectFrom;
-- (void)getThirdPartyDataForSpecificFirstPartyDomains;
-- (void)ceWorkerIdentifierType, WTF:(struct CGRect)arg1:(struct CGRect)arg2 ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF:(struct UIEdgeInsets)arg3:(struct CGRect)arg4 Ref<WebKit:(struct UIEdgeInsets)arg5:(struct UIEdgeInsets)arg6 ServiceWorkerDebuggableProxy>>>, HashFunctions = WTF:(struct CGRect)arg7:(double)arg8 DefaultHash<WTF:(double)arg9:(OptionSet_d3029db5)arg10 ObjectIdentifierGeneric<WebCore:(_Bool)arg11:(_Bool)arg12 ServiceWorkerIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::ServiceWorkerDebuggableProxy>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)RedirectFrom;
+- (void)etThirdPartyDataForSpecificFirstPartyDomains;
+- (void)ceWorkerIdentifierType, WTF:(struct CGRect)arg1:(struct CGRect)arg2 ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF:(struct UIEdgeInsets)arg3:(struct CGRect)arg4 Ref<WebKit:(struct UIEdgeInsets)arg5:(struct UIEdgeInsets)arg6 ServiceWorkerDebuggableProxy>>>, HashFunctions = WTF:(struct CGRect)arg7:(double)arg8 DefaultHash<WTF:(double)arg9:(OptionSet_b9af2151)arg10 ObjectIdentifierGeneric<WebCore:(_Bool)arg11:(_Bool)arg12 ServiceWorkerIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::ServiceWorkerDebuggableProxy>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ServiceWorkerIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void)46744073709551615UL, U = const unsigned char, UExtent = 18446744073709551615UL];
 - (_Bool)in-Opener-Policy;
 - (void)ong>, WTF:(const void *)arg1:Vector<WTF::CompletionHandler<void ()>>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Vector<WTF::CompletionHandler<void ()>>>>, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Vector<WTF::CompletionHandler<void ()>>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Vector<WTF::CompletionHandler<void ()>>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Vector<WTF::CompletionHandler<void ()>>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Vector<WTF::CompletionHandler<void ()>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ProcessIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
@@ -828,7 +1045,7 @@ __attribute__((visibility("hidden")))
 - (id)alidateKey = WTF:(id)arg1:(id)arg2 ShouldValidateKey:(id)arg3:Yes] /* Error: Ran out of types for this method. */;
 - (id)WebKit::NetworkConnectionToWebProcess::setCookiesFromDOM(const URL &, const SameSiteInfo &, const URL &, FrameIdentifier, PageIdentifier, const String &, RequiresScriptTrackingPrivacy, WebPageProxyIdentifier) /* Error: Ran out of types for this method. */;
 - (void)ned long long>>>:(id)arg1:(id)arg2 validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::ImageDecoderIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ImageDecoderIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebCore::ImageDecoderAVFObjC>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::ImageDecoderIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebCore::ImageDecoderAVFObjC>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::ImageDecoderIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::ImageDecoderIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RefPtr<WebCore::ImageDecoderAVFObjC>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::ImageDecoderIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
-- (void)_WKLocalAuthenticatorCredentialDisplayNameKey;
+- (void)alAuthenticatorCredentialDisplayNameKey;
 - (_Bool)WebKit::RemoteCommandEncoder::finish(const WebGPU::CommandBufferDescriptor &, WebGPUIdentifier) /* Error: Ran out of types for this method. */;
 - (void)nThreadAccessTraits<uint64_t>, unsigned long long>, std::optional<WebKit::RemoteSnapshot::DisplayListAndReleaseDispatcher>>>, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, std::optional<WebKit::RemoteSnapshot::DisplayListAndReleaseDispatcher>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, std::optional<WebKit::RemoteSnapshot::DisplayListAndReleaseDispatcher>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, std::optional<WebKit::RemoteSnapshot::DisplayListAndReleaseDispatcher>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, std::optional<WebKit::RemoteSnapshot::DisplayListAndReleaseDispatcher>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id)int64_t>, unsigned long long>, WTF:(id)arg1:Ref<const WebCore::DisplayList::DisplayList>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::RemoteDisplayListIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<const WebCore::DisplayList::DisplayList>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::RemoteDisplayListIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::RemoteDisplayListIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<const WebCore::DisplayList::DisplayList>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::RemoteDisplayListIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
@@ -872,7 +1089,7 @@ __attribute__((visibility("hidden")))
 - (void)skIdentifierType, WTF:(long long)arg1:(id)arg2 ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RetainPtr<NSURLSessionDataTask>>, WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RetainPtr<NSURLSessionDataTask>>>, WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RetainPtr<NSURLSessionDataTask>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RetainPtr<NSURLSessionDataTask>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RetainPtr<NSURLSessionDataTask>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RetainPtr<NSURLSessionDataTask>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void)dentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebKit::SessionSet>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void)>>:(id)arg1:(CDUnknownBlockType)arg2 KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::PCM::LoadTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebKit::PCM::LoadTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::PCM::LoadTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RetainPtr<NSURLSessionDataTask>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::PCM::LoadTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RetainPtr<NSURLSessionDataTask>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::PCM::LoadTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::PCM::LoadTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RetainPtr<NSURLSessionDataTask>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::PCM::LoadTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
-- (_Bool)AES_128_GCM_SHA256;
+- (_Bool)256;
 - (id)rs` set.;
 - (void)cters.;
 - (void)actor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<WTF::WeakPtr<WebKit::WebPageProxy>>, Traits = WTF::HashTraits<WTF::WeakPtr<WebKit::WebPageProxy>>, KeyTraits = WTF::HashTraits<WTF::WeakPtr<WebKit::WebPageProxy>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
@@ -887,12 +1104,12 @@ __attribute__((visibility("hidden")))
 - (void)ntityExtractor, WTF:(id)arg1:(id)arg2 ListHashSetNodeHashFunctions<WTF:(_Bool)arg3:(CDUnknownBlockType)arg4 DefaultHash<String>>, WTF::ListHashSet<WTF::String>::NodeTraits, WTF::ListHashSet<WTF::String>::NodeTraits>::validateKey(const ValueType &) [Key = std::unique_ptr<WTF::ListHashSetNode<WTF::String>>, Value = std::unique_ptr<WTF::ListHashSetNode<WTF::String>>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::ListHashSetNodeHashFunctions<WTF::DefaultHash<String>>, Traits = WTF::ListHashSet<WTF::String>::NodeTraits, KeyTraits = WTF::ListHashSet<WTF::String>::NodeTraits, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void)Core::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::IdentityExtractor, WTF::DefaultHash<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>::validateKey(const ValueType &) [Key = WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Value = WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Traits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, KeyTraits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id)TF::downcast(Source *) [Target = WebKit::WebExtensionAPIStorage, Source = WebKit::JSWebExtensionWrappable] /* Error: Ran out of types for this method. */;
-- (void)getURL;
+- (void)etURL;
 - (void)long long>>, Value = WebCore:(id)arg1:ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::ScrollingNodeIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::ScrollingNodeIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Traits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::ScrollingNodeIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, KeyTraits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::ScrollingNodeIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id)eKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void)MarkableTraits<WTF:(id)arg1:ObjectIdentifierGeneric<WebCore::InbandGenericCueIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>] /* Error: Ran out of types for this method. */;
 - (void)<WebCore:(id)arg1:IDBIndexIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebCore::IDBIndexIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::IDBIndexIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WebCore::IDBIndexInfo>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::IDBIndexIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WebCore::IDBIndexInfo>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::IDBIndexIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::IDBIndexIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WebCore::IDBIndexInfo>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::IDBIndexIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
-- (void)IdentifierGeneric<WebCore:(ObjectIdentifierGeneric_f787bf13)arg1:IDBObjectStoreIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WebCore::IDBObjectStoreInfo>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::IDBObjectStoreIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::IDBObjectStoreIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WebCore::IDBObjectStoreInfo>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::IDBObjectStoreIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
+- (void)IdentifierGeneric<WebCore:(ObjectIdentifierGeneric_f63ebe5c)arg1:IDBObjectStoreIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WebCore::IDBObjectStoreInfo>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::IDBObjectStoreIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::IDBObjectStoreIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WebCore::IDBObjectStoreInfo>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::IDBObjectStoreIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void), WTF:(id)arg1:ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, Traits = WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebCore::FileSystemSyncAccessHandleIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>] /* Error: Ran out of types for this method. */;
 - (id)IdentifierGeneric<WebKit::WebExtensionContextIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>::operator*() const & [T = WTF::ObjectIdentifierGeneric<WebKit::WebExtensionContextIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Traits = WTF::MarkableTraits<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionContextIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>] /* Error: Ran out of types for this method. */;
 - (id)Pair<WTF:(_Bool)arg1:(id)arg2 String, WebCore::AttributedString::AttributeValue>>, WTF::DefaultHash<String>, WTF::HashMap<WTF::String, WebCore::AttributedString::AttributeValue>::KeyValuePairTraits, WTF::HashTraits<String>>::validateKey(const ValueType &) [Key = WTF::String, Value = WTF::KeyValuePair<WTF::String, WebCore::AttributedString::AttributeValue>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, WebCore::AttributedString::AttributeValue>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, WebCore::AttributedString::AttributeValue>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
@@ -906,15 +1123,15 @@ __attribute__((visibility("hidden")))
 - (_Bool)loc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void)= WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<WTF::WeakPtr<WebKit::EndowmentStateTrackerClient>>, Traits = WTF::HashTraits<WTF::WeakPtr<WebKit::EndowmentStateTrackerClient>>, KeyTraits = WTF::HashTraits<WTF::WeakPtr<WebKit::EndowmentStateTrackerClient>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id)erClient>>>:(_Bool)arg1:(id)arg2 validateKey(const ValueType &) [Key = WTF::WeakPtr<WebKit::EndowmentStateTrackerClient>, Value = WTF::WeakPtr<WebKit::EndowmentStateTrackerClient>, Extractor = WTF::IdentityExtractor, HashFunctions = WTF::DefaultHash<WTF::WeakPtr<WebKit::EndowmentStateTrackerClient>>, Traits = WTF::HashTraits<WTF::WeakPtr<WebKit::EndowmentStateTrackerClient>>, KeyTraits = WTF::HashTraits<WTF::WeakPtr<WebKit::EndowmentStateTrackerClient>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
-- (void)NumberPad4;
+- (void);
 - (void)g, void (AutomationBackendDispatcher:(_Bool)arg1:*)(long, WTF::RefPtr<WTF::JSONImpl::Object> &&)>::KeyValuePairTraits, WTF::HashTraits<String>>::validateKey(const ValueType &) [Key = WTF::String, Value = WTF::KeyValuePair<WTF::String, void (AutomationBackendDispatcher::*)(long, WTF::RefPtr<WTF::JSONImpl::Object> &&)>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::String, void (AutomationBackendDispatcher::*)(long, WTF::RefPtr<WTF::JSONImpl::Object> &&)>>, HashFunctions = WTF::DefaultHash<String>, Traits = WTF::HashMap<WTF::String, void (AutomationBackendDispatcher::*)(long, WTF::RefPtr<WTF::JSONImpl::Object> &&)>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (id)aits = WTF::HashMap<WTF::String, WTF::Ref<WTF::JSONImpl::Value>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<String>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void)arguments of method 'Automation.setStorageAccessPermissionState' can't be processed;
 - (id)on.removeVirtualAuthenticator' can't be processed;
 - (void)of method 'Automation.setSessionPermissions' can't be processed;
 - (id)ome arguments of method 'Automation.waitForNavigationToComplete' can't be processed;
-- (_Bool)addVirtualAuthenticatorCredential;
-- (double)goForwardInBrowsingContext;
+- (_Bool)alAuthenticatorCredential;
+- (double)rdInBrowsingContext;
 - (void)6x4VpErDymejfsBXW5gK4DTQ/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.Internal.sdk/System/iOSSupport/usr/local/include/wtf/HashTable.h;
 - (void)ption Style Menu Title);
 - (void)_Internal.WKTextExtractionSelectItem;
@@ -1158,10 +1375,10 @@ _clearStaleNodes()
 - (void);
 - (id);
 - (struct OpaqueWKPage *);
-- (long long)AVLegibleMediaOptionsMenuController;
-- (id)NSLinkAttributeName;
-- (void)PDFAnnotationSubtypeLink;
-- (void)nw_context_set_tracker_lookup_callback;
+- (long long)uController;
+- (id)ributeName;
+- (void)ink;
+- (void)t_tracker_lookup_callback;
 - (void).;
 - (void)[.;
 - (id);
@@ -1210,7 +1427,189 @@ _clearStaleNodes()
 - (void)\õÿw9;
 
 // Remaining properties
+@property(readonly, nonatomic) _Bool _canStartNavigationSwipeAtLastInteractionLocation;
+@property(readonly, nonatomic) _Bool _shouldAvoidResizingWhenInputViewBoundsChange;
+@property(readonly, nonatomic) _Bool _shouldAvoidScrollingWhenFocusedContentIsVisible;
+@property(readonly, nonatomic) _Bool _shouldAvoidSecurityHeuristicScoreUpdates;
+@property(readonly, nonatomic) _Bool _shouldUseContextMenus;
+@property(readonly, nonatomic) _Bool _shouldUseContextMenusForFormControls;
+@property(readonly, nonatomic) _Bool _shouldUseLegacySelectPopoverDismissalBehavior;
+@property(readonly, nonatomic, getter=_isSuppressingSelectionAssistant) _Bool _suppressingSelectionAssistant;
 @property(readonly, nonatomic) _Bool _wk_printFormatterRequiresMainThread;
+@property(readonly, nonatomic) NSArray *allViewsIntersectingSelectionRange;
+@property unsigned long long allowedWritingToolsResultOptions;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TQ,?
+
+@property(nonatomic) _Bool allowsNumberPadPopover;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TB,?,N
+
+@property(readonly, nonatomic, getter=isAnimatingDragCancel) _Bool animatingDragCancel;
+@property(nonatomic) long long autocapitalizationType;
+// Preceding property had unknown attributes: ?
+// Original attribute string: Tq,?,N
+
+@property(readonly, nonatomic) const void *autocorrectionData;
+@property(nonatomic) long long autocorrectionType;
+// Preceding property had unknown attributes: ?
+// Original attribute string: Tq,?,N
+
+@property(readonly, nonatomic) UITextPosition *beginningOfDocument;
+@property(readonly, nonatomic) UIContextMenuInteraction *contextMenuInteraction;
+@property(retain, nonatomic) UIConversationContext *conversationContext;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"UIConversationContext",?,&,N
+
+@property(retain, nonatomic) NSArray *dataListTextSuggestions;
+@property(retain, nonatomic) UIView<WKFormControl> *dataListTextSuggestionsInputView;
+@property(readonly, nonatomic) WKDateTimeInputControl *dateTimeInputControl;
+@property(readonly, copy) NSString *debugDescription;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,C
+
+@property(readonly, nonatomic) NSArray *deferringGestures;
+@property(readonly, copy) NSString *description;
+@property(readonly, nonatomic, getter=isEditable) _Bool editable;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TB,?,R,N,GisEditable
+
+@property(nonatomic) _Bool enablesReturnKeyAutomatically;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TB,?,N
+
+@property(readonly, nonatomic) UITextPosition *endOfDocument;
+@property(readonly, nonatomic) const void *focusedElementInformation;
+@property(readonly, nonatomic) WKFormAccessoryView *formAccessoryView;
+@property(readonly, nonatomic) NSString *formInputLabel;
+@property(readonly, nonatomic) void *gestureRecognizerConsistencyEnforcer;
+@property(readonly, nonatomic) _Bool hasText;
+@property(readonly) unsigned long long hash;
+@property(readonly, nonatomic) UIGestureRecognizer *imageAnalysisGestureRecognizer;
+@property(readonly, nonatomic) _Bool includesTextListMarkers;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TB,?,R,N
+
+@property(nonatomic) long long inlinePredictionType;
+// Preceding property had unknown attributes: ?
+// Original attribute string: Tq,?,N
+
+@property(readonly, nonatomic) UIView *inputAccessoryViewForWebView;
+@property(readonly, nonatomic) UITextInputAssistantItem *inputAssistantItemForWebView;
+@property(nonatomic) __weak id <UITextInputDelegate> inputDelegate;
+@property(readonly, nonatomic) UIView *inputViewForWebView;
+@property(readonly, nonatomic) id insertDictationResultPlaceholder;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@,?,R,N
+
+@property(readonly, nonatomic) long long interfaceOrientation;
+@property(readonly, nonatomic) _Bool isEditable;
+@property(readonly, nonatomic) _Bool isFocusingElement;
+@property(readonly, nonatomic) _Bool isPresentingEditMenu;
+@property(readonly, nonatomic) _Bool isShowingDataListSuggestions;
+@property(readonly, nonatomic) _Bool isTextRecognitionInFullscreenVideoEnabled;
+@property(nonatomic) long long keyboardAppearance;
+// Preceding property had unknown attributes: ?
+// Original attribute string: Tq,?,N
+
+@property(readonly, nonatomic, getter=isKeyboardScrollingAnimationRunning) _Bool keyboardScrollingAnimationRunning;
+@property(nonatomic) long long keyboardType;
+// Preceding property had unknown attributes: ?
+// Original attribute string: Tq,?,N
+
+@property(readonly, nonatomic) struct CGPoint lastInteractionLocation;
+@property(readonly, nonatomic) UITextRange *markedTextRange;
+@property(copy, nonatomic) NSDictionary *markedTextStyle;
+@property(nonatomic) long long mathExpressionCompletionType;
+// Preceding property had unknown attributes: ?
+// Original attribute string: Tq,?,N
+
+@property(readonly, nonatomic) void *page;
+@property(copy, nonatomic) UITextInputPasswordRules *passwordRules;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"UITextInputPasswordRules",?,C,N
+
+@property(readonly, nonatomic) const void *positionInformation;
+@property(readonly, nonatomic, getter=isPotentialTapInProgress) _Bool potentialTapInProgress;
+@property(readonly, nonatomic) _Bool preventsPanningInXAxis;
+@property(readonly, nonatomic) _Bool preventsPanningInYAxis;
+@property(readonly, nonatomic, getter=isResigningFirstResponder) _Bool resigningFirstResponder; // @synthesize resigningFirstResponder=_resigningFirstResponder;
+@property(nonatomic) long long returnKeyType;
+// Preceding property had unknown attributes: ?
+// Original attribute string: Tq,?,N
+
+@property(nonatomic, getter=isSecureTextEntry) _Bool secureTextEntry;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TB,?,N,GisSecureTextEntry
+
+@property(readonly, nonatomic) WKFormSelectControl *selectControl;
+@property(readonly, nonatomic) NSString *selectFormPopoverTitle;
+@property(copy) UITextRange *selectedTextRange;
+@property(readonly) id <NSObject><NSCopying> selectedTextSearchDocument;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"<NSObject><NSCopying>",?,R
+
+@property(nonatomic) long long selectionAffinity;
+// Preceding property had unknown attributes: ?
+// Original attribute string: Tq,?,N
+
+@property(readonly, nonatomic) _Bool shouldHideSelectionInFixedPositionWhenScrolling;
+@property(readonly, nonatomic) _Bool shouldIgnoreKeyboardWillHideNotification;
+@property(readonly, nonatomic) _Bool shouldUseAsyncInteractions;
+@property(nonatomic, getter=isShowingInspectorIndication) _Bool showingInspectorIndication;
+@property(readonly, nonatomic) UITapGestureRecognizer *singleTapGestureRecognizer;
+@property(nonatomic) _Bool sizeChangedSinceLastVisibleContentRectUpdate; // @synthesize sizeChangedSinceLastVisibleContentRectUpdate=_sizeChangedSinceLastVisibleContentRectUpdate;
+@property(readonly, nonatomic) struct CGSize sizeForLegacyFormControlPickerViews;
+@property(nonatomic) long long smartDashesType;
+// Preceding property had unknown attributes: ?
+// Original attribute string: Tq,?,N
+
+@property(nonatomic) long long smartInsertDeleteType;
+// Preceding property had unknown attributes: ?
+// Original attribute string: Tq,?,N
+
+@property(nonatomic) long long smartQuotesType;
+// Preceding property had unknown attributes: ?
+// Original attribute string: Tq,?,N
+
+@property(nonatomic) long long spellCheckingType;
+// Preceding property had unknown attributes: ?
+// Original attribute string: Tq,?,N
+
+@property(readonly) Class superclass;
+@property(nonatomic) _Bool supportsAdaptiveImageGlyph;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TB,?,N
+
+@property(readonly, nonatomic) _Bool supportsTextReplacement;
+// Preceding property had unknown attributes: ?
+// Original attribute string: TB,?,R,N
+
+@property(readonly, nonatomic) _Bool supportsTextReplacementForWebView;
+@property(readonly, nonatomic) struct CGRect tapHighlightViewRect;
+@property(copy, nonatomic) NSString *textContentType;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,C,N
+
+@property(readonly, nonatomic) NSString *textContentTypeForTesting;
+@property(readonly, nonatomic) UITextInputTraits *textInputTraitsForWebView;
+@property(readonly, nonatomic) UIView *textInputView;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"UIView",?,R,N
+
+@property(readonly, nonatomic) UIWKTextInteractionAssistant *textInteractionAssistant;
+@property(readonly, nonatomic) id <UITextInputTokenizer> tokenizer;
+@property(readonly, nonatomic) WKTouchEventsGestureRecognizer *touchEventGestureRecognizer;
+@property(readonly, nonatomic) NSUndoManager *undoManagerForWebView;
+@property(readonly, nonatomic) struct CGRect unobscuredContentRect;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T{CGRect={CGPoint=dd}{CGSize=dd}},?,R,N
+
+@property(readonly, nonatomic) UIView *unscaledView;
+@property long long writingToolsBehavior;
+// Preceding property had unknown attributes: ?
+// Original attribute string: Tq,?
+
 
 @end
 

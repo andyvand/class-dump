@@ -4,10 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 __attribute__((visibility("hidden")))
 @interface WKAnimationDelegate
 {
     struct Markable<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::MarkableTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::PlatformLayerIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>> _layerID;
+    void *_layerTreeHost;
 }
 
 - (id);
@@ -17,7 +20,13 @@ __attribute__((visibility("hidden")))
 - (void)Y-éHó;
 
 // Remaining properties
+@property(readonly, copy) NSString *debugDescription;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,C
+
+@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
 
 @end
 

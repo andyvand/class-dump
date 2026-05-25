@@ -1283,6 +1283,32 @@ int main(int argc, char *argv[])
                 printf("images:       %lu\n", (unsigned long)[cache.images count]);
                 printf("layout:       %s\n", cache.usesLegacyImageTable ? "legacy" : "modern");
                 if (cache.platform) printf("platform:     %u\n", cache.platform);
+                if ([cache.uuid length]) printf("uuid:         %s\n", [cache.uuid UTF8String]);
+                {
+                    const char *tname =
+                        cache.cacheType == 0 ? " (development)" :
+                        cache.cacheType == 1 ? " (production)"  :
+                        cache.cacheType == 2 ? " (universal)"   : "";
+                    printf("cacheType:    %llu%s\n", cache.cacheType, tname);
+                }
+                NSArray<CDDyldCacheSubcacheInfo *> *subs = cache.subcaches;
+                if (subs.count > 1) {
+                    printf("subcaches:    %lu\n", (unsigned long)(subs.count - 1));
+                    for (NSUInteger i = 0; i < subs.count; i++) {
+                        CDDyldCacheSubcacheInfo *si = subs[i];
+                        NSString *label = (i == 0) ? @"<main>" : si.suffix;
+                        printf("  [%2lu] %-20s %10llu bytes  %lu region(s)\n",
+                               (unsigned long)i,
+                               [label UTF8String] ?: "",
+                               si.fileSize,
+                               (unsigned long)si.mappings.count);
+                        for (CDDyldCacheMappingInfo *mi in si.mappings) {
+                            printf("        %-14s vm 0x%010llx + 0x%09llx  prot %x/%x  flags 0x%llx\n",
+                                   [mi.name UTF8String], mi.address, mi.size,
+                                   mi.initProt, mi.maxProt, mi.flags);
+                        }
+                    }
+                }
             }
             if (shouldDscListImages) {
                 for (CDDyldCacheImageInfo *img in cache.images) {

@@ -9,9 +9,7 @@
 @protocol UINavigationControllerDelegate
 
 @optional
-- (unsigned long long)=;
-- (long long);
 - (void)ìÈ;
-- (id <UIViewControllerInteractiveTransitioning>)NoCaptureDevices;
+- (id <UIViewControllerInteractiveTransitioning>)ces;
 @end
 

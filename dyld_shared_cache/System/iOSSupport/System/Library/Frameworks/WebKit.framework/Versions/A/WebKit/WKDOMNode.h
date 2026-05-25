@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WKDOMDocument;
+@class NSArray, WKDOMDocument;
 
 @interface WKDOMNode
 {
@@ -17,7 +17,7 @@
 - (id);
 - (void);
 - (id);
-- (void);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -29,6 +29,12 @@
 
 // Remaining properties
 @property(readonly) WKDOMDocument *document;
+@property(readonly) WKDOMNode *firstChild;
+@property(readonly) WKDOMNode *lastChild;
+@property(readonly) WKDOMNode *nextSibling;
+@property(readonly) WKDOMNode *parentNode;
+@property(readonly) WKDOMNode *previousSibling;
+@property(readonly) NSArray *textRects;
 
 @end
 

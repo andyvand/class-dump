@@ -4,10 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@protocol WKTouchActionGestureRecognizerDelegate;
+
 __attribute__((visibility("hidden")))
 @interface WKTouchActionGestureRecognizer
 {
     struct HashMap<unsigned int, WTF::OptionSet<WebCore::TouchAction>, WTF::DefaultHash<unsigned int>, WTF::HashTraits<unsigned int>, WTF::HashTraits<WTF::OptionSet<WebCore::TouchAction>>, WTF::HashTableTraits, WTF::ShouldValidateKey::Yes, WTF::FastMalloc> _touchActionsByTouchIdentifier;
+    id <WKTouchActionGestureRecognizerDelegate> _touchActionDelegate;
 }
 
 - (void);
@@ -15,12 +18,12 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (_Bool);
-- (id)ControlArchive;
-- (_Bool);
+- (id);
+- (_Bool);
 - (void);
 - (void);
 - (void);
-- (void)ProcessStateMonitor:(id)arg1:(id)arg2 SuspendTimer;
+- (void)Timer;
 - (void)Configuration setIncludeURLs:] /* Error: Ran out of types for this method. */;
 
 @end

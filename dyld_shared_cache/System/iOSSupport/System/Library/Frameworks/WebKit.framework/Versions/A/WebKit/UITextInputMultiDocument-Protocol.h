@@ -7,7 +7,7 @@
 @protocol UITextInputMultiDocument
 
 @optional
-- (void)GPUProcess_ProcessDidResume;
+- (void)Resume;
 - (_Bool)e.xbs/TemporaryDirectory.YjUFRx/Sources/WebKit_iosmac/Source/WebKit/GPUProcess/graphics/RemoteImageBuffer.cpp;
 @end
 

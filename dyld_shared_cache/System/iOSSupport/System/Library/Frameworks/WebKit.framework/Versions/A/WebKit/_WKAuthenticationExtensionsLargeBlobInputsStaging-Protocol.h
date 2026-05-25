@@ -7,12 +7,12 @@
 @class NSData, NSString;
 
 @protocol _WKAuthenticationExtensionsLargeBlobInputsStaging
-- (NSString *)r;
-- (void);
 - (NSData *):ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Traits = WTF::HashMap<std::pair<WebKit::WebExtensionContentWorldType, WTF::ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, WTF::Vector<std::pair<WTF::String, std::optional<WTF::ObjectIdentifierGeneric<WebKit::WebPageProxyIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<std::pair<WebKit::WebExtensionContentWorldType, WTF::ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
-- (_Bool)ne_tracker_copy_current_stacktrace;
+- (_Bool)r_copy_current_stacktrace;
 
 // Remaining properties
+@property(nonatomic) _Bool read;
 @property(copy, nonatomic) NSString *support;
+@property(copy, nonatomic) NSData *write;
 @end
 

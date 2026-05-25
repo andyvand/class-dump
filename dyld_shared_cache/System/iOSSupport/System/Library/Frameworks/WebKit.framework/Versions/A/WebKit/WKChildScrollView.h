@@ -6,6 +6,8 @@
 
 #import <WebKit/WKBaseScrollView.h>
 
+@class NSString;
+
 __attribute__((visibility("hidden")))
 @interface WKChildScrollView : WKBaseScrollView
 {
@@ -16,7 +18,13 @@ __attribute__((visibility("hidden")))
 - (_Bool)eneric<WebCore:(id)arg1:(id)arg2 PageIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
+@property(readonly, copy) NSString *debugDescription;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,C
+
+@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
 
 @end
 

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WKFrameInfo;
+@class NSString, NSURLRequest, NSURLResponse, WKFrameInfo, WKNavigation;
 
 @interface WKNavigationResponse
 {
@@ -17,7 +17,7 @@
 - (id);
 - (id);
 - (id);
-- (_Bool)_֨;
+- (_Bool);
 - (id);
 - (struct Object *);
 - (_Bool);
@@ -28,7 +28,25 @@
 - (id)hí|?5¾?Clçûí?ÍÌÌÌÌÌì?;
 
 // Remaining properties
+@property(readonly) struct Object *_apiObject;
+@property(readonly, nonatomic) NSString *_downloadAttribute;
 @property(readonly, nonatomic) WKFrameInfo *_frame;
+@property(readonly, nonatomic) _Bool _isFromNetwork;
+@property(readonly, nonatomic) WKNavigation *_navigation;
+@property(readonly, nonatomic) WKFrameInfo *_navigationInitiatingFrame;
+@property(readonly, nonatomic) NSString *_proxyName;
+@property(readonly, nonatomic) NSURLRequest *_request;
+@property(readonly, nonatomic) _Bool _wasPrivateRelayed;
+@property(readonly, nonatomic) _Bool canShowMIMEType;
+@property(readonly, copy) NSString *debugDescription;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,C
+
+@property(readonly, copy) NSString *description;
+@property(readonly, nonatomic, getter=isForMainFrame) _Bool forMainFrame;
+@property(readonly) unsigned long long hash;
+@property(readonly, copy, nonatomic) NSURLResponse *response;
+@property(readonly) Class superclass;
 
 @end
 

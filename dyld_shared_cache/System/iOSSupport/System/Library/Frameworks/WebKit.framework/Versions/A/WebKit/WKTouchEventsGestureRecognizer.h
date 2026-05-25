@@ -4,10 +4,23 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSMapTable, WKContentView;
+
 __attribute__((visibility("hidden")))
 @interface WKTouchEventsGestureRecognizer
 {
     _Bool _passedHitTest;
+    _Bool _defaultPrevented;
+    _Bool _dispatchingTouchEvents;
+    _Bool _isPotentialTap;
+    _Bool _wasExplicitlyCancelled;
+    double _originalGestureDistance;
+    double _originalGestureAngle;
+    double _lastTouchesBeganTime;
+    optional_dc4c3092 _lastTouchesBeganLocation;
+    struct WKTouchEvent _lastTouchEvent;
+    struct RetainPtr<NSMapTable<NSNumber *, UITouch *>> _activeTouchesByIdentifier;
+    WKContentView *_contentView;
 }
 
 + (void)yExtractor<WTF::KeyValuePair<WTF::WeakPtr<WebKit::WebExtensionTab>, WTF::Ref<WebKit::WebExtensionAction>>>, WTF::DefaultHash<WTF::WeakPtr<WebKit::WebExtensionTab>>, WTF::HashMap<WTF::WeakPtr<WebKit::WebExtensionTab>, WTF::Ref<WebKit::WebExtensionAction>>::KeyValuePairTraits, WTF::HashTraits<WTF::WeakPtr<WebKit::WebExtensionTab>>>::validateKey(const ValueType &) [Key = WTF::WeakPtr<WebKit::WebExtensionTab>, Value = WTF::KeyValuePair<WTF::WeakPtr<WebKit::WebExtensionTab>, WTF::Ref<WebKit::WebExtensionAction>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::WeakPtr<WebKit::WebExtensionTab>, WTF::Ref<WebKit::WebExtensionAction>>>, HashFunctions = WTF::DefaultHash<WTF::WeakPtr<WebKit::WebExtensionTab>>, Traits = WTF::HashMap<WTF::WeakPtr<WebKit::WebExtensionTab>, WTF::Ref<WebKit::WebExtensionAction>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::WeakPtr<WebKit::WebExtensionTab>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
@@ -19,9 +32,9 @@ __attribute__((visibility("hidden")))
 - (void);
 - (_Bool);
 - (void);
-- (void)ntDescriptors(completion:) /* Error: Ran out of types for this method. */;
-- (id)AA2A1LLO;
-- (id)c;
+- (void);
+- (id);
+- (id);
 - (_Bool);
 - (void);
 - (_Bool);
@@ -36,7 +49,11 @@ __attribute__((visibility("hidden")))
 - (id)ssTraits<uint64_t>, unsigned long long>>, WTF::UniqueRef<WebKit::JSHandleInfo>, WTF::UniqueRef<WebCore::SerializedNode>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::JSObjectIDType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
+@property(readonly, nonatomic) NSMapTable *activeTouchesByIdentifier;
+@property(readonly, nonatomic) __weak WKContentView *contentView; // @synthesize contentView=_contentView;
 @property(nonatomic, getter=isDefaultPrevented) _Bool defaultPrevented; // @synthesize defaultPrevented=_defaultPrevented;
+@property(readonly, nonatomic, getter=isDispatchingTouchEvents) _Bool dispatchingTouchEvents; // @synthesize dispatchingTouchEvents=_dispatchingTouchEvents;
+@property(readonly, nonatomic) const void *lastTouchEvent;
 
 @end
 

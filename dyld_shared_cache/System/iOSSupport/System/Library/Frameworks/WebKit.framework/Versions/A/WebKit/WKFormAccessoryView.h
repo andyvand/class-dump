@@ -11,6 +11,20 @@ __attribute__((visibility("hidden")))
 @interface WKFormAccessoryView
 {
     id <WKFormAccessoryViewDelegate> _delegate;
+    struct RetainPtr<UIToolbar> _leftToolbar;
+    struct RetainPtr<UIToolbar> _rightToolbar;
+    struct RetainPtr<UIBarButtonItem> _doneButton;
+    struct RetainPtr<UIBarButtonItem> _flexibleSpaceItem;
+    struct RetainPtr<UIBarButtonItem> _previousItem;
+    struct RetainPtr<UIBarButtonItem> _nextItem;
+    struct RetainPtr<UIBarButtonItem> _nextPreviousSpacer;
+    struct RetainPtr<UIBarButtonItem> _autoFillButtonItem;
+    struct RetainPtr<UIBarButtonItem> _autoFillButtonItemSpacer;
+    struct RetainPtr<UIBarButtonItemGroup> _buttonGroupAutoFill;
+    struct RetainPtr<UIBarButtonItemGroup> _buttonGroupNavigation;
+    struct RetainPtr<UIView> _leftContainerView;
+    struct RetainPtr<UIView> _rightContainerView;
+    _Bool _usesUniversalControlBar;
 }
 
 - (id);
@@ -20,7 +34,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)		i;
+- (void);
 - (void);
 - (void);
 - (void);
@@ -32,7 +46,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (id);
-- (void)q;
+- (void);
 - (void);
 - (id);
 - (void)tateTracker, WTF:(id)arg1:DefaultWeakPtrImpl, WTF::RawPtrTraits<WTF::DefaultWeakPtrImpl>>="m_impl"{RefPtr<WTF::DefaultWeakPtrImpl, WTF::RawPtrTraits<WTF::DefaultWeakPtrImpl>, WTF::DefaultRefDerefTraits<WTF::DefaultWeakPtrImpl>>="m_ptr"^{DefaultWeakPtrImpl}}} /* Error: Ran out of types for this method. */;
@@ -40,6 +54,8 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(readonly, nonatomic) UIBarButtonItem *autoFillButtonItem;
+@property(nonatomic, getter=isNextEnabled) _Bool nextEnabled;
+@property(nonatomic, getter=isPreviousEnabled) _Bool previousEnabled;
 
 @end
 

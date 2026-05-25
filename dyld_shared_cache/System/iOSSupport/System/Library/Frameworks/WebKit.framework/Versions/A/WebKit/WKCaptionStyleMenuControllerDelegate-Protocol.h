@@ -7,7 +7,6 @@
 @class UIMenu;
 
 @protocol WKCaptionStyleMenuControllerDelegate
-- (void);
 - (void)ty:(UIMenu *)arg1 %u because it had higher priority.;
 
 @optional

@@ -7,9 +7,9 @@
 @class NSData;
 
 @protocol _WKAuthenticationPRFInputValuesStaging
-- (NSData *);
 
 // Remaining properties
 @property(copy, nonatomic) NSData *prfSalt1;
+@property(copy, nonatomic) NSData *prfSalt2;
 @end
 

@@ -4,10 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString;
+
 __attribute__((visibility("hidden")))
 @interface WKScrollingNodeScrollViewDelegate
 {
     struct WeakPtr<WebKit::ScrollingTreeScrollingNodeDelegateIOS, WTF::DefaultWeakPtrImpl, WTF::RawPtrTraits<WTF::DefaultWeakPtrImpl>> _scrollingTreeNodeDelegate;
+    _Bool _inUserInteraction;
 }
 
 - (_Bool);
@@ -19,11 +22,11 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (id);
-- (void)termsOfService;
-- (void);
-- (void);
 - (void);
-- (void);
+- (void);
+- (void);
+- (void);
+- (void);
 - (void);
 - (id);
 - (void);
@@ -31,7 +34,14 @@ __attribute__((visibility("hidden")))
 - (void)6x4VpErDymejfsBXW5gK4DTQ/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.Internal.sdk/System/iOSSupport/usr/local/include/wtf/RefCounted.h;
 
 // Remaining properties
+@property(readonly, copy) NSString *debugDescription;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,C
+
+@property(readonly, copy) NSString *description;
+@property(readonly) unsigned long long hash;
 @property(nonatomic, getter=_isInUserInteraction) _Bool inUserInteraction; // @synthesize inUserInteraction=_inUserInteraction;
+@property(readonly) Class superclass;
 
 @end
 

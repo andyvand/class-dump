@@ -4,11 +4,13 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSString, WKWebView;
 @protocol _WKInspectorDelegate;
 
 @interface _WKInspector
 {
     struct AlignedStorage<WebKit::WebInspectorUIProxy, 8UL> _inspector;
+    struct WeakObjCPtr<id<_WKInspectorDelegate>> _delegate;
 }
 
 - (void);
@@ -22,7 +24,7 @@
 - (void);
 - (_Bool);
 - (id);
-- (id);
+- (id);
 - (void);
 - (void);
 - (void);
@@ -31,13 +33,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (void)_firstDragPoint;
 - (void);
 - (void);
-- (void)H;
+- (void);
+- (void);
 - (id);
 - (void);
-- (id)WidgetKit;
+- (id);
 - (void);
 - (_Bool);
 - (void)xtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::SamplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WebCore::MediaSampleConverter>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::SamplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::SamplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WebCore::MediaSampleConverter>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::SamplesRendererTrackIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
@@ -46,7 +48,25 @@
 - (id);
 
 // Remaining properties
+@property(readonly) struct Object *_apiObject;
+@property(readonly, copy) NSString *debugDescription;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,C
+
 @property(nonatomic) __weak id <_WKInspectorDelegate> delegate;
+@property(readonly, copy) NSString *description;
+@property(readonly, nonatomic) WKWebView *extensionHostWebView;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"WKWebView",?,R,N
+
+@property(readonly) unsigned long long hash;
+@property(readonly, nonatomic) _Bool isConnected;
+@property(readonly, nonatomic) _Bool isElementSelectionActive;
+@property(readonly, nonatomic) _Bool isFront;
+@property(readonly, nonatomic) _Bool isProfilingPage;
+@property(readonly, nonatomic) _Bool isVisible;
+@property(readonly) Class superclass;
+@property(readonly, nonatomic) WKWebView *webView;
 
 @end
 

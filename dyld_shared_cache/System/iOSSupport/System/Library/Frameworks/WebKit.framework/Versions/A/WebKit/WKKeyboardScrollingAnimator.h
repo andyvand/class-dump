@@ -10,13 +10,21 @@ __attribute__((visibility("hidden")))
 @interface WKKeyboardScrollingAnimator
 {
     id <WKKeyboardScrollableInternal> _scrollable;
+    struct RetainPtr<CADisplayLink> _displayLink;
+    struct RetainPtr<UIView> _viewForTrackingScrollToExtentAnimation;
+    optional_383df22c _currentScroll;
+    _Bool _scrollTriggeringKeyIsPressed;
+    struct FloatSize _velocity;
+    struct FloatPoint _idealPosition;
+    struct FloatPoint _currentPosition;
+    struct FloatPoint _idealPositionForMinimumTravel;
 }
 
 - (void);
-- (id)@q";
-- (optional_29e6f1ae);
 - (id);
-- (unsigned char)isIdleTimerDisabled;
+- (optional_383df22c);
+- (id);
+- (unsigned char);
 - (void);
 - (void);
 - (_Bool);
@@ -24,7 +32,7 @@ __attribute__((visibility("hidden")))
 - (id);
 - (void);
 - (void);
-- (void)textView:didEndFormattingWithViewController: /* Error: Ran out of types for this method. */;
+- (void): /* Error: Ran out of types for this method. */;
 - (void)ä;
 - (void)ceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::Filter>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void)IdentifierGeneric<WebKit:(id)arg1:WebExtensionTabIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionWindowIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionWindowIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::Vector<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionTabIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionWindowIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;

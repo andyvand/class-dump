@@ -5,8 +5,5 @@
 //
 
 @protocol WKFileUploadPanelDelegate
-
-@optional
-- (_Bool);
 @end
 

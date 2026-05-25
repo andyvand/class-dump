@@ -4,10 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class WKFrameInfo;
+
 @protocol WKURLSchemeTaskPrivate
-- (_Bool);
 
 // Remaining properties
+@property(readonly, nonatomic) WKFrameInfo *_frame;
 @property(readonly, nonatomic) _Bool _requestOnlyIfCached;
 @end
 

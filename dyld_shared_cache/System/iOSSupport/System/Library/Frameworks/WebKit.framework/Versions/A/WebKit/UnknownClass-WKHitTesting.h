@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class UIScrollView;
+@class UIScrollView, UIView, UIViewController;
 
 @interface UnknownClass (WKHitTesting)
 - (id);
@@ -13,10 +13,12 @@
 - (_Bool);
 - (struct FloatQuad);
 - (void);
-- (void);
+- (void);
 - (id);
 
 // Remaining properties
 @property(readonly, nonatomic) UIScrollView *_wk_parentScrollView;
+@property(readonly, nonatomic) UIView *_wk_previousSibling;
+@property(readonly, nonatomic) UIViewController *_wk_viewControllerForFullScreenPresentation;
 @end
 

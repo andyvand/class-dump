@@ -11,16 +11,17 @@ __attribute__((visibility("hidden")))
 @interface WKImageAnalysisGestureRecognizer
 {
     UIView<WKImageAnalysisGestureRecognizerDelegate> *_imageAnalysisGestureRecognizerDelegate;
+    UIScrollView *_lastTouchedScrollView;
 }
 
-- (void)_GSg;
+- (void);
 - (void);
 - (id);
 - (void);
 - (void);
 - (id)ÿÿ;
 - (void)ctIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::Filter>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::Filter>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::Ref<WebCore::Filter>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::RenderingResourceIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
-- (void)frameID;
+- (void)eID;
 
 // Remaining properties
 @property(readonly, nonatomic) UIScrollView *lastTouchedScrollView; // @synthesize lastTouchedScrollView=_lastTouchedScrollView;

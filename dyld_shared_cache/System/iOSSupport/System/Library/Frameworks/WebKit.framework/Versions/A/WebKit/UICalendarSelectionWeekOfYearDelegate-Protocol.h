@@ -5,6 +5,5 @@
 //
 
 @protocol UICalendarSelectionWeekOfYearDelegate
-- (void)C;
 @end
 

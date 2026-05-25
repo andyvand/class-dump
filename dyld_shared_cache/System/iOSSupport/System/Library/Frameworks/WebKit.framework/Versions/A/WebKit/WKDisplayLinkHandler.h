@@ -4,10 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class CADisplayLink;
+
 __attribute__((visibility("hidden")))
 @interface WKDisplayLinkHandler
 {
     void *_drawingAreaProxy;
+    CADisplayLink *_displayLink;
+    unsigned int _preferredFramesPerSecond;
+    _Bool _wantsHighFrameRate;
+    struct DisplayUpdate _currentUpdate;
 }
 
 - (void);

@@ -4,10 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSArray;
+
 __attribute__((visibility("hidden")))
 @interface WKTextRange
 {
     struct CGRect _startRect;
+    struct CGRect _endRect;
+    _Bool _isNone;
+    _Bool _isRange;
+    _Bool _isEditable;
+    NSArray *_selectionRects;
+    unsigned long long _selectedTextLength;
 }
 
 + (id);
@@ -26,7 +34,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (struct CGRect);
-- (void)e;;
+- (void);
 - (id);
 - (id);
 - (_Bool);
@@ -35,6 +43,12 @@ __attribute__((visibility("hidden")))
 - (_Bool)TF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::WebExtensionPortChannelIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
+@property(nonatomic) struct CGRect endRect; // @synthesize endRect=_endRect;
+@property(nonatomic) _Bool isEditable; // @synthesize isEditable=_isEditable;
+@property(nonatomic) _Bool isNone; // @synthesize isNone=_isNone;
+@property(nonatomic) _Bool isRange; // @synthesize isRange=_isRange;
+@property(nonatomic) unsigned long long selectedTextLength; // @synthesize selectedTextLength=_selectedTextLength;
+@property(copy, nonatomic) NSArray *selectionRects; // @synthesize selectionRects=_selectionRects;
 @property(nonatomic) struct CGRect startRect; // @synthesize startRect=_startRect;
 
 @end

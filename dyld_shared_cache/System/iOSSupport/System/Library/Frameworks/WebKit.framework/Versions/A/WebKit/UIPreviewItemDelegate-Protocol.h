@@ -4,15 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSDictionary, UIPreviewItemController;
+@class NSDictionary, UIPreviewItemController;
 
 @protocol UIPreviewItemDelegate
 - (NSDictionary *)ThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Value = WTF:(UIPreviewItemController *)arg1:(struct CGPoint)arg2 KeyValuePair<WebCore:(long long *)arg3:ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::DOMCacheIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, unsigned int>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::DOMCacheIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, unsigned int>>, HashFunctions = WTF::DefaultHash<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::DOMCacheIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>, Traits = WTF::HashMap<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::DOMCacheIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, unsigned int>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WebCore::ProcessQualified<WTF::ObjectIdentifierGeneric<WebCore::DOMCacheIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
-
-@optional
-- (NSArray *);
-- (void)kRPVideoEditorExtensionMacOSKeyWidth;
-- (void)generateCollectionByCoercingToItemClass:(UIPreviewItemController *)arg1 completionHandler: /* Error: Ran out of types for this method. */;
-- (void);
 @end
 

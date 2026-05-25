@@ -5,8 +5,5 @@
 //
 
 @protocol NSURLSessionWebSocketDelegate
-
-@optional
-- (void);
 @end
 

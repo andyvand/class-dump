@@ -7,13 +7,16 @@
 @interface _WKRemoteObjectRegistry
 {
     struct RefPtr<WebKit::RemoteObjectRegistry, WTF::RawPtrTraits<WebKit::RemoteObjectRegistry>, WTF::DefaultRefDerefTraits<WebKit::RemoteObjectRegistry>> _remoteObjectRegistry;
+    struct RetainPtr<NSMapTable> _remoteObjectProxies;
+    struct HashMap<WTF::String, std::pair<WTF::RetainPtr<id>, WTF::RetainPtr<_WKRemoteObjectInterface>>, WTF::DefaultHash<String>, WTF::HashTraits<String>, WTF::HashTraits<std::pair<WTF::RetainPtr<id>, WTF::RetainPtr<_WKRemoteObjectInterface>>>, WTF::HashTableTraits, WTF::ShouldValidateKey::Yes, WTF::FastMalloc> _exportedObjects;
+    struct HashMap<unsigned long long, PendingReply, WTF::DefaultHash<unsigned long long>, WTF::HashTraits<unsigned long long>, WTF::HashTraits<PendingReply>, WTF::HashTableTraits, WTF::ShouldValidateKey::Yes, WTF::FastMalloc> _pendingReplies;
 }
 
 - (void);
 - (void *);
 - (void);
 - (void);
-- (void)E;
+- (void);
 - (void);
 - (id);
 - (id);

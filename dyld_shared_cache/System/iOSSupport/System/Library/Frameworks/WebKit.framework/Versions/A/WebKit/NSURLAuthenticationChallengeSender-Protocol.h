@@ -5,7 +5,6 @@
 //
 
 @protocol NSURLAuthenticationChallengeSender
-- (void);
 - (void)0@ù
 × ;
 @end

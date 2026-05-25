@@ -4,16 +4,18 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class Protocol;
+@class NSString, Protocol;
 
 @interface _WKRemoteObjectInterface
 {
     struct RetainPtr<NSString> _identifier;
+    struct RetainPtr<Protocol> _protocol;
+    struct HashMap<SEL *, MethodInfo, WTF::DefaultHash<SEL *>, WTF::HashTraits<SEL *>, WTF::HashTraits<MethodInfo>, WTF::HashTableTraits, WTF::ShouldValidateKey::Yes, WTF::FastMalloc> _methods;
 }
 
 - (void);
 - (id);
-- (id)ֆ!;
+- (id);
 - (id);
 - (id);
 - (const void *);
@@ -27,6 +29,7 @@
 - (id)e, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RetainPtr<NSURLSessionDataTask>>::KeyValuePairTraits, WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>>::validateKey(const ValueType &) [Key = WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, Value = WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RetainPtr<NSURLSessionDataTask>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RetainPtr<NSURLSessionDataTask>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::RetainPtr<NSURLSessionDataTask>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::DataTaskIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 
 // Remaining properties
+@property(readonly, nonatomic) NSString *identifier;
 @property(readonly, nonatomic) Protocol *protocol;
 
 @end

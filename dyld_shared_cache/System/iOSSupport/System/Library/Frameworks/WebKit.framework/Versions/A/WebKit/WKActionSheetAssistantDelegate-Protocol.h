@@ -10,8 +10,6 @@
 - (void)è;
 
 @optional
-- (_Bool);
-- (void)wf_fileIsShortcutsOwned;
 - (_Bool)4_t>, unsigned long long>>>>, HashFunctions = WTF:(WKActionSheetAssistant *)arg1:(_WKActivatedElementInfo *)arg2 DefaultHash<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>, WTF::HashSet<WTF::ObjectIdentifierGeneric<WebCore::ResourceLoaderIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebCore::FrameIdentifierType, WTF::ObjectIdentifierMainThreadAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 @end
 

@@ -12,8 +12,8 @@
 {
 }
 
-- (void)release;
-- (id);
+- (void);
+- (id);
 
 // Remaining properties
 @property(copy, nonatomic) NSString *data;

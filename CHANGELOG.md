@@ -1,5 +1,15 @@
 ### Unreleased
 
+* Full subcache support for split dyld_shared_caches: `CDDyldCache` now merges
+  every `.NN`, `.NN.dylddata`, `.NN.dyldreadonly`, `.NN.dyldlinkedit`, and
+  `.symbols` sibling into a single VM address space, so `--dsc-class-dump`,
+  `--dsc-list-images`, and `--with-cache` resolve selectors and Swift types
+  that live in any of those split-out regions. `--dsc-info` now prints a
+  per-subcache breakdown (suffix, file size, mapping name, vm range, prot,
+  flags) using the same naming dyld uses (__TEXT / __TEXT_STUBS /
+  __DATA_CONST / __DATA / __DATA_DIRTY / __AUTH / __TPRO_CONST / __READ_ONLY
+  / __LINKEDIT). The basePath is stripped of `.development` for universal
+  caches, and subcache UUIDs are verified against the parent header.
 * Building with the 10.14 SDK.
 * Fix parse error of _Atomic types.  (Thanks to Jacob Bandes-Storch (jtbandes)).
 * Work around many other parsing errors from blank types:

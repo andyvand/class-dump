@@ -7,7 +7,6 @@
 @protocol WKKeyboardScrollViewAnimatorDelegate
 
 @optional
-- (void);
-- (void)_relyingPartyIdentifier;
+- (void)lyingPartyIdentifier;
 @end
 

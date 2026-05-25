@@ -8,6 +8,7 @@ __attribute__((visibility("hidden")))
 @interface WKUserDefaults
 {
     struct RetainPtr<NSString> m_suiteName;
+    struct WeakObjCPtr<WKPreferenceObserver> m_observer;
 }
 
 - (void);

@@ -4,7 +4,7 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class WKBackForwardListItem;
+@class NSArray, NSString, WKBackForwardListItem;
 
 @interface WKBackForwardList
 {
@@ -16,17 +16,29 @@
 - (id);
 - (Ref_ac2f20b5);
 - (id);
-- (struct Object *)`9;
-- (id);
-- (void);
+- (struct Object *);
 - (id);
 - (void);
 - (id);
-- (id)markReportAsSentToDestination;
-- (void)getSessionPermissions;
+- (void);
+- (id);
+- (id)oDestination;
+- (void)ons;
 
 // Remaining properties
+@property(readonly) struct Object *_apiObject;
+@property(readonly, nonatomic) WKBackForwardListItem *backItem;
+@property(readonly, copy, nonatomic) NSArray *backList;
 @property(readonly, nonatomic) WKBackForwardListItem *currentItem;
+@property(readonly, copy) NSString *debugDescription;
+// Preceding property had unknown attributes: ?
+// Original attribute string: T@"NSString",?,R,C
+
+@property(readonly, copy) NSString *description;
+@property(readonly, nonatomic) WKBackForwardListItem *forwardItem;
+@property(readonly, copy, nonatomic) NSArray *forwardList;
+@property(readonly) unsigned long long hash;
+@property(readonly) Class superclass;
 
 @end
 

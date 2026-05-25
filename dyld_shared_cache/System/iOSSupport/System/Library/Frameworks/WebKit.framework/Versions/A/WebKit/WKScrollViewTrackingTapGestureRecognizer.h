@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     UIScrollView *_lastTouchedScrollView;
 }
 
-- (void)countryCode;
+- (void);
 - (id);
 - (void);
 - (void)ier);

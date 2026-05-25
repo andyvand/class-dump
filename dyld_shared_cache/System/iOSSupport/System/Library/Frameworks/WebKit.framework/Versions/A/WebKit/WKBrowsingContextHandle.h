@@ -7,6 +7,7 @@
 @interface WKBrowsingContextHandle
 {
     Markable_0c00edda _pageProxyID;
+    unsigned long long _webPageID;
 }
 
 + (_Bool)á;
@@ -15,7 +16,7 @@
 - (id);
 - (id);
 - (id);
-- (id)__got;
+- (id);
 - (id);
 - (unsigned long long);
 - (id);
@@ -25,6 +26,7 @@
 
 // Remaining properties
 @property(readonly, nonatomic, getter=_pageProxyID) Markable_0c00edda pageProxyID; // @synthesize pageProxyID=_pageProxyID;
+@property(readonly, nonatomic, getter=_webPageID) unsigned long long webPageID; // @synthesize webPageID=_webPageID;
 
 @end
 

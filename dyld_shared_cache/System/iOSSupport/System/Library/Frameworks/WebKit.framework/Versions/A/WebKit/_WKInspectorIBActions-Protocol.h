@@ -5,7 +5,5 @@
 //
 
 @protocol _WKInspectorIBActions
-- (void)r;
-- (void)n;
 @end
 

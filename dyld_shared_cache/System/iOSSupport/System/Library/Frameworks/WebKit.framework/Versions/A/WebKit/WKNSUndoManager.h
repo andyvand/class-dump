@@ -10,6 +10,7 @@ __attribute__((visibility("hidden")))
 @interface WKNSUndoManager
 {
     _Bool _isRegisteringUndoCommand;
+    WKContentView *_contentView;
 }
 
 - (void);

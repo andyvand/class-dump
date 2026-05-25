@@ -12,7 +12,7 @@ __attribute__((visibility("hidden")))
     struct WeakObjCPtr<UIScrollView> _lastTouchedScrollView;
 }
 
-- (void)ypGGSg_G;
+- (void);
 - (id);
 - (id);
 - (void);

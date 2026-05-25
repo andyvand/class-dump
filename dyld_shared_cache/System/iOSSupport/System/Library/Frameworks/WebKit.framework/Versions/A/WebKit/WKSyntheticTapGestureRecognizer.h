@@ -6,27 +6,35 @@
 
 #import <WebKit/WKScrollViewTrackingTapGestureRecognizer.h>
 
-@class WKTouchEventsGestureRecognizer;
+@class NSNumber, WKTouchEventsGestureRecognizer;
 
 __attribute__((visibility("hidden")))
 @interface WKSyntheticTapGestureRecognizer : WKScrollViewTrackingTapGestureRecognizer
 {
     id _gestureIdentifiedTarget;
+    SEL _gestureIdentifiedAction;
+    id _gestureFailedTarget;
+    SEL _gestureFailedAction;
+    id _resetTarget;
+    SEL _resetAction;
+    struct RetainPtr<NSNumber> _lastActiveTouchIdentifier;
+    WKTouchEventsGestureRecognizer *_supportingTouchEventsGestureRecognizer;
 }
 
 - (void);
-- (void)signedDate;
-- (id);
-- (void);
-- (void);
 - (void);
 - (id);
 - (void);
-- (id)RemoteGraphicsContextGL_GetTranslatedShaderSourceANGLE;
+- (void);
+- (void);
+- (id);
+- (void);
+- (id)eGraphicsContextGL_GetTranslatedShaderSourceANGLE;
 - (void)gned long long>, Value = WTF:(id)arg1:(id)arg2 KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::StorageAreaIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::WeakPtr<WebKit::StorageAreaBase>>, Extractor = WTF::KeyValuePairKeyExtractor<WTF::KeyValuePair<WTF::ObjectIdentifierGeneric<WebKit::StorageAreaIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::WeakPtr<WebKit::StorageAreaBase>>>, HashFunctions = WTF::DefaultHash<WTF::ObjectIdentifierGeneric<WebKit::StorageAreaIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Traits = WTF::HashMap<WTF::ObjectIdentifierGeneric<WebKit::StorageAreaIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>, WTF::WeakPtr<WebKit::StorageAreaBase>>::KeyValuePairTraits, KeyTraits = WTF::HashTraits<WTF::ObjectIdentifierGeneric<WebKit::StorageAreaIdentifierType, WTF::ObjectIdentifierThreadSafeAccessTraits<uint64_t>, unsigned long long>>, Malloc = WTF::FastMalloc, shouldValidateKey = WTF::ShouldValidateKey::Yes] /* Error: Ran out of types for this method. */;
 - (void)ifier);
 
 // Remaining properties
+@property(readonly, nonatomic) NSNumber *lastActiveTouchIdentifier;
 @property(nonatomic) __weak WKTouchEventsGestureRecognizer *supportingTouchEventsGestureRecognizer; // @synthesize supportingTouchEventsGestureRecognizer=_supportingTouchEventsGestureRecognizer;
 
 @end
