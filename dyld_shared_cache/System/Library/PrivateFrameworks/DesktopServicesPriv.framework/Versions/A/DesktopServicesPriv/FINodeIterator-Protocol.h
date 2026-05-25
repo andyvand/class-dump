@@ -7,10 +7,10 @@
 @class FINode;
 
 @protocol FINodeIterator
+- (unsigned long long)0;
 - (FINode *)È;
 
 // Remaining properties
-@property(readonly, nonatomic) unsigned long long estimatedSize;
 @property(readonly, nonatomic) _Bool fullyPopulated;
 @end
 

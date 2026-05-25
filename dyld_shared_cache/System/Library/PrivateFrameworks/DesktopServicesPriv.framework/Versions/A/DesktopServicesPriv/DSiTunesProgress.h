@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class AMPDevice, NSProgress;
+@class NSProgress;
 
 __attribute__((visibility("hidden")))
 @interface DSiTunesProgress
 {
     NSProgress *_progress;
-    AMPDevice *_device;
-    struct TNodePtr _deviceNode;
-    double _lastProgressSent;
-    struct vector<TKeyValueObserver, std::allocator<TKeyValueObserver>> _observers;
 }
 
 + (struct TNodePtr);
 - (void);
 - (id);
-- (void);
-- (id);
+- (void);
+- (id)nDate;
 - (id);
 - (void);
 

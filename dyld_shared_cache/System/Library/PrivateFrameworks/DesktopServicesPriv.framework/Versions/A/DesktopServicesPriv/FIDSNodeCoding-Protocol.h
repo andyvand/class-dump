@@ -5,5 +5,6 @@
 //
 
 @protocol FIDSNodeCoding
++ (id);
 @end
 

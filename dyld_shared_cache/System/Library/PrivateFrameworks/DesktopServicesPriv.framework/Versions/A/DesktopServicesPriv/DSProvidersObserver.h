@@ -4,26 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSObject;
-
 __attribute__((visibility("hidden")))
 @interface DSProvidersObserver
 {
     struct TNodePtr fParentNode;
-    NSObject *_token;
-    NSArray *_providers;
-    struct unique_ptr<AutoSignpostInterval_FPProvider_Gathering, std::default_delete<AutoSignpostInterval_FPProvider_Gathering>> _gatheringSignpost;
-    struct mutex _receiveChangesLock;
-    _Bool _populated;
 }
 
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)_didIssueCancel;
+- (void)I;
 - (void);
-- (void);
-- (void);
+- (void)@;
 - (id);
 - (void)ø;
 

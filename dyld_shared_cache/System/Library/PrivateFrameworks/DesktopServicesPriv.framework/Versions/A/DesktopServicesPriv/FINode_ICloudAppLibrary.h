@@ -6,22 +6,21 @@
 
 #import <DesktopServicesPriv/FIDSNode.h>
 
-@class FINode, NSString;
+@class FINode;
 
 __attribute__((visibility("hidden")))
 @interface FINode_ICloudAppLibrary : FIDSNode
 {
     FINode *_documentsFolder;
-    struct TString _appIdentifier;
 }
 
+- (id)TkK;
 - (id);
 - (id);
 - (id);
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -29,21 +28,13 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (_Bool);
-- (id);
+- (id)B,R;
 - (id);
 - (id);
 - (void);
 
 // Remaining properties
-@property(readonly) NSString *appIdentifier;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly, nonatomic) __weak FINode *documentsFolder;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

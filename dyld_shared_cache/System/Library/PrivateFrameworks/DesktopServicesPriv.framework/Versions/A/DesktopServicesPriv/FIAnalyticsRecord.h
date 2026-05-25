@@ -4,17 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSMutableDictionary, NSString;
+@class NSString;
 
 @interface FIAnalyticsRecord
 {
     NSString *_eventName;
-    NSMutableDictionary *_eventDict;
 }
 
-- (id);
-- (void);
-- (void);
+- (id)0n.<n2: /* Error: Ran out of types for this method. */;
+- (void)error requesting custom preset info dictionary (0x%x);
+- (void);
 - (id);
 - (id);
 - (id);
@@ -24,7 +23,6 @@
 - (id)tD;
 
 // Remaining properties
-@property(readonly, nonatomic) NSMutableDictionary *eventDict; // @synthesize eventDict=_eventDict;
 @property(readonly, nonatomic) NSString *eventName; // @synthesize eventName=_eventName;
 
 @end

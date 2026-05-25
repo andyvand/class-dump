@@ -4,18 +4,9 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @interface FIFolderSize
 {
     long long _totalItems;
-    long long _userVisibleItems;
-    long long _logicalBytes;
-    long long _compressionAdjustedLogicalBytes;
-    long long _physicalBytes;
-    long long _skippedItemCount;
-    long long _folderCount;
-    NSError *_error;
 }
 
 - (long long);
@@ -29,14 +20,7 @@
 - (void);
 
 // Remaining properties
-@property(readonly, nonatomic) long long compressionAdjustedLogicalBytes; // @synthesize compressionAdjustedLogicalBytes=_compressionAdjustedLogicalBytes;
-@property(readonly, copy, nonatomic) NSError *error; // @synthesize error=_error;
-@property(readonly, nonatomic) long long folderCount; // @synthesize folderCount=_folderCount;
-@property(readonly, nonatomic) long long logicalBytes; // @synthesize logicalBytes=_logicalBytes;
-@property(readonly, nonatomic) long long physicalBytes; // @synthesize physicalBytes=_physicalBytes;
-@property(readonly, nonatomic) long long skippedItemCount; // @synthesize skippedItemCount=_skippedItemCount;
 @property(readonly, nonatomic) long long totalItems; // @synthesize totalItems=_totalItems;
-@property(readonly, nonatomic) long long userVisibleItems; // @synthesize userVisibleItems=_userVisibleItems;
 
 @end
 

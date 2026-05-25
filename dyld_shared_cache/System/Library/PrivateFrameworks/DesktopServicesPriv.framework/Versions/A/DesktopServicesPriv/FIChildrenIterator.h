@@ -4,14 +4,11 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSArray, NSString;
+@class NSArray;
 
 @interface FIChildrenIterator
 {
     _Bool _fullyPopulated;
-    _Bool _includeInvisible;
-    NSArray *_children;
-    unsigned long long _index;
 }
 
 - (id);
@@ -28,17 +25,6 @@
 
 // Remaining properties
 @property(copy, nonatomic) NSArray *children; // @synthesize children=_children;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long estimatedSize;
-@property(readonly, nonatomic) _Bool fullyPopulated;
-@property(readonly) unsigned long long hash;
-@property(readonly, nonatomic) _Bool includeInvisible; // @synthesize includeInvisible=_includeInvisible;
-@property(nonatomic) unsigned long long index; // @synthesize index=_index;
-@property(readonly) Class superclass;
 
 @end
 

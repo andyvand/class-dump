@@ -4,35 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString, SWHighlightCenter;
-@protocol OS_dispatch_queue;
+@class SWHighlightCenter;
 
 __attribute__((visibility("hidden")))
 @interface DSHighlightCenterTracker
 {
     SWHighlightCenter *_highlightCenter;
-    struct unordered_set<TString, std::hash<TString>, std::equal_to<TString>, std::allocator<TString>> _trackedIdentifiers;
-    struct unordered_set<TString, std::hash<TString>, std::equal_to<TString>, std::allocator<TString>> _missedIdentifiers;
-    struct mutex fLock;
-    NSObject<OS_dispatch_queue> *_queryQueue;
 }
 
 + (id);
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)r;
 - (void);
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

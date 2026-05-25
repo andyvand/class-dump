@@ -21,13 +21,13 @@
 + (id);
 + (id);
 + (id);
-+ (void);
++ (void);
 + (id);
 + (id);
 + (id);
 + (void);
 + (void);
-+ (_Bool);
++ (_Bool)window to v1 %{public}@peer %{public}@%{public}@:window %{public}@ /* Error: Ran out of types for this method. */;
 
 @end
 

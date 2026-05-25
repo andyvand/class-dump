@@ -4,23 +4,19 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSError;
-
 @interface FIOperationReply
 {
     unsigned int _resolution;
-    NSError *_error;
 }
 
 - (id);
-- (id);
+- (id)s;
 - (unsigned int);
 - (void);
 - (void);
 - (void);
 
 // Remaining properties
-@property(retain) NSError *error; // @synthesize error=_error;
 @property unsigned int resolution; // @synthesize resolution=_resolution;
 
 @end

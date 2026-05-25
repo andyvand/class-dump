@@ -11,7 +11,7 @@
 
 - (void);
 - (id);
-- (BOOL);
+- (BOOL));
 - (long long);
 - (int);
 - (short);
@@ -22,11 +22,11 @@
 - (_Bool);
 - (id);
 - (struct OpaquePropertyListRef *);
+- (id)Tz;
 - (id);
 - (id);
-- (id);
-- (id);
-- (id);
+- (id),V__connectionTimingCached;
+- (id)d-GostR3410-94-b;
 - (void);
 
 @end

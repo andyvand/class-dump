@@ -12,8 +12,6 @@ typedef void (^CDUnknownBlockType)(void); // return type and parameters are unkn
 
 #pragma mark Named Structures
 
-struct AutoSignpostInterval_FPProvider_Gathering;
-
 struct AutoSignpostInterval_General_OpenSync;
 
 struct Blob {
@@ -25,8 +23,8 @@ struct Blob {
 struct DSSemaphore;
 
 struct HFSUniStr255 {
-    unsigned short length;
-    unsigned short unicode[255];
+    unsigned short _field1;
+    unsigned short _field2[255];
 };
 
 struct OpaqueEventQueue;
@@ -49,35 +47,35 @@ struct OperationErrorRecord {
 };
 
 struct OperationIterator {
-    struct OpaqueOperationData *fData;
-    CDUnknownFunctionPointerType fFirstProc;
-    CDUnknownFunctionPointerType fNextProc;
+    struct OpaqueOperationData *_field1;
+    CDUnknownFunctionPointerType _field2;
+    CDUnknownFunctionPointerType _field3;
 };
 
 struct OperationMonitorEx {
-    struct OpaqueMonitorData *fMonitorData;
-    unsigned char fCancelRequested;
-    struct OperationStatus *fStatus;
-    unsigned int fAccumulatedStatusMask;
-    unsigned int fStatusChangeInterval;
-    struct DSSemaphore *fRequestSemaphoreID;
-    struct OpaqueEventQueue *fQueue;
-    CDUnknownFunctionPointerType fTickleProc;
-    CDUnknownFunctionPointerType fUniqueNameProc;
-    int fVersion;
-    CDUnknownBlockType fEventHandler;
+    struct OpaqueMonitorData *_field1;
+    unsigned char _field2;
+    struct OperationStatus *_field3;
+    unsigned int _field4;
+    unsigned int _field5;
+    struct DSSemaphore *_field6;
+    struct OpaqueEventQueue *_field7;
+    CDUnknownFunctionPointerType _field8;
+    CDUnknownFunctionPointerType _field9;
+    int _field10;
+    CDUnknownBlockType _field11;
 };
 
 struct OperationStatus {
-    unsigned int fStage;
-    struct HFSUniStr255 fCurrentName;
-    long long fTimeEstimate;
-    long long fItemsTotal;
-    long long fItemsCompleted;
-    long long fBytesTotal;
-    long long fBytesCompleted;
-    long long fFSItemsTotal;
-    long long fFSItemsCompleted;
+    unsigned int _field1;
+    struct HFSUniStr255 _field2;
+    long long _field3;
+    long long _field4;
+    long long _field5;
+    long long _field6;
+    long long _field7;
+    long long _field8;
+    long long _field9;
 };
 
 struct Point {
@@ -199,12 +197,6 @@ struct atomic<unsigned short> {
     } __a_;
 };
 
-struct equal_to<NSObject *>;
-
-struct equal_to<NSObject *__unsafe_unretained> {
-    struct equal_to<NSObject *> fEqual;
-};
-
 struct function<void ()> {
     struct __value_func<void ()> {
         union type __buf_;
@@ -212,34 +204,7 @@ struct function<void ()> {
     } __f_;
 };
 
-struct function<void (NSDictionary<NSString *, NSObject *>*)> {
-    struct __value_func<void (NSDictionary<NSString *, NSObject *>*)> {
-        union type __buf_;
-        void *__f_;
-    } __f_;
-};
-
-struct function<void (NSNotification *)> {
-    struct __value_func<void (NSNotification *)> {
-        union type __buf_;
-        void *__f_;
-    } __f_;
-};
-
-struct hash<NSObject *>;
-
-struct hash<NSObject *__unsafe_unretained> {
-    struct hash<NSObject *> fHash;
-};
-
 struct monostate;
-
-struct mutex {
-    struct _opaque_pthread_mutex_t {
-        long long __sig;
-        char __opaque[56];
-    } __m_;
-};
 
 struct optional<double> {
     union {
@@ -247,14 +212,6 @@ struct optional<double> {
         double _field2;
     } _field1;
     _Bool _field2;
-};
-
-struct optional<unsigned long> {
-    union {
-        char __null_state_;
-        unsigned long long __val_;
-    } ;
-    _Bool __engaged_;
 };
 
 struct optional_bool {
@@ -290,12 +247,6 @@ struct shared_ptr<TNodeTask> {
     struct __shared_weak_count *__cntrl_;
 };
 
-struct unique_ptr<AutoSignpostInterval_FPProvider_Gathering, std::default_delete<AutoSignpostInterval_FPProvider_Gathering>> {
-    struct {
-        struct AutoSignpostInterval_FPProvider_Gathering *__ptr_;
-    } ;
-};
-
 struct unique_ptr<AutoSignpostInterval_General_OpenSync, std::default_delete<AutoSignpostInterval_General_OpenSync>> {
     struct {
         struct AutoSignpostInterval_General_OpenSync *__ptr_;
@@ -329,24 +280,6 @@ struct unique_ptr<std::__hash_node_base<std::__hash_node<FINode *, void *>*>*[],
     } ;
 };
 
-struct unique_ptr<std::__hash_node_base<std::__hash_node<NSObject *__unsafe_unretained, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<NSObject *__unsafe_unretained, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<NSObject *__unsafe_unretained, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
-struct unique_ptr<std::__hash_node_base<std::__hash_node<TString, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<TString, void *>*>*>>> {
-    struct {
-        void **__ptr_;
-        struct __bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<TString, void *>*>*>> {
-            CDStruct_a7186859 ;
-        } __deleter_;
-    } ;
-};
-
 struct unique_ptr<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSURL *, std::pair<NSProgress *, TNSWeakPtr<FINode>>>, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<std::__hash_value_type<NSURL *, std::pair<NSProgress *, TNSWeakPtr<FINode>>>, void *>*>*>>> {
     struct {
         void **__ptr_;
@@ -374,38 +307,6 @@ struct unordered_set<FINode *, std::hash<FINode *>, std::equal_to<FINode *>, std
         struct unique_ptr<std::__hash_node_base<std::__hash_node<FINode *, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<FINode *, void *>*>*>>> __bucket_list_;
         struct {
             struct __hash_node_base<std::__hash_node<FINode *, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        CDStruct_a7186859 ;
-        CDStruct_717dde41 ;
-    } __table_;
-};
-
-struct unordered_set<NSObject *__unsafe_unretained, std::hash<NSObject *__unsafe_unretained>, std::equal_to<NSObject *__unsafe_unretained>, std::allocator<NSObject *__unsafe_unretained>> {
-    struct __hash_table<NSObject *__unsafe_unretained, std::hash<NSObject *__unsafe_unretained>, std::equal_to<NSObject *__unsafe_unretained>, std::allocator<NSObject *__unsafe_unretained>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<NSObject *__unsafe_unretained, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<NSObject *__unsafe_unretained, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<NSObject *__unsafe_unretained, void *>*> {
-                void *__next_;
-            } __first_node_;
-        } ;
-        struct {
-            unsigned long long __size_;
-            struct hash<NSObject *__unsafe_unretained> __hasher_;
-        } ;
-        struct {
-            float __max_load_factor_;
-            struct equal_to<NSObject *__unsafe_unretained> __key_eq_;
-        } ;
-    } __table_;
-};
-
-struct unordered_set<TString, std::hash<TString>, std::equal_to<TString>, std::allocator<TString>> {
-    struct __hash_table<TString, std::hash<TString>, std::equal_to<TString>, std::allocator<TString>> {
-        struct unique_ptr<std::__hash_node_base<std::__hash_node<TString, void *>*>*[], std::__bucket_list_deallocator<std::allocator<std::__hash_node_base<std::__hash_node<TString, void *>*>*>>> __bucket_list_;
-        struct {
-            struct __hash_node_base<std::__hash_node<TString, void *>*> {
                 void *__next_;
             } __first_node_;
         } ;

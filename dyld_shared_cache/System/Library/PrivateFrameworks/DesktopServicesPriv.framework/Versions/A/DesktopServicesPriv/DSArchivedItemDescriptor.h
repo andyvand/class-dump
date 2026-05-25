@@ -4,30 +4,26 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSNumber, NSString;
+@class NSString;
 
 @interface DSArchivedItemDescriptor
 {
     NSString *_filePath;
-    NSNumber *_fileSize;
-    NSString *_typeIdentifier;
 }
 
-+ (_Bool);
++ (_Bool)blic}@;
 - (id);
+- (void)mInfo.framework/Versions/A/AppleSystemInfo;
 - (void);
 - (void);
-- (void);
-- (id);
-- (void);
+- (id)cd_encodedDataImage;
+- (void)irdPartyMsgNoonFri;
 - (void);
 - (id);
 - (id)¼;
 
 // Remaining properties
 @property(copy, nonatomic) NSString *filePath; // @synthesize filePath=_filePath;
-@property(copy, nonatomic) NSNumber *fileSize; // @synthesize fileSize=_fileSize;
-@property(copy, nonatomic) NSString *typeIdentifier; // @synthesize typeIdentifier=_typeIdentifier;
 
 @end
 

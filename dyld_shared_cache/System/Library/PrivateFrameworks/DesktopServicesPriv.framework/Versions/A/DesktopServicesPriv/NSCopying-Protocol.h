@@ -5,5 +5,6 @@
 //
 
 @protocol NSCopying
+- (id)boringssl_context_set_identity;
 @end
 

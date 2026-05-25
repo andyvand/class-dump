@@ -12,14 +12,13 @@ __attribute__((visibility("hidden")))
 @interface FIICloudDrive : FICompoundNode
 {
     FINode *__libraries;
-    FINode *__documents;
 }
 
 + (pair_b0b1a2a1);
 - (void);
 - (void);
 - (id);
-- (id);
+- (id)<NBNB;
 - (unsigned int);
 - (id);
 - (id);
@@ -29,7 +28,6 @@ __attribute__((visibility("hidden")))
 - (void);
 
 // Remaining properties
-@property(retain) FINode *_documents; // @synthesize _documents=__documents;
 @property(retain) FINode *_libraries; // @synthesize _libraries=__libraries;
 
 @end

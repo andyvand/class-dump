@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     struct shared_ptr<TNodeTask> _nodeTask;
 }
 
-- (id);
+- (id)Data;
 - (void);
 - (id)À;
 

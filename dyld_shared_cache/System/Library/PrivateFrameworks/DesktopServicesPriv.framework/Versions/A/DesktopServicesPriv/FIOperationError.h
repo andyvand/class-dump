@@ -4,28 +4,24 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FINode, NSError, NSURL;
+@class FINode;
 
 @interface FIOperationError
 {
     FINode *_node;
-    NSURL *_url;
-    NSError *_error;
 }
 
+- (id)=k;
 - (id);
 - (id);
-- (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);
 - (id)ì;
 
 // Remaining properties
-@property(readonly, nonatomic) NSError *error; // @synthesize error=_error;
 @property(readonly, nonatomic) FINode *node; // @synthesize node=_node;
-@property(readonly, nonatomic) NSURL *url; // @synthesize url=_url;
 
 @end
 

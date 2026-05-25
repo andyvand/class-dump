@@ -4,6 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
+@class NSProgress;
+
 @protocol DSArchiveServiceProtocol
+- (NSProgress *);
+- (NSProgress *)#;
+- (NSProgress *)=k;
+- (NSProgress *)H;
 @end
 

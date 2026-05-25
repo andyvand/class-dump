@@ -4,44 +4,16 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FINode, NSArray, NSData, NSObject, NSProgress, NSString;
+@class NSObject;
 @protocol OS_dispatch_queue;
 
 @interface FIOperation
 {
     struct unordered_map<NSURL *, std::pair<NSProgress *, TNSWeakPtr<FINode>>, std::hash<NSURL *>, std::equal_to<NSURL *>, std::allocator<std::pair<NSURL *const, std::pair<NSProgress *, TNSWeakPtr<FINode>>>>> _urlToChildProgressMap;
-    _Bool _executedAsFPAction;
-    _Bool _waitingForNodes;
-    _Bool _scheduleWasDeferred;
-    unsigned int _operationType;
-    long long _qualityOfService;
-    CDUnknownBlockType _stageChangedHandler;
-    CDUnknownBlockType _conflictHandler;
-    CDUnknownBlockType _warningHandler;
-    CDUnknownBlockType _errorHandler;
-    CDUnknownBlockType _subOperationStartedHandler;
-    CDUnknownBlockType _subOperationCompletedHandler;
-    CDUnknownBlockType _completionHandler;
-    NSProgress *_progress;
-    NSData *_scriptingAuditToken;
-    CDUnknownBlockType _errorRecoveryHandler;
-    NSObject<OS_dispatch_queue> *_dispatchQueue;
-    NSObject *_progressSubscriber;
-    unsigned long long _childProgressHighWaterMark;
-    struct OpaqueOperationRef *_operationRef;
-    NSArray *_sourceNodes;
-    FINode *_destinationNode;
-    NSString *_authorizationPrompt;
-    unsigned long long _currentIndex;
-    NSArray *_opRecords;
-    FIOperation *_selfReference;
-    struct OperationIterator _iterator;
-    struct OperationMonitorEx _operationMonitor;
-    struct OperationStatus _operationStatus;
 }
 
 + (id);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType);
 - (void);
 - (void);
 - (CDUnknownBlockType);
@@ -50,27 +22,27 @@
 - (void);
 - (CDUnknownBlockType);
 - (id);
+- (void)N(;
 - (void);
 - (void);
 - (void);
 - (void);
 - (void);
+- (void)0;
+- (void);
+- (void);
+- (void)@;
 - (void);
 - (void);
 - (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
-- (void);
+- (void)q@;
 - (void);
 - (void);
 - (void);
 - (void);
 - (id);
 - (_Bool);
-- (void);
+- (void);
 - (_Bool);
 - (id);
 - (_Bool);
@@ -81,7 +53,7 @@
 - (id);
 - (id);
 - (void);
-- (void);
+- (void)";
 - (void);
 - (_Bool);
 - (_Bool);
@@ -108,16 +80,16 @@
 - (void);
 - (id);
 - (void);
-- (_Bool);
-- (id);
+- (_Bool)`2;
+- (id);
 - (long long);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
 - (void);
-- (id);
-- (unsigned long long);
+- (id)uct;
+- (unsigned long long)UUID.;
 - (CDUnknownBlockType);
 - (void);
 - (void);
@@ -136,38 +108,7 @@
 - (void)0°;
 
 // Remaining properties
-@property(copy, nonatomic) NSString *authorizationPrompt; // @synthesize authorizationPrompt=_authorizationPrompt;
-@property(readonly, nonatomic) _Bool cancellable;
-@property(readonly, nonatomic) _Bool cancelled;
-@property unsigned long long childProgressHighWaterMark; // @synthesize childProgressHighWaterMark=_childProgressHighWaterMark;
-@property(copy, nonatomic) CDUnknownBlockType completionHandler; // @synthesize completionHandler=_completionHandler;
-@property(copy, nonatomic) CDUnknownBlockType conflictHandler; // @synthesize conflictHandler=_conflictHandler;
-@property unsigned long long currentIndex; // @synthesize currentIndex=_currentIndex;
-@property(retain) FINode *destinationNode; // @synthesize destinationNode=_destinationNode;
 @property(readonly) NSObject<OS_dispatch_queue> *dispatchQueue; // @synthesize dispatchQueue=_dispatchQueue;
-@property(copy, nonatomic) CDUnknownBlockType errorHandler; // @synthesize errorHandler=_errorHandler;
-@property(copy, nonatomic) CDUnknownBlockType errorRecoveryHandler; // @synthesize errorRecoveryHandler=_errorRecoveryHandler;
-@property(nonatomic) _Bool executedAsFPAction; // @synthesize executedAsFPAction=_executedAsFPAction;
-@property(nonatomic) struct OperationIterator iterator; // @synthesize iterator=_iterator;
-@property(retain) NSArray *opRecords; // @synthesize opRecords=_opRecords;
-@property(nonatomic) struct OperationMonitorEx operationMonitor; // @synthesize operationMonitor=_operationMonitor;
-@property(nonatomic) struct OpaqueOperationRef *operationRef; // @synthesize operationRef=_operationRef;
-@property(nonatomic) struct OperationStatus operationStatus; // @synthesize operationStatus=_operationStatus;
-@property(nonatomic) unsigned int operationType; // @synthesize operationType=_operationType;
-@property(readonly, nonatomic) _Bool pausable;
-@property(readonly, nonatomic) _Bool paused;
-@property(readonly, nonatomic) NSProgress *progress; // @synthesize progress=_progress;
-@property(retain) NSObject *progressSubscriber; // @synthesize progressSubscriber=_progressSubscriber;
-@property(nonatomic) long long qualityOfService; // @synthesize qualityOfService=_qualityOfService;
-@property _Bool scheduleWasDeferred; // @synthesize scheduleWasDeferred=_scheduleWasDeferred;
-@property(copy, nonatomic) NSData *scriptingAuditToken; // @synthesize scriptingAuditToken=_scriptingAuditToken;
-@property(retain, nonatomic) FIOperation *selfReference; // @synthesize selfReference=_selfReference;
-@property(copy) NSArray *sourceNodes; // @synthesize sourceNodes=_sourceNodes;
-@property(copy, nonatomic) CDUnknownBlockType stageChangedHandler; // @synthesize stageChangedHandler=_stageChangedHandler;
-@property(copy, nonatomic) CDUnknownBlockType subOperationCompletedHandler; // @synthesize subOperationCompletedHandler=_subOperationCompletedHandler;
-@property(copy, nonatomic) CDUnknownBlockType subOperationStartedHandler; // @synthesize subOperationStartedHandler=_subOperationStartedHandler;
-@property _Bool waitingForNodes; // @synthesize waitingForNodes=_waitingForNodes;
-@property(copy, nonatomic) CDUnknownBlockType warningHandler; // @synthesize warningHandler=_warningHandler;
 
 @end
 

@@ -6,16 +6,11 @@
 
 #import <DesktopServicesPriv/FIOperation.h>
 
-@class FINode, FINodePropertyList, FISubOperation, NSString;
+@class FISubOperation, NSString;
 
 @interface FINewFolderOperation : FIOperation
 {
     NSString *_rawName;
-    FINode *_folderNode;
-    CDUnknownBlockType _nameConflictHandler;
-    CDUnknownBlockType _postOpRenameHandler;
-    FISubOperation *_subOperation;
-    FINodePropertyList *_propertyList;
 }
 
 - (void);
@@ -24,10 +19,10 @@
 - (void);
 - (void);
 - (void);
-- (void);
+- (void)H;
 - (_Bool);
 - (CDUnknownBlockType);
-- (id);
+- (id);
 - (CDUnknownBlockType);
 - (id);
 - (_Bool);
@@ -37,14 +32,9 @@
 - (id);
 - (void);
 - (void);
-- (id)ions:error: /* Error: Ran out of types for this method. */;
+- (id)dataWithContentsOfURL:options:error: /* Error: Ran out of types for this method. */;
 
 // Remaining properties
-@property(readonly) FINode *folderNode; // @synthesize folderNode=_folderNode;
-@property(copy, nonatomic) CDUnknownBlockType nameConflictHandler; // @synthesize nameConflictHandler=_nameConflictHandler;
-@property(copy, nonatomic) CDUnknownBlockType postOpRenameHandler; // @synthesize postOpRenameHandler=_postOpRenameHandler;
-@property(retain, nonatomic) FINodePropertyList *propertyList; // @synthesize propertyList=_propertyList;
-@property(readonly) NSString *rawName; // @synthesize rawName=_rawName;
 @property(retain, nonatomic) FISubOperation *subOperation; // @synthesize subOperation=_subOperation;
 
 @end

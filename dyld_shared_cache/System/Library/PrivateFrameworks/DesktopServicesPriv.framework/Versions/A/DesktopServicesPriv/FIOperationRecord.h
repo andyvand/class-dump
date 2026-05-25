@@ -4,19 +4,15 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FINode, FINodePropertyList, NSString;
+@class FINodePropertyList;
 
 @interface FIOperationRecord
 {
     shared_ptr_26b983b2 _operationRecord;
-    _Bool _translocationChanged;
-    long long _physicalSizeNeeded;
-    long long _logicalSizeOfItems;
-    long long _itemCount;
 }
 
 - (_Bool);
-- (void);
+- (void)^!(d;
 - (void);
 - (void);
 - (void);
@@ -36,41 +32,23 @@
 - (void);
 - (shared_ptr_26b983b2);
 - (id);
-- (void);
+- (void);
 - (void);
 - (unsigned int);
 - (unsigned int);
-- (id);
-- (id);
+- (id),&,N,Sset_extractor:,V_extractor /* Error: Ran out of types for this method. */;
+- (id);
 - (id);
 - (id);
 - (id);
 - (void);
 - (long long);
 - (void);
-- (struct OpaquePropertyListRef *)WithFINodes: /* Error: Ran out of types for this method. */;
+- (struct OpaquePropertyListRef *)initWithFINodes: /* Error: Ran out of types for this method. */;
 - (_Bool);
 
 // Remaining properties
-@property unsigned int completedOperation;
-@property(readonly) unsigned int conflict;
-@property(readonly) FINode *destination;
-@property(readonly) long long itemCount; // @synthesize itemCount=_itemCount;
-@property(readonly) long long logicalSizeOfItems; // @synthesize logicalSizeOfItems=_logicalSizeOfItems;
-@property _Bool needsAuthentication;
 @property(copy) FINodePropertyList *nodePropertyList;
-@property(readonly) unsigned int operationOptions;
-@property(readonly) shared_ptr_26b983b2 operationRecord; // @synthesize operationRecord=_operationRecord;
-@property(readonly) FINode *originalSourceParent;
-@property(readonly) long long physicalSizeNeeded; // @synthesize physicalSizeNeeded=_physicalSizeNeeded;
-@property struct OpaquePropertyListRef *propertyList;
-@property unsigned int requestedOperation;
-@property unsigned int resolution;
-@property(readonly) FINode *resolvedDestination;
-@property(readonly) FINode *source;
-@property(copy) NSString *targetName;
-@property(readonly) FINode *targetNode;
-@property(readonly) _Bool translocationChanged; // @synthesize translocationChanged=_translocationChanged;
 
 @end
 

@@ -13,7 +13,7 @@
 
 + (id);
 + (void);
-+ (id);
++ (id);
 - (void);
 - (void);
 - (void);
@@ -26,7 +26,7 @@
 - (_Bool);
 - (_Bool);
 - (id);
-- (id);
+- (id)8;
 - (_Bool);
 - (id);
 - (id);
@@ -35,11 +35,11 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)=k;
 - (void);
 - (unsigned int);
 - (unsigned long long);
-- (_Bool);
+- (_Bool)(!$;
 - (id);
 - (_Bool);
 - (_Bool);
@@ -57,14 +57,14 @@
 - (id);
 - (id);
 - (unsigned int);
-- (void);
+- (void)N-;
 - (unsigned int);
 - (id);
 - (void *);
 - (id);
 - (_Bool);
-- (id);
-- (id);
+- (id)String",&,D;
+- (id);
 - (void);
 - (id);
 - (void);

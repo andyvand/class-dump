@@ -4,25 +4,14 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FPProviderDomain, NSError, NSString, NSURL;
-
 @interface FIProviderDomain
 {
     struct optional_bool _cachedSyncsTrash;
-    NSURL *_rootURL;
-    struct optional<unsigned long> _replicatedKnownFolders;
-    struct mutex _lock;
-    _Bool _asyncResultAvailable;
-    NSString *_domainID;
-    FPProviderDomain *_domain;
-    FPProviderDomain *_asyncFetchedDomain;
-    NSError *_asyncError;
-    unsigned long long _cachePolicy;
 }
 
 + (id);
 + (id);
-+ (id);
++ (id);
 + (id);
 + (id);
 + (id);
@@ -30,13 +19,13 @@
 - (_Bool);
 - (void);
 - (void);
-- (void);
+- (void)0@9;
 - (_Bool);
 - (_Bool);
 - (_Bool);
 - (id);
 - (_Bool);
-- (id);
+- (id)NB(!";
 - (_Bool);
 - (id);
 - (id);
@@ -45,10 +34,10 @@
 - (id);
 - (unsigned long long);
 - (_Bool);
-- (id);
+- (id)_initVaryHeaderEnabledWithPath: /* Error: Ran out of types for this method. */;
 - (_Bool);
-- (id);
-- (id);
+- (id)numChangesTriggeringSync;
+- (id)0;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -60,26 +49,7 @@
 - (unsigned long long);
 
 // Remaining properties
-@property(retain) NSError *asyncError; // @synthesize asyncError=_asyncError;
-@property(retain) FPProviderDomain *asyncFetchedDomain; // @synthesize asyncFetchedDomain=_asyncFetchedDomain;
-@property _Bool asyncResultAvailable; // @synthesize asyncResultAvailable=_asyncResultAvailable;
 @property(readonly, nonatomic) unsigned long long cachePolicy; // @synthesize cachePolicy=_cachePolicy;
-@property(readonly, nonatomic) unsigned long long disconnectionState;
-@property(readonly, nonatomic) FPProviderDomain *domain; // @synthesize domain=_domain;
-@property(readonly, nonatomic) NSString *domainID; // @synthesize domainID=_domainID;
-@property(readonly, nonatomic) _Bool expectFPItems;
-@property(readonly, nonatomic) NSString *identifier;
-@property(readonly, nonatomic) _Bool isDataSeparatedDomain;
-@property(readonly, nonatomic) _Bool isExternalDeviceDomain;
-@property(readonly, nonatomic) _Bool isFPv2;
-@property(readonly, nonatomic) _Bool isLocalStorageDomain;
-@property(readonly, nonatomic) _Bool isMainiCloudDriveDomain;
-@property(readonly, nonatomic) _Bool isiCloudDriveProvider;
-@property(readonly, nonatomic) unsigned long long replicatedKnownFolders;
-@property(readonly, nonatomic) NSURL *rootURL;
-@property(readonly, nonatomic) _Bool supportsEnumeration;
-@property(readonly, nonatomic) _Bool supportsSyncingTrash;
-@property(readonly, nonatomic, getter=isUsingFPFS) _Bool useFPFS;
 
 @end
 

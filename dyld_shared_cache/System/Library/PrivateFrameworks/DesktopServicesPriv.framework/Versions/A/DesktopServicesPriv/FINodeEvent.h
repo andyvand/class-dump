@@ -10,7 +10,7 @@ __attribute__((visibility("hidden")))
     struct TNodeEvent _event;
 }
 
-- (id);
+- (id)ResumableUploadState",&,V_resumableUploadState;
 - (void);
 - (id);
 

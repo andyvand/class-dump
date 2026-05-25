@@ -13,13 +13,13 @@ __attribute__((visibility("hidden")))
 }
 
 + (id);
-+ (void);
++ (void)experimental;
 + (id);
 - (void);
 - (void);
 - (void);
 - (void);
-- (id);
+- (id);
 - (id);
 - (void);
 

@@ -9,18 +9,15 @@
 @interface FINodeObserver
 {
     FINode *_observedNode;
-    struct OpaqueEventNotifier *_notifier;
-    int _parentUbiquityCount;
-    FINodeObserver *_parentObserver;
 }
 
 + (id);
 + (id);
 - (void);
+- (void)method is '%@'. Current support is for hash methods '%@' and '%@';
 - (void);
-- (void);
-- (id);
-- (void);
+- (id);
+- (void);
 
 @end
 

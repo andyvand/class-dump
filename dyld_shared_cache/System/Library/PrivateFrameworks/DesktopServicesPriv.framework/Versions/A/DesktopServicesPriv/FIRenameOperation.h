@@ -6,13 +6,11 @@
 
 #import <DesktopServicesPriv/FIOperation.h>
 
-@class FINode, FIRenameSubOperation, NSString;
+@class FIRenameSubOperation;
 
 @interface FIRenameOperation : FIOperation
 {
     struct optional_bool _hideExtension;
-    NSString *_rawName;
-    FIRenameSubOperation *_subOperation;
 }
 
 - (void);
@@ -25,15 +23,12 @@
 - (id);
 - (void);
 - (struct optional_bool);
-- (id);
+- (id)mumWatchCellularTransferSize;
 - (void);
 - (void);
 - (id)UlPU19objcproto9OS_os_log8NSObjectE_FvS5_EEE;
 
 // Remaining properties
-@property(nonatomic) struct optional_bool hideExtension; // @synthesize hideExtension=_hideExtension;
-@property(readonly) FINode *node;
-@property(readonly) NSString *rawName; // @synthesize rawName=_rawName;
 @property(retain, nonatomic) FIRenameSubOperation *subOperation; // @synthesize subOperation=_subOperation;
 
 @end

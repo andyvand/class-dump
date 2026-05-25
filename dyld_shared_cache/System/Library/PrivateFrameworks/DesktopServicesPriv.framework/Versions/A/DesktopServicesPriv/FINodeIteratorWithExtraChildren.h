@@ -4,14 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSObject, NSString;
+@class NSObject;
 @protocol FINodeIterator;
 
 @interface FINodeIteratorWithExtraChildren
 {
     _Bool _baseIteratorDone;
-    NSObject<FINodeIterator> *_baseIterator;
-    NSObject<FINodeIterator> *_extraIterator;
 }
 
 - (void);
@@ -29,17 +27,6 @@
 
 // Remaining properties
 @property(retain, nonatomic) NSObject<FINodeIterator> *baseIterator; // @synthesize baseIterator=_baseIterator;
-@property(nonatomic) _Bool baseIteratorDone; // @synthesize baseIteratorDone=_baseIteratorDone;
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
-@property(readonly, nonatomic) unsigned long long estimatedSize;
-@property(retain, nonatomic) NSObject<FINodeIterator> *extraIterator; // @synthesize extraIterator=_extraIterator;
-@property(readonly, nonatomic) _Bool fullyPopulated;
-@property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

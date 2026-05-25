@@ -10,15 +10,14 @@ __attribute__((visibility("hidden")))
 @interface DSFileProgress
 {
     struct vector<TKeyValueObserver, std::allocator<TKeyValueObserver>> _observers;
-    FINode *_progressNode;
 }
 
 - (void);
 - (id);
 - (void);
-- (id);
-- (void);
-- (void);
+- (id)var;
+- (void)d;
+- (void)c;
 - (void);
 
 // Remaining properties

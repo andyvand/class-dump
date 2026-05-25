@@ -8,13 +8,12 @@ __attribute__((visibility("hidden")))
 @interface DS_TNotificationCenterObserverGlue
 {
     struct function<void ()> _invokeSimple;
-    struct function<void (NSNotification *)> _invokeWithNote;
 }
 
 - (id);
 - (id);
 - (void);
-- (id);
+- (id),R,C,V_closeReason;
 - (void);
 
 @end

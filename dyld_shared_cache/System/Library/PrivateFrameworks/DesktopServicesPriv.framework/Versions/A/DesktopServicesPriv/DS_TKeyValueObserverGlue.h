@@ -8,16 +8,13 @@ __attribute__((visibility("hidden")))
 @interface DS_TKeyValueObserverGlue
 {
     struct function<void ()> _functor;
-    struct function<void (NSDictionary<NSString *, NSObject *>*)> _functorWithChange;
-    struct unordered_set<NSObject *__unsafe_unretained, std::hash<NSObject *__unsafe_unretained>, std::equal_to<NSObject *__unsafe_unretained>, std::allocator<NSObject *__unsafe_unretained>> _observedObjects;
-    struct TString _observedKeyPath;
 }
 
 - (id);
 - (id);
 - (void);
-- (void);
-- (id);
+- (void);
+- (id)nData;
 - (void);
 
 @end

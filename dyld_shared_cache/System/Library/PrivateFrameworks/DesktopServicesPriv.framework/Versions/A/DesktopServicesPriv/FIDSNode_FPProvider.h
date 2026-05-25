@@ -13,13 +13,12 @@ __attribute__((visibility("hidden")))
 
 + (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (void);
 - (_Bool);
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool isFPv2;
 @property(readonly, nonatomic, getter=isUsingFPFS) _Bool useFPFS;
 
 @end

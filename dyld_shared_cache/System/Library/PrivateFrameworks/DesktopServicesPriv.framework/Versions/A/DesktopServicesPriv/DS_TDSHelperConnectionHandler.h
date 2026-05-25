@@ -8,14 +8,13 @@ __attribute__((visibility("hidden")))
 @interface DS_TDSHelperConnectionHandler
 {
     void *_helper;
-    struct mutex _mutex;
 }
 
 - (void);
 - (void);
 - (id);
-- (id);
-- (void);
+- (id)NSData",C,V_atsContext;
+- (void);
 
 @end
 

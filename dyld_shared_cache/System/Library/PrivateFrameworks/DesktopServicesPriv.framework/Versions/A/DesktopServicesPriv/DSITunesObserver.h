@@ -4,14 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class DeviceCollection, NSMutableArray, NSString;
-
 __attribute__((visibility("hidden")))
 @interface DSITunesObserver
 {
     struct TNodePtr fParentNode;
-    NSMutableArray *fDevices;
-    DeviceCollection *fCollection;
 }
 
 - (void);
@@ -25,19 +21,14 @@ __attribute__((visibility("hidden")))
 - (void);
 - (void);
 - (void);
-- (id);
+- (id)_cookiesForURL:mainDocumentURL: /* Error: Ran out of types for this method. */;
 - (void);
-- (void);
+- (void)J@8
+;
 - (void);
 
 // Remaining properties
-@property(readonly, copy) NSString *debugDescription;
-// Preceding property had unknown attributes: ?
-// Original attribute string: T@"NSString",?,R,C
-
-@property(readonly, copy) NSString *description;
 @property(readonly) unsigned long long hash;
-@property(readonly) Class superclass;
 
 @end
 

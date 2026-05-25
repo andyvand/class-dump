@@ -16,7 +16,7 @@ __attribute__((visibility("hidden")))
 - (void);
 - (id);
 - (id);
-- (id);
+- (id)logi.ghub;
 - (_Bool);
 - (_Bool);
 - (void);

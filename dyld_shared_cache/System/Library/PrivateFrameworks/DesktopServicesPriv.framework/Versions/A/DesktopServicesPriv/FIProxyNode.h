@@ -17,11 +17,11 @@
 - (void);
 - (id);
 - (_Bool);
+- (_Bool)dj;
 - (_Bool);
+- (_Bool)(c;
 - (_Bool);
-- (_Bool);
-- (_Bool);
-- (_Bool);
+- (_Bool)JKk;
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -29,7 +29,7 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (id);
 - (id);
 - (id);
@@ -38,7 +38,7 @@
 - (id);
 - (void);
 - (unsigned int);
-- (unsigned long long);
+- (unsigned long long)o;
 - (_Bool);
 - (id);
 - (_Bool);
@@ -47,17 +47,17 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id);
 - (void);
 - (id);
 - (id);
 - (unsigned int);
 - (void);
 - (id);
-- (id);
+- (id)U8;
 - (id);
 - (_Bool);
-- (id);
+- (id);
 - (id);
 - (id);
 - (void);

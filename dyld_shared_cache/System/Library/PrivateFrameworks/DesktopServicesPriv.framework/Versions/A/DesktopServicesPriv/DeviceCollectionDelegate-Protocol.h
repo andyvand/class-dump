@@ -5,5 +5,9 @@
 //
 
 @protocol DeviceCollectionDelegate
+
+@optional
+- (void);
+- (void)8;
 @end
 

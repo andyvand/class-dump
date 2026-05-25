@@ -4,16 +4,12 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class NSString, NSURL;
+@class NSURL;
 
 __attribute__((visibility("hidden")))
 @interface FIResumableCopySourceInfo
 {
     NSURL *_targetURL;
-    NSString *_targetPath;
-    NSString *_sourcePath;
-    NSString *_sourceVolumeUUID;
-    unsigned long long _sourceInode;
 }
 
 + (id);
@@ -21,7 +17,7 @@ __attribute__((visibility("hidden")))
 + (id);
 + (_Bool);
 + (id);
-+ (id);
++ (id)".b".B8;
 - (_Bool);
 - (id);
 - (id);
@@ -30,17 +26,12 @@ __attribute__((visibility("hidden")))
 - (id);
 - (id);
 - (_Bool);
-- (_Bool);
+- (_Bool);
 - (id);
-- (id);
-- (void);
+- (id)workServiceType;
+- (void)	;
 
 // Remaining properties
-@property(readonly, nonatomic) _Bool hasValidPropertiesForResuming;
-@property(readonly, nonatomic) unsigned long long sourceInode; // @synthesize sourceInode=_sourceInode;
-@property(readonly, nonatomic) NSString *sourcePath; // @synthesize sourcePath=_sourcePath;
-@property(readonly, nonatomic) NSString *sourceVolumeUUID; // @synthesize sourceVolumeUUID=_sourceVolumeUUID;
-@property(readonly, nonatomic) NSString *targetPath; // @synthesize targetPath=_targetPath;
 @property(readonly, nonatomic) NSURL *targetURL; // @synthesize targetURL=_targetURL;
 
 @end

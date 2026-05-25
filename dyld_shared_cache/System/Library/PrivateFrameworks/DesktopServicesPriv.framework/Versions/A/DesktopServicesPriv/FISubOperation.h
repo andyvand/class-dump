@@ -4,13 +4,10 @@
 //  Copyright (C) 1997-2019 Steve Nygard.
 //
 
-@class FIOperation;
-
 __attribute__((visibility("hidden")))
 @interface FISubOperation
 {
     CDUnknownBlockType _nameConflictHandler;
-    FIOperation *_operation;
 }
 
 - (_Bool);
@@ -18,9 +15,9 @@ __attribute__((visibility("hidden")))
 - (_Bool);
 - (void);
 - (void);
-- (CDUnknownBlockType);
+- (CDUnknownBlockType)';
 - (id);
-- (void);
+- (void);
 - (void);
 - (id)rIsiCloudLibraryInSidebar (%s);
 - (void)s
@@ -29,7 +26,6 @@ __attribute__((visibility("hidden")))
 
 // Remaining properties
 @property(copy, nonatomic) CDUnknownBlockType nameConflictHandler; // @synthesize nameConflictHandler=_nameConflictHandler;
-@property(readonly, nonatomic) __weak FIOperation *operation; // @synthesize operation=_operation;
 
 @end
 

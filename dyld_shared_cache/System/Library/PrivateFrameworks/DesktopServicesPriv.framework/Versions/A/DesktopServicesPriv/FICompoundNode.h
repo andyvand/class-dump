@@ -6,21 +6,18 @@
 
 #import <DesktopServicesPriv/FICustomNode.h>
 
-@class FINode, NSSet;
+@class FINode;
 
 @interface FICompoundNode : FICustomNode
 {
     struct unordered_set<FINode *, std::hash<FINode *>, std::equal_to<FINode *>, std::allocator<FINode *>> _nodesToComplete;
-    _Bool _openSyncStartedSent;
-    FINode *_subjectNode;
-    NSSet *_nodes;
 }
 
 - (void);
 - (void);
 - (id);
+- (void)0;
 - (void);
-- (void);
 - (_Bool);
 - (_Bool);
 - (_Bool);
@@ -43,22 +40,22 @@
 - (id);
 - (id);
 - (id);
-- (id);
+- (id)H;
 - (void);
 - (unsigned int);
 - (unsigned long long);
-- (_Bool);
+- (_Bool);
 - (id);
 - (_Bool);
 - (void);
 - (id);
 - (id);
+- (id)(z;
 - (id);
+- (id)1.S: /* Error: Ran out of types for this method. */;
 - (id);
-- (id);
-- (id);
-- (id);
-- (void);
+- (id)0;
+- (void)N-;
 - (id);
 - (id);
 - (unsigned int);
@@ -66,7 +63,7 @@
 - (id);
 - (id);
 - (_Bool);
-- (id);
+- (id)_onqueue_completeInitialization;
 - (id);
 - (id);
 - (id);
@@ -74,7 +71,6 @@
 - (id)urls;
 
 // Remaining properties
-@property(readonly, nonatomic) NSSet *nodes; // @synthesize nodes=_nodes;
 @property(readonly, nonatomic) FINode *subjectNode; // @synthesize subjectNode=_subjectNode;
 
 @end
