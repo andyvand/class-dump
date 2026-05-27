@@ -9,6 +9,7 @@
 #import "CDFatFile.h"
 #import "CDMachOFile.h"
 #import "CDSearchPathState.h"
+#import "CDKernelCache.h"
 
 NSString *CDImportNameForPath(NSString *path)
 {
@@ -151,6 +152,23 @@ BOOL CDArchUses64BitLibraries(CDArch arch)
 #else /* MAC_OS_X_VERSION_MIN_REQUIRED < 101000 */
     NSData *data = [NSData dataWithContentsOfMappedFile:filename];
 #endif /* MAC_OS_X_VERSION_MIN_REQUIRED >= 101000 */
+
+    // Transparently unwrap compressed/encrypted kernelcache containers
+    // (IMG4/IM4P, 'comp' LZSS/LZVN prelinked kernels, bare LZFSE) before the
+    // Mach-O/fat parsers see the bytes. If `data` isn't a recognized container
+    // it is returned unchanged; a decode failure also falls back to the
+    // original bytes so ordinary Mach-O files are unaffected.
+    if (data != nil && [CDKernelCache isKernelCacheContainer:data]) {
+        NSError *kcError = nil;
+        BOOL didDecode = NO;
+        NSData *decoded = [CDKernelCache decodedDataFromData:data didDecode:&didDecode error:&kcError];
+        if (didDecode && decoded != nil) {
+            data = decoded;
+        } else if (kcError != nil) {
+            fprintf(stderr, "class-dump: warning: '%s' looks like a kernelcache container but could not be decoded (%s); using raw bytes\n",
+                    [filename UTF8String], [[kcError localizedDescription] UTF8String]);
+        }
+    }
 
     CDFatFile *fatFile = [[CDFatFile alloc] initWithData:data filename:filename searchPathState:searchPathState];
 

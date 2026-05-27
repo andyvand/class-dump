@@ -167,6 +167,17 @@
 		F11E5E7E0000000000000004 /* CDLCFilesetEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = F11E5E7E0000000000000002 /* CDLCFilesetEntry.m */; };
 		F1E5E000F1E5E000F1E50003 /* CDFilesetExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E5E000F1E5E000F1E50001 /* CDFilesetExtractor.h */; };
 		F1E5E000F1E5E000F1E50004 /* CDFilesetExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E000F1E5E000F1E50002 /* CDFilesetExtractor.m */; };
+		A9ADC168E978D6FC138EEF27 /* CDKernelCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 430E8D996A2FF43CC98A1734 /* CDKernelCache.h */; };
+		43B9153BA8564DD87792E069 /* CDKernelCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F919C26DC189A2B529EE16FB /* CDKernelCache.m */; };
+		B0E4F430CFCAE77B54E62D81 /* lzfse_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = 17765DA073612436B5BBD84E /* lzfse_decode.c */; };
+		83EF24B8A704A3ED80EE5D58 /* lzfse_decode_base.c in Sources */ = {isa = PBXBuildFile; fileRef = 2EF3FAF2D89B4E8751B16D51 /* lzfse_decode_base.c */; };
+		E5035E1945CA536BE1F097F6 /* lzfse_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = 034D25BA762B422290B7E43E /* lzfse_encode.c */; };
+		905E54382E6A190C361FAEAB /* lzfse_encode_base.c in Sources */ = {isa = PBXBuildFile; fileRef = 3A54918C650EFA6C9281A8E8 /* lzfse_encode_base.c */; };
+		08DA32B022A98BC7F0303740 /* lzfse_fse.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E92F4D4694AEB7E53E2BB43 /* lzfse_fse.c */; };
+		4DCE154BF4EAD2B3517DAC93 /* lzvn_decode_base.c in Sources */ = {isa = PBXBuildFile; fileRef = 867C07357122B8BAB4FF8C27 /* lzvn_decode_base.c */; };
+		C7B980AC835332B5E195801B /* lzvn_encode_base.c in Sources */ = {isa = PBXBuildFile; fileRef = EE0AACBB883DD3D8CD15C9BC /* lzvn_encode_base.c */; };
+		A4F839D36FF7A41D7D781AEE /* lzvndec.c in Sources */ = {isa = PBXBuildFile; fileRef = F4E46A922A49A3DBA43D310D /* lzvndec.c */; };
+		544D1648ACC4443F26A1F179 /* lzvn_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = DCB73E4688816595ECBB6740 /* lzvn_encode.c */; };
 		FACE0FFA1F11A0011B000003 /* CDLCFVMLib.h in Headers */ = {isa = PBXBuildFile; fileRef = FACE0FFA1F11A0011B000001 /* CDLCFVMLib.h */; };
 		FACE0FFA1F11A0011B000004 /* CDLCFVMLib.m in Sources */ = {isa = PBXBuildFile; fileRef = FACE0FFA1F11A0011B000002 /* CDLCFVMLib.m */; };
 		FACE0FFA1F11A0021B000003 /* CDLCFVMFile.h in Headers */ = {isa = PBXBuildFile; fileRef = FACE0FFA1F11A0021B000001 /* CDLCFVMFile.h */; };
@@ -506,6 +517,17 @@
 		F11E5E7E0000000000000002 /* CDLCFilesetEntry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCFilesetEntry.m; path = Source/CDLCFilesetEntry.m; sourceTree = "<group>"; };
 		F1E5E000F1E5E000F1E50001 /* CDFilesetExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDFilesetExtractor.h; path = Source/CDFilesetExtractor.h; sourceTree = "<group>"; };
 		F1E5E000F1E5E000F1E50002 /* CDFilesetExtractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDFilesetExtractor.m; path = Source/CDFilesetExtractor.m; sourceTree = "<group>"; };
+		430E8D996A2FF43CC98A1734 /* CDKernelCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDKernelCache.h; path = Source/CDKernelCache.h; sourceTree = "<group>"; };
+		F919C26DC189A2B529EE16FB /* CDKernelCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDKernelCache.m; path = Source/CDKernelCache.m; sourceTree = "<group>"; };
+		17765DA073612436B5BBD84E /* lzfse_decode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lzfse_decode.c; path = ThirdParty/lzfse/lzfse_decode.c; sourceTree = "<group>"; };
+		2EF3FAF2D89B4E8751B16D51 /* lzfse_decode_base.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lzfse_decode_base.c; path = ThirdParty/lzfse/lzfse_decode_base.c; sourceTree = "<group>"; };
+		034D25BA762B422290B7E43E /* lzfse_encode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lzfse_encode.c; path = ThirdParty/lzfse/lzfse_encode.c; sourceTree = "<group>"; };
+		3A54918C650EFA6C9281A8E8 /* lzfse_encode_base.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lzfse_encode_base.c; path = ThirdParty/lzfse/lzfse_encode_base.c; sourceTree = "<group>"; };
+		5E92F4D4694AEB7E53E2BB43 /* lzfse_fse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lzfse_fse.c; path = ThirdParty/lzfse/lzfse_fse.c; sourceTree = "<group>"; };
+		867C07357122B8BAB4FF8C27 /* lzvn_decode_base.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lzvn_decode_base.c; path = ThirdParty/lzfse/lzvn_decode_base.c; sourceTree = "<group>"; };
+		EE0AACBB883DD3D8CD15C9BC /* lzvn_encode_base.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lzvn_encode_base.c; path = ThirdParty/lzfse/lzvn_encode_base.c; sourceTree = "<group>"; };
+		F4E46A922A49A3DBA43D310D /* lzvndec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lzvndec.c; path = ThirdParty/lzvn/lzvndec.c; sourceTree = "<group>"; };
+		DCB73E4688816595ECBB6740 /* lzvn_encode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lzvn_encode.c; path = ThirdParty/lzvn/lzvn_encode.c; sourceTree = "<group>"; };
 		FACE0FFA1F11A0011B000001 /* CDLCFVMLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCFVMLib.h; path = Source/CDLCFVMLib.h; sourceTree = "<group>"; };
 		FACE0FFA1F11A0011B000002 /* CDLCFVMLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCFVMLib.m; path = Source/CDLCFVMLib.m; sourceTree = "<group>"; };
 		FACE0FFA1F11A0021B000001 /* CDLCFVMFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDLCFVMFile.h; path = Source/CDLCFVMFile.h; sourceTree = "<group>"; };
@@ -881,6 +903,17 @@
 				CDDECDDECDDECDDECDDE0002 /* CDDecompiler.m */,
 				F1E5E000F1E5E000F1E50001 /* CDFilesetExtractor.h */,
 				F1E5E000F1E5E000F1E50002 /* CDFilesetExtractor.m */,
+				430E8D996A2FF43CC98A1734 /* CDKernelCache.h */,
+				F919C26DC189A2B529EE16FB /* CDKernelCache.m */,
+				17765DA073612436B5BBD84E /* lzfse_decode.c */,
+				2EF3FAF2D89B4E8751B16D51 /* lzfse_decode_base.c */,
+				034D25BA762B422290B7E43E /* lzfse_encode.c */,
+				3A54918C650EFA6C9281A8E8 /* lzfse_encode_base.c */,
+				5E92F4D4694AEB7E53E2BB43 /* lzfse_fse.c */,
+				867C07357122B8BAB4FF8C27 /* lzvn_decode_base.c */,
+				EE0AACBB883DD3D8CD15C9BC /* lzvn_encode_base.c */,
+				F4E46A922A49A3DBA43D310D /* lzvndec.c */,
+				DCB73E4688816595ECBB6740 /* lzvn_encode.c */,
 			);
 			name = "Load Commands";
 			sourceTree = "<group>";
@@ -993,6 +1026,7 @@
 				520717DEF1A1A0FE51F00003 /* CDRoutineDumper.h in Headers */,
 				CDDECDDECDDECDDECDDE0003 /* CDDecompiler.h in Headers */,
 				F1E5E000F1E5E000F1E50003 /* CDFilesetExtractor.h in Headers */,
+				A9ADC168E978D6FC138EEF27 /* CDKernelCache.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1245,6 +1279,16 @@
 				013D1F3813A5AEA100BF0A67 /* CDLCVersionMinimum.m in Sources */,
 				013D1F3913A5AEA100BF0A67 /* CDLoadCommand.m in Sources */,
 				013D1F3A13A5AEA100BF0A67 /* CDFile.m in Sources */,
+				43B9153BA8564DD87792E069 /* CDKernelCache.m in Sources */,
+				B0E4F430CFCAE77B54E62D81 /* lzfse_decode.c in Sources */,
+				83EF24B8A704A3ED80EE5D58 /* lzfse_decode_base.c in Sources */,
+				E5035E1945CA536BE1F097F6 /* lzfse_encode.c in Sources */,
+				905E54382E6A190C361FAEAB /* lzfse_encode_base.c in Sources */,
+				08DA32B022A98BC7F0303740 /* lzfse_fse.c in Sources */,
+				4DCE154BF4EAD2B3517DAC93 /* lzvn_decode_base.c in Sources */,
+				C7B980AC835332B5E195801B /* lzvn_encode_base.c in Sources */,
+				A4F839D36FF7A41D7D781AEE /* lzvndec.c in Sources */,
+				544D1648ACC4443F26A1F179 /* lzvn_encode.c in Sources */,
 				013D1F3B13A5AEA100BF0A67 /* CDFatFile.m in Sources */,
 				013D1F3C13A5AEA100BF0A67 /* CDFatArch.m in Sources */,
 				013D1F3D13A5AEA100BF0A67 /* CDMachOFile.m in Sources */,
@@ -1464,6 +1508,11 @@
 				DEVELOPMENT_TEAM = W6E3273XL3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MachObjC-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/ThirdParty/lzfse",
+					"$(SRCROOT)/ThirdParty/lzvn",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1482,6 +1531,11 @@
 				DEVELOPMENT_TEAM = W6E3273XL3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MachObjC-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/ThirdParty/lzfse",
+					"$(SRCROOT)/ThirdParty/lzvn",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1507,7 +1561,7 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UnitTests-Prefix.pch";
+				GCC_PREFIX_HEADER = "UnitTests/UnitTests-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1547,7 +1601,7 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UnitTests-Prefix.pch";
+				GCC_PREFIX_HEADER = "UnitTests/UnitTests-Prefix.pch";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "UnitTests/UnitTests-Info.plist";

@@ -33,6 +33,7 @@
 #import "CDSwiftDumper.h"
 #import "CDDecompiler.h"
 #import "CDFilesetExtractor.h"
+#import "CDKernelCache.h"
 #import "CDRoutineDumper.h"
 
 void print_usage(void)
@@ -89,6 +90,17 @@ void print_usage(void)
             "                             __LINKEDIT slice copied out, fileoffs rewritten) and run\n"
             "                             Ghidra on it; the resulting .c/.swift/.cpp file is written\n"
             "                             into the same OUTDIR/<entry-id>/ directory.\n"
+            "        --decompress --out FILE\n"
+            "                             decompress a 'comp' (LZSS/LZVN) prelinked kernel or a\n"
+            "                             bare LZFSE stream and write the raw bytes to FILE\n"
+            "        --decrypt --out FILE\n"
+            "                             unwrap an IMG4/IM4P kernelcache (and expand its inner\n"
+            "                             LZFSE/LZSS payload) and write the result to FILE\n"
+            "        --compress lzss|lzvn|lzfse --out FILE\n"
+            "                             re-compress a raw kernel into a 'comp' container (lzss/\n"
+            "                             lzvn) or a bare LZFSE stream and write it to FILE.\n"
+            "                             Compressed/encrypted kernelcaches are also unwrapped\n"
+            "                             automatically on the normal class-dump / --*-fileset path.\n"
             "        --dsc-extract DIR    extract every dylib from a dyld_shared_cache to DIR\n"
             "                             (uses Apple's dsc_extractor.bundle from Xcode).\n"
             "                             Combine with --cpp / --swift to additionally write C++\n"
@@ -190,6 +202,9 @@ void print_usage(void)
 #define CD_OPT_DSC_IN_PROCESS    46
 #define CD_OPT_DSC_WORKER        47
 #define CD_OPT_FILESET_DUMPALL   48
+#define CD_OPT_DECOMPRESS        49
+#define CD_OPT_DECRYPT           50
+#define CD_OPT_COMPRESS          51
 
 // Resolve the absolute path to the currently running class-dump executable.
 // Used by --dsc-class-dump to re-spawn self as a per-image worker.
@@ -481,6 +496,9 @@ int main(int argc, char *argv[])
             { "dsc-in-process",          no_argument,       NULL, CD_OPT_DSC_IN_PROCESS },
             { "dsc-worker",              no_argument,       NULL, CD_OPT_DSC_WORKER },
             { "fileset-class-dump",      no_argument,       NULL, CD_OPT_FILESET_DUMPALL },
+            { "decompress",              no_argument,       NULL, CD_OPT_DECOMPRESS },
+            { "decrypt",                 no_argument,       NULL, CD_OPT_DECRYPT },
+            { "compress",                required_argument, NULL, CD_OPT_COMPRESS },
             { NULL,                      0,                 NULL, 0 },
         };
 
@@ -502,6 +520,9 @@ int main(int argc, char *argv[])
         BOOL shouldListFileset = NO;
         BOOL shouldFilesetClassDump = NO;
         NSString *extractFilesetName = nil;
+        BOOL shouldDecompress = NO;
+        BOOL shouldDecrypt = NO;
+        NSString *compressMethodName = nil;
         NSString *dscExtractDir = nil;
         BOOL shouldDumpCpp = NO;
         BOOL shouldDumpSwift = NO;
@@ -721,6 +742,18 @@ int main(int argc, char *argv[])
 
                 case CD_OPT_FILESET_DUMPALL:
                     shouldFilesetClassDump = YES;
+                    break;
+
+                case CD_OPT_DECOMPRESS:
+                    shouldDecompress = YES;
+                    break;
+
+                case CD_OPT_DECRYPT:
+                    shouldDecrypt = YES;
+                    break;
+
+                case CD_OPT_COMPRESS:
+                    compressMethodName = [NSString stringWithUTF8String:optarg];
                     break;
 
                 case CD_OPT_WITH_CACHE: {
@@ -1351,6 +1384,67 @@ int main(int argc, char *argv[])
                     printf("0x%016llx  %s\n", img.address, [img.path UTF8String]);
                 }
             }
+            exit(0);
+        }
+
+        // Standalone kernelcache container operations: --decompress / --decrypt
+        // / --compress. Each reads the raw input file, transforms it, and writes
+        // to --out, then exits. These operate on the file bytes directly (not via
+        // CDFile, which would auto-unwrap the very container we want to inspect).
+        if (optind < argc && (shouldDecompress || shouldDecrypt || compressMethodName != nil)) {
+            int opCount = (shouldDecompress ? 1 : 0) + (shouldDecrypt ? 1 : 0) + (compressMethodName != nil ? 1 : 0);
+            if (opCount > 1) {
+                fprintf(stderr, "class-dump: --decompress, --decrypt and --compress are mutually exclusive\n");
+                exit(1);
+            }
+            if (writeOutPath == nil) {
+                fprintf(stderr, "class-dump: --decompress/--decrypt/--compress require --out FILE\n");
+                exit(1);
+            }
+            NSString *inPath = [NSString stringWithFileSystemRepresentation:argv[optind]];
+            NSError *readErr = nil;
+            NSData *inData = [NSData dataWithContentsOfFile:inPath
+                                                   options:NSDataReadingMappedAlways
+                                                     error:&readErr];
+            if (inData == nil) {
+                fprintf(stderr, "class-dump: cannot read %s: %s\n",
+                        [inPath UTF8String], [[readErr localizedDescription] UTF8String]);
+                exit(1);
+            }
+
+            NSError *kcErr = nil;
+            NSData *outData = nil;
+            if (shouldDecompress) {
+                outData = [CDKernelCache decompressData:inData error:&kcErr];
+            } else if (shouldDecrypt) {
+                NSString *payloadType = nil;
+                outData = [CDKernelCache extractIMG4Payload:inData type:&payloadType error:&kcErr];
+                if (outData != nil && payloadType != nil)
+                    fprintf(stderr, "class-dump: extracted IM4P payload type '%s'\n", [payloadType UTF8String]);
+            } else {
+                CDKernelCacheCompression method;
+                NSString *m = [compressMethodName lowercaseString];
+                if ([m isEqualToString:@"lzss"])       method = CDKernelCacheCompressionLZSS;
+                else if ([m isEqualToString:@"lzvn"])   method = CDKernelCacheCompressionLZVN;
+                else if ([m isEqualToString:@"lzfse"])  method = CDKernelCacheCompressionLZFSE;
+                else {
+                    fprintf(stderr, "class-dump: --compress expects lzss, lzvn or lzfse (got '%s')\n",
+                            [compressMethodName UTF8String]);
+                    exit(1);
+                }
+                outData = [CDKernelCache compressData:inData method:method error:&kcErr];
+            }
+
+            if (outData == nil) {
+                fprintf(stderr, "class-dump: %s\n", [[kcErr localizedDescription] UTF8String]);
+                exit(1);
+            }
+            if (![outData writeToFile:writeOutPath atomically:YES]) {
+                fprintf(stderr, "class-dump: cannot write %s\n", [writeOutPath UTF8String]);
+                exit(1);
+            }
+            fprintf(stderr, "class-dump: wrote %lu bytes to %s\n",
+                    (unsigned long)[outData length], [writeOutPath UTF8String]);
             exit(0);
         }
 
