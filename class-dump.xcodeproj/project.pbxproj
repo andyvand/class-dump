@@ -59,6 +59,17 @@
 		013D1F3813A5AEA100BF0A67 /* CDLCVersionMinimum.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB82D813A591D8003EDE60 /* CDLCVersionMinimum.m */; };
 		013D1F3913A5AEA100BF0A67 /* CDLoadCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB82DA13A591D8003EDE60 /* CDLoadCommand.m */; };
 		013D1F3A13A5AEA100BF0A67 /* CDFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB82A613A591D7003EDE60 /* CDFile.m */; };
+		59AD0CEBE6F8BAD24BA0B6BA /* CDClassDump.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB829A13A591D7003EDE60 /* CDClassDump.m */; };
+		1233155194EA07286E84B16A /* CDStructureTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB830613A591D8003EDE60 /* CDStructureTable.m */; };
+		C44F54B915C04B96CECA17DE /* CDTypeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB831313A591D8003EDE60 /* CDTypeController.m */; };
+		39E3CD4BB7B5D1DB38ABA310 /* CDStructureInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB830413A591D8003EDE60 /* CDStructureInfo.m */; };
+		7CDD7DC3CD938105426252D0 /* CDClassDumpVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB829C13A591D7003EDE60 /* CDClassDumpVisitor.m */; };
+		7C93A58D97DD832141A88838 /* CDFindMethodVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB82A813A591D7003EDE60 /* CDFindMethodVisitor.m */; };
+		3BB922CEEBC00306298EBCB9 /* CDVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB831E13A591D8003EDE60 /* CDVisitor.m */; };
+		B72A201B3BAB4062CD0FDEFB /* CDClassFrameworkVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB829E13A591D7003EDE60 /* CDClassFrameworkVisitor.m */; };
+		B5447D55A3F29CF07D639E6F /* CDMultiFileVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB82E213A591D8003EDE60 /* CDMultiFileVisitor.m */; };
+		4243A09C7EDD98CB5FA4E630 /* CDTextClassDumpVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB830C13A591D8003EDE60 /* CDTextClassDumpVisitor.m */; };
+		CD0AFD218F90AA767E60525D /* CDSearchPathState.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB82FC13A591D8003EDE60 /* CDSearchPathState.m */; };
 		013D1F3B13A5AEA100BF0A67 /* CDFatFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB82A413A591D7003EDE60 /* CDFatFile.m */; };
 		013D1F3C13A5AEA100BF0A67 /* CDFatArch.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB82A213A591D7003EDE60 /* CDFatArch.m */; };
 		013D1F3D13A5AEA100BF0A67 /* CDMachOFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB82DC13A591D8003EDE60 /* CDMachOFile.m */; };
@@ -113,17 +124,6 @@
 		01B02D0E13A5B0FB0047BC53 /* formatType.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B02D0D13A5B0FB0047BC53 /* formatType.m */; };
 		01B02D1113A5B1460047BC53 /* class-dump.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B02D1013A5B1460047BC53 /* class-dump.m */; };
 		01B02D1313A5B1CE0047BC53 /* libMachObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 013D1F1113A5AE5A00BF0A67 /* libMachObjC.a */; };
-		01B02D2013A5B4D70047BC53 /* CDClassDump.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB829A13A591D7003EDE60 /* CDClassDump.m */; };
-		01B02D2113A5B4D70047BC53 /* CDStructureTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB830613A591D8003EDE60 /* CDStructureTable.m */; };
-		01B02D2213A5B4D70047BC53 /* CDTypeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB831313A591D8003EDE60 /* CDTypeController.m */; };
-		01B02D2313A5B4D70047BC53 /* CDStructureInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB830413A591D8003EDE60 /* CDStructureInfo.m */; };
-		01B02D2513A5B4D70047BC53 /* CDClassDumpVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB829C13A591D7003EDE60 /* CDClassDumpVisitor.m */; };
-		01B02D2613A5B4D70047BC53 /* CDFindMethodVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB82A813A591D7003EDE60 /* CDFindMethodVisitor.m */; };
-		01B02D2713A5B4D70047BC53 /* CDVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB831E13A591D8003EDE60 /* CDVisitor.m */; };
-		01B02D2813A5B4D70047BC53 /* CDClassFrameworkVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB829E13A591D7003EDE60 /* CDClassFrameworkVisitor.m */; };
-		01B02D2913A5B4D70047BC53 /* CDMultiFileVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB82E213A591D8003EDE60 /* CDMultiFileVisitor.m */; };
-		01B02D2A13A5B4D70047BC53 /* CDTextClassDumpVisitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB830C13A591D8003EDE60 /* CDTextClassDumpVisitor.m */; };
-		01B02D2B13A5B4D70047BC53 /* CDSearchPathState.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EB82FC13A591D8003EDE60 /* CDSearchPathState.m */; };
 		01FB2151222A86C40012A5D3 /* blowfish.h in Headers */ = {isa = PBXBuildFile; fileRef = 01FB214F222A86C40012A5D3 /* blowfish.h */; };
 		01FB2152222A86C40012A5D3 /* blowfish.c in Sources */ = {isa = PBXBuildFile; fileRef = 01FB2150222A86C40012A5D3 /* blowfish.c */; };
 		0D288C10187BC2EE0026E2A0 /* CDOCClassReference.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D288C0E187BC2EE0026E2A0 /* CDOCClassReference.h */; };
@@ -1227,6 +1227,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59AD0CEBE6F8BAD24BA0B6BA /* CDClassDump.m in Sources */,
+				1233155194EA07286E84B16A /* CDStructureTable.m in Sources */,
+				C44F54B915C04B96CECA17DE /* CDTypeController.m in Sources */,
+				39E3CD4BB7B5D1DB38ABA310 /* CDStructureInfo.m in Sources */,
+				7CDD7DC3CD938105426252D0 /* CDClassDumpVisitor.m in Sources */,
+				7C93A58D97DD832141A88838 /* CDFindMethodVisitor.m in Sources */,
+				3BB922CEEBC00306298EBCB9 /* CDVisitor.m in Sources */,
+				B72A201B3BAB4062CD0FDEFB /* CDClassFrameworkVisitor.m in Sources */,
+				B5447D55A3F29CF07D639E6F /* CDMultiFileVisitor.m in Sources */,
+				4243A09C7EDD98CB5FA4E630 /* CDTextClassDumpVisitor.m in Sources */,
+				CD0AFD218F90AA767E60525D /* CDSearchPathState.m in Sources */,
 				013D1F1913A5AEA100BF0A67 /* CDTopoSortNode.m in Sources */,
 				ABCE4D8C2252F424009F167D /* CDLCNote.m in Sources */,
 				F11E5E7E0000000000000004 /* CDLCFilesetEntry.m in Sources */,
@@ -1354,17 +1365,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01B02D2013A5B4D70047BC53 /* CDClassDump.m in Sources */,
-				01B02D2113A5B4D70047BC53 /* CDStructureTable.m in Sources */,
-				01B02D2213A5B4D70047BC53 /* CDTypeController.m in Sources */,
-				01B02D2313A5B4D70047BC53 /* CDStructureInfo.m in Sources */,
-				01B02D2513A5B4D70047BC53 /* CDClassDumpVisitor.m in Sources */,
-				01B02D2613A5B4D70047BC53 /* CDFindMethodVisitor.m in Sources */,
-				01B02D2713A5B4D70047BC53 /* CDVisitor.m in Sources */,
-				01B02D2813A5B4D70047BC53 /* CDClassFrameworkVisitor.m in Sources */,
-				01B02D2913A5B4D70047BC53 /* CDMultiFileVisitor.m in Sources */,
-				01B02D2A13A5B4D70047BC53 /* CDTextClassDumpVisitor.m in Sources */,
-				01B02D2B13A5B4D70047BC53 /* CDSearchPathState.m in Sources */,
 				01B02D1113A5B1460047BC53 /* class-dump.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
