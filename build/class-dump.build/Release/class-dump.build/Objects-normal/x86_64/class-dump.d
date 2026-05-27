@@ -17,18 +17,20 @@ dependencies: /Users/andyvand/Downloads/class-dump/class-dump-Prefix.pch \
   /Users/andyvand/Downloads/class-dump/Source/CDMultiFileVisitor.h \
   /Users/andyvand/Downloads/class-dump/Source/CDTypeController.h \
   /Users/andyvand/Downloads/class-dump/Source/CDMachOFile.h \
+  /Users/andyvand/Downloads/class-dump/Source/CDLCSymbolTable.h \
+  /Users/andyvand/Downloads/class-dump/Source/CDLoadCommand.h \
+  /Users/andyvand/Downloads/class-dump/Source/CDMachOFileDataCursor.h \
+  /Users/andyvand/Downloads/class-dump/Source/CDDataCursor.h \
   /Users/andyvand/Downloads/class-dump/Source/CDFatFile.h \
   /Users/andyvand/Downloads/class-dump/Source/CDFatArch.h \
   /Users/andyvand/Downloads/class-dump/Source/CDSearchPathState.h \
   /Users/andyvand/Downloads/class-dump/Source/CDMachOWriter.h \
   /Users/andyvand/Downloads/class-dump/Source/CDDyldCache.h \
   /Users/andyvand/Downloads/class-dump/Source/CDLCFilesetEntry.h \
-  /Users/andyvand/Downloads/class-dump/Source/CDLoadCommand.h \
-  /Users/andyvand/Downloads/class-dump/Source/CDMachOFileDataCursor.h \
-  /Users/andyvand/Downloads/class-dump/Source/CDDataCursor.h \
   /Users/andyvand/Downloads/class-dump/Source/CDCPlusPlusDumper.h \
   /Users/andyvand/Downloads/class-dump/Source/CDSwiftDumper.h \
   /Users/andyvand/Downloads/class-dump/Source/CDDecompiler.h \
   /Users/andyvand/Downloads/class-dump/Source/CDFilesetExtractor.h \
+  /Users/andyvand/Downloads/class-dump/Source/CDIOKitDumper.h \
   /Users/andyvand/Downloads/class-dump/Source/CDKernelCache.h \
   /Users/andyvand/Downloads/class-dump/Source/CDRoutineDumper.h

@@ -167,6 +167,8 @@
 		F11E5E7E0000000000000004 /* CDLCFilesetEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = F11E5E7E0000000000000002 /* CDLCFilesetEntry.m */; };
 		F1E5E000F1E5E000F1E50003 /* CDFilesetExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E5E000F1E5E000F1E50001 /* CDFilesetExtractor.h */; };
 		F1E5E000F1E5E000F1E50004 /* CDFilesetExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E000F1E5E000F1E50002 /* CDFilesetExtractor.m */; };
+		F1E5E000F1E5E000F1E50007 /* CDIOKitDumper.h in Headers */ = {isa = PBXBuildFile; fileRef = F1E5E000F1E5E000F1E50005 /* CDIOKitDumper.h */; };
+		F1E5E000F1E5E000F1E50008 /* CDIOKitDumper.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E5E000F1E5E000F1E50006 /* CDIOKitDumper.m */; };
 		A9ADC168E978D6FC138EEF27 /* CDKernelCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 430E8D996A2FF43CC98A1734 /* CDKernelCache.h */; };
 		43B9153BA8564DD87792E069 /* CDKernelCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F919C26DC189A2B529EE16FB /* CDKernelCache.m */; };
 		B0E4F430CFCAE77B54E62D81 /* lzfse_decode.c in Sources */ = {isa = PBXBuildFile; fileRef = 17765DA073612436B5BBD84E /* lzfse_decode.c */; };
@@ -517,6 +519,8 @@
 		F11E5E7E0000000000000002 /* CDLCFilesetEntry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDLCFilesetEntry.m; path = Source/CDLCFilesetEntry.m; sourceTree = "<group>"; };
 		F1E5E000F1E5E000F1E50001 /* CDFilesetExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDFilesetExtractor.h; path = Source/CDFilesetExtractor.h; sourceTree = "<group>"; };
 		F1E5E000F1E5E000F1E50002 /* CDFilesetExtractor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDFilesetExtractor.m; path = Source/CDFilesetExtractor.m; sourceTree = "<group>"; };
+		F1E5E000F1E5E000F1E50005 /* CDIOKitDumper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDIOKitDumper.h; path = Source/CDIOKitDumper.h; sourceTree = "<group>"; };
+		F1E5E000F1E5E000F1E50006 /* CDIOKitDumper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDIOKitDumper.m; path = Source/CDIOKitDumper.m; sourceTree = "<group>"; };
 		430E8D996A2FF43CC98A1734 /* CDKernelCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDKernelCache.h; path = Source/CDKernelCache.h; sourceTree = "<group>"; };
 		F919C26DC189A2B529EE16FB /* CDKernelCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CDKernelCache.m; path = Source/CDKernelCache.m; sourceTree = "<group>"; };
 		17765DA073612436B5BBD84E /* lzfse_decode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lzfse_decode.c; path = ThirdParty/lzfse/lzfse_decode.c; sourceTree = "<group>"; };
@@ -903,6 +907,8 @@
 				CDDECDDECDDECDDECDDE0002 /* CDDecompiler.m */,
 				F1E5E000F1E5E000F1E50001 /* CDFilesetExtractor.h */,
 				F1E5E000F1E5E000F1E50002 /* CDFilesetExtractor.m */,
+				F1E5E000F1E5E000F1E50005 /* CDIOKitDumper.h */,
+				F1E5E000F1E5E000F1E50006 /* CDIOKitDumper.m */,
 				430E8D996A2FF43CC98A1734 /* CDKernelCache.h */,
 				F919C26DC189A2B529EE16FB /* CDKernelCache.m */,
 				17765DA073612436B5BBD84E /* lzfse_decode.c */,
@@ -1026,6 +1032,7 @@
 				520717DEF1A1A0FE51F00003 /* CDRoutineDumper.h in Headers */,
 				CDDECDDECDDECDDECDDE0003 /* CDDecompiler.h in Headers */,
 				F1E5E000F1E5E000F1E50003 /* CDFilesetExtractor.h in Headers */,
+				F1E5E000F1E5E000F1E50007 /* CDIOKitDumper.h in Headers */,
 				A9ADC168E978D6FC138EEF27 /* CDKernelCache.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1258,6 +1265,7 @@
 				520717DEF1A1A0FE51F00004 /* CDRoutineDumper.m in Sources */,
 				CDDECDDECDDECDDECDDE0004 /* CDDecompiler.m in Sources */,
 				F1E5E000F1E5E000F1E50004 /* CDFilesetExtractor.m in Sources */,
+				F1E5E000F1E5E000F1E50008 /* CDIOKitDumper.m in Sources */,
 				013D1F1A13A5AEA100BF0A67 /* NSArray-CDExtensions.m in Sources */,
 				013D1F1B13A5AEA100BF0A67 /* NSData-CDExtensions.m in Sources */,
 				013D1F1C13A5AEA100BF0A67 /* NSError-CDExtensions.m in Sources */,

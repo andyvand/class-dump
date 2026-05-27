@@ -22,6 +22,7 @@
 #import "CDMultiFileVisitor.h"
 #import "CDFile.h"
 #import "CDMachOFile.h"
+#import "CDLCSymbolTable.h"
 #import "CDFatFile.h"
 #import "CDFatArch.h"
 #import "CDSearchPathState.h"
@@ -33,6 +34,7 @@
 #import "CDSwiftDumper.h"
 #import "CDDecompiler.h"
 #import "CDFilesetExtractor.h"
+#import "CDIOKitDumper.h"
 #import "CDKernelCache.h"
 #import "CDRoutineDumper.h"
 
@@ -1589,6 +1591,19 @@ int main(int argc, char *argv[])
                     return NSOrderedSame;
                 }];
 
+                // Stripped release kernelcaches carry no nlist symbols, so the
+                // symbol-based C++ dumper produces nothing. When --cpp is asked
+                // for and the cache has no symbol table, fall back to recovering
+                // the IOKit/libkern class hierarchy from OSMetaClass metadata.
+                CDIOKitDumper *iokit = nil;
+                if (shouldDumpCpp && (macho.symbolTable == nil || [macho.symbolTable nsyms] == 0)) {
+                    fprintf(stderr, "class-dump: no symbol table in fileset; recovering C++ classes from OSMetaClass metadata...\n");
+                    iokit = [[CDIOKitDumper alloc] initWithCacheData:fileData topLevel:macho];
+                    [iokit scanFilesetEntries:sortedEntries];
+                    fprintf(stderr, "class-dump: recovered %lu IOKit classes across the cache\n",
+                            (unsigned long)[iokit metaClassCount]);
+                }
+
                 NSUInteger total = [sortedEntries count];
                 NSUInteger ok = 0;
                 NSUInteger failed = 0;
@@ -1673,7 +1688,10 @@ int main(int argc, char *argv[])
 
                             if (shouldDumpCpp) {
                                 NSError *ce = nil;
-                                if ([CDCPlusPlusDumper writeHeadersForMachOFile:entryMacho toDirectory:outSub error:&ce]) {
+                                BOOL cppOK = iokit
+                                    ? [iokit writeHeadersForKext:entryID toDirectory:outSub error:&ce]
+                                    : [CDCPlusPlusDumper writeHeadersForMachOFile:entryMacho toDirectory:outSub error:&ce];
+                                if (cppOK) {
                                     hCppDone++;
                                 } else {
                                     hCppFail++;
