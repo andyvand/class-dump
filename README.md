@@ -15,6 +15,9 @@ original Objective-C dumping it adds:
 * **Kernelcache fileset** listing, extraction, and per-kext class-dump /
   C++ / Swift header dumping
   (`--list-fileset`, `--extract-fileset`, `--fileset-class-dump`).
+* **Kernelcache (de)compression / decryption**: unwrap `comp`
+  (LZSS/LZVN) and bare LZFSE kernels, unwrap IMG4/IM4P containers, and
+  re-compress raw kernels (`--decompress`, `--decrypt`, `--compress`).
 * **C++** class header generation from Itanium-mangled symbols (`--cpp`).
 * **Swift** type/extension dumping via `libswiftCore` `swift_demangle`
   (`--swift`).
@@ -60,6 +63,9 @@ Usage
       -s             sort classes and categories by name
       -S             sort methods by name
       -t             suppress header in output, for testing
+      --hide <sect>  hide a section of the output (`structures`,
+                     `protocols`, or `all` for both)
+      --version      print the class-dump version and exit
       --list-arches  list the arches in the file, then exit
       --sdk-ios <v>  iOS SDK version to resolve frameworks against
       --sdk-mac <v>  macOS SDK version to resolve frameworks against
@@ -115,6 +121,25 @@ pid so you can `sample` it.
                                            LC_SYMTAB (kexts are mostly C++);
                                            with --swift it emits Swift
                                            extensions.
+
+### Kernelcache (de)compression and decryption
+
+      --decompress --out FILE
+                             decompress a 'comp' (LZSS/LZVN) prelinked
+                             kernel or a bare LZFSE stream and write the
+                             raw bytes to FILE
+      --decrypt --out FILE   unwrap an IMG4/IM4P kernelcache (and expand
+                             its inner LZFSE/LZSS payload) and write the
+                             result to FILE
+      --compress lzss|lzvn|lzfse --out FILE
+                             re-compress a raw kernel into a 'comp'
+                             container (lzss/lzvn) or a bare LZFSE stream
+                             and write it to FILE
+
+Compressed or encrypted kernelcaches are also unwrapped automatically on
+the normal class-dump and `--list-fileset` / `--extract-fileset` /
+`--fileset-class-dump` paths, so you usually only need `--decompress` /
+`--decrypt` when you want the raw bytes on disk.
 
 ### C++ and Swift
 
@@ -192,6 +217,11 @@ C++-dump every kext in a fileset kernelcache (one directory per kext):
 
     class-dump --fileset-class-dump --cpp \
                --out /tmp/kcache-cpp kernelcache.release.iphone16
+
+Decrypt an IMG4 kernelcache, then re-compress the raw kernel as LZFSE:
+
+    class-dump --decrypt kernelcache.release.iphone16 --out kernel.raw
+    class-dump --compress lzfse kernel.raw --out kernel.lzfse
 
 Rewrite a dylib's install name and add an rpath:
 
