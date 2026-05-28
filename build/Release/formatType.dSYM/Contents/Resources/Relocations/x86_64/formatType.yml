@@ -613,13 +613,13 @@ relocations:
   - { offset: 0x79D78, size: 0x8, addend: 0x0, symName: '-[NSData(CDExtensions) SHA1Digest]', symObjAddr: 0xA7, symBinAddr: 0x10002996E, symSize: 0x12D }
   - { offset: 0x79F72, size: 0x8, addend: 0x0, symName: '+[NSScanner(CDExtensions) cdOtherCharacterSet]', symObjAddr: 0x0, symBinAddr: 0x100029A9B, symSize: 0x67 }
   - { offset: 0x79F80, size: 0x8, addend: 0x0, symName: '+[NSScanner(CDExtensions) cdOtherCharacterSet]', symObjAddr: 0x0, symBinAddr: 0x100029A9B, symSize: 0x67 }
-  - { offset: 0x79FAA, size: 0x8, addend: 0x0, symName: _cdOtherCharacterSet.otherCharacterSet, symObjAddr: 0x3560, symBinAddr: 0x100097108, symSize: 0x0 }
+  - { offset: 0x79FAA, size: 0x8, addend: 0x0, symName: _cdOtherCharacterSet.otherCharacterSet, symObjAddr: 0x3560, symBinAddr: 0x10009A108, symSize: 0x0 }
   - { offset: 0x7A157, size: 0x8, addend: 0x0, symName: '+[NSScanner(CDExtensions) cdIdentifierStartCharacterSet]', symObjAddr: 0x67, symBinAddr: 0x100029B02, symSize: 0xD1 }
-  - { offset: 0x7A181, size: 0x8, addend: 0x0, symName: _cdIdentifierStartCharacterSet.identifierStartCharacterSet, symObjAddr: 0x3568, symBinAddr: 0x100097110, symSize: 0x0 }
+  - { offset: 0x7A181, size: 0x8, addend: 0x0, symName: _cdIdentifierStartCharacterSet.identifierStartCharacterSet, symObjAddr: 0x3568, symBinAddr: 0x10009A110, symSize: 0x0 }
   - { offset: 0x7A237, size: 0x8, addend: 0x0, symName: '+[NSScanner(CDExtensions) cdIdentifierCharacterSet]', symObjAddr: 0x138, symBinAddr: 0x100029BD3, symSize: 0xD1 }
-  - { offset: 0x7A261, size: 0x8, addend: 0x0, symName: _cdIdentifierCharacterSet.identifierCharacterSet, symObjAddr: 0x3570, symBinAddr: 0x100097118, symSize: 0x0 }
+  - { offset: 0x7A261, size: 0x8, addend: 0x0, symName: _cdIdentifierCharacterSet.identifierCharacterSet, symObjAddr: 0x3570, symBinAddr: 0x10009A118, symSize: 0x0 }
   - { offset: 0x7A317, size: 0x8, addend: 0x0, symName: '+[NSScanner(CDExtensions) cdTemplateTypeCharacterSet]', symObjAddr: 0x209, symBinAddr: 0x100029CA4, symSize: 0x8C }
-  - { offset: 0x7A341, size: 0x8, addend: 0x0, symName: _cdTemplateTypeCharacterSet.templateTypeCharacterSet, symObjAddr: 0x3578, symBinAddr: 0x100097120, symSize: 0x0 }
+  - { offset: 0x7A341, size: 0x8, addend: 0x0, symName: _cdTemplateTypeCharacterSet.templateTypeCharacterSet, symObjAddr: 0x3578, symBinAddr: 0x10009A120, symSize: 0x0 }
   - { offset: 0x7A39C, size: 0x8, addend: 0x0, symName: '-[NSScanner(CDExtensions) peekCharacter]', symObjAddr: 0x295, symBinAddr: 0x100029D30, symSize: 0x89 }
   - { offset: 0x7A40F, size: 0x8, addend: 0x0, symName: '-[NSScanner(CDExtensions) peekChar]', symObjAddr: 0x31E, symBinAddr: 0x100029DB9, symSize: 0x5F }
   - { offset: 0x7A476, size: 0x8, addend: 0x0, symName: '-[NSScanner(CDExtensions) scanCharacter:]', symObjAddr: 0x37D, symBinAddr: 0x100029E18, symSize: 0xAC }
@@ -953,7 +953,7 @@ relocations:
   - { offset: 0x926C2, size: 0x8, addend: 0x0, symName: _fse_normalize_freq, symObjAddr: 0x332, symBinAddr: 0x100037A08, symSize: 0xFD }
   - { offset: 0x929A3, size: 0x8, addend: 0x0, symName: _lzfse_lzvn_decode, symObjAddr: 0x0, symBinAddr: 0x100037B05, symSize: 0x44B }
   - { offset: 0x929B1, size: 0x8, addend: 0x0, symName: _lzfse_lzvn_decode, symObjAddr: 0x0, symBinAddr: 0x100037B05, symSize: 0x44B }
-  - { offset: 0x929D3, size: 0x8, addend: 0x0, symName: _lzfse_lzvn_decode.opc_tbl, symObjAddr: 0x450, symBinAddr: 0x1000785C0, symSize: 0x0 }
+  - { offset: 0x929D3, size: 0x8, addend: 0x0, symName: _lzfse_lzvn_decode.opc_tbl, symObjAddr: 0x450, symBinAddr: 0x10007B5C0, symSize: 0x0 }
   - { offset: 0x931FC, size: 0x8, addend: 0x0, symName: _lzvn_emit_match, symObjAddr: 0x0, symBinAddr: 0x100037F50, symSize: 0x24E }
   - { offset: 0x93414, size: 0x8, addend: 0x0, symName: _lzvn_emit_match, symObjAddr: 0x0, symBinAddr: 0x100037F50, symSize: 0x24E }
   - { offset: 0x93D69, size: 0x8, addend: 0x0, symName: _lzvn_encode_buffer, symObjAddr: 0x259, symBinAddr: 0x10003819E, symSize: 0xBD6 }
@@ -1110,7 +1110,7 @@ relocations:
   - { offset: 0x9C3ED, size: 0x8, addend: 0x0, symName: '-[CDSection sectionName]', symObjAddr: 0xAE0, symBinAddr: 0x10003FE5C, symSize: 0xA }
   - { offset: 0x9C422, size: 0x8, addend: 0x0, symName: '-[CDSection .cxx_destruct]', symObjAddr: 0xAEA, symBinAddr: 0x10003FE66, symSize: 0x3C }
   - { offset: 0x9C54D, size: 0x8, addend: 0x0, symName: '-[CDSymbol initWithName:machOFile:nlist32:]', symObjAddr: 0x0, symBinAddr: 0x10003FEA2, symSize: 0xDE }
-  - { offset: 0x9C567, size: 0x8, addend: 0x0, symName: _ObjCClassSymbolPrefix, symObjAddr: 0x13F0, symBinAddr: 0x100078EC8, symSize: 0x0 }
+  - { offset: 0x9C567, size: 0x8, addend: 0x0, symName: _ObjCClassSymbolPrefix, symObjAddr: 0x13F0, symBinAddr: 0x10007BEC8, symSize: 0x0 }
   - { offset: 0x9CDE1, size: 0x8, addend: 0x0, symName: '-[CDSymbol initWithName:machOFile:nlist32:]', symObjAddr: 0x0, symBinAddr: 0x10003FEA2, symSize: 0xDE }
   - { offset: 0x9CE90, size: 0x8, addend: 0x0, symName: '-[CDSymbol initWithName:machOFile:nlist64:]', symObjAddr: 0xDE, symBinAddr: 0x10003FF80, symSize: 0xDF }
   - { offset: 0x9CF3F, size: 0x8, addend: 0x0, symName: '-[CDSymbol description]', symObjAddr: 0x1BD, symBinAddr: 0x10004005F, symSize: 0x14E }

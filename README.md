@@ -30,9 +30,14 @@ original Objective-C dumping it adds:
 * **Cross-binary type resolution** via a shared type pool fed by
   `--scan-dir` / `--auto-scan`.
 * **Ghidra-backed decompilation** of every dumped binary into pseudo-C
-  (`--decompile`), with separate Swift and C++ variants that demangle
-  symbol names and apply Itanium return/parameter types before
-  decompiling (`--decompile-swift`, `--decompile-cpp`).
+  (`--decompile`), with language-shaped variants that demangle symbol
+  names and rewrite the body into the target language:
+  `--decompile-swift` groups Swift-mangled functions under their owning
+  type as `class Module.Type { func ... }`, `--decompile-objc` groups
+  Objective-C method IMPs into `@implementation` blocks with
+  `objc_msgSend(recv,"sel",args)` rewritten as `[recv sel:args]`, and
+  `--decompile-cpp` applies Itanium return/parameter types before
+  decompiling so signatures carry real types rather than `undefined`.
 
 Source for this fork:
 
@@ -163,21 +168,39 @@ subdirectories alongside the Objective-C headers.
 
       --decompile          run Ghidra headless over each dumped binary and
                            write a pseudo-C .c file next to the .h output
-      --decompile-swift    same, but emits a .swift file containing only
-                           Swift-mangled functions with names demangled by
-                           Ghidra's Swift demangler (output is pseudo-C,
-                           not real Swift source)
-      --decompile-cpp      same, but emits a .cpp file containing only
-                           Itanium-mangled C++ functions, with names
-                           demangled and Itanium return/parameter types
-                           applied before decompiling (so signatures carry
-                           real types rather than Ghidra's `undefined`)
+      --decompile-swift    emit a .swift file containing only Swift-mangled
+                           functions, grouped under their owning type as
+                           `class Module.Type { func name(params) -> T { ... } }`.
+                           Bodies are heuristically rewritten from Ghidra
+                           pseudo-C into Swift-ish syntax (swift_retain /
+                           swift_release etc. dropped, `->` rewritten to
+                           `.`, C casts collapsed, witness tables / type
+                           metadata accessors skipped).
+      --decompile-objc     emit a .m file containing only Objective-C method
+                           IMPs (`-[Class sel]` / `+[Class sel]`), grouped
+                           by class as `@implementation Class ... @end`.
+                           Bodies are heuristically rewritten:
+                           `objc_msgSend(recv,"sel",args)` becomes
+                           `[recv sel:args]` (iterated so nested sends
+                           collapse), `objc_storeStrong(&dst,src)` becomes
+                           `dst = src`, ARC retain/release/autorelease are
+                           dropped, `_OBJC_CLASS_$_Foo` becomes
+                           `[Foo class]`, `objc_alloc_init(_OBJC_CLASS_$_X)`
+                           becomes `[[X alloc] init]`.
+      --decompile-cpp      emit a .cpp file containing only Itanium-mangled
+                           C++ functions, with names demangled and Itanium
+                           return/parameter types applied before decompiling
+                           (so signatures carry real types rather than
+                           Ghidra's `undefined`).
 
-Ghidra is found via `$GHIDRA_HOME`, or by searching `/Applications/ghidra*`,
-`~/ghidra*`, `/opt/ghidra*`, and `/opt/homebrew/Caskroom/ghidra/*`. The
-three `--decompile*` flags can be combined; each hooks into
-`--dsc-class-dump`, `--dsc-extract`, and `--extract-fileset` as well as
-plain single-file dumps.
+The `--decompile-swift` and `--decompile-objc` output is a *Swift-shaped*
+and *ObjC-shaped sketch* derived from the decompile — meant for reading
+and grepping, not for feeding back to a compiler. Ghidra is found via
+`$GHIDRA_HOME`, or by searching `/Applications/ghidra*`, `~/ghidra*`,
+`/opt/ghidra*`, and `/opt/homebrew/Caskroom/ghidra/*`. The four
+`--decompile*` flags can be combined; each hooks into `--dsc-class-dump`,
+`--dsc-extract`, `--extract-fileset`, and `--fileset-class-dump` as well
+as plain single-file dumps.
 
 
 Examples
@@ -201,11 +224,13 @@ Extract every dylib from a cache:
     class-dump --dsc-extract /tmp/cache-extracted /path/to/dyld_shared_cache_arm64e
 
 Class-dump every image in a cache, including C++ and Swift, with a
-60 second per-image timeout, decompiling each binary to pseudo-C:
+60 second per-image timeout, decompiling each binary to pseudo-C plus
+Swift-shaped `.swift`, ObjC-shaped `.m`, and demangled `.cpp` output:
 
     class-dump --dsc-class-dump /path/to/dyld_shared_cache_arm64e \
                --out /tmp/dump --cpp --swift \
-               --dsc-image-timeout 60 --decompile --decompile-cpp --decompile-swift
+               --dsc-image-timeout 60 \
+               --decompile --decompile-cpp --decompile-swift --decompile-objc
 
 List and extract a kernelcache fileset entry:
 

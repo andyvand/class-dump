@@ -92,35 +92,33 @@ public class CDDecompileObjc extends GhidraScript {
         return t;
     }
 
-    private static String objcifyBody(String c) {
-        if (c == null) return "";
-        int firstBrace = c.indexOf('{');
-        int lastBrace = c.lastIndexOf('}');
-        if (firstBrace >= 0 && lastBrace > firstBrace) c = c.substring(firstBrace + 1, lastBrace);
-        c = c.trim();
+    // Match a single objc_msgSend / objc_msgSendSuper / objc_msgSendSuper2 call
+    // where the selector is a literal C string. We rewrite this once per pass
+    // and keep passing until nothing changes, so nested sends collapse from
+    // the innermost outwards.
+    private static final Pattern MSG_LITERAL = Pattern.compile(
+        "_?objc_msgSend(?:Super2?)?\\s*\\(\\s*([^,\\(\\)]+(?:\\([^\\)]*\\)[^,\\(\\)]*)?)\\s*,\\s*\"([^\"]+)\"((?:\\s*,\\s*[^,\\(\\)]+(?:\\([^\\)]*\\)[^,\\(\\)]*)?)*)\\)");
 
-        String[] drop = {
-            "objc_retain","objc_release","objc_autorelease","objc_retainAutoreleasedReturnValue",
-            "objc_autoreleaseReturnValue","objc_retainAutorelease","objc_retainBlock"
-        };
-        for (String fn : drop) {
-            c = c.replaceAll("(?m)^\\s*_?" + Pattern.quote(fn) + "\\s*\\([^;]*\\);\\s*$\\n?", "");
-        }
+    // Match objc_msgSend where the selector is a global symbol-reference
+    // pointer (Ghidra emits selectors as `_OBJC_SELECTOR_$_foo:` when its
+    // ObjectiveC2 analyser ran).
+    private static final Pattern MSG_SELREF = Pattern.compile(
+        "_?objc_msgSend(?:Super2?)?\\s*\\(\\s*([^,\\(\\)]+(?:\\([^\\)]*\\)[^,\\(\\)]*)?)\\s*,\\s*_?OBJC_SELECTOR_\\$_([A-Za-z_][A-Za-z0-9_:]*)((?:\\s*,\\s*[^,\\(\\)]+(?:\\([^\\)]*\\)[^,\\(\\)]*)?)*)\\)");
 
-        c = c.replaceAll("_?objc_storeStrong\\s*\\(\\s*&([^,\\s]+)\\s*,\\s*([^\\)]+)\\)", "$1 = $2");
-
-        Pattern msg = Pattern.compile("_?objc_msgSend(?:Super2?)?\\s*\\(\\s*([^,\\)]+)\\s*,\\s*\"([^\"]+)\"((?:\\s*,\\s*[^,\\)]+)*)\\)");
-        Matcher mm = msg.matcher(c);
+    private static String rewriteMsgSendOnce(String c, Pattern p, boolean selFromGroup2) {
+        Matcher mm = p.matcher(c);
         StringBuffer sb = new StringBuffer();
+        boolean any = false;
         while (mm.find()) {
+            any = true;
             String recv = mm.group(1).trim();
-            String sel = mm.group(2);
+            String sel = selFromGroup2 ? mm.group(2) : mm.group(2);
             String rest = mm.group(3);
             String[] args;
             if (rest == null || rest.isEmpty()) {
                 args = new String[0];
             } else {
-                args = rest.replaceFirst("^\\s*,\\s*", "").split("\\s*,\\s*");
+                args = rest.replaceFirst("^\\s*,\\s*", "").split("\\s*,\\s*(?![^(]*\\))");
             }
             String[] parts;
             if (sel.contains(":")) {
@@ -144,11 +142,61 @@ public class CDDecompileObjc extends GhidraScript {
             call.append("]");
             mm.appendReplacement(sb, Matcher.quoteReplacement(call.toString()));
         }
+        if (!any) return c;
         mm.appendTail(sb);
-        c = sb.toString();
+        return sb.toString();
+    }
 
+    private static String objcifyBody(String c) {
+        if (c == null) return "";
+        int firstBrace = c.indexOf('{');
+        int lastBrace = c.lastIndexOf('}');
+        if (firstBrace >= 0 && lastBrace > firstBrace) c = c.substring(firstBrace + 1, lastBrace);
+        c = c.trim();
+
+        // Strip leading Ghidra-style indent so our own indent (4 spaces in
+        // emitted output) reads consistently.
+        c = c.replaceAll("(?m)^  ", "");
+
+        // Drop ARC bookkeeping calls that are just noise to a human reader.
+        String[] drop = {
+            "objc_retain","objc_release","objc_autorelease","objc_retainAutoreleasedReturnValue",
+            "objc_autoreleaseReturnValue","objc_retainAutorelease","objc_retainBlock",
+            "objc_destroyWeak","objc_initWeak","objc_loadWeakRetained","objc_loadWeak"
+        };
+        for (String fn : drop) {
+            c = c.replaceAll("(?m)^\\s*_?" + Pattern.quote(fn) + "\\s*\\([^;]*\\);\\s*$\\n?", "");
+        }
+
+        // objc_storeStrong(&dst, src);  ->  dst = src;
+        c = c.replaceAll("_?objc_storeStrong\\s*\\(\\s*&([^,\\s]+)\\s*,\\s*([^\\)]+)\\)", "$1 = $2");
+
+        // objc_alloc(_OBJC_CLASS_$_Foo)       -> [Foo alloc]
+        // objc_alloc_init(_OBJC_CLASS_$_Foo)  -> [[Foo alloc] init]
+        c = c.replaceAll("_?objc_alloc_init\\s*\\(\\s*_?OBJC_CLASS_\\$_([A-Za-z_][A-Za-z0-9_]*)\\s*\\)",
+                         "[[$1 alloc] init]");
+        c = c.replaceAll("_?objc_alloc\\s*\\(\\s*_?OBJC_CLASS_\\$_([A-Za-z_][A-Za-z0-9_]*)\\s*\\)",
+                         "[$1 alloc]");
+        c = c.replaceAll("_?objc_opt_(?:class|self)\\s*\\(\\s*_?OBJC_CLASS_\\$_([A-Za-z_][A-Za-z0-9_]*)\\s*\\)",
+                         "$1");
+        c = c.replaceAll("_?objc_loadClassRef\\s*\\(\\s*&?_?OBJC_CLASS_\\$_([A-Za-z_][A-Za-z0-9_]*)\\s*\\)",
+                         "$1");
+
+        // Rewrite msg-sends from inside out: iterate until no further changes.
+        for (int i = 0; i < 8; i++) {
+            String before = c;
+            c = rewriteMsgSendOnce(c, MSG_LITERAL, false);
+            c = rewriteMsgSendOnce(c, MSG_SELREF, true);
+            if (c.equals(before)) break;
+        }
+
+        // Class refs left over from a missed pattern.
         c = c.replaceAll("_?OBJC_CLASS_\\$_([A-Za-z_][A-Za-z0-9_]*)", "[$1 class]");
+        // Drop residual C casts Ghidra leaves around pointers.
         c = c.replaceAll("\\(undefined8?\\s*\\*+\\)", "");
+        c = c.replaceAll("\\((id|Class|SEL|IMP)\\s*\\*?\\)", "");
+        c = c.replaceAll("\\((char|int|long|longlong|uint|ulonglong|ulong|short|ushort|byte|ubyte|float|double)\\s*\\*?\\)", "");
+
         c = c.replaceAll("(?m)^\\s+$", "");
         c = c.replaceAll("\\n{3,}", "\n\n");
         return c.trim();

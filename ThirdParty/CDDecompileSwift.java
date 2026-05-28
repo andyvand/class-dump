@@ -107,28 +107,70 @@ public class CDDecompileSwift extends GhidraScript {
         return funcName.substring(0, p);
     }
 
+    // Swift mangled names that aren't user code (metadata, witness tables,
+    // descriptors, etc.) — these get skipped rather than emitted as `func`
+    // entries because they aren't meaningful as source. The mangled-name
+    // suffix is what we match on.
+    private static boolean isSwiftMetadataSymbol(String mangled) {
+        if (mangled == null) return false;
+        // Common metadata suffixes (Swift name mangling reference):
+        //   N   nominal type descriptor
+        //   Mn  module metadata
+        //   Ma  metadata access function
+        //   Mr  type metadata response
+        //   ML  type metadata lazy cache
+        //   Mu  type metadata singleton initialization cache
+        //   WP  protocol witness table
+        //   Wp  protocol witness table accessor
+        //   wxx value-witness table
+        //   MF  full metadata
+        return mangled.endsWith("MD") || mangled.endsWith("Ma") || mangled.endsWith("Mn")
+            || mangled.endsWith("Mr") || mangled.endsWith("ML") || mangled.endsWith("Mu")
+            || mangled.endsWith("MF") || mangled.endsWith("MP")
+            || mangled.endsWith("WP") || mangled.endsWith("Wp")
+            || mangled.endsWith("WL") || mangled.endsWith("WV") || mangled.endsWith("WS");
+    }
+
     private static String swiftifyBody(String c) {
         if (c == null) return "";
         int firstBrace = c.indexOf('{');
         int lastBrace = c.lastIndexOf('}');
         if (firstBrace >= 0 && lastBrace > firstBrace) c = c.substring(firstBrace + 1, lastBrace);
         c = c.trim();
+
+        // Strip leading Ghidra indentation so we can re-indent at our own
+        // depth in emitFunc.
+        c = c.replaceAll("(?m)^  ", "");
+
+        // ARC + memory-access bookkeeping that's pure noise to a human reader.
         String[] dropCalls = {
             "swift_retain","swift_release","swift_bridgeObjectRetain","swift_bridgeObjectRelease",
             "swift_unknownObjectRetain","swift_unknownObjectRelease",
             "swift_beginAccess","swift_endAccess",
-            "swift_release_n","swift_retain_n"
+            "swift_release_n","swift_retain_n",
+            "swift_weakInit","swift_weakDestroy","swift_weakAssign","swift_weakLoadStrong",
+            "swift_storeEnumTagSinglePayload","swift_getEnumTagSinglePayload"
         };
         for (String fn : dropCalls) {
             c = c.replaceAll("(?m)^\\s*_?" + Pattern.quote(fn) + "\\s*\\([^;]*\\);\\s*$\\n?", "");
         }
-        c = c.replaceAll("_?swift_allocObject\\s*\\(([^)]*)\\)", "alloc()");
+
+        // Cast / runtime-call rewrites
+        c = c.replaceAll("_?swift_allocObject\\s*\\(([^)]*)\\)", "/* alloc */ Object()");
+        c = c.replaceAll("_?swift_dynamicCast\\w*\\s*\\(([^,)]+)[^)]*\\)", "$1 as? Any");
         c = c.replaceAll("\\(undefined8?\\s*\\*+\\)", "");
-        c = c.replaceAll("\\(longlong\\)", "Int(");
-        c = c.replaceAll("\\(ulonglong\\)", "UInt(");
-        c = c.replaceAll("\\(uint\\)", "UInt(");
-        c = c.replaceAll("\\(int\\)", "Int(");
+        c = c.replaceAll("\\(longlong\\)\\s*", "Int");
+        c = c.replaceAll("\\(ulonglong\\)\\s*", "UInt");
+        c = c.replaceAll("\\(uint\\)\\s*", "UInt");
+        c = c.replaceAll("\\(int\\)\\s*", "Int");
+
+        // Pointer-deref → member access (best-effort).
         c = c.replaceAll("([A-Za-z_][A-Za-z0-9_]*)->", "$1.");
+
+        // C `== 0` / `!= 0` against pointers is more idiomatically `nil`-comparison.
+        c = c.replaceAll("==\\s*\\(?(undefined8?\\s*\\*+)?\\)?\\s*0\\b", "== nil");
+        c = c.replaceAll("!=\\s*\\(?(undefined8?\\s*\\*+)?\\)?\\s*0\\b", "!= nil");
+
         c = c.replaceAll("(?m)^\\s+$", "");
         c = c.replaceAll("\\n{3,}", "\n\n");
         return c.trim();
@@ -224,6 +266,10 @@ public class CDDecompileSwift extends GhidraScript {
             }
             if (mangled == null) continue;
             swift++;
+
+            // Metadata accessors / witness tables / type descriptors aren't
+            // user code — skip rather than emit them as garbage funcs.
+            if (isSwiftMetadataSymbol(mangled)) continue;
 
             String sigText = mangled;
             try {
