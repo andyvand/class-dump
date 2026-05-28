@@ -87,11 +87,12 @@ void print_usage(void)
             "                             combine with --cpp for C++ headers derived from the\n"
             "                             kext's LC_SYMTAB (kexts are mostly C++), and/or\n"
             "                             --swift for Swift extensions. Combine with --decompile,\n"
-            "                             --decompile-swift, and/or --decompile-cpp to additionally\n"
-            "                             rebase each kext into a stand-alone Mach-O (segments and\n"
-            "                             __LINKEDIT slice copied out, fileoffs rewritten) and run\n"
-            "                             Ghidra on it; the resulting .c/.swift/.cpp file is written\n"
-            "                             into the same OUTDIR/<entry-id>/ directory.\n"
+            "                             --decompile-swift, --decompile-cpp and/or --decompile-objc\n"
+            "                             to additionally rebase each kext into a stand-alone Mach-O\n"
+            "                             (segments and __LINKEDIT slice copied out, fileoffs\n"
+            "                             rewritten) and run Ghidra on it; the resulting\n"
+            "                             .c/.swift/.cpp/.m file is written into the same\n"
+            "                             OUTDIR/<entry-id>/ directory.\n"
             "        --decompress --out FILE\n"
             "                             decompress a 'comp' (LZSS/LZVN) prelinked kernel or a\n"
             "                             bare LZFSE stream and write the raw bytes to FILE\n"
@@ -151,10 +152,23 @@ void print_usage(void)
             "                             Hooks into --dsc-class-dump, --dsc-extract, and\n"
             "                             --extract-fileset; also runs on a plain class-dump.\n"
             "        --decompile-swift    like --decompile, but emits a <binary>.swift file\n"
-            "                             containing only Swift-mangled functions, with their\n"
-            "                             names demangled via Ghidra's Swift demangler\n"
-            "                             (NOTE: output is pseudo-C, not real Swift source).\n"
+            "                             containing only Swift-mangled functions, demangled\n"
+            "                             via Ghidra's Swift demangler and grouped under their\n"
+            "                             owning type as `class Module.Type { func ... }`. The\n"
+            "                             bodies are heuristically translated from Ghidra\n"
+            "                             pseudo-C into Swift-ish syntax (output is a Swift-\n"
+            "                             shaped sketch, not real compilable Swift).\n"
             "                             Can be combined with --decompile.\n"
+            "        --decompile-objc     like --decompile, but emits a <binary>.m file\n"
+            "                             containing only Objective-C method IMPs\n"
+            "                             (`-[Class sel]` / `+[Class sel]`), grouped by class\n"
+            "                             into `@implementation ... @end` blocks. Bodies are\n"
+            "                             heuristically translated: objc_msgSend rewrites to\n"
+            "                             `[recv sel:args]`, ARC retain/release calls drop out,\n"
+            "                             `_OBJC_CLASS_$_Foo` rewrites to `[Foo class]`. Output\n"
+            "                             is an ObjC-shaped sketch, not compilable source.\n"
+            "                             Can be combined with --decompile / --decompile-swift /\n"
+            "                             --decompile-cpp.\n"
             "        --decompile-cpp      like --decompile, but emits a <binary>.cpp file\n"
             "                             containing only Itanium-mangled C++ functions, with\n"
             "                             their names demangled and return/parameter types\n"
@@ -199,6 +213,7 @@ void print_usage(void)
 #define CD_OPT_DECOMPILE   41
 #define CD_OPT_DECOMPILE_SWIFT 42
 #define CD_OPT_DECOMPILE_CPP 43
+#define CD_OPT_DECOMPILE_OBJC 52
 #define CD_OPT_DSC_TIMEOUT       44
 #define CD_OPT_DSC_SKIP_EXISTING 45
 #define CD_OPT_DSC_IN_PROCESS    46
@@ -334,7 +349,8 @@ static int CDDumpSingleImage(NSString *fullPath,
                              BOOL dumpSwift,
                              BOOL decompile,
                              BOOL decompileSwift,
-                             BOOL decompileCpp)
+                             BOOL decompileCpp,
+                             BOOL decompileObjc)
 {
     NSFileManager *fm = [NSFileManager defaultManager];
     [fm createDirectoryAtPath:outDir withIntermediateDirectories:YES attributes:nil error:NULL];
@@ -425,6 +441,15 @@ static int CDDumpSingleImage(NSString *fullPath,
                             [[de localizedFailureReason] UTF8String]);
                 }
             }
+            if (decompileObjc) {
+                NSString *mOut = [outDir stringByAppendingPathComponent:
+                                  [base stringByAppendingPathExtension:@"m"]];
+                NSError *de = nil;
+                if (![CDDecompiler decompileObjcMachOAtPath:fullPath toPath:mOut error:&de]) {
+                    fprintf(stderr, "class-dump: decompile-objc failed: %s\n",
+                            [[de localizedFailureReason] UTF8String]);
+                }
+            }
         } @catch (NSException *e) {
             fprintf(stderr, "class-dump: exception while dumping %s: %s\n",
                     [fullPath UTF8String], [[e reason] UTF8String]);
@@ -493,6 +518,7 @@ int main(int argc, char *argv[])
             { "decompile",               no_argument,       NULL, CD_OPT_DECOMPILE },
             { "decompile-swift",         no_argument,       NULL, CD_OPT_DECOMPILE_SWIFT },
             { "decompile-cpp",           no_argument,       NULL, CD_OPT_DECOMPILE_CPP },
+            { "decompile-objc",          no_argument,       NULL, CD_OPT_DECOMPILE_OBJC },
             { "dsc-image-timeout",       required_argument, NULL, CD_OPT_DSC_TIMEOUT },
             { "dsc-skip-existing",       no_argument,       NULL, CD_OPT_DSC_SKIP_EXISTING },
             { "dsc-in-process",          no_argument,       NULL, CD_OPT_DSC_IN_PROCESS },
@@ -534,6 +560,7 @@ int main(int argc, char *argv[])
         BOOL shouldDecompile = NO;
         BOOL shouldDecompileSwift = NO;
         BOOL shouldDecompileCpp = NO;
+        BOOL shouldDecompileObjc = NO;
         double dscImageTimeout = 180.0;
         BOOL dscSkipExisting = NO;
         BOOL dscInProcess = NO;
@@ -718,6 +745,10 @@ int main(int argc, char *argv[])
                     shouldDecompileCpp = YES;
                     break;
 
+                case CD_OPT_DECOMPILE_OBJC:
+                    shouldDecompileObjc = YES;
+                    break;
+
                 case CD_OPT_DSC_TIMEOUT: {
                     char *endp = NULL;
                     double v = strtod(optarg, &endp);
@@ -860,14 +891,16 @@ int main(int argc, char *argv[])
             exit(0);
         }
 
-        // Fail-fast: if --decompile / --decompile-swift / --decompile-cpp
-        // was requested but Ghidra cannot be found, tell the user now
-        // rather than after the dump has produced its other output.
-        if (shouldDecompile || shouldDecompileSwift || shouldDecompileCpp) {
+        // Fail-fast: if --decompile / --decompile-swift / --decompile-cpp /
+        // --decompile-objc was requested but Ghidra cannot be found, tell
+        // the user now rather than after the dump has produced its other
+        // output.
+        if (shouldDecompile || shouldDecompileSwift || shouldDecompileCpp || shouldDecompileObjc) {
             NSString *gh = [CDDecompiler findGhidraHome];
             if (gh == nil) {
                 const char *which = shouldDecompile      ? ""        :
                                     shouldDecompileSwift ? "-swift"  :
+                                    shouldDecompileObjc  ? "-objc"   :
                                                            "-cpp";
                 fprintf(stderr, "class-dump: --decompile%s: Ghidra not found.\n%s\n",
                         which, [[CDDecompiler installHint] UTF8String]);
@@ -892,7 +925,8 @@ int main(int argc, char *argv[])
             NSString *full = [NSString stringWithFileSystemRepresentation:argv[optind]];
             int rc = CDDumpSingleImage(full, writeOutPath, classDump.backingCache,
                                        shouldDumpCpp, shouldDumpSwift,
-                                       shouldDecompile, shouldDecompileSwift, shouldDecompileCpp);
+                                       shouldDecompile, shouldDecompileSwift, shouldDecompileCpp,
+                                       shouldDecompileObjc);
             exit(rc);
         }
 
@@ -1119,6 +1153,15 @@ int main(int argc, char *argv[])
                                             [rel UTF8String], [[de localizedFailureReason] UTF8String]);
                                 }
                             }
+                            if (shouldDecompileObjc) {
+                                NSString *mOut = [outSub stringByAppendingPathComponent:
+                                                  [[full lastPathComponent] stringByAppendingPathExtension:@"m"]];
+                                NSError *de = nil;
+                                if (![CDDecompiler decompileObjcMachOAtPath:full toPath:mOut error:&de]) {
+                                    fprintf(stderr, "class-dump: decompile-objc %s failed: %s\n",
+                                            [rel UTF8String], [[de localizedFailureReason] UTF8String]);
+                                }
+                            }
 
                             succeeded++;
                         } @catch (NSException *e) {
@@ -1142,6 +1185,7 @@ int main(int argc, char *argv[])
                     if (shouldDecompile)      [childArgs addObject:@"--decompile"];
                     if (shouldDecompileSwift) [childArgs addObject:@"--decompile-swift"];
                     if (shouldDecompileCpp)   [childArgs addObject:@"--decompile-cpp"];
+                    if (shouldDecompileObjc)  [childArgs addObject:@"--decompile-objc"];
                     [childArgs addObject:full];
 
                     int rc = CDRunChildWithTimeout(selfPath, childArgs, dscImageTimeout, rel);
@@ -1231,10 +1275,11 @@ int main(int argc, char *argv[])
                 exit(1);
             }
 
-            if (shouldDecompile || shouldDecompileSwift || shouldDecompileCpp
+            if (shouldDecompile || shouldDecompileSwift || shouldDecompileCpp || shouldDecompileObjc
                 || shouldDumpCpp || shouldDumpSwift) {
                 NSDirectoryEnumerator *den = [fm enumeratorAtPath:dscExtractDir];
                 unsigned dcDone = 0, dcFail = 0, swDone = 0, swFail = 0, cppDone = 0, cppFail = 0;
+                unsigned objcDone = 0, objcFail = 0;
                 unsigned hCppDone = 0, hCppFail = 0, hSwDone = 0, hSwFail = 0;
                 for (NSString *rel in den) {
                     @autoreleasepool {
@@ -1321,21 +1366,34 @@ int main(int argc, char *argv[])
                                         [rel UTF8String], [[de localizedFailureReason] UTF8String]);
                             }
                         }
+                        if (shouldDecompileObjc) {
+                            NSString *mOut = [full stringByAppendingPathExtension:@"m"];
+                            NSError *de = nil;
+                            if ([CDDecompiler decompileObjcMachOAtPath:full toPath:mOut error:&de]) objcDone++;
+                            else {
+                                objcFail++;
+                                fprintf(stderr, "class-dump: decompile-objc %s failed: %s\n",
+                                        [rel UTF8String], [[de localizedFailureReason] UTF8String]);
+                            }
+                        }
                         unsigned total = dcDone + dcFail + swDone + swFail + cppDone + cppFail
+                                        + objcDone + objcFail
                                         + hCppDone + hCppFail + hSwDone + hSwFail;
                         if (total % 20 == 0) {
-                            fprintf(stderr, "\rclass-dump: c=%u/%u swift=%u/%u cpp=%u/%u cpp_h=%u/%u swift_h=%u/%u",
+                            fprintf(stderr, "\rclass-dump: c=%u/%u swift=%u/%u cpp=%u/%u m=%u/%u cpp_h=%u/%u swift_h=%u/%u",
                                     dcDone, dcDone + dcFail,
                                     swDone, swDone + swFail,
                                     cppDone, cppDone + cppFail,
+                                    objcDone, objcDone + objcFail,
                                     hCppDone, hCppDone + hCppFail,
                                     hSwDone, hSwDone + hSwFail);
                             fflush(stderr);
                         }
                     }
                 }
-                fprintf(stderr, "\nclass-dump: finished: c ok=%u fail=%u, swift ok=%u fail=%u, cpp ok=%u fail=%u, cpp_h ok=%u fail=%u, swift_h ok=%u fail=%u\n",
+                fprintf(stderr, "\nclass-dump: finished: c ok=%u fail=%u, swift ok=%u fail=%u, cpp ok=%u fail=%u, m ok=%u fail=%u, cpp_h ok=%u fail=%u, swift_h ok=%u fail=%u\n",
                         dcDone, dcFail, swDone, swFail, cppDone, cppFail,
+                        objcDone, objcFail,
                         hCppDone, hCppFail, hSwDone, hSwFail);
             }
             exit(0);
@@ -1558,6 +1616,16 @@ int main(int argc, char *argv[])
                                 [[de localizedFailureReason] UTF8String]);
                     }
                 }
+                if (shouldDecompileObjc) {
+                    NSString *mOut = [writeOutPath stringByAppendingPathExtension:@"m"];
+                    NSError *de = nil;
+                    if ([CDDecompiler decompileObjcMachOAtPath:writeOutPath toPath:mOut error:&de]) {
+                        fprintf(stderr, "class-dump: obj-c decompiled to %s\n", [mOut UTF8String]);
+                    } else {
+                        fprintf(stderr, "class-dump: decompile-objc failed: %s\n",
+                                [[de localizedFailureReason] UTF8String]);
+                    }
+                }
             }
 
             if (shouldFilesetClassDump) {
@@ -1612,6 +1680,7 @@ int main(int argc, char *argv[])
                 NSUInteger dcDone = 0, dcFail = 0;
                 NSUInteger swDecDone = 0, swDecFail = 0;
                 NSUInteger cppDecDone = 0, cppDecFail = 0;
+                NSUInteger objcDecDone = 0, objcDecFail = 0;
                 NSUInteger idx = 0;
                 for (CDLCFilesetEntry *e in sortedEntries) {
                     idx++;
@@ -1719,7 +1788,7 @@ int main(int argc, char *argv[])
                             // shared __LINKEDIT slice are copied into a new flat file
                             // so Ghidra can load the kext on its own. One extraction is
                             // shared across all three decompile variants.
-                            if (shouldDecompile || shouldDecompileSwift || shouldDecompileCpp) {
+                            if (shouldDecompile || shouldDecompileSwift || shouldDecompileCpp || shouldDecompileObjc) {
                                 NSString *tmpName = [NSString stringWithFormat:@"class-dump-fileset-%@-%@",
                                                      safeName, [[NSUUID UUID] UUIDString]];
                                 NSString *tmpPath = [NSTemporaryDirectory() stringByAppendingPathComponent:tmpName];
@@ -1732,6 +1801,7 @@ int main(int argc, char *argv[])
                                     if (shouldDecompile)      dcFail++;
                                     if (shouldDecompileSwift) swDecFail++;
                                     if (shouldDecompileCpp)   cppDecFail++;
+                                    if (shouldDecompileObjc)  objcDecFail++;
                                 } else {
                                     if (shouldDecompile) {
                                         NSString *cOut = [outSub stringByAppendingPathComponent:
@@ -1775,6 +1845,20 @@ int main(int argc, char *argv[])
                                                     [[de localizedFailureReason] UTF8String]);
                                         }
                                     }
+                                    if (shouldDecompileObjc) {
+                                        NSString *mOut = [outSub stringByAppendingPathComponent:
+                                                          [safeName stringByAppendingPathExtension:@"m"]];
+                                        NSError *de = nil;
+                                        if ([CDDecompiler decompileObjcMachOAtPath:tmpPath toPath:mOut error:&de]) {
+                                            objcDecDone++;
+                                        } else {
+                                            objcDecFail++;
+                                            fprintf(stderr, "class-dump: [%lu/%lu] %s: decompile-objc failed: %s\n",
+                                                    (unsigned long)idx, (unsigned long)total,
+                                                    [entryID UTF8String],
+                                                    [[de localizedFailureReason] UTF8String]);
+                                        }
+                                    }
                                     [fm removeItemAtPath:tmpPath error:NULL];
                                 }
                             }
@@ -1802,6 +1886,8 @@ int main(int argc, char *argv[])
                                                    (unsigned long)swDecDone, (unsigned long)swDecFail);
                 if (shouldDecompileCpp)   fprintf(stderr, ", decompile-cpp %lu ok / %lu fail",
                                                    (unsigned long)cppDecDone, (unsigned long)cppDecFail);
+                if (shouldDecompileObjc)  fprintf(stderr, ", decompile-objc %lu ok / %lu fail",
+                                                   (unsigned long)objcDecDone, (unsigned long)objcDecFail);
                 if (failed)               fprintf(stderr, ", %lu failed", (unsigned long)failed);
                 fprintf(stderr, "\n");
             }
@@ -2127,6 +2213,31 @@ int main(int argc, char *argv[])
                             }
                         } else {
                             fprintf(stderr, "class-dump: decompile-cpp failed: %s\n",
+                                    [[de localizedFailureReason] UTF8String]);
+                        }
+                    }
+
+                    if (shouldDecompileObjc) {
+                        NSString *mDir = outputPath ?: @".";
+                        if (![[NSFileManager defaultManager] fileExistsAtPath:mDir]) {
+                            [[NSFileManager defaultManager] createDirectoryAtPath:mDir
+                                                       withIntermediateDirectories:YES
+                                                                        attributes:nil
+                                                                             error:NULL];
+                        }
+                        NSString *mOut = [mDir stringByAppendingPathComponent:
+                                          [[executablePath lastPathComponent] stringByAppendingPathExtension:@"m"]];
+                        NSError *de = nil;
+                        fprintf(stderr, "class-dump: decompile-objc %s ...\n", [executablePath UTF8String]);
+                        if ([CDDecompiler decompileObjcMachOAtPath:executablePath toPath:mOut error:&de]) {
+                            if ([[NSFileManager defaultManager] fileExistsAtPath:mOut]) {
+                                fprintf(stderr, "class-dump: wrote %s\n", [mOut UTF8String]);
+                            } else {
+                                fprintf(stderr, "class-dump: decompile-objc: no Obj-C method IMPs found in %s\n",
+                                        [[executablePath lastPathComponent] UTF8String]);
+                            }
+                        } else {
+                            fprintf(stderr, "class-dump: decompile-objc failed: %s\n",
                                     [[de localizedFailureReason] UTF8String]);
                         }
                     }

@@ -1,4 +1,0 @@
-Target dependency graph (2 targets)
-Target 'deprotect' in project 'class-dump'
-➜ Explicit dependency on target 'MachObjC' in project 'class-dump'
-Target 'MachObjC' in project 'class-dump' (no dependencies)
